@@ -92,7 +92,7 @@ You can set this parameter for one or many users:
 * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
 
 > [!Important] 
-> You might have scripts in place that use the PowerShell cmdlets Get-UserAnalyticsConfig and Set-UserAnalyticsConfig. By November 10, 2020, these cmdlets will be retired, and replaced by the new cmdlets Get-MyAnalyticsFeatureConfig and Set-MyAnalyticsFeatureConfig, respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date. 
+> You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2020, these cmdlets will be retired, and replaced by the new cmdlets Get-MyAnalyticsFeatureConfig and Set-MyAnalyticsFeatureConfig, respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date. 
 
 ### User configuration settings
 
@@ -104,7 +104,36 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 > [!Important] 
 > The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
 
-### Set MyAnalytics access for one user
+### Command sequence
+
+You will use the Set-MyAnalyticsFeatureConfig and Get-MyAnalyticsFeatureConfig cmdlets to work with user configuration settings. Before you can use them, you need to install a module and sign in to be authenticated. This is the sequence of steps:
+
+1. [Install the ExchangeOnlineManagement module](#install-the-exchangeonlinemanagement-module).
+2. [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in) and, when prompted, sign in with your admin credentials. 
+3. Now, you are ready to work with user-configuration settings: 
+   * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)  
+   * [Confirm MyAnalytics access for a user](#confirm-myanalytics-access-for-a-user)
+   * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
+
+
+#### Install the ExchangeOnlineManagement module
+
+In this procedure, you install the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). 
+
+1. Open PowerShell.
+2. Run this command: 
+
+```powershell
+Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4-Preview3 -AllowPrerelease
+```
+
+3. Go directly to the following procedure, [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in).
+
+#### Run Connect-ExchangeOnline and sign in
+
+* In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). After you do so, it will prompt you to authenticate with your admin credentials. Do so.
+
+#### Set MyAnalytics access for one user
 
 Configure MyAnalytics access settings for a user with the PowerShell cmdlet [Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig):
 
@@ -118,7 +147,7 @@ Identity   |   Yes   | User ID for the current user as stored in Azure Active Di
 PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's data to compute derived statistics for other users. The user won't see statistics in MyAnalytics, but can choose to opt in from the Feature settings menu.</li><li>**Opt-in**: MyAnalytics uses the user's data to compute derived statistics for other users. The user can see statistics in MyAnalytics, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
 > [!Important]
-> The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
+> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
 
 Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's MyAnalytics features were turned on except the digest email:
 
@@ -130,7 +159,7 @@ Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the use
 
    Also see [Command reference: Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig).
 
-### Confirm MyAnalytics access for a user
+#### Confirm MyAnalytics access for a user
 
 Use the following to confirm whether a user has access to MyAnalytics (the value for PrivacyMode):
 
@@ -150,7 +179,7 @@ Get-MyAnalyticsFeatureConfig reveals the current configuration settings of the u
     IsAddInEnabled  : true
     IsDigestEmailEnabled : false
 
-### Set MyAnalytics access for multiple users
+#### Set MyAnalytics access for multiple users
 
 Use the following steps in the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2) to change access to MyAnalytics (the value of PrivacyMode) for multiple users by running a PowerShell script that iterates through the users, changing the value one user at a time.
 
@@ -204,7 +233,8 @@ The command Set-MyAnalyticsFeatureConfig can be used in three different ways:
 For more information about PrivacyMode, see [Configure access at the user level](#configure-access-at-the-user-level).
 
 ##### Command syntax - PrivacyMode
-Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode <opt-in/opt-out>
+
+Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
 
 ##### Example - PrivacyMode
 Running the following command sets the privacy mode to "opt-in" and enables all the features of MyAnalytics for the user:
@@ -228,7 +258,8 @@ Set-MyAnalyticsFeatureConfig -Identity <string> -Feature digest-email -isEnabled
 #### Set PrivacyMode _and_ enable or disable features
 
 ##### Command syntax - PrivacyMode and features
-Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false> 
+
+Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
 
 ##### Example - PrivacyMode and features
 Running the following command opts the user in (by setting PrivacyMode to 'opt-in') and enables all the features of MyAnalytics except the digest email:
