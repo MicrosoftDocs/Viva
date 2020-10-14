@@ -84,7 +84,7 @@ ADD APP DOWNLOAD PAGE IMAGE HERE:
 
 ### Pin the app 
 
-Note that the Teams app bar (the left navigation bar) is where you can find all apps for Teams.  
+Teams apps that have been pinned appear on the Teams app bar (the left navigation bar). 
 
 #### On desktop and web client 
 
@@ -92,7 +92,7 @@ Note that the Teams app bar (the left navigation bar) is where you can find all 
 
 2. Right-click any app icon and select **Pin** to make and keep your app visible in the navigation bar on the left. 
    
-   ![Pin an app in Teams](../../Images/mya/use/pin-an-app.png)
+   ![Pin an app in Teams](../../Images/mya/use/pin-an-app-75.png)
 
 > [!Tip] 
 > You can reorder everything on the left by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
@@ -151,7 +151,7 @@ In the following example, if Lynne was an important colleague, you could set up 
 
 If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
    
-   ![MyAnalytics settings](../../Images/mya/use/1-1-meeting-target.png)
+   ![MyAnalytics settings](../../Images/mya/use/1-1-meeting-target-75.png)
 
 #### 1:1 meeting suggestions 
 
@@ -239,7 +239,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
    
    After you have selected Yes or No on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
-   ![Thanks for the feedback](../../Images/mya/use/thanks-for-feedback.png)
+   ![Thanks for the feedback](../../Images/mya/use/thanks-for-feedback-70.png)
    
 ##### Q5. What data does the Teams Insights app use? 
 
