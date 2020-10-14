@@ -111,7 +111,7 @@ The Teams insights app comes with a range of features that you can find by selec
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
    
-   ![Stay connected](../../Images/mya/use/stay-connected.png.png)
+   ![Stay connected](../../Images/mya/use/stay-connected.png)
 
 The **Stay connected** tab can contain insights such as the following: 
 
