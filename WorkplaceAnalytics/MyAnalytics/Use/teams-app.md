@@ -215,19 +215,19 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 ## Frequently asked questions 
 
-#### Q1. Does the Teams insights app comply with GDPR? 
+##### Q1. Does the Teams insights app comply with GDPR? 
 
 **A1.** Yes. The Teams Insights app complies with GDPR requirements. 
 
-#### Q2. Can users see information about other users in the Insights app? 
+##### Q2. Can users see information about other users in the Insights app? 
 
 **A2.** The Insights app only includes existing information that’s already available in the user’s mailbox. It summarizes documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes. 
 
-#### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app? 
+##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app? 
 
 **A3.** No, the content in the Insights app is private and visible to you and only you. All information in the Insights app is from your mailbox and stored in your mailbox. Everything you see in the Insights app is information that you already have access to in your mailbox. Insights just makes it easier to find items that might need attention. 
 
-#### Q4. How can I send feedback to Microsoft about the Insights app? 
+##### Q4. How can I send feedback to Microsoft about the Insights app? 
 
 **A4.** There are two ways to provide feedback through the Insights app: 
 
@@ -241,7 +241,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
    
    ![Thanks for the feedback](../../Images/mya/use/thanks-for-feedback.png)
    
-#### Q5. What data does the Teams Insights app use? 
+##### Q5. What data does the Teams Insights app use? 
 
 **A5.** Insights uses: 
 
@@ -259,7 +259,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 Insights does not use: 
 
-Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
+ * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
 
 ## Admin controls 
 
