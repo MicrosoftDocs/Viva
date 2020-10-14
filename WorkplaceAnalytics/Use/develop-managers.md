@@ -45,10 +45,10 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definitions |
 |---------|--------|----------------------|
-|Optimize meeting hours |Manager meetings by duration and number of attendees shows the percentage of the average number of employees who attended what type of meetings based on meeting duration, including long meetings, large meetings, long and large meetings, and decision-making meetings. |Calculation info |
-|Prevent burnout |Distribution of after-hours collaboration from managers shows the percentage of managers spent more than one hour per week in after-hours collaboration. |Calculation info |
+|Optimize meeting hours |Manager meetings by duration and number of attendees | Shows the percentage of the average number of employees who attended what type of meetings based on meeting duration, including long meetings, large meetings, long and large meetings, and decision-making meetings. |
+|Prevent burnout |Distribution of after-hours collaboration from managers |Shows the percentage of managers spent more than one hour per week in after-hours collaboration. |
 |Strengthen management pipeline |Distribution of potential manager candidates |An organizational network graph representing current managers, potential managers, and other employees based on their network connections within your organization. |
-|Foster connectivity |Managers and cross-group connectivity shows an organizational network graph representing well-connected managers, less-connected managers, and other employees based on their network connections within your organization.  |Calculation info |
+|Foster connectivity |Managers and cross-group connectivity |Shows an organizational network graph representing well-connected managers, less-connected managers, and all other employees based on their network connections within your organization. Enables you to see the impact a manager's network has on engagement and the networks of direct reports. These insights enable you to build more effective manager training programs to improve engagement and broader organizational connectivity. |
 |Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of 1:1 hours that managers spend with employees grouped by the average monthly totals.|
 |Empower employees |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for co-attended meeting hours and 1:1 meeting hours for managers and their employees. |
 
@@ -87,18 +87,6 @@ For more best practices and how to define and share working hours, see [Best pra
 ## Strengthen management pipeline
 
 Potential leaders are often difficult to discover within an organization. Employees who are well-connected and play an important role in sharing information throughout the organization may be effective leaders.
-
-### Why it matters
-
-The
-
-### Best practices
-
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
 
 ## Foster connectivity
 
