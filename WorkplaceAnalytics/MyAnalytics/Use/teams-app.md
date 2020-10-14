@@ -19,7 +19,7 @@ By using Insights, you and your teams can:
  * **Stay connected** – Teams Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. 
  * **Protect time** – Teams Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. 
 
-The insights that this app presents are completely personal and private. Only you – not your manager and not the system administrator – can see your insights. For more information, see the Privacy guide. 
+The insights that this app presents are completely personal and private. Only you – not your manager and not the system administrator – can see your insights. For more information, see the following section, [Privacy guide](#privacy-guide). 
 
 ## Privacy guide 
 
@@ -48,9 +48,9 @@ Microsoft helps data controllers meet the following obligations for the Insights
 * Honor user requests (DSRs) to export, delete, or restrict processing personal data. Microsoft supports your need to honor user requests in the following ways. 
    * Data export requests - Users can view the insights in the Briefing email and manage it if they want to have permanent copies of their information. 
    * Request to restrict processing - Use PowerShell to opt employees out of the Briefing email. Or employees can individually unsubscribe from the Briefing email to restrict processing of their data. 
-   * Delete employee data - Sign in to Azure Active Directory admin center and then remove the employee's data through the User Management Portal. 
+   * Delete employee data - Sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal. 
 
-To learn more, see GDPR compliance. 
+To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr). 
 
 ## Install Insights 
 
@@ -59,19 +59,20 @@ This section describes how to install the Insights Teams app for yourself. (If y
 1. Open Microsoft Teams on the web or in a desktop client. 
 
 2. At the bottom of the Microsoft Teams app bar (on the left), select **Apps**: 
-
+   
+    ![Apps icon in Teams](../../Images/mya/use/teams-apps.png)
  
-3. In the search field under **Apps**, type **Insights**:  
-[There were dozens of results. Will we have a more restrictive search string for this app? -Paul] 
-
+3. In the search field under **Apps**, type **Insights**<!--There were dozens of results. Will we have a more restrictive search string for this app? -Paul] -->:
+   
+   ![Search for Insights](../../Images/mya/use/apps-search-insights.png)
  
-4. Select the Insights app 
-
-[Add app download page image. (I didn’t get this far because the app wasn’t there for me to choose.) - Paul ] 
+4. Select the **Insights** app<!-- [Add app download page image. (I didn’t get this far because the app wasn’t there for me to choose.) - Paul]-->: 
+   
+   ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
 5. Select **Add**. This adds the app for all of your Microsoft Teams clients, such as Teams, Teams on the web, and Teams on a mobile device. 
-
-[Add first screen image] 
+   
+   ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
 > [!Note] 
 > You can also locate the Insights app through this link: https://aka.ms/InsightsInTeams. 
@@ -85,11 +86,11 @@ Note that the Teams app bar (the left navigation bar) is where you can find all 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
 2. Right-click any app icon and select **Pin** to make and keep your app visible in the navigation bar on the left. 
-
-Pin an app to the left of Teams 
+   
+   ![Pin an app in Teams](../../Images/mya/use/pin-an-app.png)
 
 > [!Tip] 
-> You can reorder everything on the left by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see Pin an app for easy access. 
+> You can reorder everything on the left by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
  
 #### On the iOS and Android mobile platforms 
 
@@ -109,21 +110,19 @@ The Teams insights app comes with a range of features that you can find by selec
 ### Stay connected  
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
-
-Graphical user interface, application, Teams
-
-Description automatically generated 
+   
+   ![Stay connected](../../Images/mya/use/stay-connected.png.png)
 
 The **Stay connected** tab can contain insights such as the following: 
 
-* Identify and pin important collaborators  
-* Set up 1:1 meeting reminders 
-* 1:1 meeting suggestions 
-* Stay on top of outstanding task suggestions 
-* Reschedule a 1:1 in case of conflict 
-* Catch up on unread documents shared with you 
-* @Mentions for pinned important contacts  
-* Upcoming meetings that need your RSVP 
+* [Identify and pin important collaborators](#identify-and-pin-important-collaborators)  
+* [Set up 1:1 meeting reminders](#set-up-11-meeting-reminders) 
+* [1:1 meeting suggestions](#11-meeting-suggestions) 
+* [Reschedule a 1:1 in case of conflict](#reschedule-a-11-in-case-of-conflict) 
+* [Stay on top of outstanding task suggestions](#stay-on-top-of-outstanding-task-suggestions) 
+* [Catch up on unread documents shared with you](#catch-up-on-unread-documents-shared-with-you) 
+* [@Mentions for pinned important contacts](#-for-pinned-important-contacts) 
+* [Upcoming meetings that need your RSVP](#upcoming-meetings-that-need-your-rsvp) 
  
 #### Identify and pin important collaborators  
 
@@ -132,12 +131,12 @@ You might receive insights from various people but some items might deserve more
 Based on your collaboration patterns, you can pin some of your contacts as important. All insights from pinned important contacts are shown with higher priority at the top of the page.  
 
 To pin a contact, select the **pin** icon on the bottom left below the contact’s name: 
-
-
+   
+   ![Pin a contact](../../Images/mya/use/pin-contact.png)
 
 To unpin a contact, select the **unpin** icon: 
-
-
+   
+   ![Unpin a contact](../../Images/mya/use/unpin-contact.png)
 
 #### Set up 1:1 meeting reminders 
 
@@ -146,61 +145,58 @@ While staying in touch with top collaborators can be difficult, a quick 1:1 meet
 In the following example, if Lynne was an important colleague, you could set up a monthly 1:1 meeting target with Lynne by selecting the **people** icon and then selecting the **Monthly** reminder frequency. Insights will keep track of your meetings with Lynne and if you have not had a 1:1 with Lynne for a month, it will suggest setting up a 1:1 meeting and help you schedule it. 
 
 If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
-
-A screenshot of a cell phone
-
-Description automatically generated 
+   
+   ![MyAnalytics settings](../../Images/mya/use/1-1-meeting-target.png)
 
 #### 1:1 meeting suggestions 
 
 If you’ve set up a target 1:1 meeting cadence with your colleague through the Insights app and are falling out of the set cadence, Insights will remind you to set up a 1:1 meeting and help you schedule it.  
 
 In the following example, you can select one of the proposed meeting times and then select **Send invite** to send a meeting invitation to Lynne. Insights will only show meeting time blocks when both of you are available to meet. If none of the suggested time blocks work, you can select **View calendar for other items** to open the Teams calendar and schedule a meeting on your own. 
-
-
+   
+   ![Schedule a 1:1](../../Images/mya/use/schedule-1-1.png)
 
 #### Reschedule a 1:1 in case of conflict  
 
 Insights also helps you follow through on your intent to have 1:1 meeting with your colleagues. If, for some reason, the 1:1 meeting invitation you sent to your colleague has a conflict, Insights will help you quickly reschedule the meeting. 
 
 In the following example, if your meeting with Lynne has a conflict, Insights will remind you of the conflict ahead of time and you can quickly choose a new time for the 1:1 meeting and select **Reschedule** to move the meeting invitation. 
-
-
+   
+   ![1:1 has a conflict](../../Images/mya/use/1-1-conflict.png)
 
 #### Stay on top of outstanding task suggestions 
 
 It is easy to lose track of commitments that you've made to your colleagues in email. This insight helps you make sure that nothing falls through the cracks by reminding you of tasks that you've agreed to do. It is based on emails that you've sent and requests from your colleagues during the last 14 days of email communication, and includes: 
 
-* Commitments. Something that you promised or committed to do for someone else in an email 
-* Requests. Something that another person asked you to do in an email 
-* Follow-ups. Something that you asked for from someone else in an email 
+* **Commitments** &ndash; Something that you promised or committed to do for someone else in an email 
+* **Requests** &ndash; Something that another person asked you to do in an email 
+* **Follow-ups** &ndash; Something that you asked for from someone else in an email 
 
 In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select Done to confirm that you’ve already followed up.  
-
-
+   
+   ![Sync on regression tests email](../../Images/mya/use/sync-up.png)
 
 #### Catch up on unread documents shared with you 
 
 Have you searched for that document that you planned to read but you just cannot find it? With so many documents shared across meetings and emails, it can be difficult to stay caught up on documents shared by your colleagues. With this insight you can see a list of the shared OneDrive and SharePoint documents that you need to catch up on.  
 
 In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**. 
-
-
+   
+   ![Unread document from the meeting](../../Images/mya/use/unread-doc.png)
 
 #### @Mentions for pinned important contacts 
 
 @Mention is a common way to tag colleagues on important work items. Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up. 
-
+   
+   ![Sync on virtual commute research](../../Images/mya/use/sync-virtual.png)
 
 #### Upcoming meetings that need your RSVP 
 
 Let your colleagues know if you can join their meeting so that they can run effective meetings. Meeting attendance information helps meeting organizers better plan and prepare for meetings, and reschedule if needed.  
 
 In the following example, select **Sync on Proposal** to open the meeting invitation for more context on the meeting and then select **Accept** to accept (or **Decline** to decline) the meeting invitation. 
-
-Graphical user interface, text, application
-
-Description automatically generated 
+   
+   ![You haven't RSVP'd](../../Images/mya/use/havent-rsvpd.png)
 
 ### Protect time tab 
 
@@ -209,10 +205,8 @@ Research shows that on average it takes 23 minutes to refocus on a task after a 
 Insights can help you protect time for focused work and minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time. 
 
 In the following example, select **Book Time** to reserve the time slot for focused work. If you don’t need the time anymore, you can select **Remove slot** to free up your calendar. You can also select edit (the pencil icon) to change the name of the focus time block; this automatically updates the subject of this focus-time booking on your calendar. 
-
-Graphical user interface, application, Teams
-
-Description automatically generated 
+   
+   ![Book focus time](../../Images/mya/use/book-time.png)
 
 ## Frequently asked questions 
 
@@ -233,19 +227,22 @@ Description automatically generated
 **A4.** There are two ways to provide feedback through the Insights app: 
 
 * At the bottom of every Insight is the question, “Is this helpful?” Select **Yes** or **No** to provide feedback.  
+   
+   ![Is this helpful? Yes No](../../Images/mya/use/is-helpful.png)
 
 * Every page in the Insights app has the question, “Is this helpful?” at the bottom right corner. Select **Yes** or **No** to provide feedback.  
-
-After you have selected Yes or No on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
-
-
+   
+   After you have selected Yes or No on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
+   
+   ![Thanks for the feedback](../../Images/mya/use/thanks-for-feedback.png)
+   
 #### Q5. What data does the Teams Insights app use? 
 
 **A5.** Insights uses: 
 
 * Information from email items: 
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create task cards for your use only. 
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in.md/#mya-add-in-to-do) for your use only. 
 * Information from calendar items: 
   * Type (meeting or appointment) 
   * Status (busy, free, out-of-office, tentative) 
