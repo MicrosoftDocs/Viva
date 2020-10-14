@@ -109,7 +109,7 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps) and [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) cmdlets to work with user configuration settings. Before you can use them, you need to install a module and sign in to be authenticated. This is the sequence of steps:
 
 1. [Install the ExchangeOnlineManagement module](#install-the-exchangeonlinemanagement-module).
-2. [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in) and, when prompted, sign in with your admin credentials. 
+2. [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in) and, when prompted, sign in with your username and password. 
 3. After you've signed in, you are ready to work with user-configuration settings: 
    * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)  
    * [Confirm MyAnalytics access for a user](#confirm-myanalytics-access-for-a-user)
@@ -222,7 +222,7 @@ This PowerShell script:
 
 ### Command reference: Set-MyAnalyticsFeatureConfig
 
-The command Set-MyAnalyticsFeatureConfig can be used in three different ways:
+The PowerShell command [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps) can be used in three different ways:
 
  * [Set the PrivacyMode parameter](#set-the-privacymode-parameter)
  * [Enable or disable MyAnalytics features](#enable-or-disable-myanalytics-features)
