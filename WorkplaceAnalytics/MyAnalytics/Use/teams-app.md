@@ -40,15 +40,15 @@ The insights and actions in the Insights app are based on your Exchange Online m
 ### GDPR compliance 
 
 Microsoft helps data controllers meet the following obligations for the Insights app: 
-* Secure and protect users’ personal data. All data is stored in the employees’ Exchange Online mailbox. The computed metrics, such as tasks, are appended to the mailbox. Thus, the Insights meets this obligation by virtue of Exchange Online also meeting the obligation: 
+* **Secure and protect users’ personal data** &ndash; All data is stored in the employees’ Exchange Online mailbox. The computed metrics, such as tasks, are appended to the mailbox. Thus, the Insights meets this obligation by virtue of Exchange Online also meeting the obligation: 
    * Microsoft will not mine customer data in Exchange Online for advertising. 
    * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies. 
    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018. 
-* Notify users in the event that a breach is detected. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using Office 365 incident response standard operating procedures. 
-* Honor user requests (DSRs) to export, delete, or restrict processing personal data. Microsoft supports your need to honor user requests in the following ways. 
-   * Data export requests - Users can view the insights in the Briefing email and manage it if they want to have permanent copies of their information. 
-   * Request to restrict processing - Use PowerShell to opt employees out of the Briefing email. Or employees can individually unsubscribe from the Briefing email to restrict processing of their data. 
-   * Delete employee data - Sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal. 
+* **Notify users in the event that a breach is detected** &ndash; Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using Office 365 incident response standard operating procedures. 
+* **Honor user requests (DSRs) to export, delete, or restrict processing personal data** &ndash; Microsoft supports your need to honor user requests in the following ways. 
+   * **Data export requests** &ndash; Users can view the insights in the Briefing email and manage it if they want to have permanent copies of their information. 
+   * **Request to restrict processing** &ndash; Use PowerShell to opt employees out of the Briefing email. Or employees can individually unsubscribe from the Briefing email to restrict processing of their data. 
+   * **Delete employee data** &ndash; Sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal. 
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr). 
 
@@ -72,30 +72,30 @@ ADD APP DOWNLOAD PAGE IMAGE HERE:
    
    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 
-5. Select **Add**. This adds the app to all the places where you might use Microsoft Teams, including standalone Teams, Teams on the web, and Teams on a mobile device. 
+5. Select **Add**. This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop clinet, Teams on the web, and Teams on a mobile device. 
    
    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
 -->
 
-4. Select the **Insights** app and then select **Add**. This adds the app to all the places where you might use Microsoft Teams, including standalone Teams, Teams on the web, and Teams on a mobile device. 
+4. Select the **Insights** app and then select **Add**. This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop clinet, Teams on the web, and Teams on a mobile device. 
 
 > [!Note] 
 > You can also locate the Insights app through this link: https://aka.ms/InsightsInTeams. 
 
 ### Pin the app 
 
-Teams apps that have been pinned appear on the Teams app bar (the left navigation bar). 
+After you pin a Teams app, it appears on the Teams app bar (the left navigation bar). 
 
 #### On desktop and web client 
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
-2. Right-click any app icon and select **Pin** to make and keep your app visible in the navigation bar on the left. 
+2. Right-click any app icon and select **Pin** to make and keep your app visible in the Teams app bar. 
    
    ![Pin an app in Teams](../../Images/mya/use/pin-an-app-75.png)
 
 > [!Tip] 
-> You can reorder everything on the left by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
+> You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
  
 #### On the iOS and Android mobile platforms 
 
@@ -111,6 +111,10 @@ The Teams insights app comes with a range of features that you can find by selec
 
 * [Stay connected](#stay-connected) 
 * [Protect time](#protect-time) 
+
+> [!Note] 
+> As you use the Teams insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q4-how-can-i-send-feedback-to-microsoft-about-the-insights-app).
+
 
 ### Stay connected  
 
@@ -177,7 +181,7 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 * **Requests** &ndash; Something that another person asked you to do in an email 
 * **Follow-ups** &ndash; Something that you asked for from someone else in an email 
 
-In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select Done to confirm that you’ve already followed up.  
+In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select **Done** to confirm that you’ve already followed up.  
    
    ![Sync on regression tests email](../../Images/mya/use/sync-up.png)
 
@@ -237,7 +241,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * Every page in the Insights app has the question, “Is this helpful?” at the bottom right corner. Select **Yes** or **No** to provide feedback.  
    
-   After you have selected Yes or No on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
+   After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
    ![Thanks for the feedback](../../Images/mya/use/thanks-for-feedback-70-80.png)
    
@@ -247,7 +251,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * Information from email items: 
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in.md/#mya-add-in-to-do) for your use only. 
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in/mya-add-in-to-do.md) for your use only. 
 * Information from calendar items: 
   * Type (meeting or appointment) 
   * Status (busy, free, out-of-office, tentative) 
@@ -256,6 +260,8 @@ In the following example, select **Book Time** to reserve the time slot for focu
   * Duration 
   * Attendees 
 * OneDrive SharePoint data: Insights shows a count of OneDrive and SharePoint documents that you have worked on. 
+
+https://docs.microsoft.com/en-us/workplace-analytics/myanalytics/use/mya-outlook-add-in/mya-add-in-to-do
 
 Insights does not use: 
 
