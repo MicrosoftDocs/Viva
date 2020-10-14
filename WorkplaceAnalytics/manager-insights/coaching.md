@@ -62,6 +62,6 @@ Meetings where an employee and their manager are both attending can signify  a l
 * Request that when possible the manager delegates the decision rights for that work stream to the employee who is also attending.
 * Recap these delegated decisions during recurring 1:1s where further coaching can be practiced.
 
-## Related topics
+## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)

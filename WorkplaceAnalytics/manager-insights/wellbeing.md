@@ -47,6 +47,15 @@ Redmond, Washington
 My working hours are 9:00 AM to 6:00 PM PT
 ```
 
+#### Create norm of scheduling "slack-time"
+
+People often feel overloaded because tasks take more time than we expect. "Slack-time" is a block of time without meetings to accommodate for poor planning to get work done or decompress at the end of the day. Ways to do this:
+
+* Send out communications regarding the importance of slack- or focus-time.
+* Encourage people to block their calendars and actually decline meetings or emails sent during that time.
+* Share anecdotes around when people have successes because they utilized their slack-time.
+
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)
+[MyAnalytics wellbeing](../myanalytics/use/wellbeing.md)

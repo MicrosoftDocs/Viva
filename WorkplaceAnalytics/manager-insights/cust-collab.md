@@ -22,12 +22,18 @@ The following are based on research presented in the [The loyalty economy: Are y
 
 ## Best practices
 
+* Use [MyAnalytics Important people list](../myanalytics/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
+* Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
 * Encourage employees to build deeper relationships with customers. Developing customer empathy enables employees to identify the emotional needs of their customers and understand the reasons why and respond in a way that creates a long-lasting  relationship with customers.
 * Identify opportunities to free up employees’ time spent on administrative tasks or internal meetings, so they have more time to spend with customers.
 * Facilitate direct interaction with customers, even in “back office” functions. Every employee impacts the customer experience in some way and interacting with customers enables a better understanding of customer needs and their successes and challenges.
 * Democratize customer insights with customer facing teams that create a culture where customers can help drive decisions.
 * Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 
-## Related topics
+## Change catalyst: Track time with most important external contacts
 
-[Workplace Analytics best practices](gm-best-practices.md)
+Create a list of top external, customer relationships and distribute monthly reports to your team that shows how much time was spent with them and how that compares with established goals.
+
+## Related topic
+
+[Workplace Analytics best practices](best-practices.md)

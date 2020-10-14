@@ -202,4 +202,23 @@ author: madehmer
         </div>
         </a>
     </li>
+    <li>
+        <a href="connectivity.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/wpa/playbooks/cross-group-collab-64x64.svg" alt="customer focus"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Community connectivity</h3>
+                        <p>Learn how creating a work community helps improve overall team wellbeing and productivity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
