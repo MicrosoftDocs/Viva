@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Teams insights app
 description: Teams insights app -- description, installation, using it, and FAQ
 author: paul9955
