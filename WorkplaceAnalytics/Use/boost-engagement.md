@@ -48,13 +48,15 @@ The following defines the organizational data shown in the visual behavioral ins
 |Encourage team cohesion |Cohesion within teams |An organizational network graph that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |
 |Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for [meeting hours with manager and meeting hours with manager 1:1](metric-definitions.md#person-metrics) for managers and their employees. |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Promote coaching and development
+## Best practices for employee engagement
+
+### Promote coaching and development
 
 Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
@@ -62,7 +64,7 @@ One of the top best practices for promoting coaching and development is to requi
 
 For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
-## Prevent employee burnout
+### Prevent employee burnout
 
 Pressure to "always be on" and long hours can lead to employee burnout. The amount of time employees spend collaborating outside of business hours is an indicator of burnout risk.
 
@@ -75,7 +77,7 @@ Ways to support employee wellbeing:
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
 
-## Encourage team cohesion
+### Encourage team cohesion
 
 Employees who maintain strong connections within their team feel a sense of organizational belonging.
 
@@ -89,7 +91,7 @@ Ways to support team cohesion:
 
 For more best practices and how to open your network to your teams, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
 
-## Drive employee empowerment
+### Drive employee empowerment
 
 Cultivating autonomy and development are essential for employee engagement. Managers who empower employees to make decisions and tackle new challenges are more effective and reclaim time.
 

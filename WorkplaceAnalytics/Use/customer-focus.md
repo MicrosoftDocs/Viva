@@ -43,13 +43,15 @@ The following defines the organizational data shown in the visual behavioral ins
 |Promote coaching and development |Distribution of monthly 1:1 time with managers |Shows the percentage of employees grouped by the monthly average number of hours spent with their managers one-on-one. This uses [meeting hours with manager 1:1](metric-definitions.md#person-metrics). |
 |Strengthen internal networks |Internal network connections by employee network strength |An organizational network graph that shows the number of employees with strong internal networks as compared to other employees in your organization. Each node represents an employee and the darker colored nodes represent employees with a higher number of internal connections, as the legend indicates. This uses [organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics). |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Optimize time with customers
+## Best practices for customer focus
+ 
+### Optimize time with customers
 
 Collaboration with customers and other external contacts enables employees to gain the customer and market knowledge needed for business success. Spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.
 
@@ -62,7 +64,7 @@ Ways to support customer focus:
 
 For best practices and how to track time with your most important external contacts, see [Best practices for customer collaboration](../tutorials/gm-cust-collab.md).
 
-## Promote coaching and development
+### Promote coaching and development
 
 Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
@@ -70,7 +72,7 @@ One of the top best practices for promoting coaching and development is to requi
 
 For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
-## Strengthen internal networks
+### Strengthen internal networks
 
 Employees who maintain strong internal networks are better resourced to meet customer needs and achieve goals. Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
 

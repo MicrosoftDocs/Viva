@@ -60,6 +60,10 @@ In these network graphs, each dot or node represents an employee or a group. The
 
 For details about the metrics, see [Organizational network measures](insight-ona-measures.md).
 
+## Error states
+
+When viewing Workplace Analytics insights, different error states can occur if access, connectivity, or other issues cause incomplete data. See [Error state reference](#error-states.md) for more details.
+
 ## Frequently asked questions
 
 ### Q1 How do these insights accommodate different partitions?
@@ -68,4 +72,4 @@ These insights are only about the participants who are included in the selected 
 
 ### Q2 Which roles have access to these insights?
 
-The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Workplace Analytics Home for people managers](pm-home.md) for more details.
+The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Workplace Analytics manager insights](pm-home.md) for more details.

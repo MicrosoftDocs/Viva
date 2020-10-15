@@ -43,13 +43,15 @@ The following defines the organizational data shown in the visual behavioral ins
 |Measure Microsoft Teams adoption |Distribution of Teams adoption |A chart that shows the average number of [collaboration hours](metric-definitions.md#person-metrics) that employees spent in Teams over the past year by quarter and the average used by [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics). |
 |Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. This uses [collaboration hours](metric-definitions.md#person-metrics) |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Engage influencers
+## Best practices for accelerating change
+
+### Engage influencers
 
 Leveraging the right teams and people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
 
@@ -62,7 +64,7 @@ Ways to leverage influencers:
 
 For more best practices and how to identify and utilize team influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 
-## Measure Teams adoption
+### Measure Teams adoption
 
 Successful digital transformations require a real-time understanding of technology adoption rates and usage trends within the organization.
 
@@ -76,7 +78,7 @@ Some key ways to support Teams adoption:
 
 For best practices and how to be a role model for Teams use, see [Best practices for efficient communication](../tutorials/gm-communication.md).
 
-## Support connectivity
+### Support connectivity
 
 Teams provides a shared work environment that strengthens connectivity and boosts productivity. Monitoring team cohesion post technology adoption is an indication of tool effectiveness. 
 

@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Error states in Workplace Analytics
 description: Describes the different error states that might be encountered when viewing Workplace Analytics insights
 author: paul9955
@@ -32,3 +32,6 @@ Access, connectivity, or other issues can cause pages to not appear or to appear
 | Generation failure | 	[TBW] | The stats on the top right of the page are not showing the employee count. (#5) |
 | Something went wrong | There was an issue loading this page. Please try again later. | [TBW (Learn more comes to here.)] (#1b) |
 		
+## Related topic
+
+[Business outcomes overview](insights.md)
