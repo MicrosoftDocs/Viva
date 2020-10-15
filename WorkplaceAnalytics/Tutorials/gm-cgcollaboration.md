@@ -13,6 +13,8 @@ ms.prod: wpa
 
 Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
 
+Employees that collaborate across silos are more aware of other perspectives and are better able to share ideas to foster innovation and inclusion.
+
 ## Why it matters
 
  The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explains how important cross-group collaboration is for getting work done:
@@ -26,7 +28,7 @@ Connecting employees across units creates agile innovation by helping the compan
 * Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 * Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use [MyAnalytics to manage important people](../myanalytics/use/network.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
-* Breakdown silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
+* Motivate team members to reach across silos.Breakdown silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
 * Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.  
 * Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.  
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.  
@@ -51,6 +53,14 @@ Managers can coordinate and assign liaison roles to communicate across teams and
 * Align on an initial project, such as a platform to quickly find and respond to customer incidents.
 * Create a platform to share ideas, such as a Teams channel and a monthly check-in meeting.
 
-## Related topics
+#### Create cross-team communities
+
+Create a space for people with similar interests to share ideas, knowledge, and resources.
+
+#### Enable MyAnalytics network insights
+
+Empower individuals to take advantage of the metrics and suggestions on how to improve their connections by using [MyAnalytics network insights](../myanalytics/use/network.md).
+
+## Related topic
 
 [Workplace Analytics best practices](gm-best-practices.md)
