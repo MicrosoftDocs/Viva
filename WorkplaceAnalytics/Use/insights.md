@@ -62,7 +62,7 @@ For details about the metrics, see [Organizational network measures](insight-ona
 
 ## Error states
 
-When viewing Workplace Analytics insights, different error states can occur if access, connectivity, or other issues cause incomplete data. See [Error state reference](#error-states.md) for more details.
+When viewing Workplace Analytics insights, different error states can occur if access, connectivity, or other issues cause incomplete data. See [Error state reference](error-states.md) for more details.
 
 ## Frequently asked questions
 
