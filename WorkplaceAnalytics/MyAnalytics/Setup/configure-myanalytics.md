@@ -234,7 +234,7 @@ For more information about PrivacyMode, see [Configure access at the user level]
 
 ##### Command syntax - PrivacyMode
 
-Set-MyAnalyticsFeatureConfig -Identity <string> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
+Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode <opt-in/opt-out>
 
 ##### Example - PrivacyMode
 Running the following command sets the privacy mode to "opt-in" and enables all the features of MyAnalytics for the user:
