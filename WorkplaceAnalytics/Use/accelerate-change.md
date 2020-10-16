@@ -23,7 +23,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ## About the insights
 
-The following are the percentage insights, their underlying metrics, and a little about the calculations used for them. 
+The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
 ![Accelerate change percentage insight](../images/wpa/use/accelerate-change-percent.png)
 
@@ -49,7 +49,7 @@ The following defines the organizational data shown in the visual behavioral ins
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices for accelerating change
+## Best practices to accelerate change
 
 ### Engage influencers
 
@@ -80,7 +80,7 @@ For best practices and how to be a role model for Teams use, see [Best practices
 
 ### Support connectivity
 
-Teams provides a shared work environment that strengthens connectivity and boosts productivity. Monitoring team cohesion post technology adoption is an indication of tool effectiveness. 
+Teams provides a shared work environment that strengthens connectivity and boosts productivity. Monitoring team cohesion post technology adoption is an indication of tool effectiveness.
 
 [Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) explains how "Communityship requires a more modest form of leadership that might be called engaged and distributed management. A community leader is personally engaged in order to engage others, so that anyone and everyone can exercise initiative."
 

@@ -26,6 +26,8 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
+<!-- ![Improve agility percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
+
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Organize better meetings |Percentage of  |Metric info|Calculation info |
@@ -35,7 +37,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
+<!-- ![Improve agility visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
@@ -44,30 +46,32 @@ The following defines the organizational data shown in the visual behavioral ins
 |Foster cross-group collaboration |Visual insight  |
 |Improve management practices |Visual insight  |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Organize better meetings
+## Best practices to improve agility
+
+### Organize better meetings
 
 Long and large meetings are costly and often considered a waste of time. Shorter and smaller meetings provide the conditions for effective decision-making.
 
+<!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? -->
 
-
-## Accelerate decision-making
+### Accelerate decision-making
 
 Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
 
 
-
-## Foster cross-group collaboration
+### Foster cross-group collaboration
 
 Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
 
+<!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? --> 
 
-## Improve management practices
+### Improve management practices
 
 When managers are needed in more meetings than they can attend, they become obstacles to team goal attainment and create bottlenecks in decision making.
 

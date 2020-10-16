@@ -54,7 +54,7 @@ The following defines the organizational data shown in the visual behavioral ins
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices for employee engagement
+## Best practices to boost employee engagement
 
 ### Promote coaching and development
 

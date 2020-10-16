@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Enhance organizational resiliency
 
-Employees 
+Resilience depends on having the right insights, systems, and tools to respond to sudden changes, recover from disruption, and reimagine the future for your organization.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can enhance organizational resiliency.
 
@@ -25,7 +25,9 @@ Each of the following behaviors show how your organization compares with others 
 
 ## About the insights
 
-The following are used to calculate the metrics used for the organizational data shown in the behavioral insights and visual insights.
+The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
+
+<!-- ![Improve agility percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -33,101 +35,87 @@ The following are used to calculate the metrics used for the organizational data
 |Protect employee wellbeing |Percentage of  |Metric info |Calculation info |
 |Practice empathy |Percentage of  |Metric info |Calculation info |
 |Free up capacity |Percentage of  |Metric info |Calculation info |
-|Accelerate decision-making|Percentage of  |<ul><li>Metric 1</li><li>Metric 2 </li></ul> |Calculation info |
+|Accelerate decision-making|Percentage of  |Metric info |Calculation info |
 
-|Behavior |Visual insight | Calculations |
+The following defines the organizational data shown in the visual behavioral insights.
+
+<!-- ![Improve agility visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+
+|Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Improve team cohesion |Visual insight  |Calculation info |
+|Improve team cohesion |Visual insight  |Definition |
 |Protect employee wellbeing |Visual insight  |Calculation info |
 |Practice empathy |Visual insight  |Calculation info |
 |Free up capacity |Visual insight  |Calculation info |
 |Accelerate decision-making|Visual insight  |Calculation info |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Improve team cohesion
+## Best practices to enhance organizational resiliency
+
+### Improve team cohesion
+
+Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
+
+<!-- Why it matters quote - check out Encourage team cohesion section in boost-engagement.md-->
+
+Ways to :
+
+* First best practice
+
+Sentence that refers to best practices with a how-to catalyst title...
+
+### Protect employee wellbeing
 
 One liner quote from Connor & Kate's spreadsheet
 
-### Why it matters
+<!-- Why it matters quote - check out Prevent employee burnout section in boost-engagement.md-->
 
-The
-
-### Best practices
+Ways to : 
 
 * First best practice
 
-### Change catalyst: <action>
+Sentence that refers to best practices with a how-to catalyst title...
 
-* Take
+### Practice empathy
 
-## Protect employee wellbeing
+One liner quote from Connor & Kate's spreadsheet
 
-One liner 
+<!-- Why it matters quote - check out Promote coaching and development section in boost-engagement.md-->
 
-### Why it matters
-
-The
-
-### Best practices
+Ways to : 
 
 * First best practice
 
-### Change catalyst: <action>
+Sentence that refers to best practices with a how-to catalyst title...
 
-* Take
+### Free up capacity
 
-## Practice empathy
+One liner quote from Connor & Kate's spreadsheet
 
-One liner 
+<!-- Why it matters quote - check out Drive employee empowerment section in boost-engagement.md-->
 
-### Why it matters
-
-The
-
-### Best practices
+Ways to : 
 
 * First best practice
 
-### Change catalyst: <action>
+Sentence that refers to best practices with a how-to catalyst title...
 
-* Take
+### Accelerate decision-making
 
-## Free up capacity
+One liner quote from Connor & Kate's spreadsheet
 
-One liner 
+<!-- Why it matters quote - check out Improving meeting quality section in effective-operations.md-->
 
-### Why it matters
-
-The
-
-### Best practices
+Ways to : 
 
 * First best practice
 
-### Change catalyst: <action>
-
-* Take
-
-## Accelerate decision-making
-
-One liner 
-
-### Why it matters
-
-The
-
-### Best practices
-
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
+Sentence that refers to best practices with a how-to catalyst title...
 
 ## Related topics
 

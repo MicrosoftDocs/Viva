@@ -52,13 +52,15 @@ The following defines the organizational data shown in the visual behavioral ins
 |Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of 1:1 hours that managers spend with employees grouped by the average monthly totals.|
 |Empower employees |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for co-attended meeting hours and 1:1 meeting hours for managers and their employees. |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Optimize meeting hours
+## Best practices to develop effective managers
+
+### Optimize meeting hours
 
 Long and large meetings are costly and often a waste of manager time. Shorter and smaller meetings provide the best conditions for effective decision-making.
 
@@ -71,7 +73,7 @@ Ways to optimize meetings:
 
 For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
-## Prevent burnout
+### Prevent burnout
 
 Pressure to "always be on" and long hours can lead to burnout. The amount of time managers spend collaborating outside of business hours is an indicator of burnout risk.
 
@@ -84,42 +86,24 @@ Ways to support wellbeing:
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
 
-## Strengthen management pipeline
+### Strengthen management pipeline
 
 Potential leaders are often difficult to discover within an organization. Employees who are well-connected and play an important role in sharing information throughout the organization may be effective leaders.
 
-## Foster connectivity
+### Foster connectivity
 
 Managers who have diverse ties across an organization are typically considered more effective and help their employees build strong networks.
 
-### Why it matters
+ [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) explains that work "occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
 
-The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explains how important cross-group collaboration is in getting work done:
-
-* “Work occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
-* "Intuitively, we know that the collaborative intensity of work has skyrocketed, and that collaborations are central to agility."
-* "Yet most organizations don’t manage internal collaboration productively, and assume that technology or formal org charts can yield agility.”
-
-### Best practices
+Ways to foster connectivity:
 
 * Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview).
-* Enable and use the [Insights Outlook add-in](/myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts.
-* Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.
-* Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.
-* Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less conﬁdent about contributing.
-* Set up “communities of practice” or business development initiatives to help share expertise or resources.
-* Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people whom the formal performance reviews might otherwise overlook.
+* Enable and use the [Insights Outlook add-in](/myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
 
-### Change catalyst: Create goals across teams or departments
+For more best practices and ways to open your network to your team, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
 
-Managers can coordinate and assign liaison roles to communicate across teams and with other departments to help avoid isolation and ensure information flow. Here are a few goals for customer satisfaction as an example:
-
-* Identify a cross-team goal of improving customer satisfaction.
-* Identify the groups that should be involved, such as Support, Services, and Engineering.
-* Align on an initial project and a platform, such as a Teams channel, to quickly find and respond to customer incidents.
-* Create a platform to share ideas, such as a Teams channel and a monthly check-in meeting
-
-## Promote coaching and development
+### Promote coaching and development
 
 Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
@@ -127,7 +111,7 @@ One of the top best practices for promoting coaching and development is to requi
 
 For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
-## Empower employees
+### Empower employees
 
 Cultivating autonomy and development are essential for employee engagement. Managers who empower employees to make decisions and tackle new challenges are more effective and reclaim time.
 

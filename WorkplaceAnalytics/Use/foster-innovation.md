@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Foster innovation
 
-Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets. 
+Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain organizational innovation.
 
@@ -43,13 +43,15 @@ The following defines the organizational data shown in the visual behavioral ins
 |Enable deep work |Distribution of time for deep work |Shows the percentage of employees who had uninterrupted time for deep work grouped by the amount of focus hours they had for the week. It uses [collaboration and focus hours](metric-definitions.md#person-metrics) to calculate this data. |
 |Utilize influencers |Organizations with limited influencers |Shows the percentage of teams in your organization that are low on influencers. This graph uses the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Foster cross-group collaboration
+## Best practices to foster innovation 
+
+### Foster cross-group collaboration
 
 Collaboration across organizational boundaries enables the learning and idea formation required for innovation. [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) explains that work "occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
 

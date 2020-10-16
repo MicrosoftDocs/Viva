@@ -24,91 +24,79 @@ Each of the following behaviors show how your organization compares with others 
 
 ## About the insights
 
-The following are used to calculate the metrics used for the organizational data shown in the behavioral insights and visual insights.
+The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
+
+<!-- ![Operational effectiveness percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Free up capacity |Percentage of  |Metric info|Calculation info |
 |Improve meeting quality |Percentage of  |Metric info |Calculation info |
 |Keep employees engaged |Percentage of  |Metric info |Calculation info |
-|Protect time to get work done |Percentage of  |<ul><li>Metric 1</li><li>Metric 2 </li></ul> |Calculation info |
+|Protect time to get work done |Percentage of  |Metric info |Calculation info |
 
-|Behavior |Visual insight | Calculations |
+The following defines the organizational data shown in the visual behavioral insights.
+
+<!-- ![Operational effectiveness visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+
+|Behavior |Visual insight | Defintion |
 |---------|--------|----------------------|
-|Free up capacity |Visual insight  |Calculation info |
-|Improve meeting quality |Visual insight  |Calculation info |
-|Keep employees engaged |Visual insight  |Calculation info |
-|Protect time to get work done |Visual insight  |Calculation info |
+|Free up capacity |Visual insight  |Definition |
+|Improve meeting quality |Visual insight  |Definition |
+|Keep employees engaged |Visual insight  |Definition |
+|Protect time to get work done |Visual insight  |Definition |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Free up capacity
+## Best practices to maximize operational effectiveness
+
+### Free up capacity
 
 One liner quote from Connor & Kate's spreadsheet
 
-### Why it matters
+Quote
 
-The
+2 to 3 best practices
 
-### Best practices
+Sentence to refer user to best practices
 
-* First best practice
 
-### Change catalyst: <action>
+### Improve meeting quality
 
-* Take
+Long and large meetings are costly and often considered a waste of time. Shorter meetings with fewer people can enhance individual and team performance.
 
-## Improve meeting quality
+[The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance."
 
-One liner 
+Ways to optimize meetings:
 
-### Why it matters
+* Use [MyAnalytics](../myanalytics/use/mya-notifications.md#shorten-a-meeting) to shorten meetings. For example, when you're composing a meeting invitation with a duration of one hour, an inline suggestion will remind you to shorten the meeting by 15 minutes.
+* Invite fewer people. When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 
-The
+For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
-### Best practices
+### Keep employees engaged
 
-* First best practice
+One liner quote from Connor & Kate's spreadsheet
 
-### Change catalyst: <action>
+Quote
 
-* Take
+2 to 3 best practices
 
-## Keep employees engaged
+Sentence to refer user to best practices
 
-One liner 
+### Protect time to get work done
 
-### Why it matters
+One liner quote from Connor & Kate's spreadsheet
 
-The
+Quote
 
-### Best practices
+2 to 3 best practices
 
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
-
-## Protect time to get work done
-
-One liner 
-
-### Why it matters
-
-The
-
-### Best practices
-
-* First best practice
-
-### Change catalyst: <action>
-
-* Take
+Sentence to refer user to best practices
 
 ## Related topics
 

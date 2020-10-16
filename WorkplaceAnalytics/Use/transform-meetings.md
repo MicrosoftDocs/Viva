@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Transform meeting culture
 
-Employees 
+Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or transform your organization's meeting culture.
 
@@ -23,7 +23,9 @@ Each of the following behaviors show how your organization compares with others 
 
 ## About the insights
 
-The following are used to calculate the metrics used for the organizational data shown in the behavioral insights and visual insights.
+The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
+
+<!-- ![Meeting culture percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -31,66 +33,59 @@ The following are used to calculate the metrics used for the organizational data
 |Examine recurring meetings |Percentage of  |Metric info |Calculation info |
 |Promote healthy meeting habits |Percentage of  |Metric info |Calculation info |
 
-|Behavior |Visual insight | Calculations |
+The following defines the organizational data shown in the visual behavioral insights.
+
+<!-- ![Meeting culture visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+
+|Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Optimize meeting hours  |Visual insight  |Calculation info |
+|Optimize meeting hours  |Visual insight  |Defintion |
 |Examine recurring meetings |Visual insight  |Calculation info |
 |Promote healthy meeting habits |Visual insight  |Calculation info |
 
-## Advanced analysis
+## Take action
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Optimize meeting hours 
+## Best practices to transform meeting culture
+
+### Optimize meeting hours
 
 One liner quote from Connor & Kate's spreadsheet
 
-### Why it matters
+Why it matters quote
 
-The
-
-### Best practices
+Ways to optimize meetings: 
 
 * First best practice
 
-### Change catalyst: <action>
+Sentence that refers to best practices with a how-to catalyst title...
 
-* Take
-
-## Examine recurring meetings
+### Examine recurring meetings
 
 One liner quote from Connor & Kate's spreadsheet
 
-### Why it matters
+Why it matters quote
 
-The
-
-### Best practices
+Ways to optimize meetings: 
 
 * First best practice
 
-### Change catalyst: <action>
+Sentence that refers to best practices with a how-to catalyst title...
 
-* Take
-
-## Promote healthy meeting habits
+### Promote healthy meeting habits
 
 One liner quote from Connor & Kate's spreadsheet
 
-### Why it matters
+Why it matters quote
 
-The
-
-### Best practices
+Ways to optimize meetings: 
 
 * First best practice
 
-### Change catalyst: <action>
-
-* Take
-
+Sentence that refers to best practices with a how-to catalyst title...
 
 ## Related topics
 

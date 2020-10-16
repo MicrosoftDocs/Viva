@@ -32,6 +32,8 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 ## Best practices
 
 * Say no to meetings. See the next section for a guide on how to create and share team meeting rules and policy.
+* Use [MyAnalytics](../myanalytics/use/mya-notifications.md#shorten-a-meeting) to shorten meetings. For example, when you're composing a meeting invitation with a duration of one hour, an inline suggestion will remind you to shorten the meeting by 15 minutes.
+* Invite fewer people. When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
 * Enable [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
 * Regularly and openly check in with employees. Frustration, resentment, and even hopelessness are signals that people are falling back into less productive patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
@@ -44,7 +46,17 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Encourage participation in meetings. It's beneficial for creating more effective meetings and giving participants a way to be heard and considered.
 * Avoid holding a meeting just to update people. Decide if an email announcement is enough.
 
-## Change catalyst: Set team meeting rules and policy
+## Change catalysts
+
+#### Schedule shorter meetings
+
+Work expands to the time allotted for it. Change meeting length defaults from 60 to 45 minutes and from 30 to 25 minutes. Ways to do this:
+
+* Send out a communication informing employees about the downside of endless, back-to-back meetings. Share with them insights around how much collaboration the average employee is experiencing.
+* Encourage employees to schedule meetings that have buffers for attendees to capture notes and take a break before their next meeting
+* Start yourself, employees will follow the lead of others, especially leaders.
+
+#### Set team meeting rules and policy
 
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
 * Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.
