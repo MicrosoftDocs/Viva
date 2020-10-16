@@ -24,7 +24,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Employee engagement page](../images/wpa/use/boost-ee.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -36,6 +36,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
 |Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |[After-hours and workweek span](metric-definitions.md#person-metrics) |Calculation info |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#person-metrics) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
+
+## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 

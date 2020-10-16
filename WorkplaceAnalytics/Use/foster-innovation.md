@@ -21,7 +21,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Foster innovation page](../images/wpa/use/innovation.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -32,6 +32,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Foster cross-group collaboration |Percentage of organizations that effectively collaborate across groups and hierarchies  |Metrics |Calculation info |
 |Enable deep work |Percentage of employees who have less than 10 hours for deep work each week |[Collaboration and focus hours](metric-definitions.md#person-metrics) |Calculation info |
 |Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Calculation info |
+
+## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
