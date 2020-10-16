@@ -1,7 +1,7 @@
 ---
 
-title: Best practices for efficient communication
-description: Workplace Analytics shares best practices with managers about communication with their teams
+title: Best practices for more efficient communication
+description: Workplace Analytics shares best practices with people managers about communication within their teams
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Best practices for efficient communication
+# Best practices for more efficient communication
 
 Different communication tools are suited for different means. While emails are great for recaps, updates, and other informational exchanges, it can slow down or muddle an important message. Choosing the right medium speeds information access and agility.
 
@@ -31,4 +31,4 @@ Based on the information presented in the article about [What email, IM, and the
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)

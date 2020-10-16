@@ -1,7 +1,7 @@
 ---
 
-title: Best practices for supporting your team's wellbeing
-description: Best practices for work-life balance that people managers can share with their teams
+title: Best practices for wellbeing
+description: Best practices for work-life balance that managers can share with their teams
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -23,9 +23,23 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ## Best practices
 
+* Ask employees to use [MyAnalytics wellbeing data](../MyAnalytics/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
+* Ask employees to use the [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Remind employees that the organization's success is based on a marathon, not a sprint.  
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
 * Practice setting and keeping boundaries. Boundaries can result in better overall team outcomes.
+
+## Change catalyst: Define and share working hours
+
+Add your working hours to your [Outlook email signature](https://support.microsoft.com/office/create-an-email-signature-from-a-template-5b02c5ed-1e85-4d2a-a098-9628fe3231d8) and encourage your team to do the same to help manage the expectations of others. The following is an email signature example:
+
+```
+Cora Thomas
+Program Manager
+Redmond, Washington
+My working hours are 9:00 AM to 6:00 PM PT
+```
 
 ## Related topics
 

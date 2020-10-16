@@ -63,4 +63,9 @@ productDirectory:
       links:
         - url: gm-influencer.md
           text: Learn how more change agents can lead your team and your company to be more agile and competitive.
- 
+    - title: Community connectivity
+      imageSrc: ../images/wpa/playbooks/manage-connectedness-64x64.svg
+      links:
+        - url: gm-connectivity.md
+          text: Learn ways to help your company build and support a connected community.
+  

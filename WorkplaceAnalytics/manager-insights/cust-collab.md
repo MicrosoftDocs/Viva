@@ -30,4 +30,4 @@ The following are based on research presented in the [The loyalty economy: Are y
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)

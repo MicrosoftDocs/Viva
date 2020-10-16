@@ -1,7 +1,6 @@
 ---
-
-title: Workplace Analytics Insights
-description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your organization
+title: Workplace Analytics insights
+description: Learn how the Workplace Analytics Home pages use industry-based research to show you actionable insights into more effective business outcomes for your organization
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,7 +8,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics Insights
+# Workplace Analytics insights
 
 As a business leader, an analyst, or a program manager, you can use these pages to see analysis scope information and research-based behavioral insights into how your organization gets work done.
 
@@ -79,7 +78,7 @@ The following describes how the metrics are calculated to support the behavioral
 |Are influencers present across the company? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 |Are employees sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 10 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |
 | Are employees building customer networks? | _External network_ is the number of people external to the company with whom the employee had at least two [meaningful interactions](glossary.md#meaningful-interaction-definition) in a month. This insight highlights employees who have had more than five connections with external people in a month. |  
-| How is the customer collaboration in your company? | _External collaboration hours_ is the number of hours employees spend in meetings and emails with at least one person outside the company. This insight highlights the groups that spend large proportion of their overall collaboration with people outside the company. | 
+| How is the customer collaboration in your company? | _External collaboration hours_ is the number of hours employees spend in meetings and emails with at least one person outside the company. This insight highlights the groups that spend large proportion of their overall collaboration with people outside the company. |
 
 ## Frequently asked questions
 
