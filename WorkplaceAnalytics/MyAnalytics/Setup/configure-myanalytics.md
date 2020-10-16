@@ -82,14 +82,9 @@ You can disable the Insights Outlook add-in for all licensed users in your organ
 
 ## Configure access at the user level
 
-You can configure MyAnalytics access for individual users in your organization. For example, you could opt-out the user completely, which would turn off all MyAnalytics functionality for that user. However, the user can choose to opt back in. <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. --> 
+You can configure MyAnalytics access for individual users in your organization. For example, you could opt-out the user completely, which would turn off all MyAnalytics functionality for that user. However, the user can choose to [opt back in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in). <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. --> 
 
-You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
-
-You can set this parameter for one user at a time, or for many users:
-
-* [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)
-* [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
+You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings). Before you can make this setting, you must take preparatory steps; see [Command sequence](#command-sequence).
 
 > [!Important] 
 > You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date.
