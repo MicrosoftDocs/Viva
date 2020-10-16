@@ -20,12 +20,7 @@ In the **Make time for what's important** section of your Briefing email, select
 * **Mental breaks** - Suggests 15-minute blocks of time twice a day disconnect and recharge.
 * **Learning** - Suggests up to two-hour blocks of time to learn a new skill and grow your career.
 
-
-
-
-
-This section will also reference and list any already scheduled focus time in today’s calendar.
-
+This section will also reference and list any already scheduled time in your calendar.
 
 In the following example, you’d select **Book** next to **3:00 PM – 4:00 PM** to schedule you as **busy** during that time on today’s calendar.
 

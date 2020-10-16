@@ -48,7 +48,7 @@ For each task, you can select:
 For documents, select:
 
 * **Done** to indicate you are finished reviewing the document.
-* **Not related** to remove the document suggestion and gives feedback that helps improve future.
+* **Delete** (trashcan) icon to remove the suggestion.
 
 ## First Briefing
 
@@ -66,4 +66,5 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 
 * [Prepare for today's meetings](be-meetings.md)
 * [Tasks you need to follow up on](be-tasks.md)
-* [Make the most of your focus time](be-focus.md) (Adaptive version only)
+* [Make the most of your time](be-focus.md) (Adaptive version only)
+* [Catch up with your team](be-manager.md) (Adaptive version only)
