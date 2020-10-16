@@ -11,7 +11,7 @@ ms.prod: Mya
 ---
 # Plan time for the week
 
-If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **Make time for what's important** section in your first Briefing email for the week.
+If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **What do you want to set aside time for** section in your first Briefing email for the week. This helps you plan the week ahead for important activities, such as time management habits that improve long term productivity and wellbeing.
 
 Select **Book** next one or more of the following to schedule it for the week:
 

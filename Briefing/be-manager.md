@@ -11,7 +11,7 @@ ms.prod: Mya
 
 # Catch up with your team
 
-People managers often have hectic schedules, and it can be tough to stay in close contact with your team members. The Briefing can help you stay caught up and respond quickly to important requests from your team.
+People managers often have hectic schedules, and it can be tough to stay in close contact with your team members. The Briefing can help you maintain a strong relationship with your team and stay caught up and respond quickly to important requests from your team.
 
 As a manager, you'll see one or more of the following based on your calendar and email activity in the **Catch up with your team** section of your Briefing email:
 
