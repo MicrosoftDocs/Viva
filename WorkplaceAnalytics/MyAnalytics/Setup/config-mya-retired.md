@@ -16,11 +16,11 @@ ms.prod: Mya
 > [!Note] 
 > This topic describes the use of the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in [Configure MyAnalytics](configure-myanalytics.md)) by that date.
 
-Use the information in this section to configure MyAnalytics access for individual users in your organization. At this level, you can opt-out the user completely, which would turn off all MyAnalytics functionality for that user. However, the user can choose to opt back in. <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. -->
+You can configure MyAnalytics access for individual users in your organization. For example, you could opt-out the user completely, which would turn off all MyAnalytics functionality for that user. However, the user can choose to opt back in. <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. --> 
 
-You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
+You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
 
-You can set this parameter for one or many users:
+You can set this parameter for one user at a time, or for many users:
 
 * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)
 * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
