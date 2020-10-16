@@ -92,7 +92,8 @@ You can set this parameter for one or many users:
 * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
 
 > [!Important] 
-> You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2020, these cmdlets will be retired, and replaced by the new cmdlets Get-MyAnalyticsFeatureConfig and Set-MyAnalyticsFeatureConfig, respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date. 
+> You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets Get-MyAnalyticsFeatureConfig and Set-MyAnalyticsFeatureConfig, respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date.
+> While the old cmdlets are still available (before January 25, 2021), you can find information about them here: [Configure access at the user level](config-mya-retired.md#configure-access-at-the-user-level). 
 
 ### User configuration settings
 
