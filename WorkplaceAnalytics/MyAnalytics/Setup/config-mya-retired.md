@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: Mya
 ---
 
-# Configure access at the user level
+# Configure access at the user level (old cmdlets)
 
 **Role:** Office 365 admins
 

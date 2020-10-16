@@ -88,7 +88,7 @@ You configure MyAnalytics by setting the *PrivacyMode* parameter. For informatio
 
 > [!Important] 
 > You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date.
-> While the old cmdlets are still available (before January 25, 2021), you can find information about them here: [Configure access at the user level](config-mya-retired.md#configure-access-at-the-user-level). 
+> While the old cmdlets are still available (before January 25, 2021), you can find information about them here: [Configure access at the user level (old cmdlets)](config-mya-retired.md#configure-access-at-the-user-level). 
 
 ### User configuration settings
 
