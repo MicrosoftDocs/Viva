@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. 
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Engage influencers](#engage-influencers)
 * [Measure Teams adoption](#measure-teams-adoption)
@@ -21,7 +21,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Accelerate change page](../images/wpa/use/accelerate-change.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -32,6 +32,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Engage influencers |Percentage of employees who can drive change with 90 percent of your workforce |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics)|Groups with insufficient representation of influencers is calculated based on company and organization size. |
 |Measure Teams adoption |Percentage of employees who are using Teams 30 percent less than the top quartile users |[Instant message hours, call hours, and other related Teams metrics](metric-definitions.md#person-metrics) |Calculation info |
 |Support connectivity |Percentage of cohesion among employees who use Teams |[Instant message and call hours and other related person metrics](metric-definitions.md#person-metrics) |Calculation info |
+
+## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
