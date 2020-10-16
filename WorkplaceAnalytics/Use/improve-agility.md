@@ -42,7 +42,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Organize better meetings |Visual insight  |
-|Accelerate decision-making |Employee empowerment |Shows an organizational network graph of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
+|Accelerate decision-making |Employee empowerment |An organizational network graph of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
 |Foster cross-group collaboration |Visual insight  |
 |Improve management practices |Visual insight  |
 
