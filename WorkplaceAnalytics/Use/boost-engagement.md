@@ -15,7 +15,7 @@ Employees with high job satisfaction and a strong sense of belonging are more li
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain employee engagement.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Promote coaching and development](#promote-coaching-and-development)
 * [Prevent employee burnout](#prevent-employee-burnout)
@@ -49,6 +49,8 @@ The following defines the organizational data shown in the visual behavioral ins
 |Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for [meeting hours with manager and meeting hours with manager 1:1](metric-definitions.md#person-metrics) for managers and their employees. |
 
 ## Take action
+
+You can select **Take action** to see ways you can drive change or simply maintain employee engagement. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.

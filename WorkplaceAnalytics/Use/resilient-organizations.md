@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Resilience depends on having the right insights, systems, and tools to respond to sudden changes, recover from disruption, and reimagine the future for your organization.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can enhance organizational resiliency.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Improve team cohesion](#improve-team-cohesion)
 * [Protect employee wellbeing](#protect-employee-wellbeing)
@@ -50,6 +50,8 @@ The following defines the organizational data shown in the visual behavioral ins
 |Accelerate decision-making|Visual insight  |Calculation info |
 
 ## Take action
+
+You can select **Take action** to see ways you can enhance organizational resiliency. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
