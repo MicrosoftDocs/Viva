@@ -22,7 +22,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Maximize operational effectiveness page](../images/wpa/use/effective-operations.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -34,6 +34,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Improve meeting quality |Percentage of  |Metric info |Calculation info |
 |Keep employees engaged |Percentage of  |Metric info |Calculation info |
 |Protect time to get work done |Percentage of  |Metric info |Calculation info |
+
+## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
