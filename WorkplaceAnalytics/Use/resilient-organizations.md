@@ -23,7 +23,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Enhance organizational resiliency page](../images/wpa/use/resilient.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -36,6 +36,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Practice empathy |Percentage of  |Metric info |Calculation info |
 |Free up capacity |Percentage of  |Metric info |Calculation info |
 |Accelerate decision-making|Percentage of  |Metric info |Calculation info |
+
+## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 

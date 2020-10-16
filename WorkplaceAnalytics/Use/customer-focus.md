@@ -21,7 +21,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Increase customer focus insights](../images/wpa/use/increase-customer-focus.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -32,6 +32,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Optimize time with customers  |Percentage of employees who are in the top quartile for total collaboration time being with external customers. |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Calculation info |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week. |[meeting hours with manager and meeting hours with manager 1:1](metric-definitions.md#person-metrics)  |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations. |[Organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics) and [collaboration and focus hours](metric-definitions.md#person-metrics) |Calculation info |
+
+## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
