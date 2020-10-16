@@ -21,7 +21,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Transform meeting culture page](../images/wpa/use/transform-meetings.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -32,6 +32,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Optimize meeting hours |Percentage of  |Metric info|Calculation info |
 |Examine recurring meetings |Percentage of  |Metric info |Calculation info |
 |Promote healthy meeting habits |Percentage of  |Metric info |Calculation info |
+
+## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 

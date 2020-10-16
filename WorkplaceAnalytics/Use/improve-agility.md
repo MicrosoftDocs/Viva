@@ -22,7 +22,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ![Improve agility page](../images/wpa/use/agility.png)
 
-## About the insights
+## Percentage insights
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -35,6 +35,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Foster cross-group collaboration |Percentage of  |Metric info |Calculation info |
 |Improve management practices |Percentage of  |Metric info |Calculation info |
 
+## Visual insights
+
 The following defines the organizational data shown in the visual behavioral insights.
 
 <!-- ![Improve agility visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
@@ -42,7 +44,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Organize better meetings |Visual insight  |
-|Accelerate decision-making |Employee empowerment |An organizational network graph of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
+|Accelerate decision-making |Employee empowerment |[An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
 |Foster cross-group collaboration |Visual insight  |
 |Improve management practices |Visual insight  |
 
