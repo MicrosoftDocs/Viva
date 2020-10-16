@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Optimize time with customers](#optimize-time-with-customers)
 * [Promote coaching and development](#promote-coaching-and-development)
@@ -44,6 +44,8 @@ The following defines the organizational data shown in the visual behavioral ins
 |Strengthen internal networks |Internal network connections by employee network strength |An organizational network graph that shows the number of employees with strong internal networks as compared to other employees in your organization. Each node represents an employee and the darker colored nodes represent employees with a higher number of internal connections, as the legend indicates. This uses [organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics). |
 
 ## Take action
+
+You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.

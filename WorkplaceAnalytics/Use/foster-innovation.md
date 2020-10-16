@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain organizational innovation.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Foster cross-group collaboration](#foster-cross-group-collaboration)
 * [Enable deep work](#enable-deep-work)
@@ -44,6 +44,8 @@ The following defines the organizational data shown in the visual behavioral ins
 |Utilize influencers |Organizations with limited influencers |Shows the percentage of teams in your organization that are low on influencers. This graph uses the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. |
 
 ## Take action
+
+You can select **Take action** to see ways you can drive change or simply maintain organizational innovation. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.

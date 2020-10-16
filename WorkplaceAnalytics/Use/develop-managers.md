@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Managers have a large impact on employee engagement, development and performance, and are pivotal for driving organizational change.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can develop effective managers in your organization.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Optimize meeting hours](#optimize-meeting-hours)
 * [Prevent burnout](#prevent-burnout)
@@ -53,6 +53,8 @@ The following defines the organizational data shown in the visual behavioral ins
 |Empower employees |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for co-attended meeting hours and 1:1 meeting hours for managers and their employees. |
 
 ## Take action
+
+You can select **Take action** to see ways you can develop effective managers in your organization. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
