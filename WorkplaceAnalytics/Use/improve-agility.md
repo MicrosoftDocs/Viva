@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive change or simply maintain organizational agility.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Organize better meetings](#organize-better-meetings)
 * [Accelerate decision-making](#accelerate-decision-making)
@@ -47,6 +47,8 @@ The following defines the organizational data shown in the visual behavioral ins
 |Improve management practices |Visual insight  |
 
 ## Take action
+
+You can select **Take action** to see ways you can drive change or simply maintain organizational agility. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.

@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. You can select **Take action** to see ways you can drive accelerate organizational change.
+Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data. 
 
 * [Engage influencers](#engage-influencers)
 * [Measure Teams adoption](#measure-teams-adoption)
@@ -44,6 +44,8 @@ The following defines the organizational data shown in the visual behavioral ins
 |Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. This uses [collaboration hours](metric-definitions.md#person-metrics) |
 
 ## Take action
+
+You can select **Take action** to see ways you can drive accelerate organizational change. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
