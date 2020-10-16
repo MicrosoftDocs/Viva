@@ -82,7 +82,7 @@ You can disable the Insights Outlook add-in for all licensed users in your organ
 
 ## Configure access at the user level
 
-Configure MyAnalytics access for individual users in your organization. At this level, you can opt-out the user completely, which would turn off all MyAnalytics functionality for that user. However, the user can choose to opt back in. <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. -->
+You can configure MyAnalytics access for individual users in your organization. At this level, you can opt-out the user completely, which would turn off all MyAnalytics functionality for that user. However, the user can choose to opt back in. <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. -->
 
 You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
 
