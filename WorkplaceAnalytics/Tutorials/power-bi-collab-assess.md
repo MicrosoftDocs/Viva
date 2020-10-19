@@ -1,7 +1,7 @@
 ---
 
-title: Collaboration assessment dashboard
-description: Use the Collaboration assessment dashboard to visualize predefined query data from Workplace Analytics in Power BI
+title: Ways of working assessment dashboard
+description: Use the Ways of working assessment dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Collaboration assessment
+# Ways of working assessment
 
-The Collaboration assessment dashboard uses a Power BI template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
+The Ways of working assessment dashboard uses a Power BI template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
 
 The different pages in the report help you answer the following related questions:
 
@@ -38,9 +38,12 @@ The different pages in the report help you answer the following related question
 
 Each report includes a **What to examine** and **Why it matters** interpretation that explain how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee experience.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration assessment** and **Standard meeting query** in Workplace Analytics.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working assessment** and **Standard meeting query** in Workplace Analytics.
 
-After you successfully run these queries, you can download the Power BI template from the **Collaboration assessment** query on the **Results** page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you can download the Power BI template from the **Ways of working assessment** query on the **Results** page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+
+>[!Note]
+>The template and dashboard name has been changed from Collaboration assessment to Ways of working assessment.
 
 ## Demonstration
 
@@ -58,7 +61,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Collaboration assessment** to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Ways of working assessment** to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -84,35 +87,35 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 7. You can then select any additional attributes (columns) that you want to include in the reports.
 8. Select **Run** to run the query, which can take a few minutes to complete.
 9. Next you must run the required meeting query to get the meeting metrics for the dashboard. Under **Start from preselected filters and metrics**, select **Standard meeting query** to open it.
-10.	Select or confirm the following query settings:
+10. Select or confirm the following query settings:
 
     * **Name** - Customize or keep the default name
-    * **Time period** – Select the time period you want to analyze; it should match the one you selected in the Collaboration assessment query.
+    * **Time period** – Select the time period you want to analyze; it should match the one you selected in the Ways of working assessment query.
     * **Auto-refresh** – Leave this setting disabled because this template is not designed to track metrics over time
     * **Meeting exclusions** - Select the preferred rule for your tenant
 
     > [!Important]
     > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-11. Optionally, you can add a filter to limit the list of meetings included in the output file.
+11. Optionally, you can add filters to focus on a specific organization (or any other organizational attribute), or to limit the list of meetings included in the output file. To learn more about meeting filters, see [Add filters for meeting queries](meeting-queries.md#add-filters).
 
     > [!Important]
-    > If you filtered the **Collaboration assessment** query to focus on a specific organization (or any other organizational attribute), you must use the same filter for this **Standard meeting** query to reflect the same population.
+    > If you filtered the **Ways of working assessment** query to focus on a specific organization (or any other organizational attribute), you must use the same filter for the **Standard meeting** query to reflect the same population.
 
-12.	In **Organizational data**, keep the preselected **IsRecurring**, **Subject**, and **DurationHours** attributes that the dashboard requires.
+12. In **Organizational data**, keep the preselected **IsRecurring**, **Subject**, and **DurationHours** attributes that the dashboard requires.
 
     > [!Important]
     > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 13. You can then select any additional attributes (columns) that you want to include in the reports.
-14.	Select **Run** to run the query, which can take a few minutes to complete.
-15.	In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Collaboration assessment** query results, select **PBI template**, and then select **OK** to download the template.
+14. Select **Run** to run the query, which can take a few minutes to complete.
+15. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Ways of working assessment** query results, select **PBI template**, and then select **OK** to download the template.
 
-    ![Download the Power BI Collaboration assessment template](../Images/WpA/Tutorials/pbi-download-collab-assess.png)
+    ![Download the Power BI Ways of working assessment template](../Images/WpA/Tutorials/pbi-download-assessment.png)
 
-16.	Open the downloaded **Collaboration assessment Power BI template**.
+16. Open the downloaded **Ways of working assessment Power BI template**.
 17. If prompted to select a program, select **Power BI**.
-18.	When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
+18. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
     * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
     * In Power BI, paste each copied link into its respective field.
@@ -134,21 +137,34 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Dashboard settings
 
-After the Collaboration assessment dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Ways of working assessment dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Time period** - This is the time period that you want to analyze.
 * **Exclude specific weeks** – You can select one or more weeks to exclude from analysis, such as those that include company holidays.
-* **Exclude employees with low collaboration** – Optionally, you can select to exclude employees who are likely non-knowledge workers or are not Outlook or Teams users. In the Collaboration assessment template, these are employees who spent on average less than five hours per week in collaboration—meetings, email and Teams chats & ad-hoc calls.
+* **Exclude employees with low collaboration** – Optionally, you can select to exclude employees who are likely non-knowledge workers or are not Outlook or Teams users. In the Ways of working assessment template, these are employees who spent on average less than five hours per week in collaboration—meetings, email and Teams chats & ad-hoc calls.
 * **Exclude unusually low collaboration weeks based on individual collaboration patterns** – Optionally, you can select to exclude weeks with unusually low collaboration hours for a given employee, which is determined by comparing their individual weekly averages across the complete time period. These low collaboration weeks usually occur when employees are taking personal time off (PTO).
 * **Select the organizations to analyze** – Optionally, you can select one or more organizations or functional groups within your company to focus the analysis on.
 
-  ![Collaboration assessment dashboard settings](../Images/WpA/Tutorials/pbi-collab-assess-settings.png)
+  ![Ways of working assessment dashboard settings](../Images/WpA/Tutorials/assessment-settings.png)
 
-After confirming the settings, check the number of measured employees to confirm this the population you want to analyze.
+### Employees with low collaboration
+
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
+
+By default, this dashboard excludes employees with low collaboration and unusually low weekly collaboration activity based on their individual collaboration patterns, such as those who spent a weekly average of less than five hours in meetings, email, instant messages, and calls.
+
+Unusually low collaboration is determined by comparing individual weekly averages across the complete time period for specific employees. Low collaboration hours can occur when employees:
+
+* Take time off from work.
+* Or don’t use Teams and Outlook to get their work done, such as those who are likely not individual contributors.
+
+If you want to include employees with low collaboration in your analysis, select the **Clear filter** (eraser) icon to clear the **IsLikelyHoliday** and **IsLikelyKnowledgeWorker** filters in the Power BI **Filters** pane.
+
+![Clear filters to include low collaboration workers](../Images/WpA/Tutorials/assessment-filters.png)
 
 ## About the reports
 
-The Collaboration assessment dashboard includes the following report pages that help you assess your company's collaboration culture and employee experience.
+The Ways of working assessment dashboard includes the following report pages that help you assess your company's collaboration culture and employee experience.
 
 **Collaboration culture**
 
