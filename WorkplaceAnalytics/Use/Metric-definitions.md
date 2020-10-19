@@ -113,7 +113,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 
 ## Organizational network analysis (ONA) metrics
 
-These metrics are based on the following collaboration activities: emails, meetings, Teams calls, and Teams chats. 
+These metrics are based on the following collaboration activities: emails, meetings, Teams calls, and Teams chats.  
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
