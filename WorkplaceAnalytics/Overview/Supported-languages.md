@@ -22,6 +22,8 @@ In certain circumstances, you can use Workplace Analytics with _data_ that is in
 
 * Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md) must be in English.
 
+* Metric names can be in the language of your choice. See [Supported languages for column headers](../use/view-download-and-export-query-results.md?branch=pas-pd-other-char-sets#supported-languages-for-column-headers). 
+
 * For content within organizational data, you can use languages other than English.
 
 ## Privacy settings
