@@ -27,11 +27,9 @@ On the **Analyze** > **Queries** > **Results** page, you can switch between **Al
 
 ## Supported languages for column headers
 
-When you define a query, you select metrics and organizational-data attributes. After you run the query, its results are organized into columns and rows. The column headers in the results match the metrics and attributes that you selected while defining the query. 
+When you define a query, you select metrics and organizational-data attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. However, note this difference in the way attributes and metrics appear in column headers: 
 
-But note the following difference in the way metrics and organizational-data attributes appear as column headers: 
-
-* **Names of organizational-data attributes** &ndash; Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means they appear in English in OData output and query results. 
+* **Names of organizational-data attributes** &ndash; Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means that they appear in English in OData output and query results. 
 
 * **Metric names** &ndash; Any UTF-8-encoded characters are allowed in metric names, which means that metric names are always preserved and returned intact in both query and OData outputs, regardless of the language, or even the character set, in which you input them. 
 
@@ -182,3 +180,4 @@ After you have finished creating visuals, you can publish your reports to Power 
 * [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 * [User roles in Workplace Analytics](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
+* [Supported languages and guidelines](../overview/supported-languages.md?branch=pas-pd-other-char-sets)
