@@ -38,6 +38,9 @@ In the following example of a query-result file that's been opened in Excel, col
 ![Column headers](../images/wpa/Use/columns-attributes-metrics.png)
   
 > [!Note] 
+> Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](../tutorials/comparison-query.md) and the [ONA Person-to-person query](../tutorials/ona-person-to-person-query.md). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters. 
+
+> [!Important] 
 > If your organization has custom applications or clients that use or process query-result data, these downstream apps or clients must be prepared to accept query output with column headers as described here, namely with metric names in their original language and with organizational-data attribute names in English. 
 
 ## Use Workplace Analytics data in Power BI, Excel, or other data-analysis tool
