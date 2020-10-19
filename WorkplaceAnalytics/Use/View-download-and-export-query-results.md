@@ -24,7 +24,24 @@ On the **Analyze** > **Queries** > **Results** page, you can switch between **Al
 1. In Workplace Analytics, go to **Analyze** > **Queries** > **Results** > **All results**.
 
 2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
+
+## Supported languages for column headers
+
+When you define a query, you select metrics and organizational-data attributes. After you run the query, its results are organized into columns and rows. The column headers in the results match the metrics and attributes that you selected while defining the query. 
+
+But note the following difference in the way metrics and organizational-data attributes appear as column headers: 
+
+* **Names of organizational-data attributes** &ndash; Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means they appear in English in OData output and query results. 
+
+* **Metric names** &ndash; Any UTF-8-encoded characters are allowed in metric names, which means that metric names are always preserved and returned intact in both query and OData outputs, regardless of the language, or even the character set, in which you input them. 
+
+In the following example of a query-result file that's been opened in Excel, column headers were input in Japanese and remain in Japanese, while attribute names were uploaded in English and remain in English: 
+
+![Column headers](../images/wpa/Use/columns-attributes-metrics.png)
   
+> [!Note] 
+> If your organization has custom applications or clients that use or process query-result data, these downstream apps or clients must be prepared to accept query output with column headers as described here, namely with metric names in their original language and with organizational-data attribute names in English. 
+
 ## Use Workplace Analytics data in Power BI, Excel, or other data-analysis tool
 
 You can use the following options to access and use Workplace Analytics query data in a different data-analysis tool to create visuals and reports outside of Workplace Analytics.
