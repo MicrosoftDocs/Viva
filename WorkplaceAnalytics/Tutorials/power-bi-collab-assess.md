@@ -97,10 +97,10 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     > [!Important]
     > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-11. Optionally, you can add filters to focus on a specific organization (or any other organizational attribute), or to limit the list of meetings included in the output file. To learn more about meeting filters, see [Add filters for meeting queries](meeting-queries.md#add-filters).
+11. Optionally, you can add filters to limit the list of meetings included in the output file. To learn more about meeting filters, see [Add filters for meeting queries](meeting-queries.md#add-filters). You can also customize the metrics to focus on a specific organization (or any other organizational attribute). To learn more about custom metrics, see [Add custom metrics in a meeting query](meeting-queries.md#add-metrics).
 
     > [!Important]
-    > If you filtered the **Ways of working assessment** query to focus on a specific organization (or any other organizational attribute), you must use the same filter for the **Standard meeting** query to reflect the same population.
+    > If you filtered the **Ways of working assessment** query to focus on a specific organization (or any other organizational attribute), you must **customize the metrics**for this **Standard meeting** query to reflect the same population.
 
 12. In **Organizational data**, keep the preselected **IsRecurring**, **Subject**, and **DurationHours** attributes that the dashboard requires.
 
@@ -120,7 +120,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
     * In Power BI, paste each copied link into its respective field.
     * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-    * In **Manager indicator field**, enter the exact name of the organizational attribute that you selected in **Step 6**, which designates who in the organization is a people manager. If your organization has not uploaded this field in the organization data file, you don’t have to complete this field.
+    * In **SupervisorIndicator field**, enter the exact name of the organizational attribute that you selected in **Step 6**, which designates who in the organization is a people manager. If your organization has not uploaded this field in the organization data file, you don’t have to complete this field. However, some visuals and filtering capabilities will be disabled.
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
 19. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
@@ -141,24 +141,23 @@ After the Ways of working assessment dashboard is set up and populated with Work
 
 * **Time period** - This is the time period that you want to analyze.
 * **Exclude specific weeks** – You can select one or more weeks to exclude from analysis, such as those that include company holidays.
-* **Exclude employees with low collaboration** – Optionally, you can select to exclude employees who are likely non-knowledge workers or are not Outlook or Teams users. In the Ways of working assessment template, these are employees who spent on average less than five hours per week in collaboration—meetings, email and Teams chats & ad-hoc calls.
-* **Exclude unusually low collaboration weeks based on individual collaboration patterns** – Optionally, you can select to exclude weeks with unusually low collaboration hours for a given employee, which is determined by comparing their individual weekly averages across the complete time period. These low collaboration weeks usually occur when employees are taking personal time off (PTO).
-* **Select the organizations to analyze** – Optionally, you can select one or more organizations or functional groups within your company to focus the analysis on.
+* **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
+* **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week included in the current time period.
+
+>[!Important]
+>The filters selected in **Settings** apply to all but one of the reports. The **Meeting engagement** report is the exception. To focus on a specific organization in that report, you must **customize the metrics** in the [Standard meeting query in Workplace Analytics](meeting-queries.md#add-metrics), as described in **Step 11** of [Set up the dashboard](#set-up-the-dashboard).
+
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
   ![Ways of working assessment dashboard settings](../Images/WpA/Tutorials/assessment-settings.png)
 
 ### Employees with low collaboration
 
-After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
+By default, this dashboard excludes employees who spent a weekly average of less than five hours in meetings, email, instant messages, and calls because they are likely non-knowledge workers or they do not use Outlook or Teams.
 
-By default, this dashboard excludes employees with low collaboration and unusually low weekly collaboration activity based on their individual collaboration patterns, such as those who spent a weekly average of less than five hours in meetings, email, instant messages, and calls.
+The dashboard also excludes unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
 
-Unusually low collaboration is determined by comparing individual weekly averages across the complete time period for specific employees. Low collaboration hours can occur when employees:
-
-* Take time off from work.
-* Or don’t use Teams and Outlook to get their work done, such as those who are likely not individual contributors.
-
-If you want to include employees with low collaboration in your analysis, select the **Clear filter** (eraser) icon to clear the **IsLikelyHoliday** and **IsLikelyKnowledgeWorker** filters in the Power BI **Filters** pane.
+If you want to include employees with low collaboration in your analysis, select the **Clear filter** (eraser) icon to clear the **IsLikelyKnowledgeWorker** and **IsLikelyHoliday** filters in the Power BI **Filters** pane.
 
 ![Clear filters to include low collaboration workers](../Images/WpA/Tutorials/assessment-filters.png)
 
