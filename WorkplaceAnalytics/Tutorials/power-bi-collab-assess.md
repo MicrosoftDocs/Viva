@@ -100,7 +100,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 11. Optionally, you can add filters to limit the list of meetings included in the output file. To learn more about meeting filters, see [Add filters for meeting queries](meeting-queries.md#add-filters). You can also customize the metrics to focus on a specific organization (or any other organizational attribute). To learn more about custom metrics, see [Add custom metrics in a meeting query](meeting-queries.md#add-metrics).
 
     > [!Important]
-    > If you filtered the **Ways of working assessment** query to focus on a specific organization (or any other organizational attribute), you must **customize the metrics**for this **Standard meeting** query to reflect the same population.
+    > If you filtered the **Ways of working assessment** query to focus on a specific organization (or any other organizational attribute), you must **customize the metrics** for this **Standard meeting** query to reflect the same population.
 
 12. In **Organizational data**, keep the preselected **IsRecurring**, **Subject**, and **DurationHours** attributes that the dashboard requires.
 
@@ -167,7 +167,7 @@ The Ways of working assessment dashboard includes the following report pages tha
 
 **Collaboration culture**
 
-* **Collaboration** – Shows average weekly collaboration hours per person, by manager indicator and organization. This highlights how employees are collaborating and what percentage of a standard 40-hour workweek is spent on meetings, email and Teams chats & ad-hoc calls. It’s important that employees have enough time to focus and get work done. Collaboration levels directly impact employee productivity and engagement.
+* **Collaboration** – Shows average weekly collaboration hours per person, by supervisor indicator and organization. This highlights how employees are collaborating and what percentage of a standard 40-hour workweek is spent on meetings, email and Teams chats & ad-hoc calls. It’s important that employees have enough time to focus and get work done. Collaboration levels directly impact employee productivity and engagement.
 * **Collaboration & after-hours** – Shows the average weekly collaboration hours per person by organization as compared to after-hours collaboration, and the percentage of a standard 40-hour workweek spent in collaboration. This highlights how collaboration load is impacting after-hours work.
 * **Meeting culture** – Shows the percentage of time spent in the different meeting types by attendees and duration. This highlights how the organization spends its meeting time. Large or long recurring meetings are easy candidates to streamline by reducing the number of attendees or the meeting frequency or duration.
 * **Long or large meetings** – Shows the percentage of meeting time spent in large or long meetings by organization. Analyzing meeting practices at the organizational level can help pinpoint sources of meeting overload to streamline or those organizations with successful meeting best practices that could be replicated across the company.
@@ -184,13 +184,13 @@ The Ways of working assessment dashboard includes the following report pages tha
 * **Double-booking** – Shows the distribution of managers by meeting hours and the percentage of double-booked manager time in meetings. This highlights how double-booked meetings have downstream impacts that hinder organizational agility.
 
   >[!Important]
-  >To filter for manager data only, you must select all manager groups in the Manager Indicator at the upper right of the page.
+  >To filter for manager data only, you must select all manager groups in the Supervisor Indicator at the upper right of the page.
 
 * **Manager 1:1 time & frequency** – Shows the distribution of employees by how much weekly 1:1 time they get with their managers and the frequency of these meetings. This highlights if employees are getting enough 1:1 manager coaching.
 * **Co-attendance** – Shows the percentage of employees who spend more than 30 percent of their meeting time in meetings where their manager is also present. This highlights if managers are balancing oversight with employee empowerment and autonomy. However, it’s important to account for any expectations and norms unique to your company when analyzing the data across the different groups.
 
   >[!Important]
-  >To filter for manager data only, you must select all manager groups in the Manager Indicator at the upper right of the page.
+  >To filter for manager data only, you must select all manager groups in the Supervisor Indicator at the upper right of the page.
 
 * **Manager relationship** – Shows the distribution of employees attending the same meetings as their managers and their average weekly 1:1 meeting time with their managers, which is compared across the company. It also analyzes different segments of manager behaviors based on their rates of attending the same meeting as their employees and their 1:1 meeting time.
 
