@@ -87,7 +87,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Dashboard settings
 
-After the Collaboration assessment dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Ways of working tracker dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Earlier time  period** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
@@ -98,13 +98,13 @@ After the Collaboration assessment dashboard is set up and populated with Workpl
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current timeframe.
 
-  ![Ways of working tracker dashboard settings](../Images/WpA/Tutorials/track-settings.png)
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-After confirming the settings, check the number of measured employees to confirm this the population you want to analyze.
+  ![Ways of working tracker dashboard settings](../Images/WpA/Tutorials/track-settings.png)
 
 ## About the reports
 
-The Ways of working tracker dashboard includes the following report pages that help you track how collaboration is affecting the KPIs of wellbeing, meeting culture, and manager effectiveness for employees.
+The Ways of working tracker dashboard includes the following reports for tracking how collaboration is affecting the KPIs of wellbeing, meeting culture, and manager effectiveness for your employees.
 
 * **How have the KPIs evolved over time?** – Shows trends for the key indicator categories, including the weekly average and the four-week rolling average values for the top collaboration metrics. Under **Select trendlines to display** at the upper right of the page, you can select to show only one or both averages in the charts.
 * **How have KPIs changed in the last week?** – Shows how collaboration in the key indicator categories have changed when comparing the most recent week’s four-week rolling average with the previous rolling average. The colors of the number represent a change between the current week and the four-week rolling average. In **Filter Organization**, you can select one or more organizational groups to include in the data and the chart. In **Filter Metrics**, you can select a metric to view in the chart.
