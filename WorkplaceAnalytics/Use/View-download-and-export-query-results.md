@@ -29,11 +29,11 @@ On the **Analyze** > **Queries** > **Results** page, you can switch between **Al
 
 When you define a query, you select metrics and organizational-data attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. However, note this difference in the way attributes and metrics appear in column headers: 
 
-* **Names of organizational-data attributes** &ndash; Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means that they appear in English in OData output and query results. 
+* **Names of organizational-data attributes** &ndash; Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means that they appear in English in OData output and in query results. 
 
 * **Metric names** &ndash; Any UTF-8-encoded characters are allowed in metric names, which means that metric names are always preserved and returned intact in both query and OData outputs, regardless of the language, or even the character set, in which you input them. 
 
-In the following example of a query-result file that's been opened in Excel, column headers were input in Japanese and remain in Japanese, while attribute names were uploaded in English and remain in English: 
+In the following example of a query-result file that's been opened in Excel, metric names were input in Japanese and remain in Japanese, while attribute names were uploaded in English and remain in English: 
 
 ![Column headers](../images/wpa/Use/columns-attributes-metrics.png)
   
