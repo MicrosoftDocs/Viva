@@ -25,7 +25,8 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-<!-- ![Meeting culture percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
+![Transform meetings examine recurring meetings](../images/wpa/use/trans-meet-examine-recurring.png)
+
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -37,13 +38,13 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-<!-- ![Meeting culture visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+![Transform meetings promote healthy meeting habits](../images/wpa/use/trans-meet-promote-healthy.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Optimize meeting hours  |Visual insight  |Defintion |
-|Examine recurring meetings |Visual insight  |Calculation info |
-|Promote healthy meeting habits |Visual insight  |Calculation info |
+|Optimize meeting hours  | Meetings by duration and number of attendees  |Defintion |
+|Examine recurring meetings | Recurring vs. non-recurring meetings  |Calculation info |
+|Promote healthy meeting habits | Distribution of multi-tasking in meetings  |Calculation info |
 
 ## Take action
 

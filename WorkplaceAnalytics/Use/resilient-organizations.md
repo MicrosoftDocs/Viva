@@ -27,7 +27,7 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-<!-- ![Improve agility percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
+![Enhance resiliency employee wellbeing](../images/wpa/use/enh-resil-empl-wellbeing.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -41,7 +41,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-<!-- ![Improve agility visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+![Enhance resiliency empathy](../images/wpa/use/enh-resil-empathy.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
