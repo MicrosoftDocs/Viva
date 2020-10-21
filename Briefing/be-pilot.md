@@ -39,8 +39,8 @@ You can control who receives the Briefing email in your pilot in one of the foll
 * Use the admin center to set the default state for all people in your organization as opted out. Then advise your pilot participants to opt in to receive the Briefing email at [cortana.office.com](https://cortana.office.com).
 * Use PowerShell to disable Briefing for non-pilot users and leave pilot users enabled. In the admin center, have all users opted-in by default.
 
-   * Users who are enabled and opted-in will receive the Briefing email. 
-   * Users who are disabled and opted-in will not receive the Briefing email. Note that as you onboard new users to a tenant, you will need to use PowerShell to disable Briefing for them if you do not want them to be part of the pilot.
+  * Users who are enabled and opted-in will receive the Briefing email.
+  * Users who are disabled and opted-in will not receive the Briefing email. Note that as you onboard new users to a tenant, you will need to use PowerShell to disable Briefing for them if you do not want them to be part of the pilot.
 
 ## Design your test plan and feedback survey
 
@@ -69,7 +69,7 @@ It's crucial to the success of your pilot that you educate pilot participants on
 
 The following tips can help ensure the success of your pilot:
 
-* Remember the Briefing email is enabled by default for everyone with an English language mailbox. You can use [PowerShell](be-admin.md) to choose who gets the Briefing email first.
+* Remember the Briefing email is enabled by default for everyone with an English or Spanish (October 2020) language mailbox. You can use [PowerShell](be-admin.md) to choose who gets the Briefing email first.
 * Before beginning a pilot, confirm that all pilot participants have active Exchange Online licenses.
 * Throughout a pilot, meet with your project stakeholders to review user feedback and help desk tickets to ensure the pilot is running smoothly. Make any adjustments as necessary.
 
