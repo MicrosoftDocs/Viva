@@ -29,9 +29,9 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize meeting hours |Percentage of  |Metric info|Calculation info |
-|Examine recurring meetings |Percentage of  |Metric info |Calculation info |
-|Promote healthy meeting habits |Percentage of  |Metric info |Calculation info |
+|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |Metric info|Calculation info |
+|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings |Metric info |Calculation info |
+|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |Metric info |Calculation info |
 
 ## Visual insights
 

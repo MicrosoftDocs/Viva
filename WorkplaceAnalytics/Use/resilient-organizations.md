@@ -31,11 +31,11 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Improve team cohesion |Percentage of  |Metric info |Calculation info |
-|Protect employee wellbeing |Percentage of  |Metric info |Calculation info |
-|Practice empathy |Percentage of  |Metric info |Calculation info |
-|Free up capacity |Percentage of  |Metric info |Calculation info |
-|Accelerate decision-making|Percentage of  |Metric info |Calculation info |
+|Improve team cohesion |Percentage of teams that have strong cohesion |Metric info |Calculation info |
+|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |Metric info |Calculation info |
+|Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |Metric info |Calculation info |
+|Free up capacity |Percentage of employees who spend 25 or more hours in collaboration each week |Metric info |Calculation info |
+|Accelerate decision-making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |Metric info |Calculation info |
 
 ## Visual insights
 

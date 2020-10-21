@@ -26,27 +26,27 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-<!-- ![Operational effectiveness percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
+![Operational effectiveness visual insight](../images/wpa/use/op-eff-improve-meet-qual.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Free up capacity |Percentage of  |Metric info|Calculation info |
-|Improve meeting quality |Percentage of  |Metric info |Calculation info |
-|Keep employees engaged |Percentage of  |Metric info |Calculation info |
-|Protect time to get work done |Percentage of  |Metric info |Calculation info |
+|Free up capacity |Percentage of employees who spend 25 or more hours collaborating each week |Metric info|Calculation info |
+|Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |Metric info |Calculation info |
+|Keep employees engaged |Percentage of employees who spend significant meeting time multitasking |Metric info |Calculation info |
+|Protect time to get work done |Percentage of employees who have less than 20 hours each week to focus on work  |Metric info |Calculation info |
 
 ## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-<!-- ![Operational effectiveness visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+![Operational effectiveness visual insight](../images/wpa/use/op-eff-keep-empl-engaged.png)
 
 |Behavior |Visual insight | Defintion |
 |---------|--------|----------------------|
-|Free up capacity |Visual insight  |Definition |
-|Improve meeting quality |Visual insight  |Definition |
-|Keep employees engaged |Visual insight  |Definition |
-|Protect time to get work done |Visual insight  |Definition |
+|Free up capacity |Distribution of collaboration hours  |Definition |
+|Improve meeting quality |Meetings by duration and number of attendees  |Definition |
+|Keep employees engaged |Distribution of multitasking in meetings  |Definition |
+|Protect time to get work done |Distribution of focus time  |Definition |
 
 ## Take action
 

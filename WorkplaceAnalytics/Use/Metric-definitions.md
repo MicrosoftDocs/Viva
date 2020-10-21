@@ -18,7 +18,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 
 |Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
-|After hours collaboration |Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
+| <a name="after-hours-collaboration-definition"></a>After hours collaboration |Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
 |After hours email hours |Number of hours the person spent sending email outside of working hours.|Person|Hour|Yes|
 |After hours in calls |Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |Person|Hour|Yes|
 |After hours instant messages |Number of hours a person spent in instant messages through Teams, outside of working hours. |Person|Hour|Yes|
@@ -47,8 +47,8 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
 |Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|
-|Meeting hours with manager|Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
-|Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
+| <a name="meeting-hours-with-manager-definition"></a>  Meeting hours with manager | Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
+| <a name="meeting-hours-with-manager-1-1-definition"></a> Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
 |Meetings hours with skip level|Number of meeting hours that the person attends where their manager's manager also attends the meeting.|Person|Hour|Yes|
 |Meetings|Number of meetings the person attended.|Person|Count|Yes|
 |Meetings with manager|Number of meetings where attendees include at least the person and their manager.|Person|Count|Yes|
@@ -71,16 +71,16 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Working hours email hours|Number of hours the person spent in sending email during working hours.|Person|Hour|Yes|
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes |
 |Working hours instant messages| Total number of hours a person spent time in instant messages through Teams, during working hours. | Person| Hour| Yes |
-|Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
+| <a name="workweek-span-definition"></a> Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
 
 ## Meeting metrics
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-|Attendee meeting hours|Total number of adjusted meeting hours for all attendees.<br>A _[meeting query](../Tutorials/meeting-queries.md)_ focuses on the meeting as the main entity and reports on the various meeting attributes; a _[person query](../Tutorials/person-queries.md)_ looks from a person's perspective and aggregates multiple meetings for the selected time period. Because the two query types have different purposes, their output also differs. |Meeting|Hour|Yes|
-|Attendees|Number of people who attended the meeting.|Meeting|Count|Yes|
+| <a name="attendee-meeting-hours-definition"></a>  Attendee meeting hours|Total number of adjusted meeting hours for all attendees.<br>A _[meeting query](../Tutorials/meeting-queries.md)_ focuses on the meeting as the main entity and reports on the various meeting attributes; a _[person query](../Tutorials/person-queries.md)_ looks from a person's perspective and aggregates multiple meetings for the selected time period. Because the two query types have different purposes, their output also differs. |Meeting|Hour|Yes|
+| <a name="attendees-definition"></a> Attendees|Number of people who attended the meeting.|Meeting|Count|Yes|
 |Attendees multitasking|Number of attendees that sent emails during the meeting.<ul><li>In meetings of one hour or less, two or more emails.</li><li>In meetings longer than one hour, two emails per hour. (Example: Sending four emails during a two-hour meeting would count as multitasking.)</li></ul>|Meeting|Count|Yes|
-|Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings, which include accepted, tentative, and no responses to meeting invites).|Meeting|Count|Yes|
+| <a name="attendees-with-conflicting-meeting-definition"></a>   Attendees with conflicting meeting|Number of attendees with meetings that overlap with the meeting (includes all non-declined meetings, which include accepted, tentative, and no responses to meeting invites).|Meeting|Count|Yes|
 |Emails sent during meetings|Number of emails the person sent during all meetings.|Meeting|Count|Yes|
 |Invitees|Number of people invited to the meeting.|Meeting|Count|Yes|
 |Redundant attendees | The number of attendees of a meeting who are redundant, as defined by the _Redundant meeting hours (lower level)_ metric. For more information about _Redundant meeting hours (lower level)_, see the table that lists [Person metrics](#person-metrics).  |Meeting|Count|Yes|

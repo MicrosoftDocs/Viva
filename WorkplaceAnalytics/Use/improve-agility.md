@@ -26,27 +26,27 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-<!-- ![Improve agility percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
+![Improve agility visual insight](../images/wpa/use/impr-agil-accel-decision.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Organize better meetings |Percentage of  |Metric info|Calculation info |
-|Accelerate decision-making |Percentage of  |Metric info |Calculation info |
-|Foster cross-group collaboration |Percentage of  |Metric info |Calculation info |
-|Improve management practices |Percentage of  |Metric info |Calculation info |
+|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-definition), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-definition) | Calculation info |
+|Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions |Metric info |Calculation info |
+|Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-definition)  |Calculation info |
+|Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting) |Calculation info |
 
 ## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-<!-- ![Improve agility visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+![Improve agility visual insight](../images/wpa/use/impr-agil-improv-mgmt-prac.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Organize better meetings |Visual insight  |
-|Accelerate decision-making |Employee empowerment |[An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
-|Foster cross-group collaboration |Visual insight  |
-|Improve management practices |Visual insight  |
+|Organize better meetings | Meetings by duration and number of attendees  | |
+|Accelerate decision-making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
+|Foster cross-group collaboration | Collaboration across groups |  |
+|Improve management practices | Distribution of conflicting meeting hours |  |
 
 ## Take action
 
