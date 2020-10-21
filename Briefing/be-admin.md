@@ -110,7 +110,7 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 
 3. In the left pane, expand **Settings**, and then select **Org Settings**.
 4. Under **Org Settings**, select **Briefing email (Preview)**.
-5. Select or deselect the checkbox for **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email, including all those who were receiving Briefing email. However, individual users can go [cortana.office.com](www.cortana.office.com) to explicitly subscribe back to receiving Briefing email.
+5. Select or deselect the checkbox for **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email, including all those who were receiving Briefing email. However, individuals can explicitly subscribe again at [cortana.office.com](https://cortana.office.com).
 
    ![Briefing email access](./images/be-admin.png)
 
