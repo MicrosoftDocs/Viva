@@ -27,12 +27,17 @@ The following are based on research presented in the [The loyalty economy: Are y
 * Encourage employees to build deeper relationships with customers. Developing customer empathy enables employees to identify the emotional needs of their customers and understand the reasons why and respond in a way that creates a long-lasting  relationship with customers.
 * Identify opportunities to free up employees’ time spent on administrative tasks or internal meetings, so they have more time to spend with customers.
 * Facilitate direct interaction with customers, even in “back office” functions. Every employee impacts the customer experience in some way and interacting with customers enables a better understanding of customer needs and their successes and challenges.
-* Democratize customer insights with customer facing teams that create a culture where customers can help drive decisions.
 * Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 
-## Change catalyst: Track time with most important external contacts
+## Change catalysts
+
+#### Track time with most important external contacts
 
 Create a list of top external, customer relationships and distribute monthly reports to your team that shows how much time was spent with them and how that compares with established goals.
+
+#### Get customer buy-in
+
+Democratize customer insights with customer facing teams that create a culture where customers can help drive decisions.
 
 ## Related topic
 
