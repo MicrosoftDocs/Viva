@@ -60,15 +60,23 @@ These templates require an Azure Active Directory (AD) application registration 
 
 You can register these apps in one of the following ways:
 
-* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Register an application in the Azure Portal to get the Microsoft identify platform to provide authentication and authorization services. After registering, you must then deploy and authenticate the use of the templates through the template deployment site. 
+* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Register these required apps in the Azure portal to get the Microsoft identify platform to provide authentication and authorization services. After registering, you must then deploy and authenticate the use of the templates through the template deployment site.
 
-* [Register the apps in Step 10 during deployment](#deployment) - You can also register the apps during deployment through the Microsoft AppSource solution template deployment site. 
+* [Register the apps in Step 10 during deployment](#deployment) - You can also register the apps during deployment through the Microsoft AppSource solution template deployment site.
 
 ## Register apps in Azure AD
 
-You need [to register the apps in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) or [Register an application with the Microsoft identity platform](https://docs.microsoft.com/graph/auth-register-app-v2), which is required for deploying and authenticating the use of Workplace Analytics Azure Templates in the Microsoft AppSource solution template deployment site.
+You can register the required apps in the Azure portal to get the Microsoft identify platform to authenticate and authorize the services, which are required for deployment. 
 
-These templates require an Azure Active Directory (AD) application registration for the Azure Web App service, the Web API App service, the Azure Analysis service, and the Azure key vault.
+Registering the applications before deployment enables you to use Azure Active Directory (Azure AD) as an authentication provider.
+
+See [Register an app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) or [Register an application with the Microsoft identity platform](https://docs.microsoft.com/graph/auth-register-app-v2) for instructions.
+
+After registering the apps, you must then complete the deployment steps in [Deployment](#deployment).
+
+### Additional prerequisite
+
+You must have an account established with permissions to register Azure AD applications. An Azure Application Developer is a role that would grant these rights.
 
 **To register the apps:**
 
