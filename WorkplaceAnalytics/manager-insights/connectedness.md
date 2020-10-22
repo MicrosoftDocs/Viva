@@ -30,4 +30,4 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Workplace Analytics best practices](best-practices.md)

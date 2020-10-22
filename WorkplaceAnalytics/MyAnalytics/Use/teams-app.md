@@ -110,7 +110,7 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 The Teams insights app comes with a range of features that you can find by selecting one of the following tabs:
 
 * [Stay connected](#stay-connected) 
-* [Protect time](#protect-time) 
+* [Protect time](#protect-time-tab) 
 
 > [!Note] 
 > As you use the Teams insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q4-how-can-i-send-feedback-to-microsoft-about-the-insights-app).
