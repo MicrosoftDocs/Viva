@@ -63,5 +63,14 @@ Meetings where you and your direct report are both attending can signify a lack 
 * Recap these delegated decisions during recurring 1:1s where further coaching can be practiced.
 
 ## Related topic
+=======
+## Best practices
+
+* Lead by example. People are more engaged if they work for a manager who is working at least as much as they are.
+* Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
+* Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection, an employee must interact with another person at least two times per month in an email or meeting with five or fewer participants.)
+* Schedule and keep one-on-ones with your employees. Consistent one-on-one manager time with employees leads to more positive employee engagement.
+
+## Related topic
 
 [Workplace Analytics best practices](best-practices.md)

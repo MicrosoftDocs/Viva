@@ -194,3 +194,12 @@
 | 10/9/2020 | [Workplace Analytics Power BI templates introduction](/Workplace-Analytics/tutorials/power-bi-intro) | modified |
 | 10/9/2020 | [Power BI Microsoft Teams dashboard](/Workplace-Analytics/tutorials/power-bi-teams) | modified |
 | 10/9/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
+
+
+## Week of October 12, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/13/2020 | [Explore introduction](/Workplace-Analytics/use/explore-intro) | modified |
+| 10/15/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
