@@ -26,14 +26,14 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Improve agility visual insight](../images/wpa/use/impr-agil-accel-decision.png)
+![Improve agility percentage insight](../images/wpa/use/impr-agil-accel-decision.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define) | Calculation info |
 |Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Calculation info |
 |Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-define)  |Calculation info |
-|Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting) |Calculation info |
+|Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |Calculation info |
 
 ## Visual insights
 

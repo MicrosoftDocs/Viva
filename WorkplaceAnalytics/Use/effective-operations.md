@@ -26,7 +26,7 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Operational effectiveness visual insight](../images/wpa/use/op-eff-improve-meet-qual.png)
+![Operational effectiveness percentage insight](../images/wpa/use/op-eff-improve-meet-qual.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
