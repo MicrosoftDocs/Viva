@@ -20,14 +20,17 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to do the following:
 
- - [Review the security considerations](#security-considerations)
- - [Confirm the prerequisites](#prerequisites)
- - [Deploy the templates](#deployment)
- - [Register apps in Azure AD](#register-apps-in-azure-ad)
- - [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
- - [Add users](#add-users-and-assign-roles)
- - [Process the data](#process-the-data)
- - [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs) are also available
+1. [Review the security considerations](#security-considerations)
+2. [Confirm the prerequisites](#prerequisites)
+3. [Choose an app registration path](#choose-a-registration-path):
+
+   * [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad)
+   * [Register the apps during deployment](#deployment)
+
+4. [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
+5. [Add users](#add-users-and-assign-roles)
+6. [Process the data](#process-the-data)
+7. [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs) are also available
 
 ## Security considerations
 
@@ -49,40 +52,17 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
    * Confirm you have either an Azure Admin or an Azure Contributor role to deploy these templates.
    * Get [applicable Azure AD permissions](https://docs.microsoft.com/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Office 365 global administrator.
-   * If the Workplace Analytics team is deploying the templates, confirm that vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
+   * If the Workplace Analytics team is deploying the templates, confirm that the vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
 
-## Deployment
+## Choose a registration path
 
-1. Get and open the Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
-2. On the **Getting Started** page, select **Next**.
-3. When prompted, select the applicable Azure subscription.
-4. For **Resource group**, you can select to:
+These templates require an Azure Active Directory (AD) application registration for the Azure Web App service, the Web API App service, the Azure Analysis service, and the Azure key vault.
 
-   * **Create new** to create a new resource group.
-   * **Use existing** to use an existing resource group and append the existing group with what's needed for this template, including any updates for any of the other templates in this group.
+You can register these apps in one of the following ways:
 
-5. Select the applicable **Region** and then select **Next**.
-6. On the **Choose SKU** page, select the SKU or Pricing Tier for one or more of the Azure Components that you'll use with the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
-7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
-8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you're not, you need to sign in manually.
-9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
-10. In **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it. Then select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
+* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Register an application in the Azure Portal to get the Microsoft identify platform to provide authentication and authorization services. After registering, you must then deploy and authenticate the use of the templates through the template deployment site. 
 
-    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) - To register the apps, complete the steps in [Register apps in Azure AD](#register-apps-in-azure-ad) after you complete these steps.
-    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
-    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
-    * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
-    * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-    * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
-    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
-    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
-
-11. After the deployment is complete, open, copy, and save the deployed website link for the templates, similar to the one shown in the following graphic.
-
-    >[!Important]
-    >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
-
-    ![Azure Templates deployment](./images/deployed-website-link.png)
+* [Register the apps in Step 10 during deployment](#deployment) - You can also register the apps during deployment through the Microsoft AppSource solution template deployment site. 
 
 ## Register apps in Azure AD
 
@@ -120,6 +100,39 @@ These templates require an Azure Active Directory (AD) application registration 
  
 8. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
 9. Select **Authentication** and update the Redirect URI for each app, which you got in **Step 10** in [Deployment](#deployment).
+
+## Deployment
+
+1. Get and open the Azure deployment link for the Workplace Analytics Azure Templates from the Workplace Analytics team.
+2. On the **Getting Started** page, select **Next**.
+3. When prompted, select the applicable Azure subscription.
+4. For **Resource group**, you can select to:
+
+   * **Create new** to create a new resource group.
+   * **Use existing** to use an existing resource group and append the existing group with what's needed for this template, including any updates for any of the other templates in this group.
+
+5. Select the applicable **Region** and then select **Next**.
+6. On the **Choose SKU** page, select the SKU or Pricing Tier for one or more of the Azure Components that you'll use with the templates. You should've gotten these SKU recommendations with the deployment URL or during your team deployment meeting.
+7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
+8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you're not, you need to sign in manually.
+9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
+10. In **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it. Then select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
+
+    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) - To register the apps, complete the steps in [Register apps in Azure AD](#register-apps-in-azure-ad) after you complete these steps.
+    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
+    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
+    * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
+    * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+    * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
+    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
+    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
+
+11. After the deployment is complete, open, copy, and save the deployed website link for the templates, similar to the one shown in the following graphic.
+
+    >[!Important]
+    >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
+
+    ![Azure Templates deployment](./images/deployed-website-link.png)
 
 ## Generate SAS URI for data export
 
