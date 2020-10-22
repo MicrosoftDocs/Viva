@@ -23,7 +23,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 
 ## Best practices
 
-* Ask employees to use [MyAnalytics network features](../myanalytics/use/network.md) to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Use [MyAnalytics network features](../myanalytics/use/network.md) to add people to your "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 * Encourage and train workers to ask the right questions. Minimize preconceptions by asking open-ended questions.  
@@ -39,7 +39,7 @@ Use [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/grou
 
 #### Enable MyAnalytics network insights
 
-Help employees build connections by encouraging them to leverage [MyAnalytics network insights](../MyAnalytics/Use/network.md) about their network and top collaborators, and see suggestions for how they can improve these relationships.
+Help your team build connections by encouraging them to leverage [MyAnalytics network insights](../MyAnalytics/Use/network.md) about their network and top collaborators, and see suggestions for how they can improve these relationships.
 
 ## Related topics
 
