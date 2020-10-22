@@ -60,14 +60,16 @@ You can select **Take action** to see ways you can maximize operational effectiv
 
 ### Free up capacity
 
-One liner quote from Connor & Kate's spreadsheet
+Reducing the amount of time wasted on low-quality collaboration is a way to create capacity for activities that create business value.
 
-Quote
+As explained in [How to finally kill the useless, recurring meeting](https://hbr.org/2015/03/how-to-finally-kill-the-useless-recurring-meeting), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done."
 
-2 to 3 best practices
+Ways to help free up capacity:
 
-Sentence to refer user to best practices
-
+* Provide managers with access to after-hours activity and the ability to automatically delay email delivery to align with coworkers' configured working hours.
+* Use short meetings (such as only 15 minutes) with focused agendas. Such meetings are common in high-stakes workplaces to debrief or reflect on an event.
+	
+For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ### Improve meeting quality
 

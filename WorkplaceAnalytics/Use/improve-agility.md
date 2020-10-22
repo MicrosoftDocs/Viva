@@ -64,16 +64,24 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 <!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? -->
 
+<!--
+For more best practices ...see Best practices for manager coaching.
+-->
+
 ### Accelerate decision-making
 
 Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
 
+<!--
+For more best practices and how to develop a 1:1 conversation series, see Best practices for manager coaching.-->
 
 ### Foster cross-group collaboration
 
 Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
 
 <!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? --> 
+
+For more best practices and change catalysts, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
 
 ### Improve management practices
 
