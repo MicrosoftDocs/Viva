@@ -9,29 +9,31 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Error state reference
-Access, connectivity, or other issues can cause pages to not appear or to appear but showing incomplete data. This article describes various possibilities and, where possible, gives solutions.
+# Error-state reference
+Access, connectivity, or other issues can cause pages to not appear or to appear but show incomplete data. This topic describes various possibilities and, where possible, gives solutions.
 
 ## Permissions errors
-| Error | Description & instructions | More information |
+| Error message | Why is this happening? | Recommended actions  |
 | --- | --- | --- | 
-| You don’t have access yet	| Contact your IT admin for access to Microsoft 365 Insights. | [TBW (Learn more comes to here.)] (#1a) |
-| Something went wrong	| There was an issue loading this page. Please try again later. | [TBW (Learn more comes to here.)] (#1b = page level) |
-| Something went wrong |	Please try again later. | [TBW (Learn more comes to here.)] (#9, 10, 11  = insight level) |
+| **You don’t have access yet** <p>Contact your IT admin for access to Microsoft 365 Insights. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| This error takes place if you do not have the right role assigned for viewing the Workplace Analytics experience. Roles are assigned by the Workplace Analytics admin. <br> <br>For more information, see [Assign roles](../setup/assign-roles-to-wpa-admins.md). | There is an easy fix for this problem: Reach out to your to your Workplace Analytics admin and request to be assigned the role of _limited analyst_. <br><br> To find out who has admin permissions in your organization, see [Admin center overview / Who has admin permissions?](https://docs.microsoft.com/microsoft-365/admin/admin-overview/admin-overview?view=o365-worldwide#who-has-admin-permissions-in-my-business&preserve-view=true) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 
 
 ## Errors in insight generation
-| Error &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description & instructions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; | More information |
+| Error message  | Why is this happening? | Recommended actions  |
 | --- | --- | --- | 
-| Something went wrong  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	| There was an issue loading this page. Please try again later. | The insights page cannot be shown at this time. [TBW (Learn more comes to here.)] (2: All calls failing, the first data load fails to happen) |
-| Insight unavailable |	This insight isn’t available because of a technical issue. Please try again later. | The insights cannot be shown at this time.  [TBW (Learn more comes to here.)] (#3) |
-| Insight unavailable |	This insight is unavailable because the required minimum number of employees is not met. | 	For data-privacy reasons, a minimum group of employees or managers is always required for data to be shown. In this case, the minimum group size was not met so the data could not be shown. (#4, 6, 7, 8a, 8b, 12) |
+| **Insight unavailable** <p>This insight isn’t available because of a technical issue. Please try again later. <br><p>- or -<br><p> **Something went wrong**<p>Please try again later. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | These errors appear when something goes wrong in the system that generates the insights. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | The Workplace Analytics team is notified about such errors automatically, but if they persist, please report them using the feedback system. You can submit feedback by selecting the smiley face icon (at the top), entering your question or feedback, and then selecting **Send**. <br><br> For more about support, see [Get support for Workplace Analytics](../overview/getting-support.md). | 
 
 ## Data-access errors
-| Error &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description & instructions | More information |
+| Error message | Why is this happening? | Recommended actions  |
 | --- | --- | --- | 
-| Generation failure | 	[TBW] | The stats on the top right of the page are not showing the employee count. (#5) |
-| Something went wrong | There was an issue loading this page. Please try again later. | [TBW (Learn more comes to here.)] (#1b) |
+| This insight is unavailable because the required minimum number of employees is not met &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| This error takes place if certain privacy thresholds are not being met -- for example, if the number of measured employees falls below the required minimum as configured by your Workplace Analytics admin. | Contact your Office 365 admin to discuss the following solutions:<ul><li>License more employees so that your organization has enough to power the insight.</li><li>Change the minimum group size.</li></ul> Minimum group size is used to protect privacy. For more information, see [Privacy and data access / You decide](../privacy/privacy-and-data-access.md?branch=pas-am-error-codes#you-decide-who-gets-to-see-what-data) and [Workplace Analytics settings / Minimum group size](settings.md?branch=pas-am-error-codes#minimum-group-size). &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 		
-## Related topic
+## Related topics
 
 [Business outcomes overview](insights.md)
+
+[Assign licenses](../setup/assign-licenses-to-population.md)
+
+[User roles in Workplace Analytics](user-roles.md)
+
+[Assign roles](../setup/assign-roles-to-wpa-admins.md)
+
