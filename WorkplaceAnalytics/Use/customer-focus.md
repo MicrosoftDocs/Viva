@@ -43,7 +43,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |---------|--------|----------------------|
 |Optimize time with customers |Distribution of external collaboration  |Shows the percentage of employees grouped by the monthly average number of hours spent with customers (people outside the company). This uses [collaboration metrics](metric-definitions.md#person-metrics). |
 |Promote coaching and development |Distribution of monthly 1:1 time with managers |Shows the percentage of employees grouped by the monthly average number of hours spent with their managers one-on-one. This uses [meeting hours with manager 1:1](metric-definitions.md#person-metrics). |
-|Strengthen internal networks |Internal network connections by employee network strength |An organizational network graph that shows the number of employees with strong internal networks as compared to other employees in your organization. Each node represents an employee and the darker colored nodes represent employees with a higher number of internal connections, as the legend indicates. This uses [organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics). |
+|Strengthen internal networks |Internal network connections by employee network strength |An [organizational network graph](insight-ona-measures.md) that shows the number of employees with strong internal networks as compared to other employees in your organization. Each node represents an employee and the darker colored nodes represent employees with a higher number of internal connections, as the legend indicates. This uses [organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics). |
 
 ## Take action
 
