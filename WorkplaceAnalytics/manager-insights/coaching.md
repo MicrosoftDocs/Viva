@@ -41,7 +41,7 @@ The level of day-to-day collaboration between managers and their employees can i
 
 #### Develop a 1:1 conversation series
 
-Use the following meeting agenda outline as a guide for creating a series of 1:1 meetings with their employees, remembering to keep questions open-ended to spark discussions.
+Use the following meeting agenda outline as a guide for creating a series of 1:1 meetings with employees, remembering to keep questions open-ended to spark discussions.
 
 * Meeting 1: Share some positive feedback with your employee.
 * Meeting 2: Explore how your employee interacts with the rest of the team.
@@ -56,10 +56,10 @@ By collaborating on topics and sharing discussion points for your 1:1 meetings i
 
 #### Reduce coattended meetings
 
-Meetings where an employee and their manager are both attending can signify  a lack of delegation. These meetings are a good starting point to deciding  what decisions can be delegated to reduce coattendance. Use the following as a reference to get started:
+Meetings where you and your direct report are both attending can signify a lack of delegation. These meetings are a good starting point to deciding what decisions can be delegated to reduce coattendance. Use the following as a reference to get started:
 
 * Identify meetings that are attended by a manager and an employee that reports directly to that manager.
-* Request that when possible the manager delegates the decision rights for that work stream to the employee who is also attending.
+* Request that when possible you delegate decision rights for that work stream to your direct report who is also attending.
 * Recap these delegated decisions during recurring 1:1s where further coaching can be practiced.
 
 ## Related topic
