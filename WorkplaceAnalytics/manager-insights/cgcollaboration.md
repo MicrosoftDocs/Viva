@@ -37,13 +37,13 @@ Employees that collaborate across silos are more aware of other perspectives and
 
 ## Change catalysts
 
-#### Provide managers with go-to contacts list
+#### Cocreate lists of go-to contacts and distribute them to highly networked individuals
 
-Survey the group to collect and create a list of contacts that would be a good starting place for employees to contact when trying to establish a new connection. This can empower managers with the right contacts in order to solve their employees' problems. Ways to do this:
+Survey the group to collect and create a list of contacts that would be a good starting place for your team to contact when trying to establish a new connection. This can empower you and your team with the right contacts in order to solve any problems that might arise. Ways to do this:
 
 * Send out a company wide email where people can volunteer to be a connector within their team.
-* Combine all of these connectors into a list and share that list with managers.
-* Explain to all employees that managers now have a list of go-to contacts.
+* Combine all of these connectors into a list and share that list.
+* Communicate with all that you now have a list of go-to contacts.
 
 #### Create goals across teams or departments
 
