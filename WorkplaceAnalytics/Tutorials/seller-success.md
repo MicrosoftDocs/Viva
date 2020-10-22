@@ -143,7 +143,7 @@ Its purpose is to help sellers decide whether they are spending time optimally w
 
 ### Depth of engagement
 
-The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more [meaningful interactions](../use/glossary.md#meaningful-interaction-definition) in the last 28 days.
+The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last 28 days.
 
 ![Depth of engagement](../images/wpa/tutorials/depth-of-engagement-ss.png)
 
