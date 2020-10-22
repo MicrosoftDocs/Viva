@@ -33,7 +33,7 @@ The level of day-to-day collaboration between managers and their employees can i
 * Lead by example. People are more engaged if they work for a manager who is working at least as much as they are.
 * Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
 * Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection, an employee must interact with another person at least two times per month in an email or meeting with five or fewer participants.)
-* Push ownership down to the level of action.
+* Empower employees with ownership of workstreams so decisions can be made at the level where immediate action can be taken.
 * Enable and use [Insights](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
 * Promptly decline meetings as soon as possible with a brief explanation of why to reinforce decision-making roles and to role model healthy habits.
 
