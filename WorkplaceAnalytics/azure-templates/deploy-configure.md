@@ -83,7 +83,7 @@ See [Register an application with the Microsoft identity platform](https://docs.
 
    1. **API permissions** - Select **Azure Active Directory Graph**, and then select **User.Read** and **Delegated**.
    2. **Expose API** – Select to grant the delegated permission for this registration.
-   3. **Authentication update** - Add the **Redirect URIs** from **Step 10** in [Deployment](#deployment). The format will be similar to the following:
+   3. **Authentication update** - Add the [**Redirect URIs**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri). The format will be similar to the following:
 
      `https://wpaapps20201031-api.azurewebsites.net/.auth/login/aad/callback`
 
@@ -94,9 +94,9 @@ See [Register an application with the Microsoft identity platform](https://docs.
    * Select the **Azure api web app service** (for example: wpaapps20201031091429-api).
    * Select **user_impersonation** and **Delegated**.
    * Grant consent for the organization.
- 
+
 7. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
-8. Follow the steps in [Deployment](#deployment) and in **Step 10**, select **Authentication** and update the Redirect URI for each app.
+8. Follow the steps in [Deployment](#deployment) and in **Step 10**, select **Authentication** and update the **Redirect URI** for each app.
 
 ## Deployment
 
@@ -113,16 +113,19 @@ See [Register an application with the Microsoft identity platform](https://docs.
 7. On the **Deployment Review** page, confirm the selections, and then select **Next**.
 8. After the Azure Databricks workspace deployment is done, you are automatically signed in to Azure Databricks. If you're not, you need to sign in manually.
 9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
-10. If you registered the apps through the Azure portal, continue to the next step. Otherwise, in **Deployment Review**, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
+10. In **Deployment Review**, do the following:
 
-    * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) - To register the apps, complete the steps in [Register apps in Azure AD](#register-apps-in-azure-ad) after you complete these steps.
-    * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
-    * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
-    * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
-    * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-    * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
-    * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
-    * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
+* If you registered the apps before deployment, select Authentication and update the Redirect URI for each of the apps listed.
+* Otherwise, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
+
+  * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) - To register the apps, complete the steps in [Register apps in Azure AD](#register-apps-in-azure-ad) after you complete these steps.
+  * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
+  * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
+  * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
+  * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+  * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
+  * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
+  * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
 
 11. Select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 12. After the deployment is complete, open, copy, and save the deployed website link for the templates, similar to the one shown in the following graphic.
