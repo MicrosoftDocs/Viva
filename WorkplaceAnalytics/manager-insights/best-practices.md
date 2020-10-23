@@ -13,7 +13,7 @@ author: madehmer
 
 <ul class="panelContent cardsY">
     <li>
-        <a href="./gm-coaching.md">
+        <a href="./coaching.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -32,7 +32,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-wellbeing.md">
+        <a href="./wellbeing.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -51,7 +51,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-meetings.md">
+        <a href="./meetings.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -70,7 +70,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-focus.md">
+        <a href="./focus.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -89,7 +89,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-connectedness.md">
+        <a href="./connectedness.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -108,7 +108,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-overload.md">
+        <a href="./overload.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -127,7 +127,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-communication.md">
+        <a href="./communication.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -146,7 +146,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-cgcollaboration.md">
+        <a href="./cgcollaboration.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -165,7 +165,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-influencer.md">
+        <a href="./influencer.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,7 +184,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="./gm-cust-collab.md">
+        <a href="./cust-collab.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
