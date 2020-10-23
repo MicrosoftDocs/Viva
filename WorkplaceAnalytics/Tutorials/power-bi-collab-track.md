@@ -64,9 +64,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 6. Select **Run** to run the query, which can take a few minutes to complete.
 7. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
+
+    ![Download the Power BI Ways of working tracker template](../Images/WpA/Tutorials/pbi-download-tracker.png)
+
 8. Open the downloaded **Ways of working tracker Power BI template**.
 9. If prompted to select a program, select **Power BI**.
-10.	When prompted by Power BI:
+10. When prompted by Power BI:
 
     * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for the Ways of working tracker query, and then select to copy the generated OData URL link.
     * In Power BI, paste the copied link into its respective field.
@@ -100,7 +103,7 @@ After the Ways of working tracker dashboard is set up and populated with Workpla
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-  ![Ways of working tracker dashboard settings](../Images/WpA/Tutorials/track-settings.png)
+  ![Ways of working tracker dashboard settings](../Images/WpA/Tutorials/tracker-settings.png)
 
 ## About the reports
 
