@@ -29,7 +29,7 @@ The following are based on research presented in the [The loyalty economy: Are y
 * Facilitate direct interaction with customers, even in “back office” functions. Every employee impacts the customer experience in some way and interacting with customers enables a better understanding of customer needs and their successes and challenges.
 * Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 
-## Change catalysts
+## Change strategies
 
 #### Track time with most important external contacts
 

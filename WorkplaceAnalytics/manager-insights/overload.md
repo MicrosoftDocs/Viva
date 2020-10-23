@@ -33,7 +33,7 @@ Based on research presented in [Protecting company culture means having rules fo
 * Enable employees to disconnect from email after work. If something urgent comes up, they can be reached by the alternative channels.
 * Set clear expectations and urge management to set the right example for the rest of the organization.
 
-## Change catalysts
+## Change strategies
 
 #### Set an email practice and cadence
 

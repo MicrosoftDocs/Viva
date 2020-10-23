@@ -46,7 +46,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.
 * Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people whom the formal performance reviews might otherwise overlook.
 
-## Change catalysts
+## Change strategies
 
 #### Open your network to your team
 

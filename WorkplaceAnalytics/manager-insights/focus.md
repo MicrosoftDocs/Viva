@@ -34,7 +34,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
 * Regularly and openly check in with employees. Frustration, resentment and even hopelessness are signals that people are falling back into bad patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
 
-## Change catalysts
+## Change strategies
 
 #### Establish a 'no meeting' period
 

@@ -44,7 +44,7 @@ Based on the information presented in [Don’t just tell employees organizationa
 * Schedule a more structured meeting or conference call when dealing with multiple people.
 * Keep emails short and be sure the subject line is searchable.
 
-## Change catalysts
+## Change strategies
 
 #### Be a role model for Teams use
 

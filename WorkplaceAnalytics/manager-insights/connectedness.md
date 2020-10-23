@@ -31,7 +31,7 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 * Urge employees to explore distant networks. Employees need to be pushed to tap into expertise outside the company and even outside the industry.
 * Identify employees with strong interpersonal skills and a growth mindset to build relationships and collaborate across different functions and geographies.
 
-## Change catalysts
+## Change strategies
 
 #### Build strong connections with Teams
 
