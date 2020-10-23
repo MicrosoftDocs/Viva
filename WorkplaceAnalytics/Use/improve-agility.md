@@ -80,13 +80,17 @@ Ways to accelerate decision-making:
 * Record meetings and share recordings in public channels whenever possible. Also, provide wide access to meeting notes using Teams and OneNote.
 * Create Teams channels for teams to easily share information as it emerges both formally through notes and files and informally through chat.
 
-<!--
-For more best practices and how to develop a 1:1 conversation series, see Best practices for manager coaching.-->
+For more best practices and ways to develop a 1:1 conversation series, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
 ### Foster cross-group collaboration
 
 Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
 
+Ways to foster cross-group collaboration:
+
+* Build community by promoting information sharing and community building. Do this, for example, through cross-functional projects and communication about strategic topics carried out in Microsoft Teams channels.
+* The MyAnalytics network dashboard shows your connections and top collaborators, and gives you suggestions on how to improve connections with your most important contacts.
+	
 <!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? --> 
 
 For more best practices and change catalysts, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
