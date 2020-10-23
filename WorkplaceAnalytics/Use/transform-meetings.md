@@ -60,11 +60,12 @@ You can select **Take action** to see ways you can drive change or transform you
 
 Long and large meetings are costly and often considered a waste of time. Shorter meetings with fewer people can enhance individual and team performance.
 
-Why it matters quote
+<!-- Why it matters quote -->
 
 Ways to optimize meetings: 
 
-* First best practice
+* Microsoft Teams channels provide team members with a new way to get questions answered and provide updates without the need for a meeting.  
+* Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to more carefully plan.
 
 For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
@@ -72,9 +73,12 @@ For more best practices and change catalysts, see [Best practices for meetings](
 
 Recurring meetings for team updates often consume large amounts of time. Over time they can become bloated with attendees, unproductive and disconnected from original goals.
 
-Why it matters quote
+<!-- Why it matters quote -->
 
-Ways to optimize meetings: 
+Ways to optimize recurring meetings: 
+
+* Microsoft Teams channels provide team members with a new way to get questions answered and provide updates without the need for a meeting.  
+* Experiment with 15 minute meetings: Short meetings with focused agendas are common in high-stakes workplaces to debrief or reflect on an event.
 
 * First best practice
 
@@ -84,11 +88,12 @@ For more best practices and change catalysts, see [Best practices for meetings](
 
 Emailing and chatting during meetings can lead to different interpretations of decisions, missed guidance and inconsistent follow-through on action items.
 
-Why it matters quote
+<!-- Why it matters quote -->
 
-Ways to optimize meetings: 
+Ways to promote healthier meetings:
 
-* First best practice
+* Use the MyAnalytics Outlook add-in to prepare for meetings. It provides insights about meeting information, related documents, and reminders to book preparation time.
+* When distracted by a thought to send an email during a meeting, add it quickly to your to-do list instead and move on. This provides satisfaction and can help you regain focus.
 
 For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
