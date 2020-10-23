@@ -18,7 +18,6 @@ Each of the following behaviors show how your organization compares with others 
 * [Optimize meeting hours](#optimize-meeting-hours)
 * [Prevent burnout](#prevent-burnout)
 * [Strengthen management pipeline](#strengthen-management-pipeline)
-* [Foster connectivity](#foster-connectivity)
 * [Promote coaching and development](#promote-coaching-and-development)
 * [Empower employees](#empower-employees)
 
@@ -111,7 +110,7 @@ Managers who have diverse ties across an organization are typically considered m
 Ways to foster connectivity:
 
 * Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview).
-* Enable and use the [Insights Outlook add-in](/myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
+* Enable and use the [Insights Outlook add-in](../myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
 
 For more best practices and ways to open your network to your team, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
 -->
