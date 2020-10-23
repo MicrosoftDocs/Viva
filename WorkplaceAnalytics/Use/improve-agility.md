@@ -64,13 +64,21 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 <!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? -->
 
-<!--
-For more best practices ...see Best practices for manager coaching.
--->
+Ways to organize better meetings:
+
+* When composing a meeting invitation with a duration of one hour, note the MyAnalytics reminder that suggests that you  shorten the meeting by 15 minutes.
+* When preparing the agenda, include the purpose of each participant's attendance. The exercise reveals unnecessary invitees, including people who are optional or only require meeting notes.	
+
+For more best practices, see [Best practices for meetings](../tutorials/gm-meetings.md) and [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
 ### Accelerate decision-making
 
 Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
+
+Ways to accelerate decision-making:
+
+* Record meetings and share recordings in public channels whenever possible. Also, provide wide access to meeting notes using Teams and OneNote.
+* Create Teams channels for teams to easily share information as it emerges both formally through notes and files and informally through chat.
 
 <!--
 For more best practices and how to develop a 1:1 conversation series, see Best practices for manager coaching.-->
