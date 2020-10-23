@@ -29,9 +29,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Foster cross-group collaboration |Percentage of organizations that effectively collaborate across groups and hierarchies  |Metrics |Calculation info |
-|Enable deep work |Percentage of employees who have less than 10 hours for deep work each week |[Collaboration and focus hours](metric-definitions.md#person-metrics) |Calculation info |
-|Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Calculation info |
+|Enable deep work |Percentage of employees who spend a majority of meeting time in long or large meetings |[Long or large meetings and meeting hours](metric-definitions.md#person-metrics) |The percentage of employees who spend over 50 percent of meeting hours in long or large meetings. Long meetings are greater than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the set time period. |
+|Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight calculates the percentage of organizations with not enough influencers. |
 
 ## Visual insights
 
@@ -41,9 +40,8 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Calculations|
 |---------|--------|----------|------------|
-|Foster cross-group collaboration |Collaboration across teams |An [organizational network graph](insight-ona-measures.md) that shows the number of groups with high cross-group collaboration as compared to the other teams in your organization. Cross-group collaboration is based on the number of hours a group spent in meetings and on email with at least one person in another group. This uses time allocation logic. |
-|Enable deep work |Distribution of time for deep work |Shows the percentage of employees who had uninterrupted time for deep work grouped by the amount of focus hours they had for the week. It uses [collaboration and focus hours](metric-definitions.md#person-metrics) to calculate this data. |
-|Utilize influencers |Organizations with limited influencers |Shows the percentage of teams in your organization that are low on influencers. This graph uses the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. |
+<!--|Foster cross-group collaboration |Collaboration across teams |An [organizational network graph](insight-ona-measures.md) that shows the number of groups with high cross-group collaboration as compared to the other teams in your organization. Cross-group collaboration is based on the number of hours a group spent in meetings and on email with at least one person in another group. This uses time allocation logic. |-->|Enable deep work |Distribution of time for deep work |Percentage of employees grouped by their [focus time](metric-definitions.md#focus-define). They are divided into those who spent between 0 and 10 hours, 10 to 20 hours, 20 to 30 hours, and more than 30 hours focusing. The percentages are calculated weekly and averaged over the set time period. |
+|Utilize influencers |Organizations with limited influencers |Shows the percentage of teams in your organization who are low on influencers based on the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. Influencers are employees with the best connections to people across the company based on their collaboration patterns.|
 
 ## Take action
 
@@ -53,7 +51,7 @@ You can select **Take action** to see ways you can drive change or simply mainta
 * **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to foster innovation 
+## Best practices to foster innovation
 
 ### Foster cross-group collaboration
 
@@ -81,12 +79,12 @@ For more best practices and ways to establish a 'no meeting' period, see [Best p
 
 Influencers are people and groups within an organization who are well connected and can drive innovation by efficiently sharing information with others. The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article says to "move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
 
-Ways to leverage influencers:
+Ways to leverage leaders:
 
-* Communicate through influencers by using MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask influencer groups to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Communicate through leaders by using MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
+* Move cross-functional team collaboration to Microsoft Teams and ask leaders to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
 
-For more best practices and how to identify and utilize team influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
+For more best practices and how to identify and utilize team leaders, see [Best practices for influencers](../tutorials/gm-influencer.md).
 
 ## Related topics
 

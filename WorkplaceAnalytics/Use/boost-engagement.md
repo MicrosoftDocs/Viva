@@ -18,8 +18,7 @@ For example, are employees routinely getting one-on-one time with their managers
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Promote coaching and development](#promote-coaching-and-development)
-* [Prevent employee burnout](#prevent-employee-burnout)
-* [Encourage team cohesion](#encourage-team-cohesion)
+* [Prevent employee burnout](#prevent-employee-burnout)<!--* [Encourage team cohesion](#encourage-team-cohesion)-->
 * [Drive employee empowerment](#drive-employee-empowerment)
 
 ![Employee engagement page](../images/wpa/use/boost-ee.png)
@@ -32,9 +31,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [long meetings and large meetings](glossary.md)|Calculation info |
-|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
-|Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week. |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) [Workweek span](metric-definitions.md#workweek-span-define) |Calculation info |
+|Drive employee empowerment |Percentage of employees who have a majority of their meetings being attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define)|The percentage of employees who spend over 50% of their meeting hours with their manager present in the meeting. This percentage is calculated weekly and averaged over the entire time period. |<!--|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |
+|Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week |[After-hours metrics](metric-definitions.md#person-metrics) |The percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 
 ## Visual insights
@@ -45,10 +43,9 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Promote coaching and development |Distribution 1:1 time with managers each month |Based on the average number of [meeting hours with managers 1:1](metric-definitions.md#person-metrics) that managers spend with employees grouped by the average monthly totals.|
-|Prevent employee burnout |Distribution of weekly after-hours collaboration |Based on the average number of hours that employees spent collaborating after hours grouped by the average weekly totals. This uses [after hours collaboration and other related metrics](metric-definitions.md#person-metrics).|
-|Encourage team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |
-|Drive employee empowerment |Distributions of manager employee coaching relationships |Compares the key data points that affect manager-employee relationships and productivity, including the monthly averages for [meeting hours with manager and meeting hours with manager 1:1](metric-definitions.md#person-metrics) for managers and their employees. |
+|Promote coaching and development |Distribution 1:1 time with managers each month |Percentage of employees based on their average monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+|Prevent employee burnout | Distribution of weekly after-hours collaboration |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |<!--|Encourage team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |
+|Drive employee empowerment |Distributions of manager employee coaching relationships |Uses the average time employees spent with [their managers in 1:1s](metric-definitions.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours where the manager](metric-definitions.md#meeting-hours-with-manager-define) is in attendance, the different employee-manager coaching relationships are grouped by employee time percentages: <ul><li>**Under-coached** - Spent less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and employees who have less than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spent more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spent more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Co-attended** - Spent less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spent more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Coached** - Spent more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spent less than 30 percent of their meeting hours with their managers in attendance. </li> |
 
 ## Take action
 
@@ -80,7 +77,7 @@ Ways to support employee wellbeing:
 * Ask employees to use the [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
-
+<!--
 ### Encourage team cohesion
 
 Employees who maintain strong connections within their team feel a sense of organizational belonging.
@@ -93,7 +90,7 @@ Ways to support team cohesion:
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 
-For more best practices and how to open your network to your teams, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
+For more best practices and how to open your network to your teams, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).-->
 
 ### Drive employee empowerment
 

@@ -66,7 +66,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Time in self-organized meetings|Number of hours spent in meetings organized by the person with at least one other person.|Person|Hour|Yes|
 |Total calls | Total number of calls a person joined through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook). | Person| Count | Yes |
 |Total email sent during meeting | Number of emails the person sent during meetings. |Person|Count|Yes|
-|Total focus hours|Total number of hours with two or more hour blocks of time where the person had no meetings.|Person|Hour|Yes|
+|<a name="focus-define"></a> Total focus hours|Total number of hours with two or more hour blocks of time where the person had no meetings.|Person|Hour|Yes|
 |Working hours collaboration hours|Number of hours the person spent in meetings and sending emails during working hours.|Person|Hour|No|
 |Working hours email hours|Number of hours the person spent in sending email during working hours.|Person|Hour|Yes|
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes |
