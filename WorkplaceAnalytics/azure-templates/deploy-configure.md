@@ -61,7 +61,7 @@ These templates require an Azure Active Directory (AD) application registration 
 
 You can register these apps in one of the following ways:
 
-* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Register these required apps in the Azure portal to get the Microsoft identify platform to provide authentication and authorization services. After registering, you must then deploy and authenticate the use of the templates through the template deployment site.
+* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Register these required apps in the Azure portal to get the Microsoft identify platform to provide authentication and authorization. After registering, you must then deploy and authenticate the use of the templates through the template deployment site.
 
 * [Register the apps in Step 10 during deployment](#deployment) - You can also register the apps during deployment through the Microsoft AppSource solution template deployment site.
 
