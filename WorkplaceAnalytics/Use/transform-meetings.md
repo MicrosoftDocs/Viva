@@ -58,7 +58,7 @@ You can select **Take action** to see ways you can drive change or transform you
 
 ### Optimize meeting hours
 
-One liner quote from Connor & Kate's spreadsheet
+Long and large meetings are costly and often considered a waste of time. Shorter meetings with fewer people can enhance individual and team performance.
 
 Why it matters quote
 
@@ -66,11 +66,11 @@ Ways to optimize meetings:
 
 * First best practice
 
-Sentence that refers to best practices with a how-to catalyst title...
+For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
 ### Examine recurring meetings
 
-One liner quote from Connor & Kate's spreadsheet
+Recurring meetings for team updates often consume large amounts of time. Over time they can become bloated with attendees, unproductive and disconnected from original goals.
 
 Why it matters quote
 
@@ -78,11 +78,11 @@ Ways to optimize meetings:
 
 * First best practice
 
-Sentence that refers to best practices with a how-to catalyst title...
+For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
 ### Promote healthy meeting habits
 
-One liner quote from Connor & Kate's spreadsheet
+Emailing and chatting during meetings can lead to different interpretations of decisions, missed guidance and inconsistent follow-through on action items.
 
 Why it matters quote
 
@@ -90,7 +90,7 @@ Ways to optimize meetings:
 
 * First best practice
 
-Sentence that refers to best practices with a how-to catalyst title...
+For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
 ## Related topics
 
