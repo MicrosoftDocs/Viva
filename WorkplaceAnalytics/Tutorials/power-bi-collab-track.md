@@ -1,7 +1,7 @@
 ---
 
-title: Power BI Collaboration tracker
-description: Use the Collaboration tracker dashboard to visualize predefined collaboration data from Workplace Analytics in Power BI
+title: Power BI Ways of working tracker
+description: Use the Ways of working tracker dashboard to visualize predefined collaboration data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Collaboration tracker
+# Ways of working tracker
 
-The Power BI Collaboration tracker uses Workplace Analytics data to help you, as an analyst track changes in collaboration over time and helps you target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
+The Power BI Ways of working tracker uses Workplace Analytics data to help you, as an analyst track changes in collaboration over time and helps you target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
 
 This dashboard helps you track how collaboration is affecting the key performance indicators (KPIs) for employees by answering the following business questions.
 
@@ -23,7 +23,10 @@ This dashboard helps you track how collaboration is affecting the key performanc
 
 The dashboard also includes an **Example interventions** page that has ideas on how to drive positive change with best practices based on industry insights and research. The **Glossary** page describes the metrics used in the different reports.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Collaboration tracker** query in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working tracker** query in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
+
+>[!Note]
+>The template and dashboard name has been changed from Collaboration tracker to Ways of working tracker.
 
 ## Demonstration
 
@@ -41,7 +44,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Collaboration tracker** to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Ways of working tracker** to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -60,12 +63,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which can take a few minutes to complete.
-7. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Collaboration tracker** query results, select **PBI template**, and then select **OK** to download the template.
-8. Open the downloaded **Collaboration tracker Power BI template**.
+7. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
+8. Open the downloaded **Ways of working tracker Power BI template**.
 9. If prompted to select a program, select **Power BI**.
 10.	When prompted by Power BI:
 
-    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for the Collaboration tracker query, and then select to copy the generated OData URL link.
+    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for the Ways of working tracker query, and then select to copy the generated OData URL link.
     * In Power BI, paste the copied link into its respective field.
     * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
@@ -84,7 +87,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Dashboard settings
 
-After the Collaboration assessment dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Ways of working tracker dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Earlier time  period** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
@@ -95,13 +98,13 @@ After the Collaboration assessment dashboard is set up and populated with Workpl
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current timeframe.
 
-  ![Collaboration tracker dashboard settings](../Images/WpA/Tutorials/pbi-collab-track-settings.png)
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-After confirming the settings, check the number of measured employees to confirm this the population you want to analyze.
+  ![Ways of working tracker dashboard settings](../Images/WpA/Tutorials/track-settings.png)
 
 ## About the reports
 
-The Collaboration tracker dashboard includes the following report pages that help you track how collaboration is affecting the KPIs of wellbeing, meeting culture, and manager effectiveness for employees.
+The Ways of working tracker dashboard includes the following reports for tracking how collaboration is affecting the KPIs of wellbeing, meeting culture, and manager effectiveness for your employees.
 
 * **How have the KPIs evolved over time?** – Shows trends for the key indicator categories, including the weekly average and the four-week rolling average values for the top collaboration metrics. Under **Select trendlines to display** at the upper right of the page, you can select to show only one or both averages in the charts.
 * **How have KPIs changed in the last week?** – Shows how collaboration in the key indicator categories have changed when comparing the most recent week’s four-week rolling average with the previous rolling average. The colors of the number represent a change between the current week and the four-week rolling average. In **Filter Organization**, you can select one or more organizational groups to include in the data and the chart. In **Filter Metrics**, you can select a metric to view in the chart.
