@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Best practices for manager connectedness
 
-Managers can help share ideas and expertise across the company. This cross-unit collaboration helps to leverage scattered resources, drive continual innovation, and keep ahead of the competition.
+As a manager, you can help share ideas and expertise across the company. This cross-unit collaboration helps to leverage scattered resources, drive continual innovation, and keep ahead of the competition.
 
 Managers who have diverse ties across an organization are typically considered more effective and help their employees build strong networks.
 
@@ -60,7 +60,7 @@ If you have a large network, you can help broaden your team's networks as well. 
 
 #### Create goals across teams or departments
 
-Managers can coordinate and assign liaison roles to communicate across teams and with other departments to help avoid isolation and ensure information flow. For example, the following are a few goals for improving customer satisfaction:
+You can coordinate and assign liaison roles to communicate across teams and with other departments to help avoid isolation and ensure information flow. For example, the following are a few goals for improving customer satisfaction:
 
 * Identify a cross-team goal of improving customer satisfaction.
 * Identify the groups that should be involved, such as Support, Services, and Engineering.
@@ -70,6 +70,10 @@ Managers can coordinate and assign liaison roles to communicate across teams and
 #### Build strong connections with Teams
 
 Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to interact with others based on topics of interest or across different teams. Try out the built-in Microsoft tips and resources to accelerate adoption.
+
+#### Enable MyAnalytics network insights
+
+Help your team build connections by encouraging them to leverage [MyAnalytics network insights](../MyAnalytics/Use/network.md) about their network and top collaborators, and see suggestions for how they can improve these relationships.
 
 ## Related topic
 
