@@ -30,10 +30,10 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define) | Calculation info |
-|Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Calculation info |
+|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](metric-definitions.md#long-meeting-define), [Large meetings](metric-definitions.md#large-meeting-define)| The percentage of employees who spend over 50% of their meeting hours with in long or large meetings. The insight is calculated weekly and averaged over all weeks.  |
+|Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Employees whose influence score is within 25% of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered over all measured employees.  |
 |Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-define)  |Calculation info |
-|Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |Calculation info |
+|Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |The percentage of employees who more than 50% of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks.  |
 
 ## Visual insights
 
@@ -43,10 +43,10 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Organize better meetings | Meetings by duration and number of attendees  | |
-|Accelerate decision-making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
-|Foster cross-group collaboration | Collaboration across groups |  |
-|Improve management practices | Distribution of conflicting meeting hours |  |
+| Improve management practices | Distribution of conflicting meeting hours | Shows theh percentage of employees according to the number of their [conflicting meeting](glossary.md#conflicting-meeting-define) hours. These percentages are calculated weekly and averaged over the entire time period.  |
+| Organize better meetings | Meetings by duration and number of attendees  | See definitions for [Large meetings](glossary.md#large-meeting-define), [Long meetings](glossary.md#long-meeting-define), [Long and large meetings](glossary.md#long-and-large-meeting-define), and [Decision-making meetings](glossary.md#decision-making-meeting-define). |
+| Accelerate decision-making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
+| Foster cross-group collaboration | Collaboration across groups |  |
 
 ## Take action
 
