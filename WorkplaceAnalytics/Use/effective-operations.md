@@ -26,27 +26,27 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-<!-- ![Operational effectiveness percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
+![Operational effectiveness percentage insight](../images/wpa/use/op-eff-improve-meet-qual.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Free up capacity |Percentage of  |Metric info|Calculation info |
-|Improve meeting quality |Percentage of  |Metric info |Calculation info |
-|Keep employees engaged |Percentage of  |Metric info |Calculation info |
-|Protect time to get work done |Percentage of  |Metric info |Calculation info |
+|Free up capacity |Percentage of employees who spend 25 or more hours collaborating each week |Metric info|Calculation info |
+|Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |Metric info |Calculation info |
+|Keep employees engaged |Percentage of employees who spend significant meeting time multitasking |Metric info |Calculation info |
+|Protect time to get work done |Percentage of employees who have less than 20 hours each week to focus on work  |Metric info |Calculation info |
 
 ## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-<!-- ![Operational effectiveness visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+![Operational effectiveness visual insight](../images/wpa/use/op-eff-keep-empl-engaged.png)
 
 |Behavior |Visual insight | Defintion |
 |---------|--------|----------------------|
-|Free up capacity |Visual insight  |Definition |
-|Improve meeting quality |Visual insight  |Definition |
-|Keep employees engaged |Visual insight  |Definition |
-|Protect time to get work done |Visual insight  |Definition |
+|Free up capacity |Distribution of collaboration hours  |Definition |
+|Improve meeting quality |Meetings by duration and number of attendees  |Definition |
+|Keep employees engaged |Distribution of multitasking in meetings  |Definition |
+|Protect time to get work done |Distribution of focus time  |Definition |
 
 ## Take action
 
@@ -60,14 +60,16 @@ You can select **Take action** to see ways you can maximize operational effectiv
 
 ### Free up capacity
 
-One liner quote from Connor & Kate's spreadsheet
+Reducing the amount of time wasted on low-quality collaboration is a way to create capacity for activities that create business value.
 
-Quote
+As explained in [How to finally kill the useless, recurring meeting](https://hbr.org/2015/03/how-to-finally-kill-the-useless-recurring-meeting), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done."
 
-2 to 3 best practices
+Ways to help free up capacity:
 
-Sentence to refer user to best practices
-
+* Provide managers with access to after-hours activity and the ability to automatically delay email delivery to align with coworkers' configured working hours.
+* Use short meetings (such as only 15 minutes) with focused agendas. Such meetings are common in high-stakes workplaces to debrief or reflect on an event.
+	
+For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ### Improve meeting quality
 

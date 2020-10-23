@@ -26,27 +26,27 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-<!-- ![Improve agility percentage insight] < add a visual similar to (../images/wpa/use/accelerate-change-percent.png)  -->
+![Improve agility percentage insight](../images/wpa/use/impr-agil-accel-decision.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Organize better meetings |Percentage of  |Metric info|Calculation info |
-|Accelerate decision-making |Percentage of  |Metric info |Calculation info |
-|Foster cross-group collaboration |Percentage of  |Metric info |Calculation info |
-|Improve management practices |Percentage of  |Metric info |Calculation info |
+|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define) | Calculation info |
+|Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Calculation info |
+|Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-define)  |Calculation info |
+|Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |Calculation info |
 
 ## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-<!-- ![Improve agility visual insight] < add a visual similar to (../images/wpa/use/accelerate-change-visual.png)  -->
+![Improve agility visual insight](../images/wpa/use/impr-agil-improv-mgmt-prac.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Organize better meetings |Visual insight  |
-|Accelerate decision-making |Employee empowerment |[An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
-|Foster cross-group collaboration |Visual insight  |
-|Improve management practices |Visual insight  |
+|Organize better meetings | Meetings by duration and number of attendees  | |
+|Accelerate decision-making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
+|Foster cross-group collaboration | Collaboration across groups |  |
+|Improve management practices | Distribution of conflicting meeting hours |  |
 
 ## Take action
 
@@ -64,16 +64,24 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 <!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? -->
 
+<!--
+For more best practices ...see Best practices for manager coaching.
+-->
+
 ### Accelerate decision-making
 
 Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
 
+<!--
+For more best practices and how to develop a 1:1 conversation series, see Best practices for manager coaching.-->
 
 ### Foster cross-group collaboration
 
 Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
 
 <!-- <check out improving meeting quality in effective-operations, do they overlap? however, the figma and spreadsheet names don't match, the spreadsheet shows "Free up capacity" which lists different stuff, so?? --> 
+
+For more best practices and change catalysts, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
 
 ### Improve management practices
 
