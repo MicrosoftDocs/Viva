@@ -34,19 +34,19 @@ Employees that collaborate across silos are more aware of other perspectives and
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.  
 * Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people whom the formal performance reviews might otherwise overlook.
 
-## Change catalysts
+## Change strategies
 
-#### Provide managers with go-to contacts list
+#### Cocreate lists of go-to contacts and distribute them to highly networked individuals
 
-Survey the group to collect and create a list of contacts that would be a good starting place for employees to contact when trying to establish a new connection. This can empower managers with the right contacts in order to solve their employees' problems. Ways to do this:
+Survey the group to collect and create a list of contacts that would be a good starting place for your team to contact when trying to establish a new connection. This can empower you and your team with the right contacts in order to solve any problems that might arise. Ways to do this:
 
 * Send out a company wide email where people can volunteer to be a connector within their team.
-* Combine all of these connectors into a list and share that list with managers.
-* Explain to all employees that managers now have a list of go-to contacts.
+* Combine all of these connectors into a list and share it.
+* Communicate with all that you now have a list of go-to contacts.
 
 #### Create goals across teams or departments
 
-Managers can coordinate and assign liaison roles to communicate across teams and with other departments and avoid isolation and ensure information flow. Ways to do this:
+You can coordinate and assign liaison roles to communicate across teams and with other departments and avoid isolation and ensure information flow. Ways to do this:
 
 * Identify a cross-team goal, such as improving customer satisfaction.
 * Identify the groups that should be involved, such as Support, Services, and Engineering.

@@ -46,7 +46,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Encourage participation in meetings. It's beneficial for creating more effective meetings and giving participants a way to be heard and considered.
 * Avoid holding a meeting just to update people. Decide if an email announcement is enough.
 
-## Change catalysts
+## Change strategies
 
 #### Schedule shorter meetings
 
