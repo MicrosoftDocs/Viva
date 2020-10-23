@@ -15,7 +15,6 @@ Employees who share information, prioritize learning, and protect time for deep 
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
-* [Foster cross-group collaboration](#foster-cross-group-collaboration)
 * [Enable deep work](#enable-deep-work)
 * [Utilize influencers](#utilize-influencers)
 
