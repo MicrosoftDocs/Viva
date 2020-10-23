@@ -183,23 +183,4 @@ author: madehmer
         </div>
         </a>
     </li>
-    <li>
-        <a href="./cust-collab.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/wpa/playbooks/manager-coaching-64x64.svg" alt="customer focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Customer focus</h3>
-                        <p>Learn how spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
 </ul>
