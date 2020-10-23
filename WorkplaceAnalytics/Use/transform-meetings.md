@@ -30,9 +30,9 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |Metric info|Calculation info |
+|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define), [Decision-making meetings](glossary.md#decision-making-meeting-define) |Calculation info |
 |Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings |Metric info |Calculation info |
-|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |Metric info |Calculation info |
+|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |[Low-quality meeting hours](glossary.md#low-quality-meeting-hours-define)  |Calculation info |
 
 ## Visual insights
 
@@ -42,7 +42,7 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Optimize meeting hours  | Meetings by duration and number of attendees  |Defintion |
+|Optimize meeting hours  | Meetings by duration and number of attendees  |  |
 |Examine recurring meetings | Recurring vs. non-recurring meetings  |Calculation info |
 |Promote healthy meeting habits | Distribution of multi-tasking in meetings  |Calculation info |
 
@@ -79,8 +79,6 @@ Ways to optimize recurring meetings:
 
 * Microsoft Teams channels provide team members with a new way to get questions answered and provide updates without the need for a meeting.  
 * Experiment with 15 minute meetings: Short meetings with focused agendas are common in high-stakes workplaces to debrief or reflect on an event.
-
-* First best practice
 
 For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
