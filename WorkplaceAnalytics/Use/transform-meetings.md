@@ -60,7 +60,7 @@ You can select **Take action** to see ways you can drive change or transform you
 
 Long and large meetings are costly and often considered a waste of time. Shorter meetings with fewer people can enhance individual and team performance.
 
-<!-- Why it matters quote -->
+The [condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance."
 
 Ways to optimize meetings: 
 
