@@ -53,7 +53,7 @@ You can select **Take action** to see ways you can drive change or simply mainta
 
 ## Best practices to foster innovation
 
-### Foster cross-group collaboration
+<!-- ### Foster cross-group collaboration
 
 Collaboration across organizational boundaries enables the learning and idea formation required for innovation. [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) explains that work "occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
 
@@ -63,7 +63,7 @@ Ways to create opportunities for cross-group collaboration:
 * Give teams an opportunity to join cross-functional teams to compete in an innovation challenge around a key business challenge.
 
 For more best practices and how to create goals across teams or departments, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
-
+-->
 ## Enable deep work
 
 Time without meetings, emails and chats provides employees with the opportunity to complete challenging work, think creatively and generate innovative ideas. [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..."
