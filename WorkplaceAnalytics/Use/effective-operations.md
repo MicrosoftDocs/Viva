@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Maximize operational effectiveness
 
-Employees 
-
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Free up capacity](#free-up-capacity)
