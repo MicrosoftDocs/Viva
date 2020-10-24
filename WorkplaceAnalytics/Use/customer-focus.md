@@ -29,9 +29,9 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize time with customers  |Percentage of employees who are in the top quartile for total collaboration time being with external customers. |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Calculation info |
-|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week. |[meeting hours with manager and meeting hours with manager 1:1](metric-definitions.md#person-metrics)  |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
-|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations. |[Organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics) and [collaboration and focus hours](metric-definitions.md#person-metrics) |Calculation info |
+|Optimize time with customers  |Percentage of employees who are in the top quartile for total collaboration time spent with external customers |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Calculates how much time employees spent collaborating with people external to the company per month and averaged over the entire time period. |
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
+|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations |[Organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics) and [collaboration and focus hours](metric-definitions.md#person-metrics) |Calculates how much time employees spent collaborating with the internal network per month and averaged over the entire time period. |
 
 ## Visual insights
 
@@ -41,8 +41,8 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight |Definition |
 |---------|--------|----------------------|
-|Optimize time with customers |Distribution of external collaboration  |Shows the percentage of employees grouped by the monthly average number of hours spent with customers (people outside the company). This uses [collaboration metrics](metric-definitions.md#person-metrics). |
-|Promote coaching and development |Distribution of monthly 1:1 time with managers |Shows the percentage of employees grouped by the monthly average number of hours spent with their managers one-on-one. This uses [meeting hours with manager 1:1](metric-definitions.md#person-metrics). |
+|Optimize time with customers |Distribution of external collaboration |Percentage of employees grouped by the monthly average number of hours spent with customers (people outside the company) based on [collaboration](metric-definitions.md#person-metrics) metrics. |
+|Promote coaching and development |Distribution of monthly 1:1 time with managers |Shows the percentage of employees grouped by the monthly average number of hours spent with their managers one-on-one. This uses [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). |
 |Strengthen internal networks |Internal network connections by employee network strength |An [organizational network graph](insight-ona-measures.md) that shows the number of employees with strong internal networks as compared to other employees in your organization. Each node represents an employee and the darker colored nodes represent employees with a higher number of internal connections, as the legend indicates. This uses [organizational network analysis metrics](metric-definitions.md#organizational-network-analysis-ona-metrics). |
 
 ## Take action

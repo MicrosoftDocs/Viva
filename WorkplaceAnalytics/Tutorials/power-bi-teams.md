@@ -109,9 +109,9 @@ After the Microsoft Teams insights dashboard is set up and populated with Workpl
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select the **Eraser** icon to clear the selections.
 * **Measured employees** - Represents the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current date range.
 
-![Power BI Teams insights settings page](../Images/WpA/Tutorials/teams-settings.png)
-
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
+
+![Power BI Teams insights settings page](../Images/WpA/Tutorials/teams-settings.png)
 
 > [!Important]
 > As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
