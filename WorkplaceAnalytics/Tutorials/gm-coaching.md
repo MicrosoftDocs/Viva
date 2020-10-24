@@ -21,7 +21,7 @@ According to the research referenced in [What great managers do daily](https://i
 * "The opportunity is huge for better-run organizations and a higher quality of life for workers."
 * "Bad management is estimated to cost the U.S. economy up to $398 billion annually."
 
-The level of day-to-day collaboration between managers and their employees can indicate whether employees feel empowered to take initiative and work independently, or if they struggle to separate themselves from their manager.
+According to [How to make your one-on-ones with employees more productive](https://insights.office.com/management-strategy/how-to-make-your-one-on-ones-with-employees-more-productive/) the level of day-to-day collaboration between managers and their employees can indicate whether employees feel empowered to take initiative and work independently, or if they struggle to separate themselves from their manager.
 
 * A proportionately high number of hours spent in meetings with managers suggests micro-management.
 * Too little time spent with managers in meetings potentially suggests insufficient team guidance, particularly for new employees.

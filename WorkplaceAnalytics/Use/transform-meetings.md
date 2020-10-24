@@ -30,9 +30,9 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |Metric info|Calculation info |
+|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define), [Decision-making meetings](glossary.md#decision-making-meeting-define) |Calculation info |
 |Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings |Metric info |Calculation info |
-|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |Metric info |Calculation info |
+|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |[Low-quality meeting hours](metric-definitions.md#low-quality-meeting-hours-define)  |Calculation info |
 
 ## Visual insights
 
@@ -42,7 +42,7 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Optimize meeting hours  | Meetings by duration and number of attendees  |Defintion |
+|Optimize meeting hours  | Meetings by duration and number of attendees  |  |
 |Examine recurring meetings | Recurring vs. non-recurring meetings  |Calculation info |
 |Promote healthy meeting habits | Distribution of multi-tasking in meetings  |Calculation info |
 
@@ -58,39 +58,43 @@ You can select **Take action** to see ways you can drive change or transform you
 
 ### Optimize meeting hours
 
-One liner quote from Connor & Kate's spreadsheet
+Long and large meetings are costly and often considered a waste of time. Shorter meetings with fewer people can enhance individual and team performance.
 
-Why it matters quote
+The [condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance."
 
 Ways to optimize meetings: 
 
-* First best practice
+* Microsoft Teams channels provide team members with a new way to get questions answered and provide updates without the need for a meeting.  
+* Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to more carefully plan.
 
-Sentence that refers to best practices with a how-to catalyst title...
+For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
 ### Examine recurring meetings
 
-One liner quote from Connor & Kate's spreadsheet
+Recurring meetings for team updates often consume large amounts of time. Over time they can become bloated with attendees, unproductive and disconnected from original goals.
 
-Why it matters quote
+As described in [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), we all know how wasteful a "bloated" weekly meeting can be. But there's hope: 
+"To liberate victims from this seemingly inescapable vicious cycle, it’s necessary to kick-start a virtuous cycle in which everyone is empowered to say no, ask why, and identify strategies to allow everyone in an organization to be more effective on a day-to-day basis."
 
-Ways to optimize meetings: 
+Ways to optimize recurring meetings: 
 
-* First best practice
+* Microsoft Teams channels provide team members with a new way to get questions answered and provide updates without the need for a meeting.  
+* Experiment with 15 minute meetings: Short meetings with focused agendas are common in high-stakes workplaces to debrief or reflect on an event.
 
-Sentence that refers to best practices with a how-to catalyst title...
+For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
 ### Promote healthy meeting habits
 
-One liner quote from Connor & Kate's spreadsheet
+Emailing and chatting during meetings can lead to different interpretations of decisions, missed guidance and inconsistent follow-through on action items.
 
-Why it matters quote
+<!-- Why it matters quote -->
 
-Ways to optimize meetings: 
+Ways to promote healthier meetings:
 
-* First best practice
+* Use the MyAnalytics Outlook add-in to prepare for meetings. It provides insights about meeting information, related documents, and reminders to book preparation time.
+* When distracted by a thought to send an email during a meeting, add it quickly to your to-do list instead and move on. This provides satisfaction and can help you regain focus.
 
-Sentence that refers to best practices with a how-to catalyst title...
+For more best practices and change catalysts, see [Best practices for meetings](../tutorials/gm-meetings.md). 
 
 ## Related topics
 
