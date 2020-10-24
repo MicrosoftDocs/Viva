@@ -45,11 +45,11 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Improve team cohesion |Visual insight  |Definition |
-|Protect employee wellbeing |Visual insight  |Calculation info |
-|Practice empathy |Visual insight  |Calculation info |
-|Free up capacity |Visual insight  |Calculation info |
-|Accelerate decision-making|Visual insight  |Calculation info |
+|Improve team cohesion | Cohesion within teams  |Definition |
+|Protect employee wellbeing | Distribution of after-hours collaboration  |Calculation info |
+|Practice empathy | Distribution of 1:1 time with managers each month  |Calculation info |
+|Free up capacity | Distribution of collaboration hours |Calculation info |
+|Accelerate decision-making| Distribution of conflicting meeting hours  |Calculation info |
 
 ## Take action
 
