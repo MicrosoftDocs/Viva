@@ -17,8 +17,10 @@ Each of the following behaviors show how your organization compares with others 
 
 * [Organize better meetings](#organize-better-meetings)
 * [Accelerate decision-making](#accelerate-decision-making)
-* [Foster cross-group collaboration](#foster-cross-group-collaboration)
 * [Improve management practices](#improve-management-practices)
+<!--
+* [Foster cross-group collaboration](#foster-cross-group-collaboration)
+-->
 
 ![Improve agility page](../images/wpa/use/agility.png)
 
@@ -30,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](metric-definitions.md#long-meeting-define), [Large meetings](metric-definitions.md#large-meeting-define)| The percentage of employees who spend over 50% of their meeting hours with in long or large meetings. The insight is calculated weekly and averaged over all weeks.  |
+|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)| The percentage of employees who spend over 50% of their meeting hours with in long or large meetings. The insight is calculated weekly and averaged over all weeks.  |
 |Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Employees whose influence score is within 25% of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered over all measured employees.  |
 |Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |The percentage of employees who more than 50% of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks.  |
 

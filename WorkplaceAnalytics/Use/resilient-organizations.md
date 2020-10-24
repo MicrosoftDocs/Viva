@@ -65,11 +65,11 @@ You can select **Take action** to see ways you can enhance organizational resili
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
 
-<!-- Why it matters quote - check out Encourage team cohesion section in boost-engagement.md-->
+According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural "brokers" to "promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive."
 
 Ways to improve team cohesion:
 
-* In MyAnalytics, add colleagues to your [important people list](../../myanalytics/use/use-the-insights#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
+* In MyAnalytics, add colleagues to your [important people list](../myanalytics/use/use-the-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
 
 For more best practices, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
@@ -78,7 +78,7 @@ For more best practices, see [Best practices for manager connectedness](../tutor
 
 Rapid shifts in ways of working can blur the line between 'home' and 'work'. One indicator of burnout risk is the amount of time employees spend collaborating outside of standard business hours. 
 
-<!-- Why it matters quote - check out Prevent employee burnout section in boost-engagement.md-->
+Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together."
 
 Ways to protect employee wellbeing: 
 
@@ -91,7 +91,7 @@ For more best practices and ways to protect employees' after hours, see [Best pr
 
 During periods of disruption, managers play a critical role in helping employees navigate change and preserve a sense of belonging. One-on-one (1:1) manager time measures how much time managers spend meeting individually with direct reports.
 
-<!-- Why it matters quote - check out Promote coaching and development section in boost-engagement.md-->
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
 Ways to practice empathy: 
 
@@ -104,7 +104,7 @@ For more best practices and ways to establish better connections between manager
 
 Resilient organizations respond to changing demands and new opportunities by nimbly adapting and refocusing employees' time to align with new priorities.
 
-<!-- Why it matters quote - check out Drive employee empowerment section in boost-engagement.md-->
+The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) article explains what 182 senior managers in a range of industries said about meetings when surveyed, including "65 percent said meetings keep them from completing their own work" and "71 percent said meetings are unproductive and inefficient."
 
 Ways to free up capacity: 
 

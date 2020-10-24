@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |---------|--------|--------------------|----------------------|
 |Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define), [Decision-making meetings](glossary.md#decision-making-meeting-define) |Calculation info |
 |Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings |Metric info |Calculation info |
-|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |[Low-quality meeting hours](glossary.md#low-quality-meeting-hours-define)  |Calculation info |
+|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |[Low-quality meeting hours](metric-definitions.md#low-quality-meeting-hours-define)  |Calculation info |
 
 ## Visual insights
 
