@@ -34,7 +34,9 @@ Having scheduled, uninterrupted time to focus on deep work provides employees an
 * Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
 * Regularly and openly check in with employees. Frustration, resentment and even hopelessness are signals that people are falling back into bad patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
 
-## Change catalyst: Establish a 'no meeting' period
+## Change strategies
+
+#### Establish a 'no meeting' period
 
 Select a day, cadence, or time period that your team can block to focus on work, then send out a recurring calendar invite to reserve that time. Ways to do this:
 
@@ -42,6 +44,14 @@ Select a day, cadence, or time period that your team can block to focus on work,
 * Decide how often the time block will occur, such as every two weeks.
 * Determine how long the duration should be, such as four hours.
 * Send a recurring calendar invite to your team to block the time.
+
+#### Cancel recurring meetings
+
+Each quarter, reassess the need for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
+
+#### Try out a MyAnalytics focus plan
+
+Encourage employees to use [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to automatically block focus time on their calendars to ensure that they have enough time to get work done.
 
 ## Related topics
 

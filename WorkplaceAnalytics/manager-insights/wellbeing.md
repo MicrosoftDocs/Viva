@@ -30,7 +30,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
 * Practice setting and keeping boundaries. Boundaries can result in better overall team outcomes.
 
-## Change catalyst
+## Change strategies
 
 ### Start a wellbeing plan
 

@@ -30,9 +30,15 @@ The following are based on research presented in the [The loyalty economy: Are y
 * Democratize customer insights with customer facing teams that create a culture where customers can help drive decisions.
 * Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 
-## Change catalyst: Track time with most important external contacts
+## Change strategies
 
-Create a list of top external, customer relationships and distribute monthly reports to your team that shows how much time was spent with them and how that compares with established goals.
+#### Track time with your most important external contacts
+
+Create a list of top external, customer relationships and distribute monthly reports to your team that show how much time was spent with them and how that compares with established goals.
+
+#### Provide your team with with a list of go-to internal contacts
+
+Crowdsource a list of contacts as are good starting place for employees to contact when trying to establish a new connection. This can empower your team with the right contacts that can help them solve any issues that might arise.
 
 ## Related topics
 
