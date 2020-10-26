@@ -29,7 +29,7 @@ The [Accelerate! How innovative companies can use a strategy network to capitali
 * Consider employees with high potential, not just top performers. Attributes that have contributed to past success may not predict future success. Broaden measures used to identify leaders to include those that assess potential, such as influence ranking.
 * Operate on a “dual operating system” — a management-driven hierarchy working with a strategy network.  
 * Recruit volunteers interested in being a part of the organization’s strategy network. Ten percent of the managerial and employee population is enough.  
-* A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action and celebration.
+* A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action, and celebration.
 * The strategy network and the hierarchy must be inseparable, with a constant flow of information and activity between them—an approach that works in part because the volunteers in the network all work within the hierarchy.
 
 ## Change strategies

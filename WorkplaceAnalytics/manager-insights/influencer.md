@@ -35,7 +35,7 @@ Based on the information presented in [The network secrets of great change agent
 * Encourage your team to build connections across roles.
 * Operate on a “dual operating system” — a management-driven hierarchy working with a strategy network.  
 * Recruit volunteers interested in being a part of the organization’s strategy network. Ten percent of the managerial and employee population is enough.  
-* A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action and celebration.
+* A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action, and celebration.
 * The strategy network and the hierarchy must be inseparable, with a constant flow of information and activity between them—an approach that works in part because the volunteers in the network all work within the hierarchy.
 
 ## Change strategies
