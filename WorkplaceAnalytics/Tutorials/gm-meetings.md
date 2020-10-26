@@ -31,7 +31,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 
 ## Best practices
 
-* Say no to meetings. See the next section for a guide on how to create and share team meeting rules and policy.
+* Say no to meetings. See [Set team meeting rules and policy](#set-team-meeting-rules-and-policy) for a guide on how to create a policy.
 * Use [MyAnalytics](../myanalytics/use/mya-notifications.md#shorten-a-meeting) to shorten meetings. For example, when you're composing a meeting invitation with a duration of one hour, an inline suggestion will remind you to shorten the meeting by 15 minutes.
 * Invite fewer people. When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
