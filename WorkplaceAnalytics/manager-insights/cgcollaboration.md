@@ -28,7 +28,7 @@ Employees that collaborate across silos are more aware of other perspectives and
 * Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 * Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use [MyAnalytics to manage important people](../myanalytics/use/network.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
-* Motivate team members to reach across silos.Breakdown silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
+* Motivate team members to reach across silos. Break down silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
 * Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.  
 * Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.  
 * Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less conﬁdent about contributing.  
@@ -41,7 +41,7 @@ Employees that collaborate across silos are more aware of other perspectives and
 
 Survey the group to collect and create a list of contacts that would be a good starting place for your team to contact when trying to establish a new connection. This can empower you and your team with the right contacts in order to solve any problems that might arise. Ways to do this:
 
-* Send out a company wide email where people can volunteer to be a connector within their team.
+* Send out a company-wide email where people can volunteer to be a connector within their team.
 * Combine all of these connectors into a list and share it.
 * Communicate with all that you now have a list of go-to contacts.
 
