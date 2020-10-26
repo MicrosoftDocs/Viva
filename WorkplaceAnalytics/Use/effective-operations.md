@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Maximize operational effectiveness
 
-Employees 
-
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Free up capacity](#free-up-capacity)
@@ -41,7 +39,7 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ![Operational effectiveness visual insight](../images/wpa/use/op-eff-keep-empl-engaged.png)
 
-|Behavior |Visual insight | Defintion |
+|Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Free up capacity |Distribution of collaboration hours  |Definition |
 |Improve meeting quality |Meetings by duration and number of attendees  |Definition |
@@ -86,23 +84,29 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 ### Keep employees engaged
 
-One liner quote from Connor & Kate's spreadsheet
+Email and chat activity during meetings unrelated to meeting goals can lead to different interpretations of decisions, missed guidance and inconsistent follow-through on action items.
 
-Quote
+<!-- why it matters Quote -->
 
-2 to 3 best practices
+Ways to keep employees engaged:
 
-Sentence to refer user to best practices
+* Use the MyAnalytics Outlook add-in to prepare for meetings. It provides insights about meeting information, related documents, and reminders to book preparation time.
+*  People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
+
+For more best practices and ways to maintain the interest and participation of meeting attendees, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ### Protect time to get work done
 
-One liner quote from Connor & Kate's spreadsheet
+Time without meetings, emails and chats provides employees with the opportunity to get important work done and think creatively.
 
-Quote
+<!-- why it matters Quote -->
 
-2 to 3 best practices
+Ways to protect time:
 
-Sentence to refer user to best practices
+* The MyAnalytics Focus plan lets you automatically book focus time, protects this time by silencing chats, and allows you to track your progress weekly.
+* Create a new team norm to respect the Microsoft Teams focus status of others by not send chats to teammates whose status displays as 'Focus'.	
+	
+For more best practices and ways to protect the time of yourself and others, see [Best practices for focus time](../tutorials/gm-focus.md).
 
 ## Related topics
 
