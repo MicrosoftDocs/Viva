@@ -42,7 +42,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Require meeting agendas, with clear meeting objectives.  
 * Keep meetings short, but don’t rush through important conversations either.
 * Discourage the use of devices in meetings. It's distracting for those who use the devices and those who participate in the meetings.
-* Try holding stand-up meetings. Studies show they are about 34 percent shorter than sit-down meetings, yet produce the same solutions.
+* Try holding stand-up meetings. Studies show they are about 34 percent shorter than sit-down meetings yet produce the same solutions.
 * Encourage participation in meetings. It's beneficial for creating more effective meetings and giving participants a way to be heard and considered.
 * Avoid holding a meeting just to update people. Decide if an email announcement is enough.
 
@@ -60,7 +60,7 @@ Work expands to the time allotted for it. Change meeting length defaults from 60
 
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
 * Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.
-* Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spillover into personal time.
+* Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spill over into personal time.
 * Set standards for when an employee can decline a meeting. Provide a meeting decline template with policy explanations that employees can use to decline meetings based on your team’s meeting rules. For example, "the meeting has no agenda" or "someone from my team is already attending the meeting."
 * Create and share your team’s list of meeting rules along with an empowering message that allows employees to say yes or no to meeting invitations they deem valuable or not to attend.
 

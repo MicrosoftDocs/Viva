@@ -30,7 +30,7 @@ Having scheduled, uninterrupted time to focus on deep work provides employees an
 * Create a new team norm to not send chats to team members who have scheduled focus time and use the [Do not disturb status in Microsoft Teams](https://support.microsoft.com/office/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e).
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
 * Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.
-* Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spillover into personal time.
+* Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spill over into personal time.
 * Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
 * Regularly and openly check in with employees. Frustration, resentment and even hopelessness are signals that people are falling back into bad patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
 
@@ -47,7 +47,7 @@ Select a day, cadence, or time period that your team can block to focus on work,
 
 #### Cancel recurring meetings
 
-Each quarter, reassess the need for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
+Reassess the need quarterly for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
 
 #### Try out a MyAnalytics focus plan
 
