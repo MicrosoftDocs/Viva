@@ -31,13 +31,19 @@ The [Rebuilding companies as communities](https://insights.office.com/culture/re
 * Urge employees to explore distant networks. Employees need to be pushed to tap into expertise outside the company and even outside the industry.
 * Identify employees with strong interpersonal skills and a growth mindset to build relationships and collaborate across different functions and geographies.
 
-## Change catalyst: Host informal gatherings with Teams video calls
+## Change strategies
+
+#### Host informal gatherings with Teams video calls
 
 Provide your employees with virtual opportunities to bond over non-work activities and form connections through Teams meetings. Create agendas with fun conversation prompts and activities such as online games.
 
 * Create open cafeteria meetings during the lunch hour for people to jump in.
 * Create virtual hallway conversation and utilize breakout rooms to foster small group conversation.
 * Encourage leaders to occasionally join these conversations further incentivizing people to join.
+
+#### Direct your team to relevant training
+
+When introducing a new tool, help team members get comfortable and adopt quickly with pre-built materials and resources. For example, [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page).
 
 ## Related topics
 

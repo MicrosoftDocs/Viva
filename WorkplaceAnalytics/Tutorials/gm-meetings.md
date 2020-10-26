@@ -31,7 +31,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 
 ## Best practices
 
-* Say no to meetings. See the next section for a guide on how to create and share team meeting rules and policy.
+* Say no to meetings. See [Set team meeting rules and policy](#set-team-meeting-rules-and-policy) for a guide on how to create a policy.
 * Use [MyAnalytics](../myanalytics/use/mya-notifications.md#shorten-a-meeting) to shorten meetings. For example, when you're composing a meeting invitation with a duration of one hour, an inline suggestion will remind you to shorten the meeting by 15 minutes.
 * Invite fewer people. When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
@@ -42,7 +42,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Require meeting agendas, with clear meeting objectives.  
 * Keep meetings short, but don’t rush through important conversations either.
 * Discourage the use of devices in meetings. It's distracting for those who use the devices and those who participate in the meetings.
-* Try holding stand-up meetings. Studies show they are about 34 percent shorter than sit-down meetings, yet produce the same solutions.
+* Try holding stand-up meetings. Studies show they are about 34 percent shorter than sit-down meetings yet produce the same solutions.
 * Encourage participation in meetings. It's beneficial for creating more effective meetings and giving participants a way to be heard and considered.
 * Avoid holding a meeting just to update people. Decide if an email announcement is enough.
 
@@ -60,7 +60,7 @@ Work expands to the time allotted for it. Change meeting length defaults from 60
 
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.
 * Come together as a team to share everyone's feedback. It's important to process all contributions and analysis from all team members to begin the process of change.
-* Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spillover into personal time.
+* Agree on a collective, personal goal based on the survey feedback. For example, declare "meeting free" periods to free up time on everyone's calendar. This increases individual focus time and productivity and reduces the spill over into personal time.
 * Set standards for when an employee can decline a meeting. Provide a meeting decline template with policy explanations that employees can use to decline meetings based on your team’s meeting rules. For example, "the meeting has no agenda" or "someone from my team is already attending the meeting."
 * Create and share your team’s list of meeting rules along with an empowering message that allows employees to say yes or no to meeting invitations they deem valuable or not to attend.
 

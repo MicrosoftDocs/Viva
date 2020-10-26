@@ -59,7 +59,7 @@ Your team is more likely to use Microsoft Teams if they are familiar with it and
 
 Create a Teams channel or an email thread that recognizes teammates who migrate conversations to teams, resulting in time savings.
 
-#### Direct employees to relevant training
+#### Direct your team to relevant training
 
 When introducing a new tool, help team members get comfortable and adopt quickly with pre-built materials and resources. For example, [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page).
 
