@@ -15,7 +15,7 @@ Spending time collaborating with customers helps your organization better antici
 
 ## Why it matters
 
-The following are based on research presented in the [The loyalty economy: Are you undervaluing your customers?](https://insights.office.com/business-performance/the-loyalty-economy-are-you-undervaluing-customers/), [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/), and [What makes great salespeople](https://insights.office.com/management-strategy/what-makes-great-salespeople/) articles:
+The following are based on research presented in [The loyalty economy: Are you undervaluing your customers?](https://insights.office.com/business-performance/the-loyalty-economy-are-you-undervaluing-customers/), [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/), and [What makes great salespeople](https://insights.office.com/management-strategy/what-makes-great-salespeople/):
 
 * "...companies at the top of their industries in net promoter scores or satisfaction rankings for three or more years—grow revenues roughly 2.5 times as fast as their industry peers. Yet companies and investors continue to prioritize quarterly earnings over customer relationships..."
 * “More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.”
@@ -36,7 +36,7 @@ The following are based on research presented in the [The loyalty economy: Are y
 
 Create a list of top external, customer relationships and distribute monthly reports to your team that show how much time was spent with them and how that compares with established goals.
 
-#### Provide your team with with a list of go-to internal contacts
+#### Provide your team with a list of go-to internal contacts
 
 Crowdsource a list of contacts as are good starting place for employees to contact when trying to establish a new connection. This can empower your team with the right contacts that can help them solve any issues that might arise.
 
