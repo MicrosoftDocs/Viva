@@ -23,8 +23,8 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ## Best practices
 
-* Ask employees to use [MyAnalytics wellbeing data](../MyAnalytics/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
-* Ask employees to use the [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Use [MyAnalytics wellbeing data](../MyAnalytics/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
+* Use [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Remind employees that the organization's success is based on a marathon, not a sprint.  
 * Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
@@ -34,7 +34,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ### Start a wellbeing plan
 
-Enroll your employees in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive a weekly digest, in-line suggestions, and actionable insights.
+Enroll your team in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive a weekly digest, in-line suggestions, and actionable insights.
 
 #### Define and share working hours
 
@@ -49,11 +49,11 @@ My working hours are 9:00 AM to 6:00 PM PT
 
 #### Create norm of scheduling "slack-time"
 
-People often feel overloaded because tasks take more time than we expect. "Slack-time" is a block of time without meetings to accommodate for poor planning to get work done or decompress at the end of the day. Ways to do this:
+People often feel overloaded because tasks take more time than we expect. "Slack-time" is a block of time without meetings to accommodate unplanned tasks, to get work done, or decompress at the end of the day. Ways to do this:
 
-* Send out communications regarding the importance of slack- or focus-time.
-* Encourage people to block their calendars and actually decline meetings or emails sent during that time.
-* Share anecdotes around when people have successes because they utilized their slack-time.
+* Send out communication regarding the importance of slack- or focus-time.
+* Encourage people to block their calendars and actually decline meetings or email sent during that time.
+* Share anecdotes around when people have successes by utilizing their slack-time.
 
 ## Related topics
 
