@@ -30,9 +30,9 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define), [Decision-making meetings](glossary.md#decision-making-meeting-define) |Calculation info |
-|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings |Metric info |Calculation info |
-|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |[Low-quality meeting hours](metric-definitions.md#low-quality-meeting-hours-define)  |Calculation info |
+|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define), [Decision-making meetings](glossary.md#decision-making-meeting-define) | Percentage of managers who spend a majority of their meeting hours in [long meetings](glossary.md#long-meeting-define) or [large meetings](glossary.md#large-meeting-define). The insight is calculated weekly and averaged over all weeks.  |
+|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | \[Metric info\] |\[Calculation info\] |
+|Promote healthy meeting habits |Percentage of employees who spend significant meeting time multitasking |[Low-quality meeting hours](metric-definitions.md#low-quality-meeting-hours-define)  | \[Calculation info\] |
 
 ## Visual insights
 
@@ -42,9 +42,9 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Optimize meeting hours  | Meetings by duration and number of attendees  |  |
-|Examine recurring meetings | Recurring vs. non-recurring meetings  |Calculation info |
-|Promote healthy meeting habits | Distribution of multi-tasking in meetings  |Calculation info |
+|Optimize meeting hours  | Meetings by duration and number of attendees  | [Calculation info / definition\] |
+|Examine recurring meetings | Recurring vs. non-recurring meetings  | [Calculation info / definition\] |
+|Promote healthy meeting habits | Distribution of multi-tasking in meetings  | [Calculation info / definition\] |
 
 ## Take action
 

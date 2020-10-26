@@ -49,7 +49,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 | Improve management practices | Distribution of conflicting meeting hours | Shows the percentage of employees according to the number of their [conflicting meeting](glossary.md#conflicting-meeting-define) hours. These percentages are calculated weekly and averaged over the entire time period.  |
-| Organize better meetings | Meetings by duration and number of attendees  | Strive for [Decision-making meetings](glossary.md#decision-making-meeting-define), rather than [Large meetings](glossary.md#large-meeting-define), [Long meetings](glossary.md#long-meeting-define), or [Long and large meetings](glossary.md#long-and-large-meeting-define). |
+| Organize better meetings | Meetings by duration and number of attendees  | Shows the percentages of meetings that are [long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), [long and large meetings](glossary.md#long-and-large-meeting-define), and finally, the type to strive for: [decision-making meetings](glossary.md#decision-making-meeting-define). |
 | Accelerate decision-making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) of the number of empowered employees and disempowered employees in your organization. This graph uses [collaboration and networking metrics](metric-definitions.md#person-metrics). |
 
 <!--
