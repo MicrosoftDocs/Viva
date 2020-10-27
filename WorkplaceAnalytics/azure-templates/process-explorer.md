@@ -21,7 +21,7 @@ _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization and teams are investing or expending their valuable time.
 
-You can use Process Explorer to categorize and analyze processes, projects, meetings, and other activities within blob (cloud) storage.
+You can use Process Explorer with your collaboration data in blob (cloud) storage to categorize and analyze processes, projects, meetings, and other activities.
 
 You can use a starter template or a topic detection option to produce analyses. Starter templates include predefined factory and user-defined templates, comprised of categories and associated key phrases.
 
