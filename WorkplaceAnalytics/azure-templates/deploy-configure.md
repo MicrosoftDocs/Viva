@@ -31,7 +31,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
 5. [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
 6. [Add users](#add-users-and-assign-roles)
 7. [Process the data](#process-the-data)
-8. Also available for managing deployment: [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
+8. Additional configuration and deployment options: [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
 
 ## Security considerations
 
@@ -194,10 +194,6 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 
 4. In **Scenarios**, select the applicable templates for which the user needs access. Users can only access and use templates that are selected from this list.
 
-## Incoming Data
-
-On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This list populates the list you can use to create new datasets with the Process Explorer Azure template. Also, use this page to easily delete data (trashcan icon in far right column) that's outdated or no longer needed.
-
 ## Process the data
 
 After adding users, you need to process the Workplace Analytics data that you want to use with these templates:
@@ -223,6 +219,10 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
    ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
 
+## Incoming data
+
+On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This list populates the list you can use to create new datasets with the Process Explorer Azure template. Also, use this page to easily delete data (trash can icon in far right column) that's outdated or no longer needed.
+
 ## Other configuration options
 
 As an admin, you can configure template settings in **Admin** > **Configuration**, including:
@@ -238,7 +238,7 @@ As an admin, you can audit user activity in **Admin** > **Logs**. Select the **i
 ## Get support
 
 * For help with Workplace Analytics Azure Templates, email your questions or feedback to wpaazuretemplates@microsoft.com.
-* For setup and data analysis help with Workplace Analytics, open [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (at the top of the UI), enter your question or feedback, and then select **Send**.
+* For setup and data analysis help with Workplace Analytics, open [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (at the top), enter your question or feedback, and then select **Send**.
 * For general help with Office 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
 
 ## Related topics
