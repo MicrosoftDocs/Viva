@@ -28,7 +28,7 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Improve agility percentage insight](../images/wpa/use/impr-agil-accel-decision.png)
+![Improve agility percentage insight](../images/wpa/use/improve-agility-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
