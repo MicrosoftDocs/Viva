@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Plan your week with the Briefing email
 description: Learn how to use the Briefing email to schedule time to focus, catch up on email, and more
 author: madehmer
