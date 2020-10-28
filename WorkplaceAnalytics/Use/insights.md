@@ -66,10 +66,10 @@ When viewing Workplace Analytics insights, different error states can occur if a
 
 ## Frequently asked questions
 
-### Q1 How do these insights accommodate different partitions?
+#### Q1 How do these insights accommodate different partitions?
 
 These insights are only about the participants who are included in the selected partition.
 
-### Q2 Which roles have access to these insights?
+#### Q2 Which roles have access to these insights?
 
 The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Workplace Analytics manager insights](pm-home.md) for more details.
