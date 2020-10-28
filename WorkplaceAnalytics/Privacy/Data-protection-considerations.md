@@ -74,12 +74,9 @@ A data subject is a person who can be identified through personal data. In the c
 > [!Note]
 > In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user," a "person," an "individual," or an "employee."
 
-## De-identification of personal data
+## De-identification of data
 
-To keep from disclosing personal data, Workplace Analytics de-identifies user data through the use of pseudonymization and other techniques, including aggregation. For examples of how it does this for various types of data, see the Examples column in the table in the [following section](#types-of-data-for-analysis-in-workplace-analytics). This [illustrative example](#illustrative-example) describes how Workplace Analytics secures information in query results. Finally, see the [Glossary](../use/glossary.md) for definitions of the terms related to privacy: aggregation, anonymization, de-identification, hashing, and personal data.
-
-> [!Note] 
-> To balance the requirements of protecting individual privacy and providing useful information, Workplace Analytics is gradually incorporating a nuanced approach known as [differential privacy](differential-privacy.md).  
+To keep from disclosing personal data, Workplace Analytics de-identifies user data through the use of pseudonymization and other techniques, including aggregation. For more details, see [De-identification of personal data](de-identify-data.md).  
 
 ## Types of data for analysis in Workplace Analytics
 
@@ -93,16 +90,6 @@ Your organization might have its own data-classification system, but you might w
 | Higher | Pseudonymized data | Pseudonymized data is information in which a personal identifier has been replaced with a value that does not directly identify a person (such as a numeric identifier that can no longer be attributed to a specific person without the use of additional information). | Workplace Analytics automatically replaces email addresses with pseudonyms (cryptographically obscured strings of numbers and letters) in the Office 365 collaboration data that you choose to include for analysis. Using pseudonyms can reduce the likelihood that you will identify a specific person, but the risk of identification remains. |
 | Lower | Aggregated data | Aggregated data is information that is computed from multiple individuals or sources. | Workplace Analytics calculates averages across your organization. Since the averages are calculated from data sourced from many people, it becomes nearly impossible to derive information about a specific person’s activity. The likelihood of identifying someone from aggregated data depends on the size of the sample. When you implement Workplace Analytics for your organization, you must select the sample-size threshold for aggregation. Smaller sample sizes (such as fewer than ten people) might reveal some insights about individual activity, especially when the individuals are known, and other information (for example, whether the individual was on vacation) can be correlated with changes in the averages over time. |
 | Lowest | Anonymized data | Anonymized data is information that does not relate to a specific individual, that does not increase the likelihood that a specific individual can be identified, or that has been rendered in a way so that it cannot be used to identify a specific individual. | When you use the default settings in Workplace Analytics, all the computed metrics that are the output of an analysis will be anonymized data. |
-
-### Illustrative Example
-
-With Workplace Analytics, all metrics that are computed from Office 365 collaboration data and from the organizational data that you choose to include are anonymized and aggregated data. The following example shows one line from a “people” report that Workplace Analytics created:
-
-| Person Identifier | After Hours | Email Hours | Function | Title | Org | Region |
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| T5Y07H4VfKWcCC3 | 7 | 6 | HR | Director | HR – Corp | Central |
-
-In this example, Workplace Analytics computes After Hours and Email Hours for some individual, and reports on this information, associating it with the person’s attributes that you choose to include. The computed information is anonymized; that is, you cannot identify the individual from these fields. The Person Identifier is pseudonymized with a cryptographically generated identifier derived from the person’s Office 365 email address. The other attributes (Function, Title, Org, and Region) are effectively personal data. While it might not be possible to identify the user with any single attribute, together these attributes might enable you to identify the user whose metrics have been computed. Therefore, you should treat these attributes as personal data.
 
 ## Data-privacy recommendations
 
