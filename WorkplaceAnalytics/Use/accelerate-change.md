@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Accelerate change
 
-Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
+Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -41,9 +41,9 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Engage influencers |Reach of influencers |An [organizational network graph](insight-ona-measures.md) that shows the reach of influencers, their connections, and other employees in your organization. This graph uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics)|
+|Engage influencers |Reach of influencers |An [organizational network graph](insight-ona-measures.md) that shows the reach of influencers, their connections, and other employees in your organization. This graph uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics).|
 |Measure Microsoft Teams adoption |Distribution of Teams adoption |A chart that shows the average number of [collaboration hours](metric-definitions.md#person-metrics) that employees spent in Teams over the past year by quarter and the average used by [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics). |
-|Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. This uses [collaboration hours](metric-definitions.md#person-metrics) |
+|Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. This uses [collaboration hours](metric-definitions.md#person-metrics). |
 
 ## Take action
 
