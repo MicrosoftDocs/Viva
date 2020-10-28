@@ -58,7 +58,7 @@ Some of the insight visuals are organizational network analysis (ONA) graphs tha
 
 In these network graphs, each dot or node represents an employee or a group. The lines between the nodes represent connections, which are collaborative relationships between them. The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
 
-For details about the metrics, see [Organizational network measures](insight-ona-measures.md).
+For details, see [Organizational network metrics](insight-ona-measures.md).
 
 ## Error states
 
