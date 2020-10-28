@@ -9,6 +9,8 @@
           href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations                 
           href: ~/Privacy/data-protection-considerations.md
+        - name: Data de-identification
+          href: ~/Privacy/de-identify-data.md
         - name: Differential privacy
           href: ~/Privacy/differential-privacy.md          
         - name: Privacy and data access
