@@ -18,11 +18,9 @@ audience: Admin
 
 To keep from disclosing personal data, Workplace Analytics de-identifies an individual's data through the use of pseudonymization and other techniques, such as aggregation.
 
-For examples of how it does this for various types of data, see the Examples column in the table in [Types of data for analysis](data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics). 
+The following [illustrative example](#illustrative-example) describes how Workplace Analytics secures information in query results. For more examples of how various types of data are anonymized, see the **Examples** column in the [Types of data for analysis](data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics) table.
 
-The following [illustrative example](#illustrative-example) describes how Workplace Analytics secures information in query results.
-
-Finally, see the [Glossary](../use/glossary.md) for definitions of the terms related to privacy, such as: aggregation, anonymization, de-identification, hashing, and personal data.
+See the [Glossary](../use/glossary.md) for definitions of the terms related to privacy, such as: aggregation, anonymization, de-identification, hashing, and personal data.
 
 > [!Note]
 > To balance the requirements of protecting individual privacy and providing useful information, Workplace Analytics is gradually incorporating a nuanced approach known as [differential privacy](differential-privacy.md).
