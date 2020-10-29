@@ -13,7 +13,7 @@ ms.prod: wpa
 
 These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what recommended best practices are available to help drive change.
 
-![Workplace Analytics insights home page image](../images/wpa/use/insights.png)
+![Workplace Analytics insights home page image](../images/wpa/use/wpa-insights.png)
 
 ## Business outcomes
 
@@ -26,7 +26,7 @@ Each of the following has a page dedicated to analysis about your organization a
 |[Improve agility](improve-agility.md) |Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. |
 |[Foster innovation](foster-innovation.md) |Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets.|
 |[Develop effective managers](develop-managers.md) |Managers have a large impact on employee engagement, development, and performance, and are pivotal for driving organizational change. |
-|[Maximize operational effectiveness](effective-operations.md) |Small changes to collaboration practices can have transformative effects on organizational productivity at scale. |
+|[Enhance operational effectiveness](effective-operations.md) |Small changes to collaboration practices can have transformative effects on organizational productivity at scale. |
 |[Accelerate change](accelerate-change.md) |Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity and can lead to market failure. |
 |[Transform meeting culture](transform-meetings.md) |Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. |
 |[Increase customer focus](customer-focus.md) |Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors.|
