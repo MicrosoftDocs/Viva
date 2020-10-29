@@ -19,10 +19,10 @@ audience: Admin
 ## Data-protection summary
 
 Workplace Analytics:
-•	Is not designed or intended to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring;
-•	Is not intended to give employees access to new personally identifiable information on other coworkers;
-•	Processes and stores customer data and personal data in accordance with the [Microsoft Online Services Terms](https://www.microsoft.com/licensing/product-licensing/products) and Microsoft's obligations as a [data processor](data-protection-considerations.md#microsofts-role-data-processor) under the European Union General Data Protection Regulation (GDPR); and
-•	Can easily be used by customers in compliance with the GDPR.
+ * Is not designed or intended to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring;
+ * Is not intended to give employees access to new personally identifiable information on other coworkers;
+ * Processes and stores customer data and personal data in accordance with the [Microsoft Online Services Terms](https://www.microsoft.com/licensing/product-licensing/products) and Microsoft's obligations as a [data processor](data-protection-considerations.md#microsofts-role-data-processor) under the European Union General Data Protection Regulation (GDPR); and
+ * Can easily be used by customers in compliance with the GDPR.
 
 ## Further information 
 
