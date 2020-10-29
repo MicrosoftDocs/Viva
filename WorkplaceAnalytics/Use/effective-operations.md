@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Maximize operational effectiveness with Workplace Analytics
+title: Enhance operational effectiveness with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and maximize operational effectiveness in your organization
 author: madehmer
 ms.author: v-mideh
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Maximize operational effectiveness
+# Enhance operational effectiveness
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
