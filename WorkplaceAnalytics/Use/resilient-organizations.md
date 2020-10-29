@@ -15,7 +15,7 @@ Resilience depends on having the right insights, systems, and tools to respond t
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
-* [Improve team cohesion](#improve-team-cohesion)
+<!-- [Improve team cohesion](#improve-team-cohesion)-->
 * [Protect employee wellbeing](#protect-employee-wellbeing)
 * [Practice empathy](#practice-empathy)
 * [Free up capacity](#free-up-capacity)
@@ -31,9 +31,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Improve team cohesion |Percentage of teams that have strong cohesion |Metric info |Calculation info |
-|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |Metric info |Calculation info |
-|Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |Metric info |Calculation info |
+|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours metrics](metric-definitions.md#person-metrics) |The percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
+|Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week.  |
 |Free up capacity |Percentage of employees who spend 25 or more hours in collaboration each week |Metric info |Calculation info |
 |Accelerate decision-making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |Metric info |Calculation info |
 
@@ -45,9 +44,8 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Improve team cohesion | Cohesion within teams  |Definition |
-|Protect employee wellbeing | Distribution of after-hours collaboration  |Calculation info |
-|Practice empathy | Distribution of 1:1 time with managers each month  |Calculation info |
+|Protect employee wellbeing | Distribution of after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
+|Practice empathy | Distribution of 1:1 time with managers each month  |Percentage of employees based on their monthly meeting hours with managers 1:1. They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. This graph uses the [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) metric. |
 |Free up capacity | Distribution of collaboration hours |Calculation info |
 |Accelerate decision-making| Distribution of conflicting meeting hours  |Calculation info |
 
@@ -61,7 +59,7 @@ You can select **Take action** to see ways you can enhance organizational resili
 
 ## Best practices to enhance organizational resiliency
 
-### Improve team cohesion
+<!--### Improve team cohesion
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
 
@@ -73,14 +71,14 @@ Ways to improve team cohesion:
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
 
 For more best practices, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
-
+-->
 ### Protect employee wellbeing
 
-Rapid shifts in ways of working can blur the line between 'home' and 'work'. One indicator of burnout risk is the amount of time employees spend collaborating outside of standard business hours. 
+Rapid shifts in ways of working can blur the line between 'home' and 'work'. One indicator of burnout risk is the amount of time employees spend collaborating outside of standard business hours.
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together."
 
-Ways to protect employee wellbeing: 
+Ways to protect employee wellbeing:
 
 * Provide managers with data on after-hours activity and the ability to automatically delay email delivery to align with coworkers' configured working hours.
 * Together mode provides your team with a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
@@ -93,7 +91,7 @@ During periods of disruption, managers play a critical role in helping employees
 
 Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
-Ways to practice empathy: 
+Ways to practice empathy:
 
 * Use MyAnalytics to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
@@ -106,7 +104,7 @@ Resilient organizations respond to changing demands and new opportunities by nim
 
 The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) article explains what 182 senior managers in a range of industries said about meetings when surveyed, including "65 percent said meetings keep them from completing their own work" and "71 percent said meetings are unproductive and inefficient."
 
-Ways to free up capacity: 
+Ways to free up capacity:
 
 * Channels in Microsoft Teams provide team members with a new way to get questions answered and provide updates without the need for a meeting.
 * Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to plan more carefully.
@@ -119,11 +117,11 @@ Rapidly changing conditions require swift decision-making. Managers with poor ca
 
 <!-- Why it matters quote - check out Improving meeting quality section in effective-operations.md-->
 
-Ways to accelerate decision-making: 
+Ways to accelerate decision-making:
 
 * MyAnalytics insights helps improve calendar management by increasing awareness of conflicting meetings and suggesting meetings to stay informed of decisions.
 * Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
-	
+
 For more best practices and ways to remove obstacles, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
 ## Related topics
