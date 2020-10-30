@@ -19,7 +19,7 @@ Each of the following behaviors show how your organization compares with others 
 * [Promote coaching and development](#promote-coaching-and-development)
 * [Strengthen internal networks](#strengthen-internal-networks)
 
-![Increase customer focus insights](../images/wpa/use/increase-customer-focus.png)
+![Increase customer focus insights](../images/wpa/use/customer-focus.png)
 
 ## Percentage insights
 
