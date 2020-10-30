@@ -16,7 +16,17 @@ audience: Admin
 
 # Introduction
 
-If your organization uses Workplace Analytics, you might find the following articles, which cover aspects of data-protection, privacy, and data access, to be of interest:
+## Data-protection summary
+
+Workplace Analytics:
+ * Is not designed or intended to enable employee evaluation, tracking, automated decision-making, profiling, or monitoring;
+ * Is not intended to give employees access to new personally identifiable information on other coworkers;
+ * Processes and stores customer data and personal data in accordance with the [Microsoft Online Services Terms](https://www.microsoft.com/licensing/product-licensing/products) and Microsoft's obligations as a [data processor](data-protection-considerations.md#microsofts-role-data-processor) under the European Union General Data Protection Regulation (GDPR); and
+ * Can easily be used by customers in compliance with the GDPR.
+
+## Further information 
+
+If your organization uses Workplace Analytics, you might find the following articles of interest. They cover aspects of data-protection, privacy, and data access.
 
 * [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities) - Read about the concepts of [data controller](data-protection-considerations.md#your-organizations-role-data-controller), [data processor](data-protection-considerations.md#microsofts-role-data-processor), and [data subject](data-protection-considerations.md#data-subject-and-personal-data), and their origins in European privacy law.
 
