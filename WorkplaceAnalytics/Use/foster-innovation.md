@@ -40,7 +40,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Calculations|
 |---------|--------|----------|------------|
 |Enable deep work |Distribution of time for deep work |Percentage of employees grouped by their [focus time](metric-definitions.md#focus-define). They are divided into those who spent between 0 and 10 hours, 10 to 20 hours, 20 to 30 hours, and more than 30 hours focusing. The percentages are calculated weekly and averaged over the set time period. |
-|Utilize influencers |Organizations with limited influencers |Shows the percentage of teams in your organization who are low on influencers based on the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. Influencers are employees with the best connections to people across the company based on their collaboration patterns.|
+|Utilize influencers |Organizations with limited influencers |Shows the percentage of organizations in your company who are low on influencers based on the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric.|
 
 ## Take action
 
@@ -76,14 +76,14 @@ For more best practices and ways to establish a 'no meeting' period, see [Best p
 
 ## Utilize influencers
 
-Influencers are people and groups within an organization who are well connected and can drive innovation by efficiently sharing information with others. The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article says to "move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
+Influencers are people within an organization who are well connected and can drive innovation by efficiently sharing information with others. The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article says to "move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
 
-Ways to leverage leaders:
+Ways to leverage influencers:
 
-* Communicate through leaders by using MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask leaders to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Use MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
+* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
 
-For more best practices and how to identify and utilize team leaders, see [Best practices for influencers](../tutorials/gm-influencer.md).
+For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 
 ## Related topics
 
