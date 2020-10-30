@@ -28,7 +28,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Enable deep work |Percentage of employees who spend a majority of meeting time in long or large meetings |[Long or large meetings and meeting hours](metric-definitions.md#person-metrics) |The percentage of employees who spend over 50 percent of meeting hours in long or large meetings. Long meetings are greater than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the set time period. |
+|Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than two or more consecutive hours in their calendars that don't show a meeting within the company's set business hours. |
 |Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight calculates the percentage of organizations with not enough influencers. |
 
 ## Visual insights
