@@ -115,7 +115,7 @@ For more best practices and ways to establish 'meeting-free' periods, see [Best 
 
 Rapidly changing conditions require swift decision-making. Managers with poor calendar management habits become obstacles to team goal attainment and create bottlenecks in decision-making.
 
-<!-- Why it matters quote - check out Improving meeting quality section in effective-operations.md-->
+A quote from [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/): “To be sure, meetings are essential for enabling collaboration, creativity and innovation. They often foster relationships and ensure proper information exchange. But why would anyone defend dysfunctional meetings? Because executives want to be good soldiers. When they sacrifice their own time and well-being for meetings, they assume they’re doing what’s best for the business.”
 
 Ways to accelerate decision-making:
 

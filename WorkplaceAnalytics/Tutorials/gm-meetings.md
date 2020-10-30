@@ -56,6 +56,14 @@ Work expands to the time allotted for it. Change meeting length defaults from 60
 * Encourage employees to schedule meetings that have buffers for attendees to capture notes and take a break before their next meeting
 * Start yourself, employees will follow the lead of others, especially leaders.
 
+#### Prepare thoughtful agendas
+
+Agendas should clearly state meeting goals and the purpose of each participant's attendance. Frame agenda topics as questions to focus and prime discussion. Ways to do this:
+
+* Generate an agenda template and share it during an all-hands meeting.
+* Encourage leaders to ensure their meetings use the template, role-modeling the behavior to others.
+* Utilize the template during large meetings to expose it to wide audiences. Share the template along with the meeting agenda when possible.
+
 #### Set team meeting rules and policy
 
 * Take an employee survey to gather data and impressions about the organization's meeting frequency and its impact on how much work is or isn't getting done during the day.

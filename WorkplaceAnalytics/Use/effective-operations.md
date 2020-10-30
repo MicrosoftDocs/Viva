@@ -66,7 +66,7 @@ Ways to help free up capacity:
 
 * Provide managers with access to after-hours activity and the ability to automatically delay email delivery to align with coworkers' configured working hours.
 * Use short meetings (such as only 15 minutes) with focused agendas. Such meetings are common in high-stakes workplaces to debrief or reflect on an event.
-	
+
 For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ### Improve meeting quality
@@ -84,14 +84,15 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 ### Keep employees engaged
 
-Email and chat activity during meetings unrelated to meeting goals can lead to different interpretations of decisions, missed guidance and inconsistent follow-through on action items.
+Email and chat activity during meetings unrelated to meeting goals can lead to different interpretations of decisions, missed guidance, and inconsistent follow-through on action items.
 
-<!-- why it matters Quote -->
+[The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance."
 
 Ways to keep employees engaged:
 
+* Prepare thoughtful agendas that clearly state meeting goals and the purpose of each participant's attendance. Frame agenda topics as questions to focus and prime discussion.
 * Use the MyAnalytics Outlook add-in to prepare for meetings. It provides insights about meeting information, related documents, and reminders to book preparation time.
-*  People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
+* People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
 
 For more best practices and ways to maintain the interest and participation of meeting attendees, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
