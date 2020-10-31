@@ -29,7 +29,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Free up capacity |Percentage of employees who spend 25 or more hours collaborating each week |Metric info|Calculation info |
-|Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |Metric info |Calculation info |
+|Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)|The percentage of employees who spent over 50 percent of meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the set time period. |
 |Keep employees engaged |Percentage of employees who spend significant meeting time multitasking |Metric info |Calculation info |
 |Protect time to get work done |Percentage of employees who have less than 20 hours each week to focus on work  |Metric info |Calculation info |
 
@@ -66,7 +66,7 @@ Ways to help free up capacity:
 
 * Provide managers with access to after-hours activity and the ability to automatically delay email delivery to align with coworkers' configured working hours.
 * Use short meetings (such as only 15 minutes) with focused agendas. Such meetings are common in high-stakes workplaces to debrief or reflect on an event.
-	
+
 For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ### Improve meeting quality
@@ -84,14 +84,15 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 ### Keep employees engaged
 
-Email and chat activity during meetings unrelated to meeting goals can lead to different interpretations of decisions, missed guidance and inconsistent follow-through on action items.
+Email and chat activity during meetings unrelated to meeting goals can lead to different interpretations of decisions, missed guidance, and inconsistent follow-through on action items.
 
-<!-- why it matters Quote -->
+[The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance."
 
 Ways to keep employees engaged:
 
-* Use the MyAnalytics Outlook add-in to prepare for meetings. It provides insights about meeting information, related documents, and reminders to book preparation time.
-*  People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
+* Prepare thoughtful agendas that clearly state meeting goals and the purpose of each participant's attendance. Frame agenda topics as questions to focus and prime discussion.
+* Use the [MyAnalytics Insights to prepare for meetings](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings). It provides insights about meeting information, related documents, and reminders to book preparation time.
+* People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
 
 For more best practices and ways to maintain the interest and participation of meeting attendees, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
@@ -99,13 +100,13 @@ For more best practices and ways to maintain the interest and participation of m
 
 Time without meetings, emails and chats provides employees with the opportunity to get important work done and think creatively.
 
-<!-- why it matters Quote -->
+[How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking, such as writing, strategic thinking, analysis, coding, designing, or a project with a lot of complexity."
 
 Ways to protect time:
 
-* The MyAnalytics Focus plan lets you automatically book focus time, protects this time by silencing chats, and allows you to track your progress weekly.
-* Create a new team norm to respect the Microsoft Teams focus status of others by not send chats to teammates whose status displays as 'Focus'.	
-	
+* Use the [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to automatically book focus time and protect this time by silencing chats, and allows you to track your progress weekly.
+* Create a new team norm that respects the Microsoft Teams focus status of others by not sending chats to teammates whose status is "focusing."
+
 For more best practices and ways to protect the time of yourself and others, see [Best practices for focus time](../tutorials/gm-focus.md).
 
 ## Related topics
