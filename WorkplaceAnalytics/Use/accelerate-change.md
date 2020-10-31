@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Accelerate change
 
-Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
+Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -29,8 +29,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Engage influencers |Percentage of employees who can drive change with 90 percent of your workforce |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics)|Groups with insufficient representation of influencers is calculated based on company and organization size. |
-|Measure Teams adoption |Percentage of employees who are using Teams 30 percent less than the top quartile users |[Instant message hours, call hours, and other related Teams metrics](metric-definitions.md#person-metrics) |Calculation info |
+|Engage influencers |Percentage of employees who can drive change within your workforce |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics)|Percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.|
+|Measure Microsoft Teams adoption |Percentage of employees who are using Teams 30 percent less than the top quartile users |[Instant message hours, call hours, and other related Teams metrics](metric-definitions.md#person-metrics) |Calculation info |
 |Support connectivity |Percentage of cohesion among employees who use Teams |[Instant message and call hours and other related person metrics](metric-definitions.md#person-metrics) |Calculation info |
 
 ## Visual insights
@@ -41,9 +41,9 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Engage influencers |Reach of influencers |An [organizational network graph](insight-ona-measures.md) that shows the reach of influencers, their connections, and other employees in your organization. This graph uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics)|
+|Engage influencers |Reach of influencers |An [organizational network graph](insight-ona-measures.md) that shows the influencers, their connections, and how they effectively connect across your organization. This shows people who power the unobservable communication networks that you can target to effectively drive change. This graph uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics).|
 |Measure Microsoft Teams adoption |Distribution of Teams adoption |A chart that shows the average number of [collaboration hours](metric-definitions.md#person-metrics) that employees spent in Teams over the past year by quarter and the average used by [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics). |
-|Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. This uses [collaboration hours](metric-definitions.md#person-metrics) |
+|Support connectivity |Impact of Teams adoption |Shows how Teams adoption is impacting employee cohesion with average counts of employees who use Teams and those who don't based on their connections within Teams over the last month. This uses [collaboration hours](metric-definitions.md#person-metrics). |
 
 ## Take action
 
@@ -57,16 +57,16 @@ You can select **Take action** to see ways you can drive accelerate organization
 
 ### Engage influencers
 
-Leveraging the right teams and people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
+Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
 
-The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article says to "move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
+The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this."
 
 Ways to leverage influencers:
 
-* Communicate through influencers by using MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask influencer groups to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Use MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
+* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
 
-For more best practices and how to identify and utilize team influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
+For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 
 ### Measure Teams adoption
 

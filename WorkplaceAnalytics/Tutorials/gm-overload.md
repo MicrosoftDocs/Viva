@@ -27,6 +27,26 @@ Based on research presented in the article about [Protecting company culture mea
 * Enable employees to disconnect from email after work. If something urgent comes up, they can be reached by the alternative channels.
 * Set clear expectations and urge management to set the right example for the rest of the organization.
 
+## Change strategies
+
+#### Set an email practice and cadence
+
+Outline clear parameters and expectations on when you will check and respond to emails. Ways to do this:  
+
+* Choose how often you will check your email each day: 3 times per day
+* Use specific moments throughout the day as reminders: Right before lunch
+* Share your intentions and encourage your team members to do the same. For example:
+
+   "Sometimes we can all get overwhelmed by email, and switching back and forth between email and other work can impact our personal productivity. For this reason, I plan to check my email three times a day. If you require an immediate response, you can reach me with a Teams chat or phone call. I encourage everyone to try this out and see if it helps you as well."
+
+#### Demonstrate good Teams practices
+
+Show your team the power of chat-based products, like Microsoft Teams, by using them yourself and by encouraging your team to collaborate with them.
+
+#### Reduce the email recipient number
+
+When replying to email, reduce the use of reply all and remove participants who do not need to participate in the conversation.
+
 ## Related topics
 
 [Workplace Analytics best practices](gm-best-practices.md)

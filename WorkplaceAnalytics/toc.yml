@@ -9,6 +9,8 @@
           href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations                 
           href: ~/Privacy/data-protection-considerations.md
+        - name: Data de-identification
+          href: ~/Privacy/de-identify-data.md
         - name: Differential privacy
           href: ~/Privacy/differential-privacy.md          
         - name: Privacy and data access
@@ -148,12 +150,8 @@
                       href: ~/tutorials/power-bi-intro.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
-                    - name: Collaboration assessment
-                      href: ~/tutorials/power-bi-collab-assess.md
                     - name: Collaboration overload
                       href: ~/tutorials/power-bi-collab-overload.md
-                    - name: Collaboration tracker
-                      href: ~/tutorials/power-bi-collab-track.md
                     - name: Influence insights
                       href: ~/tutorials/pbi-influence-db.md
                     - name: Manager impact
@@ -166,6 +164,10 @@
                       href: ~/tutorials/pbi-bc-sales.md
                     - name: Teams insights
                       href: ~/tutorials/power-bi-teams.md
+                    - name: Ways of working assessment
+                      href: ~/tutorials/power-bi-collab-assess.md
+                    - name: Ways of working tracker
+                      href: ~/tutorials/power-bi-collab-track.md
                     - name: Tips, FAQs, and troubleshooting
                       href: ~/tutorials/power-bi-templates.md
                 - name: Customize a metric
