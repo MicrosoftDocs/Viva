@@ -39,7 +39,7 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ![Operational effectiveness visual insight](../images/wpa/use/op-eff-keep-empl-engaged.png)
 
-|Behavior |Visual insight | Defintion |
+|Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Free up capacity |Distribution of collaboration hours  |Definition |
 |Improve meeting quality |Meetings by duration and number of attendees  |Definition |

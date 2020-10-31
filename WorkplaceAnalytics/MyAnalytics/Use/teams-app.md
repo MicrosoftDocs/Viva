@@ -66,9 +66,13 @@ This section describes how to install the Insights Teams app for yourself. (If y
    
    ![Search for Insights](../../Images/mya/use/apps-search-insights.png)
 
-4. Select the **Insights** app and then select **Add for me**. 
+4. Select the **Insights** app:
 
-   ![Add for me button](../../Images/mya/use/add-for-me-45.png)
+   ![Search for Insights](../../Images/mya/use/insights-app-teams.png)
+
+5. Select **Add for me**. 
+
+   ![Add for me button](../../Images/mya/use/add-for-me-new-410.png)
 
 This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
