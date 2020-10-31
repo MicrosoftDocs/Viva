@@ -29,10 +29,13 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * "64 percent said meetings come at the expense of deep thinking."
 * "62 percent said meetings miss opportunities to bring the team closer together."
 
+According to [If you multitask during meetings, your team will, too](https://insights.office.com/productivity/multitask-meetings-team-will/): “Managers that frequently send emails during meetings are, according to our analysis, are 2.2 times more likely to have direct reports who also multi-task in meetings.”
+
 ## Best practices
 
 * Say no to meetings. See [Set team meeting rules and policy](#set-team-meeting-rules-and-policy) for a guide on how to create a policy.
 * Use [MyAnalytics](../myanalytics/use/mya-notifications.md#shorten-a-meeting) to shorten meetings. For example, when you're composing a meeting invitation with a duration of one hour, an inline suggestion will remind you to shorten the meeting by 15 minutes.
+* Use the [MyAnalytics Insights to prepare for meetings](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings). It provides insights about meeting information, related documents, and reminders to book preparation time.
 * Invite fewer people. When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
 * Enable [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
@@ -55,6 +58,14 @@ Work expands to the time allotted for it. Change meeting length defaults from 60
 * Send out a communication informing employees about the downside of endless, back-to-back meetings. Share with them insights around how much collaboration the average employee is experiencing.
 * Encourage employees to schedule meetings that have buffers for attendees to capture notes and take a break before their next meeting
 * Start yourself, employees will follow the lead of others, especially leaders.
+
+#### Prepare thoughtful agendas
+
+Agendas should clearly state meeting goals and the purpose of each participant's attendance. Frame agenda topics as questions to focus and prime discussion. Ways to do this:
+
+* Generate an agenda template and share it during an all-hands meeting.
+* Encourage leaders to ensure their meetings use the template, role-modeling the behavior to others.
+* Utilize the template during large meetings to expose it to wide audiences. Share the template along with the meeting agenda when possible.
 
 #### Set team meeting rules and policy
 

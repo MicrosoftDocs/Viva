@@ -23,7 +23,7 @@ Each of the following behaviors show how your organization compares with others 
 
 ## Percentage insights
 
-The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
+The following are the percentage insights, their underlying metrics, and some details about the calculations used for them.
 
 ![Accelerate change percentage insight](../images/wpa/use/accelerate-change-percent.png)
 

@@ -25,22 +25,22 @@ Each of the following behaviors show how your organization compares with others 
 
 ## Percentage insights
 
-The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
+The following are the percentage insights, their underlying metrics, and some details about the calculations used for them.
 
-![Enhance resiliency employee wellbeing](../images/wpa/use/enh-resil-empl-wellbeing.png)
+![Enhance resiliency employee wellbeing](../images/wpa/use/resilient-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours metrics](metric-definitions.md#person-metrics) |The percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week.  |
-|Free up capacity |Percentage of employees who spend 25 or more hours in collaboration each week |Metric info |Calculation info |
+|Free up capacity |Percentage of employees who spend 25 or more hours in collaboration each week |[Collaboration metrics](metric-definitions.md#person-metrics) |Calculation info |
 |Accelerate decision-making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |Metric info |Calculation info |
 
 ## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Enhance resiliency empathy](../images/wpa/use/enh-resil-empathy.png)
+![Enhance resiliency empathy](../images/wpa/use/resilient-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
@@ -87,13 +87,13 @@ For more best practices and ways to protect employees' after hours, see [Best pr
 
 ### Practice empathy
 
-During periods of disruption, managers play a critical role in helping employees navigate change and preserve a sense of belonging. One-on-one (1:1) manager time measures how much time managers spend meeting individually with direct reports.
+During periods of disruption, managers play a critical role in helping employees navigate change and preserve a sense of belonging. Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. 
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
+According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
-Ways to practice empathy:
+Ways to increase your frequency of coaching:
 
-* Use MyAnalytics to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
+* Use [MyAnalytics](../myanalytics/overview/privacy-guide.md#assistance-for-people-managers) to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
 For more best practices and ways to establish better connections between managers and their teams, see [Best practices for focus time](../tutorials/gm-coaching.md).
@@ -115,7 +115,7 @@ For more best practices and ways to establish 'meeting-free' periods, see [Best 
 
 Rapidly changing conditions require swift decision-making. Managers with poor calendar management habits become obstacles to team goal attainment and create bottlenecks in decision-making.
 
-<!-- Why it matters quote - check out Improving meeting quality section in effective-operations.md-->
+A quote from [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/): “To be sure, meetings are essential for enabling collaboration, creativity and innovation. They often foster relationships and ensure proper information exchange. But why would anyone defend dysfunctional meetings? Because executives want to be good soldiers. When they sacrifice their own time and well-being for meetings, they assume they’re doing what’s best for the business.”
 
 Ways to accelerate decision-making:
 
