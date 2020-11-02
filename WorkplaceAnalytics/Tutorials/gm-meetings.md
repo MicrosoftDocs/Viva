@@ -15,6 +15,8 @@ To solve a problem or make a decision, it helps to keep the meeting audience sma
 
 ## Why it matters
 
+[How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that "helping your team manage its time well is a critical factor for its success."
+
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective:
 
 * "If you want people to have the opportunity to contribute, you need to limit attendance."
@@ -28,6 +30,8 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * "71 percent said meetings are unproductive and inefficient."
 * "64 percent said meetings come at the expense of deep thinking."
 * "62 percent said meetings miss opportunities to bring the team closer together."
+
+[Polite ways to decline a meeting invitation](https://insights.office.com/time-management/polite-ways-to-decline-a-meeting-invitation/) explains that your "first challenge is deciding which meetings to decline. A little discipline goes a long way here. Establish a set of criteria for participation and stick with it."
 
 According to [If you multitask during meetings, your team will, too](https://insights.office.com/productivity/multitask-meetings-team-will/): “Managers that frequently send emails during meetings are, according to our analysis, are 2.2 times more likely to have direct reports who also multi-task in meetings.”
 
