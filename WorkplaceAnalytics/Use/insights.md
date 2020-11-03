@@ -48,8 +48,8 @@ In the **Take action** section for each insight, select **Find out more** to see
 
 ![Take action for coaching](../images/wpa/use/coaching.png)
 
-* **Opportunity groups** - Lists the groups who are most effected and would benefit the most from these recommended actions, which are based on your organizational data and industry research.
-* **Explore** - Depending on your role and the best practice, you might see  **Explore the stats** or **Explore in Power BI** links for using [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
+* **Opportunity groups** - Lists the groups who are most effected and would benefit the most from the recommended best practices or Plans, which are based on your organizational data and industry research.
+* **Explore** - Depending on your role, **Explore the stats** or **Explore in Power BI** links you to [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
 
 ## Network graphs
