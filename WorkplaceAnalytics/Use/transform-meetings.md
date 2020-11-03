@@ -63,7 +63,7 @@ The [condensed guide to running meetings](https://insights.office.com/collaborat
 
 Ways to reduce meeting time:
 
-* Use [Microsoft Teams channels](https://docs.microsoft.com/en-us/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
+* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
 * Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to plan better meetings.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
