@@ -41,10 +41,10 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Free up capacity |Distribution of collaboration hours  |Definition |
-|Improve meeting quality |Meetings by duration and number of attendees  |Definition |
-|Keep employees engaged |Distribution of multitasking in meetings  |Definition |
-|Protect time to get work done |Distribution of focus time  |Definition |
+|Free up capacity |Distribution of collaboration hours  |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#person-metrics). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period. |
+|Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting metrics](metric-definitions.md#person-metrics) to calculate the following percentages:<ul><li>**Large meetings**: Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings**: Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings**: Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings**: Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
+|Keep employees engaged |Distribution of multitasking in meetings  |Percentage of employees based on their weekly multi-tasking meeting hours. They are divided into those who spend between zero and one hour, one to five hours, and more than five hours. These percentages are calculated weekly and averaged over the entire time period.  |
+|Protect time to get work done |Distribution of focus time  |Percentage of employees grouped by their focus time. They are divided into those who spend between zero to 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period.  |
 
 ## Take action
 

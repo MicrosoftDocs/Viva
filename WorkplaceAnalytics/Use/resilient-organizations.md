@@ -31,9 +31,9 @@ The following are the percentage insights, their underlying metrics, and some de
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours metrics](metric-definitions.md#person-metrics) |The percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
+|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours collaboration](metric-definitions.md#person-metrics) |The percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week.  |
-|Free up capacity |Percentage of employees who spend 25 or more hours in collaboration each week |[Collaboration metrics](metric-definitions.md#person-metrics) |Calculation info |
+|Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](metric-definitions.md#person-metrics) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
 |Accelerate decision-making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |Metric info |Calculation info |
 
 ## Visual insights

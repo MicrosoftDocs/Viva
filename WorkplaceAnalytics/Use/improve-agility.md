@@ -18,9 +18,6 @@ Each of the following behaviors show how your organization compares with others 
 * [Organize better meetings](#organize-better-meetings)
 * [Accelerate decision-making](#accelerate-decision-making)
 * [Improve management practices](#improve-management-practices)
-<!--
-* [Foster cross-group collaboration](#foster-cross-group-collaboration)
--->
 
 ![Improve agility page](../images/wpa/use/agility.png)
 
@@ -32,9 +29,9 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)| The percentage of employees who spend over 50 percent of their meeting hours with in long or large meetings. The insight is calculated weekly and averaged over all weeks.  |
-|Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Employees whose influence score is within 25 percent of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered over all measured employees.  |
-|Improve management practices |Percentage of managers who have a majority of thier schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |The percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks.  |
+|Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)| The percentage of employees who spend more than 50 percent of their meeting hours in long or large meetings. The insight is calculated weekly and averaged over the entire time period.  |
+|Accelerate decision-making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Employees whose influence score is within 25 percent of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered as compared to all measured employees.  |
+|Improve management practices |Percentage of managers who have a majority of their schedule double-booked | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |The percentage of employees who spend more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over the entire time period.  |
 <!--|Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-define)  |\[Calculation info\] |  -->
 
 ## Visual insights
@@ -45,12 +42,9 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-| Improve management practices | Distribution of conflicting meeting hours | Shows the percentage of employees according to the number of their [conflicting meeting](glossary.md#conflicting-meeting-define) hours. These percentages are calculated weekly and averaged over the entire time period.  |
-| Organize better meetings | Meetings by duration and number of attendees  | Shows the percentages of meetings that are [long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), [long and large meetings](glossary.md#long-and-large-meeting-define), and finally, the type to strive for: [decision-making meetings](glossary.md#decision-making-meeting-define). |
-| Accelerate decision-making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) that shows the distribution of empowered employees and disempowered employees in your organization. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices. This graph uses [influence metrics](metric-definitions.md#organizational-network-analysis-ona-metrics). |
-
-<!--
-| Foster cross-group collaboration | Collaboration across groups | \[Need definition\] | -->
+|Organize better meetings | Meetings by duration and number of attendees  | Shows the percentages of meetings that are [long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), [long and large meetings](glossary.md#long-and-large-meeting-define), and finally, the type to strive for: [decision-making meetings](glossary.md#decision-making-meeting-define). |
+|Accelerate decision-making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) that shows the distribution of empowered employees and disempowered employees in your organization. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices. This graph uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics). |
+|Improve management practices | Distribution of conflicting meeting hours | Shows the percentage of employees according to the number of their [conflicting meeting](glossary.md#conflicting-meeting-define) hours. These percentages are calculated weekly and averaged over the entire time period.  |
 
 ## Take action
 
@@ -71,7 +65,7 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 Ways to organize better meetings:
 
 * When composing a meeting invitation with a duration of one hour, note the MyAnalytics reminder that suggests that you  shorten the meeting by 15 minutes.
-* When preparing the agenda, include the purpose of each participant's attendance. The exercise reveals unnecessary invitees, including people who are optional or only require meeting notes.	
+* When preparing the agenda, include the purpose of each participant's attendance. The exercise reveals unnecessary invitees, including people who are optional or only require meeting notes.
 
 For more best practices, see [Best practices for meetings](../tutorials/gm-meetings.md) and [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
@@ -79,12 +73,14 @@ For more best practices, see [Best practices for meetings](../tutorials/gm-meeti
 
 Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making.
 
+According to [Five ways to empower your team to make decisions](https://insights.office.com/management-strategy/five-ways-to-empower-your-team-to-make-decisions/): “Employee empowerment is directly tied to results. A study by Zenger Folkman found 4 percent of employees are willing to put in more effort when empowerment is low, while 67 percent are willing to go above and beyond when empowerment is high.”
+
 Ways to accelerate decision-making:
 
-* Record meetings and share recordings in public channels whenever possible. Also, provide wide access to meeting notes using Teams and OneNote.
-* Create Teams channels for teams to easily share information as it emerges both formally through notes and files and informally through chat.
+* Provide wide access to Teams meeting recordings and notes in public channels whenever possible to increase the rate of information sharing.  Also, provide wide access to meeting notes using Teams and OneNote.
+* Use Teams channels to share information as it emerges both formally through notes and files and informally through chats.
 
-For more best practices and ways to develop a 1:1 conversation series, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
+For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 <!--
 ### Foster cross-group collaboration
@@ -106,12 +102,15 @@ When managers are needed in more meetings than they can attend, they become obst
 
 The level of day-to-day collaboration between managers and their employees can indicate whether employees feel empowered to take initiative and work independently, or if they struggle to separate themselves from their manager.
 
+[Collaboration overload is a symptom of a deeper organizational problem](https://insights.office.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/) explains that “meetings can become a substitute for effective leadership communication. Rather than taking the time to share the specifics discussed in a meeting with subordinates who did not attend, some leaders opt to invite an army to every meeting.”
+
 Ways to improve:
 
-* Push ownership down to the level of action.
-* Enable and use [Insights](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
+* Empower employees with ownership of work streams so they can quickly make decisions and take action.
+* Enable and use [MyAnalytics insights](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
+* Promptly decline meetings as soon as possible with a brief explanation for why to reinforce decision rights and role model healthy habits.
 
-For more best practices and change catalysts, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
+For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ## Related topics
 
