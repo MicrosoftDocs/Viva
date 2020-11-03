@@ -28,8 +28,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than two or more consecutive hours in their calendars that don't show a meeting within the company's set business hours. |
-|Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight calculates the percentage of organizations with not enough influencers. |
+|Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
+|Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 
 ## Visual insights
 
@@ -39,15 +39,15 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Calculations|
 |---------|--------|----------|------------|
-|Enable deep work |Distribution of time for deep work |Percentage of employees grouped by their [focus time](metric-definitions.md#focus-define). They are divided into those who spent between 0 and 10 hours, 10 to 20 hours, 20 to 30 hours, and more than 30 hours focusing. The percentages are calculated weekly and averaged over the set time period. |
-|Utilize influencers |Organizations with limited influencers |Shows the percentage of organizations in your company who are low on influencers based on the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric.|
+|Enable deep work |Distribution of time for deep work |Percentage of employees grouped by their [focus time](metric-definitions.md#focus-define). The groups are divided into those who spend between 0 and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period. |
+|Utilize influencers |Organizations with limited influencers |Percentage organizations that don't have sufficient representation of influencers, based on company size. This uses the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric.|
 
 ## Take action
 
-You can select **Take action** to see ways you can drive change or simply maintain organizational innovation. The following are available in addition to the recommendations within Take action.
+You can select **Take action** to see ways you can drive innovation. The following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or Plans, which are based on your organizational data and industry research.
+* **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
 ## Best practices to foster innovation

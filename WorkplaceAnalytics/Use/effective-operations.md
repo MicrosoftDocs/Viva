@@ -28,10 +28,10 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Free up capacity |Percentage of employees who spend 25 or more hours collaborating each week |Metric info|Calculation info |
+|Free up capacity |Percentage of employees who spend 25 or more hours collaborating each week |[Collaboration hours](metric-definitions.md#person-metrics)|Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
 |Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)|The percentage of employees who spent over 50 percent of meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the set time period. |
-|Keep employees engaged |Percentage of employees who spend significant meeting time multitasking |Metric info |Calculation info |
-|Protect time to get work done |Percentage of employees who have less than 20 hours each week to focus on work  |Metric info |Calculation info |
+|Keep employees engaged |Percentage of employees who spend significant meeting time multitasking |[Multi-tasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define) |Percentage of employees who spend more than 25% of their meetings hours multi-tasking. This insight is calculated weekly and then averaged over the time period. |
+|Protect time to get work done |Percentage of employees who have less than 20 hours each week to focus on work  |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
 
 ## Visual insights
 
@@ -41,17 +41,17 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Free up capacity |Distribution of collaboration hours  |Definition |
-|Improve meeting quality |Meetings by duration and number of attendees  |Definition |
-|Keep employees engaged |Distribution of multitasking in meetings  |Definition |
-|Protect time to get work done |Distribution of focus time  |Definition |
+|Free up capacity |Distribution of collaboration hours  |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#person-metrics). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period. |
+|Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting metrics](metric-definitions.md#meeting-metrics) to calculate the following percentages:<ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
+|Keep employees engaged |Distribution of multitasking in meetings |Percentage of employees based on their weekly [multi-tasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one to five hours, and more than five hours. These percentages are calculated weekly and averaged over the entire time period. |
+|Protect time to get work done |Distribution of focus time  |Percentage of employees grouped by their focus time. They are divided into those who spend between zero and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period. |
 
 ## Take action
 
 You can select **Take action** to see ways you can maximize operational effectiveness in your organization. The following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
+* **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
 ## Best practices to maximize operational effectiveness
@@ -64,8 +64,9 @@ As explained in [How to finally kill the useless, recurring meeting](https://hbr
 
 Ways to help free up capacity:
 
-* Provide managers with access to after-hours activity and the ability to automatically delay email delivery to align with coworkers' configured working hours.
-* Use short meetings (such as only 15 minutes) with focused agendas. Such meetings are common in high-stakes workplaces to debrief or reflect on an event.
+* Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
+* Provide managers with access to after-hours activity and the ability to automatically delay email delivery to align with configured working hours for coworkers.
+* Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
