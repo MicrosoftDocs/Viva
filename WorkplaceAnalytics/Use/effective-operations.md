@@ -24,27 +24,27 @@ Each of the following behaviors show how your organization compares with others 
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Operational effectiveness percentage insight](../images/wpa/use/op-eff-improve-meet-qual.png)
+![Operational effectiveness percentage insight](../images/wpa/use/effective-operations-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Free up capacity |Percentage of employees who spend 25 or more hours collaborating each week |[Collaboration hours](metric-definitions.md#person-metrics)|Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
-|Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)|The percentage of employees who spent over 50 percent of meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the set time period. |
-|Keep employees engaged |Percentage of employees who spend significant meeting time multitasking |[Multi-tasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define) |Percentage of employees who spend more than 25% of their meetings hours multi-tasking. This insight is calculated weekly and then averaged over the time period. |
-|Protect time to get work done |Percentage of employees who have less than 20 hours each week to focus on work  |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
+|Free up capacity |Percentage of employees who 25+ hours in collaboration every week |[Collaboration hours](metric-definitions.md#person-metrics)|Percentage of employees who spend more than 25 hours each week collaborating through email, calls, instant messages, and meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Attendees](metric-definitions.md#attendees-define), [attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [long meetings](glossary.md#long-meeting-define), and [large meetings](glossary.md#large-meeting-define)|The percentage of employees who spent over 50 percent of their meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. This is calculated weekly and averaged for the entire time period. |
+|Keep employees engaged |Percentage of employees who significantly multitask in meetings |[Multi-tasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define) |Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and averaged for the entire time period. |
+|Protect time to get work done |Percentage of employees who have less than 20 hours available to focus each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week, which is calculated weekly and averaged for the entire time period. |
 
 ## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Operational effectiveness visual insight](../images/wpa/use/op-eff-keep-empl-engaged.png)
+![Operational effectiveness visual insight](../images/wpa/use/effective-operations-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Free up capacity |Distribution of collaboration hours  |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#person-metrics). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period. |
-|Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting metrics](metric-definitions.md#meeting-metrics) to calculate the following percentages:<ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
-|Keep employees engaged |Distribution of multitasking in meetings |Percentage of employees based on their weekly [multi-tasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one to five hours, and more than five hours. These percentages are calculated weekly and averaged over the entire time period. |
-|Protect time to get work done |Distribution of focus time  |Percentage of employees grouped by their focus time. They are divided into those who spend between zero and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period. |
+|Free up capacity |Distribution of collaboration hours  |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged for the entire time period. |
+|Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting metrics](metric-definitions.md#meeting-metrics) to calculate the following percentages that are calculated weekly and averaged for the entire time period: <ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
+|Keep employees engaged |Distribution of multitasking in meetings |Percentage of employees based on their weekly [multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one to five hours, and more than five hours. These are calculated weekly and averaged for the entire time period. |
+|Protect time to get work done |Distribution of focus time |Percentage of employees grouped by their [total focus hours](metric-definitions.md#focus-define). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. These are calculated weekly and averaged for the entire time period. |
 
 ## Take action
 
@@ -64,7 +64,7 @@ As explained in [How to finally kill the useless, recurring meeting](https://hbr
 
 Ways to reduce meeting time:
 
-* Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
+* Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try canceling some, and then add them back if they’re missed.
 * Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
@@ -87,12 +87,12 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 Email and chat activity during meetings unrelated to meeting goals can lead to different interpretations of decisions, missed guidance, and inconsistent follow-through on action items.
 
-[The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance."
+[If you multitask during meetings, your team will too](https://insights.office.com/productivity/multitask-meetings-team-will/) explains "multitasking can signal to others that we don’t value their time or their contributions. When you and your entire team engages in this behavior, little good can come from it."
 
 Ways to keep employees engaged:
 
-* Prepare thoughtful agendas that clearly state meeting goals and the purpose of each participant's attendance. Frame agenda topics as questions to focus and prime discussion.
 * Use the [MyAnalytics Insights to prepare for meetings](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings). It provides insights about meeting information, related documents, and reminders to book preparation time.
+* Prepare thoughtful agendas that clearly state meeting goals and the purpose of each participant's attendance. Frame agenda topics as questions to focus and prime discussions.
 * People have short attention spans. To keep meeting participants engaged during longer meetings, structure agendas in 15-minute increments and take mini-breaks.
 
 For more best practices and ways to maintain the interest and participation of meeting attendees, see [Best practices for meetings](../tutorials/gm-meetings.md).

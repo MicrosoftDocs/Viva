@@ -78,7 +78,7 @@ Rapid shifts in ways of working can blur the line between 'home' and 'work'. One
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together."
 
-Ways to protect employee wellbeing:
+Ways to support employee wellbeing:
 
 * Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
 * Utilize [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
@@ -92,9 +92,9 @@ During periods of disruption, managers play a critical role in helping employees
 
 According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
-Ways to improve coaching:
+Ways to keep employees engaged:
 
-* Use [MyAnalytics](../myanalytics/overview/privacy-guide.md#assistance-for-people-managers) to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
+* Use [Insights](../myanalytics/overview/privacy-guide.md#assistance-for-people-managers) to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
 For more best practices and ways to establish better manager-team connections, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
@@ -123,8 +123,7 @@ Ways to empower decision-making:
 
 * Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
 * Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
-* Use [MyAnalytics insights](../myanalytics/use/use-the-insights.md) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
-* Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
+* Use [Insights](../myanalytics/use/use-the-insights.md) to manage your calendar and increase your awareness of conflicting meetings and meetings that inform you of decisions. Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
 
 For more best practices and ways to remove obstacles, see [Best practices for meetings](../tutorials/gm-meetings.md).
 

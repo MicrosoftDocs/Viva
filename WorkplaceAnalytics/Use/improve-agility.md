@@ -19,7 +19,7 @@ Each of the following behaviors show how your organization compares with others 
 * [Accelerate decision-making](#accelerate-decision-making)
 * [Improve management practices](#improve-management-practices)
 
-![Improve agility page](../images/wpa/use/agility.png)
+![Improve agility page](../images/wpa/use/improve-agility.png)
 
 ## Percentage insights
 
@@ -38,7 +38,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Improve agility visual insight](../images/wpa/use/impr-agil-improv-mgmt-prac.png)
+![Improve agility visual insight](../images/wpa/use/improve-agility-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
