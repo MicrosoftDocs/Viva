@@ -65,7 +65,7 @@ For more best practices and how to create goals across teams or departments, see
 -->
 ## Enable deep work
 
-Time without meetings, emails and chats provides employees with the opportunity to complete challenging work, think creatively and generate innovative ideas. 
+Time without meetings, emails and chats provides employees with the opportunity to complete challenging work, think creatively and generate innovative ideas.
 
 [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..."
 
