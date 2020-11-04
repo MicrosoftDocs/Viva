@@ -17,6 +17,8 @@ To solve a problem or make a decision, it helps to keep the meeting audience sma
 
 [How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that "helping your team manage its time well is a critical factor for its success."
 
+[How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains: "By giving yourself one meeting-free day per week, you reduce the context switching that can slow down dedicated project work."
+
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective:
 
 * "If you want people to have the opportunity to contribute, you need to limit attendance."
@@ -79,6 +81,6 @@ Agendas should clearly state meeting goals and the purpose of each participant's
 * Set standards for when an employee can decline a meeting. Provide a meeting decline template with policy explanations that employees can use to decline meetings based on your team’s meeting rules. For example, "the meeting has no agenda" or "someone from my team is already attending the meeting."
 * Create and share your team’s list of meeting rules along with an empowering message that allows employees to say yes or no to meeting invitations they deem valuable or not to attend.
 
-## Related topics
+## Related topic
 
 [Workplace Analytics best practices](gm-best-practices.md)
