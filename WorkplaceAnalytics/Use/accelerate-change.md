@@ -23,19 +23,15 @@ The Engage influencers section shows how your organization compares with others 
 
 ## Percentage insight
 
-The following is the percentage insight and its underlying metric and calculation information.
+The percentage metric for **Engage influencers** is **Percentage of employees who can drive change within your workforce** that uses the [Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
 ![Accelerate change percentage insight](../images/wpa/use/accelerate-change-percent.png)
 
-* **Engage influencers** - **Percentage of employees who can drive change within your workforce** that uses the [Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
-
 ## Visual insight
 
-The following defines the organizational data shown in the visual behavioral insight.
+The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
 ![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
-
-* **Engage influencers** - **Reach of influencers** is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. This shows people who power the unobservable communication networks that you can target to effectively drive change.
 
 ## Take action
 
