@@ -75,10 +75,11 @@ Agile organizations are transparent and freely share information to avoid miscom
 
 According to [Five ways to empower your team to make decisions](https://insights.office.com/management-strategy/five-ways-to-empower-your-team-to-make-decisions/): “Employee empowerment is directly tied to results. A study by Zenger Folkman found 4 percent of employees are willing to put in more effort when empowerment is low, while 67 percent are willing to go above and beyond when empowerment is high.”
 
-Ways to accelerate decision-making:
+Ways to empower decision-making:
 
-* Provide wide access to Teams meeting recordings and notes in public channels whenever possible to increase the rate of information sharing.  Also, provide wide access to meeting notes using Teams and OneNote.
-* Use Teams channels to share information as it emerges both formally through notes and files and informally through chats.
+* Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
+* Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
+* Use [MyAnalytics insights](../myanalytics/use/use-the-insights.md) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
 

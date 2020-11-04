@@ -26,8 +26,8 @@ The [Accelerate! How innovative companies can use a strategy network to capitali
 
 ## Best practices
 
-* Use MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask influencer groups to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 * Operate on a “dual operating system” — a management-driven hierarchy working with a strategy network.  
 * Recruit volunteers interested in being a part of the organization’s strategy network. Ten percent of the managerial and employee population is enough.  
 * A strategy network needs leadership, which focuses on vision, opportunity, agility, inspired action, and celebration.
