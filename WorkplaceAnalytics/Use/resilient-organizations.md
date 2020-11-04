@@ -31,10 +31,10 @@ The following are the percentage insights, their underlying metrics, and some de
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) |The percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
-|Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week.  |
+|Protect employee wellbeing |Percentage of employees who are working after hours for more than one hour each week |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) |Percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
+|Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |Percentage of employees who spend less than 15 minutes of weekly 1:1 time with their managers. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](metric-definitions.md#collaboration-hours-define) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
-|Accelerate decision-making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |[Conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define) |The percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks. |
+|Accelerate decision-making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |[Conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define) |Percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks. |
 
 ## Visual insights
 
@@ -44,8 +44,8 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Protect employee wellbeing | Distribution of after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
-|Practice empathy | Distribution of 1:1 time with managers each month  |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+|Protect employee wellbeing | Distribution of weekly after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
+|Practice empathy | Distribution of montly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
 |Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
 |Accelerate decision-making| Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
 
@@ -103,12 +103,13 @@ For more best practices and ways to establish better manager-team connections, s
 
 Resilient organizations respond to changing demands and new opportunities by nimbly adapting and refocusing employees' time to align with new priorities.
 
-The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-control-meetings-waste-time-undermine-work/) article explains what 182 senior managers in a range of industries said about meetings when surveyed, including "65 percent said meetings keep them from completing their own work" and "71 percent said meetings are unproductive and inefficient."
+As explained in [How to finally kill the useless, recurring meeting](https://hbr.org/2015/03/how-to-finally-kill-the-useless-recurring-meeting), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done."
 
-Ways to free up capacity:
+Ways to reduce meeting time:
 
-* Channels in Microsoft Teams provide team members with a new way to get questions answered and provide updates without the need for a meeting.
-* Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to plan more carefully.
+* Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
+* Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
@@ -120,12 +121,12 @@ According to [Five ways to empower your team to make decisions](https://insights
 
 Ways to empower decision-making:
 
-* Provide wide access to Teams meeting recordings and OneNote notes in public channels whenever possible to increase the rate of information sharing. Also, provide wide access to meeting notes using Teams and OneNote.
-* Use Team channels to share information as it emerges both formally through notes and files and informally through chats.
-* MyAnalytics insights helps improve calendar management by increasing awareness of conflicting meetings and suggesting meetings to stay informed of decisions.
+* Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
+* Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
+* Use [MyAnalytics insights](../myanalytics/use/use-the-insights.md) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
 * Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
 
-For more best practices and ways to remove obstacles, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
+For more best practices and ways to remove obstacles, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
 ## Related topics
 

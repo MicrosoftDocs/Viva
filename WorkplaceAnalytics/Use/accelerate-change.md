@@ -53,8 +53,8 @@ The [Measuring your employees’ invisible forms of influence](https://insights.
 
 Ways to leverage influencers:
 
-* Use MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 

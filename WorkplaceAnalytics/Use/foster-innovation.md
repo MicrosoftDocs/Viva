@@ -65,23 +65,27 @@ For more best practices and how to create goals across teams or departments, see
 -->
 ## Enable deep work
 
-Time without meetings, emails and chats provides employees with the opportunity to complete challenging work, think creatively and generate innovative ideas. [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..."
+Time without meetings, emails and chats provides employees with the opportunity to complete challenging work, think creatively and generate innovative ideas.
 
-Ways to enable focus time:
+[How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..."
 
-* Create a new team norm to not send chats to team members who have scheduled focus time and use the focus status signal in Microsoft Teams.
-* Ask your team to use the [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
+Ways to support focus time:
+
+* Follow a team norm to not send chats to team members who have scheduled focus time or have the focusing status showing in Microsoft Teams.
+* Use a [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
 
 For more best practices and ways to establish a 'no meeting' period, see [Best practices for focus time](../tutorials/gm-focus.md).
 
 ## Utilize influencers
 
-Influencers are people within an organization who are well connected and can drive innovation by efficiently sharing information with others. The [Accelerate! How innovative companies can use a strategy network to capitalize on challenges](https://insights.office.com/management-strategy/strategy-network-how-innovative-companies-capitalize/) article says to "move faster and further, you need to pull more people than ever before into the strategic change game, but in a way that is economically realistic."
+Influencers are people within an organization who are well connected and can drive innovation by efficiently sharing information with others.
+
+The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this."
 
 Ways to leverage influencers:
 
-* Use MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 

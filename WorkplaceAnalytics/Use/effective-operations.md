@@ -54,7 +54,7 @@ You can select **Take action** to see ways you can maximize operational effectiv
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to maximize operational effectiveness
+## Best practices to enhance operational effectiveness
 
 ### Free up capacity
 
@@ -62,10 +62,10 @@ Reducing the amount of time wasted on low-quality collaboration is a way to crea
 
 As explained in [How to finally kill the useless, recurring meeting](https://hbr.org/2015/03/how-to-finally-kill-the-useless-recurring-meeting), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done."
 
-Ways to help free up capacity:
+Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
-* Provide managers with access to after-hours activity and the ability to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to schedule shorter meetings, see [Best practices for meetings](../tutorials/gm-meetings.md).
