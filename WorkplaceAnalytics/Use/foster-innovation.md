@@ -67,9 +67,7 @@ For more best practices and how to create goals across teams or departments, see
 
 Time without meetings, emails and chats provides employees with the opportunity to complete challenging work, think creatively and generate innovative ideas.
 
-[How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..."
-
-Ways to support focus time:
+[How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..." Ways to support focus time:
 
 * Follow a team norm to not send chats to team members who have scheduled focus time or have the focusing status showing in Microsoft Teams.
 * Use a [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
@@ -80,9 +78,7 @@ For more best practices and ways to establish a 'no meeting' period, see [Best p
 
 Influencers are people within an organization who are well connected and can drive innovation by efficiently sharing information with others.
 
-The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this."
-
-Ways to leverage influencers:
+The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
 * Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
