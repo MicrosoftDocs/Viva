@@ -11,6 +11,8 @@ ms.prod: wpa
 
 # Enhance operational effectiveness
 
+*This experience is only available through private preview at this time.*
+
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
 
 * [Free up capacity](#free-up-capacity)

@@ -11,6 +11,8 @@ ms.prod: wpa
 
 # Organizational network metrics
 
+*This experience is only available through private preview at this time.*
+
 The organizational network graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
 
 The following is an example of an Employee empowerment network graph.
