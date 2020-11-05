@@ -11,7 +11,9 @@ ms.prod: wpa
 
 # Best practices for community connectivity
 
-Teams provides a shared work environment that strengthens connectivity and boosts productivity. Monitoring team cohesion post technology adoption is an indication of tool effectiveness.
+Microsoft Teams provides a shared work environment that strengthens connectivity and boosts productivity. By utilizing asynchronous technology, people can post, share, and collaborate across time zones and projects. 
+
+When fully utilized, platforms, such as Teams can encourage organic communities to grow, both those for work (Project xyz) and those outside of work (Working moms, cooks, Local sports fans, and so on).
 
 ## Why it matters
 
@@ -45,6 +47,6 @@ Provide your employees with virtual opportunities to bond over non-work activiti
 
 When introducing a new tool, help team members get comfortable and adopt quickly with pre-built materials and resources. For example, [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page).
 
-## Related topics
+## Related topic
 
 [Workplace Analytics best practices](gm-best-practices.md)

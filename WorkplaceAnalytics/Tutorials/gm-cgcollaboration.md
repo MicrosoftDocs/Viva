@@ -11,13 +11,18 @@ ms.prod: wpa
 
 # Best practices for cross-group collaboration
 
-Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
-
-Employees that collaborate across silos are more aware of other perspectives and are better able to share ideas to foster innovation and inclusion.
+Collaboration across groups improves business performance by helping companies experience the benefits of scale, uncover new ideas, and improve engagement. Employees who break down silos through collaboration are better able to foster innovation and inclusion.
 
 ## Why it matters
 
- The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explains how important cross-group collaboration is for getting work done:
+In [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/), multiple benefits of cross-group collaboration are identified and methods to create these opportunities are explored, such as:
+
+* Develop cultural brokers who, “promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive.”
+* “Encourage people to ask the right questions” specifically around what groups should be involved in a project."
+* “Get people to see the world through others’ eyes”, or in other words encourage workers to think about their colleagues wants and incentives.”
+* “Bring employees from diverse groups together on initiatives. As a rule, cross-functional teams give people across silos a chance to identify various kinds of expertise within their organization.”
+
+The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explains how important cross-group collaboration is for getting work done:
 
 * “Work occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
 * "Intuitively, we know that the collaborative intensity of work has skyrocketed, and that collaborations are central to agility."
@@ -25,24 +30,15 @@ Employees that collaborate across silos are more aware of other perspectives and
 
 ## Best practices
 
-* Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
 * Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
-* Use [MyAnalytics to manage important people](../myanalytics/use/network.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
+* Use [MyAnalytics](../myanalytics/use/network.md) to select key internal contacts as important, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
 * Motivate team members to reach across silos. Break down silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
-* Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.  
+* Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover potential interruptions to connectivity.  
 * Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.  
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.  
-* Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people whom the formal performance reviews might otherwise overlook.
+* Add a cross-group collaboration component to employee performance reviews to incentive and reward broader collaboration.
 
 ## Change strategies
-
-#### Cocreate lists of go-to contacts and distribute them to highly networked individuals
-
-Survey the group to collect and create a list of contacts that would be a good starting place for your team to contact when trying to establish a new connection. This can empower you and your team with the right contacts in order to solve any problems that might arise. Ways to do this:
-
-* Send out a company-wide email where people can volunteer to be a connector within their team.
-* Combine all of these connectors into a list and share it.
-* Communicate with all that you now have a list of go-to contacts.
 
 #### Create goals across teams or departments
 
@@ -55,7 +51,7 @@ You can coordinate and assign liaison roles to communicate across teams and with
 
 #### Create cross-team communities
 
-Create a space for people with similar interests to share ideas, knowledge, and resources.
+Use Microsoft Teams to create a space for people with similar interests to share ideas, knowledge, and resources. For more tips, see [Microsoft Teams video training for team collaboration](https://support.microsoft.com/office/overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46).
 
 #### Enable MyAnalytics network insights
 
