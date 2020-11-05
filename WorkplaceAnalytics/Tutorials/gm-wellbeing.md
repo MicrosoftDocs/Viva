@@ -29,13 +29,13 @@ Based on research presented in the [Why unplugging from work is more work than w
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Block time at the beginning and end of your day to simulate "commute time" to wrap days up and down.
 * Take breaks during the day for meditation or brisk walks outside.
-* Schedule meetings for 25 or 50 minutes instead of 30 or 60 minutes for transition time between meetings.
+* Schedule meetings for 25 or 50 minutes instead of 30 or 60 minutes to allow for transition time between meetings.
 
 ## Change strategies
 
 ### Start a wellbeing plan
 
-Enroll your team in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive a weekly digest, in-line suggestions, and actionable insights.
+Enroll your team in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive a weekly digest, inline suggestions, and actionable insights.
 
 #### Define and share working hours
 
