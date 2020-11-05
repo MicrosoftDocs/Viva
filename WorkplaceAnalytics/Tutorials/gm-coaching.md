@@ -43,7 +43,7 @@ According to [How to make your one-on-ones with employees more productive](https
 
 #### Reduce coattended meetings
 
-Meetings where an employee and their manager are both attending can signify  a lack of delegation. These meetings are a good starting point to deciding  what decisions can be delegated to reduce coattendance. Use the following as a reference to get started:
+Meetings where an employee and their manager are both attending can signify  a lack of delegation. These meetings are a good starting point to deciding  what decisions can be delegated to reduce coattendance. For example, to get started:
 
 * Identify meetings that are attended by a manager and an employee that reports directly to that manager to uncover decision-making themes.
 * Define decision-making rights and have managers commit to declining meetings where their attendance is unnecessary.
@@ -60,17 +60,14 @@ Use the following meeting agenda outline as a guide for creating a series of 1:1
 * Meeting 5: Ask how your employee wants to grow in the future.
 * Meeting 6: Create space for your employee to share candid feedback and set short-term growth goals.
 
-#### Identify and utilize team influencers
+#### Identify and utilize influencer teams
 
-Seek out influencers on your team and leverage their network and impact to share ideas, knowledge, and habits.Ways to do this:
+Utilize Workplace Analytics to identify influencer groups or teams and leverage their network to share ideas, knowledge, and habits. The following are some ways to do so:
 
-* Look for influencers, or employees who are highly networked.
-* Create a small group of influencers to brainstorm what they consider to be the best practices for networking at your company.
-* Identify projects that highlight the influencers and projects with opportunities for others to join. 
-* Communicate the role of influencers and the chosen projects to your whole team.
+* Leverage influencer groups to quickly disseminate information across the organization.
+* Identify projects that highlight the importance of influencers and use them as examples of how influencers can be used to quickly connect disparate teams.
 * Ask the influencers to share a similar message and to encourage their colleagues to connect with someone new.
-* Continue the excitement and momentum with regular communications about successful outcomes.
 
-## Related topics
+## Related topic
 
 [Workplace Analytics best practices](gm-best-practices.md)
