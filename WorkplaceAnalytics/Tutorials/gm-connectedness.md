@@ -28,7 +28,7 @@ According to [Horizontal collaboration and cross-silo leadership](https://insigh
 ## Best practices
 
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
-* Use [Insights](/myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to email, and complete tasks for these contacts. And urge your team to do the same.
+* Use [Insights](/myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to email, and complete tasks for these contacts.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Get people to see things through others’ eyes by organizing carefully structured, face-to-face, cross-silo dialogues.
 * Create inclusive and trusting environments to facilitate agile collaboration. A culture of fear exists when employees do not feel safe to come forward with ideas, and those on the fringe may be less conﬁdent about contributing.
