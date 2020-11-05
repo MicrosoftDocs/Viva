@@ -47,9 +47,9 @@ Select a day, cadence, or time period that your team can block to focus on work,
 
 Reassess the need quarterly for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
 
-#### Try out a MyAnalytics focus plan
+#### Try out a MyAnalytics Focus plan
 
-Encourage employees to use [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to automatically block focus time on their calendars to ensure that they have enough time to get work done.
+Use a [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to automatically block focus time on your calendar to ensure that you have enough time to get work done.
 
 ## Related topic
 
