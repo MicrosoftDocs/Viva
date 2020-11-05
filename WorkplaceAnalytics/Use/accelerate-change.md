@@ -11,6 +11,8 @@ ms.prod: wpa
 
 # Accelerate change
 
+*This experience is only available through private preview at this time.*
+
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
 The Engage influencers section shows how your organization compares with others based on industry research and your specific organizational data.

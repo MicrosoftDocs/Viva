@@ -11,6 +11,8 @@ ms.prod: wpa
 
 # Transform meeting culture
 
+*This experience is only available through private preview at this time.*
+
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
