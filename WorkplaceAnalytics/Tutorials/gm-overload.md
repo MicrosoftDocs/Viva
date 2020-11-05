@@ -17,11 +17,10 @@ Better email practices can reduce stress, improve communication, boost productiv
 
 ## Why it matters
 
-[How to spend way less time on email every day](https://insights.office.com/time-management/how-to-spend-way-less-time-on-email-every-day/) explains how: 
+[How to spend way less time on email every day](https://insights.office.com/time-management/how-to-spend-way-less-time-on-email-every-day/) explains how:
 
 * "The average professional spends 28 percent of the work day reading and answering email, according to a McKinsey analysis."
 * "On average, professionals check their email 15 times per day, or every 37 minutes."
-*   
 
 ## Best practices
 

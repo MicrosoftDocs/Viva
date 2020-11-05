@@ -15,11 +15,11 @@ It is common knowledge that spending time with customers helps you better antici
 
 ## Why it matters
 
+The following are from [The loyalty economy: Are you undervaluing your customers?](https://insights.office.com/business-performance/the-loyalty-economy-are-you-undervaluing-customers/), [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/), and [What makes great salespeople](https://insights.office.com/management-strategy/what-makes-great-salespeople/):
+
 * "...companies at the top of their industries in net promoter scores or satisfaction rankings for three or more years—grow revenues roughly 2.5 times as fast as their industry peers. Yet companies and investors continue to prioritize quarterly earnings over customer relationships..."
 * "Given the importance of customer value, leaders should track it as rigorously as they track other key assets, such as inventory."
 * “More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.”
-
-These are based on research presented in [The loyalty economy: Are you undervaluing your customers?](https://insights.office.com/business-performance/the-loyalty-economy-are-you-undervaluing-customers/), [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/), and [What makes great salespeople](https://insights.office.com/management-strategy/what-makes-great-salespeople/).
 
 ## Best practices
 
