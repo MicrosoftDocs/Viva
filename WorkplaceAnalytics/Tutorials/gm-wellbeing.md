@@ -27,9 +27,9 @@ Based on research presented in the [Why unplugging from work is more work than w
 * Utilize [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
-* Remind employees that the organization's success is based on a marathon, not a sprint.  
-* Encourage team to take turns taking time off. This reinforces trust, collaboration, efficiency which can lead to better work satisfaction.
-* Practice setting and keeping boundaries. Boundaries can result in better overall team outcomes.
+* Block time at the beginning and end of your day to simulate "commute time" to wrap days up and down.
+* Take breaks during the day for meditation or brisk walks outside.
+* Schedule meetings for 25 or 50 minutes instead of 30 or 60 minutes for transition time between meetings.
 
 ## Change strategies
 
@@ -48,17 +48,17 @@ Redmond, Washington
 My working hours are 9:00 AM to 6:00 PM PT
 ```
 
-#### Delay emails after hours
+#### Delay delivery of after-hours email
 
 Utilize [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to delay email delivery to your team when you send emails after hours or over the weekend.
 
-#### Create norm of scheduling "slack-time"
+#### Create norm of scheduling focus time
 
-People often feel overloaded because tasks take more time than expected. "Slack-time" is a block of time without meetings to get work done or decompress at the end of the day. Ways to support it:
+People often feel overloaded because tasks take more time than expected. Focus time is a block of time without meetings to get work done or decompress at the end of the day. Ways to support it:
 
-* Send out communication regarding the importance of slack- or focus-time.
-* Encourage people to block their calendars and actually decline meetings or ignore email sent during that time.
-* Share anecdotes around when people have successes by utilizing their slack-time.
+* Send team communications about the importance of focus time.
+* Use a [MyAnalytics Focus plan](../myanalytics/use/focus-plan.md) to schedule focus time in your calendar, and then decline meetings and ignore email during that time.
+* Share anecdotes around when people have successes by utilizing their focus time.
 
 ## Related topics
 
