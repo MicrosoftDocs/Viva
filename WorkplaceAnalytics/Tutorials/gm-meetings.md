@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Best practices for meetings
 
-To solve a problem or make a decision, it helps to keep the meeting audience small and the duration short. Research shows that smaller and shorter meetings enable attendees to communicate faster, come to decisions more quickly, and focus on getting the work done.
+Meetings are critical for businesses to succeed and many people spend most of their time in them. However, at the same time many people say the meetings they attend are ineffective and a waste of their time. Creating effective meetings through the use of agendas, meetings roles, and many other tactics can ensure that something that is done so frequently can also bring value with it.
 
 ## Why it matters
 
@@ -45,15 +45,15 @@ According to [If you multitask during meetings, your team will, too](https://ins
 * Invite fewer people. When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
 * Enable [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
-* Regularly and openly check in with employees. Frustration, resentment, and even hopelessness are signals that people are falling back into less productive patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
-* Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
+* Regularly and openly check in with employees to discuss challenges and help your team correct its course. Changing behaviors takes time and is often difficult to do. Don't forget to celebrate wins, even small ones.
 * [Share 6 tips for handling scheduling conflicts](https://www.microsoft.com/microsoft-365/business-insights-ideas/resources/6-tips-handling-scheduling-conflicts).
-* Require meeting agendas, with clear meeting objectives.  
-* Keep meetings short, but don’t rush through important conversations either.
+* Require meeting agendas with clear objectives. Frame agenda topics as questions to focus and prime discussions, and break the agenda into 15-minute segments to hold attention.
+* When preparing the meeting agenda, include the role of each invitee. The exercise helps minimize the number of attendees by revealing unnecessary invitees, including people who are optional or only require meeting notes.
+* Shorter meetings are often as or more productive than longer meetings. Keep meetings as short as possible, but don’t rush through important conversations either.
 * Discourage the use of devices in meetings. It's distracting for those who use the devices and those who participate in the meetings.
 * Try holding stand-up meetings. Studies show they are about 34 percent shorter than sit-down meetings yet produce the same solutions.
 * Encourage participation in meetings. It's beneficial for creating more effective meetings and giving participants a way to be heard and considered.
-* Avoid holding a meeting just to update people. Decide if an email announcement is enough.
+* Avoid holding a meeting just to update people. Decide if an email or a Teams announcement is enough.
 
 ## Change strategies
 
