@@ -59,9 +59,7 @@ You can select **Take action** to see ways you can drive change or simply mainta
 
 Collaboration with customers and other external contacts enables employees to gain the customer and market knowledge needed for business success. Spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.
 
-According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.”
-
-Ways to support customer focus:
+According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.” Ways to support customer focus:
 
 * Use [MyAnalytics Important people list](../myanalytics/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
 * Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
@@ -70,9 +68,7 @@ For best practices and how to track time with your most important external conta
 
 ### Promote coaching and development
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to [How to make your one-on-ones with employees more productive](https://insights.office.com/management-strategy/how-to-make-your-one-on-ones-with-employees-more-productive/): "One-on-ones are one of the most important productivity tools you have as a manager."
-
-Ways to keep employees engaged:
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to [How to make your one-on-ones with employees more productive](https://insights.office.com/management-strategy/how-to-make-your-one-on-ones-with-employees-more-productive/): "One-on-ones are one of the most important productivity tools you have as a manager." Ways to keep employees engaged:
 
 * Use [Insights](../myanalytics/use/use-the-insights.md#catch-up-with-your-team) to schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.

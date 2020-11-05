@@ -34,7 +34,7 @@ According to [How to make your one-on-ones with employees more productive](https
 * Prepare and remain flexible on discussion points in 1:1s. 1:1s are best with structure but not too much to allow for co-creation. Agree on discussion points at the start and allocate adequate time to the most important topics.
 * Lead by example. People are more engaged if they work for a manager who is working at least as much as they are.
 * Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
-* Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection, an employee must interact with another person at least two times per month in an email or meeting with five or fewer participants.)
+* Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection in Workplace Analytics, an employee must interact with another person at least two times per month in an email or meeting with five or fewer participants.)
 * Empower employees with ownership of work streams so decisions can be made at the level where immediate action can be taken.
 * Enable and use [Insights](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
 * Promptly decline meetings as soon as possible with a brief explanation of why to reinforce decision-making roles and to role model healthy habits.
@@ -43,11 +43,11 @@ According to [How to make your one-on-ones with employees more productive](https
 
 #### Reduce coattended meetings
 
-Meetings where an employee and their manager are both attending can signify  a lack of delegation. These meetings are a good starting point to deciding  what decisions can be delegated to reduce coattendance. Use the following as a reference to get started:
+Meetings where an employee and their manager are both attending can signify  a lack of delegation. These meetings are a good starting point to deciding  what decisions can be delegated to reduce coattendance. For example, to get started:
 
-* Identify meetings that are attended by a manager and an employee that reports directly to that manager.
-* Request that when possible the manager delegates the decision rights for that work stream to the employee who is also attending.
-* Recap these delegated decisions during recurring 1:1s where further coaching can be practiced.
+* Identify meetings that are attended by a manager and an employee that reports directly to that manager to uncover decision-making themes.
+* Define decision-making rights and have managers commit to declining meetings where their attendance is unnecessary.
+* Recap delegated decisions during recurring one-on-ones to ensure alignment and report progress.
 
 #### Develop a 1:1 conversation series
 
@@ -60,17 +60,14 @@ Use the following meeting agenda outline as a guide for creating a series of 1:1
 * Meeting 5: Ask how your employee wants to grow in the future.
 * Meeting 6: Create space for your employee to share candid feedback and set short-term growth goals.
 
-#### Identify and utilize team influencers
+#### Identify and utilize influencer teams
 
-Seek out influencers on your team and leverage their network and impact to share ideas, knowledge, and habits.Ways to do this:
+Utilize Workplace Analytics to identify influencer groups or teams and leverage their network to share ideas, knowledge, and habits. The following are some ways to do so:
 
-* Look for influencers, or employees who are highly networked.
-* Create a small group of influencers to brainstorm what they consider to be the best practices for networking at your company.
-* Identify projects that highlight the influencers and projects with opportunities for others to join. 
-* Communicate the role of influencers and the chosen projects to your whole team.
+* Leverage influencer groups to quickly disseminate information across the organization.
+* Identify projects that highlight the importance of influencers and use them as examples of how influencers can be used to quickly connect disparate teams.
 * Ask the influencers to share a similar message and to encourage their colleagues to connect with someone new.
-* Continue the excitement and momentum with regular communications about successful outcomes.
 
-## Related topics
+## Related topic
 
 [Workplace Analytics best practices](gm-best-practices.md)
