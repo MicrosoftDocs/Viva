@@ -2,6 +2,58 @@
 
 
 
+## Week of November 02, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/3/2020 | [Best practices for meetings](/Workplace-Analytics/tutorials/gm-meetings) | modified |
+| 11/3/2020 | [Best practices for wellbeing](/Workplace-Analytics/tutorials/gm-wellbeing) | modified |
+| 11/3/2020 | [Workplace Analytics Glossary](/Workplace-Analytics/use/glossary) | modified |
+| 11/3/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
+| 11/3/2020 | [Accelerate change with Workplace Analytics](/Workplace-Analytics/use/accelerate-change) | modified |
+| 11/3/2020 | [Boost employee engagement with Workplace Analytics](/Workplace-Analytics/use/boost-engagement) | modified |
+| 11/3/2020 | [Increase customer focus with Workplace Analytics](/Workplace-Analytics/use/customer-focus) | modified |
+| 11/3/2020 | [Develop effective managers with Workplace Analytics](/Workplace-Analytics/use/develop-managers) | modified |
+| 11/3/2020 | [Enhance operational effectiveness with Workplace Analytics](/Workplace-Analytics/use/effective-operations) | modified |
+| 11/3/2020 | [Error states in Workplace Analytics](/Workplace-Analytics/use/error-states) | modified |
+| 11/3/2020 | [Foster innovation](/Workplace-Analytics/use/foster-innovation) | modified |
+| 11/3/2020 | [Improve agility with Workplace Analytics](/Workplace-Analytics/use/improve-agility) | modified |
+| 11/3/2020 | [Organizational network metrics for Workplace Analytics visual insights](/Workplace-Analytics/use/insight-ona-measures) | modified |
+| 11/3/2020 | [Workplace Analytics insights](/Workplace-Analytics/use/insights) | modified |
+| 11/3/2020 | [Enhance organizational resiliency with Workplace Analytics](/Workplace-Analytics/use/resilient-organizations) | modified |
+| 11/3/2020 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
+| 11/3/2020 | [Best practices for influencers](/Workplace-Analytics/tutorials/gm-influencer) | modified |
+| 11/4/2020 | [Accelerate change with Workplace Analytics](/Workplace-Analytics/use/accelerate-change) | modified |
+| 11/4/2020 | [Increase customer focus with Workplace Analytics](/Workplace-Analytics/use/customer-focus) | modified |
+| 11/4/2020 | [Enhance operational effectiveness with Workplace Analytics](/Workplace-Analytics/use/effective-operations) | modified |
+| 11/4/2020 | [Improve agility with Workplace Analytics](/Workplace-Analytics/use/improve-agility) | modified |
+| 11/4/2020 | [Enhance organizational resiliency with Workplace Analytics](/Workplace-Analytics/use/resilient-organizations) | modified |
+| 11/4/2020 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
+| 11/5/2020 | [Best practices for cross-group collaboration](/Workplace-Analytics/tutorials/gm-cgcollaboration) | modified |
+| 11/5/2020 | [Best practices for manager coaching](/Workplace-Analytics/tutorials/gm-coaching) | modified |
+| 11/5/2020 | [Best practices for connectedness](/Workplace-Analytics/tutorials/gm-connectedness) | modified |
+| 11/5/2020 | [Best practices for community connectivity](/Workplace-Analytics/tutorials/gm-connectivity) | modified |
+| 11/5/2020 | [Best practices for collaborating with customers](/Workplace-Analytics/tutorials/gm-cust-collab) | modified |
+| 11/5/2020 | [Best practices for focus time](/Workplace-Analytics/tutorials/gm-focus) | modified |
+| 11/5/2020 | [Best practices for influencers](/Workplace-Analytics/tutorials/gm-influencer) | modified |
+| 11/5/2020 | [Best practices for meetings](/Workplace-Analytics/tutorials/gm-meetings) | modified |
+| 11/5/2020 | [Best practices for avoiding email overload](/Workplace-Analytics/tutorials/gm-overload) | modified |
+| 11/5/2020 | [Best practices for wellbeing](/Workplace-Analytics/tutorials/gm-wellbeing) | modified |
+| 11/5/2020 | [Accelerate change with Workplace Analytics](/Workplace-Analytics/use/accelerate-change) | modified |
+| 11/5/2020 | [Boost employee engagement with Workplace Analytics](/Workplace-Analytics/use/boost-engagement) | modified |
+| 11/5/2020 | [Increase customer focus with Workplace Analytics](/Workplace-Analytics/use/customer-focus) | modified |
+| 11/5/2020 | [Develop effective managers with Workplace Analytics](/Workplace-Analytics/use/develop-managers) | modified |
+| 11/5/2020 | [Enhance operational effectiveness with Workplace Analytics](/Workplace-Analytics/use/effective-operations) | modified |
+| 11/5/2020 | [Foster innovation](/Workplace-Analytics/use/foster-innovation) | modified |
+| 11/5/2020 | [Improve agility with Workplace Analytics](/Workplace-Analytics/use/improve-agility) | modified |
+| 11/5/2020 | [Enhance organizational resiliency with Workplace Analytics](/Workplace-Analytics/use/resilient-organizations) | modified |
+| 11/5/2020 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
+| 11/5/2020 | [Best practices for manager connectedness](/Workplace-Analytics/manager-insights/connectedness) | modified |
+| 11/5/2020 | [Organizational network metrics for Workplace Analytics visual insights](/Workplace-Analytics/use/insight-ona-measures) | modified |
+| 11/5/2020 | [Workplace Analytics insights](/Workplace-Analytics/use/insights) | modified |
+
+
 ## Week of October 26, 2020
 
 
@@ -162,36 +214,3 @@
 | 10/9/2020 | [Workplace Analytics Power BI templates introduction](/Workplace-Analytics/tutorials/power-bi-intro) | modified |
 | 10/9/2020 | [Power BI Microsoft Teams dashboard](/Workplace-Analytics/tutorials/power-bi-teams) | modified |
 | 10/9/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
-
-
-## Week of September 28, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/28/2020 | [MyAnalytics privacy guide](/Workplace-Analytics/myanalytics/overview/privacy-guide) | modified |
-| 9/28/2020 | [Leadership insights dashboard](/Workplace-Analytics/myanalytics/use/leadership) | modified |
-| 9/28/2020 | [Use Insights](/Workplace-Analytics/myanalytics/use/use-the-insights) | modified |
-| 9/28/2020 | [Configure settings for Workplace Analytics](/Workplace-Analytics/use/settings) | modified |
-| 9/29/2020 | [MyAnalytics plans and environments](/Workplace-Analytics/myanalytics/overview/plans-environments) | modified |
-| 9/29/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
-| 9/29/2020 | [Workplace Analytics plan walkthrough](/Workplace-Analytics/tutorials/solutionsv2-task) | modified |
-| 9/29/2020 | [View, download, and export Workplace Analytics query results](/Workplace-Analytics/use/view-download-and-export-query-results) | modified |
-| 9/30/2020 | [MyAnalytics plans and environments](/Workplace-Analytics/myanalytics/overview/plans-environments) | modified |
-| 9/30/2020 | [Workplace Analytics language support and guidelines](/Workplace-Analytics/overview/supported-languages) | modified |
-| 9/30/2020 | [Meeting exclusion rules concepts](/Workplace-Analytics/tutorials/meeting-exclusion-concept) | modified |
-| 9/30/2020 | [Meeting exclusion rules in Workplace Analytics -- walkthroughs](/Workplace-Analytics/tutorials/meeting-exclusion-rules) | modified |
-| 9/30/2020 | [Meeting exclusion rules in Workplace Analytics -- Introduction](/Workplace-Analytics/tutorials/meeting-exclusions-intro) | modified |
-| 9/30/2020 | [Understand meeting exclusions in Workplace Analytics](/Workplace-Analytics/use/understand-meeting-exclusions) | modified |
-| 10/1/2020 | [Power BI template tips, troubleshooting, and FAQs](/Workplace-Analytics/tutorials/power-bi-templates) | modified |
-| 10/1/2020 | [Workplace Analytics best practices](/Workplace-Analytics/tutorials/gm-best-practices) | modified |
-| 10/1/2020 | [Sales business continuity dashboard](/Workplace-Analytics/tutorials/pbi-bc-sales) | modified |
-| 10/1/2020 | [Influence insights dashboard](/Workplace-Analytics/tutorials/pbi-influence-db) | modified |
-| 10/1/2020 | [Business continuity dashboard](/Workplace-Analytics/tutorials/power-bi-bc) | modified |
-| 10/1/2020 | [Collaboration assessment dashboard](/Workplace-Analytics/tutorials/power-bi-collab-assess) | modified |
-| 10/1/2020 | [Power BI Collaboration tracker](/Workplace-Analytics/tutorials/power-bi-collab-track) | modified |
-| 10/1/2020 | [Return to worksites dashboard](/Workplace-Analytics/tutorials/power-bi-return-tw) | modified |
-| 10/1/2020 | [Power BI Teams dashboard](/Workplace-Analytics/tutorials/power-bi-teams) | modified |
-| 10/1/2020 | [Workplace Analytics playbooks](/Workplace-Analytics/use/playbooks) | modified |
-| 10/1/2020 | [Workplace Analytics introduction](/Workplace-Analytics/index-orig) | modified |
-| 10/2/2020 | [Opt out of MyAnalytics](/Workplace-Analytics/myanalytics/use/opt-out-of-mya) | modified |
