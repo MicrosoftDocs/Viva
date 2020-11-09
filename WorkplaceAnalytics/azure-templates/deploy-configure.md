@@ -243,7 +243,7 @@ As an admin, you can audit user activity in **Admin** > **Logs**. Select the **i
 
 ### Azure Templates support
 
-The following types of support for Workplace Analytics Azure Templates are only available as part of a Microsoft service engagement.
+For help with Workplace Analytics Azure Templates, email your questions or feedback to [wpaazuretemplates@microsoft.com](wpaazuretemplates@microsoft.com). The following types of template support are only available as part of a Microsoft service engagement.
 
 * **Scenario deployment support** – Based on the agreed upon access to your environment for this service engagement, you or your Azure admin can get help deploying Azure components, executing scripts, registering apps, and other related deployment tasks.
 * **Scenario reliability** - Get help ensuring specific Azure Template scenarios are deployed and processing data correctly.
