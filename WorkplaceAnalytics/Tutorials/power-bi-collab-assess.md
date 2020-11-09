@@ -198,9 +198,7 @@ The dashboard also includes a **Glossary** page that describes all the report me
 
 ### Training opportunity
 
-Use this training module to learn how to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data: 
-
-[Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard](https://aka.ms/wpa-collab)
+Learn how to use this Power BI template to evaluate collaboration culture and employee experience: [Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard](https://aka.ms/wpa-collab)
 
 ## Power BI tips, FAQs, and troubleshooting
 
