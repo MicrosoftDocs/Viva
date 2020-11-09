@@ -120,6 +120,12 @@ After confirming the settings, check the number of measured employees to confirm
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
+### Training opportunity
+
+Use this training module to learn how to <!-- ADD THIS WHEN THE RIGHT LINK IS AVAILABLE  set up and interpret the results from the Power BI Business continuity dashboard: [Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics](https://aka.ms/wpa-bcd) -->
+
 ## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
+
+

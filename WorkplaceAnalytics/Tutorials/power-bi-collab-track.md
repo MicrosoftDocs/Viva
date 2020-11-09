@@ -128,6 +128,10 @@ The Ways of working tracker dashboard includes the following reports for trackin
 
 The dashboard also includes an **Example interventions** page that has ideas on how to drive positive change with best practices based on industry insights and research. The **Glossary** page describes the metrics used in the different reports.
 
+### Training opportunity
+
+Use this training module to learn how to <!-- ADD THIS WHEN THE RIGHT LINK IS AVAILABLE  set up and interpret the results from the Power BI Business continuity dashboard: [Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics](https://aka.ms/wpa-bcd) -->
+
 ## Power BI tips, troubleshooting, and FAQs
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
@@ -135,3 +139,5 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 ## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
+
+
