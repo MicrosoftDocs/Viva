@@ -130,7 +130,15 @@ The dashboard also includes an **Example interventions** page that has ideas on 
 
 ### Training opportunity
 
-Use this training module to learn how to <!-- ADD THIS WHEN THE RIGHT LINK IS AVAILABLE  set up and interpret the results from the Power BI Business continuity dashboard: [Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics](https://aka.ms/wpa-bcd) -->
+Use this training module: 
+
+[Drive organizational change with Microsoft Workplace Analytics and MyAnalytics](https://aka.ms/wpa-bcd) 
+
+... to learn how to do the following: 
+ * define Microsoft 365 tools that drive behavior change
+ * identify common practices you can use to improve workplace scenarios
+ * design custom tactics to drive change.
+ * identify methods to measure behavior change
 
 ## Power BI tips, troubleshooting, and FAQs
 
