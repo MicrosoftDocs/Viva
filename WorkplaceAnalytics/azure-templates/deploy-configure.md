@@ -245,9 +245,9 @@ As an admin, you can audit user activity in **Admin** > **Logs**. Select the **i
 
 For help with Workplace Analytics Azure Templates, email your questions or feedback to [wpaazuretemplates@microsoft.com](wpaazuretemplates@microsoft.com). The following types of template scenario support are only available as part of a Microsoft service engagement.
 
-* **Deployment support** – Based on the agreed upon access to your environment for this service engagement, you or your Azure admin can get help deploying Azure components, executing scripts, registering apps, and other related deployment tasks.
-* **Reliability support** - Get help ensuring specific Azure Template scenarios are deployed and processing data correctly.
-* **Sustainability support** - Get hot code fixes to remediate any unforeseen issues that occur. Any reported issue impacting a scenario will be internally reviewed and triaged to prioritize a resolution.
+* **Deployment** – Based on the agreed upon access to your environment for this service engagement, you or your Azure admin can get help deploying Azure components, executing scripts, registering apps, and other related deployment tasks.
+* **Reliability** - Get help ensuring specific Azure Template scenarios are deployed and processing data correctly.
+* **Sustainability** - Get hot code fixes to remediate any unforeseen issues that occur. Any reported issue impacting a scenario will be internally reviewed and triaged to prioritize a resolution.
 * **Updates and releases** - Get new major code releases with the latest capabilities based on your current scenarios. If support does not have access to push updates for your environment, your delegated Azure admin will get new release notifications.
 
 >[!Note]
