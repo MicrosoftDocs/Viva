@@ -21,9 +21,9 @@ ms.prod: wpa
 
 **Why is this happening?** 
 
-Users will see this error message in either of the following circumstances:
- * They have not yet activated a subscription to Workplace Analytics. 
- * They have activated a Workplace Analytics subscription but the service has not yet been provisioned. (This usually takes a few hours, but can sometimes extend up to three days.)
+You will see this error message in either of the following circumstances:
+ * You have not yet activated a subscription to Workplace Analytics. 
+ * You have activated a Workplace Analytics subscription but the service hasn't yet been provisioned. (This usually takes a few hours, but it can sometimes extend up to three days.)
 
 <!--
 > [!Note] 
