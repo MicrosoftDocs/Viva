@@ -19,7 +19,7 @@ These research-based behavioral insights show how your organization gets work do
 
 ## Business outcomes
 
-Each of the following has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
+Each of the following business outcomes has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
 
 |Business outcome |Why it matters |
 |-----------------|--------------|
@@ -50,15 +50,15 @@ In the **Take action** section for each insight, select **Find out more** to see
 
 ![Take action for coaching](../images/wpa/use/coaching.png)
 
-* **Opportunity groups** - Lists the groups who are most effected and would benefit the most from the recommended best practices or Plans, which are based on your organizational data and industry research.
+* **Opportunity groups** - Lists the groups who are more effected and would benefit the most from the recommended best practices or [Plans](../tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
 * **Explore** - Depending on your role, **Explore the stats** or **Explore in Power BI** links you to [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
 
-## Network graphs
+## Organizational network analysis graphs
 
-The organizational network graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
+The organizational network analysis (ONA) graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
 
-In these network graphs, each dot or node represents an employee. The node measures for employees are de-identified to maintain their privacy. For details, see [Organizational network metrics](insight-ona-measures.md).
+In these ONA graphs, each dot or node represents an employee. Node measurements are anonymized to maintain employee privacy. For details, see [Organizational network analysis metrics](insight-ona-measures.md).
 
 ## Error states
 
