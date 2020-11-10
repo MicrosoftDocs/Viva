@@ -56,11 +56,9 @@ In the **Take action** section for each insight, select **Find out more** to see
 
 ## Network graphs
 
-Some of the insight visuals are organizational network analysis (ONA) graphs that help you visualize the collaborative relationships within your organization.
+The organizational network graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
 
-In these network graphs, each dot or node represents an employee or a group. The lines between the nodes represent connections, which are collaborative relationships between them. The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
-
-For details, see [Organizational network metrics](insight-ona-measures.md).
+In these network graphs, each dot or node represents an employee. The node measures for employees are de-identified to maintain their privacy. For details, see [Organizational network metrics](insight-ona-measures.md).
 
 ## Error states
 
