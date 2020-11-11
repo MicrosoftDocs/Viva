@@ -54,7 +54,7 @@ You can select **Take action** to see ways you can improve employee engagement. 
 
 ## Best practices
 
-This section includes some key articles about why boosting employee engagement matters and some key best practices to keep them engaged for each of the following behaviors.
+This section describes why each of the following behaviors matter and the top best practices that can help keep employees engaged.
 
 * [Promote coaching and development](#promote-coaching-and-development)
 * [Prevent employee burnout](#prevent-employee-burnout)
