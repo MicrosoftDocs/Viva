@@ -17,15 +17,11 @@ Employees with high job satisfaction and a strong sense of belonging are more li
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
-
-* [Promote coaching and development](#promote-coaching-and-development)
-* [Prevent employee burnout](#prevent-employee-burnout)
-* [Drive employee empowerment](#drive-employee-empowerment)<!--* [Encourage team cohesion](#encourage-team-cohesion)-->
+Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Employee engagement page](../images/wpa/use/boost-ee.png)
 
-## Percentage insights
+## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -38,8 +34,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Drive employee empowerment |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define)|Percentage of employees who spend over 50 percent of their meeting hours with their manager present in the meeting. This percentage is calculated weekly and averaged over the entire time period. |
 <!--|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |-->
 
-## Visual insights
-
 The following defines the organizational data shown in the visual behavioral insights.
 
 ![Employee engagement visual insight](../images/wpa/use/boost-ee-visual.png)
@@ -50,7 +44,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Prevent employee burnout | Distribution of weekly after-hours collaboration |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#after-hours-collaboration-define). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between one to five hours collaborating after-hours, and employees who spend more than five hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
 |Drive employee empowerment |Distribution of manager-employee coaching relationships |Uses the average time employees spend with [their managers in 1:1s](metric-definitions.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with manager in attendance](metric-definitions.md#meeting-hours-with-manager-define), the different manager-employee coaching relationships are grouped by employee time percentages: <ul><li>**Coached** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend less than 30 percent of their meeting hours with their managers in attendance.  </li><li>**Co-attended** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and employees who have less than 30 percent of their meeting hours with their managers in attendance.</li> |<!--|Encourage team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |-->
 
-## Take action
+## Actions
 
 You can select **Take action** to see ways you can improve employee engagement. The following are available in addition to the recommendations within Take action.
 
@@ -58,7 +52,13 @@ You can select **Take action** to see ways you can improve employee engagement. 
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to boost employee engagement
+## Best practices
+
+This section includes some key articles about why boosting employee engagement matters and some key best practices to keep them engaged for each of the following behaviors.
+
+* [Promote coaching and development](#promote-coaching-and-development)
+* [Prevent employee burnout](#prevent-employee-burnout)
+* [Drive employee empowerment](#drive-employee-empowerment)
 
 ### Promote coaching and development
 
