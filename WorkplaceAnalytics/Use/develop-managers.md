@@ -53,7 +53,7 @@ You can select **Take action** to see ways you can develop effective managers in
 
 ## Best practices
 
-This section includes some key articles about why developing effective managers matter and some key best practices to help managers be more effective for each of the following behaviors.
+This section describes why each of the following behaviors matter and the top best practices that can help managers be more effective.
 
 * [Optimize meeting hours](#optimize-meeting-hours)
 * [Prevent burnout](#prevent-burnout)
