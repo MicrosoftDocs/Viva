@@ -16,26 +16,20 @@ ms.prod: wpa
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
 The Engage influencers section shows how your organization compares with others based on industry research and your specific organizational data.
-<!--
-* [Engage influencers](#best-practices-to-engage-influencers)
-* [Measure Teams adoption](#measure-teams-adoption)
-* [Support connectivity](#support-connectivity)-->
 
 ![Accelerate change page](../images/wpa/use/accelerate-change.png)
 
-## Percentage insight
+## Calculations
 
 The percentage metric for **Engage influencers** is **Percentage of employees who can drive change within your workforce** that uses the [Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
 ![Accelerate change percentage insight](../images/wpa/use/accelerate-change-percent.png)
 
-## Visual insight
-
 The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
 ![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
 
-## Take action
+## Actions
 
 You can select **Take action** to see ways you can drive accelerate organizational change. The following are available in addition to the recommendations within Take action.
 

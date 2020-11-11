@@ -15,17 +15,9 @@ ms.prod: wpa
 
 Managers have a large impact on employee engagement, development and performance, and are pivotal for driving organizational change.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
-
-* [Optimize meeting hours](#optimize-meeting-hours)
-* [Prevent burnout](#prevent-burnout)
-* [Strengthen management pipeline](#strengthen-management-pipeline)
-* [Promote coaching and development](#promote-coaching-and-development)
-* [Empower employees](#empower-employees)
-
 ![Develop effective managers page](../images/wpa/use/develop-managers.png)
 
-## Percentage insights
+## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -34,12 +26,10 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Optimize meeting hours |Percentage of your managers' meetings that are structured around decision making |[Long and large meetings](glossary.md#large-meeting-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of managers who spend over 50 percent of meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the entire time period. |
-|Prevent burnout |Percentage of managers who are working after hours for more than one hour each week |[After hours collaboration](metric-definitions.md#after-hours-collaboration-define) |The percentage of managers who spend more than one hour collaborating through email, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
+|Prevent burnout |Percentage of managers who are working after hours for more than one hour each week |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) |The percentage of managers who spend more than one hour collaborating through email, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Strengthen management pipeline |Percentage of employees who have the potential for managerial roles |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Employees who are currently in non-managerial roles with influence scores greater than or within 10 percent of their immediate manager’s influence score. |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four for the weekly average. |
-|Empower employees |Percentage of employees who have a majority of their meetings attended by their manager |[Redundant meeting hours (organizational)](metric-definitions.md#redundant-meeting-hours-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of employees who spend over 50 percent of their meeting hours with their manager in attendance. This percentage is calculated weekly and averaged over the entire time period. |
-
-## Visual insights
+|Empower employees |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with the manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of employees who spend over 50 percent of their meeting hours with their manager in attendance. This percentage is calculated weekly and averaged over the entire time period. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -53,7 +43,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Promote coaching and development |Distribution 1:1 time with managers each month |Shows the percentage of employees based on their monthly average number of [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. This graph also uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics). |
 |Empower employees |Distribution of manager-employee coaching relationships |Uses the average time employees spend with their [managers in 1:1s](metric-definitions.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with the manager](metric-definitions.md#meeting-hours-with-manager-define) in attendance. The different manager-employee coaching relationships are grouped by employee time percentages that are weekly averages based on the monthly calculations: <ul><li>**Coached** - Spend more than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance.</li><li>**Co-attended** - Spend less than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spend more than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - Spend less than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance. </li> |<!--|Foster connectivity |Managers and cross-group connectivity |Shows an organizational network graph representing well-connected managers, less-connected managers, and all other employees based on their network connections within your organization. Enables you to see the impact a manager's network has on engagement and the networks of direct reports. These insights enable you to build more effective manager training programs to improve engagement and broader organizational connectivity. |-->
 
-## Take action
+## Actions
 
 You can select **Take action** to see ways you can develop effective managers in your organization. The following are available in addition to the recommendations within Take action.
 
@@ -61,7 +51,15 @@ You can select **Take action** to see ways you can develop effective managers in
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to develop effective managers
+## Best practices
+
+The following behaviors show how your organization compares with others based on industry research and your specific organizational data. Select a behavior to see some key best practices to develop effective managers.
+
+* [Optimize meeting hours](#optimize-meeting-hours)
+* [Prevent burnout](#prevent-burnout)
+* [Strengthen management pipeline](#strengthen-management-pipeline)
+* [Promote coaching and development](#promote-coaching-and-development)
+* [Empower employees](#empower-employees)
 
 ### Optimize meeting hours
 
