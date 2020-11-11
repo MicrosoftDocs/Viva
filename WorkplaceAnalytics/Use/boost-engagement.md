@@ -17,6 +17,8 @@ Employees with high job satisfaction and a strong sense of belonging are more li
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
+Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
+
 ![Employee engagement page](../images/wpa/use/boost-ee.png)
 
 ## Calculations
@@ -52,7 +54,7 @@ You can select **Take action** to see ways you can improve employee engagement. 
 
 ## Best practices
 
-The following behaviors show how your organization compares with others based on industry research and your specific organizational data. Select a behavior to see some key best practices that keep employees engaged.
+This section includes some key articles about why boosting employee engagement matters and some key best practices to keep them engaged for each of the following behaviors.
 
 * [Promote coaching and development](#promote-coaching-and-development)
 * [Prevent employee burnout](#prevent-employee-burnout)

@@ -15,6 +15,8 @@ ms.prod: wpa
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
+Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
+
 ![Accelerate change page](../images/wpa/use/accelerate-change.png)
 
 ## Calculations
@@ -37,7 +39,7 @@ You can select **Take action** to see ways you can drive accelerate organization
 
 ## Best practices
 
-Engage influencers shows how your organization compares with others based on industry research and your specific organizational data. Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
+Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify. The following are some key articles about why influencers matter and some key best practices to engage influencers in your organization.
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
