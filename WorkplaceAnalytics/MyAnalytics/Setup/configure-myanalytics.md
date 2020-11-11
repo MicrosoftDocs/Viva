@@ -120,7 +120,7 @@ In this procedure, you install the [Exchange Online PowerShell V2 module](https:
 2. To install the module, run this command: 
 
 ```powershell
-Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4-Preview3 -AllowPrerelease
+Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4-Preview6 -AllowPrerelease
 ```
 
 3. Go directly to the following procedure, [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in).
