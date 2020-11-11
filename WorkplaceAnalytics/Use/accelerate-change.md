@@ -15,27 +15,21 @@ ms.prod: wpa
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
-The Engage influencers section shows how your organization compares with others based on industry research and your specific organizational data.
-<!--
-* [Engage influencers](#best-practices-to-engage-influencers)
-* [Measure Teams adoption](#measure-teams-adoption)
-* [Support connectivity](#support-connectivity)-->
+Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
 
 ![Accelerate change page](../images/wpa/use/accelerate-change.png)
 
-## Percentage insight
+## Calculations
 
 The percentage metric for **Engage influencers** is **Percentage of employees who can drive change within your workforce** that uses the [Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
 ![Accelerate change percentage insight](../images/wpa/use/accelerate-change-percent.png)
 
-## Visual insight
-
 The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
 ![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
 
-## Take action
+## Actions
 
 You can select **Take action** to see ways you can drive accelerate organizational change. The following are available in addition to the recommendations within Take action.
 
@@ -43,9 +37,9 @@ You can select **Take action** to see ways you can drive accelerate organization
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to engage influencers
+## Best practices
 
-Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
+Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify. The following are some key articles about why influencers matter and some key best practices to engage influencers in your organization.
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
