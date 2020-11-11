@@ -37,6 +37,9 @@ When data is processed in the Teams Insights app, Microsoft protects employee pr
 
 The insights and actions in the Insights app are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process. 
 
+> [!Note] 
+> To have access to the full functionality of the Insights app, you need a [MyAnalytics](https://myanalytics.microsoft.com/) license.
+
 ### GDPR compliance 
 
 Microsoft helps data controllers meet the following obligations for the Insights app: 
@@ -261,6 +264,10 @@ In the following example, select **Book Time** to reserve the time slot for focu
 Insights does not use: 
 
  * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
+
+##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
+
+**A6.** To get access to the full functionality of the Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
 
 ## Admin controls 
 
