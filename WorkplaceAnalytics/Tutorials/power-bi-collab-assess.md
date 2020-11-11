@@ -196,6 +196,10 @@ The Ways of working assessment dashboard includes the following report pages tha
 
 The dashboard also includes a **Glossary** page that describes all the report metrics.
 
+### Training opportunity
+
+Learn how to use this Power BI template to evaluate collaboration culture and employee experience: [Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard](https://aka.ms/wpa-collab)
+
 ## Power BI tips, FAQs, and troubleshooting
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
