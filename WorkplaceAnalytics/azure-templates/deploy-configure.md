@@ -28,10 +28,11 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
    * [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad)
 
 4. [Deploy the templates](#deployment)
-5. [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
-6. [Add users](#add-users-and-assign-roles)
-7. [Process the data](#process-the-data)
-8. Additional configuration and deployment options: [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
+5. [Configure the registered apps in Azure AD](#to-configure-the-registered-apps) - Only do this if you chose to register the apps in Azure AD before deployment.
+6. [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
+7. [Add users](#add-users-and-assign-roles)
+8. [Process the data](#process-the-data)
+9. Additional configuration and deployment options: [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
 
 ## Security considerations
 
@@ -62,9 +63,9 @@ These templates require an Azure Active Directory (AD) application registration 
 You can register these apps in one of the following ways:
 
 * [Register the apps in Step 10 during deployment](#deployment) - You can also automatically register the apps during deployment through the Microsoft AppSource solution template deployment site.
-* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Alternatively, you can register the required apps in the Azure Active Directory. This enables you to get the Microsoft identify platform to provide authentication and authorization. After registering, you must then deploy and authenticate the use of the templates through the template deployment site.
+* [Register and configure the apps in Azure AD](#register-and-configure-the-apps-in-azure-ad) - Alternatively, you can register the required apps in Azure AD before deployment, which enables the Microsoft identify platform to provide authentication and authorization. After registering, you must [deploy the templates](#deployment) through the template deployment site. After deployment, come back to Azure AD and [configure the registered apps](#to-configure-the-registered-apps). You can then proceed with the steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export), [add users](#add-users-and-assign-roles), and [process the data](#process-the-data).
 
-## Register apps in Azure AD
+## Register and configure the apps in Azure AD
 
 You can register the required apps in the Azure portal to get the Microsoft identify platform to authenticate and authorize them, which is required for deployment.
 
@@ -113,6 +114,7 @@ See [Register an application with the Microsoft identity platform](https://docs.
 
 13. In **Implicit grant**, select both **Access tokens** and **ID tokens**, and then select **Configure**.
 14. Select API permissions, and then select **user_impersonation**, and then select **Grant admin consent for Microsoft** to enable API consent.
+15. Then proceed with the steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export).
 
 ## Deployment
 
@@ -151,13 +153,15 @@ See [Register an application with the Microsoft identity platform](https://docs.
 
     ![Azure Templates deployment](./images/deployed-website-link.png)
 
+13. If you registered the apps before deployment, go back and [configure the registered apps in Azure AD](#to-configure-the-registered-apps). Otherwise, proceed to the next steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export).
+
 ## Generate SAS URI for data export
 
 After deployment, you need to create a write-only SAS URI on the raw data container in the storage account created during the deployment. The SAS URI is given to the Workplace Analytics admin to configure the weekly automated data access feed that is required to drive a few of the Azure Templates.
 
 1. Use Storage Explorer (or Storage Explorer (preview) web) application to view the raw data container in the storage account created during deployment.
 2. Right-click the **rawdata** folder and select **Get Shared Access Signature**.
-3. In **Shared Access Signature**, set a two-year expiry time.
+3. In **Shared Access Signature**, select an expiration time.
 4. In **Permissions**, confirm only **Write** is selected, and then select **Create**.
 5. For the URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
 6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [automatic data exports](../data-access/data-access.md#to-export-data-from-workplace-analytics).
@@ -201,9 +205,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 **To add users and assign them roles:**
 
 1. Use the website link (from the last step in Deployment) to open the Workplace Analytics Azure Templates.
-
 2. Select **Admin** > **User Management** > **Add New User**.
-
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
     ![Add Workplace Analytics users](./images/add-user.png)
