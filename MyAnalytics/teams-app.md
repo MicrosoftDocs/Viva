@@ -235,11 +235,11 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 **A4.** There are two ways to provide feedback through the Insights app: 
 
-* At the bottom of every Insight is the question, “Is this helpful?” Select **Yes** or **No** to provide feedback.  
+* At the bottom of every Insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
    ![Is this helpful? Yes No](images/is-helpful.png)
 
-* Every page in the Insights app has the question, “Is this helpful?” at the bottom right corner. Select **Yes** or **No** to provide feedback.  
+* Every page in the Insights app has the question, "Is this helpful?" at the bottom right corner. Select **Yes** or **No** to provide feedback.  
    
    After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
@@ -251,7 +251,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * Information from email items: 
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create task cards for your use only. <!-- USE THIS SENTENCE AFTER WE MOVE THIS TOPIC TO ITS FINAL LOCATION: These statements are used to create [task cards](../workplaceanalytics/myanalytics/use/mya-outlook-add-in/mya-add-in-to-do.md) for your use only.  -->
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-outlook-add-in/mya-add-in-to-do) for your use only.  
 * Information from calendar items: 
   * Type (meeting or appointment) 
   * Status (busy, free, out-of-office, tentative) 
