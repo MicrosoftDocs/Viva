@@ -120,6 +120,12 @@ After confirming the settings, check the number of measured employees to confirm
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
+### Training opportunity
+
+Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](https://aka.ms/wpa-teams-insights) 
+
 ## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
+
+
