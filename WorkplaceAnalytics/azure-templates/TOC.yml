@@ -21,4 +21,5 @@
     href: ./relation-intel.md    
   - name: Workspace Planning
     href: ./space-planning.md
-  
+- name: Get support
+  href: ./support.md
