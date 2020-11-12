@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics configuration for Office 365 administrators
-description: Configuration options that Office 365 administrators can make for MyAnalytics users
+title: MyAnalytics configuration for Office 365 admins (old cmdlets)
+description: Configuration options that Office 365 admins can make for MyAnalytics users
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -18,7 +18,7 @@ ms.prod: Mya
 
 You can configure MyAnalytics access for individual users in your organization. For example, you could opt-out the user completely, which would turn off all MyAnalytics functionality for that user. However, the user can choose to [opt back in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in). <!--To remove this choice from the user so that they cannot opt back in, you remove their MyAnalytics service plan. --> 
 
-You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings). Before you can make this setting, you must take preparatory steps; see [Command sequence](#command-sequence).
+You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings). 
 
 ### User configuration settings
 

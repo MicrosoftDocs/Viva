@@ -88,7 +88,7 @@ You configure MyAnalytics by setting the *PrivacyMode* parameter. For informatio
 
 > [!Important] 
 > You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date.
-> While the old cmdlets are still available (before January 25, 2021), you can find information about them here: [Configure access at the user level (old cmdlets)](config-mya-retired.md#configure-access-at-the-user-level). 
+> While the old cmdlets are still available (before January 25, 2021), you can find information about them here: [Configure access at the user level (old cmdlets)](config-mya-retired.md). 
 
 ### User configuration settings
 
@@ -114,7 +114,7 @@ You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/power
 
 #### Install the ExchangeOnlineManagement module
 
-In this procedure, you install the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). 
+In this procedure, you install the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). 
 
 1. Open PowerShell.
 2. To install the module, run this command: 
@@ -147,11 +147,13 @@ PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's 
 
 Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's MyAnalytics features were turned on except the digest email:
 
+   ```
     UserId : <username>@<domain>
     PrivacyMode : opt-in
     IsDashboardEnabled : true
     IsAddInEnabled  : true
     IsDigestEmailEnabled : false
+   ```
 
    Also see [Command reference: Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig).
 
@@ -169,11 +171,13 @@ Identity    |  Yes         |    User ID for the current user as stored in AAD  |
 
 Get-MyAnalyticsFeatureConfig reveals the current configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user is currently opted in and that they have all MyAnalytics features turned on except the digest email:
 
+   ```
     UserId : <username>@<domain>
     PrivacyMode : opt-in
     IsDashboardEnabled : true
     IsAddInEnabled  : true
     IsDigestEmailEnabled : false
+   ```
 
 #### Set MyAnalytics access for multiple users
 
