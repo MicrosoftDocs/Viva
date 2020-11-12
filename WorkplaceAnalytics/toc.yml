@@ -9,6 +9,8 @@
           href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations                 
           href: ~/Privacy/data-protection-considerations.md
+        - name: Data de-identification
+          href: ~/Privacy/de-identify-data.md
         - name: Differential privacy
           href: ~/Privacy/differential-privacy.md          
         - name: Privacy and data access
@@ -51,14 +53,22 @@
               href: ~/setup/upload-organizational-data.md 
             - name: Upload CRM data
               href: ~/setup/crm-data-upload.md
-        - name: Meeting exclusion rules    
-          items:             
-            - name: Introduction
-              href: ~/Tutorials/meeting-exclusions-intro.md
-            - name: Walkthroughs
-              href: ~/tutorials/meeting-exclusion-rules.md
-            - name: Tools and concepts
-              href: ~/tutorials/meeting-exclusion-concept.md
+        - name: Exclusion rules 
+          items:
+            - name: Introduction to exclusion rules
+              href: ~/tutorials/exclusions-introduction.md
+            - name: Meeting exclusions    
+              items:             
+                - name: Introduction
+                  href: ~/tutorials/meeting-exclusions-intro.md
+                - name: Walkthroughs
+                  href: ~/tutorials/meeting-exclusion-rules.md
+                - name: Tools and concepts
+                  href: ~/tutorials/meeting-exclusion-concept.md
+            - name: Attendee exclusions    
+              items:
+                - name: Attendee exclusions
+                  href: ~/tutorials/attendee-exclusion-rules.md
         - name: Data sources
           items:
             - name: Introduction
@@ -83,8 +93,8 @@
               items:
                 - name: Overview
                   href: ~/Use/pm-home.md
-#               - name: Rollout to managers
-#                 href: ~/manager-insights/rollout.md-->
+                - name: Rollout to managers
+                  href: ~/manager-insights/rollout.md
                 - name: FAQs
                   href: ~/Use/insight-faqs.md
         - name: Analyze
@@ -119,7 +129,7 @@
                     - name: Visualize person queries
                       href: ~/tutorials/query-visualization.md              
                 - name: Meeting queries
-                  href: ~/tutorials/Meeting-queries.md                 
+                  href: ~/tutorials/Meeting-queries.md
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
@@ -128,24 +138,20 @@
                   href: ~/tutorials/crm-queries.md    
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
-                - name: ONA queries                   
+                - name: ONA queries
                   items: 
                     - name: ONA person queries
                       href: ~/tutorials/ona-person-query.md 
                     - name: ONA person-to-person queries
-                      href: ~/tutorials/ona-person-to-person-query.md                       
+                      href: ~/tutorials/ona-person-to-person-query.md
                 - name: Power BI templates
                   items:
                     - name: Introduction
-                      href: ~/tutorials/power-bi-templates.md
+                      href: ~/tutorials/power-bi-intro.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
-                    - name: Collaboration assessment
-                      href: ~/tutorials/power-bi-collab-assess.md
                     - name: Collaboration overload
                       href: ~/tutorials/power-bi-collab-overload.md
-                    - name: Collaboration tracker
-                      href: ~/tutorials/power-bi-collab-track.md
                     - name: Influence insights
                       href: ~/tutorials/pbi-influence-db.md
                     - name: Manager impact
@@ -158,6 +164,12 @@
                       href: ~/tutorials/pbi-bc-sales.md
                     - name: Teams insights
                       href: ~/tutorials/power-bi-teams.md
+                    - name: Ways of working assessment
+                      href: ~/tutorials/power-bi-collab-assess.md
+                    - name: Ways of working tracker
+                      href: ~/tutorials/power-bi-collab-track.md
+                    - name: Tips, FAQs, and troubleshooting
+                      href: ~/tutorials/power-bi-templates.md
                 - name: Customize a metric
                   href: ~/tutorials/Customize-a-metric.md                    
                 - name: View, download, and export query results
@@ -268,18 +280,20 @@
       - name: Work patterns
         items:
         - name: Focus
-          href: MyAnalytics/Use/focus.md
+          href: MyAnalytics/use/focus.md
  #         items: 
  #           - name: Focus plan
  #             href: MyAnalytics/use/focus-plan.md          
         - name: Wellbeing
-          href: MyAnalytics/Use/wellbeing.md
+          href: MyAnalytics/use/wellbeing.md
         - name: Network
-          href: MyAnalytics/Use/network.md
+          href: MyAnalytics/use/network.md
         - name: Collaboration
-          href: MyAnalytics/Use/collaboration.md  
- #       - name: Leadership
- #         href: MyAnalytics/use/leadership.md 
+          href: MyAnalytics/use/collaboration.md  
+#        - name: Executive
+#          href: MyAnalytics/use/executive.md            
+        - name: Leadership
+          href: MyAnalytics/use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction 

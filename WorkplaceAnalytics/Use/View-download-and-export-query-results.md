@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-**Role:** Analyst role is required in Workplace Analytics to view, download, or export query results
+**Role:** The analyst role is required in Workplace Analytics to view, download, or export query results
   
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
@@ -24,7 +24,25 @@ On the **Analyze** > **Queries** > **Results** page, you can switch between **Al
 1. In Workplace Analytics, go to **Analyze** > **Queries** > **Results** > **All results**.
 
 2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
+
+## Supported languages for column headers
+
+When you define a query, you select metrics and organizational-data attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. However, note this difference in the way attributes and metrics appear in column headers: 
+
+* **Names of organizational-data attributes** &ndash; Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means that they appear in English in OData output and in query results. 
+
+* **Metric names** &ndash; Any UTF-8-encoded characters are allowed in metric names, which means that metric names are always preserved and returned intact in both query and OData outputs, regardless of the language, or even the character set, in which you input them. 
+
+In the following example of a query-result file that's been opened in Excel, metric names were input in Japanese and remain in Japanese, while attribute names were uploaded in English and remain in English: 
+
+![Column headers](../images/wpa/Use/columns-attributes-metrics.png)
   
+> [!Note] 
+> Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](../tutorials/comparison-query.md) and the [ONA Person-to-person query](../tutorials/ona-person-to-person-query.md). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters. 
+
+> [!Important] 
+> If your organization has custom applications or clients that use or process query-result data, these downstream apps or clients must be prepared to accept query output with column headers as described here, namely with metric names in their original language and with organizational-data attribute names in English. 
+
 ## Use Workplace Analytics data in Power BI, Excel, or other data-analysis tool
 
 You can use the following options to access and use Workplace Analytics query data in a different data-analysis tool to create visuals and reports outside of Workplace Analytics.
@@ -76,9 +94,29 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
    >   * If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
    >   * If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
 
-### Connect through the Power BI Connector
+### Use an OData link to view data in Excel
 
-**Required role:** Analyst or Limited analyst
+1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**. 
+2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**: 
+
+   ![Copy OData link from query results](../images/wpa/use/odata-link-copied.png)
+
+3. Open Excel and select **Blank workbook**. 
+4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**: 
+
+   ![Open OData link in Excel](../images/wpa/use/data-odata-in-excel.png)
+
+5. In Excel, paste the copied OData link into the **OData feed** dialog box and select **OK**:
+
+   ![Paste link into Excel](../images/wpa/use/link-pasted-in-excel.png)
+
+6. Select **Organizational account** and then select **Sign in**:
+7. When the Office 365 dialog box prompts you, select the account and enter the password that you use to log in to Workplace Analytics. You'll then see: "You are currently signed in."
+8. In the **OData feed** dialog box, select **Connect**. Before the query-results data is imported into your Excel workbook, a **Refresh** dialog box might appear that shows the status of preparation of the data for import.
+
+After Excel finishes importing your Workplace Analytics data, use Excel to explore and create visualizations of the data.
+
+### Connect through the Power BI Connector
 
 The Power BI Connector automatically enforces the privacy rules configured in Workplace Analytics by providing aggregated query data in Power BI. It also automatically updates your Power BI visuals by using the same auto-refresh schedule set for the query in Workplace Analytics.  
 
@@ -145,3 +183,4 @@ After you have finished creating visuals, you can publish your reports to Power 
 * [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 * [User roles in Workplace Analytics](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
+* [Supported languages and guidelines](../overview/supported-languages.md?branch=pas-pd-other-char-sets)

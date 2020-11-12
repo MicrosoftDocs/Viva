@@ -1,5 +1,4 @@
 ---
-
 title: Workplace Analytics insights for managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
@@ -9,7 +8,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Workplace Analytics manager insights
+# Workplace Analytics insights for managers
 
 > [!Note]
 > Only people managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see their team's data in Workplace Analytics.
@@ -24,7 +23,7 @@ Use the following available information to lead your team toward more effective 
 
 * **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
 
-![People Manager Home page](../images/wpa/use/pm-home.png)
+![People Manager Home page](../images/wpa/use/manager-insights.png)
 
 ## Manager access
 
@@ -41,7 +40,7 @@ The following describes how your team metrics are calculated to support the beha
 |Is your team overwhelmed by email? |Employees that spend over 10 hours in email each week. Email workload is the number of hours employees spend sending and receiving email. |Average number of hours spent sending and receiving email. |
 |Does your team have long and large meetings? |The number of employees that spend over 30 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. Long meetings are those scheduled for more than an hour. Large meetings are those that involve more than eight people. |Average number of meeting hours spent by the team. |
 |Does your team have time to focus? |The number of employees who have less than 30 hours each of available time for focused work, divided by the total number of measured employees. Focus time is when employees have two or more consecutive hours with no meetings. |Average number of total hours with two or more one-hour blocks of time where people had no meetings. |
-|Are managers on your team connected across the company? |Manager cross-team connections are the number of departments outside your own that you had [meaningful interactions](glossary.md#meaningful-interaction-definition) with in the last 28 days. |An average number of meaningful connections the managers have outside their team. |
+|Are managers on your team connected across the company? |Manager cross-team connections are the number of departments outside your own that you had [meaningful interactions](glossary.md#meaningful-interaction-define) with in the last 28 days. |An average number of meaningful connections the managers have outside their team. |
 |Is your team collaborating across the company? |Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. This insight highlights the organizations that spend more than 50 percent of their overall collaboration within their group. |Average number of hours the team spent collaborating with people outside their department. |
 |Do your team members act as influencers? |Influencers are employees who have the best connections to people across the company based on their collaboration patterns. This insight accounts for the team's size and how it is represented within the organizational hierarchy for calculating the actual and recommended numbers of influencers in your team. |The average numeric scores indicate how well connected a person in that team is within the overall company. The higher the score, the more well connected that team is with the potential to drive change. |
 |Is your team sharing information quickly? |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 20 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |Average number of emails sent between only two employees. |
@@ -61,8 +60,8 @@ To learn more about differential privacy, see [Differential Privacy in Workplace
 
 ## View recommended plan
 
-As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. For more details about creating plans, see [Create a plan](../tutorials/solutionsv2-task.md#create-a-plan).
+As a people manager, you'll also see an option to **View recommended plan** for each business insight. You can use this option to take immediate action for the groups listed in that specific insight. See [Launch a plan](../manager-insights/plans.md#launch-a-plan).
 
 ## Related topic
 
-* [Frequently asked questions about Manager insights](insight-faqs.md)
+[Frequently asked questions about Manager insights](insight-faqs.md)

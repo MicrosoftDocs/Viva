@@ -55,15 +55,15 @@ No, only you can see insights about your team. Managers higher up can only see a
 
 ##### Q10 Do the "Teams like yours" metrics use my organizational averages?
 
-Yes, Teams like yours metrics use other teams who are in the same hierarchy that report to your manager within your organization. If you have only one peer team or no peer team, the metrics use and show your company's averages.
+Yes, Teams like yours metrics use other teams who are in the same hierarchy that report to your manager within your organization. If you have only one peer team or no peer team, the company averages are shown instead.
 
 ##### Q11 Is it safe to share Insights with my team?
 
-Yes, you can share these insights with your team to generate a conversation and collectively decide what the norms are for your team. See [Best practices](../tutorials/gm-best-practices.md) for ways to approach your team about these insights.
+Yes, you can share these insights with your team to generate a conversation and collectively decide what the norms are for your team. See [Best practices](./best-practices.md) for ways to approach your team about these insights.
 
 ##### Q12 What is a plan?
 
-By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](../tutorials/solutionsv2-intro.md) to learn more.  
+By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](./plans.md) to learn more.
 
 ##### Q13 Why are some employees in my team not eligible to enroll in plans?
 
@@ -72,9 +72,3 @@ Employees might not be eligible for a plan if:
 * They do not have MyAnalytics enabled.
 * Are already enrolled in an existing plan.
 * The team does not meet the minimum group size limit.
-
-## Related topics
-
-* [User roles in Workplace Analytics](../use/user-roles.md)
-* [Explore the metrics](../use/explore-intro.md)
-* [Metric descriptions for Workplace Analytics](../use/metric-definitions.md)

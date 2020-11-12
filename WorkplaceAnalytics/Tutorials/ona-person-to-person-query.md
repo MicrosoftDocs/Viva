@@ -15,7 +15,7 @@ Successful employees and teams use their networks to get work done effectively. 
 
 Workplace Analytics can qualify a network connection between two people as a **strong tie**, a **diverse tie**, or neither.
 
-A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-definition) in the last four weeks.
+A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last four weeks.
 
 Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Workplace Analytics will classify it as either a **strong tie** or as a **diverse tie**.
 
@@ -38,8 +38,8 @@ If the two people have **few** network connections in common, it is considered a
 
     ![ONA p2p query](../images/wpa/tutorials/ona-p2p-query.png)
 
-3.	Select and change **Enter query name here** to a name, and then enter a description for the query.
-4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
+3.	Select and change **Enter query name here** to a name, and then, optionally, enter a description for the query.
+4.	For **Group by**, select a time-grouping option: **Month** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
     > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected. 
@@ -60,55 +60,79 @@ The query results show the quality of the relationship between two specific (but
 
 The following columns appear, from left to right, in the query results for ONA person-to-person queries:
 
-### The first columns describe the initiator of the tie
+### The first two columns identify the initiator of the tie
 
-![first columns -- A through D](../images/wpa/tutorials/columns-1-4.png)
+![first columns -- A and B](../images/wpa/tutorials/columns-a-b.png)
 
-_Query results example: Columns A through D_
+_Query results example: Columns A and B_
 
-* **TieOrigin_PersonId.** De-identified ID number for the person represented in that data row.
-* **Person attributes.** Organizational attributes about the person who was identified by TieOrigin_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
+The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These first two columns appear automatically:
 
-   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
-    * _TieOrigin_FunctionType_
-    * _TieOrigin_LevelDesignation_
-    * _TieOrigin_Organization_
+* TieOrigin_[**PersonId**](../setup/prepare-organizational-data.md#personid-define). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
 
-### The next columns describe the other participant in the tie    
+* TieOrigin_[**GroupId**](#groupid-define). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to understand whether there are opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically.
 
-![next columns -- E through H](../images/wpa/tutorials/columns-5-8.png)
+### The next columns describe the initiator of the tie
 
-_Query results example: Columns E through H_
+![first columns -- C through E](../images/wpa/tutorials/columns-c-e.png)
 
-* **TieDestination_PersonId.** De-identified ID number for the person with whom the person represented by TieOrigin_PersonId has a strong or diverse tie. 
-* **Person attributes.** Organizational attributes about the person who was identified by TieDestination_PersonId. These are the organizational attributes that you selected as you built the query. In this example, we selected three such attributes. 
+_Query results example: Columns C through E_
 
-   The column names for these attributes are the organizational attribute name prefixed with _TieOrigin__. In this example: 
-    * _TieDestination_FunctionType_
-    * _TieDestination_LevelDesignation_
-    * _TieDestination_Organization_
+The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These three columns represent attributes that you selected while building the query: 
+
+* TieOrigin_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-define). The job function that the employee performs. 
+
+* TieOrigin_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-define). The employee's level within the organization.    
+
+* TieOrigin_[**Organization**](../setup/prepare-organizational-data.md#organization-define). The internal organization that the employee belongs to.  
+
+### The next two columns identify the other participant in the tie    
+
+![next columns -- F and G](../images/wpa/tutorials/columns-f-g.png)
+
+_Query results example: Columns F and G_
+
+The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These first two columns for this person appear automatically:
+
+* TieDestination_[**PersonId**](../setup/prepare-organizational-data.md#personid-define). A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically. 
+
+* TieDestination_[**GroupId**](#groupid-define). A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties into another team to understand how well connected one is with that team and also discover Diverse ties in another team to understand  opportunities for novel information to flow from that team. You do not select this column as you build a query; it appears automatically.
+
+### The next columns describe the other participant in the tie   
+
+![next columns -- H through J](../images/wpa/tutorials/columns-h-j.png)
+
+_Query results example: Columns H through J_
+
+The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These three columns represent attributes that you selected while building the query: 
+
+* TieDestination_[**FunctionType**](../setup/prepare-organizational-data.md#functiontype-define). The job function that the employee performs.  
+
+* TieDestination_[**LevelDesignation**](../setup/prepare-organizational-data.md#leveldesignation-define). The employee's level within the organization.  
+
+* TieDestination_[**Organization**](../setup/prepare-organizational-data.md#organization-define). The internal organization that the employee belongs to.  
 
 ### The last columns give the results
 
-![last columns -- I through M](../images/wpa/tutorials/columns-9-13.png)
+![last columns -- K through O](../images/wpa/tutorials/columns-k-o.png)
 
-_Query results example: Columns I through M_
+_Query results example: Columns K through O_
 
 * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
-* **Metrics.** The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
+* Metrics. The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). 
    
    The results for this query type always include the following metrics:
 
-  * **StrongTieScore.** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
-  * **DiverseTieScore.** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals. 
-  * **StrongTieType.** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
-    * **1:** This row clearly indicates a strong tie &mdash; 20th percentile and above, by strength. 
-    * **2:** This row indicates a tie that is significant but less strong: between the 10th and 20th percentiles.
-    * **0:** This row indicates a tie that is not that strong: 10th percentile and below.  
-  * **DiverseTieType.** This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
-    * **1:** This row clearly indicates a diverse tie &mdash; 20th percentile and above, by diversity. 
-    * **2:** This row indicates a tie that is significant but less diverse: between the 10th and 20th percentiles.
-    * **0:** This row indicates a tie that is not that diverse: 10th percentile and below. 
+  * **[StrongTieScore](../use/metric-definitions.md#strong-tie-score-define)** Sort on this column to find employees with the highest scores. These high scores represent strong ties between the two individuals. 
+  * **[DiverseTieScore](../use/metric-definitions.md#diverse-tie-score-define)** Sort on this column to find employees with the highest scores. These high scores represent diverse ties between the two individuals. 
+  * **[StrongTieType](../use/metric-definitions.md#strong-tie-type-define)** This column is present to help analysts quickly find the strongest ties. It contains values of 0, 1, or 2, based on the distribution of StrongTieScore. The values indicate the following:
+    * **1:** This row clearly indicates a strong tie &mdash; 35th percentile and above, by strength. 
+    * **2:** This row indicates a tie that is significant but less strong: at or above the 30th percentile but below the 35th percentile.
+    * **0:** This row indicates a tie that is not that strong: below the 30th percentile.  
+  * **[DiverseTieType](../use/metric-definitions.md#diverse-tie-type-define)** This column is present to help analysts quickly find the most diverse ties. It contains values of 0, 1, or 2, based on the distribution of DiverseTieScore. The values indicate the following:
+    * **1:** This row clearly indicates a diverse tie &mdash; 50th percentile and above, by diversity. 
+    * **2:** This row indicates a tie that is significant but less diverse: at or above the 45th percentile but below the 50th percentile.
+    * **0:** This row indicates a tie that is not that diverse: below the 45th percentile. 
 
 ## Select filters
 
@@ -137,6 +161,14 @@ You could have strong ties that are distant: These are strong ties with people o
 You could have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group. 
 
 You could have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks are considered key for driving innovation and creativity in and among teams. 
+
+### Derived attributes
+
+The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to Workplace Analytics](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
+
+Attribute (column header) | Description | 
+---------|----------|
+| <a name="groupid-define"></a> GroupId | A unique, de-identified ID number that identifies a group. All members of a team who report to the same person in the organizational hierarchy have the same GroupId. Analysts can use the GroupId column to aggregate members of a team. | 
 
 ### Ties are directional 
 
@@ -174,7 +206,7 @@ The following questions and answers refer to metrics; you can find their definit
 
 A1. Strong ties takes the network commonality that exists between the two people into account, a situation in which both people are investing time together or enabling other forms of bonding. Strong ties also gives more weight to meetings-based collaboration than to email. This is because meetings are more inter-personal in nature and enable direct person-to-person engagement, which results in a formalized engagement. Email-based collaboration doesn't translate into such an interpersonal engagement. 
 
-Internal network size simply means the number of connections a person has within the company, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-definition) the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections. 
+Internal network size simply means the number of connections a person has within the company, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-define) the person has with their connections. Strong ties means the number of tight-knit, engaged connections a person has within the company, based on the time that the person invested with their connections. 
 
 In summary: Strong ties differs from Internal network size in that they reflect the number of a person's connections based on the quality of the engagement that exists between two people.
 
@@ -192,7 +224,7 @@ A3. Strong ties currently does not consider connections that a person has outsid
 
 A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their [common network](../use/glossary.md#common-network) has minimal overlap. 
 
-In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-definition) the person has with their connection. This metric quantifies connections at the organization attribute level. 
+In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-define) the person has with their connection. This metric quantifies connections at the organization attribute level. 
 
 Therefore, unlike Networking outside organization, which returns connections only at the organization attribute level (a very high level), diverse ties returns the number of connections based on the _quality_ of the engagement and the _variety_ of information that can potentially be conveyed through the connection. Also, diverse ties can span any organizational attribute, which lets you more flexibly locate such ties anywhere in the company.
 

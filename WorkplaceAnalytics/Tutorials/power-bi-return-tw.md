@@ -27,6 +27,12 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 After the dashboard populates with data, you can evaluate which of the two seat-allocation plans will work for your organization’s teams.
 
+## Demonstration
+
+This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZjYxYWIwZGQtZGE0Ni00YjMyLWExZTQtMWJlY2M3ODYyZWE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
@@ -37,10 +43,6 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
   * **Worksite location** - Represents the most recent worksite location (or projected location) for each employee.
   * **Team or Organization** - Each employee’s team assignment that reflects the organizational level at which decisions for seat allocation can be made for each worksite.
-
-## Video: Dashboard setup
-
-<iframe src="https://player.vimeo.com/video/460378380" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Set up the dashboard
 

@@ -11,29 +11,46 @@ ms.prod: wpa
 
 # Plans: The experience of plan participants
 
-**Role** - participant in a plan, an information worker who is using MyAnalytics
+**Role** - participant in a plan, an information worker who is using MyAnalytics <!-- and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) REMOVING FOR NOW PER PRAMOD -->
 
-While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
- 
-During a plan, participants receive or can view the following items:
+While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better. 
+
+All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view the following items: 
 
 <!-- THIS IS TURNED OFF FOR NOW (MAY 2019)
 ## Welcome email
 
-As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Workplace Analytics. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on. 
+As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Workplace Analytics. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on.  
 -->
 
 ## MyAnalytics dashboard
 
-The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan. This section contains information such as recommended habits and the participant's progress against the plan goals, similar to the following:
+The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan.  
 
+If user is part of a plan, there is no change to any of the existing tabs. A new tab called "Team Plans" is available in the dashboard to track plan progress. This added section contains information such as recommended habits and a report on the participant's progress against the plan goals:
+
+<!-- Remove for now
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
- 
+-->
+
+![Participant's dashboard](../images/wpa/tutorials/plans-dashboard2.png)
+
 ## Digest
 
-All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
+All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, or Collaboration. The subject of the digest shifts from one pattern to the next, week after week. Note that this weekly focus is _not_ affected by a participant's enrollment in a plan. 
 
-![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60.png) 
+### Additional Teams Plan section
+
+For plan participants, the digest email includes an additional section, the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week: 
+
+![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png) 
+
+<!--  THIS SECTION CAN DESCRIBE THE EXCEPTION CAUSE BY "ADAPTIVE" AFTER WE GET THAT WORDING FROM PM. (PER PRAMOD, HELEN)
+> [!Note] 
+> This Team Plans section is unavailable in the following circumstance:
+> * It is a week in which the digest email is about _Focus_ or _Network_.
+> * You are using a particular email client application to view your digest emails.
+-->
 
 ## MyAnalytics inline suggestions
 
@@ -41,18 +58,18 @@ MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notific
 
 ### Plan-only inline suggestions
 
-Many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), but some apply only to participants of a particular Teamwork plan, namely, the [Wellbeing plan](#wellbeing-plan):
+Many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), but some apply only to participants of a particular Teamwork plan, such as the [Collaboration plan](#collaboration-plan) or the [Wellbeing plan](#wellbeing-plan):
 
-<!--
+
 #### Collaboration plan
 
-Participants in the Collaboration plan might see the following inline suggestions:
+Participants in the Collaboration plan might see the following inline suggestion<!--s-->:
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. |
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. | 
+<!--
 |Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you reconsider whether everyone is required in the meeting that you are organizing, in light of the high meeting load of your invitees. |
-
 -->
 
 #### Wellbeing plan

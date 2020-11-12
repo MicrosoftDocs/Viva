@@ -73,7 +73,7 @@ The following meeting habit metrics are included on the Collaboration page. You 
 * **Added Skype or Teams link** includes meetings you organized and included a Skype or Teams link for remote attendance.
 * **No overlap with other meetings** includes meetings that you organized or accepted that did not overlap with other meetings.
 * **No emails or chats during the meeting** includes meetings during which you did not send a significant number of emails or chats.
-* **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time.
+* **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time (or within five minutes of their schedule start time).
 * **During working hours** includes meetings you organized or accepted to attend during your working hours.
 
 #### Meeting exclusions

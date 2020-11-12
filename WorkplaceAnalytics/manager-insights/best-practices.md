@@ -13,7 +13,7 @@ author: madehmer
 
 <ul class="panelContent cardsY">
     <li>
-        <a href="../tutorials/gm-coaching.md">
+        <a href="./coaching.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -32,7 +32,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-wellbeing.md">
+        <a href="./wellbeing.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -51,7 +51,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-meetings.md">
+        <a href="./meetings.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -70,7 +70,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-focus.md">
+        <a href="./focus.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -89,7 +89,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-connectedness.md">
+        <a href="./connectedness.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -108,7 +108,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-overload.md">
+        <a href="./overload.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -127,7 +127,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-communication.md">
+        <a href="./communication.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -146,7 +146,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-cgcollaboration.md">
+        <a href="./cgcollaboration.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -165,7 +165,7 @@ author: madehmer
         </a>
     </li>
     <li>
-        <a href="../tutorials/gm-influencer.md">
+        <a href="./influencer.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -177,25 +177,6 @@ author: madehmer
                     <div class="cardText">
                         <h3>Influencers</h3>
                         <p>Learn how more change agents can lead your team and your company to be more agile and competitive.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="../tutorials/gm-cust-collab.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/wpa/playbooks/manager-coaching-64x64.svg" alt="customer focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Customer focus</h3>
-                        <p>Learn how spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.</p>
                     </div>
                 </div>
             </div>

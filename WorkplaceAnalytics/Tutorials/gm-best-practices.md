@@ -7,7 +7,7 @@ ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
 
----
+--- 
 # Workplace Analytics best practices
 
 <!--Any changes you make here, please also make in the same gm-best-practices.md file in the manager-insights folder or ask madehmer to do it, since she's the instigator of this scenario. Thanks!-->
@@ -196,6 +196,25 @@ author: madehmer
                     <div class="cardText">
                         <h3>Customer focus</h3>
                         <p>Learn how spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="gm-connectivity.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="../images/wpa/playbooks/cross-group-collab-64x64.svg" alt="customer focus"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Community connectivity</h3>
+                        <p>Learn how creating a work community helps improve overall team wellbeing and productivity.</p>
                     </div>
                 </div>
             </div>
