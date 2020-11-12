@@ -76,7 +76,7 @@ See [Register an application with the Microsoft identity platform](https://docs.
 
 1. Sign in to the Azure portal with an account that has permissions to register Azure AD applications, such as an [**Azure Application developer account**](https://docs.microsoft.com/azure/active-directory/roles/custom-create#create-a-new-custom-role-to-grant-access-to-manage-app-registrations).
 2. In Azure Active Directory, under **Manage**, select **App registrations**, and then select **New registration**.
-3. Enter a name for the **Azure Web App service** with a consistent naming convention format, such as: **wpaapps + YYYYMM + role** = **App registration name**. For example: **wpaapps202011-ui**.
+3. Enter a name for the **Azure Web App service** with a consistent naming convention, such as: **wpaapps + YYYYMM + role** = **App registration name**. For example: **wpaapps202011-ui**.
 4. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
 5. Select **Certificates & secrets**, and then in **Client secrets**, select **New client secret**, type a description, select when it expires, and then select **Add** to create a secret for the app service.
 6. Copy and save this new **secret** to use during deployment.
@@ -86,28 +86,33 @@ See [Register an application with the Microsoft identity platform](https://docs.
 10. Copy and save the **Application (client) ID** for both the app service and app API service.
 11. Select **Certificates & secrets**, and then in **Client secrets**, select **New client secret**, type a description, select when it expires, and then select **Add** to create a secret for the API service.
 12. Copy and save this new **secret** to use during deployment.
+13. Complete the [deployment steps](#deployment) and in **Step 10**, select **Authentication** and update the **Redirect URI** for each app with the Application (client) ID and secret you saved in the previous steps.
 
 ### To configure the registered apps
 
 1. After completing the [deployment steps for the templates](#deployment), sign in to the Azure portal with an account that has permissions, and then open Azure Active Directory.
-2. For the Azure Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
-
-   1. **API permissions** - Select **Azure Active Directory Graph**, and then select **User.Read** and **Delegated**.
-   2. **Expose API** – Select to grant the delegated permission for this registration.
-   3. **Authentication update** - Add the [**Redirect URIs**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri). The format will be similar to the following:
+2. Select the **Azure Web App service API** > **API permissions**, and confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed.
+3. Select **Expose an API**, and then select **Save and continue** to grant delegated permission.
+4. In **Add a scope** > **Scope name**, enter **user_impersonation**. 
+5. In **Admin consent display name**, enter **user_impersonation** again.
+6. In the descriptions, enter something like: **Allows access to the wpa app API**.
+7. Confirm **Enabled** is selected, and then select **Add scope**.
+8. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Azure Web App API service**. The format will be similar to this:
 
      `https://wpaapps202011-api.azurewebsites.net/.auth/login/aad/callback`
 
+9. Select the **Azure Web App API service** > **API permissions**, confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed, as shown in the graphic.
+
     ![Azure AD API permissions](./images/aad-permissions.png)
 
-3. For the Azure API Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
+10. Select **Add a permission** > **APIs my organization uses**, and then search for and select the **Azure Web App service API** (for example: wpaapps202011-api).
+11. Select **Delegated permissions**, select **user_impersonation**, and then select **Add permissions**.
+12. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Azure Web App service**. The format will be similar to this:
 
-   * Select the **Azure api web app service** (for example: wpaapps202011-api).
-   * Select **user_impersonation** and **Delegated**.
-   * Grant consent for the organization.
+     `https://wpaapps202011.azurewebsites.net/`
 
-4. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
-5. Follow the steps in [Deployment](#deployment) and in **Step 10**, select **Authentication** and update the **Redirect URI** for each app.
+13. In **Implicit grant**, select both **Access tokens** and **ID tokens**, and then select **Configure**.
+14. Select API permissions, and then select **user_impersonation**, and then select **Grant admin consent for Microsoft** to enable API consent.
 
 ## Deployment
 
@@ -126,17 +131,17 @@ See [Register an application with the Microsoft identity platform](https://docs.
 9. On the **Databricks Token** page, you need to [generate the Azure Databricks Token](https://docs.azuredatabricks.net/api/latest/authentication.html#generate-a-token) for the App source and then select **Next**.
 10. In **Deployment Review**, do the following:
 
-* If you registered the apps before deployment, select Authentication and update the Redirect URI for each of the apps listed.
-* Otherwise, review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
+    * If you registered the apps before deployment, select **Authentication** and update the **Redirect URI** for each of the apps listed.
+    * Otherwise the apps are registered automatically during this step. Review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
 
-  * [Azure Active Directory App Registration](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) - To register the apps, complete the steps in [Register apps in Azure AD](#register-apps-in-azure-ad) after you complete these steps.
-  * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
-  * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
-  * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
-  * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-  * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
-  * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
-  * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
+      * [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+      * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
+      * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
+      * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
+      * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+      * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
+      * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
+      * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
 
 11. Select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 12. After the deployment is complete, open, copy, and save the deployed website link for the templates, similar to the one shown in the following graphic.
