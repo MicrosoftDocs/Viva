@@ -11,13 +11,15 @@ ms.prod: wpa
 
 # Workplace Analytics insights
 
-These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what recommended best practices are available to help drive change.
+*This experience is only available through private preview at this time.*
+
+These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what actions you can take to help drive change.
 
 ![Workplace Analytics insights home page image](../images/wpa/use/wpa-insights.png)
 
 ## Business outcomes
 
-Each of the following has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
+Each of the following business outcomes has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
 
 |Business outcome |Why it matters |
 |-----------------|--------------|
@@ -48,17 +50,15 @@ In the **Take action** section for each insight, select **Find out more** to see
 
 ![Take action for coaching](../images/wpa/use/coaching.png)
 
-* **Opportunity groups** - Lists the groups who are most effected and would benefit the most from these recommended actions, which are based on your organizational data and industry research.
-* **Explore** - Depending on your role and the best practice, you might see  **Explore the stats** or **Explore in Power BI** links for using [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
+* **Opportunity groups** - Lists the groups who are more effected and would benefit the most from the recommended best practices or [Plans](../tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
+* **Explore** - Depending on your role, **Explore the stats** or **Explore in Power BI** links you to [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
 
-## Network graphs
+## Organizational network analysis graphs
 
-Some of the insight visuals are organizational network analysis (ONA) graphs that help you visualize the collaborative relationships within your organization.
+The organizational network analysis (ONA) graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
 
-In these network graphs, each dot or node represents an employee or a group. The lines between the nodes represent connections, which are collaborative relationships between them. The node measures for employees are de-identified to maintain their privacy. Group node measures represent the group's measures, such as for a department (Sales) or a functional group (program managers) within the organization.
-
-For details, see [Organizational network metrics](insight-ona-measures.md).
+In these ONA graphs, each dot or node represents an employee. Node measurements are anonymized to maintain employee privacy. For details, see [Organizational network analysis metrics](insight-ona-measures.md).
 
 ## Error states
 

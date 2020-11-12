@@ -2,6 +2,16 @@
 
 
 
+## Week of October 26, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/28/2020 | [Catch up with your team through the Briefing email](/Briefing/be-manager) | modified |
+| 10/28/2020 | [Briefing email overview](/Briefing/be-overview) | modified |
+| 10/28/2020 | [Plan your week with the Briefing email](/Briefing/be-time) | modified |
+
+
 ## Week of October 19, 2020
 
 

@@ -21,10 +21,14 @@ ms.prod: wpa
 
 **Why is this happening?** 
 
-Users will see this error message when they have just purchased their tenants for Workplace Analytics, and where we have not yet provisioned their tenant. 
+You will see this error message in either of the following circumstances:
+ * You have not yet activated a subscription to Workplace Analytics. 
+ * You have activated a Workplace Analytics subscription but the service hasn't yet been provisioned. (This usually takes a few hours, but it can sometimes extend up to three days.)
 
+<!--
 > [!Note] 
 > Provisioning typically takes from 24 to 72 hours after purchasing Workplace Analytics licenses.
+-->
 
 **Escalation Process** 
 

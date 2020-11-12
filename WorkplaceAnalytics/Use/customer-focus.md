@@ -11,6 +11,8 @@ ms.prod: wpa
 
 # Increase customer focus
 
+*This experience is only available through private preview at this time.*
+
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
 Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
@@ -29,8 +31,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize time with customers  |Percentage of employees who are in the top quartile for total collaboration time spent with external customers |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Calculates how much time employees spent collaborating with people external to the company per month and averaged over the entire time period. |
-|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 meeting time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
+|Optimize time with customers  |Percentage of employees who spend 8+ hours in external collaboration every week |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Percentage of employees who spend more than 8 hours collaborating with people outside the company. This insight is calculated weekly and averaged over the entire time period. |
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four to get a weekly average. |
 <!--|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations |[Influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics) |Calculates how much time employees spent collaborating with the internal network per month and averaged over the entire time period. |-->
 
 ## Visual insights
@@ -41,16 +43,16 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight |Definition |
 |---------|--------|----------------------|
-|Optimize time with customers |Distribution of external collaboration |Percentage of employees grouped by the monthly average number of hours spent with customers (people outside the company) based on [collaboration](metric-definitions.md#person-metrics) metrics. |
-|Promote coaching and development |Distribution of monthly 1:1 time with managers |Shows the percentage of employees grouped by the monthly average number of hours spent with their managers one-on-one. This uses [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). |
+|Optimize time with customers |Distribution of external collaboration |Percentage of employees grouped by their weekly [external collaboration hours](metric-definitions.md#person-metrics). They are divided into groups of employees who spend zero to four0-4 hours, 4-8four to eight hours, and more than eight8+ hours collaborating externally with people outside the company. These percentages are calculated weekly and averaged over the entire time period. |
+|Promote coaching and development |Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, have between zero and one hour, and have more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
 <!--|Strengthen internal networks |Internal network connections by employee network strength |An [organizational network graph](insight-ona-measures.md) represents the distribution of current managers and potential managers as compared with the other employees within your organization, based on influence scores. You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles. This graph uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics). |-->
 
 ## Take action
 
 You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers. The following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role and the best practice, you might see [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links for using Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or Plans, which are based on your organizational data and industry research.
+* **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
 ## Best practices to increase customer focus
@@ -59,9 +61,7 @@ You can select **Take action** to see ways you can drive change or simply mainta
 
 Collaboration with customers and other external contacts enables employees to gain the customer and market knowledge needed for business success. Spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.
 
-According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.”
-
-Ways to support customer focus:
+According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.” Ways to support customer focus:
 
 * Use [MyAnalytics Important people list](../myanalytics/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
 * Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
@@ -70,9 +70,10 @@ For best practices and how to track time with your most important external conta
 
 ### Promote coaching and development
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to [How to make your one-on-ones with employees more productive](https://insights.office.com/management-strategy/how-to-make-your-one-on-ones-with-employees-more-productive/): "One-on-ones are one of the most important productivity tools you have as a manager." Ways to keep employees engaged:
 
-One of the top best practices for promoting coaching and development is to require that managers schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](../myanalytics/use/use-the-insights.md#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
+* Use [Insights](../myanalytics/use/use-the-insights.md#catch-up-with-your-team) to schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
+* Require managers to schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
 For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
 
