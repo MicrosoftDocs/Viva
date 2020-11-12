@@ -62,8 +62,8 @@ This section describes how to install the Insights Teams app for yourself. (If y
 1. Open Microsoft Teams on the web or in a desktop client. 
 
 2. At the bottom of the Microsoft Teams app bar (on the left), select **Apps**: 
-   
-   ![Apps icon in Teams](../workplaceanalytics/images/mya/use/teams-apps.png)
+
+   ![Apps icon in Teams](images/teams-apps.png)
  
 3. In the search field under **Apps**, type **Insights**:
    
