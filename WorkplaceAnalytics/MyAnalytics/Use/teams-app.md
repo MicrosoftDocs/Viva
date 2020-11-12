@@ -251,7 +251,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * Information from email items: 
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in/mya-add-in-to-do) for your use only.  
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in/mya-add-in-to-do.md) for your use only.  
 * Information from calendar items: 
   * Type (meeting or appointment) 
   * Status (busy, free, out-of-office, tentative) 
