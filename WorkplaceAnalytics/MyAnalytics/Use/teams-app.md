@@ -63,19 +63,19 @@ This section describes how to install the Insights Teams app for yourself. (If y
 
 2. At the bottom of the Microsoft Teams app bar (on the left), select **Apps**: 
 
-   ![Apps icon in Teams](images/teams-apps.png)
+   ![Apps icon in Teams](../../images/mya/use/teams-apps.png)
  
 3. In the search field under **Apps**, type **Insights**:
    
-   ![Search for Insights](images/apps-search-insights.png)
+   ![Search for Insights](../../images/mya/use/apps-search-insights.png)
 
 4. Select the **Insights** app:
 
-   ![Select Insights app](images/insights-app-teams.png)
+   ![Select Insights app](../../images/mya/use/insights-app-teams.png)
 
 5. Select **Add for me**:
 
-   ![Add for me button](images/add-for-me-new-410.png)
+   ![Add for me button](../../images/mya/use/add-for-me-new-410.png)
 
 This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
@@ -92,7 +92,7 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 2. Right-click any app icon and select **Pin** to make and keep your app visible in the Teams app bar. 
    
-   ![Pin an app in Teams](images/pin-an-app-75.png)
+   ![Pin an app in Teams](../../images/mya/use/pin-an-app-75.png)
 
 > [!Tip] 
 > You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
@@ -120,7 +120,7 @@ The Teams insights app comes with a range of features that you can find by selec
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
    
-   ![Stay connected](images/stay-connected.png)
+   ![Stay connected](../../images/mya/use/stay-connected.png)
 
 The **Stay connected** tab can contain insights such as the following: 
 
@@ -141,11 +141,11 @@ Based on your collaboration patterns, you can pin some of your contacts as impor
 
 To pin a contact, select the **pin** icon on the bottom left below the contact’s name: 
    
-   ![Pin a contact](images/pin-contact.png)
+   ![Pin a contact](../../images/mya/use/pin-contact.png)
 
 To unpin a contact, select the **unpin** icon: 
    
-   ![Unpin a contact](images/unpin-contact.png)
+   ![Unpin a contact](../../images/mya/use/unpin-contact.png)
 
 #### Set up 1:1 meeting reminders 
 
@@ -155,7 +155,7 @@ In the following example, if Lynne was an important colleague, you could set up 
 
 If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
    
-   ![MyAnalytics settings](images/1-1-meeting-target-75-80.png)
+   ![MyAnalytics settings](../../images/mya/use/1-1-meeting-target-75-80.png)
 
 #### 1:1 meeting suggestions 
 
@@ -163,7 +163,7 @@ If you’ve set up a target 1:1 meeting cadence with your colleague through the 
 
 In the following example, you can select one of the proposed meeting times and then select **Send invite** to send a meeting invitation to Lynne. Insights will only show meeting time blocks when both of you are available to meet. If none of the suggested time blocks work, you can select **View calendar for other items** to open the Teams calendar and schedule a meeting on your own. 
    
-   ![Schedule a 1:1](images/schedule-1-1.png)
+   ![Schedule a 1:1](../../images/mya/use/schedule-1-1.png)
 
 #### Reschedule a 1:1 in case of conflict  
 
@@ -171,7 +171,7 @@ Insights also helps you follow through on your intent to have 1:1 meeting with y
 
 In the following example, if your meeting with Lynne has a conflict, Insights will remind you of the conflict ahead of time and you can quickly choose a new time for the 1:1 meeting and select **Reschedule** to move the meeting invitation. 
    
-   ![1:1 has a conflict](images/1-1-conflict.png)
+   ![1:1 has a conflict](../../images/mya/use/1-1-conflict.png)
 
 #### Stay on top of outstanding task suggestions 
 
@@ -183,7 +183,7 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select **Done** to confirm that you’ve already followed up.  
    
-   ![Sync on regression tests email](images/sync-up.png)
+   ![Sync on regression tests email](../../images/mya/use/sync-up.png)
 
 #### Catch up on unread documents shared with you 
 
@@ -191,13 +191,13 @@ Have you searched for that document that you planned to read but you just cannot
 
 In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**. 
    
-   ![Unread document from the meeting](images/unread-doc.png)
+   ![Unread document from the meeting](../../images/mya/use/unread-doc.png)
 
 #### @Mentions for pinned important contacts 
 
 @Mention is a common way to tag colleagues on important work items. Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up. 
    
-   ![Sync on virtual commute research](images/sync-virtual.png)
+   ![Sync on virtual commute research](../../images/mya/use/sync-virtual.png)
 
 #### Upcoming meetings that need your RSVP 
 
@@ -205,7 +205,7 @@ Let your colleagues know if you can join their meeting so that they can run effe
 
 In the following example, select **Sync on Proposal** to open the meeting invitation for more context on the meeting and then select **Accept** to accept (or **Decline** to decline) the meeting invitation. 
    
-   ![You haven't RSVP'd](images/havent-rsvpd.png)
+   ![You haven't RSVP'd](../../images/mya/use/havent-rsvpd.png)
 
 ### Protect time tab 
 
@@ -215,7 +215,7 @@ Insights can help you protect time for focused work and minimize notifications (
 
 In the following example, select **Book Time** to reserve the time slot for focused work. If you don’t need the time anymore, you can select **Remove slot** to free up your calendar. You can also select edit (the pencil icon) to change the name of the focus time block; this automatically updates the subject of this focus-time booking on your calendar. 
    
-![Book focus time](images/book-time-2.png)  
+![Book focus time](../../images/mya/use/book-time-2.png)  
 
 ## Frequently asked questions 
 
@@ -237,13 +237,13 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * At the bottom of every Insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
-   ![Is this helpful? Yes No](images/is-helpful.png)
+   ![Is this helpful? Yes No](../../images/mya/use/is-helpful.png)
 
 * Every page in the Insights app has the question, "Is this helpful?" at the bottom right corner. Select **Yes** or **No** to provide feedback.  
    
    After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
-   ![Thanks for the feedback](images/thanks-for-feedback-70-80.png)
+   ![Thanks for the feedback](../../images/mya/use/thanks-for-feedback-70-80.png)
    
 ##### Q5. What data does the Teams Insights app use? 
 
@@ -251,7 +251,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * Information from email items: 
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-outlook-add-in/mya-add-in-to-do) for your use only.  
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in/mya-add-in-to-do) for your use only.  
 * Information from calendar items: 
   * Type (meeting or appointment) 
   * Status (busy, free, out-of-office, tentative) 
