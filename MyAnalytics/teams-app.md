@@ -215,7 +215,7 @@ Insights can help you protect time for focused work and minimize notifications (
 
 In the following example, select **Book Time** to reserve the time slot for focused work. If you don’t need the time anymore, you can select **Remove slot** to free up your calendar. You can also select edit (the pencil icon) to change the name of the focus time block; this automatically updates the subject of this focus-time booking on your calendar. 
    
-   ![Book focus time](images/book-time.png)
+   ![Book focus time](images/book-time-2.png)
 
 ## Frequently asked questions 
 
@@ -251,7 +251,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * Information from email items: 
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in/mya-add-in-to-do.md) for your use only. 
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](../workplaceanalytics/myanalytics/use/mya-outlook-add-in/mya-add-in-to-do.md) for your use only. 
 * Information from calendar items: 
   * Type (meeting or appointment) 
   * Status (busy, free, out-of-office, tentative) 
