@@ -61,9 +61,8 @@ These templates require an Azure Active Directory (AD) application registration 
 
 You can register these apps in one of the following ways:
 
-* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Register these required apps in the Azure portal to get the Microsoft identify platform to provide authentication and authorization. After registering, you must then deploy and authenticate the use of the templates through the template deployment site.
-
-* [Register the apps in Step 10 during deployment](#deployment) - You can also register the apps during deployment through the Microsoft AppSource solution template deployment site.
+* [Register the apps in Step 10 during deployment](#deployment) - You can also automatically register the apps during deployment through the Microsoft AppSource solution template deployment site.
+* [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad) - Alternatively, you can register the required apps in the Azure Active Directory. This enables you to get the Microsoft identify platform to provide authentication and authorization. After registering, you must then deploy and authenticate the use of the templates through the template deployment site.
 
 ## Register apps in Azure AD
 
@@ -73,30 +72,42 @@ Registering the apps before deployment enables Azure Active Directory (Azure AD)
 
 See [Register an application with the Microsoft identity platform](https://docs.microsoft.com/graph/auth-register-app-v2) and [Register an app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) for details.
 
-### Registration steps
+### To register the apps and create client secrets
 
 1. Sign in to the Azure portal with an account that has permissions to register Azure AD applications, such as an [**Azure Application developer account**](https://docs.microsoft.com/azure/active-directory/roles/custom-create#create-a-new-custom-role-to-grant-access-to-manage-app-registrations).
 2. In Azure Active Directory, under **Manage**, select **App registrations**, and then select **New registration**.
-3. Enter a name for the **Azure Web App service** with a consistent naming convention format, such as: **wpaapps + YYYYMMDD + role** = **App registration name**. For example: **wpaapps20201031091429-ui**.
-4. Select **New registration** and enter a name for the **Azure API Web App service**, such as: **wpaapps2020103131091429-api**.
-5. For the Azure Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
+3. Enter a name for the **Azure Web App service** with a consistent naming convention format, such as: **wpaapps + YYYYMM + role** = **App registration name**. For example: **wpaapps202011-ui**.
+4. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
+5. Select **Certificates & secrets**, and then in **Client secrets**, select **New client secret**, type a description, select when it expires, and then select **Add** to create a secret for the app service.
+6. Copy and save this new **secret** to use during deployment.
+7. Select **New registration** again for the **Azure API Web App service** and enter a name for it, such as: **wpaapps202011-api**.
+8. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
+9. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
+10. Copy and save the **Application (client) ID** for both the app service and app API service.
+11. Select **Certificates & secrets**, and then in **Client secrets**, select **New client secret**, type a description, select when it expires, and then select **Add** to create a secret for the API service.
+12. Copy and save this new **secret** to use during deployment.
+
+### To configure the registered apps
+
+1. After completing the [deployment steps for the templates](#deployment), sign in to the Azure portal with an account that has permissions, and then open Azure Active Directory.
+2. For the Azure Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
 
    1. **API permissions** - Select **Azure Active Directory Graph**, and then select **User.Read** and **Delegated**.
    2. **Expose API** – Select to grant the delegated permission for this registration.
    3. **Authentication update** - Add the [**Redirect URIs**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri). The format will be similar to the following:
 
-     `https://wpaapps20201031-api.azurewebsites.net/.auth/login/aad/callback`
+     `https://wpaapps202011-api.azurewebsites.net/.auth/login/aad/callback`
 
     ![Azure AD API permissions](./images/aad-permissions.png)
 
-6. For the Azure API Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
+3. For the Azure API Web App service, select **API permissions** > **Add a permission**, and then select the following, similar to what's shown in the graphic:
 
-   * Select the **Azure api web app service** (for example: wpaapps20201031091429-api).
+   * Select the **Azure api web app service** (for example: wpaapps202011-api).
    * Select **user_impersonation** and **Delegated**.
    * Grant consent for the organization.
 
-7. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
-8. Follow the steps in [Deployment](#deployment) and in **Step 10**, select **Authentication** and update the **Redirect URI** for each app.
+4. To enable **implicit grant flow** for the apps in Azure AD, locate and select the check box for both **Access Tokens** and **ID tokens**.
+5. Follow the steps in [Deployment](#deployment) and in **Step 10**, select **Authentication** and update the **Redirect URI** for each app.
 
 ## Deployment
 
@@ -235,25 +246,8 @@ As an admin, you can configure template settings in **Admin** > **Configuration*
 
 As an admin, you can audit user activity in **Admin** > **Logs**. Select the **information** (i) icon in the **Message** column to see more details about a specific  activity.
 
-## Get support
-
-* For help with Workplace Analytics Azure Templates, see [the next section](#azure-templates-support).
-* For setup and data analysis help with Workplace Analytics, open [Workplace Analytics](https://workplaceanalytics.office.com), select the **smiley face** icon (at the top), enter your question or feedback, and then select **Send**.
-* For general help with Office 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
-
-### Azure Templates Support
-
-The following scenario support specifically for Workplace Analytics Azure Templates is available to you only as part of an active Microsoft service engagement.
-
-* **Deployment support** – You can get assistance with deploying the Workplace Analytics Azure Templates into your Azure subscription environment. Based on agreed on environment access as part of your service engagement, Azure Template Support can help deploy components or instruct your Azure admin to execute scripts, register apps, and other related deployment tasks.
-* **Reliability support** - Depending on environment access, you can get help with specific Azure Template deployed scenarios to ensure they are operational and processing data correctly.
-* **Sustainability support** - Get hot fixes to remediate any unforeseen issues. Any reported issue impacting the functionality of a scenario will be internally reviewed and triaged to determine resolution time.
-* **Updates and releases** - You'll get new major releases and updates with the latest capabilities based on your utilized scenarios. If Support does not have access to push updates to your environment, your delegated Azure admin will get notifications of new updates and releases.
-
->[!Note]
->If an issue occurs because of an underlying service or component that an Azure Template scenario uses, you might be referred to other Support channels for escalation, such as a downed service or a failed data export.
-
 ## Related topics
 
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
+* [Azure Templates support](support.md)
