@@ -46,7 +46,7 @@ The subject line is “Your daily briefing” and the sender is cortana@microsof
 
 #### Q2. How does the Briefing email show up in Outlook?
 
-A2. The Briefing email is not a standard email. It is system generated and does not go through the standard email delivery process. Instead, it is inserted directly into your Outlook inbox by Cortana. Briefing emails cannot be managed by email rules or transport rules.
+The Briefing email is not a standard email. It is system generated and does not go through the standard email delivery process. Instead, it is inserted directly into your Outlook inbox by Cortana. Briefing emails cannot be managed by email rules or transport rules.
 
 #### Q3. How often does the email come?  
 
