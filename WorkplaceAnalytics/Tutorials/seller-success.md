@@ -201,4 +201,4 @@ The final card in the digest is the Explore card. On this card, select **Explore
 
 **Q6.** Could this data be used for other purposes?
 
-**A6.** There is no mechanism or option that allows anyone but you to access the personalized information that you receive in this email, unless you purposefully and independently share that information. The data and insights provided by this feature cannot be used for automated decision-making or for profiling.
+**A6.** There is no mechanism or option that allows anyone but you to access the personalized information that you receive in this email, unless you purposefully and independently share that information. The data and insights provided by this feature cannot be used for automated decision making or for profiling.

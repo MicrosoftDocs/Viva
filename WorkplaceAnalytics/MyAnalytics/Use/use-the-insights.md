@@ -29,7 +29,7 @@ The information in this section helps you get the most out of the following insi
 
 ## Prepare for your meetings
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf). 
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
 
 **Prepare for your meetings** shows you a list of upcoming meetings that you've organized or that you've been invited to. This insight helps you decide whether each meeting is ready to go. 
 
@@ -147,7 +147,7 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
 _**Applies to**: MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq#q4-how-can-i-find-out-what-my-plan-is.md)_
 
-Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision-making. This insight gives you feedback on how well your sent emails are received. 
+Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision making. This insight gives you feedback on how well your sent emails are received. 
 
 **Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why: 
 

@@ -6,7 +6,6 @@ title: Meeting preparation card in MyAnalytics
 description: Describes how the Meeting prep card looks and works 
 author: paul9955
 ms.author: v-pausch
-ms.date: 08/15/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
@@ -16,9 +15,9 @@ ms.prod: Mya
 
 ## Meeting preparation
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](MyAnalytics-meetings-september-2018.pdf).
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and team connectedness. Read more about best practices for running effective meetings in [this playbook](MyAnalytics-meetings-september-2018.pdf).
 
-The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go. 
+The meeting preparation card shows you a list of upcoming meetings that you have organized, and it helps you evaluate whether each meeting is ready to go.
 
 #### To view and use the meeting preparation card
 

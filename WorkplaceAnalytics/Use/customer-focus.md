@@ -15,15 +15,11 @@ ms.prod: wpa
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
-
-* [Optimize time with customers](#optimize-time-with-customers)
-* [Promote coaching and development](#promote-coaching-and-development)
-<!--* [Strengthen internal networks](#strengthen-internal-networks)-->
+Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Increase customer focus insights](../images/wpa/use/customer-focus.png)
 
-## Percentage insights
+## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -34,8 +30,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Optimize time with customers  |Percentage of employees who spend 8+ hours in external collaboration every week |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Percentage of employees who spend more than 8 hours collaborating with people outside the company. This insight is calculated weekly and averaged over the entire time period. |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four to get a weekly average. |
 <!--|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations |[Influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics) |Calculates how much time employees spent collaborating with the internal network per month and averaged over the entire time period. |-->
-
-## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -55,8 +49,14 @@ You can select **Take action** to see ways you can drive change or simply mainta
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to increase customer focus
- 
+## Best practices
+
+This section describes why each of the following behaviors matter and the top best practices that can help increase customer focus.
+
+* [Optimize time with customers](#optimize-time-with-customers)
+* [Promote coaching and development](#promote-coaching-and-development)
+<!--* [Strengthen internal networks](#strengthen-internal-networks)-->
+
 ### Optimize time with customers
 
 Collaboration with customers and other external contacts enables employees to gain the customer and market knowledge needed for business success. Spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.
