@@ -32,6 +32,9 @@ In Outlook for Windows, inline suggestions will show up while reading or composi
 
 Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 
+> [!Note] 
+> Inline suggestions are not available on mobile devices. 
+
 ## Types of inline suggestions
 
 The following are a few of the suggestions you might see in Outlook:

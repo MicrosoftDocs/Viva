@@ -34,6 +34,9 @@ Before you can use the Insights add-in, be sure that the following prerequisites
   * Add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook).
   * Internet Explorer version 10 or 11 is installed on your computer.  
 
+> [!Note] 
+> The Outlook Insights add-in is not available on mobile devices. 
+
 Open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
 * Select an email. In Outlook, you can do this in one of the following ways:
 
