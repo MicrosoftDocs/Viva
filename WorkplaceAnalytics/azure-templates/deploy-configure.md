@@ -110,7 +110,7 @@ See [Register an application with the Microsoft identity platform](https://docs.
 11. Select **Delegated permissions**, select **user_impersonation**, and then select **Add permissions**.
 12. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Web App service UI**. The format will be similar to this:
 
-     `https://wpaapps202011.azurewebsites.net/`
+     `https://wpaapps202011-ui.azurewebsites.net/`
 
 13. In **Implicit grant**, select both **Access tokens** and **ID tokens**, and then select **Configure**.
 14. Select API permissions, and then select **user_impersonation**, and then select **Grant admin consent for Microsoft** to enable API consent.
