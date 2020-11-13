@@ -163,7 +163,7 @@ Select **See other available times** to open the Insights add-in pane and displa
 
 Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work. 
 
-![focus time send email](../../Images/mya/use/move-focus-block-50.png)
+![move focus block](../../Images/mya/use/move-focus-block-50.png)
 
 ## Shorten a meeting
 
@@ -183,7 +183,7 @@ While reading an email that you've sent, you might see an insight that highlight
 
 Select **See more insights** to see how many people have opened or forwarded your email and the average time that they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
-![Track email open rate](../../Images/mya/use/email-open-rates-50.png)
+![email open rates](../../Images/mya/use/email-open-rates-50.png)
 
 ## Track email
 
