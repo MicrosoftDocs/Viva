@@ -94,7 +94,6 @@ MyAnalytics is available in the same languages as Microsoft Office. See [What la
 
 ### Outlook support and prerequisites
 
-MyAnalytics feature | Supported in Outlook 2013? | Supported in Outlook 2016? | Mobile support?
- ----- | ----- |----- | ----
-Outlook Add-in | Yes, when the add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook). | Yes | No
-Inline suggestions | No | Yes, when actionable messages are supported and enabled. For details, see [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/). | No  
+For the Outlook add-in, see [Why don't I see the Outlook Insights add-in?](../use/add-in.md#why-dont-i-see-the-outlook-insights-add-in)
+
+For Inline suggestions, see [Why don't I see any inline suggestions?](../use/mya-notifications.md#why-dont-i-see-any-inline-suggestions)
