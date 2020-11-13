@@ -25,7 +25,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
 3. [Choose an app registration path](#choose-a-registration-path):
 
    * [Register the apps during deployment](#deployment)
-   * [Register the apps in Azure AD before deployment](#register-apps-in-azure-ad)
+   * [Register the apps in Azure AD before deployment](#register-and-configure-the-apps-in-azure-ad)
 
 4. [Deploy the templates](#deployment)
 5. [Configure the registered apps in Azure AD](#to-configure-the-registered-apps) - Only do this if you chose to register the apps in Azure AD before deployment.
@@ -58,7 +58,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 
 ## Choose a registration path
 
-These templates require an Azure Active Directory (AD) application registration for the Azure Web App service UI, the Web App service API, the Azure Analysis service, and the Azure key vault.
+These templates require an Azure Active Directory (AD) application registration for the Web App service UI, the Web App service API, the Azure Analysis service, and the Azure key vault.
 
 You can register these apps in one of the following ways:
 
@@ -77,11 +77,11 @@ See [Register an application with the Microsoft identity platform](https://docs.
 
 1. Sign in to the Azure portal with an account that has permissions to register Azure AD applications, such as an [**Azure Application developer account**](https://docs.microsoft.com/azure/active-directory/roles/custom-create#create-a-new-custom-role-to-grant-access-to-manage-app-registrations).
 2. In Azure Active Directory, under **Manage**, select **App registrations**, and then select **New registration**.
-3. Enter a name for the **Azure Web App service UI** with a consistent naming convention, such as: **wpaapps + YYYYMM + role** = **App registration name**. For example: **wpaapps202011-ui**.
+3. Enter a name for the **Web App service UI** with a consistent naming convention, such as: **wpaapps + YYYYMM + role** = **App registration name**. For example: **wpaapps202011-ui**.
 4. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
 5. Select **Certificates & secrets**, and then in **Client secrets**, select **New client secret**, type a description, select when it expires, and then select **Add** to create a secret for the app service.
 6. Copy and save this new **secret** to use during deployment.
-7. Select **New registration** again for the **Azure Web App service API** and enter a name for it, such as: **wpaapps202011-api**.
+7. Select **New registration** again for the **Web App service API** and enter a name for it, such as: **wpaapps202011-api**.
 8. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
 9. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
 10. Copy and save the **Application (client) ID** for both the app service and app API service.
@@ -92,23 +92,23 @@ See [Register an application with the Microsoft identity platform](https://docs.
 ### To configure the registered apps
 
 1. After completing the [deployment steps for the templates](#deployment), sign in to the Azure portal with an account that has permissions, and then open Azure Active Directory.
-2. Select the **Azure Web App service API** > **API permissions**, and confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed.
+2. Select the **Web App service API** > **API permissions**, and confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed.
 3. Select **Expose an API**, and then select **Save and continue** to grant delegated permission.
 4. In **Add a scope** > **Scope name**, enter **user_impersonation**.
 5. In **Admin consent display name**, enter **user_impersonation** again.
 6. In the descriptions, enter something like: **Allows access to the wpa app API**.
 7. Confirm **Enabled** is selected, and then select **Add scope**.
-8. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Azure Web App API service**. The format will be similar to this:
+8. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Web App service API**. The format will be similar to this:
 
      `https://wpaapps202011-api.azurewebsites.net/.auth/login/aad/callback`
 
-9. Select the **Azure Web App service UI** > **API permissions**, confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed, as shown in the graphic.
+9. Select the **Web App service UI** > **API permissions**, confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed, as shown in the graphic.
 
     ![Azure AD API permissions](./images/aad-permissions.png)
 
-10. Select **Add a permission** > **APIs my organization uses**, and then search for and select the **Azure Web App service API** (for example: wpaapps202011-api).
+10. Select **Add a permission** > **APIs my organization uses**, and then search for and select the **Web App service API** (for example: wpaapps202011-api).
 11. Select **Delegated permissions**, select **user_impersonation**, and then select **Add permissions**.
-12. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Azure Web App service UI**. The format will be similar to this:
+12. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Web App service UI**. The format will be similar to this:
 
      `https://wpaapps202011.azurewebsites.net/`
 
