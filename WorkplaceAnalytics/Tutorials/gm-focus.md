@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Having scheduled, uninterrupted time to focus on deep work provides employees an opportunity to complete difficult tasks, produce high quality output, and generate new ideas.
 
-Focus hours are uninterrupted stretches of time in your day to get your most important work done. However, meetings and interruptions prevent most of us from having adequate time to focus. Time to focus increases productivity, improves decision-making, and boosts creativity.
+Focus hours are uninterrupted stretches of time in your day to get your most important work done. However, meetings and interruptions prevent most of us from having adequate time to focus. Time to focus increases productivity, improves decision making, and boosts creativity.
 
 ## Why it matters
 

@@ -13,16 +13,11 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
-Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets.
-
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
-
-* [Enable deep work](#enable-deep-work)
-* [Utilize influencers](#utilize-influencers)
+Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Foster innovation page](../images/wpa/use/innovation.png)
 
-## Percentage insights
+## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -32,8 +27,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |---------|--------|--------------------|----------------------|
 |Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
 |Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
-
-## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -52,7 +45,12 @@ You can select **Take action** to see ways you can drive innovation. The followi
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to foster innovation
+## Best practices
+
+This section describes why each of the following behaviors matter and the top best practices that can help foster innovation.
+
+* [Enable deep work](#enable-deep-work)
+* [Utilize influencers](#utilize-influencers)
 
 <!-- ### Foster cross-group collaboration
 

@@ -13,16 +13,11 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
+Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-* [Free up capacity](#free-up-capacity)
-* [Improve meeting quality](#improve-meeting-quality)
-* [Keep employees engaged](#keep-employees-engaged)
-* [Protect time to get work done](#protect-time-to-get-work-done)
+![Enhance operational effectiveness page](../images/wpa/use/effective-operations.png)
 
-![Maximize operational effectiveness page](../images/wpa/use/effective-operations.png)
-
-## Percentage insights
+## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -34,8 +29,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), and [meeting hours](metric-definitions.md#meeting-hours-define)|The percentage of employees who spent over 50 percent of their meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. This is calculated weekly and averaged for the entire time period. |
 |Keep employees engaged |Percentage of employees who significantly multitask in meetings |[Multi-tasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define) |Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and averaged for the entire time period. |
 |Protect time to get work done |Percentage of employees who have less than 20 hours available to focus each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week, which is calculated weekly and averaged for the entire time period. |
-
-## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -56,7 +49,14 @@ You can select **Take action** to see ways you can maximize operational effectiv
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to enhance operational effectiveness
+## Best practices
+
+This section describes why each of the following behaviors matter and the top best practices that can help enhance operational effectiveness.
+
+* [Free up capacity](#free-up-capacity)
+* [Improve meeting quality](#improve-meeting-quality)
+* [Keep employees engaged](#keep-employees-engaged)
+* [Protect time to get work done](#protect-time-to-get-work-done)
 
 ### Free up capacity
 
