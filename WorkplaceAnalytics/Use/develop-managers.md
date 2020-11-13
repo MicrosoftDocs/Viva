@@ -37,13 +37,13 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Definitions |
 |---------|--------|----------------------|
-|Optimize meeting hours |Manager meetings by duration and number of attendees | Shows the percentage of [manager meetings](metric-definitions.md#meeting-hours-with-manager-define) based on their type, including: [Large meetings](glossary.md#large-meeting-define) with more than eight attendees, [long meetings](glossary.md#long-meeting-define) that are longer than one hour, [long and large meetings](glossary.md#long-and-large-meeting-define) with more than eight attendees and are longer than one hour, and [decision-making meetings](glossary.md#decision-making-meeting-define) with between two and eight attendees and are less than one hour in duration. These percentages are calculated weekly and averaged over the entire time period. |
+|Optimize meeting hours |Manager meetings by duration and number of attendees | Shows the percentage of [manager meetings](metric-definitions.md#meeting-hours-with-manager-define) based on their type, including: [Large meetings](glossary.md#large-meeting-define) with more than eight attendees, [long meetings](glossary.md#long-meeting-define) that are longer than one hour, [long and large meetings](glossary.md#long-and-large-meeting-define) with more than eight attendees and are longer than one hour, and [decision making meetings](glossary.md#decision-making-meeting-define) with between two and eight attendees and are less than one hour in duration. These percentages are calculated weekly and averaged over the entire time period. |
 |Prevent burnout |Distribution of after-hours collaboration from managers |Percentage of managers based on their weekly [after hours collaboration](metric-definitions.md#after-hours-collaboration-define). They are divided into those who spend less than one hour, between one to five hours, and more than five hours collaborating after hours. These percentages are calculated weekly and averaged over the entire time period. |
 |<a name="ona-strengthen-define"></a>Strengthen management pipeline |Distribution of potential manager candidates |An [organizational network graph](insight-ona-measures.md) that represents the distribution of current managers and potential managers within your organization, based on [influence scores](metric-definitions.md#organizational-network-analysis-ona-metrics). You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles. |
 |Promote coaching and development |Distribution 1:1 time with managers each month |Shows the percentage of employees based on their monthly average number of [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. This graph also uses the [influence metric](metric-definitions.md#organizational-network-analysis-ona-metrics). |
 |Empower employees |Distribution of manager-employee coaching relationships |Uses the average time employees spend with their [managers in 1:1s](metric-definitions.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with the manager](metric-definitions.md#meeting-hours-with-manager-define) in attendance. The different manager-employee coaching relationships are grouped by employee time percentages that are weekly averages based on the monthly calculations: <ul><li>**Coached** - Spend more than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance.</li><li>**Co-attended** - Spend less than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spend more than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - Spend less than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance. </li> |<!--|Foster connectivity |Managers and cross-group connectivity |Shows an organizational network graph representing well-connected managers, less-connected managers, and all other employees based on their network connections within your organization. Enables you to see the impact a manager's network has on engagement and the networks of direct reports. These insights enable you to build more effective manager training programs to improve engagement and broader organizational connectivity. |-->
 
-## Actions
+## Take action
 
 You can select **Take action** to see ways you can develop effective managers in your organization. The following are available in addition to the recommendations within Take action.
 
@@ -63,7 +63,7 @@ This section describes why each of the following behaviors matter and the top be
 
 ### Optimize meeting hours
 
-Long and large meetings are costly and often a waste of manager time. Shorter and smaller meetings provide the best conditions for effective decision-making.
+Long and large meetings are costly and often a waste of manager time. Shorter and smaller meetings provide the best conditions for effective decision making.
 
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Ways to optimize meetings:
 
@@ -105,7 +105,7 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 ### Empower employees
 
-Cultivating autonomy and development are essential for employee engagement. Managers who empower employees to make decisions and tackle new challenges are more effective and reclaim time.
+Cultivating autonomy and development are essential for employee engagement. When managers empower employees to make decisions and tackle new challenges, enables them to be more effective and reclaim time.
 
 [How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that "helping your team manage its time well is a critical factor for its success." Ways to increase information sharing:
 

@@ -29,7 +29,7 @@ The visual behavioral insight for **Engage influencers** is **Reach of influence
 
 ![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
 
-## Actions
+## Take action
 
 You can select **Take action** to see ways you can drive accelerate organizational change. The following are available in addition to the recommendations within Take action.
 
