@@ -81,7 +81,7 @@ This adds the app to all the places where you might use Microsoft Teams, includi
 <!-- OUT FOR NOW and Teams on a mobile device. -->
 
 > [!Note] 
-> You can also locate the Insights app through this link: https://aka.ms/InsightsInTeams. 
+> You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp. 
 
 ### Pin the app 
 
