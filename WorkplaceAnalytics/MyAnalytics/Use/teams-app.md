@@ -57,7 +57,7 @@ To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/priva
 
 ## Install Insights 
 
-This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin controls](#admin-controls).)  
+This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin tasks: Quick-start guide](#admin-tasks-quick-start-guide).)  
 
 1. Open Microsoft Teams on the web or in a desktop client. 
 
@@ -77,10 +77,11 @@ This section describes how to install the Insights Teams app for yourself. (If y
 
    ![Add for me button](../../images/mya/use/add-for-me-new-410.png)
 
-This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client, Teams on the web, and Teams on a mobile device.
+This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client and Teams on the web. 
+<!-- OUT FOR NOW and Teams on a mobile device. -->  
 
 > [!Note] 
-> You can also locate the Insights app through this link: https://aka.ms/InsightsInTeams. 
+> You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp. 
 
 ### Pin the app 
 
@@ -97,7 +98,8 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 > [!Tip] 
 > You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
  
-#### On the iOS and Android mobile platforms 
+#### On the iOS platform
+<!-- OUT FOR NOW and Android mobile platforms -->
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
@@ -269,13 +271,25 @@ Insights does not use:
 
 **A6.** To get access to the full functionality of the Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
 
-## Admin controls 
+## Admin tasks: Quick-start guide
 
-### Install the Insights app for your organization 
+[Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). 
 
-[Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). To allow or block specific users in your organization from using Insights, do the following: 
+Complete the steps in the following four mini-playbooks to get the Teams Insights app up and running for people in your organization. 
 
-1. Make sure that Insights is turned on for your organization on the [Manage apps](https://docs.microsoft.com/microsoftteams/manage-apps) page. 
-2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps) policies in Teams. 
+1. Turn on the Teams Insights app for your organization: 
+[Release the Insights app within your organization](Release-the-Insights-app.pdf). 
 
+   > [!Note] 
+   > To allow or block specific users in your organization from using Insights, do the following: 
+   > 
+   > 1. Make sure that Insights is turned on for your organization on the [Manage apps](https://docs.microsoft.com/microsoftteams/manage-apps) page. 
+   > 
+   > 2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps) policies in Teams. 
+
+2. Install the Teams Insights app for all employees in your organization: [Install the Insights app](Install-the-Insights-app.pdf). 
+
+3. Pin the Teams Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Teams Insights app](Pin-the-Insights-app.pdf). 
+
+4. Now that the Teams Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](Find-and-open-the-Insights-app.pdf). 
  
