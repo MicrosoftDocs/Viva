@@ -57,7 +57,7 @@ To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/priva
 
 ## Install Insights 
 
-This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin controls](#admin-controls).)  
+This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin tasks: Quick-start guide](#admin-tasks-quick-start-guide).)  
 
 1. Open Microsoft Teams on the web or in a desktop client. 
 
@@ -77,7 +77,8 @@ This section describes how to install the Insights Teams app for yourself. (If y
 
    ![Add for me button](../../images/mya/use/add-for-me-new-410.png)
 
-This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client, Teams on the web, and Teams on a mobile device.
+This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client and Teams on the web. 
+<!-- OUT FOR NOW and Teams on a mobile device. -->
 
 > [!Note] 
 > You can also locate the Insights app through this link: https://aka.ms/InsightsInTeams. 
@@ -97,7 +98,8 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 > [!Tip] 
 > You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
  
-#### On the iOS and Android mobile platforms 
+#### On the iOS platform
+<!-- OUT FOR NOW and Android mobile platforms -->
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
@@ -269,7 +271,7 @@ Insights does not use:
 
 **A6.** To get access to the full functionality of the Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
 
-## Admin tasks: Quick start guide
+## Admin tasks: Quick-start guide
 
 [Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). 
 
