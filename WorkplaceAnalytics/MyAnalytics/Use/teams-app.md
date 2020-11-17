@@ -271,11 +271,30 @@ Insights does not use:
 
 ## Admin controls 
 
+### Admin tasks: Quick start guide
+
+Follow the steps in these mini-playbooks to get the Teams Insights app up and running for people in your organization. 
+
+1. Turn on the Teams Insights app for your organization: 
+[Release the Insights app within your organization](Release-the-Insights-app.pdf). 
+
+Make-available-the-Insights-app
+
+2. Install the Teams Insights app for all employees in your organization: [Install the Insights app](Install-the-Insights-app.pdf). 
+
+3. Pin the Teams Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Teams Insights app](Pin-the-Insights-app.pdf). 
+
+4. Now that the Insights app is available in Teams for employees, they can follow these steps to locate and open it: [Find and open the Insights app](Find-and-open-the-Insights-app.pdf). 
+
 ### Install the Insights app for your organization 
 
-[Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). To allow or block specific users in your organization from using Insights, do the following: 
+[Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). 
+
+To allow or block specific users in your organization from using Insights, do the following: 
 
 1. Make sure that Insights is turned on for your organization on the [Manage apps](https://docs.microsoft.com/microsoftteams/manage-apps) page. 
 2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps) policies in Teams. 
+
+
 
  
