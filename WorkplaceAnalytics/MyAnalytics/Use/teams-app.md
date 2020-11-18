@@ -77,8 +77,7 @@ This section describes how to install the Insights Teams app for yourself. (If y
 
    ![Add for me button](../../images/mya/use/add-for-me-new-410.png)
 
-This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client and Teams on the web. 
-<!-- OUT FOR NOW and Teams on a mobile device. -->  
+This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client, Teams on the web, and Teams on a mobile device.   
 
 > [!Note] 
 > You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp. 
@@ -98,8 +97,7 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 > [!Tip] 
 > You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
  
-#### On the iOS platform
-<!-- OUT FOR NOW and Android mobile platforms -->
+#### On the iOS and Android mobile platforms
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
