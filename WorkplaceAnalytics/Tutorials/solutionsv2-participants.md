@@ -94,7 +94,26 @@ Participants in the Focus plan might see the following inline suggestion:
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following tables:
+A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following sections:
+
+* [Delay email delivery](../myanalytics/use/mya-notifications.md#delay-email-delivery)
+* [Suggested outstanding tasks](../myanalytics/use/mya-notifications.md#suggested-outstanding-tasks)
+* [Get more time to focus](../myanalytics/use/mya-notifications.md#get-more-time-to-focus)
+* [Plan your time away](../myanalytics/use/mya-notifications.md#plan-your-time-away)
+* [Protect your focus time](../myanalytics/use/mya-notifications.md#protect-your-focus-time)
+* [Shorten a meeting](../myanalytics/use/mya-notifications.md#shorten-a-meeting)
+* [Track email open rate](../myanalytics/use/mya-notifications.md#track-email-open-rate)
+* [Track email](../myanalytics/use/mya-notifications.md#track-email)
+
+
+## Related topics
+
+* [Plans: Introduction](solutionsv2-intro.md)  
+* [Plans: Walkthrough](solutionsv2-task.md)
+* [Plans: Concepts](solutionsv2-conceptual.md)
+
+
+<!-- REPLACING THIS FOLLOWING TABLES WITH LINKS TO THE COMPLETE LIST IN THE MYA TOPICS
 
 #### Get more time to focus
 
@@ -121,8 +140,4 @@ A number of other inline suggestions are available to all MyAnalytics participan
 | :------ |-------|---------|
 |Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
-## Related topics
-
-* [Plans: Introduction](solutionsv2-intro.md)  
-* [Plans: Walkthrough](solutionsv2-task.md)
-* [Plans: Concepts](solutionsv2-conceptual.md)
+-->
