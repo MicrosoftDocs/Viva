@@ -117,11 +117,14 @@ You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/power
 In this procedure, you install the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). 
 
 1. Open PowerShell.
-2. To install the module, run this command: 
 
-```powershell
-Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4-Preview6 -AllowPrerelease
-```
+2. To install the module, run this command: 
+ 
+   ```powershell
+   Install-Module -Name ExchangeOnlineManagement -AllowPrerelease
+   ```
+    
+   For more information, see [ExchangeOnlineManagement 2.0.4-Preview6](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/2.0.4-Preview6).
 
 3. Go directly to the following procedure, [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in).
 
