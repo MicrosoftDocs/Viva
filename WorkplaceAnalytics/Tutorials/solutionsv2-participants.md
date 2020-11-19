@@ -94,7 +94,7 @@ Participants in the Focus plan might see the following inline suggestion:
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following sections:
+A number of other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following sections:
 
 * [Delay email delivery](../myanalytics/use/mya-notifications.md#delay-email-delivery)
 * [Suggested outstanding tasks](../myanalytics/use/mya-notifications.md#suggested-outstanding-tasks)
