@@ -118,7 +118,28 @@ In this procedure, you install the [Exchange Online PowerShell V2 module](https:
 
 1. Open PowerShell.
 
-2. To install the module, run this command: 
+2. Installing packages from the [PowerShell Gallery](https://docs.microsoft.com/powershell/scripting/gallery/getting-started?view=powershell-7.1) requires the latest version of the PowerShellGet module. Run this command to install it:
+
+   ```powershell
+   Install-Module PowerShellGet –Repository PSGallery –Force
+   ```
+       
+   For more information, see [Installing PowerShellGet](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget?view=powershell-7.1).  
+
+<!--
+   Do you already have a version of the Exchange Online PowerShell V2 module installed? If so, go to step 3. If not, skip to step 4. 
+-->
+
+3. Install the Exchange Online PowerShell V2 module:
+
+   ```powershell
+   Install-Module -Name ExchangeOnlineManagement -AllowPrerelease -Force
+   ```
+   
+   For more information, see [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7.1). 
+   
+<!--   
+4. Install the Exchange Online PowerShell V2 module: 
  
    ```powershell
    Install-Module -Name ExchangeOnlineManagement -AllowPrerelease
@@ -126,11 +147,15 @@ In this procedure, you install the [Exchange Online PowerShell V2 module](https:
     
    For more information, see [ExchangeOnlineManagement 2.0.4-Preview6](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/2.0.4-Preview6).
 
-3. Go directly to the following procedure, [Run the Connect-ExchangeOnline command](#run-connect-exchangeonline-and-sign-in).
+-->   
 
-#### Run Connect-ExchangeOnline and sign in
+4. In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). 
 
-* In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). After you do so, it will prompt you to authenticate. To do so, enter your admin credentials.
+   ```powershell
+   Connect-ExchangeOnline
+   ```
+
+   This will prompt you to authenticate, which you do by entering your admin credentials.
 
 #### Set MyAnalytics access for one user
 
