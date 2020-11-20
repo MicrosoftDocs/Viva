@@ -90,21 +90,13 @@ Participants in the Focus plan might see the following inline suggestion:
 | :------ |-------|---------|
 |Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 
--->
+-->  
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following sections:
+A number of other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following topic:
 
-* [Delay email delivery](../myanalytics/use/mya-notifications.md#delay-email-delivery)
-* [Suggested outstanding tasks](../myanalytics/use/mya-notifications.md#suggested-outstanding-tasks)
-* [Get more time to focus](../myanalytics/use/mya-notifications.md#get-more-time-to-focus)
-* [Plan your time away](../myanalytics/use/mya-notifications.md#plan-your-time-away)
-* [Protect your focus time](../myanalytics/use/mya-notifications.md#protect-your-focus-time)
-* [Shorten a meeting](../myanalytics/use/mya-notifications.md#shorten-a-meeting)
-* [Track email open rate](../myanalytics/use/mya-notifications.md#track-email-open-rate)
-* [Track email](../myanalytics/use/mya-notifications.md#track-email)
-
+* [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md)  
 
 ## Related topics
 
