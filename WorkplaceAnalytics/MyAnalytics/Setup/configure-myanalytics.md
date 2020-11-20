@@ -105,7 +105,7 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps) and [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) cmdlets to work with user configuration settings. Before you can use them, you need to install a module and sign in to be authenticated. This is the sequence of steps:
 
 1. [Connect to Exchange Online](#connect-to-exchange-online) and, when prompted, sign in with your admin credentials. 
-3. After you've signed in, you are ready to work with user-configuration settings: 
+2. After you've signed in, you are ready to work with user-configuration settings: 
    * [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)  
    * [Confirm MyAnalytics access for a user](#confirm-myanalytics-access-for-a-user)
    * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
