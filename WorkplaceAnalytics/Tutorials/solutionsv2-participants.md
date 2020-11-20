@@ -90,11 +90,22 @@ Participants in the Focus plan might see the following inline suggestion:
 | :------ |-------|---------|
 |Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Looks like this meeting is outside your typical working hours. Here are some alternate times that work for everyone. **See suggested times** | Suggests that you ask the organizer to move the meeting to a time during working hours that works for all attendees. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |
 
--->
+-->  
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to all MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following tables:
+A number of other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following topic:
+
+* [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md)  
+
+## Related topics
+
+* [Plans: Introduction](solutionsv2-intro.md)  
+* [Plans: Walkthrough](solutionsv2-task.md)
+* [Plans: Concepts](solutionsv2-conceptual.md)
+
+
+<!-- REPLACING THIS FOLLOWING TABLES WITH LINKS TO THE COMPLETE LIST IN THE MYA TOPICS
 
 #### Get more time to focus
 
@@ -121,8 +132,4 @@ A number of other inline suggestions are available to all MyAnalytics participan
 | :------ |-------|---------|
 |Meeting compose &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Could this meeting be 45 minutes? Build in some buffer time and save attendees time. **Shorten meeting**  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Suggests that you shorten hour-long meetings to 45 minutes. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
-## Related topics
-
-* [Plans: Introduction](solutionsv2-intro.md)  
-* [Plans: Walkthrough](solutionsv2-task.md)
-* [Plans: Concepts](solutionsv2-conceptual.md)
+-->
