@@ -52,7 +52,7 @@ You can configure access to MyAnalytics elements for all users in your organizat
 3. In the left pane, expand **Settings** and then select **Org settings**.
 4. In the main pane, under **Services**, select **MyAnalytics**:
 
-   ![Select MyAnalytics](../../images/mya/setup/admin-center-settings-services.png)
+   ![Select MyAnalytics](../../images/mya/setup/admin-center-settings-services-85.png)
    
    This opens a page where you can configure access to MyAnalytics elements:  
    
