@@ -135,7 +135,7 @@ In this procedure, you install prerequisites and then you install the [Exchange 
    Install-Module -Name ExchangeOnlineManagement -AllowPrerelease 
    ```
    
-   If this results in a warning such as "WARNING: Version '2.0.3' of module 'ExchangeOnlineManagement' is already installed ...', run the command again, this time with the '-Force' parameter: 
+   If this results in a warning that states, for example, that a previous 'ExchangeOnlineManagement' module is already installed, run the command again, this time with the '-Force' parameter: 
 
    ```powershell
    Install-Module -Name ExchangeOnlineManagement -AllowPrerelease -Force
