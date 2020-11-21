@@ -125,10 +125,6 @@ In this procedure, you install prerequisites and then you install the [Exchange 
        
    For more information, see [Installing PowerShellGet](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget?view=powershell-7.1).  
 
-<!--
-   Do you already have a version of the Exchange Online PowerShell V2 module installed? If so, go to step 3. If not, skip to step 4. 
--->
-
 3. <u>Prerequisite #2:</u> Install the Exchange Online PowerShell V2 module:
 
    ```powershell
@@ -143,17 +139,6 @@ In this procedure, you install prerequisites and then you install the [Exchange 
    
    For more information, see [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7.1). 
    
-<!--   
-4. Install the Exchange Online PowerShell V2 module: 
- 
-   ```powershell
-   Install-Module -Name ExchangeOnlineManagement -AllowPrerelease
-   ```
-    
-   For more information, see [ExchangeOnlineManagement 2.0.4-Preview6](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/2.0.4-Preview6).
-
--->   
-
 4. <u>Connect to Exchange Online.</u> In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). 
 
    ```powershell
