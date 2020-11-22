@@ -2,6 +2,20 @@
 
 
 
+## Week of November 16, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/16/2020 | [Configure settings for Workplace Analytics](/Workplace-Analytics/use/settings) | modified |
+| 11/17/2020 | [Teams insights app](/Workplace-Analytics/myanalytics/use/teams-app) | modified |
+| 11/18/2020 | [Teams insights app](/Workplace-Analytics/myanalytics/use/teams-app) | modified |
+| 11/18/2020 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+| 11/20/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
+| 11/20/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
+| 11/20/2020 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+
+
 ## Week of November 09, 2020
 
 
@@ -240,12 +254,3 @@
 | 10/23/2020 | [Improve agility with Workplace Analytics](/Workplace-Analytics/use/improve-agility) | modified |
 | 10/23/2020 | [Enhance organizational resiliency with Workplace Analytics](/Workplace-Analytics/use/resilient-organizations) | modified |
 | 10/23/2020 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
-
-
-## Week of October 12, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/13/2020 | [Explore introduction](/Workplace-Analytics/use/explore-intro) | modified |
-| 10/15/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
