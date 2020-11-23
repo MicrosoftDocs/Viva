@@ -49,9 +49,13 @@ You can configure access to MyAnalytics elements for all users in your organizat
 
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)
 
-3. In the left pane, expand **Settings**, and then select **Services & add-ins**.
-4. Under **Services & add-ins**, select **MyAnalytics**. This opens a page to configure access to MyAnalytics elements.
+3. In the left pane, expand **Settings** and then select **Org settings**.
+4. In the main pane, under **Services**, select **MyAnalytics**:
 
+   ![Select MyAnalytics](../../images/mya/setup/admin-center-settings-services-res2-85.png)
+   
+   This opens a page where you can configure access to MyAnalytics elements:  
+   
    ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
 
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
