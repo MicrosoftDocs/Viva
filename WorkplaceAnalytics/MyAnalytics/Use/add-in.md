@@ -30,7 +30,7 @@ Before you can use the Insights add-in, be sure that the following prerequisites
 * Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](https://docs.microsoft.com/exchange/recipients/create-user-mailboxes?view=exchserver-2019&preserve-view=true#create-user-mailboxes), if necessary.
 * Have the following in place: 
 
-  * Your computer has Outlook desktop 2016 version 16.0.7924.1 or later for Windows, or version 15.39.1010 or later for Mac.
+  * Your computer has Outlook version 1705 (Build 8201.2102) or higher for Windows, or version 15.39.1010 or later for Mac.
   * Add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook).
   * Internet Explorer version 10 or 11 is installed on your computer.  
 
