@@ -14,7 +14,7 @@ ms.prod: wpa
 The Influence insights dashboard uses a Power BI template that’s populated by data from Workplace Analytics to gain insights into influencers, who are well connected people in your company. This dashboard lets you visualize and explore answers to the following business questions that leaders ask:
 
 * **Where are the influencers in your company?** - Shows which organizations have concentrated influencer presence and have limited influencer presence.
-* **Who is involved in decision-making processes?** - Shows if business decisions are made in a top-down or in a more decentralized manner and if employees at various levels in the hierarchy are empowered to make decisions.
+* **Who is involved in decision making processes?** - Shows if business decisions are made in a top-down or in a more decentralized manner and if employees at various levels in the hierarchy are empowered to make decisions.
 * **How are influencers adapting to the remote work situation?** - Shows how influencers’ collaboration patterns are changing in response to this disruption and what impact this disruption is having on the key roles that influencers play.
 
 Before you can use the Influence insights dashboard in Power BI, it must be populated with data. To do this, set up and run the predefined Influence insights and Standard query queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.

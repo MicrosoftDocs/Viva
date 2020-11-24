@@ -13,17 +13,11 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
-Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity.
-
-Each of the following behaviors show how your organization compares with others based on industry research and your specific organizational data.
-
-* [Optimize meeting hours](#optimize-meeting-hours)
-* [Examine recurring meetings](#examine-recurring-meetings)
-* [Promote healthy meeting habits](#promote-healthy-meeting-habits)
+Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Transform meeting culture page](../images/wpa/use/transform-meetings.png)
 
-## Percentage insights
+## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
@@ -34,8 +28,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), [decision-making meetings](glossary.md#decision-making-meeting-define), and [meeting hours](metric-definitions.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
 |Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | [IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics) and [meeting hours](metric-definitions.md#meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
 |Promote healthy meeting habits |Percentage of employees who significantly multitask in meetings |[Multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define) | Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and then averaged for the entire time period. |
-
-## Visual insights
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -55,7 +47,13 @@ You can select **Take action** to see ways you can drive change or transform you
 * **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
 * **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
 
-## Best practices to transform meeting culture
+## Best practices
+
+This section describes why each of the following behaviors matter and the top best practices that can help transform meeting culture.
+
+* [Optimize meeting hours](#optimize-meeting-hours)
+* [Examine recurring meetings](#examine-recurring-meetings)
+* [Promote healthy meeting habits](#promote-healthy-meeting-habits)
 
 ### Optimize meeting hours
 
