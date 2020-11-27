@@ -175,7 +175,9 @@ You can review the details here, but we briefly go over them:
 
 #### Users can view their Workplace Analytics subscription status
 
-Workplace Analytics processes the data of only of "licensed users," that is, users who have been granted Workplace Analytics licenses. An employee can determine whether or not they are a licensed user. (To do this, they open the [Office 365 portal](https://portal.office.com), sign in to their Office 365 account, view their account settings, and open the **Subscriptions** page. If they are a licensed user, "Workplace Analytics" appears as one of their Office 365 subscriptions.)
+Workplace Analytics processes data only for users who have been assigned Workplace Analytics licenses ("licensed users"). If you are an Office 365 user, you can determine whether you are a Workplace Analytics licensed user by following these steps: Open the [Office 365 portal](https://portal.office.com), sign in to your Office 365 account, view your account settings, and open the **Subscriptions** page. If you are a licensed user, "Workplace Analytics" appears as one of your Office 365 subscriptions. 
+
+For information about assigning Workplace Analytics licenses, see [Assign licenses](../setup/assign-licenses-to-population.md). 
 
 ## Additional Resources
 
