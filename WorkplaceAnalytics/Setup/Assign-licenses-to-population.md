@@ -35,14 +35,16 @@ The assignment of licenses affects the user counts that are shown in the Workpla
 
 ### Users can view their subscription status
 
-Workplace Analytics processes data only for users who have been assigned Workplace Analytics licenses. If you are an Office 365 user, you can determine whether you've been assigned a Workplace Analytics license by completing the following steps.
+Office 365 users might want to find out whether their collaboration data is being processed. First, they should know that Workplace Analytics processes data only for users who've been assigned Workplace Analytics licenses. Next, they need to determine whether they have a license. They can determine this by completing the following steps.
+
+#### To find out if I have a Workplace Analytics license
 
 **Role:** Office 365 user 
 
 1. Open the [Office 365 portal](https://portal.office.com).
 2. Sign in to your Office 365 account.
 3. View your account settings.
-4. Open the **Subscriptions** page. If you are a licensed user, "Workplace Analytics" appears as one of your Office 365 subscriptions. 
+4. Open the **Subscriptions** page. If you've been assigned a Workplace Analytics license, "Workplace Analytics" appears as one of your Office 365 subscriptions. This means that your data is being processed.
 
 ## Video: Assign licenses
 
