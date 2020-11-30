@@ -174,7 +174,7 @@ You can review the details here, but we briefly go over them:
 * **Transparency regarding processing:** See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
 
 > [!Note] 
-> Office 365 users can determine whether they have a Workplace Analytics license and, consequently, whether their data is being processed. For more information, see [Assign licenses / Users can view their Workplace Analytics subscription status](../setup/assign-licenses-to-population.md/#users-can-view-their-workplace-analytics-subscription-status).
+> Office 365 users can determine whether they have a Workplace Analytics license and, consequently, whether their data is being processed. For more information, see [Assign licenses / Users can view their subscription status](../setup/assign-licenses-to-population.md#users-can-view-their-subscription-status).
 
 ## Additional Resources
 

@@ -33,7 +33,7 @@ The assignment of licenses affects the user counts that are shown in the Workpla
 > [!Note]
 > Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions. For more details, see [Environment requirements for Workplace Analytics](environment-requirements.md).
 
-### Users can view their Workplace Analytics subscription status
+### Users can view their subscription status
 
 Workplace Analytics processes data only for users who have been assigned Workplace Analytics licenses. If you are an Office 365 user, you can determine whether you've been assigned a Workplace Analytics license by completing the following steps.
 
