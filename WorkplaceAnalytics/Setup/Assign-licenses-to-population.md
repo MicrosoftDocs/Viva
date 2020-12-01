@@ -26,7 +26,7 @@ The Workplace Analytics sponsor works with the Workplace Analytics administrator
 
 Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
-After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population. Note that users can find out for themselves whether they've been assigned a license; see [Users can view their Workplace Analytics subscription status](#users-can-view-their-workplace-analytics-subscription-status).
+After you have identified the population in scope, the Office 365 Global administrator assigns Workplace Analytics licenses to users in this population. Note that users can find out for themselves whether they've been assigned a license; see [Users can view their subscription status](#users-can-view-their-subscription-status).
 
 The assignment of licenses affects the user counts that are shown in the Workplace Analytics **Data sources** pages; see [Origin of data counts](../use/office-365-data.md#origin-of-data-counts). 
 
