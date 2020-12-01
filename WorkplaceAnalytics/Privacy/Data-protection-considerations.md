@@ -173,6 +173,9 @@ You can review the details here, but we briefly go over them:
 * **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed. You have the option of deciding whether such data needs to be reprocessed without the user’s raw metrics. If you so decide, all reports stored in Workplace Analytics can be deleted and recalculated. 
 * **Transparency regarding processing:** See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
 
+> [!Note] 
+> Office 365 users can determine whether they have a Workplace Analytics license and, consequently, whether their data is being processed. For more information, see [Assign licenses / Users can view their subscription status](../setup/assign-licenses-to-population.md#users-can-view-their-subscription-status).
+
 ## Additional Resources
 
 * Workplace Analytics [privacy documentation](../Privacy/Privacy-And-Data-Access.md)
