@@ -2,6 +2,15 @@
 
 
 
+## Week of November 09, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/12/2020 | [Briefing FAQs](/Briefing/be-faqs) | modified |
+| 11/12/2020 | [Conduct a user pilot](/Briefing/be-pilot) | modified |
+
+
 ## Week of October 26, 2020
 
 

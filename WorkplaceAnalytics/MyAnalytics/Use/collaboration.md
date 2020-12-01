@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
@@ -153,7 +151,7 @@ You might miss out on valuable collaboration time if you're spending too much ti
 * **Start and end meetings on time**:
 
   * When meetings start on time, they are more likely to finish on time and meet the objectives of the meeting. Consider blocking time for preparation before the start of meetings to avoid late starts.
-  * Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team collaboration.
+  * Better meeting practices can improve productivity, information sharing, innovation, decision making, and team collaboration.
 
 * **Cancel meetings a day ahead**: If possible, send cancellations to attendees the day before. Do your best to plan ahead so that attendees can optimally re-purpose that time.
 
