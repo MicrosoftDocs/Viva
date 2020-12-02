@@ -213,11 +213,12 @@ Before you can generate a floor plan, you need to create a Project folder. This 
 
    * Select **Clear Floor Plan** to replace all values with zero in this plan.
    * Select the **Clear** (eraser) icon for any column or row to clear all the values for it.
+   * Select the **Eye** icon to hide or unhide a full workspace or a team that’s fully assigned in the floor plan view.
 
 8. Select **Save Floor Plan**.
 9. Name the plan, and then select **Save Floor Plan** again.
 
-<!--   ![Workspace Planning Floor Plan](./images/wsp-floor-plan.png)-->
+![Workspace Planning Floor Plan](./images/wsp-floor-plan.png)
 
 ### Capacity color key
 
@@ -229,8 +230,6 @@ The workspace capacity bar shows the total capacity and the exact number of unas
 
 Also, a **green 100%** icon and a **blue striped** or **blue and green striped** background show for a column when a workspace is at capacity, depending on the team head count.
 
-<!--      ![Workspace capacity colors](./images/wsp-floor-plan-capacity.png)-->
-
 ### Team size color key
 
 Similar to the workspace capacity bar, each team has a head count bar next to the team’s name that shows the team size and number of team members who are assigned or over assigned to a workspace. As you assign or unassign team members to workspaces, this bar will change colors as follows:
@@ -241,25 +240,33 @@ Similar to the workspace capacity bar, each team has a head count bar next to th
 
 Also, a **green 100%** icon and a **green striped** background show for a team’s row when the head count is fully assigned to a workspace.
 
-<!--   ![Team size colors](./images/wsp-floor-plan-size.png)
--->
 ## Activate fixed spaces
 
 After generating an optimized floor plan, you can reassign head count and move teams to specific workspaces. If extra head count remains, you can use **Assign Remaining Head Count** to re-run the optimization, which generates a new floor plan with your changes and assigns the remaining team members to the workspace:
 
-1. Select **Assign Remaining Head Count** to reassign team head count to specific workspaces or to clear a floor plan and reassign teams to workspaces.
-2. When you are satisfied with your changes and have remaining head count, select **Assign Remaining Head Count**.
-3. Create a name for the new version of the floor plan, and then select **Assign Remaining Head Count** again. Your new floor plan will show as loading in the same project folder as your original floor plan.
-4. After this new version successfully generates and the **Status** shows a **green check mark**, you can select the floor plan to open it and assign teams to workspaces.
+1. Select **Clear Floor Plan** and then reassign teams to different workspaces.
+2. Confirm any changes, and then select **Assign Remaining Head Count**.
+3. Enter a unique floor plan name, and then select **Assign Remaining Head Count** again. Your new floor plan will show as loading in the same project folder as your original floor plan.
+4. After this new version shows a **Status** of a **green check mark**, you can select the floor plan to open, review, make changes, and download it.
 
 > [!Note]
 > The more teams you assign to fixed locations, the less optimized the floor plan will be.
 
-## Edit a floor plan
-
-
 ## Save and download a floor plan
 
+To download an existing floor plan, select the **Download** icon for the plan listed in **Load Floor Plan**. Or to make changes and then download an updated floor plan, do the following steps.
+
+1. In the Workspace Planning Azure Template, select the applicable project for the floor plan.
+2. Select the name of the floor plan you want to save and download.
+3. Confirm or change how teams are assigned to workspaces, such as:
+
+   * Select **Clear Floor Plan** to replace all values with zero in this plan.
+   * Select the **Clear** (eraser) icon for any column or row to clear all the values for it.
+   * Select the **Eye** icon to hide or unhide a full workspace or a team that’s fully assigned in the floor plan view.
+
+4. Select **Save Floor Plan**.
+5. Name the plan, and then select **Save Floor Plan** again.
+6. Select **Download Floor Plan** to save a .csv version of it.
 
 ## Related topics
 
