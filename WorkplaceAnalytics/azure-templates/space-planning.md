@@ -252,6 +252,17 @@ After generating an optimized floor plan, you can reassign head count and move t
 > [!Note]
 > The more teams you assign to fixed locations, the less optimized the floor plan will be.
 
+## View project and floor plan details
+
+After you create projects and associated floor plans, they are available in the **Workspace Planning** list with the following options:
+
+* Select a table column heading, such as **Name** or **Created by**, to sort the list by.
+* Select a project name to view its floor plans.
+* For floor plans, select the **Download** icon to download the constraint files that were used to create the floor plan.
+* Select the **Dataset Parameters** icon to see more details about a floor plan.
+* Select the **Job Details** icon to see more details about the floor plan was generation.
+* Select the **Delete** (trashcan) icon to delete a project or a floor plan that you created from the list.
+
 ## Save and download a floor plan
 
 To download an existing floor plan, select the **Download** icon for the plan listed in **Load Floor Plan**. Or to make changes and then download an updated floor plan, do the following steps.
