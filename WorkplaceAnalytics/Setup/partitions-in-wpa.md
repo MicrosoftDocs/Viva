@@ -25,7 +25,7 @@ A partition is a data workspace for an analyst. A partition delimits the employe
 
 ## Partitions give access to data
 
-A partition defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you work with data on the **Explore** and **Queries** pages of Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages. If you have the program manager role, you can work on **Plans** and your role there is not limited, so you have access to all Plans.
+A partition defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you can work with data on the **Explore** and **Queries** pages of Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages. If you have the program manager role, you can work on **Plans** and your role there is not limited, so you have access to all Plans.
 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople on the **Explore** pages and create queries about salespeople on the **Queries** page.
 

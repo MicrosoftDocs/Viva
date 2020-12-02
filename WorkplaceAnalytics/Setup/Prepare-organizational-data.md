@@ -183,7 +183,7 @@ After your data has been successfully uploaded, Workplace Analytics performs add
 
 ### How often to upload organizational data 
 
-It is recommended that you upload HR data at least once a month to keep data fresh and analysis relevant. Soon after an HR upload has succeeded, the updated data becomes available in the [Explore](../use/explore-intro.md) pages and in [queries](../tutorials/query-basics.md).
+It is recommended that you upload HR data at least once a month to keep data fresh and analysis relevant. Soon after an HR upload has succeeded, the updated data becomes available in [Explore](../use/explore-intro.md) and in [queries](../tutorials/query-basics.md).
 
 #### Supplying data over a time period
 
