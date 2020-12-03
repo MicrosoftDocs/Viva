@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Opportunities scan in Workplace Analytics
 description: Learn how to scan for opportunities in Workplace Analytics
