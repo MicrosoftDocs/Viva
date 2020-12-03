@@ -261,7 +261,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
   * Attendees 
 * OneDrive SharePoint data: Insights shows a count of OneDrive and SharePoint documents that you have worked on. 
 
-Insights does not use: 
+Insights does not use:  
 
  * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
 
