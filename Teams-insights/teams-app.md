@@ -237,7 +237,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * At the bottom of every Insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
-   ![Is this helpful? Yes No](../WorkplaceAnalytics/images/mya/use/is-helpful.png)
+   ![Is this helpful? Yes No](../WorkplaceAnalytics/Images/MyA/Use/is-helpful.png)
 
 * Every page in the Insights app has the question, "Is this helpful?" at the bottom right corner. Select **Yes** or **No** to provide feedback.  
    
