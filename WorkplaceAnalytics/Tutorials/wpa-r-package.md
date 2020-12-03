@@ -20,7 +20,9 @@ The wpa R package is an open-source repository of more than 100 functions that p
 
 This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R or Python. With the wpa R package, an analyst can do the following: 
 
-* **Run prebuilt analysis and visualizations** of Workplace Analytics data with the ability to make settings to use organizational data variables and maintain privacy thresholds. They can easily export these outputs into any format required, including clipboard (copy & paste), Excel, .csv, and – for plots – .png, .svg, and .pdf.  
+* **Run prebuilt analysis and visualizations** of Workplace Analytics data with the ability to make settings to use organizational data variables and maintain privacy thresholds. 
+
+* **Obtain outputs in multiple formats.** Analysts can easily export these outputs into any format required, including clipboard (copy & paste), Excel, .csv, and – for plots – .png, .svg, and .pdf. 
  
 * **Validate data prior to analysis** by running a data validation report, which performs systematic checks on, for example, metrics, organizational attributes, and meeting subject lines. The data-validation functions promote good practices of checking for patterns such as public holidays, non-knowledge workers, outliers, and missing values in the data to improve the quality and reliability of analysis.   
 
