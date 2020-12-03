@@ -251,7 +251,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 * Information from email items: 
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in/mya-add-in-to-do.md) for your use only.  
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](../WorkplaceAnalytics/MyAnalytics/mya-outlook-add-in/mya-add-in-to-do.md) for your use only.  
 * Information from calendar items: 
   * Type (meeting or appointment) 
   * Status (busy, free, out-of-office, tentative) 
@@ -276,7 +276,7 @@ Insights does not use:
 Complete the steps in the following four mini-playbooks to get the Teams Insights app up and running for people in your organization. 
 
 1. Turn on the Teams Insights app for your organization: 
-[Release the Insights app within your organization](Release-the-Insights-app.pdf). 
+[Release the Insights app within your organization](../WorkplaceAnalytics/MyAnalytics/Release-the-Insights-app.pdf). 
 
    > [!Note] 
    > To allow or block specific users in your organization from using Insights, do the following: 
@@ -285,9 +285,9 @@ Complete the steps in the following four mini-playbooks to get the Teams Insight
    > 
    > 2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps) policies in Teams. 
 
-2. Install the Teams Insights app for all employees in your organization: [Install the Insights app](Install-the-Insights-app.pdf). 
+2. Install the Teams Insights app for all employees in your organization: [Install the Insights app](../WorkplaceAnalytics/MyAnalytics/Install-the-Insights-app.pdf). 
 
-3. Pin the Teams Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Teams Insights app](Pin-the-Insights-app.pdf). 
+3. Pin the Teams Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Teams Insights app](../WorkplaceAnalytics/MyAnalytics/Pin-the-Insights-app.pdf). 
 
-4. Now that the Teams Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](Find-and-open-the-Insights-app.pdf). 
+4. Now that the Teams Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](../WorkplaceAnalytics/MyAnalytics/Find-and-open-the-Insights-app.pdf). 
  
