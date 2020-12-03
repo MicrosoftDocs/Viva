@@ -178,7 +178,7 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md                    
-            - name: wpa R package
+            - name: Open-source wpa R package
               href: ~/tutorials/wpa-r-package.md 
         - name: Plans
           items:
