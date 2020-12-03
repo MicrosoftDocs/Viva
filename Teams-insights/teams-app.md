@@ -276,7 +276,7 @@ Insights does not use:
 Complete the steps in the following four mini-playbooks to get the Teams Insights app up and running for people in your organization. 
 
 1. Turn on the Teams Insights app for your organization: 
-[Release the Insights app within your organization](../WorkplaceAnalytics/MyAnalytics/Release-the-Insights-app.pdf). 
+[Release the Insights app within your organization](../WorkplaceAnalytics/MyAnalytics/Use/Release-the-Insights-app.pdf). 
 
    > [!Note] 
    > To allow or block specific users in your organization from using Insights, do the following: 
