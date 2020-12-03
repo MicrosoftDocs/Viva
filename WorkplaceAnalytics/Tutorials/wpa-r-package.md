@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# The open-source wpa R package 
+# The wpa R package 
 
 The wpa R package is an open-source repository of more than 100 functions that provide low-code pre-built analyses. Analysts can use this package to execute custom analyses that go beyond the insights that [Power BI templates](power-bi-intro.md) and Workplace Analytics [queries](query-basics.md) make available. These analyses can help leaders go deeper into the data that Workplace Analytics provides to solve more specific problems. 
 
