@@ -243,7 +243,7 @@ In the following example, select **Book Time** to reserve the time slot for focu
    
    After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
-   ![Thanks for the feedback](../WorkplaceAnalytics/images/mya/use/thanks-for-feedback-70-80.png)
+   ![Thanks for the feedback](../WorkplaceAnalytics/Images/MyA/Use/thanks-for-feedback-70-80.png)
    
 ##### Q5. What data does the Teams Insights app use? 
 
