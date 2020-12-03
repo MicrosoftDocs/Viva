@@ -18,11 +18,6 @@ ms.prod: wpa
 
 ![External collaboration](../images/wpa/use/external-collab-top.png)
 
-To open **External collaboration**:
-
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. Select **Analyze** > **Explore** > **External collaboration**.
-
 External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
 
 ![Explore filters](../images/wpa/use/19-discover-which-groups.png)

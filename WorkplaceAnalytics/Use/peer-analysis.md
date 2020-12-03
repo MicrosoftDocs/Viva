@@ -40,8 +40,8 @@ The results of analyses are always presented in aggregate form. No individual's 
 
 In this task, you take the first steps to start a peer analysis.
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
-2. Expand **Analyze** and open the **Explore** page. This page has two sections: **Metrics overview** and **Analyze and start Plans**.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/Analyze/Explore). If prompted, enter your work credentials.
+2. **Explore** has two sections: **Metrics overview** and **Analyze and start Plans**.
 3. Under **Analyze and start Plans**, select **Peer analysis**.
 
    This shows a table of the peer analyses that have been started or completed.
