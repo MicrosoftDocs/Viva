@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Explore in Workplace Analytics includes the following set of analytical cards as a starting point to gain quick insights into your organization's data and to identify data you'll want to investigate further.
 
-![Explore page](../images/wpa/use/explore-page.png)
+![Explore page](../images/wpa/use/explore.png)
 
 ### Video: Learn about the Explore dashboards
 
