@@ -10,18 +10,18 @@ ms.prod: Mya
 
 ---
 
-# Teams insights app
+# Teams insights app 
 
 The Teams Insights app helps you stay on top of your tasks and get more done by providing insights for improving your collaboration, wellbeing, and productivity. It derives these insights by summarizing your Office 365 data – data that you already have access to – about emails, meetings, calls, and chats. 
 
-By using Insights, you and your teams can: 
+By using Insights, you and your teams can:  
 
  * **Stay connected** – Teams Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. 
  * **Protect time** – Teams Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. 
 
 The insights that this app presents are completely personal and private. Only you – not your manager and not the system administrator – can see your insights. For more information, see the following section, [Privacy guide](#privacy-guide). 
 
-## Privacy guide 
+## Privacy guide  
 
 When data is processed in the Teams Insights app, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). Insights protects privacy in the following ways: 
 
@@ -43,7 +43,7 @@ The insights and actions in the Insights app are based on your Exchange Online m
 ### GDPR compliance 
 
 Microsoft helps data controllers meet the following obligations for the Insights app: 
-* **Secure and protect users’ personal data** &ndash; All data is stored in the employees’ Exchange Online mailbox. The computed metrics, such as tasks, are appended to the mailbox. Thus, the Insights meets this obligation by virtue of Exchange Online also meeting the obligation: 
+* **Secure and protect users’ personal data** &ndash; All data is stored in the employees’ Exchange Online mailbox. The computed metrics, such as tasks, are appended to the mailbox. Thus, the Insights meet this obligation by virtue of Exchange Online also meeting the obligation: 
    * Microsoft will not mine customer data in Exchange Online for advertising. 
    * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies. 
    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018. 
