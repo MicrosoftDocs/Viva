@@ -41,5 +41,5 @@ The _wpa R package_, its documentation, and other related resources are availabl
 * [_wpa R package_ source code](https://github.com/microsoft/wpa/)
 * [_wpa R package_ documentation](https://microsoft.github.io/wpa/), which includes a quick-start guide, code examples, and other information for developers such as the structure of the package.   
 * [Submit an issue or a feature request](https://github.com/microsoft/wpa/issues)
-* [Full list of functions](https://github.com/microsoft/wpa/reference)
+* [Full list of functions](https://microsoft.github.io/wpa/reference)
 
