@@ -11,14 +11,14 @@ ms.prod: wpa
 
 # The wpa R package 
 
-The wpa R package is an open-source repository of more than 100 functions that provide low-code pre-built analyses. Analysts can use this package to execute custom analyses that go beyond the insights that [Power BI templates](power-bi-intro.md) and Workplace Analytics [queries](query-basics.md) make available. These analyses can help leaders go deeper into the data that Workplace Analytics provides to solve more specific problems. 
+The [_wpa R package_](https://microsoft.github.io/wpa/) is an open-source repository of more than 100 functions that provide low-code pre-built analyses. Analysts can use this package to execute custom analyses that go beyond the insights that [Power BI templates](power-bi-intro.md) and Workplace Analytics [queries](query-basics.md) make available. These analyses can help leaders go deeper into the data that Workplace Analytics provides to solve more specific problems. 
 
 > [!Note] 
 > R is an open-source statistical programming language and one of the most popular toolkits for data analysis and data science. For users of the R language, a "package" is a unit of sharable code that's organized into libraries.  
 
 ## Capabilities for analysts
 
-This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R or Python. With the wpa R package, an analyst can do the following: 
+This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R or Python. By using the wpa R package, an analyst can do the following: 
 
 * **Run prebuilt analysis and visualizations** of Workplace Analytics data with the ability to make settings to use organizational data variables and maintain privacy thresholds. 
 
@@ -30,13 +30,16 @@ This R package is intended for use by analysts and data scientists who are inter
 
 * Make use of **advanced analytics functions**, such as text mining, network analysis, and hierarchical clustering, all designed specifically for Workplace Analytics metrics.  
 
-In the following illustration, R functions show a visualization of collaboration hours:
+The following illustration shows the experience of creating a visualization of collaboration hours with the _wpa R package_:
 
 ![wpa R package visualization](../images/wpa/tutorials/wpa-r-package-visual.gif)
 
 ## Analyst resources
 
-The wpa R package and its documentation are available on GitHub. You can find its elements in the following locations: 
+The _wpa R package_ and its documentation are available on GitHub. You can find its elements in the following locations: 
 
-* _wpa R package_ source code: https://github.com/microsoft/wpa/
-* _wpa R package_ documentation: https://microsoft.github.io/wpa/.  This documentation includes a quick-start guide, code examples, information about the structure of the package, and other information specifically for developers.   
+* [_wpa R package_ source code](https://github.com/microsoft/wpa/)
+* [_wpa R package_ documentation](https://microsoft.github.io/wpa/), which includes a quick-start guide, code examples, and other information for developers such as the structure of the package.   
+* [Submit an issue or a feature request](https://github.com/microsoft/wpa/issues)
+* [Full list of functions](https://github.com/microsoft/wpa/reference)
+
