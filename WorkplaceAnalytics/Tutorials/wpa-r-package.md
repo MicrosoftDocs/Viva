@@ -18,7 +18,7 @@ The [_wpa R package_](https://microsoft.github.io/wpa/) is an open-source reposi
 
 ## Capabilities for analysts
 
-This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R or Python. By using the wpa R package, an analyst can do the following: 
+This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R or Python. By using the _wpa R package_, an analyst can do the following: 
 
 * **Run prebuilt analysis and visualizations** of Workplace Analytics data with the ability to make settings to use organizational data variables and maintain privacy thresholds. 
 
@@ -36,7 +36,7 @@ The following illustration shows the experience of creating a visualization of c
 
 ## Analyst resources
 
-The _wpa R package_ and its documentation are available on GitHub. You can find its elements in the following locations: 
+The _wpa R package_, its documentation, and other related resources are available on GitHub in the following locations: 
 
 * [_wpa R package_ source code](https://github.com/microsoft/wpa/)
 * [_wpa R package_ documentation](https://microsoft.github.io/wpa/), which includes a quick-start guide, code examples, and other information for developers such as the structure of the package.   
