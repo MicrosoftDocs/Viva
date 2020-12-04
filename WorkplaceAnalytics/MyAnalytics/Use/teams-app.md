@@ -51,7 +51,7 @@ Microsoft helps data controllers meet the following obligations for the Insights
 * **Honor user requests (DSRs) to export, delete, or restrict processing personal data** &ndash; Microsoft supports your need to honor user requests in the following ways. 
    * **Data export requests** &ndash; Users can view the insights in the Briefing email and manage it if they want to have permanent copies of their information. 
    * **Request to restrict processing** &ndash; Use PowerShell to opt employees out of the Briefing email. Or employees can individually unsubscribe from the Briefing email to restrict processing of their data. 
-   * **Delete employee data** &ndash; Sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal. 
+   * **Delete employee data** &ndash; Sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal.   
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr). 
 
