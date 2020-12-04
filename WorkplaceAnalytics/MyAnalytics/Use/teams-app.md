@@ -43,7 +43,7 @@ The insights and actions in the Insights app are based on your Exchange Online m
 ### GDPR compliance 
 
 Microsoft helps data controllers meet the following obligations for the Insights app: 
-* **Secure and protect users’ personal data** &ndash; All data is stored in the employees’ Exchange Online mailbox. The computed metrics, such as tasks, are appended to the mailbox. Thus, the Insights meet this obligation by virtue of Exchange Online also meeting the obligation: 
+* **Secure and protect users' personal data** &ndash; All data is stored in the employees' Exchange Online mailbox. The computed metrics, such as tasks, are appended to the mailbox. Thus, the Insights meet this obligation by virtue of Exchange Online also meeting the obligation: 
    * Microsoft will not mine customer data in Exchange Online for advertising. 
    * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies. 
    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018. 
