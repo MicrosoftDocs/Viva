@@ -43,11 +43,12 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Take action
 
-You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers. The following are available in addition to the recommendations within Take action.
+You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers. Depending on your role, the following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or Plans, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
-* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
+* **Explore the stats** – Links to more [advanced analysis](explore-intro.md), such as detailed charts for one or more of the recommendations.
+* **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
+* **Plans** - Links to creating and tracking a [Plan](../Tutorials/solutionsv2-intro.md) relating to one or more of the recommendations.
 
 ## Best practices
 

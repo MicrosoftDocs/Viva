@@ -78,8 +78,8 @@ If your organization has not fully migrated to Office 365 Exchange Online, you m
 The data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday. This includes the data records for licensed users. Therefore, if you add a user license on a Tuesday, that person will not show up in Workplace Analytics until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Workplace Analytics in the following ways:
 
  * The user is represented in the user counts that are displayed on the [Workplace Analytics Insights](../use/home-page.md) page under **My organization's data**.
- * [Queries](../tutorials/query-basics.md) that analysts run can return results that include data about this user's activities. 
- * The [Explore](../use/explore-intro.md) dashboards can reflect data that includes the newly licensed employee. 
+ * [Queries](../tutorials/query-basics.md) that analysts run can return results that include data about this user's activities.
+ * The [Explore the stats](../use/explore-intro.md) pages reflect data that includes the newly licensed employee. 
 
 Azure Active Directory (AAD) is the single source of truth for licensing statuses. After a user license is added in AAD, that user will appear in AAD but not in Workplace Analytics until the next data refresh cycle is complete the following Monday. 
 

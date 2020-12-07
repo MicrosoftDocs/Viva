@@ -27,7 +27,7 @@ Workplace Analytics provides the following ways to analyze and explore your data
 
 **Analyze** includes the following data-analysis tools:
 
-* [**Explore**](../use/explore-intro.md) dashboards help you analyze organizational data trends that are summarized by week, per meeting, by network connections, for management and coaching, and for external collaboration.
+* [**Explore the stats**](../use/explore-intro.md) pages help you analyze organizational data trends that are summarized by week, per meeting, by network connections, for management and coaching, and for external collaboration.
 
 * [**Queries**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of Person, Meeting, Group-to-group, and Person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
 
