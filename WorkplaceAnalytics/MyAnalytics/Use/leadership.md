@@ -12,13 +12,13 @@ ms.prod: Mya
 
 # Leadership
 
-_**Applies to:** The Leadership page is currently in preview status. It is in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD or in Workplace Analytics*._
+_**Applies to:** The Leadership page is currently in preview status. It is in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics*-->._
 
 If you're a people manager, the MyAnalytics Leadership page gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement. 
 
 ### Who can see this page 
 
-You have access to this page only if you have team members assigned to you in Azure Active Directory or in Workplace Analytics*. Contact your Office 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics. 
+You have access to this page only if you have team members assigned to you in Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics*-->. Contact your Office 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics. 
 
 ### A note on data privacy 
 
