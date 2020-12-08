@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Accelerate change with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and accelerate organizational change
 author: madehmer

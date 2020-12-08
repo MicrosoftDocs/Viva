@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Improve agility with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and improve organizational agility
 author: madehmer

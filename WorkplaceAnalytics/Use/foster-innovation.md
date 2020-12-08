@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Foster innovation
 description: Learn how to use Workplace Analytics data to analyze and foster innovation in your organization
 author: madehmer
