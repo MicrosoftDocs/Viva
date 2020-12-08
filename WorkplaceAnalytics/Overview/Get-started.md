@@ -27,15 +27,17 @@ Workplace Analytics provides the following ways to analyze and explore your data
 
 **Analyze** includes the following data-analysis tools:
 
-* [**Explore the stats**](../use/explore-intro.md) pages help you analyze organizational data trends that are summarized by week, per meeting, by network connections, for management and coaching, and for external collaboration.
+* [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 
 * [**Queries**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of Person, Meeting, Group-to-group, and Person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
 
-[**Plans**](../tutorials/solutionsv2-intro.md) currently provide a _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll the teams in action plans with MyAnalytics to help address these challenges.
+* [**Explore the stats**](../use/explore-intro.md) data helps you analyze organizational data trends that are summarized by week, for meetings, by network connections, for management and coaching, and for external collaboration.
 
-[**Settings**](../use/settings.md) enable you to customize Workplace Analytics with the following:
+[**Plans**](../tutorials/solutionsv2-intro.md) currently provide a _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
 
-* [Sources](../use/settings.md#sources) – View dashboards to verify that Office 365 and organizational data is loaded.
+[**Settings**](../use/settings.md) in Workplace Analytics includes the following:
+
+* [Sources](../use/settings.md#sources) – View information about the Office 365 and organizational data that's been uploaded into Workplace Analytics.
 * [Upload](../use/settings.md#upload) – Prepare and upload organizational and customer data.
 * [Analysis settings](../use/settings.md#analysis-settings) – Customize meeting exclusion rules to help ensure data accuracy.
 * [Admin settings](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.

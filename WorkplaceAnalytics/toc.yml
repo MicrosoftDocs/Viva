@@ -180,26 +180,26 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md                    
-        - name: Explore the stats
-          items:
-            - name: Overview
-              href: ~/Use/explore-intro.md
-            - name: Week in the life
-              href: ~/Use/Explore-Metrics-week-in-the-life.md
-            - name: Meetings overview
-              href: ~/Use/Explore-Metrics-meetings-overview.md
-            - name: Management and coaching
-              href: ~/Use/Explore-Metrics-management-and-coaching.md
-            - name: Internal networks
-              href: ~/Use/Explore-Metrics-internal-networks.md
-            - name: External collaboration
-              href: ~/Use/Explore-Metrics-external-collaboration.md
-            - name: Teams collaboration
-              href: ~/Use/Explore-metrics-teams.md
-            - name: Charts
-              href: ~/Use/Chart-Types.md
-        - name: wpa R package
-          href: ~/tutorials/wpa-r-package.md 
+            - name: Explore the stats
+              items:
+                - name: Overview
+                  href: ~/Use/explore-intro.md
+                - name: Week in the life
+                  href: ~/Use/Explore-Metrics-week-in-the-life.md
+                - name: Meetings overview
+                  href: ~/Use/Explore-Metrics-meetings-overview.md
+                - name: Management and coaching
+                  href: ~/Use/Explore-Metrics-management-and-coaching.md
+                - name: Internal networks
+                  href: ~/Use/Explore-Metrics-internal-networks.md
+                - name: External collaboration
+                  href: ~/Use/Explore-Metrics-external-collaboration.md
+                - name: Teams collaboration
+                  href: ~/Use/Explore-metrics-teams.md
+                - name: Charts
+                  href: ~/Use/Chart-Types.md
+            - name: wpa R package
+              href: ~/tutorials/wpa-r-package.md 
         - name: Plans
           items:
             - name: Introduction
