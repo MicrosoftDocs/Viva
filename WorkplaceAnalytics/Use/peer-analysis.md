@@ -40,23 +40,20 @@ The results of analyses are always presented in aggregate form. No individual's 
 
 In this task, you take the first steps to start a peer analysis.
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/Analyze/Explore). If prompted, enter your work credentials.
-2. **Explore** has two sections: **Metrics overview** and **Analyze and start Plans**.
-3. Under **Analyze and start Plans**, select **Peer analysis**.
-
-   This shows a table of the peer analyses that have been started or completed.
+1. Open [Workplace Analytics Peer analysis](https://workplaceanalytics.office.com/Analyze/PeerAnalysis). If prompted, enter your work credentials.
+2. **Peer analysis** shows a table of analysis that's been started or completed.
  
     ![New analysis](../images/wpa/use/explore-new-analysis-3.png)
 
-4. Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis:
+3. Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis:
 
     ![New analysis pane](../images/wpa/use/step1-new-request.png)
  
     The top of this pane shows the four steps for creating a peer analysis: _Reference group_, _Other group_, _Conditions_, and _Submit_.
 
-5. For **Analysis name**, type a name for this analysis.  
-6. Select a date range for the analysis.
-7. Go to [Identify the reference group](#identify-the-reference-group).
+4. For **Analysis name**, type a name for this analysis.  
+5. Select a date range for the analysis.
+6. Go to [Identify the reference group](#identify-the-reference-group).
 
 ## Identify the reference group
 

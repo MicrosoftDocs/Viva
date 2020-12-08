@@ -11,14 +11,9 @@ ms.prod: wpa
 
 # Internal networks
 
-**Internal networks** in **Explore** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
+**Internal networks** shows network connections between different people exclusively within a company. For example, between the sales department and the human resources department.
 
 ![Networks and collaboration](../images/wpa/use/explore-internal-network.png)
-
-To open **Internal networks**:
-
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. Select **Analyze** > **Explore** > **Internal networks**.
 
 ## Network size and network breadth
 
@@ -68,5 +63,5 @@ Network breadth can indicate:
 
 ## Related topics
 
-* [Explore page settings](../use/explore-page-settings.md)
+* [Page settings](../use/explore-page-settings.md)
 * [Workplace Analytics Charts](../use/chart-types.md)

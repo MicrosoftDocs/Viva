@@ -1,27 +1,25 @@
 ---
 
-title: Explore introduction
-description: Describes the analytical Explore cards in Workplace Analytics
-author: paul9955
+title: Explore the stats introduction
+description: Describes the analysis in Workplace Analytics
+author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-# Explore
+# Explore the stats
 
-Explore in Workplace Analytics includes the following set of analytical cards as a starting point to gain quick insights into your organization's data and to identify data you'll want to investigate further.
+Explore the stats in Workplace Analytics give you a starting point to gain quick insights into your organization's data and to identify data you'll want to investigate further.
 
-![Explore page](../images/wpa/use/explore.png)
-
-### Video: Learn about the Explore dashboards
+### Video: Learn about Explore the stats
 
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
 
-<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
--->
+<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>-->
+The left navigation has changed in recent releases of Workplace Analytics, which is not reflected in this video recording. Explore the stats data is accessible through the recommendations shown for **See your insights** in the **Take action** section of a related insight. For example, to see **Meetings overview** data, select **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**.
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/434890563" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -29,7 +27,7 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 
 * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace-collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 
-## Metrics overview
+## Explore the stats
 
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) gives a summary of day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) gives a summary of meeting norms within your organization.
@@ -38,9 +36,9 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 * [**External collaboration**](../use/explore-metrics-external-collaboration.md) gives a summary of employees' network patterns with people outside the company.
 * [**Teams collaboration**](../use/explore-metrics-teams.md) shows insights and communication trends about how your organization's employees use Teams for communication and collaboration.
 
-## Time limit for Explore data
+## Data time limit
 
-The historical data that populates the various **Explore** pages is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Office 365 data](../use/office-365-data.md) refreshes. After a data refresh, the six-month extent of data that the **Explore** page reflects advances by one week.
+The historical data that populates **Explore the stats** is time limited; the charts reflect data that is from the last six months. This six-month period is a _rolling window_ that's based on when the [Office 365 data](../use/office-365-data.md) refreshes. After a data refresh, the six-month extent of data reflected in **Explore the stats** advances by one week.
 
 <!-- REMOVED 13 OCT 2020 per Danny, Daysha
 To request a historical-data period longer than six months for your organization, contact Customer Support for Workplace Analytics. -->

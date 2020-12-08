@@ -49,9 +49,9 @@ The following defines the organizational data shown in the visual behavioral ins
 You can select **Take action** to see ways you can improve employee engagement. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Links to more [advanced analysis](explore-intro.md), such as detailed charts for one or more of the recommendations.
-* **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
-* **Plans** - Links to creating and tracking a [Plan](../Tutorials/solutionsv2-intro.md) relating to one or more of the recommendations.
+* **Explore the stats** – Depending on the recommendation, this links to [Management and coaching data](explore-metrics-management-and-coaching.md) or [Teamwork data](../tutorials/teamwork-solution.md.
+* **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
+* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
 ## Best practices
 

@@ -46,13 +46,16 @@ Each insight includes **Supporting evidence** that links you to related informat
 
 ## Take action
 
-In the **Take action** section for each insight, select **Find out more** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
+In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching** > **See your insights**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
 
 ![Take action for coaching](../images/wpa/use/coaching.png)
 
-* **Opportunity groups** - Lists the groups who are more effected and would benefit the most from the recommended best practices or [Plans](../tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore** - Depending on your role, **Explore the stats** or **Explore in Power BI** links you to [Explore](explore-intro.md) or [Power BI](../tutorials/power-bi-templates.md) for more advanced analysis, including more detailed charts and reports.
-* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../tutorials/solutionsv2-intro.md) for your organization or team in Workplace Analytics.
+Depending on your role, the following are available in addition to the recommendations within **Take action**.
+
+* **Opportunity groups** - Lists the groups who are affected and would benefit the most from these recommendations or a new [Plan](../tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
+* **Explore the stats** – Links to more [advanced analysis](explore-intro.md), such as detailed charts for one or more of the recommendations.
+* **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
+* **Plans** - Links to creating and tracking a [Plan](../Tutorials/solutionsv2-intro.md) relating to one or more of the recommendations.
 
 ## Organizational network analysis graphs
 
