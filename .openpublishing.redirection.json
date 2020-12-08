@@ -1,16 +1,9 @@
 {
     "redirections": [
       {
-        "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
-        "redirect_url": "https://docs.microsoft.com/teams-insights/teams-app",
-        "redirect_document_id": false
-      },
-      {
         "source_path": "Teams-insights/index.md",
         "redirect_url": "https://docs.microsoft.com/teams-insights/teams-app",
         "redirect_document_id": false
       }
-
-
     ]
 }
