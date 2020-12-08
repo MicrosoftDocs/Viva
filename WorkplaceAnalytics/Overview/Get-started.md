@@ -23,7 +23,7 @@ You can explore the data with the Workplace Analytics dashboards, and dive deepe
 
 Workplace Analytics provides the following ways to analyze and explore your data.
 
-[**Home**](../use/home-page.md) provides analysis scope information and research-based behavioral insights into how your organization gets work done, including employee experience, organizational agility, and customer focus insights. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
+[**Home**](../use/home-page.md) provides analysis scope information and research-based behavioral insights into how your organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
 **Analyze** includes the following data-analysis tools:
 
@@ -31,7 +31,7 @@ Workplace Analytics provides the following ways to analyze and explore your data
 
 * [**Queries**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of Person, Meeting, Group-to-group, and Person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
 
-* [**Explore the stats**](../use/explore-intro.md) data helps you analyze organizational data trends that are summarized by week, for meetings, by network connections, for management and coaching, and for external collaboration.
+[**Explore the stats**](../use/explore-intro.md) data helps you analyze organizational data trends that are summarized by week, for meetings, by network connections, for management and coaching, and for external collaboration.
 
 [**Plans**](../tutorials/solutionsv2-intro.md) currently provide a _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
 
