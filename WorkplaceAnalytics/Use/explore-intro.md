@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Explore the stats data in Workplace Analytics gives you a starting point with quick insights about your organization and to identify data you'll want to investigate further.
 
-The following are available through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a related insight. For example, to see **Meetings overview** data in Workplace Analytics, select **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**.
+The following are available through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a related insight. For example, to see **Meetings overview** data in Workplace Analytics, select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**.
 
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) summarizes day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) summarizes meeting norms within your organization.
@@ -22,7 +22,7 @@ The following are available through the recommendations within **See your insigh
 * [**External collaboration**](../use/explore-metrics-external-collaboration.md) summarizes employees' network patterns with people outside the company.
 * [**Teams collaboration**](../use/explore-metrics-teams.md) shows communication trends about how your employees use Teams for communication and collaboration.
 
-### Introductory video
+### Video: Learn about Explore the stats
 
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
