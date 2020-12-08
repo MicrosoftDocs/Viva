@@ -42,7 +42,7 @@ The following defines the organizational data shown in the visual behavioral ins
 You can select **Take action** to see ways you can drive innovation. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Depending on the recommendation, this links to [Internal networks data](explore-metrics-internal-networks.md) or [Teamwork data](../tutorials/teamwork-solution.md).
+* **Explore the stats** – Depending on the recommendation, this links to data about [Internal networks](explore-metrics-internal-networks.md) or [Teamwork](../tutorials/teamwork-solution.md).
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
