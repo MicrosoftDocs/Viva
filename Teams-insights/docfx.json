@@ -4,7 +4,8 @@
       {
         "files": [
           "**/*.md",
-          "**/*.yml"
+          "**/*.yml",
+          "**/*.png"
         ],
         "exclude": [
           "**/obj/**",
@@ -24,7 +25,14 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.pdf",
+          "**/*.pptx",
+          "**/*.xlsx",
+          "**/*.svg",
+          "**/*.csv",
+          "**/*.docx"
         ],
         "exclude": [
           "**/obj/**",
@@ -39,7 +47,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/teams-insights/breadcrumb/toc.json",
+      "breadcrumb_path": "/insights/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },

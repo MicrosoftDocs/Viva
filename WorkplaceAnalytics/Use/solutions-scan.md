@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Opportunities scan in Workplace Analytics
 description: Learn how to scan for opportunities in Workplace Analytics
@@ -92,7 +90,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
    Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation).
 
-6. After the group validates successfully, go to [To create the plan](#to-create-the-plan).
+6. After the group validates successfully, you can now [create a plan](#to-create-the-plan).
 
 ### To create the plan
 
@@ -160,7 +158,7 @@ After validation, Workplace Analytics reports the results, including the number 
 
 ![Validation warnings](../images/wpa/use/participants-warnings.png)
 
-Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. (You can go right to [Start the plan](https://review.docs.microsoft.com/Workplace-Analytics/tutorials/solutionsv2-task#start-the-plan).)
+Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with [starting a plan](../tutorials/solutionsv2-task.md#start-the-plan).
 
 If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Workplace Analytics. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
 
