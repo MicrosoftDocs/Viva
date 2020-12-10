@@ -23,7 +23,7 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 * To be reminded about it later, select **Remind me tomorrow**.
 * To remove it from your list, select the **Delete** (trashcan) icon.
 
-In the following example, you’d select **Done** to confirm you’ve already done the related task for the task related to **TED Talks**.
+In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**.
 
    ![Briefing email about tasks](./images/be-task.png)
 
