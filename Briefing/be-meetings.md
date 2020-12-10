@@ -16,13 +16,14 @@ In this section of your Briefing email, you’ll see today's first three meeting
 With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following to help prepare for today's meetings:
 
 * If you got what you needed or you've already followed up on this item, select **Done**.
-* Or if the suggestion isn’t related or actionable, select **Not related** or **Not a task** to help improve future suggestions.
+* To be reminded about it later, select **Remind me tomorrow**.
+* To remove it from your list, select the **Delete** (trash can) icon.
 
 In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it.
 
    ![Briefing email about meetings](./images/be-meetings.png)
 
-<!-- ## Reschedule for low acceptance
+## Reschedule for low acceptance
 
 As a meeting organizer, your Briefing alerts you to a meeting that is at risk of having low attendance.
 
@@ -115,7 +116,7 @@ You will see the following actions for a meeting depending on the type of confli
 |Accept or decline |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you will attend. |Accept or Decline |
 
 Selecting **Accept** or **Decline** accepts or declines the meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
--->
+
 ## Related topics
 
 [Briefing email overview](be-overview.md)
