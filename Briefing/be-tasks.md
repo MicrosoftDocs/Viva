@@ -21,7 +21,7 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 
 * If the related task is already done, select **Done**.
 * To be reminded about it later, select **Remind me tomorrow**.
-* To remove it from your list, select the **Delete** (trash can) icon.
+* To remove it from your list, select the **Delete** (trashcan) icon.
 
 In the following example, you’d select **Done** to confirm you’ve already done the related task for the task related to **TED Talks**.
 
