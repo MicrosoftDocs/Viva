@@ -16,14 +16,16 @@ In this section of your Briefing email, you’ll see today's first three meeting
 With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following to help prepare for today's meetings:
 
 * If you got what you needed or you've already followed up on this item, select **Done**.
-* To be reminded about it later, select **Remind me tomorrow**.
-* To remove it from your list, select the **Delete** (trash can) icon.
+* Or to be reminded about it later, select **Later**.
+* To remove it from this list, select the **Not related**.
+<!--* Selecting **Accept** or **Decline** accepts or declines a meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
+* Select **Reschedule** to change the meeting day, time, or location.-->
 
 In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it.
 
-   ![Briefing email about meetings](./images/be-meetings.png)
+   ![Briefing email about meetings](./images/be-meetings-1.png)
 
-## Reschedule for low acceptance
+<!--## Reschedule for low acceptance
 
 As a meeting organizer, your Briefing alerts you to a meeting that is at risk of having low attendance.
 
@@ -114,9 +116,7 @@ You will see the following actions for a meeting depending on the type of confli
 |Decline or late reply |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will be late. |Decline or Reply
 |Decline or leave early reply	|This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will need to leave early. |Decline or Reply |
 |Accept or decline |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you will attend. |Accept or Decline |
-
-Selecting **Accept** or **Decline** accepts or declines the meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
-
+-->
 ## Related topics
 
 [Briefing email overview](be-overview.md)
