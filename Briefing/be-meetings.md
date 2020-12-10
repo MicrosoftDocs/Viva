@@ -16,9 +16,10 @@ In this section of your Briefing email, you’ll see today's first three meeting
 With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following to help prepare for today's meetings:
 
 * If you got what you needed or you've already followed up on this item, select **Done**.
-* Or to be reminded about it later, select **Later**.
-* To remove it from this list, select the **Not related**.
-<!--* Selecting **Accept** or **Decline** accepts or declines a meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
+* To remove it from your list, select the **Not related**.
+* If applicable to add to your task list, select **Add to To Do**.
+<!--* To be reminded about it later, select **Later**.
+* Selecting **Accept** or **Decline** accepts or declines a meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
 * Select **Reschedule** to change the meeting day, time, or location.-->
 
 In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it.
