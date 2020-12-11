@@ -14,7 +14,7 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
 * [**Data privacy**](../WorkplaceAnalytics/privacy/data-protection-intro.md) - Learn how to protect and keep personal data private and how Workplace Analytics complies with applicable laws and regulations.
 * [**Set up and maintenance**](../WorkplaceAnalytics/use/home-page.md) - Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.
 * [**Business insights**](../WorkplaceAnalytics/use/home-page.md) - Get analysis scope information and research-based behavioral insights into how your organization currently gets work done and how to maintain or change work patterns over time.
-* [**Data analysis**](../WorkplaceAnalytics/Overview/get-started.md) - Learn how to analyze data with Workplace Analytics Explore pages and how to create custom queries for more detailed analysis.
+* [**Data analysis**](../WorkplaceAnalytics/Overview/get-started.md) - Learn how to analyze data with Workplace Analytics Explore the stats and Peer analysis, and how to create custom queries for more detailed analysis.
 * [**Plans**](../WorkplaceAnalytics/tutorials/solutionsv2-intro.md) - Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
 * [**Frequently asked questions**](../WorkplaceAnalytics/use/faq.md) - Review the most frequently asked questions and their answers about Workplace Analytics roles, privacy, setup, and analysis tools.
 

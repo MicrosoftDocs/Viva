@@ -49,14 +49,14 @@ Each insight includes **Supporting evidence** and **Best practices** that link y
 * Industry experts based on research
 * Organizations who have effectively used Workplace Analytics to improve their business outcomes
 
-## Explore the stats
+## See your insights
 
-Depending on the insight and your role, **Explore the stats** links you to:
+Depending on the insight and your role, select **See your insights** > **Explore the stats** links you to:
 
-* Related **Explore** pages within Workplace Analytics for more in-depth analysis.
-* The **Analyze** page where you'll see related metrics to refine the population to enroll in a plan.
+* Related **Explore the stats** pages within Workplace Analytics for more in-depth analysis.
+* The **Analyze** page where you'll see related metrics for the population that you can then enroll in a plan.
 
-For example, as an analyst, if you select **Explore the metrics** in **Organizational agility** > **Are managers accessing diverse information**, you'll see your organization's **Network diversity** data in the **Explore** > **Internal** networks page. For more details, see [Internal networks](explore-metrics-internal-networks.md).
+For example, as an analyst, if you select **See your insights** in **Enhance organizational agility** > **Practice empathy**, you'll see related coaching recommendations. If you select **Explore the stats**, you'll see **Management and coaching** data. For more details, see [Management and coaching](explore-metrics-management-and-coaching.md).
 
 ## View recommended plan
 
@@ -92,7 +92,7 @@ The analyst, limited analyst, and program manager roles can access these pages. 
 
 ## Related topics
 
-* [Explore the metrics](explore-intro.md)
+* [Explore the stats](explore-intro.md)
 * [Plans](../tutorials/solutionsv2-intro.md)
 * [Metric descriptions for Workplace Analytics](metric-definitions.md)
 * [Workplace Analytics Home pages for people managers](pm-home.md)

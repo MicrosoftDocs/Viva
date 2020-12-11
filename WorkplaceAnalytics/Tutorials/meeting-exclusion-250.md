@@ -39,7 +39,7 @@ If you do any of the following:
 
 ... these things will happen:
 
- * Your data load will fail if this rule is used as a preferred, or default, rule on your Explore dashboards.
+ * Your data load will fail if this rule is used as a preferred, or default, rule in Explore the stats pages.
  * Any meeting queries that contain the [impacted metrics](#impacted-metrics) will fail. 
 
 ### Impacted metrics
