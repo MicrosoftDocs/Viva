@@ -40,15 +40,7 @@ The Briefing email looks for actionable tasks in Outlook and includes the top re
 
 The Adaptive version of the Briefing email also includes any last-minute options to schedule time to focus on deep work or to work through any of the tasks included in the email. Any existing focus time that’s already scheduled is also referenced in this section.
 
-For each task, you can select:
-
-* **Not a task** to remove it from your current list of tasks. It will also be excluded from all future  Briefing emails. This valuable feedback will improve future task identification.
-* **Done** to indicate the task is complete.
-
-For documents, select:
-
-* **Done** to indicate you are finished reviewing the document.
-* **Delete** (trashcan) icon to remove the suggestion.
+For more details, see [Prepare for meetings](be-meetings.md) and [Follow up on tasks](be-tasks.md).
 
 ## First Briefing
 
