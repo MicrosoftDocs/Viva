@@ -87,7 +87,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
 3. On the **New exclusion** page, select an exclusion type: **Meeting exclusion** or **Attendee exclusion**:
    
-   ![Choose exclusion type](../images/wpa/tutorials/exclusion-type-arrow.png) 
+   ![Choose exclusion type](../images/wpa/tutorials/exclusion-type.png) 
    
    For information about choosing between **Meeting exclusion** and **Attendee exclusion**, see [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type). 
 

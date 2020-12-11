@@ -49,5 +49,6 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 
 <iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 -->
+The user interface and navigation in recent releases of Workplace Analytics are different that what's shown in this video.
 
 <iframe src="https://player.vimeo.com/video/434890975" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
