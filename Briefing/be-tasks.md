@@ -23,7 +23,7 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 * Depending on your use of the To Do feature, you select either **Remind me tomorrow** or **Add to To Do** for the related task.
 * To remove it from your list, select the **Delete** (trashcan) icon.
 
-In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**.
+In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me tomorrow** to get a reminder in your next day's briefing email.
 
 ![Briefing email about tasks](./images/be-task.png)
 
