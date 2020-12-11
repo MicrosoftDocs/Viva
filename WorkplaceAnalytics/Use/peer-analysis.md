@@ -43,7 +43,7 @@ In this task, you take the first steps to start a peer analysis.
 1. Open [Workplace Analytics Peer analysis](https://workplaceanalytics.office.com/Analyze/PeerAnalysis). If prompted, enter your work credentials.
 2. **Peer analysis** shows a table of analysis that's been started or completed.
  
-    ![New analysis](../images/wpa/use/explore-new-analysis-3.png)
+    ![New analysis](../images/wpa/use/explore-peer-analysis.png)
 
 3. Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis:
 
