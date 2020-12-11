@@ -28,7 +28,7 @@ The most commonly asked questions and answers about Workplace Analytics are grou
 
 * [Meeting exclusions](#meeting-exclusions)
 * [Data validation, verification, and use](#data-validation-verification-and-use)
-* [Explore the stats](#explore-the-stats)
+* [Explore dashboards](#explore-dashboards)
 * [Queries](#queries)
 
 ## Product information
@@ -110,7 +110,7 @@ A2. No. Workplace Analytics can determine each employee's time-zone value and th
 
 ##### Q3. Can I configure the user data that particular analysts can access and use?
 
-A3. You can assign analysts the analyst (limited access) role, which limits them to [Explore the stats](explore-intro.md) data. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details.
+A3. You can assign analysts the analyst (limited access) role, which limits them to the [Explore](explore-intro.md) dashboards. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. 
 
 <!-- ^^^ *** After partitions ship, add them to this answer. *** ^^^ -->
 
@@ -234,11 +234,18 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
   * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Workplace Analytics calculations.
   * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the **Send As** permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Workplace Analytics credits the owner of the mailbox in calculations.
 
-### Explore the stats
+### Explore dashboards
+
+<!-- MOVED TO REGULAR DOCS
+##### Q1. How do I change the meeting exclusion rules that are used on the Explore dashboards?
+
+A1. To change the meeting exclusion rules for use on the Explore dashboards, see [Use rules in the Explore dashboards](../tutorials/meeting-exclusion-rules.md#use-rules-in-the-explore-dashboards).
+-->
+
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on the Page settings that are selected for **Explore the stats** or **Plans** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
+A1. Employee data can change based on the Page settings that are selected for the **Explore** or **Solutions** pages that you are using. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
 
 ##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 

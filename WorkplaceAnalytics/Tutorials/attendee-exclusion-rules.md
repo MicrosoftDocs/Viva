@@ -51,8 +51,8 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 6. Type a name for your exclusion, and, optionally, a description, and then select **Next**. 
 
-7. Choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:
-
+7. Choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:    
+      
    ![Exclude these invitees](../images/wpa/tutorials/exclude-invitees-who-have-70.png) 
 
    The **Potential impact of exclusion** area shows the percentage and total number of potential attendees at meetings whose data will be excluded from analysis if you publish and use this exclusion rule.

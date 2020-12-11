@@ -125,7 +125,7 @@ With this setting, you can reclassify one or more external domains as internal, 
 
 After you add a domain and save the change for this setting, it'll change all of the data related to the specified domain as internal to your organization, as follows:
 
- * The charts and metrics will show the domain as internal *retroactively* for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in **Explore the stats**.
+ * Explore charts and metrics will show the domain as internal *retroactively* for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration metrics shown in the **Explore** pages.
  * Organizational and Office 365 data from this domain will update to be internal after the *next data refresh*.
  * Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
  * The changes can be reverted by removing the domain that was reclassified.
@@ -133,7 +133,7 @@ After you add a domain and save the change for this setting, it'll change all of
 
 ### Privacy settings
 
-In **Admin settings** > **Privacy settings**, you can decide what data you want to exclude from analysis and what data you want visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats data](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
+In **Admin settings** > **Privacy settings**, you can decide what data you want to exclude from analysis and what data you want visible in [Queries](../Tutorials/Query-basics.md) and [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
 
 * [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
@@ -150,7 +150,7 @@ After you change privacy settings, your changes take effect after data is proces
 
 #### Minimum group size
 
-The minimum-group-size rule protects people from being identified in [Explore the stats data](../use/explore-intro.md) and in [Plans data](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
+The minimum-group-size rule protects people from being identified in [Explore charts](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Plans data](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
@@ -177,7 +177,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
   
    You can see histogram charts in the following areas of Workplace Analytics:
 
-   * In [Management and coaching data](../use/explore-metrics-management-and-coaching.md) 
+   * In **Explore**, on the [Management and coaching](../use/explore-metrics-management-and-coaching.md) page  
    * In [Plans](../Tutorials/solutionsv2-intro.md), on the **Identify** and **Track** pages
 
 #### Hash subject lines

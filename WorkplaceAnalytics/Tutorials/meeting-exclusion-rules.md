@@ -15,7 +15,7 @@ You can work with meeting exclusion rules in the following ways:
 
  * [View meeting exclusion rules](#view-meeting-exclusion-rules): Get acquainted with the default rule and with the rules that you or others have published.
  * [Create a meeting exclusion rule](#create-a-meeting-exclusion-rule): Define up to five individual meeting exclusions and then publish them together as one meeting exclusion rule.
- * [Select a rule for use](#select-which-rule-to-use): Select a rule to apply to data for **Explore the stats** or when creating **Queries** in Workplace Analytics.
+ * [Select a rule for use](#select-which-rule-to-use): Select a rule to apply to data in the **Explore** page or when creating **Queries** in Workplace Analytics.
 
 ### For more information
 
@@ -212,7 +212,7 @@ You might have started to define a rule and then saved it as a draft. Now, youâ€
 
 ## Select which rule to use
 
-When you first start using Workplace Analytics, **Explore the stats** and **Plans** use the predefined, default meeting exclusion rule. However, you can change this to a different "preferred" rule, as described in the following steps.
+When you first start using Workplace Analytics, the **Explore** dashboards and the **Plans** pages use the predefined, default meeting exclusion rule. However, you can change this to a different "preferred" rule, as described in the following steps.
 
 To learn how to select a rule to use in a query, see [Use rules with queries](#use-rules-with-queries).
 
@@ -220,7 +220,7 @@ To learn how to select a rule to use in a query, see [Use rules with queries](#u
 
 1.	On the **Settings** > **Analysis settings** page, select **Active**.
 
-2.	In the table of meeting exclusion rules, find the rule that you want to use in Explore the stats, Plans, and Queries. 
+2.	In the table of meeting exclusion rules, find the rule that you want to use in Explore, Plans, and Queries. 
 
 3. In the row for that rule, select the ellipsis to show the available actions: 
     
