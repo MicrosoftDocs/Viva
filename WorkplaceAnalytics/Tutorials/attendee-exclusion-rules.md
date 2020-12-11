@@ -51,13 +51,13 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 6. Type a name for your exclusion, and, optionally, a description, and then select **Next**. 
 
-7. Choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:
-
+7. Choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:    
+      
    ![Exclude these invitees](../images/wpa/tutorials/exclude-invitees-who-have-70.png) 
 
    The **Potential impact of exclusion** area shows the percentage and total number of potential attendees at meetings whose data will be excluded from analysis if you publish and use this exclusion rule. 
 
-8. Optionally, select **Apply this exclusion for metrics in Explore the stats**. Selecting this option does not automatically affect any existing queries. It makes this exclusion appear as the default for new queries, and it affects only the data shown in [Explore the stats](../use/explore-intro.md). 
+8. Optionally, select **Apply this exclusion for metrics in Explore page**. Selecting this option does not automatically affect any existing queries. It makes this exclusion appear as the default for new queries, and it affects only the data that is displayed in the Workplace Analytics [Explore](../use/explore-intro.md) pages. 
 
 9. Select **Publish**. Your new exclusion rule will now be available to analysts who create and run queries. 
 

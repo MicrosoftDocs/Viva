@@ -1,7 +1,7 @@
 ---
 
 title: Week in the life metrics in Workplace Analytics
-description: Overview of the metrics available for a Week in the life in Workplace Analytics
+description: Overview of the metrics available for a Week in the life in the Workplace Analytics Explore page
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,9 +11,14 @@ ms.prod: wpa
 
 # Week in the life
 
-**Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email or instant message during a week are considered active and are included in the metrics for the weeks they are active.
+**Week in the life** in **Explore** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email or instant message during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Week in the life](../images/wpa/use/week-in-the-life.png)
+
+To open **Week in the life**:
+
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
+2. Select **Analyze** > **Explore** > **Week in the life**.
 
 ## All collaboration hours
 
@@ -102,5 +107,5 @@ Workweek span captures the span of time an employee spends in work-related activ
 
 ## Related topics
 
-* [Page settings](../use/explore-page-settings.md)
+* [Explore page settings](../use/explore-page-settings.md)
 * [Workplace Analytics Charts](../use/chart-types.md)

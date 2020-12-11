@@ -114,7 +114,7 @@ This email can contain any of several descriptive cards, each of which offers ta
 * [Time with customers](#time-with-customers)
 * [Depth of engagement](#depth-of-engagement)
 * [Manager interactions](#manager-interactions)
-* [Explore the stats](#explore)
+* [Explore](#explore)
 
 <!-- THIS ONE IS IN SECOND PERSON:
 

@@ -10,15 +10,15 @@ ms.prod: wpa
 
 # Charts in Workplace Analytics
 
-[Explore the stats](explore-intro.md) in Workplace Analytics summarize your organizational data in visual charts. The following describes these charts and how to use them:
+The Workplace Analytics [Explore](explore-intro.md) pages summarize your organizational data into visual charts. This topic describes those charts and information about how to configure and use them in the following sections:
 
 * [Chart types](#chart-types) describes the primary chart types.
-* [Chart features](#chart-features) helps you get the most out of the charts in Explore the stats.
+* [Chart features](#chart-features) helps you get the most out of the Explore charts.
 * [Work with charts](#work-with-charts) describes how to use the chart tools to customize the data.
 
 ## Chart types
 
-[Explore the stats](explore-intro.md) show data primarily through the following chart types:
+[Explore](explore-intro.md) pages display information primarily by using the following chart types:
 
 ![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
 
@@ -42,32 +42,32 @@ For an example, see the chart on the right in [Skip-level meeting hours](explore
 
 ### Chart pairs
 
-In most cases, charts appear in pairs that present related information where changes reflect how data is shown in the chart pair. Within a pair, the chart on the left appears by default as a column graph. (An exception is on the **External collaboration** page where the left chart in each pair is a bar chart.) The chart on the left is paired with a line graph:
+In most cases, charts appear in pairs. The charts in a pair present related information and can interact with one another. Within a pair, the chart on the left appears by default as a column graph. (Exception: on the **External collaboration** page, the left chart in each pair is a bar chart.) The chart on the left is paired with a line graph:
 
 ![chart pair](../images/wpa/use/e-chart-pair.png)
 
    > [!Note]
    > Within a chart pair, you can [switch the display](#switch-between-chart-types) of the left chart between column graph and box plot.
 
-The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, the following **Meeting hours by duration** pair of charts is shown in [Meetings overview](Explore-metrics-meetings-overview.md):
+The column graph displays metric data for groups and the related line graph displays trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in the [Meetings overview](Explore-metrics-meetings-overview.md) tab of the **Explore** page:
 
 ![Meeting hours by duration](../images/wpa/use/08-meeting-hours-by-duration.png)
 
-You could view this relationship between the charts in a pair as a sort of "chart workspace" in which you focus on a specific filtered dataset and then apply different views for analysis. If you sort data in the column chart and then switch it to a box plot, your sorting choices are reflected in the box plot.
+You could view this relationship between the charts in a pair as a sort of "chart workspace" in which you focus on a particular filtered data set and then apply different views to it to coax out different facts. If you sort data in the column chart and then switch it to a box plot, your sorting choices carry over to the display of the box plot.
 
-### Default chart data
+### Default display
 
-By default, Workplace Analytics charts shows data by employee groups within an organization. Charts show the average metric for each group. Changing the metric changes how the groups are sorted. To learn about changing metrics, see [Sort groups](#sort-groups).
+By default, Workplace Analytics charts display data by employee groups within an organization. Charts show the average metric for each group. Changing the metric changes how the groups are sorted. To learn about changing metrics, see [Sort groups](#sort-groups).
 
-By default, a column chart (or box plot) shows 30 columns, where each column depicts a group of people. You can [change the number of groups (columns)](#to-change-the-number-of-groups) that a chart shows.
+By default, a column chart (or box plot) displays 30 columns, where each column depicts a group of people. You can [change the number of groups (columns)](#to-change-the-number-of-groups) that a chart displays.
 
-Charts also show the average for all groups, in the reference line. For more information, see [Reference line](#use-the-reference-line-to-see-averages).
+Charts also display the average for all groups, in the reference line. For more information, see [Reference line](#use-the-reference-line-to-see-averages).
 
 ### Minimum group size
 
 The Workplace Analytics admin can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. (The minimum group size can be raised or lowered, but it cannot be set to a number lower than five.)
 
-For a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](settings.md#privacy-settings).
+In the display of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](settings.md#privacy-settings).
 
 ### Use of filters
 
@@ -75,9 +75,9 @@ To change or add filters to see different organizations or other organizational 
 
 ## Work with charts
 
-* [Chart tools](#chart-tools) enable you to change the chart type, sort the data, drill down or exclude attributes from the chart, download chart data, and select groups to show in the adjacent trend chart.
+* [Chart tools](#chart-tools) enable you to change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Page settings and filters](#page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in the charts, to apply filters, to save current settings, to load saved settings, or to reset settings for the chart data.
+* [Page settings and filters](#page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all Explore charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all Explore charts.
 
 ### Chart tools
 
@@ -91,7 +91,7 @@ The height of the reference line shows the value of the metric that is shown in 
 
    ![Hover over right endpoint of reference line](../images/wpa/use/hover-over-reference.png)
 
-  This opens a tooltip that displays the averages for the available metrics for this chart type. (These metrics are showed in the chart legend.)
+  This opens a tooltip that displays the averages for the available metrics for this chart type. (These metrics are displayed in the chart legend.)
 
 #### Sort groups
 
@@ -105,26 +105,26 @@ You can sort any column chart or box plot alphabetically or by any metric that i
 
 #### Switch between chart types
 
-In a pair of charts, the chart on the left can show either a column chart or a box plot. The chart on the right shows related trend lines.
+In a pair of charts, the chart on the left can display either a column chart or a box plot. The chart on the right displays related trend lines.
 
 * To switch to a box plot, select the **Change chart type** icon, and then select **Box plot**.
 * To switch to a column chart, select the **Change chart type** icon, and then select **Column chart**.
 
-After you change chart types, data for the same groups still appears and any selected groups remain selected. This means that the adjacent line graph still shows the trend lines for those same selected groups.
+After you change chart types, data for the same groups still appears and any selected groups remain selected. This means that the adjacent line graph still displays the trend lines for those same selected groups.
 
 #### Minimum-group alert
 
-When you sort groups by an attribute metric, an alert icon appears in the bottom-right corner of the chart if the chart cannot show a group because if it's smaller than the minimum group size setting.
+When you sort groups by an attribute metric, an alert icon appears in the bottom-right corner of the chart if the chart cannot display a group because if it's smaller than the minimum group size setting.
 
-This functionality protects the privacy of members of groups whose size is below the minimum group size. If a group shows after sorting by an attribute's metric, an analyst could infer the group's value for that metric from its position adjacent to or between other groups, whose values are shown. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
+This functionality protects the privacy of members of groups whose size is below the minimum group size. If a small group was displayed after sorting by an attribute's metric, an analyst could infer the small group's value for that metric from its position adjacent to or between other groups, whose values are displayed. If you sort alphabetically, such an inference is not possible, so small groups are not hidden.
 
 #### Sort order is retained within a chart pair
 
-A column chart and its related box plot work together. If you sort by a particular choice in the column chart and then switch to the box plot, your sorting choice is also used in the box plot.
+A column chart and its related box plot work together. If you sort by a particular choice in the column chart and then switch to the box plot, your sorting choice is also used in the display of the box plot.
 
 ### Work with trend lines
 
-In a chart pair, you use the column chart or box plot on the left to change the trend lines in the line graph on the right. Each trend line corresponds to one group (column) in the left chart.
+In a chart pair, you use the column chart or box plot on the left to change the display of trend lines in the line graph on the right. Each trend line corresponds to one group (column) in the left chart.
 
 #### To add a group trend line to the chart
 
@@ -174,7 +174,7 @@ In a chart pair, you use the column chart or box plot on the left to change the 
 
 * In the toolbar above a chart, select the **Download CSV** icon.
 
-   This download contains the chart data exactly as the chart shows it. If you've applied any filters or changed the number of groups, those changes are reflected in the data that is downloaded.
+   This download contains the chart data exactly as the chart displays it. If you've applied any filters or changed the number of groups to display, those changes are reflected in the data that is downloaded.
 
    Because the download contains just what you see in the chart, you can use the downloaded .csv data in Excel or in Power BI to reproduce the chart that Workplace Analytics shows.
 
@@ -187,7 +187,7 @@ Use **Page settings** to change the time range of the data, to change the attrib
 
 ![Settings and filters](../images/wpa/use/settings-and-filters-2.png)
 
-When you change chart settings, your changes apply to all the charts on all **Explore pages**. For example, when you set the chart to group by _level_, all charts in all sections are grouped by that level.
+When you change chart display settings, your changes apply to all the charts on all **Explore pages**. For example, when you set the chart to group by _level_, all charts in all sections are grouped by that level.
 
 #### To apply or reset settings
 
@@ -207,18 +207,18 @@ After you change one or more page settings, chart or add one of more filters, yo
 
 ![Chart settings](../images/wpa/use/chart-settings.png)
 
-The next time you view **Explore the stats** data, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
+The next time you open Explore in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
 #### To change the date range
 
 1. In **Page settings**, expand **Date range**.
-2. In **Date range**, select a year and then select a month.
-3. The selected month is shown in more detail in a fly-out pane where you can select weeks in the month, one week at a time.
+2. In **Date range**, select a year and then select a month. 
+3. The selected month displays in more detail in a fly-out window. Use that window to select weeks in the month, one week at a time.
 4. Select **Apply** (upper right) to apply these changes to all charts.
 
 > [!Note]
 > The date range options encompass the most recent data that has been loaded and use the following logic:
->
+> 
 > * A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.
 > * For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
 
@@ -239,8 +239,8 @@ The next time you view **Explore the stats** data, it shows the charts with the 
 #### To change the number of groups
 
 1. To open the **Page settings** panel, expand **Max groups**.
-2. Use the **Max groups** slider to set the number of groups you want to see in the charts.  
+2. Use the **Max groups** slider to set the number of groups you want the charts to display.  
 3. Select **Apply**.
 
 > [!Note]
-> The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.
+> The **Max groups** slider moves in increments of 5 (groups). The minimum number of groups that you can display is 10 and the maximum is 100. When you add or remove groups, the scroll bar under the chart adjusts accordingly.

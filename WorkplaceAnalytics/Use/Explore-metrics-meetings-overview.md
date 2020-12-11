@@ -1,7 +1,7 @@
 ---
 
 title: Explore meetings overview metrics in Workplace Analytics
-description: Overview of meeting metrics in Workplace Analytics
+description: Overview of meetings metrics on the Workplace Analytics Explore page
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,9 +11,14 @@ ms.prod: wpa
 
 # Meetings overview
 
-**Meetings overview** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email or instant message during a week are considered active and are included in the metrics for the weeks they are active.
+**Meetings overview** in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email or instant message during a week are considered active and are included in the Explore metrics for the weeks they are active.
 
 ![Meetings overview](../images/wpa/use/meetings-overview.png)
+
+To open **Meetings overview**:
+
+1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) **Home** page. If prompted, sign in with your work account.
+2. Select **Analyze** > **Explore** > **Meetings overview**.
 
 ## Low-quality meeting hours
 
@@ -101,5 +106,5 @@ Each duration segment in the chart shows the total time a person spent in meetin
 
 ## Related topics
 
-* [Page settings](../use/explore-page-settings.md)
+* [Explore page settings](../use/explore-page-settings.md)
 * [Workplace Analytics Charts](../use/chart-types.md)

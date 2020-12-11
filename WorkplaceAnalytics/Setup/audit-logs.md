@@ -115,7 +115,7 @@ Updated Preferred Meeting Exclusion |Analyst updated the preferred meeting exclu
 
 Activity |Description
 -----|-----------
-Viewed Explore the stats |Analyst viewed one or more Explore the stats pages.
+Viewed Explore |Analyst viewed one or more Explore pages.
 
 For more information about event properties, see [Detailed properties in the audit log](https://docs.microsoft.com/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log).
 
