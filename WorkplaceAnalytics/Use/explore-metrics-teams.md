@@ -1,7 +1,7 @@
 ---
 
-title: Explore Teams metrics in Workplace Analytics
-description: Overview of Teams collaboration metrics in Workplace Analytics
+title: Explore Teams data in Workplace Analytics
+description: Overview of Teams collaboration data in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -12,14 +12,9 @@ ms.prod: wpa
 
 # Teams collaboration
 
-**Teams collaboration** in **Explore** shows communication trends about and insights into how your organization's employees use Teams for communication and collaboration. You can select what collaboration data to analyze on this page, either Teams' calls, instant messages, or both.
+**Teams collaboration** shows communication trends about and insights into how your organization's employees use Teams for communication and collaboration. You can select what collaboration data to analyze on this page, either Teams' calls, instant messages, or both.
 
 ![Teams collaboration](../images/wpa/use/teams-explore.png)
-
-To open **Teams collaboration**:
-
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. Select **Analyze** > **Explore** > **Teams collaboration**.
 
 ## Call hours
 
@@ -35,7 +30,7 @@ The **Instant messaging hours** graph shows average and total number of hours ea
 
 ## Filters for Teams
 
-You can use the **Call hours** and **IM hours** filters in the Charts and in Page Settings to filter and view Teams data in Explore.
+You can use the **Call hours** and **IM hours** filters in the Charts and in Page Settings to filter and view Teams data.
 
 ![Teams filters](../images/wpa/use/teams-filters.png)
 
@@ -70,7 +65,7 @@ The following table provides details about Teams metrics in Person queries.
 
 ## Related topics
 
-* [Explore page settings](../use/explore-page-settings.md)
+* [Page settings](../use/explore-page-settings.md)
 * [Person queries](../tutorials/Person-queries.md)
 * [Meeting queries](../tutorials/Meeting-queries.md)
 * [Workplace Analytics Charts](../use/chart-types.md)

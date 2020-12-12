@@ -53,8 +53,8 @@ Each insight includes **Supporting evidence** and **Best practices** that link y
 
 Depending on the insight and your role, **Explore the stats** links you to:
 
-* Related **Explore** pages within Workplace Analytics for more in-depth analysis.
-* The **Analyze** page where you'll see related metrics to refine the population to enroll in a plan.
+* Related **Explore the stats** data within Workplace Analytics for more in-depth analysis.
+* The **Plans** page where you'll see related metrics to refine the population to enroll in a plan.
 
 For example, as an analyst, if you select **Explore the metrics** in **Organizational agility** > **Are managers accessing diverse information**, you'll see your organization's **Network diversity** data in the **Explore** > **Internal** networks page. For more details, see [Internal networks](explore-metrics-internal-networks.md).
 

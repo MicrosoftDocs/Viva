@@ -28,7 +28,7 @@ The most commonly asked questions and answers about Workplace Analytics are grou
 
 * [Meeting exclusions](#meeting-exclusions)
 * [Data validation, verification, and use](#data-validation-verification-and-use)
-* [Explore dashboards](#explore-dashboards)
+* [Explore the stats](#explore-the-stats)
 * [Queries](#queries)
 
 ## Product information
@@ -53,7 +53,7 @@ A1.  Workplace Analytics initially collects and processes 13 months' worth of da
 
 ##### Q6. Can the data gathered for Workplace Analytics be accessed by Microsoft or by anybody in the tenant or company?
 
-A6.  No. All data is encrypted and kept available only for queries and for Explore dashboards.
+A6.  No. All data is encrypted and kept available only for queries and for Explore the stats data.
 -->
 
 ##### Q2. Does Workplace Analytics support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
@@ -110,7 +110,7 @@ A2. No. Workplace Analytics can determine each employee's time-zone value and th
 
 ##### Q3. Can I configure the user data that particular analysts can access and use?
 
-A3. You can assign analysts the analyst (limited access) role, which limits them to the [Explore](explore-intro.md) dashboards. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. 
+A3. You can assign analysts the analyst (limited access) role, which limits them to view [Explore the stats](explore-intro.md) data. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. 
 
 <!-- ^^^ *** After partitions ship, add them to this answer. *** ^^^ -->
 
@@ -236,16 +236,9 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
 
 ### Explore dashboards
 
-<!-- MOVED TO REGULAR DOCS
-##### Q1. How do I change the meeting exclusion rules that are used on the Explore dashboards?
-
-A1. To change the meeting exclusion rules for use on the Explore dashboards, see [Use rules in the Explore dashboards](../tutorials/meeting-exclusion-rules.md#use-rules-in-the-explore-dashboards).
--->
-
-
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on the Page settings that are selected for the **Explore** or **Solutions** pages that you are using. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
+A1. Employee data can change based on the Page settings that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
 
 ##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 
@@ -331,7 +324,7 @@ A7.  Yes. It's up to your organization to choose who gets assigned which role. B
 
 ##### Q8. Who should be assigned the role of analyst (limited access)?
 
-A8. The analyst (limited access) role is for an analyst who needs access only to the insights that are displayed in the Workplace Analytics *Explore* dashboards. See [User roles in Workplace Analytics](user-roles.md) and [Explore](explore-intro.md) for more details.
+A8. The analyst (limited access) role is for an analyst who needs access only to the insights shown in the Workplace Analytics *Explore the stats* data. See [User roles in Workplace Analytics](user-roles.md) and [Explore the stats](explore-intro.md) for more details.
 
 ##### Q9. After an admin changes configuration and privacy settings, when do the changes take effect in the data?  
 
