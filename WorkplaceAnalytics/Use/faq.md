@@ -234,7 +234,7 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
   * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Workplace Analytics calculations.
   * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the **Send As** permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Workplace Analytics credits the owner of the mailbox in calculations.
 
-### Explore dashboards
+### Explore the stats
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
