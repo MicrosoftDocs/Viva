@@ -55,7 +55,7 @@ The following table provides some examples of specific goals:
 | Objective	| MyAnalytics metric  |	Goal example |
 | ------	| -----  |	----- |
 | Reduce the number of hours that I spend in ineffective meetings |	<li>Meeting hours <li>Number of hours in conflicting meetings<li>Number of hours in multitasking meetings<li>Number of hours in longer meetings<li>Number of hours in recurring meetings<li>Number of hours in after-hours meetings | Reduce hours in multitasking meetings by 50% |
-| Schedule more focus hours to boost my productivity, creativity, and decision-making | <li>Focus hours<li>Focus-hours-to-meeting-hours ratio (use the focus habits chart in your dashboard) |	Spend an equal amount of time in meetings and focus sessions |
+| Schedule more focus hours to boost my productivity, creativity, and decision making | <li>Focus hours<li>Focus-hours-to-meeting-hours ratio (use the focus habits chart in your dashboard) |	Spend an equal amount of time in meetings and focus sessions |
 Manage my inbox more effectively | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<!--<li>Hours writing emails<li>Hours sending email--> | Send zero emails outside of business hours |
 Improve the effectiveness of the emails I send | <li>Email hours<li>Number of emails sent and/or received during and outside of business hours<!--<li>Hours writing emails<li>Hours sending emails--> | Reduce the number of emails sent by 25% |
 Reduce my after-hours collaboration to achieve a better work-life balance | <li>After hours<li>Emails sent/received outside business hours<li>Hours in after-hours meetings	| Spend less than 1 hour per week collaborating outside of business hours | 
@@ -105,7 +105,7 @@ Below is a habit-building method based on behavioral science that can be used to
 
 ![How to make it a habit](../../../Images/MyA/use/how-to-make-it-a-habit.png)
 
-For more information about Rob Cross’s research, see: [Reclaiming Your Day](https://www.robcross.org/wp-content/uploads/2017/10/reducing-collaborative-overload-how-efficient-collaborators-reclaim-time-connected-commons.pdf).
+[Collaboration without burnout](https://insights.office.com/collaboration/collaboration-without-burning-out/) shares why it's important to avoid collaboration overload.
 
 For additional tailored behavior change tips, take the: [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
 

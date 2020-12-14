@@ -1,0 +1,59 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml",
+          "**/*.png"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.pdf",
+          "**/*.pptx",
+          "**/*.xlsx",
+          "**/*.svg",
+          "**/*.csv",
+          "**/*.docx"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/insights/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "teams-insights",
+    "markdownEngineName": "markdig"
+  }
+}

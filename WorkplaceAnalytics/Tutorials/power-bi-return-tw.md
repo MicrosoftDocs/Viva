@@ -27,6 +27,12 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 After the dashboard populates with data, you can evaluate which of the two seat-allocation plans will work for your organization’s teams.
 
+## Demonstration
+
+This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZjYxYWIwZGQtZGE0Ni00YjMyLWExZTQtMWJlY2M3ODYyZWE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
@@ -129,10 +135,6 @@ For either seat allocation plan, you’ll need the following information.
 * The number of essential employees who are returning regardless of other factors. To account for essential employees, filter them out of your employee population and subtract their number from the total employees permitted in each location.
 
 After you specify a location and the number of employees permitted in that location, each plan allocates and assigns seats to teams who spend more time in on-site collaboration. Each plan summary provides an estimate of the on-site collaboration. These estimates factor in adjustments to on-site collaboration based on the proportion of employees who are not assigned a seat.
-
-## Dashboard demo
-
-<iframe src="https://player.vimeo.com/video/460378380" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Return to worksites playbook
 

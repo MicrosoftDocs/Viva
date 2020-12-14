@@ -36,13 +36,13 @@ For a high-level overview of meeting exclusion rules, see [Meeting exclusion rul
 
 This section describes how to view existing meeting exclusion rules. The section that follows describes how to author a new one. 
 
-**To view meeting exclusion rules**
+#### To view meeting exclusion rules
 
 Open the Meeting exclusions page to view existing meeting exclusion rules or to create new ones. This page displays all of the rules that you or other analysts have created and published, and rules that people have started to define and then saved in draft form.  
 
 1. Open [Workplace  Analytics](https://workplaceanalytics.office.com/). If  prompted, enter your work credentials.
 
-2.	Select **Settings** > **Analysis settings** to see the **Meeting exclusions** page.
+2.	Select **Settings** > **Analysis settings** to open the **Exclusions** page.
 
 3.	Select **Active** to list the active rules:
 
@@ -77,7 +77,7 @@ When you start a new meeting exclusion rule and before you have added any exclus
 
 Workplace Analytics steps you through the creation of a customized meeting exclusion rule. The meeting exclusion flow, which is described in the second task that follows, contains five steps, one for each meeting type that is commonly excluded from analysis.
 
-**To start a meeting exclusion rule**
+#### To start a meeting exclusion rule
 
 In this task, you open the meeting exclusions page and name the rule that you will create.  
 
@@ -97,6 +97,8 @@ In this task, you open the meeting exclusions page and name the rule that you wi
    
    After you select one or both of these options, this page will show you the number of invitees who will be excluded from analysis. 
 
+   For more information, see [Attendee exclusions](attendee-exclusion-rules.md).
+
 5. On the **New exclusion** page, you'll see the types of meetings that are commonly excluded from analysis. In the following steps, you will have the chance to customize each of these exclusions.
 
    You can choose to use the system-suggested exclusion for each step or customize the exclusion by retaining or excluding additional meetings. If you don't want to use a suggested exclusion, you can always choose not to apply it. After you have customized exclusions for each of the five steps, you can make edits to your exclusion rule before publishing it for future use.
@@ -106,9 +108,9 @@ In this task, you open the meeting exclusions page and name the rule that you wi
    > [!Note] 
    > The first five steps in this list are for excluding data about meetings based on the type of meeting. In the sixth step on the list, you exclude data about attendees, based on the response they gave to the meeting invitation. For more information, see [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type). 
 
-6. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual meeting exclusions. Move on to the next task, **To create a meeting exclusion rule**.
+6. Type a name for the  exclusion rule and, optionally, a description. Select **Next**. This starts the flow of steps in which you author your new exclusion rule by defining individual meeting exclusions. Move on to the next task, [To create a meeting exclusion rule](#to-create-a-meeting-exclusion-rule).
 
-**To create a meeting exclusion rule**
+#### To create a meeting exclusion rule
 
 Now that you've created a framework for your new rule, you add -- and optionally, customize -- individual exclusions, as described in the following steps.
 
@@ -190,7 +192,7 @@ After Workplace Analytics publishes your new rule, it displays a read-only summa
 
 You might have started to define a rule and then saved it as a draft. Now, you’d like to work on it more, and possibly complete it. 
 
-**To edit a draft rule**
+#### To edit a draft rule
 
 1.	On the **Settings > Analysis** settings page, select **Active**.
 
@@ -214,7 +216,7 @@ When you first start using Workplace Analytics, the **Explore** dashboards and t
 
 To learn how to select a rule to use in a query, see [Use rules with queries](#use-rules-with-queries).
 
-**To mark a rule as the preferred rule**
+#### To mark a rule as the preferred rule
 
 1.	On the **Settings** > **Analysis settings** page, select **Active**.
 
@@ -236,7 +238,7 @@ You can apply a meeting exclusion rule to a query while you create the query in 
 >[!Note]
 >When you set a preferred rule on the Meeting exclusions page, it will be the default rule when you create and run queries.
  
-**To apply a rule to a query**
+#### To apply a rule to a query
 
 1. In Workplace Analytics, select  **Settings > Queries**.
 
@@ -248,7 +250,7 @@ You can apply a meeting exclusion rule to a query while you create the query in 
 
 You can make an exact copy of any active rule. You can duplicate both published rules and draft rules. The copy you create is editable. 
 
-**To duplicate a rule** 
+#### To duplicate a rule
 
 1.	On the **Settings > Analysis** settings page, select **Active**.
 
@@ -269,7 +271,7 @@ You can make an exact copy of any active rule. You can duplicate both published 
 
 You might have built and used a rule in a past project that you no longer use. However, you might want to keep it for later reference. In this case, you can archive it.
 
-**To archive a rule**
+#### To archive a rule
  
 1.	On the **Settings > Analysis** settings page, select **Active**. 
 
@@ -282,6 +284,10 @@ You might have built and used a rule in a past project that you no longer use. H
     … and then select **Archive**. The rule will be moved to the list of archived rules, which you can see by clicking **Archived** on the **Active/Archived** toggle control.
 
 
-## Related topic
+## Related topics
 
 [Meeting exclusion rules: Large-meeting limitation](meeting-exclusion-250.md)
+
+[Meeting exclusion rules: Tools and concepts](meeting-exclusion-concept.md)
+
+[Attendee exclusions](attendee-exclusion-rules.md)

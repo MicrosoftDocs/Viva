@@ -46,7 +46,7 @@ This template combines the data in these files and generates a table that shows 
 * **Seating Optimization** - Generates seating assignments for teams that reduces the distance between teams who have the most collaboration with each other.
 * **Fixed Spaces** - Allows the user to fix specific teams to particular locations and then optimize the remaining teams around them such that teams are situated nearest to teams who they have the most collaboration with.
 * **Interactive mode** - Enables you to interactively change the floor plan results, such as the number of team members on each floor or in each office, within the application, and then it updates the results to reflect these changes.
-*<!-- **Co-located teams** (coming soon) - Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.-->
+<!--* **Co-located teams** (coming soon) - Enables you to specify a constraint that a certain number of seats for a team must be adjacent to another team. For example, certain number of seats of Team 1 are always close to Team 2. Requires a different version of the team_size.csv input file.-->
 <!--* **Relative constraints** - Specify a specific distance or collaboration constraint for certain teams. For example, Team 1 must be seated in a workspace that is less than 15 minutes from Team 3. You need to use the additional **constraints.csv** input file for these.-->
 
 ## Deploy and configure the template
@@ -57,7 +57,7 @@ This template combines the data in these files and generates a table that shows 
 ## Create an Interaction file
 
 1. Confirm you are assigned the [Analyst role in Workplace Analytics](../use/user-roles.md), which is required to create this file.
-2. Sign in as an Analyst and open [Workplace Analytics](https://workplaceanalytics.office.com/Home).
+2. Sign in as an **Analyst** and open [Workplace Analytics](https://workplaceanalytics.office.com/Home).
 3. Select **Analyze** > **Queries**.
 4. In **Start custom query**, select **Group-to-group query**.
 
@@ -93,7 +93,7 @@ This template combines the data in these files and generates a table that shows 
 **Total_Capacity** is the total number of individual desks and office seats that are available within a specified workspace.
 
 > [!Note]
-> Only include spaces that you want to account for or utilize.
+> Only include workspaces that you want to account for or utilize.
 
 1. Open and save the [space_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage. The file must be named **space_capacity.csv** (match exactly).
 2. In the **Floor** (first) column in the file, replace the example floor names with your own that match the same format of [**Building name**-**Floor number**], as shown in the following graphic.
@@ -144,7 +144,7 @@ The following graphic depicts a building with four floors. The distance between 
    * **Team** - Enter the name or function of each team.
    * **Actual Size** - Enter the number of employees that are in each corresponding team.
 
-3. Save the file, and continue to the next set of steps.
+3. Save the file, and then continue to the next set of steps.
 
    ![Team size table](./images/wsp-team-table.png)
 
@@ -191,47 +191,93 @@ The following graphic depicts a building with four floors. The distance between 
 
    ![Team constraints](./images/wsp-team-constraints.png)-->
 
-## Generate a Floor Plan
+## Generate a floor plan
 
-1. In the Workspace Planning Azure Template, select **Space Planning** on the left.
-2. Click **Select Data Files** at the top right.
-3. Select **Choose File**, and then select all four .csv data files that you created in the previous steps (interaction, space_capacity, distance, and team_size) and if you selected relative constraints in the constraints.csv file, select it as well.
-4. Select **Submit**, which results in a new page for each file and a Floor Plan page
-that shows the calculated floor plans and how many employees from a team can sit where.
+Before you can generate a floor plan, you need to create a Project folder. This enables you to group related floor plans and any edited versions of a floor plan as a single project. For example, when planning workspace for a multi-building campus, you’ll want multiple floor plans grouped together in one project folder.
 
-   ![Workspace Planning Floor Plan](./images/wsp-floor-plan.png)
+**To add a new project**:
 
-### Floor capacity color key
+1. In the Workspace Planning Azure Template, select **Create Project** at the top right.
+2. Enter a project name, and then select **Create Project** again.
+3. Proceed to the next set of steps to create a new floor plan.
 
-* The base **green** number represents the total capacity available on that floor.
-* When the number is in the [numerator/denominator] format:
+**To generate a floor plan**:
 
-  * **red** represents a floor that's been over allocated and is currently over capacity
-  * **blue** represents a floor that's under allocated, which is not usually an issue, but good to know about
+1. In the Workspace Planning Azure Template, select the applicable project (created in the previous steps) for this new floor plan.
+2. Select **Create Floor Plan**.
+3. Enter a unique floor plan name.
+4. In **Upload data files**, select **Browse files**, and then select the .csv data files created in the previous steps, including **interaction**, **space_capacity**, **distance**, and **team_size**.
+5. Confirm the **Status** for each file shows as **Accepted**, and then select **Submit**.
+6. After the floor plan shows a green check mark for the **Status**, select it, or any edited floor plans generated from the original, and then select **Generated Floor Plan** to open it.
+7. Confirm or change how teams are assigned to workspaces, such as:
 
-   ![Floor Plan capacity colors](./images/wsp-floor-plan-capacity.png)
+   * Select **Clear Floor Plan** to replace all values with zero in this plan.
+   * Select the **Clear** (eraser) icon for any column or row to clear all the values for it.
+   * Select the **Eye** icon to hide or unhide a full workspace or a team that’s fully assigned in the floor plan view.
+
+8. Select **Save Floor Plan**.
+9. Name the plan, and then select **Save Floor Plan** again.
+
+![Workspace Planning Floor Plan](./images/wsp-floor-plan.png)
+
+### Capacity color key
+
+The workspace capacity bar shows the total capacity and the exact number of unassigned or over-assigned seats for each workspace name. As you assign or unassign seats for a workspace, the capacity bar will change colors as follows:
+
+* **Light blue** reflects a workspace with available capacity.
+* **Dark blue** reflects a workspace that is at capacity.
+* **Red** reflects a workspace that is over capacity.
+
+Also, a **green 100%** icon and a **blue striped** or **blue and green striped** background show for a column when a workspace is at capacity, depending on the team head count.
 
 ### Team size color key
 
-* The base **green** number represents the total size for that team.
-* When in the number is in the [numerator/denominator] format:
+Similar to the workspace capacity bar, each team has a head count bar next to the team’s name that shows the team size and number of team members who are assigned or over assigned to a workspace. As you assign or unassign team members to workspaces, this bar will change colors as follows:
 
-  * **red** represents a team with more team members being accounted for than members available on the team
-  * **orange** represents a team where not all the members on the team are accounted for or placed
+* **Light green** shows when capacity is available for team members.
+* **Dark green** shows when all the team members are assigned to a workspace.
+* **Red** shows if a team is over assigned for a workspace.
 
-   ![Floor Plan team size colors](./images/wsp-floor-plan-size.png)
+Also, a **green 100%** icon and a **green striped** background show for a team’s row when the head count is fully assigned to a workspace.
 
-## Activate Fixed Spaces
+## Activate fixed spaces
 
-After generating an optimized floor plan, you can clear the floor plan, locate related teams to specific locations, and re-run the optimization:
+After generating an optimized floor plan, you can reassign head count and move teams to specific workspaces. If extra head count remains, you can use **Assign Remaining Head Count** to re-run the optimization, which generates a new floor plan with your changes and assigns the remaining team members to the workspace:
 
-1. Select the **Fixed Spaces** option (top left) for the floor plan, which will clear the current floor plan and revert all values to zero.
-2. Select and change the zero value for a team location to the number of members of the team you want to locate in that space.
-3. Repeat Step 2 until you have entered values for all the teams you want to locate in this floor plan.
-4. Select **Update Floorplan** to generate an optimized floor plan with these updated fixed values.
+1. Select **Clear Floor Plan** and then reassign teams to different workspaces.
+2. Confirm any changes, and then select **Assign Remaining Head Count**.
+3. Enter a unique floor plan name, and then select **Assign Remaining Head Count** again. Your new floor plan will show as loading in the same project folder as your original floor plan.
+4. After this new version shows a **Status** of a **green check mark**, you can select the floor plan to open, review, make changes, and download it.
 
 > [!Note]
-> The more teams you assign to fixed locations, the less optimized the floor plan can be.
+> The more teams you assign to fixed locations, the less optimized the floor plan will be.
+
+## View project and floor plan details
+
+After you create projects and associated floor plans, they are available in the **Workspace Planning** list with the following options:
+
+* Select a table column heading, such as **Name** or **Created by**, to sort the list by.
+* Select a project name to view its floor plans.
+* For floor plans, select the **Download** icon to download the constraint files that were used to create the floor plan.
+* Select the **Dataset Parameters** icon to see more details about a floor plan.
+* Select the **Job Details** icon to see more details about the floor plan was generation.
+* Select the **Delete** (trashcan) icon to delete a project or a floor plan that you created from the list.
+
+## Save and download a floor plan
+
+To download an existing floor plan, select the **Download** icon for the plan listed in **Load Floor Plan**. Or to make changes and then download an updated floor plan, do the following steps.
+
+1. In the Workspace Planning Azure Template, select the applicable project for the floor plan.
+2. Select the name of the floor plan you want to save and download.
+3. Confirm or change how teams are assigned to workspaces, such as:
+
+   * Select **Clear Floor Plan** to replace all values with zero in this plan.
+   * Select the **Clear** (eraser) icon for any column or row to clear all the values for it.
+   * Select the **Eye** icon to hide or unhide a full workspace or a team that’s fully assigned in the floor plan view.
+
+4. Select **Save Floor Plan**.
+5. Name the plan, and then select **Save Floor Plan** again.
+6. Select **Download Floor Plan** to save a .csv version of it.
 
 ## Related topics
 

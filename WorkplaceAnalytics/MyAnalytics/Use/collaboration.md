@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Collaboration page
 description: Learn how to use MyAnalytics to improve your collaboration at work
@@ -41,7 +39,7 @@ The Meeting habits section highlights what your habits or practices are in meeti
    |![recur icon](../../Images/mya/use/recur-icon.png) |Represents a recurring meeting on your calendar. |
    |![person meeting icon](../../Images/mya/use/person-meeting-icon.png) | Represents a meeting organized by you. |
    |![recurring meeting by you icon](../../Images/mya/use/recur-byu-icon.png) | Represents a recurring meeting organized by you. |
-   |![checkmark icon](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting started on time. |
+   |![check mark icon](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting started on time. |
    |![X icon](../../Images/mya/use/x-icon.png) | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not start on time. |
    |![dash icon](../../Images/mya/use/dash-icon.png) | If a meeting has a dash in a column, the specified meeting metric was not applicable for that meeting. For example, the meeting was canceled, so starting on time was not applicable. |
    |![sort up icon](../../Images/mya/use/sort-up-icon.png)![sort down icon](../../Images/mya/use/sort-icon.png)  | Select a column name in the Meetings list to sort the list by that column in ascending or descending order. The sort icon will show up next to the column name that the list is sorted by. |
@@ -73,7 +71,7 @@ The following meeting habit metrics are included on the Collaboration page. You 
 * **Added Skype or Teams link** includes meetings you organized and included a Skype or Teams link for remote attendance.
 * **No overlap with other meetings** includes meetings that you organized or accepted that did not overlap with other meetings.
 * **No emails or chats during the meeting** includes meetings during which you did not send a significant number of emails or chats.
-* **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time.
+* **Online meetings joined on time** includes Skype or Teams meetings that you joined or started on time (or within five minutes of their schedule start time).
 * **During working hours** includes meetings you organized or accepted to attend during your working hours.
 
 #### Meeting exclusions
@@ -153,7 +151,7 @@ You might miss out on valuable collaboration time if you're spending too much ti
 * **Start and end meetings on time**:
 
   * When meetings start on time, they are more likely to finish on time and meet the objectives of the meeting. Consider blocking time for preparation before the start of meetings to avoid late starts.
-  * Better meeting practices can improve productivity, information sharing, innovation, decision-making, and team collaboration.
+  * Better meeting practices can improve productivity, information sharing, innovation, decision making, and team collaboration.
 
 * **Cancel meetings a day ahead**: If possible, send cancellations to attendees the day before. Do your best to plan ahead so that attendees can optimally re-purpose that time.
 

@@ -23,9 +23,17 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 ## Why don't I see any inline suggestions?
 
-Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
+Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place: 
+ * You have Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
+ * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/).
+
+
+In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
 
 Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
+
+> [!Note] 
+> Inline suggestions are not available on mobile devices. 
 
 ## Types of inline suggestions
 
@@ -155,7 +163,7 @@ Select **See other available times** to open the Insights add-in pane and displa
 
 Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work. 
 
-![focus time send email](../../Images/mya/use/move-focus-block-50.png)
+![move focus block](../../Images/mya/use/move-focus-block-50.png)
 
 ## Shorten a meeting
 
@@ -175,7 +183,7 @@ While reading an email that you've sent, you might see an insight that highlight
 
 Select **See more insights** to see how many people have opened or forwarded your email and the average time that they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
-![Track email open rate](../../Images/mya/use/email-open-rates-50.png)
+![email open rates](../../Images/mya/use/email-open-rates-50.png)
 
 ## Track email
 

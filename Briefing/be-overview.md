@@ -19,7 +19,7 @@ The Briefing email helps you stay in control of your calendar and be intentional
 * Suggested focus time you can schedule to help get independent work done.
 
 > [!Important]
-> Briefing is being released in phases with the first release made available only to Microsoft 365 Enterprise users with Exchange Online mailboxes in English.
+> Briefing is being released in phases with a general roll out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in English and a targeted release starting in October in Spanish.
 
 ## Why am I getting this?
 
@@ -40,15 +40,7 @@ The Briefing email looks for actionable tasks in Outlook and includes the top re
 
 The Adaptive version of the Briefing email also includes any last-minute options to schedule time to focus on deep work or to work through any of the tasks included in the email. Any existing focus time that’s already scheduled is also referenced in this section.
 
-For each task, you can select:
-
-* **Not a task** to remove it from your current list of tasks. It will also be excluded from all future  Briefing emails. This valuable feedback will improve future task identification.
-* **Done** to indicate the task is complete.
-
-For documents, select:
-
-* **Done** to indicate you are finished reviewing the document.
-* **Not related** to remove the document suggestion and gives feedback that helps improve future.
+For more details, see [Prepare for meetings](be-meetings.md) and [Follow up on tasks](be-tasks.md).
 
 ## First Briefing
 
@@ -66,4 +58,4 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 
 * [Prepare for today's meetings](be-meetings.md)
 * [Tasks you need to follow up on](be-tasks.md)
-* [Make the most of your focus time](be-focus.md) (Adaptive version only)
+* [Book focus time](be-focus.md) (Adaptive version only)<!--* [Plan your week](be-time.md)* [Catch up with your team](be-manager.md) (Adaptive version only)-->

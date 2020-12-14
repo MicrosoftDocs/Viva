@@ -29,7 +29,7 @@ The information in this section helps you get the most out of the following insi
 
 ## Prepare for your meetings
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision-making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf). 
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
 
 **Prepare for your meetings** shows you a list of upcoming meetings that you've organized or that you've been invited to. This insight helps you decide whether each meeting is ready to go. 
 
@@ -147,7 +147,7 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
 _**Applies to**: MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq#q4-how-can-i-find-out-what-my-plan-is.md)_
 
-Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision-making. This insight gives you feedback on how well your sent emails are received. 
+Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision making. This insight gives you feedback on how well your sent emails are received. 
 
 **Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why: 
 
@@ -256,7 +256,7 @@ It can be easy to lose track of requests you made of your colleagues. By automat
 
  * In the **Insights** pane, select **Follow up on your requests**. This insight is available only in English.
 
-   ![Track email open rates](../../images/mya/use/follow-up-on-your-requests.png)    
+   ![Follow up on your requests](../../images/mya/use/follow-up-on-your-requests.png)    
     
    This opens a panel that displays insights for each of your suggested follow-up tasks. 
    
@@ -396,7 +396,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 
 1. In the **Insights** pane, locate **Set lunch hours**:
 
-   ![Insights plan your time away task list](../../images/mya/use/set-lunch-hours.png)  
+   ![Set your lunch hours](../../images/mya/use/set-lunch-hours.png)  
 
 2. Use the options that are described in the following table.    
 
@@ -421,7 +421,7 @@ The **Plan your time away** checklist can help reduce the stress of planning for
 
 You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
-![Insights plan your time away task list](../../images/mya/use/plan-your-time-away.png)
+![Insights plan your time away task](../../images/mya/use/plan-your-time-away.png)
 
 **To use Plan your time away**
 
@@ -472,6 +472,13 @@ As a manager, you can:
  * Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
  * Act on tasks you promised to get done or that team members asked you to complete
  * Review important emails and documents from team members that you haven’t read yet
+
+<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS THIS ENTIRE PARAGRAPH IN JANUARY 2021.
+
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Office 365 administrator.
+-->
+
+<!-- USING THE FOLLOWING COMPLETE PARAGRAPH FOR NOW. REINSTATE THE ENTIRE PRECEDING PARAGRAPH IN 2021.  -->
 
 This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
 

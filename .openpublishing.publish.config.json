@@ -47,6 +47,20 @@
       "template_folder": "_themes"
     },
     {
+      "docset_name": "teams-insights",
+      "build_source_folder": "Teams-insights",
+      "build_output_subfolder": "teams-insights",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "Workplace-Analytics-Insights",
       "build_source_folder": "workplace-analytics-insights",
       "build_output_subfolder": "Workplace-Analytics-Insights",

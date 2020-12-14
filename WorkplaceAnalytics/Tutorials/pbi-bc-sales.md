@@ -27,6 +27,12 @@ After you successfully run these queries, you'll see the Power BI template as an
 
 When the Sales business continuity dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
+## Demonstration
+
+This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
@@ -98,7 +104,8 @@ After the Sales business continuity dashboard is set up and populated with Workp
 * **Current time period** - This is the timeframe you want to compare with the earlier time period.
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 * **Organizational attribute to filter by** – To filter the measured employee population to choose Sales employees, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select Ctrl while clicking the Clear filter arrow (or with a touchscreen, select the Clear filter arrow). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current time period.
-* After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
+
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
    > [!Important]
    > As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.

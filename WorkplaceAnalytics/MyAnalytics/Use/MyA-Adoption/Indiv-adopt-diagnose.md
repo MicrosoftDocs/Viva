@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Individual Adoption --Diagnose 
 description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose issues
 author: madehmer
 ms.author: v-pausch
-ms.date: 04/03/2019
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya
@@ -105,7 +102,7 @@ Look at your MyAnalytics dashboard to use data to validate your collaboration pa
 After you analyze your collaboration issue both qualitatively and quantitatively, you should have more clarity on what you would like to change about the way you collaborate. Behavior-change objectives include: 
 
 * Reduce the number of hours I spend in ineffective meetings.
-* Schedule more focus hours to boost my productivity, creativity and decision-making.
+* Schedule more focus hours to boost my productivity, creativity, and decision making.
 * Manage my inbox more effectively.
 * Improve the effectiveness of the emails that I send.
 * Reduce my after-hours collaboration to achieve a better work-life balance.

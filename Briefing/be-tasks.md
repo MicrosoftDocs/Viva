@@ -11,20 +11,25 @@ ms.prod: Mya
 ---
 # Follow up on tasks
 
-In the **Tasks you may have missed** section of your Briefing email, a task can be one of the following that you got and might have missed in email:
+For **Commitments and follow-ups** in your Briefing, you'll see the one or more of the following based on your recent email activity:
 
-* **Commitment** - something you promised or committed to do for someone else in an email
-* **Request** - something another person asked you to do in an email
-* **Follow-up** - something you asked for from someone else in an email
+* **Commitment** - Something you promised or committed to do for someone else in an email.
+* **Request** - Something another person asked you to do in an email.
+* **Follow-up** - Something you asked for from someone else in an email.
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following:
 
 * If the related task is already done, select **Done**.
-* Or if the task suggested is not an actionable task, select **Not a task** to help improve future suggestions.
+* Depending on your use of the To Do feature, you select either **Remind me tomorrow** or **Add to To Do** for the related task.
+* To remove it from your list, select the **Delete** (trashcan) icon.
 
-In the following example, you’d select **TED Talks** to open the email from Enrico or select **Done** to confirm you’ve already done the related task.
+In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me tomorrow** to get a reminder in your next day's briefing email.
 
-   ![Briefing email about tasks](./images/be-tasks.png)
+![Briefing email about tasks](./images/be-task.png)
+
+Or if you use the To Do feature, you could select **Add to To Do**.
+
+![Briefing email about tasks](./images/be-task-to-do.png)
 
 ## Related topics
 
