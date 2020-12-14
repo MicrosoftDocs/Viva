@@ -19,6 +19,51 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## December 2020
+
+The following new template and template features, enhancements, and changes are included this month's release.
+
+### Account Mapping
+
+Account Mapping is now available on its own page. You can now use mapped CRM account and contact data within the ONA and Process Explorer templates as well as continuing to use it for Relationship Intelligence analysis.
+
+### Organizational Network Analysis (ONA) Azure Template
+
+* **External Collaboration Analysis** - ONA now has the ability to analyze collaboration with external domains and accounts. Due to the fact that this feature will add new collaborations (emails, meetings, Microsoft Teams chats and calls) there is a limit of adding up to five external domains or accounts to keep datasets at a manageable size.
+
+* **Account Mapping** - Use an Account Mapping file that matches the external domains to the external account names and select external collaborators by account.
+* **Advanced Color by and Group by modes** - You can now use if/else controls to color and/or group individuals for analysis. For example: **IF Account** equals **MyCompany**, color by **Organization**, **ELSE**, color by **Account**. These settings make it easy to spot the various internal organizations and external accounts within the same graph.
+* **Expanded color palette** - New color nodes are available in the combined and individual graph views with an expanded palette of 96 different colors.
+* **DataBricks job queue optimization** - New optimizations enable faster processing in DataBricks within both the ONA and Relationship Intelligence Azure Templates.
+
+### Process Explorer Azure Template
+
+**Collaboration with External Accounts** - You can now analyze how internal groups collaborate with individuals from domains or accounts outside of your company. Because all emails and meetings from a dataset are included when creating analysis in Process Explorer, you can use it to focus on interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
+
+**Note**: The Generate ONA Graph option is not available because the Communication Flow by Category is not available for this type of analysis.
+
+### Relationship Intelligence Azure Template and Power BI report
+
+* **Improved Settings** - A new **Settings** page makes it easier to scope your analysis by selecting the date range, accounts of interest by various data attributes, their grouping attributes, and the interactions that involve specific internal groups.
+* **Internal collaborators** - New level of analysis focused on internal collaborators, their connectivity score, and influencer rank.
+* **Domain details** - This new table shows the CRM status of collaborators.
+* **Connectivity scores and filter** - New line charts show the metrics that comprise the Connectivity score, including the number of contacts, collaboration hours, and recency of collaboration. A new filter is also available to focus your analysis on accounts based on their Connectivity score tier.
+
+### Workspace Planning Azure Template
+
+* New flow - Floor plans are now organized into projects to make them easier to keep organized and to iterate on versions. A user will create a project, and then create floor plans within that project using constraint files comprising the requisite distance, interaction, space capacity, and team size data.
+* **Improved file upload interface** - You can now drag and drop constraint files and upload multiple files at the same time. Real-time status shows during the upload to confirm if individual files are in the valid schema or not. If a file is erroneous, you have the option to replace the one file for the upload.
+* **Improved floor plan matrix** - When you submit a new floor plan, the algorithm seats the teams in the optimal floor plan based on a number of factors, including their interactions, which uses collaboration data from Workplace Analytics.
+
+  * **Automatic assignments** - When you open a new floor plan, all teams are automatically assigned to workspaces. You can then manually update the assignments as needed.
+  * **Progress indicators** - You can now see percentages of the total number of assigned head count and workspaces for each group and workspace. These percentages dynamically update as you change floor plan assignments.
+  * **Dynamic totals** - The matrix shows the team names, team size, and a running count of how many are assigned to a workspace. It also dynamically shows the total capacity of each workspace and the number of assigned and unassigned seats and team head count as you make changes.
+  * **Hide option** - You can now hide teams or workspaces that are fully assigned so you can focus on teams that still need assignments and the workspaces with unassigned seats.
+  * **Clear option** - You can select to clear a row or column or even the entire floor plan to make manual editing easier.
+  * **Optimized auto-assignment** - At any point, when remaining headcount is unassigned, you can select to automatically assign the remaining people to unassigned workspaces. The auto-assignments are optimized based on interaction data and does not change any of the existing assignments.
+
+**Note**: Because you can now edit and then select to auto-assign the remainder head count to available workspaces at any time, the separate modes for Interactive or Fixed Spaces are no longer necessary or available.
+
 ## September 2020
 
 The following new template and template features, enhancements, and changes are in this month's release.
