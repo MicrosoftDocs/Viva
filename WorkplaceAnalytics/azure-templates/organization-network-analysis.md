@@ -18,11 +18,11 @@ audience: Admin
 
 _This template only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates include the Organizational Network Analysis template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
+Workplace Analytics Azure Templates include the Organizational Network Analysis (ONA) template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
 
 Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
 
-To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subgroup datasets and graphs within the selected (parent) dataset. For details, see  [To add new subgroup analysis](#to-add-new-subgroup-analysis).
+To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subgroup datasets and graphs within the selected (parent) dataset. For details, see [To add new subgroup analysis](#to-add-new-subgroup-analysis).
 
 ## To add a new dataset
 
