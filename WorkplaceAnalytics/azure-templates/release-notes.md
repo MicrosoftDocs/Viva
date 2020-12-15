@@ -51,7 +51,7 @@ A new **Collaboration with External Accounts** option is now available for analy
 
 ### Workspace Planning Azure Template
 
-* New flow - Floor plans are now organized into projects to make them easier to keep organized and to iterate on versions. A user will create a project, and then create floor plans within that project using constraint files comprising the requisite distance, interaction, space capacity, and team size data.
+* **New flow** - Floor plans are now organized into projects that are easier to keep organized and to iterate versions of. You can create a project, and then create floor plans within that project by using constraint files comprising of the requisite distance, interaction, space capacity, and team size data.
 * **Improved file upload interface** - You can now drag and drop constraint files and upload multiple files at the same time. Real-time status shows during the upload to confirm if individual files are in the valid schema or not. If a file is erroneous, you have the option to replace the one file for the upload.
 * **Improved floor plan matrix** - When you submit a new floor plan, the algorithm seats the teams in the optimal floor plan based on a number of factors, including their interactions, which uses collaboration data from Workplace Analytics.
 
