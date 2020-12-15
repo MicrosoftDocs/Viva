@@ -126,7 +126,7 @@ As a participant in a seller-success plan, you receive a monthly seller-insights
 
  <!--  * [Leverage internal networks](#leverage-internal-networks) -->
 
-<!-- In three of the cards, the **Suggestion** section contains an **Explore** option that the seller can select to learn more about this suggestion and how it can benefit them. -->
+<!-- In three of the cards, the **Suggestion** section contains **Explore** that the seller can select to learn more about this suggestion and how it can benefit them. -->
 <!-- 
 The last card, [Manager interaction](#manager-interaction), has a **Manage meetings** option. Selecting **Manage meetings** displays  upcoming meetings in the Outlook web calendar and, optionally, lets sellers make changes to those meetings.  --> 
 

@@ -24,7 +24,7 @@ A minimum group size helps maintain employee privacy by ensuring that specific p
 
 ### The rule
 
-The minimum-group setting determines what you can view in the dashboards in [Explore metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in the [Plans](../Tutorials/solutionsv2-intro.md) area. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
+The minimum-group setting determines what you can view in the dashboards in [Explore the stats metrics](../Use/Explore-Metrics-Week-in-the-Life.md) and in [Plans](../Tutorials/solutionsv2-intro.md). You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five. The minimum-group-size rule protects people from being individually identified by means of de-identified data presented in a chart.
 
 #### Example
 
@@ -55,7 +55,7 @@ For histogram charts, the minimum-group-size rule is applied differently, in the
 
 You can see histogram charts in the following pages in Workplace Analytics:
 
-* On the Management and Coaching page in Explore
+* On the Management and coaching page
 * For goal setting in Plans
 * To track program success on the Track page in Plans
 
@@ -84,7 +84,7 @@ The following information can help you determine what privacy settings best matc
 You can enter a list of domains that you want to exclude. All email, meetings, calls, and instant messages from domains listed here are excluded from analysis.
 
 > [!Note]
-> There exists only the option to exclude (black list) specific domains, not to include (white list) specific domains.
+> There exists only the option to exclude specific domains, not to include specific domains.
 
 ### Email addresses
 
