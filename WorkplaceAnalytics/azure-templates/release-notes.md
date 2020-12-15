@@ -25,7 +25,7 @@ The following new template and template features, enhancements, and changes are 
 
 ### Account Mapping
 
-Account Mapping is now available on its own page. You can now use mapped CRM account and contact data within the ONA and Process Explorer templates as well as continuing to use it for Relationship Intelligence analysis.
+[Account Mapping](deploy-configure.md#account-mapping) is now available on its own page. You can now use mapped CRM account and contact data within the ONA and Process Explorer templates as well as continuing to use it in Relationship Intelligence analysis.
 
 ### Organizational Network Analysis (ONA) Azure Template
 
@@ -38,7 +38,7 @@ Account Mapping is now available on its own page. You can now use mapped CRM acc
 
 ### Process Explorer Azure Template
 
-**Collaboration with External Accounts** - You can now analyze how internal groups collaborate with individuals from domains or accounts outside of your company. Because all emails and meetings from a dataset are included when creating analysis in Process Explorer, you can use it to focus on interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
+A new **Collaboration with External Accounts** option is now available for analyzing how internal groups collaborate with individuals from domains or accounts outside of your company. Because all emails and meetings from a dataset are included when creating analysis in Process Explorer, you can use it to analyze interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
 
 **Note**: The Generate ONA Graph option is not available because the Communication Flow by Category is not available for this type of analysis.
 

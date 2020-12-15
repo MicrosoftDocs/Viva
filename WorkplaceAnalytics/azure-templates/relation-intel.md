@@ -49,7 +49,7 @@ The Relationship Intelligence report includes the following.
 ## Steps to create the report
 
 1. [Prerequisites](#prerequisites) - Confirm or complete all the prerequisites.
-2. [Add an account mapping](#add-an-account-mapping) - Follow the steps to create a new account mapping file in Workplace Analytics Azure Templates.
+2. [Add an account mapping](deploy-configure.md#account-mapping) - Follow the steps to create a new account mapping file for Workplace Analytics Azure Templates.
 3. [Add new analysis](#add-new-analysis) - Follow the steps to create the dataset in Workplace Analytics Azure Templates that the Power BI report uses.
 4. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the Power BI template and load the data in Power BI. You can then use Power BI to visualize the data and drill in and focus on account details.
 
@@ -60,52 +60,16 @@ The Relationship Intelligence report includes the following.
 * **Power BI Desktop** - Have the latest version of Power BI Desktop installed locally. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 * **Template access** - Have access to the Relationship Intelligence Azure Template, which is required for you to view the data in the Power BI report.
 
-## Add an account mapping
-
-Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts and create a mapping file in the template. See [Required file formats](#required-crm-file-formats) for details about what the files must include based on the type of CRM.
-
->[!Note]
->If CRM data is unavailable, or you want to start without it, you can skip adding a mapping file and when prompted while adding new analysis, select **None** for the account mapping. With no mapping file, the analysis will only show external domain-level data.
-
-1. In Workplace Analytics Azure Templates, select **Relationship Intelligence**.
-2. Select **Account Mapping** > **Add New Mapping** (at top right) to upload a new set of files for customer accounts and contacts.
-
-    ![Add a mapping file for the report](./images/ri-account-map.png)
-
-3. In **Name the Account mapping**, enter a friendly name for the mapping file.
-4. In **Provide the accounts** and **Provide the contacts**, select **Choose File**, and then select the .csv files for accounts and contacts, which must be in the required format as described in [Required CRM file formats](#required-crm-file-formats).
-5. In **Specify your CRM source**, select the CRM source for your accounts and contacts.  
-
-### Required CRM file formats
-
-The following are examples of what the .csv file formats for accounts and contacts must include.
-
-#### Dynamics accounts
-
-![File format for Dynamics accounts](./images/ri-dynamics-accounts.png)
-
-#### Dynamics contacts
-
-![File format for Dynamics contacts](./images/ri-dynamics-contacts.png)
-
-#### Salesforce accounts
-
-![File format for Salesforce accounts](./images/ri-salesforce-accounts.png)
-
-#### Salesforce contacts
-
-![File format for Salesforce contacts](./images/ri-salesforce-contacts.png)
-
 ## Add new analysis
 
-After you add a mapping file for your customer accounts and contacts, do the following to create the dataset for the report.
+After you add an [account mapping file](deploy-configure.md#account-mapping) for your customer accounts and contacts, do the following to create the dataset for the report.
 
 1. In Workplace Analytics Azure Templates, select **Relationship Intelligence** > **Add New Analysis** (at top right).
 2. In **Define Analysis Settings**, enter a friendly name for the analysis and select the path to the dataset.
 
     ![Add new analysis for the report](./images/ri-new-analysis.png)
 
-3. In **Select Account Mapping**, select the mapping file you created in [Add an account mapping](#add-an-account-mapping).
+3. In **Select Account Mapping**, select the mapping file you created in [Account mapping](deploy-configure.md#account-mapping).
 4. In **Select the Grouping Attributes**, select two to five HR attributes to analyze and use to pivot analysis in Power BI. These are the HR attributes imported with the organizational data from Workplace Analytics.
 5. Select **Submit**. Creating the dataset will take a few minutes up to a few hours based on the size of the data.
 6. In **Relationship Intelligence** > **Analysis**, the analysis table includes the name, the source, the date is was submitted, who submitted it, and the following:
