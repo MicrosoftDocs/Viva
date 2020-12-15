@@ -27,11 +27,10 @@ The following new template features, enhancements, and changes are included this
 
 [Account Mapping](deploy-configure.md#account-mapping) is now available on its own page. You can now use mapped CRM account and contact data within the ONA and Process Explorer templates as well as continuing to use it in Relationship Intelligence analysis.
 
-### Organizational Network Analysis (ONA) Azure Template
+### Organizational Network Analysis Azure Template
 
-* **External Collaboration Analysis** - ONA now has the ability to analyze collaboration with external domains and accounts. Due to the fact that this feature will add new collaborations (emails, meetings, Microsoft Teams chats and calls) there is a limit of adding up to five external domains or accounts to keep datasets at a manageable size.
-
-* **Account Mapping** - Use an Account Mapping file that matches the external domains to the external account names and select external collaborators by account.
+* **External Collaboration Analysis** - You can now use the Organizational Network Analysis Azure Template to analyze collaboration with external domains and accounts. Because this option adds new collaboration data (emails, meetings, and Teams chats and calls) to the analysis, you are limited to adding up to five external domains or accounts to keep datasets at a manageable size.
+* **Account Mapping** - Use an Account Mapping file that matches the external domains to the external account names if you want to select external collaborators by account for your analysis.
 * **Advanced Color by and Group by modes** - You can now use if/else controls to color and/or group individuals for analysis. For example: **IF Account** equals **MyCompany**, color by **Organization**, **ELSE**, color by **Account**. These settings make it easy to spot the various internal organizations and external accounts within the same graph.
 * **Expanded color palette** - New color nodes are available in the combined and individual graph views with an expanded palette of 96 different colors.
 * **DataBricks job queue optimization** - New optimizations enable faster processing in DataBricks within both the ONA and Relationship Intelligence Azure Templates.
