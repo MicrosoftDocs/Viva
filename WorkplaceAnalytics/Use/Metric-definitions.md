@@ -12,7 +12,13 @@ ms.prod: wpa
 
 # Metric descriptions for Workplace Analytics
 
-You can use the following metrics in Workplace Analytics to customize your queries.
+To customize your Workplace Analytics [queries](../tutorials/query-basics), you can use the metrics that are defined on this page. They are organized by query type:
+
+* [Person metrics](#person-metrics)
+* [Meeting metrics](#meeting-metrics)
+* [Group-to-group metrics](#group-to-group-metrics)
+* [Person-to-group metrics](#person-to-group-metrics)
+* [Organizational network analysis (ONA) metrics](#organizational-network-analysis-ona-metrics)
 
 ## Person metrics
 
