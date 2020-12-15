@@ -86,8 +86,8 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    >If you haven't saved any graphs yet, the list will be empty.
 
 2. At top of the graph, you can select different dates to analyze if the analysis includes different time periods. When you change the dates, you must select **Apply** to update the graph view.
-3. You can select the lines in the graph to show the measures. Also, the **No Data** node shown in the graph primarily represents groups that don't meet the threshold settings or no attribute or data is available based on the selected filters for the view shown.
-4. Use the following options to change the graph view and save new analysis.
+
+3. Use the following options to change the graph view and save new analysis.
 
    Option |Name |Description
    ------------|--------------|------------
@@ -223,10 +223,9 @@ Represents the ability to access or share information across the organization wh
 -->
 ## Graph notes
 
-* **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the grouped or combined view, the insufficient group's edges and node won't show in the graph.
-
+* **Line measures** - You can select the lines in the graph to show their individual line measures.
+* **No Data** - If one or more nodes represent groups that don't meet the threshold settings, or no attribute or data is available based on the selected filters, for the view shown, they're combined and listed in a **No Data** node (such as in the color node list). For the grouped or combined view, the No Data node and edges won't show in the graph.
 * **Delete a node** - If you want to exclude a node from the graph, you can use the filter options or select the node in the graph to highlight it, and then press **Delete** (on your keyboard). Before saving the graph, you can right-click in the graph, and then select **Show Hidden** to undo a delete.
-
 * **Color-by key** - You can select specific metrics to color the graph by, such as by degrees, influence index, bridging index, and boundary spanning. The resulting graph will have nodes colored by using a heat map gradient with the following color scheme. Note that this color-by option is unavailable in Combined View.
 
   * The lowest values on one end of the spectrum show as *light yellow*.
