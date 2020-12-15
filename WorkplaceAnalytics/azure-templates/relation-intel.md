@@ -114,16 +114,18 @@ After the Relationship Intelligence Report is set up and populated with data, us
 * **Choose Grouping Attribute** - Select an internal group attribute at any time and all subsequent report pages will show group values based on the selected attribute.
 * **Focus on Specific Internal Groups** – Based on the selected  Grouping attribute, you can select one or more internal groups to filter the report data to focus on.
 
-![Relationship Intelligence Power BI report settings](../Images/ri-pbi-settings.png)
+![Relationship Intelligence Power BI report settings](./images/ri-pbi-settings.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 
 * **Drill through hierarchy** - An important tip to know about this specific Power BI report is the drill through hierarchy. To select an account or an individual collaborator to analyze on the **Account Analysis** and other report pages, you must right-click the account on the **Relationship Overview** page, and then select **Drill through** > **Account Analysis**.
 
-![Use Drill through for Account Analysis data](./images/ri-drill-through.png)
-![Use CTRL+click for Individual Collaborator data](./images/ri-ctrl-click.png)
+   ![Use Drill through for Account Analysis data](./images/ri-drill-through.png)
 
-   * **Individual Collaborators** - To view this page, CTRL + click **View All Collaborators** on the **Account Analysis** page.
+   * **Individual Collaborators** - To view this page, CTRL+click **View All Collaborators** on the **Account Analysis** page.
+
+     ![Use CTRL+click for Individual Collaborator data](./images/ri-ctrl-click.png)
+
    * **External Collaborators** - To view this page, you must right-click the external collaborator on the **Individual Collaborators** page, and then select **Drill through** > **External Collaborators**.
 
 * **Power BI data error** - If you see an error similar to the following, you might not have the correct information copied for the Server and Database fields in Power BI. Repeat the steps in [Load the data and view the report](#load-the-data-and-view-the-report).
