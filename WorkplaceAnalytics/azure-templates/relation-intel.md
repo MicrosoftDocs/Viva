@@ -43,8 +43,10 @@ The Relationship Intelligence report includes the following.
   * You'll also see visuals for collaboration trends by communication type and typical meeting lengths for the selected account that you can compare with overall trends on the first page.
 
 * **Individual Collaborators** - Shows more details about all the individual account contacts and all the organizational groups that have collaborated with these contacts. The tables include the relationship score, rankings, and other details about how your organization is collaborating with individual account contacts for the selected account.
+* **External Collaborators** - Shows more details about the external collaborator that you selected from the Individual Collaborators page. It shows details about a person outside the organization that collaborated with one or more of the organizational groups. It focuses on details, such as their most recent connectivity score, influencer rank, group engagement, and collaboration time.
+* **Domain Details** - Shows details about any individuals included in the data that missing or incorrect CRM or account data.
 
-![Relationship Overview report page](./images/ri-report-1.png)
+![Relationship Overview report page](./images/ri-pbi-report.png)
 
 ## Steps to create the report
 
@@ -102,11 +104,27 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
 7. If prompted by the Navigator, select **Model**, and then **OK**.
 8. It might take a few minutes to load the data from the database into the report. After it loads, you can analyze report data with Power BI tools and visualizations.
 
+## Report settings
+
+After the Relationship Intelligence Report is set up and populated with data, use the following to confirm the report settings.
+
+* **Date Settings** - Choose to analyze a specific date range within the date range of data included in this report.
+* **Settings Result** - Shows the number of accounts included in the dataset based on the selected settings.
+* **External Account Settings** - This is the timeframe you want to compare with the earlier time period.
+* **Choose Grouping Attribute** - Select an internal group attribute at any time and all subsequent report pages will show group values based on the selected attribute.
+* **Focus on Specific Internal Groups** – Based on the selected  Grouping attribute, you can select one or more internal groups to filter the report data to focus on.
+
+![Relationship Intelligence Power BI report settings](../Images/ri-pbi-settings.png)
+
 ## Power BI tips, troubleshooting, and FAQs
 
-* **Drill through hierarchy** - An important tip to know about this specific Power BI report is the drill through hierarchy. To select an account or an individual collaborator to analyze on the **Account Analysis** and **Individual Collaborators** pages of the report, you must right-click the account on the **Relationship Overview** page, and then select **Drill through** > **Account Analysis**. Then you can view information about that selected account on the other two pages.
+* **Drill through hierarchy** - An important tip to know about this specific Power BI report is the drill through hierarchy. To select an account or an individual collaborator to analyze on the **Account Analysis** and other report pages, you must right-click the account on the **Relationship Overview** page, and then select **Drill through** > **Account Analysis**.
 
-![Use Drill through for Account Analysis and Individual Collaborator data](./images/ri-drill-through.png)
+![Use Drill through for Account Analysis data](./images/ri-drill-through.png)
+![Use CTRL+click for Individual Collaborator data](./images/ri-ctrl-click.png)
+
+   * **Individual Collaborators** - To view this page, CTRL + click **View All Collaborators** on the **Account Analysis** page.
+   * **External Collaborators** - To view this page, you must right-click the external collaborator on the **Individual Collaborators** page, and then select **Drill through** > **External Collaborators**.
 
 * **Power BI data error** - If you see an error similar to the following, you might not have the correct information copied for the Server and Database fields in Power BI. Repeat the steps in [Load the data and view the report](#load-the-data-and-view-the-report).
 
