@@ -43,45 +43,38 @@ The following is available after the data is categorized through a starter templ
 
 ## To add new analysis
 
-If you want to use an [Account mapping](deploy-configure.md#account-mapping) file to analyze external collaboration within Process Explorer, you need to confirm you have an existing Account mapping file or if not you need to create a new one. You can then use the following steps to add new analysis in Process Explorer.
+Use the following steps to add new analysis in Process Explorer.
 
 1. In Workplace Analytics Azure Templates, select **Process Explorer**.
 2. Select **Add New Analysis** (top right).
 3. In **Define Analysis Settings**, select one of the following:
 
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
-   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. After the analysis is created With this option, you can export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
+   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. You can choose to export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
 
-    ![Process Explorer starter templates](./images/pexp-new-analysis.png)
+    ![Process Explorer starter templates](./images/pexp-define-analysis.png)
 
 4. In **Analysis Name**, enter a unique name for this analysis.
 5. Select the applicable path for the dataset to use in this analysis.
 6. Select the time range to analyze.
-7. In **Choose Collaborators**, you can select:
+7. In **Select the Grouping Attributes**, select two to five HR attributes to group by for the analysis.
+8. In **Apply Filters**, you can optionally select any applicable filters to reduce and focus the dataset for analysis.
+9. Then do one of the following:
 
-   * **All Collaboration** - All internal collaboration activity as specified for this analysis.
-   * **Collaboration with External Accounts** - Analyzes interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
-
-8. For **All Collaboration**, skip to the next step. Otherwise, in **Choose Account Mapping File**, you can either keep the default of **No Account Mapping File** or select an [account mapping file](deploy-configure.md#account-mapping) for this analysis.
-
-9. If prompted for **External Collaborators**, select which domains or accounts (if using an account mapping file) you want to include in this analysis. For **Apply Filters** or **Apply Filters for Internal Collaborators**, you can optionally select applicable filters to reduce and focus the dataset for analysis.
-10. Then do one of the following:
-
-    * **No organizational network graph** - For no graph, leave the default set to **No**, and select **Submit**. Then skip to **Step 13**.
-    * **Generate Organizational Network Graph** - If available, change the setting to **Yes** to include **Communication Flow by Category** in the analysis, and then select **Next**.
+    * **No organizational network graph** - For no graph, leave the default set to **No**, and select **Submit**. Then skip to **Step 11**.
+    * **Generate Organizational Network Graph** - Change the setting to **Yes** to include **Communication Flow by Category** in the analysis, and then select **Next**.
 
     >[!Important]
-    >With the default **No** setting, **Communication Flow by Category** will not show or be available with this analysis. This setting is not available with the **Collaboration with External Accounts** option.
+    >With the default **No** setting, **Communication Flow by Category** will not show or be available with this analysis.
 
-11. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
+10. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
 
     * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or all emails and meetings.
     * **Maximum number of people involved in each interaction** - Select the maximum number of people involved in each interaction.
     * **Maximum duration of a meeting or call** - Select the maximum number of hours of the meeting.
     * **Advanced Settings** - Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, and interactions across both types.
 
-12. In **Select the Grouping Attributes**, select two to five HR attributes to group by for the analysis, and then select **Submit**.
-13. Data analysis creation takes a few minutes to complete depending on the size of the dataset. The name will show in the **Analysis** table with the following details and available actions.
+11. Data analysis creation takes a few minutes to complete depending on the size of the dataset. The name will show in the **Analysis** table with the following details and available actions.
 
     * When the **Status** changes to a green check mark, you can select the analysis to view it.
     * **Model Type** shows analysis was created using a starter template or the topic detection only model.
@@ -90,7 +83,7 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
     * Select the **Job Details** (i) icon next to **Status** to view the job details.
     * Select a table column heading, such as **Name** or **Submitted**, to sort the list by.
     * Select the **Delete Dataset** (trashcan) icon to delete analysis that you created from the list.
-    * If the dataset fails with the **Status** of a **red X**, you need to create a new analysis.
+    * If the dataset fails with a **Status** of a red X, you need to create a new analysis.
 
 ## Categorization analysis
 
