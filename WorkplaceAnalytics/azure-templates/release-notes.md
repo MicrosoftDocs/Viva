@@ -21,7 +21,7 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 
 ## December 2020
 
-The following new template and template features, enhancements, and changes are included this month's release.
+The following new template features, enhancements, and changes are included this month's release.
 
 ### Account Mapping
 
