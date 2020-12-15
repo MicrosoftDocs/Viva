@@ -23,7 +23,7 @@ You can explore the data with the Workplace Analytics dashboards, and dive deepe
 
 Workplace Analytics provides the following ways to analyze and explore your data.
 
-[**Home**](../use/home-page.md) provides analysis scope information and research-based behavioral insights into how your organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
+[**Home**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how your organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. As a new user, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get Workplace Analytics set up for the first time.
 
 **Analyze** includes the following data-analysis tools:
 
