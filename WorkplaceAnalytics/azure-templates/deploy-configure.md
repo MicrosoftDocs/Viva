@@ -32,7 +32,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
 6. [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
 7. [Add users](#add-users-and-assign-roles)
 8. [Process the data](#process-the-data)
-9. Additional configuration and deployment options: [Incoming data](#incoming-data), [Account mapping](#account-mapping), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
+9. Additional configuration and deployment options: [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
 
 ## Security considerations
 
@@ -241,48 +241,11 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 On the **Admin** > **Incoming Data** page, you can see a list of the most recent data uploads in descending order, including the data's path, the date it was uploaded, the status, and the option to delete it. This list populates the list you can use to create new datasets with the Process Explorer Azure template. Also, use this page to easily delete data (trash can icon in far right column) that's outdated or no longer needed.
 
-## Account mapping
-
-Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts and create a mapping file in the template. See [Required file formats](#required-crm-file-formats) for details about what the files must include based on the type of CRM.
-
->[!Note]
->If CRM data is unavailable, or you want to start without it, you can skip adding a mapping file and when prompted while adding new analysis, select **None** for the account mapping. With no mapping file, the analysis will only show external domain-level data.
-
-**To add a new account mapping**:
-
-1. In Workplace Analytics Azure Templates, select **Account Mapping** > **Add New Mapping** (at top right) to upload a new set of files for customer accounts and contacts.
-
-    ![Add a new account mapping](./images/account-mapping.png)
-
-2. In **Name the Account mapping**, enter a friendly name for the mapping file.
-3. In **Specify your CRM source**, select the CRM source for your accounts and contacts. 
-4. In **Provide the accounts file** and **Provide the contacts**, select **Choose File**, and then select the .csv files for accounts and contacts, which must be in the required format as described in [Required CRM file formats](#required-crm-file-formats).
-
-### Required CRM file formats
-
-The following are examples of what the .csv file formats for accounts and contacts must include.
-
-#### Dynamics accounts
-
-![File format for Dynamics accounts](./images/ri-dynamics-accounts.png)
-
-#### Dynamics contacts
-
-![File format for Dynamics contacts](./images/ri-dynamics-contacts.png)
-
-#### Salesforce accounts
-
-![File format for Salesforce accounts](./images/ri-salesforce-accounts.png)
-
-#### Salesforce contacts
-
-![File format for Salesforce contacts](./images/ri-salesforce-contacts.png)
-
 ## Other configuration options
 
 As an admin, you can configure template settings in **Admin** > **Configuration**, including:
 
-* The minimum group size and the maximum number of nodes and links in data analysis with the **Organizational Network Analysis Azure Template**.
+* The minimum group size, maximum number of nodes and links in data analysis with the **Organizational Network Analysis Azure Template**.
 * If the **Process Explorer Azure Template** either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
 * Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.
 
