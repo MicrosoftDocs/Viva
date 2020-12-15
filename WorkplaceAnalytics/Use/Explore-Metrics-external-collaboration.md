@@ -1,7 +1,7 @@
 ---
 
-title: Explore External collaboration metrics in Workplace Analytics
-description: An overview of the External collaboration dashboards available in Workplace Analytics.
+title: Explore external collaboration data in Workplace Analytics
+description: An overview of external collaboration data available in Workplace Analytics
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
@@ -11,17 +11,12 @@ ms.prod: wpa
 
 # External collaboration
 
-**External collaboration** in **Explore** provides a summary of your employees' network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
+**External collaboration** shows a summary of your employees' network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
 
 >[!Note]
-> All metrics are reported at a group level and cannot be traced back to any individual.
+> All data is reported at a group level and cannot be traced back to any individual.
 
 ![External collaboration](../images/wpa/use/external-collab-top.png)
-
-To open **External collaboration**:
-
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page. If prompted, sign in with your work account.
-2. Select **Analyze** > **Explore** > **External collaboration**.
 
 External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
 
@@ -225,7 +220,7 @@ In the bubble graph, if the bubble for your organization is found at the top rig
 
 ## Page settings
 
- You can use **Page settings**, which is common to all sections of Explore, to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters. For more information, see [Settings and filters for explore](explore-page-settings.md).
+ You can use **Page settings** to choose the date ranges for the various charts, to apply filters to a chart’s dataset or change filters. These settings apply to all the data shown. For more information, see [Settings and filters](explore-page-settings.md).
 
 ![Page settings](../images/wpa/use/37-ext-collab-page-settings-home.png)
 
@@ -256,5 +251,5 @@ You can use the **Collaborators** section to group users by Collaborators, which
 
 ## Related topics
 
-* [Explore page settings](../use/explore-page-settings.md)
+* [Page settings](../use/explore-page-settings.md)
 * [Workplace Analytics Charts](../use/chart-types.md)
