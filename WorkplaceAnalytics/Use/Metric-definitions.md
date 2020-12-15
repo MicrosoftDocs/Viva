@@ -18,7 +18,7 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics), you 
 * [Meeting metrics](#meeting-metrics)
 * [Group-to-group metrics](#group-to-group-metrics)
 * [Person-to-group metrics](#person-to-group-metrics)
-* [Organizational network analysis (ONA) metrics](#organizational-network-analysis-ONA-metrics)
+* [Organizational network analysis (ONA) metrics](#organizational-network-analysis-ona-metrics)
 
 ## Person metrics
 
