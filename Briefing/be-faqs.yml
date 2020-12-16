@@ -24,7 +24,7 @@ sections:
           
       - question: Does the Briefing email comply with GDPR?
         answer: |
-          Yes. Microsoft complies with GDPR requirements when providing the Briefing email.
+          Yes, Microsoft complies with GDPR requirements when providing the Briefing email.
 
       - question: Can users see information about other users in the Briefing email?
         answer: |
