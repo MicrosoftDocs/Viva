@@ -137,7 +137,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 2. The following information and options are available in the table for existing analysis:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
-   * During analysis creation, select the **Job Details** (i) icon next to **Status** to view details about where the job is at during the creation process.
+   * During analysis creation, select the **Job Details** (i) icon next to **Status** to view details about where the job is at in the process. You can then select **Job Queue** to see what other jobs are running and where yours is in the queue.
    * If the analysis fails with a **Status** of a **red X**, select the **Job Details** (i) icon next to **Status** to view details and see what might've caused the failure.
    * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
    * Select the **Parameters** icon next to the name to view details about its parameters, such as the time range, network boundary condition filters, and node and group metrics.

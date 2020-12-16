@@ -31,9 +31,9 @@ The following new template features, enhancements, and changes are included this
 
 * **External Collaboration Analysis** - You can now use the Organizational Network Analysis Azure Template to analyze collaboration with external domains and accounts. Because this option adds new collaboration data (emails, meetings, and Teams chats and calls) to the analysis, you are limited to adding up to five external domains or accounts to keep datasets at a manageable size.
 * **Account Mapping** - Use an Account Mapping file that matches the external domains to the external account names if you want to select external collaborators by account for your analysis.
-* **Advanced Color by and Group by modes** - You can now use if/else controls to color and/or group individuals for analysis. For example: **IF Account** equals **MyCompany**, color by **Organization**, **ELSE**, color by **Account**. These settings make it easy to spot the various internal organizations and external accounts within the same graph.
+* **Advanced Color by and Group by modes** - You can now use IF/ELSE controls to color and/or group individuals for analysis. For example: **IF Account** equals **MyCompany**, color by **Organization**, **ELSE**, color by **Account**. These settings make it easy to spot the various internal organizations and external accounts within the same graph.
 * **Expanded color palette** - New color nodes are available in the combined and individual graph views with an expanded palette of 96 different colors.
-* **DataBricks job queue optimization** - New optimizations enable faster processing in DataBricks within both the ONA and Relationship Intelligence Azure Templates.
+* **DataBricks job queue optimization** - New optimizations enable faster processing in DataBricks within both the ONA and Relationship Intelligence Azure Templates. During analysis creation, you can select the **Job Details** (i) icon next to **Status** to view details about where the job is at in the process, and then select **Job Queue** to see what other jobs are running and where yours is in the queue.
 
 ### Process Explorer Azure Template
 
