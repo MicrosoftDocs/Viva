@@ -1,5 +1,4 @@
 ---
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Release Notes for Workplace Analytics Azure Templates
 description: Learn about what new Azure Templates or new functionality has been released for Workplace Analytics
@@ -25,7 +24,9 @@ The following new template features, enhancements, and changes are included this
 
 ### Account Mapping
 
-[Account Mapping](deploy-configure.md#account-mapping) is now available on its own page. You can now use mapped CRM account and contact data within the ONA and Process Explorer templates as well as continuing to use it in Relationship Intelligence analysis.
+Account Mapping is now available on its own page. To enable more robust analysis of external collaboration, you can upload exported CRM data files (in .csv format) for your customer accounts and then match them to Office 365 data to create a mapping file. You can then use account mappings to analyze external collaboration in the Organizational Network Analysis, Process Explorer, and Relationship Intelligence analysis.
+
+For more details, see [Account Mapping](deploy-configure.md#account-mapping).
 
 ### Organizational Network Analysis Azure Template
 
@@ -33,13 +34,17 @@ The following new template features, enhancements, and changes are included this
 * **Account Mapping** - Use an Account Mapping file that matches the external domains to the external account names if you want to select external collaborators by account for your analysis.
 * **Advanced Color by and Group by modes** - You can now use IF/ELSE controls to color and/or group individuals for analysis. For example: **IF Account** equals **MyCompany**, color by **Organization**, **ELSE**, color by **Account**. These settings make it easy to spot the various internal organizations and external accounts within the same graph.
 * **Expanded color palette** - New color nodes are available in the combined and individual graph views with an expanded palette of 96 different colors.
-* **DataBricks job queue optimization** - New optimizations enable faster processing in DataBricks within both the ONA and Relationship Intelligence Azure Templates. During analysis creation, you can select the **Job Details** (i) icon next to **Status** to view details about where the job is at in the process, and then select **Job Queue** to see what other jobs are running and where yours is in the queue.
+* **Databricks job queue optimization** - New optimizations enable faster processing in Databricks within both the ONA and Relationship Intelligence Azure Templates. During analysis creation, you can select the **Job Details** (i) icon next to **Status** to view details about where the job is at in the process, and then select **Job Queue** to see what other jobs are running and where yours is in the queue.
+
+To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
 
 ### Process Explorer Azure Template
 
 A new **Collaboration with External Accounts** option is now available for analyzing how internal groups collaborate with individuals from domains or accounts outside of your company. Because all emails and meetings from a dataset are included when creating analysis in Process Explorer, you can use it to analyze interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
 
-**Note**: The Generate ONA Graph option is not available because the Communication Flow by Category is not available for this type of analysis.
+**Note**: The Generate ONA Graph option is disabled when analyzing collaboration with external accounts because the Communication Flow by Category is not available for this type of analysis at this time.
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 
 ### Relationship Intelligence Azure Template and Power BI report
 
@@ -47,6 +52,8 @@ A new **Collaboration with External Accounts** option is now available for analy
 * **Internal collaborators** - New level of analysis focused on internal collaborators, their connectivity score, and influencer rank.
 * **Domain details** - This new table shows the CRM status of collaborators.
 * **Connectivity scores and filter** - New line charts show the metrics that comprise the Connectivity score, including the number of contacts, collaboration hours, and recency of collaboration. A new filter is also available to focus your analysis on accounts based on their Connectivity score tier.
+
+To learn more, see [Relationship Intelligence](./relation-intel.md).
 
 ### Workspace Planning Azure Template
 
@@ -63,6 +70,8 @@ A new **Collaboration with External Accounts** option is now available for analy
 
 **Note**: Because you can now edit and then select to auto-assign the remainder head count to available workspaces at any time, the separate modes for Interactive or Fixed Spaces are no longer necessary or available.
 
+For details, see [Workspace Planning Azure Template](space-planning.md).
+
 ## September 2020
 
 The following new template and template features, enhancements, and changes are in this month's release.
@@ -75,9 +84,7 @@ This report uses account and contact information from a Customer Relationship Ma
 
 ### Workspace Planning Azure Template
 
-This release adds a new option to the Workspace Planning Azure Template that enables you to clear a current floor plan, enter new values for fixed seats for team locations, and then re-run the new floor plan for optimization.
-
-For details, see [Workspace Planning Azure Template](space-planning.md).
+This release adds a new option to the Workspace Planning Azure Template that enables you to clear a current floor plan, enter new values for fixed seats for team locations, and then re-run the new floor plan for optimization. For details, see [Workspace Planning Azure Template](space-planning.md).
 
 ### Organizational Network Analysis (ONA) Azure Template
 
