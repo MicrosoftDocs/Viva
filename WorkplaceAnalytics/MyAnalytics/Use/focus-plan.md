@@ -73,7 +73,11 @@ You can also use the Outlook add-in to enroll in the focus plan. To do so, follo
 
    ![Book time now](../../Images/mya/use/book-time-now.png)
 
-The step that follows matches the step that is described in [Personal dashboard](#personal-dashboard). 
+   The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
+
+   ![Plan has started](../../Images/mya/use/all-set.png)
+
+The step that follows matches the step that is described in [MyAnalytics dashboard](#create-focus-plan-in-the-myanalytics-dashboard). 
  
 ## To check the progress of your focus plan
 
