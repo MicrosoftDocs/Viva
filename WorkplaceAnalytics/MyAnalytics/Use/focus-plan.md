@@ -57,7 +57,7 @@ When you enroll in the focus plan, you configure how focus time will be booked o
 
 You can always modify your focus-plan preferences by selecting **Plan Configuration**. 
 
-   ![Focus plan - Choose to mute chat notifications](../../Images/mya/use/focus-plan-open-settings.png)
+   ![Focus plan - Settings](../../Images/mya/use/focus-plan-open-settings.png)
 
 This opens the **Plan configuration** pane, on which you can change the number of focus hours per day, your preference of morning or afternoon, and whether to mute Teams notifications. See [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
