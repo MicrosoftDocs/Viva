@@ -35,19 +35,19 @@ When you enroll in the focus plan, you configure how focus time will be booked o
 
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
-   ![Focus plan - Get started](../../Images/mya/use/focus-every-day.png)
+   ![Focus plan - Get started](../../Images/mya/use/focus-every-day-83.png)
 
 2. Select the number of hours of focus time you would like MyAnalytics to book for you every day, and then select **Next**.
 
-   ![Focus plan - Choose hours](../../Images/mya/use/focus-plan-choose-hours.png)
+   ![Focus plan - Choose hours](../../Images/mya/use/focus-plan-choose-hours-83.png)
 
 3. Select the time of day for your focus time, and then select **Next**.
    
-   ![Focus plan - Choose AM or PM](../../Images/mya/use/focus-plan-choose-am-pm.png)
+   ![Focus plan - Choose AM or PM](../../Images/mya/use/focus-plan-choose-am-pm-101.png)
    
 4.	Select whether to have Teams chat notifications muted during focus time, and select **Looks good!** 
    
-     ![Focus plan - Choose to mute chat notifications](../../Images/mya/use/focus-plan-choose-mute.png)
+     ![Focus plan - Choose to mute chat notifications](../../Images/mya/use/focus-plan-choose-mute-105.png)
    
      MyAnalytics now seeks time on your Outlook calendar to set aside as focus time, based on your preferences. The amount and placement of focus time depends on the time your calendar has open. 
    
