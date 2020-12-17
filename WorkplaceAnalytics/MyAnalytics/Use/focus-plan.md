@@ -16,30 +16,43 @@ ms.prod: Mya
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-<!-- 
-The focus plan in MyAnalytics helps you block time every day for your top-priority work. MyAnalytics will help you schedule up to two hours every day to focus and silence chats in Teams and Skype for Business during that booked time. 
--->
-The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to two hours every day to focus. One way it promotes focus is by silencing chats in Teams and in Skype for Business during that booked time. 
+The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs: 
+* You can silence or allow chats in Teams and in Skype for Business. 
+* You can mute or unmute team notifications. 
 
-You can create or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
+You can create, configure, or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
 ## To create your focus plan
 
-You can create your focus plan in the MyAnalytics dashboard or in the Outlook add-in:
+You can create your focus plan in the [MyAnalytics dashboard](#create-focus-plan-in-the-myanalytics-dashboard) or in the [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in):
 
-### Personal dashboard
+### Create focus plan in the MyAnalytics dashboard
 
-* In the header of the **Focus** page of your personal dashboard, select **Book time now**. 
+When you enroll in the focus plan, you configure how focus time will be booked on your calendar. MyAnalytics books this time based on the preferences that you set: 
+ * The number of focus hours per day &mdash; one, two, or four hours.
+ * Your preferred time of day &mdash; morning or afternoon.  
+ * Whether to mute or to allow chat notifications in Teams. Muting chat notifications changes your Teams status to "Focusing." 
 
-   ![Focus plan card in digest](../../Images/mya/use/focusplan-intro.png)
+1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
+
+   ![Focus plan - Get started](../../Images/mya/use/focus-every-day.png)
+
+2. Select the number of hours of focus time you would like MyAnalytics to book for you every day, and then select **Next**.
+
+   ![Focus plan - Choose hours](../../Images/mya/use/focus-plan-choose-hours.png)
+
+3. Select the number of hours of focus time you would like MyAnalytics to book for you every day.
+
+   ![Focus plan - Choose hours](../../Images/mya/use/focus-plan-choose-hours.png)
+
+
+
+
 
 MyAnalytics now adds up to two hours of focus time per day on your Outlook calendar. The amount of time depends on what times your calendar has open. For more information, see [Automatic booking of focus time](#automatic-booking-of-focus-time). 
 
-<!-- GOES AWAY AS CHANGE ON 13 MARCH
-2.	Select **Book focus time now**. This enrolls you in your focus plan. MyAnalytics now carries out the option that you chose&mdash;to book focus time or to remind you to book focus time.
--->
 
-### Outlook add-in
+### Create focus plan in the Insights Outlook add-in
 
 You can also use the Outlook add-in to enroll in the focus plan. To do so, select **Create your focus plan**. 
 
