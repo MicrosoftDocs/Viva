@@ -77,8 +77,11 @@ You can also use the Outlook add-in to enroll in the focus plan. To do so, follo
 
    ![Plan has started](../../Images/mya/use/all-set.png)
 
-The step that follows matches the step that is described in [MyAnalytics dashboard](#create-focus-plan-in-the-myanalytics-dashboard). 
- 
+Now that your focus plan is underway, you can do the following: 
+
+* [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan)
+* [Leave or change your focus plan](#to-leave-or-change-your-focus-plan)
+
 ## To check the progress of your focus plan
 
 After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report. 
