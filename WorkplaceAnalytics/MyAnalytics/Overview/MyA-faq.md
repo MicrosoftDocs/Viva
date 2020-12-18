@@ -351,13 +351,13 @@ Yes, you can delete and restrict the processing of MyAnalytics user data if requ
 
 Yes. Opt-out settings can only be modified by the user or the tenant administrator. They are not changed as a result of upgrades.
 
-##### Q7. If an admin disables MyAnalytics at the tenant level, is data still collected and can users can see the insights that result from that dat in their own dashboard?
+##### Q7. If an admin disables MyAnalytics at the tenant level, is data still collected and can users can see that data in their dashboard?
 
-Administrators can configure the default setting at the tenant level for MyAnalytics. They cannot disable MyAnalytics at the tenant level.
+Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. They cannot _disable_ MyAnalytics at the tenant level. (Also see the [following question](#q8-if-an-admin-disables-myanalytics-at-the-tenant-level-can-users-still-opt-in-afterwards).)
 
 ##### Q8. If an admin disables MyAnalytics at the tenant level, can users still opt-in afterwards? 
 
-By taking action at the tenant level, admins are specifying a default setting. Users can then override this default setting with their own choice.
+By taking action at the tenant level, admins are merely specifying a default setting. Users can then override this default setting with their own choice.
 
 ### MyAnalytics capabilities
 
