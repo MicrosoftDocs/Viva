@@ -109,6 +109,8 @@
                   href: ~/Use/transform-meetings.md
                 - name: Increase customer focus
                   href: ~/Use/customer-focus.md
+            - name: Deeper insights in Power BI
+              href: ~/tutorials/pbi-home-deeper.md
             - name: Manager insights
               items:
                 - name: Overview
