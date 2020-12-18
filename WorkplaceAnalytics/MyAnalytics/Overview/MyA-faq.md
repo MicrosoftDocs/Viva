@@ -253,13 +253,10 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 The questions in this section are sorted into the following areas: 
 
-* [Admin management capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins
-
+* [Admin management capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins.
 * [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users.  (Also see the [Visibility and access](#visibility-and-access) section.)
-
 * [User data privacy](#user-data-privacy) &ndash; Questions about how admin actions affect data privacy. (For general privacy issues, see the [Privacy](#privacy) section.) 
-
-* [ MyAnalytics capabilities](#myanalytics-capabilities) &ndash; Questions about how MyAnalytics works
+* [ MyAnalytics capabilities](#myanalytics-capabilities) &ndash; Questions about how MyAnalytics works.
 
 ### Admin management tasks and capabilities 
 
@@ -349,6 +346,18 @@ Yes, you can delete and restrict the processing of MyAnalytics user data if requ
 
    > [!Note]
    > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
+
+#### Q6. If a user opts out or is opted out via PowerShell, will they stay opted out even through upgrades of Office 365 or MyAnalytics? 
+
+Yes. Opt-out settings can only be modified by the user or the tenant administrator. They are not changed as a result of upgrades.
+
+#### Q7. If an admin disables MyAnalytics at the tenant level, is data still collected and can users can see the insights that result from that dat in their own dashboard?
+
+Administrators can configure the default setting at the tenant level for MyAnalytics. They cannot disable MyAnalytics at the tenant level.
+
+#### Q8. If an admin disables MyAnalytics at the tenant level, can users still opt-in afterwards? 
+
+By taking action at the tenant level, admins are specifying a default setting. Users can then override this default setting with their own choice.
 
 ### MyAnalytics capabilities
 
