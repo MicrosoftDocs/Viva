@@ -255,9 +255,9 @@ The questions in this section are sorted into the following areas:
 
 * [Admin management capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins
 
-* [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users. (Also see the [Privacy](#privacy) section.) 
+* [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users.  (Also see the [Visibility and access](#visibility-and-access) section.)
 
-* [User data privacy](#user-data-privacy) &ndash; Questions about how admin actions affect data privacy. (Also see the [Visibility and access](#visibility-and-access) section.) 
+* [User data privacy](#user-data-privacy) &ndash; Questions about how admin actions affect data privacy. (For general privacy issues, see the [Privacy](#privacy) section.) 
 
 * [ MyAnalytics capabilities](#myanalytics-capabilities) &ndash; Questions about how MyAnalytics works
 
@@ -325,7 +325,7 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 
    ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
 
-### Part 3: User data privacy
+### User data privacy
 
 #### Q1. Can Microsoft personnel access a person's MyAnalytics data?
 
