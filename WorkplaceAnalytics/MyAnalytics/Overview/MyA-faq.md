@@ -345,7 +345,7 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as sourc
 Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide.md#gdpr-compliance).
 
    > [!Note]
-   > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
+   > If a person opts out of using MyAnalytics, this action does not delete that person's MyAnalytics data.
 
 ##### Q6. If a user opts out or is opted out via PowerShell, will they stay opted out even through upgrades of Office 365 or MyAnalytics? 
 
@@ -353,7 +353,7 @@ Yes. Opt-out settings can only be modified by the user or the tenant administrat
 
 ##### Q7. If an admin disables MyAnalytics at the tenant level, is data still collected and can users can see that data in their dashboard?
 
-Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. They cannot _disable_ MyAnalytics at the tenant level. (Also see the [following question](#q8-if-an-admin-disables-myanalytics-at-the-tenant-level-can-users-still-opt-in-afterwards).)
+Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. They cannot _disable_ MyAnalytics at the tenant level. (Also see the following question.)
 
 ##### Q8. If an admin disables MyAnalytics at the tenant level, can users still opt-in afterwards? 
 
