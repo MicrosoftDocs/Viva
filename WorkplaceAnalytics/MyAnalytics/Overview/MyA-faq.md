@@ -251,6 +251,18 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 ## For IT administrators
 
+The questions in this section are sorted into the following areas: 
+
+* [Admin management capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins
+
+* [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users. (Also see the [Privacy](#privacy) section.) 
+
+* [User data privacy](#user-data-privacy) &ndash; Questions about how admin actions affect data privacy. (Also see the [Visibility and access](#visibility-and-access) section.) 
+
+* [ MyAnalytics capabilities](#myanalytics-capabilities) &ndash; Questions about how MyAnalytics works
+
+### Admin management tasks and capabilities 
+
 #### Q1. How do I manage the MyAnalytics experience for users?
 
 You can manage the experience in two ways:
@@ -258,82 +270,15 @@ You can manage the experience in two ways:
 * Turn on or off specific MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
 * Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
-#### Q2. Where and for how long is user data stored?
-
-User metrics data is stored in users' mailboxes. Depending on the scenario, daily data is stored for up to 35 days and weekly data is stored for up to 9 weeks. However, data about the number of collaborators in the past 12 months is stored for up to 370 days.
-
-#### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
-
-The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements).
-
-#### Q4. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
-
-After activation, MyAnalytics processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, MyAnalytics processes historical data for the previous 12 months.
-
-#### Q5. Will MyAnalytics work for shared mailboxes?
-
-No, currently the MyAnalytics service plan cannot be used with shared mailboxes.
-
-#### Q6. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
-
-No. Only Exchange Online, Skype for Business Online, and Teams are used as sources of MyAnalytics data.
-
-#### Q7. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
-
-Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest sent on a Monday or Tuesday to your Outlook inbox, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
-
-#### Q8. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
-
-The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are not currently available with the *Insights by MyAnalytics* service plan.
-
-   > [!Note]
-   > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
-
-#### Q9. Why can't licensed users see one or more of the MyAnalytics elements?
-
-* Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
-* Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) for more details:
-
-   ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
-
-#### Q10. How can I pilot MyAnalytics to a subset of users?
+#### Q2. How can I pilot MyAnalytics to a subset of users?
 
 Turn on the "Insights by MyAnalytics" OR "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
-#### Q11. How can I confirm that the Insights Outlook add-in is installed?
-
-See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
-
-#### Q12. Can I ask that MyAnalytics user data be deleted and not stored?
-
-Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide.md#gdpr-compliance).
-
-   > [!Note]
-   > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
-
-#### Q13. Can Microsoft personnel access a person's MyAnalytics data?
-
-The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
-
-#### Q14. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
-
-No. MyAnalytics does not support auditing.
-
-#### Q15. What browsers can I use with MyAnalytics and the Insights Outlook Add-in?
-
-See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics dashboard supports.
-
-As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
-
-#### Q16. How can I manage MyAnalytics experiences in Office 365 GCC?
+#### Q3. How can I manage MyAnalytics experiences in Office 365 GCC?
 
 You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019. 
 
-#### Q17. How do the MyAnalytics digests show up in Outlook?
-
- The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
-
-#### Q18. How can I manage the Windows 10 activity history for the organization?
+#### Q4. How can I manage the Windows 10 activity history for the organization?
 
 You can set the following two Group Policy settings at the tenant level for the organization:
 
@@ -341,3 +286,76 @@ You can set the following two Group Policy settings at the tenant level for the 
 * System\OS Policies\Allow publishing of User Activities
 
 For details, see [New policies for Windows 10](https://docs.microsoft.com/windows/client-management/new-policies-for-windows-10).
+
+### Feature visibility and access
+
+#### Q1. What browsers can I use with MyAnalytics and the Insights Outlook Add-in?
+
+See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics dashboard supports.
+
+As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
+
+#### Q2. How can I confirm that the Insights Outlook add-in is installed?
+
+See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
+
+#### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
+
+The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements).
+
+#### Q4. How do the MyAnalytics digests show up in Outlook?
+
+ The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
+
+#### Q5. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
+
+Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest sent on a Monday or Tuesday to your Outlook inbox, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
+
+#### Q6. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
+
+The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are not currently available with the *Insights by MyAnalytics* service plan.
+
+   > [!Note]
+   > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
+
+#### Q7. Why can't licensed users see one or more of the MyAnalytics elements?
+
+* Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
+* Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) for more details:
+
+   ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
+
+### Part 3: User data privacy
+
+#### Q1. Can Microsoft personnel access a person's MyAnalytics data?
+
+The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
+
+#### Q2. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
+
+No. MyAnalytics does not support auditing.
+
+#### Q3. Where and for how long is user data stored?
+
+User metrics data is stored in users' mailboxes. Depending on the scenario, daily data is stored for up to 35 days and weekly data is stored for up to 9 weeks. However, data about the number of collaborators in the past 12 months is stored for up to 370 days.
+
+#### Q4. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+
+No. Only Exchange Online, Skype for Business Online, and Teams are used as sources of MyAnalytics data.
+
+#### Q5. Can I ask that MyAnalytics user data be deleted and not stored?
+
+Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide.md#gdpr-compliance).
+
+   > [!Note]
+   > If a person opts out of using MyAnalytics, it doesn't delete that person's MyAnalytics data.
+
+### MyAnalytics capabilities
+
+#### Q1. Will MyAnalytics work for shared mailboxes?
+
+No, currently the MyAnalytics service plan cannot be used with shared mailboxes.
+
+#### Q2. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
+
+After activation, MyAnalytics processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, MyAnalytics processes historical data for the previous 12 months.
