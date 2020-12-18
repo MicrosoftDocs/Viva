@@ -16,46 +16,81 @@ ms.prod: Mya
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-<!-- 
-The focus plan in MyAnalytics helps you block time every day for your top-priority work. MyAnalytics will help you schedule up to two hours every day to focus and silence chats in Teams and Skype for Business during that booked time. 
--->
-The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to two hours every day to focus. One way it promotes focus is by silencing chats in Teams and in Skype for Business during that booked time. 
+The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs: 
+* You can silence or allow chats in Teams and in Skype for Business. 
+* You can mute or unmute team notifications. 
 
-You can create or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
+You can create, configure, or end your focus plan at will. For more information, see [To create your focus plan](#to-create-your-focus-plan) and [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
 ## To create your focus plan
 
-You can create your focus plan in the MyAnalytics dashboard or in the Outlook add-in:
+You can create your focus plan in the [MyAnalytics dashboard](#create-focus-plan-in-the-myanalytics-dashboard) or in the [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in):
 
-### Personal dashboard
+### Create focus plan in the MyAnalytics dashboard
 
-* In the header of the **Focus** page of your personal dashboard, select **Book time now**. 
+When you enroll in the focus plan, you configure how focus time will be booked on your calendar. MyAnalytics books this time based on the preferences that you set: 
+ * The number of focus hours per day &mdash; one, two, or four hours.
+ * Your preferred time of day &mdash; morning or afternoon.  
+ * Whether to mute or to allow chat notifications in Teams. Muting chat notifications changes your Teams status to "Focusing." 
 
-   ![Focus plan card in digest](../../Images/mya/use/focusplan-intro.png)
+1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
-MyAnalytics now adds up to two hours of focus time per day on your Outlook calendar. The amount of time depends on what times your calendar has open. For more information, see [Automatic booking of focus time](#automatic-booking-of-focus-time). 
+   ![Focus plan - Get started](../../Images/mya/use/focus-every-day-83.png)
 
-<!-- GOES AWAY AS CHANGE ON 13 MARCH
-2.	Select **Book focus time now**. This enrolls you in your focus plan. MyAnalytics now carries out the option that you chose&mdash;to book focus time or to remind you to book focus time.
--->
+2. Select the number of hours of focus time you would like MyAnalytics to book for you every day, and then select **Next**.
 
-### Outlook add-in
+   ![Focus plan - Choose hours](../../Images/mya/use/focus-plan-choose-hours-83.png)
 
-You can also use the Outlook add-in to enroll in the focus plan. To do so, select **Create your focus plan**. 
+3. Select the time of day for your focus time, and then select **Next**.
+   
+   ![Focus plan - Choose AM or PM](../../Images/mya/use/focus-plan-choose-am-pm-101.png)
+   
+4.	Select whether to have Teams chat notifications muted during focus time, and select **Looks good!** 
+   
+     ![Focus plan - Choose to mute chat notifications](../../Images/mya/use/focus-plan-choose-mute-105.png)
+   
+     MyAnalytics now seeks time on your Outlook calendar to set aside as focus time, based on your preferences. The amount and placement of focus time depends on the time your calendar has open. 
+   
+     For more information, see [Automatic booking of focus time](#automatic-booking-of-focus-time).
 
-![Create your focus plan](../../Images/mya/use/card-in-add-in-2.png)
+#### Change your focus-plan preferences
 
-The step that follows matches the step that is described in [Personal dashboard](#personal-dashboard). 
- 
+You can always modify your focus-plan preferences by selecting **Plan Configuration**. 
+
+   ![Focus plan - Settings](../../Images/mya/use/focus-plan-open-settings.png)
+
+This opens the **Plan configuration** pane, on which you can change the number of focus hours per day, your preference of morning or afternoon, and whether to mute Teams notifications. See [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
+
+### Create focus plan in the Insights Outlook add-in
+
+You can also use the Outlook add-in to enroll in the focus plan. To do so, follow these steps.
+
+1. Select the insight **Want focus time every day?**
+   
+   ![Create focus plan in add-in](../../Images/mya/use/want-focus-time.png)
+
+2. Select **Book time now**. 
+
+   ![Book time now](../../Images/mya/use/book-time-now.png)
+
+   The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
+
+   ![Plan has started](../../Images/mya/use/all-set.png)
+
+Now that your focus plan is underway, you can do the following: 
+
+* [Check the progress of your focus plan](#to-check-the-progress-of-your-focus-plan)
+* [Leave or change your focus plan](#to-leave-or-change-your-focus-plan)
+
 ## To check the progress of your focus plan
 
 After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report. 
 
- * In the MyAnalytics dashboard, select **Focus** in the left navigation pane. A panel opens up to display statistics about your focus time:
+ * In the MyAnalytics dashboard, select **Focus** in the left navigation pane. A panel opens and shows statistics about your focus time:
 
-    ![Dashboard report](../../Images/mya/use/focusplan-planahead.png)
+    ![Dashboard report](../../Images/mya/use/track-progress.png)
   
-An important metric on this page is displayed under **Last week**. It shows how many days you had focus time last week. 
+An important metric on this page appears under **Last week**. It shows how many days you had focus time last week. 
 
 The **Plan ahead** area helps you to plan focus time for the upcoming days. This area has the following sections: 
 
@@ -83,18 +118,18 @@ During the number of days shown (in the screenshot, three days) MyAnalytics has 
 
 You can opt in and opt out of the focus plan as many times as you want. 
 
- * Select **Plan configuration**:
+* Select **Plan configuration**:
 
-    ![Plan configuration](../../Images/mya/use/plan-config-80.png)
+    ![Plan configuration](../../Images/mya/use/plan-config.png)
  
-    This opens the **Configurations** page and displays the **Plan configuration** card, on which you can leave the plan or change your preferences.
+    This opens the **Configurations** page and displays the **Plan configuration** pane, on which you can leave the plan or change your preferences.
 
-    ![Plan configuration card](../../Images/mya/use/plan-config-reminders.png)
+    ![Plan configuration card](../../Images/mya/use/plan-config-pane.png)
+   
+   After you indicate your preferences, select **Save changes**.
+   
+   To have MyAnalytics stop helping you book focus time, select **Leave plan**. 
 
-    Rather than have MyAnalytics automatically book focus time for you, you can have it send you reminders (in the form of a weekly email) to set focus time for yourself. To do this, on this card, select **Reminders only**. 
-
-    To have MyAnalytics stop helping you book focus time, select **Leave plan**. 
- 
 ## Concepts
 
 The following sections provide information that can help you as you create or monitor focus plans.  
@@ -115,9 +150,13 @@ MyAnalytics books focus time two weeks in advance. For example: when you open yo
 
 #### How time slots are selected
 
-The time it reserves for you depends on what you have open during the day. MyAnalytics starts its search at the beginning of your workday, as it is defined in your Outlook settings. If your day starts at 8:00 AM and you have two hours open right then, MyAnalytics schedules two hours of focus time, from 8:00 to 10:00 AM. If it finds no open time at the beginning of your day, it continues to scan your calendar to find open blocks later in the day. If only smaller amounts of time are available, it can book a focus block as short as one hour. 
+The time it reserves for you depends on the time you have open during the day. MyAnalytics starts its search at the beginning of your workday, as it is defined in your Outlook settings. 
 
-After it books a block on one day, it then moves on to the next day to find the next suitable block. (In most cases, it creates only one block of focus time per day.)
+MyAnalytics also respects the **Do not schedule focus time earlier than** setting in the **Plan configuration** dialog box. For example, if you set this to 9:00 AM, MyAnalytics will select no focus-time slots that begin earlier than 9:00 AM.  
+
+MyAnalytics also prioritizes your preferences for length of focus time slots and part of day (morning or afternoon). For example, if you choose four hours of focus time and choose afternoon, MyAnalytics first scans your calendar to find four-hour open slots in the afternoon. If it finds no four-hour open slots in the afternoon, it continues to scan your calendar to find four-hour open slots in the morning. If only smaller amounts of time are available, it can book focus blocks as short as 30 minutes. 
+
+After it books a block on one day, it then moves on to the next day to find the next suitable block, based on your preferences. (In most cases, it creates only one block of focus time per day.) 
 
 #### Lunchtime
 
