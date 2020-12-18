@@ -30,20 +30,19 @@ The Relationship Intelligence report includes the following.
 * **Relationship Overview** - Shows information about all accounts, including:
 
   * The Account table shows an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
-  * The **Relationship score** is based on the amount, frequency, and timeliness of collaboration activity with an account.
+  * The **Connectivity Score** is based on the amount, frequency, and timeliness of collaboration activity with an account.
   * Page down to see **Relationship Highlights** > **Total Time Spent** chart and a chart with **Distinct contacts** analysis.
-  * Use the **HR Attribute Filter** to focus the chart analysis (below the filter) to specific internal groups who are collaborating. The **Group Engagement**, **Collaboration Time**, and **Meetings by Length** charts show more details about overall account collaboration activity.
+  * Use the **Internal Group Settings** on the Settings page to focus the chart analysis (below the filter) to specific internal groups who are collaborating. The **Group Engagement** and **Collaboration Time** charts show more details about overall account collaboration activity.
 
 * **Account Analysis** - Focuses in on the following details about an account that you selected and drilled through from the first page:
 
-  * See visuals about the average relationship score and how the score has changed over the selected time period.
-  * Use the **HR Attribute Filter** to focus your analysis on specific areas of collaboration for the visuals about collaboration.
-  * Examine the collaboration visuals on this page to see what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. The second table lists the top internal groups in the organization who have collaborated with an account based on the HR Attribute filter.
+  * See visuals about the average **Connectivity Score** and how the score has changed over the selected time and how metrics contributing to the score have changed over the same time period.
+  * Examine the collaboration visuals on this page to see what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. The second table lists the top internal groups in the organization who have collaborated with an account based on the Internal Group Settings values from the Settings page.
   * Investigate the **Topics** section to see the main topics in a word cloud that indicate what collaboration activity was focused on for the selected account. The topics are based on the subject lines for meetings and email. Use the **Time Range Selection** to see how the topics in the word cloud change based on what date range is selected.
-  * You'll also see visuals for collaboration trends by communication type and typical meeting lengths for the selected account that you can compare with overall trends on the first page.
+  * You'll also see visuals for collaboration trends by communication type for the selected account over the selected time period.
 
-* **Individual Collaborators** - Shows more details about all the individual account contacts and all the organizational groups that have collaborated with these contacts. The tables include the relationship score, rankings, and other details about how your organization is collaborating with individual account contacts for the selected account.
-* **External Collaborators** - Shows more details about the external collaborator that you selected from the Individual Collaborators page. It shows details about a person outside the organization that collaborated with one or more of the organizational groups. It focuses on details, such as their most recent connectivity score, influencer rank, group engagement, and collaboration time.
+* **Individual Collaborators** - Shows more details about all the individual account contacts and all the organizational groups that have collaborated with these contacts. The tables include the Connectivity Score and other details about how your organization is collaborating with individual account contacts for the selected account.
+* **External Collaborators** - Shows more details about the external collaborator that you selected from the Individual Collaborators page. It shows details about a person outside the organization that collaborated with one or more of the organizational groups. It focuses on details, such as their most recent Connectivity Score, Influencer rank (how connected an individual is at the external company), group engagement, and collaboration time.
 * **Domain Details** - Shows details about any individuals included in the data that missing or incorrect CRM or account data.
 
 ![Relationship Overview report page](./images/ri-pbi-report.png)
@@ -109,8 +108,11 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
 After the Relationship Intelligence Report is set up and populated with data, use the following to confirm the report settings.
 
 * **Date Settings** - Choose to analyze a specific date range within the date range of data included in this report.
-* **Settings Result** - Shows the number of accounts included in the dataset based on the selected settings.
-* **External Account Settings** - This is the timeframe you want to compare with the earlier time period.
+* **Settings Result** - Shows the number of accounts included in the dataset based on the selected account attribute settings.
+* **External Account Settings** - Use to select an attribute and values that restrict the data on the report pages to a subset of accounts. Attributes are added based on additional columns included in the Accounts CRM file.
+
+  For example: If the Account CRM file includes a Region column that indicates where the account is geographically located, the Attribute filter will include “Region” and the value will show them. By selecting a subset of region values, you can focus the report pages to only show account data for the selected regions.
+
 * **Choose Grouping Attribute** - Select an internal group attribute at any time and all subsequent report pages will show group values based on the selected attribute.
 * **Focus on Specific Internal Groups** – Based on the selected  Grouping attribute, you can select one or more internal groups to filter the report data to focus on.
 
@@ -126,7 +128,7 @@ After the Relationship Intelligence Report is set up and populated with data, us
 
      ![Use CTRL+click for Individual Collaborator data](./images/ri-ctrl-click.png)
 
-   * **External Collaborators** - To view this page, you must right-click the external collaborator on the **Individual Collaborators** page, and then select **Drill through** > **External Collaborators**.
+   * **External Collaborators** - To view this page, you must right-click an external collaborator on the **Individual Collaborators** page, and then select **Drill through** > **External Collaborators**.
 
 * **Power BI data error** - If you see an error similar to the following, you might not have the correct information copied for the Server and Database fields in Power BI. Repeat the steps in [Load the data and view the report](#load-the-data-and-view-the-report).
 
