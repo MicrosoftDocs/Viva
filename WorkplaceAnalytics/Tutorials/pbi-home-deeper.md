@@ -130,7 +130,7 @@ By using the knowledge that you've gained from these visualizations, you can now
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/power-bi-templates?branch=pr-en-us-1820).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](power-bi-templates.md).
 
 ## Related topics
 
