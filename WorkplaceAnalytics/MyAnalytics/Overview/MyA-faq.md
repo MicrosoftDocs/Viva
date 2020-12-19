@@ -235,6 +235,14 @@ MyAnalytics uses Windows 10 Activity history to power insights related to time s
 
    ![Windows 10 Activity History settings](../../images/mya/overview/activity-history.png)
 
+##### Q10. Will MyAnalytics work for shared mailboxes?
+
+No; currently the MyAnalytics service plan cannot be used with shared mailboxes.
+
+##### Q11. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
+
+After activation, MyAnalytics processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, MyAnalytics processes historical data for the previous 12 months.
+
 ### Insights Outlook add-in
 
 ##### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
@@ -253,10 +261,9 @@ To see read statistics for an email that you sent, you must have sent it within 
 
 The questions in this section are sorted into the following areas: 
 
-* [Admin management capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins.
+* [Admin management tasks and capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins.
 * [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users.  (Also see the [Visibility and access](#visibility-and-access) section.)
 * [User data privacy](#user-data-privacy) &ndash; Questions about how admin actions affect data privacy. (For general privacy issues, see the [Privacy](#privacy) section.) 
-* [ MyAnalytics capabilities](#myanalytics-capabilities) &ndash; Questions about how MyAnalytics works.
 
 ### Admin management tasks and capabilities 
 
@@ -264,7 +271,7 @@ The questions in this section are sorted into the following areas:
 
 You can manage the experience in two ways:
 
-* Turn on or off specific MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
+* Configure access to MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
 * Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
 ##### Q2. How can I pilot MyAnalytics to a subset of users?
@@ -351,20 +358,9 @@ Yes, you can delete and restrict the processing of MyAnalytics user data if requ
 
 Yes. Opt-out settings can only be modified by the user or the tenant administrator. They are not changed as a result of upgrades.
 
-##### Q7. If an admin disables MyAnalytics at the tenant level, is data still collected and can users can see that data in their dashboard?
+##### Q7. Can an admin disable MyAnalytics at the tenant level?
 
-Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. They cannot _disable_ MyAnalytics at the tenant level. (Also see the following question.)
+Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. This can be overridden by the user, based on their choice to opt out or opt in.
 
-##### Q8. If an admin disables MyAnalytics at the tenant level, can users still opt-in afterwards? 
+Administrators can also [Assign licenses to users](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide) to enable or disable access for individual users. If licenses are not assigned, the user does not have access to any MyAnalytics features.
 
-By taking action at the tenant level, admins are merely specifying a default setting. Users can then override this default setting with their own choice.
-
-### MyAnalytics capabilities
-
-##### Q1. Will MyAnalytics work for shared mailboxes?
-
-No, currently the MyAnalytics service plan cannot be used with shared mailboxes.
-
-##### Q2. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
-
-After activation, MyAnalytics processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, MyAnalytics processes historical data for the previous 12 months.
