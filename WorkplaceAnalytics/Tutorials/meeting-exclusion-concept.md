@@ -189,22 +189,22 @@ For archived rules, the available actions are **Delete** and **Restore**. **Rest
 
 Workplace Analytics provides a default meeting exclusion rule. You and other analysts can create new rules. Are all these rules available to all analysts? Can you combine your rules with theirs, or with the default rule? This section answers those questions and others. 
 
-Q1. **Scope of meeting exclusion rules:** You create meeting exclusion rules on the Meeting exclusions page, which is reached through the Settings page of Workplace Analytics. After you create rules, where can you apply them in Workplace Analytics?
+Q1. **Scope of meeting exclusion rules** &ndash; You create meeting exclusion rules on the Meeting exclusions page, which is reached through the Settings page of Workplace Analytics. After you create rules, where can you apply them in Workplace Analytics?
 
 A1.  Exclusion rules apply in two areas where analysts work most: 
 
  * **Explore the stats** - Exclusion rules work for analysts as they inspect data in Explore the stats. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
  * **Queries** - Analysts can also apply exclusion rules when creating, refining, and running queries in Workplace Analytics. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
 
-Q2. **Edit existing rules?** Can you change/edit the default meeting-exclusion rule, or rules that you or other analysts have created? 
+Q2. **Edit existing rules** &ndash; Can you change/edit the default meeting-exclusion rule, or rules that you or other analysts have created? 
 
 A2.  You can edit a rule only if it has been saved as a draft. You cannot change or edit published rules.
 
-Q3. **Share rules?** Can rules be viewed and shared by others? If you create a rule, does it or can it be applied to the data and queries that are used by other analysts? 
+Q3. **Sharing of rules** &ndash; Can rules be viewed and shared by others? If you create a rule, does it or can it be applied to the data and queries that are used by other analysts? 
 
 A3.  Yes. Anyone in your organization can use the rules that anyone else in the organization has created.
 
-Q4. **Combine rules?** Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule on top of it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
+Q4. **Combining of rules** &ndash; Can you combine rules? For example, can you use the default meeting-exclusion rule and then layer a new rule on top of it, so that both are in effect? Can you combine a rule of your own with a rule that another analyst has defined?
 
 A4.  No. You can have only one rule in effect at a time. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
 
