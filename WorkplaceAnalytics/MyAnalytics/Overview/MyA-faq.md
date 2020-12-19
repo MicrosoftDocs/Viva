@@ -262,8 +262,8 @@ To see read statistics for an email that you sent, you must have sent it within 
 The questions in this section are sorted into the following areas: 
 
 * [Admin management tasks and capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins.
-* [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users.  (Also see the [Visibility and access](#visibility-and-access) section.)
-* [User data privacy](#user-data-privacy) &ndash; Questions about how admin actions affect data privacy. (For general privacy issues, see the [Privacy](#privacy) section.) 
+* [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users. (Also see the [Visibility and access](#visibility-and-access) section.) 
+* [User data privacy](#user-data-privacy) &ndash; Questions about how admin actions affect data privacy. (For general privacy issues, see the [Privacy](#privacy) section.)  
 
 ### Admin management tasks and capabilities 
 
