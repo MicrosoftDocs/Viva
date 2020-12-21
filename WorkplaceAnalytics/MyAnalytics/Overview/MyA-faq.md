@@ -362,5 +362,5 @@ Yes. Opt-out settings can only be modified by the user or the tenant administrat
 
 Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. This can be overridden by the user, based on their choice to opt out or opt in.
 
-Administrators can also [Assign licenses to users](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide) to enable or disable access for individual users. If licenses are not assigned, the user does not have access to any MyAnalytics features.
+Administrators can also [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) to enable or disable access for individual users. If licenses are not assigned, the user does not have access to any MyAnalytics features.
 
