@@ -51,7 +51,7 @@ Workplace Analytics requires an Office 365 tenant with Exchange Online. Workplac
 [Assign Workplace Analytics licenses](assign-licenses-to-population.md) to the users whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies obtain the most benefit when they deploy Workplace Analytics to the entire company or to a large group of employees.
 
 >[!Important]
->Workplace Analytics is not yet supported for users whose mailboxes are in the following geo locations: **Germany**, **Brazil**, and **Norway**. For more details about geo locations, see [Moving core data to new Microsoft 365 datacenter geos](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the geo location of a mailbox](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
+>Workplace Analytics is not yet supported for users whose mailboxes are in the following geo locations: **Brazil**, **Germany**, and **Norway**. For more details about geo locations, see [Moving core data to new Microsoft 365 datacenter geos](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the geo location of a mailbox](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
 
 ### Pricing
 
