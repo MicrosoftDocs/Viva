@@ -280,7 +280,7 @@ A4. You probably opened the .csv file as is. For Excel to show the data correctl
 
 ##### Q5. Why don’t a person’s low-quality meeting hours equal the sum of their redundant, conflicting, and multitasking meeting hours in my query?
 
-You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated. For more details about low-quality meetings, see [Low-quality meeting hours](../use/explore-metrics-meetings-overview.md#low-quality-meeting-hours).
+You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated. For more details, see [Low-quality meeting hours](../use/explore-metrics-meetings-overview.md#low-quality-meeting-hours), [Conflicting meeting hours](../use/explore-metrics-meetings-overview.md#conflicting-meeting-hours), and [Calculation variables](../use/explore-metrics-meetings-overview.md#calculation-variables).
 
 <!-- NEED MORE INFO BEFORE WE CAN INCLUDE THIS: 
 
