@@ -354,7 +354,7 @@ Yes, you can delete and restrict the processing of MyAnalytics user data if requ
    > [!Note]
    > If a person opts out of using MyAnalytics, this action does not delete that person's MyAnalytics data.
 
-##### Q6. If a user opts out or is opted out via PowerShell, will they stay opted out even through upgrades of Office 365 or MyAnalytics? 
+##### Q6. If a user opts out or is opted out in PowerShell, will they stay opted out even through upgrades of Office 365 or MyAnalytics? 
 
 Yes. Opt-out settings can only be modified by the user or the tenant administrator. They are not changed as a result of upgrades.
 
