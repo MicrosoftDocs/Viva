@@ -2,7 +2,7 @@
 
 title: Workplace Analytics Office 365 data
 description: What's available on the Office 365 data sources page in Workplace Analytics 
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -55,11 +55,13 @@ The following screenshot shows where each of these numbers appears on the **Offi
 
 The following are examples of where you might encounter instances of inconsistency in the volume of email, meetings, calls, and instant messages data.
 
-* **Major holidays**: Drops in email and meeting activity around major holidays is typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
+* **Major holidays** &ndash; Drops in email and meeting activity around major holidays are typical and can potentially impact analysis. You can remove these weeks from your outputs to reduce its impact.
 
-* **Email archive policies**: Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it might be due to archiving. By using the Average weekly collaboration chart (see the preceding illustration), you can select a date range to analyze your collaboration data where the mail volume is stable.
+* **Exclusion rules not applied** &ndash; Analysts in your organization might have created [meeting](../tutorials/meeting-exclusions-intro.md) or [attendee](../tutorials/attendee-exclusion-rules.md) exclusion rules during the setup of Workplace Analytics. After these rules are created, they are applied only in the [Explore](../use/explore-intro.md) page dashboards and in [queries](../tutorials/query-basics.md) (see Q1/A1 in [Application of meeting exclusion rules](../tutorials/meeting-exclusion-concept.md#application-of-meeting-exclusion-rules)). Exclusion rules are _not_ applied to the data shown in the **Data sources** pages, including on the **Office 365 data** page. 
 
-* **Recurring meetings**: When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it might be due to recurring meetings having been removed from calendars. By using the Average weekly collaboration chart (see the preceding illustration), you  can select a date range to analyze your collaboration data where the meeting volume is stable.
+* **Email archive policies** &ndash; Business policies can impact historical data processed during initial setup. As you view historical data, if you see a steady decline or point-in-time drop-off in email and/or meeting activity, it might be due to archiving. By using the Average weekly collaboration chart (see the preceding illustration), you can select a date range to analyze your collaboration data where the mail volume is stable.
+
+* **Recurring meetings** &ndash; When a recurring meeting series is removed from a calendar, all past instances of this meeting are removed. As you view historical data, if you see a steady decline in meeting activity, it might be due to recurring meetings having been removed from calendars. By using the Average weekly collaboration chart (see the preceding illustration), you  can select a date range to analyze your collaboration data where the meeting volume is stable.
 
 ## Related topics
 

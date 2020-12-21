@@ -28,7 +28,7 @@ The most commonly asked questions and answers about Workplace Analytics are grou
 
 * [Meeting exclusions](#meeting-exclusions)
 * [Data validation, verification, and use](#data-validation-verification-and-use)
-* [Explore dashboards](#explore-dashboards)
+* [Explore the stats](#explore-the-stats)
 * [Queries](#queries)
 
 ## Product information
@@ -53,7 +53,7 @@ A1.  Workplace Analytics initially collects and processes 13 months' worth of da
 
 ##### Q6. Can the data gathered for Workplace Analytics be accessed by Microsoft or by anybody in the tenant or company?
 
-A6.  No. All data is encrypted and kept available only for queries and for Explore dashboards.
+A6.  No. All data is encrypted and kept available only for queries and for Explore the stats data.
 -->
 
 ##### Q2. Does Workplace Analytics support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
@@ -110,7 +110,7 @@ A2. No. Workplace Analytics can determine each employee's time-zone value and th
 
 ##### Q3. Can I configure the user data that particular analysts can access and use?
 
-A3. You can assign analysts the analyst (limited access) role, which limits them to the [Explore](explore-intro.md) dashboards. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. 
+A3. You can assign analysts the analyst (limited access) role, which limits them to view [Explore the stats](explore-intro.md) data. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. 
 
 <!-- ^^^ *** After partitions ship, add them to this answer. *** ^^^ -->
 
@@ -221,31 +221,24 @@ A5. Teams provides information about collaboration activities, namely direct mes
 
 ##### Q6. When a person sends a message or meeting invite for a group’s shared mailbox or on behalf of another person, who gets credit for sending it?
 
-A6. It depends on the type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](https://docs.microsoft.com/Exchange/recipients/mailbox-permissions?view=exchserver-2019).  
+A6. It depends on the type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](https://docs.microsoft.com/Exchange/recipients/mailbox-permissions).  
 
 * A **shared mailbox** (Microsoft 365 group mailbox) typically has a number of group members that share access and permissions for the group mailbox. An example of a shared mailbox is `LeadershipTeam@Contoso.com`. For details, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
 
   * **Send As** permission - When a group member with Send As permission for a shared mailbox sends a message or meeting invitation from the group mailbox, Exchange gives credit to the shared mailbox instead of any single person in the group. Workplace Analytics does not use this action in its calculations.
   * **Send on Behalf** permission – This permission is not available for shared mailboxes in Exchange Admin Center. However, if it is set with PowerShell (GrantSendonBehalf parameter), the person who sends the message gets credit for it in Workplace Analytics calculations.
 
-* An **individual mailbox** (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user?view=o365-worldwide).
+* An **individual mailbox** (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
 
   * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Workplace Analytics calculations.
   * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Workplace Analytics calculations.
   * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the **Send As** permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Workplace Analytics credits the owner of the mailbox in calculations.
 
-### Explore dashboards
-
-<!-- MOVED TO REGULAR DOCS
-##### Q1. How do I change the meeting exclusion rules that are used on the Explore dashboards?
-
-A1. To change the meeting exclusion rules for use on the Explore dashboards, see [Use rules in the Explore dashboards](../tutorials/meeting-exclusion-rules.md#use-rules-in-the-explore-dashboards).
--->
-
+### Explore the stats
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on the Page settings that are selected for the **Explore** or **Solutions** pages that you are using. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
+A1. Employee data can change based on the Page settings that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
 
 ##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 
@@ -331,7 +324,7 @@ A7.  Yes. It's up to your organization to choose who gets assigned which role. B
 
 ##### Q8. Who should be assigned the role of analyst (limited access)?
 
-A8. The analyst (limited access) role is for an analyst who needs access only to the insights that are displayed in the Workplace Analytics *Explore* dashboards. See [User roles in Workplace Analytics](user-roles.md) and [Explore](explore-intro.md) for more details.
+A8. The analyst (limited access) role is for an analyst who needs access only to the insights shown in the Workplace Analytics *Explore the stats* data. See [User roles in Workplace Analytics](user-roles.md) and [Explore the stats](explore-intro.md) for more details.
 
 ##### Q9. After an admin changes configuration and privacy settings, when do the changes take effect in the data?  
 
