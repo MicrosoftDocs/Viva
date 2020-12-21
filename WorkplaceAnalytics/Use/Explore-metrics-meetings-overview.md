@@ -30,11 +30,11 @@ You might expect the total number of redundant, conflicting, and multitasking me
 * **Double-booked meetings** – For any double-booked meeting time in a weekly data upload, the meeting duration calculation is adjusted for low-quality meeting hours.
 * **Conflicting meetings** – Calculates the total meeting time where two or more meetings overlap on the calendar for work meetings that comply with the set meeting exclusion rules.
 
-For example, the following scenarios of overlapping meetings are counted differently based on the meeting exclusion rules and the type of meetings:
+For example, the following scenarios of conflicting meetings are counted differently based on the meeting exclusion rules and the meeting type:
 
-* Jill has a one-hour work meeting scheduled for 1PM and a different one-hour work meeting scheduled at 1:30PM on the same day. These two overlapping meetings add 1.5 hours to conflicting meeting hours and 1.5 hours to low-quality meeting hours for the week.
-* John has a one-hour work meeting scheduled for 1PM and a one-hour dentist appointment scheduled at 1:30PM (filtered out by a meeting exclusion rule) on the same day. Based on the meeting exclusion rules and calculation adjustments, this adds 0.5 hour to low-quality meeting hours and 0 (zero) conflicting meeting hours for the week because the personal meeting is filtered out.
-* Sara has a dentist appointment scheduled from 1PM to 1:30PM (excluded with a meeting exclusion rule), a work meeting scheduled from 1PM to 2PM, and a different work meeting scheduled from 1:30PM to 2:30PM on the same day. Based on meeting exclusion rules and adjusted calculations, these three meetings add 1 hour (1:30PM to 2:30PM) to low-quality meeting hours and 1.5 hours (1PM to 2:30PM) to conflicting meeting hours for the week.
+* Jill has a one-hour work meeting scheduled at 1PM and a different one-hour work meeting scheduled at 1:30PM on the same day. These two overlapping meetings add 1.5 hours to conflicting meeting hours and 1.5 hours to low-quality meeting hours for the week.
+* John has a one-hour work meeting scheduled at 1PM and a one-hour dentist appointment scheduled at 1:30PM (filtered out by a meeting exclusion rule) on the same day. Based on the meeting exclusion rules and calculation adjustments, this adds 0.5 hour to low-quality meeting hours and 0 (zero) conflicting meeting hours for the week because the personal meeting is filtered out.
+* Sara has a dentist appointment scheduled at 1PM to 1:30PM (excluded with a meeting exclusion rule), a work meeting scheduled at 1PM to 2PM, and a different work meeting scheduled at 1:30PM to 2:30PM on the same day. Based on meeting exclusion rules and adjusted calculations, these three meetings add 1 hour (1:30PM to 2:30PM) to low-quality meeting hours and 1.5 hours (1PM to 2:30PM) to conflicting meeting hours for the week.
 
 ### Why it’s important
 
