@@ -12,7 +12,7 @@ ms.prod: wpa
 
 # Metric descriptions for Workplace Analytics
 
-To customize your Workplace Analytics [queries](../tutorials/query-basics), you can use the metrics that are defined on this page. They are organized by query type:
+To customize your Workplace Analytics [queries](../tutorials/query-basics.md), you can use the metrics that are defined on this page. They are organized by query type:
 
 * [Person metrics](#person-metrics)
 * [Meeting metrics](#meeting-metrics)
