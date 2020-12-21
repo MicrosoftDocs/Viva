@@ -66,7 +66,7 @@ In the following walkthrough, you will perform steps as a business decision make
 
 **Best-practice recommendation**: In Power BI Desktop, publish your new visualizations to your workspace.
 
-   ![Copied](../images/wpa/tutorials/publish-to-pbi-workspace.png)
+   ![Select publish destination](../images/wpa/tutorials/publish-to-pbi-workspace.png)
  
 After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/en-us/). We make this recommendation because the experience of viewing information such as this is optimized for Power BI Online. For more information, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files). 
 
