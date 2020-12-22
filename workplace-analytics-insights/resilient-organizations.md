@@ -65,10 +65,10 @@ According to the [Horizontal collaboration and cross-silo leadership](https://in
 
 Ways to improve team cohesion:
 
-* In MyAnalytics, add colleagues to your [important people list](../myanalytics/use/use-the-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
+* In MyAnalytics, add colleagues to your [important people list](../workplaceanalytics/myanalytics/use/use-the-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
 
-For more best practices, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
+For more best practices, see [Best practices for manager connectedness](../workplaceanalytics/tutorials/gm-connectedness.md).
 -->
 ### Protect employee wellbeing
 
@@ -76,7 +76,7 @@ Rapid shifts in ways of working can blur the line between 'home' and 'work'. One
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support employee wellbeing:
 
-* Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
+* Use [MyAnalytics wellbeing](../workplaceanalytics/myanalytics/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
 * Utilize [Inline suggestions in Outlook](../workplaceanalytics/MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 

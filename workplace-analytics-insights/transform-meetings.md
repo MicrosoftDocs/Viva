@@ -15,29 +15,29 @@ ms.prod: wpa
 
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Transform meeting culture page](../images/wpa/use/transform-meetings.png)
+![Transform meeting culture page](../workplaceanalytics/images/wpa/use/transform-meetings.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Transform meetings examine recurring meetings](../images/wpa/use/transform-meetings-percent.png)
+![Transform meetings examine recurring meetings](../workplaceanalytics/images/wpa/use/transform-meetings-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), [decision-making meetings](glossary.md#decision-making-meeting-define), and [meeting hours](metric-definitions.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
-|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | [IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics) and [meeting hours](metric-definitions.md#meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
-|Promote healthy meeting habits |Percentage of employees who significantly multitask in meetings |[Multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define) | Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and then averaged for the entire time period. |
+|Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](../workplaceanalytics/use/glossary.md#long-meeting-define), [large meetings](../workplaceanalytics/use/glossary.md#large-meeting-define), [decision-making meetings](../workplaceanalytics/use/glossary.md#decision-making-meeting-define), and [meeting hours](../workplaceanalytics/use/metric-definitions.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
+|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | [IsRecurring meeting filter](../workplaceanalytics/tutorials/meeting-queries.md#add-metrics) and [meeting hours](../workplaceanalytics/use/metric-definitions.md#meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Promote healthy meeting habits |Percentage of employees who significantly multitask in meetings |[Multitasking meeting hours](../workplaceanalytics/use/metric-definitions.md#multitasking-meeting-hours-define) | Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and then averaged for the entire time period. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Transform meetings promote healthy meeting habits](../images/wpa/use/transform-meetings-visual.png)
+![Transform meetings promote healthy meeting habits](../workplaceanalytics/images/wpa/use/transform-meetings-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting hours](metric-definitions.md#meeting-hours-define) to calculate the following percentages:<ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
-|Examine recurring meetings | Recurring vs. non-recurring meetings |Percentage of total meeting hours that are recurring and those that are non-recurring. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [meeting hours](metric-definitions.md#meeting-hours-define) metric and the [IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics).|
-|Promote healthy meeting habits | Distribution of multitasking in meetings  | Percentage of employees based on their weekly [multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one and five hours, and more than five hours multitasking in meetings. These percentages are calculated weekly and averaged for the entire time period. |
+|Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting hours](../workplaceanalytics/use/metric-definitions.md#meeting-hours-define) to calculate the following percentages:<ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
+|Examine recurring meetings | Recurring vs. non-recurring meetings |Percentage of total meeting hours that are recurring and those that are non-recurring. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [meeting hours](../workplaceanalytics/use/metric-definitions.md#meeting-hours-define) metric and the [IsRecurring meeting filter](../workplaceanalytics/tutorials/meeting-queries.md#add-metrics).|
+|Promote healthy meeting habits | Distribution of multitasking in meetings  | Percentage of employees based on their weekly [multitasking meeting hours](../workplaceanalytics/use/metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one and five hours, and more than five hours multitasking in meetings. These percentages are calculated weekly and averaged for the entire time period. |
 
 ## Take action
 
@@ -62,7 +62,7 @@ The [condensed guide to running meetings](https://insights.office.com/collaborat
 * Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
 * Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to plan better meetings.
 
-For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
+For more best practices and change strategies, see [Best practices for meetings](../workplaceanalytics/tutorials/gm-meetings.md).
 
 ### Examine recurring meetings
 
@@ -81,12 +81,7 @@ Emailing and chatting during meetings can lead to different interpretations of d
 
 According to [If you multitask during meetings, your team will, too](https://insights.office.com/productivity/multitask-meetings-team-will/): “Managers that frequently send emails during meetings are, according to our analysis, are 2.2 times more likely to have direct reports who also multi-task in meetings.” Ways to improve meetings:
 
-* Use [MyAnalytics insights to prepare for meetings](../myanalytics/use/use-the-insights.md#prepare-for-your-meetings), which includes information about the meetings, related documents, and reminders to book preparation time.
+* Use [MyAnalytics insights to prepare for meetings](../workplaceanalytics/myanalytics/use/use-the-insights.md#prepare-for-your-meetings), which includes information about the meetings, related documents, and reminders to book preparation time.
 * When distracted by a thought to send an email during a meeting, add it quickly to your to-do list instead and move on. This provides satisfaction and can help you regain focus.
 
-For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
-
-## Related topics
-
-* [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+For more best practices and change strategies, see [Best practices for meetings](../workplaceanalytics/tutorials/gm-meetings.md).
