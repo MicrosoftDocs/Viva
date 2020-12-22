@@ -72,7 +72,7 @@ Before you can export Workplace Analytics data, you need to confirm or do the fo
 
 * Or you can automate the creation of the Azure storage environment and generate the SAS URI for the container by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
 
-> [!Important]
+>[!Important]
 >If you are using this storage for Workplace Analytics Azure Templates, use the SAS URI that you generated in [Generate SAS URI for data export](../azure-templates/deploy-configure.md#generate-sas-uri-for-data-export).
 
 #### Example script

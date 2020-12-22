@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Your Microsoft 365 global admin can activate and assign licenses to people in your organization to use Workplace Analytics insights.
 
-This new release is currently limited to Microsoft or Office 365 E5 plan subscribers through their Microsoft service representative.
+This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through their Microsoft service representative.
 
 You can request access and get more information at [Microsoft Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Workplace Analytics insights.
 
@@ -24,23 +24,16 @@ You can request access and get more information at [Microsoft Workplace Analytic
 
    ![Activation code link](./images/sign-in.png)
 
-3. In the **Welcome** screen, select **Sign in**.
-4. Enter your Microsoft or Office 365 global admin credentials, and then select **Next**.
-5. In **Where will you be using this**, complete the requested information, and then select **Next**.
-6. In **users**, enter the number of active licenses that correspond with the **activation URL for Microsoft Workplace Analytics insights**, and then select **Next**.
-
-   ![Enter number of users](./images/number-users.png)
-
-7. In **How do you want to pay**, enter applicable information for your organizational account, and then select **Place order**.
-8. When prompted in the **Confirmation** page, select **assign users to your new subscription**.
-
-   ![Successful activation](./images/order-success.png)
+3. When prompted, enter your email address.
+4. Sign in with your Microsoft or Office 365 global admin credentials, and then select **Next**.
+5. In **Check out** > **confirm you order** > **Microsoft Workplace Analytics insights trial**, select **Try now**.
+6. When prompted in **order receipt**, select **Continue**.
 
 ## Assign licenses
 
-You must be able to sign in as a global Microsoft 365 admin to use the Microsoft admin center to assign licenses to one or more individual users who subscribe to Microsoft or Office 365 E5 plan.
+You must be able to sign in as a global Microsoft 365 admin to use the Microsoft admin center to assign licenses to one or more individual users who subscribe to Microsoft or Office 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
 
-Alternatively, you can sign in as a global admin to Azure Active Directory to assign licenses for Workplace Analytics insights to one or more security groups who subscribe to a Microsoft or Office 365 E5 plan.
+Alternatively, you can sign in as a global admin to Azure Active Directory to assign licenses for Workplace Analytics insights to one or more security groups who subscribe to a Microsoft or Office 365 E5 or E3 plan.
 
 ### To assign licenses to individual users
 
@@ -85,4 +78,4 @@ Alternatively, you can sign in as a global admin to Azure Active Directory to as
 > [!Note]
 > If you are assigning licenses to a group that has more people than you have licenses for, the tool will assign users as listed in the group up to the number of available licenses, and then you'll see an error message about how many in the group have licenses.
 
-After assigning users licenses, you can send them a [Workplace Analytics insights link](https://workplaceanalytics.office.com/) to open and use it. Refer users to [Workplace Analytics insights introduction](./intro.md) to learn more about how to use it.
+After assigning licenses, you can send your organization's leaders a [Workplace Analytics insights link](https://workplaceanalytics.office.com/Home) to open and use it. Also, refer them to [Workplace Analytics insights introduction](./intro.md) to learn more about how to use it.

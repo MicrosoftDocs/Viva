@@ -13,30 +13,49 @@ ms.prod: wpa
 
 As a business leader, understanding how your employees work together is important. Workplace Analytics insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
-![Home page](./images/home.png)
+![Insights home page](./images/insights-home.png)
 
-This new release is currently limited to Microsoft or Office 365 E5 plan subscribers through your Microsoft service representative.
+This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through your Microsoft service representative.
 
 You can request access and get more information at [Microsoft Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Workplace Analytics insights.
 
 ## Your organizational data
 
-The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Azure Active Directory environment, including the current date range and the number of measured employees in your organization. Note, only data about users located in North America is included in this initial release.
+The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels.
+
+>[!Important]
+>Only data about users whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability) is included in this initial release.
 
 ## Business outcomes
 
-The most common employee behaviors are grouped into nine top business outcomes that have the most impact on your bottom line. These business outcomes are proven to affect how successful organizations are, such as: developing effective managers, boosting employee engagement, building a culture of innovation, and increasing customer satisfaction.
+Each of the following business outcomes has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
 
-Each business outcome includes a top-level "Why it matters" explanation about how your organization compares to those who have been successful by supporting behaviors that positively affect their business.
+You can select **Download** in the top right to create and view a PowerPoint version of the following business outcomes. This enables you to share this valuable data with people in your organization who do not use Workplace Analytics.
 
-As you deep dive into each business outcome, you'll see the top leading indicators and behaviors with more details about why it matters to your organization and the behaviors you can focus time on that can lead to business success. See [Behaviors](behaviors.md) for more details.
+|Business outcome |Why it matters |
+|-----------------|--------------|
+|[Enhance organizational resiliency](resilient-organizations.md) |Small changes to collaboration practices can have transformative effects on organizational productivity at scale. |
+|[Boost employee engagement](boost-engagement.md) |Employees with high job satisfaction and a strong sense of belonging are more likely to produce high-quality work, identify business opportunities and remain at the organization. |
+|[Improve agility](improve-agility.md) |Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. |
+|[Foster innovation](foster-innovation.md) |Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets.|
+|[Develop effective managers](develop-managers.md) |Managers have a large impact on employee engagement, development, and performance, and are pivotal for driving organizational change. |
+|[Enhance operational effectiveness](effective-operations.md) |Small changes to collaboration practices can have transformative effects on organizational productivity at scale. |
+|[Accelerate change](accelerate-change.md) |Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity and can lead to market failure. |
+|[Transform meeting culture](transform-meetings.md) |Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. |
+|[Increase customer focus](customer-focus.md) |Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors.|
 
-## Supporting evidence and Best practices
+## Supporting evidence
 
-Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
+Each insight includes **Supporting evidence** that links you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/) authored by:
 
-* Industry experts who are basing their insights on research.
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes.
+* Industry experts based on research
+* Organizations who have effectively used Workplace Analytics to improve their business outcomes
+
+## Take action
+
+In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization.
+
+You also might see one or more groups listed who are affected and would benefit the most from these recommendations, which are based on your organizational data and industry research.
 
 ## Advanced analysis
 
