@@ -10,8 +10,6 @@ ms.prod: wpa
 
 # Foster innovation
 
-*This experience is only available through private preview at this time.*
-
 Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Foster innovation page](../images/wpa/use/innovation.png)

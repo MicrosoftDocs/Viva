@@ -10,8 +10,6 @@ ms.prod: wpa
 
 # Improve agility
 
-*This experience is only available through private preview at this time.*
-
 Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Improve agility page](../images/wpa/use/improve-agility.png)
