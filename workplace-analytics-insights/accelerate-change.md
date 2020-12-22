@@ -17,17 +17,17 @@ Slow adoption of new technology harms efforts to attract and retain top talent, 
 
 Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
 
-![Accelerate change page](../workplaceanalytics/images/wpa/use/accelerate-change.png)
+![Accelerate change page](../images/accelerate-change.png)
 
 ## Calculations
 
 The percentage metric for **Engage influencers** is **Percentage of employees who can drive change within your workforce**. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
-![Accelerate change percentage insight](../workplaceanalytics/images/wpa/use/accelerate-change-percent.png)
+![Accelerate change percentage insight](../images/accelerate-change-percent.png)
 
-The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](../workplaceanalytics/use/insight-ona-measures.md) that shows the [influencers](../workplaceanalytics/use/metric-definitions.md#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
+The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](https://docs.microsoft.com//workplace-analytics/use/insight-ona-measures.md) that shows the [influencers](https://docs.microsoft.com/workplace-analytics/use/metric-definitions.md#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
-![Accelerate change visual insight](../workplaceanalytics/images/wpa/use/accelerate-change-visual.png)
+![Accelerate change visual insight](../images/accelerate-change-visual.png)
 
 ## Take action
 
@@ -41,10 +41,10 @@ Leveraging the right people to promote new technology can help drive adoption at
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
-* Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../workplaceanalytics/myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Insights](https://docs.microsoft.com//workplace-analytics/myanalytics/use/use-the-insights.md) and the [Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
-For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../workplaceanalytics/tutorials/gm-influencer.md).
+For more best practices and how to identify and utilize influencers, see [Best practices for influencers](https://docs.microsoft.com/workplace-analytics/tutorials/gm-influencer.md).
 
 <!--### Measure Teams adoption
 
@@ -55,10 +55,10 @@ Based on [What email, IM, and the phone are each good for](https://insights.offi
 Some key ways to support Teams adoption:
 
 * Launch a [champions program](https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Teams and can guide, teach, and train their peers.
-* Use [Power BI Teams insights](../workplaceanalytics/tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
+* Use [Power BI Teams insights](https://docs.microsoft.com/workplace-analytics/tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
 * Share [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page) with employees to help get them up and running quickly with Teams.
 
-For best practices and how to be a role model for Teams use, see [Best practices for efficient communication](../workplaceanalytics/tutorials/gm-communication.md).
+For best practices and how to be a role model for Teams use, see [Best practices for efficient communication](https://docs.microsoft.com/workplace-analytics/tutorials/gm-communication.md).
 
 ### Support connectivity
 
@@ -71,5 +71,5 @@ Ways to support connectivity with Teams:
 * Share the collection of [Microsoft Teams training videos](https://support.microsoft.com/office/overview-of-teams-and-channels-c3d63c10-77d5-4204-a566-53ddcf723b46?wt.mc_id=otc_microsoft_teams) that help employees best use Teams, including how to experience all of the features of Channels.
 * Learn tips and tricks on LinkedIn Learning, such as the [weekly Teams Tips video](https://www.linkedin.com/learning/microsoft-teams-tips-weekly/learn-tips-for-mastering-microsoft-teams?u=3322), to help employees master Teams and stay current on the latest Teams features and improvements.
 
-For more best practices and how to host informal gatherings with Teams, see [Best practices for community connectivity](../workplaceanalytics/tutorials/gm-connectivity.md).
+For more best practices and how to host informal gatherings with Teams, see [Best practices for community connectivity](https://docs.microsoft.com/workplace-analytics/tutorials/gm-connectivity.md).
 -->
