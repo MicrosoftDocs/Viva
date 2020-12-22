@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Increase customer focus
 
-*This experience is only available through private preview at this time.*
-
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
 Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.

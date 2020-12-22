@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Boost employee engagement
 
-*This experience is only available through private preview at this time.*
-
 Employees with high job satisfaction and a strong sense of belonging are more likely to produce high-quality work, identify business opportunities, and remain at the organization.
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
