@@ -10,8 +10,6 @@ ms.prod: wpa
 
 # Develop effective managers
 
-*This experience is only available through private preview at this time.*
-
 Managers have a large impact on employee engagement, development and performance, and are pivotal for driving organizational change. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Develop effective managers page](../images/wpa/use/develop-managers.png)
