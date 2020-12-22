@@ -17,17 +17,17 @@ Slow adoption of new technology harms efforts to attract and retain top talent, 
 
 Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
 
-![Accelerate change page](../images/accelerate-change.png)
+![Accelerate change page](./images/accelerate-change.png)
 
 ## Calculations
 
 The percentage metric for **Engage influencers** is **Percentage of employees who can drive change within your workforce**. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
-![Accelerate change percentage insight](../images/accelerate-change-percent.png)
+![Accelerate change percentage insight](./images/accelerate-change-percent.png)
 
 The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](https://docs.microsoft.com//workplace-analytics/use/insight-ona-measures.md) that shows the [influencers](https://docs.microsoft.com/workplace-analytics/use/metric-definitions.md#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
-![Accelerate change visual insight](../images/accelerate-change-visual.png)
+![Accelerate change visual insight](./images/accelerate-change-visual.png)
 
 ## Take action
 

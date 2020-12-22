@@ -15,13 +15,13 @@ ms.prod: wpa
 
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Transform meeting culture page](../images/transform-meetings.png)
+![Transform meeting culture page](./images/transform-meetings.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Transform meetings examine recurring meetings](../images/transform-meetings-percent.png)
+![Transform meetings examine recurring meetings](./images/transform-meetings-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -31,7 +31,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Transform meetings promote healthy meeting habits](../images/transform-meetings-visual.png)
+![Transform meetings promote healthy meeting habits](./images/transform-meetings-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|

@@ -15,13 +15,13 @@ ms.prod: wpa
 
 Resilience depends on having the right insights, systems, and tools to respond to sudden changes, recover from disruption, and reimagine the future for your organization. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Enhance organizational resiliency page](../images/resilient.png)
+![Enhance organizational resiliency page](./images/resilient.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and some details about the calculations used for them.
 
-![Enhance resiliency employee wellbeing](../images/resilient-percent.png)
+![Enhance resiliency employee wellbeing](./images/resilient-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and some de
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Enhance resiliency empathy](../images/resilient-visual.png)
+![Enhance resiliency empathy](./images/resilient-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|

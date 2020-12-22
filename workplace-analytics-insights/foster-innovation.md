@@ -15,13 +15,13 @@ ms.prod: wpa
 
 Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Foster innovation page](../images/innovation.png)
+![Foster innovation page](./images/innovation.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Foster innovation percentage insight](../images/innovation-percent.png)
+![Foster innovation percentage insight](./images/innovation-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -30,7 +30,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Foster innovation visual insight](../images/innovation-visual.png)
+![Foster innovation visual insight](./images/innovation-visual.png)
 
 |Behavior |Visual insight | Calculations|
 |---------|--------|----------|------------|

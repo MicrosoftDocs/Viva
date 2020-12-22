@@ -15,13 +15,13 @@ ms.prod: wpa
 
 Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Enhance operational effectiveness page](../images/effective-operations.png)
+![Enhance operational effectiveness page](./images/effective-operations.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Operational effectiveness percentage insight](../images/effective-operations-percent.png)
+![Operational effectiveness percentage insight](./images/effective-operations-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Operational effectiveness visual insight](../images/effective-operations-visual.png)
+![Operational effectiveness visual insight](./images/effective-operations-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|

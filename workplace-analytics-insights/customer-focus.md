@@ -17,13 +17,13 @@ Companies that prioritize customer relationships and satisfaction grow revenue f
 
 Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Increase customer focus insights](../images/customer-focus.png)
+![Increase customer focus insights](./images/customer-focus.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Increase customer focus percentage insight example](../images/customer-focus-percent.png)
+![Increase customer focus percentage insight example](./images/customer-focus-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -33,7 +33,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Increase customer focus visual insight example](../images/customer-focus-visual.png)
+![Increase customer focus visual insight example](./images/customer-focus-visual.png)
 
 |Behavior |Visual insight |Definition |
 |---------|--------|----------------------|
