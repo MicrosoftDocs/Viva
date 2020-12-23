@@ -1,10 +1,33 @@
 - name: Introduction
   href: ./intro.md
-- name: Privacy guide
+- name: Privacy
   href: ./privacy.md
 - name: Setup
   href: ./setup.md
-- name: Behaviors
-  href: ./behaviors.md
+- name: Business outcomes
+  items:
+    - name: Enhance organizational resiliency
+      href: ./resilient-organizations.md
+    - name: Boost employee engagement
+      href: ./boost-engagement.md
+    - name: Improve agility
+      href: ./improve-agility.md
+    - name: Foster innovation
+      href: ./foster-innovation.md
+    - name: Develop effective managers
+      href: ./develop-managers.md
+    - name: Enhance operational effectiveness
+      href: ./effective-operations.md
+    - name: Accelerate change
+      href: ./accelerate-change.md
+    - name: Transform meeting culture
+      href: ./transform-meetings.md
+    - name: Increase customer focus
+      href: ./customer-focus.md
+- name: Metrics
+  href: ./metrics.md
+- name: Glossary
+  href: ./glossary.md
 - name: Frequently asked questions
   href: ./faqs.md
+  

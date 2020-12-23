@@ -31,10 +31,10 @@ productDirectory:
       links:
         - url: privacy.md
           text: Learn how these insights use trusted Microsoft 365 security to keep your data safe and private.
-    - title: Behaviors
+    - title: Business outcomes
       imageSrc: https://docs.microsoft.com/media/common/i_guidelines.svg
       links:
-        - url: behaviors.md
+        - url: intro.md#business-outcomes
           text: Lists the top business outcomes and the associated behaviors that you can focus on toward business success.
     - title: Frequently asked questions
       imageSrc: https://docs.microsoft.com/media/common/i_support.svg
