@@ -25,8 +25,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](https://docs.microsoft.com/workplace-analytics/use/metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
-|Utilize influencers |Percentage of organizations who have few influencers |[Influence](https://docs.microsoft.com/workplace-analytics/use/metric-definitions.md#organizational-network-analysis-ona-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
+|Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](metrics.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
+|Utilize influencers |Percentage of organizations who have few influencers |[Influence](metrics.md#influence-define) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -34,17 +34,14 @@ The following defines the organizational data shown in the visual behavioral ins
 
 |Behavior |Visual insight | Calculations|
 |---------|--------|----------|------------|
-|Enable deep work |Distribution of time for deep work |Percentage of employees grouped by their [focus time](https://docs.microsoft.com/workplace-analytics/use/metric-definitions.md#focus-define). The groups are divided into those who spend between 0 and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period. |
-|Utilize influencers |Organizations with limited influencers |Percentage organizations that don't have sufficient representation of influencers, based on company size. This uses the [influence](https://docs.microsoft.com/workplace-analytics/use/metric-definitions.md#organizational-network-analysis-ona-metrics) metric.|
+|Enable deep work |Distribution of time for deep work |Percentage of employees grouped by their [focus time](metrics.md#focus-define). The groups are divided into those who spend between 0 and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period. |
+|Utilize influencers |Organizations with limited influencers |Percentage organizations that don't have sufficient representation of influencers, based on company size. This uses the [influence](metrics.md#influence-define) metric.|
 
 ## Take action
 
-You can select **Take action** to see ways you can drive innovation. Depending on your role, the following are available in addition to the recommendations within Take action.
+In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](https://docs.microsoft.com/workplace-analytics/Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Depending on the recommendation, this links to data about [Internal networks](https://docs.microsoft.com/workplace-analytics/use/explore-metrics-internal-networks.md) or [Teamwork](https://docs.microsoft.com/workplace-analytics/tutorials/teamwork-solution.md).
-* **Explore in Power BI** - If available, links to [Power BI reports](https://docs.microsoft.com/workplace-analytics/tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
-* **Plans** - Opens a new [Plan](https://docs.microsoft.com/workplace-analytics/Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
+You also might see one or more groups listed who are affected and would benefit the most from these recommendations, which are based on your organizational data and industry research.
 
 ## Best practices
 
@@ -62,7 +59,7 @@ Ways to create opportunities for cross-group collaboration:
 * Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to build community and communicate, share information, and brainstorm about projects.
 * Give teams an opportunity to join cross-functional teams to compete in an innovation challenge around a key business challenge.
 
-For more best practices and how to create goals across teams or departments, see [Best practices for cross-group collaboration](https://docs.microsoft.com/workplace-analytics/tutorials/gm-cgcollaboration.md).
+For more best practices and how to create goals across teams or departments, see [Best practices for cross-group collaboration](https://docs.microsoft.com/workplace-analytics/tutorials/gm-cgcollaboration).
 -->
 ## Enable deep work
 
@@ -71,9 +68,9 @@ Time without meetings, emails and chats provides employees with the opportunity 
 [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..." Ways to support focus time:
 
 * Follow a team norm to not send chats to team members who have scheduled focus time or have the focusing status showing in Microsoft Teams.
-* Use a [MyAnalytics Focus plan](https://docs.microsoft.com/workplace-analytics/myanalytics/use/focus-plan.md) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
+* Use a [MyAnalytics Focus plan](https://docs.microsoft.com/workplace-analytics/myanalytics/use/focus-plan) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
 
-For more best practices and ways to establish a 'no meeting' period, see [Best practices for focus time](https://docs.microsoft.com/workplace-analytics/tutorials/gm-focus.md).
+For more best practices and ways to establish a 'no meeting' period, see [Best practices for focus time](https://docs.microsoft.com/workplace-analytics/tutorials/gm-focus).
 
 ## Utilize influencers
 
@@ -81,7 +78,7 @@ Influencers are people within an organization who are well connected and can dri
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
-* Use [Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights.md) and the [Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights) and the [Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
-For more best practices and how to identify and utilize influencers, see [Best practices for influencers](https://docs.microsoft.com/workplace-analytics/tutorials/gm-influencer.md).
+For more best practices and how to identify and utilize influencers, see [Best practices for influencers](https://docs.microsoft.com/workplace-analytics/tutorials/gm-influencer).

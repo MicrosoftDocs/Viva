@@ -24,6 +24,8 @@
       href: ./transform-meetings.md
     - name: Increase customer focus
       href: ./customer-focus.md
+- name: Metrics
+  href: ./metrics.md
 - name: Glossary
   href: ./glossary.md
 - name: Frequently asked questions

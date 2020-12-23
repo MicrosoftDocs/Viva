@@ -25,7 +25,7 @@ The percentage metric for **Engage influencers** is **Percentage of employees wh
 
 ![Accelerate change percentage insight](./images/accelerate-change-percent.png)
 
-The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](https://docs.microsoft.com//workplace-analytics/use/insight-ona-measures) that shows the [influencers](https://docs.microsoft.com/workplace-analytics/use/metric-definitions#organizational-network-analysis-ona-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
+The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](glossary.md#ona-define) that shows the [influencers](metrics.md#influence-define), their connections, and how they effectively connect across your organization. This helps you identify and target the people who power the unobservable communication networks that can drive change.
 
 ![Accelerate change visual insight](./images/accelerate-change-visual.png)
 
