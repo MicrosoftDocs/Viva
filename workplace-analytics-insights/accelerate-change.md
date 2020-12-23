@@ -48,7 +48,7 @@ For more best practices and how to identify and utilize influencers, see [Best p
 
 <!--### Measure Teams adoption
 
-Successful digital transformations require a real-time understanding of technology adoption rates and usage trends within the organization.
+Successful digital transformations require a real-time understanding of technology adoption rates and usage trends within the organization. 
 
 Based on [What email, IM, and the phone are each good for](https://insights.office.com/collaboration/what-email-im-and-the-phone-are-each-good-for/), you might be hampering productivity with too many emails: "We default to email to connect with people — to the tune of 122 business emails, on average, per person per day."
 
