@@ -76,11 +76,11 @@ Rapid shifts in ways of working can blur the line between 'home' and 'work'. One
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support employee wellbeing:
 
-* Use [MyAnalytics wellbeing](https://docs.microsoft.com/workplace-analytics/myanalytics/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
+* Use [MyAnalytics wellbeing](https://docs.microsoft.com/workplace-analytics/myanalytics/use/wellbeing) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
 * Utilize [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/mya-notifications#delay-email-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 
-For more best practices and ways to protect employees' after hours, see [Best practices for wellbeing](https://docs.microsoft.com/workplace-analytics/tutorials/gm-wellbeing.md).
+For more best practices and ways to protect employees' after hours, see [Best practices for wellbeing](https://docs.microsoft.com/workplace-analytics/tutorials/gm-wellbeing).
 
 ### Practice empathy
 
@@ -91,7 +91,7 @@ According to the research referenced in [What great managers do daily](https://i
 * Use [Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/overview/privacy-guide#assistance-for-people-managers) to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
-For more best practices and ways to establish better manager-team connections, see [Best practices for manager coaching](https://docs.microsoft.com/workplace-analytics/tutorials/gm-coaching.md).
+For more best practices and ways to establish better manager-team connections, see [Best practices for manager coaching](https://docs.microsoft.com/workplace-analytics/tutorials/gm-coaching).
 
 ### Free up capacity
 
@@ -100,10 +100,10 @@ Resilient organizations respond to changing demands and new opportunities by nim
 As explained in [How to finally kill the useless, recurring meeting](https://hbr.org/2015/03/how-to-finally-kill-the-useless-recurring-meeting), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
-* Use [MyAnalytics wellbeing](https://docs.microsoft.com/workplace-analytics/myanalytics/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [MyAnalytics wellbeing](https://docs.microsoft.com/workplace-analytics/myanalytics/use/wellbeing) to learn about your after-hours work habits and use [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
-For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings.md).
+For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
 
 ### Accelerate decision making
 
@@ -113,6 +113,6 @@ According to [Five ways to empower your team to make decisions](https://insights
 
 * Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
 * Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
-* Use [Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights.md) to manage your calendar and increase your awareness of conflicting meetings and meetings that inform you of decisions. Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
+* Use [Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights) to manage your calendar and increase your awareness of conflicting meetings and meetings that inform you of decisions. Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
 
-For more best practices and ways to remove obstacles, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings.md).
+For more best practices and ways to remove obstacles, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
