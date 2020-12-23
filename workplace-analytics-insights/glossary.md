@@ -35,7 +35,8 @@ The following are terms and concepts used in Workplace Analytics insights. This 
 | <a name="decision-making-meeting-define"></a> Decision-making meeting | A meeting that has between two and eight attendees and lasts less than one hour. |
 |Focus time| Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours |A person's time after you subtract their meeting hours and their focus hours. |
-|Influence |The calculations for influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure. |
+|Influence score |The calculations for influence scores use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure, which is how well connected that person is in the company, division, or other group. |
+|Influencers |Beyond an organization’s formal hierarchy, individuals can exert influence within informal networks and between them. Influencers are the best-connected people in the company, who have large personal networks or above-average numbers of relationships with colleagues, which is determined based on their collaboration data.|
 |Insularity|When collaboration happens only with people from within a person’s team, function, department, and so on.|
 |Invitee|A person who is invited to a meeting with a meeting request.|
 | <a name="large-meeting-define"></a> Large meeting |A large meeting  involves more than eight people and lasts less than one hour. Also see [Long and large meeting](#long-and-large-meeting-define).|
