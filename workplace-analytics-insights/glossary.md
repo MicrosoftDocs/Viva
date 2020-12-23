@@ -32,6 +32,7 @@ The following are terms and concepts used in Workplace Analytics insights. This 
 |Connection|Two or more [meaningful interactions](#meaningful-interaction-define).|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 |De-identification | A process that is used to prevent the connection of personal identifiers with information. De-identification is achieved through the removal of personal data, which is sometimes replaced with a pseudonymous identifier. |
+| <a name="decision-making-meeting-define"></a> Decision-making meeting | A meeting that has between two and eight attendees and lasts less than one hour. |
 |Focus time| Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours |A person's time after you subtract their meeting hours and their focus hours. |
 |Influence |The calculations for influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure. |
