@@ -41,7 +41,7 @@ Leveraging the right people to promote new technology can help drive adoption at
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
-* Use [Insights](https://docs.microsoft.com//workplace-analytics/myanalytics/use/use-the-insights) and the [Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
+* Use [Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights) and the [Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](https://docs.microsoft.com/workplace-analytics/tutorials/gm-influencer).
