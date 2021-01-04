@@ -12,6 +12,8 @@ ms.prod: wpa
 ---
 # Frequently asked questions about Workplace Analytics insights
 
+*This experience is only available through private preview at this time.*
+
 #### Q1. Who can see the insights?
 
 These insights are intended for business leaders in your organization to view high-level organizational metrics and insights. Your Microsoft 365 admin can give you access through the Microsoft 365 Admin center. See [Setup](setup.md) for details.

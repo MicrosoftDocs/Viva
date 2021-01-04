@@ -11,6 +11,8 @@ ms.prod: wpa
 ---
 # Set up Workplace Analytics insights
 
+*This experience is only available through private preview at this time.*
+
 Your Microsoft 365 global admin can activate and assign licenses to people in your organization to use Workplace Analytics insights.
 
 This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through their Microsoft service representative.

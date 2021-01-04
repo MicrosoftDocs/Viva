@@ -11,6 +11,8 @@ ms.prod: wpa
 ---
 # Introducing Workplace Analytics insights
 
+*This experience is only available through private preview at this time.*
+
 As a business leader, understanding how your employees work together is important. Workplace Analytics insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
 ![Insights home page](./images/insights-home.png)

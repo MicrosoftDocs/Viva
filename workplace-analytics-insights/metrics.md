@@ -12,6 +12,8 @@ ms.prod: wpa
 ---
 # Metrics used in Workplace Analytics insights
 
+*This experience is only available through private preview at this time.*
+
 The following describes the metrics used in the behavioral percentage and visual insights within each business outcome.
 
 |Metric |Description |Data type |

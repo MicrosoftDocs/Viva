@@ -11,6 +11,8 @@ ms.prod: wpa
 ---
 # Privacy with Workplace Analytics insights
 
+*This experience is only available through private preview at this time.*
+
 Microsoft Workplace Analytics insights produce powerful insights about how your organization functions. It does this by analyzing Microsoft 365 collaboration data and organizational data from Microsoft Azure Active Directory that you provide. Given the novelty of this Workplace Analytics service and the potential sensitivity about how data could be used, successful implementation and use of Workplace Analytics requires careful thought and planning with regard to data protection.  
 
 When data is processed for the insights, Microsoft protects privacy and fully complies with applicable local regulations, such as the General Data Protection Regulation (GDPR). The insights protect privacy in the following ways:
