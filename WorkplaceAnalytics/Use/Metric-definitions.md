@@ -15,6 +15,7 @@ ms.prod: wpa
 To customize your Workplace Analytics [queries](../tutorials/query-basics), you can use the metrics that are defined on this page. They are organized by query type:
 
 * [Person metrics](#person-metrics)
+* [Peer comparison metrics](#peer-comparison-metrics)
 * [Meeting metrics](#meeting-metrics)
 * [Group-to-group metrics](#group-to-group-metrics)
 * [Person-to-group metrics](#person-to-group-metrics)
