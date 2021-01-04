@@ -125,6 +125,8 @@ In this section, you define how the metrics are used in the comparison:
 
 You can vary the Calculation types and Difference types in the metrics that you’ve chosen.
 
+For descriptions of available metrics, see [Metric descriptions / Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics).
+
 ## View results
 
 After the query finishes running, its row in the **Queries / Results** page shows a check mark in the Status column. You can then download and open the results file. (Results files are in .csv format.) 
@@ -149,7 +151,7 @@ For more information, see [View, download, and export query results](../use/view
 
 [Understand and interpret query output](../use/csv-query-output-file.md)
 
-[Metric descriptions](../use/metric-definitions.md)
+[Metric descriptions / Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics)
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md) 
 
