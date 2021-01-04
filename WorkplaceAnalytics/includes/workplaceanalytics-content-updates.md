@@ -2,6 +2,32 @@
 
 
 
+## Week of December 21, 2020
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/21/2020 | [Power BI Home page deeper insights](/Workplace-Analytics/tutorials/pbi-home-deeper) | added |
+| 12/21/2020 | [MyAnalytics FAQ](/Workplace-Analytics/myanalytics/overview/mya-faq) | modified |
+| 12/21/2020 | [Requirements for Workplace Analytics](/Workplace-Analytics/setup/environment-requirements) | modified |
+| 12/21/2020 | [Explore meetings overview data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-meetings-overview) | modified |
+| 12/21/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
+| 12/21/2020 | [Workplace Analytics FAQ](/Workplace-Analytics/use/faq) | modified |
+| 12/22/2020 | [Accelerate change with Workplace Analytics](/Workplace-Analytics/use/accelerate-change) | modified |
+| 12/22/2020 | [Boost employee engagement with Workplace Analytics](/Workplace-Analytics/use/boost-engagement) | modified |
+| 12/22/2020 | [Increase customer focus with Workplace Analytics](/Workplace-Analytics/use/customer-focus) | modified |
+| 12/22/2020 | [Develop effective managers with Workplace Analytics](/Workplace-Analytics/use/develop-managers) | modified |
+| 12/22/2020 | [Enhance operational effectiveness with Workplace Analytics](/Workplace-Analytics/use/effective-operations) | modified |
+| 12/22/2020 | [Foster innovation](/Workplace-Analytics/use/foster-innovation) | modified |
+| 12/22/2020 | [Improve agility with Workplace Analytics](/Workplace-Analytics/use/improve-agility) | modified |
+| 12/22/2020 | [Workplace Analytics insights](/Workplace-Analytics/use/insights) | modified |
+| 12/22/2020 | [Enhance organizational resiliency with Workplace Analytics](/Workplace-Analytics/use/resilient-organizations) | modified |
+| 12/22/2020 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
+| 12/23/2020 | [Workplace Analytics Data export](/Workplace-Analytics/data-access/data-access) | modified |
+| 12/23/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
+| 12/23/2020 | [Develop effective managers with Workplace Analytics](/Workplace-Analytics/use/develop-managers) | modified |
+
+
 ## Week of December 14, 2020
 
 
@@ -90,17 +116,3 @@
 |------|------------|--------|
 | 11/23/2020 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
 | 11/23/2020 | [Insights Outlook add-in](/Workplace-Analytics/myanalytics/use/add-in) | modified |
-
-
-## Week of November 16, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/16/2020 | [Configure settings for Workplace Analytics](/Workplace-Analytics/use/settings) | modified |
-| 11/17/2020 | [Teams insights app](/Workplace-Analytics/myanalytics/use/teams-app) | modified |
-| 11/18/2020 | [Teams insights app](/Workplace-Analytics/myanalytics/use/teams-app) | modified |
-| 11/18/2020 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
-| 11/20/2020 | [Workplace Analytics plan participants](/Workplace-Analytics/tutorials/solutionsv2-participants) | modified |
-| 11/20/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
-| 11/20/2020 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
