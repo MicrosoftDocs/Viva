@@ -82,9 +82,9 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 | <a name="workweek-span-define"></a> Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
 
 ## Peer-comparison metrics
-
+  
 Peer-comparison queries use the same metrics as person queries. See [Person metrics](#person-metrics).
-
+  
 ## Meeting metrics
 
 |Metric|Description|Query type|Data type|Customizable|
