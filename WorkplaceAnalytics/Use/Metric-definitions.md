@@ -103,7 +103,7 @@ Peer-comparison queries use the same metrics as person queries. See [Person metr
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-| <a name="collaboration-hours-define"></a> Collaboration hours | Number of hours spent in collaboration activities between the time investor and collaborator groups. |Group|Hour|No|
+| <a name="collaboration-hours-define"></a> Collaboration hours | Number of hours spent in meetings, emails, IMs, and calls, after deduplication of time due to overlapping activities (for example, calls during a meeting) between the time investor and collaborator groups.  |Group|Hour|No|
 | <a name="email-hours-define"></a> Email hours | Number of hours spent sending and receiving emails between the time investor and collaborator groups.  |Group|Hour|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
