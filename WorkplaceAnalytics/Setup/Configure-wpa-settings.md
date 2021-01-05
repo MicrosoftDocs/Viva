@@ -20,7 +20,7 @@ audience: Admin
 
 Use the Workplace Analytics **System defaults** page in **Admin settings** to set the time zone, working days, and working hours.
 
-   ![System defaults](../images/wpa/use/admin-system-defaults.png)
+   ![System defaults](../images/wpa/use/system-defaults.png)
 
 ### Time zone
 
@@ -72,7 +72,7 @@ Workplace Analytics does not encode any specific policy, instead it provides con
 
 After evaluating your privacy needs, you can use the Privacy settings page in Workplace Analytics to define the privacy settings for your organization's data.
 
-   ![Privacy settings](../images/wpa/use/admin-privacy-settings.png)
+   ![Privacy settings](../images/wpa/use/privacy-settings.png)
 
 ### Privacy settings
 

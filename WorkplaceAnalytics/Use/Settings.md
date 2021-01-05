@@ -45,11 +45,11 @@ The [Data sources](../Use/data-sourcesv2.md) page provides dashboards that descr
 
 ## Upload
 
- * **Owner** – Workplace Analytics Admins have full access to this page.
+* **Owner** – Workplace Analytics Admins have full access to this page.
 
-On the **Upload** > **Organizational data** page, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
+In **Settings** > **Upload** > **Organizational data**, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
-![Upload page](../images/wpa/use/settings-upload1.png)
+![Upload Organizational data](../images/wpa/use/upload-org-data.png)
 
 ### Organizational data
 
@@ -57,25 +57,25 @@ Organizational data is contextual information about employees (for example, job 
 
 ## Analysis settings
 
- * **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access.
+* **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access.
 
-On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
+In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
-![Meeting exclusion page](../images/wpa/use/settings-analysis-meeting-exclusions.png)
+![Analysis settings](../images/wpa/use/analysis-settings.png)
 
 For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
 
 ## Admin settings
 
- * **Owner** – Workplace Analytics Admins have full access to this page
+* **Owner** – Workplace Analytics Admins have full access to this page
 
 In **Admin settings**, you can configure [system defaults](#system-defaults), [privacy settings](#privacy-settings), and [manager settings](#manager-settings).
 
-![Admin settings](../images/wpa/use/admin-system-defaults.png)
+![Admin settings](../images/wpa/use/system-defaults.png)
 
 ### System defaults
 
-On the **System defaults** page, you can configure the following:
+In **System defaults**, you can configure the following:
 
 * [Default time zone](#default-time-zone)
 * [Working days and hours](#working-days-and-hours)
@@ -125,22 +125,22 @@ With this setting, you can reclassify one or more external domains as internal, 
 
 After you add a domain and save the change for this setting, it'll change all of the data related to the specified domain as internal to your organization, as follows:
 
- * Explore the stats charts and metrics will show the domain as internal *retroactively* for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration data shown in **Explore the stats**.
- * Organizational and Office 365 data from this domain will update to be internal after the *next data refresh*.
- * Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
- * The changes can be reverted by removing the domain that was reclassified.
- * [Excluding domains in the privacy settings](#exclude-domains-or-email-addresses) overrides the changes made with this reclassification setting. That is, an excluded domain remains excluded, whether or not it's reclassified as internal.
+* Explore the stats charts and metrics will show the domain as internal *retroactively* for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration data shown in **Explore the stats**.
+* Organizational and Office 365 data from this domain will update to be internal after the *next data refresh*.
+* Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
+* The changes can be reverted by removing the domain that was reclassified.
+* [Excluding domains in the privacy settings](#exclude-domains-or-email-addresses) overrides the changes made with this reclassification setting. That is, an excluded domain remains excluded, whether or not it's reclassified as internal.
 
 ### Privacy settings
 
-In **Admin settings** > **Privacy settings**, you can decide what data you want to exclude from analysis and what data you want visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
+In **Settings** > **Admin settings** > **Privacy**, you can decide what data you want to exclude from analysis and what data you want visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
 
 * [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
 * [Exclude domains or email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-![Admin privacy settings](../images/wpa/use/admin-privacy-settings.png)
+![Admin privacy settings](../images/wpa/use/privacy-settings.png)
 
 After you change privacy settings, your changes take effect after data is processed in the following week. This means that these changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
 
@@ -276,7 +276,7 @@ The following are based on the latest organizational (HR) data that's been succe
 > [!Important]
 > Before managers can access Workplace Analytics, they must be assigned a Workplace Analytics license and have a team that meets or exceeds the **Minimum team size** setting.
 
-1. In **Admin settings** > **Manager settings**, select to change the switch **On** to allow managers with the minimum team size access to their team data in Workplace Analytics.
+1. In **Settings** > **Admin settings** > **Manager settings**, select to change the switch **On** to allow managers with the minimum team size access to their team data in Workplace Analytics.
 2. Select one of the following:
 
    * **All managers** - Allows all measured managers access.
@@ -291,7 +291,7 @@ The following are based on the latest organizational (HR) data that's been succe
 5. Select **Save**.
 
 >[!Note]
->Changes to these settings can take up to an hour to apply.
+>Changes to these settings will apply after one hour.
 
 ## Related topics
 
