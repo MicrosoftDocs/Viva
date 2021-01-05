@@ -47,9 +47,9 @@ The [Data sources](../Use/data-sourcesv2.md) page provides dashboards that descr
 
 * **Owner** – Workplace Analytics Admins have full access to this page.
 
-In **Settings** > **Upload** > **Organizational data** page, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
+In **Settings** > **Upload** > **Organizational data**, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
-![Upload page](../images/wpa/use/settings-upload1.png)
+![Upload Organizational data](../images/wpa/use/upload-org-data.png)
 
 ### Organizational data
 
@@ -59,9 +59,9 @@ Organizational data is contextual information about employees (for example, job 
 
 * **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access.
 
-On the **Analysis settings** page, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
+In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
 
-![Meeting exclusion page](../images/wpa/use/settings-analysis-meeting-exclusions.png)
+![Analysis settings](../images/wpa/use/analysis-settings.png)
 
 For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
 
