@@ -15,7 +15,7 @@ This article describes screen elements and concepts that will help you create an
 
 At each step in the exclusion-creation flow, you'll see a page, such as the following.
 
-  ![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
+![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
 
 In the following sections, you'll learn more about the pages you use in the exclusion-creation steps.
 
@@ -109,15 +109,15 @@ Workplace Analytics shows a table named **Phrases that contain the selected keyw
 
 The words "business" or "marketing" in the word cloud represent meetings that you might want to include in your analysis. To help you decide, you can see the effects of removing this keyword (and its meetings) from the exclusion. For example, if you select **business**, Workplace Analytics shows what percentage of meetings have this word in their subject line and the total number of hours for those meetings:
 
-  ![Percentages](../images/wpa/tutorials/02-word-cloud-business.png)
+![Percentages](../images/wpa/tutorials/02-word-cloud-business.png)
 
 In the following illustration, the word "business" has been excepted from the exclusion, which means that meetings with "business" in their invitations' subject lines will be _retained_ in your analysis:
 
-  ![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
+![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
 
 ### Example 2: Soccer
 
-The word cloud contains "soccer," which you select. Now, if the Phrase table shows phrases such as "soccer practice" or "soccer league," this might indicate that meetings with "soccer" in the subject line were not work-related and therefore are appropriate to exclude from analysis. 
+The word cloud contains "soccer," which you select. Now, if the Phrase table shows phrases such as "soccer practice" or "soccer league," this might indicate that meetings with "soccer" in the subject line were not work-related and therefore are appropriate to exclude from analysis.
 
 However, if you work for an athletic-equipment supplier and this table displays phrases such as "soccer product review," these meetings are probably work related and therefore should be included for analysis. To retain this keyword and its associated meetings, you make it an exception to the exclusion rule. To do this, select **Make an exception** adjacent to the word cloud.
 
@@ -125,44 +125,44 @@ If you notice other words in the cloud that you might want to retain in your ana
 
 ## Select exclusion type
 
-On the **New exclusion** page,  you can select the type of exclusion that you want to create. You make this selection in step three of the procedure [To start a meeting exclusion rule](meeting-exclusion-rules.md#to-start-a-meeting-exclusion-rule), which guides you through the exclusion flow. On this step, your choices are **Meeting Exclusion** and **Attendee exclusion**: 
+For a **New exclusion**, the following types of exclusions are available to create, which you do in Step 3 of [To start a meeting exclusion rule](meeting-exclusion-rules.md#to-start-a-meeting-exclusion-rule):
 
- * **Meeting Exclusion**. Exclude from analysis the data from types of meetings (such as all-day training meetings) whose inclusion might skew query results. 
+* **Meeting Exclusion** - Excludes data from specific types of meetings (such as all-day training meetings) from analysis whose inclusion might skew query results.
 
- * **Attendee exclusion**. Exclude from analysis data about meeting invitees, by their responses. For example, you might want to explicitly exclude (or include) invitees who tentatively accepted a meeting invitation. Creating attendee exclusions lets you effectively redefine "meeting attendance." If you add no attendee exclusions, meeting attendance means only one thing: that a person accepted the meeting invitation. However, by creating an attendee exclusion, you can change that definition to also include either or both of the invitee actions "tentative" and "no response." 
- 
- > [!Note]
- > These two exclusion types are not mutually exclusive. You can exclude data about particular types of meetings (such as long or large meetings) and, independently, you can also exclude data about attendees who responded with “tentative” or did not respond to meeting invitations.   
+* **Attendee exclusion** - Excludes data about meeting invitees, by their responses from analysis . For example, you might want to explicitly exclude (or include) invitees who tentatively accepted a meeting invitation. Creating attendee exclusions lets you effectively redefine "meeting attendance." If you add no attendee exclusions, meeting attendance means only one thing: that a person accepted the meeting invitation. However, by creating an attendee exclusion, you can change that definition to also include either or both of the invitee actions "tentative" and "no response."
+
+> [!Note]
+> These exclusion types are not mutually exclusive. You can exclude data about particular types of meetings (such as long or large meetings) and also exclude data independently about attendees who respond with “tentative” or do not respond to meeting invitations.
 
 ## Default meeting-exclusion rule
 
-Workplace Analytics supplies one meeting exclusion rule by default, the _Tenant default meeting exclusion rule_. This rule excludes the following types of meetings from query results, as they are not likely to represent relevant workplace meetings:
+Workplace Analytics supplies one meeting exclusion rule by default, the _Tenant default meeting exclusion rule_. This rule excludes the following types of meetings from query results, which are not likely relevant workplace meetings:
 
 * Meetings with only one attendee
 * Meetings equal to or longer than eight hours
 * Meetings with 250 or more attendees
-* Cancelled Meetings
+* Cancelled meetings
 
 > [!Note]
 > To respect user privacy, meetings marked as private and/or confidential are always excluded from meeting query calculations.
 
-This default rule is a good start, but if you were to use only it, you would miss the opportunity to verify that this rule doesn't exclude important meetings you wanted to keep, as well as the opportunity to exclude additional meetings based on meeting-subject keywords. 
+This default rule is a good start, but if you were to use only it, you would miss the opportunity to verify that this rule doesn't exclude important meetings you wanted to keep, as well as the opportunity to exclude additional meetings based on meeting-subject keywords.
 
 To create a custom rule for your organization, follow the steps in [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-a-meeting-exclusion-rule).
 
 ## Rule actions
 
-In the list of rules, the area to the right of the State column provides actions that you can take with rules. Each rule has a primary action that you can take by clicking the icon. For published rules, select the eye icon to view the rule. For draft rules, select the pencil icon to edit the rule:
+For published rules, select the **View** (eye) icon in the rule's row to view it. For draft rules, select the **Edit** (pencil) icon in the rule's row to edit it.
 
 ![State column](../images/wpa/tutorials/state-column.png)
 
-To see other actions available for a rule, select the **More options** (ellipsis) icon:
-
-![Secondary rule actions](../images/wpa/tutorials/active-actions.png)
+Select the **More options** (ellipsis) icon in the rule's row to view the menu, which varies depending on if it's a published or draft rule.
 
 ### Published rules
 
-For published rules, the actions are:
+The following options are available for a published rule:
+
+![Secondary rule options](../images/wpa/tutorials/more-options.png)
 
 * **Duplicate** creates an exact copy of the rule.
 * **Set preferred** sets this rule as the preferred rule. There can be only one preferred rule within your tenant. This has the following effects:
@@ -172,17 +172,17 @@ For published rules, the actions are:
   * The preferred rule will apply to all [queries](query-basics.md) that are run during the time the rule is in place.
 
 * **Archive** archives the rule.  
-* **Favorite** sets the rule as a favorite, which sorts it to the top of rule lists. (For rules set as favorites, the "Unfavorite" option reverses its favorite status.)
+* **Favorite** sets the rule as a favorite, which sorts it near the top of rule lists. (For rules set as favorites, select favorite again to reverse the option.)
 
 ### Draft rules
 
-For draft rules, the available actions are **Duplicate** and **Delete**:
+The options for draft rules are **Duplicate** and **Delete**:
 
 ![Duplicate](../images/wpa/tutorials/mx-draft-dupe-and-delete.png)
 
 ### Archived rules
 
-For archived rules, the available actions are **Delete** and **Restore**. **Restore** returns the rule to the list of published rules:
+The options for archived rules are **Delete** and **Restore**. **Restore** returns the rule to the list of published rules:
 
 ![Restore](../images/wpa/tutorials/mx-archive-delete-and-restore.png)
 
