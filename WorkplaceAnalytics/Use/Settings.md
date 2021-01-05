@@ -291,7 +291,7 @@ The following are based on the latest organizational (HR) data that's been succe
 5. Select **Save**.
 
 >[!Note]
->Changes to these settings can take up to an hour to apply.
+>Changes to these settings will apply after one hour.
 
 ## Related topics
 
