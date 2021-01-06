@@ -37,7 +37,7 @@ To customize Workplace Analytics [queries](../tutorials/query-basics.md), you us
 | Number of recipients | Number of the recipients on which the email was sent | 
 | Subject | The Subject line of the email | 
 
-### Filters for instant messages
+### Filters for instant messages (IMs)
 
 | Filter | Description |
 | ------ | ----------- |
