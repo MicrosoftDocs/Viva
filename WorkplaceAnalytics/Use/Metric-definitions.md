@@ -1,7 +1,7 @@
 ---
 
 title: Workplace Analytics metric definitions 
-description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
+description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
@@ -12,7 +12,13 @@ ms.prod: wpa
 
 # Metric descriptions for Workplace Analytics
 
-You can use the following metrics in Workplace Analytics to customize your queries.
+To customize your Workplace Analytics [queries](../tutorials/query-basics.md), you can use the metrics that are defined on this page. They are organized by query type:
+
+* [Person metrics](#person-metrics)
+* [Meeting metrics](#meeting-metrics)
+* [Group-to-group metrics](#group-to-group-metrics)
+* [Person-to-group metrics](#person-to-group-metrics)
+* [Organizational network analysis (ONA) metrics](#organizational-network-analysis-ona-metrics)
 
 ## Person metrics
 
@@ -43,7 +49,7 @@ You can use the following metrics in Workplace Analytics to customize your queri
 |Instant message hours | Number of hours a person spent in instant messages (IMs) through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
 |Instant messages sent | Total number of instant messages (IMs) sent by a person through Teams, during and outside of working hours. | Person| Count| Yes |
 |Internal network size|   The number of people within the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks.  |Person|Count|Yes |
-|  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours|Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](settings.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. |Person|Hour|Yes|
+|  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours |Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](settings.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. **Note**: Calculations for conflicting meeting hours are affected by meeting exclusion rules and adjustments based on the type of meetings that overlap (non-declined work meetings, focus hours, and out-of-office time).|Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
 |<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|

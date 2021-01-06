@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Enhance organizational resiliency with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and enhance organizational resiliency
 author: madehmer
@@ -10,8 +10,6 @@ ms.prod: wpa
 ---
 
 # Enhance organizational resiliency
-
-*This experience is only available through private preview at this time.*
 
 Resilience depends on having the right insights, systems, and tools to respond to sudden changes, recover from disruption, and reimagine the future for your organization. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -37,17 +35,18 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Protect employee wellbeing | Distribution of weekly after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
-|Practice empathy | Distribution of montly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+|Practice empathy | Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
 |Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
 |Accelerate decision making| Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and 10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
 
 ## Take action
 
-You can select **Take action** to see ways you can enhance organizational resiliency. The following are available in addition to the recommendations within Take action.
+You can select **Take action** to see ways you can enhance organizational resiliency. Depending on your role, the following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or Plans, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
-* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
+* **Explore the stats** – Depending on the recommendations, this links to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [management and coaching](explore-metrics-management-and-coaching.md).
+* **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
+* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can create for one or more of the recommendations.
 
 ## Best practices
 
