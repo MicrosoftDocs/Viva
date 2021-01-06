@@ -17,7 +17,7 @@ Select **Book** next one or more of the following to schedule it for each day du
 * **Focus time** - Schedules up to two-hour blocks of available time on your calendar for uninterrupted focused work. When scheduled, your status shows as "focusing" and notifications are silenced.
 * **Catch up on messages** - Schedules a 30-minute block of time to catch up on email and chats. When scheduled, your status shows as "busy" during this time each day.
 * **Take a break** - Schedules a 15-minute block of time twice a day to disconnect and recharge.
-* **Learning** - Schedules up to a two-hour block of time to learn a new skill and grow your career.
+* **Learning** - Schedules up to a two-hour block of time to learn a new skill or for career development.
 
 This section will also reference and list any already scheduled time in your calendar for these activities.
 
