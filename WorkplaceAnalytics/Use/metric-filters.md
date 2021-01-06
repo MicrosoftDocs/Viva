@@ -43,10 +43,10 @@ To customize Workplace Analytics [queries](../tutorials/query-basics.md), you us
 | ------ | ----------- |
 | Day of week  | The day of the week on which the IM was sent | 
 | IsAfterHours | True = This IM was sent during  the recipient's after-hours period | 
+| InteractionType | The type of chat in which the instant message (IM) appears, namely 1:1 IMs or group chats. (The possible values are _OneToOneChat_ and _GroupChat_).  | 
 | IsSender | True = this person sent the email; False = this person did not send the email | 
 | Time of day sent &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent | 
 | TotalParticipants | Number of people who participated in the IM thread, including the sender of the initial IM | 
-<!-- Still need in this table: InteractionType, Time (hours)  -->
 
 ### Filters for meetings 
 
