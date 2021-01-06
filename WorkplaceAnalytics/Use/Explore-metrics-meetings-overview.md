@@ -1,7 +1,7 @@
 ---
 
-title: Explore meetings overview metrics in Workplace Analytics
-description: Overview of meetings metrics on the Workplace Analytics Explore page
+title: Explore meetings overview data in Workplace Analytics
+description: Overview of meetings data in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,20 +11,15 @@ ms.prod: wpa
 
 # Meetings overview
 
-**Meetings overview** in **Explore** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email or instant message during a week are considered active and are included in the Explore metrics for the weeks they are active.
+**Meetings overview** summarizes meeting norms within your organization. You can use this section to gain insight into meeting quality by viewing metrics about specific meeting components that can help determine the efficiency and effectiveness of meetings, such as duration, number of attendees, redundancy, multitasking, and conflicting meeting hours, as shown in the Meetings overview summary in the following image. Employees who sent at least one email or instant message during a week are considered active and are included in the data for the weeks they are active.
 
 ![Meetings overview](../images/wpa/use/meetings-overview.png)
-
-To open **Meetings overview**:
-
-1. Open the [Workplace Analytics](https://workplaceanalytics.office.com) **Home** page. If prompted, sign in with your work account.
-2. Select **Analyze** > **Explore** > **Meetings overview**.
 
 ## Low-quality meeting hours
 
 The low-quality meeting hours overview summarizes the number of low-quality meeting hours for the organization and shows the percentage of meetings with any of the three components of low-quality meetings.
 
-**Low-quality meetings hours** are the number of hours a person spent in meetings where they are either redundant, scheduled to be in conflicting meetings, or multitasking. If a person meets any of these conditions during a meeting, the meeting is counted as low-quality.
+**Low-quality meetings hours** are the number of hours a person spent in meetings where they qualify as redundant, are scheduled to be in conflicting meetings, or are multitasking. If a person meets one or more of these conditions during a meeting, the meeting is counted as low-quality.
 
 ![Low-quality meeting hours](../images/wpa/use/06-low-quality-meeting-hours.png)
 
@@ -104,7 +99,20 @@ Each duration segment in the chart shows the total time a person spent in meetin
 * Manager 1:1 meetings with employees are critical for employee development, and if ignored, may lead to employee disengagement and ultimately attrition.
 * Consistently conflicting meeting hours could indicate a cultural issue with potentially significant implications for agility, innovation, engagement, and ultimately, performance.
 
+## Calculation variables
+
+You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours in a query. However, sometimes the hours won’t exactly match up because of how conflicting meeting hours are calculated, the set meeting exclusion rules, and the type of meeting.
+
+* **Double-booked meetings** – For any double-booked meeting time in a weekly data upload, the meeting duration calculation is adjusted for low-quality meeting hours.
+* **Conflicting meetings** – Calculates the total meeting time where two or more meetings overlap on the calendar for work meetings that comply with the set meeting exclusion rules.
+
+For example, the following scenarios of conflicting meetings are counted differently based on the meeting exclusion rules and the meeting type:
+
+* Jill has a one-hour work meeting scheduled at 1PM and a different one-hour work meeting scheduled at 1:30PM on the same day. These two overlapping meetings add 1.5 hours to conflicting meeting hours and 1.5 hours to low-quality meeting hours for the week.
+* John has a one-hour work meeting scheduled at 1PM and a one-hour dentist appointment scheduled at 1:30PM (filtered out by a meeting exclusion rule) on the same day. Based on the meeting exclusion rules and calculation adjustments, this adds 0.5 hour to low-quality meeting hours and 0 (zero) conflicting meeting hours for the week because the personal meeting is filtered out.
+* Sara has a dentist appointment scheduled at 1PM to 1:30PM (excluded with a meeting exclusion rule), a work meeting scheduled at 1PM to 2PM, and a different work meeting scheduled at 1:30PM to 2:30PM on the same day. Based on meeting exclusion rules and adjusted calculations, these three meetings add 1 hour (1:30PM to 2:30PM) to low-quality meeting hours and 1.5 hours (1PM to 2:30PM) to conflicting meeting hours for the week.
+
 ## Related topics
 
-* [Explore page settings](../use/explore-page-settings.md)
+* [Page settings](../use/explore-page-settings.md)
 * [Workplace Analytics Charts](../use/chart-types.md)

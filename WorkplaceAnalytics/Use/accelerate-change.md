@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Accelerate change with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and accelerate organizational change
 author: madehmer
@@ -10,8 +10,6 @@ ms.prod: wpa
 ---
 
 # Accelerate change
-
-*This experience is only available through private preview at this time.*
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
@@ -31,11 +29,12 @@ The visual behavioral insight for **Engage influencers** is **Reach of influence
 
 ## Take action
 
-You can select **Take action** to see ways you can drive accelerate organizational change. The following are available in addition to the recommendations within Take action.
+You can select **Take action** to see ways you can accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or Plans, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
-* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
+* **Explore the stats** – Links to data about [Internal networks](explore-metrics-internal-networks.md).
+* **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
+* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
 ## Best practices
 

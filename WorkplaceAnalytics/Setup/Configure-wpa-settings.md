@@ -20,7 +20,7 @@ audience: Admin
 
 Use the Workplace Analytics **System defaults** page in **Admin settings** to set the time zone, working days, and working hours.
 
-   ![System defaults](../images/wpa/use/admin-system-defaults.png)
+   ![System defaults](../images/wpa/use/system-defaults.png)
 
 ### Time zone
 
@@ -72,11 +72,11 @@ Workplace Analytics does not encode any specific policy, instead it provides con
 
 After evaluating your privacy needs, you can use the Privacy settings page in Workplace Analytics to define the privacy settings for your organization's data.
 
-   ![Privacy settings](../images/wpa/use/admin-privacy-settings.png)
+   ![Privacy settings](../images/wpa/use/privacy-settings.png)
 
 ### Privacy settings
 
-* Minimum Aggregation Size - Set the minimum group size required to display data in Explore. By default, the minimum group size is set to five. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
+* Minimum Aggregation Size - Set the minimum group size required to display data in Explore the stats. By default, the minimum group size is set to five. You can change the minimum group size to a level that you consider more relevant for your organization, but you cannot set the group size to lower than five.
 * Decide to show or hide subject lines in meeting reports.
 * Exclude emails/meetings to, or from, specific users, or all users from a domain using “;” as the delimiter
 * Exclude emails/meetings with specific terms in the subject line using “;” as the delimiter. Terms can be any combination of letters, numbers and special characters. However each term must be listed separately, because only exact subject keywords are excluded, for example: client;attorney;privilege;D&I;legal acquisition. For more details, see [Keyword exclusion logic](../Privacy/Privacy-considerations.md#keyword-exclusion-logic).
