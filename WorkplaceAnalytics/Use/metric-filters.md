@@ -1,6 +1,6 @@
 ---
 
-title: Workplace Analytics metric filters 
+title: Workplace Analytics metrics filters 
 description: Describes the filters that analysts can use to refine metrics in queries 
 author: paul9955
 ms.author: v-pausch
@@ -10,7 +10,7 @@ ms.prod: wpa
 
 ---
 
-# Metric filters
+# Metrics filters
 
 To customize Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)). After you select a metric for a query, you can narrow the focus of that metric by [applying filters](#to-apply-a-metric-filter). 
 
