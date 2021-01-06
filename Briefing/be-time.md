@@ -8,7 +8,7 @@ localization_priority: normal
 ms.prod: Mya
 
 ---
-# Plan time for the week
+# Plan your week
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **What do you want to set aside time for** section in a Briefing email about next week. This helps you plan the week ahead for important activities that improve long term productivity and wellbeing.
 
