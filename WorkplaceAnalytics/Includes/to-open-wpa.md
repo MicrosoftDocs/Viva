@@ -1,19 +1,16 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: To open Workplace Analytics
-description: How-to steps -- open Workplace Analytics to the Settings page.
+description: How-to open Workplace Analytics to the Settings page.
 author: paul9955
-ms.author: v-johtob
-ms.date: 05/30/2018
+ms.author: v-pausch
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
 ---
 
-**To open the Workplace Analytics Settings page** 
+**To view Settings in Workplace Analytics**
 
-1.	Open the [Workplace Analytics](https://workplaceanalytics.office.com/) **Home** page. If prompted, enter your work credentials.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
 
-2. In the left navigation pane, expand **Settings** to show links to the available pages.
+2. In the left navigation pane, select **Settings** to see to the available pages.
