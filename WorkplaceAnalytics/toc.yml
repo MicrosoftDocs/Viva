@@ -26,7 +26,7 @@
         - name: Maintain Workplace Analytics    
           href: ~/setup/maintain-workplace-analytics.md     
         - name: Assign licenses
-          items: 
+          items:
             - name: Introduction
               href: ~/setup/assign-licenses-to-population.md
             - name: Assign group-based licenses
@@ -34,51 +34,55 @@
             - name: Assign licenses with PowerShell
               href: ~/use/Assigning-licenses-with-powershell.md
         - name: Assign roles
-          items: 
+          items:
             - name: Introduction
               href: ~/setup/assign-roles-to-wpa-admins.md
             - name: User roles
               href: ~/Use/User-Roles.md
             - name: Assign user and group roles
               href: ~/setup/assign-user-roles.md
-        - name: Workplace Analytics settings
-          href: ~/Use/Settings.md
-        - name: Prepare organizational data
-          href: ~/setup/prepare-organizational-data.md
-        - name: Upload organizational data
-          items: 
-            - name: First upload
-              href: ~/setup/upload-organizational-data-1st.md 
-            - name: Subsequent uploads
-              href: ~/setup/upload-organizational-data.md 
-            - name: Upload CRM data
-              href: ~/setup/crm-data-upload.md
-        - name: Exclusion rules 
-          items:
-            - name: Introduction to exclusion rules
-              href: ~/tutorials/exclusions-introduction.md
-            - name: Meeting exclusions    
-              items:             
-                - name: Introduction
-                  href: ~/tutorials/meeting-exclusions-intro.md
-                - name: Walkthroughs
-                  href: ~/tutorials/meeting-exclusion-rules.md
-                - name: Tools and concepts
-                  href: ~/tutorials/meeting-exclusion-concept.md
-            - name: Attendee exclusions    
-              items:
-                - name: Attendee exclusions
-                  href: ~/tutorials/attendee-exclusion-rules.md
-        - name: Data sources
+        - name: Settings
           items:
             - name: Introduction
-              href: ~/Use/data-sourcesv2.md 
-            - name: Office 365 data
-              href: ~/Use/office-365-data.md
-            - name: Organizational data
-              href: ~/Use/organizational-data.md
-            - name: CRM data
-              href: ~/Use/crm-data.md
+              href: ~/Use/Settings.md
+            - name: Sources
+              items:
+                - name: Introduction
+                  href: ~/Use/data-sourcesv2.md 
+                - name: Office 365 data
+                  href: ~/Use/office-365-data.md
+                - name: Organizational data
+                  href: ~/Use/organizational-data.md
+                - name: CRM data
+                  href: ~/Use/crm-data.md
+            - name: Upload
+              items:
+                - name: Prepare organizational data
+                  href: ~/setup/prepare-organizational-data.md
+                - name: Upload organizational data
+                  items: 
+                - name: First upload
+                  href: ~/setup/upload-organizational-data-1st.md 
+                - name: Subsequent uploads
+                  href: ~/setup/upload-organizational-data.md 
+                - name: Upload CRM data
+                  href: ~/setup/crm-data-upload.md
+            - name: Admin settings
+              href: ~/use/admin-settings.md
+            - name: Analysis settings
+              items:
+                - name: Introduction to exclusion rules
+                  href: ~/tutorials/exclusions-introduction.md
+                - name: Meeting exclusions
+                  items:
+                    - name: Introduction
+                      href: ~/tutorials/meeting-exclusions-intro.md
+                    - name: Walkthroughs
+                      href: ~/tutorials/meeting-exclusion-rules.md
+                    - name: Tools and concepts
+                      href: ~/tutorials/meeting-exclusion-concept.md
+                - name: Attendee exclusions
+                  href: ~/tutorials/attendee-exclusion-rules.md
         - name: Workplace Analytics audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics

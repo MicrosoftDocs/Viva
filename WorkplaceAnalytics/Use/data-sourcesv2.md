@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Workplace Analytics data sources
 description: An overview of Sources in Workplace Analytics 
@@ -16,12 +14,12 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Data sources
+# Sources
 
 >[!Note]
->You must be assigned either the administrator or the analyst role to access the **Data sources** page. For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+>You must be assigned either the Administrator or the Analyst role to access **Sources**. For more information, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-**Data sources** contains high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is loaded and ready to use. And when you upload and process CRM data in Workplace Analytics, you'll also see a page for your CRM data.
+**Sources** shows high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is uploaded and ready to use. When you upload and process CRM data in Workplace Analytics, you'll also see a page for your CRM data.
 
 * [Office 365 data](office-365-data.md) shows the latest Office 365 data that's been uploaded and processed in Workplace Analytics.
 * [Organizational data](organizational-data.md) shows information about employees that your company provides to Workplace Analytics through uploads of organizational (HR) data.
@@ -39,5 +37,7 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 
 <iframe src="https://player.vimeo.com/video/434890175" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-[!INCLUDE [To open Sources in Workplace Analytics](../includes/to-open-wpa-sources.md)]
+**To open Sources in Workplace Analytics** 
 
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your work credentials.
+2. In the left navigation pane, select **Settings**, and then select **Sources**.
