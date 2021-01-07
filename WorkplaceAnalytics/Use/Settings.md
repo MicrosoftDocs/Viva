@@ -21,7 +21,7 @@ Depending on the role you're assigned, the following settings are available in W
 * [Sources](#sources) – Admins and Analysts use Sources to verify that Office 365 and organizational data is correctly uploaded into Workplace Analytics.
 * [Upload](#upload) – Admins use Upload to prepare and upload organizational and customer data.
 * [Analysis settings](#analysis-settings) – Analysts use these to customize meeting exclusion rules that help ensure data accuracy.
-* [Admin settings](#admin-settings) – Admins use these to configure [system defaults](#system-defaults), [privacy settings](#privacy-settings), and [manager settings](#manager-settings).
+* [Admin settings](#admin-settings) – Admins use these to configure [system defaults](admin-settings.md#system-defaults), [privacy settings](admin-settings.md#privacy-settings), and [manager settings](admin-settings.md#manager-settings).
 
 >[!Note]
 > Access to one or more pages in Settings depends on what role you're assigned in Workplace Analytics. The following describes page access based on role assignment.
