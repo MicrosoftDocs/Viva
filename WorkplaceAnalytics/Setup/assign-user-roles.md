@@ -13,48 +13,45 @@ audience: Admin
 
 # Assign user or group roles in Azure Active Directory 
 
-People who use Workplace Analytics can work with the product only after they've been assigned a role &mdash; namely, that of admin, analyst, limited analyst, or program manager. (See [User roles in Workplace Analytics](../use/user-roles.md).) Follow the steps in this article to assign Workplace Analytics roles to users or to groups:
+People who use Workplace Analytics can work with the product only after they've been assigned a role, which can be admin, analyst, limited analyst, or program manager. See [User roles in Workplace Analytics](../use/user-roles.md) for details on what each role can do in Workplace Analytics. Use the following steps to assign Workplace Analytics roles to individual people or to groups:
 
- * [Assign roles to users](#assign-roles-to-users)
- * [Assign roles to groups](#assign-roles-to-groups)
- * [Verify role assignments](#verify-role-assignments)
- * [Role assignment FAQ](#role-assignment-faq)
-
+* [Assign roles to individuals](#assign-roles-to-users)
+* [Assign roles to groups](#assign-roles-to-groups)
+* [Verify role assignments](#verify-role-assignments)
+* [Role assignment FAQ](#role-assignment-faq)
 
 ## Assign roles to users 
 
-**Role:** Azure Active Directory admin  
+**Owner** - Azure Active Directory admin  
 
 1. Log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com). 
 
 2. In the left navigation menu, select **Enterprise applications**:
 
    ![Enterprise applications](../images/wpa/setup/enterprise-apps.png) 
-   
-   This opens the **Enterprise applications | All applications** page of the dashboard. 
 
-3. In the **Application Type** drop-down menu, select **All Applications**:
+3. In **Enterprise applications | All applications**, select **Application Type** > **All Applications**:
    
-   ![Enterprise applications](../images/wpa/setup/ent-all-apps-3.png) 
+   ![Application types](../images/wpa/setup/ent-all-apps-3.png) 
 
-4. In the search field, type "workplace" and then press **Enter**. 
+4. In the search field, enter **workplace**, and then press **Enter**. 
    
-   ![Type 'workplacd'](../images/wpa/setup/type-workplace.png)
+   ![Search for workplace](../images/wpa/setup/type-workplace.png)
 
 5. In the search results, select **Workplace Analytics**.  
 
-6. On the **Workplace Analytics | Overview** page, under **Getting Started**, select **Assign users and groups**: 
+6. In the **Workplace Analytics | Overview**, under **Getting Started**, select **Assign users and groups**: 
 
    ![Overview page](../images/wpa/setup/wpa-overview.png)  
 
-7. On the Workplace Analytics **Users and groups** page, select **Add user**:
+7. In the Workplace Analytics **Users and groups**, select **Add user**:
 
    ![WpA users and groups](../images/wpa/setup/wpa-users-and-groups.png)  
 
 > [!Note] 
-> In the **Users and groups** area, "None Selected" currently appears. 
+> In the **Users and groups** section, you'll see **None Selected**. 
 
-8. On the **Add Assignment** page, select **Users and groups**: 
+8. In **Add Assignment**, select **Users and groups**:
    
    ![Select Users and groups](../images/wpa/setup/select-users-and-groups-4.png)
 
@@ -62,43 +59,43 @@ People who use Workplace Analytics can work with the product only after they've 
    
    ![Selected items](../images/wpa/setup/selected-items.png)
    
-   In the **Users and groups** area, the count of selected users has changed to 1:
-   
+   In the **Users and groups** section, the count of selected users has changed to 1:
+
    ![Add Assignment + 1](../images/wpa/setup/add-assignment-plus-1.png)
-    
-   > [!Note] 
+
+   > [!Note]
    > You can repeat this step to add one or more additional users, if you intend to assign the same role to them. 
 
-10. On the **Add Assignment** page, select **Select Role**. This opens the **Select Role** area on the right side of the page: 
+10. In **Add Assignment**, select **Select Role** to open the **Select Role** area on the right side of the page: 
 
     ![Select role](../images/wpa/setup/select-role.png)
-    
-11. From the list that appears, select one of the following roles:  
 
-   * Analyst 
-   * Analyst (Limited Access) 
-   * Administrator 
-   * Program manager 
+11. Select one of the following roles:  
 
-   > [!Note] 
+   * Analyst
+   * Analyst (Limited Access)
+   * Administrator
+   * Program manager
+
+   > [!Note]
    > The Group manager role might appear (as a disabled option) in some tenants that were provisioned earlier.  
 
-   The role you selected appears at the bottom of the **Select Role** area: 
+   The role you selected appears at the bottom of the **Select Role** section:
 
-   ![Selected role](../images/wpa/setup/selected-role.png)
+    ![Selected role](../images/wpa/setup/selected-role.png)
 
-   The role also appears under **Add Assignment** in the **Select Role** area: 
+   The role also appears under **Add Assignment** in the **Select Role** section: 
 
-   ![Added role](../images/wpa/setup/add-assignment-select-53.png)
+    ![Added role](../images/wpa/setup/add-assignment-select-53.png)
 
-> [!Note] 
-> To change the role to assign to this user, repeat steps 10 and 11 and select a different role in step 11. 
+> [!Note]
+> To change the role to assign to this user, repeat **Steps 10-11** and select a different role in **Step 11**.
 
-12. After you've chosen the user and the correct role for that user, select **Assign** at the bottom of the **Add Assignment** page:  
+12. In **Add Assignment**, select **Assign** (bottom of the page):
  
    ![Assign](../images/wpa/setup/assign-button.png)
 
-   After a few seconds, a message in the upper right informs you of the success of the role assignment:  
+   After a few seconds, a message in the upper right shows a successful role assignment:
 
    ![Assignment succeeded](../images/wpa/setup/assignment-succeeded.png)
 
@@ -106,18 +103,18 @@ You have now assigned one role to one user.
 
 13. (Optional) You can now assign additional roles, either to the same user or to different users. 
 
-    * **Same user, additional role.** To add another role to the same user, repeat steps 7-12 in this procedure; in step 9, make sure that you have the correct user selected, and then select the additional role in steps 10 and 11. 
+    * **Same user, additional role** - To add another role to the same user, repeat **Steps 7-12** and in **Step 9**, be sure you select the correct user, and then select the additional role in **Steps 10-11**.
 
-    * **Other users.** To select other users and assign roles to them, repeat steps 7-12 in this procedure; select the new user in step 9 and the role in steps 10 and 11. Repeat these steps as necessary. 
+    * **Other users** - To select other users and assign roles to them, repeat **steps 7-12** and in **Step 9-11**, be sure you select the new user and the applicable role.
 
 To check the role assignments that a user currently has, see [Verify role assignments](#verify-role-assignments).
 
 ## Assign roles to groups
 
-You can also assign roles to groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group automatically receive the same permissions that are assigned to that role.
+You can also assign roles to groups, which means that you are assigning access permissions associated with that role to the group. Any users who are assigned to that group automatically receive the same permissions.
 
-> [!Note] 
-> The groups to which you can assign Workplace Analytics roles are Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups). 
+> [!Note]
+> The groups that you can assign Workplace Analytics roles are Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups). 
 
 To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 12 under [Assign roles to users](#assign-roles-to-users). In that process, where you name and select a user in step 9, instead name and select a group, and then assign a role to the selected group.
 
@@ -125,9 +122,9 @@ To assign users and roles to Workplace Analytics groups, the steps are similar t
 
 If you have not yet created a Workplace Analytics group in Azure Active Directory, and want to do so, see [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
-## Verify role assignments 
+## Verify role assignments
 
-Use this procedure to see what roles have been assigned to a user.  
+Use the following steps to see what roles have been assigned to a user.  
 
 1. On the **Workplace Analytics | Users and groups** page, start typing the user identifier. As you do so, the list of users and groups filters to contain the name you're typing.  
 

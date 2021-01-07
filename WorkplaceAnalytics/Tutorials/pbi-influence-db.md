@@ -85,7 +85,7 @@ This dashboard requires results from two queries. For this reason, in the follow
 
       ![Query URLs for Influence insights](../Images/WpA/Tutorials/influence-insights-step-11.png)
 
-    * Set the [**Minimum group size**](../use/settings.md#minimum-group-size) for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    * Set the [**Minimum group size**](../use/privacy-settings.md#minimum-group-size) for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     * The **Column name of Manager Indicator** field captures which column in your dataset represents whether a person is a manager or not. Usually, the column is **SupervisorIndicator** but if it has some other name, enter that name here. The value entered here is case-sensitive. 
     * The **Values in the Manager Indicator column representing a manager** field indicates the values in the column that represent whether a person is a manager. Usually it is "Mngr" or "Mgr". You can provide multiple values here, including spaces, as long as they are delimited by semi-colons or commas. The values entered here are case-insensitive. Example: **Mgr, Mngr** 
     * The **Values in the Manager Indicator column representing a manager+** field indicates the values in the column that represent whether a person is a manager’s manager or not. Usually it is "Mngr+" or "Mgr+". You can provide multiple values here, including spaces, as long as they are delimited by semi-colons or commas. The values entered here are case-insensitive. Example: **Mgr+, Mngr+**

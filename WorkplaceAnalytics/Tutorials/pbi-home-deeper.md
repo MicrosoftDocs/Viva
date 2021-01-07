@@ -12,83 +12,79 @@ ms.prod: wpa
 
 # View deeper insights in Power BI
 
-As a business decision maker, you can see information on the Workplace Analytics **Home** page that tells you much about current work conditions and trends. By starting on that page, you can identify “opportunity groups” (groups that you might want to act on) and perform detailed analysis by using drill-down capabilities that are provided by Power BI. 
+**Owner** - Workplace Analytics Analyst or Analyst limited have access to these insights
 
-To enable these capabilities, this feature uses the Power BI Connector to combine Workplace Analytics data with the visualization capabilities of Power BI. The information that you view in Power BI remains up to date because its data is automatically refreshed with new data from Workplace Analytics. The connector also enforces privacy by preventing any user who views the report from drilling down and seeing a group smaller than the [minimum group size](../use/settings.md#minimum-group-size) specified by the Workplace Analytics admin. This lets you share reports with confidence that row-level data will not be exposed. 
+As a business decision maker, you can see information on the Workplace Analytics **Home** page that tells you much about current work conditions and trends. By starting on that page, you can identify “opportunity groups” (groups that you might want to act on) and perform detailed analysis by using drill-down capabilities that are provided by Power BI.
+
+To enable these capabilities, this feature uses the Power BI Connector to combine Workplace Analytics data with the visualization capabilities of Power BI. The information that you view in Power BI remains up to date because its data is automatically refreshed with new data from Workplace Analytics. The connector also enforces privacy by preventing any user who views the report from drilling down and seeing a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size) specified by the Workplace Analytics admin. This lets you share reports with confidence that row-level data will not be exposed.
 
 To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are preconfigured and communicated to Power BI through the Power BI connector. (For background information, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector).)
 
 ## View and publish insights in Power BI
 
-In the following walkthrough, you will perform steps as a business decision maker who has been granted the limited analyst role in Workplace Analytics. Your interest in the employee experience at your company is heightened because you’ve become aware of employee attrition, and you want to find out what could be causing this problem. At the end of this walkthrough, you can view custom Power BI visualizations about this issue and optionally share them with team members. 
+In the following walkthrough, you will perform steps as a business decision maker who has been granted the limited analyst role in Workplace Analytics. Your interest in the employee experience at your company is heightened because you’ve become aware of employee attrition, and you want to find out what could be causing this problem. At the end of this walkthrough, you can view custom Power BI visualizations about this issue and optionally share them with team members.
 
-**Role:** analyst or limited analyst
-
-1.	Open the Workplace Analytics **Home** page:
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If  prompted, enter your work credentials.
 
     ![Home page](../images/wpa/tutorials/new-home-page.png)
  
-2.	Select the **Boost employee engagement** outcome. 
+2. Select the **Boost employee engagement** outcome to see insights about your company. For example: 
 
-     On the **Boost employee engagement** page that appears, you see insights about various behaviors at the company. For example: 
-     
-     * **Prevent employee burnout** &ndash; This insight tells you what percentage of employees spend more than five hours per week working after-hours.
-     
-3.	You are concerned about the employee-burnout statistic (too much after-hours work) and you want to learn more. On this card, select **See your insights**:
+     **Prevent employee burnout** &ndash; This insight tells you what percentage of employees spend more than five hours per week working after-hours.
+ 
+3. You might be concerned about the employee-burnout statistic (too much after-hours work) and you want to learn more. On this card, select **See your insights**:
  
      ![Take action - See insights](../images/wpa/tutorials/burnout-take-action.png)
 
-4.   On the **Best practices** panel, select **Explore in Power BI**: 
+4. In **Best practices**, select **Explore in Power BI**: 
 
      ![Best practices - disconnect](../images/wpa/tutorials/best-practices-disconnect.png)
 
-5.	Follow the instructions on the **Explore in Power BI** page:
+5. Follow the instructions on the **Explore in Power BI** page:
 
      ![Download and connect](../images/wpa/tutorials/explore-in-pbi.png) 
-      
-     a.	If you do not already have Power BI installed, select the link to download and install it. 
  
-     b.	Download the data template for this insight. 
+     a. If you do not already have Power BI installed, select the link to download and install it. 
  
-     c.	In your web browser or in your Downloads folder, select the downloaded data template file. This opens Power BI.  
+     b. Download the data template for this insight. 
  
-     d.	Select **Click here to copy the partition identifier**. After you do, a “Copied” indicator is shown:
-    
-     ![Copied](../images/wpa/tutorials/partition-id-copied.png)    
+     c. In your web browser or in your Downloads folder, select the downloaded data template file. This opens Power BI.  
  
-6.	In Power BI, give the information that’s required to make a connection. In the **Connect to Workplace Analytics Data** dialog box, paste the partition identifier that you copied:
+     d. Select **Click here to copy the partition identifier**. After you do, a “Copied” indicator is shown:
+  
+     ![Copied](../images/wpa/tutorials/partition-id-copied.png) 
+ 
+6. In Power BI, give the information that’s required to make a connection. In the **Connect to Workplace Analytics Data** dialog box, paste the partition identifier that you copied:
 
      ![Partition ID prompt](../images/wpa/tutorials/partition-id-prompt.png)
  
-7.	Select **OK**. The Dive deeper **Home** page opens in Power BI Desktop:
+7. Select **OK**. The Dive deeper **Home** page opens in Power BI Desktop:
  
      ![Dive deeper -- wellbeing](../images/wpa/tutorials/dive-deeper-wellbeing.png)
 
-**Best-practice recommendation**: In Power BI Desktop, publish your new visualizations to your workspace.
+   **Best-practice recommendation**: In Power BI Desktop, publish your new visualizations to your workspace.
 
    ![Select publish destination](../images/wpa/tutorials/publish-to-pbi-workspace.png)
  
-After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/en-us/). We make this recommendation because the experience of viewing information such as this is optimized for Power BI Online. For more information, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files). 
+   After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/en-us/). We make this recommendation because the experience of viewing information such as this is optimized for Power BI Online. For more information, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files). 
 
-8.	(Optional) Delegate this information to your team members by sharing this report. This lets them dive deeper by slicing and filtering the data to further identify opportunities or track metrics that change over time. 
+8. (Optional) Delegate this information to your team members by sharing this report. This lets them dive deeper by slicing and filtering the data to further identify opportunities or track metrics that change over time. 
 
-9.	Go on to the next procedure, [Identify and help opportunity groups](#identify-and-help-opportunity-groups). 
+9. Go to the next section to [identify and help opportunity groups](#identify-and-help-opportunity-groups). 
 
 ### Identify and help opportunity groups 
 
-These Power BI visualizations will call your attention to the opportunity groups in your organization. In this example, we will examine groups whose members, on average, have less one-on-one time than others in the company. 
+These Power BI visualizations will show the opportunity groups in your organization. For example, the following shows groups whose members, on average, have less one-on-one time than others in the company.
 
-**Role:** analyst or limited analyst
-
-1.	On the Dive deeper **Introduction** page, in the **Guided walk-through** insight, select **Start walk-through**:
+On the Dive deeper **Introduction** page, in the **Guided walk-through** insight, select **Start walk-through**:
    
-    ![guided walk-through](../images/wpa/tutorials/guided-walkthrough.png)
+![guided walk-through](../images/wpa/tutorials/guided-walkthrough.png)
     
-    As you are guided through the walk-through, it opens, in sequence, several other analysis pages that present you with more information about this area (well-being):
+As you are guided through the walk-through, it opens, in sequence, several other analysis pages that present you with more information about this area (well-being):
       
-    ![Pages](../images/wpa/tutorials/pages-toc.png)
+![Pages](../images/wpa/tutorials/pages-toc.png)
    
-    Each of these analysis pages gives you a **Group by** choice. For more information, see the next section, Grouping choices. 
+Each of these analysis pages gives you a **Group by** choice. For more information, see the next section, Grouping choices. 
 
 ### Grouping choices 
 
@@ -135,6 +131,4 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 ## Related topics
 
 * [Power BI templates in Workplace Analytics](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/power-bi-templates?branch=pr-en-us-1820)
-
 * [Workplace Analytics Teamwork plans](teamwork-solution.md)
-

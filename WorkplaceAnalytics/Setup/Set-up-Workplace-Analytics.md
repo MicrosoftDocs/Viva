@@ -41,14 +41,14 @@ This article describes the steps that are required to set up and configure Workp
 
       ![The Home page guides you through setup](../images/wpa/setup/onboarding-intro.png)
   
-2. **Licenses and roles** - Verify that your Office 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md). 
+2. **Licenses and roles** - Verify that your Office 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md).
 
    > [!Important]
    > On the **Home** page, under **Required to start**, Workplace Analytics admins can see the current number of assigned roles and licenses. They can proceed with setup only if the number of assigned licenses is greater than zero. Licenses can take from 24 up to 72 hours to activate after you purchase licenses. Until licenses are provisioned, unlicensed users will  get a [500 error](../Tutorials/wpa-tool-500-error.md) when opening Workplace Analytics.
 
-3. **System defaults** - Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system defaults](../Use/settings.md#system-defaults).
+3. **System defaults** - Set the time zone, week days, weekend days, and working hours. For more information, see [Workplace Analytics system defaults](../Use/system-defaults.md).
 
-4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/settings.md#privacy-settings). After you've finished making both the system defaults and the privacy settings, select **Next**.
+4. **Privacy settings** - Set minimum group size and choose whether to hide subject lines, domains, email addresses, and terms in subject lines. For more information, see [Workplace Analytics privacy settings](../Use/privacy-settings.md). After you've finished making both the system defaults and the privacy settings, select **Next**.
 
    > [!Important] 
    > At this point, Workplace Analytics automatically extracts collaboration data (data about email usage, meetings, chats, and calls) in the background and keeps it ready for analysis. <u>Exception:</u> If your organization purchased Workplace Analytics before June 12, 2019, this extraction is not performed in the background. Before you can move on to step 5, you must wait for the extraction to complete. You will know that it has finished when Workplace Analytics displays a "completed processing" status on the **Setup** page.

@@ -1,7 +1,7 @@
 ---
 
 title: Settings in Workplace Analytics
-description: Describes what settings are available in Workplace Analytics to confirm data sources,  upload data, set system defaults and privacy rules, and other data analysis settings
+description: Describes what settings are available in Workplace Analytics to confirm data sources, upload HR data, set system defaults and privacy rules, and other data analysis settings
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -16,58 +16,56 @@ audience: Admin
 
 # Settings in Workplace Analytics
 
-Depending on the role you're assigned, the following settings are available in Workplace Analytics:
+Depending on the role you're assigned in Workplace Analytics, you can use the following to configure the following settings in Workplace Analytics for your organization:
 
-* [Sources](#sources) – Admins and Analysts use Sources to verify that Office 365 and organizational data is correctly uploaded into Workplace Analytics.
-* [Upload](#upload) – Admins use Upload to prepare and upload organizational and customer data.
+* [Sources](#sources) – Admins and Analysts use these to verify that Office 365 and organizational data is correctly uploaded into Workplace Analytics.
+* [Upload](#upload) – Admins use this to prepare and upload organizational and customer data.
 * [Analysis settings](#analysis-settings) – Analysts use these to customize meeting exclusion rules that help ensure data accuracy.
-* [Admin settings](#admin-settings) – Admins use these to configure [system defaults](admin-settings.md#system-defaults), [privacy settings](admin-settings.md#privacy-settings), and [manager settings](admin-settings.md#manager-settings).
+* [Admin settings](#admin-settings) – Admins use these to configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md).
 
 >[!Note]
 > Access to one or more pages in Settings depends on what role you're assigned in Workplace Analytics. The following describes page access based on role assignment.
 
-| Settings page | Admin | Analyst | Analyst limited |  
+| Settings | Admin | Analyst | Analyst limited |  
 |---|---|---|---|
 | Sources | Full access| Full access | Full access |
 | Upload  | Full access | No access | No access |
 | Analysis settings | No access | Full access | Read only |
 | Admin settings | Full access | No access| No access |
 
-For more details about roles, see [Assign Workplace Analytics roles](https://docs.microsoft.com/workplace-analytics/setup/assign-roles-to-wpa-admins).
+For more details about roles, see [Assign Workplace Analytics roles](../Setup/Assign-roles-to-wpa-admins.md).
 
 ## Sources
 
 * **Owners** – Workplace Analytics Admins, Analysts, and Analyst limiteds have full access to this page
 
-[Data sources](../Use/data-sourcesv2.md) shows what Office 365 data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage.
+Data sources shows what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Data sources](data-sourcesv2.md).
 
 ## Upload
 
-* **Owner** – Workplace Analytics Admins have full access to this page
+* **Owner** – Only Workplace Analytics Admins have full access to this page
 
 In **Settings** > **Upload** > **Organizational data**, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
+Organizational data is contextual information about employees (such as, job title, level, location) from an HR or other information systems. For details on preparing an organizational data file for upload, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+
 ![Upload Organizational data](../images/wpa/use/upload-org-data.png)
-
-### Organizational data
-
-Organizational data is contextual information about employees (for example, job title, level, location) and can come from HR or other information systems. For detailed information on preparing an organizational data file for upload, see [Prepare organizational data](../setup/prepare-organizational-data.md).
 
 ## Analysis settings
 
 * **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access
 
-In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings (such as appointments that are unrelated to work) that you don't want to include in analysis.
+In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings that you don't want to include in analysis, such as appointments that are unrelated to work.
+
+For details on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
 
 ![Analysis settings](../images/wpa/use/analysis-settings.png)
-
-For detailed information on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
 
 ## Admin settings
 
 **Owner** – Workplace Analytics Admins have full access to this page
 
-In **Admin settings**, you can configure [system defaults](admin-settings.md#system-defaults), [privacy settings](admin-settings.md#privacy-settings), and [manager settings](admin-settings.md#manager-settings).
+In **Admin settings**, you can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Admin settings](admin-settings.md.)
 
 ![Admin settings](../images/wpa/use/system-defaults.png)
 

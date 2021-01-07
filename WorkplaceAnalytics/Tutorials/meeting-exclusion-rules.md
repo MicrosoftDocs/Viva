@@ -40,7 +40,7 @@ This section describes how to view existing meeting exclusion rules. The section
 
 You can view existing meeting exclusion rules or create new ones in Analysis settings. The Meeting exclusions page shows all the rules that you or other analysts have created and published, and rules that people have started to define and then saved in draft form.
 
-1. Open [Workplace  Analytics](https://workplaceanalytics.office.com/). If  prompted, enter your work credentials.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
 
 2. In **Settings** > **Analysis settings** > **Meeting exclusions**, select **Active** to list the active rules, which includes the following:
 

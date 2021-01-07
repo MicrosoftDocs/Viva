@@ -17,7 +17,7 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates includes the Join Datasets Template that enables you to securely join, group, and aggregate data exported from Workplace Analytics with other third-party data sources, such as sensitive, personnel data or HR data that you want to combine and analyze. This template enforces the same data privacy settings that you set in Workplace Analytics, such as minimum group size, data exclusions, and other [privacy settings](../use/settings.md#privacy-settings).
+Workplace Analytics Azure Templates includes the Join Datasets Template that enables you to securely join, group, and aggregate data exported from Workplace Analytics with other third-party data sources, such as sensitive, personnel data or HR data that you want to combine and analyze. This template enforces the same data privacy settings that you set in Workplace Analytics, such as minimum group size, data exclusions, and other [settings](../use/settings.md).
 
 Joining datasets opens up unique possibilities, such as correlating engagement survey results or sales quota attainment with Workplace Analytics metrics. This gives you new insights into how work gets done and what drives performance.
 
@@ -138,7 +138,7 @@ You can use this template to create and analyze joined datasets as follows.
 2. Select **Add New Join** at top right of the table.
 3. In **Data Join Settings**, enter a name for the joined dataset, select the external dataset that matches up with the .csv query file and related mapping file.
 4. In **Define Join Fields**, select the Workplace Analytics key column and the third-party external file key column, such as **PersonId** and **PersonnelNbr**, as shown in the following graphic.
-5. In **Time and N Size**, specify the minimum group size for groupings and aggregations. For more information about minimum group sizes, see [Minimum group size](../use/settings.md#minimum-group-size).
+5. In **Time and N Size**, specify the minimum group size for groupings and aggregations. For more information about minimum group sizes, see [Minimum group size](../use/privacy-settings.md#minimum-group-size).
 6. In **Results Time Grain**, you can select a preset option or use the advanced settings option to specify a custom date ranges based on distinct values in your external dataset. The advanced functionality is useful when the date values in your external dataset don’t correspond neatly to the dates of the WPA data you’re interested in, but another key column does have values, such as titles.
 
    * To use the preset time ranges, leave **Advanced Settings Off**, and select how you want the data grouped, by week, month, quarter, or year.
