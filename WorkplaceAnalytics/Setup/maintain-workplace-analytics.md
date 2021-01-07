@@ -21,7 +21,7 @@ After you have installed Workplace Analytics and your organization is using it, 
  * **Task** - Set the default time zone and the default settings for working days and hours.  
  * **Frequency** - As needed to update these settings.
 
-[System defaults in Admin settings](../use/settings.md#system-defaults)
+[System defaults in Admin settings](../use/admin-settings.md#system-defaults)
 
 ## Update privacy settings
 
@@ -33,7 +33,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
  * **Frequency** - As needed. Perform this task after your organization has decided that the current settings are insufficient or inaccurate.
 
-[Privacy settings](../use/settings.md#privacy-settings)
+[Privacy settings](../use/admin-settings.md#privacy-settings)
 
 ## Update organizational data
 
