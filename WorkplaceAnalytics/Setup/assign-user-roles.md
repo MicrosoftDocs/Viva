@@ -82,11 +82,11 @@ People who use Workplace Analytics can work with the product only after they've 
 
    The role you selected appears at the bottom of the **Select Role** section:
 
-    ![Selected role](../images/wpa/setup/selected-role.png)
+   ![Selected role](../images/wpa/setup/selected-role.png)
 
-   The role also appears under **Add Assignment** in the **Select Role** section: 
+   The role also appears under **Add Assignment** in the **Select Role** section:
 
-    ![Added role](../images/wpa/setup/add-assignment-select-53.png)
+   ![Added role](../images/wpa/setup/add-assignment-select-53.png)
 
 > [!Note]
 > To change the role to assign to this user, repeat **Steps 10-11** and select a different role in **Step 11**.
@@ -143,4 +143,4 @@ However, in a larger company where the number of users required for the same rol
 * [User roles](../use/user-roles.md)
 * [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
-* [People manager settings](../use/settings.md#manager-settings)
+* [Manager settings](../use/manager-settings.md)
