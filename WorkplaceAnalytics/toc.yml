@@ -68,7 +68,15 @@
                 - name: Upload CRM data
                   href: ~/setup/crm-data-upload.md
             - name: Admin settings
-              href: ~/use/admin-settings.md
+              items:
+                - name: Introduction
+                  href: ~/Use/admin-settings.md
+                - name: System defaults
+                  href: ~/Use/system-defaults.md
+                - name: Privacy settings
+                  href: ~/Use/privacy-settings.md
+                - name: Manager settings
+                  href: ~/Use/manager-settings.md
             - name: Analysis settings
               items:
                 - name: Introduction to exclusion rules
