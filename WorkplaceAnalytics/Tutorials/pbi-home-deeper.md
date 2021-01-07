@@ -26,41 +26,36 @@ In the following walkthrough, you will perform steps as a business decision make
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If  prompted, enter your work credentials.
 
-    ![Home page](../images/wpa/tutorials/new-home-page.png)
- 
-2. Select the **Boost employee engagement** outcome to see insights about your company. For example: 
+   ![Home page](../images/wpa/tutorials/new-home-page.png)
 
-     **Prevent employee burnout** &ndash; This insight tells you what percentage of employees spend more than five hours per week working after-hours.
- 
-3. You might be concerned about the employee-burnout statistic (too much after-hours work) and you want to learn more. On this card, select **See your insights**:
- 
+2. Select the **Boost employee engagement** outcome to see insights about your company.
+
+3. In **Prevent employee burnout**, you'll see what percentage of employees spend more than five hours per week working after-hours. To learn more about how to help employees disconnect, select **See your insights**:
+
      ![Take action - See insights](../images/wpa/tutorials/burnout-take-action.png)
 
-4. In **Best practices**, select **Explore in Power BI**: 
+4. In **Best practices**, select **Explore in Power BI**:
 
-     ![Best practices - disconnect](../images/wpa/tutorials/best-practices-disconnect.png)
+    ![Best practices - disconnect](../images/wpa/tutorials/best-practices-disconnect.png)
 
-5. Follow the instructions on the **Explore in Power BI** page:
+5. Follow the instructions in **Explore in Power BI**:
 
-     ![Download and connect](../images/wpa/tutorials/explore-in-pbi.png) 
- 
-     a. If you do not already have Power BI installed, select the link to download and install it. 
- 
-     b. Download the data template for this insight. 
- 
-     c. In your web browser or in your Downloads folder, select the downloaded data template file. This opens Power BI.  
- 
-     d. Select **Click here to copy the partition identifier**. After you do, a “Copied” indicator is shown:
+    ![Download and connect](../images/wpa/tutorials/explore-in-pbi.png)
+
+   1. If you do not already have Power BI installed, select the link to download and install it.
+   2. Download the data template for this insight.
+   3. In your web browser or in your Downloads folder, select the downloaded data template file. This opens Power BI.  
+   4. Select **Click here to copy the partition identifier**. After you do, a “Copied” indicator is shown:
   
-     ![Copied](../images/wpa/tutorials/partition-id-copied.png) 
- 
+    ![Copied](../images/wpa/tutorials/partition-id-copied.png) 
+
 6. In Power BI, give the information that’s required to make a connection. In the **Connect to Workplace Analytics Data** dialog box, paste the partition identifier that you copied:
 
-     ![Partition ID prompt](../images/wpa/tutorials/partition-id-prompt.png)
+     [Partition ID prompt](../images/wpa/tutorials/partition-id-prompt.png)
+
+7. Select **OK** to view the Dive Deeper **Home** page in Power BI Desktop:
  
-7. Select **OK**. The Dive deeper **Home** page opens in Power BI Desktop:
- 
-     ![Dive deeper -- wellbeing](../images/wpa/tutorials/dive-deeper-wellbeing.png)
+     ![Dive deeper to improve wellbeing page](../images/wpa/tutorials/dive-deeper-wellbeing.png)
 
    **Best-practice recommendation**: In Power BI Desktop, publish your new visualizations to your workspace.
 
