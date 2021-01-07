@@ -47,7 +47,7 @@ In the following walkthrough, you will perform steps as a business decision make
    3. In your web browser or in your Downloads folder, select the downloaded data template file. This opens Power BI.  
    4. Select **Click here to copy the partition identifier**. After you do, a “Copied” indicator is shown:
   
-    ![Copied](../images/wpa/tutorials/partition-id-copied.png) 
+      ![Copied](../images/wpa/tutorials/partition-id-copied.png) 
 
 6. In Power BI, give the information that’s required to make a connection. In the **Connect to Workplace Analytics Data** dialog box, paste the partition identifier that you copied:
 
@@ -59,7 +59,7 @@ In the following walkthrough, you will perform steps as a business decision make
 
    **Best-practice recommendation**: In Power BI Desktop, publish your new visualizations to your workspace.
 
-   ![Select publish destination](../images/wpa/tutorials/publish-to-pbi-workspace.png)
+    ![Select publish destination](../images/wpa/tutorials/publish-to-pbi-workspace.png)
  
    After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/en-us/). We make this recommendation because the experience of viewing information such as this is optimized for Power BI Online. For more information, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files). 
 
