@@ -65,7 +65,7 @@ For details on how to create new exclusion rules, see [Meeting exclusion rules: 
 
 **Owner** – Workplace Analytics Admins have full access to this page
 
-In **Admin settings**, you can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Admin settings](admin-settings.md.)
+In **Admin settings**, you can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Admin settings](admin-settings.md).
 
 ![Admin settings](../images/wpa/use/system-defaults.png)
 
