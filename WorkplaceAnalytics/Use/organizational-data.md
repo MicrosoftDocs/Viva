@@ -22,7 +22,7 @@ As either an admin or an analyst, you can use this page to understand the data q
 
 ![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
 
-Organizational data includes the following.
+Organizational data includes the following:
 
 * **Page settings** (Settings and filters) - Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month) and which employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Attributes** - These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
@@ -39,7 +39,7 @@ Organizational data includes the following.
 
 ![View Organizational data attributes for Region](../images/wpa/Use/org-data-attributes.png)
 
-This page includes the following.
+Attribute details includes the following:
 
 * **Page settings** (Settings and filters) - Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month), the date range, and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Coverage for** - Shows a chart with the coverage of the selected attribute at different moments in time. This historical data gives insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. Select a bar in the chart to see the details for that date in the table.
@@ -50,7 +50,7 @@ This page includes the following.
 >[!Note]
 > Next to **Attribute details**, you can select a different attribute to change the focus of the details to it. Also, only the first 500 values are shown in this page's table. If the selected attribute has more than 500 values, you can select **Download CSV** to view the complete list of attribute values and details for those with more than 500 values in the downloaded .csv file.
 
-For more information about what data is needed for metric calculations, see:
+For more details about what data is needed for metric calculations, see:
 
 * [Prepare organizational data](../setup/Prepare-organizational-data.md)
 * [Metric definitions](../Use/Metric-definitions.md)

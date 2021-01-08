@@ -18,9 +18,11 @@ audience: Admin
 
 As a [Workplace Analytics Admin](settings.md), you can use **Admin settings** to configure the following.
 
-* **System defaults** - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Workplace Analytics. For details, see [System defaults](system-defaults.md).
-* **Privacy settings** - Specify what data is excluded from analysis and what data is visible in Queries and in Explore the stats. For details, see [Privacy settings](privacy-settings.md).
-* **Manager settings** - Enable all or specific people managers to see team insights in Workplace Analytics. For details, see [Manager settings](manager-settings.md).
+* [**System defaults**](system-defaults.md) - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Workplace Analytics.
+
+* [**Privacy settings**](privacy-settings.md) - Specify what data is excluded from analysis and what data is visible in Queries and in Explore the stats.
+
+* [**Manager settings**](manager-settings.md) - Enable all or specific people managers to see team insights in Workplace Analytics. 
 
 ![Admin settings](../images/wpa/use/system-defaults.png)
 
