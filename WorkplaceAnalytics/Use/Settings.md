@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Settings in Workplace Analytics
+# Settings
 
 Depending on the role you're assigned in Workplace Analytics, you can use the following to configure the following settings in Workplace Analytics for your organization:
 
@@ -37,13 +37,13 @@ For more details about roles, see [Assign Workplace Analytics roles](../Setup/As
 
 ## Sources
 
-* **Owners** – Workplace Analytics Admins, Analysts, and Analyst limiteds have full access to this page
+**Owners** – Workplace Analytics Admins, Analysts, and Analyst limiteds have full access to this page
 
 Data sources shows what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Data sources](data-sourcesv2.md).
 
 ## Upload
 
-* **Owner** – Only Workplace Analytics Admins have full access to this page
+**Owner** – Only Workplace Analytics Admins have full access to this page
 
 In **Settings** > **Upload** > **Organizational data**, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
 
@@ -53,7 +53,7 @@ Organizational data is contextual information about employees (such as, job titl
 
 ## Analysis settings
 
-* **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access
+**Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access
 
 In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings that you don't want to include in analysis, such as appointments that are unrelated to work.
 
