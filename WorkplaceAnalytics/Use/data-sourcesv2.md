@@ -16,13 +16,15 @@ audience: Admin
 
 # Sources
 
-**Owners** – Workplace Analytics Admins, Analysts, and Analyst limiteds have full access to **Sources**. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
-
 **Sources** shows high-level views for Workplace Analytics administrators and data analysts to confirm that your Office 365 and organizational data is uploaded and ready to use. When you upload and process CRM data in Workplace Analytics, you'll also see a page for your CRM data.
 
 * [Office 365 data](office-365-data.md) - Shows the latest Office 365 data that's been uploaded and processed in Workplace Analytics.
+
 * [Organizational data](organizational-data.md) - Shows information about employees that your company provides to Workplace Analytics through uploads of organizational (HR) data.
+
 * [CRM data](crm-data.md) - Shows a high-level view of the latest available CRM data that you uploaded and was successfully processed in Workplace Analytics.
+
+**Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to **Sources**. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 ![Sources](../images/WpA/Use/sources-o365.png)
 
