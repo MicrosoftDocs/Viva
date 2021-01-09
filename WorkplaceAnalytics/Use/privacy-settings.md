@@ -16,14 +16,16 @@ audience: Admin
 
 # Privacy settings
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+As the Workplace Analytics Admin, you use **Privacy settings** to decide what data your organization wants to exclude from analysis and what data can be visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. 
 
-In **Settings** > **Admin settings** > **Privacy**, you can decide what data you want to exclude from analysis and what data you want visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private. You can use privacy settings to:
+You can use privacy settings to:
 
 * [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
 * [Exclude domains or email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
+
+**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 ![Admin privacy settings](../images/wpa/use/privacy-settings.png)
 

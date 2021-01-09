@@ -16,8 +16,6 @@ audience: Admin
 
 # System defaults
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
-
 In **System defaults**, you can configure the following:
 
 * [Default time zone](#default-time-zone)
@@ -27,6 +25,8 @@ In **System defaults**, you can configure the following:
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
+
+**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 ![Admin settings](../images/wpa/use/system-defaults.png)
 

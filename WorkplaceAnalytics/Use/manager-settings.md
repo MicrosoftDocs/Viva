@@ -17,14 +17,14 @@ audience: Admin
 
 # Manager settings
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
-
 As the Workplace Analytics Admin, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregate collaboration insights about their team and the ability to start plans for their team in Workplace Analytics. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics. The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
 
 The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
 
 * **Measured managers** - Total number of people managers who are assigned licenses in Workplace Analytics.
 * **Managers enabled** - Total number of people managers who meet the minimum team size and have access to their team's insights and plans in Workplace Analytics.
+
+**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 ![Manager settings](../images/wpa/use/manager-settings.png)
 

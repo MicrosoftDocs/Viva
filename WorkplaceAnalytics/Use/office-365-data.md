@@ -18,7 +18,9 @@ audience: Admin
 
 As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-The following data is shown in **Sources** > **Office 365 data**:
+![Sources](../images/WpA/Use/sources-365.png)
+
+**Office 365 data** includes the following:
 
 * **Measured employees** - The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignments, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
 

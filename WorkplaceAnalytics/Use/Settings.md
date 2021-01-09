@@ -16,14 +16,11 @@ audience: Admin
 
 # Settings
 
-Depending on the role you're assigned in Workplace Analytics, you can use the following to configure the following settings in Workplace Analytics for your organization:
+Depending on the role you're assigned in Workplace Analytics, you can use the following to configure settings in Workplace Analytics for your organization:
 
 * [Sources](#sources) – Admins and Analysts use these to verify that Office 365 and organizational data is correctly uploaded into Workplace Analytics.
-
 * [Upload](#upload) – Admins use this to prepare and upload organizational and customer data.
-
 * [Admin settings](#admin-settings) – Admins use these to configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md).
-
 * [Analysis settings](#analysis-settings) – Analysts use these to customize meeting exclusion rules that help ensure data accuracy.
 
 >[!Note]
@@ -42,7 +39,7 @@ For more details about roles, see [Assign Workplace Analytics roles](../Setup/As
 
 **Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to this page
 
-Data sources shows what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Data sources](data-sourcesv2.md).
+Data sources shows what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Sources](data-sourcesv2.md).
 
 ## Upload
 
@@ -66,7 +63,7 @@ In **Admin settings**, you can configure [system defaults](system-defaults.md), 
 
 **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access
 
-In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings that you don't want to include in analysis, such as appointments that are unrelated to work.
+In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings that you to exclude from analysis, such as appointments that are unrelated to work.
 
 For details on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
 

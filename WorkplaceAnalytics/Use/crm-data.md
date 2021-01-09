@@ -62,11 +62,11 @@ You can select one of the data titles, such as accounts or contacts, to view a l
 
 Similar to the Organizational data page, the CRM data attributes list includes the following.
 
-* **Data upload date**: Shows when the data was last uploaded and processed, which is at the top of the list.
-* **Attribute**: Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
-* **Employees with this attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
-* **Coverage**: Shows the percentage of attributes that have non-blank values. For example, in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the **AccountAnnualRevenue** attribute.
-* **Unique values**: The count of the unique attribute values included in the data.
+* **Data upload date** - Shows when the data was last uploaded and processed, which is at the top of the list.
+* **Attribute** - Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
+* **Employees with this attribute** - Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
+* **Coverage** - Shows the percentage of attributes that have non-blank values. For example, in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the **AccountAnnualRevenue** attribute.
+* **Unique values** - The count of the unique attribute values included in the data.
 
 ![View CRM attributes for accounts](../images/wpa/Use/crm-account-attributes.png)
 
@@ -104,9 +104,9 @@ The **Account details** page includes the following.
 
   ![View details for CRM account collaboration coverage](../images/wpa/Use/crm-account-collab-details.png)
 
-### Download data set
+### Download dataset
 
-The **Account collaboration by domain** table can list up to a maximum of 500 CRM accounts. To view the complete data set for accounts larger than 500, you can view all the accounts in the downloaded .csv file. You have the following options when you download the accounts data set: 
+The **Account collaboration by domain** table can list up to a maximum of 500 CRM accounts. To view the complete dataset for accounts larger than 500, you can view all the accounts in the downloaded .csv file. You have the following options when you download the accounts dataset:
 
   ![CRM account collaboration details download](../images/wpa/Use/crm-download.png)
 
