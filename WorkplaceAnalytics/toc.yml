@@ -58,15 +58,15 @@
             - name: Upload
               items:
                 - name: Prepare organizational data
-                  href: ~/setup/prepare-organizational-data.md
+                  href: ~/Setup/prepare-organizational-data.md
                 - name: Upload organizational data
                   items: 
-                - name: First upload
-                  href: ~/setup/upload-organizational-data-1st.md 
-                - name: Subsequent uploads
-                  href: ~/setup/upload-organizational-data.md 
-                - name: Upload CRM data
-                  href: ~/setup/crm-data-upload.md
+                    - name: First upload
+                      href: ~/Setup/upload-organizational-data-1st.md 
+                    - name: Subsequent uploads
+                      href: ~/Setup/Upload-organizational-data.md 
+                    - name: Upload CRM data
+                      href: ~/Setup/crm-data-upload.md
             - name: Admin settings
               items:
                 - name: Introduction
