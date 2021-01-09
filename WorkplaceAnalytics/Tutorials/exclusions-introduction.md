@@ -28,7 +28,7 @@ You can exclude events with one of the following exclusion types:
 
 ![Analysis settings in Workplace Analytics](../images/WpA/Tutorials/analysis-settings.png)
 
-# Related topics
+## Related topics
 
 * [Settings](../Use/settings.md)
 * [Sources](../Use/data-sourcesv2.md)

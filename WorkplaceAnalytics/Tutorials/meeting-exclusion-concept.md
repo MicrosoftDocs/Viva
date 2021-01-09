@@ -61,12 +61,12 @@ This section has the following informative areas:
 
 ## Customization working area
 
-Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. (The _cancelled meetings_ exclusion type cannot be customized, but you can choose not to use the exclusion in your rule.)
+Below the **Summary of meetings that remain**, you can customize four of the five exclusion types: appointments, large meetings, long meetings, and meetings by topic. The _cancelled meetings_ exclusion type cannot be customized, but you can choose not to use the exclusion in your rule.
 
-You make the following types of customizations:
+You can make the following types of customizations:
 
-* You can change the default filter value for any step that has a numerical filter. For more information, see [Walkthrough: add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough----add-a-meeting-exclusion-rule).
-* You can choose which keywords and topics that you would like to exclude from analysis. For more information, see [Walkthrough: add a meeting exclusion rule](meeting-exclusion-rules.md#walkthrough----add-a-meeting-exclusion-rule). 
+* You can change the default filter value for any step that has a numerical filter. 
+* You can choose which keywords and topics that you would like to exclude from analysis. For details, see [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-meeting-exclusion-rules). 
 * You can create [exceptions to an exclusion](#make-an-exception-to-an-exclusion).
 * For these customizations, you can use keywords and topics in the following [list of languages](#supported-languages).
 
