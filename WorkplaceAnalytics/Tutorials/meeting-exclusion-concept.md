@@ -65,10 +65,10 @@ Below the **Summary of meetings that remain**, you can customize four of the fiv
 
 You can make the following types of customizations:
 
-* You can change the default filter value for any step that has a numerical filter. 
-* You can choose which keywords and topics that you would like to exclude from analysis. For details, see [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-meeting-exclusion-rules). 
-* You can create [exceptions to an exclusion](#make-an-exception-to-an-exclusion).
-* For these customizations, you can use keywords and topics in the following [list of languages](#supported-languages).
+* Change the default filter value for any step that has a numerical filter.
+* Choose which keywords and topics that you would like to exclude from analysis. For details, see [Create a meeting exclusion rule](meeting-exclusion-rules.md#create-a-meeting-exclusion-rule).
+* Create [exceptions to an exclusion](#make-an-exception-to-an-exclusion).
+* Use keywords and topics in the following [list of languages](#supported-languages).
 
 ### Make an exception to an exclusion
 
