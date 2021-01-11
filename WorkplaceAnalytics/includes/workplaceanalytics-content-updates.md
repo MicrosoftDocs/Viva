@@ -2,6 +2,23 @@
 
 
 
+## Week of January 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/5/2021 | [Workplace Analytics Data export](/Workplace-Analytics/data-access/data-access) | modified |
+| 1/5/2021 | [Automate query data export to Azure with Azure Data Factory UI](/Workplace-Analytics/data-access/query-data-export) | modified |
+| 1/5/2021 | [Configure Workplace Analytics system settings](/Workplace-Analytics/setup/configure-wpa-settings) | modified |
+| 1/5/2021 | [Upload organizational data to Workplace Analytics (subsequent uploads)](/Workplace-Analytics/setup/upload-organizational-data) | modified |
+| 1/5/2021 | [Meeting exclusion rules concepts](/Workplace-Analytics/tutorials/meeting-exclusion-concept) | modified |
+| 1/5/2021 | [Meeting exclusion rules in Workplace Analytics -- walkthroughs](/Workplace-Analytics/tutorials/meeting-exclusion-rules) | modified |
+| 1/5/2021 | [Meeting exclusion rules in Workplace Analytics -- Introduction](/Workplace-Analytics/tutorials/meeting-exclusions-intro) | modified |
+| 1/5/2021 | [Configure settings for Workplace Analytics](/Workplace-Analytics/use/settings) | modified |
+| 1/6/2021 | [Workspace Planning Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/space-planning) | modified |
+| 1/7/2021 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
+
+
 ## Week of December 21, 2020
 
 
@@ -87,32 +104,3 @@
 | 12/15/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
 | 12/17/2020 | [Focus plan](/Workplace-Analytics/myanalytics/use/focus-plan) | modified |
 | 12/18/2020 | [Meeting exclusion rules concepts](/Workplace-Analytics/tutorials/meeting-exclusion-concept) | modified |
-
-
-## Week of November 30, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/30/2020 | [Data-protection considerations when using Workplace Analytics](/Workplace-Analytics/privacy/data-protection-considerations) | modified |
-| 11/30/2020 | [Introduction to assigning licenses for Workplace Analytics users](/Workplace-Analytics/setup/assign-licenses-to-population) | modified |
-| 12/3/2020 | [Explore management and coaching metrics in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-management-and-coaching) | modified |
-| 12/3/2020 | [Opportunities scan in Workplace Analytics](/Workplace-Analytics/use/solutions-scan) | modified |
-| 12/3/2020 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
-| 12/4/2020 | [Teams insights app](/Workplace-Analytics/myanalytics/use/teams-app) | added |
-| 12/4/2020 | [Teams insights app](/Workplace-Analytics/myanalytics/use/teams-app) | modified |
-| 12/4/2020 | [MyAnalytics privacy guide](/Workplace-Analytics/myanalytics/overview/privacy-guide) | modified |
-| 12/4/2020 | [Leadership insights dashboard](/Workplace-Analytics/myanalytics/use/leadership) | modified |
-| 12/4/2020 | [Influence insights dashboard](/Workplace-Analytics/tutorials/pbi-influence-db) | modified |
-| 12/4/2020 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
-| 12/4/2020 | [Configure settings for Workplace Analytics](/Workplace-Analytics/use/settings) | modified |
-| 12/4/2020 | [Use Insights](/Workplace-Analytics/myanalytics/use/use-the-insights) | modified |
-
-
-## Week of November 23, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/23/2020 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
-| 11/23/2020 | [Insights Outlook add-in](/Workplace-Analytics/myanalytics/use/add-in) | modified |
