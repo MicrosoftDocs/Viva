@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-* **Analyst** - Has full access to all service features except two pages (**Upload** and **Admin settings**) that are meant only for admins. The **Analyst** role provides analysts with the most complete access to data.
+* **Analyst** - Has full access to all service features except two pages (**Upload** and **Admin settings**) that are meant only for admins. The **Analyst** role provides analysts with the most complete access to data. This includes the ability to launch, manage, and track plans.
 
 * **Analyst (Limited Access)** - Same access as for those in the **Analyst** role but with the following restrictions:
    * No access to **Queries**.
