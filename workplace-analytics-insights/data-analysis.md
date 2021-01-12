@@ -23,7 +23,7 @@ Insights does not encode any specific policy, instead it provides controls that 
 
 ## Who sees Insights
 
-Organizations decide who gets access to Insights. You ensure who receives suitable training in privacy, and in your company’s policies and other applicable subject areas, before granting them access to the data in Insights.
+Your organization decides who gets access to Insights. You ensure that employees receive suitable training in privacy, and in your company’s policies and other applicable subject areas, before granting them access to the data in Insights.
 
 ## Organizational data from Microsoft Azure
 
@@ -31,9 +31,9 @@ Organizational data is contextual information about your employees (for example:
 
 ## Collaboration data from Microsoft 365
 
-Insights combines the organizational data in ADD with Microsoft 365 metadata to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom.
+Insights combines the organizational data in ADD with Microsoft 365 metadata to compute how much time groups of employees within your organization spend in meetings, emails, calls, and chats, and with whom.
 
-This Microsoft 365 metadata provides the foundation for the analysis in Insights. The analysis uses the following information about items in user mailboxes and calendars.
+This Microsoft 365 metadata provides the foundation for the analysis in Insights. The analysis uses the following information about items in employee mailboxes and calendars.
 
  | Item | Originator | Recipient | Subject | Chronology | Status | Venue |
  | ---- | ---- | ---- | ---- | ---- | ---- | ---- |

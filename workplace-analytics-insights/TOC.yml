@@ -2,7 +2,7 @@
   href: ./intro.md
 - name: Data privacy
   items:
-    - name: Privacy overview
+    - name: Overview
       href: ./privacy.md
     - name: Data access and analysis
       href: ./data-analysis.md      
