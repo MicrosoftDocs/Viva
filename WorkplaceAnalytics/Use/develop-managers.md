@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Develop effective managers with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and develop effective managers in your organization
 author: madehmer
@@ -10,8 +9,6 @@ ms.prod: wpa
 ---
 
 # Develop effective managers
-
-*This experience is only available through private preview at this time.*
 
 Managers have a large impact on employee engagement, development and performance, and are pivotal for driving organizational change. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -28,8 +25,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Optimize meeting hours |Percentage of your managers' meetings that are structured around decision making |[Long and large meetings](glossary.md#large-meeting-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of managers who spend over 50 percent of meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the entire time period. |
 |Prevent burnout |Percentage of managers who are working after hours for more than one hour each week |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) |The percentage of managers who spend more than one hour collaborating through email, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Strengthen management pipeline |Percentage of employees who have the potential for managerial roles |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Employees who are currently in non-managerial roles with influence scores greater than or within 10 percent of their immediate manager’s influence score. |
-|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four for the weekly average. |
-|Empower employees |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with the manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of employees who spend over 50 percent of their meeting hours with their manager in attendance. This percentage is calculated weekly and averaged over the entire time period. |
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four for the weekly average. |
+|Empower employees |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of employees who spend over 50 percent of their meeting hours with their manager in attendance. This percentage is calculated weekly and averaged over the entire time period. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -45,11 +42,12 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Take action
 
-You can select **Take action** to see ways you can develop effective managers in your organization. The following are available in addition to the recommendations within Take action.
+You can select **Take action** to see ways you can develop effective managers in your organization. Depending on your role, the following are available in addition to the recommendations within Take action.
 
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices, which are based on your organizational data and industry research.
-* **Explore**  – Depending on your role, [Explore the stats](explore-intro.md) or [Explore in Power BI](../tutorials/power-bi-intro.md) links you to Explore or Power BI reports for more advanced analysis, including more detailed charts and reports.
-* **Plans** - As a business leader or a program manager, you can use this link to create and track [Plans](../Tutorials/solutionsv2-intro.md) for your organization.
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
+* **Explore the stats** – Depending on the recommendation, this links to data about [Management and coaching](explore-metrics-management-and-coaching.md) or [Teamwork](../tutorials/teamwork-solution.md).
+* **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
+* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
 ## Best practices
 

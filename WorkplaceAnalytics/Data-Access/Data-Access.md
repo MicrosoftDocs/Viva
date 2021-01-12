@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 search.appverid:
 - MET150
@@ -47,9 +47,9 @@ The following .csv files are included in data exports. Select a file to view wha
 1. If you have already installed Azure Templates, use the SAS URI created after deployment which grants write only access to the raw data folder that was setup during deployment and use that URI in the following step 3.
 
    If you have not installed Azure Templates, or if you're setting up data access for other reasons, set up your Azure storage container as described in [Azure environment requirements](#azure-environment-requirements) and [Azure storage container setup](#azure-storage-container-setup). Confirm the URI is write only and has an applicable expiration date.
-2. In Workplace Analytics, go to **Settings** > **Data export**.
+2. In Workplace Analytics, go to **Settings** > **Admin settings** > **Data export**.
 3. In **Azure storage container SAS URI**, enter the URI for the Azure storage container.
-4. In the **Field privacy** section, you can select which fields to include and which fields to mask in the export. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
+4. In the **Field privacy** section, select which fields to export as raw values and as hashed values. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
 
    > [!Note]
    > When you add new attributes to your organizational data and you want to include them in a data export, you must repeat this step to add the new attributes as additional fields to include in the export.
@@ -70,14 +70,14 @@ Before you can export Workplace Analytics data, you need to confirm or do the fo
 
 * You can manually create an Azure storage container and associated resources by using the [Azure Portal](https://portal.azure.com) and the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
 
-* Or you can automate the creation of the Azure storage environment and generate the SAS URI for the container by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
+* Or you can automate the creation of the Azure storage environment and generate the SAS URI for the container by using [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli) or [Azure PowerShell](https://docs.microsoft.com/azure/storage/common/storage-powershell-guide-full).
 
-> [!Important]
+>[!Important]
 >If you are using this storage for Workplace Analytics Azure Templates, use the SAS URI that you generated in [Generate SAS URI for data export](../azure-templates/deploy-configure.md#generate-sas-uri-for-data-export).
 
 #### Example script
 
-The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) to create the container and the SAS URI.
+The following example script uses [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli) to create the container and the SAS URI.
 
 > [!Note]
 > * The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
