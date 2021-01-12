@@ -69,6 +69,15 @@ To customize Workplace Analytics [queries](../tutorials/query-basics.md), you us
 <!-- Still need in this table: MeetingResources  -->
 
 
+### Filters for participants
+
+The following filters describe customizations for a Participant regardless of the participant's activity; it can be email, IMs, calls, or meetings. Other participant filters exist; they include organizational data attributes and CRM attributes.
+
+| Filter &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | Description |
+| ------ | ----------- |
+| Is Manager Present   | A Boolean that indicates that the participant is the direct manager of the measured user. | 
+| Is Direct Report Present  | Indicates that the participant is the direct report of the measured user. | 
+
 
 ## To apply a metric filter
 
