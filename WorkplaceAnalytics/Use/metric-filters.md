@@ -71,7 +71,7 @@ To customize Workplace Analytics [queries](../tutorials/query-basics.md), you us
 
 ### Filters for participants
 
-The following filters describe customizations for a Participant regardless of the participant's activity; it can be email, IMs, calls, or meetings. Other participant filters exist; they include organizational data attributes and CRM attributes.
+The following filters describe customizations for participants in collaboration activities &ndash; that is, email, IMs, calls, or meetings. Other participant filters exist; they include organizational-data attributes and CRM attributes.
 
 | Filter &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | Description |
 | ------ | ----------- |
