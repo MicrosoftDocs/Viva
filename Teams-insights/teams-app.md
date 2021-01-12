@@ -38,7 +38,7 @@ When data is processed in the Teams Insights app, Microsoft protects employee pr
 The insights and actions in the Insights app are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process. 
 
 > [!Note] 
-> To have access to the full functionality of the Insights app, you need a [MyAnalytics](https://myanalytics.microsoft.com/) license.
+> To have access to the Insights app, you will need an Exchange Online license. 
 
 ### GDPR compliance 
 
