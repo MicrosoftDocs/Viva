@@ -116,6 +116,8 @@ During the number of days shown (in the screenshot, three days) MyAnalytics has 
 
 ## To leave or change your focus plan
 
+_**Applies to:** The new Focus Plan Settings page (which is described in this section) is currently in preview status. It is in the process of rolling out to all MyAnalytics users.
+
 You can opt in and opt out of the focus plan as many times as you want. 
 
 * Select **Plan configuration**:
