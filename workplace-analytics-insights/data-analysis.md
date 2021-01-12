@@ -21,15 +21,15 @@ Insights does not encode any specific policy, instead it provides controls that 
 >[!Important]
 > Consult with your legal and human resources teams before enabling Insights for your organization.
 
-## Who sees Insights
+## Who sees the data
 
 Your organization decides who gets access to Insights. You ensure that employees receive suitable training in privacy, and in your company’s policies and other applicable subject areas, before granting them access to the data in Insights.
 
-## Organizational data from Microsoft Azure
+## Organizational data
 
 Organizational data is contextual information about your employees (for example: job title, level, location) that comes from information your organization provided in Microsoft Azure Active Directory (AAD).
 
-## Collaboration data from Microsoft 365
+## Collaboration data
 
 Insights combines the organizational data in ADD with Microsoft 365 metadata to compute how much time groups of employees within your organization spend in meetings, emails, calls, and chats, and with whom.
 
