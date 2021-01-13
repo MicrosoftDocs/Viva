@@ -39,7 +39,7 @@ For more details about roles, see [Assign Workplace Analytics roles](../Setup/As
 
 **Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to Sources
 
-Data sources shows what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Sources](data-sourcesv2.md).
+In **Sources**, you can see what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Sources](data-sourcesv2.md).
 
 ## Upload
 
