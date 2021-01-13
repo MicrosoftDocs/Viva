@@ -37,23 +37,25 @@ For more details about roles, see [Assign Workplace Analytics roles](../Setup/As
 
 ## Sources
 
-**Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to this page
+**Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to Sources
 
 Data sources shows what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Sources](data-sourcesv2.md).
 
 ## Upload
 
-**Owner** – Only Workplace Analytics Admins have full access to this page
+**Owner** – Only Workplace Analytics Admins have full access to Upload
 
-In **Settings** > **Upload** > **Organizational data**, you can upload an organizational data file to Workplace Analytics. This file must be in .csv format, UTF-8 encoded.
+In **Upload**, admins can upload the following types of data files in .csv format, UTF-8 encoded:
 
-Organizational data is contextual information about employees (such as, job title, level, location) from an HR or other information systems. For details on preparing an organizational data file for upload, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+* **Organizational data** - Contextual information about employees (such as, job title, level, location) from an HR or other information systems that admins upload as a data file into Workplace Analytics. For details on preparing this upload file, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+
+* **CRM data** - Customer relationship management data from Microsoft Dynamics or Salesforce, which typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries. For details, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
 
 ![Upload Organizational data](../images/wpa/use/upload-org-data.png)
 
 ## Admin settings
 
-**Owner** – Workplace Analytics Admins have full access to this page
+**Owner** – Workplace Analytics Admins have full access to these settings
 
 In **Admin settings**, you can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Admin settings](admin-settings.md).
 
@@ -61,7 +63,7 @@ In **Admin settings**, you can configure [system defaults](system-defaults.md), 
 
 ## Analysis settings
 
-**Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access
+**Owners** – Workplace Analytics Analysts have full access and limited Analysts have read-only access to these settings
 
 In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings that you to exclude from analysis, such as appointments that are unrelated to work.
 

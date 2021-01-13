@@ -79,7 +79,7 @@
                   href: ~/Use/manager-settings.md
             - name: Analysis settings
               items:
-                - name: Introduction to exclusion rules
+                - name: Introduction
                   href: ~/tutorials/exclusions-introduction.md
                 - name: Meeting exclusions
                   items:
