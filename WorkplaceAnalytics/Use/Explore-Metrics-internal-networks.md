@@ -15,6 +15,10 @@ ms.prod: wpa
 
 ![Networks and collaboration](../images/wpa/use/explore-internal-network.png)
 
+## Access to Internal networks
+
+**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then select **Improve agility** > **Increase information sharing** > **See your insights** > **Explore the stats**.
+
 ## Network size and network breadth
 
 **Network size and network breadth** help illustrate whether employees are connected to a variety of other people, or whether they work in a more insular way, siloed within their immediate work group. A person's network health is also a key indicator of engagement.

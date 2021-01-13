@@ -15,6 +15,10 @@ ms.prod: wpa
 
 ![Meetings overview](../images/wpa/use/meetings-overview.png)
 
+## Access to Meetings overview
+
+**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then select **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**.
+
 ## Low-quality meeting hours
 
 The low-quality meeting hours overview summarizes the number of low-quality meeting hours for the organization and shows the percentage of meetings with any of the three components of low-quality meetings.

@@ -15,6 +15,10 @@ ms.prod: wpa
 
 ![Management and coaching](../images/wpa/use/management-coaching.png)
 
+## Access to Management and coaching
+
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then select **Enhance organizational resiliency** > **Increase frequency of coaching** > **See your insights** > **Explore the stats**.
+
 ## Time with manager
 
 The **Time with manager** histogram compares how much time employees spend in meetings with their manager on average each week.
