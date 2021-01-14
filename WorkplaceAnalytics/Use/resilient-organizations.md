@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Enhance organizational resiliency
 
-*This experience is only available through private preview at this time.*
-
 Resilience depends on having the right insights, systems, and tools to respond to sudden changes, recover from disruption, and reimagine the future for your organization. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Enhance organizational resiliency page](../images/wpa/use/resilient.png)
@@ -37,7 +35,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Protect employee wellbeing | Distribution of weekly after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
-|Practice empathy | Distribution of montly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+|Practice empathy | Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
 |Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
 |Accelerate decision making| Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and 10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
 

@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Accelerate change
 
-*This experience is only available through private preview at this time.*
-
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
 Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
@@ -31,7 +29,7 @@ The visual behavioral insight for **Engage influencers** is **Reach of influence
 
 ## Take action
 
-You can select **Take action** to see ways you can drive accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **Take action** to see ways you can accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
 * **Explore the stats** – Links to data about [Internal networks](explore-metrics-internal-networks.md).

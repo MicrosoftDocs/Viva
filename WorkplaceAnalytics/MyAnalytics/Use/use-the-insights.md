@@ -35,9 +35,9 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
 ### To use this insight
 
-1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings.
+1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) and it helps you evaluate the state of those meetings.
 
-    ![Prepare for your meetings](../../images/mya/use/prepare-for-your-meetings.png)
+    ![Prepare for your meetings](../../images/mya/use/prep-for-your-meetings-70.png)
 
 2.	Select **Prepare for your meetings** to see an insight for each of your upcoming meetings.
       

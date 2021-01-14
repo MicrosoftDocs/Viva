@@ -18,7 +18,7 @@ audience: Admin
 
 This article presents the steps that administrators take to upload (import) organizational data to Workplace Analytics. Complete these steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
-  > [!Important] 
+  > [!Important]
   > Follow the steps in this section if this is **not** the first time that you have uploaded organizational data to Workplace Analytics. If this **is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
 
 ## Import tasks
@@ -149,14 +149,14 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
    > [!Note]
    > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
 
-2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if "StartDate" is important and your data contains this field, map it.
+2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
     <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
-    a. Under **Source column** (the first column in the table), select the down arrow to see the list of column names that were found in the data file. From the list, select the correct column name for the data. In this example, you'd select <b>StartDate</b>.
-    
-    b. Set values for the other columns in the table, such as the data type, the validity threshold, and the hash setting for reports.
-     
+    a. Under **Source column** (the first column in the table), select the down arrow to see the list of column names that were found in the data file. From the list, select the column name for the data. In this example, you'd select the source column for **Region**.
+
+    b. Set values for the other columns in the table, such as the validity threshold and report options.
+
     c. Repeat these steps for all optional and custom fields that are important to your organization.
 
 3. In the **Submit for validation** area, select **I confirm that these mappings are correct**, and then select **Submit**. This uploads the data file and starts the validation process.
@@ -167,7 +167,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 > If expected columns are missing, Workplace Analytics shows a warning message that reads "
 -->
 
-4. After you select **Submit**, two circumstances could trigger a warning message: 
+4. After you select **Submit**, two circumstances could trigger a warning message:
 
    * **Omitted columns.** If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns that are present in the existing organizational-data schema, and (c) at least one auto-refresh query depends on those (omitted) columns.
    
@@ -213,26 +213,26 @@ If validation succeeds, the **Upload** page will indicate it and show the size o
  
 <img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
 
-You can select **Settings** > **Organizational data** **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
+You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
-On this page, you have the following options:
+You can do the following for an upload:
 
  * Select the **View** (eye) icon to see a summary of the validation results.
  * Select the **Mapping** icon to see the mapping settings for the workflow.
- * Select the **Validation** (download) icon to see a list of validation warnings.
+ * Select the **Download log** icon to see the log.
 
 > [!Note]
 > Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page.
 
 ## Validation fails
 
-If data validation fails, the **Data load** page shows a "failed" notification. It also shows details about the validation attempt and presents you with options:
+If data validation fails, the **Validation** page shows a "Validation failed" notification. It also shows details about the validation attempt and presents you with options:
 
 <img src="../images/wpa/setup/upload9-val-failed-upload-flow.png" alt="Validation failed">
 
 After a failed validation, it's best to first gain an understanding of the errors by scanning the error summary table. You can also select **Download issues** to examine the error log.
 
-This information about the errors helps you decide which path to choose next &mdash; whether to fix the source data, change your mapping settings, or abandon the current upload. The following section describes these options: 
+This information about the errors helps you decide which path to choose next &mdash; whether to fix the source data, change the mapping, or abandon the current upload. The following describes these options:
 
 ### Options upon failed validation
 
@@ -240,7 +240,7 @@ This information about the errors helps you decide which path to choose next &md
 
 ### Addition of a new data column
 
-Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, LevelDesignation, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new "EngagementScore" data column, remember to reupload all five of the minimum required fields along with the new field. 
+Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, LevelDesignation, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new "EngagementScore" data column, remember to reupload all five of the minimum required fields along with the new field.
 
 ### Set Validity threshold for custom fields
 
@@ -255,5 +255,3 @@ For example, you might include a "SupervisorIndicator" attribute. At first, you 
 #### Set a lower value
 
 The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10% of the company. This number doesn't apply to engineers or program managers, but it is critical for high-performers in sales.  
-
-

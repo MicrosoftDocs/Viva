@@ -10,8 +10,6 @@ ms.prod: wpa
 
 # Develop effective managers
 
-*This experience is only available through private preview at this time.*
-
 Managers have a large impact on employee engagement, development and performance, and are pivotal for driving organizational change. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Develop effective managers page](../images/wpa/use/develop-managers.png)
@@ -27,8 +25,8 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Optimize meeting hours |Percentage of your managers' meetings that are structured around decision making |[Long and large meetings](glossary.md#large-meeting-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of managers who spend over 50 percent of meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. The percentages are calculated weekly and averaged for the entire time period. |
 |Prevent burnout |Percentage of managers who are working after hours for more than one hour each week |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) |The percentage of managers who spend more than one hour collaborating through email, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Strengthen management pipeline |Percentage of employees who have the potential for managerial roles |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Employees who are currently in non-managerial roles with influence scores greater than or within 10 percent of their immediate manager’s influence score. |
-|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four for the weekly average. |
-|Empower employees |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with the manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of employees who spend over 50 percent of their meeting hours with their manager in attendance. This percentage is calculated weekly and averaged over the entire time period. |
+|Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four for the weekly average. |
+|Empower employees |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of employees who spend over 50 percent of their meeting hours with their manager in attendance. This percentage is calculated weekly and averaged over the entire time period. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 

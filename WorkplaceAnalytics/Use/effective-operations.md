@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Enhance operational effectiveness
 
-*This experience is only available through private preview at this time.*
-
 Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Enhance operational effectiveness page](../images/wpa/use/effective-operations.png)
