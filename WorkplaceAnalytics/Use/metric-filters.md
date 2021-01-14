@@ -71,7 +71,7 @@ To customize Workplace Analytics [queries](../tutorials/query-basics.md), you us
 
 ### Filters for participants
 
-The filters that are listed in the following two tables describe customizations for participants in collaboration activities &ndash; that is, email, IMs, calls, or meetings. 
+The filters that are listed in the following two tables can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
 
 #### Individual filters
 
@@ -80,15 +80,14 @@ The filters that are listed in the following two tables describe customizations 
 | Is Manager Present   | A Boolean that indicates that the participant is the direct manager of the measured user. | 
 | Is Direct Report Present  | Indicates that the participant is the direct report of the measured user. | 
  
-
 #### Groups of filters
 
 | Filter &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; | Description |
 | ------ | ----------- |
 | Organizational attributes (required) | Organizational attributes that are [required](../setup/prepare-organizational-data.md#required-attributes) are always available for use as participant filters. | 
 | Organizational attributes (optional) | Also available for use as participant filters are optional organizational attributes ([reserved optional attributes](../setup/prepare-organizational-data.md#reserved-optional-attributes) and [custom attributes](../setup/prepare-organizational-data.md#custom-attributes)) that have been uploaded in an [organizational data upload](../setup/upload-organizational-data.md). | 
-| CRM attributes (required) | CRM attributes that are [required](../setup/crm-data-upload.md#required-and-reserved-attributes) are always available for use as participant filters.  | 
-| CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes))  are also available for use as participant filters. | 
+| CRM attributes (required) | CRM attributes that are [required](../setup/crm-data-upload.md#required-and-reserved-attributes) are always available for use as participant filters. | 
+| CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes)) are also available for use as participant filters. | 
 
 
 ## To apply a metric filter
