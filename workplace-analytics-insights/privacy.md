@@ -13,7 +13,7 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
-Microsoft Insights produce powerful analysis about how your organization functions. It does this by analyzing Microsoft 365 collaboration data and organizational data from Microsoft Azure Active Directory.
+Microsoft Insights produce powerful analysis about how your organization functions. It does this by analyzing Microsoft 365 collaboration data and organizational data already present in Microsoft Azure Active Directory.
 
 Given the potential sensitivity about how data could be used, successful implementation and use of Insights requires careful thought and planning with regard to data protection.  
 
