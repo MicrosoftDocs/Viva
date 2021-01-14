@@ -133,7 +133,9 @@ The following video describes how to structure your organizational data file, in
 
 ### Required, reserved optional, and custom attributes
 
-**Required attributes** must be supplied with the following exact column headers (case sensitive) in the .csv upload:
+#### Required attributes 
+
+These five attributes must be supplied with the following exact column headers (case sensitive) in the .csv upload:
 
  * PersonId
  * EffectiveDate
@@ -141,7 +143,9 @@ The following video describes how to structure your organizational data file, in
  * ManagerId
  * Organization
 
-**Reserved optional attributes** are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations.
+#### Reserved optional attributes
+
+These are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations.
 
  * FunctionType
  * HireDate
@@ -152,7 +156,9 @@ The following video describes how to structure your organizational data file, in
 
 Although these attributes are not required, if included, they must meet particular coverage requirements.
 
-**Custom attributes** are any additional attributes you want to define to use in filtering and grouping data.
+#### Custom attributes
+
+These are any additional attributes you want to define to use in filtering and grouping data.
 
 > [!Note] 
 > * The maximum number of total attributes allowed in the system is 105. This includes the five required attributes.
