@@ -71,7 +71,7 @@ To customize Workplace Analytics [queries](../tutorials/query-basics.md), you us
 
 ### Filters for participants
 
-The filters that are listed in the following two tables can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
+The following tables list filters that can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
 
 #### Individual filters
 
