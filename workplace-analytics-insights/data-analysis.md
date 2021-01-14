@@ -27,11 +27,11 @@ Your organization decides who gets access to Insights. You ensure that employees
 
 ## Organizational data
 
-Organizational data is contextual information about your employees (for example: job title, level, location) that comes from information your organization provided in Microsoft Azure Active Directory (AAD).
+Organizational data is contextual information about your employees (such as manager and department) that comes from information your organization provided in Microsoft Azure Active Directory (AD).
 
 ## Collaboration data
 
-Insights combines the organizational data in ADD with Microsoft 365 metadata to compute how much time groups of employees within your organization spend in meetings, emails, calls, and chats, and with whom.
+Insights combines the organizational data in Azure AD with Microsoft 365 metadata to compute how much time groups of employees within your organization spend in meetings, emails, calls, and chats, and with whom.
 
 This Microsoft 365 metadata provides the foundation for the analysis in Insights. The analysis uses the following information about items in employee mailboxes and calendars.
 
