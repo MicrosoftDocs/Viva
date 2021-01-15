@@ -57,8 +57,9 @@ The following shows who can do what in Workplace Analytics.
 | Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark">| | | |
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | Use the full set of analyst tools in Sources and Analyze | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
-| Serve as HR data provider and Workplace Analytics tool owner | | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
-| Help coordinate, set up, and manage change plans | | | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+| Help coordinate, set up, and manage change plans | | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+
+<!-- DELETING FOR NOW -- WAITING TO HEAR FROM NISHANT: | Serve as HR data provider and Workplace Analytics tool owner |  <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | | -->
 
 ### Levels of responsibility
 
@@ -69,7 +70,7 @@ People with access to Workplace Analytics should ideally have previous experienc
 | View personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | View de-identified, individual-level data:<ul><li>Organization data (HR fields, such as level or organization)</li><li>Office 365 data (metrics about collaboration and relationships)</li></ul> | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
 | View aggregated and de-identified Office 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
-| Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics | | | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)*|
+| Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics | | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)*|
 
 ### Suggested personas
 
