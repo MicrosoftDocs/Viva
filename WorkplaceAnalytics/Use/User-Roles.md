@@ -57,8 +57,9 @@ The following shows who can do what in Workplace Analytics.
 | Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark">| | | |
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | Use the full set of analyst tools in Sources and Analyze | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
-| Serve as HR data provider and Workplace Analytics tool owner |  <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |  |
 | Help coordinate, set up, and manage change plans | | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+
+<!-- DELETING FOR NOW -- WAITING TO HEAR FROM NISHANT: | Serve as HR data provider and Workplace Analytics tool owner |  <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | | -->
 
 ### Levels of responsibility
 
