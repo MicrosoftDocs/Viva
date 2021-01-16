@@ -18,9 +18,11 @@ audience: Admin
 
 _This template only available as part of a Microsoft service engagement._
 
-Workplace Analytics Azure Templates include the Organizational Network Analysis template that enables you to visualize connections within your organization, pinpoint collaboration patterns, and drive change.
+Workplace Analytics Azure Templates include the Organizational Network Analysis (ONA) Template that enables you to visualize connections within your organization, pinpoint internal and external collaboration patterns, and drive change.
 
-Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization. This analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
+Workplace Analytics has a variety of measures to help you visualize and analyze formal and informal relationships within your organization. You can also analyze how your internal organization collaborates with external accounts or people outside your company. This ONA analysis can help you shape a business strategy that improves communication, making your business more effective and sustainable.
+
+For external collaboration data, the analysis only has information about how your internal organization collaborates with people outside your organization. The graph analysis cannot show how external people collaborate with each other because the dataset only has information about your organization's internal collaboration data.
 
 To focus your analysis on specific subgroups or compare graphs from different time ranges or between different groups, you can create subgroup datasets and graphs within the selected (parent) dataset. For details, see  [To add new subgroup analysis](#to-add-new-subgroup-analysis).
 
@@ -29,39 +31,55 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 1. In Workplace Analytics Azure Templates, select **Organizational Network Analysis**.
 2. On the **Organizational Network Analysis** page, select **Add New Dataset** at top right.
 3. In **Define Analysis Settings**, enter a name and select a path to the dataset.
-4. In **Select the Grouping Attributes**, select the attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
-5. In **Specify the Interaction Types and Thresholds**, select the following.
+4. In **Choose Collaborators**, select one of the following:
+
+   * **Internal Collaboration** - All internal collaboration activity as specified for this analysis.
+   * **Internal and External Collaboration** - Analyzes your internal organization's interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
+
+   ![Add a new ONA dataset](./images/ona-new-dataset.png)
+
+5. If you selected **Internal Collaboration**, skip to the next step. For external collaboration, you can specify an [Account Mapping File](deploy-configure.md#account-mapping) if you want to select friendly account names instead of account domains. Then in **Select External Collaborators**, select up to five accounts or domains to include in this analysis.
+6. In **Select the Grouping Attributes**, select the internal attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
+7. In **Specify the Interaction Types and Thresholds**, select the following:
 
    * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or in combination, including emails, meetings, Teams chats, and Teams calls. Note that if you include meetings and Teams calls in your analysis, only unscheduled Team calls are counted to avoid double counting meeting call activity.
    * **Max number of people involved in each interaction** - Select the maximum number of people involved in each interaction.
+   * **Minimum number of unique interaction types** - Select the minimum number of interaction types that indicate a meaningful interaction.
    * **Maximum duration of a meeting or call** - Select the maximum number of interactions between the selected groups or people.
-   * **Advanced Settings** - Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
+   * **Advanced Settings** - Select to turn it **On** if you want to specify individual interaction thresholds that define a meaningful connection, such as a minimum number of emails, meetings, chats, calls, and interactions across two or more types.
 
    >[!Important]
    >When analyzing calls or chats, you'll only see data from the time period where all signals exist. For example, if you select meetings and calls to analyze and 13 months of meeting data is available, but only three months of Teams data is available, you'd only see data for the three months that include both meetings and calls.
 
-6. Optionally, in **Enter any Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
-7. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
-8. After the analysis successfully loads, select the dataset from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset.
-9. In **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can also select one or more filters to further focus the graph view and then select **Render Graph**.
+8. Optionally, in **Enter any Exclusions**, enter one or more terms separated by a comma to exclude meetings with these keywords in the meeting subject line from this analysis. See [meeting exclusion rules](../tutorials/meeting-exclusions-intro.md) to learn more about them.
+9. Select **Submit**. Based on the data size, it might take anywhere from a few minutes up to a few hours to successfully create the dataset.
 
-   ![Add New Analysis](./images/ona-define-graph-settings.png)
+## To add new analysis
+
+1. After the dataset successfully loads, select it from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset.
+2. In **Define Graph Settings** > **Choose Attribute to Group By**, select what HR attribute to use for the combined or grouped view. Optionally, you can select **On** for  **Advanced Mode** and select an **IF**/**ELSE** for selecting how to group the specified group nodes in the graph. For example, to group internal and external people differently in the graph.
+
+   ![Add New Analysis](./images/ona-new-graph.png)
+
+3. In **Chose Attribute to Color By**, select what HR attribute you want that represents the node colors in the graph. Optionally, you can select **On** for  **Advanced Mode** and select an **IF**/**ELSE** for the color by attributes in the graph for the different groups.
 
     >[!Note]
     >You must select two or more HR attributes to analyze, so you have an attribute to "combine by" and one to "color by" for the graph.
 
-10. The graph is shown in the combined or grouped view by default based on what you selected in the previous step.
+4. Optionally in **Filter Options**, you can select one or more filters to further focus the graph view.
+5. Select **Render Graph**.
+6. The graph is shown in the combined or grouped view by default based on what you selected in the previous step.
 
     >[!Note]
     >When the node or link count exceeds the maximum threshold defined by your Azure Templates admin, the individual network view options will be unavailable. To enable these network view options, you can use filters to reduce the graph's node or link count.
 
-11. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
+7. To save the current graph for future analysis, select **Save**, enter a name, and then select **Save Graph**.
 
 ## To view graphs
 
-1. After the analysis successfully loads (green check mark), select it from the list, and then:
+1. After analysis successfully loads (green check mark), select it from the list, and then:
 
-   * For new graphs, select **Preliminary Analysis** and in **Define Graph Settings**, select what HR attribute to use for the combined or grouped view and for the color of the graph's nodes. You can select one or more filters, and then select **Render Graph**.
+   * For new graphs, follow the previous steps [to add new analysis](#to-add-new-analysis).
    * For previously saved graphs, select the **Load Saved Graph** icon associated with the analysis, and then select it from the list.
 
    >[!Note]
@@ -74,16 +92,16 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    Option |Name |Description
    ------------|--------------|------------
    ![ONA no measure](./images/ona-no-measure.png)| No Measure | Changes how the data is measured and shown in the graph based on the Node Size option you select.|
-   ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of assigned node colors for the HR attribute shown in the graph.|
+   ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of nodes and their colors based on the graph settings or view selections.|
    ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.|
    ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.|
    ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don't want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
-   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType.|
-   ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | You can select to change the color of any of the nodes shown in the graph.|
+   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType. Optionally, select On for Advanced Mode to see advanced IF/ELSE filter options for grouping the nodes for the selected view, which also enables you to not group selected nodes.|
+   ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | Select to change the color of the nodes shown in the graph. You can select to group the node colors by a specific attribute or metric. Optionally, select On for Advanced Mode to see advanced IF/ELSE filter options for colors or to customize colors.|
    ![ONA change settings](./images/ona-settings.png) | Change Settings |Select if the link lines scale the thickness or color darkness based on total time spent between groups. You can also use this to turn tool tips on or off. For some views, you can also select to turn on or off node titles.|
    ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.|
    ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).|
-   ![ONA save graph](./images/ona-save.png) | Save Graph |Choose to save this graph as shown to load and view later.|
+   ![ONA save graph](./images/ona-save.png) | Save graph |Choose to save this graph as shown to load and view later.|
    ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |This only appears if the analysis is filtered by HR attributes. Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).|
 
 ## To add new subgroup analysis
@@ -119,9 +137,10 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 2. The following information and options are available in the table for existing analysis:
 
    * When the **Status** is a green check mark, the graph analysis was successfully saved and can be viewed.
-   * If the analysis fails with the **Status** of a red X, select the **Job Details** (i) icon next to status to view details and see what might've caused the failure.
+   * During analysis creation, select the **Job Details** (i) icon next to **Status** to view details about where the job is at in the process. You can then select **Job Queue** to see what other jobs are running and where yours is in the queue.
+   * If the analysis fails with a **Status** of a **red X**, select the **Job Details** (i) icon next to **Status** to view details and see what might've caused the failure.
    * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
-   * Select the **Parameters** icon next to the name to view them for the analysis in that row.
+   * Select the **Parameters** icon next to the name to view details about its parameters, such as the time range, network boundary condition filters, and node and group metrics.
    * Select the **Load Saved Graph** icon to view any graphs saved for that analysis. The list will be empty if no graphs have been saved yet.
    * Select the **Delete Analysis** (trashcan) icon to delete the analysis from the list.
    * Select the **Download** icon to download one of the following as a .csv file.
@@ -204,10 +223,9 @@ Represents the ability to access or share information across the organization wh
 -->
 ## Graph notes
 
-* **Insufficient group size** - If one or more nodes represent groups that are smaller than the set Minimum Group Size, they're combined and listed as an insufficient group (such as in the color node list). For the grouped or combined view, the insufficient group's edges and node won't show in the graph.
-
+* **Line measures** - You can select the lines in the graph to show their individual line measures.
+* **No Data** - If one or more nodes represent groups that don't meet the threshold settings, or no attribute or data is available based on the selected filters, for the view shown, they're combined and listed in a **No Data** node (such as in the color node list).
 * **Delete a node** - If you want to exclude a node from the graph, you can use the filter options or select the node in the graph to highlight it, and then press **Delete** (on your keyboard). Before saving the graph, you can right-click in the graph, and then select **Show Hidden** to undo a delete.
-
 * **Color-by key** - You can select specific metrics to color the graph by, such as by degrees, influence index, bridging index, and boundary spanning. The resulting graph will have nodes colored by using a heat map gradient with the following color scheme. Note that this color-by option is unavailable in Combined View.
 
   * The lowest values on one end of the spectrum show as *light yellow*.
