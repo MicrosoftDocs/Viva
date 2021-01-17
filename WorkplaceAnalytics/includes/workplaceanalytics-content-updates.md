@@ -2,6 +2,24 @@
 
 
 
+## Week of January 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/12/2021 | [Use Insights](/Workplace-Analytics/myanalytics/use/use-the-insights) | modified |
+| 1/12/2021 | [Focus plan](/Workplace-Analytics/myanalytics/use/focus-plan) | modified |
+| 1/13/2021 | Privacy, security, and compliance in MyAnalytics | removed |
+| 1/14/2021 | [Deploy and configure Workplace Analytics Azure Templates](/Workplace-Analytics/azure-templates/deploy-configure) | modified |
+| 1/14/2021 | [Organizational Network Analysis Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/organization-network-analysis) | modified |
+| 1/14/2021 | [Process Explorer Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/process-explorer) | modified |
+| 1/14/2021 | [Relationship Intelligence report](/Workplace-Analytics/azure-templates/relation-intel) | modified |
+| 1/14/2021 | [Release Notes for Workplace Analytics Azure Templates](/Workplace-Analytics/azure-templates/release-notes) | modified |
+| 1/14/2021 | [Person-to-group queries in Workplace Analytics](/Workplace-Analytics/tutorials/person-to-group-queries) | modified |
+| 1/14/2021 | [User roles in Workplace Analytics](/Workplace-Analytics/use/user-roles) | modified |
+| 1/15/2021 | [Requirements for Workplace Analytics](/Workplace-Analytics/setup/environment-requirements) | modified |
+
+
 ## Week of January 04, 2021
 
 
