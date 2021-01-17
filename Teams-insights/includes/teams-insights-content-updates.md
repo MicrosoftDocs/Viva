@@ -2,8 +2,9 @@
 
 
 
-## Week of November 30, 2020
+## Week of January 11, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
+| 1/11/2021 | [Teams insights app](/insights/teams-app) | modified |
