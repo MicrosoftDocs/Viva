@@ -34,7 +34,7 @@ These are the Workplace Analytics roles and their level of access:
 
 The following shows who can access what in Workplace Analytics.
 
-|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program manager | People manager |
+|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program Manager | People Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
 | **Home** | View highlights from the latest data; see the latest notifications | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only)|
 | **Analyze** |
@@ -52,20 +52,18 @@ The following shows who can access what in Workplace Analytics.
 
 The following shows who can do what in Workplace Analytics.
 
-|  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program manager |People manager |
+|  Function |  Administrator |  Analyst |  Analyst (Limited Access) | Program Manager |People Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
 | Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark">| | | |
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | Use the full set of analyst tools in Sources and Analyze | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
 | Help coordinate, set up, and manage change plans | | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 
-<!-- DELETING FOR NOW -- WAITING TO HEAR FROM NISHANT: | Serve as HR data provider and Workplace Analytics tool owner |  <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | | -->
-
 ### Levels of responsibility
 
 People with access to Workplace Analytics should ideally have previous experience for their level of access. Preferably, they should have previously undergone security and privacy training in handling sensitive data.
 
-| Access level | Administrator |  Analyst | Analyst (Limited Access) | Program manager | People manager |
+| Access level | Administrator |  Analyst | Analyst (Limited Access) | Program Manager | People Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
 | View personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | View de-identified, individual-level data:<ul><li>Organization data (HR fields, such as level or organization)</li><li>Office 365 data (metrics about collaboration and relationships)</li></ul> | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
@@ -76,12 +74,11 @@ People with access to Workplace Analytics should ideally have previous experienc
 
 Consider the following personas when granting the different levels of access to Workplace Analytics.
 
-| Persona | Administrator | Analyst | Analyst (Limited Access) | Program manager |People manager |
+| Persona | Administrator | Analyst | Analyst (Limited Access) | Program Manager |People Manager |
 | ------ | ----------- | ------- | ------- | ------ | ------ |
 | Executive/business leader | | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |   | |
-| Program manager | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
+| Program Manager | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 | Analyst/data scientist |   | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
-|  HR data provider / Workplace Analytics tool owner |    <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | Group or team manager | | | | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 
 ### Access to resources
