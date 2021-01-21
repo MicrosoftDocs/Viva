@@ -106,7 +106,7 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
 * **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as "_&lt; 25%_."
 * **Between thresholds.** If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
-* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
+* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 96% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
 
    | Number of recipients | Open rate reported | 
    | ------- | ------ |
@@ -125,10 +125,10 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
 2. In **Insights**, select one of the following:
 
-   a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or SharePoint.  
+   a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or in SharePoint.  
 
-     > [!Note] 
-     > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.   
+   > [!Note] 
+   > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared. 
 
      ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png) 
 

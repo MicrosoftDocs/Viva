@@ -16,9 +16,6 @@ audience: admin
 
 # MyAnalytics for admins
 
-> [!Note]
-> Productivity insights that are powered by MyAnalytics are becoming broadly available for Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
-
 As an administrator, you benefit from knowing what MyAnalytics provides to its participants and what you can do to enable and enhance their experience.
 
 ## Benefits of use
