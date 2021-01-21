@@ -1,6 +1,6 @@
 ---
 
-title: Workplace Analytics metrics filters 
+title: Workplace Analytics metric filters 
 description: Describes the filters that analysts can use to refine metrics in queries 
 author: paul9955
 ms.author: v-pausch
@@ -10,9 +10,11 @@ ms.prod: wpa
 
 ---
 
-# Metrics filters
+# Metric filters
 
-To customize Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)). After you select a metric for a query, you can narrow the focus of that metric by [applying filters](#to-apply-a-metric-filter). 
+To customize the results from Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)). 
+
+After you select a metric for a query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the focus that you gave it by applying filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
 
 ## Metric filters, by type
 
@@ -91,10 +93,9 @@ Organizational-data attributes and CRM attributes can also be used as participan
 | CRM attributes (required) | CRM attributes that are [required](../setup/crm-data-upload.md#required-and-reserved-attributes) are always available for use as participant filters. | 
 | CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes)) are also available for use as participant filters. | 
 
+## Apply a metric filter
 
-## To apply a metric filter
-
-In this example, you apply a filter to a metric in a person query.
+In this example procedure, you apply a filter to a metric in a person query. Specifically, you restrict the _Email sent_ metric to include only the email that was sent during a particular time of day. Then, for the population of employees that you've indicated, the query results will show the number of emails sent during the time of day that you selected.   
 
 1. In Workplace Analytics, select **Analyze** > **Queries** > **Person**.
 
