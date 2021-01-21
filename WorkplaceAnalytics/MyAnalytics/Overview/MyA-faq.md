@@ -12,12 +12,11 @@ ms.prod: Mya
 
 # Frequently asked questions for MyAnalytics
 
-> [!Note]
-> Productivity insights powered by MyAnalytics are becoming broadly available to all Office 365 users. [Learn more](./plans-environments.md) about the experiences that users will get in each plan.
+The questions in this topic are organized into the following sections: 
 
- * [Privacy](#privacy) applies to everyone
+ * The [Privacy](#privacy) section applies to everyone.
 
-The other sets of questions and answers are grouped by role:
+The other questions and answers are grouped by role:
 
  * For [MyAnalytics users](#for-myanalytics-users)
  * For [IT administrators](#for-it-administrators)
