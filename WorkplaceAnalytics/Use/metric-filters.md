@@ -14,7 +14,7 @@ ms.prod: wpa
 
 To customize the results from Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)). 
 
-After you select a metric for a query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the focus that you gave it by applying filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
+After you select a metric for a query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the new focus that you gave when you applied filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
 
 ## Metric filters, by type
 
@@ -95,7 +95,7 @@ Organizational-data attributes and CRM attributes can also be used as participan
 
 ## Apply a metric filter
 
-In this example procedure, you apply a filter to a metric in a person query. Specifically, you restrict the _Email sent_ metric to include only the email that was sent during a particular time of day. Then, for the population of employees that you've indicated, the query results will show the number of emails sent during the time of day that you selected.   
+In this example procedure, you apply a filter to a metric in a person query. Specifically, you restrict the _Email sent_ metric to include only email that was sent during a particular time of day. Then, for the population of employees that you specify, the query results will show the number of emails that were sent during the time of day that you selected.   
 
 1. In Workplace Analytics, select **Analyze** > **Queries** > **Person**.
 
