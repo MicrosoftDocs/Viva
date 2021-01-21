@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Prepare and upload CRM data in Workplace Analytics
 description: How to prepare and upload CRM data in Workplace Analytics

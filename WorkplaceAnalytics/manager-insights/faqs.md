@@ -17,7 +17,7 @@ Workplace Analytics helps managers like you identify patterns and habits that im
 
 ##### Q2 Which roles have access to this manager insights page?
 
-Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see insights about their teams.
+Only managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see insights about their teams.
 
 ##### Q3 Who is included as a measured employee?
 

@@ -18,7 +18,7 @@ This file includes one row for every email sent with the following metrics.
 |-----------------|---------------|-----------------|
 |MailId|string|Unique identifier for each email; primary key|
 |ConversationId|string|Unique thread identifier|
-|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/settings.md#privacy-settings))|
+|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/privacy-settings.md) for details)|
 |SentTime|datetime|When the email was sent, in the sender's local time|
 |SenderTimeSpentinMinutes|double|How many minutes spent writing the email (heuristic estimated value)|
 |NumberOfRecipients|integer|Number of email recipients, not including the sender|

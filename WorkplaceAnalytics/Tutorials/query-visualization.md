@@ -102,7 +102,7 @@ For more information about plans, see [Workplace Analytics plans](solutionsv2-in
 
    ![Total group size](../images/wpa/tutorials/group-size-finance.png)
 
-   The group size is important because query visualization adheres to the [minimum group size](../use/settings.md#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size."
+   The group size is important because query visualization adheres to the [minimum group size](../use/privacy-settings.md#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size."
 
 2. After you have a group or groups selected that meet or exceed the minimum group size, select **Submit group**.
 3. On the **Set up new plan** pane, select an appropriate plan type for the group that you designated and select **Start now**.
