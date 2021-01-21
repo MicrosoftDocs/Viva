@@ -51,15 +51,11 @@ In **Upload**, admins can upload the following types of data files in .csv forma
 
 * **CRM data** - Customer relationship management data from Microsoft Dynamics or Salesforce, which typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries. For details, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
 
-![Upload Organizational data](../images/wpa/use/upload-org-data.png)
-
 ## Admin settings
 
 **Owner** – Workplace Analytics Admins have full access to these settings
 
 In **Admin settings**, you can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Admin settings](admin-settings.md).
-
-![Admin settings](../images/wpa/use/system-defaults.png)
 
 ## Analysis settings
 
@@ -68,8 +64,6 @@ In **Admin settings**, you can configure [system defaults](system-defaults.md), 
 In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings that you to exclude from analysis, such as appointments that are unrelated to work.
 
 For details on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
-
-![Analysis settings](../images/wpa/use/analysis-settings.png)
 
 ## Related topics
 
