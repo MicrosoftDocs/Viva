@@ -127,6 +127,9 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
    a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or in SharePoint.  
 
+   > [!Note] 
+   > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared. 
+
      ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png) 
 
    b. **Track email open rates** - Shows read statistics for all sent emails.  
