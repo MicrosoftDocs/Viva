@@ -5,7 +5,7 @@ description: Steps to set up Workplace Analytics insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+localization_priority: none
 ms.prod: wpa
 
 ---
@@ -90,9 +90,7 @@ After assigning licenses, you need to assign users the role of **Insights Busine
 
 ### Assign roles to users
 
-**Role:** Azure Active Directory admin  
-
-1. Log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. The Azure Active Directory admin must log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise applications**:
 
 <!--  ![Enterprise applications](../images/wpa/setup/enterprise-apps.png)-->

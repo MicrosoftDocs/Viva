@@ -5,7 +5,7 @@ description: About how personal data is kept private in Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+localization_priority: none 
 ms.prod: wpa
 
 ---

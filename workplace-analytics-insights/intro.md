@@ -5,7 +5,7 @@ description: About Insights to learn how your organization gets work done
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+localization_priority: none 
 ms.prod: wpa
 
 ---

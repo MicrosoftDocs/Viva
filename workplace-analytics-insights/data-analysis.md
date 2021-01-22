@@ -5,7 +5,7 @@ description: More details about what data is accessed and analyzed in Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+localization_priority: none
 ms.prod: wpa
 
 ---
