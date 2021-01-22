@@ -31,12 +31,15 @@ The field values in the data row must comply with the following formatting rules
 >[!Note]
 > Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
 
-The field values also cannot contain any of the following:
+Be sure that the field values in your organizational data _do not_ contain any of the following characters:
 
+* tilde (~)
+* "new line" (\n)
+* Double quotes (" ") 
+* Single quotes (' ')
+
+<!-- FORMERLY HERE: 
 * No accent marks (á)
-* No tildes (~)
 * No short or long dashes (-, --)
 * No commas (,)
-* No "new line" characters (\n)
-* No double (" ") or single quotes (‘ ‘)
-* Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
+* Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters   --> 
