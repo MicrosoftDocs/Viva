@@ -55,7 +55,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Filter | Description |
 | ------ | ----------- |
 | Duration (in hours) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Duration of the meeting | 
-| Is recurring | True = this meeting is set to recur; False = this meeting is not set to recur | 
+| IsRecurring | True = this meeting is set to recur; False = this meeting is not set to recur | 
 | IsCancelled   | True = this meeting has been cancelled; False = this meeting has not been cancelled | 
 | Subject         | Subject line of the meeting invitation | 
 | Total accepted  | Number of invitees who have accepted the meeting invitation | 
