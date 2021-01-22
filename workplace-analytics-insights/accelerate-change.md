@@ -13,6 +13,9 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
+> [!Important] 
+> This insight is available only in organizations with at least 200 licensed users. If your organization is smaller than that, you'll see an alert on the **Accelerate change** page that reads as follows: "This insight is unavailable because the minimum number of employees is not met."
+
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
 Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
