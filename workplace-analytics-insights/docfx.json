@@ -41,7 +41,9 @@
     "globalMetadata": {
       "breadcrumb_path": "/workplace-analytics-insights/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "searchScope": ["Workplace Analytics insights"],
+      "titleSuffix": "Workplace Analytics insights"
     },
     "fileMetadata": {},
     "template": [],
