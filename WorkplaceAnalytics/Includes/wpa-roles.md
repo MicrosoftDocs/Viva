@@ -23,4 +23,4 @@ ms.prod: wpa
 * **Program Manager** &ndash; Has access to the **Home** page of Workplace Analytics. Program managers also can open the **Plans** page and its **Manage** page, where they can set up plans; and to the **Track** page, where they can track the progress of active plans and the state of ended plans.
 
 >[!Note]
->The People Manager role is not assigned like the other roles are assigned. Workplace Analytics admins grant this role to managers on the **Admin settings** > [**Manager settings**](../use/settings.md#manager-settings) page in Workplace Analytics.
+>The People Manager role is not assigned like the other roles are assigned. Workplace Analytics admins grant this role to managers on the **Admin settings** > [**Manager settings**](../use/manager-settings.md) page in Workplace Analytics.
