@@ -11,6 +11,8 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
+#### Rules for field headers
+
 All field header or column names must:
 
 * Begin with a letter (not a number)
@@ -18,6 +20,8 @@ All field header or column names must:
 * Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
 * Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
 * Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as @, #, %, &); if spaces or special characters are included, Workplace Analytics will remove them from the name
+
+#### Rules for field values
 
 The field values in the data row must comply with the following formatting rules:
 
@@ -31,6 +35,8 @@ The field values in the data row must comply with the following formatting rules
 >[!Note]
 > Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
 
+#### Rules for characters in field headers
+
 Be sure that the field values in your organizational data _do not_ contain any of the following characters:
 
 * tilde (~)
@@ -43,7 +49,3 @@ Be sure that the field values in your organizational data _do not_ contain any o
 * No short or long dashes (-, --)
 * No commas (,)
 * Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters   --> 
-
-### Related topics
-
-[Prepare organizational data](prepare-organizational-data.md)
