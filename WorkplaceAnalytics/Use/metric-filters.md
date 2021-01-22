@@ -24,7 +24,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | ------ | ----------- |
 | Day of week | The day of the week during which the call was placed | 
 | Duration (in hours)  | The amount of time, in hours, that the call lasted | 
-| Is organizer  | True = this person initiated the call; False = this person did not initiate the call | 
+| IsOrganizer  | True = this person initiated the call; False = this person did not initiate the call | 
 | IsScheduledCall  | True = this call is scheduled on someone's Outlook calendar; False = this call is not scheduled on any person's Outlook calendar | 
 | Time of day started &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | The time of day that the call began | 
 | TotalParticipants  | The number of participants in the call | 
@@ -64,7 +64,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Total emails sent during meeting   | Number of emails sent by all participants during the meeting | 
 | Total no responses   | Number of invitees who did not respond to the meeting invitation | 
 | Day of week   | Day of the week for which the meeting is scheduled | 
-| Is organizer   | The person who invited others to the meeting | 
+| IsOrganizer   | The person who invited others to the meeting | 
 | Time of day started   | Time of day that the meeting actually started | 
 | Total attendees   | Total attendees can be configured at the report level by using an [attendee-exclusion rule](../tutorials/attendee-exclusion-rules.md). When you select an attendee-exclusion rule, you redefine meeting attendance to include or exclude the cases of “tentative” and “no response.” Therefore, based on the attendee-exclusion rule that you have selected, Total attendees can mean one of the following: <br> <ul> <li>Total attendees = Total accepted </li> <li>Total attendees = Total accepted + Total no response </li> <li>Total attendees = Total accepted + Total tentatively accepted </li> <li>Total attendees = Total accepted + Total no response + Total tentatively accepted </li> </ul> | 
 
