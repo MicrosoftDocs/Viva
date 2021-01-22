@@ -43,3 +43,7 @@ Be sure that the field values in your organizational data _do not_ contain any o
 * No short or long dashes (-, --)
 * No commas (,)
 * Limit character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters   --> 
+
+### Related topics
+
+[Prepare organizational data](prepare-organizational-data.md)
