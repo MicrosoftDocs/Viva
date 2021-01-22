@@ -1,7 +1,7 @@
 ---
 
 title: Introduction to Workplace Analytics plans
-description: Introduction and summary of Workplace Analytics plans
+description: Introduction to Workplace Analytics plans
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
@@ -55,7 +55,7 @@ Confirm that your organization meets the following prerequisites:
   * **Analyst**, **limited analyst**, or **program manager** - Both analysts and program managers can help identify opportunities for change plans, set up plans, run and track them, and measure plan ROI.  
 
 >[!Note]
->Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/settings.md#manager-settings).
+>Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/manager-settings.md).
 
 <!-- RECONSTITUTE THE SECTION "WHEN MULTIPLE ROLES ARE ASSIGNED"
    > [!Note]
@@ -98,9 +98,9 @@ All roles -- analysts of both levels or program managers -- can upload a .csv fi
 
 **Q2:** What is the minimum group size?
 
-**A2:** In **Admin settings** > **Privacy settings**, admins can set the [minimum group size](../use/settings.md#privacy-settings) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
+**A2:** In **Admin settings** > **Privacy settings**, admins can set the [minimum group size](../use/privacy-settings.md) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
 
-In **Admin settings** > **Manager settings**, admins can also set a [Minimum team size](../use/settings.md#manager-settings) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
+In **Admin settings** > **Manager settings**, admins can also set a [Minimum team size](../use/manager-settings.md) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
 
 **Q3:** Can I monitor metrics for specific users?
 

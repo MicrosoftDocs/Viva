@@ -20,7 +20,7 @@ These research-based behavioral insights show how your organization gets work do
 
 Each of the following business outcomes has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
 
-You can select **Download** in the top right to create and view a PowerPoint version of the following business outcomes. This enables you to share this valuable data with people in your organization who do not use Workplace Analytics.
+You can select **Download PowerPoint** to create and view a PowerPoint version of the following business outcomes. This enables you to share this valuable data with people in your organization who do not use Workplace Analytics.
 
 |Business outcome |Why it matters |
 |-----------------|--------------|
