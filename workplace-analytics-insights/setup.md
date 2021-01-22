@@ -13,7 +13,11 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
-Your Microsoft 365 global admin can activate and assign licenses to people in your organization to use Workplace Analytics insights.
+Before people in your organization can view and use Workplace Analytics insights, your Microsoft 365 global admin needs to do the following for them: 
+
+* [Activate licenses](#activate-licenses)
+* [Assign licenses](#assign-licenses)
+* [Assign the role of Insights Business Leader](#assign-roles)
 
 This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through their Microsoft service representative.
 
@@ -78,6 +82,86 @@ Alternatively, you can sign in as a global admin to Azure Active Directory to as
 6. It can take a few minutes up to 24 hours for the license assignments to update to the server, which is based on your specific server settings.
 
 > [!Note]
-> If you are assigning licenses to a group that has more people than you have licenses for, the tool will assign users as listed in the group up to the number of available licenses, and then you'll see an error message about how many in the group have licenses.
+> If you are assigning licenses to a group that has more people than you have licenses for, the tool will assign users as listed in the group up to the number of available licenses, and then you'll see an error message about how many in the group have and do not have licenses.
 
-After assigning licenses, you can send your organization's leaders a [Workplace Analytics insights link](https://workplaceanalytics.office.com/Home) to open and use it. Also, refer them to [Workplace Analytics insights introduction](./intro.md) to learn more about how to use it.
+## Assign roles
+
+After assigning licenses, you need to assign users the role of **Insights Business Leader** in Azure Active Directory (AD). You can assign a role to individual users or to groups.
+
+### Assign roles to users
+
+**Role:** Azure Active Directory admin  
+
+1. Log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+2. In the left navigation menu, select **Enterprise applications**:
+
+   ![Enterprise applications](../images/wpa/setup/enterprise-apps.png)
+
+   This opens the **Enterprise applications | All applications** page of the dashboard.
+
+3. In the **Application Type** drop-down menu, select **All Applications**:
+
+   ![Enterprise applications](../images/wpa/setup/ent-all-apps-3.png)
+
+4. In the search field, enter **workplace**, and then press **Enter**.
+
+   ![Type 'workplace'](../images/wpa/setup/type-workplace.png)
+
+5. In the search results, select **Workplace Analytics**.  
+6. On the **Workplace Analytics | Overview** page, under **Getting Started**, select **Assign users and groups**:
+
+   ![Overview page](../images/wpa/setup/wpa-overview.png)  
+
+7. On the Workplace Analytics **Users and groups** page, select **Add user**:
+
+   ![WpA users and groups](../images/wpa/setup/wpa-users-and-groups.png)  
+
+> [!Note]
+> In the **Users and groups** area, "None Selected" currently appears.
+
+8. On the **Add Assignment** page, select **Users and groups**:
+
+   ![Select Users and groups](../images/wpa/setup/select-users-and-groups-4.png)
+
+9. Under **Users and groups** (on the right side of the page), identify the user to whom you want to assign a role. Start typing that person's user identifier (such as their display name or their User Principal Name) in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears on the right under **Selected items**:
+   
+   ![Selected items](../images/wpa/setup/selected-items.png)
+   
+   In the **Users and groups** area, the count of selected users has changed to 1:
+   
+   ![Add Assignment + 1](../images/wpa/setup/add-assignment-plus-1.png)
+    
+   > [!Note]
+   > You can repeat this step to add one or more additional users, if you intend to assign the same role to them.
+
+10. On the **Add Assignment** page, select **Select Role**. This opens the **Select Role** area on the right side of the page:
+
+    ![Select role](../images/wpa/setup/select-role.png)
+
+11. From the list that appears, select **Insights Business Leader**. The role also appears under **Add Assignment** in the **Select Role** area.
+12. After you've chosen the user and the role, select **Assign** at the bottom of the **Add Assignment** page:  
+ 
+   ![Assign](../images/wpa/setup/assign-button.png)
+
+   After a few seconds, a message in the upper right informs you of the success of the role assignment:  
+
+   ![Assignment succeeded](../images/wpa/setup/assignment-succeeded.png)
+
+You have now assigned the role to one user.  
+
+### Assign roles to groups
+
+You can also assign the role to one or more groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group automatically receive the same permissions that are assigned to that role.
+
+> [!Note]
+> The groups to which you can assign Workplace Analytics roles are Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups).
+
+To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 12 under [Assign roles to users](#assign-roles-to-users). In that process, where you name and select a user in step 9, instead name and select a group, and then assign a role to the selected group.
+
+   ![Select group](../images/WpA/Use/select-group-b.png)
+
+If you have not yet created a Workplace Analytics group in Azure Active Directory, and want to do so, see [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+
+## Access to Insights
+
+After assigning roles, send your organization's leaders the link to [Insights](https://productivityinsights.office.com) to open and use them. Also, refer them to [Insights introduction](./intro.md) to learn more about how to use it.

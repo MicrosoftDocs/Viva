@@ -21,6 +21,8 @@ This new release is currently limited to Microsoft or Office 365 E5 or E3 plan s
 
 You can request access and get more information at [Microsoft Insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Insights.
 
+After you get access and your admin has completed the [Setup steps](./setup.md), go to [Insights](https://productivityinsights.office.com) to view them.
+
 ## Your organizational data
 
 The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
