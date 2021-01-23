@@ -2,7 +2,7 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Accelerate change with Workplace Analytics insights
 description: Learn how to use insights data to analyze and accelerate organizational change
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: none 
