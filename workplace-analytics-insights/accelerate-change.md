@@ -5,7 +5,7 @@ description: Learn how to use insights data to analyze and accelerate organizati
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+localization_priority: none 
 ms.prod: wpa
 ---
 
@@ -13,8 +13,8 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
-> [!Important] 
-> This insight is available only in organizations that have at least 200 licensed users. If your organization has fewer than that, you'll see an alert on the **Accelerate change** page that reads as follows: "This insight is unavailable because the minimum number of employees is not met."  
+> [!Important]
+> This insight is available only in organizations that have at least 200 licensed users. If your organization has fewer than that, you'll see an alert on the **Accelerate change** page that reads as follows: "This insight is unavailable because the minimum number of employees is not met."
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
@@ -28,7 +28,7 @@ The percentage metric for **Engage influencers** is **Percentage of employees wh
 
 ![Accelerate change percentage insight](./images/accelerate-change-percent.png)
 
-The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](glossary.md#ona-define) that shows the [influencers](metrics.md#influence-define), their connections, and how they effectively connect across your organization. This helps you identify and target the people who power the unobservable communication networks that can drive change.
+The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](glossary.md#ona-define) that shows the [influencers](glossary.md#influencer-define), their connections, and how they effectively connect across your organization. This helps you identify and target the people who power the unobservable communication networks that can drive change.
 
 ![Accelerate change visual insight](./images/accelerate-change-visual.png)
 
