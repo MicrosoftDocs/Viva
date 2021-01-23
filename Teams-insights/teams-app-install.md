@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Teams insights app
-description: Teams insights (personal insights) app -- intro 
+description: Teams insights (personal insights) app -- install 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,25 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Teams insights app &ndash; Overview
-
-The Teams Insights app helps you stay on top of your tasks and get more done by providing insights for improving your collaboration, wellbeing, and productivity. It derives these insights by summarizing your Office 365 data – data that you already have access to – about emails, meetings, calls, and chats. 
-
-By using Insights, you and your teams can: 
-
- * **Stay connected** – Teams Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. 
- * **Protect time** – Teams Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. 
-
-The insights that this app presents are completely personal and private. Only you – not your manager and not the system administrator – can see your insights. For more information, see the following section, [Privacy guide](#privacy-guide). 
-
-### How it works 
-
-The insights and actions in the Insights app are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process. 
-
-> [!Note] 
-> To have access to the Insights app, you will need an Exchange Online license. 
-
-## Install Insights 
+# Install the Teams insights app
 
 This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin tasks: Quick-start guide](#admin-tasks-quick-start-guide).)  
 
@@ -80,12 +62,4 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 ## Related topics
 
-[Use the Teams insights app](teams-app-use-insights.md)
-
-[Privacy guide](teams-app-privacy.md)
-
-[Install the Teams insights app](teams-app-install.md)
-
-[Frequently asked questions](teams-app-faq.md)
-
-[Admin tasks](teams-app-admin-tasks.md)
+[Teams insights app &ndash; Overview](teams-app.md)
