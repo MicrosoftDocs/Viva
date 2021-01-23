@@ -78,4 +78,12 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 3. Select **Done** to save your changes. 
 
- 
+## Related topics
+
+[Use the Teams insights app](teams-app-use-insights.md)
+
+[Privacy guide](teams-app-privacy.md)
+
+[Frequently asked questions](teams-app-faq.md)
+
+[Admin tasks](teams-app-admin-tasks.md)

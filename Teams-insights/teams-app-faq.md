@@ -62,3 +62,7 @@ Insights does not use:
 
 **A6.** To get access to the full functionality of the Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
 
+## Related topics
+
+[Teams insights app &ndash; Overview](teams-app.md)
+

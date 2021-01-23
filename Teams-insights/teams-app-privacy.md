@@ -38,4 +38,8 @@ Microsoft helps data controllers meet the following obligations for the Insights
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr). 
 
 
+## Related topics
+
+[Teams insights app &ndash; Overview](teams-app.md)
+
  

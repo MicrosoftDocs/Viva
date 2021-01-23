@@ -32,3 +32,6 @@ Complete the steps in the following four mini-playbooks to get the Teams Insight
 
 4. Now that the Teams Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](Find-and-open-the-Insights-app.pdf). 
  
+ ## Related topics
+
+[Teams insights app &ndash; Overview](teams-app.md)

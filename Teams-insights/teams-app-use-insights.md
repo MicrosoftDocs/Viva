@@ -122,5 +122,8 @@ In the following example, select **Book Time** to reserve the time slot for focu
    
 ![Book focus time](Images/book-time-2.png)  
 
+## Related topics
+
+[Teams insights app &ndash; Overview](teams-app.md)
 
  
