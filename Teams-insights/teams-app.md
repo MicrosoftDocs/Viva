@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Teams insights app
+# Teams insights app &ndash; Overview
 
 The Teams Insights app helps you stay on top of your tasks and get more done by providing insights for improving your collaboration, wellbeing, and productivity. It derives these insights by summarizing your Office 365 data – data that you already have access to – about emails, meetings, calls, and chats. 
 
