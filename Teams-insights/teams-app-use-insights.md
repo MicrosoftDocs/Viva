@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Teams insights app
-description: Teams insights (personal insights) app -- using it
+description: Teams insights (personal insights) app -- Using the app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article

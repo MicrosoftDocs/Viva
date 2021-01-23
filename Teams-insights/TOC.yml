@@ -1,8 +1,10 @@
 - name: Teams insights app
   href: teams-app.md
+- name: Use the Teams insights app
+  href: teams-app-use-insights.md  
 - name: Privacy guide
   href: teams-app-privacy.md
 - name: Frequently asked questions
-  href: teams-app-faq.md
-- name: Using the Insights
-  href: teams-app-use-insights.md  
+  href: teams-app-faq.md  
+- name: Admin tasks
+  href: teams-app-admin-tasks.md  

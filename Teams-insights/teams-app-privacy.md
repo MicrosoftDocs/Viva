@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Teams insights app
-description: Privacy guide for the Teams insights app (personal insights) 
+description: Teams insights (personal insights) app -- Privacy guide
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
