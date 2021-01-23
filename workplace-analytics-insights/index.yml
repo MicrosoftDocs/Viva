@@ -8,7 +8,7 @@ metadata:
  ROBOTS: NOINDEX,NOFOLLOW
  title: Workplace Analytics insights
  description: Unleash your most powerful dataset by using insights from everyday work in Microsoft 365.
- localization_priority: normal
+ localization_priority: none
  ms.prod: wpa
  author: madehmer
  ms.author: v-mideh

@@ -5,7 +5,7 @@ description: Learn how to use insights data to analyze and foster innovation in 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+localization_priority: none 
 ms.prod: wpa
 ---
 
