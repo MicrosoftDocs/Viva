@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Privacy guide 
+# Privacy guide for personal insights
 
 When data is processed in the Teams Insights app, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). Insights protects privacy in the following ways: 
 
@@ -29,7 +29,7 @@ Microsoft helps data controllers meet the following obligations for the Insights
    * Microsoft will not mine customer data in Exchange Online for advertising. 
    * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies. 
    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018. 
-* **Notify users in the event that a breach is detected** &ndash; Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using Office 365 incident response standard operating procedures. 
+* **Notify users in the event that a breach is detected** &ndash; Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by Microsoft 365 incident response standard operating procedures. 
 * **Honor user requests (DSRs) to export, delete, or restrict processing personal data** &ndash; Microsoft supports your need to honor user requests in the following ways. 
    * **Data export requests** &ndash; Users can view the insights in the Briefing email and manage it if they want to have permanent copies of their information. 
    * **Request to restrict processing** &ndash; Use PowerShell to opt employees out of the Briefing email. Or employees can individually unsubscribe from the Briefing email to restrict processing of their data. 

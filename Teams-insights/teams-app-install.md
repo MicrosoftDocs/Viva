@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Teams insights app
-description: Teams insights (personal insights) app -- install 
+description: Teams insights (personal insights) app -- Install 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -12,7 +12,7 @@ ms.prod: Mya
 
 # Install the Teams insights app
 
-This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin tasks: Quick-start guide](#admin-tasks-quick-start-guide).)  
+This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin tasks](teams-app-admin-tasks.md).)  
 
 1. Open Microsoft Teams on the web or in a desktop client. 
 
@@ -57,6 +57,8 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
 2. Select **Reorder** and drag and drop the app so it is no longer in the More section. 
+
+   ![Pin an app in Teams](Images/ios-android.png)
 
 3. Select **Done** to save your changes. 
 
