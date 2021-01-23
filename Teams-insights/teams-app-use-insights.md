@@ -24,7 +24,7 @@ The Teams insights app provides personalized recommendations to build better wor
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
    
-   ![Stay connected](/WorkplaceAnalytics/images/mya/use/)
+   ![Stay connected](images/stay-connected.png)
 
 The **Stay connected** tab can contain insights such as the following: 
 
