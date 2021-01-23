@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-## Frequently asked questions 
+# Frequently asked questions 
 
 ##### Q1. Does the Teams insights app comply with GDPR? 
 

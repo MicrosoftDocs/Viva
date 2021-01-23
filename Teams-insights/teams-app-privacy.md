@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-## Privacy guide 
+# Privacy guide 
 
 When data is processed in the Teams Insights app, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). Insights protects privacy in the following ways: 
 
