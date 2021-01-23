@@ -1,2 +1,4 @@
 - name: Teams insights app
   href: teams-app.md
+- name: Privacy guide
+  href: teams-app-privacy.md
