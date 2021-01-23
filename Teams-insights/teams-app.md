@@ -28,21 +28,6 @@ The insights and actions in the Insights app are based on your Exchange Online m
 > [!Note] 
 > To have access to the Insights app, you will need an Exchange Online license. 
 
-### GDPR compliance 
-
-Microsoft helps data controllers meet the following obligations for the Insights app: 
-* **Secure and protect users’ personal data** &ndash; All data is stored in the employees’ Exchange Online mailbox. The computed metrics, such as tasks, are appended to the mailbox. Thus, the Insights meets this obligation by virtue of Exchange Online also meeting the obligation: 
-   * Microsoft will not mine customer data in Exchange Online for advertising. 
-   * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies. 
-   * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018. 
-* **Notify users in the event that a breach is detected** &ndash; Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using Office 365 incident response standard operating procedures. 
-* **Honor user requests (DSRs) to export, delete, or restrict processing personal data** &ndash; Microsoft supports your need to honor user requests in the following ways. 
-   * **Data export requests** &ndash; Users can view the insights in the Briefing email and manage it if they want to have permanent copies of their information. 
-   * **Request to restrict processing** &ndash; Use PowerShell to opt employees out of the Briefing email. Or employees can individually unsubscribe from the Briefing email to restrict processing of their data. 
-   * **Delete employee data** &ndash; Sign in to [Azure Active Directory admin center](https://aad.portal.azure.com/) and then remove the employee's data through the User Management Portal. 
-
-To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr). 
-
 ## Install Insights 
 
 This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin tasks: Quick-start guide](#admin-tasks-quick-start-guide).)  

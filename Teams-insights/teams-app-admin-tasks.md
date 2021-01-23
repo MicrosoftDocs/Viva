@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Admin tasks: Quick-start guide
+# Admin tasks
 
 [Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). 
 
