@@ -15,10 +15,10 @@ ms.prod: wpa
 **Teams collaboration** shows communication trends about and insights into how your organization's employees use Teams for communication and collaboration. You can select what collaboration data to analyze on this page, either Teams' calls, instant messages, or both.
 
 ![Teams collaboration](../images/wpa/use/teams-explore.png)
-<!-- 1/13/2021: No link available and not available through any Explore the stats link yet either
+<!-- 1/25 not linked from any of the recommendations, can't guess page link, asking dev for it
 ## Access to Teams collaboration
 
-**Teams collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [Teams collaboration](https://workplaceanalytics.office.com/Home/Innovation/Teams) to view it in Workplace Analytics.-->
+**Teams collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [Teams collaboration](https://workplaceanalytics.office.com/Home/OrganizationalResiliency) to view it in Workplace Analytics.-->
 
 ## Call hours
 

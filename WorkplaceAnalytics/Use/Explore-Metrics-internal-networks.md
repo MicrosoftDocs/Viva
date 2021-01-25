@@ -17,7 +17,7 @@ ms.prod: wpa
 
 ## Access to Internal networks
 
-**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then select **Improve agility** > **Increase information sharing** > **See your insights** > **Explore the stats**.
+**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [Management and coaching](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) to view it in Workplace Analytics.
 
 ## Network size and network breadth
 

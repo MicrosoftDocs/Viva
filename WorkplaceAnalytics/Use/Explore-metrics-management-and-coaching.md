@@ -17,7 +17,7 @@ ms.prod: wpa
 
 ## Access to Management and coaching
 
-**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then select **Enhance organizational resiliency** > **Increase frequency of coaching** > **See your insights** > **Explore the stats**.
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) to view it in Workplace Analytics.
 
 ## Time with manager
 

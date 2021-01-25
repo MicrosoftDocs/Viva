@@ -17,7 +17,7 @@ ms.prod: wpa
 
 ## Access to Meetings overview
 
-**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then select **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**.
+**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
 
 ## Low-quality meeting hours
 
