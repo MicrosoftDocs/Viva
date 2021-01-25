@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics Setup -- Assign roles to admins, analysts, and PMs 
-description: How to assign roles in Workplace Analytics for admins, analysts, and program managers
+title: Workplace Analytics roles
+description: Describes roles in Workplace Analytics for admins, analysts, and program managers
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
@@ -24,7 +24,7 @@ The following describes who does what to assign roles in Workplace Analytics for
 
 To allow administrators to set system defaults, privacy settings, upload and verify organizational data, and to allow data analysts to use Workplace Analytics, you must assign roles to users in the Workplace Analytics service.
 
-You can give managers access to their team's data in Workplace Analytics in [Manager settings](../use/settings.md#manager-settings).
+You can give managers access to their team's data in Workplace Analytics in [Manager settings](../use/manager-settings.md).
 
 ## Workplace Analytics roles and access levels to users
 
@@ -42,4 +42,4 @@ See [Assign user or group roles in Azure Active Directory](../setup/assign-user-
 
 * [User roles](../use/user-roles.md)
 * [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md)
-* [Manager settings](../use/settings.md#manager-settings)
+* [Manager settings](../use/manager-settings.md)

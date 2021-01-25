@@ -37,7 +37,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 | De-identification | A process that is used to prevent the connection of personal identifiers with information. De-identification is achieved through the removal of personal data, which is sometimes replaced with a pseudonymous identifier. | 
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |
-| Hashing | Hashing is a cryptographic process that converts a piece of data into another in a way that is easy to compute, extremely difficult to reverse, and highly unlikely that two different pieces of data have the same hash. For example, meeting [subject lines](settings.md#hash-subject-lines) that are hashed would appear not in their original, readable, form but as a meaningless number. |  
+| Hashing | Hashing is a cryptographic process that converts a piece of data into another in a way that is easy to compute, extremely difficult to reverse, and highly unlikely that two different pieces of data have the same hash. For example, meeting [subject lines](privacy-settings.md#hash-subject-lines) that are hashed would appear not in their original, readable, form but as a meaningless number. |  
 |Insularity|When collaboration happens only with people from within a person’s team, function, department, and so on.|
 |Invitee|A person who is invited to a meeting with a meeting request.|
 | <a name="large-meeting-define"></a> Large meeting |A large meeting  involves more than eight people<!-- ADDED THIS 23 OCT:--> and lasts less than one hour. Also see [Long and large meeting](#long-and-large-meeting-define).|
@@ -66,7 +66,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Span|The number of direct reports per manager.|
 |Time investor|A *measured employee* who interacts with other collaborators in meetings and with email or instant messages. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.|
 |Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (person query results) are calculated by using the person’s time zone. Meeting metrics (meeting query results) are calculated by using the organizer’s time zone.|
-|Working hours|Hours that represent the typical workweek for the company. The Workplace Analytics default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working days and hours in **Admin settings** on the [System defaults](../use/settings.md#system-defaults) page.
+|Working hours|Hours that represent the typical workweek for the company. The Workplace Analytics default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working days and hours in **Admin settings** > [System defaults](../use/system-defaults.md).
 
 ### Related topic
 

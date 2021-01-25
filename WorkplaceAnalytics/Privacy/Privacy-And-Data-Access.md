@@ -33,7 +33,7 @@ Organizations decide who can have access to see the data in Workplace Analytics.
 * **Analyst** has full access to all product features except the administrator features.
 * **Administrator role** has access to administrator features only (**Settings** and **Data Source** pages).
 * **Program manager** has access to the Workplace Analytics **Home** page and lets program managers explore metrics in cases where the minimum group size is enforced. They also have access to **Plans** and its **Manage** and **Track** pages, where they can set up plans and track the progress of active or ended plans.
-* **People managers** can get access to Workplace Analytics through [Manager settings](../use/settings.md#manager-settings). If they meet the minimum team size, they can see the **Home** page and explore metrics about their specific team. They also have access to **Plans** and its **Manage** and **Track** pages, where they can set up plans and track the progress of active or ended plans.
+* **People managers** can get access to Workplace Analytics through [Manager settings](../use/manager-settings.md). If they meet the minimum team size, they can see the **Home** page and explore metrics about their specific team. They also have access to **Plans** and its **Manage** and **Track** pages, where they can set up plans and track the progress of active or ended plans.
 
 ## You control the data that Workplace Analytics uses
 
@@ -98,4 +98,4 @@ Office 365 email, calendar, call, and instant message metadata provides the foun
 
 ## Related topic
 
-[Workplace Analytics privacy settings](../use/settings.md#privacy-settings)
+[Workplace Analytics privacy settings](../use/privacy-settings.md)

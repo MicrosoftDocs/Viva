@@ -22,9 +22,9 @@ Use the following steps to assign Workplace Analytics licenses with PowerShell i
 
 1. Install the Azure AD PowerShell module by following these steps:
 
-   a) Open an elevated Windows PowerShell command prompt.
+   1. Open an elevated Windows PowerShell command prompt.
 
-   b) Enter the following command:
+   2. Enter the following command:
 
       ``` powershell
       Install-Module *AzureAD*
@@ -32,9 +32,9 @@ Use the following steps to assign Workplace Analytics licenses with PowerShell i
 
 2. Run the Azure AD PowerShell module:
 
-   a) Start PowerShell.
+   1. Start PowerShell.
 
-   b) Enter the following command:
+   2. Enter the following command:
 
       ``` powershell
       Import-Module *AzureAD*

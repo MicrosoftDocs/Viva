@@ -67,7 +67,7 @@ Charts also show the average for all groups, in the reference line. For more inf
 
 The Workplace Analytics admin can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. (The minimum group size can be raised or lowered, but it cannot be set to a number lower than five.)
 
-In the show of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](settings.md#privacy-settings).
+In the show of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](privacy-settings.md).
 
 ### Use of filters
 

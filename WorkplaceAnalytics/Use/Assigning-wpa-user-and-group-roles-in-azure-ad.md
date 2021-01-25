@@ -43,7 +43,7 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
 
    ![Add user](../images/WpA/Use/add-user-4.png)
 
-8. Under Add Assignment, select **Users and groups**.
+8. Under **Add Assignment**, select **Users and groups**.
 
 9. In the search field under Users and Groups, type the name of the user to assign the required permissions and then press **Enter**. The user name will appear under the search field.
 
@@ -51,13 +51,13 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
 
       ![Select user](../images/WpA/Use/select-user-5.png)
 
-    Users and groups confirms that the new user has been selected.
+    **Users and groups** shows that the new user is selected.
 
        ![Add assignment](../images/WpA/Use/user-selected-6.png)
 
-11. Under Add Assignment, select **Select Role** to choose the role you want to assign the selected user.
+11. Under **Add Assignment**, select **Select Role** to choose the role you want to assign the selected user.
 
-      ![Select role](../images/WpA/Use/select-role-7.png)
+      ![Select a role](../images/WpA/Use/select-role-7.png)
 
 12. From the list that appears, select one of the following roles:
 
@@ -107,4 +107,4 @@ However, in a larger company where the number of users required for the same rol
 * [User roles](../use/user-roles.md)
 * [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
-* [People manager settings](settings.md#manager-settings)
+* [People manager settings](manager-settings.md)
