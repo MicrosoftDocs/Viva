@@ -32,7 +32,7 @@ The visual behavioral insight for **Engage influencers** is **Reach of influence
 You can select **Take action** to see ways you can accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – **Communicate through influencers** links you to more in-depth data about your organization's [internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) in Workplace Analytics. See [Internal networks](explore-metrics-internal-networks.md) for details.
+* **Explore the stats** – **Communicate through influencers** links you to more in-depth data about your organization's [internal networks](explore-metrics-internal-networks.md). To view this data in Workplace Analytics, open [Workplace Analytics](https://workplaceanalytics.office.com), and then go to [Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks).
 
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
