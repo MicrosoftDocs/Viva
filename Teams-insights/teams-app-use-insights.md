@@ -18,7 +18,7 @@ The Viva Insights app provides personalized recommendations to build better work
 * [Protect time](#protect-time) 
 
 > [!Note] 
-> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q4-how-can-i-send-feedback-to-microsoft-about-the-insights-app). 
+> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app). 
 
 ### Stay connected  
 

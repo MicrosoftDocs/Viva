@@ -20,8 +20,8 @@ It derives these insights by summarizing your Microsoft 365 data &ndash; data th
 
 By using Insights, you and your teams can: 
 
- * **Stay connected** &ndash; Viva Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. (See [Stay connected](teams-app-use-insights.md/#stay-connected).)
- * **Protect time** &ndash; Viva Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. (See [Protect time](teams-app-use-insights.md/#protect-time).)
+ * **Stay connected** &ndash; Viva Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. (See [Stay connected](teams-app-use-insights.md#stay-connected).)
+ * **Protect time** &ndash; Viva Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. (See [Protect time](teams-app-use-insights.md#protect-time).)
 
 The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](teams-app-privacy.md). 
 
