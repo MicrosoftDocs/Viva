@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Teams insights app
-description: Teams insights (personal insights) app -- Install 
+title: Viva insights app
+description: Viva insights (personal insights) app -- Install 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Install the Teams insights app
+# Install the Viva insights app
 
 This section describes how to install the Insights Teams app for yourself. (If you are an admin who is tasked with installing the Insights Teams app for an organization, see [Admin tasks](teams-app-admin-tasks.md).)  
 
@@ -45,9 +45,9 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
-2. Right-click any app icon and select **Pin** to make and keep your app visible in the Teams app bar. 
+2. Right-click any app icon and select **Pin** (![Pin an app](Images/pin.png)) to make and keep your app visible in the Teams app bar. 
    
-   ![Pin an app in Teams](Images/pin-an-app-75.png)
+   ![Pin an app in Teams](Images/pin-an-app-in-teams.png)
 
 > [!Tip] 
 > You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
@@ -58,10 +58,10 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 2. Select **Reorder** and drag and drop the app so it is no longer in the More section. 
 
-   ![Pin an app in Teams](Images/ios-android.png)
+   ![Reorder android app icon](Images/ios-android.png)
 
 3. Select **Done** to save your changes. 
 
 ## Related topics
 
-[Teams insights app &ndash; Overview](teams-app.md)
+[Viva insights app &ndash; Overview](teams-app.md)

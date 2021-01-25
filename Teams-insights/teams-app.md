@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Teams insights app
-description: Teams Insights (personal insights) app -- Overview 
+title: Viva insights app
+description: Viva Insights (personal insights) app -- Overview 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -14,14 +14,14 @@ ms.prod: Mya
 
 ## Overview
 
-The Teams Insights app provides personalized recommendations to change how you work to do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
+The Viva Insights app provides personalized recommendations to change how you work to do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
 It derives these insights by summarizing your Microsoft 365 data &ndash; data that you already have access to &ndash; about emails, meetings, calls, and chats. 
 
 By using Insights, you and your teams can: 
 
- * **Stay connected** &ndash; Teams Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. 
- * **Protect time** &ndash; Teams Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. 
+ * **Stay connected** &ndash; Viva Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. (See [Stay connected](teams-app-use-insights.md/#stay-connected).)
+ * **Protect time** &ndash; Viva Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. (See [Protect time](teams-app-use-insights.md/#protect-time).)
 
 The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](teams-app-privacy.md). 
 
@@ -36,11 +36,11 @@ The personal insights and actions in the Insights app are based on your Exchange
 
 ## Related topics
 
-[Use the Teams insights app](teams-app-use-insights.md)
+[Use the Viva insights app](teams-app-use-insights.md)
 
 [Privacy guide](teams-app-privacy.md)
 
-[Install the Teams insights app](teams-app-install.md)
+[Install the Viva insights app](teams-app-install.md)
 
 [Frequently asked questions](teams-app-faq.md)
 

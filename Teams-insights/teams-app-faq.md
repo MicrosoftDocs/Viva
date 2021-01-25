@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Teams insights app
-description: Teams insights (personal insights) app -- FAQ
+title: Viva insights app
+description: Viva insights (personal insights) app -- FAQ
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -12,19 +12,19 @@ ms.prod: Mya
 
 # Frequently asked questions 
 
-##### Q1. Does the Teams insights app comply with GDPR? 
+##### Q1. Does the Viva insights app comply with GDPR? 
 
-**A1.** Yes. The Teams Insights app complies with GDPR requirements. 
+**A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](teams-app-faq.md/#gdpr-compliance).)
 
 ##### Q2. Can users see information about other users in the Insights app? 
 
-**A2.** The Insights app only includes existing information that’s already available in the user’s mailbox. It summarizes documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes. 
+**A2.** The personal insights in the Viva Insights app include only existing information that’s already available in the user’s mailbox. The insights surface content from documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes. 
 
 ##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app? 
 
-**A3.** No, the content in the Insights app is private and visible to you and only you. All information in the Insights app is from your mailbox and stored in your mailbox. Everything you see in the Insights app is information that you already have access to in your mailbox. Insights just makes it easier to find items that might need attention. 
+**A3.** No. Personal insights are private and visible to you and only you. Personal information in the Insights app is from your mailbox and stored in your mailbox. Insights just makes it easier to find items that might need attention. 
 
-##### Q4. How can I send feedback to Microsoft about the Insights app? 
+##### Q4. How can I send feedback to Microsoft about the Viva Insights app? 
 
 **A4.** There are two ways to provide feedback through the Insights app: 
 
@@ -38,7 +38,7 @@ ms.prod: Mya
    
    ![Thanks for the feedback](Images/thanks-for-feedback-70-80.png)
    
-##### Q5. What data does the Teams Insights app use? 
+##### Q5. What data does the Viva Insights app use? 
 
 **A5.** Insights uses: 
 
@@ -64,5 +64,5 @@ Insights does not use:
 
 ## Related topics
 
-[Teams insights app &ndash; Overview](teams-app.md)
+[Viva insights app &ndash; Overview](teams-app.md)
 

@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Teams insights app
-description: Teams insights (personal insights) app -- Use the app
+title: Viva insights app
+description: Viva insights (personal insights) app -- Use the app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -12,17 +12,19 @@ ms.prod: Mya
 
 # Use the Insights app 
 
-The Teams insights app provides personalized recommendations to build better work habits. You can find them in the following tabs:
+The Viva Insights app provides personalized recommendations to build better work habits. You can find them in the following tabs:
 
 * [Stay connected](#stay-connected) 
-* [Protect time](#protect-time-tab) 
+* [Protect time](#protect-time) 
 
 > [!Note] 
-> As you use the Teams insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q4-how-can-i-send-feedback-to-microsoft-about-the-insights-app). 
+> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q4-how-can-i-send-feedback-to-microsoft-about-the-insights-app). 
 
 ### Stay connected  
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
+
+<!-- BEFORE PUBLISHING ON 4 FEB. 2021, UPDATE THIS IMAGE TO SHOW NEW BRAND NAME IN THE HEADER -->
    
    ![Stay connected](images/stay-connected.png)
 
@@ -53,7 +55,7 @@ To unpin a contact, select the **unpin** icon:
 
 #### Set up 1:1 meeting reminders 
 
-While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. Teams insights can help you set a target 1:1 meeting frequency for each contact and provide  you with meeting recommendations if you are falling out of touch.  
+While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. Viva insights can help you set a target 1:1 meeting frequency for each contact and provide  you with meeting recommendations if you are falling out of touch.  
 
 In the following example, if Lynne was an important colleague, you could set up a monthly 1:1 meeting target with Lynne by selecting the **people** icon and then selecting the **Monthly** reminder frequency. Insights will keep track of your meetings with Lynne and if you have not had a 1:1 with Lynne for a month, it will suggest setting up a 1:1 meeting and help you schedule it. 
 
@@ -111,7 +113,7 @@ In the following example, select **Sync on Proposal** to open the meeting invita
    
    ![You haven't RSVP'd](Images/havent-rsvpd.png)
 
-### Protect time tab 
+### Protect time 
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects. 
 
@@ -123,6 +125,6 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 ## Related topics
 
-[Teams insights app &ndash; Overview](teams-app.md)
+[Viva insights app &ndash; Overview](teams-app.md)
 
  
