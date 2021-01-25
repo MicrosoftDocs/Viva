@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Explore the stats data in Workplace Analytics gives you a starting point with quick insights about your organization and to identify data you'll want to investigate further.
 
-The following are available through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a related insight. However, you can also bookmark a direct link to each. For example, go to [Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
+The following are available through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a related insight. For example, to see **Meetings overview** data in Workplace Analytics, select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**. However, you can also bookmark a direct link to each. For example, go to [Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
 
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) summarizes day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) summarizes meeting norms within your organization.
