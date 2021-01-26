@@ -11,7 +11,7 @@ ms.prod: Mya
 ---
 # Follow up on tasks
 
-For **Commitments and follow-ups** in your Briefing, you'll see the one or more of the following based on your recent email activity:
+For **Commitments and follow-ups** in your Briefing, you'll see one or more of the following based on your recent email activity:
 
 * **Commitment** - Something you promised or committed to do for someone else in an email.
 * **Request** - Something another person asked you to do in an email.

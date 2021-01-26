@@ -52,6 +52,10 @@ sections:
         answer: |
           Once per workday (as set in Outlook) when you have actions needed to prepare for a meeting or in response to an email. The email is not sent when you have no actionable items.
 
+      - question: Can I change the time of day I get the Briefing?
+        answer: |
+          Yes. See [Settings](be-settings.md) for details.
+
       - question: If I have no tasks or meetings, will I still receive a Briefing email?  
         answer: |
           No, you will never be sent an empty email with no content.
