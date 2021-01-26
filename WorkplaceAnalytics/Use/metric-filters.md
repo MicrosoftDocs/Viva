@@ -22,8 +22,8 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | ------ | ----------- |
 | Day of week | The day of the week during which the call was placed | 
 | Duration (in hours)  | The amount of time, in hours, that the call lasted | 
-| IsOrganizer  | True means that this person initiated the call; False means that this person did not initiate the call | 
-| IsScheduledCall  | True means that this call is scheduled on someone's Outlook calendar; False means that this call is not scheduled on any person's Outlook calendar | 
+| IsOrganizer  | True means that this person initiated the call; <br>False means that this person did not initiate the call. | 
+| IsScheduledCall  | True means that this call is scheduled on someone's Outlook calendar; <br>False means that this call is not scheduled on any person's Outlook calendar. | 
 | Time of day started &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | The time of day that the call began | 
 | TotalParticipants  | The number of participants in the call | 
 
@@ -32,8 +32,8 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Filter | Description |
 | ------ | ----------- |
 | Day of week | Day of the week on which the email was sent | 
-| IsSender | True means that this person sent the email; False means that this person did not send the email | 
-| Time of day | Time of day the sent on which the email was sent | 
+| IsSender | True means that this person sent the email; <br>False means that this person did not send the email. | 
+| Time of day | Time of day on which the email was sent | 
 | Number of recipients | Number of the recipients on which the email was sent | 
 | Subject | The Subject line of the email | 
 
@@ -42,9 +42,9 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Filter | Description |
 | ------ | ----------- |
 | Day of week  | The day of the week on which the IM was sent | 
-| IsAfterHours | True means that this IM was sent during the recipient's after-hours period | 
-| InteractionType | The type of chat in which the IM appears, namely in a _OneToOneChat_ or in a  _GroupChat_ | 
-| IsSender | True means that this person sent the email; False means that this person did not send the email | 
+| IsAfterHours | True means that this IM was sent during the recipient's after-hours period; <br>False means that it was not sent during that period. | 
+| InteractionType | The type of chat in which the IM appears, namely in a one-on-one chat or in a group chat. | 
+| IsSender | True means that this person sent the email; <br>False means that this person did not send the email. | 
 | Time of day sent &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent | 
 | TotalParticipants | Number of people who participated in the IM thread, including the sender of the initial IM | 
 
@@ -53,8 +53,8 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Filter | Description |
 | ------ | ----------- |
 | Duration (in hours) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Duration of the meeting | 
-| IsRecurring | True means that this meeting is set to recur; False means that this meeting is not set to recur | 
-| IsCancelled   | True means that this meeting has been cancelled; False means that this meeting has not been cancelled | 
+| IsRecurring | True means that this meeting is set to recur; <br>False means that this meeting is not set to recur. | 
+| IsCancelled   | True means that this meeting has been cancelled; <br>False means that this meeting has not been cancelled. | 
 | Subject         | Subject line of the meeting invitation | 
 | Total accepted  | Number of invitees who have accepted the meeting invitation | 
 | Total declined  | Number of invitees who have declined the meeting invitation | 
@@ -116,11 +116,11 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 
    ![Sent before 7:00 PM](../images/wpa/use/sent-before-7pm.png)
 
-7. You have now filtered your base metric. To indicate its new state, you can now optionally change its display name. In the field under **Display Name**, change **Emails sent** to **Emails sent before 7 PM** and then click outside the field to save the new name:
+7. You have now filtered your base metric. To name this new filtered metric, you can optionally change its display name. In the field under **Display Name**, change **Emails sent** to **Emails sent before 7 PM** and then click outside the field to save the new name:
 
    ![Edited metric name](../images/wpa/use/edit-metric-name.png)
 
-   Now, after you run the query, the edited metric name will appear as a header in the query results: 
+   After you run the query, the edited metric name will appear as a header in the query results: 
 
       ![Edited metric name](../images/wpa/use/edited-metric-name.png)
 
