@@ -10,6 +10,8 @@ ms.prod: wpa
 
 ---
 
+<!-- Note: I verified the spelling, capitalization, and spacing in the names of these filters on the public demo at https://workplaceanalytics.office.com/en-us/Analyze/Queries/Person on 26 Jan. 2021 -->
+
 # Metric filters
 
 To customize the results from Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)). 
@@ -22,7 +24,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | ------ | ----------- |
 | Day of week | The day of the week during which the call was placed | 
 | Duration (in hours)  | The amount of time, in hours, that the call lasted | 
-| IsOrganizer  | True means that this person initiated the call; <br>False means that this person did not initiate the call. | 
+| Is organizer  | True means that this person initiated the call; <br>False means that this person did not initiate the call. | 
 | IsScheduledCall  | True means that this call is scheduled on someone's Outlook calendar; <br>False means that this call is not scheduled on any person's Outlook calendar. | 
 | Time of day started &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | The time of day that the call began | 
 | TotalParticipants  | The number of participants in the call | 
@@ -42,31 +44,33 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Filter | Description |
 | ------ | ----------- |
 | Day of week  | The day of the week on which the IM was sent | 
-| IsAfterHours | True means that this IM was sent during the recipient's after-hours period; <br>False means that it was not sent during that period. | 
 | InteractionType | The type of chat in which the IM appears, namely in a one-on-one chat or in a group chat. | 
+| IsAfterHours | True means that this IM was sent during the recipient's after-hours period; <br>False means that it was not sent during that period. | 
 | IsSender | True means that this person sent the email; <br>False means that this person did not send the email. | 
-| Time of day sent &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent | 
+| Time of day &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent | 
 | TotalParticipants | Number of people who participated in the IM thread, including the sender of the initial IM | 
+
+<!-- Still need in this table: 'Time (hours)'  -->
 
 ## Meeting filters 
 
 | Filter | Description |
 | ------ | ----------- |
 | Duration (in hours) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Duration of the meeting | 
-| IsRecurring | True means that this meeting is set to recur; <br>False means that this meeting is not set to recur. | 
-| IsCancelled   | True means that this meeting has been cancelled; <br>False means that this meeting has not been cancelled. | 
+| Is recurring    | True means that this meeting is set to recur; <br>False means that this meeting is not set to recur. | 
+| IsCancelled     | True means that this meeting has been cancelled; <br>False means that this meeting has not been cancelled. | 
 | Subject         | Subject line of the meeting invitation | 
 | Total accepted  | Number of invitees who have accepted the meeting invitation | 
+| Total attendees | Total attendees can be configured at the report level by using an [attendee-exclusion rule](../tutorials/attendee-exclusion-rules.md). When you select an attendee-exclusion rule, you redefine meeting attendance to include or exclude the cases of “tentative” and “no response.” Therefore, based on the attendee-exclusion rule that you have selected, Total attendees can mean one of the following: <br> <ul> <li>Total attendees = Total accepted </li> <li>Total attendees = Total accepted + Total no response </li> <li>Total attendees = Total accepted + Total tentatively accepted </li> <li>Total attendees = Total accepted + Total no response + Total tentatively accepted </li> </ul> |
 | Total declined  | Number of invitees who have declined the meeting invitation | 
 | Total double booked  | Number of invitees who have accepted this meeting invitation and the invitation of another meeting that is scheduled to overlap with this one | 
 | Total emails sent during meeting   | Number of emails sent by all participants during the meeting | 
-| Total no responses   | Number of invitees who did not respond to the meeting invitation | 
-| Day of week   | Day of the week for which the meeting is scheduled | 
-| IsOrganizer   | The person who invited others to the meeting | 
-| Time of day started   | Time of day that the meeting actually started | 
-| Total attendees   | Total attendees can be configured at the report level by using an [attendee-exclusion rule](../tutorials/attendee-exclusion-rules.md). When you select an attendee-exclusion rule, you redefine meeting attendance to include or exclude the cases of “tentative” and “no response.” Therefore, based on the attendee-exclusion rule that you have selected, Total attendees can mean one of the following: <br> <ul> <li>Total attendees = Total accepted </li> <li>Total attendees = Total accepted + Total no response </li> <li>Total attendees = Total accepted + Total tentatively accepted </li> <li>Total attendees = Total accepted + Total no response + Total tentatively accepted </li> </ul> | 
+| Total no responses   | Number of invitees who did not respond to the meeting invitation     | 
+| Day of week          | Day of the week for which the meeting is scheduled | 
+| Is organizer         | The person who invited others to the meeting | 
+| Time of day started  | Time of day that the meeting actually started |  
 
-<!-- Still need in this table: MeetingResources  -->
+<!-- Still need in this table: 'MeetingResources'  -->
 
 ## Participant filters
 
