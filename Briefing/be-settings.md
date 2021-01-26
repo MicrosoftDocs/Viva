@@ -16,10 +16,10 @@ You can change your personal settings for the Briefing email to set what time of
 **To update settings**
 
 1. Near the end of any Briefing email, select **Settings** or go to [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
-2. In **Settings**, you can change the following:
+2. In **Settings**, you can change the following, which take affect the next working day if you have any insights:
 
-   * To unsubscribe, select **On** to turn it **Off**.
-   * In **When would you like to receive this email**, select the time of day you want to receive it, and then select **Save**.
+   * To change your subscription, set **Cortana Briefing** **On** to subscribe or **Off** to unsubscribe.
+   * In **When would you like to receive this email**, select a preferred time, and then select **Save**. You'll receive your next Briefing within two hours of this new time.
 
    ![Briefing settings](./images/settings.png)
 
