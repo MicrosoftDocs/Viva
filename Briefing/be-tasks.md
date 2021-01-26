@@ -29,7 +29,7 @@ In the following example, you’d select **Done** to confirm you’ve already do
 
 Or if you use the To Do feature, you could select **Add to To Do**.
 
-![Briefing email about tasks](./images/be-task-to-do.png)
+![Briefing email about To Dos](./images/be-task-to-do.png)
 
 ## Related topics
 
