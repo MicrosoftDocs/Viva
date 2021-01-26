@@ -19,7 +19,7 @@ You can change your personal settings for the Briefing email to set what time of
 2. In **Settings**, you can change the following, which take affect the next working day if you have any insights:
 
    * To change your subscription, set **Cortana Briefing** **On** to subscribe or **Off** to unsubscribe.
-   * In **When would you like to receive this email**, select a preferred time, and then select **Save**. You'll receive your next Briefing within two hours of this new time.
+   * In **When would you like to receive this email**, select a preferred time period, and then select **Save**. You'll receive your next Briefing within two hours of this new time.
 
    ![Briefing settings](./images/settings.png)
 
