@@ -116,7 +116,7 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 
    ![Sent before 7:00 PM](../images/wpa/use/sent-before-7pm.png)
 
-7. You have now filtered your base metric. To name this new filtered metric, you can optionally change its display name. In the field under **Display Name**, change **Emails sent** to **Emails sent before 7 PM** and then click outside the field to save the new name:
+7. You have now filtered your base metric. You can optionally change the display name of this new filtered metric. In the field under **Display Name**, change **Emails sent** to **Emails sent before 7 PM** and then click outside the field to save the new name:
 
    ![Edited metric name](../images/wpa/use/edit-metric-name.png)
 
