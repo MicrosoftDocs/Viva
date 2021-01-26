@@ -2,6 +2,14 @@
 
 
 
+## Week of January 18, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/22/2021 | [Accelerate change with Workplace Analytics insights](/workplace-analytics-insights/accelerate-change) | modified |
+
+
 ## Week of December 21, 2020
 
 
