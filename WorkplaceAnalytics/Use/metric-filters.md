@@ -16,47 +16,45 @@ To customize the results from Workplace Analytics [queries](../tutorials/query-b
 
 After you select a metric for a query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the new focus that you gave when you applied filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
 
-## Metric filters, by type
-
-### Filters for calls
+## Call filters
 
 | Filter | Description |
 | ------ | ----------- |
 | Day of week | The day of the week during which the call was placed | 
 | Duration (in hours)  | The amount of time, in hours, that the call lasted | 
-| IsOrganizer  | True = this person initiated the call; False = this person did not initiate the call | 
-| IsScheduledCall  | True = this call is scheduled on someone's Outlook calendar; False = this call is not scheduled on any person's Outlook calendar | 
+| IsOrganizer  | True means that this person initiated the call; False means that this person did not initiate the call | 
+| IsScheduledCall  | True means that this call is scheduled on someone's Outlook calendar; False means that this call is not scheduled on any person's Outlook calendar | 
 | Time of day started &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | The time of day that the call began | 
 | TotalParticipants  | The number of participants in the call | 
 
-### Filters for emails
+## Email filters
 
 | Filter | Description |
 | ------ | ----------- |
 | Day of week | Day of the week on which the email was sent | 
-| IsSender | True = this person sent the email; False = this person did not send the email | 
+| IsSender | True means that this person sent the email; False means that this person did not send the email | 
 | Time of day | Time of day the sent on which the email was sent | 
 | Number of recipients | Number of the recipients on which the email was sent | 
 | Subject | The Subject line of the email | 
 
-### Filters for instant messages (IMs)
+## Instant messages (IM) filters
 
 | Filter | Description |
 | ------ | ----------- |
 | Day of week  | The day of the week on which the IM was sent | 
-| IsAfterHours | True = This IM was sent during  the recipient's after-hours period | 
+| IsAfterHours | True means that this IM was sent during the recipient's after-hours period | 
 | InteractionType | The type of chat in which the IM appears, namely in a _OneToOneChat_ or in a  _GroupChat_ | 
-| IsSender | True = this person sent the email; False = this person did not send the email | 
+| IsSender | True means that this person sent the email; False means that this person did not send the email | 
 | Time of day sent &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent | 
 | TotalParticipants | Number of people who participated in the IM thread, including the sender of the initial IM | 
 
-### Filters for meetings 
+## Meeting filters 
 
 | Filter | Description |
 | ------ | ----------- |
 | Duration (in hours) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Duration of the meeting | 
-| IsRecurring | True = this meeting is set to recur; False = this meeting is not set to recur | 
-| IsCancelled   | True = this meeting has been cancelled; False = this meeting has not been cancelled | 
+| IsRecurring | True means that this meeting is set to recur; False means that this meeting is not set to recur | 
+| IsCancelled   | True means that this meeting has been cancelled; False means that this meeting has not been cancelled | 
 | Subject         | Subject line of the meeting invitation | 
 | Total accepted  | Number of invitees who have accepted the meeting invitation | 
 | Total declined  | Number of invitees who have declined the meeting invitation | 
@@ -71,18 +69,18 @@ After you select a metric for a query, you can narrow the focus of that metric b
 <!-- Still need in this table: MeetingResources  -->
 
 
-### Filters for participants
+## Filters for participants
 
 The following tables list filters that can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
 
-#### Individual filters
+### Individual filters
 
 | Filter &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | Description |
 | ------ | ----------- |
 | Is Manager Present   | A Boolean that indicates that the participant is the direct manager of the measured user. | 
 | Is Direct Report Present  | Indicates that the participant is the direct report of the measured user. | 
  
-#### Groups of filters
+### Groups of filters
 
 Organizational-data attributes and CRM attributes can also be used as participant filters. 
 
