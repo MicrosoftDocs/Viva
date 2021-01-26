@@ -68,19 +68,18 @@ After you select a metric for a query, you can narrow the focus of that metric b
 
 <!-- Still need in this table: MeetingResources  -->
 
-
-## Filters for participants
+## Participant filters
 
 The following tables list filters that can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
 
-### Individual filters
+### Individual participant filters
 
 | Filter &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | Description |
 | ------ | ----------- |
 | Is Manager Present   | A Boolean that indicates that the participant is the direct manager of the measured user. | 
 | Is Direct Report Present  | Indicates that the participant is the direct report of the measured user. | 
  
-### Groups of filters
+### Groups of participant filters
 
 Organizational-data attributes and CRM attributes can also be used as participant filters. 
 
