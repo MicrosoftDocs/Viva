@@ -2,7 +2,7 @@
 
 title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
-author: paul9955; madehmer
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal
