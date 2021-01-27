@@ -9,7 +9,7 @@ localization_priority: none
 ms.prod: wpa
 
 ---
-# Set up insights
+# Set up Insights
 
 *This experience is only available through private preview at this time.*
 
@@ -79,7 +79,7 @@ Alternatively, you can sign in as a global admin to Azure Active Directory to [a
 
    ![Keep both options set to On](./images/keep-options-on.png)
 
-6. It can take a few minutes up to 24 hours for the license assignments to update to the server, which is based on your specific server settings.
+6. It can take a few minutes up to 72 hours for the license assignments to update to the server, which is based on your specific server settings.
 
 > [!Note]
 > If you are assigning licenses to a group that has more people than you have licenses for, the tool will assign users as listed in the group up to the number of available licenses, and then you'll see an error message about how many in the group have and do not have licenses.

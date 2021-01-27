@@ -86,12 +86,12 @@ For more information, see [Customize a base metric in a query](../tutorials/cust
 
 ##### Q1. What are the basic steps to enable Workplace Analytics?
 
-A1.  These are main tasks required to enable Workplace Analytics for your organization:
+A1. The main tasks required to enable Workplace Analytics for your organization are:
 
- * Assign licenses 
- * Assign roles 
- * Configure settings
- * Upload organizational data
+* Assign licenses
+* Assign roles
+* Configure settings
+* Upload organizational data
 
 For complete information about setup, see [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md).
 
@@ -130,7 +130,7 @@ A6. Licensed. Specifically, this number refers to licensed employees who are als
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees (internal collaborators) through meetings, email, unscheduled calls, or instant messages. These employees are not measured and their data is not processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they are not ignored but they are not measured and their data is not processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 
