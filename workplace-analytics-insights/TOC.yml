@@ -7,7 +7,11 @@
     - name: Data access and analysis
       href: ./data-analysis.md      
 - name: Setup
-  href: ./setup.md
+  items:
+    - name: Assign licenses
+      href: ./setup.md
+    - name: Assign roles
+      href: ./assign-roles.md
 - name: Business outcomes
   items:
     - name: Enhance organizational resiliency
