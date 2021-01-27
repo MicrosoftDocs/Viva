@@ -9,7 +9,7 @@ localization_priority: none
 ms.prod: wpa
 
 ---
-# Set up Insights
+# Set up insights
 
 *This experience is only available through private preview at this time.*
 
