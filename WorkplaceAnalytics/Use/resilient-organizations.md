@@ -48,7 +48,8 @@ You can select **See your insights** to see ways you can enhance organizational 
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Protect employee wellbeing | Help employees disconnect | [Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|  |Practice empathy | Increase frequency of coaching | Management and coaching |
+  |Protect employee wellbeing | Help employees disconnect | [Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|  
+  |Practice empathy | Increase frequency of coaching | Management and coaching |
   |Free up capacity | Reduce meeting hours | [Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|
   |Accelerate decision making | Empower employees to make decisions |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)
 
