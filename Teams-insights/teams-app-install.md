@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Viva insights app
-description: Viva insights (personal insights) app -- Install 
+title: Viva Insights app - Install
+description: Viva Insights (personal insights) app -- Install 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -64,4 +64,4 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 ## Related topics
 
-[Viva insights app &ndash; Overview](teams-app.md)
+[Viva Insights app &ndash; Overview](teams-app.md)

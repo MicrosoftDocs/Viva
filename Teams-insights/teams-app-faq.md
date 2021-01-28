@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Viva insights app
-description: Viva insights (personal insights) app -- FAQ
+title: Viva Insights app - FAQ
+description: Viva Insights (personal insights) app -- FAQ
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -12,7 +12,7 @@ ms.prod: Mya
 
 # Frequently asked questions 
 
-##### Q1. Does the Microsoft Viva insights app comply with GDPR? 
+##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 
 **A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](teams-app-faq.md#gdpr-compliance).)
 
@@ -22,11 +22,11 @@ ms.prod: Mya
 
 ##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app? 
 
-**A3.** No. Personal insights are private and visible to you and only you. Personal information in the Insights app is from your mailbox and stored in your mailbox. Insights just makes it easier to find items that might need attention. 
+**A3.** No. Personal insights are private and visible to you and only you. Personal information in the Insights app is from your mailbox and stored in your mailbox. Insights just make it easier to find items that might need attention. 
 
 ##### Q4. How can I send feedback to Microsoft about the Viva Insights app? 
 
-**A4.** There are two ways to provide feedback through the Insights app: 
+**A4.** There are two ways to provide feedback through the Viva Insights app: 
 
 * At the bottom of every Insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
@@ -58,11 +58,11 @@ Insights does not use:
 
  * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
 
-##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
+##### Q6. Why do I not see the Insights and suggestions that are described in the documentation?
 
 **A6.** To get access to the full functionality of the Viva Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
 
 ## Related topics
 
-[Viva insights app &ndash; Overview](teams-app.md)
+[Viva Insights app &ndash; Overview](teams-app.md)
 

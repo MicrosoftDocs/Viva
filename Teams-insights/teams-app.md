@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Viva insights app
+title: Viva Insights app - Overview
 description: Viva Insights (personal insights) app -- Overview 
 author: paul9955
 ms.author: v-pausch
