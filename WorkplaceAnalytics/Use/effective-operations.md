@@ -44,15 +44,14 @@ The following defines the organizational data shown in the visual behavioral ins
 You can select **See your insights** to see ways you can maximize operational effectiveness in your organization. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [meetings](explore-metrics-meetings-overview.md). In the **Take action** section for each of the following, select **See your insights** > **Explore the stats** to access them:
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [meetings](explore-metrics-meetings-overview.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
 
-  * **Free up capacity** > **Reduce meeting hours** > [**Teamwork**](https://workplaceanalytics.office.com/Plans/Teamwork)
-
-  * **Improve meeting quality** > **Try shorter and smaller meetings** > **Meetings overview**
-
-  * **Keep employees engaged** > **Improve meeting practices** > [**Teamwork**](https://workplaceanalytics.office.com/Plans/Teamwork)
-
-  * **Protect time to get work done** > **Establish new work habits** > [**Teamwork**](https://workplaceanalytics.office.com/Plans/Teamwork)
+  |Behavior |Recommendation |Explore the stats|
+  |---|---|---|
+  |Free up capacity |Reduce meeting hours |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)
+  |Improve meeting quality |Try shorter and smaller meetings |Meetings overview |
+  |Keep employees engaged |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
+  |Protect time to get work done |Establish new work habits |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
