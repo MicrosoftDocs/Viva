@@ -24,7 +24,7 @@ External collaboration includes a number of graphs that enable you to analyze da
 
 ## Access to External collaboration
 
-**External collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [External collaboration](https://workplaceanalytics.office.com/Home/Agility/ExternalCollaboration) to view it in Workplace Analytics.
+**External collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. Or you can bookmark a direct link to each in Workplace Analytics. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then go to [/Agility/ExternalCollaboration](/Agility/ExternalCollaboration) and save this direct link as a bookmark.
 
 ## Trend and distribution charts
 
