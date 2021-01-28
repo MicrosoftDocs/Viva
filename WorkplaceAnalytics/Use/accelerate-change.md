@@ -2,7 +2,7 @@
 
 title: Accelerate change with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and accelerate organizational change
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -12,7 +12,7 @@ ms.prod: wpa
 # Accelerate change
 
 > [!Important]
-> This insight is available only in organizations that have at least 200 licensed users. If your organization has fewer than that, you'll see an alert on the **Accelerate change** page that reads as follows: "This insight is unavailable because the minimum number of employees is not met."  
+> This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert for **Accelerate change** about the insight being "unavailable because the minimum number of employees is not met."
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
