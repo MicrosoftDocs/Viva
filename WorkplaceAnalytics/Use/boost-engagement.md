@@ -47,13 +47,13 @@ The following defines the organizational data shown in the visual behavioral ins
 You can select **See your insights** to see ways you can improve employee engagement. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) and [teamwork](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following, select **See your insights** > **Explore the stats** to access them:
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) and [teamwork](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
 
-  * **Promote coaching and development** > **Increase frequency of coaching** > **Management and coaching**
-
-  * **Prevent employee burnout** > **Help employees disconnect** > [**Teamwork**](https://workplaceanalytics.office.com/Plans/Teamwork)
-
-  * **Drive employee empowerment** > **Increase information sharing** > **Management and coaching**  
+  |Behavior |Recommendation |Explore the stats|
+  |---|---|---|
+  |Promote coaching and development |Increase frequency of coaching |Management and coaching |
+  |Prevent employee burnout |Help employees disconnect|[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|
+  |Drive employee empowerment |Increase information sharing |Management and coaching | 
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
