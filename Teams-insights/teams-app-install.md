@@ -64,4 +64,4 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 ## Related topics
 
-[Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](teams-app.md)

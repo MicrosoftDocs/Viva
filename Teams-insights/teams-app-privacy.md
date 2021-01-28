@@ -44,6 +44,6 @@ To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/priva
 
 ## Related topics
 
-[Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
 
  

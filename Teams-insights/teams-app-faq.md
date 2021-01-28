@@ -26,7 +26,7 @@ ms.prod: Mya
 
 ##### Q4. How can I send feedback to Microsoft about the Viva Insights app? 
 
-**A4.** There are two ways to provide feedback through the Viva Insights app: 
+**A4.** There are two ways to provide feedback through the Insights app: 
 
 * At the bottom of every Insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
@@ -52,17 +52,17 @@ ms.prod: Mya
   * Subject 
   * Duration 
   * Attendees 
-* OneDrive SharePoint data: Insights shows a count of OneDrive and SharePoint documents that you have worked on. 
+* OneDrive SharePoint data: Viva Insights shows a count of OneDrive and SharePoint documents that you have worked on. 
 
 Insights does not use:  
 
  * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
 
-##### Q6. Why do I not see the Insights and suggestions that are described in the documentation?
+##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
 
 **A6.** To get access to the full functionality of the Viva Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
 
 ## Related topics
 
-[Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
 

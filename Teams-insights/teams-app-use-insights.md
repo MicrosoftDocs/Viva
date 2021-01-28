@@ -57,25 +57,25 @@ To unpin a contact, select the **unpin** icon:
 
 While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. Microsoft Viva Insights can help you set a target 1:1 meeting frequency for each contact and provide  you with meeting recommendations if you are falling out of touch.  
 
-In the following example, if Lynne was an important colleague, you could set up a monthly 1:1 meeting target with Lynne by selecting the **people** icon and then selecting the **Monthly** reminder frequency. Microsoft Viva Insights will keep track of your meetings with Lynne and if you have not had a 1:1 with Lynne for a month, it will suggest setting up a 1:1 meeting and help you schedule it. 
+In the following example, if Lynne was an important colleague, you could set up a monthly 1:1 meeting target with Lynne by selecting the **people** icon and then selecting the **Monthly** reminder frequency. Viva Insights will keep track of your meetings with Lynne and if you have not had a 1:1 with Lynne for a month, it will suggest setting up a 1:1 meeting and help you schedule it. 
 
-If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Microsoft Viva Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
+If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Viva Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
    
    ![MyAnalytics settings](Images/1-1-meeting-target-75-80.png)
 
 #### 1:1 meeting suggestions 
 
-If you’ve set up a target 1:1 meeting cadence with your colleague through the Microsoft Viva Insights app and are falling out of the set cadence, Microsoft Viva Insights will remind you to set up a 1:1 meeting and help you schedule it.  
+If you’ve set up a target 1:1 meeting cadence with your colleague through the Microsoft Viva Insights app and are falling out of the set cadence, Viva Insights will remind you to set up a 1:1 meeting and help you schedule it.  
 
-In the following example, you can select one of the proposed meeting times and then select **Send invite** to send a meeting invitation to Lynne. Microsoft Viva Insights will only show meeting time blocks when both of you are available to meet. If none of the suggested time blocks work, you can select **View calendar for other items** to open the Teams calendar and schedule a meeting on your own. 
+In the following example, you can select one of the proposed meeting times and then select **Send invite** to send a meeting invitation to Lynne. Viva Insights will only show meeting time blocks when both of you are available to meet. If none of the suggested time blocks work, you can select **View calendar for other items** to open the Teams calendar and schedule a meeting on your own. 
    
    ![Schedule a 1:1](Images/schedule-1-1.png)
 
 #### Reschedule a 1:1 in case of conflict  
 
-Microsoft Viva Insights also helps you follow through on your intent to have 1:1 meeting with your colleagues. If, for some reason, the 1:1 meeting invitation you sent to your colleague has a conflict, Microsoft Viva Insights will help you quickly reschedule the meeting. 
+Microsoft Viva Insights also helps you follow through on your intent to have 1:1 meeting with your colleagues. If, for some reason, the 1:1 meeting invitation you sent to your colleague has a conflict, Viva Insights will help you quickly reschedule the meeting. 
 
-In the following example, if your meeting with Lynne has a conflict, Microsoft Viva Insights will remind you of the conflict ahead of time and you can quickly choose a new time for the 1:1 meeting and select **Reschedule** to move the meeting invitation. 
+In the following example, if your meeting with Lynne has a conflict, Viva Insights will remind you of the conflict ahead of time and you can quickly choose a new time for the 1:1 meeting and select **Reschedule** to move the meeting invitation. 
    
    ![1:1 has a conflict](Images/1-1-conflict.png)
 
