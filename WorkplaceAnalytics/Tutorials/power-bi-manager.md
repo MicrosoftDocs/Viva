@@ -13,12 +13,7 @@ ms.prod: wpa
 
 The Manager effectiveness dashboard for Power BI uses Workplace Analytics data to view standard behaviors and leadership exposure among managers in your organization. Leaders can use this analysis to measure behaviors and trends of people managers across the organization. You'll also get insights about key behaviors by organization and best practices recommended by industry experts to either maintain or improve leadership work patterns.
 
-This dashboard provides insights into the following areas about your organization.
-
-* **Manager metrics** - Shows the metrics and trends about manager behaviors in key areas, such as average collaboration, meeting, email, and focus hours.
-* **Leadership exposure** – Shows how leaders interact with employees in your organization, including manager coaching hours, manager generated workload meetings and email, meeting hours with managers, and skip-level meetings.
-
-The dashboard includes the following reports that answer the related business questions, along with a **Why it matters** interpretation.
+The dashboard includes the following reports that highlight key leadership indicators about how effective your managers are now and how you can help motivate and support improvements, along with a **Why it matters** interpretation for each report.
 
 * **Coach - Do managers have enough time for their employees?** - Shows the weekly average number of hours that managers spend collaborating with people in the organization grouped by organizationa and type of communication, including meetings, emails, chats, and calls. It also shows the average percentage of collaboration time that managers spent with direct reports as compared to others in the organization.
 * **Coach - Are employees receiving sufficient coaching time with their manager?** – Shows the monthly average number of minutes that employees spent in 1:1 meetings with their direct managers. It also shows the percentage of employees who spent different ranges of time in the last four weeks in 1:1s with their manager and the average frequency of 1:1 time for employees grouped by organization in a week, month, or quarter.
