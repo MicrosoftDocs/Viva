@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Introducing Insights
-description: About Insights to learn how your organization gets work done
+title: Introducing insights
+description: About Workplace Analytics insights to learn how your organization gets work done
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
@@ -15,13 +15,13 @@ ms.prod: wpa
 
 As a business leader, understanding how your employees work together is important. Microsoft Insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
-![Insights home page](./images/insights-home.png)
+![Workplace Analytics insights home page](./images/insights-home.png)
 
 This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through your Microsoft service representative.
 
-You can request access and get more information at [Microsoft Insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Insights.
+You can request access and get more information at [Microsoft insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Insights.
 
-After you get access and your admin has completed the [Setup steps](./setup.md), go to [Insights](https://productivityinsights.office.com) to view them.
+After your admin has completed the [Setup steps](./setup.md), the data for insights might take up to three days to process and become available. After the data is processed for your organization, go to [Insights](https://productivityinsights.office.com) to view them.
 
 ## Your organizational data
 
