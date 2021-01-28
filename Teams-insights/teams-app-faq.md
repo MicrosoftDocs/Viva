@@ -16,9 +16,9 @@ ms.prod: Mya
 
 **A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](teams-app-faq.md#gdpr-compliance).)
 
-##### Q2. Can users see information about other users in the Insights app? 
+##### Q2. Can users see information about other users in the Viva Insights app? 
 
-**A2.** The personal insights in the Viva Insights app include only existing information that’s already available in the user’s mailbox. The insights surface content from documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes. 
+**A2.** The personal insights in the Insights app include only existing information that’s already available in the user’s mailbox. The insights surface content from documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes. 
 
 ##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app? 
 
