@@ -24,9 +24,9 @@ The following are available in Workplace Analytics:
 
 ## Access to Explore the stats
 
-You can access Explore the stats data through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a related insight. For example, to see **Meetings overview** data in Workplace Analytics, select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**.
+You can access Explore the stats data through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a relevant behavior. For example, to see **Meetings overview** data in Workplace Analytics, select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats** in **Try shorter and smaller meetings** to view it.
 
-Or you can bookmark a direct link to each in Workplace Analytics. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then navigate to **`/Agility/MeetingsOverview`** and save this direct link as a bookmark.
+Or you can bookmark a direct link to each in Workplace Analytics. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then go to [/Agility/MeetingsOverview](/Agility/MeetingsOverview) and save this direct link as a bookmark.
 
 ## Video: Learn about Explore the stats
 

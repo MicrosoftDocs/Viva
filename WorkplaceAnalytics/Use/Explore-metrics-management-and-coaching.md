@@ -17,7 +17,7 @@ ms.prod: wpa
 
 ## Access to Management and coaching
 
-**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) to view it in Workplace Analytics.
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. However, you can also go to [Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) to view it in Workplace Analytics.
 
 ## Time with manager
 

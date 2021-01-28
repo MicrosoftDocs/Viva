@@ -18,7 +18,7 @@ ms.prod: wpa
 <!-- 1/25 not linked from any of the recommendations, can't guess page link, asking dev for it
 ## Access to Teams collaboration
 
-**Teams collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. However, you can also go to [Teams collaboration](https://workplaceanalytics.office.com/Home/OrganizationalResiliency) to view it in Workplace Analytics.-->
+**Teams collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. However, you can also go to [Teams collaboration](https://workplaceanalytics.office.com/Home/OrganizationalResiliency) to view it in Workplace Analytics.-->
 
 ## Call hours
 

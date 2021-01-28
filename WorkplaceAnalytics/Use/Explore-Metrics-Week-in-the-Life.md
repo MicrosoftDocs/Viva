@@ -17,7 +17,7 @@ ms.prod: wpa
 
 ## Access to Week in the life
 
-**Week in the life** data is available through the recommendations within **See your insights** in the **Take action** section of a related insight. Or you can bookmark a direct link to each in Workplace Analytics. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then navigate to `/Innovation/WeekintheLife` and save this direct link as a bookmark.
+**Week in the life** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can bookmark a direct link to each in Workplace Analytics. For example, open [Workplace Analytics](https://workplaceanalytics.office.com/Home), and then go to [/Innovation/WeekintheLife](/Innovation/WeekintheLife) and save this direct link as a bookmark.
 
 ## All collaboration hours
 
