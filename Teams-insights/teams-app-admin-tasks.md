@@ -14,7 +14,7 @@ ms.prod: Mya
 
 [Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). 
 
-Complete the steps in the following four mini-playbooks to get the Viva Insights app up and running for people in your organization. 
+Complete the steps in the following four mini-playbooks to get the Microsoft Viva Insights app up and running for people in your organization. 
 
 1. Turn on the Viva Insights app for your organization: 
 [Release the Insights app within your organization](Release-the-Insights-app.pdf). 

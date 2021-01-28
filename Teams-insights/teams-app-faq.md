@@ -12,7 +12,7 @@ ms.prod: Mya
 
 # Frequently asked questions 
 
-##### Q1. Does the Viva insights app comply with GDPR? 
+##### Q1. Does the Microsoft Viva insights app comply with GDPR? 
 
 **A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](teams-app-faq.md#gdpr-compliance).)
 
@@ -60,7 +60,7 @@ Insights does not use:
 
 ##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
 
-**A6.** To get access to the full functionality of the Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
+**A6.** To get access to the full functionality of the Viva Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
 
 ## Related topics
 

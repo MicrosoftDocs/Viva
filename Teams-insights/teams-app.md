@@ -10,11 +10,11 @@ ms.prod: Mya
 
 ---
 
-# Microsoft Viva Insights app in Teams 
+# Microsoft Viva Insights app in Microsoft Teams 
 
 ## Overview
 
-The Viva Insights app provides personalized recommendations to change how you work to do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
+Microsoft Viva Insights provides personalized recommendations to change how you work to do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
 It derives these insights by summarizing your Microsoft 365 data &ndash; data that you already have access to &ndash; about emails, meetings, calls, and chats. 
 
@@ -27,7 +27,7 @@ The insights for individuals that this app presents are completely personal and 
 
 ### How it works 
 
-The personal insights and actions in the Insights app are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process. 
+The personal insights and actions in Microsoft Viva Insights are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process. 
 
 <!-- VERIFY THAT THE FOLLOWING NOTE STILL APPLIES -->
 
@@ -36,11 +36,11 @@ The personal insights and actions in the Insights app are based on your Exchange
 
 ## Related topics
 
-[Use the Viva insights app](teams-app-use-insights.md)
+[Use the Microsoft Viva Insights app](teams-app-use-insights.md)
 
 [Privacy guide](teams-app-privacy.md)
 
-[Install the Viva insights app](teams-app-install.md)
+[Install the Microsoft Viva Insights app](teams-app-install.md)
 
 [Frequently asked questions](teams-app-faq.md)
 

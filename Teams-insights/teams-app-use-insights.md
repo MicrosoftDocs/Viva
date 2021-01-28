@@ -10,9 +10,9 @@ ms.prod: Mya
 
 ---
 
-# Use the Viva Insights app 
+# Use the Microsoft Viva Insights app 
 
-The Viva Insights app provides personalized recommendations to build better work habits. You can find them in the following tabs:
+Microsoft Viva Insights provides personalized recommendations to build better work habits. You can find them in the following tabs:
 
 * [Stay connected](#stay-connected) 
 * [Protect time](#protect-time) 
@@ -55,27 +55,27 @@ To unpin a contact, select the **unpin** icon:
 
 #### Set up 1:1 meeting reminders 
 
-While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. Viva insights can help you set a target 1:1 meeting frequency for each contact and provide  you with meeting recommendations if you are falling out of touch.  
+While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. Microsoft Viva Insights can help you set a target 1:1 meeting frequency for each contact and provide  you with meeting recommendations if you are falling out of touch.  
 
-In the following example, if Lynne was an important colleague, you could set up a monthly 1:1 meeting target with Lynne by selecting the **people** icon and then selecting the **Monthly** reminder frequency. Insights will keep track of your meetings with Lynne and if you have not had a 1:1 with Lynne for a month, it will suggest setting up a 1:1 meeting and help you schedule it. 
+In the following example, if Lynne was an important colleague, you could set up a monthly 1:1 meeting target with Lynne by selecting the **people** icon and then selecting the **Monthly** reminder frequency. Microsoft Viva Insights will keep track of your meetings with Lynne and if you have not had a 1:1 with Lynne for a month, it will suggest setting up a 1:1 meeting and help you schedule it. 
 
-If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
+If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Microsoft Viva Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
    
    ![MyAnalytics settings](Images/1-1-meeting-target-75-80.png)
 
 #### 1:1 meeting suggestions 
 
-If you’ve set up a target 1:1 meeting cadence with your colleague through the Insights app and are falling out of the set cadence, Insights will remind you to set up a 1:1 meeting and help you schedule it.  
+If you’ve set up a target 1:1 meeting cadence with your colleague through the Microsoft Viva Insights app and are falling out of the set cadence, Microsoft Viva Insights will remind you to set up a 1:1 meeting and help you schedule it.  
 
-In the following example, you can select one of the proposed meeting times and then select **Send invite** to send a meeting invitation to Lynne. Insights will only show meeting time blocks when both of you are available to meet. If none of the suggested time blocks work, you can select **View calendar for other items** to open the Teams calendar and schedule a meeting on your own. 
+In the following example, you can select one of the proposed meeting times and then select **Send invite** to send a meeting invitation to Lynne. Microsoft Viva Insights will only show meeting time blocks when both of you are available to meet. If none of the suggested time blocks work, you can select **View calendar for other items** to open the Teams calendar and schedule a meeting on your own. 
    
    ![Schedule a 1:1](Images/schedule-1-1.png)
 
 #### Reschedule a 1:1 in case of conflict  
 
-Insights also helps you follow through on your intent to have 1:1 meeting with your colleagues. If, for some reason, the 1:1 meeting invitation you sent to your colleague has a conflict, Insights will help you quickly reschedule the meeting. 
+Microsoft Viva Insights also helps you follow through on your intent to have 1:1 meeting with your colleagues. If, for some reason, the 1:1 meeting invitation you sent to your colleague has a conflict, Microsoft Viva Insights will help you quickly reschedule the meeting. 
 
-In the following example, if your meeting with Lynne has a conflict, Insights will remind you of the conflict ahead of time and you can quickly choose a new time for the 1:1 meeting and select **Reschedule** to move the meeting invitation. 
+In the following example, if your meeting with Lynne has a conflict, Microsoft Viva Insights will remind you of the conflict ahead of time and you can quickly choose a new time for the 1:1 meeting and select **Reschedule** to move the meeting invitation. 
    
    ![1:1 has a conflict](Images/1-1-conflict.png)
 
@@ -101,7 +101,7 @@ In the following example, to open the document, select **Open**. To open the ema
 
 #### @Mentions for pinned important contacts 
 
-@Mention is a common way to tag colleagues on important work items. Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up. 
+@Mention is a common way to tag colleagues on important work items. Microsoft Viva Insights can help you quickly triage recent @Mentions from pinned contacts so that you are caught up on important conversations and tasks in Teams. In the following example, select **Go to comment** to open the conversation and follow up. 
    
    ![Sync on virtual commute research](Images/sync-virtual.png)
 
@@ -117,7 +117,7 @@ In the following example, select **Sync on Proposal** to open the meeting invita
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects. 
 
-Insights can help you protect time for focused work and minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time. 
+Microsoft Viva Insights can help you protect time for focused work and minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time. 
 
 In the following example, select **Book Time** to reserve the time slot for focused work. If you don’t need the time anymore, you can select **Remove slot** to free up your calendar. You can also select edit (the pencil icon) to change the name of the focus time block; this automatically updates the subject of this focus-time booking on your calendar. 
    
@@ -125,6 +125,6 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 ## Related topics
 
-[Viva insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
 
  
