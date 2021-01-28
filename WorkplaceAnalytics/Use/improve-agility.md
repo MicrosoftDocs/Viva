@@ -24,8 +24,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |---------|--------|--------------------|----------------------|
 |Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metric-definitions.md#attendees-define), [Attendee meeting hours](metric-definitions.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)| Percentage of employees who spend more than 50 percent of their meeting hours in long or large meetings. The insight is calculated weekly and averaged over the entire time period.  |
 |Accelerate decision making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Employees whose influence score is within 25 percent of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered as compared to all measured employees.  |
-|Improve management practices |Percentage of managers who spend a majority of their meeting time in double-booked meetings | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |Percentage of managers who spend more than 50 percent of their time in overlapping meetings. The count includes the entire duration of the overlapping meetings, not just the amount of time that overlaps. This counts all non-declined meetings, including accepted, tentative, and no responses to meeting invitations on their calendars. This insight is calculated weekly and averaged over the entire time period. |
-<!--|Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-define)  |\[Calculation info\] |  -->
+|Improve management practices |Percentage of managers who spend a majority of their meeting time in double-booked meetings | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |Percentage of managers who spend more than 50 percent of their time in overlapping meetings. The count includes the entire duration of the overlapping meetings, not just the amount of time that overlaps. This counts all non-declined meetings, including accepted, tentative, and no responses to meeting invitations on their calendars. This insight is calculated weekly and averaged over the entire time period. |<!--|Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-define)  |\[Calculation info\] |  -->
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -39,14 +38,16 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Take action
 
-You can select **Take action** to see ways you can drive change or simply maintain organizational agility. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can drive change or simply maintain organizational agility. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [meetings](explore-metrics-meetings-overview.md), [internal networks](explore-metrics-internal-networks.md), or [teamwork](../tutorials/teamwork-solution.md).
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [meetings](explore-metrics-meetings-overview.md), [internal networks](explore-metrics-internal-networks.md), or [teamwork](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following, select **See your insights** > **Explore the stats** to access them:
 
-  * **Try shorter and smaller meetings** > [**Meetings overview**](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview)
-  * **Increase information sharing** > [**Internal networks**](https://workplaceanalytics.office.com/Home/Agility/InternalNetworks)
-  * **Pass down decision ownership** > [**Teamwork**](https://workplaceanalytics.office.com/Plans/Teamwork)
+  * **Organize better meetings** > **Try shorter and smaller meetings** > **Meetings overview**
+
+  * **Accelerate decision making** > **Increase information sharing** > **Internal networks**
+
+  * **Improve management practices** > **Pass down decision ownership** > [**Teamwork**](https://workplaceanalytics.office.com/Plans/Teamwork)
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.

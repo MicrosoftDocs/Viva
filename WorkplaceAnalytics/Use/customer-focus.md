@@ -41,13 +41,14 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Take action
 
-You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can drive change or simply maintain your organization's focus on customers. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) or [external collaboration](../tutorials/teamwork-solution.md), which you can access directly in Workplace Analytics through the following links:
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) and [external collaboration](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following, select **See your insights** > **Explore the stats** to access them:
 
-  * **Make strategic time investments** > [**External collaboration**](https://workplaceanalytics.office.com/Home/CustomerSatisfaction/ExternalCollaboration)
-  * **Increase frequency of coaching** and **Increase information sharing** > [**Management and coaching**](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching)
+  * **Optimize time with customers** > **Make strategic time investments** > **External collaboration**
+
+  * **Promote coaching and development** > **Increase frequency of coaching** > **Management and coaching**
 
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
