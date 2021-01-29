@@ -33,7 +33,6 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 ## Prerequisites
 
 To use the My Team page of the Viva Insights app, you need the following:
-* An admin has assigned to you a [Workplace Analytics license](../setup/assign-licenses-to-population.md).
 * An admin has granted you manager access. (This is done on the [Manager settings](https://docs.microsoft.com/en-us/workplace-analytics/use/settings#manager-settings) page of Workplace Analytics.)
 
 ## Install Viva Insights 
