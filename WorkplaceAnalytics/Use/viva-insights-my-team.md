@@ -190,17 +190,9 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 **A1.** Yes. The Viva Insights app complies with GDPR requirements. 
 
-##### Q2. Can users see information about other users in the Viva Insights app? 
+##### Q2. How can I send feedback to Microsoft about the Insights app? 
 
-**A2.** The Insights app only includes existing information that’s already available in the user’s mailbox. It summarizes documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes. 
-
-##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app? 
-
-**A3.** No, the content in the Insights app is private and visible to you and only you. All information in the Viva Insights app is from your mailbox and stored in your mailbox. Everything you see in the Insights app is information that you already have access to in your mailbox. Insights just makes it easier to find items that might need attention. 
-
-##### Q4. How can I send feedback to Microsoft about the Insights app? 
-
-**A4.** There are two ways to provide feedback through the Insights app: 
+**A2.** There are two ways to provide feedback through the Insights app: 
 
 * At the bottom of every insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
@@ -212,30 +204,6 @@ These outcomes, insights, and best practices are described in the Workplace Anal
    
    ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
    
-##### Q5. What data does the Viva Insights app use? 
-
-**A5.** Insights uses: 
-
-* Information from email items: 
-  * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status. 
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](mya-outlook-add-in/mya-add-in-to-do.md) for your use only.  
-* Information from calendar items: 
-  * Type (meeting or appointment) 
-  * Status (busy, free, out-of-office, tentative) 
-  * Category 
-  * Subject 
-  * Duration 
-  * Attendees 
-* OneDrive SharePoint data: Insights shows a count of OneDrive and SharePoint documents that you have worked on. 
-
-Insights does not use: 
-
- * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
-
-##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
-
-**A6.** To get access to the full functionality of the Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
-
 ## Related topics
 
 * [Get started with manager insights](https://docs.microsoft.com/workplace-analytics/manager-insights/get-started)

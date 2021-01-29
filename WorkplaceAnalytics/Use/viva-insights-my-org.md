@@ -120,11 +120,16 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
 ## Use the My organization page
 
-The My organization page in the Viva insights app shows the following four outcomes:
+The My organization page in the Viva insights app shows the following outcomes:
  * Organizational resiliency
  * Employee engagement
  * Improve agility
+ * Foster innovation
  * Effective managers
+ * Operational effectiveness
+ * Accelerate change
+ * Transform meeting culture
+ * Increase customer focus
 
 ![Four outcomes on the page](../images/wpa/use/my-org-page-70.png)
 
@@ -179,7 +184,12 @@ These outcomes, insights, and best practices are described in the Workplace Anal
  * [Enhance organizational resiliency](resilient-organizations.md)
  * [Boost employee engagement](boost-engagement.md)
  * [Improve agility](improve-agility.md)
+ * [Foster innovation](foster-innovation.md)
  * [Develop effective managers](develop-managers.md)
+ * [Enhance operational effectiveness](effective-operations.md)
+ * [Accelerate change](accelerate-change.md)
+ * [Transform meeting culture](transform-meetings.md)
+ * [Increase customer focus](customer-focus.md)
 
 > [!Note] 
 > As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q4-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
