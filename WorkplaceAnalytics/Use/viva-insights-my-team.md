@@ -16,7 +16,7 @@ ms.prod: wpa
 
 If you are the manager of a team, you can use the My Team page of the Microsoft Viva Insights app to get a snapshot of how your team is doing. The My Team page does this by presenting team outcomes to focus on. It also shows leading indicators for each outcome, which help you see why it's important to pay attention to that outcome at the moment: 
 
-![Outcomes page](../images/wpa/use/my-org-page-70.png)
+![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
 While you can also seed these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
 
