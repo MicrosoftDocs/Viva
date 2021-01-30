@@ -192,7 +192,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
  * [Increase customer focus](customer-focus.md)
 
 > [!Note] 
-> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q4-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
+> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
 
 ## Frequently asked questions 
 
