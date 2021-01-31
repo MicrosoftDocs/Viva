@@ -131,7 +131,7 @@ The My organization page in the Viva insights app shows the following outcomes:
  * Transform meeting culture
  * Increase customer focus
 
-![Four outcomes on the page](../images/wpa/use/my-org-page-70.png)
+![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
 To use the My organization page, view the outcomes and decide which might warrant action on your part. Look at the leading indicators; do you see any red flags? 
 
