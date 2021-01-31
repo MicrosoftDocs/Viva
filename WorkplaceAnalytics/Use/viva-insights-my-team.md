@@ -138,7 +138,7 @@ To use the My Team page, view the outcomes and decide which might warrant action
 
 To investigate further, drill down by selecting one of the outcomes to see the insights for that outcome. For example, select the **Effective managers** outcome to see the **Develop effective managers** insights:
 
-![Develop effective managers](../images/wpa/use/dev-effect-manager.png)
+![Develop effective managers](../images/wpa/use/dev-effect-managers.png)
 
 Similarly, you can select **Boost employee engagement** on the Outcomes page to see the **Boost employee engagement** insights:
 
