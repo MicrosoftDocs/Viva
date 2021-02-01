@@ -2,6 +2,21 @@
 
 
 
+## Week of January 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/26/2021 | [Accelerate change with Workplace Analytics insights](/workplace-analytics-insights/accelerate-change) | modified |
+| 1/27/2021 | [Assign user roles for Workplace Analytics insights](/workplace-analytics-insights/assign-roles) | added |
+| 1/27/2021 | [Accelerate change with Workplace Analytics insights](/workplace-analytics-insights/accelerate-change) | modified |
+| 1/27/2021 | [Insights data access and analysis](/workplace-analytics-insights/data-analysis) | modified |
+| 1/27/2021 | [Microsoft insights](/workplace-analytics-insights/index) | modified |
+| 1/27/2021 | [Introducing insights](/workplace-analytics-insights/intro) | modified |
+| 1/27/2021 | [Set up Workplace Analytics insights](/workplace-analytics-insights/setup) | modified |
+| 1/27/2021 | [Assign user roles for Workplace Analytics insights](/workplace-analytics-insights/assign-roles) | modified |
+
+
 ## Week of January 18, 2021
 
 
