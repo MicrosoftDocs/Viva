@@ -62,7 +62,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
 
    Log in with admin credentials:
 
-    ![Azure Active Directory login](../workplaceanalytics/images/WpA/Use/azure-ad-log-in-1.png)
+    ![Azure Active Directory login](./images/azure-ad-log-in-1.png)
 
 2. Run the following from the command line:
 
@@ -388,7 +388,7 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 **If the script is successful but the output reports: Script completed, but the total number of users licensed is zero (0).**
 
 1. Confirm the user is not already licensed.
-2. Confirm the user is using the correct [Exchange Online plan](../setup/environment-requirements.md).
+2. Confirm the user is subscribed to a Microsoft or Office 365 E5 or E3 plan.
 3. Confirm the users UPN or proxy email address resolves in the environment.
 
 ## Related topics
