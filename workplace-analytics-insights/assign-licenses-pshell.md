@@ -127,7 +127,7 @@ The Insights bulk license script uses the Azure AD PowerShell module to make the
 
 > [!Note]
 > If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these, see
-[Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
+[Connect to Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
 ### Input requirements
 
@@ -182,7 +182,7 @@ The Add-WpAInsightsLicense.ps1 script is designed to assign Insights licenses to
        [ValidateNotNullorEmpty()]
        [string]$LicenseSKU
        )
-       #Simple function to connect to Office 365 MSOL PowerShell.
+       #Simple function to connect to Microsoft 365 MSOL PowerShell.
        Function Connect-O365PowerShell {
            try {
                Import-Module MSOnline -ErrorAction Stop
@@ -195,10 +195,10 @@ The Add-WpAInsightsLicense.ps1 script is designed to assign Insights licenses to
            if(Get-Module -Name MSOnline) {
                try {
                    Connect-MsolService -ErrorAction Stop
-                   Write-Output "Successfully connected to Office 365 MSOL, proceeding..."
+                   Write-Output "Successfully connected to Microsoft 365 MSOL, proceeding..."
                }
                catch {
-                   Write-Error "Could not connect to Office 365 MSOL due to the following exception.`r`n$($_.Exception.Message)"
+                   Write-Error "Could not connect to Microsoft 365 MSOL due to the following exception.`r`n$($_.Exception.Message)"
                    break
                }
            }
@@ -210,20 +210,20 @@ The Add-WpAInsightsLicense.ps1 script is designed to assign Insights licenses to
            try {
                $wpaSku = $O365MsolSKUs | Where-Object { $_.AccountSkuId -like $searchString }
                if ($wpaSku) {
-                   Write-Host "Office365 tenant possesses the correct WorkplaceAnalytics license, proceeding..."
+                   Write-Host "Microsoft365 tenant possesses the correct WorkplaceAnalytics license, proceeding..."
                    [int]$availableLicenses = $wpaSku.ActiveUnits - $wpaSku.ConsumedUnits
                    Write-Host "Using Sku: $($wpaSku.AccountSkuId), Total Licenses: $($wpaSku.ActiveUnits), Used Licenses: $($wpaSku.ConsumedUnits), Available Licenses: $($availableLicenses)"
                    return $wpaSku
                }
                else {
-                   Write-Error "Script could not find matching WorkplaceAnalytics license using $searchString on Office365 tenant. Here are the available SKU's for this tenant:"
+                   Write-Error "Script could not find matching WorkplaceAnalytics license using $searchString on Microsoft365 tenant. Here are the available SKU's for this tenant:"
                    Write-warning ($O365MsolSKUs | out-string)
                    write-warning "Please Rerun script and specify a SKU above with parameter -LicenseSKU {sku} including the appropriate WORKPLACE_ANALYTICS SKU"  
                    exit 1
                }
            }
            catch {
-                Write-Error "Failed to determine the Office365 tenant licenses, script cannot proceed!`n$_."
+                Write-Error "Failed to determine the Microsoft365 tenant licenses, script cannot proceed!`n$_."
                 exit 1
            }
        }
@@ -349,7 +349,7 @@ The Add-WpAInsightsLicense.ps1 script is designed to assign Insights licenses to
    > [!Note]
    > That the \<CSVLocation> should contain the full path to the .csv input file, such as **C:\Scripts\InputFile.csv**.
 
-4. When prompted, enter the Office 365 global administrator credentials for the tenant where the licenses are to be added.
+4. When prompted, enter the Microsoft 365 global administrator credentials for the tenant where the licenses are to be added.
 
    If all the required inputs are satisfied, the script executes now against the .csv list, and then licenses are assigned to users. During the script execution, all successes and failures are shown on the command line and a transcript is saved in the Documents folder.
 
