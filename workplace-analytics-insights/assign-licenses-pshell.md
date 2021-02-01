@@ -158,7 +158,7 @@ The Add-WpAInsightsLicense.ps1 script is designed to assign Insights licenses to
    <#
    .NOTES
     Title:    Add-WpAInsightsLicense.ps1
-    Date:     January 2021
+    Date:     February 2021
     Version:  1.0
    .SYNOPSIS
     This script is designed to add Insights licenses to a CSV list of email addresses that correlate to Microsoft 365 identities.
