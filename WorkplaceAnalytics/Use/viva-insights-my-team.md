@@ -148,7 +148,7 @@ Similarly, you can select **Boost employee engagement** on the Outcomes page to 
 
 To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**. This opens the panel called, **Best Practices: Increase frequency of coaching**:
 
-![Best practice - Coaching frequency](../images/wpa/use/teams-bestprac-freq-coaching-70.png)
+![Best practice - Coaching frequency](../images/wpa/use/viva-org-empl-engage-flyout.png)
 
 ## Compare with Workplace Analytics insights
 
@@ -168,7 +168,7 @@ For example, in Workplace Analytics, by selecting **Increase frequency of coachi
 
 Here is the same best practice in Viva Insights:
 
-![Teams best practice - increase frequency](../images/wpa/use/teams-bestprac-freq-coaching-70.png)
+![Insighst best practice - Coaching frequency](../images/wpa/use/viva-org-empl-engage-flyout.png)
 
 You'll notice that the following section does not appear in the best practices page in Teams: 
 
