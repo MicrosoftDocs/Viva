@@ -48,8 +48,8 @@ You can select **See your insights** to see ways you can drive change or simply 
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Optimize time with customers |Make strategic time investments |External collaboration |
-  |Promote coaching and development |Increase frequency of coaching |Management and coaching |
+  |Optimize time with customers |Make strategic time investments |[External collaboration](https://workplaceanalytics.office.com/Home/Agility/ExternalCollaboration) |
+  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
 
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 

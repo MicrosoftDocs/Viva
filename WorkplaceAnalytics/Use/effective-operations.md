@@ -49,7 +49,7 @@ You can select **See your insights** to see ways you can maximize operational ef
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
   |Free up capacity |Reduce meeting hours |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)
-  |Improve meeting quality |Try shorter and smaller meetings |Meetings overview |
+  |Improve meeting quality |Try shorter and smaller meetings |[Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) |
   |Keep employees engaged |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
   |Protect time to get work done |Establish new work habits |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
 

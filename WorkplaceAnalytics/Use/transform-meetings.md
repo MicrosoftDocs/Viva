@@ -46,7 +46,7 @@ You can select **See your insights** to see ways you can drive change or transfo
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Optimize meeting hours |Reduce meeting hours |Meetings overview |
+  |Optimize meeting hours |Reduce meeting hours |[Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) |
   |Examine recurring meetings |Reinvent the recurring meeting |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
   |Promote healthy meeting habits |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
 
