@@ -97,7 +97,7 @@ To view available licenses for your tenant and current usage run the following i
 Connect-MsolService
 ```
 
-Now that you're connected to the Office 365 tenant, run the following next:
+Now that you're connected to the Microsoft 365 tenant, run the following next:
 
 ```powershell
 Get-MsolAccountSku
@@ -126,7 +126,7 @@ The Insights bulk license script uses the Azure AD PowerShell module to make the
    ```
 
 > [!Note]
-> If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these required packages, see
+> If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these, see
 [Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
 
 ### Input requirements
