@@ -18,7 +18,7 @@ audience: Admin
 
 You must be able to sign in as a global admin to Azure Active Directory (Azure AD) to assign licenses with PowerShell to one or more users who subscribe to a Microsoft or Office 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
 
-Alternatively, you can [use the Microsoft admin center to assign licenses](assign-licenses-admin-c.md).
+Alternatively, you can [use the Microsoft admin center or Azure AD to assign licenses](assign-licenses.md).
 
 ## Assign licenses to individual users
 

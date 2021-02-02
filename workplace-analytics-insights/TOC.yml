@@ -10,8 +10,8 @@
   items:
     - name: Overview
       href: ./setup.md
-    - name: Assign licenses with admin center
-      href: ./assign-licenses-admin-c.md
+    - name: Assign licenses
+      href: ./assign-licenses.md
     - name: Assign licenses with PowerShell
       href: ./assign-licenses-pshell.md
     - name: Assign roles

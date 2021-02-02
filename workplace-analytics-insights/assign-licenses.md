@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Assign licenses through admin center for Workplace Analytics insights
-description: Learn how to assign licenses through the Microsoft 365 admin center to people who want to use Workplace Analytics insights
+title: Assign licenses for Workplace Analytics insights
+description: Learn how to assign licenses through the Microsoft 365 admin center or Azure AD to people who want to use Workplace Analytics insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Assign licenses with admin center
+# Assign licenses
 
 You must be able to sign in as a global Microsoft 365 admin to use the Microsoft admin center to [assign licenses to one or more individual users](#to-assign-licenses-to-individual-users) who subscribe to a Microsoft or Office 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
 
