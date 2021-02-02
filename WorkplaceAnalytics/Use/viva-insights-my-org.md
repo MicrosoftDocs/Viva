@@ -17,7 +17,7 @@ If you are a business leader, you can use the My organization page of the Micros
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
-While you can also seed these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
+While you can also see these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
 
 #### Personal insights are also available
 

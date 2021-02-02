@@ -14,15 +14,15 @@ ms.prod: wpa
 
 ## Overview
 
-If you are the manager of a team, you can use the My Team page of the Microsoft Viva Insights app to get a snapshot of how your team is doing. The My Team page does this by presenting team outcomes to focus on. It also shows leading indicators for each outcome, which help you see why it's important to pay attention to that outcome at the moment: 
+If you are a people manager, you can use the My Team page of the Microsoft Viva Insights app to get a snapshot of how your team is doing. The insights in the My Team page brings visibility into your teams collaboration patterns that are leading indicators for overall employee experience and wellbeing. 
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
-While you can also seed these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
+While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
 
 #### Personal insights are also available
 
-In addition to information about your team, the Viva Insights app also offers you two [personal insights](https://docs.microsoft.com/insights/teams-app), insights that help any employee with their daily work and are not specifically intended for managers:
+In addition to information about your team, the Viva Insights app also offers you [personal insights](https://docs.microsoft.com/insights/teams-app), insights that help any employee with their daily work and are not specifically intended for managers:
  * **Stay connected** – This insight helps you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#stay-connected).  
  * **Protect time** – This insight helps you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. For more information about Protect time feature, see [Protect time](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#protect-time-tab).
 
@@ -32,8 +32,9 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Prerequisites
 
-To use the My Team page of the Viva Insights app, you need the following:
-* An admin has granted you manager access. (This is done on the [Manager settings](https://docs.microsoft.com/en-us/workplace-analytics/use/settings#manager-settings) page of Workplace Analytics.)
+* **Manager access** - Confirm that the Workplace Analytics admin has given you access to Workplace Analytics in [Manager settings](../use/manager-settings.md).
+* **Licensed team** - You and your team are measured employees who are assigned a Workplace Analytics license and your team is included in the reporting hierarchy that leads to you as their manager. The hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the admin.
+* **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
 ## Install Viva Insights 
 
@@ -120,15 +121,8 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
 ## Use the My Team page
 
 The My Team page in the Microsoft Viva insights app shows the following outcomes:
- * Organizational resiliency
- * Employee engagement
- * Improve agility
- * Foster innovation
- * Effective managers
- * Operational effectiveness
- * Accelerate change
- * Transform meeting culture
- * Increase customer focus
+ * Employee experience
+ * Team effectiveness
 
 ![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
@@ -136,13 +130,9 @@ To use the My Team page, view the outcomes and decide which might warrant action
 
 ### Drill down to the insights level
 
-To investigate further, drill down by selecting one of the outcomes to see the insights for that outcome. For example, select the **Effective managers** outcome to see the **Develop effective managers** insights:
+To investigate further, drill down by selecting one of the outcomes to see the insights for that outcome. For example, select the **Employee experience** outcome to see the **Coaching and development** insights:
 
 ![Develop effective managers](../images/wpa/use/dev-effect-managers.png)
-
-Similarly, you can select **Boost employee engagement** on the Outcomes page to see the **Boost employee engagement** insights:
-
-![Boost employee engagement](../images/wpa/use/teams-app-boost-empl-engag-70.png)
 
 ### Drill down to the best-practices level
 
@@ -160,35 +150,11 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 
 #### Different functionality 
 
-* In Workplace Analytics, the best practices pages offer additional action links that you can select, such as **Explore the stats**, **Explore in Power BI**, and **Plans**. 
-
-For example, in Workplace Analytics, by selecting **Increase frequency of coaching** on the page of the **Boost employee engagement** outcome, you see the best practices for the **Increase frequency of coaching** insight:
-
-![WpA best practice - increase frequency](../images/wpa/use/wpa-boost-best-prac-70.png)
-
-Here is the same best practice in Viva Insights:
-
-![Insighst best practice - Coaching frequency](../images/wpa/use/viva-org-empl-engage-flyout.png)
-
-You'll notice that the following section does not appear in the best practices page in Teams: 
-
-![in WpA but not in Teams](../images/wpa/use/in-wpa-not-teams.png)
-
-This section offers an **Explore the stats** link. To be able to explore these stats, you need to open this best practice in Workplace Analytics, not in Insights. 
+* In Workplace Analytics, you have the additional capability to launch plans from three of the insights: [Increase customer focus](https://docs.microsoft.com/en-us/workplace-analytics/use/customer-focus), [Transform meeting culture](https://docs.microsoft.com/en-us/workplace-analytics/use/transform-meetings), and [Boost employee engagement](https://docs.microsoft.com/en-us/workplace-analytics/use/boost-engagement).
 
 ### Feature descriptions
 
 These outcomes, insights, and best practices are described in the Workplace Analytics documentation. As you browse this documentation, bear in mind the differences that are described in [Different functionality](#different-functionality).
-
- * [Enhance organizational resiliency](resilient-organizations.md)
- * [Boost employee engagement](boost-engagement.md)
- * [Improve agility](improve-agility.md)
- * [Foster innovation](foster-innovation.md)
- * [Develop effective managers](develop-managers.md)
- * [Enhance operational effectiveness](effective-operations.md)
- * [Accelerate change](accelerate-change.md)
- * [Transform meeting culture](transform-meetings.md)
- * [Increase customer focus](customer-focus.md)
 
 > [!Note] 
 > As you use the Viva insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
