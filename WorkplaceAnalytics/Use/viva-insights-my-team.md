@@ -16,7 +16,7 @@ ms.prod: wpa
 
 If you are a people manager, you can use the My Team page of the Microsoft Viva Insights app to get a snapshot of how your team is doing. The insights in the My Team page brings visibility into your teams collaboration patterns that are leading indicators for overall employee experience and wellbeing. 
 
-![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
 
 While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
 
@@ -124,7 +124,7 @@ The My Team page in the Microsoft Viva insights app shows the following outcomes
  * Employee experience
  * Team effectiveness
 
-![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+![Two outcomes on the Outcomes page](../images/wpa/use/viva-team-outcomes.png)
 
 To use the My Team page, view the outcomes and decide which might warrant action on your part. Look at the leading indicators; do you see any red flags? 
 
@@ -132,13 +132,13 @@ To use the My Team page, view the outcomes and decide which might warrant action
 
 To investigate further, drill down by selecting one of the outcomes to see the insights for that outcome. For example, select the **Employee experience** outcome to see the **Coaching and development** insights:
 
-![Develop effective managers](../images/wpa/use/dev-effect-managers.png)
+![Coaching and development](../images/wpa/use/viva-team-drill-down.png)
 
 ### Drill down to the best-practices level
 
 To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**. This opens the panel called, **Best Practices: Increase frequency of coaching**:
 
-![Best practice - Coaching frequency](../images/wpa/use/viva-org-empl-engage-flyout.png)
+![Best practice - Coaching frequency](../images/wpa/use/viva-team-coaching-flyout.png)
 
 ## Compare with Workplace Analytics insights
 

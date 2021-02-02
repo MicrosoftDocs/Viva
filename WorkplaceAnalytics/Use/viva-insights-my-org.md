@@ -17,7 +17,7 @@ If you are a business leader, you can use the My organization page of the Micros
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
-While you can also see these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
+While you can also seed these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
 
 #### Personal insights are also available
 
@@ -29,7 +29,7 @@ In addition to information about your organization, the Viva Insights app also o
 
 ## Data privacy 
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro).  
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Viva Insights app / Privacy guide](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#privacy-guide). 
 
 ## Prerequisites
 
