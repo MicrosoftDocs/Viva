@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Assign user roles for Workplace Analytics insights
-description: Learn how to assign roles to people to use Workplace Analytics insights
+description: Learn how to assign roles to people who want to view Workplace Analytics insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
