@@ -12,7 +12,7 @@ ms.prod: wpa
 
 # Workplace Analytics language support and guidelines
 
-The Workplace Analytics user interface is currently available in English, Japanese, and French. It is also available in preview mode in Chinese (Simplified), Chinese (Traditional), German, Italian, Korean, Portuguese (Brazil), Russian, and Spanish (Spain).
+The Workplace Analytics user interface is currently available in Chinese (Simplified), Chinese (Traditional), French (France), German (Germany), Italian (Italy), Japanese, Korean, Portuguese (Brazil), Russian (Russia), Spanish (Spain), and English (United States).
 
 In certain circumstances, you can use Workplace Analytics with _data_ that is in other languages. Follow these guidelines:
 
