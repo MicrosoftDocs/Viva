@@ -68,7 +68,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
 
       ``` powershell
        $UserToLicense = Get-AzureADUser -SearchString '<usertolicense@domain.com>'
-       $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics'}
+       $LicenseSku = Get-AzureADSubscribedSku | Where {$_.SkuPartNumber -eq 'WorkPlace_Analytics_Insights'}
        $License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
        $License.SkuId = $LicenseSku.SkuId
        $AssignedLicenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
@@ -167,11 +167,11 @@ The Add-WpAInsightsLicense.ps1 script is designed to assign Insights licenses to
    .PARAMETER CSV
     The CSV input file contains all of the email addresses that are given a license. Use Email as the header and when save the file with the UTF-8 encoded format.
    .PARAMETER LicenseSKU
-    The WORKPLACE_ANALYTICS_Insights LicenseSKU will be applied to a user that's found. The script tries to automatically apply a license SKU. If a license SKU is provided, the script tries to match it with the domain. An example SKU is CONTOSO:WORKPLACE_ANALYTICS_INSIGHTS.
+    The WORKPLACE_ANALYTICS_INSIGHTS LicenseSKU will be applied to a user that's found. The script tries to automatically apply a license SKU. If a license SKU is provided, the script tries to match it with the domain. An example SKU is CONTOSO:WORKPLACE_ANALYTICS_INSIGHTS.
     .EXAMPLE
     .\Add-WpAInsightsLicense.ps1 -CSV c:\users\user123\desktop\inputCSV -LicenseSku CONTOSO:WORKPLACE_ANALYTICS_INSIGHTS
 
-    The script would ingest the CSV file from the specified location in this example and try to apply the MSOL license SKU of CONTOSO:WORKPLACE_ANALYTICS to all users that are found in the MSOL structure of the tenant.
+    The script would ingest the CSV file from the specified location in this example and try to apply the MSOL license SKU of CONTOSO:WORKPLACE_ANALYTICS_INSIGHTS to all users that are found in the MSOL structure of the tenant.
        #>
        param
        (
@@ -296,7 +296,7 @@ The Add-WpAInsightsLicense.ps1 script is designed to assign Insights licenses to
             if($msolUser) {
                 #If the msolUser variable is not null, the following block will be entered where an attempt is made to add the LicenseSKU parameter to the MSOL user.
                 if ($msolUser.Licenses.AccountSkuId -contains $LicenseSKU.AccountSkuId) {
-                   Write-Warning "User $($msolUser.UserPrincipalName) was found but is already licensed for WorkplaceAnalytics, skipping licensing."
+                   Write-Warning "User $($msolUser.UserPrincipalName) was found but is already licensed for WorkplaceAnalyticsInsights, skipping licensing."
                    $NumOfAlreadyLicensed++
                 }
                 else {
@@ -361,7 +361,7 @@ Yes, you can find a script transcript for each execution in the Documents folder
 
 **Will an email address input work if it is not the UserPrincipalName of any MSOL identity?**
 
-The script logic first attempts to find the MSOL identity through the UserPrincipalName by using the email address from the CSV file. If this attempt fails, the script tries to find any MSOL object that contains the email address from the .csv file within the ProxyAddresses property. If a user still cannot be found, the email is deemed not to exist and is skipped.
+The script logic first attempts to find the MSOL identity through the UserPrincipalName by using the email address from the .csv file. If this attempt fails, the script tries to find any MSOL object that contains the email address from the .csv file within the ProxyAddresses property. If a user still cannot be found, the email is deemed not to exist and is skipped.
 
 **Does this work with Multi-Factor Authentication (MFA)?**
 
@@ -371,7 +371,7 @@ This script works with Multi-Factor Authentication because the Connect-MsolServi
 
 **Error: The CSV provided did not contain any valid SMTP data. Please check the CSV file and try again.**
 
-Check the CSV file contains the proper header and valid email addresses to parse
+Check that the .csv file contains the proper header and valid email addresses to parse.
 
 **Error: Could not find user user1@contoso.com, skipping!**
 
