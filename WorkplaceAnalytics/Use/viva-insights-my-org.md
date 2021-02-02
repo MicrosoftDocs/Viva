@@ -29,7 +29,7 @@ In addition to information about your organization, the Viva Insights app also o
 
 ## Data privacy 
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Viva Insights app / Privacy guide](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#privacy-guide). 
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro).  
 
 ## Prerequisites
 
