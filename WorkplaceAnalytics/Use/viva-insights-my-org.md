@@ -13,7 +13,7 @@ ms.prod: wpa
 
 ## Overview
 
-Organizational insights for business leaders can be viewed on the My organization page of the Microsoft Viva Insights app. These insights give you a snapshot of how your company is doing by presenting company-wide outcomes to focus on and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome at the moment: 
+Leader insights can be viewed on the My organization page of the Microsoft Viva Insights app. These insights give you a snapshot of how your company is doing by presenting company-wide outcomes to focus on and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome at the moment: 
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
@@ -21,7 +21,7 @@ While you can also see these outcomes and their related best practices in Workpl
 
 #### Personal insights are also available
 
-In addition to information about your organization, the Viva Insights app also offers you two _personal insights_, insights that help any employee with their daily work and are not specifically intended for business leaders:
+In addition to information about your organization, the Viva Insights app also offers you two _personal insights_, insights that help any employee with their daily work:
 
  * **Stay connected** – Viva Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#stay-connected).  
 
@@ -32,12 +32,8 @@ In addition to information about your organization, the Viva Insights app also o
 For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
 
 ## Prerequisites
-<!--  PER ANJI, THIS IS CORRECT: 
-To use the My organization page of the Viva Insights app, you must be assigned either the Analyst or Analyst (Limited) role of Workplace Analytics.
--->
 
-<!-- BUT PER LESLIE AND PARAMA, WE'LL SAY THIS: -->
-To use the My organization page of the Viva Insights app, you must be assigned the _Analyst (Limited)_ role of Workplace Analytics.
+The _Analyst (Limited)_ role of Workplace Analytics can be used to access the My organization page of the Viva Insights app.
 
 ## Install the Viva Insights app  
 
@@ -117,17 +113,7 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
 4. Now that the Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](../myanalytics/use/find-and-open-the-Insights-app.pdf). 
 
-> [!Important] 
-> The following step is required for business leaders. It gives them access to the My organization page of the Viva Insights app. 
-
-<!-- PER ANJI, THIS IS CORRECT:
-5. [Assign roles](../setup/assign-roles-to-wpa-admins.md) to business leaders -- specifically, either of the following Workplace Analytics roles: Analyst or Analyst (Limited). For more information about roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels). 
--->
-
-<!-- BUT PER LESLIE AND PARAMA, WE'LL SAY THIS: -->
-5. Assign the _Analyst (Limited)_ role of Workplace Analytics to business leaders. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels).) 
-
-Organizational insights can be accessed by business leaders who have been assigned . 
+5. To give a person access to leader insights, assign the _Analyst (Limited)_ role of Workplace Analytics to that person. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels).) 
 
 ## Use the My organization page
 
