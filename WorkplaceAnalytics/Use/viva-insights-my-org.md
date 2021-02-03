@@ -116,7 +116,9 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 > [!Important] 
 > The following step is required for business leaders. It gives them access to the My organization page of the Viva Insights app. 
 
-5. [Assign roles](../setup/assign-roles-to-wpa-admins.md) to business leaders -- specifically, either the Workplace Analytics analyst role or the analyst (limited) role. For information about the differences between these roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels). 
+5. [Assign roles](../setup/assign-roles-to-wpa-admins.md) to business leaders -- specifically, the Workplace Analytics the role of _Analyst (Limited)_. For more information about roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels). 
+
+Organizational insights can be accessed by business leaders who have been assigned . 
 
 ## Use the My organization page
 
