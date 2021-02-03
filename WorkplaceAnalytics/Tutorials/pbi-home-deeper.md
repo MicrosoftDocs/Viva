@@ -18,7 +18,7 @@ As a business decision maker, you can use the Workplace Analytics **Home** page 
 
 The Power BI Connector combines Workplace Analytics data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Workplace Analytics. The connector also enforces privacy by preventing those who view the report from seeing data about a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size), which is specified by the Workplace Analytics admin. This lets you share reports with confidence that individual data is not exposed.
 
-To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are predefined and communicated to Power BI through the Power BI Connector. For background information, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector).)
+To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are predefined and communicated to Power BI through the Power BI Connector. For background information, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector).
 
 ## View and publish insights in Power BI
 
@@ -71,7 +71,7 @@ In the following walkthrough, you will perform steps as a business decision make
 
 These Power BI visualizations show the opportunity groups in your organization. For example, the following shows groups whose members, on average, have less one-on-one time than others in the company.
 
-On the **Introduction** page, in the **Guided walkthrough** insight, select **Start walkthrough**:
+On the **Introduction** page, in the guided walkthrough, select **Start walk-through**:
 
 ![Guided walkthrough in Power BI](../images/wpa/tutorials/guided-walkthrough.png)
 
