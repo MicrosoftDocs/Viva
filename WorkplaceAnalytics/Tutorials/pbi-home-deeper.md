@@ -30,7 +30,7 @@ In the following walkthrough, you will perform steps as a business decision make
 
 2. Select the **Boost employee engagement** outcome to see insights about your company.
 
-3. In **Prevent employee burnout**, you'll see what percentage of employees spend more than five hours per week working after-hours. To learn more about how to help employees disconnect, select **See your insights**:
+3. In **Prevent employee burnout**, you'll see what percentage of employees spend more than five hours each week working after hours. To see how to help employees disconnect, select **See your insights**:
 
      ![Take action - See insights](../images/wpa/tutorials/burnout-take-action.png)
 
@@ -49,7 +49,7 @@ In the following walkthrough, you will perform steps as a business decision make
   
       ![Copied](../images/wpa/tutorials/partition-id-copied.png)
 
-6. In Power BI, give the information that’s required to make a connection. In the **Connect to Workplace Analytics Data** dialog box, paste the partition identifier copied in the previous step:
+6. In Power BI, give the information that’s required to make a connection. In **Connect to Workplace Analytics Data**, paste the partition identifier copied in the previous step:
 
    ![Prompt for Partition ID](../images/wpa/tutorials/partition-id-prompt.png)
 
@@ -57,11 +57,11 @@ In the following walkthrough, you will perform steps as a business decision make
 
    ![Dive deeper to improve wellbeing page](../images/wpa/tutorials/dive-deeper-wellbeing.png)
 
-   **Best-practice recommendation**: In Power BI Desktop, publish your new visualizations to your workspace.
+   **Best-practice recommendation**: In Power BI Desktop, publish your new visualizations to your workspace to optimize your analysis when using Power BI online.
 
    ![Select publish destination](../images/wpa/tutorials/publish-to-pbi-workspace.png)
 
-   After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/). We make this recommendation because the experience of viewing information such as this is optimized for Power BI Online. For more information, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files).
+   After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/). For more details, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files).
 
 8. (Optional) Delegate this information to your team members by sharing this report. This lets them filter and focus the data to further identify opportunities or track metrics that change over time.
 
@@ -69,55 +69,55 @@ In the following walkthrough, you will perform steps as a business decision make
 
 ### Identify and help opportunity groups
 
-These Power BI visualizations will show the opportunity groups in your organization. For example, the following shows groups whose members, on average, have less one-on-one time than others in the company.
+These Power BI visualizations show the opportunity groups in your organization. For example, the following shows groups whose members, on average, have less one-on-one time than others in the company.
 
 On the **Introduction** page, in the **Guided walkthrough** insight, select **Start walkthrough**:
 
-![guided walkthrough](../images/wpa/tutorials/guided-walkthrough.png)
+![Guided walkthrough in Power BI](../images/wpa/tutorials/guided-walkthrough.png)
 
-As you are guided through the walkthrough, it opens, in sequence, several other analysis pages that present you with more information about this area (well-being):
+The walkthrough opens, in sequence, several other analysis pages that present you with more information about this area, such as wellbeing:
 
-![Pages](../images/wpa/tutorials/pages-toc.png)
+![Power BI analysis pages](../images/wpa/tutorials/pages-toc.png)
 
-Each of these analysis pages gives you a **Group by** choice. For more information, see the next section, Grouping choices.
+Each analysis page gives you a **Group by** choice. For details, see [Grouping choices](#grouping-choices).
 
 ### Grouping choices
 
-Part of the task of identifying groups that might need help is deciding how to define groups. In each of the analysis pages, you can choose a business-attribute pivot to display data; for **Group by**, select either **Organization** or **LevelDesignation**:
+Part of the task of identifying groups that might need help is deciding how to define groups. In each of the analysis pages, you can choose a business-attribute pivot to display data, such as for **Group by**, select either **Organization** or **LevelDesignation**:
 
-![Group by org or level](../images/wpa/tutorials/group-by-choice.png)
+![Group by organization or level in Power BI](../images/wpa/tutorials/group-by-choice.png)
 
 This choice might help you discover, for example, that a particular trait is evident not in just one or two organizations, but rather for employees at a particular level, across organizations.
 
 After you make this selection on one page, the graphs on all of the analysis pages switch to that choice. You can then filter the data further to focus your analysis on groups in which you have the most interest. For example, after we selected to **Group by** > **Organization**, we then selected the **Customer Service** group to learn more about it.
 
-![Group by](../images/wpa/tutorials/distrib-after-hours-collab.png)
+![Group by organization in Power BI](../images/wpa/tutorials/distrib-after-hours-collab.png)
   
 By using these filtering options, we can see that 8.4% of the employees in the Customer Service group work more than five hours per week in their after-hours time.
 
 ### Explore Advanced analysis
 
-One of your drill-down options is to slice and filter the data in custom ways all in one place, the **Advanced analysis** page. On the **Home** page, in the **Advanced analysis** area, select **Start here**:
+One of your drill-down options is to slice and filter the data in custom ways all in one place, the **Advanced analysis** page. On the **Home** page, in **Advanced analysis**, select **Start here**:
 
-![Select Start here](../images/wpa/tutorials/intro-advanced-analysis.png)
+![Select Start here in Power BI](../images/wpa/tutorials/intro-advanced-analysis.png)
  
 This opens the **Advanced analysis** page:
 
 ![Advanced analysis page](../images/wpa/tutorials/advanced-analysis.png)
  
-On this page, for example, you can not only group and filter by **Organization** and by **LevelDesignation**, you can also change the time period for which the data is analyzed, and simultaneously filter by groups in different pivots; that is, for example, you can select **Senior IC** for **LevelDesignation** and at the same time select **Finance-East** and **Finance-South** to view data only for employees at that level in those groups.
+On this page, for example, you can not only group and filter by **Organization** and by **LevelDesignation**, you can also change the time period for which the data is analyzed, and simultaneously filter by groups in different pivots. For example, you can select **Senior IC** for **LevelDesignation** and at the same time select **Finance-East** and **Finance-South** to view data only for employees at that level in those groups.
 
-After you've identified one or more groups that need help, how can you help them? See [Next steps](#next-steps).
+After you've identified one or more groups that need help, how can you help them? See [Next steps](#next-steps) for details.
 
 ## Next steps
 
-By using the knowledge that you've gained from these visualizations, you can now take action. For example, you can do the following:
+With the knowledge gained from these visualizations, you can now take action:
 
 * Learn more about current behavior and trends by running [queries](query-basics.md). You can also create a dashboard for yourself by importing data that was obtained through Workplace Analytics queries (especially [auto-refresh queries](query-auto-refresh.md)) into [Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 * Help employees help themselves by pointing them to a pertinent [playbook](../myanalytics/use/mya-adoption/adopt-learning-modules.md).
 
-* If you've decided that one or more groups needs help recovering focus time, consider starting a [plan](teamwork-solution.md).
+* If you've decided that one or more groups need help recovering focus time, consider starting a [Teamwork plan](teamwork-solution.md).
 
 ## Power BI tips, troubleshooting, and FAQs
 
