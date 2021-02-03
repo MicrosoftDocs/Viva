@@ -29,11 +29,11 @@ In addition to information about your organization, the Viva Insights app also o
 
 ## Data privacy 
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Viva Insights app / Privacy guide](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#privacy-guide). 
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
 
 ## Prerequisites
 
-To use the My organization page of the Viva Insights app, you need to be assigned a Workplace Analytics license and either of the Workplace Analytics roles of Analyst or Analyst (Limited).
+To use the My organization page of the Viva Insights app, you need to be assigned the Workplace Analytics role of _Analyst (Limited)_.
 
 ## Install the Viva Insights app  
 
@@ -52,7 +52,7 @@ This section describes how to install the Viva Insights app for yourself. (If yo
    
    ![Search for Insights](../images/mya/use/apps-search-insights.png)
 
-4. Select the **Viva Insights** app:
+4. Select the **Insights** app:
 
    ![Select Insights app](../images/mya/use/insights-app-teams.png)
 
