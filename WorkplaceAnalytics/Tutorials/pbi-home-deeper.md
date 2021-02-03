@@ -100,11 +100,11 @@ By using these filtering options, we can see that 8.4% of the employees in the C
 One of your drill-down options is to slice and filter the data in custom ways all in one place, the **Advanced analysis** page. On the **Home** page, in **Advanced analysis**, select **Start here**:
 
 ![Select Start here in Power BI](../images/wpa/tutorials/intro-advanced-analysis.png)
- 
+
 This opens the **Advanced analysis** page:
 
 ![Advanced analysis page](../images/wpa/tutorials/advanced-analysis.png)
- 
+
 On this page, for example, you can not only group and filter by **Organization** and by **LevelDesignation**, you can also change the time period for which the data is analyzed, and simultaneously filter by groups in different pivots. For example, you can select **Senior IC** for **LevelDesignation** and at the same time select **Finance-East** and **Finance-South** to view data only for employees at that level in those groups.
 
 After you've identified one or more groups that need help, how can you help them? See [Next steps](#next-steps) for details.
