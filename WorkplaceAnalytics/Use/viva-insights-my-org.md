@@ -153,7 +153,7 @@ To learn about taking action on an outcome, you can drill down another layer to 
 
 ![Best practice - Coaching frequency](../images/wpa/use/teams-bestprac-freq-coaching-70.png)
 
-## Compare with Workplace Analytics insights
+## Viva Insights and Workplace Analytics
 
 The Viva Insights app shows you outcomes, insights for those outcomes, and best practices for each insight. Workplace Analytics also shows outcomes, insights for those outcomes, and best practices for each insight. Here's how the two apps compare: 
 
