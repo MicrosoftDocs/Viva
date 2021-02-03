@@ -38,7 +38,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Install the Viva Insights app 
 
-This section describes how to install the Viva Insights app for yourself. (If you are an admin who is tasked with installing the Viva Insights app for an organization, see [Admin tasks: Quick-start guide](#admin-tasks-quick-start-guide).)  
+This section describes how to install the Viva Insights app for yourself. (If you are an admin who is tasked with installing the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
 
 > [!Note] 
 > You can skip this procedure if you've already installed the Viva Insights app to obtain the [Personal insights](#personal-insights-are-also-available). 
@@ -91,7 +91,7 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 3. Select **Done** to save your changes. 
 
-## Admin tasks: Quick-start guide
+## Admin tasks: Deployment
 
 [Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies). 
 
