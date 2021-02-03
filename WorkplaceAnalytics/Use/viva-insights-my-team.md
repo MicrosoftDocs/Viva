@@ -159,7 +159,7 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 These outcomes, insights, and best practices are described in the Workplace Analytics documentation. As you browse this documentation, bear in mind the differences that are described in [Different functionality](#different-functionality).
 
 > [!Note] 
-> As you use the Viva insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
+> As you use the Viva insights app, you can provide feedback about the app to Microsoft. To learn how, see Q2 in the following section, [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
 
 ## Frequently asked questions 
 
