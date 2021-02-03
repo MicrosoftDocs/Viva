@@ -26,7 +26,7 @@ This section describes how to install the Microsoft Viva Insights app for yourse
 
 4. Select the **Insights** app:
 
-   ![Select Insights app](Images/insights-app-teams.png)
+   ![Select Insights app](Images/select-insights-app-teams.png)
 
 5. Select **Add for me**:
 
