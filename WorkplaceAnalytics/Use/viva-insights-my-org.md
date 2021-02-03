@@ -32,8 +32,12 @@ In addition to information about your organization, the Viva Insights app also o
 For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
 
 ## Prerequisites
-
+<!--  PER ANJI, THIS IS CORRECT: 
 To use the My organization page of the Viva Insights app, you must be assigned either the Analyst or Analyst (Limited) role of Workplace Analytics.
+-->
+
+<!-- BUT PER LESLIE AND PARAMA, WE'LL SAY THIS: -->
+To use the My organization page of the Viva Insights app, you must be assigned the _Analyst (Limited)_ role of Workplace Analytics.
 
 ## Install the Viva Insights app  
 
@@ -116,7 +120,12 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 > [!Important] 
 > The following step is required for business leaders. It gives them access to the My organization page of the Viva Insights app. 
 
+<!-- PER ANJI, THIS IS CORRECT:
 5. [Assign roles](../setup/assign-roles-to-wpa-admins.md) to business leaders -- specifically, either of the following Workplace Analytics roles: Analyst or Analyst (Limited). For more information about roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels). 
+-->
+
+<!-- BUT PER LESLIE AND PARAMA, WE'LL SAY THIS: -->
+5. Assign the _Analyst (Limited)_ role of Workplace Analytics to business leaders. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels).) 
 
 Organizational insights can be accessed by business leaders who have been assigned . 
 
