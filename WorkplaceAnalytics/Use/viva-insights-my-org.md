@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Microsoft Viva Insights app - My Organization
+# Microsoft Viva Insights app in Microsoft Teams - My Organization
 
 ## Overview
 
@@ -35,7 +35,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 To use the My organization page of the Viva Insights app, you need to be assigned a Workplace Analytics license and either of the Workplace Analytics roles of Analyst or Analyst (Limited).
 
-## Install Viva Insights 
+## Install the Viva Insights app  
 
 This section describes how to install the Viva Insights app for yourself. (If you are an admin who is tasked with installing the Viva Insights app for an organization, see [Admin tasks: Quick-start guide](#admin-tasks-quick-start-guide).)  
 
@@ -143,7 +143,7 @@ To investigate further, drill down by selecting one of the outcomes to see the i
 
 Similarly, you can select **Boost employee engagement** on the Outcomes page to see the **Boost employee engagement** insights:
 
-![Boost employee engagement](../images/wpa/use/teams-app-boost-empl-engag-70.png)
+![Boost employee engagement](../images/wpa/use/viva-org-boost-engagement.png)
 
 ### Drill down to the best-practices level
 
