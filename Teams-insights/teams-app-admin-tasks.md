@@ -16,7 +16,7 @@ ms.prod: Mya
 
 Complete the steps in the following four mini-playbooks to get the Microsoft Viva Insights app up and running for people in your organization. 
 
-1. Turn on the Insights app for your organization: 
+1. Turn on the Viva Insights app for your organization: 
 [Release the Insights app within your organization](Release-the-Insights-app.pdf). 
 
    > [!Note] 
