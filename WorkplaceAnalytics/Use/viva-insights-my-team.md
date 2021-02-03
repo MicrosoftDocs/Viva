@@ -55,7 +55,7 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
 4. Select the **Insights** app:
 
-   ![Select Insights app](../images/mya/use/insights-app-teams.png)
+   ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
 
 5. Select **Add for me**:
 
@@ -150,7 +150,9 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 
 #### Different functionality 
 
-* In Workplace Analytics, you have the additional capability to launch plans from three of the insights: [Increase customer focus](https://docs.microsoft.com/en-us/workplace-analytics/use/customer-focus), [Transform meeting culture](https://docs.microsoft.com/en-us/workplace-analytics/use/transform-meetings), and [Boost employee engagement](https://docs.microsoft.com/en-us/workplace-analytics/use/boost-engagement).
+* In Workplace Analytics, you have the additional capability to launch plans from the wellbeing, collaboration and focus-plan insights.
+
+* Best practices are integrated into the flow of the Viva Insights app, but in Workplace Analytics, best practices, while available, are presented in documentation. 
 
 ### Feature descriptions
 

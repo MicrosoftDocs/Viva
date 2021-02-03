@@ -54,7 +54,7 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
 4. Select the **Insights** app:
 
-   ![Select Insights app](../images/mya/use/insights-app-teams.png)
+   ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
 
 5. Select **Add for me**:
 
