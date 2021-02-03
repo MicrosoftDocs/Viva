@@ -1,8 +1,8 @@
 ---
 
-title: Power BI Home page deeper insights
-description: Description and use of the Power BI Home page deep-dive dashboard
-author: paul9955
+title: In-depth insights in Power BI
+description: Learn how to use Power BI to deep dive into insights about your organization
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
@@ -10,13 +10,13 @@ ms.prod: wpa
 
 ---
 
-# View deeper insights in Power BI
+# In-depth insights in Power BI
 
 **Owner** - Workplace Analytics Analyst or Analyst limited have access to these insights
 
-As a business decision maker, you can see information on the Workplace Analytics **Home** page that tells you much about current work conditions and trends. By starting on that page, you can identify “opportunity groups” (groups that you might want to act on) and perform detailed analysis by using drill-down capabilities that are provided by Power BI.
+As a business decision maker, you can use the Workplace Analytics **Home** page to see your organization's current work conditions and trends. With these insights, you can identify “opportunity groups” (groups that you might want to act on) and do detailed analysis with the drill-down capabilities in Power BI.
 
-To enable these capabilities, this feature uses the Power BI Connector to combine Workplace Analytics data with the visualization capabilities of Power BI. The information that you view in Power BI remains up to date because its data is automatically refreshed with new data from Workplace Analytics. The connector also enforces privacy by preventing any user who views the report from drilling down and seeing a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size) specified by the Workplace Analytics admin. This lets you share reports with confidence that row-level data will not be exposed.
+The Power BI Connector combines Workplace Analytics data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Workplace Analytics. The connector also enforces privacy by preventing any user who views the report from drilling down and seeing a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size) specified by the Workplace Analytics admin. This lets you share reports with confidence that row-level data will not be exposed.
 
 To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are preconfigured and communicated to Power BI through the Power BI connector. (For background information, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector).)
 
@@ -53,7 +53,7 @@ In the following walkthrough, you will perform steps as a business decision make
 
    ![Prompt for Partition ID](../images/wpa/tutorials/partition-id-prompt.png)
 
-7. Select **OK** to view the Dive Deeper **Home** page in Power BI Desktop:
+7. Select **OK** to view the **Home** page in Power BI Desktop:
 
    ![Dive deeper to improve wellbeing page](../images/wpa/tutorials/dive-deeper-wellbeing.png)
 
@@ -63,7 +63,7 @@ In the following walkthrough, you will perform steps as a business decision make
 
    After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/). We make this recommendation because the experience of viewing information such as this is optimized for Power BI Online. For more information, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files).
 
-8. (Optional) Delegate this information to your team members by sharing this report. This lets them dive deeper by slicing and filtering the data to further identify opportunities or track metrics that change over time.
+8. (Optional) Delegate this information to your team members by sharing this report. This lets them filter and focus the data to further identify opportunities or track metrics that change over time.
 
 9. Go to the next section to [identify and help opportunity groups](#identify-and-help-opportunity-groups).
 
@@ -71,11 +71,11 @@ In the following walkthrough, you will perform steps as a business decision make
 
 These Power BI visualizations will show the opportunity groups in your organization. For example, the following shows groups whose members, on average, have less one-on-one time than others in the company.
 
-On the Dive deeper **Introduction** page, in the **Guided walk-through** insight, select **Start walk-through**:
+On the **Introduction** page, in the **Guided walkthrough** insight, select **Start walkthrough**:
 
-![guided walk-through](../images/wpa/tutorials/guided-walkthrough.png)
+![guided walkthrough](../images/wpa/tutorials/guided-walkthrough.png)
 
-As you are guided through the walk-through, it opens, in sequence, several other analysis pages that present you with more information about this area (well-being):
+As you are guided through the walkthrough, it opens, in sequence, several other analysis pages that present you with more information about this area (well-being):
 
 ![Pages](../images/wpa/tutorials/pages-toc.png)
 
@@ -121,9 +121,9 @@ By using the knowledge that you've gained from these visualizations, you can now
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI tips, FAQs, and troubleshooting](power-bi-templates.md).
 
 ## Related topics
 
-* [Power BI templates in Workplace Analytics](https://review.docs.microsoft.com/en-us/Workplace-Analytics/tutorials/power-bi-templates?branch=pr-en-us-1820)
-* [Workplace Analytics Teamwork plans](teamwork-solution.md)
+* [Power BI templates](power-bi-intro.md)
+* [Teamwork plans](teamwork-solution.md)
