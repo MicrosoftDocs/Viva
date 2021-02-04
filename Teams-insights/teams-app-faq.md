@@ -1,7 +1,7 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Viva Insights app - FAQ
-description: Viva Insights (personal insights) app -- FAQ
+description: Microsoft Viva Insights (personal insights) app -- FAQ
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
