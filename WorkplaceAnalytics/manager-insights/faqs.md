@@ -71,7 +71,7 @@ For example, if insights show a significant percentage of time is spent in long 
 By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](./plans.md) for details.
 
 > [!Note]
-> Plans are not available within the Teams Insights app.
+> Plans are not available within the Microsoft Viva Insights app.
 
 ##### Q13 Why are some employees in my team not eligible to enroll in plans?
 

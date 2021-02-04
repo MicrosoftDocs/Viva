@@ -21,10 +21,10 @@ As a people manager, confirm the following prerequisites. You can then sign in a
 
 ## View your team's insights
 
-After confirming the prerequisites, you can get a snapshot of how well your team is currently doing with the following apps:
+After confirming the prerequisites, you can get a snapshot of how your team is currently doing in the following:
 
-* [Viva Insights app](teams-app.md) - The **My Team** page of the Microsoft Viva Insights app shows employee experience and team effectiveness percentages for your team within Teams.
-* [Workplace Analytics app](https://workplaceanalytics.office.com) - The **Home** page in Workplace Analytics shows the same percentage data about your team with the option to create a Plan for your team in Workplace Analytics.
+* [Microsoft Viva Insights app](teams-app.md)
+* [Workplace Analytics app](https://workplaceanalytics.office.com)
 
 Manager insights provides the following visibility into your team’s collaboration patterns, which are leading indicators that ladder up to overall wellbeing:
 

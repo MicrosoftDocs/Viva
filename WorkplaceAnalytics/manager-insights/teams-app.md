@@ -1,6 +1,6 @@
 ---
 
-title: Viva Insights for managers in Microsoft Teams
+title: Microsoft Viva Insights for managers in Microsoft Teams
 description: Introduction and summary of Microsoft Viva Insights in Teams for managers
 author: madehmer
 ms.author: v-mideh
@@ -11,20 +11,18 @@ ms.prod: wpa
 
 # Manager insights in Teams
 
-As a people manager, you can use the **My Team** page of the Microsoft Viva Insights app in Teams to get a snapshot of teams collaboration patterns, which are leading indicators for overall employee experience and wellbeing.
+Microsoft Viva Insights provides personalized recommendations to help you and your team do your best work. The app brings personal insights and manager insights in a unified experience, so that you have access to insights in your flow of work in Teams, the tool that you are already using for communicating with your team.
 
 ![My Team page in Teams](./images/my-team-page.png)
 
-While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them within Teams, the tool that you're already using for communicating during remote work and for meetings, sharing files, and sending instant messages to employees and other leaders.
-
 ## Your personal insights
 
-In addition to information about your team, the Viva Insights app also shows you [personal insights](https://docs.microsoft.com/insights/teams-app) about your own daily work as an employee:
+In addition to information about your team, the Insights app also shows you [personal insights](https://docs.microsoft.com/insights/teams-app) about your own daily work as an employee:
 
 * **Stay connected** – Helps you stay on top of your collaboration with colleagues with AI-based task suggestions and meeting assistance. For details, see [Stay connected](https://docs.microsoft.com/insights/teams-app-use-insights#stay-connected).
 * **Protect time** – Helps you reduce distractions, stop multi-tasking, and find time to focus on your core priorities. For details, see [Protect time](https://docs.microsoft.com/insights/teams-app-use-insights#protect-time).
 
-See [Teams Insights app](https://docs.microsoft.com/insights/teams-app) for details on how to set up and use it.
+See [Teams Insights app](https://docs.microsoft.com/insights/teams-app) for details on how to install and use it.
 
 ## App comparison
 
