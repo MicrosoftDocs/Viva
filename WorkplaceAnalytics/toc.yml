@@ -131,6 +131,12 @@
                   href: ~/manager-insights/rollout.md 
                 - name: FAQs
                   href: ~/Use/insight-faqs.md
+            - name: Microsoft Viva Insights
+              items:
+                - name: My Team
+                  href: ~/use/viva-insights-my-team.md
+                - name: My Organization
+                  href: ~/use/viva-insights-my-org.md                 
         - name: Analyze
           items:
             - name: Peer analysis
