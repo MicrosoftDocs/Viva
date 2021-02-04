@@ -3,11 +3,10 @@
 - name: Get started
   href: ./get-started.md
 - name: Viva Insights app
-  href: ./teams-app.md  
+  href: ./teams-app.md
 - name: Best practices
   href: ./best-practices.md
 - name: Plans
   href: ./plans.md
 - name: Frequently asked questions
   href: ./faqs.md
-  
