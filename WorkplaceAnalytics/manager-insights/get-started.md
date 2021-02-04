@@ -21,7 +21,7 @@ As a people manager, confirm the following prerequisites. You can then sign in a
 
 ## View your team's insights
 
-After confirming the prerequisites, you can get a snapshot of how your team is currently doing in the following:
+After confirming the prerequisites, you can get a snapshot of how your team is currently doing in the following apps:
 
 * [Microsoft Viva Insights app](teams-app.md)
 * [Workplace Analytics app](https://workplaceanalytics.office.com)
