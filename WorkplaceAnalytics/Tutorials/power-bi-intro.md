@@ -19,7 +19,7 @@ Workplace Analytics includes the following dashboards that you can use in Power 
 
 | &nbsp; | &nbsp; |
 |------|-------|
-|![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[Behavior patterns demo](./power-bi-glint.md#demonstration) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
+|![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Behavior patterns**](./power-bi-glint.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
 |![Business communication icon](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Business continuity**](./power-bi-bc.md)<br>Shows example insights into how shifting to remote work has impacted business. |
 |![Collaboration overload icon](../images/wpa/playbooks/email-overload-64x64.svg) |[**Collaboration overload**](./power-bi-collab-overload.md) <br>Shows where overall collaboration patterns, time fragmentation, or meeting quality could be improved in your organization. |
 |![Influencer icon](../images/wpa/playbooks/influencer-32x32.svg) |[**Influence insights**](./pbi-influence-db.md) <br>Shows how you can learn who your influencers are and leverage their ability to disseminate information and effectively drive change. |
