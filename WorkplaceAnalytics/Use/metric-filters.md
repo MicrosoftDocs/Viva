@@ -68,7 +68,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Total no responses   | Number of invitees who did not respond to the meeting invitation     | 
 | Day of week          | Day of the week for which the meeting is scheduled | 
 | Is organizer         | The person who invited others to the meeting | 
-| Time of day started  | Time of day that the meeting actually started |  
+| Time of day started  | Time of day that the meeting was scheduled (in Outlook) to start |  
 
 <!-- Still need in this table: 'MeetingResources'  -->
 
