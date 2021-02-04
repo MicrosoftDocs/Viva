@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Behavior patterns dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and GLINT data
 author: madehmer
@@ -32,6 +32,12 @@ The dashboard includes the following reports.
 * **Look for teams feeling disconnected that will benefit from better networking** – Compares employee connection scores for the selected HR attribute to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
 * **How can I take action to improve employee wellbeing?** - Summarizes opportunities to improve employee wellbeing by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 * **How can I take action to improve prioritization and connection?** - Summarizes opportunities to improve focus on priority tasks and employee connection by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
+
+## Demonstration
+
+This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZTYwMWI3MDctYTU3Mi00N2MxLWE4NmYtNjU4YzhlYmMxMGQ4IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
 
 ## High-level steps
 

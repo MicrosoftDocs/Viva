@@ -164,6 +164,8 @@
                   items:
                     - name: Introduction
                       href: ~/tutorials/power-bi-intro.md
+                    - name: Behavior patterns
+                      href: ~/tutorials/power-bi-glint.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration overload
