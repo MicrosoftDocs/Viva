@@ -22,11 +22,11 @@ In addition to information about your team, the Insights app also shows you [per
 * **Stay connected** – Helps you stay on top of your collaboration with colleagues with AI-based task suggestions and meeting assistance. For details, see [Stay connected](https://docs.microsoft.com/insights/teams-app-use-insights#stay-connected).
 * **Protect time** – Helps you reduce distractions, stop multi-tasking, and find time to focus on your core priorities. For details, see [Protect time](https://docs.microsoft.com/insights/teams-app-use-insights#protect-time).
 
-See [Teams Insights app](https://docs.microsoft.com/insights/teams-app) for details on how to install and use it.
+See [Microsoft Viva Insights app](https://docs.microsoft.com/insights/teams-app) for details on how to install and use it.
 
 ## App comparison
 
-Both the Teams Insights app and the Workplace Analytics app show you outcomes, insights for those outcomes, and the recommended best practices for each insight. Here's how the two apps differ:
+Both the Viva Insights app and the Workplace Analytics app show you outcomes, insights for those outcomes, and the recommended best practices for each insight. However, they differ as follows:
 
 * The Viva Insights app shows you best practice recommendations within Teams.
 * The Workplace Analytics app shows best practices that include the option to create a [Plan](./plans.md) for your team.
