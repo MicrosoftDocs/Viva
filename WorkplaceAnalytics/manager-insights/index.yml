@@ -23,10 +23,9 @@ highlightedContent:
       itemType: get-started
       url: /workplace-analytics/manager-insights/get-started
     - title: Teams Insights app
-      itemType: quickstart
+      itemType: deploy
       url: /workplace-analytics/manager-insights/teams-app
-
-      - title: Best practices
+    - title: Best practices
       itemType: learn
       url: /workplace-analytics/manager-insights/best-practices
     - title: Plans
