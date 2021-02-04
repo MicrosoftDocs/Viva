@@ -1,7 +1,7 @@
 ---
 
 title: Viva Insights app -- My Team
-description: The My Team page in the Viva Insights app 
+description: The My Team page in the Microsoft Viva Insights app 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
