@@ -2,7 +2,7 @@
 
 title: Explore the stats introduction
 description: Describes the analytical Explore the stats data in Workplace Analytics
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Explore the stats data in Workplace Analytics gives you a starting point with quick insights about your organization and to identify data you'll want to investigate further.
 
-The following are available through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a related insight. For example, to see **Meetings overview** data in Workplace Analytics, select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats**.
+The following are available in Workplace Analytics:
 
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) summarizes day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) summarizes meeting norms within your organization.
@@ -22,7 +22,17 @@ The following are available through the recommendations within **See your insigh
 * [**External collaboration**](../use/explore-metrics-external-collaboration.md) summarizes employees' network patterns with people outside the company.
 * [**Teams collaboration**](../use/explore-metrics-teams.md) shows communication trends about how your employees use Teams for communication and collaboration.
 
-### Video: Learn about Explore the stats
+## Access to Explore the stats
+
+You can access Explore the stats data through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a relevant behavior.
+
+For example, to see **Meetings overview** data in Workplace Analytics:
+
+* Select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats** in **Try shorter and smaller meetings**
+
+* Open [Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview)
+
+## Video: Learn about Explore the stats
 
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
@@ -34,6 +44,3 @@ The user interface and navigation in recent releases of Workplace Analytics are 
 ## Data time limit
 
 The historical data that populates **Explore the stats** is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Office 365 data](../use/office-365-data.md) refreshes. After a data refresh, the six-month extent of data reflected in **Explore the stats** advances by one week.
-
-<!-- REMOVED 13 OCT 2020 per Danny, Daysha
-To request a historical-data period longer than six months for your organization, contact Customer Support for Workplace Analytics. -->

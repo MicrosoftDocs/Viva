@@ -2,6 +2,20 @@
 
 
 
+## Week of January 25, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/25/2021 | [Workplace Analytics FAQ](/Workplace-Analytics/use/faq) | modified |
+| 1/26/2021 | [Accelerate change with Workplace Analytics](/Workplace-Analytics/use/accelerate-change) | modified |
+| 1/26/2021 | [Introduction to attendee and meeting exclusions in Workplace Analytics](/Workplace-Analytics/tutorials/exclusions-introduction) | modified |
+| 1/26/2021 | [Workplace Analytics Office 365 data](/Workplace-Analytics/use/office-365-data) | modified |
+| 1/27/2021 | [Workplace Analytics FAQ](/Workplace-Analytics/use/faq) | modified |
+| 1/27/2021 | [Get started with manager insights](/Workplace-Analytics/manager-insights/get-started) | modified |
+| 1/27/2021 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+
+
 ## Week of January 18, 2021
 
 
