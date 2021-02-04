@@ -113,7 +113,7 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
 4. Now that the Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](../myanalytics/use/find-and-open-the-Insights-app.pdf). 
 
-5. To give a person access to leader insights, assign the _Analyst (Limited)_ role of Workplace Analytics to that person. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles#role-descriptions-and-access-levels).) 
+5. To give a person access to leader insights, assign the _Analyst (Limited)_ role of Workplace Analytics to that person. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles.md#role-descriptions-and-access-levels).) 
 
 ## Use the My organization page
 
@@ -189,7 +189,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
  * [Increase customer focus](customer-focus.md)
 
 > [!Note] 
-> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see Q2 in the following section, [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
+> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see Q2 in the following section, [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
 
 ## Frequently asked questions 
 

@@ -116,7 +116,7 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
    > [!Important] 
    > The following step is required for managers. It gives them access to the My Team page of the Viva Insights app. 
 
-5.	Grant access to manager insights. To do this, an admin follows the steps in [To configure manager settings](settings.md#to-configure-manager-settings). They can make this setting either for all or for a subset of managers in the organization.  
+5.	Grant access to manager insights. To do this, an admin follows the steps in [To configure manager settings](settings.md#manager-settings). They can make this setting either for all or for a subset of managers in the organization.  
 
 ## Use the My Team page
 
