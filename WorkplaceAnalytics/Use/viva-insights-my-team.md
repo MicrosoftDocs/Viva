@@ -12,8 +12,6 @@ ms.prod: wpa
 
 # Microsoft Viva Insights app in Microsoft Teams - My Team
 
-## Overview
-
 Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing. Manager insights can be viewed on the My Team page of the Microsoft Viva Insights app. 
 
 ![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
@@ -37,6 +35,8 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 * **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
 ## Install the Viva Insights app 
+
+_**Please note:** The Microsoft Viva Insights app is in the process of rolling out to Microsoft Teams users worldwide._
 
 This section describes how to install the Viva Insights app for yourself. (If you are an admin who is tasked with installing the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
 

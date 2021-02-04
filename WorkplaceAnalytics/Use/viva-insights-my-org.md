@@ -11,8 +11,6 @@ ms.prod: wpa
 
 # Microsoft Viva Insights app in Microsoft Teams - My Organization
 
-## Overview
-
 Leader insights can be viewed on the My organization page of the Microsoft Viva Insights app. These insights give you a snapshot of how your company is doing by presenting company-wide outcomes to focus on and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome at the moment: 
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
@@ -36,6 +34,8 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 The _Analyst (Limited)_ role of Workplace Analytics can be used to access the My organization page of the Viva Insights app.
 
 ## Install the Viva Insights app  
+
+_**Please note:** The Microsoft Viva Insights app is in the process of rolling out to Microsoft Teams users worldwide._
 
 This section describes how to install the Viva Insights app for yourself. (If you are an admin who is tasked with installing the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
 
