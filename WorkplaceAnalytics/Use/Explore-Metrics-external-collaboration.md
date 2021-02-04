@@ -18,9 +18,13 @@ ms.prod: wpa
 
 ![External collaboration](../images/wpa/use/external-collab-top.png)
 
-External collaboration features various graphs whose titles suggest different ways to analyze your company's external collaboration activity. Each graph enables you to manipulate data based on menu settings you select and apply to view data in different ways, such as collaboration hours or collaboration cost.
+External collaboration includes a number of graphs that enable you to analyze data based on the selected page settings, such as collaboration hours or collaboration cost.
 
 ![Explore filters](../images/wpa/use/19-discover-which-groups.png)
+
+## Access to External collaboration
+
+**External collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [External collaboration](https://workplaceanalytics.office.com/Home/Agility/ExternalCollaboration) to view it in Workplace Analytics.
 
 ## Trend and distribution charts
 

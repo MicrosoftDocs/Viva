@@ -40,7 +40,7 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 |Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
 |Generated workload email hours|Number of email hours the person created for internal recipients by sending emails.|Person|Hour|Yes|
-|Generated workload email recipients|Number of internal recipients on emails sent by the person. (Counts each recipient once for each email received.)|Person|Count|Yes|
+|Generated workload email recipients|Number of internal recipients on emails sent by the person. (Counts each recipient one time for each email received.)|Person|Count|Yes|
 |Generated workload instant message hours|Number of instant message hours the person created through Teams for internal recipients by sending instant messages.|Person|Hour|Yes|
 |Generated workload instant message recipients|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload meeting attendees|Number of internal attendees in meetings organized by the person. (Counts each attendee once for each meeting.)|Person|Count|Yes|

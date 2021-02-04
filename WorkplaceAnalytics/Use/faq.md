@@ -2,7 +2,7 @@
 
 title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal
@@ -41,7 +41,9 @@ A1.  No. Workplace Analytics is a collaboration analysis tool that can be used t
 
 ##### Q2. How do MyAnalytics and Workplace Analytics differ?
 
-A2. MyAnalytics runs within an individual user's mailbox and can be seen only by that user. Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and anonymized metrics. 
+A2. MyAnalytics presents personal and private insights to Microsoft 365 users in Outlook through [digest emails](../myanalytics/use/email-digest-2.md), [inline suggestions](../myanalytics/use/mya-notifications.md) and the [Insights Outlook add-in](../myanalytics/use/add-in.md). It can also be accessed through a web [dashboard](../myanalytics/use/dashboard-2.md).
+
+Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and anonymized metrics.
 
 ### Privacy and compliance
 
@@ -84,12 +86,12 @@ For more information, see [Customize a base metric in a query](../tutorials/cust
 
 ##### Q1. What are the basic steps to enable Workplace Analytics?
 
-A1.  These are main tasks required to enable Workplace Analytics for your organization:
+A1. The main tasks required to enable Workplace Analytics for your organization are:
 
- * Assign licenses 
- * Assign roles 
- * Configure settings
- * Upload organizational data
+* Assign licenses
+* Assign roles
+* Configure settings
+* Upload organizational data
 
 For complete information about setup, see [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md).
 
@@ -128,7 +130,7 @@ A6. Licensed. Specifically, this number refers to licensed employees who are als
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees (internal collaborators) through meetings, email, unscheduled calls, or instant messages. These employees are not measured and their data is not processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they are not ignored but they are not measured and their data is not processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 

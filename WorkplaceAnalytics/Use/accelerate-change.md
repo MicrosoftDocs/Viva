@@ -11,6 +11,9 @@ ms.prod: wpa
 
 # Accelerate change
 
+> [!Important]
+> This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert for **Accelerate change** about it being "unavailable because the minimum number of employees is not met."
+
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
 Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
@@ -29,10 +32,11 @@ The visual behavioral insight for **Engage influencers** is **Reach of influence
 
 ## Take action
 
-You can select **Take action** to see ways you can accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Links to data about [Internal networks](explore-metrics-internal-networks.md).
+* **Explore the stats** – Links you to more in-depth data about your organization's [internal networks](explore-metrics-internal-networks.md). To view this data in Workplace Analytics, in **Take action** for **Engage Influencers**, select **See your insights** > **Explore the stats** in **Communicate through influencers** to view **Internal networks**.
+
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
