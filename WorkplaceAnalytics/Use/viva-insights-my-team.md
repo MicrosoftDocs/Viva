@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Viva Insights app -- My Team
 description: The My Team page in the Viva Insights app 
 author: paul9955

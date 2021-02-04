@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Viva Insights -- My Organization
 description: The My Organization page in the Viva Insights app 
 author: paul9955
