@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Tips for uploading org data
 description: Tips when uploading org data to MyAnalytics. 
@@ -16,7 +14,7 @@ All field header or column names must:
 * Begin with a letter (not a number)
 * Only contain alphanumeric characters (letters and numbers, for example Date1)
 * Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
-* Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
+* Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example EffectiveDate and HireDate)
 * Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as @, #, %, &); if spaces or special characters are included, Workplace Analytics will remove them from the name
 
 The field values in the data row must comply with the following formatting rules:
@@ -26,7 +24,7 @@ The field values in the data row must comply with the following formatting rules
 * The required TimeZone field values must be in a supported Windows format
 * The required Layer field values must contain numbers only
 * The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis
- * Double-byte characters, such as Japanese characters, are permitted in the data values.
+* Double-byte characters, such as Japanese characters, are permitted in the data values.
 
 >[!Note]
 > Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
