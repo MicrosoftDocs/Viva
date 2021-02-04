@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Manager insights in Teams
 
-As a people manager, you can use the **My Team** page of the Microsoft Viva Insights app in Teams to get a snapshot of teams collaboration patterns, which are leading indicators for overall employee experience and wellbeing.  
+As a people manager, you can use the **My Team** page of the Microsoft Viva Insights app in Teams to get a snapshot of teams collaboration patterns, which are leading indicators for overall employee experience and wellbeing.
 
 ![My Team page in Teams](./images/my-team-page.png)
 
