@@ -26,12 +26,12 @@ In addition to information about your team, the Viva Insights app also offers yo
 
 ## Data privacy 
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro).  
 
 ## Prerequisites
 
-* **Manager access** - Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
-* **Licensed team** - The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager. 
+* **Manager access** - Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md). 
+* **Licensed team** - The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager.  
 * **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
 ## Install the Viva Insights app 
