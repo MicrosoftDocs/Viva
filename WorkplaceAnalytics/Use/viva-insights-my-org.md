@@ -37,7 +37,7 @@ The _Analyst (Limited)_ role of Workplace Analytics can be used to access the My
 
 _**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft Teams users worldwide._
 
-This section describes how to install the Viva Insights app for yourself. (If you are an admin who will install the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
+This section describes how to install the Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
 
 > [!Note] 
 > You can skip this procedure if you've already installed the Viva Insights app to obtain the [Personal insights](#personal-insights-are-also-available). 
@@ -134,7 +134,7 @@ To use the My organization page, view the outcomes and decide which might warran
 
 ### Drill down to the insights level
 
-To investigate further, drill down by selecting one of the outcomes to see the insights for that outcome. For example, select the **Effective managers** outcome to see the **Develop effective managers** insights:
+To investigate further, select one of the outcomes to see the insights for that outcome. For example, select the **Effective managers** outcome to see the **Develop effective managers** insights:
 
 ![Develop effective managers](../images/wpa/use/dev-effect-managers.png)
 
@@ -205,7 +205,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 * Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
    
-   After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
+   After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
    ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
 

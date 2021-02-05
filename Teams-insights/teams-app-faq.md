@@ -34,7 +34,7 @@ ms.prod: Mya
 
 * Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
    
-   After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
+   After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
    ![Thanks for the feedback](Images/thanks-for-feedback-70-80.png)
    

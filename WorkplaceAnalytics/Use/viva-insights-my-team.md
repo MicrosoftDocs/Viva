@@ -20,7 +20,7 @@ While you can also see these outcome-based insights and their related best pract
 
 #### Personal insights are also available
 
-In addition to information about your team, the Viva Insights app also offers you [personal insights](https://docs.microsoft.com/insights/teams-app), insights that help any employee with their daily work and are not specifically intended for managers:
+In addition to information about your team, the Viva Insights app also offers you [personal insights](https://docs.microsoft.com/insights/teams-app), insights that can help any employee with their daily work:
  * **Stay connected** – This insight helps you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#stay-connected).  
  * **Protect time** – This insight helps you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. For more information about Protect time feature, see [Protect time](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#protect-time-tab).
 
@@ -30,7 +30,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Prerequisites
 
-* **Manager access** - Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. The admin does this in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
+* **Manager access** - Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
 * **Licensed team** - The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager. 
 * **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
@@ -38,7 +38,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 _**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft Teams users worldwide._
 
-This section describes how to install the Viva Insights app for yourself. (If you are an admin who will install the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
+This section describes how to install the Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
 
 > [!Note] 
 > You can skip this procedure if you've already installed the Viva Insights app to obtain the [Personal insights](#personal-insights-are-also-available). 
@@ -130,7 +130,7 @@ To use the My Team page, view the outcomes and decide which might warrant action
 
 ### Drill down to the insights level
 
-To investigate further, drill down by selecting one of the outcomes to see the insights for that outcome. For example, select the **Employee experience** outcome to see the **Coaching and development** insights:
+To investigate further, select one of the outcomes to see the insights for that outcome. For example, select the **Employee experience** outcome to see the **Coaching and development** insights:
 
 ![Coaching and development](../images/wpa/use/viva-team-drill-down.png)
 
@@ -152,7 +152,7 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 
 * In Workplace Analytics, you have the additional capability to launch plans from the wellbeing, collaboration and focus-plan insights.
 
-* Best practices are integrated into the flow of the Viva Insights app, but in Workplace Analytics, best practices, while available, are presented in documentation. 
+* Best practices are integrated into the flow of the Viva Insights app, but in Workplace Analytics, best practices are presented in documentation. 
 
 ### Feature descriptions
 
@@ -177,7 +177,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 * Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
    
-   After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
+   After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
    ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
    

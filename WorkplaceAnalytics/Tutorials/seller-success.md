@@ -76,7 +76,7 @@ If you have a particular group in mind, you can identify the group in either of 
 
     ![Use filters to find group](../images/wpa/tutorials/seller-plan-filters.png)
 
-3. After you have selected the group(s) of participants, select **Validate**.
+3. After you select the group(s) of participants, select **Validate**.
   
     Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
 
