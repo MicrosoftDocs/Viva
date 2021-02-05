@@ -26,7 +26,7 @@ In addition to information about your team, the Viva Insights app also offers yo
 
 ## Data privacy 
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
 
 ## Prerequisites
 
@@ -36,9 +36,9 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Install the Viva Insights app 
 
-_**Please note:** The Microsoft Viva Insights app is in the process of rolling out to Microsoft Teams users worldwide._
+_**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft Teams users worldwide._
 
-This section describes how to install the Viva Insights app for yourself. (If you are an admin who is tasked with installing the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
+This section describes how to install the Viva Insights app for yourself. (If you are an admin who will install the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
 
 > [!Note] 
 > You can skip this procedure if you've already installed the Viva Insights app to obtain the [Personal insights](#personal-insights-are-also-available). 
@@ -61,7 +61,7 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Add for me button](../images/mya/use/add-for-me-new-410.png)
 
-This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client, Teams on the web, and Teams on a mobile device.   
+This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.   
 
 > [!Note] 
 > You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp. 
@@ -136,7 +136,7 @@ To investigate further, drill down by selecting one of the outcomes to see the i
 
 ### Drill down to the best-practices level
 
-To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**. This opens the panel called, **Best Practices: Increase frequency of coaching**:
+To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**, which opens the panel called, **Best Practices: Increase frequency of coaching**:
 
 ![Best practice - Coaching frequency](../images/wpa/use/viva-team-coaching-flyout.png)
 
@@ -171,11 +171,11 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 **A2.** There are two ways to provide feedback through the Viva Insights app: 
 
-* At the bottom of every insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
+* At the bottom of every insight is the question: "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
    ![Is this helpful? Yes No](../images/mya/use/is-helpful.png)
 
-* Every page in the Insights app has the question, "Is this helpful?" at the bottom right corner. Select **Yes** or **No** to provide feedback.  
+* Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
    
    After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
