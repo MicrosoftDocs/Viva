@@ -43,7 +43,7 @@ The following shows an example of an employee experience insight about manager o
 
 ## How to get started
 
-* See [Get started](./get-started.md) to log in and get more details about your team's insights.
+* See [Get started](./get-started.md) to sign in and get more details about your team's insights.
 * Have questions? Review the [FAQs](./faqs.md).
 
 ## Team privacy is important

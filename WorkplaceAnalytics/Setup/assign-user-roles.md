@@ -24,7 +24,7 @@ People who use Workplace Analytics can work with the product only after they've 
 
 **Owner** - Azure Active Directory admin  
 
-1. Log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com). 
+1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com). 
 
 2. In the left navigation menu, select **Enterprise applications**:
 

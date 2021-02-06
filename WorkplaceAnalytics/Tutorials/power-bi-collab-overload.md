@@ -57,7 +57,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
 13. In the **OData feed** dialog box, select **Organizational account**.
 14. If prompted, select **Sign in**.
-15. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The **OData feed** dialog box shows "you are currently signed in" to Power BI:
+15. In the **Office 365** dialog box, select the organizational account that you use to sign in to Workplace Analytics. The **OData feed** dialog box shows "you are currently signed in" to Power BI:
 
     ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 
