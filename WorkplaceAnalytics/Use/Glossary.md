@@ -18,7 +18,6 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |----|----------|
 | Adjusted meeting hours |An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
 | Aggregation | Aggregation means compiling data from multiple individuals or sources. The more individuals or sources whose data is used, the more difficult it is to identify personal data. Aggregation is one means of achieving de-identification. |
-| Anonymization | Anonymized data is information that does not relate to a specific individual, that does not increase the likelihood that a specific individual can be identified, or that has been rendered in a way so that it cannot be used to identify a specific individual. |
 | Attended| A person attended a meeting if they did not decline the meeting request. This means that they either accepted the meeting request, accepted it as _tentative_, or did not respond to it. (This meeting request itself is subsequently referred to as a *non-declined meeting request*.) |
 | Attendee|A person who was invited and *attended* the meeting.|
 | Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
@@ -34,7 +33,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Coverage|The percentage of measured employees who have a non-blank value for the specified attribute as shown in [Data sources](../use/organizational-data.md). If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 | <a name="decision-making-meeting-define"></a> Decision-making meeting | A meeting that has between two and eight attendees and lasts less than one hour. |
-| De-identification | A process that is used to prevent the connection of personal identifiers with information. De-identification is achieved through the removal of personal data, which is sometimes replaced with a pseudonymous identifier. | 
+| De-identification | A process that is used to prevent the connection of personal identifiers with information. | 
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |
 | Hashing | Hashing is a cryptographic process that converts a piece of data into another in a way that is easy to compute, extremely difficult to reverse, and highly unlikely that two different pieces of data have the same hash. For example, meeting [subject lines](privacy-settings.md#hash-subject-lines) that are hashed would appear not in their original, readable, form but as a meaningless number. |  
