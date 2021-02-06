@@ -105,7 +105,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.
 
-After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan.
+After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this information can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan.
 
 ![Email top](../images/wpa/tutorials/email-top-70-30-new.png)
 
