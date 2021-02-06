@@ -295,7 +295,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
                       $NumofSuccessfullyLicensed++
                     }
                     catch {
-                       Write-Error "Failed to license user $($msolUser.UserPrincpalName) due to the following exception.`r`n$($_.Exception.Message)"
+                       Write-Error "Failed to license user $($msolUser.UserPrincipalName) due to the following exception.`r`n$($_.Exception.Message)"
                        $NumofErrorLicensed++
                        $UsersFailedtoLicense.Add($user.Email) | Out-Null
                     }
