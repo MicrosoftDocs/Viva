@@ -16,6 +16,8 @@ audience: Admin
 
 # Assign licenses
 
+*This experience is only available through private preview at this time.*
+
 You must be able to sign in as a global Microsoft 365 admin to use the Microsoft admin center to [assign licenses to one or more individual users](#to-assign-licenses-to-individual-users) who subscribe to a Microsoft or Office 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
 
 Alternatively, you can assign licenses as follows:
