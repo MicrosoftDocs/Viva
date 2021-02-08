@@ -48,7 +48,16 @@
       "feedback_github_repo": "MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
       "feedback_product_url": "https://cortana.office.com/briefing",
       "titleSuffix": "Cortana",
-      "searchScope": ["Briefing"]
+      "searchScope": ["Briefing"],
+      "contributors_to_exclude": [
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
+      ],
     },
     "fileMetadata": {},
     "template": [],
