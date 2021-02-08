@@ -91,8 +91,8 @@ Organizational-data attributes and CRM attributes can also be used as participan
 | ------ | ----------- |
 | Organizational attributes (required) | Organizational attributes that are [required](../setup/prepare-organizational-data.md#required-attributes) are always available for use as participant filters. | 
 | Organizational attributes (optional) | Also available for use as participant filters are optional organizational attributes ([reserved optional attributes](../setup/prepare-organizational-data.md#reserved-optional-attributes) and [custom attributes](../setup/prepare-organizational-data.md#custom-attributes)) that have been uploaded in an [organizational data upload](../setup/upload-organizational-data.md). | 
-| CRM attributes (required) | CRM attributes that are [required](../setup/crm-data-upload.md#required-and-reserved-attributes) are always available for use as participant filters. | 
-| CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes)) are also available for use as participant filters. | 
+| CRM attributes (required) | CRM attributes that are [required](../setup/crm-data-upload.md#required-and-reserved-attributes) are available for use as participant filters in query types that permit both organizational and CRM data analysis (person, person-to-group, and group-to-group queries). | 
+| CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes)) are available for use as participant filters in query types that permit both organizational and CRM data analysis (person, person-to-group, and group-to-group queries). | 
 
 ## Apply a metric filter
 
