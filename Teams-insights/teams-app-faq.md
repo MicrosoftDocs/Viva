@@ -60,7 +60,7 @@ Insights does not use:
 
 ##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
 
-**A6.** To get access to the full functionality of the Viva Insights app, check with your administrator to verify that you have MyAnalytics enabled. 
+**A6.** To have access to the Viva Insights app, you will need an Exchange Online license.
 
 ## Related topics
 

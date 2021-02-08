@@ -2,6 +2,21 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/2/2021 | [Assign licenses with PowerShell for insights](/workplace-analytics-insights/assign-licenses-pshell) | added |
+| 2/2/2021 | [Assign user roles for Workplace Analytics insights](/workplace-analytics-insights/assign-roles) | modified |
+| 2/2/2021 | [Set up Workplace Analytics insights](/workplace-analytics-insights/setup) | modified |
+| 2/2/2021 | [Assign licenses with PowerShell for insights](/workplace-analytics-insights/assign-licenses-pshell) | modified |
+| 2/2/2021 | [Assign licenses for Workplace Analytics insights](/workplace-analytics-insights/assign-licenses) | renamed |
+| 2/2/2021 | [Insights glossary](/workplace-analytics-insights/glossary) | modified |
+| 2/4/2021 | [Assign licenses with PowerShell for insights](/workplace-analytics-insights/assign-licenses-pshell) | modified |
+| 2/4/2021 | [Assign licenses for Workplace Analytics insights](/workplace-analytics-insights/assign-licenses) | modified |
+
+
 ## Week of January 25, 2021
 
 
