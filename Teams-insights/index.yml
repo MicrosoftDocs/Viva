@@ -23,7 +23,7 @@ highlightedContent:
       itemType: learn
       url: /teams-insights/teams-app-privacy
     - title: Configuration
-      itemType: install
+      itemType: deploy
       url: /teams-insights/teams-app-install
     - title: Admin tasks
       itemType: deploy
