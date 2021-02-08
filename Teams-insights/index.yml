@@ -18,19 +18,19 @@ highlightedContent:
   items:
     - title: Introduction
       itemType: overview # controls the icon image and super-title text
-      url: /teams-insights/teams-app
+      url: teams-app
     - title: Keeping data private
       itemType: learn
-      url: /teams-insights/teams-app-privacy
+      url: teams-app-privacy
     - title: Configuration
       itemType: deploy
-      url: /teams-insights/teams-app-install
+      url: teams-app-install
     - title: Admin tasks
       itemType: deploy
-      url: /teams-insights/teams-app-admin-tasks
+      url: teams-app-admin-tasks
     - title: Using the Viva Insights
       itemType: how-to-guide
-      url: /teams-insights/teams-app-use-insights
+      url: teams-app-use-insights
     - title: Frequently asked questions
       itemType: reference
-      url: /teams-insights/teams-app-faq
+      url: teams-app-faq
