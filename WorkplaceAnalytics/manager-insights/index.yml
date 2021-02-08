@@ -22,6 +22,9 @@ highlightedContent:
     - title: Get started
       itemType: get-started
       url: /workplace-analytics/manager-insights/get-started
+    - title: Viva Insights app in Teams
+      itemType: deploy
+      url: /workplace-analytics/manager-insights/teams-app
     - title: Best practices
       itemType: learn
       url: /workplace-analytics/manager-insights/best-practices

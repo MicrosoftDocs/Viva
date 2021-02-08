@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# The Briefing email overview
+# Briefing email overview
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 

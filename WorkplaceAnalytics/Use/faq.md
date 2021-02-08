@@ -43,7 +43,7 @@ A1.  No. Workplace Analytics is a collaboration analysis tool that can be used t
 
 A2. MyAnalytics presents personal and private insights to Microsoft 365 users in Outlook through [digest emails](../myanalytics/use/email-digest-2.md), [inline suggestions](../myanalytics/use/mya-notifications.md) and the [Insights Outlook add-in](../myanalytics/use/add-in.md). It can also be accessed through a web [dashboard](../myanalytics/use/dashboard-2.md).
 
-Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and anonymized metrics.
+Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and de-identified metrics.
 
 ### Privacy and compliance
 
