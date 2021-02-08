@@ -2,6 +2,56 @@
 
 
 
+## Week of February 01, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/1/2021 | [Week in the life metrics in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-week-in-the-life) | modified |
+| 2/1/2021 | [Explore external collaboration data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-external-collaboration) | modified |
+| 2/1/2021 | [Explore internal network metrics in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-internal-networks) | modified |
+| 2/1/2021 | [Explore management and coaching data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-management-and-coaching) | modified |
+| 2/1/2021 | [Explore meetings overview data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-meetings-overview) | modified |
+| 2/1/2021 | [Accelerate change with Workplace Analytics](/Workplace-Analytics/use/accelerate-change) | modified |
+| 2/1/2021 | [Boost employee engagement with Workplace Analytics](/Workplace-Analytics/use/boost-engagement) | modified |
+| 2/1/2021 | [Increase customer focus with Workplace Analytics](/Workplace-Analytics/use/customer-focus) | modified |
+| 2/1/2021 | [Develop effective managers with Workplace Analytics](/Workplace-Analytics/use/develop-managers) | modified |
+| 2/1/2021 | [Enhance operational effectiveness with Workplace Analytics](/Workplace-Analytics/use/effective-operations) | modified |
+| 2/1/2021 | [Explore the stats introduction](/Workplace-Analytics/use/explore-intro) | modified |
+| 2/1/2021 | [Explore Teams data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-teams) | modified |
+| 2/1/2021 | [Foster innovation](/Workplace-Analytics/use/foster-innovation) | modified |
+| 2/1/2021 | [Improve agility with Workplace Analytics](/Workplace-Analytics/use/improve-agility) | modified |
+| 2/1/2021 | [Enhance organizational resiliency with Workplace Analytics](/Workplace-Analytics/use/resilient-organizations) | modified |
+| 2/1/2021 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
+| 2/2/2021 | [Workplace Analytics language support and guidelines](/Workplace-Analytics/overview/supported-languages) | modified |
+| 2/2/2021 | [Assigning Workplace Analytics licenses with PowerShell](/Workplace-Analytics/use/assigning-licenses-with-powershell) | modified |
+| 2/2/2021 | [Data-protection considerations summary when using Workplace Analytics](/Workplace-Analytics/privacy/data-protection-summary) | modified |
+| 2/2/2021 | [Workplace Analytics privacy and data access](/Workplace-Analytics/privacy/privacy-and-data-access) | modified |
+| 2/2/2021 | [Workplace Analytics Glossary](/Workplace-Analytics/use/glossary) | modified |
+| 2/2/2021 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
+| 2/3/2021 | [In-depth insights in Power BI](/Workplace-Analytics/tutorials/pbi-home-deeper) | modified |
+| 2/4/2021 | [Workplace Analytics Power BI template demos](/Workplace-Analytics/tutorials/pbi-demos) | modified |
+| 2/4/2021 | [Behavior patterns dashboard](/Workplace-Analytics/tutorials/power-bi-glint) | modified |
+| 2/4/2021 | [Workplace Analytics Power BI templates introduction](/Workplace-Analytics/tutorials/power-bi-intro) | modified |
+| 2/4/2021 | [Viva Insights -- My Organization](/Workplace-Analytics/use/viva-insights-my-org) | added |
+| 2/4/2021 | [Viva Insights app -- My Team](/Workplace-Analytics/use/viva-insights-my-team) | added |
+| 2/4/2021 | [Microsoft Viva Insights for managers in Microsoft Teams](/Workplace-Analytics/manager-insights/teams-app) | added |
+| 2/4/2021 | [Workplace Analytics best practices for managers](/Workplace-Analytics/manager-insights/best-practices) | modified |
+| 2/4/2021 | [Frequently asked questions about manager insights](/Workplace-Analytics/manager-insights/faqs) | modified |
+| 2/4/2021 | [Get started with manager insights](/Workplace-Analytics/manager-insights/get-started) | modified |
+| 2/4/2021 | [Manager insights documentation # < 60 chars](/Workplace-Analytics/manager-insights/index) | modified |
+| 2/4/2021 | Best practices for influencers | removed |
+| 2/4/2021 | [Workplace Analytics plans for managers](/Workplace-Analytics/manager-insights/plans) | modified |
+| 2/5/2021 | [Data-protection considerations when using Workplace Analytics](/Workplace-Analytics/privacy/data-protection-considerations) | modified |
+| 2/5/2021 | [Data-protection considerations summary when using Workplace Analytics](/Workplace-Analytics/privacy/data-protection-summary) | modified |
+| 2/5/2021 | [De-identification of personal data in Workplace Analytics](/Workplace-Analytics/privacy/de-identify-data) | modified |
+| 2/5/2021 | [Assigning Workplace Analytics licenses with PowerShell](/Workplace-Analytics/use/assigning-licenses-with-powershell) | modified |
+| 2/5/2021 | [Workplace Analytics Glossary](/Workplace-Analytics/use/glossary) | modified |
+| 2/5/2021 | [Workplace Analytics FAQ](/Workplace-Analytics/use/faq) | modified |
+| 2/5/2021 | [Workplace Analytics insights](/Workplace-Analytics/use/insights) | modified |
+| 2/5/2021 | [Manager insights introduction](/Workplace-Analytics/manager-insights/introduction) | modified |
+
+
 ## Week of January 25, 2021
 
 

@@ -43,7 +43,16 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "searchScope": ["Workplace Analytics insights"],
-      "titleSuffix": "Workplace Analytics insights"
+      "titleSuffix": "Workplace Analytics insights",
+      "contributors_to_exclude": [
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
+      ],
     },
     "fileMetadata": {},
     "template": [],

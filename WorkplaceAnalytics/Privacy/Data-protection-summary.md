@@ -41,9 +41,9 @@ Consider implementing the following data-privacy recommendations before you begi
 
 * **Develop a clear analysis plan:** You must understand clearly what you want to analyze and why. After you determine what specific questions about your organization you want to answer, consider how Workplace Analytics might help you find those answers. For more information, see [Develop a clear analysis plan](Data-protection-considerations.md#develop-a-clear-analysis-plan).
 
-* **Consider a DPIA:** If your proposed use of Workplace Analytics involves processing personal data in a way that could lead to high risks to the rights of employees and other users in your organization, consider completing a data protection impact assessment (DPIA). For more information, see [Determine whether to complete a data protection impact assessment (DPIA)](Data-protection-considerations.md#determine-whether-to-complete-a-data-protection-impact-assessment-dpia). 
+* **Consider a DPIA:** If your proposed use of Workplace Analytics involves processing personal data in a way that could lead to high risks to the rights of employees and other users in your organization, consider completing a data protection impact assessment (DPIA). For more information, see [Determine whether to complete a data protection impact assessment (DPIA)](Data-protection-considerations.md#determine-whether-to-complete-a-data-protection-impact-assessment-dpia).
 
-* **Use aggregated or anonymized data:** To minimize privacy risk, use the minimum data necessary to conduct your research. Note the inherent trade-off: You can, for example, adopt a strict policy that never uses personal data, but this restricts the analyses that Workplace Analytics can perform. For more information, see [Use aggregated or anonymized data whenever possible](Data-protection-considerations.md#use-aggregated-or-anonymized-data-whenever-possible).
+* **Use aggregated or de-identified data:** To minimize privacy risk, use the minimum data necessary to conduct your research. Note the inherent trade-off: You can, for example, adopt a strict policy that never uses personal data, but this restricts the analyses that Workplace Analytics can perform. For more information, see [Use aggregated or de-identified data whenever possible](Data-protection-considerations.md#use-aggregated-or-de-identified-data-whenever-possible).
 
 ## Decide what data to use
 
@@ -60,7 +60,7 @@ You have full control over what data to include in analysis using Workplace Anal
 ## Handle data-subject requests
 
 Under the General Data Protection Regulation (GDPR), data subjects may have rights to request exclusion from processing, access, and correction, or deletion of their personal data. As the data controller, your organization must evaluate whether a particular data-subject request is valid and then, if appropriate, take action to fulfill it.
-For more information about the following request types and how to fulfill them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests). 
+For more information about the following request types and how to fulfill them, see [Workplace Analytics support for handling data subject requests](Data-protection-considerations.md#workplace-analytics-support-for-handling-data-subject-requests).
 
 * **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing.
 
@@ -70,7 +70,7 @@ For more information about the following request types and how to fulfill them, 
 
 * **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed.
 
-* **Transparency regarding processing:** [Metric descriptions](../Use/metric-definitions.md) discusses in detail the metrics calculated by Workplace Analytics, and what they mean. 
+* **Transparency regarding processing:** [Metric descriptions](../Use/metric-definitions.md) discusses in detail the metrics calculated by Workplace Analytics, and what they mean.
 
 ## Additional Resources
 
