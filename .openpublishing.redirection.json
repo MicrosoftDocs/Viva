@@ -1,8 +1,8 @@
 {
     "redirections": [
       {
-        "source_path": "Teams-insights/index.md",
-        "redirect_url": "https://docs.microsoft.com/insights/teams-app",
+        "source_path": "https://docs.microsoft.com/insights/teams-app",
+        "redirect_url": "Teams-insights/index.md",
         "redirect_document_id": false
       },
       {
