@@ -18,7 +18,7 @@ highlightedContent:
   items:
     - title: Introduction
       itemType: overview # controls the icon image and super-title text
-      url: teams-app
+      url: teams-app.md
     - title: Keeping data private
       itemType: learn
       url: teams-app-privacy
