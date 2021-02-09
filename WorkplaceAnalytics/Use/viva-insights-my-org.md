@@ -130,11 +130,11 @@ The My organization page in the Viva insights app shows the following outcomes:
 
 ![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
-To use the My organization page, view the outcomes and decide which might warrant action on your part. Look at the leading indicators; do you see any red flags? 
+To use the My organization page, first view the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action? 
 
 ### Drill down to the insights level
 
-To investigate further, select one of the outcomes to see the insights for that outcome. For example, select the **Effective managers** outcome to see the **Develop effective managers** insights:
+To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select **Effective managers** to see the **Develop effective managers** insights:
 
 ![Develop effective managers](../images/wpa/use/dev-effect-managers.png)
 

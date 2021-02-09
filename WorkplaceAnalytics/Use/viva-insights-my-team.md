@@ -20,8 +20,10 @@ While you can also see these outcome-based insights and their related best pract
 
 #### Personal insights are also available
 
-In addition to information about your team, the Viva Insights app also offers you [personal insights](https://docs.microsoft.com/insights/teams-app), insights that can help any employee with their daily work:
+Along with information about your team, the Viva Insights app also offers you [personal insights](https://docs.microsoft.com/insights/teams-app), insights that can help any employee with their daily work:
+
  * **Stay connected** – This insight helps you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#stay-connected).  
+
  * **Protect time** – This insight helps you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. For more information about Protect time feature, see [Protect time](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#protect-time-tab).
 
 ## Data privacy 
@@ -126,11 +128,11 @@ The My Team page in the Microsoft Viva insights app shows the following outcomes
 
 ![Two outcomes on the Outcomes page](../images/wpa/use/viva-team-outcomes.png)
 
-To use the My Team page, view the outcomes and decide which might warrant action on your part. Look at the leading indicators; do you see any red flags? 
+To use the My Team page, first view the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
 ### Drill down to the insights level
 
-To investigate further, select one of the outcomes to see the insights for that outcome. For example, select the **Employee experience** outcome to see the **Coaching and development** insights:
+To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select  **Employee experience** to see the **Coaching and development** insights:
 
 ![Coaching and development](../images/wpa/use/viva-team-drill-down.png)
 
