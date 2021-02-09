@@ -158,7 +158,9 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 
 #### Different functionality 
 
-* In Workplace Analytics, the best practices pages offer more action links that you can select, such as **Explore the stats**, **Explore in Power BI**, and **Plans**. For example, by selecting **Increase frequency of coaching** on the page of the **Boost employee engagement** outcome, you see the best practices for the **Increase frequency of coaching** insight:
+* In Workplace Analytics, the best practices pages offer additional action links that you can select, such as **Explore the stats**, **Explore in Power BI**, and **Plans**. 
+
+For example, on the **Boost employee engagement** outcome, select **Increase frequency of coaching**. You'll then see the best practices for the **Increase frequency of coaching** insight:
 
 ![WpA best practice - increase frequency](../images/wpa/use/wpa-boost-best-prac-70.png)
 
