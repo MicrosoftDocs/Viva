@@ -52,7 +52,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
 
 1. To assign an insights license to a user:
 
-   With PowerShell open, start the Import Module, and log in to Azure AD:
+   With PowerShell open, start the Import Module, and sign in to Azure AD:
 
      ``` powershell
     Import-Module *AzureAD*
@@ -62,7 +62,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
     Connect-AzureAD
       ```
 
-   Log in with admin credentials:
+   Sign in with admin credentials:
 
     ![Azure Active Directory login](./images/azure-ad-log-in-1.png)
 
