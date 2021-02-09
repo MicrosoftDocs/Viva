@@ -91,7 +91,7 @@ You can configure MyAnalytics access for individual users in your organization. 
 You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings). Before you can make this setting, you must take preparatory steps; see [Command sequence](#command-sequence).
 
 > [!Important] 
-> The PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps), which you might have used to configure access to MyAnalytics, are no longer available. Instead, please use the following new cmdlets: [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), which ofter the same functionality along with some additional granular control.
+> The PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps), which you might have used to configure access to MyAnalytics, are no longer available. Instead, please use the following new cmdlets: [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), which offer the same functionality along with some additional granular control.
 
 ### User configuration settings
 
@@ -125,7 +125,6 @@ In this procedure, you install prerequisites and then you install the [Exchange 
 2. <u>Prerequisite #1:</u> Installing packages from the [PowerShell Gallery](https://docs.microsoft.com/powershell/scripting/gallery/getting-started?view=powershell-7.1) requires the latest version of the PowerShellGet module. Run these commands to install it:
 
    ```powershell
-   PowerShellCopy
    Install-Module PowerShellGet –Repository PSGallery –Force
    ```
           
@@ -134,7 +133,6 @@ In this procedure, you install prerequisites and then you install the [Exchange 
 3. <u>Prerequisite #2:</u> Install the Exchange Online PowerShell V2 module:
 
    ```powershell
-   PowerShellCopy
    Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4
    ```
 
@@ -151,7 +149,6 @@ In this procedure, you install prerequisites and then you install the [Exchange 
 4. <u>Connect to Exchange Online.</u> In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). 
 
    ```powershell
-   PowerShellCopy
    Connect-ExchangeOnline
    ```
 
