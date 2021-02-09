@@ -91,8 +91,7 @@ You can configure MyAnalytics access for individual users in your organization. 
 You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings). Before you can make this setting, you must take preparatory steps; see [Command sequence](#command-sequence).
 
 > [!Important] 
-> You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date.
-> While the old cmdlets are still available (before January 25, 2021), you can find information about them here: [Configure access at the user level (old cmdlets)](config-mya-retired.md). 
+> The PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps), which you might have used to configure access to MyAnalytics, are no longer available. Instead, please use the following new cmdlets: [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), which ofter the same functionality along with some additional granular control.
 
 ### User configuration settings
 
@@ -123,9 +122,10 @@ In this procedure, you install prerequisites and then you install the [Exchange 
 
 1. Open PowerShell.
 
-2. <u>Prerequisite #1:</u> Installing packages from the [PowerShell Gallery](https://docs.microsoft.com/powershell/scripting/gallery/getting-started?view=powershell-7.1) requires the latest version of the PowerShellGet module. Run this command to install it:
+2. <u>Prerequisite #1:</u> Installing packages from the [PowerShell Gallery](https://docs.microsoft.com/powershell/scripting/gallery/getting-started?view=powershell-7.1) requires the latest version of the PowerShellGet module. Run these commands to install it:
 
    ```powershell
+   PowerShellCopy
    Install-Module PowerShellGet –Repository PSGallery –Force
    ```
        
@@ -134,20 +134,24 @@ In this procedure, you install prerequisites and then you install the [Exchange 
 3. <u>Prerequisite #2:</u> Install the Exchange Online PowerShell V2 module:
 
    ```powershell
-   Install-Module -Name ExchangeOnlineManagement -AllowPrerelease 
+   PowerShellCopy
+   Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4
    ```
-   
+
+   For more information, see [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7.1). 
+
+ <!--  
    If this results in a warning that states, for example, that a previous 'ExchangeOnlineManagement' module is already installed, run the command again, this time with the '-Force' parameter: 
 
    ```powershell
    Install-Module -Name ExchangeOnlineManagement -AllowPrerelease -Force
    ```
-   
-   For more information, see [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7.1). 
+-->
    
 4. <u>Connect to Exchange Online.</u> In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). 
 
    ```powershell
+   PowerShellCopy
    Connect-ExchangeOnline
    ```
 
