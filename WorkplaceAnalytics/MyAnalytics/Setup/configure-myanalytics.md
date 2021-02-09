@@ -128,7 +128,7 @@ In this procedure, you install prerequisites and then you install the [Exchange 
    PowerShellCopy
    Install-Module PowerShellGet –Repository PSGallery –Force
    ```
-       
+          
    For more information, see [Installing PowerShellGet](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget?view=powershell-7.1).  
 
 3. <u>Prerequisite #2:</u> Install the Exchange Online PowerShell V2 module:
