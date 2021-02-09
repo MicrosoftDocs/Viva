@@ -150,7 +150,7 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 
 #### Different functionality 
 
-* In Workplace Analytics, you have the additional capability to launch plans from the wellbeing, collaboration and focus-plan insights.
+* In Workplace Analytics, in the wellbeing, collaboration and focus-plan insights, you can launch [plans](../tutorials/solutionsv2-intro.md). You cannot launch plans from Viva Insights. 
 
 * Best practices are integrated into the flow of the Viva Insights app, but in Workplace Analytics, best practices are presented in documentation. 
 
