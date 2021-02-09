@@ -52,9 +52,10 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
    * **Add employees** - Adds new employees to your existing organizational data that's already been uploaded into Workplace Analytics.
    * **Edit employee data** - Enables you to add, edit, or delete data (attributes) for existing employees within the organizational data that you've already uploaded into Workplace Analytics.
+   * **Select here to upload a new organizational data file** - Deletes the existing file and uploads a new file.
 
-   >[!Important]
-   >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, you must remove the existing uploaded data and replace it with a new file.
+     >[!Important]
+     >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to remove the existing uploaded data and replace it with new employee data.
 
 7. If adding employees, skip to **Step x**. If editing employee data, in **Edit**, select **Add attributes**, select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following important considerations:
 
