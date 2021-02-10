@@ -41,8 +41,6 @@ The following video might not represent your exact upload experience that is bas
 
 In the following steps, you specify a .csv file to upload to Workplace Analytics.
 
-**To select the file to upload**
-
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
 2. In the left navigation pane, select **Settings**.
 3. Select **Organizational data**. The **Upload history** area of this page shows the previous data uploads from your organization.
@@ -57,29 +55,36 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
      >[!Important]
      >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to remove the existing uploaded data and replace it with new employee data.
 
-7. If adding employees, skip to **Step x**. If editing employee data, in **Edit**, select **Add attributes**, select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following important considerations:
+7. In **Edit**, do one of the following:
+
+   * If adding employees, select **Add employees**.
+   * If editing employee data, select **Add attributes**.
+
+8. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following important considerations:
 
    * The .csv file that you upload must be UTF-8 encoded.
    * Confirm the .csv file is not open in a different program when you begin the upload process.
    * After the upload process begins, the process is irreversible.
 
-8. Select **Confirm** for the warning message.
-9. In **Source column in file**, map the names in the .csv file that correspond with the **Workplace Analytics attributes**:
+9. Select **Confirm** for the warning message.
+10. If adding employees, skip to **Step 13**. For editing employee data, in **Source column in file**, map the names in the .csv file that correspond with the **Workplace Analytics attributes**:
 
     <img src="../images/wpa/setup/upload2-map-sys-fields.png" alt="System fields table">
 
-10. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
+11. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
 
     >[!Note]
     >For details about column options, see [Columns in the fields tables](#columns-in-the-fields-tables).
 
-11. Map the optional and custom fields, as applicable. You only need to map the columns in the .csv file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
+12. Map the optional and custom fields, as applicable. You only need to map the columns in the .csv file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
     <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
-12. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
+13. For adding employees, 
 
-13. After you select **Submit**, the following can cause a warning message:
+14. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
+
+15. After you select **Submit**, the following can cause a warning message:
 
     * **Omitted columns** - If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns that are present in the existing organizational-data schema, and (c) at least one auto-refresh query depends on those (omitted) columns.
 
