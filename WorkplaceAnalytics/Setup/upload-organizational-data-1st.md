@@ -134,7 +134,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
    </ol>
 
    > [!Note]
-   > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
+   > For more information, see [Columns in the fields tables](#step-12).
 
 2. Map the optional and custom fields, as applicable. You only need to map the columns in the source data (.csv) file that your organization considers important for analysis. For example, if StartDate is important and your data contains this field, map it.
 

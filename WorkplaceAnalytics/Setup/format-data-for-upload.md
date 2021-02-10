@@ -311,7 +311,7 @@ After you have populated and formatted your organizational data file, you can co
    * If this is a subsequent upload of organizational data: [Validation fails](upload-organizational-data.md#validation-fails)
   
    > [!Note] 
-   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is _validity threshold_. For more information, see [Columns in the field tables](upload-organizational-data.md#columns-in-the-fields-tables) and [Set validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields).
+   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is _validity threshold_. For more information, see [Columns in the field tables](upload-organizational-data.md#step-12) and [Set validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields).
 
 <!-- NOTE FROM PRAMOD:
 Specific instructions to create, debug & fix (in case of validation errors) should be separate for CSV & XSLX files. We should have a separate page for each. We should link to these pages as required in the Prepare organizational data, Upload org data (First upload), Upload org data (subsequent uploads) pages.
