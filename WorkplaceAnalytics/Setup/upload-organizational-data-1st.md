@@ -191,3 +191,7 @@ Before you address the problem, you can select **Download error log**. This log 
 ### Options upon failed validation
 
 [!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation-1st.md)]
+
+### Related topics
+
+* [Prepare organizational data](prepare-organizational-data.md)
