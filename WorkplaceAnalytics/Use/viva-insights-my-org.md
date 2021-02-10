@@ -11,13 +11,11 @@ ms.prod: wpa
 
 # Microsoft Viva Insights app in Microsoft Teams - My Organization
 
-## Overview
-
-Leader insights can be viewed on the My organization page of the Microsoft Viva Insights app. These insights give you a snapshot of how your company is doing by presenting company-wide outcomes to focus on and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome at the moment: 
+Leader insights can be viewed on the My organization page of the Microsoft Viva Insights app. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome at the moment:  
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
-While you can also see these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
+While you can also see these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams. That's because you're already using Teams for communicating during remote work, namely for meeting, for sharing files, and for sending IMs to employees and other leaders. 
 
 #### Personal insights are also available
 
@@ -29,7 +27,7 @@ In addition to information about your organization, the Viva Insights app also o
 
 ## Data privacy 
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro). 
 
 ## Prerequisites
 
@@ -37,7 +35,9 @@ The _Analyst (Limited)_ role of Workplace Analytics can be used to access the My
 
 ## Install the Viva Insights app  
 
-This section describes how to install the Viva Insights app for yourself. (If you are an admin who is tasked with installing the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
+_**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft Teams users worldwide._
+
+This section describes how to install the Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)  
 
 > [!Note] 
 > You can skip this procedure if you've already installed the Viva Insights app to obtain the [Personal insights](#personal-insights-are-also-available). 
@@ -60,7 +60,7 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Add for me button](../images/mya/use/add-for-me-new-410.png)
 
-This adds the app to all the places where you might use Microsoft Teams, including the Teams desktop client, Teams on the web, and Teams on a mobile device.   
+This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.   
 
 > [!Note] 
 > You can also locate the Viva Insights app through this link: https://aka.ms/InsightsTeamsApp. 
@@ -130,11 +130,11 @@ The My organization page in the Viva insights app shows the following outcomes:
 
 ![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
 
-To use the My organization page, view the outcomes and decide which might warrant action on your part. Look at the leading indicators; do you see any red flags? 
+To use the My organization page, first view the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action? 
 
 ### Drill down to the insights level
 
-To investigate further, drill down by selecting one of the outcomes to see the insights for that outcome. For example, select the **Effective managers** outcome to see the **Develop effective managers** insights:
+To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select **Effective managers** to see the **Develop effective managers** insights:
 
 ![Develop effective managers](../images/wpa/use/dev-effect-managers.png)
 
@@ -144,7 +144,7 @@ Similarly, you can select **Boost employee engagement** on the Outcomes page to 
 
 ### Drill down to the best-practices level
 
-To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**. This opens the panel called, **Best Practices: Increase frequency of coaching**:
+To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**, which opens the panel called, **Best Practices: Increase frequency of coaching**:
 
 ![Best practice - Coaching frequency](../images/wpa/use/teams-bestprac-freq-coaching-70.png)
 
@@ -160,11 +160,11 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 
 * In Workplace Analytics, the best practices pages offer additional action links that you can select, such as **Explore the stats**, **Explore in Power BI**, and **Plans**. 
 
-For example, in Workplace Analytics, by selecting **Increase frequency of coaching** on the page of the **Boost employee engagement** outcome, you see the best practices for the **Increase frequency of coaching** insight:
+For example, on the **Boost employee engagement** outcome, select **Increase frequency of coaching**. You'll then see the best practices for the **Increase frequency of coaching** insight:
 
 ![WpA best practice - increase frequency](../images/wpa/use/wpa-boost-best-prac-70.png)
 
-Here is the same best practice in Viva Insights:
+Here's the same best practice in Viva Insights:
 
 ![Insights best practice - increase frequency](../images/wpa/use/teams-bestprac-freq-coaching-70.png)
 
@@ -201,13 +201,13 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 **A4.** There are two ways to provide feedback through the Insights app: 
 
-* At the bottom of every Insight is the question, "Is this helpful?" Select **Yes** or **No** to provide feedback.  
+* At the bottom of every Insight is the question: "Is this helpful?" Select **Yes** or **No** to provide feedback.  
    
    ![Is this helpful? Yes No](../images/mya/use/is-helpful.png)
 
-* Every page in the Insights app has the question, "Is this helpful?" at the bottom right corner. Select **Yes** or **No** to provide feedback.  
+* Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
    
-   After you have selected **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
+   After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback. 
    
    ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
 
