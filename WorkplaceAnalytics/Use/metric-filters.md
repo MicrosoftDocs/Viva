@@ -74,7 +74,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 
 ## Participant filters
 
-The following <!-- tables list filters that --> groups of filters can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
+Filters of the following <!-- tables list filters that --> types can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
 
 <!-- (2/10/2021) PER RADHIKA, THESE AREN'T RELEASE YET BROADLY AND SHOULD BE "published later" 
 
