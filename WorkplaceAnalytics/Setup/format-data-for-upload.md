@@ -30,15 +30,15 @@ For these uploads, you can choose from among two file formats. The following sec
 
 ### Which format to use
 
-**Recommended: Use the .xlsx format.** We recommend this format because it is usually easier to use. But in many cases, you could use either format, provided that you heed their restrictions:
+**Recommended: Use the .xlsx format** because it is usually easier to use. But for some cases, you could use either format, if it complies with the following:
 
-1. **Use .xlsx if outside of the United States.** Files in the UTF-8 encoded .csv format are subject to United-States data formatting, so if your organization is based outside of the United States and uses non-U.S. formatting for dates, times, or numbers, use the .xlsx format.
-2. **Encode .csv files properly.** Only choose the .csv-file option if you can format it as required: UTF-8 encoded, and with all data (dates, times, numbers) in United-States format. Files in the .xlsx format do not have these restrictions.
-3. **Stay under the size limit.** The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead.
+1. **Use .xlsx if outside of the United States** - Files in the UTF-8 encoded .csv format are subject to United-States data formatting, so if your organization is based outside of the United States and uses non-U.S. formatting for dates, times, or numbers, use the .xlsx format.
+2. **Encode .csv files properly** - Only choose the .csv-file option if you can format it as required: UTF-8 encoded, and with all data (dates, times, numbers) in United-States format. Files in the .xlsx format do not have these restrictions.
+3. **Stay under the size limit** - The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead.
 
-> [!Note]
-> * For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see  [Prepare organizational data](prepare-organizational-data.md).
-> * If you've uploaded data by using one file format and would like to upload data in a different file format in the future, you can do so, as long as you format the data according to the rules in the following sections.
+>[!Note]
+>* For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see [Prepare organizational data](prepare-organizational-data.md).
+>* If you've uploaded data by using one file format and would like to upload data in a different file format in the future, you can do so, as long as you format the data according to the rules in the following sections.
 
 <!-- PER PRAMOD (23 AUGUST 2019) REMOVE THIS. "For now, CRM will continue to support upload only through CSV."
 > * CRM data: [Prepare the CRM source data](crm-data-upload.md#prepare-the-crm-source-data)
@@ -55,18 +55,18 @@ Workplace Analytics can accept organizational data in .xlsx files produced by Mi
 
 Acceptable .xlsx files must adhere to the following:  
 
-* **File extension.** The extension must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet application.
-* **Size limit.** The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead.  
-* **No formulas or macros.** Include no formulas or macros in cells in the .xlsx file.  
-* **No special objects.** Do not include charts, images, pivot tables, or other such entities in the file.
-* **Accepted number and date formats.** While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Apply the correct data type](#apply-the-correct-data-type).
-* **Internal structure.** See the following section, [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for successful upload.
+* **File extension** - Must be _.xlsx_. It cannot be any other extension (such as .xls, .xlsb, or .xlsm) that is supported by Microsoft Excel or another spreadsheet application.
+* **Size limit** - The limit is 1.0 GB for .xlsx upload files. If your upload file is larger than 1.0 GB, use the .csv format instead.  
+* **No formulas or macros** - None can be in cells in the .xlsx file.  
+* **No special objects** - Do not include charts, images, pivot tables, or other such entities in the file.
+* **Accepted number and date formats** - While .csv files require U.S. delimiter and date format, this restriction does _not_ apply to .xslx files. You can use the formats for other locales in .xlsx files. For more information, see [Apply the correct data type](#apply-the-correct-data-type).
+* **Internal structure** - See [Structure an .xlsx file](#structure-an-xlsx-file) to learn how to structure the columns and rows in an .xlsx file for a successful upload.
 
 ### Structure an .xlsx file
 
 #### Sheets
 
-* **First sheet only.** Workplace Analytics will read only the first sheet of the .xlsx file. You can have data on other sheets, but it will be ignored. To confirm which sheet is the first sheet, open the file in Excel and locate the tab farthest to the left. 
+* **First sheet only** - Workplace Analytics will read only the first sheet of the .xlsx file. You can have data on other sheets, but it will be ignored. To confirm which sheet is the first sheet, open the file in Excel and locate the tab farthest to the left.
 
   In the following example, only the data in the sheet labeled "DataSheet" will be used:
 
@@ -74,16 +74,16 @@ Acceptable .xlsx files must adhere to the following:
 
 #### Columns and rows
 
-* **The first row contains column headers only.** In the first sheet, the values in the first row are considered to be column headers.
+* **The first row contains column headers only** - In the first sheet, the values in the first row are considered to be column headers.
 
-   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md). 
+   Column headers in an .xlsx file are used the same as column headers in a .csv file. You use them on the [Mapping](upload-organizational-data-1st.md#field-mapping) page of the organizational-data upload sequence to identify columns. The names they are given on that page can later be used by analysts when they build [queries](../tutorials/query-basics.md).
 
-* **No duplicate column headers.** Every column header must be unique. 
-* **No blank or repetitive cells.** Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
-* **Strings only in column headers.** Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type).
-* **Only _column span_ data is used.** The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique.
+* **No duplicate column headers** - Every column header must be unique.
+* **No blank or repetitive cells** - Workplace Analytics checks all cells in the first row to verify that there are no blank cells and no repetitions.
+* **Strings only in column headers** - Column headers must be strings. In Microsoft Excel, use either the _General_ or _Text_ formatting option. To format a cell, see [Apply the correct data type](#apply-the-correct-data-type).
+* **Only _column span_ data is used** - The _column span_ is the set of contiguous columns in the worksheet that starts with column A and ends with the final column that has a header. In the column-header row, between the first and the last column (inclusive), every cell must contain data and be unique.
 
-  **Example 1:** In this example, the column span is columns A through H:
+  **Example 1:** In this example, the columns span A through H:
 
    ![Column span A](../images/wpa/setup/column-span-simple.png)
 
@@ -93,11 +93,11 @@ Acceptable .xlsx files must adhere to the following:
 
    In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error ("blank header value").
 
-   **Example 3:** In this example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in columns beyond H is ignored.)
+   **Example 3:** In this example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in the columns after H is ignored.)
 
    ![Column span J3 and J4](../images/wpa/setup/column-span.png)
 
-* **How _row-span_ data is used.** After Workplace Analytics calculates the column span, it calculates the _row span_. It does these calculations in this order because the row span can be determined only after the column span is known.  
+* **How _row-span_ data is used** - After Workplace Analytics calculates the column span, it calculates the _row span_. These calculations are ordered because the row span can be determined only after the column span is known.  
 
   The row span is the set of rows in the worksheet that starts with row 2 (the first row after the column header row) and extends to the last row (the row numbered the highest) that contains data in columns within the column span.
 
@@ -111,7 +111,7 @@ Acceptable .xlsx files must adhere to the following:
   * Rows 5 through 10 are empty rows.
   * Row 11 is considered "partially filled." The data in partially filled rows is read, parsed, checked for validation errors, and potentially used.
 
-* **Combining _column span_ and _row span_.** After the column span and the row span are determined, Workplace Analytics begins to validate the data in the rectangle of cells defined by the column span and the row span (including the column-header row). In the preceding examples, this rectangle extends from cell A1 to cell H11.
+* **Combining _column span_ and _row span_** - After the column span and the row span are determined, Workplace Analytics validated the data in the rectangle of cells defined by the column and the row spans (including the column-header row). In the preceding examples, this rectangle extends from cells A1 through H11.
 
 #### Data
 
@@ -133,7 +133,7 @@ All field header or column names must adhere to the following:
 
 ##### Format the field-value rows
 
-To help ensure that Workplace Analytics can successfully validate the data in your upload file, follow these steps:  
+To help ensure that Workplace Analytics can successfully validate the data in your upload file:  
 
 1. Make sure that your data uses only [valid values and formats](#use-only-valid-values-and-formats).
 
@@ -145,7 +145,7 @@ When any data row or column has an invalid value for any attribute, the entire u
 
 The field values in the data rows must comply with the following rules:
 
-* Each field can contain a maximum of 128KB of data.
+* Each field can contain a maximum of 128 KB of data.
 * The required **EffectiveDate** and **HireDate** field values must have the Date datatype. (To apply a data type, see [Apply the correct data type](#apply-the-correct-data-type).)
 * The required **PersonId** and **ManagerId** field values must be valid email addresses (for example, gc@contoso.com).
 * The required **Layer** field values and **HourlyRate** field values must contain numbers only.
@@ -258,7 +258,7 @@ The field values also cannot contain any of the following characters:
 3. In Excel, organize the data:
 
    1. Place all of the data on a single worksheet.
-   2. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare orgazational data](prepare-organizational-data.md).
+   2. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare organizational data](prepare-organizational-data.md).
    3. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate.
 
    > [!Note]
@@ -273,19 +273,19 @@ The field values also cannot contain any of the following characters:
 
 5. Save the location of this new .csv file for later use.
 
-> [!Note]
-> If your spreadsheet application does not offer **CSV UTF-8 (Comma delimited) (*.csv)** as a file-type choice (for example, versions of Excel older than Excel 2016), you'll need to use another program, such as Notepad++, to save this file as comma-delimited UTF-8.
+>[!Note]
+>If your spreadsheet application does not offer **CSV UTF-8 (Comma delimited) (*.csv)** as a file-type choice (for example, versions of Excel older than Excel 2016), you'll need to use another program, such as Notepad++, to save this file as comma-delimited UTF-8.
 
 ### Example .csv data file
 
 Here's an example snippet of a valid .csv data file:
 
-PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area<br>
-Emp1@contoso.com,10/1/2020,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast<br>
-Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast<br>
-Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast<br>
-Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest<br>
-Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest<br>
+PersonId,EffectiveDate,HireDate,ManagerId,TimeZone,LevelDesignation,Organization,Layer,Area
+Emp1@contoso.com,10/1/2020,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Pacific Standard Time,5,Sales,8,Southeast
+Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Pacific Standard Time,4,Sales,7,Northeast
+Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
+Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest
 Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sales,9,Midwest  
 
 ## Subsequent steps
