@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Set up Workplace Analytics insights
-description: Steps to set up Workplace Analytics insights
+title: Set up Microsoft 365 Insights
+description: Steps to set up Microsoft 365 Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
@@ -13,7 +13,7 @@ ms.prod: wpa
 
 *This experience is only available through private preview at this time.*
 
-Before people in your organization can view and use Workplace Analytics insights, your Microsoft 365 global admin needs to do the following for them:
+Before people in your organization can view and use Microsoft 365 Insights, your Microsoft 365 global admin needs to do the following for them:
 
 * [Activate licenses](#activate-licenses)
 * [Assign licenses](#assign-licenses)
@@ -21,18 +21,18 @@ Before people in your organization can view and use Workplace Analytics insights
 
 This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through their Microsoft service representative.
 
-You can request access and get more information at [Microsoft Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Workplace Analytics insights.
+You can request access and get more information at [Microsoft Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Microsoft 365 Insights.
 
 ## Activate licenses
 
 1. Depending on which browser you are using, on the Windows taskbar or Start menu, right-click the browser application and select **Start InPrivate Browsing**, **New InPrivate window**, **New incognito window**, or **New private window**.
-2. Copy the **activation code link** that Microsoft sent you for Workplace Analytics insights, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
+2. Copy the **activation code link** that Microsoft sent you for Microsoft 365 Insights, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
 
    ![Activation code link](./images/sign-in.png)
 
 3. When prompted, enter your email address.
 4. Sign in with your Microsoft or Office 365 global admin credentials, and then select **Next**.
-5. In **Check out** > **confirm you order** > **Microsoft Workplace Analytics insights trial**, select **Try now**.
+5. In **Check out** > **confirm you order** > **Microsoft Microsoft 365 Insights trial**, select **Try now**.
 6. When prompted in **order receipt**, select **Continue**.
 
 ## Assign licenses

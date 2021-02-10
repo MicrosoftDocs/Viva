@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Foster innovation in Workplace Analytics insights
+title: Foster innovation in Microsoft 365 Insights
 description: Learn how to use insights data to analyze and foster innovation in your organization
 author: madehmer
 ms.author: v-mideh
