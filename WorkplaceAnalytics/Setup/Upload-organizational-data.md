@@ -255,3 +255,7 @@ For example, you might include a "SupervisorIndicator" attribute. At first, you 
 #### Set a lower value
 
 The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10% of the company. This number doesn't apply to engineers or program managers, but it is critical for high-performers in sales.  
+
+### Related topics
+
+* [Prepare organizational data](prepare-organizational-data.md)
