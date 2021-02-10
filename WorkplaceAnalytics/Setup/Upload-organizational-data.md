@@ -69,7 +69,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 9. Select **Confirm** for the message about updating existing data.
 10. If adding employees, skip to **Step 13**. For editing employee data, in **Source column in file**, map the names in the .csv file that correspond with the **Workplace Analytics attributes**:
 
-    <img src="../images/wpa/setup/upload2-map-sys-fields.png" alt="System fields table">
+    ![System fields](../images/wpa/setup/upload2-map-sys-fields.png)
 
 11. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
 
@@ -78,7 +78,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 12. <a name="step-12"></a>Map the optional and custom fields, as applicable. You only need to map the columns in the .csv file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
-    <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
+    ![Custom fields](../images/wpa/setup/upload3-map-custom2.png)
 
 13. For adding employees, select 
 
@@ -90,15 +90,15 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
     * **Excluded columns** - If (a) While setting the **Report options** for attributes on the **Mapping** page, you have chosen to exclude one or more columns from query results, and (b) at least one auto-refresh query depends on those (excluded) columns.
 
-    If you see a warning message about either of these issues, go to [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not see a warning message, go to [Data validation](#data-validation).
+    If you see a warning message about either of these issues, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not, see [Data validation](#data-validation).
 
 ## Field mapping
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these on the **Organizational data > Upload** page.
 
-<img src="../images/wpa/setup/upload2-map-top.png" alt="Upload page">
+![Upload page](../images/wpa/setup/upload2-map-top.png)
 
-The **Upload** page includes tables for System fields and Custom fields for mapping the data for the upload file.
+The **Upload** page has System fields and Custom fields that you need to map for the upload file.
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
@@ -133,11 +133,9 @@ When appending new attributes to an existing upload, you need to select all the 
 
   * **Custom fields** - For details, see [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
 
-  * **Include in report** - Lets you decide how to treat sensitive data in the report that will be generated about the import operation.
+* **Include in report** - Lets you decide how to treat sensitive data in the report that will be generated about the import operation. It offers the following options for each of the columns in your source data:
 
     ![Map data fields](../images/wpa/setup/map-fields-include-column-65.png)
-
-* **Include in report** offers the following options for each of the columns in your source data:
 
   * **Show in report** - Lets the actual data value appear in the report just as it was imported in the organizational data file.
 
@@ -145,16 +143,16 @@ When appending new attributes to an existing upload, you need to select all the 
 
   * **Exclude from report** - Prevents the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerID. In those cases, you cannot change this value.
 
-     >[!Note]
-     >The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation.
-     >
-     >In this case, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect execution of the auto refresh queries." If you see this message, go to [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
+  >[!Note]
+  >The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation.
+  >
+  >If so, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect the auto refresh of queries." For more details about this message, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
 
 ### If expected columns are missing or excluded
 
 For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, Workplace Analytics shows a warning message:
 
-   ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
+![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
 
 Below this message, a table in the **Warning details** area lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page.
 
@@ -164,7 +162,7 @@ To continue with data upload despite the issues, select **Next**. Note that this
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page shows the _File is being uploaded_ screen:
+After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page shows a message about the _File being uploaded_:
 
 ![Upload in progress](../images/wpa/setup/upload4-uploading.png)
 
@@ -183,9 +181,9 @@ After this phase completes, the file has either passed or failed validation. Go 
 
 ## Validation succeeds
 
-If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data.
+If validation succeeds, the **Upload** page shows the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data.
 
-<img src="../images/wpa/setup/upload6-validated.png" alt="Validation succeeded">
+![Validation succeeded](../images/wpa/setup/upload6-validated.png)
 
 You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
@@ -202,7 +200,7 @@ You can do the following for an upload:
 
 If data validation fails, the **Validation** page shows a "Validation failed" notification. It also shows details about the validation attempt and presents you with options:
 
-<img src="../images/wpa/setup/upload9-val-failed-upload-flow.png" alt="Validation failed">
+![Validation failed](../images/wpa/setup/upload9-val-failed-upload-flow.png)
 
 After a failed validation, it's best to first gain an understanding of the errors by scanning the error summary table. You can also select **Download issues** to examine the error log.
 
