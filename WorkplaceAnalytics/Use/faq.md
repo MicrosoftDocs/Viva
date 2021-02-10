@@ -145,7 +145,7 @@ A1. An upload can fail if the data has invalid values, if it is missing required
 
 A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
 
-##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields-table), what percentage does Workplace Analytics require for the validity threshold?
+##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields), what percentage does Workplace Analytics require for the validity threshold?
 
 A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet 100% of the validity threshold, because each of row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95% of the validity threshold. (Note that the calculations of validity threshold consider only two kinds of data values: valid values and blank values. This means that, for a validity threshold that's set to 95%, the column will pass validation if fewer than 5% of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.) For more information, see [Columns in the fields tables](../setup/upload-organizational-data.md#step-12).
 
