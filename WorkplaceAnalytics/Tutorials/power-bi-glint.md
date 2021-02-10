@@ -1,7 +1,7 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Behavior patterns dashboard
-description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and GLINT data
+description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and Glint data
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,7 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Behavior patterns for Glint
+# Behavior patterns with Glint
 
 The Behavior patterns dashboard uses a Power BI template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
@@ -32,6 +32,18 @@ The dashboard includes the following reports.
 * **Look for teams feeling disconnected that will benefit from better networking** – Compares employee connection scores for the selected HR attribute to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
 * **How can I take action to improve employee wellbeing?** - Summarizes opportunities to improve employee wellbeing by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 * **How can I take action to improve prioritization and connection?** - Summarizes opportunities to improve focus on priority tasks and employee connection by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
+
+## Demonstration
+
+This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZTYwMWI3MDctYTU3Mi00N2MxLWE4NmYtNjU4YzhlYmMxMGQ4IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
+
+## Setup video
+
+The following video describes how to set up the dashboard, which might not be exactly what you experience with data that's unique to your organization.
+
+<iframe src="https://player.vimeo.com/video/475970348" width="800" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## High-level steps
 

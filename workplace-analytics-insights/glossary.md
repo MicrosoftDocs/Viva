@@ -6,11 +6,13 @@ description: Describes common terms and concepts used in Workplace Analytics ins
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+localization_priority: none 
 ms.prod: wpa
 
 ---
 # Glossary for Workplace Analytics insights
+
+*This experience is only available through private preview at this time.*
 
 The following are terms and concepts used in Workplace Analytics insights. This glossary excludes [business outcome definitions](intro.md#business-outcomes).
 
@@ -35,7 +37,8 @@ The following are terms and concepts used in Workplace Analytics insights. This 
 | <a name="decision-making-meeting-define"></a> Decision-making meeting | A meeting that has between two and eight attendees and lasts less than one hour. |
 |Focus time| Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours |A person's time after you subtract their meeting hours and their focus hours. |
-|Influence |The calculations for influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure. |
+|Influence score |The calculations for influence scores use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure, which is how well connected that person is in the company, division, or other group. |
+|<a name="influencer-define"></a> Influencers |Beyond an organization’s formal hierarchy, individuals can exert influence within informal networks and between them. Influencers are the best-connected people in the company, who have large personal networks or above-average numbers of relationships with colleagues, which is determined based on their collaboration data.|
 |Insularity|When collaboration happens only with people from within a person’s team, function, department, and so on.|
 |Invitee|A person who is invited to a meeting with a meeting request.|
 | <a name="large-meeting-define"></a> Large meeting |A large meeting  involves more than eight people and lasts less than one hour. Also see [Long and large meeting](#long-and-large-meeting-define).|
@@ -43,8 +46,6 @@ The following are terms and concepts used in Workplace Analytics insights. This 
 |Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority. |
 | <a name="long-meeting-define"></a> Long meeting | A long meeting is scheduled for more than one hour and has more than one but fewer than nine attendees. |
 | <a name="long-and-large-meeting-define"></a> Long and large meeting |A long and large meeting has more than eight attendees and is scheduled for longer than one hour. |
-|Layer|The number of *levels* of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0.|
-|Level|A *required attribute* that is a company-specific way of organizing employees by job experience or seniority.   |
 | <a name="meaningful-interaction-define"></a>Meaningful interaction | A meaningful interaction is defined as one of the following types of collaboration: <li>an email</li><li>a meeting</li><li>a call</li><li>three instant messages. These messages could be sent by any of the collaborators in the chat. For example, they could be: (a) three messages sent by one individual to others in Teams, or (b) three distinct messages from distinct senders within the same Teams chat.<p><p>Moreover, every meaningful interaction must have at least two collaborators but at most eight collaborators participating in the interaction.  |
 | <a name="measured-employees"></a> Measured employees | The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignment, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
 | <a name="meeting-define"></a> Meeting | An audio or video communication or in-person meeting that has been scheduled -- that is, it appears on a person's Outlook calendar. A meeting must involve two or more people. Outlook calendar events determine the durations of meetings. |
@@ -59,7 +60,7 @@ The following are terms and concepts used in Workplace Analytics insights. This 
 |Person |The *measured employee* for whom the metric is calculated.|
 |Personal data | Personal data is any data that relates to an identified or identifiable natural person. An identifiable person is one who can be identified (directly or indirectly), in particular through an identifier such as a name, an identification number, location data, online identifier, or through one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that person.|
 |Pseudonymized | Pseudonymized data is personal data that has undergone processing so that it can no longer be attributed to a specific data subject without the use of additional information, provided that such additional information is kept separately and is subject to technical and organizational measures to ensure that the personal data is not attributed to an identified or identifiable natural person. Pseudonymization is one means of achieving de-identification. |
-|Recipient |A person included in an email (includes the sender and people included in the cc and bcc lines).|
+|Recipient |A person receiving an email (includes people in the to, cc, and bcc lines).|
 |Redundancy (organizational) |Organizational redundancy is present if at least three attendees are from different levels within the same organization. For example, a meeting whose attendees included a General Manager, a Director, and an Independent Contributor from the same organization would be a redundant meeting.|
 |Redundancy (lower level) |An attendee is considered redundant at the lower level if both the attendee's manager and skip-level manager are present in the meeting.|
 |Required attribute |Mandatory organizational data attributes that describe the people being analyzed in the insights. Required attributes include PersonId, EffectiveDate, ManagerId, LevelDesignation (also referred to as level), and Organization.|

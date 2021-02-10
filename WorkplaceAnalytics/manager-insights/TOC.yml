@@ -2,10 +2,11 @@
   href: ./introduction.md
 - name: Get started
   href: ./get-started.md
+- name: Insights in Teams
+  href: ./teams-app.md
 - name: Best practices
   href: ./best-practices.md
 - name: Plans
   href: ./plans.md
 - name: Frequently asked questions
   href: ./faqs.md
-  

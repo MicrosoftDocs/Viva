@@ -1,27 +1,31 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Introducing Workplace Analytics insights
+title: Introducing insights
 description: About Workplace Analytics insights to learn how your organization gets work done
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+localization_priority: none 
 ms.prod: wpa
 
 ---
-# Introducing Workplace Analytics insights
+# Insights introduction
 
-As a business leader, understanding how your employees work together is important. Workplace Analytics insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
+*This experience is only available through private preview at this time.*
 
-![Insights home page](./images/insights-home.png)
+As a business leader, understanding how your employees work together is important. Microsoft Insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
+
+![Workplace Analytics insights home page](./images/insights-home.png)
 
 This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through your Microsoft service representative.
 
-You can request access and get more information at [Microsoft Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Workplace Analytics insights.
+You can request access and get more information at [Microsoft insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Insights.
+
+After your admin has completed the [Setup steps](./setup.md), the data for insights might take up to three days to process and become available. After the data is processed for your organization, go to [Insights](https://productivityinsights.office.com) to view them.
 
 ## Your organizational data
 
-The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels.
+The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
 
 >[!Important]
 >Only data about users whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability) is included in this initial release.
@@ -30,7 +34,7 @@ The top right of the page shows who in your organization is included in this ana
 
 Each of the following business outcomes has a page dedicated to analysis about your organization and research-based suggestions on how to maintain or drive change toward business success.
 
-You can select **Download** in the top right to create and view a PowerPoint version of the following business outcomes. This enables you to share this valuable data with people in your organization who do not use Workplace Analytics.
+You can select **Download** in the top right to create and view a PowerPoint version of the following business outcomes. This enables you to share this valuable data with people in your organization who do not have access to Insights.
 
 |Business outcome |Why it matters |
 |-----------------|--------------|
@@ -46,10 +50,10 @@ You can select **Download** in the top right to create and view a PowerPoint ver
 
 ## Supporting evidence
 
-Each insight includes **Supporting evidence** that links you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/) authored by:
+Each insight includes **Supporting evidence** that links you to related information, such as [Microsoft Insights](https://insights.office.com/) authored by:
 
 * Industry experts based on research
-* Organizations who have effectively used Workplace Analytics to improve their business outcomes
+* Organizations who have effectively used this type of analysis to improve their business outcomes
 
 ## Take action
 
@@ -59,4 +63,4 @@ You also might see one or more groups listed who are affected and would benefit 
 
 ## Advanced analysis
 
-Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting about your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing Workplace Analytics.
+Workplace Analytics gives you access to more advanced analysis tools and ways of exploring and reporting analysis about your organization's collaboration data. See [Microsoft Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing and using Workplace Analytics.

@@ -43,12 +43,12 @@ The following shows an example of an employee experience insight about manager o
 
 ## How to get started
 
-* See [Get started](./get-started.md) to log in and get more details about your team's insights.
+* See [Get started](./get-started.md) to sign in and get more details about your team's insights.
 * Have questions? Review the [FAQs](./faqs.md).
 
 ## Team privacy is important
 
-This dashboard uses anonymized data from emails, meetings, and chats in Outlook and Teams to uncover insights about collaboration in your organization. As a manager, you will only ever see aggregated data about your team with no access to an individual’s data.
+This dashboard uses de-identified data from emails, meetings, and chats in Outlook and Teams to uncover insights about collaboration in your organization. As a manager, you will only ever see aggregated data about your team with no access to an individual’s data.
 
 The dashboard also uses differential privacy to keep personal data private. Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy. This is achieved by introducing slight variations to the data to protect privacy while still maintaining accuracy, so managers have confidence in the observed values.
 
