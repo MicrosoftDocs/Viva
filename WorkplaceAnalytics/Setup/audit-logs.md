@@ -54,7 +54,7 @@ Before you can search the Office 365 audit log, you (or another admin) must firs
 3. In the **Start date** section, select a date range. 
    * To use the maximum date range of 90 days, select the current date and time for the start date. Otherwise, an error occurs about the start date being earlier than the end date. 
    * If you turned auditing on in the last 90 days, the date range can't start before auditing was turned on.
-4. To return activities for all users (and service accounts), leave the **Users** field blank. Or you can enter one or more user names (the account email they use to log in to Workplace Analytics) in the **Users** field to only see those user activities.
+4. To return activities for all users (and service accounts), leave the **Users** field blank. Or you can enter one or more user names (the account email they use to sign in to Workplace Analytics) in the **Users** field to only see those user activities.
 
     ![Audit log users](../Images/WpA/privacy/audit-users.png)
 

@@ -44,7 +44,7 @@ In other words, only if a user has an Exchange Online mailbox can you assign a W
 
 ### Tenants
 
-Workplace Analytics requires an Office 365 tenant with Exchange Online. Workplace Analytics currently supports organizations with more than one tenant and tenants that are based in multiple geographic locations.
+Workplace Analytics requires an Office 365 tenant with Exchange Online.
 
 ### Workplace Analytics licenses
 

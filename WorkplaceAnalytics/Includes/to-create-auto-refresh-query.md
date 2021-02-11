@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: To create an auto-refresh query
 description: How to create an auto-refresh query with Workplace Analytics. 
 author: paul9955
 ms.author: v-mideh
-ms.date: 02/21/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -14,7 +11,7 @@ ms.prod: wpa
 
 **To create an auto-refresh query**
 
-1. On the **Queries** page, select a query type, such as Person query.
+1. In **Queries**, select a query type, such as Person query.
 2. Name the query and add an optional description.
 3. Select a time range, such as one month or one year:
 

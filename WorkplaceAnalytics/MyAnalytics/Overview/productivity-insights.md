@@ -6,7 +6,6 @@ title: Productivity insights in Outlook
 description: Learn ways to improve your productivity in Outlook 
 author: paul9955
 ms.author: v-pausch
-ms.date: 05/09/2019
 ms.topic: article
 localization_priority: priority 
 ms.prod: Mya
@@ -16,9 +15,9 @@ ms.prod: Mya
 
 _(Powered by MyAnalytics)_
 
-Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?
+Did you ever miss an important email or forget a commitment you made to your co-workers? Do meetings and emails tend to take over your calendar? Do you ever wish to see reminders for 1:1 meetings with your manager, direct reports, or other top collaborators? Would you like to be notified if an upcoming meeting doesn't have a quorum?  
 
-If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.
+If your answer to any of these questions is _yes_, the Outlook add-in provides actionable insights to help you stay on top of your tasks and get more done.  
 
 ## Insights that you might see
 

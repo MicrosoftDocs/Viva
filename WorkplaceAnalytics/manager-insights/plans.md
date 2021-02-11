@@ -17,6 +17,9 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans can 
 * **Collaboration** - Help team members reduce the number of excess meetings that the group schedules.
 * **Wellbeing** - Help team members unwind and protect their personal time by disconnecting in their off hours.
 
+> [!Note]
+> Plans are not available within the Microsoft Viva Insights app.
+
 You can do the following with plans:
 
 1. [Launch a plan](#launch-a-plan) for the identified group, who experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).

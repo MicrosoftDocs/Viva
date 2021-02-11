@@ -35,9 +35,9 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
 ### To use this insight
 
-1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings.
+1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) and it helps you evaluate the state of those meetings.
 
-    ![Prepare for your meetings](../../images/mya/use/prepare-for-your-meetings.png)
+    ![Prepare for your meetings](../../images/mya/use/prep-for-your-meetings-70.png)
 
 2.	Select **Prepare for your meetings** to see an insight for each of your upcoming meetings.
       
@@ -106,7 +106,7 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
 * **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as "_&lt; 25%_."
 * **Between thresholds.** If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
-* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
+* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 96% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
 
    | Number of recipients | Open rate reported | 
    | ------- | ------ |
@@ -125,10 +125,10 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
 2. In **Insights**, select one of the following:
 
-   a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or SharePoint.  
+   a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or in SharePoint.  
 
-     > [!Note] 
-     > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.   
+   > [!Note] 
+   > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared. 
 
      ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png) 
 

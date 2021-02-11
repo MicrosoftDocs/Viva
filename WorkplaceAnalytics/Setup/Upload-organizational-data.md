@@ -16,10 +16,10 @@ audience: Admin
 
 # Upload organizational data (subsequent uploads)
 
-This article presents the steps that administrators take to upload (import) organizational data to Workplace Analytics. Complete these steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
+Administrators need to do the following steps to upload (import) organizational data to Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
   > [!Important]
-  > Follow the steps in this section if this is **not** the first time that you have uploaded organizational data to Workplace Analytics. If this **is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
+  > Only follow these steps if this is **not** the first time you have uploaded organizational data to Workplace Analytics. If this **is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
 
 ## Import tasks
 
@@ -255,3 +255,7 @@ For example, you might include a "SupervisorIndicator" attribute. At first, you 
 #### Set a lower value
 
 The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10% of the company. This number doesn't apply to engineers or program managers, but it is critical for high-performers in sales.  
+
+### Related topics
+
+* [Prepare organizational data](prepare-organizational-data.md)

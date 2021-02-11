@@ -107,12 +107,10 @@ If your team list or job function changes, you can select the **Edit team** link
 
 **Build a broad internal network.** [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has found that managers with relatively large internal networks receive higher team engagement scores, and their team members tend to have larger networks as well.
 
-**Help team members prioritize tasks.** [Research by Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+**Help team members prioritize tasks.** [Research by Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours.
 
----------------
-## Notes
-
-\*  The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on for that tenant in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics. 
+> [!Note]
+> The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned **On** for that tenant in the [Manager settings](../../use/manager-settings.md) of Workplace Analytics.
 
 <!-- For now, we cannot use these links, so keeping them safe here: 
 

@@ -12,7 +12,7 @@ ms.prod: wpa
 
 # Workplace Analytics language support and guidelines
 
-The Workplace Analytics user interface is currently available in English, Japanese, and French. It is also available in preview mode in Chinese (Simplified), Chinese (Traditional), German, Italian, Korean, Portuguese (Brazil), Russian, and Spanish (Spain).
+The Workplace Analytics user interface is currently available in Chinese (Simplified), Chinese (Traditional), French (France), German (Germany), Italian (Italy), Japanese, Korean, Portuguese (Brazil), Russian (Russia), Spanish (Spain), and English (United States).
 
 In certain circumstances, you can use Workplace Analytics with _data_ that is in other languages. Follow these guidelines:
 
@@ -28,7 +28,7 @@ In certain circumstances, you can use Workplace Analytics with _data_ that is in
 
 ## Privacy settings
 
-In [Privacy settings](../use/settings.md#privacy-settings), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
+In [Privacy settings](../use/privacy-settings.md), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ![Exclude terms from subject line](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
 
@@ -37,5 +37,5 @@ We appreciate all your feedback. To report any language-related issues, use the 
 ### Related topics
 
 * [Supported languages in meeting exclusion rules](../tutorials/meeting-exclusion-concept.md#supported-languages)
-* [Configure settings for Workplace Analytics](../use/settings.md)
+* [Settings](../use/settings.md)
 * [Privacy settings considerations for Workplace Analytics](../Privacy/privacy-considerations.md)
