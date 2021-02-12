@@ -124,13 +124,13 @@ In this procedure, you install prerequisites and then you install the [Exchange 
 
 1. Open PowerShell.
 
-2. <u>Prerequisite #1:</u> Installing packages from the [PowerShell Gallery](https://docs.microsoft.com/powershell/scripting/gallery/getting-started?view=powershell-7.1) requires the latest version of the PowerShellGet module. Run these commands to install it:
+2. <u>Prerequisite #1:</u> Installing packages from the [PowerShell Gallery](https://docs.microsoft.com/powershell/scripting/gallery/getting-started) requires the latest version of the PowerShellGet module. Run these commands to install it:
 
    ```powershell
    Install-Module PowerShellGet –Repository PSGallery –Force
    ```
           
-   For more information, see [Installing PowerShellGet](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget?view=powershell-7.1).  
+   For more information, see [Installing PowerShellGet](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget).  
 
 3. <u>Prerequisite #2:</u> Install the Exchange Online PowerShell V2 module:
 
@@ -138,7 +138,7 @@ In this procedure, you install prerequisites and then you install the [Exchange 
    Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4
    ```
 
-   For more information, see [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7.1). 
+   For more information, see [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module). 
 
  <!--  
    If this results in a warning that states, for example, that a previous 'ExchangeOnlineManagement' module is already installed, run the command again, this time with the '-Force' parameter: 
