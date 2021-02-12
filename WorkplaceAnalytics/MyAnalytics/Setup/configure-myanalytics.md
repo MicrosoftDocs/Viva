@@ -113,8 +113,10 @@ You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/power
    * [Confirm MyAnalytics access for a user](#confirm-myanalytics-access-for-a-user)
    * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
 
+<!-- REMOVED 2/12/21 PER VIKRAM
 > [!Note] 
 > Certificate-based authentication is currently not supported for cmdlets. 
+-->
 
 #### Connect to Exchange Online
 
