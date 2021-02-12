@@ -20,7 +20,7 @@ Delay delivery is currently only available to Microsoft 365 or Office 365 E5, E3
 
 ## Use MyAnalytics to opt in
 
-When you enroll in delay delivery, MyAnalytics aligns email delivery with your co-worker's working hours. You can opt in as follows:
+When you enroll in delay delivery, MyAnalytics aligns email delivery with your coworker's working hours. You can opt in as follows:
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. In **Config Settings**, change the setting for **Delay Delivery** to **On**.
