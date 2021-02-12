@@ -21,7 +21,7 @@
             - name: Insights add-in
               href: ./use/add-in.md
             - name: Use Insights
-              href: ./use/use-the-insights.md          
+              href: ./use/use-the-insights.md
         - name: Digests
           items:
             - name: Welcome
@@ -30,14 +30,16 @@
               href: ./use/email-digest-2.md
         - name: Inline suggestions
           href: ./use/mya-notifications.md
+        - name: Delay delivery
+          href: ./use/delay-delivery.md
         - name: Focus plan
-          href: ./use/focus-plan.md               
+          href: ./use/focus-plan.md
     - name: MyAnalytics admin guide 
       items:
         - name: Introduction
           href: ./overview/mya-for-admins.md
         - name: MyAnalytics deployment guide
-          href: ./setup/deployment-guide.md         
+          href: ./setup/deployment-guide.md
         - name: Configure MyAnalytics
           href: ./setup/configure-myanalytics.md
         - name: Plans and environments
@@ -54,9 +56,6 @@
         items:
         - name: Focus
           href: ./use/focus.md
- #         items: 
- #           - name: Focus plan
- #             href: ./use/focus-plan.md
         - name: Wellbeing
           href: ./use/wellbeing.md
         - name: Network

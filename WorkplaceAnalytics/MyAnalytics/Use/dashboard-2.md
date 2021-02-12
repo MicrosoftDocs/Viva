@@ -74,8 +74,6 @@ Educational cards give you work productivity and wellbeing tips and ideas, which
 
 ![Educational insights](../../Images/mya/use/educational-tips.png)
 
-
-
 ## Config Settings
 
 Your personalized MyAnalytics data and insights are based on the working days, working hours, and time zone that you set on the MyAnalytics **Config Settings** page. Changes to these settings are reflected in next week's data.

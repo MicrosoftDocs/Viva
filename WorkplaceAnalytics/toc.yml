@@ -5,14 +5,14 @@
       href: ~/index-orig.md
     - name: Privacy and data protection
       items:
-        - name: Introduction                   
+        - name: Introduction
           href: ~/Privacy/data-protection-intro.md
-        - name: Data-protection considerations                 
+        - name: Data-protection considerations
           href: ~/Privacy/data-protection-considerations.md
         - name: Data de-identification
           href: ~/Privacy/de-identify-data.md
         - name: Differential privacy
-          href: ~/Privacy/differential-privacy.md          
+          href: ~/Privacy/differential-privacy.md
         - name: Privacy and data access
           href: ~/Privacy/privacy-and-data-access.md
         - name: Data retention policy
@@ -20,11 +20,11 @@
     - name: Setup and Maintenance
       items:
         - name: Environment requirements    
-          href: ~/setup/environment-requirements.md         
+          href: ~/setup/environment-requirements.md
         - name: Set up Workplace Analytics
           href: ~/setup/set-up-workplace-analytics.md
-        - name: Maintain Workplace Analytics    
-          href: ~/setup/maintain-workplace-analytics.md     
+        - name: Maintain Workplace Analytics
+          href: ~/setup/maintain-workplace-analytics.md
         - name: Assign licenses
           items:
             - name: Introduction
@@ -128,7 +128,7 @@
                 - name: Overview
                   href: ~/Use/pm-home.md
                 - name: Rollout to managers
-                  href: ~/manager-insights/rollout.md 
+                  href: ~/manager-insights/rollout.md
                 - name: FAQs
                   href: ~/Use/insight-faqs.md
             - name: Microsoft Viva Insights
@@ -136,7 +136,7 @@
                 - name: My Team
                   href: ~/use/viva-insights-my-team.md
                 - name: My Organization
-                  href: ~/use/viva-insights-my-org.md                 
+                  href: ~/use/viva-insights-my-org.md
         - name: Analyze
           items:
             - name: Peer analysis
@@ -144,26 +144,26 @@
             - name: Queries
               items:
                 - name: Overview
-                  href: ~/tutorials/Query-basics.md 
+                  href: ~/tutorials/Query-basics.md
                 - name: Person queries
-                  href: ~/tutorials/Person-queries.md  
+                  href: ~/tutorials/Person-queries.md
                   items:
                     - name: Visualize person queries
-                      href: ~/tutorials/query-visualization.md              
+                      href: ~/tutorials/query-visualization.md
                 - name: Meeting queries
                   href: ~/tutorials/Meeting-queries.md
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md 
+                  href: ~/tutorials/Person-to-group-queries.md
                 - name: Queries with CRM data
-                  href: ~/tutorials/crm-queries.md    
+                  href: ~/tutorials/crm-queries.md
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
                 - name: ONA queries
                   items: 
                     - name: ONA person queries
-                      href: ~/tutorials/ona-person-query.md 
+                      href: ~/tutorials/ona-person-query.md
                     - name: ONA person-to-person queries
                       href: ~/tutorials/ona-person-to-person-query.md
                 - name: Power BI templates
@@ -195,13 +195,13 @@
                     - name: Tips, FAQs, and troubleshooting
                       href: ~/tutorials/power-bi-templates.md
                 - name: Customize a metric
-                  href: ~/tutorials/Customize-a-metric.md                    
+                  href: ~/tutorials/Customize-a-metric.md
                 - name: View, download, and export query results
                   href: ~/Use/View-download-and-export-query-results.md
                 - name: Understand and interpret query output
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
-                  href: ~/tutorials/Query-auto-refresh.md                    
+                  href: ~/tutorials/Query-auto-refresh.md
             - name: Explore the stats
               items:
                 - name: Overview
@@ -274,13 +274,13 @@
     - name: Introduction
       href: MyAnalytics/MyA-landing-page.md
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md        
+      href: MyAnalytics/Overview/Better-work-habits.md
     - name: Reference
       items:
         - name: Frequently asked questions
-          href: MyAnalytics/Overview/mya-faq.md  
+          href: MyAnalytics/Overview/mya-faq.md
         - name: MyAnalytics languages
-          href: myanalytics/overview/mya-languages.md  
+          href: myanalytics/overview/mya-languages.md
     - name: MyAnalytics elements
       items: 
         - name: Introduction
@@ -292,7 +292,7 @@
             - name: Insights add-in
               href: myanalytics/use/add-in.md
             - name: Use Insights
-              href: myanalytics/use/use-the-insights.md          
+              href: myanalytics/use/use-the-insights.md
         - name: Digests
           items:
             - name: Welcome
@@ -301,20 +301,22 @@
               href: MyAnalytics/use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
+        - name: Delay delivery
+          href: ./use/delay-delivery.md
         - name: Focus plan
-          href: MyAnalytics/use/focus-plan.md    
+          href: MyAnalytics/use/focus-plan.md
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
         - name: MyAnalytics deployment guide
-          href: MyAnalytics/setup/deployment-guide.md         
+          href: MyAnalytics/setup/deployment-guide.md
         - name: MyAnalytics setup
           href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide.md    
+          href: MyAnalytics/overview/privacy-guide.md
     - name: Use MyAnalytics
       items:
       - name: Data privacy
@@ -325,23 +327,20 @@
         items:
         - name: Focus
           href: MyAnalytics/use/focus.md
- #         items: 
- #           - name: Focus plan
- #             href: MyAnalytics/use/focus-plan.md          
         - name: Wellbeing
           href: MyAnalytics/use/wellbeing.md
         - name: Network
           href: MyAnalytics/use/network.md
         - name: Collaboration
-          href: MyAnalytics/use/collaboration.md  
+          href: MyAnalytics/use/collaboration.md
 #        - name: Executive
-#          href: MyAnalytics/use/executive.md            
+#          href: MyAnalytics/use/executive.md
         - name: Leadership
           href: MyAnalytics/use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction 
-            href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md 
+            href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md
           - name: Individual adoption
             items: 
             - name: Get started

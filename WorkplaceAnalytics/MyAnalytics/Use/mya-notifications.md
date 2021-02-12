@@ -92,7 +92,7 @@ When composing an email in Outlook, you might see a suggestion to schedule email
 
 These suggestions are currently only available to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) who are using the Outlook desktop app.
 
-When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to  [Delay delivery](delay-email.md).
+When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to **Delay delivery** in either MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery](delay-delivery.md).
 
 ![Inline suggestions email](../../Images/mya/use/nudges-email.png)
 
