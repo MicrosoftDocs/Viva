@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Focus plan
 description: MyAnalytics focus plan

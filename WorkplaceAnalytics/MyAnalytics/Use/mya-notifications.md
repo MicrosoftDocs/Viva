@@ -92,29 +92,30 @@ When composing an email in Outlook, you might see a suggestion to schedule email
 
 These suggestions are currently only available to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) who are using the Outlook desktop app.
 
-If you have inline suggestions turned on, you can delay up two email deliveries each day. To get more than two daily suggestions, you can opt in to a [Delay email delivery plan](delay-email.md).
+When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to  [Delay delivery](delay-email.md).
 
 ![Inline suggestions email](../../Images/mya/use/nudges-email.png)
 
 **To delay email delivery**
 
 1. When you see a suggested delivery time, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
+
+   ![Delay delivery](../../Images/mya/use/insights-delay-delivery.png)
+
 2. An insight opens to show the scheduled time. You can select:
 
    * **Send** (within the email) to send the email at that scheduled time.
    * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
    * **Cancel** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
 
-      ![Delay delivery](../../Images/mya/use/insights-delay-delivery.png)
+   ![Cancel delay delivery](../../Images/mya/use/nudges-cancel-delay.png)
 
 3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
    Before the message is sent, you can open the message and select:
 
    * **Send now** to ignore the scheduled delivery time and send the email now.
-   * **Cancel delay delivery** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
-
-      ![Cancel delay delivery](../../Images/mya/use/nudges-cancel-delay.png)
+   * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
 
 ## Suggested outstanding tasks
 
