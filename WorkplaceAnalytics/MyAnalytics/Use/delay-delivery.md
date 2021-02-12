@@ -10,15 +10,17 @@ ms.prod: Mya
 
 # Delay delivery
 
-When composing an email in Outlook, Delay delivery will show you suggestions to schedule email deliveries at a later time that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
+When composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours.
 
-If you have inline suggestions turned on, you'll only see two delay delivery suggestions a day unless you also opt in to Delay delivery. If you opt in to Delay delivery, either through the  MyAnalytics dashboard or the Insights Outlook add-in, you'll get an unlimited number of inline suggestions for delaying email delivery when outside coworkers' working hours.
+With inline suggestions turned on, you can get up to two daily delay delivery suggestions. To get more than two a day, you need to opt in to Delay delivery. 
 
-Delay delivery is currently only available to Microsoft or Office 365 E5, E3, and E1 users in the Outlook desktop app for Windows.
+You can opt in to Delay delivery through MyAnalytics or the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers.
+
+Delay delivery is currently only available to Microsoft 365 or Office 365 E5, E3, and E1 users within the Outlook desktop app for Windows.
 
 ## Use MyAnalytics to opt in
 
-When you enroll in delay delivery, MyAnalytics aligns email delivery with your co-worker's working hours. You can opt in as follows from the [MyAnalytics dashboard](https://myanalytics.microsoft.com):
+When you enroll in delay delivery, MyAnalytics aligns email delivery with your co-worker's working hours. You can opt in as follows in your [MyAnalytics dashboard](https://myanalytics.microsoft.com):
 
 * In **Wellbeing**, select **Try it out** for **Delay delivery**.
 
@@ -37,9 +39,9 @@ You can also use the Outlook Insights add-in to enroll in Delay delivery as foll
 
 ![Turn on Delay delivery in the Insights add-in](../../Images/mya/use/try-delay-add-in.png)
 
-## To turn off Delay delivery
+## To turn it off
 
-You can opt in and opt out of Delay delivery as many times as you want To turn off Delay delivery:
+You can opt in and opt out of Delay delivery as many times as you want to turn off Delay delivery:
 
 * In the [MyAnalytics dashboard](https://myanalytics.microsoft.com), select **Config Settings**, and then change the setting for **Delay delivery** to **Off**.
 * Or in the Insights Outlook add-in, open **Settings** (gear icon), and then change the setting for **Delay delivery** to **Off** .
