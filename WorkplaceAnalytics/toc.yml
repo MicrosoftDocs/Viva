@@ -252,6 +252,8 @@
           href: ~/Use/Glossary.md
         - name: Workplace Analytics metrics
           href: ~/Use/metric-definitions.md
+        - name: Metric filters
+          href: ~/Use/metric-filters.md          
         - name: Best practices
           href: ~/Tutorials/gm-best-practices.md
         - name: Time zones for Workplace Analytics
