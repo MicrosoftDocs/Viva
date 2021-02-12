@@ -304,7 +304,7 @@
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
         - name: Delay delivery
-          href: ./use/delay-delivery.md
+          href: MyAnalytics/use/delay-delivery.md
         - name: Focus plan
           href: MyAnalytics/use/focus-plan.md
     - name: MyAnalytics admin guide
