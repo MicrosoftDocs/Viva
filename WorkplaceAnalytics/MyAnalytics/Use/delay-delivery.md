@@ -24,11 +24,11 @@ When you enroll in delay delivery, MyAnalytics aligns email delivery with your c
 
 * In **Wellbeing**, select **Try it out** for **Delay delivery**.
 
-![Try delay email delivery in MyAnalytics](../../Images/mya/use/try-delay-mya.png)
+  ![Try delay email delivery in MyAnalytics](../../Images/mya/use/try-delay-mya.png)
 
 * Or in **Config Settings**, change the setting for **Delay Delivery** to **On**.
 
-![Turn on Delay delivery in MyAnalytics](../../Images/mya/use/delay-on-mya.png)
+  ![Turn on Delay delivery in MyAnalytics](../../Images/mya/use/delay-on-mya.png)
 
 ## Use Insights to opt in
 
