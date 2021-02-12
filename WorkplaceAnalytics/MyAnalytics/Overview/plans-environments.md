@@ -36,7 +36,8 @@ The following features are available only in the MyAnalytics (Full) service plan
  * Read-status features: [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), [Track email open rate](../use/mya-notifications.md#track-email-open-rate)   
  * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) 
  * [Delay email delivery](../use/mya-notifications.md#delay-email-delivery) 
- <!-- REMOVED 30sept2020 * Ability to participate in a [Workplace Analytics plan](../../tutorials/solutionsv2-intro.md) -->
+ * Ability to participate in a [Workplace Analytics plan](../../tutorials/solutionsv2-intro.md) 
+ <!-- REMOVED 30sept2020 * Ability to participate in a [Workplace Analytics plan](../../tutorials/solutionsv2-intro.md) BUT RE-ADDED 2/12/2021-->
 
 ## Access to MyAnalytics elements
 
