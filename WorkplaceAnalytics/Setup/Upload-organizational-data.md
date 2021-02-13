@@ -55,42 +55,46 @@ Use the following steps to upload (import) your organizational data as a .csv fi
      >[!Important]
      >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to remove the existing uploaded data and replace it with new employee data.
 
-7. In **Edit**, do one of the following:
-
-   * If adding employees, select **Add employees**.
-   * If editing employee data, select **Add attributes**.
-
-8. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following **important upload considerations**:<a name="important-upload-considerations"></a>
+7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following **important upload considerations**:<a name="important-upload-considerations"></a>
 
    * The .csv file that you upload must be UTF-8 encoded.
    * Confirm the .csv file is not open in a different program when you begin the upload process.
    * After the upload process begins, the process is irreversible.
 
-9. Select **Confirm** for the message about updating existing data.
-10. If adding employees, skip to **Step 13**. For editing employee data, in **Source column in file**, map the names in the .csv file that correspond with the **Workplace Analytics attributes**:
+8. If you see a message about updating existing data, select **Confirm**.<a name="step-9"></a>
+9. Map the fields as applicable. For details, see [Field column details](#field-column-details).
 
-    ![System fields](../images/wpa/setup/upload2-map-sys-fields.png)
+   1. In **Source column in file**, map the names in the .csv file to the corresponding names in the **Workplace Analytics attributes**.
+   2. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
 
-11. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
+      * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
 
-    >[!Note]
-    >For details about column options, see [Field column details](#field-column-details).
+      ![System fields for adding employees](../images/wpa/setup/upload2-map-sys2.png)
 
-12. <a name="step-12"></a>Map the optional and custom fields, as applicable. You only need to map the columns in the .csv file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
+      * When editing employee data, you’ll see the following types of fields, which *excludes* the validity thresholds:
 
-    ![Custom fields](../images/wpa/setup/upload3-map-custom2.png)
+      ![System fields for editing employees](../images/wpa/setup/upload-edit-data.png)
 
-13. For adding employees, select 
+    3. Map the optional and custom fields, as applicable. You only need to map the columns in the .csv file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
-14. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
+      * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
 
-15. After you select **Submit**, the following can cause a warning message:
+      ![Custom fields for adding employees](../images/wpa/setup/upload-map-custom.png)
 
-    * **Omitted columns** - If (a) You chose the **Replace** option for uploading organizational data, and (b) while mapping fields, you have chosen to omit one or more columns that are present in the existing organizational-data schema, and (c) at least one auto-refresh query depends on those (omitted) columns.
+      * When editing employee data, you’ll see the following types of fields, which *excludes* the validity thresholds:
 
-    * **Excluded columns** - If (a) While setting the **Report options** for attributes on the **Mapping** page, you have chosen to exclude one or more columns from query results, and (b) at least one auto-refresh query depends on those (excluded) columns.
+      ![Custom fields for editing employees](../images/wpa/setup/upload-edit-data-custom.png)
 
-    If you see a warning message about either of these issues, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not, see [Data validation](#data-validation).
+    4. For adding or replacing data, skip to the next step. For editing data, in **Existing attributes**, if you select one or more attributes in the list, you can then select **Delete** (trashcan icon) to delete them. However, you cannot delete any required attributes. For the message confirming the deletion, select **Confirm** or **Cancel** (only if you want to select different or additional attributes to delete).
+
+10. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
+11. 11)	You’ll then see a message while the data is being validated and then a new message when it is successful or not. The following can cause a warning message:
+
+    * **Omitted columns** - If replacing an existing upload and while mapping fields, you chose to omit one or more columns that are present in the existing upload data schema, and at least one auto-refresh query depends on those (omitted) columns.
+
+    * **Excluded columns** - While setting the **Report options** for attributes on the **Mapping** page, you chose to exclude one or more columns from query results, and at least one auto-refresh query depends on those (excluded) columns.
+
+    If you see a warning message about either of these issues, go to [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not, go to [Data validation](#data-validation).
 
 ## Field mapping
 
@@ -101,6 +105,8 @@ You need to map the fields (columns) for the source .csv file to the field names
 The **Upload** page has System fields and Custom fields that you need to map for the upload file.
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
+
+When adding new attributes or replacing existing data with new data, confirm your file has the following format: PersonId, EffectiveDate, and other new attribute(s), and map accordingly.
 
 <!-- TWO OF THE FOLLOWING THREE SECTIONS (system fields tabLe, custom fields table, columns in the fields tables) ARE LONG AND THIS MAKES THE TOPIC HARDER TO NAVIGATE. CONSIDER PRESENTING THEM IN TABS, RATHER THAN CONSECUTIVELY. -->
 
@@ -156,7 +162,7 @@ For a query to run successfully, it requires particular attributes (columns) to 
 
 Below this message, a table in the **Warning details** area lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page.
 
-After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with [Step 12](#step-12).
+After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with [Step 9](#step-9).
 
 To continue with data upload despite the issues, select **Next**. Note that this choice will turn auto-refresh off for queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available.
 
