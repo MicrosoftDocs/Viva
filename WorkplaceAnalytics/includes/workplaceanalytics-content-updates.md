@@ -2,6 +2,33 @@
 
 
 
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [Behavior patterns dashboard](/Workplace-Analytics/tutorials/power-bi-glint) | modified |
+| 2/8/2021 | [Workplace Analytics roles](/Workplace-Analytics/setup/assign-roles-to-wpa-admins) | modified |
+| 2/8/2021 | [Assign Workplace Analytics roles](/Workplace-Analytics/setup/assign-user-roles) | modified |
+| 2/8/2021 | [Audit logs for Workplace Analytics](/Workplace-Analytics/setup/audit-logs) | modified |
+| 2/8/2021 | [Ways of working assessment dashboard](/Workplace-Analytics/tutorials/power-bi-collab-assess) | modified |
+| 2/8/2021 | [Collaboration overload dashboard](/Workplace-Analytics/tutorials/power-bi-collab-overload) | modified |
+| 2/8/2021 | [Seller success plan in Workplace Analytics](/Workplace-Analytics/tutorials/seller-success) | modified |
+| 2/8/2021 | [Assigning Workplace Analytics licenses with PowerShell](/Workplace-Analytics/use/assigning-licenses-with-powershell) | modified |
+| 2/8/2021 | [Assign Workplace Analytics user roles and groups in Azure Active Directory (AAD)](/Workplace-Analytics/use/assigning-wpa-user-and-group-roles-in-azure-ad) | modified |
+| 2/8/2021 | [View, download, and export Workplace Analytics query results](/Workplace-Analytics/use/view-download-and-export-query-results) | modified |
+| 2/8/2021 | [Viva Insights -- My Organization](/Workplace-Analytics/use/viva-insights-my-org) | modified |
+| 2/8/2021 | [Viva Insights app -- My Team](/Workplace-Analytics/use/viva-insights-my-team) | modified |
+| 2/8/2021 | [Manager insights introduction](/Workplace-Analytics/manager-insights/introduction) | modified |
+| 2/8/2021 | [Microsoft Viva Insights for managers in Microsoft Teams](/Workplace-Analytics/manager-insights/teams-app) | modified |
+| 2/10/2021 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+| 2/10/2021 | [Upload organizational data to Workplace Analytics (subsequent uploads)](/Workplace-Analytics/setup/upload-organizational-data) | modified |
+| 2/10/2021 | [Upload organizational data to Workplace Analytics (first upload)](/Workplace-Analytics/setup/upload-organizational-data-1st) | modified |
+| 2/11/2021 | [Workplace Analytics metric filters](/Workplace-Analytics/use/metric-filters) | added |
+| 2/11/2021 | [Prepare organizational data in Workplace Analytics](/Workplace-Analytics/setup/prepare-organizational-data) | modified |
+| 2/12/2021 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+
+
 ## Week of February 01, 2021
 
 
