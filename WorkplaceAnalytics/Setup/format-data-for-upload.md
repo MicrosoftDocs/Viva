@@ -8,6 +8,9 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Format organizational data for upload

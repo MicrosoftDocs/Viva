@@ -4,9 +4,10 @@ title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
 author: madehmer
 ms.author: v-pausch
-ms.topic: article
+ms.topic: reference
 localization_priority: normal
 ms.prod: wpa
+
 ---
 
 # Frequently Asked Questions for Workplace Analytics
