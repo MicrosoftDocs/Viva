@@ -47,12 +47,15 @@ See the following topics to learn how to create and track plans:
 
 ## Prerequisites for plans
 
-Confirm that your organization meets the following prerequisites:
+Confirm that your organization meets the following licensing prerequisites:
 
-* Assign licenses to both Workplace Analytics and MyAnalytics for members of the groups that will take part in change plans.
-* Identify who in your organization to assign one of the following roles:
+* **For plan organizers** &ndash; Identify who in your organization to assign one of the following roles:
 
-  * **Analyst**, **limited analyst**, or **program manager** - Both analysts and program managers can help identify opportunities for change plans, set up plans, run and track them, and measure plan ROI.  
+  * **Analyst**, **limited analyst**, or **program manager** - Both analysts and program managers can help identify opportunities for change plans, set up plans, run and track them, and measure plan ROI. (See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md).) 
+
+* **For plan participants** &ndash; Assign both of the following licenses to members of groups that will take part in change plans:
+   * [Workplace Analytics](../setup/assign-licenses-to-population.md) 
+   * [MyAnalytics (Full)](../myanalytics/setup/configure-myanalytics.md#assign-licenses-with-a-myanalytics-service-plan)
 
 >[!Note]
 >Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/manager-settings.md).
