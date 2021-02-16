@@ -45,7 +45,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 2. In the left navigation pane, select **Settings**.
 3. Select **Organizational data**, which shows **Upload history** for your organization.
 4. Select **New upload**.
-5. In **Upload**, select **Name your upload**, enter a name, and then you can optionally select **Add an optional description** and enter a description.
+5. In **Upload**, select **Name your upload**, enter a name, select **Add an optional description**, and enter a description.
 6. Select one of the following:
 
    * **Add employees** - Adds new employees to your existing organizational data that's already been uploaded into Workplace Analytics.
