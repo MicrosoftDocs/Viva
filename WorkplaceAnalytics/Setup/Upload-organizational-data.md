@@ -33,7 +33,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 ### Video: Upload organizational data
 
-The following video might not represent your exact upload experience that is based on your unique environment and organizational data.
+The following video might not represent your exact upload experience that is based on your unique environment and organizational data or might be a different version of the app.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
@@ -50,45 +50,48 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
    * **Add employees** - Adds new employees to your existing organizational data that's already been uploaded into Workplace Analytics.
    * **Edit employee data** - Enables you to add, edit, or delete data (attributes) for existing employees within the organizational data that you've already uploaded into Workplace Analytics.
-   * **Select here to upload a new organizational data file** - Deletes the existing file and uploads a new file.
+   * **Select here to upload a new organizational data file** - Permanently deletes all previously uploaded data and replaces it with new data.
 
      >[!Important]
-     >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to remove the existing uploaded data and replace it with new employee data.
+     >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to permanently replace it with new employee data.
 
-7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following **important upload considerations**:<a name="important-upload-considerations"></a>
+7. If adding employees or completely replacing the data, skip to the next step. If adding or deleting data from the existing data, in **Existing attributes**:
+
+   * To delete attributes, select one or more attributes in the list, and then select **Delete** (trashcan icon) to remove them from future analysis. However, you cannot delete any required attributes. For the message confirming the deletion, select **Confirm** or **Cancel**.
+   * To add new attributes, select **Add attributes**, and then go to the next step to upload the new data.
+
+8. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following **important upload considerations**:<a name="important-upload-considerations"></a>
 
    * The .csv file that you upload must be UTF-8 encoded.
    * Confirm the .csv file is not open in a different program when you begin the upload process.
    * After the upload process begins, the process is irreversible.
 
-8. If you see a message about updating existing data, select **Confirm**.<a name="step-9"></a>
-9. Map the fields as applicable. For details, see [Field column details](#field-column-details).
+9. If you see a message about updating existing data, select **Confirm**.<a name="step-10"></a>
+10. Map the fields as applicable. For details, see [Field column details](#field-column-details).
 
-   1. In **Source column in file**, map the names in the .csv file to the corresponding names in the **Workplace Analytics attributes**.
-   2. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
+    1. In **Source column in file**, map the names in the .csv file to the corresponding names in the **Workplace Analytics attributes**.
+    2. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
 
       * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
 
-      ![System fields for adding employees](../images/wpa/setup/upload2-map-sys2.png)
+        ![System fields for adding employees](../images/wpa/setup/upload2-map-sys2.png)
 
       * When editing employee data, you’ll see the following types of fields, which *excludes* the validity thresholds:
 
-      ![System fields for editing employees](../images/wpa/setup/upload-edit-data.png)
+        ![System fields for editing employees](../images/wpa/setup/upload-edit-data.png)
 
     3. Map the optional and custom fields, as applicable. You only need to map the columns in the .csv file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
       * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
 
-      ![Custom fields for adding employees](../images/wpa/setup/upload-map-custom.png)
+        ![Custom fields for adding employees](../images/wpa/setup/upload-map-custom.png)
 
       * When editing employee data, you’ll see the following types of fields, which *excludes* the validity thresholds:
 
-      ![Custom fields for editing employees](../images/wpa/setup/upload-edit-data-custom.png)
+        ![Custom fields for editing employees](../images/wpa/setup/upload-edit-data-custom.png)
 
-    4. For adding or replacing data, skip to the next step. For editing data, in **Existing attributes**, if you select one or more attributes in the list, you can then select **Delete** (trashcan icon) to delete them. However, you cannot delete any required attributes. For the message confirming the deletion, select **Confirm** or **Cancel** (only if you want to select different or additional attributes to delete).
-
-10. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
-11. 11)	You’ll then see a message while the data is being validated and then a new message when it is successful or not. The following can cause a warning message:
+11. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
+12. You’ll then see a message while the data is being validated and then a new message when it is successful or not. The following can cause a warning message:
 
     * **Omitted columns** - If replacing an existing upload and while mapping fields, you chose to omit one or more columns that are present in the existing upload data schema, and at least one auto-refresh query depends on those (omitted) columns.
 
@@ -162,7 +165,7 @@ For a query to run successfully, it requires particular attributes (columns) to 
 
 Below this message, a table in the **Warning details** area lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page.
 
-After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with [Step 9](#step-9).
+After you review the issues, if you decide not to continue with the data replacement, select **Back.** This returns you to the field mapping page; continue with [Step 10](#step-10).
 
 To continue with data upload despite the issues, select **Next**. Note that this choice will turn auto-refresh off for queries that were listed in the **Warning Details** area. The results of the last runs of these queries remain available.
 
@@ -170,7 +173,7 @@ To continue with data upload despite the issues, select **Next**. Note that this
 
 After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page shows a message about the _File being uploaded_:
 
-![Upload in progress](../images/wpa/setup/upload4-uploading.png)
+![Upload in progress](../images/wpa/setup/uploading-file.png)
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes.
 
@@ -206,7 +209,7 @@ You can do the following for an upload:
 
 If data validation fails, the **Validation** page shows a "Validation failed" notification. It also shows details about the validation attempt and presents you with options:
 
-![Validation failed](../images/wpa/setup/upload9-val-failed-upload-flow.png)
+![Validation failed](../images/wpa/setup/upload-failed.png)
 
 After a failed validation, it's best to first gain an understanding of the errors by scanning the error summary table. You can also select **Download issues** to examine the error log.
 
@@ -215,10 +218,6 @@ This information about the errors helps you decide which path to choose next &md
 ### Options for a failed validation
 
 [!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation.md)]
-
-### Addition of a new data column
-
-Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, LevelDesignation, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new "EngagementScore" data column, remember to upload all five of the minimum required fields again along with the new field.
 
 ### Set Validity threshold for custom fields
 

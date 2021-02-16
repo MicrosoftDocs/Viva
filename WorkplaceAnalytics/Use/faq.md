@@ -380,7 +380,7 @@ A4.  Yes. The data can include double-byte characters, such as Japanese characte
 
 ##### Q5. Can I append new columns onto an already existing organizational data file?
 
-A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to Step 9 in the [File upload procedure](../setup/upload-organizational-data.md#file-upload) for details.
+A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to the steps in the [File upload](../setup/upload-organizational-data.md#file-upload) for details.
 
 ##### Q7. What are the meanings of the required fields in organizational data?
 
