@@ -1,11 +1,11 @@
 ---
 title: Use Insights
 description: Learn how to use the options in the Insights Outlook add-in.
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
-ms.prod: Mya
+ms.prod: mya
 
 ---
 
@@ -13,57 +13,57 @@ ms.prod: Mya
 
 The information in this section helps you get the most out of the following insights:
 
-1.	[Prepare for your meetings](#prepare-for-your-meetings)
-2.	[Track email and document open rates](#track-email-and-document-open-rates)
-3.	[View outstanding tasks](#view-outstanding-tasks) 
-4.	[Follow up on your requests](#follow-up-on-your-requests) 
-5.	[Book time to focus](#book-time-to-focus)
-6.	[Catch up on email](#catch-up-on-email)
-7.	[Catch up on documents](#catch-up-on-documents) 
-8.	[Add important people](#add-important-people)
-9.	[Set lunch hours](#set-lunch-hours)
-10. [Plan your time away](#plan-your-time-away)
-11. [Catch up with your team](#catch-up-with-your-team)
-12. [Meeting suggestions](#meeting-suggestions)
-13. [Check quiet hours impact](#check-quiet-hours-impact)
+* [Prepare for your meetings](#prepare-for-your-meetings)
+* [Track email and document open rates](#track-email-and-document-open-rates)
+* [View outstanding tasks](#view-outstanding-tasks) 
+* [Follow up on your requests](#follow-up-on-your-requests) 
+* [Book time to focus](#book-time-to-focus)
+* [Catch up on email](#catch-up-on-email)
+* [Catch up on documents](#catch-up-on-documents) 
+* [Add important people](#add-important-people)
+* [Set lunch hours](#set-lunch-hours)
+* [Plan your time away](#plan-your-time-away)
+* [Catch up with your team](#catch-up-with-your-team)
+* [Meeting suggestions](#meeting-suggestions)
+* [Check quiet hours impact](#check-quiet-hours-impact)
 
 ## Prepare for your meetings
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
 
-**Prepare for your meetings** shows you a list of upcoming meetings that you've organized or that you've been invited to. This insight helps you decide whether each meeting is ready to go. 
+**Prepare for your meetings** shows you a list of upcoming meetings that you've organized or that you've been invited to. This insight helps you decide whether each meeting is ready to go.
 
 ### To use this insight
 
-1.	On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) and it helps you evaluate the state of those meetings.
+1. On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) and it helps you evaluate the state of those meetings.
 
     ![Prepare for your meetings](../../images/mya/use/prep-for-your-meetings-70.png)
 
-2.	Select **Prepare for your meetings** to see an insight for each of your upcoming meetings.
-      
-    If you are an invitee to meeting, you will see an insight such as this:     
-    
-    ![Prep for meetings (as invitee)](../../images/mya/use/you-were-invited_78.png)
+2. Select **Prepare for your meetings** to see an insight for each of your upcoming meetings.
 
-    If you are the meeting organizer, you will see an insight such as this:  
-    
-    ![Prep for meetings (as organizer)](../../images/mya/use/you-organized-616.png)
+   * As the meeting organizer, you will see an insight such as this:  
+
+    ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
+
+   * As a meeting invitee, you will see an insight such as this:
+
+    ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited_78.png)
 
 #### Insight option details
 
-Some of these options apply to the meeting organizer, some apply to invitees, and some apply to people in both positions.  
+Some of the following options apply to the meeting organizer, some apply to invitees, and some apply to people in both positions.  
 
 | Card section | Notes | Recommendations |
-| :--- | --- | --- |
-| (Card title) | Meeting title, organizer, start time, and location | | 	
-| **Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select the down arrow to see more information about these attendees. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 
-| **Conflicts** | This section outlines all other meetings that have a conflict with this meeting. | Take time to resolve conflicts well ahead of each meeting. Doing so helps other participants know whether there will be a quorum for the meeting. | 
+| --- | --- | --- |
+| (Card title) | Meeting title, organizer, start time, and location | 
+| **Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select the down arrow to see more information about these attendees. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
+| **Conflicts** | This section outlines all other meetings that have a conflict with this meeting. | Take time to resolve conflicts well ahead of each meeting. Doing so helps other participants know whether there will be a quorum for the meeting. |
 | **Respond**  &emsp; &emsp; &emsp;&emsp; | (This section is only for the invitees, not for the organizer.) <p>You can respond **Yes** or **No** to the meeting invitation. If you have already responded, your response is shown here. | Responses help the organizer determine whether required participants can attend, and then take necessary steps (such as rescheduling) if necessary. |
 | **Attachments** | This section shows the number of attachments, their titles, and their storage location (online or local). You can see more details and you can open the attachment if it is stored online. <!-- <br> If you are the organizer and the invitation contains attached cloud documents, you can see the [open rates](#open-rate) for those documents. -->  | |
-| **Related documents** | This section shows documents that you might want to review to prepare for the meeting. | 
-| **Related tasks** | This section shows tasks that you might want to complete to prepare for the meeting. | 
-| **Online meeting link**  | (This section is only for the organizer, not for the invitees.) <p> **Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting.  |
-| **Preparation time** | This section gives you the options to book either 15 minutes or 30 minutes of preparation time. This option appears only if there is an available slot in your calendar right before the meeting. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar.	| Be prepared. If you need travel time or have other tasks that need to be done right before the meeting to prepare for it, consider booking preparation time. |
+| **Related documents** | This section shows documents that you might want to review to prepare for the meeting. |
+| **Related tasks** | This section shows tasks that you might want to complete to prepare for the meeting. |
+| **Online meeting link**  | (This section is only for the organizer, not for the invitees.) <p>**Yes** or **No** indicates whether the meeting invitation includes a link for joining the meeting online in Skype for business or in Teams. | Be an inclusive meeting organizer. If you have attendees who are working remotely, consider adding an online link to your meeting.  |
+| **Preparation time** | This section gives you the options to book either 15 minutes or 30 minutes of preparation time. This option appears only if there is an available slot in your calendar right before the meeting. Booked time appears on your calendar and references the meeting, as "Preparation time for [meeting title]." You can also cancel the meeting-preparation time or delete it directly from your calendar. | Be prepared. If you need travel time or have other tasks that need to be done right before the meeting to prepare for it, consider booking preparation time. |
 
 <!-- Here is the new section from Rishabh (April 2020). I am using it instead of the new section from Vivek (May 2020) because Rishabh's section includes document open rates (a new feature), not just email open rates (the old feature). -->
 
@@ -96,19 +96,19 @@ Insights does not report about email messages in the following categories:
 * Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
 * Email sent to modern groups. (If users are following the modern group, they are included in the count.)
 
-#### Open rate 
+#### Open rate
 
 MyAnalytics respects user privacy. For this reason, the Insights add-in does not show information about individual recipients, and -- when necessary to protect privacy -- it reports approximated values only.
 
 **Open-rate value thresholds**
 
-Within 30 minutes of when you sent qualifying email, the Insights add-in  reports the actual or an approximated open rate, as described here: 
+Within 30 minutes of when you sent qualifying email, the Insights add-in  reports the actual or an approximated open rate, as described here:
 
 * **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as "_&lt; 25%_."
 * **Between thresholds.** If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
 * **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 96% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
 
-   | Number of recipients | Open rate reported | 
+   | Number of recipients | Open rate reported |
    | ------- | ------ |
    | 5 - 10  | Minimum: 25% <br>Maximum: 75% |
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
@@ -120,17 +120,17 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
 1. If the Insights pane isn't already open, select the **Insights** icon in the Outlook **Home** ribbon to open it.
 
-   > [!Note] 
+   > [!Note]
    > If you see a "Welcome!" message, select **Get started**.
 
 2. In **Insights**, select one of the following:
 
    a. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or in SharePoint.  
 
-   > [!Note] 
-   > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared. 
+   > [!Note]
+   > In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.
 
-     ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png) 
+     ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png)
 
    b. **Track email open rates** - Shows read statistics for all sent emails.  
 
@@ -141,19 +141,20 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
     ![Email open rates](../../images/mya/use/step-2-two-emails.png)
 
 
-<!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     
+<!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.
 
 ## Track email open rates
 
 _**Applies to**: MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq#q4-how-can-i-find-out-what-my-plan-is.md)_
 
-Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision making. This insight gives you feedback on how well your sent emails are received. 
+Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision making. This insight gives you feedback on how well your sent emails are received.
 
-**Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why: 
+**Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why:
 
  * Not all emails are eligible (For more information about eligible sent emails, see [Eligibility Criterion]())
- * Approximated values are reported, and 
- * Individual recipient information is never shown. 
+ * Approximated values are reported, and
+ * Individual recipient information is never shown.
+
 For more information about privacy, see [Email read rates](). If you need individual recipient information, learn about [request read receipts]() in Outlook.
 
 ### To use this insight
@@ -224,7 +225,7 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 ### To use this insight
 
- * In the **Insights** pane, select **View outstanding tasks**. This insight is available only in English.
+In the **Insights** pane, select **View outstanding tasks**. This insight is available only in English.
 
    ![Test email - read stats](../../images/mya/use/test-email-read-stats.png)   
 
@@ -248,24 +249,24 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 It can be easy to lose track of requests you made of your colleagues. By automatically extracting your outstanding follow ups from the last 14 days of email communication, the **Follow up on your requests** insight can help you check in on requests to your colleagues. For example:
 
- * "Can you send me the latest report for this year?"
- * "Everyone, please complete your performance evaluations by the end of the week."
- * "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
+* "Can you send me the latest report for this year?"
+* "Everyone, please complete your performance evaluations by the end of the week."
+* "Cancel my RSVP for Carrin Patman's lunch scheduled early next week."
 
 ### To use this insight
 
- * In the **Insights** pane, select **Follow up on your requests**. This insight is available only in English.
+In the **Insights** pane, select **Follow up on your requests**. This insight is available only in English.
 
-   ![Follow up on your requests](../../images/mya/use/follow-up-on-your-requests.png)    
-    
-   This opens a panel that displays insights for each of your suggested follow-up tasks. 
-   
-   ![Follow ups](../../images/mya/use/follow-ups-card-62.png)    
+   ![Follow up on your requests](../../images/mya/use/follow-up-on-your-requests.png)
+
+   This opens a panel that displays insights for each of your suggested follow-up tasks.
+
+   ![Follow ups](../../images/mya/use/follow-ups-card-62.png)
 
 #### Insight option details
 
-| Card section | Notes | 
-| ------ | ------ | 
+| Card section | Notes |
+| ------ | ------ |
 | **Name and icon**  &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; | The person with whom you might want to follow up  |
 | **Email subject line** | Subject-line of the email that contains the follow-up item, along with a hyperlink to open the email
 | **Follow up snapshot** | A snippet of text related to the follow-up
@@ -278,26 +279,26 @@ It can be easy to lose track of requests you made of your colleagues. By automat
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects.
 
-**Book time to focus** can help you protect time for focused work and also minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time. 
+**Book time to focus** can help you protect time for focused work and also minimize notifications (and thus distraction) by Teams and Skype for business chats and calls during your focus time.
 
 ### To use this insight
 
- * In the **Insights** pane, select **Book time to focus**. This insight appears if your calendar has time available during your working hours that is not blocked by meetings or appointments. 
+In the **Insights** pane, select **Book time to focus**. This insight appears if your calendar has time available during your working hours that is not blocked by meetings or appointments.
 
-   ![Book time to focus](../../images/mya/use/book-time-to-focus-52.png)     
-     
-   This opens a panel that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration. 
+   ![Book time to focus](../../images/mya/use/book-time-to-focus-52.png)
 
-   ![Book focus time](../../images/mya/use/book-focus-time.png)      
+   This opens a panel that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
+
+   ![Book focus time](../../images/mya/use/book-focus-time.png)
 
 #### Insight option details
 
-| Card section | Notes | 
-| ------ | ------ | 
+| Card section | Notes |
+| ------ | ------ |
 | **Date/Time** &emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp;| Shows the date and time of the available focus time that you can book. |
 | **+** | Select this to add time to your calendar as focus time. |
-| **Pencil icon** | Say you want to focus on “Sales pitch” for two hours. Select the pencil icon, change the “Focus time” label to “Sales pitch,” and then click (+). This books a two-hour appointment on your calendar with title “Sales pitch.”<br><br>You can set priority contacts in Teams to ensure that you don’t miss important messages during focus time. | 
-| **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. MyAnalytics will respect your preferences when it proposes focus time. | 
+| **Pencil icon** | Say you want to focus on “Sales pitch” for two hours. Select the pencil icon, change the “Focus time” label to “Sales pitch,” and then click (+). This books a two-hour appointment on your calendar with title “Sales pitch.”<br><br>You can set priority contacts in Teams to ensure that you don’t miss important messages during focus time. |
+| **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. MyAnalytics will respect your preferences when it proposes focus time. |
 
 ## Catch up on email
 
@@ -305,18 +306,18 @@ It is easy for important emails to get lost when your inbox is full of unread em
 
 ### To use this insight
 
- * In the **Insights** pane, select **Catch up on email**.
+In the **Insights** pane, select **Catch up on email**.
 
-   ![Catch up on email](../../images/mya/use/catch-up-on-email-54.png) 
- 
-   This opens a panel that displays insights for each of your important unread emails: 
+   ![Catch up on email](../../images/mya/use/catch-up-on-email-54.png)
+
+   This opens a panel that displays insights for each of your important unread emails:
 
    ![Unread important email](../../images/mya/use/unread-important-email-54.png)  
 
 #### Insight option details
 
-| Card section | Notes | 
-| ------ | ------ | 
+| Card section | Notes |
+| ------ | ------ |
 | **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  | Sender of the email |
 | **Email subject line** | Subject line preview of the email |
 | **Email snapshot** | A snapshot of the text related to the email |
@@ -328,11 +329,11 @@ Searching for that document you had planned to read but just can't find? With so
 
 ### To use this insight
 
- * In the **Insights** pane, select **Catch up on documents**:
+In the **Insights** pane, select **Catch up on documents**:
 
-   ![Catch up on documents](../../images/mya/use/catch-up-on-documents-54.png) 
- 
-   This opens a panel that displays insights for each document shared with you in the last 14 days that you have not yet opened. 
+   ![Catch up on documents](../../images/mya/use/catch-up-on-documents-54.png)
+
+   This opens a panel that displays insights for each document shared with you in the last 14 days that you have not yet opened.
 
    ![Unread shared documents](../../images/mya/use/unread-shared-documents-54.png)
 
@@ -356,7 +357,7 @@ You might receive emails and tasks from various people but some items might dese
 
 ### To use this insight
 
- * In the **Insights** pane, select **Add important people**:
+In the **Insights** pane, select **Add important people**:
 
     ![Add important people](../../images/mya/use/add-important-people-54.png)  
 
@@ -390,7 +391,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 
 3. Change the values in the **Start** and/or **End** fields.
 
-4. Select **Update**. 
+4. Select **Update**.
 
 #### Set lunch hours through the _Set lunch hours_ card
 
@@ -398,7 +399,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 
    ![Set your lunch hours](../../images/mya/use/set-lunch-hours.png)  
 
-2. Use the options that are described in the following table.    
+2. Use the options that are described in the following table.
 
 #### Insight option details
 
@@ -431,16 +432,16 @@ You can plan your schedule with these options all at one time or individually as
    * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
      > [!Tip]
-     > Updating your calendar with out-of-office information is a best practice that’ll set the right expectations with coworkers who want to connect with you. 
+     > Updating your calendar with out-of-office information is a best practice that’ll set the right expectations with coworkers who want to connect with you.
 
      ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
 
    * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
      ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
-      
-     > [!Note] 
-     > If you've composed a message for a previous out-off-office period, the most recent message that you used is shown in the **Compose or edit message** field. You can edit the message so that it pertains to your upcoming time away.   
+
+     > [!Note]
+     > If you've composed a message for a previous out-off-office period, the most recent message that you used is shown in the **Compose or edit message** field. You can edit the message so that it pertains to your upcoming time away.
 
    * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
 
