@@ -46,7 +46,7 @@ After you hover over a notification, it is considered "dismissed" and the displa
 
 You cannot delete notifications, but notifications expire after 60 days.
 
-### What's new with Workplace Analytics
+## What's new in Workplace Analytics
 
 To open the _What's new_ panel, select the bullhorn icon in the ribbon: 
 
