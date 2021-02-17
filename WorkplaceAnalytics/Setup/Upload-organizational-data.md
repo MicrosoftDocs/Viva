@@ -123,7 +123,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
    1. Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name):
 
-      ![Map system fields](../images/wpa/setup/upload2-map-sys-fields.png)
+      ![Map required system fields](../images/wpa/setup/upload2-map-sys-fields.png)
 
    2. Under Source column (the first column in the table), click the down arrow. This shows a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.
    3. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields.
@@ -133,7 +133,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
-   ![Map system fields](../images/wpa/setup/upload3-map-custom2.png)
+   ![Map custom system fields](../images/wpa/setup/upload3-map-custom2.png)
 
    1. Under **Source column** (the first column in the table), select the down arrow to see the list of column names that were found in the data file. From the list, select the column name for the data. In this example, you'd select the source column for **Region**.
    2. Set values for the other columns in the table, such as the validity threshold and report options.
