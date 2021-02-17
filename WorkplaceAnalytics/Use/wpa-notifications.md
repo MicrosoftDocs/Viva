@@ -42,11 +42,11 @@ You cannot delete notifications, but notifications expire after 60 days.
 
 ## What's new with Workplace Analytics
 
-To open the **What's new** panel, select the bullhorn icon in the ribbon: 
+To open the _What's new_ panel, select the bullhorn icon in the ribbon: 
 
 ![Notifications panel](../images/wpa/use/whats-new-wpa.png)
 
-**What's new** describes recently added features of Workplace Analytics, such as new dashboards, metrics, data sources, and navigation possibilities. 
+_What's new_ describes recently added features of Workplace Analytics, such as new dashboards, metrics, data sources, and navigation possibilities. 
 
 It also describes upcoming features when the changes they bring will affect your current work. For example, if a new data source will change the way metrics are calculated, this section might encourage you to save current query results so that you can compare data from before the change with data after the change.  
  
