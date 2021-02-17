@@ -7,7 +7,9 @@ ms.author: v-pausch
 ms.topic: reference
 localization_priority: normal
 ms.prod: wpa
-
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Frequently Asked Questions for Workplace Analytics

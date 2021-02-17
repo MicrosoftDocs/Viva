@@ -93,7 +93,7 @@ When appending new attributes to an existing upload, you need to select all the 
 
 * **Custom fields** appear on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
 
-### Columns in the fields tables
+### Field column details
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 * **Workplace Analytics name** is the name of your organization's Workplace Analytics.
@@ -147,7 +147,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
     c. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields.
 
    > [!Note]
-   > For more information, see [Columns in the fields tables](#columns-in-the-fields-tables).
+   > For more information, see [Field column details](#field-column-details).
 
 2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
