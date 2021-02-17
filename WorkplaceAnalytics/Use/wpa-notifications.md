@@ -39,4 +39,14 @@ When a new notification arrives, a green circle with a number appears. This numb
 After you hover over a notification, it is considered "dismissed" and the displayed number of unread notifications updates (if the panel is open). If you click a notification and trigger a new page to load or if you close the panel, the notifications are considered seen and dismissed, and the notification circle goes away. Clicking an external link open it in a new tab.
 
 You cannot delete notifications, but notifications expire after 60 days.
+
+## What's new with Workplace Analytics
+
+To open the **What's new** panel, select the bullhorn icon in the ribbon: 
+
+![Notifications panel](../images/wpa/use/whats-new-wpa.png)
+
+**What's new** describes recently added features of Workplace Analytics, such as new dashboards, metrics, data sources, and navigation possibilities. 
+
+It also describes upcoming features when the changes they bring will affect your current work. For example, if a new data source will change the way metrics are calculated, this section might encourage you to save current query results so that you can compare data from before the change with data after the change.  
  
