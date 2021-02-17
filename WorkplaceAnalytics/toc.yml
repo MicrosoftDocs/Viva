@@ -121,7 +121,7 @@
                   href: ~/Use/transform-meetings.md
                 - name: Increase customer focus
                   href: ~/Use/customer-focus.md
-            - name: Deeper insights in Power BI
+            - name: Insights in Power BI
               href: ~/tutorials/pbi-home-deeper.md
             - name: Manager insights
               items:
@@ -131,6 +131,12 @@
                   href: ~/manager-insights/rollout.md 
                 - name: FAQs
                   href: ~/Use/insight-faqs.md
+            - name: Microsoft Viva Insights
+              items:
+                - name: My Team
+                  href: ~/use/viva-insights-my-team.md
+                - name: My Organization
+                  href: ~/use/viva-insights-my-org.md                 
         - name: Analyze
           items:
             - name: Peer analysis
@@ -164,6 +170,8 @@
                   items:
                     - name: Introduction
                       href: ~/tutorials/power-bi-intro.md
+                    - name: Behavior patterns
+                      href: ~/tutorials/power-bi-glint.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration overload
@@ -244,6 +252,8 @@
           href: ~/Use/Glossary.md
         - name: Workplace Analytics metrics
           href: ~/Use/metric-definitions.md
+        - name: Metric filters
+          href: ~/Use/metric-filters.md          
         - name: Best practices
           href: ~/Tutorials/gm-best-practices.md
         - name: Time zones for Workplace Analytics

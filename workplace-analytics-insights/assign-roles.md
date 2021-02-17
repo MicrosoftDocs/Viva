@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Assign user roles for Workplace Analytics insights
-description: Learn how to assign roles to people to use Workplace Analytics insights
+description: Learn how to assign roles to people who want to view Workplace Analytics insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -15,7 +15,7 @@ After assigning licenses, you need to assign users the role of **Insights Busine
 
 ## Assign roles to users
 
-1. The Azure Active Directory admin must log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. The Azure Active Directory admin must sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In left navigation, select **Enterprise applications** to open the **Enterprise applications | All applications**.
 3. In the **Application Type** menu, select **All Applications**.
 
@@ -35,7 +35,7 @@ After assigning licenses, you need to assign users the role of **Insights Busine
 
    ![Select Users and groups](./images/select-users-and-groups.png)
 
-9. Under **Users and groups** (on the right side of the page), identify the user to whom you want to assign a role. Start typing that person's user identifier (such as their display name or their User Principal Name) in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears on the right under **Selected items**.
+9. Under **Users and groups** (on the right side of the page), identify the user to whom you want to assign a role. Start typing that person's user identifier (such as their display name or their User Principal Name) in the search field and then select their identifier in the results list. After you select the person, their identifier appears on the right under **Selected items**.
 
    ![Selected items](./images/selected-items.png)
 

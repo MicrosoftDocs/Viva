@@ -19,7 +19,7 @@ audience: Admin
 
 To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
 
-1. Log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 
 2. In the left navigation menu, select **Enterprise Applications**.
 
@@ -82,7 +82,7 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
  * To add another role to the _same_ user, repeat steps 11-14.    
  * To add roles to _other_ users, repeat steps 7-14. 
 
-Allow time for the changes to be saved in the system. The user can now log in to [Workplace Analytics](https://workplaceanalytics.office.com) with their new role and its corresponding access permissions.
+Allow time for the changes to be saved in the system. The user can now sign in to [Workplace Analytics](https://workplaceanalytics.office.com) with their new role and its corresponding access permissions.
 
 ## Assign roles to groups
 

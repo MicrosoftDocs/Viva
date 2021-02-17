@@ -62,7 +62,7 @@ Depending on your role, the following are available in addition to the recommend
 
 The organizational network analysis (ONA) graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
 
-In these ONA graphs, each dot or node represents an employee. Node measurements are anonymized to maintain employee privacy. For details, see [Organizational network analysis metrics](insight-ona-measures.md).
+In these ONA graphs, each dot or node represents an employee. Node measurements are de-identified to maintain employee privacy. For details, see [Organizational network analysis metrics](insight-ona-measures.md).
 
 ## Error states
 

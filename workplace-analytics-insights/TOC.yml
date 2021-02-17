@@ -8,8 +8,12 @@
       href: ./data-analysis.md      
 - name: Setup
   items:
-    - name: Assign licenses
+    - name: Overview
       href: ./setup.md
+    - name: Assign licenses
+      href: ./assign-licenses.md
+    - name: Assign licenses with PowerShell
+      href: ./assign-licenses-pshell.md
     - name: Assign roles
       href: ./assign-roles.md
 - name: Business outcomes

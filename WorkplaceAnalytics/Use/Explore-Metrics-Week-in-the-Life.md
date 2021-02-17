@@ -15,6 +15,10 @@ ms.prod: wpa
 
 ![Week in the life](../images/wpa/use/week-in-the-life.png)
 
+## Access to Week in the life
+
+**Week in the life** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Week in the life](https://workplaceanalytics.office.com/Home/Innovation/WeekintheLife) to view it in Workplace Analytics.
+
 ## All collaboration hours
 
 All collaboration hours shows the total number of hours that a person spent in meetings or doing email both inside and outside the organization’s set business hours.
