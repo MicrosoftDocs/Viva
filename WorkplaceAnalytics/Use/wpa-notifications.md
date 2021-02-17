@@ -30,7 +30,7 @@ Workplace Analytics notifications are of these types:
 
 The notifications panel is open by default on the Workplace Analytics Home page:
 
-![Notifications panel](../images/wpa/use/notifs-panel_3.png)
+![Notifications panel](../images/wpa/use/notifs-panel_4.png)
 
 You can open this panel on any Workplace Analytics page by selecting the **Bell** icon in the ribbon. You can close the notifications panel by selecting the **Bell** icon again or simply by clicking outside the panel. After you have closed the panel, if you click the Home page or a notification link that causes the page to reload, the panel remains closed by default when the new page loads.
 
