@@ -134,11 +134,11 @@ When adding new attributes or replacing existing data with new data, confirm you
 
 * **Validity threshold** sets the percentage of rows in the uploaded file that must have non-null values (no blanks) for the attribute within the following fields. The source file might still be valid even if some rows have missing values for some columns. This setting is not intended to check or allow invalid values. A single invalid value, such as an incorrect data type, email address, or TimeZone string will cause the file upload to fail.
 
-  * **Required attributes** - Because PersonId and EffectiveDate are required attributes, their Validity threshold value is 100%. This value cannot be changed.
+  * **Required attributes** - Because PersonId and EffectiveDate are required attributes, their Validity threshold value must be 100 percent. This value cannot be changed.
 
-  * **Fields with minimum values** - The threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default.
+  * **Fields with minimum values** - The threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95 percent by default.
 
-  * **Other system fields** - The Validation threshold for other system fields is set to 95% by default, but you can increase or decrease this value.
+  * **Other system fields** - The Validation threshold for other system fields is set to 95 percent by default, but you can increase or decrease this value.
 
   * **Custom fields** - For details, see [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
 
@@ -231,7 +231,7 @@ For example, you might include a "SupervisorIndicator" attribute. At first, you 
 
 #### Set a lower value
 
-The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10% of the company. This number doesn't apply to engineers or program managers, but it is critical for high-performers in sales.  
+The goal of your analysis might be to determine sales effectiveness. Your data might include an attribute for sales attainment that only makes sense for members of your sales force, who constitute about 10 percent of the company. This number doesn't apply to engineers or program managers, but it is critical for high-performers in sales.  
 
 ### Related topics
 
