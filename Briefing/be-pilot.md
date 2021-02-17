@@ -69,7 +69,7 @@ It's crucial to the success of your pilot that you educate pilot participants on
 
 The following tips can help ensure the success of your pilot:
 
-* Remember the Briefing email is enabled by default for everyone with an English or Spanish (October 2020) language mailbox. You can use [PowerShell](be-admin.md) to choose who gets the Briefing email first.
+* Remember the Briefing email is enabled by default for everyone with an English or Spanish language mailbox. You can use [PowerShell](be-admin.md) to choose who gets the Briefing email first.
 * Before beginning a pilot, confirm that all pilot participants have active Exchange Online licenses.
 * Throughout a pilot, meet with your project stakeholders to review user feedback and help desk tickets to ensure the pilot is running smoothly. Make any adjustments as necessary.
 
