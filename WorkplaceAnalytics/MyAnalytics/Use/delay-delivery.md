@@ -1,6 +1,6 @@
 ---
 title: Delay delivery in MyAnalytics
-description: Learn how to use delay email delivery in MyAnalytics to send email during working hours
+description: Learn how to opt in and use Delay delivery in MyAnalytics for suggestions on when to send email during your coworker's working hours
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -12,7 +12,7 @@ ms.prod: Mya
 
 When composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours.
 
-With inline suggestions turned on, you can get up to two daily delay delivery suggestions. To get more than two a day, you need to opt in to Delay delivery.
+With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to Delay delivery.
 
 You can opt in to Delay delivery through MyAnalytics or the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers.
 
@@ -20,7 +20,7 @@ Delay delivery is currently only available to Microsoft 365 or Office 365 E5 use
 
 ## Use MyAnalytics to opt in
 
-When you enroll in delay delivery, MyAnalytics aligns email delivery with your coworker's working hours. You can opt in as follows:
+When you enroll in Delay delivery, MyAnalytics aligns email delivery with your coworker's working hours. You can opt in as follows:
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. In **Config Settings**, change the setting for **Delay delivery** to **On**.
