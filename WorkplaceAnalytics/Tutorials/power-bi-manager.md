@@ -17,7 +17,7 @@ Each theme includes insights about manager effectiveness and ways to help mainta
 
 ![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/pbi-manager-effect.png)
 
-The following describes the analyses within each theme and the related actions you can take.
+The following describes the analysis within each theme and actions you can take, such as tracking changes.
 
 **Coach**
 
