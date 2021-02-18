@@ -1,4 +1,5 @@
 - name: Viva Insights app
+  expanded: true
   items:
    - name: Viva Insights app - Overview
      href: teams-app.md
