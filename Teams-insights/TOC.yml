@@ -6,15 +6,15 @@
    - name: Viva Insights features
      items:
        - name: Stay connected
-         href: teams-app-use-insights.md
+         href: viva-insights-stay-connected.md
        - name: Protect time
-         href: teams-app-use-insights.md
+         href: viva-insights-protect-time.md
        - name: Praise
-         href: teams-app-use-insights.md
+         href: viva-insights-praise.md
        - name: Reflect
-         href: teams-app-use-insights.md  
+         href: viva-insights-reflect.md  
        - name: Virtual commute
-         href: teams-app-use-insights.md                  
+         href: viva-insights-virtual-commute.md                  
    - name: Use the Viva Insights app
      items: 
        - name: Install the app
