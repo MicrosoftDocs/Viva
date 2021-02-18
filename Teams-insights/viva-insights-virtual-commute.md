@@ -1,7 +1,7 @@
 ---
 
 title: Viva Insights - Virtual commute app
-description: Microsoft Viva Insights app -- Use the virtual commute app
+description: Microsoft Viva Insights app -- Use the Virtual commute app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights virtual commute app 
+# Use the Microsoft Viva Insights Virtual commute app 
 
 Microsoft Viva Insights provides personalized recommendations to build better work habits. You can find them in the following tabs:
 

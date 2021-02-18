@@ -1,7 +1,7 @@
 ---
 
 title: Viva Insights - Protect time app
-description: Microsoft Viva Insights app -- Use the protect time app
+description: Microsoft Viva Insights app -- Use the Protect time app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights protect time app 
+# Use the Microsoft Viva Insights Protect time app 
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects. 
 

@@ -1,7 +1,7 @@
 ---
 
 title: Viva Insights - Stay connected app
-description: Microsoft Viva Insights app -- Use the stay connected app
+description: Microsoft Viva Insights app -- Use the Stay connected app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights stay connected app 
+# Use the Microsoft Viva Insights Stay connected app 
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
    
