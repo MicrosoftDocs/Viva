@@ -20,11 +20,9 @@ Microsoft Viva Insights provides personalized recommendations to build better wo
 > [!Note] 
 > As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
 
-### Stay connected  
+## Stay connected  
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
-
-<!-- BEFORE PUBLISHING ON 4 FEB. 2021, UPDATE THIS IMAGE TO SHOW NEW BRAND NAME IN THE HEADER -->
    
    ![Stay connected](images/stay-connected.png)
 
@@ -113,7 +111,7 @@ In the following example, select **Sync on Proposal** to open the meeting invita
    
    ![You haven't RSVP'd](Images/havent-rsvpd.png)
 
-### Protect time 
+## Protect time 
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects. 
 
