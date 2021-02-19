@@ -167,7 +167,9 @@ Do the following to reset your global permissions for the OData feed.
 
 ##### Apply query error for blank values in columns
 
-When setting up a report or refreshing an existing report for either the [Business continuity](power-bi-bc.md) or the [Ways of working assessment](power-bi-collab-assess.md) dashboards in Power BI, you might get a Power BI error about the PersonIdDateKey column in a table containing "blank values," which is "not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table."
+When setting up a report or refreshing an existing report for either the [Business continuity](power-bi-bc.md) or the [Ways of working assessment](power-bi-collab-assess.md) dashboards in Power BI, you might get the following Power BI error about the PersonIdDateKey column in a table containing "blank values," which is "not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table."
+
+  ![Blank values error](../Images/WpA/Tutorials/pbi-blanks-error.png)
 
 To resolve this error, you must download the Power BI template for the applicable query from **Queries** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
 
