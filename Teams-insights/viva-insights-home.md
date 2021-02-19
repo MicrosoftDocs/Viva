@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights - Reflect app
-description: Microsoft Viva Insights app -- Use the Reflect app
+title: Viva Insights - Home page
+description: Microsoft Viva Insights app -- About the Home page
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,14 +10,21 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights Reflect app 
+# Microsoft Viva Insights app Home page 
 
-<!-- THIS CONTENT IS FROM https://support.microsoft.com/en-us/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e?ui=en-US&amp;rs=en-US&amp;ad=US -->
+When you select **Insights** on the app bar of Microsoft Teams, the Microsoft Viva Insights app opens to the Home page: 
 
-Science agrees: People are happier and more productive when they get recognition for their efforts. You can use the Praise app to send acclaim to your employees and coworkers. You can have it deliver in a private chat, or for wider recognition, you can send it in a channel conversation. 
+![Home (morning)](images/home-morning.png)
+
+On the Home page, the card in the upper left alerts you in ways that depend on the time of day and the events in your Outlook calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
+
+![Lunch approaching](images/lunch-break.png)
+
+The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the end of the workday: 
+
+![Virtual commute](images/virtual-commute.png)
 
 The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
-
 
 ## Send praise 
 

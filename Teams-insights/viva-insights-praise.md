@@ -16,7 +16,7 @@ ms.prod: Mya
 
 Science agrees: People are happier and more productive when they get recognition for their efforts. You can use the Praise app to send acclaim to your employees and coworkers. You can have it deliver in a private chat, or for wider recognition, you can send it in a channel conversation. 
 
-The praise app is a [messaging extension](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) of Microsoft Teams. 
+The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 ## Send praise 
 

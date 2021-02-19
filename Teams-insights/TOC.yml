@@ -3,6 +3,8 @@
   items: 
    - name: Viva Insights app - Overview
      href: teams-app.md
+   - name: Viva Insights Home page
+     href: viva-insights-home.md     
    - name: Viva Insights features
      items:
        - name: Stay connected
