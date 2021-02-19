@@ -20,17 +20,29 @@ The praise app is a [messaging extension](https://docs.microsoft.com/microsoftte
 
 ## Send praise 
 
-1. Below the space where you write a new message or reply, select **Praise** or select the **Messaging extensions** ellipsis (more options) button to find it.
+1. Below the space where you write a new message or reply, select **Praise**. If the Praise app does not appear, follow these steps:
 
-2. Choose a badge.
+   a. Below the **Type a new message** field, select the ellipsis (more options):
+   
+   ![Ellipsis](images/type-new-msg.png)
+   
+   b. In the **Find an app** field, start typing "praise." 
+   
+   ![Find an app field](images/find-an-app.png)
 
-   ![Stay connected](images/praise-badges.png)
+   c. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
+   
+   ![Select icon for Praise app](images/find-app-praise.png)   
 
-3. Add the names of the people you want to praise and an optional description.
+2. After the Praise app opens, choose a badge to include with your praise message.
+
+   ![Choose badge](images/praise-badges.png)
+
+3. Add the names of the people you want to praise and, in the **Note** field, optionally add a personalized note.
 
 4. Select **Preview**.
 
-Once it's ready to go, select **Send**.
+5. On the preview page, inspect the praise badge. If you need to edit it, select **Back**. Change the badge choice, the recipients list, or the personalized note. After you've finished making changes, select **Preview** and then select **Send**.
 
 ## Related topics
 
