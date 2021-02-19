@@ -35,27 +35,26 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
 ### To use this insight
 
-1. On the **Insights** panel, locate **Prepare for your meetings**. This insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) and it helps you evaluate the state of those meetings.
+1. On the **Insights** panel, the **Prepare for your meetings** insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) to help you review and plan for them.
 
     ![Prepare for your meetings](../../images/mya/use/prep-for-your-meetings-70.png)
 
-2. Select **Prepare for your meetings** to see an insight for each of your upcoming meetings.
+2. Select **Prepare for your meetings** to see an insight for each of your upcoming meetings. You can select to view **All**, **Organized**, or **Invited** to filter the list by.
 
-   * As the meeting organizer, you will see an insight such as this:  
+   * As the meeting organizer, you will see an insight similar to this:
 
     ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
 
-   * As a meeting invitee, you will see an insight such as this:
+   * As a meeting invitee, you will see an insight similar to this:
 
     ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited_78.png)
 
 #### Insight option details
 
-Some of the following options apply to the meeting organizer, some apply to invitees, and some apply to people in both positions.  
+Each meeting card title includes the meeting title, the organizer, the start time, and the location. Some of the following options apply to the meeting organizer, some apply to invitees, and some apply to people in both positions.
 
 | Card section | Notes | Recommendations |
 | --- | --- | --- |
-|Card title | Meeting title, organizer, start time, and location  |
 |**Attendees** | The percentage of invitees who have accepted, and the number of invitees. Select the down arrow to see more information about these attendees. | Make sure that you have a quorum before the meeting. Consider sending a reminder if you haven't heard back from attendees. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|
 |**Conflicts** | This section outlines all other meetings that have a conflict with this meeting. | Take time to resolve conflicts well ahead of each meeting. Doing so helps other participants know whether there will be a quorum for the meeting. |
 |**Respond** (RSVP)  &emsp; &emsp; &emsp;&emsp; | This section is only for invitees, not for the organizer. <p>You can respond **Yes** or **No** to the invitation. If you have already responded, your response is shown here. <p>If a meeting is scheduled outside of your typical meeting hours (when you typically organize and attend meetings during and outside the work day), it will be highlighted with an option to respond accordingly. |Responses help the organizer determine if required participants can attend or not, and then take any necessary steps, such as rescheduling or recording the meeting. |
