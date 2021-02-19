@@ -28,11 +28,7 @@ Science agrees: People are happier and more productive when they get recognition
    
    ![Find an app field](images/find-an-app.png)
 
-   c. In the **Find an app** field, start typing "praise." 
-   
-   ![Start typing Praise](images/find-app-praise.png)   
-
-   d. Select **Praise** to open the Praise app.  
+   c. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
    
    ![Select icon for Praise app](images/find-app-praise.png)   
 
