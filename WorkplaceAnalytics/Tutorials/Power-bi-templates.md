@@ -165,6 +165,12 @@ Do the following to reset your global permissions for the OData feed.
 5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
 6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
 
+##### Apply query error for blank values in columns
+
+When setting up a report or refreshing an existing report for either the [Business continuity](power-bi-bc.md) or the [Ways of working assessment](power-bi-collab-assess.md) dashboards in Power BI and you get a Power BI error about a column in a table containing "blank values," which is "not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table."
+
+To resolve this error, you must download the Power BI template for the applicable query from **Queries** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
+
 ## Support
 
 * **Dashboard support** - Contact the Workplace Analytics team member that referred you to this page for support about onboarding, usage, and interpretation of the data contained within the dashboard.
