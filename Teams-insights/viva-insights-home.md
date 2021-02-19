@@ -16,11 +16,20 @@ When you select **Insights** on the app bar of Microsoft Teams, the Microsoft Vi
 
 ![Home (morning)](images/home-morning.png)
 
+The Home page makes it easy to open the other features of the Viva Insights app:
+
+Reflect
+Stay Connected
+Protect time
+Send praise
+
+
+
 On the Home page, the card in the upper left alerts you in ways that depend on the time of day and the events in your Outlook calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
 
 ![Lunch approaching](images/lunch-break.png)
 
-The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the end of the workday: 
+The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the end of your scheduled workday or [Virtual commute](): 
 
 ![Virtual commute](images/virtual-commute.png)
 
