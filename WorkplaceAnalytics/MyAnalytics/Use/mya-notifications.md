@@ -86,7 +86,7 @@ You can also select **Turn off all notifications** if you would prefer not to re
 
  You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Insights Add-in pane.
 
-## Delay email delivery
+## Delay delivery
 
 When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
 
