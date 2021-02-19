@@ -92,7 +92,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 After the Ways of working tracker dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
-* **Earlier time  period** - This is the baseline for your analysis and all changes will be compared with this time frame.
+* **Earlier time period** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
     >[!Note]
     >The **Earlier time frame** must precede and not overlap with the **Current time frame**. If the two timeframes overlap, you'll get a warning about the timelines overlapping.
