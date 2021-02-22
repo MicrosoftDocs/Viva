@@ -12,7 +12,7 @@ ms.prod: Mya
 
 # Microsoft Viva Insights app Home page 
 
-When you select **Insights** on the app bar of Microsoft Teams, the Microsoft Viva Insights app opens to the Home page: 
+When you select **Insights** on the app bar of Microsoft Teams, the Microsoft Viva Insights app opens to the Home page:  
 
 ![Home (morning)](images/home-morning.png)
 
@@ -25,7 +25,12 @@ The Home page makes it easy to start using the other features of the Viva Insigh
 | Stay Connected | Select **Stay connected**. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| [Stay connected](viva-insights-stay-connected.md) | 
 | Protect time | Select **Protect time**. | [Protect time](viva-insights-protect-time.md) | 
 
+<!-- GET CORRECT STEPS HERE! CAN THEY ACTUALLY CLICK STAY CONNECTED OR PROTECT TIME, AND CAN THEY CLICK SCHEDULE AND MORE INSIGHTS AND BOOK NOW AND MORE OPTIONS? CLICK ALL OR SOME OF THESE? HOW TO GET TO THE FULL FEATURE SCREENS THAT ARE DESCRIBED IN THE LINKED-TO DOCS? -->
+
+
 ### On the page
+
+You use these features without leaving the **Home** page. 
 
 | Feature | To start the feature | Read more | 
 | ---- | ---- | ---- |

@@ -120,15 +120,26 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
 
 5.	Grant access to manager insights. To do this, an admin follows the steps in [To configure manager settings](manager-settings.md#to-configure-manager-settings). They can make this setting either for all or for a subset of managers in the organization.  
 
-## Use the My Team page
+## Open the My Team page
 
-The My Team page in the Microsoft Viva insights app shows the following outcomes:
- * Employee experience
- * Team effectiveness
+1. On the Teams app bar (the left navigation bar), select **Insights**: 
+   
+   ![Insights icon](../images/wpa/use/insights-icon.png)
 
-![Two outcomes on the Outcomes page](../images/wpa/use/viva-team-outcomes.png)
+2. The **Home** page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My Team outcomes. To learn more about this insight, select the **Explore more** option on this card. 
 
-To use the My Team page, first view the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
+   ![Insights Home page](../images/wpa/use/home-mgr.png)
+
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these **Home** page features, see [Viva Insights Home page](https://docs.microsoft.com/en-us/insights/viva-insights-home).
+
+3. On the menu bar at the top of the page, select **My Team**. The My Team page opens to show the following outcomes:
+
+   * Employee experience
+   * Team effectiveness
+   
+   ![Two outcomes on the Outcomes page](../images/wpa/use/viva-team-outcomes.png)
+
+4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
 ### Drill down to the insights level
 
