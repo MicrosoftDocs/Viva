@@ -98,17 +98,17 @@ When inline suggestions is turned on, you can delay up two email deliveries each
 
 **To delay email delivery**
 
-1. When you see a suggested delivery time, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
+1. When you see a suggested delivery time while composing an email, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
 
-   ![Delay delivery](../../Images/mya/use/insights-delay-delivery.png)
+   ![Delay delivery inline suggestion](../../Images/mya/use/delay-delivery-inline-1.png)
 
 2. An insight opens to show the scheduled time. You can select:
 
    * **Send** (within the email) to send the email at that scheduled time.
    * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
-   * **Cancel** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
+   * **Cancel delay** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
 
-   ![Cancel delay delivery](../../Images/mya/use/nudges-cancel-delay.png)
+   ![Delay delivery insight options](../../Images/mya/use/delay-delivery-inline.png)
 
 3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
@@ -116,6 +116,8 @@ When inline suggestions is turned on, you can delay up two email deliveries each
 
    * **Send now** to ignore the scheduled delivery time and send the email now.
    * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
+
+   ![Delay delivery options](../../Images/mya/use/delay-inline.png)
 
 ## Suggested outstanding tasks
 
