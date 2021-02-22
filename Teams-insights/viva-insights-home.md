@@ -16,14 +16,36 @@ When you select **Insights** on the app bar of Microsoft Teams, the Microsoft Vi
 
 ![Home (morning)](images/home-morning.png)
 
-The Home page makes it easy to open the other features of the Viva Insights app:
+The Home page makes it easy to start using the other features of the Viva Insights app. You reach some features in the menu bar and others in the main area of the page:
 
-Reflect
-Stay Connected
-Protect time
-Send praise
+### On the menu bar
+
+| Feature | To start the feature | Read more | 
+| ---- | ---- | ---- |
+| Stay Connected | Select **Stay connected**. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| [Stay connected](viva-insights-stay-connected.md) | 
+| Protect time | Select **Protect time**. | [Protect time](viva-insights-protect-time.md) | 
+
+### On the page
+
+| Feature | To start the feature | Read more | 
+| ---- | ---- | ---- |
+| Alert card &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| View the card and its message. | [Alert card](#alert-card.md)  | 
+| Send praise | Under **Send praise to your colleagues**, select **Send praise**. | [Praise](viva-insights-praise.md)  | 
+| Reflect | Under **How are you feeling?**, select a representative image. | [Reflect](viva-insights-reflect.md) | 
 
 
+### On the page (quick-action options)
+
+In the following cases, you can take action directly on a feature's card on the **Home** page without needing to open the feature.  
+
+| Feature | To take the action | Read more | 
+| ---- | ---- | ---- |
+| Take a break | Under **Take a break**, select **Start**. | [Take a break](#take-a-break) | 
+| Stay Connected &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Follow up on the action of the **Stay connected** feature that is shown &mdash; for example, book a 1:1 with a particular person. | [Stay connected](viva-insights-stay-connected.md) | 
+| Protect time  | Take the action of the **Protect time** feature that is shown &mdash; for example, book focus time for tomorrow. | [Protect time](viva-insights-protect-time.md) | 
+| Microsoft To-Do  | Take action on a task in your **To-Do** list &mdash; for example, book a meeting. | [Microsoft To-Do](#microsoft-to-do) | 
+
+### Alert card
 
 On the Home page, the card in the upper left alerts you in ways that depend on the time of day and the events in your Outlook calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
 
@@ -35,31 +57,15 @@ The card's color changes to alert you of other events, such as scheduled focus t
 
 The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-## Send praise 
+### Take a break
 
-1. Below the space where you write a new message or reply, select **Praise**. If the Praise app does not appear, follow these steps:
+This feature offers a one-minute "breathing break" animated experience that you can use as often as you want during your workday. To start it, select **Start**. 
 
-   a. Below the **Type a new message** field, select the ellipsis (more options):
-   
-   ![Ellipsis](images/type-new-msg.png)
-   
-   b. In the **Find an app** field, start typing "praise." 
-   
-   ![Find an app field](images/find-an-app.png)
+### Microsoft To-Do
 
-   c. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
-   
-   ![Select icon for Praise app](images/find-app-praise.png)   
+This card shows tasks that are in your **To-Do** list that are due today or for which a reminder for today has been set. Select **All To-Do tasks for today** to open the Tasks app in Teams. 
 
-2. After the Praise app opens, choose a badge to include with your praise message.
-
-   ![Choose badge](images/praise-badges.png)
-
-3. Add the names of the people you want to praise and, in the **Note** field, optionally add a personalized note.
-
-4. Select **Preview**.
-
-5. On the preview page, inspect the praise badge. If you need to edit it, select **Back**. Change the badge choice, the recipients list, or the personalized note. After you've finished making changes, select **Preview** and then select **Send**.
+For more information, see [Microsoft To-Do](https://todosupport.helpshift.com/a/microsoft-to-do/?p=web). 
 
 ## Related topics
 
