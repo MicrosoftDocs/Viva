@@ -17,14 +17,11 @@ With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you 
 
 * If you got what you needed or you've already followed up on this item, select **Done**.
 * To remove it from your list, select the **Not related**.
-* If available and applicable to add to your task list, select **Add to To Do** (only available in some releases).
+* If applicable to add to your task list, select **Add to To Do**.
 
->[!Note]
->The **Add to To Do** feature is releasing in phases through April 2021. If you don't see this as an option yet, you will soon.
 <!--* To be reminded about it later, select **Later**.
 * Selecting **Accept** or **Decline** accepts or declines a meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
 * Select **Reschedule** to change the meeting day, time, or location.-->
-
 In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it.
 
    ![Briefing email about meetings](./images/be-meetings-1.png)
@@ -121,6 +118,6 @@ You will see the following actions for a meeting depending on the type of confli
 |Decline or leave early reply	|This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will need to leave early. |Decline or Reply |
 |Accept or decline |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you will attend. |Accept or Decline |
 -->
-## Related topics
+## Related topic
 
 [Briefing email overview](be-overview.md)

@@ -20,20 +20,17 @@ For **Commitments and follow-ups** in your Briefing, you'll see one or more of t
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following:
 
 * If the related task is already done, select **Done**.
-* Depending on your use of the To Do feature and if it's available, you can select either **Remind me tomorrow** or **Add to To Do** for the related task (only available in some releases).
+* Depending on your use of the To Do feature, you can select either **Remind me tomorrow** or **Add to To Do** for the related task.
 * To remove it from your list, select the **Delete** (trashcan) icon.
-
->[!Note]
->The **Add to To Do** feature is releasing in phases through April 2021. If you don't see this as an option yet, you will soon.
 
 In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me tomorrow** to get a reminder in your next day's briefing email.
 
 ![Briefing email about tasks](./images/be-task.png)
 
-Or if the To Do feature is available and you use it, you could select **Add to To Do**.
+Or if you use the To Do feature, you could select **Add to To Do**.
 
 ![Briefing email about To Dos](./images/be-task-to-do.png)
 
-## Related topics
+## Related topic
 
 [Briefing email overview](be-overview.md)
