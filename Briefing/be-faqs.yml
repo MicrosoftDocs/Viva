@@ -16,7 +16,7 @@ sections:
     questions:
       - question: Who will get the email?
         answer: |
-          Everyone in your Office 365 tenant with an English (United States)-language or Spanish (available October 2020)-language Exchange Online mailbox will receive the email (if they have actionable tasks).
+          Everyone in your Microsoft 365 or Office 365 tenant with an English (United States) or Spanish language Exchange Online mailbox will receive the email (if they have actionable tasks).
 
       - question: How can I manage who receives the email?  
         answer: |

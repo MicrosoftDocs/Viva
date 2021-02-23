@@ -16,6 +16,10 @@ ms.prod: wpa
 
 ![Teams collaboration](../images/wpa/use/teams-explore.png)
 
+## Access to Teams collaboration
+
+You can open [Teams collaboration](https://workplaceanalytics.office.com/Home/Agility/ChatsAndCalls) in Workplace Analytics to view it.
+
 ## Call hours
 
 The **Call hours** graph shows the average and total number of hours each group spent in calls with at least one other person, as either initiators or participants, through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook).

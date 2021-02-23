@@ -2,11 +2,14 @@
 
 title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
-author: paul9955
+author: madehmer
 ms.author: v-pausch
-ms.topic: article
+ms.topic: reference
 localization_priority: normal
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Frequently Asked Questions for Workplace Analytics
@@ -41,9 +44,9 @@ A1.  No. Workplace Analytics is a collaboration analysis tool that can be used t
 
 ##### Q2. How do MyAnalytics and Workplace Analytics differ?
 
-A2. MyAnalytics presents personal and private insights to Microsoft 365 users in Outlook through [digest emails](../myanalytics/use/email-digest-2), [inline suggestions](../myanalytics/use/mya-notifications) and the [Insights Outlook add-in](../myanalytics/use/add-in). It can also be accessed through a web [dashboard](../myanalytics/use/dashboard-2).
+A2. MyAnalytics presents personal and private insights to Microsoft 365 users in Outlook through [digest emails](../myanalytics/use/email-digest-2.md), [inline suggestions](../myanalytics/use/mya-notifications.md) and the [Insights Outlook add-in](../myanalytics/use/add-in.md). It can also be accessed through a web [dashboard](../myanalytics/use/dashboard-2.md).
 
-Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and anonymized metrics. 
+Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and de-identified metrics.
 
 ### Privacy and compliance
 
@@ -86,12 +89,12 @@ For more information, see [Customize a base metric in a query](../tutorials/cust
 
 ##### Q1. What are the basic steps to enable Workplace Analytics?
 
-A1.  These are main tasks required to enable Workplace Analytics for your organization:
+A1. The main tasks required to enable Workplace Analytics for your organization are:
 
- * Assign licenses 
- * Assign roles 
- * Configure settings
- * Upload organizational data
+* Assign licenses
+* Assign roles
+* Configure settings
+* Upload organizational data
 
 For complete information about setup, see [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md).
 
@@ -130,7 +133,7 @@ A6. Licensed. Specifically, this number refers to licensed employees who are als
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees (internal collaborators) through meetings, email, unscheduled calls, or instant messages. These employees are not measured and their data is not processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they are not ignored but they are not measured and their data is not processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 
@@ -145,9 +148,9 @@ A1. An upload can fail if the data has invalid values, if it is missing required
 
 A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
 
-##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields-table), what percentage does Workplace Analytics require for the validity threshold?
+##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields), what percentage does Workplace Analytics require for the validity threshold?
 
-A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet 100% of the validity threshold, because each of row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95% of the validity threshold. (Note that the calculations of validity threshold consider only two kinds of data values: valid values and blank values. This means that, for a validity threshold that's set to 95%, the column will pass validation if fewer than 5% of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.) For more information, see [Columns in the fields tables](../setup/upload-organizational-data.md#columns-in-the-fields-tables).
+A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet 100% of the validity threshold, because each of row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95% of the validity threshold. (Note that the calculations of validity threshold consider only two kinds of data values: valid values and blank values. This means that, for a validity threshold that's set to 95%, the column will pass validation if fewer than 5% of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.) For more information, see [Field column details](../setup/upload-organizational-data.md#field-column-details).
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (who would be represented by ManagerIDs)?
 
@@ -380,7 +383,7 @@ A4.  Yes. The data can include double-byte characters, such as Japanese characte
 
 ##### Q5. Can I append new columns onto an already existing organizational data file?
 
-A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to Step 9 in the [File upload procedure](../setup/upload-organizational-data.md#file-upload) for details.
+A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to the steps in the [File upload](../setup/upload-organizational-data.md#file-upload) for details.
 
 ##### Q7. What are the meanings of the required fields in organizational data?
 

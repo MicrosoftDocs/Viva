@@ -24,7 +24,7 @@ People who use Workplace Analytics can work with the product only after they've 
 
 **Owner** - Azure Active Directory admin  
 
-1. Log in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com). 
+1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com). 
 
 2. In the left navigation menu, select **Enterprise applications**:
 
@@ -55,7 +55,7 @@ People who use Workplace Analytics can work with the product only after they've 
    
    ![Select Users and groups](../images/wpa/setup/select-users-and-groups-4.png)
 
-9. Under **Users and groups** (on the right side of the page), identify the user to whom you want to assign a role. Start typing that person's user identifier (such as their display name or their User Principal Name) in the search field and then select their identifier in the results list. After you have selected the person, their identifier appears on the right under **Selected items**: 
+9. Under **Users and groups** (on the right side of the page), identify the user to whom you want to assign a role. Start typing that person's user identifier (such as their display name or their User Principal Name) in the search field and then select their identifier in the results list. After you select the person, their identifier appears on the right under **Selected items**: 
    
    ![Selected items](../images/wpa/setup/selected-items.png)
    

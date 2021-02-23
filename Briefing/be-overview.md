@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# The Briefing email overview
+# Briefing email overview
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 
@@ -19,7 +19,7 @@ The Briefing email helps you stay in control of your calendar and be intentional
 * Suggested focus time you can schedule to help get independent work done.
 
 > [!Important]
-> Briefing is being released in phases with a general roll out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in English and a targeted release starting in October in Spanish.
+> Briefing is being released in phases with a general roll out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in English and Spanish.
 
 ## Why am I getting this?
 

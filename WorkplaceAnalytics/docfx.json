@@ -50,7 +50,16 @@
       "feedback_product_url":"https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
       "hideEdit": true,
       "searchScope": ["Workplace Analytics"],
-      "titleSuffix": "Workplace Intelligence"
+      "titleSuffix": "Workplace Intelligence",
+      "contributors_to_exclude": [
+        "rjagiewich", 
+        "traya1", 
+        "rmca14", 
+        "claydetels19", 
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
+      ],
     },
     "fileMetadata": {
       "searchScope": { "MyAnalytics/**.md": ["Workplace Analytics","MyAnalytics"] }

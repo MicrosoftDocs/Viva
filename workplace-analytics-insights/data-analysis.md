@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Insights data access and analysis
-description: More details about what data is accessed and analyzed in Insights
+description: More details about what data is accessed and analyzed in Workplace Analytics insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual

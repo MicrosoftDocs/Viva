@@ -50,7 +50,7 @@ The owner of HR system data (such as the HR manager) needs to do the following t
 
 The same unique ID column created in the mapping file (for example, **Key_ID**) needs to be added to the HR data that's next uploaded into Workplace Analytics.
 
-Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Append** in **Step 9** to add the new Key_ID data into Workplace Analytics.
+Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Edit employee data** in **Step 6** and **Add attributes** in **Step 7** to add the new Key_ID data into Workplace Analytics.
 
 ## Join dataset overview
 

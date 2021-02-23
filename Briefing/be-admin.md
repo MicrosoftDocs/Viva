@@ -90,14 +90,14 @@ You can also enable or disable Briefing email for multiple users with a PowerShe
    }
    ```
 
-3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt.
+3. Run the resulting commands at the Exchange Online PowerShell v2 module command prompt.
 
 ## Tenant-level configuration
 
 > [!Note]
 > Users can choose to opt out or back in at any time at [cortana.office.com](https://cortana.office.com). After you change the Briefing setting in the admin center, it will take 24 hours for the new setting change to take effect.
 
-As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Office language is English or Spanish (available October 2020) will receive the Briefing email.
+As the admin, use the following steps to change the setting for Briefing email at the tenant level. This setting is enabled by default, so that all users who have an Exchange Online license and their Microsoft 365 language is English or Spanish will receive the Briefing email.
 
 Users can unsubscribe individually from within any Briefing email they receive. If you disable the Briefing email at the tenant level, users in your organization will not receive the Briefing email, but individual users can override this tenant-level setting. To completely prevent a user from receiving the Briefing email, you must disable the Briefing email for that user with PowerShell.
 
