@@ -12,38 +12,42 @@ ms.prod: Mya
 
 # Use the Microsoft Viva Insights Reflect feature 
 
-<!-- THIS CONTENT IS FROM https://support.microsoft.com/en-us/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e?ui=en-US&amp;rs=en-US&amp;ad=US -->
+The Reflect feature helps you become more aware of how you're feeling, which can benefit both your productivity and your wellbeing. In fact, research has shown that even the act of taking a moment to reflect has positive benefits for wellbeing. 
 
-Science agrees: People are happier and more productive when they get recognition for their efforts. You can use the Praise app to send acclaim to your employees and coworkers. You can have it deliver in a private chat, or for wider recognition, you can send it in a channel conversation. 
+>[!Important]
+>Performing self-reflection in the way that this feature provides &mdash; by selecting an emoji &mdash; is an entirely private action. No one else knows can see what you chose. 
 
-The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+## Reflect 
 
+You can choose your own frequency for self-reflection. Once daily might work well for you &mdash; or more often than that, or less often.  
 
-## Send praise 
+1. On the Viva Insights Home page, locate the **How are you feeling?** card.
 
-1. Below the space where you write a new message or reply, select **Praise**. If the Praise app does not appear, follow these steps:
+   ![Reflect icons](images/reflect-icons.png)
 
-   a. Below the **Type a new message** field, select the ellipsis (more options):
+2. Select an emoji. The card givs you feedback to acknowledge your choice. 
+
+   ![Feedback page](images/reflect-history.png)
+
+3. (Optional) Select **Reflection history** to see how your feelings have changed over time, as indicated by the emojis you've chosen. For example:
+
+   ![Reminders to reflect](images/reflect-trendline.png)  
+
+4. (Optional) Set a reminder to practice reflection. Go to [Set a reminder to self-reflect](#set-a-reminder-to-self-reflect).
    
-   ![Ellipsis](images/type-new-msg.png)
-   
-   b. In the **Find an app** field, start typing "praise." 
-   
-   ![Find an app field](images/find-an-app.png)
+## Set a reminder to self-reflect
 
-   c. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
-   
-   ![Select icon for Praise app](images/find-app-praise.png)   
+Remind yourself to self-reflect in the future.
 
-2. After the Praise app opens, choose a badge to include with your praise message.
+1. On the **Build a habit of emotional awareness!** card, select a day and time: 
 
-   ![Choose badge](images/praise-badges.png)
+   ![Reminders to reflect](images/reflect-reminders.png)  
 
-3. Add the names of the people you want to praise and, in the **Note** field, optionally add a personalized note.
+2. Select **Set reminders**. 
 
-4. Select **Preview**.
+   On the day and time that you configured, the Viva Insights app will remind you to self-reflect.
 
-5. On the preview page, inspect the praise badge. If you need to edit it, select **Back**. Change the badge choice, the recipients list, or the personalized note. After you've finished making changes, select **Preview** and then select **Send**.
+  Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).  
 
 ## Related topics
 
