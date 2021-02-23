@@ -54,9 +54,13 @@ If you want to change these settings, [TBW]
 
 The virtual commute experience consists of the following four steps. All four steps are optional.
 
-1. **Close out current tasks.** Virtual commute shows you your tasks in the Microsoft To-Do list whose due date is today. This step gives you the opportunity to mark each task as complete ("**It's done**") or to set a reminder. To take no action on your tasks, select **Next**. (Note that if you currently have no tasks, this step is skipped.) 
+1. **Close out current tasks.** Virtual commute shows you your tasks in the Microsoft To-Do list whose due date is today. In this step, you can mark each task as complete ("**It's done**") or set a reminder. To take no action on your tasks, select **Next**. (Note that this step is automatically skipped if you currently have no tasks.) 
 
-2. **Add new tasks.** Virtual commute shows you your tasks in the Microsoft To-Do list whose due date is today. This step gives you the opportunity to mark each task as complete ("**It's done**") or to set a reminder. To take no action on your tasks, select **Next**.
+2. **Add new tasks.** Use this step to add new steps to the list in Microsoft To-Do. To add no tasks, select **Next**.
+
+3. 
+
+4. 
 
 
 ## Related topics
