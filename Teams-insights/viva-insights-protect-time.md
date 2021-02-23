@@ -12,7 +12,7 @@ ms.prod: Mya
 
 # Use the Microsoft Viva Insights Protect time feature 
 
-You can use the Protect time feature to [schedule focus time](#schedule-focus-time) or to [start your virtual commute](#start-a-virtual-commute) at the end of the day.  
+You can use the Protect time feature to [schedule focus time](#schedule-focus-time) or to [start a virtual commute](#start-a-virtual-commute) at the end of the day.  
 
 ## Schedule focus time
 
@@ -26,7 +26,13 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 ## Start a virtual commute
 
-Virtual commute [TBW]
+On the Protect time page, under **Ready to wrap up?**, select **Start**.
+
+![Book focus time](Images/start-virt-commute.png)  
+
+This causes your virtual commute to start immediately. For information about the virtual commute experience, see [Virtual commute steps](#virtual-commute-steps).
+
+Starting a virtual commute this way does not affect the schedule days and time of day that you set in [Set up virtual commute](#set-up-virtual-commute).
 
 ### Set up virtual commute
 
@@ -37,9 +43,21 @@ The first time that you open the Protect time feature, you will be prompted to s
 On this card, choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**. 
 
 > [!Note] 
-> <ul><li>You can choose to see virtual-commute reminders on any day of the week, including days not configured as workdays in your Outlook settings.</li><li>The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.</li></ul> 
+><ul>
+><li>You can schedule virtual-commute reminders for any day of the week, including days not configured as workdays in your Outlook settings.</li>
+><li>The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.</li>
+></ul> 
 
 If you want to change these settings, [TBW]
+
+### Virtual commute steps
+
+The virtual commute experience consists of the following four steps. All four steps are optional.
+
+1. **Close out current tasks.** Virtual commute shows you your tasks in the Microsoft To-Do list whose due date is today. This step gives you the opportunity to mark each task as complete ("**It's done**") or to set a reminder. To take no action on your tasks, select **Next**. (Note that if you currently have no tasks, this step is skipped.) 
+
+2. **Add new tasks.** Virtual commute shows you your tasks in the Microsoft To-Do list whose due date is today. This step gives you the opportunity to mark each task as complete ("**It's done**") or to set a reminder. To take no action on your tasks, select **Next**.
+
 
 ## Related topics
 
