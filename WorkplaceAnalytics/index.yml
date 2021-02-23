@@ -2,6 +2,7 @@
 
 title: Workplace Analytics documentation # < 60 chars
 summary: Workplace Analytics uses data from everyday work in Office 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. # < 160 chars
+Viva Insights is part of Microsoft Viva, the employee experience platform built on Microsoft 365 that empowers people and teams to be their best from wherever they work. Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams. Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights and recommendations to improve productivity and wellbeing.
 brand: workplace-analytics
 
 metadata:
@@ -11,7 +12,7 @@ metadata:
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
   ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
-  ms.date: 09/18/2020 #Required; mm/dd/yyyy format.
+  ms.date: 02/22/2021 #Required; mm/dd/yyyy format.
 
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
