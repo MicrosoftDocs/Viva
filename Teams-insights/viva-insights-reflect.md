@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights - Reflect app
-description: Microsoft Viva Insights app -- Use the Reflect app
+title: Viva Insights - Reflect 
+description: Microsoft Viva Insights app -- Use the Reflect feature
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights Reflect app 
+# Use the Microsoft Viva Insights Reflect feature 
 
 <!-- THIS CONTENT IS FROM https://support.microsoft.com/en-us/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e?ui=en-US&amp;rs=en-US&amp;ad=US -->
 

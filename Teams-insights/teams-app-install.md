@@ -14,6 +14,11 @@ ms.prod: Mya
 
 _**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft Teams users worldwide._
 
+> [!Note] 
+> After the Viva Insights app rollout is complete, it will be pre-installed in Teams for most organizations. This means you won't need to find and install it, as described in [Install the app](#install-the-app). After it is installed, you can pin it to the Teams app bar (the left navigation bar) to make it easy to find. To learn how, see [Pin the app](#pin-the-app). 
+
+### Install the app
+
 This section describes how to install the Microsoft Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](teams-app-admin-tasks.md).)  
 
 1. Open Microsoft Teams on the web or in a desktop client. 
@@ -34,14 +39,14 @@ This section describes how to install the Microsoft Viva Insights app for yourse
 
    ![Add for me button](Images/add-for-me-new-410.png)
 
-This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.   
+This step adds the Insights app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device. After you've added the Insights app, you have access to all of its features, including [Praise](viva-insights-praise.md), [Protect time](viva-insights-protect-time.md), [Reflect](viva-insights-reflect.md), [Stay connected](viva-insights-stay-connected.md), and [Virtual commute](viva-insights-virtual-commute.md).   
 
 > [!Note] 
 > You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp. 
 
 ### Pin the app 
 
-After you pin a Teams app, it appears on the Teams app bar (the left navigation bar). 
+After you pin a Teams app, it appears on the Teams app bar. 
 
 #### On desktop and web client 
 
