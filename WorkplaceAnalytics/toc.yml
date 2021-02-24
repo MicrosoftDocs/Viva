@@ -99,6 +99,14 @@
           href: ~/Overview/Get-started.md
         - name: Home
           items:
+            - name: Viva Insights
+              items:
+                - name: Introduction
+                  href: ~/use/viva-insights-intro.md
+                - name: My Team
+                  href: ~/use/viva-insights-my-team.md
+                - name: My Organization
+                  href: ~/use/viva-insights-my-org.md
             - name: Insights
               items:
                 - name: Overview
@@ -131,12 +139,6 @@
                   href: ~/manager-insights/rollout.md 
                 - name: FAQs
                   href: ~/Use/insight-faqs.md
-            - name: Microsoft Viva Insights
-              items:
-                - name: My Team
-                  href: ~/use/viva-insights-my-team.md
-                - name: My Organization
-                  href: ~/use/viva-insights-my-org.md                 
         - name: Analyze
           items:
             - name: Peer analysis
