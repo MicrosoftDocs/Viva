@@ -34,7 +34,7 @@ You use these features without leaving the **Home** page.
 
 | Feature | To start the feature | Read more | 
 | ---- | ---- | ---- |
-| The Time-aware card &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| View the card and its message. | [Alert card](#alert-card.md)  | 
+| The Alert card &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| View the card and its message. | [Alert card](#alert-card.md)  | 
 | Send praise | Under **Send praise to your colleagues**, select **Send praise**. | [Praise](viva-insights-praise.md)  | 
 | Reflect | Under **How are you feeling?**, select a representative image. | [Reflect](viva-insights-reflect.md) | 
 

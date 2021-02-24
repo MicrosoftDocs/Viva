@@ -12,11 +12,11 @@ ms.prod: Mya
 
 # Use the Microsoft Viva Insights Virtual commute feature 
 
-You can start the Virtual commute feature from either of two places, the [time-aware card](#time-aware-card) and the [Protect time](#protect-time) feature. 
+You can start the Virtual commute feature from either of two places, the [Alert card](#alert-card) or the [Protect time](#protect-time) feature. 
 
-## Time-aware card
+## Alert card
 
-The time-aware card reads, "It's time to wrap up your day" to indicate that you can start your virtual commute now. 
+The Alert card reads, "It's time to wrap up your day" to indicate that you can start your virtual commute now. 
 
 ![Home (morning)](images/virtual-commute.png)
 
