@@ -12,59 +12,30 @@ ms.prod: Mya
 
 # Configure the Microsoft Viva Insights app
 
-[THIS TOPIC IS A PLACEHOLDER ONLY. USE SETTINGS CONTENT HERE.]
+Use the Settings page to configure the features of the Viva Insights app. You can, for example, turn on or turn off the reminders or change the day and hour settings for features such as [Praise](viva-insights-reflect.md) or [Reflection](viva-insights-reflect.md). 
 
-_**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft Teams users worldwide._
+To configure features, start by opening the **Settings** page:
 
-This section describes how to install the Microsoft Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](teams-app-admin-tasks.md).)  
+1. In the upper-right corner of any page, select the ellipsis (...) and then select **Settings**:
 
-1. Open Microsoft Teams on the web or in a desktop client. 
+   ![Select settings](Images/settings-in-corner.png)
 
-2. At the bottom of the Microsoft Teams app bar (on the left), select **Apps**: 
+>[!Note] 
+>Select **About** to open the product documentation for the Viva Insights app.    
 
-   ![Apps icon in Teams](Images/teams-apps.png)
- 
-3. In the search field under **Apps**, type **Insights**:
-   
-   ![Search for Insights](Images/apps-search-insights.png)
+2. On the left side of the page, to the right of the App bar, select an aspect to configure. Your choices are the following:
 
-4. Select the **Insights** app:
+   * <u>Workweek</u> &ndash; Edit the days of the week that you work, your start time and end timne, and your time zone. These settings are kept synchronized with the same settings in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). That is, if you change them in one place, they will be updated everywhere that they appear.
 
-   ![Select Insights app](Images/select-insights-app-teams.png)
+   * <u>My team</u> &ndash; (This option is available only to people who are recognized in AAD as managers.) This option initially shows your team as it is listed in AAD. Use this option to update the list of team members. After you edit your team members here, it is no longer synchronized in AAD. 
 
-5. Select **Add for me**:
+   * <u>Quiet time</u> &ndash; [To be written]
 
-   ![Add for me button](Images/add-for-me-new-410.png)
+   * <u>Reflection</u> &ndash; Edit the schedule for reminders to self-reflect. Change the days and time to receive reminders, and turn them on or off. 
 
-This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.   
+   * <u>Praise</u> &ndash; Edit the schedule for praise reminders. Change the days and time to receive reminders, and turn them on or off. 
 
-> [!Note] 
-> You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp. 
-
-### Pin the app 
-
-After you pin a Teams app, it appears on the Teams app bar (the left navigation bar). 
-
-#### On desktop and web client 
-
-1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
-
-2. Right-click any app icon and select **Pin** (![Pin an app](Images/pin.png)) to make and keep your app visible in the Teams app bar. 
-   
-   ![Pin an app in Teams](Images/pin-an-app-in-teams.png)
-
-> [!Tip] 
-> You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/en-us/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec). 
- 
-#### On the iOS and Android mobile platforms
-
-1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
-
-2. Select **Reorder** and drag and drop the app so it is no longer in the More section. 
-
-   ![Reorder android app icon](Images/ios-android.png)
-
-3. Select **Done** to save your changes. 
+   * <u>Virtual commute</u> &ndash; [To be written]
 
 ## Related topics
 
