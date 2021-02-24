@@ -17,13 +17,11 @@ audience: Admin
 
 # Data analysis in Workplace Analytics
 
-The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app in Microsoft Teams is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva), the employee experience platform built on Microsoft 365 that empowers people and teams to be their best from wherever they work. Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights and recommendations to improve productivity and wellbeing.
-
-The Microsoft Workplace Analytics web app provides more advanced analysis of Microsoft Viva Insights. Workplace Analytics gives leaders unprecedented insights about how people spend their time and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
+The Microsoft Workplace Analytics web app gives leaders unprecedented insights about how people spend their time and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
 Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with custom queries and query templates.
 
-Microsoft Viva Insights and Workplace Analytics provide the following ways to analyze and explore data.
+Workplace Analytics provides advanced analysis tools for deep diving into the data shown in [Microsoft Viva Insights](https://insights.office.com/VivaInsights/). As a Workplace Analytics subscriber, you can analyze and explore data in the following ways.
 
 [**Microsoft Viva Insights**](../use/viva-insights-intro.md) in Microsoft Teams enables leaders to see organizational insights and managers to see team insights within the Teams app. Individuals can see their own personal and private insights within Teams as well. For details, see [Personal Viva Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app).
 
