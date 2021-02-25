@@ -12,43 +12,38 @@ ms.prod: Mya
 
 # Microsoft Viva Insights app Home page 
 
-When you select **Insights** on the app bar of Microsoft Teams, the Microsoft Viva Insights app opens to the Home page:  
+Select **Insights** on the app bar of Microsoft Teams to open the Home page of the Microsoft Viva Insights app:  
 
 ![Home (morning)](images/home-morning.png)
 
-The Home page makes it easy to start using the other features of the Viva Insights app. You reach some features in the menu bar and others in the main area of the page:
+The Home page makes it easy to start the other features of the Viva Insights app. You can reach some features in the menu bar and others in the main area of the page:
 
 ### On the menu bar
 
-| Feature | To start the feature | Read more | 
-| ---- | ---- | ---- |
-| Stay Connected | Select **Stay connected**. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| [Stay connected](viva-insights-stay-connected.md) | 
-| Protect time | Select **Protect time**. | [Protect time](viva-insights-protect-time.md) | 
+* [Stay connected](viva-insights-stay-connected.md)  &ndash; Select **Stay connected** to open the feature. 
+* [Protect time](viva-insights-protect-time.md) &ndash; Select **Protect time** to open the feature.
+
+<!-- MENTION MY TEAM OR MY ORG HERE? -->
 
 <!-- GET CORRECT STEPS HERE! CAN THEY ACTUALLY CLICK STAY CONNECTED OR PROTECT TIME, AND CAN THEY CLICK SCHEDULE AND MORE INSIGHTS AND BOOK NOW AND MORE OPTIONS? CLICK ALL OR SOME OF THESE? HOW TO GET TO THE FULL FEATURE SCREENS THAT ARE DESCRIBED IN THE LINKED-TO DOCS? -->
-
 
 ### On the page
 
 You use these features without leaving the **Home** page. 
 
-| Feature | To start the feature | Read more | 
-| ---- | ---- | ---- |
-| The Alert card &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| View the card and its message. | [Alert card](#alert-card.md)  | 
-| Send praise | Under **Send praise to your colleagues**, select **Send praise**. | [Praise](viva-insights-praise.md)  | 
-| Reflect | Under **How are you feeling?**, select a representative image. | [Reflect](viva-insights-reflect.md) | 
-
+* [Alert card](#alert-card.md) &ndash; View the card and its message.
+* Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
+* [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. 
 
 ### On the page (quick-action options)
 
 In the following cases, you can take action directly on a feature's card on the **Home** page without needing to open the feature.  
 
-| Feature | To take the action | Read more | 
-| ---- | ---- | ---- |
-| Take a break | Under **Take a break**, select **Start**. | [Take a break](#take-a-break) | 
-| Stay Connected &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Follow up on the action of the **Stay connected** feature that is shown &mdash; for example, book a 1:1 with a particular person. | [Stay connected](viva-insights-stay-connected.md) | 
-| Protect time  | Take the action of the **Protect time** feature that is shown &mdash; for example, book focus time for tomorrow. | [Protect time](viva-insights-protect-time.md) | 
-| Microsoft To-Do  | Take action on a task in your **To-Do** list &mdash; for example, book a meeting. | [Microsoft To-Do](#microsoft-to-do) | 
+
+* [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
+* [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on the action of the **Stay connected** feature that is shown &mdash; for example, book a 1:1 with a particular person. 
+* [Protect time](viva-insights-protect-time.md) &ndash; Take the action of the **Protect time** feature that is shown &mdash; for example, book focus time for tomorrow. 
+* [Microsoft To-Do](#microsoft-to-do) &ndash; Take action on a task in your **To-Do** list &mdash; for example, book a meeting. 
 
 ### Alert card
 
