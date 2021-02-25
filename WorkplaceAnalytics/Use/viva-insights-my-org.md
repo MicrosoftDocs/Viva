@@ -121,11 +121,11 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
    
    ![Insights icon](../images/wpa/use/insights-icon.png)
 
-2. The **Home** page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card. 
+2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card. 
 
    ![Insights Home page](../images/wpa/use/home-mgr.png)
 
-   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these **Home** page features, see [Viva Insights Home page](https://docs.microsoft.com/en-us/insights/viva-insights-home).
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/en-us/insights/viva-insights-home).
 
 3. On the menu bar at the top of the page, select **My organization**. The My organization page opens to show the following outcomes:
 

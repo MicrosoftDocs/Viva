@@ -20,6 +20,8 @@ The Home page makes it easy to start the other features of the Viva Insights app
 
 ### On the menu bar
 
+When you open the features on the menu bar, you leave the Home page. 
+
 * [Stay connected](viva-insights-stay-connected.md)  &ndash; Select **Stay connected** to open the feature. 
 * [Protect time](viva-insights-protect-time.md) &ndash; Select **Protect time** to open the feature.
 
@@ -29,15 +31,18 @@ The Home page makes it easy to start the other features of the Viva Insights app
 
 ### On the Home page
 
-<!-- You use these features without leaving the **Home** page. -->
+You use these features without leaving the Home page. Just follow the instructions on the card. 
 
 * [Alert card](#alert-card.md) &ndash; View the card and its message.
-* [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the **Home** page without needing to open the feature.  -->
+* [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
 * [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
-* [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on the action of the **Stay connected** feature that is shown &mdash; for example, book a 1:1 with a particular person. 
-* [Protect time](viva-insights-protect-time.md) &ndash; Take the action of the **Protect time** feature that is shown. For example, book focus time for tomorrow. 
-* [Microsoft To-Do](#microsoft-to-do) &ndash; Take action on a task in your **To-Do** list. For example, book a meeting. 
+
+For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**. 
+
+* [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on the action that the **Stay connected** card currently shows. For example, book a 1:1 with a particular person. 
+* [Protect time](viva-insights-protect-time.md) &ndash; Take the action that the **Protect time** card currently shows. For example, book focus time for tomorrow. 
+* [Microsoft To-Do](#microsoft-to-do) &ndash; Take action on the task in your **To-Do** list that the card currently shows. For example, book a meeting. 
 
 ### Alert card
 
