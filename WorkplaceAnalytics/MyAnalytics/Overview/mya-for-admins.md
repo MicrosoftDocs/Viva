@@ -1,7 +1,7 @@
 ---
 
 title: MyAnalytics for admins
-description: Overview of MyAnalytics for Office 365 admins
+description: Overview of MyAnalytics for Microsoft 365 admins
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -20,7 +20,7 @@ As an administrator, you benefit from knowing what MyAnalytics provides to its p
 
 ## Benefits of use
 
-MyAnalytics can help participants strengthen their work relationships, have more time to focus on important work, and improve their work-life balance. MyAnalytics does this by showing users insights about their work habits. It derives these insights from Office 365 data about emails, meetings, calls, and chats. For more information, see [Why use MyAnalytics?](better-work-habits.md)
+MyAnalytics can help participants strengthen their work relationships, have more time to focus on important work, and improve their work-life balance. MyAnalytics does this by showing users insights about their work habits. It derives these insights from Microsoft 365 data about emails, meetings, calls, and chats. For more information, see [Why use MyAnalytics?](better-work-habits.md)
 
 ## You and your users are in charge
 

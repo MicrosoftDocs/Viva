@@ -56,7 +56,7 @@ ms.prod: Mya
 
 Insights does not use:  
 
- * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
+ * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Microsoft 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history. 
 
 ##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
 

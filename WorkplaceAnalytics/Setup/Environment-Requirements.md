@@ -18,9 +18,9 @@ audience: Admin
 
 With the proper licensing, your company can acquire Workplace Analytics as an add-on to its licensing agreement. To be able to purchase Workplace Analytics licenses, your company needs the following:
 
-   ![checkbox 1](../images/wpa/setup/team-adopt-plan-checklist-box.png) An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft 
+   ![checkbox 1](../images/wpa/setup/team-adopt-plan-checklist-box.png) An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft
 
-   ![checkbox 2](../images/wpa/setup/team-adopt-plan-checklist-box.png) An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans). 
+   ![checkbox 2](../images/wpa/setup/team-adopt-plan-checklist-box.png) An Office 365 or Microsoft 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans)
 
 ### Enterprise Agreements
 
@@ -32,7 +32,7 @@ To obtain Workplace Analytics, you must have an Enterprise Agreement (EA) in pla
 | Education | Supported only for the analysis of faculty at this time, not for students. |
 | Commercial | You can add Workplace Analytics with commercial enrollments. | 
 | Non-profit | Workplace Analytics under a commercial EA can be used by non-profits but non-profit pricing is not available. |
-| Firstline workers | Workplace Analytics does not support analysis of Firstline workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
+| Firstline workers | Workplace Analytics does not support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ### Exchange Online plans
 
@@ -44,14 +44,14 @@ In other words, only if a user has an Exchange Online mailbox can you assign a W
 
 ### Tenants
 
-Workplace Analytics requires an Office 365 tenant with Exchange Online.
+Workplace Analytics requires an Office 365 or Microsoft 365 tenant with Exchange Online.
 
 ### Workplace Analytics licenses
 
 [Assign Workplace Analytics licenses](assign-licenses-to-population.md) to the users whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies obtain the most benefit when they deploy Workplace Analytics to the entire company or to a large group of employees.
 
 >[!Important]
->Workplace Analytics is not yet supported for users whose mailboxes are in the following geo locations: Brazil, Germany, and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 datacenter geos](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the geo location of a mailbox](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
+>Workplace Analytics is not yet supported for users whose mailboxes are in the following geo locations: Brazil, Germany, and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the geo location of a mailbox](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
 
 ### Pricing
 
@@ -79,7 +79,7 @@ If you have questions about licensing, such as "How can I obtain Workplace Analy
 
 Under [Powerful tools to support your enterprise](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans.
 
-To provide feedback, go to [Microsoft uservoice for Office 365](https://office365.uservoice.com/).  
+To provide feedback, go to [Microsoft Office 365 UserVoice forum](https://office365.uservoice.com/).  
 
 
 <!-- FORMER CONTENT 

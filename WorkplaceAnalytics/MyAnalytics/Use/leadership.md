@@ -18,7 +18,7 @@ If you're a people manager, the MyAnalytics Leadership page gives you insights o
 
 ### Who can see this page 
 
-You have access to this page only if you have team members assigned to you in Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics*-->. Contact your Office 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics. 
+You have access to this page only if you have team members assigned to you in Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics*-->. Contact your Microsoft 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics. 
 
 ### A note on data privacy 
 

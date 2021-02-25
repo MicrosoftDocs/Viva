@@ -19,7 +19,7 @@ audience: Admin
 
 _Support for these templates is only available as part of a Microsoft service engagement._
 
-For general help with Office 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
+For general help with Microsoft 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
 
 You can get scenario support specifically for Workplace Analytics Azure Templates only as part of an active Microsoft service engagement. Contact your service engagement representative to get help with the following.
 

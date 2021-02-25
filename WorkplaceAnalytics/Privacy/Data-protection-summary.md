@@ -18,7 +18,7 @@ audience: Admin
 
 ## Workplace Analytics and data protection in your organization
 
-Microsoft Workplace Analytics analyzes email, meeting, call, and instant message data from Office 365 collaboration data and organizational (HR) data that you provide. This data pertains to individuals, who have a right to understand how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it.
+Microsoft Workplace Analytics analyzes email, meeting, call, and instant message data from Microsoft 365 collaboration data and organizational (HR) data that you provide. This data pertains to individuals, who have a right to understand how their data is used. Those who control and process this data have a responsibility to understand how it is analyzed and stored and to carefully plan how to protect it.
 
 > [!Note]
 > For more in-depth information, see [Data-protection considerations when using Workplace Analytics ](Data-protection-considerations.md).
@@ -47,9 +47,9 @@ Consider implementing the following data-privacy recommendations before you begi
 
 ## Decide what data to use
 
-You have full control over what data to include in analysis using Workplace Analytics. The primary data source is Office 365, but you supplement it with HR and other data from your organization so that you can group information by job title, location, or other attributes.
+You have full control over what data to include in analysis using Workplace Analytics. The primary data source is Microsoft 365, but you supplement it with HR and other data from your organization so that you can group information by job title, location, or other attributes.
 
-* **Data provided by Microsoft Office 365:** Workplace Analytics uses header information from Office 365 email and calendar items. This information includes sender and recipients and date and subject lines for email; and organizer, attendees, and duration of meetings<!-- removed "location" 30Aug18-->. For more information, see [Data provided by Microsoft Office 365](Data-protection-considerations.md#data-provided-by-microsoft-office-365).
+* **Data provided by Microsoft Microsoft 365:** Workplace Analytics uses header information from Microsoft 365 email and calendar items. This information includes sender and recipients and date and subject lines for email; and organizer, attendees, and duration of meetings<!-- removed "location" 30Aug18-->. For more information, see [Data provided by Microsoft Microsoft 365](Data-protection-considerations.md#data-provided-by-microsoft-office-365).
 
 * **Privacy capabilities in your control:** You decide which users’ mailboxes to include in your Workplace Analytics study. You can apply multiple controls over this data to limit it further. For more information, see [Privacy capabilities in your control](Data-protection-considerations.md#privacy-capabilities-in-your-control), [Workplace Analytics privacy and data access](../Privacy/Privacy-And-Data-Access.md), and [Assign roles to Workplace Analytics admins and analysts](../Setup/Set-up-Workplace-Analytics.md#setup-steps).
 
@@ -66,7 +66,7 @@ For more information about the following request types and how to fulfill them, 
 
 * **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data.
 
-* **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Office 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.
+* **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.
 
 * **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed.
 

@@ -22,7 +22,7 @@ Workplace Analytics Azure Templates extend and accelerate advanced analysis of y
 
 You can easily customize them to meet your unique organizational needs, including the following functionality.
 
-* **Reference templates** - Enable you to customize your data by using attribute filters and various graphical views and interactive options. You can share data updates across your team and push actionable insights and recommendations to other Office 365 products, such as PowerPoint. The following are included by default:
+* **Reference templates** - Enable you to customize your data by using attribute filters and various graphical views and interactive options. You can share data updates across your team and push actionable insights and recommendations to other Microsoft 365 products, such as PowerPoint. The following are included by default:
 
   * [Join Datasets Azure Template](./join-datasets.md)
   * [Organization Network Analysis Azure Template](./organization-network-analysis.md)

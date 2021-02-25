@@ -17,7 +17,7 @@ ms.prod: Mya
 
 More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
 
-MyAnalytics is an extension of your Office 365 client experience that helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Microsoft Office 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter.
+MyAnalytics is an extension of your Microsoft 365 client experience that helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Microsoft Microsoft 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter.
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
@@ -45,12 +45,12 @@ MyAnalytics is completely personal and private. Only you (not your manager and n
 <!--
 # How to obtain MyAnalytics
 
-MyAnalytics is included with Office 365 Enterprise E5 and is also available as an add-on with select plans. [Learn more](https://products.office.com/business/myanalytics-personal-analytics?ms.officeurl=MyAnalytics).
+MyAnalytics is included with Microsoft 365 Enterprise E5 and is also available as an add-on with select plans. [Learn more](https://products.office.com/business/myanalytics-personal-analytics?ms.officeurl=MyAnalytics).
 -->
 
 ## Additional resources
  
-[Get to know MyAnalytics from Office 365](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
+[Get to know MyAnalytics from Microsoft 365](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
 
 [Explore MyAnalytics as a team](https://onedrive.live.com/view.aspx?resid=C5B2A217083AF909!742822&ithint=file%2cpptx&app=PowerPoint&authkey=!AJZ3zFUBvGHKYj4)
 

@@ -37,22 +37,22 @@ Organizations decide who can have access to see the data in Workplace Analytics.
 
 ## You control the data that Workplace Analytics uses
 
-You retain full control over what data is used and how it is used within Workplace Analytics. Workplace Analytics uses Office 365 email and calendar metadata and external data defined by your organization (usually exported from an HR system) to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom.
+You retain full control over what data is used and how it is used within Workplace Analytics. Workplace Analytics uses Microsoft 365 email and calendar metadata and external data defined by your organization (usually exported from an HR system) to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom.
 
-Workplace Analytics processes data from these two sources&mdash;[organizational data](#organizational-data) from your own HR system and [collaboration data from Office 365](#collaboration-data-from-office-365)&mdash;to provide your analysts with a unified pool of data on which to perform analyses. The following sections describe these two data sources:
+Workplace Analytics processes data from these two sources&mdash;[organizational data](#organizational-data) from your own HR system and [collaboration data from Microsoft 365](#collaboration-data-from-office-365)&mdash;to provide your analysts with a unified pool of data on which to perform analyses. The following sections describe these two data sources:
 
 ### Organizational data
 
-Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line-of-business data stores. Workplace Analytics combines Office 365 email, calendar, call, and instant message metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
+Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line-of-business data stores. Workplace Analytics combines Microsoft 365 email, calendar, call, and instant message metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
 
-The organizational data set is combined with the Office 365 metadata to produce the complete dataset that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results.
+The organizational data set is combined with the Microsoft 365 metadata to produce the complete dataset that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Workplace Analytics through dashboards or query results.
 
 Note that other information provided in the organizational data set is exposed in Workplace Analytics dashboards and reports. Take care to ensure that the data set does not include personal data (such as the employee ID).
 For more information about organizational data, see [Prepare organizational data](~/setup/prepare-organizational-data.md).
 
-### Collaboration data from Office 365
+### Collaboration data from Microsoft 365
 
-Office 365 email, calendar, call, and instant message metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information about items in that user's mailbox and calendar:
+Microsoft 365 email, calendar, call, and instant message metadata provides the foundation for all Workplace Analytics analysis, so the first step is to determine which users you want to include. When you choose a user to be included, Workplace Analytics uses the following information about items in that user's mailbox and calendar:
 
  | item | originator | recipient | subject | chronology | status | venue |
  | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 

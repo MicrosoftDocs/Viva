@@ -15,7 +15,7 @@ MyAnalytics operates under the following privacy principles:
 
 ## You own the data in your inbox
 
-When you look in your Office 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls in Teams or in Skype for Business. Because it’s your mailbox, you have a right to it and the information that it contains. In other words, your mailbox content is information that’s freely available to you.
+When you look in your Microsoft 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls in Teams or in Skype for Business. Because it’s your mailbox, you have a right to it and the information that it contains. In other words, your mailbox content is information that’s freely available to you.
 
 ![Outlook inbox](../../images/mya/overview/outlook-1.png)
 

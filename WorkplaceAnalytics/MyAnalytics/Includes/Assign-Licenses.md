@@ -30,7 +30,7 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 
  * **MyAnalytics welcome email:**
   
-      * Existing users of Office 365 will receive the welcome email a few days (up to four weeks) after their license is granted.
+      * Existing users of Microsoft 365 will receive the welcome email a few days (up to four weeks) after their license is granted.
       * New users will receive the welcome email approximately four weeks after their license is granted.
 
 <!--

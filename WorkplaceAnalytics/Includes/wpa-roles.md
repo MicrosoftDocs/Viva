@@ -18,7 +18,7 @@ ms.prod: wpa
 * **Administrator** &ndash; Has access to the **Settings** menu and through it the **Data sources**, **Upload**, and **Admin settings** pages. The Workplace Analytics admin has the responsibility to configure privacy settings and system defaults and to prepare, upload, and verify organizational data.
 
   > [!NOTE]
-  > Workplace Analytics admins are not Office 365 admins. Therefore, unless they have *also* been granted the role of Office 365 administrator, they have access only to organizational data, not to Office 365 data.
+  > Workplace Analytics admins are not Microsoft 365 admins. Therefore, unless they have *also* been granted the role of Microsoft 365 administrator, they have access only to organizational data, not to Microsoft 365 data.
 
 * **Program Manager** &ndash; Has access to the **Home** page of Workplace Analytics. Program managers also can open the **Plans** page and its **Manage** page, where they can set up plans; and to the **Track** page, where they can track the progress of active plans and the state of ended plans.
 
