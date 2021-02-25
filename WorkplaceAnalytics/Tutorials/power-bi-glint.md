@@ -1,6 +1,6 @@
 ---
 
-title: Behavior patterns dashboard
+title: Behavior patterns for Glint dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and Glint data
 author: madehmer
 ms.author: v-mideh
@@ -9,9 +9,9 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Behavior patterns with Glint
+# Behavior patterns for Glint
 
-The Behavior patterns dashboard uses a Power BI template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
+The Behavior patterns for Glint dashboard uses a Power BI template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
 It uses survey scores and working patterns to identify outlying teams who might need attention. Even for leaders who are already aware of team issues, the dashboard creates high-level visibility enabling them to use research-based and data-driven actions to change or improve workplace behaviors.
 
