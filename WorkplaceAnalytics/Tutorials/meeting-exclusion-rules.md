@@ -63,7 +63,7 @@ A meeting exclusion rule is a filter applied to your meeting data.
 
 Defining what kind of meeting exclusion to use is part of the data-preparation work that you, as an analyst, must do before you start working with Workplace Analytics data. You can create these rules only after you've uploaded your organizational data.
 
-When you start a new meeting exclusion rule and before you have added any exclusions to it, the set of meetings to be analyzed includes 100 percent of the meetings that were found in the Outlook mailboxes of licensed employees who use Office 365. As you add filter terms, or exclusions, to this exclusion rule, you gradually reduce the number of meetings and meeting hours that will be used in metrics calculations while performing analysis in Workplace Analytics.  
+When you start a new meeting exclusion rule and before you have added any exclusions to it, the set of meetings to be analyzed includes 100 percent of the meetings that were found in the Outlook mailboxes of licensed employees who use Microsoft 365. As you add filter terms, or exclusions, to this exclusion rule, you gradually reduce the number of meetings and meeting hours that will be used in metrics calculations while performing analysis in Workplace Analytics.  
 
 ### Walkthrough how to add a meeting exclusion rule
 
@@ -216,7 +216,7 @@ To learn how to select a rule to use in a query, see [Use rules with queries](#u
 4. Select **Set preferred**. When prompted, select **Set preferred** again to confirm.
 
 >[!Note]
->If you select a new rule, the change won't take effect until after the next refresh of your organization's Office 365 data. The reason for this delay is that meeting exclusion rules are applied to data before it's processed; after the data is uploaded and processed, rules can no longer be applied to it. Office 365 data is typically refreshed weekly, so it might take up to two weeks to see your rule in place, depending on when you changed the preferred rule.
+>If you select a new rule, the change won't take effect until after the next refresh of your organization's Microsoft 365 data. The reason for this delay is that meeting exclusion rules are applied to data before it's processed; after the data is uploaded and processed, rules can no longer be applied to it. Microsoft 365 data is typically refreshed weekly, so it might take up to two weeks to see your rule in place, depending on when you changed the preferred rule.
 
 ### Use rules with queries
 

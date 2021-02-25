@@ -193,7 +193,7 @@ The final card in the digest is the Explore card. On this card, select **Explore
 
 **Q4.** This email contains charts that describe my workplace behavior. Where did this data come from?
 
-**A4.** On a weekly basis, Workplace Analytics receives from Office 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
+**A4.** On a weekly basis, Workplace Analytics receives from Microsoft 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
 
 **Q5.** Who else can see this data about me?
 

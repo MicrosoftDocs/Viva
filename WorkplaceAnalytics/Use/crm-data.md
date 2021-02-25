@@ -91,7 +91,7 @@ The **Account details** page includes the following.
 
 * The **Number of collaborators matched** chart shows the number of external collaborators matched with accounts by default and by default plus extrapolation, which correspond to the Account collaboration coverage chart.
 
-  * **Default match with CRM data** is based on the imported data from the CRM upload to match up email addresses for Office 365 external collaborators with email addresses for CRM contacts.
+  * **Default match with CRM data** is based on the imported data from the CRM upload to match up email addresses for Microsoft 365 external collaborators with email addresses for CRM contacts.
   * **Default + Extrapolation match with CRM data** includes the same default email comparison data and for any *unmatched external collaborators*, it then calculates the probability of which CRM account they most likely match up with. If the probability that an external collaborator belongs to a specific CRM account is high, the external collaborator is assigned to that account. This option provides more coverage for external collaborators and for capturing more customer interactions.
 * The **Collaboration time** chart shows the number of collaboration hours that employees invested with external collaborators in each of the ‘matched by default’ and ‘matched by default + extrapolation’ groups. The collaboration time is based on interactions through email, meeting, calls, and instant messages.
 * The **Account collaboration by domain** table lists collaborator domains and the following related  account details:

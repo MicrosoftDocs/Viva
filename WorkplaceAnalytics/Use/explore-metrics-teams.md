@@ -40,7 +40,7 @@ You can use the **Call hours** and **IM hours** filters in the Charts and in Pag
 
 ## Data sources includes Teams
 
-In **Sources** > **Office 365 data**, you'll see an **Average weekly collaboration hours by type** chart that includes the average weekly Teams call hours and instant messaging hours over time. The "Week of" date on that page shows when the Teams data was last processed in Workplace Analytics.
+In **Sources** > **Microsoft 365 data**, you'll see an **Average weekly collaboration hours by type** chart that includes the average weekly Teams call hours and instant messaging hours over time. The "Week of" date on that page shows when the Teams data was last processed in Workplace Analytics.
 
 Analysts can use these views to evaluate communication and collaboration trends and patterns for your organization.
 

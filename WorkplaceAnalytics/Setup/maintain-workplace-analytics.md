@@ -38,7 +38,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 ## Update organizational data
 
 * **Task** - Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.  
-* **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest Office 365 collaboration data. Since email, calendar, and Teams data is updated once a week, it makes sense to provide updates for this data on a similar cadence.
+* **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest Microsoft 365 collaboration data. Since email, calendar, and Teams data is updated once a week, it makes sense to provide updates for this data on a similar cadence.
 
 [Prepare organizational data](prepare-organizational-data.md)
 
@@ -60,7 +60,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 ## Validate and verify data
 
-* **Task** - Use **Sources** to verify that the Office 365 and other organizational data is loaded and ready for use.
+* **Task** - Use **Sources** to verify that the Microsoft 365 and other organizational data is loaded and ready for use.
 * **Frequency** - As needed, particularly after uploading organizational data.
 
 [Validate and verify data](validate-verify-data.md)
@@ -74,7 +74,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 ## Audit Workplace Analytics activity
 
-* **Task** - As an Exchange admin, you can monitor the Office 365 audit logs and track Workplace Analytics activity for all user actions.
+* **Task** - As an Exchange admin, you can monitor the Microsoft 365 audit logs and track Workplace Analytics activity for all user actions.
 * **Frequency** - As needed to ensure compliance with your organization's privacy and security policies.
 
 [Workplace Analytics audit logs](../setup/audit-logs.md)

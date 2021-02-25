@@ -43,4 +43,4 @@ The user interface and navigation in recent releases of Workplace Analytics are 
 
 ## Data time limit
 
-The historical data that populates **Explore the stats** is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Office 365 data](../use/office-365-data.md) refreshes. After a data refresh, the six-month extent of data reflected in **Explore the stats** advances by one week.
+The historical data that populates **Explore the stats** is time limited; the charts reflect data that is no older than six months. This six-month period is a _rolling window_ that's based on when the [Microsoft 365 data](../use/office-365-data.md) refreshes. After a data refresh, the six-month extent of data reflected in **Explore the stats** advances by one week.

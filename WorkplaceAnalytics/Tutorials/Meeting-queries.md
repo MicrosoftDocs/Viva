@@ -68,7 +68,7 @@ In the basic process to create a Meeting query, you will answer three questions:
 
 ## Available data
 
-With a meeting query, you can use the calendar metadata available from Office 365 for your company to get meeting details, including: Attendee meeting hours, attendees, invitees, emails sent during meetings, and so on.
+With a meeting query, you can use the calendar metadata available from Microsoft 365 for your company to get meeting details, including: Attendee meeting hours, attendees, invitees, emails sent during meetings, and so on.
 
 ## Select what organizational data to include
 

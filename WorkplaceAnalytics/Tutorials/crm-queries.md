@@ -65,7 +65,7 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
   * **Do you want to focus the analysis on a particular set of collaborators and group all others as "Unclassified"?** - Use this to combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
   * When you select a CRM group-by attribute or filter, for Person queries, you're asked: **How would you like to join collaborators with accounts?** Or for Person-to-group or Group-to-group queries, you're asked: **How would you like to join *external* collaborators with accounts?** The following options are the same for either question:
 
-    * **Default match with CRM data** - This option only uses the imported data from the CRM upload to match up email addresses for Office 365 external collaborators with email addresses for CRM contacts.
+    * **Default match with CRM data** - This option only uses the imported data from the CRM upload to match up email addresses for Microsoft 365 external collaborators with email addresses for CRM contacts.
     * **Default + Extrapolation match with CRM data** - This is the preferred, default option, because it enables more coverage for external collaborators and for capturing more customer interactions. It does the same email comparison as the other option. However, for any *unmatched external collaborators*, it then calculates the probability of which CRM account they most likely match up with. If the probability that an external collaborator belongs to a specific CRM account is high, that external collaborator is assigned to that account.
 
 ## Sample query output with CRM data
