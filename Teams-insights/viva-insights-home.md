@@ -27,35 +27,27 @@ The Home page makes it easy to start the other features of the Viva Insights app
 
 <!-- GET CORRECT STEPS HERE! CAN THEY ACTUALLY CLICK STAY CONNECTED OR PROTECT TIME, AND CAN THEY CLICK SCHEDULE AND MORE INSIGHTS AND BOOK NOW AND MORE OPTIONS? CLICK ALL OR SOME OF THESE? HOW TO GET TO THE FULL FEATURE SCREENS THAT ARE DESCRIBED IN THE LINKED-TO DOCS? -->
 
-### On the page
+### On the Home page
 
-You use these features without leaving the **Home** page. 
+<!-- You use these features without leaving the **Home** page. -->
 
 * [Alert card](#alert-card.md) &ndash; View the card and its message.
+* [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the **Home** page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
-* [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. 
-
-### On the page (quick-action options)
-
-In the following cases, you can take action directly on a feature's card on the **Home** page without needing to open the feature.  
-
-
 * [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
 * [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on the action of the **Stay connected** feature that is shown &mdash; for example, book a 1:1 with a particular person. 
-* [Protect time](viva-insights-protect-time.md) &ndash; Take the action of the **Protect time** feature that is shown &mdash; for example, book focus time for tomorrow. 
-* [Microsoft To-Do](#microsoft-to-do) &ndash; Take action on a task in your **To-Do** list &mdash; for example, book a meeting. 
+* [Protect time](viva-insights-protect-time.md) &ndash; Take the action of the **Protect time** feature that is shown. For example, book focus time for tomorrow. 
+* [Microsoft To-Do](#microsoft-to-do) &ndash; Take action on a task in your **To-Do** list. For example, book a meeting. 
 
 ### Alert card
 
-On the Home page, the card in the upper left alerts you in ways that depend on the time of day and the events in your Outlook calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
+On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your Outlook calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
 
 ![Lunch approaching](images/lunch-break.png)
 
-The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the end of your scheduled workday or [Virtual commute](): 
+The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the approach of the end of your scheduled workday or [Virtual commute](): 
 
 ![Virtual commute](images/virtual-commute.png)
-
-The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 ### Take a break
 
@@ -63,9 +55,7 @@ This feature offers a one-minute "breathing break" animated experience that you 
 
 ### Microsoft To-Do
 
-This card shows tasks that are in your **To-Do** list that are due today or for which a reminder for today has been set. Select **All To-Do tasks for today** to open the Tasks app in Teams. 
-
-For more information, see [Microsoft To-Do](https://todosupport.helpshift.com/a/microsoft-to-do/?p=web). 
+This card shows tasks that are in your **To-Do** list that are due today or for which a reminder for today has been set. Select **All To-Do tasks for today** to open the Tasks app in Teams. For more information, see [Microsoft To-Do](https://todosupport.helpshift.com/a/microsoft-to-do/?p=web). 
 
 ## Related topics
 
