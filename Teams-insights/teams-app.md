@@ -18,12 +18,12 @@ It derives these insights by summarizing your Microsoft 365 data &ndash; data th
 
 By using the Viva Insights app, you can: 
 
- * [Stay connected](teams-app-use-insights.md#stay-connected) &ndash; Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. 
- * [Protect time](teams-app-use-insights.md#protect-time) &ndash; Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. 
- * [Send Praise](viva-insights-praise.md) &ndash;  
- * [Reflect](viva-insights-reflect.md) &ndash; 
- * [Take a break](#take-a-break) &ndash; 
- * Use [Microsoft To-Do](#microsoft-to-do) &ndash; Take action on a task in your To-Do list. 
+ * [Stay connected](teams-app-use-insights.md#stay-connected) &ndash; Stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. 
+ * [Protect time](teams-app-use-insights.md#protect-time) &ndash; Find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. 
+ * [Send Praise](viva-insights-praise.md) &ndash; Send acclaim to your employees and coworkers, either in a private chat or in a Teams channel conversation. 
+ * [Reflect](viva-insights-reflect.md) &ndash; Take a moment to check in with yourself, to reflect on how you're feeling. 
+ * [Take a break](viva-insights-home.md#take-a-break) &ndash; During your workday, take an occasional one-minute "breathing break."  
+ * Use [Microsoft To-Do](viva-insights-home.md#microsoft-to-do) &ndash; Take action on a task in your to-do list. 
 
 The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](teams-app-privacy.md). 
 
@@ -38,7 +38,7 @@ The personal insights and actions in the Viva Insights app are based on your Exc
 
 ## Related topics
 
-[Use the Microsoft Viva Insights app](teams-app-use-insights.md)
+[Microsoft Viva Insights app Home page](viva-insights-home.md)
 
 [Privacy guide](teams-app-privacy.md)
 
