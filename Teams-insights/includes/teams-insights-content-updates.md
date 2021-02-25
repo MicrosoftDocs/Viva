@@ -2,6 +2,16 @@
 
 
 
+## Week of February 08, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2021 | [Viva Insights app - FAQ](/insights/teams-app-faq) | modified |
+| 2/8/2021 | [Viva Insights app - Install](/insights/teams-app-install) | modified |
+| 2/8/2021 | [Viva Insights app - Overview](/insights/teams-app) | modified |
+
+
 ## Week of February 01, 2021
 
 

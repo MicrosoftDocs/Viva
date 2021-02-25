@@ -13,7 +13,7 @@ ms.prod: wpa
 
 * **Custom fields** are displayed on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
 
-### Columns in the fields tables
+### Field column details
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 * **Workplace Analytics name** is the name of your organization's Workplace Analytics.
