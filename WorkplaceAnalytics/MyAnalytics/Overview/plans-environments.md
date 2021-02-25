@@ -23,7 +23,7 @@ The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-diges
 | Plan  | Service plan | 
 | ----- | ----- |
 | <li>Microsoft 365 E3  <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3  <li>Office 365 E1 <li>Office 365 A3 for faculty/students  <li>Office 365 E3 Developer <li>Office 365 G3   <li>Office 365 G1 <li>Business Premium <li>Business Essentials |  Insights by MyAnalytics |
-| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing &nbsp; &nbsp; &nbsp; <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-on | MyAnalytics (Full) and   Insights by MyAnalytics | 
+| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing &nbsp; &nbsp; &nbsp; <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-in | MyAnalytics (Full) and   Insights by MyAnalytics | 
 | <li>Microsoft 365 A5 for faculty/students <li>Office 365 A5 for faculty/students | MyAnalytics (Full) | 
  
 > [!Note]

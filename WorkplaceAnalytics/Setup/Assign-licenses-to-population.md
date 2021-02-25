@@ -31,7 +31,7 @@ After you have identified the population in scope, the Office 365 Global adminis
 The assignment of licenses affects the user counts that are shown in the Workplace Analytics **Data sources** pages; see [Origin of data counts](../use/office-365-data.md#origin-of-data-counts). 
 
 > [!Note]
-> Workplace Analytics is licensed as an add-on to existing Office 365 subscriptions. For more details, see [Environment requirements for Workplace Analytics](environment-requirements.md).
+> Workplace Analytics is licensed as an add-in to existing Office 365 subscriptions. For more details, see [Environment requirements for Workplace Analytics](environment-requirements.md).
 
 ### Users can view their subscription status
 

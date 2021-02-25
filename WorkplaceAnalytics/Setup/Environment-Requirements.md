@@ -16,7 +16,7 @@ audience: Admin
 
 ## Licensing checklist
 
-With the proper licensing, your company can acquire Workplace Analytics as an add-on to its licensing agreement. To be able to purchase Workplace Analytics licenses, your company needs the following:
+With the proper licensing, your company can acquire Workplace Analytics as an add-in to its licensing agreement. To be able to purchase Workplace Analytics licenses, your company needs the following:
 
    ![checkbox 1](../images/wpa/setup/team-adopt-plan-checklist-box.png) An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft 
 
