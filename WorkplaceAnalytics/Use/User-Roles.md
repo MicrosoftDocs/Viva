@@ -43,7 +43,7 @@ The following shows who can access what in Workplace Analytics.
 | **Explore the stats** |Chart data based on insight recommendataions | |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 | **Plans** | Create plans that help participants improve workplace behaviors | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 | **Settings** |
-| | **Sources** help to verify that the Office 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
+| | **Sources** help to verify that the Microsoft 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | | **Upload** for importing an organizational (HR) data file into Workplace Analytics | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | | |
 | | **Analysis settings** to set meeting exclusion rules for analysis | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(read-only access)*| | | |
 | | **Admin settings** for system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | | |
@@ -66,8 +66,8 @@ People with access to Workplace Analytics should ideally have previous experienc
 | Access level | Administrator |  Analyst | Analyst (Limited Access) | Program Manager | People Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
 | View personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
-| View de-identified, individual-level data:<ul><li>Organization data (HR fields, such as level or organization)</li><li>Office 365 data (metrics about collaboration and relationships)</li></ul> | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
-| View aggregated and de-identified Office 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
+| View de-identified, individual-level data:<ul><li>Organization data (HR fields, such as level or organization)</li><li>Microsoft 365 data (metrics about collaboration and relationships)</li></ul> | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
+| View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
 | Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics | | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)*|
 
 ### Suggested personas
@@ -95,7 +95,7 @@ The size of your organization and your requirements for managing organizational 
 
 You can assign multiple Workplace Analytics roles to one person. It's up to your organization to choose who is assigned which role or roles. Examples:
 
-* One person can be both an Office 365 admin and a Workplace Analytics admin.
+* One person can be both an Microsoft 365 admin and a Workplace Analytics admin.
 * One person can be both a Workplace Analytics admin and a Workplace Analytics analyst. It is best practice, however, to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics.
 
 In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard.)

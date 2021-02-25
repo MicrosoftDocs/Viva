@@ -23,7 +23,7 @@ Workplace Analytics notifications are of these types:
 
 * **Warning** - Notification of scheduled service or downtime that will affect your ability to use Workplace Analytics.  
 * **User** - You can take several actions in Workplace Analytics that generate notifications.  
-* **System** - Notices that Office 365 or organizational data has been updated.
+* **System** - Notices that Microsoft 365 or organizational data has been updated.
 * **Knowledge** - Updates and links to playbooks and product updates.
 
 ## Reading and controlling notifications

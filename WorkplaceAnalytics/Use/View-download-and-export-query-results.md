@@ -81,7 +81,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    ![Sign in to Workplace Analytics organizational account](../images/wpa/use/OData-feed-sign-in.png)
 
-4. When the **Office 365** dialog box prompts you, select the account and enter the password that you use to sign in to Workplace Analytics. You'll then see: "You are currently signed in."
+4. When the **Microsoft 365** dialog box prompts you, select the account and enter the password that you use to sign in to Workplace Analytics. You'll then see: "You are currently signed in."
 5. In the **OData feed** dialog box, select **Connect**. A "Refresh" dialog box might appear and display the status of the preparation of your data for import.
 
    After Power BI finishes importing your Workplace Analytics data, use Power BI tools to create visualizations of the data.
@@ -111,7 +111,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
    ![Paste link into Excel](../images/wpa/use/link-pasted-in-excel.png)
 
 6. Select **Organizational account** and then select **Sign in**:
-7. When the Office 365 dialog box prompts you, select the account and enter the password that you use to sign in to Workplace Analytics. You'll then see: "You are currently signed in."
+7. When the Microsoft 365 dialog box prompts you, select the account and enter the password that you use to sign in to Workplace Analytics. You'll then see: "You are currently signed in."
 8. In the **OData feed** dialog box, select **Connect**. Before the query-results data is imported into your Excel workbook, a **Refresh** dialog box might appear that shows the status of preparation of the data for import.
 
 After Excel finishes importing your Workplace Analytics data, use Excel to explore and create visualizations of the data.
@@ -163,7 +163,7 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
    * **DirectQuery** (*recommended*) – As you create Power BI visuals, the Connector will provide the aggregated data to support them.  
    * **Import** – Requires you to identify how you want to aggregate the data first. That data is then imported into Power BI and from there you can create your visualizations.  
 
-6. The first time you use the Power BI Connector for a partition ID, or when your authentication token expires, and you're prompted to sign in, select **Sign in**, enter your Office 365 credentials, and then select **Connect**:
+6. The first time you use the Power BI Connector for a partition ID, or when your authentication token expires, and you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**:
 
 7. In the **Power BI Navigator**, select the query name or standard person metrics that you want to analyze, and then select **Load**.
 
