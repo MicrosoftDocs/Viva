@@ -15,12 +15,12 @@ The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app in 
 
 ## Organizational insights
 
-Organizational insights empower business leaders to address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. It helps leaders know where to take steps to protect employee wellbeing and presents opportunities to understand where a change in process could improve business outcomes. For details, see [My team in Viva Insights](viva-insights-my-org.md).
+Organizational insights empower business leaders to address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. It helps leaders know where to take steps to protect employee wellbeing and presents opportunities to understand where a change in process could improve business outcomes. For details, see [My organization in Viva Insights](viva-insights-my-org.md).
 
 ## Team insights
 
-Manager insights provide much-needed visibility into work patterns that can lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. Managers can use this to help their teams strike a balance between productivity and wellbeing. This makes it easy for managers to understand current team norms and take action to create positive change. For details, see [My organization in Viva Insights](viva-insights-my-team.md).
+Manager insights provide much-needed visibility into work patterns that can lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. Managers can use this to help their teams strike a balance between productivity and wellbeing. This makes it easy for managers to understand current team norms and take action to create positive change. For details, see [My team in Viva Insights](viva-insights-my-team.md).
 
 ## Personal insights
 
-You can also see personal insights that only you can see about how you work and you might change to do your best work. Actionable recommendations, such as protecting time in the day for regular breaks, focused work, and learning, make it easier to prioritize wellbeing and boost productivity. For details, see [Personal Viva Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app).
+You can also see personal insights that only you can see about how you work now and what you could change to do your best work. Actionable recommendations, such as protecting time in the day for regular breaks, focused work, and learning, make it easier to prioritize wellbeing and boost productivity. For details, see [Personal Viva Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app).
