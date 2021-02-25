@@ -75,8 +75,8 @@ If you select **Yes** for **Hash subject lines**, they are converted to a hashed
 
 For example, you could run a query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data with that subject line, including the number of meetings, the length and size of the meetings, and so on. However, you could not get a specific list of all the meetings with the subject line "All-hands" (a row for each all-hands meeting).
 
-> [!Note]
-> Workplace Analytics offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For more information, see the descriptions of **Include in report** and **Hash in report** in the **Field mapping** section of [Upload organizational data](../setup/upload-organizational-data.md#columns-in-the-fields-tables).
+>[!Note]
+>Workplace Analytics offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For details, see the descriptions of **Include in report** and **Hash in report** in [Field mapping](../setup/upload-organizational-data.md#field-mapping).
 
 ## Exclude domains or email addresses
 
