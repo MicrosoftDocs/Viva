@@ -23,8 +23,8 @@ Do the following to assign roles to individual users.
    * **Insights Administrator** - Gets full access to the Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
    * **Insights Business Leader** - Gets read access to the Insights app reports and insights.
 
-5. Select **Assign admins**, and then select **Add**.
-6. In **Who do you want to assign to this role**, type the first few letters of the user you want to add, and then select the user from the list. You can select as many names from the list as you want for this role.
+5. Select **Assign admins**, and then select **+ Add**. 
+6. In **Who do you want to assign to this role**, type the first few letters of the user you want to add, and then select the username from the list. The admin center limits you to 20 names at a time for a role assignment. However, you can repeat these steps to add more users to a role.
 
     ![Assign the selected role](./images/assign-role.png)
 
