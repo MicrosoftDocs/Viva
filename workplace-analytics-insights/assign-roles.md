@@ -15,8 +15,8 @@ After assigning licenses, you need to assign users the role of **Insights Busine
 
 Do the following to assign roles to individual users.
 
-1. Sign in as a global admin to your tenant's [Microsoft 365 Admin center](https://admin.microsoft.com/adminportal).
-2. In left navigation, select **Roles** 
+1. Sign in as a global admin to your tenant's [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
+2. In the left navigation, select **Roles** 
 3. In the search field, enter **Insights**.
 4. In the search results, select a role:
 
