@@ -11,19 +11,19 @@ ms.prod: wpa
 
 # Assign roles
 
-After assigning licenses, you need to assign users the role of **Insights Business Leader** or **Insights Administrator** in Microsoft 365 admin center.
+After assigning licenses, you need to assign users the role of **Insights Administrator** or **Insights Business Leader** in Microsoft 365 admin center.
 
 Do the following to assign roles to individual users.
 
 1. Sign in as a global admin to your tenant's [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
-2. In the left navigation, select **Roles** 
+2. In the left navigation, select **Roles**, and then select the **Azure AD** tab.
 3. In the search field, enter **Insights**.
 4. In the search results, select a role:
 
    * **Insights Administrator** - Gets full access to the Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
-   * **Insights Business Leader** - Gets read access to the Insights app reports and insights.
+   * **Insights Business Leader** - Gets read access to the Insights app reports and data.
 
-5. Select **Assign admins**, and then select **+ Add**. 
+5. Select **Assign admins**, and then select **+ Add**.
 6. In the search field for **Who do you want to assign to this role**, type the first few letters of a name, and then select the name from the list. The admin center limits you to assigning 20 names at a time. However, you can repeat these steps to assign more users a role.
 
     ![Assign the selected role](./images/assign-role.png)
@@ -31,7 +31,7 @@ Do the following to assign roles to individual users.
 7. Select **Save** to assign the listed users the role.
 
 >[!Note]
->The admin center references all roles as admins even though not all roles are admins.
+>The Microsoft 365 admin center references all roles as admins even though not all roles are admins.
 <!--NOT CURRENTLY AVAILABLE 2/26/21
 ## Assign roles to groups
 
@@ -48,8 +48,9 @@ If you have not yet created an Insights app group in Azure AD, and want to do so
 -->
 ## Access to Insights
 
-After assigning licenses, the data for insights might take up to three days to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, send your organization's leaders the link to [Insights](https://productivityinsights.office.com) to open and use them. Also, refer them to [Insights introduction](./intro.md) to learn more about how to use Insights.
+After assigning licenses, the data for Insights might take up to three days to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, send your organization's leaders the link to [Insights](https://productivityinsights.office.com) to open and use them. Also, refer them to [Insights introduction](./intro.md) to learn more about how to use Insights.
 
-## Related topic
+## Related topics
 
-[Set up insights](setup.md)
+* [Set up Insights](setup.md)
+* [Assign admin roles to Microsoft 365 user accounts with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)
