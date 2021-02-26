@@ -27,30 +27,31 @@ Alternatively, you can assign licenses as follows:
 
 ## To assign licenses to individual users
 
-1. In the **Microsoft 365 admin center**, select **Active users**, and then do one of the following to assign licenses to one user or to multiple users at the same time.
+1. Sign in as a global admin to your tenant's [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
+2. In the left navigation, select **Active users**, and then do one of the following to assign licenses to one user or to multiple users at the same time.
 
    **For one user**:
    1. In **Active users**, select the user from the list.
-   2. Select **Licenses and Apps**.
-   3. Select the check box for **Workplace Analytics Insights** (synonymous with Microsoft 365 Insights).
+   2. Select the **Ellipsis** (**...**) icon for more actions, and then select **Manage product licenses**.
+   3. In **Licenses and apps**, select the check box for **Microsoft Workplace Analytics Insights** (synonymous with Microsoft 365 Insights).
    4. Select **Save changes**, as shown in the following graphic.
 
    ![Assign one user a license](./images/assign-one-license.png)
 
    **For multiple users**:
-   1. In **Active users**, select the checkbox next to the users you want to assign licenses.
-   2. Select the **Ellipsis** (**...**) icon next to **Reset password**, and then select **Manage product licenses**.
-   3. Select **Assign more**, and then select the check box for **Workplace Analytics Insights**.
+   1. In **Active users**, select the check box next to the users you want to assign licenses.
+   2. Select the **Ellipsis** (**...**) icon for more actions, and then select **Manage product licenses**.
+   3. Select **Assign more**, and then select the check box for **Microsoft Workplace Analytics Insights**.
    4. Select **Save changes**.
 
    ![Assign multiple users licenses](./images/assign-multiple-licenses.png)
 
-2. These licenses are assigned right away to the selected users.
+3. These licenses are assigned right away to the selected users.
 
 ## To assign licenses to security groups
 
 1. In **Microsoft Azure Active Directory**, select **Licenses** under **Manage**.
-2. In **Overview**, select **All products**, and then select the check box for **Workplace Analytics Insights**.
+2. In **Overview**, select **All products**, and then select the check box for **Microsoft Workplace Analytics Insights**.
 
    ![Assign licenses in Azure Active Directory](./images/assign-licenses-add.png)
 
@@ -59,7 +60,7 @@ Alternatively, you can assign licenses as follows:
 
    ![Add one or more groups for licensing](./images/add-group-license.png)
 
-5. Select **Assignment options** to open the right pane, confirm that both **Workplace Analytics Insights** are set **On**, and then select **OK**.
+5. Select **Assignment options** to open the right pane, confirm that both **Microsoft Workplace Analytics Insights** are set **On**, and then select **OK**.
 
    ![Keep both options set to On](./images/keep-options-on.png)
 
