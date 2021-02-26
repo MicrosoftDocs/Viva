@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-**Role:** The analyst role is required in Workplace Analytics to view, download, or export query results
+**Role:** The Analyst role is required in Workplace Analytics to view, download, or export query results
   
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
@@ -23,25 +23,25 @@ On the **Analyze** > **Queries** > **Results** page, you can switch between **Al
 
 1. In Workplace Analytics, go to **Analyze** > **Queries** > **Results** > **All results**.
 
-2. Next to the query you want to view, select the ellipsis (**...**) > **View query**.
+2. Next to the query you want to view, select the **Ellipsis** (**...**) > **View query**.
 
 ## Supported languages for column headers
 
-When you define a query, you select metrics and organizational-data attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. However, note this difference in the way attributes and metrics appear in column headers: 
+When you define a query, you select metrics and organizational-data attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. However, note this difference in the way attributes and metrics show in column headers:
 
-* **Names of organizational-data attributes** &ndash; Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means that they appear in English in OData output and in query results. 
+* **Names of organizational-data attributes** - Attribute names must be in English when organizational data is uploaded. They remain in English while and after the data is processed in Workplace Analytics. This means that they appear in English in OData output and in query results.
 
-* **Metric names** &ndash; Any UTF-8-encoded characters are allowed in metric names, which means that metric names are always preserved and returned intact in both query and OData outputs, regardless of the language, or even the character set, in which you input them. 
+* **Metric names** - Any UTF-8-encoded characters are allowed in metric names, which means that metric names are always preserved and returned intact in both query and OData outputs, regardless of the language, or even the character set, in which you input them.
 
-In the following example of a query-result file that's been opened in Excel, metric names were input in Japanese and remain in Japanese, while attribute names were uploaded in English and remain in English: 
+In the following example of a query-result file that's been opened in Excel, metric names were input in Japanese and remain in Japanese, while attribute names were uploaded in English and remain in English:
 
 ![Column headers](../images/wpa/Use/columns-attributes-metrics.png)
   
-> [!Note] 
-> Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](../tutorials/comparison-query.md) and the [ONA Person-to-person query](../tutorials/ona-person-to-person-query.md). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters. 
+>[!Note]
+>Metric names in character sets other than the Latin character set are retained in their original languages (as described here) for all query types but two: the [Peer comparison query](../tutorials/comparison-query.md) and the [ONA Person-to-person query](../tutorials/ona-person-to-person-query.md). In the results for these query types, metrics in non-Latin-character-set text appear in column headers as garbled characters.
 
-> [!Important] 
-> If your organization has custom applications or clients that use or process query-result data, these downstream apps or clients must be prepared to accept query output with column headers as described here, namely with metric names in their original language and with organizational-data attribute names in English. 
+>[!Important]
+>If your organization has custom applications or clients that use or process query-result data, these downstream apps or clients must be prepared to accept query output with column headers as described here, namely with metric names in their original language and with organizational-data attribute names in English.
 
 ## Use Workplace Analytics data in Power BI, Excel, or other data-analysis tool
 
@@ -50,8 +50,8 @@ You can use the following options to access and use Workplace Analytics query da
 |Option | Description |
 |------ | ----------- |
 |[Download and import query results](#download-and-import-query-results) | Exports *static raw data* from a Workplace Analytics query as a .csv file, which you can then import into a tool of your choice. <br><br>When sharing analysis in the other tool, take caution to ensure that only authorized users can access the raw data. |
-|[Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi) | Automatically imports dynamic, raw query data from Workplace Analytics into Power BI.<br> <br>When sharing analysis in Power BI, take caution to ensure that only authorized users can access the raw data. <br> <br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule.|
-|[Connect through the Workplace Analytics Power BI Connector](#connect-through-the-power-bi-connector) | Automatically connects Power BI to dynamic, aggregated data from within Workplace Analytics Person or Meeting queries. <br> <br>Automatically enforces data privacy by keeping the raw data in Workplace Analytics. As you create visuals in Power BI, the Connector dynamically provides the aggregated data to support them (in DirectQuery mode). <br> <br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule. |
+|[Get a link for an OData feed to use in Power BI](#get-a-link-for-an-odata-feed-to-use-in-power-bi) | Automatically imports dynamic, raw query data from Workplace Analytics into Power BI.<br><br>When sharing analysis in Power BI, take caution to ensure that only authorized users can access the raw data. <br><br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule.|
+|[Connect through the Workplace Analytics Power BI Connector](#connect-through-the-power-bi-connector) | Automatically connects Power BI to dynamic, aggregated data from within Workplace Analytics Person or Meeting queries. <br><br>Automatically enforces data privacy by keeping the raw data in Workplace Analytics. As you create visuals in Power BI, the Connector dynamically provides the aggregated data to support them (in DirectQuery mode). <br><br>If the query is set up to auto-refresh in Workplace Analytics, your Power BI visuals will automatically update on the same schedule. |
 
 ### Download and import query results
 
@@ -72,8 +72,8 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 ### Get a link for an OData feed to use in Power BI
 
-   > [!Note]
-   > You can share Power BI dashboards. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+>[!Note]
+>You can share Power BI dashboards. For details, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
 1. Next to the query you want, select the **Copy link** icon.
 2. In Power BI, paste the URL into the **OData feed** dialog box.
@@ -86,23 +86,23 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    After Power BI finishes importing your Workplace Analytics data, use Power BI tools to create visualizations of the data.
 
-   > [!Important]
-   > The OData link is not available for query results that were created before March 22, 2018.
+   >[!Important]
+   >The OData link is not available for query results that were created before March 22, 2018.
 
-   > [!Note]
-   > The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
-   >   * If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
-   >   * If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
+   >[!Note]
+   >The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
+   >* If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
+   >* If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
 
 ### Use an OData link to view data in Excel
 
-1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**. 
-2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**: 
+1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**.
+2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**:
 
    ![Copy OData link from query results](../images/wpa/use/odata-link-copied.png)
 
-3. Open Excel and select **Blank workbook**. 
-4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**: 
+3. Open Excel and select **Blank workbook**.
+4. In the new Excel workbook, in the **Data** menu, select **Get Data > From Other Sources > From OData Feed**:
 
    ![Open OData link in Excel](../images/wpa/use/data-odata-in-excel.png)
 
@@ -145,27 +145,31 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
 4. In **Connect to Workplace Analytics Data**, paste the copied partition identifier.
 
-    ![Enter Workplace Analytics data connections](../images/wpa/use/pbi-wpa-connect.png)
+    ![Enter Workplace Analytics data connections](../images/wpa/use/pbi-connect.png)
 
-    To import Person metrics, continue to the next step. Or to connect to a custom person or meeting query:
+   To import Person metrics, continue to the next step. Or to connect to a custom person or meeting query:
 
-    * Enter one or more keywords or the complete query name in **Query Name**.
-    * Or enter the query's ID in **Query Identifier**:
+   * Enter one or more keywords or the complete query name in **Query Name**.
+   * Or enter the query's ID in **Query Identifier**:
 
-      a. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
-
-      b. Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI:
+     1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
+     2. Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI:
 
       ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
 
-5. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
+     3. Repeat these steps to add another query ID. You can add up to two queries at a time.
+
+5. In **Schema Type**, you can optionally select one of the following:
+
+   * **Default** - The imported query data will be the same as what you see in a .csv output file.
+   * **Unpivoted** - Only available for person queries. Select if you want the organizational attribute data to ‘unpivot’ into two columns named **Attribute Name** and **Attribute Value**.
+
+6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
    * **DirectQuery** (*recommended*) – As you create Power BI visuals, the Connector will provide the aggregated data to support them.  
    * **Import** – Requires you to identify how you want to aggregate the data first. That data is then imported into Power BI and from there you can create your visualizations.  
-
-6. The first time you use the Power BI Connector for a partition ID, or when your authentication token expires, and you're prompted to sign in, select **Sign in**, enter your Office 365 credentials, and then select **Connect**:
-
-7. In the **Power BI Navigator**, select the query name or standard person metrics that you want to analyze, and then select **Load**.
+7. The first time you use the Power BI Connector for a partition ID, or when your authentication token expires, and you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
+8. In the **Power BI Navigator**, select the query name or standard person metrics that you want to analyze, and then select **Load**.
 
     ![Power BI Navigator](../images/wpa/use/pbi-navigator.png)
 
