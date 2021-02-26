@@ -42,7 +42,7 @@ Alternatively, you can assign licenses as follows:
    1. In **Active users**, select the check box next to the users you want to assign licenses.
    2. Select the **Ellipsis** (**...**) icon for more actions, and then select **Manage product licenses**.
    3. Select **Assign more**, and then select the check box for **Microsoft Workplace Analytics Insights**.
-   4. Select **Save changes**.
+   4. Select **Save changes**, and then select **Done**.
 
    ![Assign multiple users licenses](./images/assign-multiple-licenses.png)
 
