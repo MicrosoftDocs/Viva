@@ -11,11 +11,11 @@ ms.prod: wpa
 
 # Assign roles
 
-After assigning licenses, you need to assign users the role of **Insights Business Leader** or **Insights Administrator** in Azure Active Directory (AD). You can assign a role to [individual users](#assign-roles-to-users) or to [groups](#assign-roles-to-groups).
+After assigning licenses, you need to assign users the role of **Insights Business Leader** or **Insights Administrator** in Microsoft 365 Admin center. 
 
-## Assign roles to users
+Do the following to assign roles to individual users.
 
-1. The Azure Active Directory admin must sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. Sign in as a global admin to your tenant's [Microsoft 365 Admin center](https://admins.microsoft.com/adminsportal).
 2. In left navigation, select **Enterprise applications** to open the **Enterprise applications | All applications**.
 3. In the **Application Type** menu, select **All Applications**.
 
@@ -58,9 +58,8 @@ After assigning licenses, you need to assign users the role of **Insights Busine
 12. After you've chosen the user and the role, select **Assign** at the bottom of the **Add Assignment** page. After a few seconds, a message in the upper right informs you of the success of the role assignment:  
 
     ![Assignment succeeded](./images/assignment-succeeded.png)
-
-    You have now assigned the role to one user.  
-
+ 
+<!--NOT CURRENTLY AVAILABLE 2/26/21
 ## Assign roles to groups
 
 You can also assign the role to one or more groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group automatically receive the same permissions that are assigned to that role.
@@ -73,7 +72,7 @@ To assign users and roles to an Insights app group, the steps are similar to tho
 ![Select group](./images/select-group-b.png)
 
 If you have not yet created an Insights app group in Azure AD, and want to do so, see [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
-
+-->
 ## Access to Insights
 
 After assigning licenses, the data for insights might take up to three days to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, send your organization's leaders the link to [Insights](https://productivityinsights.office.com) to open and use them. Also, refer them to [Insights introduction](./intro.md) to learn more about how to use Insights.
