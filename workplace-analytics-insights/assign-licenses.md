@@ -32,7 +32,7 @@ Alternatively, you can assign licenses as follows:
 
    **For one user**:
    1. In **Active users**, select the user from the list.
-   2. Select the **Ellipsis** (**...**) icon for more actions, and then select **Manage product licenses**.
+   2. Select the **ellipsis** (**...**) to view more actions, and then select **Manage product licenses**.
    3. In **Licenses and apps**, select the check box for **Microsoft Workplace Analytics Insights** (synonymous with Microsoft 365 Insights).
    4. Select **Save changes**, as shown in the following graphic.
 
@@ -40,7 +40,7 @@ Alternatively, you can assign licenses as follows:
 
    **For multiple users**:
    1. In **Active users**, select the check box next to the users you want to assign licenses.
-   2. Select the **Ellipsis** (**...**) icon for more actions, and then select **Manage product licenses**.
+   2. Select the **ellipsis** (**...**) to view more actions, and then select **Manage product licenses**.
    3. Select **Assign more**, and then select the check box for **Microsoft Workplace Analytics Insights**.
    4. Select **Save changes**, and then select **Done**.
 
