@@ -15,50 +15,23 @@ After assigning licenses, you need to assign users the role of **Insights Busine
 
 Do the following to assign roles to individual users.
 
-1. Sign in as a global admin to your tenant's [Microsoft 365 Admin center](https://admins.microsoft.com/adminsportal).
-2. In left navigation, select **Enterprise applications** to open the **Enterprise applications | All applications**.
-3. In the **Application Type** menu, select **All Applications**.
+1. Sign in as a global admin to your tenant's [Microsoft 365 Admin center](https://admin.microsoft.com/adminportal).
+2. In left navigation, select **Roles** 
+3. In the search field, enter **Insights**.
+4. In the search results, select a role:
 
-   ![Enterprise applications](./images/ac-all-apps.png)
+   * **Insights Administrator** - Gets full access to the Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
+   * **Insights Business Leader** - Gets read access to the Insights app reports and insights.
 
-4. In the search field, enter **Microsoft 365 Insights**, and then press **Enter**.
+5. Select **Assign admins**, and then select **Add**.
+6. In **Who do you want to assign to this role**, type the first few letters of the user you want to add, and then select the user from the list. You can select as many names from the list as you want for this role.
 
-   ![Search for insights](./images/search-insights.png)
+    ![Assign the selected role](./images/assign-role.png)
 
-5. In the search results, select **Microsoft 365 Insights**.  
-6. In the **Insights | Overview** page, under **Getting Started**, select **Assign users and groups**.
-7. In **Users and groups**, select **Add user**.
+7. Select **Save** to assign the listed users the role.
 
-   ![Insight users and groups](./images/insights-users-and-groups.png)
-
-8. In **Add Assignment**, select **Users and groups**.
-
-   ![Select Users and groups](./images/select-users-and-groups.png)
-
-9. In the search field under **Users and groups** (right side of the page), enter the user identifier (such as their display name or User Principal Name) for the person you want to assign a role, and then select their identifier in the results list. After you select the person, their identifier appears on the right under **Selected items**.
-
-   ![Selected items](./images/selected-items.png)
-
-   In the **Users and groups** area, the count of selected users will increase by one.
-
-   ![Add Assignment + 1](./images/add-assignment-plus-1.png)
-
-   >[!Note]
-   >You can repeat this step to add one or more additional users, if you intend to assign the same role to them.
-
-10. In **Add Assignment**, choose **Select Role** to open the **Select Role** area to the right.
-11. From the list that appears, select a role:
-
-    * **Insights Business Leader** - Gets read access to the Insights app reports and insights.
-    * **Insights Administrator** - Gets full access to the Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
-
-   >[!Note]
-   >The role also appears under **Add Assignment** in the **Select Role** area.
-
-12. After you've chosen the user and the role, select **Assign** at the bottom of the **Add Assignment** page. After a few seconds, a message in the upper right informs you of the success of the role assignment:  
-
-    ![Assignment succeeded](./images/assignment-succeeded.png)
- 
+>[!Note]
+>The admin center references all roles as admins even though not all roles are admins.
 <!--NOT CURRENTLY AVAILABLE 2/26/21
 ## Assign roles to groups
 
