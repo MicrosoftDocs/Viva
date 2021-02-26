@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Assign roles
 
-After assigning licenses, you need to assign users the role of **Insights Business Leader** or **Insights Administrator** in Microsoft 365 Admin center. 
+After assigning licenses, you need to assign users the role of **Insights Business Leader** or **Insights Administrator** in Microsoft 365 admin center.
 
 Do the following to assign roles to individual users.
 
@@ -24,7 +24,7 @@ Do the following to assign roles to individual users.
    * **Insights Business Leader** - Gets read access to the Insights app reports and insights.
 
 5. Select **Assign admins**, and then select **+ Add**. 
-6. In **Who do you want to assign to this role**, type the first few letters of the user you want to add, and then select the username from the list. The admin center limits you to 20 names at a time for a role assignment. However, you can repeat these steps to add more users to a role.
+6. In the search field for **Who do you want to assign to this role**, type the first few letters of a name, and then select the name from the list. The admin center limits you to assigning 20 names at a time. However, you can repeat these steps to assign more users a role.
 
     ![Assign the selected role](./images/assign-role.png)
 
