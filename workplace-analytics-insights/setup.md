@@ -41,7 +41,7 @@ You must be able to sign in as a global Microsoft 365 admin to use the Microsoft
 
 You can assign licenses as follows:
 
-* [Assign licenses to individual users with the Microsoft admin center](assign-licenses.md)
+* [Assign licenses to individual users with the Microsoft 365 admin center](assign-licenses.md)
 * [Assign licenses to security groups with Azure AD](assign-licenses.md)
 * [Assign licenses to users with Microsoft PowerShell](assign-licenses-pshell.md)
 
