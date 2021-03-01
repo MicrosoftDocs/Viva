@@ -45,13 +45,9 @@ The first time that you open the Protect time feature, you will be prompted to s
 
 On this card, choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**. 
 
-> [!Note] 
-><ul>
-><li>You can schedule virtual-commute reminders for any day of the week, including days not configured as workdays in your Outlook settings.</li>
-><li>The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.</li>
-></ul> 
+[!INCLUDE [Virtual commute notes](../includes/virtual-commute-details.md)]
 
-If you want to change these settings, [TBW]
+If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](teams-app-settings.md#virtual-commute).
 
 #### Virtual commute steps
 

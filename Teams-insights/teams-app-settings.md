@@ -25,17 +25,33 @@ To configure features, start by opening the **Settings** page:
 
 2. On the left side of the page, to the right of the App bar, select an aspect to configure. Your choices are the following:
 
-   * <u>Workweek</u> &ndash; Edit the days of the week that you work, your start time and end timne, and your time zone. These settings are kept synchronized with the same settings in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). That is, if you change them in one place, they will be updated everywhere that they appear.
+### Workweek
 
-   * <u>My team</u> &ndash; (This option is available only to people who are recognized in AAD as managers.) This option initially shows your team as it is listed in AAD. Use this option to update the list of team members. After you edit your team members here, it is no longer synchronized in AAD. 
+Edit the days of the week that you work, your start time and end timne, and your time zone. These settings are kept synchronized with the same settings in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). That is, if you change them in one place, they will be updated everywhere that they appear.
 
-   * <u>Quiet time</u> &ndash; [To be written]
+### My Team
 
-   * <u>Reflection</u> &ndash; Edit the schedule for reminders to self-reflect. Change the days and time to receive reminders, and turn them on or off. 
+(This option is available only to people who are recognized in AAD as managers.) This option initially shows your team as it is listed in AAD. Use this option to update the list of team members. After you edit your team members here, it is no longer synchronized in AAD. 
 
-   * <u>Praise</u> &ndash; Edit the schedule for praise reminders. Change the days and time to receive reminders, and turn them on or off. 
+<!-- NOTE FROM LEANNA MARCH 1, 2021: [LR] Quiet time actually isn't a concept we need to tackle in this round of documentation updates. Quiet time settings won't be available for at least a few more months, so we can cover that later on. 
 
-   * <u>Virtual commute</u> &ndash; [To be written]
+### Quiet time
+
+ -->
+
+### Reflection
+
+Edit the schedule for reminders to self-reflect. Change the days and time to receive reminders, and turn them on or off. 
+
+### Praise
+
+Edit the schedule for praise reminders. Change the days and time to receive reminders, and turn them on or off. 
+
+### Virtual commute
+
+Choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**. 
+
+[!INCLUDE [Virtual commute notes](../includes/virtual-commute-details.md)]
 
 ## Related topics
 
