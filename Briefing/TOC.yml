@@ -24,5 +24,7 @@
     href: ./be-time.md 
 ## - name: Catch up with your team
 ##   href: ./be-manager.md
+- name: Settings
+  href: ./be-settings.md
 - name: Frequently asked questions
   href: ./be-faqs.yml
