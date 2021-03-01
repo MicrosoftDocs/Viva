@@ -11,9 +11,9 @@ ms.prod: wpa
 
 # Assign roles
 
-After assigning licenses, you need to assign users the role of **Insights Administrator** or **Insights Business Leader** in Microsoft 365 admin center.
+After assigning licenses, you need to assign roles to the people who want to view and use the Insights. You can assign users the role of **Insights Administrator** or **Insights Business Leader** in Microsoft 365 admin center.
 
-Do the following to assign roles to individual users.
+To assign roles:
 
 1. Sign in as a global admin to your tenant's [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 2. In the left navigation, select **Roles**, and then select the **Azure AD** tab.
@@ -48,7 +48,7 @@ If you have not yet created an Insights app group in Azure AD, and want to do so
 -->
 ## Access to Insights
 
-After assigning licenses, the data for Insights might take up to three days to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, send your organization's leaders the link to [Insights](https://productivityinsights.office.com) to open and use them. Also, refer them to [Insights introduction](./intro.md) to learn more about how to use Insights.
+After assigning licenses, the data for Insights might take up to a week to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, send your organization's leaders the link to [Insights](https://productivityinsights.office.com) to open and use them. Also, refer them to [Insights introduction](./intro.md) to learn more about how to use Insights.
 
 ## Related topics
 
