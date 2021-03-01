@@ -23,4 +23,4 @@ Manager insights provide much-needed visibility into work patterns that can lead
 
 ## Personal insights
 
-You can also see personal insights that only you can see about how you work now and what you could change to do your best work. Actionable recommendations, such as protecting time in the day for regular breaks, focused work, and learning, make it easier to prioritize wellbeing and boost productivity. For details, see [Personal Viva Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app).
+You can also see personal insights that only you can see about how you work now and what you could change to do your best work. Useful recommendations, such as protecting time in the day for regular breaks, focused work, and learning, make it easier to prioritize wellbeing and boost productivity. For details, see [Personal Viva Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app).
