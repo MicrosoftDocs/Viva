@@ -15,7 +15,7 @@ ms.prod: wpa
 
 Before people in your organization can view and use Microsoft 365 Insights, your Microsoft 365 global admin needs to do the following for them:
 
-* [Activate licenses](#activate-licenses)
+* [Activate promotional codes](#activate-promotional-codes)
 * [Assign licenses](#assign-licenses)
 * [Assign roles](assign-roles.md)
 
@@ -23,7 +23,7 @@ This new release is currently limited to Microsoft or Office 365 E5 or E3 plan s
 
 You can request access and get more information at [Microsoft Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Microsoft 365 Insights.
 
-## Activate licenses
+## Activate promotional codes
 
 1. Depending on which browser you are using, on the Windows taskbar or Start menu, right-click the browser application and select **Start InPrivate Browsing**, **New InPrivate window**, **New incognito window**, or **New private window**.
 2. Copy the **activation code link** that Microsoft sent you for Microsoft 365 Insights, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
