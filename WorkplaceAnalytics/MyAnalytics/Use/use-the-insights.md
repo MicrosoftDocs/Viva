@@ -41,11 +41,11 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
    * As the meeting organizer, you will see an insight similar to this:
 
-    ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
+     ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
 
    * As a meeting invitee, you will see an insight similar to this:
 
-    ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited-78.png)
+     ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited-78.png)
 
 #### Insight option details
 
