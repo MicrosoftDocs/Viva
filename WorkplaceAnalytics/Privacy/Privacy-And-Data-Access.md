@@ -39,7 +39,7 @@ Organizations decide who can have access to see the data in Workplace Analytics.
 
 You retain full control over what data is used and how it is used within Workplace Analytics. Workplace Analytics uses Microsoft 365 email and calendar metadata and external data defined by your organization (usually exported from an HR system) to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom.
 
-Workplace Analytics processes data from these two sources&mdash;[organizational data](#organizational-data) from your own HR system and [collaboration data from Microsoft 365](#collaboration-data-from-office-365)&mdash;to provide your analysts with a unified pool of data on which to perform analyses. The following sections describe these two data sources:
+Workplace Analytics processes data from these two sources&mdash;[organizational data](#organizational-data) from your own HR system and [collaboration data from Microsoft 365](#collaboration-data-from-microsoft-365)&mdash;to provide your analysts with a unified pool of data on which to perform analyses. The following sections describe these two data sources:
 
 ### Organizational data
 
