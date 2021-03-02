@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Develop effective managers with Workplace Analytics insights
+title: Develop effective managers with Microsoft 365 Insights
 description: Learn how to use insights data to analyze and develop effective managers in your organization
 author: madehmer
 ms.author: v-mideh
