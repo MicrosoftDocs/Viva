@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Insight metrics
-description: Describes the data metrics used in Workplace Analytics insights
+description: Describes the data metrics used in Microsoft 365 Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -10,7 +10,7 @@ localization_priority: none
 ms.prod: wpa
 
 ---
-# Metrics used in Workplace Analytics insights
+# Metrics used in Microsoft 365 Insights
 
 *This experience is only available through private preview at this time.*
 

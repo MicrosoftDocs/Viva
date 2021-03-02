@@ -60,3 +60,4 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 * [Tasks you need to follow up on](be-tasks.md)
 * [Book focus time](be-focus.md) (Adaptive version only)
 * [Plan your week](be-time.md) (Adaptive version only)<!--* [Catch up with your team](be-manager.md) (Adaptive version only)-->
+* [Settings](be-settings.md)
