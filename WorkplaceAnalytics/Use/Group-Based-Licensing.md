@@ -16,7 +16,7 @@ audience: Admin
 
 # Assign group-based licenses for Workplace Analytics
 
-Some Microsoft Online products are "add-ons," which require a service plan that's enabled for a user or a group. With group-based licensing, the system requires that both the prerequisite and add-on service plans be enabled for the group, so that any new users who are added to the group can get a valid service plan assignment.
+Some Microsoft Online products are "add-ins," which require a service plan that's enabled for a user or a group. With group-based licensing, the system requires that both the prerequisite and add-in service plans be enabled for the group, so that any new users who are added to the group can get a valid service plan assignment.
 
 Here's an example:
 ![Admin center](../Images/WpA/Use/AAD_Group1.png)

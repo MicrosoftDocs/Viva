@@ -148,7 +148,7 @@ The Microsoft Graph cannot be turned on or off globally through the Microsoft 36
 
 ### Dashboard and Outlook add-in
 
-Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-on license&mdash;the user’s MyAnalytics [dashboard](../use/dashboard-2.md) and [Outlook Add-in](../use/add-in.md) become available.
+Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s MyAnalytics [dashboard](../use/dashboard-2.md) and [Outlook Add-in](../use/add-in.md) become available.
 
 ### Welcome email
 

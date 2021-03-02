@@ -1,8 +1,7 @@
 ---
-
 title: Data-protection considerations when using Workplace Analytics  
 description: Data-protection considerations when using Workplace Analytics.
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
@@ -58,7 +57,7 @@ The data processor is a party that processes personal data on behalf of the data
 
 As a data processor, Microsoft will:
 
-* Process personal data in accordance with your organization’s instructions as directed via your settings configuration within Workplace Analytics.
+* Process personal data in accordance with your organization’s instructions as directed through your settings configuration within Workplace Analytics.
 * Through your use of Workplace Analytics, process all data provided to Microsoft (including personal data) according to the same [general privacy and security terms in the Online Services Terms (OST)](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) as Microsoft 365.
 * As part of Microsoft’s commitments under the OST, remain certified under the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments that these frameworks entail to legitimize transfers of personal data from the EU and Switzerland to the U.S.
 * Contractually commit to abide by applicable provisions of the European Union General Data Protection Regulation (GDPR), effective starting May 25, 2018.
@@ -71,8 +70,8 @@ In addition, Microsoft does not use data for advertising nor does it volunteer t
 
 A data subject is a person who can be identified through personal data. In the context of Workplace Analytics, the data subject is an employee or other user in your organization whose personal information is being processed. Personal data is any information that directly or indirectly identifies a person (the data subject).
 
-> [!Note]
-> In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user," a "person," an "individual," or an "employee."
+>[!Note]
+>In most cases in the Workplace Analytics product and documentation, we refer to a _data subject_ simply as a "user," a "person," an "individual," or an "employee."
 
 ## De-identification of data
 
@@ -150,7 +149,7 @@ To enable analysis along organizational lines, you can provide HR data such as d
 
 ### Who can see the data
 
-You control who gets to see the data and the results of the analysis. Like other products that work with sensitive data, such as HR systems, Workplace Analytics is not meant for the general workforce. Rather, its users are expected to have training regarding how to handle sensitive information. Training should be specific to your organization. Suggested topics may include your organization’s HR policies, employee privacy policy, how to handle and store sensitive data, and insider trading. 
+You control who gets to see the data and the results of the analysis. Like other products that work with sensitive data, such as HR systems, Workplace Analytics is not meant for the general workforce. Rather, its users are expected to have training regarding how to handle sensitive information. Training should be specific to your organization. Suggested topics may include your organization’s HR policies, employee privacy policy, how to handle and store sensitive data, and insider trading.
 
 There are two ways that users provisioned as analysts can access information within Workplace Analytics. One view, Analyst (Limited Access), simply provides an exploratory view into the data and is populated with preset views that only offer aggregated information and share no personal or pseudonymized data. This view is recommended for analysts who do not need the full power of Workplace Analytics to understand the data. The analysis presented in this view suppresses any chance of exposing user-specific information.
 
@@ -162,19 +161,14 @@ Both of these roles are provisioned by the tenant administrator.
 
 Under the GDPR, data subjects may have rights to request exclusion from processing, access, correction, or deletion of their personal data. It is your organization’s role as data controller to evaluate whether a particular data subject request is valid and, if appropriate, to take action to fulfill the request. As a data processor, Microsoft provides mechanisms for your organization as the data controller to honor data subject rights through controls that are built into Workplace Analytics.
 
-<!--
-ADD THIS BACK IN WHEN WE CAN LINK TO KATE'S DOC:
-You can review the details here, but we briefly go over them:
--->
+* **Exclusion from processing** - Data subjects have the right to have their personal information excluded from processing. In Workplace Analytics, you can exclude an employee’s personal information from being processed simply by not assigning a Workplace Analytics license to that employee.
+* **Access** - Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable, and does not contain aggregate metrics from which no personal information can be gleaned.
+* **Correction** - Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.
+* **Deletion** - Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed. You have the option of deciding whether such data needs to be reprocessed without the user’s raw metrics. If you so decide, all reports stored in Workplace Analytics can be deleted and recalculated. 
+* **Transparency regarding processing** - See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
 
-* **Exclusion from processing:** Data subjects have the right to have their personal information excluded from processing. In Workplace Analytics, you can exclude an employee’s personal information from being processed simply by not assigning a Workplace Analytics license to that employee. <!-- DELETED PER PARAMA 16 APRIL 2018: If you have already included an employee in the scope of some analysis, and that employee requests to be excluded from future analysis, then you can configure Workplace Analytics to discontinue the use of data pertaining to that employee. -->
-* **Access:** Data subjects have the right to demand what personal information is being processed, and Workplace Analytics gives you the ability to export the raw data, which may contain personal data. The scope of such information is restricted to what is personally associable, and does not contain aggregate metrics from which no personal information can be gleaned.
-* **Correction:** Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.  <!-- DELETED PER PARAMA 16 APRIL 2018: If someone requests corrections to Microsoft 365 email and meeting data, then the Microsoft 365 tenant administrator can use the capabilities built into Microsoft 365 to handle these requests. If someone requests corrections to their personal data in the organizational dataset, then as the controller, your organization should provide the means for the data subjects to review and correct such information. -->
-* **Deletion:** Data subjects can ask for their personal data to be erased. If a user wishes to have their data removed from a study after the study is completed, then you can expunge that user’s personal data from the raw datasets that were previously processed. You have the option of deciding whether such data needs to be reprocessed without the user’s raw metrics. If you so decide, all reports stored in Workplace Analytics can be deleted and recalculated. 
-* **Transparency regarding processing:** See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
-
-> [!Note]
-> Microsoft 365 users can determine whether they have a Workplace Analytics license and, consequently, whether their data is being processed. For more information, see [Assign licenses / Users can view their subscription status](../setup/assign-licenses-to-population.md#users-can-view-their-subscription-status).
+>[!Note]
+>Microsoft 365 users can determine whether they have a Workplace Analytics license and, consequently, whether their data is being processed. For more information, see [Assign licenses / Users can view their subscription status](../setup/assign-licenses-to-population.md#users-can-view-their-subscription-status).
 
 ## Additional Resources
 

@@ -1,5 +1,4 @@
 ---
-
 title: Introduction to assigning licenses for Workplace Analytics users
 description: Assign Workplace Analytics licenses for population in scope for analysis
 author: madehmer
@@ -28,10 +27,10 @@ Employees in your organization who are not licensed for analysis but might colla
 
 After you have identified the population in scope, the Microsoft 365 Global administrator assigns Workplace Analytics licenses to users in this population. Note that users can find out for themselves whether they've been assigned a license; see [Users can view their subscription status](#users-can-view-their-subscription-status).
 
-The assignment of licenses affects the user counts that are shown in the Workplace Analytics **Data sources** pages; see [Origin of data counts](../use/office-365-data.md#origin-of-data-counts). 
+The assignment of licenses affects the user counts that are shown in the Workplace Analytics **Data sources** pages; see [Origin of data counts](../use/office-365-data.md#origin-of-data-counts).
 
-> [!Note]
-> Workplace Analytics is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements for Workplace Analytics](environment-requirements.md).
+>[!Note]
+>Workplace Analytics is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements for Workplace Analytics](environment-requirements.md).
 
 ### Users can view their subscription status
 
@@ -39,7 +38,7 @@ Microsoft 365 users might want to find out whether their collaboration data is b
 
 #### To find out if I have a Workplace Analytics license
 
-**Role:** Microsoft 365 user 
+**Role:** Microsoft 365 user
 
 1. Open the [Microsoft 365 portal](https://portal.office.com).
 2. Sign in to your Microsoft 365 account.
@@ -66,20 +65,20 @@ Workplace Analytics licenses are assigned just like other Microsoft 365 product 
 * [Microsoft 365 Admin Center​](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
 * [PowerShell](../Use/Assigning-licenses-with-powershell.md)
 
-   > [!Note]
-   > Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
+>[!Note]
+>Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.
 
 #### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
 If your organization has not fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Microsoft 365 Global administrator or Exchange administrator can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
 
-## Appearance of newly licensed users 
+## Appearance of newly licensed users
 
 The data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday. This includes the data records for licensed users. Therefore, if you add a user license on a Tuesday, that person will not show up in Workplace Analytics until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Workplace Analytics in the following ways:
 
- * The user is represented in the user counts that are displayed on the [Workplace Analytics Insights](../use/insights.md) page under **My organization's data**.
- * [Queries](../tutorials/query-basics.md) that analysts run can return results that include data about this user's activities.
- * [Explore the stats](../use/explore-intro.md) can reflect data that includes a newly licensed employee.
+* The user is represented in the user counts that are displayed on the [Workplace Analytics Insights](../use/insights.md) page under **My organization's data**.
+* [Queries](../tutorials/query-basics.md) that analysts run can return results that include data about this user's activities.
+* [Explore the stats](../use/explore-intro.md) can reflect data that includes a newly licensed employee.
 
 Azure Active Directory (AAD) is the single source of truth for licensing statuses. After a user license is added in AAD, that user will appear in AAD but not in Workplace Analytics until the next data refresh cycle is complete the following Monday.
 

@@ -14,12 +14,9 @@ ms.prod: mya
 The information in this section helps you get the most out of the following insights:
 
 * [Prepare for your meetings](#prepare-for-your-meetings)
-* [Track email and document open rates](#track-email-and-document-open-rates)
-<!-- * [View outstanding tasks](#view-outstanding-tasks)-->
-<!-- * [Follow up on your requests](#follow-up-on-your-requests) -->
+* [Track email and document open rates](#track-email-and-document-open-rates)<!-- * [View outstanding tasks](#view-outstanding-tasks)--><!-- * [Follow up on your requests](#follow-up-on-your-requests) -->
 * [Book time to focus](#book-time-to-focus)
-* [Catch up on email](#catch-up-on-email)
-<!-- * [Catch up on documents](#catch-up-on-documents) -->
+* [Catch up on email](#catch-up-on-email)<!-- * [Catch up on documents](#catch-up-on-documents) -->
 * [Add important people](#add-important-people)
 * [Set lunch hours](#set-lunch-hours)
 * [Plan your time away](#plan-your-time-away)
