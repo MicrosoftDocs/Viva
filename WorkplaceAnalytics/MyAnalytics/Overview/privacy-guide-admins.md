@@ -155,6 +155,7 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
 * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
 * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 * Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+* Microsoft supports your need to honor user requests to restrict processing as follows:
 
   * Use PowerShell to opt employees out of MyAnalytics.
   * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.
