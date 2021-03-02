@@ -5,7 +5,7 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
-ms.prod: MyA
+ms.prod: Mya
 manager: scott.ruble
 
 ---
@@ -24,7 +24,7 @@ The information in this section helps you get the most out of the following insi
 * [Catch up with your team](#catch-up-with-your-team)
 * [Meeting suggestions](#meeting-suggestions)
 * [Check quiet hours impact](#check-quiet-hours-impact)
-<!--ADD ALPHABETICALLY IN LIST WHEN YOU UNHIDE * [View outstanding tasks](#view-outstanding-tasks) * [Follow up on your requests](#follow-up-on-your-requests) -->
+<!--ADD ALPHABETICALLY IN LIST WHEN YOU EXPOSE THESE * [View outstanding tasks](#view-outstanding-tasks) * [Follow up on your requests](#follow-up-on-your-requests)-->
 ## Prepare for your meetings
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
@@ -339,12 +339,12 @@ This opens a panel that displays insights for each document shared with you in t
 
 | Card section | Notes |
 | ------ | ------ |
-| **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;   | The person who sent you the email with the associated document |
+| **Name and icon**| The person who sent you the email with the associated document |
 | **Email subject line** | Subject-line preview of the email |
 | **Document name** | Name of the document that you might want to catch up on. Select the document name to open it. |
 | **Open email** | Select this to open the related email. |
 | **Book time** | Select this to see an option to book calendar time to review the document. |
--->
+
 ## Add important people
 
 You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, MyAnalytics will remind you when you have tasks to do for these important people or unread email from them.
