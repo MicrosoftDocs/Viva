@@ -21,7 +21,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 ## Insights that you might see
 
-Open the Insights Outlook add-in by selecting the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**. 
+Open the Insights Outlook add-in by selecting the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
 
 ![Insights panel](../../images/mya/overview/insights-cards-12.png)
 
