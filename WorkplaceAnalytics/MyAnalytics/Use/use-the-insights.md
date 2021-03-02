@@ -6,9 +6,9 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: MyA
+manager: scott.ruble
 
 ---
-
 # Use Insights
 
 The information in this section helps you get the most out of the following insights:
