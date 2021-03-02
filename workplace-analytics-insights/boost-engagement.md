@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Boost employee engagement with Workplace Analytics insights
+title: Boost employee engagement with Microsoft 365 Insights
 description: Learn how to use insights data to analyze and improve employee engagement
 author: madehmer
 ms.author: v-mideh
