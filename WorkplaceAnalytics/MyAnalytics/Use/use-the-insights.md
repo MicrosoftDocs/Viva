@@ -24,7 +24,7 @@ The information in this section helps you get the most out of the following insi
 * [Catch up with your team](#catch-up-with-your-team)
 * [Meeting suggestions](#meeting-suggestions)
 * [Check quiet hours impact](#check-quiet-hours-impact)
-<!--ADD ALPHABETICALLY IN LIST WHEN YOU UNHIDE * [View outstanding tasks](#view-outstanding-tasks) * [Follow up on your requests](#follow-up-on-your-requests) -->
+<!--ADD ALPHABETICALLY IN LIST WHEN YOU EXPOSE THESE * [View outstanding tasks](#view-outstanding-tasks) * [Follow up on your requests](#follow-up-on-your-requests)-->
 ## Prepare for your meetings
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
