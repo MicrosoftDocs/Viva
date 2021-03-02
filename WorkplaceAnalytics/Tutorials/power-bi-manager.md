@@ -62,20 +62,30 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
+
 2. Under **Start from preselected filters and metrics**, select **Manager effectiveness** (or select **Influence insights**, per **Step 8**) to open the predefined query, which contains the required metrics to populate the dashboard.
+
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
+
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
+
 5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify managers and their groups, such as **LevelDesignation**, **ManagerId**, **Organization**, and **SupervisorIndicator**.
+
 7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
+
 8. Repeat **Steps 2-7** and select the **Influence insights** query. Make the same selections as for **Manager effectiveness**, except be sure to select **Month** for the **Group by** filter.
 
    >[!Important]
    >If you select **Aggregated** instead of **Month** for the **Group by** filter in the **Influence insights** query, most of the template's reports will not load the data.
 
 9. After both queries successfully run, in **Queries** > **Results**, select the **Download** icon for the **Manager effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
+
 10. Open the downloaded **Manager effectiveness** template.
+
 11. If prompted to select a program, select **Power BI**.
+
 12. When prompted by Power BI:
 
     1. In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
@@ -84,6 +94,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
     4. Select **Load** to import the query results into Power BI. Loading these large files might take a few minutes up to a few hours to complete.
 
 13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+
 14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
