@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Accelerate change with Workplace Analytics insights
+title: Accelerate change with Microsoft 365 Insights
 description: Learn how to use insights data to analyze and accelerate organizational change
 author: madehmer
 ms.author: v-mideh
