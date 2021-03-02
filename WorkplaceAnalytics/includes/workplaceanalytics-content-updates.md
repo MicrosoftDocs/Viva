@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 
 
 ## Week of February 15, 2021
@@ -40,8 +41,8 @@
 | 2/8/2021 | [Viva Insights -- My Organization](/Workplace-Analytics/use/viva-insights-my-org) | modified |
 | 2/8/2021 | [Viva Insights app -- My Team](/Workplace-Analytics/use/viva-insights-my-team) | modified |
 | 2/8/2021 | [Manager insights introduction](/Workplace-Analytics/manager-insights/introduction) | modified |
-| 2/8/2021 | [Microsoft Viva Insights for managers in Microsoft Teams](/Workplace-Analytics/manager-insights/teams-app) | modified |
-| 2/10/2021 | [MyAnalytics configuration for Office 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+| 2/8/2021 | [Microsoft Viva Insights for manMicrosoft 365icrosoft Teams](/Workplace-Analytics/manager-insights/teams-app) | modified |
+| 2/10/2021 | [MyAnalytics configuration for Microsoft 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
 | 2/10/2021 | [Upload organizational data to Workplace Analytics (subsequent uploads)](/Workplace-Analytics/setup/upload-organizational-data) | modified |
 | 2/10/2021 | [Upload organizational data to Workplace Analytics (first upload)](/Workplace-Analytics/setup/upload-organizational-data-1st) | modified |
 | 2/11/2021 | [Workplace Analytics metric filters](/Workplace-Analytics/use/metric-filters) | added |

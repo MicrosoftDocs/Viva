@@ -53,7 +53,7 @@ MyAnalytics presents insights in the following ways:
 
 MyAnalytics provides insights with the following types of data.
 
-1. **Mailbox data:** Email, calendar, chat, and call activity that you generate by using Office 365, such as time that you spend in meetings or emails that you send to a specific person or group.
+1. **Mailbox data:** Email, calendar, chat, and call activity that you generate by using Microsoft 365, such as time that you spend in meetings or emails that you send to a specific person or group.
 
 2. **Windows 10 activity history data:** Data on your usage of apps and services on your device: whether you worked on a document and whether you browsed the web.
 
@@ -97,7 +97,7 @@ However, to preserve privacy, MyAnalytics does not track read rates for messages
 
 This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when you open a message in the Outlook preview pane. For others, you might need to double-click to open the message to mark it as "read."
 
-You can control this setting in your Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Office 365 environment, and then delivered to the sender’s mailbox.
+You can control this setting in your Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Microsoft 365 environment, and then delivered to the sender’s mailbox.
 
 ### How you can opt-in and opt-out
 
@@ -105,7 +105,7 @@ You can opt-in or opt-out of MyAnalytics through **Settings**. For details, see 
 
 ## GDPR Compliance
 
-As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. For example, MyAnalytics supports the following:
+As is the case with the full Microsoft 365 suite, MyAnalytics helps support compliance with GDPR requirements. For example, MyAnalytics supports the following:
 
 * **Secure and protect personal data**. Because all MyAnalytics data is stored in your Exchange Online mailbox, MyAnalytics meets this security obligation by virtue of Exchange Online also meeting the obligation.
 

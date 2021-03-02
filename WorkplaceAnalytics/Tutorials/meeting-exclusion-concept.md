@@ -33,7 +33,7 @@ This section tracks how many meetings and meeting hours remain in your analysis 
 
 These numbers help you understand the effects of the exclusions that are already in place and the effect of the exclusion created in the current step. This helps you confirm whether to remove these meetings and decide which meetings, if any, that you want to keep in your analysis. 
 
-Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Office 365.
+Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Microsoft 365.
 
   ![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
 

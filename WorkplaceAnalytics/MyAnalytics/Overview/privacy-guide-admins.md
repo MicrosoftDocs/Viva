@@ -16,7 +16,7 @@ audience: Admin
 
 # Privacy guide for MyAnalytics admins
 
-By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
+By using data generated from everyday work in Microsoft 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This page answers key questions on how MyAnalytics processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
 
@@ -67,7 +67,7 @@ MyAnalytics presents insights in the following ways:
 
 MyAnalytics provides insights with the following types of data.
 
-1. **Mailbox data:** Email, calendar, chat, and call activity that people generate by using Office 365, such as time spent in meetings or emails sent to a specific person or group.
+1. **Mailbox data:** Email, calendar, chat, and call activity that people generate by using Microsoft 365, such as time spent in meetings or emails sent to a specific person or group.
 
 2. **Windows 10 activity history data:** Data on people's usage of apps and services on their device: whether they worked on a document and whether they browsed the web.
 
@@ -115,7 +115,7 @@ However, to preserve privacy, MyAnalytics does not track read rates for messages
 
 This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
 
-People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Office 365 environment, and then delivered to the sender’s mailbox.
+People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Microsoft 365 environment, and then delivered to the sender’s mailbox.
 
 ## Privacy settings
 
@@ -137,7 +137,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ### How employees can opt-in and opt-out
 
- End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Office 365, as shown here:
+ End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
 
 ![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
@@ -145,7 +145,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 MyAnalytics is a first-party application that's built on Microsoft Graph. Microsoft Graph consists of a set of REST-based API calls that allow developers to interact with the Microsoft technologies that a given organization uses. In order to use these API calls, developers must have specific permissions to access any data they request. Administrators control both the deployment of any Microsoft Graph application and permissions to access these applications.
 
-The Microsoft Graph cannot be turned on or off globally through the Office 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
+The Microsoft Graph cannot be turned on or off globally through the Microsoft 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
 
 ## Employee experience of MyAnalytics
 
@@ -164,7 +164,7 @@ The week after the welcome email is delivered, users begin to receive the [weekl
 
 ## GDPR Compliance
 
-As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics: 
+As is the case with the full Microsoft 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics: 
 
 1. **Secure and protect personal data of users**. 
     All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
@@ -173,7 +173,7 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
     * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
 2. **Notify users in the event that a breach is detected**.
-   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Office 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
     Microsoft supports your need to honor user requests in the following ways:

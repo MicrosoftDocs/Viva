@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics configuration for Office 365 admins (old cmdlets)
-description: Configuration options that Office 365 admins can make for MyAnalytics users
+title: MyAnalytics configuration for Microsoft 365 admins (old cmdlets)
+description: Configuration options that Microsoft 365 admins can make for MyAnalytics users
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,7 +11,7 @@ ms.prod: Mya
 
 # Configure access at the user level (old cmdlets)
 
-**Role:** Office 365 admins
+**Role:** Microsoft 365 admins
 
 > [!Note] 
 > This topic describes the use of the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in [Configure MyAnalytics](configure-myanalytics.md)) by that date.
@@ -24,8 +24,8 @@ You configure MyAnalytics by setting the *PrivacyMode* parameter. For informatio
 
 PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
-Opt-in (default setting)        | <ul><li>Office 365 data is used for aggregated information shown to licensed users</li><li>Dashboard is available</li><li>User can opt out</li></ul>  | <ul><li>Office 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
-Opt-out    | <ul><li>Office 365 data is not used for aggregated information shown to licensed users</li><li> Dashboard is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul> |
+Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Dashboard is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
+Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Dashboard is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
 
 > [!Important] 
 > The Excluded value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.

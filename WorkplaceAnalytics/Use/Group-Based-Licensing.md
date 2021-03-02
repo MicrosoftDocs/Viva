@@ -22,8 +22,9 @@ Here's an example:
 ![Admin center](../Images/WpA/Use/AAD_Group1.png)
 
 Microsoft Workplace Analytics is an add-on product that contains a single service plan with the same name and ID of WORKPLACE_ANALYTICS. This service plan can only be assigned to a user, or a group, when one of the following prerequisites are also assigned:
-- Exchange Online (Plan 1) (Id: EXCHANGE_S_STANDARD)
-- Exchange Online (Plan 2) (Id: EXCHANGE_S_ENTERPRISE)
+
+* Exchange Online (Plan 1) (Id: EXCHANGE_S_STANDARD)
+* Exchange Online (Plan 2) (Id: EXCHANGE_S_ENTERPRISE)
 
 If you try to assign this product on its own to a group, the portal will return an error:
 
@@ -32,18 +33,18 @@ If you try to assign this product on its own to a group, the portal will return 
 The error notification details will include the following error message:
 > _License operation failed. Make sure that the group has necessary services before adding or removing a dependent service. **The service Microsoft Workplace Analytics requires Exchange Online (Plan 2) to be enabled as well.**_
 
-Before you assign this add-on license to a group, ensure that the group also contains the prerequisite service plan. You can update an existing group that already contains the full Office 365 E3 product that includes Exchange Online.
+Before you assign this add-on license to a group, ensure that the group also contains the prerequisite service plan. You can update an existing group that already contains the full Microsoft 365 E3 product that includes Exchange Online.
 Or you can create a standalone group that contains only the minimum products required to make the add-on work, which you can use to license only the selected users for the add-on product.
 
 For example, you can assign the following products to the same group:
 
-- Office 365 Enterprise E3, with only the Exchange Online (Plan 2) service plan enabled
-- Microsoft Workplace Analytics
+* Microsoft 365 or Office 365 Enterprise E3, with only the Exchange Online (Plan 2) service plan enabled
+* Microsoft Workplace Analytics
 
 The resulting assignment is valid and applied to the group. And thereafter, any users added to this group will consume one license of the E3 product and one license of the Workplace Analytics product. At the same time, those users can be members of another group that gives them the full E3 product and they will still consume only one license for that product.
 
 >[!Tip]
->You can create multiple groups, for each prerequisite service plan. For example, if you use both Office 365 Enterprise **E1** and Office 365 Enterprise **E3** for your users, you could create two groups to license Microsoft Workplace Analytics; one using E1 as a prerequisite and the other using E3. This will allow you to distribute the add-on to E1 and E3 users without consuming additional licenses.
+>You can create multiple groups for each prerequisite service plan. For example, if your organization has both **E1** and **E3** users, you can create two groups for licensing Workplace Analytics. One group for E1 as a prerequisite and the other for E3. This enables you to separately assign licenses for the Workplace Analytics app to E1 and E3 users without consuming additional licenses.
 
 ## Related topics
 
