@@ -64,7 +64,7 @@ The following steps you through how to automate the export of Workplace Analytic
     > Keep all browser windows open because you must switch between them to complete the following steps.
 
 8. In **Azure Data Factory**, select **Create a pipeline**.
-9. Select the **ellipsis** (**…**) next **Datasets**, and then select **New dataset**. For more details, see [Datasets in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-datasets-linked-services).
+9. Select the **ellipsis** (**...**) next **Datasets**, and then select **New dataset**. For more details, see [Datasets in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-datasets-linked-services).
 10. In **Select a data store**, enter **odata**, and then select **OData**.
 11. In **General**, enter a name and description for the Workplace Analytics query data you’re linking to.
 12. Select **Connection**, select **New**, and then enter a name and description for the OData link, such as **WPA_Odata_Collab**.
