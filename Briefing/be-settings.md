@@ -11,7 +11,7 @@ ms.prod: Mya
 ---
 # Settings
 
-You can change your personal settings for the Briefing email to set what time of day you receive the Briefing in your mailbox or to unsubscribe from it. These settings override or take precedence over what the admin sets up for your Briefing email.
+You can change your personal settings for the Briefing email to set what time of day you receive the Briefing in your mailbox or to unsubscribe from it. These settings override or take precedence over what the admin sets up for your Briefing email. If the Briefing is using an incorrect time zone, use **Change time zone** to change your Outlook time zone setting.
 
 **To update settings**
 
@@ -20,7 +20,7 @@ You can change your personal settings for the Briefing email to set what time of
 
    * To change your subscription, set **Cortana Briefing** **On** to subscribe or **Off** to unsubscribe.
    * In **When would you like to receive this email**, select a preferred time period, and then select **Save**. You'll receive your next Briefing within two hours of this new time.
-   * In **Current time zone**, select **Change time zone** to change the setting for your Briefings.
+   * In **Current time zone**, select **Change time zone** to change the Outlook setting for your Briefings.
 
    ![Briefing settings](./images/be-settings.png)
 
