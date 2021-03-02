@@ -5,7 +5,7 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
-ms.prod: mya
+ms.prod: MyA
 
 ---
 
@@ -16,7 +16,8 @@ The information in this section helps you get the most out of the following insi
 * [Prepare for your meetings](#prepare-for-your-meetings)
 * [Track email and document open rates](#track-email-and-document-open-rates)<!-- * [View outstanding tasks](#view-outstanding-tasks)--><!-- * [Follow up on your requests](#follow-up-on-your-requests) -->
 * [Book time to focus](#book-time-to-focus)
-* [Catch up on email](#catch-up-on-email)<!-- * [Catch up on documents](#catch-up-on-documents) -->
+* [Catch up on email](#catch-up-on-email)
+* [Catch up on documents](#catch-up-on-documents)
 * [Add important people](#add-important-people)
 * [Set lunch hours](#set-lunch-hours)
 * [Plan your time away](#plan-your-time-away)
@@ -267,7 +268,7 @@ This opens a panel that displays insights for each of your suggested follow-up t
 | **Already done** | Select this to mark the follow-up as completed. Follow-ups disappear after two weeks or after you mark them as done.
 | **Not a follow up** | Select this to mark the insight as not a follow-up and remove it from your list. This also helps MyAnalytics improve its detection accuracy.
 | **Add to To Do** | Select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later.<br><br> This tool can make your days more manageable and reduce the stress of things falling through the cracks. It can also help effectively prioritize and even delegate work, which can lead to higher productivity.
-
+-->
 ## Book time to focus
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects.
@@ -343,7 +344,7 @@ This opens a panel that displays insights for each document shared with you in t
 | **Document name** | Name of the document that you might want to catch up on. Select the document name to open it. |
 | **Open email** | Select this to open the related email. |
 | **Book time** | Select this to see an option to book calendar time to review the document. |
-
+-->
 ## Add important people
 
 You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, MyAnalytics will remind you when you have tasks to do for these important people or unread email from them.
