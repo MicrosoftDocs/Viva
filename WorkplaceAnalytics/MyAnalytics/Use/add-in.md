@@ -64,7 +64,7 @@ You can use the Outlook Insights add-in in the following environments:
 
 2. Open an email message.
 
-3. Select the ellipsis (...) in the top-right corner of your email message, and then select **Insights**:
+3. Select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**:
 
    ![Insights in OWA](../../images/mya/use/insights-in-owa.png)
 
