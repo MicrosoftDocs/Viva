@@ -15,11 +15,11 @@ The information in this section helps you get the most out of the following insi
 
 * [Prepare for your meetings](#prepare-for-your-meetings)
 * [Track email and document open rates](#track-email-and-document-open-rates)
-* [View outstanding tasks](#view-outstanding-tasks) 
-* [Follow up on your requests](#follow-up-on-your-requests) 
+<!-- * [View outstanding tasks](#view-outstanding-tasks)-->
+<!-- * [Follow up on your requests](#follow-up-on-your-requests) -->
 * [Book time to focus](#book-time-to-focus)
 * [Catch up on email](#catch-up-on-email)
-* [Catch up on documents](#catch-up-on-documents) 
+<!-- * [Catch up on documents](#catch-up-on-documents) -->
 * [Add important people](#add-important-people)
 * [Set lunch hours](#set-lunch-hours)
 * [Plan your time away](#plan-your-time-away)
@@ -47,7 +47,7 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
    * As a meeting invitee, you will see an insight similar to this:
 
-    ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited_78.png)
+    ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited-78.png)
 
 #### Insight option details
 
@@ -126,18 +126,18 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
    1. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or in SharePoint.  
 
-   >[!Note]
-   >In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.
+      >[!Note]
+      >In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.
 
-     ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png)
+      ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png)
 
    2. **Track email open rates** - Shows read statistics for all sent emails.  
 
-     ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
+      ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
 
-    The option you selected (in step 2a or step 2b) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
+      The option you selected (in step 2a or step 2b) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
-    ![Email open rates](../../images/mya/use/step-2-two-emails.png)
+      ![Email open rates](../../images/mya/use/step-2-two-emails.png)
 
 <!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     
 
@@ -422,7 +422,8 @@ You can plan your schedule with these options all at one time or individually as
 **To use Plan your time away**
 
 1. If the Insights pane isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
-2. In the **Insights** pane, select **Plan your time away** to see a checklist of planning options.
+
+1. In the **Insights** pane, select **Plan your time away** to see a checklist of planning options.
 
    * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
@@ -465,9 +466,9 @@ People managers often have hectic schedules, and it can be tough to stay in clos
 
 As a manager, you can:
 
-* Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
-* Act on tasks you promised to get done or that team members asked you to complete
-* Review important emails and documents from team members that you haven’t read yet
+* Schedule 1:1 time with a team member (or reschedule if a conflict comes up).
+* Act on tasks you promised to get done or that team members asked you to complete.
+* Review important emails and documents from team members that you haven't read yet.
 
 <!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS THIS ENTIRE PARAGRAPH IN JANUARY 2021.
 
@@ -506,7 +507,7 @@ While staying in touch with top collaborators can be difficult, a quick 1:1 meet
 
 * In the **Insights** pane, locate the **Meet with &lt;name of contact&gt;** insight:
 
-   ![Meet with person for 1:1](../../images/mya/use/meet-with-person-54.png)
+  ![Meet with person for 1:1](../../images/mya/use/meet-with-person-54.png)
 
 #### Insight option details
 
@@ -525,11 +526,11 @@ With **Check quiet hours impact**, you can help your team achieve work-life bala
 
 * In the **Insights** pane, select **Check quiet hours impact**:
 
-   ![Check quiet hours impact](../../images/mya/use/check-quiet-hours-impact-54.png)
+  ![Check quiet hours impact](../../images/mya/use/check-quiet-hours-impact-54.png)
 
   This opens a panel that displays insights about emails that might have impacted co-workers outside of their working hours:
 
-   ![Quiet hours impact](../../images/mya/use/quiet-hours-impact.png)
+  ![Quiet hours impact](../../images/mya/use/quiet-hours-impact.png)
 
 ## Related topics
 
