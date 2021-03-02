@@ -132,9 +132,13 @@ Power BI cannot complete a data join if data values are missing in the Organizat
    **Blank-value error** - Column in table contains blank values and this is not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table.
 
 2. To remediate this error, select **Transform Data** > **Transform Data** to open the Power Query Editor.
+
 3. Select the applicable query.
+
 4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
+
 5. Select the **Hourly collaboration** query and repeat Steps 3-4 to filter out empty values.
+
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
 ##### Failed to save modifications error in Power BI
@@ -148,22 +152,38 @@ The following error occurs because of a preview features setting in Power BI. To
 When you publish this dashboard to workspaces, they get split into two parts, reports and datasets (data sources). This error occurs when your permission authentication token expires in Power BI. Do the following to reset permissions for the Power BI service.
 
 1. Open your [Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-experience#open-the-power-bi-service) (app.powerbi.com).
+
 2. From **Home**, select the **ellipsis** (**...**) on the ribbon to view the menu, and then select **Settings** > **Settings**.
 
-  ![Power BI Service Settings](../Images/WpA/Tutorials/pbi-service-settings.png)
+   ![Power BI Service Settings](../Images/WpA/Tutorials/pbi-service-settings.png)
 
 3. Select **Datasets**, and then for the dashboard you're getting the error for, select the **ellipsis** (**...**) > **Settings**.
+
 4. In **Data source credentials**, select **Edit credentials** for Workplace Analytics.
+
 5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted, select **Save**.
 
 Do the following to reset your global permissions for the OData feed.
 
 1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
+
 2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
+
 3. For **Credentials**, select **Edit**.
+
 4. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in** or **Sign in as a different user**.
+
 5. Select the account that you use to sign in to Workplace Analytics, enter the password, and then when prompted in **OData feed**, select **Save**.
+
 6. In **Edit Permissions**, select **OK**, and then close the **Data source settings** window.
+
+##### Apply query error for blank values in columns
+
+When setting up a report or refreshing an existing report for either the [Business continuity](power-bi-bc.md) or the [Ways of working assessment](power-bi-collab-assess.md) dashboards in Power BI, you might get the following Power BI error about the PersonIdDateKey column in a table containing "blank values," which is "not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table."
+
+![Blank values error](../Images/WpA/Tutorials/pbi-blanks-error.png)
+
+To resolve this error, you must download the Power BI template for the applicable query from **Queries** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
 
 ## Support
 
