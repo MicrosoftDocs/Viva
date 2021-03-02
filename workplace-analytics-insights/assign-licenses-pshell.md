@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Assign licenses with PowerShell for insights
-description: Learn how to assign licenses with PowerShell to people who want to use Workplace Analytics insights
+description: Learn how to assign licenses with PowerShell to people who want to use Microsoft 365 Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article

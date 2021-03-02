@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Improve agility with Workplace Analytics insights
+title: Improve agility with Microsoft 365 Insights
 description: Learn how to use insights data to analyze and improve organizational agility
 author: madehmer
 ms.author: v-mideh
