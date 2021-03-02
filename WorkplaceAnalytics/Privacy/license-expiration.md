@@ -42,7 +42,7 @@ For information about data deletion requests as handled under the GDPR, see [Sup
 
 ## Data retention and access after all Workplace Analytics subscriptions expire
 
-If all of your Workplace Analytics subscriptions expire, you have until the end of your grace period to download data in the form of query results; see [To download query results](#to-download-query-results). The duration of the grace period varies between countries and plans; typically it is either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Office 365 Data Handling Standard](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
+If all of your Workplace Analytics subscriptions expire, you have until the end of your grace period to download data in the form of query results; see [To download query results](#to-download-query-results). The duration of the grace period varies between countries and plans; typically it is either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
 
 After this period has passed, you will no longer have access to the Workplace Analytics site. 
 

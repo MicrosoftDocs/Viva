@@ -5,28 +5,26 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
-ms.prod: mya
+ms.prod: MyA
+manager: scott.ruble
 
 ---
-
 # Use Insights
 
 The information in this section helps you get the most out of the following insights:
 
 * [Prepare for your meetings](#prepare-for-your-meetings)
 * [Track email and document open rates](#track-email-and-document-open-rates)
-<!-- * [View outstanding tasks](#view-outstanding-tasks)-->
-<!-- * [Follow up on your requests](#follow-up-on-your-requests) -->
 * [Book time to focus](#book-time-to-focus)
 * [Catch up on email](#catch-up-on-email)
-<!-- * [Catch up on documents](#catch-up-on-documents) -->
+* [Catch up on documents](#catch-up-on-documents)
 * [Add important people](#add-important-people)
 * [Set lunch hours](#set-lunch-hours)
 * [Plan your time away](#plan-your-time-away)
 * [Catch up with your team](#catch-up-with-your-team)
 * [Meeting suggestions](#meeting-suggestions)
 * [Check quiet hours impact](#check-quiet-hours-impact)
-
+<!--ADD ALPHABETICALLY IN LIST WHEN YOU UNHIDE * [View outstanding tasks](#view-outstanding-tasks) * [Follow up on your requests](#follow-up-on-your-requests) -->
 ## Prepare for your meetings
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
@@ -43,11 +41,11 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
    * As the meeting organizer, you will see an insight similar to this:
 
-    ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
+     ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
 
    * As a meeting invitee, you will see an insight similar to this:
 
-    ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited-78.png)
+     ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited-78.png)
 
 #### Insight option details
 
@@ -70,7 +68,7 @@ Each meeting card title includes the meeting title, the organizer, the start tim
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
-Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Office 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
+Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
 Insights also tells you how many email recipients opened a document that you shared in the email as a link or as an attachment (this insight works for documents that are stored in SharePoint or in OneDrive for Business).
 
@@ -270,7 +268,7 @@ This opens a panel that displays insights for each of your suggested follow-up t
 | **Already done** | Select this to mark the follow-up as completed. Follow-ups disappear after two weeks or after you mark them as done.
 | **Not a follow up** | Select this to mark the insight as not a follow-up and remove it from your list. This also helps MyAnalytics improve its detection accuracy.
 | **Add to To Do** | Select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later.<br><br> This tool can make your days more manageable and reduce the stress of things falling through the cracks. It can also help effectively prioritize and even delegate work, which can lead to higher productivity.
-
+-->
 ## Book time to focus
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects.
@@ -346,7 +344,7 @@ This opens a panel that displays insights for each document shared with you in t
 | **Document name** | Name of the document that you might want to catch up on. Select the document name to open it. |
 | **Open email** | Select this to open the related email. |
 | **Book time** | Select this to see an option to book calendar time to review the document. |
-
+-->
 ## Add important people
 
 You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, MyAnalytics will remind you when you have tasks to do for these important people or unread email from them.
@@ -472,12 +470,12 @@ As a manager, you can:
 
 <!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS THIS ENTIRE PARAGRAPH IN JANUARY 2021.
 
-This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Office 365 administrator.
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
 -->
 
 <!-- USING THE FOLLOWING COMPLETE PARAGRAPH FOR NOW. REINSTATE THE ENTIRE PRECEDING PARAGRAPH IN 2021.  -->
 
-This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Office 365 administrator.
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
 
 #### To catch up with your team
 

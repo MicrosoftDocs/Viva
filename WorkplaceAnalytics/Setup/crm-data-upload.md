@@ -18,7 +18,7 @@ audience: Admin
 
 You can now upload your company's Customer Relationship Management (CRM) data into Workplace Analytics. Data from Salesforce or Dynamics CRM typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries.
 
-Workplace Analytics can combine your CRM data with your organizational (HR) and Office 365 data for more advanced collaboration and productivity analysis in Workplace Analytics queries. For the most complete analysis, Workplace Analytics requires the following CRM data:
+Workplace Analytics can combine your CRM data with your organizational (HR) and Microsoft 365 data for more advanced collaboration and productivity analysis in Workplace Analytics queries. For the most complete analysis, Workplace Analytics requires the following CRM data:
 
 * Customer accounts
 * Customer contacts
