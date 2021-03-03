@@ -93,15 +93,15 @@ To view available licenses for your tenant and current usage run the following i
 Connect-MsolService
 ```
 
-Now that you're connected to the Office 365 tenant, run the following next:
+Now that you're connected to the Microsoft 365 tenant, run the following next:
 
 ```powershell
 Get-MsolAccountSku
 ```
 
-## Add Workplace Analytics licenses in bulk through Office 365 PowerShell
+## Add Workplace Analytics licenses in bulk through Microsoft 365 PowerShell
 
-If you need to assign Workplace Analytics licenses to a large number of users, you can use the bulk license script for Office 365 PowerShell provided in this section.
+If you need to assign Workplace Analytics licenses to a large number of users, you can use the bulk license script for Microsoft 365 PowerShell provided in this section.
 
 ### Software Requirements
 
@@ -135,7 +135,7 @@ For more details on formatting the input .csv file, see [example .csv export fil
 
 ### Script description
 
-The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv email address input. The email address input is used to identify the correct Office 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and then tries to assign a license to the Office 365 identity.
+The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Microsoft 365 identities based on .csv email address input. The email address input is used to identify the correct Microsoft 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and then tries to assign a license to the Microsoft 365 identity.
 
 ### Script Execution
 
@@ -149,9 +149,9 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
     Date:     February 25th, 2020
     Version:  1.0.4
    .SYNOPSIS
-    This script is designed to add Workplace Analytics licenses to a .csv list of email addresses that correlate to Office 365 identities.
+    This script is designed to add Workplace Analytics licenses to a .csv list of email addresses that correlate to Microsoft 365 identities.
    .DESCRIPTION
-    Add-WpALicense is designed to assign Workplace Analytics licenses to Office 365 identities based on .csv e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
+    Add-WpALicense is designed to assign Workplace Analytics licenses to Microsoft 365 identities based on .csv e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
    .PARAMETER CSV
     The .csv input file contains all of the email addresses that are given a license. Use Email as the header and when save the file with the UTF-8 encoded format.
    .PARAMETER LicenseSKU
@@ -170,7 +170,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
        [ValidateNotNullorEmpty()]
        [string]$LicenseSKU
        )
-       #Simple function to connect to Office 365 MSOL PowerShell.
+       #Simple function to connect to Microsoft 365 MSOL PowerShell.
        Function Connect-O365PowerShell {
            try {
                Import-Module MSOnline -ErrorAction Stop
@@ -183,10 +183,10 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
            if(Get-Module -Name MSOnline) {
                try {
                    Connect-MsolService -ErrorAction Stop
-                   Write-Output "Successfully connected to Office 365 MSOL, proceeding..."
+                   Write-Output "Successfully connected to Microsoft 365 MSOL, proceeding..."
                }
                catch {
-                   Write-Error "Could not connect to Office 365 MSOL due to the following exception.`r`n$($_.Exception.Message)"
+                   Write-Error "Could not connect to Microsoft 365 MSOL due to the following exception.`r`n$($_.Exception.Message)"
                    break
                }
            }
@@ -337,7 +337,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
    > [!Note]
    > That the \<CSVLocation> should contain the full path to the CSV input file, such as **C:\Scripts\InputFile.csv**.
 
-4. When prompted, enter the Office 365 global administrator credentials for the tenant where the licenses are to be added.
+4. When prompted, enter the Microsoft 365 global administrator credentials for the tenant where the licenses are to be added.
 
    If all the required inputs are satisfied, the script executes now against the CSV list, and then licenses are assigned to users. During the script execution, all successes and failures are shown on the command line and a transcript is saved in the Documents folder.
 
