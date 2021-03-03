@@ -103,10 +103,10 @@
               items:
                 - name: Introduction
                   href: ~/use/viva-insights-intro.md
-                - name: My Team
-                  href: ~/use/viva-insights-my-team.md
                 - name: My Organization
                   href: ~/use/viva-insights-my-org.md
+                - name: My Team
+                  href: ~/use/viva-insights-my-team.md
             - name: Insights
               items:
                 - name: Overview
