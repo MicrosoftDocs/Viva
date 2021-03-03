@@ -18,7 +18,7 @@ audience: Admin
 
 Depending on the role you're assigned in Workplace Analytics, you can use the following to configure settings in Workplace Analytics for your organization:
 
-* [Sources](#sources) – Admins and Analysts use these to verify that Office 365 and organizational data is correctly uploaded into Workplace Analytics.
+* [Sources](#sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into Workplace Analytics.
 * [Upload](#upload) – Admins use this to prepare and upload organizational and customer data.
 * [Admin settings](#admin-settings) – Admins use these to configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md).
 * [Analysis settings](#analysis-settings) – Analysts use these to customize meeting exclusion rules that help ensure data accuracy.
@@ -39,7 +39,7 @@ For more details about roles, see [Assign Workplace Analytics roles](../Setup/As
 
 **Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to Sources
 
-In **Sources**, you can see what Office 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Sources](data-sourcesv2.md).
+In **Sources**, you can see what Microsoft 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Sources](data-sourcesv2.md).
 
 ## Upload
 

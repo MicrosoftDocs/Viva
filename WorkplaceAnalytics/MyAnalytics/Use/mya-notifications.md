@@ -23,9 +23,9 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 ## Why don't I see any inline suggestions?
 
-Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Office 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place: 
+Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place: 
  * You have Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
- * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Office 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/).
+ * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/).
 
 
 In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
@@ -88,7 +88,7 @@ You can also select **Turn off all notifications** if you would prefer not to re
 
 ## Delay email delivery
 
-When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. These suggestions are currently only available to [Office 365 E5 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
+When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. These suggestions are currently only available to [Microsoft 365 E5 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 
 ![Inline suggestions email](../../Images/mya/use/nudges-email.png)
 
