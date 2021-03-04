@@ -53,10 +53,12 @@ The following are the list of statuses for any Business process (including OOTB 
 
 * Error: This is a generic catch-all failed state that indicates that processing of the Business process itself has failed, when it is switching from “In progress” to the “Ready” state 
 
-
-
 ## Analyze a business process
-analyze them with queries. Formerly, customers had to tackle these analysis problems through custom work but now we’re building the capability into the product.
+
+You analyze business processes by using Workplace Analytics [queries](query-basics.md). You can use the following query types in this kind of analysis:
+
+* Meeting
+* Person 
 
 ## Related topics
 

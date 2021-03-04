@@ -142,7 +142,9 @@
         - name: Analyze
           items:
             - name: Peer analysis
-              href: ~/Use/peer-analysis.md
+              href: ~/use/peer-analysis.md
+            - name: Analyze business processes
+              href: ~/tutorials/analyze-business-processes.md              
             - name: Queries
               items:
                 - name: Overview
