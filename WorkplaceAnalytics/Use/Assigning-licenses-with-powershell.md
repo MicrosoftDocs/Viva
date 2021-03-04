@@ -262,7 +262,7 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
         else {
            $wpaSearch = "*$LicenseSku*"
         }
-        $LicenseSku = Get-WorkplaceAnalyticsSku -searchString $wpaSearch
+        $WpaLicenseSku = Get-WorkplaceAnalyticsSku -searchString $wpaSearch
         $NumofSuccessfullyLicensed = 0
         $NumofErrorLicensed = 0
         $NumOfAlreadyLicensed = 0
@@ -283,15 +283,15 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
             }
             if($msolUser) {
                 #If the msolUser variable is not null, the following block will be entered where an attempt is made to add the LicenseSKU parameter to the MSOL user.
-                if ($msolUser.Licenses.AccountSkuId -contains $LicenseSKU.AccountSkuId) {
+                if ($msolUser.Licenses.AccountSkuId -contains $WpaLicenseSKU.AccountSkuId) {
                    Write-Warning "User $($msolUser.UserPrincipalName) was found but is already licensed for WorkplaceAnalytics, skipping licensing."
                    $NumOfAlreadyLicensed++
                 }
                 else {
                    Write-Output "User $($user.Email) found, attempting to license..."
                    try {
-                      Set-MsolUserLicense -UserPrincipalName $msolUser.UserPrincipalName -AddLicenses $LicenseSKU.AccountSkuId -ErrorAction Stop | Out-Null
-                      Write-Output "Successfully licensed user $($msolUser.UserPrincipalName) with $($LicenseSKU.AccountSkuId) license."
+                      Set-MsolUserLicense -UserPrincipalName $msolUser.UserPrincipalName -AddLicenses $WpaLicenseSKU.AccountSkuId -ErrorAction Stop | Out-Null
+                      Write-Output "Successfully licensed user $($msolUser.UserPrincipalName) with $($WpaLicenseSKU.AccountSkuId) license."
                       $NumofSuccessfullyLicensed++
                     }
                     catch {
@@ -331,11 +331,11 @@ The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses
 3. Start Windows PowerShell and run the following command:
 
    ``` powershell
-    C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation>
+    C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation> -LicenseSku <WpALicenseSKU>    
    ```
 
-   > [!Note]
-   > That the \<CSVLocation> should contain the full path to the CSV input file, such as **C:\Scripts\InputFile.csv**.
+   >[!Note]
+   >The \<CSVLocation> should contain the full path to the CSV input file, such as **C:\Scripts\InputFile.csv**. And <WpALicenseSKU> should contain the MSOL License SKU, for example: CONTOSO:WORKPLACE_ANALYTICS.
 
 4. When prompted, enter the Microsoft 365 global administrator credentials for the tenant where the licenses are to be added.
 
