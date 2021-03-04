@@ -12,7 +12,7 @@ ms.prod: Mya
 
 # Configure the Microsoft Viva Insights app
 
-Use the Settings page to configure the features of the Viva Insights app. You can, for example, turn on or turn off the reminders or change the day and hour settings for features such as [Praise](viva-insights-reflect.md) or [Reflection](viva-insights-reflect.md). 
+Use the Settings page to configure the features of the Viva Insights app. You can, for example, turn on or turn off the reminders or change the day and hour settings for features such as [Praise](viva-insights-reflect.md) or [Reflection](viva-insights-reflect.md).
 
 To configure features, start by opening the **Settings** page:
 
