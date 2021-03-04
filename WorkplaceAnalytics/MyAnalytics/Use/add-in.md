@@ -1,15 +1,12 @@
 ---
-
 title: Insights Outlook add-in
 description: All the individual Outlook Add-in topics, displayed as one in MyAnalytics
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: Mya
-
 ---
-
 # Insights Outlook add-in
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
@@ -28,14 +25,14 @@ Before you can use the Insights add-in, be sure that the following prerequisites
 
 * Have a MyAnalytics user license and let at least 24 hours elapse since you were granted that license.
 * Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](https://docs.microsoft.com/exchange/recipients/create-user-mailboxes?view=exchserver-2019&preserve-view=true#create-user-mailboxes), if necessary.
-* Have the following in place: 
+* Have the following in place:
 
   * Your computer has Outlook version 1705 (build 8201.2102) or higher for Windows, or version 15.39.1010 or later for Mac.
   * Add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook).
   * Internet Explorer version 10 or 11 is installed on your computer.  
 
-> [!Note] 
-> The Outlook Insights add-in is not available on mobile devices. 
+>[!Note]
+>The Outlook Insights add-in is not available on mobile devices. 
 
 Open the Insights add-in in one of the programs listed under [Open the Insights add-in](#open-the-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
 * Select an email. In Outlook, you can do this in one of the following ways:
@@ -44,7 +41,7 @@ Open the Insights add-in in one of the programs listed under [Open the Insights 
   * With the [Outlook Reading Pane](https://support.office.com/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) open, view the email in the Reading Pane.
 
    > [!Note]
-   > This works only with emails to which [information rights management](https://docs.microsoft.com/exchange/policy-and-compliance/information-rights-management?view=exchserver-2019#apply-irm-protection-to-messages) have not been applied.  
+   > This works only with emails to which [information rights management](https://docs.microsoft.com/exchange/policy-and-compliance/information-rights-management#apply-irm-protection-to-messages) have not been applied.  
 
 ## Open the Insights add-in
 
