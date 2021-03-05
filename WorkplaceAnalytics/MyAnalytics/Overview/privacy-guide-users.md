@@ -39,18 +39,6 @@ Microsoft has designed MyAnalytics to support your organization’s needs to com
 
 </ul>
 
-## How MyAnalytics works
-
-MyAnalytics presents insights in the following ways:
-
-1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
-
-2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
-
-3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
-
-4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
- 
 ## MyAnalytics architecture
 
 In the following architecture illustration, note the relationship of MyAnalytics to Exchange Online. This placement underscores the fact that any data that you can view in MyAnalytics is the same data that's visible in your Exchange mailbox, as described in the following principles about data privacy.
@@ -64,6 +52,18 @@ In the following architecture illustration, note the relationship of MyAnalytics
 
 ![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
 
+## How MyAnalytics works
+
+MyAnalytics presents insights in the following ways:
+
+1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
+
+2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
+
+3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
+
+4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
+ 
 ### Data types
 
 MyAnalytics provides insights with the following types of data.
