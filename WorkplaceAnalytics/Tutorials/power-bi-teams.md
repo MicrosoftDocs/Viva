@@ -53,7 +53,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Microsoft Teams insights** (or select **Influence insights**, per **step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -72,7 +72,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
    > If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take several minutes to complete.
-7. Repeat **steps 2-6** and select the **Influence insights** query. Make the same selections as for Teams insights but for the few exceptions, as noted in **step 3**.
+7. Repeat **Steps 2-6** and select the **Influence insights** query. Make the same selections as for Teams insights but for the few exceptions, as noted in **Step 3**.
 8. In **Queries** > **Results**, after the queries successfully run, select the **Download** icon for the **Microsoft Teams insights** query results, select **PBI template**, and then select **OK** to download the template.
 
    ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/teams-template.png)
@@ -81,10 +81,10 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI:
 
-    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
-    * In Power BI, paste each copied link into its respective URL field.
-    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-    * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
+    1. In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    2. In Power BI, paste each copied link into its respective URL field.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
     ![Query URLs for Power BI](../Images/WpA/Tutorials/teams-odata.png)
 

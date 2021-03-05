@@ -101,11 +101,11 @@ For complete information about setup, see [Set up Workplace Analytics](../setup/
 
 <!--  KEEP THIS OUT FOR NOW. POINT TO THE JEREMY/GAURAV/DANNY TOPIC AS SOON AS WE PUBLISH IT.
 
-##### Q2. Which Office 365 licenses are required for Workplace Analytics users?
+##### Q2. Which Microsoft 365 licenses are required for Workplace Analytics users?
 
 A2. The following license plans work: 
- * Exchange Online (EXO) Plan 1 (Office 365 Enterprise plan E1) 
- * Exchange Online (EXO) Plan 2 (Office 365 Enterprise plans E3, E4, or E5).
+ * Exchange Online (EXO) Plan 1 (Microsoft 365 or Office 365 Enterprise plan E1) 
+ * Exchange Online (EXO) Plan 2 (Microsoft 365 or Office 365 Enterprise plans E3, E4, or E5).
 
 -->
 
@@ -129,7 +129,7 @@ A5. No. No limit is imposed by Workplace Analytics.
 
 ##### Q6. In the Workplace Analytics _Data sources_ section, on the "Office 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
 
-A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Office 365) data. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Microsoft 365 or Office 365) data. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
@@ -214,7 +214,7 @@ A2. The collaborator totals include the number of internal (or external) people 
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
-A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For more information, see [Office 365 data summary](office-365-data.md).
+A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Office 365 data](office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
@@ -291,7 +291,7 @@ You might expect the total number of redundant, conflicting, and multitasking me
 
 ##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
-A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file. 
+A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel instructions on how to import a .csv file. 
 -->
 
 
@@ -353,7 +353,7 @@ A14. Yes. In the Azure Portal, you can assign multiple roles to one account but 
 
 ##### Q12. Making privacy settings affects what data?
 
-A12. Privacy settings affect both Office 365 data (such as meeting subject lines) and org data (such as group size). After you make changes to privacy settings, those changes take effect after data is processed in the following month. Privacy-settings changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.) For more information, see [Privacy settings](privacy-settings.md).
+A12. Privacy settings affect both Microsoft 365 data (such as meeting subject lines) and org data (such as group size). After you make changes to privacy settings, those changes take effect after data is processed in the following month. Privacy-settings changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.) For more information, see [Privacy settings](privacy-settings.md).
 
 ##### Q18. When can analysis start?
 
@@ -387,18 +387,18 @@ A5. Yes. You can append the existing organizational data to update attribute val
 
 ##### Q7. What are the meanings of the required fields in organizational data?
 
-A7. These are the required fields: 
+A7. The following are required fields: 
 
- * **PersonID.** This is the primary SMTP address of an employee, licensed or unlicensed. For example: ann@contoso.com
+ * **PersonID** - The primary SMTP address of an employee, licensed or unlicensed. For example: ann@contoso.com
 
- * **ManagerID.** This is the primary SMTP address of the manager of the employee for which the data is being collected. For example: jered@contoso.com
+ * **ManagerID** - The primary SMTP address of the manager of the employee for which the data is being collected. For example: jered@contoso.com
 
- * **EffectiveDate.** The day, month, and four-digit year that represents the place in time at which the uploaded data for an individual is accurate.
+ * **EffectiveDate** - The day, month, and four-digit year that represents the place in time at which the uploaded data for an individual is accurate.
 
- * **Organization.** The department the employee works for within the company. For example: *Marketing, IT, Sales, Operations*
+ * **Organization** - The department the employee works for within the company. For example: *Marketing, IT, Sales, Operations*
 
- * **LevelDesignation.** The employee's level, which is represented as a string. This level is specific to your organization and can represent an employee's experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.
+ * **LevelDesignation** - The employee's level, which is represented as a string. This level is specific to your organization and can represent an employee's experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.
 
-For more information, see [Attribute reference](../setup/prepare-organizational-data.md#attribute-reference).
+For details, see [Attribute reference](../setup/prepare-organizational-data.md#attribute-reference).
 
 -->

@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Enhance organizational resiliency with Workplace Analytics insights
+title: Enhance organizational resiliency with Microsoft 365 Insights
 description: Learn how to use insights data to analyze and enhance organizational resiliency
 author: madehmer
 ms.author: v-mideh

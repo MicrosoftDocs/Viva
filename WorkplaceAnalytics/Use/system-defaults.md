@@ -24,7 +24,7 @@ In **System defaults**, you can configure the following:
 * [Reclassify external domains](#reclassify-external-domains)
 
 > [!Important]
-> Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Office 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
+> Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
 **Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
@@ -36,7 +36,7 @@ Use this setting to configure the default time zone for your organization. Typic
 
 Workplace Analytics first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Workplace Analytics tries to determine it from the [organizational data](organizational-data.md). If time zones have not been uploaded in the organizational data, Workplace Analytics reads the time zone from the setting on this page. If the default time zone was not set on this page, Workplace Analytics uses Pacific Time (US).
 
-Workplace Analytics uses the time zone setting in calculations of collaboration activities, such as emails and meetings. It uses this setting only for Office 365 data that it has yet to process. Changing the time zone setting does not affect data that has already been processed.
+Workplace Analytics uses the time zone setting in calculations of collaboration activities, such as emails and meetings. It uses this setting only for Microsoft 365 data that it has yet to process. Changing the time zone setting does not affect data that has already been processed.
 
 ### To set the default time zone
 
@@ -47,7 +47,7 @@ Workplace Analytics uses the time zone setting in calculations of collaboration 
 
 Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
 
-Workplace Analytics uses the working days and hours settings in calculations of collaboration activities, such as emails and meetings. It uses these settings only for Office 365 data that it has yet to process. Changing the working days and hours settings does not affect data that has already been processed.
+Workplace Analytics uses the working days and hours settings in calculations of collaboration activities, such as emails and meetings. It uses these settings only for Microsoft 365 data that it has yet to process. Changing the working days and hours settings does not affect data that has already been processed.
 
 ### To set default working days and hours
 
@@ -71,7 +71,7 @@ You can use this setting to reclassify one or more external domains as internal,
 After you add a domain and save the change for this setting, it'll change all of the data related to the specified domain as internal to your organization, as follows:
 
 * Explore the stats charts and metrics will show the domain as internal *retroactively* for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration data shown in **Explore the stats**.
-* Organizational and Office 365 data from this domain will update to be internal after the *next data refresh*.
+* Organizational and Microsoft 365 data from this domain will update to be internal after the *next data refresh*.
 * Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
 * The changes can be reverted by removing the domain that was reclassified.
 * [Excluding domains in the privacy settings](privacy-settings.md#exclude-domains-or-email-addresses) overrides the changes made with this reclassification setting. That is, an excluded domain remains excluded, whether or not it's reclassified as internal.
