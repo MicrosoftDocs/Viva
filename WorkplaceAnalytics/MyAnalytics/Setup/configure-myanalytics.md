@@ -103,7 +103,7 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 <!-- REMOVED THIS PER VIKRAM 5 MARCH 2021: 
 > [!Important] 
 > The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
--->
+--> 
 
 ### Command sequence 
 
