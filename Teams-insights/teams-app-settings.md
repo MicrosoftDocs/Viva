@@ -45,7 +45,7 @@ To configure features, start by opening the **Settings** page:
 
    Choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**. 
 
-   [!INCLUDE [Virtual commute notes](../includes/virtual-commute-details.md)]
+   [!INCLUDE [Virtual commute notes](includes/virtual-commute-details.md)]
 
 <!-- NOTE FROM LEANNA MARCH 1, 2021: [LR] Quiet time actually isn't a concept we need to tackle in this round of documentation updates. Quiet time settings won't be available for at least a few more months, so we can cover that later on. 
 

@@ -33,7 +33,7 @@ When you open the features on the menu bar, you leave the Home page.
 
 You use these features without leaving the Home page. Just follow the instructions on the card.  
 
-* [Alert card](#alert-card.md) &ndash; View the card and its message.
+* [Alert card](#alert-card) &ndash; View the card and its message.
 * [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
 * [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 

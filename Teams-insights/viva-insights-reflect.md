@@ -47,7 +47,7 @@ Remind yourself to self-reflect in the future.
 
    On the day and time that you configured, the Viva Insights app will remind you to self-reflect.
 
-  Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).  
+  Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](viva-insights-praise.md#send-a-praise-message).  
 
 ## Related topics
 
