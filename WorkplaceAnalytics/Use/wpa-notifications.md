@@ -7,6 +7,10 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Analyst
+
 ---
 
 # Notifications and What's new
@@ -50,7 +54,7 @@ You cannot delete notifications, but notifications expire after 60 days.
 
 To open the _What's new_ panel, select the bullhorn icon in the ribbon: 
 
-![Notifications panel](../images/wpa/use/whats-new-wpa.png)
+![What's new in Workplace Analytics](../images/wpa/use/whats-new-wpa.png)
 
 _What's new_ describes recently added features of Workplace Analytics, such as new dashboards, metrics, data sources, and navigation possibilities. 
 
