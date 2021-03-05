@@ -11,7 +11,7 @@ ms.prod: wpa
 
 # Notifications and What's new
 
-The ribbon at the top of every page in Workplace Analytics offers several choices, including options to provide feedback; view information about your tenant, role, and session; and to view documentation. 
+The ribbon at the top of every page in Workplace Analytics offers several choices, including options to provide feedback; view information about your tenant, role, and session; and to view documentation.
 
 It also lets you view notifications and learn What's new in Workplace Analytics, as described in the following sections. 
 
