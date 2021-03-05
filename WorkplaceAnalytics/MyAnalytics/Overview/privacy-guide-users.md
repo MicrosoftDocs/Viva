@@ -39,6 +39,8 @@ Microsoft has designed MyAnalytics to support your organization’s needs to com
 
 </ul>
 
+![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
+
 ## How MyAnalytics works
 
 MyAnalytics presents insights in the following ways:
