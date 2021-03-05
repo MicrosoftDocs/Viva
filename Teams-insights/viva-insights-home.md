@@ -25,13 +25,13 @@ When you open the features on the menu bar, you leave the Home page.
 * [Stay connected](viva-insights-stay-connected.md)  &ndash; Select **Stay connected** to open the feature. 
 * [Protect time](viva-insights-protect-time.md) &ndash; Select **Protect time** to open the feature.
 
-<!-- MENTION MY TEAM OR MY ORG HERE? -->
+<!-- MENTION MY TEAM OR MY ORG HERE? --> 
 
 <!-- GET CORRECT STEPS HERE! CAN THEY ACTUALLY CLICK STAY CONNECTED OR PROTECT TIME, AND CAN THEY CLICK SCHEDULE AND MORE INSIGHTS AND BOOK NOW AND MORE OPTIONS? CLICK ALL OR SOME OF THESE? HOW TO GET TO THE FULL FEATURE SCREENS THAT ARE DESCRIBED IN THE LINKED-TO DOCS? -->
 
 ### On the Home page
 
-You use these features without leaving the Home page. Just follow the instructions on the card. 
+You use these features without leaving the Home page. Just follow the instructions on the card.  
 
 * [Alert card](#alert-card.md) &ndash; View the card and its message.
 * [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->

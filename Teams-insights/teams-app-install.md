@@ -15,7 +15,7 @@ ms.prod: Mya
 _**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft Teams users worldwide._
 
 > [!Note] 
-> After the Viva Insights app rollout is complete, it will be pre-installed in Teams for most organizations. This means you won't need to find and install it, as described in [Install the app](#install-the-app). After it is installed, you can pin it to the Teams app bar (the left navigation bar) to make it easy to find. To learn how, see [Pin the app](#pin-the-app). 
+> After the Viva Insights app rollout is complete, it will be pre-installed in Teams for most organizations. This means you won't need to find and install it, as described in [Install the app](#install-the-app). After it is installed, you can pin it to the Teams app bar (the left navigation bar) to make it easy to find. To learn how, see [Pin the app](#pin-the-app).  
 
 ### Install the app
 
