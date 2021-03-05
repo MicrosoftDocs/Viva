@@ -39,8 +39,6 @@ Microsoft has designed MyAnalytics to support your organization’s needs to com
 
 </ul>
 
-![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
-
 ## How MyAnalytics works
 
 MyAnalytics presents insights in the following ways:
@@ -52,14 +50,29 @@ MyAnalytics presents insights in the following ways:
 3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
 
 4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
+ 
+## MyAnalytics architecture
+
+In the following architecture illustration, note the relationship of MyAnalytics to Exchange Online. This placement underscores the fact that any data that you can view in MyAnalytics is the same data that's visible in your Exchange mailbox, as described in the following principles about data privacy.
+
+#### Key principles
+
+* As a MyAnalytics user, only you can see your own data.
+* Your data is stored and computed in your Exchange Online mailbox. 
+* You can opt in and opt out at any time.
+* MyAnalytics shows you no personally-identifiable info of co-workers beyond what you can already see in Outlook and Teams.
+
+![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
+
+### Data types
 
 MyAnalytics provides insights with the following types of data.
 
-1. **Mailbox data:** Email, calendar, chat, and call activity that you generate by using Microsoft 365, such as time that you spend in meetings or emails that you send to a specific person or group.
+1. [Mailbox data](#mailbox-data) &ndash; Email, calendar, chat, and call activity that you generate by using Microsoft 365, such as time that you spend in meetings or emails that you send to a specific person or group.
 
-2. **Windows 10 activity history data:** Data on your usage of apps and services on your device: whether you worked on a document and whether you browsed the web.
+2. [Windows 10 activity history data](#windows-10-activity-history-data) &ndash; Data on your usage of apps and services on your device: whether you worked on a document and whether you browsed the web.
 
-3. **Incremental data:** Data that would otherwise be unavailable to you but is presented in an aggregated form designed to protect individual privacy.
+3. [Incremental data](#incremental-data) &ndash; Data that would otherwise be unavailable to you but is presented in an aggregated form designed to protect individual privacy.
 
 ## Mailbox data
 
