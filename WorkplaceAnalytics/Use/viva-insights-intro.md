@@ -7,6 +7,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
+
 # Microsoft Viva Insights
 
 The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app in Microsoft Teams is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva), the employee experience platform built on Microsoft 365 that empowers people and teams to be their best from wherever they work. Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams. Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights and recommendations to improve productivity and wellbeing.
