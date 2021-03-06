@@ -103,9 +103,9 @@ Opt-out    | <ul><li>Office 365 data is not used for aggregated information show
 <!-- REMOVED THIS PER VIKRAM 5 MARCH 2021: 
 > [!Important] 
 > The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
---> 
+-->
 
-### Command sequence 
+### Command sequence
 
 You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig) and [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig) cmdlets to work with user configuration settings. Before you can use them, you need to install a module and sign in to be authenticated. This is the sequence of steps:
 
