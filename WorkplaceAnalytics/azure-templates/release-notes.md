@@ -24,7 +24,7 @@ The following new template features, enhancements, and changes are included this
 
 ### Account Mapping
 
-Account Mapping is now available on its own page. To enable more robust analysis of external collaboration, you can upload exported CRM data files (in .csv format) for your customer accounts and then match them to Office 365 data to create a mapping file. You can then use account mappings to analyze external collaboration in the Organizational Network Analysis, Process Explorer, and Relationship Intelligence analysis.
+Account Mapping is now available on its own page. To enable more robust analysis of external collaboration, you can upload exported CRM data files (in .csv format) for your customer accounts and then match them to Microsoft 365 data to create a mapping file. You can then use account mappings to analyze external collaboration in the Organizational Network Analysis, Process Explorer, and Relationship Intelligence analysis.
 
 For more details, see [Account Mapping](deploy-configure.md#account-mapping).
 

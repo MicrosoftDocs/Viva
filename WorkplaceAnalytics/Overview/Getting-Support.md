@@ -20,5 +20,5 @@ ms.prod: wpa
 
 ## Additional resources
 
-* [Office 365 Workplace Analytics Blog](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog)
+* [Microsoft 365 Workplace Analytics Blog](https://techcommunity.microsoft.com/t5/Office-365-Analytics-Blog/bg-p/Office365AnalyticsBlog)
 * [Microsoft Workplace Insights](https://insights.office.com/)

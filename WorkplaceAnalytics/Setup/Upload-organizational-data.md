@@ -2,7 +2,7 @@
 
 title: Upload organizational data to Workplace Analytics (subsequent uploads)
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
@@ -32,6 +32,8 @@ The task of importing organizational data has three parts:
 After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
 ### Video: Upload organizational data
+
+The user interface and navigation in recent releases of Workplace Analytics are different that what's shown in this video.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
@@ -97,18 +99,18 @@ When appending new attributes to an existing upload, you need to select all the 
 
 * **Validity threshold** sets the percentage of rows in the uploaded file that must have non-null values (no blanks) for the attribute. The source file might still be valid even if some rows have missing values for some columns. This setting is not intended to check or allow invalid values. A single invalid value, such as an incorrect data type, email address, or TimeZone string will cause the file upload to fail. The following summarizes the threshold settings:
 
-   * **Required attributes** - Because PersonId and EffectiveDate are required attributes, their Validity threshold value must be 100 percent. This value cannot be changed.
-   * **Fields with minimum values** - The threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95 percent by default.
-   * **Other system fields** - The Validation threshold for other system fields is set to 95 percent by default, but you can increase or decrease this value.
-   * **Custom fields** - See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
+  * **Required attributes** - Because PersonId and EffectiveDate are required attributes, their Validity threshold value must be 100 percent. This value cannot be changed.
+  * **Fields with minimum values** - The threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95 percent by default.
+  * **Other system fields** - The Validation threshold for other system fields is set to 95 percent by default, but you can increase or decrease this value.
+  * **Custom fields** - See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
 
 * **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation. The following options are available for each of the columns in your source data:
 
     ![Map data fields](../images/wpa/setup/map-fields-include-column-65.png)
 
-   * **Show in report** - Lets the actual data value appear in the report just as it was imported in the organizational data file.
-   * **Hash in report** - De-identifies sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of showing actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
-   * **Exclude from report** - Prevents the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerID. In those cases, you cannot change this value.
+  * **Show in report** - Lets the actual data value appear in the report just as it was imported in the organizational data file.
+  * **Hash in report** - De-identifies sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of showing actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
+  * **Exclude from report** - Prevents the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerID. In those cases, you cannot change this value.
 
   >[!Note]
   >The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation.
