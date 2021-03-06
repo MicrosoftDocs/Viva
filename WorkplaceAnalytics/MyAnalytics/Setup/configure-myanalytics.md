@@ -171,8 +171,9 @@ Parameter   |   Required   |   Description   | Default value
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD)   |   --
 PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's data to compute derived statistics for other users. The user won't see statistics in MyAnalytics, but can choose to opt in from the Feature settings menu.</li><li>**Opt-in**: MyAnalytics uses the user's data to compute derived statistics for other users. The user can see statistics in MyAnalytics, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
+<!-- REMOVED MARCH 5 PER VIKRAM: 
 > [!Important]
-> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
+> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out. -->
 
 Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's MyAnalytics features were turned on except the digest email:
 
