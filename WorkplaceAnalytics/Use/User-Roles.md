@@ -65,7 +65,7 @@ People with access to Workplace Analytics should ideally have previous experienc
 
 | Access level | Administrator |  Analyst | Analyst (Limited Access) | Program Manager | People Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
-| View personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
+| View personally identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | View de-identified, individual-level data:<ul><li>Organization data (HR fields, such as level or organization)</li><li>Microsoft 365 data (metrics about collaboration and relationships)</li></ul> | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
 | View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
 | Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics | | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)*|

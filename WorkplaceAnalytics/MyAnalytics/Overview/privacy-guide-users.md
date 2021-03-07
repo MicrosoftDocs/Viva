@@ -1,6 +1,6 @@
 ---
 title: Privacy guide - MyAnalytics
-description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
+description: Overview of MyAnalytics privacy features, including info about data de-identification and privacy, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -24,8 +24,8 @@ MyAnalytics provides you with insights through a personalized dashboard, a weekl
 
 <li>
 
-**MyAnalytics does not give employees access to new personally-identifiable information on other coworkers**.
-MyAnalytics converts data into insights by performing calculations on information that you generate just by going about your work day. The majority of the data that you see in MyAnalytics is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.</li>
+**MyAnalytics does not give employees access to new personally identifiable information on other coworkers**.
+MyAnalytics converts data into insights by performing calculations on information that you generate just by going about your work day. Most of the data that you see in MyAnalytics is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.</li>
 
 <li>
 
@@ -48,7 +48,7 @@ In the following architecture illustration, note the relationship of MyAnalytics
 * As a MyAnalytics user, only you can see your own data.
 * Your data is stored and computed in your Exchange Online mailbox. 
 * You can opt in and opt out at any time.
-* MyAnalytics shows you no personally-identifiable info of co-workers beyond what you can already see in Outlook and Teams.
+* MyAnalytics shows you no personally identifiable info of co-workers beyond what you can already see in Outlook and Teams.
 
 ![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
 
@@ -82,7 +82,7 @@ For example, MyAnalytics provides views that allow you to quickly understand how
 
 You can take action on this information. You might decide that you spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
-Note that these insights are derived from data that is already available to you in the following places:
+These insights are derived from data that is already available to you in the following places:
 
 * Your Exchange Online mailbox
 * Your activity in OneDrive and SharePoint documents

@@ -1,7 +1,7 @@
 ---
 
 title: MyAnalytics privacy guide
-description: Overview of MyAnalytics privacy features, including information about de-identification and privacy of data, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
+description: Overview of MyAnalytics privacy features, including info about data de-identification and privacy, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -25,8 +25,8 @@ This page answers key questions on how MyAnalytics processes information in a ma
 * **MyAnalytics is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
 MyAnalytics provides insights to individuals through a personalized dashboard, a weekly digest, an Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision making or for profiling.
 
-* **MyAnalytics does not give employees access to new personally-identifiable information on other coworkers**.
-MyAnalytics converts data into insights by performing calculations on information that people generate just by going about their work day. The majority of the data that employees see in MyAnalytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.</li>
+* **MyAnalytics does not give employees access to new personally identifiable information on other coworkers**.
+MyAnalytics converts data into insights by performing calculations on information that people generate just by going about their work day. Most of the data that employees see in MyAnalytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.</li>
 
 * **MyAnalytics data is processed and stored in the employee’s Exchange Online mailbox**.
 MyAnalytics processes data from these sources: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and&mdash;if both the organization's IT administrator and an individual opt in&mdash;Windows 10 application activity history. MyAnalytics stores and processes this data inside each employee’s Exchange Online mailbox.
