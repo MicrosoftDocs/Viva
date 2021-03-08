@@ -50,10 +50,6 @@ To send praise, first open the praise feature. You can do so in two places:
 1. Below the **Type a new message** field, select more options (the ellipsis):
    
    ![Ellipsis](images/type-new-msg.png)
-   
-2. In the **Find an app** field, start typing "praise." 
-   
-   ![Find an app field](images/find-an-app.png)
 
 3. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
    
