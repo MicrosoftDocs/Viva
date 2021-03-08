@@ -13,7 +13,11 @@ audience: Admin
 
 # Microsoft Viva Insights
 
-The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app in Microsoft Teams is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva), the employee experience platform built on Microsoft 365 that empowers people and teams to be their best from wherever they work. Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams. Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing.
+The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app in Microsoft Teams is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva). Microsoft Viva is the employee experience platform built on Microsoft 365 that empowers people and teams to be their best from wherever they work.
+
+Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams.
+
+Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing.
 
 ## Personal insights
 
@@ -21,7 +25,7 @@ You can view Personal insights that only you can see about how you work and what
 
 ## Team insights
 
-Manager insights provide much-needed visibility into work patterns that can lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. Managers can use this to help their teams strike a balance between productivity and wellbeing. This makes it easy for managers to understand current team norms and take action to create positive change. For details, see [My team in Viva Insights](viva-insights-my-team.md).
+Manager insights provide much-needed visibility into work patterns that can lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. Managers can use My team insights to help their teams strike a balance between productivity and wellbeing. This makes it easy for managers to understand current team norms and take action to create positive change. For details, see [My team in Viva Insights](viva-insights-my-team.md).
 
 ## Organizational insights
 
