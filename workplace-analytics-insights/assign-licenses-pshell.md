@@ -390,7 +390,7 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 **If the script is successful but the output reports: Script completed, but the total number of users licensed is zero (0).**
 
 1. Confirm the user is not already licensed.
-2. Confirm the user is subscribed to a Microsoft or Office 365 E5 or E3 plan.
+2. Confirm the user is subscribed to a Microsoft 365 or Office 365 E5 or E3 plan.
 3. Confirm the users UPN or proxy email address resolves in the environment.
 
 ## Related topics
