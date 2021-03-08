@@ -6,7 +6,10 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
+manager: scott.ruble
 ms.prod: Mya
+audience: user
+
 ---
 
 # Configure MyAnalytics
@@ -100,10 +103,12 @@ PrivacyMode parameter  | Licensed user  | Unlicensed user
 Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Dashboard is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
 Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Dashboard is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
 
+<!-- REMOVED THIS PER VIKRAM 5 MARCH 2021: 
 > [!Important] 
 > The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
+-->
 
-### Command sequence 
+### Command sequence
 
 You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig) and [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig) cmdlets to work with user configuration settings. Before you can use them, you need to install a module and sign in to be authenticated. This is the sequence of steps:
 
@@ -169,8 +174,9 @@ Parameter   |   Required   |   Description   | Default value
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD)   |   --
 PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's data to compute derived statistics for other users. The user won't see statistics in MyAnalytics, but can choose to opt in from the Feature settings menu.</li><li>**Opt-in**: MyAnalytics uses the user's data to compute derived statistics for other users. The user can see statistics in MyAnalytics, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
+<!-- REMOVED MARCH 5 PER VIKRAM: 
 > [!Important]
-> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
+> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out. -->
 
 Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's MyAnalytics features were turned on except the digest email:
 
