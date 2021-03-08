@@ -25,7 +25,7 @@ MyAnalytics provides you with insights through a personalized dashboard, a weekl
 <li>
 
 **MyAnalytics does not give employees access to new personally identifiable information on other coworkers**.
-MyAnalytics converts data into insights by performing calculations on information that you generate just by going about your work day. Most of the data that you see in MyAnalytics is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.</li>
+MyAnalytics converts data into insights by doing calculations on information that you generate just by going about your work day. Most of the data that you see in MyAnalytics is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.</li>
 
 <li>
 
@@ -35,7 +35,7 @@ MyAnalytics processes data from these sources: Exchange Online email and calenda
 <li>
 
 **MyAnalytics supports General Data Protection Regulation (GDPR) compliance**.
-Microsoft has designed MyAnalytics to support your organization’s needs to comply with  [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).</li>
+Microsoft has designed MyAnalytics to support your organization’s needs to follow [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).</li>
 
 </ul>
 
@@ -94,7 +94,7 @@ For example, if you want to determine which colleagues sent you the most email o
 
 ## Windows 10 Activity History data
 
-Windows 10 activity history data refers to the things you do on your device, such as the apps and services you used, whether you worked on a document, and whether you browsed the web. The activity history is stored locally on the device, and if you are signed in to the device with a Microsoft account and you give permission, Windows sends the activity history to Microsoft.
+Windows 10 activity history data refers to the things you do on your device, such as the apps and services you used, whether you worked on a document, and whether you browsed the web. The activity history is stored locally on the device, and if you're signed in to the device with a Microsoft account and you give permission, Windows sends the activity history to Microsoft.
 
 MyAnalytics uses Windows 10 activity history data to compute insights (for example, time spent in apps, multi-tasking in meetings) about your work habits. These insights are private and stored in your Exchange Online mailbox.
 
