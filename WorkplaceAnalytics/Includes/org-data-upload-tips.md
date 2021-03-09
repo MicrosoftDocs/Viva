@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Tips for uploading org data
 description: Tips when uploading org data to MyAnalytics. 
@@ -18,7 +16,7 @@ All field header or column names must:
 * Begin with a letter (not a number)
 * Only contain alphanumeric characters (letters and numbers, for example Date1)
 * Have at least one lower-case letter (Hrbp); all uppercase won’t work (HRBP)
-* Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example PersonId and HireDate)
+* Match exactly as listed for Workplace Analytics’ Required and Reserved optional attributes, including for case sensitivity (for example EffectiveDate and HireDate)
 * Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as @, #, %, &); if spaces or special characters are included, Workplace Analytics will remove them from the name
 
 #### Rules for field values
