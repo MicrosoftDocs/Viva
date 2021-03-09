@@ -4,7 +4,7 @@ title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
 author: paul9955
 ms.author: v-mideh
-ms.topic: get-started-article
+ms.topic: article
 localization_priority: normal 
 search.appverid:
 - MET150
@@ -131,9 +131,9 @@ The following video describes how to structure your organizational data file, in
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 
-### Required, reserved optional, and custom attributes
+### Required attributes
 
-**Required attributes** must be supplied with the following exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but the others are:
+The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but the others are:
 
 * PersonId
 * EffectiveDate (case sensitive)
@@ -141,7 +141,7 @@ The following video describes how to structure your organizational data file, in
 * ManagerId
 * Organization (case sensitive)
 
-#### Reserved optional attributes
+### Reserved optional attributes
 
 These are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations.
 
@@ -154,7 +154,7 @@ These are reserved column headers for attributes that are currently used only to
 
 Although these attributes are not required, if included, they must meet particular coverage requirements.
 
-#### Custom attributes
+### Custom attributes
 
 These are any additional attributes you want to define to use in filtering and grouping data.
 
