@@ -136,7 +136,7 @@ The following video describes how to structure your organizational data file, in
 The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but the other text attributes are.
 
 * PersonId
-* EffectiveDate 
+* EffectiveDate
 * LevelDesignation (case sensitive)
 * ManagerId
 * Organization (case sensitive)
