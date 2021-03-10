@@ -12,11 +12,12 @@ ms.prod: Mya
 
 # Use the Microsoft Viva Insights Praise feature 
 
-Science agrees: People are happier and more productive when they get recognition for their efforts. You can use the Praise app to send acclaim to your employees and coworkers. You can have it deliver in a private chat, or for wider recognition, you can send it in a Teams channel conversation. 
+You can use the Praise app to recognize the contributions of your employees and co-workers. Praise messages appear as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
-The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-a-praise-reminder).
 
-You can also set a reminder for yourself to send praise at a later date. See [Set a praise reminder](#set-a-praise-reminder).
+>[!Note] 
+> The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 ## Send praise 
 
@@ -35,7 +36,29 @@ To send praise, first open the praise feature. You can do so in two places:
 
 2. Continue with the steps in [Send a praise message](#send-a-praise-message). 
 
-### Send praise from the content pane 
+### Send a praise message
+
+1. After the Praise app opens, choose a badge to include with your praise message.
+
+   ![Choose badge](images/praise-badges.png)
+
+2. Add the names of the person you want to praise. 
+
+3. Choose the visibility of this praise. To make this choice, you must first decide whether you want to keep the praise private between you and the recipient or to make it visible (as a form of kudos, for example) to everyone in a Teams channel:
+
+   * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. <!--  OUT FOR NOW: If you are sending praise to more than one person, you can use this option only if you've had 1:1 chats with each of the recipients.--> 
+
+   * To let all the members of a Teams channel or subchannel see the praise message, select **Teams channel**. This option is available only if all of the praise recipients are participants in the Teams channel or subchannel that you choose. 
+
+4. (Optional) In the **Note** field, add a personalized note.
+
+5. Select **Preview**.
+
+6. On the preview page, inspect the praise badge. If you need to edit it, select **Back**. Change the badge choice, the recipients list, or the personalized note. After you've finished making changes, select **Preview** and then select **Send**.
+
+### Send praise from the content pane
+
+In Microsoft Viva Insights, you can always send praise right [from the **Home** page](#send-praise-from-the-home-page). This means that you can send praise without installing the Praise messaging extension.
 
 1. Below the **Type a new message** field, select **Praise**:
 
@@ -43,7 +66,8 @@ To send praise, first open the praise feature. You can do so in two places:
 
    (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).) 
 
-2. Continue with the steps in [Send a praise message](#send-a-praise-message).    
+2. Continue with the steps in [Send a praise message](#send-a-praise-message).
+
 
 #### Find the Praise feature
 
@@ -55,33 +79,17 @@ To send praise, first open the praise feature. You can do so in two places:
    
    ![Select icon for Praise app](images/find-app-praise.png)   
 
+   The **Praise** app opens.
+
 4. Continue with the steps in [Send a praise message](#send-a-praise-message).    
 
-### Send a praise message
+## Set praise reminders
 
-1. After the Praise app opens, choose a badge to include with your praise message.
+Remind yourself to send praise to a co-worker. Praise reminders are always recurring; this helps you build the habit of letting co-workers know that you appreciate their contribution.
 
-   ![Choose badge](images/praise-badges.png)
+You can set praise reminders either on the [**Settings** page](team-app-settings.md#praise) or the **Home** page, as described here:
 
-2. Add the names of the people you want to praise. 
-
-3. Choose the visibility of this praise. To make this choice, you must first decide whether you want to keep the praise private between you and the recipient or to make it visible (as a form of kudos, for example) to everyone in a Teams channel:
-
-   * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. If you are sending praise to more than one person, you can use this option only if you've had 1:1 chats with each of the recipients. 
-
-   * To let all the members of a Teams channel or subchannel see the praise message, select **Teams channel**. This option is available only if all of the praise recipients are participants in the Teams channel or subchannel that you choose. 
-
-4. (Optional) In the **Note** field, add a personalized note.
-
-5. Select **Preview**.
-
-6. On the preview page, inspect the praise badge. If you need to edit it, select **Back**. Change the badge choice, the recipients list, or the personalized note. After you've finished making changes, select **Preview** and then select **Send**.
-
-## Set a praise reminder
-
-Remind yourself to send praise to a co-worker later.
-
-1. On the Home page, select the **Send praise to your colleagues** card:
+1. On the **Home** page, select the **Send praise to your colleagues** card:
 
    ![Praise on Home page](images/praise-from-home.png)
 
@@ -91,7 +99,7 @@ Remind yourself to send praise to a co-worker later.
 
 3. Select **Set reminder**. 
 
-   On the day and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).   
+   On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).   
 
 ## Related topics
 

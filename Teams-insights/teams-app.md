@@ -12,7 +12,7 @@ ms.prod: Mya
 
 # Microsoft Viva Insights app in Microsoft Teams 
 
-Microsoft Viva Insights provides personalized recommendations to change how you work to do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
+Microsoft Viva Insights provides personalized recommendations to help you do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
 It derives these insights by summarizing your Microsoft 365 data &ndash; data that you already have access to &ndash; about emails, meetings, calls, and chats. 
 
@@ -23,6 +23,7 @@ By using the Viva Insights app, you can:
  * [Send Praise](viva-insights-praise.md) &ndash; Send acclaim to your employees and coworkers, either in a private chat or in a Teams channel conversation. 
  * [Reflect](viva-insights-reflect.md) &ndash; Take a moment to check in with yourself, to reflect on how you're feeling. 
  * [Take a break](viva-insights-home.md#take-a-break) &ndash; During your workday, take an occasional one-minute "breathing break."  
+ * Start a [virtual commute](viva-insights-virtual-commute.md) &ndash; Mindfully close out your workday.  
  * Use [Microsoft To-Do](viva-insights-home.md#microsoft-to-do) &ndash; Take action on a task in your to-do list. 
 
 The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](teams-app-privacy.md). 

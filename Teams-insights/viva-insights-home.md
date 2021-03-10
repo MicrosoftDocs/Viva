@@ -33,7 +33,7 @@ When you open the features on the menu bar, you leave the Home page.
 
 You use these features without leaving the Home page. Just follow the instructions on the card.  
 
-* [Alert card](#alert-card) &ndash; View the card and its message.
+* [Up-next card](#up-next-card) &ndash; View the card and its message.
 * [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
 * [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
@@ -42,11 +42,11 @@ For the next three cards, you can take a quick action while remaining on the Hom
 
 * [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on the action that the **Stay connected** card currently shows. For example, book a 1:1 with a particular person. 
 * [Protect time](viva-insights-protect-time.md) &ndash; Take the action that the **Protect time** card currently shows. For example, book focus time for tomorrow. 
-* [Microsoft To-Do](#microsoft-to-do) &ndash; Take action on the task in your **To-Do** list that the card currently shows. For example, book a meeting. 
+* [Microsoft To Do](#microsoft-to-do) &ndash; Take action on the task in your **To Do** list that the card currently shows. For example, book a meeting. 
 
-### Alert card
+### Up-next card
 
-On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your Outlook calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
+On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
 
 ![Lunch approaching](images/lunch-break.png)
 
@@ -58,9 +58,9 @@ The card's color changes to alert you of other events, such as scheduled focus t
 
 This feature offers a one-minute "breathing break" animated experience that you can use as often as you want during your workday. To start it, select **Start**. 
 
-### Microsoft To-Do
+### Microsoft To Do
 
-This card shows tasks that are in your **To-Do** list that are due today or for which a reminder for today has been set. Select **All To-Do tasks for today** to open the Tasks app in Teams. For more information, see [Microsoft To-Do](https://todosupport.helpshift.com/a/microsoft-to-do/?p=web). 
+This card shows tasks that are in your **To Do** list that are due today or for which a reminder for today has been set. Select **All To Do tasks for today** to open the Tasks app in Teams. For more information, see [Microsoft To Do](https://todosupport.helpshift.com/a/microsoft-to-do/?p=web). 
 
 ## Related topics
 
