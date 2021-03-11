@@ -39,11 +39,11 @@ To configure features, start by opening the **Settings** page:
 
    Each reminder will appear in your Teams activity feed. After it does, you can select it there and it will open the feature (reflection, praise, or virtual commute) directly in the Viva Insights app.  
 
-   * <u>Reflection</u> &mdash; Edit the schedule for reminders to self-reflect. Change the days and time to receive reminders and turn them on or off. 
+   * <u>Reflection</u> &mdash; Edit the schedule for reminders to self-reflect. Change the days and time to receive reminders, and then select **Set reminders**. 
 
-   * <u>Praise</u> &mdash; Edit the schedule for praise reminders. Change the days and time to receive reminders and turn them on or off. 
+   * <u>Praise</u> &mdash; Edit the schedule for praise reminders. Change the days and time to receive reminders, and then select **Set reminders**. 
 
-   * <u>Virtual commute</u> &mdash; Choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**. 
+   * <u>Virtual commute</u> &mdash; Choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminders**. 
 
 <!-- NOTE FROM LEANNA MARCH 1, 2021: [LR] Quiet time actually isn't a concept we need to tackle in this round of documentation updates. Quiet time settings won't be available for at least a few more months, so we can cover that later on. 
 

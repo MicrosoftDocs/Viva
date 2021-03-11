@@ -41,6 +41,12 @@ Remind yourself to self-reflect in the future.
 
 Each reminder is time stamped. So, if you select a reminder to reflect from a previous day or just a time when you already reflected from that notification, you won't be able to reflect again. You can reflect any time from the Home page. Reflection reminders can expire. 
 
+> [!Note] 
+> * You can schedule reflection reminders for any day of the week, including days not configured as workdays in your Outlook settings.
+> * The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
+> * The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
+
+
 You can set reminders to reflect either on the [**Settings** page](team-app-settings.md#reflection) or the **Home** page, as described here:
 
 1. On the **Build a habit of emotional awareness!** card, select a day and time: 

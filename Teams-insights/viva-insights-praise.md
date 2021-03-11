@@ -40,9 +40,11 @@ To send praise, first open the praise feature. You can do so in two places:
 
 1. After the Praise app opens, choose a badge to include with your praise message.
 
-   ![Choose badge](images/praise-badges.png)
+   ![Choose badge](images/praise-just-badges.png)
 
-2. Add the names of the person you want to praise. 
+2. Add the name of the person you want to praise:
+ 
+   ![Praise chosen, name added](images/praise-chosen-name-added.png)
 
 3. Choose the visibility of this praise. To make this choice, you must first decide whether you want to keep the praise private between you and the recipient or to make it visible (as a form of kudos, for example) to everyone in a Teams channel:
 
@@ -87,15 +89,20 @@ In Microsoft Viva Insights, you can always send praise right [from the **Home** 
 
 Remind yourself to send praise to co-workers. Praise reminders are always recurring; this helps you build the habit of letting co-workers know that you appreciate their contribution. 
 
-You can set praise reminders either on the [**Settings** page](team-app-settings.md#praise) or the **Home** page, as described here:
+>[!Note]
+> * You can schedule praise reminders for any day of the week, including days not configured as workdays in your Outlook settings.
+> * The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
+> * The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
+
+You can set praise reminders either on the [**Settings** page](team-app-settings.md#praise) or on the **Home** page, as described here:
 
 1. On the **Home** page, select the **Send praise to your colleagues** card:
 
-   ![Praise on Home page](images/praise-from-home.png)
+![Praise on Home page](images/praise-from-home.png)
 
 2. On the praise reminder card, select a day and time: 
 
-   ![Praise reminder](images/praise-reminder.png)
+![Praise reminder](images/set-praise-reminder-50.png)
 
 3. Select **Set reminder**. 
 
