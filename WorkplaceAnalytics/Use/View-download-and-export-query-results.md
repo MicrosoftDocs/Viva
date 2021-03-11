@@ -158,10 +158,10 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
      3. You can add up to two queries at a time by adding two query IDs, separated by a comma. When two queries are added at the same time, they are combined into a single table in Power BI.
 
-5. In **Schema Type**, you can optionally select one of the following:
+5. In **Schema Type**, you can _optionally_ select one of the following:
 
-   * **Pivoted (Default)** - The imported query data is the default data schema that you see in Workplace Analytics.
-   * **Unpivoted** - Only available for person queries. Select if you want the organizational attribute data to ‘unpivot’ into two columns named **Attribute Name** and **Attribute Value** to enable easier comparisons across attributes.
+   * **Pivoted (Default)** - The organizational attribute data is imported by using the default data schema that is used in Workplace Analytics.
+   * **Unpivoted** - Currently only available for person queries. Select to ‘unpivot’ the imported organizational data into two columns named **Attribute Name** and **Attribute Value** for easier comparisons across attributes.
 
 6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
