@@ -157,7 +157,7 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
       ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
 
-     3. Repeat these steps to add another query ID. You can add up to two queries at a time.
+     3. You can add up to two queries at a time by adding two query IDs, separated by a comma. When two queries are added at the same time, they are combined into a single table in Power BI.
 
 5. In **Schema Type**, you can optionally select one of the following:
 
