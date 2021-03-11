@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights Stay connected feature 
+# Use the Microsoft Viva Insights stay connected feature 
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
    

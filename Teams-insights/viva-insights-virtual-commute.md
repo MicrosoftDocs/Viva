@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights - Virtual commute 
-description: Microsoft Viva Insights app -- Use the Virtual commute feature
+title: Viva Insights - virtual commute 
+description: Microsoft Viva Insights app -- Use the virtual commute feature
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -10,20 +10,20 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights Virtual commute feature 
+# Use the Microsoft Viva Insights virtual commute feature 
 
-You can start the Virtual commute feature from either of two places, the [Alert card](#alert-card) or the [Protect time](#protect-time) feature. 
+You can start the virtual commute feature from either of two places, the [Up-next card](#up-next-card) or the [Protect time](#protect-time) feature. 
 
-## Alert card
+## Up-next card
 
-The Alert card reads, "It's time to wrap up your day" to indicate that you can start your virtual commute now. 
+The Up-next card reads, "It's time to wrap up your day" to indicate that you can start your virtual commute now. 
 
 ![Home (morning)](images/virtual-commute.png)
 
 This message appears at the following times:
 
- * If you have configured Virtual commute reminders, the message appears for a 30-minute period that starts 15 minutes before the time that you configured. For information about making this and other settings, see [Insights app settings](teams-app-settings.md). 
- * If you have not configured Virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). 
+ * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about making this and other settings, see [Insights app settings](teams-app-settings.md). 
+ * If you have not configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). 
 
 ## Protect time
 
@@ -33,7 +33,7 @@ On the Protect time page, under **Ready to wrap up?**, select **Start**.
 
 ![Book focus time](Images/start-virt-commute.png)  
 
-This causes your virtual commute to start immediately. For information about the virtual commute experience, see [Virtual commute steps](#virtual-commute-steps).
+This causes your virtual commute to start immediately. For information about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps).
 
 Starting a virtual commute this way does not affect the scheduled days and time of day that you set in [Set up virtual commute](#set-up-virtual-commute).
 

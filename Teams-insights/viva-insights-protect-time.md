@@ -10,7 +10,7 @@ ms.prod: Mya
 
 ---
 
-# Use the Microsoft Viva Insights Protect time feature 
+# Use the Microsoft Viva Insights protect time feature 
 
 You can use this feature to protect your time in these ways:
 
@@ -31,4 +31,4 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 [Microsoft Viva Insights app &ndash; Overview](teams-app.md)
 
-[Microsoft Viva Insights app &ndash; Virtual commute](viva-insights-virtual-commute.md) 
+[Microsoft Viva Insights app &ndash; virtual commute](viva-insights-virtual-commute.md) 
