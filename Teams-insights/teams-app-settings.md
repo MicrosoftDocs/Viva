@@ -31,13 +31,13 @@ To configure features, start by opening the **Settings** page:
 
    * <u>My Team</u> &mdash; (This option is available only to people who are recognized in AAD as managers.) This option initially shows your team as it is listed in AAD. Use this option to update the list of team members. After you edit your team members here, it is no longer synchronized in AAD. 
 
-### Set reminders
+   **Set recurring reminders**
 
-You can set recurring reminders for self-reflection, for sending praise, or for starting your virtual commute. You can schedule these reminders for any day of the week, including days not configured as workdays in your Outlook settings. 
+   You can set recurring reminders for self-reflection, for sending praise, or for starting your virtual commute. You can schedule these reminders for any day of the week, including days not configured as workdays in your Outlook settings. 
 
-The time you select will apply to every day on which you'll see reminders; you cannot set different times for different days of the week. The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
+   The time you select will apply to every day on which you'll see reminders; you cannot set different times for different days of the week. The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
 
-Each reminder will appear in your Teams activity feed. After it does, you can select it there and it will open the feature (reflection, praise, or virtual commute) directly in the Viva Insights app.  
+   Each reminder will appear in your Teams activity feed. After it does, you can select it there and it will open the feature (reflection, praise, or virtual commute) directly in the Viva Insights app.  
 
    * <u>Reflection</u> &mdash; Edit the schedule for reminders to self-reflect. Change the days and time to receive reminders and turn them on or off. 
 
