@@ -20,7 +20,7 @@ By using the Viva Insights app, you can:
 
  * [Stay connected](teams-app-use-insights.md#stay-connected) &ndash; Stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. 
  * [Protect time](teams-app-use-insights.md#protect-time) &ndash; Find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. 
- * [Send Praise](viva-insights-praise.md) &ndash; Send acclaim to your employees and coworkers, either in a private chat or in a Teams channel conversation. 
+ * [Send praise](viva-insights-praise.md) &ndash; Send acclaim to your employees and coworkers, either in a private chat or in a Teams channel conversation. 
  * [Reflect](viva-insights-reflect.md) &ndash; Take a moment to check in with yourself, to reflect on how you're feeling. 
  * [Take a break](viva-insights-home.md#take-a-break) &ndash; During your workday, take an occasional one-minute "breathing break."  
  * Start a [virtual commute](viva-insights-virtual-commute.md) &ndash; Mindfully close out your workday.  
