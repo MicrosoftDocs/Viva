@@ -13,7 +13,7 @@ Workplace Analytics provides Power BI templates that analysts can use to visuall
 
 Workplace Analytics Queries has a number of predefined query templates available. In the preselected filters and metrics section in Queries, you can identify the Power BI templates by the Power BI logo in the upper-right corner of the template:
 
-   ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-cards.png)
+   ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-queries.png)
 
 Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one to see more details about it and to view an interactive demonstration on how you can use it to get similar data about your organization.
 
