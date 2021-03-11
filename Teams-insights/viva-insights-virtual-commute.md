@@ -23,6 +23,7 @@ The Up-next card reads, "It's time to wrap up your day" to indicate that you can
 This message appears at the following times:
 
  * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about making this and other settings, see [Insights app settings](teams-app-settings.md). 
+
  * If you have not configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). 
 
 ## Protect time
