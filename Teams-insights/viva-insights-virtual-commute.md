@@ -76,7 +76,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    * Adding them here puts them directly into Microsoft To Do, complete with reminders set, so that you don't forget about them.
 
-   ![Add tasks](Images/03-add-new-tasks.png)
+   ![Add tasks](Images/03-add-new-tasks-55.png)
 
    Tasks that you add on this page will appear in two places:
 
@@ -84,25 +84,25 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    * If you add a task today, it will appear tomorrow on the **Microsoft To-Do** card on the **Home** page:
 
-   ![Home page to-do card](Images/home-to-do.png)  
+   ![Home page to-do card](Images/home-to-do-55.png)  
 
    After you've finished adding tasks &ndash; or if you have no tasks to add &ndash; select **Next**. 
 
 4. **Preview of tomorrow** &ndash; This step shows you the events (such as meetings) that are on your schedule for tomorrow:
 
-   ![Preview of tomorrow](Images/04-preview-of-tomorrow.png)
+   ![Preview of tomorrow](Images/04-preview-of-tomorrow-55.png)
 
    The purpose of this step is to reduce surprises so that you can be prepared for all that's on your schedule. You can accept, decline, or cancel meetings to make final decisions about your schedule for the next day. When finished, select **Next**.
 
 5. **Opportunity for reflection** &ndash; At the end of your workday, this step lets you reflect on your feelings, just as you would by using the [Reflect](viva-insights-reflect.md) feature on the Home page:
 
-   ![Reflect](Images/05-reflection.png)
+   ![Reflect](Images/05-reflection-55.png)
 
    Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice, which you can view before you select **Next**. This optional step helps you build the healthy habit of checking in with yourself.
 
 6. **Take a minute to breathe** &ndash; This step offers a short video (with sound) that you can experience while taking some relaxing breaths:
  
-   ![Breathe](Images/06-breathe-mindfully.png)
+   ![Breathe](Images/06-breathe-mindfully-55.png)
 
    When you're finished, select **Next**. 
 
