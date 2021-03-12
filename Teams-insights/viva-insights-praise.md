@@ -40,7 +40,7 @@ To send praise, first open the praise feature. You can do so in two places:
 
 1. After the Praise app opens, choose a badge to include with your praise message.
 
-   ![Choose badge](images/praise-just-badges.png)
+   ![Choose badge](images/praise-just-badges-70.png)
 
 2. Add the name of the person you want to praise:
  
