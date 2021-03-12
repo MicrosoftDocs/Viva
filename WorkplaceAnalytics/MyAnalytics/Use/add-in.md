@@ -276,6 +276,7 @@ Follow these steps to remove the Insights add-in from your Outlook ribbon.
 3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
     ![Remove Insights](../../Images/mya/use/remove-insights.png)
+    * [Remove Insights add-in from Outlook](../use/add-in.md#remove-the-insights-add-in-from-outlook)
 
 ## Add the Insights add-in
 
