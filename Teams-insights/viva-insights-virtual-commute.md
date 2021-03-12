@@ -70,7 +70,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
  
    Select **Next**.
 
-2. **Add new tasks** &ndash; Use this step to add tasks to your list. There are two reasons to add them to your list:
+3. **Add new tasks** &ndash; Use this step to add tasks to your list. There are two reasons to add them to your list:
  
    * If you have work-related tasks that are top of mind, adding them to a list holds them for you in a reliable spot so that you can mentally let them go during your personal time.
 
@@ -88,17 +88,29 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    After you've finished adding tasks &ndash; or if you have no tasks to add &ndash; select **Next**. 
 
-3. **Preview of tomorrow** &ndash; This step shows you the events (such as meetings) that are on your schedule for tomorrow:
+4. **Preview of tomorrow** &ndash; This step shows you the events (such as meetings) that are on your schedule for tomorrow:
 
    ![Preview of tomorrow](Images/04-preview-of-tomorrow.png)
 
    The purpose of this step is to reduce surprises so that you can be prepared for all that's on your schedule. You can accept, decline, or cancel meetings to make final decisions about your schedule for the next day. When finished, select **Next**.
 
-4. **Opportunity for reflection** &ndash; At the end of your workday, this step lets you reflect on your feelings, just as you would by using the [Reflect](viva-insights-reflect.md) feature on the Home page:
+5. **Opportunity for reflection** &ndash; At the end of your workday, this step lets you reflect on your feelings, just as you would by using the [Reflect](viva-insights-reflect.md) feature on the Home page:
 
    ![Reflect](Images/05-reflection.png)
 
-   Select an emoji, view an acknowledgement of your choice, and then select **Next**. This optional step helps you build the healthy habit of checking in with yourself.  
+   Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice, which you can view before you select **Next**. This optional step helps you build the healthy habit of checking in with yourself.
+
+6. **Take a minute to breathe** &ndash; This step offers a short video (with sound) that you can experience while taking some relaxing breaths:
+ 
+   ![Breathe](Images/06-breathe-mindfully.png)
+
+   When you're finished, select **Next**. 
+
+7. **Completion** &ndash; Complete your virtual commute. 
+
+   ![Breathe](Images/07-completion.png)
+
+   Select **Done**.
 
 <!-- NOTE FOR WAVE 3: HEADSPACE, A 3RD-PARTY MEDITATION APP, WILL APPEAR HERE WHEN IT'S AVAILABLE. WE'LL NEED TO ENABLE SOUND FOR IT FIRST. THIS FEATURE BELONGS TO PETER B. [30:00] -->
 
