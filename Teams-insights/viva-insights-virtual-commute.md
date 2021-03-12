@@ -57,9 +57,9 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    ![Schedule virtual commute](Images/01-start-vc.png)  
 
-2. **Review and close out current tasks** &ndash; Virtual commute shows you your tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
+2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
 
-   In this step, you can mark each task as complete (select "**It's done**") or set a reminder:
+   In this step, you can mark each task as complete (select "**It's done**") or set a reminder for another day:
  
      ![Close out current tasks](Images/02-close-out-current-tasks-55.png) 
  
@@ -84,7 +84,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    * If you add a task today, it will appear tomorrow on the **Microsoft To-Do** card on the **Home** page:
 
-   ![Home page to-do card](Images/home-to-do-55.png)  
+     ![Home page to-do card](Images/home-to-do.png)  
 
    After you've finished adding tasks &ndash; or if you have no tasks to add &ndash; select **Next**. 
 
@@ -94,13 +94,13 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    The purpose of this step is to reduce surprises so that you can be prepared for all that's on your schedule. You can accept, decline, or cancel meetings to make final decisions about your schedule for the next day. When finished, select **Next**.
 
-5. **Opportunity for reflection** &ndash; At the end of your workday, this step lets you reflect on your feelings, just as you would by using the [Reflect](viva-insights-reflect.md) feature on the Home page:
+5. **Opportunity for reflection** &ndash; At the end of your workday, this step lets you reflect on your feelings, just as you would by using the [Reflect](viva-insights-reflect.md) feature on the **Home** page:
 
    ![Reflect](Images/05-reflection-55.png)
 
    Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice, which you can view before you select **Next**. This optional step helps you build the healthy habit of checking in with yourself.
 
-6. **Take a minute to breathe** &ndash; This step offers a short video (with sound) that you can experience while taking some relaxing breaths:
+6. **Mindfully disconnect with a one-minute breathing break** &ndash; Follow the animation and the sound to breathe deeply for one minute and exit your work mindset:
  
    ![Breathe](Images/06-breathe-mindfully-55.png)
 
