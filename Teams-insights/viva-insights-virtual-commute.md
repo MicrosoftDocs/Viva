@@ -61,7 +61,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    In this step, you can mark each task as complete (select "**It's done**") or set a reminder:
  
-     ![Close out current tasks](Images/02-close-out-current-tasks-75.png) 
+     ![Close out current tasks](Images/02-close-out-current-tasks-65.png) 
  
    If you do set a reminder, it will appear in the following places:
     * In your Microsoft To Do list.
