@@ -1,5 +1,4 @@
 ---
-
 title: View, download, and export Workplace Analytics query results
 description: Describes how to view, download, and export Workplace Analytics query results to Power BI and other data analysis tools
 author: madehmer
@@ -11,7 +10,7 @@ ms.prod: wpa
 
 # View, download, and export query results
 
-**Role:** The Analyst role is required in Workplace Analytics to view, download, or export query results
+**Role** - The Analyst role is required in Workplace Analytics to view, download, or export query results
   
 In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
@@ -128,7 +127,7 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
 
 Install the latest version of Power BI Desktop:
 
-1. Go to [PowerBI Desktop site](https://powerbi.microsoft.com/desktop/).
+1. Go to [Power BI Desktop site](https://powerbi.microsoft.com/desktop/).
 2. Select **Download free** and follow the online instructions to install and launch it.
 
 ##### Partition access
@@ -149,7 +148,7 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
    To import Person metrics, continue to the next step. Or to connect to a custom person or meeting query:
 
-   * Enter one or more keywords or the complete query name in **Query Name**.
+   * Enter the exact query name in **Query Name** as shown in **Query results**.
    * Or enter the query's ID in **Query Identifier**:
 
      1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
@@ -157,12 +156,12 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
       ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
 
-     3. Repeat these steps to add another query ID. You can add up to two queries at a time.
+     3. You can add up to two queries at a time by adding two query IDs, separated by a comma. When two queries are added at the same time, they are combined into a single table in Power BI.
 
-5. In **Schema Type**, you can optionally select one of the following:
+5. In **Schema Type**, you can _optionally_ select one of the following:
 
-   * **Default** - The imported query data will be the same as what you see in a .csv output file.
-   * **Unpivoted** - Only available for person queries. Select if you want the organizational attribute data to ‘unpivot’ into two columns named **Attribute Name** and **Attribute Value**.
+   * **Pivoted (Default)** - The organizational attribute data is imported by using the default data schema that is used in Workplace Analytics.
+   * **Unpivoted** - Currently only available for person queries. Select to ‘unpivot’ the imported organizational data into two columns named **Attribute Name** and **Attribute Value** for easier comparisons across attributes.
 
 6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
 
