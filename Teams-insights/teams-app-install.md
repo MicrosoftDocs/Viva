@@ -16,7 +16,7 @@ audience: Admin
 
 _**Note:** Starting mid-March, 2021, the Microsoft Viva Insights app will be discoverable in the Teams app bar (on the left) by selecting the ellipsis (…). You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp._
 
-This section describes how to install the Microsoft Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](teams-app-admin-tasks.md).)  
+This section describes how to install the Microsoft Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](teams-app-admin-tasks.md).) 
 
 1. Open Microsoft Teams on the web or in a desktop client. 
 
