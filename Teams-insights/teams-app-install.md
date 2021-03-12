@@ -14,7 +14,7 @@ audience: Admin
 
 # Install the Microsoft Viva Insights app
 
-_**Note:** The Microsoft Viva Insights app will be available starting mid-March, 2021. You'll find it in the Teams app bar (on the left) by selecting the ellipsis (…). For information about managing app availability, see [Manage app permission policies in Teams](https://docs.microsoft.com/microsoftteams/manage-apps)._
+_**Note:** Starting mid-March, 2021, the Microsoft Viva Insights app will be discoverable in the Teams app bar (on the left) by selecting the ellipsis (…). You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp._
 
 This section describes how to install the Microsoft Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](teams-app-admin-tasks.md).)  
 
@@ -36,20 +36,17 @@ This section describes how to install the Microsoft Viva Insights app for yourse
 
    ![Add for me button](Images/add-for-me-new-410.png)
 
-This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.   
-
-> [!Note] 
-> You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp. 
+This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
 ### Pin the app 
 
-After you pin a Teams app, it appears on the Teams app bar (the left navigation bar). 
+After you pin a Teams app, it appears on the Teams app bar (the left navigation bar).
 
-#### On desktop and web client 
+#### On desktop and web client
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
-2. Right-click any app icon and select **Pin** (![Pin an app](Images/pin.png)) to make and keep your app visible in the Teams app bar. 
+2. Right-click any app icon and select **Pin** (![Pin an app](Images/pin.png)) to make and keep your app visible in the Teams app bar.
    
    ![Pin an app in Teams](Images/pin-an-app-in-teams.png)
 
