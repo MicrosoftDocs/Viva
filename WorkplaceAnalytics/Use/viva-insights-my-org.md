@@ -211,7 +211,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
    ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
 
-##### Q3. Can a user get access to the user experience of a manager or a leader?
+##### Q3. Can a user gain access to the user experience of a manager or a leader?
 
 **A3.** Yes. You gain access to an experience if you fulfill the requirements for that experience; for example, if you've been assigned the correct role:
  * To see the prerequisites for the manager (My team) experience, see [My team/Prerequisites](viva-insights-my-team.md#prerequisites).
