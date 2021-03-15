@@ -56,7 +56,7 @@ Also see [How Workplace Analytics calculates influence](#how-workplace-analytics
 
 ## ONA query output
 
-The following columns are included in the query results for ONA queries:
+The following columns are included in the query results for ONA queries:  
 
  * **Person ID.** De-identified ID number for the person represented in that data row.
   * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
