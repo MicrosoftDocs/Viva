@@ -17,7 +17,13 @@ Instead, a more successful strategy uses change agents -- influential, well-conn
 
 Therefore, to help implement change, it pays to know who the influencers are. The Workplace Analytics ONA query was designed for this purpose. It can help you find out who the best-connected people in the company are. It bases this determination on their collaboration characteristics.
 
-This query type lets analysts use a metric called [Influence](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well. After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can connect effectively within or across groups and become efficient drivers of change. 
+This query type lets analysts use two related metrics: 
+
+ * [Influence](../use/metric-definitions.md#influence-define). This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well. 
+
+ * [Influence rank](../use/metric-definitions.md#influence-rank-define). This metric indicates where influencers stand among other influencers. A rank of 1 represents the person with the greatest Influence score; a rank of 2 represents the person with the next greatest Influence score, and so on.
+
+After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can connect effectively within or across groups and become efficient drivers of change. 
 
 Also see [How Workplace Analytics calculates influence](#how-workplace-analytics-calculates-influence).
 
@@ -54,7 +60,7 @@ The following columns are included in the query results for ONA queries:
  * **Person ID.** De-identified ID number for the person represented in that data row.
   * **Date.** The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
  * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
- * **Metrics.** Any metrics that you include in the query. For more information, see [Metric definition: Influence](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
+ * **Metrics.** Any metrics that you include in the query. For more information, see [Influence](../use/metric-definitions.md##influence-define) and [Influence rank](../use/metric-definitions.md##influence-rank-define).
 
 
 ## How Workplace Analytics calculates influence
@@ -63,8 +69,13 @@ The terminology in the following description comes from graph theory. In graph t
 
 Influence indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
 
-The most meaningful information to glean from Influence is the rank of the nodes. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
+### Determine node rank
 
+The most meaningful information to glean from Influence is the rank of the nodes. You can do this by using either of the two pertinent ONA metrics, Influence and Influence rank. 
+
+ * Use [Influence rank](../use/metric-definitions.md##influence-rank-define). This metric assigns to each node a number that corresponds to their relative influence, with the lowest number (1) for the most influential node. This metric can provide you with a simple ranked list.  
+
+ * Use [Influence](../use/metric-definitions.md##influence-define). You use this metric in a more nuanced way than you'd use Influence rank. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
 
 ## Related topics
 
