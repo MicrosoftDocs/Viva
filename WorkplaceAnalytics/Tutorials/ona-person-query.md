@@ -19,9 +19,9 @@ Therefore, to help implement change, it pays to know who the influencers are. Th
 
 This query type lets analysts use two related metrics: 
 
- * [Influence](../use/metric-definitions.md#influence-define). This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well. 
+* [Influence](../use/metric-definitions.md#influence-define). This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well. 
 
- * [Influence rank](../use/metric-definitions.md#influence-rank-define). This metric indicates where influencers stand among other influencers. A rank of 1 represents the person with the greatest Influence score; a rank of 2 represents the person with the next greatest Influence score, and so on.
+* [Influence rank](../use/metric-definitions.md#influence-rank-define). This metric indicates where influencers stand among other influencers. A rank of 1 represents the person with the greatest Influence score; a rank of 2 represents the person with the next greatest Influence score, and so on.
 
 After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can connect effectively within or across groups and become efficient drivers of change. 
 
@@ -31,26 +31,27 @@ Also see [How Workplace Analytics calculates influence](#how-workplace-analytics
 
 **Role:** analyst
 
-1.	In Workplace Analytics, select **Analyze > Queries**.
+1. In Workplace Analytics, select **Analyze > Queries**.
 
-2.	Under **Start custom query**, select **Network: Person**:
+2. Under **Start custom query**, select **Network: Person**:
 
     ![ONA person query](../images/wpa/tutorials/person-ona-query.png)
 
-3.	Select and change **Enter query name here** to a name, and then enter a description for the query.
-4.	For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
+3. Select and change **Enter query name here** to a name, and then enter a description for the query.
+
+4. For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose. 
 
     > [!Note] 
-    > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.   
+    > Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
 
-5.  If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).) 
-6.	Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
-7.	Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
-8.	Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
-9.	Select **Run**. The query takes a few minutes to complete. 
-10.	On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
+5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).) 
+6. Under **Select metrics**, select **Influence**. If you choose, you can also edit the **Display name** of this metric; the edited name will appear as a column name in the query results. (Other metric customization options are not available.)
+7. Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
+8. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
+9. Select **Run**. The query takes a few minutes to complete. 
+10. On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
-> [!Note] 
+> [!Note]
 > You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 ## ONA query output
