@@ -63,7 +63,6 @@ The following columns are included in the query results for ONA queries:
 * **Person attributes.** Attributes about the person supplied through the latest organizational (HR) data upload.
 * **Metrics.** Any metrics that you include in the query. For more information, see [Influence](../use/metric-definitions.md##influence-define) and [Influence rank](../use/metric-definitions.md##influence-rank-define).
 
-
 ## How Workplace Analytics calculates influence
 
 The terminology in the following description comes from graph theory. In graph theory, a "node" (also called a "vertex") is an object that can relate to other nodes -- other objects -- in the graph. This model becomes useful when we extend it to the workplace, where a "node" represents a person who has connections to co-workers and others.  
@@ -74,7 +73,7 @@ Influence indicates a node's potential influence on opinions of the network or a
 
 The most meaningful information to glean from Influence is the rank of the nodes. You can do this by using either of the two pertinent ONA metrics, Influence and Influence rank. 
 
- * Use [Influence rank](../use/metric-definitions.md##influence-rank-define). This metric assigns to each node a number that corresponds to their relative influence, with the lowest number (1) for the most influential node. You can use this metric to obtain a simple ranked list or to evaluate whether a node's network influence is changing over time.
+ * Use [Influence rank](../use/metric-definitions.md##influence-rank-define). This metric assigns to each node a number that corresponds to their relative influence, with the lowest number (1) for the most influential node. You can use this metric, for example, to obtain a simple ranked list or to evaluate whether a node's network influence is changing over time.
 
  * Use [Influence](../use/metric-definitions.md##influence-define). You use this metric in a more nuanced way than you'd use Influence rank. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
 
