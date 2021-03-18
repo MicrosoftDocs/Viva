@@ -96,18 +96,21 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
 ## Dashboard settings
 
-After the Manager effectiveness assessment dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to complete the required attribute settings, which are described in the following list of settings.
+After the Manager effectiveness assessment dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to complete the required attribute settings.
 
-![Manager effectiveness required attribute settings](../Images/WpA/Tutorials/manager-effect-setques.png)
+![Manager effectiveness required attribute settings](../Images/WpA/Tutorials/manager-effect-required.png)
 
-After you select the required settings, select **Next** to view and confirm other parameters in **Settings**, which you can access at anytime by selecting the **Settings** (gear) icon.
+After this initial settings prompt, you can view and change the following required settings anytime by selecting the **Settings** (gear) icon on the **Settings** page.
+
+* **Manager indicator attribute** - Select the attribute that identifies managers who manage people within your organization, such as **SupervisorIndicator**.
+* **Individual contributor attribute value** - Select the attribute value that identifies employees as individual contributors who do not manage people within your organization.
+* **Manager attribute value** - Select the attribute value that identifies employees as managers who manage people within your organization.
+
+After you select the required settings, select **Next** to view and confirm the following parameters in **Settings**.
 
 * **Time period** – Select the time period you want to view data for in the dashboard.
 * **Exclusions** - Select the weeks you want to exclude for everyone in the analysis population, such as holiday weeks where everyone is away from work.
 * **Organizational attribute to view the report by** - For **Dimension**, select the primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
-* **Manager indicator attribute** - Select the attribute that identifies managers who manage people within your organization, such as **SupervisorIndicator**.
-* **Individual contributor attribute value** - Select the attribute value that identifies employees as individual contributors who do not manage people within your organization.
-* **Manager attribute value** - Select the attribute value that identifies employees as managers who manage people within your organization.
 
 ![Manager effectiveness assessment dashboard settings](../Images/WpA/Tutorials/manager-effect-settings.png)
 
