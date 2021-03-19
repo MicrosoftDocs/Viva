@@ -74,9 +74,9 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
    This starts the creation of a data set that will contain data that matches these criteria (and no other data). The time required to process the data set depends on its size.
 
-### Data set status
+### Data set statuses
 
-Right after you select **Submit**, the data set has a status of "In progress"; after it is created, its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set obtains "Failed" status. <!-- Any advice here? -->
+Right after you select **Submit**, the data set has a status of "In progress"; after it is created, its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set obtains "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
 You can find a list of existing data sets and their statuses on the **Analysis settings** > **Data sets** page of Workplace Analytics:
 
@@ -175,42 +175,48 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
    >[!Note]
    >As you add keywords, the system becomes more context-aware. It automatically begins to uncover more content that's relevant to the keywords that you've added. It shows this new content in the results list.  
 
-7. You might be aware of phrases that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add phrases directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by commas), and press Enter.
+7. You might be aware of phrases that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add phrases directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by semicolons), and press Enter.
 
 8. Look at the numbers of meeting hours and meetings at the top of the page:
 
    ![Meeting hours](../images/wpa/tutorials/meeting-hours.png)
 
-   The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire data set. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have selected. These smaller numbers change as you add or delete keywords. 
+   The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire data set. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have selected. These smaller numbers change as you add or delete keywords.
 
    If you are familiar with the hiring process, these numbers could indicate that your selection of keywords is too narrow (too few meetings and hours) or too broad (too many), after which you can adjust accordingly by adding or deleting keywords.
  
 9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save as draft**, return later, and resume where you left off.
 
+10. When you're finished defining the business process, select **Submit**.
 
-
- 
 ### Business process statuses
 
-The following are the list of statuses for any Business process (including OOTB topics): 
+Business processes can have the following status:
  
-* Draft &ndash; This indicates that a Business process is being created or edited but not yet submitted to the system. This is an intermittent state until the analyst feels that the Business process is ready to be submitted for processing by the system 
+* Draft &ndash; You are creating or editing the business process but you have not selected **Submit**.  
  
-* In progress &ndash; This indicates that a Business process has just been created and is being processed by the system 
- 
-* Ready &ndash; This indicates that a Business process has been successfully published and is readily accessible across WpA (scopes permitting of course) 
+* In progress &ndash; You've selected **Submit** and the business process is being processed by the system.
 
-* Archived &ndash; This indicates that a Business process has been archived 
+* Ready &ndash; The business process has been successfully published and can be used in Workplace Analytics by an analyst in the same partition.
 
-* Error: This is a generic catch-all failed state that indicates that processing of the Business process itself has failed, when it is switching from “In progress” to the “Ready” state 
+* Error &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+
+You can find a list of existing business processes and their statuses on the **Analysis settings** > **Data sets** page of Workplace Analytics:
+
+![Data sets page](../images/wpa/tutorials/data-set-statuses.png)
 
 ### Analyze a business process
 
 You analyze business processes by using Workplace Analytics [queries](query-basics.md). You can use the following query types in this kind of analysis:
 
-* Meeting
-* Person 
+* [Meeting queries](meeting-queries.md)
+
+* [Person queries](person-queries.md)
 
 ## Related topics
 
-* [Meeting exclusions in Workplace Analytics](meeting-exclusions-intro.md)
+* [Prepare organizational data](../setup/prepare-organizational-data.md)
+
+* [Meeting queries](meeting-queries.md)
+
+* [Person queries](person-queries.md)
