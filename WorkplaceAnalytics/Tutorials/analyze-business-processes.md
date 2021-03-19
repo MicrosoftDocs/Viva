@@ -72,29 +72,30 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 1. Select **Submit**.
 
-This starts the creation of a data set that only contains data that matches these criteria. After the data set is ready, you can use it in your upcoming business-definition process and analysis.
+   This starts the creation of a data set that will contain data that matches these criteria (and no other data). Right after you select **Submit**, the data set has a status of "In progress"; after it is created, its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set obtains "Failed" status. <!-- Any advice here? -->
+
+### Data set actions
+
+After a data set has been created, it can be viewed, used, or deleted, but it cannot be edited. A dataset can be deleted only if no business processes are using it. After you delete a data set, it cannot be recovered.
 
 ## Define a business process
 
-Before you can run a query to analyze business processes within your organization, you need to define them. This way, you can later use them in filters in your query.
+Before you can run a query to analyze business processes within your organization, you need to define them. This way, you can later use them in filters in one or more queries.
 
-You define a business process by selecting meetings in which people  contributed to the furtherance of the process. This set of selected meetings provides the data that constitutes the business-process filter.
-
-You select meetings by using the **New business process** page in the **Analyze** area of Workplace Analytics:  
+You define a business process by selecting meetings in which people  contributed to the furtherance of the process. This set of selected meetings provides the data that constitutes the business-process filter. Meetings are selected on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
 ![Biz process start page](../images/wpa/tutorials/start-page.png)
 
-To select meetings, you assemble a list of keywords that match words in the subject lines of meetings that you want to include or exclude. These keywords then determine which meetings constitute the business process.
+To select meetings, you assemble a list of keywords that match words in the subject lines of meetings that you want to include or exclude. The resulting set of keywords determines which meetings constitute the business process.
 
 >[!Note]
->Currently, you can use only English keywords in this process. 
+>Currently, you can use only English keywords in the process of defining a business process. This holds true even if you're running an instance of Workplace Analytics whose user interface is in a language other than English.
 
 ### Business process steps
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
-2. 
 
-
+1. 
 
 
 ### Business process statuses
