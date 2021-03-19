@@ -2,7 +2,7 @@
 
 title: Explore external collaboration data in Workplace Analytics
 description: An overview of external collaboration data available in Workplace Analytics
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -18,9 +18,9 @@ ms.prod: wpa
 
 ![External collaboration](../images/wpa/use/external-collab-top.png)
 
-External collaboration includes a number of graphs that enable you to analyze data based on the selected page settings, such as collaboration hours or collaboration cost.
+External collaboration includes a number of graphs that enable you to analyze data based on the selected page settings, such as total collaboration hours or total collaboration cost.
 
-![Explore filters](../images/wpa/use/19-discover-which-groups.png)
+![Explore filters](../images/wpa/use/external-collab-chart.png)
 
 ## Access to External collaboration
 
@@ -30,7 +30,7 @@ External collaboration includes a number of graphs that enable you to analyze da
 
 Most graphs include Trend and Distribution charts also, with some exceptions.
 
-**Trend** charts show changes over time, for example, the trend of the group average, month by month.
+**Trend** charts show changes over time, for example, the trend of the group average, month to month.
 
 **Distribution charts** show the statistical distribution of metrics, such as the minimum, maximum, median, upper and lower percentiles for the group.  
 
@@ -39,32 +39,26 @@ For more information, see [Workplace Analytics Charts](../use/chart-types.md).
 
 ## Summary header
 
-The summary header at the top of the external collaboration page provides a summary of the results of external collaboration during the selected period, as shown in the image.
+The External collaboration page includes the following summary information.
 
-![Collaboration summary](../images/wpa/use/ext-collab-summary.png)
-
-Explanation of numbered sections:
-
-1. This section shows a summary of the external collaboration and the level of engagement during the selected period.
-2. **Measured employees** are those employees who have been assigned a Workplace Analytics license. (Any filters applied in [Page settings](#page-settings) do not change this number.)
-3. The filter group comprises the number of employees who had some collaboration during the date range and who match the filter applied in [Page settings](#page-settings).
-4. This number represents the estimated cost of external collaboration with external domains, calculated by using the formula: total external collaboration hours multiplied by the average hourly wage for your company. This is configured by your Workplace Analytics administrator.
-5. This number represents the percentage of measured employees in your company who had one or more external interactions during the selected period.
-6. This number represents external collaboration hours as a percentage of the total collaboration hours spent by the measured employees in your company.
-7. This number represents the total number of external people with whom the measured employees have collaborated at least once during the selected period. This number does not change with any filter applied in [Page settings](#page-settings).
+* The time period for the weekly averages.
+* The number of **measured employees** who have been assigned a Workplace Analytics license. (Any filters applied in [Page settings](#page-settings) do not change this number.)
+* **In filter group** shows the number of employees who had collaboration activity during the date range and are included in the filter applied in [Page settings](#page-settings).
+* Estimated cost of external collaboration with external domains, which is the total external collaboration hours multiplied by the average hourly wage for your company.
+* Percentage of measured employees in your company who had one or more external interactions during the set time period.
+* The total number of external collaborators are those whom the measured employees collaborated with at least one time during the set time period. This number does not change with any filter applied in [Page settings](#page-settings).
+* Percentage of and total number of collaboration hours that employees spent collaborating with people who are outside the company at least one time during the set time period.
 
 ## Top external domains
 
 The following graph shows the top external domains that people in the company spend the most time with. You can pivot the data by using various settings, such as total collaboration hours, total collaboration cost, or number of employees engaged.
 
->[!Note] 
-> Personal email domains, for example, hotmail.com or live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce "noise."  
-
-![External domains](../images/wpa/use/31-ext-domains-most-time.png)
+>[!Note]
+> Personal email domains, such as live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce "noise."  
 
 **Bar chart**
 
-The horizontal bar chart shows the top ten domains that your people collaborate with, sorted in descending order, based on the selected drop-down menu option. You can scroll to see more domains. 
+The horizontal bar chart shows the top ten domains that employees collaborated with, sorted in descending order, based on the selected drop-down menu option. You can scroll to see more domains.
 
 *Total collaboration hours*
 
