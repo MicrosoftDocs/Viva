@@ -50,7 +50,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 1. On the **Analysis settings** page, select **Data sets** and then, on the right side of the page, select **Add data set**.
 
-1. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we type **Bangalore hiring** for the name.) Select **Continue**.
+1. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we typed **Bangalore hiring** for the name of the data set.) Select **Continue**.
 
 1. Under **Time period** select start and end dates. All meetings that took place outside of this time period will be excluded from the data set.
 
