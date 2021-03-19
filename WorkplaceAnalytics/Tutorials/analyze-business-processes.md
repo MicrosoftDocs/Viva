@@ -50,7 +50,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 1. On the **Analysis settings** page, select **Data sets** and then, on the right side of the page, select **Add data set**.
 
-1. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we typed **Bangalore hiring** for the name of the data set.) Select **Continue**.
+1. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we'll give **Bangalore** as the name of the data set.) Select **Continue**.
 
 1. Under **Time period** select start and end dates. All meetings that took place outside of this time period will be excluded from the data set.
 
@@ -72,28 +72,51 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 1. Select **Submit**.
 
-   This starts the creation of a data set that will contain data that matches these criteria (and no other data). Right after you select **Submit**, the data set has a status of "In progress"; after it is created, its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set obtains "Failed" status. <!-- Any advice here? -->
+   This starts the creation of a data set that will contain data that matches these criteria (and no other data). The time required to process the data set depends on its size.
+
+### Data set status
+
+Right after you select **Submit**, the data set has a status of "In progress"; after it is created, its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set obtains "Failed" status. <!-- Any advice here? -->
+
+You can find a list of existing data sets and their statuses on the **Analysis settings** > **Data sets** page of Workplace Analytics:
+
+![Data sets page](../images/wpa/tutorials/data-set-statuses.png)
 
 ### Data set actions
 
 After a data set has been created, it can be viewed, used, or deleted, but it cannot be edited. A dataset can be deleted only if no business processes are using it. After you delete a data set, it cannot be recovered.
 
+To view or delete a data set, first find it on the **Analysis settings** > **Data sets** page of Workplace Analytics.
+
 ## Define a business process
 
-Before you can run a query to analyze business processes within your organization, you need to define them. This way, you can later use them in filters in one or more queries.
-
-You define a business process by selecting meetings in which people  contributed to the furtherance of the process. This set of selected meetings provides the data that constitutes the business-process filter. Meetings are selected on the **New business process** page in the **Analyze** area of Workplace Analytics:  
+Before you can run queries to analyze a business process within your organization, you need to define it. You define a business process by selecting meetings in which people contributed to the furtherance of the process. This set of selected meetings provides the data that constitutes the business-process filter. Meetings are selected on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
 ![Biz process start page](../images/wpa/tutorials/start-page.png)
 
-To select meetings, you assemble a list of keywords that match words in the subject lines of meetings that you want to include or exclude. The resulting set of keywords determines which meetings constitute the business process.
+To select meetings, you assemble a list of keywords that match words in the subject lines of meetings in your data set. The set of keywords determines which meetings constitute the business process.
 
 >[!Note]
->Currently, you can use only English keywords in the process of defining a business process. This holds true even if you're running an instance of Workplace Analytics whose user interface is in a language other than English.
+>Currently, you can use only English keywords in the process of defining a business process. This holds true even if your instance of Workplace Analytics is in a language other than English.
 
 ### Business process steps
 
-1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
+In this example, we want to examine the hiring process that's in place in the Bangalore subsidiary. To be sure that the data we use is restricted to the correct geographic area, we will use the "Bangalore" data set that we defined in the [Data set steps](#data-set-steps) procedure.
+
+Now, we will add add restrictions to limit our analysis to data that relates to hiring. Our data consists of meetings that have taken place. Our goal, therefore, is to examine meetings that took place for the purpose of hiring or recruitment.
+
+>[!Note]
+>By creating a business process (and the data set that it is based on), we are merely providing a scoped set of data. Actual analysis takes place later, when we create and run queries.  
+
+1. In Workplace Analytics, on the left navigation pane, expand **Analysis settings** and select **Business processes**.
+
+1. On the **Analysis settings** > **Business processes** page, select **Add Business process**.
+
+1. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Bangalore hiring** for the name of the business process.) Select **Continue**.
+
+1. For **Data set**, select the data set that we recently created, **Bangalore**.
+
+1. For **Content type**, leave **Meetings** selected, and select **Continue**.
 
 1. 
 
