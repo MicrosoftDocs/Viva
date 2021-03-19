@@ -56,7 +56,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 1. Under **Meeting exclusions**, specify a [meeting exclusion rule](meeting-exclusions-intro.md) or accept the default, the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule).
 
-1. Under **Which meetings do you want to include in your query results?**, define filters to scope the data set to the business-process analysis that you want to perform. You'll use these filters to filter out meetings. Select **Add filter**. 
+1. Under **Which meetings do you want to include in your query results?**, define filters to scope the data set to the business-process analysis that you want to perform. You'll use these filters to filter out meetings. Select **Add filter**.
 
 1. Select **Meeting**:
 
@@ -64,15 +64,15 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 1. In the boxes to the right of **Meeting's**, select **Duration (in hours)**, **<** (less than), and **30** minutes.
 
-1. On the next line, select **Organizer**. We make this selection to be able to choose a geographic location for the meetings. 
+1. On the next line, select **Organizer**. This lets us choose a geographic location for the meetings.
 
    ![Add an Organizer filter](../images/wpa/tutorials/organizer.png)
 
-1. In the boxes to the right of **Organizer's**, select **city**, **Equals**, and **Bangalore**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Workplace Analytics admin has uploaded.) 
+1. In the boxes to the right of **Organizer's**, select **city**, **Equals**, and **Bangalore**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Workplace Analytics admin has uploaded.)
 
 1. Select **Submit**.
- 
-This starts the creation of a data set that only contains data that matches these criteria. After the data set is ready, you can use it in your upcoming business-definition process and analysis. 
+
+This starts the creation of a data set that only contains data that matches these criteria. After the data set is ready, you can use it in your upcoming business-definition process and analysis.
 
 ## Define a business process
 
