@@ -13,8 +13,6 @@ manager: scott.ruble
 
 # Introduction
 
-**Role:** Analyst
-
 When you and your co-workers perform an organized series of steps to reach a goal, you've participated in a business process. For example, your organization's hiring process might consist of obtaining leads, screening candidates, conducting interviews, making an offer, and sending new hires to HR for onboarding. Later business processes might have goals of training or coaching.
 
 You can improve your business processes by analyzing them; for example, by measuring their cost &ndash; in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees are participating in them.
@@ -41,6 +39,8 @@ Before you define a business process, you need to select the data set that's app
 To define a data set, use the following procedure:
 
 ### Data set steps
+
+**Role:** Analyst
 
 Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process). 
 
@@ -101,24 +101,60 @@ To select meetings, you assemble a list of keywords that match words in the subj
 
 ### Business process steps
 
-In this example, we want to examine the hiring process that's in place in the Bangalore subsidiary. To be sure that the data we use is restricted to the correct geographic area, we will use the "Bangalore" data set that we defined in the [Data set steps](#data-set-steps) procedure.
+In this example, we want to examine the hiring process that's in place in the Bangalore subsidiary. To make sure that the data we use is restricted to the correct geographic area, we'll use the "Bangalore" data set that we defined in [Data set steps](#data-set-steps).
 
-Now, we will add add restrictions to limit our analysis to data that relates to hiring. Our data consists of meetings that have taken place. Our goal, therefore, is to examine meetings that took place for the purpose of hiring or recruitment.
+We will describe the creation of a business process in two procedures:
 
->[!Note]
->By creating a business process (and the data set that it is based on), we are merely providing a scoped set of data. Actual analysis takes place later, when we create and run queries.  
+1. Create a new business process
+2. Add meeting filters
+
+#### Create a new business process
+
+**Role:** Analyst
+
+In these steps, we create and name an empty business process.
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analysis settings** and select **Business processes**.
 
-1. On the **Analysis settings** > **Business processes** page, select **Add Business process**.
+2. On the **Analysis settings** > **Business processes** page, select **Add Business process**.
 
-1. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Bangalore hiring** for the name of the business process.) Select **Continue**.
+3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Bangalore hiring** for the name of the business process.) Select **Continue**.
 
-1. For **Data set**, select the data set that we recently created, **Bangalore**.
+4. For **Data set**, select the data set that we recently created, **Bangalore**.
 
-1. For **Content type**, leave **Meetings** selected, and select **Continue**.
+5. For **Content type**, leave **Meetings** selected, and select **Continue**.
 
-1. 
+6. Go to the following procedure.
+
+#### Add meeting filters
+
+**Role:** Analyst
+
+Now, add restrictions to limit the analysis to data that relates to hiring. The data consists of meetings that have taken place. The goal, therefore, is to examine meetings that took place for the purpose of hiring or recruitment.
+
+Start on the **New business process** page:
+
+![Biz process start page](../images/wpa/tutorials/keyword-page.png)
+
+As an analyst, your goal is to find the keywords that most effectively filter out meetings that don't apply. The **New business process** mechanisms help you find those keywords. You start by typing words that you think might work. In this example, that means words related to hiring and recruitment.
+
+1. In the field marked **Enter a search term**, type **interview** and press Enter. The system searches for content that's related to "interview" and it displays its findings in a table.
+
+   ![Results table](../images/wpa/tutorials/result-words.png)
+
+2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Phrase**, **Attendee meeting hours**, or **Meeting count**).
+
+3. Scan the words in the **Phrase** column. Which ones do you find relate most closely to the concept of "hiring in Bangalore" (the business process to be analyzed)?
+
+   If it's not immediately evident which words to select as keywords, there are two ways you can examine them more closely:
+
+   * <u>Find related meetings.</u> Select the word. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to select this word as a keyword. 
+
+   * <u>Fine related phrases</u>. Expand the entry of the word by selecting the arrow to its left. This shows phrases that included the expanded terms in meeting subject lines. For example, if you expand **developer**, you might see the phrases "developer interviews," "developer hiring schedule," and, simply, "developer." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
+
+4. After you decide that a phrase is relevant, select it as a keyword. To do this, 
+
+5. 
 
 
 ### Business process statuses
