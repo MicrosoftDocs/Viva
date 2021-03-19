@@ -138,7 +138,7 @@ Start on the **New business process** page:
 
 As an analyst, your goal is to find the keywords that most effectively filter out meetings that don't apply. The **New business process** mechanisms help you find those keywords. You start by typing words that you think might work. In this example, that means words related to hiring and recruitment.
 
-1. In the field marked **Enter a search term**, type **interview** and press Enter. The system searches for content that's related to "interview" and it displays its findings in a table.
+1. In the field marked **Enter a search term**, type **interview** and press Enter. The system searches for content that's related to "interview" and displays the results in a table.
 
    ![Results table](../images/wpa/tutorials/result-words.png)
 
@@ -152,11 +152,23 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
    * <u>Fine related phrases</u>. Expand the entry of the word by selecting the arrow to its left. This shows phrases that included the expanded terms in meeting subject lines. For example, if you expand **developer**, you might see the phrases "developer interviews," "developer hiring schedule," and, simply, "developer." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
-4. After you decide that a phrase is relevant, select it as a keyword. To do this, 
+4. After you decide that a phrase is relevant, select it as a keyword. To do this, first select the term by clicking to its left: 
 
-5. 
+   ![Select term](../images/wpa/tutorials/select-terms.png)
 
+5. With one or more terms checked, select **Add selected to** and then select **Included keywords**.
 
+   ![Add terms to list](../images/wpa/tutorials/add-terms-to.png)
+
+   After you include a term, it appears in the **Included keywords** list to the right of the results table:
+
+   ![Term added to list](../images/wpa/tutorials/added-to-list-60.png)
+
+6. (Optional) To explicitly _exclude_ terms from the keyword list, repeat the preceding step but after you select **Add selected to**, select **Excluded keywords**.
+
+1. 
+1. 
+1. 
 ### Business process statuses
 
 The following are the list of statuses for any Business process (including OOTB topics): 
