@@ -201,9 +201,9 @@ Business processes can have the following status:
 
 * Error &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
-You can find a list of existing business processes and their statuses on the **Analysis settings** > **Data sets** page of Workplace Analytics:
+You can find a list of existing business processes and their statuses on the **Analyze** > **Business process analysis** page of Workplace Analytics:
 
-![Data sets page](../images/wpa/tutorials/data-set-statuses.png)
+![Data sets page](../images/wpa/tutorials/business-processes.png)
 
 ### Analyze a business process
 
