@@ -152,7 +152,13 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
    * <u>Fine related phrases</u>. Expand the entry of the word by selecting the arrow to its left. This shows phrases that included the expanded terms in meeting subject lines. For example, if you expand **developer**, you might see the phrases "developer interviews," "developer hiring schedule," and, simply, "developer." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
-4. After you decide that a phrase is relevant, select it as a keyword. To do this, first select the term by clicking to its left: 
+4. After you decide that a phrase is relevant, designate it as a keyword.
+
+   a. First, select the phrase: Hover your mouse over the phrase's row to see an unselected checkbox to the left of the phrase. 
+
+   ![Unselected term](../images/wpa/tutorials/unchecked-box.png)
+
+   b. Then, click the checkbox:
 
    ![Select term](../images/wpa/tutorials/select-terms.png)
 
@@ -166,9 +172,16 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
 6. (Optional) To explicitly _exclude_ terms from the keyword list, repeat the preceding step but after you select **Add selected to**, select **Excluded keywords**.
 
-1. 
-1. 
-1. 
+   >[!Note]
+   >As you add keywords, the system becomes more context-aware. It automatically begins to uncover more content that's relevant to the keywords that you've added. It shows this new content in the results list.  
+
+7. You can add phrases to the keyword list that do not appear in the results table. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by commas), and press Enter.
+ 
+8. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save as draft**, return later, and resume where you left off.
+
+
+
+ 
 ### Business process statuses
 
 The following are the list of statuses for any Business process (including OOTB topics): 
