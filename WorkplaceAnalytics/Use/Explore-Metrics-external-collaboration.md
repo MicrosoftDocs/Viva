@@ -61,9 +61,9 @@ The second graph shows which groups in your company have the most people collabo
 
 ![External collaboration domains](../images/wpa/use/external-collab-groups.png)
 
-## Top groups collaborating with external people based on weekly averages
+## Groups collaborating with external people based on weekly averages
 
-This graph shows the top groups who collaborated with external domains based on weekly averages of either total collaboration hours or cost. The top groups are based on the total number of people who had one or more interactions (meetings or email) with people outside the company within the selected date range. The external domains are defined by the group-by attribute for **Time investors** in [Settings and filters](#settings-and-filters).
+This graph shows the top groups who collaborated with external domains based on weekly average number of either total collaboration hours or cost. The top groups are based on the total number of people who had one or more interactions (meetings or email) with people outside the company within the selected date range. The external domains are defined by the group-by attribute for **Time investors** in [Settings and filters](#settings-and-filters).
 
 ![External groups based on weekly averages](../images/wpa/use/external-collab-weekly.png)
 
