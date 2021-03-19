@@ -168,16 +168,24 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
    After you include a term, it appears in the **Included keywords** list to the right of the results table:
 
-   ![Term added to list](../images/wpa/tutorials/added-to-list-60.png)
+   ![Term added to list](../images/wpa/tutorials/added-to-list-50.png)
 
 6. (Optional) To explicitly _exclude_ terms from the keyword list, repeat the preceding step but after you select **Add selected to**, select **Excluded keywords**.
 
    >[!Note]
    >As you add keywords, the system becomes more context-aware. It automatically begins to uncover more content that's relevant to the keywords that you've added. It shows this new content in the results list.  
 
-7. You can add phrases to the keyword list that do not appear in the results table. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by commas), and press Enter.
+7. You might be aware of phrases that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add phrases directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by commas), and press Enter.
+
+8. Look at the numbers of meeting hours and meetings at the top of the page:
+
+   ![Meeting hours](../images/wpa/tutorials/meeting-hours.png)
+
+   The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire data set. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have selected. These smaller numbers change as you add or delete keywords. 
+
+   If you are familiar with the hiring process, these numbers could indicate that your selection of keywords is too narrow (too few meetings and hours) or too broad (too many), after which you can adjust accordingly by adding or deleting keywords.
  
-8. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save as draft**, return later, and resume where you left off.
+9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save as draft**, return later, and resume where you left off.
 
 
 
