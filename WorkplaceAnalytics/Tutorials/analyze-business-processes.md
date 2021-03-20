@@ -26,8 +26,12 @@ Here are the procedures to follow to analyze a business process:
 2. [Define a business process](#define-a-business-process) &ndash; Define the business process that you want to analyze.
 
 3. [Analyze a business process](#analyze-a-business-process) &ndash; Compose and run a Workplace Analytics query in which you select the data set and business process as parameters.
+ 
+This illustration shows these procedures and the types of data that they involve: 
 
-The following sections describe these processes.
+![Add a Meeting filter](../images/wpa/tutorials/steps-2-65.png)
+
+The following sections describe these procedures.
 
 > [!Note]
 > After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
