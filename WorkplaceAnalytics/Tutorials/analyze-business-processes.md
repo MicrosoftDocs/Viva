@@ -29,7 +29,7 @@ Here are the procedures to follow to analyze a business process:
  
 This illustration shows these procedures and the types of data that they involve: 
 
-![Add a Meeting filter](../images/wpa/tutorials/steps-2-65.png)
+![Add a Meeting filter](../images/wpa/tutorials/steps-2-70.png)
 
 The following sections describe these procedures.
 
