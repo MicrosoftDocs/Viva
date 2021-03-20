@@ -152,13 +152,13 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
    * <u>Fine related phrases</u>. Expand the entry of the word by selecting the arrow to its left. This shows phrases that included the expanded terms in meeting subject lines. For example, if you expand **developer**, you might see the phrases "developer interviews," "developer hiring schedule," or, simply, "developer." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
-4. After you decide that a phrase is relevant, designate it as a keyword.
+4. After you decide that a phrase is relevant, designate it as a keyword by using these steps:
 
-   a. First, select the phrase: Hover your mouse over the phrase's row to see an unselected checkbox to the left of the phrase. 
+   a. Hover your mouse over the phrase's row to see an unselected checkbox to the left of the phrase. 
 
    ![Unselected term](../images/wpa/tutorials/unchecked-box.png)
 
-   b. Then, click the checkbox:
+   b. Then, select the checkbox:
 
    ![Select term](../images/wpa/tutorials/select-terms.png)
 
@@ -205,7 +205,7 @@ You can find a list of existing business processes and their statuses on the **A
 
 ![Data sets page](../images/wpa/tutorials/business-processes.png)
 
-### Analyze a business process
+## Analyze a business process
 
 You analyze business processes by using Workplace Analytics [queries](query-basics.md). You can use the following query types in this kind of analysis:
 
