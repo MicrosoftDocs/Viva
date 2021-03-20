@@ -11,7 +11,7 @@ manager: scott.ruble
 
 ---
 
-# Introduction
+# Analyze business processes
 
 When you and your co-workers perform an organized series of steps to reach a goal, you've participated in a business process. For example, your organization's hiring process might consist of obtaining leads, screening candidates, conducting interviews, making an offer, and sending new hires to HR for onboarding. Later business processes might have goals of training or coaching.
 
@@ -191,19 +191,19 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
  
 9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save as draft**, return later, and resume where you left off.
 
-10. When you're finished defining the business process, select **Submit**.
+10. When you're finished defining the business process, select **Submit**. The system starts processing your new business process and gives it a [status](#business-process-statuses) of "In progress."
 
 ### Business process statuses
 
 Business processes can have the following status:
  
-* Draft &ndash; You are creating or editing the business process but you have not selected **Submit**.  
+* <u>Draft</u> &ndash; You are creating or editing the business process but you have not selected **Submit**.  
  
-* In progress &ndash; You've selected **Submit** and the business process is being processed by the system.
+* <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system.
 
-* Ready &ndash; The business process has been successfully published and can be used in Workplace Analytics by an analyst in the same partition.
+* <u>Ready</u> &ndash; The business process has been successfully published and can be used in Workplace Analytics by an analyst in the same partition.
 
-* Error &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+* <u>Error</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
 You can find a list of existing business processes and their statuses on the **Analyze** > **Business process analysis** page of Workplace Analytics:
 
