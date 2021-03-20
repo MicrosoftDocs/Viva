@@ -105,8 +105,8 @@ In this example, we want to examine the hiring process that's in place in the Ba
 
 We will describe the creation of a business process in two procedures:
 
-1. Create a new business process
-2. Add meeting filters
+1. [Create a new business process](#create-a-new-business-process)
+2. [Add meeting filters](#add-meeting-filters)
 
 #### Create a new business process
 
@@ -150,7 +150,7 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
    * <u>Find related meetings.</u> Select the word. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to select this word as a keyword. 
 
-   * <u>Fine related phrases</u>. Expand the entry of the word by selecting the arrow to its left. This shows phrases that included the expanded terms in meeting subject lines. For example, if you expand **developer**, you might see the phrases "developer interviews," "developer hiring schedule," and, simply, "developer." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
+   * <u>Fine related phrases</u>. Expand the entry of the word by selecting the arrow to its left. This shows phrases that included the expanded terms in meeting subject lines. For example, if you expand **developer**, you might see the phrases "developer interviews," "developer hiring schedule," or, simply, "developer." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
 4. After you decide that a phrase is relevant, designate it as a keyword.
 
