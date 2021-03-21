@@ -148,9 +148,9 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
 2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Phrase**, **Attendee meeting hours**, or **Meeting count**).
 
-3. Scan the words in the **Phrase** column. Which ones do you find relate most closely to the concept of "hiring in Bangalore" (the business process to be analyzed)?
+3. Scan the phrases in the **Phrase** column. Which ones do you find relate most closely to the concept of "hiring in Bangalore" (the business process to be analyzed)?
 
-   If it's not clear which words to select as keywords, you can examine them more closely in either of these ways:
+   If it's not clear which phrases to select as keywords, you can examine them more closely in either of these ways:
 
    * <u>Find related meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to designate this phrase as a keyword. 
 
