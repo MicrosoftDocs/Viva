@@ -152,7 +152,7 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
    If it's not clear which words to select as keywords, you can examine them more closely in either of these ways:
 
-   * <u>Find related meetings.</u> Click the word. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to designate this word as a keyword. 
+   * <u>Find related meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to designate this phrase as a keyword. 
 
    * <u>Find related phrases</u>. Expand the phrase by selecting the ">" (greater-than) sign to its left. This shows meeting subject lines that included the phrase. For example, if you expand the phrase **developer**, you might see "developer interviews" or "developer hiring schedule." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**). 
 
