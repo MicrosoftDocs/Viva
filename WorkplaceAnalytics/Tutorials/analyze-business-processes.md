@@ -150,7 +150,7 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
 3. Scan the words in the **Phrase** column. Which ones do you find relate most closely to the concept of "hiring in Bangalore" (the business process to be analyzed)?
 
-   If it's not immediately evident which words to select as keywords, there are two ways you can examine them more closely:
+   If it's not clear which words to select as keywords, you can examine them more closely in either of these ways:
 
    * <u>Find related meetings.</u> Click the word. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to designate this word as a keyword. 
 
