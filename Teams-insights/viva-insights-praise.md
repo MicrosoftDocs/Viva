@@ -100,11 +100,9 @@ You can set praise reminders either on the [**Settings** page](team-app-settings
 
    ![Select Praise on Home page](images/home-page-two-hours.png)
 
-2. On the praise reminder card, select a day and time: 
+2. In the praise reminder settings, select the time of day and day of the week, and then move the **Reminders** slider to **On**:
 
-   ![Praise reminder](images/set-praise-reminder-50.png)
-
-3. Select **Set reminder**. 
+   ![Praise reminder](images/praise-settings-page.png)
 
    On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).   
 
