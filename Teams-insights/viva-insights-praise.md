@@ -30,9 +30,9 @@ To send praise, first open the praise feature. You can do so in two places:
 
 ### Send praise from the Home page 
 
-1. On the Home page, select the **Send praise to your colleagues** card:
+1. On the Home page, select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
-   ![Praise on Home page](images/praise-from-home.png)
+   ![Praise on Home page](images/home-page-two-hours.png)
 
    <!-- VERIFY THAT YOU CAN CLICK ANYWHERE ON THE CARD, NOT JUST THE IMAGES OR WORDS. -->
 
