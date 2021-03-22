@@ -80,7 +80,7 @@ You can use the following web browsers to view your MyAnalytics dashboard:
 * Apple Safari (latest version)
 * Mozilla Firefox (latest version)
 
-As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
+As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
 
 ## Language support
 
@@ -88,7 +88,7 @@ MyAnalytics is available in the same languages as Microsoft Office. See [What la
 
 ## Prerequisites and exclusions
 
-* [Microsoft Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for MyAnalytics and the Outlook add-in.
+* [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for MyAnalytics and the Outlook add-in.
 
 * **Licensing exclusion:** Shared mailboxes cannot use and are not supported by the MyAnalytics service plan.
 

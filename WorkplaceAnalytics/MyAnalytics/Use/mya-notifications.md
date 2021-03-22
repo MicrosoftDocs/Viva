@@ -25,7 +25,7 @@ Inline suggestions can help boost your productivity and that of your team by dis
 Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place:
 
 * You have Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
-* Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/).
+* Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
 
 In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
 
@@ -145,7 +145,7 @@ When composing an email or calendar invitation in Outlook about your upcoming ti
 ![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
 
 >[!Note]
->This suggestion is only available if you have an E5 plan. It's coming soon to E1/E3 plans. This feature falls under the preview of [connected experiences that analyze your content in Office](https://docs.microsoft.com/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
+>This suggestion is only available if you have an E5 plan. It's coming soon to E1/E3 plans. This feature falls under the preview of [connected experiences that analyze your content in Office](/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 

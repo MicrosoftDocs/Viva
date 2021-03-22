@@ -21,7 +21,7 @@ A few tips to help you use these dashboards in Power BI:
 * **Drill down into a visual that has a hierarchy** - When a visual has a hierarchy, you can drill down to reveal additional details. Some of the charts in the dashboards support this capability, such as the "By Organization and Level Designation" chart in the Business Continuity dashboard.
 * **Export data as a table** – From the upper right corner of any visualization, select **More options** (**…**) and select **Export data**.
 
-For more details about using Power BI, see [Interact with visuals in reports, dashboards, and apps](https://docs.microsoft.com/power-bi/consumer/end-user-visualizations).
+For more details about using Power BI, see [Interact with visuals in reports, dashboards, and apps](/power-bi/consumer/end-user-visualizations).
 
 ## Share a dashboard
 
@@ -29,14 +29,14 @@ Like other products that work with sensitive data, such as HR systems, Workplace
 
 Anyone you share the Power BI *desktop file* with can access the underlying dataset at the same level of granularity as a Workplace Analytics Analyst. For this reason, consider the following alternatives that do not provide access to the underlying data:
 
-* **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports from Power BI to PDF](https://docs.microsoft.com/power-bi/consumer/end-user-pdf).
-* **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Distribute insights in an app](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports#distribute-insights-in-an-app) for details.
+* **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports from Power BI to PDF](/power-bi/consumer/end-user-pdf).
+* **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Distribute insights in an app](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#distribute-insights-in-an-app) for details.
 
 ## Frequently asked questions
 
 ##### Q1 Who can create the dashboard in Power BI?
 
-You must be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics to create the dashboard. You must also have a Power BI license and have the desktop version installed. See [Install and run Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
+You must be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics to create the dashboard. You must also have a Power BI license and have the desktop version installed. See [Install and run Power BI Desktop](/power-bi/desktop-getting-started#install-and-run-power-bi-desktop) for details.
 
 ##### Q2 How frequently is data refreshed in the dashboard?
 
@@ -71,11 +71,11 @@ Only the required Organizational attributes are used when setting up the Power B
 
 ##### Q9 How do I integrate additional metrics or data sources with this dashboard?
 
-See [Connect to data in Power BI](https://docs.microsoft.com/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
+See [Connect to data in Power BI](/power-bi/connect-data/) to learn more about how to connect data in Power BI. See [Prepare organizational data](../setup/prepare-organizational-data.md) to learn about what organizational data you can analyze in Workplace Analytics and see [Data sources](../use/data-sourcesv2.md) to see what data sources you can connect to and analyze from within Workplace Analytics.
 
 ##### Q10 How do I use Power BI?
 
-See [Power BI documentation](https://docs.microsoft.com/power-bi/) for details on how to use Power BI.
+See [Power BI documentation](/power-bi/) for details on how to use Power BI.
 
 ##### Q11 What languages is the dashboard available in?
 
@@ -151,7 +151,7 @@ The following error occurs because of a preview features setting in Power BI. To
 
 When you publish this dashboard to workspaces, they get split into two parts, reports and datasets (data sources). This error occurs when your permission authentication token expires in Power BI. Do the following to reset permissions for the Power BI service.
 
-1. Open your [Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-experience#open-the-power-bi-service) (app.powerbi.com).
+1. Open your [Power BI service](/power-bi/consumer/end-user-experience#open-the-power-bi-service) (app.powerbi.com).
 
 2. From **Home**, select the **ellipsis** (**...**) on the ribbon to view the menu, and then select **Settings** > **Settings**.
 
