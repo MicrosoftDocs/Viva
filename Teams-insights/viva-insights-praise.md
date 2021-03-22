@@ -96,13 +96,13 @@ Remind yourself to send praise to co-workers. Praise reminders are always recurr
 
 You can set praise reminders either on the [**Settings** page](team-app-settings.md#praise) or on the **Home** page, as described here:
 
-1. On the **Home** page, select the **Send praise to your colleagues** card:
+1. Select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
-![Praise on Home page](images/praise-from-home.png)
+   ![Select Praise on Home page](images/home-page-two-hours.png)
 
 2. On the praise reminder card, select a day and time: 
 
-![Praise reminder](images/set-praise-reminder-50.png)
+   ![Praise reminder](images/set-praise-reminder-50.png)
 
 3. Select **Set reminder**. 
 
