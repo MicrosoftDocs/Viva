@@ -16,8 +16,6 @@ audience: Admin
 
 The following person metrics are imported from Workplace Analytics into Power BI through the Power BI Connector. These base metrics are imported when you only enter a Partition Identifier and not any Query Names or Query Identifiers. For details, see [Connect through the Power BI Connector](View-download-and-export-query-results.md#connect-through-the-power-bi-connector). The metrics that are calculated and only available in Power BI through Power BI Connector are listed as Not applicable in the Workplace Analytics metric column.
 
-<a name="after-hours-collaboration-define"></a>
-
 |Power BI Connector metric |Workplace Analytics metric |Data type |Definition |
 |------|-----------|----------|---------|------------|
 |AfterHoursCollaboration |After hours collaboration |Hour |Number of hours the person spent in meetings and on email outside of working hours. |
@@ -38,7 +36,7 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |CollaborationHoursInternalOutsideOrg |Not applicable |Hour |Number of hours the person spent in meetings and on email with internal employees only (as defined by the participant’s email domains) outside their Organization. Calculation uses Organization attribute. |
 |CollaborationHoursMeetings |Meeting hours |Hour |Number of hours the person spent in meetings with at least one other person. |
 |CollaborationHoursScheduledCalls |Not applicable |Hour |The number of hours the person spent in scheduled calls through Teams with at least one other person, during and outside of working hours. |
-|ConflictingMeetingHours |Conflicting meeting hours |Hour |Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.) |
+|<a name="conflicting-define"></a>ConflictingMeetingHours |Conflicting meeting hours |Hour |Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.) |
 |Date |Required HR attribute |Date |Same as MetricDateMonth. |
 |DecisionMakingMeetingCount |Not applicable |Count |Number of meetings that the person attended where attendee count less than nine and the duration is less than or equal to one hour. |
 |DirectManagerMeetingHours |Meeting hours with manager |Hour |Number of meeting hours where attendees included at least the person and their manager. |
@@ -83,7 +81,7 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |MetricDate |Calculated by Workplace Analytics |Date |The week start date for the first day of the week that data is being aggregated for. For example, Sunday. |
 |MetricDateMonth |Calculated by Workplace Analytics |Date |The metric date for the first day of the month that data is being aggregated for. For example, March 1st. |
 |MultitaskingMeetingHours |Multitasking meeting hours |Hour |Number of meeting hours where the person sent two or more emails during a meeting, or two or more emails during a meeting that was less than one hour. |
-|NonConflictingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of conflicting meeting hours. |
+|NonConflictingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [ConflictingMeetingHours](#conflicting-define). |
 |NonDirectManagerMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of DirectManagerMeetingHours metric. |
 |NonLowQualityMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of  LowQualityMeetingHours. |
 |NonMultitaskingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of MultitaskingMeetingHours. |
