@@ -14,8 +14,8 @@ audience: Admin
 
 # Use the Microsoft Viva Insights stay connected feature 
 
-Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
-   
+Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity.
+
 ![Stay connected](images/stay-connected.png)
 
 The **Stay connected** tab can contain insights such as the following: 
