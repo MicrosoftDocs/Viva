@@ -6,6 +6,8 @@ author: paul9955
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
+manager: scott.ruble
+audience: Admin
 ms.prod: wpa
 ---
 
@@ -22,7 +24,7 @@ People in the following roles can work on improvement plans in various ways:
 > If you have been assigned multiple roles, your capabilities are expanded. See [User roles in Workplace Analytics](../use/user-roles.md).
 
 > [!Important]  
-> To create a plan, you must select a group of participants. For any person to be eligible for participation in a plan, they must have a full MyAnalytics license.
+> To create a plan, you must select a group of participants. For any person to be eligible for participation in a plan, they must have a MyAnalytics license. See [Prerequisites for plans](solutionsv2-intro.md#prerequisites-for-plans).
 
 ## Create a plan
 
