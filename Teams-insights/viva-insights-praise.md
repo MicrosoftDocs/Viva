@@ -40,25 +40,21 @@ To send praise, first open the praise feature. You can do so in two places:
 
 ### Send a praise message
 
-1. After the Praise app opens, choose a badge to include with your praise message.
+1. After the Praise app opens, choose a badge to include with your praise message and add the name of the person you want to praise:
 
-   ![Choose badge](images/praise-just-badges-70.png)
+   ![Choose badge](images/praise-colleague.png)
 
-2. Add the name of the person you want to praise:
- 
-   ![Praise chosen, name added](images/praise-chosen-name-added.png)
+2. Choose the visibility of this praise. To make this choice, you must first decide whether you want to keep the praise private between you and the recipient or to make it visible (as a form of kudos, for example) to everyone in a Teams channel:
 
-3. Choose the visibility of this praise. To make this choice, you must first decide whether you want to keep the praise private between you and the recipient or to make it visible (as a form of kudos, for example) to everyone in a Teams channel:
+   * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. <!--  OUT FOR NOW: If you are sending praise to more than one person, you can use this option only if you've had 1:1 chats with each of the recipients.-->
 
-   * To make the praise message appear privately in a 1:1 chat between you and the recipient, select **1:1 chat**. This option is available only if you and the recipient have already participated in a Teams chat together. <!--  OUT FOR NOW: If you are sending praise to more than one person, you can use this option only if you've had 1:1 chats with each of the recipients.--> 
+   * To let all the members of a Teams channel or subchannel see the praise message, select **Teams channel**. This option is available only if all of the praise recipients are participants in the Teams channel or subchannel that you choose.
 
-   * To let all the members of a Teams channel or subchannel see the praise message, select **Teams channel**. This option is available only if all of the praise recipients are participants in the Teams channel or subchannel that you choose. 
+3. (Optional) In the **Note** field, add a personalized note.
 
-4. (Optional) In the **Note** field, add a personalized note.
+4. Select **Preview**.
 
-5. Select **Preview**.
-
-6. On the preview page, inspect the praise badge. If you need to edit it, select **Back**. Change the badge choice, the recipients list, or the personalized note. After you've finished making changes, select **Preview** and then select **Send**.
+5. On the preview page, inspect the praise badge. If you need to edit it, select **Back**. Change the badge choice, the recipients list, or the personalized note. After you've finished making changes, select **Preview** and then select **Send**.
 
 ### Send praise from the content pane
 
