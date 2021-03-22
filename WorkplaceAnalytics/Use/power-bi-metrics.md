@@ -17,7 +17,7 @@ audience: Admin
 The following person metrics are imported from Workplace Analytics into Power BI through the Power BI Connector. These base metrics are imported when you only enter a Partition Identifier and not any Query Names or Query Identifiers. For details, see [Connect through the Power BI Connector](View-download-and-export-query-results.md#connect-through-the-power-bi-connector). The metrics that are calculated and only available in Power BI through Power BI Connector are listed as Not applicable in the Workplace Analytics metric column.
 
 |Power BI Connector metric |Workplace Analytics metric |Data type |Definition |
-|------|-----------|----------|---------|------------|
+|--------------|--------------|-------|---------------|
 |AfterHoursCollaboration |After hours collaboration |Hour |Number of hours the person spent in meetings and on email outside of working hours. |
 |AfterHoursCollaborationCalls |After hours in calls |Hour |Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |
 |AfterHoursCollaborationEmails |After hours email hours |Hour |Number of hours the person spent sending email outside of working hours. |
@@ -39,7 +39,7 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |<a name="conflicting-define"></a>ConflictingMeetingHours |Conflicting meeting hours |Hour |Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.) |
 |Date |Required HR attribute |Date |Same as MetricDateMonth. |
 |DecisionMakingMeetingCount |Not applicable |Count |Number of meetings that the person attended where attendee count less than nine and the duration is less than or equal to one hour. |
-|DirectManagerMeetingHours |Meeting hours with manager |Hour |Number of meeting hours where attendees included at least the person and their manager. |
+|<a name="direct-manager-define"></a> DirectManagerMeetingHours |Meeting hours with manager |Hour |Number of meeting hours where attendees included at least the person and their manager. |
 |External |Not applicable |Hour |Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domain). |
 |ExternalCollaborationCost |Calculated by Workplace Analytics |USD |Cost of external collaboration which is calculated as CollaborationHoursExternal multiplied by average Hourly Rate. |
 |ExternalNetworkBreadth |Networking outside company |Count |The number of distinct external domains outside the company a person has had at least two meaningful interactions in the last four weeks. |
@@ -82,7 +82,7 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |MetricDateMonth |Calculated by Workplace Analytics |Date |The metric date for the first day of the month that data is being aggregated for. For example, March 1st. |
 |MultitaskingMeetingHours |Multitasking meeting hours |Hour |Number of meeting hours where the person sent two or more emails during a meeting, or two or more emails during a meeting that was less than one hour. |
 |NonConflictingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [ConflictingMeetingHours](#conflicting-define). |
-|NonDirectManagerMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of DirectManagerMeetingHours metric. |
+|NonDirectManagerMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [DirectManagerMeetingHours](#direct-manager-define) metric. |
 |NonLowQualityMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of  LowQualityMeetingHours. |
 |NonMultitaskingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of MultitaskingMeetingHours. |
 |NonOneOnOneMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of OneOnOneMeetingHours metric. |
