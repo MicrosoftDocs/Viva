@@ -6,6 +6,7 @@ author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
+manager: scott.ruble
 ms.prod: wpa
 ---
 
