@@ -234,6 +234,16 @@ You analyze business processes by using Workplace Analytics [queries](query-basi
 
 * [Person queries](person-queries.md)
 
+## Data privacy
+
+The business-process analysis feature aligns completely with the data-privacy standards of Workplace Analytics, as described in [Privacy settings](../use/privacy-settings.md).
+
+Because meeting subject lines are used extensively in the business-process analysis feature, you might find the following privacy sections of interest: 
+
+ * [Hash subject lines](../use/privacy-settings.md#hash-subject-lines)
+
+ * [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines) 
+
 ## Related topics
 
 * [Prepare organizational data](../setup/prepare-organizational-data.md)
@@ -241,3 +251,6 @@ You analyze business processes by using Workplace Analytics [queries](query-basi
 * [Meeting queries](meeting-queries.md)
 
 * [Person queries](person-queries.md)
+
+* [Privacy settings](../use/privacy-settings.md)
+
