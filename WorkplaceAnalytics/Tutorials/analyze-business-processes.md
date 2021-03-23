@@ -124,13 +124,13 @@ We will describe the creation of a business process in two procedures:
 
 In these steps, we create and name an empty business process.
 
-1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**:
+1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
-![business process list view](../images/wpa/tutorials/business-process-list.png)
+   ![business process list view](../images/wpa/tutorials/business-process-list.png)
 
-2. On the **Analyze** > **Business process analysis** page, select **New business process**.
+2. Select **New business process**.
 
-![New business process](../images/wpa/tutorials/new-business-process.png)
+   ![New business process](../images/wpa/tutorials/new-business-process.png)
 
 3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales** for the name of the business process.) Select **Continue**.
 
@@ -150,7 +150,7 @@ Start on the **New business process** page:
 
 ![Biz process start page](../images/wpa/tutorials/keyword-page.png)
 
-As an analyst, your goal is to find the keywords that most effectively filter out meetings that don't apply. The **New business process** mechanisms help you find those keywords. You start by typing words that you think might work. In this example, that means words related to hiring and recruitment.
+As an analyst, your goal is to find the keywords that most effectively filter out meetings that don't apply. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those as cues to uncover additional content that it deemed relevant. In this example, that means words related to sales.
 
 1. In the field marked **Enter a search term**, type **interview** and press Enter. The system searches for content that's related to "interview" and displays the results in a table.
 
@@ -158,15 +158,18 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
 2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Phrase**, **Attendee meeting hours**, or **Meeting count**).
 
+   >[!Note]
+   >The Rank column indicates relevance ranking. In the preceding illustration, a rank of 1 indicates that the "developer" keyword is the most relevant to the specified search term "interview." The concept is similar to the ranking in web-page search results.
+
 3. Scan the phrases in the **Phrase** column. Which ones do you find relate most closely to the concept of "hiring in Bangalore" (the business process to be analyzed)?
 
-   If it's not clear which phrases to select as keywords, you can examine them more closely in either of these ways:
+   To make sure you're looking at relevant content, you can examine these terms more closely in either of two ways:
 
-   * <u>Find related meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to designate this phrase as a keyword. 
+   * <u>View the metadata of actual meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to consider this keyword for your process. 
 
-   * <u>Find related phrases</u>. Expand the phrase by selecting the ">" (greater-than) sign to its left. This shows meeting subject lines that included the phrase. For example, if you expand the phrase **developer**, you might see "developer interviews" or "developer hiring schedule." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**). 
+   * <u>Find related phrases</u>. Expand the phrase by selecting the ">" (greater-than) sign to its left. This shows meeting subject lines that included the phrase. For example, if you expand the keyword **developer**, you might see "developer interviews" or "developer hiring schedule." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**). 
 
-4. After you decide that a phrase is relevant, designate it as a keyword by completing these two steps:
+4. After you decide that a phrase is relevant, include it into the process definition by completing these two steps:
 
    a. Hover your mouse over the phrase's row to see an unselected checkbox to the left of the phrase. 
 
@@ -189,7 +192,9 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
    >[!Note]
    >As you add keywords, the system becomes more context-aware. It automatically begins to uncover more content that's relevant to the keywords that you've added. It shows this new content in the results list.  
 
-7. You might be aware of phrases that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add phrases directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by semicolons), and press Enter.
+7. You might already be aware of phrases that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add phrases directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by semicolons), and press Enter.
+
+   Similarly, if there are words that you know you want to explicitly exclude, you can exclude them under **Excluded keywords**.
 
 8. Look at the numbers of meeting hours and meetings at the top of the page:
 
@@ -201,7 +206,7 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
  
 9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save as draft**, return later, and resume where you left off.
 
-10. When you're finished defining the business process, select **Submit**. The system starts processing your new business process and gives it a [status](#business-process-statuses) of "In progress."
+10. When you're finished defining the business process, select **Submit**. (**Submit** is available only if at least one keyword is present in the **Included Keywords** list.) The system starts processing your new business process and gives it a [status](#business-process-statuses) of "In progress."
 
 ### Business process statuses
 
@@ -213,11 +218,13 @@ Business processes can have the following status:
 
 * <u>Ready</u> &ndash; The business process has been successfully published and can be used in Workplace Analytics by an analyst in the same partition.
 
-* <u>Error</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+* <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
-You can find a list of existing business processes and their statuses on the **Analyze** > **Business process analysis** page of Workplace Analytics:
+   ![Data sets page](../images/wpa/tutorials/business-processes.png)
 
-![Data sets page](../images/wpa/tutorials/business-processes.png)
+   After a business process has been created, it can be viewed, used, or deleted, but it cannot be edited (unless it is in Draft state). A business process can be deleted only if no recurring queries are using it. After you delete a business process, it cannot be recovered.
+
+   To view or delete a business process, first find it on the **Analyze** > **Business process analysis** page of Workplace Analytics, under the **Business processes** tab. 
 
 ## Analyze a business process
 
