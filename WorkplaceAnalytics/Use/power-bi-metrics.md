@@ -22,7 +22,7 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |AfterHoursCollaborationCalls |After hours in calls |Hour |Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |
 |AfterHoursCollaborationEmails |After hours email hours |Hour |Number of hours the person spent sending email outside of working hours. |
 |AfterHoursCollaborationInstantMessages |After hours instant messages |Hour |Number of hours a person spent in instant messages through Teams, outside of working hours. |
-|AfterHoursCollaborationMeetings |After hours meeting hours | |Hour |Number of hours the person spent in meetings outside of working hours. |
+|AfterHoursCollaborationMeetings |After hours meeting hours |Hour |Number of hours the person spent in meetings outside of working hours. |
 |AfterHoursMailsSentCount |Not applicable |Count |Number of emails the person sent outside of working hours.
 |CallsCount |Total calls |Count |Total number of calls a person joined through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook). |
 |CollaborationHours |Collaboration hours |Hour |Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |
