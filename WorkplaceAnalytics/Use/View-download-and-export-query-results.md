@@ -140,7 +140,7 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
 
     ![Enter Workplace Analytics data connections](../images/wpa/use/pbi-connect.png)
 
-   * If you only enter a Partition Identifier and no Query Name or Query Identifier, you will get a general set of Person metrics for the Power BI reports. For details, see [Power BI Connector metrics}(power-bi-metrics.md).
+   * If you only enter a Partition Identifier and no Query Name or Query Identifier, you will get a general set of Person metrics for the Power BI reports. For details, see [Power BI Connector metrics](power-bi-metrics.md).
 
    * If instead you want to connect to a custom Person or Meeting query, follow these steps:
 
