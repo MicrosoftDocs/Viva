@@ -5,9 +5,9 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
-ms.prod: wpa
 manager: scott.ruble
 audience: Admin
+ms.prod: wpa
 
 ---
 <!-- Note: I verified the spelling, capitalization, and spacing in the names of these filters on the public demo at https://workplaceanalytics.office.com/en-us/Analyze/Queries/Person on 26 Jan. 2021 -->
