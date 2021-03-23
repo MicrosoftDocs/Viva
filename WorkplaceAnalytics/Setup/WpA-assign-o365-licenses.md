@@ -23,12 +23,12 @@ Administrators can assign Microsoft 365 licenses in the following ways. For guid
 
 ## Use the Microsoft 365 Admin Center
 
- * [Admin Center instructions](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
+ * [Admin Center instructions](/microsoft-365/admin/add-users/add-users)
  * [Admin Center video demo](https://aka.ms/Video_AssignLicenseUsingO365AdminCenter)
 
 ## Use PowerShell
 
- * [PowerShell instructions](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
+ * [PowerShell instructions](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
  * [PowerShell video demo](https://aka.ms/YouTube_AssignLicenseUsingPowerShell)
 
 ## Use Group-based licensing
@@ -36,5 +36,5 @@ Administrators can assign Microsoft 365 licenses in the following ways. For guid
 > [!Note]
 > Group-based licensing is currently available only through the Azure portal. If you primarily use other management portals for user and group management, such as the Microsoft 365 portal, you can continue to do so. But you should use the Azure portal to manage licenses at the group level.  
 
- * [Group-based licensing instructions](https://aka.ms/Instructions_AssignLicenseUsingGBL)
+ * [Group-based licensing instructions](/azure/active-directory/enterprise-users/licensing-groups-assign)
  * [Group-based licensing video demo](https://aka.ms/YouTube_AssignLicenseUsingGBL)

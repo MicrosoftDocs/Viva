@@ -19,7 +19,7 @@ Viva Insights helps people and businesses thrive with data-driven, privacy-prote
 
 ## Personal insights
 
-You can view Personal insights that only you can see. Insights about how you work and what you could change to do your best work. Useful recommendations, such as protecting time in the day for regular breaks, focused work, and learning that help improve wellbeing and boost productivity. For details, see [Personal Viva Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app).
+You can view Personal insights that only you can see. Insights about how you work and what you could change to do your best work. Useful recommendations, such as protecting time in the day for regular breaks, focused work, and learning that help improve wellbeing and boost productivity. For details, see [Personal Viva Insights](/insights/teams-app).
 
 ## Team insights
 
