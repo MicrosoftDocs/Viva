@@ -62,7 +62,7 @@ Watch this video to learn how Workplace Analytics licenses work and how the Micr
 Workplace Analytics licenses are assigned just like other Microsoft 365 product licenses. You can assign them by using the Microsoft 365 Admin Center, PowerShell, or Azure group-based licensing:
 
 * [Group-based licensing](../Use/Group-Based-Licensing.md)
-* [Microsoft 365 Admin Center​](https://aka.ms/Instructions_AssignLicenseUsingO365AdminCenter)
+* [Microsoft 365 Admin Center​](/microsoft-365/admin/add-users/add-users)
 * [PowerShell](../Use/Assigning-licenses-with-powershell.md)
 
 >[!Note]

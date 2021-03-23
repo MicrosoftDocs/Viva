@@ -155,7 +155,7 @@ The following describes each report with specific nuances to consider for each.
 
 ### Training opportunity
 
-Learn how to set up and interpret the results from the Power BI Business continuity dashboard: [Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics](https://aka.ms/wpa-bcd)
+Learn how to set up and interpret the results from the Power BI Business continuity dashboard: [Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics](/learn/modules/workplace-analytics-business-continuity/)
 
 ## Power BI tips, troubleshooting, and FAQs
 

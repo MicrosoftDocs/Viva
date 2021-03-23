@@ -68,7 +68,7 @@ Collaboration with customers and other external contacts enables employees to ga
 According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.” Ways to support customer focus:
 
 * Use [MyAnalytics Important people list](../myanalytics/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
-* Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
+* Create a shared [Teams channel](/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
 
 For best practices and how to track time with your most important external contacts, see [Best practices for customer collaboration](../tutorials/gm-cust-collab.md).
 
@@ -90,7 +90,7 @@ The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com
 Ways to foster cross-group collaboration:
 
 * Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
-* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
+* Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use [MyAnalytics to manage important people](../myanalytics/use/network.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
 
 For more best practices and how to provide managers with go-to contacts list, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
