@@ -88,7 +88,7 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |NonRecurringMeetingCount |Not applicable |Total number of meetings the person attended minus the number of recurring meetings. |Count |
 |NonRecurringMeetingHours |Not applicable |Number of hours the person spent in non-recurring meetings with at least one other person. |Hour |
 |NonRedundantMeetingHours |Not applicable |Total number of meeting hours minus the number of [RedundantMeetingHours](#redundant-define) metric. |Hour |
-|NonSkipLevelMeetingHours |Not applicable |Total number of meeting hours minus the number of [SkipLevelMeetingHours](#skip-level-define)) metric. |Hour |
+|NonSkipLevelMeetingHours |Not applicable |Total number of meeting hours minus the number of [SkipLevelMeetingHours](#skip-level-define) metric. |Hour |
 |OneOnOneInstantMessagesCountSent |Not applicable |Total number of instant messages (IMs) sent by a person to exactly one recipient through Teams, during and outside of working hours. |Count |
 |OneOnOneMailsCountSent |Not applicable |Number of emails the person sent to exactly one recipient. |Count |
 |<a name="one-on-one-define"></a>OneOnOneMeetingHours |Meeting hours with manager 1:1 |Number of meeting hours involving only the person and their manager. |Hour |
