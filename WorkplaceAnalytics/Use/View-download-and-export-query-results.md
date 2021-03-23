@@ -74,7 +74,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 ### Get a link for an OData feed to use in Power BI
 
 >[!Note]
->You can share Power BI dashboards. For details, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+>You can share Power BI dashboards. For details, see [Share your Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
 
 1. Next to the query you want, select the **Copy link** icon.
 2. In Power BI, paste the URL into the **OData feed** dialog box.
@@ -159,7 +159,7 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
    * **Pivoted (Default)** - The organizational attribute data is imported by using the default data schema that is used in Workplace Analytics.
    * **Unpivoted** - Currently only available for person queries. Select to ‘unpivot’ the imported organizational data into two columns named **Attribute Name** and **Attribute Value** for easier comparisons across attributes.
 
-6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-use-directquery).
+6. Select a data connectivity mode, and then select **OK**. For details, see [Use DirectQuery in Power BI Desktop](/power-bi/desktop-use-directquery).
 
    * **DirectQuery** (*recommended*) – As you create Power BI visuals, the Connector will provide the aggregated data to support them.  
    * **Import** – Requires you to identify how you want to aggregate the data first. That data is then imported into Power BI and from there you can create your visualizations.  
@@ -168,17 +168,17 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
 
     ![Power BI Navigator](../images/wpa/use/pbi-navigator.png)
 
-In Power BI, you can use the **Power Query Editor** to shape and combine data and create visualizations with the available fields. For details about how to use Power BI, see [Power BI documentation](https://docs.microsoft.com/power-bi/).
+In Power BI, you can use the **Power Query Editor** to shape and combine data and create visualizations with the available fields. For details about how to use Power BI, see [Power BI documentation](/power-bi/).
 
 The following is an example of a chart that shows an organization-wide analysis of collaboration hours and meeting hours trend.
 
 ![Get Data button](../images/wpa/use/example-pbi-visual.png)
 
-After you have finished creating visuals, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+After you have finished creating visuals, you can publish your reports to Power BI online and share them with others in your organization. For more information, see [Share your Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
 
 ## Related topics
 
-* [Connect to OData feeds in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata)
+* [Connect to OData feeds in Power BI Desktop](/power-bi/desktop-connect-odata)
 * [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 * [User roles in Workplace Analytics](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)

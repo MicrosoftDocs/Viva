@@ -24,7 +24,7 @@ Based on the information presented in the article about [What email, IM, and the
 ## Best practices
 
 * Showcase the value in utilizing instant messages, such as [Chats in Microsoft Teams](https://support.microsoft.com/office/six-things-to-know-about-chat-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2) for quick questions.
-* Launch a [champions program](https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Microsoft Teams and can guide, teach, and train their peers.
+* Launch a [champions program](/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Microsoft Teams and can guide, teach, and train their peers.
 * Use [Power BI Microsoft Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
 * Consider the nature of the conversation based on the subject and type of response needed and identify the appropriate medium for communication.
 * Encourage using instant messages for urgent questions to get what you need faster.
@@ -49,7 +49,7 @@ Create a Teams channel or an email thread that recognizes teammates who migrate 
 
 #### Direct your team to relevant training
 
-When introducing a new tool, help team members get comfortable and adopt quickly with pre-built materials and resources. For example, [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page).
+When introducing a new tool, help team members get comfortable and adopt quickly with pre-built materials and resources. For example, [Microsoft Teams free, live, online training classes](/MicrosoftTeams/instructor-led-training-teams-landing-page).
 
 ## Related topic
 

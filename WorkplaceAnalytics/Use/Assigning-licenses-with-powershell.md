@@ -123,7 +123,7 @@ The Workplace Analytics bulk license script uses the Azure Active Directory Powe
 
 > [!Note]
 > If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these required packages, see
-[Connect to Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+[Connect to Microsoft 365 PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
 ## Input Requirements
 
@@ -382,5 +382,5 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 ## Related topics
 
 * [Assign licenses to the population](../setup/Assign-licenses-to-population.md)
-* [Assign licenses with PowerShell](https://aka.ms/Instructions_AssignLicenseUsingPowerShell)
+* [Assign licenses with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)

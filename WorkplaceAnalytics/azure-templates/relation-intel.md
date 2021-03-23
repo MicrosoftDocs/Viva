@@ -136,4 +136,4 @@ After the Relationship Intelligence Report is set up and populated with data, us
 
 For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
-For more details about how to use Power BI tools, see [Interact with visuals in reports, dashboards, and apps](https://docs.microsoft.com/power-bi/consumer/end-user-visualizations).
+For more details about how to use Power BI tools, see [Interact with visuals in reports, dashboards, and apps](/power-bi/consumer/end-user-visualizations).
