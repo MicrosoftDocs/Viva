@@ -216,7 +216,7 @@ In summary: Strong ties differs from Internal network size in that they reflect 
 
 A2. Let's say you need nothing more than a quantitative number of connections a person has within the company. Also, you have no objection to including unlicensed users even though restricting your query to licensed users would return richer data. In this case, feel free to query for Internal network size.
 
-However, if you restrict your query to licensed users, we recommended that you query for strong ties because doing so would give you a more realistic and qualitative view of engaged connections.
+However, if you restrict your query to licensed users, we recommended that you query for strong ties because doing so gives you a more realistic and qualitative view of engaged connections.
 
 **Q3. When should you use "strong ties" and when "External network size"?** 
 
