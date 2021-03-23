@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Connector metrics 
 description: Describes the metrics for Workplace Analytics that you can import into Power BI through the Power BI Connector 
 author: madehmer
@@ -9,7 +9,6 @@ localization_priority: normal
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
-
 ---
 
 # Power BI Connector metrics
@@ -57,7 +56,7 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |LongAndLargeMeetingCount |Not applicable |Count |Number of meetings that the person attended with greater than or equal to nine attendees and a duration of greater than one hour. |
 |LongNotLargeMeetingCount |Not applicable |Count |Number of meetings that the person attended with less than nine attendees and a duration of greater than one hour. |
 |LongOrLargeMeetingHours |Not applicable |Hour |Number of hours the person spent in meetings with more than nine attendees and a duration of greater than one hour.  |
-|LowQualityMeetingHours |Low-quality meeting hours |Hour |Number of meeting hours in which an attendee multitasked, attended a conflicting meeting, or attended a meeting that exhibits redundancy (organizational). |
+|<a name="low-quality-define"></a>LowQualityMeetingHours |Low-quality meeting hours |Hour |Number of meeting hours in which an attendee multitasked, attended a conflicting meeting, or attended a meeting that exhibits redundancy (organizational). |
 |LowQualityMeetingsCost |Calculated by Workplace Analytics |USD |Cost of low-quality meetings that’s calculated as LowQualityMeetingHours multiplied by Hourly Rate. |
 |MailHoursLoadOrganizedAfterHours |Not applicable |Hour |Number of email hours the person created for internal recipients by sending emails outside of working hours. |
 |MailsSentCount |Emails sent |Count |Number of emails the person sent. |
@@ -80,19 +79,19 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |MeetingsLoadOrganizedAfterHours |Not applicable |Count |Number of internal meetings organized by the person outside of working hours. |
 |MetricDate |Calculated by Workplace Analytics |Date |The week start date for the first day of the week that data is being aggregated for. For example, Sunday. |
 |MetricDateMonth |Calculated by Workplace Analytics |Date |The metric date for the first day of the month that data is being aggregated for. For example, March 1st. |
-|MultitaskingMeetingHours |Multitasking meeting hours |Hour |Number of meeting hours where the person sent two or more emails during a meeting, or two or more emails during a meeting that was less than one hour. |
+|<a name="multitasking-define"></a>MultitaskingMeetingHours |Multitasking meeting hours |Hour |Number of meeting hours where the person sent two or more emails during a meeting, or two or more emails during a meeting that was less than one hour. |
 |NonConflictingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [ConflictingMeetingHours](#conflicting-define). |
 |NonDirectManagerMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [DirectManagerMeetingHours](#direct-manager-define) metric. |
-|NonLowQualityMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of  LowQualityMeetingHours. |
-|NonMultitaskingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of MultitaskingMeetingHours. |
-|NonOneOnOneMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of OneOnOneMeetingHours metric. |
-|NonRecurringMeetingCount |Not applicable |Count |The number of meetings the person attended that were not recurring meetings. |
+|NonLowQualityMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of  [LowQualityMeetingHours](#low-quality-define). |
+|NonMultitaskingMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [MultitaskingMeetingHours](#multitasking-define). |
+|NonOneOnOneMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [OneOnOneMeetingHours](#one-on-one-define) metric. |
+|NonRecurringMeetingCount |Not applicable |Count |Total number of meetings the person attended minus the number of recurring meetings. |
 |NonRecurringMeetingHours |Not applicable |Hour |Number of hours the person spent in non-recurring meetings with at least one other person. |
-|NonRedundantMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of RedundantMeetingHours metric. |
-|NonSkipLevelMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of SkipLevelMeetingHours metric. |
+|NonRedundantMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [RedundantMeetingHours](#redundant-define) metric. |
+|NonSkipLevelMeetingHours |Not applicable |Hour |Total number of meeting hours minus the number of [SkipLevelMeetingHours](#skip-level-define)) metric. |
 |OneOnOneInstantMessagesCountSent |Not applicable |Count |Total number of instant messages (IMs) sent by a person to exactly one recipient through Teams, during and outside of working hours. |
 |OneOnOneMailsCountSent |Not applicable |Count |Number of emails the person sent to exactly one recipient.
-|OneOnOneMeetingHours |Meeting hours with manager 1:1 |Hour |Number of meeting hours involving only the person and their manager. |
+|<a name="one-on-one-define"></a>OneOnOneMeetingHours |Meeting hours with manager 1:1 |Hour |Number of meeting hours involving only the person and their manager. |
 |OpenOneHourBlocks |Open one-hour block |Count |Number of one-hour blocks in the person’s calendar without meetings during the workday. |
 |OpenTwoHourBlocks |Open tow-hour blocks |Count |Number of two-hour blocks in the person’s calendar without meetings during the workday. |
 |Organization |Required HR attribute  |String |The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or by another naming convention. |
@@ -105,8 +104,8 @@ The following person metrics are imported from Workplace Analytics into Power BI
 |PersonId |PersonId |String |De-identified ID number for the person represented in the metric. |
 |PopulationType |Required HR attribute |String |Currently all the person metric data that’s imported is for measured employees only. |
 |RecurringMeetingHours |Not applicable |Hour |Number of hours the person spent in recurring meetings with at least one other person. |
-|RedundantMeetingHours |Redundant meeting hours (organizational) |Hour |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating Low quality meeting hours. |
-|SkipLevelMeetingHours |Meetings hours with skip level |Hour |Number of meeting hours that the person attends where their manager's manager also attends the meeting. |
+|<a name="redundant-define"></a>RedundantMeetingHours |Redundant meeting hours (organizational) |Hour |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating Low quality meeting hours. |
+|<a name="skip-level-define"></a>SkipLevelMeetingHours |Meetings hours with skip level |Hour |Number of meeting hours that the person attends where their manager's manager also attends the meeting. |
 |TimeZone |Required HR attribute  |String |Time zone in which the employee performs work. |
 |TotalFocusHours |Total focus hours |Hour |Total number of hours with two or more one-hour blocks of time where the person had no meetings. |
 |Utilization |Workweek span |Hour |The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours each day. If reported for the week, the metric is a sum of the daily values for the week. |
