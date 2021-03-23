@@ -154,7 +154,7 @@ If both tie origin and tie destination filters are specified, the query returns 
 
 ## Additional notes 
 
-You can derive additional value from strong and diverse ties based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports. 
+You can derive more value from strong and diverse ties based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports. 
 
 You could have strong ties that are close: These are strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development. 
 
@@ -214,9 +214,9 @@ In summary: Strong ties differs from Internal network size in that they reflect 
 
 **Q2. When should you use "strong ties" and when "Internal network size"?**
 
-A2. Let's say you need nothing more than a quantitative number of connections a person has within the company. Also, you have no objection to including unlicensed users even though restricting your query to licensed users would return richer data. In this case, feel free to query for Internal network size. 
+A2. Let's say you need nothing more than a quantitative number of connections a person has within the company. Also, you have no objection to including unlicensed users even though restricting your query to licensed users would return richer data. In this case, feel free to query for Internal network size.
 
-However, if you restrict your query to licensed users, we recommended that you query for strong ties because this gives you a more realistic and qualitative view of engaged connections.
+However, if you restrict your query to licensed users, we recommended that you query for strong ties because doing so would give you a more realistic and qualitative view of engaged connections.
 
 **Q3. When should you use "strong ties" and when "External network size"?** 
 
