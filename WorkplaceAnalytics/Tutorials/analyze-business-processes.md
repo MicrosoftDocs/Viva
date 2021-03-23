@@ -111,7 +111,7 @@ To select meetings, you assemble a list of keywords that match words in the subj
 
 ### Business process steps
 
-In this example, we want to examine the hiring process that's in place in the Bangalore subsidiary. To make sure that the data we use is restricted to the correct geographic area, we'll use the "Bangalore" data set that we defined in [Data set steps](#data-set-steps).
+In this example, we want to examine the hiring process that's in place in the Bangalore subsidiary. To make sure that the data we use is restricted to the correct geographic area, we'll use the "Sales" data set that we defined in [Data set steps](#data-set-steps).
 
 We will describe the creation of a business process in two procedures:
 
@@ -124,11 +124,15 @@ We will describe the creation of a business process in two procedures:
 
 In these steps, we create and name an empty business process.
 
-1. In Workplace Analytics, on the left navigation pane, expand **Analysis settings** and select **Business processes**.
+1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**:
 
-2. On the **Analysis settings** > **Business processes** page, select **Add Business process**.
+![business process list view](../images/wpa/tutorials/business-process-list.png)
 
-3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Bangalore hiring** for the name of the business process.) Select **Continue**.
+2. On the **Analyze** > **Business process analysis** page, select **New business process**.
+
+![New business process](../images/wpa/tutorials/new-business-process.png)
+
+3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales** for the name of the business process.) Select **Continue**.
 
 4. For **Data set**, select the data set that we recently created, **Bangalore**.
 
