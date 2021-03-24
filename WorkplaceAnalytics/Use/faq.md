@@ -210,7 +210,7 @@ A1.  This can happen if you selected only a subset of your population for data a
 
 ##### Q2. Why do the totals seem too high for internal and external collaborators?
 
-A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary header](explore-metrics-external-collaboration.md#summary-header) on the **External collaboration** page do not change because of filters that have been applied in **Page settings**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
+A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary data](explore-metrics-external-collaboration.md#summary-data) on the **External collaboration** page do not change because of filters that have been applied in **Settings and filters**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
@@ -243,7 +243,7 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on the Page settings that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
+A1. Employee data can change based on the Settings and filters that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Settings and filters in Explore the stats](explore-page-settings.md).
 
 ##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 
