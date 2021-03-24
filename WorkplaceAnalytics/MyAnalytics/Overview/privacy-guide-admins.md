@@ -44,13 +44,13 @@ A few days after a license with the MyAnalytics service is assigned to a person,
 
 MyAnalytics presents insights in the following ways:
 
-1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
+1. [Personal dashboard](../use/dashboard-2.md)
 
-2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
+2. [Insights Outlook add-in](../use/add-in.md)
 
-3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
+3. [Weekly digest](../use/email-digest-2.md)
 
-4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
+4. [Inline suggestions in Outlook](../use/mya-notifications.md)
 
 MyAnalytics provides insights with the following types of data.
 
@@ -110,7 +110,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 * **Determine which people have access to MyAnalytics** - Admins can determine which people can access and use MyAnalytics by issuing licenses to only those people who should have access.
 
-* **Determine default opt-in settings** - Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure user settings](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics#step-1-configure-user-settings).
+* **Determine default opt-in settings** - Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure user settings](../setup/configure-myanalytics.md#step-1-configure-user-settings).
 
 * **Determine whether employees can opt-in to receive insights on Windows 10 application usage** - Admins must consent before MyAnalytics users can opt in to receive insights derived from Windows 10 activity history data.
 
@@ -138,15 +138,15 @@ The Microsoft Graph cannot be turned on or off globally through the Microsoft 36
 
 ### Dashboard and Outlook add-in
 
-Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s MyAnalytics [dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) and [Outlook Add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in) become available.
+Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s MyAnalytics [dashboard](../use/dashboard-2.md) and [Outlook Add-in](../use/add-in.md) become available.
 
 ### Welcome email
 
-To notify employees that their dashboard and Outlook add-in have been enabled, MyAnalytics delivers a [welcome email](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-welcome-email) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
+To notify employees that their dashboard and Outlook add-in have been enabled, MyAnalytics delivers a [welcome email](../use/mya-welcome-email.md) within a few days of license assignment. The email introduces people to the application and has a reminder that MyAnalytics is private and personal.
 
 ### Weekly digest
 
-The week after the welcome email is delivered, users begin to receive the [weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2).
+The week after the welcome email is delivered, users begin to receive the [weekly digest](../use/email-digest-2.md).
 
 ## GDPR Compliance
 
@@ -155,7 +155,7 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
 * Microsoft will not mine customer data in Exchange Online for advertising.
 * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
 * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
-* Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+* Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 * Microsoft supports your need to honor user requests to restrict processing as follows:
 
   * Use PowerShell to opt employees out of MyAnalytics.

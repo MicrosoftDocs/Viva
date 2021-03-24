@@ -63,7 +63,7 @@ Set-UserAnalyticsConfig –Identity $upn -PrivacyMode $privacyMode
 Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName
 }
 ```
-3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://technet.microsoft.com/library/jj984289(v=exchg.160).aspx).
+3. Run the resulting commands at the PowerShell command prompt. For more information about the Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 This PowerShell command block does the following:
 
@@ -94,6 +94,4 @@ Get-UserAnalyticsConfig –Identity <string>
 
 Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------
-Identity    |  Yes         |    User ID for the current user as stored in AAD  | - 
-
-
+Identity    |  Yes         |    User ID for the current user as stored in AAD  | -

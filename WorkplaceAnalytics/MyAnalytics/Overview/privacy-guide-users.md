@@ -56,13 +56,13 @@ In the following architecture illustration, note the relationship of MyAnalytics
 
 MyAnalytics presents insights in the following ways:
 
-1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
+1. [Personal dashboard](../use/dashboard-2.md)
 
-2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
+2. [Insights Outlook add-in](../use/add-in.md)
 
-3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
+3. [Weekly digest](../use/email-digest-2.md)
 
-4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
+4. [Inline suggestions in Outlook](../use/mya-notifications.md)
  
 ### Data types
 
