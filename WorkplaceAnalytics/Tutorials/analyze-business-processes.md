@@ -38,7 +38,11 @@ The following sections describe these procedures.
 
 ## Define a data set
 
-Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to analyze only the processes used by one division, Sales. You limit the data set for your query by keeping only the  organizational data that applies to your upcoming analysis &ndash; for example, meetings that were organized by people in Sales. To define a data set, use the following procedure:
+Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: “How do our sales reps interact with their customers?”
+
+You start by limiting the data set for your query by keeping only the organizational data that applies to the analysis – in this case, meetings that were organized by people in Sales.
+
+To define a data set, use the following procedure:
 
 ### Data set steps
 
@@ -54,7 +58,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
    ![new data set](../images/wpa/tutorials/new-data-set.png)
 
-3. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we've given **MySampleDataSetName** as the name of the data set.) Select **Continue**.
+3. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we've given **SalesDataSet** as the name of the data set.) Select **Continue**.
 
    ![data set name given](../images/wpa/tutorials/data-set-name-in-place.png)
 
@@ -74,13 +78,13 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
    ![Add an Organizer filter](../images/wpa/tutorials/organizer.png)
 
-10. In the boxes to the right of **Organizer's**, select **city**, **Equals**, and **Bangalore**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Workplace Analytics admin has uploaded.)
+10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Workplace Analytics admin has uploaded.)
 
-   ![Sales as function type](../images/wpa/tutorials/function-type-sales.png)
+    ![Sales as function type](../images/wpa/tutorials/function-type-sales.png)
 
 11. Select **Submit**.
 
-   This starts the creation of a data set that will contain data that matches these criteria (and no other data). Data sets are processed during the standard weekly processing schedule of Workplace Analytics. The time required to process the data set depends on its size.
+   This starts the creation of a data set that will contain data that matches these criteria (and no other data). The time required to process the data set depends on its size.
 
 ### Data set statuses
 
@@ -98,20 +102,16 @@ To view or delete a data set, first find it on the **Data sets** tab of the **An
 
 ## Define a business process
 
-Before you can run queries to analyze a business process within your organization, you need to define it. You define a business process by
-building out a vocabulary of keywords or phrases that are typically used by users in meeting subject lines associated with that process. 
-This vocabulary then defines what data could constitute the business-process filter. Meetings are selected on the **New business process** page in the **Analyze** area of Workplace Analytics:  
+Before you can run queries to analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords or phrases that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
 ![Biz process start page](../images/wpa/tutorials/start-page.png)
-
-To select meetings, you assemble a list of keywords that match words in the subject lines of meetings in your data set. The set of keywords determines which meetings constitute the business process.
 
 >[!Note]
 >Currently, you can use only English keywords in the process of defining a business process. This holds true even if your instance of Workplace Analytics is in a language other than English.
 
 ### Business process steps
 
-In this example, we want to examine the hiring process that's in place in the Bangalore subsidiary. To make sure that the data we use is restricted to the correct geographic area, we'll use the "Sales" data set that we defined in [Data set steps](#data-set-steps).
+In this example, we want to examine meetings of a particular length that the Sales division held. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
 
 We will describe the creation of a business process in two procedures:
 
@@ -132,9 +132,9 @@ In these steps, we create and name an empty business process.
 
    ![New business process](../images/wpa/tutorials/new-business-process.png)
 
-3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales** for the name of the business process.) Select **Continue**.
+3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales interactions** for the name of the business process.) Select **Continue**.
 
-4. For **Data set**, select the data set that we recently created, **Bangalore**.
+4. For **Data set**, select the data set that we recently created, **SalesDataSet**.
 
 5. For **Content type**, leave **Meetings** selected, and select **Continue**.
 
@@ -144,48 +144,46 @@ In these steps, we create and name an empty business process.
 
 **Role:** Analyst
 
-Now, add restrictions to limit the analysis to data that relates to hiring. The data consists of meetings that have taken place. The goal, therefore, is to examine meetings that took place for the purpose of hiring or recruitment.
-
-Start on the **New business process** page:
+In this procedure, we assemble the vocabulary that constitutes the business process. We start on the **New business process** page:
 
 ![Biz process start page](../images/wpa/tutorials/keyword-page.png)
 
-As an analyst, your goal is to find the keywords that most effectively filter out meetings that don't apply. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those as cues to uncover additional content that it deemed relevant. In this example, that means words related to sales.
+As an analyst, your goal now is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those as cues to uncover additional content that it deemed relevant. In this example, that means words related to sales interactions.
 
 1. In the field marked **Enter a search term**, type **interview** and press Enter. The system searches for content that's related to "interview" and displays the results in a table.
 
-   ![Results table](../images/wpa/tutorials/result-words.png)
+   ![Results table](../images/wpa/tutorials/result-words-2.png)
 
 2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Phrase**, **Attendee meeting hours**, or **Meeting count**).
 
    >[!Note]
-   >The Rank column indicates relevance ranking. In the preceding illustration, a rank of 1 indicates that the "developer" keyword is the most relevant to the specified search term "interview." The concept is similar to the ranking in web-page search results.
+   >The Rank column indicates relevance ranking. In the preceding illustration, a rank of 1 indicates that the "account" keyword is the most relevant to the specified search term "purchase." The concept is similar to the ranking in web-page search results.
 
-3. Scan the phrases in the **Phrase** column. Which ones do you find relate most closely to the concept of "hiring in Bangalore" (the business process to be analyzed)?
+3. Scan the phrases in the **Phrase** column. Which ones do you find relate most closely to the concept of "Sales interactions" (the business process to be analyzed)?
 
    To make sure you're looking at relevant content, you can examine these terms more closely in either of two ways:
 
-   * <u>View the metadata of actual meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to consider this keyword for your process. 
+   * <u>View the metadata of actual meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
 
-   * <u>Find related phrases</u>. Expand the phrase by selecting the ">" (greater-than) sign to its left. This shows meeting subject lines that included the phrase. For example, if you expand the keyword **developer**, you might see "developer interviews" or "developer hiring schedule." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**). 
+   * <u>Find related phrases</u>. Expand the phrase by selecting the ">" (greater-than) sign to its left. This shows multiple-word phrases that included the keyword. For example, if you expand the keyword **lead**, you might see "qualified lead" or "lead generation." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
 4. After you decide that a phrase is relevant, include it into the process definition by completing these two steps:
 
    a. Hover your mouse over the phrase's row to see an unselected checkbox to the left of the phrase. 
 
-   ![Unselected term](../images/wpa/tutorials/unchecked-box.png)
+   ![Unselected term](../images/wpa/tutorials/unchecked-box-2.png)
 
    b. Then, select the checkbox:
 
-   ![Select term](../images/wpa/tutorials/select-terms.png)
+   ![Select term](../images/wpa/tutorials/select-terms-2.png)
 
 5. With one or more terms checked, select **Add selected to** and then select **Included keywords**.
 
-   ![Add terms to list](../images/wpa/tutorials/add-terms-to.png)
+   ![Add terms to list](../images/wpa/tutorials/add-terms-to-2.png)
 
    After you include a term, it appears in the **Included keywords** list to the right of the results table:
 
-   ![Term added to list](../images/wpa/tutorials/added-to-list-50.png)
+   ![Term added to list](../images/wpa/tutorials/added-to-list-50-2.png)
 
 6. (Optional) To explicitly _exclude_ terms from the keyword list, repeat the preceding step but after you select **Add selected to**, select **Excluded keywords**.
 
@@ -200,7 +198,7 @@ As an analyst, your goal is to find the keywords that most effectively filter ou
 
    ![Meeting hours](../images/wpa/tutorials/meeting-hours.png)
 
-   The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire data set. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have selected. These smaller numbers change as you add or delete keywords.
+   The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire data set. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have added to the business process. These smaller numbers change as you add or delete keywords.
 
    If you are familiar with the hiring process, these numbers could indicate that your selection of keywords is too narrow (too few meetings and hours) or too broad (too many), after which you can adjust accordingly by adding or deleting keywords.
  
@@ -238,11 +236,23 @@ You analyze business processes by using Workplace Analytics [queries](query-basi
 
 The business-process analysis feature aligns completely with the data-privacy standards of Workplace Analytics, as described in [Privacy settings](../use/privacy-settings.md).
 
-Because meeting subject lines are used extensively in the business-process analysis feature, you might find the following privacy sections of interest: 
+Meeting subject lines are used extensively in the business-process analysis feature. Two of the settings for enhancing data privacy affect the subject lines of meetings: [Hashing subject lines](../use/privacy-settings.md#hash-subject-lines) and [Excluding terms from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines). Therefore, these settings also affect business-process analysis, as described in the following sections.
 
- * [Hash subject lines](../use/privacy-settings.md#hash-subject-lines)
+### Hashing of subject lines
 
- * [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines) 
+You can use this setting to control whether to show or hash subject lines in [Meeting query](meeting-queries.md) results.
+
+![Data sets page](../images/wpa/tutorials/business-processes.png)
+
+If your Workplace Analytics admin has chosen to hash subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
+
+### Exclude terms from subject lines
+
+You can enter a list of specific keywords or terms that occur in the subject lines of emails and meetings that you want to exclude from analysis. (See [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).)
+
+![Data sets page](../images/wpa/tutorials/business-processes.png)
+
+[NOT THE REAL TEXT]If your Workplace Analytics admin has chosen to hash subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
 
 ## Related topics
 
