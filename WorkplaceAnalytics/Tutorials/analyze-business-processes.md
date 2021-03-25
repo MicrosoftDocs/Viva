@@ -244,17 +244,23 @@ You can use this setting to control whether to show or hash subject lines in [Me
 
 ![Hash subject lines](../images/wpa/tutorials/hash-subject-lines.png)
 
-If your Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible. This also makes subject lines unusable for business process analysis. 
+If your Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible. This also makes subject lines unusable for business-process analysis.
 
-Therefore, if this hash setting is in effect, when you select New business process in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable. To enable business-process analysis, contact your Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
+Therefore, when this hash setting is in effect, if you select **New business process** in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable. To enable business-process analysis, contact your Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
 
 ### Exclude terms from subject lines
 
-You can enter a list of specific keywords or terms that occur in the subject lines of emails and meetings that you want to exclude from analysis. (See [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).)
+For data-privacy reasons, you might want to exclude particular meetings from analysis. You can do this by adding words that occur in those meetings' subject lines to th **Exclude terms from subject lines** list in the **Privacy settings** of Workplace Analytics.
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
-[NOT THE REAL TEXT]If your Workplace Analytics admin has chosen to exclude terms from subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
+(For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).)
+
+Adding words to this list affects business-process analysis as follows:
+
+ * **Word is excluded before you create the process**. If an admin excludes a particular word (say, "budget") before you create your business process. In this case, the word simply does not appear in the phrases that you create in the [Add meeting filters](#add-meeting-filters) procedure. You can still create a business process but you cannot use that exact term.
+
+* **You create the process before they exclude the word**. In this case, the term "budget" was excluded _after_ you created a business process that uses the term. This has no effect on your business process. The business process still includes the term "budget" and you can use the business process as normal in query filters.
 
 ## Related topics
 
