@@ -250,7 +250,7 @@ Therefore, when this hash setting is in effect, if you select **New business pro
 
 ### Exclude terms from subject lines
 
-For data-privacy reasons, you might want to exclude particular meetings from analysis. You can do this by adding words that occur in those meetings' subject lines to th **Exclude terms from subject lines** list in the **Privacy settings** of Workplace Analytics.
+For data-privacy reasons, you might want to exclude particular meetings from analysis. You can do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list in the **Privacy settings** of Workplace Analytics.
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
@@ -258,9 +258,15 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 Adding words to this list affects business-process analysis as follows:
 
- * **Word is excluded before you create the process**. If an admin excludes a particular word (say, "budget") before you create your business process. In this case, the word simply does not appear in the phrases that you create in the [Add meeting filters](#add-meeting-filters) procedure. You can still create a business process but you cannot use that exact term.
+#### Create a business process
 
-* **You create the process before they exclude the word**. In this case, the term "budget" was excluded _after_ you created a business process that uses the term. This has no effect on your business process. The business process still includes the term "budget" and you can use the business process as normal in query filters.
+ * **A word is excluded before you create the process** &ndash; An admin excludes a particular word (say, "budget") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "budget."
+
+* **You create the process before they exclude the word** &ndash; You create a business processes that uses a particular word, namely "budget." Then, an admin excludes "budget" from subject lines. This has no effect on your business process. The business process still includes the word "budget" and you can use the business process as normal in query filters.
+
+#### Use a business process in a query
+
+
 
 ## Related topics
 
