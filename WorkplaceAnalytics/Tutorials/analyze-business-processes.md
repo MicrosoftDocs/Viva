@@ -252,7 +252,7 @@ You can enter a list of specific keywords or terms that occur in the subject lin
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
-[NOT THE REAL TEXT]If your Workplace Analytics admin has chosen to hash subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
+[NOT THE REAL TEXT]If your Workplace Analytics admin has chosen to exclude terms from subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
 
 ## Related topics
 
