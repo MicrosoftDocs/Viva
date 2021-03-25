@@ -244,7 +244,9 @@ You can use this setting to control whether to show or hash subject lines in [Me
 
 ![Hash subject lines](../images/wpa/tutorials/hash-subject-lines.png)
 
-If your Workplace Analytics admin has chosen to hash subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
+If your Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible. This also makes subject lines unusable for business process analysis. 
+
+Therefore, if this hash setting is in effect, when you select New business process in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable. To enable business-process analysis, contact your Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
 
 ### Exclude terms from subject lines
 
