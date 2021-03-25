@@ -242,7 +242,7 @@ Meeting subject lines are used extensively in the business-process analysis feat
 
 You can use this setting to control whether to show or hash subject lines in [Meeting query](meeting-queries.md) results.
 
-![Data sets page](../images/wpa/tutorials/business-processes.png)
+![Hash subject lines](../images/wpa/tutorials/hash-subject-lines.png)
 
 If your Workplace Analytics admin has chosen to hash subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
 
@@ -250,7 +250,7 @@ If your Workplace Analytics admin has chosen to hash subject lines, you cannot s
 
 You can enter a list of specific keywords or terms that occur in the subject lines of emails and meetings that you want to exclude from analysis. (See [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).)
 
-![Data sets page](../images/wpa/tutorials/business-processes.png)
+![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
 [NOT THE REAL TEXT]If your Workplace Analytics admin has chosen to hash subject lines, you cannot select keywords in the business-process-analysis feature. For this reason, if the **Hash subject lines** option is set to **Yes**, when you take the first step in the procedure to [Create a new business process](#create-a-new-business-process), you’ll see a warning stating that business-process analysis is unavailable.
 
