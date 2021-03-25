@@ -24,7 +24,7 @@ audience: Admin
 
 ![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
 
-![bar chart](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Groups collaborating with external domains](explore-metrics-external-collaboration.md#external-domains-your-company-spends-time-with).
+![bar chart](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Groups collaborating with external domains](explore-metrics-external-collaboration.md#external-domain-collaboration).
 
 ![box plot](../images/wpa/use/c-box-plot.png) **Box plots** (also known as distribution charts) show the distribution of metric values within a group. A box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected. Each value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on each box plot in the chart.
 
@@ -42,8 +42,8 @@ In most cases, charts appear in pairs. The charts in a pair present related info
 
 ![chart pair](../images/wpa/use/e-chart-pair.png)
 
-   > [!Note]
-   > Within a chart pair, you can [switch](#switch-between-chart-types) the left chart to show either a column graph or box plot.
+>[!Note]
+>Within a chart pair, you can [switch](#switch-between-chart-types) the left chart to show either a column graph or box plot.
 
 The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in [Meetings overview](Explore-metrics-meetings-overview.md):
 
@@ -150,10 +150,10 @@ In a chart pair, you use the column chart or box plot on the left to change how 
 * To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude groups** icon.
 * To revert either of these actions, select the **Undo** icon.
 
-  ![Chart tools](../images/wpa/use/drilldown.png)
+![Chart tools](../images/wpa/use/drilldown.png)
 
-   >[!Note]
-   >The **Undo** tool currently only applies to reversing changes made with the **Drilldown** and **Exclude groups** chart tools. You can apply these drill down and exclude actions with [Settings and filters](#settings-and-filters).
+>[!Note]
+>The **Undo** tool currently only applies to reversing changes made with the **Drilldown** and **Exclude groups** chart tools. You can apply these drill down and exclude actions with [Settings and filters](#settings-and-filters).
 
 #### To switch between percentage and hours data
 
@@ -173,8 +173,8 @@ In a chart pair, you use the column chart or box plot on the left to change how 
 
    Because the download contains just what you see in the chart, you can use the downloaded .csv data in Excel or in Power BI to reproduce the chart that Workplace Analytics shows.
 
-   > [!Note]
-   > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
+>[!Note]
+>Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
 ## Settings and filters
 

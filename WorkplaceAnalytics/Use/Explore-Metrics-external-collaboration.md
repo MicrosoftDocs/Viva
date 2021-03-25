@@ -50,42 +50,44 @@ Most of the graphs include one of the following types of charts.
 
 For more details, see [Charts in Workplace Analytics](../use/chart-types.md).
 
-## External domains your company spends time with
+## External domain collaboration
 
 The first graph shows the top external domains that people in your company spend the most time with. You can change what the top domains are based on, including total collaboration hours, total collaboration cost, and total number of engaged employees.
 
 >[!Note]
 >Personal email domains, such as live.com, are included in overall metric calculations but are hidden from the top external domains chart to reduce noise.  
 
-## Groups with largest number of people collaborating with external people
+![External domain collaboration chart](../images/wpa/use/external-collab-domains2.png)
+
+## External group collaboration
 
 The second graph shows which groups in your company have the most people collaborating with external people. External people is defined by the group-by attribute for **Time investors** in [Settings and filters](#settings-and-filters). By default, the group-by attribute is **Organization** for time investors.
 
-![External collaboration domains](../images/wpa/use/external-collab-groups.png)
+![External group collaboration chart](../images/wpa/use/external-collab-groups.png)
 
-## Groups collaborating with external people based on weekly averages
+## Weekly average collaboration
 
 This graph shows the top groups who collaborated with external domains based on weekly average number of either total collaboration hours or cost. The top groups are based on the total number of people who had one or more interactions (meetings or email) with people outside the company within the selected date range. The external domains are defined by the group-by attribute for **Time investors** in [Settings and filters](#settings-and-filters).
 
 ![External groups based on weekly averages](../images/wpa/use/external-collab-weekly.png)
 
-## Groups with the most external people connections
+## External network size
 
 **External network size** is the number of people external to the company with whom a person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) with in the last 28 days (or if reported by month, in the last month). For example, a sales person tends to have a greater external network size and breadth than a person whose company role is mainly internal.
 
-![External connections](../images/wpa/use/34-groups-most-ext-people-conn.png)
+![External network size chart](../images/wpa/use/external-collab-network.png)
 
-## Groups with the most external group connections
+## External network breadth
 
 The graph for **External network breadth** is the number of distinct external groups or domains with whom an employee had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) with in the last 28 days (or if reported by month, in the last month).
 
-![External network breadth](../images/wpa/use/35-ext-collab-network-breadth.png)
+![External network breadth chart](../images/wpa/use/external-collab-network-b.png)
 
-## Small groups with large external connections
+## Small groups with large external networks
 
 The graph compares the external network breadth and size of small groups in the company (based on the Time investor group-by attribute in Settings and filters) to the company medians. The size of the bubble in the chart represents the size of the group (organization).
 
-![External group connections](../images/wpa/use/36-ext-collab-groups-ext-conn.png)
+![External network bubble chart](../images/wpa/use/external-collab-bubble-chart.png)
 
 * **External network breadth** shows the number of unique external domains that groups in the company have connected with. For example, if a group only talked to contoso.com, then that group's external network breadth would be equal to one. If they talked to both contoso.com and adatum.com, their external network breadth would be two.
 * **External network size** shows the number of external people that groups in the company have connected with. If a group talked to 20 people in contoso.com, then their network size would be 20.
