@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Manager effectiveness assessment dashboard for Power BI
-description: Use the Manager effectiveness assessment dashboard to visualize predefined data from Workplace Analytics in Power BI
+title: Manager effectiveness dashboard for Power BI
+description: Use the Manager effectiveness dashboard to visualize predefined data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -9,13 +9,13 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-# Manager effectiveness assessment
+# Manager effectiveness
 
-The Manager effectiveness assessment dashboard for Power BI uses Workplace Analytics data to analyze people manager behaviors in your organization. Leaders can use this analysis to measure behaviors and trends of people managers across four key themes within your organization, including coach, empower, connect, and model.
+The Manager effectiveness dashboard for Power BI uses Workplace Analytics data to analyze people manager behaviors in your organization. Leaders can use this analysis to measure behaviors and trends of people managers across four key themes within your organization, including coach, empower, connect, and model.
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep dive into each theme, along with a **Why it matters** interpretation and best practices recommended by industry experts.
 
-![Manager effectiveness assessment dashboard in Power BI](../Images/WpA/tutorials/manager-effect-intro.png)
+![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/manager-effect-intro.png)
 
 The following describes the analysis within each theme and actions you can take, such as tracking changes.
 
@@ -48,7 +48,7 @@ The dashboard also includes:
 * [**Settings**](#dashboard-settings) for specifying the time period and filters and mapping the attributes for the reports.
 * **Glossary** that describes the metrics used in the different reports.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness assessment** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the Power BI template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the Power BI template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 When the dashboard is populated with your data, you can use it to visualize, explore, and report about your manager's workplace patterns and trends.
 
@@ -62,7 +62,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Manager effectiveness assessment** (or select **influence insights by month**, per **Step 8**) to open the predefined query, which contains the required metrics to populate the dashboard.
+2. Under **Start from preselected filters and metrics**, select **Manager effectiveness** (or select **influence insights by month**, per **Step 8**) to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
@@ -71,9 +71,9 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify managers and their groups, such as **LevelDesignation**, **ManagerId**, **Organization**, and **SupervisorIndicator**.
 
 7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
-8. Repeat **Steps 2-7** and select the **influence insights by month** query. Make the same selections as for **Manager effectiveness assessment**.
-9. After both queries successfully run, in **Queries** > **Results**, select the **Download** icon for the **Manager effectiveness assessment** query results, select **PBI template**, and then select **OK** to download the template.
-10. Open the downloaded **Manager effectiveness assessment** template.
+8. Repeat **Steps 2-7** and select the **influence insights by month** query. Make the same selections as for **Manager effectiveness**.
+9. After both queries successfully run, in **Queries** > **Results**, select the **Download** icon for the **Manager effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
+10. Open the downloaded **Manager effectiveness** template.
 11. If prompted to select a program, select **Power BI**.
 12. When prompted by Power BI:
 
@@ -96,7 +96,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
 ## Dashboard settings
 
-After the Manager effectiveness assessment dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to complete the required attribute settings. After this initial prompt, you can view and change the following required settings anytime by selecting the **Settings** (gear) icon on the **Settings** page.
+After the Manager effectiveness dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to complete the required attribute settings. After this initial prompt, you can view and change the following required settings anytime by selecting the **Settings** (gear) icon on the **Settings** page.
 
 * **Manager indicator attribute** - Select the attribute that identifies managers who manage people within your organization, such as **SupervisorIndicator**.
 * **Individual contributor attribute value** - Select the attribute value that identifies employees as individual contributors who do not manage people within your organization.
@@ -110,7 +110,7 @@ After you select the required settings, select **Next** to view and confirm the 
 * **Exclusions** - Select the weeks you want to exclude for everyone in the analysis population, such as holiday weeks where everyone is away from work.
 * **Organizational attribute to view the report by** - For **Dimension**, select the primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 
-![Manager effectiveness assessment dashboard settings](../Images/WpA/Tutorials/manager-effect-settings.png)
+![Manager effectiveness dashboard settings](../Images/WpA/Tutorials/manager-effect-settings.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 
