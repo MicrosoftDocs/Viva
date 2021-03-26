@@ -48,7 +48,7 @@ For example, the columns on the left in the following graphic shows chart data f
 >[!Note]
 >The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
 
-**Histogram charts are an exception**
+### Histogram charts are an exception
 
 For histogram charts, the minimum-group-size rule is applied differently, in the following ways:
 
@@ -86,8 +86,8 @@ You can exclude data from specific domains or data that includes specific email 
 
 * In **Exclude email addresses**, you can enter one or more email addresses to exclude from analysis. Any email and meetings that have these email addresses (as either sender or recipient, and attendee or invitee) are now excluded from analysis. For this setting, you need to enter every email address for each alias that you want to exclude.
 
-  > [!Important]
-  > Be sure to ask your Microsoft 365 admin to not assign licenses to any excluded email addresses.
+  >[!Important]
+  >Be sure to ask your Microsoft 365 admin to not assign licenses to any excluded email addresses.
 
 ## Exclude terms from subject lines
 
