@@ -26,7 +26,7 @@ External collaboration has a number of graphs that help you analyze data based o
 
 ## Access to External collaboration
 
-**External collaboration** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [External collaboration](https://workplaceanalytics.office.com/Home/Agility/ExternalCollaboration) to view it in Workplace Analytics.
+**External collaboration** data is available through **Home** > **Increase customer focus** > **Optimize time with customers** > **See your insights** > **Explore the stats**. Or sign in to [Workplace Analytics](https://workplaceanalytics.office.com) and then open [External collaboration](https://workplaceanalytics.office.com/Home/Agility/ExternalCollaboration) to view it.
 
 ## Summary data
 
@@ -63,7 +63,7 @@ The first graph shows the top external domains that people in your company spend
 
 The second graph shows which groups in your company have the most people collaborating with external people. External people is defined by the group-by attribute for **Time investors** in [Settings and filters](#settings-and-filters). By default, the group-by attribute is **Organization** for time investors.
 
-![External group collaboration chart](../images/wpa/use/external-collab-groups.png)
+![External group collaboration chart](../images/wpa/use/external-collab-groups3.png)
 
 ## Weekly average collaboration
 
