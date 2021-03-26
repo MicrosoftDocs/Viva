@@ -45,8 +45,8 @@ For example, the columns on the left in the following graphic shows chart data f
 
    ![Bar chart with bars above and below the minimum-group setting](../images/wpa/group-size-bars.png)
 
-> [!Note]
-> The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
+>[!Note]
+>The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
 
 **Histogram charts are an exception**
 
