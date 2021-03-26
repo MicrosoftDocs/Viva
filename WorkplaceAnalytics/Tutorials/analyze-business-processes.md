@@ -212,9 +212,9 @@ Business processes can have the following status:
  
 * <u>Draft</u> &ndash; You are creating or editing the business process but you have not selected **Submit**.  
  
-* <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system.
+* <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system. The business process completes processing during the regular weekly processing of Workplace Analytics.
 
-* <u>Ready</u> &ndash; The business process has been successfully published and can be used in Workplace Analytics by an analyst in the same partition.
+* <u>Ready</u> &ndash; The business process has been successfully processed and can be used in Workplace Analytics by an analyst in the same partition.
 
 * <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
