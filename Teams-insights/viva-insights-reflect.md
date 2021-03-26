@@ -29,7 +29,7 @@ You can choose your own frequency for self-reflection. Once daily might work wel
 
 2. Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice. 
 
-   ![Feedback page](images/reflect-history-70.png)
+   ![Feedback page](images/reflect-thats-great-46.png)
 
 3. (Optional) Select **Reflection history** to see how your feelings have changed over time, as indicated by the emojis you've chosen. For example:
 
