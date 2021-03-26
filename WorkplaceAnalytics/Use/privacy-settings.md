@@ -41,9 +41,9 @@ The minimum-group-size rule protects people from being identified in Workplace A
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
-For example, the columns on the left in the following graphic shows chart data for groups that exceed the minimum-group setting. The grayed-out columns on the right represent *unavailable data* for the groups with fewer people than the minimum-group setting.
+For example, the columns on the left in the following graphic shows chart data for groups that exceed the minimum-group setting. The gray-striped column represents *unavailable data* for the CEO group that has fewer people than the minimum-group setting.
 
-   ![Bar chart with bars above and below the minimum-group setting](../images/wpa/group-size-bars.png)
+![1:1 meeting hours protects employee privacy](../images/wpa/use/1x1-meeting-hours.png)
 
 >[!Note]
 >The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
