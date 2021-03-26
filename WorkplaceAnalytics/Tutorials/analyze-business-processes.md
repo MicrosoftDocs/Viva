@@ -102,7 +102,7 @@ To view or delete a data set, first find it on the **Data sets** tab of the **An
 
 ## Define a business process
 
-Before you can run queries to analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords or phrases that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
+Before you can run queries to analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
 ![Biz process start page](../images/wpa/tutorials/start-page.png)
 
@@ -154,7 +154,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
    ![Results table](../images/wpa/tutorials/result-words-2.png)
 
-2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Phrase**, **Attendee meeting hours**, or **Number of meetings**).
+2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Keyword**, **Attendee meeting hours**, or **Number of meetings**).
 
    >[!Note]
    >The Rank column indicates relevance ranking. In the preceding illustration, a rank of 1 indicates that the "account" keyword is the most relevant to the specified search term "purchase." The concept is similar to the ranking in web-page search results.
@@ -163,13 +163,13 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
    To make sure you're looking at relevant content, you can examine these terms more closely in either of two ways:
 
-   * <u>Find related phrases</u>. Expand the phrase by selecting the ">" (greater-than) sign to its left. This shows multiple-word phrases that included the keyword. For example, if you expand the keyword **lead**, you might see "qualified lead" or "lead generation." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
+   * <u>Find related keywords</u>. Expand the keyword by selecting the ">" (greater-than) sign to its left. This shows multiple-word phrases that included the keyword. For example, if you expand the keyword **lead**, you might see "qualified lead" or "lead generation." For each keyword, you can see the **Number of meetings** that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
-   * <u>View the metadata of actual meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase, along with additional information such as number of attendees and whether the meeting is a recurring. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
+   * <u>View the metadata of actual meetings.</u> Click the keyword. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase, along with additional information such as number of attendees and whether the meeting is a recurring. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
 
-4. After you decide that a phrase is relevant, include it into the business-process definition by completing these two steps:
+4. After you decide that a keyword is relevant, include it into the business-process definition by completing these two steps:
 
-   a. Hover your mouse over the phrase's row to see an unselected checkbox to the left of the phrase. 
+   a. Hover your mouse over the keyword's row to see an unselected checkbox to the left of the keyword.
 
    ![Unselected term](../images/wpa/tutorials/unchecked-box-2.png)
 
@@ -190,7 +190,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
    >[!Note]
    >As you add keywords, the system becomes more context-aware. It automatically begins to uncover more content that's relevant to the keywords that you've added. It shows this new content in the results list.  
 
-7. You might already be aware of phrases that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add phrases directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the phrase you want to add (or multiple phrases selected by semicolons), and press Enter.
+7. You might already be aware of words that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add keywords directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the keyword that you want to add (or multiple keywords selected by semicolons), and press Enter.
 
    Similarly, if there are words that you know you want to explicitly exclude, you can exclude them under **Excluded keywords**.
 
