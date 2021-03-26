@@ -40,16 +40,6 @@ External collaboration includes the following summary information.
 * **Percentage of total hours spent in external collaboration** and the number of external collaboration hours as compared to the total collaboration hours that employees spent collaborating with people outside the company as compared to all collaboration, which is defined by at least one interaction during the set date range.
 * **External collaborators** is the number of people outside your company whom the measured employees collaborated with at least one time during the set date range. This number does not change with applied filters in [Settings and filters](#settings-and-filters).
 
-## About the charts
-
-Most of the graphs include one of the following types of charts.
-
-**Trend charts** show changes over time, for example, the trend of the group average, month to month.
-
-**Distribution charts** show the statistical distribution of metrics, such as the minimum, maximum, median, and upper and lower percentiles for the group. Distribution charts can also tell you whether your data is symmetrical, or how tightly your data is grouped, or whether any outliers exist, and if so, what their values are.
-
-For more details, see [Charts in Workplace Analytics](../use/chart-types.md).
-
 ## External domain collaboration
 
 The first graph shows the top external domains that people in your company spend the most time with. You can change what the top domains are based on, including total collaboration hours, total collaboration cost, and total number of engaged employees.

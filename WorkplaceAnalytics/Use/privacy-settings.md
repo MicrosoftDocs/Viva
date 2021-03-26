@@ -37,7 +37,7 @@ After you change privacy settings, your changes take effect after data is proces
 
 ## Minimum group size
 
-The minimum-group-size rule protects people from being identified in Workplace Analytics data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and in [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
+The minimum-group-size rule protects people from being identified in Workplace Analytics data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
