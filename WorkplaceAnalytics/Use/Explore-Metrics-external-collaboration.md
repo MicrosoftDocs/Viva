@@ -61,13 +61,13 @@ The first graph shows the top external domains that people in your company spend
 
 ## External group collaboration
 
-The second graph shows which groups in your company have the most people collaborating with external people. External people is defined by the group-by attribute for **Time investors** in [Settings and filters](#settings-and-filters). By default, the group-by attribute is **Organization** for time investors.
+The second graph shows which groups in your company have the most people collaborating with external people. External people is defined by the group-by attribute for **Time investors** in [Settings and filters](explore-page-settings.md#time-investors). By default, the group-by attribute is **Organization** for time investors.
 
 ![External group collaboration chart](../images/wpa/use/external-collab-groups3.png)
 
 ## Weekly average collaboration
 
-This graph shows the top groups who collaborated with external domains based on weekly average number of either total collaboration hours or cost. The top groups are based on the total number of people who had one or more interactions (meetings or email) with people outside the company within the selected date range. The external domains are defined by the group-by attribute for **Time investors** in [Settings and filters](#settings-and-filters).
+This graph shows the top groups who collaborated with external domains based on weekly average number of either total collaboration hours or cost. The top groups are based on the total number of people who had one or more interactions (meetings or email) with people outside the company within the selected date range. The external domains are defined by the group-by attribute for **Time investors** in [Settings and filters](explore-page-settings.md#time-investors).
 
 ![External groups based on weekly averages](../images/wpa/use/external-collab-weekly.png)
 
@@ -89,10 +89,10 @@ The graph compares the external network breadth and size of small groups in the 
 
 ![External network bubble chart](../images/wpa/use/external-collab-bubble-chart.png)
 
-* **External network breadth** shows the number of unique external domains that groups in the company have connected with. For example, if a group only talked to contoso.com, then that group's external network breadth would be equal to one. If they talked to both contoso.com and adatum.com, their external network breadth would be two.
-* **External network size** shows the number of external people that groups in the company have connected with. If a group talked to 20 people in contoso.com, then their network size would be 20.
+* **External network breadth** shows the number of unique external domains that groups in the company have connected with. For example, if a group only talked to people with the Contoso.com domain, then that group's external network breadth would be equal to one. If they talked to people in both the Contoso.com and Adatum.com domains, their external network breadth would be two.
+* **External network size** shows the number of external people that groups in the company have connected with. If a group talked to 20 people in the Contoso.com domain, then their external network size would be 20.
 
-You can use this graph to determine whether small groups in your company might be making a significant number of external connections. Conversely, the graph could show you whether big groups are making relatively few external connections.
+This graph can help you determine whether small groups in your company are making a significant number of external connections. Conversely, the graph can also show whether big groups are making relatively few external connections.
 
 In the graph, if the bubble for your group is found at the top right, then your group made the most external connections and contacted the greatest number of unique domains in the selected date range.  
 
