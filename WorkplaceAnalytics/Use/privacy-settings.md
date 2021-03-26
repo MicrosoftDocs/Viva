@@ -41,14 +41,14 @@ The minimum-group-size rule protects people from being identified in Workplace A
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
-For example, the columns on the left in the following graphic shows chart data for groups that exceed the minimum-group setting. The grayed-out columns on the right represent *unavailable data* for the groups with fewer people than the minimum-group setting.
+For example, the columns on the left in the following graphic shows chart data for groups that exceed the minimum-group setting. The gray-striped column represents *unavailable data* for the CEO group that has fewer people than the minimum-group setting.
 
-   ![Bar chart with bars above and below the minimum-group setting](../images/wpa/group-size-bars.png)
+![1:1 meeting hours protects employee privacy](../images/wpa/use/1x1-meeting-hours.png)
 
-> [!Note]
-> The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
+>[!Note]
+>The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
 
-**Histogram charts are an exception**
+### Histogram charts are an exception
 
 For histogram charts, the minimum-group-size rule is applied differently, in the following ways:
 
@@ -86,8 +86,8 @@ You can exclude data from specific domains or data that includes specific email 
 
 * In **Exclude email addresses**, you can enter one or more email addresses to exclude from analysis. Any email and meetings that have these email addresses (as either sender or recipient, and attendee or invitee) are now excluded from analysis. For this setting, you need to enter every email address for each alias that you want to exclude.
 
-  > [!Important]
-  > Be sure to ask your Microsoft 365 admin to not assign licenses to any excluded email addresses.
+  >[!Important]
+  >Be sure to ask your Microsoft 365 admin to not assign licenses to any excluded email addresses.
 
 ## Exclude terms from subject lines
 
