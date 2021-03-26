@@ -40,7 +40,7 @@ The following sections describe these procedures.
 
 Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: “How do our sales reps interact with their customers?”
 
-You start by limiting the data set for your query by keeping only the organizational data that applies to the analysis – in this case, meetings that were organized by people in Sales.
+You start by limiting the data set for your query by keeping only the organizational data that applies to the analysis &ndash; in this case, meetings that were organized by people in Sales.
 
 To define a data set, use the following procedure:
 
@@ -72,7 +72,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
    ![Add a Meeting filter](../images/wpa/tutorials/meeting-filter-1.png)
 
-8. In the boxes to the right of **Meeting's**, select **Duration (in hours)**, **<** (less than), and **30** minutes.
+8. In the boxes to the right of **Meeting's**, select **Duration (in hours)**, **<** (less than), and **0.5** (hours).
 
 9. On the next line, select **Organizer**. This lets us choose the work function (in this case, sales) of the meeting organizer.
 
@@ -88,7 +88,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 ### Data set statuses
 
-Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (in the weekkly processing schedule of Workplace Analytics), its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (in the weekly processing schedule of Workplace Analytics), its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
 You can find a list of existing data sets and their statuses on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics:
 
@@ -98,7 +98,7 @@ You can find a list of existing data sets and their statuses on the **Data sets*
 
 After a data set has been created, it can be viewed, used, or deleted, but it cannot be edited. A dataset can be deleted only if no business processes are using it. After you delete a data set, it cannot be recovered.
 
-To view or delete a data set, first find it on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics:
+To view or delete a data set, first find it on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics, and then use the **View** or **Delete** options.
 
 ## Define a business process
 
@@ -116,7 +116,7 @@ In this example, we want to examine meetings of a particular length that the Sal
 We will describe the creation of a business process in two procedures:
 
 1. [Create a new business process](#create-a-new-business-process)
-2. [Add meeting filters](#add-meeting-filters)
+2. [Assemble a list of keywords](#assemble-a-list-of-keywords)
 
 #### Create a new business process
 
@@ -140,34 +140,34 @@ In these steps, we create and name an empty business process.
 
 6. Go to the following procedure.
 
-#### Add meeting filters
+#### Assemble a list of keywords
 
 **Role:** Analyst
 
-In this procedure, we assemble the vocabulary that constitutes the business process. We start on the **New business process** page:
+In this procedure, you assemble the vocabulary that constitutes the business process. Start on the **New business process** page:
 
 ![Biz process start page](../images/wpa/tutorials/keyword-page.png)
 
-As an analyst, your goal now is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those as cues to uncover additional content that it deemed relevant. In this example, that means words related to sales interactions.
+As an analyst, your goal now is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those words as cues to uncover additional content that it deems relevant. In this example, that means words related to sales interactions.
 
-1. In the field marked **Enter a search term**, type **interview** and press Enter. The system searches for content that's related to "interview" and displays the results in a table.
+1. In the field marked **Enter a search term**, type **purchase** and press Enter. The system searches for content that's related to "purchase" and displays the results in a table.
 
    ![Results table](../images/wpa/tutorials/result-words-2.png)
 
-2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Phrase**, **Attendee meeting hours**, or **Meeting count**).
+2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Phrase**, **Attendee meeting hours**, or **Number of meetings**).
 
    >[!Note]
    >The Rank column indicates relevance ranking. In the preceding illustration, a rank of 1 indicates that the "account" keyword is the most relevant to the specified search term "purchase." The concept is similar to the ranking in web-page search results.
 
-3. Scan the phrases in the **Phrase** column. Which ones do you find relate most closely to the concept of "Sales interactions" (the business process to be analyzed)?
+3. Scan the words in the **Keyword** column. Which ones do you find relate most closely to the concept of "Sales interactions" (the business process to be analyzed)?
 
    To make sure you're looking at relevant content, you can examine these terms more closely in either of two ways:
 
-   * <u>View the metadata of actual meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
-
    * <u>Find related phrases</u>. Expand the phrase by selecting the ">" (greater-than) sign to its left. This shows multiple-word phrases that included the keyword. For example, if you expand the keyword **lead**, you might see "qualified lead" or "lead generation." For each phrase, you can see the number of meetings (**Meeting count**) that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
-4. After you decide that a phrase is relevant, include it into the process definition by completing these two steps:
+   * <u>View the metadata of actual meetings.</u> Click the phrase. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase, along with additional information such as number of attendees and whether the meeting is a recurring. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
+
+4. After you decide that a phrase is relevant, include it into the business-process definition by completing these two steps:
 
    a. Hover your mouse over the phrase's row to see an unselected checkbox to the left of the phrase. 
 
