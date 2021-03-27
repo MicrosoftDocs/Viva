@@ -232,7 +232,7 @@ You analyze _real-world_ business processes by running Workplace Analytics meeti
 
 Design your query and choose its metrics so that filtering by this digital business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze.
 
-You can filter by business processes wherever the **Meeting** option is available as a filter or a customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization. 
+You can filter by business processes wherever the **Meeting** option is available as a filter or a metric customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization. 
 
 ### Use a business process in a meeting query
 
@@ -290,7 +290,7 @@ In person queries, business processes are available as filters for meetings that
 
 The business-process analysis feature aligns with the data-privacy standards of Workplace Analytics, which are described in [Privacy settings](../use/privacy-settings.md).
 
-To define a business process, you use meeting subject lines, but two of the available data-privacy settings restrict access to meeting subject lines: [Hash subject lines](../use/privacy-settings.md#hash-subject-lines) and [Exclude terms from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines). These settings affect your ability to define a business process as described here:
+To define a business process, you must use meeting subject lines, but access to meeting subject lines is restricted by two of the available data-privacy settings: [Hash subject lines](../use/privacy-settings.md#hash-subject-lines) and [Exclude terms from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines). These settings affect your ability to define a business process as described here:
 
 ### Hash subject lines
 
