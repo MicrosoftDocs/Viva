@@ -242,7 +242,11 @@ In meeting queries, business processes are only available as filters for meeting
 
 3. Under **Select filters**, select **Meeting**.
 
+   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+
 4. Next to **Meeting’s**, select **Business process**.
+
+   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
 
 5. In the field on the right, select a business process.
 
@@ -258,13 +262,23 @@ In person queries, business processes are available as filters for meetings that
 
 3. Under **Select metrics**, select a metric. In this example, we’ll use **Collaboration hours**.
 
+   ![Select metrics](../images/wpa/tutorials/select-metrics.png)
+
 4. Customize the Collaboration hours metric. Start by selecting the pencil (**Edit**) icon.
+
+   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
 
 5. Select **Add filter**.
 
+   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+
 6. For **Collaboration hours where**, select **Meeting**.
 
+   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+
 7. Next to **Meeting’s**, select **Business process**.
+
+   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
 
 8. In the field on the right, select a business process.
 
