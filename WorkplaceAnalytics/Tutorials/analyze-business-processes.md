@@ -308,15 +308,16 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
-Adding words to this list affects business-process analysis as described in the following section, [Create a business process](#create-a-business-process).
-
-#### Create a business process
-
-The effects of excluding terms from subject lines differ depending on whether the exclusion takes place before or after you define the business process.
-
-* **Exclude the word first** &ndash; An admin excludes a particular word (say, "budget") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "budget" &ndash; because it is unavailable.
+The exclusion of terms from subject lines has differing effects depending on whether the exclusion takes place before or after you define the business process.
 
 * **Create the process first** &ndash; You create a business processes that uses a particular word, say, "budget." Then, an admin excludes "budget" from subject lines. This has _no effect_ on your business process. The business process still includes the word "budget" and you can use the business process as normal in query filters.
+
+* **Exclude the term first** &ndash; An admin excludes a particular word (say, "budget") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "budget" &ndash; because it is unavailable.
+
+>[!Note]
+>Whether the exclusion of a term takes place before you created a business process or after depends on the day of the week on which the exclusion is made. The data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday. Changes to the list of excluded terms do not take effect until the next data refresh is complete &mdash; in other words, on the next Monday.
+>
+>For example, if you exclude a term on Thursday, April 6, and create a business process on Friday, April 7, that term will still appear unexcluded. However, the next Workplace Analytics data refresh completes on Monday, April 10. If you create your business process on Tuesday, April 11 &mdash; after the data refresh &mdash; the exclusion will be in effect, and the term will have been removed from your data set, as was intended.
 
 ## Related topics
 
