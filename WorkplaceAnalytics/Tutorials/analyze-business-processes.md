@@ -228,7 +228,9 @@ To view or delete a business process, first find it on the **Analyze** > **Busin
 
 ## Analyze a business process
 
-You analyze business processes by using Workplace Analytics meeting or person queries. Business processes are used as filters. You design your query and choose its metrics so that filtering by this business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze. 
+You analyze _real-world_ business processes by running Workplace Analytics meeting or person queries. As you do this, you use a _digital_ "business process" &mdash; the kind that you defined in [Business process steps](#business-process-steps) &mdash; as a filter.
+
+Design your query and choose its metrics so that filtering by this digital business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze.
 
 You can filter by business processes wherever the **Meeting** option is available as a filter or a customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization. 
 
@@ -246,7 +248,7 @@ In meeting queries, business processes are only available as filters for meeting
 
 4. Next to **Meeting’s**, select **Business process**.
 
-   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+   ![Select business process](../images/wpa/tutorials/select-filters-2.png)
 
 5. In the field on the right, select a business process.
 
@@ -262,25 +264,25 @@ In person queries, business processes are available as filters for meetings that
 
 3. Under **Select metrics**, select a metric. In this example, we’ll use **Collaboration hours**.
 
-   ![Select metrics](../images/wpa/tutorials/select-metrics.png)
+   ![Select metrics](../images/wpa/tutorials/select-metrics-collab.png)
 
-4. Customize the Collaboration hours metric. Start by selecting the pencil (**Edit**) icon.
+4. Customize the Collaboration hours metric. Start by selecting **Edit** (the pencil icon) .
 
-   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+   ![Customize the metric](../images/wpa/tutorials/customize-metric.png)
 
 5. Select **Add filter**.
 
-   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+   ![Add a filter](../images/wpa/tutorials/add-filter.png)
 
 6. For **Collaboration hours where**, select **Meeting**.
 
-   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+   ![Select filters](../images/wpa/tutorials/select-meeting-collab.png)
 
 7. Next to **Meeting’s**, select **Business process**.
 
-   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+   ![Select filters](../images/wpa/tutorials/select-filters-3.png)
 
-8. In the field on the right, select a business process.
+8. In the middle field, select "**=**" and in the field on the right, select a business process.
 
 9. Finish defining your query and select **Run**.
 
@@ -306,7 +308,7 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
-Adding words to this list affects business-process analysis as follows:
+Adding words to this list affects business-process analysis as described in the following section, [Create a business process](#create-a-business-process).
 
 #### Create a business process
 
