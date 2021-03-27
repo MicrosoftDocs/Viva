@@ -228,11 +228,47 @@ To view or delete a business process, first find it on the **Analyze** > **Busin
 
 ## Analyze a business process
 
-You analyze business processes by using Workplace Analytics [queries](query-basics.md). You can use the following query types in this kind of analysis:
+You analyze business processes by using Workplace Analytics meeting or person queries. Business processes are used as filters. You design your query and choose its metrics so that filtering by this business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze. 
 
-* [Meeting queries](meeting-queries.md)
+You can filter by business processes wherever the **Meeting** option is available as a filter or a customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization. 
 
-* [Person queries](person-queries.md)
+### Use a business process in a meeting query
+
+In meeting queries, business processes are only available as filters for meetings, as described in the following steps.
+
+1. In Workplace Analytics, select **Queries > Meeting** to open a Meeting query.
+
+2. Enter initial information about the query such as its name, time period, and exclusions.
+
+3. Under **Select filters**, select **Meeting**.
+
+4. Next to **Meeting’s**, select **Business process**.
+
+5. In the field on the right, select a business process.
+
+6. Finish defining your query and select **Run**.
+
+### Use a business process in a person query
+
+In person queries, business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
+
+1. In Workplace Analytics, select **Queries > Person** to open a Person query.
+
+2. Enter initial information about the query such as its name, time period, and exclusions.
+
+3. Under **Select metrics**, select a metric. In this example, we’ll use **Collaboration hours**.
+
+4. Customize the Collaboration hours metric. Start by selecting the pencil (**Edit**) icon.
+
+5. Select **Add filter**.
+
+6. For **Collaboration hours where**, select **Meeting**.
+
+7. Next to **Meeting’s**, select **Business process**.
+
+8. In the field on the right, select a business process.
+
+9. Finish defining your query and select **Run**.
 
 ## Data privacy
 
@@ -252,11 +288,11 @@ However, this option also makes subject lines unusable for business-process anal
 
 ### Exclude terms from subject lines
 
-For data-privacy reasons, you might want to exclude particular meetings from analysis. You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page of Workplace Analytics:
+For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page of Workplace Analytics:
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
-(For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) Adding words to this list affects business-process analysis as follows:
+Adding words to this list affects business-process analysis as follows:
 
 #### Create a business process
 
@@ -265,8 +301,6 @@ The effects of excluding terms from subject lines differ depending on whether th
 * **Exclude the word first** &ndash; An admin excludes a particular word (say, "budget") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "budget" &ndash; because it is unavailable.
 
 * **Create the process first** &ndash; You create a business processes that uses a particular word, say, "budget." Then, an admin excludes "budget" from subject lines. This has _no effect_ on your business process. The business process still includes the word "budget" and you can use the business process as normal in query filters.
-
-#### Use a business process in a query
 
 ## Related topics
 
