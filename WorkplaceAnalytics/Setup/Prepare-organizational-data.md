@@ -163,6 +163,7 @@ These are reserved column headers for attributes that are currently used only to
 These are any additional attributes you want to define to use in filtering and grouping data.
 
 >[!Note]
+>
 >* The maximum number of total attributes allowed in the system is 105, which includes the five required attributes.
 >* All dates should be in the MM/DD/YYYY format.
 >* All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
