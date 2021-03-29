@@ -141,6 +141,7 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 ### To opt out
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
+
 2. Select the **Settings** (gear) icon at top right.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
