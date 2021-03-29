@@ -148,48 +148,15 @@ The following must be supplied with the exact column headers in the .csv upload,
 
 These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
 
-* FunctionType (case sensitive)
-* HireDate
-* HourlyRate
-* Layer
-* SupervisorIndicator (case sensitive)
-* TimeZone
-* GroupId
-
->[!Note]
->
->
->* The names of these reserved optional attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).
->* Although these attributes are not required, if you include them, they must meet particular coverage requirements.
->* Because the term "GroupId" is also a system reserved attribute, it cannot be part of any custom attribute name.
-
-* FunctionType (case sensitive)
-* HireDate
-* HourlyRate
-* Layer
-* SupervisorIndicator (case sensitive)
-* TimeZone
-* GroupId
-
-|  Attribute  |Case sensitive? |  If used, does validation threshold apply? | Can use as name of a custom attribute? |  
-| ---- | ---- | ---- | ---- | ---- |
-| FunctionType | Yes | Yes | No |
-| HireDate      | No  | Yes | No |
-| HourlyRate    | No   | Yes | No |
-| Layer         | No  | Yes | No |
-| SupervisorIndicator | Yes | Yes | No |
-| TimeZone      | No   | Yes | No |
-| GroupId       | No   | No | No |
-
-| Attribute | Case sensitive?   | If used, does validation threshold apply? | Can use as name of a custom attribute? |
-| ----- | ----- | ----- | ----- | ----- |
-| FunctionType  | Yes | Yes | No |
-| HireDate      | No  | Yes | No |
-| HourlyRate    | No   | Yes | No |
-| Layer         | No  | Yes | No |
-| SupervisorIndicator | Yes | Yes | No |
-| TimeZone      | No   | Yes | No |
-| GroupId       | No   | No | No |
+|  Attribute  |Case sensitive? |  If used, does validation threshold apply? | Can be used as the name of a [custom attribute](#custom-attributes)? |  
+| ------------- | ---- | ---- | ---- | ---- |
+| FunctionType         | Yes  | Yes  | No   |
+| HireDate             | No   | Yes  | No   |
+| HourlyRate           | No   | Yes  | No   |
+| Layer                | No   | Yes  | No   |
+| SupervisorIndicator  | Yes  | Yes  | No   |
+| TimeZone             | No   | Yes  | No   |
+| GroupId              | No   | No   | No   |
 
 ### Custom attributes
 
