@@ -171,7 +171,7 @@ These are reserved column headers for attributes that are currently used only to
 * TimeZone
 * GroupId
 
-|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program Manager | People Manager |
+|  Attribute  |Case sensitive? |  If used, does validation threshold apply? | Can use as name of a custom attribute? |  Analyst (Limited Access) | Program Manager | People Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
 | **Home** | View highlights from the latest data; see the latest notifications | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only)|
 | **Analyze** |
