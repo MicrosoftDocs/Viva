@@ -163,6 +163,24 @@ These are reserved column headers for attributes that are currently used only to
 >* Although these attributes are not required, if you include them, they must meet particular coverage requirements.
 >* Because the term "GroupId" is also a system reserved attribute, it cannot be part of any custom attribute name.
 
+* FunctionType (case sensitive)
+* HireDate
+* HourlyRate
+* Layer
+* SupervisorIndicator (case sensitive)
+* TimeZone
+* GroupId
+
+| Attribute | Case sensitive? | If used, does validation threshold apply? | ----- | ----- | ----- | ----- | ----- |
+| Can use as name of a custom attribute? |
+| FunctionType  | Yes | Yes | No |
+| HireDate      | No  | Yes | No |
+| HourlyRate    | No   | Yes | No |
+| Layer         | No  | Yes | No |
+| SupervisorIndicator | Yes | Yes | No |
+| TimeZone      | No   | Yes | No |
+| GroupId       | No   | No | No |
+
 ### Custom attributes
 
 These are any additional attributes you want to define to use in filtering and grouping data.
