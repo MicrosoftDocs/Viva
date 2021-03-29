@@ -327,12 +327,11 @@ The exclusion of terms from subject lines has differing effects depending on whe
    >
    >For information about how this timing affects the contents of the data set and subsequent query results, see [Application of data privacy settings](#application-of-data-privacy-settings).
 
-### Application of data privacy settings
+### Application of data-privacy settings
 
 Whether the exclusion of a term takes place before you created a business process or after depends on the day of the week on which the exclusion is made. The data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday. Changes to the list of excluded terms do not take effect until the next data refresh is complete &mdash; in other words, on the next Monday.
 
 For example, if you exclude a term on Thursday, April 6, and create a business process on Friday, April 7, that term will still appear unexcluded. However, the next Workplace Analytics data refresh completes on Monday, April 10. If you create your business process on Tuesday, April 11 &mdash; after the data refresh &mdash; the exclusion will be in effect, and the term will have been removed from your data set, as was intended.
-
 
 ## Related topics
 
