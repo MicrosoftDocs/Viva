@@ -172,10 +172,9 @@ These are reserved column headers for attributes that are currently used only to
 * GroupId
 
 |  Attribute  |Case sensitive? |  If used, does validation threshold apply? | Can use as name of a custom attribute? |  
-| ---- | ---- | ---- | ---- | ---- | 
-| **Home** | View highlights from the latest data; see the latest notifications | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
-
-
+| ---- | ---- | ---- | ---- | ---- |
+| FunctionType | Yes | Yes | No |
+| HireDate      | No  | Yes | No |
 
 | Attribute | Case sensitive? | If used, does validation threshold apply? | ----- | ----- | ----- | ----- | ----- |
 | Can use as name of a custom attribute? |
