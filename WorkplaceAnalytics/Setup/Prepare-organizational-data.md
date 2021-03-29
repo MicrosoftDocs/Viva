@@ -141,6 +141,9 @@ The following must be supplied with the exact column headers in the .csv upload,
 * ManagerId
 * Organization (case sensitive)
 
+>[!Note]
+>The names of these required attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).  
+
 ### Reserved optional attributes
 
 These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
@@ -154,6 +157,11 @@ These are reserved column headers for attributes that are currently used only to
 * GroupId
 
 Although these attributes are not required, if included, they must meet particular coverage requirements.
+
+>[!Note]
+>The names of these reserved optional attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).
+
+<!-- FROM SANJAY. (BUT IT SEEMS REDUNDANT WITH THE PRECEDING NOTE.) Additionally, the term “GroupId” cannot be part of any custom attribute name, as it is a system reserved attribute.” -->
 
 ### Custom attributes
 
