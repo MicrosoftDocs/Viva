@@ -156,12 +156,12 @@ These are reserved column headers for attributes that are currently used only to
 * TimeZone
 * GroupId
 
-Although these attributes are not required, if included, they must meet particular coverage requirements.
-
 >[!Note]
->The names of these reserved optional attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).
-
-<!-- FROM SANJAY. (BUT IT SEEMS REDUNDANT WITH THE PRECEDING NOTE.) Additionally, the term “GroupId” cannot be part of any custom attribute name, as it is a system reserved attribute.” -->
+>
+>
+>* The names of these reserved optional attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).
+>* Although these attributes are not required, if you include them, they must meet particular coverage requirements.
+>* Because the term "GroupId" is also a system reserved attribute, it cannot be part of any custom attribute name.
 
 ### Custom attributes
 
@@ -170,7 +170,7 @@ These are any additional attributes you want to define to use in filtering and g
 >[!Note]
 >* The maximum number of total attributes allowed in the system is 105, which includes the five required attributes.
 >* All dates should be in the MM/DD/YYYY format.
->* Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+>* All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
 
 For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
 
