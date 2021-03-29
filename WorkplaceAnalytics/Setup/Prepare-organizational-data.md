@@ -151,6 +151,7 @@ These are reserved column headers for attributes that are currently used only to
 * Layer
 * SupervisorIndicator (case sensitive)
 * TimeZone
+* GroupId
 
 Although these attributes are not required, if included, they must meet particular coverage requirements.
 
