@@ -175,9 +175,15 @@ These are reserved column headers for attributes that are currently used only to
 | ---- | ---- | ---- | ---- | ---- |
 | FunctionType | Yes | Yes | No |
 | HireDate      | No  | Yes | No |
+| HourlyRate    | No   | Yes | No |
+| Layer         | No  | Yes | No |
+| SupervisorIndicator | Yes | Yes | No |
+| TimeZone      | No   | Yes | No |
+| GroupId       | No   | No | No |
 
-| Attribute | Case sensitive? | If used, does validation threshold apply? | ----- | ----- | ----- | ----- | ----- |
+| Attribute | Case sensitive? | If used, does validation threshold apply? 
 | Can use as name of a custom attribute? |
+| ----- | ----- | ----- | ----- | ----- |
 | FunctionType  | Yes | Yes | No |
 | HireDate      | No  | Yes | No |
 | HourlyRate    | No   | Yes | No |
