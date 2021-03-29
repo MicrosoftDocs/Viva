@@ -2,16 +2,18 @@
 
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Queries overview
 
-Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, and **Peer Comparison**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
+Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer analysis**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
 ![Ways to query data](../Images/WpA/Use/ways-to-query-data.png)
 
@@ -79,7 +81,7 @@ You can choose to analyze the number of interactions between a time investor and
 
 See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more. 
 
-## Peer Comparison query
+## Peer analysis query
 
 The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics,and their peer group's averages for those metrics.
 
@@ -87,6 +89,11 @@ You can compare individuals with others who share the same manager, with their d
 
 See [Peer Comparison queries](../Tutorials/comparison-query.md) to learn more.
 
+## Network queries
+
+You can use the Organizational network analysis (ONA) queries in Workplace Analytics to find out who are the best-connected people in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
+
+See [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) for more details.
 ## Meeting exclusions
 
 You can use meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
