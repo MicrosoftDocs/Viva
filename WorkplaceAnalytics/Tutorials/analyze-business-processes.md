@@ -236,7 +236,7 @@ You can filter by business processes wherever the **Meeting** option is availabl
 
 ### Use a business process in a meeting query
 
-In meeting queries, business processes are only available as filters for meetings, as described in the following steps.
+In [meeting queries](Meeting-queries.md#meeting-queries), business processes are only available as filters for meetings, as described in the following steps.
 
 1. In Workplace Analytics, select **Queries > Meeting** to open a Meeting query.
 
@@ -254,9 +254,11 @@ In meeting queries, business processes are only available as filters for meeting
 
 6. Finish defining your query and select **Run**.
 
+After the query runs, examine its results as described in [Understand and interpret query output](../use/csv-query-output-file.md) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
+
 ### Use a business process in a person query
 
-In person queries, business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
+In [person queries](Person-queries.md#person-queries), business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
 
 1. In Workplace Analytics, select **Queries > Person** to open a Person query.
 
@@ -276,7 +278,7 @@ In person queries, business processes are available as filters for meetings that
 
 6. For **Collaboration hours where**, select **Meeting**.
 
-   ![Select filters](../images/wpa/tutorials/select-meeting-collab.png)
+   ![Select meeting to customize](../images/wpa/tutorials/select-meeting-collab.png)
 
 7. Next to **Meeting’s**, select **Business process**.
 
@@ -285,6 +287,8 @@ In person queries, business processes are available as filters for meetings that
 8. In the middle field, select "**=**" and in the field on the right, select a business process.
 
 9. Finish defining your query and select **Run**.
+
+After the query runs, examine its results as described in [Understand and interpret query output](../use/csv-query-output-file.md) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
 
 ## Data privacy
 
@@ -314,10 +318,21 @@ The exclusion of terms from subject lines has differing effects depending on whe
 
 * **Exclude the term first** &ndash; An admin excludes a particular word (say, "budget") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "budget" &ndash; because it is unavailable.
 
->[!Note]
->Whether the exclusion of a term takes place before you created a business process or after depends on the day of the week on which the exclusion is made. The data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday. Changes to the list of excluded terms do not take effect until the next data refresh is complete &mdash; in other words, on the next Monday.
->
->For example, if you exclude a term on Thursday, April 6, and create a business process on Friday, April 7, that term will still appear unexcluded. However, the next Workplace Analytics data refresh completes on Monday, April 10. If you create your business process on Tuesday, April 11 &mdash; after the data refresh &mdash; the exclusion will be in effect, and the term will have been removed from your data set, as was intended.
+   >[!Note]
+   >The timing of the following events is significant:
+   >
+   >* An admin excludes a term.
+   >* You create a business process.
+   >* You run a query in which you use that business process. 
+   >
+   >For information about how this timing affects the contents of the data set and subsequent query results, see [Application of data privacy settings](#application-of-data-privacy-settings).
+
+### Application of data privacy settings
+
+Whether the exclusion of a term takes place before you created a business process or after depends on the day of the week on which the exclusion is made. The data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday. Changes to the list of excluded terms do not take effect until the next data refresh is complete &mdash; in other words, on the next Monday.
+
+For example, if you exclude a term on Thursday, April 6, and create a business process on Friday, April 7, that term will still appear unexcluded. However, the next Workplace Analytics data refresh completes on Monday, April 10. If you create your business process on Tuesday, April 11 &mdash; after the data refresh &mdash; the exclusion will be in effect, and the term will have been removed from your data set, as was intended.
+
 
 ## Related topics
 
