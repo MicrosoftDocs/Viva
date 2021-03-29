@@ -181,8 +181,7 @@ These are reserved column headers for attributes that are currently used only to
 | TimeZone      | No   | Yes | No |
 | GroupId       | No   | No | No |
 
-| Attribute | Case sensitive? | If used, does validation threshold apply? 
-| Can use as name of a custom attribute? |
+| Attribute | Case sensitive?   | If used, does validation threshold apply? | Can use as name of a custom attribute? |
 | ----- | ----- | ----- | ----- | ----- |
 | FunctionType  | Yes | Yes | No |
 | HireDate      | No  | Yes | No |
