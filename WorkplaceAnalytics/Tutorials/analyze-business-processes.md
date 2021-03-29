@@ -314,7 +314,7 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 The exclusion of terms from subject lines has differing effects depending on whether the exclusion takes place before or after you define the business process.
 
-* **Create the process first** &ndash; You create a business processes that uses a particular word, say, "budget." Then, an admin excludes "budget" from subject lines. This has _no effect_ on your business process. The business process still includes the word "budget" and you can use the business process as normal in query filters.
+* **Create the process first** &ndash; You create a business process that uses a particular word, say, "budget." Then, an admin excludes "budget" from subject lines. This has _no effect_ on your business process. The business process will still include the word "budget" and you can use the business process as normal in query filters.
 
 * **Exclude the term first** &ndash; An admin excludes a particular word (say, "budget") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "budget" &ndash; because it is unavailable.
 
