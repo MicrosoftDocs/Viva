@@ -209,9 +209,9 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 ### Business process statuses
 
 Business processes can have the following status:
- 
+
 * <u>Draft</u> &ndash; You are creating or editing the business process but you have not selected **Submit**.  
- 
+
 * <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system. The business process completes processing during the regular weekly processing of Workplace Analytics.
 
 * <u>Ready</u> &ndash; The business process has been successfully processed and can be used in queries in Workplace Analytics by an analyst in the same partition.
@@ -254,7 +254,11 @@ In [meeting queries](Meeting-queries.md#meeting-queries), business processes are
 
 6. Finish defining your query and select **Run**.
 
-After the query runs, examine its results as described in [Understand and interpret query output](../use/csv-query-output-file.md) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
+#### Interpret your query results
+
+The results of meeting queries in which you’ve specified a business-process filter will contain a column called "BusinessProcesses." This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
+
+For general information about examining query results, see [View, download, and export query results](../use/View-download-and-export-query-results.md).
 
 ### Use a business process in a person query
 
@@ -314,9 +318,9 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 The exclusion of terms from subject lines has differing effects depending on whether the exclusion takes place before or after you define the business process.
 
-* **Create the process first** &ndash; You create a business process that uses a particular word, say, "budget." Then, an admin excludes "budget" from subject lines. This has _no effect_ on your business process. The business process will still include the word "budget" and you can use the business process as normal in query filters.
+* **Create the process first** &ndash; You create a business process that uses a particular word, say, "merger." Then, an admin excludes "merger" from subject lines. This has _no effect_ on your business process. The business process will still include the word "merger" and you can use the business process as normal in query filters.
 
-* **Exclude the term first** &ndash; An admin excludes a particular word (say, "budget") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "budget" &ndash; because it is unavailable.
+* **Exclude the term first** &ndash; An admin excludes a particular word (say, "merger") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "merger" &ndash; because it is unavailable.
 
    >[!Note]
    >The timing of the following events is significant:
