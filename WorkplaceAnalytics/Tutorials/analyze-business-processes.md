@@ -17,7 +17,7 @@ When you and your co-workers perform an organized series of steps to reach a goa
 
 You can improve your business processes by analyzing them; for example, by measuring their cost in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees have been participating in them.
 
-To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a [metric filter](../use/metric-filters.md) for the query. <!-- *** CALL THESE NEW FILTERS OUT IN THAT TOPIC *** --> To improve the query's accuracy, you first define a _data set_ to limit the data that the query examines.
+To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a [metric filter](../use/metric-filters.md) for the query. <!-- *** CALL THESE NEW FILTERS OUT IN THAT TOPIC *** --> 
 
 Here are the procedures to follow to analyze a business process:
 
@@ -38,9 +38,9 @@ The following sections describe these procedures.
 
 ## Define a data set
 
-Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: “How do our sales reps interact with their customers?”
+Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: "How much time does our sales team spend in sales pipeline activities?"
 
-You start by limiting the data set for your query by keeping only the organizational data that applies to the analysis &ndash; in this case, meetings that were organized by people in Sales.
+You start by limiting the data set for your query by keeping only the organizational data that applies to the analysis &ndash; in this case, meetings that were attended by at least one sales representative.
 
 To define a data set, use the following procedure:
 
@@ -50,7 +50,7 @@ To define a data set, use the following procedure:
 
 Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process). 
 
-In this example, we restrict the analysis data to meetings of a particular length that were organized by the Sales division.
+In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one Sales representative.
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
@@ -74,9 +74,9 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 8. In the boxes to the right of **Meeting's**, select **Duration (in hours)**, **<** (less than), and **0.5** (hours).
 
-9. On the next line, select **Organizer**. This lets us choose the work function (in this case, sales) of the meeting organizer.
+9. On the next line, select **Attendee**. This lets us choose the work function (in this case, sales) of meeting attendees.
 
-   ![Add an Organizer filter](../images/wpa/tutorials/organizer.png)
+   ![Add an Attendee filter](../images/wpa/tutorials/attendee.png)
 
 10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Workplace Analytics admin has uploaded.)
 
@@ -88,7 +88,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 ### Data set statuses
 
-Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (in the weekly processing schedule of Workplace Analytics), its status changes to "Ready" and you can use it in business-definition processes and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (during the weekly processing schedule of Workplace Analytics), its status changes to "Ready" and you can use it in business-process definitions and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
 You can find a list of existing data sets and their statuses on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics:
 
@@ -111,7 +111,7 @@ Before you can run queries to analyze a business process within your organizatio
 
 ### Business process steps
 
-In this example, we want to examine meetings of a particular length that the Sales division held. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
+In this example, we want to examine meetings of a particular length that Sales reps attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
 
 We will describe the creation of a business process in two procedures:
 
@@ -159,7 +159,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
    >[!Note]
    >The Rank column indicates relevance ranking. In the preceding illustration, a rank of 1 indicates that the "account" keyword is the most relevant to the specified search term "purchase." The concept is similar to the ranking in web-page search results.
 
-3. Scan the words in the **Keyword** column. Which ones do you find relate most closely to the concept of "Sales interactions" (the business process to be analyzed)?
+3. Scan the words in the **Keyword** column. Which ones do you find relate most closely to the concept of "Sales activities" (the business process to be analyzed)?
 
    To make sure you're looking at relevant content, you can examine these terms more closely in either of two ways:
 
@@ -214,7 +214,7 @@ Business processes can have the following status:
  
 * <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system. The business process completes processing during the regular weekly processing of Workplace Analytics.
 
-* <u>Ready</u> &ndash; The business process has been successfully processed and can be used in Workplace Analytics by an analyst in the same partition.
+* <u>Ready</u> &ndash; The business process has been successfully processed and can be used in queries in Workplace Analytics by an analyst in the same partition.
 
 * <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
