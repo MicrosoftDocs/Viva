@@ -250,7 +250,7 @@ In [meeting queries](Meeting-queries.md#meeting-queries), business processes are
 
    ![Select business process](../images/wpa/tutorials/select-filters-2.png)
 
-5. In the field on the right, select a business process.
+5. In the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
 
 6. Finish defining your query and select **Run**.
 
@@ -284,7 +284,7 @@ In [person queries](Person-queries.md#person-queries), business processes are av
 
    ![Select filters](../images/wpa/tutorials/select-filters-3.png)
 
-8. In the middle field, select "**=**" and in the field on the right, select a business process.
+8. In the middle field, select "**=**" and in the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
 
 9. Finish defining your query and select **Run**.
 
