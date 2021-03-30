@@ -164,7 +164,7 @@ If you opt out of the Insights Outlook add-in, you might also want to remove its
 
    ![Select Get Add-ins](../../Images/mya/use/select-get-add-ins.png)
 
-2. Select **My add-ins**.
+2. On the left navigation pane, select **My add-ins**.
 
 3. On the **Insights** card, select the ellipsis (**...**) and then select **Remove**.
 
