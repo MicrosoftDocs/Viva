@@ -316,26 +316,25 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
-The exclusion of terms from subject lines has differing effects depending on whether the exclusion takes place before or after you define the business process.
+How do exclusions affect your use of business processes? You define a business processes atop a data set and it's within that data set that a term is present, or &ndash; if excluded &ndash; absent.
 
-* **Create the process first** &ndash; You create a business process that uses a particular word, say, "merger." Then, an admin excludes "merger" from subject lines. This has _no effect_ on your business process. The business process will still include the word "merger" and you can use the business process as normal in query filters.
+The exclusion of terms does not work retroactively; that is, exclusions work only on new data. An exclusion takes effect if all of the following hold true:
 
-* **Exclude the term first** &ndash; An admin excludes a particular word (say, "merger") before you create your business process. In this case, the word does not appear in the list of phrases that you can select in the [Add meeting filters](#add-meeting-filters) steps. You can still create a business process but you cannot use that word &ndash; in this case, "merger" &ndash; because it is unavailable.
+* You create the data set after the admin creates the exclusion.
+* You create the data set after the weekly data refresh is completed. (The collaboration data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday.)
+* You define the data set to use new data. That is, as you [define the data set](#define-a-data-set), for **Time period**, select dates that take place entirely after the exclusion was defined and data was refreshed.
 
-   >[!Note]
-   >The timing of the following events is significant:
-   >
-   >* An admin excludes a term.
-   >* You create a business process.
-   >* You run a query in which you use that business process. 
-   >
-   >For information about how this timing affects the contents of the data set and subsequent query results, see [Application of data privacy settings](#application-of-data-privacy-settings).
+The following example shows how this can unfold:
 
-### Application of data-privacy settings
-
-Whether the exclusion of a term takes place before you created a business process or after depends on the day of the week on which the exclusion is made. The data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday. Changes to the list of excluded terms do not take effect until the next data refresh is complete &mdash; in other words, on the next Monday.
-
-For example, if you exclude a term on Thursday, April 6, and create a business process on Friday, April 7, that term will still appear unexcluded. However, the next Workplace Analytics data refresh completes on Monday, April 10. If you create your business process on Tuesday, April 11 &mdash; after the data refresh &mdash; the exclusion will be in effect, and the term will have been removed from your data set, as was intended.
+| Date | Event |
+| ---- | ----- |
+| 1/1/2020 | A customer begins using Workplace Analytics. |
+| 4/1/2020 | An admin excludes the term "merger."
+| 4/8/2020 | The weekly data refresh has taken place. Any new data that arrived during the refresh will respect the exclusion; this means that any data sets based on this data will exclude the word "merger." (Also, any data that will arrive in the future will respect the exclusion.)
+| 4/9/2020 | An analyst defines a data set, called "DS1," for the period 1/1/2020 – 4/1/2020. This data set does NOT respect the exclusion, which means that the word "merger" is _not_ excluded.
+| 4/9/2020 | An analyst creates a business process that uses the data set DS1 and they later use it in a query. This business process does _not_ respect the exclusion and therefore still contains the word "merger."
+| 8/1/2020 | An analyst defines a data set, called "DS2" for the period 5/1/2020 – 8/1/2020. This data set does respect the exclusion and therefore does _not_ contain the word "merger."
+| 8/5/2020 | An analyst defines a business process that uses the data set DS2 and they later use it in a query. This data set does respect the exclusion and therefore does _not_ contain the word "merger."
 
 ## Related topics
 
