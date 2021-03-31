@@ -56,9 +56,9 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
 
-5. Select **Add for me**:
+5. Select **Add**:
 
-   ![Add for me button](../images/mya/use/add-for-me-new-410.png)
+   ![Add for me button](../images/mya/use/add-for-me.png)
 
 This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
