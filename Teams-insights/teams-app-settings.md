@@ -20,10 +20,10 @@ To configure features, start by opening the **Settings** page:
 
 1. In the upper-right corner of any page, select the ellipsis (...) and then select **Settings**:
 
-![Select settings](Images/settings-in-corner.png)
+   ![Select settings](Images/upper-right-corner.png)
 
-> [!Note]
-> Select **About** to open the product documentation for the Viva Insights app.
+   > [!Note]
+   > Select **How it works** to open the product documentation for the Viva Insights app.
 
 2. On the left side of the page, to the right of the App bar, select an aspect to configure. Select **Workweek** to edit the times that you work, select **My Team** (if you’re a manager) to edit the composition of your team, or set recurring reminders for the other features.
 
