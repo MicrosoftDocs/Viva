@@ -20,7 +20,7 @@ Select **Insights** on the app bar of Microsoft Teams to open the Home page of t
 
 The Home page makes it easy to start the other features of the Viva Insights app. You can reach some features in the menu bar and others in the main area of the page:
 
-### On the menu bar
+## On the menu bar
 
 When you open the features on the menu bar, you leave the Home page. 
 
@@ -31,7 +31,7 @@ When you open the features on the menu bar, you leave the Home page.
 
 <!-- GET CORRECT STEPS HERE! CAN THEY ACTUALLY CLICK STAY CONNECTED OR PROTECT TIME, AND CAN THEY CLICK SCHEDULE AND MORE INSIGHTS AND BOOK NOW AND MORE OPTIONS? CLICK ALL OR SOME OF THESE? HOW TO GET TO THE FULL FEATURE SCREENS THAT ARE DESCRIBED IN THE LINKED-TO DOCS? -->
 
-### On the Home page
+## On the Home page
 
 You use these features without leaving the Home page. Just follow the instructions on the card.  
 
@@ -46,7 +46,7 @@ For the next three cards, you can take a quick action while remaining on the Hom
 * [Protect time](viva-insights-protect-time.md) &ndash; Take the action that the **Protect time** card currently shows. For example, book focus time for tomorrow. 
 * [Microsoft To Do](#microsoft-to-do) &ndash; Take action on the task in your **To Do** list that the card currently shows. For example, book a meeting. 
 
-### Up-next card
+## Up-next card
 
 On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
 
@@ -56,11 +56,11 @@ The card's color changes to alert you of other events, such as scheduled focus t
 
 ![Virtual commute](images/virtual-commute.png)
 
-### Take a break
+## Take a break
 
 This feature offers a one-minute "breathing break" animated experience that you can use as often as you want during your workday. To start it, select **Start**. 
 
-### Microsoft To Do
+## Microsoft To Do
 
 This card shows tasks that are in your **To Do** list that are due today or for which a reminder for today has been set. Select **All To Do tasks for today** to open the Tasks app in Teams. For more information, see [Microsoft To Do](https://todosupport.helpshift.com/a/microsoft-to-do/?p=web). 
 
