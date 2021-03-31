@@ -316,7 +316,7 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 ![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
 
-How do exclusions affect your use of business processes? You define a business processes atop a data set and it's within that data set that a term is present, or &ndash; if excluded &ndash; absent.
+How does the exclusion of terms affect your use of business processes? It affects your ability to [assemble a list of keywords](#assemble-a-list-of-keywords), which is the central task in defining a business process. This is because you define a business process atop a data set, and that data set either contains words that you want to use as keywords, or it does not contain them &ndash; because they've been excluded.
 
 The exclusion of terms does not work retroactively; that is, exclusions work only on new data. An exclusion takes effect if all of the following hold true:
 
