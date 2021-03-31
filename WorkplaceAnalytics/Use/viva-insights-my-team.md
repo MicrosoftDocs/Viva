@@ -35,7 +35,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 For you to obtain access to the **My team** page, the following must be in place:
 
 * **Manager access** &ndash; Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
-* **No other roles** &ndash; You must not be assigned any Workplace Analytics role, such as admin, analyst, or program manager.
+* **No other roles** &ndash; You _cannot_ be assigned any other Workplace Analytics role, including admin, analyst, or program manager.
 * **Licensed team** &ndash; The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager.  
 * **Minimum team size** &ndash; Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
