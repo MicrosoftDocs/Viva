@@ -338,7 +338,7 @@ The following example shows how this can unfold:
 | 4/9/2020 | An analyst defines a data set, called "DS1," for the period 1/1/2020 – 4/1/2020. This data set does NOT respect the exclusion, which means that the word "merger" is _not_ excluded.
 | 4/9/2020 | An analyst creates a business process that uses the data set DS1 and they later use it in a query. This business process does _not_ respect the exclusion and therefore still contains the word "merger."
 | 8/1/2020 | An analyst defines a data set, called "DS2" for the period 5/1/2020 – 8/1/2020. This data set does respect the exclusion and therefore does _not_ contain the word "merger."
-| 8/5/2020 | An analyst defines a business process that uses the data set DS2 and they later use it in a query. This data set does respect the exclusion and therefore does _not_ contain the word "merger."
+| 8/5/2020 | An analyst defines a business process that uses the data set DS2 and they later use it in a query. This data set (and therefore the business process that uses it) _does_ respect the exclusion and does _not_ contain the word "merger."
 
 ## Related topics
 
