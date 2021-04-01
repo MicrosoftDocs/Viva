@@ -25,7 +25,7 @@ Microsoft Viva Insights provides personalized recommendations to build better wo
 ## Stay connected  
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
-   
+
    ![Stay connected](images/stay-connected.png)
 
 The **Stay connected** tab can contain insights such as the following: 
@@ -38,22 +38,22 @@ The **Stay connected** tab can contain insights such as the following:
 * [Catch up on unread documents shared with you](#catch-up-on-unread-documents-shared-with-you) 
 * [@Mentions for pinned important contacts](#-for-pinned-important-contacts) 
 * [Upcoming meetings that need your RSVP](#upcoming-meetings-that-need-your-rsvp) 
- 
+
 #### Identify and pin important collaborators  
 
 You might receive insights from various people but some items might deserve more attention than others. For example, an outstanding task suggestion from your manager or a message from a key customer would likely be of higher priority.  
 
 Based on your collaboration patterns, you can pin some of your contacts as important. All insights from pinned important contacts are shown with higher priority at the top of the page.  
 
-To pin a contact, select the **pin** icon on the bottom left below the contact’s name: 
-   
+To pin a contact, select the **pin** icon on the bottom left below the contact’s name:
+
    ![Pin a contact](Images/pin-contact.png)
 
-To unpin a contact, select the **unpin** icon: 
-   
+To unpin a contact, select the **unpin** icon:
+
    ![Unpin a contact](Images/unpin-contact.png)
 
-#### Set up 1:1 meeting reminders 
+#### Set up 1:1 meeting reminders
 
 While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. Microsoft Viva Insights can help you set a target 1:1 meeting frequency for each contact and provide  you with meeting recommendations if you are falling out of touch.  
 
@@ -88,14 +88,14 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 * **Follow-ups** &ndash; Something that you asked for from someone else in an email 
 
 In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select **Done** to confirm that you’ve already followed up.  
-   
+
    ![Sync on regression tests email](Images/sync-up.png)
 
-#### Catch up on unread documents shared with you 
+#### Catch up on unread documents shared with you
 
 Have you searched for that document that you planned to read but you just cannot find it? With so many documents shared across meetings and emails, it can be difficult to stay caught up on documents shared by your colleagues. With this insight you can see a list of the shared OneDrive and SharePoint documents that you need to catch up on.  
 
-In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**. 
+In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**.
    
    ![Unread document from the meeting](Images/unread-doc.png)
 
