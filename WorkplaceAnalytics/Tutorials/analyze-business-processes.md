@@ -50,7 +50,7 @@ To define a data set, use the following procedure:
 
 Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process). 
 
-In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one Sales representative.
+In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
@@ -111,7 +111,7 @@ Before you can run queries to analyze a business process within your organizatio
 
 ### Business process steps
 
-In this example, we want to examine meetings of a particular length that Sales representatives attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
+In this example, we want to examine meetings of a particular length that sales representatives attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
 
 We will describe the creation of a business process in two procedures:
 
