@@ -292,6 +292,8 @@ In [person queries](Person-queries.md#person-queries), business processes are av
 
 9. Finish defining your query and select **Run**.
 
+#### Interpret your query results
+
 The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
 After the query runs, examine its results as described in [Understand and interpret query output](../use/csv-query-output-file.md) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
