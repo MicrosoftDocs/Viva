@@ -17,7 +17,7 @@ When you and your co-workers perform an organized series of steps to reach a goa
 
 You can improve your business processes by analyzing them; for example, by measuring their cost in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees have been participating in them.
 
-To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a [metric filter](../use/metric-filters.md) for the query. <!-- *** CALL THESE NEW FILTERS OUT IN THAT TOPIC *** --> 
+To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- *** CALL THESE NEW FILTERS OUT IN THAT TOPIC *** -->
 
 Here are the procedures to follow to analyze a business process:
 
@@ -26,10 +26,10 @@ Here are the procedures to follow to analyze a business process:
 2. [Define a business process](#define-a-business-process) &ndash; Define the business process that you want to analyze within the data set that you defined in the preceding step.
 
 3. [Analyze a business process](#analyze-a-business-process) &ndash; Compose and run a Workplace Analytics query in which you select the business process as a parameter.
- 
-This illustration shows these procedures and the types of data that they involve: 
 
-![Add a Meeting filter](../images/wpa/tutorials/steps-3.png)
+This illustration shows these procedures and the types of data that they involve:
+
+![Conceptual art: three steps](../images/wpa/tutorials/steps-3.png)
 
 The following sections describe these procedures.
 
@@ -38,7 +38,7 @@ The following sections describe these procedures.
 
 ## Define a data set
 
-Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: "How much time does our sales team spend in sales pipeline activities?"
+Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: "How much time does our sales team spend in sales activities?"
 
 You start by limiting the data set for your query by keeping only the organizational data that applies to the analysis &ndash; in this case, meetings that were attended by at least one sales representative.
 
@@ -88,7 +88,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 ### Data set statuses
 
-Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (during the weekly processing schedule of Workplace Analytics), its status changes to "Ready" and you can use it in business-process definitions and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+Right after you select **Submit**, the data set has a status of "In progress"; after it is processed, its status changes to "Ready" and you can use it in business-process definitions and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
 You can find a list of existing data sets and their statuses on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics:
 
@@ -111,7 +111,7 @@ Before you can run queries to analyze a business process within your organizatio
 
 ### Business process steps
 
-In this example, we want to examine meetings of a particular length that Sales reps attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
+In this example, we want to examine meetings of a particular length that Sales representatives attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
 
 We will describe the creation of a business process in two procedures:
 
@@ -165,7 +165,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
    * <u>Find related keywords</u>. Expand the keyword by selecting the ">" (greater-than) sign to its left. This shows multiple-word phrases that included the keyword. For example, if you expand the keyword **lead**, you might see "qualified lead" or "lead generation." For each keyword, you can see the **Number of meetings** that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
-   * <u>View the metadata of actual meetings.</u> Click the keyword. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase, along with additional information such as number of attendees and whether the meeting is a recurring. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
+   * <u>View the metadata of actual meetings.</u> Click the keyword. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase, along with additional information such as number of attendees and whether the meeting is recurring. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
 
 4. After you decide that a keyword is relevant, include it into the business-process definition by completing these two steps:
 
@@ -216,7 +216,7 @@ Business processes can have the following status:
 
 * <u>Ready</u> &ndash; The business process has been successfully processed and can be used in queries in Workplace Analytics by an analyst in the same partition.
 
-* <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Error" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+* <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
    ![Data sets page](../images/wpa/tutorials/business-processes.png)
 
@@ -224,7 +224,7 @@ Business processes can have the following status:
 
 After a business process has been created, it can be viewed, used, or deleted, but it cannot be edited (unless it is in Draft state). A business process can be deleted only if no recurring queries are using it. After you delete a business process, it cannot be recovered.
 
-To view or delete a business process, first find it on the **Analyze** > **Business process analysis** page of Workplace Analytics, under the **Business processes** tab.
+To view or delete a business process, first find it on the **Analyze** > **Business process analysis** page of Workplace Analytics, under the **Business processes** tab, and then use the **View** or **Delete** options.
 
 ## Analyze a business process
 
@@ -256,7 +256,7 @@ In [meeting queries](Meeting-queries.md#meeting-queries), business processes are
 
 #### Interpret your query results
 
-The results of meeting queries in which you’ve specified a business-process filter will contain a column called "BusinessProcesses." This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
+The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
 For general information about examining query results, see [View, download, and export query results](../use/View-download-and-export-query-results.md).
 
@@ -292,11 +292,13 @@ In [person queries](Person-queries.md#person-queries), business processes are av
 
 9. Finish defining your query and select **Run**.
 
+The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
+
 After the query runs, examine its results as described in [Understand and interpret query output](../use/csv-query-output-file.md) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
 
 ## Data privacy
 
-The business-process analysis feature aligns with the data-privacy standards of Workplace Analytics, which are described in [Privacy settings](../use/privacy-settings.md).
+The business-process analysis feature follows the data-privacy standards of Workplace Analytics, which are described in [Privacy settings](../use/privacy-settings.md).
 
 To define a business process, you must use meeting subject lines, but access to meeting subject lines is restricted by two of the available data-privacy settings: [Hash subject lines](../use/privacy-settings.md#hash-subject-lines) and [Exclude terms from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines). These settings affect your ability to define a business process as described here:
 
