@@ -126,7 +126,7 @@ In these steps, we create and name an empty business process.
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
-   ![business process list view](../images/wpa/tutorials/business-process-list.png)
+   ![business process list view](../images/wpa/tutorials/business-process-list-2.png)
 
 2. Select **New business process**.
 
@@ -218,7 +218,7 @@ Business processes can have the following status:
 
 * <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
-   ![Data sets page](../images/wpa/tutorials/business-processes.png)
+   ![Business process statuses](../images/wpa/tutorials/business-process-list-2.png)
 
 ### Business process actions
 
