@@ -13,7 +13,7 @@ audience: Admin
 
 # Query designer
 
-The Query designer in Workplace Analytics has a number of different options that help you answer specific business questions and the flexibility to look at the data from multiple perspectives.
+The Query designer in Workplace Analytics has a number of different options that help you answer specific business questions and the flexibility to look at the data from multiple perspectives. When creating queries, you can do the following:
 
 * Select as many or as few organizational metrics as you need, for a specific population or date range.
 * Customize the metrics included in query results with a broad range of filters and other options.
