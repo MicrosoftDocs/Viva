@@ -204,7 +204,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
 9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save draft**, return later, and resume where you left off.
 
-   ![Meeting hours](../images/wpa/tutorials/business-process-options.png)
+   ![Business process options](../images/wpa/tutorials/business-process-options.png)
 
 10. When you're finished defining the business process, select **Submit**. (**Submit** is available only if at least one keyword is present in the **Included Keywords** list.) The system starts processing your new business process and gives it a [status](#business-process-statuses) of "In progress."
 
