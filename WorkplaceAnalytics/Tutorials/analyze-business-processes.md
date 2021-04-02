@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Analyze business processes 
 description: Analyze business processes -- Introduction and walkthrough   
 author: paul9955
@@ -8,7 +8,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 manager: scott.ruble
-
+audience: Admin
 ---
 
 # Analyze business processes
@@ -146,7 +146,7 @@ In these steps, we create and name an empty business process.
 
 In this procedure, you assemble the vocabulary that constitutes the business process. Start on the **New business process** page:
 
-![Biz process start page](../images/wpa/tutorials/keyword-page.png)
+![Keyword selection](../images/wpa/tutorials/keyword-page.png)
 
 As an analyst, your goal now is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those words as cues to uncover additional content that it deems relevant. In this example, that means words related to sales interactions.
 
@@ -288,7 +288,7 @@ In [person queries](Person-queries.md#person-queries), business processes are av
 
 7. Next to **Meeting’s**, select **Business process**.
 
-   ![Select filters](../images/wpa/tutorials/select-filters-3.png)
+   ![Select filters for meetings](../images/wpa/tutorials/select-filters-3.png)
 
 8. In the middle field, select "**=**" and in the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
 
