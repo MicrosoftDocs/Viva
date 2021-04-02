@@ -76,7 +76,7 @@ Workplace Analytics includes a number of predefined query templates that help yo
 
 In **Query designer** > **Query**, select **Get started**, and then you can select to create one of the following types of queries from scratch, or when available and listed, select from one or more related predefined queries.
 
-When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics.
+When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. Then you can download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
