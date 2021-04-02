@@ -41,7 +41,7 @@ In Workplace Analytics, select **Query designer** to see predefined Power BI rep
 
 For example, select the **Business continuity** section to see more details about the report, example report data, prerequisites, and setup steps.
 
-You can filter to see what is available for a specific business insight. For example, the following shows what you'll see when you select **Filters** > **Develop effective managers**.
+You can filter to see what is available for a specific business insight. For example, the following shows what you'll see if you select **Filters** > **Develop effective managers**.
 
 ![Report filter for develop effective managers](../Images/WpA/Tutorials/query-template-filters.png)
 
@@ -72,7 +72,9 @@ Workplace Analytics includes a number of predefined query templates that help yo
 
 ## Custom queries
 
-In **Query designer** > **Query**, select **Get started**, and then you can select to create one of the following types of queries from scratch, or when available and listed, select from one or more related predefined queries. When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
+In **Query designer** > **Query**, select **Get started**, and then you can select to create one of the following types of queries from scratch, or when available and listed, select from one or more related predefined queries.
+
+When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics.
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
