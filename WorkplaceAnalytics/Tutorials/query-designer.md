@@ -21,7 +21,7 @@ The Query designer in Workplace Analytics has a number of different options that
 
 The designer includes the following types of queries.
 
-* [**Templates and reports**](#query-templates) - You can use predefined templates and reports that you can use to view and analyze data in Power BI. These options help you focus your analysis for specific business outcomes, such as to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
+* [**Query templates and reports**](#query-templates-and-reports) - You can use predefined query templates and reports that you can use to view and analyze data in Power BI or Workplace Analytics. These options help you focus your analysis for specific business outcomes, such as to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
 ![Predefined templates and reports](../Images/WpA/Tutorials/query-templates.png)
 
@@ -35,13 +35,15 @@ You can create queries as follows:
 * Create your own [custom query](#custom-queries).
 * Open and edit a previously run query.
 
-## Reports and templates
+## Query templates and reports
 
-In Workplace Analytics, select **Query designer** to see predefined Power BI reports and templates for analyzing data based on behavioral insights that relate to specific business outcomes.
+In Workplace Analytics, select **Query designer** to see predefined query templates and reports that help you analyze organizational data based on behavioral insights that relate to specific business outcomes.
 
 For example, select the **Business continuity** section to see more details about the report, example report data, prerequisites, and setup steps.
 
-You can filter to see what is available for a specific business insight. For example, the following shows what you'll see if you select **Filters** > **Develop effective managers**.
+![Business continuity template details](../Images/WpA/Tutorials/query-template-details.png)
+
+You can also filter the templates and reports list to see what is available for a specific business insight. For example, the following shows what you'll see if you select **Filters** > **Develop effective managers**.
 
 ![Report filter for develop effective managers](../Images/WpA/Tutorials/query-template-filters.png)
 
