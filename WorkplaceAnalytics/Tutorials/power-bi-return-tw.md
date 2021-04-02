@@ -56,12 +56,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Auto-refresh** - Keep this setting disabled
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
-   > [!Important]
-   > The dashboard is designed to allocate worksite seats by team based on the current organizational structure. For best results, select **Last 3 months** for the **Time period** to reflect the most current organizational structure.
+   >[!Important]
+   >The dashboard is designed to allocate worksite seats by team based on the current organizational structure. For best results, select **Last 3 months** for the **Time period** to reflect the most current organizational structure.
 
     ![Return to worksites query details](../Images/WpA/Tutorials/pbi-rtw-query.png)
 
-4. In **Select metrics**, keep **Collaboration hours** selected.
+4. In **Select metrics**, keep **Collaboration hours** selected, and then do not add any additional metrics or the template will not load correctly.
 5. In **Time investors** > **Do you want to limit the analysis to only certain time investors?**, keep **All employees** selected. Optionally, you can further filter the employees in scope for the dashboard. For example, excluding contractors or essential workers who already have seats allocated at a worksite. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 
     ![Return to worksites query settings for time investors](../Images/WpA/Tutorials/pbi-rtw-query-2.png)
@@ -69,8 +69,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 6. In **Their Collaborators**, do not exclude any collaborators.  
 7. For the **How do you want to group the people who collaborated with the time investor?** question, select the organizational attribute that represents the employee’s worksite location, such as **Office** or **Building**.
 
-   > [!Important]
-   > The dashboard is designed to allocate worksite seats based on the amount of on-site collaboration time. If the worksite location is not selected, you might disable one or more Power BI charts.
+   >[!Important]
+   >The dashboard is designed to allocate worksite seats based on the amount of on-site collaboration time. If the worksite location is not selected, you might disable one or more Power BI charts.
 
 8. For the **Do you want to focus the analysis on a particular set of collaborators and group all others as Unclassified?** question, keep the preselected filter as **IsInternal** equal to **True**.
 
@@ -78,8 +78,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 9. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes, and add the organizational attributes that reflect the worksite locations and applicable Teams (or Organizations) requiring seat allocation.
 
-   > [!Important]
-   > You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
+   >[!Important]
+   >You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
 
 10. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
 11. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Return to worksites** query results, select **PBI template**, and then select **OK** to download the template.
@@ -104,8 +104,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 17. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
-     >[!Important]
-     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >[!Important]
+    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 18. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
@@ -118,12 +118,12 @@ After the Return to worksites dashboard is set up and populated with Workplace A
 * **Number of employees** – Confirm that the number of employees meets your expectations.
 * **Employee representation** – Shows the **Number of employees** divided into the different teams, which is based on the Team attribute selected on the left, and by location, which is based on the Organizational attribute selected for worksite locations in the query. In addition to employee count, the percent excluded statistic indicates what percentage of each team in the specified location has no active weeks of collaboration in their most recent role (as specified in the organizational data), or are in a group with less than the specified minimum number of employees.
 
-> [!Important]
-> * If a worksite already has essential workers with permanent seat assignments, or employees who have chosen not to return, you must filter them out of the seat allocation plan. Use the filter attribute or re-run the **Return to worksites** query and use filters for the **Time investors** in **Step 5**.
-> * A high value for **% excluded**, such as greater than 50 percent, might suggest a group who has recently experienced organizational changes, which can cause their data to be less reliable for developing a seat allocation plan.
+>[!Important]
+>* If a worksite already has essential workers with permanent seat assignments, or employees who have chosen not to return, you must filter them out of the seat allocation plan. Use the filter attribute or re-run the **Return to worksites** query and use filters for the **Time investors** in **Step 5**.
+>* A high value for **% excluded**, such as greater than 50 percent, might suggest a group who has recently experienced organizational changes, which can cause their data to be less reliable for developing a seat allocation plan.
 
-> [!Tip]
-> When you select a chart bar for **Teams**, it updates the data to show that team’s **Location**. Select a chart bar for **Location** and it will update the data to that location’s **Teams**.
+>[!Tip]
+>When you select a chart bar for **Teams**, it updates the data to show that team’s **Location**. Select a chart bar for **Location** and it will update the data to that location’s **Teams**.
 
 ![Dashboard settings](../Images/WpA/Tutorials/pbi-rtw-settings.png)
 
@@ -138,7 +138,7 @@ After you specify a location and the number of employees permitted in that locat
 
 ## Return to worksites playbook
 
-The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The analyses that help answer where and when require a Microsoft service engagement to deploy through Azure with [Workplace Analytics Azure Templates](../azure-templates/overview.md). The [Return to worksites playbook](https://docs.microsoft.com/workplace-analytics/tutorials/Return-to-worksites-playbook.pdf) has more details and instructions on how to create and use the analyses.
+The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The analyses that help answer where and when require a Microsoft service engagement to deploy through Azure with [Workplace Analytics Azure Templates](../azure-templates/overview.md). The [Return to worksites playbook](/workplace-analytics/tutorials/Return-to-worksites-playbook.pdf) has more details and instructions on how to create and use the analyses.
 
 ![Dashboard page about the playbook](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
 
@@ -148,5 +148,5 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ## Related topics
 
-* [Return to worksites playbook](https://docs.microsoft.com/workplace-analytics/tutorials/Return-to-worksites-playbook.pdf) 
+* [Return to worksites playbook](/workplace-analytics/tutorials/Return-to-worksites-playbook.pdf)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

@@ -10,8 +10,6 @@ ms.prod: wpa
 
 # Workplace Analytics insights
 
-*This experience is only available through private preview at this time.*
-
 These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what actions you can take to help drive change.
 
 ![Workplace Analytics insights home page image](../images/wpa/use/insights.png)

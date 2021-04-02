@@ -13,7 +13,7 @@ ms.prod: wpa
 
 Organizations around the world are responding to sudden changes in the way they work. Microsoft wants to help you understand the business impact and what your organization can do to help navigate the shift to remote work.
 
-The Business continuity report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](https://docs.microsoft.com/graph) data to provide high-level insights about how collaboration for an organization has changed over the last six months.
+The Business continuity report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how collaboration for an organization has changed over the last six months.
 
 You are encouraged to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand if employees are:
 
@@ -38,7 +38,7 @@ The following are some of the top-level business questions this report helps you
 
 #### Q1 How do I access the report?
 
-You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](https://docs.microsoft.com/microsoft-365/admin/productivity/productivity-score?view=o365-worldwide).
+You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](/microsoft-365/admin/productivity/productivity-score?view=o365-worldwide).
 
 #### Q2 Can I share this report with others in my company?
 

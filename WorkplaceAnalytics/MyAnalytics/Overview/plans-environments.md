@@ -18,24 +18,26 @@ audience: Admin
 
 ## Availability of features
 
-The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Insights Outlook Add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md) are available to users whose organization uses the following Microsoft 365 or Office 365 plans:
+The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md) are available to users whose organization uses the following Microsoft 365 or Office 365 plans.
 
-| Plan  | Service plan | 
+| Plan  | Service plan |
 | ----- | ----- |
-| <li>Microsoft 365 E3  <li>Microsoft 365 Business     <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3  <li>Office 365 E1 <li>Office 365 A3 for faculty/students  <li>Office 365 E3 Developer <li>Office 365 G3   <li>Office 365 G1 <li>Business Premium <li>Business Essentials |  Insights by MyAnalytics |
-| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing &nbsp; &nbsp; &nbsp; <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-in | MyAnalytics (Full) and   Insights by MyAnalytics | 
-| <li>Microsoft 365 A5 for faculty/students <li>Office 365 A5 for faculty/students | MyAnalytics (Full) | 
- 
-> [!Note]
-> * To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) 
-> * For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
+| <li>Microsoft 365 E3 <li>Microsoft 365 Business <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3 <li>Office 365 E1 <li>Office 365 A3 for faculty/students <li>Office 365 E3 Developer <li>Office 365 G3 <li>Office 365 G1 <li>Business Premium <li>Business Essentials | Insights by MyAnalytics |
+| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing &nbsp; &nbsp; &nbsp; <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-in | MyAnalytics (Full) and Insights by MyAnalytics |
+| <li>Microsoft 365 A5 for faculty/students <li>Office 365 A5 for faculty/students | MyAnalytics (Full) |
+
+>[!Note]
+
+>* To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
+>* For more information about the plans that offer these user experiences, see [Office 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
 ### Features in the MyAnalytics (Full) service plan
 
-The following features are available only in the MyAnalytics (Full) service plan: 
- * Read-status features: [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), [Track email open rate](../use/mya-notifications.md#track-email-open-rate)   
- * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) 
- * [Delay email delivery](../use/mya-notifications.md#delay-email-delivery) 
+The following features are available only in the MyAnalytics (Full) service plan.
+
+* Read-status features: [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), [Track email open rate](../use/mya-notifications.md#track-email-open-rate)
+* [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
+* [Plan your time away](../use/mya-notifications.md#plan-your-time-away)
  <!-- REMOVED 30sept2020 * Ability to participate in a [Workplace Analytics plan](../../tutorials/solutionsv2-intro.md) BUT RE-ADDED 2/12/2021 and removed again 2/16/21  -->
 
 ## Access to MyAnalytics elements
@@ -50,10 +52,10 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 |  [Inline suggestions](../use/mya-notifications.md)  | Available about one day after license assignment |
 |  [Insights Outlook add-in](../use/add-in.md)  | Available about one day after license assignment |
 
-
-> [!Note]  
-> * _Licensed users_ have MyAnalytics automatically enabled after license assignment. 
-> * _All users_ in your organization are opted-in, whether or not they have licenses with a MyAnalytics service plan. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](../setup/configure-myanalytics.md#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](../setup/configure-myanalytics.md#set-myanalytics-access-for-multiple-users).
+>[!Note]  
+>
+>* _Licensed users_ have MyAnalytics automatically enabled after license assignment.
+>* _All users_ in your organization are opted-in, whether or not they have licenses with a MyAnalytics service plan. If you want one or more licensed users to be opted _out_ by default, see [Set MyAnalytics access for one user](../setup/configure-myanalytics.md#set-myanalytics-access-for-one-user) and [Set MyAnalytics access for multiple users](../setup/configure-myanalytics.md#set-myanalytics-access-for-multiple-users).
 
 ## Environment support
 
@@ -70,9 +72,9 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 * Office 365 Germany
 * Office 365 Operated by 21Vianet
 
-### Browser support
+## Browser support
 
-You can use the following web browsers to view your MyAnalytics dashboard:
+You can use the following web browsers to view your MyAnalytics dashboard.
 
 * Microsoft Edge or Edge Chromium (coming soon)
 * Microsoft Internet Explorer version 10 or 11
@@ -80,20 +82,19 @@ You can use the following web browsers to view your MyAnalytics dashboard:
 * Apple Safari (latest version)
 * Mozilla Firefox (latest version)
 
-As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
+As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
 
 ## Language support
 
-MyAnalytics is available in the same languages as Microsoft Office. See [What languages is Office available in](https://support.office.com/en-ie/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec)?
+MyAnalytics is available in the same languages as Microsoft Office. See [What languages is Office available in?](https://support.office.com/en-ie/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
 ## Prerequisites and exclusions
 
-* [Microsoft Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for MyAnalytics and the Outlook add-in.
+* [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for MyAnalytics and the Outlook add-in.
 
-* **Licensing exclusion:** Shared mailboxes cannot use and are not supported by the MyAnalytics service plan.
+* **Licensing exclusion** - Shared mailboxes cannot use and are not supported by the MyAnalytics service plan.
 
-### Outlook support and prerequisites
+## Outlook support and prerequisites
 
-For the Outlook add-in, see [Why don't I see the Outlook Insights add-in?](../use/add-in.md#why-dont-i-see-the-outlook-insights-add-in)
-
-For Inline suggestions, see [Why don't I see any inline suggestions?](../use/mya-notifications.md#why-dont-i-see-any-inline-suggestions)
+* For the Outlook add-in, see [Why don't I see the Outlook Insights add-in?](../use/add-in.md#why-dont-i-see-the-outlook-insights-add-in).
+* For Inline suggestions, see [Why don't I see any inline suggestions?](../use/mya-notifications.md#why-dont-i-see-any-inline-suggestions).
