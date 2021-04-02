@@ -16,7 +16,7 @@ audience: Admin
 
 ## Introduction 
 
-Whether this is your first time onboarding users to Workplace Analytics or you are creating a new file to update organizational data, this script should help. It uses the [MSOnline service](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) to find user mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md). 
+Whether this is your first time onboarding users to Workplace Analytics or you are creating a new file to update organizational data, this script should help. It uses the [MSOnline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find user mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md). 
 
 ## Prerequisites
 
@@ -25,21 +25,21 @@ This script requires the following elements. If you need help while installing t
 * **PowerShell version 5.0 or higher**. To check the version of PowerShell on your computer:
    
    1.	In Windows, select **Start**, type **PowerShell**, and press **Enter**. 
-   2.	In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. If it is not, see: [Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7). 
+   2.	In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. If it is not, see: [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7). 
    
-    For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7). 
+    For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7). 
     
     Note that when you install the following modules – AAD and MSOnline – you first need to start PowerShell as an administrator: 
 
     ![Run as administrator](../images/wpa/setup/run-as-admin.png)
  
-* **The Azure Active Directory module**. For installation instructions, see [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
+* **The Azure Active Directory module**. For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
 
    ```
    Install-Module AzureAD
    ```
 
-* **The MSOnline module**. This service is used to determine which accounts are real users with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](https://docs.microsoft.com/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
+* **The MSOnline module**. This service is used to determine which accounts are real users with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
 
    ```
    Install-Module MSOnline
@@ -152,13 +152,13 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
  
 #### To set up prerequisite software 
 
-[Installing Windows PowerShell](https://docs.microsoft.com/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7)
+[Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7)
 
-[Installing PowerShell on macOS](https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7)
+[Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7)
 
-[MSOnline service](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)
+[MSOnline service](/powershell/azure/active-directory/overview?view=azureadps-1.0)
     
-[Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+[Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
 
 [Get support](../overview/getting-support.md)
 
@@ -169,4 +169,3 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 [Upload organizational data (first upload)](upload-organizational-data-1st.md)
 
 [Upload organizational data (subsequent uploads)](upload-organizational-data.md)
-

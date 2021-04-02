@@ -1,7 +1,7 @@
 ---
 
 title: MyAnalytics privacy guide
-description: Overview of MyAnalytics privacy features, including information about de-identification and privacy of data, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
+description: Overview of MyAnalytics privacy features, including info about data de-identification and privacy, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -25,14 +25,14 @@ This page answers key questions on how MyAnalytics processes information in a ma
 * **MyAnalytics is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
 MyAnalytics provides insights to individuals through a personalized dashboard, a weekly digest, an Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision making or for profiling.
 
-* **MyAnalytics does not give employees access to new personally-identifiable information on other coworkers**.
-MyAnalytics converts data into insights by performing calculations on information that people generate just by going about their work day. The majority of the data that employees see in MyAnalytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.</li>
+* **MyAnalytics does not give employees access to new personally identifiable information on other coworkers**.
+MyAnalytics converts data into insights by doing calculations on information that people generate just by going about their work day. Most of the data that employees see in MyAnalytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.</li>
 
 * **MyAnalytics data is processed and stored in the employee’s Exchange Online mailbox**.
 MyAnalytics processes data from these sources: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and&mdash;if both the organization's IT administrator and an individual opt in&mdash;Windows 10 application activity history. MyAnalytics stores and processes this data inside each employee’s Exchange Online mailbox.
 
 * **MyAnalytics supports General Data Protection Regulation (GDPR) compliance**.
-Microsoft has designed MyAnalytics to support customers’ needs to comply with [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
+Microsoft has designed MyAnalytics to support customers’ needs by following [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
 
 * **MyAnalytics can be configured so that individuals must purposefully opt in**.
 By default, any time a license with the MyAnalytics service is assigned to a person, that person is automatically opted in. However, administrators can configure MyAnalytics to be "default off," so that people can choose for themselves whether to opt in after being assigned a license.
@@ -94,7 +94,7 @@ In a few cases, MyAnalytics provides people with *de-identified* information on 
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate is displayed as a range, greater than or less than a certain threshold value that depends on the number of recipients of the email.
+To preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. MyAnalytics also doesn't show read rates of "0%" or "100%," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
 
 This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox. This is then delivered to the sender's mailbox if that person has opted in to using MyAnalytics.
 
@@ -170,7 +170,7 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
     * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
 2. **Notify users in the event that a breach is detected**.
-   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
     Microsoft supports your need to honor user requests in the following ways:
@@ -179,7 +179,6 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
     * Request to restrict processing:
 
       * Use PowerShell to opt employees out of MyAnalytics.
-      * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
+      * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
-

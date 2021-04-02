@@ -65,7 +65,7 @@ People with access to Workplace Analytics should ideally have previous experienc
 
 | Access level | Administrator |  Analyst | Analyst (Limited Access) | Program Manager | People Manager |
 | ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
-| View personally-identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
+| View personally identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | View de-identified, individual-level data:<ul><li>Organization data (HR fields, such as level or organization)</li><li>Microsoft 365 data (metrics about collaboration and relationships)</li></ul> | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
 | View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
 | Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics | | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)*|
@@ -108,5 +108,5 @@ The analyst (limited access) role is for an analyst who needs access only to the
 
 * [Manager settings](../use/manager-settings.md)
 * [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md)
-* [What is Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
-* [Managing access to resources with Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups)
+* [What is Azure Active Directory?](/azure/active-directory/fundamentals/active-directory-whatis)
+* [Managing access to resources with Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups)

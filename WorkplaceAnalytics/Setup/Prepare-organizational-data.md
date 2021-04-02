@@ -2,9 +2,9 @@
 
 title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
-author: paul9955
+author: madehmer
 ms.author: v-mideh
-ms.topic: get-started-article
+ms.topic: article
 localization_priority: normal 
 search.appverid:
 - MET150
@@ -131,39 +131,42 @@ The following video describes how to structure your organizational data file, in
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 
-### Required, reserved optional, and custom attributes
+### Required attributes
 
-#### Required attributes 
-
-These five attributes must be supplied with the following exact column headers (case sensitive) in the .csv upload:
+The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but the other text attributes are.
 
 * PersonId
 * EffectiveDate
-* LevelDesignation
+* LevelDesignation (case sensitive)
 * ManagerId
-* Organization
+* Organization (case sensitive)
 
-#### Reserved optional attributes
+>[!Note]
+>The names of these required attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).  
 
-These are reserved column headers for attributes that are currently used only to filter and group data. In the future, they will be used for additional metric calculations.
+### Reserved optional attributes
 
-* FunctionType
-* HireDate
-* HourlyRate
-* Layer
-* SupervisorIndicator
-* TimeZone
+These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
 
-Although these attributes are not required, if included, they must meet particular coverage requirements.
+|  Attribute  |Case sensitive? |  If used, does a validation<p>threshold apply? | Can be used as the name of a<p>[custom attribute](#custom-attributes)? |  
+| ------------- | ---- | ---- | ---- | ---- |
+| FunctionType         | Yes  | Yes  | No   |
+| HireDate             | No   | Yes  | No   |
+| HourlyRate           | No   | Yes  | No   |
+| Layer                | No   | Yes  | No   |
+| SupervisorIndicator  | Yes  | Yes  | No   |
+| TimeZone             | No   | Yes  | No   |
+| GroupId              | No   | No   | No   |
 
-#### Custom attributes
+### Custom attributes
 
 These are any additional attributes you want to define to use in filtering and grouping data.
 
-> [!Note]
-> * The maximum number of total attributes allowed in the system is 105. This includes the five required attributes.
-> * All dates should be in the MM/DD/YYYY format.
-> * Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+>[!Note]
+>
+>* The maximum number of total attributes allowed in the system is 105, which includes the five required attributes.
+>* All dates should be in the MM/DD/YYYY format.
+>* All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
 
 For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
 

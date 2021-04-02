@@ -26,7 +26,7 @@ Employees that collaborate across silos are more aware of other perspectives and
 ## Best practices
 
 * Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
-* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
+* Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use [MyAnalytics to manage important people](../myanalytics/use/network.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
 * Motivate team members to reach across silos. Break down silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
 * Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.  

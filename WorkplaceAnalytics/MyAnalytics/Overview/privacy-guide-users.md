@@ -1,6 +1,6 @@
 ---
 title: Privacy guide - MyAnalytics
-description: Overview of MyAnalytics privacy features, including information about de-identification of data, privacy of data, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
+description: Overview of MyAnalytics privacy features, including info about data de-identification and privacy, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -24,8 +24,8 @@ MyAnalytics provides you with insights through a personalized dashboard, a weekl
 
 <li>
 
-**MyAnalytics does not give employees access to new personally-identifiable information on other coworkers**.
-MyAnalytics converts data into insights by performing calculations on information that you generate just by going about your work day. The majority of the data that you see in MyAnalytics is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.</li>
+**MyAnalytics does not give employees access to new personally identifiable information on other coworkers**.
+MyAnalytics converts data into insights by doing calculations on information that you generate just by going about your work day. Most of the data that you see in MyAnalytics is simply an aggregation of information to which you already have access, but that you wouldn’t be able to quickly perform calculations on without some support.</li>
 
 <li>
 
@@ -35,29 +35,44 @@ MyAnalytics processes data from these sources: Exchange Online email and calenda
 <li>
 
 **MyAnalytics supports General Data Protection Regulation (GDPR) compliance**.
-Microsoft has designed MyAnalytics to support your organization’s needs to comply with  [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).</li>
+Microsoft has designed MyAnalytics to support your organization’s needs to follow [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).</li>
 
 </ul>
+
+## MyAnalytics architecture
+
+In the following architecture illustration, note the relationship of MyAnalytics to Exchange Online. This placement underscores the fact that any data that you can view in MyAnalytics is the same data that's visible in your Exchange mailbox, as described in the following principles about data privacy.
+
+#### Key principles
+
+* As a MyAnalytics user, only you can see your own data.
+* Your data is stored and computed in your Exchange Online mailbox. 
+* You can opt in and opt out at any time.
+* MyAnalytics shows you no personally identifiable info of co-workers beyond what you can already see in Outlook and Teams.
+
+![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
 
 ## How MyAnalytics works
 
 MyAnalytics presents insights in the following ways:
 
-1. [Personal dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
+1. [Personal dashboard](../use/dashboard-2.md)
 
-2. [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/add-in)
+2. [Insights Outlook add-in](../use/add-in.md)
 
-3. [Weekly digest](https://docs.microsoft.com/workplace-analytics/myanalytics/use/email-digest-2)
+3. [Weekly digest](../use/email-digest-2.md)
 
-4. [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications)
+4. [Inline suggestions in Outlook](../use/mya-notifications.md)
+ 
+### Data types
 
 MyAnalytics provides insights with the following types of data.
 
-1. **Mailbox data:** Email, calendar, chat, and call activity that you generate by using Microsoft 365, such as time that you spend in meetings or emails that you send to a specific person or group.
+1. [Mailbox data](#mailbox-data) &ndash; Email, calendar, chat, and call activity that you generate by using Microsoft 365, such as time that you spend in meetings or emails that you send to a specific person or group.
 
-2. **Windows 10 activity history data:** Data on your usage of apps and services on your device: whether you worked on a document and whether you browsed the web.
+2. [Windows 10 activity history data](#windows-10-activity-history-data) &ndash; Data on your usage of apps and services on your device: whether you worked on a document and whether you browsed the web.
 
-3. **Incremental data:** Data that would otherwise be unavailable to you but is presented in an aggregated form designed to protect individual privacy.
+3. [Incremental data](#incremental-data) &ndash; Data that would otherwise be unavailable to you but is presented in an aggregated form designed to protect individual privacy.
 
 ## Mailbox data
 
@@ -67,7 +82,7 @@ For example, MyAnalytics provides views that allow you to quickly understand how
 
 You can take action on this information. You might decide that you spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
-Note that these insights are derived from data that is already available to you in the following places:
+These insights are derived from data that is already available to you in the following places:
 
 * Your Exchange Online mailbox
 * Your activity in OneDrive and SharePoint documents
@@ -79,7 +94,7 @@ For example, if you want to determine which colleagues sent you the most email o
 
 ## Windows 10 Activity History data
 
-Windows 10 activity history data refers to the things you do on your device, such as the apps and services you used, whether you worked on a document, and whether you browsed the web. The activity history is stored locally on the device, and if you are signed in to the device with a Microsoft account and you give permission, Windows sends the activity history to Microsoft.
+Windows 10 activity history data refers to the things you do on your device, such as the apps and services you used, whether you worked on a document, and whether you browsed the web. The activity history is stored locally on the device, and if you're signed in to the device with a Microsoft account and you give permission, Windows sends the activity history to Microsoft.
 
 MyAnalytics uses Windows 10 activity history data to compute insights (for example, time spent in apps, multi-tasking in meetings) about your work habits. These insights are private and stored in your Exchange Online mailbox.
 
@@ -93,7 +108,7 @@ In a few cases, MyAnalytics provides you with de-identified information on other
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that you’ve sent to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow you to make definitive conclusions about individual coworker actions. Instead, the read rate renders as "Low" or "High."
+To preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. MyAnalytics also doesn't show read rates of "0%" or "100%," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
 
 This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when you open a message in the Outlook preview pane. For others, you might need to double-click to open the message to mark it as "read."
 

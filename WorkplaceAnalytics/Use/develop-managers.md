@@ -86,7 +86,7 @@ Pressure to "always be on" and long hours can lead to burnout. The amount of tim
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
 * Use [MyAnalytics wellbeing data](../MyAnalytics/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
-* Use the [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Use the [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
 
@@ -97,7 +97,7 @@ Potential influencers are often difficult to discover within an organization. Em
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
 * Use MyAnalytics network insights to cultivate influence and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
 * Consider employees with high potential, not just top performers. Attributes that have contributed to past success may not predict future success. Broaden measures used to identify leaders to include those that assess potential, such as influence ranking.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
@@ -127,7 +127,7 @@ Managers who have diverse ties across an organization are typically considered m
 
  [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) explains that work "occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes." Ways to foster connectivity:
 
-* Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview).
+* Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](/microsoftteams/teams-channels-overview).
 * Enable and use the [Insights Outlook add-in](../myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
 
 For more best practices and ways to open your network to your team, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
