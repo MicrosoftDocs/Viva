@@ -31,7 +31,7 @@ The designer includes the following types of queries.
 
 You can create queries as follows:
 
-* Edit and use a predefined [query template](#reports-and-templates).
+* Edit and use a predefined [query template](#query-templates-and-reports).
 * Create your own [custom query](#custom-queries).
 * Open and edit a previously run query.
 
