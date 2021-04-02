@@ -126,13 +126,13 @@ In these steps, we create and name an empty business process.
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
-   ![business process list view](../images/wpa/tutorials/business-process-list-2.png)
+   ![business process list view](../images/wpa/tutorials/add-biz-process.png)
 
-2. Select **New business process**.
+2. Select **Add business process**.
 
-   ![New business process](../images/wpa/tutorials/new-business-process.png)
+   ![Add a business process](../images/wpa/tutorials/new-business-process.png)
 
-3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales interactions** for the name of the business process.) Select **Continue**.
+3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales interactions** as the name of the business process.) Select **Continue**.
 
 4. For **Data set**, select the data set that we recently created, **SalesDataSet**.
 
@@ -202,7 +202,9 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
    If you are familiar with the hiring process, these numbers could indicate that your selection of keywords is too narrow (too few meetings and hours) or too broad (too many), after which you can adjust accordingly by adding or deleting keywords.
 
-9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save as draft**, return later, and resume where you left off.
+9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save draft**, return later, and resume where you left off.
+
+   ![Meeting hours](../images/wpa/tutorials/business-process-options.png)
 
 10. When you're finished defining the business process, select **Submit**. (**Submit** is available only if at least one keyword is present in the **Included Keywords** list.) The system starts processing your new business process and gives it a [status](#business-process-statuses) of "In progress."
 
@@ -312,7 +314,7 @@ You can use this setting to control whether to show legible or hashed subject li
 
 If your Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
 
-However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **New business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
+However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
 
 ### Exclude terms from subject lines
 
