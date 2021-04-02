@@ -23,11 +23,11 @@ The designer includes the following types of queries.
 
 * [**Query templates and reports**](#query-templates-and-reports) - You can use predefined query templates and reports that you can use to view and analyze data in Power BI or Workplace Analytics. These options help you focus your analysis for specific business outcomes, such as to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
-![Predefined templates and reports](../Images/WpA/Tutorials/query-templates.png)
+  ![Predefined templates and reports](../Images/WpA/Tutorials/query-templates.png)
 
 * [**Custom queries**](#custom-queries) - Select **Get started** in the **Query** section to create a custom query based on the type of organizational data that you want to analyze, such as person, meeting, group-to-group, person-to-group, peer comparison, or network queries. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics.
 
-![New query options](../Images/WpA/Tutorials/new-query.png)
+  ![New query options](../Images/WpA/Tutorials/new-query.png)
 
 You can create queries as follows:
 
