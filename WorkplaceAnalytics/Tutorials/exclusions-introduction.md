@@ -17,11 +17,9 @@ You can use Workplace Analytics queries to measure work-related calendar collabo
 
 You can exclude events with one of the following exclusion types:
 
-* [Meeting exclusions](meeting-exclusions-intro.md) - Exclude from analysis the data from types of meetings (such as all-day training meetings) whose inclusion might skew query results.
+* [Meeting exclusions](meeting-exclusions-intro.md) - Exclude types of meetings from analysis (such as all-day training meetings) where their inclusion might skew query results.
 
 * [Attendee exclusions](attendee-exclusion-rules.md) - Use the responses by meeting invitees to optionally exclude them from analysis. For example, invitees who accepted a meeting invitation as "Tentative" would normally be included in analysis by default. By adding an attendee exclusion, you can explicitly exclude them. In this way, creating attendee exclusions lets you effectively redefine "meeting attendance."
-
-
 
 **Owners** – Workplace Analytics Analysts have full access and limited Analysts have read-only access to these settings. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 

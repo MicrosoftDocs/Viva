@@ -83,9 +83,9 @@ See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn 
 
 ## Peer comparison query
 
-The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics,and their peer group's averages for those metrics.
+The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics.
 
-You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group that is defined by organizational attributes you have uploaded.
+You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
 
 See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
 
@@ -106,13 +106,13 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
 
-There are three ways to create queries:
+You can create queries in the following ways:
 
-* Edit and use a [predefined query template](#predefined-query-templates)
-* Create your own custom query
-* Open and edit a previously run query
+* Edit and use a [predefined query template](#predefined-query-templates).
+* Create your own custom query.
+* Open and edit a previously run query.
 
 When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
@@ -156,8 +156,6 @@ The _Expensive meetings_ video demonstrates how to work with a [meeting query](m
 
 ## Related topics
 
-[Power BI templates](../Tutorials/Power-bi-templates.md)
-
-[Workplace Analytics glossary](../Use/Glossary.md)
-
-[Metric descriptions](../Use/Metric-definitions.md)
+* [Power BI templates](../Tutorials/Power-bi-templates.md)
+* [Workplace Analytics glossary](../Use/Glossary.md)
+* [Metric descriptions](../Use/Metric-definitions.md)
