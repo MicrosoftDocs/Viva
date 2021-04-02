@@ -1,6 +1,7 @@
 ---
 title: Workplace Analytics Power BI templates introduction
 description: Learn about the Power BI templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
+ms.topic: article
 localization_priority: normal
 ms.prod: wpa
 ms.author: v-mideh

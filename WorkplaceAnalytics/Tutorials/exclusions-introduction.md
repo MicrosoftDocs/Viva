@@ -2,11 +2,13 @@
 
 title: Introduction to attendee and meeting exclusions in Workplace Analytics 
 description: Exclusion rules -- Introduction   
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Analysis settings
