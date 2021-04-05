@@ -2,6 +2,22 @@
 
 
 
+## Week of March 29, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/29/2021 | [Workplace Analytics query overview](/Workplace-Analytics/tutorials/query-basics) | modified |
+| 3/29/2021 | [Organizational network analysis (ONA) person queries](/Workplace-Analytics/tutorials/ona-person-query) | modified |
+| 3/29/2021 | [Organizational network analysis (ONA) person-to-person queries](/Workplace-Analytics/tutorials/ona-person-to-person-query) | modified |
+| 3/29/2021 | [Insights Outlook add-in](/Workplace-Analytics/myanalytics/use/add-in) | modified |
+| 3/29/2021 | [Prepare organizational data in Workplace Analytics](/Workplace-Analytics/setup/prepare-organizational-data) | modified |
+| 3/29/2021 | [MyAnalytics plans and environments](/Workplace-Analytics/myanalytics/overview/plans-environments) | modified |
+| 4/2/2021 | [Analyze business processes](/Workplace-Analytics/tutorials/analyze-business-processes) | added |
+| 4/2/2021 | [Privacy settings for Workplace Analytics](/Workplace-Analytics/use/privacy-settings) | modified |
+| 4/2/2021 | [Workplace Analytics metric filters](/Workplace-Analytics/use/metric-filters) | modified |
+
+
 ## Week of March 22, 2021
 
 

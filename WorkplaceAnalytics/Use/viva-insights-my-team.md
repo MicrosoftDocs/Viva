@@ -32,9 +32,12 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Prerequisites
 
-* **Manager access** - Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
-* **Licensed team** - The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager.  
-* **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
+For you to obtain access to the **My team** page, the following must be in place:
+
+* **Manager access** &ndash; Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
+* **No other roles** &ndash; You have been assigned _no other_ Workplace Analytics role, including admin, analyst, or program manager.
+* **Licensed team** &ndash; The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager.  
+* **Minimum team size** &ndash; Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
 ## Install the Viva Insights app
 
@@ -58,9 +61,9 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
 
-5. Select **Add for me**:
+5. Select **Add**:
 
-   ![Add for me button](../images/mya/use/add-for-me-new-410.png)
+   ![Add for me button](../images/mya/use/add-for-me.png)
 
 This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
