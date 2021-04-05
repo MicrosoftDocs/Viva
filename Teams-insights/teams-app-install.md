@@ -14,22 +14,21 @@ audience: Admin
 
 # Discover the Microsoft Viva Insights app
 
-
-The Viva Insights app is pre-installed in Teams for most organizations. This means you won't need to find and install it, as described in [Install the app](#install-the-app). After it is installed, you can pin it to the Teams app bar (the left navigation bar) to make it easy to find. To learn how, see [Pin the app](#pin-the-app).
+The Viva Insights app is pre-installed in Teams for most organizations. This means that you won't need to find and install it, as described in [Install the app](#install-the-app). After it is installed, you can pin it to the Teams app bar (the left navigation bar) to make it easy to find. To learn how, see [Pin the app](#pin-the-app).
 
 ## Discover and pin the app
 
 ### On desktop and web clients
 
-## Pin the app
+1. Select **More** (the ellipsis) on the Microsoft Teams app bar.
 
-After you pin a Teams app, it appears on the Teams app bar.
+2. In the search field, type **Viva Insights**.
 
-### On desktop and web client
+   ![Type Viva Insights](Images/type-viva-insights.png)
 
-1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
+3. Select **Insights** to open the app.
 
-2. Right-click any app icon and select **Pin** (![Pin an app](Images/pin.png)) to make and keep your app visible in the Teams app bar.
+4. Right-click the app icon and select **Pin** (![Pin an app](Images/pin.png)) to make and keep your app visible in the Teams app bar.
 
    ![Pin an app in Teams](Images/pin-an-app-in-teams.png)
 
@@ -40,11 +39,13 @@ After you pin a Teams app, it appears on the Teams app bar.
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 
-2. Select **Reorder** and drag and drop the app so it is no longer in the More section.
+2. Select **Insights** to open the app.
+
+3. Select **Reorder** and then drag the app's icon to remove it from the **More** section.
 
    ![Reorder android app icon](Images/ios-android.png)
 
-3. Select **Done** to save your changes.
+4. Select **Done** to save your changes.
 
 ### Install the app
 

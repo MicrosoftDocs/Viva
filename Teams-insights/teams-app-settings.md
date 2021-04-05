@@ -25,7 +25,7 @@ To configure features, start by opening the **Settings** page:
    > [!Note]
    > Select **How it works** to open the product documentation for the Viva Insights app.
 
-2. On the left side of the page, to the right of the App bar, select an aspect to configure. Select **Workweek** to edit the times that you work, select **My Team** (if you’re a manager) to edit the composition of your team, or set recurring reminders for the other features.
+2. On the left side of the page, to the right of the app bar, select an aspect to configure. Select **Workweek** to edit the times that you work, select **My Team** (if you’re a manager) to edit the composition of your team, or set recurring reminders for the other features.
 
    The following sections describe your choices:
 
