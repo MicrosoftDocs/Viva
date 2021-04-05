@@ -33,7 +33,7 @@ The Viva Insights app is pre-installed in Teams for most organizations. This mea
    ![Pin an app in Teams](Images/pin-an-app-in-teams.png)
 
 > [!Tip]
-> You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec).
+> You can reorder apps in the Teams app bar by dragging icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec).
 
 ### On the iOS and Android mobile platforms
 
