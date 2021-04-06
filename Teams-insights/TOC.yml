@@ -2,7 +2,7 @@
   expanded: true 
   items: 
    - name: Viva Insights app - Overview
-     href: teams-app.md
+     href: viva-teams-app.md
    - name: Viva Insights Home page
      href: viva-insights-home.md     
    - name: Viva Insights features
@@ -20,13 +20,13 @@
    - name: Use the Viva Insights app
      items: 
        - name: Install the app
-         href: teams-app-install.md
+         href: viva-teams-app-install.md
        - name: Configure the app
-         href: teams-app-settings.md
+         href: viva-teams-app-settings.md
        - name: Admin tasks
-         href: teams-app-admin-tasks.md 
+         href: viva-teams-app-admin-tasks.md 
        - name: Privacy guide
-         href: teams-app-privacy.md
+         href: viva-teams-app-privacy.md
        - name: Frequently asked questions
-         href: teams-app-faq.md 
+         href: viva-teams-app-faq.md 
  
