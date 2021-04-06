@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights - Home page
 description: Microsoft Viva Insights app -- About the Home page
 author: paul9955

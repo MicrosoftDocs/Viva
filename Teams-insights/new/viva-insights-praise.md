@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights - Praise 
 description: Microsoft Viva Insights app -- Use the Praise feature
 author: paul9955

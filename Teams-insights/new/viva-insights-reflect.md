@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights - Reflect 
 description: Microsoft Viva Insights app -- Use the Reflect feature
 author: paul9955

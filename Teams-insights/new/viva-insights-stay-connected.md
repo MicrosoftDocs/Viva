@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights - Stay connected 
 description: Microsoft Viva Insights app -- Use the Stay connected feature
 author: paul9955

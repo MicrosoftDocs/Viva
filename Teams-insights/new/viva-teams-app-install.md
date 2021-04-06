@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights app - Install
 description: Microsoft Viva Insights (personal insights) app -- Install 
 author: paul9955

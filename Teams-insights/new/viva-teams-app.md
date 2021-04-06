@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights app - Overview
 description: Microsoft Viva Insights (personal insights) app -- Overview 
 author: paul9955
