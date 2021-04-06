@@ -19,7 +19,7 @@ audience: Admin
 
 You can use the Praise app to recognize the contributions of your employees and co-workers. Praise messages appear as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
-You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-a-praise-reminder).
+You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-praise-reminders).
 
 >[!Note]
 > The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
@@ -97,7 +97,7 @@ Remind yourself to send praise to co-workers. Praise reminders are always recurr
 > * The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
 > * The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
 
-You can set praise reminders either on the [**Settings** page](viva-teams-app-settings.md#praise) or on the **Home** page, as described here:
+You can set praise reminders either on the [**Settings** page](viva-teams-app-settings.md) or on the **Home** page, as described here:
 
 1. Select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 

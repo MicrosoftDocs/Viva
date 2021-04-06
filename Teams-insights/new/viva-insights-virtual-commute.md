@@ -60,7 +60,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
 1. On the start page, select **Let's go**:
 
-   ![Schedule virtual commute](Images/01-start-vc.png)  
+   ![Start virtual commute](Images/01-start-vc.png)  
 
 2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
 
