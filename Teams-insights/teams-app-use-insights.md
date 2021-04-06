@@ -20,12 +20,14 @@ Microsoft Viva Insights provides personalized recommendations to build better wo
 * [Protect time](#protect-time) 
 
 > [!Note] 
-> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](viva-teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
+> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
 
-## Stay connected  
+### Stay connected  
 
 Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity. 
 
+<!-- BEFORE PUBLISHING ON 4 FEB. 2021, UPDATE THIS IMAGE TO SHOW NEW BRAND NAME IN THE HEADER -->
+   
    ![Stay connected](images/stay-connected.png)
 
 The **Stay connected** tab can contain insights such as the following: 
@@ -38,22 +40,22 @@ The **Stay connected** tab can contain insights such as the following:
 * [Catch up on unread documents shared with you](#catch-up-on-unread-documents-shared-with-you) 
 * [@Mentions for pinned important contacts](#-for-pinned-important-contacts) 
 * [Upcoming meetings that need your RSVP](#upcoming-meetings-that-need-your-rsvp) 
-
+ 
 #### Identify and pin important collaborators  
 
 You might receive insights from various people but some items might deserve more attention than others. For example, an outstanding task suggestion from your manager or a message from a key customer would likely be of higher priority.  
 
 Based on your collaboration patterns, you can pin some of your contacts as important. All insights from pinned important contacts are shown with higher priority at the top of the page.  
 
-To pin a contact, select the **pin** icon on the bottom left below the contact’s name:
-
+To pin a contact, select the **pin** icon on the bottom left below the contact’s name: 
+   
    ![Pin a contact](Images/pin-contact.png)
 
-To unpin a contact, select the **unpin** icon:
-
+To unpin a contact, select the **unpin** icon: 
+   
    ![Unpin a contact](Images/unpin-contact.png)
 
-#### Set up 1:1 meeting reminders
+#### Set up 1:1 meeting reminders 
 
 While staying in touch with top collaborators can be difficult, a quick 1:1 meeting with key contacts can help you nurture your professional network. Microsoft Viva Insights can help you set a target 1:1 meeting frequency for each contact and provide  you with meeting recommendations if you are falling out of touch.  
 
@@ -88,14 +90,14 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 * **Follow-ups** &ndash; Something that you asked for from someone else in an email 
 
 In the following example, you can select **Re: Sync up on Regression Tests** to open the email in which you can follow up or select **Done** to confirm that you’ve already followed up.  
-
+   
    ![Sync on regression tests email](Images/sync-up.png)
 
-#### Catch up on unread documents shared with you
+#### Catch up on unread documents shared with you 
 
 Have you searched for that document that you planned to read but you just cannot find it? With so many documents shared across meetings and emails, it can be difficult to stay caught up on documents shared by your colleagues. With this insight you can see a list of the shared OneDrive and SharePoint documents that you need to catch up on.  
 
-In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**.
+In the following example, to open the document, select **Open**. To open the email through which the document was shared, select **Re: Sync on Regression Test**. 
    
    ![Unread document from the meeting](Images/unread-doc.png)
 
@@ -113,7 +115,7 @@ In the following example, select **Sync on Proposal** to open the meeting invita
    
    ![You haven't RSVP'd](Images/havent-rsvpd.png)
 
-## Protect time 
+### Protect time 
 
 Research shows that on average it takes 23 minutes to refocus on a task after a distraction, and constant distraction during focused work can cause higher stress, lower productivity, and bad mood. Further, it can be hard to go deep on challenging work if you have only small chunks of time to focus between meetings or are easily distracted by incoming emails and chats. Blocking a few hours every day to focus without interruptions can help you make progress on your important tasks and projects. 
 
@@ -125,6 +127,6 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
 
  
