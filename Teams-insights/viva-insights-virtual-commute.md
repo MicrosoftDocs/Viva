@@ -12,7 +12,10 @@ audience: Admin
 
 ---
 
-# Use the Microsoft Viva Insights virtual commute feature 
+# Use the Microsoft Viva Insights virtual commute feature
+
+>[!Note]
+>This feature is currently available only in private preview.
 
 You can start the virtual commute feature from either of two places, the [Up-next card](#up-next-card) or the [Protect time](#protect-time) feature. 
 

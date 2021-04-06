@@ -12,23 +12,26 @@ audience: Admin
 
 ---
 
-# Use the Microsoft Viva Insights praise feature 
+# Use the Microsoft Viva Insights praise feature
+
+>[!Note]
+>This feature is currently available only in private preview.
 
 You can use the Praise app to recognize the contributions of your employees and co-workers. Praise messages appear as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
 You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-a-praise-reminder).
 
->[!Note] 
+>[!Note]
 > The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-## Send praise 
+## Send praise
 
-To send praise, first open the praise feature. You can do so in two places: 
+To send praise, first open the praise feature. You can do so in two places:
 
- * The [Home page](#send-praise-from-the-home-page) of the Viva insights app 
- * The [content pane](#send-praise-from-the-content-pane) of Teams
+* The [Home page](#send-praise-from-the-home-page) of the Viva insights app
+* The [content pane](#send-praise-from-the-content-pane) of Teams
 
-### Send praise from the Home page 
+### Send praise from the Home page
 
 1. On the Home page, select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
@@ -36,7 +39,7 @@ To send praise, first open the praise feature. You can do so in two places:
 
    <!-- VERIFY THAT YOU CAN CLICK ANYWHERE ON THE CARD, NOT JUST THE IMAGES OR WORDS. -->
 
-2. Continue with the steps in [Send a praise message](#send-a-praise-message). 
+2. Continue with the steps in [Send a praise message](#send-a-praise-message).
 
 ### Send a praise message
 
@@ -66,30 +69,30 @@ In Microsoft Viva Insights, you can always send praise right [from the **Home** 
 
    ![Select Praise](images/content-pane-select-praise.png)
 
-   (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).) 
+   (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
 2. Continue with the steps in [Send a praise message](#send-a-praise-message).
-
 
 #### Find the Praise feature
 
 1. Below the **Type a new message** field, select more options (the ellipsis):
-   
+
    ![Ellipsis](images/type-new-msg.png)
 
-3. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
-   
-   ![Select icon for Praise app](images/find-app-praise.png)   
+2. In the **Find an app** field, start typing "praise" and then select the **Praise** app to open it.  
+
+   ![Select icon for Praise app](images/find-app-praise.png)
 
    The **Praise** app opens.
 
-4. Continue with the steps in [Send a praise message](#send-a-praise-message).    
+3. Continue with the steps in [Send a praise message](#send-a-praise-message).
 
 ## Set praise reminders
 
 Remind yourself to send praise to co-workers. Praise reminders are always recurring; this helps you build the habit of letting co-workers know that you appreciate their contribution. 
 
 >[!Note]
+>
 > * You can schedule praise reminders for any day of the week, including days not configured as workdays in your Outlook settings.
 > * The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
 > * The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
