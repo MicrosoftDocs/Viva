@@ -89,7 +89,7 @@ In Microsoft Viva Insights, you can always send praise right [from the **Home** 
 
 ## Set praise reminders
 
-Remind yourself to send praise to co-workers. Praise reminders are always recurring; this helps you build the habit of letting co-workers know that you appreciate their contribution. 
+Remind yourself to send praise to co-workers. Praise reminders are always recurring; this helps you build the habit of letting co-workers know that you appreciate their contribution.
 
 >[!Note]
 >
@@ -97,7 +97,7 @@ Remind yourself to send praise to co-workers. Praise reminders are always recurr
 > * The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
 > * The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
 
-You can set praise reminders either on the [**Settings** page](team-app-settings.md#praise) or on the **Home** page, as described here:
+You can set praise reminders either on the [**Settings** page](viva-teams-app-settings.md#praise) or on the **Home** page, as described here:
 
 1. Select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
@@ -107,12 +107,10 @@ You can set praise reminders either on the [**Settings** page](team-app-settings
 
    ![Praise reminder](images/praise-settings-page.png)
 
-   On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).   
+   On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
 
 <!-- THIS CONTENT WAS ORIGINALLY FROM https://support.microsoft.com/en-us/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e?ui=en-US&amp;rs=en-US&amp;ad=US -->
-
- 

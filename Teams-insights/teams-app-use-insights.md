@@ -20,7 +20,7 @@ Microsoft Viva Insights provides personalized recommendations to build better wo
 * [Protect time](#protect-time) 
 
 > [!Note] 
-> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
+> As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see [How can I send feedback to Microsoft about the Insights app?](viva-teams-app-faq.md#q4-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
 
 ## Stay connected  
 
@@ -125,6 +125,6 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
 
  

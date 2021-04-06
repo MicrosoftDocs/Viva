@@ -66,4 +66,4 @@ You can set reminders to reflect either on the [**Settings** page](team-app-sett
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)

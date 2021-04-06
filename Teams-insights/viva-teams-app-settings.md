@@ -54,4 +54,4 @@ To configure features, start by opening the **Settings** page:
  -->
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)

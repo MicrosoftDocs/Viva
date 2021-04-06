@@ -49,7 +49,7 @@ The Viva Insights app is pre-installed in Teams for most organizations. This mea
 
 ### Install the app
 
-This section describes how to install the Microsoft Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](teams-app-admin-tasks.md).)  
+This section describes how to install the Microsoft Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](viva-teams-app-admin-tasks.md).)  
 
 1. Open Microsoft Teams on the web or in a desktop client.
 
@@ -76,4 +76,4 @@ This step adds the Insights app to all the places where you might use Microsoft 
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)

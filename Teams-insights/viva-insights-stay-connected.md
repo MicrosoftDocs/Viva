@@ -105,6 +105,6 @@ In the following example, select **Sync on Proposal** to open the meeting invita
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
 
  

@@ -16,7 +16,7 @@ audience: Admin
 
 ##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 
-**A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](teams-app-privacy.md#gdpr-compliance).)
+**A1.** Yes. The Viva Insights app complies with GDPR requirements. (See [GDPR compliance](viva-teams-app-privacy.md#gdpr-compliance).)
 
 ##### Q2. Can users see information about other users in the Viva Insights app?
 
@@ -66,4 +66,4 @@ Insights does not use:
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)

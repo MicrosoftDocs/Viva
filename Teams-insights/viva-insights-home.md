@@ -66,6 +66,4 @@ This card shows tasks that are in your **To Do** list that are due today or for 
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
-
- 
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)

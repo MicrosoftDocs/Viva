@@ -27,7 +27,7 @@ The Up-next card reads, "It's time to wrap up your day" to indicate that you can
 
 This message appears at the following times:
 
- * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about making this and other settings, see [Insights app settings](teams-app-settings.md). 
+ * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about making this and other settings, see [Insights app settings](viva-teams-app-settings.md). 
  * If you have not configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance). 
 
 ## Protect time
@@ -52,7 +52,7 @@ On this card, choose the days on which you want to see the virtual-commute remin
 
 [!INCLUDE [Virtual commute notes](includes/virtual-commute-details.md)]
 
-If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](teams-app-settings.md#virtual-commute).
+If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md#virtual-commute).
 
 #### Virtual commute steps
 
@@ -121,7 +121,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
 
 [Microsoft Viva Insights app &ndash; Protect time](viva-insights-protect-time.md) 
  

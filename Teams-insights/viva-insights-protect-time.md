@@ -16,8 +16,8 @@ audience: Admin
 
 You can use this feature to protect your time in these ways:
 
- * [Schedule focus time](#schedule-focus-time) for future workdays.
- * [Start a virtual commute](viva-insights-virtual-commute.md#start-a-virtual-commute) at the end of the day.
+* [Schedule focus time](#schedule-focus-time) for future workdays.
+* [Start a virtual commute](viva-insights-virtual-commute.md#start-a-virtual-commute) at the end of the day.
 
 ## Schedule focus time
 
@@ -27,10 +27,10 @@ Microsoft Viva Insights can help you protect time for focused work and minimize 
 
 In the following example, select **Book Time** to reserve the time slot for focused work. If you don’t need the time anymore, you can select **Remove slot** to free up your calendar. You can also select edit (the pencil icon) to change the name of the focus time block; this automatically updates the subject of this focus-time booking on your calendar.
 
-![Book focus time](Images/book-time-2.png) 
+![Book focus time](Images/book-time-2.png)
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
 
-[Microsoft Viva Insights app &ndash; virtual commute](viva-insights-virtual-commute.md) 
+[Microsoft Viva Insights app &ndash; virtual commute](viva-insights-virtual-commute.md)

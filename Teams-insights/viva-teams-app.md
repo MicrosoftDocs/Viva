@@ -28,7 +28,7 @@ By using the Viva Insights app, you can:
 * Start a [virtual commute](viva-insights-virtual-commute.md) &ndash; Mindfully close out your workday.  
 * Use [Microsoft To-Do](viva-insights-home.md#microsoft-to-do) &ndash; Take action on a task in your to-do list.
 
-The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](teams-app-privacy.md).
+The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](viva-teams-app-privacy.md).
 
 ## How it works 
 
@@ -43,10 +43,10 @@ The personal insights and actions in the Viva Insights app are based on your Exc
 
 [Microsoft Viva Insights app Home page](viva-insights-home.md)
 
-[Privacy guide](teams-app-privacy.md)
+[Privacy guide](viva-teams-app-privacy.md)
 
-[Install the Microsoft Viva Insights app](teams-app-install.md)
+[Install the Microsoft Viva Insights app](viva-teams-app-install.md)
 
-[Frequently asked questions](teams-app-faq.md)
+[Frequently asked questions](viva-teams-app-faq.md)
 
-[Admin tasks](teams-app-admin-tasks.md)
+[Admin tasks](viva-teams-app-admin-tasks.md)
