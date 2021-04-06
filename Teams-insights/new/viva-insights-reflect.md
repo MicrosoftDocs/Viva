@@ -52,7 +52,7 @@ Remind yourself to self-reflect in the future.
 > * Scheduled reflection reminders can expire. If you select a reflection reminder for a previous day or time, you will see a message that the reminder has expired.
 > * You can reflect at any time on the Home page or the virtual commute page. Reflection that you do on those pages is independent of any reminders that you have set for reflection.
 
-You can set reminders to reflect either on the [**Settings** page](viva-team-app-settings.md) or the **Home** page, as described here:
+You can set reminders to reflect either on the [**Settings** page](viva-teams-app-settings.md) or the **Home** page, as described here:
 
 1. On the **Build a habit of emotional awareness!** card, select a day and time:
 
