@@ -125,7 +125,7 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
    ![Insights Home page](../images/wpa/use/home-mgr.png)
 
-   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/en-us/insights/viva-insights-home).
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/insights/viva-insights-home).
 
 3. On the menu bar at the top of the page, select **My organization**. The My organization page opens to show the following outcomes:
 
