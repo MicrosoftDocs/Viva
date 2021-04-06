@@ -28,14 +28,10 @@ Complete the steps in the following four mini-playbooks to get the Microsoft Viv
    >
    >b. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps) policies in Teams.
 
-<!-- DELETE THIS STEP, PER MALAVIKA. THIS ASSUMES THAT THE APP IS PRE-INSTALLED FOR ALL USERS EVERYWHERE. 
-2. Install the Viva Insights app for all employees in your organization: [Install the Insights app](Install-the-Insights-app.pdf). 
--->
-
 2. Pin the Viva Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Viva Insights app](Pin-the-Insights-app.pdf).
 
 3. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](Find-and-open-the-Insights-app.pdf).
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](teams-app.md)
+[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
