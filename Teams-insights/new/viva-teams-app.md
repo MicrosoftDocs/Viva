@@ -20,8 +20,8 @@ It derives these insights by summarizing your Microsoft 365 data &ndash; data th
 
 By using the Viva Insights app, you can:
 
-* [Stay connected](teams-app-use-insights.md#stay-connected) &ndash; Stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance.
-* [Protect time](teams-app-use-insights.md#protect-time) &ndash; Find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities.
+* [Stay connected](viva-insights-stay-connected.md) &ndash; Stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance.
+* [Protect time](viva-insights-protect-time.md) &ndash; Find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities.
 * [Send praise](viva-insights-praise.md) &ndash; Send acclaim to your employees and coworkers, either in a private chat or in a Teams channel conversation.
 * [Reflect](viva-insights-reflect.md) &ndash; Take a moment to check in with yourself, to reflect on how you're feeling.
 * [Take a break](viva-insights-home.md#take-a-break) &ndash; During your workday, take an occasional one-minute "breathing break."  
@@ -30,7 +30,7 @@ By using the Viva Insights app, you can:
 
 The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](viva-teams-app-privacy.md).
 
-## How it works 
+## How it works
 
 The personal insights and actions in the Viva Insights app are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process.
 
