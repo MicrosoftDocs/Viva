@@ -52,7 +52,7 @@ On this card, choose the days on which you want to see the virtual-commute remin
 
 [!INCLUDE [Virtual commute notes](../includes/virtual-commute-details.md)]
 
-If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md#virtual-commute).
+If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
 #### Virtual commute steps
 
