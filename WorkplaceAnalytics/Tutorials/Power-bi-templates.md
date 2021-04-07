@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Power BI template tips, FAQs, and troubleshooting

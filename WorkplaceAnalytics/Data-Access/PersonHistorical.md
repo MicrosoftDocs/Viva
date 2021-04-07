@@ -7,6 +7,8 @@ author: paul9955
 ms.author: v-mideh
 ms.topic: article
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # PersonHistorical (.csv)
