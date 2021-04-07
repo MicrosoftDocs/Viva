@@ -7,6 +7,9 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
+
 ---
 
 # My organization in Viva Insights
@@ -114,23 +117,33 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
 5. To give a person access to leader insights, assign the _Analyst (Limited)_ role of Workplace Analytics to that person. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles.md#role-descriptions-and-access-levels).)
 
-## Use the My organization page
+## Open the My organization page
 
-The My organization page in the Viva insights app shows the following outcomes:
+1. On the Teams app bar (the left navigation bar), select **Insights**: 
+   
+   ![Insights icon](../images/wpa/use/insights-icon.png)
 
-* Organizational resiliency
-* Employee engagement
-* Improve agility
-* Foster innovation
-* Effective managers
-* Operational effectiveness
-* Accelerate change
-* Transform meeting culture
-* Increase customer focus
+2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card. 
 
-![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+   ![Insights Home page](../images/wpa/use/home-mgr.png)
 
-To use the My organization page, first view the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/insights/viva-insights-home).
+
+3. On the menu bar at the top of the page, select **My organization**. The My organization page opens to show the following outcomes:
+
+   * Organizational resiliency
+   * Employee engagement
+   * Improve agility
+   * Foster innovation
+   * Effective managers
+   * Operational effectiveness
+   * Accelerate change
+   * Transform meeting culture
+   * Increase customer focus
+
+   ![Outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+
+4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
 ### Drill down to the insights level
 
