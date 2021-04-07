@@ -9,6 +9,7 @@ localization_priority: normal
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
+
 ---
 
 # My organization in Viva Insights
