@@ -12,7 +12,7 @@ audience: Admin
 
 # Group-to-group queries
 
-Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by the organizational attributes, along with how much time people in the first group (the "time investors") allocated to other groups ("collaborators").
+Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by the organizational attributes, along with how much time people in the first group &ndash; the _time investors_ &ndash; allocated to other groups &ndash; _collaborators_.
 
 ![Group A allocates time to Group B](../Images/WpA/tutorials/Group-query1.png)
 
@@ -20,7 +20,7 @@ Group-to-group queries in Workplace Analytics give results that help you underst
 
 An understanding of time allocation helps you create better group queries. The details of time allocation can be complicated. Here is a summary of the basic concepts:
 
-* Time allocation measures how groups spent their time. For each interaction (a meeting attended or an email sent or received), the total time that one group spent on the interaction is divided among the other groups that participated.
+* Time allocation measures how groups spent their time. An interaction is a meeting that was attended or an email that was sent or received. For each interaction, the total time that one group spent on the interaction is divided among the other groups that participated.
 * A time investor allocates their time among the other participants in the interaction (the collaborators) in proportion to how many people are in the collaborator group for that interaction.
 * A group query can analyze time allocation only for employees in the population of measured employees, namely those who are licensed for Workplace Analytics. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.
 * The time-allocation approach assumes that a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email.
@@ -42,7 +42,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 1. On the **Analyze** > **Queries** page, select **Group-to-group**.
 2. Select and change **Enter query name here** to a name, and then enter a description for the query.
-3. For **Group by**, select a time-grouping option -- day, week, or month.
+3. For **Group by**, select a time-grouping option: day, week, or month.
 4. Select a date range. The query will analyze only those group-to-group interactions that took place during this date range.
 5. Select a meeting exclusions rule. The query will ignore meetings that are filtered out by this rule.
 6. In the **Select metrics** section, select one or more metrics that measure interactions between the time investors and collaborators, such as Collaboration hours, Email hours, or Meeting hours.
@@ -53,11 +53,11 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    The following sections enable you to define how to group the time-investors and the collaborators. For example, to analyze how senior leaders allocated time across different organizations, you'd set the time investors' group to "level" and the collaborators' group to "organization." 
 
-7. In the **Time investors** section, answer the next question _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. 
+7. In the **Time investors** section, answer the next question, _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. 
 
    ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
 
-8. Optionally, you can remove some of the time investors from this analysis by applying one or more filters under the question _Do you want to limit the analysis to only certain time investors?_
+8. Optionally, you can remove some of the time investors from this analysis by applying one or more filters under the question, _Do you want to limit the analysis to only certain time investors?_
 
 9. In the **Their collaborators** section, you can add filters to exclude collaborators, such as Domain, FunctionType, or Organization, which are the same as for the time investors section.
 
@@ -65,7 +65,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
 
-10. Answer the question _How do you want to group the people who collaborated with the time investors?_ to group the collaborators. This will show you which groups interacted with the time investors. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
+10. Answer the question _How do you want to group the people who collaborated with the time investors?_ to group the collaborators. This answer helps to show you which groups interacted with the time investors. You can also combine groups of collaborators to isolate other specific groups who interacted with the time investors.
 
     ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
