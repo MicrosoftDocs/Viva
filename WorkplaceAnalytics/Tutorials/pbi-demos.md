@@ -5,6 +5,8 @@ localization_priority: normal
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
+manager: scott.ruble
+audience: Admin
 ---
 
 # Power BI dashboard demos

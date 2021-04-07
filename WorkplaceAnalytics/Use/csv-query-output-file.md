@@ -6,7 +6,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Understand and interpret query output

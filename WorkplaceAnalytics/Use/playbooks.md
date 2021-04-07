@@ -6,6 +6,8 @@ localization_priority: normal
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
+manager: scott.ruble
+audience: Admin
 ---
 # Workplace Analytics Playbooks
 

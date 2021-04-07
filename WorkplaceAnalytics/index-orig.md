@@ -6,6 +6,8 @@ ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
 ms.topic: overview
+manager: scott.ruble
+audience: Admin
 ---
 # Introducing Workplace Analytics
 
