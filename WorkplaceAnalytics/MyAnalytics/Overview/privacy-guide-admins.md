@@ -102,19 +102,19 @@ To preserve privacy, MyAnalytics does not track read rates for messages sent to 
 
 This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
 
-People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the “read” flag is copied within the Microsoft 365 environment, and then delivered to the sender’s mailbox.
+People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the "read" flag is copied within the Microsoft 365 environment, and then delivered to the sender's mailbox.
 
 ## Privacy settings
 
 MyAnalytics provides flexible and configurable controls that are designed to enable organizations and their members to address varying legal and policy needs regarding privacy and use of employee data. When enabling MyAnalytics for the organization, admins can make the following choices:
 
-* **Determine which people have access to MyAnalytics** - Admins can determine which people can access and use MyAnalytics by issuing licenses to only those people who should have access.
+* **Determine which people have access to MyAnalytics** &ndash; Admins can determine which people can access and use MyAnalytics by issuing licenses to only those people who should have access.
 
-* **Determine default opt-in settings** - Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure user settings](../setup/configure-myanalytics.md#step-1-configure-user-settings).
+* **Determine default opt-in settings** &ndash; Admins can configure MyAnalytics to be "default off," which means that licensed employees must individually opt in to MyAnalytics to gain access to their dashboard and Outlook add-in and to contribute to incremental data. Alternatively, MyAnalytics can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their dashboard and to the Outlook add-in, but can subsequently opt out through the Settings menu. To learn more, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
 
-* **Determine whether employees can opt-in to receive insights on Windows 10 application usage** - Admins must consent before MyAnalytics users can opt in to receive insights derived from Windows 10 activity history data.
+* **Determine whether employees can opt-in to receive insights on Windows 10 application usage** &ndash; Admins must consent before MyAnalytics users can opt in to receive insights derived from Windows 10 activity history data.
 
-* **Determine which employees in sensitive roles should be excluded from incremental data** -  Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed.
+* **Determine which employees in sensitive roles should be excluded from incremental data** &ndash; Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed.
 
  Note that if default settings are used, the following applies:
 
