@@ -15,7 +15,7 @@ After you run a query in Workplace Analytics, the Results page in Queries will a
 
 ![.csv file download](../images/WpA/Use/csv-download.png)
 
-You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For more details, see [Use Workplace Analytics data in Power BI and other data analysis tools](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#use-workplace-analytics-data-in-power-bi-and-other-data-analysis-tools).
+You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For more details, see [Use Workplace Analytics data in Power BI and other data analysis tools](./view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-and-other-data-analysis-tools).
 
 ## Person query output
 

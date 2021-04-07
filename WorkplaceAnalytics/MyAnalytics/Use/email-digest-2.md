@@ -59,6 +59,6 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 ### After unsubscribing from weekly digest, why am I still receiving them?
 
-If you have multiple Office 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
+If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
 
 ![Unsubscribe from digest message](../../Images/mya/use/digest-unsubscribe.png)

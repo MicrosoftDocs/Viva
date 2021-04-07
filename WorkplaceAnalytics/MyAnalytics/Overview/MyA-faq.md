@@ -31,7 +31,7 @@ For more details, see the [MyAnalytics privacy guide](Privacy-Guide.md).
 
 ##### Q2. How does MyAnalytics protect my data?
 
-MyAnalytics uses data from your Office 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business.
+MyAnalytics uses data from your Microsoft 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business.
 
 MyAnalytics stores your data in your mailbox itself, and gets the same protection that your email and calendar itself gets. This means your data is protected the same way your email and calendar information is kept private and protected.
 
@@ -71,7 +71,7 @@ MyAnalytics does not have any tracking software running on your computer.
 
 **MyAnalytics does not use:**
 
-Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
+Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Microsoft 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
 ## For MyAnalytics users
 
@@ -178,7 +178,7 @@ The MyAnalytics dashboard is only available if your organization has a *qualifyi
 
 ##### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
 
-Your personalized data is only accurately calculated when you have a minimum level of activities with Office 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
+Your personalized data is only accurately calculated when you have a minimum level of activities with Microsoft 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
 
 ##### Q3. Even though I don't have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
 
@@ -186,7 +186,7 @@ MyAnalytics will not be available to you if you don't have a license. However, y
 
 ##### Q4. How can I find out what my plan is?
 
-Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Office 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have?
+Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Microsoft 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have?
 
 You can identify your _plan_ (and also your _service plan_) by following these steps:
 
@@ -201,11 +201,11 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
 4. On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
 
-   _In the following example, the plan is "Office 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
+   _In the following example, the plan is "Microsoft 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
 
    ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
 
-   _In the following example, the plan is "Office 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
+   _In the following example, the plan is "Microsoft 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
 
    ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
 
@@ -275,11 +275,11 @@ You can manage the experience in two ways:
 
 ##### Q2. How can I pilot MyAnalytics to a subset of users?
 
-Turn on the "Insights by MyAnalytics" OR "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Turn on the "Insights by MyAnalytics" OR "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
-##### Q3. How can I manage MyAnalytics experiences in Office 365 GCC?
+##### Q3. How can I manage MyAnalytics experiences in Microsoft 365 GCC?
 
-You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019. 
+You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019. 
 
 ##### Q4. How can I manage the Windows 10 activity history for the organization?
 
@@ -288,7 +288,7 @@ You can set the following two Group Policy settings at the tenant level for the 
 * System\OS Policies\Allow upload of User Activities
 * System\OS Policies\Allow publishing of User Activities
 
-For details, see [New policies for Windows 10](https://docs.microsoft.com/windows/client-management/new-policies-for-windows-10).
+For details, see [New policies for Windows 10](/windows/client-management/new-policies-for-windows-10).
 
 ### Feature visibility and access
 
@@ -296,7 +296,7 @@ For details, see [New policies for Windows 10](https://docs.microsoft.com/window
 
 See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics dashboard supports.
 
-As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
+As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
 
 ##### Q2. How can I confirm that the Insights Outlook add-in is installed?
 
@@ -324,7 +324,7 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 ##### Q7. Why can't licensed users see one or more of the MyAnalytics elements?
 
 * Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
-* Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) for more details:
+* Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) for more details:
 
    ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
 
@@ -332,7 +332,7 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 
 ##### Q1. Can Microsoft personnel access a person's MyAnalytics data?
 
-The same rules apply as with Microsoft Office 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
+The same rules apply as with Microsoft Microsoft 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
 
 ##### Q2. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
 
@@ -353,7 +353,7 @@ Yes, you can delete and restrict the processing of MyAnalytics user data if requ
    > [!Note]
    > If a person opts out of using MyAnalytics, this action does not delete that person's MyAnalytics data.
 
-##### Q6. If a user opts out or is opted out in PowerShell, will they stay opted out even through upgrades of Office 365 or MyAnalytics? 
+##### Q6. If a user opts out or is opted out in PowerShell, will they stay opted out even through upgrades of Microsoft 365 or MyAnalytics? 
 
 Yes. Opt-out settings can only be modified by the user or the tenant administrator. They are not changed as a result of upgrades.
 
@@ -361,5 +361,4 @@ Yes. Opt-out settings can only be modified by the user or the tenant administrat
 
 Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. This can be overridden by the user, based on their choice to opt out or opt in.
 
-Administrators can also [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true) to enable or disable access for individual users. If licenses are not assigned, the user does not have access to any MyAnalytics features.
-
+Administrators can also [Assign licenses to users](/microsoft-365/admin/add-users/add-users?preserve-view=true&view=o365-worldwide) to enable or disable access for individual users. If licenses are not assigned, the user does not have access to any MyAnalytics features.

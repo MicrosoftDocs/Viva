@@ -1,7 +1,7 @@
 ---
 
 title: MyAnalytics privacy guide
-description: Overview of MyAnalytics privacy features, including information about de-identification and privacy of data, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
+description: Overview of MyAnalytics privacy features, including info about data de-identification and privacy, minimum group size for reporting, admin choices, default settings, and users in sensitive roles
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -16,7 +16,7 @@ audience: Admin
 
 # Privacy guide for MyAnalytics
 
-By using data generated from everyday work in Office 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
+By using data generated from everyday work in Microsoft 365, MyAnalytics helps people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 This page answers key questions on how MyAnalytics processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
 
@@ -25,14 +25,14 @@ This page answers key questions on how MyAnalytics processes information in a ma
 * **MyAnalytics is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
 MyAnalytics provides insights to individuals through a personalized dashboard, a weekly digest, an Insights Outlook add-in, and inline suggestions in Outlook. MyAnalytics has no mechanism or option that allows anyone but the user to access the personalized information that is displayed through these surfaces, unless that person purposefully and independently shares that information. Insights provided by MyAnalytics cannot be used for automated decision making or for profiling.
 
-* **MyAnalytics does not give employees access to new personally-identifiable information on other coworkers**.
-MyAnalytics converts data into insights by performing calculations on information that people generate just by going about their work day. The majority of the data that employees see in MyAnalytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.</li>
+* **MyAnalytics does not give employees access to new personally identifiable information on other coworkers**.
+MyAnalytics converts data into insights by doing calculations on information that people generate just by going about their work day. Most of the data that employees see in MyAnalytics is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.</li>
 
 * **MyAnalytics data is processed and stored in the employee’s Exchange Online mailbox**.
 MyAnalytics processes data from these sources: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and&mdash;if both the organization's IT administrator and an individual opt in&mdash;Windows 10 application activity history. MyAnalytics stores and processes this data inside each employee’s Exchange Online mailbox.
 
 * **MyAnalytics supports General Data Protection Regulation (GDPR) compliance**.
-Microsoft has designed MyAnalytics to support customers’ needs to comply with [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
+Microsoft has designed MyAnalytics to support customers’ needs by following [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
 
 * **MyAnalytics can be configured so that individuals must purposefully opt in**.
 By default, any time a license with the MyAnalytics service is assigned to a person, that person is automatically opted in. However, administrators can configure MyAnalytics to be "default off," so that people can choose for themselves whether to opt in after being assigned a license.
@@ -54,7 +54,7 @@ MyAnalytics presents insights in the following ways:
 
 MyAnalytics provides insights with the following types of data.
 
-1. **Mailbox data:** Email, calendar, chat, and call activity that people generate by using Office 365, such as time spent in meetings or emails sent to a specific person or group.
+1. **Mailbox data:** Email, calendar, chat, and call activity that people generate by using Microsoft 365, such as time spent in meetings or emails sent to a specific person or group.
 
 2. **Windows 10 activity history data:** Data on people's usage of apps and services on their device: whether they worked on a document and whether they browsed the web.
 
@@ -94,7 +94,7 @@ In a few cases, MyAnalytics provides people with *de-identified* information on 
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
-However, to preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. Also, MyAnalytics does not show read rates of 0% or 100%, as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate is displayed as a range, greater than or less than a certain threshold value that depends on the number of recipients of the email.
+To preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. MyAnalytics also doesn't show read rates of "0%" or "100%," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
 
 This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox. This is then delivered to the sender's mailbox if that person has opted in to using MyAnalytics.
 
@@ -134,7 +134,7 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ### How employees can opt-in and opt-out
 
-Users can opt-in or opt-out of the elements of MyAnalytics by using the **Settings > Feature settings** menu in Office 365, as shown here:
+Users can opt-in or opt-out of the elements of MyAnalytics by using the **Settings > Feature settings** menu in Microsoft 365, as shown here:
 
 ![Opt out and opt in ](../../images/mya/use/v2-dashboard-settings-1h-3.png)
 
@@ -142,13 +142,13 @@ Users can opt-in or opt-out of the elements of MyAnalytics by using the **Settin
 
 MyAnalytics is a first-party application that's built on Microsoft Graph. Microsoft Graph consists of a set of REST-based API calls that allow developers to interact with the Microsoft technologies that a given organization uses. In order to use these API calls, developers must have specific permissions to access any data they request. Administrators control both the deployment of any Microsoft Graph application and permissions to access these applications.
 
-The Microsoft Graph cannot be turned on or off globally through the Office 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
+The Microsoft Graph cannot be turned on or off globally through the Microsoft 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
 
 ## Employee experience of MyAnalytics
 
 ### Dashboard and Outlook add-in
 
-Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-on license&mdash;the user’s MyAnalytics [dashboard](../use/dashboard-2.md) and [Outlook Add-in](../use/add-in.md) become available.
+Within a few days of the assignment of a license with the MyAnalytics service to an employee&mdash;either as part of an overall Microsoft 365 Enterprise license or as an add-in license&mdash;the user’s MyAnalytics [dashboard](../use/dashboard-2.md) and [Outlook Add-in](../use/add-in.md) become available.
 
 ### Welcome email
 
@@ -160,7 +160,7 @@ The week after the welcome email is delivered, users begin to receive the [weekl
 
 ## GDPR Compliance
 
-As is the case with the full Office 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
+As is the case with the full Microsoft 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
 
 1. **Secure and protect personal data of users**.
     All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
@@ -170,16 +170,15 @@ As is the case with the full Office 365 suite, MyAnalytics helps support complia
     * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
 2. **Notify users in the event that a breach is detected**.
-   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Office 365 incident response](https://docs.microsoft.com/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
     Microsoft supports your need to honor user requests in the following ways:
 
-    * Data export requests: Users can go to the MyAnalytics dashboard while signed in to their Office 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of MyAnalytics insights if they want to have permanent copies of their information.
+    * Data export requests: Users can go to the MyAnalytics dashboard while signed in to their Microsoft 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of MyAnalytics insights if they want to have permanent copies of their information.
     * Request to restrict processing:
 
       * Use PowerShell to opt employees out of MyAnalytics.
-      * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
+      * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
-

@@ -11,7 +11,7 @@ ms.prod: Mya
 ---
 # Follow up on tasks
 
-For **Commitments and follow-ups** in your Briefing, you'll see the one or more of the following based on your recent email activity:
+For **Commitments and follow-ups** in your Briefing, you'll see one or more of the following based on your recent email activity:
 
 * **Commitment** - Something you promised or committed to do for someone else in an email.
 * **Request** - Something another person asked you to do in an email.
@@ -20,7 +20,7 @@ For **Commitments and follow-ups** in your Briefing, you'll see the one or more 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following:
 
 * If the related task is already done, select **Done**.
-* Depending on your use of the To Do feature, you select either **Remind me tomorrow** or **Add to To Do** for the related task.
+* Depending on your use of the To Do feature, you can select either **Remind me tomorrow** or **Add to To Do** for the related task.
 * To remove it from your list, select the **Delete** (trashcan) icon.
 
 In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me tomorrow** to get a reminder in your next day's briefing email.
@@ -29,8 +29,8 @@ In the following example, you’d select **Done** to confirm you’ve already do
 
 Or if you use the To Do feature, you could select **Add to To Do**.
 
-![Briefing email about tasks](./images/be-task-to-do.png)
+![Briefing email about To Dos](./images/be-task-to-do.png)
 
-## Related topics
+## Related topic
 
 [Briefing email overview](be-overview.md)

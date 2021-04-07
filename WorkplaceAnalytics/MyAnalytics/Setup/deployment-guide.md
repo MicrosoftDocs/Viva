@@ -68,7 +68,7 @@ It is easy to turn on MyAnalytics for all users in your organization as it comes
 
 ### Include stakeholders
 
-Identifying and notifying your key stakeholders before the welcome email ([Download Welcome email template](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx)) is sent to users can be an important preliminary step in your rollout process. These stakeholders should understand the value, timelines, and expected experiences that come with the rollout of the Welcome email. When managed proactively, these stakeholders can become valuable advocates for moving the rollout process forward.
+Identifying and notifying your key stakeholders before the welcome email ([Download Welcome email template](/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx)) is sent to users can be an important preliminary step in your rollout process. These stakeholders should understand the value, timelines, and expected experiences that come with the rollout of the Welcome email. When managed proactively, these stakeholders can become valuable advocates for moving the rollout process forward.
 
 Here are some roles you might consider as part of the rollout project:
 
@@ -128,7 +128,7 @@ In this scenario, MyAnalytics is off by default but users can turn it on for the
 
 4.	Deselect **Insights dashboard**, **Weekly digest**, and **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted out of all MyAnalytics features.
 
-After these settings are complete, users can open the MyAnalytics dashboard and [turn on MyAnalytics features by themselves](https://docs.microsoft.com/workplace-analytics/myanalytics/use/opt-out-of-mya).
+After these settings are complete, users can open the MyAnalytics dashboard and [turn on MyAnalytics features by themselves](../use/opt-out-of-mya.md).
 
 #### Mixed deployment 
 
@@ -142,7 +142,7 @@ _Feature settings pane with MyAnalytics off by default_
 **Role:** M365 Admin
 
 1.	Turn off MyAnalytics on all surfaces for all users. To do this, follow the steps in [Set MyAnalytics to default off](#set-myanalytics-to-default-off).
-2.	Use the following steps to change access to MyAnalytics for multiple users. Do this by running a PowerShell script that iterates through the users, changing the value one user at a time. (Also see [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).) 
+2.	Use the following steps to change access to MyAnalytics for multiple users. Do this by running a PowerShell script that iterates through the users, changing the value one user at a time. (Also see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).) 
 3.	Create a comma-separated value (.csv) text file that contains the UserPrincipalName field of the users you want to configure. This will become your input .csv file. For example:
    
     ```
@@ -171,7 +171,7 @@ Note: The output.csv file will contain the results of running this PowerShell sc
     }
     ```
 
-5.	Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
+5.	Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
 
 This PowerShell script does the following:
 
@@ -314,7 +314,7 @@ If users have questions about using MyAnalytics, point them to the published [My
 
 ### Resources for stakeholders 
 
-* Download the [Welcome Email template](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx). Edit and use this to communicate the availability of MyAnalytics as a productivity tool.
+* Download the [Welcome Email template](/workplace-analytics/myanalytics/setup/myanalytics-announcement-2020-template.docx). Edit and use this to communicate the availability of MyAnalytics as a productivity tool.
 
 * [Privacy guide for MyAnalytics admins](./../overview/privacy-guide.md). Use the Privacy guide to find answer to key questions about how MyAnalytics processes information in a manner that protects employee privacy and supports compliance with local regulations.
 
@@ -340,6 +340,3 @@ These training Videos can be a great resource for people who will run a workshop
 ##### Video: Outlook insights and inline suggestions
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/440502800" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
-
-

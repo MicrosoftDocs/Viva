@@ -45,7 +45,7 @@ Provide your employees with virtual opportunities to bond over non-work activiti
 
 #### Direct your team to relevant training
 
-When introducing a new tool, help team members get comfortable and adopt quickly with pre-built materials and resources. For example, [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page).
+When introducing a new tool, help team members get comfortable and adopt quickly with pre-built materials and resources. For example, [Microsoft Teams free, live, online training classes](/MicrosoftTeams/instructor-led-training-teams-landing-page).
 
 ## Related topic
 

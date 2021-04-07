@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Boost employee engagement with Workplace Analytics insights
+title: Boost employee engagement with Microsoft 365 Insights
 description: Learn how to use insights data to analyze and improve employee engagement
 author: madehmer
 ms.author: v-mideh
@@ -73,7 +73,7 @@ Pressure to "always be on" and long hours can lead to employee burnout. The amou
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
 * Use [MyAnalytics wellbeing data](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/wellbeing) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
-* Use [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/mya-notifications#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/mya-notifications#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](https://docs.microsoft.com/workplace-analytics/tutorials/gm-wellbeing).
 <!--

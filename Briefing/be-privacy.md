@@ -44,7 +44,7 @@ Microsoft helps data controllers meet the following obligations for the Briefing
    * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
-2. **Notify users in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using Office 365 incident response standard operating procedures.
+2. **Notify users in the event that a breach is detected**. Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using Microsoft 365 incident response standard operating procedures.
 
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**. Microsoft supports your need to honor user requests in the following ways.
 
