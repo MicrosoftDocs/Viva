@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 
 ---
 # Privacy guide for Briefing emails
