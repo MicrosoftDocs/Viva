@@ -7,6 +7,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Microsoft Viva Insights app in Microsoft Teams - My Organization
