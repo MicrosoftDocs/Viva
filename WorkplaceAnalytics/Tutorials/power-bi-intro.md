@@ -13,13 +13,13 @@ Workplace Analytics provides Power BI templates that analysts can use to visuall
 
 Workplace Analytics Queries has a number of predefined query templates available. In the preselected filters and metrics section in Queries, you can identify the Power BI templates by the Power BI logo in the upper-right corner of the template:
 
-   ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-cards.png)
+   ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-queries.png)
 
 Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one to see more details about it and to view an interactive demonstration on how you can use it to get similar data about your organization.
 
 | &nbsp; | &nbsp; |
 |------|-------|
-|![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Behavior patterns**](./power-bi-glint.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
+|![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
 |![Business communication icon](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Business continuity**](./power-bi-bc.md)<br>Shows example insights into how shifting to remote work has impacted business. |
 |![Collaboration overload icon](../images/wpa/playbooks/email-overload-64x64.svg) |[**Collaboration overload**](./power-bi-collab-overload.md) <br>Shows where overall collaboration patterns, time fragmentation, or meeting quality could be improved in your organization. |
 |![Influencer icon](../images/wpa/playbooks/influencer-32x32.svg) |[**Influence insights**](./pbi-influence-db.md) <br>Shows how you can learn who your influencers are and leverage their ability to disseminate information and effectively drive change. |

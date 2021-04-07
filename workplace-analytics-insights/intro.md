@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Introducing insights
-description: About Workplace Analytics insights to learn how your organization gets work done
+description: About Microsoft 365 Insights to learn how your organization gets work done
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
@@ -15,9 +15,9 @@ ms.prod: wpa
 
 As a business leader, understanding how your employees work together is important. Microsoft Insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
-![Workplace Analytics insights home page](./images/insights-home.png)
+![Microsoft 365 Insights home page](./images/insights-home.png)
 
-This new release is currently limited to Microsoft or Office 365 E5 or E3 plan subscribers through your Microsoft service representative.
+This new release is currently limited to Microsoft 365 or Office 365 E5 or E3 plan subscribers through your Microsoft service representative.
 
 You can request access and get more information at [Microsoft insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Insights.
 

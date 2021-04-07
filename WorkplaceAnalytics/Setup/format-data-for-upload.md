@@ -132,7 +132,7 @@ All field header or column names must adhere to the following:
 | Contain no special characters | Do not use non-alphanumeric characters such as _@, #, %, &, *_ |
 | Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: <strike>HRBP</strike> |
 | Contain no spaces | Example: _Date1_ |
-| Adhere to the requirements for Workplace Analytics [required attributes and reserved-optional attributes](prepare-organizational-data.md#required-reserved-optional-and-custom-attributes), including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
+| Adhere to the requirements for Workplace Analytics [required attributes](prepare-organizational-data.md#required-attributes) and [reserved optional attributes](prepare-organizational-data.md#reserved-optional-attributes), including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
 
 ##### Format the field-value rows
 

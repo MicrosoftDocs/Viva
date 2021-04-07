@@ -20,19 +20,19 @@ highlightedContent:
   items:
     - title: Introducing MyAnalytics
       itemType: overview # controls the icon image and super-title text
-      url: /workplace-analytics/myanalytics/mya-landing-page
+      url: ./mya-landing-page.md
     - title: Privacy protection
       itemType: learn
-      url: /workplace-analytics/myanalytics/overview/privacy-guide
+      url: ./overview/privacy-guide.md
     - title: Setup
       itemType: deploy
-      url: /workplace-analytics/myanalytics/setup/configure-myanalytics
+      url: ./setup/configure-myanalytics.md
     - title: Adoption
       itemType: tutorial
-      url: /workplace-analytics/myanalytics/use/mya-adoption/adopt-myanalytics
+      url: ./use/mya-adoption/adopt-myanalytics.md
     - title: Using MyAnalytics
       itemType: how-to-guide
-      url: /workplace-analytics/myanalytics/use/dashboard-2
+      url: ./use/dashboard-2.md
     - title: Frequently asked questions
       itemType: reference
-      url: /workplace-analytics/myanalytics/overview/mya-faq
+      url: ./overview/mya-faq.md

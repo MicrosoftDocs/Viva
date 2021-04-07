@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Assign licenses with PowerShell for insights
-description: Learn how to assign licenses with PowerShell to people who want to use Workplace Analytics insights
+description: Learn how to assign licenses with PowerShell to people who want to use Microsoft 365 Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -18,7 +18,7 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-You must be able to sign in as a global admin to Azure Active Directory (Azure AD) to assign licenses with PowerShell to one or more users who subscribe to a Microsoft or Office 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
+You must be able to sign in as a global admin to Azure Active Directory (Azure AD) to assign licenses with PowerShell to one or more users who subscribe to a Microsoft or Microsoft 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
 
 Alternatively, you can [use the Microsoft admin center or Azure AD to assign licenses](assign-licenses.md).
 
@@ -390,7 +390,7 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 **If the script is successful but the output reports: Script completed, but the total number of users licensed is zero (0).**
 
 1. Confirm the user is not already licensed.
-2. Confirm the user is subscribed to a Microsoft or Office 365 E5 or E3 plan.
+2. Confirm the user is subscribed to a Microsoft 365 or Office 365 E5 or E3 plan.
 3. Confirm the users UPN or proxy email address resolves in the environment.
 
 ## Related topics

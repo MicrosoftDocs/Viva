@@ -1,8 +1,8 @@
 ---
 
-title: Viva Insights app -- My Team
-description: The My Team page in the Microsoft Viva Insights app 
-author: paul9955
+title: Microsoft Viva Insights about my team
+description: The My team page in the Microsoft Viva Insights app 
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
@@ -12,31 +12,37 @@ audience: Admin
 
 ---
 
-# Microsoft Viva Insights app in Microsoft Teams - My Team
+# My team in Viva Insights
 
-Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing. Manager insights can be viewed on the My Team page of the Microsoft Viva Insights app.
+You can view manager insights on the **My team** page in the Microsoft Viva Insights app in Microsoft Teams. 
+Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
 ![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
 
-While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders. 
+While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders.
 
 #### Personal insights are also available
 
-Along with information about your team, the Viva Insights app also offers you [personal insights](https://docs.microsoft.com/insights/teams-app), insights that can help any employee with their daily work:
+Along with information about your team, the Viva Insights app also offers you [personal insights](/insights/teams-app), insights that can help any employee with their daily work:
 
-* **Stay connected** – This insight helps you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#stay-connected).  
+<!-- *** ALERT! FIX THIS LINK WHEN VIVA INSIGHTS GOES GA:  -->
+* **Stay connected** – This insight helps you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](/insights/teams-app#stay-connected).  
 
-* **Protect time** – This insight helps you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. For more information about Protect time feature, see [Protect time](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#protect-time-tab).
+<!-- *** ALERT! FIX THIS LINK WHEN VIVA INSIGHTS GOES GA:  -->
+* **Protect time** – This insight helps you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. For more information about Protect time feature, see [Protect time](/insights/teams-app#protect-time-tab).
 
 ## Data privacy
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro).  
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](../privacy/data-protection-intro.md).  
 
 ## Prerequisites
 
-* **Manager access** - Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md). 
-* **Licensed team** - The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager.  
-* **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
+For you to obtain access to the **My team** page, the following must be in place:
+
+* **Manager access** &ndash; Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
+* **No other roles** &ndash; You have been assigned _no other_ Workplace Analytics role, including admin, analyst, or program manager.
+* **Licensed team** &ndash; The members of your team must have been assigned Workplace Analytics licenses and they must also be included in the reporting hierarchy that leads to you as their manager.  
+* **Minimum team size** &ndash; Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
 ## Install the Viva Insights app
 
@@ -44,11 +50,10 @@ _**Note:** The Microsoft Viva Insights app is currently rolling out to Microsoft
 
 This section describes how to install the Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks: Deployment](#admin-tasks-deployment).)
 
-> [!Note]
-> You can skip this procedure if you've already installed the Viva Insights app to obtain the [Personal insights](#personal-insights-are-also-available).  
+>[!Note]
+>You can skip this procedure if you've already installed the Viva Insights app to obtain the [Personal insights](#personal-insights-are-also-available).  
 
 1. Open Microsoft Teams on the web or in a desktop client.
-
 2. At the bottom of the Microsoft Teams app bar (on the left), select **Apps**:
 
    ![Apps icon in Teams](../images/mya/use/teams-apps.png)
@@ -61,14 +66,14 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
 
-5. Select **Add for me**:
+5. Select **Add**:
 
-   ![Add for me button](../images/mya/use/add-for-me-new-410.png)
+   ![Add for me button](../images/mya/use/add-for-me.png)
 
 This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
-> [!Note]
-> You can also locate the Insights app through this link: https://aka.ms/InsightsTeamsApp.
+>[!Note]
+>You can also locate the Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
 
 ### Pin the app
 
@@ -77,19 +82,17 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 #### On desktop and web client
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
-
 2. Right-click any app icon and select **Pin** to make and keep your app visible in the Teams app bar.
 
    ![Pin an app in Teams](../images/mya/use/pin-an-app-in-teams.png)
 
-> [!Tip]
-> You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec).
+>[!Tip]
+>You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec).
 
 #### On the iOS and Android mobile platforms
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
-
-2. Select **Reorder** and drag and drop the app so it is no longer in the **More** section.
+2. Select **Reorder** and drag the app out of the **More** section.
 
    ![Reorder on iOS or Android](../images/mya/use/ios-android.png)
 
@@ -97,19 +100,18 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 
 ## Admin tasks: Deployment
 
-[Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies).
+[Teams Service Administrators](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](/microsoftteams/teams-app-setup-policies).
 
 Complete the steps in the following mini-playbooks to get the Viva Insights app up and running for people in your organization.
 
-1. Turn on the Viva Insights app for your organization:
-[Release the Insights app within your organization](../myanalytics/use/release-the-Insights-app.pdf).
+1. Turn on the Viva Insights app for your organization: [Release the Insights app within your organization](../myanalytics/use/release-the-Insights-app.pdf).
 
-   > [!Note]
-   > To allow or block specific users in your organization from using Insights, do the following:
+   >[!Note]
+   >To allow or block specific users in your organization from using Insights, do the following:
    >
-   > 1. Make sure that Viva Insights is turned on for your organization on the [Manage apps](https://docs.microsoft.com/microsoftteams/manage-apps) page.
+   >1. Make sure that Viva Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page. 
    >
-   > 2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps) policies in Teams.
+   >2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
 
 2. Install the Viva Insights app for all employees in your organization: [Install the Insights app](../myanalytics/use/install-the-Insights-app.pdf).
 
@@ -117,8 +119,8 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
 
 4. Now that the Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](../myanalytics/use/find-and-open-the-Insights-app.pdf).
 
-   > [!Important] 
-   > The following step is required for managers. It gives them access to the My Team page of the Viva Insights app.
+   >[!Important]
+   >The following step is required for managers. It gives them access to the My Team page of the Viva Insights app.
 
 5. Grant access to manager insights. To do this, an admin follows the steps in [To configure manager settings](manager-settings.md#to-configure-manager-settings). They can make this setting either for all or for a subset of managers in the organization.  
 
@@ -173,8 +175,8 @@ The Viva Insights app shows you outcomes, insights for those outcomes, and best 
 
 These outcomes, insights, and best practices are described in the Workplace Analytics documentation. As you browse this documentation, bear in mind the differences that are described in [Different functionality](#different-functionality).
 
-> [!Note]
-> As you use the Viva insights app, you can provide feedback about the app to Microsoft. To learn how, see Q2 in the following section, [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
+>[!Note]
+>As you use the Viva insights app, you can provide feedback about the app to Microsoft. To learn how, see Q2 in the following section, [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-insights-app)
 
 ## Frequently asked questions
 
@@ -198,7 +200,12 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 ## Related topics
 
-* [Get started with manager insights](https://docs.microsoft.com/workplace-analytics/manager-insights/get-started)
+   After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** check box if you’d like Microsoft to contact you to follow up on your feedback.
 
-* [Microsoft Viva Insights app - personal insights](https://docs.microsoft.com/insights/teams-app)
+   ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
 
+## Related topics
+
+* [Get started with manager insights](../manager-insights/get-started.md)
+* [Personal insights in Viva Insights](/insights/teams-app)
+* [Viva Insights introduction](viva-insights-intro.md)

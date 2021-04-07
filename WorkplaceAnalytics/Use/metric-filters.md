@@ -1,20 +1,20 @@
 ---
-
 title: Workplace Analytics metric filters 
 description: Describes the filters that analysts can use to refine metrics in queries 
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
+manager: scott.ruble
+audience: Admin
 ms.prod: wpa
 
 ---
-
 <!-- Note: I verified the spelling, capitalization, and spacing in the names of these filters on the public demo at https://workplaceanalytics.office.com/en-us/Analyze/Queries/Person on 26 Jan. 2021 -->
 
 # Metric filters
 
-To customize the results from Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)). 
+To customize the results from Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)).
 
 After you select a metric for a query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the new focus that you gave when you applied filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
 
@@ -74,9 +74,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 
 ## Participant filters
 
-Filters of the following <!-- tables list filters that --> types can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings. 
-
-<!-- (2/10/2021) PER RADHIKA, THESE AREN'T RELEASE YET BROADLY AND SHOULD BE "published later" 
+Filters of the following types can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings.
 
 ### Individual participant filters
 
@@ -88,23 +86,23 @@ Filters of the following <!-- tables list filters that --> types can be used in 
 ### Groups of participant filters
 
 Organizational-data attributes and CRM attributes can also be used as participant filters. 
--->
+
 
 | Filter  | Description |
 | ------ | ----------- |
-| Organizational attributes (required) | Organizational attributes that are [required](../setup/prepare-organizational-data.md#required-attributes) are always available for use as participant filters. | 
-| Organizational attributes (optional) | Also available for use as participant filters are optional organizational attributes ([reserved optional attributes](../setup/prepare-organizational-data.md#reserved-optional-attributes) and [custom attributes](../setup/prepare-organizational-data.md#custom-attributes)) that have been uploaded in an [organizational data upload](../setup/upload-organizational-data.md). | 
+| Organizational attributes (required) | Organizational attributes that are [required](../setup/prepare-organizational-data.md#required-attributes) are always available for use as participant filters. |
+| Organizational attributes (optional) | Also available for use as participant filters are optional organizational attributes ([reserved optional attributes](../setup/prepare-organizational-data.md#reserved-optional-attributes) and [custom attributes](../setup/prepare-organizational-data.md#custom-attributes)) that have been uploaded in an [organizational data upload](../setup/upload-organizational-data.md). |
 | CRM attributes (required) | CRM attributes that are [required](../setup/crm-data-upload.md#required-and-reserved-attributes) are available for use as participant filters in query types that permit both organizational and CRM data analysis (person, person-to-group, and group-to-group queries). | 
-| CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes)) are available for use as participant filters in query types that permit both organizational and CRM data analysis (person, person-to-group, and group-to-group queries). | 
+| CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes)) are available for use as participant filters in query types that permit both organizational and CRM data analysis (person, person-to-group, and group-to-group queries). |
 
 ## Apply a metric filter
 
-In this example procedure, you apply a filter to a metric in a person query. Specifically, you restrict the _Email sent_ metric to include only email that was sent during a particular time of day. Then, for the population of employees that you specify, the query results will show the number of emails that were sent during the time of day that you selected.   
+In this example procedure, you apply a filter to a metric in a person query. Specifically, you restrict the _Email sent_ metric to include only email that was sent during a particular time of day. Then, for the population of employees that you specify, the query results will show the number of emails that were sent during the time of day that you selected.
 
 1. In Workplace Analytics, select **Analyze** > **Queries** > **Person**.
 
 2. Under **Select metrics**, select **Emails sent**:
-   
+
    ![Select emails sent](../images/wpa/use/emails-sent.png)
 
 3. Select edit (the pencil icon):
@@ -119,18 +117,18 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 
    ![Select time of day](../images/wpa/use/email-sent-time-of-day.png)
 
-6. In the adjacent fields, select "<" (before) and specify 7:00 PM. 
+6. In the adjacent fields, select "<" (before) and specify 7:00 PM.
 
    ![Sent before 7:00 PM](../images/wpa/use/sent-before-7pm.png)
 
 7. You have now filtered your base metric. You can optionally change the display name of this new filtered metric. In the field under **Display Name**, change **Emails sent** to **Emails sent before 7 PM** and then click outside the field to save the new name:
 
-   ![Edited metric name](../images/wpa/use/edit-metric-name.png)
+   ![Edit the metric name](../images/wpa/use/edit-metric-name.png)
 
-   After you run the query, the edited metric name will appear as a header in the query results: 
+   After you run the query, the edited metric name will appear as a header in the query results:
 
-      ![Edited metric name](../images/wpa/use/edited-metric-name.png)
+   ![Edited metric name](../images/wpa/use/edited-metric-name.png)
 
-## Related topics
+## Related topic
 
 * [Metric descriptions](metric-definitions.md)

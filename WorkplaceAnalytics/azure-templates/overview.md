@@ -22,7 +22,7 @@ Workplace Analytics Azure Templates extend and accelerate advanced analysis of y
 
 You can easily customize them to meet your unique organizational needs, including the following functionality.
 
-* **Reference templates** - Enable you to customize your data by using attribute filters and various graphical views and interactive options. You can share data updates across your team and push actionable insights and recommendations to other Office 365 products, such as PowerPoint. The following are included by default:
+* **Reference templates** - Enable you to customize your data by using attribute filters and various graphical views and interactive options. You can share data updates across your team and push actionable insights and recommendations to other Microsoft 365 products, such as PowerPoint. The following are included by default:
 
   * [Join Datasets Azure Template](./join-datasets.md)
   * [Organization Network Analysis Azure Template](./organization-network-analysis.md)
@@ -30,7 +30,7 @@ You can easily customize them to meet your unique organizational needs, includin
   * [Relationship Intelligence Azure Template and Power BI report](./relation-intel.md)
   * [Workspace Planning Azure Template](space-planning.md)
 
-* **Analytic framework support** - Enables you to merge Workplace Analytics query output with other [Azure data sources](https://docs.microsoft.com/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
+* **Analytic framework support** - Enables you to merge Workplace Analytics query output with other [Azure data sources](/azure/index) outside of Workplace Analytics (such as with Azure Blob storage, Azure SQL Database, Azure Databricks, and Azure Analysis Services) for custom metric calculations, advanced and interactive visuals, and automated data management.
 
 * **Predictive models** - Enable you to deploy or plug in your own machine-learning models, such as top performer analysis, anomaly detection, sales forecasting, and churn modeling. You can also use larger data sets to improve the performance of machine-learning models and interact with a parameter-based interface (no scripting necessary).
 
@@ -42,13 +42,13 @@ As shown in the graphic, Workplace Analytics Azure Templates work with the follo
 
 |Component Name |Description |
 |--------------|---------------------|
-|[Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups) |This is where all resources will be deployed |
-|[Azure Blob Storage](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) |Used to store the Workplace Analytics data and any computations |
-|[Azure SQL Database](https://docs.microsoft.com/azure/sql-database/) |Used to store configuration settings and data metrics |
-|[Azure KeyVault](https://docs.microsoft.com/azure/key-vault/key-vault-whatis) |Used for Secret Management throughout the entire service |
-|[Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/) |Used for joins, machine learning and other computations |
-|[Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/) |In-memory models used to compute metrics |
-|[Azure Web App](https://docs.microsoft.com/azure/app-service/) |Used for configuration and user experiences related to analytics |
+|[Resource Group](/azure/azure-resource-manager/resource-group-overview#resource-groups) |This is where all resources will be deployed |
+|[Azure Blob Storage](/azure/storage/blobs/storage-blobs-introduction) |Used to store the Workplace Analytics data and any computations |
+|[Azure SQL Database](/azure/sql-database/) |Used to store configuration settings and data metrics |
+|[Azure KeyVault](/azure/key-vault/key-vault-whatis) |Used for Secret Management throughout the entire service |
+|[Azure Databricks](/azure/azure-databricks/) |Used for joins, machine learning and other computations |
+|[Azure Analysis Services](/azure/analysis-services/) |In-memory models used to compute metrics |
+|[Azure Web App](/azure/app-service/) |Used for configuration and user experiences related to analytics |
 
 ## Related topics
 

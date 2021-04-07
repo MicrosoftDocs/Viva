@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Transform meeting culture with Workplace Analytics insights
+title: Transform meeting culture with Microsoft 365 Insights
 description: Learn how to use the insights data to analyze and transform your organization's meeting culture
 author: madehmer
 ms.author: v-mideh

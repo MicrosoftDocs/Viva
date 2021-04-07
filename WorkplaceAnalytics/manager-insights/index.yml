@@ -18,19 +18,19 @@ highlightedContent:
   items:
     - title: Introduction
       itemType: overview # controls the icon image and super-title text
-      url: /workplace-analytics/manager-insights/introduction
+      url: ./introduction.md
     - title: Get started
       itemType: get-started
-      url: /workplace-analytics/manager-insights/get-started
+      url: ./get-started.md
     - title: Viva Insights app in Teams
       itemType: deploy
-      url: /workplace-analytics/manager-insights/teams-app
+      url: ./teams-app.md
     - title: Best practices
       itemType: learn
-      url: /workplace-analytics/manager-insights/best-practices
+      url: ./best-practices.md
     - title: Plans
       itemType: how-to-guide
-      url: /workplace-analytics/manager-insights/plans
+      url: ./plans.md
     - title: Frequently asked questions
       itemType: reference
-      url: /workplace-analytics/manager-insights/faqs
+      url: ./faqs.md
