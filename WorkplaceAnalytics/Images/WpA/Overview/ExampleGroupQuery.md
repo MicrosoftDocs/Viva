@@ -9,6 +9,8 @@ ms.author: v-pausch
 ms.topic: get-started-article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 <!-- PENDING ISSUE WITH THIS FILE: 

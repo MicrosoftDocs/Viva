@@ -35,16 +35,18 @@ You can highlight key employees or groups by sizing the nodes in the graph by us
 
 You can size the nodes based on various network metrics. The following table lists the available node measures and their uses.
 
-|Measure |Use |
-|-------|-----------|
-|[Boundary Spanning](#boundary-spanning) |Measures how well people in one group shares information with other groups. |
-|[Bridging Index](#bridging-index) | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
-|[Degrees](#degrees) |Measures the overall network size of each node. |
-|[Density](#density) |Measures the strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
-|[E-I Index](#e-i-index) |Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
-|[Group Size](#group-size) |Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
-|[Influence Index](#influence-index) |Represents a node's potential influence on the opinions of the network or a measure of social status. |<!-- |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
-|[Qualitative Variation Index](#qualitative-variation-index) |Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
+| Measure | Use |
+| ------- | --- |
+| [Boundary Spanning](#boundary-spanning) | Measures how well people in one group shares information with other groups. |
+| [Bridging Index](#bridging-index)       | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
+| [Degrees](#degrees)                     | Measures the overall network size of each node. |
+| [Density](#density)                     | Measures the strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
+| [E-I Index](#e-i-index)                 | Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
+| [Group Size](#group-size)               | Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
+| [Influence Index](#influence-index)     | Represents a node's potential influence on the opinions of the network or a measure of social status. |
+| [Qualitative Variation Index](#qualitative-variation-index) | Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
+
+<!-- NOTE THAT THIS COMMENTED-OUT ENTRY APPEARED IN THE "Influence Index" ROW OF THIS TABLE. MOVED IT TO HERE TO FIX 'column-header-missing' BUILD WARNING. |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
