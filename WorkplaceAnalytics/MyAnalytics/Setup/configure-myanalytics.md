@@ -6,9 +6,9 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
-manager: scott.ruble
 ms.prod: Mya
-audience: user
+manager: scott.ruble
+audience: Admin
 
 ---
 

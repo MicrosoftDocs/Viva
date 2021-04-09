@@ -7,6 +7,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 
 # Configure access at the user level (old cmdlets)
