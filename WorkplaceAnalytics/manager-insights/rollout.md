@@ -18,7 +18,7 @@ When you're ready to roll out the Manager insights to your organization, do the 
 
 * **Introduce to managers** &ndash; Ask business leaders to introduce this new tool to their managers with this [sample email](./email-to-managers.docx). It's important that managers understand how to use these insights to best support their teams. Recruiting managers in teams that already support your organization, such as in IT, Training, Corporate communications, and Support, allows them to learn and then help others learn how to use this new tool.
 
-* **Set up a communications channel** &ndash; Set up a communications channel with your managers to evangelize the tool and answer any questions that they might have. Consider using Teams, Yammer, and/or an email distribution group. You can discuss strategic priorities for the organization, such as 1:1 coaching, meeting reductions, or Teams adoption.
+* **Set up a communications channel** &ndash; Set up a communications channel with your managers to evangelize the tool and answer any questions that they might have. Consider using Teams, Yammer, or an email distribution group. You can discuss strategic priorities for the organization, such as 1:1 coaching, meeting reductions, or Teams adoption.
 
 For comprehensive guidance on how to formally roll out Manager insights to your team, see the [Workplace Analytics Manager insights rollout guide](./manager-insights-rollout.pptx).
 
