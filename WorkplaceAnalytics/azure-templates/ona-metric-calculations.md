@@ -31,20 +31,20 @@ Each of the measures are based on the connections between the nodes. To ensure t
 
 ## Highlight key employees or groups
 
-You can highlight key employees or groups by sizing the nodes in the graph by using the **Scale Nodes** option (**No Measure** by default).
+You can highlight key employees or groups by sizing the nodes in the graph by using the **Scale Nodes** option. The default value of this option is **No Measure**.
 
 You can size the nodes based on various network metrics. The following table lists the available node measures and their uses.
 
-| Measure | Use |
+| Measure | What it indicates |
 | ------- | --- |
-| [Boundary Spanning](#boundary-spanning) | Measures how well people in one group shares information with other groups. |
-| [Bridging Index](#bridging-index)       | Represents relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
-| [Degrees](#degrees)                     | Measures the overall network size of each node. |
-| [Density](#density)                     | Measures the strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
-| [E-I Index](#e-i-index)                 | Indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
-| [Group Size](#group-size)               | Represents the group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
-| [Influence Index](#influence-index)     | Represents a node's potential influence on the opinions of the network or a measure of social status. |
-| [Qualitative Variation Index](#qualitative-variation-index) | Measures the diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
+| [Boundary Spanning](#boundary-spanning) | How well people in one group shares information with other groups. |
+| [Bridging Index](#bridging-index)       | The relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
+| [Degrees](#degrees)                     | The overall network size of each node. |
+| [Density](#density)                     | The strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
+| [E-I Index](#e-i-index)                 | The size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
+| [Group Size](#group-size)               | The group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
+| [Influence Index](#influence-index)     | A node's potential influence on the opinions of the network or a measure of social status. |
+| [Qualitative Variation Index](#qualitative-variation-index) | The diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
 
 <!-- NOTE THAT THIS COMMENTED-OUT ENTRY APPEARED IN THE "Influence Index" ROW OF THIS TABLE. MOVED IT TO HERE TO FIX 'column-header-missing' BUILD WARNING. |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
 
@@ -59,7 +59,7 @@ No, the measure interpretations for employees and groups are the same. For examp
 * If an employee has a high degree, this indicates that the person has more connections in the network than those with lower scores. For this reason, they have more exposure or access to information.
 * If a group has a high degree, this indicates the group has more connections in the network than other groups with lower scores. For this reason, the group has more exposure or access to information.
 
-Regarding calculations, group measures are not simply an aggregate of the employees' scores within the group. (Aggregate measures are average, median, maximum, or minimum.) Instead, the measures are the cumulative scores of how people in the group interact with people in other groups. In some cases, the two may be equal but that's generally not the case. The key difference is that the group measures  do not account for connections that occur between members of the same group.
+The calculations of group measures are not simply an aggregate of the employees' scores within the group. (Aggregate measures are average, median, maximum, or minimum.) Instead, the measures are the cumulative scores of how people in the group interact with people in other groups.The two measures might sometimes be equal but that's generally not the case. The key difference is that the group measures do not account for connections that occur between members of the same group.
 
 A simple analogy of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you average together the properties of hydrogen and oxygen (both gases), it won't generate the properties of a water molecule because the bonds between atoms are important to its properties.
 
@@ -71,13 +71,13 @@ For more general information about these network measures, see [Centrality](http
 
 Boundary Spanning measures the extent to which employees act as representatives of their group across the organization. It indicates the sharing of information with other groups.
 
-For a defined group, Boundary Spanning measures an employee's collaboration with other groups' members, with a boost for the diversity of their connections (number of groups). This measure does not consider ties inside their own group.
+For a defined group, Boundary Spanning measures an employee's collaboration with other groups' members. Its value gets a boost for the diversity of the employee's connections, the number of connected groups. This measure does not consider ties inside their own group.
 
 This measure is calculated as follows for employees as compared to groups.
 
-* **Employee level**: Boundary Spanning is the geometric mean between the total collaboration time that a person spent with people outside their group and the number of unique groups that this person collaborated with. (Total collaboration time is a measure of emails sent and meetings attended.)
+* **Employee level** &ndash; Boundary Spanning is the geometric mean between the total collaboration time that a person spent with people outside their group and the number of unique groups that this person collaborated with. (Total collaboration time is a measure of emails sent and meetings attended.)
 
-* **Group level**: This is the same for groups as for employees, except that the totals represent a group instead of a person. It's the geometric mean between the total collaboration time a specified group gave to people outside its own group and the total number of unique, external groups that the group collaborated with.
+* **Group level** &ndash; This is the same for groups as for employees, except that the totals represent a group instead of a person. It's the geometric mean between the total collaboration time a specified group gave to people outside its own group and the total number of unique, external groups that the group collaborated with.
 
 * Both levels for this measure account for direction and weight.
 
@@ -85,7 +85,7 @@ This measure is calculated as follows for employees as compared to groups.
 
 The Bridging Index represents employees or groups that control the flow of information throughout the network. The nodes with high Bridging Index values can indicate gatekeepers or liaisons of information. Depending on the function of the group or individual, it can be advantageous or stressful playing this role in an organization.
 
-This index measures the number of times a person or group is on the most probable path of information flow between two other people or groups. This measure is not limited to the shortest paths between nodes but accounts for all possible ways that information flows between nodes in a network.
+This index measures the number of times a person or group is on the most probable path of information flow between two other people or groups. This measure isn't limited to the shortest paths between nodes but accounts for all possible ways that information flows between nodes in a network.
 
 The most meaningful insight that you can derive from the Bridging Index is the rank of the nodes. The values are between 0 and 1.
 
@@ -123,7 +123,7 @@ Density is the number of actual connections among employees divided by the total
 
 The measure accounts for the strength of the connections between individuals and normalizes them to help control the tendency of individuals to communicate more than other individuals.
 
-This measure also uses directionality, which means the density between group A and group B will only count the interactions that went from A to B. It will not count the interactions that went from B to A. The densities between groups will vary depending on whether the density is from group A to B or from B to A. For this reason, the density matrix is not symmetrical.
+This measure also uses directionality, which means the density between group A and group B will only count the interactions that went from A to B. It will not count the interactions that went from B to A. The densities between groups will vary depending on whether the density is from group A to B or from B to A. For this reason, the density matrix isn't symmetrical.
 
 ### Example
 
@@ -140,9 +140,19 @@ When viewing Density graph data, the higher density (orange) and lower density (
 
 A group is *orange* when it's higher in density and *blue* when it's lower in density than what's expected. The cells are not colored by the value of the density in the table. Rather, they are colored based on the modularity. The colors are only shown in the metrics download (.csv) file and not in the table view in the template. For more details and a definition of what modularity is, see the [measure calculations](ona-metric-calculations.md#density).
 
-**Modularity** is the fraction of edges within a group minus the fraction of edges that are expected from a random network with the same nodes and the same degrees (but not the same connections between nodes). Essentially, it is the difference between what the network is and what a similarly constructed random network is expected to be. If the modularity is positive, a group has more connections within it than expected. If it is zero or close to it, then the connections are about the same as a random network. If it is negative, the group has fewer and less strong connections than would be expected from pure chance. This metric interprets the density measure as to whether the amount of connections between groups and within groups is high or low. It also gives insight into the overall graph and its connectivity.
+**Modularity** is the fraction of edges within a group minus the fraction of edges that are expected from a random network with the same nodes and the same degrees, but not the same connections between nodes. In other words, it's the difference between what the network is and what a similarly constructed random network is expected to be.
 
-**Density Ratio** compares the density values of a group to the expected density of a group's size within the context of the tenant. The density ratios for two groups who are collaborating with each other are compared to the median density of cross-group densities. This measure helps identify groups who are cohesive and groups that might lack the connectivity to be cohesive. A density ratio that’s greater than 1 represents a group who is denser than expected or is higher than average. Currently this measure is only available in the downloaded files of density analysis.
+If the modularity is ...
+
+* **positive** &ndash; a group has more connections within it than expected. 
+
+* **zero or close to zero** &ndash; the connections are about the same as a random network. 
+
+* **negative** &ndash; the group has fewer and less strong connections than would be expected from pure chance. This metric interprets the density measure as to whether the amount of connections between groups and within groups is high or low. It also gives insight into the overall graph and its connectivity.
+
+**Density Ratio** compares the density values of a group to the expected density of a group's size within the context of the tenant. The density ratios for two groups who are collaborating with each other are compared to the median density of cross-group densities.
+
+This measure helps identify groups who are cohesive and groups that might lack the connectivity to be cohesive. A density ratio that’s greater than 1 represents a group who is denser than expected or is higher than average. Currently this measure is only available in the downloaded files of density analysis.
 
 ## E-I Index
 
@@ -159,7 +169,7 @@ This measure is calculated differently for employees as compared to groups:
 
 ## Group Size
 
-This measure is only available in the *combined view*. It represents groups based on the number of people in the same group (share the same attribute) for the selected time period. Group size helps you determine how the group size can affect their interactions.
+This measure is only available in the *combined view*. It represents groups that are based on the number of people in the same group (share the same attribute) for the selected time period. Group size helps you determine how the group size can affect their interactions.
 
 > [!Note]
 > Filtering will not change group sizes.
@@ -168,13 +178,13 @@ This measure is only available in the *combined view*. It represents groups base
 
 Influence Index indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
 
-The most meaningful information from Influence Index is the rank of the nodes. For example, assume that node A has an Influence Index of 0.6 and node B has an Influence Index of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a *ranking* or source of influence, not the *amount* of influence.
+The most meaningful information from Influence Index is the rank of the nodes. For example, assume that node A has an Influence Index of 0.6 and node B has an Influence Index of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. But you cannot assume node A is twice as influential as node B because the values indicate a *ranking* or source of influence, not the *amount* of influence.
 
 This measure is calculated as follows for employees as compared to groups:
 
-* **Employee level**: The calculations use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
+* **Employee level** &ndash; The strengths of the connections between employees reflects the relative collaboration time between them.
 
-* **Group level**: For group metrics, the Influence Index is the number and strength of connections coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the tie strengths between groups is the sum of the individual node strengths connecting the two groups.
+* **Group level** &ndash; For group metrics, the Influence Index is the number and strength of connections coming into the group. Intra-group connections do not contribute to the Influence Index for the group. The network is collapsed into group nodes where the tie strengths between groups is the sum of the individual node strengths connecting the two groups.
 
 * Both levels for this measure account for direction and weight.
 
@@ -182,9 +192,11 @@ For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
 ## Qualitative Variation Index
 
-The Qualitative Variation Index (QVI) is only available in downloaded data. It measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
+The Qualitative Variation Index (QVI) is available only in downloaded data. It measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
 
-It ranges from 0 to 1, where a value of 1.0 represents an individual or a group who is equally likely to communicate with all their different types of contacts. A value of 0 indicates an individual who typically communicates with only one type of contact. Note, if the network is grouped into binary classifications (such as Top Performer compared to Other), then the QVI will automatically be 0.0 because the group can only communicates with one other type of group. This measure doesn't account for direction or weight.
+The QVI ranges from 0 to 1. A value of 1.0 represents an individual or a group who is equally likely to communicate with all their different types of contacts. A value of 0 indicates an individual who typically communicates with only one type of contact.
+
+If the network is grouped into binary classifications, such as Top Performer compared to Other, the QVI will automatically be 0.0 because the group can communicate with only one other type of group. This measure doesn't account for direction or weight.
 
 <!-- 
 ## Reach Index
