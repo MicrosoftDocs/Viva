@@ -6,7 +6,7 @@ title: ExampleMeetingQuery
 description: ExampleMeetingQuery file to hold example ExampleMeetingQuery.csv
 author: paul9955
 ms.author: v-pausch
-ms.topic: get-started-article
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 manager: scott.ruble
