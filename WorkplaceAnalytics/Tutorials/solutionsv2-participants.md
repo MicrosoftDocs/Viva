@@ -11,7 +11,7 @@ audience: Admin
 ms.prod: wpa
 ---
 
-# Plan participant experience
+# Plans: Participants' experience
 
 **Role** - a participant in a plan, an information worker who is using MyAnalytics <!-- REMOVED 22 MARCH 2021. and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) -->
 
