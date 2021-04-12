@@ -87,9 +87,9 @@ When you create a new query or edit an existing query, you select the metrics to
 * [**Peer comparison queries**](comparison-query.md) - Helps identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
 * **Network queries** - Use [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) to find out who the best-connected people in your company, division, or group are, which is based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
-## Pre-release setup steps
+## Prerelease setup steps
 
-Because you are using a pre-release of the Query designer, the specific steps in the currently published Workplace Analytics documentation does not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
+Because you are using a prerelease of the Query designer, the specific steps in the currently published Workplace Analytics documentation do not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
 
 For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll need to select the **Business Continuity** card and follow the **Setup steps** included in the **Query designer**.
 
