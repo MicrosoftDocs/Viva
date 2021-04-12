@@ -11,7 +11,7 @@ audience: Admin
 ms.prod: wpa
 ---
 
-# Plans: The experience of plan participants
+# Plan participant experience
 
 **Role** - a participant in a plan, an information worker who is using MyAnalytics <!-- REMOVED 22 MARCH 2021. and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) -->
 
@@ -39,7 +39,7 @@ When users are part of a plan, they will see a new **Team Plans** in their dashb
 
 ## Digest
 
-All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, or Collaboration. The subject of the digest shifts from one pattern to the next, week after week. Note that this weekly focus is _not_ affected by a participant's enrollment in a plan. 
+All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, or Collaboration. The subject of the digest shifts from one pattern to the next, week after week. Note that this weekly focus is _not_ affected by a participant's enrollment in a plan.
 
 ### Additional Teams Plan section
 
@@ -62,14 +62,13 @@ MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notific
 
 Many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), but some apply only to participants of a particular Teamwork plan, such as the [Collaboration plan](#collaboration-plan) or the [Wellbeing plan](#wellbeing-plan):
 
-
 #### Collaboration plan
 
 Participants in the Collaboration plan might see the following inline suggestion<!--s-->:
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. | 
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. |
 <!--
 |Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you reconsider whether everyone is required in the meeting that you are organizing, in light of the high meeting load of your invitees. |
 -->
