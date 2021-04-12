@@ -23,7 +23,7 @@ The designer includes the following.
 
 * [**Templates**](#templates) - You can use the available templates to view and analyze data in Power BI. These options help you focus your analysis for specific business outcomes, such as to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
-  ![Predefined templates and reports](../Images/WpA/Tutorials/query-templates.png)
+  ![Power BI templates](../Images/WpA/Tutorials/query-pbi-templates.png)
 
 * [**Queries**](#queries) - Select **Get started** in the **Query** section to create a custom query based on the type of organizational data that you want to analyze, such as person, meeting, group-to-group, person-to-group, peer comparison, or network queries. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics.
 
@@ -47,6 +47,8 @@ You can also filter the templates and reports list to see what is available for 
 
 ![Report filter for develop effective managers](../Images/WpA/Tutorials/query-template-filters.png)
 
+### Power BI templates
+
 Workplace Analytics includes the following Power BI templates.
 
 * [**Ways of working assessment**](./power-bi-collab-assess.md) - Power BI template that shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
@@ -58,18 +60,13 @@ Workplace Analytics includes the following Power BI templates.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) - Power BI template that combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) - Power BI template that shows insights into how shifting to remote work has impacted your sales organization.
 
-In addition to the Power BI templates, Workplace Analytics also includes the following query templates.
-
-* **Domain collaboration** analyzes collaboration patterns with external domains.
-* **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
-* **Standard person query** provides all base metrics available for a person query.
-* **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
-
 ## Queries
 
-In **Query designer** > **Query**, select **Get started** to create your own custom version of one of the following types of queries. Or when available and listed, you can also select from one or more related templates.
+In **Query designer** > **Query**, select **Get started** to create your own custom version of one of the following types of queries. Or when available and listed, you can also select from one or more related templates. The following shows when creating a person query, where you can select to **Start a new query** or select the **Standard person query** or **Hourly Collaboration** that already have specific metrics set up to help get you started.
 
-When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
+![Templates available when creating a custom query](../Images/WpA/Tutorials/query-templates.png)
+
+When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. Then you can download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
@@ -80,11 +77,81 @@ When you create a new query or edit an existing query, you select the metrics to
 * [**Peer comparison queries**](comparison-query.md) - Helps identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
 * **Network queries** - Use [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) to find out who the best-connected people in your company, division, or group are, which is based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
+### Query templates
+
+In addition to the Power BI templates, Workplace Analytics also includes the following query templates.
+
+* **Domain collaboration** analyzes collaboration patterns with external domains.
+* **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
+* **Standard person query** provides all base metrics available for a person query.
+* **Hourly Collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
+
 ## Prerelease setup steps
 
 Because you are using a prerelease of the Query designer, the specific steps in the currently published Workplace Analytics documentation do not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
 
-For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll need to select the **Business Continuity** card and follow the setup steps included in the **Query designer**.
+For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll select the **Business Continuity** card and follow the on-screen setup steps included in the **Query designer**.
+
+![Business continuity setup steps](../Images/WpA/Tutorials/bc-setup-steps.png)
+
+## Example setup steps
+
+As mentioned in the previous section, all the templates in the new Query designer included on-screen setup steps. For example, do the following to set up a new Business continuity dashboard.
+
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Templates**, select **Business continuity** (or **Hourly collaboration** per **Step 7**) to open the template details that include the setup steps, and then in step 2, select **Set up** next to **Business Continuity**.
+
+   ![Business continuity template](../Images/WpA/Tutorials/bc-template.png)
+
+3. Select or confirm the following query settings:
+
+   * **Name** - Customize or keep the default name
+   * **Group by** - Week
+   * **Time period** - Last 1 year
+   * **Auto-refresh** - Enable the setting
+   * **Meeting exclusions** - Select the preferred rule for your tenant
+
+   >[!Important]
+   >* The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 1 year** for the **Time period** to include time before and after a shift.
+   >* If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+
+   ![Business continuity queries](../Images/WpA/Tutorials/bcd-query.png)
+
+4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
+
+   >[!Important]
+   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+
+6. Select **Run** to run the query, which might take a few minutes to complete.
+7. Repeat **Steps 2-6** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
+8. In **Query designer** > **Results**, after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
+
+   ![Power BI template download](../Images/WpA/Tutorials/pbi-template-download.png)
+
+9. Open the downloaded **Business continuity Power BI template**.
+10. If prompted to select a program, select **Power BI**.
+11. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
+
+    * In the Workplace Analytics **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    * In Power BI, paste each copied link into its respective field.
+    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
+
+    ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
+
+12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+
+    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+
+14. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+
+    >[!Important]
+    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+
+15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Meeting exclusions
 
