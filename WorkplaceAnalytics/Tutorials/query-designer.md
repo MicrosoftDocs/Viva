@@ -13,19 +13,19 @@ audience: Admin
 
 # Query designer
 
-The Query designer in Workplace Analytics has a number of different options that help you answer specific business questions and the flexibility to look at the data from multiple perspectives. When creating queries, you can do the following:
+The Query designer in Workplace Analytics has a number of different options that help you answer specific business questions and the flexibility to look at the data from multiple perspectives. You can do the following with queries:
 
 * Select as many or as few organizational metrics as you need, for a specific population or date range.
 * Customize the metrics included in query results with a broad range of filters and other options.
 * Combine query results from different queries to gain even more in-depth insights.
 
-The designer includes the following types of queries.
+The designer includes the following.
 
-* [**Query templates and reports**](#query-templates-and-reports) - You can use predefined query templates and reports that you can use to view and analyze data in Power BI or Workplace Analytics. These options help you focus your analysis for specific business outcomes, such as to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
+* [**Templates**](#templates) - You can use the available templates to view and analyze data in Power BI. These options help you focus your analysis for specific business outcomes, such as to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
   ![Predefined templates and reports](../Images/WpA/Tutorials/query-templates.png)
 
-* [**Custom queries**](#custom-queries) - Select **Get started** in the **Query** section to create a custom query based on the type of organizational data that you want to analyze, such as person, meeting, group-to-group, person-to-group, peer comparison, or network queries. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics.
+* [**Queries**](#queries) - Select **Get started** in the **Query** section to create a custom query based on the type of organizational data that you want to analyze, such as person, meeting, group-to-group, person-to-group, peer comparison, or network queries. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics.
 
   ![New query options](../Images/WpA/Tutorials/new-query.png)
 
@@ -35,9 +35,9 @@ You can create queries as follows:
 * Create your own [custom query](#custom-queries).
 * Open and edit a previously run query.
 
-## Query templates and reports
+## Templates
 
-In Workplace Analytics, select **Query designer** to see predefined query templates and reports that help you analyze organizational data based on behavioral insights that relate to specific business outcomes.
+In Workplace Analytics, select **Query designer** to see predefined templates that help you analyze organizational data based on behavioral insights that relate to specific business outcomes.
 
 For example, select the **Business continuity** section to see more details about the report, example report data, prerequisites, and setup steps.
 
@@ -47,7 +47,7 @@ You can also filter the templates and reports list to see what is available for 
 
 ![Report filter for develop effective managers](../Images/WpA/Tutorials/query-template-filters.png)
 
-Workplace Analytics includes a number of predefined query templates that help you get started with queries, including the following.
+Workplace Analytics includes the following Power BI templates.
 
 * [**Ways of working assessment**](./power-bi-collab-assess.md) - Power BI template that shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
 * [**Ways of working tracker**](./power-bi-collab-track.md) - Power BI template that shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
@@ -57,26 +57,19 @@ Workplace Analytics includes a number of predefined query templates that help yo
 * [**Manager effectiveness**](./power-bi-manager.md) - Power BI template that helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) - Power BI template that combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) - Power BI template that shows insights into how shifting to remote work has impacted your sales organization.
-* [**Quickstart overview**](./power-bi-quickstart.md) - Power BI template that shows a high-level view of key organizational metrics to get a quick perspective on how the organization is collaborating and a way to identify potential areas that might require additional analysis.
-* [**Collaboration overload**](./power-bi-collab-overload.md) - Power BI template that shows where overall collaboration patterns, time fragmentation, or meeting quality could be improved in your organization.
-* [**Influence insights**](./pbi-influence-db.md) - Power BI template that shows how you can learn who your influencers are and leverage their ability to disseminate information and effectively drive change.
-* [**Manager impact**](./power-bi-manager-impact.md) - Power BI template that shows insights about key leadership behaviors by organization and best practices recommended by industry experts to either maintain or improve leadership work patterns.
-* **Build focus hours** finds groups that have the lowest amount of focus time.
-* **Calls and IMs** analyzes call and instant-message hours by person.
-* **Meetings attendees query** analyzes meeting hours by the number of attendees.
-* **Meetings day query** analyzes meeting hours by day of the week.
-* **Meetings duration query** analyzes meeting hours by duration.
-* **Meetings start time query** analyzes meeting hours by time of day.
-* **Protect after hours** finds groups that collaborate the most outside of work hours.
-* **Reduce meeting hours** finds groups that are overwhelmed by meetings.
+
+In addition to the Power BI templates, Workplace Analytics also includes the following query templates.
+
+* **Domain collaboration** analyzes collaboration patterns with external domains.
+* **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
 * **Standard person query** provides all base metrics available for a person query.
 * **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
 
-## Custom queries
+## Queries
 
-In **Query designer** > **Query**, select **Get started**, and then you can select to create one of the following types of queries from scratch, or when available and listed, select from one or more related predefined queries.
+In **Query designer** > **Query**, select **Get started** to create your own custom version of one of the following types of queries. Or when available and listed, you can also select from one or more related templates.
 
-When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. Then you can download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
+When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
@@ -91,7 +84,7 @@ When you create a new query or edit an existing query, you select the metrics to
 
 Because you are using a prerelease of the Query designer, the specific steps in the currently published Workplace Analytics documentation do not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
 
-For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll need to select the **Business Continuity** card and follow the **Setup steps** included in the **Query designer**.
+For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll need to select the **Business Continuity** card and follow the setup steps included in the **Query designer**.
 
 ## Meeting exclusions
 
