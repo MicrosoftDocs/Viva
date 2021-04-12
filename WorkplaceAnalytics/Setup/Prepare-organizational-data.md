@@ -141,27 +141,32 @@ The following must be supplied with the exact column headers in the .csv upload,
 * ManagerId
 * Organization (case sensitive)
 
+>[!Note]
+>The names of these required attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).  
+
 ### Reserved optional attributes
 
 These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
 
-* FunctionType (case sensitive)
-* HireDate
-* HourlyRate
-* Layer
-* SupervisorIndicator (case sensitive)
-* TimeZone
-
-Although these attributes are not required, if included, they must meet particular coverage requirements.
+|  Attribute  |Case sensitive? |  If used, does a validation<p>threshold apply? | Can be used as the name of a<p>[custom attribute](#custom-attributes)? |  
+| ------------- | ---- | ---- | ---- | ---- |
+| FunctionType         | Yes  | Yes  | No   |
+| HireDate             | No   | Yes  | No   |
+| HourlyRate           | No   | Yes  | No   |
+| Layer                | No   | Yes  | No   |
+| SupervisorIndicator  | Yes  | Yes  | No   |
+| TimeZone             | No   | Yes  | No   |
+| GroupId              | No   | No   | No   |
 
 ### Custom attributes
 
 These are any additional attributes you want to define to use in filtering and grouping data.
 
 >[!Note]
+>
 >* The maximum number of total attributes allowed in the system is 105, which includes the five required attributes.
 >* All dates should be in the MM/DD/YYYY format.
->* Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+>* All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
 
 For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
 
