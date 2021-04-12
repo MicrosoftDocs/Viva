@@ -2,7 +2,7 @@
 
 title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
@@ -15,7 +15,7 @@ ms.prod: wpa
 
 **Role** - a participant in a plan, an information worker who is using MyAnalytics <!-- REMOVED 22 MARCH 2021. and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) -->
 
-While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better. 
+While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better.
 
 All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view the following items: 
 
@@ -29,7 +29,7 @@ As a program manager schedules a plan, they can choose to let participants recei
 
 The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan.  
 
-If user is part of a plan, there is no change to any of the existing tabs. A new tab called "Team Plans" is available in the dashboard to track plan progress. This added section contains information such as recommended habits and a report on the participant's progress against the plan goals:
+When users are part of a plan, they will see a new **Team Plans** in their dashboard they can use to track their progress. This added section contains information, such as recommended habits and a report about their progress as compared to the plan goals.
 
 <!-- Remove for now
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
@@ -43,9 +43,9 @@ All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-
 
 ### Additional Teams Plan section
 
-For plan participants, the digest email includes an additional section, the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week: 
+For plan participants, the digest email includes an additional section, the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week. However, those who are also using the [MyAnalytics Focus plan](../MyAnalytics/use/focus-plan.md), will not see this additional **Plans** section in their weekly digest. Those with a focus plan will only see a weekly Focus digest (instead of a rotating digest) that only shows updates about their personal focus plans.
 
-![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png) 
+![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
 
 <!--  THIS SECTION CAN DESCRIBE THE EXCEPTION CAUSE BY "ADAPTIVE" AFTER WE GET THAT WORDING FROM PM. (PER PRAMOD, HELEN)
 > [!Note] 
@@ -96,9 +96,7 @@ Participants in the Focus plan might see the following inline suggestion:
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following topic:
-
-* [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md)  
+A number of other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan, which are described in [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md).
 
 ## Related topics
 
