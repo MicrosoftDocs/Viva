@@ -5,10 +5,11 @@ title: Use a script to prepare organizational data in Workplace Analytics
 description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
 author: paul9955
 ms.author: v-pausch
-ms.topic: get-started-article
+ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ms.collection: M365-analytics
+manager: scott.ruble
 audience: Admin
 ---
 
