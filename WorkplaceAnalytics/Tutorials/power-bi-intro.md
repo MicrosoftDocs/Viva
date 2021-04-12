@@ -6,6 +6,7 @@ localization_priority: normal
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
+ms.topic: article
 manager: scott.ruble
 audience: Admin
 ---

@@ -7,6 +7,8 @@ ms.author: v-pausch
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # The wpa R package 
