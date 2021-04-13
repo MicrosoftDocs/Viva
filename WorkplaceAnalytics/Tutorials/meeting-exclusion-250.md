@@ -6,6 +6,8 @@ ms.author: v-pausch
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Meeting exclusion rules: Large-meeting limitation
