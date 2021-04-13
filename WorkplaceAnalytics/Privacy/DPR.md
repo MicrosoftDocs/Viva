@@ -8,6 +8,8 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ROBOTS: NOINDEX, NOFOLLOW
+manager: scott.ruble
+audience: Admin
 ---
 
 # De-identified Data and Workplace Analytics
