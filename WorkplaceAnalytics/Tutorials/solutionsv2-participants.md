@@ -15,9 +15,9 @@ ms.prod: wpa
 
 **Role** - a participant in a plan or a person who is using MyAnalytics <!-- REMOVED 22 MARCH 2021. and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) -->
 
-While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. Who are people with an identified need and have the opportunity to change workplace habits for the better.
+While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by people. People who are using MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
 
-All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view the following items:
+All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view what is described in the following sections.
 
 <!-- THIS IS TURNED OFF FOR NOW (MAY 2019)
 ## Welcome email
