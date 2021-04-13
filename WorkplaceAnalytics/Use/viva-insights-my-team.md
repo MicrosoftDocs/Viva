@@ -200,12 +200,6 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 ## Related topics
 
-   After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** check box if you’d like Microsoft to contact you to follow up on your feedback.
-
-   ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
-
-## Related topics
-
 * [Get started with manager insights](../manager-insights/get-started.md)
 * [Personal insights in Viva Insights](/insights/teams-app)
 * [Viva Insights introduction](viva-insights-intro.md)
