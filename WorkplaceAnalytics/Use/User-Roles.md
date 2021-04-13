@@ -34,19 +34,19 @@ These are the Workplace Analytics roles and their level of access:
 
 The following shows who can access what in Workplace Analytics.
 
-| Page          | Page description | Administrator | Analyst |  Analyst (Limited Access) | Program Manager | People Manager |
-| ------------- | ---------------- | ------------- | ------- | ------------------------- | --------------- |--------------- |
-| **Home**      | View highlights from the latest data; see the latest notifications | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
-| **Analyze**   | &nbsp;           | &nbsp;        | &nbsp;  | &nbsp;                    | &nbsp;          | &nbsp;         |
-| &nbsp;        | **Peer analysis** collaboration data | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp;  | &nbsp;  |
-| &nbsp;        | **Queries** with custom querying tools |  &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |  &nbsp; |  &nbsp; |
-| **Explore the stats** | Chart data based on insight recommendations | &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp; |
-| **Plans**     | Create plans that help participants improve workplace behaviors | &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
-| **Settings**  | &nbsp;           | &nbsp;        | &nbsp;  | &nbsp;                    | &nbsp;          | &nbsp;         |
+| Page          | Page description | Administrator | Analyst | Analyst (Limited Access) | Program Manager | People Manager |
+| ------------- | ---------------- | ------------- | ------- | ------------------------ | --------------- | -------------- |
+| **Home**      | View highlights from the latest data; see the latest notifications | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+| **Analyze**   | &nbsp;                                                             | &nbsp;    | &nbsp;                                                      | &nbsp;   | &nbsp;  | &nbsp; |
+| &nbsp;        | **Peer analysis** collaboration data                               | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | &nbsp;   | &nbsp;  | &nbsp; |
+| &nbsp;        | **Queries** with custom querying tools                             | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | &nbsp;   | &nbsp;  | &nbsp; |
+| **Explore the stats** | Chart data based on insight recommendations                | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp; |
+| **Plans**     | Create plans that help participants improve workplace behaviors    | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+| **Settings**  | &nbsp;                                                             | &nbsp;    | &nbsp;                                                      | &nbsp;   | &nbsp;  | &nbsp; |
 | &nbsp;        | **Sources** help to verify that the Microsoft 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; |
 | &nbsp;        | **Upload** for importing an organizational (HR) data file into Workplace Analytics | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |  &nbsp; | | &nbsp;  | &nbsp; |
-| &nbsp;        | **Analysis settings** to set meeting exclusion rules for analysis | &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(read-only access)*| &nbsp; | &nbsp; |
-| &nbsp;        | **Admin settings** for system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp;  | &nbsp;  |  &nbsp; | &nbsp; |
+| &nbsp;        | **Analysis settings** to set meeting exclusion rules for analysis  | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">     | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(read-only access)*| &nbsp; | &nbsp; |
+| &nbsp;        | **Admin settings** for system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark">     | &nbsp;  | &nbsp;  | &nbsp;  |  &nbsp; |
 
 ### Functions performed
 
