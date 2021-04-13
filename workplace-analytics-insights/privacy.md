@@ -7,7 +7,8 @@ ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: none 
 ms.prod: wpa
-
+manager: scott.ruble
+audience: Admin
 ---
 # Data privacy
 

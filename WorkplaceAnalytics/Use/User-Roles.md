@@ -34,19 +34,19 @@ These are the Workplace Analytics roles and their level of access:
 
 The following shows who can access what in Workplace Analytics.
 
-|  Page  | Page description |  Administrator | Analyst |  Analyst (Limited Access) | Program Manager | People Manager |
-| ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |
-| **Home** | View highlights from the latest data; see the latest notifications | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only)|
-| **Analyze** |
-| | **Peer analysis** collaboration data | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
-| | **Queries** with custom querying tools | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
-| **Explore the stats** |Chart data based on insight recommendataions | |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
-| **Plans** | Create plans that help participants improve workplace behaviors | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
-| **Settings** |
-| | **Sources** help to verify that the Microsoft 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
-| | **Upload** for importing an organizational (HR) data file into Workplace Analytics | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | | |
-| | **Analysis settings** to set meeting exclusion rules for analysis | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(read-only access)*| | | |
-| | **Admin settings** for system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | | |
+| Page          | Page description | Administrator | Analyst |  Analyst (Limited Access) | Program Manager | People Manager |
+| ------------- | ---------------- | ------------- | ------- | ------------------------- | --------------- |--------------- |
+| **Home**      | View highlights from the latest data; see the latest notifications | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+| **Analyze**   | &nbsp;           | &nbsp;        | &nbsp;  | &nbsp;                    | &nbsp;          | &nbsp;         |
+| &nbsp;        | **Peer analysis** collaboration data | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp;  | &nbsp;  |
+| &nbsp;        | **Queries** with custom querying tools |  &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |  &nbsp; |  &nbsp; |
+| **Explore the stats** | Chart data based on insight recommendations | &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp; |
+| **Plans**     | Create plans that help participants improve workplace behaviors | &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+| **Settings**  | &nbsp;           | &nbsp;        | &nbsp;  | &nbsp;                    | &nbsp;          | &nbsp;         |
+| &nbsp;        | **Sources** help to verify that the Microsoft 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; |
+| &nbsp;        | **Upload** for importing an organizational (HR) data file into Workplace Analytics | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |  &nbsp; | | &nbsp;  | &nbsp; |
+| &nbsp;        | **Analysis settings** to set meeting exclusion rules for analysis | &nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(read-only access)*| &nbsp; | &nbsp; |
+| &nbsp;        | **Admin settings** for system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp;  | &nbsp;  |  &nbsp; | &nbsp; |
 
 ### Functions performed
 
@@ -63,8 +63,8 @@ The following shows who can do what in Workplace Analytics.
 
 People with access to Workplace Analytics should ideally have previous experience for their level of access. Preferably, they should have previously undergone security and privacy training in handling sensitive data.
 
-| Access level | Administrator |  Analyst | Analyst (Limited Access) | Program Manager | People Manager |
-| ---- | ---- | ---- | ---- | ---- | ---- |-------| ---- |
+| Access level | Administrator | Analyst | Analyst (Limited Access) | Program Manager | People Manager |
+| ------------ | ------------- | ------- | ------------------------ | --------------- | -------------- |
 | View personally identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | View de-identified, individual-level data:<ul><li>Organization data (HR fields, such as level or organization)</li><li>Microsoft 365 data (metrics about collaboration and relationships)</li></ul> | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
 | View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
@@ -74,11 +74,11 @@ People with access to Workplace Analytics should ideally have previous experienc
 
 Consider the following personas when granting the different levels of access to Workplace Analytics.
 
-| Persona | Administrator | Analyst | Analyst (Limited Access) | Program Manager |People Manager |
-| ------ | ----------- | ------- | ------- | ------ | ------ |
+| Persona | Administrator | Analyst | Analyst (Limited Access) | Program Manager | People Manager |
+| ------- | ------------- | ------- | ------------------------ | --------------- | -------------- |
 | Executive/business leader | | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |   | |
-| Program Manager | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
-| Analyst/data scientist |   | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | |
+| Program Manager | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | |
+| Analyst/data scientist |   | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | | | |
 | Group or team manager | | | | | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 
 ### Access to resources
