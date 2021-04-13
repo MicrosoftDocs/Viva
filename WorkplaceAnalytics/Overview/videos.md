@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Workplace Analytics Videos
