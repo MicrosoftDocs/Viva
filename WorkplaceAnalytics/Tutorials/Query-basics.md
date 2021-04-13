@@ -120,11 +120,16 @@ When you create a new query or edit an existing query, you can select the metric
 
 ## Predefined query templates
 
-Workplace Analytics includes a number of predefined query templates to help you get started with queries, including the following:
+Workplace Analytics includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
 
-* **Quickstart overview** is a Power BI template that gives a high-level view of key organizational metrics.
-* **Collaboration overload** is a Power BI template that identifies collaboration patterns.
-* **Influence insights** is a Power BI template that helps you understand where influencers are represented in your company.
+* **Domain collaboration** analyzes collaboration patterns with external domains.
+* **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
+* **Standard query** provides all base metrics available for a person query.
+* **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
+
+>[!Important]
+>The following query templates will no longer be available in April 2021 within Workplace Analytics. To see their new replacements, see [Power BI templates](power-bi-intro.md).
+
 * **Manager impact** is a Power BI template that analyzes manager trends.
 * **Build focus hours** finds groups that have the lowest amount of focus time.
 * **Calls and IMs** analyzes call and instant-message hours by person.
@@ -134,9 +139,6 @@ Workplace Analytics includes a number of predefined query templates to help you 
 * **Meetings start time query** analyzes meeting hours by time of day.
 * **Protect after hours** finds groups that collaborate the most outside of work hours.
 * **Reduce meeting hours** finds groups that are overwhelmed by meetings.
-* **Standard query** provides all base metrics available for a person query.
-* **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
-* **Business continuity** tracks business continuity in Power BI, which requires Hourly collaboration query results. 
 
 ## Videos
 

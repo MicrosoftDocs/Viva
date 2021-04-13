@@ -13,31 +13,21 @@ audience: Admin
 
 # Query designer
 
-The Query designer in Workplace Analytics has a number of different options that help you answer specific business questions and the flexibility to look at the data from multiple perspectives. You can do the following with queries:
+The Query designer in Workplace Analytics has the flexibility to either help you find answers to common business challenges or provide you the tools to create custom datasets that help you answer your own custom business challenges.
 
-* Select as many or as few organizational metrics as you need, for a specific population or date range.
-* Customize the metrics included in query results with a broad range of filters and other options.
-* Combine query results from different queries to gain even more in-depth insights.
+Within the Query designer, you can either use the templates or create your own query.
 
-The designer includes the following.
+* [**Templates**](#templates) - Provide an easy way to pull Workplace Analytics metrics into a Power BI template, where you can quickly analyze workplace patterns and trends. Each template helps you understand a different business challenge, such as how to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
-* [**Templates**](#templates) - You can use the available templates to view and analyze data in Power BI. These options help you focus your analysis for specific business outcomes, such as to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
+  ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
 
-  ![Power BI templates](../Images/WpA/Tutorials/query-pbi-templates.png)
-
-* [**Queries**](#queries) - Select **Get started** in the **Query** section to create a custom query based on the type of organizational data that you want to analyze, such as person, meeting, group-to-group, person-to-group, peer comparison, or network queries. You can then download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics.
+* [**Queries**](#queries) - Enable you to create datasets that help you answer custom business challenges. After creating a dataset, you can then analyze the data in a tool of your choice.
 
   ![New query options](../Images/WpA/Tutorials/new-query.png)
 
-You can create queries as follows:
-
-* Edit and use a predefined [query template](#query-templates).
-* Create your own [custom query](#queries).
-* Open and edit a previously run query.
-
 ## Templates
 
-In Workplace Analytics, select **Query designer** to see predefined templates that help you analyze organizational data based on behavioral insights that relate to specific business outcomes.
+In Workplace Analytics, select **Query designer** to see predefined templates that help you analyze behavioral insights that relate to specific business outcomes.
 
 For example, select the **Business continuity** section to see more details about the report, example report data, prerequisites, and setup steps.
 
@@ -99,41 +89,28 @@ For example, for Business continuity, you’ll see the new Query designer instea
 As mentioned in the previous section, all the templates in the new Query designer included on-screen setup steps. For example, do the following to set up a new Business continuity dashboard.
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Templates**, select **Business continuity** to open the template details that include the setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 8**) .
+2. In **Templates**, select **Business continuity** to open the template details that include the setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 6**) .
 
    ![Business continuity template](../Images/WpA/Tutorials/bc-template.png)
 
-3. Select or confirm the following query settings:
-
-   * **Name** - Customize or keep the default name
-   * **Group by** - Week
-   * **Time period** - Last 1 year
-   * **Auto-refresh** - Enable the setting
-   * **Meeting exclusions** - Select the preferred rule for your tenant
-
-4. In **Select metrics**, keep all the predefined metrics, as shown in the following graphic.
-
-   >[!Important]
-   >* The dashboard is designed to show you how a shift to remote work can change your organization's work patterns. For best results, select **Last 1 year** for the **Time period** to include time before and after a shift.
-   >* If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+3. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 
    ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
 
-5. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-6. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
+4. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
    >[!Important]
    >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
-7. Select **Run** to run the query, which might take a few minutes to complete.
-8. Repeat **Steps 2-7** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
-9. In **Query designer** > **Results**, after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
+5. Select **Run** to run the query, which might take a few minutes to complete.
+6. When prompted, select to return to Query designer to set up another query, and then repeat  **Steps 2-5** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
+7. When prompted, continue to results, and then after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
 
    ![Power BI template download](../Images/WpA/Tutorials/pbi-template-download.png)
 
-10. Open the downloaded **Business continuity Power BI template**.
-11. If prompted to select a program, select **Power BI**.
-12. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
+8. Open the downloaded **Business continuity Power BI template**.
+9. If prompted to select a program, select **Power BI**.
+10. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
     * In the Workplace Analytics **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
     * In Power BI, paste each copied link into its respective field.
@@ -142,18 +119,18 @@ As mentioned in the previous section, all the templates in the new Query designe
 
     ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
 
-13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-15. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+13. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-16. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
-17. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
+14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+15. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
 ## Meeting exclusions
 
