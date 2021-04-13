@@ -39,13 +39,13 @@ When people are part of a plan, they'll see a new **Team Plans** in their dashbo
 
 ## Digest
 
-All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). Each week, the digest focuses on a different work pattern, including: Focus, Wellbeing, Network, or Collaboration.
-
-The subject of the digest shifts from one pattern to the next, week after week. Note that this weekly focus is _not_ affected by a participant's enrollment in a plan.
+People who use MyAnalytics get a weekly [digest](../MyAnalytics/use/email-digest-2.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
 
 ### Teams Plan section
 
-For plan participants, the digest email includes an additional section, the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week. However, people who are also using the [MyAnalytics Focus plan](../MyAnalytics/use/focus-plan.md) will not see this additional **Plans** section in their weekly digest. People with a focus plan will only see a weekly Focus digest (instead of a rotating digest) that only shows updates about their personal focus plans.
+For plan participants, their weekly digest includes an additional section, such as the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week. 
+
+However, people who are also using the [MyAnalytics Focus plan](../MyAnalytics/use/focus-plan.md) will not see this additional **Plans** section in their weekly digest. People with a focus plan will only see a weekly Focus digest (instead of a rotating digest) that only shows updates about their personal focus plans.
 
 ![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
 
@@ -66,7 +66,7 @@ Many inline suggestions are available to all MyAnalytics participants (see [broa
 
 #### Collaboration plan
 
-Participants in the Collaboration plan might see the following inline suggestion<!--s-->:
+Participants in the Collaboration plan might see the following inline suggestion<!--s-->.
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
@@ -77,7 +77,7 @@ Participants in the Collaboration plan might see the following inline suggestion
 
 #### Wellbeing plan
 
-Participants in the Wellbeing plan might see the following inline suggestion:
+Participants in the Wellbeing plan might see the following inline suggestion.
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
@@ -97,7 +97,7 @@ Participants in the Focus plan might see the following inline suggestion:
 
 ### Broadly available inline suggestions
 
-Many other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. See [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md) for details.
+Many other inline suggestions are available to _all_ MyAnalytics participants, whether they are enrolled in a Teamwork plan or not. See [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md) for details.
 
 ## Related topics
 
