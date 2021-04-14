@@ -127,29 +127,29 @@ You can use the following parameters with the Generate-WpaOrganizationFile.ps1 s
 
 ## Resulting organizational-data file schema
 
-After you run this script, the resulting schema in the organizational-data file contains the following attributes, or column names (except [LevelDesignation](#leveldesignation-description)). The attributes that are shown in bold are required attributes.
+After you run this script, the resulting schema in the organizational-data file contains the following attributes, or column names (except **LevelDesignation**. See its description in the following table). The attributes that are shown in bold are required attributes.
 
-|Column name |Type | Description |
-|------|-----------|----------|
-| **PersonID** | String |A user's primary SMTP address.|
-| **EffectiveDate** | String |The start date on which this information is current. It must be able to be cast to the .NET type _datetime_.|
-| **ManagerID** | String |The ID of the user’s manager, assigned in Azure AD. This must be in valid SMTP format.|
-| **Organization** | String | The user's Azure AD Department field.|
-| <a name="LevelDesignation-description"></a> **LevelDesignation** |String |The script generates this required column as it creates the organizational data file. However, the script cannot access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make **LevelDesignation** usable by analysts, you must edit the organizational data file and update the value of this attribute for each user before you upload the file. (Optionally, use the Title property instead. See [Optional properties](#optional-properties).)|
-|NumDirectReports | Integer |The number of direct reports, found in Azure AD, of this user.|
-|SupervisorIndicator | String |Indicates whether this user manages no people, is a manager, or is a manager of managers.|
-|ManagerIsMissingFlag | String |If there was no manager found in AD or if an error occurred during lookup, this value is _TRUE_; otherwise it is _FALSE_.|
+| Column name          | Type   | Description |
+| -------------------- | ------ | ----------- |
+| **PersonID**         | String | A user's primary SMTP address.|
+| **EffectiveDate**    | String | The start date on which this information is current. It must be able to be cast to the .NET type _datetime_.|
+| **ManagerID**        | String | The ID of the user’s manager, assigned in Azure AD. This must be in valid SMTP format.|
+| **Organization**     | String | The user's Azure AD Department field.|
+| **LevelDesignation** | String | The script generates this required column as it creates the organizational data file. However, the script cannot access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make **LevelDesignation** usable by analysts, you must edit the organizational data file and update the value of this attribute for each user before you upload the file. (Optionally, use the Title property instead. See [Optional properties](#optional-properties).) |
+| NumDirectReports     | Integer | The number of direct reports, found in Azure AD, of this user.|
+| SupervisorIndicator  | String  | Indicates whether this user manages no people, is a manager, or is a manager of managers.|
+| ManagerIsMissingFlag | String  | If there was no manager found in AD or if an error occurred during lookup, this value is _TRUE_; otherwise it is _FALSE_.|
 
 ## Optional properties
 
-If you use the SkipOptionalProperties switch when you run the Generate-WpaOrganizationFile.ps1 script, the following optional properties are left out of the resulting data file. If you omit this switch, these properties are included in the data file. 
+If you use the SkipOptionalProperties switch when you run the Generate-WpaOrganizationFile.ps1 script, the following optional properties are left out of the resulting data file. If you omit this switch, these properties are included in the data file.
 
-|Column name &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;   |Type | Description |
-|------|-----------|----------|
-| City | String | The City property is obtained in a call to _Get-MsolUser_. |
-|Country | String | The Country property is obtained in a call to _Get-MsolUser_. |
-|Title | String | The Title property is obtained in a call to _Get-MsolUser_. It corresponds to a user’s job title. If this property is populated in the organizational data file, analysts can use it in their queries, in place of or in addition to the **LevelDesignation** property. (See [Resulting organizational-data file schema](#resulting-organizational-data-file-schema).) |
-| Office | String | The Office property is obtained in a call to _Get-MsolUser_. |
+| Column name &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; |Type | Description |
+| ------- | -----------|----------|
+| City    | String | The City property is obtained in a call to _Get-MsolUser_. |
+| Country | String | The Country property is obtained in a call to _Get-MsolUser_. |
+| Title   | String | The Title property is obtained in a call to _Get-MsolUser_. It corresponds to a user’s job title. If this property is populated in the organizational data file, analysts can use it in their queries, in place of or in addition to the **LevelDesignation** property. (See [Resulting organizational-data file schema](#resulting-organizational-data-file-schema).) |
+| Office  | String | The Office property is obtained in a call to _Get-MsolUser_. |
 
 ## Related topics
 
