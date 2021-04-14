@@ -20,8 +20,8 @@ Workplace Analytics Queries has a number of predefined query templates available
 
 Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one to see more details about it and to view an interactive demonstration on how you can use it to get similar data about your organization.
 
->[!Important]
->*These older query templates will no longer be available in April 2021 within Workplace Analytics.
+>[!Note]
+>*These older query templates will no longer be available late April 2021 in Workplace Analytics.
 
 | &nbsp; | &nbsp; |
 |------|-------|
