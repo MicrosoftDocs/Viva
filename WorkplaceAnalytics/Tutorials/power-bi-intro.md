@@ -20,6 +20,9 @@ Workplace Analytics Queries has a number of predefined query templates available
 
 Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one to see more details about it and to view an interactive demonstration on how you can use it to get similar data about your organization.
 
+>[!Important]
+>*These older query templates will no longer be available in April 2021 within Workplace Analytics.
+
 | &nbsp; | &nbsp; |
 |------|-------|
 |![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
@@ -33,6 +36,3 @@ Workplace Analytics includes the following dashboards that you can use in Power 
 |![Sales business continuity icon](../images/wpa/playbooks/manage-connectedness-32x32.svg) |[**Sales business continuity**](./pbi-bc-sales.md) <br>Shows insights into how shifting to remote work has impacted your sales organization.|
 |![Ways of working assessment icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Ways of working assessment**](./power-bi-collab-assess.md) <br>Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization. |
 |![Ways of working tracker icon](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Ways of working tracker**](./power-bi-collab-track.md) <br>Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness. |
-
->[!Important]
->*These older query templates will no longer be available in April 2021 within Workplace Analytics.
