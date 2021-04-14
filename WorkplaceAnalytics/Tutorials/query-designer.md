@@ -91,7 +91,7 @@ For example, for Business continuity, you’ll see the new Query designer instea
 
 ## Example setup
 
-As mentioned in the previous section, all the templates in the new Query designer included on-screen setup steps. For example, do the following to set up a new Business continuity dashboard.
+As mentioned in the previous section, all the templates in the new Query designer include on-screen setup steps. For example, do the following to analyze business continuity data in Power BI.
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Templates**, select **Business continuity** to open the template details that include the setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 6**) .
@@ -117,10 +117,10 @@ As mentioned in the previous section, all the templates in the new Query designe
 9. If prompted to select a program, select **Power BI**.
 10. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
-    * In the Workplace Analytics **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
-    * In Power BI, paste each copied link into its respective field.
-    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-    * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
+    1. In the Workplace Analytics **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    2. In Power BI, paste each copied link into its respective field.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
     ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
 
