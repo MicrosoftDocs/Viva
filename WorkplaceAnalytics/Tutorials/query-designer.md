@@ -20,7 +20,7 @@ The Query designer gives you access to all of your Workplace Analytics metrics. 
 
 ## Templates
 
-The **Query designer** in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that can help you analyze behavioral insights relating to the most common business challenges.
+The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that can help you analyze behavioral insights relating to the most common business challenges.
 
   ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
 
@@ -47,7 +47,7 @@ Workplace Analytics includes the following Power BI templates.
 
 ## Queries
 
-In the **Query designer**, you can also create your own custom version of one of the following [types of queries](#query-types) by selecting **Query** > **Get started**.
+In the Query designer, you can also create your own custom version of one of the following [types of queries](#query-types) by selecting **Query** > **Get started**.
 
   ![New query options](../Images/WpA/Tutorials/new-query.png)
 
