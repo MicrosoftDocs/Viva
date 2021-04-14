@@ -2,7 +2,7 @@
 
 title: Influence insights dashboard
 description: Learn how to set up and use the Influence insights dashboard in Power BI
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
@@ -12,6 +12,9 @@ audience: Admin
 ---
 
 # Influence insights
+
+>[!Important]
+>This template will no longer be available in April 2021 within Workplace Analytics. To see its new replacement, see [Power BI templates](power-bi-intro.md).
 
 The Influence insights dashboard uses a Power BI template that’s populated by data from Workplace Analytics to gain insights into influencers, who are well connected people in your company. This dashboard lets you visualize and explore answers to the following business questions that leaders ask:
 
