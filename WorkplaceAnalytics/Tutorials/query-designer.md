@@ -49,15 +49,17 @@ Workplace Analytics includes the following Power BI templates.
 
 ## Queries
 
-In the Query designer, you can also create your own custom [query](#query-types) by selecting **Query** > **Get started**.
+In the Query designer, you can also create your own custom [query](#query-types) by selecting **Get started** under **Query**.
 
   ![New query options](../Images/WpA/Tutorials/new-query.png)
 
-When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new person query, and you select to **Start a new query**, or select **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
+When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new Person query, and you select to **Start a new query**, or select **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
 
 ![Query templates available when creating a new query](../Images/WpA/Tutorials/query-templates.png)
 
-When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. Then you can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
+When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. 
+
+Then you can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
