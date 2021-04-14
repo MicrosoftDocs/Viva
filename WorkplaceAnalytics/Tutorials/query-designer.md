@@ -15,18 +15,18 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-The Query designer gives you access to all of your Workplace Analytics metrics. You can use one of the following for custom insights about your organization.
+The Query designer gives you access to all of your Workplace Analytics metrics. You can use one of the following options for custom insights about your organization.
 
 * [**Templates**](#templates) - Provide an easy way to pull Workplace Analytics metrics into Power BI, where you can quickly analyze your organization's workplace patterns and trends. Each Power BI template helps you understand a different business challenge.
 * [**Queries**](#queries) - Help you create datasets that answer custom business challenges. After creating a dataset, you can then analyze the data in a tool of your choice.
 
 ## Templates
 
-The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that can help you analyze behavioral insights relating to the most common business outcomes, such as transforming your meeting culture, enhancing your organizational resiliency, developing effective managers, boosting employee engagement, and so on.
+The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that help you analyze behavioral insights about some of the most common business goals, such as: transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and so on.
 
   ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
 
-For example, if you select **Business continuity**, you'll see more details about the report data, what the template's prerequisites are, and the setup steps required for analyzing your organization's business continuity data in Power BI.
+For example, if you select **Business continuity**, you'll see more details about the report data, the template's prerequisites, and the setup steps required for analyzing your organization's business continuity data in Power BI.
 
 ![Business continuity template details](../Images/WpA/Tutorials/query-template-details.png)
 
@@ -41,7 +41,7 @@ Workplace Analytics includes the following Power BI templates.
 * [**Ways of working assessment**](./power-bi-collab-assess.md) - Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
 * [**Ways of working tracker**](./power-bi-collab-track.md) - Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
 * [**Return to worksites**](./power-bi-return-tw.md) - Shows how to plan who returns to work, and when, where, and how they do for the different work locations.
-* [**Business continuity**](./power-bi-bc.md) - Shows example insights into how shifting to remote work has impacted business.
+* [**Business continuity**](./power-bi-bc.md) - Shows example insights into how shifting to remote work has affected your business.
 * [**Microsoft Teams insights**](./power-bi-teams.md) - Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.
 * [**Manager effectiveness**](./power-bi-manager.md) - Helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) - Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.
@@ -49,11 +49,11 @@ Workplace Analytics includes the following Power BI templates.
 
 ## Queries
 
-In the Query designer, you can also create your own custom version of one of the following [types of queries](#query-types) by selecting **Query** > **Get started**.
+In the Query designer, you can also create your own custom [query](#query-types) by selecting **Query** > **Get started**.
 
   ![New query options](../Images/WpA/Tutorials/new-query.png)
 
-When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new person query, and you select to **Start a new query**, you have the option to select a **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
+When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new person query, and you select to **Start a new query**, or select **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
 
 ![Query templates available when creating a new query](../Images/WpA/Tutorials/query-templates.png)
 
@@ -65,7 +65,7 @@ When you create a new query or edit an existing query, you select the metrics to
 
 * [**Person queries**](person-queries.md) - Use to find broad organizational trends by analyzing aggregated productivity metrics (such as time in meetings and email) for a de-identified list of individual employees.
 * [**Meeting queries**](meeting-queries.md) - Use to analyze the relationship between different meeting attributes, such as size or duration, subject line keywords, double-booked hours, and multitasking hours.
-* [**Group-to-group queries**](group-to-group-queries.md) - See how a team invested their collaboration time with other teams within and outside of the organization. You can define a team in a variety of ways, with any organizational attribute or email domain. This also offers alternative perspectives on collaboration.
+* [**Group-to-group queries**](group-to-group-queries.md) - See how a team invested their collaboration time with other teams within and outside of the organization. You can define a team in various ways, with any organizational attribute or email domain. This query also offers alternative perspectives on collaboration.
 * [**Person-to-group queries**](person-to-group-queries.md) - Helps analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor. You can define the person and collaborator team or teams in a variety of ways, with any organizational attribute or email domain.
 * [**Peer comparison queries**](comparison-query.md) - Helps identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
 * **Network queries** - Use [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) to find out who the best-connected people in your company, division, or group are, which is based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
@@ -81,7 +81,7 @@ In addition to the Power BI templates, Workplace Analytics also includes the fol
 
 ## Prerelease setup steps
 
-Because you are using a prerelease of the Query designer, the specific steps in the currently published Workplace Analytics documentation do not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
+With this prerelease of the Query designer, the specific steps in the currently published Workplace Analytics documentation do not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
 
 For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll select the **Business Continuity** card and follow the on-screen setup steps included in the **Query designer**.
 
