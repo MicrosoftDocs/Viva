@@ -43,9 +43,9 @@ People who use MyAnalytics get a weekly [digest](../MyAnalytics/use/email-digest
 
 ### Teams Plan section
 
-For plan participants, their weekly digest includes an additional section, such as the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week. 
+For plan participants, their weekly digest includes an additional section, such as the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week.
 
-However, people who are also using the [MyAnalytics Focus plan](../MyAnalytics/use/focus-plan.md) will not see this additional **Plans** section in their weekly digest. People with a focus plan will only see a weekly Focus digest (instead of a rotating digest) that only shows updates about their personal focus plans.
+However, people who are also using the [MyAnalytics Focus plan](../MyAnalytics/use/focus-plan.md) will not see this additional Plans section in their weekly digest. They will only see a weekly Focus digest (instead of a rotating digest) that shows updates about their focus plan.
 
 ![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
 
