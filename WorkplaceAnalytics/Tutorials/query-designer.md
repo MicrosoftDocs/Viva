@@ -17,12 +17,12 @@ audience: Admin
 
 The Query designer gives you access to all of your Workplace Analytics metrics. You can use one of the following for custom insights about your organization.
 
-* [**Templates**](#templates) - Provide an easy way to pull Workplace Analytics metrics into Power BI, where you can quickly analyze workplace patterns and trends. Each Power BI template helps you understand a different business challenge, such as how to transform your meeting culture, enhance your organizational resiliency, develop effective managers, or boost employee engagement.
-* [**Queries**](#queries) - Use to create datasets that help you answer custom business challenges. After creating a dataset, you can then analyze the data in a tool of your choice.
+* [**Templates**](#templates) - Provide an easy way to pull Workplace Analytics metrics into Power BI, where you can quickly analyze your organization's workplace patterns and trends. Each Power BI template helps you understand a different business challenge.
+* [**Queries**](#queries) - Help you create datasets that answer custom business challenges. After creating a dataset, you can then analyze the data in a tool of your choice.
 
 ## Templates
 
-The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that can help you analyze behavioral insights relating to the most common business challenges.
+The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that can help you analyze behavioral insights relating to the most common business outcomes, such as transforming your meeting culture, enhancing your organizational resiliency, developing effective managers, boosting employee engagement, and so on.
 
   ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
 
