@@ -13,6 +13,8 @@ audience: Admin
 
 # Query designer
 
+*This experience is only available through private preview at this time.*
+
 The Query designer gives you access to all of your Workplace Analytics metrics. You can use one of the following for custom insights about your organization.
 
 * [**Templates**](#templates) - Provide an easy way to pull Workplace Analytics metrics into Power BI, where you can quickly analyze workplace patterns and trends. Each Power BI template helps you understand a different business challenge, such as how to transform your meeting culture, enhance your organizational resiliency, develop effective managers, or boost employee engagement.
