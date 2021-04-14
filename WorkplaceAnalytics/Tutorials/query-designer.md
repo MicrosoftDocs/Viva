@@ -13,25 +13,24 @@ audience: Admin
 
 # Query designer
 
-The Query designer gives you access to all the metrics that are available in Workplace Analytics. You can create queries for custom insights about your organization or utilize a template for more advanced analysis of some of the most common business challenges.
+*This experience is only available through private preview at this time.*
 
-* [**Templates**](#templates) - Provide an easy way to pull Workplace Analytics metrics into a Power BI template, where you can quickly analyze workplace patterns and trends. Each template helps you understand a different business challenge, such as how to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
+The Query designer gives you access to all of your Workplace Analytics metrics. You can use one of the following for custom insights about your organization.
 
-  ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
-
-* [**Queries**](#queries) - Enable you to create datasets that help you answer custom business challenges. After creating a dataset, you can then analyze the data in a tool of your choice.
-
-  ![New query options](../Images/WpA/Tutorials/new-query.png)
+* [**Templates**](#templates) - Provide an easy way to pull Workplace Analytics metrics into Power BI, where you can quickly analyze workplace patterns and trends. Each Power BI template helps you understand a different business challenge, such as how to transform your meeting culture, enhance your organizational resiliency, develop effective managers, or boost employee engagement.
+* [**Queries**](#queries) - Use to create datasets that help you answer custom business challenges. After creating a dataset, you can then analyze the data in a tool of your choice.
 
 ## Templates
 
-In Workplace Analytics, select **Query designer** to see predefined templates that help you analyze behavioral insights that relate to specific business outcomes.
+The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that can help you analyze behavioral insights relating to the most common business challenges.
 
-For example, select the **Business continuity** section to see more details about the report, example report data, prerequisites, and setup steps.
+  ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
+
+For example, if you select **Business continuity**, you'll see more details about the report data, what the template's prerequisites are, and the setup steps required for analyzing your organization's business continuity data in Power BI.
 
 ![Business continuity template details](../Images/WpA/Tutorials/query-template-details.png)
 
-You can also filter the templates and reports list to see what is available for a specific business insight. For example, the following shows what you'll see if you select **Filters** > **Develop effective managers**.
+You can also filter the list of templates to see what's available for a specific business insight. For example, you'll see the following when you select **Filters** > **Develop effective managers**.
 
 ![Report filter for develop effective managers](../Images/WpA/Tutorials/query-template-filters.png)
 
@@ -39,24 +38,30 @@ You can also filter the templates and reports list to see what is available for 
 
 Workplace Analytics includes the following Power BI templates.
 
-* [**Ways of working assessment**](./power-bi-collab-assess.md) - Power BI template that shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
-* [**Ways of working tracker**](./power-bi-collab-track.md) - Power BI template that shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
-* [**Return to worksites**](./power-bi-return-tw.md) - Power BI template that shows how to plan who returns to work, and when, where, and how they do for the different work locations.
-* [**Business continuity**](./power-bi-bc.md) - Power BI template that shows example insights into how shifting to remote work has impacted business.
-* [**Microsoft Teams insights**](./power-bi-teams.md) - Power BI template that shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.
-* [**Manager effectiveness**](./power-bi-manager.md) - Power BI template that helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model.
-* [**Behavior patterns for Glint**](./power-bi-glint.md) - Power BI template that combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.
-* [**Sales business continuity**](./pbi-bc-sales.md) - Power BI template that shows insights into how shifting to remote work has impacted your sales organization.
+* [**Ways of working assessment**](./power-bi-collab-assess.md) - Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
+* [**Ways of working tracker**](./power-bi-collab-track.md) - Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
+* [**Return to worksites**](./power-bi-return-tw.md) - Shows how to plan who returns to work, and when, where, and how they do for the different work locations.
+* [**Business continuity**](./power-bi-bc.md) - Shows example insights into how shifting to remote work has impacted business.
+* [**Microsoft Teams insights**](./power-bi-teams.md) - Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.
+* [**Manager effectiveness**](./power-bi-manager.md) - Helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model.
+* [**Behavior patterns for Glint**](./power-bi-glint.md) - Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.
+* [**Sales business continuity**](./pbi-bc-sales.md) - Shows insights into how shifting to remote work has impacted your sales organization.
 
 ## Queries
 
-In **Query designer** > **Query**, select **Get started** to create your own custom version of one of the following types of queries. Or when available and listed, you can also select from one or more related templates. The following shows when creating a person query, where you can select to **Start a new query** or select the **Standard person query** or **Hourly Collaboration** that already have specific metrics set up to help get you started.
+In the Query designer, you can also create your own custom version of one of the following [types of queries](#query-types) by selecting **Query** > **Get started**.
 
-![Templates available when creating a custom query](../Images/WpA/Tutorials/query-templates.png)
+  ![New query options](../Images/WpA/Tutorials/new-query.png)
 
-When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. Then you can download the query data results as .csv files or depending on the type of data, visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
+When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new person query, and you select to **Start a new query**, you have the option to select a **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
+
+![Query templates available when creating a new query](../Images/WpA/Tutorials/query-templates.png)
+
+When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data. Then you can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
+
+### Query types
 
 * [**Person queries**](person-queries.md) - Use to find broad organizational trends by analyzing aggregated productivity metrics (such as time in meetings and email) for a de-identified list of individual employees.
 * [**Meeting queries**](meeting-queries.md) - Use to analyze the relationship between different meeting attributes, such as size or duration, subject line keywords, double-booked hours, and multitasking hours.
@@ -69,10 +74,10 @@ When you create a new query or edit an existing query, you select the metrics to
 
 In addition to the Power BI templates, Workplace Analytics also includes the following query templates.
 
-* **Domain collaboration** analyzes collaboration patterns with external domains.
-* **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
-* **Standard person query** provides all base metrics available for a person query.
-* **Hourly Collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
+* **Domain collaboration** - Analyzes collaboration patterns with external domains.
+* **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
+* **Standard person query** - Provides all base metrics available for a person query.
+* **Hourly Collaboration** - Analyzes meeting, email, instant-message, and call activity by hour of the day.
 
 ## Prerelease setup steps
 
