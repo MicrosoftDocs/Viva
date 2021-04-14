@@ -22,7 +22,7 @@ The Query designer gives you access to all of your Workplace Analytics metrics. 
 
 ## Templates
 
-The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that help you analyze behavioral insights about some of the most common business goals, such as: transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and so on.
+The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates) that help you analyze behavioral insights about some of the most common business goals, such as transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
   ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
 
