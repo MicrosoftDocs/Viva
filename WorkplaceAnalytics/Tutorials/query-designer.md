@@ -98,7 +98,7 @@ As mentioned in the previous section, all the templates in the new Query designe
 
    ![Business continuity template](../Images/WpA/Tutorials/bc-template.png)
 
-3. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+3. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
 
    ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
 
