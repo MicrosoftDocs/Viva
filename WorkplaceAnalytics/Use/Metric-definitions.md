@@ -35,7 +35,7 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 |<a name="collaboration-hours-define"></a>Collaboration hours|Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
 |Collaboration hours external|Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domains).|Person|Hour|No|
 |<a name="conflicting-meeting-hours-define"></a>Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
-|Email hours|Number of hours the person spent sending and receiving emails.|Person|Hour|Yes|
+|Email hours|Number of hours the person spent sending and receiving emails during and outside of working hours.|Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
 |External network size|The number of people external to the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes|  
 |Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
@@ -53,7 +53,7 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 |Internal network size|   The number of people within the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks.  |Person|Count|Yes |
 |  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours |Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](system-defaults.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. **Note**: Calculations for conflicting meeting hours are affected by meeting exclusion rules and adjustments based on the type of meetings that overlap (non-declined work meetings, focus hours, and out-of-office time).|Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
-|<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
+|<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person during and outside of working hours.|Person|Hour|Yes|
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-define"></a>  Meeting hours with manager | Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-1-1-define"></a> Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
