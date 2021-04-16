@@ -14,7 +14,7 @@ audience: Admin
 # Collaboration overload
 
 >[!Note]
->This template will no longer be available in Workplace Analytics around April 22 2021. The new [Ways of working assessment](power-bi-collab-assess.md) and [Ways of working tracker](power-bi-collab-track.md) templates replace this older template.
+>This template will no longer be available in Workplace Analytics by the end of April 2021. See [Power BI templates](power-bi-intro.md) for the current list of available templates.
 
 The Collaboration overload dashboard uses a Power BI template that’s populated by Workplace Analytics data to identify areas of excessive collaboration in your organization. The metrics in this dashboard show where overall collaboration patterns, time fragmentation, or meeting quality could be improved.
 
