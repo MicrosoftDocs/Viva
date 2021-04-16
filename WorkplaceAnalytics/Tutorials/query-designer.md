@@ -47,40 +47,6 @@ Workplace Analytics includes the following Power BI templates.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) - Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) - Shows insights into how shifting to remote work has impacted your sales organization.
 
-## Queries
-
-In the Query designer, you can also create your own custom [query](#query-types) by selecting **Get started** under **Query**.
-
-  ![New query options](../Images/WpA/Tutorials/new-query.png)
-
-When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new Person query, you can either select **Start a new query** or select a query template, such as **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
-
-![Query templates available when creating a new query](../Images/WpA/Tutorials/query-templates.png)
-
-When you create a new query or edit an existing query, you select the metrics to include. You can also use filters to narrow the results and focus in on specific data.
-
-Then you can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
-
-![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
-
-### Query types
-
-* [**Person queries**](person-queries.md) - Use to find broad organizational trends by analyzing aggregated productivity metrics (such as time in meetings and email) for a de-identified list of individual employees.
-* [**Meeting queries**](meeting-queries.md) - Use to analyze the relationship between different meeting attributes, such as size or duration, subject line keywords, double-booked hours, and multitasking hours.
-* [**Group-to-group queries**](group-to-group-queries.md) - See how a team invested their collaboration time with other teams within and outside of the organization. You can define a team in various ways, with any organizational attribute or email domain. This query also offers alternative perspectives on collaboration.
-* [**Person-to-group queries**](person-to-group-queries.md) - Helps analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor. You can define the person and collaborator team or teams in a variety of ways, with any organizational attribute or email domain.
-* [**Peer comparison queries**](comparison-query.md) - Helps identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
-* **Network queries** - Use [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) to find out who the best-connected people in your company, division, or group are, which is based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
-
-### Query templates
-
-In addition to the Power BI templates, Workplace Analytics also includes the following query templates.
-
-* **Domain collaboration** - Analyzes collaboration patterns with external domains.
-* **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
-* **Standard person query** - Provides all base metrics available for a person query.
-* **Hourly Collaboration** - Analyzes meeting, email, instant-message, and call activity by hour of the day.
-
 ## Prerelease setup steps
 
 With this prerelease of the Query designer, the specific steps in the currently published Workplace Analytics documentation do not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
@@ -137,6 +103,35 @@ As mentioned in the previous section, all the templates in the new Query designe
 14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 15. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
 
+## Queries
+
+In the Query designer, you can also create your own custom [query](#query-types) by selecting **Get started** under **Query**.
+
+  ![New query options](../Images/WpA/Tutorials/new-query.png)
+
+When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new Person query, you can either select **Start a new query** or select a query template, such as **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
+
+![Query templates available when creating a new query](../Images/WpA/Tutorials/query-templates.png)
+
+You can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
+
+### Query types
+
+* [**Person queries**](person-queries.md) - Use to find broad organizational trends by analyzing aggregated productivity metrics (such as time in meetings and email) for a de-identified list of individual employees.
+* [**Meeting queries**](meeting-queries.md) - Use to analyze the relationship between different meeting attributes, such as size or duration, subject line keywords, double-booked hours, and multitasking hours.
+* [**Group-to-group queries**](group-to-group-queries.md) - See how a team invested their collaboration time with other teams within and outside of the organization. You can define a team in various ways, with any organizational attribute or email domain. This query also offers alternative perspectives on collaboration.
+* [**Person-to-group queries**](person-to-group-queries.md) - Helps analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor. You can define the person and collaborator team or teams in a variety of ways, with any organizational attribute or email domain.
+* [**Peer comparison queries**](comparison-query.md) - Helps identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
+* **Network queries** - Use [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) to find out who the best-connected people in your company, division, or group are, which is based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
+
+### Query templates
+
+In addition to the Power BI templates, Workplace Analytics also includes the following query templates.
+
+* **Domain collaboration** - Analyzes collaboration patterns with external domains.
+* **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
+* **Standard person query** - Provides all base metrics available for a person query.
+* **Hourly Collaboration** - Analyzes meeting, email, instant-message, and call activity by hour of the day.
 ## Meeting exclusions
 
 You define meeting exclusions to exclude types of meetings from analysis (such as all-day training meetings) where their inclusion might skew query results. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.

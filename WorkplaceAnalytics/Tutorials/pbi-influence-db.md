@@ -14,7 +14,7 @@ audience: Admin
 # Influence insights
 
 >[!Note]
->*This template will no longer be available in Workplace Analytics around April 22 2021. See [Power BI templates](power-bi-intro.md) for the current list of new templates.
+>This template will no longer be available in Workplace Analytics by the end of April 2021. See [Power BI templates](power-bi-intro.md) for the current list of available templates.
 
 The Influence insights dashboard uses a Power BI template that’s populated by data from Workplace Analytics to gain insights into influencers, who are well connected people in your company. This dashboard lets you visualize and explore answers to the following business questions that leaders ask:
 
