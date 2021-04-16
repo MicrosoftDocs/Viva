@@ -18,6 +18,9 @@ Workplace Analytics Queries has a number of predefined query templates available
 
    ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-queries.png)
 
+>[!Note]
+>These Power BI templates are currently only available in English.
+
 Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one to see more details about it and to view an interactive demonstration on how you can use it to get similar data about your organization.
 
 >[!Note]
