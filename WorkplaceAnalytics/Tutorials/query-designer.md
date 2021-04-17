@@ -62,7 +62,7 @@ As mentioned in the previous section, all the templates in the new Query designe
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Templates**, select **Business continuity** to open the template details that include the setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 6**) .
 
-   ![Business continuity template](../Images/WpA/Tutorials/bc-template.png)
+   ![Business continuity template](../Images/WpA/Tutorials/bc-setup-step2.png)
 
 3. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
 
@@ -111,7 +111,7 @@ In the Query designer, you can also create your own custom [query](#query-types)
 
 When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new Person query, you can either select **Start a new query** or select a query template, such as **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
 
-![Query templates available when creating a new query](../Images/WpA/Tutorials/query-templates.png)
+![Query templates available when creating a new query](../Images/WpA/Tutorials/person-query-options.png)
 
 You can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
