@@ -2,61 +2,25 @@
 
 
 
-## Week of February 08, 2021
+## Week of April 12, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 2/8/2021 | [Assign licenses with PowerShell for insights](/workplace-analytics-insights/assign-licenses-pshell) | modified |
-| 2/8/2021 | [Assign user roles for Workplace Analytics insights](/workplace-analytics-insights/assign-roles) | modified |
-
-
-## Week of February 01, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/2/2021 | [Assign licenses with PowerShell for insights](/workplace-analytics-insights/assign-licenses-pshell) | added |
-| 2/2/2021 | [Assign user roles for Workplace Analytics insights](/workplace-analytics-insights/assign-roles) | modified |
-| 2/2/2021 | [Set up Workplace Analytics insights](/workplace-analytics-insights/setup) | modified |
-| 2/2/2021 | [Assign licenses with PowerShell for insights](/workplace-analytics-insights/assign-licenses-pshell) | modified |
-| 2/2/2021 | [Assign licenses for Workplace Analytics insights](/workplace-analytics-insights/assign-licenses) | renamed |
-| 2/2/2021 | [Insights glossary](/workplace-analytics-insights/glossary) | modified |
-| 2/4/2021 | [Assign licenses with PowerShell for insights](/workplace-analytics-insights/assign-licenses-pshell) | modified |
-| 2/4/2021 | [Assign licenses for Workplace Analytics insights](/workplace-analytics-insights/assign-licenses) | modified |
-
-
-## Week of January 25, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/26/2021 | [Accelerate change with Workplace Analytics insights](/workplace-analytics-insights/accelerate-change) | modified |
-| 1/27/2021 | [Assign user roles for Workplace Analytics insights](/workplace-analytics-insights/assign-roles) | added |
-| 1/27/2021 | [Accelerate change with Workplace Analytics insights](/workplace-analytics-insights/accelerate-change) | modified |
-| 1/27/2021 | [Insights data access and analysis](/workplace-analytics-insights/data-analysis) | modified |
-| 1/27/2021 | [Microsoft insights](/workplace-analytics-insights/index) | modified |
-| 1/27/2021 | [Introducing insights](/workplace-analytics-insights/intro) | modified |
-| 1/27/2021 | [Set up Workplace Analytics insights](/workplace-analytics-insights/setup) | modified |
-| 1/27/2021 | [Assign user roles for Workplace Analytics insights](/workplace-analytics-insights/assign-roles) | modified |
-
-
-## Week of January 18, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/22/2021 | [Accelerate change with Workplace Analytics insights](/workplace-analytics-insights/accelerate-change) | modified |
-
-
-## Week of December 21, 2020
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/23/2020 | Behaviors associated with Workplace Analytics insights | removed |
-| 12/23/2020 | [Insights FAQs](/workplaceanalyticsinsights/faqs) | modified |
-| 12/23/2020 | [Workplace Analytics insights](/workplaceanalyticsinsights/index) | modified |
-| 12/23/2020 | [Introducing Workplace Analytics insights](/workplaceanalyticsinsights/intro) | modified |
-| 12/23/2020 | [Privacy with Workplace Analytics insights](/workplaceanalyticsinsights/privacy) | modified |
-| 12/23/2020 | [Set up Workplace Analytics insights](/workplaceanalyticsinsights/setup) | modified |
+| 4/12/2021 | [Accelerate change with Microsoft 365 Insights](/workplace-analytics-insights/accelerate-change) | modified |
+| 4/12/2021 | [Assign user roles for Microsoft 365 Insights](/workplace-analytics-insights/assign-roles) | modified |
+| 4/12/2021 | [Boost employee engagement with Microsoft 365 Insights](/workplace-analytics-insights/boost-engagement) | modified |
+| 4/12/2021 | [Increase customer focus with Microsoft 365 Insights](/workplace-analytics-insights/customer-focus) | modified |
+| 4/12/2021 | [Insights data access and analysis](/workplace-analytics-insights/data-analysis) | modified |
+| 4/12/2021 | [Develop effective managers with Microsoft 365 Insights](/workplace-analytics-insights/develop-managers) | modified |
+| 4/12/2021 | [Enhance operational effectiveness with Microsoft 365 Insights](/workplace-analytics-insights/effective-operations) | modified |
+| 4/12/2021 | [Insights FAQs](/workplace-analytics-insights/faqs) | modified |
+| 4/12/2021 | [Foster innovation in Microsoft 365 Insights](/workplace-analytics-insights/foster-innovation) | modified |
+| 4/12/2021 | [Insights glossary](/workplace-analytics-insights/glossary) | modified |
+| 4/12/2021 | [Improve agility with Microsoft 365 Insights](/workplace-analytics-insights/improve-agility) | modified |
+| 4/12/2021 | [Introducing insights](/workplace-analytics-insights/intro) | modified |
+| 4/12/2021 | [Insight metrics](/workplace-analytics-insights/metrics) | modified |
+| 4/12/2021 | [Data privacy with Insights](/workplace-analytics-insights/privacy) | modified |
+| 4/12/2021 | [Enhance organizational resiliency with Microsoft 365 Insights](/workplace-analytics-insights/resilient-organizations) | modified |
+| 4/12/2021 | [Set up Microsoft 365 Insights](/workplace-analytics-insights/setup) | modified |
+| 4/12/2021 | [Transform meeting culture with Microsoft 365 Insights](/workplace-analytics-insights/transform-meetings) | modified |
