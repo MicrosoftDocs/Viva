@@ -31,7 +31,7 @@ Use these personas to help  identify the people you will need to help gather dat
 
 * Workplace Analytics sponsor - The initial point person for the engagement
 * Workplace Analytics administrator - This role has access to Admin and Data Sources features, and will set system defaults, privacy settings, and upload and verify organizational data.
-* Office 365 Global administrator
+* Microsoft 365 Global administrator
 * Exchange administrator
 * Human resources (HR) information system administrator
 * Line of business (LOB) system administrators, or data analyst

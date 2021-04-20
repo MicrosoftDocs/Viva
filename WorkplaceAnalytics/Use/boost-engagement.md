@@ -7,11 +7,11 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Boost employee engagement
-
-*This experience is only available through private preview at this time.*
 
 Employees with high job satisfaction and a strong sense of belonging are more likely to produce high-quality work, identify business opportunities, and remain at the organization.
 
@@ -32,24 +32,34 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |Percentage of employees with less than 15 minutes of weekly 1:1 time with their managers. To account for various 1:1 meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week |[After-hours metrics](metric-definitions.md#person-metrics) |Percentage of employees who spend more than one hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Drive employee empowerment |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define)|Percentage of employees who spend over 50 percent of their meeting hours with their manager present in the meeting. This percentage is calculated weekly and averaged over the entire time period. |
-<!--|Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |-->
+
+<!-- MOVED THIS ROW AWAY FROM THE ACTUAL TABLE TO AVOID BUILD WARNING:  |Encourage team cohesion |Percentage of employees who are members of teams with strong cohesion |[Cross-organization collaboration and internal collaboration hours](metric-definitions.md#person-metrics) |Calculation info |-->
 
 The following defines the organizational data shown in the visual behavioral insights.
 
 ![Employee engagement visual insight](../images/wpa/use/boost-ee-visual.png)
 
-|Behavior |Visual insight | Definition |
-|---------|--------|----------------------|
-|Promote coaching and development |Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly meeting hours with managers 1:1. They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. This graph uses the [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) metric.|
-|Prevent employee burnout | Distribution of weekly after-hours collaboration |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#after-hours-collaboration-define). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between one to five hours collaborating after-hours, and employees who spend more than five hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
-|Drive employee empowerment |Distribution of manager-employee coaching relationships |Uses the average time employees spend with [their managers in 1:1s](metric-definitions.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with manager in attendance](metric-definitions.md#meeting-hours-with-manager-define), the different manager-employee coaching relationships are grouped by employee time percentages: <ul><li>**Coached** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend less than 30 percent of their meeting hours with their managers in attendance.  </li><li>**Co-attended** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and employees who have less than 30 percent of their meeting hours with their managers in attendance.</li> |<!--|Encourage team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |-->
+| Behavior | Visual insight | Definition |
+| -------- | -------------- | ---------- |
+| Promote coaching and development | Distribution of monthly 1:1 time with managers          | Percentage of employees based on their monthly meeting hours with managers 1:1. They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. This graph uses the [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) metric.|
+| Prevent employee burnout         | Distribution of weekly after-hours collaboration        | Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#after-hours-collaboration-define). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between one to five hours collaborating after-hours, and employees who spend more than five hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
+| Drive employee empowerment       | Distribution of manager-employee coaching relationships | Uses the average time employees spend with [their managers in 1:1s](metric-definitions.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with manager in attendance](metric-definitions.md#meeting-hours-with-manager-define), the different manager-employee coaching relationships are grouped by employee time percentages: <ul><li>**Coached** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend less than 30 percent of their meeting hours with their managers in attendance.  </li><li>**Co-attended** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and employees who have less than 30 percent of their meeting hours with their managers in attendance.</li> |
+
+<!-- MOVED THIS ROW AWAY FROM THE ACTUAL TABLE TO AVOID BUILD WARNING:   |Encourage team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metric-definitions.md#person-metrics). |-->
 
 ## Take action
 
-You can select **Take action** to see ways you can improve employee engagement. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can improve employee engagement. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Depending on the recommendation, this links to data about [Management and coaching](explore-metrics-management-and-coaching.md) or [Teamwork](../tutorials/teamwork-solution.md.
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) and [teamwork](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
+
+  |Behavior |Recommendation |Explore the stats|
+  |---|---|---|
+  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
+  |Prevent employee burnout |Help employees disconnect|[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|
+  |Drive employee empowerment |Increase information sharing |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
+
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
@@ -76,7 +86,7 @@ Pressure to "always be on" and long hours can lead to employee burnout. The amou
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
 * Use [MyAnalytics wellbeing data](../MyAnalytics/Use/wellbeing.md) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
-* Use [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
 <!--

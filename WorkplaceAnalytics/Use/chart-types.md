@@ -6,6 +6,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Charts in Workplace Analytics
@@ -22,21 +24,15 @@ ms.prod: wpa
 
 ![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
 
-<!-- ![Column graph](../images/wpa/use/bar-chart.png) -->
+![bar chart](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Groups collaborating with external domains](explore-metrics-external-collaboration.md#external-domain-collaboration).
 
-![bar chart](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Top groups collaborating with external domains](explore-metrics-external-collaboration.md#top-groups-collaborating-with-external-domains).
-
-<!-- ![Bar chart](../images/wpa/use/19-discover-which-groups.png) -->
-
-![box plot](../images/wpa/use/c-box-plot.png) **Box plots** (also known as distribution charts) show the distribution of metric values within a group. A box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected. Each value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on each box plot in the chart. For example: 
+![box plot](../images/wpa/use/c-box-plot.png) **Box plots** (also known as distribution charts) show the distribution of metric values within a group. A box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected. Each value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on each box plot in the chart.
 
 ![Box plot](../images/wpa/use/box-plot-general.png)
 
-![line graph](../images/wpa/use/d-line-graph.png) **Line graphs** are used as trend-line charts in that they show metric values over time. The default trend line is the company average for the selected metric. Trend-line charts show one point per week for as many weeks as you have set in **Date range**, under **Page settings**. (See [Change the date range](#to-change-the-date-range)).
+![line graph](../images/wpa/use/d-line-graph.png) **Line graphs** are used as trend-line charts in that they show metric values over time. The default trend line is the company average for the selected metric. Trend-line charts show one point per week for as many weeks as you have set in **Date range**, under **Settings and filters**. See [Change the date range](#to-change-the-date-range).
 
 For an example, see the chart on the right in [Skip-level meeting hours](explore-metrics-management-and-coaching.md#skip-level-meeting-hours).
-
-<!-- ![Line graph](../images/wpa/use/trend-line-chart.png) -->
 
 ## Chart features
 
@@ -46,8 +42,8 @@ In most cases, charts appear in pairs. The charts in a pair present related info
 
 ![chart pair](../images/wpa/use/e-chart-pair.png)
 
-   > [!Note]
-   > Within a chart pair, you can [switch](#switch-between-chart-types) the left chart to show either a column graph or box plot.
+>[!Note]
+>Within a chart pair, you can [switch](#switch-between-chart-types) the left chart to show either a column graph or box plot.
 
 The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in [Meetings overview](Explore-metrics-meetings-overview.md):
 
@@ -55,7 +51,7 @@ The column graph shows metric data for groups and the related line graph shows t
 
 You could view this relationship between the charts in a pair as a sort of "chart workspace" in which you focus on a particular filtered data set and then apply different views to it to coax out different facts. If you sort data in the column chart and then switch it to a box plot, your sorting choices carry over to the show of the box plot.
 
-### Default display
+### Defaults
 
 By default, Workplace Analytics charts show data by employee groups within an organization. Charts show the average metric for each group. Changing the metric changes how the groups are sorted. To learn about changing metrics, see [Sort groups](#sort-groups).
 
@@ -67,17 +63,17 @@ Charts also show the average for all groups, in the reference line. For more inf
 
 The Workplace Analytics admin can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. (The minimum group size can be raised or lowered, but it cannot be set to a number lower than five.)
 
-In the show of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](settings.md#privacy-settings).
+In the show of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](privacy-settings.md).
 
 ### Use of filters
 
-To change or add filters to see different organizations or other organizational attributes, use the available filters for the charts. Filters are set in the **Page settings** area. See [Page settings and filters](#page-settings-and-filters).
+To change or add filters to see different organizations or other organizational attributes, use the available filters for the charts. Filters are set in [Settings and filters](#settings-and-filters).
 
 ## Work with charts
 
 * [Chart tools](#chart-tools) enable you to change the chart type, sort the display, drill down or exclude attributes from the chart, download chart data, and select groups for display in the adjacent trend chart.
 
-* [Page settings and filters](#page-settings-and-filters) in the **Page settings** enable you to change the time range of the data, to change what shows in all the charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all the charts.
+* [Settings and filters](#settings-and-filters) in the **Settings and filters** enable you to change the time range of the data, to change what shows in all the charts, to apply filters, to save current settings, to load saved settings, or to reset settings for all the charts.
 
 ### Chart tools
 
@@ -154,11 +150,10 @@ In a chart pair, you use the column chart or box plot on the left to change how 
 * To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude groups** icon.
 * To revert either of these actions, select the **Undo** icon.
 
-  ![Chart tools](../images/wpa/use/drilldown.png)
+![Chart tools](../images/wpa/use/drilldown.png)
 
-   > [!Note]
-   > * The Undo tool currently only applies to reversing changes made with the Drilldown and the Exclude groups chart tools.
-   > * You can apply these drill down and exclude actions with [Chart settings](#page-settings-and-filters).
+>[!Note]
+>The **Undo** tool currently only applies to reversing changes made with the **Drilldown** and **Exclude groups** chart tools. You can apply these drill down and exclude actions with [Settings and filters](#settings-and-filters).
 
 #### To switch between percentage and hours data
 
@@ -178,65 +173,65 @@ In a chart pair, you use the column chart or box plot on the left to change how 
 
    Because the download contains just what you see in the chart, you can use the downloaded .csv data in Excel or in Power BI to reproduce the chart that Workplace Analytics shows.
 
-   > [!Note]
-   > Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
+>[!Note]
+>Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
 
-### Page settings and filters
+## Settings and filters
 
-Use **Page settings** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Page settings** panel is not already open, open it by selecting **Settings and filters**:
+Use **Settings and filters** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Settings and filters** panel is not open, select **Settings and filters** to open it.
 
 ![Settings and filters](../images/wpa/use/settings-and-filters-2.png)
 
 When you change chart settings, your changes apply to all the charts in all **Explore the stats** data. For example, when you set the chart to group by _level_, all charts in all sections are grouped by that level.
 
-#### To apply or reset settings
+### To apply or reset settings
 
 After you change a setting or add a filter, select **Apply** at the upper-right to apply the settings to all the charts. Or to change back to the default settings, select **Reset**.
 
 ![Apply button](../images/wpa/use/apply-reset.png)
 
-#### To save custom settings and applied filters for later use
+### To save custom settings and applied filters for later use
 
 After you change one or more page settings, chart or add one of more filters, you can:
 
-* Select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save page settings or applied filters for later use.
+* Select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save the settings or applied filters for later use.
 
 ![Save settings](../images/wpa/use/save-page-settings.png)
 
-* In the **Page settings** pane, select the **ellipsis** (**...**) next to **Chart settings** > **Apply to page settings** to save specific chart settings, such as with the drilldown or exclude chart tools.
+* In **Settings and filters**, select the **ellipsis** (**...**) next to **Chart settings** > **Apply to page settings** to save specific chart settings, such as with the drill down or exclude chart tools.
 
 ![Chart settings](../images/wpa/use/chart-settings.png)
 
-The next time you view Explore the stats data in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
+The next time you view Explore the stats data in Workplace Analytics, it shows the charts with the default settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
-#### To change the date range
+### To change the date range
 
-1. In **Page settings**, expand **Date range**.
-2. In **Date range**, select a year and then select a month. 
+1. In **Settings and filters**, expand **Date range**.
+2. In **Date range**, select a year and then select a month.
 3. The selected month shows in more detail in a fly-out window. Use that window to select weeks in the month, one week at a time.
 4. Select **Apply** (upper right) to apply these changes to all charts.
 
-> [!Note]
-> The date range options encompass the most recent data that has been loaded and use the following logic:
-> 
-> * A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.
-> * For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
+>[!Note]
+>The date range options encompass the most recent data that has been loaded and use the following logic:
+>
+>* A week is defined as Sunday to Saturday, and date ranges are adjusted to span the first Sunday to last Saturday of the selected range.
+>* For a week that starts in one month and ends in the following month, the data is associated with the month in which the week begins.
 
-#### To change or add filters
+### To change or add filters
 
 1. In **Page settings**, expand **Measured employees**.
 2. In **Group by**, select the organizational attribute to use in all charts.
 3. Next to **Filters**, select the **Edit** (pencil) icon.  
-4. In **Edit page filters**, you can change the **Employees** filter: 
+4. In **Edit page filters**, you can change the **Employees** filter:
 
    * **All employees** - Includes inactive and active employees for the set date range.
    * **Active only** - Includes only active employees who have sent at least one email or instant message for the set date range.
    * **Inactive only** - Includes only those inactive employess who have not sent at least one email or instant message for the set date range.
- 
+
 5. Select **Add filter** to add one or more additional filters.
 6. Select **Apply** (upper right) to apply these changes to all charts.
 
-#### To change the number of groups
+### To change the number of groups
 
 1. To open the **Page settings** panel, expand **Max groups**.
 2. Use the **Max groups** slider to set the number of groups you want the charts to show.  

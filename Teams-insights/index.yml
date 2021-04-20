@@ -1,0 +1,36 @@
+### YamlMime:Hub
+
+title: Microsoft Viva Insights documentation # < 60 chars
+summary: Learn how Viva Insights can help you do your best work. Use insights to follow through on commitments and protect focus time for uninterrupted work. # < 160 chars
+brand: workplace-analytics
+
+metadata:
+  title: Microsoft Viva Insights (personal insights) # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn about Viva Insights -- how to install and use them # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page 
+  author: paul9955 
+  ms.author: v-pausch 
+  ms.date: 02/04/2021 #Required; mm/dd/yyyy format.
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  items:
+    - title: Introduction
+      itemType: overview # controls the icon image and super-title text
+      url: teams-app.md
+    - title: Keeping data private
+      itemType: learn
+      url: teams-app-privacy.md
+    - title: Configuration
+      itemType: deploy
+      url: teams-app-install.md
+    - title: Admin tasks
+      itemType: deploy
+      url: teams-app-admin-tasks.md
+    - title: Using the Viva Insights
+      itemType: how-to-guide
+      url: teams-app-use-insights.md
+    - title: Frequently asked questions
+      itemType: reference
+      url: teams-app-faq.md

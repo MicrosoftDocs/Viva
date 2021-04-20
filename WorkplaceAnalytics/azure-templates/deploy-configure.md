@@ -32,7 +32,7 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
 6. [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
 7. [Add users](#add-users-and-assign-roles)
 8. [Process the data](#process-the-data)
-9. Additional configuration and deployment options: [Incoming data](#incoming-data), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
+9. Additional configuration and deployment options: [Incoming data](#incoming-data), [Account mapping](#account-mapping), [Other configuration options](#other-configuration-options), and [Audit logs](#audit-logs)
 
 ## Security considerations
 
@@ -53,7 +53,7 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
 
    * Confirm you have either an **Azure Admin** or an **Azure Contributor** role to deploy these templates.
-   * Get [applicable Azure AD permissions](https://docs.microsoft.com/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Office 365 global administrator.
+   * Get [applicable Azure AD permissions](/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Microsoft 365 global administrator.
    * If the Workplace Analytics team is deploying the templates, confirm that the vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
 
 ## Choose a registration path
@@ -69,13 +69,13 @@ You can register these apps in one of the following ways:
 
 You can register the required apps in the Azure portal to get the Microsoft identify platform to authenticate and authorize them, which is required for deployment.
 
-Registering the apps before deployment enables Azure Active Directory (Azure AD) to provide [authentication](https://docs.microsoft.com/azure/active-directory/authentication/overview-authentication).
+Registering the apps before deployment enables Azure Active Directory (Azure AD) to provide [authentication](/azure/active-directory/authentication/overview-authentication).
 
-See [Register an application with the Microsoft identity platform](https://docs.microsoft.com/graph/auth-register-app-v2) and [Register an app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) for details.
+See [Register an application with the Microsoft identity platform](/graph/auth-register-app-v2) and [Register an app in Azure Active Directory](/azure/active-directory/develop/quickstart-register-app) for details.
 
 ### To register the apps and create client secrets
 
-1. Sign in to the Azure portal with an account that has permissions to register Azure AD applications, such as an [**Azure Application developer account**](https://docs.microsoft.com/azure/active-directory/roles/custom-create#create-a-new-custom-role-to-grant-access-to-manage-app-registrations).
+1. Sign in to the Azure portal with an account that has permissions to register Azure AD applications, such as an [**Azure Application developer account**](/azure/active-directory/roles/custom-create#create-a-new-custom-role-to-grant-access-to-manage-app-registrations).
 2. In Azure Active Directory, under **Manage**, select **App registrations**, and then select **New registration**.
 3. Enter a name for the **Web App service UI** with a consistent naming convention, such as: **wpaapps + YYYYMM + role** = **App registration name**. For example: **wpaapps202011-ui**.
 4. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
@@ -98,7 +98,7 @@ See [Register an application with the Microsoft identity platform](https://docs.
 5. In **Admin consent display name**, enter **user_impersonation** again.
 6. In the descriptions, enter something like: **Allows access to the wpa app API**.
 7. Confirm **Enabled** is selected, and then select **Add scope**.
-8. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Web App service API**. The format will be similar to this:
+8. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Web App service API**. The format will be similar to this:
 
      `https://wpaapps202011-api.azurewebsites.net/.auth/login/aad/callback`
 
@@ -108,7 +108,7 @@ See [Register an application with the Microsoft identity platform](https://docs.
 
 10. Select **Add a permission** > **APIs my organization uses**, and then search for and select the **Web App service API** (for example: wpaapps202011-api).
 11. Select **Delegated permissions**, select **user_impersonation**, and then select **Add permissions**.
-12. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Web App service UI**. The format will be similar to this:
+12. Select **Authentication** > **Add a platform** > **Web**, and then enter the [**Redirect URI**](/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri) for the **Web App service UI**. The format will be similar to this:
 
      `https://wpaapps202011-ui.azurewebsites.net/`
 
@@ -136,14 +136,14 @@ See [Register an application with the Microsoft identity platform](https://docs.
     * If you registered the apps before deployment, select **Authentication** and update the **Redirect URI** for each of the apps listed.
     * Otherwise the apps are registered automatically during this step. Review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
 
-      * [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
-      * [Azure Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups)
-      * [Azure Blob storage account](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction)
-      * [Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/)
-      * [Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
-      * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/)
-      * [Azure Web Apps (App Service)](https://docs.microsoft.com/azure/app-service/)
-      * [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)
+      * [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)
+      * [Azure Resource Group](/azure/azure-resource-manager/resource-group-overview#resource-groups)
+      * [Azure Blob storage account](/azure/storage/blobs/storage-blobs-introduction)
+      * [Azure Databricks](/azure/azure-databricks/)
+      * [Azure SQL database](/azure/sql-database/sql-database-dtu-resource-limits-single-databases)
+      * [Azure Analysis Services](/azure/analysis-services/)
+      * [Azure Web Apps (App Service)](/azure/app-service/)
+      * [Azure Key Vault](/azure/key-vault/key-vault-use-from-web-application)
 
 11. Select **Next** to start the two-phase deployment, which can take up to 60 minutes to complete.
 12. After the deployment is complete, open, copy, and save the deployed website link for the templates, similar to the one shown in the following graphic.
@@ -248,6 +248,43 @@ As an admin, you can configure template settings in **Admin** > **Configuration*
 * The minimum group size, maximum number of nodes and links in data analysis with the **Organizational Network Analysis Azure Template**.
 * If the **Process Explorer Azure Template** either surfaces and uses, or does not surface or use, email subjects in blob storage datasets to help train the model for categorization.
 * Set the number of days to retain data created and saved as joined datasets with the **Join Datasets Template**.
+
+## Account mapping
+
+Before creating analysis, you need to upload the exported CRM data (.csv) data files for your customer accounts and contacts and create a mapping file in the template. See [Required file formats](#required-crm-file-formats) for details about what the files must include based on the type of CRM.
+
+>[!Note]
+>If CRM data is unavailable, or you want to start without it, you can skip adding a mapping file and when prompted while adding new analysis, select **None** for the account mapping. With no mapping file, the analysis will only show external domain-level data.
+
+**To add a new account mapping**:
+
+1. In Workplace Analytics Azure Templates, select **Account Mapping** > **Add New Mapping** (at top right) to upload a new set of files for customer accounts and contacts.
+
+    ![Add a new account mapping](./images/account-mapping.png)
+
+2. In **Name the Account mapping**, enter a friendly name for the mapping file.
+3. In **Specify your CRM source**, select the CRM source for your accounts and contacts. 
+4. In **Provide the accounts file** and **Provide the contacts**, select **Choose File**, and then select the .csv files for accounts and contacts, which must be in the required format as described in [Required CRM file formats](#required-crm-file-formats).
+
+### Required CRM file formats
+
+The following are examples of what the .csv file formats for accounts and contacts must include.
+
+#### Dynamics accounts
+
+![File format for Dynamics accounts](./images/ri-dynamics-accounts.png)
+
+#### Dynamics contacts
+
+![File format for Dynamics contacts](./images/ri-dynamics-contacts.png)
+
+#### Salesforce accounts
+
+![File format for Salesforce accounts](./images/ri-salesforce-accounts.png)
+
+#### Salesforce contacts
+
+![File format for Salesforce contacts](./images/ri-salesforce-contacts.png)
 
 ## Audit logs
 

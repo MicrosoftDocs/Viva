@@ -7,7 +7,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Focus
@@ -18,7 +19,7 @@ The MyAnalytics Focus page shows weekly averages for the time you have available
 
 ## Productivity insights
 
-These insights are based on your recent activity in Office 365. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns, such as booking focus time in your calendar and muting notifications when trying to concentrate.
+These insights are based on your recent activity in Microsoft 365. Select **View Suggestions** to get ideas about how you might change or improve your current work patterns, such as booking focus time in your calendar and muting notifications when trying to concentrate.
 
 ## About the metrics
 

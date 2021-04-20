@@ -13,7 +13,7 @@ ms.prod: wpa
 
 * **Custom fields** are displayed on this page below the optional fields. Custom fields are optional attributes you can create. Select a column from your source.csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
 
-### Columns in the fields tables
+### Field column details
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 * **Workplace Analytics name** is the name of your organization's Workplace Analytics.
@@ -28,11 +28,8 @@ ms.prod: wpa
    <b>Summary of Validity threshold settings</b>
 
    * **Required attributes:** Because PersonId and EffectiveDate are required attributes, their Validity threshold value is 100%. This value cannot be changed.
-
    * **Fields with minimum values:** The Validation threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95% by default, but you can increase this value.
-
    * **Other system fields:** The Validation threshold for other system fields is set to 95% by default, but you can increase or decrease this value.
-
    * **Custom fields:** See [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
 
 * **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation.

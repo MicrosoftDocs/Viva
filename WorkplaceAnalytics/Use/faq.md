@@ -2,11 +2,14 @@
 
 title: Workplace Analytics FAQ
 description: Frequently asked questions about Workplace Analytics
-author: paul9955
+author: madehmer
 ms.author: v-pausch
-ms.topic: article
+ms.topic: reference
 localization_priority: normal
 ms.prod: wpa
+ms.collection: M365-analytics
+manager: scott.ruble
+audience: Admin
 ---
 
 # Frequently Asked Questions for Workplace Analytics
@@ -41,7 +44,9 @@ A1.  No. Workplace Analytics is a collaboration analysis tool that can be used t
 
 ##### Q2. How do MyAnalytics and Workplace Analytics differ?
 
-A2. MyAnalytics runs within an individual user's mailbox and can be seen only by that user. Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and anonymized metrics. 
+A2. MyAnalytics presents personal and private insights to Microsoft 365 users in Outlook through [digest emails](../myanalytics/use/email-digest-2.md), [inline suggestions](../myanalytics/use/mya-notifications.md) and the [Insights Outlook add-in](../myanalytics/use/add-in.md). It can also be accessed through a web [dashboard](../myanalytics/use/dashboard-2.md).
+
+Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and de-identified metrics.
 
 ### Privacy and compliance
 
@@ -84,39 +89,39 @@ For more information, see [Customize a base metric in a query](../tutorials/cust
 
 ##### Q1. What are the basic steps to enable Workplace Analytics?
 
-A1.  These are main tasks required to enable Workplace Analytics for your organization:
+A1. The main tasks required to enable Workplace Analytics for your organization are:
 
- * Assign licenses 
- * Assign roles 
- * Configure settings
- * Upload organizational data
+* Assign licenses
+* Assign roles
+* Configure settings
+* Upload organizational data
 
 For complete information about setup, see [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md).
 
 
 <!--  KEEP THIS OUT FOR NOW. POINT TO THE JEREMY/GAURAV/DANNY TOPIC AS SOON AS WE PUBLISH IT.
 
-##### Q2. Which Office 365 licenses are required for Workplace Analytics users?
+##### Q2. Which Microsoft 365 licenses are required for Workplace Analytics users?
 
 A2. The following license plans work: 
- * Exchange Online (EXO) Plan 1 (Office 365 Enterprise plan E1) 
- * Exchange Online (EXO) Plan 2 (Office 365 Enterprise plans E3, E4, or E5).
+ * Exchange Online (EXO) Plan 1 (Microsoft 365 or Office 365 Enterprise plan E1) 
+ * Exchange Online (EXO) Plan 2 (Microsoft 365 or Office 365 Enterprise plans E3, E4, or E5).
 
 -->
 
 ##### Q2. Does it present a problem if my licensed population works in different time zones or has varying working hours?
 
-A2. No. Workplace Analytics can determine each employee's time-zone value and their working hours, regardless of their location. To make this determination, Workplace Analytics carries out the steps that are described in [Default time zone](../use/settings.md#default-time-zone).
+A2. No. Workplace Analytics can determine each employee's time-zone value and their working hours, regardless of their location. To make this determination, Workplace Analytics carries out the steps that are described in [Default time zone](../use/system-defaults.md#default-time-zone).
 
 ##### Q3. Can I configure the user data that particular analysts can access and use?
 
-A3. You can assign analysts the analyst (limited access) role, which limits them to view [Explore the stats](explore-intro.md) data. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. 
+A3. You can assign analysts the analyst (limited access) role, which limits them to view [Explore the stats](explore-intro.md) data. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details.
 
 <!-- ^^^ *** After partitions ship, add them to this answer. *** ^^^ -->
 
 ##### Q4. Why are Start time and End time so important when configuring Workplace Analytics?
 
-A4. The Start time and End time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. <!--(Note that the system time zone is checked once a week, so if an employee travels for a short time the change in their local time might not be captured and reflected in their Start and End times.) --> See [Working days and hours](settings.md#working-days-and-hours).
+A4. The Start time and End time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. <!--(Note that the system time zone is checked once a week, so if an employee travels for a short time the change in their local time might not be captured and reflected in their Start and End times.) --> See [Working days and hours](system-defaults.md#working-days-and-hours).
 
 ##### Q5. Is there a maximum number of Workplace Analytics analyst roles that can be assigned?
 
@@ -124,11 +129,11 @@ A5. No. No limit is imposed by Workplace Analytics.
 
 ##### Q6. In the Workplace Analytics _Data sources_ section, on the "Office 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
 
-A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Office 365) data. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Microsoft 365 or Office 365) data. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
-A7. No, they are not ignored. Employees in your organization who are not licensed for analysis but might collaborate with your measured employees (internal collaborators) through meetings, email, unscheduled calls, or instant messages. These employees are not measured and their data is not processed. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
+A7. No, they are not ignored but they are not measured and their data is not processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
 ### Organizational data
 
@@ -143,9 +148,9 @@ A1. An upload can fail if the data has invalid values, if it is missing required
 
 A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
 
-##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields-table), what percentage does Workplace Analytics require for the validity threshold?
+##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields), what percentage does Workplace Analytics require for the validity threshold?
 
-A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet 100% of the validity threshold, because each of row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95% of the validity threshold. (Note that the calculations of validity threshold consider only two kinds of data values: valid values and blank values. This means that, for a validity threshold that's set to 95%, the column will pass validation if fewer than 5% of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.) For more information, see [Columns in the fields tables](../setup/upload-organizational-data.md#columns-in-the-fields-tables).
+A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet 100% of the validity threshold, because each of row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95% of the validity threshold. (Note that the calculations of validity threshold consider only two kinds of data values: valid values and blank values. This means that, for a validity threshold that's set to 95%, the column will pass validation if fewer than 5% of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.) For more information, see [Field column details](../setup/upload-organizational-data.md#field-column-details).
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (who would be represented by ManagerIDs)?
 
@@ -189,7 +194,7 @@ A7  Yes. The data can include double-byte characters, such as Japanese character
 
 ##### Q1. What is the difference between privacy settings and meeting-exclusion rules?
 
-A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. Note that privacy settings changes apply to future data extractions and are not retroactive to past data. For more information, see [Privacy settings](settings.md#privacy-settings) and [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md). 
+A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. Note that privacy settings changes apply to future data extractions and are not retroactive to past data. For more information, see [Privacy settings](privacy-settings.md) and [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
 Analysts use _meeting-exclusion rules_ in Workplace Analytics queries to help ensure that query results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
 
@@ -205,11 +210,11 @@ A1.  This can happen if you selected only a subset of your population for data a
 
 ##### Q2. Why do the totals seem too high for internal and external collaborators?
 
-A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary header](explore-metrics-external-collaboration.md#summary-header) on the **External collaboration** page do not change because of filters that have been applied in **Page settings**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
+A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary data](explore-metrics-external-collaboration.md#summary-data) on the **External collaboration** page do not change because of filters that have been applied in **Settings and filters**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
-A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For more information, see [Office 365 data summary](office-365-data.md).
+A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Office 365 data](office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
@@ -221,14 +226,14 @@ A5. Teams provides information about collaboration activities, namely direct mes
 
 ##### Q6. When a person sends a message or meeting invite for a group’s shared mailbox or on behalf of another person, who gets credit for sending it?
 
-A6. It depends on the type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](https://docs.microsoft.com/Exchange/recipients/mailbox-permissions).  
+A6. It depends on the type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](/Exchange/recipients/mailbox-permissions).  
 
-* A **shared mailbox** (Microsoft 365 group mailbox) typically has a number of group members that share access and permissions for the group mailbox. An example of a shared mailbox is `LeadershipTeam@Contoso.com`. For details, see [Which permissions you should use in shared mailboxes](https://docs.microsoft.com/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
+* A **shared mailbox** (Microsoft 365 group mailbox) typically has a number of group members that share access and permissions for the group mailbox. An example of a shared mailbox is `LeadershipTeam@Contoso.com`. For details, see [Which permissions you should use in shared mailboxes](/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
 
   * **Send As** permission - When a group member with Send As permission for a shared mailbox sends a message or meeting invitation from the group mailbox, Exchange gives credit to the shared mailbox instead of any single person in the group. Workplace Analytics does not use this action in its calculations.
   * **Send on Behalf** permission – This permission is not available for shared mailboxes in Exchange Admin Center. However, if it is set with PowerShell (GrantSendonBehalf parameter), the person who sends the message gets credit for it in Workplace Analytics calculations.
 
-* An **individual mailbox** (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
+* An **individual mailbox** (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
 
   * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Workplace Analytics calculations.
   * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Workplace Analytics calculations.
@@ -238,7 +243,7 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on the Page settings that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
+A1. Employee data can change based on the Settings and filters that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Settings and filters in Explore the stats](explore-page-settings.md).
 
 ##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 
@@ -252,7 +257,7 @@ This discrepancy can occur when meetings overlap. Workplace Analytics doesn't kn
 
 ##### Q4. What is the total workday length assumed for calculating focus hours?
 
-A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Workplace Analytics uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Workplace Analytics uses the default time-zone setting that your admin sets in Workplace Analytics for that employee. For more details, see [Time zone setting](../setup/configure-wpa-settings.md#time-zone) and [Focus hours and fragmented hours](explore-metrics-week-in-the-life.md#focus-hours-and-fragmented-hours).
+A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Workplace Analytics uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Workplace Analytics uses the default time-zone setting that your admin sets in Workplace Analytics for that employee. For more details, see [Time zone setting](system-defaults.md) and [Focus hours and fragmented hours](explore-metrics-week-in-the-life.md#focus-hours-and-fragmented-hours).
 
 
 ### Queries
@@ -277,13 +282,16 @@ A3. Because totals for working hours and after hours calculate the "time booked 
 ##### Q4. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
 A4. You probably opened the .csv file as is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you are using Excel 2016, follow the steps in [Download and import query results](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
- 
+
+##### Q5. Why don’t a person’s low-quality meeting hours equal the sum of their redundant, conflicting, and multitasking meeting hours in my query?
+
+You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated. For more details, see [Low-quality meeting hours](../use/explore-metrics-meetings-overview.md#low-quality-meeting-hours), [Conflicting meeting hours](../use/explore-metrics-meetings-overview.md#conflicting-meeting-hours), and [Calculation variables](../use/explore-metrics-meetings-overview.md#calculation-variables).
 
 <!-- NEED MORE INFO BEFORE WE CAN INCLUDE THIS: 
 
 ##### Q6. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
 
-A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file. 
+A6. You probably opened the .csv file as is. For Excel to show the data correctly, you need to *import* the .csv file into Excel. For Excel 2016 users, follow the steps in [Download and import a query](view-download-and-export-query-results.md#download-and-import-query-results). For other versions of Excel, open **Help** within Excel and search and use Excel instructions on how to import a .csv file. 
 -->
 
 
@@ -341,19 +349,19 @@ For more details, see [How often to upload](../setup/prepare-organizational-data
 
 ##### Q14. Can I assign multiple Workplace Analytics roles to one account?
 
-A14. Yes. In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard. See [Assign group-based licenses for Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/use/group-based-licensing).)
+A14. Yes. In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard. See [Assign group-based licenses for Workplace Analytics](./group-based-licensing.md).)
 
 ##### Q12. Making privacy settings affects what data?
 
-A12. Privacy settings affect both Office 365 data (such as meeting subject lines) and org data (such as group size). After you make changes to privacy settings, those changes take effect after data is processed in the following month. Privacy-settings changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.) For more information, see [Configure admin settings](../setup/configure-wpa-settings.md#privacy-settings).
+A12. Privacy settings affect both Microsoft 365 data (such as meeting subject lines) and org data (such as group size). After you make changes to privacy settings, those changes take effect after data is processed in the following month. Privacy-settings changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.) For more information, see [Privacy settings](privacy-settings.md).
 
 ##### Q18. When can analysis start?
 
-A18. Analysts can begin to conduct analyses after [privacy settings have been made](../use/settings.md#privacy-settings) and [organizational data has been uploaded](../setup/upload-organizational-data-1st.md). 
+A18. Analysts can begin to conduct analyses after [privacy settings have been made](privacy-settings.md) and [organizational data has been uploaded](../setup/upload-organizational-data-1st.md). 
 
 ##### Q19. Can I exclude a single domain or a specific email address from being analyzed?
 
-A19. Yes. You can specify domains or email addresses to exclude by using the Privacy settings in Workplace Analytics. See [Exclude domains or email addresses](settings.md#exclude-domains-or-email-addresses).
+A19. Yes. You can specify domains or email addresses to exclude by using the Privacy settings in Workplace Analytics. See [Exclude domains or email addresses](privacy-settings.md#exclude-domains-or-email-addresses).
 
 -->
 
@@ -375,22 +383,22 @@ A4.  Yes. The data can include double-byte characters, such as Japanese characte
 
 ##### Q5. Can I append new columns onto an already existing organizational data file?
 
-A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to Step 9 in the [File upload procedure](../setup/upload-organizational-data.md#file-upload) for details.
+A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to the steps in the [File upload](../setup/upload-organizational-data.md#file-upload) for details.
 
 ##### Q7. What are the meanings of the required fields in organizational data?
 
-A7. These are the required fields: 
+A7. The following are required fields: 
 
- * **PersonID.** This is the primary SMTP address of an employee, licensed or unlicensed. For example: ann@contoso.com
+ * **PersonID** - The primary SMTP address of an employee, licensed or unlicensed. For example: ann@contoso.com
 
- * **ManagerID.** This is the primary SMTP address of the manager of the employee for which the data is being collected. For example: jered@contoso.com
+ * **ManagerID** - The primary SMTP address of the manager of the employee for which the data is being collected. For example: jered@contoso.com
 
- * **EffectiveDate.** The day, month, and four-digit year that represents the place in time at which the uploaded data for an individual is accurate.
+ * **EffectiveDate** - The day, month, and four-digit year that represents the place in time at which the uploaded data for an individual is accurate.
 
- * **Organization.** The department the employee works for within the company. For example: *Marketing, IT, Sales, Operations*
+ * **Organization** - The department the employee works for within the company. For example: *Marketing, IT, Sales, Operations*
 
- * **LevelDesignation.** The employee's level, which is represented as a string. This level is specific to your organization and can represent an employee's experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.
+ * **LevelDesignation** - The employee's level, which is represented as a string. This level is specific to your organization and can represent an employee's experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.
 
-For more information, see [Attribute reference](../setup/prepare-organizational-data.md#attribute-reference).
+For details, see [Attribute reference](../setup/prepare-organizational-data.md#attribute-reference).
 
 -->

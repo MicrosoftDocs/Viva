@@ -3,9 +3,11 @@ title: Disabling the Insights Outlook add-in
 description: How to disable the Insights Outlook add-in at the organizational level 
 author: paul9955
 ms.author: v-pausch
-ms.topic: get-started-article
+ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 
 # Disable the Insights Outlook add-in
@@ -13,7 +15,7 @@ ms.prod: Mya
 You can use the following steps to disable the Insights Outlook add-in for your entire organization through the Exchange admin center.
 
 > [!Note]
-> You must be an Office 365 admin to perform these steps.
+> You must be an Microsoft 365 admin to perform these steps.
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 2. In the left navigation pane, select **Exchange**. This opens the dashboard of the Exchange admin center.  

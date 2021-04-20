@@ -7,7 +7,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: Mya
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # MyAnalytics dashboard
@@ -73,8 +74,6 @@ If you don’t meet the qualifications for specific productivity insights on the
 Educational cards give you work productivity and wellbeing tips and ideas, which come from a variety of resources, such as academic and industry research. MyAnalytics refreshes these cards periodically to reflect your most recent work patterns. You can come back at a later time to check out new sets of productivity and educational insights.
 
 ![Educational insights](../../Images/mya/use/educational-tips.png)
-
-
 
 ## Config Settings
 

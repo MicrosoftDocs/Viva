@@ -16,7 +16,7 @@ audience: Admin
 
 # CRM data
 
-This page gives you a high-level view of the latest available CRM data that you uploaded and was successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
+You get a high-level view of the latest available CRM data that you uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
 By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team.
 
@@ -62,11 +62,11 @@ You can select one of the data titles, such as accounts or contacts, to view a l
 
 Similar to the Organizational data page, the CRM data attributes list includes the following.
 
-* **Data upload date**: Shows when the data was last uploaded and processed, which is at the top of the list.
-* **Attribute**: Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
-* **Employees with this attribute**: Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
-* **Coverage**: Shows the percentage of attributes that have non-blank values. For example, in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the **AccountAnnualRevenue** attribute.
-* **Unique values**: The count of the unique attribute values included in the data.
+* **Data upload date** - Shows when the data was last uploaded and processed, which is at the top of the list.
+* **Attribute** - Lists the attributes provided in the uploaded data. When you [create queries](../Tutorials/Query-basics.md), you can filter and group accounts with a few of these attributes, so being familiar with these helps give insight into the types of queries you might want to create for analysis.
+* **Employees with this attribute** - Depending on what data you're looking at, this shows the number of people that have that attribute in that data file. For example, the following graphic shows the number of contacts that have a non-blank value for that attribute.
+* **Coverage** - Shows the percentage of attributes that have non-blank values. For example, in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the **AccountAnnualRevenue** attribute.
+* **Unique values** - The count of the unique attribute values included in the data.
 
 ![View CRM attributes for accounts](../images/wpa/Use/crm-account-attributes.png)
 
@@ -91,7 +91,7 @@ The **Account details** page includes the following.
 
 * The **Number of collaborators matched** chart shows the number of external collaborators matched with accounts by default and by default plus extrapolation, which correspond to the Account collaboration coverage chart.
 
-  * **Default match with CRM data** is based on the imported data from the CRM upload to match up email addresses for Office 365 external collaborators with email addresses for CRM contacts.
+  * **Default match with CRM data** is based on the imported data from the CRM upload to match up email addresses for Microsoft 365 external collaborators with email addresses for CRM contacts.
   * **Default + Extrapolation match with CRM data** includes the same default email comparison data and for any *unmatched external collaborators*, it then calculates the probability of which CRM account they most likely match up with. If the probability that an external collaborator belongs to a specific CRM account is high, the external collaborator is assigned to that account. This option provides more coverage for external collaborators and for capturing more customer interactions.
 * The **Collaboration time** chart shows the number of collaboration hours that employees invested with external collaborators in each of the ‘matched by default’ and ‘matched by default + extrapolation’ groups. The collaboration time is based on interactions through email, meeting, calls, and instant messages.
 * The **Account collaboration by domain** table lists collaborator domains and the following related  account details:
@@ -104,9 +104,9 @@ The **Account details** page includes the following.
 
   ![View details for CRM account collaboration coverage](../images/wpa/Use/crm-account-collab-details.png)
 
-### Download data set
+### Download dataset
 
-The **Account collaboration by domain** table can list up to a maximum of 500 CRM accounts. To view the complete data set for accounts larger than 500, you can view all the accounts in the downloaded .csv file. You have the following options when you download the accounts data set: 
+The **Account collaboration by domain** table can list up to a maximum of 500 CRM accounts. To view the complete dataset for accounts larger than 500, you can view all the accounts in the downloaded .csv file. You have the following options when you download the accounts dataset:
 
   ![CRM account collaboration details download](../images/wpa/Use/crm-download.png)
 

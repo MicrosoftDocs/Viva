@@ -1,15 +1,14 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Person-to-group queries in Workplace Analytics
 description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer
 ms.author: v-mideh
-ms.date: 05/22/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Person-to-group queries
@@ -23,12 +22,12 @@ Person-to-group queries in Workplace Analytics help you understand how an indivi
 
 ## Overview of time allocation
 
-An understanding of time allocation helps you create better group queries. The details of time allocation can be complicated. Here is a summary of the basic concepts:
+An understanding of time allocation helps you create better person-to-group queries. The details of time allocation can be complicated. Here is a summary of the basic concepts:
 
-* Time allocation measures how groups spent their time. For each interaction (a meeting attended or an email sent or received), the total time that one group spent on the interaction is divided among the other groups that participated.
+* Time allocation measures how individuals spent their time. For each interaction (a meeting attended or an email sent or received), the total time that a person spent on the interaction is divided among the other groups that participated.
 * A time investor allocates their time among the other participants in the interaction (the collaborators) in proportion to how many people are in the collaborator group for that interaction.
-* A group query can analyze time allocation only for employees in the population of measured employees, namely those who are licensed for Workplace Analytics. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.
-* The time-allocation approach assumes that a time-investor group allocates time only to themselves if no other groups are participating in the meeting or email.
+* A person-to-group query can analyze time allocation only for employees in the population of measured employees, namely those who are licensed for Workplace Analytics. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.
+* The time-allocation approach assumes that time investors allocate time only to themselves if no other groups are participating in the meeting or email.
 
 ## Create a person-to-group query
 
@@ -71,7 +70,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 11. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 12. Select **Run** at the top right to run the query.
-13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](https://docs.microsoft.com/workplace-analytics/use/view-download-and-export-query-results#get-a-link-for-odata-feed-that-you-can-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 

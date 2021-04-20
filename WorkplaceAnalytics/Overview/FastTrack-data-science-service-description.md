@@ -7,14 +7,16 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Workplace Analytics FastTrack Data Science Service
 
 ## Service Overview
 
-* The Workplace Analytics Analysis Service offered under Office 365 FastTrack provides you with assistance on running Workplace Analytics queries and interpreting those results.
-* The Workplace Analytics Azure Template Service offered under Office 365 FastTrack provides you additional data exports and analytics with customized metrics. It supplements what your users can get on their own using the Workplace Analytics platform. This service is available for customers with active Office 365 services for Workplace Analytics.
+* The Workplace Analytics Analysis Service offered under Microsoft 365 FastTrack provides you with assistance on running Workplace Analytics queries and interpreting those results.
+* The Workplace Analytics Azure Template Service offered under Microsoft 365 FastTrack provides you additional data exports and analytics with customized metrics. It supplements what your users can get on their own using the Workplace Analytics platform. This service is available for customers with active Microsoft 365 services for Workplace Analytics.
 
 ## Policy and steps
 
@@ -31,7 +33,7 @@ ms.prod: wpa
 
 ## Services out-of-scope
 
- * Office 365 Tenant configuration and access provisioning.
+ * Microsoft 365 Tenant configuration and access provisioning.
 
 ## FastTrack Data Service specialists do the following
 

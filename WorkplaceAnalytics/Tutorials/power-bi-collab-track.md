@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Ways of working tracker
@@ -92,7 +94,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 After the Ways of working tracker dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
-* **Earlier time  period** - This is the baseline for your analysis and all changes will be compared with this time frame.
+* **Earlier time period** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
     >[!Note]
     >The **Earlier time frame** must precede and not overlap with the **Current time frame**. If the two timeframes overlap, you'll get a warning about the timelines overlapping.
@@ -132,7 +134,7 @@ The dashboard also includes an **Example interventions** page that has ideas on 
 
 Use this training module: 
 
-[Drive organizational change with Microsoft Workplace Analytics and MyAnalytics](https://aka.ms/wpa-bcd) 
+[Drive organizational change with Microsoft Workplace Analytics and MyAnalytics](/learn/modules/workplace-analytics-business-continuity/) 
 
 ... to learn how to do the following: 
  * define Microsoft 365 tools that drive behavior change
@@ -147,5 +149,3 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 ## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
-
-

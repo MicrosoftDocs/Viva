@@ -5,14 +5,14 @@
       href: ~/index-orig.md
     - name: Privacy and data protection
       items:
-        - name: Introduction                   
+        - name: Introduction
           href: ~/Privacy/data-protection-intro.md
-        - name: Data-protection considerations                 
+        - name: Data-protection considerations
           href: ~/Privacy/data-protection-considerations.md
         - name: Data de-identification
           href: ~/Privacy/de-identify-data.md
         - name: Differential privacy
-          href: ~/Privacy/differential-privacy.md          
+          href: ~/Privacy/differential-privacy.md
         - name: Privacy and data access
           href: ~/Privacy/privacy-and-data-access.md
         - name: Data retention policy
@@ -20,13 +20,13 @@
     - name: Setup and Maintenance
       items:
         - name: Environment requirements    
-          href: ~/setup/environment-requirements.md         
+          href: ~/setup/environment-requirements.md
         - name: Set up Workplace Analytics
           href: ~/setup/set-up-workplace-analytics.md
-        - name: Maintain Workplace Analytics    
-          href: ~/setup/maintain-workplace-analytics.md     
+        - name: Maintain Workplace Analytics
+          href: ~/setup/maintain-workplace-analytics.md
         - name: Assign licenses
-          items: 
+          items:
             - name: Introduction
               href: ~/setup/assign-licenses-to-population.md
             - name: Assign group-based licenses
@@ -34,51 +34,63 @@
             - name: Assign licenses with PowerShell
               href: ~/use/Assigning-licenses-with-powershell.md
         - name: Assign roles
-          items: 
+          items:
             - name: Introduction
               href: ~/setup/assign-roles-to-wpa-admins.md
             - name: User roles
               href: ~/Use/User-Roles.md
             - name: Assign user and group roles
               href: ~/setup/assign-user-roles.md
-        - name: Workplace Analytics settings
-          href: ~/Use/Settings.md
-        - name: Prepare organizational data
-          href: ~/setup/prepare-organizational-data.md
-        - name: Upload organizational data
-          items: 
-            - name: First upload
-              href: ~/setup/upload-organizational-data-1st.md 
-            - name: Subsequent uploads
-              href: ~/setup/upload-organizational-data.md 
-            - name: Upload CRM data
-              href: ~/setup/crm-data-upload.md
-        - name: Exclusion rules 
-          items:
-            - name: Introduction to exclusion rules
-              href: ~/tutorials/exclusions-introduction.md
-            - name: Meeting exclusions    
-              items:             
-                - name: Introduction
-                  href: ~/tutorials/meeting-exclusions-intro.md
-                - name: Walkthroughs
-                  href: ~/tutorials/meeting-exclusion-rules.md
-                - name: Tools and concepts
-                  href: ~/tutorials/meeting-exclusion-concept.md
-            - name: Attendee exclusions    
-              items:
-                - name: Attendee exclusions
-                  href: ~/tutorials/attendee-exclusion-rules.md
-        - name: Data sources
+        - name: Settings
           items:
             - name: Introduction
-              href: ~/Use/data-sourcesv2.md 
-            - name: Office 365 data
-              href: ~/Use/office-365-data.md
-            - name: Organizational data
-              href: ~/Use/organizational-data.md
-            - name: CRM data
-              href: ~/Use/crm-data.md
+              href: ~/Use/Settings.md
+            - name: Sources
+              items:
+                - name: Introduction
+                  href: ~/Use/data-sourcesv2.md 
+                - name: Office 365 data
+                  href: ~/Use/office-365-data.md
+                - name: Organizational data
+                  href: ~/Use/organizational-data.md
+                - name: CRM data
+                  href: ~/Use/crm-data.md
+            - name: Upload
+              items:
+                - name: Prepare organizational data
+                  href: ~/Setup/prepare-organizational-data.md
+                - name: Upload organizational data
+                  items: 
+                    - name: First upload
+                      href: ~/Setup/upload-organizational-data-1st.md 
+                    - name: Subsequent uploads
+                      href: ~/Setup/Upload-organizational-data.md 
+                    - name: Upload CRM data
+                      href: ~/Setup/crm-data-upload.md
+            - name: Admin settings
+              items:
+                - name: Introduction
+                  href: ~/Use/admin-settings.md
+                - name: System defaults
+                  href: ~/Use/system-defaults.md
+                - name: Privacy settings
+                  href: ~/Use/privacy-settings.md
+                - name: Manager settings
+                  href: ~/Use/manager-settings.md
+            - name: Analysis settings
+              items:
+                - name: Introduction
+                  href: ~/tutorials/exclusions-introduction.md
+                - name: Meeting exclusions
+                  items:
+                    - name: Introduction
+                      href: ~/tutorials/meeting-exclusions-intro.md
+                    - name: Walkthroughs
+                      href: ~/tutorials/meeting-exclusion-rules.md
+                    - name: Tools and concepts
+                      href: ~/tutorials/meeting-exclusion-concept.md
+                - name: Attendee exclusions
+                  href: ~/tutorials/attendee-exclusion-rules.md
         - name: Workplace Analytics audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
@@ -87,6 +99,14 @@
           href: ~/Overview/Get-started.md
         - name: Home
           items:
+            - name: Viva Insights in Teams
+              items:
+                - name: Introduction
+                  href: ~/use/viva-insights-intro.md
+                - name: My Team
+                  href: ~/use/viva-insights-my-team.md
+                - name: My Organization
+                  href: ~/use/viva-insights-my-org.md
             - name: Insights
               items:
                 - name: Overview
@@ -109,6 +129,8 @@
                   href: ~/Use/transform-meetings.md
                 - name: Increase customer focus
                   href: ~/Use/customer-focus.md
+            - name: Insights in Power BI
+              href: ~/tutorials/pbi-home-deeper.md
             - name: Manager insights
               items:
                 - name: Overview
@@ -120,36 +142,40 @@
         - name: Analyze
           items:
             - name: Peer analysis
-              href: ~/Use/peer-analysis.md
+              href: ~/use/peer-analysis.md
+#           - name: Analyze business processes
+#             href: ~/tutorials/analyze-business-processes.md              
             - name: Queries
               items:
                 - name: Overview
-                  href: ~/tutorials/Query-basics.md 
+                  href: ~/tutorials/Query-basics.md
                 - name: Person queries
-                  href: ~/tutorials/Person-queries.md  
+                  href: ~/tutorials/Person-queries.md
                   items:
                     - name: Visualize person queries
-                      href: ~/tutorials/query-visualization.md              
+                      href: ~/tutorials/query-visualization.md
                 - name: Meeting queries
                   href: ~/tutorials/Meeting-queries.md
                 - name: Group-to-group queries
                   href: ~/tutorials/Group-to-group-queries.md
                 - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md 
+                  href: ~/tutorials/Person-to-group-queries.md
                 - name: Queries with CRM data
-                  href: ~/tutorials/crm-queries.md    
+                  href: ~/tutorials/crm-queries.md
                 - name: Peer comparison queries
                   href: ~/tutorials/comparison-query.md
                 - name: ONA queries
                   items: 
                     - name: ONA person queries
-                      href: ~/tutorials/ona-person-query.md 
+                      href: ~/tutorials/ona-person-query.md
                     - name: ONA person-to-person queries
                       href: ~/tutorials/ona-person-to-person-query.md
                 - name: Power BI templates
                   items:
                     - name: Introduction
                       href: ~/tutorials/power-bi-intro.md
+                    - name: Behavior patterns for Glint
+                      href: ~/tutorials/power-bi-glint.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Collaboration overload
@@ -173,13 +199,13 @@
                     - name: Tips, FAQs, and troubleshooting
                       href: ~/tutorials/power-bi-templates.md
                 - name: Customize a metric
-                  href: ~/tutorials/Customize-a-metric.md                    
+                  href: ~/tutorials/Customize-a-metric.md
                 - name: View, download, and export query results
                   href: ~/Use/View-download-and-export-query-results.md
                 - name: Understand and interpret query output
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
-                  href: ~/tutorials/Query-auto-refresh.md                    
+                  href: ~/tutorials/Query-auto-refresh.md
             - name: Explore the stats
               items:
                 - name: Overview
@@ -220,7 +246,7 @@
                   href: ~/tutorials/solutionsv2-conceptual.md
             - name: Opportunities scan
               href: ~/Use/solutions-scan.md
-    - name: Notifications
+    - name: Notifications 
       href: ~/use/wpa-notifications.md 
     - name: Frequently asked questions
       href: ~/use/faq.md
@@ -230,6 +256,8 @@
           href: ~/Use/Glossary.md
         - name: Workplace Analytics metrics
           href: ~/Use/metric-definitions.md
+        - name: Metric filters
+          href: ~/Use/metric-filters.md          
         - name: Best practices
           href: ~/Tutorials/gm-best-practices.md
         - name: Time zones for Workplace Analytics
@@ -252,13 +280,13 @@
     - name: Introduction
       href: MyAnalytics/MyA-landing-page.md
     - name: Why use MyAnalytics?
-      href: MyAnalytics/Overview/Better-work-habits.md        
+      href: MyAnalytics/Overview/Better-work-habits.md
     - name: Reference
       items:
         - name: Frequently asked questions
-          href: MyAnalytics/Overview/mya-faq.md  
+          href: MyAnalytics/Overview/mya-faq.md
         - name: MyAnalytics languages
-          href: myanalytics/overview/mya-languages.md  
+          href: myanalytics/overview/mya-languages.md
     - name: MyAnalytics elements
       items: 
         - name: Introduction
@@ -270,7 +298,7 @@
             - name: Insights add-in
               href: myanalytics/use/add-in.md
             - name: Use Insights
-              href: myanalytics/use/use-the-insights.md          
+              href: myanalytics/use/use-the-insights.md
         - name: Digests
           items:
             - name: Welcome
@@ -279,20 +307,22 @@
               href: MyAnalytics/use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
+        - name: Delay delivery
+          href: MyAnalytics/use/delay-delivery.md
         - name: Focus plan
-          href: MyAnalytics/use/focus-plan.md    
+          href: MyAnalytics/use/focus-plan.md
     - name: MyAnalytics admin guide
       items: 
         - name: Introduction
           href: MyAnalytics/overview/mya-for-admins.md
         - name: MyAnalytics deployment guide
-          href: MyAnalytics/setup/deployment-guide.md         
+          href: MyAnalytics/setup/deployment-guide.md
         - name: MyAnalytics setup
           href: MyAnalytics/setup/configure-myanalytics.md
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide.md    
+          href: MyAnalytics/overview/privacy-guide.md
     - name: Use MyAnalytics
       items:
       - name: Data privacy
@@ -303,23 +333,20 @@
         items:
         - name: Focus
           href: MyAnalytics/use/focus.md
- #         items: 
- #           - name: Focus plan
- #             href: MyAnalytics/use/focus-plan.md          
         - name: Wellbeing
           href: MyAnalytics/use/wellbeing.md
         - name: Network
           href: MyAnalytics/use/network.md
         - name: Collaboration
-          href: MyAnalytics/use/collaboration.md  
+          href: MyAnalytics/use/collaboration.md
 #        - name: Executive
-#          href: MyAnalytics/use/executive.md            
+#          href: MyAnalytics/use/executive.md
         - name: Leadership
           href: MyAnalytics/use/leadership.md 
       - name: Adopt MyAnalytics
         items: 
           - name: Introduction 
-            href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md 
+            href: MyAnalytics/Use/mya-adoption/Adopt-myanalytics.md
           - name: Individual adoption
             items: 
             - name: Get started
@@ -328,7 +355,7 @@
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-diagnose.md
             - name: Set your goal
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-set-goals.md
-            - name: Develope new habits
+            - name: Develop new habits
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-develop-habits.md
             - name: Sustain change
               href: MyAnalytics/Use/mya-adoption/Indiv-adopt-sustain-change.md

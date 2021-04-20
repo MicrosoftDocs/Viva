@@ -1,18 +1,20 @@
 ---
 
 title: Workplace Analytics metric definitions 
-description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics
+description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
+manager: scott.ruble
+audience: Admin
 ms.prod: wpa
 
 ---
 
 # Metric descriptions for Workplace Analytics
 
-To customize your Workplace Analytics [queries](../tutorials/query-basics), you can use the metrics that are defined on this page. They are organized by query type:
+To customize your Workplace Analytics [queries](../tutorials/query-basics.md), you can use the metrics that are defined on this page. They are organized by query type:
 
 * [Person metrics](#person-metrics)
 * [Peer comparison metrics](#peer-comparison-metrics)
@@ -54,7 +56,7 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 |Internal network size|   The number of people within the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks.  |Person|Count|Yes |
 |  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours |Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](system-defaults.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. **Note**: Calculations for conflicting meeting hours are affected by meeting exclusion rules and adjustments based on the type of meetings that overlap (non-declined work meetings, focus hours, and out-of-office time).|Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
-|<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
+|<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person during and outside of working hours.|Person|Hour|Yes|
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-define"></a>  Meeting hours with manager | Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-1-1-define"></a> Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
@@ -136,3 +138,4 @@ These metrics are based on the following collaboration activities: emails, meeti
 | <a name="influence-rank-define"></a> Influence rank &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | One of a sequence of numbers that starts with 1. A rank of 1 represents the person with the greatest [Influence](#influence-define) score; a rank of 2 represents the person with the next greatest Influence score, and so on. If two people have the same Influence score, they also have the same influence rank. |ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | <a name="strong-tie-score-define"></a> Strong tie score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | A numeric score that indicates how strong and tight a person’s engagements are. It is based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, [meetings](glossary.md#meeting-define), Teams [calls](glossary.md#call-define), and Teams chats.) <br>For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. | ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | <a name="strong-tie-type-define"></a> Strong tie type &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | A value that indicates the relative strength of the person's strong ties. 0 means that the tie is not strong; 1 means that the tie is strong; 2 is an intermediate value that means stronger than 0 but weaker than 1. (The Strong tie type metric is derived from the [Strong tie score](#strong-tie-score-define) metric, which in turn is based on the thresholds that are described in [The last columns give the results](../tutorials/ona-person-to-person-query.md#the-last-columns-give-the-results).) | ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+

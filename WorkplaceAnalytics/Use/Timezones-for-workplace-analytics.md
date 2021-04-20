@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Time zones for Workplace Analytics
 description: This article introduces the time-zone formats required in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
-ms.date: 05/07/2019
 ms.topic: article
 localization_priority: normal 
 search.appverid:
@@ -23,10 +20,10 @@ The default time zone in Workplace Analytics is Pacific Standard Time. The follo
 
 When you prepare organizational data for upload to Workplace Analytics, use the following time zone names (the TimeZone attribute) exactly as they appear:
 
-||||
-|---|---|---|
-|Afghanistan Standard Time|	Ekaterinburg Standard Time|Pacific Standard Time (Mexico)|	
-|Alaskan Standard Time|	Fiji Standard Time|Pakistan Standard Time|
+| &nbsp; | &nbsp; | &nbsp; |
+| ------ | ------ | ------ |
+|Afghanistan Standard Time| Ekaterinburg Standard Time|Pacific Standard Time (Mexico)|
+|Alaskan Standard Time| Fiji Standard Time|Pakistan Standard Time|
 |Aleutian Standard Time|FLE Standard Time|Paraguay Standard Time|
 |Altai Standard Time|Georgian Standard Time|Romance Standard Time|
 |Arab Standard Time|GMT Standard Time|Russia Time Zone 3|
@@ -45,7 +42,7 @@ When you prepare organizational data for upload to Workplace Analytics, use the 
 |Belarus Standard Time|Libya Standard Time|South Africa Standard Time|
 |Bougainville Standard Time|Line Islands Standard Time|Sri Lanka Standard Time|
 |Canada Central Standard Time|Lord Howe Standard Time|Syria Standard Time|
-|Cape Verde Standard Time|Magadan Standard Time|Taipei Standard Time|
+|Cape Verde Standard Time| Magadan Standard Time|Taipei Standard Time|
 |Caucasus Standard Time|Magallanes Standard Time|Tasmania Standard Time|
 |Cen. Australia Standard Time|Marquesas Standard Time|Tocantins Standard Time|
 |Central America Standard Time|Mauritius Standard Time|Tokyo Standard Time|
@@ -54,7 +51,7 @@ When you prepare organizational data for upload to Workplace Analytics, use the 
 |Central Europe Standard Time|Montevideo Standard Time|Transbaikal Standard Time|
 |Central European Standard Time|Morocco Standard Time|Turkey Standard Time|
 |Central Pacific Standard Time|Mountain Standard Time|Turks And Caicos Standard Time|
-|Central Standard Time|	Mountain Standard Time (Mexico)|Ulaanbaatar Standard Time|
+|Central Standard Time | Mountain Standard Time (Mexico)|Ulaanbaatar Standard Time|
 |Central Standard Time (Mexico)|Myanmar Standard Time|US Eastern Standard Time|
 |Chatham Islands Standard Time|N. Central Asia Standard Time|US Mountain Standard Time|
 |China Standard Time|Namibia Standard Time|Venezuela Standard Time|
@@ -65,6 +62,6 @@ When you prepare organizational data for upload to Workplace Analytics, use the 
 |E. Europe Standard Time|North Asia East Standard Time|W. Mongolia Standard Time|
 |E. South America Standard Time|North Asia Standard Time|West Asia Standard Time|
 |Easter Island Standard Time|North Korea Standard Time|West Bank Standard Time|
-|Eastern Standard Time|	Omsk Standard Time|	West Pacific Standard Time|
+|Eastern Standard Time| Omsk Standard Time| West Pacific Standard Time|
 |Eastern Standard Time (Mexico)|Pacific SA Standard Time|Yakutsk Standard Time|
 |Egypt Standard Time|Pacific Standard Time||

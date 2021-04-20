@@ -6,6 +6,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Seller success plan
@@ -76,7 +78,7 @@ If you have a particular group in mind, you can identify the group in either of 
 
     ![Use filters to find group](../images/wpa/tutorials/seller-plan-filters.png)
 
-3. After you have selected the group(s) of participants, select **Validate**.
+3. After you select the group(s) of participants, select **Validate**.
   
     Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
 
@@ -94,7 +96,7 @@ If you have a particular group in mind, you can identify the group in either of 
 
 After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. (In validation results, you see only the number of users for whom errors were found; no individual users are identified.) 
 
-After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
+After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/privacy-settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
 
 <!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
@@ -105,7 +107,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 **Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.
 
-After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan.
+After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this information can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan.
 
 ![Email top](../images/wpa/tutorials/email-top-70-30-new.png)
 
@@ -193,7 +195,7 @@ The final card in the digest is the Explore card. On this card, select **Explore
 
 **Q4.** This email contains charts that describe my workplace behavior. Where did this data come from?
 
-**A4.** On a weekly basis, Workplace Analytics receives from Office 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
+**A4.** On a weekly basis, Workplace Analytics receives from Microsoft 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
 
 **Q5.** Who else can see this data about me?
 

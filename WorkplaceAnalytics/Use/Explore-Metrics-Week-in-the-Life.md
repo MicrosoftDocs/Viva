@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Week in the life
@@ -14,6 +16,10 @@ ms.prod: wpa
 **Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email or instant message during a week are considered active and are included in the data for the weeks they are active.
 
 ![Week in the life](../images/wpa/use/week-in-the-life.png)
+
+## Access to Week in the life
+
+You can open [Week in the life](https://workplaceanalytics.office.com/Home/Innovation/WeekintheLife) to view it in Workplace Analytics.
 
 ## All collaboration hours
 

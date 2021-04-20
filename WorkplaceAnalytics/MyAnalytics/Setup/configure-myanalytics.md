@@ -1,17 +1,20 @@
 ---
 
-title: MyAnalytics configuration for Office 365 administrators
-description: Configuration options that Office 365 administrators can make for MyAnalytics users
+title: MyAnalytics configuration for Microsoft 365 administrators
+description: Configuration options that Microsoft 365 administrators can make for MyAnalytics users
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
+
 ---
 
 # Configure MyAnalytics
 
-**Role:** Office 365 admins
+**Role:** Microsoft 365 admins
 
 The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following:
 
@@ -31,7 +34,7 @@ The steps in this topic describe how to configure MyAnalytics for the users in y
 
 MyAnalytics is available to users who are assigned a license with a MyAnalytics service plan. For more details about which licenses have MyAnalytics service plans and when users get access to MyAnalytics elements after license assignment, see [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
-For information on how to assign a license, see [Assign licenses to users in Office 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+For information on how to assign a license, see [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 
 <!-- If you don't want a user to see any statistics from MyAnalytics, you can disable the MyAnalytics service plan for that user. -->
 
@@ -91,22 +94,23 @@ You can configure MyAnalytics access for individual users in your organization. 
 You configure MyAnalytics by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings). Before you can make this setting, you must take preparatory steps; see [Command sequence](#command-sequence).
 
 > [!Important] 
-> You might have scripts in place that use the PowerShell cmdlets [Get-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/get-useranalyticsconfig?view=exchange-ps) and [Set-UserAnalyticsConfig](https://docs.microsoft.com/powershell/module/exchange/set-useranalyticsconfig?view=exchange-ps). By January 25, 2021, these cmdlets will be retired, and replaced by the new cmdlets [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) and [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps), respectively. Please be sure to update your workflow and scripts to use the new cmdlets (as described in the following sections) by that date.
-> While the old cmdlets are still available (before January 25, 2021), you can find information about them here: [Configure access at the user level (old cmdlets)](config-mya-retired.md). 
+> The PowerShell cmdlets [Get-UserAnalyticsConfig](/powershell/module/exchange/get-useranalyticsconfig) and [Set-UserAnalyticsConfig](/powershell/module/exchange/set-useranalyticsconfig), which you might have used to configure access to MyAnalytics, are no longer available. Instead, please use the following new cmdlets: [Get-MyAnalyticsFeatureConfig](/powershell/module/exchange/get-myanalyticsfeatureconfig) and [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig), which offer the same functionality along with some additional granular control.
 
 ### User configuration settings
 
 PrivacyMode parameter  | Licensed user  | Unlicensed user
 ------------- | -------------  | ---------------
-Opt-in (default setting)        | <ul><li>Office 365 data is used for aggregated information shown to licensed users</li><li>Dashboard is available</li><li>User can opt out</li></ul>  | <ul><li>Office 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
-Opt-out    | <ul><li>Office 365 data is not used for aggregated information shown to licensed users</li><li> Dashboard is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Office 365 data is not used for aggregated information shown to licensed users.</li></ul> |
+Opt-in (default setting)        | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Dashboard is available</li><li>User can opt out</li></ul>  | <ul><li>Microsoft 365 data is used for aggregated information shown to licensed users</li><li>Admins can opt out unlicensed users through the admin PowerShell </li></ul>  
+Opt-out    | <ul><li>Microsoft 365 data is not used for aggregated information shown to licensed users</li><li> Dashboard is not available</li><li>User can opt in through the Feature settings menu</li></ul>   |  <ul><li> Microsoft 365 data is not used for aggregated information shown to licensed users.</li></ul> |
 
+<!-- REMOVED THIS PER VIKRAM 5 MARCH 2021: 
 > [!Important] 
 > The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
+-->
 
-### Command sequence 
+### Command sequence
 
-You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps) and [Get-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/get-myanalyticsfeatureconfig?view=exchange-ps) cmdlets to work with user configuration settings. Before you can use them, you need to install a module and sign in to be authenticated. This is the sequence of steps:
+You will use the [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) and [Get-MyAnalyticsFeatureConfig](/powershell/module/exchange/get-myanalyticsfeatureconfig) cmdlets to work with user configuration settings. Before you can use them, you need to install a module and sign in to be authenticated. This is the sequence of steps:
 
 1. [Connect to Exchange Online](#connect-to-exchange-online) and, when prompted, sign in with your admin credentials. 
 2. After you've signed in, you are ready to work with user-configuration settings: 
@@ -114,36 +118,42 @@ You will use the [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/power
    * [Confirm MyAnalytics access for a user](#confirm-myanalytics-access-for-a-user)
    * [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
 
+<!-- REMOVED 2/12/21 PER VIKRAM
+> [!Note] 
+> Certificate-based authentication is currently not supported for cmdlets. 
+-->
 
 #### Connect to Exchange Online
 
-In this procedure, you install prerequisites and then you install the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps). 
+In this procedure, you install prerequisites and then you install the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online-powershell-v2). 
 
 1. Open PowerShell.
 
-2. <u>Prerequisite #1:</u> Installing packages from the [PowerShell Gallery](https://docs.microsoft.com/powershell/scripting/gallery/getting-started?view=powershell-7.1) requires the latest version of the PowerShellGet module. Run this command to install it:
+2. <u>Prerequisite #1:</u> Installing packages from the [PowerShell Gallery](/powershell/scripting/gallery/getting-started) requires the latest version of the PowerShellGet module. Run these commands to install it:
 
    ```powershell
    Install-Module PowerShellGet –Repository PSGallery –Force
    ```
-       
-   For more information, see [Installing PowerShellGet](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget?view=powershell-7.1).  
+          
+   For more information, see [Installing PowerShellGet](/powershell/scripting/gallery/installing-psget).  
 
 3. <u>Prerequisite #2:</u> Install the Exchange Online PowerShell V2 module:
 
    ```powershell
-   Install-Module -Name ExchangeOnlineManagement -AllowPrerelease 
+   Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4
    ```
-   
+
+   For more information, see [Install-Module](/powershell/module/powershellget/install-module). 
+
+ <!--  
    If this results in a warning that states, for example, that a previous 'ExchangeOnlineManagement' module is already installed, run the command again, this time with the '-Force' parameter: 
 
    ```powershell
    Install-Module -Name ExchangeOnlineManagement -AllowPrerelease -Force
    ```
+-->
    
-   For more information, see [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7.1). 
-   
-4. <u>Connect to Exchange Online.</u> In PowerShell, run the command [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/connect-exchangeonline?view=exchange-ps). 
+4. <u>Connect to Exchange Online.</u> In PowerShell, run the command [Connect-ExchangeOnline](/powershell/module/exchange/connect-exchangeonline). 
 
    ```powershell
    Connect-ExchangeOnline
@@ -164,8 +174,9 @@ Parameter   |   Required   |   Description   | Default value
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD)   |   --
 PrivacyMode   |   Yes   | <ul><li>**Opt-out**: MyAnalytics won't use the user's data to compute derived statistics for other users. The user won't see statistics in MyAnalytics, but can choose to opt in from the Feature settings menu.</li><li>**Opt-in**: MyAnalytics uses the user's data to compute derived statistics for other users. The user can see statistics in MyAnalytics, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
+<!-- REMOVED MARCH 5 PER VIKRAM: 
 > [!Important]
-> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out.
+> The 'Excluded' value of PrivacyMode is being retired. Users whose privacy mode was previously set to Excluded will now be set to Opt-out. -->
 
 Use Set-MyAnalyticsFeatureConfig to change the configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's MyAnalytics features were turned on except the digest email:
 
@@ -203,7 +214,7 @@ Get-MyAnalyticsFeatureConfig reveals the current configuration settings of the u
 
 #### Set MyAnalytics access for multiple users
 
-Use the following steps in the [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2) to change access to MyAnalytics (the value of PrivacyMode) for multiple users by running a PowerShell script that iterates through the users, changing the value one user at a time.
+Use the following steps in the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2) to change access to MyAnalytics (the value of PrivacyMode) for multiple users by running a PowerShell script that iterates through the users, changing the value one user at a time.
 
 1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field of the users you want to configure. For example:
 
@@ -234,7 +245,7 @@ Use the following steps in the [Exchange Online PowerShell V2 module](https://do
    
    Also see [Command reference: Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig).
 
-3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
+3. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
 
 This PowerShell script:
 
@@ -244,7 +255,7 @@ This PowerShell script:
 
 ### Command reference: Set-MyAnalyticsFeatureConfig
 
-The PowerShell command [Set-MyAnalyticsFeatureConfig](https://docs.microsoft.com/powershell/module/exchange/set-myanalyticsfeatureconfig?view=exchange-ps) can be used in three different ways:
+The PowerShell command [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) can be used in three different ways:
 
  * [Set the PrivacyMode parameter](#set-the-privacymode-parameter)
  * [Enable or disable MyAnalytics features](#enable-or-disable-myanalytics-features)

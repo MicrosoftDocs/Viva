@@ -57,7 +57,7 @@ This template combines the data in these files and generates a table that shows 
 ## Create an Interaction file
 
 1. Confirm you are assigned the [Analyst role in Workplace Analytics](../use/user-roles.md), which is required to create this file.
-2. Sign in as an **Analyst** and open [Workplace Analytics](https://workplaceanalytics.office.com/Home).
+2. Sign in as an **Analyst** and open [Workplace Analytics](https://workplaceanalytics.office.com/).
 3. Select **Analyze** > **Queries**.
 4. In **Start custom query**, select **Group-to-group query**.
 
@@ -95,7 +95,7 @@ This template combines the data in these files and generates a table that shows 
 > [!Note]
 > Only include workspaces that you want to account for or utilize.
 
-1. Open and save the [space_capacity.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage. The file must be named **space_capacity.csv** (match exactly).
+1. Open and save the [space_capacity.csv](/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage. The file must be named **space_capacity.csv** (match exactly).
 2. In the **Floor** (first) column in the file, replace the example floor names with your own that match the same format of [**Building name**-**Floor number**], as shown in the following graphic.
 
    * Use valid characters, including: **a-z**, **A-Z**, **0-9**, "**-**" (dashes), and " " (spaces)
@@ -121,7 +121,7 @@ The following graphic depicts a building with four floors. The distance between 
 
 ### To create a Distance file
 
-1. Open and save the [distance.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/distance.csv) file to local storage.
+1. Open and save the [distance.csv](/Workplace-Analytics/azure-templates/images/distance.csv) file to local storage.
 2. In the first row and the first column, replace the example data with the locations you want processed with the structure that match the same format of [**Building name**-**Floor number**], similar to the data shown in the following graphic.
 3. Starting in the second row and column, enter the distances where the corresponding locations intersect to denote the distance between the two locations.
 4. Save and close the file.
@@ -138,7 +138,7 @@ The following graphic depicts a building with four floors. The distance between 
 * **Team** is the name of the team or group that is being moved, which should match the names of the teams within the Interaction file.
 * **Actual Size** is the total number of people that are a part of the team to account for during the move.
 
-1. Open and save the [team_size.csv](https://docs.microsoft.com/Workplace-Analytics/azure-templates/images/team_size.csv) file to local storage.
+1. Open and save the [team_size.csv](/Workplace-Analytics/azure-templates/images/team_size.csv) file to local storage.
 2. Starting in the second row, replace the example data with your own that matches the same format, similar to what's shown in the following graphic.
 
    * **Team** - Enter the name or function of each team.

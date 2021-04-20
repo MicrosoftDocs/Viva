@@ -7,13 +7,15 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Frequently asked questions for manager insights
 
 ##### Q1 Which roles have access to this manager insights page?
 
-Only managers granted access to Workplace Analytics in [Manager settings](../use/settings.md#manager-settings) can see insights about their teams.
+Only managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see insights about their teams.
 
 ##### Q2 Who is included as a measured employee?
 

@@ -1,2 +1,13 @@
-- name: Teams insights app
+- name: Viva Insights app - Overview
   href: teams-app.md
+- name: Use the app
+  href: teams-app-use-insights.md  
+- name: Install the app
+  href: teams-app-install.md
+- name: Admin tasks
+  href: teams-app-admin-tasks.md 
+- name: Privacy guide
+  href: teams-app-privacy.md
+- name: Frequently asked questions
+  href: teams-app-faq.md  
+ 

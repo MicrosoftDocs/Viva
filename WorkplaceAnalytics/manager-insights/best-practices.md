@@ -1,7 +1,7 @@
 ---
 layout: LandingPage
-title: Workplace Analytics best practices
-description: Workplace Analytics can help you improve how you and your organization gets work done.
+title: Workplace Analytics best practices for managers
+description: Learn what more about the best practices for managers that can help you improve how you and your team get work done
 localization_priority: normal 
 ms.prod: wpa
 ms.author: v-mideh
@@ -158,25 +158,6 @@ author: madehmer
                     <div class="cardText">
                         <h3>Cross-group collaboration</h3>
                         <p>Learn how to network with other managers to share information and skills across the different groups.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="./influencer.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../images/wpa/playbooks/influencer-64x64.svg" alt="influencer" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Influencers</h3>
-                        <p>Learn how more change agents can lead your team and your company to be more agile and competitive.</p>
                     </div>
                 </div>
             </div>

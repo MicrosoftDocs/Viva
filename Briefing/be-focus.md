@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 
 ---
 # Book focus time

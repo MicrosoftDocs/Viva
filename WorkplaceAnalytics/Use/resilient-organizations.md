@@ -7,11 +7,10 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
-
 # Enhance organizational resiliency
-
-*This experience is only available through private preview at this time.*
 
 Resilience depends on having the right insights, systems, and tools to respond to sudden changes, recover from disruption, and reimagine the future for your organization. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -37,16 +36,24 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Protect employee wellbeing | Distribution of weekly after-hours collaboration  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
-|Practice empathy | Distribution of montly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+|Practice empathy | Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
 |Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
 |Accelerate decision making| Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and 10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
 
 ## Take action
 
-You can select **Take action** to see ways you can enhance organizational resiliency. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can enhance organizational resiliency. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Depending on the recommendations, this links to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [management and coaching](explore-metrics-management-and-coaching.md).
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [management and coaching](explore-metrics-management-and-coaching.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
+
+  |Behavior |Recommendation |Explore the stats|
+  |---|---|---|
+  |Protect employee wellbeing | Help employees disconnect | [Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|  
+  |Practice empathy | Increase frequency of coaching | [Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
+  |Free up capacity | Reduce meeting hours | [Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|
+  |Accelerate decision making | Empower employees to make decisions |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)
+
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can create for one or more of the recommendations.
 
@@ -80,7 +87,7 @@ Rapid shifts in ways of working can blur the line between 'home' and 'work'. One
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support employee wellbeing:
 
 * Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
-* Utilize [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
+* Utilize [Inline suggestions in Outlook](../MyAnalytics/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 
 For more best practices and ways to protect employees' after hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
@@ -103,7 +110,7 @@ Resilient organizations respond to changing demands and new opportunities by nim
 As explained in [How to finally kill the useless, recurring meeting](https://hbr.org/2015/03/how-to-finally-kill-the-useless-recurring-meeting), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
-* Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md#delay-email-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [MyAnalytics wellbeing](../myanalytics/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](../tutorials/gm-meetings.md).
@@ -115,7 +122,7 @@ Rapidly changing conditions require swift decision making. Managers with poor ca
 According to [Five ways to empower your team to make decisions](https://insights.office.com/management-strategy/five-ways-to-empower-your-team-to-make-decisions/): “Employee empowerment is directly tied to results. A study by Zenger Folkman found 4 percent of employees are willing to put in more effort when empowerment is low, while 67 percent are willing to go above and beyond when empowerment is high.” Other ways to empower decision making:
 
 * Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
-* Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
+* Use [Teams channels](/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
 * Use [Insights](../myanalytics/use/use-the-insights.md) to manage your calendar and increase your awareness of conflicting meetings and meetings that inform you of decisions. Managers who decline meetings as soon as possible with a brief explanation for why they did so reinforce decision rights and model healthy habits.
 
 For more best practices and ways to remove obstacles, see [Best practices for meetings](../tutorials/gm-meetings.md).

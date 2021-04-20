@@ -7,7 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Teams collaboration
@@ -15,6 +16,10 @@ ms.prod: wpa
 **Teams collaboration** shows communication trends about and insights into how your organization's employees use Teams for communication and collaboration. You can select what collaboration data to analyze on this page, either Teams' calls, instant messages, or both.
 
 ![Teams collaboration](../images/wpa/use/teams-explore.png)
+
+## Access to Teams collaboration
+
+You can open [Teams collaboration](https://workplaceanalytics.office.com/Home/Agility/ChatsAndCalls) in Workplace Analytics to view it.
 
 ## Call hours
 
@@ -36,7 +41,7 @@ You can use the **Call hours** and **IM hours** filters in the Charts and in Pag
 
 ## Data sources includes Teams
 
-In **Sources** > **Office 365 data**, you'll see an **Average weekly collaboration hours by type** chart that includes the average weekly Teams call hours and instant messaging hours over time. The "Week of" date on that page shows when the Teams data was last processed in Workplace Analytics.
+In **Sources** > **Microsoft 365 data**, you'll see an **Average weekly collaboration hours by type** chart that includes the average weekly Teams call hours and instant messaging hours over time. The "Week of" date on that page shows when the Teams data was last processed in Workplace Analytics.
 
 Analysts can use these views to evaluate communication and collaboration trends and patterns for your organization.
 

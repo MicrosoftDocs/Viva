@@ -6,11 +6,11 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Foster innovation
-
-*This experience is only available through private preview at this time.*
 
 Employees who share information, prioritize learning, and protect time for deep thinking generate the new ideas needed for success in rapidly evolving markets. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -38,10 +38,16 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Take action
 
-You can select **Take action** to see ways you can drive innovation. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can drive innovation. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Depending on the recommendation, this links to data about [Internal networks](explore-metrics-internal-networks.md) or [Teamwork](../tutorials/teamwork-solution.md).
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [internal networks](explore-metrics-internal-networks.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
+
+  |Behavior |Recommendation |Explore the stats|
+  |---|---|---|
+  |Enable deep work |Make time for deep work |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
+  |Utilize influencers |Activate influencers to drive innovation |[Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) |
+
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
@@ -58,7 +64,7 @@ Collaboration across organizational boundaries enables the learning and idea for
 
 Ways to create opportunities for cross-group collaboration:
 
-* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to build community and communicate, share information, and brainstorm about projects.
+* Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) to build community and communicate, share information, and brainstorm about projects.
 * Give teams an opportunity to join cross-functional teams to compete in an innovation challenge around a key business challenge.
 
 For more best practices and how to create goals across teams or departments, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
@@ -81,7 +87,7 @@ Influencers are people within an organization who are well connected and can dri
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
 * Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 

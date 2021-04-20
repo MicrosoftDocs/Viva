@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Workplace Analytics plans for managers
@@ -16,6 +18,9 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans can 
 * **Focus** - Help team members get more time to do deep work and reclaim their calendar for work that matters most.
 * **Collaboration** - Help team members reduce the number of excess meetings that the group schedules.
 * **Wellbeing** - Help team members unwind and protect their personal time by disconnecting in their off hours.
+
+> [!Note]
+> Plans are not available within the Microsoft Viva Insights app.
 
 You can do the following with plans:
 

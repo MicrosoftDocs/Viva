@@ -7,9 +7,14 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Collaboration overload
+
+>[!Note]
+>This template will no longer be available in Workplace Analytics by the end of April 2021. See [Power BI templates](power-bi-intro.md) to see what templates are available.
 
 The Collaboration overload dashboard uses a Power BI template that’s populated by Workplace Analytics data to identify areas of excessive collaboration in your organization. The metrics in this dashboard show where overall collaboration patterns, time fragmentation, or meeting quality could be improved.
 
@@ -57,7 +62,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
 13. In the **OData feed** dialog box, select **Organizational account**.
 14. If prompted, select **Sign in**.
-15. In the **Office 365** dialog box, select the organizational account that you use to log in to Workplace Analytics. The **OData feed** dialog box shows "you are currently signed in" to Power BI:
+15. In the **Microsoft 365** dialog box, select the organizational account that you use to sign in to Workplace Analytics. The **OData feed** dialog box shows "you are currently signed in" to Power BI:
 
     ![You are signed in](../Images/WpA/tutorials/you-are-signed-in.png)
 

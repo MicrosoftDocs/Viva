@@ -10,6 +10,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 
 # Open the Insights Outlook add-in
@@ -19,4 +21,4 @@ The Insights Outlook add-in is automatically enabled for all users who have a li
 [!INCLUDE [Open the Outlook add-in](../../Includes/to-open-outlook-add-in.md)]
 
 > [!Note]
-> Add-in commands are only available in certain versions of Outlook and require specific updates to work in Outlook. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook).
+> Add-in commands are only available in certain versions of Outlook and require specific updates to work in Outlook. For details, see [Add-in commands for Outlook](/outlook/add-ins/add-in-commands-for-outlook).

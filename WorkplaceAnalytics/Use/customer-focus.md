@@ -7,11 +7,11 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Increase customer focus
-
-*This experience is only available through private preview at this time.*
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
@@ -43,10 +43,16 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Take action
 
-You can select **Take action** to see ways you can drive change or simply maintain your organization's focus on customers. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can drive change or simply maintain your organization's focus on customers. Depending on your role, the following are available in addition to the recommendations within Take action.
 
- **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Links to data about [Management and coaching](explore-metrics-management-and-coaching.md).
+* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) and [external collaboration](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
+
+  |Behavior |Recommendation |Explore the stats|
+  |---|---|---|
+  |Optimize time with customers |Make strategic time investments |[External collaboration](https://workplaceanalytics.office.com/Home/Agility/ExternalCollaboration) |
+  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
+
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
 ## Best practices
@@ -64,7 +70,7 @@ Collaboration with customers and other external contacts enables employees to ga
 According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.” Ways to support customer focus:
 
 * Use [MyAnalytics Important people list](../myanalytics/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
-* Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
+* Create a shared [Teams channel](/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
 
 For best practices and how to track time with your most important external contacts, see [Best practices for customer collaboration](../tutorials/gm-cust-collab.md).
 
@@ -86,7 +92,7 @@ The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com
 Ways to foster cross-group collaboration:
 
 * Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
-* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
+* Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use [MyAnalytics to manage important people](../myanalytics/use/network.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
 
 For more best practices and how to provide managers with go-to contacts list, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).

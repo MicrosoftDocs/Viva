@@ -7,11 +7,11 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Transform meeting culture
-
-*This experience is only available through private preview at this time.*
 
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -41,10 +41,17 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Take action
 
-You can select **Take action** to see ways you can drive change or transform your organization's meeting culture. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can drive change or transform your organization's meeting culture. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Depending on the recommendation, this links to [Teamwork data](../tutorials/teamwork-solution.md) or [Meetings overview data](explore-metrics-meetings-overview.md).
+* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [meetings](explore-metrics-meetings-overview.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
+
+  |Behavior |Recommendation |Explore the stats|
+  |---|---|---|
+  |Optimize meeting hours |Reduce meeting hours |[Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) |
+  |Examine recurring meetings |Reinvent the recurring meeting |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
+  |Promote healthy meeting habits |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
+
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
@@ -62,7 +69,7 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 The [condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Other ways to reduce meeting time:
 
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
 * Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to plan better meetings.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
@@ -73,7 +80,7 @@ Recurring meetings for team updates often consume large amounts of time. Over ti
 
 As described in [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), we all know how wasteful a "bloated" weekly meeting can be. But there's hope: "To liberate victims from this seemingly inescapable vicious cycle, it’s necessary to kick-start a virtuous cycle in which everyone is empowered to say no, ask why, and identify strategies to allow everyone in an organization to be more effective on a day-to-day basis." Ways to optimize recurring meetings:
 
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.
 * Experiment with 15-minute meetings. Short stand-up meetings with focused agendas are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).

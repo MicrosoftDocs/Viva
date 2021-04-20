@@ -7,9 +7,14 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Manager impact
+
+>[!Note]
+>This template will no longer be available in Workplace Analytics by the end of April 2021. See [Power BI templates](power-bi-intro.md) to see what templates are available.
 
 The Manager impact dashboard for Power BI uses Workplace Analytics data to view standard behaviors and leadership exposure among managers in your organization. Leaders can use this analysis to measure behaviors and trends of people managers across the organization. You'll also get insights about key behaviors by organization and best practices recommended by industry experts to either maintain or improve leadership work patterns.
 

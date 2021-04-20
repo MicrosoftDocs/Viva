@@ -7,11 +7,14 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Accelerate change
 
-*This experience is only available through private preview at this time.*
+> [!Important]
+> This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert for **Accelerate change** about it being "unavailable because the minimum number of employees is not met."
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
@@ -31,10 +34,11 @@ The visual behavioral insight for **Engage influencers** is **Reach of influence
 
 ## Take action
 
-You can select **Take action** to see ways you can drive accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
+You can select **See your insights** to see ways you can accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Links to data about [Internal networks](explore-metrics-internal-networks.md).
+* **Explore the stats** – Links you to more in-depth data about your organization's [internal networks](explore-metrics-internal-networks.md). To view this data in Workplace Analytics, in **Take action** for **Engage Influencers**, select **See your insights** > **Explore the stats** in **Communicate through influencers** to view **Internal networks**.
+
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
@@ -45,7 +49,7 @@ Leveraging the right people to promote new technology can help drive adoption at
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
 * Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 
@@ -57,9 +61,9 @@ Based on [What email, IM, and the phone are each good for](https://insights.offi
 
 Some key ways to support Teams adoption:
 
-* Launch a [champions program](https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Teams and can guide, teach, and train their peers.
+* Launch a [champions program](/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Teams and can guide, teach, and train their peers.
 * Use [Power BI Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
-* Share [Microsoft Teams free, live, online training classes](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page) with employees to help get them up and running quickly with Teams.
+* Share [Microsoft Teams free, live, online training classes](/MicrosoftTeams/instructor-led-training-teams-landing-page) with employees to help get them up and running quickly with Teams.
 
 For best practices and how to be a role model for Teams use, see [Best practices for efficient communication](../tutorials/gm-communication.md).
 

@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Management and coaching
@@ -14,6 +16,10 @@ ms.prod: wpa
 **Management and coaching** summarizes collaboration between leaders, managers, and employees. As an analyst, you can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged or independent, and over-coached or under-coached. Employees who sent at least one email or instant message during a week are considered active and are included in the data for the weeks they are active.
 
 ![Management and coaching](../images/wpa/use/management-coaching.png)
+
+## Access to Management and coaching
+
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) to view it in Workplace Analytics.
 
 ## Time with manager
 

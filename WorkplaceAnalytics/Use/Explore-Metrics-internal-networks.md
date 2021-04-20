@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Internal networks
@@ -14,6 +16,10 @@ ms.prod: wpa
 **Internal networks** shows network connections between different people exclusively within a company; for example, between the sales department and the human resources department.
 
 ![Networks and collaboration](../images/wpa/use/explore-internal-network.png)
+
+## Access to Internal networks
+
+**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) to view it in Workplace Analytics.
 
 ## Network size and network breadth
 
