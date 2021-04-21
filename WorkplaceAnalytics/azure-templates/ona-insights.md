@@ -67,7 +67,10 @@ To see more details about the collaboration metrics or the interaction matrix th
 
 ## To view an insight
 
-1. In **Organizational Network Analysis** > **Insights**, select the name of the insight in the table.
+1. In **Organizational Network Analysis** > **Insights**, select the name of the insight in the table that you want to view.
+
+   ![ONA Insights table](./images/ona-insights.png)
+
 2. The following information and options are available in the table for existing insights:
 
    * When the **Status** is a green check mark, the insight was successfully saved and can be viewed.
@@ -83,8 +86,6 @@ To see more details about the collaboration metrics or the interaction matrix th
 
      >[!Important]
      >When you calculate metrics in a **Download interaction matrix** file, know that your calculations might be different than the metrics calculated in a group-level download file. These differences occur because a person's HR attribute values can change over time and the calculations in the different downloads only use a snapshot of the latest available HR values.
-
-   ![ONA Insights table](./images/ona-insights.png)
 
 ## Related topics
 

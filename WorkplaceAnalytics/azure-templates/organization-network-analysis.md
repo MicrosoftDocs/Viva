@@ -14,7 +14,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Organizational Network Analysis Azure Template for Workplace Analytics
+# Organizational Network Analysis Template
 
 _This template is only available as part of a Microsoft service engagement._
 

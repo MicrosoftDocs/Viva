@@ -43,7 +43,7 @@ For more details, see [Account Mapping](deploy-configure.md#account-mapping).
 * **Expanded color palette** - New color nodes are available in the combined and individual graph views with an expanded palette of 96 different colors.
 * **Databricks job queue optimization** - New optimizations enable faster processing in Databricks within both the ONA and Relationship Intelligence Azure Templates. During analysis creation, you can select the **Job Details** (i) icon next to **Status** to view details about where the job is at in the process, and then select **Job Queue** to see what other jobs are running and where yours is in the queue.
 
-To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Analysis in Organizational Network Analysis Azure Template](./ona-analysis.md).
 
 ### Process Explorer Azure Template
 
@@ -104,7 +104,7 @@ This release adds a new option to the Workspace Planning Azure Template that ena
 
 * **Zip file download** - Ensures a data download file includes all data and is not restricted by Excel row limits.
 * **Relocated Load Graph option** - Load Graph is now on the main page for each dataset making it easier to find saved graphs.
-* **Dark mode** - This option enables you to change the background from white to dark for ONA. This mode enhances visual ergonomics by reducing eye strain, especially in low-light environments. 
+* **Dark mode** - This option enables you to change the background from white to dark for ONA. This mode enhances visual ergonomics by reducing eye strain, especially in low-light environments.
 
 To learn more about ONA, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md). See [measure calculations](ona-metric-calculations.md) for more details about the metrics.
 
@@ -142,7 +142,7 @@ To learn more, see [Join Datasets Azure Template](./join-datasets.md).
 * **Improved workflow** - Improved access to saved graphs by adding them to the analysis table.
 * **New chart enhancements** - Updated labels to more neutral colors for improved readability in the graphs.
 
-To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Analysis in Organizational Network Analysis Azure Template](./ona-analysis.md).
 
 ## May 2020
 
@@ -215,7 +215,7 @@ The following new template enhancements and changes are in this month's release.
 * New option for monthly metrics generated for chart data, which computes both individual and group metrics for the set time period and for each month within that time period.
 * Reach Index is no longer a chart option.
 
-To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Analysis in Organizational Network Analysis Azure Template](./ona-analysis.md).
 
 ### Process Explorer Azure Template
 
@@ -238,11 +238,11 @@ The following enhancements and features are included in the Organizational Netwo
   * Closeness is now Reach Index
   * Network size is now Degrees
 * Preliminary analysis now defaults to the Combined view of the graph. The Network view is only available when the node or link counts are less than the threshold settings defined by your Azure Templates admin in **Admin** > **Configuration**. For details, see [Other configuration options](./deploy-configure.md#other-configuration-options).
-* Improved UX for defining analysis and saving subsets of data within the graph view. For details, see [To add new subgroup analysis](./organization-network-analysis.md#to-add-new-subgroup-analysis).
+* Improved UX for defining analysis and saving subsets of data within the graph view. For details, see [To add new subgroup analysis](./ona-analysis.md#to-add-new-subgroup-analysis).
 * New metrics available for subgroup analysis, including Boundary Spanning, Bridging Index, Influence Index, and Reach Index.
 * New in-depth information about [Measure calculations](./ona-metric-calculations.md) for the Organizational Network Analysis Azure Template.
 
-To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Analysis in Organizational Network Analysis Azure Template](./ona-analysis.md).
 
 ### Process Explorer Azure Template
 
@@ -281,7 +281,7 @@ The following enhancements and features are included in the Organizational Netwo
 * New **Download metrics** option for the last saved version of the analysis that aligns with the time range, filters, and other values selected.
 * Select the new **Parameters** icon to view the parameter details for a listed dataset.
 
-To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Analysis in Organizational Network Analysis Azure Template](./ona-analysis.md).
 
 ### Admin logs
 
