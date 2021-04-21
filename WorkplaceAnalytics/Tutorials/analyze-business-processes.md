@@ -36,6 +36,10 @@ The following sections describe these procedures.
 > [!Note]
 > After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
 
+### TEST POWERPOINT PRESENTATION HERE
+
+<br><iframe width="800" height="486" src="bpa-10-slides.ppsx" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Define a data set
 
 Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: "How much time does our sales team spend in sales activities?"
