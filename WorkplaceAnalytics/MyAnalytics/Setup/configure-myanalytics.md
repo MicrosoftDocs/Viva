@@ -16,16 +16,14 @@ audience: Admin
 
 **Role:** Global admin, Exchange Online (EXO) admin, or Insights admin
 
-> [!Note]
-> You must have an Exchange Online (EXO) admin role, a Global admin role, or an Insights admin role to configure users for MyAnalytics in PowerShell.
-
  * **Prerequisite:** Users have access to MyAnalytics only if they have licenses that include the MyAnalytics service plan, as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
  * **Data privacy:** See the [MyAnalytics privacy guide](../Overview/Privacy-Guide.md) to understand how privacy is built into MyAnalytics and to learn what you can configure to address specific privacy requirements.
 
 **To configure MyAnalytics:**
 
-You must have an Exchange Online (EXO) admin role, a Global admin role, or an Insights admin role to configure users for Briefings in PowerShell.
+> [!Note]
+> You must have a Global admin role, an Exchange Online (EXO) admin role, or an Insights admin role to configure users for MyAnalytics in PowerShell.
 
 * [Assign licenses with a MyAnalytics service plan](#assign-licenses-with-a-myanalytics-service-plan)
 * [Configure access at the tenant level](#configure-access-at-the-tenant-level) or [at the user level](#configure-access-at-the-user-level)
