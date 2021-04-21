@@ -20,7 +20,7 @@ audience: Admin
 
 The Organizational Network Analysis (ONA) Template includes Insights that you can use to view actionable recommendations and metrics about internal collaboration trends in your organization. You can analyze how individuals collaborate within the same group or how groups collaborate with each another. This analysis helps you identify groups that are showing either positive and negative collaboration trends. With this analysis, you can work on improving the flow of information within your organization.
 
-Insights include the following trends about how people within the selected group are collaborating for the selected date range. For this within-group analysis, you select what metric to group people by in **Group Settings**.
+Group Insights include the following trends about how people within the selected group are collaborating for the selected date range. For this within-group analysis, you select what metric to group people by in **Group Settings**.
 
 * **Silo risk** - Shows which groups are disconnected from others or are at risk of being disconnected.
 * **Collaboration balance** - Shows which groups balance their efforts across types of contacts.
