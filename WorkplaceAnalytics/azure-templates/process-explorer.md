@@ -17,7 +17,7 @@ audience: Admin
 
 # Process Explorer Azure Template for Workplace Analytics
 
-_These templates are only available as part of a Microsoft service engagement._
+_This template is only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization and teams are investing or expending their valuable time.
 

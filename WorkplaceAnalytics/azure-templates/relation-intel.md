@@ -17,7 +17,7 @@ audience: Admin
 
 # Relationship Intelligence
 
-_These templates are only available as part of a Microsoft service engagement._
+_This template is only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Relationship Intelligence report for Power BI. You can use this report to analyze relationships your organization has with collaborators external to the company, such as relationships with customers or partners.
 
