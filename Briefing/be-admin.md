@@ -20,7 +20,7 @@ As the admin, you can configure Briefing email for your organization at the [use
 
 Confirm the following before configuring access:
 
-* **Exchange or Global admin role** - You must have either an Exchange Administrator or a Global Administrator role to configure users for Briefings.
+* **Exchange Online (EXO) admin, Global admin, or Insights admin role** - You must have an Exchange Online (EXO) admin role, a Global admin role, or an Insights admin role to configure users for Briefings in PowerShell.
 * **Licensed users only** - Users get access to the Briefing email only if they have licenses that include the Exchange Online service plan.
 * **Understand data privacy** - See the [Privacy guide](be-privacy.md) to understand how privacy is built into Briefing emails and to learn what you can configure to address your organization's specific privacy requirements.
 
