@@ -30,7 +30,15 @@ For example, the following graphic shows within-group trends for the **Sales - C
 
 ![Within-group trend data](./images/ona-within-group-trends.png)
 
-You can also view cross-group collaboration trends between groups based on the selected group settings and which cell is selected in the table. For example, the following shows that the **Biz Dev** and **Customer Service** groups had a positive 64 percent change in expected collaboration over the selected time range and a positive 17.4 percent change as compared to last month's collaboration.
+For both Within-Group and Cross-Group comparisons, you can select a column to sort the table by. By default, the highest risk groups are listed first.
+
+No change in collaboration means the group members or groups collaborated about the same (or less than a 0.05% change) for the months being compared.
+
+No data means there was not sufficient data or the data didn’t meet the minimum-group size or thresholds set for this analysis.
+
+No collaboration means the group members or groups didn’t collaborate at all that month or for the months being compared.
+
+Select **Cross-Group** to see your organization’s cross-group collaboration trends between groups based on the selected group settings and which cell is selected in the table. For example, the following shows that the **Biz Dev** and **Customer Service** groups had a positive 64 percent change in expected collaboration over the selected time range and a positive 17.4 percent change as compared to last month's collaboration.
 
 ![Cross-group trend data](./images/ona-cross-group-trends.png)
 
