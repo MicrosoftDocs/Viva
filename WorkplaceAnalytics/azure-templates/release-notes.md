@@ -27,9 +27,9 @@ The following new template features, enhancements, and changes are included this
 
 * **Within-group insights** - Focus on internal group-member to group-member collaboration by highlighting each groups’ behavioral risks for the following important collaboration trends. You can use these to see how group metrics change over time and to better understand their collaboration trends.
 
-  * **Silo Risk** shows which groups are disconnected from others or at risk of it.
-  * **Collaboration Balance** shows which groups are balancing their efforts across multiple types of contacts.
-  * **Group Cohesion** shows which groups have the cohesion needed to build trust.
+  * **Silo Risk** shows which groups are disconnected from others or at risk of it. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group.
+  * **Collaboration Balance** shows which groups are balancing their efforts across multiple types of contacts. New ideas are key to driving innovation across your company. Access to these ideas is facilitated by fostering diverse connections while balancing time across different groups.
+  * **Group Cohesion** shows which groups have the cohesion needed to build trust. The number of connections within groups is critical to building trust. Group members who trust one another are more inclusive and better positioned to deliver successful results.
 
 * **Cross-group insights** - focus on how groups collaborate with other groups in their network. The insights highlight which groups are collaborating as expected and less than expected and which groups are not communicating at all. You can also see how these metrics have changed over time, to better understand your groups' collaboration trends.
 * **Downloadable metrics** - Same as for Analysis in ONA, you can also download the collaboration metrics and interaction matrix for any Insights that you create in ONA.
