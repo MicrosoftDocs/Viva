@@ -36,7 +36,7 @@ The Relationship Intelligence report includes the following.
     * Medium: 30 to 79
     * High: 80 to 100
   
-  * Use **Account size** filters that are based on the estimated account sizes, which are determined by the number of people in your organization that interact with accounts. The sizes are divided into the following values that can be filtered into any combination.
+  * The **Account size** filters are based on the estimated account sizes, which are determined by the number of people in your organization that interact with accounts. The sizes are divided into the following values that can be filtered into any combination.
 
     * XS: 1 to 2 contacts
     * X: 3 to 9 contacts
