@@ -18,6 +18,13 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## April 2021
+
+The following new template features, enhancements, and changes are included this month's release.
+### Organizational Network Analysis Azure Template
+
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
+
 ## January 2021
 
 The following new template features, enhancements, and changes are included this month's release.
@@ -185,7 +192,7 @@ To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 * **Density table view improvements** - New labels available for the sender and receiver of communications within the Density table view. New breadcrumbs show at the top to improve navigation.
 * **Normalized metrics** - The modularity metrics are now normalized throughout ONA.
 
-To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Analysis in Organizational Network Analysis Azure Template](./ona-analysis.md).
 
 ### Deploy and Configuration updates
 
@@ -204,7 +211,7 @@ The following new template enhancements and changes are in this month's release.
 ### Organizational Network Analysis Azure Template
 
 * A new **Download interaction matrix** option to download a .csv file with the person interactions and related data, such as date range and connection weights by hours and counts.
-* When viewing Density graph data, the higher density (*orange*) and lower density (*blue*) cells are highlighted based on the modularity. The color indicates whether or not a group is more or less connected in the network, as compared to what's expected with a random network. See [Density](./organization-network-analysis.md#density) for more details.
+* When viewing Density graph data, the higher density (*orange*) and lower density (*blue*) cells are highlighted based on the modularity. The color indicates whether or not a group is more or less connected in the network, as compared to what's expected with a random network. See [Density](./ona-analysis.md#density) for more details.
 * New option for monthly metrics generated for chart data, which computes both individual and group metrics for the set time period and for each month within that time period.
 * Reach Index is no longer a chart option.
 
@@ -311,7 +318,7 @@ You can now analyze cohesion within groups and across groups by density, which i
 
 You can now save a data analysis graph in the template, and then view it as a saved graph later.
 
-To learn more, see [Organizational Network Analysis Azure Template](./organization-network-analysis.md).
+To learn more, see [Analysis in Organizational Network Analysis Azure Template](./ona-analysis.md).
 
 ## Related topics
 
