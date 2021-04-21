@@ -35,6 +35,8 @@ The following is an example of an ONA graph created through **Analysis** for a n
 
 ![Analysis graph example](./images/ona-analysis-example.png)
 
+The **Dark mode** feature is available for all of ONA. You can use it to change the background from white to dark, which enhances visual ergonomics by reducing eye strain, especially in low-light environments.
+
 ## Related topics
 
 * [Workplace Analytics Azure Templates overview](./overview.md)

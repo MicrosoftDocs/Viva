@@ -21,9 +21,22 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 ## April 2021
 
 The following new template features, enhancements, and changes are included this month's release.
-### Organizational Network Analysis Azure Template
+### Organizational Network Analysis Template
 
-The following enhancements and features are included in the Organizational Network Analysis (ONA) Azure Template.
+The following enhancements and features are included in the Organizational Network Analysis (ONA) Template.
+
+### Process Explorer Template
+
+A new **Collaboration with External Accounts** option is now available for analyzing how internal groups collaborate with individuals from domains or accounts outside of your company. Because all emails and meetings from a dataset are included when crea
+
+To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+
+### Relationship Intelligence Template and Power BI report
+
+* **Improved Settings** - A new **Settings** page makes it easier to scope your analysis by selecting the date range, accounts of interest by various data attributes, their grouping attributes, and the interactions that involve specific internal groups.
+* **Internal collaborators** - New level of analysis focused on internal collaborators, their connectivity score, and influencer rank.
+
+To learn more, see [Relationship Intelligence](./relation-intel.md).
 
 ## January 2021
 

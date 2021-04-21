@@ -76,9 +76,9 @@ To see more details about the collaboration metrics or the interaction matrix th
    * When the **Status** is a green check mark, the insight was successfully saved and can be viewed.
    * During insight creation, select the **Job Details** (i) icon to view details about where the job is at in the process.
    * If the analysis fails with a **Status** of a **red X**, select the **Job Details** (i) icon to view details and see what might've caused the failure.
-   * Select a table column heading, such as **Name** or **Submitted**, to sort by it.
+   * Select a table column heading, such as **Name** or **Submitter**, to sort by it.
    * Select the **Parameters** icon next to the name to view details about its parameters, such as the time range, network boundary condition filters, and node and group metrics.
-   * Select the **Delete Analysis** (trashcan) icon to delete analysis that you created from the list.
+   * Select the **Delete Insight** (trashcan) icon to delete analysis that you created from the list.
    * Select the **Download** icon to download one of the following as a .csv file.
 
      * **Download metrics** for the person and group metrics in the saved insight, which are based on the selected date range and other options.
