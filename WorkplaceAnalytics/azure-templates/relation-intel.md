@@ -45,7 +45,7 @@ The Relationship Intelligence report includes the following.
     * XL: 100 to 499 contacts
     * XXL: 500 or more contacts
 
-  * **Connectivity tiers** categorize each account into one of the following percentiles and out of all of the accounts the organization engages with, which you can filter into any combination.
+  * The **Connectivity tiers** categorize each account into one of the following percentiles and out of all of the accounts the organization engages with, which you can filter into any combination.
 
     * Bottom 5 percent
     * Bottom 25 percent
@@ -55,7 +55,7 @@ The Relationship Intelligence report includes the following.
     * Top 10 percent
     * Top 5 percent
 
-  * **Connectivity rank by account size** ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. You might see rank ties between one or more accounts who have the same connectivity score and the same size designation.
+  * The **Connectivity rank by account size** ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. You might see rank ties between one or more accounts who have the same connectivity score and the same size designation.
   * Page down to see **Relationship Highlights** > **Total Time Spent** chart and a chart with **Distinct contacts** analysis.
   * Use the **Internal Group Settings** on the Settings page to focus the chart analysis (below the filter) to specific internal groups who are collaborating. The **Group Engagement** and **Collaboration Time** charts show more details about overall account collaboration activity.
 
