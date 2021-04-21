@@ -56,6 +56,12 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 When the dashboard is populated with your data, you can use it to visualize, explore, and report about your manager's workplace patterns and trends.
 
+## Demonstration
+
+The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<iframe width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiZmVmZmQ3NjMtOGRmYS00ZWE3LTliNjYtZDU1NDg1OTQxYmIwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Prerequisites
 
 Before you can run the query and populate the dashboard in Power BI, you must:
