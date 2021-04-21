@@ -47,7 +47,7 @@ To learn more, see [Process Explorer](./process-explorer.md).
 ### Relationship Intelligence
 
 * **Enhanced filter functionality and metrics** - In **Relationship Overview**, you'll see new metrics with more filter options that help focus analysis into specific accounts. These new metrics and filters are available as you drill into individual accounts.
-* **Account sizes** - You can now filter by estimated account size, which is determined by the number of people in your organization that interact with the specified account. The sizes are divided into the following values that you can filter for any combination of them.
+* **Account sizes** - You can now filter by the estimated account sizes, which are determined by the number of people in your organization that interact with accounts. The sizes are divided into the following values that you can filter for any combination.
 
   * XS: 1 to 2 contacts
   * X: 3 to 9 contacts
@@ -56,13 +56,13 @@ To learn more, see [Process Explorer](./process-explorer.md).
   * XL: 100 to 499 contacts
   * XXL: 500 or more contacts
 
-* **Connectivity scores** - Indicate how close of a relationship your organization has with each account. The scores are divided into the following values that you can filter into any combination of them.
+* **Connectivity scores** - Indicate how close of a relationship your organization has with each account. The scores are divided into the following values that you can filter into any combination.
 
   * Low: 1 to 29
   * Medium: 30 to 79
   * High: 80 to 100
 
-* **Connectivity tiers** - Categorize each account into one of the following percentiles, out of all of the accounts a user engages with, and the user can filter down to any combination of them.
+* **Connectivity tiers** - Categorize each account into one of the following percentiles and out of all of the accounts the organization engages with, which you can filter into any combination.
 
   * Bottom 5 percent
   * Bottom 25 percent
@@ -72,7 +72,7 @@ To learn more, see [Process Explorer](./process-explorer.md).
   * Top 10 percent
   * Top 5 percent
 
-* **Connectivity rank by account size** - This new metric ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. Note that it is possible for there to be ties, as multiple accounts can have the same connectivity score and have the same size designation. Users can sort by this column on the Relationship Overview page.
+* **Connectivity rank by account size** - Ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. You might see rank ties between one or more accounts who have the same connectivity score and size designation.
 
 To learn more, see [Relationship Intelligence](./relation-intel.md).
 

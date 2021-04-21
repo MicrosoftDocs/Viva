@@ -30,11 +30,36 @@ The Relationship Intelligence report includes the following.
 * **Relationship Overview** - Shows information about all accounts, including:
 
   * The Account table includes an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
-  * The **Connectivity Score** is based on the amount, frequency, and timeliness of collaboration activity with an account.
+  * The **Connectivity Score** is based on the amount, frequency, and timeliness of collaboration activity with an account. The scores are divided into the following values that can be filtered into any combination.
+
+    * Low: 1 to 29
+    * Medium: 30 to 79
+    * High: 80 to 100
+  
+  * Use **Account size** filters that are based on the estimated account sizes, which are determined by the number of people in your organization that interact with accounts. The sizes are divided into the following values that can be filtered into any combination.
+
+    * XS: 1 to 2 contacts
+    * X: 3 to 9 contacts
+    * M: 10 to 49 contacts
+    * L: 50 to 99 contacts
+    * XL: 100 to 499 contacts
+    * XXL: 500 or more contacts
+
+  * **Connectivity tiers** categorize each account into one of the following percentiles and out of all of the accounts the organization engages with, which you can filter into any combination.
+
+    * Bottom 5 percent
+    * Bottom 25 percent
+    * Bottom 50 percent
+    * Top 50 percent
+    * Top 25 percent
+    * Top 10 percent
+    * Top 5 percent
+
+  * **Connectivity rank by account size** ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. You might see rank ties between one or more accounts who have the same connectivity score and the same size designation.
   * Page down to see **Relationship Highlights** > **Total Time Spent** chart and a chart with **Distinct contacts** analysis.
   * Use the **Internal Group Settings** on the Settings page to focus the chart analysis (below the filter) to specific internal groups who are collaborating. The **Group Engagement** and **Collaboration Time** charts show more details about overall account collaboration activity.
 
-* **Account Analysis** - Focuses in on the following details about an account that you selected and drilled through from the first page:
+* **Account Analysis** - Focuses on the following details about an account that you selected and drilled through from the first page:
 
   * See visuals about the average **Connectivity Score** and how the score has changed over the selected time and how metrics contributing to the score have changed over the same time period.
   * Examine the collaboration visuals on this page to see what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. The second table lists the top internal groups in the organization who have collaborated with an account based on the Internal Group Settings values from the Settings page.
