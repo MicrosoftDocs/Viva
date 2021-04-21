@@ -34,7 +34,7 @@ For both Within-Group and Cross-Group comparisons, you can select a column to so
 
 No change in collaboration means the group members or groups collaborated about the same (or less than a 0.05% change) for the months being compared.
 
-No data means there was not sufficient data or the data didn’t meet the minimum-group size or thresholds set for this analysis.
+None or no data means there was not sufficient data or the data didn’t meet the minimum-group size or thresholds set for this analysis.
 
 No collaboration means the group members or groups didn’t collaborate at all that month or for the months being compared.
 
