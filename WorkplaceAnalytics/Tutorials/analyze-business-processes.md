@@ -36,9 +36,17 @@ The following sections describe these procedures.
 > [!Note]
 > After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
 
-### TEST POWERPOINT PRESENTATION HERE
+### TEST POWERPOINT PRESENTATION HERE-1
 
 <br><iframe width="800" height="486" src="bpa-10-slides.ppsx" frameborder="0" allowFullScreen="true"></iframe>
+
+### TEST POWERPOINT PRESENTATION HERE-2
+
+![BPA PowerPoint deck](../tutorials/bpa-10-slides.ppsx)
+
+### TEST POWERPOINT PRESENTATION HERE-3
+
+![BPA PowerPoint deck](bpa-10-slides.ppsx)
 
 ## Define a data set
 
