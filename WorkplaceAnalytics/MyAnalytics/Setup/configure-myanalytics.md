@@ -14,9 +14,7 @@ audience: Admin
 
 # Configure MyAnalytics
 
-**Role:** Microsoft 365 admins
-
-The steps in this topic describe how to configure MyAnalytics for the users in your organization. Note the following:
+**Role:** Global admin, Exchange Online (EXO) admin, or Insights admin
 
  * **Prerequisite:** Users have access to MyAnalytics only if they have licenses that include the MyAnalytics service plan, as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
@@ -24,10 +22,13 @@ The steps in this topic describe how to configure MyAnalytics for the users in y
 
 **To configure MyAnalytics:**
 
+> [!Note]
+> You must have a Global admin role, an Exchange Online (EXO) admin role, or an Insights admin role to configure users for MyAnalytics in PowerShell.
+
 * [Assign licenses with a MyAnalytics service plan](#assign-licenses-with-a-myanalytics-service-plan)
 * [Configure access at the tenant level](#configure-access-at-the-tenant-level) or [at the user level](#configure-access-at-the-user-level)
 
-> [!Note] 
+> [!Note]
 > When you set the defaults (at either the tenant or user level), users can individually override these settings. For example, if you keep the dashboard tenant setting as opt in, users can open the dashboard and opt themselves out. Similarly, if you opt out users with a user-level setting, those users can choose to opt back in. The exception is if a user's license with a MyAnalytics service plan expires, that user cannot opt in.
 
 ## Assign licenses with a MyAnalytics service plan
