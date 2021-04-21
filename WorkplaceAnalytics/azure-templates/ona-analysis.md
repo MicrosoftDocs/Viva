@@ -200,8 +200,8 @@ The E-I index is between -1 (all collaboration is internal) and 1 (all communica
 
 This measure is only available in the *combined view*. It represents groups based on the number of people in the same group (share the same attribute) for the selected time period. It helps you determine how the group size can affect their interactions.
 
-> [!Note]
-> Filtering will not change group sizes.
+>[!Note]
+>Filtering will not change group sizes.
 
 ### Influence Index
 
@@ -217,8 +217,8 @@ For more details about this measure, see the [measure calculations](ona-metric-c
 
 Represents the ability to access or share information across the organization while going through minimal intermediaries. Closeness Centrality calculates the average distance between a person or group and others in the network. People nodes with a high closeness value have a lower distance to all other nodes and therefore are efficient broadcasters of information. For more details, see the [measure calculations](ona-metric-calculations.md#reach-index).
 
-> [!Note]
-> Weights are not factored into Reach Index computations. Also, group-level measures are not yet available for Reach Index.
+>[!Note]
+>Weights are not factored into Reach Index computations. Also, group-level measures are not yet available for Reach Index.
 -->
 ## Graph notes
 
@@ -233,5 +233,5 @@ Represents the ability to access or share information across the organization wh
 
 ## Related topics
 
-* [Organizational Network Analysis Azure Template](./organization-network-analysis.md)
+* [Organizational Network Analysis Azure Template introduction](./organization-network-analysis.md)
 * [Workplace Analytics Azure Templates overview](./overview.md)
