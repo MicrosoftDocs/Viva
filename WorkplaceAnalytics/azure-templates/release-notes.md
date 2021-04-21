@@ -21,20 +21,58 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 ## April 2021
 
 The following new template features, enhancements, and changes are included this month's release.
-### Organizational Network Analysis Template
+### Organizational Network Analysis
 
-The following enhancements and features are included in the Organizational Network Analysis (ONA) Template.
+**Insights** is a new ONA Template option that uses a simplified set of settings to quickly surface insights about within-group and cross-group collaboration trends for your organization.
 
-### Process Explorer Template
+* **Within-group insights** - Focus on internal group-member to group-member collaboration by highlighting each groups’ behavioral risks for the following important collaboration trends. You can use these to see how group metrics change over time and to better understand their collaboration trends.
 
-A new **Collaboration with External Accounts** option is now available for analyzing how internal groups collaborate with individuals from domains or accounts outside of your company. Because all emails and meetings from a dataset are included when crea
+  * **Silo Risk** shows which groups are disconnected from others or at risk of it.
+  * **Collaboration Balance** shows which groups are balancing their efforts across multiple types of contacts.
+  * **Group Cohesion** shows which groups have the cohesion needed to build trust.
 
-To learn more, see [Process Explorer Azure Template](./process-explorer.md).
+* **Cross-group insights** - focus on how groups collaborate with other groups in their network. The insights highlight which groups are collaborating as expected and less than expected and which groups are not communicating at all. You can also see how these metrics have changed over time, to better understand your groups' collaboration trends.
+* **Downloadable metrics** - Same as for Analysis in ONA, you can also download the collaboration metrics and interaction matrix for any Insights that you create in ONA.
+* **Filter group count** - When creating new analysis or applying settings or filters in ONA, you can now see the approximate count of people included in the analysis as compared to the total population that's included in the dataset. This makes it easier for you to adhere to the minimum group size and threshold settings for the dataset during the analysis creation step. As compared to learning after the analysis is processed and either fails or doesn't show any data because it failed to meet the dataset threshold settings.
 
-### Relationship Intelligence Template and Power BI report
+To learn more, see [Insights](./ona-insights.md) and [Analysis](./ona-analysis.md), which are now available as part of the Organizational Network Analysis Template.
 
-* **Improved Settings** - A new **Settings** page makes it easier to scope your analysis by selecting the date range, accounts of interest by various data attributes, their grouping attributes, and the interactions that involve specific internal groups.
-* **Internal collaborators** - New level of analysis focused on internal collaborators, their connectivity score, and influencer rank.
+### Process Explorer
+
+* **Interaction Type selection** - You can now select the type of interaction that you want to analyze with the Process Explorer template. By default, both emails and meetings are included for process analysis. However, you can now select to only analyze emails or only meetings. **Note**: When only analyzing meetings, Email Thread Analysis will be unavailable.
+* **Filter group count** - When creating new analysis or applying settings or filters, you'll now see the approximate count of people included in the analysis as compared to the total population included in the dataset. This makes it easier for your analysis to adhere to the dataset's minimum-group size and threshold settings during the analysis creation step. As compared to waiting for the analysis to process and either fail or not show any data because it doesn't meet the dataset threshold settings.
+
+To learn more, see [Process Explorer](./process-explorer.md).
+
+### Relationship Intelligence
+
+* **Enhanced filter functionality and metrics** - In **Relationship Overview**, you'll see new metrics with more filter options that help focus analysis into specific accounts. These new metrics and filters are available as you drill into individual accounts.
+* **Account sizes** - You can now filter by estimated account size, which is determined by the number of people in your organization that interact with the specified account. The sizes are divided into the following values that you can filter for any combination of them.
+
+  * XS: 1 to 2 contacts
+  * X: 3 to 9 contacts
+  * M: 10 to 49 contacts
+  * L: 50 to 99 contacts
+  * XL: 100 to 499 contacts
+  * XXL: 500 or more contacts
+
+* **Connectivity scores** - Indicate how close of a relationship your organization has with each account. The scores are divided into the following values that you can filter into any combination of them.
+
+  * Low: 1 to 29
+  * Medium: 30 to 79
+  * High: 80 to 100
+
+* **Connectivity tiers** - Categorize each account into one of the following percentiles, out of all of the accounts a user engages with, and the user can filter down to any combination of them.
+
+  * Bottom 5 percent
+  * Bottom 25 percent
+  * Bottom 50 percent
+  * Top 50 percent
+  * Top 25 percent
+  * Top 10 percent
+  * Top 5 percent
+
+* **Connectivity rank by account size** - This new metric ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. Note that it is possible for there to be ties, as multiple accounts can have the same connectivity score and have the same size designation. Users can sort by this column on the Relationship Overview page.
 
 To learn more, see [Relationship Intelligence](./relation-intel.md).
 

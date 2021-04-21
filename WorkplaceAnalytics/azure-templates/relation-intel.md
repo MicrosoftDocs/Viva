@@ -29,7 +29,7 @@ The Relationship Intelligence report includes the following.
 
 * **Relationship Overview** - Shows information about all accounts, including:
 
-  * The Account table shows an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
+  * The Account table includes an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
   * The **Connectivity Score** is based on the amount, frequency, and timeliness of collaboration activity with an account.
   * Page down to see **Relationship Highlights** > **Total Time Spent** chart and a chart with **Distinct contacts** analysis.
   * Use the **Internal Group Settings** on the Settings page to focus the chart analysis (below the filter) to specific internal groups who are collaborating. The **Group Engagement** and **Collaboration Time** charts show more details about overall account collaboration activity.

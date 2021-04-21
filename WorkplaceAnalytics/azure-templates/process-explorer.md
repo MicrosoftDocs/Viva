@@ -50,7 +50,7 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
 3. In **Define Analysis Settings**, select one of the following:
 
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
-   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. After the analysis is created With this option, you can export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
+   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. After the analysis is created With this option, you can export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings that are not categorized in the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages can then be categorized.
 
     ![Process Explorer starter templates](./images/pexp-new-analysis.png)
 
@@ -93,7 +93,9 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
 
 ## Categorization analysis
 
-You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. You can also select **Download Category Distribution Data** to download a .csv file of this categorized data activity.
+You can analyze both emails and meetings or you can select to analyze only emails or only meetings. You can see how the activity data is distributed into predefined categories, including: total number of meetings, meeting hours, email, and email hours by category. If you select to only analyze meetings, Email Thread Analysis will be unavailable.
+
+You can also select **Download Category Distribution Data** to download a .csv file of this categorized data activity.
 
 ![Categorization analysis](./images/pexp-cat-analysis.png)
 
