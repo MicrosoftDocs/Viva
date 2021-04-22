@@ -30,7 +30,7 @@ To obtain Workplace Analytics, you must have an Enterprise Agreement (EA) in pla
 | ---- | ---- |
 | Government | Government Community Cloud (GCC) does not currently support the addition of Workplace Analytics. |
 | Education | Supported only for the analysis of faculty at this time, not for students. |
-| Commercial | You can add Workplace Analytics with commercial enrollments. | 
+| Commercial | You can add Workplace Analytics with commercial enrollments. |
 | Non-profit | Workplace Analytics under a commercial EA can be used by non-profits but non-profit pricing is not available. |
 | Firstline workers | Workplace Analytics does not support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 

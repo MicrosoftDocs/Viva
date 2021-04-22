@@ -69,9 +69,10 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 
 * GCC-High
 * DoD
+* Office 365 Germany
 * Office 365 Operated by 21Vianet
 
-<!-- REMOVED 21 APRIL 2021: * Office 365 Germany BUT VERIFYING WITH MATHEW -->
+<!-- *NOT* REMOVED 21 APRIL 2021! but there are changes to the Germany situation: * Office 365 Germany  -->
 
 ## Browser support
 
