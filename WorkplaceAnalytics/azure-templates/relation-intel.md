@@ -45,7 +45,7 @@ The Relationship Intelligence report includes the following.
     * XL: 100 to 499 contacts
     * XXL: 500 or more contacts
 
-  * The **Connectivity tiers** categorize each account into one of the following percentiles and out of all of the accounts the organization engages with, which you can filter into any combination.
+  * The **Connectivity tiers** categorize each account into one of the following percentiles out of all of the accounts the organization engages with, which you can filter down to any combination of tiers.
 
     * Bottom 5 percent
     * Bottom 25 percent

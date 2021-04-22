@@ -20,7 +20,7 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 
 ## April 2021
 
-The following new template features, enhancements, and changes are included this month's release.
+The following new template features, enhancements, and changes are included in this month's release.
 ### Organizational Network Analysis (ONA)
 
 **Insights** is a new ONA Template option that uses a simplified set of settings to quickly surface insights about within-group and cross-group collaboration trends for your organization.
@@ -32,15 +32,15 @@ The following new template features, enhancements, and changes are included this
   * **Group Cohesion** shows which groups have the cohesion needed to build trust. The number of connections within groups is critical to building trust. Group members who trust one another are more inclusive and better positioned to deliver successful results.
 
 * **Cross-group insights** - focus on how groups collaborate with other groups in their network. The insights highlight which groups are collaborating as expected and less than expected and which groups are not communicating at all. You can also see how these metrics have changed over time, to better understand your groups' collaboration trends.
-* **Downloadable metrics** - Same as for Analysis in ONA, you can also download the collaboration metrics and interaction matrix for any Insights that you create in ONA.
-* **Filter group count** - When creating new analysis or applying settings or filters in ONA, you can now see the approximate count of people included in the analysis as compared to the total population that's included in the dataset. This makes it easier for you to adhere to the minimum group size and threshold settings for the dataset during the analysis creation step. As compared to learning after the analysis is processed and either fails or doesn't show any data because it failed to meet the dataset threshold settings.
+* **Downloadable metrics** - Same as for Analysis in ONA, you can also download the collaboration metrics and interaction matrix for any Insights that you create in ONA Insights.
+* **Filter group count** - When creating new analysis or applying settings or filters in ONA, you can now see the approximate count of people included in the analysis as compared to the total population that's included in the dataset. This makes it easier for you to understand the size of the network you are focusing on while adhering to the minimum-group size and threshold settings for the Azure Templates. This can help reduce occurrences of analysis starting to process only to fail due to conflicting with these minimum-group size settings.
 
 To learn more, see [Insights](./ona-insights.md) and [Analysis](./ona-analysis.md), which are now available as part of the Organizational Network Analysis Template.
 
 ### Process Explorer
 
 * **Interaction Type selection** - You can now select the type of interaction that you want to analyze with the Process Explorer template. By default, both emails and meetings are included for process analysis. However, you can now select to only analyze emails or only meetings. **Note**: When only analyzing meetings, Email Thread Analysis will be unavailable.
-* **Filter group count** - When creating new analysis or applying settings or filters, you'll now see the approximate count of people included in the analysis as compared to the total population included in the dataset. This makes it easier for your analysis to adhere to the dataset's minimum-group size and threshold settings during the analysis creation step. As compared to waiting for the analysis to process and either fail or not show any data because it doesn't meet the dataset threshold settings.
+* **Filter group count** - When creating new analysis or applying settings or filters, you'll now see the approximate count of people included in the analysis as compared to the total population included in the dataset. This makes it easier for you to understand the size of the collaboration you are focusing on while adhering to the minimum-group size and threshold settings for the Azure Templates. This can help reduce occurrences of analysis starting to process only to fail due to conflicting with these minimum-group size settings.
 
 To learn more, see [Process Explorer](./process-explorer.md).
 
@@ -62,7 +62,7 @@ To learn more, see [Process Explorer](./process-explorer.md).
   * Medium: 30 to 79
   * High: 80 to 100
 
-* **Connectivity tiers** - Categorize each account into one of the following percentiles and out of all of the accounts the organization engages with, which you can filter into any combination.
+* **Connectivity tiers** - Categorize each account into one of the following percentiles out of all of the accounts the organization engages with, which you can filter down to any combination of tiers.
 
   * Bottom 5 percent
   * Bottom 25 percent
@@ -78,7 +78,7 @@ To learn more, see [Relationship Intelligence](./relation-intel.md).
 
 ## January 2021
 
-The following new template features, enhancements, and changes are included this month's release.
+The following new template features, enhancements, and changes are included in this month's release.
 
 ### Account Mapping
 
