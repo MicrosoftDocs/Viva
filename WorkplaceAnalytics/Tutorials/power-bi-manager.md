@@ -60,7 +60,6 @@ When the dashboard is populated with your data, you can use it to visualize, exp
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-
 <iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZmVmZmQ3NjMtOGRmYS00ZWE3LTliNjYtZDU1NDg1OTQxYmIwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
