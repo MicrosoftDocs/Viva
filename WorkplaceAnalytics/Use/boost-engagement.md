@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |Percentage of employees with less than 15 minutes of weekly 1:1 time with their managers. To account for various 1:1 meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Prevent employee burnout |Percentage of employees who are working after hours for more than one hour each week |[After-hours metrics](metric-definitions.md#person-metrics) |Percentage of employees who spend more than one hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Drive employee empowerment |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define)|Percentage of employees who spend over 50 percent of their meeting hours with their manager present in the meeting. This percentage is calculated weekly and averaged over the entire time period. |
-|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#organizational-network-analysis-ona-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the entire time period. |
+|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#organizational-network-analysis-ona-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the last six months. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -57,7 +57,7 @@ You can select **See your insights** to see ways you can improve employee engage
   |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
   |Prevent employee burnout |Help employees disconnect |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|
   |Drive employee empowerment |Increase information sharing |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Strengthen team connections |Spend more time with important collaborators |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
+  |Strengthen team connections |Spend more time with important collaborators |[Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) |
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
@@ -105,7 +105,7 @@ For more best practices and how to set team meeting rules and policy, see [Best 
 
 Employees who maintain strong connections within their team feel a sense of organizational belonging.
 
-According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural "brokers" to "promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive."
+According to this article about [High-performing teams need psychological safety: Here’s how to create it](https://insights.office.com/productivity/high-performing-teams-need-psychological-safety-heres-how-to-create-it/), “there’s no team without trust.” “Studies show that psychological safety allows for moderate risk-taking, speaking your mind, creativity, and sticking your neck out without fear of having it cut off—just the types of behavior that lead to market breakthroughs.”
 
 Ways to support team cohesion:
 

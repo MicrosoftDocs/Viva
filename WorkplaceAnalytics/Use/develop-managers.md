@@ -29,7 +29,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Strengthen management pipeline |Percentage of employees who have the potential for managerial roles |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Employees who are currently in non-managerial roles with influence scores greater than or within 10 percent of their immediate manager’s influence score. |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four for the weekly average. |
 |Empower employees |Percentage of employees who have a majority of their meetings attended by their manager |[Meeting hours with manager](metric-definitions.md#meeting-hours-with-manager-define) and [meeting hours](metric-definitions.md#meeting-hours-define) |The percentage of employees who spend over 50 percent of their meeting hours with their manager in attendance. This percentage is calculated weekly and averaged over the entire time period. |
-|Foster connectivity |The percentage of managers who have limited cross-group connections |[Diverse ties](metric-definitions.md#organizational-network-analysis-ona-metrics) |The percentage of less-connected managers is based on the number of diverse ties they have outside their skip-level manager’s organization and compares that with the total number of managers in the measured population. This percentage is calculated weekly and averaged over the entire time period.|
+|Foster connectivity |The percentage of managers who have limited cross-group connections |[Diverse ties](metric-definitions.md#organizational-network-analysis-ona-metrics) |The percentage of less-connected managers is based on the number of diverse ties they have outside their skip-level manager’s organization and compares that with the total number of managers in the measured population. This percentage is calculated weekly and averaged over the last six months.|
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -58,7 +58,7 @@ You can select **See your insights** to see ways you can develop effective manag
   |Strengthen management pipeline |Find unexpected leaders |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
   |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
   |Empower employees |Increase information sharing |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Foster connectivity |Grow manager connectivity |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) | 
+  |Foster connectivity |Grow manager connectivity |[Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) |
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
@@ -131,7 +131,7 @@ For more best practices and how to set team meeting rules and policy, see [Best 
 
 Managers who have diverse ties across an organization are typically considered more effective and help their employees build strong networks.
 
-[How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) explains that work "occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes." Ways to foster connectivity:
+In the [Empowering your employees to empower themselves](https://insights.office.com/management-strategy/empowering-your-employees-to-empower-themselves/) article, it's important to remember that "your employees understand their jobs. They know their tasks, roles, and functions within the organization, and it’s time for you to let them do what they need to do to get the job done." Ways to foster connectivity:
 
 * Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](/microsoftteams/teams-channels-overview).
 * Enable and use the [Insights Outlook add-in](../myanalytics/use/use-the-insights.md) and [MyAnalytics Network](../myanalytics/use/network.md) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.

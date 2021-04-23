@@ -28,7 +28,7 @@ The following are the percentage insights, their underlying metrics, and some de
 |Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |Percentage of employees who spend less than 15 minutes of weekly 1:1 time with their managers. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](metric-definitions.md#collaboration-hours-define) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
 |Accelerate decision making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |[Conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define) |Percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks. |
-|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#organizational-network-analysis-ona-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the entire time period. |
+|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#organizational-network-analysis-ona-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the last six months. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -55,7 +55,7 @@ You can select **See your insights** to see ways you can enhance organizational 
   |Practice empathy | Increase frequency of coaching | [Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
   |Free up capacity | Reduce meeting hours | [Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)|
   |Accelerate decision making | Empower employees to make decisions |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)
-  |Strengthen team connections |Spend more time with important collaborators |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |  
+  |Strengthen team connections |Spend more time with important collaborators |[Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) |  
 
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can create for one or more of the recommendations.
@@ -121,9 +121,7 @@ For more best practices and ways to remove obstacles, see [Best practices for me
 
 Changes in work environments can leave employees feeling isolated from their colleagues. Feeling part of community is important for engagement and goal alignment as employees navigate change.
 
-According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural "brokers" to "promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive."
-
-Ways to improve team cohesion:
+According to the [Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) article, "organizations function best when committed people work in cooperative relationships based on respect." Ways to improve team cohesion:
 
 * In MyAnalytics, add colleagues to your [important people list](../myanalytics/use/use-the-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
