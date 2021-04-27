@@ -1,5 +1,5 @@
 ---
-title: Workspace planning overview
+title: Workspace planning introduction
 description: About the Workspace planning tool and how to use it to create seating plans
 author: madehmer
 ms.author: v-mideh
@@ -10,7 +10,7 @@ manager: scott.ruble
 audience: Admin
 
 ---
-# Workspace planning
+# Workspace planning tool
 
 Workspace planning helps you identify and seat teams together in a workspace that maximizes and fosters cross-team productivity and collaboration. You can use this tool to generate floor plans quickly and objectively, in a data-driven way that optimizes employee collaboration by seating teams together.
 
