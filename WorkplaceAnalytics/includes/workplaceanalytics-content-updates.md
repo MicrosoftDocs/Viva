@@ -2,6 +2,28 @@
 
 
 
+## Week of April 19, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/19/2021 | [Influence insights dashboard](/Workplace-Analytics/tutorials/pbi-influence-db) | modified |
+| 4/19/2021 | [Collaboration overload dashboard](/Workplace-Analytics/tutorials/power-bi-collab-overload) | modified |
+| 4/19/2021 | [Manager Impact dashboard for Power BI](/Workplace-Analytics/tutorials/power-bi-manager-impact) | modified |
+| 4/19/2021 | [Power BI Quickstart overview dashboard](/Workplace-Analytics/tutorials/power-bi-quickstart) | modified |
+| 4/20/2021 | [Peer comparison queries](/Workplace-Analytics/tutorials/comparison-query) | modified |
+| 4/20/2021 | [Workplace Analytics Glossary](/Workplace-Analytics/use/glossary) | modified |
+| 4/20/2021 | [Workplace Analytics metric definitions](/Workplace-Analytics/use/metric-definitions) | modified |
+| 4/21/2021 | [MyAnalytics configuration for Microsoft 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+| 4/22/2021 | [MyAnalytics plans and environments](/Workplace-Analytics/myanalytics/overview/plans-environments) | modified |
+| 4/22/2021 | [Requirements for Workplace Analytics](/Workplace-Analytics/setup/environment-requirements) | modified |
+| 4/23/2021 | [MyAnalytics configuration for Microsoft 365 administrators](/Workplace-Analytics/myanalytics/setup/configure-myanalytics) | modified |
+| 4/23/2021 | [Introduction to assigning licenses for Workplace Analytics users](/Workplace-Analytics/setup/assign-licenses-to-population) | modified |
+| 4/23/2021 | [Ways of working assessment dashboard](/Workplace-Analytics/tutorials/power-bi-collab-assess) | modified |
+| 4/23/2021 | [Manager effectiveness dashboard for Power BI](/Workplace-Analytics/tutorials/power-bi-manager) | modified |
+| 4/23/2021 | [Workspace Planning Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/space-planning) | modified |
+
+
 ## Week of April 12, 2021
 
 
@@ -335,13 +357,3 @@
 | 3/25/2021 | [Manager effectiveness dashboard for Power BI](/Workplace-Analytics/tutorials/power-bi-manager) | modified |
 | 3/26/2021 | [Explore external collaboration data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-external-collaboration) | modified |
 | 3/26/2021 | [Privacy settings for Workplace Analytics](/Workplace-Analytics/use/privacy-settings) | modified |
-
-
-## Week of March 15, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/15/2021 | [Return to worksites dashboard](/Workplace-Analytics/tutorials/power-bi-return-tw) | modified |
-| 3/18/2021 | [MyAnalytics key user interface elements](/Workplace-Analytics/myanalytics/use/mya-elements) | modified |
-| 3/18/2021 | [Manager effectiveness assessment dashboard for Power BI](/Workplace-Analytics/tutorials/power-bi-manager) | modified |
