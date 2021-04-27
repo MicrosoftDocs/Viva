@@ -28,5 +28,3 @@ You can create seating plans that require different variables, such as the follo
 * Cross-team collaboration around constraints for specific teams. For example, the HR team must be colocated on the first floor in the same neighborhood and Zone A must be next to the file room.
 * Create seating for alternating or rotating work schedules for teams who share a workspace on different weeks or days.
 
-
-
