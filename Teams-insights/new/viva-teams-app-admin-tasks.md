@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights app - Admin tasks
 description: Microsoft Viva Insights (personal insights) app -- Admin tasks
 author: paul9955

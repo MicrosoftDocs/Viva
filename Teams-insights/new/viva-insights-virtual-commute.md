@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights - virtual commute 
 description: Microsoft Viva Insights app -- Use the virtual commute feature
 author: paul9955
