@@ -88,7 +88,7 @@ You can also select **Turn off all notifications** if you would prefer not to re
 
 ## Delay delivery
 
-When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
+When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
 
 These suggestions are currently only available to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) who are using the Outlook desktop app.
 
