@@ -1,7 +1,7 @@
 ---
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
-author: madehmer
+author: paul9955
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
@@ -88,11 +88,11 @@ You can also select **Turn off all notifications** if you would prefer not to re
 
 ## Delay delivery
 
-When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
+When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
 
 These suggestions are currently only available to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) who are using the Outlook desktop app.
 
-When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to **Delay delivery** in either MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery](delay-delivery.md).
+When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
 ![Inline suggestions email](../../Images/mya/use/nudges-email.png)
 
