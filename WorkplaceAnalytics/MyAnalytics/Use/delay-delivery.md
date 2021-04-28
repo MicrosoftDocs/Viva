@@ -1,5 +1,5 @@
 ---
-title: Delay delivery in MyAnalytics
+title: Delay delivery plan in MyAnalytics
 description: Learn how to opt in and use Delay delivery in MyAnalytics for suggestions on when to send email during your coworker's working hours
 author: paul9955
 ms.author: v-mideh
@@ -10,15 +10,13 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Delay delivery
+# Delay delivery plan
 
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours.
 
-With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to Delay delivery.
+With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
-You can opt in to Delay delivery through MyAnalytics or the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers.
-
-Delay delivery is currently available to Microsoft 365 or Office 365 E5, E3, and E1 users within the Outlook desktop app for Windows.
+You can opt in to the Delay delivery plan through MyAnalytics or the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers. Delay delivery is currently available to Microsoft 365 or Office 365 E5, E3, and E1 users within the Outlook desktop app for Windows.
 
 <!-- CHANGE TO THIS DURING H2 OF 2021. CONTACT TRACY ZHANG AND WENDY GUO TO CONFIRM. Delay delivery is currently available to Microsoft 365 or Office 365 E5, E3, and E1 users within the Outlook desktop app for Windows. -->
 
@@ -49,7 +47,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 
 ## Opt in with MyAnalytics
 
-When you enroll in Delay delivery, MyAnalytics aligns email delivery with your coworker's working hours. You can opt in as follows:
+When you opt in to the Delay delivery plan, MyAnalytics aligns email delivery with your coworker's working hours. You can opt in as follows:
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. In **Config Settings**, change the setting for **Delay delivery** to **On**.
@@ -58,7 +56,7 @@ When you enroll in Delay delivery, MyAnalytics aligns email delivery with your c
 
 ## Opt in with Insights
 
-You can also use the Outlook Insights add-in to enroll in Delay delivery as follows:
+You can also use the Outlook Insights add-in to opt in to the Delay delivery plan as follows:
 
 1. In the Outlook Insights add-in, select **Settings** (gear icon) to open it.
 2. Change the setting for **Delay delivery** to **On**.
