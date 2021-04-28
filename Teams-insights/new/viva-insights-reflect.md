@@ -14,9 +14,6 @@ audience: Admin
 
 # Use the Microsoft Viva Insights reflect feature
 
->[!Note]
->This feature is currently available only in private preview.
-
 The Reflect feature helps you become more aware of how you're feeling, which can benefit both your productivity and your wellbeing. In fact, research has shown that even the act of taking a moment to reflect has positive benefits for wellbeing.
 
 >[!Important]

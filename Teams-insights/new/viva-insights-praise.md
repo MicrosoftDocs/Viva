@@ -14,9 +14,6 @@ audience: Admin
 
 # Use the Microsoft Viva Insights praise feature
 
->[!Note]
->This feature is currently available only in private preview.
-
 You can use the Praise app to recognize the contributions of your employees and co-workers. Praise messages appear as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
 You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-praise-reminders).
