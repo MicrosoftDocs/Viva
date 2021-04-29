@@ -8,6 +8,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 
 ---
 # Workplace Analytics partner solution overview

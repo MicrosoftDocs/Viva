@@ -2,7 +2,7 @@
 
 title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
@@ -11,13 +11,13 @@ audience: Admin
 ms.prod: wpa
 ---
 
-# Plans: The experience of plan participants
+# Plans: Participants' experience
 
-**Role** - a participant in a plan, an information worker who is using MyAnalytics <!-- REMOVED 22 MARCH 2021. and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) -->
+**Role** - a participant in a plan or a person who is using MyAnalytics <!-- REMOVED 22 MARCH 2021. and is enrolled in a [MyAnalytics (Full) service plan](../myanalytics/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) -->
 
-While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by MyAnalytics users. These are the people for whom a need was identified and a plan created. They have the opportunity to change workplace habits for the better. 
+While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by people. People who are using MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
 
-All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view the following items: 
+All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view what is described in the following sections.
 
 <!-- THIS IS TURNED OFF FOR NOW (MAY 2019)
 ## Welcome email
@@ -29,7 +29,7 @@ As a program manager schedules a plan, they can choose to let participants recei
 
 The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan.  
 
-If user is part of a plan, there is no change to any of the existing tabs. A new tab called "Team Plans" is available in the dashboard to track plan progress. This added section contains information such as recommended habits and a report on the participant's progress against the plan goals:
+When people are part of a plan, they'll see a new **Team Plans** in their dashboard for tracking their progress. This added section contains information, such as recommended habits and a report about their progress as compared to the plan goals.
 
 <!-- Remove for now
 ![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
@@ -39,13 +39,15 @@ If user is part of a plan, there is no change to any of the existing tabs. A new
 
 ## Digest
 
-All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). Each week, the digest focuses on one of the work patterns: Focus, Wellbeing, Network, or Collaboration. The subject of the digest shifts from one pattern to the next, week after week. Note that this weekly focus is _not_ affected by a participant's enrollment in a plan. 
+People who use MyAnalytics get a weekly [digest](../MyAnalytics/use/email-digest-2.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
 
-### Additional Teams Plan section
+### Teams Plan section
 
-For plan participants, the digest email includes an additional section, the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week: 
+For plan participants, their weekly digest includes an additional section, such as the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week.
 
-![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png) 
+However, people who are also using the [MyAnalytics Focus plan](../MyAnalytics/use/focus-plan.md) will not see this additional Plans section in their weekly digest. They will only see a weekly Focus digest (instead of a rotating digest) that shows updates about their focus plan.
+
+![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
 
 <!--  THIS SECTION CAN DESCRIBE THE EXCEPTION CAUSE BY "ADAPTIVE" AFTER WE GET THAT WORDING FROM PM. (PER PRAMOD, HELEN)
 > [!Note] 
@@ -62,21 +64,20 @@ MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notific
 
 Many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), but some apply only to participants of a particular Teamwork plan, such as the [Collaboration plan](#collaboration-plan) or the [Wellbeing plan](#wellbeing-plan):
 
-
 #### Collaboration plan
 
-Participants in the Collaboration plan might see the following inline suggestion<!--s-->:
+Participants in the Collaboration plan might see the following inline suggestion<!--s-->.
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
-|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  	| Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. | 
+|Reading pane (meeting invitation) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Could this meeting be 45 minutes? Suggest shortening to save everyone one hour per month. **Reply to &lt;name&gt;** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you ask the meeting organizer to shorten hour-long meetings to 45 minutes. |
 <!--
 |Meeting compose	| Some attendees have a lot of meetings this week. Is everyone required? **Mark who’s optional** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Suggests that you reconsider whether everyone is required in the meeting that you are organizing, in light of the high meeting load of your invitees. |
 -->
 
 #### Wellbeing plan
 
-Participants in the Wellbeing plan might see the following inline suggestion:
+Participants in the Wellbeing plan might see the following inline suggestion.
 
 | Where it shows up  | What it says | How it helps  |
 | :------ |-------|---------|
@@ -96,9 +97,7 @@ Participants in the Focus plan might see the following inline suggestion:
 
 ### Broadly available inline suggestions
 
-A number of other inline suggestions are available to _all_ MyAnalytics participants, whether or not they are enrolled in a Teamwork plan. They are described in the following topic:
-
-* [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md)  
+Many other inline suggestions are available to _all_ MyAnalytics participants, whether they are enrolled in a Teamwork plan or not. See [Inline suggestions in Outlook](../myanalytics/use/mya-notifications.md) for details.
 
 ## Related topics
 

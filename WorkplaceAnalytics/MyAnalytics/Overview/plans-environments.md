@@ -72,6 +72,8 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 * Office 365 Germany
 * Office 365 Operated by 21Vianet
 
+<!-- *NOT* REMOVED 21 APRIL 2021! but there are changes to the Germany situation: * Office 365 Germany  -->
+
 ## Browser support
 
 You can use the following web browsers to view your MyAnalytics dashboard.
