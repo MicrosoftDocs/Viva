@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Analyze business processes 
 description: Analyze business processes -- Introduction and walkthrough   
 author: paul9955
