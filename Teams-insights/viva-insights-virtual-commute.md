@@ -47,7 +47,7 @@ The first time that you open the protect-time feature, you will be prompted to s
 
 On this card, choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**.
 
-[!INCLUDE [Virtual commute notes](../includes/virtual-commute-details.md)]
+[!INCLUDE [Virtual commute notes](includes/virtual-commute-details.md)]
 
 If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
