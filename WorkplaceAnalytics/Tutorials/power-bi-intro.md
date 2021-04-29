@@ -24,7 +24,7 @@ Workplace Analytics Queries has a number of predefined query templates available
 Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one to see more details about it and to view an interactive demonstration on how you can use it to get similar data about your organization.
 
 >[!Note]
->**&#42;** The older query templates that have an **asterisk** (&#42;) in the following list will no longer be available in Workplace Analytics by the end of April 2021. Any existing query results or Power BI reports that were previously set up will not be impacted.
+>**&#42;** The older query templates that have an **asterisk** (&#42;) in the following list are no longer available in Workplace Analytics. Any existing query results or Power BI reports that were previously set up will not be impacted.
 
 | &nbsp; | &nbsp; |
 |------|-------|
@@ -33,7 +33,7 @@ Workplace Analytics includes the following dashboards that you can use in Power 
 |![Collaboration overload icon](../images/wpa/playbooks/email-overload-64x64.svg) |[**Collaboration overload**](./power-bi-collab-overload.md)**&#42;** <br>Shows where overall collaboration patterns, time fragmentation, or meeting quality could be improved in your organization. |
 |![Influencer icon](../images/wpa/playbooks/influencer-32x32.svg) |[**Influence insights**](./pbi-influence-db.md)**&#42;** <br>Shows how you can learn who your influencers are and leverage their ability to disseminate information and effectively drive change. |
 |![Manager impact icon](../images/wpa/playbooks/wellbeing-64x64.svg) |[**Manager impact**](./power-bi-manager-impact.md)**&#42;** <br>Shows insights about key leadership behaviors by organization and best practices recommended by industry experts to either maintain or improve leadership work patterns. |
-|![Microsoft Teams insights icon](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Microsoft Teams insights**](./power-bi-teams.md) <br>Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization. |
+|![Microsoft Teams insights icon](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Microsoft Teams insights**](./power-bi-teams.md) <br>Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.|
 |![Quickstart icon](../images/wpa/playbooks/focus-64x64.svg) |[**Quickstart overview**](./power-bi-quickstart.md)**&#42;** <br>Shows a high-level view of key organizational metrics to get a quick perspective on how the organization is collaborating and a way to identify potential areas that might require additional analysis. |
 |![Return to work icon](../images/wpa/playbooks/meetings-32x32.svg) |[**Return to worksites**](./power-bi-return-tw.md) <br>Shows how to plan who returns to work, and when, where, and how they do for the different work locations. |
 |![Sales business continuity icon](../images/wpa/playbooks/manage-connectedness-32x32.svg) |[**Sales business continuity**](./pbi-bc-sales.md) <br>Shows insights into how shifting to remote work has impacted your sales organization.|
