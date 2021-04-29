@@ -14,7 +14,7 @@ audience: Admin
 
 # Use the Microsoft Viva Insights virtual commute feature
 
-You can start the virtual commute feature from either of two places, the [Up-next card](#up-next-card) or the [Protect time](#protect-time) feature. 
+You can start the virtual commute feature from either of two places, the [Up-next card](#up-next-card) or the [Protect time](#protect-time) feature.
 
 ## Up-next card
 
@@ -45,7 +45,7 @@ The first time that you open the protect-time feature, you will be prompted to s
 
 ![Schedule virtual commute](Images/sched-virtual-commute-50.png)  
 
-On this card, choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**. 
+On this card, choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**.
 
 [!INCLUDE [Virtual commute notes](../includes/virtual-commute-details.md)]
 
@@ -53,7 +53,7 @@ If you need to adjust these settings at any time, you can do so on the **Setting
 
 #### Virtual commute steps
 
-After you begin your virtual commute by selecting **Start** on the **Protect time** page, the sequence starts. It consists of the following steps. All steps are optional; to skip a step, select **Next**. 
+After you begin your virtual commute by selecting **Start** on the **Protect time** page, the sequence starts. It consists of the following steps. All steps are optional; to skip a step, select **Next**.
 
 1. On the start page, select **Let's go**:
 
@@ -62,18 +62,18 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
 
    In this step, you can mark each task as complete (select "**It's done**") or set a reminder for another day:
- 
-     ![Close out current tasks](Images/02-close-out-current-tasks-55.png) 
- 
+
+     ![Close out current tasks](Images/02-close-out-current-tasks-55.png)
+
    If you do set a reminder, it will appear in the following places:
     * In your Microsoft To Do list.
-    * In your Briefing email, if you are subscribed to receive Briefing emails. 
-     * On the To Do card on the **Home** page; it appears here only on the day after you set the reminder.
- 
+    * In your Briefing email, if you are subscribed to receive Briefing emails.
+    * On the To Do card on the **Home** page; it appears here only on the day after you set the reminder.
+
    Select **Next**.
 
 3. **Add new tasks** &ndash; Use this step to add tasks to your list. There are two reasons to add them to your list:
- 
+
    * If you have work-related tasks that are top of mind, adding them to a list holds them for you in a reliable spot so that you can mentally let them go during your personal time.
 
    * Adding them here puts them directly into Microsoft To Do, complete with reminders set, so that you don't forget about them.
@@ -88,7 +88,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
      ![Home page to-do card](Images/home-to-do.png)  
 
-   After you've finished adding tasks &ndash; or if you have no tasks to add &ndash; select **Next**. 
+   After you've finished adding tasks &ndash; or if you have no tasks to add &ndash; select **Next**.
 
 4. **Preview of tomorrow** &ndash; This step shows you the events (such as meetings) that are on your schedule for tomorrow:
 
@@ -106,9 +106,9 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
  
    ![Breathe](Images/06-breathe-mindfully-55.png)
 
-   When you're finished, select **Next**. 
+   When you're finished, select **Next**.
 
-7. **Completion** &ndash; Complete your virtual commute. 
+7. **Completion** &ndash; Complete your virtual commute.
 
    ![Breathe](Images/07-completion-55.png)
 
@@ -120,5 +120,4 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
 [Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
 
-[Microsoft Viva Insights app &ndash; Protect time](viva-insights-protect-time.md) 
- 
+[Microsoft Viva Insights app &ndash; Protect time](viva-insights-protect-time.md)
