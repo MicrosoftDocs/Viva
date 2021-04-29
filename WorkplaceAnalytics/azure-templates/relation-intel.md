@@ -36,7 +36,7 @@ The Relationship Intelligence report includes the following.
     * Medium: 30 to 79
     * High: 80 to 100
   
-  * The **Account size** filters are based on the estimated account sizes, which are determined by the number of people in your organization that interact with accounts. The sizes are divided into the following values that can be filtered into any combination.
+  * The **Account size** filters are based on the estimated number of people in your organization who interacted with or contacted customer accounts. The sizes are divided into the following values that can be filtered into any combination.
 
     * XS: 1 to 2 contacts
     * X: 3 to 9 contacts
@@ -96,9 +96,10 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
     ![Add new analysis for the report](./images/ri-new-analysis.png)
 
 3. In **Select Account Mapping**, select the mapping file you created in [Account mapping](deploy-configure.md#account-mapping).
-4. In **Select the Grouping Attributes**, select two to five HR attributes to analyze and use to pivot analysis in Power BI. These are the HR attributes imported with the organizational data from Workplace Analytics.
-5. Select **Submit**. Creating the dataset will take a few minutes up to a few hours based on the size of the data.
-6. In **Relationship Intelligence** > **Analysis**, the analysis table includes the name, the source, the date is was submitted, who submitted it, and the following:
+4. To only select a subset of the data, select the applicable start and end dates in **Specify the time range**.
+5. In **Select the Grouping Attributes**, select two to five HR attributes to analyze and use to pivot analysis in Power BI. These are the HR attributes imported with the organizational data from Workplace Analytics.
+6. Select **Submit**. Creating the dataset will take a few minutes up to a few hours based on the size of the data.
+7. In **Relationship Intelligence** > **Analysis**, the analysis table includes the name, the source, the date it was submitted, who submitted it, and the following:
 
    * **Download** - Select to copy a link to this dataset and download the Power BI template.
    * **Parameters** - Lists details about the job parameters, such as the input path, output folder, excluded keywords, the mapping file name, the HR attributes included, and the person who created this analysis.
@@ -107,7 +108,7 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
    * **Delete** - Select to delete analysis that failed or that's no longer needed.
 
     >[!Note]
-    >If you delete the job, the underlying data required for the report is also deleted and any Power BI file that uses this data won’t work or show any data because it uses an OData link to the live data.
+    >If you delete the job, the underlying data required for the report is also deleted and any Power BI file that uses this data won’t work or show any data because it uses a link to the live data.
 
     ![Analysis table details](./images/ri-analysis-table.png)
 

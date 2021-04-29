@@ -47,7 +47,7 @@ To learn more, see [Process Explorer](./process-explorer.md).
 ### Relationship Intelligence
 
 * **Enhanced filter functionality and metrics** - In **Relationship Overview**, you'll see new metrics with more filter options that help focus analysis into specific accounts. These new metrics and filters are available as you drill into individual accounts.
-* **Account sizes** - You can now filter by the estimated account sizes, which are determined by the number of people in your organization that interact with accounts. The sizes are divided into the following values that you can filter for any combination.
+* **Account sizes** - You can now filter by the estimated number of people in your organization who interacted with or contacted customer accounts. The sizes are divided into the following values that you can filter for any combination.
 
   * XS: 1 to 2 contacts
   * X: 3 to 9 contacts
