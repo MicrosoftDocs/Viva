@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Automate query data export to Azure with Azure Data Factory UI
+title: Automate query data export with Azure Data Factory UI
 description: Steps for admins to set up an automated Workplace Analytics query data export to Azure through Azure Data Factory UI
 author: madehmer
 ms.author: v-mideh
