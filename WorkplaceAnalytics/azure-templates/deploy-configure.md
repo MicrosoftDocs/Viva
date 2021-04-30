@@ -271,7 +271,7 @@ Before creating analysis, you need to upload the exported CRM data (.csv) data f
 The following are examples of what the .csv file formats for accounts and contacts must include.
 
 >[!Important]
->The column names must be unique, are case-sensitive, and must match exactly to the contact and account names in the .csv files. If the file has a "FirstContactDate" column for both Accounts and Contacts, the file processing will fail because of the duplicate columns.  
+>The column names are case-sensitive and must match the contact and account names in the .csv files exactly. Column names in the accounts and contacts files must be unique. If the files share the same column names, you must rename the duplicate names in one of the files before the upload.
 
 #### Dynamics accounts
 
