@@ -17,7 +17,7 @@ audience: Admin
 
 # Process Explorer Azure Template for Workplace Analytics
 
-_This template is only available as part of a Microsoft service engagement._
+_These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Process Explorer template that helps you understand where your organization and teams are investing or expending their valuable time.
 
@@ -50,22 +50,21 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
 3. In **Define Analysis Settings**, select one of the following:
 
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
-   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. After the analysis is created with this option, you can export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings that are not categorized in the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages can then be categorized.
+   * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. After the analysis is created With this option, you can export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings remain uncategorized on the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages.
 
     ![Process Explorer starter templates](./images/pexp-new-analysis.png)
 
 4. In **Analysis Name**, enter a unique name for this analysis.
 5. Select the applicable path for the dataset to use in this analysis.
 6. Select the time range to analyze.
-7. Select the interaction types to be included in this analysis, including meetings, emails, or both. Note that you must include emails to have access to Email Thread Analysis.
-8. In **Choose Collaborators**, you can select:
+7. In **Choose Collaborators**, you can select:
 
    * **All Collaboration** - All internal collaboration activity as specified for this analysis.
    * **Collaboration with External Accounts** - Analyzes interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
 
-9. For **All Collaboration**, skip to the next step. Otherwise, in **Choose Account Mapping File**, you can either keep the default of **No Account Mapping File** or select an [account mapping file](deploy-configure.md#account-mapping) for this analysis.
-10. If prompted for **External Collaborators**, select which domains or accounts (if using an account mapping file) you want to include in this analysis. For **Apply Filters** or **Apply Filters for Internal Collaborators**, you can optionally select applicable filters to reduce and focus the dataset for analysis.
-11. Then do one of the following:
+8. For **All Collaboration**, skip to the next step. Otherwise, in **Choose Account Mapping File**, you can either keep the default of **No Account Mapping File** or select an [account mapping file](deploy-configure.md#account-mapping) for this analysis.
+9. If prompted for **External Collaborators**, select which domains or accounts (if using an account mapping file) you want to include in this analysis. For **Apply Filters** or **Apply Filters for Internal Collaborators**, you can optionally select applicable filters to reduce and focus the dataset for analysis.
+10. Then do one of the following:
 
     * **No organizational network graph** - For no graph, leave the default set to **No**, and select **Submit**. Then skip to **Step 13**.
     * **Generate Organizational Network Graph** - If available, change the setting to **Yes** to include **Communication Flow by Category** in the analysis, and then select **Next**.
@@ -73,15 +72,15 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
     >[!Important]
     >With the default **No** setting, **Communication Flow by Category** will not show or be available with this analysis. This setting is not available with the **Collaboration with External Accounts** option.
 
-12. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
+11. In **Specify the Interaction Types and Thresholds** for **Organizational Network Graph Settings**, select the following.
 
     * **Choose the interaction type(s)** - Select what to analyze in the dataset, independently or all emails and meetings.
     * **Maximum number of people involved in each interaction** - Select the maximum number of people involved in each interaction.
     * **Maximum duration of a meeting or call** - Select the maximum number of hours of the meeting.
     * **Advanced Settings** - Select to turn it **On** if you want to specify thresholds for interactions, such as a minimum number of emails, meetings, and interactions across both types.
 
-13. In **Select the Grouping Attributes**, select two to five HR attributes to group by for the analysis, and then select **Submit**.
-14. Data analysis creation takes a few minutes to complete depending on the size of the dataset. The name will show in the **Analysis** table with the following details and available actions.
+12. In **Select the Grouping Attributes**, select two to five HR attributes to group by for the analysis, and then select **Submit**.
+13. Data analysis creation takes a few minutes to complete depending on the size of the dataset. The name will show in the **Analysis** table with the following details and available actions.
 
     * When the **Status** changes to a green check mark, you can select the analysis to view it.
     * **Model Type** shows analysis was created using a starter template or the topic detection only model.
@@ -94,9 +93,7 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
 
 ## Categorization analysis
 
-You can analyze both emails and meetings or you can select to analyze only emails or only meetings. You can see how the activity data is distributed into predefined categories, including: total number of meetings, meeting hours, email, and email hours by category. If you select to only analyze meetings, Email Thread Analysis will be unavailable.
-
-You can also select **Download Category Distribution Data** to download a .csv file of this categorized data activity.
+You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. You can also select **Download Category Distribution Data** to download a .csv file of this categorized data activity.
 
 ![Categorization analysis](./images/pexp-cat-analysis.png)
 

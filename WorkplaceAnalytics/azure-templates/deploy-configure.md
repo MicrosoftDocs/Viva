@@ -263,15 +263,12 @@ Before creating analysis, you need to upload the exported CRM data (.csv) data f
     ![Add a new account mapping](./images/account-mapping.png)
 
 2. In **Name the Account mapping**, enter a friendly name for the mapping file.
-3. In **Specify your CRM source**, select the CRM source for your accounts and contacts.
+3. In **Specify your CRM source**, select the CRM source for your accounts and contacts. 
 4. In **Provide the accounts file** and **Provide the contacts**, select **Choose File**, and then select the .csv files for accounts and contacts, which must be in the required format as described in [Required CRM file formats](#required-crm-file-formats).
 
 ### Required CRM file formats
 
 The following are examples of what the .csv file formats for accounts and contacts must include.
-
->[!Important]
->The column names are case-sensitive and must match the contact and account names in the .csv files exactly. Column names in the accounts and contacts files must be unique. If the files share the same column names, you must rename the duplicate names in one of the files before the upload.
 
 #### Dynamics accounts
 

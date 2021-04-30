@@ -1,6 +1,7 @@
 ---
+
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics data export steps
+title: Workplace Analytics Data export
 description: Learn about Workplace Analytics Data export and how to set up and use it
 author: madehmer
 ms.author: v-mideh
@@ -41,17 +42,11 @@ The following .csv files are included in data exports. Select a file to view wha
 * [InstantMessages](./instantmessages.md)
 * [InstantMessageParticipants](./instantmessageparticipants.md)
 
-## Azure environment requirements
-
-Before exporting Workplace Analytics data, confirm the following: 
-
-* Your company has a current Azure subscription and an Azure storage account with an Azure storage container for storing the exported Workplace Analytics data.
-
-* Have a write-only SAS URI for the storage container. To learn more about SAS, see [Delegating Access with a Shared Access Signature](/rest/api/storageservices/delegating-access-with-a-shared-access-signature).
-
 ## To export data from Workplace Analytics
 
-1. If you have already installed Azure Templates, use the SAS URI created after deployment which grants write-only access to the raw data folder that was set up during deployment and use that URI in **Step 3**.
+1. If you have already installed Azure Templates, use the SAS URI created after deployment which grants write only access to the raw data folder that was setup during deployment and use that URI in the following step 3.
+
+   If you have not installed Azure Templates, or if you're setting up data access for other reasons, set up your Azure storage container as described in [Azure environment requirements](#azure-environment-requirements) and [Azure storage container setup](#azure-storage-container-setup). Confirm the URI is write only and has an applicable expiration date.
 2. In Workplace Analytics, go to **Settings** > **Admin settings** > **Data export**.
 3. In **Azure storage container SAS URI**, enter the URI for the Azure storage container.
 4. In the **Field privacy** section, select which fields to export as raw values and as hashed values. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
@@ -62,3 +57,79 @@ Before exporting Workplace Analytics data, confirm the following:
 5. Select **Save** (top right) to save your selections and enable a workflow that exports the Workplace Analytics data to the storage container. The applicable data is then exported to Azure during each subsequent data refresh in Workplace Analytics.
 
    ![Workplace Analytics data export settings page](./images/data-export.png)
+
+## Azure environment requirements
+
+Before you can export Workplace Analytics data, you need to confirm or do the following to set up your Azure environment:
+
+* Confirm your company has a current Azure subscription and an Azure storage account with an Azure storage container for storing the exported Workplace Analytics data. The following section describes some setup options.
+
+* Create a write-only SAS URI for this storage container. The following section provides an option to set this up as part of creating the storage container. To learn more about SAS, see [Delegating Access with a Shared Access Signature](/rest/api/storageservices/delegating-access-with-a-shared-access-signature).
+
+## Azure storage container setup
+
+* You can manually create an Azure storage container and associated resources by using the [Azure Portal](https://portal.azure.com) and the [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
+
+* Or you can automate the creation of the Azure storage environment and generate the SAS URI for the container by using [Azure CLI](/cli/azure/get-started-with-azure-cli) or [Azure PowerShell](/azure/storage/common/storage-powershell-guide-full).
+
+>[!Important]
+>If you are using this storage for Workplace Analytics Azure Templates, use the SAS URI that you generated in [Generate SAS URI for data export](../azure-templates/deploy-configure.md#generate-sas-uri-for-data-export).
+
+#### Example script
+
+The following example script uses [Azure CLI 2.0](/cli/azure/get-started-with-azure-cli) to create the container and the SAS URI.
+
+> [!Note]
+> * The storage-account name, resource-group name, data-center location, and container name are passed as command-line arguments.
+> * The resources are created if they do not already exist. You can run this script directly from the Azure Portal in an [Azure Cloud Shell](https://azure.microsoft.com/features/cloud-shell/).
+> * Update the _EXPIRY_ variable in this script to match the expiration date of your CS engagement.
+
+```
+#!/bin/bash
+# Script to create a storage account with SAS URI
+
+# command line arguments
+SANAME=$1
+RGNAME=$2
+LOCATION=$3
+CONTAINERNAME=$4
+
+# set the start date to today, and expiry date 90 days in the future - change this as needed
+SASSTART=`date +%Y-%m-%d`'T00:00:00Z'
+EXPIRY=`date -d "+90 days" +%Y-%m-%d`'T00:00:00Z'
+
+# set the name of the SAS key, based on the storage account
+SASNAME=$CONTAINERNAME'sas'
+
+# create the resource group (keeps going if already exists)
+az group create --name $RGNAME --location $LOCATION
+
+# Create a storage account (keeps going if already exists)
+az storage account create --name $SANAME --resource-group $RGNAME
+
+# Get a storage account key
+KEY=`az storage account keys list -g $RGNAME -n $SANAME | jq .[0].value`
+
+# Create a container using the key
+az storage container create -n $CONTAINERNAME --account-name $SANAME --account-key $KEY
+
+# Create a write-only SAS token on the container and get the key
+SASKEY=`az storage container generate-sas --account-name $SANAME --account-key $KEY --name $CONTAINERNAME \
+--permissions w --start $SASSTART --expiry $EXPIRY`
+
+# remove quotes
+SASKEY=${SASKEY:1:-1}
+
+# return the write-only SAS URI which is used in the Workplace Analytics Settings page
+echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
+
+# Create a read-list-only SAS token on the container and get the key
+SASKEY=`az storage container generate-sas --account-name $SANAME --account-key $KEY --name $CONTAINERNAME \
+--permissions rl --start $SASSTART --expiry $EXPIRY`
+
+# remove quotes
+SASKEY=${SASKEY:1:-1}
+
+# return a read-only SAS URI which can be used by an analyst to export data
+echo 'https://'$SANAME'.blob.core.windows.net/'$CONTAINERNAME'?'$SASKEY
+```

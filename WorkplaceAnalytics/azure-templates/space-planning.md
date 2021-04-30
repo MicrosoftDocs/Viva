@@ -17,7 +17,7 @@ audience: Admin
 
 # Workspace Planning Azure Template for Workplace Analytics
 
-_This template is only available as part of a Microsoft service engagement._
+_These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates include the Workspace Planning template that provides a quantitative solution to optimize the seat locations of teams based on their collaboration with the teams around them. This planning can help maximize and foster physical workspace for teams and for cross-team productivity and collaboration.
 
