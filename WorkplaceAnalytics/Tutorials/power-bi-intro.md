@@ -19,7 +19,7 @@ Workplace Analytics Queries has a number of predefined query templates available
    ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-queries.png)
 
 >[!Note]
->The dashboards are currently only available in English, which require English query data. Before running the required queries in Workplace Analytics, change the browser language for the Workplace Analytics app in the URL to **en-us/**: https://workplaceanalytics.office.com/en-us/Home/
+>The dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 Workplace Analytics includes the following dashboards that you can use in Power BI to visually analyze data. Select one to see more details about it and to view an interactive demonstration on how you can use it to get similar data about your organization.
 

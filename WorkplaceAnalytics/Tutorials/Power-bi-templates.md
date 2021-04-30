@@ -81,7 +81,7 @@ See [Power BI documentation](/power-bi/) for details on how to use Power BI.
 
 ##### Q11 What languages are the dashboards available in?
 
-The dashboards are currently only available in English, which require English query data. Before running the required queries in Workplace Analytics, change the browser language for the Workplace Analytics app in the URL to **en-us/**: https://workplaceanalytics.office.com/en-us/Home/
+The dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 ## Troubleshooting
 
