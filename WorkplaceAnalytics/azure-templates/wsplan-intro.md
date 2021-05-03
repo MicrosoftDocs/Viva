@@ -38,7 +38,7 @@ Before you can use the tool, confirm the following required prerequisites are me
 
 ## File prep
 
-The tool requires the following Jupyter Notebooks and a text file that you must save in a **master copy folder**. You'll use this folder to create a copy of for each workspace project.
+Save the following files to a **master folder**. You'll use this master folder to create a copy of for each workspace project.
 
 * **Distance helper notebook** - Creates a distance file between specified zones or neighborhoods. This uses the following input files to help you define the walking distances in a unit you specify, such as estimated minutes or meters between floors or buildings.
 * **File validations notebook** - Validates all the input files, including the distance file that's created from the Distance helper notebook.
@@ -47,11 +47,11 @@ The tool requires the following Jupyter Notebooks and a text file that you must 
 
 ### Input files
 
-You also need the following input (.csv) files to define the relevant information for each workspace project, such as team size and workspace capacity. The tool uses these to generate floor plans with recommended seating.
+You also need to save the following input (.csv) files to your master folder. These files define the relevant information for each workspace project, such as team sizes and workspace capacity. The tool uses these to generate the floor plans with recommended seating for each team based on their collaboration patterns from the interaction file.
 
-* [Interaction](space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows current work and collaboration patterns across the different teams.
-* [Space capacity](space-planning.md#create-a-space-capacity-file) - Defines the workspace, which an be a combination of buildings, floors, and zones or neighborhoods, and the maximum capacities for each.
 * [Team size](space-planning.md#create-a-team-size-file) - Defines the number of employees in each team in your organization.
+* [Space capacity](space-planning.md#create-a-space-capacity-file) - Defines the workspace, which an be a combination of buildings, floors, and zones or neighborhoods, and the maximum capacities for each.
+* [Interaction](space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows current work and collaboration patterns across the different teams.
 
 The tool combines the data in these files to generate a table that shows where to seat people in the specified floor plan.
 
