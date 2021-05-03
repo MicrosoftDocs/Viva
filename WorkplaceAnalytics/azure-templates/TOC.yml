@@ -20,6 +20,10 @@
   - name: Relationship Intelligence
     href: ./relation-intel.md    
   - name: Workspace Planning
+    items:
+  - name: Template
     href: ./space-planning.md
+  - name: Tool
+    href: ./wsplan-intro.md
 - name: Get support
   href: ./support.md
