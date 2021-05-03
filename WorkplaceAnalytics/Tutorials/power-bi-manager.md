@@ -71,6 +71,9 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
 ## Set up the dashboard
 
+>[!Note]
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Manager effectiveness** (or select **influence insights by month**, per **Step 8**) to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
