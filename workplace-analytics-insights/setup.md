@@ -38,7 +38,7 @@ You can request access and get more information at [Microsoft Workplace Analytic
 
 ## Assign licenses
 
-You must be able to sign in as a global Microsoft 365 admin to use the Microsoft admin center to assign licenses to people in your organization who subscribe to Microsoft 365 or Office 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
+You must be able to sign in as a global Microsoft 365 admin to use the Microsoft admin center to assign licenses to people in your organization who subscribe to Microsoft 365 or Office 365 E5 or E3 plan whose [Microsoft 365 datacenter geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
 
 You can assign licenses as follows:
 
