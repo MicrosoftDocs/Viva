@@ -141,10 +141,10 @@
                   href: ~/Use/insight-faqs.md
         - name: Analyze
           items:
-            - name: Business process analysis
-              href: ~/tutorials/analyze-business-processes.md
             - name: Peer analysis
-              href: ~/use/peer-analysis.md            
+              href: ~/use/peer-analysis.md
+            - name: Business process analysis
+              href: ~/tutorials/analyze-business-processes.md              
             - name: Queries
               items:
                 - name: Overview

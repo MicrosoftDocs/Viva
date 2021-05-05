@@ -1,7 +1,7 @@
 ---
 
 title: Business process analysis in Workplace Analytics 
-description: Learn about and how to use Workplace Analytics to analyze business processes   
+description: Analyze business processes -- Introduction and walkthrough   
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -17,7 +17,7 @@ When you and your co-workers perform an organized series of steps to reach a goa
 
 You can improve your business processes by analyzing them; for example, by measuring their cost in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees have been participating in them.
 
-To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- *** CALL THESE NEW FILTERS OUT IN THAT TOPIC *** -->
+To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
 
 Use the following procedures to analyze a business process:
 
