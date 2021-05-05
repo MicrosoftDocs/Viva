@@ -48,7 +48,7 @@ To define a data set, use the following procedure:
 
 **Role:** Analyst
 
-Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process). 
+Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process).
 
 In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
 
