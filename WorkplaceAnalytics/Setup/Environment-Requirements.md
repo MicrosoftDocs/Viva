@@ -55,13 +55,13 @@ Workplace Analytics requires an Office 365 or Microsoft 365 tenant with Exchange
 USE THIS ALERT IN THE FINAL COPY, ON DMC.
 
 >[!Important]
->Workplace Analytics is not yet supported for users whose mailboxes are in the geo locations Brazil and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the Microsoft 365 datacenter geo location of a mailbox](/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
+>Workplace Analytics is not yet supported for users whose mailboxes are in the Microsoft 365 datacenter geo locations Brazil and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the Microsoft 365 datacenter geo location of a mailbox](/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
 
 USE THIS ALERT TO TEST. IT DOESN'T WORK IN RDMC. 
 -->
 
 >[!Important]
->Workplace Analytics is not yet supported for users whose mailboxes are in the geo locations Brazil and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos?view=o365-worldwide) and [Find the Microsoft 365 datacenter geo location of a mailbox](https://docs.microsoft.com/en-us/microsoft-365/enterprise/administering-exchange-online-multi-geo?view=o365-worldwide#find-the-geo-location-of-a-mailbox).
+>Workplace Analytics is not yet supported for users whose mailboxes are in the Microsoft 365 datacenter geo locations Brazil and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos?view=o365-worldwide) and [Find the Microsoft 365 datacenter geo location of a mailbox](https://docs.microsoft.com/en-us/microsoft-365/enterprise/administering-exchange-online-multi-geo?view=o365-worldwide#find-the-geo-location-of-a-mailbox).
 
 
 ### Pricing
