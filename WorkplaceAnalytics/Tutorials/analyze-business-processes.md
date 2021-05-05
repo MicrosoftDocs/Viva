@@ -1,7 +1,7 @@
 ---
 
-title: Analyze business processes 
-description: Analyze business processes -- Introduction and walkthrough   
+title: Business process analysis in Workplace Analytics 
+description: Learn about and how to use Workplace Analytics to analyze business processes   
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Analyze business processes
+# Business process analysis
 
 When you and your co-workers perform an organized series of steps to reach a goal, you've participated in a business process. For example, your organization's hiring process might consist of obtaining leads, screening candidates, conducting interviews, making an offer, and sending new hires to HR for onboarding. Later business processes might have goals of training or coaching.
 
@@ -19,7 +19,7 @@ You can improve your business processes by analyzing them; for example, by measu
 
 To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- *** CALL THESE NEW FILTERS OUT IN THAT TOPIC *** -->
 
-Here are the procedures to follow to analyze a business process:
+Use the following procedures to analyze a business process:
 
 1. [Define a data set](#define-a-data-set) &ndash; Make sure that you're analyzing only data that is relevant in every aspect, such as organizationally and geographically.
 
@@ -33,8 +33,8 @@ This illustration shows these procedures and the types of data that they involve
 
 The following sections describe these procedures.
 
-> [!Note]
-> After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
+>[!Note]
+>After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
 
 ## Define a data set
 
