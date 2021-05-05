@@ -1,6 +1,6 @@
 ---
 
-title: Business process analysis 
+title: Business process analysis in Workplace Analytics 
 description: Analyze business processes -- Introduction and walkthrough   
 author: paul9955
 ms.author: v-pausch
@@ -19,7 +19,7 @@ You can improve your business processes by analyzing them; for example, by measu
 
 To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
 
-Here are the procedures to follow to analyze a business process:
+Use the following procedures to analyze a business process:
 
 1. [Define a data set](#define-a-data-set) &ndash; Make sure that you're analyzing only data that is relevant in every aspect, such as organizationally and geographically.
 
@@ -33,8 +33,8 @@ This illustration shows these procedures and the types of data that they involve
 
 The following sections describe these procedures.
 
-> [!Note]
-> After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
+>[!Note]
+>After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
 
 ## Define a data set
 
@@ -48,7 +48,7 @@ To define a data set, use the following procedure:
 
 **Role:** Analyst
 
-Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process). 
+Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process).
 
 In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
 
