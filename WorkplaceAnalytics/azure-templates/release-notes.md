@@ -18,11 +18,7 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
-<<<<<<< HEAD
 ## May 2021
-=======
-## April 2021
->>>>>>> parent of c2a0119a (Revert "Merge branches 'md-wpa-apr-2' and 'md-azt-apr' of https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics-pr into md-wpa-apr-2")
 
 The following new template features, enhancements, and changes are included in this month's release.
 ### Organizational Network Analysis (ONA)
