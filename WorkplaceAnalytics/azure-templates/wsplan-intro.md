@@ -1,6 +1,6 @@
 ---
 title: Workspace planning introduction
-description: About the Workspace planning tool and how to use it to create seating plans
+description: About the Workspace planning open-source tool and how to use it to create seating plans
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
@@ -12,7 +12,7 @@ audience: Admin
 ---
 # Workspace planning tool
 
-If your team or company is moving to a new worksite or you need to reorganize an existing workspace, this tool can help. Workspace planning can identify and seat teams together in a workspace that maximizes and fosters cross-team productivity and collaboration. You can use this tool to generate floor plans quickly and objectively, in a data-driven way that optimizes employee collaboration by seating teams together.
+If your team or company is moving to a new worksite or you need to reorganize an existing workspace, this open-source tool can help. Workspace planning can help you identify and seat teams together in a workspace that maximizes and fosters cross-team productivity and collaboration. You can use this tool to generate floor plans quickly and objectively, in a data-driven way that optimizes employee collaboration by seating teams together.
 
 The algorithm for this Workspace planning tool accounts for the following rules and constraints:
 
