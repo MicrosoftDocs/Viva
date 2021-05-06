@@ -128,7 +128,7 @@ Workplace Analytics includes the following predefined query templates to help yo
 * **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
 
 >[!Note]
->The following query templates are no longer available in Workplace Analytics. See [Power BI templates](power-bi-intro.md) for the current list of available templates.
+>The following query templates are no longer available in Workplace Analytics.
 
 * **Build focus hours** finds groups that have the lowest amount of focus time.
 * **Calls and IMs** analyzes call and instant-message hours by person.

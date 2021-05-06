@@ -53,12 +53,12 @@ You can select **See your insights** to see ways you can develop effective manag
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Optimize meeting hours |Try shorter and smaller meetings |[Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) |
-  |Prevent burnout |Reduce meeting hours |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork)
-  |Strengthen management pipeline |Find unexpected leaders |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Empower employees |Increase information sharing |[Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) |
-  |Foster connectivity |Grow manager connectivity (_Currently only available through private preview_)|[Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) |
+  |Optimize meeting hours |Try shorter and smaller meetings |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) |
+  |Prevent burnout |Reduce meeting hours |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)
+  |Strengthen management pipeline |Find unexpected leaders |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) |
+  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) |
+  |Empower employees |Increase information sharing |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) |
+  |Foster connectivity |Grow manager connectivity (_Currently only available through private preview_)|[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks) |
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
