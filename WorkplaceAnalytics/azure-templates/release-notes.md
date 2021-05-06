@@ -18,6 +18,64 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## May 2021
+
+The following new template features, enhancements, and changes are included in this month's release.
+### Organizational Network Analysis (ONA)
+
+**Insights** is a new ONA Template option that uses a simplified set of settings to quickly surface insights about within-group and cross-group collaboration trends for your organization.
+
+* **Within-group insights** - Focus on internal group-member to group-member collaboration by highlighting each groups’ behavioral risks for the following important collaboration trends. You can use these to see how group metrics change over time and to better understand their collaboration trends.
+
+  * **Silo Risk** shows which groups are disconnected from others or at risk of it. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group.
+  * **Collaboration Balance** shows which groups are balancing their efforts across multiple types of contacts. New ideas are key to driving innovation across your company. Access to these ideas is facilitated by fostering diverse connections while balancing time across different groups.
+  * **Group Cohesion** shows which groups have the cohesion needed to build trust. The number of connections within groups is critical to building trust. Group members who trust one another are more inclusive and better positioned to deliver successful results.
+
+* **Cross-group insights** - focus on how groups collaborate with other groups in their network. The insights highlight which groups are collaborating as expected and less than expected and which groups are not communicating at all. You can also see how these metrics have changed over time, to better understand your groups' collaboration trends.
+* **Downloadable metrics** - Same as for Analysis in ONA, you can also download the collaboration metrics and interaction matrix for any Insights that you create in ONA Insights.
+* **Filter group count** - When creating new analysis or applying settings or filters in ONA, you can now see the approximate count of people included in the analysis as compared to the total population that's included in the dataset. This makes it easier for you to understand the size of the network you are focusing on while adhering to the minimum-group size and threshold settings for the Azure Templates. This can help reduce occurrences of analysis starting to process only to fail due to conflicting with these minimum-group size settings.
+
+To learn more, see [Insights](./ona-insights.md) and [Analysis](./ona-analysis.md), which are now available as part of the Organizational Network Analysis Template.
+
+### Process Explorer
+
+* **Interaction Type selection** - You can now select the type of interaction that you want to analyze with the Process Explorer template. By default, both emails and meetings are included for process analysis. However, you can now select to only analyze emails or only meetings. **Note**: When only analyzing meetings, Email Thread Analysis will be unavailable.
+* **Filter group count** - When creating new analysis or applying settings or filters, you'll now see the approximate count of people included in the analysis as compared to the total population included in the dataset. This makes it easier for you to understand the size of the collaboration you are focusing on while adhering to the minimum-group size and threshold settings for the Azure Templates. This can help reduce occurrences of analysis starting to process only to fail due to conflicting with these minimum-group size settings.
+
+To learn more, see [Process Explorer](./process-explorer.md).
+
+### Relationship Intelligence
+
+* **Enhanced filter functionality and metrics** - In **Relationship Overview**, you'll see new metrics with more filter options that help focus analysis into specific accounts. These new metrics and filters are available as you drill into individual accounts.
+* **Account sizes** - You can now filter by the estimated number of people in your organization who interacted with or contacted customer accounts. The sizes are divided into the following values that you can filter for any combination.
+
+  * XS: 1 to 2 contacts
+  * X: 3 to 9 contacts
+  * M: 10 to 49 contacts
+  * L: 50 to 99 contacts
+  * XL: 100 to 499 contacts
+  * XXL: 500 or more contacts
+
+* **Connectivity scores** - Indicate how close of a relationship your organization has with each account. The scores are divided into the following values that you can filter into any combination.
+
+  * Low: 1 to 29
+  * Medium: 30 to 79
+  * High: 80 to 100
+
+* **Connectivity tiers** - Categorize each account into one of the following percentiles out of all of the accounts the organization engages with, which you can filter down to any combination of tiers.
+
+  * Bottom 5 percent
+  * Bottom 25 percent
+  * Bottom 50 percent
+  * Top 50 percent
+  * Top 25 percent
+  * Top 10 percent
+  * Top 5 percent
+
+* **Connectivity rank by account size** - Ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. You might see rank ties between one or more accounts who have the same connectivity score and size designation.
+
+To learn more, see [Relationship Intelligence](./relation-intel.md).
+
 ## January 2021
 
 The following new template features, enhancements, and changes are included this month's release.
