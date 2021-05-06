@@ -19,7 +19,7 @@ audience: Admin
 
 ## Access to Teams collaboration
 
-You can open [Teams collaboration](https://workplaceanalytics.office.com/Home/Agility/ChatsAndCalls) in Workplace Analytics to view it.
+You can open [Teams collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ChatsAndCalls) in Workplace Analytics to view it.
 
 ## Call hours
 

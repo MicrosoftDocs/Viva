@@ -19,7 +19,7 @@ audience: Admin
 
 ## Access to Meetings overview
 
-**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
+**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
 
 ## Low-quality meeting hours
 
