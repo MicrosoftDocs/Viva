@@ -17,7 +17,7 @@ audience: Admin
 
 # Relationship Intelligence
 
-_This template is only available as part of a Microsoft service engagement._
+_These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Relationship Intelligence report for Power BI. You can use this report to analyze relationships your organization has with collaborators external to the company, such as relationships with customers or partners.
 
@@ -29,37 +29,12 @@ The Relationship Intelligence report includes the following.
 
 * **Relationship Overview** - Shows information about all accounts, including:
 
-  * The Account table includes an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
-  * The **Connectivity Score** is based on the amount, frequency, and timeliness of collaboration activity with an account. The scores are divided into the following values that can be filtered into any combination.
-
-    * Low: 1 to 29
-    * Medium: 30 to 79
-    * High: 80 to 100
-  
-  * The **Account size** filters are based on the estimated number of people in your organization who interacted with or contacted customer accounts. The sizes are divided into the following values that can be filtered into any combination.
-
-    * XS: 1 to 2 contacts
-    * X: 3 to 9 contacts
-    * M: 10 to 49 contacts
-    * L: 50 to 99 contacts
-    * XL: 100 to 499 contacts
-    * XXL: 500 or more contacts
-
-  * The **Connectivity tiers** categorize each account into one of the following percentiles out of all of the accounts the organization engages with, which you can filter down to any combination of tiers.
-
-    * Bottom 5 percent
-    * Bottom 25 percent
-    * Bottom 50 percent
-    * Top 50 percent
-    * Top 25 percent
-    * Top 10 percent
-    * Top 5 percent
-
-  * The **Connectivity rank by account size** ranks each account by comparing its connectivity score with all the other accounts of a comparable size that your organization interacts with. You might see rank ties between one or more accounts who have the same connectivity score and the same size designation.
+  * The Account table shows an overview of related collaboration activity with accounts, such as email and meeting hours spent with them and the last date the organization engaged with them.
+  * The **Connectivity Score** is based on the amount, frequency, and timeliness of collaboration activity with an account.
   * Page down to see **Relationship Highlights** > **Total Time Spent** chart and a chart with **Distinct contacts** analysis.
   * Use the **Internal Group Settings** on the Settings page to focus the chart analysis (below the filter) to specific internal groups who are collaborating. The **Group Engagement** and **Collaboration Time** charts show more details about overall account collaboration activity.
 
-* **Account Analysis** - Focuses on the following details about an account that you selected and drilled through from the first page:
+* **Account Analysis** - Focuses in on the following details about an account that you selected and drilled through from the first page:
 
   * See visuals about the average **Connectivity Score** and how the score has changed over the selected time and how metrics contributing to the score have changed over the same time period.
   * Examine the collaboration visuals on this page to see what type of communication has occurred with contacts over time and who the top individual account contacts are that the organization has collaborated with. The second table lists the top internal groups in the organization who have collaborated with an account based on the Internal Group Settings values from the Settings page.
@@ -96,10 +71,9 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
     ![Add new analysis for the report](./images/ri-new-analysis.png)
 
 3. In **Select Account Mapping**, select the mapping file you created in [Account mapping](deploy-configure.md#account-mapping).
-4. To only select a subset of the data, select the applicable start and end dates in **Specify the time range**.
-5. In **Select the Grouping Attributes**, select two to five HR attributes to analyze and use to pivot analysis in Power BI. These are the HR attributes imported with the organizational data from Workplace Analytics.
-6. Select **Submit**. Creating the dataset will take a few minutes up to a few hours based on the size of the data.
-7. In **Relationship Intelligence** > **Analysis**, the analysis table includes the name, the source, the date it was submitted, who submitted it, and the following:
+4. In **Select the Grouping Attributes**, select two to five HR attributes to analyze and use to pivot analysis in Power BI. These are the HR attributes imported with the organizational data from Workplace Analytics.
+5. Select **Submit**. Creating the dataset will take a few minutes up to a few hours based on the size of the data.
+6. In **Relationship Intelligence** > **Analysis**, the analysis table includes the name, the source, the date is was submitted, who submitted it, and the following:
 
    * **Download** - Select to copy a link to this dataset and download the Power BI template.
    * **Parameters** - Lists details about the job parameters, such as the input path, output folder, excluded keywords, the mapping file name, the HR attributes included, and the person who created this analysis.
@@ -108,7 +82,7 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
    * **Delete** - Select to delete analysis that failed or that's no longer needed.
 
     >[!Note]
-    >If you delete the job, the underlying data required for the report is also deleted and any Power BI file that uses this data won’t work or show any data because it uses a link to the live data.
+    >If you delete the job, the underlying data required for the report is also deleted and any Power BI file that uses this data won’t work or show any data because it uses an OData link to the live data.
 
     ![Analysis table details](./images/ri-analysis-table.png)
 

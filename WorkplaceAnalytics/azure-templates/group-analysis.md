@@ -15,7 +15,7 @@ audience: Admin
 ---
 # Group Analysis Azure Template for Workplace Analytics
 
-_This template is only available as part of a Microsoft service engagement._
+_These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates includes the Group Analysis template that enables you to compare two groups, such as managers and individual contributors, and determine the major differences between them.
 
