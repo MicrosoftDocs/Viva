@@ -1,6 +1,6 @@
 ---
-title: Workspace planning introduction
-description: About the Workspace planning open-source tool and how to use it to create seating plans
+title: Workspace planning introduction and instructions
+description: Learn about the Workspace planning open-source tool and how to use it to create seating plans
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
@@ -14,7 +14,7 @@ audience: Admin
 
 If your team or company is moving to a new worksite or you need to reorganize an existing workspace, this open-source tool can help. Workspace planning can help you identify and seat teams together in a workspace that maximizes and fosters cross-team productivity and collaboration. You can use this tool to generate floor plans quickly and objectively, in a data-driven way that optimizes employee collaboration by seating teams together.
 
-The algorithm for this Workspace planning tool accounts for the following rules and constraints:
+The algorithm for this tool accounts for the following rules and constraints:
 
 * **Teams stay together** - When a workspace can seat everyone on the team, it will keep them all together.
 * **Teams who collaborate the most sit together** - Based on the collaboration patterns and the distances between spaces, if team A spends most of its time with team B, the two teams are assigned workspaces that are as close together as possible.
@@ -56,3 +56,6 @@ You also need to save the following input (.csv) files to your master folder. Th
 The tool combines the data in these files to generate a table that shows where to seat people in the specified floor plan.
 
    ![Example floor plan](./images/wsp-example.png)
+
+## Plan a workspace
+
