@@ -40,22 +40,62 @@ Before you can use the tool, confirm the following required prerequisites are me
 
 Save the following files to a **master folder**. You'll use this master folder to create a copy of for each workspace project.
 
-* **Distance helper notebook** - Creates a distance file between specified zones or neighborhoods. This uses the following input files to help you define the walking distances in a unit you specify, such as estimated minutes or meters between floors or buildings.
-* **File validations notebook** - Validates all the input files, including the distance file that's created from the Distance helper notebook.
+* **Distance Helper notebook** - Creates a distance file between specified zones or neighborhoods. This uses the following input files to help you define the walking distances in a unit you specify, such as estimated minutes or meters between floors or buildings.
+* **File Validations notebook** - Validates all the input files, including the distance file that's created from the Distance helper notebook.
 * **Generate Floorplan notebook** - Creates a floor plan from the validated input files and reruns the algorithm on the floor plan.
-* **Requirements text file** - Documentation for the tool.
+* **Requirements text file** - Documentation required for the tool.
 
 ### Input files
 
 You also need to save the following input (.csv) files to your master folder. These files define the relevant information for each workspace project, such as team sizes and workspace capacity. The tool uses these to generate the floor plans with recommended seating for each team based on their collaboration patterns from the interaction file.
 
+* [Interaction](space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows current work and collaboration patterns across the different teams.
 * [Team size](space-planning.md#create-a-team-size-file) - Defines the number of employees in each team in your organization.
 * [Space capacity](space-planning.md#create-a-space-capacity-file) - Defines the workspace, which an be a combination of buildings, floors, and zones or neighborhoods, and the maximum capacities for each.
-* [Interaction](space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows current work and collaboration patterns across the different teams.
 
 The tool combines the data in these files to generate a table that shows where to seat people in the specified floor plan.
 
-   ![Example floor plan](./images/wsp-example.png)
+![Example floor plan](./images/wsp-example.png)
 
 ## Plan a workspace
 
+1. A Workplace Analytics Analyst needs to create the interaction file, which is a group-to-group query that shows the current work and collaboration patterns across the different teams. For detailed steps, see [Create an interaction file](space-planning.md#create-an-interaction-file).
+2. Copy all the required files listed in [File prep files](#file-prep) and [Input files](#input-files) into a working folder for this workspace.
+3. You can use PowerPoint like the following example to define the zone coordinates for each workspace building, floor, and zone:
+
+   1. Copy a seating grid of each floor and identify your zones or neighborhoods.
+   2. Overlay x and y coordinates for each zone.
+   3. Map all the zones and coordinates in a table. These coordinates are required in the Distance helper notebook. The following shows an example of defining zone coordinates for a workspace floor.
+
+   ![Example zone grid and table](./images/wsp-zones.png)
+
+4. Use a [Google Chrome browser](https://www.google.com/chrome/), which is required by Jupyter, to open the Anaconda navigator.
+5. In Anaconda, launch Jupyter Note, and then locate and open the **Distance Helper notebook** in the workspace working folder.
+6. In the Distance helper notebook, select **Run** at the top, which for your first use will load any necessary files, including the **Requirements.txt** data.
+7. When prompted, enter the total number of buildings you have, and then select **Go**.
+
+   ![Distance Helper buildings prompt](./images/distant-helper.png)
+
+8. Enter the building information in the table, including the name, number, and complete address of each building.
+9. In **Max number of floors**, enter the maximum number of floors that the buildings included in the overall workspace have, and then select **Go**. For example, if two of the buildings have two floors and one has three floors in the overall workspace, you'd enter three as the maximum number of floors for the workspace.
+10. In the table, enter the numbers assigned to each floor in each building.
+11. In **Max number of zones**, enter the maximum number of zones that you'll need to define for any of the floors in any of the individual buildings. The following shows entering six as the maximum number of zones required for a floor in one of the buildings in the workspace.
+
+    ![Distance Helper floor and zone number prompts](./images/wsp-dh-fnz.png)
+
+12. In the **Game of Zones** table, enter the zone coordinates that you defined in **Step 3**, and then select **Go**.
+
+    ![Distance Helper Game of Zones example table](./images/wsp-game-of-zones.png)
+
+13. In the **Space names** table, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone. The following example shows a zone coordinate of **4,3** with a friendly **Space name** of **16-1D**, which represents Zone D on the first floor of Building 16.
+
+    ![Distance Helper example space names](./images/wsp-space-names.png)
+
+14. Select **Go**, which saves a new Distance.csv file with all your inputs in your working folder, and then select **Open Validations UI Notebook**.
+15. In the **File Validations notebook**, select **Run** to validate the files before you use them to generate the floorplans.
+16. When prompted to load the data, select the location for each of the files, as shown in the following graphic, and then select **Go** to validate them.
+
+    ![File Validations notebook example](./images/wsp-file-validation.png)
+
+17. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. You can select to **Show details** and troubleshoot why a file failed. After you have fixed any issues in the file, repeat **Step 6** to validate the file again.
+18. 
