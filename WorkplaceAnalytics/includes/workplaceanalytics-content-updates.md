@@ -2,6 +2,50 @@
 
 
 
+## Week of May 03, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/3/2021 | [Workplace Analytics playbooks](/Workplace-Analytics/use/playbooks) | modified |
+| 5/3/2021 | [Return to worksites dashboard](/Workplace-Analytics/tutorials/power-bi-return-tw) | modified |
+| 5/4/2021 | [Workplace Analytics playbooks](/Workplace-Analytics/use/playbooks) | modified |
+| 5/5/2021 | [Workplace Analytics data analysis](/Workplace-Analytics/overview/get-started) | modified |
+| 5/5/2021 | [Business process analysis in Workplace Analytics](/Workplace-Analytics/tutorials/analyze-business-processes) | modified |
+| 5/6/2021 | [Requirements for Workplace Analytics](/Workplace-Analytics/setup/environment-requirements) | modified |
+| 5/6/2021 | [Workplace Analytics query overview](/Workplace-Analytics/tutorials/query-basics) | modified |
+| 5/6/2021 | [Week in the life metrics in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-week-in-the-life) | modified |
+| 5/6/2021 | [Explore external collaboration data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-external-collaboration) | modified |
+| 5/6/2021 | [Explore internal network metrics in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-internal-networks) | modified |
+| 5/6/2021 | [Explore management and coaching data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-management-and-coaching) | modified |
+| 5/6/2021 | [Explore meetings overview data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-meetings-overview) | modified |
+| 5/6/2021 | [Workplace Analytics Glossary](/Workplace-Analytics/use/glossary) | modified |
+| 5/6/2021 | [Accelerate change with Workplace Analytics](/Workplace-Analytics/use/accelerate-change) | modified |
+| 5/6/2021 | [Boost employee engagement with Workplace Analytics](/Workplace-Analytics/use/boost-engagement) | modified |
+| 5/6/2021 | [Increase customer focus with Workplace Analytics](/Workplace-Analytics/use/customer-focus) | modified |
+| 5/6/2021 | [Develop effective managers with Workplace Analytics](/Workplace-Analytics/use/develop-managers) | modified |
+| 5/6/2021 | [Enhance operational effectiveness with Workplace Analytics](/Workplace-Analytics/use/effective-operations) | modified |
+| 5/6/2021 | [Explore the stats introduction](/Workplace-Analytics/use/explore-intro) | modified |
+| 5/6/2021 | [Explore Teams data in Workplace Analytics](/Workplace-Analytics/use/explore-metrics-teams) | modified |
+| 5/6/2021 | [Workplace Analytics FAQ](/Workplace-Analytics/use/faq) | modified |
+| 5/6/2021 | [Foster innovation](/Workplace-Analytics/use/foster-innovation) | modified |
+| 5/6/2021 | [Improve agility with Workplace Analytics](/Workplace-Analytics/use/improve-agility) | modified |
+| 5/6/2021 | [Enhance organizational resiliency with Workplace Analytics](/Workplace-Analytics/use/resilient-organizations) | modified |
+| 5/6/2021 | [Transform meeting culture](/Workplace-Analytics/use/transform-meetings) | modified |
+| 5/6/2021 | [Analysis in the Organizational Network Analysis Azure Template](/Workplace-Analytics/azure-templates/ona-analysis) | added |
+| 5/6/2021 | [Insights in the Organizational Network Analysis Azure Template](/Workplace-Analytics/azure-templates/ona-insights) | added |
+| 5/6/2021 | [Automate query data export with Azure Data Factory UI](/Workplace-Analytics/data-access/query-data-export) | modified |
+| 5/6/2021 | [Deploy and configure Workplace Analytics Azure Templates](/Workplace-Analytics/azure-templates/deploy-configure) | modified |
+| 5/6/2021 | [Group Analysis Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/group-analysis) | modified |
+| 5/6/2021 | [Join Datasets Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/join-datasets) | modified |
+| 5/6/2021 | [Organizational Network Analysis Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/organization-network-analysis) | modified |
+| 5/6/2021 | [Process Explorer Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/process-explorer) | modified |
+| 5/6/2021 | [Relationship Intelligence report](/Workplace-Analytics/azure-templates/relation-intel) | modified |
+| 5/6/2021 | [Release Notes for Workplace Analytics Azure Templates](/Workplace-Analytics/azure-templates/release-notes) | modified |
+| 5/6/2021 | [Workspace Planning Azure Template for Workplace Analytics](/Workplace-Analytics/azure-templates/space-planning) | modified |
+| 5/7/2021 | [Return to worksites dashboard](/Workplace-Analytics/tutorials/power-bi-return-tw) | modified |
+
+
 ## Week of April 26, 2021
 
 
@@ -274,19 +318,3 @@
 | 4/9/2021 | [Manager insights rollout](/Workplace-Analytics/manager-insights/rollout) | modified |
 | 4/9/2021 | [Microsoft Viva Insights for managers in Microsoft Teams](/Workplace-Analytics/manager-insights/teams-app) | modified |
 | 4/9/2021 | [Best practices for supporting your team's wellbeing](/Workplace-Analytics/manager-insights/wellbeing) | modified |
-
-
-## Week of March 29, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/29/2021 | [Workplace Analytics query overview](/Workplace-Analytics/tutorials/query-basics) | modified |
-| 3/29/2021 | [Organizational network analysis (ONA) person queries](/Workplace-Analytics/tutorials/ona-person-query) | modified |
-| 3/29/2021 | [Organizational network analysis (ONA) person-to-person queries](/Workplace-Analytics/tutorials/ona-person-to-person-query) | modified |
-| 3/29/2021 | [Insights Outlook add-in](/Workplace-Analytics/myanalytics/use/add-in) | modified |
-| 3/29/2021 | [Prepare organizational data in Workplace Analytics](/Workplace-Analytics/setup/prepare-organizational-data) | modified |
-| 3/29/2021 | [MyAnalytics plans and environments](/Workplace-Analytics/myanalytics/overview/plans-environments) | modified |
-| 4/2/2021 | [Analyze business processes](/Workplace-Analytics/tutorials/analyze-business-processes) | added |
-| 4/2/2021 | [Privacy settings for Workplace Analytics](/Workplace-Analytics/use/privacy-settings) | modified |
-| 4/2/2021 | [Workplace Analytics metric filters](/Workplace-Analytics/use/metric-filters) | modified |
