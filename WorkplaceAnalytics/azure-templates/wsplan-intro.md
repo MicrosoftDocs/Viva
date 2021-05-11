@@ -110,10 +110,35 @@ The tool combines the data in these files to generate a table that shows where t
 
 19. The updated files are saved to a new **Final files set** folder. Any changes relating to these files are also saved to this folder.
 20. Open the **Generate Floorplan notebook**, and then select **Run**.
-21. Select **Standard** to get started, and then do one of the following. The floor plan files are saved in an **app_results** folder.
+21. Select **Standard** to get started. After you create a standard floor plan, you can do one of the following.
 
-    * **Standard** - Select to create a new floor plan.
-    * **Fixed spaces** - If you want to change the standard floor plan, you can select to  can then edit it to correct any team seat assignments,select **Fixed** to create a fixed spaces floor plan. The floor plan files are saved in an **app_results** folder.
+    * **Standard** - Select to create a new floor plan that's based on the validated files in the **Final Files set** folder. In **New results name**, enter a file name for it, and select **Go**.
+    * **Fixed spaces** - If you want to change an existing (standard) floor plan, you need to edit the floor plan .csv file that was saved in **app_results**. When editing an existing floor plan, you must stay within the constraints set in the validated space_capacity.csv and team_size.csv files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints. After you save the new changes to the floor plan file, select **Fixed**, and then select the updated floor plan file to use to create an updated floor plan. For example, the following graphic shows a standard floor plan where **Engineering** and **Marketing** are assigned to multiple locations.
 
-22. 
+     ![Standard floor plan example](./images/standard-floorplan.png)
 
+    In the following example, the seat assignments have been changed (fixed) to keep the **Engineering** and **Marketing** teams closer together. Note, the **Product** team is left unassigned, so the fixed floor plan will keep the Marketing and Engineering team seat assignments unchanged and the Product team will be assigned to any unoccupied spaces based on the original input files in the Final Files set folder.
+
+     ![Fixed floor plan example](./images/fixed-floorplan.png)
+
+22. In the **app_results** folder, open the latest floor plan to see the seat assignments.
+
+## Floor plan example
+
+When you open a floor plan file, you’ll see teams assigned to zones or neighborhoods, which should match up to the team and zone names assigned in the space_capacity.csv and team_size.csv files.
+
+The following shows an example floor plan where the Product team has 64 people assigned to Floor 1, Zone A and 16 people assigned to Floor 1, Zone B.
+
+![Example floor plan](./images/example-floorplan.png)
+
+## Tips
+
+* The best way to validate the output is to compare the collaboration levels in the collaboration file to the team seat assignment in the floor plan.
+* The optimization of the floor plan might create a less than optimal plan because of the non-convexity of the constraints.
+* Multiple, equally plausible floor plans can satisfy the same requirements, particularly when the collaboration between all the teams is very similar.
+* The algorithm cannot interpret context (politics, hierarchy, or intentions) that a person could when allocating a workspace.
+* When the algorithm creates a floor plan that is not optimal, be sure to use the **Fixed spaces** mode to improve the model predictions.
+
+## Related topics
+
+* [Workspace Planning Azure Template](space-planning.md)
