@@ -55,7 +55,7 @@ You also need to save the following input (.csv) files to your master folder. Th
 
 The tool combines the data in these files to generate a table that shows where to seat people in the specified floor plan.
 
-![Example floor plan](./images/wsp-example.png)
+![Example floor plan files](./images/wsp-example.png)
 
 ## Plan a workspace
 
@@ -85,7 +85,7 @@ The tool combines the data in these files to generate a table that shows where t
 
 12. In the **Game of Zones** table, enter the floor names, number of zones, and corresponding zone coordinates for each building, which you defined in **Step 3**, and then select **Go**. For example, the following shows Floor 1 with 6 zones in building 30 that require zone coordinates of (1,1), (3,1), (4,1), and so on.
 
-    ![Distance Helper Game of Zones example table](./images/wsp-game-of-zones.png)
+    ![Distance Helper Game of Zones example table](./images/game-of-zones.png)
 
 13. In the **Space Names** table, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone. The following example shows a zone coordinate of **4,3** with a friendly space name of **16-1D**, which represents zone D on the first floor of building 16.
 
