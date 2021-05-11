@@ -51,11 +51,11 @@ You also need to save the following input (.csv) files to your master folder. Th
 
 * [Interaction](space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows current work and collaboration patterns across the different teams.
 * [Team size](space-planning.md#create-a-team-size-file) - Defines the number of employees in each team in your organization.
-* [Space capacity](space-planning.md#create-a-space-capacity-file) - Defines the workspace, which an be a combination of buildings, floors, and zones or neighborhoods, and the maximum capacities for each.
+* [Space capacity](space-planning.md#create-a-space-capacity-file) - Defines the workspace, which can be a combination of buildings, floors, and zones or neighborhoods, and the maximum capacities for each.
 
 The tool combines the data in these files to generate a table that shows where to seat people in the specified floor plan.
 
-![Example floor plan files](./images/wsp-example.png)
+![Example data in the files](./images/example-data.png)
 
 ## Plan a workspace
 
