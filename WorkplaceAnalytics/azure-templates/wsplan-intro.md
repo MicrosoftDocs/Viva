@@ -67,7 +67,7 @@ The tool combines the data in these files to generate a table that shows where t
    2. Overlay x and y coordinates for each zone.
    3. Map all the zones and coordinates in a table. These coordinates are required in the Distance helper notebook. The following shows an example of defining zone coordinates for a workspace floor.
 
-   ![Example zone grid and table](./images/wsp-zones.png)
+   ![Example zone grid and table](./images/zones.png)
 
 4. Use a [Google Chrome browser](https://www.google.com/chrome/), which is required by Jupyter, to open the Anaconda navigator.
 5. In Anaconda, launch Jupyter Notebook, and then locate and open the **Distance Helper notebook** in the master folder.
@@ -113,7 +113,10 @@ The tool combines the data in these files to generate a table that shows where t
 21. Select **Standard** to get started. After you create a standard floor plan, you can do one of the following.
 
     * **Standard** - Select to create a new floor plan that's based on the validated files in the **Final Files set** folder. In **New results name**, enter a file name for it, and select **Go**.
-    * **Fixed spaces** - If you want to change an existing (standard) floor plan, you need to edit the floor plan .csv file that was saved in **app_results**. When editing an existing floor plan, you must stay within the constraints set in the validated space_capacity.csv and team_size.csv files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints. After you save the new changes to the floor plan file, select **Fixed**, and then select the updated floor plan file to use to create an updated floor plan. For example, the following graphic shows a standard floor plan where **Engineering** and **Marketing** are assigned to multiple locations.
+    * **Fixed spaces** - If you want to change an existing (standard) floor plan, do the following:
+
+      * Edit the floor plan's .csv file that was saved in **app_results**. When editing an existing floor plan, you must stay within the constraints set in the validated space_capacity.csv and team_size.csv files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints.
+      * After you save the new changes to the floor plan file, select **Fixed**, and then select the updated floor plan file. For example, the following graphic shows a standard floor plan where **Engineering** and **Marketing** are assigned to multiple locations.
 
      ![Standard floor plan example](./images/standard-floorplan.png)
 
