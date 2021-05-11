@@ -83,27 +83,37 @@ The tool combines the data in these files to generate a table that shows where t
 
     ![Distance Helper floor and zone number prompts](./images/wsp-dh-fnz.png)
 
-12. In the **Game of Zones** table, enter the floor names, number of zones, and corresponding zone coordinates for each building, which you defined in **Step 3**, and then select **Go**. For example, the following shows Floor 1 with 6 zones in building 30 that require zone coordinates, such as (1,1), (3,1), (4,1), and so on.
+12. In the **Game of Zones** table, enter the floor names, number of zones, and corresponding zone coordinates for each building, which you defined in **Step 3**, and then select **Go**. For example, the following shows Floor 1 with 6 zones in building 30 that require zone coordinates of (1,1), (3,1), (4,1), and so on.
 
     ![Distance Helper Game of Zones example table](./images/wsp-game-of-zones.png)
 
-13. In the **Space names** table, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone. The following example shows a zone coordinate of **4,3** with a friendly **Space name** of **16-1D**, which represents Zone D on the first floor of Building 16.
+13. In the **Space Names** table, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone. The following example shows a zone coordinate of **4,3** with a friendly space name of **16-1D**, which represents zone D on the first floor of building 16.
 
     ![Distance Helper example space names](./images/wsp-space-names.png)
 
     >[!Important]
     >The friendly space names must match the floor names that you entered in the space_capacity.csv file.
 
-14. Select **Go**, which saves a new Distance.csv file with all your inputs in your working folder, and then select **Open Validations UI Notebook**.
-15. In the **File Validations notebook**, select **Run** to validate the files before you use them to generate the floor plans.
+14. Select **Go**, which saves a new distance.csv file with all your inputs in your working folder, and then select **Open Validations UI Notebook**.
+15. In the **File Validations notebook**, select **Run** to validate the files that will be used to generate the floor plans.
 16. When prompted to load the data, select the location for each of the files, as shown in the following graphic, and then select **Go** to validate them.
 
     ![File Validations notebook example](./images/wsp-file-validation.png)
 
 17. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a red X, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat **Step 6** to validate the file again.
-18. After all files are successfully validated, you need to select one of the following input scenarios that the tool should use for seating people in zones. These scenarios are based on the interactions file query data. 
+18. After all files are successfully validated, select one of the following input scenarios that the tool should use for seating teams in zones. These scenarios are based on the interactions file query data.
 
-    * Latest dates - Uses the 
-    * Average collaboration - 
-    * Total collaboration - 
-    * Boost intra-collaboration - 
+    * **Latest dates** - Groups the teams based on the most recent collaboration activity between teams.
+    * **Average collaboration** - Groups teams based on the weekly averages of collaboration hours spent between the different teams.
+    * **Total collaboration** - Groups teams based on the total number of hours the teams recently spent collaborating.
+    * **Boost intra-collaboration** - Groups teams based on the "boosted" number of collaboration hours spent with two specific teams. You can change the **Boost Multiplier** setting that defines how to apply the boost. The maximum setting is 3, which will multiple the maximum number of collaboration hours by 3. This multiplied value replaces the existing collaboration hours for the two teams you specify.
+
+19. The updated files are saved to a new **Final files set** folder. Any changes relating to these files are also saved to this folder.
+20. Open the **Generate Floorplan notebook**, and then select **Run**.
+21. Select **Standard** to get started, and then do one of the following. The floor plan files are saved in an **app_results** folder.
+
+    * **Standard** - Select to create a new floor plan.
+    * **Fixed spaces** - If you want to change the standard floor plan, you can select to  can then edit it to correct any team seat assignments,select **Fixed** to create a fixed spaces floor plan. The floor plan files are saved in an **app_results** folder.
+
+22. 
+
