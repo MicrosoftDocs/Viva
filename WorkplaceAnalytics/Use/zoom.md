@@ -116,7 +116,7 @@ Your Workplace Analytics Analyst needs to do the following to import the combine
 
 ## Zoom metrics
 
-This integration uses the following Zoom metrics in analysis.
+This integration uses the following Zoom metrics for collaboration analysis.
 
 **Core metrics**
 
