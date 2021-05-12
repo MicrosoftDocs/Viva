@@ -13,7 +13,7 @@ audience: Admin
 
 # Workplace Analytics Zoom integration
 
-Zoom collaboration data adds meaningful additional collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This analysis is included in the existing [wpa R package](../tutorials/wpa-r-package), which is an open-source repository of more than 100 functions that provide low-code pre-built analyses.
+Zoom collaboration data adds meaningful additional collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This analysis is included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide low-code pre-built analyses.
 
 You can use this integration tool to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the output either as a standalone .csv file with collaboration metrics for unscheduled Zoom calls or as a Ways of working assessment input file (with Zoom collaboration metrics) and use it with the Zoom integration's version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md). This analysis can help leaders and analysts get a richer and more complete picture of collaboration patterns within their organization.
 
@@ -59,7 +59,7 @@ The following is required before you can run the Zoom Collaboration analysis in 
 * Workplace Analytics licenses for your analysis population.
 * Zoom Business, Education, or API plans and have access to the Zoom Admin portal.
 * Zoom Admin and Workplace Analytics Analyst need permission to install R and other associated packages.
-* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](../p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
+* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Setup and configuration
 
@@ -127,8 +127,8 @@ Your Workplace Analytics Analyst needs to do the following to import the combine
    ![Zoom WOW Power BI template](../images/wpa/use/zoom-pbi-template.png)
 
 2. When prompted by Power BI, copy and paste the file path for the **Ways of Working Assessment query** .csv file in the **Analyst/output** folder, which you can copy by right-clicking the file and selecting **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
-3. Use the **Standard meeting query** file that you downloaded in [Setup and configuration](#setup-and-configuration). For more details, see the [Ways of working assessment](../tutorials/power-bi-collab-assess.md). 
+3. Use the **Standard meeting query** file that you downloaded in [Setup and configuration](#setup-and-configuration). For more details, see the [Ways of working assessment](../tutorials/power-bi-collab-assess.md).
 
 ## Related topic
 
-[wpa R package](../tutorials/wpa-r-package)
+[wpa R package](../tutorials/wpa-r-package.md)
