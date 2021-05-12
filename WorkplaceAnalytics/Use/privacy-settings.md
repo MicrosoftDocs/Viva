@@ -35,18 +35,7 @@ After you change privacy settings, your changes take effect after data is proces
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-## Minimum group size
 
-The minimum-group-size rule protects people from being identified in Workplace Analytics data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
-
-The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
-
-For example, the columns on the left in the following graphic shows chart data for groups that exceed the minimum-group setting. The gray-striped column represents *unavailable data* for the CEO group that has fewer people than the minimum-group setting.
-
-![1:1 meeting hours protects employee privacy](../images/wpa/use/1x1-meeting-hours.png)
-
->[!Note]
->The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
 
 ### Histogram charts are an exception
 

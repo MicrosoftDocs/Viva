@@ -2,7 +2,7 @@
 
 title: System defaults for Workplace Analytics
 description: Describes the system default settings in Workplace Analytics that administrators configure and edit for your organization
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -19,8 +19,10 @@ audience: Admin
 In **System defaults**, you can configure the following:
 
 * [Default time zone](#default-time-zone)
-* [Working days and hours](#working-days-and-hours)
+* [Working days](#working-days)
+* [Working hours](#working-hours)
 * [Hourly rate](#hourly-rate)
+* [Minimum group size for analysis](#minimum-group-size)
 * [Reclassify external domains](#reclassify-external-domains)
 
 > [!Important]
@@ -28,7 +30,7 @@ In **System defaults**, you can configure the following:
 
 **Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin settings](../images/wpa/use/system-defaults.png)
+![Admin settings](../images/wpa/use/wpa-setup-start.png)
 
 ## Default time zone
 
@@ -43,17 +45,19 @@ Workplace Analytics uses the time zone setting in calculations of collaboration 
 1. For **Default time zone** on the **System defaults** page, select the applicable time zone to use by default for analysis.
 2. Select **Save**.
 
-## Working days and hours
+## Working days and working hours
 
-Users can set their own working days and hours in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
+Users can set their own working days in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
 
 Workplace Analytics uses the working days and hours settings in calculations of collaboration activities, such as emails and meetings. It uses these settings only for Microsoft 365 data that it has yet to process. Changing the working days and hours settings does not affect data that has already been processed.
 
-### To set default working days and hours
+### To set default working days
 
-1. For **Working days**, select the appropriate days of the week.  
-2. For **Start time** and **End time** in **Working hours**, select the start and end times to use by default for analysis.
-3. Select **Save**.
+* For **Working days**, select the appropriate days of the week.  
+
+### To set default working hours
+
+* For **Working hours**, select the start and end times to use by default for analysis.
 
 ## Hourly rate
 
@@ -64,7 +68,22 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 1. For **Hourly rate**, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
 
+## Minimum group size for analysis
+
+The minimum-group-size rule protects people from being identified in Workplace Analytics data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
+
+The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
+
+For example, the columns on the left in the following graphic shows chart data for groups that exceed the minimum-group setting. The gray-striped column represents *unavailable data* for the CEO group that has fewer people than the minimum-group setting.
+
+![1:1 meeting hours protects employee privacy](../images/wpa/use/1x1-meeting-hours.png)
+
+>[!Note]
+>The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
+
 ## Reclassify external domains
+
+<!-- KEEP THIS SECTION? ASK NISHANT! -->
 
 You can use this setting to reclassify one or more external domains as internal, which includes them in your organizational data analysis.
 
