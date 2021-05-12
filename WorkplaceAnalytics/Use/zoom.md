@@ -15,35 +15,12 @@ audience: Admin
 
 Zoom collaboration data adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This analysis is included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
-This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI. This analysis can help leaders and analysts get a richer, more complete picture of collaboration patterns within their organization.
+This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI. 
+
+This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
 ![Zoom Power BI dashboard data](../images/wpa/use/zoom-pbi-data.png)
 
-## Zoom metrics
-
-**Core metrics**
-
-* Zoom Unscheduled call hours
-* Zoom Scheduled call hours
-* Zoom Total call hours
-* Zoom Meetings
-* Zoom Unscheduled Meetings
-* Zoom Scheduled Meetings
-* Zoom After hours in unscheduled calls
-* Zoom After hours in scheduled calls
-
-**Supplementary metrics**
-
-* Zoom Unscheduled call hours 30 minutes or less
-* Zoom Unscheduled call hours 31 to 59 minutes
-* Zoom Unscheduled call hours 1 hour
-* Zoom Unscheduled call hours 1 to 2 hours
-* Zoom Unscheduled call hours more than 2 hours
-* Zoom Unscheduled call hours 2 attendees
-* Zoom Unscheduled call hours 3 to 8 attendees
-* Zoom Unscheduled call hours 9 to 18 attendees
-* Zoom Unscheduled call hours 19 or more attendees
- 
 ## Demonstrations
 
 This self-serve, open-source toolkit requires a one-time installation of the R package by your Zoom Admin and Workplace Analytics Analyst.
@@ -80,7 +57,7 @@ The following is required before you can run the Zoom Collaboration analysis in 
 4. **Prepare a mapping file** - The Zoom report data that's downloaded from the Zoom Admin portal will include identifiable data about employees (email IDs). Before the metrics can be computed and shared with a Workplace Analytics Analyst, the information must be de-identified.
 
    1. The Zoom Admin must replace each **email ID** with a **unique random ID** that's specified by the Workplace Analytics Admin.
-   2. Then the Workplace Analytics Admin must create a mapping file that maps a unique random id (**HashID**) to each email address (**PersonID**) for each of the licensed employees in the company who are included in the analysis. Save this mapping file as a .csv file with the following headers and share it with the Zoom Admin for de-identification.
+   2. Then the Workplace Analytics Admin must create a mapping file that maps a unique random ID (**HashID**) to each email address (**PersonID**) for each of the licensed employees in the company who are included in the analysis. Save this mapping file as a .csv file with the following headers and share it with the Zoom Admin for de-identification.
 
       ![Zoom mapping file sample data](../images/wpa/use/zoom-mapping-file.png)
 
@@ -136,6 +113,33 @@ Your Workplace Analytics Analyst needs to do the following to import the combine
 
 2. When prompted by Power BI, copy and paste the file path for the **Ways of Working Assessment query** .csv file in the **Analyst/output** folder. To copy it, right-click the file, select **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
 3. Use the **Standard meeting query** file that you downloaded in [Setup and configuration](#setup-and-configuration). For more information, see the [Ways of working assessment](../tutorials/power-bi-collab-assess.md).
+
+## Zoom metrics
+
+This integration uses the following Zoom metrics in analysis.
+
+**Core metrics**
+
+* Zoom Unscheduled call hours
+* Zoom Scheduled call hours
+* Zoom Total call hours
+* Zoom Meetings
+* Zoom Unscheduled Meetings
+* Zoom Scheduled Meetings
+* Zoom After hours in unscheduled calls
+* Zoom After hours in scheduled calls
+
+**Supplementary metrics**
+
+* Zoom Unscheduled call hours 30 minutes or less
+* Zoom Unscheduled call hours 31 to 59 minutes
+* Zoom Unscheduled call hours 1 hour
+* Zoom Unscheduled call hours 1 to 2 hours
+* Zoom Unscheduled call hours more than 2 hours
+* Zoom Unscheduled call hours 2 attendees
+* Zoom Unscheduled call hours 3 to 8 attendees
+* Zoom Unscheduled call hours 9 to 18 attendees
+* Zoom Unscheduled call hours 19 or more attendees
 
 ## Related topics
 
