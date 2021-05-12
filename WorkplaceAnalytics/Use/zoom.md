@@ -44,13 +44,21 @@ You can use this integration tool to analyze unscheduled collaboration that occu
 * Zoom Unscheduled call hours 9 to 18 attendees
 * Zoom Unscheduled call hours 19 or more attendees
  
-## How it works
+## Demonstrations
 
 This self-serve, open-source toolkit requires a one-time installation of the R package by your Zoom Admin and Workplace Analytics Analyst.
 
 Also, your admins must de-identify the Zoom reports, with a key mapping file, that's uploaded to Workplace Analytics as organizational data.
 
-Subsequent runs will be faster after the initial setup of the mapping key file.
+Subsequent runs will be faster after the initial setup of the mapping key file. The following demonstrations show how quickly you can prepare the Zoom data for integrating and analyzing in Workplace Analytics.  
+
+#### Prepare Zoom files on demand demo
+
+<img src="../images/wpa/use/zoom-files-demo.gif" height="486" width="800" alt="video" data-linktype="relative-path">
+
+#### Upload Zoom metrics on demand demo
+
+<img src="../images/wpa/use/zoom-metrics-demo.gif" alt="video" data-linktype="relative-path">
 
 ## Prerequisites
 
@@ -124,7 +132,7 @@ Your Workplace Analytics Analyst needs to do the following to import the combine
 
 1. In the **Analyst/output** folder, double-click **WOW_Zoom_Integration.pbit** to run the template.
 
-   ![Zoom WOW Power BI template](../images/wpa/use/zoom-pbi-template.png)
+   ![Zoom Ways of working assessment Power BI template](../images/wpa/use/zoom-pbi-template.png)
 
 2. When prompted by Power BI, copy and paste the file path for the **Ways of Working Assessment query** .csv file in the **Analyst/output** folder, which you can copy by right-clicking the file and selecting **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
 3. Use the **Standard meeting query** file that you downloaded in [Setup and configuration](#setup-and-configuration). For more details, see the [Ways of working assessment](../tutorials/power-bi-collab-assess.md).
