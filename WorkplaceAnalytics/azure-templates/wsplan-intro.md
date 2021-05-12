@@ -79,7 +79,7 @@ The tool combines the data in these files to generate a table that shows where t
 8. Enter the building information in the table, including the name, number, and complete address of each building. The tool needs the full address for accurate latitude and longitude coordinates.
 9. In **Max number of floors**, enter the maximum number of floors for the buildings included in the overall workspace have, and then select **Go**. For example, if two of the buildings have two floors and one has three floors in the overall workspace, you'd enter three as the maximum number of floors for the workspace.
 10. In the table, enter the numbers assigned to each floor in each building.
-11. In **Max number of zones**, enter the maximum number of zones that you'll need to define for any of the floors in any of the individual buildings. For example, the following shows entering six as the maximum number of zones required for a floor in one of the buildings.
+11. In **Max number of zones**, enter the maximum number of zones that you'll need to define for any of the floors in any of the individual buildings. For example, the following shows entering **6** as the maximum number of zones required for a floor in one of the buildings.
 
     ![Distance Helper floor and zone number prompts](./images/wsp-dh-fnz.png)
 
