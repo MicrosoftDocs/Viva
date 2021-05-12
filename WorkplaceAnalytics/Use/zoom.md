@@ -134,7 +134,7 @@ Your Workplace Analytics Analyst needs to do the following to import the combine
 
    ![Zoom Ways of working assessment Power BI template](../images/wpa/use/zoom-pbi-template.png)
 
-2. When prompted by Power BI, copy and paste the file path for the **Ways of Working Assessment query** .csv file in the **Analyst/output** folder, which you can copy by right-clicking the file and selecting **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
+2. When prompted by Power BI, copy and paste the file path for the **Ways of Working Assessment query** .csv file in the **Analyst/output** folder. To copy it, right-click the file, select **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
 3. Use the **Standard meeting query** file that you downloaded in [Setup and configuration](#setup-and-configuration). For more information, see the [Ways of working assessment](../tutorials/power-bi-collab-assess.md).
 
 ## Related topics
