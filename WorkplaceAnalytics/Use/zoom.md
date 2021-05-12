@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Zoom integration
 description: Learn about and how to use the Workplace Analytics Zoom integration tool to include Zoom data in collaboration analysis
 author: madehmer
