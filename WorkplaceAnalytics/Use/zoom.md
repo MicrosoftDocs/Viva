@@ -71,7 +71,7 @@ The following is required before you can run the Zoom Collaboration analysis in 
 
 ## Setup and configuration
 
-1. **Install the wpa R package** - Your Zoom Admin and Workplace Analytics Analyst need to install the wpa R package. If necessary, ask IT for permissions to install R.
+1. **Install the wpa R package** - Your Zoom Admin and Workplace Analytics Analyst need to install the [wpa R package](../tutorials/wpa-r-package.md). If necessary, ask IT for permissions to install R.
 2. **Download Zoom Analyst integration** - Your Workplace Analytics Analyst needs to download the Zoom integration and extract it to a local folder.  
 3. **Download the Zoom Admin integration** - Your Zoom Admin needs to download the Zoom Admin integration and extract it to a local folder. The integration has following folder structure for both the Admin and the Analyst files.
 
