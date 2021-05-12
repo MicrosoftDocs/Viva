@@ -2,7 +2,7 @@
 
 title: Privacy settings for Workplace Analytics
 description: Describes the privacy settings in Workplace Analytics that administrators can set up and edit for your organization
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -16,26 +16,29 @@ audience: Admin
 
 # Privacy settings
 
-As the Workplace Analytics Admin, you use **Privacy settings** to decide what data your organization wants to exclude from analysis and what data can be visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
+As the Workplace Analytics Admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
 
 You can use privacy settings to:
 
-* [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
-* [Exclude domains or email addresses](#exclude-domains-or-email-addresses)
+* [Exclude domains](#exclude-domains-or-email-addresses)
+* [Exclude email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Workplace Analytics admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin privacy settings](../images/wpa/use/privacy-settings.png)
+Admins make privacy settings on the **Exclusions** section of the **System defaults** page in the setup sequence of Workplace Analytics.
+
+![Admin privacy settings](../images/wpa/use/wpa-setup-exclusions.png)
+
+> [!IMPORTANT]
+> You don't need to make privacy settings during the onboarding of your organization. You must complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them at a later date.
 
 After you change privacy settings, your changes take effect after data is processed in the following week. This means that these changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
 
 ## Privacy video
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
-
 
 ### Histogram charts are an exception
 
