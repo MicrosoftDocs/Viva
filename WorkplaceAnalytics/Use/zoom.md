@@ -15,7 +15,7 @@ audience: Admin
 
 Zoom collaboration data adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This analysis is included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
-This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the output as a standalone .csv file with collaboration metrics for unscheduled Zoom calls or as a Ways of working assessment input file (with Zoom collaboration metrics) and use it with the Zoom integration's version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md). This analysis can help leaders and analysts get a richer and more complete picture of collaboration patterns within their organization.
+This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI. This analysis can help leaders and analysts get a richer, more complete picture of collaboration patterns within their organization.
 
 ![Zoom Power BI dashboard data](../images/wpa/use/zoom-pbi-data.png)
 
@@ -62,7 +62,7 @@ Subsequent runs will be faster after the initial setup of the mapping key file. 
 
 ## Prerequisites
 
-The following are required before you can run the Zoom Collaboration analysis in R:
+The following is required before you can run the Zoom Collaboration analysis in R:
 
 * Workplace Analytics licenses for your analysis population.
 * Zoom Business, Education, or API plans and have access to the Zoom Admin portal.
@@ -137,6 +137,7 @@ Your Workplace Analytics Analyst needs to do the following to import the combine
 2. When prompted by Power BI, copy and paste the file path for the **Ways of Working Assessment query** .csv file in the **Analyst/output** folder, which you can copy by right-clicking the file and selecting **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
 3. Use the **Standard meeting query** file that you downloaded in [Setup and configuration](#setup-and-configuration). For more information, see the [Ways of working assessment](../tutorials/power-bi-collab-assess.md).
 
-## Related topic
+## Related topics
 
-[wpa R package](../tutorials/wpa-r-package.md)
+* [wpa R package](../tutorials/wpa-r-package.md)
+* [Ways of working assessment](../tutorials/power-bi-collab-assess.md)
