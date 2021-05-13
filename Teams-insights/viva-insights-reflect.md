@@ -53,7 +53,7 @@ You can set reminders to reflect either on the [**Settings** page](viva-teams-ap
 
 1. On the **Build a habit of emotional awareness!** card, select a day and time:
 
-   ![Reminders to reflect](images/set-reflect-reminders-60.png)  
+   ![Reflect reminders](images/set-reflect-reminders-60.png)  
 
 2. Select **Set reminders**.
 
