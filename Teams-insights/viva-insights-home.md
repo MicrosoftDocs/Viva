@@ -24,10 +24,10 @@ The Home page makes it easy to start the other features of the Viva Insights app
 
 When you open the features on the menu bar, you leave the Home page. 
 
-* [Stay connected](viva-insights-stay-connected.md)  &ndash; Select **Stay connected** to open the feature. 
+* [Stay connected](viva-insights-stay-connected.md)  &ndash; Select **Stay connected** to open the feature.
 * [Protect time](viva-insights-protect-time.md) &ndash; Select **Protect time** to open the feature.
 
-<!-- MENTION MY TEAM OR MY ORG HERE? --> 
+<!-- MENTION MY TEAM OR MY ORG HERE? -->
 
 <!-- GET CORRECT STEPS HERE! CAN THEY ACTUALLY CLICK STAY CONNECTED OR PROTECT TIME, AND CAN THEY CLICK SCHEDULE AND MORE INSIGHTS AND BOOK NOW AND MORE OPTIONS? CLICK ALL OR SOME OF THESE? HOW TO GET TO THE FULL FEATURE SCREENS THAT ARE DESCRIBED IN THE LINKED-TO DOCS? -->
 
@@ -38,21 +38,23 @@ You use these features without leaving the Home page. Just follow the instructio
 * [Up-next card](#up-next-card) &ndash; View the card and its message.
 * [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
-* [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
+* [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**.
 
-For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**. 
+For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**.
 
-* [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on the action that the **Stay connected** card currently shows. For example, book a 1:1 with a particular person. 
+* [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on the action that the **Stay connected** card currently shows. For example, book a 1:1 with a particular person.
 * [Protect time](viva-insights-protect-time.md) &ndash; Take the action that the **Protect time** card currently shows. For example, book focus time for tomorrow. 
-* [Microsoft To Do](#microsoft-to-do) &ndash; Take action on the task in your **To Do** list that the card currently shows. For example, book a meeting. 
+* [Microsoft To Do](#microsoft-to-do) &ndash; Take action on the task in your **To Do** list that the card currently shows. For example, book a meeting.
 
 ## Up-next card
 
-On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your calendar. For example, if your lunchtime (as [configured in MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours)) is approaching, it lets you know how soon:
+On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your calendar. For example, if your lunchtime (as [configured in MyAnalytics](../WorkplaceAnalytics/MyAnalytics/Use/use-the-insights.md#set-lunch-hours)) is approaching, it lets you know how soon:
+
+<!-- THE LINK IN THE PRECEDING PARAGRAPH NEEDS TO GO HERE. NOTE THE ANCHOR: https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours -->
 
 ![Lunch approaching](images/lunch-break.png)
 
-The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the approach of the end of your scheduled workday or [Virtual commute](): 
+The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the approach of the end of your scheduled workday or [Virtual commute]():
 
 ![Virtual commute](images/virtual-commute.png)
 

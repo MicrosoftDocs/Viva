@@ -19,7 +19,9 @@ You can use the Praise app to recognize the contributions of your employees and 
 You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-praise-reminders).
 
 >[!Note]
-> The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+> The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+
+<!-- THIS LINK NEEDS TO GO HERE: [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) -->
 
 ## Send praise
 
