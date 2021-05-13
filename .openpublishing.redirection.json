@@ -58,7 +58,7 @@
       {
         "source_path": "teams-insights/teams-app.md",
         "redirect_url": "/insights/viva-teams-app",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "teams-insights/new/viva-teams-app-admin-tasks.md",
@@ -68,7 +68,7 @@
       {
         "source_path": "insights/teams-app-admin-tasks.md",
         "redirect_url": "/insights/viva-teams-app-admin-tasks",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "teams-insights/new/viva-teams-app-faq.md",
@@ -78,7 +78,7 @@
       {
         "source_path": "insights/teams-app-faq.md",
         "redirect_url": "/insights/viva-teams-app-faq",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "teams-insights/new/viva-teams-app-install.md",
@@ -88,7 +88,7 @@
       {
         "source_path": "teams-insights/teams-app-install.md",
         "redirect_url": "/insights/viva-teams-app-install",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "teams-insights/new/viva-teams-app-privacy.md",
@@ -98,7 +98,7 @@
       {
         "source_path": "teams-insights/teams-app-privacy.md",
         "redirect_url": "/insights/viva-teams-app-privacy",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "teams-insights/new/viva-teams-app-settings.md",
