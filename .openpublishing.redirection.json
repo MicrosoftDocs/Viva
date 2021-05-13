@@ -16,6 +16,11 @@
         "redirect_document_id": true
       },
       {
+        "source_path": "insights/teams-app.md",
+        "redirect_url": "/insights/viva-teams-app",
+        "redirect_document_id": true
+      },      
+      {
         "source_path": "insights/teams-app-use-insights.md",
         "redirect_url": "/insights/viva-insights-home",
         "redirect_document_id": true
