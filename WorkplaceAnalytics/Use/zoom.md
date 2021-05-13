@@ -50,7 +50,7 @@ The following is required before you can run the Zoom Collaboration analysis in 
 
 ## Setup and configuration
 
-1. **Install R** - Ask your Zoom Admin and Workplace Analytics Analyst to install [R for Windows](https://cloud.r-project.org/bin/windows/). If necessary, ask IT for permissions to install R for Windows.
+1. **Install R for Windows** - Ask your Zoom Admin and Workplace Analytics Analyst to install [R for Windows](https://cloud.r-project.org/bin/windows/). If necessary, ask IT for permissions to install R for Windows.
 2. **Download Zoom analyst integration** - Ask your Microsoft representative for the Zoom integration files. Then ask your Workplace Analytics Analyst to download the Zoom integration analyst package and extract it to a local folder.
 3. **Download the Zoom admin integration** - Ask your Zoom Admin to download the Zoom admin integration package and extract it to a local folder. The integration has the following folder structure for both the Admin and the Analyst files.
 
