@@ -110,7 +110,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
 7. **Completion** &ndash; Complete your virtual commute.
 
-   ![Breathe](Images/07-completion-55.png)
+   ![Breathe image](Images/07-completion-55.png)
 
    Select **Done**.
 
