@@ -22,7 +22,7 @@
       },
       {
         "source_path": "insights/teams-app.md",
-        "redirect_url": "/insights/viva-teams-app",
+        "redirect_url": "/viva-teams-app",
         "redirect_document_id": true
       },        
       {
