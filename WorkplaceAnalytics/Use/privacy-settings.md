@@ -31,10 +31,12 @@ Admins make privacy settings on the **Exclusions** section of the **System defau
 
 ![Admin privacy settings](../images/wpa/use/wpa-setup-exclusions.png)
 
-> [!IMPORTANT]
-> You don't need to make privacy settings during the onboarding of your organization. You must complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them at a later date.
+<!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
 
-After you change privacy settings, your changes take effect after data is processed in the following week. This means that these changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
+> [!IMPORTANT]
+> You do not need to make privacy settings (the settings that you find under **Exclusions**) while onboarding your organization. You _must_ complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them later.
+
+After you change privacy settings, your changes take effect after Microsoft 365 data is processed in the following week. This means that these changes do not affect data that has already been extracted and processed. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
 
 ## Privacy video
 
