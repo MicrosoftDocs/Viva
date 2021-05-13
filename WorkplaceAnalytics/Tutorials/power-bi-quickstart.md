@@ -14,7 +14,7 @@ audience: Admin
 # Quickstart overview
 
 >[!Note]
->This template will no longer be available in Workplace Analytics by the end of April 2021. See [Power BI templates](power-bi-intro.md) to see what templates are available.
+>This template is no longer available in Workplace Analytics. See [Power BI templates](power-bi-intro.md) to see what templates are available.
 
 The Quickstart overview dashboard for Power BI uses Workplace Analytics data to provide a high-level view of key organizational metrics. It's a great way to get a quick perspective on how the organization is collaborating and to identify potential areas that might require additional analysis.
 

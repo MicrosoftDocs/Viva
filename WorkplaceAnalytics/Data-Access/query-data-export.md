@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Automate query data export to Azure with Azure Data Factory UI
+title: Automate query data export with Azure Data Factory UI
 description: Steps for admins to set up an automated Workplace Analytics query data export to Azure through Azure Data Factory UI
 author: madehmer
 ms.author: v-mideh
@@ -43,7 +43,7 @@ The following steps you through how to automate the export of Workplace Analytic
 3. Enter and search for the **Workplace Analytics App name** or **ID** and then select the applicable **Workplace Analytics app** from the list.
 
    ![App permissions](./images/app-permissions.png)
- 
+
    To find the Application (client) ID:
 
    * In **Active Directory**, select **all applications**, and then enter **Workplace Analytics** for the Workplace Analytics enterprise app that you want to use.
@@ -60,8 +60,8 @@ The following steps you through how to automate the export of Workplace Analytic
 6. Follow the steps in [Create data factory](/azure/data-factory/quickstart-create-data-factory-portal) to create a new analytics data factory within Azure Active Directory.
 7. In the **Azure Data Factory Overview**, select **Author & Monitor** to open Azure Data Factory.
 
-    > [!Note]
-    > Keep all browser windows open because you must switch between them to complete the following steps.
+    >[!Note]
+    >Keep all your browser windows open because you must switch between them to complete the following steps.
 
 8. In **Azure Data Factory**, select **Create a pipeline**.
 9. Select the **ellipsis** (**...**) next **Datasets**, and then select **New dataset**. For more details, see [Datasets in Azure Data Factory](/azure/data-factory/concepts-datasets-linked-services).
@@ -72,8 +72,8 @@ The following steps you through how to automate the export of Workplace Analytic
 13. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
 14. In [Workplace Analytics](https://workplaceanalytics.office.com/) > **Queries** > **Results**, copy the OData link for the query data you want to connect to Azure.
 
-    > [!Important]
-    > For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](../tutorials/query-auto-refresh.md#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
+    >[!Important]
+    >For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](../tutorials/query-auto-refresh.md#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
      ![Query OData link](./images/query-link.png)
 

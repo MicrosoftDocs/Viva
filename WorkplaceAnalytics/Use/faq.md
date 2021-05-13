@@ -369,7 +369,7 @@ A19. Yes. You can specify domains or email addresses to exclude by using the Pri
 
 ##### Q2. In what format do I save the data-upload file? 
 
-A2. Before you upload the data file, save it as a UTF-8 encoded .csv file in Excel. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/en-us/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
+A2. Before you upload the data file, save it as a UTF-8 encoded .csv file in Excel. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
 
 ![CSV UTF-8 file](../Images/WpA/Use/csv-utf-8.png)
 
