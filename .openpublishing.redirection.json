@@ -2,12 +2,12 @@
     "redirections": [
       {
         "source_path": "Teams-insights/index.md",
-        "redirect_url": "/insights/teams-app",
+        "redirect_url": "/insights/viva-teams-app",
         "redirect_document_id": false
       },
       {
         "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
-        "redirect_url": "/insights/teams-app",
+        "redirect_url": "/insights/viva-teams-app",
         "redirect_document_id": false
       },
       {
@@ -18,8 +18,13 @@
       {
         "source_path": "insights/teams-app-use-insights.md",
         "redirect_url": "/insights/viva-insights-home",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
+      {
+        "source_path": "insights/teams-app.md",
+        "redirect_url": "/insights/viva-teams-app",
+        "redirect_document_id": true
+      },        
       {
         "source_path": "insights/new/viva-insights-praise.md",
         "redirect_url": "/insights/viva-insights-praise",
