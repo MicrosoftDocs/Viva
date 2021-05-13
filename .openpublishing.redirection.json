@@ -18,7 +18,7 @@
       {
         "source_path": "insights/teams-app-use-insights.md",
         "redirect_url": "/insights/viva-insights-home",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "insights/new/viva-insights-praise.md",
