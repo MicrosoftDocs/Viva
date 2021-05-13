@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights app - Privacy
 description: Microsoft Viva Insights (personal insights) app -- Privacy guide
 author: paul9955
