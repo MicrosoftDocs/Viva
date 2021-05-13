@@ -65,6 +65,9 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 
 ## Set up the dashboard
 
+>[!Note]
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Business continuity** (or **Hourly collaboration** per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
 
