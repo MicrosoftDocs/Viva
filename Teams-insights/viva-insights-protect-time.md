@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights - Protect time
 description: Microsoft Viva Insights app -- Use the Protect time feature
 author: paul9955
