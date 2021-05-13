@@ -13,7 +13,9 @@ audience: Admin
 
 # Workplace Analytics Zoom integration
 
-Zoom collaboration data adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This analysis is included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
+*This experience is only available through private preview at this time.*
+
+This Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
 This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
 
@@ -48,9 +50,9 @@ The following is required before you can run the Zoom Collaboration analysis in 
 
 ## Setup and configuration
 
-1. **Install the wpa R package** - Your Zoom Admin and Workplace Analytics Analyst need to install the [wpa R package](../tutorials/wpa-r-package.md). If necessary, ask IT for permissions to install R.
-2. **Download Zoom Analyst integration** - Your Workplace Analytics Analyst needs to download the Zoom integration and extract it to a local folder.  
-3. **Download the Zoom Admin integration** - Your Zoom Admin needs to download the Zoom Admin integration and extract it to a local folder. The integration has following folder structure for both the Admin and the Analyst files.
+1. **Install R** - Ask your Zoom Admin and Workplace Analytics Analyst to install [R for Windows](https://cloud.r-project.org/bin/windows/). If necessary, ask IT for permissions to install R for Windows.
+2. **Download Zoom analyst integration** - Ask your Microsoft representative for the Zoom integration files. Then ask your Workplace Analytics Analyst to download the Zoom integration analyst package and extract it to a local folder.
+3. **Download the Zoom admin integration** - Ask your Zoom Admin to download the Zoom admin integration package and extract it to a local folder. The integration has the following folder structure for both the Admin and the Analyst files.
 
    ![Zoom Admin integration folder structure](../images/wpa/use/zoom-files.png)
 
