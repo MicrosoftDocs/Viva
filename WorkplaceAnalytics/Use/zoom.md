@@ -15,7 +15,7 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-This Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
+This Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R for Windows and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
 This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
 
