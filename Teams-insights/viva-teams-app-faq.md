@@ -46,9 +46,9 @@ audience: Admin
 
 * Information from email items:
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status.
-  * Task statements. Statements that people have made in the body text of the email. These statements are used to create [task cards](../WorkplaceAnalytics/MyAnalytics/Use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) for your use only.
+  * Task statements. Statements that people have made in the body text of the email. These statements are used to create task cards for your use only.
 
-<!-- THIS LINK NEEDS TO GO HERE: [task cards](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-outlook-add-in/mya-add-in-to-do) -->
+<!-- THIS 'TASK CARDS' LINK NEEDS TO GO HERE: [task cards](../WorkplaceAnalytics/MyAnalytics/Use/MyA-Outlook-add-in/MyA-Add-in-To-do.md)  WHICH REPLACED [task cards](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-outlook-add-in/mya-add-in-to-do) -->
 
 * Information from calendar items:
   * Type (meeting or appointment)

@@ -48,9 +48,9 @@ For the next three cards, you can take a quick action while remaining on the Hom
 
 ## Up-next card
 
-On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your calendar. For example, if your lunchtime (as [configured in MyAnalytics](../WorkplaceAnalytics/MyAnalytics/Use/use-the-insights.md#set-lunch-hours)) is approaching, it lets you know how soon:
+On the Home page, the card in the upper left alerts you in various ways. It changes its appearance and message depending on the time of day and the events in your calendar. For example, if your lunchtime (as configured in MyAnalytics) is approaching, it lets you know how soon:
 
-<!-- THE LINK IN THE PRECEDING PARAGRAPH NEEDS TO GO HERE. NOTE THE ANCHOR: https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours -->
+<!-- THE LINK IN THE PRECEDING PARAGRAPH NEEDS TO GO HERE. NOTE THE ANCHOR: configured in MyAnalytics](../WorkplaceAnalytics/MyAnalytics/Use/use-the-insights.md#set-lunch-hours) WHICH REPLACED https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours -->
 
 ![Lunch approaching](images/lunch-break.png)
 
