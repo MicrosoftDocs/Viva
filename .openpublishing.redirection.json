@@ -23,7 +23,7 @@
       {
         "source_path": "teams-insights/teams-app.md",
         "redirect_url": "/viva-teams-app",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },        
       {
         "source_path": "teams-insights/new/viva-insights-praise.md",
@@ -54,11 +54,6 @@
         "source_path": "teams-insights/new/viva-teams-app.md",
         "redirect_url": "/insights/viva-teams-app",
         "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/teams-app.md",
-        "redirect_url": "/insights/viva-teams-app",
-        "redirect_document_id": false
       },
       {
         "source_path": "teams-insights/new/viva-teams-app-admin-tasks.md",
