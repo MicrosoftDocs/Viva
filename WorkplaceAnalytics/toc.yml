@@ -170,6 +170,8 @@
                       href: ~/tutorials/ona-person-query.md
                     - name: ONA person-to-person queries
                       href: ~/tutorials/ona-person-to-person-query.md
+                    - name: ONA metrics
+                      href: ~/tutorials/ona-metrics.md
                 - name: Power BI templates
                   items:
                     - name: Introduction
