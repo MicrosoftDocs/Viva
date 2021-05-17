@@ -52,13 +52,13 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 
 6. Under **Select network boundary conditions**, define a filter to select the measured employees that you want to analyze in this query. For example, you can use the filters of this step to narrow the scope to a division or a group. If you skip this (optional) step, all measured employees will remain eligible for analysis.
 
-> **More information about this option:** If you run this query on the entire company, the results will be based on all collaborations across the company. If this is your goal, you can retain the default search range, which is unlimited. But your goal might be to understand connectivity for a specific group of people, based on collaboration happening exclusively within that group. In this case, limit the query to search only within a particular division or group.
+    **More information about this option:** If you run this query on the entire company, the results will be based on all collaborations across the company. If this is your goal, you can retain the default search range, which is unlimited. But your goal might be to understand connectivity for a specific group of people, based on collaboration happening exclusively within that group. In this case, limit the query to search only within a particular division or group.
 
 7. Under **Select collaboration types**, specify the types of collaboration activities that you want to include in your analysis. Your choices are **Emails and meetings**, **Teams instant messages**, and **Teams calls**.
 
-> **More information about this option:** As the nature of the workplace evolves, different ways to collaborate gain or lose popularity, doing so at different rates among different populations. Some people and organizations are more formal in nature -- for example, a legal division or HR -- and they might invariably use email. They might also tend to message more recipients at once, for which they might prefer email. Other people who have a less traditional, more casual, or more personal outlook might prefer Teams IMs or calls.
->
-> Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other.
+    **More information about this option:** As the nature of the workplace evolves, different ways to collaborate gain or lose popularity, doing so at different rates among different populations. Some people and organizations are more formal in nature -- for example, a legal division or HR -- and they might invariably use email. They might also tend to message more recipients at once, for which they might prefer email. Other people who have a less traditional, more casual, or more personal outlook might prefer Teams IMs or calls.
+
+    Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other.
 
 8.  Under **Select metrics**, select **Strong and Diverse tie scores**.
 

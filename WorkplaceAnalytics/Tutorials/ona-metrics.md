@@ -17,8 +17,7 @@ The ONA query types ([ONA person query](ona-person-query.md)) and [ONA person-to
 
 You can find the basic definitions of the connectivity metrics in [Workplace Analytics metrics / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics):
 
-
-| Metric | Available in this query type | 
+| Metric | Available in this query type |
 | ------ | ---------------------------- |
 | [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [ONA person-to-person query](ona-person-query.md) |
 | [Diverse tie type](../use/metric-definitions.md#diverse-tie-type-define) | [ONA person query](ona-person-query.md) |
