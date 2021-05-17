@@ -157,6 +157,8 @@ The **Select filters** section offers two identical filters, one for the left si
 
 ![Select filters area](../images/wpa/tutorials/ona-p2p-filters.png)
 
+![Select options](../images/wpa/tutorials/select-options.png)
+
 If you specify only the tie-origin filter, the query results will include all rows that match the tie-origin PersonId that you specified in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the destination of the tie.
 
 If you specify only the tie-destination filter, the query results will include all rows that match tie-destination PersonId that you specified in the filter. Each row depicts a tie between the employee with that PersonId and another employee who was the origin of the tie.
