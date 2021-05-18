@@ -14,7 +14,7 @@ audience: Admin
 
 # Configure MyAnalytics
 
-**Role** - Global admin, Exchange Online (EXO) admin, or Insights admin
+**Role** - Global admin, Exchange Online admin, or Insights admin
 
 * **Prerequisite** - Users have access to MyAnalytics only if they have licenses that include the MyAnalytics service plan, as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
