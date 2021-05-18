@@ -47,7 +47,7 @@ For information on how to assign a license, see [Assign licenses to users in Mic
 You can configure access to MyAnalytics elements for all users in your organization.
 
 >[!Important]
->You must have a Global admin role to configure tenant level settings in the admin center.
+>You must have a Global admin or an Exchange Online admin role to configure tenant level settings in the admin center.
 
 ### To enable access to the dashboard and digests
 
