@@ -16,7 +16,7 @@ audience: Admin
 
 Select **Insights** on the app bar of Microsoft Teams to open the Home page of the Microsoft Viva Insights app:  
 
-![Home (morning)](images/home-page-two-hours.png)
+![Home (morning)](images/home-page-with-headspace.png)
 
 The Home page makes it easy to start the other features of the Viva Insights app. You can reach some features in the menu bar and others in the main area of the page:
 
@@ -27,10 +27,6 @@ When you open the features on the menu bar, you leave the Home page.
 * [Stay connected](viva-insights-stay-connected.md)  &ndash; Select **Stay connected** to open the feature.
 * [Protect time](viva-insights-protect-time.md) &ndash; Select **Protect time** to open the feature.
 
-<!-- MENTION MY TEAM OR MY ORG HERE? -->
-
-<!-- GET CORRECT STEPS HERE! CAN THEY ACTUALLY CLICK STAY CONNECTED OR PROTECT TIME, AND CAN THEY CLICK SCHEDULE AND MORE INSIGHTS AND BOOK NOW AND MORE OPTIONS? CLICK ALL OR SOME OF THESE? HOW TO GET TO THE FULL FEATURE SCREENS THAT ARE DESCRIBED IN THE LINKED-TO DOCS? -->
-
 ## On the Home page
 
 You use these features without leaving the Home page. Just follow the instructions on the card.  
@@ -38,6 +34,7 @@ You use these features without leaving the Home page. Just follow the instructio
 * [Up-next card](#up-next-card) &ndash; View the card and its message.
 * [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
+* [Mindfulness content from Headspace](#take-a-break) &ndash; In the **Headspace** area, select the 'Run' button.
 * [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**.
 
 For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**.
@@ -57,6 +54,11 @@ On the Home page, the card in the upper left alerts you in various ways. It chan
 The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the approach of the end of your scheduled workday or [Virtual commute]():
 
 ![Virtual commute](images/virtual-commute.png)
+
+## Mindfulness content from Headspace
+
+See [Headspace](viva-insights-headspace.md)
+
 
 ## Take a break
 
