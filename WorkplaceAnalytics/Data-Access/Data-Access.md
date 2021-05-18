@@ -17,7 +17,7 @@ audience: Admin
 
 _Data export is only available as part of a Microsoft service engagement._
 
-Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond that analysis available within Workplace Analytics. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
+Your company might have unique data-analysis needs requiring custom exploration of Workplace Analytics insights and data that goes beyond what's available in Workplace Analytics. For example, you might have custom data exploration that requires you to combine Workplace Analytics data with data outside of Workplace Analytics.
 
 After you get a CS agreement, you can ask your Microsoft representative to enable data export for your Microsoft 365 tenant.
 <!--You can also specify which partition to enable data export for in the Workplace Analytics app. The ability to specify what data can be exported by whom helps you maintain data protection.-->
