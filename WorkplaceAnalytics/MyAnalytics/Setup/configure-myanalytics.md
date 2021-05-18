@@ -51,7 +51,7 @@ You can configure access to MyAnalytics elements for all users in your organizat
 
 ### To enable access to the dashboard and digests
 
-1. Sign in as a Global admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
+1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)
