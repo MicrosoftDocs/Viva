@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights - Reflect 
 description: Microsoft Viva Insights app -- Use the Reflect feature
 author: paul9955
@@ -14,9 +13,6 @@ audience: Admin
 ---
 
 # Use the Microsoft Viva Insights reflect feature
-
->[!Note]
->This feature is currently available only in private preview.
 
 The Reflect feature helps you become more aware of how you're feeling, which can benefit both your productivity and your wellbeing. In fact, research has shown that even the act of taking a moment to reflect has positive benefits for wellbeing.
 
@@ -57,7 +53,7 @@ You can set reminders to reflect either on the [**Settings** page](viva-teams-ap
 
 1. On the **Build a habit of emotional awareness!** card, select a day and time:
 
-   ![Reminders to reflect](images/set-reflect-reminders-60.png)  
+   ![Reflect reminders](images/set-reflect-reminders-60.png)  
 
 2. Select **Set reminders**.
 

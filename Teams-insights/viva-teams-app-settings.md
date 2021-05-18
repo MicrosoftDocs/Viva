@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights app - Use settings to configure
 description: Microsoft Viva Insights (personal insights) app -- Settings 
 author: paul9955
