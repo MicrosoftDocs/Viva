@@ -17,9 +17,12 @@ audience: Admin
 
 _Data export is only available as part of a Microsoft service engagement._
 
-Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond Workplace Analytics metrics and queries. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
+Your company might have unique data-analysis needs that require custom exploration of Workplace Analytics insights and data that goes beyond that analysis available within Workplace Analytics. This custom data exploration might include combining Workplace Analytics data with data outside of Workplace Analytics.
 
-After you get a CS agreement, Microsoft can enable data export for your Microsoft 365 tenant. After data export is enabled, your Workplace Analytics admin can view and use the Data Export page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
+After you get a CS agreement, you can ask your Microsoft representative to enable data export for your Microsoft 365 tenant.
+You can also specify which partition to enable data export for in the Workplace Analytics app. The ability to specify what data can be exported by whom helps you maintain data protection.
+
+After data export is enabled, your Workplace Analytics admin can view and use the Data export page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
 
 Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed in Workplace Analytics, for the agreed duration of the CS agreement.
 
@@ -52,7 +55,7 @@ Before exporting Workplace Analytics data, confirm the following:
 ## To export data from Workplace Analytics
 
 1. If you have already installed Azure Templates, use the SAS URI created after deployment which grants write-only access to the raw data folder that was set up during deployment and use that URI in **Step 3**.
-2. In Workplace Analytics, go to **Settings** > **Admin settings** > **Data export**.
+2. In Workplace Analytics, go to **Settings** > **Data export**.
 3. In **Azure storage container SAS URI**, enter the URI for the Azure storage container.
 4. In the **Field privacy** section, select which fields to export as raw values and as hashed values. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
 
