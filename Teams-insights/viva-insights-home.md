@@ -34,8 +34,11 @@ You use these features without leaving the Home page. Just follow the instructio
 * [Up-next card](#up-next-card) &ndash; View the card and its message.
 * [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
-* [Mindfulness content from Headspace](#take-a-break) &ndash; In the **Headspace** area, select the 'Run' button.
-* [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**.
+* [Mindfulness content from Headspace](#take-a-break) &ndash; In the **Headspace** area, select the 'Play' button. (Alternatively, you can select from among **More mindfulness exercises**.)
+* [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
+
+> [!NOTE]
+> As of June 2021, Headspace is only available to users who have their language in Teams set to English. (Additional languages will be supported in the future.) The **Take a break** option is available to those who do not have their default language set to English.  
 
 For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**.
 
