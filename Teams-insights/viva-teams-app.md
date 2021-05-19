@@ -24,6 +24,7 @@ By using the Viva Insights app, you can:
 * [Protect time](viva-insights-protect-time.md) &ndash; Find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities.
 * [Send praise](viva-insights-praise.md) &ndash; Send acclaim to your employees and coworkers, either in a private chat or in a Teams channel conversation.
 * [Reflect](viva-insights-reflect.md) &ndash; Take a moment to check in with yourself, to reflect on how you're feeling.
+* [Headspace](viva-insights-headspace.md) &ndash; Experience a guided meditation from Headspace.
 * [Take a break](viva-insights-home.md#take-a-break) &ndash; During your workday, take an occasional one-minute "breathing break."  
 * Start a [virtual commute](viva-insights-virtual-commute.md) &ndash; Mindfully close out your workday.  
 * Use [Microsoft To-Do](viva-insights-home.md#microsoft-to-do) &ndash; Take action on a task in your to-do list.

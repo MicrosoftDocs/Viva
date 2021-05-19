@@ -34,7 +34,7 @@ You use these features without leaving the Home page. Just follow the instructio
 * [Up-next card](#up-next-card) &ndash; View the card and its message.
 * [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
 * Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
-* [Mindfulness content from Headspace](#take-a-break) &ndash; In the **Headspace** area, select the 'Play' button. (Alternatively, you can select from among **More mindfulness exercises**.)
+* [Guided meditations from Headspace](#take-a-break) &ndash; In the **Headspace** card, select the 'Play' button. (Alternatively, you can select from among **More mindfulness exercises**.)
 * [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
 
 > [!NOTE]
