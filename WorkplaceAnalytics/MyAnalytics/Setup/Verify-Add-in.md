@@ -8,6 +8,8 @@ ms.date: 07/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 
 # Confirm the installation of the Insights Outlook add-in

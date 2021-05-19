@@ -6,6 +6,8 @@ author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
+manager: scott.ruble
+audience: Admin
 ms.prod: wpa
 
 ---
@@ -15,6 +17,7 @@ ms.prod: wpa
 To customize your Workplace Analytics [queries](../tutorials/query-basics.md), you can use the metrics that are defined on this page. They are organized by query type:
 
 * [Person metrics](#person-metrics)
+* [Peer comparison metrics](#peer-comparison-metrics)
 * [Meeting metrics](#meeting-metrics)
 * [Group-to-group metrics](#group-to-group-metrics)
 * [Person-to-group metrics](#person-to-group-metrics)
@@ -22,25 +25,27 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 
 ## Person metrics
 
+The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries. 
+
 |Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
-|<a name="after-hours-collaboration-define"></a>After hours collaboration |Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric.|Person|Hour|No|
-|After hours email hours |Number of hours the person spent sending email outside of working hours.|Person|Hour|Yes|
+|<a name="after-hours-collaboration-define"></a>After hours collaboration | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours.  <!-- Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric. --> | Person | Hour | No |
+|After hours email hours |Number of hours the person spent sending and receiving emails outside of working hours.|Person|Hour|Yes|
 |After hours in calls |Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |Person|Hour|Yes|
 |After hours instant messages |Number of hours a person spent in instant messages through Teams, outside of working hours. |Person|Hour|Yes|
 |After hours meeting hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
 |Call hours| The number of hours the person spent in scheduled and unscheduled calls through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
-|<a name="collaboration-hours-define"></a>Collaboration hours|Number of hours the person spent in meetings and on email with at least one other person. Collaboration hours include both internal and external hours. |Person|Hour|Yes|
-|Collaboration hours external|Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domains).|Person|Hour|No|
+|<a name="collaboration-hours-define"></a>Collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Person | Hour | Yes |
+|<a name="collaboration-hours-external-define"></a> Collaboration hours external | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person outside the company, after deduplication of time due to overlapping activities (for example, calls during a meeting).  | Person | Hour | No |
 |<a name="conflicting-meeting-hours-define"></a>Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
-|Email hours|Number of hours the person spent sending and receiving emails.|Person|Hour|Yes|
+|Email hours | Number of hours the person spent sending and receiving emails. |Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
 |External network size|The number of people external to the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes|  
 |Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
 |Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
-|Generated workload email hours|Number of email hours the person created for internal recipients by sending emails.|Person|Hour|Yes|
-|Generated workload email recipients|Number of internal recipients on emails sent by the person. (Counts each recipient one time for each email received.)|Person|Count|Yes|
+|Generated workload email hours| Number of email hours the person created for internal recipients by sending emails. |Person|Hour|Yes|
+|Generated workload email recipients|Number of internal recipients on emails sent by the person. (Counts each recipient once for each email received.)|Person|Count|Yes|
 |Generated workload instant message hours|Number of instant message hours the person created through Teams for internal recipients by sending instant messages.|Person|Hour|Yes|
 |Generated workload instant message recipients|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload meeting attendees|Number of internal attendees in meetings organized by the person. (Counts each attendee once for each meeting.)|Person|Count|Yes|
@@ -51,7 +56,7 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 |Internal network size|   The number of people within the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks.  |Person|Count|Yes |
 |  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours |Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](system-defaults.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. **Note**: Calculations for conflicting meeting hours are affected by meeting exclusion rules and adjustments based on the type of meetings that overlap (non-declined work meetings, focus hours, and out-of-office time).|Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
-|<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person.|Person|Hour|Yes|
+|<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person during and outside of working hours.|Person|Hour|Yes|
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-define"></a>  Meeting hours with manager | Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-1-1-define"></a> Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
@@ -73,12 +78,16 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 |Total calls | Total number of calls a person joined through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook). | Person| Count | Yes |
 |Total email sent during meeting | Number of emails the person sent during meetings. |Person|Count|Yes|
 |<a name="focus-define"></a> Total focus hours|Total number of hours with two or more hour blocks of time where the person had no meetings.|Person|Hour|Yes|
-|Working hours collaboration hours|Number of hours the person spent in meetings and sending emails during working hours.|Person|Hour|No|
-|Working hours email hours|Number of hours the person spent in sending email during working hours.|Person|Hour|Yes|
+|<a name="working-hours-collaboration-hours-define"></a> Working hours collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), during working hours. | Person | Hour | No |
+|<a name="working-hours-email-hours-define"></a> Working hours email hours| Number of hours the person spent sending and receiving emails during working hours. |Person|Hour|Yes|
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes |
 |Working hours instant messages| Total number of hours a person spent time in instant messages through Teams, during working hours. | Person| Hour| Yes |
 | <a name="workweek-span-define"></a> Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
 
+## Peer-comparison metrics
+  
+Peer-comparison queries use the same metrics as person queries. See [Person metrics](#person-metrics).
+  
 ## Meeting metrics
 
 |Metric|Description|Query type|Data type|Customizable|
@@ -97,8 +106,8 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-|Collaboration hours |Sum of meeting hours and email hours spent between the time investor and collaborator groups.|Group|Hour|No|
-|Email hours |Number of hours spent sending and reading emails between the time investor and collaborator groups.|Group|Hour|No|
+| <a name="collaboration-hours-define"></a> Collaboration hours | Number of hours spent in meetings, emails, IMs, and calls, after deduplication of time due to overlapping activities (for example, calls during a meeting) between the time investor and collaborator groups.  |Group|Hour|No|
+| <a name="email-hours-define"></a> Email hours | Number of hours spent sending and receiving emails between the time investor and collaborator groups.  |Group|Hour|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
 |Meeting hours |Number of meeting hours the time investor group has spent meeting with the collaborator group.|Group|Hour|No|
 |Meeting invitee count|Total number of invitees in all meetings from the time investor and collaborator groups.|Group|Count|No|
@@ -109,26 +118,24 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
-|Collaboration hours|Total number of meeting and email hours for the time investor with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
+| <a name="diverse-tie-score-define"></a> Collaboration hours | Number of hours that the time investor spent in meetings, emails, IMs, and calls with one or more people in the collaborator group, after deduplication of time due to overlapping activities (for example, calls during a meeting). |Group|Hour|No|
 |Email count|Count of unique email exchanges (sent and received) that the time investor had with one or more people in the collaborator group. |Group|Count|No|
-|Email hours|Total number of hours that the time investor spent sending and reading emails with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
+| <a name="email-hours-define"></a> Email hours| Number of hours that the time investor spent sending and receiving emails with one or more people in the collaborator group.  |Group|Hour|No|
 | <a name="lasttimecontacted-define"></a> LastTimeContacted |The last date and time that the time investor (a measured employee) emailed or attended a meeting with one or more people in the collaborator group for the specified date range. Note that this metric refers only to interactions that were initiated by the time investor. |Group|DateTime|No|
 |Meeting hours|Total number of hours that the time investor spent in meetings with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
 |Meetings|Number of unique meetings that the time investor attended with one or more people in the collaborator group. |Group|Count|No|
 |Network size|Number of people in the collaborator group who had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last 28 days with the time investor. This counts both licensed and unlicensed employees in the collaborator group. |Group|Count|No|
 
-## Organizational network analysis (ONA) metrics 
+## Organizational network analysis (ONA) metrics
 
-These metrics are based on the following collaboration activities: emails, meetings, Teams calls, and Teams chats.   
+These metrics are based on the following collaboration activities: emails, meetings, Teams calls, and Teams chats.
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
 | <a name="diverse-tie-score-define"></a> Diverse tie score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | A numeric score that indicates how varied and how broad a person's connections are. This is based on both the infrequent direct collaboration between two people and on the differences in the common network they share between themselves. (Collaboration activities consist of emails, [meetings](glossary.md#meeting-define), Teams [calls](glossary.md#call-define), and Teams chats.) <br>A person need not have much direct collaboration with their diverse ties, so it’s easy to have more diverse ties than [strong ties](#strong-tie-score-define). Diverse ties present good sources of fresh and varied information from across the company. | ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | <a name="diverse-tie-type-define"></a> Diverse tie type &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | A value that indicates the relative diversity of the person's diverse ties. 0 means that the tie is not diverse; 1 means that the tie is diverse; 2 is an intermediate value that means more diverse than 0 but less diverse than 1. (The Diverse tie type metric is derived from the [Diverse tie score](#diverse-tie-score-define) metric, which in turn is based on the thresholds that are described in [The last columns give the results](../tutorials/ona-person-to-person-query.md#the-last-columns-give-the-results).) | ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | <a name="influence-define"></a> Influence &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |A numeric score that indicates how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change. (A person’s connection score is based on the frequency of collaboration activities, which include emails, [meetings](glossary.md#meeting-define), Teams [calls](glossary.md#call-define), and Teams chats with other people within the company.) |ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| <a name="influence-rank-define"></a> Influence rank &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | One of a sequence of numbers that starts with 1. A rank of 1 represents the person with the greatest [Influence](#influence-define) score; a rank of 2 represents the person with the next greatest Influence score, and so on. If two people have the same Influence score, they also have the same influence rank. |ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | <a name="strong-tie-score-define"></a> Strong tie score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | A numeric score that indicates how strong and tight a person’s engagements are. It is based on both direct collaboration between two people and on the common network they share. (Collaboration activities consist of emails, [meetings](glossary.md#meeting-define), Teams [calls](glossary.md#call-define), and Teams chats.) <br>For example, a "strong tie" between a manager and a direct report reflects both the amount of direct collaboration they have with each other and the time they both invest in connections that are common to both of them. Typically, a person has only a few strong ties because such ties take more effort to maintain. | ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | <a name="strong-tie-type-define"></a> Strong tie type &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | A value that indicates the relative strength of the person's strong ties. 0 means that the tie is not strong; 1 means that the tie is strong; 2 is an intermediate value that means stronger than 0 but weaker than 1. (The Strong tie type metric is derived from the [Strong tie score](#strong-tie-score-define) metric, which in turn is based on the thresholds that are described in [The last columns give the results](../tutorials/ona-person-to-person-query.md#the-last-columns-give-the-results).) | ONA  &nbsp; &nbsp; &nbsp; |Score &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; |No &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-
-
-
 

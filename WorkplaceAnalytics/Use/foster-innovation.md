@@ -6,6 +6,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Foster innovation
@@ -43,8 +45,8 @@ You can select **See your insights** to see ways you can drive innovation. Depen
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Enable deep work |Make time for deep work |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
-  |Utilize influencers |Activate influencers to drive innovation |[Internal networks](https://workplaceanalytics.office.com/Home/ChangeManagement/InternalNetworks) |
+  |Enable deep work |Make time for deep work |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
+  |Utilize influencers |Activate influencers to drive innovation |[Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks) |
 
 * **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
@@ -62,7 +64,7 @@ Collaboration across organizational boundaries enables the learning and idea for
 
 Ways to create opportunities for cross-group collaboration:
 
-* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to build community and communicate, share information, and brainstorm about projects.
+* Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) to build community and communicate, share information, and brainstorm about projects.
 * Give teams an opportunity to join cross-functional teams to compete in an innovation challenge around a key business challenge.
 
 For more best practices and how to create goals across teams or departments, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
@@ -85,7 +87,7 @@ Influencers are people within an organization who are well connected and can dri
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
 * Use [Insights](../myanalytics/use/use-the-insights.md) and the [Network](../myanalytics/use/network.md) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.
 
 For more best practices and how to identify and utilize influencers, see [Best practices for influencers](../tutorials/gm-influencer.md).
 

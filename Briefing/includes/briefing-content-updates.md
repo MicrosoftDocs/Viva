@@ -2,12 +2,11 @@
 
 
 
-## Week of February 15, 2021
+## Week of April 19, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 2/17/2021 | [Configure Briefing email](/Briefing/be-admin) | modified |
-| 2/17/2021 | [Cortana Briefing FAQs](/Briefing/be-faqs) | modified |
-| 2/17/2021 | [Briefing email overview](/Briefing/be-overview) | modified |
-| 2/17/2021 | [Conduct a user pilot](/Briefing/be-pilot) | modified |
+| 4/21/2021 | [Configure Briefing email](/Briefing/be-admin) | modified |
+| 4/23/2021 | [Configure Briefing email](/Briefing/be-admin) | modified |
+| 4/23/2021 | [Admin preview](/Briefing/be-admin-trial) | modified |

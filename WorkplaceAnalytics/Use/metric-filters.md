@@ -5,9 +5,9 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
-ms.prod: wpa
 manager: scott.ruble
 audience: Admin
+ms.prod: wpa
 
 ---
 <!-- Note: I verified the spelling, capitalization, and spacing in the names of these filters on the public demo at https://workplaceanalytics.office.com/en-us/Analyze/Queries/Person on 26 Jan. 2021 -->
@@ -76,8 +76,6 @@ After you select a metric for a query, you can narrow the focus of that metric b
 
 Filters of the following types can be used in various query types to filter participants in collaboration activities &ndash; that is, in emails, IMs, calls, or meetings.
 
-<!-- (2/10/2021) PER RADHIKA, THESE AREN'T RELEASE YET BROADLY AND SHOULD BE "published later" 
-
 ### Individual participant filters
 
 | Filter &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; | Description |
@@ -88,7 +86,7 @@ Filters of the following types can be used in various query types to filter part
 ### Groups of participant filters
 
 Organizational-data attributes and CRM attributes can also be used as participant filters. 
--->
+
 
 | Filter  | Description |
 | ------ | ----------- |

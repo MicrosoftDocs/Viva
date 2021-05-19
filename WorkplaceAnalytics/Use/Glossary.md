@@ -6,6 +6,8 @@ author: paul9955
 ms.author: v-mideh
 ms.topic: reference
 localization_priority: normal 
+manager: scott.ruble
+audience: Admin
 ms.prod: wpa
 
 ---
@@ -22,7 +24,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 | Attendee|A person who was invited and *attended* the meeting.|
 | Attributes|A defined characteristic about the person, such as team, department, or function. *Required attributes* are the subset of attributes that are required in order to calculate metrics.|
 |Calendar fragmentation|When a person does not have blocks of time sufficient to focus on completing complex tasks. This is typical of those with only small blocks of time (15, 30, or 60 minutes) between meetings. Anything that is not *focus time* (uninterrupted time blocks of two hours or more with no meetings) is considered calendar fragmentation.|
-| <a name="call-define"></a> Call | A scheduled or unscheduled audio or video communication between two or more people over Microsoft Teams. If the call is scheduled, it appears on a person's Outlook calendar as a meeting appointment. A user's call duration is based on their join time and their leave time for the call. |
+| <a name="call-define"></a> Call | A scheduled or unscheduled audio or video communication between two or more people over Microsoft Teams. If the call is scheduled, it appears on a person's Outlook calendar as a meeting appointment. A user's call duration is based on their join time and their leave time for the call. | 
 |Collaborators| Anyone that *measured employees* or *time investors* interact with by email or instant message, in meetings, in unscheduled calls, or with instant messages. Collaborators are identified as internal (within the company) or external (outside of the company) and discovered through the data extracted for measured employees. Internal collaborators have domains internal to your organization, while external collaborators have domains external to your organization. |
 |Collaborator group|A group of collaborators that are identified as internal (within the company) or external (outside of the company) that interacts by email, in meetings, in calls, or with instant messages  with a specified *time investor*.|
 | <a name="common-network"></a> Common network | A relationship that is based on an overlap between the collaboration networks of two or more people. For example, Megan and Vinod each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &mdash; a _common network_ &mdash; between Megan and Vinod.  |
@@ -33,7 +35,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Coverage|The percentage of measured employees who have a non-blank value for the specified attribute as shown in [Data sources](../use/organizational-data.md). If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 | <a name="decision-making-meeting-define"></a> Decision-making meeting | A meeting that has between two and eight attendees and lasts less than one hour. |
-| De-identification | A process that is used to prevent the connection of personal identifiers with information. | 
+| De-identification | A process that is used to prevent the connection of personal identifiers with information. |
 |Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |
 | Hashing | Hashing is a cryptographic process that converts a piece of data into another in a way that is easy to compute, extremely difficult to reverse, and highly unlikely that two different pieces of data have the same hash. For example, meeting [subject lines](privacy-settings.md#hash-subject-lines) that are hashed would appear not in their original, readable, form but as a meaningless number. |  
@@ -56,7 +58,6 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |People meeting hours|The sum of adjusted meeting hours for each person in the meeting. For example, if a meeting lasts at least one hour with three attendees (and no attendees have overlapping meetings), the people meeting hours for that meeting is three.|
 |Person|The *measured employee* for whom the metric is calculated.|
 |Personal data  | <!--Personal data is any data that can be used to identify a specific person. Examples of personal data are email addresses, telephone numbers, IP addresses, and digital images. --> Personal data is any data that relates to an identified or identifiable natural person. An identifiable person is one who can be identified (directly or indirectly), in particular through an identifier such as a name, an identification number, location data, online identifier, or through one or more factors specific to the physical, physiological, genetic, mental, economic, cultural, or social identity of that person.|
-|Pseudonymized | Pseudonymized data is personal data that has undergone processing so that it can no longer be attributed to a specific [data subject](https://review.docs.microsoft.com/en-us/workplace-analytics/privacy/data-protection-considerations?branch=pas-jt-definitions#data-subject-and-personal-data) without the use of additional information, provided that such additional information is kept separately and is subject to technical and organizational measures to ensure that the personal data is not attributed to an identified or identifiable natural person. Pseudonymization is one means of achieving de-identification. |
 |Recipient |A person receiving an email (includes people in the to, cc, and bcc lines). |
 |Redundancy (organizational)|Organizational redundancy is present if at least three attendees are from different levels within the same organization. For example, a meeting whose attendees included a General Manager, a Director, and an Independent Contributor from the same organization would be a redundant meeting.|
 |Redundancy (lower level)|An attendee is considered redundant at the lower level if both the attendee's manager and skip-level manager are present in the meeting.|

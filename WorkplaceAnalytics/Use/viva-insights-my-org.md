@@ -7,6 +7,9 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
+
 ---
 
 # My organization in Viva Insights
@@ -21,13 +24,13 @@ While you can also see these outcomes and their related best practices in Workpl
 
 In addition to information about your organization, the Viva Insights app also offers you two _personal insights_, insights that help any employee with their daily work:
 
-* **Stay connected** – Viva Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#stay-connected).  
+* **Stay connected** – Viva Insights will help you stay on top of your collaboration with colleagues through features such as AI-based task suggestions and meeting assistance. For more information about the Stay connected feature, see [Stay connected](/insights/teams-app#stay-connected).  
 
-* **Protect time** – VIva Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. For more information about Protect time feature, see [Protect time](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app#protect-time-tab).
+* **Protect time** – VIva Insights will help you find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities. For more information about Protect time feature, see [Protect time](/insights/teams-app#protect-time-tab).
 
 ## Data privacy
 
-For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](https://docs.microsoft.com/workplace-analytics/privacy/data-protection-intro).
+For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](../privacy/data-protection-intro.md).
 
 ## Prerequisites
 
@@ -56,9 +59,9 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
 
-5. Select **Add for me**:
+5. Select **Add**:
 
-   ![Add for me button](../images/mya/use/add-for-me-new-410.png)
+   ![Add for me button](../images/mya/use/add-for-me.png)
 
 This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
@@ -92,7 +95,7 @@ After you pin a Teams app, it shows on the Teams app bar (the left navigation ba
 
 ## Admin tasks: Deployment
 
-[Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies).
+[Teams Service Administrators](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](/microsoftteams/teams-app-setup-policies).
 
 Complete the steps in the following mini-playbooks to get the Microsoft Viva Insights app up and running for people in your organization.
 
@@ -102,9 +105,9 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
    >[!Note]
    >To allow or block specific users in your organization from using Insights, do the following:
    >
-   >1. Make sure that Viva Insights is turned on for your organization on the [Manage apps](https://docs.microsoft.com/microsoftteams/manage-apps) page.
+   >1. Make sure that Viva Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page.
    >
-   >2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps) policies in Teams.
+   >2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
 
 2. Install the Viva Insights app for all employees in your organization: [Install the Insights app](../myanalytics/use/install-the-Insights-app.pdf).
 
@@ -114,23 +117,33 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
 5. To give a person access to leader insights, assign the _Analyst (Limited)_ role of Workplace Analytics to that person. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles.md#role-descriptions-and-access-levels).)
 
-## Use the My organization page
+## Open the My organization page
 
-The My organization page in the Viva insights app shows the following outcomes:
+1. On the Teams app bar (the left navigation bar), select **Insights**: 
+   
+   ![Insights icon](../images/wpa/use/insights-icon.png)
 
-* Organizational resiliency
-* Employee engagement
-* Improve agility
-* Foster innovation
-* Effective managers
-* Operational effectiveness
-* Accelerate change
-* Transform meeting culture
-* Increase customer focus
+2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card. 
 
-![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+   ![Insights Home page](../images/wpa/use/home-mgr.png)
 
-To use the My organization page, first view the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/insights/viva-insights-home).
+
+3. On the menu bar at the top of the page, select **My organization**. The My organization page opens to show the following outcomes:
+
+   * Organizational resiliency
+   * Employee engagement
+   * Improve agility
+   * Foster innovation
+   * Effective managers
+   * Operational effectiveness
+   * Accelerate change
+   * Transform meeting culture
+   * Increase customer focus
+
+   ![Outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+
+4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
 ### Drill down to the insights level
 
@@ -219,5 +232,5 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 ## Related topics
 
-* [Personal Viva Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/teams-app)
+* [Personal Viva Insights](/insights/teams-app)
 * [Viva Insights introduction](viva-insights-intro.md)

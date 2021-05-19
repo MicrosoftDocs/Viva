@@ -6,6 +6,8 @@ ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 
 # Build new habits

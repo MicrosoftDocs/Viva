@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Meetings overview
@@ -17,7 +19,7 @@ ms.prod: wpa
 
 ## Access to Meetings overview
 
-**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
+**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
 
 ## Low-quality meeting hours
 
@@ -37,7 +39,7 @@ The low-quality meeting hours overview summarizes the number of low-quality meet
 
 Admins can include an optional HourlyRate column in the organizational data, which they can use to calculate the total cost of low-quality meetings as shown in Meetings overview. If the HourlyRate column is included, cost is calculated as the sum of a person's default hourly rate for the organization multiplied by low-quality meeting hours.
 
-If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the [Admin settings](https://docs.microsoft.com/workplace-analytics/use/settings) page, admins can change the Hourly Rate field from its default value to any other hourly rate.
+If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the [Admin settings](./settings.md) page, admins can change the Hourly Rate field from its default value to any other hourly rate.
 
 ## Meetings hours by number of attendees
 

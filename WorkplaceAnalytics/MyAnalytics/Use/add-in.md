@@ -6,6 +6,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 # Insights Outlook add-in
 
@@ -24,11 +26,11 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides i
 Before you can use the Insights add-in, be sure that the following prerequisites are in place:
 
 * Have a MyAnalytics user license and let at least 24 hours elapse since you were granted that license.
-* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](https://docs.microsoft.com/exchange/recipients/create-user-mailboxes?view=exchserver-2019&preserve-view=true#create-user-mailboxes), if necessary.
+* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](/exchange/recipients/create-user-mailboxes?preserve-view=true&view=exchserver-2019#create-user-mailboxes), if necessary.
 * Have the following in place:
 
   * Your computer has Outlook version 1705 (build 8201.2102) or higher for Windows, or version 15.39.1010 or later for Mac.
-  * Add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook).
+  * Add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](/outlook/add-ins/add-in-commands-for-outlook).
   * Internet Explorer version 10 or 11 is installed on your computer.  
 
 >[!Note]
@@ -41,7 +43,7 @@ Open the Insights add-in in one of the programs listed under [Open the Insights 
   * With the [Outlook Reading Pane](https://support.office.com/article/use-and-configure-the-reading-pane-to-preview-messages-2fd687ed-7fc4-4ae3-8eab-9f9b8c6d53f0) open, view the email in the Reading Pane.
 
    > [!Note]
-   > This works only with emails to which [information rights management](https://docs.microsoft.com/exchange/policy-and-compliance/information-rights-management#apply-irm-protection-to-messages) have not been applied.  
+   > This works only with emails to which [information rights management](/exchange/policy-and-compliance/information-rights-management#apply-irm-protection-to-messages) have not been applied.  
 
 ## Open the Insights add-in
 
@@ -138,9 +140,10 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 ## Opt out of the Insights Outlook add-in
 
-#### To opt out
+### To opt out
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
+
 2. Select the **Settings** (gear) icon at top right.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
@@ -154,6 +157,20 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 > [!NOTE]
 > It might take up to 24 hours for your saved changes to take effect.
+
+### To remove the Insights icon
+
+If you opt out of the Insights Outlook add-in, you might also want to remove its icon from the Outlook ribbon. To do so, follow these steps:
+
+1. In Outlook, select **Get Add-ins**.
+
+   ![Select Get Add-ins](../../Images/mya/use/select-get-add-ins.png)
+
+2. On the left navigation pane, select **My add-ins**.
+
+3. On the **Insights** card, select the ellipsis (**...**) and then select **Remove**.
+
+   ![Options on Insights card](../../Images/mya/use/insights-card-remove-icon.png)
 
 ### If I am opted out, can I opt back in?
 

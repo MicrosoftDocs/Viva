@@ -30,7 +30,7 @@ To obtain Workplace Analytics, you must have an Enterprise Agreement (EA) in pla
 | ---- | ---- |
 | Government | Government Community Cloud (GCC) does not currently support the addition of Workplace Analytics. |
 | Education | Supported only for the analysis of faculty at this time, not for students. |
-| Commercial | You can add Workplace Analytics with commercial enrollments. | 
+| Commercial | You can add Workplace Analytics with commercial enrollments. |
 | Non-profit | Workplace Analytics under a commercial EA can be used by non-profits but non-profit pricing is not available. |
 | Firstline workers | Workplace Analytics does not support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
@@ -51,7 +51,7 @@ Workplace Analytics requires an Office 365 or Microsoft 365 tenant with Exchange
 [Assign Workplace Analytics licenses](assign-licenses-to-population.md) to the users whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies obtain the most benefit when they deploy Workplace Analytics to the entire company or to a large group of employees.
 
 >[!Important]
->Workplace Analytics is not yet supported for users whose mailboxes are in the following geo locations: Brazil, Germany, and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](https://docs.microsoft.com/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the geo location of a mailbox](https://docs.microsoft.com/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
+>Workplace Analytics is not yet supported for users whose mailboxes are in the geo locations Brazil and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the geo location of a mailbox](/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox).
 
 ### Pricing
 
@@ -77,7 +77,7 @@ If you have questions about licensing, such as "How can I obtain Workplace Analy
 
 [Get support](../overview/getting-support.md)
 
-Under [Powerful tools to support your enterprise](https://www.microsoft.com/en-us/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans.
+Under [Powerful tools to support your enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans.
 
 To provide feedback, go to [Microsoft Office 365 UserVoice forum](https://office365.uservoice.com/).  
 

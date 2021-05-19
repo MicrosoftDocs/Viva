@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Microsoft Teams insights
@@ -51,6 +53,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
+
+>[!Note]
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
@@ -122,10 +127,8 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ### Training opportunity
 
-Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](https://aka.ms/wpa-teams-insights) 
+Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](/learn/modules/workplace-analytics-teams-insights/) 
 
 ## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
-
-

@@ -7,7 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Teams collaboration
@@ -18,7 +19,7 @@ ms.prod: wpa
 
 ## Access to Teams collaboration
 
-You can open [Teams collaboration](https://workplaceanalytics.office.com/Home/Agility/ChatsAndCalls) in Workplace Analytics to view it.
+You can open [Teams collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ChatsAndCalls) in Workplace Analytics to view it.
 
 ## Call hours
 

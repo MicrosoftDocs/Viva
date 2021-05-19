@@ -6,18 +6,21 @@ author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
+manager: scott.ruble
+audience: Admin
 ms.prod: wpa
+
 ---
 
 # Workplace Analytics plans
 
 By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your organization. Targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals. By using the plans feature, you can, for example:  
 
-1.	Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
+1. Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 
-2.	Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
+2. Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
 
-3.	Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
+3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
    > [!Note]
    > Plans are intended for use by analysts or program managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md).
@@ -32,8 +35,9 @@ For more information about real-world possibilities, see [Microsoft Workplace In
 
 Workplace Analytics currently offers plans of the following types:
 
- * [Teamwork improvement plans](teamwork-solution.md) have the goal of helping employees work better together. 
- <!-- UNCOMMENT THIS IF WE EVER RELEASE SELLER SUCCESS: 
+* [Teamwork improvement plans](teamwork-solution.md) have the goal of helping employees work better together.
+
+<!-- UNCOMMENT THIS IF WE EVER RELEASE SELLER SUCCESS: 
  * [Seller success solution](seller-success.md) has the goal of helping sales people become more productive. 
 -->
 
@@ -41,9 +45,9 @@ Workplace Analytics currently offers plans of the following types:
 
 See the following topics to learn how to create and track plans:
 
- * [Walkthrough](solutionsv2-task.md) - Follow these steps to create a plan.
- * [Participants](solutionsv2-participants.md) - Learn about the experience of participants in a plan.
- * [Concepts](solutionsv2-conceptual.md) - Learn concepts whose understanding can help you create a plan and monitor its progress.
+* [Walkthrough](solutionsv2-task.md) &ndash; Follow these steps to create a plan.
+* [Participants](solutionsv2-participants.md) &ndash; Learn about the experience of participants in a plan.
+* [Concepts](solutionsv2-conceptual.md) &ndash; Learn concepts whose understanding can help you create a plan and monitor its progress.
 
 ## Prerequisites for plans
 
@@ -51,11 +55,14 @@ Confirm that your organization meets the following licensing prerequisites:
 
 * **For plan organizers** &ndash; Identify who in your organization to assign one of the following roles:
 
-  * **Analyst**, **limited analyst**, or **program manager** - Both analysts and program managers can help identify opportunities for change plans, set up plans, run and track them, and measure plan ROI. (See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md).) 
+  * **Analyst**, **limited analyst**, or **program manager** &ndash; Both analysts and program managers can help identify opportunities for plans, set up plans, run and track plans, and measure plan ROI. (See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md).)
 
-* **For plan participants** &ndash; Assign both of the following licenses to members of groups that will take part in change plans:
-   * [Workplace Analytics](../setup/assign-licenses-to-population.md) 
-   * [MyAnalytics (Full)](../myanalytics/setup/configure-myanalytics.md#assign-licenses-with-a-myanalytics-service-plan)
+* **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
+
+  * A [Workplace Analytics license](../setup/assign-licenses-to-population.md)
+  * A MyAnalytics license in either one of the following [service plans](../myanalytics/setup/configure-myanalytics.md#assign-licenses-with-a-myanalytics-service-plan): 
+    * MyAnalytics (Full)
+    * Insights by MyAnalytics
 
 >[!Note]
 >Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/manager-settings.md).
@@ -87,7 +94,7 @@ The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provide
 
 All roles -- analysts of both levels or program managers -- can upload a .csv file of potential plan participants. (Also see the following question.)
 
-**Additional information about roles and access**
+Additional information about roles and access:
 
 * For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
 

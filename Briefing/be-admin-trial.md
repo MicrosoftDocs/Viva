@@ -7,12 +7,14 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 
 ---
 
 # Admin preview
 
-As an Exchange Administrator or a Global Administrator for your organization, you are eligible to receive the Briefing email before people in your organization start receiving it.
+As an admin for your organization, you are eligible to receive the Briefing email before people in your organization start receiving it.
 
 As an admin, this is your opportunity to experience the value of the Briefing email and familiarize yourself with its functionality before the rest of your organization sees it.
 

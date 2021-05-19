@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Transform meeting culture
@@ -46,9 +48,9 @@ You can select **See your insights** to see ways you can drive change or transfo
 
   |Behavior |Recommendation |Explore the stats|
   |---|---|---|
-  |Optimize meeting hours |Reduce meeting hours |[Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview) |
-  |Examine recurring meetings |Reinvent the recurring meeting |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
-  |Promote healthy meeting habits |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/Plans/Teamwork) |
+  |Optimize meeting hours |Reduce meeting hours |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) |
+  |Examine recurring meetings |Reinvent the recurring meeting |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
+  |Promote healthy meeting habits |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
 
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
@@ -67,7 +69,7 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 The [condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Other ways to reduce meeting time:
 
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
 * Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to plan better meetings.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
@@ -78,7 +80,7 @@ Recurring meetings for team updates often consume large amounts of time. Over ti
 
 As described in [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), we all know how wasteful a "bloated" weekly meeting can be. But there's hope: "To liberate victims from this seemingly inescapable vicious cycle, it’s necessary to kick-start a virtuous cycle in which everyone is empowered to say no, ask why, and identify strategies to allow everyone in an organization to be more effective on a day-to-day basis." Ways to optimize recurring meetings:
 
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.
 * Experiment with 15-minute meetings. Short stand-up meetings with focused agendas are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).

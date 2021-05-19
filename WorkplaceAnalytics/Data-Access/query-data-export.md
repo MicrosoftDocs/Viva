@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Automate query data export to Azure with Azure Data Factory UI
+title: Automate query data export with Azure Data Factory UI
 description: Steps for admins to set up an automated Workplace Analytics query data export to Azure through Azure Data Factory UI
 author: madehmer
 ms.author: v-mideh
@@ -30,20 +30,20 @@ To set up the automated OData connection between Workplace Analytics query data 
 ## Prerequisites
 
 * **Workplace Analytics licensed analyst** – Must be assigned a license and an Analyst role for Workplace Analytics and have query results with the data you want to export.
-* **Microsoft Azure subscription** – If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) now. You’ll be using [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/), [OData connector](https://docs.microsoft.com/azure/data-factory/connector-odata#supported-capabilities), and [Data Factory](https://docs.microsoft.com/rest/api/datafactory/) for this setup.
-* **Azure data store** – Your data store must be [supported by the OData connector](https://docs.microsoft.com/azure/data-factory/connector-odata).
+* **Microsoft Azure subscription** – If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) now. You’ll be using [Azure Active Directory](/azure/active-directory/), [OData connector](/azure/data-factory/connector-odata#supported-capabilities), and [Data Factory](/rest/api/datafactory/) for this setup.
+* **Azure data store** – Your data store must be [supported by the OData connector](/azure/data-factory/connector-odata).
 * **Azure admin** – You need Azure admin privileges to create and register the app in Azure. You also need to ask the Azure global admin to grant you permissions in Azure Data Factory to connect your new app to the Azure data store.
 
 ## To set up with Azure Data Factory UI
 
-The following steps you through how to automate the export of Workplace Analytics query data to your choice Azure data store with the [Azure Data Factory UI](https://docs.microsoft.com/azure/data-factory/introduction). Use the following steps in conjunction with the [Azure documentation](https://docs.microsoft.com/azure/data-factory/introduction) to complete this setup.
+The following steps you through how to automate the export of Workplace Analytics query data to your choice Azure data store with the [Azure Data Factory UI](/azure/data-factory/introduction). Use the following steps in conjunction with the [Azure documentation](/azure/data-factory/introduction) to complete this setup.
 
-1. Follow the steps in [Register an application using the Azure portal](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Azure Active Directory.
+1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Azure Active Directory.
 2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
 3. Enter and search for the **Workplace Analytics App name** or **ID** and then select the applicable **Workplace Analytics app** from the list.
 
    ![App permissions](./images/app-permissions.png)
- 
+
    To find the Application (client) ID:
 
    * In **Active Directory**, select **all applications**, and then enter **Workplace Analytics** for the Workplace Analytics enterprise app that you want to use.
@@ -57,14 +57,14 @@ The following steps you through how to automate the export of Workplace Analytic
 
     ![Grant the app permissions](./images/permissions-grant.png)
 
-6. Follow the steps in [Create data factory](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) to create a new analytics data factory within Azure Active Directory.
+6. Follow the steps in [Create data factory](/azure/data-factory/quickstart-create-data-factory-portal) to create a new analytics data factory within Azure Active Directory.
 7. In the **Azure Data Factory Overview**, select **Author & Monitor** to open Azure Data Factory.
 
-    > [!Note]
-    > Keep all browser windows open because you must switch between them to complete the following steps.
+    >[!Note]
+    >Keep all your browser windows open because you must switch between them to complete the following steps.
 
 8. In **Azure Data Factory**, select **Create a pipeline**.
-9. Select the **ellipsis** (**...**) next **Datasets**, and then select **New dataset**. For more details, see [Datasets in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-datasets-linked-services).
+9. Select the **ellipsis** (**...**) next **Datasets**, and then select **New dataset**. For more details, see [Datasets in Azure Data Factory](/azure/data-factory/concepts-datasets-linked-services).
 10. In **Select a data store**, enter **odata**, and then select **OData**.
 11. In **General**, enter a name and description for the Workplace Analytics query data you’re linking to.
 12. Select **Connection**, select **New**, and then enter a name and description for the OData link, such as **WPA_Odata_Collab**.
@@ -72,8 +72,8 @@ The following steps you through how to automate the export of Workplace Analytic
 13. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
 14. In [Workplace Analytics](https://workplaceanalytics.office.com/) > **Queries** > **Results**, copy the OData link for the query data you want to connect to Azure.
 
-    > [!Important]
-    > For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](https://docs.microsoft.com/workplace-analytics/tutorials/query-auto-refresh#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
+    >[!Important]
+    >For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](../tutorials/query-auto-refresh.md#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
      ![Query OData link](./images/query-link.png)
 
@@ -83,11 +83,11 @@ The following steps you through how to automate the export of Workplace Analytic
 
      ![Azure application ID](./images/azure-app-id.png)
 
-18. In **Azure Data Factory** > **New linked service** > **Service principal ID**, copy the client ID. For  details, see [Linked service properties](https://docs.microsoft.com/azure/data-factory/connector-odata#linked-service-properties).
+18. In **Azure Data Factory** > **New linked service** > **Service principal ID**, copy the client ID. For  details, see [Linked service properties](/azure/data-factory/connector-odata#linked-service-properties).
 
      ![Service principal ID](./images/service-princ-id.png)
 
-19. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](https://docs.microsoft.com/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
+19. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
 20. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
     * **For Key authentication**, select **New client secret** and in **Add a client secret**, enter a description, select when it expires, and then select **Add**. In **Client secrets**, select the new secret, and then select the **Copy icon** to copy it.
@@ -96,7 +96,7 @@ The following steps you through how to automate the export of Workplace Analytic
 21. In **Azure Data Factory**, do the following for the applicable authentication type:
 
     * For Service principal key, paste the new client secret copied in the previous step in **Service principal key**.
-    * For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal) for details.
+    * For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](/azure/key-vault/secrets/quick-create-portal) for details.
 
 22. Select **Test connection** to test the OData linked service.
 23. After you see **Connection successful**, select **Create**.
@@ -108,10 +108,10 @@ The following steps you through how to automate the export of Workplace Analytic
 26. Select **Preview data** for the path to confirm you entered the correct entity.
 27. In **Azure Data Factory** > **Properties**, confirm the name and description for this new dataset.
 28. Select **Publish all** at the top, and then select **Publish**.
-29. In **Pipelines**, create a new pipeline that can use the new OData dataset to copy the Workplace Analytics data to the external resource. For details, see [Create a pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#create-a-pipeline).
+29. In **Pipelines**, create a new pipeline that can use the new OData dataset to copy the Workplace Analytics data to the external resource. For details, see [Create a pipeline](/azure/data-factory/tutorial-copy-data-portal#create-a-pipeline).
 30. For the new pipeline, select **Source**, and in **Source dataset**, select the name of new OData dataset, and in **Use query**, select **Table**.
-31. Create a linked service for the data store you want to export to. For details, see [Linked services](https://docs.microsoft.com/azure/data-factory/author-management-hub#linked-services).
-32. In **Azure Data Factory** > **Author**, select the new pipeline, and then select **Add trigger** > **Trigger now** to manually run the last published pipeline, as shown in the following graphic. You can also schedule a trigger for this new pipeline by selecting **Add trigger** > **New/Edit** > **New**, and complete the required information for it. See [Pipeline execution and triggers in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers) for details.
+31. Create a linked service for the data store you want to export to. For details, see [Linked services](/azure/data-factory/author-management-hub#linked-services).
+32. In **Azure Data Factory** > **Author**, select the new pipeline, and then select **Add trigger** > **Trigger now** to manually run the last published pipeline, as shown in the following graphic. You can also schedule a trigger for this new pipeline by selecting **Add trigger** > **New/Edit** > **New**, and complete the required information for it. See [Pipeline execution and triggers in Azure Data Factory](/azure/data-factory/concepts-pipeline-execution-triggers) for details.
 
      ![Azure Data Factory manually trigger pipeline](./images/adf-trigger.png)
 

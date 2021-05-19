@@ -8,6 +8,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ms.collection: M365-analytics
+manager: scott.ruble
 audience: Admin
 ---
 
@@ -114,13 +115,13 @@ To check the role assignments that a user currently has, see [Verify role assign
 You can also assign roles to groups, which means that you are assigning access permissions associated with that role to the group. Any users who are assigned to that group automatically receive the same permissions.
 
 > [!Note]
-> The groups that you can assign Workplace Analytics roles are Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups). 
+> The groups that you can assign Workplace Analytics roles are Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups). 
 
 To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 12 under [Assign roles to users](#assign-roles-to-users). In that process, where you name and select a user in step 9, instead name and select a group, and then assign a role to the selected group.
 
    ![Select group](../images/WpA/Use/select-group-b.png)
 
-If you have not yet created a Workplace Analytics group in Azure Active Directory, and want to do so, see [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+If you have not yet created a Workplace Analytics group in Azure Active Directory, and want to do so, see [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## Verify role assignments
 
@@ -141,6 +142,6 @@ However, in a larger company where the number of users required for the same rol
 ## Related topics
 
 * [User roles](../use/user-roles.md)
-* [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+* [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
 * [Manager settings](../use/manager-settings.md)

@@ -49,4 +49,4 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 ## Related topics
 
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
-* [Group-based licensing](https://aka.ms/Instructions_AssignLicenseUsingGBL)
+* [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)

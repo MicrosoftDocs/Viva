@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Explore the stats
@@ -30,7 +32,7 @@ For example, to see **Meetings overview** data in Workplace Analytics:
 
 * Select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats** in **Try shorter and smaller meetings**
 
-* Open [Meetings overview](https://workplaceanalytics.office.com/Home/Agility/MeetingsOverview)
+* Open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview)
 
 ## Video: Learn about Explore the stats
 

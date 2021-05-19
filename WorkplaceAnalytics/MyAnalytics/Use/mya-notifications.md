@@ -1,12 +1,13 @@
 ---
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work
-author: madehmer
+author: paul9955
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Inline suggestions in Outlook
@@ -25,7 +26,7 @@ Inline suggestions can help boost your productivity and that of your team by dis
 Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place:
 
 * You have Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
-* Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](https://docs.microsoft.com/outlook/actionable-messages/).
+* Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
 
 In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
 
@@ -87,11 +88,11 @@ You can also select **Turn off all notifications** if you would prefer not to re
 
 ## Delay delivery
 
-When composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
+When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours.
 
 These suggestions are currently only available to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) who are using the Outlook desktop app.
 
-When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to **Delay delivery** in either MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery](delay-delivery.md).
+When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
 ![Inline suggestions email](../../Images/mya/use/nudges-email.png)
 
@@ -145,7 +146,7 @@ When composing an email or calendar invitation in Outlook about your upcoming ti
 ![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
 
 >[!Note]
->This suggestion is only available if you have an E5 plan. It's coming soon to E1/E3 plans. This feature falls under the preview of [connected experiences that analyze your content in Office](https://docs.microsoft.com/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
+>This suggestion is only available if you have an E5 plan. It's coming soon to E1/E3 plans. This feature falls under the preview of [connected experiences that analyze your content in Office](/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 

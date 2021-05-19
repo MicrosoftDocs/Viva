@@ -2,32 +2,26 @@
 
 
 
-## Week of February 08, 2021
+## Week of May 10, 2021
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 2/8/2021 | [Viva Insights app - FAQ](/insights/teams-app-faq) | modified |
-| 2/8/2021 | [Viva Insights app - Install](/insights/teams-app-install) | modified |
-| 2/8/2021 | [Viva Insights app - Overview](/insights/teams-app) | modified |
-
-
-## Week of February 01, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/4/2021 | [Viva Insights app - Admin tasks](/insights/teams-app-admin-tasks) | added |
-| 2/4/2021 | [Viva Insights app - FAQ](/insights/teams-app-faq) | added |
-| 2/4/2021 | [Viva Insights app - Install](/insights/teams-app-install) | added |
-| 2/4/2021 | [Viva Insights app - Privacy](/insights/teams-app-privacy) | added |
-| 2/4/2021 | [Viva Insights app - Use](/insights/teams-app-use-insights) | added |
-| 2/4/2021 | [Viva Insights app - Overview](/insights/teams-app) | modified |
-
-
-## Week of January 11, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/11/2021 | [Teams insights app](/insights/teams-app) | modified |
+| 5/13/2021 | [Viva Insights - Home page](/insights/viva-insights-home) | renamed |
+| 5/13/2021 | [Viva Insights - Praise](/insights/viva-insights-praise) | renamed |
+| 5/13/2021 | [Viva Insights - Protect time](/insights/viva-insights-protect-time) | renamed |
+| 5/13/2021 | [Viva Insights - Reflect](/insights/viva-insights-reflect) | renamed |
+| 5/13/2021 | [Viva Insights - Stay connected](/insights/viva-insights-stay-connected) | renamed |
+| 5/13/2021 | [Viva Insights - virtual commute](/insights/viva-insights-virtual-commute) | renamed |
+| 5/13/2021 | [Viva Insights app - Admin tasks](/insights/viva-teams-app-admin-tasks) | renamed |
+| 5/13/2021 | [Viva Insights app - FAQ](/insights/viva-teams-app-faq) | renamed |
+| 5/13/2021 | [Viva Insights app - Discover](/insights/viva-teams-app-install) | renamed |
+| 5/13/2021 | [Viva Insights app - Privacy](/insights/viva-teams-app-privacy) | renamed |
+| 5/13/2021 | [Viva Insights app - Use settings to configure](/insights/viva-teams-app-settings) | renamed |
+| 5/13/2021 | [Viva Insights app - Overview](/insights/viva-teams-app) | renamed |
+| 5/13/2021 | Viva Insights app - Admin tasks | removed |
+| 5/13/2021 | Viva Insights app - FAQ | removed |
+| 5/13/2021 | Viva Insights app - Install | removed |
+| 5/13/2021 | Viva Insights app - Privacy | removed |
+| 5/13/2021 | Viva Insights app - Use | removed |
+| 5/13/2021 | Viva Insights app - Overview | removed |

@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Best practices for manager connectedness
@@ -38,7 +40,7 @@ According to [Horizontal collaboration and cross-silo leadership](https://insigh
 
 #### Build strong connections with Teams
 
-Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to interact with others based on topics of interest or across different teams. Try out the built-in Microsoft tips and resources to accelerate adoption.
+Use [Teams channels](/microsoftteams/teams-channels-overview) to interact with others based on topics of interest or across different teams. Try out the built-in Microsoft tips and resources to accelerate adoption.
 
 #### Enable MyAnalytics network insights
 

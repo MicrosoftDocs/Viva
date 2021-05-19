@@ -18,19 +18,19 @@ highlightedContent:
   items:
     - title: Privacy protection
       itemType: learn # controls the icon image and super-title text
-      url: /workplace-analytics/privacy/data-protection-intro
+      url: ./privacy/data-protection-intro.md
     - title: Setup and maintenance
       itemType: deploy
-      url: /workplace-analytics/setup/set-up-workplace-analytics
+      url: ./setup/set-up-workplace-analytics.md
     - title: Data analysis
       itemType: how-to-guide
-      url: /Workplace-Analytics/overview/get-started
+      url: ./overview/get-started.md
     - title: Frequently asked questions
       itemType: reference
-      url: /workplace-analytics/use/faq
+      url: ./use/faq.md
     - title: Plans
       itemType: tutorial
-      url: /workplace-analytics/tutorials/solutionsv2-intro
+      url: ./tutorials/solutionsv2-intro.md
     - title: MyAnalytics
       itemType: quickstart
-      url: /workplace-analytics/myanalytics/index
+      url: ./myanalytics/index.yml

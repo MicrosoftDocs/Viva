@@ -7,6 +7,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 
 ---
 
@@ -61,7 +63,7 @@ In the following walkthrough, you will perform steps as a business decision make
 
    ![Select publish destination](../images/wpa/tutorials/publish-to-pbi-workspace.png)
 
-   After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/). For more details, see [Publish datasets and reports from Power BI Desktop](https://docs.microsoft.com/power-bi/create-reports/desktop-upload-desktop-files).
+   After you publish, it’s easy to view your visualizations (in read-only mode) in [Power BI Online](https://powerbi.microsoft.com/). For more details, see [Publish datasets and reports from Power BI Desktop](/power-bi/create-reports/desktop-upload-desktop-files).
 
 8. (Optional) Delegate this information to your team members by sharing this report. This lets them filter and focus the data to further identify opportunities or track metrics that change over time.
 

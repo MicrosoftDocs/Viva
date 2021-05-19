@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Best practices for cross-group collaboration
@@ -19,7 +21,7 @@ In [Horizontal collaboration and cross-silo leadership](https://insights.office.
 
 * Develop cultural brokers who, “promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive.”
 * “Encourage people to ask the right questions” specifically around what groups should be involved in a project."
-* “Get people to see the world through others’ eyes”, or in other words encourage workers to think about their colleagues wants and incentives.”
+* “Get people to see the world through others’ eyes”, or in other words encourage workers to think about their colleagues' wants and incentives.”
 * “Bring employees from diverse groups together on initiatives. As a rule, cross-functional teams give people across silos a chance to identify various kinds of expertise within their organization.”
 
 The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article explains how important cross-group collaboration is for getting work done:
@@ -30,7 +32,7 @@ The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com
 
 ## Best practices
 
-* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
+* Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use [MyAnalytics](../myanalytics/use/network.md) to select key internal contacts as important, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
 * Motivate team members to reach across silos. Break down silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
 * Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover potential interruptions to connectivity.  
