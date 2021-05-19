@@ -54,21 +54,22 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 
     **More information about this option:** If you run this query on the entire company, the results will be based on all collaborations across the company. If this is your goal, you can retain the default search range, which is unlimited. But your goal might be to understand connectivity for a specific group of people, based on collaboration happening exclusively within that group. In this case, limit the query to search only within a particular division or group.
 
+<!-- REMOVED (FOR NOW) PER SANJAY, 19 MAY 2021
 7. Under **Select collaboration types**, specify the types of collaboration activities that you want to include in your analysis. Your choices are **Emails and meetings**, **Teams instant messages**, and **Teams calls**.
 
     **More information about this option:** As the nature of the workplace evolves, different ways to collaborate gain or lose popularity, doing so at different rates among different populations. Some people and organizations are more formal in nature -- for example, a legal division or HR -- and they might invariably use email. They might also tend to message more recipients at once, for which they might prefer email. Other people who have a less traditional, more casual, or more personal outlook might prefer Teams IMs or calls.
 
-    Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other.
+    Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other. -->
 
-8.  Under **Select metrics**, select **Strong and Diverse tie scores**.
+7. Under **Select metrics**, select **Strong and Diverse tie scores**.
 
-9.  Under **Select filters**, select the groups of people for whom you want to see results. This section offers two optional filters, one for selecting "tie-origin" employees, and the other for selecting "tie-destination" employees. For more information, see [Select filters](#select-filters).
+8. Under **Select filters**, select the groups of people for whom you want to see results. This section offers two optional filters, one for selecting "tie-origin" employees, and the other for selecting "tie-destination" employees. For more information, see [Select filters](#select-filters).
 
-10. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
+9. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
 
-11. Select **Run**. The query takes a few minutes to complete.
+10. Select **Run**. The query takes a few minutes to complete.
 
-12. On the **Queries \> Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
+11. On the **Queries \> Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
 >You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).

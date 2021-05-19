@@ -41,21 +41,22 @@ You can use any of connectivity metrics in the ONA person query; in this example
 
     **More information about this option:** If you run this query on the entire company, the results will be based on all collaborations across the company. If this is your goal, you can retain the default search range, which is unlimited. But your goal might be to determine only particular people, perhaps to involve them in a pilot project to introduce a new tool or procedure. In this case, limit the query to search only within a particular division or group.
 
+<!--
 7.  Under **Select collaboration types**, specify the types of collaboration activities that you want to include in your analysis. Your choices are **Emails and meetings**, **Teams instant messages**, and **Teams calls**.
 
     **More information about this option:** As the nature of the workplace evolves, different ways to collaborate gain or lose popularity, doing so at different rates among different populations. Some people and organizations are more formal in nature -- for example, a legal division or HR -- and they might invariably use email. They might also tend to message more recipients at once, for which they might prefer email.
     
-    Other people who have a less traditional, more casual, or more personal outlook might prefer Teams IMs or calls. Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other.
+    Other people who have a less traditional, more casual, or more personal outlook might prefer Teams IMs or calls. Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other. -->
 
-8.  Under **Select metrics**, select one or more of the available metrics. Optionally, you can also edit the **Display name** of these metrics; the names of all selected metrics, whether or not you've edited them, will appear as column names in the query results. (Other metric customization options are not available.)
+7. Under **Select metrics**, select one or more of the available metrics. Optionally, you can also edit the **Display name** of these metrics; the names of all selected metrics, whether or not you've edited them, will appear as column names in the query results. (Other metric customization options are not available.)
 
-9.  Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
+8. Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
 
-10. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
+9. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
 
-11. Select **Run**. The query takes a few minutes to complete.
+10. Select **Run**. The query takes a few minutes to complete.
 
-12. On the **Queries \> Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
+11. On the **Queries \> Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
 >You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
