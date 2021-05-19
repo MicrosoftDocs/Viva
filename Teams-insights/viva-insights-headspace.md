@@ -24,16 +24,13 @@ Any time you want, you can start a guided meditation that's been designed for th
 
    ![Home page with Headspace](images/home-page-with-headspace.png)
 
-2. Select the **Headspace** card:
+2. To start the Headspace exercise, select the 'Play' button on the **Headspace** card:
 
    ![Headspace card](images/headspace-card.png)
 
-3. To start the Headspace exercise, select the 'Play' button.
 <!-- ![Headspace is running](images/in-headspace.png) -->
 
->&ndash; or &ndash;
-
-3. (Optional) Browse through a curated set of meditations that are designed to fit different scenarios within the flow of your day. To see your choices, select **More mindfulness exercises**. This opens the **Practice mindfulness** page.
+3. (Optional) Browse through a curated set of meditations that are designed to fit different scenarios within the flow of your day. To see your options, open the **Practice mindfulness** page by selecting **More mindfulness exercises**.
 
 4. Under **Practice mindfulness**, select a meditation option in the **Guided meditations** area or a musical option in the **Focus music** area:
 
