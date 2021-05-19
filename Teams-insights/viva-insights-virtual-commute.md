@@ -119,8 +119,6 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    Select **Done**.
 
-<!-- NOTE FOR WAVE 3: HEADSPACE, A 3RD-PARTY MEDITATION APP, WILL APPEAR HERE WHEN IT'S AVAILABLE. WE'LL NEED TO ENABLE SOUND FOR IT FIRST. THIS FEATURE BELONGS TO PETER B. [30:00] -->
-
 ## Related topics
 
 [Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
