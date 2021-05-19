@@ -29,8 +29,9 @@ After your admin has completed the [Setup steps](./setup.md), the data for insig
 
 The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
 
+<!-- REMOVE THIS FOR NOW. MAYBE RE-USE IN LATE 2021. CHECK WITH DANNY. 
 >[!Important]
->Only data about users whose [Microsoft 365 datacenter geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability) is included in this initial release.
+>Only data about users whose [Microsoft 365 datacenter geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability) is included in this initial release. -->
 
 ## Business outcomes
 
