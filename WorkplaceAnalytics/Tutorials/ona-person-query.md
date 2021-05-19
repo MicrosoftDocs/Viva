@@ -37,7 +37,7 @@ You can use any of connectivity metrics in the ONA person query; in this example
 
 5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
 
-6.  Under **Select network boundary conditions**, define a filter to select the measured employees that you want to analyze in this query. You can use the filters of this step, for example, to narrow the scope to a division or a group. If you skip this (optional) step, all measured employees will remain eligible for analysis.
+6. Under **Select network boundary conditions**, define a filter to select the measured employees that you want to analyze in this query. You can use the filters of this step, for example, to narrow the scope to a division or a group. If you skip this (optional) step, all measured employees will remain eligible for analysis.
 
     **More information about this option:** If you run this query on the entire company, the results will be based on all collaborations across the company. If this is your goal, you can retain the default search range, which is unlimited. But your goal might be to determine only particular people, perhaps to involve them in a pilot project to introduce a new tool or procedure. In this case, limit the query to search only within a particular division or group.
 
