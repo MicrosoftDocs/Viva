@@ -102,7 +102,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice, which you can view before you select **Next**. This optional step helps you build the healthy habit of checking in with yourself.
 
-6. **Mindfully disconnect by using Headspace** &ndash; Select the 'Play' button on the Headspace card to begin a guided meditation:
+6. **Mindfully disconnect with a Headspace meditation** &ndash; Select the 'Play' button on the Headspace card to begin a guided meditation:
 
    ![Headspace Play button](Images/headspace-in-vc.png)
 

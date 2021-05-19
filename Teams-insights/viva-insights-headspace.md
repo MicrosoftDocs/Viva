@@ -16,6 +16,9 @@ audience: Admin
 
 Viva Insights has introduced a curated set of guided meditations and focus music from Headspace. Reach these resources on the [Home](viva-insights-home.md) page to help you start your day grounded, relax your mind before a big meeting, or find focus before starting an important project. <!-- VERIFY WITH ANJI BUT KEEPING THIS OUT FOR NOW: A Headspace meditation to mindfully wrap up the day will also be integrated into the virtual commute. --> In just a few minutes a day, meditation and mindfulness with Headspace can help you lower stress, increase focus and ease teamwork.
 
+> [!NOTE]
+> As of June 2021, Headspace is only available to users who have their language in Teams set to English. Additional languages will be supported in the future.  
+
 ## Start a guided meditation
 
 Any time you want, you can start a guided meditation that's been designed for the current time of day:

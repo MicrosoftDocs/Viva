@@ -57,8 +57,7 @@ The card's color changes to alert you of other events, such as scheduled focus t
 
 ## Mindfulness content from Headspace
 
-See [Headspace](viva-insights-headspace.md)
-
+This feature offers a curated set of guided meditations and focus music from Headspace. For more information, see [Headspace](viva-insights-headspace.md).
 
 ## Take a break
 
