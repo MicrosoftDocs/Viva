@@ -127,18 +127,6 @@ Workplace Analytics includes the following predefined query templates to help yo
 * **Standard query** provides all base metrics available for a person query.
 * **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
 
->[!Note]
->The following query templates are no longer available in Workplace Analytics.
-
-* **Build focus hours**
-* **Calls and IMs**
-* **Meetings attendees query**
-* **Meetings day query**
-* **Meetings duration query**
-* **Meetings start time query**
-* **Protect after hours**
-* **Reduce meeting hours**
-
 ## Videos
 
 The videos in this section were used in a bootcamp for training analysts in how to run queries in Workplace Analytics.
