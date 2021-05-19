@@ -34,7 +34,9 @@ Complete the steps in the following four mini-playbooks to get the Microsoft Viv
 
 ## Disable Headspace
 
-Admins can disable the Headspace feature, which can be found on the [Home](viva-insights-home) page of Viva Insights. The PowerShell commands for working with Viva Insights features are described in [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings?view=exchange-ps). To disable Headspace, see [Example 1](/powershell/module/exchange/set-vivainsightssettings?view=exchange-ps).
+When the Headspace feature is enabled, users can find it on the [Home](viva-insights-home) page of Viva Insights. Admins can disable this feature by using PowerShell cmdlets.
+
+The PowerShell commands for working with Viva Insights features are described in [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings?view=exchange-ps). To disable Headspace, see [Example 1](/powershell/module/exchange/set-vivainsightssettings?view=exchange-ps).
 
 ## Related topics
 
