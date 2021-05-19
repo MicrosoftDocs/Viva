@@ -19,14 +19,14 @@ You can find the basic definitions of the connectivity metrics in [Workplace Ana
 
 | Metric | Available in this query type |
 | ------ | ---------------------------- |
-| [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [ONA person-to-person query](ona-person-query.md) |
+| [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [ONA person-to-person query](ona-person-to-person-query.md) |
 | [Diverse tie type](../use/metric-definitions.md#diverse-tie-type-define) | [ONA person query](ona-person-query.md) |
 | [Diverse ties](../use/metric-definitions.md#diverse-ties-define) | [ONA person query](ona-person-query.md) |
 | [Influence](../use/metric-definitions.md#influence-define) | [ONA person query](ona-person-query.md) |
 | [Influence rank](../use/metric-definitions.md#influence-rank-define) | [ONA person query](ona-person-query.md) |
 | [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) | [ONA person query](ona-person-query.md) |
 | [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) | [ONA person query](ona-person-query.md) |
-| [Strong tie score](../use/metric-definitions.md#strong-tie-score-define) | [ONA person-to-person query](ona-person-query.md) |
+| [Strong tie score](../use/metric-definitions.md#strong-tie-score-define) | [ONA person-to-person query](ona-person-to-person-query.md) |
 | [Strong tie type](../use/metric-definitions.md#strong-tie-type-define) | [ONA person query](ona-person-query.md) |
 | [Strong ties](../use/metric-definitions.md#strong-ties-define) | [ONA person query](ona-person-query.md) |
 
