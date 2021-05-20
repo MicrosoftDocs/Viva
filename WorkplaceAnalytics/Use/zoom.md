@@ -15,7 +15,7 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-This Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R for Windows and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
+The Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R for Windows and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
 This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
 
@@ -63,6 +63,9 @@ The following is required before you can run the Zoom Collaboration analysis in 
 
       ![Zoom mapping file sample data](../images/wpa/use/zoom-mapping-file.png)
 
+   >[!Important]
+   >You must save the mapping file as .csv and not as an .xls or .xlsx file.
+
 5. **Append to existing organizational data** - Your Workplace Analytics Admin must upload the .csv mapping file with the **HashIDs** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in Workplace Analytics. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
 
    >[!Important]
@@ -89,8 +92,9 @@ The following is required before you can run the Zoom Collaboration analysis in 
 8. **Prepare the Zoom file** - Your Zoom admin needs to do the following:
 
    1. Confirm that the input folder has the relevant **Zoom reports** from **Step 5** and the **mapping file** from **Step 4**.
-   2. In the **Zoom integration** folder, double-click **AdminActions.bat** to run it. When prompted, select **Rscript.exe** for the required script.
-   3. Typically, the script file is located in the **C:/Program Files/R/R-4x-x/bin** folder. To find the file:
+   2. In the **Zoom integration** folder, double-click **AdminActions.bat** to run it.
+   3. When prompted, select **Rscript.exe** for the required script. If prompted to open the Rscript.exe file, close the prompt, and continue  running the file.
+   4. Typically, the script file is located in the **C:/Program Files/R/R-4x-x/bin** folder. To find the file:
 
       * In Windows search, enter **RGUI.exe** to open the R graphical user interface, and then enter **file.path(R.home(), "bin", "Rscript.exe"**
       * Or in a Windows command prompt, enter **PowerShell** to open PowerShell. And then enter **get-childitem -Recurse -Name rscript.exe -path C:\ | select -First 1**
@@ -98,8 +102,8 @@ The following is required before you can run the Zoom Collaboration analysis in 
         >[!Note]
         >If R is installed on a custom drive, such as D:\ or E:\, replace C:\ with the applicable drive letter. For subsequent file prep, File Explorer will automatically open the right folder.
 
-    4. Ignore the warnings during processing, and then when prompted, press any key to continue and exit.
-    5. During this processing state, the Zoom reports are de-identified by using the hash key from the mapping file, and then joined into one combined file, which is saved in the **Admin**/**output** folder. Give the new Zoom output file to your Workplace Analytics Analyst.
+    5. Ignore the warnings during processing, and then when prompted, press any key to continue and exit.
+    6. During this processing state, the Zoom reports are de-identified by using the hash key from the mapping file, and then joined into one combined file, which is saved in the **Admin**/**output** folder. Give the new Zoom output file to your Workplace Analytics Analyst.
 
 9. **Upload the Zoom output data** - As the Workplace Analytics Analyst, save the Zoom output file to the **Zoom integration**/**Analyst**/**input** folder. Confirm that the Input folder also has the Ways of Working Assessment query, Standard meeting query, and the UTC_offset.rds file.
 10. In the **Script** folder, double-click **AnalystActions.bat** to run it. When prompted, point it to **Rscript.exe**, which is usually in **C:/Program Files/R/R-4x-x/bin**.
