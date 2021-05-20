@@ -114,8 +114,8 @@ Now, since they work on separate products, they tend to work with different peop
 
 * [Diverse ties](../use/metric-definitions.md#diverse-ties-define) &ndash; Diverse ties reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection. This metric also takes into account network differences that exist between the two people where both people are investing time. Diverse ties are both directional and asymmetrical. For example, if A has a diverse tie with B if A either collaborates a lot with B or a lot with a network that they have in common with B.
 * [Strong ties](../use/metric-definitions.md#strong-ties-define) &ndash; If two people have many network connections in common, they are considered to have a strong tie. Strong ties typically indicate shared membership in a workgroup or team. Like diverse ties, strong ties are directional. The strength of a person's tie depends on the contribution that the person makes in the relationship with the other person. This query also offers the following metrics that derive from the strong-tie metric:
-   * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties) &ndash; Measure the number of strong ties that both a manager has and that their direct reports have in common with a manager.
-   * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; Measure the number of strong ties that are unique in the manager’s network and subtract from it the number of strong ties of their direct reports.
+   * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
+   * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
 
 ## Frequently asked questions
 
