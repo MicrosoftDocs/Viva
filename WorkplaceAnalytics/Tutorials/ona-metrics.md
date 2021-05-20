@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # ONA metrics
 
-The ONA query types ([ONA person query](ona-person-query.md)) and [ONA person-to-person query](ona-person-to-person-query.md)) use a selection of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups. These connectivity relationships are of two broad types, _influence_ and _ties_. Persons in a company can have varying amounts of influence over their co-workers; because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people and are of two types, _diverse_ and _strong_; identifying these ties can help you determine aspects such as team alignment and potential for the flow of information and ideas.
+The ONA query types ([ONA person query](ona-person-query.md)) and [ONA person-to-person query](ona-person-to-person-query.md)) use a selection of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups. These connectivity relationships are of two broad types, _influence_ and _ties_. Persons in a company can have varying amounts of influence over their coworkers; because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people and are of two types, _diverse_ and _strong_; identifying these ties can help you determine aspects such as team alignment and potential for the flow of information and ideas.
 
 You can find the basic definitions of the connectivity metrics in [Workplace Analytics metrics / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics):
 
@@ -37,12 +37,12 @@ The following sections describe the connectivity metrics in greater detail. They
 
 ## Influence metrics: influence and influence rank
 
-It's frequently necessary to implement changes within organizations, whether this be introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change -- perhaps starting with mass emails -- it's not always the
+It's frequently necessary to implement changes within organizations, whether this means introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change &ndash; perhaps starting with mass emails &ndash; it's not always the
 most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.
 
 Instead, a more successful strategy uses change agents, who are influential, well-connected people in different levels of your company, not just at the top. Beyond an organization's formal hierarchy, informal networks of people can exert influence within those networks and between them. The most influential people have large personal networks with above-average numbers of relationships with their colleagues. This query lets you visualize these relationships through various metrics that reflect influence directly (with *influence* and *influence rank*) and indirectly (with various measures of ties to people outside your team.)
 
-In other words, to help implement change, it pays to know which people have the most ties and the most influence. The Workplace Analytics Organizational network analysis (ONA) queries were designed for this purpose. They can help you find out who the best-connected people are in the company based on their collaboration characteristics.
+In other words, to help implement change, it pays to know which people have the most ties and the most influence. The Workplace Analytics Organizational network analysis (ONA) queries were designed for this purpose. They can help you find the best-connected people in the company based on their collaboration characteristics.
 
 After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can effectively connect within or across groups and become
 efficient drivers of change.
@@ -51,7 +51,7 @@ Also see [How Workplace Analytics calculates influence](#how-workplace-analytics
 
 ### How Workplace Analytics calculates influence
 
-The terminology in the following description comes from graph theory. In graph theory, a "node" (also called a "vertex") is an object that can relate to other nodes -- other objects -- in the graph. This model becomes useful when we extend it to the workplace, where a "node" represents a person who has connections to co-workers and others.
+The terminology in the following description comes from graph theory. In graph theory, a "node" (also called a "vertex") is an object that can relate to other nodes &ndash; other objects &ndash; in the graph. This model becomes useful when we extend it to the workplace, where a "node" represents a person who has connections to coworkers and others.
 
 Influence indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
 
@@ -92,17 +92,17 @@ Another example: A manager's tie to a direct report might be Strong, but not nec
 
 #### Example: strong ties
 
-John and Sally on peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the very frequent nature of their interaction, a Strong tie very likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &mdash; a common network &mdash; which, in turn, strengthens the Strong tie between John and Sally.
+John and Sally on peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
 
-Note that each person's contribution counts. See [Ties are directional](#ties-are-directional).
+Each person's contribution counts. See [Ties are directional](#ties-are-directional).
 
 #### Example: diverse ties
 
 Preeti is a research scientist in an R&D department, and Rahul is a supply-chain logistics manager who works in the shipping department of the same company. They met at a Diversity & Inclusion virtual event at the company a few months ago, and are now connected to each other on LinkedIn. They share no commonality in their job functions and there is limited opportunity for them to interact with each other in small-group settings.
 
-Both Preeti and Rahul have their own connections, and there is no overlap in people across their connections. Due to these circumstances, a Diverse tie very likely exists between them. Recently, Preeti liked an article on climate science on LinkedIn. Since Preeti is in Rahul's LinkedIn network, Rahul got to read this article, which he otherwise might have missed. As shown here, Diverse relationships such as the one between Preeti and Rahul promote sharing of varied and non-typical information.
+Both Preeti and Rahul have their own connections, and there is no overlap in people across their connections. Due to these circumstances, a Diverse tie likely exists between them. Recently, Preeti liked an article on climate science on LinkedIn. Since Preeti is in Rahul's LinkedIn network, Rahul got to read this article, which he otherwise might have missed. As shown here, Diverse relationships such as the one between Preeti and Rahul promote sharing of varied and non-typical information.
 
-Note that each person's contribution counts. See [Ties are directional](#ties-are-directional).
+Each person's contribution counts. See [Ties are directional](#ties-are-directional).
 
 #### Example: strong ties and diverse ties
 
@@ -141,7 +141,7 @@ A3. Strong ties currently does not consider connections that a person has outsid
 
 **Q4. What is the difference between "diverse ties" and "Networking outside organization"?**
 
-A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exists between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their [common network](../use/glossary.md#common-network) has minimal overlap.
+A4. Diverse ties returns the number of diverse or novel connections a person has across the company, based on the time invested by the person with their connection. Diverse ties also looks at network differences that exist between the two people where both people are investing time, enabling other forms of indirect sourcing of novel information. Person A can become a good source of diverse information for Person B if Person A does not spend too much time with Person B or if their [common network](../use/glossary.md#common-network) has minimal overlap.
 
 In contrast, Networking outside organization returns the number of distinct organizations within the company a person has connections to, based on the number of [meaningful interactions](../use/glossary.md#meaningful-interaction-define) the person has with their connection. This metric quantifies connections at the organization attribute level.
 
