@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Videos
 description: Videos about how Workplace Analytics works
 author: paul9955
@@ -13,11 +14,21 @@ audience: Admin
 
 # Workplace Analytics Videos
 
+>[!NOTE]
+>This article currently contains no videos. To find current videos, browse the setup and upload sections, such as the following:
+>* [Assign licenses](../setup/assign-licenses-to-population)
+>* [Assign roles](../setup/assign-roles-to-wpa-admins)
+>* [Prepare organizational data](../setup/prepare-organizational-data)
+>* [Upload organizational data](../setup/upload-organizational-data-1st)
+
+<!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
+
+<!-- REMOVED PER DAYSHA ON 20 MAY 2021 AT THE URGING OF Karlee Scott-Murphey, a GBB for Viva Insights 
 ## Office mechanics
 
 A look at Workplace Analytics and how it works, including how you can correlate Workplace Analytics data with other business information to generate powerful models and best practices to drive positive business outcomes.
-
 > [!VIDEO https://www.youtube.com/embed/xiRb8T4ohFc]
+-->
 
 <!-- REMOVED PER DAYSHA 14 FEB. 2020. 
 ## Macy's uses MyAnalytics to support their Time is Money program
