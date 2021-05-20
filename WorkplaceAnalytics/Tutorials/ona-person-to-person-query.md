@@ -63,7 +63,7 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 
 7. Under **Select metrics**, select **Strong and Diverse tie scores**.
 
-8. Under **Select filters**, select the groups of people for whom you want to see results. This section offers two optional filters, one for selecting "tie-origin" employees, and the other for selecting "tie-destination" employees. For more information, see [Select filters](#select-filters).
+8. Under **Select filters**, select the groups of people for whom you want to see results. This section offers two optional filters, one for selecting "tie-origin" employees, and the other for selecting "tie-destination" employees. <!-- For more information, see [Select filters](#select-filters). REMOVED THAT SECTION 19 MAY 2021 -->
 
 9. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
 
