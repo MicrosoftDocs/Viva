@@ -113,7 +113,7 @@ Ways to support team cohesion:
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 
-For more best practices and how to open your network to your teams, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
+For more best practices and how to open your network to your teams, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
 
 ## Related topics
 
