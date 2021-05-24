@@ -106,6 +106,39 @@ For example, if the people in Marketing communicate frequently with the people i
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
+## Include all licensed employees
+
+It's the admin's responsibility to maintain updated and correct organizational data. For example, admins have both of the following tasks in most organizations:
+
+* Assign Workplace Analytics licenses to people.
+* Upload organizational data. This data should pertain to the very same people who've been assigned licenses.
+
+If Workplace Analytics detects that organizational data is missing for one or more licensed employees, it alerts admins in two ways:
+
+* It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
+
+   ![Admin notification](../images/wpa/setup/admin-page-bell.png)
+
+   To see the notifications, select the bell icon. This opens the **Notifications** pane on the right side of the page:
+
+   ![Admin notification pane](../images/wpa/setup/open-notif.png)
+
+* It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**.
+
+   ![Banner for missing org data](../images/wpa/setup/admin-page-missing-licensed.png)
+
+   To respond to this warning, follow the steps in [Upload missing organizational data](#upload-missing-organizational-data).
+
+### Upload missing organizational data
+
+1. Select **Download**. This downloads a .csv file that contains the names of licensed employees whose organizational data is missing. For example:
+
+   ![Missing org data names](../images/wpa/setup/sample-csv-file.png)
+
+2. Open the .csv file.
+3. Add the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
+4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
+
 ## Get an export of organizational data
 
 Before you format and upload organizational data, you must get it from one or more sources. Your primary source is the team that manages your organization's human resources (HR) information systems. This team will need to provide you with a data export of HR attributes for individual employees.
