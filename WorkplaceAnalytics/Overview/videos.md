@@ -16,36 +16,38 @@ audience: Admin
 
 The Workplace Analytics documentation offers several videos that explain concepts or describe procedural steps. To find the current videos, browse the following sections of the documentation:
 
+## Introduction
+
+* [Navigate Workplace Analytics](../overview/get-started#video-navigate-workplace-analytics)
+
 ## Setup
 
-* [Set up Workplace Analytics](../setup/Set-up-Workplace-Analytics)
-* [Assign licenses](../setup/assign-licenses-to-population)
-* [Assign roles](../setup/assign-roles-to-wpa-admins)
+* [Set up Workplace Analytics](../setup/Set-up-Workplace-Analytics#video-overview-for-admins)
+* [Assign licenses](../setup/assign-licenses-to-population#video-assign-licenses)
+* [Assign roles](../setup/assign-roles-to-wpa-admins#video-assign-roles)
 
 ### Analysis settings
 
-* [Meeting exclusions](../tutorials/meeting-exclusions-intro)
+* [Meeting exclusion rules](../tutorials/meeting-exclusions-intro#video-learn-about-meeting-exclusion-rules)
 
 ### Upload data
 
-* [Prepare organizational data](../setup/prepare-organizational-data)
-* [Upload organizational data](../setup/upload-organizational-data-1st)
+* [Prepare organizational data](../setup/prepare-organizational-data#video-organizational-data-provides-context)
+* [Upload organizational data](../setup/upload-organizational-data-1st#video-upload-organizational-data)
 
+<!-- DELETING THIS FOR NOW. WE'RE ABOUT TO CHANGE THE UI OF THE PRIVACY SETTINGS, SO THIS WILL BE OUT OF DATE.
 ## Data Privacy
-
-* [Privacy settings](../use/privacy-settings)
+* [Privacy settings](../use/privacy-settings#privacy-video) -->
 
 ## Data sources
 
-* [Data analysis](../overview/get-started)
-* [Data sources](../use/data-sourcesv2)
-* [Explore the data](../use/explore-intro)
+* [Data sources](../use/data-sourcesv2#video-learn-about-data-sources)
+* [Explore the stats](../use/explore-intro#video-learn-about-explore-the-stats)
 
-## Queries and plans
+## Queries
 
-* [Query basics](../tutorials/Query-basics)
-* [Plans](../tutorials/solutionsv2-intro)
-
+* [A week in the life / working with person queries](../tutorials/Query-basics#a-week-in-the-life)
+* [Expensive meetings / working with meeting queries](../tutorials/Query-basics#a-week-in-the-life)
 
 <!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
 
