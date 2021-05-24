@@ -97,7 +97,7 @@ The following video describes which attributes are required and optional in your
 
 ### Which employees to include
 
-It's best to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
+At a minimum, include the organizational data for all employees who have Workplace Analytics licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
 
 > [!Important]
 > If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
@@ -108,12 +108,9 @@ If you can't include every person in your organization, the minimum to include i
 
 ## Include all licensed employees
 
-It's the admin's responsibility to maintain updated and correct organizational data. For example, admins have both of the following tasks in most organizations:
+It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the right people and include the right attributes for those people.
 
-* [Assign Workplace Analytics licenses](assign-licenses-to-population.md) to people.
-* Upload organizational data. This data should pertain to the very same people who've been assigned licenses.
-
-If Workplace Analytics detects that organizational data is missing for one or more licensed employees, it alerts admins in two ways:
+Including the right people means, at a minimum, uploading organizational data for all licensed employees. If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
 * It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
 
