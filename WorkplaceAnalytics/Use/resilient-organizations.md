@@ -126,7 +126,7 @@ According to the [Rebuilding companies as communities](https://insights.office.c
 * In MyAnalytics, add colleagues to your [important people list](../myanalytics/use/use-the-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
 
-For more best practices, see [Best practices for manager connectedness](../tutorials/gm-connectedness.md).
+For more best practices, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
 
 ## Related topics
 
