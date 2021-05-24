@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Videos
 description: Videos about how Workplace Analytics works
 author: paul9955
@@ -13,11 +14,49 @@ audience: Admin
 
 # Workplace Analytics Videos
 
+The Workplace Analytics documentation offers several videos that explain concepts or describe procedural steps. To find the current videos, browse the following sections of the documentation:
+
+## Introduction
+
+* [Navigate Workplace Analytics](../overview/get-started.md#video-navigate-workplace-analytics)
+
+## Setup
+
+* [Set up Workplace Analytics / Overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
+* [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
+* [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)
+
+### Analysis settings
+
+* [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md#video-learn-about-meeting-exclusion-rules)
+
+### Upload data
+
+* [Prepare organizational data](../setup/prepare-organizational-data.md#video-organizational-data-provides-context)
+* [Upload organizational data](../setup/upload-organizational-data-1st.md#video-upload-organizational-data)
+
+<!-- DELETING THIS FOR NOW. WE'RE ABOUT TO CHANGE THE UI OF THE PRIVACY SETTINGS, SO THIS WILL BE OUT OF DATE.
+## Data Privacy
+* [Privacy settings](../use/privacy-settings.md#privacy-video) -->
+
+## Data sources
+
+* [Data sources](../use/data-sourcesv2.md#video-learn-about-data-sources)
+* [Explore the stats](../use/explore-intro.md#video-learn-about-explore-the-stats)
+
+## Queries
+
+* [A week in the life / Person queries](../tutorials/Query-basics.md#a-week-in-the-life)
+* [Expensive meetings / Meeting queries](../tutorials/Query-basics.md#a-week-in-the-life)
+
+<!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
+
+<!-- REMOVED PER DAYSHA ON 20 MAY 2021 AT THE URGING OF Karlee Scott-Murphey, a GBB for Viva Insights 
 ## Office mechanics
 
 A look at Workplace Analytics and how it works, including how you can correlate Workplace Analytics data with other business information to generate powerful models and best practices to drive positive business outcomes.
-
 > [!VIDEO https://www.youtube.com/embed/xiRb8T4ohFc]
+-->
 
 <!-- REMOVED PER DAYSHA 14 FEB. 2020. 
 ## Macy's uses MyAnalytics to support their Time is Money program
