@@ -18,36 +18,36 @@ The Workplace Analytics documentation offers several videos that explain concept
 
 ## Introduction
 
-* [Navigate Workplace Analytics](../overview/get-started#video-navigate-workplace-analytics)
+* [Navigate Workplace Analytics](../overview/get-started.md#video-navigate-workplace-analytics)
 
 ## Setup
 
-* [Set up Workplace Analytics / Overview for admins](../setup/Set-up-Workplace-Analytics#video-overview-for-admins)
-* [Assign licenses](../setup/assign-licenses-to-population#video-assign-licenses)
-* [Assign roles](../setup/assign-roles-to-wpa-admins#video-assign-roles)
+* [Set up Workplace Analytics / Overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
+* [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
+* [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)
 
 ### Analysis settings
 
-* [Meeting exclusion rules](../tutorials/meeting-exclusions-intro#video-learn-about-meeting-exclusion-rules)
+* [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md#video-learn-about-meeting-exclusion-rules)
 
 ### Upload data
 
-* [Prepare organizational data](../setup/prepare-organizational-data#video-organizational-data-provides-context)
-* [Upload organizational data](../setup/upload-organizational-data-1st#video-upload-organizational-data)
+* [Prepare organizational data](../setup/prepare-organizational-data.md#video-organizational-data-provides-context)
+* [Upload organizational data](../setup/upload-organizational-data-1st.md#video-upload-organizational-data)
 
 <!-- DELETING THIS FOR NOW. WE'RE ABOUT TO CHANGE THE UI OF THE PRIVACY SETTINGS, SO THIS WILL BE OUT OF DATE.
 ## Data Privacy
-* [Privacy settings](../use/privacy-settings#privacy-video) -->
+* [Privacy settings](../use/privacy-settings.md#privacy-video) -->
 
 ## Data sources
 
-* [Data sources](../use/data-sourcesv2#video-learn-about-data-sources)
-* [Explore the stats](../use/explore-intro#video-learn-about-explore-the-stats)
+* [Data sources](../use/data-sourcesv2.md#video-learn-about-data-sources)
+* [Explore the stats](../use/explore-intro.md#video-learn-about-explore-the-stats)
 
 ## Queries
 
-* [A week in the life / Person queries](../tutorials/Query-basics#a-week-in-the-life)
-* [Expensive meetings / Meeting queries](../tutorials/Query-basics#a-week-in-the-life)
+* [A week in the life / Person queries](../tutorials/Query-basics.md#a-week-in-the-life)
+* [Expensive meetings / Meeting queries](../tutorials/Query-basics.md#a-week-in-the-life)
 
 <!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
 
