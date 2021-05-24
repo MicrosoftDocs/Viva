@@ -22,7 +22,7 @@ The Workplace Analytics documentation offers several videos that explain concept
 
 ## Setup
 
-* [Set up Workplace Analytics](../setup/Set-up-Workplace-Analytics#video-overview-for-admins)
+* [Set up Workplace Analytics / Overview for admins](../setup/Set-up-Workplace-Analytics#video-overview-for-admins)
 * [Assign licenses](../setup/assign-licenses-to-population#video-assign-licenses)
 * [Assign roles](../setup/assign-roles-to-wpa-admins#video-assign-roles)
 
@@ -46,8 +46,8 @@ The Workplace Analytics documentation offers several videos that explain concept
 
 ## Queries
 
-* [A week in the life / working with person queries](../tutorials/Query-basics#a-week-in-the-life)
-* [Expensive meetings / working with meeting queries](../tutorials/Query-basics#a-week-in-the-life)
+* [A week in the life / Person queries](../tutorials/Query-basics#a-week-in-the-life)
+* [Expensive meetings / Meeting queries](../tutorials/Query-basics#a-week-in-the-life)
 
 <!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
 
