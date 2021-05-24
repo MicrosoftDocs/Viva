@@ -112,15 +112,15 @@ It's the admin's responsibility to maintain up-to-date and complete organization
 
 Including the right people means, at a minimum, uploading organizational data for all licensed employees. If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
-* It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
+* <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
 
    ![Admin notification](../images/wpa/setup/admin-page-bell.png)
 
-   To see the notifications, select the bell icon. This opens the **Notifications** pane on the right side of the page:
+   To see your notifications, select the bell icon. This opens the **Notifications** pane on the right side of the page:
 
    ![Admin notification pane](../images/wpa/setup/open-notif.png)
 
-* It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**.
+* <u>Banner</u> &ndash; It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
 
    ![Banner for missing org data](../images/wpa/setup/admin-page-missing-licensed.png)
 
