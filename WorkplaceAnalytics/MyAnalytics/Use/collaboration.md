@@ -60,7 +60,7 @@ The insights are based on your recent collaboration activity at work. Select **V
 
 ## About the metrics
 
-This section describes the metrics that the Collaboration page shows and how MyAnalytics calculates them.
+This section describes the metrics that the Collaboration page shows. It also describes how those metrics are calculated by MyAnalytics.
 
 ### Meetings
 
