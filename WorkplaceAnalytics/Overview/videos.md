@@ -14,12 +14,38 @@ audience: Admin
 
 # Workplace Analytics Videos
 
->[!NOTE]
->This article currently contains no videos. To find current videos, browse the setup and upload sections, such as the following:
->* [Assign licenses](../setup/assign-licenses-to-population)
->* [Assign roles](../setup/assign-roles-to-wpa-admins)
->* [Prepare organizational data](../setup/prepare-organizational-data)
->* [Upload organizational data](../setup/upload-organizational-data-1st)
+The Workplace Analytics documentation offers several videos that explain concepts or describe procedural steps. To find the current videos, browse the following sections of the documentation:
+
+## Setup
+
+* [Set up Workplace Analytics](../setup/Set-up-Workplace-Analytics)
+* [Assign licenses](../setup/assign-licenses-to-population)
+* [Assign roles](../setup/assign-roles-to-wpa-admins)
+
+### Analysis settings
+
+* [Meeting exclusions](../tutorials/meeting-exclusions-intro)
+
+### Upload data
+
+* [Prepare organizational data](../setup/prepare-organizational-data)
+* [Upload organizational data](../setup/upload-organizational-data-1st)
+
+## Data Privacy
+
+* [Privacy settings](../use/privacy-settings)
+
+## Data sources
+
+* [Data analysis](../overview/get-started)
+* [Data sources](../use/data-sourcesv2)
+* [Explore the data](../use/explore-intro)
+
+## Queries and plans
+
+* [Query basics](../tutorials/Query-basics)
+* [Plans](../tutorials/solutionsv2-intro)
+
 
 <!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
 
