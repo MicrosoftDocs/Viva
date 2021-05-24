@@ -101,7 +101,7 @@ The tool combines the data in these files to generate a table that shows where t
     ![File Validations notebook example](./images/wsp-file-validation.png)
 
 17. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a red X, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat **Step 6** to validate the file again.
-18. After all files are successfully validated, select one of the following input scenarios that the tool should use for seating teams in zones. These scenarios are based on the interactions file query data.
+18. After all files are successfully validated, select one of the following input scenarios that the tool should use to aggregate the final output for your interaction file. These scenarios are based on the interactions file query data.
 
     * **Latest dates** - Groups the teams based on the most recent collaboration activity between teams.
     * **Average collaboration** - Groups teams based on the weekly averages of collaboration hours spent between the different teams.
