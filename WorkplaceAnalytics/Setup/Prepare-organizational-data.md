@@ -110,7 +110,7 @@ If you can't include every person in your organization, the minimum to include i
 
 It's the admin's responsibility to maintain updated and correct organizational data. For example, admins have both of the following tasks in most organizations:
 
-* Assign Workplace Analytics licenses to people.
+* [Assign Workplace Analytics licenses](assign-licenses-to-population.md) to people.
 * Upload organizational data. This data should pertain to the very same people who've been assigned licenses.
 
 If Workplace Analytics detects that organizational data is missing for one or more licensed employees, it alerts admins in two ways:
