@@ -69,7 +69,7 @@ A2. Workplace Analytics is not available in data cloud environments that Microso
 
 ##### Q1. Can I use Workplace Analytics in a language other than English?
 
-A1. Yes. See [Workplace Analytics language support and guidelines](../overview/supported-languages).
+A1. Yes. See [Workplace Analytics language support and guidelines](../overview/supported-languages.md).
 
 ##### Q2. Can I upload an organizational data file that has non-English words or letters?
 
