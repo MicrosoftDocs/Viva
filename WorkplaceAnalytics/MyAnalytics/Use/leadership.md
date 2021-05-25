@@ -15,13 +15,13 @@ audience: Admin
 
 _**Applies to:** The Leadership page is currently in preview status. It is in the process of rolling out to all MyAnalytics users who are assigned as people managers in Azure AD<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics*-->._
 
-If you're a people manager, the MyAnalytics Leadership page gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement. 
+If you're a people manager, the Leadership page on the [MyAnalytics dashboard](dashboard-2.md) gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement.
 
 ### Who can see this page 
 
-You have access to this page only if you have team members assigned to you in Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics*-->. Contact your Microsoft 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics. 
+You have access to this page only if you have team members assigned to you in Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics*-->. Contact your Microsoft 365 administrator if you are a people manager but do not see the Leadership page in MyAnalytics.
 
-### A note on data privacy 
+### A note on data privacy
 
 All of the information shown on this page is derived from the manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track a given team members' activities. For example: a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened that email. More information is available in the MyAnalytics [Privacy guide for admins](../overview/privacy-guide.md#assistance-for-people-managers). 
 
