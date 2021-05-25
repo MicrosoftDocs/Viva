@@ -24,7 +24,7 @@ The following new template features, enhancements, and changes are included in t
 
 ### Workspace planning tool
 
-A new Workspace planning open-source tool that uses R is now available. It can help you identify and seat teams together in a workspace that maximizes and fosters cross-team productivity and collaboration. You can use it to generate floor plans quickly and objectively, in a data-driven way that optimizes employee collaboration by seating teams together.
+A new Workspace planning open-source tool is now available. It can help you identify and seat teams together in a workspace that maximizes and fosters cross-team productivity and collaboration. You can use it to generate floor plans quickly and objectively, in a data-driven way that optimizes employee collaboration by seating teams together.
 
 To learn more, see [Workspace planning tool](./wsplan-intro.md).
 ### Organizational Network Analysis (ONA)
