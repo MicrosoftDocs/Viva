@@ -21,6 +21,12 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 ## May 2021
 
 The following new template features, enhancements, and changes are included in this month's release.
+
+### Workspace planning tool
+
+A new Workspace planning open-source tool that uses R is now available. It can help you identify and seat teams together in a workspace that maximizes and fosters cross-team productivity and collaboration. You can use it to generate floor plans quickly and objectively, in a data-driven way that optimizes employee collaboration by seating teams together.
+
+To learn more, see [Workspace planning tool](./wsplan-intro.md).
 ### Organizational Network Analysis (ONA)
 
 **Insights** is a new ONA Template option that uses a simplified set of settings to quickly surface insights about within-group and cross-group collaboration trends for your organization.

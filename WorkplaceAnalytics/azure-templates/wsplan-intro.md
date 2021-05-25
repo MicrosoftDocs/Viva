@@ -38,12 +38,12 @@ Before you can use the tool, confirm the following required prerequisites are me
 
 ## File prep
 
-Save the following files to a **master folder**. You'll use this master folder to create a copy of for each workspace project.
+Save the following files to a **master folder**, which are located in the [Workspace Planning Tool repository](https://github.com/microsoft/Workspace-Planning-Tool). If you’re new to GitHub, you’ll need to register and sign in before you can access this repository. See [GitHub Getting started](https://docs.github.com/github/getting-started-with-github) for details.  You'll use this master folder to create a copy of for each workspace project.
 
 * **Distance Helper notebook** - Creates a distance file between specified zones or neighborhoods. This uses the following input files to help you define the walking distances in a unit you specify, such as estimated minutes or meters between floors or buildings.
 * **File Validations notebook** - Validates all the input files, including the distance file that's created from the Distance helper notebook.
 * **Generate Floorplan notebook** - Creates a floor plan from the validated input files and reruns the algorithm on the floor plan.
-* **Requirements text file** - Documentation required for the tool.
+* **Requirements text file** - Includes the list of Python packages needed to run the notebooks.
 
 ### Input files
 
@@ -144,4 +144,5 @@ The following shows an example floor plan where the Product team has 64 people a
 
 ## Related topics
 
+* [Workspace Planning Tool Readme](https://github.com/microsoft/Workspace-Planning-Tool/blob/main/README.md)
 * [Workspace Planning Azure Template](space-planning.md)
