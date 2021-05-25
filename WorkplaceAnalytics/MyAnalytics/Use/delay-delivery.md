@@ -12,7 +12,7 @@ audience: Admin
 
 # Delay delivery plan
 
-When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours.
+When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 [Office 365] groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
