@@ -82,8 +82,7 @@ The following meeting-habit metrics are included on the Collaboration page. You 
 
 The following meeting types are excluded from meeting metrics:
 
-* Meetings whose length is equal to or greater than 24 hours
-* All-day meetings
+* Meetings whose length is equal to or greater than 24 hours; that is, all-day meetings
 * Meetings that are marked as **Private**
 * Meetings with no other participants than yourself, for example when you block focus time in your calendar or set reminders
 * Meetings for which **Show As** is set to any of the following values:
