@@ -115,7 +115,7 @@ The tool combines the data in these files to generate a table that shows where t
     * **Standard** - Select to create a new floor plan that's based on the validated files in the **Final Files set** folder. In **New results name**, enter a file name for it, and select **Go**.
     * **Fixed spaces** - If you want to change an existing (standard) floor plan, do the following:
 
-      * Edit the floor plan's .csv file that was saved in **app_results**. When editing an existing floor plan, you must stay within the constraints set in the validated space_capacity.csv and team_size.csv files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints.
+      * Edit the floor plan's .xlsx file that was saved in **app_results**. After editing it, you must save the floor plan as a .csv file. When editing an existing floor plan, you must stay within the constraints set in the validated space_capacity.csv and team_size.csv files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints.
       * After you save the new changes to the floor plan file, select **Fixed**, and then select the updated floor plan file. For example, the following graphic shows a standard floor plan where **Engineering** and **Marketing** are assigned to multiple locations.
 
      ![Standard floor plan example](./images/standard-floorplan.png)
