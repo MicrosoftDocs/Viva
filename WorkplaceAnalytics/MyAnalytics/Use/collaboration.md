@@ -14,7 +14,7 @@ audience: Admin
 
 # Collaboration
 
-Collaboration in MyAnalytics helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
+The Collaboration page on the [MyAnalytics dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
   ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
 
@@ -60,13 +60,15 @@ The insights are based on your recent collaboration activity at work. Select **V
 
 ## About the metrics
 
+This section describes the metrics that the Collaboration page shows. It also describes how those metrics are calculated by MyAnalytics.
+
 ### Meetings
 
 Meeting metrics include any meetings that you organized or accepted to attend that have at least one other person attending. Meeting time includes meetings that take place during and outside of your set working hours. After-hours meeting time also affects your [Wellbeing metrics](../use/wellbeing.md#about-the-metrics).
 
 #### Meeting habit metrics
 
-The following meeting habit metrics are included on the Collaboration page. You can select the question mark icon next to **Meeting habits** to see similar details about them.
+The following meeting-habit metrics are included on the Collaboration page. You can select the question mark icon next to **Meeting habits** to see similar details about them.
 
 * **High attendance** includes meetings you organized or accepted that had greater than a 50 percent response rate.
 * **Invitations sent with a days' notice** includes meetings where you sent invitations with more than 24 hours notice before the meeting's scheduled start time.
@@ -80,9 +82,9 @@ The following meeting habit metrics are included on the Collaboration page. You 
 
 The following meeting types are excluded from meeting metrics:
 
-* Meetings that last eight or more hours, such as all-day meetings.
-* Meetings that are marked as **Private**.
-* Meetings with no other participants than yourself, for example when you block focus time in your calendar or set reminders.
+* Meetings whose length is equal to or greater than 24 hours; that is, all-day meetings
+* Meetings that are marked as **Private**
+* Meetings with no other participants than yourself, for example when you block focus time in your calendar or set reminders
 * Meetings for which **Show As** is set to any of the following values:
 
   * Free
