@@ -19,7 +19,7 @@ audience: Admin
 
 ## Access to Week in the life
 
-You can open [Week in the life](https://workplaceanalytics.office.com/Home/Innovation/WeekintheLife) to view it in Workplace Analytics.
+You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home/Innovation/WeekintheLife) to view it in Workplace Analytics.
 
 ## All collaboration hours
 

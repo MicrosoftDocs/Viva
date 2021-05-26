@@ -1,6 +1,6 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-title: Analyze business processes 
+
+title: Business process analysis in Workplace Analytics 
 description: Analyze business processes -- Introduction and walkthrough   
 author: paul9955
 ms.author: v-pausch
@@ -11,15 +11,15 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Analyze business processes
+# Business process analysis
 
 When you and your co-workers perform an organized series of steps to reach a goal, you've participated in a business process. For example, your organization's hiring process might consist of obtaining leads, screening candidates, conducting interviews, making an offer, and sending new hires to HR for onboarding. Later business processes might have goals of training or coaching.
 
 You can improve your business processes by analyzing them; for example, by measuring their cost in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees have been participating in them.
 
-To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- *** CALL THESE NEW FILTERS OUT IN THAT TOPIC *** -->
+To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
 
-Here are the procedures to follow to analyze a business process:
+Use the following procedures to analyze a business process:
 
 1. [Define a data set](#define-a-data-set) &ndash; Make sure that you're analyzing only data that is relevant in every aspect, such as organizationally and geographically.
 
@@ -33,8 +33,8 @@ This illustration shows these procedures and the types of data that they involve
 
 The following sections describe these procedures.
 
-> [!Note]
-> After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
+>[!Note]
+>After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
 
 ## Define a data set
 
@@ -48,7 +48,7 @@ To define a data set, use the following procedure:
 
 **Role:** Analyst
 
-Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process). 
+Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process).
 
 In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
 
