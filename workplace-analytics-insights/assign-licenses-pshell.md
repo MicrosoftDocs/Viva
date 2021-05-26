@@ -131,8 +131,7 @@ The Insights bulk license script uses the Azure AD PowerShell module to make the
    ```
 
 > [!Note]
-> If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these, see
-[Connect to Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+> If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these, see [Connect to Microsoft 365 PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
 ### Input requirements
 
