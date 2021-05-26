@@ -143,8 +143,8 @@
           items:
             - name: Peer analysis
               href: ~/use/peer-analysis.md
-#           - name: Analyze business processes
-#             href: ~/tutorials/analyze-business-processes.md              
+            - name: Business process analysis
+              href: ~/tutorials/analyze-business-processes.md              
             - name: Queries
               items:
                 - name: Overview
@@ -170,6 +170,8 @@
                       href: ~/tutorials/ona-person-query.md
                     - name: ONA person-to-person queries
                       href: ~/tutorials/ona-person-to-person-query.md
+                    - name: ONA metrics
+                      href: ~/tutorials/ona-metrics.md
                 - name: Power BI templates
                   items:
                     - name: Introduction
@@ -178,14 +180,6 @@
                       href: ~/tutorials/power-bi-glint.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
-                    - name: Collaboration overload
-                      href: ~/tutorials/power-bi-collab-overload.md
-                    - name: Influence insights
-                      href: ~/tutorials/pbi-influence-db.md
-                    - name: Manager impact
-                      href: ~/tutorials/power-bi-manager-impact.md
-                    - name: Quickstart overview
-                      href: ~/tutorials/power-bi-quickstart.md
                     - name: Return to worksites
                       href: ~/tutorials/power-bi-return-tw.md
                     - name: Sales business continuity
@@ -307,7 +301,7 @@
               href: MyAnalytics/use/email-digest-2.md
         - name: Inline suggestions
           href: MyAnalytics/Use/mya-notifications.md
-        - name: Delay delivery
+        - name: Delay delivery plan
           href: MyAnalytics/use/delay-delivery.md
         - name: Focus plan
           href: MyAnalytics/use/focus-plan.md

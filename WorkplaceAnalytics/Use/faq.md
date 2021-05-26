@@ -67,19 +67,23 @@ A2. Workplace Analytics is not available in data cloud environments that Microso
 
 ### Language support
 
-##### Q1. Can I upload an organizational data file that has non-English words or letters?
+##### Q1. Can I use Workplace Analytics in a language other than English?
 
-A1. Yes. The organizational data file can have non-English words or letters. Note the following: 
-   
- * File names and individual rows can have non-English words or letters.
- * Each column header must be mapped to an attribute with an English name.
+A1. Yes. See [Workplace Analytics language support and guidelines](../overview/supported-languages.md).
 
-##### Q2. Can I construct a query with filters and/or meeting subject lines that contain non-English words or letters?
+##### Q2. Can I upload an organizational data file that has non-English words or letters?
 
-A2. Yes. You can use filters in queries that include the following:
+A2. Yes. The organizational data file can have non-English words or letters. Note the following: 
+  
+* File names and individual rows can have non-English words or letters.
+* Each column header must be mapped to an attribute with an English name.
 
- * Attributes or values from your organizational data that include non-English words or characters.
- * Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
+##### Q3. Can I construct a query with filters and/or meeting subject lines that contain non-English words or letters?
+
+A3. Yes. You can use filters in queries that include the following:
+
+* Attributes or values from your organizational data that include non-English words or characters.
+* Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
 
 For more information, see [Customize a base metric in a query](../tutorials/customize-a-metric.md).
 
@@ -369,7 +373,7 @@ A19. Yes. You can specify domains or email addresses to exclude by using the Pri
 
 ##### Q2. In what format do I save the data-upload file? 
 
-A2. Before you upload the data file, save it as a UTF-8 encoded .csv file in Excel. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/en-us/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
+A2. Before you upload the data file, save it as a UTF-8 encoded .csv file in Excel. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
 
 ![CSV UTF-8 file](../Images/WpA/Use/csv-utf-8.png)
 

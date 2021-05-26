@@ -56,6 +56,12 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 When the dashboard is populated with your data, you can use it to visualize, explore, and report about your manager's workplace patterns and trends.
 
+## Demonstration
+
+The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZmVmZmQ3NjMtOGRmYS00ZWE3LTliNjYtZDU1NDg1OTQxYmIwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Prerequisites
 
 Before you can run the query and populate the dashboard in Power BI, you must:
@@ -64,6 +70,9 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
+
+>[!Note]
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Manager effectiveness** (or select **influence insights by month**, per **Step 8**) to open the predefined query, which contains the required metrics to populate the dashboard.

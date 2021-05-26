@@ -17,11 +17,11 @@ audience: Admin
 
 # Workspace Planning Azure Template for Workplace Analytics
 
-_These templates are only available as part of a Microsoft service engagement._
+_This template is only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates include the Workspace Planning template that provides a quantitative solution to optimize the seat locations of teams based on their collaboration with the teams around them. This planning can help maximize and foster physical workspace for teams and for cross-team productivity and collaboration.
 
-The template combines Workplace Analytics data with your team size, workspace capacity, and the distances between seating areas to generate an optimized floor plans.
+The template combines Workplace Analytics data with your team size, workspace capacity, and the distances between seating areas to generate optimized floor plans.
 
 ## Use cases
 
@@ -88,12 +88,12 @@ This template combines the data in these files and generates a table that shows 
 
 ## Create a Space capacity file
 
-### Key term
+#### Key term
 
 **Total_Capacity** is the total number of individual desks and office seats that are available within a specified workspace.
 
-> [!Note]
-> Only include workspaces that you want to account for or utilize.
+>[!Note]
+>Only include workspaces that you want to account for or utilize.
 
 1. Open and save the [space_capacity.csv](/Workplace-Analytics/azure-templates/images/space_capacity.csv) file to local storage. The file must be named **space_capacity.csv** (match exactly).
 2. In the **Floor** (first) column in the file, replace the example floor names with your own that match the same format of [**Building name**-**Floor number**], as shown in the following graphic.
@@ -108,16 +108,15 @@ This template combines the data in these files and generates a table that shows 
 
 ## Create a Distance file
 
-> [!Note]
-> * Distances between buildings, floors, or zones within a floor must be defined. Any single unit, such as meters, feet, seconds, or minutes, can be used if it is used consistently. **Estimates of distances are acceptable**.
-> * For distances between floors directly above and below each other, use a default value of 15.
-> * Start your distance measurements by walking at a normal pace across the furthest distance of teams on a single floor. This will be used as the benchmark distances of all teams throughout the campus. Consider asking your customer support advisor for guidance on how to efficiently generate this file.
-
-### About floor distance
-
 The following graphic depicts a building with four floors. The distance between each parallel floor needs to be the same consistent value. You can use the default value of 15 for parallel floors, which is a good estimate of how long it takes to get from one floor to the next in the same building.
 
    ![Floor distance explained](./images/wsp-distance-estimate.png)
+
+>[!Notes]
+>
+>* You must define the distances between buildings, floors, or zones within a floor. You can use any single unit, such as meters, feet, seconds, or minutes, if you use it consistently. **Estimates of distances are acceptable**.
+>* For distances between floors directly above and below each other, use a default value of 15.
+>* Start your distance measurements by walking at a normal pace across the furthest distance of teams on a single floor. This will be used as the benchmark distance of all teams throughout the campus. Consider asking your customer support advisor for guidance on how to efficiently generate this file.
 
 ### To create a Distance file
 
@@ -130,10 +129,10 @@ The following graphic depicts a building with four floors. The distance between 
 
 ## Create a Team size file
 
-> [!Note]
-> Employees can only be included in one team.
+>[!Note]
+>Employees can only be included in one team.
 
-### Key terms
+#### Key terms
 
 * **Team** is the name of the team or group that is being moved, which should match the names of the teams within the Interaction file.
 * **Actual Size** is the total number of people that are a part of the team to account for during the move.
@@ -249,8 +248,8 @@ After generating an optimized floor plan, you can reassign head count and move t
 3. Enter a unique floor plan name, and then select **Assign Remaining Head Count** again. Your new floor plan will show as loading in the same project folder as your original floor plan.
 4. After this new version shows a **Status** of a **green check mark**, you can select the floor plan to open, review, make changes, and download it.
 
-> [!Note]
-> The more teams you assign to fixed locations, the less optimized the floor plan will be.
+>[!Note]
+>The more teams you assign to fixed locations, the less optimized the floor plan will be.
 
 ## View project and floor plan details
 
