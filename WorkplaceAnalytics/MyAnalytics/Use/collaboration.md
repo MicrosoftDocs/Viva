@@ -83,7 +83,7 @@ The following meeting-habit metrics are included on the Collaboration page. You 
 The following meeting types are excluded from meeting metrics:
 
 * Meetings whose length is equal to or greater than 24 hours. Notably, this also excludes **All day** meetings:
-![MyAnalytics Communication habits](../../Images/mya/use/all-day-mtg.png)
+![All-day meeting checkbox](../../Images/mya/use/all-day-mtg.png)
 
 * Meetings that are marked as **Private**
 
