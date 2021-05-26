@@ -35,6 +35,7 @@ Before you can use the tool, confirm the following required prerequisites are me
 * **Anaconda** - Use to install and manage the following required versions of Python and Jupyter Notebook. See [Anaconda](https://www.anaconda.com/products/individual#windows) to install it. During the installation, select to **Register Anaconda as your default for Python**.
 * **Python** - Latest available or version 3.3 or later is required.
 * **Jupyter Notebook** - An open-source application that's required to run the Workspace planning tool.
+* **Workplace Analytics** - Have [the app set up](../setup/set-up-workplace-analytics.md) with an analyst role to create the query data for the interaction file.
 
 ## File prep
 
