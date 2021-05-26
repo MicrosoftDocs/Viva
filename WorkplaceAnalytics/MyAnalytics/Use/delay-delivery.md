@@ -12,11 +12,13 @@ audience: Admin
 
 # Delay delivery plan
 
-When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours.
+_**Applies to:** The Delay delivery plan is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan)._
+
+When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
-You can opt in to the Delay delivery plan through MyAnalytics or the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers. The Delay delivery plan is currently available to Microsoft 365 or Office 365 E5 users within the Outlook desktop app for Windows. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
+You can opt in to the Delay delivery plan through MyAnalytics or the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers. The Delay delivery plan is currently available to [Microsoft 365 or Office 365 E5 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) within the Outlook desktop app for Windows. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
 <!-- CHANGE THIS SECOND-TO=LAST LAST SENTENCE TO THE FOLLOWING DURING H2 OF 2021. CONTACT TRACY ZHANG AND WENDY GUO TO CONFIRM. Delay delivery is currently available to Microsoft 365 or Office 365 E5, E3, and E1 users within the Outlook desktop app for Windows. -->
 
