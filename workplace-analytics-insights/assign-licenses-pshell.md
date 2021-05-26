@@ -18,7 +18,10 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-You must be able to sign in as a global admin to Azure Active Directory (Azure AD) to assign licenses with PowerShell to one or more users who subscribe to a Microsoft or Microsoft 365 E5 or E3 plan whose [geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability).
+You can assign licenses to people in your organization who subscribe to a Microsoft 365 or Office 365 E5 or E3 plan. To assign licenses with PowerShell, you first need to sign in as a global admin to Azure Active Directory (Azure AD).
+
+<!-- KEEPING ORIGINAL TEXT IN CASE WE NEED IT AGAIN (BECAUSE OF SWEDEN) AT END OF 2021: 
+You must be able to sign in as a global admin to Azure Active Directory (Azure AD) to assign licenses with PowerShell to one or more users who subscribe to a Microsoft or Microsoft 365 E5 or E3 plan whose [Microsoft 365 datacenter geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability). -->
 
 Alternatively, you can [use the Microsoft admin center or Azure AD to assign licenses](assign-licenses.md).
 
@@ -128,8 +131,7 @@ The Insights bulk license script uses the Azure AD PowerShell module to make the
    ```
 
 > [!Note]
-> If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these, see
-[Connect to Microsoft 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+> If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these, see [Connect to Microsoft 365 PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
 ### Input requirements
 
