@@ -182,4 +182,4 @@ After you have finished creating visuals, you can publish your reports to Power 
 * [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 * [User roles in Workplace Analytics](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
-* [Supported languages and guidelines](../overview/supported-languages.md?branch=pas-pd-other-char-sets)
+* [Supported languages and guidelines](../overview/supported-languages.md)
