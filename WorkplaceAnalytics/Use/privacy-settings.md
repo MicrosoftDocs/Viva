@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Privacy settings
+# Privacy settings / Exclusions
 
 As the Workplace Analytics Admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
 
@@ -34,9 +34,9 @@ Admins make privacy settings on the **Exclusions** section of the **System defau
 <!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
 
 > [!IMPORTANT]
-> You do not need to make privacy settings (the settings that you find under **Exclusions**) while onboarding your organization. You _must_ complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them later.
+> You do not need to make privacy settings (the settings that you find under **Exclusions**) while onboarding your organization. You must complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them later. (To indicate that you have completed the **System defaults** settings, select **Next** on that page.)
 
-After you change privacy settings, your changes take effect after Microsoft 365 data is processed in the following week. This means that these changes do not affect data that has already been extracted and processed. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
+If you do change privacy settings, your changes take effect after Microsoft 365 data is processed in the following week. This means that these changes do not affect data that has already been extracted and processed. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
 
 ## Privacy video
 
