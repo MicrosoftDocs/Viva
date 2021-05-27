@@ -20,8 +20,7 @@ When you're ready to roll out the Manager insights to your organization, do the 
 
 * **Set up a communications channel** - Set up a communications channel with your managers to evangelize the tool and answer any questions that they might have. Consider using Teams, Yammer, or an email distribution group. You can discuss strategic priorities for the organization, such as 1:1 coaching, meeting reductions, or Teams adoption.
 
-<!-->
-For comprehensive guidance on how to formally roll out Manager insights to your team, see the [Workplace Analytics Manager insights rollout guide](./manager-insights-rollout.pptx).-->
+<!--For comprehensive guidance on how to formally roll out Manager insights to your team, see the [Workplace Analytics Manager insights rollout guide](./manager-insights-rollout.pptx).-->
 
 ## Downloadable resources
 
