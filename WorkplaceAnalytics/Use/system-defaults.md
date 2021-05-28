@@ -92,6 +92,25 @@ For example, the columns on the left in the following graphic shows chart data f
 >[!Note]
 >The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
 
+### Histogram charts are an exception
+
+For histogram charts, the minimum-group-size rule is applied differently, in the following ways:
+
+1. If the filter group is too small, no histogram appears.
+
+   If the filter group that the histogram uses for its data is below the minimum group size, Workplace Analytics does not display the histogram at all.
+
+2. If the bin population is too small, the bin still appears.
+
+   In histograms, the x-axis consists of bins (rectangles) that are based on average metric values, and the y-axis determines the number of people whose average metric value puts them in that bin. *These values do not reflect organizational (HR) data.* So the histogram can still show data for a bin even if it contains fewer people than the minimum-group setting. Histogram charts can safely show this data because the data is based on calculations from observed behavior, *not from HR data*.
+
+   Even if a histogram bin has data for only one person, it can still show that data. You cannot single out the person because you don't know which HR group they belong to. (In other charts, such as column charts, a person in a group below the threshold might be identifiable, but in a histogram the HR group to which people belong is the larger filter group.) You also cannot determine the precise metric value of specific people because they are in a bin with a minimum 0.5-hour range.
+  
+   You can see histogram charts in the following areas of Workplace Analytics:
+
+   * In [Management and coaching](../use/explore-metrics-management-and-coaching.md)
+   * In [Plans](../Tutorials/solutionsv2-intro.md), on the **Identify** and **Track** pages
+
 <!-- REMOVING THIS SECTION FOR NOW. IT'S GONE FROM BOTH THE SPEC AND FROM FIGMA (MAY 2021)
 
 ## Reclassify external domains
