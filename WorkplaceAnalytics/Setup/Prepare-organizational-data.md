@@ -110,7 +110,7 @@ If you can't include every person in your organization, the minimum to include i
 
 It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the [right people](#which-employees-to-include) and include the [right attributes](#know-what-data-to-include) for those people.
 
-The reason for including all employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
 
 If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
