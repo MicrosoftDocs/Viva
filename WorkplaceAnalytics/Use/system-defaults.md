@@ -22,7 +22,6 @@ In **System defaults**, you can configure the following:
 * [Working days](#working-days)
 * [Working hours](#working-hours)
 * [Hourly rate](#hourly-rate)
-* [Minimum group size for analysis](#minimum-group-size)
 
 If you are setting up Workplace Analytics, follow these steps:
 
