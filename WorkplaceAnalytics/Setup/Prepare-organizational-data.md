@@ -108,17 +108,17 @@ If you can't include every person in your organization, the minimum to include i
 
 ## Include all licensed employees
 
-It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the right people and include the right attributes for those people.
+It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the [right people](#which-employees-to-include) and include the [right attributes](#know-what-data-to-include) for those people.
 
-Including the right people means, at a minimum, uploading organizational data for all licensed employees. If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
+The reason for including all employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
+
+If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
 * <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
 
    ![Admin notification](../images/wpa/setup/admin-page-bell.png)
 
-   To see your notifications, select the bell icon. This opens the **Notifications** pane on the right side of the page:
-
-   ![Admin notification pane](../images/wpa/setup/open-notif.png)
+   To see your notifications, select the bell icon. 
 
 * <u>Banner</u> &ndash; It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
 
