@@ -103,6 +103,8 @@ Subject lines are useful for analysts who want to set up meeting exclusion rules
 
 Terms can be any combination of letters, numbers and special characters (such as client attorney privilege or D&I).
 
+![Exclude email addresses, terms from subject lines](../images/wpa/use/two-exclusions.png)
+
 ## Exclusion setting considerations
 
 Any domains, email addresses, or terms you exclude will not be included in any of the analysis, so it's important to carefully consider the implications of an exclusion and balance them with your privacy and data-analysis goals. If you exclude a domain or term that frequently appears in the collaboration dataset, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Workplace Analytics. This means that, after you make an exclusion setting, the setting does not affect data that has already been processed.
