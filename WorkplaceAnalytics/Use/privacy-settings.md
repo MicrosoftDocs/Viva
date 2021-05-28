@@ -144,7 +144,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 
 >[!Important]
 >* All subsequent changes to privacy settings after the initial setup, take effect on the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data.
->* Changes to **Hash subject lines** take affect immediately in meeting query results.
+>* Changes to **Hash subject lines** take effect immediately in meeting query results.
 >* Changes to the **minimum group** and **Hash subject lines** settings apply retroactively to *all data*, including historical data.
 >* Changes to the other exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
 
