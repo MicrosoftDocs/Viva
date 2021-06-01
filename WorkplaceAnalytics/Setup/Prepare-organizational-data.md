@@ -133,7 +133,7 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
    ![Missing org data names](../images/wpa/setup/sample-csv-file.png)
 
 2. Open the .csv file.
-3. Add the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
+3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
 4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
 
 ## Get an export of organizational data
