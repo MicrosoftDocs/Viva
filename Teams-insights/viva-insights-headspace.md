@@ -32,7 +32,7 @@ Any time you want, you can start a guided meditation that's been designed for th
 
 2. To start the Headspace exercise, select the 'Play' button on the **Headspace** card:
 
-   ![Headspace card](images/headspace-card.png)
+   ![Headspace card](images/headspace-card-65.png)
 
 <!-- ![Headspace is running](images/in-headspace.png) -->
 
