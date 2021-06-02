@@ -21,11 +21,11 @@ This integration tool enables you to analyze unscheduled collaboration that occu
 
 This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
-![Zoom Power BI dashboard data](../images/wpa/use/zoom-pbi-data.png)
+![Zoom Power BI dashboard settings](../images/wpa/use/zoom-pbi-settings.png)
 
 ## Demonstrations
 
-This self-serve, open-source toolkit requires a one-time installation of the R package by your Zoom Admin and Workplace Analytics Analyst.
+This self-serve, open-source toolkit requires a one-time installation of the R package by your Zoom admin and Workplace Analytics analyst.
 
 Also, your admins must de-identify the Zoom reports, with a key mapping file, that's uploaded to Workplace Analytics as organizational data.
 
@@ -41,25 +41,25 @@ Subsequent runs will be faster after the initial setup of the mapping key file. 
 
 ## Prerequisites
 
-The following is required before you can run the Zoom Collaboration analysis in R:
+The following is required before setting up the Zoom integration tool:
 
 * Workplace Analytics licenses for your analysis population.
-* Zoom Business, Education, or API plans and have access to the Zoom Admin portal.
-* Zoom Admin and Workplace Analytics Analyst need permission to install R and other associated packages.
+* Zoom Business, Education, or API plans and have access to the Zoom admin portal.
+* Zoom admin and Workplace Analytics analyst must have permission to install R and other associated packages.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Setup and configuration
 
-1. **Install R for Windows** - Ask your Zoom Admin and Workplace Analytics Analyst to install [R for Windows](https://cloud.r-project.org/bin/windows/). If necessary, ask IT for permissions to install R for Windows.
-2. **Download Zoom analyst integration** - Ask your Microsoft representative for the Zoom integration files. Then ask your Workplace Analytics Analyst to download the Zoom integration analyst package and extract it to a local folder.
-3. **Download the Zoom admin integration** - Ask your Zoom Admin to download the Zoom admin integration package and extract it to a local folder. The integration has the following folder structure for both the Admin and the Analyst files.
+1. **Install R for Windows** - Ask your Zoom admin and Workplace Analytics analyst to install [R for Windows](https://cloud.r-project.org/bin/windows/). If necessary, ask IT for permissions to install R for Windows.
+2. **Download Zoom analyst integration** - Ask your Microsoft representative for the Zoom integration files. Then ask your Workplace Analytics analyst to download the Zoom integration analyst package and extract it to a local folder.
+3. **Download the Zoom admin integration** - Ask your Zoom admin to download the Zoom admin integration package and extract it to a local folder. The integration has the following folder structure for both the Admin and the Analyst files.
 
-   ![Zoom Admin integration folder structure](../images/wpa/use/zoom-files.png)
+   ![Zoom admin integration folder structure](../images/wpa/use/zoom-files.png)
 
-4. **Prepare a mapping file** - The Zoom report data that's downloaded from the Zoom Admin portal will include identifiable data about employees (email IDs). Before the metrics can be computed and shared with a Workplace Analytics Analyst, the information must be de-identified.
+4. **Prepare a mapping file** - The Zoom report data that's downloaded from the Zoom admin portal will include identifiable data about employees (email IDs). Before the metrics can be computed and shared with a Workplace Analytics analyst, the information must be de-identified.
 
-   1. The Zoom Admin must replace each **email ID** with a **unique random ID** that's specified by the Workplace Analytics Admin.
-   2. Then the Workplace Analytics Admin must create a mapping file that maps a unique random ID (**HashID**) to each email address (**PersonID**) for each of the licensed employees in the company who are included in the analysis. Save this mapping file as a .csv file with the following headers and share it with the Zoom Admin for de-identification.
+   1. The Zoom admin must replace each **email ID** with a **unique random ID** that's specified by the Workplace Analytics Admin.
+   2. Then the Workplace Analytics Admin must create a mapping file that maps a unique random ID (**HashID**) to each email address (**PersonID**) for each of the licensed employees in the company who are included in the analysis. Save this mapping file as a .csv file with the following headers and share it with the Zoom admin for de-identification.
 
       ![Zoom mapping file sample data](../images/wpa/use/zoom-mapping-file.png)
 
@@ -71,7 +71,7 @@ The following is required before you can run the Zoom Collaboration analysis in 
    >[!Important]
    >The Zoom meeting data includes identifiable data (email IDs) that must be de-identified before using it to create Workplace Analytics Person query data. Your admins must protect any identifiable data and only use de-identified Zoom data for analysis purposes.
 
-6. **Download Zoom reports** - Your Zoom Admin needs to do the following:
+6. **Download Zoom reports** - Your Zoom admin needs to do the following:
 
    1. Sign in and go to **Admin** > **Account Management** > **Reports** > **Usage Reports** > **Active Hosts**.
    2. Set the scoped **From** and **To Dates**.
@@ -80,7 +80,7 @@ The following is required before you can run the Zoom Collaboration analysis in 
 
    ![Zoom admin input example files](../images/wpa/use/zoom-admin-files.png)
 
-7. **Run and download Workplace Analytics data** - Your Workplace Analytics Analyst needs to do the following:
+7. **Run and download Workplace Analytics data** - Your Workplace Analytics analyst needs to do the following:
 
    1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#predefined-query-templates) to create the applicable query data. When running the queries, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
 
@@ -103,15 +103,15 @@ The following is required before you can run the Zoom Collaboration analysis in 
         >If R is installed on a custom drive, such as D:\ or E:\, replace C:\ with the applicable drive letter. For subsequent file prep, File Explorer will automatically open the right folder.
 
     5. Ignore the warnings during processing, and then when prompted, press any key to continue and exit.
-    6. During this processing state, the Zoom reports are de-identified by using the hash key from the mapping file, and then joined into one combined file, which is saved in the **Admin**/**output** folder. Give the new Zoom output file to your Workplace Analytics Analyst.
+    6. During this processing state, the Zoom reports are de-identified by using the hash key from the mapping file, and then joined into one combined file, which is saved in the **Admin**/**output** folder. Give the new Zoom output file to your Workplace Analytics analyst.
 
-9. **Upload the Zoom output data** - As the Workplace Analytics Analyst, save the Zoom output file to the **Zoom integration**/**Analyst**/**input** folder. Confirm that the Input folder also has the Ways of Working Assessment query, Standard meeting query, and the UTC_offset.rds file.
+9. **Upload the Zoom output data** - As the Workplace Analytics analyst, save the Zoom output file to the **Zoom integration**/**Analyst**/**input** folder. Confirm that the Input folder also has the Ways of Working Assessment query, Standard meeting query, and the UTC_offset.rds file.
 10. In the **Script** folder, double-click **AnalystActions.bat** to run it. When prompted, point it to **Rscript.exe**, which is usually in **C:/Program Files/R/R-4x-x/bin**.
-11. Confirm the Output folder includes a new .csv file for Zoom collaboration metrics and a new .csv Zoom version of the Ways of Working Assessment Person Query that you can use with the new Zoom version of the Ways of Working Assessment dashboard in Power BI.
+11. Confirm the Output folder includes a new .csv file for Zoom collaboration metrics and a new .csv Zoom version of the Ways of Working Assessment Person Query that you use with the new Zoom version of the Ways of Working Assessment dashboard in Power BI.
 
 ## Import and analyze in Power BI
 
-Your Workplace Analytics Analyst needs to do the following to import the combined collaboration data into Power BI. After the import, you can analyze a combination of Zoom and Workplace Analytics collaboration metrics in the Ways of working assessment dashboard in Power BI.
+Your Workplace Analytics analyst needs to do the following to import the combined collaboration data into Power BI. After the import, you can analyze a combination of Zoom and Workplace Analytics collaboration metrics in the Ways of working assessment dashboard in Power BI.
 
 1. In the **Analyst/output** folder, double-click **WOW_Zoom_Integration.pbit** to run the template.
 
