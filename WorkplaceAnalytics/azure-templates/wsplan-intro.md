@@ -1,5 +1,5 @@
 ---
-title: Workspace planning introduction and instructions
+title: Workspace planning tool
 description: Learn about the Workspace planning open-source tool and how to use it to create seating plans
 author: madehmer
 ms.author: v-mideh
