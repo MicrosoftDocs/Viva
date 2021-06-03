@@ -12,12 +12,12 @@ audience: Admin
 
 # Workplace Analytics insights for managers
 
-> [!Note]
-> Only people managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see their team's data in Workplace Analytics.
+>[!Note]
+>Only people managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see their team's data in Workplace Analytics.
 
 As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
-Use the following available information to lead your team toward more effective business outcomes:
+You can use the following information to lead your team toward more effective business outcomes:
 
 * **Employee experience** - Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your team is working after hours on email or instant messages, and if your team is getting enough 1:1 time with you and other managers.
 
@@ -30,6 +30,9 @@ Use the following available information to lead your team toward more effective 
 ## Manager access
 
 To grant managers access to these Manager insights, your Workplace Analytics admin must add them as managers in [Manager settings](../use/manager-settings.md).
+
+>[!Note]
+>As of June 2021, the app no longer sends an automated welcome email to managers who get access to Manager insights in Workplace Analytics.
 
 ## About the insights
 
