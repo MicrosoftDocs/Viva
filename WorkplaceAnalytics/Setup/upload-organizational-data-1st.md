@@ -1,7 +1,7 @@
 ---
 
-title: Upload you first organizational data file into Workplace Analytics
-description: Learn how to upload organizational data through the new Workplace Analytics onboarding experience 
+title: First organizational data upload
+description: Learn how to upload your organizational data through the new Workplace Analytics onboarding experience 
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
