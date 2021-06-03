@@ -51,9 +51,9 @@ Save the following files to a **master folder**, which are located in the [Works
 
 You also need to save the following input (.csv) files to your master folder. These files define the relevant information for each workspace project, such as team sizes and workspace capacity. The tool uses these to generate the floor plans with recommended seating for each team based on their collaboration patterns from the interaction file.
 
-* [Interaction](space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows current work and collaboration patterns across the different teams.
-* [Team size](space-planning.md#create-a-team-size-file) - Defines the number of employees in each team in your organization.
-* [Space capacity](space-planning.md#create-a-space-capacity-file) - Defines the workspace, which can be a combination of buildings, floors, and zones or neighborhoods, and the maximum capacities for each.
+* [Interaction](../azure-templates/space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows current work and collaboration patterns across the different teams.
+* [Team size](../azure-templates/space-planning.md#create-a-team-size-file) - Defines the number of employees in each team in your organization.
+* [Space capacity](../azure-templates/space-planning.md#create-a-space-capacity-file) - Defines the workspace, which can be a combination of buildings, floors, and zones or neighborhoods, and the maximum capacities for each.
 
 The tool combines the data in these files to generate a table that shows where to seat people in the specified floor plan.
 
@@ -61,7 +61,7 @@ The tool combines the data in these files to generate a table that shows where t
 
 ## Plan a workspace
 
-1. A Workplace Analytics Analyst needs to create the interaction file, which is a group-to-group query that shows the current work and collaboration patterns across the different teams. For detailed steps, see [Create an interaction file](space-planning.md#create-an-interaction-file).
+1. A Workplace Analytics Analyst needs to create the interaction file, which is a group-to-group query that shows the current work and collaboration patterns across the different teams. For detailed steps, see [Create an interaction file](../azure-templates/space-planning.md#create-an-interaction-file).
 2. Copy all the required files listed in [File prep files](#file-prep) and [Input files](#input-files) into a working folder for this workspace.
 3. You can use PowerPoint like the following example to define the zone coordinates for each workspace building, floor, and zone:
 
@@ -69,14 +69,14 @@ The tool combines the data in these files to generate a table that shows where t
    2. Overlay x and y coordinates for each zone.
    3. Map all the zones and coordinates in a table. These coordinates are required in the Distance helper notebook. The following shows an example of defining zone coordinates for a workspace floor.
 
-   ![Example zone grid and table](../images/wpa/use/images/wsp-zones.png)
+   ![Example zone grid and table](../images/wpa/use/wsp-zones.png)
 
 4. Use a [Google Chrome browser](https://www.google.com/chrome/), which is required by Jupyter, to open the Anaconda navigator.
 5. In Anaconda, launch Jupyter Notebook, and then locate and open the **Distance Helper notebook** in the master folder.
 6. In the Distance Helper notebook, select **Run** at the top. For your first use, it will take a few minutes to load any necessary files, including the **Requirements.txt** data.
 7. When prompted, enter the total number of buildings you have, and then select **Go**.
 
-   ![Distance Helper buildings prompt](../images/wpa/use/images/wsp-distant-helper.png)
+   ![Distance Helper buildings prompt](../images/wpa/use/wsp-distant-helper.png)
 
 8. Enter the building information in the table, including the name, number, and complete address of each building. The tool needs the full address for accurate latitude and longitude coordinates.
 9. In **Max number of floors**, enter the maximum number of floors for the buildings included in the overall workspace have, and then select **Go**. For example, if two of the buildings have two floors and one has three floors in the overall workspace, you'd enter three as the maximum number of floors for the workspace.
@@ -147,4 +147,4 @@ The following shows an example floor plan where the Product team has 64 people a
 ## Related topics
 
 * [Workspace Planning Tool Readme](https://github.com/microsoft/Workspace-Planning-Tool/blob/main/README.md)
-* [Workspace Planning Azure Template](space-planning.md)
+* [Workspace Planning Azure Template](../azure-templates/space-planning.md)
