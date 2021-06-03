@@ -67,9 +67,9 @@ The following is required before setting up the Zoom integration tool:
       ![Zoom mapping file sample data](../images/wpa/use/zoom-mapping-file.png)
 
    >[!Important]
-   >You must save the mapping file as .csv (not as an .xls or .xlsx file) with "mapping file" included in the file name.
+   >You must save the mapping file as a .csv (not as an .xls or .xlsx file) with "mapping file" included in the file name.
 
-5. **Append to the existing organizational data** - Your Workplace Analytics Admin must upload the .csv mapping file with the **HashIDs** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in Workplace Analytics. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
+5. **Append to the existing organizational data** - Your Workplace Analytics Admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in Workplace Analytics. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
 
    >[!Important]
    >The Zoom meeting data includes identifiable data (email IDs) that must be de-identified before using it to create Workplace Analytics Person query data. Your admins must protect any identifiable data and only use de-identified Zoom data for analysis purposes.
@@ -81,7 +81,7 @@ The following is required before setting up the Zoom integration tool:
    3. Select **Meetings** > **Generate details report**. If you need more than one month of data, repeat these steps for prior months. Each report takes 1 to 2 hours to download.
    4. Save the downloaded reports in your **Zoom integration**/**Admin**/**input**/**zoom_reports** folder.
 
-   ![Zoom admin input example files](../images/wpa/use/zoom-admin-files.png)
+   ![Zoom example report files](../images/wpa/use/zoom-reports.png)
 
    5. Save the mapping file from your Workplace Analytics Admin in your **Zoom integration**/**Admin**/**input** folder.
 
@@ -114,7 +114,7 @@ The following is required before setting up the Zoom integration tool:
        >The first time you run the AdminActions.bat file might take longer than subsequent runs because of installation dependencies.
 
 9. **Upload the Zoom output data** - As the Workplace Analytics analyst, save the Zoom output file to the **Zoom integration**/**Analyst**/**input** folder. Confirm that the Input folder also has the Ways of Working Assessment query, Standard meeting query, and the UTC_offset.rds file.
-10. **Update the config file** -  If the Workplace Analytics analyst and Zoom admin are based in different time zones, then the analyst needs to update the **config.csv** file with the applicable **utc_offset**. If the **Ways of Working Assessment query** uses a column name that’s different than **HashIDs**, you must update the config.csv with the different column name that’s used in the query output.
+10. **Update the config file** -  If the Workplace Analytics analyst and Zoom admin are based in different time zones, then the analyst needs to update the **config.csv** file with the applicable **utc_offset**. If the **Ways of Working Assessment query** uses a column name that’s different than **HashID**, you must update the config.csv with the different column name that’s used in the query output.
 
 11. In the **Script** folder, double-click **AnalystActions.bat** to run it. When prompted, point it to **Rscript.exe**, which is usually in **C:/Program Files/R/R-4x-x/bin**.
 12. Confirm the **Output** folder includes a new .csv file for the Zoom collaboration metrics and a new .csv for the Zoom version of the Ways of working assessment query that you use with the new Zoom version of the Ways of working assessment dashboard in Power BI.
@@ -126,12 +126,12 @@ The following is required before setting up the Zoom integration tool:
 
 Your Workplace Analytics analyst needs to do the following to import the combined collaboration data into Power BI. After the import, you can analyze a combination of Zoom and Workplace Analytics collaboration metrics in the Ways of working assessment dashboard in Power BI.
 
-1. In the **Analyst/output** folder, double-click **WOW_Zoom_Integration.pbit** to run the template.
+1. In the **Analyst**/**output** folder, double-click **WOW_Zoom_Integration.pbit** to run the template.
 
    ![Zoom Ways of working assessment Power BI template](../images/wpa/use/zoom-pbi-template.png)
 
-2. When prompted by Power BI, copy and paste the file path for the **Zoom Transformed Ways of Working Assessment export** .csv file in the **Analyst/output** folder. To copy it, right-click the file, select **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
-3. Use the **Standard meeting query** file that you downloaded in [Setup and configuration](#setup-and-configuration). For more information, see the [Ways of working assessment](../tutorials/power-bi-collab-assess.md).
+2. When prompted by Power BI, copy and paste the file path for the **Zoom Transformed Person Query** and **Standard meeting query** in the **Analyst/output** folder. To copy it, right-click the file, select **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
+3. Where prompted, copy and use the **SupervisorIndicator** column name from the **Zoom Transformed Person Query** file.
 
 ## Zoom metrics
 
