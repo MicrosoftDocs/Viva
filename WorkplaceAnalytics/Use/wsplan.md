@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workspace planning tool
 description: Learn about the Workspace planning open-source tool and how to use it to create seating plans
 author: madehmer
@@ -56,7 +57,7 @@ You also need to save the following input (.csv) files to your master folder. Th
 
 The tool combines the data in these files to generate a table that shows where to seat people in the specified floor plan.
 
-![Example data in the files](./images/example-data.png)
+![Example data in the files](../images/wpa/use/wsp-example-data.png)
 
 ## Plan a workspace
 
@@ -68,29 +69,29 @@ The tool combines the data in these files to generate a table that shows where t
    2. Overlay x and y coordinates for each zone.
    3. Map all the zones and coordinates in a table. These coordinates are required in the Distance helper notebook. The following shows an example of defining zone coordinates for a workspace floor.
 
-   ![Example zone grid and table](./images/zones.png)
+   ![Example zone grid and table](../images/wpa/use/images/wsp-zones.png)
 
 4. Use a [Google Chrome browser](https://www.google.com/chrome/), which is required by Jupyter, to open the Anaconda navigator.
 5. In Anaconda, launch Jupyter Notebook, and then locate and open the **Distance Helper notebook** in the master folder.
 6. In the Distance Helper notebook, select **Run** at the top. For your first use, it will take a few minutes to load any necessary files, including the **Requirements.txt** data.
 7. When prompted, enter the total number of buildings you have, and then select **Go**.
 
-   ![Distance Helper buildings prompt](./images/distant-helper.png)
+   ![Distance Helper buildings prompt](../images/wpa/use/images/wsp-distant-helper.png)
 
 8. Enter the building information in the table, including the name, number, and complete address of each building. The tool needs the full address for accurate latitude and longitude coordinates.
 9. In **Max number of floors**, enter the maximum number of floors for the buildings included in the overall workspace have, and then select **Go**. For example, if two of the buildings have two floors and one has three floors in the overall workspace, you'd enter three as the maximum number of floors for the workspace.
 10. In the table, enter the numbers assigned to each floor in each building.
 11. In **Max number of zones**, enter the maximum number of zones that you'll need to define for any of the floors in any of the individual buildings. For example, the following shows entering **6** as the maximum number of zones required for a floor in one of the buildings.
 
-    ![Distance Helper floor and zone number prompts](./images/wsp-dh-fnz.png)
+    ![Distance Helper floor and zone number prompts](../images/wpa/use/wsp-dh-fnz.png)
 
 12. In the **Game of Zones** table, enter the floor names, number of zones, and corresponding zone coordinates for each building, which you defined in **Step 3**, and then select **Go**. For example, the following shows Floor 1 with 6 zones in building 30 that require zone coordinates of (1,1), (3,1), (4,1), and so on.
 
-    ![Distance Helper Game of Zones example table](./images/game-of-zones.png)
+    ![Distance Helper Game of Zones example table](../images/wpa/use/wsp-game-of-zones.png)
 
 13. In the **Space Names** table, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone. The following example shows a zone coordinate of **4,3** with a friendly space name of **16-1D**, which represents zone D on the first floor of building 16.
 
-    ![Distance Helper example space names](./images/wsp-space-names.png)
+    ![Distance Helper example space names](../images/wpa/use/wsp-space-names.png)
 
     >[!Important]
     >The friendly space names must match the floor names that you entered in the space_capacity.csv file.
@@ -99,7 +100,7 @@ The tool combines the data in these files to generate a table that shows where t
 15. In the **File Validations notebook**, select **Run** to validate the files that will be used to generate the floor plans.
 16. When prompted to load the data, select the location for each of the files, as shown in the following graphic, and then select **Go** to validate them.
 
-    ![File Validations notebook example](./images/wsp-file-validation.png)
+    ![File Validations notebook example](../images/wpa/use/wsp-file-validation.png)
 
 17. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a red X, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat **Step 6** to validate the file again.
 18. After all files are successfully validated, select one of the following input scenarios that the tool should use to aggregate the final output for your interaction file. These scenarios are based on the interactions file query data.
@@ -119,11 +120,11 @@ The tool combines the data in these files to generate a table that shows where t
       * Edit the floor plan's .xlsx file that was saved in **app_results**. After editing it, you must save the floor plan as a .csv file. When editing an existing floor plan, you must stay within the constraints set in the validated space_capacity.csv and team_size.csv files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints.
       * After you save the new changes to the floor plan file, select **Fixed**, and then select the updated floor plan file. For example, the following graphic shows a standard floor plan where **Engineering** and **Marketing** are assigned to multiple locations.
 
-     ![Standard floor plan example](./images/standard-floorplan.png)
+     ![Standard floor plan example](../images/wpa/use/wsp-standard-floorplan.png)
 
     In the following example, the seat assignments have been changed (fixed) to keep the **Engineering** and **Marketing** teams closer together. Note, the **Product** team is left unassigned, so the fixed floor plan will keep the Marketing and Engineering team seat assignments unchanged and the Product team will be assigned to any unoccupied spaces based on the original input files in the Final Files set folder.
 
-     ![Fixed floor plan example](./images/fixed-floorplan.png)
+     ![Fixed floor plan example](../images/wpa/use/wsp-fixed-floorplan.png)
 
 22. In the **app_results** folder, open the latest floor plan to see the seat assignments.
 
@@ -133,7 +134,7 @@ When you open a floor plan file, you’ll see teams assigned to zones or neighbo
 
 The following shows an example floor plan where the Product team has 64 people assigned to Floor 1, Zone A and 16 people assigned to Floor 1, Zone B.
 
-![Example floor plan](./images/example-floorplan.png)
+![Example floor plan](../images/wpa/use/wsp-example-floorplan.png)
 
 ## Tips
 
