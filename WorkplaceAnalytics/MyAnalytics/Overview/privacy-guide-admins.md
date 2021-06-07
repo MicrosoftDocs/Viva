@@ -124,12 +124,12 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ### How employees can opt-in and opt-out
 
+>[!Note]
+>The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out (as described in this section) or an admin opts them out (see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level) and [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)).
+
  End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
 
 ![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
-
->[!Note]
->The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level) and [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
 
 ## Microsoft Graph
 
