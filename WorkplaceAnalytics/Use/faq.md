@@ -121,7 +121,7 @@ A3. You can assign analysts the analyst (limited access) role, which limits them
 
 ##### Q4. Why are Start time and End time so important when configuring Workplace Analytics?
 
-A4. The Start time and End time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. <!--(Note that the system time zone is checked once a week, so if an employee travels for a short time the change in their local time might not be captured and reflected in their Start and End times.) --> See [Working days and hours](system-defaults.md#working-days-and-working-hours).
+A4. The Start time and End time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. <!--(Note that the system time zone is checked once a week, so if an employee travels for a short time the change in their local time might not be captured and reflected in their Start and End times.) --> See [Working days and working hours](system-defaults.md#working-days-and-working-hours).
 
 ##### Q5. Is there a maximum number of Workplace Analytics analyst roles that can be assigned?
 
