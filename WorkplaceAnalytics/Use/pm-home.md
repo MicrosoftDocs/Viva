@@ -10,14 +10,14 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Workplace Analytics insights for managers
+# Insights for managers
 
 >[!Note]
->Only people managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see their team's data in Workplace Analytics.
+>Only people managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see their team's data in My team in Microsoft Viva Insights and in Workplace Analytics.
 
 As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
-You can use the following information to lead your team toward more effective business outcomes:
+You can use the following information to lead your team toward more effective business outcomes.
 
 * **Employee experience** - Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your team is working after hours on email or instant messages, and if your team is getting enough 1:1 time with you and other managers.
 
@@ -25,14 +25,20 @@ You can use the following information to lead your team toward more effective bu
 
 * **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
 
+The following shows what you’ll see in Viva Insights.
+
+![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
+
+The following shows what you’ll see in Workplace Analytics, which is the same information you have access to in Viva Insights.
+
 ![People Manager Home page](../images/wpa/use/manager-insights.png)
 
 ## Manager access
 
-To grant managers access to these Manager insights, your Workplace Analytics admin must add them as managers in [Manager settings](../use/manager-settings.md).
+To grant managers access to [My team in Viva Insights](viva-insights-my-team.md) and to Manager insights in Workplace Analytics, your Workplace Analytics admin must add them as managers in [Manager settings](../use/manager-settings.md).
 
 >[!Note]
->As of June 2021, the app no longer sends an automated welcome email to managers who get access to Manager insights in Workplace Analytics.
+>As of late June 2021, the app will no longer send an automated welcome email to managers who get access to My team in Viva Insights and to Manager insights in Workplace Analytics.
 
 ## About the insights
 
@@ -69,4 +75,4 @@ As a people manager, you'll also see an option to **View recommended plan** for 
 
 ## Related topic
 
-[Frequently asked questions about Manager insights](insight-faqs.md)
+[Manager insights FAQ](insight-faqs.md)

@@ -1,6 +1,6 @@
 ---
-title: Frequently asked questions about manager insights
-description: Most commonly asked questions and their answers about Manager insights in Workplace Analytics
+title: Manager insights FAQ
+description: Most commonly asked questions and their answers about My team insights in Viva Insights and Manager insights in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
@@ -11,20 +11,20 @@ audience: Admin
 
 ---
 
-# Frequently asked questions about Manager insights
+# FAQ for manager insights
 
-##### Q1 What is Workplace Analytics?
+##### Q1 What is Viva Insights and Workplace Analytics?
 
-Workplace Analytics helps managers like you identify patterns and habits that impact employee wellbeing and collaboration effectiveness by using data from everyday work that you and your team do in Microsoft 365. Learn more about Workplace Analytics in this [introductory video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true).
+Viva Insights and Workplace Analytics help managers like you identify patterns and habits that impact employee wellbeing and collaboration effectiveness by using data from everyday work that you and your team do in Microsoft 365. Learn more about Workplace Analytics in this [introductory video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true).
 
 ##### Q2 Which roles have access to manager insights?
 
 Managers who meet the following criteria can view insights about their team:
 
-* People managers whose team meets the minimum team size that is set by the Workplace Analytics Admin, which includes people who directly or indirectly report to you.
+* People managers whose team meets the minimum team size that is set by the Workplace Analytics admin, which includes people who directly or indirectly report to you.
 * Managers who are granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md).
 
-##### Q3 Who is included in the insights?
+##### Q3 Who is included in these insights?
 
 Employees who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the Admin.
 
