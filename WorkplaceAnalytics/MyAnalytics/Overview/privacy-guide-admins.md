@@ -128,6 +128,9 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 ![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
+>[!Note]
+>The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level) and [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
+
 ## Microsoft Graph
 
 MyAnalytics is a first-party application that's built on Microsoft Graph. Microsoft Graph consists of a set of REST-based API calls that allow developers to interact with the Microsoft technologies that a given organization uses. In order to use these API calls, developers must have specific permissions to access any data they request. Administrators control both the deployment of any Microsoft Graph application and permissions to access these applications.
@@ -159,6 +162,8 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
 * Microsoft supports your need to honor user requests to restrict processing as follows:
 
   * Use PowerShell to opt employees out of MyAnalytics.
+   >[!Note]
+   >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level) and [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
   * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
