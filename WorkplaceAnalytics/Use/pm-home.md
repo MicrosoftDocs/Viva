@@ -25,11 +25,11 @@ You can use the following information to lead your team toward more effective bu
 
 * **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
 
-The following shows what you’ll see in Viva Insights.
+The following shows what your managers will see in [My team in Viva Insights](viva-insights-my-team.md).
 
 ![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
 
-The following shows what you’ll see in Workplace Analytics, which is the same information you have access to in Viva Insights.
+The following shows what your managers can see in Workplace Analytics, which is the same information shown in Viva Insights.
 
 ![People Manager Home page](../images/wpa/use/manager-insights.png)
 
