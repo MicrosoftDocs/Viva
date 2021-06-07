@@ -60,7 +60,7 @@ The following base metrics are imported from Workplace Analytics into Power BI t
 |LowQualityMeetingsCost |Calculated by Workplace Analytics |Cost of low-quality meetings that’s calculated as LowQualityMeetingHours multiplied by Hourly Rate. |USD |
 |MailHoursLoadOrganizedAfterHours |Not applicable |Number of email hours the person created for internal recipients by sending emails outside of working hours. |Hour |
 |MailsSentCount |Emails sent |Number of emails the person sent. |Count |
-|ManagerId |Required HR attribute |De-identified ID number for the manager of the person represented in the metric. |String |
+|ManagerId |Required HR attribute |De-identified ID number for the manager of the person represented in the metric. You can only calculate aggregations, such as counts, of this field. Attempting to return a list of all ManagerIds will result in an error.|String |
 |MeetingHours30To60Min |Not applicable |Number of hours the person spent in meetings with at least one other person and a duration of between 30 to 60 minutes. |Hour |
 |MeetingHoursLessThan30Min |Not applicable |Number of hours the person spent in meetings less with a duration of 30 minutes with at least one other person. |Hour |
 |MeetingHoursLessThan8Attendees |Not applicable |Number of hours the person spent in meetings with less than eight attendees. |Hour |
@@ -101,7 +101,7 @@ The following base metrics are imported from Workplace Analytics into Power BI t
 |Person_DirectReports |Required HR attribute  |Number of direct reports, which is a non-zero value for managers. |String |
 |Person_IsManager |Required HR attribute |True indicates that the person is a manager. |String |
 |Person_RoleType |Required HR attribute  |Indicates one of three possible values, which are IC, Manager, or Manager+. |String |
-|PersonId |PersonId |De-identified ID number for the person represented in the metric. |String |
+|PersonId |PersonId |De-identified ID number for the person represented in the metric. You can only calculate aggregations, such as counts, of this field. Attempting to return a list of all PersonIds will result in an error. |String |
 |PopulationType |Required HR attribute |Currently all the person metric data that’s imported is for measured employees only. |String |
 |RecurringMeetingHours |Not applicable |Number of hours the person spent in recurring meetings with at least one other person. |Hour |
 |<a name="redundant-define"></a>RedundantMeetingHours |Redundant meeting hours (organizational) |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating Low quality meeting hours. |Hour |

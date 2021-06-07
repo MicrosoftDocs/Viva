@@ -97,7 +97,7 @@ The following video describes which attributes are required and optional in your
 
 ### Which employees to include
 
-It's best to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
+At a minimum, include the organizational data for all employees who have Workplace Analytics licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
 
 > [!Important]
 > If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
@@ -105,6 +105,36 @@ It's best to include every person in your company as part of your data upload, e
 For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
+
+## Include all licensed employees
+
+It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the [right people](#which-employees-to-include) and include the [right attributes](#know-what-data-to-include) for those people.
+
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
+
+If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
+
+* <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
+
+   ![Admin notification](../images/wpa/setup/admin-page-bell.png)
+
+   To see your notifications, select the bell icon. 
+
+* <u>Banner</u> &ndash; It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
+
+   ![Banner for missing org data](../images/wpa/setup/admin-page-missing-licensed.png)
+
+   To respond to this warning, follow the steps in [Upload missing organizational data](#upload-missing-organizational-data).
+
+### Upload missing organizational data
+
+1. Select **Download**. This downloads a .csv file that contains the names of licensed employees whose organizational data is missing. For example:
+
+   ![Missing org data names](../images/wpa/setup/sample-csv-file.png)
+
+2. Open the .csv file.
+3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
+4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
 
 ## Get an export of organizational data
 

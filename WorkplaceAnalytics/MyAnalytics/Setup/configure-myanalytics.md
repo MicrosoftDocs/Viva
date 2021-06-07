@@ -14,7 +14,7 @@ audience: Admin
 
 # Configure MyAnalytics
 
-**Role** - Global admin, Exchange Online (EXO) admin, or Insights admin
+**Role** - Global admin, Exchange Online admin, or Insights admin
 
 * **Prerequisite** - Users have access to MyAnalytics only if they have licenses that include the MyAnalytics service plan, as described in [plans and environments for MyAnalytics](../Overview/plans-environments.md).
 
@@ -47,11 +47,11 @@ For information on how to assign a license, see [Assign licenses to users in Mic
 You can configure access to MyAnalytics elements for all users in your organization.
 
 >[!Important]
->You must have a Global admin role to configure tenant level settings in the admin center.
+>You must have a Global admin or an Exchange Online admin role to configure tenant level settings in the admin center.
 
 ### To enable access to the dashboard and digests
 
-1. Sign in as a Global admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
+1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
     ![New admin center](../../images/mya/setup/the-new-admin-center.png)

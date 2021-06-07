@@ -67,19 +67,23 @@ A2. Workplace Analytics is not available in data cloud environments that Microso
 
 ### Language support
 
-##### Q1. Can I upload an organizational data file that has non-English words or letters?
+##### Q1. Can I use Workplace Analytics in a language other than English?
 
-A1. Yes. The organizational data file can have non-English words or letters. Note the following: 
-   
- * File names and individual rows can have non-English words or letters.
- * Each column header must be mapped to an attribute with an English name.
+A1. Yes. See [Workplace Analytics language support and guidelines](../overview/supported-languages.md).
 
-##### Q2. Can I construct a query with filters and/or meeting subject lines that contain non-English words or letters?
+##### Q2. Can I upload an organizational data file that has non-English words or letters?
 
-A2. Yes. You can use filters in queries that include the following:
+A2. Yes. The organizational data file can have non-English words or letters. Note the following: 
+  
+* File names and individual rows can have non-English words or letters.
+* Each column header must be mapped to an attribute with an English name.
 
- * Attributes or values from your organizational data that include non-English words or characters.
- * Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
+##### Q3. Can I construct a query with filters and/or meeting subject lines that contain non-English words or letters?
+
+A3. Yes. You can use filters in queries that include the following:
+
+* Attributes or values from your organizational data that include non-English words or characters.
+* Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
 
 For more information, see [Customize a base metric in a query](../tutorials/customize-a-metric.md).
 

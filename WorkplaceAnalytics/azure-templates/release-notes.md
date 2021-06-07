@@ -21,6 +21,7 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 ## May 2021
 
 The following new template features, enhancements, and changes are included in this month's release.
+
 ### Organizational Network Analysis (ONA)
 
 **Insights** is a new ONA Template option that uses a simplified set of settings to quickly surface insights about within-group and cross-group collaboration trends for your organization.
