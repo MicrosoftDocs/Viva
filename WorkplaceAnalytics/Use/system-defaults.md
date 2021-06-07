@@ -19,8 +19,8 @@ audience: Admin
 In **System defaults**, you can configure the following:
 
 * [Default time zone](#default-time-zone)
-* [Working days](#working-days)
-* [Working hours](#working-hours)
+* [Working days](#to-set-default-working-days)
+* [Working hours](#to-set-default-working-hours)
 * [Hourly rate](#hourly-rate)
 
 If you are setting up Workplace Analytics, follow these steps:
