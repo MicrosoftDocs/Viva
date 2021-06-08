@@ -127,17 +127,25 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 <!-- DELETE PER MATHEW 1 JUNE 2021: 
 * **Determine which employees in sensitive roles should be excluded from incremental data** &ndash; Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed. -->
 
- Note that if default settings are used, the following applies:
+Note that if default settings are used, the following applies:
 
 * All employees in your organization contribute to [incremental data](#incremental-data) whether or not they have been issued licenses with the MyAnalytics service.
 
 * MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
 
+## Opt-in and opt-out
+
+Employees can opt themselves out of MyAnalytics. This causes them to lose access to the MyAnalytics [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure-myanalytics.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, by following the steps in [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out).
+
+### Data processing consequences
+
+The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out or an admin opts them out.
+
 ### How employees can opt-in and opt-out
 
-Users can opt-in or opt-out of the elements of MyAnalytics by using the **Settings > Feature settings** menu in Microsoft 365, as shown here:
+End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
 
-![Opt out and opt in ](../../images/mya/use/v2-dashboard-settings-1h-3.png)
+![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
 ## Microsoft Graph
 
@@ -180,6 +188,8 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
     * Request to restrict processing:
 
       * Use PowerShell to opt employees out of MyAnalytics.
+   >[!Note]
+   >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
