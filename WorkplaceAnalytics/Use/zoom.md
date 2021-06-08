@@ -31,13 +31,19 @@ Also, your admins must de-identify the Zoom reports, with a key mapping file, th
 
 Subsequent runs will be faster after the initial setup of the mapping key file. The following admin and analyst demos show how quickly you can prepare the Zoom data for integrating and analyzing in Workplace Analytics and Power BI.  
 
-#### Zoom admin demo
+#### Zoom admin setup demo
 
 <img src="../images/wpa/use/zoom-admin-demo.gif" height="486" width="800" alt="video" data-linktype="relative-path">
 
-#### Zoom analyst demo
+#### Zoom analyst setup demo
 
 <img src="../images/wpa/use/zoom-analyst-demo.gif" alt="video" data-linktype="relative-path">
+
+#### Power BI demo
+
+The following demo shows what you might see in Power BI with the Zoom integration. This demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<iframe width="800" height="486" src=zoom-wow-demo.pbix frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
 
