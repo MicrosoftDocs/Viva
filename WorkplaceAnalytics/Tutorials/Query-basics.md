@@ -124,7 +124,7 @@ Workplace Analytics includes the following predefined query templates to help yo
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
-* **Standard query** provides all base metrics available for a person query.
+* **Standard person query** analyzes collaboration patterns by using the available base person query metrics.
 * **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
 
 ## Videos
