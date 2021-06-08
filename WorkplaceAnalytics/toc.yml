@@ -91,7 +91,7 @@
                       href: ~/tutorials/meeting-exclusion-concept.md
                 - name: Attendee exclusions
                   href: ~/tutorials/attendee-exclusion-rules.md
-        - name: Workplace Analytics audit logs
+        - name: Audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
       items:
@@ -140,11 +140,7 @@
                 - name: FAQs
                   href: ~/Use/insight-faqs.md
         - name: Analyze
-          items:
-            - name: Peer analysis
-              href: ~/use/peer-analysis.md
-            - name: Business process analysis
-              href: ~/tutorials/analyze-business-processes.md              
+          items:        
             - name: Queries
               items:
                 - name: Overview
@@ -200,6 +196,10 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md
+            - name: Business process analysis
+              href: ~/tutorials/analyze-business-processes.md
+            - name: Peer analysis
+              href: ~/use/peer-analysis.md
             - name: Explore the stats
               items:
                 - name: Overview
