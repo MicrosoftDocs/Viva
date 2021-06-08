@@ -188,8 +188,10 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
     * Request to restrict processing:
 
       * Use PowerShell to opt employees out of MyAnalytics.
-   >[!Note]
-   >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
+
+         >[!Note]
+         >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
+
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
