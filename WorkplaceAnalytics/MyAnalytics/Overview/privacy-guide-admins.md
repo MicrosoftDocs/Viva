@@ -122,12 +122,17 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 * MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
 
+## Opt-in and opt-out
+
+Employees can opt themselves out of MyAnalytics. This causes them to lose access to the MyAnalytics [elements](../use/mya-elements) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure-myanalytics.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, by following the steps in [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out).
+
+### Data processing consequences
+
+The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out or an admin opts them out.
+
 ### How employees can opt-in and opt-out
 
->[!Note]
->The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out (as described in this section) or an admin opts them out (see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level) and [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)).
-
- End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
+End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
 
 ![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
@@ -163,7 +168,7 @@ As is the case with the full Microsoft 365 suite, MyAnalytics helps support comp
 
   * Use PowerShell to opt employees out of MyAnalytics.
    >[!Note]
-   >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level) and [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
+   >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
   * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
