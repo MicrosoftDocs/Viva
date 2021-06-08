@@ -32,7 +32,7 @@ Workplace Analytics provides advanced analysis tools for deep diving into the da
   * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 
 * [**Explore the stats**](../use/explore-intro.md) data helps you analyze organizational data trends that are summarized by week, for meetings, by network connections, for management and coaching, and for external collaboration.
-* [wpa R package](../tutorials/wpa-r-package.md) is an open-source repository of more than 100 functions that provide low-code pre-built analyses that can help leaders use the data that Workplace Analytics provides to solve more specific problems.
+* [**wpa R package**](../tutorials/wpa-r-package.md) is an open-source repository of more than 100 functions that provide low-code pre-built analyses that can help leaders use the data that Workplace Analytics provides to solve more specific problems.
 * [**Plans**](../tutorials/solutionsv2-intro.md) provide plans such as the _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
 * [**Settings**](../use/settings.md) in Workplace Analytics includes the following:
 
