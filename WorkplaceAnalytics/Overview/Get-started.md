@@ -25,13 +25,14 @@ Workplace Analytics provides advanced analysis tools for deep diving into the da
 
 * [**Microsoft Viva Insights**](../use/viva-insights-intro.md) in Microsoft Teams enables managers to see team insights and business leaders to see organizational insights within the Teams app. Individuals can see their own personal and private insights within Teams as well. For details, see [Personal Viva Insights](/insights/teams-app).
 * [**Workplace Analytics Insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to the app, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get the Workplace Analytics app set up.
-* **Analyze** includes the following data-analysis tools:
+* **Analyze** includes the following data-analysis tools within the app:
 
   * [**Queries**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of person, meeting, group-to-group, and person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
-  * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
   * [**Business process analysis**](../tutorials/analyze-business-processes.md) helps you analyze and improve your well-defined and undefined business processes. For example, by measuring their cost in time and money.
+  * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 
 * [**Explore the stats**](../use/explore-intro.md) data helps you analyze organizational data trends that are summarized by week, for meetings, by network connections, for management and coaching, and for external collaboration.
+* [**wpa R package**](../tutorials/wpa-r-package.md) is an open-source repository of more than 100 functions that provide low-code pre-built analyses that can help leaders use the data that Workplace Analytics provides to solve more specific problems.
 * [**Plans**](../tutorials/solutionsv2-intro.md) provide plans such as the _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
 * [**Settings**](../use/settings.md) in Workplace Analytics includes the following:
 
