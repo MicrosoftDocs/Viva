@@ -121,7 +121,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
-16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh option](../Tutorials/Query-auto-refresh.md#stop-the-auto-refresh-option) for details.
+16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../Tutorials/Query-auto-refresh.md#stop-auto-refresh) for details.
 
 ## Dashboard settings
 
