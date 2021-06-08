@@ -39,12 +39,6 @@ Subsequent runs will be faster after the initial setup of the mapping key file. 
 
 <img src="../images/wpa/use/zoom-analyst-demo.gif" alt="video" data-linktype="relative-path">
 
-<!--#### Power BI demo
-
-The following demo shows what you might see in Power BI with the Zoom integration. This demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
-
-<iframe width="800" height="486" src=?? frameborder="0" allowFullScreen="true"></iframe>-->
-
 ## Prerequisites
 
 The following is required before setting up the Zoom integration tool:
