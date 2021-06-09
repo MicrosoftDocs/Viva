@@ -1,6 +1,6 @@
 ---
 
-title: Workplace Analytics metric definitions 
+title: Workplace Analytics metrics 
 description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics 
 author: paul9955
 ms.author: v-mideh
@@ -12,7 +12,7 @@ ms.prod: wpa
 
 ---
 
-# Metric descriptions for Workplace Analytics
+# Metric descriptions
 
 To customize your Workplace Analytics [queries](../tutorials/query-basics.md), you can use the metrics that are defined on this page. They are organized by query type:
 
