@@ -22,6 +22,7 @@ In **System defaults**, you can configure the following:
 * [Working days](#to-set-default-working-days)
 * [Working hours](#to-set-default-working-hours)
 * [Hourly rate](#hourly-rate)
+* [Reclassify external domains](#reclassify-external-domains)
 
 If you are setting up Workplace Analytics, follow these steps:
 
@@ -31,9 +32,6 @@ If you are setting up Workplace Analytics, follow these steps:
 4. Select **Next**. Workplace Analytics now begins to process your organization's collaboration (Microsoft 365) data.
 
 If you are not setting up Workplace Analytics, feel free to change these settings whenever it's necessary.
-
-<!-- REMOVING THIS PER NEW REARRANGEMENT BY NISHANT MAY 2021:
-* [Reclassify external domains](#reclassify-external-domains) -->
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
@@ -78,8 +76,6 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 1. For **Hourly rate**, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
 
-<!-- REMOVING THIS SECTION FOR NOW. IT'S GONE FROM BOTH THE SPEC AND FROM FIGMA (MAY 2021)
-
 ## Reclassify external domains
 
 You can use this setting to reclassify one or more external domains as internal, which includes them in your organizational data analysis.
@@ -96,8 +92,6 @@ After you add a domain and save the change for this setting, it'll change all of
 
 1. For **Reclassify external domain**, enter an external domain in the search field, and then select it to reclassify it as internal to your organization.
 2. Select **Save** (top right of page).
-
--->
 
 ## Related topics
 
