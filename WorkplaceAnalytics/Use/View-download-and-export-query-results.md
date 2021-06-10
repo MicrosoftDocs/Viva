@@ -6,6 +6,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # View, download, and export query results
@@ -123,16 +125,8 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
 
 #### Prerequisites
 
-##### Power BI desktop
-
-Install the latest version of Power BI Desktop:
-
-1. Go to [Power BI Desktop site](https://powerbi.microsoft.com/desktop/).
-2. Select **Download free** and follow the online instructions to install and launch it.
-
-##### Partition access
-
-Partitions in Workplace Analytics allow access to specific partitions of data within Workplace Analytics. To import query data into Power BI, you need access to the partition in Workplace Analytics that contains the metrics and attributes you want to analyze in Power BI. (To gain access to that partition, use the following steps to sign in to your organizational account and select the partition ID.) <!-- For details, see [Partitions in Workplace Analytics](../setup/partitions-in-wpa.md). -->
+* **Power BI Desktop** - Confirm you have the latest version of [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed.
+* **Partitions access** - To import query data into Power BI, you need access to the partition in Workplace Analytics that contains the metrics and attributes you want to analyze in Power BI. To access partition data, use the following steps to sign in to your organizational account and select the partition ID. <!-- For details, see [Partitions in Workplace Analytics](../setup/partitions-in-wpa.md). -->
 
 #### Use the Power BI Connector
 
@@ -146,17 +140,19 @@ Partitions in Workplace Analytics allow access to specific partitions of data wi
 
     ![Enter Workplace Analytics data connections](../images/wpa/use/pbi-connect.png)
 
-   To import Person metrics, continue to the next step. Or to connect to a custom person or meeting query:
+   * If you only enter a Partition Identifier and no Query Name or Query Identifier, you will get a general set of Person metrics for the Power BI reports. For details, see [Power BI Connector metrics](power-bi-metrics.md).
 
-   * Enter the exact query name in **Query Name** as shown in **Query results**.
-   * Or enter the query's ID in **Query Identifier**:
+   * If instead you want to connect to a custom Person or Meeting query, follow these steps:
 
-     1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
-     2. Only highlight and copy the **32-digit ID** just before the query type at the end of the link, and then paste it into **Query Identifier** in the Power BI:
+     * Enter the exact query name in **Query Name** as shown in **Query results**.
+     * Or do the following to enter the query's ID in **Query Identifier**.
 
-      ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
+       1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
+       2. Only highlight and copy the **32-digit ID** just before the query type at the end of the link (as shown in the following graphic), and then paste it into **Query Identifier** in the Power BI.
 
-     3. You can add up to two queries at a time by adding two query IDs, separated by a comma. When two queries are added at the same time, they are combined into a single table in Power BI.
+          ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
+
+       3. You can add up to two queries at a time by adding two query IDs, separated by a comma. When two queries are added at the same time, they are combined into a single table in Power BI.
 
 5. In **Schema Type**, you can _optionally_ select one of the following:
 
@@ -186,4 +182,4 @@ After you have finished creating visuals, you can publish your reports to Power 
 * [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 * [User roles in Workplace Analytics](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
-* [Supported languages and guidelines](../overview/supported-languages.md?branch=pas-pd-other-char-sets)
+* [Supported languages and guidelines](../overview/supported-languages.md)

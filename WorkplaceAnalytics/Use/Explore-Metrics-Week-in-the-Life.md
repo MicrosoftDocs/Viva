@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Week in the life
@@ -17,7 +19,7 @@ ms.prod: wpa
 
 ## Access to Week in the life
 
-You can open [Week in the life](https://workplaceanalytics.office.com/Home/Innovation/WeekintheLife) to view it in Workplace Analytics.
+You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home/Innovation/WeekintheLife) to view it in Workplace Analytics.
 
 ## All collaboration hours
 

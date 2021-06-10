@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Power BI template tips, FAQs, and troubleshooting
@@ -77,9 +79,9 @@ See [Connect to data in Power BI](/power-bi/connect-data/) to learn more about h
 
 See [Power BI documentation](/power-bi/) for details on how to use Power BI.
 
-##### Q11 What languages is the dashboard available in?
+##### Q11 What languages are the dashboards available in?
 
-The dashboard is currently only available in English.
+The dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 ## Troubleshooting
 

@@ -9,6 +9,8 @@ ms.author: v-pausch
 ms.topic: conceptual
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Plans: Concepts

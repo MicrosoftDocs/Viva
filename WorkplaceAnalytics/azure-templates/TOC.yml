@@ -14,7 +14,13 @@
   - name: Join Datasets
     href: ./join-datasets.md
   - name: Organizational Network Analysis
-    href: ./organization-network-analysis.md
+    items: 
+    - name: Introduction
+      href: ./organization-network-analysis.md
+    - name: Insights
+      href: ./ona-insights.md
+    - name: Analysis
+      href: ./ona-analysis.md
   - name: Process Explorer
     href: ./process-explorer.md
   - name: Relationship Intelligence

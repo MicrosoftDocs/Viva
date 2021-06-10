@@ -5,6 +5,9 @@ localization_priority: normal
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
+ms.topic: article
+manager: scott.ruble
+audience: Admin
 ---
 
 # Power BI dashboard demos
@@ -15,7 +18,6 @@ The following are interactive demonstrations of the Power BI dashboards availabl
 |------|-------|
 |![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Behavior patterns demo**](./power-bi-glint.md#demonstration) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
 |![Business communication icon](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Business continuity demo**](./power-bi-bc.md#demonstration)<br>Shows example insights into how shifting to remote work has impacted business. |
-|![Influencer icon](../images/wpa/playbooks/influencer-32x32.svg) |[**Influence insights demo**](./pbi-influence-db.md#demonstration) <br>Shows how you can learn who your influencers are and leverage their ability to disseminate information and effectively drive change. |
 |![Microsoft Teams insights icon](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Microsoft Teams insights demo**](./power-bi-teams.md#demonstration) <br>Shows sample data for insights into how adopting Microsoft Teams can affect collaboration and productivity in your organization. |
 |![Return to work icon](../images/wpa/playbooks/meetings-32x32.svg) |[**Return to worksites demo**](./power-bi-return-tw.md#demonstration) <br>Shows how to plan who returns to work, and when, where, and how they do for the different work locations. |
 |![Sales business continuity icon](../images/wpa/playbooks/manage-connectedness-32x32.svg) |[**Sales business continuity demo**](./pbi-bc-sales.md#demonstration) <br>Shows sample insights into how shifting to remote work has impacted your sales organization. |

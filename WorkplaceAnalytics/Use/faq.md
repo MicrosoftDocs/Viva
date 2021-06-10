@@ -67,19 +67,23 @@ A2. Workplace Analytics is not available in data cloud environments that Microso
 
 ### Language support
 
-##### Q1. Can I upload an organizational data file that has non-English words or letters?
+##### Q1. Can I use Workplace Analytics in a language other than English?
 
-A1. Yes. The organizational data file can have non-English words or letters. Note the following: 
-   
- * File names and individual rows can have non-English words or letters.
- * Each column header must be mapped to an attribute with an English name.
+A1. Yes. See [Workplace Analytics language support and guidelines](../overview/supported-languages.md).
 
-##### Q2. Can I construct a query with filters and/or meeting subject lines that contain non-English words or letters?
+##### Q2. Can I upload an organizational data file that has non-English words or letters?
 
-A2. Yes. You can use filters in queries that include the following:
+A2. Yes. The organizational data file can have non-English words or letters. Note the following: 
+  
+* File names and individual rows can have non-English words or letters.
+* Each column header must be mapped to an attribute with an English name.
 
- * Attributes or values from your organizational data that include non-English words or characters.
- * Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
+##### Q3. Can I construct a query with filters and/or meeting subject lines that contain non-English words or letters?
+
+A3. Yes. You can use filters in queries that include the following:
+
+* Attributes or values from your organizational data that include non-English words or characters.
+* Meeting subject lines (which can include non-English words or characters) as specific filter criteria.
 
 For more information, see [Customize a base metric in a query](../tutorials/customize-a-metric.md).
 
@@ -121,7 +125,7 @@ A3. You can assign analysts the analyst (limited access) role, which limits them
 
 ##### Q4. Why are Start time and End time so important when configuring Workplace Analytics?
 
-A4. The Start time and End time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. <!--(Note that the system time zone is checked once a week, so if an employee travels for a short time the change in their local time might not be captured and reflected in their Start and End times.) --> See [Working days and hours](system-defaults.md#working-days-and-hours).
+A4. The Start time and End time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. <!--(Note that the system time zone is checked once a week, so if an employee travels for a short time the change in their local time might not be captured and reflected in their Start and End times.) --> See [Working days and working hours](system-defaults.md#working-days-and-working-hours).
 
 ##### Q5. Is there a maximum number of Workplace Analytics analyst roles that can be assigned?
 
@@ -210,7 +214,7 @@ A1.  This can happen if you selected only a subset of your population for data a
 
 ##### Q2. Why do the totals seem too high for internal and external collaborators?
 
-A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary header](explore-metrics-external-collaboration.md#summary-header) on the **External collaboration** page do not change because of filters that have been applied in **Page settings**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
+A2. The collaborator totals include the number of internal (or external) people with whom the measured employees have collaborated at least one time during the selected period. The totals that are included in the [Summary data](explore-metrics-external-collaboration.md#summary-data) on the **External collaboration** page do not change because of filters that have been applied in **Settings and filters**. For details, see [External collaboration](explore-metrics-external-collaboration.md).
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
@@ -243,7 +247,7 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
 
 ##### Q1. Why do I have fewer "filtered employees" than "measured employees" with no filters applied?
 
-A1. Employee data can change based on the Page settings that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Page settings](explore-metrics-external-collaboration.md#page-settings).
+A1. Employee data can change based on the Settings and filters that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Settings and filters in Explore the stats](explore-page-settings.md).
 
 ##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
 
@@ -369,7 +373,7 @@ A19. Yes. You can specify domains or email addresses to exclude by using the Pri
 
 ##### Q2. In what format do I save the data-upload file? 
 
-A2. Before you upload the data file, save it as a UTF-8 encoded .csv file in Excel. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/en-us/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
+A2. Before you upload the data file, save it as a UTF-8 encoded .csv file in Excel. Follow the steps in [Save a workbook to text format (.txt or .csv)](https://support.office.com/article/Save-a-workbook-to-text-format-txt-or-csv-3E9A9D6C-70DA-4255-AA28-FCACF1F081E6) and select to save the file as a **CSV UTF-8** file:
 
 ![CSV UTF-8 file](../Images/WpA/Use/csv-utf-8.png)
 

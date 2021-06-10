@@ -2,16 +2,18 @@
 
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Queries overview
 
-Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, and **Peer Comparison**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
+Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
 ![Ways to query data](../Images/WpA/Use/ways-to-query-data.png)
 
@@ -77,16 +79,21 @@ As with a group-to-group query, you can define the person (or time investor) and
 
 You can choose to analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor.
 
-See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more. 
+See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more.
 
-## Peer Comparison query
+## Peer comparison query
 
-The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics,and their peer group's averages for those metrics.
+The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics.
 
-You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group that is defined by organizational attributes you have uploaded.
+You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
 
-See [Peer Comparison queries](../Tutorials/comparison-query.md) to learn more.
+See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
 
+## Network queries
+
+You can use the Organizational network analysis (ONA) queries in Workplace Analytics to find out who are the best-connected people in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
+
+See [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) for more details.
 ## Meeting exclusions
 
 You can use meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
@@ -99,13 +106,13 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally,  to address the problem, the analyst could work with a program to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
 
-There are three ways to create queries:
+You can create queries in the following ways:
 
-* Edit and use a [predefined query template](#predefined-query-templates)
-* Create your own custom query
-* Open and edit a previously run query
+* Edit and use a [predefined query template](#predefined-query-templates).
+* Create your own custom query.
+* Open and edit a previously run query.
 
 When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
@@ -113,23 +120,12 @@ When you create a new query or edit an existing query, you can select the metric
 
 ## Predefined query templates
 
-Workplace Analytics includes a number of predefined query templates to help you get started with queries, including the following:
+Workplace Analytics includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
 
-* **Quickstart overview** is a Power BI template that gives a high-level view of key organizational metrics.
-* **Collaboration overload** is a Power BI template that identifies collaboration patterns.
-* **Influence insights** is a Power BI template that helps you understand where influencers are represented in your company.
-* **Manager impact** is a Power BI template that analyzes manager trends.
-* **Build focus hours** finds groups that have the lowest amount of focus time.
-* **Calls and IMs** analyzes call and instant-message hours by person.
-* **Meetings attendees query** analyzes meeting hours by the number of attendees.
-* **Meetings day query** analyzes meeting hours by day of the week.
-* **Meetings duration query** analyzes meeting hours by duration.
-* **Meetings start time query** analyzes meeting hours by time of day.
-* **Protect after hours** finds groups that collaborate the most outside of work hours.
-* **Reduce meeting hours** finds groups that are overwhelmed by meetings.
-* **Standard query** provides all base metrics available for a person query.
+* **Domain collaboration** analyzes collaboration patterns with external domains.
+* **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
+* **Standard person query** analyzes collaboration patterns by using the available base person query metrics.
 * **Hourly collaboration** analyzes meeting, email, instant-message, and call activity by hour of the day.
-* **Business continuity** tracks business continuity in Power BI, which requires Hourly collaboration query results. 
 
 ## Videos
 
@@ -149,8 +145,6 @@ The _Expensive meetings_ video demonstrates how to work with a [meeting query](m
 
 ## Related topics
 
-[Power BI templates](../Tutorials/Power-bi-templates.md)
-
-[Workplace Analytics glossary](../Use/Glossary.md)
-
-[Metric descriptions](../Use/Metric-definitions.md)
+* [Power BI templates](../Tutorials/Power-bi-templates.md)
+* [Workplace Analytics glossary](../Use/Glossary.md)
+* [Metric descriptions](../Use/Metric-definitions.md)

@@ -97,7 +97,7 @@ The following video describes which attributes are required and optional in your
 
 ### Which employees to include
 
-It's best to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
+At a minimum, include the organizational data for all employees who have Workplace Analytics licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
 
 > [!Important]
 > If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
@@ -105,6 +105,36 @@ It's best to include every person in your company as part of your data upload, e
 For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
+
+## Include all licensed employees
+
+It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the [right people](#which-employees-to-include) and include the [right attributes](#know-what-data-to-include) for those people.
+
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
+
+If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
+
+* <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
+
+   ![Admin notification](../images/wpa/setup/admin-page-bell.png)
+
+   To see your notifications, select the bell icon. 
+
+* <u>Banner</u> &ndash; It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
+
+   ![Banner for missing org data](../images/wpa/setup/admin-page-missing-licensed.png)
+
+   To respond to this warning, follow the steps in [Upload missing organizational data](#upload-missing-organizational-data).
+
+### Upload missing organizational data
+
+1. Select **Download**. This downloads a .csv file that contains the names of licensed employees whose organizational data is missing. For example:
+
+   ![Missing org data names](../images/wpa/setup/sample-csv-file.png)
+
+2. Open the .csv file.
+3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
+4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
 
 ## Get an export of organizational data
 
@@ -141,27 +171,32 @@ The following must be supplied with the exact column headers in the .csv upload,
 * ManagerId
 * Organization (case sensitive)
 
+>[!Note]
+>The names of these required attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).  
+
 ### Reserved optional attributes
 
 These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
 
-* FunctionType (case sensitive)
-* HireDate
-* HourlyRate
-* Layer
-* SupervisorIndicator (case sensitive)
-* TimeZone
-
-Although these attributes are not required, if included, they must meet particular coverage requirements.
+|  Attribute  |Case sensitive? |  If used, does a validation<p>threshold apply? | Can be used as the name of a<p>[custom attribute](#custom-attributes)? |  
+| ------------- | ---- | ---- | ---- | ---- |
+| FunctionType         | Yes  | Yes  | No   |
+| HireDate             | No   | Yes  | No   |
+| HourlyRate           | No   | Yes  | No   |
+| Layer                | No   | Yes  | No   |
+| SupervisorIndicator  | Yes  | Yes  | No   |
+| TimeZone             | No   | Yes  | No   |
+| GroupId              | No   | No   | No   |
 
 ### Custom attributes
 
 These are any additional attributes you want to define to use in filtering and grouping data.
 
 >[!Note]
+>
 >* The maximum number of total attributes allowed in the system is 105, which includes the five required attributes.
 >* All dates should be in the MM/DD/YYYY format.
->* Numerical fields (such as "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
+>* All numerical fields (such as the required attribute "HourlyRate") must be in the "number" format and cannot contain commas or a dollar sign.
 
 For more information, see [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and [Video: What to include in the upload](#video-what-to-include-in-the-upload).
 
@@ -220,7 +255,7 @@ EffectiveDate |Date for which the given attribute value applies for the employee
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), it is best to use the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
 |HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/admin-settings.md). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Microsoft 365 collaboration data. For more information, see [System defaults](../use/system-defaults.md).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 |Layer | The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../use/explore-intro.md) features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
-|SupervisorIndicator  | Use this attribute to view the habits of people managers or influencers in your organization in Power BI visualizations. It powers the Overview table, the Generated Workload charts that are generated when you use the Manager Impact [Power BI template](../tutorials/power-bi-templates.md), and the [Influence insights Power BI dashboard](../tutorials/pbi-influence-db.md). <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required if you want to use either of the following: <ul><li>the Manager impact dashboard in Power BI</li><li>the template that you use to create the [Influence insights Power BI dashboard](../tutorials/pbi-influence-db.md)</li></ul>  |
+|SupervisorIndicator  | Use this attribute to view the habits of people managers or influencers in your organization in Power BI visualizations. It powers the Overview table, the Generated Workload charts that are generated when you use a [Power BI template](../tutorials/power-bi-templates.md) that requires it. <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required for some of the Power BI templates, such as the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md).|
 |TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If it is not included, the default time zone will be used.|
 |Any user-defined columns | Additional columns can represent any data that you want to use in queries to group and filter employee records. | No coverage requirements. |
 

@@ -7,12 +7,13 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Focus
 
-The MyAnalytics Focus page shows weekly averages for the time you have available to focus and time spent collaborating with others in your network.
+The Focus page on the [MyAnalytics dashboard](dashboard-2.md) shows weekly averages for the time you have available to focus and time spent collaborating with others in your network.
 
 ![Focus page in MyAnalytics](../../Images/mya/use/focus.png)
 

@@ -6,6 +6,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 # Insights Outlook add-in
 
@@ -138,9 +140,10 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 ## Opt out of the Insights Outlook add-in
 
-#### To opt out
+### To opt out
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
+
 2. Select the **Settings** (gear) icon at top right.
 
     ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
@@ -154,6 +157,20 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 > [!NOTE]
 > It might take up to 24 hours for your saved changes to take effect.
+
+### To remove the Insights icon
+
+If you opt out of the Insights Outlook add-in, you might also want to remove its icon from the Outlook ribbon. To do so, follow these steps:
+
+1. In Outlook, select **Get Add-ins**.
+
+   ![Select Get Add-ins](../../Images/mya/use/select-get-add-ins.png)
+
+2. On the left navigation pane, select **My add-ins**.
+
+3. On the **Insights** card, select the ellipsis (**...**) and then select **Remove**.
+
+   ![Options on Insights card](../../Images/mya/use/insights-card-remove-icon.png)
 
 ### If I am opted out, can I opt back in?
 

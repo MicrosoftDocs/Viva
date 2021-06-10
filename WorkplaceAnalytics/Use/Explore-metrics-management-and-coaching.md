@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Management and coaching
@@ -17,7 +19,7 @@ ms.prod: wpa
 
 ## Access to Management and coaching
 
-**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/Home/OrganizationalResiliency/ManagementCoaching) to view it in Workplace Analytics.
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) to view it in Workplace Analytics.
 
 ## Time with manager
 

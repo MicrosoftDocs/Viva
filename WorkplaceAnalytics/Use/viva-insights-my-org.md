@@ -7,13 +7,16 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
+
 ---
 
 # My organization in Viva Insights
 
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
-![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+![Outcomes page](../images/wpa/use/viva-org-outcomes-2.png)
 
 While you can also see these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams. That's because you're already using Teams for communicating during remote work, namely for meeting, for sharing files, and for sending IMs to employees and other leaders.
 
@@ -56,9 +59,9 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
 
-5. Select **Add for me**:
+5. Select **Add**:
 
-   ![Add for me button](../images/mya/use/add-for-me-new-410.png)
+   ![Add for me button](../images/mya/use/add-for-me.png)
 
 This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
@@ -114,23 +117,33 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
 5. To give a person access to leader insights, assign the _Analyst (Limited)_ role of Workplace Analytics to that person. (See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../use/user-roles.md#role-descriptions-and-access-levels).)
 
-## Use the My organization page
+## Open the My organization page
 
-The My organization page in the Viva insights app shows the following outcomes:
+1. On the Teams app bar (the left navigation bar), select **Insights**: 
+   
+   ![Insights icon](../images/wpa/use/insights-icon.png)
 
-* Organizational resiliency
-* Employee engagement
-* Improve agility
-* Foster innovation
-* Effective managers
-* Operational effectiveness
-* Accelerate change
-* Transform meeting culture
-* Increase customer focus
+2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card. 
 
-![outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+   ![Insights Home page](../images/wpa/use/home-mgr.png)
 
-To use the My organization page, first view the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/insights/viva-insights-home).
+
+3. On the menu bar at the top of the page, select **My organization**. The My organization page opens to show the following outcomes:
+
+   * Organizational resiliency
+   * Employee engagement
+   * Improve agility
+   * Foster innovation
+   * Effective managers
+   * Operational effectiveness
+   * Accelerate change
+   * Transform meeting culture
+   * Increase customer focus
+
+   ![Outcomes on the Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+
+4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
 ### Drill down to the insights level
 
@@ -199,7 +212,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 ##### Q2. How can I send feedback to Microsoft about the Viva Insights app?
 
-**A4.** You can provide feedback through the Insights app as follows:
+**A2.** You can provide feedback through the Insights app as follows:
 
 * For the "Is this helpful?" question near the bottom of every Insight, select **Yes** or **No** to provide feedback.  
 
@@ -210,6 +223,12 @@ These outcomes, insights, and best practices are described in the Workplace Anal
    After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** check box if you’d like Microsoft to contact you to follow up on your feedback.
 
    ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
+
+##### Q3. Can a user gain access to the user experience of a manager or a leader?
+
+**A3.** Yes. You gain access to an experience if you fulfill the requirements for that experience; for example, if you've been assigned the correct role:
+ * To see the prerequisites for the manager (My team) experience, see [My team/Prerequisites](viva-insights-my-team.md#prerequisites).
+ * To see the prerequisites for the leader (My organization) experience, see [My organization/Prerequisites](#prerequisites).
 
 ## Related topics
 

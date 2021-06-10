@@ -7,7 +7,8 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: priority 
 ms.prod: Mya
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # MyAnalytics dashboard
@@ -48,13 +49,11 @@ The Collaboration section shows the people you actively collaborated with based 
 
 For more details and tips, see [Network](../use/network.md) and [Collaboration](../use/collaboration.md).
 
-<!-- REMOVE THIS (6/2/2020) FOR THE TIME BEING. PETERB WILL SAY WHEN TO REINSTATE IT. AT THAT TIME, ALSO RE-ADD LEADERSHIP.MD TO THE TOC AND UN-HIDE IT FROM WEB SEARCHES. 
+<!-- REMOVE THIS (6/2/2020) FOR THE TIME BEING. PETERB WILL SAY WHEN TO REINSTATE IT. AT THAT TIME, ALSO RE-ADD LEADERSHIP.MD TO THE TOC AND UN-HIDE IT FROM WEB SEARCHES. -->
 
-## Leadership 
+## Leadership
 
 If you're a people manager, the Leadership page shows information about your relationships with team members. For more details, see [Leadership](leadership.md). 
-
--->
 
 ## Productivity insights
 

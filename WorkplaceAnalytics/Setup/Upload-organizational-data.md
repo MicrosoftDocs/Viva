@@ -1,6 +1,6 @@
 ---
 
-title: Upload organizational data to Workplace Analytics (subsequent uploads)
+title: Subsequent organizational data uploads
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: madehmer
 ms.author: v-pausch

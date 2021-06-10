@@ -7,6 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Behavior patterns for Glint
@@ -91,6 +93,9 @@ The following is required before you can run the query in Workplace Analytics an
 6. Save the spreadsheet in an accessible location.
 
 ## Get the Workplace Analytics data
+
+>[!Note]
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Behavior patterns for Glint** to open the predefined query.

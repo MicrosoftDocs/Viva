@@ -11,6 +11,8 @@ ms.date: 04/08/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
+manager: scott.ruble
+audience: Admin
 ---
 
 # Add top collaborator card 

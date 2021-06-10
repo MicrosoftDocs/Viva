@@ -6,12 +6,13 @@ ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Network
 
-The MyAnalytics Network page shows how many people you actively connect with in the last month and gives you suggestions on how to improve connections with your most important contacts, such as your manager or your direct reports.
+The Network page on the [MyAnalytics dashboard](dashboard-2.md) shows how many people you actively connect with in the last month and gives you suggestions on how to improve connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 

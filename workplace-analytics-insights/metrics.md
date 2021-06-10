@@ -8,6 +8,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: none 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 
 ---
 # Metrics used in Microsoft 365 Insights

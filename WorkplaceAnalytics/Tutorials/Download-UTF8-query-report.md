@@ -9,6 +9,8 @@ ms.author: v-mideh
 ms.topic: troubleshooting
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Download a query report in UTF-8 format

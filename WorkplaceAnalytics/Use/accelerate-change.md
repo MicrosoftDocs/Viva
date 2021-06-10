@@ -7,12 +7,14 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
+manager: scott.ruble
+audience: Admin
 ---
 
 # Accelerate change
 
-> [!Important]
-> This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert for **Accelerate change** about it being "unavailable because the minimum number of employees is not met."
+>[!Important]
+>This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert for **Accelerate change** about it being "unavailable because the minimum number of employees is not met."
 
 Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
