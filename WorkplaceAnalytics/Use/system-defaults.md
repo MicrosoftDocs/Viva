@@ -38,7 +38,7 @@ If you are not setting up Workplace Analytics, feel free to change these setting
 
 **Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin settings](../images/wpa/use/sys-defaults.png)
+![Admin settings](../images/wpa/use/sys-def-page.png)
 
 ## Default time zone
 
