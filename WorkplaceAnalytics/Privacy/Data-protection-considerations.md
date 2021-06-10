@@ -167,11 +167,7 @@ Under the GDPR, data subjects may have rights to request exclusion from processi
 
 * **Correction** &ndash; Data subjects have the right to rectify their personal data. Workplace Analytics only performs operations (mostly arithmetic) on data provided to it from other sources, such as email and meeting data from Microsoft 365 or the organizational data that you upload. This data is not corrected through Workplace Analytics.
 
-* **Deletion** &ndash; Microsoft supports the GDPR [Right to erasure](https://docs.microsoft.com/compliance/regulatory/gdpr-dsr-Office365#deleting-personal-data). Additionally, if necessary, customers themselves can also delete reports that identify the data subject. Customers can also delete the data subject from any other data (such as organizational data or CRM data) that they may have provided to Workplace Analytics.
-
-* TEST 1 [Right to erasure](/compliance/regulatory/gdpr-dsr-Office365)
-
-* TEST 2 [Right to erasure](/compliance/regulatory/gdpr-dsr-Office365#deleting-personal-data)
+* **Deletion** &ndash; Microsoft supports the GDPR [Right to erasure](/compliance/regulatory/gdpr-dsr-Office365#deleting-personal-data). Additionally, if necessary, customers themselves can also delete reports that identify the data subject. Customers can also delete the data subject from any other data (such as organizational data or CRM data) that they may have provided to Workplace Analytics.
 
 * **Transparency regarding processing** - See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Workplace Analytics, and what they mean.  
 
