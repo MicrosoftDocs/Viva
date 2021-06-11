@@ -26,6 +26,12 @@ Viva Insights has introduced a curated set of guided meditations and Focus music
 > [!NOTE]
 > As of June 2021, Headspace is only available to users who have their language in Teams set to English. Additional languages will be supported soon.  
 
+<!-- USE THE FOLLOWING NOTE INSTEAD OF THE PREVIOUS ONE IN THE VERSION THAT GETS RELEASED PUBLICLY ON JUNE 17TH  
+
+> [!NOTE]
+> The Headspace experience will roll out starting in late June 2021 to users who have their language in Teams set to English. Additional languages will be supported soon.
+-->
+
 ## Start a guided meditation
 
 Any time you want, you can start a guided meditation that's been designed for the current time of day:
