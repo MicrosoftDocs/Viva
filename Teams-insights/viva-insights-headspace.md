@@ -14,6 +14,10 @@ audience: Admin
 
 # Mindfulness content from Headspace
 
+<!-- PUBLISH THE PAS-AM-headspace WORKING BRANCH AT 6:00 AM PDT on June 17, 2021!  -->
+
+<!-- DELETE THE FOLLOWING NOTE BEFORE PUBLISHING THE PAS-AM-headspace WORKING BRANCH TO LIVE!  -->
+
 > [!NOTE]
 > The Headspace experience is currently internal only and will not be disclosed to customers until 6:00 AM PDT on June 17, 2021. Please do not share this documentation broadly.
 
