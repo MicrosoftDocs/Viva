@@ -38,7 +38,7 @@ You use these features without leaving the Home page. Just follow the instructio
 * [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**. 
 
 > [!NOTE]
-> As of June 2021, Headspace is only available to users who have their language in Teams set to English. (Additional languages will be supported in the future.) The **Take a break** option is available to those who do not have their default language set to English.  
+> As of June 2021, Headspace is only available to users who have their language in Teams set to English. (Additional languages will be supported soon.) The **Take a break** option is available to those who do not have their default language set to English.  
 
 For the next three cards, you can take a quick action while remaining on the Home page. Alternatively, you can open the full feature (and leave the Home page) by selecting another option on the card &ndash; such as **More insights**.
 
