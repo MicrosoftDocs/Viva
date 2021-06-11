@@ -17,7 +17,7 @@ audience: Admin
 > [!NOTE]
 > The Headspace experience is currently internal only and will not be disclosed to customers until 6:00 AM PDT on June 17, 2021. Please do not share this documentation broadly.
 
-Viva Insights has introduced a curated set of guided meditations and focus music from Headspace. Reach these resources on the [Home](viva-insights-home.md) page to help you start your day grounded, relax your mind before a big presentation, or find focus before starting an important project. <!-- VERIFY WITH ANJI BUT KEEPING THIS OUT FOR NOW: A Headspace meditation to mindfully wrap up the day will also be integrated into the virtual commute. --> In just a few minutes a day, meditation and mindfulness with Headspace can help you decrease stress, reduce burnout, and increase focus.
+Viva Insights has introduced a curated set of guided meditations and Focus music from Headspace. Reach these resources on the [Home](viva-insights-home.md) page to help you start your day grounded, relax your mind before a big presentation, or find focus before starting an important project. <!-- VERIFY WITH ANJI BUT KEEPING THIS OUT FOR NOW: A Headspace meditation to mindfully wrap up the day will also be integrated into the virtual commute. --> In just a few minutes a day, meditation and mindfulness with Headspace can help you decrease stress and increase focus.
 
 > [!NOTE]
 > As of June 2021, Headspace is only available to users who have their language in Teams set to English. Additional languages will be supported soon.  
