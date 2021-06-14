@@ -15,7 +15,7 @@ audience: Admin
 When you're ready to roll out manager insights to your organization, do the following to introduce and educate managers on how to use Microsoft Viva Insights and Workplace Analytics to better understand their team collaboration habits and to apply them to better support their teams.
 
 >[!Note]
->As of late June 2021, the apps will no longer send an automated welcome email to managers who get access to My team in Viva Insights or to Manager insights in Workplace Analytics. To introduce these insights to your managers, use the following sample email as a template for sending your own introductory email.
+>By late June 2021, the apps will no longer send an automated welcome email to managers who get access to My team in Viva Insights or to Manager insights in Workplace Analytics. To introduce these insights to your managers, use the following sample email as a template for sending your own introductory email.
 
 * **Enable for key leaders** - Enable My team in Viva Insights and Manager insights for key leaders, so they can learn about them first hand and understand their value. For those who are new to Workplace Analytics, you can also share this [Introduction to Workplace Analytics video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true).
 
@@ -25,10 +25,10 @@ When you're ready to roll out manager insights to your organization, do the foll
 
 For comprehensive guidance on how to formally roll out manager insights to your team, see the [Workplace Analytics Manager insights rollout guide](https://download.microsoft.com/download/8/6/5/8654a87d-311a-4203-b702-2555b7a0656a/manager-insights-rollout.pdf).
 
-## Downloadable resources
+## Resources
 
 You can use the following sample content to introduce My team or Manager insights to your organization. You can customize these samples to include information specific to your company, such as adding a logo or custom header and footer information.
 
 * [Introductory email to your managers](./email-to-managers.docx)
-* [Manager insights in Workplace Analytics](./manager-insights-overview.docx)
-* [My team in Viva Insights](../use/viva-insights-my-team.md)
+* [Manager insights in Workplace Analytics](./manager-insights-intro.docx)
+* [My Team in Viva Insights](../use/viva-insights-my-team.md)

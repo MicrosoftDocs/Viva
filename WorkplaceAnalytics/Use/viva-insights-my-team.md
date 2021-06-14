@@ -1,7 +1,7 @@
 ---
 
 title: Microsoft Viva Insights about my team
-description: The My team page in the Microsoft Viva Insights app 
+description: The My Team page in the Microsoft Viva Insights app 
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -12,10 +12,9 @@ audience: Admin
 
 ---
 
-# My team in Viva Insights
+# My Team in Viva Insights
 
-You can view manager insights on the **My team** page in the Microsoft Viva Insights app in Microsoft Teams. 
-Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
+You can view manager insights on the **My Team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
 ![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
 
@@ -37,7 +36,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Prerequisites
 
-For you to obtain access to the **My team** page, the following must be in place:
+For you to obtain access to the **My Team** page, the following must be in place:
 
 * **Manager access** &ndash; Confirm that the Workplace Analytics admin has set to "on" the manager setting that enables managers to see Team insights. Admins make this setting in Workplace Analytics in the [Manager settings](../use/manager-settings.md).
 * **No other roles** &ndash; You have been assigned _no other_ Workplace Analytics role, including admin, analyst, or program manager.
