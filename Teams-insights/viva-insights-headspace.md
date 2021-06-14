@@ -68,7 +68,7 @@ You can open Headspace in a new window. This lets you play its musical meditatio
 
 4. In this second window, start Headspace and then start a meditation as described in [Start a guided meditation](#start-a-guided-meditation).
 
-5. Optionally, minimize the instance of Insights that you just opened. You can continue working in Teams in the original Teams window.
+5. Optionally, minimize the Insights window that you just opened. You can continue working in Teams in the original Teams window.
 
 ## Related topics
 
