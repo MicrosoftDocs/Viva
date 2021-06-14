@@ -50,7 +50,7 @@ Any time you want, you can start a guided meditation that's been designed for th
 
 4. Under **Practice mindfulness**, select a meditation option in the **Guided meditations** area or a musical option in the **Focus music** area:
 
-   ![Mindfulness options is running](images/mindful-options.png)
+   ![Mindfulness option is running](images/mindful-options.png)
 
 ## Run Headspace in the background
 
