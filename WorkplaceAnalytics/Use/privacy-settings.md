@@ -30,7 +30,7 @@ You can use privacy settings to:
 
 Admins make privacy settings on the **Exclusions** section of the **System defaults** page in the setup sequence of Workplace Analytics.
 
-![Admin privacy settings](../images/wpa/use/wpa-setup-exclusions.png)
+![Admin privacy settings](../images/wpa/use/exclusions.png)
 
 <!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
 

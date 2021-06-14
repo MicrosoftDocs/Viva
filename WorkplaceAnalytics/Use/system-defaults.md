@@ -22,25 +22,23 @@ In **System defaults**, you can configure the following:
 * [Working days](#to-set-default-working-days)
 * [Working hours](#to-set-default-working-hours)
 * [Hourly rate](#hourly-rate)
+* [Reclassify external domains](#reclassify-external-domains)
 
-If you are setting up Workplace Analytics, follow these steps:
+If you are setting up Workplace Analytics for the first time, follow these steps:
 
 1. Examine the default values of these **System defaults** settings. Either accept these default values or change one or more of them. 
 2. Expand the **Exclusions** section and look at its settings. (For more information about these settings, see [Privacy settings / Exclusions](privacy-settings.md).)
 3. Optionally, specify data to exclude in one or the **Exclusion** options and, optionally, select to hash subject lines.
 4. Select **Next**. Workplace Analytics now begins to process your organization's collaboration (Microsoft 365) data.
 
-If you are not setting up Workplace Analytics, feel free to change these settings whenever it's necessary.
-
-<!-- REMOVING THIS PER NEW REARRANGEMENT BY NISHANT MAY 2021:
-* [Reclassify external domains](#reclassify-external-domains) -->
+If you are _not_ setting up Workplace Analytics, feel free to change these settings whenever it's necessary. Note that after setup of Workplace Analytics is complete, the exclusions settings are made on the **Privacy settings** page, which you can open by selecting the **Privacy** option on the menu at the top of the **System defaults** page.
 
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
 **Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin settings](../images/wpa/use/wpa-setup-start.png)
+![Admin settings](../images/wpa/use/sys-def-page.png)
 
 ## Default time zone
 
@@ -78,8 +76,6 @@ Workplace Analytics uses hourly rate to calculate the cost of low-quality meetin
 1. For **Hourly rate**, enter an average employee hourly rate to use by default for analysis.
 2. Select **Save**.
 
-<!-- REMOVING THIS SECTION FOR NOW. IT'S GONE FROM BOTH THE SPEC AND FROM FIGMA (MAY 2021)
-
 ## Reclassify external domains
 
 You can use this setting to reclassify one or more external domains as internal, which includes them in your organizational data analysis.
@@ -96,8 +92,6 @@ After you add a domain and save the change for this setting, it'll change all of
 
 1. For **Reclassify external domain**, enter an external domain in the search field, and then select it to reclassify it as internal to your organization.
 2. Select **Save** (top right of page).
-
--->
 
 ## Related topics
 
