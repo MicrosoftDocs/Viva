@@ -115,6 +115,7 @@ Peer-comparison queries use the same metrics as person queries. See [Person metr
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
+| Channel messages sent | Total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. | Group | Count | Yes |
 | <a name="collaboration-hours-define"></a> Collaboration hours | Number of hours spent in meetings, emails, IMs, and calls, after deduplication of time due to overlapping activities (for example, calls during a meeting) between the time investor and collaborator groups.  |Group|Hour|No|
 | <a name="email-hours-define"></a> Email hours | Number of hours spent sending and receiving emails between the time investor and collaborator groups.  |Group|Hour|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
@@ -127,6 +128,7 @@ Peer-comparison queries use the same metrics as person queries. See [Person metr
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
+| Channel messages sent | Total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. | Group | Count | Yes |
 | <a name="diverse-tie-score-define"></a> Collaboration hours | Number of hours that the time investor spent in meetings, emails, IMs, and calls with one or more people in the collaborator group, after deduplication of time due to overlapping activities (for example, calls during a meeting). |Group|Hour|No|
 |Email count|Count of unique email exchanges (sent and received) that the time investor had with one or more people in the collaborator group. |Group|Count|No|
 | <a name="email-hours-define"></a> Email hours| Number of hours that the time investor spent sending and receiving emails with one or more people in the collaborator group.  |Group|Hour|No|
