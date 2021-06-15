@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights app - Overview
-description: Microsoft Viva Insights (personal insights) app -- Overview 
+title: Viva Insights in Teams
+description: Learn about the Microsoft Viva Insights (personal insights) app.
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -12,7 +12,7 @@ audience: Admin
 
 ---
 
-# Microsoft Viva Insights app in Microsoft Teams 
+# Viva Insights in Teams 
 
 Microsoft Viva Insights provides personalized recommendations to help you do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
@@ -36,17 +36,13 @@ The personal insights and actions in the Viva Insights app are based on your Exc
 
 <!--   VERIFY THAT THE FOLLOWING NOTE STILL APPLIES   -->
 
-> [!Note]
-> To have access to the Viva Insights app, you will need an Exchange Online license.
+>[!Note]
+>To have access to the Viva Insights app, you will need an Exchange Online license.
 
 ## Related topics
 
-[Microsoft Viva Insights app Home page](viva-insights-home.md)
-
-[Privacy guide](viva-teams-app-privacy.md)
-
-[Install the Microsoft Viva Insights app](viva-teams-app-install.md)
-
-[Frequently asked questions](viva-teams-app-faq.md)
-
-[Admin tasks](viva-teams-app-admin-tasks.md)
+* [Microsoft Viva Insights app Home page](viva-insights-home.md)
+* [Privacy guide](viva-teams-app-privacy.md)
+* [Install the Microsoft Viva Insights app](viva-teams-app-install.md)
+* [FAQ](viva-teams-app-faq.md)
+* [Admin tasks](viva-teams-app-admin-tasks.md)

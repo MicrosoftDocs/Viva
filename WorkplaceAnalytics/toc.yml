@@ -137,7 +137,7 @@
                   href: ~/Use/pm-home.md
                 - name: Rollout to managers
                   href: ~/manager-insights/rollout.md
-                - name: FAQs
+                - name: FAQ
                   href: ~/Use/insight-faqs.md
         - name: Analyze
           items:        
@@ -242,7 +242,7 @@
               href: ~/Use/solutions-scan.md
     - name: Notifications 
       href: ~/use/wpa-notifications.md 
-    - name: Frequently asked questions
+    - name: FAQ
       href: ~/use/faq.md
     - name: Reference
       items:
@@ -277,7 +277,7 @@
       href: MyAnalytics/Overview/Better-work-habits.md
     - name: Reference
       items:
-        - name: Frequently asked questions
+        - name: FAQ
           href: MyAnalytics/Overview/mya-faq.md
         - name: MyAnalytics languages
           href: myanalytics/overview/mya-languages.md

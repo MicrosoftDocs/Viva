@@ -1,7 +1,7 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Insights FAQs
+title: Insights FAQ
 description: Answers to the most frequently asked questions about Insights
 author: madehmer
 ms.author: v-mideh
@@ -12,7 +12,7 @@ manager: scott.ruble
 audience: Admin
 
 ---
-# Frequently asked questions about Insights
+# Insights FAQ
 
 *This experience is only available through private preview at this time.*
 

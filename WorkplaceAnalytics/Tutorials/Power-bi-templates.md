@@ -1,7 +1,7 @@
 ---
 
-title: Power BI template tips, troubleshooting, and FAQs
-description: Learn some tips, troubleshooting, and answers to the most frequently asked questions when setting up and using the Workplace Analytics Power BI templates
+title: Power BI template tips, troubleshooting, and FAQ
+description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Workplace Analytics Power BI templates
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,9 +11,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Power BI template tips, FAQs, and troubleshooting
+# Power BI template tips, FAQ, and troubleshooting
 
-The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues when setting up and using the Power BI templates in Workplace Analytics.
+The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Power BI templates in Workplace Analytics.
 
 ## Power BI tips
 
@@ -34,7 +34,7 @@ Anyone you share the Power BI *desktop file* with can access the underlying data
 * **Share as a PDF or other static file** - This option generates a report that's not interactive. See [Export reports from Power BI to PDF](/power-bi/consumer/end-user-pdf).
 * **Publish the report to Power BI Service and share insights in an app** - This option allows other users to navigate the dashboard without access to the underlying data. See [Distribute insights in an app](/power-bi/service-how-to-collaborate-distribute-dashboards-reports#distribute-insights-in-an-app) for details.
 
-## Frequently asked questions
+## FAQ
 
 ##### Q1 Who can create the dashboard in Power BI?
 

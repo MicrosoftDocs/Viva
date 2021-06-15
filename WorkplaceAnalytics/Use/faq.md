@@ -12,7 +12,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Frequently Asked Questions for Workplace Analytics
+# Workplace Analytics FAQ
 
 The most commonly asked questions and answers about Workplace Analytics are grouped into the following sections:
 
