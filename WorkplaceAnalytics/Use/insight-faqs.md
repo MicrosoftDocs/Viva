@@ -11,15 +11,15 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Frequently asked questions for manager insights
+# Manager insights FAQ
 
-##### Q1 Which roles have access to this manager insights page?
+##### Q1 Which roles have access to manager insights in Viva Insights and Workplace Analytics?
 
-Only managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see insights about their teams.
+Only managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see insights about their teams in Viva Insights and Workplace Analytics.
 
 ##### Q2 Who is included as a measured employee?
 
-Measured employees include those who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the Admin.
+Measured employees include those who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the admin.
 
 ##### Q3 Why is the number of measured employees different from my current number of direct and indirect reports?
 
@@ -44,6 +44,6 @@ While this capability is currently unavailable, it is planned for a future relea
 
 Employees might not be eligible for a plan if:
 
-* They do not have MyAnalytics enabled.
+* They do not have Viva Insights or MyAnalytics enabled.
 * Are already enrolled in an existing plan.
 * The team does not meet the minimum group size limit.

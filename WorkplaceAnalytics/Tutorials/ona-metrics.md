@@ -117,7 +117,7 @@ Now, since they work on separate products, they tend to work with different peop
    * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
    * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
 
-## Frequently asked questions
+## FAQ
 
 The following questions and answers refer to metrics; you can find their definitions in [Metric descriptions / Person metrics](../use/metric-definitions.md#person-metrics) and in [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
 

@@ -204,7 +204,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see Q2 in the following section, [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
 
-## Frequently asked questions
+## FAQ
 
 ##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 

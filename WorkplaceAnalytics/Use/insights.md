@@ -68,7 +68,7 @@ In these ONA graphs, each dot or node represents an employee. Node measurements 
 
 When viewing Workplace Analytics insights, different error states can occur if access, connectivity, or other issues cause incomplete data. See [Error state reference](error-states.md) for more details.
 
-## Frequently asked questions
+## FAQ
 
 #### Q1 How do these insights accommodate different partitions?
 

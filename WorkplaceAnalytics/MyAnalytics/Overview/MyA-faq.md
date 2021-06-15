@@ -12,7 +12,7 @@ audience: Admin
 
 ---
 
-# Frequently asked questions for MyAnalytics
+# MyAnalytics FAQ
 
 The questions in this topic are organized into the following sections: 
 

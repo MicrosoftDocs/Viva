@@ -36,7 +36,7 @@ The following are some of the top-level business questions this report helps you
 |Are employees able to create and share effectively while working remotely? |As communication and ideation shifts from in-person to online, people need to embrace online collaboration tools and knowledge-sharing solutions to exchange ideas and insights, get feedback, and stay informed. |**Number of readers, creators, and collaborators over time** - Content collaboration is defined as one person creating and sharing an Office file, and then at least one other person editing it. |
 |Do employees feel a sense of belonging and inclusion at work? |Remote work can leave people feeling isolated. A feeling of belonging to a community is important for engagement and morale as people navigate this change from in-person to remote work. |**Yammer community interactions** - Team cohesion is measured by Yammer community interactions, including posts, likes, and reads. |
 
-## Frequently asked questions
+## FAQ
 
 #### Q1 How do I access the report?
 

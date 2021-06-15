@@ -160,7 +160,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
    > [!Note]
    > You cannot delete the Global partition. Only user-created partitions can be deleted.
 
-## Frequently asked questions
+## FAQ
 
 #### Q1. How can I start using partitions?
 
