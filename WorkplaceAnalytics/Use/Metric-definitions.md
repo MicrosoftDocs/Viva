@@ -68,14 +68,14 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-define"></a>  Meeting hours with manager | Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-1-1-define"></a> Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
-|Meetings hours with skip level|Number of meeting hours that the person attends where their manager's manager also attends the meeting.|Person|Hour|Yes|
-|Meetings|Number of meetings the person attended.|Person|Count|Yes|
-|Meetings with manager|Number of meetings where attendees include at least the person and their manager.|Person|Count|Yes|
-|Meetings with manager 1:1|Number of meetings involving only the person and their manager.|Person|Count|Yes|
-|Meetings with skip level|Number of meetings where the manager of the person's manager is an attendee.|Person|Count|Yes|
-|<a name="multitasking-meeting-hours-define"></a>Multitasking meeting hours|Number of meeting hours where the person sent:<ul><li>Two or more emails sent per meeting hour</li><li>Two or more emails sent per meeting for meetings less than one hour</li></ul>|Person|Hour|Yes|
-|Networking outside company|The number of distinct external domains outside the company a person has had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
-|Networking outside organization| The number of distinct organizational units within the company that the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
+| Meetings hours with skip level|Number of meeting hours that the person attends where their manager's manager also attends the meeting.|Person|Hour|Yes|
+| Meetings|Number of meetings the person attended.|Person|Count|Yes|
+| Meetings with manager|Number of meetings where attendees include at least the person and their manager.|Person|Count|Yes|
+| Meetings with manager 1:1|Number of meetings involving only the person and their manager.|Person|Count|Yes|
+| Meetings with skip level|Number of meetings where the manager of the person's manager is an attendee.|Person|Count|Yes|
+| <a name="multitasking-meeting-hours-define"></a>Multitasking meeting hours|Number of meeting hours where the person sent:<ul><li>Two or more emails sent per meeting hour</li><li>Two or more emails sent per meeting for meetings less than one hour</li></ul>|Person|Hour|Yes|
+| Networking outside company|The number of distinct external domains outside the company a person has had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
+| Networking outside organization| The number of distinct organizational units within the company that the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
 |Open 1 hour block |Number of one-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Open 2 hour blocks |Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Peer average (customer collaboration) | The total amount (in hours) of customer collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
