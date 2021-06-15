@@ -130,4 +130,4 @@ The following describes each report with specific nuances to consider for each.
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).

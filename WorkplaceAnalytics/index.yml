@@ -25,7 +25,7 @@ highlightedContent:
     - title: Data analysis
       itemType: how-to-guide
       url: ./overview/get-started.md
-    - title: Frequently asked questions
+    - title: FAQ
       itemType: reference
       url: ./use/faq.md
     - title: Plans
