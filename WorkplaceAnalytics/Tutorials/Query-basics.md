@@ -42,24 +42,23 @@ Your tenant's choice of billing model affects the appearance and behavior of the
 
 #### For analysts in PUPM tenants
 
-The query-creation pages show analysts no information about query usage or tenant billing. This is because billing charges accrue behind the scenes, independently of query usage:
+The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
 
 ![PUPM: no credits shown](../images/wpa/tutorials/pupm-no-credits.png)
 
-In the PUPM model, the design of your queries and the number of times that you run them has no effect on the amount that your organization is billed.
-
 #### For analysts in consumption-model tenants
 
-In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries.
+In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "credits," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used.
 
-Each query that is run consumes a number of "credits." The number of credits consumed is based on the following factors: the number of users being analyzed, the time period of the analysis, the number of base metrics in the query, and which base metrics are used.
-
+<!-- MAYBE DON'T NEED THIS:
 >[!Note]
->For more information about the ways these licensing models work, contact your Microsoft representative.
+>For more information about the ways these licensing models work, contact your Microsoft representative. -->
 
-As you create a query, Workplace Analytics uses these factors to calculate the cost of the query. A banner shows the estimated number of credits that the query &ndash; in its current state &ndash; would consume:
+As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. A banner shows the estimated number of credits that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
 ![Credits per query](../images/wpa/tutorials/conmod-credits.png)
+
+Above the banner, a field shows the credit balance &ndash; namely, how many credits remain in your tenant's account. Analysts can continue to run queries as long as this balance remains a positive number.
 
 ##### Query-results page
 
