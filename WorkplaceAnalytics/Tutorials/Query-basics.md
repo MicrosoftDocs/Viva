@@ -60,9 +60,11 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 
 Above the banner, a field shows the credit balance &ndash; namely, how many credits remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero credits.
 
-##### Query-results page
+##### Results page
 
-On the query **Results** page, the **Query Cost** column shows the number of credits charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+Analysts in a PUPM tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+
+For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of credits charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
 ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
