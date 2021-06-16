@@ -58,11 +58,11 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 
 ![Credits per query](../images/wpa/tutorials/conmod-credits.png)
 
-Above the banner, a field shows the credit balance &ndash; namely, how many credits remain in your tenant's account. Analysts can continue to run queries as long as this balance remains a positive number.
+Above the banner, a field shows the credit balance &ndash; namely, how many credits remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero credits.
 
 ##### Query-results page
 
-On the query **Results** page, the **Query cost** column shows the number of credits charged to each query. Select the **(i)** (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period: 
+On the query **Results** page, the **Query Cost** column shows the number of credits charged to each query. Select the **(i)** (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period: 
 
 ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
  
