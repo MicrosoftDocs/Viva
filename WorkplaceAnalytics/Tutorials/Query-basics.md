@@ -62,7 +62,7 @@ Above the banner, a field shows the credit balance &ndash; namely, how many cred
 
 ##### Query-results page
 
-On the query **Results** page, the **Query Cost** column shows the number of credits charged to each query. Select the **(i)** (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period: 
+On the query **Results** page, the **Query Cost** column shows the number of credits charged to each query. Select the ![More information](../images/wpa/tutorials/more-info.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period: 
 
 ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
  
