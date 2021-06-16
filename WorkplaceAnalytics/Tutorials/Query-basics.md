@@ -33,7 +33,7 @@ The results of any queries that you've already run remain available to you, even
 
 ### Billing model differences
 
-Organizations can subscribe to Workplace Analytics through either of the following licensing models:
+Organizations subscribe to Workplace Analytics through one of the following licensing models:
 
 * **Per user per month** &ndash; The organization pays Microsoft a monthly fee that is based on the number of licensed users.
 * **Consumption model** &ndash; The organization pays Microsoft a fee that is based on the volume of query usage.
@@ -41,13 +41,15 @@ Organizations can subscribe to Workplace Analytics through either of the followi
   >[!Note]
   >For more information about the ways these licensing models work, contact your Microsoft representative.
 
-Your organization's choice of licensing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. You'll see the following differences:
+Your organization's choice of licensing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
 
-
+#### For analysts with PUPM tenants
 
 On the query-creation pages, 
 
 ![Credits per query](../images/wpa/tutorials/credits-per-query.png)
+
+#### For analysts with consumption-model tenants
 
 ## Person query
 
@@ -56,8 +58,6 @@ Use a person query when you want to find broad trends in the organization by loo
 Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person and you can select to aggregate the results by day, week, or month.
 
 With a person query you can compare across individual activities and attributes, such as:
-
-[START HERE]
 
 * Time-use metrics
 * Organizational attributes
