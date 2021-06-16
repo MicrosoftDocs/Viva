@@ -41,9 +41,13 @@ Organizations can subscribe to Workplace Analytics through either of the followi
   >[!Note]
   >For more information about the ways these licensing models work, contact your Microsoft representative.
 
-Your organization's choice of licensing model affects the appearance and behavior of the pages for creating queries and the **Query results** page.
+Your organization's choice of licensing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. You'll see the following differences:
 
-![Credits per query](../Images/WpA/Use/credits-per-query.png)
+
+
+On the query-creation pages, 
+
+![Credits per query](../images/wpa/tutorials/credits-per-query.png)
 
 ## Person query
 
@@ -52,6 +56,8 @@ Use a person query when you want to find broad trends in the organization by loo
 Person query results show a de-identified list of the productivity metrics (such as time in meetings and email) of each measured employee. Each row of data represents one person and you can select to aggregate the results by day, week, or month.
 
 With a person query you can compare across individual activities and attributes, such as:
+
+[START HERE]
 
 * Time-use metrics
 * Organizational attributes
