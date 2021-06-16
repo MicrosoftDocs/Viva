@@ -48,7 +48,7 @@ The query-creation pages show analysts no information about query usage or tenan
 
 #### For analysts in consumption-model tenants
 
-In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "credits," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used.
+In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "credits," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers cause more credits to be consumed than metrics in lower price tiers.)
 
 <!-- MAYBE DON'T NEED THIS:
 >[!Note]
@@ -62,7 +62,7 @@ Above the banner, a field shows the credit balance &ndash; namely, how many cred
 
 ##### Query-results page
 
-On the query **Results** page, the **Query cost** column shows the number of credits charged to each query.  
+On the query **Results** page, the **Query cost** column shows the number of credits charged to each query. Select the **(i)** (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period: 
 
 ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
  
