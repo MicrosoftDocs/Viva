@@ -2,7 +2,7 @@
 
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -30,6 +30,20 @@ With these queries, you can:
 The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Microsoft 365 data](../use/office-365-data.md) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
+
+### Billing model differences
+
+Organizations can subscribe to Workplace Analytics through either of the following licensing models:
+
+* **Per user per month** &ndash; The organization pays Microsoft a monthly fee that is based on the number of licensed users.
+* **Consumption model** &ndash; The organization pays Microsoft a fee that is based on the volume of query usage.
+
+  >[!Note]
+  >For more information about the ways these licensing models work, contact your Microsoft representative.
+
+Your organization's choice of licensing model affects the appearance and behavior of the pages for creating queries and the **Query results** page.
+
+![Credits per query](../Images/WpA/Use/credits-per-query.png)
 
 ## Person query
 
