@@ -33,24 +33,34 @@ The results of any queries that you've already run remain available to you, even
 
 ### Billing model differences
 
-Organizations subscribe to Workplace Analytics through one of the following licensing models:
+Tenants subscribe to Workplace Analytics through one of the following billing models:
 
-* **Per user per month** &ndash; The organization pays Microsoft a monthly fee that is based on the number of licensed users.
-* **Consumption model** &ndash; The organization pays Microsoft a fee that is based on the volume of query usage.
+* **Per user per month (PUPM) model** &ndash; The tenant pays Microsoft a monthly fee that is based on the number of licensed users.
+* **Consumption model** &ndash; The tenant pays Microsoft a fee that is based on the volume of query usage.
 
   >[!Note]
   >For more information about the ways these licensing models work, contact your Microsoft representative.
 
-Your organization's choice of licensing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
+Your tenant's choice of billing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
 
-#### For analysts with PUPM tenants
+#### For analysts in PUPM tenants
 
-On the query-creation pages, 
+The query-creation pages show analysts no information about query usage or tenant billing. This is because billing charges accrue behind the scenes, independently of query usage:
 
-![Credits per query](../images/wpa/tutorials/credits-per-query.png)
+![PUPM: no credits shown](../images/wpa/tutorials/pupm-no-credits.png)
 
-#### For analysts with consumption-model tenants
+In the PUPM model, the design of your queries and the number of times that you run them has no effect on the amount that your organization is billed.
 
+#### For analysts in consumption-model tenants
+
+In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries.
+
+Each query that is run consumes a number of "credits." The number of credits consumed is based on the following factors: the number of users being analyzed, the time period of the analysis, the number of base metrics in the query, and which base metrics are used.
+
+As you create a query, Workplace Analytics uses these factors to calculate the cost of the query. A banner shows the estimated number of credits that the query &ndash; in its current state &ndash; would consume:
+
+![Credits per query](../images/wpa/tutorials/conmod-credits.png)
+ 
 ## Person query
 
 Use a person query when you want to find broad trends in the organization by looking at aggregated metrics for a group of people.
