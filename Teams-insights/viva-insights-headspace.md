@@ -54,7 +54,7 @@ Any time you want, you can start a guided meditation that's been designed for th
 
 ## Run Headspace in the background
 
-You can open and run Headspace in a new window. This lets you play its musical meditations while continuing your collaboration in Teams.
+You can open and run Viva Insights in a new window. This lets you play Headspace meditations and Focus music while continuing your collaboration in Teams.
 
 1. Locate the pinned Insights app on the left navigation pane of Teams.
 
@@ -66,7 +66,7 @@ You can open and run Headspace in a new window. This lets you play its musical m
 
    This opens a new window in which the Insights app is running.
 
-4. In this second window, start Headspace and then start a meditation as described in [Start a guided meditation](#start-a-guided-meditation).
+4. In this second window, select **More mindfulness exercises** and then start a Headspace meditation or Focus music as described in [Start a guided meditation](#start-a-guided-meditation).
 
 5. Optionally, minimize the Insights window that you just opened. You can continue working in Teams in the original Teams window.
 
