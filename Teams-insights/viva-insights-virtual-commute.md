@@ -102,19 +102,22 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice, which you can view before you select **Next**. This optional step helps you build the healthy habit of checking in with yourself.
 
-6. **Mindfully disconnect with a one-minute breathing break** &ndash; Follow the animation and the sound to breathe deeply for one minute and exit your work mindset:
- 
-   ![Breathe](Images/06-breathe-mindfully-55.png)
+6. **Mindfully disconnect with a Headspace meditation** &ndash; Select the 'Play' button on the Headspace card to begin a guided meditation:
+
+   ![Headspace Play button](Images/headspace-in-vc.png)
 
    When you're finished, select **Next**.
+
+<!-- THE OLD STEP 6: 
+6. **Mindfully disconnect with a one-minute breathing break** &ndash; Follow the animation and the sound to breathe deeply for one minute and exit your work mindset:
+   ![Breathe](Images/06-breathe-mindfully-55.png)
+   When you're finished, select **Next**. -->
 
 7. **Completion** &ndash; Complete your virtual commute.
 
    ![Breathe image](Images/07-completion-55.png)
 
    Select **Done**.
-
-<!-- NOTE FOR WAVE 3: HEADSPACE, A 3RD-PARTY MEDITATION APP, WILL APPEAR HERE WHEN IT'S AVAILABLE. WE'LL NEED TO ENABLE SOUND FOR IT FIRST. THIS FEATURE BELONGS TO PETER B. [30:00] -->
 
 ## Related topics
 
