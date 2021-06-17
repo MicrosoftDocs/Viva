@@ -95,7 +95,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
-16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop the auto-refresh](../tutorials/query-auto-refresh.md#stop-the-auto-refresh-option) option for details.
+16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../tutorials/query-auto-refresh.md#stop-auto-refresh) option for details.
 
 ## Dashboard settings
 
@@ -130,4 +130,4 @@ The following describes each report with specific nuances to consider for each.
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).

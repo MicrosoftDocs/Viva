@@ -2,7 +2,7 @@
 
 title: Privacy settings for Workplace Analytics
 description: Describes the privacy settings in Workplace Analytics that administrators can set up and edit for your organization
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -14,22 +14,30 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Privacy settings
+# Privacy settings / Exclusions
 
-As the Workplace Analytics Admin, you use **Privacy settings** to decide what data your organization wants to exclude from analysis and what data can be visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
+As the Workplace Analytics Admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
 
 You can use privacy settings to:
 
 * [Set the minimum group size](#minimum-group-size)
 * [Hash subject lines](#hash-subject-lines)
-* [Exclude domains or email addresses](#exclude-domains-or-email-addresses)
+* [Exclude domains](#exclude-domains-or-email-addresses)
+* [Exclude email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Workplace Analytics admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin privacy settings](../images/wpa/use/privacy-settings.png)
+Admins make privacy settings on the **Exclusions** section of the **System defaults** page in the setup sequence of Workplace Analytics.
 
-After you change privacy settings, your changes take effect after data is processed in the following week. This means that these changes do not affect data that has already been extracted. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
+![Admin privacy settings](../images/wpa/use/exclusions.png)
+
+<!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
+
+> [!IMPORTANT]
+> You do not need to make privacy settings (the settings that you find under **Exclusions**) while onboarding your organization. You must complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them later. (To indicate that you have completed the **System defaults** settings, select **Next** on that page.)
+
+If you do change privacy settings, your changes take effect after Microsoft 365 data is processed in the following week. This means that these changes do not affect data that has already been extracted and processed. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
 
 ## Privacy video
 
@@ -95,6 +103,8 @@ Subject lines are useful for analysts who want to set up meeting exclusion rules
 
 Terms can be any combination of letters, numbers and special characters (such as client attorney privilege or D&I).
 
+![Exclude email addresses, terms from subject lines](../images/wpa/use/two-exclusions.png)
+
 ## Exclusion setting considerations
 
 Any domains, email addresses, or terms you exclude will not be included in any of the analysis, so it's important to carefully consider the implications of an exclusion and balance them with your privacy and data-analysis goals. If you exclude a domain or term that frequently appears in the collaboration dataset, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Workplace Analytics. This means that, after you make an exclusion setting, the setting does not affect data that has already been processed.
@@ -135,7 +145,14 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 7. At the top right of the page, select **Save**.
 
 >[!Important]
->* All subsequent changes to privacy settings after the initial setup, take affect on the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data.
->* Changes to **Hash subject lines** take affect immediately in meeting query results.
+>
+>* All subsequent changes to privacy settings after the initial setup, take effect on the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data.
+>* Changes to **Hash subject lines** take effect immediately in meeting query results.
 >* Changes to the **minimum group** and **Hash subject lines** settings apply retroactively to *all data*, including historical data.
 >* Changes to the other exclude from analysis settings apply only to *new data* collected during the next data refresh and do not affect historical data.
+
+## Related topics
+
+* [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
+
+* [System defaults](system-defaults.md)

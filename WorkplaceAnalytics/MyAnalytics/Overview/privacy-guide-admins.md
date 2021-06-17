@@ -90,19 +90,29 @@ Also note that, if the person chooses to send Windows 10 activity history to MyA
 
 In a few cases, MyAnalytics provides people with *de-identified* information on other people that would not have otherwise been available to them, such as for Email read rates.
 
-### Email read rates
+### Email read rates and document open rates
 
 MyAnalytics tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
 To preserve privacy, MyAnalytics does not track read rates for messages sent to fewer than five people. MyAnalytics also doesn't show read rates of "0%" or "100%," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
 
-<!-- 
-![Email read rates](../../Images/mya/use/email-read-rates-2.png)
--->
+This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox. This is then delivered to the sender's mailbox if that person has opted in to using MyAnalytics.
 
-This metric is calculated based on the "read" flag in Exchange Online. For some people, messages are flagged as "read" when they open a message in the Outlook preview pane. For others, they might need to double-click to open the message to mark it as "read."
+Similarly, MyAnalytics tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in an email that a person sends to five or more people. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business.
 
-People can control this setting in their Outlook settings. To show these signals in the sender’s mailbox, the "read" flag is copied within the Microsoft 365 environment, and then delivered to the sender's mailbox.
+## Assistance for people managers
+
+People managers often have hectic schedules and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests.
+
+For example, the [Catch up with your team](../use/use-the-insights.md#catch-up-with-your-team) feature in the [Insights add-in](../use/add-in.md) helps managers schedule regular 1:1 time, respond quickly to unread emails, close out important tasks, and more.
+
+   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
+
+All assistance for managers in MyAnalytics relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
+
+Managers are identified by using Azure Active Directory<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or Workplace Analytics-->. The feature is only available to users who have direct reports listed in Azure AD.<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021.  or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.)-->
+
+Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their MyAnalytics experience, and are not synchronized back to Azure AD.
 
 ## Privacy settings
 
@@ -114,17 +124,26 @@ MyAnalytics provides flexible and configurable controls that are designed to ena
 
 * **Determine whether employees can opt-in to receive insights on Windows 10 application usage** &ndash; Admins must consent before MyAnalytics users can opt in to receive insights derived from Windows 10 activity history data.
 
-* **Determine which employees in sensitive roles should be excluded from incremental data** &ndash; Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed.
+<!-- DELETE PER MATHEW 1 JUNE 2021: 
+* **Determine which employees in sensitive roles should be excluded from incremental data** &ndash; Some organizations may have employees in sensitive roles who should never contribute to incremental data. To support this, MyAnalytics provides admins with the ability to mark these people as “excluded.” Excluded users cannot opt in to contribute to incremental data. However, the MyAnalytics experience will still be available to these users provided that they are licensed. -->
 
- Note that if default settings are used, the following applies:
+Note that if default settings are used, the following applies:
 
 * All employees in your organization contribute to [incremental data](../Overview/privacy-guide.md#incremental-data) whether or not they have been issued licenses with the MyAnalytics service.
 
 * MyAnalytics is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
 
+## Opt-in and opt-out
+
+Employees can opt themselves out of MyAnalytics. This causes them to lose access to the MyAnalytics [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure-myanalytics.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, by following the steps in [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out).
+
+### Data processing consequences
+
+The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out or an admin opts them out.
+
 ### How employees can opt-in and opt-out
 
- End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
+End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
 
 ![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
@@ -152,13 +171,27 @@ The week after the welcome email is delivered, users begin to receive the [weekl
 
 As is the case with the full Microsoft 365 suite, MyAnalytics helps support compliance with GDPR requirements. Microsoft helps data controllers meet the following obligations for MyAnalytics:
 
-* Microsoft will not mine customer data in Exchange Online for advertising.
-* Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
-* Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
-* Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
-* Microsoft supports your need to honor user requests to restrict processing as follows:
+1. **Secure and protect personal data of users**.
+    All MyAnalytics data is stored in the employees’ Exchange Online mailbox. MyAnalytics appends computed metrics such as “Meeting hours” to the mailbox. Thus, MyAnalytics meets this obligation by virtue of Exchange Online also meeting the obligation:
 
-  * Use PowerShell to opt employees out of MyAnalytics.
-  * Delete employee data: sign in to [Azure Active Directory admin center](https://aad.portal.azure.com) and then remove the employee's data through the User Management Portal.
+    * Microsoft will not mine customer data in Exchange Online for advertising.
+    * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
+    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
+
+2. **Notify users in the event that a breach is detected**.
+   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+
+3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
+    Microsoft supports your need to honor user requests in the following ways:
+
+    * Data export requests: Users can go to the MyAnalytics dashboard while signed in to their Microsoft 365 account to view the insights that are generated about how they spend their time at work. They can take screenshots of MyAnalytics insights if they want to have permanent copies of their information.
+    * Request to restrict processing:
+
+      * Use PowerShell to opt employees out of MyAnalytics.
+
+         >[!Note]
+         >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
+
+      * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).

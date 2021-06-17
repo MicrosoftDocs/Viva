@@ -16,7 +16,7 @@ audience: Admin
 
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
-![Outcomes page](../images/wpa/use/viva-org-outcomes.png)
+![Outcomes page](../images/wpa/use/viva-org-outcomes-2.png)
 
 While you can also see these outcomes and their related best practices in Workplace Analytics, it's advantageous to find them in Teams. That's because you're already using Teams for communicating during remote work, namely for meeting, for sharing files, and for sending IMs to employees and other leaders.
 
@@ -204,7 +204,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see Q2 in the following section, [How can I send feedback to Microsoft about the Insights app?](#q2-how-can-i-send-feedback-to-microsoft-about-the-viva-insights-app)
 
-## Frequently asked questions
+## FAQ
 
 ##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 
@@ -212,7 +212,7 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 ##### Q2. How can I send feedback to Microsoft about the Viva Insights app?
 
-**A4.** You can provide feedback through the Insights app as follows:
+**A2.** You can provide feedback through the Insights app as follows:
 
 * For the "Is this helpful?" question near the bottom of every Insight, select **Yes** or **No** to provide feedback.  
 
@@ -223,6 +223,12 @@ These outcomes, insights, and best practices are described in the Workplace Anal
    After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** check box if you’d like Microsoft to contact you to follow up on your feedback.
 
    ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
+
+##### Q3. Can a user gain access to the user experience of a manager or a leader?
+
+**A3.** Yes. You gain access to an experience if you fulfill the requirements for that experience; for example, if you've been assigned the correct role:
+ * To see the prerequisites for the manager (My team) experience, see [My team/Prerequisites](viva-insights-my-team.md#prerequisites).
+ * To see the prerequisites for the leader (My organization) experience, see [My organization/Prerequisites](#prerequisites).
 
 ## Related topics
 

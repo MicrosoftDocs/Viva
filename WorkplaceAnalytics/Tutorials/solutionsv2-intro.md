@@ -80,7 +80,7 @@ The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provide
 [![solution for teamwork playbook](../images/wpa/tutorials/solns-playbook-title.png)](wpa-teamwork-solution-playbook.pdf)
 -->
 
-## Plans: Frequently asked questions
+## Plans FAQ
 
 ### Roles and access
 

@@ -1,7 +1,7 @@
 ---
 
-title: Upload you first organizational data file into Workplace Analytics
-description: Learn how to upload organizational data through the new Workplace Analytics onboarding experience 
+title: First organizational data upload
+description: Learn how to upload your organizational data through the new Workplace Analytics onboarding experience 
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -47,12 +47,12 @@ After the initial processing of collaboration data is complete, the next time yo
    * Confirm the .csv file is not open in a different program when you begin the upload process.
    * After the upload process begins, the process is irreversible.
 
+4. To complete a new upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
+
 <!-- THE FOLLOWING SHOULD NOT APPLY FOR THE FIRST UPLOAD OF DATA: 
   > [!Note]
   > If you are uploading new data, go to step 8, _Complete new file upload_. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, _Append or replace organizational data_.
 -->
-
-4. To complete a new upload, select **Next**. This displays the System fields table. Go to [Field mapping](#field-mapping).
 
 ## Field Mapping
 

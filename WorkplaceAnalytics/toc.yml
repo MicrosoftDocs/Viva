@@ -73,7 +73,7 @@
                   href: ~/Use/admin-settings.md
                 - name: System defaults
                   href: ~/Use/system-defaults.md
-                - name: Privacy settings
+                - name: Privacy settings / Exclusions
                   href: ~/Use/privacy-settings.md
                 - name: Manager settings
                   href: ~/Use/manager-settings.md
@@ -91,7 +91,7 @@
                       href: ~/tutorials/meeting-exclusion-concept.md
                 - name: Attendee exclusions
                   href: ~/tutorials/attendee-exclusion-rules.md
-        - name: Workplace Analytics audit logs
+        - name: Audit logs
           href: ~/setup/audit-logs.md
     - name: Use Workplace Analytics
       items:
@@ -137,14 +137,10 @@
                   href: ~/Use/pm-home.md
                 - name: Rollout to managers
                   href: ~/manager-insights/rollout.md
-                - name: FAQs
+                - name: FAQ
                   href: ~/Use/insight-faqs.md
         - name: Analyze
-          items:
-            - name: Peer analysis
-              href: ~/use/peer-analysis.md
-            - name: Business process analysis
-              href: ~/tutorials/analyze-business-processes.md              
+          items:        
             - name: Queries
               items:
                 - name: Overview
@@ -170,6 +166,8 @@
                       href: ~/tutorials/ona-person-query.md
                     - name: ONA person-to-person queries
                       href: ~/tutorials/ona-person-to-person-query.md
+                    - name: ONA metrics
+                      href: ~/tutorials/ona-metrics.md
                 - name: Power BI templates
                   items:
                     - name: Introduction
@@ -178,14 +176,6 @@
                       href: ~/tutorials/power-bi-glint.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
-                    - name: Collaboration overload
-                      href: ~/tutorials/power-bi-collab-overload.md
-                    - name: Influence insights
-                      href: ~/tutorials/pbi-influence-db.md
-                    - name: Manager impact
-                      href: ~/tutorials/power-bi-manager-impact.md
-                    - name: Quickstart overview
-                      href: ~/tutorials/power-bi-quickstart.md
                     - name: Return to worksites
                       href: ~/tutorials/power-bi-return-tw.md
                     - name: Sales business continuity
@@ -206,6 +196,10 @@
                   href: ~/Use/Csv-query-output-file.md
                 - name: Query auto-refresh option
                   href: ~/tutorials/Query-auto-refresh.md
+            - name: Business process analysis
+              href: ~/tutorials/analyze-business-processes.md
+            - name: Peer analysis
+              href: ~/use/peer-analysis.md
             - name: Explore the stats
               items:
                 - name: Overview
@@ -248,13 +242,13 @@
               href: ~/Use/solutions-scan.md
     - name: Notifications 
       href: ~/use/wpa-notifications.md 
-    - name: Frequently asked questions
+    - name: FAQ
       href: ~/use/faq.md
     - name: Reference
       items:
         - name: Glossary
           href: ~/Use/Glossary.md
-        - name: Workplace Analytics metrics
+        - name: Metric descriptions
           href: ~/Use/metric-definitions.md
         - name: Metric filters
           href: ~/Use/metric-filters.md          
@@ -283,7 +277,7 @@
       href: MyAnalytics/Overview/Better-work-habits.md
     - name: Reference
       items:
-        - name: Frequently asked questions
+        - name: FAQ
           href: MyAnalytics/Overview/mya-faq.md
         - name: MyAnalytics languages
           href: myanalytics/overview/mya-languages.md
@@ -322,7 +316,7 @@
         - name: Plans and environments
           href: MyAnalytics/overview/plans-environments.md
         - name: Privacy guide for admins
-          href: MyAnalytics/overview/privacy-guide.md
+          href: MyAnalytics/overview/privacy-guide-admins.md
     - name: Use MyAnalytics
       items:
       - name: Data privacy

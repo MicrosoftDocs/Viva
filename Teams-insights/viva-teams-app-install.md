@@ -16,6 +16,13 @@ audience: Admin
 
 The Viva Insights app is pre-installed in Teams for most organizations. This means that you won't need to find and install it, as described in [Install the app](#install-the-app). After it is installed, you can pin it to the Teams app bar (the left navigation bar) to make it easy to find. To learn how, see [Discover and pin the app](#discover-and-pin-the-app).
 
+## Prerequisites
+
+To be able to use the Viva Insights app, you must have the following:
+
+* access to Microsoft Teams
+* an Exchange Online account
+
 ## Discover and pin the app
 
 ### On desktop and web clients

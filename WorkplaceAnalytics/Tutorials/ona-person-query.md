@@ -14,22 +14,13 @@ ms.prod: wpa
 
 # Organizational network analysis person queries
 
-It's frequently necessary to implement changes within organizations, whether this be introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change – perhaps starting with mass emails – it’s not always the most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.
+ONA person queries help you measure connectivity within an organization. In addition to the two influence metrics ([Influence](../use/metric-definitions.md#influence-define) and [Influence rank](../use/metric-definitions.md#influence-rank-define)), ONA person queries also offer the a selection of tie metrics, starting with [Diverse ties](../use/metric-definitions.md#diverse-ties-define) and [Strong ties](../use/metric-definitions.md#strong-ties-define).  
 
-Instead, a more successful strategy uses change agents, who are influential, well-connected people in different levels of your company, not just at the top. Beyond an organization’s formal hierarchy, are informal networks of people who can exert influence within those networks and between them. The most influential people have large personal networks with above-average numbers of relationships with their colleagues.
+For basic information about these connectivity metrics, see their definitions in [Workplace Analytics metrics / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). For deeper descriptions of the connectivity metrics, see [ONA metrics](ona-metrics.md).
 
-Therefore, to help implement change, it pays to know who the influencers are. The Workplace Analytics Organizational network analysis (ONA) queries were designed for this purpose. They can help you find out who the best-connected people are in the company based on their collaboration characteristics.
+## Run a query to determine ties and influence
 
-This query type lets analysts use two related metrics:
-
-* [Influence](../use/metric-definitions.md#influence-define) - This metric is a score of how well connected you are in the company. It acts recursively: if you’re connected to others who are well connected, you benefit from their connections as well.
-* [Influence rank](../use/metric-definitions.md#influence-rank-define) - This metric indicates where influencers stand among other influencers. A rank of 1 represents the person with the greatest Influence score; a rank of 2 represents the person with the next greatest Influence score, and so on.
-
-After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
-
-Also see [How Workplace Analytics calculates influence](#how-workplace-analytics-calculates-influence).
-
-## Run a query to determine Influence
+You can use any of connectivity metrics in the ONA person query; in this example procedure, you will query for Influence or Influence rank.
 
 **Role** - Analyst
 
@@ -44,12 +35,28 @@ Also see [How Workplace Analytics calculates influence](#how-workplace-analytics
    >[!Note]
    >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
 
-5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).) 
-6. Under **Select metrics**, select **Influence** and/or **Influence rank**. Optionally, you can also edit the **Display name** of these metrics; the names of all selected metrics, whether or not you've edited them, will appear as column names in the query results. (Other metric customization options are not available.)
-7. Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
-8. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
-9. Select **Run**. The query takes a few minutes to complete.
-10. On the **Queries > Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
+5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
+
+6. Under **Select network boundary conditions**, define a filter to select the measured employees that you want to analyze in this query. You can use the filters of this step, for example, to narrow the scope to a division or a group. If you skip this (optional) step, all measured employees will remain eligible for analysis.
+
+    **More information about this option:** If you run this query on the entire company, the results will be based on all collaborations across the company. If this is your goal, you can retain the default search range, which is unlimited. But your goal might be to determine only particular people, perhaps to involve them in a pilot project to introduce a new tool or procedure. In this case, limit the query to search only within a particular division or group.
+
+<!--
+7.  Under **Select collaboration types**, specify the types of collaboration activities that you want to include in your analysis. Your choices are **Emails and meetings**, **Teams instant messages**, and **Teams calls**.
+
+    **More information about this option:** As the nature of the workplace evolves, different ways to collaborate gain or lose popularity, doing so at different rates among different populations. Some people and organizations are more formal in nature -- for example, a legal division or HR -- and they might invariably use email. They might also tend to message more recipients at once, for which they might prefer email.
+    
+    Other people who have a less traditional, more casual, or more personal outlook might prefer Teams IMs or calls. Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other. -->
+
+7. Under **Select metrics**, select one or more of the available metrics. Optionally, you can also edit the **Display name** of these metrics; the names of all selected metrics, whether or not you've edited them, will appear as column names in the query results. (Other metric customization options are not available.)
+
+8. Under **Select filters**, select the groups of people for whom you want to see results. For example, to query about people in the engineering department or financial division, set this filter to **Domain Equals Engineering** or **Domain Equals Finance**.
+
+9. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
+
+10. Select **Run**. The query takes a few minutes to complete.
+
+11. On the **Queries \> Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
 >You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
@@ -61,24 +68,11 @@ The following columns are included in the query results for ONA queries:
 * **Person ID** - De-identified ID number for the person represented in that data row.
 * **Date** - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
 * **Person attributes** - Attributes about the person supplied through the latest organizational (HR) data upload.
-* **Metrics** - Any metrics that you include in the query. For more information, see [Influence](../use/metric-definitions.md#influence-define) and [Influence rank](../use/metric-definitions.md#influence-rank-define).
-
-## How Workplace Analytics calculates influence
-
-The terminology in the following description comes from graph theory. In graph theory, a "node" (also called a "vertex") is an object that can relate to other nodes -- other objects -- in the graph. This model becomes useful when we extend it to the workplace, where a "node" represents a person who has connections to co-workers and others.  
-
-Influence indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
-
-### Determine node rank
-
-The most meaningful information to glean from Influence is the rank of the nodes. You can do this by using either of the two pertinent ONA metrics, Influence and Influence rank.
-
-* Use [Influence rank](../use/metric-definitions.md#influence-rank-define). This metric assigns to each node a number that corresponds to their relative influence, with the lowest number (1) for the most influential node. You can use this metric, for example, to obtain a simple ranked list or to evaluate whether a node's network influence is changing over time.
-
-* Use [Influence](../use/metric-definitions.md#influence-define). You use this metric in a more nuanced way than you'd use Influence rank. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
+* **Metrics** - Any metrics that you include in the query. For more information, see [Organizational network analysis (ONA) metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
 
 ## Related topics
 
+* [ONA metrics](ona-metrics.md)
 * [ONA person-to-person queries](ona-person-to-person-query.md)
 * [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

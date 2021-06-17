@@ -36,7 +36,7 @@ productDirectory:
       links:
         - url: intro.md#business-outcomes
           text: Lists the top business outcomes and the associated behaviors that you can focus on toward business success.
-    - title: Frequently asked questions
+    - title: FAQ
       imageSrc: https://docs.microsoft.com/media/common/i_support.svg
       links:
         - url: faqs.md
