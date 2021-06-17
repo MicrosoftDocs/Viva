@@ -23,7 +23,13 @@ This analysis helps leaders and analysts get a richer, more complete picture of 
 
 ![Zoom Power BI dashboard settings](../images/wpa/use/zoom-pbi-settings.png)
 
-## Demonstrations
+## Ways of working assessment demo
+
+The following shows what you might see in Power BI when you combine Workplace Analytics and Zoom data for analysis in Power BI. This demo uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiNjRjOTI0ZjMtY2JmYS00NDY2LTk0MmMtMmU4MDlkZDEwOGYzIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
+
+## Setup demos
 
 This self-serve, open-source toolkit requires a one-time installation of the R package by your Zoom admin and Workplace Analytics analyst.
 
