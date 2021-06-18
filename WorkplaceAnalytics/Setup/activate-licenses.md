@@ -28,7 +28,7 @@ You can only activate additional Workplace Analytics licenses for a Microsoft 36
 
 ### To activate additional Workplace Analytics licenses
 
-* **Role** &ndash; Azure AD [License Administrator](/azure/active-directory/roles/permissions-reference)
+* **Role** &ndash; Azure Active Directory [License Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#license-administrator)
 
 1. Start your web browser, such as Microsoft Internet Explorer, Microsoft Edge, Google Chrome, or Mozilla Firefox, for **InPrivate**, **incognito**, or **Private** browsing.
 
