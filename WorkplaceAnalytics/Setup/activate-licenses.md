@@ -17,12 +17,18 @@ audience: Admin
 
 # Activate Workplace Analytics licenses
 
+<!-- REMOVE THIS PER ANIL ET AL 18 JUNE 2021: 
 > [!Important]
-> You must be a **Global admin** for the Microsoft 365 or Microsoft 365 tenant to activate licenses with this code.
+> You must be a **Global admin** for the Microsoft 365 or Microsoft 365 tenant to activate licenses with this code. -->
 
-You can only activate additional Workplace Analytics licenses for a Microsoft 365 or an Microsoft 365 tenant with a code from Microsoft. As the **Global admin** for the tenant, follow these steps to add the code and set up an organization with additional licenses.
+<!-- EDITING THIS. HERE IS THE ORIGINAL:
+You can only activate additional Workplace Analytics licenses for a Microsoft 365 or an Microsoft 365 tenant with a code from Microsoft. As the **Global admin** for the tenant, follow these steps to add the code and set up an organization with additional licenses. -->
+
+You can only activate additional Workplace Analytics licenses for a Microsoft 365 or an Microsoft 365 tenant with a code from Microsoft. As an AAD **License administrator**, follow these steps to add the code and set up an organization with additional licenses.
 
 ### To activate additional Workplace Analytics licenses
+
+* **Role** &ndash; Azure AD [License Administrator](/azure/active-directory/roles/permissions-reference)
 
 1. Start your web browser, such as Microsoft Internet Explorer, Microsoft Edge, Google Chrome, or Mozilla Firefox, for **InPrivate**, **incognito**, or **Private** browsing.
 
