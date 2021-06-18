@@ -23,7 +23,7 @@ People who use Workplace Analytics can work with the product only after they've 
 
 ## Assign roles to users 
 
-**Owner** - Azure Active Directory admin  
+**Owner** - Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference)
 
 1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com). 
 
