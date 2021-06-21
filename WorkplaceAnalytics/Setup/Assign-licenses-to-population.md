@@ -17,7 +17,7 @@ audience: Admin
 
 The following describes who does what to assign licenses to Workplace Analytics users:
 
-* **Owner** &ndash; Workplace Analytics sponsor, Workplace Analytics administrator,  Azure Active Directory [Privileged Role Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator), and/or Exchange administrator
+* **Owner** &ndash; Workplace Analytics sponsor, Workplace Analytics administrator,  Azure Active Directory [Privileged Role Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator), and/or Exchange administrator. For more information, see [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 * **Task** &ndash; Determine population in scope for analysis and assign licenses through Microsoft 365 or Office 365
 * **Outcome** &ndash; Microsoft 365 licenses are assigned for the population that will be analyzed
 
@@ -85,4 +85,7 @@ Azure Active Directory (AAD) is the single source of truth for licensing statuse
 ## Related topics
 
 * [Environment requirements for Workplace Analytics](environment-requirements.md)
+
 * [Microsoft 365 data](../use/office-365-data.md)
+
+* [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)

@@ -62,4 +62,7 @@ You can only activate additional Workplace Analytics licenses for a Microsoft 36
 ## Related topics
 
 * [Assign licenses to the population](../setup/Assign-licenses-to-population.md)
+
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
+
+* [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)

@@ -45,5 +45,10 @@ See [Assign user or group roles in Azure Active Directory](../setup/assign-user-
 ## Related topics
 
 * [User roles](../use/user-roles.md)
+
 * [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md)
+
 * [Manager settings](../use/manager-settings.md)
+
+* [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+
