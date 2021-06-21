@@ -24,11 +24,11 @@ audience: Admin
 <!-- EDITING THIS. HERE IS THE ORIGINAL:
 You can only activate additional Workplace Analytics licenses for a Microsoft 365 or an Microsoft 365 tenant with a code from Microsoft. As the **Global admin** for the tenant, follow these steps to add the code and set up an organization with additional licenses. -->
 
-You can only activate additional Workplace Analytics licenses for a Microsoft 365 or an Microsoft 365 tenant with a code from Microsoft. As an AAD **License administrator**, follow these steps to add the code and set up an organization with additional licenses.
+You can only activate additional Workplace Analytics licenses for a Microsoft 365 or an Microsoft 365 tenant with a code from Microsoft. As an Azure Active Directory **License administrator**, follow these steps to add the code and set up an organization with additional licenses.
 
 ### To activate additional Workplace Analytics licenses
 
-* **Role** &ndash; Azure Active Directory [License Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#license-administrator)
+* **Role** &ndash; Azure Active Directory [License Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#license-administrator)
 
 1. Start your web browser, such as Microsoft Internet Explorer, Microsoft Edge, Google Chrome, or Mozilla Firefox, for **InPrivate**, **incognito**, or **Private** browsing.
 
@@ -44,7 +44,7 @@ You can only activate additional Workplace Analytics licenses for a Microsoft 36
 
    ![Promotional code sign-in](../Images/sign-in.png)
 
-5. On the **Sign in** page, enter your **Microsoft 365 or Microsoft 365 Global admin** credentials for the tenant.
+5. On the **Sign in** page, enter your AAD [Billing administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#billing-administrator) credentials for the tenant.
 6. On the **Check out** page, select **Try Now** to confirm the order.
 7. When you get the order receipt, save it and then select **Continue**.
 8. To confirm that the codes were successfully added to your environment, go to **Admin Center** > **Users** > **Active Users**.
