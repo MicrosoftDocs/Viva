@@ -70,7 +70,7 @@ Workplace Analytics licenses are assigned just like other Microsoft 365 product 
 
 #### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
-If your organization has not fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your AAD Privileged Role Administrator or Exchange admin can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
+If your organization has not fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your AAD [Global Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#global-administrator) or Exchange admin can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
 
 ## Appearance of newly licensed users
 
