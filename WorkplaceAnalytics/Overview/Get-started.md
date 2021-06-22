@@ -17,7 +17,17 @@ audience: Admin
 
 # Data analysis in Workplace Analytics
 
-The Microsoft Workplace Analytics web app gives leaders unprecedented insights about how people spend their time and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
+The Microsoft Workplace Analytics web app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
+
+## Requirements for analysts
+
+Before analysts can get to work, they must have the proper licensing and roles:
+
+* **License** &ndash; Each analyst must have a Workplace Analytics license. Assigning licenses is the duty of admins, who can learn more about this task in [Assign licenses](https://docs.microsoft.com/en-us/workplace-analytics/setup/assign-licenses-to-population). (Before user licences can be assigned, the proper organizational agreements must be in place; for information about licensing at the tenant level, see [Requirements for Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/setup/environment-requirements).)
+
+* **Role** &ndash; Each analyst must also be assigned the Workplace Analytics 'analyst' role, also by an admin. Admins can learn more about assigning roles in [Assign roles](https://review.docs.microsoft.com/en-us/workplace-analytics/setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). And here is general information about user roles in Workplace Analytics: [User roles](https://docs.microsoft.com/en-us/workplace-analytics/use/user-roles).
+
+## Options for exploring and analyzing data
 
 Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with custom queries and query templates.
 
