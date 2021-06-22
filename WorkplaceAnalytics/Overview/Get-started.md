@@ -23,9 +23,9 @@ The Microsoft Workplace Analytics web app gives analysts (often at the behest of
 
 Before analysts can get to work, they must have the proper licensing and roles:
 
-* **License** &ndash; Each analyst must have a Workplace Analytics license. Assigning licenses is the duty of admins, who can learn more about this task in [Assign licenses](https://docs.microsoft.com/en-us/workplace-analytics/setup/assign-licenses-to-population). (Before user licences can be assigned, the proper organizational agreements must be in place; for information about licensing at the tenant level, see [Requirements for Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/setup/environment-requirements).)
+* **License** &ndash; Each analyst must have a Workplace Analytics license. Assigning licenses is the duty of admins, who can learn more about this task in [Assign licenses](https://docs.microsoft.com/en-us/workplace-analytics/setup/assign-licenses-to-population). (Before user licenses can be assigned, the proper organizational agreements must be in place; for information about licensing at the tenant level, see [Requirements for Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/setup/environment-requirements).)
 
-* **Role** &ndash; Each analyst must also be assigned the Workplace Analytics 'analyst' role, also by an admin. Admins can learn more about assigning roles in [Assign roles](https://review.docs.microsoft.com/en-us/workplace-analytics/setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). And here is general information about user roles in Workplace Analytics: [User roles](https://docs.microsoft.com/en-us/workplace-analytics/use/user-roles).
+* **Role** &ndash; Each analyst must be assigned the Workplace Analytics 'analyst' role, also by an admin. Admins can learn more about this task in [Assign roles](https://review.docs.microsoft.com/en-us/workplace-analytics/setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). For general information about user roles in Workplace Analytics, see [User roles](https://docs.microsoft.com/en-us/workplace-analytics/use/user-roles).
 
 ## Options for exploring and analyzing data
 
