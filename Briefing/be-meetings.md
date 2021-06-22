@@ -25,7 +25,7 @@ With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you 
 * As a meeting organizer, you can select **Add agenda** if your upcoming meeting is missing an agenda. Agendas help make meetings more effective.
 * If a majority of the attendees have declined a meeting, you’re also notified to **Reschedule** it.
 
-In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it. If you see that the meeting has [low acceptance](#reschedule-for-low-acceptance), you could select **Reschedule** to schedule it for a different day or time.
+In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it. If you see a meeting with **low acceptance**, you could select **Reschedule** to schedule it for a different day or time.
 
    ![Briefing email about meetings](./images/meeting-prep.png)
 
@@ -35,6 +35,7 @@ In the following example, for the **Status Update meeting**, you can select:
 * **Add agenda** to add a meeting agenda to the invitation.
 
    ![Briefing email inline meeting options](./images/meeting-options.png)
+
 <!--## Reschedule for low acceptance
 
 As a meeting organizer, your Briefing alerts you to a meeting that is at risk of having low attendance.
