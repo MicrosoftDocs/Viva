@@ -21,7 +21,7 @@ People who use Workplace Analytics can work with the product only after they've 
 * [Verify role assignments](#verify-role-assignments)
 * [Role assignment FAQ](#role-assignment-faq)
 
-## Assign roles to users 
+## Assign roles to users
 
 **Owner** - Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference)
 

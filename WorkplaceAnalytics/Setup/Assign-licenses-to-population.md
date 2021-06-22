@@ -17,7 +17,7 @@ audience: Admin
 
 The following describes who does what to assign licenses to Workplace Analytics users:
 
-* **Owner** &ndash; Workplace Analytics sponsor, Workplace Analytics administrator, Azure Active Directory [Privileged Role Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator), and/or Exchange administrator. For more information, see [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+* **Owner** &ndash; Workplace Analytics sponsor, Workplace Analytics administrator, Azure Active Directory [Privileged Role Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator), and/or [Exchange administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 * **Task** &ndash; Determine population in scope for analysis and assign licenses through Microsoft 365 or Office 365
 * **Outcome** &ndash; Microsoft 365 licenses are assigned for the population that will be analyzed
 
@@ -70,7 +70,7 @@ Workplace Analytics licenses are assigned just like other Microsoft 365 product 
 
 #### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
-If your organization has not fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your AAD [Global Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#global-administrator) or Exchange admin can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
+If your organization has not fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your AAD [Global Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
 
 ## Appearance of newly licensed users
 
