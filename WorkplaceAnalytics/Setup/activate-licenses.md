@@ -63,7 +63,7 @@ The task of activating licenses has two parts. Each part requires a different Az
 
    ![Promotional licenses](../images/wpa/setup/promo-licenses.png)  
 
-3. On the Product licenses page, turn on the available licenses.
+3. On the **Product licenses** page, use the slider to turn on the available licenses.
 
 ## Related topics
 
