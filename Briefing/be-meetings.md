@@ -17,16 +17,23 @@ In this section of your Briefing email, you’ll see today's first three meeting
 
 With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following to help prepare for today's meetings:
 
-* If you got what you needed or you've already followed up on this item, select **Done**.
-* To remove it from your list, select the **Not related**.
-* If applicable to add to your task list, select **Add to To Do**.
+* To schedule a different time because of low acceptance or a majority of the attendees have declined a meeting you’ve organized, you can select **Reschedule**.
+* For a document that is related to a meeting, if you got what you needed or you've already followed up on it, select **Done**. To remove the task from your list, select **Not related**.
+* For a task that is related to a meeting, select **Add to To Do** to add to your task list. If you have already completed the task, select **Done**.
+* To inform the meeting organizer whether you’re planning to attend a meeting or not, you can select **Accept** or **Decline** so the meeting organizer can better assess their meeting quorum. If you have a meeting conflict, you can select **Reply** to let the organizer know if you’ll be late, leave early, or be unable to attend.
+* As a meeting organizer, you can add a Teams link to your invitation by selecting **Add Teams**.
+* As a meeting organizer, you can select **Add agenda** if your upcoming meeting is missing an agenda. Agendas help make meetings more effective.
 
-<!--* To be reminded about it later, select **Later**.
-* Selecting **Accept** or **Decline** accepts or declines a meeting invite (even if it is a recurring meeting) and sends the response to the organizer. Selecting **Reply** opens a response to the meeting invite.
-* Select **Reschedule** to change the meeting day, time, or location.-->
-In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it.
+In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it. If you see a meeting that has **low acceptance**, you could select **Reschedule** .
 
-   ![Briefing email about meetings](./images/be-meetings-1.png)
+   ![Briefing email about meetings](./images/meeting-prep.png)
+
+In the following example, for the **Status Update meeting**, you can select:
+
+* **Add Teams** to add a Teams link to the invitation.
+* **Add agenda** to add a meeting agenda to the invitation.
+
+   ![Briefing email inline meeting options](./images/meeting-options.png)
 
 <!--## Reschedule for low acceptance
 
@@ -118,8 +125,8 @@ You will see the following actions for a meeting depending on the type of confli
 |Leave early reply |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you need to leave early. |Reply|
 |Decline or late reply |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will be late. |Decline or Reply
 |Decline or leave early reply	|This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you can’t make it or if you will need to leave early. |Decline or Reply |
-|Accept or decline |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you will attend. |Accept or Decline |
--->
+|Accept or decline |This meeting conflicts with [Meeting title] at [start time] to [end time]. |Let [organizer] know if you will attend. |Accept or Decline |-->
+
 ## Related topic
 
 [Briefing email overview](be-overview.md)
