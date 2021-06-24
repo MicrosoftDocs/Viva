@@ -18,7 +18,7 @@ audience: Admin
 
 # Insights in the ONA Azure Template
 
-The Organizational Network Analysis (ONA) Template includes Insights that you can use to quickly validate hypotheses regarding within group and cross-group collaboration patterns internal to your organization. This analysis helps you identify groups that are showing either positive or negative collaboration behaviors and how those behaviors trend over time. These group-based insights can guide your work on creating a workplace with healthy and sustainable collaboration behaviors.
+The Organizational Network Analysis (ONA) Template includes Insights that you can use to quickly validate hypotheses regarding your overall organization, within a group, or cross-group collaboration patterns internal to your organization. This analysis helps you identify groups that are showing either positive or negative collaboration behaviors and how those behaviors trend over time. These group-based insights can guide your work on creating a workplace with healthy and sustainable collaboration behaviors.
 
 Group Insights include the following trends about how people within the selected group are collaborating for the selected date range. All insights in the tabular views refer to the groups’ behavior in the _most recent month_ in the selected time range. For this within-group analysis, you select what metric to group people by in **Group Settings**.
 
