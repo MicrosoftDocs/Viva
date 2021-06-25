@@ -20,7 +20,7 @@ Each theme includes insights about manager effectiveness and ways to help mainta
 
 ![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/manager-effect-intro.png)
 
-The following describes the analysis within each theme and actions you can take, such as tracking changes.
+The following describes the analysis within each theme and the actions you can take, such as tracking changes.
 
 ### Coach
 
@@ -48,7 +48,7 @@ The following describes the analysis within each theme and actions you can take,
 
 The dashboard also includes:
 
-* [**Custom report options**](#customize-report) that the reports use, such as the time period, the filters, or the mappings for the attribute values.
+* [**Customize report**](#customize-report) enables you to select what time period and organizational attribute to view the report by and what filters to use for the report.
 * **Glossary** that describes the metrics used in the different reports.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the Power BI template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
