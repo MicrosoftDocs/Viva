@@ -46,7 +46,7 @@ The query-creation pages show analysts no information about query usage or tenan
 
 #### For analysts in consumption-model tenants
 
-In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers cause more units to be consumed than metrics in lower price tiers.)
+In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers cause more units to be consumed than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
 
 <!-- MAYBE DON'T NEED THIS:
 >[!Note]
@@ -57,6 +57,38 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 ![units per query](../images/wpa/tutorials/conmod-credits.png)
 
 Above the banner, a field shows the unit balance &ndash; namely, how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
+
+### Consumption model details
+
+In a consumption-model tenant, queries, as they are run, consume "units." Unit calculation is as follows:
+
+**units consumed in a query** = **number of user-weeks analyzed** x **number of base metrics** x **price tier/1000**, where:
+
+**user-weeks analyzed** is defined as the number of historical weeks of analysis multiplied by the population that you are analyzing. The population size is the number of employees, as indicated by the _Filter group_ output in the query definition. Your choice of a time period by which to aggregate metrics (by week or by month) does not affect your charges for the query.
+
+**number of base metrics** is defined as the number of unique Workplace Analytics metrics that are included in the query. If the query includes multiple customizations of one base metric, it counts as only a single use of that base metric.
+
+<u>Example:</u> If a query measures Meeting hours between 8:00 and 9:00 AM and Meeting hours between 9:00 and 10:00 AM, this counts as only a single metric, Meeting hours.
+
+**price tier** is defined as follows:
+
+| Tier | Metric used in the query | Price per unit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   |
+| ---- | ------------ | -------------- |
+| 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
+| 2    | Advanced Workplace Analytics metrics &ndash; There is only one in this category: the _Influence_ metric. | 2.25 |
+| 3    | Workplace Analytics Insights metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts | 6.00 |
+
+<!-- Note that the price is calculated per 1000 user-weeks. -->
+
+Workplace Analytics uses this formula to calculate units consumed every time that you run a query except for recurring ([auto-refresh](query-auto-refresh.md) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses one week as the query duration. You are not charged for any historical data that has already been analyzed.
+
+No additional units are charged for the following:
+
+* Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
+* Use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My Team in Viva Insights](../use/viva-insights-my-team.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
+* Your chosen way to visualize query results, namely in Excel, PowerPoint, Power BI, or another visualization tool.
+* Your use of organizational attributes in queries.
+* The number of analysts who run queries in your organization.
 
 ##### Results page
 
