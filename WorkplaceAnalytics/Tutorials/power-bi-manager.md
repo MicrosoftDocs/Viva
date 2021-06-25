@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Manager effectiveness dashboard for Power BI
 description: Use the Manager effectiveness dashboard to visualize predefined data from Workplace Analytics in Power BI
 author: madehmer
@@ -49,7 +48,7 @@ The following describes the analysis within each theme and actions you can take,
 
 The dashboard also includes:
 
-* [**Settings**](#dashboard-settings) for specifying the time period and filters and mapping the attributes for the reports.
+* [**Customize report**](#customize-report) for specifying the time period and filters and mapping the attributes for the reports.
 * **Glossary** that describes the metrics used in the different reports.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the Power BI template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
@@ -107,21 +106,22 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
 16. Select **Connect** to prepare and load the data, which can take a few minutes to complete. After the data loads, you'll see visualization charts in Power BI about manager effectiveness within your organization.
 
-## Dashboard settings
+## Customize report
 
-After the Manager effectiveness dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to complete the required attribute settings.
+After the Manager effectiveness dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to select the following attribute values.
 
-* **Manager indicator attribute** - Select the attribute that identifies managers who manage people within your organization, such as **SupervisorIndicator**.
-* **Individual contributor attribute value** - Select the attribute value that identifies employees as individual contributors who do not manage people within your organization.
-* **Manager attribute value** - Select the attribute value that identifies employees as managers who manage people within your organization.
+* **Individual contributor attribute** - Select the attribute values that identify employees as individual contributors who do not manage people within your organization.
+* **Manager indicator attribute** - Select the attribute values that identify managers who manage people within your organization, such as **Mngr** and **Mngr+**.
 
-![Manager effectiveness required attribute settings](../Images/WpA/Tutorials/manager-effect-qs.png)
+![Manager effectiveness required attribute values](../Images/WpA/Tutorials/manager-effect-qs.png)
 
-After this initial prompt, you can then select **Customize** at top right of any page to view and change the following settings.
+After this initial prompt, you can then select **Customize** at top right of any page to view and change the following attribute values.
 
 * **Time period** – Select the time period you want to view data for in the dashboard.
 * **Exclusions** - Select the weeks you want to exclude for everyone in the analysis population, such as holiday weeks where everyone is away from work.
 * **Organizational attribute to view the report by** - For **Dimension**, select the primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
+
+![Manager effectiveness custom report options](../Images/WpA/Tutorials/manager-effect-settings.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 
