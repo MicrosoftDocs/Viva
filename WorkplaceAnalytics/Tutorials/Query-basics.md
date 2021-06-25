@@ -23,13 +23,13 @@ With these queries, you can:
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
-### Time limit for querying data 
+## Time limit for querying data 
 
 The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Microsoft 365 data](../use/office-365-data.md) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
-### Billing model differences
+## Billing model differences
 
 Tenants subscribe to Workplace Analytics through one of the following billing models:
 
@@ -38,13 +38,13 @@ Tenants subscribe to Workplace Analytics through one of the following billing mo
 
 Your tenant's choice of billing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
 
-#### For analysts in PUPM tenants
+### For analysts in PUPM tenants
 
 The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
 
 ![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits.png)
 
-#### For analysts in consumption-model tenants
+### For analysts in consumption-model tenants
 
 In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers cause more units to be consumed than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
 
@@ -58,7 +58,7 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 
 Above the banner, a field shows the unit balance &ndash; namely, how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
-### Consumption model details
+#### Consumption model details
 
 In a consumption-model tenant, queries, as they are run, consume "units." Unit calculation is as follows:
 
@@ -90,7 +90,7 @@ No additional units are charged for the following:
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
 
-##### Results page
+#### Results page (consumption model)
 
 Analysts in a PUPM tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
@@ -98,7 +98,11 @@ For analysts in a consumption-model tenant, the **Results** page shows additiona
 
 ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
-## Person query
+## Query types
+
+You can find these queries on the **Analyze** > **Queries** page of Workplace Analytics.
+
+### Person query
 
 Use a person query when you want to find broad trends in the organization by looking at aggregated metrics for a group of people.
 
@@ -111,7 +115,7 @@ With a person query you can compare across individual activities and attributes,
 
 See [Person queries](../Tutorials/person-queries.md) to learn more.
 
-## Meeting query  
+### Meeting query  
 
 Use a meeting query when you want to understand the relationship between different meeting attributes.
 
@@ -124,7 +128,7 @@ With a meeting query you can compare across meeting attributes, such as:
 
 See [Meeting queries](../Tutorials/meeting-queries.md) to learn more.
 
-## Group-to-group query
+### Group-to-group query
 
 Use a group-to-group query when you want to understand how one team invested their collaboration time with other teams within and outside of the organization.
 
@@ -138,7 +142,7 @@ Group-to-group queries also offer alternative perspectives on collaboration. Rat
 
 See [Group-to-group queries](../Tutorials/group-to-group-queries.md) to learn more.
 
-## Person-to-group query
+### Person-to-group query
 
 Use a person-to-group query to help you understand how individuals invested their time with one or more collaborator teams within and outside of the organization.
 
@@ -148,7 +152,7 @@ You can choose to analyze the number of interactions between a time investor and
 
 See [Person-to-group queries](../Tutorials/person-to-group-queries.md) to learn more.
 
-## Peer comparison query
+### Peer comparison query
 
 The peer comparison query helps you identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics.
 
@@ -156,7 +160,7 @@ You can compare individuals with others who share the same manager, with their d
 
 See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
 
-## Network queries
+### Network queries
 
 You can use the Organizational network analysis (ONA) queries in Workplace Analytics to find out who are the best-connected people in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
