@@ -48,7 +48,7 @@ The following describes the analysis within each theme and the actions you can t
 
 The dashboard also includes:
 
-* [**Customize report**](#customize-report) enables you to select what time period and organizational attribute to view the report by and what filters to use for the report.
+* [**Customize report**](#customize-report) enables you to select what time period and organizational attribute to view the reports by and which employees to include in the reports.
 * **Glossary** that describes the metrics used in the different reports.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the Power BI template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
@@ -119,7 +119,8 @@ After this initial prompt, you can then select **Customize** at top right of any
 
 * **Time period** – Select the time period you want to view data for in the dashboard.
 * **Exclusions** - Select the weeks you want to exclude for everyone in the analysis population, such as holiday weeks where everyone is away from work.
-* **Organizational attribute to view the report by** - For **Dimension**, select the primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
+* **Organizational attribute to view the report by** - Select the primary “group-by” attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
+* **Employee filter** - Select the organizational attribute and values you want to filter the employees by in the reports.
 
 ![Manager effectiveness custom report options](../Images/WpA/Tutorials/manager-effect-settings.png)
 
