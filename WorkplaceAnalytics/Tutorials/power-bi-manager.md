@@ -48,7 +48,7 @@ The following describes the analysis within each theme and actions you can take,
 
 The dashboard also includes:
 
-* [**Customize report**](#customize-report) for specifying the time period and filters and mapping the attributes for the reports.
+* [**Custom report options**](#customize-report) that the reports use, such as the time period, the filters, or the mappings for the attribute values.
 * **Glossary** that describes the metrics used in the different reports.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the Power BI template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
