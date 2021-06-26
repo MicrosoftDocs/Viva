@@ -39,6 +39,7 @@ You can size the nodes based on various network metrics. The following table lis
 | ------- | --- |
 | [Boundary Spanning](#boundary-spanning) | How well people in one group shares information with other groups. |
 | [Bridging Index](#bridging-index)       | The relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
+| [Cohesion](#cohesion)               | Scores represent the extent of connections that employees have with each other. |
 | [Degrees](#degrees)                     | The overall network size of each node. |
 | [Density](#density)                     | The strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
 | [E-I Index](#e-i-index)                 | The size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
@@ -101,6 +102,10 @@ This measure is calculated as follows for employees as compared to groups.
 
 * Both levels for this measure account for direction and weight.
 
+## Cohesion
+
+Collaborative cohesion is measured by the global clustering coefficient. It indicates the likelihood that individuals’ connections will also connect with each other in the network. The scores are between 0 and 1, where 0 represents no completed triads in the network and 1 means that the network is completely connected. High cohesion scores indicate a greater sense of trust and understanding among employees and a willingness for employees to help each other. This measure accounts for edge weight but not the direction. It is available in Insights mode or through the downloaded data. For more details on this measure, see [Clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient).
+
 ## Degrees
 
 Degrees denotes the network size and is based on the number of connections to a node. Simply, the overall degree is the number of edges (incoming and outgoing) connected to a node. Indegree is the number of incoming edges to a node and outdegree is the number of outgoing edges. Indegree and outdegree are available in  downloaded files only.
@@ -142,13 +147,11 @@ A group is *orange* when it's higher in density and *blue* when it's lower in de
 
 **Modularity** is the fraction of edges within a group minus the fraction of edges that are expected from a random network with the same nodes and the same degrees, but not the same connections between nodes. In other words, it's the difference between what the network is and what a similarly constructed random network is expected to be.
 
-If the modularity is ...
+If the modularity is as follows:
 
-* **positive** &ndash; a group has more connections within it than expected. 
-
-* **zero or close to zero** &ndash; the connections are about the same as a random network. 
-
-* **negative** &ndash; the group has fewer and less strong connections than would be expected from pure chance. This metric interprets the density measure as to whether the amount of connections between groups and within groups is high or low. It also gives insight into the overall graph and its connectivity.
+* **positive** - The group has more connections within it than expected.
+* **zero or close to zero** - The connections are about the same as a random network.
+* **negative** - The group has fewer and less strong connections than would be expected from pure chance. This metric interprets the density measure as to whether the amount of connections between groups and within groups is high or low. It also gives insight into the overall graph and its connectivity.
 
 **Density Ratio** compares the density values of a group to the expected density of a group's size within the context of the tenant. The density ratios for two groups who are collaborating with each other are compared to the median density of cross-group densities.
 
@@ -156,9 +159,9 @@ This measure helps identify groups who are cohesive and groups that might lack t
 
 ## E-I Index
 
-The E-I index is available only in downloaded data. It indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group. This is helpful in identifying individuals or groups who are at risk of being siloed. 
+The E-I index is available only in downloaded data. It indicates the size of an imbalance between external and internal collaboration for an individual within a group or for a group. This is helpful in identifying individuals or groups who are at risk of being siloed.
 
-The E-I index is between -1 (all collaboration is internal) and 1 (all communication is external facing). A value of 0 represents a balanced amount of internal and external collaboration. This measure accounts for weighted edges but does not account for direction. 
+The E-I index is between -1 (all collaboration is internal) and 1 (all communication is external facing). A value of 0 represents a balanced amount of internal and external collaboration. This measure accounts for weighted edges but does not account for direction.
 
 An E-I index of -0.67 corresponds to a 5:1 internal to external collaboration. Consequently, values at or below -0.67 indicate a group or individual might be at risk of being siloed. In this measure, an individual can only belong to one group.
 
@@ -171,8 +174,8 @@ This measure is calculated differently for employees as compared to groups:
 
 This measure is only available in the *combined view*. It represents groups that are based on the number of people in the same group (share the same attribute) for the selected time period. Group size helps you determine how the group size can affect their interactions.
 
-> [!Note]
-> Filtering will not change group sizes.
+>[!Note]
+>Filtering will not change group sizes.
 
 ## Influence Index
 

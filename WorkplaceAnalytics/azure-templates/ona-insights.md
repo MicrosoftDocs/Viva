@@ -16,24 +16,38 @@ audience: Admin
 ---
 
 
-# Insights in the ONA Azure Template
+# ONA Insights
 
 The Organizational Network Analysis (ONA) Template includes Organization and Group Insights you can use to quickly validate hypotheses regarding overall collaboration patterns within a group, across different groups, or the organization as a whole.
 
 This following analysis helps you identify groups who are showing either positive or negative collaboration behaviors and how those behaviors trend over time.
 
-* [**Organization Insights**](#organization-insights) - 
+* [**Organization Insights**](#organization-insights) - Insights about overall company-wide collaboration, including stability, connectivity, and cohesion scores.
 * [**Group insights**](#group-insights) - The group-based insights can guide your work on creating a workplace with healthy and sustainable collaboration behaviors.
 
 ## Organization Insights
 
+Shows an ONA graph and the following three metrics about how the organization as a whole is doing month to month. The graph shows nodes that are sized by the number of connections people have with each other within the organization. In **Network colored by**, you can change how the graph is colored based on the selected attribute. You can also select a node in the graph to see more information about it.
 
+* **Stability** - Measures the change in workgroup membership from month to month. The workgroups of employees are based on community detection. A high score indicates more stable communication patterns that are similar to the prior month's patterns. This is also available through the downloaded data. For more details about this measure, see the [measure calculations](ona-metric-calculations.md#stability).
+* **Connectivity** - Key statistic that indicates how well the graph can be split into independent working communities. High scores indicate organizations who are potentially operating in silos or trending toward operating in silos. Low scores indicate more cross-group collaboration and more efficient communication patterns, more streamlined resources, and boost employee engagement across the company. Positive changes are shown as green percentages.
+* **Cohesion** - Measures the extent to which employees' connections will also connect with each other. High scores indicate a greater sense of trust and understanding among employees and a willingness to help each other. This is also available through the downloaded data. For more details about this measure, see the [measure calculations](ona-metric-calculations.md#cohesion).
+
+For example, the following graphic shows a Stability of -33.7 percent change in workgroup membership as compared to last month, which shows an improvement as compared to the overall time range.
+
+![Organizational Insights data](./images/ona-org-insights.png)
+
+The following metrics are used for the graph and are currently only available in the downloaded data.
+
+* **Network Silo** - Helps quantify how connected or siloed a network is. Based on the network measure modularity, a low score suggests that employees communicate across the organization regardless of whether they're in the same workgroup or a different workgroup. A high modularity would mean employees primarily communicate to others in their workgroup. Workgroups of employees are determined using community detection, not the formal hierarchy. A very high score might indicate that a network is at risk of being "siloed" where employees are only communicating with others in their workgroup and few others. For more details about this measure, see the measure calculations.
+* **Freedom** - Calculated by comparing the alignment of employee workgroups (defined by community detection) to the formal organizational structure. High freedom indicates workgroups who collaborate freely across organizational boundaries and their collaboration does not align with the organizational chart. Low freedom indicates that the organizational chart aligns well with how employees collaborate. See [measure calculations](ona-metric-calculations.md#freedom) for more details.
+* **Fluidity** - Measures the change in a workgroup’s networks from one month to the next by quantifying how much employees shift their position in the network. These individual changes are averaged and reported for each workgroup. Workgroups are defined by community detection and not the formal hierarchy. Low fluidity scores indicate workgroups with more stable communication patterns month to month. High fluidity scores indicate workgroups who frequently change who they collaborate with month to month. For more details on fluidity, see [measure calculations](ona-metric-calculations.md#fluidity).
 
 ## Group Insights
 
 Group Insights include the following trends about how people within the selected group are collaborating for the selected date range. All insights in the tabular views refer to the groups’ behavior in the _most recent month_ in the selected time range. For this within-group analysis, you select what metric to group people by in **Group Settings**.
 
-* **Silo risk** - Shows which groups are disconnected from others or are at risk of being disconnected. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group. This is based on the [E-I Index](ona-metric-calculations.md#e-i-index) measure for a group where high risk is less than -0.67, medium risk is between -0.5 and -0.67, and low risk is greater than -0.5.
+* **Isolation risk** - Shows which groups are disconnected from others or are at risk of being disconnected. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group. This is based on the [E-I Index](ona-metric-calculations.md#e-i-index) measure for a group where high risk is less than -0.67, medium risk is between -0.5 and -0.67, and low risk is greater than -0.5.
 * **Collaboration balance** - Shows which groups balance their efforts across their various types of contacts. New ideas are key to driving innovation across your company. Access to these ideas is facilitated by fostering diverse connections while balancing time across different groups. This is based on the [Qualitative Variation Index](ona-metric-calculations.md#qualitative-variation-index) where high risk is less than 0.5, medium risk is between 0.5 and 0.75, and low risk is greater than 0.75.
 * **Group cohesion** - Shows which groups have enough connections among team members needed to build trust. Group members who trust one another are more inclusive and better positioned to deliver successful results. This is based on the [Density](ona-metric-calculations.md#density) measure where all values less than one standard deviation away from the expected density is considered high risk.
 * **Overall risk** - A combination of Silo Risk, Collaboration Balance, and Group Cohesion. The groups with multiple high-risk factors are ranked higher than groups with lower risk behaviors. This can identify groups where change initiatives might be the most helpful.
