@@ -23,10 +23,10 @@ The Microsoft Workplace Analytics web app gives analysts (often at the behest of
 
 Before analysts can get to work, they must have the proper role:
 
-* **Role** &ndash; Each analyst must be assigned the Workplace Analytics 'analyst' role. Admins assign roles, and can learn more about this task in [Assign roles](https://review.docs.microsoft.com/en-us/workplace-analytics/setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). For general information about user roles in Workplace Analytics, see [User roles](https://docs.microsoft.com/en-us/workplace-analytics/use/user-roles).
+**Role** &ndash; Each analyst must be assigned the Workplace Analytics 'analyst' role. Admins assign roles, and can learn more about this task in [Assign roles](https://review.docs.microsoft.com/en-us/workplace-analytics/setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). For general information about user roles in Workplace Analytics, see [User roles](https://docs.microsoft.com/en-us/workplace-analytics/use/user-roles).
 
-   >[!Note]
-   >An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
+>[!Note]
+>An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
 
 ## Options for exploring and analyzing data
 
