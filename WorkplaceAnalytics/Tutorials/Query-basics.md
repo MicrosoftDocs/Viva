@@ -56,7 +56,7 @@ Above the query-cost estimator, a field shows the unit balance &ndash; namely, h
 
 #### Consumption model details
 
-In a consumption-model tenant, queries, as they are run, consume "units." Unit calculation is as follows:
+In a consumption-model tenant, queries consume "units" as they are run. Unit calculation is as follows:
 
 **units consumed in a query** = **number of user-weeks analyzed** x **number of base metrics** x **price tier/1000**, where:
 
