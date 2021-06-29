@@ -8,7 +8,6 @@
         - name: Introduction
           href: ~/Privacy/data-protection-intro.md
         - name: Data-protection considerations
-          displayName: Jamaica Plain
           href: ~/Privacy/data-protection-considerations.md
         - name: Data de-identification
           href: ~/Privacy/de-identify-data.md
