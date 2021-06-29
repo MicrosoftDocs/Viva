@@ -14,7 +14,7 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 ---
-# Measure calculations for the Organizational Network Analysis Azure Template
+# ONA measure calculations
 
 _This template is only available as part of a Microsoft service engagement._
 
