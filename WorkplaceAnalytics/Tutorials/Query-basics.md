@@ -42,7 +42,7 @@ Your tenant's choice of billing model affects the appearance and behavior of the
 
 The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
 
-![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits.png)
+![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
 
 ### For analysts in consumption-model tenants
 
@@ -50,7 +50,7 @@ In this model, there is no minimum monthly licensing cost for your organization;
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. A query-cost estimator shows the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
-![units per query](../images/wpa/tutorials/conmod-credits.png)
+![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
 Above the query-cost estimator, a field shows the unit balance &ndash; namely, how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
