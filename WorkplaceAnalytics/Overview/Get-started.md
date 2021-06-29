@@ -2,7 +2,7 @@
 
 title: Workplace Analytics data analysis
 description: High-level overview of ways to use Workplace Analytics to analyze data
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -21,11 +21,12 @@ The Microsoft Workplace Analytics web app gives analysts (often at the behest of
 
 ## Requirements for analysts
 
-Before analysts can get to work, they must have the proper licensing and roles:
+Before analysts can get to work, they must have the proper role:
 
-* **License** &ndash; Each analyst must have a Workplace Analytics license. Assigning licenses is the duty of admins, who can learn more about this task in [Assign licenses](https://docs.microsoft.com/en-us/workplace-analytics/setup/assign-licenses-to-population). (Before user licenses can be assigned, the proper organizational agreements must be in place; for information about licensing at the tenant level, see [Requirements for Workplace Analytics](https://docs.microsoft.com/en-us/workplace-analytics/setup/environment-requirements).)
+* **Role** &ndash; Each analyst must be assigned the Workplace Analytics 'analyst' role. Admins assign roles, and can learn more about this task in [Assign roles](https://review.docs.microsoft.com/en-us/workplace-analytics/setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). For general information about user roles in Workplace Analytics, see [User roles](https://docs.microsoft.com/en-us/workplace-analytics/use/user-roles).
 
-* **Role** &ndash; Each analyst must be assigned the Workplace Analytics 'analyst' role, also by an admin. Admins can learn more about this task in [Assign roles](https://review.docs.microsoft.com/en-us/workplace-analytics/setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). For general information about user roles in Workplace Analytics, see [User roles](https://docs.microsoft.com/en-us/workplace-analytics/use/user-roles).
+   >[!Note]
+   >An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
 
 ## Options for exploring and analyzing data
 
