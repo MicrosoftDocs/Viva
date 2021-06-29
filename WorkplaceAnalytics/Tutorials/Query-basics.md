@@ -70,9 +70,9 @@ In a consumption-model tenant, queries, as they are run, consume "units." Unit c
 
 <u>Example:</u> If a query measures Meeting hours between 8:00 and 9:00 AM and Meeting hours between 9:00 and 10:00 AM, this counts as only a single metric, Meeting hours.
 
-**price tier** is defined as follows:
+**price tier** is the rate at which a query consumes units. The higher the tier, the more units are consumed:
 
-| Tier | Metric used in the query | Price per unit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   |
+| Tier | Metric used in the query | Units |
 | ---- | ------------ | -------------- |
 | 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
 | 2    | Advanced Workplace Analytics metrics &ndash; There is only one in this category: the _Influence_ metric. | 2.25 |
