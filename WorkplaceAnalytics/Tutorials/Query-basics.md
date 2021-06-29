@@ -46,17 +46,13 @@ The query-creation pages show analysts no information about query usage or tenan
 
 ### For analysts in consumption-model tenants
 
-In this model, there is no minimum monthly fee for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers cause more units to be consumed than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
+In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers cause more units to be consumed than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
 
-<!-- MAYBE DON'T NEED THIS:
->[!Note]
->For more information about the ways these licensing models work, contact your Microsoft representative. -->
-
-As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. A banner shows the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
+As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. A query-cost estimator shows the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
 ![units per query](../images/wpa/tutorials/conmod-credits.png)
 
-Above the banner, a field shows the unit balance &ndash; namely, how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
+Above the query-cost estimator, a field shows the unit balance &ndash; namely, how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
 #### Consumption model details
 
@@ -90,11 +86,13 @@ No additional units are charged for the following:
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
 
-#### Results page (consumption model)
+#### Results page
 
-Analysts in a PUPM tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+The **Queries** > **Results** page shows additional information if the consumption model is in use at your tenant:
 
-For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+* **PUPM tenants** &ndash; Analysts in a PUPM tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+
+* **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
 ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
