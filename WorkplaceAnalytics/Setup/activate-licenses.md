@@ -71,4 +71,4 @@ The task of activating licenses has two parts. Each part requires a different Az
 
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
 
-* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
