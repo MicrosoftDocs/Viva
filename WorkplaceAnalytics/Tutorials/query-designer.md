@@ -38,7 +38,7 @@ You can also filter the list of templates to help identify which ones answer que
 
 If you select one of the templates, such as **Business continuity**, you'll see the questions that the template can help you answer, what its prerequisites are, and how to set it up. You’ll also notice that it requires you to have a recent version of Power BI and to run two pre-defined queries.
 
-:::image type="content" source="../images/wpa/tutorials/query-template-details-2.png" alt-text="query template detail pane":::
+:::image type="content" source="../images/wpa/tutorials/query-template-details-2-50.png" alt-text="query template detail pane":::
 
 ### Power BI templates
 
