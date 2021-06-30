@@ -51,7 +51,7 @@ Workplace Analytics includes the following Power BI templates.
 
 With this prerelease of the Query designer, the specific steps in the currently published Workplace Analytics documentation do not match this new experience. Documentation for each of the individual Power BI templates have steps for using the original **Queries** page.
 
-For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll select the **Business Continuity** card and follow the on-screen setup steps included in the **Query designer**.
+For example, for Business continuity, you’ll see the new Query designer instead of the original Queries page. So instead of following the initial steps in [Set up the dashboard](power-bi-bc.md#set-up-the-dashboard), you’ll select the **Business continuity** card and follow the on-screen setup steps included in the **Query designer**.
 
 ![Business continuity setup steps](../Images/WpA/Tutorials/bc-setup-steps.png)
 
@@ -131,7 +131,7 @@ In addition to the Power BI templates, Workplace Analytics also includes the fol
 * **Domain collaboration** - Analyzes collaboration patterns with external domains.
 * **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
 * **Standard person query** - Provides all base metrics available for a person query.
-* **Hourly Collaboration** - Analyzes meeting, email, instant-message, and call activity by hour of the day.
+* **Hourly collaboration** - Analyzes meeting, email, instant-message, and call activity by hour of the day.
 ## Meeting exclusions
 
 You define meeting exclusions to exclude types of meetings from analysis (such as all-day training meetings) where their inclusion might skew query results. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
