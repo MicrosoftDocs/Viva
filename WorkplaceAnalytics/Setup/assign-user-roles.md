@@ -149,4 +149,4 @@ However, in a larger company where the number of users required for the same rol
 
 * [Manager settings](../use/manager-settings.md)
 
-* [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)

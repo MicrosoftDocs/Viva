@@ -21,15 +21,15 @@ You can only activate additional Workplace Analytics licenses for a Microsoft 36
 
 The task of activating licenses has two parts. Each part requires a different Azure Active Directory role:
 
-* **Part 1: Add your activation code** &ndash; The person who completes the steps in this session must have the role of Azure Active Directory [Billing administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#billing-administrator).
+* **Part 1: Add your activation code** &ndash; The person who completes the steps in this session must have the role of Azure Active Directory [Billing administrator](/azure/active-directory/roles/permissions-reference#billing-administrator).
 
-* **Part 2: Confirm the code and turn licenses on** &ndash; The person who completes the steps in this session must have the role of Azure Active Directory [License Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#license-administrator).
+* **Part 2: Confirm the code and turn licenses on** &ndash; The person who completes the steps in this session must have the role of Azure Active Directory [License Administrator](/azure/active-directory/roles/permissions-reference#license-administrator).
 
 ## To activate Workplace Analytics licenses
 
 ### Part 1: Add your activation code
 
-* **Role**: Azure Active Directory [Billing administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#billing-administrator)
+* **Role**: Azure Active Directory [Billing administrator](/azure/active-directory/roles/permissions-reference#billing-administrator)
 
 1. Start your web browser, such as Microsoft Internet Explorer, Microsoft Edge, Google Chrome, or Mozilla Firefox, for **InPrivate**, **incognito**, or **Private** browsing.
 
@@ -43,13 +43,13 @@ The task of activating licenses has two parts. Each part requires a different Az
 
    ![Promotional code sign-in](../images/wpa/setup/sign-in.png)
 
-5. On the **Sign in** page, enter your AAD [Billing administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#billing-administrator) credentials for the tenant.
+5. On the **Sign in** page, enter your AAD [Billing administrator](/azure/active-directory/roles/permissions-reference#billing-administrator) credentials for the tenant.
 6. On the **Check out** page, select **Try Now** to confirm the order.
 7. When you get the order receipt, save it and then select **Continue**.
 
 ### Part 2: Confirm the code and turn licenses on
 
-* **Role** &ndash; Azure Active Directory [License Administrator](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#license-administrator)
+* **Role** &ndash; Azure Active Directory [License Administrator](/azure/active-directory/roles/permissions-reference#license-administrator)
 
 1. Open the [Microsoft 365 admin center](https://admin.microsoft.com). 
 
@@ -71,4 +71,4 @@ The task of activating licenses has two parts. Each part requires a different Az
 
 * [Environment requirements for Workplace Analytics](../setup/environment-requirements.md)
 
-* [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)

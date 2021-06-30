@@ -22,7 +22,7 @@ The following describes who does what to assign roles in Workplace Analytics for
 * **Owner** - Microsoft 365 global administrator
 CHANGED THIS TO THE FOLLOWING:  -->
 
-* **Owner** - Azure Active Directory [Privileged Role Administrator](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#privileged-role-administrator)
+* **Owner** - Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator)
 * **Task** - Assign users for administrators and data analysts to Workplace Analytics service.
 * **Outcome** - Workplace Analytics roles are assigned so that administrators can use Workplace Analytics to set system defaults, privacy settings, and upload and verify organizational data. After data is provisioned, data analysts can sign in to and use Workplace Analytics.
 
@@ -50,5 +50,5 @@ See [Assign user or group roles in Azure Active Directory](../setup/assign-user-
 
 * [Manager settings](../use/manager-settings.md)
 
-* [About admin roles](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)
+* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
 
