@@ -23,7 +23,7 @@ Analysts can explore organizational data with the Workplace Analytics dashboards
 
 ## Requirements for analysts
 
-Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles, and can learn more about this task in [Assign roles](..setup/assign-roles-to-wpa-admins?branch=pas-aks-activate-licenses). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles).
+Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles, and can learn more about this task in [Assign roles](..setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
 
 >[!Note]
 >An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
