@@ -20,6 +20,12 @@ The **Query designer** page in Workplace Analytics brings the Workplace Analytic
 * [**Queries**](#queries) &ndash; You use queries to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
 * [**Power BI templates**](#templates) &ndash; These templates provide an easy way to bring a predefined set of query metrics into a Power BI template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
 
+## Open the Query designer
+
+* To open the **Query designer** page in Workplace Analytics, select **Analyze** > **Query designer**.
+
+   On the page that opens, a menu lets you choose between **Create** and **Results** pages. On the **Create** page, you can start an analysis by using either [Power BI templates](#templates) or [queries](#queries). On the **Results** page, you'll find results for queries that have been run.
+
 ## Templates
 
 The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates). These templates help you analyze behavioral patterns that relate to common business challenges, such as how to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
