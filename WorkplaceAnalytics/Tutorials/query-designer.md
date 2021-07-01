@@ -30,7 +30,7 @@ The **Query designer** page in Workplace Analytics brings the Workplace Analytic
 
 The Query designer in Workplace Analytics shows a list of predefined [Power BI templates](#power-bi-templates). These templates help you analyze behavioral patterns that relate to common business challenges, such as how to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
-  ![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
+![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
 
 Power BI templates are designed to use the output of pre-defined queries. After you find the right template for your analysis, you run specified queries and plug the query output into the Power BI template. This gives you a complete Power BI report.
 
