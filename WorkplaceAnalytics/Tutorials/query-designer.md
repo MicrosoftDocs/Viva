@@ -36,7 +36,7 @@ Power BI templates are designed to use the output of pre-defined queries. After 
 
 To find the right template, read the template descriptions or select one to open a pane that shows additional details.
 
-![Business continuity template details](../Images/WpA/Tutorials/query-template-details.png)
+:::image type="content" source="../images/wpa/tutorials/query-template-details.png" alt-text="Business continuity template details":::
 
 You can also filter the list of templates to help identify which ones answer questions about business outcomes that you might have. For example, you’ll see the following when you select **Filters** > **Develop effective managers**.
 
