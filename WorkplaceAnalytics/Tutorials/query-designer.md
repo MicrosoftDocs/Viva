@@ -50,13 +50,13 @@ If you select one of the templates, such as **Business continuity**, you'll see 
 
 Workplace Analytics includes the following Power BI templates.
 
-* [**Ways of working assessment**](./power-bi-collab-assess.md) - Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
-* [**Ways of working tracker**](./power-bi-collab-track.md) - Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
-* [**Return to worksites**](./power-bi-return-tw.md) - Shows how to plan which employees return to work, and when, where, and how they do so for different work locations.
-* [**Business continuity**](./power-bi-bc.md) - Shows example insights into how shifting to remote work affected your business.
-* [**Microsoft Teams insights**](./power-bi-teams.md) - Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization. 
-* [**Behavior patterns for Glint**](./power-bi-glint.md) - Combines behavioral data from Workplace Analytics and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
-* [**Sales business continuity**](./pbi-bc-sales.md) - Shows insights into how shifting to remote work impacted your sales organization.
+* [**Ways of working assessment**](./power-bi-collab-assess.md) &ndash; Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
+* [**Ways of working tracker**](./power-bi-collab-track.md) &ndash; Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
+* [**Return to worksites**](./power-bi-return-tw.md) &ndash; Shows how to plan which employees return to work, and when, where, and how they do so for different work locations.
+* [**Business continuity**](./power-bi-bc.md) &ndash; Shows example insights into how shifting to remote work affected your business.
+* [**Microsoft Teams insights**](./power-bi-teams.md) &ndash; Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.
+* [**Behavior patterns for Glint**](./power-bi-glint.md) &ndash; Combines behavioral data from Workplace Analytics and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
+* [**Sales business continuity**](./pbi-bc-sales.md) &ndash; Shows insights into how shifting to remote work impacted your sales organization.
 
 <!-- * [**Manager effectiveness**](./power-bi-manager.md) - Helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model. -->
 
