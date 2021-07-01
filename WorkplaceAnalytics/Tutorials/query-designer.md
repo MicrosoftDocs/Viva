@@ -17,8 +17,8 @@ audience: Admin
 
 The **Query designer** page in Workplace Analytics brings the Workplace Analytics queries and Power BI templates together into a single view.
 
-* [**Queries**](#queries) &ndash; You use queries to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
 * [**Power BI templates**](#templates) &ndash; These templates provide an easy way to bring a predefined set of query metrics into a Power BI template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
+* [**Queries**](#queries) &ndash; You use queries to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
 
 ## Open the Query designer
 
@@ -73,8 +73,6 @@ For example, for Business continuity, you’ll see the new Query designer instea
 
 -->
 
-<!--
-
 ## Example setup
 
 As mentioned in the previous section, all the templates in the new Query designer include on-screen setup steps. For example, do the following to analyze business continuity data in Power BI.
@@ -122,8 +120,6 @@ As mentioned in the previous section, all the templates in the new Query designe
 
 14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 15. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../Tutorials/Query-auto-refresh.md#stop-auto-refresh) for details.
-
--->
 
 ## Queries
 
