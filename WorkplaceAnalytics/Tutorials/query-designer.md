@@ -58,11 +58,10 @@ Workplace Analytics includes the following Power BI templates.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) &ndash; Combines behavioral data from Workplace Analytics and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) &ndash; Shows insights into how shifting to remote work impacted your sales organization.
 
+>[!Note]
+>You can open the documentation for the Power BI templates by selecting the links (such as [**Sales business continuity**](./pbi-bc-sales.md)) in the preceding list. These articles describe the steps needed to set up the templates. However, note that because you are using a prerelease version of the Query designer, your experience setting up the templates might differ slightly from the steps given in these articles.
+
 <!-- * [**Manager effectiveness**](./power-bi-manager.md) - Helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model. -->
-
-## Prerelease setup steps
-
-Note that, because you are using a prerelease version of the Query designer, the specific steps in the currently published Workplace Analytics documentation might differ slightly from the new experience that you have. 
 
 <!--
 
