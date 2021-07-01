@@ -46,6 +46,9 @@ If you select one of the templates, such as **Business continuity**, you'll see 
 
 :::image type="content" source="../images/wpa/tutorials/query-template-details-2-75.png" alt-text="query template detail pane":::
 
+>[!Note]
+>The **Set up steps** in this pane are condensed and simplified. For the complete setup steps, see the product documentation. The following section, [Power BI templates](#power-bi-templates), provides links to the documentation page for each template.
+
 ### Power BI templates
 
 Workplace Analytics includes the following Power BI templates.
@@ -57,9 +60,6 @@ Workplace Analytics includes the following Power BI templates.
 * [**Microsoft Teams insights**](./power-bi-teams.md) &ndash; Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) &ndash; Combines behavioral data from Workplace Analytics and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) &ndash; Shows insights into how shifting to remote work impacted your sales organization.
-
->[!Note]
->You can open the documentation for the Power BI templates by selecting the links (such as [**Sales business continuity**](./pbi-bc-sales.md)) in the preceding list. These articles describe the steps needed to set up the templates. However, note that because you are using a prerelease version of the Query designer, your experience setting up the templates might differ slightly from the steps given in these articles.
 
 <!-- * [**Manager effectiveness**](./power-bi-manager.md) - Helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model. -->
 
