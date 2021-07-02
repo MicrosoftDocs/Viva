@@ -46,7 +46,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | Day of week  | The day of the week on which the IM was sent | 
 | InteractionType | The type of chat in which the IM appears, namely in a one-on-one chat or in a group chat. | 
 | IsAfterHours | True means that this IM was sent during the recipient's after-hours period; <br>False means that it was not sent during that period. | 
-| IsSender | True means that this person sent the email; <br>False means that this person did not send the email. | 
+| IsSender | True means that this person sent the IM; <br>False means that this person did not send the IM. | 
 | Time of day &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent | 
 | TotalParticipants | Number of people who participated in the IM thread, including the sender of the initial IM | 
 
