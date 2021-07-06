@@ -157,7 +157,7 @@ After the Behavior patterns dashboard is set up and populated with both the Glin
 
    ![Behavior patterns Settings page 1](../Images/WpA/Tutorials/select-glint-settings.png)
 
-3. **Select the employee experience pillars to explore** &ndash; Map the employee themes to their corresponding Glint survey question themes, and then enter the actual question asked in Glint
+3. **Select the employee experience pillars to explore** &ndash; Map the employee themes to their corresponding Glint survey question themes, and then enter the actual question asked in Glint.
 
    ![Behavior patterns Settings page 2](../Images/WpA/Tutorials/select-glint-settings-2.png)
 
