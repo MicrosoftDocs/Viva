@@ -29,7 +29,7 @@ The dashboard combines the following data.
 
 :::image type="content" source="../images/wpa/tutorials/pbi-glint-wellbe-2.png" alt-text="Power BI Glint Wellbeing report":::
 
-<!-- FORMERLY HERE
+<!-- SWITCHING TO NEW IMAGE STYLE. FORMERLY HERE:
 ![Power BI Glint Wellbeing report](../Images/WpA/Tutorials/pbi-glint-wellbeing.png) -->
 
 The dashboard includes the following reports.
