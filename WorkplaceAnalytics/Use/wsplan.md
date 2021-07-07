@@ -127,10 +127,11 @@ Do the following to create a seating plan:
 4. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a **red X**, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat the previous steps to validate the updated files.
 5. After all files are successfully validated, select one of the following input scenarios that the tool should use to aggregate the final output for your interaction file. These scenarios are based on the interactions file query data.
 
-    * **Latest dates** - Aggregates collaboration data based on the most recent week of collaboration activity between teams.
-    * **Average collaboration** - Aggregates collaboration data based on the weekly averages of collaboration hours spent between the different teams.
+
     * **Total collaboration** - Aggregates collaboration data based on the total number of hours the teams spent collaborating over the period of time specified in Workplace Analytics. Use this as the default aggregation option.
-    * **Boost intra-collaboration** - Groups teams based on the "boosted" number of collaboration hours spent with two specific teams. You can change the **Boost Multiplier** setting that defines how to apply the boost. The maximum setting is 3, which will multiple the maximum number of collaboration hours by 3. This multiplied value replaces the existing collaboration hours for all the teams. Use this option if _Collaboration within groups_ is low, but you want to keep the teams together as much as possible in your final seating plan.
+    * **Boost intra-collaboration** - Aggregates collaboration data based on the "boosted" number of collaboration hours spent with two specific teams. You can change the **Boost Multiplier** setting that defines how to apply the boost. The maximum setting is 3, which will multiple the maximum number of collaboration hours by 3. This multiplied value replaces the existing collaboration hours for all the teams. Use this option if _Collaboration within groups_ is low, but you want to keep the teams together as much as possible in your final seating plan.
+    * **Latest date** - Aggregates collaboration data based on the most recent week of collaboration activity between teams.
+    * **Average collaboration** - Aggregates collaboration data based on the weekly averages of collaboration hours spent between the different teams.
 
 6. The updated files are saved to a new **Final Files set** folder. Any changes relating to these files are also saved to this folder.
 
@@ -185,7 +186,25 @@ You can use Microsoft PowerPoint or a similar tool to define the zone coordinate
 * The algorithm cannot interpret context (politics, hierarchy, or intentions) that a person could when allocating a workspace.
 * When the algorithm creates a seating plan that is not optimal, be sure to use the **Fixed spaces** mode to improve the model predictions.
 
+## FAQ
+
+#### Q1. What to do when a Jupyter notebook doesn’t load when opened?
+
+A1. Confirm that you are using Chrome as your browser. Then try restarting it by selecting **Kernel** > **Restart and Clear Output**. Or you can select **Run** if the UI is not loading automatically.
+
+#### Q2. Can the values in the Distance Helper notebook be copy and pasted?
+
+A2. Yes, you can use **Ctrl+C** and **Ctrl+V** to copy and paste the values in this notebook in their respective cells. At this moment, you cannot copy and paste multiple values.
+
+#### Q3. What does the X error represent?
+
+A3. Check the following, which might be causing the error.
+
+* **Distance Helper notebook** - Confirm that the addresses and the zone coordinates are entered correctly.
+* **File Validations notebook** - Confirm the input files have the correct headings and match the values in the other files. For example, the team names in the team_size.csv should match the team names in the interactions.csv and the workspace names should be the same in the distance file and the space_capacity file. Also, check the Input Files section to confirm that the required files comply with the prerequisites.
+* **Generate Floorplan notebook** - Confirm that all the required validated files are in your **Final Files** folder.
+
 ## Related topics
 
-* [Workspace Collaboration Optimizer Readme](https://github.com/microsoft/Workspace-Planning-Tool/blob/main/README.md)
+* [Workspace Collaboration Optimizer Readme](https://github.com/microsoft/workspace-optimizer/blob/main/README.md)
 * [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
