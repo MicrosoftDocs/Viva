@@ -13,7 +13,7 @@ audience: Admin
 
 # Behavior patterns for Glint
 
-The Behavior patterns for Glint dashboard uses a Power BI template to combine sentiment data from Glint with behavioral data from Workplace Analytics and Viva Insights in Teams. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
+The Behavior patterns for Glint dashboard uses a Power BI template to combine sentiment data from Glint with behavioral data from Workplace Analytics. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
 This analysis uses survey scores and working patterns to identify outlying teams who might need attention. Even for leaders who are already aware of team issues, the dashboard creates high-level visibility enabling them to use research-based and data-driven actions to change or improve workplace behaviors.
 
@@ -34,12 +34,12 @@ The dashboard combines the following data.
 
 The dashboard includes the following reports.
 
-* **Wellbeing** &ndash; Compares wellbeing scores for the selected HR attributes, such as organization or level designation, and shows how workweek span, after-hours work, and collaboration  hours might be affecting wellbeing for specific teams. You'll also see research-based, actionable strategies to help change behaviors that might be contributing to low wellbeing scores.
+* **Wellbeing** &ndash; Compares wellbeing scores for the selected HR attributes, such as organization or level designation, and shows how after-hours work, focus hours, and burnout risk might be affecting wellbeing for specific teams. You'll also see research-based, actionable strategies to help change behaviors that might be contributing to low wellbeing scores.
 * **Connection** &ndash; Compares employee connection scores for the selected HR attribute to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
 * **Clarity** &ndash; Compares prioritization scores for the selected HR attribute to show how manager one-on-one time might be affecting employees’ ability to focus on and prioritize their work. Gives teams easy-to-implement plans that create opportunities for employees to more regularly meet with their managers one-on-one and prioritize their work.
-* **Empowerment** &ndash; Compares empowerment scores for the selected HR attribute to show how manager co-attendance and time in self-organized meetings might affect employee empowerment. Helps leaders identify and support teams who might have underlying conditions affecting both their empowerment and collaboration patterns .
-* **Growth** &ndash; Compares growth scores for the selected HR attribute to show how network sizes and time in skip-level collaboration might affect team growth scores. Helps leaders identify and support teams who might have underlying conditions affecting their work patterns. 
-* **How can I take action to improve employee experience?** &ndash; Summarizes opportunities to improve employee experience by addressing related behaviors for individual, collective, and environmental interventions. After any interventions are started, leaders can use Viva Insights data   to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
+* **Empowerment** &ndash; Compares empowerment scores for the selected HR attribute to show how manager co-attendance and time in self-organized meetings might affect employee empowerment. Helps leaders understand how meeting behaviors impact autonomy and effectiveness.
+* **Growth** &ndash; Compares growth scores for the selected HR attribute to show how network sizes and time in skip-level collaboration might affect team growth scores. It reveals the impact of network size and leadership interactions on development.
+* **How can I take action to improve employee experience?** &ndash; Summarizes opportunities to improve employee experience by addressing related behaviors for individual, collective, and environmental interventions. After any interventions are started, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 
 ## Demonstration
 
