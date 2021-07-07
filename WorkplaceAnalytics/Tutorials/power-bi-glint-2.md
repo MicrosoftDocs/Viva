@@ -54,7 +54,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 The following video describes how to set up the dashboard, which might not be exactly what you experience with data that's unique to your organization.
 
-<iframe src="https://player.vimeo.com/video/475970348" width="800" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/571969511" width="800" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## High-level steps
 
