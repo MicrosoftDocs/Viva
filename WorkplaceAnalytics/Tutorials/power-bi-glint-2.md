@@ -14,7 +14,7 @@ audience: Admin
 # Behavior patterns for Glint
 
 >[!Note]
->The Behavior patterns for Glint dashboard currently supports only Glint reports that are in English. For Japanese customers, please export the Glint report in English before you upload it to PBI. If you encounter errors even with the report exported in English, please delete and then manually type in the column headers in English.
+>The Behavior patterns for Glint dashboard currently supports only Glint reports that are in English. For example, if you are a customer with data in Japanese, please export the Glint report in English before you upload it to PBI. If you encounter errors even with the report exported in English, please delete and then manually type in the column headers in English.
 
 The Behavior patterns for Glint dashboard uses a Power BI template to combine sentiment data from Glint with behavioral data from Workplace Analytics. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
