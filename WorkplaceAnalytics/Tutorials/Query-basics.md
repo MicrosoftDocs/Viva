@@ -38,7 +38,7 @@ Tenants subscribe to Workplace Analytics through one of the following billing mo
 
 Your tenant's choice of billing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
 
-### For analysts in PUPM tenants
+### For analysts in PUPM-model tenants
 
 The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
 
@@ -46,13 +46,13 @@ The query-creation pages show analysts no information about query usage or tenan
 
 ### For analysts in consumption-model tenants
 
-In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of users being analyzed, the duration of the analysis, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers cause more units to be consumed than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
+In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of measured employees being analyzed, the number of weeks of data included in the query output for each measured employee, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
 
-As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. A query-cost estimator shows the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
+As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
-Above the query-cost estimator, a field shows the unit balance &ndash; namely, how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
+In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
 #### Consumption model details
 
@@ -72,7 +72,7 @@ In a consumption-model tenant, queries consume "units" as they are run. Unit cal
 | ---- | ------------ | -------------- |
 | 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
 | 2    | Advanced Workplace Analytics metrics &ndash; There is only one in this category: the _Influence_ metric. | 2.25 |
-| 3    | Workplace Analytics Insights metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts | 6.00 |
+| 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts | 6.00 |
 
 <!-- Note that the price is calculated per 1000 user-weeks. -->
 
@@ -90,7 +90,7 @@ No additional units are charged for the following:
 
 The **Queries** > **Results** page shows additional information if the consumption model is in use at your tenant:
 
-* **PUPM tenants** &ndash; Analysts in a PUPM tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+* **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
 * **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
