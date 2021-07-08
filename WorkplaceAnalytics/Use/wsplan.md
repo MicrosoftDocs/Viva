@@ -55,11 +55,12 @@ You need the following four input files (.csv) to generate a seating plan. These
 
 The tool uses the data in these input files to generate a seating plan in table format, where the rows represent the teams, and the columns represent the workspaces where teams are seated.
 
-![Example data in the files](../images/wpa/use/wsp-example-data.png)
+![Example data in the files](../images/wpa/use/sample-input.png)
+![Example seating plan](../images/wpa/use/sample-seating.png)
 
 ## Tool files
 
-Before you can run the tool, you must save the following files, which are located in the [Workspace Collaboration Optimizer repository](https://github.com/microsoft/Workspace-Planning-Tool), to a **master folder**. If you’re new to GitHub, you’ll need to register and sign in before you can access this repository. See [GitHub Getting started](https://docs.github.com/github/getting-started-with-github) for details.  You'll use this master folder to create a working folder for each workspace project.
+Before you can run the tool, you must save the following files, which are located in the [Workspace Collaboration Optimizer repository](https://github.com/microsoft/workspace-optimizer), to a **master folder**. If you’re new to GitHub, you’ll need to register and sign in before you can access this repository. See [GitHub Getting started](https://docs.github.com/github/getting-started-with-github) for details. You'll use this master folder to create a working folder for each workspace project.
 
 * **Distance Helper notebook** - Creates a distance file that specifies the relative distance between zones or neighborhoods on different floors (and potentially different buildings) based on the coordinates of the different workspaces. You won’t need this file if you’ve already created a distance file.
 * **File Validations notebook** - Validates the input files, including the distance file that's created from the Distance Helper notebook.
@@ -147,9 +148,9 @@ Do the following to create a seating plan:
     * **Fixed spaces** - This option is available after creating a seating plan using Standard mode. If you want to make specific changes to your Standard seating plan, such as seating a team in a specific workspace or seating two teams together, this Fixed spaces mode allows you to run the algorithm again on the edited seating plan for any unassigned teams. For this option, do the following:
 
       1. Edit the seating plan's existing .xlsx file that was saved in **app_results**. After editing it, you must save the seating plan as a .csv file. When editing the plan, you must stay within the constraints set in the validated *space_capacity.csv* and *team_size.csv* files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints.
-      2. After you save the new changes to a seating plan file, select **Fixed**, and then select the updated seating plan file. For example, the following graphic shows a standard seating plan where **Engineering** and **Marketing** are assigned to multiple locations.
+      2. After you save the new changes to a seating plan file, select **Fixed**, and then select the updated seating plan file. For example, the following graphic shows sample input files and a seating plan where **Engineering** and **Marketing** are assigned to multiple locations.
 
-         ![Standard seating plan example](../images/wpa/use/wsp-standard-floorplan.png)
+         ![Standard seating plan example](../images/wpa/use/sample-seating.png)
 
          In the following example, the seat assignments have been changed (fixed) to keep the **Engineering** and **Marketing** teams closer together. You must account for the capacity of the workspaces. For example, if workspace B31-Floor2 has a capacity of 100, then you can’t place 150 people in that workspace. Note the **Product** team is unassigned, so the fixed seating plan will keep the Marketing and Engineering team seat assignments unchanged and the Product team will be assigned to any unoccupied spaces based on the original input files in the Final Files set folder.
 
@@ -190,7 +191,7 @@ You can use Microsoft PowerPoint or a similar tool to define the zone coordinate
 
 #### Q1. What to do when a Jupyter notebook doesn’t load when opened?
 
-A1. Confirm that you are using Chrome as your browser. Then try restarting it by selecting **Kernel** > **Restart and Clear Output**. Or you can select **Run** if the UI is not loading automatically.
+A1. Confirm you are using a [Chrome browser](https://www.google.com/chrome/). Then try restarting the browser by selecting **Kernel** > **Restart and Clear Output**. Or you can select **Run** if the UI is not loading automatically.
 
 #### Q2. Can the values in the Distance Helper notebook be copy and pasted?
 
@@ -201,7 +202,7 @@ A2. Yes, you can use **Ctrl+C** and **Ctrl+V** to copy and paste the values in t
 A3. Check the following, which might be causing the error.
 
 * **Distance Helper notebook** - Confirm that the addresses and the zone coordinates are entered correctly.
-* **File Validations notebook** - Confirm the input files have the correct headings and match the values in the other files. For example, the team names in the team_size.csv should match the team names in the interactions.csv and the workspace names should be the same in the distance file and the space_capacity file. Also, check the Input Files section to confirm that the required files comply with the prerequisites.
+* **File Validations notebook** - Confirm the input files have the correct headings and match the values in the other files. For example, the team names in the team_size.csv should match the team names in the interactions.csv and the workspace names should be the same in the distance file and the space_capacity file. Also, check the Input Files section to confirm that the Requirements.txt file has the correct names for all the required files.
 * **Generate Floorplan notebook** - Confirm that all the required validated files are in your **Final Files** folder.
 
 ## Related topics
