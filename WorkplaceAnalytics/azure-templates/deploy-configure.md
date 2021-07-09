@@ -49,7 +49,7 @@ Before deploying and configuring these templates, review the following security 
 Before deploying Workplace Analytics Azure Templates, confirm or complete the following:
 
 1. Confirm that [Workplace Analytics is set up](../setup/set-up-workplace-analytics.md) and ready to use.
-2. Enable [Workplace Analytics data export](../data-access/data-access.md) for the Azure tenant.
+2. Enable [Workplace Analytics data export](data-export.md) for the Azure tenant.
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
 
    * Confirm you have either an **Azure Admin** or an **Azure Contributor** role to deploy these templates.
@@ -164,7 +164,7 @@ After deployment, you need to create a write-only SAS URI on the raw data contai
 3. In **Shared Access Signature**, select an expiration time.
 4. In **Permissions**, confirm only **Write** is selected, and then select **Create**.
 5. For the URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
-6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [automatic data exports](../data-access/data-access.md#to-export-data-from-workplace-analytics).
+6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [automatic data exports](data-export.md#to-export-data-from-workplace-analytics).
 
     ![Example SAS URI](./images/example-sas-uri.png)
 
