@@ -38,7 +38,7 @@ The following .csv files are included in data exports. Select a file to view wha
 
 * [Meetings](#meetings)
 * [MeetingParticipants](#meetingparticipants)
-* [PersonHistorical](#personHistorical)
+* [PersonHistorical](#personhistorical)
 * [MailParticipants](#mailparticipants)
 * [Mails](#mails)
 * [Calls](#calls)
