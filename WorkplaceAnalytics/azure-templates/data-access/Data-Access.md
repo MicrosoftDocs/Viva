@@ -2,7 +2,7 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics data export steps
 description: Learn about Workplace Analytics Data export and how to use it for advanced data analysis
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 search.appverid:
@@ -31,8 +31,6 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest available organizational data that was uploaded and processed in Workplace Analytics.
 
 If you add new organizational data attributes to your Workplace Analytics upload, you must also add them as additional fields that you want to include in the export in the **Field privacy** section on the **Data export** page. The new fields are added to the next data export after the data upload is next refreshed and processed in Workplace Analytics. For details, see [Upload organizational data (subsequent uploads)](../../setup/upload-organizational-data.md).
-
-
 
 The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
@@ -76,7 +74,7 @@ This file includes one row for each meeting or appointment with the following me
 |-----------------|---------------|-----------------|
 |MeetingId|string|Unique identifier for each meeting (including recurring meetings); primary key|
 |ICalUid|string|Meeting calendar ID|  
-|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/privacy-settings.md) for details)|
+|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../../use/privacy-settings.md) for details)|
 |IsRecurring|boolean|True if this is a recurring meeting|
 |IsCanceled|boolean|True if the meeting was canceled|
 |StartTime|datetime|Meeting start time|
@@ -95,8 +93,8 @@ This file has one row for each participant in a calendar meeting with the follow
   
 |Column name |Data type |Description |
 |-----------------|---------------|-----------------|
-|MeetingId |string |Unique identifier for each meeting (including recurring meetings); foreign key matching [Meetings](#meetings.md) table|
-|PersonHistoricalId |string |Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personHistorical.md) table|
+|MeetingId |string |Unique identifier for each meeting (including recurring meetings); foreign key matching [Meetings](#meetings) table|
+|PersonHistoricalId |string |Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personhistorical) table|
 |LocalStartTime |datetime |Start time of the meeting in the participant's local time|
 |IsOrganizer |boolean |True if this participant organized the meeting|
 |IsDoubleBooked |boolean |True if this person has more than one meeting at this time in their calendar|
@@ -138,7 +136,7 @@ The following describes possible values for the **PopulationType** column.
 
 ### HR attributes
 
-The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, see [Prepare organizational data](../setup/prepare-organizational-data.md#attribute-reference).
+The HR attributes represent organizational data your company has uploaded for use in Workplace Analytics. The attributes include a required set of attributes, optional attributes, and custom attributes. For more information about these attributes, see [Prepare organizational data](../../setup/prepare-organizational-data.md#attribute-reference).
 
 ## MailParticipants
 
@@ -146,8 +144,8 @@ This file includes one row for every email sent and received with the following 
   
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
-|MailId|string|Unique identifier for every email sent; foreign key matching primary key of the [Mails table](#mails.md)|
-|PersonHistoricalId:|string|Unique identifer for every person; foreign key matching [PersonHistorical](#personHistorical.md) table primary key|  
+|MailId|string|Unique identifier for every email sent; foreign key matching primary key of the [Mails table](#mails)|
+|PersonHistoricalId:|string|Unique identifer for every person; foreign key matching [PersonHistorical](#personhistorical) table primary key|  
 |IsSender|boolean|True if this person sent the email|
 |LocalSentTime|datetime|Local time when the email was sent|
 |PersonTimeSpentInHours|double|Time spent reading or writing email in hours (heuristic estimated value)|
@@ -161,7 +159,7 @@ This file includes one row for every email sent with the following metrics.
 |-----------------|---------------|-----------------|
 |MailId|string|Unique identifier for each email; primary key|
 |ConversationId|string|Unique thread identifier|
-|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/privacy-settings.md) for details)|
+|Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../../use/privacy-settings.md) for details)|
 |SentTime|datetime|When the email was sent, in the sender's local time|
 |SenderTimeSpentinMinutes|double|How many minutes spent writing the email (heuristic estimated value)|
 |NumberOfRecipients|integer|Number of email recipients, not including the sender|
@@ -186,7 +184,7 @@ This file includes one row for each participant in a call with the following met
 |Column name|Data type|Description|
 |-----------------|---------------|-----------------|
 | CallRecordId | string | Unique identifier for each call (including scheduled calls); primary key  |
-| PersonHistoricalId | string | Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personHistorical.md) table |
+| PersonHistoricalId | string | Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personhistorical) table |
 | IsOrganizer | boolean | True if this participant organized the call |
 | LocalStartTime | datetime | Start time of the call in the participant's local time |
 | LocalEndTime | datetime | End time of the call in the participant's local time |
@@ -209,8 +207,8 @@ This file includes one row for each participant in an instant message with the f
 
 |Column name |Data type |Description |
 |-----------|----------|-----------|
-|InstantMessageId |string |Unique identifier for each instant message; foreign key matching [InstantMessage](#instantMessages.md) table |
-|PersonHistoricalId |string |Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personHistorical.md) table |
+|InstantMessageId |string |Unique identifier for each instant message; foreign key matching [InstantMessage](#instantmessages) table |
+|PersonHistoricalId |string |Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personhistorical) table |
 |isAfterHours |boolean |True if this instant message was sent after hours |
 |IsSender |boolean |True if this person was the instant message sender |
 |LocalSentTime |datetime |Sent time of the instant message in the participant's local time |
