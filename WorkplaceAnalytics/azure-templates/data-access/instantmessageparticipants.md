@@ -11,18 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# InstantMessageParticipants
 
-This file includes one row for each participant in an instant message with the following metrics.
-
-|Column name |Data type |Description |
-|-----------|----------|-----------|
-|InstantMessageId |string |Unique identifier for each instant message; foreign key matching [InstantMessage](./InstantMessages.md) table |
-|PersonHistoricalId |string |Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](./PersonHistorical.md) table |
-|isAfterHours |boolean |True if this instant message was sent after hours |
-|IsSender |boolean |True if this person was the instant message sender |
-|LocalSentTime |datetime |Sent time of the instant message in the participant's local time |
-|SenderTimeSpentInMinutes |double |Time spent in instant message, approximation |
 
 ## Related topics
 
