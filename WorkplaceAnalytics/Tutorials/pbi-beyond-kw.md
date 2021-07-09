@@ -35,7 +35,7 @@ After you successfully run these queries, you can download the Power BI template
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<br><iframe width="800" height="486" src="https://microsoft.sharepoint-df.com/:u:/t/FLWVTeam/Ea2RII8BMxVGjMQtqQYjxI0BxGU0t35hMDH7QyjXsc-6BA?e=hSfveH" frameborder="0" allowFullScreen="true"></iframe>
+[Beyond Knowledge Worker demo](https://microsoft.sharepoint-df.com/:u:/t/FLWVTeam/Ea2RII8BMxVGjMQtqQYjxI0BxGU0t35hMDH7QyjXsc-6BA?e=hSfveH)
 
 ## Prerequisites
 
