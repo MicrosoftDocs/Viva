@@ -43,7 +43,7 @@ The following are some of the top-level business questions this report helps you
 
 #### Q1 How do I access the report?
 
-You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](/microsoft-365/admin/productivity/productivity-score?view=o365-worldwide).
+You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](/microsoft-365/admin/productivity/productivity-score).
 
 #### Q2 Can I share this report with others in my company?
 
