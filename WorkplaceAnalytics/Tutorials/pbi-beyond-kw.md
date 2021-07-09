@@ -17,7 +17,7 @@ audience: Admin
 
 The Beyond knowledge worker dashboard uses a Power BI template that is populated by Workplace Analytics data to conduct a broad diagnostic of digital collaboration patterns (Teams chats, Teams calls, emails, and meetings) for frontline workers and those workers with hybrid office or field roles. It is designed to highlight collaboration patterns for different groups and to correlate collaboration behaviors to productivity outcomes.
 
-The pages in the report help you answer the following questions:
+The dashboard helps answer the following questions:
 
 1. **Digital Adoption** - What are the trends around how your workforce uses digital tools like Teams meetings, Teams chat, email, and Outlook to collaborate?
 2. **Collaboration baseline** - What portion of your employee's work week is spent using digital collaboration tools?
