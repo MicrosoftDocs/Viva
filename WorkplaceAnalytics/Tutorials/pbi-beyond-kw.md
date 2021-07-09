@@ -33,7 +33,8 @@ After you successfully run these queries, you can download the Power BI template
 ## Demonstration
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
-https://microsoft.sharepoint-df.com/:u:/t/FLWVTeam/Ea2RII8BMxVGjMQtqQYjxI0BxGU0t35hMDH7QyjXsc-6BA?e=hSfveH
+
+<br><iframe width="800" height="486" src="https://microsoft.sharepoint-df.com/:u:/t/FLWVTeam/Ea2RII8BMxVGjMQtqQYjxI0BxGU0t35hMDH7QyjXsc-6BA?e=hSfveH&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
 
