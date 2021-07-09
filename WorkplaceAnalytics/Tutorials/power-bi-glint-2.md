@@ -26,7 +26,7 @@ The dashboard combines the following data.
 |------------|------------|------------|
 |Wellbeing |My company takes a genuine interest in their employees' wellbeing. |<ul><li>After hours metrics</li><li>Burnout risk</li><li>Focus hours</li></ul>|
 | Connection | I feel a sense of belonging at my company. | <ul><li>Internal network size</li><li>Small group meeting hours</li></ul>|
-| Clarity | My manager keeps our team focused on clear priorities. | Manager one-on-one hours |
+| Clarity | My manager keeps our team focused on clear priorities. | <ul><li>Manager one-on-one hours</li></ul> |
 | Empowerment | I feel empowered to make decisions regarding my work. | <ul><li>Co-attendance rate</li><li>Time in self-organized meetings</li></ul>|
 | Growth | I have good opportunities to learn and grow at my company. |<ul><li>Internal network size</li><li>External network size</li><li>Time in skip-level collaboration</li></ul>|
 
@@ -153,10 +153,10 @@ The following is required before you can run the query in Workplace Analytics an
 
 ## Dashboard settings
 
-After the Behavior patterns dashboard is set up and populated with both the Glint and Viva Insights data in Power BI and before viewing data in the dashboard, set the following parameters on the **Settings** and **Theme mapping** pages.
+After the Behavior patterns dashboard is set up and populated with both the Glint and Workplace Analytics data in Power BI and before viewing data in the dashboard, set the following parameters on the **Settings** and **Theme mapping** pages.
 
 1. **Select the Glint attribute to view the report by** &ndash; In **Settings**, select the primary “group-by” attribute that represents the teams in Glint. To clear an existing mapping, select the **Reset** arrow.
-2. **Select corresponding attributes or values for the Workplace Analytics or Viva Insights data** &ndash; For each Glint value, select the matching field value (ideally one to one) that is used in Workplace Analytics or Viva Insights data.
+2. **Select corresponding attributes or values for the Workplace Analytics data** &ndash; For each Glint value, select the matching field value (ideally one to one) that is used in Workplace Analytics data.
 
    ![Behavior patterns Settings page 1](../Images/WpA/Tutorials/select-glint-settings.png)
 
