@@ -95,18 +95,18 @@ Do the following to create a seating plan:
 2. In the **Distance Helper notebook**, select **Run** at the top, which will take a few minutes to load the files the first time you run it.
 3. When prompted, enter the total number of buildings you have, and then select **Go**. If the restack scope only includes one building, enter **1**.
 
-   ![Distance Helper buildings prompt](../images/wpa/use/wsp-distant-helper.png)
+   ![Distance Helper buildings prompt](../images/wpa/use/distance-helper.png)
 
 4. Enter the building information in the table, including the name, number, and complete address of each building. The tool needs the full address for accurate latitude and longitude coordinates. You can use [Bing maps](https://www.bing.com/maps) to get the addresses.
 5. In **step 3**, enter the maximum number of floors for the buildings included in the overall workspace have, and then select **Go**. For example, if two of the buildings have two floors and one has three floors in the overall workspace, you'd enter **3** as the maximum number of floors.
 6. In **step 4**, enter the numbers and the names of the floors that the workspace includes for each building. For example, if the company’s workspace starts on the first floor, enter **1** for **Floor Number 1**. If the company’s workspace starts on the fifth floor of a building, enter **5** for **Floor Number 1**.
 7. In **step 5**, enter the maximum number of zones that you'll need to define for any of the floors in any of the individual buildings. For example, the following shows entering **6** as the maximum number of zones required for a floor in one of the buildings.
 
-    ![Distance Helper floor and zone number prompts](../images/wpa/use/wsp-dh-fnz.png)
+    ![Distance Helper floor and zone number prompts](../images/wpa/use/distance-helper2.png)
 
 8. In **step 6**, enter the floor names, number of zones, and corresponding zone coordinates for each building, which you defined in **step 3**, and then select **Go**. For example, the following shows Floor 1 with 6 zones in building 32 that require zone coordinates of (1,1), (3,1), (4,1), and so on. For tips on how to create the coordinates, see [Create the zone coordinates](#create-the-zone-coordinates).
 
-    ![Distance Helper Game of Zones example table](../images/wpa/use/wsp-game-of-zones.png)
+    ![Distance Helper Game of Zones example table](../images/wpa/use/game-of-zones.png)
 
 9. In **step 7**, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone in the table. The following example shows a zone coordinate of **4,3** with a friendly space name of **16-1D**, which represents zone D on the first floor of building 16.
 
@@ -123,11 +123,10 @@ Do the following to create a seating plan:
 2. In the **File Validations notebook**, select **Run** to validate the files that will be used to generate the seating plans.
 3. When prompted to load the data, select the location for each of the files, as shown in the following graphic, and then select **Go** to validate them.
 
-    ![File Validations notebook example](../images/wpa/use/wsp-file-validation.png)
+    ![File Validations notebook example](../images/wpa/use/file-validation.png)
 
 4. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a **red X**, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat the previous steps to validate the updated files.
 5. After all files are successfully validated, select one of the following input scenarios that the tool should use to aggregate the final output for your interaction file. These scenarios are based on the interactions file query data.
-
 
     * **Total collaboration** - Aggregates collaboration data based on the total number of hours the teams spent collaborating over the period of time specified in Workplace Analytics. Use this as the default aggregation option.
     * **Boost intra-collaboration** - Aggregates collaboration data based on the "boosted" number of collaboration hours spent with two specific teams. You can change the **Boost Multiplier** setting that defines how to apply the boost. The maximum setting is 3, which will multiple the maximum number of collaboration hours by 3. This multiplied value replaces the existing collaboration hours for all the teams. Use this option if _Collaboration within groups_ is low, but you want to keep the teams together as much as possible in your final seating plan.
