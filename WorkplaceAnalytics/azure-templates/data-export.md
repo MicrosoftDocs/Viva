@@ -15,7 +15,7 @@ audience: Admin
 
 # Workplace Analytics Data export
 
-_Data export is only available as part of a Microsoft service engagement._
+_Data export is available only as part of a Microsoft service engagement._
 
 Your company might have unique data-analysis needs requiring custom exploration of Workplace Analytics insights and data that goes beyond what's available in Workplace Analytics. For example, you might have custom data exploration that requires you to combine Workplace Analytics data with data outside of Workplace Analytics.
 
