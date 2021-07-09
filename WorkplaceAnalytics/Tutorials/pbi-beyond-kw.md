@@ -49,8 +49,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to en-us in the app's URL: https://workplaceanalytics.office.com/en-us/Home/
 
-1. In Workplace Analytics, select Analyze > Queries.
-2. Under Start from preselected filters and metrics, select Beyond knowledge workers to open the predefined query, which contains the required metrics to populate the dashboard.
+1. In Workplace Analytics, select **Analyze** > **Queries**.
+2. Under **Start from preselected filters and metrics**, select **Beyond knowledge workers** to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
