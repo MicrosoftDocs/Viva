@@ -97,7 +97,6 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 16. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
-Customize your report
 
 ## Dashboard settings
 
