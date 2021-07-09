@@ -7,7 +7,12 @@
   - name: Deploy and configure
     href: ./deploy-configure.md
   - name: Data export
-    href: ~//Data-Access/Data-Access.md    
+    expanded: false
+    items:
+    - name: Introduction
+      href: ~//data-access/data-access.md
+    - name: Meetings
+      href: ~//data-access/meetings.md
 - name: Using the templates
   expanded: true
   items:
