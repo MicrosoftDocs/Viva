@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Meetings (.csv)
+# Meetings
 
 This file includes one row for each meeting or appointment with the following metrics. Recurring meetings result in a row for each occurrence.
   

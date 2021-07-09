@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# PersonHistorical (.csv)
+# PersonHistorical
 
 This file includes one row for each person that has HR attribute changes and for each HR change with the following metrics. A new row is created when a person's HR attributes change.
   

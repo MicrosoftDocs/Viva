@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# MailParticipants (.csv)
+# MailParticipants
 
 This file includes one row for every email sent and received with the following metrics.
   

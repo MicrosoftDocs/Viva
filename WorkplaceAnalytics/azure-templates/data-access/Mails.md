@@ -12,7 +12,7 @@ audience: Admin
 
 ---
 
-# Mails (.csv)
+# Mails
 
 This file includes one row for every email sent with the following metrics.
 

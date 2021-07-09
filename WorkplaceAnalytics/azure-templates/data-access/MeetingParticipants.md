@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# MeetingParticipants (.csv)
+# MeetingParticipants
 
 This file has one row for each participant in a calendar meeting with the following metrics.
   

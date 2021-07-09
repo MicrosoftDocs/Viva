@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Calls (.csv)
+# Calls
  
 This file includes one row for each call with the following metrics. Recurring, scheduled calls (also referred to as _meetings_) result in a row for each occurrence.
 

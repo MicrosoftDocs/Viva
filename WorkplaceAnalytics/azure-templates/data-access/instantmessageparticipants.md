@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# InstantMessageParticipants (.csv)
+# InstantMessageParticipants
 
 This file includes one row for each participant in an instant message with the following metrics.
 
