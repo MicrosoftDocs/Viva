@@ -19,22 +19,23 @@ The Beyond knowledge worker dashboard uses a Power BI template that is populated
 
 The dashboard helps answer the following questions:
 
-1. **Digital Adoption** - What are the trends around how your workforce uses digital tools like Teams meetings, Teams chat, email, and Outlook to collaborate?
-2. **Collaboration baseline** - What portion of your employee's work week is spent using digital collaboration tools?
-3. **Time Investment** - How much time is spent with internal vs. external partners, and in interactions of different sizes?
+1. **Digital Adoption** - What are the trends around how your workforce uses digital tools like Teams meetings and chats and Outlook email to collaborate?
+2. **Collaboration baseline** - What portion of your employee's workweek is spent using digital collaboration tools?
+3. **Time Investment** - How much time is spent with internal as compared to external partners, and in interactions of different sizes?
 4. **Manager habits** - Are your managers investing time with their employees and colleagues?
-5. **Productivity** - Are there interesting relationships between collaboration activity and business outcomes?
+5. **Productivity** - Do you see relationships between collaboration activity and business outcomes?
 
-You can customize the analysis population, the time frame, and the organizational data attributes in the dashboard. Each report includes “Why this matters?”, “Take action” and “Explore Further” providing the user with a guided experience to analyze the data to answer the business questions and drive change.
+You can customize the analysis population, the time range, and the organizational data attributes in the dashboard. Each report includes a **Why this matters**, **Take action**, and **Explore Further** sections that help you analyze the data, answer the related business questions, and drive positive changes in your organization.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined Beyond knowledge workers query in Workplace Analytics.
-After you successfully run these queries, you can download the Power BI template from the Beyond knowledge workers query on the Results page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Beyond knowledge workers** query in Workplace Analytics.
+
+After you successfully run these queries, you can download the Power BI template from the **Beyond knowledge workers** query on the **Results** page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 ## Demonstration
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<br><iframe width="800" height="486" src="https://microsoft.sharepoint-df.com/:u:/t/FLWVTeam/Ea2RII8BMxVGjMQtqQYjxI0BxGU0t35hMDH7QyjXsc-6BA?e=hSfveH&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+<br><iframe width="800" height="486" src="https://microsoft.sharepoint-df.com/:u:/t/FLWVTeam/Ea2RII8BMxVGjMQtqQYjxI0BxGU0t35hMDH7QyjXsc-6BA?e=hSfveH" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
 
