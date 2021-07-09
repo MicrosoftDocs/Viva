@@ -30,19 +30,21 @@ Saving the SAS URI enables a workflow that exports the Workplace Analytics data 
 
 You can export pre-processed Workplace Analytics data to a designated Azure storage container as .csv files. The export uses the latest available organizational data that was uploaded and processed in Workplace Analytics.
 
-If you add new organizational data attributes to your Workplace Analytics upload, you must also add them as additional fields that you want to include in the export in the **Field privacy** section on the **Data export** page. The new fields are added to the next data export after the data upload is next refreshed and processed in Workplace Analytics. For details, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md).
+If you add new organizational data attributes to your Workplace Analytics upload, you must also add them as additional fields that you want to include in the export in the **Field privacy** section on the **Data export** page. The new fields are added to the next data export after the data upload is next refreshed and processed in Workplace Analytics. For details, see [Upload organizational data (subsequent uploads)](../../setup/upload-organizational-data.md).
+
+
 
 The following .csv files are included in data exports. Select a file to view what's included in that file, such as the data column names, data types, and definitions:
 
-* [Meetings](#meetings.md)
-* [MeetingParticipants](#meetingparticipants.md)
-* [PersonHistorical](#personHistorical.md)
-* [MailParticipants](#mailparticipants.md)
-* [Mails](#mails.md)
-* [Calls](#calls.md)
-* [CallParticipants](#callparticipants.md)
-* [InstantMessages](#instantmessages.md)
-* [InstantMessageParticipants](#instantmessageparticipants.md)
+* [Meetings](#meetings)
+* [MeetingParticipants](#meetingparticipants)
+* [PersonHistorical](#personHistorical)
+* [MailParticipants](#mailparticipants)
+* [Mails](#mails)
+* [Calls](#calls)
+* [CallParticipants](#callparticipants)
+* [InstantMessages](#instantmessages)
+* [InstantMessageParticipants](#instantmessageparticipants)
 
 ## Azure environment requirements
 
@@ -50,7 +52,7 @@ Before exporting Workplace Analytics data, confirm the following:
 
 * Your company has a current Azure subscription and an Azure storage account with an Azure storage container for storing the exported Workplace Analytics data.
 
-* Have a write-only SAS URI for the storage container. To learn more about SAS, see [Delegating Access with a Shared Access Signature](/rest/api/storageservices/delegating-access-with-a-shared-access-signature).
+* Have a write-only SAS URI for the storage container. To learn more about SAS, see [Delegating Access with a Shared Access Signature](/rest/api/storageservices/delegate-access-with-shared-access-signature).
 
 ## To export data from Workplace Analytics
 
@@ -64,7 +66,7 @@ Before exporting Workplace Analytics data, confirm the following:
 
 5. Select **Save** (top right) to save your selections and enable a workflow that exports the Workplace Analytics data to the storage container. The applicable data is then exported to Azure during each subsequent data refresh in Workplace Analytics.
 
-   ![Workplace Analytics data export settings page](./images/data-export.png)
+   ![Workplace Analytics data export settings page](../images/data-export.png)
 
 ## Meetings
 
