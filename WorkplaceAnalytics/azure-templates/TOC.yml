@@ -10,9 +10,25 @@
     expanded: false
     items:
     - name: Introduction
-      href: ~//data-access/data-access.md
+      href: ./data-access/data-access.md
     - name: Meetings
-      href: ~//data-access/meetings.md
+      href: ./data-access/meetings.md
+    - name: MeetingParticipants
+      href: ./data-access/meetingparticipants.md
+    - name: PersonHistorical
+      href: ./data-access/personhistorical.md
+    - name: MailParticipants
+      href: ./data-access/mailparticipants.md
+    - name: Mails
+      href: ./data-access/mails.md
+    - name: Calls
+      href: ./data-access/calls.md
+    - name: CallParticipants
+      href: ./data-access/callparticipants.md
+    - name: InstantMessages
+      href: ./data-access/instantmessages.md
+    - name: InstantMessageParticipants
+      href: ./data-access/instantmessageparticipants.md
 - name: Using the templates
   expanded: true
   items:
