@@ -188,8 +188,8 @@ This file includes one row for each meeting or appointment with the following me
 |MeetingId|string|Unique identifier for each meeting (including recurring meetings); primary key|
 |ICalUid|string|Meeting calendar ID|  
 |Subject|string|Meeting subject (respects tenant privacy settings; see [Workplace Analytics Privacy settings](../use/privacy-settings.md) for details)  |
-|IsRecurring|boolean|True if this is a recurring meeting|
-|IsCanceled|boolean|True if the meeting was canceled|
+|IsRecurring|Boolean|True if this is a recurring meeting|
+|IsCanceled|Boolean|True if the meeting was canceled|
 |StartTime|datetime|Meeting start time|
 |DurationMinutes|integer|Meeting length in minutes|
 |TotalAccept|integer|Total number of meeting acceptances|
@@ -209,8 +209,8 @@ This file has one row for each participant in a calendar meeting with the follow
 |MeetingId |string |Unique identifier for each meeting (including recurring meetings); foreign key matching [Meetings](#meetings) table|
 |PersonHistoricalId |string |Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personhistorical) table|
 |LocalStartTime |datetime |Start time of the meeting in the participant's local time|
-|IsOrganizer |boolean |True if this participant organized the meeting|
-|IsDoubleBooked |boolean |True if this person has more than one meeting at this time in their calendar|
+|IsOrganizer |Boolean |True if this participant organized the meeting|
+|IsDoubleBooked |Boolean |True if this person has more than one meeting at this time in their calendar|
 |Response |enumerated |Invitee's response to the meeting: declined, tentative, accepted, or no response|
 |DurationMinutesAdjusted |double |Time spent in meeting, adjusted if double booked|
 |NumberOfEmailsDuringMeeting |integer| The number of emails sent by this participant in this meeting|
@@ -232,7 +232,7 @@ This file includes one row for each person that has HR attribute changes and for
 |HR Attribute n|varies |HR values that have been added to the dataset; see [HR attributes](#hr-attributes).|
 |LevelDesignation|string|HR values for employee levels that represent an employee's experience, management level, or seniority within the organization.|
 |Organization|string|HR values for the internal organization for which employees belong that's specific and identifiable by the organization's leaders.|
-|IsInternal|boolean|True if PopulationType is either MeasuredEmployee or InternalCollaborator|
+|IsInternal|Boolean|True if PopulationType is either MeasuredEmployee or InternalCollaborator|
 |ExternalCollaboratorId|string|Email address if PopulationType is ExternalCollaborator and the tenant is configured to include external email IDs in the report|
 
 #### PopulationType
@@ -259,7 +259,7 @@ This file includes one row for every email sent and received with the following 
 |-----------------|---------------|-----------------|
 |MailId|string|Unique identifier for every email sent; foreign key matching primary key of the [Mails table](#mails)|
 |PersonHistoricalId:|string|Unique identifer for every person; foreign key matching [PersonHistorical](#personhistorical) table primary key|  
-|IsSender|boolean|True if this person sent the email|
+|IsSender|Boolean|True if this person sent the email|
 |LocalSentTime|datetime|Local time when the email was sent|
 |PersonTimeSpentInHours|double|Time spent reading or writing email in hours (heuristic estimated value)|
 |PersonTimeSpentInMinutes|double|Time spent reading or writing email in minutes (heuristic estimated value)|
@@ -286,7 +286,7 @@ This file includes one row for each call with the following metrics. Recurring, 
 |CallRecordId |string |Unique identifier for each call (including scheduled calls); primary key  |
 |MeetingId |string |Meeting calendar ID (iCalUID + StartDate) associated metadata found on the mapped MeetingId (if a scheduled call/meeting) |
 |AppName | string |Name of the source app (for example: Teams, Skype) |
-|IsScheduledCall |boolean |True if this is a scheduled call |
+|IsScheduledCall |Boolean |True if this is a scheduled call |
 |TotalParticipants |integer |Sum of total participants for the call |
 |InteractionType |enumerated |Invitee's response to the call: joined or attended, tentative, accepted, or no response |
 
@@ -298,7 +298,7 @@ This file includes one row for each participant in a call with the following met
 |-----------------|---------------|-----------------|
 | CallRecordId | string | Unique identifier for each call (including scheduled calls); primary key  |
 | PersonHistoricalId | string | Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personhistorical) table |
-| IsOrganizer | boolean | True if this participant organized the call |
+| IsOrganizer | Boolean | True if this participant organized the call |
 | LocalStartTime | datetime | Start time of the call in the participant's local time |
 | LocalEndTime | datetime | End time of the call in the participant's local time |
 
@@ -322,8 +322,8 @@ This file includes one row for each participant in an instant message with the f
 |-----------|----------|-----------|
 |InstantMessageId |string |Unique identifier for each instant message; foreign key matching [InstantMessage](#instantmessages) table |
 |PersonHistoricalId |string |Unique value for a participant any time an HR attribute changes; foreign key matching [PersonHistorical](#personhistorical) table |
-|isAfterHours |boolean |True if this instant message was sent after hours |
-|IsSender |boolean |True if this person was the instant message sender |
+|isAfterHours |Boolean |True if this instant message was sent after hours |
+|IsSender |Boolean |True if this person was the instant message sender |
 |LocalSentTime |datetime |Sent time of the instant message in the participant's local time |
 |SenderTimeSpentInMinutes |double |Time spent in instant message, approximation |
 
