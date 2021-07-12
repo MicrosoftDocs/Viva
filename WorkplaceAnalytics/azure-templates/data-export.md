@@ -179,6 +179,8 @@ You can then use this new data factory to access query data from Workplace Analy
 
 ## Exported .csv files
 
+The .csv files that are listed in this section are included in data exports.
+
 ### Meetings
 
 This file includes one row for each meeting or appointment with the following metrics. Recurring meetings result in a row for each occurrence.
