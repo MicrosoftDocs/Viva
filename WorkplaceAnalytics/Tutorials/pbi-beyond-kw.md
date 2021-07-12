@@ -20,12 +20,12 @@ The Beyond knowledge worker dashboard uses a Power BI template that is populated
 The dashboard helps answer the following questions:
 
 * **Digital Adoption** - What are the trends around how your workforce uses digital tools like Teams meetings and chats and Outlook email to collaborate?
-* **Collaboration baseline** - What portion of your employee's workweek is spent using digital collaboration tools?
+* **Collaboration baseline** - What portion of the employee's workweek is spent using digital collaboration tools?
 * **Time Investment** - How much time is spent with internal as compared to external partners, and in interactions of different sizes?
 * **Manager habits** - Are your managers investing time with their employees and colleagues?
-* **Productivity** - Do you see relationships between collaboration activity and business outcomes?
+* **Productivity** - Are there interesting relationships between collaboration activity and business outcomes?
 
-You can customize the analysis population, the time range, and the organizational data attributes in the dashboard. Each report includes a **Why this matters**, **Take action**, and **Explore Further** sections that help you analyze the data, answer the related business questions, and drive positive changes in your organization.
+You can customize the analysis population, the time period, and the organizational data attributes in the dashboard. Each report includes a **Why this matters**, **Take action**, and **Explore Further** sections that helps answer your business questions and drive positive changes in your organization change.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Beyond knowledge workers** query in Workplace Analytics.
 
@@ -62,7 +62,11 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >[!Important]
    >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-4. To run the reports for a specific segment of your population, such as frontline workers, scope your population in **Select filters**. For **Which measured employees do you want to include in your query results**, select **All employees**. For more details about filter and metric options, see [Create a Person Query](./person-queries.md). If these fields are in your organizational data file, you can filter by them within the report in Power BI.
+4. For **Which measured employees do you want to include in your query results**, select **All employees**. To run the reports for a specific segment of your population, such as frontline workers, scope your population in **Select filters**. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+
+   >[!Important]
+   >You must have the preferred segment (example frontline worker) attribute uploaded in the organizational data upload. If the upload does not include this attribute, contact your Workplace Analytics admin to upload it.
+
 5. In **Organizational data**, keep the preselected **Organization** attribute that the dashboard requires.
 
    >[!Important]
@@ -73,12 +77,17 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >[!Important]
    >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
 
-7. You can then select any additional attributes (columns) that you want to include in the reports.
-8. Select **Run** to run the query, which can take a few minutes to complete.
-9. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Beyond knowledge workers** query results, select **PBI template**, and then select **OK** to download the template.
-10. Open the downloaded **Beyond knowledge workers** template.
-11. If prompted to select a program, select **Power BI**.
-12. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
+7. Locate and select the organizational attribute that identifies numerical outcome data (such as, performance ratings, store sales figures, engagement results, safety, or quality scores) to explore relationships between collaboration activity and business outcomes. Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your Workplace Analytics admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
+
+   >[!Important]
+   >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
+
+8. You can then select any additional attributes (columns) that you want to include in the reports.
+9. Select **Run** to run the query, which can take a few minutes to complete.
+10. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Beyond knowledge workers** query results, select **PBI template**, and then select **OK** to download the template.
+11. Open the downloaded **Beyond knowledge workers** template.
+12. If prompted to select a program, select **Power BI**.
+13. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
     1. In Workplace Analytics, select **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective field.
@@ -86,45 +95,45 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     4. In **SupervisorIndicator** field, enter the exact name of the organizational attribute that you selected in **Step 6**, which designates who in the organization is a people manager. If your organization has not uploaded this field in the organization data file, you don’t have to complete this field. However, some visuals and filtering capabilities will be disabled.
     5. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select Organizational account, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+14. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+15. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select Organizational account, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-15. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+16. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
    >[!Important]
    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-16. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+17. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 
-After the Beyond knowledge workers dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters in the **Customize** pane. The filters selected in Customize apply to the full report.
+After the Beyond knowledge workers dashboard is set up and populated with Workplace Analytics data in Power BI, you are ready to view the report. Optionally, you can set the following parameters in the **Customize report** pane.
 
 * **Time period** - This is the time period that you want to analyze.
 * **Exclude specific weeks** – You can select one or more weeks to exclude from analysis, such as those that include company holidays.
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
-* **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week included in the current time period.
+* **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number.
 
 After you have customized the report, you can use the following flexible features in each section to make the insights most relevant to your analysis population:
 
-1. **Collaboration baseline** - The default average workweek hours is set to 40 hours. If this does not reflect your organization, you can set a custom workweek below, from 0 to 80. Changing this value will change the value of the metrics and the charts on this page.
+* **Collaboration baseline** - The default average workweek hours is set to 40 hours. If this does not reflect your organization, you can set a custom workweek below, from 0 to 80. Changing this value will change the value of the metrics and the charts on this page.
 
     ![Baseline workweek setting](../Images/WpA/Tutorials/pbi-baseline-workweek.png)
 
-2. **Time investment** - The default collaboration tool is set to meetings for the interaction size insight. You can choose to calculate the insight for total collaboration time or any of the individual collaboration types (meetings, email, chats and ad-hoc calls).
+* **Time investment** - The default collaboration tool is set to meetings for the interaction size insight. You can choose to calculate the insight for total collaboration time or any of the individual collaboration types (meetings, email, chats and ad-hoc calls). The default is preset to measure meetings.
 
     ![Time investment filter](../Images/WpA/Tutorials/pbi-collab-filter.png)
 
-3. **Manager habits** - For best results, your organizational data should include an attribute that identifies people managers, like Supervisor indicator.
+* **Manager habits** - For best results, your organizational data should include an attribute that identifies people managers, like Supervisor indicator. Filter the values of Supervisor Indicator to identify people managers.
 
     ![Manager habits settings](../Images/WpA/Tutorials/pbi-manager-habits.png)
 
    >[!Important]
-   >Without this attribute, insights regarding manager habits will not be accurate. Filter the values of Supervisor Indicator to identify people managers. If you are not able find the required values, reach out to your Workplace Analytics admin to upload organizational data to include an attribute that identifies people managers.
+   >If you are unable find the required values, reach out to your Workplace Analytics admin to upload organizational data to include an attribute that identifies people managers. The supervisor indicator filter only applies to the two greyed out visuals on this page. Without this attribute, insights regarding manager habits will not be accurate.
 
-4. **Productivity** - If you loaded outcomes related data to your organizational data file you can select Outcome measure from the Y-axis dropdown and compare your success metric with various collaboration metrics on the X-axis. Confirm the outcome data is numerical (such as, performance ratings, store sales figures, engagement results, safety or quality scores).
+* **Productivity** - If you loaded outcomes related data to your organizational data file you can select Outcome measure from the Y-axis dropdown and compare your success metric with various collaboration metrics on the X-axis. Confirm the outcome data is numerical (such as, performance ratings, store sales figures, engagement results, safety, or quality scores).
 
     ![Productivity settings](../Images/WpA/Tutorials/pbi-productivity.png)
 
