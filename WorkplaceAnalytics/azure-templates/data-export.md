@@ -46,7 +46,7 @@ The following .csv files are included in data exports. Select a file to view wha
 
 ## Azure environment requirements
 
-Before exporting Workplace Analytics data, confirm the following: 
+Before exporting Workplace Analytics data, confirm the following:
 
 * Your company has a current Azure subscription and an Azure storage account with an Azure storage container for storing the exported Workplace Analytics data.
 
