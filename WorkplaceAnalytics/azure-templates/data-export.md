@@ -290,7 +290,7 @@ This file includes one row for each call with the following metrics. Recurring, 
 |TotalParticipants |integer |Sum of total participants for the call |
 |InteractionType |enumerated |Invitee's response to the call: joined or attended, tentative, accepted, or no response |
 
-## CallParticipants
+### CallParticipants
 
 This file includes one row for each participant in a call with the following metrics.
   
@@ -302,7 +302,7 @@ This file includes one row for each participant in a call with the following met
 | LocalStartTime | datetime | Start time of the call in the participant's local time |
 | LocalEndTime | datetime | End time of the call in the participant's local time |
 
-## InstantMessages
+### InstantMessages
 
 This file includes one row for each instant message with the following metrics.
 
