@@ -19,11 +19,11 @@ The Beyond knowledge worker dashboard uses a Power BI template that is populated
 
 The dashboard helps answer the following questions:
 
-1. **Digital Adoption** - What are the trends around how your workforce uses digital tools like Teams meetings and chats and Outlook email to collaborate?
-2. **Collaboration baseline** - What portion of your employee's workweek is spent using digital collaboration tools?
-3. **Time Investment** - How much time is spent with internal as compared to external partners, and in interactions of different sizes?
-4. **Manager habits** - Are your managers investing time with their employees and colleagues?
-5. **Productivity** - Do you see relationships between collaboration activity and business outcomes?
+* **Digital Adoption** - What are the trends around how your workforce uses digital tools like Teams meetings and chats and Outlook email to collaborate?
+* **Collaboration baseline** - What portion of your employee's workweek is spent using digital collaboration tools?
+* **Time Investment** - How much time is spent with internal as compared to external partners, and in interactions of different sizes?
+* **Manager habits** - Are your managers investing time with their employees and colleagues?
+* **Productivity** - Do you see relationships between collaboration activity and business outcomes?
 
 You can customize the analysis population, the time range, and the organizational data attributes in the dashboard. Each report includes a **Why this matters**, **Take action**, and **Explore Further** sections that help you analyze the data, answer the related business questions, and drive positive changes in your organization.
 
@@ -35,7 +35,7 @@ After you successfully run these queries, you can download the Power BI template
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-[Beyond Knowledge Worker demo](https://microsoft.sharepoint-df.com/:u:/t/FLWVTeam/Ea2RII8BMxVGjMQtqQYjxI0BxGU0t35hMDH7QyjXsc-6BA?e=hSfveH)
+<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiY2IxN2MxZDgtNzI2NC00MDJkLThjYzUtNDFiYjA3YzFlNDRjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
 
 ## Prerequisites
 
