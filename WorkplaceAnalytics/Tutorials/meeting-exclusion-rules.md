@@ -229,9 +229,9 @@ You can apply a meeting exclusion rule to a query while you create the query in 
 
 #### To apply a rule to a query
 
-1. In Workplace Analytics, select  **Settings > Queries**.
+1. In Workplace Analytics, select **Analyze > Queries**.
 
-2. After you select the type of query that you want to create, select the rule for this query from the Meeting exclusions list, as shown here:
+2. After you select the type of query that you want to create, select the rule for this query in **Meeting exclusions**, as shown in the following example:
 
     ![Apply an exclusion to a query](../images/wpa/tutorials/20-apply-to-query.png)
 
