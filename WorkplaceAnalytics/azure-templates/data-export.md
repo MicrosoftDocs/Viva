@@ -19,9 +19,9 @@ _Data export is available only as part of a Microsoft service engagement._
 
 Your company might have unique data-analysis needs requiring custom exploration of Workplace Analytics insights and data that goes beyond what's available in Workplace Analytics. For example, you might have custom data exploration that requires you to combine Workplace Analytics data with data outside of Workplace Analytics.
 
-After you get a service agreement, you can ask your Microsoft representative to enable data export for your Microsoft 365 tenant. If you have two or more partitions specified in Workplace Analytics, you can also specify which partition to enable data export for in the Workplace Analytics app. The ability to specify what data can be exported by whom helps you maintain data protection.
+After you get a service agreement, you can ask your Microsoft representative to enable Data export in the Workplace Analytics app. If you have two or more partitions set up in Workplace Analytics, you can also specify which partitions to enable Data export for in the app. The ability to specify what data can be exported by whom helps you maintain data protection.
 
-After data export is enabled, your Workplace Analytics admin can view and use the Data export page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
+After data export is enabled, your Workplace Analytics admin can view and use the **Data export** page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
 
 Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed in Workplace Analytics, for the agreed duration of the CS agreement.
 
