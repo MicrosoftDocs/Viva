@@ -51,7 +51,7 @@ Before exporting Workplace Analytics data, confirm the following:
 
 * Have a write-only SAS URI for the storage container. To learn more about SAS, see [Delegating Access with a Shared Access Signature](/rest/api/storageservices/delegate-access-with-shared-access-signature).
 
-## To export data from Workplace Analytics
+## To export data
 
 1. If you have already installed Azure Templates, use the SAS URI created after deployment which grants write-only access to the raw data folder that was set up during deployment and use that URI in **Step 3**.
 2. If you have partitions set up in Workplace Analytics, select which partition you want to export data from. If not, skip to the next step.
@@ -66,7 +66,7 @@ Before exporting Workplace Analytics data, confirm the following:
 
    ![Workplace Analytics data export settings page](images/data-export2.png)
 
-## Automate query data export to Azure with Azure Data Factory UI
+## Automate the export to Azure
 
 Do you need to combine Workplace Analytics query data with other Azure data sources, such as HR or Sales data for more advanced data analytics and reporting? Are you manually downloading large amounts of static query data from Workplace Analytics and then uploading it into Azure on a routine basis?
 
