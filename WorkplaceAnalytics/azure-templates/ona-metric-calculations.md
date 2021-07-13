@@ -47,7 +47,7 @@ You can size the nodes based on various network metrics. The following table lis
 | [Influence Index](#influence-index)     | A node's potential influence on the opinions of the network or a measure of social status. |
 | [Qualitative Variation Index](#qualitative-variation-index) | The diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
 
-<!-- NOTE THAT THIS COMMENTED-OUT ENTRY APPEARED IN THE "Influence Index" ROW OF THIS TABLE. MOVED IT TO HERE TO FIX 'column-header-missing' BUILD WARNING. |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
+<!-- |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
