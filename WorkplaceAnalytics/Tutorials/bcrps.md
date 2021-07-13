@@ -1,7 +1,7 @@
 ---
 
-title: Business continuity report within Productivity Score report
-description: Use the Business continuity report to analyze organizational collaboration data
+title: Business continuity report
+description: Use the Business continuity report that's within the Productivity Score report to analyze organizational collaboration data
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -16,6 +16,9 @@ audience: Admin
 Organizations around the world are responding to sudden changes in the way they work. Microsoft wants to help you understand the business impact and what your organization can do to help navigate the shift to remote work.
 
 The Business continuity report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how collaboration for an organization has changed over the last six months.
+
+>[!Note]
+>All Microsoft 365 users in an organization who have at least 100 active Exchange Online users with active [MyAnalytics licenses](../MyAnalytics/overview/plans-environments.md) can see this report when they register for the Productivity Score.
 
 You are encouraged to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand if employees are:
 
@@ -40,7 +43,7 @@ The following are some of the top-level business questions this report helps you
 
 #### Q1 How do I access the report?
 
-You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](/microsoft-365/admin/productivity/productivity-score?view=o365-worldwide).
+You can access the report from the Microsoft 365 Admin home under **Reports** > **Productivity Score**. To learn more, see [Microsoft Productivity score](/microsoft-365/admin/productivity/productivity-score).
 
 #### Q2 Can I share this report with others in my company?
 
@@ -50,6 +53,6 @@ Yes, you are encouraged to share this report with business leaders in your organ
 
 You can use Workplace Analytics to get more detailed analysis and additional insights about your company. Contact your account team or go to [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics) to learn more.
 
-#### Q4 Which Microsoft 365 customers are eligible to see the report?
+#### Q4 Who is eligible to see this report?
 
-All Microsoft 365 customers with at least 100 active Exchange Online users can see the report when they register for the Productivity Score preview.
+All Microsoft 365 users in an organization who have at least 100 active Exchange Online users with active [MyAnalytics licenses](../MyAnalytics/overview/plans-environments.md) can see this report when they register for the Productivity Score.
