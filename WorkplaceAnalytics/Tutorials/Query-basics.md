@@ -56,7 +56,7 @@ In a consumption-model tenant, queries consume "units" as they are run. Unit cal
 
 In this formula, **Px** is the **price tier** of a metric and **Nx** is the **number of base metrics** for that tier that are included in the query. The terms in this formula are further described here:
 
-* **user-weeks analyzed** is defined as the number of historical weeks of analysis multiplied by the population that you are analyzing. The population size is the number of employees, as indicated by the _Filter group_ criteria that are defined for the query. Your choice of a time period by which to aggregate metrics (by week or by month) does not affect your charges for the query. 
+* **user-weeks analyzed** is defined as the number of historical weeks of analysis that are available for each employee in the population that you are analyzing. The population size is the number of employees that meet the _Filter group_ criteria that are defined for the query. Your choice of a time period by which to aggregate metrics (by week or by month) does not affect your charges for the query.
 
    User-weeks are additive: Let’s say your query covers the past year. If one employee is present for all 52 weeks of analysis and another is present for only the last two weeks of analysis, this counts as 54 user-weeks.
 
