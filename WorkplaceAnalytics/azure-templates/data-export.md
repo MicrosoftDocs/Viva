@@ -66,7 +66,7 @@ Before exporting Workplace Analytics data, confirm the following:
 
    ![Workplace Analytics data export settings page](images/data-export2.png)
 
-## Automate the export to Azure
+## Automate exports to Azure
 
 Do you need to combine Workplace Analytics query data with other Azure data sources, such as HR or Sales data for more advanced data analytics and reporting? Are you manually downloading large amounts of static query data from Workplace Analytics and then uploading it into Azure on a routine basis?
 
