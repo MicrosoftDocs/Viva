@@ -102,9 +102,15 @@ This measure is calculated as follows for employees as compared to groups.
 
 * Both levels for this measure account for direction and weight.
 
-## Cohesion
+## Community Detection
 
-Collaborative cohesion is measured by the global clustering coefficient. It indicates the likelihood that individuals’ connections will also connect with each other in the network. The scores are between 0 and 1, where 0 represents no completed triads in the network and 1 means that the network is completely connected. High cohesion scores indicate a greater sense of trust and understanding among employees and a willingness for employees to help each other. This measure accounts for edge weight but not the direction. It is available in Insights mode or through the downloaded data. For more details on this measure, see [Clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient).
+Community Detection is the unsupervised assignment of individuals to communities or workgroups based on their collaboration patterns. These informal workgroups might not align with the formal organizational structure and represent how individuals naturally work together. Additionally, these workgroups are the basis for workgroup stability, network connectivity, freedom, and fluidity. It is available in Insights mode or through the downloaded data.
+
+The classical definition of a network community is a group of individuals that are densely connected to each other and sparsely connected to others outside of the community. Here, the density and sparsity of a potential community is estimated by maximizing the modularity by using the [Leiden method](https://arxiv.org/abs/1810.08473), which is recursively run to induce subgraphs on large communities until the maximal community size is achieved. This method uses an undirected, weighted graph.
+
+Individuals are assigned to one root community and one leaf community.  The root community is the parent of a set of leaf communities. Both the root and the leaf community assignments are available in the download, but only the root community assignment is used to calculate the measures that depend on workgroups. The root and leaf community assignments are integers starting at 1 and there is no correlation between the number and the properties of the community. In **Organization Insights**, you can select to color the entire organization by the root community to see the overlap between workgroups and the official organizational structure.
+
+For more information on community detection, see [Community structure](https://en.wikipedia.org/wiki/Community_structure).
 
 ## Degrees
 
@@ -170,6 +176,44 @@ This measure is calculated differently for employees as compared to groups:
 * **Employee level** - The external ties are those outside of the employee's own group and internal ties are the connections the employee has with others in the same group.
 * **Group level** - The external ties are those outside of the group and internal ties are those within the same group.
 
+## Employee Cohesion
+
+Employee cohesion is measured by the global clustering coefficient. It indicates the likelihood that individuals’ connections will also connect with each other in the network. The scores are between 0 and 1, where 0 represents no completed triads in the network and 1 means that the network is completely connected. High cohesion scores indicate a greater sense of trust and understanding among employees and a willingness for employees to help each other.
+
+This measure accounts for edge weight but not the direction. It is available in Insights mode or through the downloaded data. For more details on this measure, see [Clustering coefficient](https://en.wikipedia.org/wiki/Clustering_coefficient).
+
+## Fluidity
+
+Fluidity measures the change in an individual’s, group’s, or network’s structure from one month to the next by quantifying how much employees shift their position in the network. An individual’s position in the network is determined by capturing their collaboration behavior (contacts and time spent with contacts) and projecting that into high dimensional space by using the [OMNI](https://arxiv.org/pdf/1705.09355.pdf) embedding technique. This technique preserves the high-dimensional space for different periods of time which makes it possible to compare fluctuations throughout time. Then, the distance between the individual’s current position and their position from the previous month is calculated. These individual shifts are averaged and reported for each workgroup or other organizational grouping. Again, workgroups in this case are defined by community detection and not the formal hierarchy.
+
+A few examples may help to interpret this measure. If an employee joins a new team or begins a new project with different collaborators, then they will experience high fluidity for that month. If they maintain their existing group of collaborators from the previous month, then they would have low fluidity that month. Different roles have different baseline fluidities, for example IT support has a high baseline fluidity since they communicate with a changing group of employees across the organization. Higher level managers also have a higher average baseline fluidity.
+
+Fluidity scores are equal to or greater than 0. A score of 0 would indicate that the position of an individual in a network did not change since the previous month. Higher fluidity scores indicate that the position of the individual has shifted significantly since the previous month. Often fluidity scores are very small, especially for large networks, but there are usually clear delineations between the most stable individuals and the least stable. Fluidity scores can be compared from month to month for a single network, but cross-network fluidity scores should not be compared. This is because the embedding is specific to the network and time periods.
+
+Two types of fluidity are available in the download: the ego-centric fluidity and the global fluidity. These reflect changes that an individual perceives to their network and changes that occurred at the global network structure level, respectively. This measure uses both the weight and the direction of the tie. In **Organizational Insights**, the ego-centric fluidity is used to color the graph when workgroup stability is the selected measure.
+
+This measure is calculated as follows for employees as compared to groups:
+
+* **Employee level** – The distance between the individual’s current position and their position from the previous month.
+* **Group level** – For group metrics, the fluidity is the median fluidity of the individuals within the group. As such, fluidity can be calculated for any grouping of individuals, whether from HR attributes or workgroups determined from natural communication patterns.
+* **Network Level** – The fluidity for the entire network is the median fluidity for all individuals.
+
+The following shows how the measure compares **month 1** (left) where **d** talks to nodes **b**, **c**, **h**, and **i**. And in **month 2** (right), how **d** switches teams and now talks with nodes **j** and **k**. All the other nodes maintain their existing collaborations. Therefore, **d** will have high fluidity between months 1 and 2. Other nodes that are connected to **d** in either month 1 or month 2 will also have elevated fluidity, with the effect diminishing the further they are from **d**.
+
+![Fluidity example](./images/ona-fluidity.png)
+
+This measure is available in Insights mode or through the downloaded data. Since this measure compares scores month over month, two months of data are required.
+
+## Freedom
+
+Freedom is a group-level measure that quantifies how much a workgroup’s communication structure differs from the formal organizational structure. Workgroups are defined by the Leiden community detection algorithm. It considers both the weight and direction of the ties. Formally, freedom is:
+
+   **Freedom = 1-n/(MST+P)**
+
+Where **n** is the number of individuals in a workgroup, **MST** (minimum spanning tree) is the minimum set of individuals that connect all the individuals in a workgroup, and **P** is the number of individuals that share a manager with someone in the workgroup but are not part of the workgroup.
+
+If Freedom is 0 then all the communication within a workgroup aligns with the organizational hierarchy. The closer Freedom is to 1, the less the workgroup collaboration aligns with the formal hierarchy. This measure is only available through the downloaded data.
+
 ## Group Size
 
 This measure is only available in the *combined view*. It represents groups that are based on the number of people in the same group (share the same attribute) for the selected time period. Group size helps you determine how the group size can affect their interactions.
@@ -193,6 +237,16 @@ This measure is calculated as follows for employees as compared to groups:
 
 For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
+## Network Silo Behavior
+
+Network Silo Behavior or the modularity Q score measures the extent to which the network is divisible into distinct clusters. This is a network level metric, meaning that it characterizes the network as a whole and not subgroups or individuals. It uses the weight of the ties but not the direction.
+
+The **silo score** is the sum of the modularity scores of all workgroups.  These workgroups are determined by using the Leiden community detection algorithm. The scores are between -0.5 and 1.0. If a network has a score that is low (for example, 0.0-0.4), it means that that network is homogenous and not easily divisible, often due to a set of highly connected individuals. Conversely, a network with a high score (for example, greater than 0.9), means that the network has several distinct sub-networks with some interconnectivity. The typical range for collaboration networks is between 0.75 and 0.85. The higher a score, the more at risk a network is of being "siloed" where employees are only communicating with others in their workgroup and few others. In rare cases the score could be negative. In this situation, workgroups tend to connect more with people outside of their workgroup than inside. However, this result is often a result of small network sizes which have higher variances and should be interpreted with care.
+
+The following shows simplified examples of this measure, which is available in Insights mode or through the downloaded data. For more information about this measure, see [Dynamic Silos](https://arxiv.org/abs/2104.00641).
+
+![Network Silo Behavior score](./images/ona-network-silo.png)
+
 ## Qualitative Variation Index
 
 The Qualitative Variation Index (QVI) is available only in downloaded data. It measures the diversity among the contacts (egonet) of an individual or a group. It indicates the likelihood that an individual or a group will equally interact with a variety of other groups or with only a few groups. This helps determine how much access they have to new information, which can affect their innovation abilities.
@@ -200,6 +254,14 @@ The Qualitative Variation Index (QVI) is available only in downloaded data. It m
 The QVI ranges from 0 to 1. A value of 1.0 represents an individual or a group who is equally likely to communicate with all their different types of contacts. A value of 0 indicates an individual who typically communicates with only one type of contact.
 
 If the network is grouped into binary classifications, such as Top Performer compared to Other, the QVI will automatically be 0.0 because the group can communicate with only one other type of group. This measure doesn't account for direction or weight.
+
+## Workgroup Stability
+
+Workgroup Stability measures the change in workgroup membership from month to month. For this measure, individuals are assigned workgroups by using Leiden’s community detection algorithm. Then, the fluctuation of a workgroup’s membership is calculated by using the [adjusted rand index](https://en.wikipedia.org/wiki/Rand_index), which corrects for expected random noise in the graph. The measure is generally between 0 and 1. A score of 0 indicates that group membership is highly unstable, whereas a score of 1 means that the group membership stays the same.
+
+This is only a group-level measure that considers both the direction and weight of the connections. Because this measure compares scores month over month, two months of data are required. The following shows simplified examples of this measure, which is available in Insights mode and through the downloaded data.
+
+![Workgroup Stability score example](./images/ona-workgroup-stability.png)
 
 <!-- 
 ## Reach Index
