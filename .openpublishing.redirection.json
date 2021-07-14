@@ -116,7 +116,7 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "WorkplaceAnalytics/data-access/personalhistorical.md",
+        "source_path": "WorkplaceAnalytics/data-access/personhistorical.md",
         "redirect_url": "/workplace-analytics/azure-templates/data-export#personhistorical",
         "redirect_document_id": false
       },
