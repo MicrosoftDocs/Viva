@@ -99,6 +99,62 @@
         "source_path": "teams-insights/new/viva-teams-app-settings.md",
         "redirect_url": "/insights/viva-teams-app-settings",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/data-access.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export",
+        "redirect_document_id": false
+      },      
+      {
+        "source_path": "WorkplaceAnalytics/data-access/meetings.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#meetings",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/meetingparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#meetingparticipants",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/personalhistorical.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#personhistorical",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/mailparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#mailparticipants",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/mails.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#mails",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/calls.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#calls",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/callparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#callparticipants",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/instantmessages.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessages",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/instantmessageparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessageparticipants",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/query-data-export.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#automate-query-data-export-to-azure-with-azure-data-factory-ui",
+        "redirect_document_id": true
       }
+      
     ]
 }
