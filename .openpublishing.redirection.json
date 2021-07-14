@@ -154,7 +154,7 @@
         "source_path": "WorkplaceAnalytics/data-access/query-data-export.md",
         "redirect_url": "/workplace-analytics/azure-templates/data-export#automate-query-data-export-to-azure-with-azure-data-factory-ui",
         "redirect_document_id": false
-      }
+      } 
       
     ]
 }
