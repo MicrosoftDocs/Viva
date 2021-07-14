@@ -38,15 +38,19 @@ You can size the nodes based on various network metrics. The following table lis
 | Measure | What it indicates |
 | ------- | --- |
 | [Boundary Spanning](#boundary-spanning) | How well people in one group shares information with other groups. |
-| [Bridging Index](#bridging-index)       | The relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
-| [Cohesion](#cohesion)               | Scores represent the extent of connections that employees have with each other. |
-| [Degrees](#degrees)                     | The overall network size of each node. |
-| [Density](#density)                     | The strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
-| [E-I Index](#e-i-index)                 | The size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
-| [Group Size](#group-size)               | The group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
-| [Influence Index](#influence-index)     | A node's potential influence on the opinions of the network or a measure of social status. |
+| [Bridging Index](#bridging-index)  | The relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
+| [Community Detection](#community-detection)  | Scores represent informal community connections that employees have with their coworkers based on their collaboration patterns. |
+| [Degrees](#degrees)   | The overall network size of each node. |
+| [Density](#density)   | The strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
+| [E-I Index](#e-i-index)  | The size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
+| [Employee Cohesion](#employee-cohesion)  | Scores represent the extent of connections that employees have with each other. |
+| [Fluidity](#fluidity)  | The change in an individual’s, group’s, or network’s structure from one month to the next by quantifying how much employees shift their position in the network. |
+| [Freedom](#freedom)  | A group-level measure that quantifies how much a workgroup’s communication structure differs from the formal organizational structure. |
+| [Group Size](#group-size)  | The group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
+| [Influence Index](#influence-index) | A node's potential influence on the opinions of the network or a measure of social status. |
+| [Network Silo Behavior](#network-silo-behavior)| A network-level metric that is the modularity Q score for the extent to which the network is divisible into distinct clusters. |
 | [Qualitative Variation Index](#qualitative-variation-index) | The diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
-
+| [Workgroup Stability](#workgroup-stability)| Uses Leiden’s community detection algorithm to assign individuals into workgroups to measure the change in workgroup membership from month to month. |
 <!-- |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
