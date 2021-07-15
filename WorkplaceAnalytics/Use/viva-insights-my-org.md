@@ -14,6 +14,9 @@ audience: Admin
 
 # My organization in Viva Insights
 
+>[!Important]
+>On July 22 and 23, Workplace Analytics will be offline for scheduled maintenance. During this service outage, these insights will be unavailable in Teams. We apologize for any inconvenience this might cause.
+
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes-2.png)
@@ -119,15 +122,15 @@ Complete the steps in the following mini-playbooks to get the Microsoft Viva Ins
 
 ## Open the My organization page
 
-1. On the Teams app bar (the left navigation bar), select **Insights**: 
-   
+1. On the Teams app bar (the left navigation bar), select **Insights**:
+
    ![Insights icon](../images/wpa/use/insights-icon.png)
 
-2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card. 
+2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card.
 
    ![Insights Home page](../images/wpa/use/home-mgr.png)
 
-   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/insights/viva-insights-home).
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](/insights/viva-insights-home).
 
 3. On the menu bar at the top of the page, select **My organization**. The My organization page opens to show the following outcomes:
 
