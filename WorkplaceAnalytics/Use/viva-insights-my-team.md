@@ -14,6 +14,9 @@ audience: Admin
 
 # My Team in Viva Insights
 
+>[!Important]
+>[!INCLUDE [Service outage](./includes/service-outage.md)] During this outage, the insights on this will also be offline.
+
 You can view manager insights on the **My Team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
 ![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
