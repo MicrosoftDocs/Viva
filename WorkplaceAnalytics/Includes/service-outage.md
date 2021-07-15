@@ -9,4 +9,4 @@ localization_priority: normal
 ms.prod: wpa
 ---
 
-On July 22 and 23, Workplace Analytics will be offline and inaccessible for scheduled maintenance. We apologize for any inconvenience this might cause.
+On July 22 and 23, Workplace Analytics will be offline for scheduled maintenance. We apologize for any inconvenience this might cause.
