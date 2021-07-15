@@ -12,7 +12,7 @@ audience: Admin
 # Introducing Workplace Analytics
 
 >[!Important]
->[!INCLUDE [Service outage](../includes/service-outage.md)]
+>[!INCLUDE [Service outage](./includes/service-outage.md)]
 
 Microsoft Workplace Analytics is a cloud-based service that provides business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
