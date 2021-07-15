@@ -15,7 +15,7 @@ audience: Admin
 # My organization in Viva Insights
 
 >[!Important]
->[!INCLUDE [Service outage](../includes/service-outage.md)] During this outage, these insights will be unavailable in Teams.
+>[!INCLUDE [Service outage](../includes/service-outage.md)] During this service outage, these insights will be unavailable in Teams.
 
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
