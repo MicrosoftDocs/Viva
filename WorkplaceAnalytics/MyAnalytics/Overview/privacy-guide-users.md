@@ -4,7 +4,7 @@ description: Overview of MyAnalytics privacy features, including info about data
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: priority
+localization_priority: Priority
 ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
