@@ -243,7 +243,7 @@ For more information, see [PageRank](https://wikipedia.org/wiki/PageRank).
 
 ## Network Silo Behavior
 
-Network Silo Behavior or the modularity Q score measures the extent to which the network is divisible into distinct clusters. This is a network level metric, meaning that it characterizes the network as a whole and not subgroups or individuals. It uses the weight of the ties but not the direction.
+Network Silo Behavior or the modularity Q score measures the extent to which the network is divisible into distinct communities. This is a network level metric, meaning that it characterizes the network as a whole and not subgroups or individuals. It uses the weight of the ties but not the direction.
 
 The **silo score** is the sum of the modularity scores of all workgroups.  These workgroups are determined by using the Leiden community detection algorithm. The scores are between -0.5 and 1.0. If a network has a score that is low (for example, 0.0-0.4), it means that that network is homogenous and not easily divisible, often due to a set of highly connected individuals. Conversely, a network with a high score (for example, greater than 0.9), means that the network has several distinct sub-networks with some interconnectivity. The typical range for collaboration networks is between 0.75 and 0.85. The higher a score, the more at risk a network is of being "siloed" where employees are only communicating with others in their workgroup and few others. In rare cases the score could be negative. In this situation, workgroups tend to connect more with people outside of their workgroup than inside. However, this result is often a result of small network sizes which have higher variances and should be interpreted with care.
 
