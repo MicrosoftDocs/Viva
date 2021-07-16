@@ -39,17 +39,17 @@ You can size the nodes based on various network metrics. The following table lis
 | ------- | --- |
 | [Boundary Spanning](#boundary-spanning) | How well people in one group shares information with other groups. |
 | [Bridging Index](#bridging-index)  | The relative importance of nodes to information flow, such as gatekeepers or liaisons of information. |
-| [Community Detection](#community-detection)  | Scores represent informal community connections that employees have with their coworkers based on their collaboration patterns. |
+| [Community Detection](#community-detection)  | The informal community or workgroup to which an employee belongs based on their collaboration patterns. |
 | [Degrees](#degrees)   | The overall network size of each node. |
-| [Density](#density)   | The strength of connections between nodes (within groups and between groups), which is only available in *combined or group view*. |
-| [E-I Index](#e-i-index)  | The size of an imbalance between external and internal collaboration for an individual within a group or for a group, which is only available in downloaded graph data.|
-| [Employee Cohesion](#employee-cohesion)  | Scores represent the extent of connections that employees have with each other. |
+| [Density](#density)   | The strength of connections between nodes (within groups and between groups). |
+| [E-I Index](#e-i-index)  | The size of an imbalance between external and internal collaboration for an individual within a group or for a group.|
+| [Employee Cohesion](#employee-cohesion)  | Scores represent the extent to which employees collaborate with colleagues who also collaborate, which forms a collaborative triangle. |
 | [Fluidity](#fluidity)  | The change in an individual’s, group’s, or network’s structure from one month to the next by quantifying how much employees shift their position in the network. |
 | [Freedom](#freedom)  | A group-level measure that quantifies how much a workgroup’s communication structure differs from the formal organizational structure. |
-| [Group Size](#group-size)  | The group size based on the number of people that share the same attribute in the selected time period, which is only available in *combined view* graphs. |
+| [Group Size](#group-size)  | The group size based on the number of people that share the same attribute in the selected time period. |
 | [Influence Index](#influence-index) | A node's potential influence on the opinions of the network or a measure of social status. |
-| [Network Silo Behavior](#network-silo-behavior)| A network-level metric that is the modularity Q score for the extent to which the network is divisible into distinct clusters. |
-| [Qualitative Variation Index](#qualitative-variation-index) | The diversity among the contacts (egonet) of an individual or a group, which is only available in downloaded graph data. |
+| [Network Silo Behavior](#network-silo-behavior)| A network-level metric that indicates the extent to which the network is divisible into distinct communities. |
+| [Qualitative Variation Index](#qualitative-variation-index) | The diversity among the contacts (egonet) of an individual or a group. |
 | [Workgroup Stability](#workgroup-stability)| Uses Leiden’s community detection algorithm to assign individuals into workgroups to measure the change in workgroup membership from month to month. |
 <!-- |[Reach Index](#reach-index)| Represents the ability to access or share information across the organization while going through minimal intermediaries. |-->
 
@@ -64,7 +64,7 @@ No, the measure interpretations for employees and groups are the same. For examp
 * If an employee has a high degree, this indicates that the person has more connections in the network than those with lower scores. For this reason, they have more exposure or access to information.
 * If a group has a high degree, this indicates the group has more connections in the network than other groups with lower scores. For this reason, the group has more exposure or access to information.
 
-The calculations of group measures are not simply an aggregate of the employees' scores within the group. (Aggregate measures are average, median, maximum, or minimum.) Instead, the measures are the cumulative scores of how people in the group interact with people in other groups.The two measures might sometimes be equal but that's generally not the case. The key difference is that the group measures do not account for connections that occur between members of the same group.
+The calculations of group measures are not simply an aggregate of the employees' scores within the group. (Aggregate measures are average, median, maximum, or minimum.) Instead, the measures are the cumulative scores of how people in the group interact with people in other groups. The two measures might sometimes be equal but that's generally not the case. The key difference is that the group measures do not account for connections that occur between members of the same group.
 
 A simple analogy of this is a water molecule, which is made up of two hydrogen atoms and one oxygen atom. If you average together the properties of hydrogen and oxygen (both gases), it won't generate the properties of a water molecule because the bonds between atoms are important to its properties.
 
@@ -165,7 +165,7 @@ If the modularity is as follows:
 
 **Density Ratio** compares the density values of a group to the expected density of a group's size within the context of the tenant. The density ratios for two groups who are collaborating with each other are compared to the median density of cross-group densities.
 
-This measure helps identify groups who are cohesive and groups that might lack the connectivity to be cohesive. A density ratio that’s greater than 1 represents a group who is denser than expected or is higher than average. Currently this measure is only available in the downloaded files of density analysis.
+This measure helps identify groups who are cohesive and groups that might lack the connectivity to be cohesive. A density ratio that’s greater than 1 represents a group who is denser than expected or is higher than average. Density ratio is used in Group Insights for the within group cohesion and cross-group collaboration patterns.
 
 ## E-I Index
 
@@ -220,7 +220,7 @@ If Freedom is 0 then all the communication within a workgroup aligns with the or
 
 ## Group Size
 
-This measure is only available in the *combined view*. It represents groups that are based on the number of people in the same group (share the same attribute) for the selected time period. Group size helps you determine how the group size can affect their interactions.
+This measures the number of people in the same group (share the same attribute) for the selected time period. Group size helps you determine how the group size can affect their interactions.
 
 >[!Note]
 >Filtering will not change group sizes.
