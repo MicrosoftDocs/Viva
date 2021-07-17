@@ -18,6 +18,28 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## July 2021
+
+The following new template features, enhancements, and changes are included in this month's release.
+
+### Organizational Network Analysis (ONA)
+
+**Organization insights** are now available within the ONA Insights template option with an ONA graph that shows the number of connections employees have within the organization and the following new metrics.
+
+* **Workgroup Stability** - Measures the change of informal workgroup memberships from month to month.
+* **Network Silo Behavior** - Helps quantify how connected or siloed a network is. A low score suggests that employees communicate freely across workgroups and throughout the organization.
+* **Employee Cohesion** - Employee Cohesion measures the extent to which employees’ connections (friends of friends) will also connect with each other, forming a triangle of connections.
+* **Community Detection** - Identifies group clustering of employees who collaborate more with each other than with the rest of the organization.
+* **Freedom** - Measures how much of the collaboration within informal workgroups crosses the boundaries of the formal organizational hierarchy.
+* **Fluidity** - Measures how much employees’ positions in the network shift over time.
+
+See [Insights](./ona-insights.md) to learn more about the new organizational insights and metrics that are now available as part of the Organizational Network Analysis Template.
+
+### Relationship Intelligence
+
+Adds a newly enhanced Power BI report that includes a **General insights** section, which shows how your employees are engaging with your customers, and an **Account-specific insights** section about how your employees are engaging with a specific account. The report answers the following business questions: 
+
+
 ## May 2021
 
 The following new template features, enhancements, and changes are included in this month's release.
@@ -28,7 +50,7 @@ The following new template features, enhancements, and changes are included in t
 
 * **Within-group insights** - Focus on internal group-member to group-member collaboration by highlighting each groups’ behavioral risks for the following important collaboration trends. You can use these to see how group metrics change over time and to better understand their collaboration trends.
 
-  * **Silo Risk** shows which groups are disconnected from others or at risk of it. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group.
+  * **Isolation Risk** shows which groups are disconnected from others or at risk of it. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group.
   * **Collaboration Balance** shows which groups are balancing their efforts across multiple types of contacts. New ideas are key to driving innovation across your company. Access to these ideas is facilitated by fostering diverse connections while balancing time across different groups.
   * **Group Cohesion** shows which groups have the cohesion needed to build trust. The number of connections within groups is critical to building trust. Group members who trust one another are more inclusive and better positioned to deliver successful results.
 

@@ -25,7 +25,7 @@ Workplace Analytics has a variety of measures to help you visualize and analyze 
 
 This report uses account and contact information from a Customer Relationship Management (CRM) platform, such as Dynamics or Salesforce. The CRM data provides account-level focus and insights into relationship patterns. If no account or contact data is available, it analyzes external domain-level collaboration as a proxy for accounts.
 
-The Relationship Intelligence report includes the following.
+The Relationship Intelligence report includes a **General insights** section that shows how your employees are engaging with your customers and an **Account-specific insights** section about how your employees are engaging with a specific account.
 
 * **Relationship Overview** - Shows information about all accounts, including:
 
