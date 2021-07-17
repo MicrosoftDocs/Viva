@@ -14,6 +14,9 @@ audience: Admin
 
 # My Team in Viva Insights
 
+>[!Important]
+>On July 22 and 23, Workplace Analytics will be offline for scheduled maintenance. During this service outage, these insights will be unavailable in Teams. We apologize for any inconvenience this might cause.
+
 You can view manager insights on the **My Team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
 ![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
@@ -133,7 +136,7 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
 
    ![Insights Home page](../images/wpa/use/home-mgr.png)
 
-   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](https://docs.microsoft.com/insights/viva-insights-home).
+   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](/insights/viva-insights-home).
 
 3. On the menu bar at the top of the page, select **My Team**. The My Team page opens to show the following outcomes:
 
