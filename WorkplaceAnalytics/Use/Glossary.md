@@ -31,7 +31,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 | <a name="conflicting-meeting-define"></a> Conflicting meeting | A meeting on a person's calendar that overlaps with another meeting on that person's calendar.  |
 |Connected people |Those who have had more than five connections with external people within the same month. |
 |Connected groups |Those who spend a large proportion of their overall collaboration with people outside the company. |
-|Connection|Two or more [meaningful interactions](#meaningful-interaction-define).|
+|Connections |Two or more [meaningful interactions](#meaningful-interaction-define) during the past four weeks.|
 |Coverage|The percentage of measured employees who have a non-blank value for the specified attribute as shown in [Data sources](../use/organizational-data.md). If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under reported) metric calculations for metrics that rely on those attributes.|
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 | <a name="decision-making-meeting-define"></a> Decision-making meeting | A meeting that has between two and eight attendees and lasts less than one hour. |
