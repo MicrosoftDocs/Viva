@@ -24,7 +24,7 @@ The following new template features, enhancements, and changes are included in t
 
 ### Organizational Network Analysis (ONA)
 
-**Organization insights** are now available within the ONA Insights template option with an ONA graph that shows the number of connections employees have within the organization and the following new metrics.
+This release adds a new **Organization insights** section within the **ONA Insights** template option with an ONA graph that shows the number of connections employees have within the organization and the following new metrics.
 
 * **Workgroup Stability** - Measures the change of informal workgroup memberships from month to month.
 * **Network Silo Behavior** - Helps quantify how connected or siloed a network is. A low score suggests that employees communicate freely across workgroups and throughout the organization.
