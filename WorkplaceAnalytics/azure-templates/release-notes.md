@@ -37,8 +37,35 @@ See [Insights](./ona-insights.md) to learn more about the new organizational ins
 
 ### Relationship Intelligence
 
-Adds a newly enhanced Power BI report that includes a **General insights** section, which shows how your employees are engaging with your customers, and an **Account-specific insights** section about how your employees are engaging with a specific account. The report answers the following business questions: 
+Adds a newly enhanced Power BI report that includes a **General insights** section, which shows how your employees are engaging with your customers, and an **Account-specific insights** section about how your employees are engaging with a specific account. The report answers the following business questions:
 
+1. **How have we been engaging with our accounts?** – Shows what percentage of accounts your organization or select groups were meaningfully engaged with the defined group of accounts.
+2. **How much attention are we investing in our accounts?** – Shows the level of investment in accounts based on the interaction type, including the total cost and number of hours invested in collaboration with the account over the selected time period.
+3. **How are our internal groups engaging with accounts?** – Shows the average number of collaboration hours invested with accounts by internal groups and their time investment with accounts over the selected date range.
+4. **How do accounts compare to each other by collaboration?** – Includes the following information as related to account collaboration activity, such as email and meeting hours spent with accounts and the last date the organization engaged with them.
+5. **What accounts or contacts are missing from our CRM system?** – Shows individuals assigned to an account but that are not in your CRM data.
+6. **Who are the contacts at an account and how are we engaging with them?** – For the selected account, you can evaluate the following:
+7. **How are my internal groups spending time with accounts?** - For the selected account, you can see the top internal groups in the organization who have collaborated with account contacts per month.
+8. **How are we communicating with an account?** – Shows the following details about the selected account.
+9. **What are the main topics of discussion with an account?** – The Topics word cloud is based on subject lines for meetings and email.
+10. **Which internal groups are collaborating with individuals from an account?** - Shows which groups are collaborating with the selected account.
+11. **How are individuals from an account collaborating with us?** – You can select a specific account and an individual account contact to see how that person is collaborating with one or more of the organizational groups over the last three months.
+
+To learn more, see [Relationship Intelligence](./relation-intel.md).
+
+### Process Explorer
+
+* **Enhancement** - You can now select the...
+* **Feature** - When creating new analysis or applying settings or filters, you'll now see...
+
+To learn more, see [Process Explorer](./process-explorer.md).
+
+### Workspace Planning
+
+* **Enhancement** - You can now select the...
+* **Feature** - New feature description.
+
+For details, see [Workspace Planning](space-planning.md).
 
 ## May 2021
 
