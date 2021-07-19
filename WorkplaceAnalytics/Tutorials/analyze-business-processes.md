@@ -240,7 +240,7 @@ You can filter by business processes wherever the **Meeting** option is availabl
 
 In [meeting queries](Meeting-queries.md#meeting-queries), business processes are only available as filters for meetings, as described in the following steps.
 
-1. In Workplace Analytics, select **Queries > Meeting** to open a Meeting query.
+1. In Workplace Analytics, select **Query designer > Meeting** to open a Meeting query.
 
 2. Enter initial information about the query such as its name, time period, and exclusions.
 
@@ -266,7 +266,7 @@ For general information about examining query results, see [View, download, and 
 
 In [person queries](Person-queries.md#person-queries), business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
 
-1. In Workplace Analytics, select **Queries > Person** to open a Person query.
+1. In Workplace Analytics, select **Query designer > Person** to open a Person query.
 
 2. Enter initial information about the query such as its name, time period, and exclusions.
 

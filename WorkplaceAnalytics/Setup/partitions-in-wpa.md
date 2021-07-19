@@ -25,9 +25,9 @@ A partition is a data workspace for an analyst. A partition delimits the employe
 
 ## Partitions give access to data
 
-A partition defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you work with data in **Explore the stats** and **Queries** in Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages. If you have the program manager role, you can work on **Plans** and your role there is not limited, so you have access to all Plans.
+A partition defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you work with data in **Explore the stats** and **Query designer** in Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages. If you have the program manager role, you can work on **Plans** and your role there is not limited, so you have access to all Plans.
 
-For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople in **Explore the stats** and create queries about salespeople in **Queries**.
+For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople in **Explore the stats** and create queries about salespeople in **Query designer**.
 
 > [!Note]
 > Analysts (and limited analysts) are not the only Workplace Analytics users who use partitions. Program managers who work in [Plans](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
@@ -37,11 +37,11 @@ For example, if you are an analyst with the job of finding workplace trends in t
 One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [To create a partition](#to-create-a-partition) for more information about assigning analysts to a partition.
 
 > [!Note]
-> For existing users, as part of one-time migration in 2019, all existing analysts and their existing queries and settings are being moved to the Global partition.
+> For existing users, as part of one-time migration in 2019, all existing analysts and their existing Query designer and settings are being moved to the Global partition.
 
 ## Use partitions
 
-If you are an analyst, you must have a partition selected to be able to view data in **Explore the stats** and **Queries**. If you are a program manager, you work in the Global partition by default and you can go right to **Plans** to manage programs. If you are an admin, you create partitions, but you do not work within one.
+If you are an analyst, you must have a partition selected to be able to view data in **Explore the stats** and **Query designer**. If you are a program manager, you work in the Global partition by default and you can go right to **Plans** to manage programs. If you are an admin, you create partitions, but you do not work within one.
 
 ### To use a partition
 
@@ -55,16 +55,16 @@ If you are an analyst, you must have a partition selected to be able to view dat
 
 3. Step for analysts:
 
-    * If you have only one partition (even the default "Global" partition), this is the partition that you will use. Skip the rest of these steps. You can view **Explore the stats** data or **Queries** where you will only see data to which your partition grants you access.
+    * If you have only one partition (even the default "Global" partition), this is the partition that you will use. Skip the rest of these steps. You can view **Explore the stats** data or **Query designer** where you will only see data to which your partition grants you access.
     * If you have more than one partition, the **Partition** drop-down menu at the top of the **Home** page displays the partitions that you are linked to. Open this menu and select one:
 
        ![Select a partition](../images/wpa/setup/partition-menu.png)
 
-      After you’ve chosen the partition to work with, you can skip the rest of these steps and view date in **Explore the stats** and **Queries**.
+      After you’ve chosen the partition to work with, you can skip the rest of these steps and view date in **Explore the stats** and **Query designer**.
 
 4. If you have a non-analyst role, your choice depends on the role (or roles) that you've been assigned:
 
-    * **Both a manager and an analyst:** If you have both a program manager role and an analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a manager and analyst roles can access plans in Global partition and access **Explore the stats** and **Queries** in other partitions that they have been granted.
+    * **Both a manager and an analyst:** If you have both a program manager role and an analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a manager and analyst roles can access plans in Global partition and access **Explore the stats** and **Query designer** in other partitions that they have been granted.
     * **Manager only:** Managers do not need to select a partition because they automatically use Global partition. If you’re a manager, go to the **Plans** page.
     * **Admin:** If you’re signed in to Workplace Analytics as an admin, then partitions don't affect you or your access to **Settings**.
 

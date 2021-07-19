@@ -39,7 +39,7 @@ Workplace Analytics provides advanced analysis tools for deep diving into the da
 * [**Workplace Analytics Insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to the app, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get the Workplace Analytics app set up.
 * **Analyze** includes the following data-analysis tools within the app:
 
-  * [**Queries**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of person, meeting, group-to-group, and person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
+  * [**Query designer**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of person, meeting, group-to-group, and person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
   * [**Business process analysis**](../tutorials/analyze-business-processes.md) helps you analyze and improve your well-defined and undefined business processes. For example, by measuring their cost in time and money.
   * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 

@@ -12,7 +12,7 @@ ms.prod: wpa
 * **Analyst** &ndash; Has full access to all service features except two pages (**Upload** and **Admin settings**) that are meant only for admins. The **Analyst** role provides analysts with the most complete access to data. This includes the ability to launch, manage, and track plans.
 
 * **Analyst (Limited Access)** &ndash; Has the same access as people who have the **Analyst** role but with the following restrictions:
-   * No access to **Queries**.
+   * No access to **Query designer**.
    * Only _read-only_ access to the **Analysis settings** page (on which [meeting and attendee exclusion rules](../tutorials/exclusions-introduction.md) are defined).
 
 * **Administrator** &ndash; Has access to the **Settings** menu and through it the **Data sources**, **Upload**, and **Admin settings** pages. The Workplace Analytics admin has the responsibility to configure privacy settings and system defaults and to prepare, upload, and verify organizational data.
