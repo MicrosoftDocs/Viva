@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Manager effectiveness dashboard for Power BI
 description: Use the Manager effectiveness dashboard to visualize predefined data from Workplace Analytics in Power BI
 author: madehmer
@@ -12,8 +11,6 @@ audience: Admin
 ---
 
 # Manager effectiveness
-
-*This experience is only available through private preview at this time.*
 
 The Manager effectiveness dashboard for Power BI uses Workplace Analytics data to analyze people manager behaviors in your organization. HR analysts can use this analysis to measure behaviors and trends of people managers across four key themes within your organization, including coach, empower, connect, and model.
 
