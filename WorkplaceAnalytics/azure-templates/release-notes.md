@@ -29,7 +29,7 @@ This release adds a new **Organization insights** section within the **ONA Insig
 * **Workgroup Stability** - Measures the change of informal workgroup memberships from month to month.
 * **Network Silo Behavior** - Helps quantify how connected or siloed a network is. A low score suggests that employees communicate freely across workgroups and throughout the organization.
 * **Employee Cohesion** - Employee Cohesion measures the extent to which employees’ connections (friends of friends) will also connect with each other, forming a triangle of connections.
-* **Community Detection** - Identifies group clustering of employees who collaborate more with each other than with the rest of the organization.
+* **Community Detection** - Identifies natural clusters of employees who collaborate more with each other than with the rest of the organization.
 * **Freedom** - Measures how much of the collaboration within informal workgroups crosses the boundaries of the formal organizational hierarchy.
 * **Fluidity** - Measures how much employees’ positions in the network shift over time.
 
