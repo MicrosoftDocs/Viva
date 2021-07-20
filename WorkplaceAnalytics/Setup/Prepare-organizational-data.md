@@ -138,23 +138,21 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
 3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
 4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
 
-### Also include unlicensed employees
+## Also include unlicensed employees
 
-In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees. Here's why:
+In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees. Doing so lets the filters that you use in queries also include unlicensed employees in query results.
 
-Including data for both licensed and unlicensed employees means that the filters that you use in queries can include unlicensed (as well as licensed) employees to appear in query results.
-
-In the followings examples, employees in a European affiliate are unlicensed.
+In the followings examples, the employees in a European affiliate are unlicensed.
 
 **Example 1:** Unlicensed employees are **not** included in organizational data
 
-In this case, the filter doesn’t know to return meetings that employee #101 attended that the European employees also attended:
+In this case, the filter doesn’t know to return meetings that employee #101 attended that the European employees also attended. This gives a more complete and accurate accounting of the meetings and their participants:
 
 | PersonId | Date | Meetings | Meetings with Europe | Meetings with non-Europe |
 | ---- | ---- | ---- | ---- | ---- |
 | 101 | May 2020 | 30 | 0 | 30 |
 
-**Example 2:** Unlicensed employees are included in organizational data
+**Example 2:** Unlicensed employees **are** included in organizational data
 
 In this case, the filter does know to include the Europeans' meeting information in the custom metric:
 
