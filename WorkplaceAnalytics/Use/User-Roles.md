@@ -18,8 +18,8 @@ audience: Admin
 
 Users of Workplace Analytics require the proper level of access to areas of the product to be able to perform their required tasks. This topic describes the roles and responsibilities of users and the levels of access that each role requires.
 
-> [!Note]
-> An administrator of Microsoft 365 or Azure Active Directory [assigns the roles](../setup/assign-user-roles.md) that are described in this topic. 
+>[!Note]
+>An administrator of Microsoft 365 or Azure Active Directory [assigns the roles](../setup/assign-user-roles.md) that are described in this topic.
 
 ## Role descriptions and access levels
 
@@ -34,7 +34,7 @@ These are the Workplace Analytics roles and their level of access:
 
 The following shows who can access what in Workplace Analytics.
 
-| Page          | Page description | Administrator | Analyst | Analyst (Limited Access) | Program Manager | People Manager |
+| Page        | Page description | Administrator | Analyst | Analyst (Limited Access) | Program Manager | People Manager |
 | ------------- | ---------------- | ------------- | ------- | ------------------------ | --------------- | -------------- |
 | **Home**      | View highlights from the latest data; see the latest notifications | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 | **Analyze**   | &nbsp;                                                             | &nbsp;    | &nbsp;                                                      | &nbsp;   | &nbsp;  | &nbsp; |

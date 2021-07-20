@@ -93,7 +93,7 @@ The following is required before setting up the Zoom integration tool:
 
 7. **Run and download the Workplace Analytics data** - Your Workplace Analytics analyst needs to do the following:
 
-   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#predefined-query-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
+   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#predefined-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
 
       ![Required query data](../images/wpa/use/zoom-query-data.png)
       ![HR attributes required for the results](../images/wpa/use/zoom-hr-attributes.png)

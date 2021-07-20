@@ -110,7 +110,7 @@ Additionally, the analyst could create a group query to identify the groups invo
 
 You can create queries in the following ways:
 
-* Edit and use a [predefined query template](#predefined-query-templates).
+* Edit and use a [predefined template](#predefined-templates).
 * Create your own custom query.
 * Open and edit a previously run query.
 
