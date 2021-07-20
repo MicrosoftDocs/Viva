@@ -61,7 +61,7 @@ The following video describes how to set up the dashboard, which might not be ex
 The high-level steps required to populate the dashboard in Power BI:
 
 1. [Get Glint data](#get-the-glint-data) &ndash; In Glint, select the corresponding survey questions and the population to analyze in Power BI, including the HR attributes you want to analyze, such as team and position. Then export a Heat Map report file with this data.
-2. [Get Workplace Analytics data](#get-the-workplace-analytics-data) &ndash; Set up and run the predefined **Behavior patterns for Glint** query in Workplace Analytics. After the query successfully runs, download the Power BI template for the Glint query on the **Results** page. This template is required to create the dashboard in Power BI.
+2. [Get Workplace Analytics data](#get-the-workplace-analytics-data) &ndash; Set up the predefined **Behavior patterns for Glint** template in Workplace Analytics. After the results successfully run, download the Power BI template for the Glint query on the **Results** page. This template is required to create the dashboard in Power BI.
 3. [Load both into Power BI](#load-the-data-in-power-bi) &ndash; Connect to and load both the query data from Workplace Analytics and the Heat map from Glint into Power BI.
 
 ## Prerequisites
@@ -70,8 +70,8 @@ The following is required before you can run the query in Workplace Analytics an
 
 * Your company uses Glint with the same measured population that Workplace Analytics has data for:
 
-  * The population reflected in the Glint Heat Map report is the same as the filtered population in the Behavior patterns for Glint query.
-  * You have Glint survey content for the last three to six months that includes questions on one or more of the following themes of employee wellbeing, connection, clarity, empowerment, and growth. 
+  * The population reflected in the Glint Heat Map report is the same as the filtered population in the Behavior patterns for Glint template.
+  * You have Glint survey content for the last three to six months that includes questions on one or more of the following themes of employee wellbeing, connection, clarity, empowerment, and growth.
 
 * Be assigned the role of Analyst in Workplace Analytics.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
@@ -106,9 +106,9 @@ The following is required before you can run the query in Workplace Analytics an
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Behavior patterns for Glint** to open the predefined query.
-3. Select or confirm the following query settings:
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Create**, locate and select **Behavior patterns for Glint** and follow the setup steps.
+3. When prompted, select or confirm the following settings:
 
    * **Name** &ndash; Customize or keep the default name
    * **Group by** &ndash; Week
@@ -116,17 +116,17 @@ The following is required before you can run the query in Workplace Analytics an
    * **Auto-refresh** &ndash; Keep this setting disabled
    * **Meeting and attendee exclusions** &ndash; Select the preferred rules for your tenant
 
-   > [!Important]
-   > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   >[!Important]
+   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires and up to three more that match up with the attributes included in your Glint data.
 
-   > [!Important]
-   > If you remove the required, preselected **Organizational data** attributes, you might disable one or more Power BI charts.
+   >[!Important]
+   >If you remove the required, preselected **Organizational data** attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-7. In **Queries** > **Results**, after the query successfully runs, select the **Download** icon for the **Behavior patterns for Glint** query results, select **PBI template**, and then select **OK** to download the template.
+7. In **Query designer** > **Results**, after the results successfully run, select the **Download** icon for the **Behavior patterns for Glint** query results, select **PBI template**, and then select **OK** to download the template.
 
 ## Load the data in Power BI
 
@@ -134,7 +134,7 @@ The following is required before you can run the query in Workplace Analytics an
 2. If prompted to select a program, select **Power BI**.
 3. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
-    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon, and then select to copy the generated OData URL link.
+    * In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon, and then select to copy the generated OData URL link.
     * In Power BI, paste the copied OData link for **Workplace Analytics query for Glint URL**.
     * In the **Glint Heat Map report**, copy and paste the Heat Map file path.
     * In **Minimum group size**, enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Workplace Analytics data.

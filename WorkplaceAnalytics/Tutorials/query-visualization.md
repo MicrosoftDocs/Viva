@@ -30,15 +30,15 @@ In addition to these capabilities, you can also export results to a data visuali
 **Role** - Analyst
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
-2. In **Analyze** > **Queries**, select **Person query**.
-3. Define and run a person query. For details, see [Person queries](person-queries.md).
-4. After the query finishes, go to **Queries** > **Results**.
-5. For the query's results, select **Visualization**.
-6. In **Interactive Data**, you can use the charts to explore the output of your query.
+2. In **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
+3. Select **Person query**, and then define and run it. For details, see [Person queries](person-queries.md).
+4. After the results are ready, go to **Query designer** > **Results**.
+5. For the results, select **Visualization**.
+6. In **Interactive Data**, you can use the charts to explore the data.
 
    ![Results chart](../images/wpa/tutorials/inter-data-save-as-no-hi.png)
 
-   A default visualization of the query result is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Settings and filters](../use/explore-page-settings.md). All saved charts, including "Original," are listed in the **Saved charts** area.
+   A default visualization of results is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Settings and filters](../use/explore-page-settings.md). All saved charts, including "Original," are listed in the **Saved charts** area.
 
    To change the way these results are presented, see [Customize your data visualization](#customize-your-data-visualization). After you have modified a visualization, you can save the modified version; see [Save your charts](#save-your-charts).
 
@@ -62,7 +62,7 @@ As you add and apply filters and select groups, the chart section of the results
 
 In **Interactive Data**, as you [customize visualizations](#customize-your-data-visualization) to reflect the results of a query in various ways, you can save those visualizations as charts. All changes are saved, including modifications to the chart type, the results of drilling down, or the application of [Settings and filters](../use/explore-page-settings.md).
 
-1. In **Queries** > **Results** > **Interactive Data**, select **Save as** to save a chart that you have created.  
+1. In **Query designer** > **Results** > **Interactive Data**, select **Save as** to save a chart that you have created.  
 
    After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area.
 
@@ -77,7 +77,7 @@ In **Interactive Data**, as you [customize visualizations](#customize-your-data-
 
 ## Optionally create a plan  
 
-Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in with **Plans** in Workplace Analytics.
+Query designer can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in with **Plans** in Workplace Analytics.
 
 For more information about plans, see [Workplace Analytics plans](solutionsv2-intro.md).  
 

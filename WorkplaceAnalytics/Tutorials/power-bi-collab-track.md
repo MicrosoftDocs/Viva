@@ -48,8 +48,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Ways of working tracker** to open the predefined query, which contains the required metrics to populate the dashboard.
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Create**, locate and select **Ways of working tracker**.
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -58,17 +58,17 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Auto-refresh** - Enable the setting
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
-   > [!Important]
-   > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   >[!Important]
+   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select any additional attributes (columns) that you want to include in the reports.
 
-   > [!Important]
-   > If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   >[!Important]
+   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which can take a few minutes to complete.
-7. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
+7. In **Query designer** > **Results**, after both queries successfully run, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
 
     ![Download the Power BI Ways of working tracker template](../Images/WpA/Tutorials/pbi-download-tracker.png)
 
@@ -76,7 +76,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 9. If prompted to select a program, select **Power BI**.
 10. When prompted by Power BI:
 
-    * In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for the Ways of working tracker query, and then select to copy the generated OData URL link.
+    * In the Workplace Analytics **Query designer** > **Results** page, select the **Link** icon for the Ways of working tracker query, and then select to copy the generated OData URL link.
     * In Power BI, paste the copied link into its respective field.
     * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
@@ -135,15 +135,16 @@ The dashboard also includes an **Example interventions** page that has ideas on 
 
 ### Training opportunity
 
-Use this training module: 
+Use this training module:
 
-[Drive organizational change with Microsoft Workplace Analytics and MyAnalytics](/learn/modules/workplace-analytics-business-continuity/) 
+[Drive organizational change with Microsoft Workplace Analytics and MyAnalytics](/learn/modules/workplace-analytics-business-continuity/)
 
-... to learn how to do the following: 
- * define Microsoft 365 tools that drive behavior change
- * identify common practices you can use to improve workplace scenarios
- * design custom tactics to drive change.
- * identify methods to measure behavior change
+... to learn how to do the following:
+
+* Define Microsoft 365 tools that drive behavior change.
+* Identify common practices you can use to improve workplace scenarios.
+* Design custom tactics to drive change.
+* Identify methods to measure behavior change.
 
 ## Power BI tips, troubleshooting, and FAQs
 

@@ -35,8 +35,8 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 **To create a person-to-group query**
 
-1. In Workplace Analytics, select **Analyze** > **Queries** > **Person-to-group**.
-2. Select and change **Enter query name here** to a name, and then enter a description for the query.
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
+2. Select **Person-to-group**, and then select and change **Enter query name here** to a name, and then enter a description for the query.
 3. For **Group by**, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.
 5. Select a set of meeting exclusions to ignore (filter out) specific meetings for this query.
@@ -74,10 +74,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 ## Related topics
 
-[Metric descriptions](../Use/Metric-definitions.md)
-
-[Understand and interpret query output](../Use/csv-query-output-file.md)
-
-[View, download, and export query results](../Use/View-download-and-export-query-results.md)
-
-[Queries with CRM data](../tutorials/crm-queries.md)
+* [Metric descriptions](../Use/Metric-definitions.md)
+* [Understand and interpret query output](../Use/csv-query-output-file.md)
+* [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+* [Queries with CRM data](../tutorials/crm-queries.md)

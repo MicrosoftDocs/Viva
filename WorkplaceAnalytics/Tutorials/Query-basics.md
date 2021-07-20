@@ -1,7 +1,7 @@
 ---
 
 title: Workplace Analytics query overview
-description: Workplace Analytics offers a number of flexible queries for custom data analysis
+description: Workplace Analytics offers a number of queries for custom data analysis
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -96,7 +96,7 @@ You can use the Organizational network analysis (ONA) queries in Workplace Analy
 See [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) for more details.
 ## Meeting exclusions
 
-You can use meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
+You can use meeting exclusions to exclude meetings that fall outside relevant norms for the data. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
 See [Meeting exclusions](../Tutorials/meeting-exclusions-intro.md) to learn more.
 
@@ -118,9 +118,9 @@ When you create a new query or edit an existing query, you can select the metric
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
-## Predefined query templates
+## Predefined templates
 
-Workplace Analytics includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
+Workplace Analytics includes the following predefined templates to help you get started with the Query designer. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.

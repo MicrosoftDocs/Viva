@@ -25,7 +25,7 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 
 ## Person metrics
 
-The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries. 
+The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries.
 
 |Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|

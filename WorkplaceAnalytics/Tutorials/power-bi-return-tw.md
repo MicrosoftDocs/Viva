@@ -37,7 +37,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 ## Prerequisites
 
-Before you can run the queries and populate the dashboard in Power BI, you must:
+Before you can run the setup steps and populate the dashboard in Power BI, you must:
 
 * Be assigned the role of Analyst in Workplace Analytics.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
@@ -49,11 +49,11 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Return to worksites** to open the predefined query.
-3. Select or confirm the following query settings:
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Create**, locate and select **Return to worksites** to open the setup steps.
+3. When prompted, select or confirm the following settings:
 
    * **Name** - Customize or keep the default name
    * **Group by** - Week
@@ -87,12 +87,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
 
 10. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-11. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Return to worksites** query results, select **PBI template**, and then select **OK** to download the template.
+11. In **Query designer** > **Results**, after the results successfully run, select the **Download** icon for the **Return to worksites** results, select **PBI template**, and then select **OK** to download the template.
 12. Open the downloaded **Return to worksites** template.
 13. If prompted to select a program, select **Power BI**.
 14. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
-    * **Query OData link or file path** - Both options are in the Workplace Analytics **Queries** > **Results** > **Return to worksites**. Data from the .csv file will load faster than through the OData link, which can take several minutes to several hours to load.
+    * **Query OData link or file path** - Both options are in the Workplace Analytics **Query designer** > **Results** > **Return to worksites**. Data from the .csv file will load faster than through the OData link, which can take several minutes to several hours to load.
 
       * For the link, select the **Link** icon, and then select to copy the generated OData URL link and paste it in.
       * For the file path, select the **Download** icon, and then download the file. After it downloads, copy and paste the file path and file name.

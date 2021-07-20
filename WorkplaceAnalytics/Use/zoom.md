@@ -93,10 +93,10 @@ The following is required before setting up the Zoom integration tool:
 
 7. **Run and download the Workplace Analytics data** - Your Workplace Analytics analyst needs to do the following:
 
-   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#predefined-query-templates) to create the applicable query data. When running the queries, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
+   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#predefined-query-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
 
       ![Required query data](../images/wpa/use/zoom-query-data.png)
-      ![HR attributes required for the queries](../images/wpa/use/zoom-hr-attributes.png)
+      ![HR attributes required for the results](../images/wpa/use/zoom-hr-attributes.png)
 
    2. Download the query results (.csv) to the **Zoom integration**/**Analyst**/**input** folder.
 
@@ -120,7 +120,7 @@ The following is required before setting up the Zoom integration tool:
        >The first time you run the AdminActions.bat file might take longer than subsequent runs because of installation dependencies.
 
 9. **Upload the Zoom output data** - As the Workplace Analytics analyst, save the Zoom output file to the **Zoom integration**/**Analyst**/**input** folder. Confirm that the Input folder also has the Ways of Working Assessment query, Standard meeting query, and the UTC_offset.rds file.
-10. **Update the config file** -  If the Workplace Analytics analyst and Zoom admin are based in different time zones, then the analyst needs to update the **config.csv** file with the applicable **utc_offset**. If the **Ways of Working Assessment query** uses a column name that’s different than **HashID**, you must update the config.csv with the different column name that’s used in the query output.
+10. **Update the config file** -  If the Workplace Analytics analyst and Zoom admin are based in different time zones, then the analyst needs to update the **config.csv** file with the applicable **utc_offset**. If the **Ways of Working Assessment** results includes a column name that’s different than **HashID**, you must update the config.csv with the different column name that’s used in the data output.
 
 11. In the **Script** folder, double-click **AnalystActions.bat** to run it. When prompted, point it to **Rscript.exe**, which is usually in **C:/Program Files/R/R-4x-x/bin**.
 12. Confirm the **Output** folder includes a new .csv file for the Zoom collaboration metrics and a new .csv for the Zoom version of the Ways of working assessment query that you use with the new Zoom version of the Ways of working assessment dashboard in Power BI.

@@ -14,17 +14,17 @@ audience: Admin
 
 **Role** - The Analyst role is required in Workplace Analytics to view, download, or export query results
   
-In Workplace Analytics, the **Analyze** > **Queries** > **Results** > **All results** page lists all the queries available for your organization. In addition to seeing basic information about each query, you can view query results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
+In Workplace Analytics, the **Analyze** > **Query designer** > **Results** > **All results** page lists all the results available for your organization. In addition to seeing basic information about each, you can view results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
-![Query results tab](../images/wpa/use/query-results.png)
+![Query designer results tab](../images/wpa/use/query-results.png)
 
 ## View query results
 
-On the **Analyze** > **Queries** > **Results** page, you can switch between **All results** (includes queries created by all analysts) and **My results** (only queries that you created, as an analyst).
+In **Analyze** > **Query designer** > **Results**, you can switch between **All results** (includes results created by all analysts) and **My results** (only results that you created, as an analyst).
 
-1. In Workplace Analytics, go to **Analyze** > **Queries** > **Results** > **All results**.
+1. In Workplace Analytics, go to **Analyze** > **Query designer** > **Results** > **All results**.
 
-2. Next to the query you want to view, select the **Ellipsis** (**...**) > **View query**.
+2. Next to the result you want to view, select the **Ellipsis** (**...**) > **View query**.
 
 ## Supported languages for column headers
 
@@ -58,9 +58,9 @@ You can use the following options to access and use Workplace Analytics query da
 
 The following steps are for Excel 2016. For other versions of Excel, open **Help** within Excel and search and use Excel's instructions on how to import a .csv file.
 
-1. In **Analyze** > **Queries** > **Results** > **All results**, next to the query you want, select the **Download** icon.
-2. If prompted, select to download the query results as a .csv file.
-3. Select to open and right-click the zip file, which contains a .csv version of the query, and then select **Extract All** and extract the .csv to a local folder.
+1. In **Analyze** > **Query designer** > **Results** > **All results**, next to the results you want, select the **Download** icon.
+2. If prompted, select to download the results as a .csv file.
+3. Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 4. Open **Excel**, select to open **a new document**, and then open **a blank workbook**.
 5. In the blank Excel workbook, select the **Data** tab at the top, and then select **Get Data** > **From File** > **From Text/CSV**.
 
@@ -97,8 +97,8 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
 ### Use an OData link to view data in Excel
 
-1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**.
-2. Next to the query whose results you want to view, select the **Copy link** icon and select **Copy**:
+1. Go to **Workplace Analytics** > **Analyze** > **Query designer** > **Results**.
+2. Next to the results you want to view, select the **Copy link** icon and select **Copy**:
 
    ![Copy OData link from query results](../images/wpa/use/odata-link-copied.png)
 
@@ -147,12 +147,12 @@ You can connect to aggregated, auto-refreshed data from custom Person or Meeting
      * Enter the exact query name in **Query Name** as shown in **Query results**.
      * Or do the following to enter the query's ID in **Query Identifier**.
 
-       1. Go to **Workplace Analytics** > **Analyze** > **Queries** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
+       1. Go to **Workplace Analytics** > **Analyze** > **Query designer** > **Results**, and then select the **Copy link** icon next to the query you want to connect to in Power BI.
        2. Only highlight and copy the **32-digit ID** just before the query type at the end of the link (as shown in the following graphic), and then paste it into **Query Identifier** in the Power BI.
 
           ![Query ID](../images/wpa/use/pbi-wpa-query-id.png)
 
-       3. You can add up to two queries at a time by adding two query IDs, separated by a comma. When two queries are added at the same time, they are combined into a single table in Power BI.
+       3. You can add up to two results at a time by adding two IDs, separated by a comma. When two results are added at the same time, they are combined into a single table in Power BI.
 
 5. In **Schema Type**, you can _optionally_ select one of the following:
 
