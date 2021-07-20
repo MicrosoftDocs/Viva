@@ -31,7 +31,7 @@ You can exclude events with one of the following exclusion types:
 
 * **Exclusion types are independent** &ndash; These two exclusion types are not mutually exclusive. As you define a query, you can select exclusions of both types. This lets you exclude data about particular types of meetings (such as long or large meetings) while you, independently, also exclude attendee data for those who responded as "Tentative" or didn't respond to meeting invitations.
 
-* **Rules are applied only in Explore and in queries** &ndash; Analysts in your organization might have created meeting or attendee exclusion rules during the setup of Workplace Analytics. After these rules are created, they are applied only in the [Explore](../use/explore-intro.md) page dashboards and in [queries](query-basics.md) (see Q1/A1 in [Application of meeting exclusion rules](meeting-exclusion-concept.md#application-of-meeting-exclusion-rules)). Exclusion rules are _not_ applied to the data shown in the **Data sources** pages, including on the **Office 365 data** page.
+* **Rules are applied only in Explore and in Query designer** &ndash; Analysts in your organization might have created meeting or attendee exclusion rules during the setup of Workplace Analytics. After these rules are created, they are applied only in the [Explore](../use/explore-intro.md) page dashboards and in [queries](query-basics.md) (see Q1/A1 in [Application of meeting exclusion rules](meeting-exclusion-concept.md#application-of-meeting-exclusion-rules)). Exclusion rules are _not_ applied to the data shown in the **Data sources** pages, including on the **Office 365 data** page.
 
 ## Related topics
 

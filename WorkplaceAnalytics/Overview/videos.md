@@ -44,10 +44,10 @@ The Workplace Analytics documentation offers several videos that explain concept
 * [Data sources](../use/data-sourcesv2.md#video-learn-about-data-sources)
 * [Explore the stats](../use/explore-intro.md#video-learn-about-explore-the-stats)
 
-## Queries
+## Query designer
 
-* [A week in the life / Person queries](../tutorials/Query-basics.md#a-week-in-the-life)
-* [Expensive meetings / Meeting queries](../tutorials/Query-basics.md#a-week-in-the-life)
+* [A week in the life / Person Query designer](../tutorials/Query-basics.md#a-week-in-the-life)
+* [Expensive meetings / Meeting Query designer](../tutorials/Query-basics.md#a-week-in-the-life)
 
 <!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
 

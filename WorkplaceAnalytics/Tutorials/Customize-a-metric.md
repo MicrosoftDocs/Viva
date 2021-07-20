@@ -51,16 +51,16 @@ You can also add additional base metrics to your query. You would do this to mod
 
 To customize and then change a base metric:
 
-1. On the **Analyze** > **Queries** page, select the type of query you want to create, such as a person or meeting query. **Note**: You currently can only customize metrics for a person or a meeting query.
+1. In **Analyze** > **Query designer** > **Queries**, select the type of query you want to create, such as a person or meeting query. **Note**: You currently can only customize metrics for a person or a meeting query.
 2. Select and change **Enter query name here** to name your query and enter a description.
 3. For **Group by**, select a time-grouping option -- day, week, or month.
-3. Select a date range and a meeting exclusion rule.
-4. In the **Metrics** section, select the plus (+) sign next to Add metric and then select a metric from the list:
- 
+4. Select a date range and a meeting exclusion rule.
+5. In the **Metrics** section, select the plus (+) sign next to Add metric and then select a metric from the list:
+
    ![add a metric](../Images/WpA/Tutorials/custom-metric-01.png)
 
-   > [!Note]
-   > You can select multiple metrics from the list. When you are finished, select elsewhere on the page to close the list.
+   >[!Note]
+   >You can select multiple metrics from the list. When you are finished, select elsewhere on the page to close the list.
 
    For this example, select the **Conflicting meeting hours** metric:
 
@@ -91,9 +91,10 @@ To customize and then change a base metric:
 7. Optionally, you can now change the base metric. Select the drop-down arrow shown next to the name of the base metric, and then select a different metric.
 
    >[!Note]
-     * Any base metric that is customizable shows a drop-down menu with the possible change options.
-     * Not all base metrics can be changed. If no drop-down menu is available, the metric cannot be changed.
-     * Changes are not always 1 to 1. For example, you can change from Conflicting meeting hours to Email hours, but because of variations in the available filters, the opposite change is not possible.
+   >
+   >* Any base metric that is customizable shows a drop-down menu with the possible change options.
+   >* Not all base metrics can be changed. If no drop-down menu is available, the metric cannot be changed.
+   >* Changes are not always 1 to 1. For example, you can change from Conflicting meeting hours to Email hours, but because of variations in the available filters, the opposite change is not possible.
 
    If you select a new base metric with identical filter options, the metric will change but you'll see no additional changes. If you select a new base metric for which the filter options are a subset, additional available filters appear. If you edit the name of the metric and then change the base metric, the name that you edited is deleted.
 
