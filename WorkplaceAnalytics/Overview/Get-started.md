@@ -15,9 +15,9 @@ audience: Admin
 
 ---
 
-# Data analysis in Workplace Analytics
-
 [![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+
+# Data analysis in Workplace Analytics
 
 >[!Important]
 >On July 22 and 23, Workplace Analytics will be offline for scheduled maintenance. We apologize for any inconvenience this might cause.
