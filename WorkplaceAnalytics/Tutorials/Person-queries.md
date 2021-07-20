@@ -1,6 +1,4 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Person queries in Workplace Analytics 
 description: Describes how to use Person queries in Workplace Analytics to analyze the collaboration of individuals in your organization, from the point of view of each individual
@@ -79,7 +77,7 @@ To get more details on adding metric filters, see [Customize a metric](../tutori
 
 ## Standardize working hours
 
-In the results for person queries, the reporting for the working hours, after hours, and focus hours metrics is influenced by the working hours that individuals have set in Outlook. This can cause calculation erors if individuals have set unusually long working hours. To avoid this problem, analysts can standardize the working hours that a query uses to calculate these metrics.
+In the results for person queries, the reporting for the working hours, after hours, and focus hours metrics is influenced by the working hours that individuals have set in Outlook. This can cause calculation errors if individuals have set unusually long working hours. To avoid this problem, analysts can standardize the working hours that a query uses to calculate these metrics.
 
 <!--  Not sure about this part -- Find out from Richa
 In a person query, analysts see additional information to help them determine disparities between the working days and hours settings Outlook and recommendations for the individual's group.
@@ -91,11 +89,11 @@ In the **Dependencies** section of a person query, analysts can set the working 
 
 ![Working days and hours](../images/wpa/tutorials/pick-work-times.png)
 
-This lets analysts benchmark metrics calculations by using one standard set of values for working hours and days, with the goal of achieving apples-to-apples comparisons. The settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or in any user's settings in Outlook or elsewhere.   
+This lets analysts benchmark metrics calculations by using one standard set of values for working hours and days, with the goal of achieving apples-to-apples comparisons. The settings that analysts make are used only within the query and its calculations and do not override any data that is used in any other queries or in any user's settings in Outlook or elsewhere.
 
 ### Columns in query results
 
-The output of person queries automatically contains information that pertains to these standardized settings: 
+The output of person queries automatically contains information that pertains to these standardized settings:
 
 * It contains columns that show the working start time, working end time, and working days that were used in the query's calculations.
 * It indicates which metrics used working hours in the query's calculations. 
@@ -139,8 +137,8 @@ You can create a person query to investigate if long meetings are a significant 
 
 ### To create a custom person query for long meetings
 
-1. In Workplace Analytics, select **Analyze** > **Queries** > **Person**.
-2. Select and change **Enter query name here** to **Long Operations meetings** and enter a description.
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
+2. Select **Person**, and then change **Enter query name here** to **Long Operations meetings** and enter a description.
 3. For **Group by**, select **Week**.
 4. Select a date range. The query will analyze only the meetings that occurred during this date range.
 5. In the **Meeting exclusions** menu, select the applicable exclusion rule set.
@@ -167,7 +165,7 @@ You can create a person query to investigate if long meetings are a significant 
 12. Select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
 13. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 14. Select **Run** at the top right to run the query.
-15. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+15. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 **Person query results**
 The following are the columns included in the query results for the custom query created in the previous steps and an example of the type of data rows you might see:
@@ -184,8 +182,6 @@ The following are the columns included in the query results for the custom query
 
 ## Related topics
 
-[Metric descriptions](../Use/Metric-definitions.md)
-
-[View, download, and export query results](../Use/View-download-and-export-query-results.md)
-
-[Queries with CRM data](../tutorials/crm-queries.md)
+* [Metric descriptions](../Use/Metric-definitions.md)
+* [View, download, and export query results](../Use/View-download-and-export-query-results.md)
+* [Queries with CRM data](../tutorials/crm-queries.md)

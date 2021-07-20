@@ -35,11 +35,9 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 
 **Role** - Analyst
 
-1. In Workplace Analytics, select **Analyze > Queries**.
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
 
-2. Under **Start custom query**, select **Network: Person-to-person**:
-
-    ![ONA p2p query](../images/wpa/tutorials/ona-p2p-query.png)
+2. Select **Network: Person-to-person**.
 
 3. Select and change **Enter query name here** to a name, and then, optionally, enter a description for the query.
 
@@ -69,7 +67,7 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 
 10. Select **Run**. The query takes a few minutes to complete.
 
-11. On the **Queries \> Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
+11. In **Query designer** > **Results**, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
 >You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
