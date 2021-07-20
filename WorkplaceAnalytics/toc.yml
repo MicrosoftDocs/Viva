@@ -141,34 +141,11 @@
                   href: ~/Use/insight-faqs.md
         - name: Analyze
           items:        
-            - name: Queries
+            - name: Query designer
               items:
                 - name: Overview
-                  href: ~/tutorials/Query-basics.md
-                - name: Person queries
-                  href: ~/tutorials/Person-queries.md
-                  items:
-                    - name: Visualize person queries
-                      href: ~/tutorials/query-visualization.md
-                - name: Meeting queries
-                  href: ~/tutorials/Meeting-queries.md
-                - name: Group-to-group queries
-                  href: ~/tutorials/Group-to-group-queries.md
-                - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md
-                - name: Queries with CRM data
-                  href: ~/tutorials/crm-queries.md
-                - name: Peer comparison queries
-                  href: ~/tutorials/comparison-query.md
-                - name: ONA queries
-                  items: 
-                    - name: ONA person queries
-                      href: ~/tutorials/ona-person-query.md
-                    - name: ONA person-to-person queries
-                      href: ~/tutorials/ona-person-to-person-query.md
-                    - name: ONA metrics
-                      href: ~/tutorials/ona-metrics.md
-                - name: Power BI templates
+                  href: ~/tutorials/query-designer.md
+                - name: Templates
                   items:
                     - name: Introduction
                       href: ~/tutorials/power-bi-intro.md
@@ -190,14 +167,41 @@
                       href: ~/tutorials/power-bi-collab-track.md
                     - name: Tips, FAQs, and troubleshooting
                       href: ~/tutorials/power-bi-templates.md
-                - name: Customize a metric
-                  href: ~/tutorials/Customize-a-metric.md
-                - name: View, download, and export query results
-                  href: ~/Use/View-download-and-export-query-results.md
-                - name: Understand and interpret query output
-                  href: ~/Use/Csv-query-output-file.md
-                - name: Query auto-refresh option
-                  href: ~/tutorials/Query-auto-refresh.md
+                - name: Queries
+                  items:
+                    - name: Overview
+                      href: ~/tutorials/Query-basics.md
+                    - name: Person queries
+                      href: ~/tutorials/Person-queries.md
+                      items:
+                    - name: Visualize person queries
+                      href: ~/tutorials/query-visualization.md
+                    - name: Meeting queries
+                      href: ~/tutorials/Meeting-queries.md
+                    - name: Group-to-group queries
+                      href: ~/tutorials/Group-to-group-queries.md
+                    - name: Person-to-group queries
+                      href: ~/tutorials/Person-to-group-queries.md
+                    - name: Queries with CRM data
+                      href: ~/tutorials/crm-queries.md
+                    - name: Peer comparison queries
+                      href: ~/tutorials/comparison-query.md
+                    - name: ONA queries
+                      items: 
+                        - name: ONA person queries
+                          href: ~/tutorials/ona-person-query.md
+                        - name: ONA person-to-person queries
+                          href: ~/tutorials/ona-person-to-person-query.md
+                        - name: ONA metrics
+                          href: ~/tutorials/ona-metrics.md
+                    - name: Customize a metric
+                      href: ~/tutorials/Customize-a-metric.md
+                    - name: View, download, and export query results
+                      href: ~/Use/View-download-and-export-query-results.md
+                    - name: Understand and interpret query output
+                      href: ~/Use/Csv-query-output-file.md
+                    - name: Query auto-refresh option
+                      href: ~/tutorials/Query-auto-refresh.md
             - name: Business process analysis
               href: ~/tutorials/analyze-business-processes.md
             - name: Peer analysis
