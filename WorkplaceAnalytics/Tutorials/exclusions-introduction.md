@@ -15,7 +15,7 @@ audience: Admin
 
 As an analyst in Workplace Analytics, you use Analysis settings to set up meeting and attendee exclusion rules for data analysis purposes.
 
-You can use Workplace Analytics queries to measure work-related calendar collaboration. For this type of analysis, you want to make sure the queried data is applicable. That is, you want to include only participation in meetings that reflect actual work-related collaboration and exclude unrelated events from the data.
+You can use Workplace Analytics Query designer to measure work-related calendar collaboration. For this type of analysis, you want to make sure the queried data is applicable. That is, you want to include only participation in meetings that reflect actual work-related collaboration and exclude unrelated events from the data.
 
 You can exclude events with one of the following exclusion types:
 

@@ -197,7 +197,7 @@ Q1. **Scope of meeting exclusion rules** &ndash; You create meeting exclusion ru
 A1. Exclusion rules apply in two areas where analysts work most:
 
  * **Explore the stats** &ndash; Exclusion rules work for analysts as they inspect data in Explore the stats. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
- * **Queries** &ndash; Analysts can also apply exclusion rules when creating, refining, and running queries in Workplace Analytics. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
+ * **Query designer** &ndash; Analysts can also apply exclusion rules when creating, refining, and running queries in Workplace Analytics. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
 
 Q2. **Edit existing rules** &ndash; Can you change/edit the default meeting-exclusion rule, or rules that you or other analysts have created?
 
