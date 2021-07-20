@@ -24,11 +24,8 @@ You can use any of connectivity metrics in the ONA person query; in this example
 
 **Role** - Analyst
 
-1. In Workplace Analytics, select **Analyze** > **Queries**.
-2. In **Start custom query**, select **Network: Person**:
-
-    ![ONA person query](../images/wpa/tutorials/person-ona-query.png)
-
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
+2. Select **Network: Person**.
 3. Select and change **Enter query name here** to a name, and then enter a description for the query.
 4. For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
 
@@ -56,7 +53,7 @@ You can use any of connectivity metrics in the ONA person query; in this example
 
 10. Select **Run**. The query takes a few minutes to complete.
 
-11. On the **Queries \> Results** page, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
+11. In **Query designer** > **Results**, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]
 >You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
