@@ -146,19 +146,19 @@ In the followings examples, the employees in a European affiliate are unlicensed
 
 **Example 1:** Unlicensed employees are **not** included in organizational data
 
-In this case, the filter does not know to return meetings that employee #101 attended that the European employees also attended. 
+In this case, the filter _does not_ know to return meetings that employee #101 attended that the European employees also attended. 
 
 | PersonId | Date | Meetings | Meetings with Europe | Meetings with non-Europe |
 | ---- | ---- | ---- | ---- | ---- |
-| 101 | May 2020 | 30 | 0 | 30 |
+| 101 | May 2021 | 30 | 0 | 30 |
 
 **Example 2:** Unlicensed employees **are** included in organizational data
 
-In this case, the filter does know to include the Europeans' meeting information in the custom metric. This gives a more complete and accurate accounting of the meetings and their participants:
+In this case, the filter _does_ know to include the Europeans' meeting information in the custom metric. This gives a more complete and accurate accounting of the meetings and their participants:
 
 | PersonId | Date | Meetings | Meetings with Europe | Meetings with non-Europe |
 | ---- | ---- | ---- | ---- | ---- |
-| 101 | May 2020 | 30 | 18 | 12 |
+| 101 | May 2021 | 30 | 18 | 12 |
 
 ## Get an export of organizational data
 
