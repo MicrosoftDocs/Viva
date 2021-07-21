@@ -207,7 +207,7 @@ Learn how to use this template to evaluate collaboration culture and employee ex
 
 ## Power BI tips, FAQs, and troubleshooting
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
 
 ## Related topic
 

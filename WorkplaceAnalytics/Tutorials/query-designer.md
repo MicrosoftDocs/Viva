@@ -18,13 +18,6 @@ The **Query designer** in Workplace Analytics combines queries and the templates
 * [**Templates**](#templates) &ndash; The templates provide an easy way to bring a predefined set of query metrics into a template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
 * [**Query**](#queries) &ndash; You use a query to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
 
-## Open the Query designer
-
-* In Workplace Analytics, select **Analyze** > **Query designer**.
-
-   * You can then select **Create** to start an analysis with either a predefined [template](#templates) or with [query](#queries) to create specific type of query. 
-   * Select **Results** to see query output that's ready.
-
 ## Templates
 
 The Query designer has a number of [predefined templates](#available-templates) that help you analyze behavioral patterns relating to common business challenges, such as: how to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
@@ -58,54 +51,6 @@ Workplace Analytics currently includes the following predefined templates.
 * [**Microsoft Teams insights**](./power-bi-teams.md) &ndash; Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) &ndash; Combines behavioral data from Workplace Analytics and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) &ndash; Shows insights into how shifting to remote work impacted your sales organization.
-
-## Example setup
-
-As mentioned in the previous section, all the templates in the new Query designer include on-screen setup steps. For example, do the following to analyze business continuity data in Power BI.
-
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Templates**, select **Business continuity** to open the template details that include the setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 6**) .
-
-   ![Business continuity template](../Images/WpA/Tutorials/bc-setup-step2.png)
-
-3. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
-
-   ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
-
-4. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
-
-   >[!Important]
-   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
-
-5. Select **Run** to run the query, which might take a few minutes to complete.
-6. When prompted, select to return to Query designer to set up another query, and then repeat  **Steps 2-5** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
-7. When prompted, continue to results, and then after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
-
-   ![template download](../Images/WpA/Tutorials/pbi-template-download.png)
-
-8. Open the downloaded **Business continuity template**.
-9. If prompted to select a program, select **Power BI**.
-10. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
-
-    1. In **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
-    2. In Power BI, paste each copied link into its respective field.
-    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-    4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
-
-    ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
-
-11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
-
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
-
-13. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
-
-    >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
-
-14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
-15. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../Tutorials/Query-auto-refresh.md#stop-auto-refresh) for details.
 
 ## Queries
 
