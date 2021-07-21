@@ -1,6 +1,6 @@
 ---
 
-title: Power BI template tips, troubleshooting, and FAQ
+title: Power BI tips, troubleshooting, and FAQ
 description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Workplace Analytics Templates
 author: madehmer
 ms.author: v-mideh
@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Power BI template tips, FAQ, and troubleshooting
+# Power BI tips, FAQ, and troubleshooting
 
 The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Templates in Workplace Analytics.
 
@@ -115,7 +115,7 @@ The following error (or similar 500+ error) can occur for one of the following r
   3. Select **Delete**.
   4. Close Power BI and follow the set up instructions for the applicable dashboard.
 
-* **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the Power BI template. To fix it, follow these steps:
+* **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the template. To fix it, follow these steps:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
   2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
@@ -185,7 +185,7 @@ When setting up a report or refreshing an existing report for either the [Busine
 
 ![Blank values error](../Images/WpA/Tutorials/pbi-blank-error.png)
 
-To resolve this error, you must download the Power BI template for the applicable data in **Query designer** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
+To resolve this error, you must download the template for the applicable data in **Query designer** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
 
 ## Support
 

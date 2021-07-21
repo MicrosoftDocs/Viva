@@ -110,7 +110,7 @@ Additionally, the analyst could create a group query to identify the groups invo
 
 You can create queries in the following ways:
 
-* Edit and use a [predefined template](#predefined-templates).
+* Edit and use a [Query template](#query-templates).
 * Create your own custom query.
 * Open and edit a previously run query.
 
@@ -129,7 +129,7 @@ Workplace Analytics includes a number of predefined query templates to help you 
 
 ## Videos
 
-The videos in this section were used in a bootcamp for training analysts in how to run queries in Workplace Analytics.
+The following videos were used to train analysts on how to run queries in Workplace Analytics. Note these recordings occurred before the new Query designer was released.
 
 ### A week in the life  
 
@@ -145,6 +145,6 @@ The _Expensive meetings_ video demonstrates how to work with a [meeting query](m
 
 ## Related topics
 
-* [Power BI templates](../Tutorials/Power-bi-templates.md)
+* [Templates](../Tutorials/Power-bi-templates.md)
 * [Workplace Analytics glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)

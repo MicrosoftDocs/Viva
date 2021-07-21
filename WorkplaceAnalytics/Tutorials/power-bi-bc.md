@@ -13,7 +13,7 @@ audience: Admin
 
 # Business continuity
 
-The Business continuity dashboard uses a Power BI template that’s populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
+The Business continuity dashboard uses a Template that’s populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
@@ -28,7 +28,7 @@ The dashboard enables you to visualize and explore the following top-level busin
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Business continuity** and **Hourly collaboration** queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  
 
-After you successfully run these required queries, you'll see the Power BI template as an available download option for the Business continuity query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these required queries, you'll see the Template as an available download option for the Business continuity query. This template is required to create the dashboard in Power BI. After you download the Template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 When the Business continuity dashboard is populated with your data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
@@ -47,7 +47,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Template update
 
-The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the Power BI template from your most recently run Workplace Analytics Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates.
+The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the template from your most recently run Workplace Analytics Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates.
 
 If you started using the Business continuity dashboard in April or May 2020 and you selected to use six months of data for your queries, you need to repeat **Steps 1-7** in [Set up the dashboard](#set-up-the-dashboard) to run new queries that include data for the last one year, which will encompass activity before and during the shift to remote work in March. To continue to use your custom version of the Business Continuity dashboard and not update to the latest version of the template, do the following instead of **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard): 
 
@@ -97,9 +97,9 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 7. Repeat **Steps 2-6** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
 8. In **Query designer** > **Results**, after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
 
-   ![Power BI template download](../Images/WpA/Tutorials/pbi-template-download.png)
+   ![template download](../Images/WpA/Tutorials/pbi-template-download.png)
 
-9. Open the downloaded **Business continuity Power BI template**.
+9. Open the downloaded **Business continuity template**.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 

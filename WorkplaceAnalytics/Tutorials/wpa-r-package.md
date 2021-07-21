@@ -13,7 +13,7 @@ audience: Admin
 
 # The wpa R package 
 
-The [_wpa R package_](https://microsoft.github.io/wpa/) is an open-source repository of more than 100 functions that provide low-code pre-built analyses. Analysts can use this package to execute custom analyses that go beyond the insights that [Power BI templates](power-bi-intro.md) and Workplace Analytics [Query designer](query-designer.md) make available. These analyses can help leaders go deeper into the data that Workplace Analytics provides to solve more specific problems.
+The [_wpa R package_](https://microsoft.github.io/wpa/) is an open-source repository of more than 100 functions that provide low-code pre-built analyses. Analysts can use this package to execute custom analyses that go beyond the insights that [Templates](power-bi-intro.md) and Workplace Analytics [Query designer](query-designer.md) make available. These analyses can help leaders go deeper into the data that Workplace Analytics provides to solve more specific problems.
 
 >[!Note]
 >R is an open-source statistical programming language and one of the most popular toolkits for data analysis and data science. For users of the R language, a "package" is a unit of sharable code that's organized into libraries.  

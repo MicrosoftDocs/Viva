@@ -17,7 +17,7 @@ audience: Admin
 
 The Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R for Windows and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
-This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
+This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
 
 This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
@@ -93,7 +93,7 @@ The following is required before setting up the Zoom integration tool:
 
 7. **Run and download the Workplace Analytics data** - Your Workplace Analytics analyst needs to do the following:
 
-   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#predefined-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
+   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#query-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
 
       ![Required query data](../images/wpa/use/zoom-query-data.png)
       ![HR attributes required for the results](../images/wpa/use/zoom-hr-attributes.png)
@@ -134,7 +134,7 @@ Your Workplace Analytics analyst needs to do the following to import the combine
 
 1. In the **Analyst**/**output** folder, double-click **WOW_Zoom_Integration.pbit** to run the template.
 
-   ![Zoom Ways of working assessment Power BI template](../images/wpa/use/zoom-pbi-template.png)
+   ![Zoom Ways of working assessment template](../images/wpa/use/zoom-pbi-template.png)
 
 2. When prompted by Power BI, copy and paste the file path for the **Zoom Transformed Person Query** and **Standard meeting query** in the **Analyst/output** folder. To copy it, right-click the file, select **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
 3. Where prompted, copy and use the **SupervisorIndicator** column name from the **Zoom Transformed Person Query** file.

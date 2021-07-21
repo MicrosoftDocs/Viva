@@ -16,14 +16,13 @@ audience: Admin
   
 In Workplace Analytics, the **Analyze** > **Query designer** > **Results** > **All results** page lists all the results available for your organization. In addition to seeing basic information about each, you can view results, download query results as a .csv file, delete results, or get a link to access them as data in Power BI or Excel.
 
-![Query designer results tab](../images/wpa/use/query-results.png)
+![Query designer results](../images/wpa/use/qd-results.png)
 
 ## View query results
 
 In **Analyze** > **Query designer** > **Results**, you can switch between **All results** (includes results created by all analysts) and **My results** (only results that you created, as an analyst).
 
 1. In Workplace Analytics, go to **Analyze** > **Query designer** > **Results** > **All results**.
-
 2. Next to the result you want to view, select the **Ellipsis** (**...**) > **View query**.
 
 ## Supported languages for column headers
@@ -179,7 +178,7 @@ After you have finished creating visuals, you can publish your reports to Power 
 ## Related topics
 
 * [Connect to OData feeds in Power BI Desktop](/power-bi/desktop-connect-odata)
-* [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md)
+* [Templates in Workplace Analytics](../tutorials/power-bi-templates.md)
 * [User roles in Workplace Analytics](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
 * [Supported languages and guidelines](../overview/supported-languages.md)

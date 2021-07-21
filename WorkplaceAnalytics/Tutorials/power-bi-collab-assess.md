@@ -13,7 +13,7 @@ audience: Admin
 
 # Ways of working assessment
 
-The Ways of working assessment dashboard uses a Power BI template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
+The Ways of working assessment dashboard uses a template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
 
 The different pages in the report help you answer the following related questions:
 
@@ -42,7 +42,7 @@ Each report includes a **What to examine** and **Why it matters** interpretation
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working assessment** and **Standard meeting query** in Workplace Analytics.
 
-After you successfully run these queries, you can download the Power BI template from the **Ways of working assessment** query on the **Results** page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you can download the template from the **Ways of working assessment** query on the **Results** page. After you download the template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 >[!Note]
 >The template and dashboard name has been changed from Collaboration assessment to Ways of working assessment.
@@ -118,7 +118,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
     ![Download the Power BI Ways of working assessment template](../Images/WpA/Tutorials/pbi-download-assessment.png)
 
-16. Open the downloaded **Ways of working assessment Power BI template**.
+16. Open the downloaded **Ways of working assessment template**.
 17. If prompted to select a program, select **Power BI**.
 18. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
@@ -203,7 +203,7 @@ The dashboard also includes a **Glossary** page that describes all the report me
 
 ### Training opportunity
 
-Learn how to use this Power BI template to evaluate collaboration culture and employee experience: [Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard](/en-gb/learn/modules/workplace-analytics-ways-working/)
+Learn how to use this template to evaluate collaboration culture and employee experience: [Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard](/en-gb/learn/modules/workplace-analytics-ways-working/)
 
 ## Power BI tips, FAQs, and troubleshooting
 

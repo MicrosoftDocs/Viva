@@ -13,7 +13,7 @@ audience: Admin
 
 # Return to worksites
 
-The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
+The Return to worksites dashboard uses a template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
 
 As worksites begin opening at limited capacity to address safety concerns, employee seats become a limited resource. This dashboard helps you make the most of the limited seats by optimizing for on-site collaboration. The two allocation plans identify teams or a subset of teams who will benefit the most by returning to work because of their high collaboration patterns with others in the same location.
 
@@ -25,7 +25,7 @@ The dashboard includes the following reports to help you allocate worksite seati
 * **Plan 1:  Allocate seats to the teams with the most on-site collaboration** – This allocation plan identifies which teams should return to work based on the selected location and limited-seating capacity. This plan simplifies a leader’s decision by making it an all-or-nothing seat allocation for each team. However, if on-site leadership requires all teams have some worksite presence during a limited-seat capacity opening, then Plan 2 is a better option.
 * **Plan 2:  Allocate seats across teams in proportion to on-site collaboration** – This option provides each team with some presence in a limited-capacity worksite. It allocates each team a proportionate number of seats based on the team’s on-site collaboration patterns and the limited-seat capacity for the selected location. If leadership prefer the all-or-nothing approach, then Plan 1 is a better option.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined Return to worksites query in Workplace Analytics. After the query successfully runs, you can download the Power BI template for the Return to worksites query on the Results page. This template is required to create the dashboard in Power BI. After the template is downloaded, you need to connect the query data from Workplace Analytics to the dashboard in Power BI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined Return to worksites query in Workplace Analytics. After the query successfully runs, you can download the template for the Return to worksites query on the Results page. This template is required to create the dashboard in Power BI. After the template is downloaded, you need to connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 After the dashboard populates with data, you can evaluate which of the two seat-allocation plans will work for your organization’s teams.
 

@@ -1,7 +1,7 @@
 ---
 
 title: Query designer in Workplace Analytics
-description: The Query designer in Workplace Analytics offers predefined Power BI templates and other custom query options for more in-depth data analysis
+description: The Query designer in Workplace Analytics offers predefined Templates and other custom query options for more in-depth data analysis
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -13,9 +13,9 @@ audience: Admin
 
 # Query designer
 
-The **Query designer** in Workplace Analytics combines queries and the Power BI templates together into a single view.
+The **Query designer** in Workplace Analytics combines queries and the templates together into a single view.
 
-* [**Templates**](#templates) &ndash; The templates provide an easy way to bring a predefined set of query metrics into a Power BI template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
+* [**Templates**](#templates) &ndash; The templates provide an easy way to bring a predefined set of query metrics into a template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
 * [**Query**](#queries) &ndash; You use a query to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
 
 ## Open the Query designer
@@ -29,9 +29,9 @@ The **Query designer** in Workplace Analytics combines queries and the Power BI 
 
 The Query designer has a number of [predefined templates](#available-templates) that help you analyze behavioral patterns relating to common business challenges, such as: how to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
 
-![Power BI templates](../Images/WpA/Tutorials/query-designer.png)
+![Templates](../Images/WpA/Tutorials/query-designer.png)
 
-The templates are designed to use query output. After you find the right template for your analysis, you can run a more specific query and plug it into the Power BI template to get a more complete Power BI report.
+The templates are designed to use query output. After you find the right template for your analysis, you can run a more specific query and plug it into the template to get a more complete Power BI report.
 
 To find the right template, read the template descriptions or select one to view additional information about it.
 
@@ -40,7 +40,7 @@ If you select one of the templates, such as **Business continuity**, you'll see 
 ![Template details](../images/wpa/tutorials/qd-template-details.png)
 
 >[!Note]
->The **Setup steps** are condensed and simplified. For more complete instructions, see the documentation. The following section, [Power BI templates](#power-bi-templates), provides links to the documentation page for each template.
+>The **Setup steps** are condensed and simplified. For more complete instructions, see documentation for the specific template.
 
 You can also filter the list of templates to help identify which ones answer questions about business outcomes that you might have. For example, you’ll see the following when you select **Filters** > **Develop effective managers**.
 
@@ -48,7 +48,7 @@ You can also filter the list of templates to help identify which ones answer que
 
 ### Available templates
 
-Workplace Analytics currently includes the following templates.
+Workplace Analytics currently includes the following predefined templates.
 
 * [**Ways of working assessment**](./power-bi-collab-assess.md) &ndash; Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
 * [**Ways of working tracker**](./power-bi-collab-track.md) &ndash; Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
@@ -81,9 +81,9 @@ As mentioned in the previous section, all the templates in the new Query designe
 6. When prompted, select to return to Query designer to set up another query, and then repeat  **Steps 2-5** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
 7. When prompted, continue to results, and then after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
 
-   ![Power BI template download](../Images/WpA/Tutorials/pbi-template-download.png)
+   ![template download](../Images/WpA/Tutorials/pbi-template-download.png)
 
-8. Open the downloaded **Business continuity Power BI template**.
+8. Open the downloaded **Business continuity template**.
 9. If prompted to select a program, select **Power BI**.
 10. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
@@ -130,7 +130,7 @@ You can download the query data results as .csv files, or depending on the type 
 
 ### Query templates
 
-In addition to the Power BI templates, Workplace Analytics also includes the following query templates.
+In addition to the templates, Workplace Analytics also includes the following query templates.
 
 * **Domain collaboration** - Analyzes collaboration patterns with external domains.
 * **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
@@ -156,7 +156,7 @@ However, historical query results that have already been run remain available, e
 
 ## Related topics
 
-* [Power BI templates](../Tutorials/Power-bi-templates.md)
+* [Templates](../Tutorials/Power-bi-templates.md)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)
 * [Workplace Analytics glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)

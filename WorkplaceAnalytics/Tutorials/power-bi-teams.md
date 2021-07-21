@@ -82,7 +82,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
    ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/teams-template.png)
 
-9. Open the downloaded **Microsoft Teams insights Power BI template**.
+9. Open the downloaded **Microsoft Teams insights template**.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI:
 

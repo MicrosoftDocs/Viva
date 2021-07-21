@@ -77,7 +77,7 @@ The Relationship Intelligence report includes the following.
 1. [Prerequisites](#prerequisites) - Confirm or complete all the prerequisites.
 2. [Add an account mapping](deploy-configure.md#account-mapping) - Follow the steps to create a new account mapping file for Workplace Analytics Azure Templates.
 3. [Add new analysis](#add-new-analysis) - Follow the steps to create the dataset in Workplace Analytics Azure Templates that the Power BI report uses.
-4. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the Power BI template and load the data in Power BI. You can then use Power BI to visualize the data and drill in and focus on account details.
+4. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the template and load the data in Power BI. You can then use Power BI to visualize the data and drill in and focus on account details.
 
 ## Prerequisites
 

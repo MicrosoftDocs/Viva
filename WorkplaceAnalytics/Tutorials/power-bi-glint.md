@@ -13,7 +13,7 @@ audience: Admin
 
 # Behavior patterns for Glint
 
-The Behavior patterns for Glint dashboard uses a Power BI template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
+The Behavior patterns for Glint dashboard uses a template to combine behavioral data from Workplace Analytics and sentiment data from Glint. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
 It uses survey scores and working patterns to identify outlying teams who might need attention. Even for leaders who are already aware of team issues, the dashboard creates high-level visibility enabling them to use research-based and data-driven actions to change or improve workplace behaviors.
 
@@ -52,7 +52,7 @@ The following video describes how to set up the dashboard, which might not be ex
 The high-level steps required to populate the dashboard in Power BI:
 
 1. [Get Glint data](#get-the-glint-data) - In Glint, select the corresponding survey questions and the population to analyze in Power BI, including the HR attributes you want to analyze, such as team and position. Then export a Heat Map report file with this data.
-2. [Get Workplace Analytics data](#get-the-workplace-analytics-data) - Set up **Behavior patterns for Glint** in Workplace Analytics. After the results successfully run, download the Power BI template for the Glint results in **Create** > **Results**. This template is required to create the dashboard in Power BI.
+2. [Get Workplace Analytics data](#get-the-workplace-analytics-data) - Set up **Behavior patterns for Glint** in Workplace Analytics. After the results successfully run, download the template for the Glint results in **Create** > **Results**. This template is required to create the dashboard in Power BI.
 3. [Load both into Power BI](#load-the-data-in-power-bi) - Connect to and load both the query data from Workplace Analytics and the Heat map from Glint into Power BI.
 
 ## Prerequisites

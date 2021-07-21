@@ -12,7 +12,7 @@ audience: Admin
 
 # Sales business continuity
 
-You can use the Sales business continuity dashboard uses a Power BI template that’s populated by Workplace Analytics data to gain insights into how your Sales organization and your sellers are being impacted by the shift to remote work.
+You can use the Sales business continuity dashboard uses a Template that’s populated by Workplace Analytics data to gain insights into how your Sales organization and your sellers are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
@@ -25,7 +25,7 @@ The dashboard enables you to visualize and explore the following top-level busin
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined “Sales business continuity” and “Domain collaboration” queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.
 
-After you successfully run these queries, you'll see the Power BI template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you'll see the Template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 When the Sales business continuity dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 

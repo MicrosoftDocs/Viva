@@ -72,7 +72,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
     ![Download the Power BI Ways of working tracker template](../Images/WpA/Tutorials/pbi-download-tracker.png)
 
-8. Open the downloaded **Ways of working tracker Power BI template**.
+8. Open the downloaded **Ways of working tracker template**.
 9. If prompted to select a program, select **Power BI**.
 10. When prompted by Power BI:
 
