@@ -194,7 +194,7 @@
                           href: ~/tutorials/ona-person-to-person-query.md
                         - name: Network query metrics
                           href: ~/tutorials/ona-metrics.md
-                    - name: Customize a metric
+                    - name: Customize query metrics
                       href: ~/tutorials/Customize-a-metric.md
                     - name: View, download, and export query results
                       href: ~/Use/View-download-and-export-query-results.md
