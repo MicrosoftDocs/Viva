@@ -22,7 +22,7 @@ audience: Admin
 
 The Microsoft Workplace Analytics web app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
-Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with custom queries and query templates.
+Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with the Query designer.
 
 ## Requirements for analysts
 
@@ -39,7 +39,7 @@ Workplace Analytics provides advanced analysis tools for deep diving into the da
 * [**Workplace Analytics Insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to the app, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get the Workplace Analytics app set up.
 * **Analyze** includes the following data-analysis tools within the app:
 
-  * [**Query designer**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. The different query types of person, meeting, group-to-group, and person-to-group give you flexibility to look at data from multiple perspectives and generate powerful insights.
+  * [**Query designer**](../tutorials/query-basics.md) help you investigate organizational data to answer specific questions. A number of different templates and options, such as person, meeting, group-to-group, and person-to-group queries give you flexibility to look at data from multiple perspectives and generate powerful insights.
   * [**Business process analysis**](../tutorials/analyze-business-processes.md) helps you analyze and improve your well-defined and undefined business processes. For example, by measuring their cost in time and money.
   * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 

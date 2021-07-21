@@ -16,7 +16,7 @@ audience: Admin
 
 # Privacy settings / Exclusions
 
-As the Workplace Analytics Admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Queries](../Tutorials/Query-basics.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
+As the Workplace Analytics Admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](../Tutorials/query-designer.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
 
 You can use privacy settings to:
 
@@ -154,5 +154,4 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 ## Related topics
 
 * [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
-
 * [System defaults](system-defaults.md)

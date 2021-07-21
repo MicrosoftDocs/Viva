@@ -34,7 +34,7 @@ Customers can file a request to initiate Workplace Analytics with less than 13 m
 
 ## Data retention after a license is removed
 
-If the Workplace Analytics license is removed from a user, Workplace Analytics retains that user's collaboration data that was collected during the period the license was assigned. Admins can continue to query the collaboration activity that this user participated in before they left. The person's collaboration data will be deleted according to the overall retention policy that is described in [Data retention for active tenants](#data-retention-for-active-tenants). 
+If the Workplace Analytics license is removed from a user, Workplace Analytics retains that user's collaboration data that was collected during the period the license was assigned. Admins can continue to query the collaboration activity that this user participated in before they left. The person's collaboration data will be deleted according to the overall retention policy that is described in [Data retention for active tenants](#data-retention-for-active-tenants).
 
 To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset. (See [Get support](../overview/getting-support.md).)
 
@@ -42,20 +42,19 @@ For information about data deletion requests as handled under the GDPR, see [Sup
 
 ## Data retention and access after all Workplace Analytics subscriptions expire
 
-If all of your Workplace Analytics subscriptions expire, you have until the end of your grace period to download data in the form of query results; see [To download query results](#to-download-query-results). The duration of the grace period varies between countries and plans; typically it is either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
+If all of your Workplace Analytics subscriptions expire, you have until the end of your grace period to download data in the form of results; see [To download query results](#to-download-query-results). The duration of the grace period varies between countries and plans; typically it is either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
 
-After this period has passed, you will no longer have access to the Workplace Analytics site. 
+After this period has passed, you will no longer have access to the Workplace Analytics site.
 
 #### To download query results
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
-2. Select **Analyze** > **Query designer** > **Results** to see previously run queries.
-3. In the row of a particular query, select **Download** to download query results in a .csv file, which is archived as a .zip file.
+2. Select **Analyze** > **Query designer** > **Results**.
+3. In the row for the query results, select **Download** to download the results as a .csv file, which is archived as a .zip file.
 
 ## Related topic
 
 [Get support](../overview/getting-support.md)
-
 
 <!-- 
 8/23 REMOVING ENTIRE OLD DATA RETENTION POLICY SECTION FOR NOW. TILL NEW TEMPORARY WORDING IS READY.
