@@ -41,9 +41,9 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 **To create a group-to-group query**
 
-1. In **Analyze** > **Query designer**, select **Get started** for **Queries**, and then select **Group-to-group**.
-2. Select and change **Enter query name here** to a name, and then enter a description for the query.
-3. For **Group by**, select a time-grouping option: day, week, or month.
+1. In **Analyze** > **Query designer**, select **Get started** under **Query**, and then select **Group-to-group**.
+2. Name the query and then enter a description for it.
+3. For **Group by**, select a time-grouping option of day, week, or month.
 4. Select a date range. The query will analyze only those group-to-group interactions that took place during this date range.
 5. Select a meeting exclusions rule. The query will ignore meetings that are filtered out by this rule.
 6. In the **Select metrics** section, select one or more metrics that measure interactions between the time investors and collaborators, such as Collaboration hours, Email hours, or Meeting hours.

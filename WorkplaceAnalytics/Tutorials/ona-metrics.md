@@ -37,8 +37,7 @@ The following sections describe the connectivity metrics in greater detail. They
 
 ## Influence metrics: influence and influence rank
 
-It's frequently necessary to implement changes within organizations, whether this means introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change &ndash; perhaps starting with mass emails &ndash; it's not always the
-most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.
+It's frequently necessary to implement changes within organizations, whether this means introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change &ndash; perhaps starting with mass emails &ndash; it's not always the most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.
 
 Instead, a more successful strategy uses change agents, who are influential, well-connected people in different levels of your company, not just at the top. Beyond an organization's formal hierarchy, informal networks of people can exert influence within those networks and between them. The most influential people have large personal networks with above-average numbers of relationships with their colleagues. This query lets you visualize these relationships through various metrics that reflect influence directly (with *influence* and *influence rank*) and indirectly (with various measures of ties to people outside your team.)
 
@@ -114,8 +113,9 @@ Now, since they work on separate products, they tend to work with different peop
 
 * [Diverse ties](../use/metric-definitions.md#diverse-ties-define) &ndash; Diverse ties reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection. This metric also takes into account network differences that exist between the two people where both people are investing time. Diverse ties are both directional and asymmetrical. For example, if A has a diverse tie with B if A either collaborates a lot with B or a lot with a network that they have in common with B.
 * [Strong ties](../use/metric-definitions.md#strong-ties-define) &ndash; If two people have many network connections in common, they are considered to have a strong tie. Strong ties typically indicate shared membership in a workgroup or team. Like diverse ties, strong ties are directional. The strength of a person's tie depends on the contribution that the person makes in the relationship with the other person. This query also offers the following metrics that derive from the strong-tie metric:
-   * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
-   * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
+
+  * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
+  * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
 
 ## FAQ
 

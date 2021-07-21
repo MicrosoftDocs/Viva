@@ -17,8 +17,8 @@ Person-to-group queries in Workplace Analytics help you understand how an indivi
 
 ![Time investors allocate time to groups](../Images/WpA/tutorials/p2g-query.png)
 
-> [!Note]
-> Because individuals are assigned a randomly generated PersonID to maintain de-identification, there is no way to identify an individual in the output of a query.
+>[!Note]
+>Because individuals are assigned a randomly generated PersonID to maintain de-identification, there is no way to identify an individual in the output of a query.
 
 ## Overview of time allocation
 
@@ -35,20 +35,17 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 **To create a person-to-group query**
 
-1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
-2. Select **Person-to-group**, and then select and change **Enter query name here** to a name, and then enter a description for the query.
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
+2. Select **Person-to-group**, and then select **Enter query name here** and name the query and enter a description for it.
 3. For **Group by**, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.
 5. Select a set of meeting exclusions to ignore (filter out) specific meetings for this query.
 6. In the **Select metrics** section, select one or more metrics that measure interactions between the time investors and collaborators, including:
 
-    * **Collaboration hours** gives you the total amount of time that an individual spent with collaborating groups. This includes both time spent working in emails and time spent in meetings.
-
-    * **Email count** and **Email hours** give you, respectively, the number of emails that were sent between the time investor and groups, and the amount of time the time investor spent sending and reading emails.
-
-    * **Meeting count** and **Meeting hours** give you, respectively, the number of meetings in which the time investor and the collaborators participated, and the number of hours the time investor spent in meetings.
-
-    * **Network size** The number of people in the collaborator group who had at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last four weeks with the time investor. 
+   * **Collaboration hours** gives you the total amount of time that an individual spent with collaborating groups. This includes both time spent working in emails and time spent in meetings.
+   * **Email count** and **Email hours** give you, respectively, the number of emails that were sent between the time investor and groups, and the amount of time the time investor spent sending and reading emails.
+   * **Meeting count** and **Meeting hours** give you, respectively, the number of meetings in which the time investor and the collaborators participated, and the number of hours the time investor spent in meetings.
+   * **Network size** The number of people in the collaborator group who had at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last four weeks with the time investor.
 
    For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics).
 
@@ -70,7 +67,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 11. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 12. Select **Run** at the top right to run the query.
-13. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+13. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 

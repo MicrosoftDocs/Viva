@@ -35,19 +35,15 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 
 **Role** - Analyst
 
-1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
-
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Network: Person-to-person**.
-
 3. Select and change **Enter query name here** to a name, and then, optionally, enter a description for the query.
-
 4. For **Group by**, select a time-grouping option: **Month** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
 
     >[!Note]
     >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
 
 5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
-
 6. Under **Select network boundary conditions**, define a filter to select the measured employees that you want to analyze in this query. For example, you can use the filters of this step to narrow the scope to a division or a group. If you skip this (optional) step, all measured employees will remain eligible for analysis.
 
     **More information about this option:** If you run this query on the entire company, the results will be based on all collaborations across the company. If this is your goal, you can retain the default search range, which is unlimited. But your goal might be to understand connectivity for a specific group of people, based on collaboration happening exclusively within that group. In this case, limit the query to search only within a particular division or group.
@@ -60,13 +56,9 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
     Analysts who study this communication can reach different inferences based on formal or informal communication. Depending on the types of change they want to make in the company, they might want to focus the analysis on one group of employees or the other. -->
 
 7. Under **Select metrics**, select **Strong and Diverse tie scores**.
-
 8. Under **Select filters**, select the groups of people for whom you want to see results. This section offers two optional filters, one for selecting "tie-origin" employees, and the other for selecting "tie-destination" employees. <!-- For more information, see [Select filters](#select-filters). REMOVED THAT SECTION 19 MAY 2021 -->
-
 9. Under **Organizational data**, select the attributes that you want to appear in the results along with the metrics data. You can use these attributes to further summarize the results to create analyses that compare and contrast the collaboration of different groups in the organization.
-
 10. Select **Run**. The query takes a few minutes to complete.
-
 11. In **Query designer** > **Results**, the query status initially shows as **Submitted**. After the query status changes to **Succeeded**, you can view it or download it (as a .csv file).
 
 >[!Note]

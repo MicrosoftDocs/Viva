@@ -27,13 +27,10 @@ Although peer comparison queries focus on people, they produce different informa
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
 2. Select **Analyze** > **Query designer**.
-3. In **Query designer**, under **Queries**, select **Get started** > **Peer comparison** to open the **Peer Comparison query** page:
-
-    ![Peer comparison query page](../images/wpa/tutorials/comp-query-page-3.png)
-
+3. In **Query designer**, select **Get started** under **Query**, and then select **Peer comparison**.
 4. Name the query and, optionally, add a description for it.
 5. For **Group by**, select an amount of time&mdash;day, week, or month&mdash;over which to aggregate and report on data.
-6. For **Time period**, specify the time period whose data you want to query. 
+6. For **Time period**, specify the time period whose data you want to query.
 7. (Optional) Select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
 8. If at least one of your metrics has to do with meetings, consider using Meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company’s meeting conventions. See [Meeting exclusions](meeting-exclusion-rules.md) to learn more.
 9. In the **Select employees** section, add filters to select the employees who are the subject of your query. For more information, see [Select employees](#select-employees).

@@ -24,9 +24,9 @@ You can use any of connectivity metrics in the ONA person query; in this example
 
 **Role** - Analyst
 
-1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Network: Person**.
-3. Select and change **Enter query name here** to a name, and then enter a description for the query.
+3. Select **Enter query name here** and name this query, and then enter a description for it.
 4. For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
 
    >[!Note]

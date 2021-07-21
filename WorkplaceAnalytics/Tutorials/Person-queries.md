@@ -137,7 +137,7 @@ You can create a person query to investigate if long meetings are a significant 
 
 ### To create a custom person query for long meetings
 
-1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
+1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Person**, and then change **Enter query name here** to **Long Operations meetings** and enter a description.
 3. For **Group by**, select **Week**.
 4. Select a date range. The query will analyze only the meetings that occurred during this date range.
