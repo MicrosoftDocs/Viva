@@ -160,6 +160,6 @@ After the Relationship Intelligence Report is set up and populated with data, us
 
     ![Power BI error if no database and server data are linked](./images/ri-pbi-error.png)
 
-For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
 For more details about how to use Power BI tools, see [Interact with visuals in reports, dashboards, and apps](/power-bi/consumer/end-user-visualizations).

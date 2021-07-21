@@ -127,5 +127,5 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ## Related topics
 
-* [Power BI templates](power-bi-intro.md)
+* [Templates](power-bi-intro.md)
 * [Teamwork plans](teamwork-solution.md)

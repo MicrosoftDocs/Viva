@@ -123,7 +123,7 @@ After confirming the settings, check the number of measured employees to confirm
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
 ### Training opportunity
 

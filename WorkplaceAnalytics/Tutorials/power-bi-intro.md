@@ -1,6 +1,6 @@
 ---
-title: Workplace Analytics Power BI templates introduction
-description: Learn about the Power BI templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
+title: Workplace Analytics Templates introduction
+description: Learn about the Templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
 ms.topic: article
 localization_priority: normal
 ms.prod: wpa
@@ -10,11 +10,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Power BI templates in Workplace Analytics
+# Templates in Workplace Analytics
 
-Workplace Analytics provides Power BI templates that analysts can use to visually analyze workplace patterns and trends. A Power BI template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
+Workplace Analytics provides Templates that analysts can use to visually analyze workplace patterns and trends. A Power BI template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
 
-Workplace Analytics Queries has a number of predefined query templates available. In the preselected filters and metrics section in Queries, you can identify the Power BI templates by the Power BI logo in the upper-right corner of the template:
+Workplace Analytics Queries has a number of predefined query templates available. In the preselected filters and metrics section in Queries, you can identify the Templates by the Power BI logo in the upper-right corner of the template:
 
    ![Power BI logo in query cards](../Images/WpA/tutorials/pbi-queries.png)
 

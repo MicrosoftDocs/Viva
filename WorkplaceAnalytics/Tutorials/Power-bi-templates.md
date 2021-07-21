@@ -1,7 +1,7 @@
 ---
 
 title: Power BI template tips, troubleshooting, and FAQ
-description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Workplace Analytics Power BI templates
+description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Workplace Analytics Templates
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -13,7 +13,7 @@ audience: Admin
 
 # Power BI template tips, FAQ, and troubleshooting
 
-The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Power BI templates in Workplace Analytics.
+The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Templates in Workplace Analytics.
 
 ## Power BI tips
 
@@ -195,5 +195,5 @@ To resolve this error, you must download the Power BI template for the applicabl
 
 ## Related topics
 
-* [Power BI templates introduction](power-bi-intro.md)
+* [Templates introduction](power-bi-intro.md)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

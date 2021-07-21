@@ -166,7 +166,7 @@ After the Behavior patterns dashboard is set up and populated with both the Glin
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
 <!-- WAS MISSING FROM DRAFT WORD DOC. REMOVED INTENTIONALLY?
 
