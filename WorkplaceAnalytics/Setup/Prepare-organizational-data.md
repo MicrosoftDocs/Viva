@@ -140,23 +140,26 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
 
 ## Also include unlicensed employees
 
-In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees. Doing so lets the filtering that you use in queries also include those unlicensed employees in query results.
+In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees. Doing so helps correctly include or exclude those employees from any custom metrics that you build in your queries.
 
-In the followings examples, the employees in a European affiliate are unlicensed.
+In the followings examples, the employees in a European affiliate are unlicensed. You'll want to create two custom metrics:
 
-**Example 1:** Unlicensed employees are **not** included in organizational data
+* Meetings that include at least one participant from Europe
+* Meetings that include no participants from Europe
 
-In this case, the filter _does not_ know to return meetings that employee #101 attended that the European employees also attended. 
+**Scenario 1:** Unlicensed employees are **not** included in organizational data
 
-| PersonId | Date | Meetings | Meetings with Europe | Meetings with non-Europe |
+In this case, the query doesn’t have information that describes the region for unlicensed European employees. Even if employee #101 attended meetings with European colleagues, the filter does not know to include those meetings in the "Meetings with Europe" metric. As a result, the two custom metrics are not accurate.
+
+| PersonId | Date | Meetings | Meetings with Europe | Meetings without Europe |
 | ---- | ---- | ---- | ---- | ---- |
 | 101 | May 2021 | 30 | 0 | 30 |
 
-**Example 2:** Unlicensed employees **are** included in organizational data
+**Scenario 2:** Unlicensed employees **are** included in organizational data
 
-In this case, the filter _does_ know to include the Europeans' meeting information in the custom metric. This gives a more complete and accurate accounting of the meetings and their participants:
+In this case, the filter can recognize European colleagues from the organizational data and therefore it _does_ know to include meetings in which they participated in the "Meetings with Europe" metric. This gives a more accurate result for the two custom metrics:
 
-| PersonId | Date | Meetings | Meetings with Europe | Meetings with non-Europe |
+| PersonId | Date | Meetings | Meetings with Europe | Meetings without Europe |
 | ---- | ---- | ---- | ---- | ---- |
 | 101 | May 2021 | 30 | 18 | 12 |
 
