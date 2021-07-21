@@ -30,7 +30,7 @@ In addition to these capabilities, you can also export results to a data visuali
 **Role** - Analyst
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
-2. In **Analyze** > **Query designer**, and then select **Get started** under **Queries**.
+2. In **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 3. Select **Person query**, and then define and run it. For details, see [Person queries](person-queries.md).
 4. After the results are ready, go to **Query designer** > **Results**.
 5. For the results, select **Visualization**.

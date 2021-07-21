@@ -20,7 +20,7 @@ Microsoft Workplace Analytics is a cloud-based service that provides business le
 * [**Set up and maintenance**](../WorkplaceAnalytics/setup/set-up-workplace-analytics.md) - Learn how to set up and maintain Workplace Analytics, assign licenses, assign roles, prepare and upload organizational data, and change privacy and other settings.
 * [**Microsoft Viva Insights**](../WorkplaceAnalytics/use/viva-insights-intro.md) in Microsoft Teams - Enables leaders to see organizational insights and managers to see team insights within the Teams app. Individuals can see their own personal and private insights within Teams as well. For details, see [Personal Viva Insights](/insights/teams-app).
 * [**Insights**](../WorkplaceAnalytics/use/insights.md) - Get analysis scope information and research-based behavioral insights into how your organization currently gets work done and how to maintain or change work patterns over time.
-* [**Data analysis**](../WorkplaceAnalytics/Overview/get-started.md) - Learn how to analyze data with Workplace Analytics Explore the stats and Peer analysis, and how to create custom queries and Power BI reports for more detailed analysis.
+* [**Data analysis**](../WorkplaceAnalytics/Overview/get-started.md) - Learn how to analyze data with Workplace Analytics Explore the stats and Peer analysis, and how to use Query designer for more detailed analysis.
 * [**Plans**](../WorkplaceAnalytics/tutorials/solutionsv2-intro.md) - Learn how to create, manage, and track targeted change management plans to help reduce meeting load and increase focus time.
 * [**FAQ**](../WorkplaceAnalytics/use/faq.md) - Review answer to the most frequently asked questions about Workplace Analytics roles, privacy, setup, and analysis tools.
 

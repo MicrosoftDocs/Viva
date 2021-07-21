@@ -1,7 +1,7 @@
 ---
 
-title: Organizational network analysis (ONA) person queries 
-description: Describes how to use Organizational network analysis (ONA) person queries in Workplace Analytics to determine the "Influence" metric of individuals in your organization
+title: Network person queries 
+description: Describes how to use Network person queries in Workplace Analytics to determine the "Influence" metric of individuals in your organization
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -12,15 +12,15 @@ ms.prod: wpa
 
 ---
 
-# Organizational network analysis person queries
+# Network person queries
 
-ONA person queries help you measure connectivity within an organization. In addition to the two influence metrics ([Influence](../use/metric-definitions.md#influence-define) and [Influence rank](../use/metric-definitions.md#influence-rank-define)), ONA person queries also offer the a selection of tie metrics, starting with [Diverse ties](../use/metric-definitions.md#diverse-ties-define) and [Strong ties](../use/metric-definitions.md#strong-ties-define).  
+Network person queries help you measure connectivity within an organization. In addition to the two influence metrics ([Influence](../use/metric-definitions.md#influence-define) and [Influence rank](../use/metric-definitions.md#influence-rank-define)), Network person queries also offer the a selection of tie metrics, starting with [Diverse ties](../use/metric-definitions.md#diverse-ties-define) and [Strong ties](../use/metric-definitions.md#strong-ties-define).  
 
-For basic information about these connectivity metrics, see their definitions in [Workplace Analytics metrics / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics). For deeper descriptions of the connectivity metrics, see [ONA metrics](ona-metrics.md).
+For basic information about these connectivity metrics, see their definitions in [Workplace Analytics Network metrics](../use/metric-definitions.md#network-metrics). For deeper descriptions of the connectivity metrics, see [Network metrics](ona-metrics.md).
 
 ## Run a query to determine ties and influence
 
-You can use any of connectivity metrics in the ONA person query; in this example procedure, you will query for Influence or Influence rank.
+You can use any of connectivity metrics in the Network person query; in this example procedure, you will query for Influence or Influence rank.
 
 **Role** - Analyst
 
@@ -30,7 +30,7 @@ You can use any of connectivity metrics in the ONA person query; in this example
 4. For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
 
    >[!Note]
-   >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
+   >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an Network query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
 
 5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
 
@@ -58,19 +58,19 @@ You can use any of connectivity metrics in the ONA person query; in this example
 >[!Note]
 >You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
-## ONA query output
+## Network query output
 
-The following columns are included in the query results for ONA queries:  
+The following columns are included in the query results for Network queries:  
 
 * **Person ID** - De-identified ID number for the person represented in that data row.
 * **Date** - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
 * **Person attributes** - Attributes about the person supplied through the latest organizational (HR) data upload.
-* **Metrics** - Any metrics that you include in the query. For more information, see [Organizational network analysis (ONA) metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
+* **Metrics** - Any metrics that you include in the query. For more information, see [Network metrics](../use/metric-definitions.md#network-metrics).
 
 ## Related topics
 
-* [ONA metrics](ona-metrics.md)
-* [ONA person-to-person queries](ona-person-to-person-query.md)
-* [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics)
+* [Network metrics](ona-metrics.md)
+* [Network person-to-person queries](ona-person-to-person-query.md)
+* [Network metric definitions](../use/metric-definitions.md#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)
 * [Best practices for influencers](../tutorials/gm-influencer.md)

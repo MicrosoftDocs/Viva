@@ -1,7 +1,7 @@
 ---
 
-title: Organizational network analysis (ONA) person-to-person queries 
-description: Describes how to use Organizational network analysis (ONA) person-to-person queries in Workplace Analytics to determine the metrics that measure ties between individuals in your organization
+title: Network person-to-person queries 
+description: Describes how to use Network person-to-person queries in Workplace Analytics to determine the metrics that measure ties between individuals in your organization
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,7 +11,7 @@ audience: Admin
 ms.prod: wpa
 ---
 
-# Organizational network analysis person-to-person queries
+# Network person-to-person queries
 
 Successful employees and teams use their networks to get work done effectively. Measuring network attributes tells you what network resources employees can access. Network size is just one attribute of a collaborative network. Network connections have other qualities that tell us more about the type of working relationship and what benefit it might present to the employee and team.
 
@@ -27,11 +27,11 @@ If the two people have **many** network connections in common, it is considered 
 
 If the two people have **few** network connections in common, it is considered a **diverse tie**. Although the two people work closely with each other, they do not typically operate in the same circles. Groups of employees with many diverse ties often represent teams with high innovative potential, as they are exposed to lots of information outside of their shared context.
 
-The article will walk you through a query that will return strong and diverse tie scores. (See the following section, [Run a query to determine strong ties and diverse ties](#run-a-query-to-determine-strong-ties-and-diverse-ties).)
+The following walks you through a query that will return strong and diverse tie scores. (See the following section, [Run a query to determine strong ties and diverse ties](#run-a-query-to-determine-strong-ties-and-diverse-ties).)
 
 ## Run a query to determine strong ties and diverse ties
 
-You can use the tie metrics in ONA person-to-person queries; in this example procedure, you will query for strong and diverse tie scores.
+You can use the tie metrics in Network person-to-person queries; in this example procedure, you will query for strong and diverse tie scores.
 
 **Role** - Analyst
 
@@ -41,7 +41,7 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 4. For **Group by**, select a time-grouping option: **Month** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
 
     >[!Note]
-    >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an ONA query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
+    >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with a Network query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
 
 5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
 6. Under **Select network boundary conditions**, define a filter to select the measured employees that you want to analyze in this query. For example, you can use the filters of this step to narrow the scope to a division or a group. If you skip this (optional) step, all measured employees will remain eligible for analysis.
@@ -64,11 +64,11 @@ You can use the tie metrics in ONA person-to-person queries; in this example pro
 >[!Note]
 >You can view, copy, export, and visualize query results in different ways for different query types. The topic [View, download, and export query results](../use/view-download-and-export-query-results.md) describes how to see and share results. For example, you can [view query results](../use/view-download-and-export-query-results.md#view-query-results), [download and import query results](../use/view-download-and-export-query-results.md#download-and-import-query-results), and [use an OData feed in Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
-## ONA person-to-person query output
+## Network person-to-person query output
 
 The query results show the quality of the relationship between two specific (but de-identified) people. Each row shows the information for a pair of people between whom a tie exists, or existed, over the time period of the query.
 
-The following columns appear, from left to right, in the query results for ONA person-to-person queries:
+The following columns appear, from left to right, in the query results for Network person-to-person queries:
 
 ### The first two columns identify the initiator of the tie
 
@@ -123,7 +123,7 @@ The column names for these attributes are organizational attribute names with th
 _Query results example: Columns K through O_
 
 * **Date** - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it's the first day of the month that your data encompasses).
-* **Metrics** - The metrics that you included in the query. For more information, see [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
+* **Metrics** - The metrics that you included in the query. For more information, see [Network metric descriptions](../use/metric-definitions.md#network-metrics).
 
    The results for this query type always include the following metrics:
 
@@ -148,7 +148,7 @@ Attribute (column header) | Description |
 
 ## Related topics
 
-* [ONA metrics](ona-metrics.md)
-* [ONA person queries](ona-person-query.md)
-* [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics)
+* [Network metrics](ona-metrics.md)
+* [Network person queries](ona-person-query.md)
+* [Network metric definitions](../use/metric-definitions.md#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

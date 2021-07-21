@@ -186,13 +186,13 @@
                       href: ~/tutorials/crm-queries.md
                     - name: Peer comparison queries
                       href: ~/tutorials/comparison-query.md
-                    - name: ONA queries
+                    - name: Network queries
                       items: 
-                        - name: ONA person queries
+                        - name: Network Person queries
                           href: ~/tutorials/ona-person-query.md
-                        - name: ONA person-to-person queries
+                        - name: Network Person-to-person queries
                           href: ~/tutorials/ona-person-to-person-query.md
-                        - name: ONA metrics
+                        - name: Network query metrics
                           href: ~/tutorials/ona-metrics.md
                     - name: Customize a metric
                       href: ~/tutorials/Customize-a-metric.md
