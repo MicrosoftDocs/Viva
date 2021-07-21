@@ -118,9 +118,9 @@ When you create a new query or edit an existing query, you can select the metric
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
-## Predefined templates
+## Query templates
 
-Workplace Analytics includes a number of predefined templates to help you get started with the Query designer. For details, see [Templates](power-bi-intro.md).
+Workplace Analytics includes a number of predefined query templates to help you get started with the Query designer. For details, see [Templates](power-bi-intro.md).
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
