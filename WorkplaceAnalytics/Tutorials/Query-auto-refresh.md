@@ -1,7 +1,7 @@
 ---
 
-title: Query auto-refresh
-description: Describes the auto-refresh option for queries in Workplace Analytics
+title: Query auto-refresh in Workplace Analytics
+description: Describes the query auto-refresh option in Workplace Analytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,17 +11,17 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Auto-refresh option for queries
+# Query auto-refresh
 
-## One-time queries show you a snapshot
+As an analyst, you can run different kinds of query data in Workplace Analytics, such as person, meeting, group-to-group, person-to-group, and network queries to get a snapshot of workplace behavior.
 
-As an analyst, you can run different kinds of query data in Workplace Analytics, including person, meeting, group-to-group, and person-to-group queries to get a snapshot of workplace behavior.
+## One-time snapshot
 
-You can run a query as a one-time event where you set it up, run it one time, and get the results. To visualize workplace patterns uncovered by this query, you can load the results into a data analysis tool, such as Power BI or Excel.
+You can run a query as a one-time event where you set it up, run it one time, and get the results. To visualize workplace patterns uncovered by a one-time query, you can load the results into a data analysis tool, such as Power BI or Excel.
 
 ## Auto-refresh shows trends over time
 
-Query results, especially when viewed in a data analysis tool, can uncover dynamic patterns. These patterns evolve over time because the workplace behavior of employees evolves over time. To isolate one instance of evolving workplace behavior over time, you can use the applicable query multiple times, on a regular schedule. To do this, you can use the auto-refresh feature for Workplace Analytics data.
+Query results, especially when viewed in a data analysis tool, can uncover dynamic patterns because employee workplace behavior evolves over time. To isolate one instance of evolving behavior over time, you can use the applicable query multiple times, on a regular schedule. To do this, you can use the auto-refresh feature for Workplace Analytics data.
 
 ## Create a query with the auto-refresh option
 
@@ -53,8 +53,6 @@ Follow these steps only for results that have already run and for which auto-ref
 Alternatively, you can renew an auto-refresh query in the [notifications panel](../use/wpa-notifications.md) in Workplace Analytics.
 
 ## Auto-refresh details
-
-### Basic behavior
 
 * When you create the query, you run it for the first time. As it runs, it uses data from the exact date range that you defined.
 * The query automatically runs again, once for every time period that you selected (such as week or month). Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange.
@@ -121,7 +119,6 @@ If you see this message, go to [If expected columns are missing or excluded](../
 If either of these schema-mismatch situations arises, Workplace Analytics notifies you in various ways. You can then change the affected auto-refresh queries to run them again or access the most recently completed results.
 
 * In **Results**, a red "stopped" icon shows in the **Status** column when a query has been stopped. A yellow icon shows for non-auto refresh queries that, as a result of the schema changes, also cannot run.
-
 * In the **Select filters** and **Organizational data** sections of a query-authoring page, the current filters and the output columns that are no longer present are shown:
 
   ![Filters and missing columns](../images/wpa/tutorials/org-data-section.png)

@@ -200,7 +200,7 @@
                       href: ~/Use/View-download-and-export-query-results.md
                     - name: Understand and interpret query output
                       href: ~/Use/Csv-query-output-file.md
-                    - name: Query auto-refresh option
+                    - name: Query auto-refresh
                       href: ~/tutorials/Query-auto-refresh.md
             - name: Business process analysis
               href: ~/tutorials/analyze-business-processes.md
