@@ -13,7 +13,7 @@ audience: Admin
 
 # Query designer
 
-The **Query designer** in Workplace Analytics combines queries and the templates together into a single view.
+The **Query designer** in Workplace Analytics combines templates and queries together into a single view.
 
 * [**Templates**](#templates) &ndash; The templates provide an easy way to bring a predefined set of query metrics into a template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
 * [**Queries**](#queries) &ndash; You can also create your own custom query to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
