@@ -1,5 +1,4 @@
 ---
-
 title: Admin settings for Workplace Analytics
 description: Describes Admin settings that only administrators can configure and edit in Workplace Analytics
 author: madehmer
