@@ -13,31 +13,22 @@ audience: Admin
 
 # Customize query metrics
 
-Analysts create queries to determine workplace patterns and behaviors. An important step when creating a query is selecting the metrics that define the query's area of focus. You can use a template or a query in Query designer to create analysis. You'll see available base metrics within the query and when you select one, it'll appear in a simple, unfiltered form, such as Email hours.
+Analysts create queries to determine workplace patterns and behaviors. An important step when creating a query is selecting the metrics that define the query's area of focus. You can use a template or a query in Query designer to create analysis. You'll see available base metrics within the query and when you select one, it'll appear in a simple, unfiltered form.
 
 ## Edit a base metric
 
-After you add a base metric to a query, you can edit some of them (not all base metrics are editable) for more refined query results. You can customize a metric by applying filters. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself.
+After you add a base metric for a person or meeting query, you can edit some of them (not all base metrics are editable) for more refined query results by applying filters. These filters apply only to the metric and function independently from any filters that you apply to the query itself.
 
-For example, select **Email hours** and then edit and change it to: "Email hours where at least all attendees and/or recipients FunctionType equals R&D."
+For example, select **Email hours**, and then select the **Edit** (pencil) icon to edit and change the name to "Total emails sent during R&D meetings" and add a filter for "Email hours where at least all attendees and/or recipients FunctionType equals R&D."
 
-### Customizations are retained when you change the base metric
-
-The previous example changed the "Email hours" base metric to be "Email hours where at least all attendees and/or recipients FunctionType equals R&D."
-
-After you customize a metric, you can change the base metric from "Email hours" to "Total emails sent during meetings." This change gives you a new metric that has retained the same customization. Your final, customized metric would be: "Total emails sent during meeting where at least all attendees and/or recipients FunctionType equals R&D."
-
-In other words, the customization that you applied to the base metric was not lost when you changed from that base metric to a different one.
-
+When you customize a base metric, it's saved as a new custom metric for the query you're creating.
 ## How-to steps
 
-To customize and then change a base metric, do the following.
-
-1. In **Analyze** > **Query designer** > **Queries**, select the type of query you want to create, such as a person or meeting query. **Note**: You currently can only customize metrics for a person or a meeting query.
+1. In **Analyze** > **Query designer**, select **Get started** under **Query**, and then select the type of query you want to create, such as a person or meeting query. **Note**: You currently can only customize metrics for a person or a meeting query.
 2. Select and change **Enter query name here** to name your query and enter a description.
-3. For **Group by**, select a time-grouping option -- day, week, or month.
+3. For **Group by**, select a time-grouping option (day, week, or month).
 4. Select a date range and a meeting exclusion rule.
-5. In the **Metrics** section, select the plus (+) sign next to Add metric and then select a metric from the list:
+5. In the **Metrics** section, select the **plus sign** (+) next to **Add metric** and then select a metric from the list:
 
    ![add a metric](../Images/WpA/Tutorials/custom-metric-01.png)
 
@@ -50,7 +41,7 @@ To customize and then change a base metric, do the following.
 
    The selected metric becomes the *base metric* for the query, and represents the area of focus for data analysis.
 
-6. Customize the metric by following these steps:
+6. To customize the metric:
 
    1. Select the **Edit** icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This shows the option to apply filters to the base metric:
 
@@ -76,9 +67,9 @@ To customize and then change a base metric, do the following.
    >
    >* Any base metric that is customizable shows a drop-down menu with the possible change options.
    >* Not all base metrics can be changed. If no drop-down menu is available, the metric cannot be changed.
-   >* Changes are not always 1 to 1. For example, you can change from Conflicting meeting hours to Email hours, but because of variations in the available filters, the opposite change is not possible.
-
-   If you select a new base metric with identical filter options, the metric will change but you'll see no additional changes. If you select a new base metric for which the filter options are a subset, additional available filters appear. If you edit the name of the metric and then change the base metric, the name that you edited is deleted.
+   >* Changes are not always one to one. For example, you can switch from **Conflicting meeting hours** to **Email hours**, but because of variations in the available filters, the opposite change is not possible.
+   >* If you select a new base metric with identical filter options, the metric will change but you'll see no additional changes.
+   >* If you select a new base metric for which the filter options are a subset, additional available filters appear. If you edit the name of the metric and then change the base metric, the name that you edited is deleted.
 
 8. After you create or edit all the metrics you want, confirm or cancel your changes:
 
