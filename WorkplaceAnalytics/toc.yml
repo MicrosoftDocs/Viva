@@ -149,22 +149,22 @@
                   items:
                     - name: Introduction
                       href: ~/tutorials/power-bi-intro.md
-                    - name: Behavior patterns for Glint
-                      href: ~/tutorials/power-bi-glint.md
-                    - name: Business continuity
-                      href: ~/tutorials/power-bi-bc.md
-                    - name: Manager effectiveness
-                      href: ~/tutorials/power-bi-manager.md
-                    - name: Return to worksites
-                      href: ~/tutorials/power-bi-return-tw.md
-                    - name: Sales business continuity
-                      href: ~/tutorials/pbi-bc-sales.md
-                    - name: Teams insights
-                      href: ~/tutorials/power-bi-teams.md
                     - name: Ways of working assessment
                       href: ~/tutorials/power-bi-collab-assess.md
                     - name: Ways of working tracker
                       href: ~/tutorials/power-bi-collab-track.md
+                    - name: Return to worksites
+                      href: ~/tutorials/power-bi-return-tw.md
+                    - name: Business continuity
+                      href: ~/tutorials/power-bi-bc.md
+                    - name: Teams insights
+                      href: ~/tutorials/power-bi-teams.md
+                    - name: Manager effectiveness
+                      href: ~/tutorials/power-bi-manager.md
+                    - name: Behavior patterns for Glint
+                      href: ~/tutorials/power-bi-glint.md
+                    - name: Sales business continuity
+                      href: ~/tutorials/pbi-bc-sales.md
                     - name: Tips, FAQs, and troubleshooting
                       href: ~/tutorials/power-bi-templates.md
                 - name: Queries
@@ -172,10 +172,11 @@
                     - name: Overview
                       href: ~/tutorials/Query-basics.md
                     - name: Person queries
-                      href: ~/tutorials/Person-queries.md
                       items:
-                    - name: Visualize person queries
-                      href: ~/tutorials/query-visualization.md
+                        - name: Introduction
+                          href: ~/tutorials/Person-queries.md
+                        - name: Visualize person queries
+                          href: ~/tutorials/query-visualization.md
                     - name: Meeting queries
                       href: ~/tutorials/Meeting-queries.md
                     - name: Group-to-group queries
@@ -188,9 +189,9 @@
                       href: ~/tutorials/comparison-query.md
                     - name: Network queries
                       items: 
-                        - name: Network Person queries
+                        - name: Network person queries
                           href: ~/tutorials/ona-person-query.md
-                        - name: Network Person-to-person queries
+                        - name: Network person-to-person queries
                           href: ~/tutorials/ona-person-to-person-query.md
                         - name: Network query metrics
                           href: ~/tutorials/ona-metrics.md

@@ -48,7 +48,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Create** > **Other templates**, select **Sales business continuity** to see the required setup steps, and then in step 2, select **Set up** next to **Sales  business Continuity** (or **Domain collaboration** per **Step 7**).
+2. In **Create** > **Other templates**, select **Sales business continuity** to see the required setup steps, and then in step 2, select **Set up** next to **Sales business continuity** (or **Domain collaboration** per **Step 7**).
 3. Select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
@@ -73,8 +73,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take a few minutes to complete.
-7. When prompted, select to return to Query designer to set up another query, and then repeat  **Steps 2-6** for the **Domain collaboration** query, which requires the same selections as for Sales business continuity.
-8. When prompted, continue to results, and then after both queries successfully run, select the **Download** icon for the **Sales business continuity** query results, select **PBI template**, and then select **OK** to download the template.
+7. When prompted, select to return to the Query designer to set up the other query, and then repeat **Steps 2-6** for the **Domain collaboration** query, which requires the same selections as for Sales business continuity.
+8. When prompted, continue to results. After both queries successfully run, select the **Download** icon for the **Sales business continuity** query results, select **PBI template**, and then select **OK** to download the template.
 9. Open the downloaded **Sales business continuity** template.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
@@ -88,8 +88,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed**dialog box, select **Organizational account**, and then select **Sign in**. See Troubleshooting for more details.
 14. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
-   >[!Important]
-   >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >[!Important]
+    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../tutorials/query-auto-refresh.md#stop-auto-refresh) option for details.
@@ -109,8 +109,8 @@ After the Sales business continuity dashboard is set up and populated with Workp
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-   >[!Important]
-   >As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
+>[!Important]
+>As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
 ![Sales business continuity dashboard settings](../Images/WpA/Tutorials/sbc-settings.png)
 
