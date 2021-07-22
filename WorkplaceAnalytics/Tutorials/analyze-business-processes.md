@@ -102,7 +102,7 @@ To view or delete a data set, first find it on the **Data sets** tab of the **An
 
 ## Define a business process
 
-Before you can run queries to analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
+Before you can analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
 ![Biz process start page](../images/wpa/tutorials/start-page.png)
 
@@ -234,7 +234,7 @@ You analyze _real-world_ business processes by running Workplace Analytics meeti
 
 Design your query and choose its metrics so that filtering by this digital business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze.
 
-You can filter by business processes wherever the **Meeting** option is available as a filter or a metric customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization. 
+You can filter by business processes wherever the **Meeting** option is available as a filter or a metric customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization.
 
 ### Use a business process in a meeting query
 
@@ -345,9 +345,6 @@ The following example shows how this can unfold:
 ## Related topics
 
 * [Prepare organizational data](../setup/prepare-organizational-data.md)
-
 * [Meeting queries](meeting-queries.md)
-
 * [Person queries](person-queries.md)
-
 * [Privacy settings](../use/privacy-settings.md)

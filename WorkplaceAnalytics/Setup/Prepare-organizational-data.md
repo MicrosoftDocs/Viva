@@ -110,7 +110,7 @@ If you can't include every person in your organization, the minimum to include i
 
 It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the [right people](#which-employees-to-include) and include the [right attributes](#know-what-data-to-include) for those people.
 
-The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build a query in Query designer. This means that those employees will be excluded from the analyses that analysts perform.
 
 If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
@@ -257,7 +257,7 @@ HireDate| The date the employee began employment. This date determines the begin
 |Layer | The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../use/explore-intro.md) features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 |SupervisorIndicator  | Use this attribute to view the habits of people managers or influencers in your organization in Power BI visualizations. It powers the Overview table, the Generated Workload charts that are generated when you use a [Template](../tutorials/power-bi-templates.md) that requires it. <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required for some of the Templates, such as [Ways of working assessment](../tutorials/power-bi-collab-assess.md).|
 |TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If it is not included, the default time zone will be used.|
-|Any user-defined columns | Additional columns can represent any data that you want to use in queries to group and filter employee records. | No coverage requirements. |
+|Any user-defined columns | Additional columns can represent any data that you want to use in a query to group and filter employee records. | No coverage requirements. |
 
 ### Attribute notes and recommendations
 

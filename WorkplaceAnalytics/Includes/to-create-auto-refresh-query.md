@@ -11,7 +11,8 @@ ms.prod: wpa
 
 **To create an auto-refresh query**
 
-1. In **Analyze** > **Query designer** > **Queries**, select a query type, such as Person query.
+1. In **Analyze** > **Query designer** > **Create**, and then select **Get started** under **Query**. 
+2. Select a query type, such as Person query.
 2. Name the query and add an optional description.
 3. Select a time range, such as one month or one year:
 
