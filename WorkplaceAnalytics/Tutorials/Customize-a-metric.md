@@ -13,41 +13,25 @@ audience: Admin
 
 # Customize query metrics
 
-Analysts create queries to determine workplace patterns and behaviors. An important step in the creation of a query is selecting a metric. This defines the query's area of focus.
+Analysts create queries to determine workplace patterns and behaviors. An important step when creating a query is selecting the metrics that define the query's area of focus. You can use a template or a query in Query designer to create analysis. You'll see available base metrics within the query and when you select one, it'll appear in a simple, unfiltered form, such as Email hours.
 
-As an analyst, you select metrics as you build queries. The metrics that you see on the page for building a query are base metrics, which means that when you first select one, it appears in a simple, unfiltered form, such as Email hours.
+## Edit a base metric
 
-You can change how a metric is used within a query as follows:
+After you add a base metric to a query, you can edit some of them (not all base metrics are editable) for more refined query results. You can customize a metric by applying filters. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself.
 
-* [Customize a base metric](#customize-a-base-metric)
-* [Change a base metric](#change-a-base-metric)
-* [Add additional base metrics](#add-additional-base-metrics)
-
-## Customize a base metric
-
-After you select a metric you can _customize_ it for more refined query results. You customize a metric by applying filters to it. Although you do this on the query-builder page, these filters apply only to the metric and function independently from any filters that you apply to the query itself.
-
-For example, you might start with the base metric "Email hours." You could customize it so that it became a more targeted metric: "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D."  
-
-## Change a base metric
-
-You can also change the base metric. This means selecting a different base metric to use in place of the original one you chose.
+For example, select **Email hours** and then edit and change it to: "Email hours where at least all attendees and/or recipients FunctionType equals R&D."
 
 ### Customizations are retained when you change the base metric
 
-The previous example customized the "Email hours" base metric to be: "Email hours where at least all attendees' and/or recipients' FunctionType equals R&D."
+The previous example changed the "Email hours" base metric to be "Email hours where at least all attendees and/or recipients FunctionType equals R&D."
 
-After you apply a customization, let's say you want to *change* the base metric from "Email hours" to "Total emails sent during meetings." This change gives you a new metric that has retained the same customization. Your final, customized metric would be: "Total emails sent during meeting where at least all attendees' and/or recipients' FunctionType equals R&D."
+After you customize a metric, you can change the base metric from "Email hours" to "Total emails sent during meetings." This change gives you a new metric that has retained the same customization. Your final, customized metric would be: "Total emails sent during meeting where at least all attendees and/or recipients FunctionType equals R&D."
 
-In other words, the customization that you applied to the original base metric was not lost when you changed from that base metric to a different one.
+In other words, the customization that you applied to the base metric was not lost when you changed from that base metric to a different one.
 
-## Add additional base metrics
+## How-to steps
 
-You can also add additional base metrics to your query. You would do this to modify the query's area of focus.
-
-## Walkthrough: Customize and change a base metric
-
-To customize and then change a base metric:
+To customize and then change a base metric, do the following.
 
 1. In **Analyze** > **Query designer** > **Queries**, select the type of query you want to create, such as a person or meeting query. **Note**: You currently can only customize metrics for a person or a meeting query.
 2. Select and change **Enter query name here** to name your query and enter a description.
@@ -98,11 +82,11 @@ To customize and then change a base metric:
 
 8. After you create or edit all the metrics you want, confirm or cancel your changes:
 
-   * If you select **Confirm**, all changes to the metric are saved.
-   * If you select **Cancel**, all changes are discarded (reverted to the original state).
+   * Select **Confirm** to save all changes to the metric.
+   * Select **Cancel** to discard all changes (reverted to the original state).
    * If you neither confirm nor cancel the changes, the changes are automatically confirmed.
 
-9. Select **Run** to run the query with all confirmed metrics and customizations that you applied.
+9. Select **Run** to run the query with all confirmed metrics and applied customizations.
 
 ## NOT operators
 
