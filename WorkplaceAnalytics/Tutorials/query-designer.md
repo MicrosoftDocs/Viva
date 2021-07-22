@@ -56,11 +56,11 @@ Workplace Analytics currently includes the following predefined templates.
 
 In the Query designer, you can also create your own custom [query](#query-types) by selecting **Get started** under **Query**.
 
-  ![New query options](../Images/WpA/Tutorials/new-query.png)
+![New query options](../Images/WpA/Tutorials/qd-new-query.png)
 
 When available and listed, you can also select from one or more related [query templates](#query-templates). For example, when creating a new Person query, you can either select **Start a new query** or select a query template, such as **Standard person query** or **Hourly collaboration**, which already have specific metrics set up to help you get started.
 
-![Query templates available when creating a new query](../Images/WpA/Tutorials/person-query-options.png)
+![Query templates available when creating a new query](../Images/WpA/Tutorials/qd-query-options.png)
 
 You can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
