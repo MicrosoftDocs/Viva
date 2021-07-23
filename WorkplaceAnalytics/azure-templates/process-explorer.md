@@ -56,13 +56,12 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
 
 4. In **Analysis Name**, enter a unique name for this analysis.
 5. Select the applicable path for the dataset to use in this analysis.
-
-    ![Process Explorer starter templates](./images/pe-new-analysis.png)
-
 6. Select the interaction types to be included in this analysis, including meetings, emails, or both. Note that you must include emails to have access to Email Thread Analysis.
 
    >[!Note]
    >If you are using the Starter Template Categorization Model and the starter template you selected has specific interaction types selected for each category, this step will override any of the conflicting interaction type selections. For example, if **Category A** only has email data and you select to include **only meetings**, then **Category A** will have no data in the final analysis.
+
+    ![Process Explorer starter templates](./images/pe-new-analysis.png)
 
 7. Select the grouping attributes to include in this analysis. You can filter your data by these attributes in the final analysis.
 
@@ -115,7 +114,7 @@ You can filter the data by the grouping attributes that you selected when creati
 
 The **Time on Category Analysis** chart at the end of this page includes the following data:
 
-* **Total Hours** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected categories and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
+* **Total hours** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected categories and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
 * **Date filter** - You can select a Start Date and End Date for the time period of data that you want to see in the chart. The default is **All**, which shows all time periods available in the dataset.
 
  ![Time Spent on Category chart](./images/pe-time-analysis.png)
