@@ -2,7 +2,7 @@
 
 title: Query auto-refresh in Workplace Analytics
 description: Describes the query auto-refresh option in Workplace Analytics
-author: paul9955
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
 localization_priority: normal 
@@ -45,12 +45,12 @@ Follow these steps only for a query that has already run and for which auto-refr
 Follow these steps only for results that have already run and for which auto-refresh is not currently in effect.  
 
 1. In Workplace Analytics, open **Query designer** > **Results**.
-2. In the row of the results, select the **ellipsis**.
+2. In the query's row, select the **ellipsis**.
 3. In the **More options** menu, select **Turn on auto-refresh**:
 
    ![Turn on auto-refresh](../images/wpa/tutorials/auto-refresh-options-off-48.png)
 
-Alternatively, you can renew an auto-refresh query in the [notifications panel](../use/wpa-notifications.md) in Workplace Analytics.
+Alternatively, you can renew an auto-refresh query within the [notifications panel](../use/wpa-notifications.md) in Workplace Analytics.
 
 ## Auto-refresh details
 
@@ -76,11 +76,6 @@ Generally, an organization can have a maximum of 20 auto-refresh queries. If you
 
 * Delete an existing auto-refresh query or turn auto-refresh off for a query (in **Query designer** > **Results**). Then, create your new auto-refresh query.
 * Contact Workplace Analytics to request additional auto-refresh queries. To do this, follow the instructions for "Workplace Analytics Support" in [Get support](../overview/getting-support.md).
-
-<!-- [AUGUST 14 2019] COMMENT THIS NOTE OUT UNTIL PARTITIONS ARE RELEASED. PER NITHIN, THAT COULD BE MONTHS FROM NOW. 
-> [!Note] 
-> Auto-refresh queries respect partitions. (A partition is a data workspace for an analyst.) This means that if other analysts&mdash;who work within their own partitions&mdash;have created a total of fifteen auto-refresh queries, five auto-refresh queries remain for you to use. 
--->
 
 ### System turns off a query's auto-refresh option
 
