@@ -66,4 +66,7 @@ The following are examples of where you might encounter instances of inconsisten
 ## Related topics
 
 * [Organizational data](organizational-data.md)
+
 * [CRM data](crm-data.md)
+
+* [Prepare organizational data](../setup/prepare-organizational-data.md)

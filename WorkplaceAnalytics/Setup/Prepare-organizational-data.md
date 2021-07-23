@@ -112,6 +112,8 @@ It's the admin's responsibility to maintain up-to-date and complete organization
 
 The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
 
+### Notification of missing data
+
 If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
 * <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
@@ -126,7 +128,7 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
 
    To respond to this warning, follow the steps in [Upload missing organizational data](#upload-missing-organizational-data).
 
-### Upload missing organizational data
+#### Upload missing organizational data
 
 1. Select **Download**. This downloads a .csv file that contains the names of licensed employees whose organizational data is missing. For example:
 
@@ -135,6 +137,31 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
 2. Open the .csv file.
 3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
 4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
+
+## Also include unlicensed employees
+
+In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees. Doing so helps correctly include or exclude those employees from any custom metrics that you build in your queries.
+
+In the followings examples, the employees in a European affiliate are unlicensed. You'll want to create two custom metrics:
+
+* Meetings that include at least one participant from Europe
+* Meetings that include no participants from Europe
+
+**Scenario 1:** Unlicensed employees are **not** included in organizational data
+
+In this scenario, the query doesn’t have information that describes the region for unlicensed European employees. Even if employee #101 attended meetings with European colleagues, the filter does not know to include those meetings in the "Meetings with Europe" metric. As a result, the two custom metrics are not accurate.
+
+| PersonId | Date | Meetings | Meetings with Europe | Meetings without Europe |
+| ---- | ---- | ---- | ---- | ---- |
+| 101 | May 2021 | 30 | 0 | 30 |
+
+**Scenario 2:** Unlicensed employees **are** included in organizational data
+
+In this scenario, the filter can recognize European colleagues from the organizational data and therefore it _does_ know to include meetings in which they participated in the "Meetings with Europe" metric. This gives a more accurate result for the two custom metrics:
+
+| PersonId | Date | Meetings | Meetings with Europe | Meetings without Europe |
+| ---- | ---- | ---- | ---- | ---- |
+| 101 | May 2021 | 30 | 18 | 12 |
 
 ## Get an export of organizational data
 

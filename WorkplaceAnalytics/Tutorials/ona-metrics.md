@@ -119,7 +119,7 @@ Now, since they work on separate products, they tend to work with different peop
 
 ## FAQ
 
-The following questions and answers refer to metrics; you can find their definitions in [Metric descriptions / Person metrics](../use/metric-definitions.md#person-metrics) and in [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
+The following questions and answers refer to various metrics. You can find their definitions in [Metric descriptions / Person metrics](../use/metric-definitions.md#person-metrics) and in [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
 
 **Q1. What is the difference between "strong ties" and "Internal network size"?**
 
