@@ -12,9 +12,9 @@ audience: Admin
 
 # Understand and interpret query output
 
-After you run a query in Workplace Analytics, you'll see the Results in Query designer as a list with a download link as .csv (comma-separated values) file.
+After you run a query in Workplace Analytics, you'll see the Results in Query designer as a list with the option to download them as a .csv (comma-separated values) file.
 
-![.csv file download](../images/WpA/Use/csv-download.png)
+![.csv file download](../images/WpA/Use/qd-results-download.png)
 
 You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use Workplace Analytics data in Power BI and other data analysis tools](view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool).
 
