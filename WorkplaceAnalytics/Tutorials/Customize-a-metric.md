@@ -2,7 +2,7 @@
 
 title: Customize query metrics in Workplace Analytics
 description: How to customize a base metric in a Workplace Analytics query 
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 

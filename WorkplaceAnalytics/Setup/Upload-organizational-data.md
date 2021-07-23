@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Upload organizational data (subsequent uploads)
+# Subsequent uploads
 
 Administrators need to do the following steps to upload (import) organizational data to Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
