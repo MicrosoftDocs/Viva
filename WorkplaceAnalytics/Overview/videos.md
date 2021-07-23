@@ -22,7 +22,7 @@ The Workplace Analytics documentation offers several videos that explain concept
 
 ## Setup
 
-* [Set up Workplace Analytics / Overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
+* [Set up Workplace Analytics - Overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
 * [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
 * [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)
 
