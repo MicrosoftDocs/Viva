@@ -31,7 +31,7 @@ By copying a factory template to the user-defined library, you can customize it 
 
 The following is available after the data is categorized through a starter template.
 
-![Process Explorer analysis](./images/pexp-cat-analysis.png)
+![Process Explorer Categorization Analysis page](./images/pe-cat-analysis.png)
 
 * **Categorization Analysis** - You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. See [Categorization analysis](#categorization-analysis) for details.
 
@@ -52,12 +52,23 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
    * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. After the analysis is created with this option, you can export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings that are not categorized in the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages can then be categorized.
 
-    ![Process Explorer starter templates](./images/pexp-new-analysis.png)
+    ![Process Explorer starter templates](./images/pe-new-analysis1.png)
 
 4. In **Analysis Name**, enter a unique name for this analysis.
 5. Select the applicable path for the dataset to use in this analysis.
-6. Select the time range to analyze.
-7. Select the interaction types to be included in this analysis, including meetings, emails, or both. Note that you must include emails to have access to Email Thread Analysis.
+
+    ![Process Explorer starter templates](./images/pe-new-analysis.png)
+
+6. Select the interaction types to be included in this analysis, including meetings, emails, or both. Note that you must include emails to have access to Email Thread Analysis.
+
+   >[!Note]
+   >If you are using the Starter Template Categorization Model and the starter template you selected has specific interaction types selected for each category, this step will override any of the conflicting interaction type selections. For example, if **Category A** only has email data and you select to include **only meetings**, then **Category A** will have no data in the final analysis.
+
+7. Select the grouping attributes to include in this analysis. You can filter your data by these attributes in the final analysis.
+
+   >[!Note]
+   >Attributes that exceed the maximum allowed values cannot be selected.
+
 8. In **Choose Collaborators**, you can select:
 
    * **All Collaboration** - All internal collaboration activity as specified for this analysis.
@@ -98,20 +109,16 @@ You can analyze both emails and meetings or you can select to analyze only email
 
 You can also select **Download Category Distribution Data** to download a .csv file of this categorized data activity.
 
-![Categorization analysis](./images/pexp-cat-analysis.png)
+![Categorization Analysis page details](./images/pe-cat-analysis-2.png)
 
-This same data is visually presented in pie charts in the **Category Distribution Charts** section on this page. Select **Uncategorized** or any other category name to hide it from the chart view.
+You can filter the data by the grouping attributes that you selected when creating this analysis. The chart and metrics will change to reflect the filters you apply. You can also use filters on the **Communication Flow** and **Time on Category Analysis** charts.
 
-  ![Category Distribution chart](./images/pexp-dist-chart.png)
+The **Time on Category Analysis** chart at the end of this page includes the following data:
 
-The following is available for the **Time on Category Analysis** chart at the end of this page:
-
-* **Hours on Category** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected categories and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
-* **Category Filter** - Select one or more categories to focus the chart on. The default is **All**, which shows all categories available in the dataset.
-* **Communication Filter** - Select to filter the chart to view only email or meeting activity. The default is **All**, which shows all email and meeting activity that was categorized in the dataset.
+* **Total Hours** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected categories and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
 * **Date filter** - You can select a Start Date and End Date for the time period of data that you want to see in the chart. The default is **All**, which shows all time periods available in the dataset.
 
- ![Time Spent on Category chart](./images/pexp-cat-chart.png)
+ ![Time Spent on Category chart](./images/pe-time-analysis.png)
 
 You can also select **Copy Time on Category Data** or **Download Time on Category Data** for a .csv file of the data.
 
@@ -154,7 +161,9 @@ If the analysis already includes some categorized emails and meetings, you can s
 
 You can then edit the category name or delete it entirely. For each category, you can change the associated key phrases to include or exclude. You can also add an **asterisk** (*) to a word as a wild card (also known as a word stem). For example, the following graphic shows **resourc** with an asterisk in **Key phrases to include** for the **Team meetings** category. This will include the five shortest uses of a word beginning with “resource” in the subject lines. For example, meetings and emails with the words resources, resourcing, or resource group in the subject lines would be included.
 
-  ![Create starter template](./images/pexp-create-starter.png)
+For each category, you can also select which interaction types to include. Note that when creating new analysis, if you select a conflicting interaction type to include, the interaction types selected in that step will override what you selected in the template.
+
+  ![Starter template settings](./images/pe-template-settings.png)
 
 After you create a new starter template, you can then use it when creating new analysis.
 
@@ -162,10 +171,8 @@ After you create a new starter template, you can then use it when creating new a
 
 If you selected to include an organizational network graph when adding new analysis, your analysis will include Communication flow by category. This page shows how specific categories are communicated across and within the various groups of an organization for varying time periods with the following functionality.
 
-![Communication flow by category](./images/pexp-comm-flow.png)
+![Communication flow by category](./images/pe-comm-flow.png)
 
-* **HR Attribute to Group By** - Use to specify how to group individuals who are communicating.
-* **Category Filter** - Use to specify which categories of communication you want to focus on.
 * **Self Links** - Turn it on to see how a group communicated with itself on the specified categories.
 * **Link Weight by Hours** or **by Count** - Select an option for how you want to see the communication flow and the links will scale accordingly. Link weight is per person for the selected time period, such as hours per person.
 * **Graph tools** - Use the tools to the right of the graph to move and adjust graph elements, fit chart to view, zoom in and out, run the layout, and switch between a full screen and window view.

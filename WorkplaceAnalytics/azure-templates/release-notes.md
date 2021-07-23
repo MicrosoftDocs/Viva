@@ -55,17 +55,10 @@ To learn more, see [Relationship Intelligence](./relation-intel.md).
 
 ### Process Explorer
 
-* **Enhancement** - You can now select the...
-* **Feature** - When creating new analysis or applying settings or filters, you'll now see...
+* **Interaction type selection for Starter Templates** - You can now select the types of interactions you want to include in individual Starter Template categories. By default, both emails and meetings are selected for Starter Templates. However, you can now select to only analyze emails or only meetings for each category. 
+* **Filters for categorization analysis** - When creating a new analysis with the Starter Template categorization model, you can now select group attributes to filter your analysis by. When viewing your categorization analysis, you can now filter by these group attributes, along with interaction types and categories. Metrics, charts, and communication flow in your analysis will now change to reflect the applied filters. 
 
 To learn more, see [Process Explorer](./process-explorer.md).
-
-### Workspace Planning
-
-* **Enhancement** - You can now select the...
-* **Feature** - New feature description.
-
-For details, see [Workspace Planning](space-planning.md).
 
 ## May 2021
 
