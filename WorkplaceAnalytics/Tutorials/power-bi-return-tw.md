@@ -147,7 +147,7 @@ The last report in the Return to worksites dashboard describes further analysis 
 
 ![Dashboard page about the playbook](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
 
-## Power BI tips, troubleshooting, and FAQs
+## Power BI tips, FAQ, and troubleshooting
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
 

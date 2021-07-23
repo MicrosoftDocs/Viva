@@ -52,6 +52,8 @@ Workplace Analytics currently includes the following predefined templates.
 * [**Behavior patterns for Glint**](./power-bi-glint.md) &ndash; Combines behavioral data from Workplace Analytics and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) &ndash; Shows insights into how shifting to remote work impacted your sales organization.
 
+For details about how to share a dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+
 ## Queries
 
 In the Query designer, you can also create your own custom [query](#query-types) by selecting **Get started** under **Query**.
@@ -71,7 +73,7 @@ You can download the query data results as .csv files, or depending on the type 
 * [**Group-to-group queries**](group-to-group-queries.md) - See how a team invested their collaboration time with other teams within and outside of the organization. You can define a team in various ways, with any organizational attribute or email domain. This query also offers alternative perspectives on collaboration.
 * [**Person-to-group queries**](person-to-group-queries.md) - Helps analyze the number of interactions between a time investor and the defined collaboration team, or to analyze only those collaboration activities initiated by the specified time investor. You can define the person and collaborator team or teams in a variety of ways, with any organizational attribute or email domain.
 * [**Peer comparison queries**](comparison-query.md) - Helps identify people whose collaboration patterns differ as compared to their peers. The query includes the measured employees, their specified metrics, and their peer group's averages for those metrics. You can compare individuals with others who share the same manager, with their direct reports, or even with a custom peer group as defined with organizational attributes.
-* **Network queries** - Use [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) to find out who the best-connected people in your company, division, or group are, which is based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
+* **Network queries** - Use [Network person queries](ona-person-query.md) and [Network person-to-person queries](ona-person-to-person-query.md) to find out who the best-connected people in your company, division, or group are, which is based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
 ### Query templates
 
@@ -81,6 +83,7 @@ In addition to the templates, Workplace Analytics also includes the following qu
 * **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
 * **Standard person query** - Provides all base metrics available for a person query.
 * **Hourly collaboration** - Analyzes meeting, email, instant-message, and call activity by hour of the day.
+
 ## Meeting exclusions
 
 You define meeting exclusions to exclude types of meetings from analysis (such as all-day training meetings) where their inclusion might skew query results. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
