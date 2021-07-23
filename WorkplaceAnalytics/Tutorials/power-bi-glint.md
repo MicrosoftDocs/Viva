@@ -117,7 +117,7 @@ The following is required before you can run the query in Workplace Analytics an
    >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-7. In **Query designer** > **Results**, after the results successfully run, select the **Download** icon for **Behavior patterns for Glint** results, select **PBI template**, and then select **OK** to download the template.
+7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for **Behavior patterns for Glint** results, select **PBI template**, and then select **OK** to download the template.
 
 ## Load the data in Power BI
 

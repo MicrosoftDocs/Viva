@@ -68,7 +68,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which can take a few minutes to complete.
-7. In **Query designer** > **Results**, after both queries successfully run, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
+7. When prompted, select to go to **Results**. After the query successfully runs, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
 
     ![Download the Power BI Ways of working tracker template](../Images/WpA/Tutorials/pbi-download-tracker.png)
 

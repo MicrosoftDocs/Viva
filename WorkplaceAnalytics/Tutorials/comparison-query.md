@@ -112,7 +112,7 @@ In this section, you define how the metrics are used in the comparison:
 
 You can vary the Calculation types and Difference types in the metrics that you’ve chosen.
 
-For descriptions of available metrics, see [Metric descriptions / Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics).
+For descriptions of available metrics, see [Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics).
 
 ## View results
 
@@ -137,5 +137,5 @@ For more information, see [View, download, and export query results](../use/view
 ## Related topics
 
 * [Understand and interpret query output](../use/csv-query-output-file.md)
-* [Metric descriptions / Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics)
+* [Peer-comparison metrics](../use/metric-definitions.md#peer-comparison-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

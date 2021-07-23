@@ -87,7 +87,7 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
    >You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
 
 10. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-11. In **Query designer** > **Results**, after the results successfully run, select the **Download** icon for the **Return to worksites** results, select **PBI template**, and then select **OK** to download the template.
+11. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Return to worksites** results, select **PBI template**, and then select **OK** to download the template.
 12. Open the downloaded **Return to worksites** template.
 13. If prompted to select a program, select **Power BI**.
 14. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.

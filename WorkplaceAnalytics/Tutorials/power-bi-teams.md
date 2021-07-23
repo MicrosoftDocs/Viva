@@ -77,8 +77,8 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
    > If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take several minutes to complete.
-7. Repeat **Steps 2-6** for the **Influence insights**. Make the same selections as for Teams insights but for the few exceptions, as noted in **Step 3**.
-8. In **Query designer** > **Results**, after the results successfully run, select the **Download** icon for the **Microsoft Teams insights** results, select **PBI template**, and then select **OK** to download the template.
+7. When prompted, return to the Query designer and repeat **Steps 2-6** for the **Influence insights**. Make the same selections as for Teams insights but for the few exceptions, as noted in **Step 3**.
+8. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Microsoft Teams insights** results, select **PBI template**, and then select **OK** to download the template.
 
    ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/teams-template.png)
 

@@ -83,8 +83,8 @@ If you started using the Business continuity dashboard in April or May 2020 and 
    >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
 5. Select **Run** to run the query, which might take a few minutes to complete.
-6. When prompted, select to return to Query designer to set up another query, and then repeat  **Steps 2-5** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
-7. When prompted, continue to results, and then after both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
+6. When prompted, return to Query designer, and then repeat  **Steps 2-5** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
+7. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
 
    ![template download](../Images/WpA/Tutorials/pbi-template-download.png)
 

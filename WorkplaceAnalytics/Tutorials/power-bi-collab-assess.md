@@ -91,7 +91,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 7. You can then select any additional attributes (columns) that you want to include in the reports.
 8. Select **Run** to run the query, which can take a few minutes to complete.
-9. When prompted, select to run the **Standard meeting query** to get the meeting metrics for the dashboard.
+9. When prompted, select to return to the Query designer and run the **Standard meeting query** to get the meeting metrics for the dashboard.
 10. Select or confirm the following query settings:
 
     * **Name** - Customize or keep the default name
@@ -114,7 +114,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 13. You can then select any additional attributes (columns) that you want to include in the reports.
 14. Select **Run** to run the query, which can take a few minutes to complete.
-15. In **Query designer** > **Results**, after both queries successfully run, select the **Download** icon for the **Ways of working assessment** query results, select **PBI template**, and then select **OK** to download the template.
+15. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Ways of working assessment** query results, select **PBI template**, and then select **OK** to download the template.
 
     ![Download the Power BI Ways of working assessment template](../Images/WpA/Tutorials/pbi-download-assessment.png)
 

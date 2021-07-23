@@ -76,12 +76,10 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
 5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify managers and their groups, such as **LevelDesignation**, **ManagerId**, **Organization**, and **SupervisorIndicator**.
-
 7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
-8. Repeat **Steps 2-7** and select the **influence insights by month** query. Make the same selections as for **Manager effectiveness**.
-9. After both queries successfully run, in **Query designer** > **Results**, select the **Download** icon for the **Manager effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
+8. When prompted, select to return to the Query designer, and then repeat **Steps 2-7** and select the **Influence insights by month** query. Make the same selections as for **Manager effectiveness**.
+9. When prompted, select to go to **Results**. After both queries successfully run, in **Query designer** > **Results**, select the **Download** icon for the **Manager effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
 10. Open the downloaded **Manager effectiveness** template.
 11. If prompted to select a program, select **Power BI**.
 12. When prompted by Power BI:
