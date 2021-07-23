@@ -13,9 +13,6 @@ audience: Admin
 
 # Microsoft Viva Insights
 
->[!Important]
->On July 22 and 23, Workplace Analytics will be offline for scheduled maintenance. During this service outage, **My Team** and **My Organization** insights within Teams will also be unavailable. We apologize for any inconvenience this might cause.
-
 The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app in Microsoft Teams is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva). Microsoft Viva is the employee experience platform built on Microsoft 365 that helps people and teams be their best from wherever they work. Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams.
 
 Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing.
