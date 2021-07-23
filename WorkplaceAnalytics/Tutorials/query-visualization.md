@@ -34,13 +34,9 @@ In addition to these capabilities, you can also export results to a data visuali
 3. Select **Person query**, and then define and run it. For details, see [Person queries](person-queries.md).
 4. After the results are ready, go to **Query designer** > **Results**.
 5. For the results, select **Visualization**.
-6. In **Interactive Data**, you can use the charts to explore the data.
+6. In **Interactive Data**, you can use the charts to explore the data. A default visualization of results is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Settings and filters](../use/explore-page-settings.md). All saved charts, including "Original," are listed in the **Saved charts** area.
 
-   ![Results chart](../images/wpa/tutorials/inter-data-save-as-no-hi.png)
-
-   A default visualization of results is automatically created and saved as a chart with the name "Original." This is a column chart that is formatted according to the default values in [Settings and filters](../use/explore-page-settings.md). All saved charts, including "Original," are listed in the **Saved charts** area.
-
-   To change the way these results are presented, see [Customize your data visualization](#customize-your-data-visualization). After you have modified a visualization, you can save the modified version; see [Save your charts](#save-your-charts).
+To change how the results are presented, see [Customize your data visualization](#customize-your-data-visualization). After you have modified a visualization, you can save the modified version. See [Save your charts](#save-your-charts) for details.
 
 ## Customize your data visualization
 
