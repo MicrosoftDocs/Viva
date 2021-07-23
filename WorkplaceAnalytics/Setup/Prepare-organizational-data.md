@@ -56,12 +56,12 @@ Defined groups can be used in the following examples of analyses:
 
 A common analysis scenario is to find patterns of collaboration between different groups of employees. For example, you might want to know how much your product marketing team is talking to your sales team.
 
-Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration:
+Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration, such as:
 
 * Job family or role attributes, such as profession, function, discipline, and job code
 * Organization, line of business, or cost center, such as HR, Finance, Sales, and Marketing
 * Location attributes, such as city, state, country, and regions, as defined by your organization
-* Attributes that describe the type of worker, such as remote, exempt/non-exempt, FTE/vendor, part time/full time, tenure in organization, and tenure in current role.
+* Attributes that describe their work, such as remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role.
 
 Most of these attributes are available within HR information systems.
 

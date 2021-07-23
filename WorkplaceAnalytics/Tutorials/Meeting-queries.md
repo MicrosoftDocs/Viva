@@ -33,11 +33,9 @@ Use a person query when you want to understand the relationship between a person
 
 Setting up a meeting query is simple. Select whether you want the metrics for each meeting summarized by day, week, or month, and the time period you’d like to analyze.
 
-Use the options in the **Exclusions** pane to exclude meetings or attendees from this query's analysis. To do this, in the **Meeting exclusions** field, select a custom meeting-exclusion rule or use the default meeting exclusion rule. Also (optionally), select an attendee exclusion in the **Attendee exclusions** field:
+Use the options in the **Exclusions** pane to exclude meetings or attendees from this query's analysis. To do this, in the **Meeting exclusions** field, select a custom meeting-exclusion rule or use the default meeting exclusion rule. Optionally, you can also select an attendee exclusion in **Attendee exclusions**.
 
-  ![Exclusions -- meeting and attendee](../Images/WpA/Tutorials/exclusions-in-query_2.png)
-
-By running this query with no exclusions, you will get an output file that can help you determine the right criteria to separate work-related activities from other calendar items.
+If you run a meeting query with no exclusions, the output file can help you determine the right criteria to separate work-related activities from other calendar items.
 
    ![Meeting query no exclusions](../Images/WpA/Tutorials/meeting-no-exclusions.png)
 

@@ -129,17 +129,20 @@ Workplace Analytics includes a number of predefined query templates to help you 
 
 ## Videos
 
-The following videos were used to train analysts on how to run queries in Workplace Analytics. Note these recordings occurred before the new Query designer was released.
+The following videos were used to train analysts on how to run queries in Workplace Analytics.
+
+>[!Note]
+>These videos were recorded before the new [Query designer](query-designer.md) was available.
 
 ### A week in the life  
 
-The _A week in the life_ video demonstrates how to work with a [person query](person-queries.md).
+The _A week in the life_ video demonstrates how to work with a [Person query](person-queries.md).
 
 <iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### Expensive meetings
 
-The _Expensive meetings_ video demonstrates how to work with a [meeting query](meeting-queries.md). 
+The _Expensive meetings_ video demonstrates how to work with a [Meeting query](meeting-queries.md). 
 
 <iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
