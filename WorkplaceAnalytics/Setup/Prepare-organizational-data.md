@@ -149,7 +149,7 @@ In the followings examples, the employees in a European affiliate are unlicensed
 
 **Scenario 1:** Unlicensed employees are **not** included in organizational data
 
-In this case, the query doesn’t have information that describes the region for unlicensed European employees. Even if employee #101 attended meetings with European colleagues, the filter does not know to include those meetings in the "Meetings with Europe" metric. As a result, the two custom metrics are not accurate.
+In this scenario, the query doesn’t have information that describes the region for unlicensed European employees. Even if employee #101 attended meetings with European colleagues, the filter does not know to include those meetings in the "Meetings with Europe" metric. As a result, the two custom metrics are not accurate.
 
 | PersonId | Date | Meetings | Meetings with Europe | Meetings without Europe |
 | ---- | ---- | ---- | ---- | ---- |
@@ -157,7 +157,7 @@ In this case, the query doesn’t have information that describes the region for
 
 **Scenario 2:** Unlicensed employees **are** included in organizational data
 
-In this case, the filter can recognize European colleagues from the organizational data and therefore it _does_ know to include meetings in which they participated in the "Meetings with Europe" metric. This gives a more accurate result for the two custom metrics:
+In this scenario, the filter can recognize European colleagues from the organizational data and therefore it _does_ know to include meetings in which they participated in the "Meetings with Europe" metric. This gives a more accurate result for the two custom metrics:
 
 | PersonId | Date | Meetings | Meetings with Europe | Meetings without Europe |
 | ---- | ---- | ---- | ---- | ---- |
