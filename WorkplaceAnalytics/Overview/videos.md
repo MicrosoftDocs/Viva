@@ -46,10 +46,10 @@ The Workplace Analytics documentation offers several videos that explain concept
 
 ## Query designer
 
-* [A week in the life / Person Query designer](../tutorials/Query-basics.md#a-week-in-the-life)
-* [Expensive meetings / Meeting Query designer](../tutorials/Query-basics.md#a-week-in-the-life)
+* [A week in the life - Person query](../tutorials/Query-basics.md#a-week-in-the-life)
+<!--* [Expensive meetings - Meeting query](../tutorials/Query-basics.md#a-week-in-the-life)
 
-<!-- NOTE: THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
+ NOTE: The link above is not correct for expensive meetings and THIS TOPIC IS NOW A PLACEHOLDER. VIDEOS CAN BE PUBLISHED HERE IN THE FUTURE. -->
 
 <!-- REMOVED PER DAYSHA ON 20 MAY 2021 AT THE URGING OF Karlee Scott-Murphey, a GBB for Viva Insights 
 ## Office mechanics
