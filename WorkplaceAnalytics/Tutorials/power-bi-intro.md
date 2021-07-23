@@ -1,6 +1,6 @@
 ---
-title: Workplace Analytics Templates
-description: Learn about the Templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
+title: Query designer templates
+description: Learn about the Query designer templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
 ms.topic: article
 localization_priority: normal
 ms.prod: wpa
@@ -10,7 +10,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Templates in Workplace Analytics
+# Templates in Query designer
 
 The Query designer in Workplace Analytics includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
 
