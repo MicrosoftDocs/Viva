@@ -13,7 +13,7 @@ ms.prod: wpa
 
 # Network query metrics
 
-The ([Network person query](ona-person-query.md)) and [Network person-to-person query](ona-person-to-person-query.md)) use a number of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups.
+The [Network person query](ona-person-query.md) and [Network person-to-person query](ona-person-to-person-query.md) use a number of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups.
 
 These connectivity relationships are of two broad types, _influence_ and _ties_. People in a company can have varying amounts of influence over their coworkers. Because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people including, _diverse_ and _strong_. Identifying these ties can help you determine aspects such as, team alignment and potential for the flow of information and ideas.
 
