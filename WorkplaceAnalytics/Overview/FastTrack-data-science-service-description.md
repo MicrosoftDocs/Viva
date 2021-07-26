@@ -12,7 +12,7 @@ audience: Admin
 ---
 
 # Workplace Analytics FastTrack Data Science Service
-
+ 
 ## Service Overview
 
 * The Workplace Analytics Analysis Service offered under Microsoft 365 FastTrack provides you with assistance on running Workplace Analytics queries and interpreting those results.
