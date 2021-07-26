@@ -14,9 +14,6 @@ audience: Admin
 
 # My organization in Viva Insights
 
->[!Important]
->On July 22 and 23, Workplace Analytics will be offline for scheduled maintenance. During this service outage, these insights will be unavailable in Teams. We apologize for any inconvenience this might cause.
-
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
 ![Outcomes page](../images/wpa/use/viva-org-outcomes-2.png)
