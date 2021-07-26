@@ -155,6 +155,8 @@
                       href: ~/tutorials/power-bi-collab-track.md
                     - name: Return to worksites
                       href: ~/tutorials/power-bi-return-tw.md
+                    - name: Behavior patterns for Glint
+                      href: ~/tutorials/power-bi-glint-2.md
                     - name: Business continuity
                       href: ~/tutorials/power-bi-bc.md
                     - name: Teams insights

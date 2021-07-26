@@ -16,7 +16,7 @@ The following are interactive demonstrations of the Power BI dashboards availabl
 
 | &nbsp; | &nbsp; |
 |------|-------|
-|![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Behavior patterns demo**](./power-bi-glint.md#demonstration) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
+|![Behavior patterns icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Behavior patterns demo**](./power-bi-glint-2.md#demonstration) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
 |![Business communication icon](../images/wpa/playbooks/focus-64x64.svg) |[**Business continuity demo**](./power-bi-bc.md#demonstration)<br>Shows example insights into how shifting to remote work has impacted business. |
 |![Manager effectiveness icon](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Manager effectiveness demo**](./power-bi-manager.md#demonstration) <br>Shows analysis to measure behaviors and trends of people managers across four key themes within your organization, including coaching, empowerment, connecting, and modeling. |
 |![Microsoft Teams insights icon](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Microsoft Teams insights demo**](./power-bi-teams.md#demonstration) <br>Shows sample data for insights into how adopting Microsoft Teams can affect collaboration and productivity in your organization. |
