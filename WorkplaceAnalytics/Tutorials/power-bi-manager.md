@@ -72,8 +72,8 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Create**, locate and select **Manager effectiveness** (or select **influence insights by month**, per **Step 8**) to open the setup steps for the required metrics to populate the dashboard.
-3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
+2. In **Create** > **Other templates**, select **Manager effectiveness** to see the required setup steps, and then in step 2, select **Set up** next to **Manager effectiveness** (or select **Influence insights by month**, per **Step 8**).
+3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
 5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify managers and their groups, such as **LevelDesignation**, **ManagerId**, **Organization**, and **SupervisorIndicator**.

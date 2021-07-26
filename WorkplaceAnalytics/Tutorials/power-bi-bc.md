@@ -73,7 +73,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 
    ![Business continuity template](../Images/WpA/Tutorials/bc-setup-step2.png)
 
-3. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
+3. When prompted for **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
 
    ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
 

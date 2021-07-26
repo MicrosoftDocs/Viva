@@ -98,7 +98,7 @@ The following is required before you can run the query in Workplace Analytics an
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Create**, locate and select **Behavior patterns for Glint** to open the setup steps.
+2. In **Create** > **Other templates**, select **Behavior patterns for Glint** to see the required setup steps, and then in step 2, select **Set up**.
 3. When prompted, select or confirm the following settings:
 
    * **Name** - Customize or keep the default name

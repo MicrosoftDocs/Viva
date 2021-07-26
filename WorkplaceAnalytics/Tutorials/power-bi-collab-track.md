@@ -49,8 +49,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Create**, locate and select **Ways of working tracker**.
-3. Select or confirm the following query settings:
+2. In **Create** > **Featured templates**, select **Ways of working tracker** to see the required setup steps, and then in step 2, select **Set up**.
+3. When prompted, select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
    * **Group by** - Week

@@ -49,7 +49,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Sales business continuity** to see the required setup steps, and then in step 2, select **Set up** next to **Sales business continuity** (or **Domain collaboration** per **Step 7**).
-3. Select or confirm the following query settings:
+3. When prompted, select or confirm the following query settings:
 
    * **Name** - Customize or keep the default name
    * **Group by** – Week

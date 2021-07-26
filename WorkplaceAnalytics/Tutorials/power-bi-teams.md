@@ -58,7 +58,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Create**, select **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**) to open the setup steps for the required metrics to populate the dashboard.
+2. In **Create** > **Other templates**, select **Microsoft Teams insights** to see the required setup steps, and then in step 2, select **Set up** next to **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**).
 3. When prompted, select or confirm the following settings:
 
    * **Name** - Customize or keep the default name
