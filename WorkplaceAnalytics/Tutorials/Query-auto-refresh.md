@@ -146,7 +146,7 @@ In **Results**, you can copy a link to the results and then use them in Power BI
 6. Enter your client credentials, and then select **Connect**.
 
 After you do this, Power BI maintains a connection to this query in Workplace Analytics. In the future, to visualize the query's current results, open the Workplace Analytics project in Power BI and select **Refresh**.
-
+ 
 ### Related topics
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
