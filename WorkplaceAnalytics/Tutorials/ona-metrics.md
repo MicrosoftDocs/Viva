@@ -15,7 +15,7 @@ ms.prod: wpa
 
 The Organizational network analysis (ONA) or Network queries ([Network person query](ona-person-query.md)) and [Network person-to-person query](ona-person-to-person-query.md)) use a selection of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups. These connectivity relationships are of two broad types, _influence_ and _ties_. Persons in a company can have varying amounts of influence over their coworkers; because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people and are of two types, _diverse_ and _strong_; identifying these ties can help you determine aspects such as team alignment and potential for the flow of information and ideas.
 
-You can find the basic definitions of the connectivity metrics in [Organizational network analysis metrics](../use/metric-definitions.md#organizational-network-analysis-ONA-metrics):
+You can find the basic definitions of the connectivity metrics in [Organizational network analysis metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics):
 
 | Metric | Available in this query type |
 | ------ | ---------------------------- |
