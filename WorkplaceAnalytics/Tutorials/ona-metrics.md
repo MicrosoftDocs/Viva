@@ -1,7 +1,7 @@
 ---
 
-title: Organizational network analysis (ONA) metrics 
-description: Describes in depth the metrics that are used in Organizational network analysis (ONA) queries
+title: Organizational network analysis (ONA) or Network metrics 
+description: Describes the metrics that are used in network queries
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -13,9 +13,9 @@ ms.prod: wpa
 
 # ONA metrics
 
-The ONA query types ([ONA person query](ona-person-query.md)) and [ONA person-to-person query](ona-person-to-person-query.md)) use a selection of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups. These connectivity relationships are of two broad types, _influence_ and _ties_. Persons in a company can have varying amounts of influence over their coworkers; because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people and are of two types, _diverse_ and _strong_; identifying these ties can help you determine aspects such as team alignment and potential for the flow of information and ideas.
+The Organizational network analysis (ONA) or Network queries ([Network person query](ona-person-query.md)) and [Network person-to-person query](ona-person-to-person-query.md)) use a selection of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups. These connectivity relationships are of two broad types, _influence_ and _ties_. Persons in a company can have varying amounts of influence over their coworkers; because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people and are of two types, _diverse_ and _strong_; identifying these ties can help you determine aspects such as team alignment and potential for the flow of information and ideas.
 
-You can find the basic definitions of the connectivity metrics in [Workplace Analytics metrics / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics):
+You can find the basic definitions of the connectivity metrics in [Network metrics](../use/metric-definitions.md#network-metrics):
 
 | Metric | Available in this query type |
 | ------ | ---------------------------- |
