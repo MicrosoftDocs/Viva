@@ -16,7 +16,7 @@ The Manager effectiveness dashboard for Power BI uses Workplace Analytics data t
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep dive into each theme, along with a **Why it matters** interpretation and best practices recommended by industry experts.
 
-![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/manager-effect-intro.png)
+![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/pbi-manager-intro.png)
 
 The following describes the analysis within each theme and actions you can take, such as tracking changes.
 
