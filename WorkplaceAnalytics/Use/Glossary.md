@@ -36,7 +36,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Custom attribute|*Organizational data* attributes that describe the people being analyzed. If supplied by the company, these attributes can be used in grouping of data, and to filter reports and customize metrics. However, they are not reserved for metrics calculations.|
 | <a name="decision-making-meeting-define"></a> Decision-making meeting | A decision-making meeting has a duration of less than or equal to one hour and has between one and eight attendees (inclusive). |
 | De-identification | A process that is used to prevent the connection of personal identifiers with information. |
-|Focus time|Uninterrupted time blocks of two hours or more with no meetings.|
+|Uninterrupted focus hours |Uninterrupted time blocks of one or more hours with no meetings, emails, calls, or Teams IMs.|
 |Fragmented hours | A person's time after you subtract their meeting hours and their focus hours. |
 |Hashing | Hashing is a cryptographic process that converts a piece of data into another in a way that is easy to compute, extremely difficult to reverse, and highly unlikely that two different pieces of data have the same hash. For example, meeting [subject lines](privacy-settings.md#hash-subject-lines) that are hashed would appear not in their original, readable, form but as a meaningless number. |  
 |Influence |Indicates a person or group's potential influence on opinions of the network or an estimate of social status. The number and strength of connections between employees and the relative collaboration time between them. |

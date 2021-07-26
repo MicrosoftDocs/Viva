@@ -57,23 +57,23 @@ MyAnalytics helps you understand whether you might be impacting team members out
 
 #### How quiet-hours impact is calculated 
 
-Quiet-hours impact is based on collaboration activity that you initiate with team members more than one hour outside of their working hours as configured in Outlook. This activity includes emails and chats you send as well as meetings and calls you hold. For example, if a team member's configured working hours are 9 AM to 5 PM and you arrange a meeting with them from 6 to 7 PM, this counts as quiet-hours impact. 
+Quiet-hours impact is based on collaboration activity that you initiate with team members more than one hour outside of their working hours as configured in Outlook. This activity includes emails and chats you send as well as meetings and calls you hold. For example, if a team member's configured working hours are 9 AM to 5 PM and you arrange a meeting with them from 6 to 7 PM, this counts as quiet-hours impact.
 
-For emails and chats, it is not necessary for the team member to have actually read or responded to the message you sent; the insight is simply intended to draw your awareness to activities that might have impacted team members after hours. 
+For emails and chats, it is not necessary for the team member to have actually read or responded to the message you sent; the insight is simply intended to draw your awareness to activities that might have impacted team members after hours.
 
-### Team meeting habits 
+### Team meeting habits
 
-Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. 
+Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as sending emails or Teams IMs during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
 
-MyAnalytics helps you track your habits in meetings with team members so that you can be sure to set the right standard: 
+MyAnalytics helps you track your habits in meetings with team members so that you can be sure to set the right standard:
 
 ![Collaboration](../../Images/mya/use/leadership-team-meetings.png)
 
-#### How team meetings habits are calculated 
+#### How team meetings habits are calculated
 
-A 'team meeting' is any scheduled meeting on your calendar that includes you and at least one of your team members (including 1:1 meetings). The 'habits' shown in this section are defined as follows: 
+A 'team meeting' is any scheduled meeting on your calendar that includes you and at least one of your team members (including 1:1 meetings). The 'habits' shown in this section are defined as follows:
 
-* **<=1 hour:** team meetings that you scheduled that were no longer than one hour. 
+* **<=1 hour:** team meetings that you scheduled that were no longer than one hour.
 
 * **No overlap with other meetings:** team meetings that you scheduled or were invited to that did not overlap with other meetings on your calendar. 
 
@@ -91,14 +91,13 @@ When you first visit the Leadership page, you are asked to confirm your team mem
 
 If your team list or job function changes, you can select the **Edit team** link at the top of the Leadership page or visit **Configurations** to add/remove team members or to indicate that you are no longer a manager.
 
-> [!Note] 
-> If you indicate that you're not a manager, you will not be able to turn the Leadership page back on for yourself in the future. 
+>[!Note] 
+>If you indicate that you're not a manager, you will not be able to turn the Leadership page back on for yourself in the future. 
 
 ### To open Configurations
 
 1. Go to myanalytics.microsoft.com to open your personal MyAnalytics dashboard.
-
-2. In the left navigation pane, select **Config settings**. 
+2. In the left navigation pane, select **Config settings**.
 
    ![Configurations](../../Images/mya/use/leadership-config.png)
 
