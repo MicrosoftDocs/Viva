@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Behavior patterns for Glint dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and Glint data
 author: paul9955
@@ -13,7 +13,10 @@ audience: Admin
 
 # Behavior patterns for Glint
 
-The Behavior patterns for Glint dashboard uses a Power BI template to combine sentiment data from Glint with behavioral data from Workplace Analytics and Viva Insights in Teams. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
+[!Note]
+>The Behavior patterns for Glint dashboard currently supports only Glint reports that are in English. For example, if you are a customer with data in Japanese, please export the Glint report in English before you upload it to PBI. If you encounter errors even with the report exported in English, please delete and then manually type in the column headers in English.
+
+The Behavior patterns for Glint dashboard uses a Power BI template to combine sentiment data from Glint with behavioral data from Workplace Analytics. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
 This analysis uses survey scores and working patterns to identify outlying teams who might need attention. Even for leaders who are already aware of team issues, the dashboard creates high-level visibility enabling them to use research-based and data-driven actions to change or improve workplace behaviors.
 
@@ -23,23 +26,25 @@ The dashboard combines the following data.
 |------------|------------|------------|
 |Wellbeing |My company takes a genuine interest in their employees' wellbeing. |<ul><li>After hours metrics</li><li>Burnout risk</li><li>Focus hours</li></ul>|
 | Connection | I feel a sense of belonging at my company. | <ul><li>Internal network size</li><li>Small group meeting hours</li></ul>|
+
 | Clarity | My manager keeps our team focused on clear priorities. | Manager one-on-one hours |
 | Empowerment | I feel empowered to make decisions regarding my work. | <ul><li>Co-attendance rate</li><li>Time in self-organized meetings</li></ul>|
 | Growth | I have good opportunities to learn and grow at my company. |<ul><li>Internal network size</li><li>External network size</li><li>Time in skip-level collaboration</li></ul>|
 
 :::image type="content" source="../images/wpa/tutorials/pbi-glint-wellbe-2.png" alt-text="Power BI Glint Wellbeing report":::
 
-<!-- FORMERLY HERE
+
+<!-- SWITCHING TO NEW IMAGE STYLE. FORMERLY HERE:
 ![Power BI Glint Wellbeing report](../Images/WpA/Tutorials/pbi-glint-wellbeing.png) -->
 
 The dashboard includes the following reports.
 
-* **Wellbeing** &ndash; Compares wellbeing scores for the selected HR attributes, such as organization or level designation, and shows how workweek span, after-hours work, and collaboration  hours might be affecting wellbeing for specific teams. You'll also see research-based, actionable strategies to help change behaviors that might be contributing to low wellbeing scores.
+* **Wellbeing** &ndash; Compares wellbeing scores for the selected HR attributes, such as organization or level designation, and shows how after-hours work, focus hours, and burnout risk might be affecting wellbeing for specific teams. You'll also see research-based, actionable strategies to help change behaviors that might be contributing to low wellbeing scores.
 * **Connection** &ndash; Compares employee connection scores for the selected HR attribute to show how small group meeting hours and internal network size might be affecting employees’ feeling of connection. Helps leaders identify and support teams who might have underlying conditions that are affecting both their connection scores and collaboration patterns.
 * **Clarity** &ndash; Compares prioritization scores for the selected HR attribute to show how manager one-on-one time might be affecting employees’ ability to focus on and prioritize their work. Gives teams easy-to-implement plans that create opportunities for employees to more regularly meet with their managers one-on-one and prioritize their work.
-* **Empowerment** &ndash; Compares empowerment scores for the selected HR attribute to show how manager co-attendance and time in self-organized meetings might affect employee empowerment. Helps leaders identify and support teams who might have underlying conditions affecting both their empowerment and collaboration patterns .
-* **Growth** &ndash; Compares growth scores for the selected HR attribute to show how network sizes and time in skip-level collaboration might affect team growth scores. Helps leaders identify and support teams who might have underlying conditions affecting their work patterns. 
-* **How can I take action to improve employee experience?** &ndash; Summarizes opportunities to improve employee experience by addressing related behaviors for individual, collective, and environmental interventions. After any interventions are started, leaders can use Viva Insights data   to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
+* **Empowerment** &ndash; Compares empowerment scores for the selected HR attribute to show how manager co-attendance and time in self-organized meetings might affect employee empowerment. Helps leaders understand how meeting behaviors impact autonomy and effectiveness.
+* **Growth** &ndash; Compares growth scores for the selected HR attribute to show how network sizes and time in skip-level collaboration might affect team growth scores. It reveals the impact of network size and leadership interactions on development.
+* **How can I take action to improve employee experience?** &ndash; Summarizes opportunities to improve employee experience by addressing related behaviors for individual, collective, and environmental interventions. After any interventions are started, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 
 ## Demonstration
 
@@ -51,7 +56,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 The following video describes how to set up the dashboard, which might not be exactly what you experience with data that's unique to your organization.
 
-<iframe src="https://player.vimeo.com/video/475970348" width="800" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/571969511" width="800" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## High-level steps
 
@@ -150,10 +155,10 @@ The following is required before you can run the query in Workplace Analytics an
 
 ## Dashboard settings
 
-After the Behavior patterns dashboard is set up and populated with both the Glint and Viva Insights data in Power BI and before viewing data in the dashboard, set the following parameters on the **Settings** and **Theme mapping** pages.
+After the Behavior patterns dashboard is set up and populated with both the Glint and Workplace Analytics data in Power BI and before viewing data in the dashboard, set the following parameters on the **Settings** and **Theme mapping** pages.
 
 1. **Select the Glint attribute to view the report by** &ndash; In **Settings**, select the primary “group-by” attribute that represents the teams in Glint. To clear an existing mapping, select the **Reset** arrow.
-2. **Select corresponding attributes or values for the Workplace Analytics or Viva Insights data** &ndash; For each Glint value, select the matching field value (ideally one to one) that is used in Workplace Analytics or Viva Insights data.
+2. **Select corresponding attributes or values for the Workplace Analytics data** &ndash; For each Glint value, select the matching field value (ideally one to one) that is used in Workplace Analytics data.
 
    ![Behavior patterns Settings page 1](../Images/WpA/Tutorials/select-glint-settings.png)
 
@@ -165,10 +170,7 @@ After the Behavior patterns dashboard is set up and populated with both the Glin
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
-<!-- WAS MISSING FROM DRAFT WORD DOC. REMOVED INTENTIONALLY?
-
 ## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
--->

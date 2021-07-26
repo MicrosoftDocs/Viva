@@ -2,7 +2,7 @@
 
 title: Workplace Analytics data analysis
 description: High-level overview of ways to use Workplace Analytics to analyze data
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -17,11 +17,20 @@ audience: Admin
 
 # Data analysis in Workplace Analytics
 
-The Microsoft Workplace Analytics web app gives leaders unprecedented insights about how people spend their time and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
+The Microsoft Workplace Analytics web app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
 Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with custom queries and query templates.
 
-Workplace Analytics provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). As a Workplace Analytics subscriber, you can analyze and explore data in the following ways.
+## Requirements for analysts
+
+Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
+
+>[!Note]
+>An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
+
+## Options for exploring and analyzing data
+
+Workplace Analytics provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways.
 
 * [**Microsoft Viva Insights**](../use/viva-insights-intro.md) in Microsoft Teams enables managers to see team insights and business leaders to see organizational insights within the Teams app. Individuals can see their own personal and private insights within Teams as well. For details, see [Personal Viva Insights](/insights/teams-app).
 * [**Workplace Analytics Insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to the app, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get the Workplace Analytics app set up.
