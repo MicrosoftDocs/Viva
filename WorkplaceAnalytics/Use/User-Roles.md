@@ -34,7 +34,7 @@ These are the Workplace Analytics roles and their level of access:
 
 The following shows who can access what in Workplace Analytics.
 
-| Page        | Page description | Administrator | Analyst | Analyst (Limited Access) | Program Manager | People Manager |
+| Page        | Description | Administrator | Analyst | Analyst (Limited Access) | Program Manager | People Manager |
 | ------------- | ---------------- | ------------- | ------- | ------------------------ | --------------- | -------------- |
 | **Home**      | View highlights from the latest data; see the latest notifications | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 | **Analyze**   | &nbsp;                                                             | &nbsp;    | &nbsp;                                                      | &nbsp;   | &nbsp;  | &nbsp; |
