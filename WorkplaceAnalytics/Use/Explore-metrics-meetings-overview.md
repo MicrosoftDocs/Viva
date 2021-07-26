@@ -1,5 +1,4 @@
 ---
-
 title: Explore meetings overview data in Workplace Analytics
 description: Overview of meetings data in Workplace Analytics
 author: madehmer
