@@ -26,13 +26,11 @@ The dashboard combines the following data.
 |------------|------------|------------|
 |Wellbeing |My company takes a genuine interest in their employees' wellbeing. |<ul><li>After hours metrics</li><li>Burnout risk</li><li>Focus hours</li></ul>|
 | Connection | I feel a sense of belonging at my company. | <ul><li>Internal network size</li><li>Small group meeting hours</li></ul>|
-
 | Clarity | My manager keeps our team focused on clear priorities. | Manager one-on-one hours |
 | Empowerment | I feel empowered to make decisions regarding my work. | <ul><li>Co-attendance rate</li><li>Time in self-organized meetings</li></ul>|
 | Growth | I have good opportunities to learn and grow at my company. |<ul><li>Internal network size</li><li>External network size</li><li>Time in skip-level collaboration</li></ul>|
 
 :::image type="content" source="../images/wpa/tutorials/pbi-glint-wellbe-2.png" alt-text="Power BI Glint Wellbeing report":::
-
 
 <!-- SWITCHING TO NEW IMAGE STYLE. FORMERLY HERE:
 ![Power BI Glint Wellbeing report](../Images/WpA/Tutorials/pbi-glint-wellbeing.png) -->

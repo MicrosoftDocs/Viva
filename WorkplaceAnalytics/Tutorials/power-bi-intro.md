@@ -25,7 +25,7 @@ Workplace Analytics includes the following Power BI dashboards for visually anal
 
 | &nbsp; | &nbsp; |
 |------|-------|
-|![Behavior patterns icon](../images/wpa/playbooks/influencer-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes. |
+|![Behavior patterns icon](../images/wpa/playbooks/influencer-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint-2.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes. |
 |![Business communication icon](../images/wpa/playbooks/focus-64x64.svg) |[**Business continuity**](./power-bi-bc.md)<br>Shows example insights into how shifting to remote work has impacted business. |
 |![Manager effective icon](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Manager effectiveness**](./power-bi-manager.md)<br>Measures behaviors and trends of people managers across four key themes within your organization, including coach, empower, connect, and model. |
 |![Microsoft Teams insights icon](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Microsoft Teams insights**](./power-bi-teams.md) <br>Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization. |
