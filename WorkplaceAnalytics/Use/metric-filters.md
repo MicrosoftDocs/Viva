@@ -38,7 +38,6 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | IsSender | True means that this person sent the email; <br>False means that this person did not send the email. |
 | Is sent during meeting | Counts emails that a person sends during a meeting |
 | Is sent during unscheduled call | Counts emails sent during an unscheduled Teams call. |
-
 | Time of day | Time of day on which the email was sent |
 | Number of recipients | Number of the recipients on which the email was sent |
 | Subject | The Subject line of the email |
