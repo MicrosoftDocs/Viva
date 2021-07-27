@@ -51,14 +51,15 @@
       "hideEdit": true,
       "searchScope": ["Workplace Analytics"],
       "titleSuffix": "Workplace Intelligence",
-      "contributors_to_exclude": [
+      "contributors_to_exclude": [ 
         "rjagiewich", 
         "traya1", 
         "rmca14", 
         "claydetels19", 
         "jborsecnik",
         "tiburd",
-        "garycentric"
+        "garycentric",
+        "rodonahu"
       ]
     },
     "fileMetadata": {
