@@ -30,7 +30,7 @@ You can use any of connectivity metrics in the Network person query; in this exa
 4. For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
 
    >[!Note]
-   >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with an Network query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
+   >Currently, the only [meeting-exclusion rule](meeting-exclusions-intro.md) that can be used with a Network query is the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule). As you build your query, this rule is selected by default; it cannot be deselected.
 
 5. If you want the query to run repeatedly, on a regular schedule, select **Auto-refresh**. (For more information, see [Auto-refresh option for queries](query-auto-refresh.md).)
 
