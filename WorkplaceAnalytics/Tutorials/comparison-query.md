@@ -116,7 +116,7 @@ For descriptions of available metrics, see [Peer-comparison metrics](../use/metr
 
 ## View results
 
-After the query finishes running, its row in the **Queries / Results** page shows a check mark in the Status column. You can then download and open the results file. (Results files are in .csv format.)
+After the query finishes running, its row in **Query designer** > **Results** shows a check mark in the Status column. You can then download and open the results file. (Results files are in .csv format.)
 
 ![Results file](../images/wpa/tutorials/results-file-3.png)
 

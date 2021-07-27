@@ -73,7 +73,7 @@ In **Interactive Data**, as you [customize visualizations](#customize-your-data-
 
 ## Optionally create a plan  
 
-Query designer can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in with **Plans** in Workplace Analytics.
+Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in with **Plans** in Workplace Analytics.
 
 For more information about plans, see [Workplace Analytics plans](solutionsv2-intro.md).  
 

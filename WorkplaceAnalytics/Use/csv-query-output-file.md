@@ -12,7 +12,7 @@ audience: Admin
 
 # Understand and interpret query output
 
-After you run a query in Workplace Analytics, you'll see the Results in Query designer as a list with the option to download them as a .csv (comma-separated values) file.
+After you run a query in Workplace Analytics, you'll see the list of query results in **Query designer** > **Results** with the option to download them as a .csv (comma-separated values) file.
 
 ![.csv file download](../images/WpA/Use/qd-results-download.png)
 

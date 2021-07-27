@@ -18,7 +18,7 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 * [View existing meeting exclusion rules](#to-view-meeting-exclusion-rules) - Get acquainted with the default rule and with the rules that you or others have published.
 * [Create new meeting exclusion rules](#create-a-meeting-exclusion-rule) - Define up to five individual meeting exclusions and then publish them together as one meeting exclusion rule.
 * [Edit a draft rule](#edit-a-draft-rule) - You can edit a saved draft of an exclusion rule before publishing it.
-* [Select a rule for use](#select-which-rule-to-use) - Select a rule to apply to data in **Explore the stats** or for the **Query designer** in Workplace Analytics.
+* [Select a rule for use](#select-which-rule-to-use) - Select a rule to apply to data in **Explore the stats** or in **Query designer**.
 * [Archive a rule](#archive-a-rule) - You can archive a rule for later reference.
 
 **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
@@ -229,7 +229,7 @@ You can apply a meeting exclusion rule to a query while you create the query in 
 
 #### To apply a rule to a query
 
-1. In Workplace Analytics, select **Analyze > Query designer**.
+1. In Workplace Analytics, select **Analyze** > **Query designer**.
 
 2. After you select the type of query that you want to create, select the rule for this query in **Meeting exclusions**, as shown in the following example:
 
