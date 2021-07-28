@@ -12,8 +12,7 @@ audience: Admin
 ---
 
 [![Viva announcement](../../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
-
-<br>
+<p><br>
 
 # Adopt MyAnalytics
 
