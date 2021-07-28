@@ -126,4 +126,5 @@ To see more details about the collaboration metrics or the interaction matrix th
 ## Related topics
 
 * [Organizational Network Analysis Azure Template](./organization-network-analysis.md)
+* [ONA metric calculations](./ona-metric-calculations.md)
 * [Workplace Analytics Azure Templates overview](./overview.md)
