@@ -1,5 +1,4 @@
 ---
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Relationship Intelligence report 
 description: Learn about the Relationship Intelligence Power BI report included in Workplace Analytics Azure Templates and how to use it
@@ -166,3 +165,24 @@ After the Relationship Intelligence Report is set up and populated with data, us
 For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
 For more details about how to use Power BI tools, see [Interact with visuals in reports, dashboards, and apps](/power-bi/consumer/end-user-visualizations).
+
+## About the metrics
+
+The following metrics are used in Relationship Intelligence.
+
+|Metric |Description |
+|-------|-----------|
+|Connectivity Score |Geometric mean of the inverse of the Latest Engagement, the Total Collaboration Hours, and the Collaboration Participants divided by the number of internal and external people involved in the interactions. Normalized to control for the different account sizes, the score is higher for customers who have more participants and collaboration hours and were more recently contacted.  number of people, total time, and recency of communication between internal groups and external accounts. |
+|Email Hours |Total number of hours spent collaborating in emails with an individual, group, or account. |
+|Collaboration Participants|Total number of unique participants in an external domain that internal groups are directly connected with or the number of unique internal contacts that external individuals or accounts are interacting with depending on the report table. |
+|Influence Rank |Indicates a group or an individual's potential influence on opinions of the network. Essentially, the number and strength of connections for a group or an individual. The values are between 0 and 1. The metric is exposed as a rank within a group where 1 is the most influential. |
+|Latest Engagement |The most recent date where an external account or individual was contacted by an internal group. |
+|Meaningful Connections |Within any given month, two individuals must have had at least two emails, two meetings, or one email and one meeting to count as a meaningful connection. Emails or meetings must have two to eight participants (including cc'd or bcc'd people). Meetings longer than eight hours or with over 550 participants are excluded. Also, meetings with keywords, such as party, vacation, sick leave, and so on, are also excluded.|
+|Meeting Hours |Total number of hours spent collaborating in meetings with an individual, group, or account. |
+|Total Collaboration Hours |Total sum of Email Hours and Meeting Hours, which represents the total person hours spent with an individual, group, or account. |
+
+## Related topics
+
+* [Workplace Analytics Azure Templates overview](./overview.md)
+* [What's new in Workplace Analytics Azure Templates](./release-notes.md)
+* [Deploy and configure Workplace Analytics Azure Templates](./deploy-configure.md)
