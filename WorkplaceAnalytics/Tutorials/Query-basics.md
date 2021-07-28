@@ -11,11 +11,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
-
-<br>
-
 # Queries overview
+
+[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
