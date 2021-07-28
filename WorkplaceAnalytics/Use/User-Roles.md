@@ -16,10 +16,7 @@ audience: Admin
 
 # User roles in Workplace Analytics
 
-The Workplace Analytics user roles are each distinct in their assigned responsibilities and access permissions. Each user role only gives access to actions, pages, dashboards, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and do not roll up.
-
->[!Note]
->An administrator of Microsoft 365 or Azure Active Directory [assigns the roles](../setup/assign-user-roles.md) that are described in this topic.
+Users of Workplace Analytics require the correct level of access to specific product areas to perform their required tasks. The roles are distinct in their assigned responsibilities and access permissions. Each role only gives access to actions, pages, dashboards, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and do not roll up.
 
 ## Role descriptions and access levels
 
