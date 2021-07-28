@@ -16,7 +16,7 @@ audience: Admin
 
 # User roles in Workplace Analytics
 
-Users of Workplace Analytics require the correct level of access to specific product areas to perform their required tasks. The roles are distinct in their assigned responsibilities and access permissions. 
+Users of Workplace Analytics require the correct level of access to specific product areas to perform their required tasks. The roles are distinct in their assigned responsibilities and access permissions.
 
 Each role only gives access to actions, pages, dashboards, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and do not roll up.
 
@@ -77,7 +77,7 @@ Consider the following personas when granting the different levels of access to 
 
 ### Access to resources
 
-In Azure Active Directory, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see **Related topics**.
+In Azure Active Directory, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see [Related topics](#related-topics).
 
 ## Aspects of role assignment
 
