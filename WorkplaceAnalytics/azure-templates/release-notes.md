@@ -55,10 +55,16 @@ To learn more, see [Relationship Intelligence](./relation-intel.md).
 
 ### Process Explorer
 
-* **Interaction type selection for Starter Templates** - You can now select the types of interactions you want to include in individual Starter Template categories. By default, both emails and meetings are selected for Starter Templates. However, you can now select to only analyze emails or only meetings for each category. 
-* **Filters for categorization analysis** - When creating a new analysis with the Starter Template categorization model, you can now select group attributes to filter your analysis by. When viewing your categorization analysis, you can now filter by these group attributes, along with interaction types and categories. Metrics, charts, and communication flow in your analysis will now change to reflect the applied filters. 
+* **Interaction type selection for Starter Templates** - You can now select the types of interactions you want to include in individual Starter Template categories. By default, both emails and meetings are selected for Starter Templates. However, you can now select to only analyze emails or only meetings for each category.
+* **Filters for categorization analysis** - When creating a new analysis with the Starter Template categorization model, you can now select group attributes to filter your analysis by. When viewing your categorization analysis, you can now filter by these group attributes, along with interaction types and categories. Metrics, charts, and communication flow in your analysis will now change to reflect the applied filters.
 
 To learn more, see [Process Explorer](./process-explorer.md).
+
+### Workspace Collaboration Optimizer
+
+The Workspace Collaboration Optimizer is a new open-sourced set of Python-based web apps (Jupyter Notebooks) that can help with seating plans that are optimized for innovation and cross-team collaboration. The underlying algorithm minimizes the distance between teams who collaborate the most with each other. You can use this tool to generate seating plans quickly and objectively, in a data-driven way.
+
+To learn more, see [Workspace Collaboration Optimizer](../use/wsplan.md).
 
 ## May 2021
 
