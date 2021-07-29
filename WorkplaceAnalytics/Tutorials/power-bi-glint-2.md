@@ -13,7 +13,7 @@ audience: Admin
 
 # Behavior patterns for Glint
 
->[!Note]
+[!Note]
 >The Behavior patterns for Glint dashboard currently supports only Glint reports that are in English. For example, if you are a customer with data in Japanese, please export the Glint report in English before you upload it to PBI. If you encounter errors even with the report exported in English, please delete and then manually type in the column headers in English.
 
 The Behavior patterns for Glint dashboard uses a Power BI template to combine sentiment data from Glint with behavioral data from Workplace Analytics. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
@@ -26,7 +26,7 @@ The dashboard combines the following data.
 |------------|------------|------------|
 |Wellbeing |My company takes a genuine interest in their employees' wellbeing. |<ul><li>After hours metrics</li><li>Burnout risk</li><li>Focus hours</li></ul>|
 | Connection | I feel a sense of belonging at my company. | <ul><li>Internal network size</li><li>Small group meeting hours</li></ul>|
-| Clarity | My manager keeps our team focused on clear priorities. | <ul><li>Manager one-on-one hours</li></ul> |
+| Clarity | My manager keeps our team focused on clear priorities. | Manager one-on-one hours |
 | Empowerment | I feel empowered to make decisions regarding my work. | <ul><li>Co-attendance rate</li><li>Time in self-organized meetings</li></ul>|
 | Growth | I have good opportunities to learn and grow at my company. |<ul><li>Internal network size</li><li>External network size</li><li>Time in skip-level collaboration</li></ul>|
 
@@ -168,10 +168,7 @@ After the Behavior patterns dashboard is set up and populated with both the Glin
 
 For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 
-<!-- WAS MISSING FROM DRAFT WORD DOC. REMOVED INTENTIONALLY?
-
 ## Related topic
 
 [View, download, and export query results](../use/view-download-and-export-query-results.md)
 
--->

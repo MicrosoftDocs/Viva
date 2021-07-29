@@ -14,9 +14,6 @@ audience: Admin
 
 # My Team in Viva Insights
 
->[!Important]
->On July 22 and 23, Workplace Analytics will be offline for scheduled maintenance. During this service outage, these insights will be unavailable in Teams. We apologize for any inconvenience this might cause.
-
 You can view manager insights on the **My Team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
 ![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
