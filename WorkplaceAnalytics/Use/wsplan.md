@@ -163,7 +163,7 @@ When you open a seating plan file, you’ll see teams assigned to zones or neigh
 
 The following shows an example seating plan where the Product team has 64 people assigned to Floor 1, Zone A and 16 people assigned to Floor 1, Zone B.
 
-![Example seating plan](../images/wpa/use/wsp-example-floorplan.png)
+![Example floor plan](../images/wpa/use/wsp-example-floorplan.png)
 
 ## Create the zone coordinates
 
