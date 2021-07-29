@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Workspace Collaboration Optimizer 
 description: Learn about the Workspace Collaboration Optimizer and how to use it to create seating plans
 author: madehmer
@@ -13,13 +12,14 @@ audience: Admin
 ---
 # Workspace Collaboration Optimizer 
 
-As a facility management professional or occupancy planner,  you can use the Workspace Collaboration Optimizer   to plan a workspace. If your company is moving to a new worksite or reorganizing an existing workspace, this open-source tool can help, as follows:
+As a facility management professional or occupancy planner,  you can use the Workspace Collaboration Optimizer to plan a workspace. If your company is moving to a new worksite or reorganizing an existing workspace, this open-source tool can help, as follows:
 
 * Increase innovation and collaboration by locating employees next to people who collaborate the most.
 * Take the subjectivity and politics out of occupancy plans.
 * Increase employee productivity by reducing the time spent travelling between meetings.
 
 The Workspace Collaboration Optimizer is an open-sourced set of Python-based web apps (Jupyter Notebooks) that can help with seating plans that are optimized for innovation and cross-team collaboration. The underlying algorithm minimizes the distance between teams who collaborate the most with each other. You can use this tool to generate seating plans quickly and objectively, in a data-driven way.
+
 The algorithm for this tool accounts for the following rules and constraints:
 
 * **Teams stay together** - When a workspace can seat everyone on the team, it will keep them all together.
