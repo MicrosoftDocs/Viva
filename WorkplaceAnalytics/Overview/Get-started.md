@@ -17,6 +17,8 @@ audience: Admin
 
 # Data analysis in Workplace Analytics
 
+[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+
 The Microsoft Workplace Analytics web app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
 Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with custom queries and query templates.
