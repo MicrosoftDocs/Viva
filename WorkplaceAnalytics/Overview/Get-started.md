@@ -15,11 +15,9 @@ audience: Admin
 
 ---
 
-[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
-
-<br>
-
 # Data analysis in Workplace Analytics
+
+[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 The Microsoft Workplace Analytics web app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
@@ -46,6 +44,7 @@ Workplace Analytics provides advanced analysis tools for deep diving into the da
 
 * [**Explore the stats**](../use/explore-intro.md) data helps you analyze organizational data trends that are summarized by week, for meetings, by network connections, for management and coaching, and for external collaboration.
 * [**wpa R package**](../tutorials/wpa-r-package.md) is an open-source repository of more than 100 functions that provide low-code pre-built analyses that can help leaders use the data that Workplace Analytics provides to solve more specific problems.
+* [**Workspace Collaboration Optimizer**](../use/wsplan.md) is an open-sourced set of Python-based web apps (Jupyter Notebooks) that can help you create seating plans that are optimized for innovation and cross-team collaboration. The underlying algorithm minimizes the distance between teams who collaborate the most with each other.
 * [**Plans**](../tutorials/solutionsv2-intro.md) provide plans such as the _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Workplace Analytics and MyAnalytics. You can use Workplace Analytics to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
 * [**Settings**](../use/settings.md) in Workplace Analytics includes the following:
 
