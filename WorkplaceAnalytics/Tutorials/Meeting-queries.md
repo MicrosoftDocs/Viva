@@ -33,14 +33,11 @@ Use a person query when you want to understand the relationship between a person
 
 Setting up a meeting query is simple. Select whether you want the metrics for each meeting summarized by day, week, or month, and the time period you’d like to analyze.
 
-Use the options in the **Exclusions** pane to exclude meetings or attendees from this query's analysis. To do this, in the **Meeting exclusions** field, select a custom meeting-exclusion rule or use the default meeting exclusion rule. Also (optionally), select an attendee exclusion in the **Attendee exclusions** field:
+Use the options in the **Exclusions** pane to exclude meetings or attendees from this query's analysis. To do this, in the **Meeting exclusions** field, select a custom meeting-exclusion rule or use the default meeting exclusion rule. Optionally, you can also select an attendee exclusion in **Attendee exclusions**.
 
-  ![Exclusions -- meeting and attendee](../Images/WpA/Tutorials/exclusions-in-query_2.png)
- 
-By running this query with no exclusions, you will get an output file that can help you determine the right criteria to separate work-related activities from other calendar items.
+If you run a meeting query with no exclusions, the output file can help you determine the right criteria to separate work-related activities from other calendar items.
 
    ![Meeting query no exclusions](../Images/WpA/Tutorials/meeting-no-exclusions.png)
-
 
 ## Add filters
 
@@ -78,7 +75,7 @@ When you run a meeting query in Workplace Analytics, the output (.csv) file can 
 
 * Improves data analysis with fewer columns in a smaller file.
 * Further protects private data by excluding select columns from the file.
-* Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns. 
+* Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns.
 
 ![Organizational data section](../Images/WpA/Tutorials/query-org-data-m.png)
 
@@ -97,10 +94,10 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 
 ### To create a custom meeting query for long recurring meetings
 
-1. In Workplace Analytics, select **Analyze** > **Queries** > **Meeting**.
-2. Select and change **Enter query name here** to **Long recurring Ops meetings**.
+1. In Workplace Analytics, select **Analyze** > **Query designer** > **Get started** under **Query**, and then select **Meeting**.
+2. Select **Enter query name here** and name it **Long recurring Ops meetings**.
 3. For **Group by**, select **week**.
-4. Enter the **Date range** you want.
+4. Enter the **Date range** you want to analyze.
 5. For **Meeting exclusions**, select an exclusion rule for this query.
 6. To add a custom filter to include only meetings with at least one attendee from Operations, under **Filters**, select **Add filter**, select **Attendee**, and then select **Function** > equals > **Operations**.
 7. To add a custom filter to include only meetings that are two hours or longer, select the **+** (plus sign) to add another filter, then select **Meeting** > **Duration (in hours)** > greater than or equal to > **2**.
@@ -110,7 +107,7 @@ Continuing the example from [Person queries](../Tutorials/meeting-queries.md), t
 11. To add a metric for the total meeting hours of attendees, select **Add metric** > **Attendee meeting hours**, and then select and change the metric's name to **Total attendee meeting hours**.
 12. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 13. Select **Run** at the top right to run the query.
-14. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+14. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ### Meeting query results
 

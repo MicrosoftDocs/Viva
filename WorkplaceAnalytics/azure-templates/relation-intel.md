@@ -88,7 +88,7 @@ The Relationship Intelligence report includes a **General insights** section tha
 1. [Prerequisites](#prerequisites) - Confirm or complete all the prerequisites.
 2. [Add an account mapping](deploy-configure.md#account-mapping) - Follow the steps to create a new account mapping file for Workplace Analytics Azure Templates.
 3. [Add new analysis](#add-new-analysis) - Follow the steps to create the dataset in Workplace Analytics Azure Templates that the Power BI report uses.
-4. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the Power BI template and load the data in Power BI. You can then use Power BI to visualize the data and drill in and focus on account details.
+4. [Load the data and view the report](#load-the-data-and-view-the-report) - Follow the steps to download the template and load the data in Power BI. You can then use Power BI to visualize the data and drill in and focus on account details.
 
 ## Prerequisites
 
@@ -180,6 +180,8 @@ The following metrics are used in Relationship Intelligence.
 |Meaningful Connections |Within any given month, two individuals must have had at least two emails, two meetings, or one email and one meeting to count as a meaningful connection. Emails or meetings must have two to eight participants (including cc'd or bcc'd people). Meetings longer than eight hours or with over 550 participants are excluded. Also, meetings with keywords, such as party, vacation, sick leave, and so on, are also excluded.|
 |Meeting Hours |Total number of hours spent collaborating in meetings with an individual, group, or account. |
 |Total Collaboration Hours |Total sum of Email Hours and Meeting Hours, which represents the total person hours spent with an individual, group, or account. |
+
+For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
 
 ## Related topics
 

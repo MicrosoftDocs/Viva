@@ -1,7 +1,7 @@
 ---
 
 title: Workplace Analytics query overview
-description: Workplace Analytics offers a number of flexible queries for custom data analysis
+description: Workplace Analytics offers a number of queries for custom data analysis
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,13 +11,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Queries overview
-
 [![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
-Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
+# Queries overview
 
-![Ways to query data](../Images/WpA/Use/ways-to-query-data.png)
+The Query designer in Workplace Analytics offers a few different custom query options, including: [Person](#person-query), [Meeting](#meeting-query), [Group-to-group](#group-to-group-query), [Person-to-group](#person-to-group-query), [Peer comparison](#peer-comparison-query), and [Network](#network-queries) queries. Each query type can help you investigate and answer specific business questions. The different query types give you the flexibility to look at data from multiple perspectives and generate powerful insights. You can also combine output from two different queries to gain even more in-depth insights.
 
 With these queries, you can:
 
@@ -25,11 +23,9 @@ With these queries, you can:
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
-### Time limit for querying data 
+### Time limit for query data
 
-<!-- ORIGINAL: The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a rolling window. This means that—after you have 27 months of data—with each month that passes, the limit of data that you can query (which lies 27 months in the past) advances by one month. -->
-
-The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Microsoft 365 data](../use/office-365-data.md) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
+The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that after you have 27 months of [Microsoft 365 data](../use/office-365-data.md), the data is refreshed each week and the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
@@ -93,12 +89,12 @@ See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
 
 ## Network queries
 
-You can use the Organizational network analysis (ONA) queries in Workplace Analytics to find out who are the best-connected people in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
+You can use Network queries in Workplace Analytics to find out who the best-connected people are in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
-See [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) for more details.
+See [Network person queries](ona-person-query.md) and [Network person-to-person queries](ona-person-to-person-query.md) for details.
 ## Meeting exclusions
 
-You can use meeting exclusions to exclude meetings that fall outside relevant norms from the queries. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
+You can use meeting exclusions to exclude meetings that fall outside relevant norms for the data. You can select between the default meeting exclusion rules or create custom rules that match your company's meeting conventions.
 
 See [Meeting exclusions](../Tutorials/meeting-exclusions-intro.md) to learn more.
 
@@ -112,7 +108,7 @@ Additionally, the analyst could create a group query to identify the groups invo
 
 You can create queries in the following ways:
 
-* Edit and use a [predefined query template](#predefined-query-templates).
+* Edit and use a [Query template](#query-templates).
 * Create your own custom query.
 * Open and edit a previously run query.
 
@@ -120,9 +116,9 @@ When you create a new query or edit an existing query, you can select the metric
 
 ![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
-## Predefined query templates
+## Query templates
 
-Workplace Analytics includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
+Workplace Analytics includes a number of predefined query templates to help you get started with the Query designer. For details, see [Templates](power-bi-intro.md).
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
@@ -131,22 +127,25 @@ Workplace Analytics includes the following predefined query templates to help yo
 
 ## Videos
 
-The videos in this section were used in a bootcamp for training analysts in how to run queries in Workplace Analytics.
+The following videos were used to train analysts on how to run queries in Workplace Analytics.
+
+>[!Note]
+>These videos were recorded before the new [Query designer](query-designer.md) was available.
 
 ### A week in the life  
 
-The _A week in the life_ video demonstrates how to work with a [person query](person-queries.md).
+The _A week in the life_ video demonstrates how to work with a [Person query](person-queries.md).
 
 <iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### Expensive meetings
 
-The _Expensive meetings_ video demonstrates how to work with a [meeting query](meeting-queries.md). 
+The _Expensive meetings_ video demonstrates how to work with a [Meeting query](meeting-queries.md). 
 
 <iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Related topics
 
-* [Power BI templates](../Tutorials/Power-bi-templates.md)
+* [Templates](../Tutorials/Power-bi-templates.md)
 * [Workplace Analytics glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)

@@ -16,7 +16,7 @@ The Manager effectiveness dashboard for Power BI uses Workplace Analytics data t
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep dive into each theme, along with a **Why it matters** interpretation and best practices recommended by industry experts.
 
-![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/manager-effect-intro.png)
+![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/pbi-manager-intro.png)
 
 The following describes the analysis within each theme and the actions you can take, such as tracking changes.
 
@@ -49,7 +49,7 @@ The dashboard also includes:
 * [**Customize report**](#customize-report) enables you to select what time period and organizational attribute to view the reports by and which employees to include in the reports.
 * **Glossary** that describes the metrics used in the different reports.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the Power BI template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 When the dashboard is populated with your data, you can use it to visualize, explore, and report about your manager's workplace patterns and trends.
 
@@ -69,25 +69,22 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Manager effectiveness** (or select **influence insights by month**, per **Step 8**) to open the predefined query, which contains the required metrics to populate the dashboard.
-3. Select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
-
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Create** > **Other templates**, select **Manager effectiveness** to see the required setup steps, and then in step 2, select **Set up** next to **Manager effectiveness** (or select **Influence insights by month**, per **Step 8**).
+3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
 5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify managers and their groups, such as **LevelDesignation**, **ManagerId**, **Organization**, and **SupervisorIndicator**.
-
 7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
-8. Repeat **Steps 2-7** and select the **influence insights by month** query. Make the same selections as for **Manager effectiveness**.
-9. After both queries successfully run, in **Queries** > **Results**, select the **Download** icon for the **Manager effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
+8. When prompted, select to return to the Query designer, and then repeat **Steps 2-7** and select the **Influence insights by month** query. Make the same selections as for **Manager effectiveness**.
+9. When prompted, select to go to **Results**. After both queries successfully run, in **Query designer** > **Results**, select the **Download** icon for the **Manager effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
 10. Open the downloaded **Manager effectiveness** template.
 11. If prompted to select a program, select **Power BI**.
 12. When prompted by Power BI:
 
-    1. In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    1. In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective URL field.
     3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     4. Select **Load** to import the query results into Power BI. Loading these large files might take a few minutes up to a few hours to complete.
@@ -124,7 +121,7 @@ After this initial prompt, you can then select **Customize** at top right of any
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
 
 ## Related topic
 

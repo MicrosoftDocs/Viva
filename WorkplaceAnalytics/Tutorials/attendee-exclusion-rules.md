@@ -15,7 +15,7 @@ audience: Admin
 
 As an analyst in Workplace Analytics, you can set attendee exclusion rules that exclude from analysis data about meeting invitees, which are based on responses that the invitees made to meeting invitations.
 
-This enables you to measure work-related calendar collaboration in analysis, such as in [queries](query-basics.md). These measurements are most accurate when they include data that reflects genuine collaboration.
+This enables you to measure work-related calendar collaboration in analysis, such as in [Query designer](query-basics.md). These measurements are most accurate when they include data that reflects genuine collaboration.
 
 For example, the data should not include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. Workplace Analytics lets you exclude these kinds of events so that they don't skew your data.
 
@@ -71,7 +71,7 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 **Owners** - Analysts and limited Analysts
 
-1. In [Workplace  Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
+1. In [Workplace  Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 
 2. Create a query; for example, a **Meeting** query.
 
