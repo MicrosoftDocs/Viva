@@ -1,7 +1,7 @@
 ---
 
-title: Power BI template tips, troubleshooting, and FAQ
-description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Workplace Analytics Power BI templates
+title: Power BI tips, troubleshooting, and FAQ
+description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Workplace Analytics Templates
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,9 +11,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Power BI template tips, FAQ, and troubleshooting
+# Power BI tips, FAQ, and troubleshooting
 
-The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Power BI templates in Workplace Analytics.
+The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Templates in Workplace Analytics.
 
 ## Power BI tips
 
@@ -56,11 +56,11 @@ To maintain data privacy, only employees assigned the role of [Analyst](../use/u
 
 Starting with version 2 and later versions of a template, you can find the version number at the end of the title in the lower left of the dashboard’s Settings page.
 
-##### Q6 How can I extend the dates of the query data used in the dashboard?
+##### Q6 How can I extend the dates of the data used in the dashboard?
 
-If you have been using a dashboard for a few months now, you are probably using query data for the last six months. You need to run new queries that include the last one year. For the Business continuity dashboard, see [Template update](../tutorials/power-bi-bc.md#template-update) for details.  
+If you have been using a dashboard for a few months now, you are probably using data for the last six months. You need to run new queries that include the last one year. For the Business continuity dashboard, see [Template update](../tutorials/power-bi-bc.md#template-update) for details.  
 
-##### Q7 How do I set up and run a Workplace Analytics query?
+##### Q7 How do I set up the Workplace Analytics data?
 
 See [Create a Person Query](./person-queries.md) for details.
 
@@ -108,14 +108,14 @@ The following error (or similar 500+ error) can occur for one of the following r
 
   ![OData error](../Images/WpA/Tutorials/bcd-odata-error.png)
 
-* **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the query data, follow these steps to clear existing permissions:
+* **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the data, follow these steps to clear existing permissions:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
   2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Clear permissions**.
   3. Select **Delete**.
   4. Close Power BI and follow the set up instructions for the applicable dashboard.
 
-* **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the Power BI template. To fix it, follow these steps:
+* **If you are signed in with the wrong organizational account**, you'll get an error when loading the data with the template. To fix it, follow these steps:
 
   1. In Power BI, open the **Transform data** menu, and select **Data source settings**.
   2. Select **Global permissions**, select `https://workplaceanalytics.office.com`, and then select **Edit permissions**.
@@ -135,11 +135,11 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
 2. To remediate this error, select **Transform Data** > **Transform Data** to open the Power Query Editor.
 
-3. Select the applicable query.
+3. Select the applicable results.
 
 4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
 
-5. Select the **Hourly collaboration** query and repeat Steps 3-4 to filter out empty values.
+5. Select **Hourly collaboration** and repeat **Steps 3-4** to filter out empty values.
 
 6. Select **Close & Apply** to apply the changes and return to the dashboard.
 
@@ -185,7 +185,7 @@ When setting up a report or refreshing an existing report for either the [Busine
 
 ![Blank values error](../Images/WpA/Tutorials/pbi-blank-error.png)
 
-To resolve this error, you must download the Power BI template for the applicable query from **Queries** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
+To resolve this error, you must download the template for the applicable data in **Query designer** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
 
 ## Support
 
@@ -195,5 +195,5 @@ To resolve this error, you must download the Power BI template for the applicabl
 
 ## Related topics
 
-* [Power BI templates introduction](power-bi-intro.md)
+* [Templates introduction](power-bi-intro.md)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

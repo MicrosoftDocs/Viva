@@ -56,12 +56,12 @@ Defined groups can be used in the following examples of analyses:
 
 A common analysis scenario is to find patterns of collaboration between different groups of employees. For example, you might want to know how much your product marketing team is talking to your sales team.
 
-Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration:
+Attributes for segmenting populations can be helpful to consider in defining patterns of collaboration, such as:
 
 * Job family or role attributes, such as profession, function, discipline, and job code
 * Organization, line of business, or cost center, such as HR, Finance, Sales, and Marketing
 * Location attributes, such as city, state, country, and regions, as defined by your organization
-* Attributes that describe the type of worker, such as remote, exempt/non-exempt, FTE/vendor, part time/full time, tenure in organization, and tenure in current role.
+* Attributes that describe their work, such as remote, full-time employee or vendor, part-time or full-time, their tenure within the organization, or the tenure of their current role.
 
 Most of these attributes are available within HR information systems.
 
@@ -110,7 +110,7 @@ If you can't include every person in your organization, the minimum to include i
 
 It's the admin's responsibility to maintain up-to-date and complete organizational data. In this task, "complete" means two things: include the [right people](#which-employees-to-include) and include the [right attributes](#know-what-data-to-include) for those people.
 
-The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build queries. This means that those employees will be excluded from the analyses that analysts perform.
+The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts cannot filter by that data when they build a query in Query designer. This means that those employees will be excluded from the analyses that analysts perform.
 
 ### Notification of missing data
 
@@ -249,7 +249,7 @@ After your data has been successfully uploaded, Workplace Analytics performs add
 
 ### How often to upload organizational data
 
-It is recommended that you upload HR data at least once a month to keep data fresh and analysis relevant. Soon after an HR upload has succeeded, the updated data becomes available in [Explore the stats](../use/explore-intro.md) and in [queries](../tutorials/query-basics.md).
+It is recommended that you upload HR data at least once a month to keep data fresh and analysis relevant. Soon after an HR upload has succeeded, the updated data becomes available in [Explore the stats](../use/explore-intro.md) and in [Query designer](../tutorials/query-basics.md).
 
 #### Supplying data over a time period
 
@@ -282,9 +282,9 @@ EffectiveDate |Date for which the given attribute value applies for the employee
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), it is best to use the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
 |HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/admin-settings.md). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Microsoft 365 collaboration data. For more information, see [System defaults](../use/system-defaults.md).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 |Layer | The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../use/explore-intro.md) features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
-|SupervisorIndicator  | Use this attribute to view the habits of people managers or influencers in your organization in Power BI visualizations. It powers the Overview table, the Generated Workload charts that are generated when you use a [Power BI template](../tutorials/power-bi-templates.md) that requires it. <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required for some of the Power BI templates, such as the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md).|
+|SupervisorIndicator  | Use this attribute to view the habits of people managers or influencers in your organization in Power BI visualizations. It powers the Overview table, the Generated Workload charts that are generated when you use a [Template](../tutorials/power-bi-templates.md) that requires it. <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required for some of the Templates, such as [Ways of working assessment](../tutorials/power-bi-collab-assess.md).|
 |TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If it is not included, the default time zone will be used.|
-|Any user-defined columns | Additional columns can represent any data that you want to use in queries to group and filter employee records. | No coverage requirements. |
+|Any user-defined columns | Additional columns can represent any data that you want to use in a query to group and filter employee records. | No coverage requirements. |
 
 ### Attribute notes and recommendations
 

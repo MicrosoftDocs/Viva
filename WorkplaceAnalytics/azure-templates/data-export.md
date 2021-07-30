@@ -124,7 +124,7 @@ The following steps you through how to automate the export of Workplace Analytic
 12. Select **Connection**, select **New**, and then enter a name and description for the OData link, such as **WPA_Odata_Collab**.
 
 13. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
-14. In [Workplace Analytics](https://workplaceanalytics.office.com/) > **Queries** > **Results**, copy the OData link for the query data you want to connect to Azure.
+14. In [Workplace Analytics](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, copy the OData link for the query data you want to connect to Azure.
 
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](../tutorials/query-auto-refresh.md#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
@@ -155,7 +155,7 @@ The following steps you through how to automate the export of Workplace Analytic
 22. Select **Test connection** to test the OData linked service.
 23. After you see **Connection successful**, select **Create**.
 24. In **Connection** > **Linked service** for the new OData linked service, select the new dataset you just created in the previous steps.
-25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Queries** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**:
+25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**:
 
      ![Query entity set name](./images/entity-set-name.png)
 

@@ -13,7 +13,7 @@ audience: Admin
 
 # Return to worksites
 
-The Return to worksites dashboard uses a Power BI template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
+The Return to worksites dashboard uses a template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
 
 As worksites begin opening at limited capacity to address safety concerns, employee seats become a limited resource. This dashboard helps you make the most of the limited seats by optimizing for on-site collaboration. The two allocation plans identify teams or a subset of teams who will benefit the most by returning to work because of their high collaboration patterns with others in the same location.
 
@@ -25,7 +25,7 @@ The dashboard includes the following reports to help you allocate worksite seati
 * **Plan 1:  Allocate seats to the teams with the most on-site collaboration** – This allocation plan identifies which teams should return to work based on the selected location and limited-seating capacity. This plan simplifies a leader’s decision by making it an all-or-nothing seat allocation for each team. However, if on-site leadership requires all teams have some worksite presence during a limited-seat capacity opening, then Plan 2 is a better option.
 * **Plan 2:  Allocate seats across teams in proportion to on-site collaboration** – This option provides each team with some presence in a limited-capacity worksite. It allocates each team a proportionate number of seats based on the team’s on-site collaboration patterns and the limited-seat capacity for the selected location. If leadership prefer the all-or-nothing approach, then Plan 1 is a better option.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined Return to worksites query in Workplace Analytics. After the query successfully runs, you can download the Power BI template for the Return to worksites query on the Results page. This template is required to create the dashboard in Power BI. After the template is downloaded, you need to connect the query data from Workplace Analytics to the dashboard in Power BI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined Return to worksites query in Workplace Analytics. After the query successfully runs, you can download the template for the Return to worksites query on the Results page. This template is required to create the dashboard in Power BI. After the template is downloaded, you need to connect the query data from Workplace Analytics to the dashboard in Power BI.
 
 After the dashboard populates with data, you can evaluate which of the two seat-allocation plans will work for your organization’s teams.
 
@@ -37,7 +37,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 ## Prerequisites
 
-Before you can run the queries and populate the dashboard in Power BI, you must:
+Before you can run the setup steps and populate the dashboard in Power BI, you must:
 
 * Be assigned the role of Analyst in Workplace Analytics.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
@@ -49,11 +49,11 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Return to worksites** to open the predefined query.
-3. Select or confirm the following query settings:
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Create** > **Other templates**, select **Return to worksites** to see the required setup steps, and then in step 2, select **Set up** next to **Return to worksites**.
+3. When prompted, select or confirm the following settings:
 
    * **Name** - Customize or keep the default name
    * **Group by** - Week
@@ -87,12 +87,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
 
 10. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-11. In **Queries** > **Results**, after both queries successfully run, select the **Download** icon for the **Return to worksites** query results, select **PBI template**, and then select **OK** to download the template.
+11. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Return to worksites** results, select **PBI template**, and then select **OK** to download the template.
 12. Open the downloaded **Return to worksites** template.
 13. If prompted to select a program, select **Power BI**.
 14. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
-    * **Query OData link or file path** - Both options are in the Workplace Analytics **Queries** > **Results** > **Return to worksites**. Data from the .csv file will load faster than through the OData link, which can take several minutes to several hours to load.
+    * **Query OData link or file path** - Both options are in the Workplace Analytics **Query designer** > **Results** > **Return to worksites**. Data from the .csv file will load faster than through the OData link, which can take several minutes to several hours to load.
 
       * For the link, select the **Link** icon, and then select to copy the generated OData URL link and paste it in.
       * For the file path, select the **Download** icon, and then download the file. After it downloads, copy and paste the file path and file name.
@@ -147,9 +147,9 @@ The last report in the Return to worksites dashboard describes further analysis 
 
 ![Dashboard page about the playbook](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
 
-## Power BI tips, troubleshooting, and FAQs
+## Power BI tips, FAQ, and troubleshooting
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
 
 ## Related topic
 
