@@ -25,7 +25,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Enable deep work |Percentage of employees have less than 20 hours for deep work each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week. Calculated weekly and averaged over the time period. |
-|Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#organizational-network-analysis-ona-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
+|Utilize influencers |Percentage of organizations who have few influencers |[Influence](metric-definitions.md#network-metrics) |Influencers are employees with the best connections to people across the company based on their collaboration patterns. This insight highlights the organizations that don't have sufficient representation of them, based on company and organization size. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -34,7 +34,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Calculations|
 |---------|--------|----------|------------|
 |Enable deep work |Distribution of time for deep work |Percentage of employees grouped by their [focus time](metric-definitions.md#focus-define). The groups are divided into those who spend between 0 and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. The percentages are calculated weekly and averaged over the entire time period. |
-|Utilize influencers |Organizations with limited influencers |Percentage organizations that don't have sufficient representation of influencers, based on company size. This uses the [influence](metric-definitions.md#organizational-network-analysis-ona-metrics) metric.|
+|Utilize influencers |Organizations with limited influencers |Percentage organizations that don't have sufficient representation of influencers, based on company size. This uses the [influence](metric-definitions.md#network-metrics) metric.|
 
 ## Take action
 

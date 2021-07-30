@@ -1,5 +1,5 @@
 ---
-title: Workplace Analytics Power BI template demos
+title: Workplace Analytics Power BI dashboard demos
 description: See demonstrations of the Power BI dashboards available in Workplace Analytics 
 localization_priority: normal 
 ms.prod: wpa
@@ -12,7 +12,7 @@ audience: Admin
 
 # Power BI dashboard demos
 
-The following are interactive demonstrations of the Power BI dashboards available for Workplace Analytics. These demos use sample data to show what you can expect to see for your organization with Workplace Analytics Power BI templates.
+The following are interactive demonstrations of the Power BI dashboards available for Workplace Analytics. These demos use sample data to show what you can expect to see for your organization with Workplace Analytics Templates.
 
 | &nbsp; | &nbsp; |
 |------|-------|
