@@ -11,7 +11,7 @@ ms.prod: wpa
 
 **To create an auto-update query**
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**:
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**:
 
    <img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries in Workplace Analytics">
 
