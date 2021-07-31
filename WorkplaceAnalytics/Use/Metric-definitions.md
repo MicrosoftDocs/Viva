@@ -47,8 +47,8 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 |Email hours | Number of hours the person spent sending and receiving emails. |Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
 |External network size|The number of people external to the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes|  
-| Generated reactions to posts and replies | The total number of reactions generated to posts and replies sent by a person on Teams channels. |Person|Count|Yes|
-| Generated replies to posts | The total number of replies generated to posts sent by a person on Teams channels. |Person|Count|Yes|
+| Generated reactions to posts | The total number of reactions generated to posts sent by a person on Teams channels. |Person|Count|No|
+| Generated replies to posts | The total number of replies generated to posts sent by a person on Teams channels. |Person|Count|No|
 |Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
 |Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
