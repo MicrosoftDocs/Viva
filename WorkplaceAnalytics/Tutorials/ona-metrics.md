@@ -1,7 +1,7 @@
 ---
 
-title: Organizational network analysis (ONA) metrics 
-description: Describes in depth the metrics that are used in Organizational network analysis (ONA) queries
+title: Network metrics 
+description: Describes the metrics that are used in network queries
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,34 +11,35 @@ audience: Admin
 ms.prod: wpa
 ---
 
-# ONA metrics
+# Network query metrics
 
-The ONA query types ([ONA person query](ona-person-query.md)) and [ONA person-to-person query](ona-person-to-person-query.md)) use a selection of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups. These connectivity relationships are of two broad types, _influence_ and _ties_. Persons in a company can have varying amounts of influence over their coworkers; because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people and are of two types, _diverse_ and _strong_; identifying these ties can help you determine aspects such as team alignment and potential for the flow of information and ideas.
+The [Network person query](ona-person-query.md) and [Network person-to-person query](ona-person-to-person-query.md) use a number of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups.
 
-You can find the basic definitions of the connectivity metrics in [Workplace Analytics metrics / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics):
+These connectivity relationships are of two broad types, _influence_ and _ties_. People in a company can have varying amounts of influence over their coworkers. Because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people including, _diverse_ and _strong_. Identifying these ties can help you determine aspects such as, team alignment and potential for the flow of information and ideas.
+
+You can find the basic definitions of the connectivity metrics in [Workplace Analytics Network metrics](../use/metric-definitions.md#network-metrics):
 
 | Metric | Available in this query type |
 | ------ | ---------------------------- |
-| [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [ONA person-to-person query](ona-person-to-person-query.md) |
-| [Diverse tie type](../use/metric-definitions.md#diverse-tie-type-define) | [ONA person query](ona-person-query.md) |
-| [Diverse ties](../use/metric-definitions.md#diverse-ties-define) | [ONA person query](ona-person-query.md) |
-| [Influence](../use/metric-definitions.md#influence-define) | [ONA person query](ona-person-query.md) |
-| [Influence rank](../use/metric-definitions.md#influence-rank-define) | [ONA person query](ona-person-query.md) |
-| [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) | [ONA person query](ona-person-query.md) |
-| [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) | [ONA person query](ona-person-query.md) |
-| [Strong tie score](../use/metric-definitions.md#strong-tie-score-define) | [ONA person-to-person query](ona-person-to-person-query.md) |
-| [Strong tie type](../use/metric-definitions.md#strong-tie-type-define) | [ONA person query](ona-person-query.md) |
-| [Strong ties](../use/metric-definitions.md#strong-ties-define) | [ONA person query](ona-person-query.md) |
+| [Diverse tie score](../use/metric-definitions.md#diverse-tie-score-define) | [Network person-to-person query](ona-person-to-person-query.md) |
+| [Diverse tie type](../use/metric-definitions.md#diverse-tie-type-define) | [Network person query](ona-person-query.md) |
+| [Diverse ties](../use/metric-definitions.md#diverse-ties-define) | [Network person query](ona-person-query.md) |
+| [Influence](../use/metric-definitions.md#influence-define) | [Network person query](ona-person-query.md) |
+| [Influence rank](../use/metric-definitions.md#influence-rank-define) | [Network person query](ona-person-query.md) |
+| [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) | [Network person query](ona-person-query.md) |
+| [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) | [Network person query](ona-person-query.md) |
+| [Strong tie score](../use/metric-definitions.md#strong-tie-score-define) | [Network person-to-person query](ona-person-to-person-query.md) |
+| [Strong tie type](../use/metric-definitions.md#strong-tie-type-define) | [Network person query](ona-person-query.md) |
+| [Strong ties](../use/metric-definitions.md#strong-ties-define) | [Network person query](ona-person-query.md) |
 
-The following sections describe the connectivity metrics in greater detail. They are divided into two groups:
+The following sections describe the connectivity metrics in greater detail.
 
-* [Influence metrics: influence and influence-rank](#influence-metrics-influence-and-influence-rank)
-* [Tie metrics: strong and diverse ties](#tie-metrics-strong-and-diverse-ties)
+* [Influence and influence-rank metrics](#influence-and-influence-rank-metrics)
+* [Strong and diverse tie metrics](#strong-and-diverse-tie-metrics)
 
-## Influence metrics: influence and influence rank
+## Influence and influence rank metrics
 
-It's frequently necessary to implement changes within organizations, whether this means introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change &ndash; perhaps starting with mass emails &ndash; it's not always the
-most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.
+It's frequently necessary to implement changes within organizations, whether this means introducing new procedures or rolling out new systems or technology. The traditional top-down method of using formal authority to drive change &ndash; perhaps starting with mass emails &ndash; it's not always the most effective way. It might fail for any of several reasons including company culture, technical challenges, or problems with personality.
 
 Instead, a more successful strategy uses change agents, who are influential, well-connected people in different levels of your company, not just at the top. Beyond an organization's formal hierarchy, informal networks of people can exert influence within those networks and between them. The most influential people have large personal networks with above-average numbers of relationships with their colleagues. This query lets you visualize these relationships through various metrics that reflect influence directly (with *influence* and *influence rank*) and indirectly (with various measures of ties to people outside your team.)
 
@@ -47,7 +48,7 @@ In other words, to help implement change, it pays to know which people have the 
 After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can effectively connect within or across groups and become
 efficient drivers of change.
 
-Also see [How Workplace Analytics calculates influence](#how-workplace-analytics-calculates-influence).
+See also the following [How Workplace Analytics calculates influence](#how-workplace-analytics-calculates-influence).
 
 ### How Workplace Analytics calculates influence
 
@@ -55,18 +56,18 @@ The terminology in the following description comes from graph theory. In graph t
 
 Influence indicates a node's potential influence on opinions of the network or an estimate of social status. Essentially, it uses the number and strength of connections coming into a node to rank the nodes. The values are between 0 and 1.
 
-#### Determine node rank for influence metrics
+### Determine node rank for influence metrics
 
-The most meaningful information to glean from Influence is the rank of the nodes. You can do this by using either of the two pertinent ONA metrics, Influence and Influence rank.
+The most meaningful information to glean from Influence is the rank of the nodes. You can do this by using either of the two pertinent Network metrics, Influence and Influence rank.
 
 * Use [Influence rank](../use/metric-definitions.md#influence-rank-define). This metric assigns to each node a number that corresponds to their relative influence, with the lowest number (1) for the most
 influential node. You can use this metric, for example, to obtain a simple ranked list or to evaluate whether a node's network influence is changing over time.
 
-* Use [Influence](https://microsoft.sharepoint-df.com/teams/WPADocumentatoinTeam/Shared%20Documents/use/metric-definitions.md#influence-define). You use this metric in a more nuanced way than you'd use Influence rank. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
+* Use [Influence](../use/metric-definitions.md#influence-define). You use this metric in a more nuanced way than you'd use Influence rank. For example, assume that node A has an Influence of 0.6 and node B has an Influence of 0.3. You can accurately assume that node A is a more influential than node B, because node A ranks higher than node B. However, you cannot assume node A is twice as influential as node B because the values indicate a ranking or source of influence, not the amount of influence. The calculations for Influence use the relative collaboration time between individuals as the strengths of the connections for a person's influence measure.
 
-## Tie metrics: strong and diverse ties
+## Strong and diverse tie metrics
 
-You can use the Organizational network analysis (ONA) queries to qualify a network connection between two people as a [strong tie](../use/metric-definitions.md#strong-ties-define), a [diverse tie](../use/metric-definitions.md#diverse-ties-define), or neither.
+You can use the Network queries to qualify a network connection between two people as a [strong tie](../use/metric-definitions.md#strong-ties-define), a [diverse tie](../use/metric-definitions.md#diverse-ties-define), or neither.
 
 If two people have many network connections in common, they are considered to have a *strong tie*. Strong ties typically indicate shared membership in a workgroup or team. *Diverse ties* reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection.
 
@@ -86,17 +87,15 @@ You can derive more value from strong and diverse ties based on distance. In the
 
 Ties (both Strong and Diverse) are directional in nature. If a Sara-to-Isaiah tie is strong, it does not necessarily follow that the Isaiah-to-Sara tie is also strong. The strength depends on the contribution that each person makes. For example, a greater contribution from Isaiah toward his relationship with Sara makes it more likely that Isaiah has a Strong tie with Sara, but it does not directly increase the likelihood of a tie in the opposite direction.
 
-Another example: A manager's tie to a direct report might be Strong, but not necessarily vice versa.
+Another example: A manager's tie to a direct report might be Strong, but not necessarily the reverse.
 
-### Examples of strong ties and diverse ties
+### Strong ties example
 
-#### Example: strong ties
-
-John and Sally on peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
+John and Sally are peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
 
 Each person's contribution counts. See [Ties are directional](#ties-are-directional).
 
-#### Example: diverse ties
+### Diverse ties example
 
 Preeti is a research scientist in an R&D department, and Rahul is a supply-chain logistics manager who works in the shipping department of the same company. They met at a Diversity & Inclusion virtual event at the company a few months ago, and are now connected to each other on LinkedIn. They share no commonality in their job functions and there is limited opportunity for them to interact with each other in small-group settings.
 
@@ -104,7 +103,7 @@ Both Preeti and Rahul have their own connections, and there is no overlap in peo
 
 Each person's contribution counts. See [Ties are directional](#ties-are-directional).
 
-#### Example: strong ties and diverse ties
+### Strong and diverse ties example
 
 Mark and Matt work as engineers in the same large development team. However, they work on different products. Due to the nature of their roles, they are expected to collaborate closely with each other, and they do these in regular cross-group sync-up meetings and occasional emails. Based on these frequent collaboration events, a Strong tie could exist between them.
 
@@ -114,14 +113,15 @@ Now, since they work on separate products, they tend to work with different peop
 
 * [Diverse ties](../use/metric-definitions.md#diverse-ties-define) &ndash; Diverse ties reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection. This metric also takes into account network differences that exist between the two people where both people are investing time. Diverse ties are both directional and asymmetrical. For example, if A has a diverse tie with B if A either collaborates a lot with B or a lot with a network that they have in common with B.
 * [Strong ties](../use/metric-definitions.md#strong-ties-define) &ndash; If two people have many network connections in common, they are considered to have a strong tie. Strong ties typically indicate shared membership in a workgroup or team. Like diverse ties, strong ties are directional. The strength of a person's tie depends on the contribution that the person makes in the relationship with the other person. This query also offers the following metrics that derive from the strong-tie metric:
-   * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
-   * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
+
+  * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
+  * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
 
 ## FAQ
 
-The following questions and answers refer to various metrics. You can find their definitions in [Metric descriptions / Person metrics](../use/metric-definitions.md#person-metrics) and in [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics).
+The following questions and answers refer to metrics, which you can find definitions for in [Person metrics](../use/metric-definitions.md#person-metrics) and in [Network metrics](../use/metric-definitions.md#network-metrics).
 
-**Q1. What is the difference between "strong ties" and "Internal network size"?**
+**Q1. What is the difference between strong ties and internal network size?**
 
 A1. Strong ties takes the network commonality that exists between the two people into account, a situation in which both people are investing time together or enabling other forms of bonding. Strong ties also gives more weight to meetings-based collaboration than to email. This is because meetings are more inter-personal in nature and enable direct person-to-person engagement, which results in a formalized engagement. Email-based collaboration doesn't translate into such an interpersonal engagement.
 
@@ -159,7 +159,7 @@ A6. Diverse ties is internal only: It does not consider connections that a perso
 
 ## Related topics
 
-* [ONA person queries](ona-person-query.md)
-* [ONA person-to-person queries](ona-person-to-person-query.md)
-* [Metric descriptions / ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics)
+* [Network person queries](ona-person-query.md)
+* [Network person-to-person queries](ona-person-to-person-query.md)
+* [Network metric descriptions](../use/metric-definitions.md#network-metrics)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)

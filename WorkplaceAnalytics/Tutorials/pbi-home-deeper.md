@@ -115,7 +115,7 @@ After you've identified one or more groups that need help, how can you help them
 
 With the knowledge gained from these visualizations, you can now take action:
 
-* Learn more about current behavior and trends by running [queries](query-basics.md). You can also create a dashboard for yourself by importing data that was obtained through Workplace Analytics queries (especially [auto-refresh queries](query-auto-refresh.md)) into [Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
+* Learn more about current behavior and trends by running [queries](query-basics.md). You can also create a dashboard for yourself by importing data through the Workplace Analytics Query designer (especially [auto-refresh queries](query-auto-refresh.md)) into [Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 * Help employees help themselves by pointing them to a pertinent [playbook](../myanalytics/use/mya-adoption/adopt-learning-modules.md).
 
@@ -127,5 +127,5 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ## Related topics
 
-* [Power BI templates](power-bi-intro.md)
+* [Templates](power-bi-intro.md)
 * [Teamwork plans](teamwork-solution.md)

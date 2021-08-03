@@ -155,7 +155,7 @@ When adding new attributes or replacing existing data with new data, confirm you
   >[!Note]
   >The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation.
   >
-  >If so, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect the auto refresh of queries." For more details about this message, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
+  >If so, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect the auto-refresh of queries." For more details about this message, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
 
 ### If expected columns are missing or excluded
 

@@ -1,9 +1,7 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: CRM queries in Workplace Analytics 
-description: Describes how to use Queries to analyze CRM data in Workplace Analytics 
+description: Describes how to use Query designer to analyze CRM data in Workplace Analytics 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
