@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Group-based licensing for Workplace Analytics
 description: Assign group-based licensing for Workplace Analytics
 author: paul9955
@@ -18,12 +18,8 @@ audience: Admin
 
 To use group-based licensing to assign Workplace Analytics licenses, see [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign).
 
-<!-- SOME DETAILS: 
-
-According to GBL requirements, if a license has a prerequisite, then both the license in question AND the prerequisite need to be assigned to the group through GBL. Therefore, any group with a Workplace Analytics license deployment needed to also have an E1, E3 or E5 license. Companies that assign different E* licenses to different user groups could not create a single Workplace Analytics group. Instead, they needed to duplicate every existing group assigned to each E* license and divide it into two – one with a Workplace Analytics license and one without. Enterprises with complicated deployment strategies could have more than a dozen groups to cover their E* license assignments and the Workplace Analytics deployment required them to double these groups. 
--->
-
- <!-- FORMERLY HERE: NOW OUTDATED
+ <!-- FORMERLY HERE: NOW OUTDATED AS OF AUGUST 2021. 
+ALSO HIDING THIS TOPIC BUT NOT DELETING IT -- IN CASE SOMEONE HAS BOOKMARKED IT. 
 
 Some Microsoft Online products are "add-ins," which require a service plan that's enabled for a user or a group. With group-based licensing, the system requires that both the prerequisite and add-in service plans be enabled for the group, so that any new users who are added to the group can get a valid service plan assignment.
 
