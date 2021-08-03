@@ -29,8 +29,8 @@
           items:
             - name: Introduction
               href: ~/setup/assign-licenses-to-population.md
-            - name: Assign group-based licenses
-              href: ~/Use/Group-Based-Licensing.md
+  #          - name: Assign group-based licenses
+  #            href: ~/Use/Group-Based-Licensing.md
             - name: Assign licenses with PowerShell
               href: ~/use/Assigning-licenses-with-powershell.md
         - name: Assign roles
