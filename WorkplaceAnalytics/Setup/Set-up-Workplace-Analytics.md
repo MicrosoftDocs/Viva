@@ -37,7 +37,7 @@ This article describes the steps that are required to set up and configure Workp
 
 **To set up Workplace Analytics**
 
-1. **Open the [Workplace Analytics](https://workplaceanalytics.office.com) Home page**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
+1. **Open [Workplace Analytics](https://workplaceanalytics.office.com)**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
 
       ![The Home page guides you through setup](../images/wpa/setup/onboarding-intro.png)
   
@@ -75,7 +75,7 @@ This article describes the steps that are required to set up and configure Workp
 
 After organizational data has been uploaded and validated, no further action by the admin is necessary. After this point, it takes about one day before Workplace Analytics is ready for use. (For organizations with many licensed employees, it might take slightly longer.)
 
-For example, analysts can begin to conduct analyses (with data in [Explore the stats](../use/explore-intro.md) and [Queries](../tutorials/query-basics.md)) after privacy settings have been made, collaboration data has been extracted, and organizational data has been uploaded. As soon as Workplace Analytics is ready for use, an email notification to that effect is sent to users who've been assigned the [analyst role](../use/user-roles.md#role-descriptions-and-access-levels).
+For example, analysts can begin to conduct analyses (with data in [Explore the stats](../use/explore-intro.md) and [Query designer](../tutorials/query-basics.md)) after privacy settings have been made, collaboration data has been extracted, and organizational data has been uploaded. As soon as Workplace Analytics is ready for use, an email notification to that effect is sent to users who've been assigned the [analyst role](../use/user-roles.md#role-descriptions-and-access-levels).
 
 ## Related topics
 

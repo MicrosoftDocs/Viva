@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-## Analysis in the ONA Azure Template
+## ONA Analysis
 
 Analysis in the ONA Azure Template enables you to use graphs to visualize and analyze the formal and informal relationships within your company's communication networks. Successful employees and teams use their networks to get work done effectively. Measuring network attributes tells you what network resources employees can access. Network size is just one attribute of a collaborative network. Network connections have other qualities that tell you more about the type of working relationship and what benefit it might present to employees and groups.
 

@@ -1,7 +1,7 @@
 ---
 
 title: Power BI Microsoft Teams dashboard
-description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined query data from Workplace Analytics in Power BI
+description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined data from Workplace Analytics in Power BI
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -36,7 +36,7 @@ The dashboard also includes a page with **Opportunity areas to get more out of T
 
 The **Glossary** page describes all the report metrics.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Microsoft Teams insights** and **Influence insights** queries in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
+To populate the dashboard in Power BI, you must set up **Microsoft Teams insights** and **Influence insights** in Workplace Analytics. The results will refresh your downloaded Power BI dashboard on a weekly basis.
 
 ## Demonstration
 
@@ -46,7 +46,7 @@ This uses sample data that is only representative of the dashboard and might not
 
 ## Prerequisites  
 
-Before you can run the queries and populate the dashboard in Power BI, you must:
+Before you can run the results and populate the dashboard in Power BI, you must:
 
 * Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version.
@@ -55,11 +55,11 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Queries**.
-2. Under **Start from preselected filters and metrics**, select **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**) to open the predefined query, which contains the required metrics to populate the dashboard.
-3. Select or confirm the following query settings:
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Create** > **Other templates**, select **Microsoft Teams insights** to see the required setup steps, and then in step 2, select **Set up** next to **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**).
+3. When prompted, select or confirm the following settings:
 
    * **Name** - Customize or keep the default name
    * **Group by** - Select **Week** for Teams insights and **Aggregated** for Influence insights
@@ -67,8 +67,8 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
    * **Auto-refresh** - Enable this setting
    * **Exclusions** - Select the preferred rules for your tenant, which are only available for Teams insights
 
-   > [!Important]
-   > If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   >[!Important]
+   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, for "**Which measured employees do you want to include?**," you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 5. In **Organizational data**, keep the preselected organizational data attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
@@ -77,19 +77,19 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
    > If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
 6. Select **Run** to run the query, which might take several minutes to complete.
-7. Repeat **Steps 2-6** and select the **Influence insights** query. Make the same selections as for Teams insights but for the few exceptions, as noted in **Step 3**.
-8. In **Queries** > **Results**, after the queries successfully run, select the **Download** icon for the **Microsoft Teams insights** query results, select **PBI template**, and then select **OK** to download the template.
+7. When prompted, return to the Query designer and repeat **Steps 2-6** for the **Influence insights**. Make the same selections as for Teams insights but for the few exceptions, as noted in **Step 3**.
+8. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Microsoft Teams insights** results, select **PBI template**, and then select **OK** to download the template.
 
    ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/teams-template.png)
 
-9. Open the downloaded **Microsoft Teams insights Power BI template**.
+9. Open the downloaded **Microsoft Teams insights template**.
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI:
 
-    1. In the Workplace Analytics **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    1. In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon for each result, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective URL field.
     3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-    4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
+    4. Select **Load** to import the results into Power BI. Loading these large files may take some time to complete.
 
     ![Query URLs for Power BI](../Images/WpA/Tutorials/teams-odata.png)
 
@@ -123,11 +123,11 @@ After confirming the settings, check the number of measured employees to confirm
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the most frequently asked questions, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
 
 ### Training opportunity
 
-Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](/learn/modules/workplace-analytics-teams-insights/) 
+Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](/learn/modules/workplace-analytics-teams-insights/)
 
 ## Related topic
 

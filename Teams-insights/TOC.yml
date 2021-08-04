@@ -16,7 +16,9 @@
        - name: Reflect
          href: viva-insights-reflect.md  
        - name: Virtual commute
-         href: viva-insights-virtual-commute.md                  
+         href: viva-insights-virtual-commute.md 
+       - name: Headspace
+         href: viva-insights-headspace.md                  
    - name: Use the Viva Insights app
      items: 
        - name: Discover the app
@@ -27,6 +29,6 @@
          href: viva-teams-app-admin-tasks.md 
        - name: Privacy guide
          href: viva-teams-app-privacy.md
-       - name: Frequently asked questions
+       - name: FAQ
          href: viva-teams-app-faq.md 
  

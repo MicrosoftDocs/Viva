@@ -90,7 +90,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (which could take from several minutes to a few hours, depending on the size of the data set), its status changes to "Ready" and you can use it in business-process definitions and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
-You can find a list of existing data sets and their statuses on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics:
+You can find a list of existing data sets and their statuses in **Analyze** > **Business process analysis** > **Data sets**:
 
 ![Data sets page](../images/wpa/tutorials/data-set-statuses.png)
 
@@ -102,7 +102,7 @@ To view or delete a data set, first find it on the **Data sets** tab of the **An
 
 ## Define a business process
 
-Before you can run queries to analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
+Before you can analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
 ![Biz process start page](../images/wpa/tutorials/start-page.png)
 
@@ -234,13 +234,13 @@ You analyze _real-world_ business processes by running Workplace Analytics meeti
 
 Design your query and choose its metrics so that filtering by this digital business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze.
 
-You can filter by business processes wherever the **Meeting** option is available as a filter or a metric customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization. 
+You can filter by business processes wherever the **Meeting** option is available as a filter or a metric customization. In the first of the following examples (for a meeting query), the **Meeting** option is available as a filter; in the second example (for a person query), the **Meeting** option is available as a metric customization.
 
 ### Use a business process in a meeting query
 
 In [meeting queries](Meeting-queries.md#meeting-queries), business processes are only available as filters for meetings, as described in the following steps.
 
-1. In Workplace Analytics, select **Queries > Meeting** to open a Meeting query.
+1. In Workplace Analytics, select **Query designer > Meeting** to open a Meeting query.
 
 2. Enter initial information about the query such as its name, time period, and exclusions.
 
@@ -266,7 +266,7 @@ For general information about examining query results, see [View, download, and 
 
 In [person queries](Person-queries.md#person-queries), business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
 
-1. In Workplace Analytics, select **Queries > Person** to open a Person query.
+1. In Workplace Analytics, select **Query designer > Person** to open a Person query.
 
 2. Enter initial information about the query such as its name, time period, and exclusions.
 
@@ -345,9 +345,6 @@ The following example shows how this can unfold:
 ## Related topics
 
 * [Prepare organizational data](../setup/prepare-organizational-data.md)
-
 * [Meeting queries](meeting-queries.md)
-
 * [Person queries](person-queries.md)
-
 * [Privacy settings](../use/privacy-settings.md)
