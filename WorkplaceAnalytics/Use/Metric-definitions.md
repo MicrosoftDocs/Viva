@@ -30,6 +30,8 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 >[!Note]
 >In Microsoft Teams, teamwork and communication happen in channels. Workplace Analytics includes several "channel metrics," which measure aspects of team communication over channels (both public channels and private channels) in Teams. These metrics are defined in the following table. When these metrics first become available in Workplace Analytics in August, 2021, they will reflect a baseline of only 30 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
 
+<!-- BE SURE TO REMOVE THIS NOTE AT SOME POINT. ASK RADHIKA HOW LONG IT SHOULD BE RETAINED. 13 MONTHS FROM AUGUST 2021? -->
+
 |Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
 | After hours channel message hours | The number of hours that a person spent sending and reading posts and replies in Teams channels, outside of work hours. | Person | Hour | Yes |
