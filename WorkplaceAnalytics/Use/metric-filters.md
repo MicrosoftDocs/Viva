@@ -114,7 +114,7 @@ These filters can be used to customize the following Teams channel metrics:
 | Channel name | If the selected Channel name = "X", return a metric for posts or replies that were sent or read on channel "X". |
 | Day of week | If the selected Day of week = "Monday" (or any other day), returns a metric for posts or replies that were sent or read on Monday using the time zone of the person. |
 | Device | If the selected Device = Mobile/ Desktop/Web, return metric for posts/replies made from Mobile/ Desktop/Web. |
-| Interaction type | <ul><li>If Interaction type = “Post sent”, returns metric for only sent post messages.</li><li>If Interaction type = “Reply sent”, returns metric for only sent reply messages.</li><li>If Interaction type = “Channel visit”, returns metric for only Channel Visits.</li></ul> |
+| Interaction type | <ul><li>If Interaction type = “Post sent”, returns metric for only sent post messages.</li><li>If Interaction type = "Reply sent", returns metric for only sent reply messages.</li><li>If Interaction type = “Channel visit”, returns metric for only Channel Visits.</li></ul> |
 | Team name | If the selected Team name = "X", return metric for posts/replies that are sent/read on Team "X". |
 | Time of day | The time of day the activity occurred using the time zone of the person.  |
 | Total participants | If the selected Participant count > "X", return metric with total number participants >"X". |
@@ -130,7 +130,7 @@ These filters can be used to customize the following Teams channel metrics:
 | ------ | ----------- |
 | Channel member count  | If the selected Channel member count > "X", return an active Teams or channel metric for channels with the number of channel members > "X". |
 | Channel name | If the selected Channel name = "X", return an active Teams or channel metric with the channel name "X". |
-| Interaction type | <ul><li>If the Interaction type = “Post sent”, return a metric only for active Teams or channels in which person sent post messages.</li><li>If the Interaction type = “Reply sent”, returns a metric only for active Teams or channels in which reply messages were sent.</li><li>If the Interaction type = “Channel visit”, returns a metric only for active Teams or channels in which the person had Channel visits.</li><li>If the Interaction type = “Reaction”, returns a metric only for active Teams or channels in which the person sent reactions.</li></ul> |
+| Interaction type | <ul><li>If the Interaction type = “Post sent”, return a metric only for active Teams or channels in which person sent post messages.</li><li>If the Interaction type = “Reply sent”, returns a metric only for active Teams or channels in which reply messages were sent.</li><li>If the Interaction type = "Channel visit", returns a metric only for active Teams or channels in which the person had Channel visits.</li><li>If the Interaction type = “Reaction”, returns a metric only for active Teams or channels in which the person sent reactions.</li></ul> |
 | Team name | If the selected team name = "X", return an active Teams or channel metric with the Team name "X". |
 
 ## Apply a metric filter
