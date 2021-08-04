@@ -25,7 +25,10 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 
 ## Person metrics
 
-The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries. 
+The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries.
+
+>[!Note]
+>In Microsoft Teams, teamwork and communication happen in channels. Workplace Analytics includes several "channel metrics," which measure aspects of team communication over channels (both public channels and private channels) in Teams. These metrics are defined in the following table. When these metrics first become available in Workplace Analytics in August, 2021, they will reflect a baseline of only 30 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
 
 |Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
