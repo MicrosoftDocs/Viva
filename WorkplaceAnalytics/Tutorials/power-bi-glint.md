@@ -35,12 +35,12 @@ The dashboard includes the following reports.
 * **How can I take action to improve employee wellbeing?** - Summarizes opportunities to improve employee wellbeing by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 * **How can I take action to improve prioritization and connection?** - Summarizes opportunities to improve focus on priority tasks and employee connection by addressing related behaviors. After changes start to occur, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 
-## Demonstration
+<!-- ## Demonstration
 
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 <iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZTYwMWI3MDctYTU3Mi00N2MxLWE4NmYtNjU4YzhlYmMxMGQ4IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
-
+-->
 ## Setup video
 
 The following video describes how to set up the dashboard, which might not be exactly what you experience with data that's unique to your organization.
