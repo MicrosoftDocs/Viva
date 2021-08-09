@@ -44,12 +44,12 @@ The dashboard includes the following reports.
 * **Growth** &ndash; Compares growth scores for the selected HR attribute to show how network sizes and time in skip-level collaboration might affect team growth scores. It reveals the impact of network size and leadership interactions on development.
 * **How can I take action to improve employee experience?** &ndash; Summarizes opportunities to improve employee experience by addressing related behaviors for individual, collective, and environmental interventions. After any interventions are started, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 
-## Demonstration
+<!--## Demonstration
 
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 <iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZTYwMWI3MDctYTU3Mi00N2MxLWE4NmYtNjU4YzhlYmMxMGQ4IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
-
+-->
 ## Setup video
 
 The following video describes how to set up the dashboard, which might not be exactly what you experience with data that's unique to your organization.
