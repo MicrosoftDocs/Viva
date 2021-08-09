@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics data export steps
-description: Learn about Workplace Analytics Data export and how to use it for advanced data analysis
+title: Data export
+description: Learn how to use Data export in Workplace Analytics for advanced data analysis
 author: madehmer
 ms.author: v-mideh
 ms.topic: article

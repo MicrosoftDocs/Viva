@@ -29,7 +29,7 @@ Specifically, we will lead you through the following phases:
 
 [Sustain your change](Indiv-adopt-sustain-change.md): Provides additional strategies to help you successfully turn your best behaviors into long-term habits.
 
-Before you dive in, please take some time to learn more about MyAnalytics:
+Before you dive in, review the following to learn more about MyAnalytics:
 
 [MyAnalytics overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link): Provides you with more background on MyAnalytics, namely, why it is important and how it can help.
 
