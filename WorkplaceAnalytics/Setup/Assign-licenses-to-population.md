@@ -55,13 +55,13 @@ Watch this video to learn how Workplace Analytics licenses work and how the Micr
 [<img src="../Images/WpA/setup/Assign-licenses.png" alt="Assign licenses video">](https://aka.ms/AssignWpALicenses_Video)
 -->
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen></iframe>
 
 ## License assignment options
 
 Workplace Analytics licenses are assigned just like other Microsoft 365 product licenses. You can assign them by using the Microsoft 365 Admin Center, PowerShell, or Azure group-based licensing:
 
-* [Group-based licensing](../Use/Group-Based-Licensing.md)
+* [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign)
 * [Microsoft 365 Admin Center​](/microsoft-365/admin/add-users/add-users)
 * [PowerShell](../Use/Assigning-licenses-with-powershell.md)
 
