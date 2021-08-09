@@ -72,7 +72,7 @@ Apple Safari and Mozilla Firefox are not preferred browsers for Workplace Analyt
 
 ## Further questions
 
-If you have questions about licensing, such as "How can I obtain Workplace Analytics for my business, school, or non-profit?" have your admin reach out to your Microsoft account team, or use [this form](https://resources.office.com/ww-landing-workplace-analytics.html?LCID=EN-US) to inquire about Workplace Analytics.
+If you have questions about licensing, such as "How can I obtain Workplace Analytics for my business, school, or non-profit?" have your admin reach out to your Microsoft account team, or use [this form](https://info.microsoft.com/ww-landing-workplace-analytics-contact.html) to inquire about Workplace Analytics.
 
 ## Related topics
 
