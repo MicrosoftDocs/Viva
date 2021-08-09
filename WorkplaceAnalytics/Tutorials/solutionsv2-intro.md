@@ -22,8 +22,8 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans help
 
 3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
-   > [!Note]
-   > Plans are intended for use by analysts or program managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md).
+   >[!Note]
+   >Plans are intended for use by analysts or program managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md).
 
 For more information about real-world possibilities, see [Microsoft Workplace Insights](https://insights.office.com/). <!-- and [[Helen's video]]. -->
 

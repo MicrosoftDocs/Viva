@@ -36,9 +36,9 @@ To obtain Workplace Analytics, you must have an Enterprise Agreement (EA) in pla
 
 ### Exchange Online plans
 
-Microsoft Exchange Online provides much of the collaboration data that Workplace Analytics uses. For this reason, you must have an Office 365 or Microsoft 365 product that contains Exchange Online (EXO) Plan 1 or EXO Plan 2 on your enrollment.
+Microsoft Exchange Online provides much of the collaboration data that Workplace Analytics uses. For this reason, we recommend that you have an Office 365 or Microsoft 365 product that contains Exchange Online (EXO) Plan 1 or EXO Plan 2 on your enrollment.
 
-In other words, only if a user has an Exchange Online mailbox can you assign a Workplace Analytics license to that user.
+<!-- Removed statement about needing EXO to get a WpA license -->
 
 ## Tenant environments and user licenses
 
