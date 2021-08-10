@@ -17,7 +17,7 @@ audience: Admin
 
 The Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R for Windows and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
-This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment Power BI template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
+This integration tool enables you to analyze unscheduled collaboration that occurs in Zoom. As an analyst, you can download the Zoom collaboration metrics either as a standalone .csv file or as a Ways of working assessment input file. You can then use the Zoom integration version of the [Ways of working assessment template](../tutorials/power-bi-collab-assess.md) to analyze a combination of Zoom and Microsoft 365 collaboration data in Power BI.
 
 This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
@@ -93,10 +93,10 @@ The following is required before setting up the Zoom integration tool:
 
 7. **Run and download the Workplace Analytics data** - Your Workplace Analytics analyst needs to do the following:
 
-   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#predefined-query-templates) to create the applicable query data. When running the queries, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
+   1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#query-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
 
       ![Required query data](../images/wpa/use/zoom-query-data.png)
-      ![HR attributes required for the queries](../images/wpa/use/zoom-hr-attributes.png)
+      ![HR attributes required for the results](../images/wpa/use/zoom-hr-attributes.png)
 
    2. Download the query results (.csv) to the **Zoom integration**/**Analyst**/**input** folder.
 
@@ -120,7 +120,7 @@ The following is required before setting up the Zoom integration tool:
        >The first time you run the AdminActions.bat file might take longer than subsequent runs because of installation dependencies.
 
 9. **Upload the Zoom output data** - As the Workplace Analytics analyst, save the Zoom output file to the **Zoom integration**/**Analyst**/**input** folder. Confirm that the Input folder also has the Ways of Working Assessment query, Standard meeting query, and the UTC_offset.rds file.
-10. **Update the config file** -  If the Workplace Analytics analyst and Zoom admin are based in different time zones, then the analyst needs to update the **config.csv** file with the applicable **utc_offset**. If the **Ways of Working Assessment query** uses a column name that’s different than **HashID**, you must update the config.csv with the different column name that’s used in the query output.
+10. **Update the config file** -  If the Workplace Analytics analyst and Zoom admin are based in different time zones, then the analyst needs to update the **config.csv** file with the applicable **utc_offset**. If the **Ways of Working Assessment** results includes a column name that’s different than **HashID**, you must update the config.csv with the different column name that’s used in the data output.
 
 11. In the **Script** folder, double-click **AnalystActions.bat** to run it. When prompted, point it to **Rscript.exe**, which is usually in **C:/Program Files/R/R-4x-x/bin**.
 12. Confirm the **Output** folder includes a new .csv file for the Zoom collaboration metrics and a new .csv for the Zoom version of the Ways of working assessment query that you use with the new Zoom version of the Ways of working assessment dashboard in Power BI.
@@ -134,7 +134,7 @@ Your Workplace Analytics analyst needs to do the following to import the combine
 
 1. In the **Analyst**/**output** folder, double-click **WOW_Zoom_Integration.pbit** to run the template.
 
-   ![Zoom Ways of working assessment Power BI template](../images/wpa/use/zoom-pbi-template.png)
+   ![Zoom Ways of working assessment template](../images/wpa/use/zoom-pbi-template.png)
 
 2. When prompted by Power BI, copy and paste the file path for the **Zoom Transformed Person Query** and **Standard meeting query** in the **Analyst/output** folder. To copy it, right-click the file, select **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
 3. Where prompted, copy and use the **SupervisorIndicator** column name from the **Zoom Transformed Person Query** file.

@@ -1,7 +1,7 @@
 ---
 
 title: Workplace Analytics metrics 
-description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics 
+description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, Person-to-group, and Network query metrics 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
@@ -21,11 +21,11 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 * [Meeting metrics](#meeting-metrics)
 * [Group-to-group metrics](#group-to-group-metrics)
 * [Person-to-group metrics](#person-to-group-metrics)
-* [Organizational network analysis (ONA) metrics](#organizational-network-analysis-ona-metrics)
+* [Network metrics](#network-metrics)
 
 ## Person metrics
 
-The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries. 
+The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries.
 
 |Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
@@ -121,14 +121,14 @@ Peer-comparison queries use the same metrics as person queries. See [Person metr
 | <a name="diverse-tie-score-define"></a> Collaboration hours | Number of hours that the time investor spent in meetings, emails, IMs, and calls with one or more people in the collaborator group, after deduplication of time due to overlapping activities (for example, calls during a meeting). |Group|Hour|No|
 |Email count|Count of unique email exchanges (sent and received) that the time investor had with one or more people in the collaborator group. |Group|Count|No|
 | <a name="email-hours-define"></a> Email hours| Number of hours that the time investor spent sending and receiving emails with one or more people in the collaborator group.  |Group|Hour|No|
-| <a name="lasttimecontacted-define"></a> LastTimeContacted |The last date and time that the time investor (a measured employee) emailed or attended a meeting with one or more people in the collaborator group for the specified date range. Note that this metric refers only to interactions that were initiated by the time investor. |Group|DateTime|No|
+| <a name="lasttimecontacted-define"></a> Last time contacted |The last date and time that the time investor (a measured employee) emailed or attended a meeting with one or more people in the collaborator group for the specified date range. Note that this metric refers only to interactions that were initiated by the time investor. |Group|DateTime|No|
 |Meeting hours|Total number of hours that the time investor spent in meetings with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
 |Meetings|Number of unique meetings that the time investor attended with one or more people in the collaborator group. |Group|Count|No|
 |Network size|Number of people in the collaborator group who had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last 28 days with the time investor. This counts both licensed and unlicensed employees in the collaborator group. |Group|Count|No|
 
-## Organizational network analysis (ONA) metrics
+## Network metrics
 
-These metrics are based on the following collaboration activities: emails, meetings, Teams calls, and Teams chats.
+The following network metrics are based on the collaboration activities, including: emails, meetings, Teams calls, and Teams chats.
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
