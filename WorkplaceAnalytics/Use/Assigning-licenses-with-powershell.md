@@ -103,7 +103,7 @@ Get-MsolAccountSku
 
 If you need to assign Workplace Analytics licenses to a large number of users, you can use the bulk license script for Microsoft 365 PowerShell provided in this section.
 
-### Software Requirements
+### Software requirements
 
 The Workplace Analytics bulk license script uses the Azure Active Directory PowerShell module to make the necessary licensing changes to your tenant identities. To ensure that the Azure Active Directory PowerShell module is installed:
 
@@ -121,11 +121,11 @@ The Workplace Analytics bulk license script uses the Azure Active Directory Powe
     Install-Module -Name MSOnline -Repository PSGallery
    ```
 
-> [!Note]
-> If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these required packages, see
+>[!Note]
+>If the cmdlet fails to execute, you might be running an older version of Windows Management Framework (WMF). In that case, download and install the required sign-in assistant and the Azure Active Directory PowerShell module through MSI. For instructions to install these required packages, see
 [Connect to Microsoft 365 PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
-## Input Requirements
+## Input requirements
 
 The Workplace Analytics bulk license script uses a .csv reference file as input. The script references each address listed in the .csv file and attempts to assign Workplace Analytics license to all users.
 
@@ -137,7 +137,7 @@ For more details on formatting the input .csv file, see [example .csv export fil
 
 The Add-WpALicense.ps1 script is designed to assign Workplace Analytics licenses to Microsoft 365 identities based on .csv email address input. The email address input is used to identify the correct Microsoft 365 identity based on the **UserPrincipalName** and **ProxyAddresses** attributes of the MSOL (Microsoft Online) object, and then tries to assign a license to the Microsoft 365 identity.
 
-### Script Execution
+### Run the script
 
 1. Create a **C:\Scripts** folder if it does not already exist.
 2. Copy the following script and paste it into a text editor, and then save the script as **C:\Scripts\Add-WpALicense.ps1**.
