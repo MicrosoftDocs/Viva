@@ -95,6 +95,44 @@ Organizational-data attributes and CRM attributes can also be used as participan
 | CRM attributes (required) | CRM attributes that are [required](../setup/crm-data-upload.md#required-and-reserved-attributes) are available for use as participant filters in query types that permit both organizational and CRM data analysis (person, person-to-group, and group-to-group queries). | 
 | CRM attributes (optional) | Optional CRM attributes ([reserved optional attributes](../setup/crm-data-upload.md#required-and-reserved-attributes) and [custom attributes](../setup/crm-data-upload.md#custom-attributes)) are available for use as participant filters in query types that permit both organizational and CRM data analysis (person, person-to-group, and group-to-group queries). |
 
+## Teams channel metric filters
+
+### Filters for channel messages
+
+These filters can be used to customize the following Teams channel metrics:
+
+* Channel message hours
+* After hours channel message hours
+* Working hours channel message hours
+* Channel messages sent
+* Channel visits
+* Channel reactions
+
+| Filter | Description |
+| ------ | ----------- |
+| Channel member count | If the selected Channel member count > "X", return a metric for posts or replies that were sent or read on channels with a number of channel members > "X". |
+| Channel name | If the selected Channel name = "X", return a metric for posts or replies that were sent or read on channel "X". |
+| Day of week | If the selected Day of week = "Monday" (or any other day), returns a metric for posts or replies that were sent or read on Monday using the time zone of the person. |
+| Device | If the selected Device = Mobile/ Desktop/Web, return metric for posts/replies made from Mobile/ Desktop/Web. |
+| Interaction type | <ul><li>If Interaction type = “Post sent”, returns metric for only sent post messages.</li><li>If Interaction type = "Reply sent", returns metric for only sent reply messages.</li><li>If Interaction type = “Channel visit”, returns metric for only Channel Visits.</li></ul> |
+| Team name | If the selected Team name = "X", return metric for posts/replies that are sent/read on Team "X". |
+| Time of day | The time of day the activity occurred using the time zone of the person.  |
+| Total participants | If the selected Participant count > "X", return metric with total number participants >"X". |
+
+### Filters for channel activity
+
+These filters can be used to customize the following Teams channel metrics:
+
+* Teams with active engagement
+* Channels with active engagement
+
+| Filter | Description |
+| ------ | ----------- |
+| Channel member count  | If the selected Channel member count > "X", return an active Teams or channel metric for channels with the number of channel members > "X". |
+| Channel name | If the selected Channel name = "X", return an active Teams or channel metric with the channel name "X". |
+| Interaction type | <ul><li>If the Interaction type = “Post sent”, return a metric only for active Teams or channels in which person sent post messages.</li><li>If the Interaction type = “Reply sent”, returns a metric only for active Teams or channels in which reply messages were sent.</li><li>If the Interaction type = "Channel visit", returns a metric only for active Teams or channels in which the person had Channel visits.</li><li>If the Interaction type = “Reaction”, returns a metric only for active Teams or channels in which the person sent reactions.</li></ul> |
+| Team name | If the selected team name = "X", return an active Teams or channel metric with the Team name "X". |
+
 ## Apply a metric filter
 
 In this example procedure, you apply a filter to a metric in a person query. Specifically, you restrict the _Email sent_ metric to include only email that was sent during a particular time of day. Then, for the population of employees that you specify, the query results will show the number of emails that were sent during the time of day that you selected.
