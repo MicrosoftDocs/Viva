@@ -119,7 +119,7 @@ After confirming the settings, check the number of measured employees to confirm
 ![Power BI Teams insights settings page](../Images/WpA/Tutorials/teams-settings.png)
 
 > [!Important]
-> As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
+> As new data is processed on a weekly basis, select **Refresh** in the **Power BI Home** ribbon to view the most recent data.
 
 ## Power BI tips, troubleshooting, and FAQs
 

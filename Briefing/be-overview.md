@@ -27,7 +27,7 @@ The Briefing email helps you stay in control of your calendar and be intentional
 
 You are receiving the Briefing email because this email is currently on for your organization. If you are not receiving the Briefing email, it might be because you previously unsubscribed, or because your administrator has disabled it for you.
 
-Please contact your admin if you'd like to receive the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [cortana.office.com](https://cortana.office.com).
+Contact your admin if you'd like to receive the Briefing email. This email is not controlled with the Cortana app and is unrelated to any Cortana on Windows settings. To opt out, go to [cortana.office.com](https://cortana.office.com).
 
 ## Adaptive or HTML version
 
