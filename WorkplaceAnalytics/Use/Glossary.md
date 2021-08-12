@@ -18,6 +18,7 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 
 |Term|Definition|
 |----|----------|
+| <a name="active-employees-define"></a> Active employee | An employee who has sent at least one email or instant message during the time period in question (such as a time period that was defined for a query). |
 | Adjusted meeting hours |An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours.|
 | Aggregation | Aggregation means compiling data from multiple individuals or sources. The more individuals or sources whose data is used, the more difficult it is to identify personal data. Aggregation is one means of achieving de-identification. |
 | Attended| A person attended a meeting if they did not decline the meeting request. This means that they either accepted the meeting request, accepted it as _tentative_, or did not respond to it. (This meeting request itself is subsequently referred to as a *non-declined meeting request*.) |
