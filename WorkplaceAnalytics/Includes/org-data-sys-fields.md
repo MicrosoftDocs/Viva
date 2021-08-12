@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: System fields table
 description: Tables that are used for mapping the system fields.   
 author: paul9955
 ms.author: v-pausch
-ms.date: 03/14/2019
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -16,7 +13,7 @@ ms.prod: wpa
 This UI will change soon (probably spring 2019). After that happens, use not this include file but the sibling one for "system fields" wherever this info is needed. After that, this include file can be deleted. 
 -->
 
-System fields represent attributes that are known by Workplace Analytics and are used in specific calculations beyond grouping and filtering. A system field can be either required or optional.
+System fields represent attributes that are known by Workplace Analytics and are used in specific calculations beyond grouping and filtering. A system field can be either required or optional. However, the validity threshold cannot be changed when editing existing data.
 
 * **Required fields** are identified in two ways. Their rows have dark shading and show as "Required" under the Source column header. These rows represent data that was found in the uploaded file. For the upload to succeed, you must map the required fields with a column in your .csv file that is the correct data type and meets the validity threshold.
 
