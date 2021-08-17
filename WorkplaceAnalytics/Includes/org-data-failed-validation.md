@@ -23,9 +23,7 @@ There is also an option to select **Abandon**, a button on the top right of the 
 >* Workplace Analytics does not modify or fill in data that is missing from HR uploads, such as for TimeZone. The administrator is responsible for correcting such errors or omissions.
 >* When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
 
-### Guidelines for correcting errors in data
-
-This section contains help for correcting data in an uploaded source file that is causing validation errors.
+The following can help correct data in an uploaded source file that might be causing the validation errors.
 
 When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
 
