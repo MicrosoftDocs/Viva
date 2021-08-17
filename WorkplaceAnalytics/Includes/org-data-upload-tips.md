@@ -27,7 +27,6 @@ The field values in data rows must comply with the following formatting rules:
 * The required TimeZone field values must be in a supported Windows format
 * The required Layer field values must contain numbers only
 * The required HourlyRate field values must contain numbers only, which Workplace Analytics assumes is in US dollars for calculations and data analysis
-* Limit the character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 
 >[!Note]
 >Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
@@ -36,7 +35,8 @@ The field values in data rows must comply with the following formatting rules:
 
 The following field rules apply to characters in field values:
 
-* Double-byte characters, such as Japanese characters, _are_ permitted in the field values.
+* Double-byte characters, such as Japanese characters, _are_ permitted in the field values
+* Limit the character length of field values in rows to a maximum of 128 KB, which is about 1024 x 128 characters
 * The following characters are _not_ permitted in field values:
 
   * tilde (~)
