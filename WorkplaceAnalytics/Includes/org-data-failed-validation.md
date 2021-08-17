@@ -8,9 +8,7 @@ ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
 ---
-
 <!-- Note: Options in subsequent uploads contain a) changing (or even mentioning) thresholds and b) Abandon option. Options for first upload do not.   -->
-
 | Nature of errors | Recommended selection | Description |
 | ----- | ----- | ----- |
 | Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to Workplace Analytics attributes, optionally change validation thresholds, and then re-attempt validation. You can do these things without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file or assigned a too-high validation threshold to a particular attribute. |

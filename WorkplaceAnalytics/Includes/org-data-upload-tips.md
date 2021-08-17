@@ -8,7 +8,6 @@ ms.topic: article
 localization_priority: normal
 ms.prod: wpa
 ---
-
 #### Rules for field headers
 
 All field header or column names must:
@@ -33,7 +32,7 @@ The field values in data rows must comply with the following formatting rules:
 >[!Note]
 >Workplace Analytics does not currently perform currency conversions for HourlyRate data. All calculations and data analysis in Workplace Analytics assume the data to be in US dollars.
 
-##### Rules for characters in field values
+#### Rules for characters in field values
 
 The following field rules apply to characters in field values:
 
