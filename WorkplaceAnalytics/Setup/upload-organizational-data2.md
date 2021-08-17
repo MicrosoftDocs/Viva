@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Subsequent uploads of organizational data into Workplace Analytics
+title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
 author: madehmer
 ms.author: v-mideh
@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Subsequent uploads of organizational data
+# Subsequent uploads
 
 Administrators can use the following steps for a subsequent upload (import) of organizational data into Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
