@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
 author: paul9955
@@ -29,7 +30,7 @@ The historical data on which queries are run is time limited: You can run querie
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
-<!-- REMOVING THIS SECTION FOR NOW. PUTTING IT IN A HIDDEN TOPIC, QUERY-BASICS2.MD, WHILE THESE FEATURES ARE ADDED, ONE BY ONE, IN AUGUST-SEPTEMBER 2021:  
+<!-- NISHANT'S PLAN FOR THE FOLLOWING (BILLING MODEL DIFFERENCES) SECTION IS AS FOLLOWS AS OF AUG. 17 2021: EDIT THIS CONTENT TO REFLECT THE CURRENT STATE OF THE PREVIEW RELEASE. IT STARTS OUT WITH MINIMAL FUNCTIONALITY. PUBLISH AS HIDDEN AND DISTRIBUTE LINK TO PREVIEW CUSTOMERS. GRADUALLY, ADD NEW CONTENT TO REFLECT THE GRADUAL ADDITION OF FEATURES TO THE PREVIEW RELEASE. AT GA, MERGE INTO THE NON-HIDDEN TOPIC QUERY-BASICS.MD. -->
 
 ## Billing model differences
 
@@ -116,7 +117,7 @@ The **Queries** > **Results** page shows additional information if the consumpti
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
--->
+<!-- END OF BILLING MODEL DIFFERENCES SECTION -->
 
 ## Query types
 
