@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Subsequent uploads of organizational data into Workplace Analytics
+title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
 author: madehmer
 ms.author: v-mideh
@@ -14,12 +14,12 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Subsequent uploads of organizational data
+# Subsequent uploads
 
 Administrators can use the following steps for a subsequent upload (import) of organizational data into Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
->Only follow these steps if this is **not** the first time you have uploaded organizational data to Workplace Analytics. If this **is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
+>Only follow these steps if **this is not** the first time you have uploaded organizational data to Workplace Analytics. If **this is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
 
 ## Import tasks
 
@@ -31,33 +31,35 @@ The task of importing organizational data has three parts:
 
 After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
-### Video: Upload organizational data
+<!--### Video: Upload organizational data
 
 The following video might not represent your exact upload experience that is based on your unique environment and organizational data or might be a different version of the app.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
+-->
 ## File upload
 
 Use the following steps to upload (import) your organizational data as a .csv file into Workplace Analytics.
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
-2. In the left navigation pane, select **Settings**.
+2. Select **Settings** > **Upload**.
 3. Select **Organizational data**, which shows **Upload history** for your organization.
 4. Select **New upload**.
 5. In **Upload**, select **Name your upload**, enter a name, select **Add an optional description**, and enter a description.
 6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download the .csv template** to help with file requirements:
 
-   * **Add new employees to existing organizational data** - Adds new employees to your existing organizational data that's already been uploaded.
-   * **Add new data to existing employees** - Adds new attributes to existing employees along with the minimum required attributes (such as PersonId and ManagerId) to the existing organizational data. You can also use this option to add new attribute and edit values of existing attributes in same upload.
-   * **Edit data of existing employees** - Edits the current attribute values for existing employees along with the minimum required attributes (such as PersonId and ManagerId) in the existing organizational data.
-   * **Delete data for existing employees** - Deletes attributes that are not required in the existing organizational data. In **Existing attributes**, select one or more attributes to remove, and then select **Delete** (trashcan) icon. You cannot delete any required attributes. When you see the message confirming the deletion, select **Confirm** or **Cancel** (only if you want to select different or additional attributes to delete).
+   * **Add new employees to existing organizational data** – Adds new employees to your existing organizational data.
+   * **Add new data for existing employees** - Adds new attributes to existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) to the existing organizational data. You can also use this option to add new attribute and edit values of existing attributes in same upload.
+   * **Edit data for existing employees** - Edits the current attribute values for existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) in the existing organizational data.
+   * **Delete data for existing employees** - Deletes attributes that are not required in the existing organizational data. In Existing attributes, select one or more attributes to remove, and then select Delete (trashcan) icon. You cannot delete any required attributes. When you see the message confirming the deletion, select Confirm or Cancel (only if you want to select different or additional attributes to delete).
    * **Upload a new organizational data file** - Deletes all previously uploaded data and replaces it with a new upload.
 
-     >[!Important]
-     >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to permanently replace it with new employee data.
+   >[!Important]
+   >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to permanently replace it with new employee data.
 
-7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following **important upload considerations**:<a name="important-upload-considerations"></a>
+   ![Upload options](../images/wpa/setup/upload-org-data2.png)
+
+7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following _important upload considerations_:<a name="important-upload-considerations"></a>
 
    * The .csv file that you upload must be UTF-8 encoded.
    * Confirm the .csv file is not open in a different program when you begin the upload process.
@@ -105,7 +107,7 @@ The **Upload** page has System fields and Custom fields that you need to map for
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
-Use the **Add new data to existing employees** or **Edit data for existing employees** option to upload new or replace existing data. Make sure your file follows the format for required attributes (such as PersonId and ManagerId) and the new attributes, and then map accordingly.
+Use the Add new data for existing employees or Edit data for existing employees option to upload new or replace existing data. Make sure your file follows the format for required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) and the new attributes, and then map accordingly.
 
 <!-- TWO OF THE FOLLOWING THREE SECTIONS (system fields tabLe, custom fields table, columns in the fields tables) ARE LONG AND THIS MAKES THE TOPIC HARDER TO NAVIGATE. CONSIDER PRESENTING THEM IN TABS, RATHER THAN CONSECUTIVELY. -->
 
@@ -122,7 +124,6 @@ Use the **Add new data to existing employees** or **Edit data for existing emplo
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 * **Workplace Analytics name** is the name of your organization's Workplace Analytics.
-
 * **Data type** is the data type of the fields.
 
    >[!Note]
@@ -131,8 +132,8 @@ Use the **Add new data to existing employees** or **Edit data for existing emplo
 * **Validity threshold** sets the percentage of rows in the uploaded file that must have non-null values (no blanks) for the attribute within the following fields. The source file might still be valid even if some rows have missing values for some columns. This setting is not intended to check or allow invalid values. A single invalid value, such as an incorrect data type, email address, or TimeZone string will cause the file upload to fail.
 
   * **Required attributes** - Because PersonId and EffectiveDate are required attributes, their Validity threshold value must be 100 percent. This value cannot be changed.
-  * **Required attributes with minimum values** - The threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95 percent by default.
-  * **Other system fields** - The Validity threshold for other system fields is set to 95 percent by default, but you can increase or decrease this value.
+  * **Fields with minimum values** - The threshold for the ManagerId, Organization, and LevelDesignation fields is set to 95 percent by default.
+  * **Other system fields** - The Validation threshold for other system fields is set to 95 percent by default, but you can increase or decrease this value.
   * **Custom fields** - For details, see [Set Validity threshold for custom fields](#set-validity-threshold-for-custom-fields).
 
 * **Include in report** - Lets you decide how to treat sensitive data in the report that will be generated about the import operation. It offers the following options for each of the columns in your source data:
@@ -162,7 +163,7 @@ To continue with data upload despite the issues, select **Next**. Note that this
 
 ## Data validation
 
-After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and during the phase, you'll see a message about the _File being uploaded_:
+After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated. During this phase, you'll see a message about the _File being uploaded_:
 
 ![Upload in progress](../images/wpa/setup/uploading-file.png)
 
@@ -174,18 +175,18 @@ When this phase completes, the file will either pass or fail validation. Go to t
 * [Validation fails](#validation-fails)
 
 >[!Note]
->Each tenant can only have one upload in progress at a time. Therefore, you need to complete the workflow of one data file by either guiding it to a successful validation or abandoning it, before you begin a new upload. The status or stage of an upload shows in the progress bar at the top of the **Upload** page.
+>Each tenant can only have one upload in progress at a time. You must complete the workflow of one data file, by either guiding it to a successful validation or abandoning it, before you begin a new upload. The status or stage of the upload shows in the progress bar at the top of the **Upload** page.
 
 >[!Important]
 >You must stay logged in and keep the page open in your web browser during the upload. If you close the browser (or browser page), the upload will be canceled.
 
 ## Validation succeeds
 
-If the validation succeeds, the **Upload** page shows the size of the upload and that the overall process is complete. After a successful validation, Workplace Analytics processes your new data.
+If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After a successful validation, Workplace Analytics processes your new data.
 
 ![Validation succeeded](../images/wpa/setup/upload6-validated.png)
 
-You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the uploads that were successfully validated (and uploaded).
+You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the data that was successfully validated and uploaded.
 
 You can do the following for an upload:
 
@@ -194,7 +195,7 @@ You can do the following for an upload:
 * Select the **Download log** icon to see the log.
 
 >[!Note]
->Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page.
+>Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the upload of another data file. The status or stage of the upload is shown on the progress bar at the top of the **Upload** page.
 
 ## Validation fails
 
@@ -204,11 +205,15 @@ If data validation fails, the **Validation** page shows a "Validation failed" no
 
 After a failed validation, it's best to first gain an understanding of the errors by scanning the error summary table. You can also select **Download issues** to examine the error log.
 
-This information about the errors helps you decide which path to choose next &mdash; whether to fix the source data, change the mapping, or abandon the current upload. The following describes these options:
+The information about the errors helps you decide which path to choose next, such as whether to fix the source data, change the mapping, or abandon the current upload. The following table describes these options.
 
-### Options for a failed validation
+### Guidelines for correcting errors in data
 
 [!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation.md)]
+
+### Addition of a new data column
+
+If you've already uploaded at least 13 months of snapshot data, which included the required columns for all employees. And now you want to upload a new data column, such as an engagement score value for each employee that you want to apply to all of the historical data. When you upload to append the new EngagementScore data column, remember to upload the minimum required fields (such as PersonId) again along with the new field.
 
 ### Set Validity threshold for custom fields
 
@@ -218,7 +223,7 @@ The threshold checks for non-null values, so it depends on the intended use of t
 
 Generally, you should set the Validity threshold to a high value. This is especially important if your analysis will focus on that field.
 
-For example, you might include a "SupervisorIndicator" attribute. At first, you might not think that you're analyzing manager behavior and you might be tempted to omit this attribute. But the organization hierarchy is used implicitly by many Workplace Analytics analyses – for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
+For example, you might include a SupervisorIndicator attribute. At first, you might think that you're not planning to analyze manager behavior and be  tempted to omit this attribute. However, the organization hierarchy is used implicitly by many Workplace Analytics analyses, such as for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
 
 #### Set a lower value
 
