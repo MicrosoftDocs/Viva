@@ -54,7 +54,11 @@ Analysts will see the following differences: -->
 
 ### For analysts in consumption-model tenants
 
-In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors: the number of measured employees being analyzed, the number of weeks of data included in the query output for each measured employee, the number of base metrics in the query, and which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
+In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors:
+* the number of measured employees being analyzed
+* the number of weeks of data included in the query output for each measured employee
+* the number of base metrics in the query
+* which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
@@ -110,7 +114,7 @@ The terms in this formula are as follows:
 
 ##### See the usage calculation for the query
 
-On the query page, you can see how units are calculated for the query that you are defining. To see this, select the tooltip:
+On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
 
 ![query cost tooltip](../images/wpa/tutorials/estimated-query-cost-tooltip.png)
 
@@ -120,9 +124,9 @@ This opens a panel that describes the current calculation:
 
 ##### Charges for recurring queries
 
-Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses one week as the query duration. You are not charged for any historical data that has already been analyzed.
+Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
-However, the queried population can change between query refresh runs. For example, there might be 1,000 licensed employees when you first set up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. Subsequently, the refresh query will include:
+Note that the queried population can change between query refresh runs. Take the following example: There are 1,000 licensed employees when you first set up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. The first time that the query refreshes after the initial run, it will include:
 
 * **1:** weeks 2 to 4 for the original population
 
@@ -130,7 +134,7 @@ However, the queried population can change between query refresh runs. For examp
 
 * **3:** weeks 2 to 5 for the newly licensed population
 
-Of these, the refresh query should charge for **2** and **3** because neither were included in the original query run, but it should not charge for **1**, which duplicates the data that's returned in the original query.
+Of these, the refresh query will charge for **2** and **3** because neither were included in the original query run, but it will not charge for **1**, which duplicates the data that was returned in the original query.
 
 ##### Charges for re-running a completed query
 
@@ -160,7 +164,7 @@ No additional units are charged for the following:
 
 ### For analysts in PUPM-model tenants
 
-The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
+The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, your organization has been billed for the usage of the product during the time of purchase:
 
 ![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
 
