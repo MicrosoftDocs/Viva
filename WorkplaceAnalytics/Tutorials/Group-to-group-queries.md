@@ -41,9 +41,9 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 **To create a group-to-group query**
 
-1. On the **Analyze** > **Queries** page, select **Group-to-group**.
-2. Select and change **Enter query name here** to a name, and then enter a description for the query.
-3. For **Group by**, select a time-grouping option: day, week, or month.
+1. In **Analyze** > **Query designer**, select **Get started** under **Query**, and then select **Group-to-group**.
+2. Name the query and then enter a description for it.
+3. For **Group by**, select a time-grouping option of day, week, or month.
 4. Select a date range. The query will analyze only those group-to-group interactions that took place during this date range.
 5. Select a meeting exclusions rule. The query will ignore meetings that are filtered out by this rule.
 6. In the **Select metrics** section, select one or more metrics that measure interactions between the time investors and collaborators, such as Collaboration hours, Email hours, or Meeting hours.
@@ -52,7 +52,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    To learn more about metrics for group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics).
 
-   The following sections enable you to define how to group the time-investors and the collaborators. For example, to analyze how senior leaders allocated time across different organizations, you'd set the time investors' group to "level" and the collaborators' group to "organization." 
+   The following sections enable you to define how to group the time-investors and the collaborators. For example, to analyze how senior leaders allocated time across different organizations, you'd set the time investors' group to "level" and the collaborators' group to "organization."
 
 7. In the **Time investors** section, answer the next question, _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. 
 
@@ -72,7 +72,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 11. Select **Run** at the top right to run the query.
 
-12. On the **Queries** > **Results** page, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
+12. In **Query designer** > **Results**, the query status shows as **Submitted**. After the query status changes to **Succeeded**, you can view it, share it, download it (in .csv file format), delete it, or [Copy an OData link](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi) to use in a visualization tool, such as Power BI or Excel.
 
 ## Related topics
 

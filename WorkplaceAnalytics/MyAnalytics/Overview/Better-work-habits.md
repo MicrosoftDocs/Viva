@@ -19,7 +19,7 @@ audience: Admin
 
 More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
 
-MyAnalytics is an extension of your Microsoft 365 client experience that helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Microsoft Microsoft 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter.
+MyAnalytics is an extension of your Microsoft 365 client experience that helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Microsoft 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter.
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
