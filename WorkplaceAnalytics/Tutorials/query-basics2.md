@@ -132,6 +132,22 @@ However, the queried population can change between query refresh runs. For examp
 
 Of these, the refresh query should charge for **2** and **3** because neither were included in the original query run, but it should not charge for **1**, which duplicates the data that's returned in the original query.
 
+##### Charges for re-running a completed query
+
+On the **Query designer** > **Results** page, you can locate a query that has already run, open it, edit it, and run it. This incurs a new cost, as if you were running the query for the first time. The steps to do this are as follows:
+
+1. Open the **Query designer** > **Results** page.
+2. In the list of queries, find a query whose status shows as completed, as indicated by a green check mark.
+3. In the row for that query, select **More options** (the ellipsis) and then **View query**:
+
+   ![options view query](../images/wpa/tutorials/query-actions.png)
+
+   This opens the page for designing that query.
+
+4. In the query designer, change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**.
+
+The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Consumption model details](#consumption-model-details).
+
 ##### No additional charges
 
 No additional units are charged for the following:
