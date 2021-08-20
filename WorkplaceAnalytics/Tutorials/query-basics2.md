@@ -39,7 +39,18 @@ Tenants subscribe to Workplace Analytics through one of the following billing mo
 * **Consumption model** &ndash; The tenant pays Microsoft a fee that is based on the volume of query usage.
 * **Per-user-per-month (PUPM) model** &ndash; The tenant pays Microsoft a monthly fee that is based on the number of licensed users.
 
-Your tenant's choice of billing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
+<!-- CURRENT (TEMPORARY) TEXT: -->
+
+Your tenant's choice of billing model affects the page for creating [person queries](person-queries.md). Analysts will see the following differences:
+
+<!-- ULTIMATE (GA) TEXT, COMMENTED OUT FOR NOW: -->
+<!--
+Your tenant's choice of billing model affects the analyst experience as follows:
+
+* The appearance and behavior of the page for creating queries (such as  [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) will differ.
+* The [query results](../use/view-download-and-export-query-results.md) page will offer additional functionality.
+
+Analysts will see the following differences: -->
 
 ### For analysts in consumption-model tenants
 
@@ -47,35 +58,54 @@ In this model, there is no minimum monthly licensing cost for your organization;
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
-![units per query](../images/wpa/tutorials/conmod-credits-2.png)
+<!-- Use this image starting late August 2021. It excludes the "wallet" on the upper status bar: -->
 
+![units per query](../images/wpa/tutorials/conmod-credits-3.png)
+
+<!-- Revert to this image when we go to GA in fall, 2021. It includes the wallet: 
+
+![units per query](../images/wpa/tutorials/conmod-credits-2.png) -->
+
+<!-- REMOVE THIS FOR NOW. RESTORE IT WHEN WE REVERT THE PRECEDING IMAGE: 
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
+-->
 
 #### Consumption model details
 
-In a consumption-model tenant, queries consume "units" as they are run. Unit calculation is as follows:
+In a consumption-model tenant, queries consume "units" as they are run. Usage calculation is as follows:
 
-**units consumed in a query** = **number of user-weeks analyzed/1000** x ((**P1** * **N1**) + (**P2** * **N2**) + (**P3** * **N3**))
+**units consumed** = **A** * **B** * **C** * **D**
 
-In this formula, **Px** is the **price tier** of a metric and **Nx** is the **number of base metrics** for that tier that are included in the query. The terms in this formula are further described here:
+The terms in this formula are as follows:
 
-* **user-weeks analyzed** is defined as the number of historical weeks of analysis that are available for each employee in the population that you are analyzing. The population size is the number of employees that meet the _Filter group_ criteria that are defined for the query. Your choice of a time period by which to aggregate metrics (by week or by month) does not affect your charges for the query.
+* **A** is the number of users whom the query will analyze. 
 
-   User-weeks are additive: Let’s say your query covers the past year. If one employee is present for all 52 weeks of analysis and another is present for only the last two weeks of analysis, this counts as 54 user-weeks.
-
-* **number of base metrics** is defined as the number of unique Workplace Analytics metrics that are included in the query. If the query includes multiple customizations of one base metric, it counts as only a single use of that base metric.
+* **B** is the number of unique base metrics that are used at each price tier in the query. If the query includes more than one customization of one base metric, it counts as only a single use of that metric.
 
   <u>Example:</u> If a query measures Meeting hours between 8:00 and 9:00 AM and Meeting hours between 9:00 and 10:00 AM, this counts as only a single metric, Meeting hours.
 
-  A “price tier” is associated with each metric, as described in the following item. 
+  A “price tier” is associated with each metric, as described in the following item.
 
-* **price tier** is the rate at which a query consumes units. The higher the tier, the more units are consumed:
+* **C** is the cost of the price tier that is in use for a metric in the query. This is the rate at which a query consumes units. The higher the tier, the more units are consumed:
 
 | Tier | Metric used in the query | Units |
 | ---- | ------------ | -------------- |
 | 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-| 2    | Advanced Workplace Analytics metrics &ndash; The metrics in tier 2 are the [ONA metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics) of Workplace Analytics. | 2.25 |
+| 2    | Advanced Workplace Analytics metrics &ndash; specifically, the [Network metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics) of Workplace Analytics. | 2.25 |
 | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
+
+>[!Note]
+>If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
+
+* **D** is the analysis period, in weeks.
+
+On the query page, you can see how units are calculated for the query that you are defining. To see this, select the tooltip:
+
+![query cost tooltip](../images/wpa/tutorials/estimated-query-cost-tooltip.png)
+
+This opens a panel that describes the current calculation:
+
+![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
 ##### Charges for recurring queries
 
