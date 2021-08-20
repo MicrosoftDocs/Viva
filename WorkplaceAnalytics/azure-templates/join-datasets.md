@@ -54,7 +54,7 @@ Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#
 
 ## Join dataset overview
 
-The key to a data join is the mapping file, which enables the template to map rows from Workplace Analytics queries to the same employee rows in other datasets. This is accomplished by uploading a unique, non-identifiable ID into Workplace Analytics through the HR data upload process.
+The key to a data join is the mapping file, which enables the template to map rows from Workplace Analytics query output to the same employee rows in other datasets. This is accomplished by uploading a unique, non-identifiable ID into Workplace Analytics through the HR data upload process.
 
 For this example, the **Key_ID** column is uploaded to Workplace Analytics as a new HR attribute, which can then be included in the query data exported from Workplace Analytics and uploaded in the template.
 

@@ -29,8 +29,8 @@
           items:
             - name: Introduction
               href: ~/setup/assign-licenses-to-population.md
-            - name: Assign group-based licenses
-              href: ~/Use/Group-Based-Licensing.md
+  #          - name: Assign group-based licenses
+  #            href: ~/Use/Group-Based-Licensing.md
             - name: Assign licenses with PowerShell
               href: ~/use/Assigning-licenses-with-powershell.md
         - name: Assign roles
@@ -73,7 +73,7 @@
                   href: ~/Use/admin-settings.md
                 - name: System defaults
                   href: ~/Use/system-defaults.md
-                - name: Privacy settings / Exclusions
+                - name: Privacy settings and exclusions
                   href: ~/Use/privacy-settings.md
                 - name: Manager settings
                   href: ~/Use/manager-settings.md
@@ -141,61 +141,68 @@
                   href: ~/Use/insight-faqs.md
         - name: Analyze
           items:        
-            - name: Queries
+            - name: Query designer
               items:
                 - name: Overview
-                  href: ~/tutorials/Query-basics.md
-                - name: Person queries
-                  href: ~/tutorials/Person-queries.md
-                  items:
-                    - name: Visualize person queries
-                      href: ~/tutorials/query-visualization.md
-                - name: Meeting queries
-                  href: ~/tutorials/Meeting-queries.md
-                - name: Group-to-group queries
-                  href: ~/tutorials/Group-to-group-queries.md
-                - name: Person-to-group queries
-                  href: ~/tutorials/Person-to-group-queries.md
-                - name: Queries with CRM data
-                  href: ~/tutorials/crm-queries.md
-                - name: Peer comparison queries
-                  href: ~/tutorials/comparison-query.md
-                - name: ONA queries
-                  items: 
-                    - name: ONA person queries
-                      href: ~/tutorials/ona-person-query.md
-                    - name: ONA person-to-person queries
-                      href: ~/tutorials/ona-person-to-person-query.md
-                    - name: ONA metrics
-                      href: ~/tutorials/ona-metrics.md
-                - name: Power BI templates
+                  href: ~/tutorials/query-designer.md
+                - name: Templates
                   items:
                     - name: Introduction
                       href: ~/tutorials/power-bi-intro.md
-                    - name: Behavior patterns for Glint
-                      href: ~/tutorials/power-bi-glint.md
-                    - name: Business continuity
-                      href: ~/tutorials/power-bi-bc.md
-                    - name: Return to worksites
-                      href: ~/tutorials/power-bi-return-tw.md
-                    - name: Sales business continuity
-                      href: ~/tutorials/pbi-bc-sales.md
-                    - name: Teams insights
-                      href: ~/tutorials/power-bi-teams.md
                     - name: Ways of working assessment
                       href: ~/tutorials/power-bi-collab-assess.md
                     - name: Ways of working tracker
                       href: ~/tutorials/power-bi-collab-track.md
-                    - name: Tips, FAQs, and troubleshooting
+                    - name: Return to worksites
+                      href: ~/tutorials/power-bi-return-tw.md
+                    - name: Business continuity
+                      href: ~/tutorials/power-bi-bc.md
+                    - name: Teams insights
+                      href: ~/tutorials/power-bi-teams.md
+                    - name: Manager effectiveness
+                      href: ~/tutorials/power-bi-manager.md
+                    - name: Behavior patterns for Glint
+                      href: ~/tutorials/power-bi-glint.md
+                    - name: Sales business continuity
+                      href: ~/tutorials/pbi-bc-sales.md
+                    - name: Power BI tips, FAQ, and troubleshooting
                       href: ~/tutorials/power-bi-templates.md
-                - name: Customize a metric
-                  href: ~/tutorials/Customize-a-metric.md
-                - name: View, download, and export query results
-                  href: ~/Use/View-download-and-export-query-results.md
-                - name: Understand and interpret query output
-                  href: ~/Use/Csv-query-output-file.md
-                - name: Query auto-refresh option
-                  href: ~/tutorials/Query-auto-refresh.md
+                - name: Queries
+                  items:
+                    - name: Overview
+                      href: ~/tutorials/Query-basics.md
+                    - name: Person queries
+                      items:
+                        - name: Introduction
+                          href: ~/tutorials/Person-queries.md
+                        - name: Visualize person queries
+                          href: ~/tutorials/query-visualization.md
+                    - name: Meeting queries
+                      href: ~/tutorials/Meeting-queries.md
+                    - name: Group-to-group queries
+                      href: ~/tutorials/Group-to-group-queries.md
+                    - name: Person-to-group queries
+                      href: ~/tutorials/Person-to-group-queries.md
+                    - name: Queries with CRM data
+                      href: ~/tutorials/crm-queries.md
+                    - name: Peer comparison queries
+                      href: ~/tutorials/comparison-query.md
+                    - name: Network queries
+                      items: 
+                        - name: Network person queries
+                          href: ~/tutorials/ona-person-query.md
+                        - name: Network person-to-person queries
+                          href: ~/tutorials/ona-person-to-person-query.md
+                        - name: Network query metrics
+                          href: ~/tutorials/ona-metrics.md
+                    - name: Customize query metrics
+                      href: ~/tutorials/Customize-a-metric.md
+                    - name: View, download, and export query results
+                      href: ~/Use/View-download-and-export-query-results.md
+                    - name: Understand and interpret query output
+                      href: ~/Use/Csv-query-output-file.md
+                    - name: Query auto-refresh
+                      href: ~/tutorials/Query-auto-refresh.md
             - name: Business process analysis
               href: ~/tutorials/analyze-business-processes.md
             - name: Peer analysis
@@ -219,7 +226,9 @@
                 - name: Charts
                   href: ~/Use/Chart-Types.md
             - name: wpa R package
-              href: ~/tutorials/wpa-r-package.md 
+              href: ~/tutorials/wpa-r-package.md
+            - name: Workspace Collaboration Optimizer
+              href: ~/Use/wsplan.md
         - name: Plans
           items:
             - name: Introduction

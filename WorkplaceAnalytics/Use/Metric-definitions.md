@@ -1,7 +1,7 @@
 ---
 
 title: Workplace Analytics metrics 
-description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, and Person-to-group query metrics 
+description: Describes the metrics for queries that are available in Workplace Analytics, including Person, Meeting, Group-to-group, Person-to-group, and Network query metrics 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
@@ -21,26 +21,39 @@ To customize your Workplace Analytics [queries](../tutorials/query-basics.md), y
 * [Meeting metrics](#meeting-metrics)
 * [Group-to-group metrics](#group-to-group-metrics)
 * [Person-to-group metrics](#person-to-group-metrics)
-* [Organizational network analysis (ONA) metrics](#organizational-network-analysis-ona-metrics)
+* [Network metrics](#network-metrics)
 
 ## Person metrics
 
-The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries. 
+The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries.
+
+>[!Note]
+>In Microsoft Teams, teamwork and communication happen in channels. Workplace Analytics includes several "channel metrics," which measure aspects of team communication over channels (both public channels and private channels) in Teams. These metrics are defined in the following table. When these metrics first become available in Workplace Analytics in August, 2021, they will reflect a baseline of only 30 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
+
+<!-- BE SURE TO REMOVE THIS NOTE AT SOME POINT. ASK RADHIKA HOW LONG IT SHOULD BE RETAINED. 13 MONTHS FROM AUGUST 2021? -->
 
 |Metric |Description |Query type |Data type |Customizable |
 |------|-----------|----------|---------|------------|
+| After hours channel message hours | The number of hours that a person spent sending and reading posts and replies in Teams channels, outside of work hours. | Person | Hour | Yes |
 |<a name="after-hours-collaboration-define"></a>After hours collaboration | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours.  <!-- Number of hours the person spent in meetings and on email outside of working hours. **Note**: To target or filter for after-hours collaboration, you can use a filter with the Collaboration hours metric. --> | Person | Hour | No |
 |After hours email hours |Number of hours the person spent sending and receiving emails outside of working hours.|Person|Hour|Yes|
 |After hours in calls |Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |Person|Hour|Yes|
 |After hours instant messages |Number of hours a person spent in instant messages through Teams, outside of working hours. |Person|Hour|Yes|
 |After hours meeting hours|Number of hours the person spent in meetings outside of working hours.|Person|Hour|Yes|
-|Call hours| The number of hours the person spent in scheduled and unscheduled calls through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
+|Call hours| The number of hours that a person spent in scheduled and unscheduled calls through Teams with at least one other person, during and outside of working hours.| Person| Hour | Yes |
+| Channel message hours | The number of hours that a person spent sending and reading posts and reply messages in Teams channels, during and after work hours. | Person | Hour | Yes |
+| Channel messages sent | The total number of posts and replies sent per person in Teams channels, during and after work hours. | Person | Count | Yes |
+| Channel reactions | The total number of reactions to posts and replies on Teams channels, during and after work hours. | Person | Count | Yes |
+| Channel visits | The total number of visits per person to Teams channels, during and after work hours. | Person | Count | Yes |
+| Channels with active engagement | The number of distinct channels in which a person posted, replied, visited, or reacted to a message during the aggregation period of the query. |Person | Count | Yes |
 |<a name="collaboration-hours-define"></a>Collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Person | Hour | Yes |
 |<a name="collaboration-hours-external-define"></a> Collaboration hours external | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person outside the company, after deduplication of time due to overlapping activities (for example, calls during a meeting).  | Person | Hour | No |
 |<a name="conflicting-meeting-hours-define"></a>Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes the entire duration of all overlapping meetings, not just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.)|Person|Hour|Yes|
 |Email hours | Number of hours the person spent sending and receiving emails. |Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
 |External network size|The number of people external to the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes|  
+| Generated reactions to posts | The total number of reactions generated to posts sent by a person on Teams channels. |Person|Count|No|
+| Generated replies to posts | The total number of replies generated to posts sent by a person on Teams channels. |Person|Count|No|
 |Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
 |Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
 |Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
@@ -60,24 +73,26 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-define"></a>  Meeting hours with manager | Number of meeting hours where attendees included at least the person and their manager.|Person|Hour|Yes|
 | <a name="meeting-hours-with-manager-1-1-define"></a> Meeting hours with manager 1:1|Number of meeting hours involving only the person and their manager.|Person|Hour|Yes|
-|Meetings hours with skip level|Number of meeting hours that the person attends where their manager's manager also attends the meeting.|Person|Hour|Yes|
-|Meetings|Number of meetings the person attended.|Person|Count|Yes|
-|Meetings with manager|Number of meetings where attendees include at least the person and their manager.|Person|Count|Yes|
-|Meetings with manager 1:1|Number of meetings involving only the person and their manager.|Person|Count|Yes|
-|Meetings with skip level|Number of meetings where the manager of the person's manager is an attendee.|Person|Count|Yes|
-|<a name="multitasking-meeting-hours-define"></a>Multitasking meeting hours|Number of meeting hours where the person sent:<ul><li>Two or more emails sent per meeting hour</li><li>Two or more emails sent per meeting for meetings less than one hour</li></ul>|Person|Hour|Yes|
-|Networking outside company|The number of distinct external domains outside the company a person has had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
-|Networking outside organization| The number of distinct organizational units within the company that the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
+| Meetings hours with skip level|Number of meeting hours that the person attends where their manager's manager also attends the meeting.|Person|Hour|Yes|
+| Meetings|Number of meetings the person attended.|Person|Count|Yes|
+| Meetings with manager|Number of meetings where attendees include at least the person and their manager.|Person|Count|Yes|
+| Meetings with manager 1:1|Number of meetings involving only the person and their manager.|Person|Count|Yes|
+| Meetings with skip level|Number of meetings where the manager of the person's manager is an attendee.|Person|Count|Yes|
+| <a name="multitasking-meeting-hours-define"></a>Multitasking meeting hours|Number of meeting hours where the person sent:<ul><li>Two or more emails sent per meeting hour</li><li>Two or more emails sent per meeting for meetings less than one hour</li></ul>|Person|Hour|Yes|
+| Networking outside company|The number of distinct external domains outside the company a person has had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
+| Networking outside organization| The number of distinct organizational units within the company that the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
 |Open 1 hour block |Number of one-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Open 2 hour blocks |Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
 |Peer average (customer collaboration) | The total amount (in hours) of customer collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
 |Peer average (internal collaboration) | The total amount (in hours) of internal collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
 |Redundant meeting hours (lower level) |Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. <br> <br> This metric is _not_ used in calculating *Low-quality meeting hours*. Analysts can use this metric only when creating [Person queries](../tutorials/person-queries.md).|Person | Hour| Yes |
 |<a name="redundant-meeting-hours-define"></a> Redundant meeting hours (organizational) |Number of meeting hours a person spent with attendees from three or more distinct levels within that person’s organization. Used in calculating *Low quality meeting hours*.  |Person|Hour|Yes|
+| Teams with active engagement | The number of distinct teams in which a person posted, replied, visited, or reacted to a message during the aggregation period of the query.  | Person | Count | Yes|
 |Time in self-organized meetings|Number of hours spent in meetings organized by the person with at least one other person.|Person|Hour|Yes|
 |Total calls | Total number of calls a person joined through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook). | Person| Count | Yes |
 |Total email sent during meeting | Number of emails the person sent during meetings. |Person|Count|Yes|
 |<a name="focus-define"></a> Total focus hours|Total number of hours with two or more hour blocks of time where the person had no meetings.|Person|Hour|Yes|
+| Working hours channel message hours | The number of hours that a person spent sending and reading posts and replies in Teams channels, during work hours. | Person | Hour | Yes |
 |<a name="working-hours-collaboration-hours-define"></a> Working hours collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), during working hours. | Person | Hour | No |
 |<a name="working-hours-email-hours-define"></a> Working hours email hours| Number of hours the person spent sending and receiving emails during working hours. |Person|Hour|Yes|
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes |
@@ -106,6 +121,7 @@ Peer-comparison queries use the same metrics as person queries. See [Person metr
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
+| Channel messages sent | The total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. | Group | Count | Yes |
 | <a name="collaboration-hours-define"></a> Collaboration hours | Number of hours spent in meetings, emails, IMs, and calls, after deduplication of time due to overlapping activities (for example, calls during a meeting) between the time investor and collaborator groups.  |Group|Hour|No|
 | <a name="email-hours-define"></a> Email hours | Number of hours spent sending and receiving emails between the time investor and collaborator groups.  |Group|Hour|No|
 |Meeting attendee count|Total number of attendees in all meetings from the time investor and collaborator groups.|Group|Count|No|
@@ -118,17 +134,18 @@ Peer-comparison queries use the same metrics as person queries. See [Person metr
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|
+| Channel messages sent | The total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. | Group | Count | Yes |
 | <a name="diverse-tie-score-define"></a> Collaboration hours | Number of hours that the time investor spent in meetings, emails, IMs, and calls with one or more people in the collaborator group, after deduplication of time due to overlapping activities (for example, calls during a meeting). |Group|Hour|No|
 |Email count|Count of unique email exchanges (sent and received) that the time investor had with one or more people in the collaborator group. |Group|Count|No|
 | <a name="email-hours-define"></a> Email hours| Number of hours that the time investor spent sending and receiving emails with one or more people in the collaborator group.  |Group|Hour|No|
-| <a name="lasttimecontacted-define"></a> LastTimeContacted |The last date and time that the time investor (a measured employee) emailed or attended a meeting with one or more people in the collaborator group for the specified date range. Note that this metric refers only to interactions that were initiated by the time investor. |Group|DateTime|No|
+| <a name="lasttimecontacted-define"></a> Last time contacted |The last date and time that the time investor (a measured employee) emailed or attended a meeting with one or more people in the collaborator group for the specified date range. Note that this metric refers only to interactions that were initiated by the time investor. |Group|DateTime|No|
 |Meeting hours|Total number of hours that the time investor spent in meetings with one or more people in the collaborator group. This metric uses time allocation logic. |Group|Hour|No|
 |Meetings|Number of unique meetings that the time investor attended with one or more people in the collaborator group. |Group|Count|No|
 |Network size|Number of people in the collaborator group who had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last 28 days with the time investor. This counts both licensed and unlicensed employees in the collaborator group. |Group|Count|No|
 
-## Organizational network analysis (ONA) metrics
+## Network metrics
 
-These metrics are based on the following collaboration activities: emails, meetings, Teams calls, and Teams chats.
+The following network metrics are based on the collaboration activities, including: emails, meetings, Teams calls, and Teams chats.
 
 |Metric|Description|Query type|Data type|Customizable|
 |------|-----------|----------|---------|------------|

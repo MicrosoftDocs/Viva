@@ -47,8 +47,8 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
  
     This page shows the most recent scan results, which are presented as opportunities for one or more groups.
  
-    > [!Note]
-    > If Workplace Analytics cannot detect anything in the data that would present an opportunity, it displays a notice that reads, "No opportunities could be loaded. Please check back later."
+    >[!Note]
+    >If Workplace Analytics cannot detect anything in the data that would present an opportunity, you'll see the following message: "No opportunities could be loaded. Please check back later."
 
 3. Consider which of the opportunities you would like to pursue. After you've decided to start a plan from an opportunity, go to [Create a plan](#create-a-plan).
 

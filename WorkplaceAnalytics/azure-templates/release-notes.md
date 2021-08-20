@@ -18,6 +18,54 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## July 2021
+
+The following new template features, enhancements, and changes are included in this month's release.
+
+### Organizational Network Analysis (ONA)
+
+This release adds a new **Organization insights** section within the **ONA Insights** template option with an ONA graph that shows the number of connections employees have within the organization and the following new metrics.
+
+* **Workgroup Stability** - Measures the change of informal workgroup memberships from month to month.
+* **Network Silo Behavior** - Helps quantify how connected or siloed a network is. A low score suggests that employees communicate freely across workgroups and throughout the organization.
+* **Employee Cohesion** - Employee Cohesion measures the extent to which employees’ connections (friends of friends) will also connect with each other, forming a triangle of connections.
+* **Community Detection** - Identifies natural clusters of employees who collaborate more with each other than with the rest of the organization.
+* **Freedom** - Measures how much of the collaboration within informal workgroups crosses the boundaries of the formal organizational hierarchy.
+* **Fluidity** - Measures how much employees’ positions in the network shift over time.
+
+See [Insights](./ona-insights.md) to learn more about the new organizational insights and metrics that are now available as part of the Organizational Network Analysis Template.
+
+### Relationship Intelligence
+
+Adds a newly enhanced Power BI report that includes a **General insights** section, which shows how your employees are engaging with your customers, and an **Account-specific insights** section about how your employees are engaging with a specific account. The report answers the following business questions:
+
+1. **How have we been engaging with our accounts?** – Shows what percentage of accounts your organization or select groups were meaningfully engaged with the defined group of accounts.
+2. **How much attention are we investing in our accounts?** – Shows the level of investment in accounts based on the interaction type, including the total cost and number of hours invested in collaboration with the account over the selected time period.
+3. **How are our internal groups engaging with accounts?** – Shows the average number of collaboration hours invested with accounts by internal groups and their time investment with accounts over the selected date range.
+4. **How do accounts compare to each other by collaboration?** – Includes the following information as related to account collaboration activity, such as email and meeting hours spent with accounts and the last date the organization engaged with them.
+5. **What accounts or contacts are missing from our CRM system?** – Shows individuals assigned to an account but that are not in your CRM data.
+6. **Who are the contacts at an account and how are we engaging with them?** – For the selected account, you can evaluate the following:
+7. **How are my internal groups spending time with accounts?** - For the selected account, you can see the top internal groups in the organization who have collaborated with account contacts per month.
+8. **How are we communicating with an account?** – Shows the following details about the selected account.
+9. **What are the main topics of discussion with an account?** – The Topics word cloud is based on subject lines for meetings and email.
+10. **Which internal groups are collaborating with individuals from an account?** - Shows which groups are collaborating with the selected account.
+11. **How are individuals from an account collaborating with us?** – You can select a specific account and an individual account contact to see how that person is collaborating with one or more of the organizational groups over the last three months.
+
+To learn more, see [Relationship Intelligence](./relation-intel.md).
+
+### Process Explorer
+
+* **Interaction type selection for Starter Templates** - You can now select the types of interactions you want to include in individual Starter Template categories. By default, both emails and meetings are selected for Starter Templates. However, you can now select to only analyze emails or only meetings for each category.
+* **Filters for categorization analysis** - When creating a new analysis with the Starter Template categorization model, you can now select group attributes to filter your analysis by. When viewing your categorization analysis, you can now filter by these group attributes, along with interaction types and categories. Metrics, charts, and communication flow in your analysis will now change to reflect the applied filters.
+
+To learn more, see [Process Explorer](./process-explorer.md).
+
+### Workspace Collaboration Optimizer
+
+The Workspace Collaboration Optimizer is a new open-sourced set of Python-based web apps (Jupyter Notebooks) that can help with seating plans that are optimized for innovation and cross-team collaboration. The underlying algorithm minimizes the distance between teams who collaborate the most with each other. You can use this tool to generate seating plans quickly and objectively, in a data-driven way.
+
+To learn more, see [Workspace Collaboration Optimizer](../use/wsplan.md).
+
 ## May 2021
 
 The following new template features, enhancements, and changes are included in this month's release.
@@ -28,7 +76,7 @@ The following new template features, enhancements, and changes are included in t
 
 * **Within-group insights** - Focus on internal group-member to group-member collaboration by highlighting each groups’ behavioral risks for the following important collaboration trends. You can use these to see how group metrics change over time and to better understand their collaboration trends.
 
-  * **Silo Risk** shows which groups are disconnected from others or at risk of it. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group.
+  * **Isolation Risk** shows which groups are disconnected from others or at risk of it. Groups who spend five or more hours collaborating within the group as compared to one hour collaborating outside the group are at risk of being siloed. Insular group members might be less likely to access, understand, or implement ideas from outside their group.
   * **Collaboration Balance** shows which groups are balancing their efforts across multiple types of contacts. New ideas are key to driving innovation across your company. Access to these ideas is facilitated by fostering diverse connections while balancing time across different groups.
   * **Group Cohesion** shows which groups have the cohesion needed to build trust. The number of connections within groups is critical to building trust. Group members who trust one another are more inclusive and better positioned to deliver successful results.
 

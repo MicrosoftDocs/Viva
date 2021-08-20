@@ -1,8 +1,8 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Group-based licensing for Workplace Analytics
 description: Assign group-based licensing for Workplace Analytics
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
@@ -16,12 +16,22 @@ audience: Admin
 
 # Assign group-based licenses for Workplace Analytics
 
+To use group-based licensing to assign Workplace Analytics licenses, see [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign).
+
+ <!-- FORMERLY HERE: NOW OUTDATED AS OF AUGUST 2021. 
+ALSO HIDING THIS TOPIC BUT NOT DELETING IT -- IN CASE SOMEONE HAS BOOKMARKED IT. 
+
 Some Microsoft Online products are "add-ins," which require a service plan that's enabled for a user or a group. With group-based licensing, the system requires that both the prerequisite and add-in service plans be enabled for the group, so that any new users who are added to the group can get a valid service plan assignment.
 
 Here's an example:
 ![Admin center](../Images/WpA/Use/AAD_Group1.png)
 
-Microsoft Workplace Analytics is an add-on product that contains a single service plan with the same name and ID of WORKPLACE_ANALYTICS. This service plan can only be assigned to a user, or a group, when one of the following prerequisites are also assigned:
+>[!Note]
+>Previously, Workplace Analytics had a prerequisite of an E1, E3, or E5 license. Now, the prerequisite for an Exchange Online license has been removed, so every organization can deploy Workplace Analytics by using group-based-licensing for a single group.
+
+ Microsoft Workplace Analytics is an add-on product that contains a single service plan with the same name and ID of WORKPLACE_ANALYTICS. 
+
+This service plan can only be assigned to a user, or a group, when one of the following prerequisites are also assigned:
 
 * Exchange Online (Plan 1) (Id: EXCHANGE_S_STANDARD)
 * Exchange Online (Plan 2) (Id: EXCHANGE_S_ENTERPRISE)
@@ -45,6 +55,8 @@ The resulting assignment is valid and applied to the group. And thereafter, any 
 
 >[!Tip]
 >You can create multiple groups for each prerequisite service plan. For example, if your organization has both **E1** and **E3** users, you can create two groups for licensing Workplace Analytics. One group for E1 as a prerequisite and the other for E3. This enables you to separately assign licenses for the Workplace Analytics app to E1 and E3 users without consuming additional licenses.
+ 
+-->
 
 ## Related topics
 

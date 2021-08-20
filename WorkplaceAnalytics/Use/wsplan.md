@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Workspace Collaboration Optimizer 
 description: Learn about the Workspace Collaboration Optimizer and how to use it to create seating plans
 author: madehmer
@@ -13,13 +12,14 @@ audience: Admin
 ---
 # Workspace Collaboration Optimizer 
 
-As a facility management professional or occupancy planner,  you can use the Workspace Collaboration Optimizer   to plan a workspace. If your company is moving to a new worksite or reorganizing an existing workspace, this open-source tool can help, as follows:
+As a facility management professional or occupancy planner,  you can use the Workspace Collaboration Optimizer to plan a workspace. If your company is moving to a new worksite or reorganizing an existing workspace, this open-source tool can help, as follows:
 
 * Increase innovation and collaboration by locating employees next to people who collaborate the most.
 * Take the subjectivity and politics out of occupancy plans.
 * Increase employee productivity by reducing the time spent travelling between meetings.
 
 The Workspace Collaboration Optimizer is an open-sourced set of Python-based web apps (Jupyter Notebooks) that can help with seating plans that are optimized for innovation and cross-team collaboration. The underlying algorithm minimizes the distance between teams who collaborate the most with each other. You can use this tool to generate seating plans quickly and objectively, in a data-driven way.
+
 The algorithm for this tool accounts for the following rules and constraints:
 
 * **Teams stay together** - When a workspace can seat everyone on the team, it will keep them all together.
@@ -55,11 +55,12 @@ You need the following four input files (.csv) to generate a seating plan. These
 
 The tool uses the data in these input files to generate a seating plan in table format, where the rows represent the teams, and the columns represent the workspaces where teams are seated.
 
-![Example data in the files](../images/wpa/use/wsp-example-data.png)
+![Example data in the files](../images/wpa/use/sample-input.png)
+![Example seating plan](../images/wpa/use/sample-seating.png)
 
 ## Tool files
 
-Before you can run the tool, you must save the following files, which are located in the [Workspace Collaboration Optimizer repository](https://github.com/microsoft/Workspace-Planning-Tool), to a **master folder**. If you’re new to GitHub, you’ll need to register and sign in before you can access this repository. See [GitHub Getting started](https://docs.github.com/github/getting-started-with-github) for details.  You'll use this master folder to create a working folder for each workspace project.
+Before you can run the tool, you must save the following files, which are located in the [Workspace Collaboration Optimizer repository](https://github.com/microsoft/workspace-optimizer), to a **master folder**. If you’re new to GitHub, you’ll need to register and sign in before you can access this repository. See [GitHub Getting started](https://docs.github.com/github/getting-started-with-github) for details. You'll use this master folder to create a working folder for each workspace project.
 
 * **Distance Helper notebook** - Creates a distance file that specifies the relative distance between zones or neighborhoods on different floors (and potentially different buildings) based on the coordinates of the different workspaces. You won’t need this file if you’ve already created a distance file.
 * **File Validations notebook** - Validates the input files, including the distance file that's created from the Distance Helper notebook.
@@ -94,18 +95,18 @@ Do the following to create a seating plan:
 2. In the **Distance Helper notebook**, select **Run** at the top, which will take a few minutes to load the files the first time you run it.
 3. When prompted, enter the total number of buildings you have, and then select **Go**. If the restack scope only includes one building, enter **1**.
 
-   ![Distance Helper buildings prompt](../images/wpa/use/wsp-distant-helper.png)
+   ![Distance Helper buildings prompt](../images/wpa/use/distance-helper.png)
 
 4. Enter the building information in the table, including the name, number, and complete address of each building. The tool needs the full address for accurate latitude and longitude coordinates. You can use [Bing maps](https://www.bing.com/maps) to get the addresses.
 5. In **step 3**, enter the maximum number of floors for the buildings included in the overall workspace have, and then select **Go**. For example, if two of the buildings have two floors and one has three floors in the overall workspace, you'd enter **3** as the maximum number of floors.
 6. In **step 4**, enter the numbers and the names of the floors that the workspace includes for each building. For example, if the company’s workspace starts on the first floor, enter **1** for **Floor Number 1**. If the company’s workspace starts on the fifth floor of a building, enter **5** for **Floor Number 1**.
 7. In **step 5**, enter the maximum number of zones that you'll need to define for any of the floors in any of the individual buildings. For example, the following shows entering **6** as the maximum number of zones required for a floor in one of the buildings.
 
-    ![Distance Helper floor and zone number prompts](../images/wpa/use/wsp-dh-fnz.png)
+    ![Distance Helper floor and zone number prompts](../images/wpa/use/distance-helper2.png)
 
 8. In **step 6**, enter the floor names, number of zones, and corresponding zone coordinates for each building, which you defined in **step 3**, and then select **Go**. For example, the following shows Floor 1 with 6 zones in building 32 that require zone coordinates of (1,1), (3,1), (4,1), and so on. For tips on how to create the coordinates, see [Create the zone coordinates](#create-the-zone-coordinates).
 
-    ![Distance Helper Game of Zones example table](../images/wpa/use/wsp-game-of-zones.png)
+    ![Distance Helper Game of Zones example table](../images/wpa/use/game-of-zones.png)
 
 9. In **step 7**, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone in the table. The following example shows a zone coordinate of **4,3** with a friendly space name of **16-1D**, which represents zone D on the first floor of building 16.
 
@@ -122,15 +123,15 @@ Do the following to create a seating plan:
 2. In the **File Validations notebook**, select **Run** to validate the files that will be used to generate the seating plans.
 3. When prompted to load the data, select the location for each of the files, as shown in the following graphic, and then select **Go** to validate them.
 
-    ![File Validations notebook example](../images/wpa/use/wsp-file-validation.png)
+    ![File Validations notebook example](../images/wpa/use/file-validation.png)
 
 4. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a **red X**, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat the previous steps to validate the updated files.
 5. After all files are successfully validated, select one of the following input scenarios that the tool should use to aggregate the final output for your interaction file. These scenarios are based on the interactions file query data.
 
-    * **Latest dates** - Aggregates collaboration data based on the most recent week of collaboration activity between teams.
-    * **Average collaboration** - Aggregates collaboration data based on the weekly averages of collaboration hours spent between the different teams.
     * **Total collaboration** - Aggregates collaboration data based on the total number of hours the teams spent collaborating over the period of time specified in Workplace Analytics. Use this as the default aggregation option.
-    * **Boost intra-collaboration** - Groups teams based on the "boosted" number of collaboration hours spent with two specific teams. You can change the **Boost Multiplier** setting that defines how to apply the boost. The maximum setting is 3, which will multiple the maximum number of collaboration hours by 3. This multiplied value replaces the existing collaboration hours for all the teams. Use this option if _Collaboration within groups_ is low, but you want to keep the teams together as much as possible in your final seating plan.
+    * **Boost intra-collaboration** - Aggregates collaboration data based on the "boosted" number of collaboration hours spent with two specific teams. You can change the **Boost Multiplier** setting that defines how to apply the boost. The maximum setting is 3, which will multiple the maximum number of collaboration hours by 3. This multiplied value replaces the existing collaboration hours for all the teams. Use this option if _Collaboration within groups_ is low, but you want to keep the teams together as much as possible in your final seating plan.
+    * **Latest date** - Aggregates collaboration data based on the most recent week of collaboration activity between teams.
+    * **Average collaboration** - Aggregates collaboration data based on the weekly averages of collaboration hours spent between the different teams.
 
 6. The updated files are saved to a new **Final Files set** folder. Any changes relating to these files are also saved to this folder.
 
@@ -146,9 +147,9 @@ Do the following to create a seating plan:
     * **Fixed spaces** - This option is available after creating a seating plan using Standard mode. If you want to make specific changes to your Standard seating plan, such as seating a team in a specific workspace or seating two teams together, this Fixed spaces mode allows you to run the algorithm again on the edited seating plan for any unassigned teams. For this option, do the following:
 
       1. Edit the seating plan's existing .xlsx file that was saved in **app_results**. After editing it, you must save the seating plan as a .csv file. When editing the plan, you must stay within the constraints set in the validated *space_capacity.csv* and *team_size.csv* files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints.
-      2. After you save the new changes to a seating plan file, select **Fixed**, and then select the updated seating plan file. For example, the following graphic shows a standard seating plan where **Engineering** and **Marketing** are assigned to multiple locations.
+      2. After you save the new changes to a seating plan file, select **Fixed**, and then select the updated seating plan file. For example, the following graphic shows sample input files and a seating plan where **Engineering** and **Marketing** are assigned to multiple locations.
 
-         ![Standard seating plan example](../images/wpa/use/wsp-standard-floorplan.png)
+         ![Standard seating plan example](../images/wpa/use/sample-seating.png)
 
          In the following example, the seat assignments have been changed (fixed) to keep the **Engineering** and **Marketing** teams closer together. You must account for the capacity of the workspaces. For example, if workspace B31-Floor2 has a capacity of 100, then you can’t place 150 people in that workspace. Note the **Product** team is unassigned, so the fixed seating plan will keep the Marketing and Engineering team seat assignments unchanged and the Product team will be assigned to any unoccupied spaces based on the original input files in the Final Files set folder.
 
@@ -162,7 +163,7 @@ When you open a seating plan file, you’ll see teams assigned to zones or neigh
 
 The following shows an example seating plan where the Product team has 64 people assigned to Floor 1, Zone A and 16 people assigned to Floor 1, Zone B.
 
-![Example seating plan](../images/wpa/use/wsp-example-floorplan.png)
+![Example floor plan](../images/wpa/use/wsp-example-floorplan.png)
 
 ## Create the zone coordinates
 
@@ -185,7 +186,25 @@ You can use Microsoft PowerPoint or a similar tool to define the zone coordinate
 * The algorithm cannot interpret context (politics, hierarchy, or intentions) that a person could when allocating a workspace.
 * When the algorithm creates a seating plan that is not optimal, be sure to use the **Fixed spaces** mode to improve the model predictions.
 
+## FAQ
+
+#### Q1. What to do when a Jupyter notebook doesn’t load when opened?
+
+A1. Confirm you are using a [Chrome browser](https://www.google.com/chrome/). Then try restarting the browser by selecting **Kernel** > **Restart and Clear Output**. Or you can select **Run** if the UI is not loading automatically.
+
+#### Q2. Can the values in the Distance Helper notebook be copy and pasted?
+
+A2. Yes, you can use **Ctrl+C** and **Ctrl+V** to copy and paste the values in this notebook in their respective cells. At this moment, you cannot copy and paste multiple values.
+
+#### Q3. What does the X error represent?
+
+A3. Check the following, which might be causing the error.
+
+* **Distance Helper notebook** - Confirm that the addresses and the zone coordinates are entered correctly.
+* **File Validations notebook** - Confirm the input files have the correct headings and match the values in the other files. For example, the team names in the team_size.csv should match the team names in the interactions.csv and the workspace names should be the same in the distance file and the space_capacity file. Also, check the Input Files section to confirm that the Requirements.txt file has the correct names for all the required files.
+* **Generate Floorplan notebook** - Confirm that all the required validated files are in your **Final Files** folder.
+
 ## Related topics
 
-* [Workspace Collaboration Optimizer Readme](https://github.com/microsoft/Workspace-Planning-Tool/blob/main/README.md)
+* [Workspace Collaboration Optimizer Readme](https://github.com/microsoft/workspace-optimizer/blob/main/README.md)
 * [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)

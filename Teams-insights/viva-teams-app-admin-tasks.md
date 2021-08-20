@@ -14,18 +14,6 @@ audience: Admin
 
 # Admin tasks
 
-<!-- SWITCHING ABSOLUTE LINKS TO RELATIVE. MUST GO TO THE FOLLOWING LINKS IN THIS TOPIC:
-
-[Teams Service Administrators](https://docs.microsoft.com/microsoftteams/using-admin-roles#teams-roles-and-capabilities) 
-
-[through custom policies](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
-
-[Manage apps](https://docs.microsoft.com/microsoftteams/manage-apps)
-
-[Manage app permission](https://docs.microsoft.com/microsoftteams/manage-apps)
- -->
-
-
 [Teams Service Administrators](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](/microsoftteams/teams-app-setup-policies).
 
 Complete the steps in the following four mini-playbooks to get the Microsoft Viva Insights app up and running for people in your organization.
@@ -43,6 +31,12 @@ Complete the steps in the following four mini-playbooks to get the Microsoft Viv
 2. Pin the Viva Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Viva Insights app](Pin-the-Insights-app.pdf).
 
 3. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](Find-and-open-the-Insights-app.pdf).
+
+## Disable Headspace
+
+When the Headspace feature is enabled, users can find it on the [Home](viva-insights-home.md) page of Viva Insights. Admins can disable this feature by using PowerShell cmdlets.
+
+The PowerShell commands for working with Viva Insights features are described in [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings). To disable Headspace, see [Example 1](/powershell/module/exchange/set-vivainsightssettings).
 
 ## Related topics
 

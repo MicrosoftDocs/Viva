@@ -12,7 +12,7 @@ audience: Admin
 
 # Manager insights
 
-Microsoft Viva Insights has unveiled a new Viva Insights app in Teams. The app’s “My Team” tab helps people managers like you discover key insights about your team’s collaboration effectiveness and employee experience. Manager insights are also available in the [web experience](https://workplaceanalytics.office.com). People managers will maintain access to insights as long as they have at least nine people in their hierarchy.
+Microsoft Viva Insights includes a new Viva Insights app in Teams. The app’s “My Team” tab helps people managers like you discover key insights about your team’s collaboration effectiveness and employee experience. Manager insights are also available in the [web experience](https://workplaceanalytics.office.com). People managers will maintain access to insights as long as they have at least nine people in their hierarchy.
 
 The following shows what you'll see in [My Team in Viva Insights](teams-app.md).
 
