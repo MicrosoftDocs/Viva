@@ -102,7 +102,7 @@ The terms in this formula are as follows:
    | Tier | Metric used in the query | Units |
    | ---- | ------------ | -------------- |
    | 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-   | 2    | Advanced Workplace Analytics metrics &ndash; specifically, the [Network metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics) of Workplace Analytics. | 2.25 |
+   | 2    | Advanced Workplace Analytics metrics &ndash; specifically, the [Network query metrics](../tutorials/ona-metrics.md) of Workplace Analytics. | 2.25 |
    | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
    >[!Note]
@@ -157,7 +157,7 @@ The edited query runs again. As it does, it incurs a new cost, in units, calcula
 No additional units are charged for the following:
 
 * Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My Team in Viva Insights](../use/viva-insights-my-team.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
+* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My Team in Viva Insights](../use/viva-insights-my-team.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
 * Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
