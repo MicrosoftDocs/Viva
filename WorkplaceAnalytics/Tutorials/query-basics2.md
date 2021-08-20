@@ -78,26 +78,36 @@ In a consumption-model tenant, queries consume "units" as they are run. Usage ca
 
 The terms in this formula are as follows:
 
-* **A** is the number of users whom the query will analyze. 
+* **A = users**
 
-* **B** is the number of unique base metrics that are used at each price tier in the query. If the query includes more than one customization of one base metric, it counts as only a single use of that metric.
+   This is the number of users whom the query will analyze.
+
+* **B = metrics**
+
+   This is the number of unique base metrics that are used at each price tier in the query. If the query includes more than one customization of one base metric, it counts as only a single use of that metric.
 
   <u>Example:</u> If a query measures Meeting hours between 8:00 and 9:00 AM and Meeting hours between 9:00 and 10:00 AM, this counts as only a single metric, Meeting hours.
 
   A “price tier” is associated with each metric, as described in the following item.
 
-* **C** is the cost of the price tier that is in use for a metric in the query. This is the rate at which a query consumes units. The higher the tier, the more units are consumed:
+* **C = price-tier cost**
 
-| Tier | Metric used in the query | Units |
-| ---- | ------------ | -------------- |
-| 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-| 2    | Advanced Workplace Analytics metrics &ndash; specifically, the [Network metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics) of Workplace Analytics. | 2.25 |
-| 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
+   This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
 
->[!Note]
->If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
+   | Tier | Metric used in the query | Units |
+   | ---- | ------------ | -------------- |
+   | 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
+   | 2    | Advanced Workplace Analytics metrics &ndash; specifically, the [Network metrics](../use/metric-definitions.md#organizational-network-analysis-ona-metrics) of Workplace Analytics. | 2.25 |
+   | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
-* **D** is the analysis period, in weeks.
+   >[!Note]
+   >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
+
+* **D = weeks**
+
+   This is the analysis period, in weeks.
+
+##### See the usage calculation for the query
 
 On the query page, you can see how units are calculated for the query that you are defining. To see this, select the tooltip:
 
@@ -109,17 +119,17 @@ This opens a panel that describes the current calculation:
 
 ##### Charges for recurring queries
 
-Workplace Analytics uses this formula to calculate units consumed every time that you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses one week as the query duration. You are not charged for any historical data that has already been analyzed.
+Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses one week as the query duration. You are not charged for any historical data that has already been analyzed.
 
-However, the queried population can change in between query refresh runs. For example, there might be 1,000 licensed employees when you first sets up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. Subsequently, the refresh query will include:
+However, the queried population can change between query refresh runs. For example, there might be 1,000 licensed employees when you first set up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. Subsequently, the refresh query will include:
 
-* **A:** weeks 2 to 4 for the original population
+* **1:** weeks 2 to 4 for the original population
 
-* **B:** week 5 for the original population
+* **2:** week 5 for the original population
 
-* **C:** weeks 2 to 5 for the newly licensed population
+* **3:** weeks 2 to 5 for the newly licensed population
 
-Of these, the refresh query should charge for **B** and **C** because neither were included in the original query run, but it should not charge for **A**, which duplicates the data that's returned in the original query.
+Of these, the refresh query should charge for **2** and **3** because neither were included in the original query run, but it should not charge for **1**, which duplicates the data that's returned in the original query.
 
 ##### No additional charges
 
