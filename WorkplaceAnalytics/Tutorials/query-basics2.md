@@ -90,6 +90,7 @@ The terms in this formula are as follows:
 
   A “price tier” is associated with each metric, as described in the following item.
 
+
 * **C = price-tier cost**
 
    This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
@@ -147,6 +148,9 @@ The query-creation pages show analysts no information about query usage or tenan
 
 ![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
 
+<!-- REMOVE THIS ENTIRE SECTION FOR NOW (AUGUST 19 2021). RETURN THIS SECTION TO THE DOC AFTER GA. -->
+<!-- 
+
 ### Results page
 
 The **Queries** > **Results** page shows additional information if the consumption model is in use at your tenant:
@@ -156,6 +160,7 @@ The **Queries** > **Results** page shows additional information if the consumpti
 * **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
+-->
 
 <!-- END OF BILLING MODEL DIFFERENCES SECTION -->
 
