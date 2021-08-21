@@ -29,7 +29,7 @@ You can request access and get more information at [Microsoft Workplace Analytic
 1. Depending on which browser you are using, on the Windows taskbar or Start menu, right-click the browser application and select **Start InPrivate Browsing**, **New InPrivate window**, **New incognito window**, or **New private window**.
 2. Copy the **activation code link** that Microsoft sent you for Microsoft 365 Insights, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
 
-   ![Activation code link](./images/sign-in.png)
+   ![Activation code link.](./images/sign-in.png)
 
 3. When prompted, enter your email address.
 4. Sign in with your Microsoft 365 or Office 365 global admin credentials, and then select **Next**.

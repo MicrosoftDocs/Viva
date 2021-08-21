@@ -44,11 +44,11 @@ In this task, you take the first steps to start a peer analysis.
 1. Open [Workplace Analytics Peer analysis](https://workplaceanalytics.office.com/Analyze/PeerAnalysis). If prompted, enter your work credentials.
 2. **Peer analysis** shows a table of analysis that's been started or completed.
  
-    ![New analysis](../images/wpa/use/explore-peer-analysis.png)
+    ![New analysis.](../images/wpa/use/explore-peer-analysis.png)
 
 4. Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis:
 
-    ![New analysis pane](../images/wpa/use/step1-new-request.png)
+    ![New analysis pane.](../images/wpa/use/step1-new-request.png)
  
     The top of this pane shows the four steps for creating a peer analysis: _Reference group_, _Other group_, _Conditions_, and _Submit_.
 
@@ -77,7 +77,7 @@ As you define this group, keep in mind that it has a maximum size. If you upload
 
 As you define this group, bear in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than 1000 members.
 
-![Identify other group](../images/wpa/use/step2-other-group.png)
+![Identify other group.](../images/wpa/use/step2-other-group.png)
 
 1. In the **Other group** section, identify the members of the other group. As with the reference group, you choose the other group; its members need not work together on the same team. You can identify them in either of the following two ways:
 
@@ -95,7 +95,7 @@ In this optional step, you make sure that the right people in each of your selec
 
 After you select **Next** in the **Other group** section, the **Conditions** page opens:
  
-![New analysis panel](../images/wpa/use/step3-conditions.png)
+![New analysis panel.](../images/wpa/use/step3-conditions.png)
 
 On this page, you filter by organizational (HR) data. These filters automatically apply to each of the groups that you've defined in the preceding steps, namely the reference group and the other group. By applying filters in this step, you refine your selections of employees in those groups so that the analysis can make more appropriate comparisons. For more information, see [Why apply conditions?](#why-apply-conditions).
 
@@ -108,13 +108,13 @@ After you have finished applying conditions, select **Next** and go to [Submit t
 
 The fourth and final screen of the sequence summarizes the choices that you've made by showing the analysis name, the date range, and the names and sizes of the reference and other groups. If you want to return to preceding steps to change any of these things, select **Back**:
 
-![Summary page with Submit button](../images/wpa/use/step4-summary-edit.png)
+![Summary page with Submit button.](../images/wpa/use/step4-summary-edit.png)
 
 If you do not need to make changes, select **Submit**.
 
 This opens the page that displays the **Peer analysis** table. The analysis that you just submitted appears at the top of the list with a status of _running_, as shown here:
 
-![Analysis running](../images/wpa/use/analysis-running.png)
+![Analysis running.](../images/wpa/use/analysis-running.png)
 
 Depending on the size of the analysis, the run time should take between several minutes and one hour. Go on to [View results](#view-results).
 
@@ -122,7 +122,7 @@ Depending on the size of the analysis, the run time should take between several 
 
 After your analysis completes, its status is updated in the **Peer analysis** table with a check mark. In the following illustration, the second and third analyses have completed:  
 
-![Results with one row](../images/wpa/use/three-analyses.png)
+![Results with one row.](../images/wpa/use/three-analyses.png)
  
 You can do the following on this page.
 
@@ -136,7 +136,7 @@ You can do the following on this page.
 
 Selecting **View** opens the **Result** page:
 
-![Result page](../images/wpa/use/result-1-2.png)
+![Result page.](../images/wpa/use/result-1-2.png)
 
 This page includes analysis details, such as: the analysis name, date range, name and size of the reference group, and the name and size of the other group.
 
@@ -157,11 +157,11 @@ Follow these steps to upload a file that contains email addresses:
 1. Create a .csv file that contains the email addresses of the people in the group. This file should contain no header, but consist of a single column, with each email address appearing on a new line.
 2. Select **Upload .csv file**:
  
-    ![Upload .csv file](../images/wpa/use/upload-csv-file.png)
+    ![Upload .csv file.](../images/wpa/use/upload-csv-file.png)
 
 3. Browse to the file on disk and select **Open**. After the file uploads, Workplace Analytics automatically validates the uploaded data and displays the results:
 
-    ![Validation results](../images/wpa/use/validation-results.png)
+    ![Validation results.](../images/wpa/use/validation-results.png)
  
    In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md); they do not need a Workplace Analytics [role](../setup/assign-roles-to-wpa-admins.md).)
 
@@ -178,7 +178,7 @@ Follow these steps to upload a file that contains email addresses:
 
 1. To identify a group by filtering, select **Use filters**:
 
-    ![Use filters option](../images/wpa/use/use-filters.png)
+    ![Use filters option.](../images/wpa/use/use-filters.png)
  
 2. Add filters and parameters.
 
@@ -207,12 +207,12 @@ When you compare two groups of people, the purpose is to arrive at a meaningful 
 
 Because of differences such as these, making a direct, unrefined comparison of groups of employees might produce results that are not informative. For this reason, Workplace Analytics provides a way to improve the relevance and value of your comparisons: Add filters on the **Conditions** page:
 
-![Apply conditions](../images/wpa/use/step3-conditions.png)
+![Apply conditions.](../images/wpa/use/step3-conditions.png)
 
 Let's say you are looking at employees in the software engineering discipline. You might want to make sure that both the reference group and the other group consist entirely of software engineers. On this page, add a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_.
 
 Workplace Analytics will then make sure that every user in both of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, it displays an error message:
 
-![Use filters error message](../images/wpa/use/conditions-error-msg.png)
+![Use filters error message.](../images/wpa/use/conditions-error-msg.png)
 
 For privacy reasons, Workplace Analytics cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  

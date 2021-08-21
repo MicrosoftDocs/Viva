@@ -55,8 +55,8 @@ You need the following four input files (.csv) to generate a seating plan. These
 
 The tool uses the data in these input files to generate a seating plan in table format, where the rows represent the teams, and the columns represent the workspaces where teams are seated.
 
-![Example data in the files](../images/wpa/use/sample-input.png)
-![Example seating plan](../images/wpa/use/sample-seating.png)
+![Example data in the files.](../images/wpa/use/sample-input.png)
+![Example seating plan.](../images/wpa/use/sample-seating.png)
 
 ## Tool files
 
@@ -95,22 +95,22 @@ Do the following to create a seating plan:
 2. In the **Distance Helper notebook**, select **Run** at the top, which will take a few minutes to load the files the first time you run it.
 3. When prompted, enter the total number of buildings you have, and then select **Go**. If the restack scope only includes one building, enter **1**.
 
-   ![Distance Helper buildings prompt](../images/wpa/use/distance-helper.png)
+   ![Distance Helper buildings prompt.](../images/wpa/use/distance-helper.png)
 
 4. Enter the building information in the table, including the name, number, and complete address of each building. The tool needs the full address for accurate latitude and longitude coordinates. You can use [Bing maps](https://www.bing.com/maps) to get the addresses.
 5. In **step 3**, enter the maximum number of floors for the buildings included in the overall workspace have, and then select **Go**. For example, if two of the buildings have two floors and one has three floors in the overall workspace, you'd enter **3** as the maximum number of floors.
 6. In **step 4**, enter the numbers and the names of the floors that the workspace includes for each building. For example, if the company’s workspace starts on the first floor, enter **1** for **Floor Number 1**. If the company’s workspace starts on the fifth floor of a building, enter **5** for **Floor Number 1**.
 7. In **step 5**, enter the maximum number of zones that you'll need to define for any of the floors in any of the individual buildings. For example, the following shows entering **6** as the maximum number of zones required for a floor in one of the buildings.
 
-    ![Distance Helper floor and zone number prompts](../images/wpa/use/distance-helper2.png)
+    ![Distance Helper floor and zone number prompts.](../images/wpa/use/distance-helper2.png)
 
 8. In **step 6**, enter the floor names, number of zones, and corresponding zone coordinates for each building, which you defined in **step 3**, and then select **Go**. For example, the following shows Floor 1 with 6 zones in building 32 that require zone coordinates of (1,1), (3,1), (4,1), and so on. For tips on how to create the coordinates, see [Create the zone coordinates](#create-the-zone-coordinates).
 
-    ![Distance Helper Game of Zones example table](../images/wpa/use/game-of-zones.png)
+    ![Distance Helper Game of Zones example table.](../images/wpa/use/game-of-zones.png)
 
 9. In **step 7**, enter each floor's zone coordinates and a friendly space name that defines the building's floor number and zone in the table. The following example shows a zone coordinate of **4,3** with a friendly space name of **16-1D**, which represents zone D on the first floor of building 16.
 
-    ![Distance Helper example space names](../images/wpa/use/wsp-space-names.png)
+    ![Distance Helper example space names.](../images/wpa/use/wsp-space-names.png)
 
     >[!Important]
     >The friendly space names must match the floor names that you entered in the space_capacity.csv file.
@@ -123,7 +123,7 @@ Do the following to create a seating plan:
 2. In the **File Validations notebook**, select **Run** to validate the files that will be used to generate the seating plans.
 3. When prompted to load the data, select the location for each of the files, as shown in the following graphic, and then select **Go** to validate them.
 
-    ![File Validations notebook example](../images/wpa/use/file-validation.png)
+    ![File Validations notebook example.](../images/wpa/use/file-validation.png)
 
 4. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a **red X**, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat the previous steps to validate the updated files.
 5. After all files are successfully validated, select one of the following input scenarios that the tool should use to aggregate the final output for your interaction file. These scenarios are based on the interactions file query data.
@@ -149,11 +149,11 @@ Do the following to create a seating plan:
       1. Edit the seating plan's existing .xlsx file that was saved in **app_results**. After editing it, you must save the seating plan as a .csv file. When editing the plan, you must stay within the constraints set in the validated *space_capacity.csv* and *team_size.csv* files. You must also leave some teams unassigned for the algorithm to correctly assign seats within the set constraints.
       2. After you save the new changes to a seating plan file, select **Fixed**, and then select the updated seating plan file. For example, the following graphic shows sample input files and a seating plan where **Engineering** and **Marketing** are assigned to multiple locations.
 
-         ![Standard seating plan example](../images/wpa/use/sample-seating.png)
+         ![Standard seating plan example.](../images/wpa/use/sample-seating.png)
 
          In the following example, the seat assignments have been changed (fixed) to keep the **Engineering** and **Marketing** teams closer together. You must account for the capacity of the workspaces. For example, if workspace B31-Floor2 has a capacity of 100, then you can’t place 150 people in that workspace. Note the **Product** team is unassigned, so the fixed seating plan will keep the Marketing and Engineering team seat assignments unchanged and the Product team will be assigned to any unoccupied spaces based on the original input files in the Final Files set folder.
 
-         ![Fixed seating plan example](../images/wpa/use/wsp-fixed-floorplan.png)
+         ![Fixed seating plan example.](../images/wpa/use/wsp-fixed-floorplan.png)
 
 3. In the **app_results** folder, open the latest seating plan to see the seat assignments. In this example, after running Fixed spaces, the Product team will be seated in the available workspaces and the Engineering and Marketing teams will stay _fixed_ according to the previous changes.
 
@@ -163,7 +163,7 @@ When you open a seating plan file, you’ll see teams assigned to zones or neigh
 
 The following shows an example seating plan where the Product team has 64 people assigned to Floor 1, Zone A and 16 people assigned to Floor 1, Zone B.
 
-![Example floor plan](../images/wpa/use/wsp-example-floorplan.png)
+![Example floor plan.](../images/wpa/use/wsp-example-floorplan.png)
 
 ## Create the zone coordinates
 
@@ -176,7 +176,7 @@ You can use Microsoft PowerPoint or a similar tool to define the zone coordinate
 
    If you have zones that are larger than other zones, you can adjust the value of the coordinate systems to account for different sizes of zones. For example, if Zone A is twice the size of Zones B, C and D, then the coordinates could be represented as A: (0,0), B: (0,2), C: (0,3), D: (0,4).
 
-   ![Example zone grid and table](../images/wpa/use/wsp-zones.png)
+   ![Example zone grid and table.](../images/wpa/use/wsp-zones.png)
 
 ## Tips
 

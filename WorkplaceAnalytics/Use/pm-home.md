@@ -27,11 +27,11 @@ You can use the following information to lead your team toward more effective bu
 
 The following shows what your managers will see in [My Team in Viva Insights](viva-insights-my-team.md).
 
-![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
+![Outcomes page.](../images/wpa/use/viva-team-outcomes.png)
 
 The following shows what your managers can see in Workplace Analytics, which is the same information shown in Viva Insights.
 
-![People Manager Home page](../images/wpa/use/manager-insights.png)
+![People Manager Home page.](../images/wpa/use/manager-insights.png)
 
 ## Manager access
 

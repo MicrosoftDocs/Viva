@@ -36,7 +36,7 @@ Shows an ONA graph and the following metrics about how the organization as a who
 
 For example, the following graphic shows a Stability of -33.7 percent change in workgroup membership as compared to last month, which shows an improvement as compared to the overall time range.
 
-![Organizational Insights data](./images/ona-org-insights.png)
+![Organizational Insights data.](./images/ona-org-insights.png)
 
 The following metrics are used for the graph and are currently only available in the downloaded data.
 
@@ -54,7 +54,7 @@ Group Insights include the following trends about how people within the selected
 
 For example, the following graphic shows within-group trends for the **Sales - Central** group. These high-level trends highlight overall collaboration patterns for this group over time.
 
-![Within-group trend data](./images/ona-within-group-trends.png)
+![Within-group trend data.](./images/ona-within-group-trends.png)
 
 For Within-Group comparisons, you can select a column to sort the table by. By default, the highest risk groups are listed first.
 
@@ -68,15 +68,15 @@ Select **Cross-Group** to see your organization’s cross-group collaboration tr
 
 For example, the following shows that the **Biz Dev** and **Customer Service** groups had a positive 64 percent change in expected collaboration over the selected time range and a positive 17.4 percent change as compared to the previous month's collaboration.
 
-![Cross-group trend data](./images/ona-cross-group-trends.png)
+![Cross-group trend data.](./images/ona-cross-group-trends.png)
 
 Use **Focus on** to select which groups you want to hide or show in the **Collaboration Across Group** table. You can also hide a group by selecting the **Clear Row** (**eye**) icon that's available when you hover on the group's column or row name within the table. To unhide a group, select the group name in **Focus on**. The following graphic shows the **eye** icon for the **Sales** group in the table.
 
-![Select which groups to focus on or hide in the table](./images/ona-cross-group-trends.png)
+![Select which groups to focus on or hide in the table.](./images/ona-cross-group-trends.png)
 
 To see more details about the collaboration metrics or the interaction matrix that this insight analysis uses, you can select them as **Download** options for an insight.
 
-![ONA insights download options](./images/ona-insights-download.png)
+![ONA insights download options.](./images/ona-insights-download.png)
 
 ## To create a new insight
 
@@ -84,7 +84,7 @@ To see more details about the collaboration metrics or the interaction matrix th
 2. In **Insights**, select **Create New Insight** at top right.
 3. In **Define Insight Settings**, enter a name and select a path to the data.
 
-   ![Define Insight Settings options](./images/ona-new-insight.png)
+   ![Define Insight Settings options.](./images/ona-new-insight.png)
 
 4. In **Specify the time range**, select a date range (minimum of two months) to get collaboration trends over time.
 5. In **Select the Grouping Attributes**, select up to a maximum of five internal attributes to analyze. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
@@ -105,7 +105,7 @@ To see more details about the collaboration metrics or the interaction matrix th
 
 1. In **Organizational Network Analysis** > **Insights**, select the name of the insight in the table that you want to view.
 
-   ![ONA Insights table](./images/ona-insights.png)
+   ![ONA Insights table.](./images/ona-insights.png)
 
 2. The following information and options are available in the table for existing insights:
 

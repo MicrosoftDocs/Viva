@@ -15,7 +15,7 @@ audience: Admin
 
 **Teams collaboration** shows communication trends about and insights into how your organization's employees use Teams for communication and collaboration. You can select what collaboration data to analyze on this page, either Teams' calls, instant messages, or both.
 
-![Teams collaboration](../images/wpa/use/teams-explore.png)
+![Teams collaboration.](../images/wpa/use/teams-explore.png)
 
 ## Access to Teams collaboration
 
@@ -25,19 +25,19 @@ You can open [Teams collaboration](https://workplaceanalytics.office.com/en-us/H
 
 The **Call hours** graph shows the average and total number of hours each group spent in calls with at least one other person, as either initiators or participants, through Teams, including scheduled and unscheduled calls during and outside of working hours (as set in Outlook).
 
-![Teams call hours](../images/wpa/use/teams-explore-calls.png)
+![Teams call hours.](../images/wpa/use/teams-explore-calls.png)
 
 ## Instant messaging hours
 
 The **Instant messaging hours** graph shows average and total number of hours each group spent sending or receiving instant messages (IMs) through Teams with at least one other person, including IMs during and outside of working hours (as set in Outlook).
 
-![Teams IMs](../images/wpa/use/teams-explore-ims.png)
+![Teams IMs.](../images/wpa/use/teams-explore-ims.png)
 
 ## Filters for Teams
 
 You can use the **Call hours** and **IM hours** filters in the Charts and in Page Settings to filter and view Teams data.
 
-![Teams filters](../images/wpa/use/teams-filters.png)
+![Teams filters.](../images/wpa/use/teams-filters.png)
 
 ## Data sources includes Teams
 
@@ -45,7 +45,7 @@ In **Sources** > **Microsoft 365 data**, you'll see an **Average weekly collabor
 
 Analysts can use these views to evaluate communication and collaboration trends and patterns for your organization.
 
-![Teams summary in Data sources](../images/wpa/Use/teams-data.png)
+![Teams summary in Data sources.](../images/wpa/Use/teams-data.png)
 
 ## Teams data in queries
 

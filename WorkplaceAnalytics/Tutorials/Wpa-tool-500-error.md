@@ -19,7 +19,7 @@ audience: Admin
 
 "The server is not responding. Please contact your administrator. Error 500".
 
- ![Workplace Analytics 500 error](../Images/Wpa-tool-500-error.png)
+ ![Workplace Analytics 500 error.](../Images/Wpa-tool-500-error.png)
 
 **Why is this happening?** 
 

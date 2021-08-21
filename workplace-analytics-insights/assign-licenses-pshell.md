@@ -67,7 +67,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
 
    Sign in with admin credentials:
 
-    ![Azure Active Directory login](./images/azure-ad-log-in-1.png)
+    ![Azure Active Directory login.](./images/azure-ad-log-in-1.png)
 
 2. Run the following from the command line:
 

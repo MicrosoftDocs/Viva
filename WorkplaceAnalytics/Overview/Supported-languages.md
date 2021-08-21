@@ -56,7 +56,7 @@ In certain circumstances, you can use Workplace Analytics with _data_ that is in
 
 * Query names and descriptions must be in English, Japanese, or French.
 
-   ![Query names and descriptions](../Images/WpA/Overview/query-name-description.png)
+   ![Query names and descriptions.](../Images/WpA/Overview/query-name-description.png)
 
 * Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md) must be in English.
 
@@ -68,7 +68,7 @@ In certain circumstances, you can use Workplace Analytics with _data_ that is in
 
 In [Privacy settings](../use/privacy-settings.md), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
-![Exclude terms from subject line](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
+![Exclude terms from subject line.](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
 
 We appreciate all your feedback. To report any language-related issues, use the **Send feedback** button.
 

@@ -70,7 +70,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 6. Select **Run** to run the query, which can take a few minutes to complete.
 7. When prompted, select to go to **Results**. After the query successfully runs, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
 
-    ![Download the Power BI Ways of working tracker template](../Images/WpA/Tutorials/pbi-download-tracker.png)
+    ![Download the Power BI Ways of working tracker template.](../Images/WpA/Tutorials/pbi-download-tracker.png)
 
 8. Open the downloaded **Ways of working tracker template**.
 9. If prompted to select a program, select **Power BI**.
@@ -84,7 +84,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 13. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -108,7 +108,7 @@ After the Ways of working tracker dashboard is set up and populated with Workpla
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-  ![Ways of working tracker dashboard settings](../Images/WpA/Tutorials/tracker-settings.png)
+  ![Ways of working tracker dashboard settings.](../Images/WpA/Tutorials/tracker-settings.png)
 
 ## About the reports
 

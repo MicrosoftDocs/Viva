@@ -28,7 +28,7 @@ To assign roles:
 5. Select **Assign admins**, and then select **+ Add**.
 6. In the search field for **Who do you want to assign to this role**, type the first few letters of a name, and then select the name from the list. The admin center limits you to assigning 20 names at a time. However, you can repeat these steps to assign more users a role.
 
-    ![Assign the selected role](./images/assign-role.png)
+    ![Assign the selected role.](./images/assign-role.png)
 
 7. Select **Save** to assign the listed users the role.
 
@@ -44,7 +44,7 @@ You can also assign the role to one or more groups, which means that you are ass
 
 To assign users and roles to an Insights app group, the steps are similar to those for assigning users, as previously described in **Steps 9-12** in [Assign roles to users](#assign-roles-to-users) where in **Step 9**, instead of selecting a name, select a group, and then assign a role to that group.
 
-![Select group](./images/select-group-b.png)
+![Select group.](./images/select-group-b.png)
 
 If you have not yet created an Insights app group in Azure AD, and want to do so, see [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 -->

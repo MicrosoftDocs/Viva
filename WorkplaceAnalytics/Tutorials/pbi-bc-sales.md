@@ -112,7 +112,7 @@ After confirming the settings, check the number of measured employees to confirm
 >[!Important]
 >As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
-![Sales business continuity dashboard settings](../Images/WpA/Tutorials/sbc-settings.png)
+![Sales business continuity dashboard settings.](../Images/WpA/Tutorials/sbc-settings.png)
 
 ## About the dashboard reports
 

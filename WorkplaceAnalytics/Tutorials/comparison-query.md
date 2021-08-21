@@ -38,7 +38,7 @@ Although peer comparison queries focus on people, they produce different informa
 11. In the **Select metrics** section, select the aspect of employee behavior that you want to compare with peer groups. For more information, see [Select metrics](#select-metrics).
 12. To run the query, select **Run** at the top right of the page. A message indicates that the query is running. In **Query designer > Results**, the query you started shows a status of "running":
 
-    ![Query is running](../images/wpa/tutorials/query-running-2.png)
+    ![Query is running.](../images/wpa/tutorials/query-running-2.png)
 
 ## Concepts  
 
@@ -68,7 +68,7 @@ The fact that you have selected multiple individuals has no bearing on how the q
 
 In the **Select employees** step, you select individuals of interest, those you’re querying about. In the **Select peer groups** step, you select the groups to compare with those individuals. These are groups of similar employees, calculated separately for each selected employee.
 
-![Select peer group](../images/wpa/tutorials/define-comp-group.png)
+![Select peer group.](../images/wpa/tutorials/define-comp-group.png)
 
 In this example, we’ve selected options to indicate groups to compare. The following sections describe those options:
 
@@ -99,7 +99,7 @@ Because we selected two groups in this example, two comparisons will be made whe
 
 In the **Select metrics** step, you start by selecting one or more metrics. For example, who has the larger "internal network size" (a metric), the employees or the comparison groups? In the following illustration, we’ve selected four metrics, which you see listed under **Base metric**:
 
-![Select metrics](../images/wpa/tutorials/select-metrics.png)
+![Select metrics.](../images/wpa/tutorials/select-metrics.png)
 
 After you select a base metric, you can change its display name.  
 
@@ -118,11 +118,11 @@ For descriptions of available metrics, see [Peer-comparison metrics](../use/metr
 
 After the query finishes running, its row in **Query designer** > **Results** shows a check mark in the Status column. You can then download and open the results file. (Results files are in .csv format.)
 
-![Results file](../images/wpa/tutorials/results-file-3.png)
+![Results file.](../images/wpa/tutorials/results-file-3.png)
 
 In this example results file, the first 12 lines of data (lines numbered 2 through 13) report comparison results for the first individual of interest, whose PersonId ends in "5A329."
 
-![Results file detail](../images/wpa/tutorials/results-file-zoom-70.png)
+![Results file detail.](../images/wpa/tutorials/results-file-zoom-70.png)
 
 Here are a few things we know about this comparison (the results on these 12 lines):
 

@@ -37,11 +37,11 @@ The task of activating licenses has two parts. Each part requires a different Az
 
 3. Copy the activation code link, which you received from us, paste it into the URL section of the private or incognito browser window, and then press **Enter** to open the link.
 
-   ![Promotional code link](../images/wpa/setup/promo-code.png)  
+   ![Promotional code link.](../images/wpa/setup/promo-code.png)  
 
 4. To add the code to your existing environment, select **Sign In** next to **Want to add this to an existing subscription?**
 
-   ![Promotional code sign-in](../images/wpa/setup/sign-in.png)
+   ![Promotional code sign-in.](../images/wpa/setup/sign-in.png)
 
 5. On the **Sign in** page, enter your AAD [Billing administrator](/azure/active-directory/roles/permissions-reference#billing-administrator) credentials for the tenant.
 6. On the **Check out** page, select **Try Now** to confirm the order.
@@ -61,7 +61,7 @@ The task of activating licenses has two parts. Each part requires a different Az
 
    For example, the following screenshot shows 25 new licenses.
 
-   ![Promotional licenses](../images/wpa/setup/promo-licenses.png)  
+   ![Promotional licenses.](../images/wpa/setup/promo-licenses.png)  
 
 3. On the **Product licenses** page, use the slider to turn on the available licenses.
 

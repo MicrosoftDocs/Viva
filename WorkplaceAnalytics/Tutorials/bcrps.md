@@ -27,7 +27,7 @@ You are encouraged to share this report with business leaders in your organizati
 * Able to effectively meet and share ideas and information remotely.
 * Maintaining their community connections.
 
-![Business continuity report v3](../Images/WpA/Tutorials/bcrps-3.png)
+![Business continuity report v3.](../Images/WpA/Tutorials/bcrps-3.png)
 
 The following are some of the top-level business questions this report helps you analyze.
 

@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 # Queries overview
 
@@ -46,7 +46,7 @@ In this model, there is no minimum monthly licensing cost for your organization;
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
-![units per query](../images/wpa/tutorials/conmod-credits-2.png)
+![units per query.](../images/wpa/tutorials/conmod-credits-2.png)
 
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
@@ -104,7 +104,7 @@ No additional units are charged for the following:
 
 The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
 
-![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
+![PUPM: no units shown.](../images/wpa/tutorials/pupm-no-credits-2.png)
 
 ### Results page
 
@@ -112,9 +112,9 @@ The **Queries** > **Results** page shows additional information if the consumpti
 
 * **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
-* **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+* **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information.](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
-   ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
+   ![Query results page.](../images/wpa/tutorials/query-results-new-col.png)
 
 -->
 
@@ -208,7 +208,7 @@ You can create queries in the following ways:
 
 When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
-![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
+![Customize metrics.](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
 ## Query templates
 

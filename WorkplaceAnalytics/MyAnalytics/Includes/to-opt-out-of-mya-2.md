@@ -17,12 +17,12 @@ ms.prod: Mya
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at the top right.
 
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
 4. For MyAnalytics, set the control to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/Slider-off.png)
+    ![Slider in off position.](../../Images/mya/use/Slider-off.png)
   
 5. Select **Save** to save your changes.
 

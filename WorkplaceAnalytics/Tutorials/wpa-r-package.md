@@ -34,7 +34,7 @@ This R package is intended for use by analysts and data scientists who are inter
 
 The following illustration shows the experience of creating a visualization of collaboration hours with the _wpa R package_:
 
-![wpa R package visualization](../images/wpa/tutorials/wpa-r-package-visual.gif)
+![wpa R package visualization.](../images/wpa/tutorials/wpa-r-package-visual.gif)
 
 ## Analyst resources
 

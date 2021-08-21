@@ -39,7 +39,7 @@ This template combines Workplace Analytics data with your team size, workspace c
 
 This template combines the data in these files and generates a table that shows where to seat people in the specified floor plan.
 
-   ![Workspace Planning data](./images/wsp-data.png)
+   ![Workspace Planning data.](./images/wsp-data.png)
 
 ## Key features
 
@@ -61,7 +61,7 @@ This template combines the data in these files and generates a table that shows 
 3. Select **Analyze** > **Query designer**.
 4. In **Start custom query**, select **Group-to-group query**.
 
-   ![Interaction group-to-group query](./images/wsp-g2g-query.png)
+   ![Interaction group-to-group query.](./images/wsp-g2g-query.png)
 
 5. Enter or select the following to create the query.
 
@@ -81,7 +81,7 @@ This template combines the data in these files and generates a table that shows 
 6. At the top right, select **Run** to create the query.
 7. After the query is successfully created, in **Query designer** > **Results**, locate and select the **Download** icon for your new Interactions query, and then save the zipped file.
 
-   ![Download query](./images/wsp-download.png)
+   ![Download query.](./images/wsp-download.png)
 
 8. Locate and right-click the **interaction.zip** file, select **Extract all**, and then select **Extract** and specify the folder.
 9. Confirm the new file is named (or rename it as) **interaction.csv** (exact file name is required).
@@ -104,13 +104,13 @@ This template combines the data in these files and generates a table that shows 
 3. In the **Total Capacity** column, enter the maximum capacity for each floor.
 4. If you have office seat variables to define, continue to the next set of steps. Otherwise, save and close the file.
 
-   ![Space capacity table](./images/wsp-space-table.png)
+   ![Space capacity table.](./images/wsp-space-table.png)
 
 ## Create a Distance file
 
 The following graphic depicts a building with four floors. The distance between each parallel floor needs to be the same consistent value. You can use the default value of 15 for parallel floors, which is a good estimate of how long it takes to get from one floor to the next in the same building.
 
-   ![Floor distance explained](./images/wsp-distance-estimate.png)
+   ![Floor distance explained.](./images/wsp-distance-estimate.png)
 
 >[!Notes]
 >
@@ -125,7 +125,7 @@ The following graphic depicts a building with four floors. The distance between 
 3. Starting in the second row and column, enter the distances where the corresponding locations intersect to denote the distance between the two locations.
 4. Save and close the file.
 
-   ![Distance table](./images/wsp-distance-table.png)
+   ![Distance table.](./images/wsp-distance-table.png)
 
 ## Create a Team size file
 
@@ -145,7 +145,7 @@ The following graphic depicts a building with four floors. The distance between 
 
 3. Save the file, and then continue to the next set of steps.
 
-   ![Team size table](./images/wsp-team-table.png)
+   ![Team size table.](./images/wsp-team-table.png)
 
 <!--### For co-located teams
 
@@ -154,7 +154,7 @@ The following graphic depicts a building with four floors. The distance between 
 3. For each row in the new team column, enter the number of team members you want to place next to each team, entering a 0 for the row that has the same team name.
 4. In the **Adjacent Size** column, for the rows that are not the same team as the new column, add the Size column and the value in the new team column.  For the row that matches the team name in the new column, total the new Team column. And then subtract that sum from the **Size** column and enter that value in the **Adj Size** cell.
 
-   ![Fixed seat variables](./images/wsp-adj-size.png)
+   ![Fixed seat variables.](./images/wsp-adj-size.png)
 
 ### For office seat variables
 
@@ -165,7 +165,7 @@ The following graphic depicts a building with four floors. The distance between 
 5. Your final floor plan should look similar to the following graphic.
 6. Save and close the file.
 
-   ![Office seat variables](./images/wsp-office-level.png)
+   ![Office seat variables.](./images/wsp-office-level.png)
 
 ## Generate a Constraints file
 
@@ -188,7 +188,7 @@ The following graphic depicts a building with four floors. The distance between 
 
    In the following example, the first constraint defines that Team 1 be as close as possible to Team 2. The second constraint defines Team 3 be as far away as possible from Team 4.
 
-   ![Team constraints](./images/wsp-team-constraints.png)-->
+   ![Team constraints.](./images/wsp-team-constraints.png)-->
 
 ## Generate a floor plan
 
@@ -217,7 +217,7 @@ Before you can generate a floor plan, you need to create a Project folder. This 
 8. Select **Save Floor Plan**.
 9. Name the plan, and then select **Save Floor Plan** again.
 
-![Workspace Planning Floor Plan](./images/wsp-floor-plan.png)
+![Workspace Planning Floor Plan.](./images/wsp-floor-plan.png)
 
 ### Capacity color key
 

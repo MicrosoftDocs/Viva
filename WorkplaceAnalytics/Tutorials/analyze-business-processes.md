@@ -29,7 +29,7 @@ Use the following procedures to analyze a business process:
 
 This illustration shows these procedures and the types of data that they involve:
 
-![Conceptual art: three steps](../images/wpa/tutorials/steps-3.png)
+![Conceptual art: three steps.](../images/wpa/tutorials/steps-3.png)
 
 The following sections describe these procedures.
 
@@ -56,11 +56,11 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 2. On the **Analysis settings** page, select **Data sets** and then, on the right side of the page, select **Add data set**.
 
-   ![new data set](../images/wpa/tutorials/new-data-set.png)
+   ![new data set.](../images/wpa/tutorials/new-data-set.png)
 
 3. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we've given **SalesDataSet** as the name of the data set.) Select **Continue**.
 
-   ![data set name given](../images/wpa/tutorials/data-set-name-in-place.png)
+   ![data set name given.](../images/wpa/tutorials/data-set-name-in-place.png)
 
 4. Under **Time period** select start and end dates. All meetings that took place outside of this time period will be excluded from the data set.
 
@@ -70,17 +70,17 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 7. Select **Meeting**:
 
-   ![Add a Meeting filter](../images/wpa/tutorials/meeting-filter-1.png)
+   ![Add a Meeting filter.](../images/wpa/tutorials/meeting-filter-1.png)
 
 8. In the boxes to the right of **Meeting's**, select **Duration (in hours)**, **<** (less than), and **0.5** (hours).
 
 9. On the next line, select **Attendee**. This lets us choose the work function (in this case, sales) of meeting attendees.
 
-   ![Add an Attendee filter](../images/wpa/tutorials/attendee.png)
+   ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
 
 10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Workplace Analytics admin has uploaded.)
 
-    ![Sales as function type](../images/wpa/tutorials/function-type-sales.png)
+    ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 
 11. Select **Submit**.
 
@@ -92,7 +92,7 @@ Right after you select **Submit**, the data set has a status of "In progress"; a
 
 You can find a list of existing data sets and their statuses in **Analyze** > **Business process analysis** > **Data sets**:
 
-![Data sets page](../images/wpa/tutorials/data-set-statuses.png)
+![Data sets page.](../images/wpa/tutorials/data-set-statuses.png)
 
 ### Data set actions
 
@@ -104,7 +104,7 @@ To view or delete a data set, first find it on the **Data sets** tab of the **An
 
 Before you can analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
-![Biz process start page](../images/wpa/tutorials/start-page.png)
+![Biz process start page.](../images/wpa/tutorials/start-page.png)
 
 >[!Note]
 >Currently, you can use only English keywords in the process of defining a business process. This holds true even if your instance of Workplace Analytics is in a language other than English.
@@ -126,11 +126,11 @@ In these steps, we create and name an empty business process.
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
-   ![business process list view](../images/wpa/tutorials/add-biz-process.png)
+   ![business process list view.](../images/wpa/tutorials/add-biz-process.png)
 
 2. Select **Add business process**.
 
-   ![Add a business process](../images/wpa/tutorials/new-business-process.png)
+   ![Add a business process.](../images/wpa/tutorials/new-business-process.png)
 
 3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales interactions** as the name of the business process.) Select **Continue**.
 
@@ -146,13 +146,13 @@ In these steps, we create and name an empty business process.
 
 In this procedure, you assemble the vocabulary that constitutes the business process. Start on the **New business process** page:
 
-![Keyword selection](../images/wpa/tutorials/keyword-page.png)
+![Keyword selection.](../images/wpa/tutorials/keyword-page.png)
 
 As an analyst, your goal now is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those words as cues to uncover additional content that it deems relevant. In this example, that means words related to sales interactions.
 
 1. In the field marked **Enter a search term**, type **purchase** and press Enter. The system searches for content that's related to "purchase" and displays the results in a table.
 
-   ![Results table](../images/wpa/tutorials/result-words-2.png)
+   ![Results table.](../images/wpa/tutorials/result-words-2.png)
 
 2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Keyword**, **Attendee meeting hours**, or **Number of meetings**).
 
@@ -171,19 +171,19 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
    a. Hover your mouse over the keyword's row to see an unselected checkbox to the left of the keyword.
 
-   ![Unselected term](../images/wpa/tutorials/unchecked-box-2.png)
+   ![Unselected term.](../images/wpa/tutorials/unchecked-box-2.png)
 
    b. Then, select the checkbox:
 
-   ![Select term](../images/wpa/tutorials/select-terms-2.png)
+   ![Select term.](../images/wpa/tutorials/select-terms-2.png)
 
 5. With one or more terms checked, select **Add selected to** and then select **Included keywords**.
 
-   ![Add terms to list](../images/wpa/tutorials/add-terms-to-2.png)
+   ![Add terms to list.](../images/wpa/tutorials/add-terms-to-2.png)
 
    After you include a term, it appears in the **Included keywords** list to the right of the results table:
 
-   ![Term added to list](../images/wpa/tutorials/added-to-list-50-2.png)
+   ![Term added to list.](../images/wpa/tutorials/added-to-list-50-2.png)
 
 6. (Optional) To explicitly _exclude_ terms from the keyword list, repeat the preceding step but after you select **Add selected to**, select **Excluded keywords**.
 
@@ -196,7 +196,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
 8. Look at the numbers of meeting hours and meetings at the top of the page:
 
-   ![Meeting hours](../images/wpa/tutorials/meeting-hours.png)
+   ![Meeting hours.](../images/wpa/tutorials/meeting-hours.png)
 
    The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire data set. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have added to the business process. These smaller numbers change as you add or delete keywords.
 
@@ -204,7 +204,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
 9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save draft**, return later, and resume where you left off.
 
-   ![Business process options](../images/wpa/tutorials/business-process-options.png)
+   ![Business process options.](../images/wpa/tutorials/business-process-options.png)
 
 10. When you're finished defining the business process, select **Submit**. (**Submit** is available only if at least one keyword is present in the **Included Keywords** list.) The system starts processing your new business process and gives it a [status](#business-process-statuses) of "In progress."
 
@@ -220,7 +220,7 @@ Business processes can have the following status:
 
 * <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
-   ![Business process statuses](../images/wpa/tutorials/business-process-list-2.png)
+   ![Business process statuses.](../images/wpa/tutorials/business-process-list-2.png)
 
 ### Business process actions
 
@@ -246,11 +246,11 @@ In [meeting queries](Meeting-queries.md#meeting-queries), business processes are
 
 3. Under **Select filters**, select **Meeting**.
 
-   ![Select filters](../images/wpa/tutorials/select-filters-1.png)
+   ![Select filters.](../images/wpa/tutorials/select-filters-1.png)
 
 4. Next to **Meeting’s**, select **Business process**.
 
-   ![Select business process](../images/wpa/tutorials/select-filters-2.png)
+   ![Select business process.](../images/wpa/tutorials/select-filters-2.png)
 
 5. In the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
 
@@ -272,23 +272,23 @@ In [person queries](Person-queries.md#person-queries), business processes are av
 
 3. Under **Select metrics**, select a metric. In this example, we’ll use **Collaboration hours**.
 
-   ![Select metrics](../images/wpa/tutorials/select-metrics-collab.png)
+   ![Select metrics.](../images/wpa/tutorials/select-metrics-collab.png)
 
 4. Customize the Collaboration hours metric. Start by selecting **Edit** (the pencil icon) .
 
-   ![Customize the metric](../images/wpa/tutorials/customize-metric.png)
+   ![Customize the metric.](../images/wpa/tutorials/customize-metric.png)
 
 5. Select **Add filter**.
 
-   ![Add a filter](../images/wpa/tutorials/add-filter.png)
+   ![Add a filter.](../images/wpa/tutorials/add-filter.png)
 
 6. For **Collaboration hours where**, select **Meeting**.
 
-   ![Select meeting to customize](../images/wpa/tutorials/select-meeting-collab.png)
+   ![Select meeting to customize.](../images/wpa/tutorials/select-meeting-collab.png)
 
 7. Next to **Meeting’s**, select **Business process**.
 
-   ![Select filters for meetings](../images/wpa/tutorials/select-filters-3.png)
+   ![Select filters for meetings.](../images/wpa/tutorials/select-filters-3.png)
 
 8. In the middle field, select "**=**" and in the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
 
@@ -310,7 +310,7 @@ To define a business process, you must use meeting subject lines, but access to 
 
 You can use this setting to control whether to show legible or hashed subject lines in [Meeting query](meeting-queries.md) results.
 
-![Hash subject lines](../images/wpa/tutorials/hash-subject-lines.png)
+![Hash subject lines.](../images/wpa/tutorials/hash-subject-lines.png)
 
 If your Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
 
@@ -320,7 +320,7 @@ However, this option also makes subject lines unusable for business-process anal
 
 For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page of Workplace Analytics:
 
-![Exclude terms from subject lines](../images/wpa/tutorials/exclude-terms-5.png)
+![Exclude terms from subject lines.](../images/wpa/tutorials/exclude-terms-5.png)
 
 How does the exclusion of terms affect your analysis of business processes? It affects your ability to [assemble a list of keywords](#assemble-a-list-of-keywords), which is the central task in defining a business process. This is because you define a business process atop a data set, and within that data set are the words that you can add as keywords. If your admin excludes a word (such as "merger" or "acquisition") from analysis in general, that also excludes it from data sets and consequently from business-process analysis.
 

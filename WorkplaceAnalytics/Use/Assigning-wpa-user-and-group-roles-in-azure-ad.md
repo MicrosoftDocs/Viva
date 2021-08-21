@@ -23,25 +23,25 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
 
 2. In the left navigation menu, select **Enterprise Applications**.
 
-    ![Enterprise Applications](../images/WpA/Use/enterprise-applications-1.png)
+    ![Enterprise Applications.](../images/WpA/Use/enterprise-applications-1.png)
 
 3. In the Application Type drop-down menu, select **All Applications** and select **Apply**.
 
-    ![Select Apply](../images/WpA/Use/apply-button_90.png)
+    ![Select Apply.](../images/WpA/Use/apply-button_90.png)
 
 4. In the search field, type "workplace" and then press **Enter**.
 
 5. In the search results, select **Workplace Analytics**.
 
-    ![All Applications](../images/WpA/Use/all-applications-2.png)
+    ![All Applications.](../images/WpA/Use/all-applications-2.png)
 
 6. In the Overview section, select **Total Users**.
 
-    ![Total users](../images/WpA/Use/total-users-3.png)
+    ![Total users.](../images/WpA/Use/total-users-3.png)
 
 7. In the Users and groups window, select **Add user**.
 
-   ![Add user](../images/WpA/Use/add-user-4.png)
+   ![Add user.](../images/WpA/Use/add-user-4.png)
 
 8. Under **Add Assignment**, select **Users and groups**.
 
@@ -49,15 +49,15 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
 
 10. Select the name and then select the blue **Select** button.
 
-      ![Select user](../images/WpA/Use/select-user-5.png)
+      ![Select user.](../images/WpA/Use/select-user-5.png)
 
     **Users and groups** shows that the new user is selected.
 
-       ![Add assignment](../images/WpA/Use/user-selected-6.png)
+       ![Add assignment.](../images/WpA/Use/user-selected-6.png)
 
 11. Under **Add Assignment**, select **Select Role** to choose the role you want to assign the selected user.
 
-      ![Select a role](../images/WpA/Use/select-role-7.png)
+      ![Select a role.](../images/WpA/Use/select-role-7.png)
 
 12. From the list that appears, select one of the following roles:
 
@@ -66,17 +66,17 @@ To add Workplace Analytics user roles in Azure Active Directory (Azure AD):
     * Administrator
     * Program manager
 
-    ![Select role](../images/WpA/Use/select-role-8.png)
+    ![Select role.](../images/WpA/Use/select-role-8.png)
 
 13. Select the **Select** button.
 
 14. Select the **Assign** button.
 
-     ![Assign role](../images/WpA/Use/assign-role-9.png)
+     ![Assign role.](../images/WpA/Use/assign-role-9.png)
 
     Users and groups now displays the user's new assigned Workplace Analytics role.
 
-     ![Role assignment confirmation](../images/WpA/Use/new-role-assigned-10.png)
+     ![Role assignment confirmation.](../images/WpA/Use/new-role-assigned-10.png)
 
 15. (Optional) Add additional roles: 
  * To add another role to the _same_ user, repeat steps 11-14.    
@@ -90,7 +90,7 @@ You can also assign roles to groups, which means that you are assigning the acce
 
 To assign users and roles to Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, at the same time, you can also add a group and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
 
-   ![Select group](../images/WpA/Use/select-group-b.png)
+   ![Select group.](../images/WpA/Use/select-group-b.png)
 
 If you have not yet created a Workplace Analytics group in Azure AD, and want to do so, see the article on creating a group in **Related topics**.
 

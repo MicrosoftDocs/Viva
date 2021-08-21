@@ -38,7 +38,7 @@ Follow these steps only for a query that has already run and for which auto-refr
 2. In the query's row, select the **ellipsis**.
 3. In the **More options** menu, select **Turn off auto-refresh**:
 
-   ![Turn off auto-refresh](../images/wpa/tutorials/auto-refresh-options-on-48.png)
+   ![Turn off auto-refresh.](../images/wpa/tutorials/auto-refresh-options-on-48.png)
 
 ## Start or restart auto-refresh
 
@@ -48,7 +48,7 @@ Follow these steps only for results that have already run and for which auto-ref
 2. In the query's row, select the **ellipsis**.
 3. In the **More options** menu, select **Turn on auto-refresh**:
 
-   ![Turn on auto-refresh](../images/wpa/tutorials/auto-refresh-options-off-48.png)
+   ![Turn on auto-refresh.](../images/wpa/tutorials/auto-refresh-options-off-48.png)
 
 Alternatively, you can renew an auto-refresh query within the [notifications panel](../use/wpa-notifications.md) in Workplace Analytics.
 
@@ -65,7 +65,7 @@ Alternatively, you can renew an auto-refresh query within the [notifications pan
 
 The **Is Recurring** column in **Query designer** > **Results** shows whether auto-refresh is currently turned on for the results represented by that row:
 
-![Turn off auto-refresh status](../images/wpa/tutorials/auto-status-48.png)
+![Turn off auto-refresh status.](../images/wpa/tutorials/auto-status-48.png)
 
 * After auto-refresh expires for a query, you can renew it. See [Start or restart auto-refresh](#start-or-restart-auto-refresh).  
 * Deleting results for which auto-refresh is turned on, stops all future auto-refresh runs for those results.
@@ -116,7 +116,7 @@ If either of these schema-mismatch situations arises, Workplace Analytics notifi
 * In **Results**, a red "stopped" icon shows in the **Status** column when a query has been stopped. A yellow icon shows for non-auto refresh queries that, as a result of the schema changes, also cannot run.
 * In the **Select filters** and **Organizational data** sections of a query-authoring page, the current filters and the output columns that are no longer present are shown:
 
-  ![Filters and missing columns](../images/wpa/tutorials/org-data-section.png)
+  ![Filters and missing columns.](../images/wpa/tutorials/org-data-section.png)
 
   In many cases, you can still manually run the queries for which auto-refresh has been turned off, but if columns are missing, the query's results will not contain the attributes that were removed. 
 
@@ -134,13 +134,13 @@ In **Results**, you can copy a link to the results and then use them in Power BI
 
 1. To the right of the results, select **Copy link**:
 
-   ![Copy a query's results link](../images/wpa/tutorials/Get-results-link.png)
+   ![Copy a query's results link.](../images/wpa/tutorials/Get-results-link.png)
 
 2. Select **Copy**. The Get results link dialog box displays the word "Copied."
 3. In Power BI, on the Home tab, select **Get Data**, and then select **OData feed**.
 4. In the **OData feed** dialog box, paste the link that you copied into the URL field:
 
-   ![OData feed in Power BI](../images/wpa/tutorials/OData-feed.png)
+   ![OData feed in Power BI.](../images/wpa/tutorials/OData-feed.png)
 
 5. Select **OK**.
 6. Enter your client credentials, and then select **Connect**.

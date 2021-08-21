@@ -55,7 +55,7 @@ You can size the nodes based on various network metrics. The following table lis
 
 The following graphic shows the different Node Sizing options where the largest node in each graph represents the one with the highest measure for that option.
 
-![Node Sizing Options](./images/ona-node-options.png)
+![Node Sizing Options.](./images/ona-node-options.png)
 
 ## Are the measures for employees and groups different?
 
@@ -144,7 +144,7 @@ This measure also uses directionality, which means the density between group A a
 
 See the following density table.
 
-![Density table](./images/ona-density-table-2.png)
+![Density table.](./images/ona-density-table-2.png)
 
 * The direction of connections is the groups listed in the left-hand column (senders) are connected with and send information to the groups listed across the top row of the table (recipients).
 * The density of communication going from group A to group B is the intersecting number for group A on the left-hand column and group B across the top of the table.
@@ -204,7 +204,7 @@ This measure is calculated as follows for employees as compared to groups:
 
 The following shows how the measure compares **month 1** (left) where **d** talks to nodes **b**, **c**, **h**, and **i**. And in **month 2** (right), how **d** switches teams and now talks with nodes **j** and **k**. All the other nodes maintain their existing collaborations. Therefore, **d** will have high fluidity between months 1 and 2. Other nodes that are connected to **d** in either month 1 or month 2 will also have elevated fluidity, with the effect diminishing the further they are from **d**.
 
-![Fluidity example](./images/ona-fluidity.png)
+![Fluidity example.](./images/ona-fluidity.png)
 
 This measure is available in Insights mode or through the downloaded data. Since this measure compares scores month over month, two months of data are required.
 
@@ -249,7 +249,7 @@ The **silo score** is the sum of the modularity scores of all workgroups.  These
 
 The following shows simplified examples of this measure, which is available in Insights mode or through the downloaded data. For more information about this measure, see [Dynamic Silos](https://arxiv.org/abs/2104.00641).
 
-![Network Silo Behavior score](./images/ona-network-silo.png)
+![Network Silo Behavior score.](./images/ona-network-silo.png)
 
 ## Qualitative Variation Index
 
@@ -265,7 +265,7 @@ Workgroup Stability measures the change in workgroup membership from month to mo
 
 This is only a group-level measure that considers both the direction and weight of the connections. Because this measure compares scores month over month, two months of data are required. The following shows simplified examples of this measure, which is available in Insights mode and through the downloaded data.
 
-![Workgroup Stability score example](./images/ona-workgroup-stability.png)
+![Workgroup Stability score example.](./images/ona-workgroup-stability.png)
 
 <!-- 
 ## Reach Index

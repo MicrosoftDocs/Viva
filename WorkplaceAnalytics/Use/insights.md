@@ -14,7 +14,7 @@ audience: Admin
 
 These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what actions you can take to help drive change.
 
-![Workplace Analytics insights home page image](../images/wpa/use/insights.png)
+![Workplace Analytics insights home page image.](../images/wpa/use/insights.png)
 
 ## Business outcomes
 
@@ -49,7 +49,7 @@ Each insight includes **Supporting evidence** that links you to related informat
 
 In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching** > **See your insights**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
 
-![Take action for coaching](../images/wpa/use/coaching.png)
+![Take action for coaching.](../images/wpa/use/coaching.png)
 
 Depending on your role, the following are available in addition to the recommendations within **Take action**.
 
