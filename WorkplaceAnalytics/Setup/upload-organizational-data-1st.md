@@ -58,7 +58,7 @@ After the initial processing of collaboration data is complete, the next time yo
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
-   ![Map data fields option](../images/wpa/setup/onboarding-mapping-2.png)
+   ![Map data fields option.](../images/wpa/setup/onboarding-mapping-2.png)
 
 This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections.
 
@@ -104,7 +104,7 @@ Replaced with actual text and then removed that term: -->
 
 * **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation. If offers the following options for each of the columns in your source data:
 
-    ![Map data field columns to include](../images/wpa/setup/map-fields-include-column-65-85-1st.png)
+    ![Map data field columns to include.](../images/wpa/setup/map-fields-include-column-65-85-1st.png)
 
   * **Show in report** - Lets the actual data value display in the report just as it was imported in the organizational data file.
   * **Exclude from report** - Prevents the data value from appearing in the report. For data-privacy reasons, some attributes (such as ManagerID) are automatically assigned the value "Exclude from report" and this value cannot be changed.
@@ -116,7 +116,7 @@ After you complete the steps in [File upload](#file-upload), do the following to
 
 1. In **Upload**, map the required fields.
 
-    ![System fields table](../images/wpa/setup/2-orgd-map-fields.png)
+    ![System fields table.](../images/wpa/setup/2-orgd-map-fields.png)
   
    1. Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).
    2. In **Source column** (the first column in the table), select the name that corresponds with the applicable Workplace Analytics attribute name.
@@ -145,11 +145,11 @@ After you complete the steps in [File upload](#file-upload), do the following to
 
 After you complete the steps in [Field mapping](#field-mapping), the **Upload** page shows the following message:
 
-![File is uploading](../images/wpa/setup/up-1-verifying-zoom.png)
+![File is uploading.](../images/wpa/setup/up-1-verifying-zoom.png)
 
 After the file has successfully uploaded, file validation starts:
 
-![Validating now](../images/wpa/setup/validation-full-screen.png)
+![Validating now.](../images/wpa/setup/validation-full-screen.png)
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes.
 
@@ -165,7 +165,7 @@ After this phase completes, the file has either passed or failed validation. Go 
 
 If validation succeeds, in the **Validation results** section, the page displays the _Succeeded_ notification, which reports information about the data that was successfully uploaded and validated:
 
-![Validation succeeded](../images/wpa/setup/4-orgd-reprocess.png)
+![Validation succeeded.](../images/wpa/setup/4-orgd-reprocess.png)
 
 After successful validation, Workplace Analytics processes your new data.
 
@@ -184,7 +184,7 @@ On this page, you have the following options:
 
 If data validation fails, the **Setup** page shows a "could not be validated" notification in the **Upload details** area. This page also presents you with options of how to proceed.
 
-![Validation failed](../images/wpa/setup/onboarding-validation-failed.png)
+![Validation failed.](../images/wpa/setup/onboarding-validation-failed.png)
 
 Before you address the problem, you can select **Download error log**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next &mdash; fix the source data or change your mapping settings. The following section describes these options:
 

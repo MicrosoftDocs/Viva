@@ -131,11 +131,11 @@ The following are examples of program structures and schedules:
 
 **Full program**
 
-![Full program schedule example](../../../images/mya/use/Adopt-teams-2.png)
+![Full program schedule example.](../../../images/mya/use/Adopt-teams-2.png)
 
 **Modified program**
 
-![Modified program schedule example](../../../images/mya/use/Adopt-teams-3.png)
+![Modified program schedule example.](../../../images/mya/use/Adopt-teams-3.png)
 
 ### A supplementary outcome metric (optional)
 
@@ -249,18 +249,18 @@ A survey can be used to help you set your team goals. To learn more about goal s
 
 To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
 
-![checkbox 1](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Executive sponsor briefed and on board
+![checkbox 1.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Executive sponsor briefed and on board
 
-![checkbox 2](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Change agents briefed and ready to fulfill responsibilities
+![checkbox 2.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Change agents briefed and ready to fulfill responsibilities
 
-![checkbox 3](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program participants scoped
+![checkbox 3.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program participants scoped
 
-![checkbox 4](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Communications plan drafted
+![checkbox 4.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Communications plan drafted
 
-![checkbox 5](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program structured
+![checkbox 5.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program structured
 
-![checkbox 6](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program-launch email finalized
+![checkbox 6.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Program-launch email finalized
 
-![checkbox 7](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Collaboration channel established
+![checkbox 7.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Collaboration channel established
 
-![checkbox 8](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG)Pre-program survey created
+![checkbox 8.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG)Pre-program survey created

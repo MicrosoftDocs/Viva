@@ -89,7 +89,7 @@ The dashboards are currently only available in English and will only work with d
 
 If you get the following error, you do not have the latest version of Power BI.
 
-  ![Unable to open error](../Images/WpA/Tutorials/bcd-open-error.png)
+  ![Unable to open error.](../Images/WpA/Tutorials/bcd-open-error.png)
 
 However, the template might work with the earlier version of Power BI that you're using. To test it:  
 
@@ -100,13 +100,13 @@ However, the template might work with the earlier version of Power BI that you'r
 
 If you get the following error, you do not have the latest version of Power BI. However, the template might work with this earlier version. To test it, repeat the steps in the previous section.
 
-  ![Report layout error](../Images/WpA/Tutorials/bcd-report-error.png)
+  ![Report layout error.](../Images/WpA/Tutorials/bcd-report-error.png)
 
 ##### OData request failed
 
 The following error (or similar 500+ error) can occur for one of the following reasons.
 
-  ![OData error](../Images/WpA/Tutorials/bcd-odata-error.png)
+  ![OData error.](../Images/WpA/Tutorials/bcd-odata-error.png)
 
 * **If you were not prompted to sign in with your organizational account** while setting up the dashboard and Power BI fails to load the data, follow these steps to clear existing permissions:
 
@@ -147,7 +147,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
 The following error occurs because of a preview features setting in Power BI. To change the setting for the dashboard, go to **File** > **Options and Settings** > **Options** > **Preview features**. Clear the checkbox for preview features, and then save and restart the template.
 
-  ![Preview features error](../Images/WpA/Tutorials/pbi-preview-error.png)
+  ![Preview features error.](../Images/WpA/Tutorials/pbi-preview-error.png)
 
 ##### OData error that the given URL neither points to an OData service or a feed in Power BI
 
@@ -157,7 +157,7 @@ When you publish this dashboard to workspaces, they get split into two parts, re
 
 2. From **Home**, select the **ellipsis** (**...**) on the ribbon to view the menu, and then select **Settings** > **Settings**.
 
-   ![Power BI Service Settings](../Images/WpA/Tutorials/pbi-service-settings.png)
+   ![Power BI Service Settings.](../Images/WpA/Tutorials/pbi-service-settings.png)
 
 3. Select **Datasets**, and then for the dashboard you're getting the error for, select the **ellipsis** (**...**) > **Settings**.
 
@@ -183,7 +183,7 @@ Do the following to reset your global permissions for the OData feed.
 
 When setting up a report or refreshing an existing report for either the [Business continuity](power-bi-bc.md) or the [Ways of working assessment](power-bi-collab-assess.md) dashboards in Power BI, you might get the following Power BI error about the PersonIdDateKey column in a table containing "blank values," which is "not allowed for columns on the one side of a many-to-one relationship or for columns that are used as the primary key of a table."
 
-![Blank values error](../Images/WpA/Tutorials/pbi-blank-error.png)
+![Blank values error.](../Images/WpA/Tutorials/pbi-blank-error.png)
 
 To resolve this error, you must download the template for the applicable data in **Query designer** > **Results** in Workplace Analytics, and then set up the template again in Power BI.
 

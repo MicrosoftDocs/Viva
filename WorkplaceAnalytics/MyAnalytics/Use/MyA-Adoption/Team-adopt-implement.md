@@ -105,7 +105,7 @@ Typically, a program manager sends a Learning module to their team every other w
 
 Below is a habit-building method based on behavioral science that can be used to help your team turn a selected behavior into a habit using MyAnalytics.
 
-![How to make it a habit](../../../Images/MyA/use/how-to-make-it-a-habit.png)
+![How to make it a habit.](../../../Images/MyA/use/how-to-make-it-a-habit.png)
 
 [Collaboration without burnout](https://insights.office.com/collaboration/collaboration-without-burning-out/) shares why it's important to avoid collaboration overload.
 

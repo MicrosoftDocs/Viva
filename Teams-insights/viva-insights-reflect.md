@@ -25,15 +25,15 @@ You can choose your own frequency for self-reflection. Once daily might work wel
 
 1. On the Viva Insights Home page, locate the **How are you feeling?** card.
 
-   ![Reflect icons](images/reflect-icons-70.png)
+   ![Reflect icons.](images/reflect-icons-70.png)
 
 2. Select the emoji that best represents how you're currently feeling. The card gives you feedback to acknowledge your choice.
 
-   ![Feedback page](images/reflect-thats-great-46.png)
+   ![Feedback page.](images/reflect-thats-great-46.png)
 
 3. (Optional) Select **Reflection history** to see how your feelings have changed over time, as indicated by the emojis you've chosen. For example:
 
-   ![Reminders to reflect](images/reflect-trendline.png)  
+   ![Reminders to reflect.](images/reflect-trendline.png)  
 
 4. (Optional) Set a reminder to practice reflection. Go to [Set a reminder to self-reflect](#set-a-reminder-to-self-reflect).
 
@@ -53,7 +53,7 @@ You can set reminders to reflect either on the [**Settings** page](viva-teams-ap
 
 1. On the **Build a habit of emotional awareness!** card, select a day and time:
 
-   ![Reflect reminders](images/set-reflect-reminders-60.png)  
+   ![Reflect reminders.](images/set-reflect-reminders-60.png)  
 
 2. Select **Set reminders**.
 

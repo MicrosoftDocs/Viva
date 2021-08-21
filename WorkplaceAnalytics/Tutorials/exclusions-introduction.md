@@ -25,7 +25,7 @@ You can exclude events with one of the following exclusion types:
 
 **Owners** – Workplace Analytics Analysts have full access and limited Analysts have read-only access to these settings. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Analysis settings in Workplace Analytics](../images/WpA/Tutorials/analysis-settings.png)
+![Analysis settings in Workplace Analytics.](../images/WpA/Tutorials/analysis-settings.png)
 
 ## Notes
 

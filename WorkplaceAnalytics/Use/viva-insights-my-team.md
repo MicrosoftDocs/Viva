@@ -16,7 +16,7 @@ audience: Admin
 
 You can view manager insights on the **My Team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
-![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
+![Outcomes page.](../images/wpa/use/viva-team-outcomes.png)
 
 While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders.
 
@@ -55,19 +55,19 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 1. Open Microsoft Teams on the web or in a desktop client.
 2. At the bottom of the Microsoft Teams app bar (on the left), select **Apps**:
 
-   ![Apps icon in Teams](../images/mya/use/teams-apps.png)
+   ![Apps icon in Teams.](../images/mya/use/teams-apps.png)
 
 3. In the search field under **Apps**, type **Insights**:
 
-   ![Search for Insights](../images/mya/use/apps-search-insights.png)
+   ![Search for Insights.](../images/mya/use/apps-search-insights.png)
 
 4. Select the **Insights** app:
 
-   ![Select Insights app](../images/mya/use/select-insights-app-teams.png)
+   ![Select Insights app.](../images/mya/use/select-insights-app-teams.png)
 
 5. Select **Add**:
 
-   ![Add for me button](../images/mya/use/add-for-me.png)
+   ![Add for me button.](../images/mya/use/add-for-me.png)
 
 This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
 
@@ -83,7 +83,7 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 2. Right-click any app icon and select **Pin** to make and keep your app visible in the Teams app bar.
 
-   ![Pin an app in Teams](../images/mya/use/pin-an-app-in-teams.png)
+   ![Pin an app in Teams.](../images/mya/use/pin-an-app-in-teams.png)
 
 >[!Tip]
 >You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec).
@@ -93,7 +93,7 @@ After you pin a Teams app, it appears on the Teams app bar (the left navigation 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 2. Select **Reorder** and drag the app out of the **More** section.
 
-   ![Reorder on iOS or Android](../images/mya/use/ios-android.png)
+   ![Reorder on iOS or Android.](../images/mya/use/ios-android.png)
 
 3. Select **Done** to save your changes.
 
@@ -127,11 +127,11 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
 
 1. On the Teams app bar (the left navigation bar), select **Insights**:
 
-   ![Insights icon](../images/wpa/use/insights-icon.png)
+   ![Insights icon.](../images/wpa/use/insights-icon.png)
 
 2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My Team outcomes. To learn more about this insight, select the **Explore more** option on this card.
 
-   ![Insights Home page](../images/wpa/use/home-mgr.png)
+   ![Insights Home page.](../images/wpa/use/home-mgr.png)
 
    You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](/insights/viva-insights-home).
 
@@ -140,7 +140,7 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
    * Employee experience
    * Team effectiveness
 
-   ![Two outcomes on the Outcomes page](../images/wpa/use/viva-team-outcomes.png)
+   ![Two outcomes on the Outcomes page.](../images/wpa/use/viva-team-outcomes.png)
 
 4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
@@ -148,13 +148,13 @@ Complete the steps in the following mini-playbooks to get the Viva Insights app 
 
 To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select  **Employee experience** to see the **Coaching and development** insights:
 
-![Coaching and development](../images/wpa/use/viva-team-drill-down.png)
+![Coaching and development.](../images/wpa/use/viva-team-drill-down.png)
 
 ### Drill down to the best-practices level
 
 To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**, which opens the panel called, **Best Practices: Increase frequency of coaching**:
 
-![Best practice - Coaching frequency](../images/wpa/use/viva-team-coaching-flyout.png)
+![Best practice - Coaching frequency.](../images/wpa/use/viva-team-coaching-flyout.png)
 
 ## Viva Insights and Workplace Analytics
 
@@ -189,13 +189,13 @@ These outcomes, insights, and best practices are described in the Workplace Anal
 
 * At the bottom of every insight is the question: "Is this helpful?" Select **Yes** or **No** to provide feedback.  
 
-   ![Is this helpful? Yes No](../images/mya/use/is-helpful.png)
+   ![Is this helpful? Yes No.](../images/mya/use/is-helpful.png)
 
 * Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
 
    After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact …** box if you’d like Microsoft to contact you to follow up on your feedback.
 
-   ![Thanks for the feedback](../images/mya/use/thanks-for-feedback-70-80.png)
+   ![Thanks for the feedback.](../images/mya/use/thanks-for-feedback-70-80.png)
 
 ## Related topics
 

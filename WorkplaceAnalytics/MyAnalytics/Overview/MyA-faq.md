@@ -157,12 +157,12 @@ Follow these steps to remove the Insights add-in from your Outlook ribbon.
 
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
 
-    ![Get Add-ins](../../Images/mya/use/get-add-ins.png)
+    ![Get Add-ins.](../../Images/mya/use/get-add-ins.png)
 
 2. Select **My add-ins**.
 3. In **Admin-managed**, select the **ellipsis** (**...**) for **Insights**, and then select **Remove**.
 
-    ![Remove Insights](../../Images/mya/use/remove-insights.png)
+    ![Remove Insights.](../../Images/mya/use/remove-insights.png)
 
 ###### Add the Insights Outlook add-in
 
@@ -195,21 +195,21 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. In the upper-right corner, under **My account**, select **My account**:
 
-   ![My account](../../images/mya/overview/my-account-2.png)
+   ![My account.](../../images/mya/overview/my-account-2.png)
 
 3. On the **My account** page, under **Subscriptions**, select **View subscriptions**:
 
-   ![View subscriptions](../../images/mya/overview/subscriptions_85.png)
+   ![View subscriptions.](../../images/mya/overview/subscriptions_85.png)
 
 4. On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
 
    _In the following example, the plan is "Microsoft 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
 
-   ![service plan: Insights by MyAnalytics](../../images/mya/overview/licenses-plans-service-plans.png)
+   ![service plan: Insights by MyAnalytics.](../../images/mya/overview/licenses-plans-service-plans.png)
 
    _In the following example, the plan is "Microsoft 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
 
-   ![service plan: Microsoft MyAnalytics (Full)](../../images/mya/overview/e5-plans-service-plans-446.png)
+   ![service plan: Microsoft MyAnalytics (Full).](../../images/mya/overview/e5-plans-service-plans-446.png)
 
 ##### Q5. In what languages are the elements of MyAnalytics available?
 
@@ -234,7 +234,7 @@ MyAnalytics uses Windows 10 Activity history to power insights related to time s
 2. Search for “Activity History Privacy Settings.”
 3. The following two settings must be selected for MyAnalytics to use the data.
 
-   ![Windows 10 Activity History settings](../../images/mya/overview/activity-history.png)
+   ![Windows 10 Activity History settings.](../../images/mya/overview/activity-history.png)
 
 ##### Q10. Will MyAnalytics work for shared mailboxes?
 

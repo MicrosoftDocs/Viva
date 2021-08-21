@@ -60,7 +60,7 @@ If you are an analyst, you must have a partition selected to be able to view dat
     * If you have only one partition (even the default "Global" partition), this is the partition that you will use. Skip the rest of these steps. You can view **Explore the stats** data or **Query designer** where you will only see data to which your partition grants you access.
     * If you have more than one partition, the **Partition** drop-down menu at the top of the **Home** page displays the partitions that you are linked to. Open this menu and select one:
 
-       ![Select a partition](../images/wpa/setup/partition-menu.png)
+       ![Select a partition.](../images/wpa/setup/partition-menu.png)
 
       After you’ve chosen the partition to work with, you can skip the rest of these steps and view date in **Explore the stats** and **Query designer**.
 
@@ -98,12 +98,12 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 2. Open the **Settings** page and select **Access control**.
 3. In the **Partition-based access control** area, select **New partition**:
 
-    ![New partition option](../images/wpa/setup/access-control-page.png)
+    ![New partition option.](../images/wpa/setup/access-control-page.png)
 
 4. On the **Access control > New partition** page, type the name of the new partition and optionally type a description.
 5. **Create filters.** Under **Select employees for partition**, add one or more filters to define the employee data that will fall within the new partition:
 
-    ![New partition](../images/wpa/setup/create-partitions-filters.png)
+    ![New partition.](../images/wpa/setup/create-partitions-filters.png)
 
     >[!Note]
     >You can filter by only one attribute. For example, if you create a filter that uses the Organization attribute, you could produce the following filter clauses:
@@ -119,11 +119,11 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 6. **Select attributes**. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected.
 7. **Select visibility of attributes**. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that nevertheless has been uploaded in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**.
 
-    ![Select visibility](../images/wpa/setup/create-partitions-attributes.png)
+    ![Select visibility.](../images/wpa/setup/create-partitions-attributes.png)
 
 8. **Give access**. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.
 
-    ![Select analysts](../images/wpa/setup/create-partitions-access.png)
+    ![Select analysts.](../images/wpa/setup/create-partitions-access.png)
 
 ### To edit a partition
 
@@ -132,7 +132,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 3. In the **Partition-based access control** area, locate the partition that you want to edit.
 4. Select the ellipsis (...) in that partition's row and then select **Edit partition**:
 
-    ![Edit partition](../images/wpa/setup/part-based-access-control-edit.png)
+    ![Edit partition.](../images/wpa/setup/part-based-access-control-edit.png)
 
 5. Edit any of the aspects of the partition that you specified previously. After you edit one aspect, move to the next one by selecting **Next**:
 
@@ -142,7 +142,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 
 6. Review and select impact on the analyses that already exist. You need to perform this step because editing a partition usually changes its data, which renders previously run analyses and queries (and their results) invalid. You can now choose to delete those invalid query results or to retain them:
 
-    ![Review impact](../images/wpa/setup/edit-partition-review-impact.png)
+    ![Review impact.](../images/wpa/setup/edit-partition-review-impact.png)
 
    After you select **Retain all existing analyses** or **Delete query results**, confirm that the current settings are correct and select **Save**.
 
@@ -156,7 +156,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 
 4. Select the ellipsis (...) in that partition's row and then select **Delete partition**:
 
-    ![Admin settings](../images/wpa/setup/part-based-access-control-delete.png)
+    ![Admin settings.](../images/wpa/setup/part-based-access-control-delete.png)
 
    >[!Note]
    >You cannot delete the Global partition. Only user-created partitions can be deleted.
@@ -221,7 +221,7 @@ However, the admin can select the **Replace all existing organizational data** o
 
 Because of this possibility, during organizational-data upload (between the mapping step and the validation step), Workplace Analytics checks for partition schema violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
 
-![Partition violation](../images/wpa/setup/partition-violation.png)
+![Partition violation.](../images/wpa/setup/partition-violation.png)
 
 In the lower half of this page, Workplace Analytics identifies the columns that are omitted in the uploaded file but present in the earlier uploaded data (and its schema) and are present in existing partitions. It also names the partitions that are affected by the missing columns.  
 
@@ -233,7 +233,7 @@ In the case of an error such as this, the admin cannot proceed with the current 
 * Start over by selecting **Back** and then attempt organizational-data upload with data that has a different schema.
 * [Edit the affected partition](#to-edit-a-partition) (or partitions). Consider removing from the partition the column that is referred to in the schema, the column that caused the dependency that was violated. You can do this by de-selecting the corresponding attribute in the **Organizational data** table on the **Set attributes** page:
 
-    ![Select visibility](../images/wpa/setup/create-partitions-attributes.png)
+    ![Select visibility.](../images/wpa/setup/create-partitions-attributes.png)
 
   After you remove the column from the partition, try again to upload the .csv file that caused the schema violation.
 

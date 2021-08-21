@@ -64,12 +64,12 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
    >[!Important]
    >The dashboard is designed to allocate worksite seats by team based on the current organizational structure. For best results, select **Last 3 months** for the **Time period** to reflect the most current organizational structure.
 
-    ![Return to worksites query details](../Images/WpA/Tutorials/pbi-rtw-query.png)
+    ![Return to worksites query details.](../Images/WpA/Tutorials/pbi-rtw-query.png)
 
 4. In **Select metrics**, keep **Collaboration hours** selected, and then do not add any additional metrics or the template will not load correctly.
 5. In **Time investors** > **Do you want to limit the analysis to only certain time investors?**, keep **All employees** selected. Optionally, you can further filter the employees in scope for the dashboard. For example, excluding contractors or essential workers who already have seats allocated at a worksite. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 
-    ![Return to worksites query settings for time investors](../Images/WpA/Tutorials/pbi-rtw-query-2.png)
+    ![Return to worksites query settings for time investors.](../Images/WpA/Tutorials/pbi-rtw-query-2.png)
 
 6. In **Their Collaborators**, do not exclude any collaborators.  
 7. For the **How do you want to group the people who collaborated with the time investor?** question, select the organizational attribute that represents the employee’s worksite location, such as **Office** or **Building**.
@@ -79,7 +79,7 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
 
 8. For the **Do you want to focus the analysis on a particular set of collaborators and group all others as Unclassified?** question, keep the preselected filter as **IsInternal** equal to **True**.
 
-    ![Return to worksites query filters](../Images/WpA/Tutorials/pbi-rtw-query-3.png)
+    ![Return to worksites query filters.](../Images/WpA/Tutorials/pbi-rtw-query-3.png)
 
 9. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes, and add the organizational attributes that reflect the worksite locations and applicable Teams (or Organizations) requiring seat allocation.
 
@@ -100,12 +100,12 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
     * **Minimum group size** - Enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Workplace Analytics data.
     * **Location organizational attribute** - Enter the case-sensitive name of the organizational attribute you selected in the Return to worksites query that represents the worksite locations.
 
-    ![Return to worksites parameters for Power BI](../Images/WpA/Tutorials/pbi-rtw-odata.png)
+    ![Return to worksites parameters for Power BI.](../Images/WpA/Tutorials/pbi-rtw-odata.png)
 
 15. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 16. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 17. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -130,7 +130,7 @@ After the Return to worksites dashboard is set up and populated with Workplace A
 >[!Tip]
 >When you select a chart bar for **Teams**, it updates the data to show that team’s **Location**. Select a chart bar for **Location** and it will update the data to that location’s **Teams**.
 
-![Dashboard settings](../Images/WpA/Tutorials/pbi-rtw-settings.png)
+![Dashboard settings.](../Images/WpA/Tutorials/pbi-rtw-settings.png)
 
 ## Seat allocation plans
 
@@ -145,7 +145,7 @@ After you specify a location and the number of employees permitted in that locat
 
 The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The [Return to worksites playbook](https://download.microsoft.com/download/3/7/8/378b6b0d-c3de-401a-8ccf-a58e9d9c127f/Return-to-worksites-playbook.pdf) has more details and instructions on how to create and use the analysis.
 
-![Dashboard page about the playbook](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
+![Dashboard page about the playbook.](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
 
 ## Power BI tips, FAQ, and troubleshooting
 

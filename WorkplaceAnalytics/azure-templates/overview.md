@@ -36,7 +36,7 @@ You can easily customize them to meet your unique organizational needs, includin
 
 The following shows how Workplace Analytics Azure Templates fit into your existing organizational system.
 
-![Workplace Analytics Azure Templates architecture](./images/azure-templates-architecture.png)
+![Workplace Analytics Azure Templates architecture.](./images/azure-templates-architecture.png)
 
 As shown in the graphic, Workplace Analytics Azure Templates work with the following Azure components within your existing Azure environment.
 

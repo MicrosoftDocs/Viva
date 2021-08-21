@@ -17,7 +17,7 @@ audience: Admin
 
 As a business leader, understanding how your employees work together is important. Microsoft Insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
-![Microsoft 365 Insights home page](./images/insights-home.png)
+![Microsoft 365 Insights home page.](./images/insights-home.png)
 
 This new release is currently limited to Microsoft 365 or Office 365 E5 or E3 plan subscribers through your Microsoft service representative.
 

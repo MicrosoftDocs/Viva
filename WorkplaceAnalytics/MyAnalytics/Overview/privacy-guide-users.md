@@ -50,7 +50,7 @@ In the following architecture illustration, note the relationship of MyAnalytics
 * You can opt in and opt out at any time.
 * MyAnalytics shows you no personally identifiable info of co-workers beyond what you can already see in Outlook and Teams.
 
-![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
+![Outlook inbox.](../../images/mya/overview/mya-arch-2.png)
 
 ## How MyAnalytics works
 

@@ -22,15 +22,15 @@ audience: Admin
 
 [Explore the stats](explore-intro.md) show data primarily through the following chart types:
 
-![column graph](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
+![column graph.](../images/wpa/use/a-column-graph.png) **Column graphs** compare data across groups. The columns run vertically. Each column shows the average value for a metric, such as email or meeting hours, per person, per week, in each group, and for the period selected. For an example, see [Meeting hours by number of attendees](explore-metrics-meetings-overview.md#meetings-hours-by-number-of-attendees).
 
-![bar chart](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Groups collaborating with external domains](explore-metrics-external-collaboration.md#external-domain-collaboration).
+![bar chart.](../images/wpa/use/b-bar-chart.png) **Bar charts** also compare data across groups. The bars run horizontally. Bar charts are used on the **External collaboration** page. Each bar shows the value for the metric, such as external network size, within a group, for the period selected. For an example, see [Groups collaborating with external domains](explore-metrics-external-collaboration.md#external-domain-collaboration).
 
-![box plot](../images/wpa/use/c-box-plot.png) **Box plots** (also known as distribution charts) show the distribution of metric values within a group. A box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected. Each value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on each box plot in the chart.
+![box plot.](../images/wpa/use/c-box-plot.png) **Box plots** (also known as distribution charts) show the distribution of metric values within a group. A box plot shows the maximum, minimum, median, upper quartile, and lower quartile for the group for the period selected. Each value within a group represents the average value for a person. For example, the person with the highest average is represented by the maximum point on each box plot in the chart.
 
-![Box plot](../images/wpa/use/box-plot-general.png)
+![Box plot.](../images/wpa/use/box-plot-general.png)
 
-![line graph](../images/wpa/use/d-line-graph.png) **Line graphs** are used as trend-line charts in that they show metric values over time. The default trend line is the company average for the selected metric. Trend-line charts show one point per week for as many weeks as you have set in **Date range**, under **Settings and filters**. See [Change the date range](#to-change-the-date-range).
+![line graph.](../images/wpa/use/d-line-graph.png) **Line graphs** are used as trend-line charts in that they show metric values over time. The default trend line is the company average for the selected metric. Trend-line charts show one point per week for as many weeks as you have set in **Date range**, under **Settings and filters**. See [Change the date range](#to-change-the-date-range).
 
 For an example, see the chart on the right in [Skip-level meeting hours](explore-metrics-management-and-coaching.md#skip-level-meeting-hours).
 
@@ -40,14 +40,14 @@ For an example, see the chart on the right in [Skip-level meeting hours](explore
 
 In most cases, charts appear in pairs. The charts in a pair present related information and can interact with one another. Within a pair, the chart on the left appears by default as a column graph. (An exception is in **External collaboration**, the left chart in each pair is a bar chart.) The chart on the left is paired with a line graph:
 
-![chart pair](../images/wpa/use/e-chart-pair.png)
+![chart pair.](../images/wpa/use/e-chart-pair.png)
 
 >[!Note]
 >Within a chart pair, you can [switch](#switch-between-chart-types) the left chart to show either a column graph or box plot.
 
 The column graph shows metric data for groups and the related line graph shows trends, namely values of this metric over time for the selected groups. For example, here is the **Meeting hours by duration** pair of charts in [Meetings overview](Explore-metrics-meetings-overview.md):
 
-![Meeting hours by duration](../images/wpa/use/08-meeting-hours-by-duration.png)
+![Meeting hours by duration.](../images/wpa/use/08-meeting-hours-by-duration.png)
 
 You could view this relationship between the charts in a pair as a sort of "chart workspace" in which you focus on a particular filtered data set and then apply different views to it to coax out different facts. If you sort data in the column chart and then switch it to a box plot, your sorting choices carry over to the show of the box plot.
 
@@ -85,7 +85,7 @@ The height of the reference line shows the value of the metric that is shown in 
 
 * To see more data about the information that the chart is showing, hover over the left or right endpoint of the reference line:
 
-   ![Hover over right endpoint of reference line](../images/wpa/use/hover-over-reference.png)
+   ![Hover over right endpoint of reference line.](../images/wpa/use/hover-over-reference.png)
 
   This opens a tooltip that shows the averages for the available metrics for this chart type. (These metrics are shown in the chart legend.)
 
@@ -97,7 +97,7 @@ You can sort any column chart or box plot alphabetically or by any metric that i
 
 * To reverse the sort order while sorting by the same metric, select the **Sort groups** icon, and then re-select the metric (**Email hours** in the following example):
 
-   ![Reverse sort order](../images/wpa/use/re-sort-by-metric.png)
+   ![Reverse sort order.](../images/wpa/use/re-sort-by-metric.png)
 
 #### Switch between chart types
 
@@ -150,7 +150,7 @@ In a chart pair, you use the column chart or box plot on the left to change how 
 * To exclude a group from the chart, select one or more group's chart data within the chart to select (or bold) that group's name in the chart, then select the **Exclude groups** icon.
 * To revert either of these actions, select the **Undo** icon.
 
-![Chart tools](../images/wpa/use/drilldown.png)
+![Chart tools.](../images/wpa/use/drilldown.png)
 
 >[!Note]
 >The **Undo** tool currently only applies to reversing changes made with the **Drilldown** and **Exclude groups** chart tools. You can apply these drill down and exclude actions with [Settings and filters](#settings-and-filters).
@@ -180,7 +180,7 @@ In a chart pair, you use the column chart or box plot on the left to change how 
 
 Use **Settings and filters** to change the time range of the data, to change the attribute to group in the charts, and to apply filters. In the following procedures, if the **Settings and filters** panel is not open, select **Settings and filters** to open it.
 
-![Settings and filters](../images/wpa/use/settings-and-filters-2.png)
+![Settings and filters.](../images/wpa/use/settings-and-filters-2.png)
 
 When you change chart settings, your changes apply to all the charts in all **Explore the stats** data. For example, when you set the chart to group by _level_, all charts in all sections are grouped by that level.
 
@@ -188,7 +188,7 @@ When you change chart settings, your changes apply to all the charts in all **Ex
 
 After you change a setting or add a filter, select **Apply** at the upper-right to apply the settings to all the charts. Or to change back to the default settings, select **Reset**.
 
-![Apply button](../images/wpa/use/apply-reset.png)
+![Apply button.](../images/wpa/use/apply-reset.png)
 
 ### To save custom settings and applied filters for later use
 
@@ -196,11 +196,11 @@ After you change one or more page settings, chart or add one of more filters, yo
 
 * Select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save the settings or applied filters for later use.
 
-![Save settings](../images/wpa/use/save-page-settings.png)
+![Save settings.](../images/wpa/use/save-page-settings.png)
 
 * In **Settings and filters**, select the **ellipsis** (**...**) next to **Chart settings** > **Apply to page settings** to save specific chart settings, such as with the drill down or exclude chart tools.
 
-![Chart settings](../images/wpa/use/chart-settings.png)
+![Chart settings.](../images/wpa/use/chart-settings.png)
 
 The next time you view Explore the stats data in Workplace Analytics, it shows the charts with the default settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 

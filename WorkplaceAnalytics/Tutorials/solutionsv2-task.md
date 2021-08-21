@@ -44,7 +44,7 @@ As an analyst, limited analyst, or program manager, follow these steps to create
 
 2. In **Plans** > **New plan**, you can learn about and select the type of plan you want to create, such as a _Focus plan_, a _Collaboration plan_, a _Wellbeing plan_, or the _Seller success plan_.
 
-    ![Pick a plan](../images/wpa/tutorials/plan-choices.png)
+    ![Pick a plan.](../images/wpa/tutorials/plan-choices.png)
 
     > [!Note]  
     > On this page, the **Analyze** option is available only to people with the role of analyst or limited analyst.
@@ -53,7 +53,7 @@ As an analyst, limited analyst, or program manager, follow these steps to create
 
 4. For this example, select **Start plan** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
 
-    ![Set up a new plan](../images/wpa/tutorials/set-up-new-plan.png)
+    ![Set up a new plan.](../images/wpa/tutorials/set-up-new-plan.png)
 
 5. Go to [Select a group](#select-a-group) for next steps.
 
@@ -79,7 +79,7 @@ If you have a particular group in mind, you can identify the group either by [up
 
 1. Select **Use filters**. This opens the filter controls:
 
-    ![Filter to find a group](../images/wpa/tutorials/filter-to-find-group.png)
+    ![Filter to find a group.](../images/wpa/tutorials/filter-to-find-group.png)
 
 2. Add filters to define your group. For example, select **FunctionType**, **Equals**, and **Marketing** in the fields to select the people who work in business strategy as your group. Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection.
 
@@ -94,7 +94,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 > [!Tip]
 > These steps work best after you’ve decided on the type of plan. Where might people in your organization have a problem? The available plans address too few focus hours (Focus plan), too many hours of meetings (Collaboration plan), or too much collaboration after the workday ends (Wellbeing plan).
 
-   ![Pick a plan to analyze](../images/wpa/tutorials/pick-a-plan.png)
+   ![Pick a plan to analyze.](../images/wpa/tutorials/pick-a-plan.png)
 
 #### To identify a group by using filters and charts
 
@@ -102,19 +102,19 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 2. (Optional) Although you just selected a plan, you can change it by selecting it (such as **after hours**) in **Filter and analyze**:
 
-    ![Filter and analyze](../images/wpa/tutorials/filter-and-analyze.png)
+    ![Filter and analyze.](../images/wpa/tutorials/filter-and-analyze.png)
 
 3. Scope your data. To start, narrow the focus to specific people by applying filters in the **Page settings** pane. If it's not open, select **Settings and filters** at the top right of the page:
 
-    ![Settings and filters](../images/wpa/tutorials/settings-and-filters.png)
+    ![Settings and filters.](../images/wpa/tutorials/settings-and-filters.png)
 
-    ![Page settings](../images/wpa/tutorials/page-settings.png)
+    ![Page settings.](../images/wpa/tutorials/page-settings.png)
 
 4. In **Page settings**, refine your selection of employees and change how the employees are grouped. For example, you can add a filter to show only employees in the East and Southeast regions and you can change the maximum number of groups to 10. After you finish adding filters, select **Apply**. The main section of the page changes to reflect these new changes.
 
 5. To select a more precise group of people to include in the plan and continue with your analysis, you can use the **Select a question to change the view of your chart** options, such as: **Which groups attend the highest number of meetings?**
 
-    ![Select a question](../images/wpa/tutorials/select-a-question.png)
+    ![Select a question.](../images/wpa/tutorials/select-a-question.png)
 
     Selecting a question shows the answer to the question in the chart. By selecting a question that is relevant to the collaboration problem that you want to solve, you will see groups of employees who are most likely to exhibit symptoms of that problem. Selecting a question also orders the groups shown by their metrics (such as meeting hours, focus hours, or number of meetings) based on what the question asks about.
 
@@ -128,11 +128,11 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 7. After you select one or more groups to analyze, you'll see additional information about this group’s work habits below the chart, such as:
 
-    ![Three cards](../images/wpa/tutorials/three-cards-start-now.png)
+    ![Three cards.](../images/wpa/tutorials/three-cards-start-now.png)
 
 8. After you identify the groups, select **Start plan** to open **Set up new plan** to show the filters that you set in the charts and in page settings:
 
-    ![Set up a new plan](../images/wpa/tutorials/set-up-new-plan.png)
+    ![Set up a new plan.](../images/wpa/tutorials/set-up-new-plan.png)
 
     > [!Note]  
     > Because these steps are using analysis to find the group and filters are an important part of that analysis, **Use filters** is the default option. However, you can select **Upload .csv file** to upload participant data instead.
@@ -141,7 +141,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 10. Select **Validate**. After validation completes, you'll see results with any applicable warnings, such as:
 
-    ![Validation warnings](../images/wpa/tutorials/three-warnings.png)
+    ![Validation warnings.](../images/wpa/tutorials/three-warnings.png)
 
 11. Any warnings reduce the number of potential members in the group. If the remaining group size is above the minimum group size, you can proceed. If you are satisfied with the group at this point, select **Save as draft**, and then go to [Start the plan](#start-the-plan) for next steps.
 
@@ -164,7 +164,7 @@ After the selected group validates successfully, you'll see insights about the g
 
 5. (Optional) In **How Plans will help**, select **See preview** to see examples of inline suggestions, dashboard information, and the digest that people will experience while participating in the plan. Similar to plan insights, these previews are informative but not interactive:
 
-    ![How plans help](../images/wpa/tutorials/how-plan-helps.png)
+    ![How plans help.](../images/wpa/tutorials/how-plan-helps.png)
   
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 

@@ -23,7 +23,7 @@ You can choose which metrics to analyze and which attributes remain the same bet
 
 After you upload a dataset, you can use the template tools to view data for the two groups with visual charts and lists, as shown in the following graphic.
 
-   ![Group analysis](./images/group-analysis.png)
+   ![Group analysis.](./images/group-analysis.png)
 
 ## To add a new dataset
 
@@ -31,7 +31,7 @@ After you upload a dataset, you can use the template tools to view data for the 
 2. Select **Add New Dataset** at top right of the table.
 3. For **Upload Dataset**, type a dataset name, select the .csv file to upload, and then select **Upload Dataset**.
 
-   ![Select a dataset type](./images/group-dataset.png)
+   ![Select a dataset type.](./images/group-dataset.png)
 
 4. After the upload succeeds, it'll be available in the Group Analysis list.
 
@@ -46,7 +46,7 @@ After you upload a dataset, you can use the template tools to view data for the 
 7. In **Choose confounding attributes**, select the attributes that define the evaluated group and the control group and that the two groups have in common. Note these must be different than the filter or filters selected in the **Specify Group to compare** section.
 8. Select **Run Analysis**.
 
-   ![Configure new group analysis](./images/group-analysis-config.png)
+   ![Configure new group analysis.](./images/group-analysis-config.png)
 
 ## Analyze KPIs
 
@@ -56,13 +56,13 @@ The Match Verification helps you determine if the matching process selected an a
 
 The following example shows good KPI overlap between the two groups with a good propensity score for Group A (evaluated group). You can view the score details by hovering your cursor over the graph data. The **propensity score** is the probability that a person will be in the group you chose to analyze based on that person's confounding attributes. It's a simplified way of verifying that all confounding attributes are appropriately controlled in the analysis.
 
-  ![Good KPI overlap for group analysis](./images/group-kpi-overlap.png)
+  ![Good KPI overlap for group analysis.](./images/group-kpi-overlap.png)
   
 Before any matching occurs, you need to justify the matching process by comparing the propensity score distributions of the two groups to confirm sufficient overlap between the two. Because the overlap is sufficient to justify the matching process in this example, you'd then want to verify that the subset of people selected to be in the control group (Other) have a similar propensity score distribution as the evaluated group (Group A). When the distributions are similar, you can be more confident that the group analysis and sensitivity results are justified.
 
 On the Group Analysis page, you can see the Absolute and Standardized KPI Differences between the two groups. This gives you an overall picture of what the important differences are between the evaluated and control groups, as shown in the following graphic.
 
-  ![Absolute and Standardized KPI Differences](./images/group-analysis-charts.png)
+  ![Absolute and Standardized KPI Differences.](./images/group-analysis-charts.png)
 
 The analysis results are in bar graphs with a **Cohen Rank Color Legend** that defines how big of an affect the differences are between the two groups. The data shows the **Absolute KPI Difference**, which is the absolute differences between the two groups. The **Standardized KPI Difference** is the Absolute KPI Difference divided by its standard deviation and indicates how important the differences are.
 
@@ -82,7 +82,7 @@ The analysis results are in bar graphs with a **Cohen Rank Color Legend** that d
 
    The **Sensitivity** chart shows the least sensitive KPIs to unobserved biases in your data and analysis in a bar graph with a **Cohen Rank Color Legend**. As shown in the following graphic, this subset of KPIs represents some of the strongest indicators of the differences between the two groups.
 
-    ![Sensitivity group analysis chart](./images/group-analysis-sensitivity.png)
+    ![Sensitivity group analysis chart.](./images/group-analysis-sensitivity.png)
 
 ## Related topics
 

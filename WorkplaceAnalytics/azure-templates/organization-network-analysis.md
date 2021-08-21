@@ -29,11 +29,11 @@ The ONA template includes the following options:
 
 The following is an example of within-group collaboration trends created through **Insights** for trends about the **Sales - Central** organization in **Group insights**, which is the group selected in the table. For details on how to create and view insights, see [Insights](ona-insights.md).
 
-![In-group collaboration trends example](./images/ona-within-group-charts.png)
+![In-group collaboration trends example.](./images/ona-within-group-charts.png)
 
 The following is an example of an ONA graph created through **Analysis** for a new dataset about internal collaboration between groups defined by the FunctionType attribute. For details about how to use the graph tools, see [Analysis](ona-analysis.md).
 
-![Analysis graph example](./images/ona-analysis-example.png)
+![Analysis graph example.](./images/ona-analysis-example.png)
 
 The **Dark mode** feature is available for all of ONA. You can use it to change the background from white to dark, which enhances visual ergonomics by reducing eye strain, especially in low-light environments.
 

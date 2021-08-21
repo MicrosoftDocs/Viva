@@ -19,11 +19,11 @@ A Workplace Analytics meeting query helps you analyze individual meeting trends.
 
 Certain questions can be answered with either a meeting or person query:
 
- ![Meeting or Person query](../Images/WpA/Tutorials/person-or-meeting-query.png)
+ ![Meeting or Person query.](../Images/WpA/Tutorials/person-or-meeting-query.png)
 
 But for most questions you want to answer, the lines are more clear cut:
 
-![Meeting query and Person query](../Images/WpA/Tutorials/meeting-or-person-query-2.png)
+![Meeting query and Person query.](../Images/WpA/Tutorials/meeting-or-person-query-2.png)
 
 Use a meeting query when you want to understand the relationship between different meeting attributes.
 
@@ -37,7 +37,7 @@ Use the options in the **Exclusions** pane to exclude meetings or attendees from
 
 If you run a meeting query with no exclusions, the output file can help you determine the right criteria to separate work-related activities from other calendar items.
 
-   ![Meeting query no exclusions](../Images/WpA/Tutorials/meeting-no-exclusions.png)
+   ![Meeting query no exclusions.](../Images/WpA/Tutorials/meeting-no-exclusions.png)
 
 ## Add filters
 
@@ -45,17 +45,17 @@ You can add a filter to limit the list of meetings included in the output file. 
 
 You can also limit the query based on organizer, attendee, and invitee attributes for meetings.
 
-![Meeting query filter](../Images/WpA/Tutorials/meeting-filter.png)
+![Meeting query filter.](../Images/WpA/Tutorials/meeting-filter.png)
 
 When adding a filter, you can see the number of people included in the filter group and the total number of measured employees it's based on. This helps you decide if you've set up the correct filter (or filters) before running the query.
 
-![Filter preview](../Images/WpA/Tutorials/filter-preview.png)
+![Filter preview.](../Images/WpA/Tutorials/filter-preview.png)
 
 ## Add metrics
 
 You can add base metrics to customize your meeting data. For example, select the Attendees metric to include the total number of people that attended meetings. You can add a metric filter to further customize the data. For example, the following metric filter will only show meetings that included attendees from the engineering group.
 
-![Meeting query metric](../Images/WpA/Tutorials/meeting-metric.png)
+![Meeting query metric.](../Images/WpA/Tutorials/meeting-metric.png)
 
 To get more details on adding metric filters, see [Customize a metric](../Tutorials/customize-a-metric.md).
 
@@ -77,7 +77,7 @@ When you run a meeting query in Workplace Analytics, the output (.csv) file can 
 * Further protects private data by excluding select columns from the file.
 * Enables you to select **Clear all** to clear the selected columns and use **Select all** to include all columns.
 
-![Organizational data section](../Images/WpA/Tutorials/query-org-data-m.png)
+![Organizational data section.](../Images/WpA/Tutorials/query-org-data-m.png)
 
 ## Example query for long recurring meetings
 

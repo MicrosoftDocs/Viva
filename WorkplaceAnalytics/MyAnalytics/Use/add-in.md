@@ -55,7 +55,7 @@ You can use the Outlook Insights add-in in the following environments:
 
 2. Select the **Insights** icon:
 
-    ![Insights icon](../../images/mya/use/insights-view-sm.png)
+    ![Insights icon.](../../images/mya/use/insights-view-sm.png)
 
 ### Outlook on the web
 
@@ -65,7 +65,7 @@ You can use the Outlook Insights add-in in the following environments:
 
 3. Select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**:
 
-   ![Insights in OWA](../../images/mya/use/insights-in-owa.png)
+   ![Insights in OWA.](../../images/mya/use/insights-in-owa.png)
 
 > [!Note]
 > You can pin the Add-in to your quick access pane for easier access; see [Pin the Insights add-in](#pin-the-insights-add-in) for details.
@@ -78,7 +78,7 @@ In the new Mac interface, add-ins are not currently available, but you can enabl
 
 1. Switch to the old UI by using the toggle at the top of the page:
 
-   ![Mac Outlook switch UI](../../images/mya/use/mac-outlook-switch-ui.png)
+   ![Mac Outlook switch UI.](../../images/mya/use/mac-outlook-switch-ui.png)
 
 2. In the Outlook **Home** ribbon, open Insights by using the same steps as for [Windows Outlook desktop](#windows-outlook-desktop).
 
@@ -89,7 +89,7 @@ In the new Mac interface, add-ins are not currently available, but you can enabl
 
 After you open the Insights add-in, you'll see a number of cards in the right (Insights) pane.
 
-![Insights pane](../../images/mya/use/insights-cards-trunc-2.png)
+![Insights pane.](../../images/mya/use/insights-cards-trunc-2.png)
   
 This pane will show you a selection of the following:
 
@@ -119,24 +119,24 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 1. In Outlook on the web, select the **Settings** (gear) icon.
 
-    ![OWA Settings pane](../../images/mya/use/owa-settings.png)
+    ![OWA Settings pane.](../../images/mya/use/owa-settings.png)
 
 2. In **Settings**, select **View all Outlook Settings**.
 3. Confirm **Mail** is selected in the left pane, and in the center pane, select **Customize actions**.
 
-    ![Customize actions](../../images/mya/use/customize-actions.png)
+    ![Customize actions.](../../images/mya/use/customize-actions.png)
 
 4. In the right pane, in the **Message surface** area, select **Insights**.
 
-    ![Message surface/Insights](../../images/mya/use/msg-surface-insights.png)
+    ![Message surface/Insights.](../../images/mya/use/msg-surface-insights.png)
 
 5. In the right pane, in the **Toolbar** area, select **Insights**.
 
-    ![Toolbar/Insights](../../images/mya/use/toolbar-surface-insights.png)
+    ![Toolbar/Insights.](../../images/mya/use/toolbar-surface-insights.png)
 
 6. Save your new settings.
 
-    ![Save settings](../../images/mya/use/save-settings.png)
+    ![Save settings.](../../images/mya/use/save-settings.png)
 
 ## Opt out of the Insights Outlook add-in
 
@@ -146,12 +146,12 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 2. Select the **Settings** (gear) icon at top right.
 
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
 4. For **Insights Outlook add-in**, set the control to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/add-in-slider-opt-out.png)
+    ![Slider in off position.](../../Images/mya/use/add-in-slider-opt-out.png)
   
 5. Select **Save** to save your changes.
 
@@ -164,13 +164,13 @@ If you opt out of the Insights Outlook add-in, you might also want to remove its
 
 1. In Outlook, select **Get Add-ins**.
 
-   ![Select Get Add-ins](../../Images/mya/use/select-get-add-ins.png)
+   ![Select Get Add-ins.](../../Images/mya/use/select-get-add-ins.png)
 
 2. On the left navigation pane, select **My add-ins**.
 
 3. On the **Insights** card, select the ellipsis (**...**) and then select **Remove**.
 
-   ![Options on Insights card](../../Images/mya/use/insights-card-remove-icon.png)
+   ![Options on Insights card.](../../Images/mya/use/insights-card-remove-icon.png)
 
 ### If I am opted out, can I opt back in?
 
@@ -181,12 +181,12 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at top right.
 
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
 4. For **Insights Outlook add-in**, set the control to **On**.
 
-    ![Slider also in off position](../../Images/mya/use/add-in-slider-opt-in.png)
+    ![Slider also in off position.](../../Images/mya/use/add-in-slider-opt-in.png)
   
 5. Select **Save** to save your changes.
 

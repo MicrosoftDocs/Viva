@@ -39,7 +39,7 @@ This article describes the steps that are required to set up and configure Workp
 
 1. **Open [Workplace Analytics](https://workplaceanalytics.office.com)**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
 
-      ![The Home page guides you through setup](../images/wpa/setup/onboarding-intro.png)
+      ![The Home page guides you through setup.](../images/wpa/setup/onboarding-intro.png)
   
 2. **Licenses and roles** - Verify that your Microsoft 365 admin has assigned licenses and roles to people in the organization, and then select **Next**. For more information, see [Assign licenses](assign-licenses-to-population.md) and [Assign roles](assign-roles-to-wpa-admins.md).
 
@@ -65,11 +65,11 @@ This article describes the steps that are required to set up and configure Workp
 
    3. **Data processing** - Workplace Analytics processes the validated data.
 
-      ![Processing organizational data](../images/wpa/setup/onboarding-validation-success.png)
+      ![Processing organizational data.](../images/wpa/setup/onboarding-validation-success.png)
 
       When the processing finishes, your setup is complete, as shown in the status bar:
 
-      ![Setup is complete](../images/wpa/setup/onboarding-setup-complete.png)
+      ![Setup is complete.](../images/wpa/setup/onboarding-setup-complete.png)
 
 ## Product availability
 
