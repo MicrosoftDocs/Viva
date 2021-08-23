@@ -52,19 +52,19 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 |Email hours | Number of hours the person spent sending and receiving emails. |Person|Hour|Yes|
 |Emails sent|Number of emails the person sent.|Person|Count|Yes|
 |External network size|The number of people external to the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes|  
-| Generated reactions to posts | The total number of reactions generated to posts sent by a person on Teams channels. |Person|Count|No|
-| Generated replies to posts | The total number of replies generated to posts sent by a person on Teams channels. |Person|Count|No|
-|Generated workload call hours|Number of hours the person spent calling internal recipients through Teams.|Person|Hour|Yes|
-|Generated workload call participants|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
-|Generated workload calls organized|Number of calls organized by the person. |Person|Count|Yes|
-|Generated workload email hours| Number of email hours the person created for internal recipients by sending emails. |Person|Hour|Yes|
-|Generated workload email recipients|Number of internal recipients on emails sent by the person. (Counts each recipient once for each email received.)|Person|Count|Yes|
-|Generated workload instant message hours|Number of instant message hours the person created through Teams for internal recipients by sending instant messages.|Person|Hour|Yes|
-|Generated workload instant message recipients|Number of internal participants of calls organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
-|Generated workload meeting attendees|Number of internal attendees in meetings organized by the person. (Counts each attendee once for each meeting.)|Person|Count|Yes|
-|Generated workload meeting hours|Number of meeting hours the person created for internal attendees by organizing meetings.|Person|Hour|Yes|
-|Generated workload meetings organized|Number of internal meetings organized by the person.|Person|Count|Yes|
-|Instant message hours | Number of hours a person spent in instant messages (IMs) through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
+| <a name="generated-reactions-to-posts-define"></a> Generated reactions to posts | The total number of reactions generated to posts sent by the person on Teams channels. |Person|Count|No|
+| <a name="generated-replies-to-posts-define"></a> Generated replies to posts | The total number of replies generated to posts sent by the person on Teams channels. |Person|Count|No|
+| <a name="generated-workload-call-hours-define"></a> Generated workload call hours|Number of hours that the person spent calling internal recipients through Teams.|Person|Hour|Yes|
+| <a name="generated-workload-call-participants-define"></a> Generated workload call participants|Number of internal participants of calls that were organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
+| <a name="generated-workload-calls-organized-define"></a> Generated workload calls organized|Number of calls that were organized by the person. |Person|Count|Yes|
+| <a name="generated-workload-email-hours-define"></a> Generated workload email hours| Number of email hours that the person created for internal recipients by sending emails. |Person|Hour|Yes|
+| <a name="generated-workload-email-recipients-define"></a> Generated workload email recipients|Number of internal recipients on emails that were sent by the person. (Counts each recipient once for each email received.)|Person|Count|Yes|
+| <a name="generated-workload-instant-message-hours-define"></a> Generated workload instant message hours|Number of instant message hours that the person created through Teams for internal recipients by sending instant messages.|Person|Hour|Yes|
+| <a name="generated-workload-instant-message-recipients-define"></a> Generated workload instant message recipients|Number of internal participants of calls that were organized by the person. (Counts each participant once for each call.)|Person|Count|Yes|
+| <a name="generated-workload-meeting-attendees-define"></a> Generated workload meeting attendees|Number of internal attendees in meetings that were organized by the person. (Counts each attendee once for each meeting.)|Person|Count|Yes|
+| <a name="generated-workload-meeting-hours-define"></a> Generated workload meeting hours|Number of meeting hours that the person created for internal attendees by organizing meetings.|Person|Hour|Yes|
+| <a name="generated-workload-meetings-organized-define"></a> Generated workload meetings organized|Number of internal meetings that were organized by the person.|Person|Count|Yes|
+|Instant message hours | Number of hours that a person spent in instant messages (IMs) through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
 |Instant messages sent | Total number of instant messages (IMs) sent by a person through Teams, during and outside of working hours. | Person| Count| Yes |
 |Internal network size|   The number of people within the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks.  |Person|Count|Yes |
 |  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours |Number of meeting hours in which an attendee multitasked, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Workplace Analytics admins can [set the hourly rate](system-defaults.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. **Note**: Calculations for conflicting meeting hours are affected by meeting exclusion rules and adjustments based on the type of meetings that overlap (non-declined work meetings, focus hours, and out-of-office time).|Person|Hour|Yes|
