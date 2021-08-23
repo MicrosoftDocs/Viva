@@ -25,7 +25,7 @@ This section will also reference and list any already scheduled time in your cal
 
 For example, as shown in the following, you’d select **Book** next to **Catch up on messages** to schedule that time on your calendar for each day during your work week.
 
-   ![Plan your week options](./images/be-time.png)
+   ![Plan your week options.](./images/be-time.png)
 
 ## Related topics
 

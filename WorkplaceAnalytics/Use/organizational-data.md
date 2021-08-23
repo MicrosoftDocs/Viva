@@ -20,7 +20,7 @@ Organizational data is information about employees that your company provides to
 
 As either an admin or an analyst, you can use this page to understand the data quality and completeness for employees who have an entry in the HR data file and are detected in the specified week's refresh of Office 365 data.
 
-![Organizational data sources page](../images/wpa/Use/org-data-sources.png)
+![Organizational data sources page.](../images/wpa/Use/org-data-sources.png)
 
 Organizational data includes the following:
 
@@ -37,7 +37,7 @@ Organizational data includes the following:
 
  To view a list of the top 500 values for an attribute and other details about it, select the attribute's name in the list. For example, the following graphic shows the top values and details for **Region**.
 
-![View Organizational data attributes for Region](../images/wpa/Use/org-data-attributes.png)
+![View Organizational data attributes for Region.](../images/wpa/Use/org-data-attributes.png)
 
 Attribute details includes the following:
 

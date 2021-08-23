@@ -54,16 +54,16 @@ You can configure access to MyAnalytics elements for all users in your organizat
 1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
-    ![New admin center](../../images/mya/setup/the-new-admin-center.png)
+    ![New admin center.](../../images/mya/setup/the-new-admin-center.png)
 
 3. In the left pane, expand **Settings** and then select **Org settings**.
 4. In the main pane, under **Services**, select **MyAnalytics**:
 
-   ![Select MyAnalytics](../../images/mya/setup/admin-center-settings-services-res2-85.png)
+   ![Select MyAnalytics.](../../images/mya/setup/admin-center-settings-services-res2-85.png)
    
    This opens a page where you can configure access to MyAnalytics elements:  
    
-   ![Select visibility](../../images/mya/setup/assign-mya-access-new.png)
+   ![Select visibility.](../../images/mya/setup/assign-mya-access-new.png)
 
 5. Select **Insights dashboard** to keep all MyAnalytics users in your organization opted _in_ for access to the MyAnalytics dashboard. Deselect **Insights dashboard** to opt users _out_ of access to the dashboard.
 

@@ -31,7 +31,7 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 
 In the following example, you’d select **Find time** to schedule a 1:1 with Christie and select **Done** to mark the Sync up as complete.
 
-   ![Briefing email manager card image](./images/be-manager.png)
+   ![Briefing email manager card image.](./images/be-manager.png)
 
 ## Related topic
 

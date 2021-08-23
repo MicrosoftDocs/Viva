@@ -12,7 +12,7 @@ audience: Admin
 
 # Introducing Workplace Analytics
 
-[![Viva announcement](./images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+[![Viva announcement.](./images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 Microsoft Workplace Analytics is a cloud-based service that provides business leaders with unprecedented insights about how people spend their time, and who they spend it with. These insights empower business leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 

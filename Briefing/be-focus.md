@@ -19,7 +19,7 @@ This section will also reference and list any already scheduled focus time in to
 
 In the following example, you’d select **Book** next to **3:00 PM – 4:00 PM** to schedule you as **focusing** during that time on today’s calendar.
 
-   ![Booking focus time in the Briefing email](./images/focus.png)
+   ![Booking focus time in the Briefing email.](./images/focus.png)
 
 ## Related topics
 

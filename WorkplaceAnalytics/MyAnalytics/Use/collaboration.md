@@ -16,13 +16,13 @@ audience: Admin
 
 The Collaboration page on the [MyAnalytics dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
-  ![MyAnalytics Collaboration page](../../Images/mya/use/collab.png)
+  ![MyAnalytics Collaboration page.](../../Images/mya/use/collab.png)
 
 ## Weekly average
 
 The Weekly average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours as configured in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
-   ![MyAnalytics Collaboration Weekly Average](../../Images/mya/use/collab-weekly-average.png)
+   ![MyAnalytics Collaboration Weekly Average.](../../Images/mya/use/collab-weekly-average.png)
 
 ## Meeting habits
 
@@ -30,21 +30,21 @@ The Meeting habits section highlights what your habits or practices are in meeti
 
 * The **Meeting habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
-    ![MyAnalytics Collaboration Meeting Habits View](../../Images/mya/use/collab-habits-2.png)
+    ![MyAnalytics Collaboration Meeting Habits View.](../../Images/mya/use/collab-habits-2.png)
 
 * The **List View** shows details about all the meetings on your calendar over the past four weeks.
 
-    ![MyAnalytics Collaboration Meeting List View](../../Images/mya/use/collab-meeting-list.png)
+    ![MyAnalytics Collaboration Meeting List View.](../../Images/mya/use/collab-meeting-list.png)
 
    |Icon |Description |
    |---|---|
-   |![recur icon](../../Images/mya/use/recur-icon.png) |Represents a recurring meeting on your calendar. |
-   |![person meeting icon](../../Images/mya/use/person-meeting-icon.png) | Represents a meeting organized by you. |
-   |![recurring meeting by you icon](../../Images/mya/use/recur-byu-icon.png) | Represents a recurring meeting organized by you. |
-   |![check mark icon](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting started on time. |
-   |![X icon](../../Images/mya/use/x-icon.png) | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not start on time. |
-   |![dash icon](../../Images/mya/use/dash-icon.png) | If a meeting has a dash in a column, the specified meeting metric was not applicable for that meeting. For example, the meeting was canceled, so starting on time was not applicable. |
-   |![sort up icon](../../Images/mya/use/sort-up-icon.png)![sort down icon](../../Images/mya/use/sort-icon.png)  | Select a column name in the Meetings list to sort the list by that column in ascending or descending order. The sort icon will show up next to the column name that the list is sorted by. |
+   |![recur icon.](../../Images/mya/use/recur-icon.png) |Represents a recurring meeting on your calendar. |
+   |![person meeting icon.](../../Images/mya/use/person-meeting-icon.png) | Represents a meeting organized by you. |
+   |![recurring meeting by you icon.](../../Images/mya/use/recur-byu-icon.png) | Represents a recurring meeting organized by you. |
+   |![check mark icon.](../../Images/mya/use/checkmark.png) | If a meeting has a check mark in a column, it met that specified meeting’s metric. For example, the meeting started on time. |
+   |![X icon.](../../Images/mya/use/x-icon.png) | If a meeting has an X in a column, it did not meet that specified meeting’s metric. For example, the meeting did not start on time. |
+   |![dash icon.](../../Images/mya/use/dash-icon.png) | If a meeting has a dash in a column, the specified meeting metric was not applicable for that meeting. For example, the meeting was canceled, so starting on time was not applicable. |
+   |![sort up icon.](../../Images/mya/use/sort-up-icon.png)![sort down icon](../../Images/mya/use/sort-icon.png)  | Select a column name in the Meetings list to sort the list by that column in ascending or descending order. The sort icon will show up next to the column name that the list is sorted by. |
 
 For a list of meetings that are excluded from the Meetings list and metrics, see [Meeting exclusions](#meeting-exclusions).
 
@@ -52,7 +52,7 @@ For a list of meetings that are excluded from the Meetings list and metrics, see
 
 The Communication habits section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
 
-   ![MyAnalytics Communication habits](../../Images/mya/use/collab-comm-habits.png)
+   ![MyAnalytics Communication habits.](../../Images/mya/use/collab-comm-habits.png)
 
 ## Productivity insights
 
@@ -83,7 +83,7 @@ The following meeting-habit metrics are included on the Collaboration page. You 
 The following meeting types are excluded from meeting metrics:
 
 * Meetings whose length is equal to or greater than 24 hours. Notably, this also excludes **All day** meetings:
-![All-day meeting checkbox](../../Images/mya/use/all-day-mtg.png)
+![All-day meeting checkbox.](../../Images/mya/use/all-day-mtg.png)
 
 * Meetings that are marked as **Private**
 

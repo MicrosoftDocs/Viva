@@ -34,7 +34,7 @@ You can do the following with plans:
 3. Optionally, you can select the **Edit** (pencil) icon next to **Plan name**, **Plan duration**, and **Plan target** to change the details for this plan.
 4. Select **Create plan** to start the selected plan. Or you can select **Save as draft** to start the plan at a later date. The following shows an example Collaboration plan.
 
-    ![Create plan](./images/create-plan.png)
+    ![Create plan.](./images/create-plan.png)
 
 ## Manage and track plans
 
@@ -46,7 +46,7 @@ In **Plans** > **Manage**, you can select to view **Drafts**, **Active**, or **C
 
 In **Plans** > **Track** > **Progress for**, you can select an active or a completed plan to measure progress of a target goal or ROI for the plan.
 
-![Track a plan](./images/track-plan.png)
+![Track a plan.](./images/track-plan.png)
 
 ## Plan participants' experience
 
@@ -58,13 +58,13 @@ During a plan, these participants receive or can view the following items.
 
 The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan. This section contains information such as recommended habits and the participant's progress against the plan goals, similar to the following:
 
-![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
+![Participant's dashboard.](../images/wpa/tutorials/dashboard-prog-partic.png)
 
 ### Digest
 
 All MyAnalytics users receive a weekly [digest](../MyAnalytics/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
 
-![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60.png)
+![Weekly digest.](../images/wpa/tutorials/program-checkpoint-card-60.png)
 
 ### MyAnalytics inline suggestions
 

@@ -16,7 +16,7 @@ The Network page on the [MyAnalytics dashboard](dashboard-2.md) shows how many p
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
-![Your Network](../../Images/mya/use/network-pg.png)
+![Your Network.](../../Images/mya/use/network-pg.png)
 
 ## Productivity insights
 

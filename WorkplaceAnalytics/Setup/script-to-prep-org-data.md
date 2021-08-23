@@ -32,7 +32,7 @@ This script requires the following elements. If you need help while installing t
 
     Note that when you install the following modules – AAD and MSOnline – you first need to start PowerShell as an administrator:
 
-    ![Run as administrator](../images/wpa/setup/run-as-admin.png)
+    ![Run as administrator.](../images/wpa/setup/run-as-admin.png)
 
 * **The Azure Active Directory module**. For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
 

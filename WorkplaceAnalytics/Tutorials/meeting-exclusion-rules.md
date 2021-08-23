@@ -23,7 +23,7 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 
 **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Analysis settings in Workplace Analytics](../images/WpA/Tutorials/analysis-settings.png)
+![Analysis settings in Workplace Analytics.](../images/WpA/Tutorials/analysis-settings.png)
 
 ### For more information
 
@@ -81,13 +81,13 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
 3. In **New exclusion**, select either **Meeting exclusion** or **Attendee exclusion**:
 
-   ![Choose exclusion type](../images/wpa/tutorials/exclusion-type.png)
+   ![Choose exclusion type.](../images/wpa/tutorials/exclusion-type.png)
 
    For information about choosing between **Meeting exclusion** and **Attendee exclusion**, see [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type).
 
 4. If you selected **Attendee exclusion**, choose the types of invitees whose data you want to exclude from analysis, including those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:
 
-   ![Exclude these invitees](../images/wpa/tutorials/exclude-invitees-who-have-70.png)
+   ![Exclude these invitees.](../images/wpa/tutorials/exclude-invitees-who-have-70.png)
 
    After you select one or both of these options, you'll see the number of invitees who will be excluded from analysis.
 
@@ -97,7 +97,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
    You can choose to use the system-suggested exclusion for each step or customize the exclusion by retaining or excluding additional meetings. If you don't want to use a suggested exclusion, you can always choose not to apply it. After you have customized exclusions for each of the five steps, you can make edits to your exclusion rule before publishing it for future use.
 
-   ![Five exclusion steps](../images/wpa/tutorials/01-five-exclusion-steps.png)
+   ![Five exclusion steps.](../images/wpa/tutorials/01-five-exclusion-steps.png)
 
    > [!Note]
    > The first five steps in this list are for excluding data about meetings based on the type of meeting. In the sixth step on the list, you exclude data about attendees, based on the response they gave to the meeting invitation. For more information, see [Select exclusion type](meeting-exclusion-concept.md#select-exclusion-type).
@@ -107,7 +107,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
    >[!Note]
    >You can skip adding the exclusion by clearing the **Use this exclusion** check box before you select **Next**:
 
-   ![Skip this exclusion](../images/wpa/tutorials/18-use-this-exclusion-80.png)
+   ![Skip this exclusion.](../images/wpa/tutorials/18-use-this-exclusion-80.png)
 
 #### To create a meeting exclusion rule
 
@@ -152,7 +152,7 @@ Now that you've created a framework for your new rule, use the following steps t
 
    Workplace Analytics also preselects some topics for you. For example, in the following illustration, **Administrative**, **Medical**, and **Out of Office** are selected for exclusion:
 
-    ![Select topics to exclude](../images/wpa/tutorials/05-select-topics-to-exclude.png)
+    ![Select topics to exclude.](../images/wpa/tutorials/05-select-topics-to-exclude.png)
 
    Each topic that is listed under **List of topics** is also a tab. Select a tab to see keywords and phrases that relate to the topic. For example, **Out of Office** includes the phrase "day off." These related keywords are excluded from analysis. Select the 'X next to a keyword to remove it from this list. This exempts the keyword from exclusion; in other words, meetings whose subject line contains that keyword are removed from the exclusion and, therefore, available for analysis.
 
@@ -164,11 +164,11 @@ Now that you've created a framework for your new rule, use the following steps t
 
    After the calculation finishes, as on each of the preceding steps, the cumulative summary shows the effect of all the exclusions in your new rule -- in particular, the percentages of original meeting hours and of meetings that are retained for analysis:
 
-    ![Rule summary overview](../images/wpa/tutorials/06-rule-summary-end.png)
+    ![Rule summary overview.](../images/wpa/tutorials/06-rule-summary-end.png)
 
    The following summary lists which exclusions were applied, which ones were not applied, and the effects that each exclusion has. It also shows the individual impact of each rule, so the total will likely not add up to 100%:
 
-   ![Rule summary](../images/wpa/tutorials/07-summary-of-five.png)
+   ![Rule summary.](../images/wpa/tutorials/07-summary-of-five.png)
 
 7. **Review and edit the rule** - Confirm the list of exclusions retains the meetings that you want to keep and excludes the ones that you don't want in your analysis. If you want to change the settings of an exclusion, select the **Edit** (pencil) icon to re-open and edit it. For example, you could re-open the long-meetings exclusion to change the threshold from 8 hours to 6.
 
@@ -213,7 +213,7 @@ To learn how to select a rule to use in a query, see [Use rules with queries](#u
 
 3. In the row for that rule, select the **More options** (ellipsis) icon to show the available actions:
 
-    ![More options icon in the rule's row](../images/wpa/tutorials/ellipsis.png)
+    ![More options icon in the rule's row.](../images/wpa/tutorials/ellipsis.png)
 
 4. Select **Set preferred**. When prompted, select **Set preferred** again to confirm.
 
@@ -233,7 +233,7 @@ You can apply a meeting exclusion rule to a query while you create the query in 
 
 2. After you select the type of query that you want to create, select the rule for this query in **Meeting exclusions**, as shown in the following example:
 
-    ![Apply an exclusion to a query](../images/wpa/tutorials/20-apply-to-query.png)
+    ![Apply an exclusion to a query.](../images/wpa/tutorials/20-apply-to-query.png)
 
 ### Duplicate a rule
 
@@ -247,7 +247,7 @@ You can make an exact copy of any active rule. You can duplicate both published 
 
 3. In that rule’s row, select the **More options** (ellipsis) icon, and then select **Duplicate**. A copy of the rule is created, given the name “Copy of &lt;original rule name&gt;”, and then opened for editing.
 
-    ![More options menu in a rule's row](../images/wpa/tutorials/ellipsis.png)
+    ![More options menu in a rule's row.](../images/wpa/tutorials/ellipsis.png)
 
 4. You can now edit the rule’s exclusions, description, and name.
 
@@ -265,7 +265,7 @@ You might have built and used a rule in a past project that you no longer use. H
 
 3. In that rule’s row, select the **More options** (ellipsis) icon, and then select **Archive**. The rule will be moved to the list of archived rules, which you can see by selecting **Archived**.
 
-    ![More options menu in a rule's row](../images/wpa/tutorials/ellipsis.png)
+    ![More options menu in a rule's row.](../images/wpa/tutorials/ellipsis.png)
 
 ## Related topics
 

@@ -30,30 +30,30 @@ When you customize a base metric, it's saved as a new custom metric for the quer
 4. Select a date range and a meeting exclusion rule.
 5. In the **Metrics** section, select the **plus sign** (+) next to **Add metric** and then select a metric from the list:
 
-   ![add a metric](../Images/WpA/Tutorials/custom-metric-01.png)
+   ![add a metric.](../Images/WpA/Tutorials/custom-metric-01.png)
 
    >[!Note]
    >You can select multiple metrics from the list. When you are finished, select elsewhere on the page to close the list.
 
    For this example, select the **Conflicting meeting hours** metric:
 
-   ![select the conflicting meeting hours metric](../Images/WpA/Tutorials/custom-metric-02.png)
+   ![select the conflicting meeting hours metric.](../Images/WpA/Tutorials/custom-metric-02.png)
 
    The selected metric becomes the *base metric* for the query, and represents the area of focus for data analysis.
 
 6. To customize the metric:
 
-   1. Select the **Edit** icon ![edit icon](../Images/WpA/Tutorials/edit-icon.png). This shows the option to apply filters to the base metric:
+   1. Select the **Edit** icon ![edit icon.](../Images/WpA/Tutorials/edit-icon.png). This shows the option to apply filters to the base metric:
 
-      ![customize a metric](../Images/WpA/Tutorials/custom-metric-03.png)
+      ![customize a metric.](../Images/WpA/Tutorials/custom-metric-03.png)
 
    2. Select the plus (+) sign next to **Add filter**. A filter is now added. In our example, it's the Initiator filter:
 
-      ![add a filter](../Images/WpA/Tutorials/custom-metric-04.png)
+      ![add a filter.](../Images/WpA/Tutorials/custom-metric-04.png)
 
    3. Select the filter name, **Initiator**. This shows options that define the filters for email initiators:
 
-      ![define a filter](../Images/WpA/Tutorials/custom-metric-05.png)
+      ![define a filter.](../Images/WpA/Tutorials/custom-metric-05.png)
 
    4. Define the filter details in the available fields. Optionally, define other filters (if others are available) by selecting AND or OR and adding details to the additional filters.
 

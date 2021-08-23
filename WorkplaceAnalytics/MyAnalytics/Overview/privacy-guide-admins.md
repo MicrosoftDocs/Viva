@@ -106,7 +106,7 @@ People managers often have hectic schedules and it can be tough to stay in close
 
 For example, the [Catch up with your team](../use/use-the-insights.md#catch-up-with-your-team) feature in the [Insights add-in](../use/add-in.md) helps managers schedule regular 1:1 time, respond quickly to unread emails, close out important tasks, and more.
 
-   ![Team member card Debra](../../images/mya/use/connect-actions-debra-75-90.png)
+   ![Team member card Debra.](../../images/mya/use/connect-actions-debra-75-90.png)
 
 All assistance for managers in MyAnalytics relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
 
@@ -145,7 +145,7 @@ The processing of an employee's personal data ceases when they are opted out, wh
 
 End users can opt-in or opt-out of MyAnalytics via the **Feature settings** menu in Microsoft 365, as shown here:
 
-![Email read rates](../../Images/mya/use/v2-dashboard-settings-1h.png)
+![Email read rates.](../../Images/mya/use/v2-dashboard-settings-1h.png)
 
 ## Microsoft Graph
 

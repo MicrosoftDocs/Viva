@@ -14,13 +14,13 @@ audience: Admin
 
 Managers have a large impact on employee engagement, development and performance, and are pivotal for driving organizational change. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Develop effective managers page](../images/wpa/use/develop-managers.png)
+![Develop effective managers page.](../images/wpa/use/develop-managers.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Develop effective managers percentage insight example](../images/wpa/use/develop-managers-percent.png)
+![Develop effective managers percentage insight example.](../images/wpa/use/develop-managers-percent.png)
 
 | Behavior | Percentage insight | Metrics | Calculations |
 | -------- | ------------------ | ------- | ------------ |
@@ -33,7 +33,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Develop effective managers visual insight example](../images/wpa/use/develop-managers-visual.png)
+![Develop effective managers visual insight example.](../images/wpa/use/develop-managers-visual.png)
 
 | Behavior | Visual insight | Definitions |
 | -------- | -------------- | ----------- |

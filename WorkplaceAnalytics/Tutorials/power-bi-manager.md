@@ -16,7 +16,7 @@ The Manager effectiveness dashboard for Power BI uses Workplace Analytics data t
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep dive into each theme, along with a **Why it matters** interpretation and best practices recommended by industry experts.
 
-![Manager effectiveness dashboard in Power BI](../Images/WpA/tutorials/pbi-manager-intro.png)
+![Manager effectiveness dashboard in Power BI.](../Images/WpA/tutorials/pbi-manager-intro.png)
 
 The following describes the analysis within each theme and the actions you can take, such as tracking changes.
 
@@ -92,7 +92,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 15. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -108,7 +108,7 @@ After the Manager effectiveness dashboard is set up and populated with Workplace
 * **Individual contributor attribute** - Select the attribute values that identify employees as individual contributors who do not manage people within your organization.
 * **Manager indicator attribute** - Select the attribute values that identify managers who manage people within your organization, such as **Mngr** and **Mngr+**.
 
-![Manager effectiveness required attribute values](../Images/WpA/Tutorials/manager-effect-qs.png)
+![Manager effectiveness required attribute values.](../Images/WpA/Tutorials/manager-effect-qs.png)
 
 After this initial prompt, you can then select **Customize** at top right of any page to view and change the following attribute values.
 
@@ -117,7 +117,7 @@ After this initial prompt, you can then select **Customize** at top right of any
 * **Organizational attribute to view the report by** - Select the primary “group-by” attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
 * **Employee filter** - Select the organizational attribute and values you want to filter the employees by in the reports.
 
-![Manager effectiveness custom report options](../Images/WpA/Tutorials/manager-effect-settings.png)
+![Manager effectiveness custom report options.](../Images/WpA/Tutorials/manager-effect-settings.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 

@@ -24,13 +24,13 @@ By combining this data in Workplace Analytics, you can now analyze how sales act
 
 The **Join coverage** section describes the percent overlap between the uploaded list of accounts and the other uploaded lists of important CRM data, such as contacts and seller assignments, as shown in the following graphic. The higher the percentage overlap the more accurate analysis you can accomplish.
 
-![CRM data sources page](../images/wpa/Use/crm-sources.png)
+![CRM data sources page.](../images/wpa/Use/crm-sources.png)
 
 ## External collaborators
 
 You can also see the total number of external collaborators and related join coverage data, as shown in the following graphic.
 
-![CRM external collaborators](../images/wpa/Use/crm-external-collab.png)
+![CRM external collaborators.](../images/wpa/Use/crm-external-collab.png)
 
 * **External collaborators** are people who have:
 
@@ -52,13 +52,13 @@ For join coverage based on the latest data uploads, you might see one of the fol
 * **Data is not associated**: This occurs when one or more attributes cannot be associated between the two sets of data for join coverage. You can select to download a .csv file and view the contacts or sellers that can't be associated with the corresponding accounts in the accounts table.
 * **Data has not been processed**: This occurs when an upload hasn't been done yet, the data is currently being processed, or something failed during the validation or data processing phase. You can select the link to the Upload page and view the status of the upload, correct any issues, or upload new data. You can also ignore this warning if you don't plan to upload that specific data file.
 
-![CRM join notices](../images/wpa/Use/crm-join-notices.png)
+![CRM join notices.](../images/wpa/Use/crm-join-notices.png)
 
 ## Join coverage details
 
 You can select one of the data titles, such as accounts or contacts, to view a list of attributes for it. For example, the following shows a list of attributes for contacts.
 
-![View CRM attributes for contacts](../images/wpa/Use/crm-contact-attributes.png)
+![View CRM attributes for contacts.](../images/wpa/Use/crm-contact-attributes.png)
 
 Similar to the Organizational data page, the CRM data attributes list includes the following.
 
@@ -68,7 +68,7 @@ Similar to the Organizational data page, the CRM data attributes list includes t
 * **Coverage** - Shows the percentage of attributes that have non-blank values. For example, in following graphic, 87.5% or 7 out of 8 accounts have non-blank values for the **AccountAnnualRevenue** attribute.
 * **Unique values** - The count of the unique attribute values included in the data.
 
-![View CRM attributes for accounts](../images/wpa/Use/crm-account-attributes.png)
+![View CRM attributes for accounts.](../images/wpa/Use/crm-account-attributes.png)
 
 >[!Note]
 > You can select a column name to sort the list by it in descending or ascending order.
@@ -79,13 +79,13 @@ To view a list of the top 100 values for an attribute, select the attribute's na
 * You can select a column title to sort the list by that column in descending or ascending order.
 * Type a keyword in the **Search** field to search all attributes that include that keyword, such as email or phone.
 
-![View CRM attribute values for accounts](../images/wpa/Use/crm-account-attribute-values.png)
+![View CRM attribute values for accounts.](../images/wpa/Use/crm-account-attribute-values.png)
 
 ## Account collaboration coverage
 
 In the **Accounts and external collaborators** section of the CRM data sources page, you can select **View details** to see a more detailed view of account collaboration as shown in the following graphic.
 
-![View CRM account collaboration coverage](../images/wpa/Use/crm-account-collab.png)
+![View CRM account collaboration coverage.](../images/wpa/Use/crm-account-collab.png)
 
 The **Account details** page includes the following.
 
@@ -102,13 +102,13 @@ The **Account details** page includes the following.
   * **Default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in the ‘matched by default’ group.
   * **Extrapolation + default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in both the ‘matched by default’ and ‘matched by extrapolation’ groups.
 
-  ![View details for CRM account collaboration coverage](../images/wpa/Use/crm-account-collab-details.png)
+  ![View details for CRM account collaboration coverage.](../images/wpa/Use/crm-account-collab-details.png)
 
 ### Download dataset
 
 The **Account collaboration by domain** table can list up to a maximum of 500 CRM accounts. To view the complete dataset for accounts larger than 500, you can view all the accounts in the downloaded .csv file. You have the following options when you download the accounts dataset:
 
-  ![CRM account collaboration details download](../images/wpa/Use/crm-download.png)
+  ![CRM account collaboration details download.](../images/wpa/Use/crm-download.png)
 
 * The **Accounts** option organizes the records by the AccountName attribute. The following is an example of account output for this option:
 

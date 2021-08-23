@@ -26,14 +26,14 @@ With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you 
 
 In the following example, you’d select **Weekly PM meeting** to open the meeting details or select the related **Status update** document to open and view it. If you see a meeting that has **low acceptance**, you could select **Reschedule** .
 
-   ![Briefing email about meetings](./images/meeting-prep.png)
+   ![Briefing email about meetings.](./images/meeting-prep.png)
 
 In the following example, for the **Status Update meeting**, you can select:
 
 * **Add Teams** to add a Teams link to the invitation.
 * **Add agenda** to add a meeting agenda to the invitation.
 
-   ![Briefing email inline meeting options](./images/meeting-options.png)
+   ![Briefing email inline meeting options.](./images/meeting-options.png)
 
 ## Reschedule for low acceptance
 

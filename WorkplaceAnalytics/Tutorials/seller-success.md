@@ -38,11 +38,11 @@ Complete the following tasks to create and run a seller success plan:
 
 3. On the **Plans** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
 
-    ![Plans main page](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
+    ![Plans main page.](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
 
     The **Seller success plan** page opens: 
 
-    ![New Seller success plan](../images/wpa/tutorials/set-up-new-seller-plan.png)
+    ![New Seller success plan.](../images/wpa/tutorials/set-up-new-seller-plan.png)
 
 4. (Optional) Change the plan name from the default name. 
 
@@ -76,7 +76,7 @@ If you have a particular group in mind, you can identify the group in either of 
 
     Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection: 
 
-    ![Use filters to find group](../images/wpa/tutorials/seller-plan-filters.png)
+    ![Use filters to find group.](../images/wpa/tutorials/seller-plan-filters.png)
 
 3. After you select the group(s) of participants, select **Validate**.
   
@@ -109,7 +109,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this information can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan.
 
-![Email top](../images/wpa/tutorials/email-top-70-30-new.png)
+![Email top.](../images/wpa/tutorials/email-top-70-30-new.png)
 
 This email can contain any of several descriptive cards, each of which offers targeted suggestions to help participants work more effectively. The following sections describe these cards:
 
@@ -141,13 +141,13 @@ The _Time with customers_ card displays how sellers spent their time with  custo
 
 Its purpose is to help sellers decide whether they are spending time optimally with customers according to their respective potential.
 
-![Time with customers](../images/wpa/tutorials/time-with-customers-ss.png)
+![Time with customers.](../images/wpa/tutorials/time-with-customers-ss.png)
 
 ### Depth of engagement
 
 The _Depth of engagement_ card shows the number of distinct people in the account with whom the seller had one or more [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last 28 days.
 
-![Depth of engagement](../images/wpa/tutorials/depth-of-engagement-ss.png)
+![Depth of engagement.](../images/wpa/tutorials/depth-of-engagement-ss.png)
 
 <!-- 
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
@@ -158,7 +158,7 @@ On this card, selecting **Explore** opens the **Network** page of the MyAnalytic
 
 Being connected with the right individuals and organizations within the company can help overall performance. The _Leverage internal networks_ card displays the number of hours a seller collaborated with particular internal groups. It calls their attention to these figures so that they can improve their depth of customer engagement by strengthening their internal networks.
 
-![Leverage internal networks](../images/wpa/tutorials/leverage-internal-networks_60.png)
+![Leverage internal networks.](../images/wpa/tutorials/leverage-internal-networks_60.png)
  
 On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 -->
@@ -167,13 +167,13 @@ On this card, selecting **Explore** opens the **Network** page of the MyAnalytic
 
 Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interactions_ card displays the time the salesperson spent with their manager in meetings with particular customers.  
 
-![Manager interactions](../images/wpa/tutorials/manager-interactions-ss.png)
+![Manager interactions.](../images/wpa/tutorials/manager-interactions-ss.png)
  
 ### Explore
 
 The final card in the digest is the Explore card. On this card, select **Explore** to open the MyAnalytics Network dashboard, which shows how many people you actively connected with in the last month.
 
-![Explore card](../images/wpa/tutorials/explore-card-ss.png)
+![Explore card.](../images/wpa/tutorials/explore-card-ss.png)
 
 ## Seller success Q & A
 

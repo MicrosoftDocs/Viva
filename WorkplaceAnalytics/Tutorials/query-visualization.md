@@ -62,11 +62,11 @@ In **Interactive Data**, as you [customize visualizations](#customize-your-data-
 
    After you name the chart, it appears as a new item in the **Saved charts** list to the left of the chart area.
 
-   ![Interactive data chart saved as](../images/wpa/tutorials/saved-charts-chart-saved-as-4.png)
+   ![Interactive data chart saved as.](../images/wpa/tutorials/saved-charts-chart-saved-as-4.png)
 
 2. To save new modifications to a chart that you have already saved, select **Save**.
 
-   ![Interactive data Save option](../images/wpa/tutorials/saved-charts-chart-saved-4.png)
+   ![Interactive data Save option.](../images/wpa/tutorials/saved-charts-chart-saved-4.png)
 
 >[!Note]
 >If your web browser stops responding while you are modifying a chart, you will not lose your progress. This is because changes are auto-saved as you work. They will be available to you the next time you open **Interactive Data**.
@@ -81,11 +81,11 @@ For more information about plans, see [Workplace Analytics plans](solutionsv2-in
 
 1. While visualizing a query result, select one or more groups in the chart. In the following example, five finance groups are selected (selected groups are shown in light gray).
 
-   ![Query results chart with group selected](../images/wpa/tutorials/results-interactive-data-close.png)
+   ![Query results chart with group selected.](../images/wpa/tutorials/results-interactive-data-close.png)
 
    Note the size of the selected groups. In this case, the total size of the selected groups is 71 members.
 
-   ![Total group size](../images/wpa/tutorials/group-size-finance.png)
+   ![Total group size.](../images/wpa/tutorials/group-size-finance.png)
 
    The group size is important because query visualization adheres to the [minimum group size](../use/privacy-settings.md#minimum-group-size) that has been set for your organization. If you've selected a group smaller than the minimum group size, you see a warning that the "filter group is below the minimum size."
 
