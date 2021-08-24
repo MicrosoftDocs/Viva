@@ -27,10 +27,9 @@ Inline suggestions are available in the latest versions of Outlook for the web a
 
 * You have Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
 * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
+* Outlook Insights add-in Version 3.0.0.0 or higher is installed on your computer. To check the version of the add-in that's installed, see [Exchange admin center in Exchange Server](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019). The add-in is installed at the tenant level, after which it can take up to eight days for the upgrade to propagate to all users in the organization. If you notice that the proper version of the add-in is not installed in Outlook, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq#add-the-insights-outlook-add-in).
 
 In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
-
-Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 
 >[!Note]
 >Inline suggestions are not available on mobile devices.
