@@ -32,10 +32,10 @@ The [MyAnalytics dashboard](../MyAnalytics/use/dashboard-2.md) is a constantly a
 When people are part of a plan, they'll see a new **Team Plans** in their dashboard for tracking their progress. This added section contains information, such as recommended habits and a report about their progress as compared to the plan goals.
 
 <!-- Remove for now
-![Participant's dashboard](../images/wpa/tutorials/dashboard-prog-partic.png)
+![Participant's dashboard.](../images/wpa/tutorials/dashboard-prog-partic.png)
 -->
 
-![Participant's dashboard](../images/wpa/tutorials/plans-dashboard2.png)
+![Participant's dashboard.](../images/wpa/tutorials/plans-dashboard2.png)
 
 ## Digest
 
@@ -47,7 +47,7 @@ For plan participants, their weekly digest includes an additional section, such 
 
 However, people who are also using the [MyAnalytics Focus plan](../MyAnalytics/use/focus-plan.md) will not see this additional Plans section in their weekly digest. They will only see a weekly Focus digest (instead of a rotating digest) that shows updates about their focus plan.
 
-![Weekly digest](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
+![Weekly digest.](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
 
 <!--  THIS SECTION CAN DESCRIBE THE EXCEPTION CAUSE BY "ADAPTIVE" AFTER WE GET THAT WORDING FROM PM. (PER PRAMOD, HELEN)
 > [!Note] 

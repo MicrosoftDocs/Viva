@@ -104,7 +104,7 @@ See [Register an application with the Microsoft identity platform](/graph/auth-r
 
 9. Select the **Web App service UI** > **API permissions**, confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed, as shown in the graphic.
 
-    ![Azure AD API permissions](./images/aad-permissions.png)
+    ![Azure AD API permissions.](./images/aad-permissions.png)
 
 10. Select **Add a permission** > **APIs my organization uses**, and then search for and select the **Web App service API** (for example: wpaapps202011-api).
 11. Select **Delegated permissions**, select **user_impersonation**, and then select **Add permissions**.
@@ -151,22 +151,22 @@ See [Register an application with the Microsoft identity platform](/graph/auth-r
     >[!Important]
     >You must save this deployment link because you and the other users you add need the link to configure and use the templates.
 
-    ![Azure Templates deployment](./images/deployed-website-link.png)
+    ![Azure Templates deployment.](./images/deployed-website-link.png)
 
 13. If you registered the apps before deployment, go back and [configure the registered apps in Azure AD](#to-configure-the-registered-apps). Otherwise, proceed to the next steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export).
 
 ## Generate SAS URI for data export
 
-After deployment, you need to create a write-only SAS URI on the raw data container in the storage account created during the deployment. The SAS URI is given to the Workplace Analytics admin to configure the weekly automated data access feed that is required to drive a few of the Azure Templates.
+After deployment, you need to create a write-only SAS URI on the raw data container in the storage account created during the deployment. The SAS URI is given to the Workplace Analytics admin to configure data exports that are required by some of the templates.
 
 1. Use Storage Explorer (or Storage Explorer (preview) web) application to view the raw data container in the storage account created during deployment.
 2. Right-click the **rawdata** folder and select **Get Shared Access Signature**.
 3. In **Shared Access Signature**, select an expiration time.
 4. In **Permissions**, confirm only **Write** is selected, and then select **Create**.
 5. For the URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
-6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [automatic data exports](data-export.md#automate-exports-to-azure).
+6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [data exports](data-export.md).
 
-    ![Example SAS URI](./images/example-sas-uri.png)
+    ![Example SAS URI.](./images/example-sas-uri.png)
 
 ## Add users and assign roles
 
@@ -208,7 +208,7 @@ As the Azure Templates Admin, you can use the Admin page to manage security, pri
 2. Select **Admin** > **User Management** > **Add New User**.
 3. Type the email address for the new user and select the applicable role for this user, as shown in the following graphic.
 
-    ![Add Workplace Analytics users](./images/add-user.png)
+    ![Add Workplace Analytics users.](./images/add-user.png)
 
 4. In **Scenarios**, select the applicable templates for which the user needs access. Users can only access and use templates that are selected from this list.
 
@@ -218,11 +218,11 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 1. In Azure Resource groups, locate the folder that the deployment just created. The new resource group name begins with **wpaappsrg** and includes the deployment date and time, as shown in the following graphic.
   
-    ![Workplace Analytics Resource group](./images/resource-group-a.png)
+    ![Workplace Analytics Resource group.](./images/resource-group-a.png)
 
     The new storage group contains a **rawdata** folder, as shown in the following graphic.
 
-    ![Workplace Analytics rawdata folder](./images/rawdata-folder.png)
+    ![Workplace Analytics rawdata folder.](./images/rawdata-folder.png)
 
 2. Confirm that the following .csv files are in the new **rawdata** folder:
 
@@ -235,7 +235,7 @@ After adding users, you need to process the Workplace Analytics data that you wa
 
 3. In the Workplace Analytics Azure Templates app, select **Admin** > **Scenario Execution**, select the **rawdata** folder, and then select **Process data**.
 
-   ![Process Rawdata in Workplace Analytics](./images/rawdata-folder-n.png)
+   ![Process Rawdata in Workplace Analytics.](./images/rawdata-folder-n.png)
 
 ## Incoming data
 
@@ -260,7 +260,7 @@ Before creating analysis, you need to upload the exported CRM data (.csv) data f
 
 1. In Workplace Analytics Azure Templates, select **Account Mapping** > **Add New Mapping** (at top right) to upload a new set of files for customer accounts and contacts.
 
-    ![Add a new account mapping](./images/account-mapping.png)
+    ![Add a new account mapping.](./images/account-mapping.png)
 
 2. In **Name the Account mapping**, enter a friendly name for the mapping file.
 3. In **Specify your CRM source**, select the CRM source for your accounts and contacts.
@@ -275,19 +275,19 @@ The following are examples of what the .csv file formats for accounts and contac
 
 #### Dynamics accounts
 
-![File format for Dynamics accounts](./images/ri-dynamics-accounts.png)
+![File format for Dynamics accounts.](./images/ri-dynamics-accounts.png)
 
 #### Dynamics contacts
 
-![File format for Dynamics contacts](./images/ri-dynamics-contacts.png)
+![File format for Dynamics contacts.](./images/ri-dynamics-contacts.png)
 
 #### Salesforce accounts
 
-![File format for Salesforce accounts](./images/ri-salesforce-accounts.png)
+![File format for Salesforce accounts.](./images/ri-salesforce-accounts.png)
 
 #### Salesforce contacts
 
-![File format for Salesforce contacts](./images/ri-salesforce-contacts.png)
+![File format for Salesforce contacts.](./images/ri-salesforce-contacts.png)
 
 ## Audit logs
 

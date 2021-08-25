@@ -40,19 +40,19 @@ Any time you want, you can start a guided meditation that's been designed for th
 
 1. Open the **Home** page of Microsoft Viva Insights:
 
-   ![Home page with Headspace](images/home-page-with-headspace.png)
+   ![Home page with Headspace.](images/home-page-with-headspace.png)
 
 2. To start the Headspace exercise, select the 'Play' button on the **Headspace** card:
 
-   ![Headspace card](images/headspace-card-65.png)
+   ![Headspace card.](images/headspace-card-65.png)
 
-<!-- ![Headspace is running](images/in-headspace.png) -->
+<!-- ![Headspace is running.](images/in-headspace.png) -->
 
 3. (Optional) Browse through a curated set of meditations that are designed to fit different scenarios within the flow of your day. To see your options, open the **Practice mindfulness** page by selecting **More mindfulness exercises**.
 
 4. Under **Practice mindfulness**, select a meditation option in the **Guided meditations** area or a musical option in the **Focus music** area:
 
-   ![Mindfulness option is running](images/mindful-options.png)
+   ![Mindfulness option is running.](images/mindful-options.png)
 
 ## Run Headspace in the background
 
@@ -64,7 +64,7 @@ You can open and run Viva Insights in a new window. This lets you play Headspace
 
 3. Select **Pop out app**.
 
-   ![Pop-out Headspace app](images/to-pop-out-2.png)
+   ![Pop-out Headspace app.](images/to-pop-out-2.png)
 
    This opens a new window in which the Insights app is running.
 

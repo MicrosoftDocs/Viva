@@ -147,31 +147,31 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 
 2. Under **Select metrics**, select **Emails sent**:
 
-   ![Select emails sent](../images/wpa/use/emails-sent.png)
+   ![Select emails sent.](../images/wpa/use/emails-sent.png)
 
 3. Select edit (the pencil icon):
 
-   ![Select pencil to edit](../images/wpa/use/emails-sent-edit-pencil.png)
+   ![Select pencil to edit.](../images/wpa/use/emails-sent-edit-pencil.png)
 
 4. Under **Emails sent where**, select **Add filter** and then select **Email**:
 
-   ![Select email](../images/wpa/use/add-filter-email.png)
+   ![Select email.](../images/wpa/use/add-filter-email.png)
 
 5. Next to **Email's**, select **Time of day**:
 
-   ![Select time of day](../images/wpa/use/email-sent-time-of-day.png)
+   ![Select time of day.](../images/wpa/use/email-sent-time-of-day.png)
 
 6. In the adjacent fields, select "<" (before) and specify 7:00 PM.
 
-   ![Sent before 7:00 PM](../images/wpa/use/sent-before-7pm.png)
+   ![Sent before 7:00 PM.](../images/wpa/use/sent-before-7pm.png)
 
 7. You have now filtered your base metric. You can optionally change the display name of this new filtered metric. In the field under **Display Name**, change **Emails sent** to **Emails sent before 7 PM** and then click outside the field to save the new name:
 
-   ![Edit the metric name](../images/wpa/use/edit-metric-name.png)
+   ![Edit the metric name.](../images/wpa/use/edit-metric-name.png)
 
    After you run the query, the edited metric name will appear as a header in the query results:
 
-   ![Edited metric name](../images/wpa/use/edited-metric-name.png)
+   ![Edited metric name.](../images/wpa/use/edited-metric-name.png)
 
 ## Related topic
 

@@ -19,7 +19,7 @@ The organizational network analysis (ONA) graphs used for some of the Workplace 
 
 The following is an example of an Employee empowerment graph.
 
-![Employee empowerment graph](../images/wpa/use/ee-ona-graph.png)
+![Employee empowerment graph.](../images/wpa/use/ee-ona-graph.png)
 
 ## Nodes
 

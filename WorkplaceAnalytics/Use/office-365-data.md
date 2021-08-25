@@ -18,7 +18,7 @@ audience: Admin
 
 As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-![Sources](../images/WpA/Use/sources-365.png)
+![Sources.](../images/WpA/Use/sources-365.png)
 
 **Office 365 data** includes the following:
 
@@ -35,7 +35,7 @@ As an admin or an analyst, you can use this page to confirm that your Office 365
 
 Hover your cursor over the chart data to get more details and use the chart legend to change what data (meetings, email, instant messages, and calls) the chart shows.
 
-  ![Office 365 data sources chart data](../images/wpa/use/measured-collab.png)
+  ![Office 365 data sources chart data.](../images/wpa/use/measured-collab.png)
 <!--
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
@@ -47,11 +47,11 @@ In **Sources** > **Office 365 data**, you can see the current count of three cat
 
 Determining the origins of data also determines how to categorize it, as shown in the following flow chart.
 
-  ![Origin of data counts](../images/wpa/use/data-sources-final.png)
+  ![Origin of data counts.](../images/wpa/use/data-sources-final.png)
 
 The following shows where each appears in **Office 365 data**.
 
-  ![Office 365 data sources page info](../images/wpa/use/data-sources-relate.png)
+  ![Office 365 data sources page info.](../images/wpa/use/data-sources-relate.png)
 
 ## Possible causes of inconsistent data
 

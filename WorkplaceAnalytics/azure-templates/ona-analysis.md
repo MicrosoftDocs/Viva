@@ -35,7 +35,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
    * **Internal Collaboration** - All internal collaboration activity as specified for this analysis.
    * **Internal and External Collaboration** - Analyzes your internal organization's interactions with specified external domains or accounts in addition to analyzing internal collaboration activity.
 
-   ![Add a new ONA dataset](./images/ona-new-dataset.png)
+   ![Add a new ONA dataset.](./images/ona-new-dataset.png)
 
 5. If you selected **Internal Collaboration**, skip to the next step. For external collaboration, you can specify an [Account Mapping File](deploy-configure.md#account-mapping) if you want to select friendly account names instead of account domains. Then in **Select External Collaborators**, select up to five accounts or domains to include in this analysis.
 6. In **Select the Grouping Attributes**, select the internal attributes you want to analyze in the graph. The available attributes match up to the HR attributes included in the imported [organizational data](../setup/prepare-organizational-data.md#attribute-reference) from Workplace Analytics.
@@ -58,7 +58,7 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 1. After the dataset successfully loads, select it from the list, and then select **Preliminary analysis**, which the template creates by default as a starting dataset.
 2. In **Define Graph Settings** > **Choose Attribute to Group By**, select what HR attribute to use for the combined or grouped view. Optionally, you can select **On** for  **Advanced Mode** and select an **IF**/**ELSE** for selecting how to group the specified group nodes in the graph. For example, to group internal and external people differently in the graph.
 
-   ![Add New Analysis](./images/ona-new-graph.png)
+   ![Add New Analysis.](./images/ona-new-graph.png)
 
 3. In **Chose Attribute to Color By**, select what HR attribute you want that represents the node colors in the graph. Optionally, you can select **On** for  **Advanced Mode** and select an **IF**/**ELSE** for the color by attributes in the graph for the different groups.
 
@@ -90,18 +90,18 @@ To focus your analysis on specific subgroups or compare graphs from different ti
 
    Option |Name |Description
    ------------|--------------|------------
-   ![ONA no measure](./images/ona-no-measure.png)| No Measure | Changes how the data is measured and shown in the graph based on the Node Size option you select.|
-   ![ONA legend](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of nodes and their colors based on the graph settings or view selections.|
-   ![ONA link color](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.|
-   ![ONA dataset parameters](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.|
-   ![ONA network view](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don't want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
-   ![ONA combined view](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType. Optionally, select On for Advanced Mode to see advanced IF/ELSE filter options for grouping the nodes for the selected view, which also enables you to not group selected nodes.|
-   ![OnA change color nodes](./images/ona-color-icon.png) | Change Node Colors | Select to change the color of the nodes shown in the graph. You can select to group the node colors by a specific attribute or metric. Optionally, select On for Advanced Mode to see advanced IF/ELSE filter options for colors or to customize colors.|
-   ![ONA change settings](./images/ona-settings.png) | Change Settings |Select if the link lines scale the thickness or color darkness based on total time spent between groups. You can also use this to turn tool tips on or off. For some views, you can also select to turn on or off node titles.|
-   ![ONA filter](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.|
-   ![ONA download table](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).|
-   ![ONA save graph](./images/ona-save.png) | Save graph |Choose to save this graph as shown to load and view later.|
-   ![ONA recompute](./images/ona-recompute-icon.png) | Recompute Metrics |This only appears if the analysis is filtered by HR attributes. Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).|
+   ![ONA no measure.](./images/ona-no-measure.png)| No Measure | Changes how the data is measured and shown in the graph based on the Node Size option you select.|
+   ![ONA legend.](./images/ona-legend.png)| Show or Hide Legend  | Opens or closes the legend of nodes and their colors based on the graph settings or view selections.|
+   ![ONA link color.](./images/ona-link-color.png) | Link Color |Select a different color for the line links shown in the graph.|
+   ![ONA dataset parameters.](./images/ona-dataset-parameters.png) | Dataset Parameters |Choose to view the network parameter details that you set for the selected dataset.|
+   ![ONA network view.](./images/ona-network-icons-4.png)| Network View  | Changes how the graph shows the network, which you can view in the following layouts. Note that this option is unavailable when the number of graph nodes exceeds the values set by your admin: <ul><li> Force-directed - Assigns forces among the set of edges and nodes, so they overlap as little as possible and are distributed evenly. This is a good overall view for any kind or size  of data and is useful for finding patterns and symmetries. </li><li> Organic - Spreads nodes and links apart, so multiple components are laid out with larger components in the center to help reveal underlying structures.  </li><li> Tweak - Tries to keep nodes where they are when changing measures or other graph options. This is useful for dynamic and evolving data where you don't want to rearrange the whole network or lose your mental data map for small changes.</li></ul>|
+   ![ONA combined view.](./images/ona-combined-view-icon.png) |Combined or Grouped View | Change the graph view to Combined or Grouped View, which prompts you to select an HR attribute metric to display the nodes for, such as FunctionType. Optionally, select On for Advanced Mode to see advanced IF/ELSE filter options for grouping the nodes for the selected view, which also enables you to not group selected nodes.|
+   ![OnA change color nodes.](./images/ona-color-icon.png) | Change Node Colors | Select to change the color of the nodes shown in the graph. You can select to group the node colors by a specific attribute or metric. Optionally, select On for Advanced Mode to see advanced IF/ELSE filter options for colors or to customize colors.|
+   ![ONA change settings.](./images/ona-settings.png) | Change Settings |Select if the link lines scale the thickness or color darkness based on total time spent between groups. You can also use this to turn tool tips on or off. For some views, you can also select to turn on or off node titles.|
+   ![ONA filter.](./images/ona-filter-icon.png) | Filter by HR attributes |Changes the filters that show in the rendered graph. This doesn't change the dataset filters or recalculate the dataset metrics. If you want to calculate new metrics for a subset, you must create a new subset of the dataset.|
+   ![ONA download table.](./images/ona-table-icon.png) | Download as Table |Choose to download the data shown in the graph as a table (.csv file).|
+   ![ONA save graph.](./images/ona-save.png) | Save graph |Choose to save this graph as shown to load and view later.|
+   ![ONA recompute.](./images/ona-recompute-icon.png) | Recompute Metrics |This only appears if the analysis is filtered by HR attributes. Choose to create new subgroup analysis that recalculates the data values with the applied filters. For more details, see [To add subgroup analysis](#to-add-new-subgroup-analysis).|
 
 ## To add new subgroup analysis
 
@@ -114,7 +114,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
 
 2. In the **Add New Analysis** pane, enter a name for this subgroup analysis, and then select a start and end date for the time range to analyze.
 
-   ![Add New Subgroup Analysis](./images/ona-subgroup-analysis.png)
+   ![Add New Subgroup Analysis.](./images/ona-subgroup-analysis.png)
 
 3. Optionally, in **Specify the Network Boundary Condition**, you can select either single or multiple network boundaries and applicable HR attributes. With multiple boundaries, you can only select one HR attribute. If you want to analyze more, create new analysis for each.
 
@@ -150,7 +150,7 @@ Subgroup analysis enables you to compare or focus your analysis on specific subg
      >[!Important]
      >When you calculate metrics in a **Download interaction matrix** file, know that your calculations might be different than the metrics calculated in a group-level download file. These differences occur because a person's HR attribute values can change over time and the calculations in the different downloads only use a snapshot of the latest available HR values.
 
-   ![Organizational Network Analysis](./images/ona-analysis.png)
+   ![Organizational Network Analysis.](./images/ona-analysis.png)
 
 ## Node Measures
 
@@ -160,7 +160,7 @@ The node measures for employees are de-identified to maintain their privacy. Gro
 
 You can size the nodes and connections based on what you want to highlight by using the Scale Nodes option (No Measure by default) at the top. The following shows the measure options available for the *Combined or Grouped View* of the graph, which include *Density* and *Group Size* as an additional Scale Node options that are only available in this view.
 
-![Combined or Grouped View measures](./images/ona-node-measures.png)
+![Combined or Grouped View measures.](./images/ona-node-measures.png)
 
 ### Boundary Spanning
 

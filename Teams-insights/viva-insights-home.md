@@ -16,7 +16,7 @@ audience: Admin
 
 Select **Insights** on the app bar of Microsoft Teams to open the Home page of the Microsoft Viva Insights app:  
 
-![Home (morning)](images/home-page-with-headspace.png)
+![Home (morning).](images/home-page-with-headspace.png)
 
 The Home page makes it easy to start the other features of the Viva Insights app. You can reach some features in the menu bar and others in the main area of the page:
 
@@ -52,11 +52,11 @@ On the Home page, the card in the upper left alerts you in various ways. It chan
 
 <!-- THE LINK IN THE PRECEDING PARAGRAPH NEEDS TO GO HERE. NOTE THE ANCHOR: configured in MyAnalytics](../WorkplaceAnalytics/MyAnalytics/Use/use-the-insights.md#set-lunch-hours) WHICH REPLACED https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#set-lunch-hours -->
 
-![Lunch approaching](images/lunch-break.png)
+![Lunch approaching.](images/lunch-break.png)
 
 The card's color changes to alert you of other events, such as scheduled focus time, meetings, and even the switch from morning to afternoon and the approach of the end of your scheduled workday or [Virtual commute]():
 
-![Virtual commute](images/virtual-commute.png)
+![Virtual commute.](images/virtual-commute.png)
 
 ## Mindfulness content from Headspace
 

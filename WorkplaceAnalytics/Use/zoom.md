@@ -21,7 +21,7 @@ This integration tool enables you to analyze unscheduled collaboration that occu
 
 This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
-![Zoom Power BI dashboard settings](../images/wpa/use/zoom-pbi-settings.png)
+![Zoom Power BI dashboard settings.](../images/wpa/use/zoom-pbi-settings.png)
 
 ## Ways of working assessment demo
 
@@ -59,18 +59,18 @@ The following is required before setting up the Zoom integration tool:
 1. **Install R for Windows** - Ask your Zoom admin and Workplace Analytics analyst to install [R for Windows](https://cloud.r-project.org/bin/windows/). If necessary, ask IT for permissions to install R for Windows.
 2. **Download the Zoom analyst integration** - Ask your Workplace Analytics analyst to download the [Zoom analyst integration package](https://github.com/microsoft/vivainsights_zoom_int) and extract it to a local folder, which uses the following folder structure.
 
-   ![Zoom analyst integration folder structure](../images/wpa/use/zoom-analyst-folder.png)
+   ![Zoom analyst integration folder structure.](../images/wpa/use/zoom-analyst-folder.png)
 
 3. **Download the Zoom admin integration** - Ask your Zoom admin to download the [Zoom admin integration package](https://github.com/microsoft/vivainsights_zoom_int) and extract it to a local folder, which has the following folder structure.
 
-   ![Zoom admin integration folder structure](../images/wpa/use/zoom-admin-folder.png)
+   ![Zoom admin integration folder structure.](../images/wpa/use/zoom-admin-folder.png)
 
 4. **Prepare a mapping file** - The Zoom report data that's downloaded from the Zoom admin portal will include identifiable data about employees (email IDs). Before the metrics can be computed and shared with a Workplace Analytics analyst, the information must be de-identified.
 
    1. The Zoom admin must replace each **email ID** with a **unique random ID** that's specified by the Workplace Analytics Admin.
    2. Then the Workplace Analytics Admin must create a mapping file that maps a unique random ID (**HashID**) to each email address (**PersonID**) for each of the licensed employees in the company who are included in the analysis. Save this mapping file as a .csv file with the following headers and share it with the Zoom admin for de-identification.
 
-      ![Zoom mapping file sample data](../images/wpa/use/zoom-mapping-file.png)
+      ![Zoom mapping file sample data.](../images/wpa/use/zoom-mapping-file.png)
 
    >[!Important]
    >You must save the mapping file as a .csv (not as an .xls or .xlsx file) with "mapping file" included in the file name.
@@ -87,7 +87,7 @@ The following is required before setting up the Zoom integration tool:
    3. Select **Meetings** > **Generate details report**. If you need more than one month of data, repeat these steps for prior months. Each report takes 1 to 2 hours to download.
    4. Save the downloaded reports in your **Zoom integration**/**Admin**/**input**/**zoom_reports** folder.
 
-   ![Zoom example report files](../images/wpa/use/zoom-reports.png)
+   ![Zoom example report files.](../images/wpa/use/zoom-reports.png)
 
    5. Save the mapping file from your Workplace Analytics Admin in your **Zoom integration**/**Admin**/**input** folder.
 
@@ -95,8 +95,8 @@ The following is required before setting up the Zoom integration tool:
 
    1. Follow the steps in [Ways of working assessment](../tutorials/power-bi-collab-assess.md) and [Standard meeting query](../tutorials/query-basics.md#query-templates) to create the applicable query data. When running the results, use the same date range as the Zoom data that was uploaded in **Step 5** and include the **TimeZone** and **PersonHashID** organizational data attributes.
 
-      ![Required query data](../images/wpa/use/zoom-query-data.png)
-      ![HR attributes required for the results](../images/wpa/use/zoom-hr-attributes.png)
+      ![Required query data.](../images/wpa/use/zoom-query-data.png)
+      ![HR attributes required for the results.](../images/wpa/use/zoom-hr-attributes.png)
 
    2. Download the query results (.csv) to the **Zoom integration**/**Analyst**/**input** folder.
 
@@ -134,7 +134,7 @@ Your Workplace Analytics analyst needs to do the following to import the combine
 
 1. In the **Analyst**/**output** folder, double-click **WOW_Zoom_Integration.pbit** to run the template.
 
-   ![Zoom Ways of working assessment template](../images/wpa/use/zoom-pbi-template.png)
+   ![Zoom Ways of working assessment template.](../images/wpa/use/zoom-pbi-template.png)
 
 2. When prompted by Power BI, copy and paste the file path for the **Zoom Transformed Person Query** and **Standard meeting query** in the **Analyst/output** folder. To copy it, right-click the file, select **Properties** > **Security**, and then select and copy the file path for the **Object's name**.
 3. Where prompted, copy and use the **SupervisorIndicator** column name from the **Zoom Transformed Person Query** file.
