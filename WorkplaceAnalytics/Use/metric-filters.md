@@ -24,7 +24,7 @@ After you select a metric for a query, you can narrow the focus of that metric b
 | ------ | ----------- |
 | Day of week | The day of the week during which the call was placed |
 | Duration (in hours)  | The amount of time, in hours, that the call lasted |
-| Included multitasking | Filters the call count to only count activity during which the person sent one or more emails or instant messages, excluding instant messages sent within the related Teams meeting chat room during the meeting or call. |
+| Included multitasking | Filters the call counts to only count activity during which the person sent one or more emails or instant messages, excluding instant messages sent within the related Teams meeting chat room during the meeting or call. |
 | Is organizer  | True means that this person initiated the call; <br>False means that this person did not initiate the call. |
 | IsScheduledCall  | True means that this call is scheduled on someone's Outlook calendar; <br>False means that this call is not scheduled on any person's Outlook calendar. |
 | Time of day started &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | The time of day that the call began |
