@@ -23,14 +23,13 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 ## Why don't I see any inline suggestions?
 
-Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place:
+Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place on your computer:
 
-* You have Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
+* Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
+* Outlook Insights add-in version 3.0.0.0 or higher. To check the installed version of the add-in, see [Exchange admin center](/exchange/architecture/client-access/exchange-admin-center.md). The add-in is installed at the tenant level, after which it can take up to eight days for the upgrade to propagate to all users. If you notice that the proper add-in version isn't installed in Outlook, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
 
 In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
-
-Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 
 >[!Note]
 >Inline suggestions are not available on mobile devices.
