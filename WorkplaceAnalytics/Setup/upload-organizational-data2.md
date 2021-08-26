@@ -57,7 +57,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
    >[!Important]
    >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to permanently replace it with new employee data.
 
-   ![Upload options.](../images/wpa/setup/upload-org-data2.png)
+   ![Upload options.](../images/wpa/setup/upload-options.png)
 
 7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following _important upload considerations_:<a name="important-upload-considerations"></a>
 
