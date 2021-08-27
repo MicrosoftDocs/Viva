@@ -170,8 +170,8 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
    * Contacts
    * Seller assignments
 
-   >[!Tip]
-   >For the first upload, limit it to Accounts and Contacts only. Seller assignments adds a higher level of complexity for validation.
+   > [!Tip]
+   > For the first upload, limit it to Accounts and Contacts only. Seller assignments adds a higher level of complexity for validation.
 
 5. In the **Select file** section, select the source (.csv) file that corresponds with the data type selected in the previous step. You can select **Download a .csv template** to help with file requirements.
 6. Select **More options** to change the default append option to the delete and add new option:
