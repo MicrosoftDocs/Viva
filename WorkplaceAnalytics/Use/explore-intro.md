@@ -5,7 +5,7 @@ description: Describes the analytical Explore the stats data in Workplace Analyt
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

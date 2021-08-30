@@ -5,7 +5,7 @@ description: Learn how to assign roles to people who want to view Microsoft 365 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none 
+ms.localizationpriority: null 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

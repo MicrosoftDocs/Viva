@@ -5,7 +5,7 @@ description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose issues
 author: madehmer
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

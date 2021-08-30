@@ -6,7 +6,7 @@ description: About Workplace Analytics Azure Templates and how to use it for adv
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

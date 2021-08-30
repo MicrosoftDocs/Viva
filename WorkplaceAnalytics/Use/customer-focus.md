@@ -5,7 +5,7 @@ description: Learn how to use Workplace Analytics data to analyze and increase c
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

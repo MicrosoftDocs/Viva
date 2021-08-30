@@ -5,7 +5,7 @@ description: Leaders use this dashboard to learn about their relationships with 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: priority 
+ms.localizationpriority: high 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
