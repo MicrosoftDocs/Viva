@@ -5,7 +5,7 @@ description: How MyAnalytics use of data protects user privacy
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

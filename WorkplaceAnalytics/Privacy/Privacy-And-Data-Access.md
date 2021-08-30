@@ -5,7 +5,7 @@ description: Discusses the privacy and data access controls available in Workpla
 author: paul9955
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150 
 ms.prod: wpa

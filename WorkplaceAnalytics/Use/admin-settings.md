@@ -4,7 +4,7 @@ description: Describes Admin settings that only administrators can configure and
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

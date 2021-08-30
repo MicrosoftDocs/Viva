@@ -4,7 +4,7 @@ description: Learn how to use the Briefing email to schedule time to focus, catc
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

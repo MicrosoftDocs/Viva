@@ -5,7 +5,7 @@ description: Peer comparison queries -- what they are, how to create them, how t
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

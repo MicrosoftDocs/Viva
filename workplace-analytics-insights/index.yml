@@ -8,7 +8,7 @@ metadata:
  ROBOTS: NOINDEX,NOFOLLOW
  title: Microsoft 365 Insights
  description: Unleash your most powerful dataset by using insights from everyday work in Microsoft 365.
- localization_priority: none
+ ms.localizationpriority: null
  ms.prod: wpa
  author: madehmer
  ms.author: v-mideh

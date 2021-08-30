@@ -5,7 +5,7 @@ description: Configuration options that Microsoft 365 administrators can make fo
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

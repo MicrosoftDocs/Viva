@@ -6,7 +6,7 @@ description: Description of partitions plus how to use and set up partitions in 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
