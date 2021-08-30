@@ -1,5 +1,4 @@
 ---
-
 title: Explore meetings overview data in Workplace Analytics
 description: Overview of meetings data in Workplace Analytics
 author: madehmer
@@ -79,9 +78,9 @@ Each duration segment in the chart shows the total time a person spent in meetin
 * Senior-level managers may be better off by delegating meeting attendance.
 * As a sign of career development, redundancy should diminish with tenure.
 
-## Multitasking meeting hours
+## Multitasking hours
 
-**Multitasking meeting hours** shows the number of meeting hours where the person sent two or more emails per meeting hour, or two or more emails per meeting for meetings less than an hour.
+**Multitasking meeting hours** shows the number of meeting hours where the person sent two or more emails for each hour of the meeting. If less than one hour in length, the calculation is two or more emails sent during the meeting. **Multitasking hours** shows the number of hours the person spent sending emails or instant messages during a meeting or a Teams call.
 
 ![Multitasking meeting hours.](../images/wpa/use/10-multitasking-meeting-hours.png)
 
