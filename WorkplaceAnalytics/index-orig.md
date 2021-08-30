@@ -1,7 +1,7 @@
 ---
 title: Workplace Analytics introduction
 description: Learn about, set up, and use Workplace Analytics
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 author: paul9955
 ms.author: v-mideh

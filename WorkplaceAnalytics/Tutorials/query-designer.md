@@ -5,7 +5,7 @@ description: The Query designer in Workplace Analytics offers predefined Templat
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

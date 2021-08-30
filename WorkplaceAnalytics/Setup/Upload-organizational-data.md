@@ -5,7 +5,7 @@ description: How to upload data from your organization to Workplace Analytics. F
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

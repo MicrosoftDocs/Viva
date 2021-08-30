@@ -4,7 +4,7 @@ description: Use the Manager effectiveness dashboard to visualize predefined dat
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

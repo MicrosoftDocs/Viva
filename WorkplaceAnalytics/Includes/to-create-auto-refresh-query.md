@@ -5,7 +5,7 @@ description: How to create an auto-refresh query with Workplace Analytics.
 author: paul9955
 ms.author: v-mideh
 ms.topic: include
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ---
 

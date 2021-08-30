@@ -1,7 +1,7 @@
 ---
 title: Workplace Analytics Power BI dashboard demos
 description: See demonstrations of the Power BI dashboards available in Workplace Analytics 
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer

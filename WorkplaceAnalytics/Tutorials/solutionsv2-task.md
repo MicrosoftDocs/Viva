@@ -5,7 +5,7 @@ description: A walkthrough of the steps required to create a plan in Workplace A
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa

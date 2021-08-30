@@ -5,7 +5,7 @@ description: Learning materials that help you understand how to best adopt and u
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

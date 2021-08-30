@@ -4,7 +4,7 @@ description: Describes the filters that analysts can use to refine metrics in qu
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa

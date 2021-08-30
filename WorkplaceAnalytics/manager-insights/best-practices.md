@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Workplace Analytics best practices for managers
 description: Learn what more about the best practices for managers that can help you improve how you and your team get work done
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer

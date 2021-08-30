@@ -5,7 +5,7 @@ description: Learn about the Microsoft Viva Insights (personal insights) app.
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

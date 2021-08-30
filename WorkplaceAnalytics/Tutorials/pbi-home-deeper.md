@@ -5,7 +5,7 @@ description: Learn how to use Power BI to deep dive into insights about your org
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

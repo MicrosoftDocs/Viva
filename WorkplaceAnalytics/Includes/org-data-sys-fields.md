@@ -5,7 +5,7 @@ description: Tables that are used for mapping the system fields.
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ---
 
