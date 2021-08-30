@@ -5,7 +5,7 @@ description: Learn some tips, troubleshooting, and answers to the FAQ about sett
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

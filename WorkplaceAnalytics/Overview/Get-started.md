@@ -5,7 +5,7 @@ description: High-level overview of ways to use Workplace Analytics to analyze d
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

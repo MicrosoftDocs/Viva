@@ -5,7 +5,7 @@ description: Information about the MyAnalytics personal dashboard, Outlook add-i
 author: madehmer
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

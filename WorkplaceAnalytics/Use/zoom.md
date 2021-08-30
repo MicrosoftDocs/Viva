@@ -5,7 +5,7 @@ description: Learn how to use the Workplace Analytics Zoom integration for inclu
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

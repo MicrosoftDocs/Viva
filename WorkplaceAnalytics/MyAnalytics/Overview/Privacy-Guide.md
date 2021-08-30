@@ -5,7 +5,7 @@ description: Overview of MyAnalytics privacy features, including info about data
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: priority 
+ms.localizationpriority: high 
 search.appverid:
 - MET150
 ms.prod: Mya

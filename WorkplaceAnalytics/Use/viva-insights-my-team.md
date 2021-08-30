@@ -5,7 +5,7 @@ description: The My Team page in the Microsoft Viva Insights app
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

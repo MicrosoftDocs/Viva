@@ -6,7 +6,7 @@ description: Describes common terms and concepts used in Microsoft 365 Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none 
+ms.localizationpriority: null 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

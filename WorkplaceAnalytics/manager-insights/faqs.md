@@ -4,7 +4,7 @@ description: Most commonly asked questions and their answers about My team insig
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal
+ms.localizationpriority: medium
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

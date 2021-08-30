@@ -5,7 +5,7 @@ description: Steps to set up Microsoft 365 Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: none
+ms.localizationpriority: null
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

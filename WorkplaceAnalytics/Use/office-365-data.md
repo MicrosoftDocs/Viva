@@ -5,7 +5,7 @@ description: What's available on the Office 365 data sources page in Workplace A
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

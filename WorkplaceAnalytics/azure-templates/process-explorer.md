@@ -6,7 +6,7 @@ description: Learn about the Process Explorer Azure Template for Workplace Analy
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid: 
 - MET150
 ms.prod: wpa

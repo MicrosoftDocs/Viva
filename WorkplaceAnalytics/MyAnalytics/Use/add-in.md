@@ -4,7 +4,7 @@ description: All the individual Outlook Add-in topics, displayed as one in MyAna
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: priority 
+ms.localizationpriority: high 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

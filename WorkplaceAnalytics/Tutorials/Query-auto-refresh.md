@@ -5,7 +5,7 @@ description: Describes the query auto-refresh option in Workplace Analytics
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

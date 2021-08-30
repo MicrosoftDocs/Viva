@@ -5,7 +5,7 @@ description: Describes the metrics for queries that are available in Workplace A
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa

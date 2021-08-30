@@ -6,7 +6,7 @@ description: How to format .xlsx files and .csv files for uploading in Workplace
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
