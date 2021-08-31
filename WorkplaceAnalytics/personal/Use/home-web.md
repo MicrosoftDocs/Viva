@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Viva Insights web app
-description: Use the dashboard for the Microsoft Viva Insights web experience
+title: Viva Insights web Home page
+description: Use the dashboard for the Microsoft Viva Insights cloud-based experience
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,15 +11,15 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Viva Insights dashboard
+# Viva Insights Home
 
 *This experience is only available through private preview at this time to users with a Microsoft Viva Insights or MyAnalytics service plan.*
 
-Thank you for trying the new Microsoft Viva Insights web app. Welcome to your new personalized dashboard with valuable recommendations to help you do your best work.
+Thank you for trying the new Microsoft Viva Insights app. Welcome to your new personalized Home page with valuable recommendations to help you do your best work.
 
-**To open the dashboard**
+**To open the cloud-based Home page**
 
-Go to [insights.viva.office.net](https://insights.viva.office.net) to open your Viva Insights personal dashboard.
+Go to [insights.viva.office.net](https://insights.viva.office.net) to open your Viva Insights personal Home page.
 
 ![Viva Insights web app home page](../../Images/mya/use/web-home.png)
 
@@ -37,7 +37,7 @@ With Viva Insights, you can:
 
 ## Privacy
 
-Only you can see your data. The same privacy protections used for your personal insights in Viva Insights in Microsoft Teams apply to this dashboard. See [Privacy guide](/insights/viva-teams-app-privacy) for details.
+Only you can see your data. The same privacy protections used for your personal insights in Viva Insights in Microsoft Teams apply to this Home page. See [Privacy guide](/insights/viva-teams-app-privacy) for details.
 
 ## Config Settings
 
@@ -51,13 +51,13 @@ You can also select to automatically book focus time or only get reminders to sc
 
 Your experience rating and feedback about Viva Insights is important to us. If you think of a new feature or enhancement:
 
-1. Open your [Viva Insights dashboard](https://insights.viva.office.net).
+1. Open your [Viva Insights](https://insights.viva.office.com).
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
 ## Opt out
 
-1. Open your [dashboard](https://insights.viva.office.net).
+1. Open [Viva Insights](https://insights.viva.office.com).
 2. Select **Settings**.
 3. Under MyAnalytics, select **Settings**.
 4. For **Dashboard**, set the control to **Off**.
@@ -68,4 +68,4 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 
 ### If I am opted out, can I opt back in?
 
-Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to this dashboard.
+Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to this cloud-based Home page.
