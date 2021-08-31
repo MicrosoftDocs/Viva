@@ -13,13 +13,13 @@ audience: Admin
 
 # Viva Insights Home
 
-*This experience is only available through private preview at this time to users with a Microsoft Viva Insights or MyAnalytics service plan.*
+*This experience is only available through private preview at this time to users with a Microsoft MyAnalytics service plan.*
 
 Thank you for trying the new Microsoft Viva Insights app. Welcome to your new personalized Home page with valuable recommendations to help you do your best work.
 
-**To open the cloud-based Home page**
+**To open your personal Home page**
 
-Go to [insights.viva.office.net](https://insights.viva.office.net) to open your Viva Insights personal Home page.
+Go to [insights.viva.office.net](https://insights.viva.office.net) to open it.
 
 ![Viva Insights web app home page](../../Images/mya/use/web-home.png)
 
@@ -45,27 +45,26 @@ Your personalized insights are based on the working days, working hours, and tim
 
 You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks. For more details, see [Focus plan](/myanalytics/use/focus-plan).
 
-![Config Settings.](../../Images/mya/use/mya-config.png)
+![Config Settings.](../../Images/mya/use/config-settings.png)
 
 ## Your feedback
 
 Your experience rating and feedback about Viva Insights is important to us. If you think of a new feature or enhancement:
 
-1. Open your [Viva Insights](https://insights.viva.office.com).
+1. Open your [Viva Insights Home page](https://insights.viva.office.com).
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
 ## Opt out
 
-1. Open [Viva Insights](https://insights.viva.office.com).
-2. Select **Settings**.
-3. Under MyAnalytics, select **Settings**.
-4. For **Dashboard**, set the control to **Off**.
-5. Select **Save** to save your changes.
+1. Open your [Viva Insights Home page](https://insights.viva.office.com).
+2. Select the **Settings** (gear) icon.
+3. Select **Settings**, and then under **Viva Insights**, select to turn **Off** the **Dashboard** to opt out of the page.
+4. Select **Save** to save your changes.
 
 >[!NOTE]
 >It might take up to 24 hours for your saved changes to take effect.
 
 ### If I am opted out, can I opt back in?
 
-Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to this cloud-based Home page.
+Yes; if you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access to this cloud-based Home page.
