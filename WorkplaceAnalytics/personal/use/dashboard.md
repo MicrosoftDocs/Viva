@@ -7,7 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya
-
+manager: scott.ruble
+audience: Admin
 ---
 
 # Viva Insights dashboard
@@ -63,7 +64,7 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 5. Select **Save** to save your changes.
 
 >[!NOTE]
->It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digests or inline suggestions.
+>It might take up to 24 hours for your saved changes to take effect.
 
 ### If I am opted out, can I opt back in?
 
