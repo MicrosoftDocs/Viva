@@ -47,7 +47,7 @@ You can also select to automatically book focus time or only get reminders to sc
 
 ![Config Settings.](../../Images/mya/use/mya-config.png)
 
-## Feedback
+## Your feedback
 
 Your experience rating and feedback about Viva Insights is important to us. If you think of a new feature or enhancement:
 
