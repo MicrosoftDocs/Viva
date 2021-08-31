@@ -5,7 +5,7 @@ description: About Microsoft 365 Insights to learn how your organization gets wo
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: none 
+ms.localizationpriority: null 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

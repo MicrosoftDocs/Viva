@@ -4,7 +4,7 @@ description: Learn how to set up and use MyAnalytics data, including focus hours
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

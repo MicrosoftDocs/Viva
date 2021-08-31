@@ -5,7 +5,7 @@ description: How to assign Workplace Analytics roles and group permissions in Az
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

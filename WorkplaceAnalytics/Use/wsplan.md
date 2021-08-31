@@ -4,7 +4,7 @@ description: Learn about the Workspace Collaboration Optimizer and how to use it
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

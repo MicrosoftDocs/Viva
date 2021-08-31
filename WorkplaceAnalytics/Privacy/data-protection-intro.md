@@ -5,7 +5,7 @@ description: Summarizes how your data is kept private and protected within Workp
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

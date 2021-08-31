@@ -5,7 +5,7 @@ description: If your query reports cannot be opened properly in Excel because th
 author: paul9955
 ms.author: v-mideh
 ms.topic: troubleshooting
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

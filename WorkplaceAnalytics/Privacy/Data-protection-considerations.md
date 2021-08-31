@@ -4,7 +4,7 @@ description: Data-protection considerations when using Workplace Analytics.
 author: madehmer
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

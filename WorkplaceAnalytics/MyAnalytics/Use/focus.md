@@ -5,7 +5,7 @@ description: Learn how to use MyAnalytics to improve your focus time at work
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

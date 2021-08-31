@@ -4,7 +4,7 @@ description: Group-to-group queries show how a team invested their time across t
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

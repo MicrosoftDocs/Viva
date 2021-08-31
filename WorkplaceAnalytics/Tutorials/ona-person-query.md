@@ -5,7 +5,7 @@ description: Describes how to use Network person queries in Workplace Analytics 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa

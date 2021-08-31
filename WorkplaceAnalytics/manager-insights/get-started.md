@@ -4,7 +4,7 @@ description: Learn how to sign in and use Manager insights in Workplace Analytic
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal
+ms.localizationpriority: medium
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

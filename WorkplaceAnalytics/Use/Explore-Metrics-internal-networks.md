@@ -5,7 +5,7 @@ description: An overview of the internal network collaboration data available in
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

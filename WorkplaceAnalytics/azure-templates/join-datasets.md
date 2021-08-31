@@ -5,7 +5,7 @@ description: Learn about the Join Datasets Azure Template for Workplace Analytic
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

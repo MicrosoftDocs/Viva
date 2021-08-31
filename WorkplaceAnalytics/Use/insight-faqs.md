@@ -5,7 +5,7 @@ description: Most frequently asked questions and answers about Workplace Analyti
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

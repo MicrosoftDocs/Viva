@@ -5,7 +5,7 @@ description: MyAnalytics Team Adoption by Kate Nowak --Plan section
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

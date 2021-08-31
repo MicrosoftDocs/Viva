@@ -5,7 +5,7 @@ description: Admin tasks for keeping Workplace Analytics and the data it uses up
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble

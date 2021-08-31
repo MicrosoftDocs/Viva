@@ -5,7 +5,7 @@ description: Introduction and summary of Workplace Analytics plans
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

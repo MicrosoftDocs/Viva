@@ -5,7 +5,7 @@ description: Frequently asked questions about Workplace Analytics
 author: madehmer
 ms.author: v-pausch
 ms.topic: reference
-localization_priority: normal
+ms.localizationpriority: medium
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble

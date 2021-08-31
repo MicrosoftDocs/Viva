@@ -8,7 +8,7 @@ author: madehmer
 ms.author: v-mideh
 ms.date: 06/13/2019
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

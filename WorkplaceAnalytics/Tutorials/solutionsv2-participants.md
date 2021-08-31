@@ -5,7 +5,7 @@ description: A brief description of what participants in a Workplace Analytics p
 author: madehmer
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa
