@@ -1,8 +1,8 @@
 - name: Viva Insights web app
   expanded: true 
   items: 
-   - name: Viva Insights dashboard
-     href: ./use/dashboard.md
+   - name: Viva Insights Home
+     href: ./use/home-web.md
    - name: Privacy guide
      href: /insights/viva-teams-app-privacy
    - name: FAQ
