@@ -17,7 +17,7 @@ audience: Admin
 
 Thank you for trying the new Microsoft Viva Insights web app. Welcome to your new personalized dashboard with valuable recommendations to help you do your best work.
 
-## To open the dashboard
+**To open the dashboard**
 
 Go to [insights.viva.office.net](https://insights.viva.office.net) to open your Viva Insights personal dashboard.
 
