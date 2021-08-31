@@ -1,0 +1,9 @@
+- name: Viva Insights web app
+  expanded: true 
+  items: 
+   - name: Viva Insights dashboard
+     href: dashboard.md
+   - name: Privacy guide
+     href: ~/Teams-insights/viva-teams-app-privacy.md
+   - name: FAQ
+     href: ~/Teams-insights/viva-teams-app-faq.md 
