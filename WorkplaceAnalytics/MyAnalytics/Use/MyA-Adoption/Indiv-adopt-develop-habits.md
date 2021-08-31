@@ -4,7 +4,7 @@ description: MyAnalytics Individual Adoption by Kate Nowak - Develop new habits 
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

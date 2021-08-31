@@ -5,7 +5,7 @@ description: Learn how to assign licenses through the Microsoft 365 admin center
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none 
+ms.localizationpriority: null 
 search.appverid:
 - MET150
 ms.prod: wpa

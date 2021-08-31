@@ -4,7 +4,7 @@ description: View query results in charts without leaving Workplace Analytics
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

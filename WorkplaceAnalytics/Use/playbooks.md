@@ -2,7 +2,7 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics playbooks
 description: Learn more about how to use Workplace Analytics with the available playbooks
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer
