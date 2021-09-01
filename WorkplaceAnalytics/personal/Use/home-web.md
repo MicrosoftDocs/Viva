@@ -13,13 +13,11 @@ audience: Admin
 
 # Viva Insights Home
 
-*This experience is only available through private preview at this time to users with a Microsoft MyAnalytics service plan.*
+*This experience is only available through private preview at this time to users with a Microsoft MyAnalytics service plan*
 
-Thank you for trying the new Microsoft Viva Insights app. Welcome to your new personalized Home page with valuable recommendations to help you do your best work.
+Thank you for trying the new Microsoft Viva Insights. Welcome to your new personal Home page with valuable recommendations to help you do your best work.
 
-**To open your Viva Insights Home page**
-
-Go to [insights.viva.office.net](https://insights.viva.office.net)
+**To open your Home page**: Go to [insights.viva.office.net](https://insights.viva.office.net)
 
 ![Viva Insights web app home page](../../Images/mya/use/web-home.png)
 
