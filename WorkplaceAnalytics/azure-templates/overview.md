@@ -16,6 +16,8 @@ audience: Admin
 ---
 # Workplace Analytics Azure Templates overview
 
+[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+
 _These templates are only available as part of a Microsoft service engagement._
 
 Workplace Analytics Azure Templates extend and accelerate advanced analysis of your organizational data. These templates are built on and are compliant with secure Azure Services. These templates include automated configuration and connectivity to Power BI and Azure Services.
