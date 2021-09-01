@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Viva Insights web Home page
-description: Use the dashboard for the Microsoft Viva Insights cloud-based experience
+title: Viva Insights Home page
+description: Use the new Microsoft Viva Insights cloud-based Home page
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
