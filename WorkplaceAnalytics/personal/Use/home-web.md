@@ -17,7 +17,7 @@ audience: Admin
 
 Thank you for trying the new Microsoft Viva Insights. Welcome to your new personal Home page with valuable recommendations to help you do your best work.
 
-**To open your Home page**: Go to [insights.viva.office.net](https://insights.viva.office.net)
+**To open your Home page**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
 ![Viva Insights web app home page](../../Images/mya/use/web-home.png)
 
