@@ -15,6 +15,8 @@ audience: Admin
 
 # Workplace Analytics Data export
 
+[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+
 _Data export is available only as part of a Microsoft service engagement._
 
 Your company might have unique data-analysis needs requiring custom exploration of Workplace Analytics insights and data that goes beyond what's available in Workplace Analytics. For example, you might have custom data exploration that requires you to combine Workplace Analytics data with data outside of Workplace Analytics.
