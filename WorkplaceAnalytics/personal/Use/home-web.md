@@ -17,7 +17,7 @@ audience: Admin
 
 Thank you for trying the new Microsoft Viva Insights. Welcome to your new personal Home page with valuable recommendations to help you do your best work.
 
-**To open your Home page**: Go to [insights.viva.office.net](https://insights.viva.office.net)
+**To open your Home page**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
 ![Viva Insights web app home page](../../Images/mya/use/web-home.png)
 
@@ -57,7 +57,10 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 
 1. Open your [Viva Insights Home page](https://insights.viva.office.com).
 2. Select the **Settings** (gear) icon.
-3. Select **Settings**, and then under **Viva Insights**, select to turn **Off** the **Dashboard** to opt out of the page.
+3. Select **Settings**, and then under **Microsoft Viva Insights**, select to turn **Off** the **Dashboard** to opt out of the page.
+
+    ![Feature Settings.](../../Images/mya/use/v-home-settings.png)
+
 4. Select **Save** to save your changes.
 
 >[!NOTE]
