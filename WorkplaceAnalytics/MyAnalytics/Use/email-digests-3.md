@@ -1,7 +1,7 @@
 ---
-title: MyAnalytics digests
-description: MyAnalytics users receive a weekly digest with key insights and suggestions
-author: madehmer
+title: Viva Insights digest emails
+description: Viva Insights users receive a welcome email and monthly digest emails with key insights and suggestions
+author: paul9955
 ms.author: v-pausch
 ms.topic: article
 ms.localizationpriority: medium 
@@ -10,7 +10,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# MyAnalytics digests
+# Viva Insights digest emails
+
+
+
+## MyAnalytics digests
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
@@ -42,7 +46,7 @@ Here's an example of a digest insight about work relationships.
 
 ![Network digest.](../../Images/mya/use/digest-network.png)
 
-## Opt out of digests
+### Opt out of digests
 
 If you do not want to receive digests from MyAnalytics, you can opt out of them:
 
@@ -52,20 +56,20 @@ If you do not want to receive digests from MyAnalytics, you can opt out of them:
 4. Under **Weekly digest**, change the setting to **Off**.
 5. Select **Save** to save your changes.
 
-### If I am opted out, can I opt back in?
+#### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the digest.
 
 >[!Note]
 > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two to four days. For details, see [MyAnalytics FAQ](../Overview/MyA-faq.md)
 
-### After unsubscribing from weekly digest, why am I still receiving them?
+#### After unsubscribing from weekly digest, why am I still receiving them?
 
 If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
 
 ![Unsubscribe from digest message.](../../Images/mya/use/digest-unsubscribe.png)
 
-# MyAnalytics welcome message
+## Viva Insights welcome message
 
 Up to four weeks after the administrator assigns licenses with the MyAnalytics service to users, they'll receive a Welcome message from MyAnalytics in their Outlook inbox.
 
