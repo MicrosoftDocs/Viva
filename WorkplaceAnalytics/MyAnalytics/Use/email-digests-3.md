@@ -12,7 +12,7 @@ audience: Admin
 
 # Viva Insights digest emails
 
-If you're a subscribers of Microsoft Viva Insights, you will receive informative emails on the following occasions:
+If you're a subscriber of Microsoft Viva Insights, you will receive informative emails on the following occasions:
 
 * Up to four weeks after being assigned a MyAnalytics license, you'll receive a [welcome message](#microsoft-viva-welcome-message) that introduces the service.
 * Once a month, you'll receive a [digest email](#digest-email-from-microsoft-viva) that summarizes data about your work patterns so that you can improve them.
