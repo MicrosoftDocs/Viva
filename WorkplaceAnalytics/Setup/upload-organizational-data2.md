@@ -56,7 +56,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
    >[!Important]
    >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to permanently replace it with new employee data.
 
-   ![Upload options.](../images/wpa/setup/upload-org-data2.png)
+   :::image type="content" source="../images/wpa/setup/upload-options.png" alt-text="Subsequent upload options":::
 
 7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following _important upload considerations_:<a name="important-upload-considerations"></a>
 
@@ -92,7 +92,6 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 10. You’ll then see a message while the data is being validated and then a new message when it is successful or not. The following can cause a warning message:
 
     * **Omitted columns** - If replacing an existing upload and while mapping fields, you chose to omit one or more columns that are present in the existing upload data schema, and at least one auto-refresh query depends on those (omitted) columns.
-
     * **Excluded columns** - While setting the **Report options** for attributes on the **Mapping** page, you chose to exclude one or more columns from query results, and at least one auto-refresh query depends on those (excluded) columns.
 
     If you see a warning message about either of these issues, go to [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not, go to [Data validation](#data-validation).
@@ -118,7 +117,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 
 ### Custom fields
 
-**Custom fields** are optional attributes you can create. Select a column from the .csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
+**Custom fields** are optional attributes you can create. Select a column from the .csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option. The validity threshold cannot be changed when editing existing data.
 
 ### Field column details
 
@@ -169,7 +168,7 @@ After you complete the steps in [Field mapping](#field-mapping), the organizatio
 
 In most cases, file validation should complete very quickly. However, if your organizational data file is very large, validation could take a few minutes.
 
-After this phase completes, the file has either passed or failed validation. Go to the applicable section for details:
+When this phase completes, the file will either pass or fail validation. Go to the applicable section for details:
 
 * [Validation succeeds](#validation-succeeds)
 * [Validation fails](#validation-fails)
