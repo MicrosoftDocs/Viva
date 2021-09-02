@@ -17,11 +17,11 @@ audience: Admin
 
 ## Introduction
 
-Whether this is your first time onboarding people to Workplace Analytics or you are creating a new file to update organizational data, this script should help. It uses the [MSOnline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
+Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
 ## Prerequisites
 
-This script requires the following elements. If you need help while installing these prerequisites, contact Workplace Analytics FastTrack services; see [Get support](../overview/getting-support.md) for more information or contact FastTrack services directly by sending email to <wpasetup@microsoft.com>.
+This script requires the following elements. If you need help with these prerequisites, contact Support. See [Get support](../overview/getting-support.md) for details or send email to <wpasetup@microsoft.com>.
 
 * **PowerShell version 5.0 or higher**. To check the version of PowerShell on your computer:
 
