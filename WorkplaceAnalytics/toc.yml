@@ -309,7 +309,7 @@
        #     - name: Weekly
        #       href: MyAnalytics/use/email-digest-2.md
             - name: Weekly
-              href: MyAnalytics/use/email-digest-3.md
+              href: MyAnalytics/use/email-digests-3.md
         - name: Inline suggestions
           href: MyAnalytics/use/mya-notifications.md
         - name: Delay delivery plan

@@ -29,7 +29,7 @@
        #     - name: Weekly
        #       href: ./use/email-digest-2.md
             - name: Weekly
-              href: ./use/email-digest-3.md
+              href: ./use/email-digests-3.md
         - name: Inline suggestions
           href: ./use/mya-notifications.md
         - name: Delay delivery plan
