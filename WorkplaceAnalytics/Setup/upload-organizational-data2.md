@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
 author: madehmer
@@ -49,15 +48,15 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download the .csv template** to help with file requirements:
 
    * **Add new employees to existing organizational data** – Adds new employees to your existing organizational data.
-   * **Add new data for existing employees** - Adds new attributes to existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) to the existing organizational data. You can also use this option to add new attribute and edit values of existing attributes in same upload.
-   * **Edit data for existing employees** - Edits the current attribute values for existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) in the existing organizational data.
+   * **Add new data for existing employees** - Adds new attributes to existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process automatically adds today's date for all EffectiveDate values) to the existing organizational data. You can also use this option to add new attribute and edit values of existing attributes in same upload.
+   * **Edit data for existing employees** - Edits the current attribute values for existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process automatically adds today's date for all EffectiveDate values) in the existing organizational data.
    * **Delete data for existing employees** - Deletes attributes that are not required in the existing organizational data. In Existing attributes, select one or more attributes to remove, and then select Delete (trashcan) icon. You cannot delete any required attributes. When you see the message confirming the deletion, select Confirm or Cancel (only if you want to select different or additional attributes to delete).
    * **Upload a new organizational data file** - Deletes all previously uploaded data and replaces it with a new upload.
 
    >[!Important]
    >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to permanently replace it with new employee data.
 
-   ![Upload options.](../images/wpa/setup/upload-org-data2.png)
+   :::image type="content" source="../images/wpa/setup/upload-options.png" alt-text="Subsequent upload options":::
 
 7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following _important upload considerations_:<a name="important-upload-considerations"></a>
 
@@ -93,7 +92,6 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 10. You’ll then see a message while the data is being validated and then a new message when it is successful or not. The following can cause a warning message:
 
     * **Omitted columns** - If replacing an existing upload and while mapping fields, you chose to omit one or more columns that are present in the existing upload data schema, and at least one auto-refresh query depends on those (omitted) columns.
-
     * **Excluded columns** - While setting the **Report options** for attributes on the **Mapping** page, you chose to exclude one or more columns from query results, and at least one auto-refresh query depends on those (excluded) columns.
 
     If you see a warning message about either of these issues, go to [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded). If you do not, go to [Data validation](#data-validation).
@@ -108,7 +106,7 @@ The **Upload** page has System fields and Custom fields that you need to map for
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
-Use the Add new data for existing employees or Edit data for existing employees option to upload new or replace existing data. Make sure your file follows the format for required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) and the new attributes, and then map accordingly.
+Use the Add new data for existing employees or Edit data for existing employees option to upload new or replace existing data. Make sure your file follows the format for required attributes (such as PersonId and EffectiveDate, which if not provided, the process automatically adds today's date for all EffectiveDate values) and the new attributes, and then map accordingly.
 
 <!-- TWO OF THE FOLLOWING THREE SECTIONS (system fields tabLe, custom fields table, columns in the fields tables) ARE LONG AND THIS MAKES THE TOPIC HARDER TO NAVIGATE. CONSIDER PRESENTING THEM IN TABS, RATHER THAN CONSECUTIVELY. -->
 
@@ -119,7 +117,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 
 ### Custom fields
 
-**Custom fields** are optional attributes you can create. Select a column from the .csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option.
+**Custom fields** are optional attributes you can create. Select a column from the .csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option. The validity threshold cannot be changed when editing existing data.
 
 ### Field column details
 
@@ -170,7 +168,7 @@ After you complete the steps in [Field mapping](#field-mapping), the organizatio
 
 In most cases, file validation should complete very quickly. However, if your organizational data file is very large, validation could take a few minutes.
 
-After this phase completes, the file has either passed or failed validation. Go to the applicable section for details:
+When this phase completes, the file will either pass or fail validation. Go to the applicable section for details:
 
 * [Validation succeeds](#validation-succeeds)
 * [Validation fails](#validation-fails)
