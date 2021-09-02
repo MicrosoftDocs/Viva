@@ -140,11 +140,11 @@ _Query results example: Columns K through O_
 
 ### Derived attributes
 
-The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to Workplace Analytics](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
+The following organizational attribute, _Ona_GroupId_, is used in this query type. Note that this attribute is not among the organization data that [admins upload to Workplace Analytics](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
 
 Attribute (column header) | Description |
 ---------|----------|
-| <a name="groupid-define"></a> GroupId | A unique, de-identified ID number that identifies a group. All members of a team who report to the same person in the organizational hierarchy have the same GroupId. Analysts can use the GroupId column to aggregate members of a team. |
+| <a name="ona-groupid-define"></a> Ona_GroupId | A unique, de-identified ID number that identifies a group. All members of a team who report to the same person in the organizational hierarchy have the same Ona_GroupId. Analysts can use the Ona_GroupId column to aggregate members of a team. |
 
 ## Related topics
 
