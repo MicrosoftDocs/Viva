@@ -136,7 +136,7 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
 
 2. Open the .csv file.
 3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
-4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
+4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).)
 
 ## Also include unlicensed employees
 
@@ -243,7 +243,7 @@ For more information about attributes, see the [Attribute reference](#attribute-
 
 ## Upload the data to Workplace Analytics
 
-After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
+After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
 After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Workplace Analytics administrator.
 

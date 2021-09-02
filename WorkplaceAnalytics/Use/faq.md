@@ -145,16 +145,16 @@ A7. No, they are not ignored but they are not measured and their data is not pro
 
 A1. An upload can fail if the data has invalid values, if it is missing required data, or if the validity threshold for unrequired data is set too high; this is the case for custom fields in uploads after the organization's first upload. For more information, see the following:
 
-* [Validation fails](../setup/upload-organizational-data.md#validation-fails) in _Upload organizational data (subsequent uploads)_
+* [Validation fails](../setup/upload-organizational-data2.md#validation-fails) in _Upload organizational data (subsequent uploads)_
 * [Validation fails](../setup/upload-organizational-data-1st.md#validation-fails) in _Upload organizational data (first upload)_
 
 ##### Q2. For my first organizational data upload, should I choose "append" or "replace"?
 
-A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data.md#file-upload).
+A2.  For your first upload, you will not have either of these choices. For more details about your first upload, see [Upload organizational data (first upload)](../setup/upload-organizational-data-1st.md). For more information about when to append or replace, see [Upload organizational data (subsequent uploads)](../setup/upload-organizational-data2.md#file-upload).
 
 ##### Q3. For the [required fields](../setup/upload-organizational-data-1st.md#system-default-fields), what percentage does Workplace Analytics require for the validity threshold?
 
-A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet 100% of the validity threshold, because each of row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95% of the validity threshold. (Note that the calculations of validity threshold consider only two kinds of data values: valid values and blank values. This means that, for a validity threshold that's set to 95%, the column will pass validation if fewer than 5% of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.) For more information, see [Field column details](../setup/upload-organizational-data.md#field-column-details).
+A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet 100% of the validity threshold, because each of row of data must have a PersonId for each person in your organization. The other required fields (such as ManagerID) must exceed 95% of the validity threshold. (Note that the calculations of validity threshold consider only two kinds of data values: valid values and blank values. This means that, for a validity threshold that's set to 95%, the column will pass validation if fewer than 5% of the values in the column are blank and the rest are valid. However, if even one cell contains malformed data, the entire file upload will fail.) For more information, see [Field column details](../setup/upload-organizational-data2.md#field-column-details).
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (who would be represented by ManagerIDs)?
 
@@ -222,7 +222,7 @@ A3. Business policies can affect the historical data that is processed by Workpl
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
-A4. Workplace Analytics processes email and meetings data for a distribution list as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. See [Upload organizational data](../setup/upload-organizational-data.md) for detailed steps.
+A4. Workplace Analytics processes email and meetings data for a distribution list as a single entity or person. It does not expand the distribution list and assign meeting and email hours to its members. For more accurate data, upload the organizational data attributes for these lists by adding attributes of the distribution-list members or whatever best describes the list population. See [Upload organizational data](../setup/upload-organizational-data2.md) for detailed steps.
 
 ##### Q5. What collaboration information is processed from Microsoft Teams?
 
@@ -387,7 +387,7 @@ A4.  Yes. The data can include double-byte characters, such as Japanese characte
 
 ##### Q5. Can I append new columns onto an already existing organizational data file?
 
-A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to the steps in the [File upload](../setup/upload-organizational-data.md#file-upload) for details.
+A5. Yes. You can append the existing organizational data to update attribute values for existing employees, to add new employees, or to add new attributes. Refer to the steps in the [File upload](../setup/upload-organizational-data2.md#file-upload) for details.
 
 ##### Q7. What are the meanings of the required fields in organizational data?
 

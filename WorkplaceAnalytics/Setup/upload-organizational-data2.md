@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
 author: madehmer
@@ -49,8 +48,8 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download the .csv template** to help with file requirements:
 
    * **Add new employees to existing organizational data** – Adds new employees to your existing organizational data.
-   * **Add new data for existing employees** - Adds new attributes to existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) to the existing organizational data. You can also use this option to add new attribute and edit values of existing attributes in same upload.
-   * **Edit data for existing employees** - Edits the current attribute values for existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) in the existing organizational data.
+   * **Add new data for existing employees** - Adds new attributes to existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process automatically adds today's date for all EffectiveDate values) to the existing organizational data. You can also use this option to add new attribute and edit values of existing attributes in same upload.
+   * **Edit data for existing employees** - Edits the current attribute values for existing employees along with the minimum required attributes (such as PersonId and EffectiveDate, which if not provided, the process automatically adds today's date for all EffectiveDate values) in the existing organizational data.
    * **Delete data for existing employees** - Deletes attributes that are not required in the existing organizational data. In Existing attributes, select one or more attributes to remove, and then select Delete (trashcan) icon. You cannot delete any required attributes. When you see the message confirming the deletion, select Confirm or Cancel (only if you want to select different or additional attributes to delete).
    * **Upload a new organizational data file** - Deletes all previously uploaded data and replaces it with a new upload.
 
@@ -107,7 +106,7 @@ The **Upload** page has System fields and Custom fields that you need to map for
 
 When appending new attributes to an existing upload, you need to select all the same required and optional attributes that you mapped before in previous uploads, in addition to the new attributes you want to add (append).
 
-Use the Add new data for existing employees or Edit data for existing employees option to upload new or replace existing data. Make sure your file follows the format for required attributes (such as PersonId and EffectiveDate, which if not provided, the process uses the upload date for all) and the new attributes, and then map accordingly.
+Use the Add new data for existing employees or Edit data for existing employees option to upload new or replace existing data. Make sure your file follows the format for required attributes (such as PersonId and EffectiveDate, which if not provided, the process automatically adds today's date for all EffectiveDate values) and the new attributes, and then map accordingly.
 
 <!-- TWO OF THE FOLLOWING THREE SECTIONS (system fields tabLe, custom fields table, columns in the fields tables) ARE LONG AND THIS MAKES THE TOPIC HARDER TO NAVIGATE. CONSIDER PRESENTING THEM IN TABS, RATHER THAN CONSECUTIVELY. -->
 
