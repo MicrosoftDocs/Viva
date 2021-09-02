@@ -5,7 +5,7 @@ description: This topic describes the roles and responsibilities for a Workplace
 author: rodonahu
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

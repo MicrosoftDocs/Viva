@@ -5,7 +5,7 @@ description: What is available on the CRM data sources page in Workplace Analyti
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

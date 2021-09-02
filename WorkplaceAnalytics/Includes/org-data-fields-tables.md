@@ -5,7 +5,7 @@ description: Information to help you map fields by using the fields tables.
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ---
 

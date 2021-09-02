@@ -2,7 +2,7 @@
 layout: LandingPage
 title: Workplace Analytics best practices
 description: Workplace Analytics can help you improve how you and your organization gets work done.
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.author: v-mideh
 author: madehmer

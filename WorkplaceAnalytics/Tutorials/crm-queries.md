@@ -5,7 +5,7 @@ description: Describes how to use Query designer to analyze CRM data in Workplac
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

@@ -5,7 +5,7 @@ description: Use the Business continuity report that's within the Productivity S
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

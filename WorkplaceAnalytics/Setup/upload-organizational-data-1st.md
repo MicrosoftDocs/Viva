@@ -5,7 +5,7 @@ description: Learn how to upload your organizational data through the new Workpl
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

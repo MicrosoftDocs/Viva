@@ -5,7 +5,7 @@ description: Learn more about the network graphs used in Workplace Analytics vis
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

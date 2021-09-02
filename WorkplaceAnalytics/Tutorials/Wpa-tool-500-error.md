@@ -5,7 +5,7 @@ description: This explains why users receive a 500 error when using Workplace An
 author: paul9955
 ms.author: v-mideh
 ms.topic: troubleshooting
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

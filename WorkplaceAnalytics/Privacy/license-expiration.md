@@ -5,7 +5,7 @@ description: Accessing your organization's data after expiration of Workplace An
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

@@ -5,7 +5,7 @@ description: This glossary defines concepts and other terms important for workin
 author: paul9955
 ms.author: v-mideh
 ms.topic: reference
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa

@@ -5,7 +5,7 @@ description: Learn about how Workplace Analytics uses Differential Privacy techn
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble

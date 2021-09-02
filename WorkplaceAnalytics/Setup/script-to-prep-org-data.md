@@ -6,7 +6,7 @@ description: How to use a script to prepare data from your organization to uploa
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble

@@ -5,7 +5,7 @@ description: Describes the metrics for Workplace Analytics that you can import i
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

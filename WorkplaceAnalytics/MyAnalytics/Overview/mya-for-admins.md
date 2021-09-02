@@ -5,7 +5,7 @@ description: Overview of MyAnalytics for Microsoft 365 admins
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: Mya
