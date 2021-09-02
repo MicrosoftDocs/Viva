@@ -304,12 +304,14 @@
               href: myanalytics/use/use-the-insights.md
         - name: Digests
           items:
-            - name: Welcome
-              href: MyAnalytics/use/MyA-Welcome-email.md
+       #     - name: Welcome
+       #       href: MyAnalytics/use/MyA-Welcome-email.md
+       #     - name: Weekly
+       #       href: MyAnalytics/use/email-digest-2.md
             - name: Weekly
-              href: MyAnalytics/use/email-digest-2.md
+              href: MyAnalytics/use/email-digest-3.md
         - name: Inline suggestions
-          href: MyAnalytics/Use/mya-notifications.md
+          href: MyAnalytics/use/mya-notifications.md
         - name: Delay delivery plan
           href: MyAnalytics/use/delay-delivery.md
         - name: Focus plan

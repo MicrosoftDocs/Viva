@@ -24,10 +24,12 @@
               href: ./use/use-the-insights.md
         - name: Digests
           items:
-            - name: Welcome
-              href: ./use/MyA-Welcome-email.md
+       #     - name: Welcome
+       #       href: ./use/MyA-Welcome-email.md
+       #     - name: Weekly
+       #       href: ./use/email-digest-2.md
             - name: Weekly
-              href: ./use/email-digest-2.md
+              href: ./use/email-digest-3.md
         - name: Inline suggestions
           href: ./use/mya-notifications.md
         - name: Delay delivery plan
