@@ -16,6 +16,8 @@ audience: Admin
 
 # Subsequent uploads
 
+*This experience is only available through private preview at this time.*
+
 Administrators can use the following steps for a subsequent upload (import) of organizational data into Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
