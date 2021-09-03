@@ -9,6 +9,7 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+recommendations: false
 
 ---
 # Privacy guide for Briefing emails

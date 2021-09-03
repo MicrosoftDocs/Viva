@@ -9,7 +9,7 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
-Recommendations: false
+recommendations: false
 
 ---
 # Follow up on tasks

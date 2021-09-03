@@ -10,7 +10,7 @@ ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
-Recommendations: false
+recommendations: false
 
 ---
 

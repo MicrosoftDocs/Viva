@@ -8,6 +8,7 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+recommendations: false
 
 ---
 # Plan your week
