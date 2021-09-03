@@ -82,7 +82,7 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    Tasks that you add on this page will appear in two places:
 
-   * If you subscribe to the Cortana briefing email, you'll see your tasks there.
+   * If you subscribe to the Briefing email from Microsoft Viva, you'll see your tasks there.
 
    * If you add a task today, it will appear tomorrow on the **Microsoft To-Do** card on the **Home** page:
 

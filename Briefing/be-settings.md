@@ -1,7 +1,7 @@
 ---
 
 title: Settings for the Briefing email
-description: Learn how to change your personal settings for the Cortana Briefing
+description: Learn how to change your personal settings for the Briefing email from Microsoft Viva
 author: madehmer
 ms.author: v-mideh
 ms.topic: article

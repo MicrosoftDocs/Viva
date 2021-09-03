@@ -1,15 +1,16 @@
 ---
 
+Recommendations: false
 title: Briefing email overview
 description: About the Briefing email and how to use it to help with your workday
-author: madehmer
+author: paul9955
 ms.author: v-mideh
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
-Recommendations: false
+
 
 ---
 
@@ -49,7 +50,7 @@ For more details, see [Prepare for meetings](be-meetings.md) and [Follow up on t
 
 As a new user, your first Briefing email explains how to use it to prepare for upcoming meetings and manage pending tasks. It also explains how your personal information is kept private.
   
-   ![First Briefing email.](./images/first-briefing.png)
+![First Briefing email.](./images/first-briefing.png)
 
 ## Configuration
 
