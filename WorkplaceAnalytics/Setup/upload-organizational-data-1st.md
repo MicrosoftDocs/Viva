@@ -19,7 +19,7 @@ audience: Admin
 Administrators must first upload (import) organizational data before you can analyze insights about your company in Workplace Analytics. Complete the following steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
->Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md) to update previously uploaded data.
+>Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md) to update previously uploaded data.
 
 ## Import tasks
 
