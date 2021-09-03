@@ -19,7 +19,7 @@ Thank you for trying the new Microsoft Viva Insights. Welcome to your new person
 
 **To open your Home page**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
-![Viva Insights web app home page](../../Images/mya/use/web-home.png)
+![Viva Insights web app home page](../../Images/mya/use/home-web.png)
 
 Viva Insights provides personalized recommendations to help you do your best work. Get insights to build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
