@@ -305,16 +305,16 @@ After you have populated and formatted your organizational data file, you can co
    Validation errors can be caused by:
 
    * Cells with invalid formatting, see [Rules for .xlsx files](#rules-for-xlsx-files) and [Rules for .csv files](#rules-for-csv-files)
-   * Missing entries (empty or blank cells), see [Set validity threshold for custom fields](upload-organizational-data2.md#set-validity-threshold-for-custom-fields)
+   * Missing entries (empty or blank cells), see [Set validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields)
    * Invalid use of special characters in column headers or in data rows, see [Use only valid values and formats](#use-only-valid-values-and-formats)
 
    If validation fails:
 
    * If this is your first upload of organizational data, see [Validation fails](upload-organizational-data-1st.md#validation-fails) for details.
-   * If this is a subsequent upload of organizational data, see [Validation fails](upload-organizational-data2.md#validation-fails) for details.
+   * If this is a subsequent upload of organizational data, see [Validation fails](upload-organizational-data.md#validation-fails) for details.
   
    > [!Note]
-   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is the _validity threshold_. For more information, see [Field column details](upload-organizational-data2.md#field-column-details) and [Set validity threshold for custom fields](upload-organizational-data2.md#set-validity-threshold-for-custom-fields).
+   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is the _validity threshold_. For more information, see [Field column details](upload-organizational-data.md#field-column-details) and [Set validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields).
 
 <!-- NOTE FROM PRAMOD:
 Specific instructions to create, debug & fix (in case of validation errors) should be separate for CSV & XSLX files. We should have a separate page for each. We should link to these pages as required in the Prepare organizational data, Upload org data (First upload), Upload org data (subsequent uploads) pages.
