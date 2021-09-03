@@ -64,7 +64,7 @@
                     - name: First upload
                       href: ~/Setup/upload-organizational-data-1st.md 
                     - name: Subsequent uploads
-                      href: ~/Setup/Upload-organizational-data.md 
+                      href: ~/Setup/upload-organizational-data.md 
                     - name: Upload CRM data
                       href: ~/Setup/crm-data-upload.md
             - name: Admin settings
