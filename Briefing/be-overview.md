@@ -9,6 +9,7 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+Recommendations: false
 
 ---
 
@@ -63,3 +64,8 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 * [Book focus time](be-focus.md) (Adaptive version only)
 * [Plan your week](be-time.md) (Adaptive version only)<!--* [Catch up with your team](be-manager.md) (Adaptive version only)-->
 * [Settings](be-settings.md)
+
+## Related topics
+
+* [Configure Briefing email](be-admin.md)
+* [Briefing email from Microsoft Viva FAQ](be-faqs.md)
