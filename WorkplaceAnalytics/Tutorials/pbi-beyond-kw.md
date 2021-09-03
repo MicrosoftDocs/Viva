@@ -143,7 +143,7 @@ Your Workplace Analytics admin must do the following steps to upload (import) or
 2. Map the fields in Workplace Analytics.
 3. Allow Workplace Analytics to validate the data.
 
-For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
+For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
 
 ## Power BI tips, troubleshooting, and FAQs
 
