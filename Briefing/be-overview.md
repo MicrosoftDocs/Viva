@@ -1,6 +1,5 @@
 ---
 
-Recommendations: false
 title: Briefing email overview
 description: About the Briefing email and how to use it to help with your workday
 author: paul9955
@@ -10,7 +9,7 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
-
+Recommendations: false
 
 ---
 

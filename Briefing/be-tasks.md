@@ -9,6 +9,7 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+Recommendations: false
 
 ---
 # Follow up on tasks
@@ -27,11 +28,11 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 
 In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me tomorrow** to get a reminder in your next day's briefing email.
 
-![Briefing email about tasks.](./images/be-task.png)
+![Briefing email about tasks](./images/be-task.png)
 
 Or if you use the To Do feature, you could select **Add to To Do**.
 
-![Briefing email about To Dos.](./images/be-task-to-do.png)
+![Briefing email about To Dos](./images/be-task-to-do.png)
 
 ## Related topic
 

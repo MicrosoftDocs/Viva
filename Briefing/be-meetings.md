@@ -9,6 +9,7 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+Recommendations: false
 
 ---
 # Prepare for upcoming meetings
@@ -52,7 +53,7 @@ When scheduling a meeting, a common mistake is forgetting to include online meet
 * Enables you to record meetings and present information to remote attendees.
 * Having a single-select correction also saves you time and stress before and at the start of meetings.
 
-When you select **Add Teams**, a Teams meeting link is added to the meeting invitation for you, so you don't have to open the meeting to add it and automatically sends an updated invitation to all invitees.
+When you select **Add Teams**, Microsoft Viva Insights adds a Teams meeting link to the meeting invitation for you, so you don't have to open the meeting to add it and automatically sends an updated invitation to all invitees.
 
 ## Add agenda
 
