@@ -75,6 +75,8 @@ If you do not want to receive the monthly digest from Microsoft Viva, you can op
 4. Under **Monthly digest**, change the setting to **Off**.
 5. Select **Save** to save your changes.
 
+After opting out, you will see the **Sorry to see you go** page. This page shows your email address in the sentence, "You (<name@domain.com> have been unsubscribed from the **digest email**." Verify that the email address that is shown is the correct email address for you. If this email address is not yours, you will not be unsubscribed.
+
 #### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the digest.
@@ -87,3 +89,8 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
 
 ![Unsubscribe from digest message.](../../Images/mya/use/monthly-digest-unsubscribe.png)
+
+If this email address does not match your own, repeat the steps in [Opt out of digests](#opt-out-of-digests).
+
+<!-- the "Sorry to see you go" page:
+![Unsubscribe from digest message.](../../Images/mya/use/monthly-digest-unsub-2.png) -->
