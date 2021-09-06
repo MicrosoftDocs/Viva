@@ -25,7 +25,7 @@ Users do not receive the Welcome digest outside of their work week. For example,
 
 Here's an example of a Viva Insights welcome message:
 
-![Welcome message top section.](../../Images/mya/use/welcome-email-2pages.png)
+![Welcome message top section.](../../Images/mya/use/monthly-digest-welcome.png)
 
 ## Digest email from Microsoft Viva
 
@@ -45,7 +45,7 @@ Monthly digest emails include insights on some of the following work patterns:
 
 Here's an example of a monthly digest email.
 
-![Monthly digest email](../../Images/mya/use/monthly-digest-email-3pages.png)
+![Monthly digest email](../../Images/mya/use/monthly-digest-welcome-example.png)
 
 <!-- 
 
