@@ -45,7 +45,7 @@ Monthly digest emails include insights on some of the following work patterns:
 
 Here's an example of a monthly digest email.
 
-![Monthly digest email](../../Images/mya/use/monthly-digest-welcome-example.png)
+![Monthly digest email](../../Images/mya/use/monthly-digest-welcome-example-80.png)
 
 <!-- 
 
@@ -86,5 +86,4 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
 
-![Unsubscribe from digest message.](../../Images/mya/use/digest-unsubscribe.png)
-
+![Unsubscribe from digest message.](../../Images/mya/use/monthly-digest-unsubscribe.png)
