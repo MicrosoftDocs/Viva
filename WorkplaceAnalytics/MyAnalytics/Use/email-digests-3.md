@@ -97,7 +97,7 @@ If you have multiple Microsoft 365 emails, you might be getting the digest for a
 
 ![Unsubscribe from digest message.](../../Images/mya/use/monthly-digest-unsubscribe.png)
 
-If this email address does not match your own, repeat the steps in [Opt out of digests](#opt-out-of-digests).
+If this email address does not match your own, make sure that you are signed in with the same account in both the MyAnalytics dashboard and in email, and then repeat the steps in [Opt out of digests](#opt-out-of-digests).
 
 <!-- the "Sorry to see you go" page:
 ![Unsubscribe from digest message.](../../Images/mya/use/monthly-digest-unsub-2.png) -->
