@@ -15,6 +15,8 @@ audience: Admin
 
 # Why use MyAnalytics?
 
+[![Viva announcement.](../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
+
 ## Improve your work patterns through personal productivity insights
 
 More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
