@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Introducing insights
-description: About Microsoft 365 Insights to learn how your organization gets work done
+title: Introducing Viva insights
+description: About Microsoft Viva Insights to learn how your organization gets work done
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
@@ -11,11 +11,11 @@ manager: scott.ruble
 audience: Admin
 
 ---
-# Insights introduction
+# Viva Insights introduction
 
 *This experience is only available through private preview at this time.*
 
-As a business leader, understanding how your employees work together is important. Microsoft Insights shows how your employees get work done and collaborate that can help you make business decisions accordingly.
+As a business leader, understanding how your employees work together is important. Microsoft Viva Insights in Microsoft Teams shows how your employees get work done and collaborate that can help you make business decisions accordingly.
 
 ![Microsoft 365 Insights home page.](./images/insights-home.png)
 
@@ -23,7 +23,7 @@ This new release is currently limited to Microsoft 365 or Office 365 E5 or E3 pl
 
 You can request access and get more information at [Microsoft insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Insights.
 
-After your admin has completed the [Setup steps](./setup.md), the data for insights might take up to three days to process and become available. After the data is processed for your organization, go to [Insights](https://productivityinsights.office.com) to view them.
+After your admin has completed the [Setup steps](./setup.md), the data for insights might take up to three days to process and become available. After the data is processed and your admin has installed and set up the Insights app for your organization, you can view advanced insights about your organization within Microsoft Teams. Follow the steps in [Install and pin](#pin-and-view-the-app) to locate and use Viva Insights within Teams.
 
 ## Your organizational data
 
@@ -31,7 +31,7 @@ The top right of the page shows who in your organization is included in this ana
 
 <!-- REMOVE THIS FOR NOW. MAYBE RE-USE IN LATE 2021. CHECK WITH DANNY. 
 >[!Important]
->Only data about users whose [Microsoft 365 datacenter geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability) is included in this initial release. -->
+>Only data about users whose [Microsoft 365 data center geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability) is included in this initial release. -->
 
 ## Business outcomes
 

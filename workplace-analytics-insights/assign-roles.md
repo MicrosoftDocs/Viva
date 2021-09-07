@@ -50,7 +50,7 @@ If you have not yet created an Insights app group in Azure AD, and want to do so
 -->
 ## Access to Insights
 
-After assigning licenses, the data for Insights might take up to a week to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, send your organization's leaders the link to [Insights](https://productivityinsights.office.com) to open and use them. Also, refer them to [Insights introduction](./intro.md) to learn more about how to use Insights.
+After assigning licenses, the data for Insights might take up to a week to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, refer your organization's leaders to [Viva Insights introduction](./intro.md) to learn more about how to use them.
 
 ## Related topics
 
