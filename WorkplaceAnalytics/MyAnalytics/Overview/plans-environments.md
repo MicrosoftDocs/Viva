@@ -16,6 +16,8 @@ audience: Admin
 
 # MyAnalytics plans and environments
 
+[![Viva announcement.](../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
+
 ## Availability of features
 
 The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md) are available to users whose organization uses the following Microsoft 365 or Office 365 plans.
