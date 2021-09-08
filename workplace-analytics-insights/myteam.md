@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Microsoft Viva Insights about my team
-description: The My Team page in the Microsoft Viva Insights app 
+title: Microsoft Viva Insights My team page
+description: The My team page in the Microsoft Viva Insights app in Microsoft Teams
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -12,9 +12,9 @@ audience: Admin
 
 ---
 
-# My Team in Viva Insights
+# My team in Viva Insights
 
-You can view manager insights on the **My Team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
+You can view manager insights on the **My team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
 ![Outcomes page.](./images/viva-team-outcomes.png)
 
@@ -26,13 +26,13 @@ While you can also see these outcome-based insights and their related best pract
 
    ![Insights icon.](./images/insights-icon.png)
 
-2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My Team outcomes. To learn more about this insight, select the **Explore more** option on this card.
+2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My team outcomes. To learn more about this insight, select the **Explore more** option on this card.
 
    ![Insights Home page.](./images/home-mgr.png)
 
    You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](/insights/viva-insights-home).
 
-3. On the menu bar at the top of the page, select **My Team**. The My Team page opens to show the following outcomes:
+3. On the menu bar at the top of the page, select **My team** to see the following outcomes:
 
    * Employee experience
    * Team effectiveness
