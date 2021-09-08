@@ -37,12 +37,12 @@ productDirectory:
         - url: myorg.md
           text: Help business leaders address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business.
     - title: Manager insights
-      imageSrc: https://docs.microsoft.com/media/common/i_support.svg
+      imageSrc: https://docs.microsoft.com/media/common/i_management.svg
       links:
         - url: myteam.md
           text: Answers to the most frequently asked questions about these insights.
     - title: FAQ
-      imageSrc: https://docs.microsoft.com/media/common/i_quickstart.svg
+      imageSrc: https://docs.microsoft.com/media/common/i_support.svg
       links:
         - url: faqs.md
           text: Answers to the most frequently asked questions about these insights.
