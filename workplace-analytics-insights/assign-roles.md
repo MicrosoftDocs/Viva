@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Assign user roles for Microsoft 365 Insights
-description: Learn how to assign roles to people who want to view Microsoft 365 Insights (synonymous with Workplace Analytics insights in Microsoft 365)
+title: Assign user roles for Microsoft Viva Insights
+description: Learn how to assign roles to people who want to view Microsoft Viva Insights (synonymous with Workplace Analytics insights in Microsoft 365)
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -13,13 +13,13 @@ audience: Admin
 
 # Assign roles
 
-After assigning licenses, you need to assign roles to the people who want to view and use the Insights. You can assign users the role of **Insights Administrator** or **Insights Business Leader** in Microsoft 365 admin center.
+After assigning licenses, you need to assign roles to the people who want to view and use Microsoft Viva Insights in Microsoft Teams. You can assign users the role of **Insights Administrator** or **Insights Business Leader** in Microsoft 365 admin center.
 
 To assign roles:
 
 1. Sign in as a global admin to your tenant's [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
 2. In the left navigation, select **Roles**, and then select the **Azure AD** tab.
-3. In the search field, enter **Insights**.
+3. In the search field, enter **Viva Insights**.
 4. In the search results, select a role:
 
    * **Insights Administrator** - Gets full access to the Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
@@ -48,11 +48,11 @@ To assign users and roles to an Insights app group, the steps are similar to tho
 
 If you have not yet created an Insights app group in Azure AD, and want to do so, see [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 -->
-## Access to Insights
+## Access to Viva Insights
 
 After assigning licenses, the data for Insights might take up to a week to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, refer your organization's leaders to [Viva Insights introduction](./intro.md) to learn more about how to use them.
 
 ## Related topics
 
-* [Set up Insights](setup.md)
+* [Set up Viva Insights](setup.md)
 * [Assign admin roles to Microsoft 365 user accounts with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)

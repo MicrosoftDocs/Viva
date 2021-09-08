@@ -1,5 +1,11 @@
-- name: Introduction
-  href: ./intro.md
+- name: Microsoft Viva Insights
+  items:
+    - name: Overview
+      href: ./intro.md
+    - name: My team
+      href: ./myteam.md
+    - name: My organization
+      href: ./myorg.md
 - name: Data privacy
   items:
     - name: Overview
@@ -16,6 +22,8 @@
       href: ./assign-licenses-pshell.md
     - name: Assign roles
       href: ./assign-roles.md
+    - name: Install and pin the app
+      href: ./install.md      
 - name: Business outcomes
   items:
     - name: Enhance organizational resiliency
