@@ -13,7 +13,7 @@ audience: Admin
 ---
 # Install and pin the app
 
-Before you can use Microsoft Viva Insights app in Microsoft Teams, you must confirm the following [prerequisites](#prerequisites) and then follow the steps in [Install the app](#install-the-app) and [Pin the app](#pin-the-app).
+Before you can use Microsoft Viva Insights app in Microsoft Teams, after [assigning roles](assign-roles.md), follow the steps in [Install the app](#install-the-app) and [Pin the app](#pin-the-app).
 
 ## Install the app  
 
