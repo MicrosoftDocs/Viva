@@ -36,7 +36,7 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Search for Insights.](../workplaceanalytics/images/mya/use/apps-search-insights.png)
 
-4. Select the **Insights** app:
+4. Select the **Microsoft Viva Insights** app:
 
    ![Select Insights app.](../workplaceanalytics/images/mya/use/select-insights-app-teams.png)
 
@@ -44,7 +44,7 @@ This section describes how to install the Viva Insights app for yourself. (If yo
 
    ![Add for me button.](../workplaceanalytics/images/mya/use/add-for-me.png)
 
-This step adds the app to all the places where you might use Microsoft Teams: the Teams desktop client, Teams on the web, and Teams on a mobile device.
+This step adds the app to all the places where you might use Microsoft Teams: The Teams desktop client, Teams on the web, and Teams on a mobile device.
 
 >[!Note]
 >You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
@@ -53,7 +53,7 @@ This step adds the app to all the places where you might use Microsoft Teams: th
 
 After you pin a Teams app, it shows on the Teams app bar (the left navigation bar).
 
-#### On desktop and web client
+### On desktop and web client
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 2. Right-click any app icon and select **Pin** to make and keep your app visible in the Teams app bar.
@@ -63,7 +63,7 @@ After you pin a Teams app, it shows on the Teams app bar (the left navigation ba
 >[!Tip]
 >You can reorder apps in the Teams app bar by dragging and dropping icons. For more information about pinning and unpinning apps in Microsoft Teams, see [Pin an app for easy access](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec).
 
-#### On the iOS and Android mobile platforms
+### On the iOS and Android mobile platforms
 
 1. Select **More** (the ellipsis) on the Microsoft Teams app bar.  
 2. Select **Reorder** and drag and drop the app so it is no longer in the **More** section.
