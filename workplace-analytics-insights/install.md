@@ -15,10 +15,6 @@ audience: Admin
 
 Before you can use Microsoft Viva Insights app in Microsoft Teams, you must confirm the following [prerequisites](#prerequisites) and then follow the steps in [Install the app](#install-the-app) and [Pin the app](#pin-the-app).
 
-## Prerequisites
-
-The _Analyst (Limited)_ role in the Workplace Analytics app can be used to access the My organization page of the Viva Insights app.
-
 ## Install the app  
 
 This section describes how to install the Viva Insights app for yourself. (If you're an admin who will install the Viva Insights app for an organization, see [Deployment](setup.md).)  

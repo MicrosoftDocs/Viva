@@ -31,13 +31,18 @@ productDirectory:
       links:
         - url: privacy.md
           text: Learn how these insights use trusted Microsoft 365 security to keep your data safe and private.
-    - title: Business outcomes
+    - title: Leader insights
       imageSrc: https://docs.microsoft.com/media/common/i_guidelines.svg
       links:
-        - url: intro.md#business-outcomes
-          text: Lists the top business outcomes and the associated behaviors that you can focus on toward business success.
-    - title: FAQ
+        - url: myorg.md
+          text: Help business leaders address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business.
+    - title: Manager insights
       imageSrc: https://docs.microsoft.com/media/common/i_support.svg
+      links:
+        - url: myteam.md
+          text: Answers to the most frequently asked questions about these insights.
+    - title: FAQ
+      imageSrc: https://docs.microsoft.com/media/common/i_quickstart.svg
       links:
         - url: faqs.md
           text: Answers to the most frequently asked questions about these insights.

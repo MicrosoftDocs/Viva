@@ -22,8 +22,8 @@ To assign roles:
 3. In the search field, enter **Viva Insights**.
 4. In the search results, select a role:
 
-   * **Insights Administrator** - Gets full access to the Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
-   * **Insights Business Leader** - Gets read access to the Insights app reports and data.
+   * **Insights Administrator** - Gets full access to the Viva Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
+   * **Insights Business Leader** - Gets read access to the Viva Insights app reports and data.
 
 5. Select **Assign admins**, and then select **+ Add**.
 6. In the search field for **Who do you want to assign to this role**, type the first few letters of a name, and then select the name from the list. The admin center limits you to assigning 20 names at a time. However, you can repeat these steps to assign more users a role.
