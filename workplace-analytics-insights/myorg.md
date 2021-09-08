@@ -17,7 +17,7 @@ audience: Admin
 
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
-![Outcomes page.](../workplaceanalytics/images/wpa/use/viva-org-outcomes-2.png)
+![Outcomes page.](./images/viva-org-outcomes-2.png)
 
 The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
 
@@ -25,11 +25,11 @@ The top right of the page shows who in your organization is included in this ana
 
 1. On the Teams app bar (the left navigation bar), select **Insights**:
 
-   ![Insights icon.](../workplaceanalytics/images/wpa/use/insights-icon.png)
+   ![Insights icon.](./images/insights-icon.png)
 
 2. The Home page of the Insights app opens. Notice the card in the upper right. This card displays a random insight from one of the My organization outcomes. To learn more about this insight, select the **Explore more** option on this card.
 
-   ![Insights Home page.](../workplaceanalytics/images/wpa/use/home-mgr.png)
+   ![Insights Home page.](./images/home-mgr.png)
 
    You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these Home page features, see [Viva Insights Home page](/insights/viva-insights-home).
 
@@ -45,7 +45,7 @@ The top right of the page shows who in your organization is included in this ana
    * Transform meeting culture
    * Increase customer focus
 
-   ![Outcomes on the Outcomes page.](../workplaceanalytics/images/wpa/use/viva-org-outcomes.png)
+   ![Outcomes on the Outcomes page.](./images/viva-org-outcomes.png)
 
 4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
@@ -53,17 +53,17 @@ The top right of the page shows who in your organization is included in this ana
 
 To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select **Effective managers** to see the **Develop effective managers** insights:
 
-![Develop effective managers.](../workplaceanalytics/images/wpa/use/dev-effect-managers.png)
+![Develop effective managers.](./images/dev-effect-managers.png)
 
 Similarly, you can select **Boost employee engagement** on the Outcomes page to see the **Boost employee engagement** insights:
 
-![Boost employee engagement.](../workplaceanalytics/images/wpa/use/viva-org-boost-engagement.png)
+![Boost employee engagement.](./images/viva-org-boost-engagement.png)
 
 ## Best practices
 
 To learn about taking action on an outcome, you can view related best practices. For example, for **Boost employee engagement**, select **View best practices** to see details about **Increase frequency of coaching**.
 
-![Best practice - Coaching frequency.](../workplaceanalytics/images/wpa/use/teams-bestprac-freq-coaching-70.png)
+![Best practice - Coaching frequency.](./images/teams-bestprac-freq-coaching-70.png)
 
 ## Advanced analysis
 
