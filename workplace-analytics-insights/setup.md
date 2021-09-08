@@ -16,10 +16,10 @@ audience: Admin
 
 Before people in your organization can view and use Microsoft Viva Insights, your Microsoft 365 global admin needs to do the following for them:
 
-* [Activate promotional codes](#activate-promotional-codes)
-* [Assign licenses](#assign-licenses)
-* [Assign roles](assign-roles.md)
-* [Deploy the app](#deploy-the-app)
+1. [Activate promotional codes](#activate-promotional-codes)
+2. [Assign licenses](#assign-licenses)
+3. [Assign roles](assign-roles.md)
+4. [Deploy the app](deploy-the-app.md)
 
 This new release is currently limited to Microsoft 365 or Office 365 E5 or E3 plan subscribers through their Microsoft service representative.
 
@@ -54,23 +54,8 @@ You can assign licenses as follows:
 
 [Teams Service Administrators](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the app for all users or particular departments [through custom policies](/microsoftteams/teams-app-setup-policies).
 
-Complete the steps in the following mini-playbooks to get the Microsoft Viva Insights app up and running for people in your organization.
-
-1. Turn on the Viva Insights app for your organization:
-[Release the Insights app within your organization](../workplaceanalytics/myanalytics/use/release-the-Insights-app.pdf).
-
-   >[!Note]
-   >To allow or block specific users in your organization from using Viva Insights, do the following:
-   >
-   >1. Make sure that Viva Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page.
-   >
-   >2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
-
-2. Install the Viva Insights app for all employees in your organization: [Install the Viva Insights app](../workplaceanalytics/myanalytics/use/install-the-Insights-app.pdf).
-3. Pin the Viva Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Viva Insights app](../workplaceanalytics/myanalytics/use/pin-the-Insights-app.pdf).
-4. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Viva Insights app](../workplaceanalytics/myanalytics/use/find-and-open-the-Insights-app.pdf).
-5. To give a person access to leader insights, assign the _Analyst (Limited)_ role in Workplace Analytics to that person. (See [Assign roles](../workplaceanalytics/setup/assign-roles-to-wpa-admins.md) for admin procedures; for general information about roles, see [Role descriptions and access levels](../workplaceanalytics/use/user-roles.md#role-descriptions-and-access-levels).)
+See [Deploy the app](deploy.md) for steps on how to deploy.
 
 ## Access to Viva Insights
 
-After assigning licenses and deploying the app, the data for Viva Insights might take up to a week to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, refer your organization's leaders to [Install and pin the app](install.md) to open and use them. Also, refer them to [Viva Insights introduction](./intro.md) to learn more about how to use them.
+After assigning licenses and deploying the app, the data for Viva Insights might take up to a week to process and become available. After completing the required setup tasks and allowing for data processing, refer your organization's leaders to [Install and pin the app](install.md) to open and use them. Also, refer them to [Viva Insights introduction](./intro.md) to learn more about how to use them.

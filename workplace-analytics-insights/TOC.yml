@@ -22,6 +22,8 @@
       href: ./assign-licenses-pshell.md
     - name: Assign roles
       href: ./assign-roles.md
+    - name: Deploy the app
+      href: ./deploy.md      
     - name: Install and pin the app
       href: ./install.md      
 - name: Business outcomes
