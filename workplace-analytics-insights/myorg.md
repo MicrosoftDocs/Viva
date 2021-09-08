@@ -21,7 +21,7 @@ You can view leader insights on the **My organization** page of the Microsoft Vi
 
 The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
 
-## View the My organization page
+## View the page
 
 1. On the Teams app bar (the left navigation bar), select **Insights**:
 
@@ -49,7 +49,7 @@ The top right of the page shows who in your organization is included in this ana
 
 4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
-## Business outcomes
+## Outcome insights
 
 To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select **Effective managers** to see the **Develop effective managers** insights:
 

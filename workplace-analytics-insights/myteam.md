@@ -20,7 +20,7 @@ You can view manager insights on the **My Team** page in the Microsoft Viva Insi
 
 While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders.
 
-## Open the My Team page
+## View the page
 
 1. On the Teams app bar (the left navigation bar), select **Insights**:
 
@@ -41,7 +41,7 @@ While you can also see these outcome-based insights and their related best pract
 
 4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
-## Business outcomes
+## Outcome insights
 
 To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select  **Employee experience** to see the **Coaching and development** insights:
 
@@ -49,7 +49,7 @@ To investigate further, select one of the outcomes to see the insights for that 
 
 ## Best practices
 
-To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices**, which opens the panel called, **Best Practices: Increase frequency of coaching**:
+To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices** to see details about **Increase frequency of coaching**:
 
 ![Best practice - Coaching frequency.](../workplaceanalytics/images/wpa/use/viva-team-coaching-flyout.png)
 
