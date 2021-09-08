@@ -19,7 +19,7 @@ Before people in your organization can view and use Microsoft Viva Insights, you
 1. [Activate promotional codes](#activate-promotional-codes)
 2. [Assign licenses](#assign-licenses)
 3. [Assign roles](assign-roles.md)
-4. [Deploy the app](deploy-the-app.md)
+4. [Deploy the app](deploy.md)
 
 This new release is currently limited to Microsoft 365 or Office 365 E5 or E3 plan subscribers through their Microsoft service representative.
 
