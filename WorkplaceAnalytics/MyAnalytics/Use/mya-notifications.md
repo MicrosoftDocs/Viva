@@ -89,7 +89,7 @@ You can also select **Turn off all notifications** if you would prefer not to re
 
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
-These suggestions are currently available only to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) who are using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
+These suggestions are available to you if you have a [Microsoft or Office 365 E5, E3, and E1 plan](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) and you're using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
 When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
@@ -144,7 +144,7 @@ When composing an email or calendar invitation in Outlook about your upcoming ti
 
 ![Plan your time away inline suggestion.](../../Images/mya/use/inline-away.png)
 
-This suggestion is currently available to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is), and it falls under the preview of [connected experiences that analyze your content in Office](/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
+This suggestion is available to you if you have a [Microsoft or Office 365 E5, E3, and E1 plan](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is). This feature falls under the preview of [connected experiences that analyze your content in Office](/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 
