@@ -14,6 +14,8 @@
       items: 
         - name: Introduction 
           href: ./use/MyA-elements.md
+        - name: Viva Insights Home
+          href: ././personal/use/home-web.md
         - name: Dashboard
           href: ./use/dashboard-2.md
         - name: Insights add-in
@@ -22,12 +24,6 @@
               href: ./use/add-in.md
             - name: Use Insights
               href: ./use/use-the-insights.md
-       # - name: Digests
-       #   items:
-       #     - name: Welcome
-       #       href: ./use/MyA-Welcome-email.md
-       #     - name: Weekly
-       #       href: ./use/email-digest-2.md
         - name: Digest emails
           href: ./use/email-digests-3.md
         - name: Inline suggestions

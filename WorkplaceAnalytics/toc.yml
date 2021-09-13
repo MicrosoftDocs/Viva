@@ -296,18 +296,14 @@
           href: MyAnalytics/Use/MyA-elements.md
         - name: Dashboard
           href: MyAnalytics/Use/dashboard-2.md
+        - name: Viva Insights Home
+          href: ~/personal/use/home-web.md
         - name: Insights add-in
           items:
             - name: Insights add-in
               href: myanalytics/use/add-in.md
             - name: Use Insights
               href: myanalytics/use/use-the-insights.md
-       # - name: Digests
-       #   items:
-       #     - name: Welcome
-       #       href: MyAnalytics/use/MyA-Welcome-email.md
-       #     - name: Weekly
-       #       href: MyAnalytics/use/email-digest-2.md
         - name: Digest emails
           href: MyAnalytics/use/email-digests-3.md
         - name: Inline suggestions
