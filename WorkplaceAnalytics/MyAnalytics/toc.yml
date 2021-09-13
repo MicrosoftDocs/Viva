@@ -14,8 +14,6 @@
       items: 
         - name: Introduction 
           href: ./use/MyA-elements.md
-        - name: Viva Insights Home
-          href: ././personal/use/home-web.md
         - name: Dashboard
           href: ./use/dashboard-2.md
         - name: Insights add-in

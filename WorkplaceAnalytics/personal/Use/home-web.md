@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Viva Insights Home
+# Microsoft Viva Insights Home
 
 *This experience is currently only available to a set of targeted release users with a Microsoft MyAnalytics service plan*
 
