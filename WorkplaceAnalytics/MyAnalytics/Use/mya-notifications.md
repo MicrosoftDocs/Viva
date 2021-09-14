@@ -83,9 +83,11 @@ By using either of these options, you can provide "thumbs up" or a "thumbs down"
 
 You can also select **Turn off all notifications** if you would prefer not to receive any of the inline suggestions in the future.
 
- You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Insights Add-in pane.
+You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Insights Add-in pane.
 
 ## Delay delivery
+
+_**Applies to:** This suggestion is available to you if you have a Microsoft 365 E5 plan. It is currently being rolled out to users who have Microsoft E3 or E1 plans._
 
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
