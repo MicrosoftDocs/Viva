@@ -78,6 +78,24 @@ This step adds the Insights app to all the places where you might use Microsoft 
 >[!Note]
 >You can also locate the Insights app through this link: [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
 
+### Uninstall the app
+
+This section describes how to uninstall the Microsoft Viva Insights app from Teams.
+
+1. Select the ellipsis (...) on the left pane in Teams:
+
+   ![Select ellipsis](Images/uninstall-find-apps.png)
+
+2. Find the Viva Insights app by using search if it's not visible in your most recent view.
+
+3. Right-click to select the **Viva Insights** app and then select **Uninstall** on the shortcut menu:
+
+   ![Shortcut menu -- select Uninstall](Images/uninstall-2.png)
+
+4. In the window that appears, select **Uninstall**:
+
+   ![Confirm menu -- select Uninstall](Images/uninstall-confirm.png)
+
 ## Related topics
 
 [Viva Insights overview](viva-teams-app.md)
