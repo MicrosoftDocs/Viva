@@ -146,7 +146,7 @@ When composing an email or calendar invitation in Outlook about your upcoming ti
 
 ![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
 
-This suggestion is available to you if you have a [Microsoft or Office 365 E5, E3, and E1 plan](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is). This feature falls under the preview of [connected experiences that analyze your content in Office](/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
+This suggestion is available to you if you have a [Microsoft or Office 365 E5, E3, and E1 plan](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is). This feature has a dependency on the [connected experiences that analyze your content in Office](/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 
