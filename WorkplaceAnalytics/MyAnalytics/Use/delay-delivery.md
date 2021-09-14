@@ -28,7 +28,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 
 1. When you see a suggested delivery time while composing an email, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
 
-   ![Delay delivery inline suggestion.](../../Images/mya/use/delay-delivery-inline-1.png)
+   ![Delay delivery inline suggestion](../../Images/mya/use/delay-delivery-inline-1.png)
 
 2. An insight opens to show the scheduled time. You can select:
 
@@ -36,7 +36,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
    * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
    * **Cancel delay** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
 
-   ![Delay delivery insight options.](../../Images/mya/use/delay-delivery-inline.png)
+   ![Delay delivery insight options](../../Images/mya/use/delay-delivery-inline.png)
 
 3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
@@ -45,7 +45,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
    * **Send now** to ignore the scheduled delivery time and send the email now.
    * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
 
-   ![Delay delivery options.](../../Images/mya/use/delay-inline.png)
+   ![Delay delivery options](../../Images/mya/use/delay-inline.png)
 
 ## Opt in with MyAnalytics
 
@@ -54,7 +54,7 @@ When you opt in to the Delay delivery plan, MyAnalytics aligns email delivery wi
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. In **Config Settings**, change the setting for **Delay delivery** to **On**.
 
-  ![Turn on Delay delivery in MyAnalytics.](../../Images/mya/use/delay-on-mya.png)
+  ![Turn on Delay delivery in MyAnalytics](../../Images/mya/use/delay-on-mya.png)
 
 ## Opt in with Insights
 
