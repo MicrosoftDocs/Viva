@@ -86,7 +86,7 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 
    ![Select ellipsis](Images/select-ellipsis-narrow.png)
 
-2. If the Viva Insights app is not visible in your most recent view, find it by using search.
+2. If the Viva Insights app is not visible in your most recent view, find it by using search:
 
    ![Search for Insights app](Images/find-insights-app.png)
 
@@ -98,7 +98,7 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 
    ![Confirm menu -- select Uninstall](Images/confirm-uninstall.png)
 
-The Viva Insights app is now uninstalled from Teams.
+The Viva Insights app is now uninstalled from Teams:
 
    ![App is no longer in left menu bar](Images/uninstalled.png)
 
