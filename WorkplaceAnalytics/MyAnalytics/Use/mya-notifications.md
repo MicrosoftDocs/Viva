@@ -87,11 +87,11 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to:** This suggestion is available to you if you have a Microsoft 365 E5 plan. It is currently being rolled out to users who have Microsoft E3 or E1 plans._
+_**Applies to:** This suggestion is available to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). It is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md#availability-of-features)._
 
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
-These suggestions are available to you if you have a [Microsoft or Office 365 E5, E3, and E1 plan](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) and you're using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
+This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
 When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
