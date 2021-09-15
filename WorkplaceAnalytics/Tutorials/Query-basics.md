@@ -48,9 +48,14 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
+IN QUERY-BASICS2 UPDATE THIS IMAGE TO INCLUDE THE  WALLET
+
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
+
 #### Consumption model details
+
+OUTDATED: REPLACE WITH QB2 CONTENT
 
 In a consumption-model tenant, queries consume "units" as they are run. Unit calculation is as follows:
 
@@ -92,6 +97,8 @@ Of these, the refresh query should charge for **B** and **C** because neither we
 
 ##### No additional charges
 
+REPLACE WITH QB2 CONTENT
+
 No additional units are charged for the following:
 
 * Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
@@ -115,6 +122,14 @@ The **Queries** > **Results** page shows additional information if the consumpti
 * **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
+
+ADD INFO ABOUT ANALYST USAGE 
+ONLY ADMIN CAN DOWNLOAD THIS REPORT 
+
+1. COMPLETE DOCS WILL CONTAIN EVERYTHING: TO GO LIVE ON 10/1
+2. QB2 WITH ANALYST USAGE PART CAN GO LIVE NOW 
+ 
+NEED ANNOUNCEMENT TO THE TEAM ABOUT WHAT WE'RE RELEASING : "WHAT IS THE CHANGE" REFLECTS THIS DOCUMENTATION. NISHANT WILL MAKE THIS AND SEND TO ME FOR REVIEW. 
 
 -->
 
