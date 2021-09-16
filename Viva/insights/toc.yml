@@ -1,3 +1,4 @@
+items:
 - name: Microsoft Viva Insights 
   expanded: true
   items:
@@ -231,7 +232,8 @@
                   - name: Introduction
                     href: ~/Use/admin-settings.md
                   - name: System defaults
-                        href: ~/Use/system-defaults.md
+                    href: ~/Use/system-defaults.md
+                    items:
                       - name: Privacy settings and exclusions
                         href: ~/Use/privacy-settings.md
                       - name: Manager settings
