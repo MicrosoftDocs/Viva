@@ -36,6 +36,8 @@ This uses sample data that is only representative of the dashboard and might not
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiOGNmZDVjNTQtZjdiYy00M2JjLWE5MjAtMTM3YzY0Zjk3OTI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
+To find the template for the Ways of working tracker dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
+
 ## Prerequisites
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
