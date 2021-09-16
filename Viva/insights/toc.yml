@@ -1,7 +1,5 @@
 items:
 - name: Microsoft Viva Insights
-  href: testarticle.md
-  expanded: true
   items:
     - name: Introducing Microsoft Viva Insights
       href: introduction.md
