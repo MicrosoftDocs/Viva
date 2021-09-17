@@ -59,6 +59,8 @@ The following demo uses sample data that is only representative of this dashboar
 
 <iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZmVmZmQ3NjMtOGRmYS00ZWE3LTliNjYtZDU1NDg1OTQxYmIwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
+To find the template for the Manager effectiveness dashboard for Power BI, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
+
 ## Prerequisites
 
 Before you can run the query and populate the dashboard in Power BI, you must:

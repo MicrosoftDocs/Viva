@@ -31,6 +31,20 @@
       "template_folder": "_themes"
     },
     {
+      "docset_name": "OfficeDocs-Viva",
+      "build_source_folder": "Viva",
+      "build_output_subfolder": "OfficeDocs-Viva",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "OfficeDocs-WorkplaceAnalytics",
       "build_source_folder": "WorkplaceAnalytics",
       "build_output_subfolder": "OfficeDocs-WorkplaceAnalytics",
