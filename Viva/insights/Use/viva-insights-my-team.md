@@ -47,13 +47,10 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 
 ## Outcome insights
 
-To investigate further, select one of the outcomes to see more details about it. 
+To investigate further, select one of the outcomes to see more details about it.
 
-## Best practices
-
-To see what actions are recommended, select **View best practices**.  For example, in **Employee experience**, select **View best practices** to see what’s recommended for **Coaching and development**.
-
-![Best practice for coaching and development](../images/wpa/use/team-bp.png)
+* [Employee experience](team-experience.md)
+* [Team effectiveness](team-effectiveness.md)
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see **Q2** in [Manager and leader insights FAQ](my-team-faq.md).
