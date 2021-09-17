@@ -37,7 +37,7 @@ In the following architecture illustration, note the relationship of Viva Insigh
 
 Viva Insights shows you personal insights in the following ways:
 
-* [Viva Insights in Teams](../Teams-insights/viva-insights-home.md)
+* [Viva Insights in Teams](../teams/viva-insights-home.md)
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Viva Insights dashboard](../Use/dashboard-2.md)
 * [Briefing emails in Outlook](../Briefing/be-overview.md)

@@ -18,7 +18,7 @@ Microsoft Viva Insights helps you identify opportunities to build better work ha
 
 Viva Insights includes the following different ways you can use personal insights to do your best work:
 
-* [**Viva Insights in Teams**](./teams-insights/viva-teams-app.md) - Shows your personal insights within your Microsoft Teams flow of work, including how to stay connected, protect time, use Headspace for guided meditation, and start a virtual commute.
+* [**Viva Insights in Teams**](./teams/viva-teams-app.md) - Shows your personal insights within your Microsoft Teams flow of work, including how to stay connected, protect time, use Headspace for guided meditation, and start a virtual commute.
 * [**Viva Insights in Outlook add-in**](./use/add-in.md) - Shows you insights within Microsoft Outlook about how to prepare for upcoming meetings, gain focus time, maintain your work relationships, plan time away from work, and improve your overall work-life balance.
 * [**Dashboard**](./Use/dashboard-2.md) - This unified web experience shows you statistics about how you've spent your time over the past month, productivity insights about your work habits, and how to you explore your network, top collaborators, and collaboration activities.
 * [**Briefing emails in Outlook**](./briefing/be-overview.md) - Within two hours of your workday (as set up in Outlook), you'll get an email about any relevant items to help you stay in control of your calendar and be intentional about your day, including outstanding commitments or requests, preparing for upcoming meetings, and suggested times to schedule for focusing or catching up on messages.

@@ -19,33 +19,33 @@ items:
           - name: In Teams
             items:
               - name: Introduction
-                href: personal/Teams-insights/viva-teams-app.md
+                href: personal/teams/viva-teams-app.md
               - name: Home
                 items:
                   - name: Overview
-                    href: personal/Teams-insights/viva-insights-home.md
+                    href: personal/teams/viva-insights-home.md
                   - name: Reflect
-                    href: personal/Teams-insights/viva-insights-reflect.md
+                    href: personal/teams/viva-insights-reflect.md
                   - name: Send praise
-                    href: personal/Teams-insights/viva-insights-praise.md
+                    href: personal/teams/viva-insights-praise.md
                   - name: Virtual commute
-                    href: personal/Teams-insights/viva-insights-virtual-commute.md
+                    href: personal/teams/viva-insights-virtual-commute.md
                   - name: Headspace
-                    href: personal/Teams-insights/viva-insights-headspace.md               
+                    href: personal/teams/viva-insights-headspace.md               
               - name: Stay connected
-                href: personal/Teams-insights/viva-insights-stay-connected.md
+                href: personal/teams/viva-insights-stay-connected.md
               - name: Protect time
-                href: personal/Teams-insights/viva-insights-protect-time.md
+                href: personal/teams/viva-insights-protect-time.md
               - name: Setup
                 items: 
                   - name: Discover the app
-                    href: personal/Teams-insights/viva-teams-app-install.md
+                    href: personal/teams/viva-teams-app-install.md
                   - name: Configure the app
-                    href: personal/Teams-insights/viva-teams-app-settings.md
+                    href: personal/teams/viva-teams-app-settings.md
                   - name: Admin tasks
-                    href: /personal/Teams-insights/viva-teams-app-admin-tasks.md
+                    href: /personal/teams/viva-teams-app-admin-tasks.md
                   - name: FAQ
-                    href: /personal/Teams-insights/viva-teams-app-faq.md
+                    href: /personal/teams/viva-teams-app-faq.md
           - name: Briefing
             items:
               - name: Overview
