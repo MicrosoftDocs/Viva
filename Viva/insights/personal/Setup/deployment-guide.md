@@ -304,7 +304,7 @@ If users have questions about using Viva Insights, point them to the published [
 
 * See these descriptions of the Viva Insights surfaces:
 
-  * [Viva Insights in Microsoft Teams](../Teams-insights/viva-insights-home.md)
+  * [Viva Insights in Microsoft Teams](../teams/viva-insights-home.md)
   * [Personal dashboard](./../use/dashboard-2.md)
   * [Viva Insights Outlook add-in](./../use/add-in.md)
   * [Briefing emails](../Briefing/be-overview.md)
