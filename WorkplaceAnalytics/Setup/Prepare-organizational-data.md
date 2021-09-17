@@ -213,9 +213,7 @@ These are reserved column headers for attributes that are currently used only to
 | Layer                         | No   | Yes  | No   |
 | SupervisorIndicator           | Yes  | Yes  | No   |
 | TimeZone                      | No   | Yes  | No   |
-| GroupId                       | No   | No   | No   |
-| TieOrigin_Ona_GroupId         | No   | No   | No   |
-| TieDestination_Ona_GroupId    | No   | No   | No   |
+| Ona_GroupId                   | No   | No   | No   |
 
 ### Custom attributes
 
