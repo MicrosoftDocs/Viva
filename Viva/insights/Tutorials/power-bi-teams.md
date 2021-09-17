@@ -26,7 +26,7 @@ This dashboard enables you to visualize and explore your company’s current act
 * **How can community influencers help drive the adoption of Teams?** – Shows a recommended teams adoption plan for different groups based on their level of community influence, as described in more detail on this page. The phased plans provide ways employees can make meaningful changes in their work patterns, including communication, wellbeing, and meeting culture recommendations and best practices.
 * **Are employees working after hours in Teams?** – Shows the average workweek span and averages for the spread of activity during the day and outside of the group’s set working hours. As collaboration moves digitally, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
 
-![Power BI Teams template.](../Images/WpA/Tutorials/teams-insights.png)
+![Power BI Teams template.](../Images/WpA/Tutorials/teams.png)
 
 The dashboard also includes a page with **Opportunity areas to get more out of Teams** that shows ways your employees can use Teams, such as:
 
@@ -127,7 +127,7 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ### Training opportunity
 
-Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](/learn/modules/workplace-analytics-teams-insights/)
+Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](/learn/modules/workplace-analytics-teams/)
 
 ## Related topic
 

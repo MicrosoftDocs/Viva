@@ -21,14 +21,14 @@ As a manager, you can see these insights in **My team** within the Viva Insights
 
 ## Data privacy
 
-When data is processed for My team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for Personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams-insights/viva-teams-app-privacy.md).  
+When data is processed for My team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for Personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).  
 
 ## Install, pin, and configure the app
 
-After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md), the setup for **My team** is the same as for [Personal insights](../personal/teams-insights/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
+After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md), the setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
 
-* [Install and pin the app](../personal/teams-insights/viva-teams-app-install.md)
-* [Configure the app](../personal/teams-insights/viva-teams-app-settings.md)
+* [Install and pin the app](../personal/teams/viva-teams-app-install.md)
+* [Configure the app](../personal/teams/viva-teams-app-settings.md)
 
 ## View My team
 
