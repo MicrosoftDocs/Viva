@@ -37,7 +37,7 @@ This article describes the steps that are required to set up and configure Workp
 
 **To set up Workplace Analytics**
 
-1. **Open [Workplace Analytics](https://workplaceanalytics.office.com)**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
+1. **[Open Workplace Analytics using a direct link](https://workplaceanalytics.office.com)**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
 
       ![The Home page guides you through setup.](../images/wpa/setup/onboarding-intro.png)
   
