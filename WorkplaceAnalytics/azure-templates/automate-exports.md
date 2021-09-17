@@ -125,4 +125,4 @@ You can then use this new data factory to access query data from Viva Insights a
 ## Related topics
 
 * [Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md)
-* [View, download, and export query results](../workplace-analytics/use/view-download-and-export-query-results.md)
+* [View, download, and export query results](../use/view-download-and-export-query-results.md)
