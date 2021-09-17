@@ -15,8 +15,6 @@ audience: Admin
 
 # Automate query data exports to Azure
 
-_Data export is available only as part of a Microsoft service engagement._
-
 Do you need to combine query data from Microsoft Viva Insights (formerly Workplace Analytics) with other Azure data sources, such as HR or Sales data for more advanced data analytics and reporting? Are you manually downloading large amounts of static query data, and then uploading it into Azure on a routine basis?
 
 With Azure Data Factory and Azure Active Directory, you can automate the export of query data through the OData query link to connect and automatically refresh an Azure data store of your choice.
