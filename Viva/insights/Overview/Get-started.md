@@ -49,7 +49,7 @@ Viva Insights provides advanced analysis tools for deep diving into the data sho
 
   * [**Sources**](../use/settings.md#sources) – View information about the Microsoft 365 and organizational data that's been uploaded into the web app.
   * [**Upload**](../use/settings.md#upload) – Prepare and upload organizational and customer data.
-  * [**Analysis settings**](../use/settings.md#analysis-settings) – Customize exclusion rules to help ensure data accuracy.
+  * [**Analyst settings**](../use/settings.md#analysis-settings) – Customize exclusion rules to help ensure data accuracy.
   * [**Admin settings**](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.
 
 ### Video: Navigate the web app
