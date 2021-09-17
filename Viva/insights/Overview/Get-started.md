@@ -19,7 +19,7 @@ audience: Admin
 
 [![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
-The Microsoft Viva Insights web app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
+The Microsoft Viva Insights in Workplace Analytics app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
 Analysts can explore organizational data with advanced insights and dive deeper into their company's behavioral metrics with the Query designer.
 
