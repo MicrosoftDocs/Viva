@@ -33,7 +33,7 @@ This article describes the steps that are required to set up and configure Workp
 
 ### Video: Overview for admins
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" ></iframe>
 
 **To set up Workplace Analytics**
 
