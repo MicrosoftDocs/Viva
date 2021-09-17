@@ -1,7 +1,7 @@
 ---
 
 title: Automate query data exports
-description: Learn how to automate data query data exports from Microsoft Viva Insights data to Azure
+description: Learn how to automate data query data exports from Microsoft Workplace Analytics to Azure
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -15,11 +15,7 @@ audience: Admin
 
 # Automate query data exports to Azure
 
-Do you need to combine query data from Microsoft Viva Insights (formerly Workplace Analytics) with other Azure data sources, such as HR or Sales data for more advanced data analytics and reporting? Are you manually downloading large amounts of static query data, and then uploading it into Azure on a routine basis?
-
-With Azure Data Factory and Azure Active Directory, you can automate the export of query data through the OData query link to connect and automatically refresh an Azure data store of your choice.
-
-You can then join dynamically refreshed query data with other organizational datasets for more advanced analysis and data science projects.
+With Azure Data Factory and Azure Active Directory, you can automate the export of query data from Microsoft Workplace Analytics through the OData query link to connect and automatically refresh an Azure data store of your choice. 
 
 ## Pick a setup path
 
@@ -30,31 +26,31 @@ To set up the automated OData connection between query data and your choice Azur
 
 ## Prerequisites
 
-* **Viva Insights licensed analyst** – Must be assigned a license and an Analyst role for Viva Insights (formerly Workplace Analytics) and have query results with the data you want to export.
+* **Workplace Analytics licensed analyst** – Must be assigned a license and an Analyst role for Workplace Analytics and have query results with the data you want to export.
 * **Microsoft Azure subscription** – If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) now. You’ll be using [Azure Active Directory](/azure/active-directory/), [OData connector](/azure/data-factory/connector-odata#supported-capabilities), and [Data Factory](/rest/api/datafactory/) for this setup.
 * **Azure data store** – Your data store must be [supported by the OData connector](/azure/data-factory/connector-odata).
 * **Azure admin** – You need Azure admin privileges to create and register the app in Azure. You also need to ask the Azure global admin to grant you permissions in Azure Data Factory to connect your new app to the Azure data store.
 
 ## To set up with Azure Data Factory UI
 
-The following steps you through how to automate the export of Viva Insights query data to your choice Azure data store with the [Azure Data Factory UI](/azure/data-factory/introduction). Use the following steps in conjunction with the [Azure documentation](/azure/data-factory/introduction) to complete this setup.
+The following steps you through how to automate the export of Workplace Analytics query data to your choice Azure data store with the [Azure Data Factory UI](/azure/data-factory/introduction). Use the following steps in conjunction with the [Azure documentation](/azure/data-factory/introduction) to complete this setup.
 
 1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Azure Active Directory.
-2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Viva Insights by selecting **View API permissions**, and then select **Add a permission**.
-3. Enter and search for the **Viva Insights** or **Workplace Analytics** app name or **ID** and then select the applicable name from the list.
+2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
+3. Enter and search for the **Workplace Analytics** app name or **ID** and then select the applicable name from the list.
 
    ![App permissions.](./images/app-permissions.png)
 
    To find the Application (client) ID:
 
-   * In **Active Directory**, select **all applications**, and then enter **Viva Insights** or **Workplace Analytics** for the enterprise app that you want to use.
+   * In **Active Directory**, select **all applications**, and then enter **Workplace Analytics** for the enterprise app that you want to use.
    * Select it from the list.
    * In **Application ID**, copy the ID and paste it in **APIs my organization uses** search field.
 
      ![Workplace Analytics Application ID.](./images/app-id.png)
 
 4. In **Request API permissions**, select **Application permissions**, select **Analyst**, and then select **Add permissions**.
-5. In **API permissions**, the global admin must select **Grant admin consent for [Viva Insights or Workplace Analytics…]** before you can continue to the next step.
+5. In **API permissions**, the global admin must select **Grant admin consent for [Workplace Analytics…]** before you can continue to the next step.
 
     ![Grant the app permissions.](./images/permissions-grant.png)
 
@@ -71,7 +67,7 @@ The following steps you through how to automate the export of Viva Insights quer
 12. Select **Connection**, select **New**, and then enter a name and description for the OData link, such as **WPA_Odata_Collab**.
 
 13. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
-14. In [Viva Insights](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, copy the OData link for the query data you want to connect to Azure.
+14. In [Workplace Analytics](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, copy the OData link for the query data you want to connect to Azure.
 
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](../tutorials/query-auto-refresh.md#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
@@ -102,7 +98,7 @@ The following steps you through how to automate the export of Viva Insights quer
 22. Select **Test connection** to test the OData linked service.
 23. After you see **Connection successful**, select **Create**.
 24. In **Connection** > **Linked service** for the new OData linked service, select the new dataset you just created in the previous steps.
-25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Viva Insights](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**:
+25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**:
 
      ![Query entity set name.](./images/entity-set-name.png)
 
@@ -118,7 +114,7 @@ The following steps you through how to automate the export of Viva Insights quer
 
 33. In **Sink** > **Sink dataset**, select the linked service name you created in a previous step.
 
-You can then use this new data factory to access query data from Viva Insights and copy it to your choice data store (blob storage) by using the Azure Resource Manager template. You can reuse this new app over time for multiple projects without having to repeat these steps. You can also reuse the data factory you created for new pipelines.
+You can then use this new data factory to access query data from Workplace Analytics and copy it to your choice data store (blob storage) by using the Azure Resource Manager template. You can reuse this new app over time for multiple projects without having to repeat these steps. You can also reuse the data factory you created for new pipelines.
 
 ## Related topics
 
