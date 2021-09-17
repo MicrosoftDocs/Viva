@@ -12,6 +12,8 @@ audience: Admin
 
 # Inline suggestions in Outlook
 
+## What are inline suggestions in Outlook?
+
 Inline suggestions in Outlook are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
 Inline suggestions can help boost your productivity and that of your team by displaying useful suggestions, tips, and best practices around managing email and running meetings. They help inform and guide you in making effective email and meeting decisions. They can also help you reclaim focus hours and build better collaboration habits, in addition to other practical benefits. [Types of inline suggestions](#types-of-inline-suggestions) lists some of what you might see in Outlook.
@@ -172,6 +174,8 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 ## Shorten a meeting
 
+_**Applies to:** This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
+
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
 ![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77-80-75.png)
@@ -182,6 +186,8 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 ## Track email open rate
 
+_**Applies to:** This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
+
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
 ![Track email open rate](../../Images/mya/use/track-email-open-rate-50.png)
@@ -191,6 +197,8 @@ Select **See more insights** to see how many people have opened or forwarded you
 ![Email open rates](../../Images/mya/use/email-open-rates-50.png)
 
 ## Track email
+
+_**Applies to:** This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
 
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 

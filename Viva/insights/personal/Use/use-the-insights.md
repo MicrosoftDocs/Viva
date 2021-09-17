@@ -1,6 +1,6 @@
 ---
-title: Use Viva Insights in Outlook add-in
-description: Learn how to use the options in the Microsoft Viva Insights Outlook add-in.
+title: Use Insights
+description: Learn how to use the options in the Insights Outlook add-in.
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -9,9 +9,9 @@ ms.prod: Mya
 manager: scott.ruble
 audience: Admin
 ---
-# Use Viva Insights in Outlook
+# Use Insights
 
-The following are available within the Microsoft Viva Insights in Outlook to help you get the most done during your workday:
+The information in this section helps you get the most out of the following insights:
 
 * [Prepare for your meetings](#prepare-for-your-meetings)
 * [Track email and document open rates](#track-email-and-document-open-rates)
@@ -26,16 +26,15 @@ The following are available within the Microsoft Viva Insights in Outlook to hel
 * [Catch up with your team](#catch-up-with-your-team)
 * [Meeting suggestions](#meeting-suggestions)
 * [Check quiet hours impact](#check-quiet-hours-impact)
-
 ## Prepare for your meetings
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members.
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
 
 **Prepare for your meetings** shows you a list of upcoming meetings that you've organized or that you've been invited to. This insight helps you decide whether each meeting is ready to go.
 
 ### To use this insight
 
-1. On the **Viva Insights** panel, the **Prepare for your meetings** insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) to help you review and plan for them.
+1. On the **Insights** panel, the **Prepare for your meetings** insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) to help you review and plan for them.
 
     ![Prepare for your meetings.](../../images/mya/use/prep-for-your-meetings-70.png)
 
@@ -68,19 +67,19 @@ Each meeting card title includes the meeting title, the organizer, the start tim
 
 ## Track email and document open rates
 
-_**Applies to**: Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Personal insights plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+_**Applies to:** This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
 
-Viva Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
+Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
-Viva Insights also tells you how many email recipients opened a document that you shared in the email as a link or as an attachment (this insight works for documents that are stored in SharePoint or in OneDrive for Business).
+Insights also tells you how many email recipients opened a document that you shared in the email as a link or as an attachment (this insight works for documents that are stored in SharePoint or in OneDrive for Business).
 
-After you send an email message, it can take up to 30 minutes before Viva Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
+After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
 
-Viva Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary that you can select and expand to see a more detailed view.
+Insights shows the open rate for the sent email that is open in Outlook. It also groups open rate information for qualifying sent items into a single summary that you can select and expand to see a more detailed view.
 
 ### Reporting details
 
-Viva Insights does not display read information about every email that you send, such as in the following circumstances.
+Insights does not display read information about every email that you send, such as in the following circumstances.
 
 #### Requirement: qualifying messages
 
@@ -97,15 +96,15 @@ Insights does not report about email messages in the following categories:
 
 #### Open rate
 
-Viva Insights respects user privacy. For this reason, the Viva Insights add-in does not show information about individual recipients, and -- when necessary to protect privacy -- it reports approximated values only.
+MyAnalytics respects user privacy. For this reason, the Insights add-in does not show information about individual recipients, and -- when necessary to protect privacy -- it reports approximated values only.
 
 **Open-rate value thresholds**
 
-Within 30 minutes of when you sent qualifying email, the Viva Insights add-in  reports the actual or an approximated open rate, as described here:
+Within 30 minutes of when you sent qualifying email, the Insights add-in  reports the actual or an approximated open rate, as described here:
 
-* **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Viva Insights displays the open rate as "_&lt; 25%_."
+* **Below minimum.** For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as "_&lt; 25%_."
 * **Between thresholds.** If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
-* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 96% of the 25 email recipients open the email, Viva Insights displays the open rate as "_&gt; 95%_."
+* **Above maximum.** For open rates higher than the maximum threshold, the threshold value is reported. For example, when 96% of the 25 email recipients open the email, Insights displays the open rate as "_&gt; 95%_."
 
    | Number of recipients | Open rate reported |
    | ------- | ------ |
@@ -113,16 +112,16 @@ Within 30 minutes of when you sent qualifying email, the Viva Insights add-in  r
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
- For more information, see [Email read rates](../overview/privacy-guide-users.md#email-read-ratess). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
+ For more information, see [Email read rates and document open rates](../overview/privacy-guide.md#email-read-rates-and-document-open-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
 
 **To see read information about sent emails**
 
-1. If the Viva Insights pane isn't already open, select the **Viva Insights** icon in the Outlook **Home** ribbon to open it.
+1. If the Insights pane isn't already open, select the **Insights** icon in the Outlook **Home** ribbon to open it.
 
    >[!Note]
    >If you see a "Welcome!" message, select **Get started**.
 
-2. In **Viva Insights**, select one of the following:
+2. In **Insights**, select one of the following:
 
    1. **In-context email open rate** - Shows read statistics for the sent email that you currently have open in Outlook. It also provides open rates for linked or attached documents that are stored in OneDrive for Business or in SharePoint.  
 
@@ -139,6 +138,78 @@ Within 30 minutes of when you sent qualifying email, the Viva Insights add-in  r
 
       ![Email open rates.](../../images/mya/use/step-2-two-emails.png)
 
+<!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     
+
+## Track email open rates
+
+_**Applies to**: MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq#q4-how-can-i-find-out-what-my-plan-is.md)_
+
+Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision making. This insight gives you feedback on how well your sent emails are received.
+
+**Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why:
+
+ * Not all emails are eligible (For more information about eligible sent emails, see [Eligibility Criterion]())
+ * Approximated values are reported, and
+ * Individual recipient information is never shown.
+
+For more information about privacy, see [Email read rates](). If you need individual recipient information, learn about [request read receipts]() in Outlook.
+
+### To use this insight
+
+ * On the **Insights** panel, locate **Track email open rates**. This insight provides read statistics of the eligible emails that you sent in the last 14 days:
+
+    ![Track email open rates.](../../images/mya/use/step-1-track-open-rates.png)
+ 
+   If you are already have a sent email open, the **Insights** pane will show you read statistics at the top of the panel, as shown here:
+
+    ![Test email - read stats.](../../images/mya/use/test-email-read-stats.png)   
+
+   If you do not have an email open, select **Track email open rates** to see read statistics for all eligible sent emails.
+
+    ![Email open rates.](../../images/mya/use/email-open-rates-3.png)      
+ 
+#### Insight option details
+
+| Card section | Notes | Recommendations |
+| ------ | ------ | ------ |
+| Email Subject	|Shows the email title  |	
+|Open Rate	|This is the proportion of the email recipients who opened your email in Outlook.<br>For more information about these statistics, see [Open rate](#open-rate). &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | Depending on the importance of the email and overall open rate, you might want to follow up with the recipients. |
+| Open rate summary | Brief summary of the overall readership. |	
+| Forwards | The number of times the email was forwarded. | 	
+| Average time spent on email | The average amount of time spent on the email by people who opened it. | If you think emails are not being read or readers are not spending enough time reading, it could be because the email is too long or the content could be better organized, for example, to first call out highlights. | 
+
+### Open rate
+
+The Insights add-in reports the open rate within 30 minutes of when a qualifying email was sent by you, as per the following table. Note the following:
+
+* For open rates lower than the minimum threshold, the threshold value is reported. For example, when 20% of 10 email recipients open the email, Insights displays the open rate as < 25%.
+* If the actual open rate falls between the "Minimum" and "Maximum" values shown in the table, then the actual open rate is reported.
+* For open rates higher than the maximum threshold, the threshold value is reported. For example, when 98% of the email recipients open the email, the maximum value in the table will be > 95%. [[FIX WORDING IN THE PRECEDING SENTENCE! SEE INFO IN OTHER WORK ITEM WITH NITHIN.]]
+
+| Number of recipients | Open rate reported | 
+| ------ | ------ | 
+| 5 - 10 |	Minimum: 25% <br> Maximum: 75% |
+| 11 - 20 |	Minimum: 10% <br> Maximum: 90% |
+| > 21 |	Minimum: 5% <br> Maximum: 95% |
+
+### Eligibility Criterion
+Insights does not display read information about every email that you send.
+
+#### Requirement: qualifying messages
+
+Read statistics are shown only for qualifying messages. A qualifying message is an email message that is sent to five or more qualifying recipients. A qualifying recipient is a person who is in the same company as the sender and has a cloud mailbox. Distribution lists are expanded before counting qualifying recipients. 
+
+After you send an email message, it can take up to 30 minutes before Insights informs you about it. If the email is sent from a delegated mailbox with "send on behalf" permission, the delegate can see the read statistics.
+
+##### Exceptions to qualifying messages
+
+Insights does not report about email messages in the following categories:
+
+* Email that was sent from a shared mailbox
+* Email that was sent more than 14 days ago.
+* Email in which the total number of recipients (the sum of all of the recipients in the To:, Cc:, and Bcc: fields) is less than five.
+* Email sent to modern groups. (If users are following the modern group, they are included in the count.) 
+-->
 ## View outstanding tasks
 
 It is easy to lose track of commitments that you've made to your colleagues in email. The **View outstanding tasks** insight helps you make sure nothing falls through the cracks by reminding you of tasks that you've agreed to do. It is based on emails that you've sent and requests from your colleagues during the last 14 days of email communication. For example:
@@ -149,11 +220,11 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 ### To use this insight
 
-In the **Viva Insights** pane, select **View outstanding tasks**. This insight is available only in English.
+In the **Insights** pane, select **View outstanding tasks**. This insight is available only in English.
 
    ![Test email - read stats.](../../images/mya/use/test-email-read-stats.png)
 
-This opens a panel that displays Viva Insights for each of your suggested outstanding tasks.
+This opens a panel that displays insights for each of your suggested outstanding tasks.
 
    ![Suggested tasks.](../../images/mya/use/suggested-tasks-62.png)
 
@@ -179,11 +250,11 @@ It can be easy to lose track of requests you made of your colleagues. By automat
 
 ### To use this insight
 
-In the **Viva Insights** pane, select **Follow up on your requests**. This insight is available only in English.
+In the **Insights** pane, select **Follow up on your requests**. This insight is available only in English.
 
 ![Follow up on your requests.](../../images/mya/use/follow-up-on-your-requests.png)
 
-This opens a panel that displays Viva Insights for each of your suggested follow-up tasks.
+This opens a panel that displays insights for each of your suggested follow-up tasks.
 
 ![Follow ups.](../../images/mya/use/follow-ups-card-62.png)
 
@@ -196,7 +267,7 @@ This opens a panel that displays Viva Insights for each of your suggested follow
 | **Follow up snapshot** | A snippet of text related to the follow-up
 | **Follow up** | Select this to open the relevant email so that you can follow up on the task
 | **Already done** | Select this to mark the follow-up as completed. Follow-ups disappear after two weeks or after you mark them as done.
-| **Not a follow up** | Select this to mark the insight as not a follow-up and remove it from your list. This also helps Viva Insights improve its detection accuracy.
+| **Not a follow up** | Select this to mark the insight as not a follow-up and remove it from your list. This also helps MyAnalytics improve its detection accuracy.
 | **Add to To Do** | Select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later.<br><br> This tool can make your days more manageable and reduce the stress of things falling through the cracks. It can also help effectively prioritize and even delegate work, which can lead to higher productivity.
 
 ## Book time to focus
@@ -207,7 +278,7 @@ Research shows that on average it takes 23 minutes to refocus on a task after a 
 
 ### To use this insight
 
-In the **Viva Insights** pane, select **Book time to focus**. This insight appears if your calendar has time available during your working hours that is not blocked by meetings or appointments.
+In the **Insights** pane, select **Book time to focus**. This insight appears if your calendar has time available during your working hours that is not blocked by meetings or appointments.
 
 ![Book time to focus.](../../images/mya/use/book-time-to-focus-52.png)
 
@@ -222,7 +293,7 @@ This opens a panel that displays all the time available to focus in the coming w
 | **Date/Time** &emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp;| Shows the date and time of the available focus time that you can book. |
 | **+** | Select this to add time to your calendar as focus time. |
 | **Pencil icon** | Say you want to focus on “Sales pitch” for two hours. Select the pencil icon, change the “Focus time” label to “Sales pitch,” and then click (+). This books a two-hour appointment on your calendar with title “Sales pitch.”<br><br>You can set priority contacts in Teams to ensure that you don’t miss important messages during focus time. |
-| **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. Viva Insights will respect your preferences when it proposes focus time. |
+| **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. MyAnalytics will respect your preferences when it proposes focus time. |
 
 ## Catch up on email
 
@@ -230,11 +301,11 @@ It is easy for important emails to get lost when your inbox is full of unread em
 
 ### To use this insight
 
-In the **Viva Insights** pane, select **Catch up on email**.
+In the **Insights** pane, select **Catch up on email**.
 
 ![Catch up on email.](../../images/mya/use/catch-up-on-email-54.png)
 
-This opens a panel that displays Viva Insights for each of your important unread emails:
+This opens a panel that displays insights for each of your important unread emails:
 
 ![Unread important email.](../../images/mya/use/unread-important-email-54.png)  
 
@@ -253,7 +324,7 @@ Searching for that document you had planned to read but just can't find? With so
 
 ### To use this insight
 
-In the **Viva Insights** pane, select **Catch up on documents**:
+In the **Insights** pane, select **Catch up on documents**:
 
 ![Catch up on documents.](../../images/mya/use/catch-up-on-documents-54.png)
 
@@ -277,11 +348,11 @@ This opens a panel that displays insights for each document shared with you in t
 
 ## Add important people
 
-You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, Viva Insights will remind you when you have tasks to do for these important people or unread email from them.
+You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, MyAnalytics will remind you when you have tasks to do for these important people or unread email from them.
 
 ### To use this insight
 
-In the **Viva Insights** pane, select **Add important people**:
+In the **Insights** pane, select **Add important people**:
 
 ![Add important people.](../../images/mya/use/add-important-people-54.png)  
 
@@ -293,20 +364,20 @@ This opens a panel with suggestions to mark a recommended contact as important:
 
 | Card section | Notes | Recommendations |
 | ------ | ------ | ------ |
-| **Name and icon** | The person whom Viva Insights recommends to mark as Important
-| **Mark as important** &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;  &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;| Select this to mark the suggested contact as important. Viva Insights will then help you stay on top of outstanding tasks, unread documents, and email from your important people. | Consider marking your top collaborators and contacts as important so that you are always aware of outstanding items from them. |
+| **Name and icon** | The person whom MyAnalytics recommends to mark as Important
+| **Mark as important** &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;  &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;| Select this to mark the suggested contact as important. MyAnalytics will then help you stay on top of outstanding tasks, unread documents, and email from your important people. | Consider marking your top collaborators and contacts as important so that you are always aware of outstanding items from them. |
 
 ## Set lunch hours
 
-Struggling to protect time for lunch? Colleagues keep sending meeting invitations during your lunch hours? Not taking a lunch break can leave you feeling more tired and stressed and less focused. Even if you just take 15-20 minutes, this is a proven way to maintain levels of concentration and energy during the day. Use this insight to protect your lunch time and personalize your Viva Insights to take into account your preferred lunch hours.
+Struggling to protect time for lunch? Colleagues keep sending meeting invitations during your lunch hours? Not taking a lunch break can leave you feeling more tired and stressed and less focused. Even if you just take 15-20 minutes, this is a proven way to maintain levels of concentration and energy during the day. Use this insight to protect your lunch time and personalize your MyAnalytics insights to take into account your preferred lunch hours.
 
 ### To use this insight
 
-You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. This card is shown only for a short while to new users of Viva Insights. It is not available permanently, but you can always set your lunch hours in **Settings**:
+You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. This card is shown only for a short while to new users of MyAnalytics. It is not available permanently, but you can always set your lunch hours in **Settings**:
 
 #### Set lunch hours in _Settings_
 
-1. In the **Viva Insights** pane, select **Settings** (the gear icon).
+1. In the **Insights** pane, select **Settings** (the gear icon).
 
 2. In the **Set lunch hours** area, select the edit (pencil) option:
 
@@ -318,7 +389,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 
 #### Set lunch hours through the _Set lunch hours_ card
 
-1. In the **Viva Insights** pane, locate **Set lunch hours**:
+1. In the **Insights** pane, locate **Set lunch hours**:
 
    ![Set your lunch hours.](../../images/mya/use/set-lunch-hours.png)  
 
@@ -330,7 +401,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 | ------ | ------ | ------ |
 | **Default Lunch hours** &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;| Your default lunch hours, which you can confirm or change | |
 | **Change** | Select this to reset your lunch-hour times | |
-| **Confirm** | Select this to save your settings. Viva Insights will then exclude lunch hours when recommending focus blocks or meeting times.  &emsp;&emsp;&emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; | Taking care of your mental and physical wellbeing. Studies show that taking a lunch break allows your mind to rest, recharge and refocus, which can directly improve your productivity for the rest of the day. |
+| **Confirm** | Select this to save your settings. MyAnalytics will then exclude lunch hours when recommending focus blocks or meeting times.  &emsp;&emsp;&emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; | Taking care of your mental and physical wellbeing. Studies show that taking a lunch break allows your mind to rest, recharge and refocus, which can directly improve your productivity for the rest of the day. |
 | **Add a recurring calendar event** &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; | By checking this box, you have the option to add a recurring calendar event to protect this time. | Consider setting a recurring calendar event if your preferred lunch hours frequently conflict with meetings. |
 
 ## Plan your time away
@@ -343,33 +414,33 @@ The **Plan your time away** checklist can help reduce the stress of planning for
 * Compose your autoreplies and notify your team about your planned time off.
 * Schedule focus time to wrap up tasks before you go and to catch up on work when you get back.
 
-You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Viva Insights will track your progress and update which actions are done.
+You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
 ![Insights plan your time away task.](../../images/mya/use/plan-your-time-away.png)
 
 **To use Plan your time away**
 
-1. If the Viva Insights pane isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
+1. If the Insights pane isn't shown, select the **Insights** icon on your Outlook **Home** ribbon.
 
-1. In the **Viva Insights** pane, select **Plan your time away** to see a checklist of planning options.
+1. In the **Insights** pane, select **Plan your time away** to see a checklist of planning options.
 
    * **Select dates** - Select **Start** and **End dates** for when you'll be out of office, and then select **Schedule**, which sets up an Out-Of-Office appointment on your calendar for the selected dates.
 
      >[!Tip]
      >Updating your calendar with out-of-office information is a best practice that’ll set the right expectations with coworkers who want to connect with you.
 
-     ![Viva Insights update calendar.](../../images/mya/use/insights-select-dates.png)
+     ![Insights update calendar.](../../images/mya/use/insights-select-dates.png)
 
    * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
-     ![Viva Insights auto-reply email.](../../images/mya/use/insights-auto-reply.png)
+     ![Insights auto-reply email.](../../images/mya/use/insights-auto-reply.png)
 
      > [!Note]
      > If you've composed a message for a previous out-off-office period, the most recent message that you used is shown in the **Compose or edit message** field. You can edit the message so that it pertains to your upcoming time away.
 
    * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
 
-     ![Viva Insights notify collaborators.](../../images/mya/use/insights-notify.png)
+     ![Insights notify collaborators.](../../images/mya/use/insights-notify.png)
 
    * **Resolve meetings** - You'll see a list of meetings you either organized or accepted for while you're away.
 
@@ -379,18 +450,18 @@ You can plan your schedule with these options all at one time or individually as
      >[!Tip]
      >By using this option to quickly and easily resolve all your meetings, you're saving valuable planning time while also respecting your coworkers time.
 
-       ![Viva Insights resolve meetings.](../../images/mya/use/insights-resolve-meetings.png)
+       ![Insights resolve meetings.](../../images/mya/use/insights-resolve-meetings.png)
 
    * **Book time to focus** - You can schedule time to focus on wrapping up work before you go, and then on catching up after you get back. Select the **plus sign** (+) next to the available **Focus time** slots, and then select **Done** to add them to your calendar.
 
      >[!Tip]
      >With this time scheduled, you'll know you have time to get everything done both before you go and after you get back.
 
-     ![Viva Insights book focus time.](../../images/mya/use/insights-focus-time.png)
+     ![Insights book focus time.](../../images/mya/use/insights-focus-time.png)
 
 ## Catch up with your team
 
-People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. Viva Insights brings together all the information managers need to stay caught up and respond quickly to important requests.
+People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests.
 
 As a manager, you can:
 
@@ -398,17 +469,24 @@ As a manager, you can:
 * Act on tasks you promised to get done or that team members asked you to complete.
 * Review important emails and documents from team members that you haven't read yet.
 
-This feature is only available for people who are using Viva Insights and have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
+<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS THIS ENTIRE PARAGRAPH IN JANUARY 2021.
+
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
+-->
+
+<!-- USING THE FOLLOWING COMPLETE PARAGRAPH FOR NOW. REINSTATE THE ENTIRE PRECEDING PARAGRAPH IN 2021.  -->
+
+This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
 
 #### To catch up with your team
 
-1. On Outlook or in Outlook on the web, [open the Viva Insights add-in](add-in.md#open-the-viva-insights-add-in).
+1. On Outlook or in Outlook on the web, [open the Insights add-in](add-in.md#open-the-insights-add-in).
 
 2. Select **Catch up with your team**:
 
    ![Catch up with your team.](../../images/mya/use/catch-up.png)
 
-   The **Viva Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
+   The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
 
    ![Team member follow-up.](../../images/mya/use/connect-actions-debra-75-90.png)
 
@@ -418,7 +496,7 @@ This feature is only available for people who are using Viva Insights and have d
 
    ![Update team members.](../../images/mya/use/edit-team75-75-80.png)
 
-Any changes you make apply only to your Viva Insights experience; they do not synchronize back to Azure Active Directory.
+Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
 
 ## Meeting suggestions
 
@@ -426,7 +504,7 @@ While staying in touch with top collaborators can be difficult, a quick 1:1 meet
 
 ### To use this insight
 
-* In the **Viva Insights** pane, locate the **Meet with &lt;name of contact&gt;** insight:
+* In the **Insights** pane, locate the **Meet with &lt;name of contact&gt;** insight:
 
   ![Meet with person for 1:1.](../../images/mya/use/meet-with-person-54.png)
 
@@ -445,7 +523,7 @@ With **Check quiet hours impact**, you can help your team achieve work-life bala
 
 ### To use this insight
 
-* In the **Viva Insights** pane, select **Check quiet hours impact**:
+* In the **Insights** pane, select **Check quiet hours impact**:
 
   ![Check quiet hours impact.](../../images/mya/use/check-quiet-hours-impact-54.png)
 
@@ -455,5 +533,5 @@ With **Check quiet hours impact**, you can help your team achieve work-life bala
 
 ## Related topics
 
-* [Viva Insights Outlook add-in](add-in.md)
-* [Viva Insights elements](MyA-elements.md)
+* [Insights Outlook add-in](add-in.md)
+* [MyAnalytics elements](MyA-elements.md)
