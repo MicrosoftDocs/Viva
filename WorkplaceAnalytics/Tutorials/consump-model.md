@@ -67,7 +67,7 @@ The terms in this formula are as follows:
    | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
    >[!Note]
-   >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** ***B*** **C** ***D** (for the metric on price tier 1) + **A*** **B** ***C*** **D** (for the metric on price tier 2)
+   >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
 
 * **D = weeks**
 
@@ -82,6 +82,9 @@ On the query page, you can see how units are calculated for the query that you a
 This opens a panel that describes the current calculation:
 
 ![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
+
+>[!Note]
+>The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
 
 #### Charges for recurring queries
 

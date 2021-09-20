@@ -113,6 +113,9 @@ This opens a panel that describes the current calculation:
 
 ![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
+>[!Note]
+>The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
+
 ##### Charges for recurring queries
 
 Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
