@@ -94,7 +94,6 @@ The terms in this formula are as follows:
 
   A “price tier” is associated with each metric, as described in the following item.
 
-
 * **C = price-tier cost**
 
    This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
@@ -162,12 +161,6 @@ No additional units are charged for the following:
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
 
-### For analysts in PUPM-model tenants
-
-The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, your organization has been billed for the usage of the product during the time of purchase:
-
-![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
-
 <!-- REMOVE THIS ENTIRE SECTION FOR NOW (AUGUST 19 2021). RETURN THIS SECTION TO THE DOC AFTER GA. -->
 <!-- 
 
@@ -199,7 +192,13 @@ The **Analyst usage** report is available for download in the administrative pag
 
 3. Select the time period for which you want information about query usage.
 4. Select **Download**.
-1. 
+
+### For analysts in PUPM-model tenants
+
+The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, your organization has been billed for the usage of the product during the time of purchase:
+
+![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
+
 <!-- END OF BILLING MODEL DIFFERENCES SECTION -->
 
 ## Query types
