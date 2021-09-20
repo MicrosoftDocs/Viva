@@ -25,16 +25,19 @@ If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version)
 
 * If the related task is already done, select **Done**.
 * If you’d like to follow up on the task later, select **Remind me**. The task is automatically added to To Do and a Briefing email reminder is set for the next working day.  
-* After you select **Remind me**, you can edit the task by selecting **Edit task in To Do** or you can select **Remind me on date** to choose a date on which you’d like to be reminded of the task.  
+* After you select **Remind me**, you can customize the task or its reminder in these ways:
+   * To edit the task, select **Edit task in To Do**.
+   * To choose a date on which you’d like to be reminded of the task, select **Remind me on date**.
+   * To be reminded of the task in the briefing email during the following week, select **Remind me next week**.
 * To remove the task from your list, select the **Delete** (trashcan) icon.
 
-In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me** to get a reminder in your next day's briefing email and to view the task in To Do. After you select remind me, you can further customize your management of the task by editing it in the To Do app or by selecting a reminder for another day.
+In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me** to get a reminder in your next day's briefing email and to view the task in To Do. After you select **Remind me**, you can further customize your management of the task by editing it in the To Do app or by selecting a reminder for another day. 
 
-![Briefing email about tasks](./images/be-task.png)
+![Briefing email about commitments](./images/be-task-to-do2.png)
 
-Or if you use the To Do feature, you could select **Add to To Do**.
+Or, if you use the To Do feature, you could select **Add to To Do**.
 
-![Briefing email about To Dos](./images/be-task-to-do.png)
+![Briefing email about commitments and To Do task](./images/commit-to-do.png)
 
 ## Related topic
 

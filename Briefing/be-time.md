@@ -30,7 +30,9 @@ For example, as shown in the following, you’d select **Book** next to **Catch 
 
 ## To enroll in focus time
 
-In the **What do you want to set aside time for** section of the Briefing email, you can easily sign up to have focus time automatically added to your Outlook calendar.
+_**Applies to:** Enrollment in focus plan through the briefing email is currently available only to users who have the MyAnalytics service plan enabled._
+
+In the **What do you want to set aside time for?** section of the Briefing email, you can easily sign up to have focus time automatically added to your Outlook calendar.
 
 * On the **Focus time** row, select **Book** and then select **Enroll**.
 
