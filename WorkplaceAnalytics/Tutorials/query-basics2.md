@@ -62,17 +62,9 @@ In this model, there is no minimum monthly licensing cost for your organization;
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
-<!-- Use this image starting late August 2021. It excludes the "wallet" on the upper status bar: -->
-
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
-<!-- Revert to this image when we go to GA in fall, 2021. It includes the wallet: 
-
-![units per query](../images/wpa/tutorials/conmod-credits-2.png) -->
-
-<!-- REMOVE THIS FOR NOW. RESTORE IT WHEN WE REVERT THE PRECEDING IMAGE: 
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
--->
 
 #### Consumption model details
 
