@@ -40,7 +40,7 @@ In the bar above the estimated query cost, you can see how many units remain in 
 
 In a consumption-model tenant, queries consume "units" as they are run. Usage calculation is as follows:
 
-**units consumed** = **A** ***B*** **C** * **D**
+**units consumed** = **A** *  **B** * **C** * **D**
 
 The terms in this formula are as follows:
 
@@ -122,7 +122,7 @@ No additional units are charged for the following:
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
 
-## Results page
+### Results page
 
 The **Queries** > **Results** page shows additional information if the consumption model is in use at your tenant:
 
@@ -132,7 +132,7 @@ The **Queries** > **Results** page shows additional information if the consumpti
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
-## View analyst usage
+### View analyst usage
 
 The **Analyst usage** report is available for download in the administrative pages of Workplace Analytics. This report lists the queries that were run during a specified time period, the analysts who submitted them, and other details, including the query cost:
 

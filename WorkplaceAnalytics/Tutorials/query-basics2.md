@@ -181,7 +181,25 @@ The **Queries** > **Results** page shows additional information if the consumpti
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 -->
+### View analyst usage
 
+The **Analyst usage** report is available for download in the administrative pages of Workplace Analytics. This report lists the queries that were run during a specified time period, the analysts who submitted them, and other details, including the query cost:
+
+![Analyst usage report](../images/wpa/tutorials/usage-report-example1.png)
+
+>[!Note]
+>Only admins can download the Analyst usage report.
+
+### To download the Analyst usage report
+
+1. Sign in to Workplace Analytics as an admin. 
+2. Go to the **Analyst usage** page:
+
+   ![Download analyst usage report](../images/wpa/tutorials/analyst-usage2.png)
+
+3. Select the time period for which you want information about query usage.
+4. Select **Download**.
+1. 
 <!-- END OF BILLING MODEL DIFFERENCES SECTION -->
 
 ## Query types
