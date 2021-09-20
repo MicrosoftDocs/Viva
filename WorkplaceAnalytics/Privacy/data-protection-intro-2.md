@@ -20,8 +20,6 @@ audience: Admin
 
 Microsoft Viva Insights produces useful insights about how your organization and employees function. It does this by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide. Because of the potential sensitivity about how data could be used, successful implementation and use of Viva Insights require careful thought and planning with regard to data protection.
 
-NEW PUB
-
 The following resources help answer key questions about how Microsoft protects employee privacy and supports compliance with local regulations, such as the General Data Protection Regulation (GDPR) when data is processed for Viva Insights.
 
 ## Personal insights
