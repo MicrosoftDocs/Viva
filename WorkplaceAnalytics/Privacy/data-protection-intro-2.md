@@ -13,6 +13,7 @@ ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+recommendations: false
 ---
 
 # Data protection with Viva Insights
