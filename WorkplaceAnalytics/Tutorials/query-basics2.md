@@ -64,7 +64,7 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 
 <!-- Use this image starting late August 2021. It excludes the "wallet" on the upper status bar: -->
 
-![units per query](../images/wpa/tutorials/conmod-credits-3.png)
+![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
 <!-- Revert to this image when we go to GA in fall, 2021. It includes the wallet: 
 
