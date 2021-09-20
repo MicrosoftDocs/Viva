@@ -29,8 +29,16 @@ The historical data on which queries are run is time limited: You can run querie
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
-<!-- THIS IS WHERE THE CONSUMPTION-MODEL INFO WAS. MOVED IT 19 SEPT 2021 INTO A NEW TOPIC CALLED CONSUMP-MODEL.MD. PERHAPS MENTION IT AND LINK TO IT FROM HERE. 
--->
+## Billing model differences
+
+Tenants subscribe to Workplace Analytics through either of two billing models, the consumption model or the per-user-per-month (PUPM) model.
+
+The choice of billing model determines how tenants are charged:
+
+* In the consumption model, the tenant pays Microsoft a fee that is based on the volume of query usage.
+* In the Per-user-per-month (PUPM) model, the tenant pays Microsoft a monthly fee that is based on the number of licensed users.
+
+For more information, see [Billing model differences](consump-model.md).
 
 ## Query types
 
