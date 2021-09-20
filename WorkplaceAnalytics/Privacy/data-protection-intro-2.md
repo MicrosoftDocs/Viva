@@ -14,7 +14,6 @@ ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
 
-
 ---
 
 # Data protection with Viva Insights
