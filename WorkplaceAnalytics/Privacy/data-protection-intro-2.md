@@ -25,8 +25,8 @@ The following resources help answer key questions about how Microsoft protects e
 
 Depending on your role, the following guides describe how the data processed in Viva Insights apps keeps your personal data private and protected.
 
-* For users: [Privacy guide](../personal/overview/privacy-guide-users.md)
-* For admins: [Privacy guide for admins](../personal/overview/privacy-guide-admins.md)
+* For users: [Privacy guide](../myanalytics/overview/privacy-guide-users.md)
+* For admins: [Privacy guide for admins](../myanalytics/overview/privacy-guide-admins.md)
 
 ## Manager, leader, and advanced insights
 
