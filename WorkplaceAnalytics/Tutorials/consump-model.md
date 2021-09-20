@@ -21,9 +21,10 @@ Tenants subscribe to Workplace Analytics through one of the following billing mo
 
 Your tenant's choice of billing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
 
-### For analysts in consumption-model tenants
+## For analysts in consumption-model tenants
 
 In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors:
+
 * the number of measured employees being analyzed
 * the number of weeks of data included in the query output for each measured employee
 * the number of base metrics in the query
@@ -35,11 +36,11 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
-#### Consumption model details
+### Consumption model details
 
 In a consumption-model tenant, queries consume "units" as they are run. Usage calculation is as follows:
 
-**units consumed** = **A** * **B** * **C** * **D**
+**units consumed** = **A** ***B*** **C** * **D**
 
 The terms in this formula are as follows:
 
@@ -66,13 +67,13 @@ The terms in this formula are as follows:
    | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
    >[!Note]
-   >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
+   >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** ***B*** **C** ***D** (for the metric on price tier 1) + **A*** **B** ***C*** **D** (for the metric on price tier 2)
 
 * **D = weeks**
 
    This is the analysis period, in weeks.
 
-##### See the usage calculation for the query
+#### See the usage calculation for the query
 
 On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
 
@@ -82,7 +83,7 @@ This opens a panel that describes the current calculation:
 
 ![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
-##### Charges for recurring queries
+#### Charges for recurring queries
 
 Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
@@ -96,7 +97,7 @@ Note that the queried population can change between query refresh runs. Take the
 
 Of these, the refresh query will charge for **2** and **3** because neither were included in the original query run, but it will not charge for **1**, which duplicates the data that was returned in the original query.
 
-##### Charges for re-running a completed query
+#### Charges for re-running a completed query
 
 On the **Query designer** > **Results** page, you can locate a query that has already run, open it, edit it, and run it. This incurs a new cost, as if you were running the query for the first time. The steps to do this are as follows:
 
@@ -109,10 +110,9 @@ On the **Query designer** > **Results** page, you can locate a query that has al
    This opens the page for designing that query.
 
 4. In the query designer, change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**.
-
 The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Consumption model details](#consumption-model-details).
 
-##### No additional charges
+#### No additional charges
 
 No additional units are charged for the following:
 
@@ -122,13 +122,7 @@ No additional units are charged for the following:
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
 
-### For analysts in PUPM-model tenants
-
-The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
-
-![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
-
-### Results page
+## Results page
 
 The **Queries** > **Results** page shows additional information if the consumption model is in use at your tenant:
 
@@ -138,17 +132,19 @@ The **Queries** > **Results** page shows additional information if the consumpti
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
-## Viewing analyst usage
+## View analyst usage
 
-Only admins can download the Analyst usage report. 
+Only admins can download the Analyst usage report.
 
-
+<!-- publishing notes:
 1. COMPLETE DOCS WILL CONTAIN EVERYTHING: TO GO LIVE ON 10/1
-2. QB2 WITH ANALYST USAGE PART CAN GO LIVE NOW 
- 
+2. QB2 WITH ANALYST USAGE PART CAN GO LIVE NOW -->
 
+## For analysts in PUPM-model tenants
 
--->
+The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
+
+![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
 
 ## Related topics
 
