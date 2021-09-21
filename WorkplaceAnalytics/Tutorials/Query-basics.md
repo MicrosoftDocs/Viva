@@ -11,9 +11,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
-
 # Queries overview
+
+[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 The Query designer in Workplace Analytics offers a few different custom query options, including: [Person](#person-query), [Meeting](#meeting-query), [Group-to-group](#group-to-group-query), [Person-to-group](#person-to-group-query), [Peer comparison](#peer-comparison-query), and [Network](#network-queries) queries. Each query type can help you investigate and answer specific business questions. The different query types give you the flexibility to look at data from multiple perspectives and generate powerful insights. You can also combine output from two different queries to gain even more in-depth insights.
 
