@@ -90,6 +90,8 @@ The terms in this formula are as follows:
 
 * **C = price-tier cost**
 
+<a name="price-tier-anchor"></a>**Price tier costs**
+
    This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
 
    | Tier | Metric used in the query | Units |
