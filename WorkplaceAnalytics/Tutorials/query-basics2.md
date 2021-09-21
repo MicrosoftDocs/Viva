@@ -209,7 +209,7 @@ The **Analyst usage** report is available for download in the administrative pag
 
 ### To download the Analyst usage report
 
-1. Sign in to Workplace Analytics as an admin. 
+1. Sign in to Workplace Analytics as an admin.
 2. Go to the **Analyst usage** page:
 
    ![Download analyst usage report](../images/wpa/tutorials/analyst-usage2.png)
