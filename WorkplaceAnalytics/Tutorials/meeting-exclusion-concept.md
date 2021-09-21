@@ -5,7 +5,7 @@ description: Describes concepts and tools for meeting exclusion rules, including
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -17,7 +17,7 @@ This article describes screen elements and concepts that will help you create an
 
 At each step in the exclusion-creation flow, you'll see a page, such as the following.
 
-![Interactive tools](../images/wpa/tutorials/08-interactive-tools.png)
+![Interactive tools.](../images/wpa/tutorials/08-interactive-tools.png)
 
 In the following sections, you'll learn more about the pages you use in the exclusion-creation steps.
 
@@ -27,7 +27,7 @@ In the following sections, you'll learn more about the pages you use in the excl
 
 The progress bar at the top of the page tracks where you are in the flow:
 
-![Progress bar](../images/wpa/tutorials/12-progress-bar.png)
+![Progress bar.](../images/wpa/tutorials/12-progress-bar.png)
 
 ### Summary of meetings that remain
 
@@ -37,11 +37,11 @@ These numbers help you understand the effects of the exclusions that are already
 
 Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Microsoft 365.
 
-  ![Meeting hours summary (before)](../images/wpa/tutorials/09-summary-meetings-hours.png)
+  ![Meeting hours summary (before).](../images/wpa/tutorials/09-summary-meetings-hours.png)
 
 As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough describes, as you complete each step and move on to the next one, you'll see the number of meetings and meeting hours decrease as the exclusion is applied to your data.
 
-  ![Meeting hours summary (after)](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
+  ![Meeting hours summary (after).](../images/wpa/tutorials/10-summary-meetings-hours-remain.png)
 
 >[!Note]
 > This calculation updates after you select **Next** and advance to the next step.
@@ -50,7 +50,7 @@ As the [Create a meeting exclusion rule](meeting-exclusion-rules.md) walkthrough
 
 The middle section of the page shows you a summary of the current exclusion step:
 
-  ![Middle of page](../images/wpa/tutorials/11-mid-page.png)
+  ![Middle of page.](../images/wpa/tutorials/11-mid-page.png)
 
 This section has the following informative areas:
 
@@ -99,7 +99,7 @@ You might know of a specific word that you want to retain in your analysis (that
 
 After you make an exception of a word, it appears above the word cloud. If you change your mind, you can remove the word from the exception list. To do this, select the **X** next to the word. This returns it to the group of keywords whose meetings will be excluded.
 
-  ![Exclude meetings where](../images/wpa/tutorials/04-exclude-meetings-where.png)
+  ![Exclude meetings where.](../images/wpa/tutorials/04-exclude-meetings-where.png)
 
 You can also remove all of your exceptions to this exclusion at once. To do this, select **Reset**.
 
@@ -111,11 +111,11 @@ Workplace Analytics shows a table named **Phrases that contain the selected keyw
 
 The words "business" or "marketing" in the word cloud represent meetings that you might want to include in your analysis. To help you decide, you can see the effects of removing this keyword (and its meetings) from the exclusion. For example, if you select **business**, Workplace Analytics shows what percentage of meetings have this word in their subject line and the total number of hours for those meetings:
 
-![Percentages](../images/wpa/tutorials/02-word-cloud-business.png)
+![Percentages.](../images/wpa/tutorials/02-word-cloud-business.png)
 
 In the following illustration, the word "business" has been excepted from the exclusion, which means that meetings with "business" in their invitations' subject lines will be _retained_ in your analysis:
 
-![Selected keyword](../images/wpa/tutorials/03-selected-keyword.png)
+![Selected keyword.](../images/wpa/tutorials/03-selected-keyword.png)
 
 ### Example 2: Soccer
 
@@ -156,7 +156,7 @@ To create a custom rule for your organization, follow the steps in [Create a mee
 
 For published rules, select the **View** (eye) icon in the rule's row to view it. For draft rules, select the **Edit** (pencil) icon in the rule's row to edit it.
 
-![State column](../images/wpa/tutorials/state-column.png)
+![State column.](../images/wpa/tutorials/state-column.png)
 
 Select the **More options** (ellipsis) icon in the rule's row to view the menu, which varies depending on if it's a published or draft rule.
 
@@ -164,7 +164,7 @@ Select the **More options** (ellipsis) icon in the rule's row to view the menu, 
 
 The following options are available for a published rule:
 
-![Secondary rule options](../images/wpa/tutorials/more-options.png)
+![Secondary rule options.](../images/wpa/tutorials/more-options.png)
 
 * **Duplicate** creates an exact copy of the rule.
 * **Set preferred** sets this rule as the preferred rule. There can be only one preferred rule within your tenant. This has the following effects:
@@ -180,13 +180,13 @@ The following options are available for a published rule:
 
 The options for draft rules are **Duplicate** and **Delete**:
 
-![Duplicate](../images/wpa/tutorials/mx-draft-dupe-and-delete.png)
+![Duplicate.](../images/wpa/tutorials/mx-draft-dupe-and-delete.png)
 
 ### Archived rules
 
 The options for archived rules are **Delete** and **Restore**. **Restore** returns the rule to the list of published rules:
 
-![Restore](../images/wpa/tutorials/mx-archive-delete-and-restore.png)
+![Restore.](../images/wpa/tutorials/mx-archive-delete-and-restore.png)
 
 ## Application of meeting exclusion rules
 

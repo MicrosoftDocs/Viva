@@ -4,7 +4,7 @@ description: About Manager insights in Workplace Analytics and how to use them t
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal
+ms.localizationpriority: medium
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -16,11 +16,11 @@ Microsoft Viva Insights includes a new Viva Insights app in Teams. The appâ€™s â
 
 The following shows what you'll see in [My Team in Viva Insights](teams-app.md).
 
-![Outcomes page](../images/wpa/use/viva-team-outcomes.png)
+![Outcomes page.](../images/wpa/use/viva-team-outcomes.png)
 
 The following shows what your managers can see in Workplace Analytics, which is the same information shown in Viva Insights.
 
-![People Manager Home page](../images/wpa/use/manager-insights.png)
+![People Manager Home page.](../images/wpa/use/manager-insights.png)
 
 ## How do these insights help
 
@@ -46,7 +46,7 @@ Research helps explain why managers have such a large impact on their team's pro
 
 The following shows an example of an employee experience insight about manager one-on-one time and after-hours team collaboration.
 
-![Employee experience details](./images/employee-experience.png)
+![Employee experience details.](./images/employee-experience.png)
 
 ## How to get started
 

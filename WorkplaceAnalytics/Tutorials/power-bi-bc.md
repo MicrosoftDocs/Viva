@@ -5,7 +5,7 @@ description: Use the Business continuity dashboard to visualize predefined query
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -38,6 +38,8 @@ The following demo uses sample data that is only representative of this dashboar
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiM2ZiY2Y4M2YtMTMyNi00NWY1LWEyMjctYTY2OTdlOWQzNDhhIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSectionbbd7dee40bcdeee460e6" frameborder="0" allowFullScreen="true"></iframe>
 
+To find the template for the Business continuity dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
+
 ## Prerequisites  
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
@@ -61,7 +63,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 > [!Important]
 > Where the video shows selecting **Last 6 months** when running the queries, be sure you select **Last 1 year** instead. The queries will then have data that includes activity before and during the shift to remote work in March 2020.
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen></iframe>
 
 ## Set up the dashboard
 
@@ -71,11 +73,11 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Business continuity** to see more details and the required setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 6**).
 
-   ![Business continuity template](../Images/WpA/Tutorials/bc-setup-step2.png)
+   ![Business continuity template.](../Images/WpA/Tutorials/bc-setup-step2.png)
 
 3. When prompted for **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
 
-   ![Business continuity queries](../Images/WpA/Tutorials/bc-query.png)
+   ![Business continuity queries.](../Images/WpA/Tutorials/bc-query.png)
 
 4. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
@@ -86,7 +88,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 6. When prompted, return to Query designer, and then repeat  **Steps 2-5** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
 7. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Business continuity** query results, select **PBI template**, and then select **OK** to download the template.
 
-   ![template download](../Images/WpA/Tutorials/pbi-template-download.png)
+   ![template download.](../Images/WpA/Tutorials/pbi-template-download.png)
 
 8. Open the downloaded **Business continuity template**.
 9. If prompted to select a program, select **Power BI**.
@@ -97,12 +99,12 @@ If you started using the Business continuity dashboard in April or May 2020 and 
     3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-    ![Query URLs for Power BI](../Images/WpA/Tutorials/odata-link-2.png)
+    ![Query URLs for Power BI.](../Images/WpA/Tutorials/odata-link-2.png)
 
 11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 13. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -125,7 +127,7 @@ After the Business continuity dashboard is set up and populated with Workplace A
 * **Organizational attribute to view the report by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the measured employees count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). Measured employees reflect the number of employees in the filtered population who were active in the specified time period. Active employees are those who sent at least one email or instant message in the work week included in the current timeframe.
 
-  ![Business continuity dashboard settings](../Images/WpA/Tutorials/bcd-settings.png)
+  ![Business continuity dashboard settings.](../Images/WpA/Tutorials/bcd-settings.png)
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 

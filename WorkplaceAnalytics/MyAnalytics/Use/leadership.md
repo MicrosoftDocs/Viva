@@ -5,7 +5,7 @@ description: Leaders use this dashboard to learn about their relationships with 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: priority 
+ms.localizationpriority: high 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -39,7 +39,7 @@ As a people manager, it's likely that one of your many responsibilities is coach
 
 MyAnalytics helps you track your 1:1 trends and ensure that you have regular 1:1 time scheduled with each team member:
 
-![Coaching: 1:1 time](../../Images/mya/use/leadership-one-on-one.png)
+![Coaching: 1:1 time.](../../Images/mya/use/leadership-one-on-one.png)
 
 #### How 1:1 time is calculated
 
@@ -53,7 +53,7 @@ If you directly call your team member over Teams or Skype for Business outside o
 
 MyAnalytics helps you understand whether you might be impacting team members outside their typical working hours:
 
-![Wellbeing](../../Images/mya/use/leadership-quiet-hours.png)
+![Wellbeing.](../../Images/mya/use/leadership-quiet-hours.png)
 
 #### How quiet-hours impact is calculated
 
@@ -67,7 +67,7 @@ Managers are role models when it comes to collaboration habits; team members ten
 
 MyAnalytics helps you track your habits in meetings with team members:
 
-![Collaboration](../../Images/mya/use/leadership-team-meetings.png)
+![Collaboration.](../../Images/mya/use/leadership-team-meetings.png)
 
 #### How team meetings habits are calculated
 
@@ -83,7 +83,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 When you first visit the Leadership page, you are asked to confirm your team members. The initial list of team members you see is derived from Azure Active Directory or from Workplace Analytics*. If you make any changes, they will apply only to your MyAnalytics experience (including the [Insights Outlook add-in](add-in.md)) and will not be synchronized back to Azure AD or to Workplace Analytics*.
 
-![Confirm your team](../../Images/mya/use/leadership-confirm.png)
+![Confirm your team.](../../Images/mya/use/leadership-confirm.png)
 
 If your team list or job function changes, you can select the **Edit team** link at the top of the Leadership page or visit **Configurations** to add/remove team members or to indicate that you are no longer a manager.
 
@@ -95,7 +95,7 @@ If your team list or job function changes, you can select the **Edit team** link
 1. Go to myanalytics.microsoft.com to open your personal MyAnalytics dashboard.
 2. In the left navigation pane, select **Config settings**.
 
-   ![Configurations](../../Images/mya/use/leadership-config.png)
+   ![Configurations.](../../Images/mya/use/leadership-config.png)
 
 ## Leadership tips
 

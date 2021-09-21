@@ -5,7 +5,7 @@ description: Attendee exclusion rules -- Introduction and walkthrough
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -21,7 +21,7 @@ For example, the data should not include meetings that schedule personal time, o
 
 **Owners** – Workplace Analytics Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Attendee exclusions in Workplace Analytics](../images/wpa/tutorials/attendee-exclusions.png)
+![Attendee exclusions in Workplace Analytics.](../images/wpa/tutorials/attendee-exclusions.png)
 
 ## Responses to meeting invitations
 
@@ -53,13 +53,13 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 5. On the **Analysis settings** > **Exclusions** > **New exclusion** page, for **Exclusion type**, select **Attendee exclusion**:
 
-   ![Meeting response options](../images/wpa/tutorials/select-attendee-exclusion.png)
+   ![Meeting response options.](../images/wpa/tutorials/select-attendee-exclusion.png)
 
 6. Type a name for your exclusion, and, optionally, a description, and then select **Next**.
 
 7. Choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:
 
-   ![Exclude these invitees](../images/wpa/tutorials/exclude-invitees-who-have-70.png)
+   ![Exclude these invitees.](../images/wpa/tutorials/exclude-invitees-who-have-70.png)
 
    The **Potential impact of exclusion** area shows the percentage and total number of potential attendees at meetings whose data will be excluded from analysis if you publish and use this exclusion rule.
 
@@ -77,11 +77,11 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 3. Select the **Exclusions** box:
 
-   ![Exclusions box](../images/wpa/tutorials/meeting-exclusions.png)
+   ![Exclusions box.](../images/wpa/tutorials/meeting-exclusions.png)
 
    Which opens the **Exclusions** pane:
 
-   ![Exclusions pane](../images/wpa/tutorials/exclusions-pane.png)
+   ![Exclusions pane.](../images/wpa/tutorials/exclusions-pane.png)
 
 4. Make a selection for **Attendee exclusions**:
 

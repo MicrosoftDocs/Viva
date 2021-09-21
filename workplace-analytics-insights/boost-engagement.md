@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Boost employee engagement with Microsoft 365 Insights
+title: Boost employee engagement with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and improve employee engagement
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none
+ms.localizationpriority: null
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -21,13 +21,13 @@ For example, are employees routinely getting one-on-one time with their managers
 
 Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Employee engagement page](./images/boost-ee.png)
+![Employee engagement page.](./images/boost-ee.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Employee engagement percentage insight](./images/boost-ee-percent.png)
+![Employee engagement percentage insight.](./images/boost-ee-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -39,7 +39,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Employee engagement visual insight](./images/boost-ee-visual.png)
+![Employee engagement visual insight.](./images/boost-ee-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|

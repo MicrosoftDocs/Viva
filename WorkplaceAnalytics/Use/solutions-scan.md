@@ -5,7 +5,7 @@ description: Learn how to scan for opportunities in Workplace Analytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -43,7 +43,7 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
 
 2. On the **Plans** page, select **Opportunities**.
 
-    ![Select Opportunities](../images/wpa/use/opportunities.png)
+    ![Select Opportunities.](../images/wpa/use/opportunities.png)
  
     This page shows the most recent scan results, which are presented as opportunities for one or more groups.
  
@@ -62,7 +62,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 1. Locate and select the **Increase focus** opportunity.
 
-    ![Opportunities area](../images/wpa/use/increase-focus.png)
+    ![Opportunities area.](../images/wpa/use/increase-focus.png)
 
 	For this opportunity, this page briefly describes the purpose of the opportunity (gain time for the work that matters most) and highlights possible benefits by taking advantage of the opportunity. For this example, Workplace Analytics identified five groups in the company that have limited focus hours.
 
@@ -70,21 +70,21 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 2. The **Plans > Opportunities > Result** page has details about the opportunity.
  
-    ![Increase focus potential](../images/wpa/use/opportunity-increase-focus-3.png)
+    ![Increase focus potential.](../images/wpa/use/opportunity-increase-focus-3.png)
 
     (The other opportunities, such as _Better meeting effectiveness_, follow this same model of data presentation.)
 
 	The groups that are shown under **Select a group to analyze** are identified as potentially benefiting from a plan. If a group has appeared in this list for multiple weeks, they get a notification about this opportunity.
-<!--    ![A group reappears](../images/wpa/use/multiple-weeks.png)-->
+<!--    ![A group reappears.](../images/wpa/use/multiple-weeks.png)-->
 3. (Optional) Use the thumbs-up or thumbs-down icons at the right on the bottom of the page to indicate the relevance of this opportunity to your organization.
 
 4. To create a plan for the group that you have selected, select **Start plan**.
 
-    ![Create plan](../images/wpa/use/create-plan.png)
+    ![Create plan.](../images/wpa/use/create-plan.png)
 
     This opens the **Set up new plan** panel that shows the default settings for this plan.
 
-    ![Set up a new plan](../images/wpa/use/set-up-new-plan.png)
+    ![Set up a new plan.](../images/wpa/use/set-up-new-plan.png)
 
 5. (Optional) Change the settings of the plan. You can edit its name, the start date, and the target. Once you're finished with the settings, select **Validate**. Note that the number of participants cannot be edited. It is determined by the organizational data that your admin has uploaded.
 
@@ -108,7 +108,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
 4. (Optional) Scroll down to the **How Plans will help** section, which contains cards for **Book and protect**, **Stay focused**, and **Track progress**.
 
-    ![How the plan will help](../images/wpa/use/how-plan-helps.png)
+    ![How the plan will help.](../images/wpa/use/how-plan-helps.png)
 
     To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the weekly digest that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
 
@@ -156,7 +156,7 @@ During validation, Workplace Analytics checks the following about each potential
 
 After validation, Workplace Analytics reports the results, including the number of qualified participants. The results also show any warnings, which include the numbers of participants who’ve failed any tests.
 
-![Validation warnings](../images/wpa/use/participants-warnings.png)
+![Validation warnings.](../images/wpa/use/participants-warnings.png)
 
 Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with [starting a plan](../tutorials/solutionsv2-task.md#start-the-plan).
 
@@ -170,7 +170,7 @@ As for employees who have opted out or are already in a plan, you cannot enroll 
 
 In the following trend-line chart, the key to the black line indicates that it shows the median in the current partition: 
 
-![Email hours as percent](../images/wpa/use/email-hours-as-percent.png)
+![Email hours as percent.](../images/wpa/use/email-hours-as-percent.png)
  
 This statement identifies the source of the data. That is, the data that was used to calculate this line was drawn from the partition (set of data) that is visible to the analyst who sees this page. For example, the person who sees this page might be logged in to Workplace Analytics as an analyst with "HR" partition. That HR partition&mdash;that HR set of data&mdash;is what produced this exact trend line.
 

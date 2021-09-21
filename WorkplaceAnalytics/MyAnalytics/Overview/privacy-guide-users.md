@@ -4,7 +4,7 @@ description: Overview of MyAnalytics privacy features, including info about data
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: priority
+ms.localizationpriority: high
 ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -50,7 +50,7 @@ In the following architecture illustration, note the relationship of MyAnalytics
 * You can opt in and opt out at any time.
 * MyAnalytics shows you no personally identifiable info of co-workers beyond what you can already see in Outlook and Teams.
 
-![Outlook inbox](../../images/mya/overview/mya-arch-2.png)
+![Outlook inbox.](../../images/mya/overview/mya-arch-2.png)
 
 ## How MyAnalytics works
 

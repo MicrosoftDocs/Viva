@@ -4,7 +4,7 @@ description: Describes the filters that analysts can use to refine metrics in qu
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa
@@ -22,53 +22,59 @@ After you select a metric for a query, you can narrow the focus of that metric b
 
 | Filter | Description |
 | ------ | ----------- |
-| Day of week | The day of the week during which the call was placed | 
-| Duration (in hours)  | The amount of time, in hours, that the call lasted | 
-| Is organizer  | True means that this person initiated the call; <br>False means that this person did not initiate the call. | 
-| IsScheduledCall  | True means that this call is scheduled on someone's Outlook calendar; <br>False means that this call is not scheduled on any person's Outlook calendar. | 
-| Time of day started &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | The time of day that the call began | 
-| TotalParticipants  | The number of participants in the call | 
+| Day of week | The day of the week during which the call was placed |
+| Duration (in hours)  | The amount of time, in hours, that the call lasted |
+| Included multitasking | Filters the call counts to only count activity during which the person sent one or more emails or instant messages, excluding instant messages sent within the related Teams meeting chat room during the meeting or call. |
+| Is organizer  | True means that this person initiated the call; <br>False means that this person did not initiate the call. |
+| IsScheduledCall  | True means that this call is scheduled on someone's Outlook calendar; <br>False means that this call is not scheduled on any person's Outlook calendar. |
+| Time of day started &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | The time of day that the call began |
+| TotalParticipants  | The number of participants in the call |
 
 ## Email filters
 
 | Filter | Description |
 | ------ | ----------- |
-| Day of week | Day of the week on which the email was sent | 
-| IsSender | True means that this person sent the email; <br>False means that this person did not send the email. | 
-| Time of day | Time of day on which the email was sent | 
-| Number of recipients | Number of the recipients on which the email was sent | 
-| Subject | The Subject line of the email | 
+| Day of week | Day of the week on which the email was sent |
+| IsSender | True means that this person sent the email; <br>False means that this person did not send the email. |
+| Is sent during meeting | Counts emails that a person sends during a meeting |
+| Is sent during unscheduled call | Counts emails sent during an unscheduled Teams call. |
+| Time of day | Time of day on which the email was sent |
+| Number of recipients | Number of the recipients on which the email was sent |
+| Subject | The Subject line of the email |
 
 ## Instant messages (IM) filters
 
 | Filter | Description |
 | ------ | ----------- |
-| Day of week  | The day of the week on which the IM was sent | 
-| InteractionType | The type of chat in which the IM appears, namely in a one-on-one chat or in a group chat. | 
-| IsAfterHours | True means that this IM was sent during the recipient's after-hours period; <br>False means that it was not sent during that period. | 
-| IsSender | True means that this person sent the IM; <br>False means that this person did not send the IM. | 
-| Time of day &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent | 
-| TotalParticipants | Number of people who participated in the IM thread, including the sender of the initial IM | 
+| Day of week  | The day of the week on which the IM was sent. |
+| InteractionType | The type of chat in which the IM appears, namely in a one-on-one chat or in a group chat. |
+| IsAfterHours | True means that the IM was sent during the recipient's after-hours period; <br>False means that it was not sent during that period. |
+| IsSender | True means that this person sent the IM; <br>False means that this person did not send the IM. |
+| Is sent during meeting | Counts Teams IMs that a person sends during a meeting. |
+| Is sent during unscheduled call | Counts Teams IMs sent during an unscheduled Teams call.|
+| Time of day &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Time at which the IM was sent. |
+| TotalParticipants | Number of people who participated in the IM thread, including the sender of the initial IM. |
 
 <!-- Still need in this table: 'Time (hours)'  -->
 
-## Meeting filters 
+## Meeting filters
 
 | Filter | Description |
 | ------ | ----------- |
-| Duration (in hours) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Duration of the meeting | 
-| Is recurring    | True means that this meeting is set to recur; <br>False means that this meeting is not set to recur. | 
-| IsCancelled     | True means that this meeting has been cancelled; <br>False means that this meeting has not been cancelled. | 
-| Subject         | Subject line of the meeting invitation | 
-| Total accepted  | Number of invitees who have accepted the meeting invitation | 
+| Duration (in hours) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Duration of the meeting. |
+| Included multitasking | Filters the count of meetings to only count activity during which the person sent one or more emails or instant messages, excluding instant messages sent within the related Teams meeting chat room during the meeting or call. |
+| Is recurring    | True means that this meeting is set to recur; <br>False means that this meeting is not set to recur. |
+| IsCancelled     | True means that this meeting has been cancelled; <br>False means that this meeting has not been canceled. |
+| Subject         | Subject line of the meeting invitation. |
+| Total accepted  | Number of invitees who have accepted the meeting invitation. |
 | Total attendees | Total attendees can be configured at the report level by using an [attendee-exclusion rule](../tutorials/attendee-exclusion-rules.md). When you select an attendee-exclusion rule, you redefine meeting attendance to include or exclude the cases of “tentative” and “no response.” Therefore, based on the attendee-exclusion rule that you have selected, Total attendees can mean one of the following: <br> <ul> <li>Total attendees = Total accepted </li> <li>Total attendees = Total accepted + Total no response </li> <li>Total attendees = Total accepted + Total tentatively accepted </li> <li>Total attendees = Total accepted + Total no response + Total tentatively accepted </li> </ul> |
-| Total declined  | Number of invitees who have declined the meeting invitation | 
-| Total double booked  | Number of invitees who have accepted this meeting invitation and the invitation of another meeting that is scheduled to overlap with this one | 
-| Total emails sent during meeting   | Number of emails sent by all participants during the meeting | 
-| Total no responses   | Number of invitees who did not respond to the meeting invitation     | 
-| Day of week          | Day of the week for which the meeting is scheduled | 
-| Is organizer         | The person who invited others to the meeting | 
-| <a name="time-of-day-started-filter-define"></a>Time of day started  | Time of day that the meeting was scheduled (in Outlook) to start |  
+| Total declined  | Number of invitees who have declined the meeting invitation. |
+| Total double booked  | Number of invitees who have accepted this meeting invitation and the invitation of another meeting that is scheduled to overlap with this one. |
+| Total emails sent during meeting   | Number of emails sent by all participants during the meeting. |
+| Total no responses   | Number of invitees who did not respond to the meeting invitation. |
+| Day of week          | Day of the week for which the meeting is scheduled. |
+| Is organizer         | The person who invited others to the meeting. |
+| <a name="time-of-day-started-filter-define"></a>Time of day started  | Time of day that the meeting was scheduled (in Outlook) to start. |  
 
 <!-- Still need in this table: 'MeetingResources'  -->
 
@@ -141,31 +147,31 @@ In this example procedure, you apply a filter to a metric in a person query. Spe
 
 2. Under **Select metrics**, select **Emails sent**:
 
-   ![Select emails sent](../images/wpa/use/emails-sent.png)
+   ![Select emails sent.](../images/wpa/use/emails-sent.png)
 
 3. Select edit (the pencil icon):
 
-   ![Select pencil to edit](../images/wpa/use/emails-sent-edit-pencil.png)
+   ![Select pencil to edit.](../images/wpa/use/emails-sent-edit-pencil.png)
 
 4. Under **Emails sent where**, select **Add filter** and then select **Email**:
 
-   ![Select email](../images/wpa/use/add-filter-email.png)
+   ![Select email.](../images/wpa/use/add-filter-email.png)
 
 5. Next to **Email's**, select **Time of day**:
 
-   ![Select time of day](../images/wpa/use/email-sent-time-of-day.png)
+   ![Select time of day.](../images/wpa/use/email-sent-time-of-day.png)
 
 6. In the adjacent fields, select "<" (before) and specify 7:00 PM.
 
-   ![Sent before 7:00 PM](../images/wpa/use/sent-before-7pm.png)
+   ![Sent before 7:00 PM.](../images/wpa/use/sent-before-7pm.png)
 
 7. You have now filtered your base metric. You can optionally change the display name of this new filtered metric. In the field under **Display Name**, change **Emails sent** to **Emails sent before 7 PM** and then click outside the field to save the new name:
 
-   ![Edit the metric name](../images/wpa/use/edit-metric-name.png)
+   ![Edit the metric name.](../images/wpa/use/edit-metric-name.png)
 
    After you run the query, the edited metric name will appear as a header in the query results:
 
-   ![Edited metric name](../images/wpa/use/edited-metric-name.png)
+   ![Edited metric name.](../images/wpa/use/edited-metric-name.png)
 
 ## Related topic
 

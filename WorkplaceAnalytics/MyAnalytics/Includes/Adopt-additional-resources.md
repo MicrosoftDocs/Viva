@@ -8,7 +8,7 @@ author: paul9955
 ms.author: v-pausch
 ms.date: 02/21/2019
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 ---
 

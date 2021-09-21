@@ -5,7 +5,7 @@ description: How to prepare and upload CRM data in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -36,11 +36,11 @@ You can use this data to help analyze customer history to maintain and improve b
 
 The first time you open the CRM data page, it’ll prompt you to start a new upload.
 
-   ![First CRM data upload](../images/wpa/setup/crm-first-upload.png)
+   ![First CRM data upload.](../images/wpa/setup/crm-first-upload.png)
 
 After your first upload of CRM accounts and contacts data, the CRM data page will show a list of “Data uploads,” as follows.
 
-   ![CRM data uploads](../images/wpa/setup/crm-upload-c.png)
+   ![CRM data uploads.](../images/wpa/setup/crm-upload-c.png)
 
 ## Decide what data you need
 
@@ -60,7 +60,7 @@ For example, if you want to create reports to show the seller assignments or con
 
 After you’ve identified what CRM data you want to upload, you need to export it into the correct format required by Workplace Analytics. To help prepare the source data, download and use the template provided on the **Upload Start** page in Workplace Analytics, which includes instructions, the required and reserved attribute headings, and example data. You must save your CRM data files as **CSV UTF-8** files in Excel before you can upload them into Workplace Analytics.
 
-   ![CRM data template](../images/wpa/setup/crm-upload.png)
+   ![CRM data template.](../images/wpa/setup/crm-upload.png)
 
 The validity thresholds are predetermined by Workplace Analytics for the attribute values in the uploaded CRM data. These are the percentage of rows in the upload file that must have non-null values (no blanks) for the attribute. The source file might still be valid even if some rows have missing values for some columns. The required attributes are set at 100%, which means every row must have non-null values for these columns in the file. This setting is not intended to check or allow for invalid values. A single invalid value, such as an incorrect data type, email address, or TimeZone string will cause the file upload to fail.
 
@@ -137,7 +137,7 @@ Custom attributes in the CRM upload are not mapped by default to any Required or
 
 If any of the Custom fields can be mapped to Workplace Analytics system attributes (Required or Reserved), you can modify the mapping for those in this section.
 
-  ![CRM data custom attributes](../images/wpa/setup/crm-custom-attributes.png)
+  ![CRM data custom attributes.](../images/wpa/setup/crm-custom-attributes.png)
 
 ### CRM data rules
 
@@ -170,8 +170,8 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
    * Contacts
    * Seller assignments
 
-   > [!Tip]
-   > For the first upload, limit it to Accounts and Contacts only. Seller assignments adds a higher level of complexity for validation.
+   >[!Tip]
+   >For the first upload, limit it to Accounts and Contacts only. Seller assignments adds a higher level of complexity for validation.
 
 5. In the **Select file** section, select the source (.csv) file that corresponds with the data type selected in the previous step. You can select **Download a .csv template** to help with file requirements.
 6. Select **More options** to change the default append option to the delete and add new option:
@@ -197,7 +197,7 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
     * If you have more CRM files to upload, select **Upload** and go back to Step 2 and repeat these steps until you’ve uploaded all applicable CRM files.
     * After all applicable CRM files are validated, select **Turn on processing** to save the data and get it processed in Workplace Analytics.
 
-     ![Process CRM data](../images/wpa/setup/crm-process-data.png)
+     ![Process CRM data.](../images/wpa/setup/crm-process-data.png)
 
 14. Other possible statuses and options you might see on the CRM data page:
     * **Processed** - this status means the data was successfully saved.

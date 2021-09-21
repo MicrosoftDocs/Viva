@@ -5,7 +5,7 @@ description: Overview of the management and coaching data in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -15,7 +15,7 @@ audience: Admin
 
 **Management and coaching** summarizes collaboration between leaders, managers, and employees. As an analyst, you can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged or independent, and over-coached or under-coached. Employees who sent at least one email or instant message during a week are considered active and are included in the data for the weeks they are active.
 
-![Management and coaching](../images/wpa/use/management-coaching.png)
+![Management and coaching.](../images/wpa/use/management-coaching.png)
 
 ## Access to Management and coaching
 
@@ -25,7 +25,7 @@ audience: Admin
 
 The **Time with manager** histogram compares how much time employees spend in meetings with their manager on average each week.
 
-![Time with manager](../images/wpa/use/12-time-with-manager.png)
+![Time with manager.](../images/wpa/use/12-time-with-manager.png)
 
 ### Why it’s important
 
@@ -40,7 +40,7 @@ Seeing the distribution of time employees spend with managers enables you to ide
 
 **1:1 meeting hours** shows the time employees spend with their direct manager where they are the only two people in the meeting.
 
-![1:1 meeting hours](../images/wpa/use/13-1-1-meeting-hours.png)
+![1:1 meeting hours.](../images/wpa/use/13-1-1-meeting-hours.png)
 
 Depending on roles, it can be important for employees to have time with their manager on a regular basis to encourage open communication, feedback cycles, and opportunities for growth. Data can reveal inconsistencies in how managers collaborate with their teams and whether leaders and managers are available to their employees.
 
@@ -54,7 +54,7 @@ Depending on roles, it can be important for employees to have time with their ma
 
 **Meeting hours with direct manager present** shows the time employees spend in meetings that their manager is also attending.
 
-![Meeting hours with direct manager present](../images/wpa/use/14-meeting-hours-with-direct-mgr.png)
+![Meeting hours with direct manager present.](../images/wpa/use/14-meeting-hours-with-direct-mgr.png)
 
 ### Why it’s important
 
@@ -67,7 +67,7 @@ The level of day-to-day collaboration between managers and their employees can i
 
 **Skip-level meeting hours** shows the time that employees spend in meetings where their manager's manager is present.
 
-![Skip-level meeting hours](../images/wpa/use/15-skip-level-meeting-hours.png)
+![Skip-level meeting hours.](../images/wpa/use/15-skip-level-meeting-hours.png)
 
 Depending on roles, it can be important for employees to have time to meet with their skip-level manager to encourage transparency, feedback, and opportunities for growth. Data can reveal if teams have little visibility to leaders in the company, or conversely, consistently collaborate with upper-level managers.
 

@@ -4,7 +4,7 @@ description: Understand and interpret query output is Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -14,7 +14,7 @@ audience: Admin
 
 After you run a query in Workplace Analytics, you'll see the list of query results in **Query designer** > **Results** with the option to download them as a .csv (comma-separated values) file.
 
-![.csv file download](../images/WpA/Use/qd-results-download.png)
+![.csv file download.](../images/WpA/Use/qd-results-download.png)
 
 You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use Workplace Analytics data in Power BI and other data analysis tools](view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool).
 
@@ -55,7 +55,7 @@ In person-to-group queries, the query output includes column headers with single
 
 For example, PersonId of P1 collaborated with group G1 in weeks one and three of the specified month. For a person-to-group query that's grouped by "week" in the **Time investors** section (*How do you want to group the people who collaborated with the time investors?*). Then rows will be created for (P1, G1) in weeks one and three only.
 
-![Table of columns with time investors](../images/WpA/Use/personId.png)
+![Table of columns with time investors.](../images/WpA/Use/personId.png)
 
 >[!Note]
 > People are assigned randomly-generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
@@ -91,7 +91,7 @@ In addition to the standard columns present in the .csv file output of person-to
 
 The .csv output file for both person-to-group queries and group-to-group queries will include one or more header columns based on the standard or customized metrics selected when creating the query.  
 
-![Table of columns for group-to-group queries](../images/WpA/Use/select-metrics.png)
+![Table of columns for group-to-group queries.](../images/WpA/Use/select-metrics.png)
 
 For details about person-to-group metrics, see [Workplace Analytics metrics](../use/metric-definitions.md#person-to-group-metrics).
 
@@ -153,7 +153,7 @@ For example, if you run a query for all collaborators who match "FunctionType = 
 
 The collaborators who match the filter option defined in question C of the following graphic and who are external to the company ("IsInternal = false") will be grouped together in *Unclassified_External*. Metrics for all such collaborators are added up for this category. This metric is not applicable for *Time investor initiated meeting hours*.
 
-![Query questions](../images/WpA/Use/p2g-query.png)
+![Query questions.](../images/WpA/Use/p2g-query.png)
 
 ## Group-to-group query output
 
@@ -161,7 +161,7 @@ You can use group-to-group queries to help understand how groups or teams invest
 
 The query output for a group-to-group query includes a number of column headers with a single row for each unique pairing of a time investor group with a collaborator group, for the time periods that any person in the time investor group spent with a collaborator group. For example, if you run a query with the *Group by* option of *week* and a person in group G1 spent time with a person in group G2 in the first and third week of a specific month, then rows will only exist for groups G1 and G2 in weeks one and three of the output file.
 
-![Group-to-group time investors-collaborators](../images/WpA/Use/g2g-time-investors-collaborators.png)
+![Group-to-group time investors-collaborators.](../images/WpA/Use/g2g-time-investors-collaborators.png)
 
 The query output for group-to-group queries, like person-to-group queries, also includes the following general attribute and metric column headings.
 

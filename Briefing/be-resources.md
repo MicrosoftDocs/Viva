@@ -5,7 +5,7 @@ description: Downloadable resources available for admins who are rolling out the
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

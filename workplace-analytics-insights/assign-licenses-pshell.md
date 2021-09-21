@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Assign licenses with PowerShell for insights
-description: Learn how to assign licenses with PowerShell to people who want to use Microsoft 365 Insights
+title: Assign licenses with PowerShell for Viva Insights
+description: Learn how to assign licenses with PowerShell to people who want to use Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none 
+ms.localizationpriority: null 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -67,7 +67,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
 
    Sign in with admin credentials:
 
-    ![Azure Active Directory login](./images/azure-ad-log-in-1.png)
+    ![Azure Active Directory login.](./images/azure-ad-log-in-1.png)
 
 2. Run the following from the command line:
 

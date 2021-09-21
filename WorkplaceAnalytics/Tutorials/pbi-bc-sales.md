@@ -4,7 +4,7 @@ description: Use the Sales business continuity dashboard to visualize predefined
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -34,6 +34,8 @@ When the Sales business continuity dashboard is populated with data, you can use
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
+To find the template for the Sales business continuity dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
 ## Prerequisites
 
@@ -112,7 +114,7 @@ After confirming the settings, check the number of measured employees to confirm
 >[!Important]
 >As new data is processed on a weekly basis, select **Refresh** in the Power BI Home ribbon to view the most recent data.
 
-![Sales business continuity dashboard settings](../Images/WpA/Tutorials/sbc-settings.png)
+![Sales business continuity dashboard settings.](../Images/WpA/Tutorials/sbc-settings.png)
 
 ## About the dashboard reports
 

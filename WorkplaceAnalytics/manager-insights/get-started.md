@@ -4,7 +4,7 @@ description: Learn how to sign in and use Manager insights in Workplace Analytic
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal
+ms.localizationpriority: medium
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -33,7 +33,7 @@ Manager insights provides the following visibility into your team’s collaborat
 
 * **Team effectiveness** - Nimble companies can more efficiently adapt to market changes and gain a true competitive advantage. The insights in this section show if your team has time to collaborate for rapid innovation, and to focus and produce higher quality work.
 
-![Manager insights](./images/manager-insights.png)
+![Manager insights.](./images/manager-insights.png)
 
 ## Who is included
 

@@ -5,7 +5,7 @@ description: Learn about the Join Datasets Azure Template for Workplace Analytic
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -39,7 +39,7 @@ The owner of HR system data (such as the HR manager) needs to do the following t
 
 1. Create a new .csv file that maps a new unique key identifier for each employee to each identifier used in another dataset (outside of Workplace Analytics) that can be joined and analyzed along side Workplace Analytics query data. For example, the HR manager maps a new Key_ID that's unique and can't be interpreted or related back to an employee's identity and can only be mapped back to employees by using this table or file.
 
-    ![Create a mapping file option](./images/jd-map-file-1.png)
+    ![Create a mapping file option.](./images/jd-map-file-1.png)
 
    >[!Important]
    >This mapping file must be securely maintained outside of Workplace Analytics to maintain employee privacy. After the key identifier in this file is uploaded to Workplace Analytics as part of the HR data upload, you could possibly use this file to identify employees included in Workplace Analytics query data.
@@ -60,25 +60,25 @@ For this example, the **Key_ID** column is uploaded to Workplace Analytics as a 
 
 1. The owner of the mapping file uploads it into the template.
 
-    ![Upload the mapping file](./images/jd-wpa-upload.png)
+    ![Upload the mapping file.](./images/jd-wpa-upload.png)
 
 2. The mapping file is stored securely in the template. This file is only used in creating joined datasets, which cannot be downloaded, accessed, or decrypted within the template. The mapping file is augmented with an auto-generated sequence (**SEQN**) value that is included in the final output.
 
-    ![Create a mapping file](./images/jd-map-file.png)
+    ![Create a mapping file.](./images/jd-map-file.png)
 
 3. The data owner uploads a Workplace Analytics query file (with **Key_ID** data included in the export).
 
-   ![Upload Workplace Analytics query data](./images/jd-wpa-query.png)
+   ![Upload Workplace Analytics query data.](./images/jd-wpa-query.png)
 
 4. The user uploads an external dataset that includes the same employee identifiers that were included in the mapping file (for example, **Employee_ID**) to **Key_ID**.
 
-   ![Upload third-party data](./images/jd-3p-data.png)
+   ![Upload third-party data.](./images/jd-3p-data.png)
 
 5. The template then uses the mapping file to combine the two data sources into a new joined dataset. For this example, **Employee_ID** values are added temporarily to the Workplace Analytics query file and matched up to the **Key_ID** values, and then the data rows for the two datasets are combined into one joined dataset.
 
    The identifier columns, such as **Key_ID** and **Employee_ID**, are then removed from the joined dataset and replaced with system-generated sequence IDs in a new **SEQN** column, which keeps the data de-identified for analysis purposes.
 
-   ![New joined dataset](./images/jd-join-data.png)
+   ![New joined dataset.](./images/jd-join-data.png)
 
 ## Join dataset tasks
 
@@ -147,7 +147,7 @@ You can use this template to create and analyze joined datasets as follows.
      1. Select the column in the dataset with distinct grouping values, and then select **Go**. For example, **SurveyName** is shown as selected in the following graphic.
      2. Then select the start and end dates for the distinct sets of values in the selected column. Note that the date ranges cannot overlap and need to be unique for each distinct grouping value.
 
-    ![Data Join Settings](./images/jd-join-settings.png)
+    ![Data Join Settings.](./images/jd-join-settings.png)
 
 7. Select **Submit**.
 8. After the dataset is successfully created, it'll be available in the **Joined Datasets** list with the following options:
@@ -181,7 +181,7 @@ You can use this template to create and analyze joined datasets as follows.
 
 An Azure Templates Admin can select user permissions for joined datasets. In **Admin** > **User Management**, select the **Edit** (pencil) icon for a user, and then select which permissions to enable for that user.
 
-   ![User permissions for joined datasets](./images/jd-user-permissions.png)
+   ![User permissions for joined datasets.](./images/jd-user-permissions.png)
 
 Specific permissions for joined datasets are based on how users need access to use the data. Specific permissions can be restricted to specific roles, such as Azure Templates Analysts are limited only to the **Analyze Join Datasets** permission.
 

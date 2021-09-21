@@ -5,7 +5,7 @@ description: Concepts and definitions to help you better work with the plans fea
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -52,7 +52,7 @@ During validation, Workplace Analytics checks the following about each potential
 
 After validation, Workplace Analytics reports the results, including the number of qualified participants. The results also show any warnings, which display the numbers of participants who’ve failed any tests.
 
-![Validation warnings](../images/wpa/tutorials/validation-warnings.png)
+![Validation warnings.](../images/wpa/tutorials/validation-warnings.png)
  
 All four of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with the plan. See [Start the plan](solutionsv2-task.md#start-the-plan).
 
@@ -88,7 +88,7 @@ Return to [Submit a group](solutionsv2-task.md#submit-a-group).
 
 Groups and plans are shown on the **Plans > Manage** page of Workplace Analytics. You can track groups and plans in the table on this page. To find a plan, first filter the table contents by using the dropdown to select plans in the following states: **Drafts**, **Active**, or **Completed**.
 
-![Manage](../images/wpa/tutorials/solutions-manage.png)
+![Manage.](../images/wpa/tutorials/solutions-manage.png)
 
 
 **Drafts** are plans that you have begun to define, and saved. A draft plan remains in the draft state until you select **Start plan**. It does not go live until you select **Start plan**, even if you’ve set its start date and that date passes. You can take either of two actions with draft plans: delete them or start them. On this page, if you click **Start now** for a draft plan, the **Set up new plan** panel opens. 
@@ -111,7 +111,7 @@ Return to [Track plans](solutionsv2-task.md#track-plans)<!-- or [Next steps: pro
 
 On the **Plans** > **Teamwork** page, groups of employees are shown below the chart:
 
-   ![Available and selected employees](../Images/WpA/Tutorials/solutions-conceptual-01.png)
+   ![Available and selected employees.](../Images/WpA/Tutorials/solutions-conceptual-01.png)
  
 * **Measured employees:** The total number of employees in the organization who are available for analysis.
 * **In filter group:** The number of measured employees who remain available for analysis after you applied filters.

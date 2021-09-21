@@ -4,7 +4,7 @@ description: MyAnalytics users receive a weekly digest with key insights and sug
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -28,19 +28,19 @@ Each week focuses on one of the following work patterns:
 
 Here's an example of a digest about focus time.
 
-![Focus digest](../../Images/mya/use/digest-focus.png)
+![Focus digest.](../../Images/mya/use/digest-focus.png)
 
 Here's an example of an insight included in a digest.
 
-![Focus insight](../../Images/mya/use/focus-digest-insight.png)
+![Focus insight.](../../Images/mya/use/focus-digest-insight.png)
 
 Here's an example of a digest insight about quiet hours.
 
-![Quiet hours digest](../../Images/mya/use/digest-quiet.png)
+![Quiet hours digest.](../../Images/mya/use/digest-quiet.png)
 
 Here's an example of a digest insight about work relationships.
 
-![Network digest](../../Images/mya/use/digest-network.png)
+![Network digest.](../../Images/mya/use/digest-network.png)
 
 ## Opt out of digests
 
@@ -63,4 +63,4 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 
 If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
 
-![Unsubscribe from digest message](../../Images/mya/use/digest-unsubscribe.png)
+![Unsubscribe from digest message.](../../Images/mya/use/digest-unsubscribe.png)

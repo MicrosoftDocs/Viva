@@ -5,7 +5,7 @@ description: Learn about what new Azure Templates or new functionality has been 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -15,6 +15,8 @@ audience: Admin
 ---
 
 # What's new in Workplace Analytics Azure Templates
+
+[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
@@ -352,7 +354,7 @@ The following enhancements and features are included in the Process Explorer Azu
 * Additional options (filters, time range) that help reduce the size of the training dataset for cloud storage, which is required to be less than five million meetings and emails, for improved interactivity when building and training the template model(s) for auto-categorization of the full dataset.
 * New Process Explorer Admin setting that specifies if the template shows email subjects and requires categorization to train emails by using a distinct model, or if it trains both email and meetings by using only meeting data.
 
-    ![Categorize email admin setting](./images/pexp-admin-settings.png)
+    ![Categorize email admin setting.](./images/pexp-admin-settings.png)
 
 To learn more, see [Process Explorer Azure Template](./process-explorer.md).
 

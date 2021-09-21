@@ -4,7 +4,7 @@ description: MyAnalytics introduction with links to further information
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -13,7 +13,7 @@ audience: Admin
 
 # MyAnalytics
 
-[![Viva announcement](../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
+[![Viva announcement.](../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 MyAnalytics provides insights into two of the key factors in personal productivity: how people spend their time and who they spend it with. You and your team can get these benefits after an administrator sets up MyAnalytics within your organization.
 

@@ -7,7 +7,7 @@ description: Learn ways to improve your productivity in Outlook
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: priority 
+ms.localizationpriority: high 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -25,7 +25,7 @@ If your answer to any of these questions is _yes_, the Outlook add-in provides a
 
 Open the Insights Outlook add-in by selecting the **Insights** icon on the Outlook **Home** ribbon. If you are using  Outlook on the web, open an email message, select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Insights**.
 
-![Insights panel](../../images/mya/overview/insights-cards-12.png)
+![Insights panel.](../../images/mya/overview/insights-cards-12.png)
 
 ## Privacy by design
 

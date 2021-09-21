@@ -5,7 +5,7 @@ description: Describes the privacy settings and exclusions in Workplace Analytic
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -30,7 +30,7 @@ You can use privacy settings to:
 
 Admins make privacy settings on the **Exclusions** section of the **System defaults** page in the setup sequence of Workplace Analytics.
 
-![Admin privacy settings](../images/wpa/use/exclusions.png)
+![Admin privacy settings.](../images/wpa/use/exclusions.png)
 
 <!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
 
@@ -51,7 +51,7 @@ The default minimum-group setting is *five*, which is the *minimum allowed value
 
 For example, the columns on the left in the following graphic shows chart data for groups that exceed the minimum-group setting. The gray-striped column represents *unavailable data* for the CEO group that has fewer people than the minimum-group setting.
 
-![1:1 meeting hours protects employee privacy](../images/wpa/use/1x1-meeting-hours.png)
+![1:1 meeting hours protects employee privacy.](../images/wpa/use/1x1-meeting-hours.png)
 
 >[!Note]
 >The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
@@ -103,7 +103,7 @@ Subject lines are useful for analysts who want to set up meeting exclusion rules
 
 Terms can be any combination of letters, numbers and special characters (such as client attorney privilege or D&I).
 
-![Exclude email addresses, terms from subject lines](../images/wpa/use/two-exclusions.png)
+![Exclude email addresses, terms from subject lines.](../images/wpa/use/two-exclusions.png)
 
 ## Exclusion setting considerations
 

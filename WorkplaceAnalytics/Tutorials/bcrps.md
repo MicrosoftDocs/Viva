@@ -5,7 +5,7 @@ description: Use the Business continuity report that's within the Productivity S
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -27,7 +27,7 @@ You are encouraged to share this report with business leaders in your organizati
 * Able to effectively meet and share ideas and information remotely.
 * Maintaining their community connections.
 
-![Business continuity report v3](../Images/WpA/Tutorials/bcrps-3.png)
+![Business continuity report v3.](../Images/WpA/Tutorials/bcrps-3.png)
 
 The following are some of the top-level business questions this report helps you analyze.
 

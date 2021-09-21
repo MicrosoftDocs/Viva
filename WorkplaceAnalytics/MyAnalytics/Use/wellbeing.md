@@ -5,7 +5,7 @@ description: Learn how to use MyAnalytics to improve your work-life balance
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -15,7 +15,7 @@ audience: Admin
 
 The Wellbeing page on the [MyAnalytics dashboard](dashboard-2.md) shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-![MyAnalytics Wellbeing page](../../Images/mya/use/wellbeing.png)
+![MyAnalytics Wellbeing page.](../../Images/mya/use/wellbeing.png)
 
 ## Productivity insights
 

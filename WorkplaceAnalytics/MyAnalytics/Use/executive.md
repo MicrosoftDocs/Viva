@@ -8,7 +8,7 @@ description: Learn about the Executive insights dashboard
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -41,7 +41,7 @@ The Executive insights help you reflect on how effectively you spend your time i
 
 In a chart, this section shows the relative amount of time that you spent in meetings of different categories.
 
-   ![MyAnalytics Collaboration Weekly Average](../../Images/mya/use/percentage-breakdown.png)
+   ![MyAnalytics Collaboration Weekly Average.](../../Images/mya/use/percentage-breakdown.png)
 
 In the chart, select a category to find out more.     
 
@@ -51,11 +51,11 @@ The Meeting habits section of the Executive dashboard highlights your habits or 
 
 * Select **Meeting Details** to see data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings on your Outlook calendar.
 
-  ![Meeting view](../../Images/mya/use/meeting-details-figma.png)
+  ![Meeting view.](../../Images/mya/use/meeting-details-figma.png)
 
 * Select **Meeting Trends** to see trends of different meeting categories across time: 
 
-  ![Meeting trend view](../../Images/mya/use/meeting-trends-figma.png)
+  ![Meeting trend view.](../../Images/mya/use/meeting-trends-figma.png)
 
 ## Monthly digest email for executives
 
@@ -86,7 +86,7 @@ Select a value from the choices **Last 4 weeks**, **Last 3 months**, or **Last 4
 
  * Under **Select meeting categories**, select categories of meetings to include on this dashboard: 
 
-   ![meeting view slider control](../../Images/mya/use/select-meeting-categories.png)
+   ![meeting view slider control.](../../Images/mya/use/select-meeting-categories.png)
 
 After you select categories, they appear in all the charts of this page: [Percentage breakdown](#percentage-breakdown), [Meeting trends, and Meeting details](#meeting-trends-and-meeting-details).
 

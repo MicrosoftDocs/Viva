@@ -5,7 +5,7 @@ description: Use the Ways of working assessment dashboard to visualize predefine
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -52,6 +52,8 @@ After you successfully run these queries, you can download the template from the
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiYzNmZjNjNmUtNDY1Yi00NmZlLThiOWItZGQ0MjdkMWJjMDQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+
+To find the template for the Ways of working assessment dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
 ## Prerequisites
 
@@ -116,7 +118,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 14. Select **Run** to run the query, which can take a few minutes to complete.
 15. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Ways of working assessment** query results, select **PBI template**, and then select **OK** to download the template.
 
-    ![Download the Power BI Ways of working assessment template](../Images/WpA/Tutorials/pbi-download-assessment.png)
+    ![Download the Power BI Ways of working assessment template.](../Images/WpA/Tutorials/pbi-download-assessment.png)
 
 16. Open the downloaded **Ways of working assessment template**.
 17. If prompted to select a program, select **Power BI**.
@@ -131,7 +133,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 19. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 20. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 21. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -154,7 +156,7 @@ After the Ways of working assessment dashboard is set up and populated with Work
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-  ![Ways of working assessment dashboard settings](../Images/WpA/Tutorials/pbi-wowa-settings.png)
+  ![Ways of working assessment dashboard settings.](../Images/WpA/Tutorials/pbi-wowa-settings.png)
 
 ### Employees with low collaboration
 
@@ -164,7 +166,7 @@ The dashboard also excludes unusually low collaboration weeks based on individua
 
 If you want to include employees with low collaboration in your analysis, select the **Clear filter** (eraser) icon to clear the **IsLikelyKnowledgeWorker** and **IsLikelyHoliday** filters in the Power BI **Filters** pane.
 
-![Clear filters to include low collaboration workers](../Images/WpA/Tutorials/assessment-filters.png)
+![Clear filters to include low collaboration workers.](../Images/WpA/Tutorials/assessment-filters.png)
 
 ## About the reports
 

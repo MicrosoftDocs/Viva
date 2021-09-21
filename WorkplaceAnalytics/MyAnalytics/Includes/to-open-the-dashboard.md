@@ -8,7 +8,7 @@ author: madehmer
 ms.author: v-pausch
 ms.date: 04/03/2019
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 ---
 
@@ -20,11 +20,11 @@ ms.prod: Mya
 
 1. In Outlook, select the **Insights** icon on the top Outlook **Home** ribbon.
 
-   ![Insights icon](../../Images/mya/use/insights-icon.png)
+   ![Insights icon.](../../Images/mya/use/insights-icon.png)
 
 2. Select the dashboard icon at the top of the Insights pane in your email inbox. Your personal MyAnalytics dashboard opens in a web browser.
 
-   ![MyAnalytics dashboard icon](../../Images/mya/use/mya-db-icon.png)
+   ![MyAnalytics dashboard icon.](../../Images/mya/use/mya-db-icon.png)
 
 *In the Outlook Web app*
 

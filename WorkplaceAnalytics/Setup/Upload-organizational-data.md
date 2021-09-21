@@ -3,9 +3,9 @@
 title: Subsequent organizational data uploads
 description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -31,12 +31,12 @@ The task of importing organizational data has three parts:
 
 After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
-### Video: Upload organizational data
+<!-- NEED TO UPDATE WITH 3 DIFFERENT SCENARIOS - ASK MICHELE ### Video: Upload organizational data
 
 The user interface and navigation in recent releases of Workplace Analytics are different that what's shown in this video.
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
-
+-->
 ## File upload
 
 In the following steps, you specify a .csv file to upload to Workplace Analytics.
@@ -106,7 +106,7 @@ When appending new attributes to an existing upload, you need to select all the 
 
 * **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation. The following options are available for each of the columns in your source data:
 
-    ![Map data fields](../images/wpa/setup/map-fields-include-column-65.png)
+    ![Map data fields.](../images/wpa/setup/map-fields-include-column-65.png)
 
   * **Show in report** - Lets the actual data value appear in the report just as it was imported in the organizational data file.
   * **Hash in report** - De-identifies sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of showing actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
@@ -125,7 +125,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
    1. Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name):
 
-      ![Map required system fields](../images/wpa/setup/upload2-map-sys-fields.png)
+      ![Map required system fields.](../images/wpa/setup/upload2-map-sys-fields.png)
 
    2. Under Source column (the first column in the table), click the down arrow. This shows a list of the column names that were found in the .csv file. From the list, select the correct column name for this data.
    3. Fill in appropriate values for the other columns in the table: Workplace Analytics name, Data type, and so on. Repeat these mapping steps for the rest of the required fields.
@@ -135,7 +135,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 2. Map the optional and custom fields, as applicable. You only need to map the columns in your source (.csv) file that your organization considers important for analysis. For example, if "Region" is important and your data contains this field, map it.
 
-   ![Map custom system fields](../images/wpa/setup/upload3-map-custom2.png)
+   ![Map custom system fields.](../images/wpa/setup/upload3-map-custom2.png)
 
    1. Under **Source column** (the first column in the table), select the down arrow to see the list of column names that were found in the data file. From the list, select the column name for the data. In this example, you'd select the source column for **Region**.
    2. Set values for the other columns in the table, such as the validity threshold and report options.
@@ -161,7 +161,7 @@ After you complete the steps in [File upload](#file-upload), the **Upload** page
 
 For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, Workplace Analytics shows a warning message:
 
-   ![auto-refresh query warning](../images/wpa/setup/auto-refresh-warning.png)
+   ![auto-refresh query warning.](../images/wpa/setup/auto-refresh-warning.png)
 
 Below this message, a table in the **Warning details** area lists the affected auto-refresh queries and provides details about issues that were encountered. This information is for review only. You cannot change data or mapping settings on this page.
 
@@ -173,7 +173,7 @@ To continue with data upload despite the issues, select **Next**. Note that this
 
 After you complete the steps in [Field mapping](#field-mapping), the organizational data file is uploaded and validated, and the **Upload** page shows the _File is being uploaded_ screen:
 
-![Upload in progress](../images/wpa/setup/upload4-uploading.png)
+![Upload in progress.](../images/wpa/setup/upload4-uploading.png)
 
 In most cases, file validation should complete very quickly. If your organizational data file is very large, validation could take up to one or two minutes.
 
@@ -193,7 +193,7 @@ After this phase completes, the file has either passed or failed validation. Go 
 
 If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After successful validation, Workplace Analytics processes your new data.
 
-![Validation succeeded](../images/wpa/setup/upload6-validated.png)
+![Validation succeeded.](../images/wpa/setup/upload6-validated.png)
 
 You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
@@ -210,7 +210,7 @@ You can do the following for an upload:
 
 If data validation fails, the **Validation** page shows a "Validation failed" notification. It also shows details about the validation attempt and presents you with options:
 
-![Validation failed](../images/wpa/setup/upload9-val-failed-upload-flow.png)
+![Validation failed.](../images/wpa/setup/upload9-val-failed-upload-flow.png)
 
 After a failed validation, it's best to first gain an understanding of the errors by scanning the error summary table. You can also select **Download issues** to examine the error log.
 

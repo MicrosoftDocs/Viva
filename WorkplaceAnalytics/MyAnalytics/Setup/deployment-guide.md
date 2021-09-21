@@ -5,7 +5,7 @@ description: Guide for admins on deploying MyAnalytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -19,7 +19,7 @@ MyAnalytics is an easy-to-deploy, out-of-the-box solution that helps users impro
 ## What is MyAnalytics?
 To quickly learn about MyAnalytics, watch [this video](https://www.youtube.com/watch?v=J9sokkEjGaE&feature=youtu.be):
 
-[![What is MyAnalytics?](../../images/mya/setup/video-thumbnail.png)](https://www.youtube.com/watch?v=J9sokkEjGaE&feature=youtu.be)
+[![What is MyAnalytics?.](../../images/mya/setup/video-thumbnail.png)](https://www.youtube.com/watch?v=J9sokkEjGaE&feature=youtu.be)
 _MyAnalytics -Personal Productivity Insights with Microsoft 365_
 
 ### Business value of MyAnalytics
@@ -44,7 +44,7 @@ By using MyAnalytics, you and your team can accomplish great things.
 
 * Hear how the world's largest brewer used MyAnalytics in conjunction with Workplace Analytics to change its workplace collaboration habits for the better: [ABInBev](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics) 
    
-  [![ABInBev](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
+  [![ABInBev.](../../images/mya/setup/ab-in-bev-video.png)](https://customers.microsoft.com/story/758970-ab-inbev-consumer-goods-workplace-analytics)
 
   _The use of MyAnalytics and Workplace Analytics at ABInBev_ 
 
@@ -103,13 +103,13 @@ In this scenario, all surfaces of MyAnalytics are turned on by default for all u
 
 1.	Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal). Make sure you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
-    ![New admin center](../../images/mya/setup/the-new-admin-center.png)
+    ![New admin center.](../../images/mya/setup/the-new-admin-center.png)
  
 2.	In the left pane, expand **Settings** and then select **Org settings**.
 3.	On the **Service** tab, select **MyAnalytics**. This opens a page on which you can configure access to MyAnalytics elements. It should show that all MyAnalytics elements are enabled. 
 4. If any element is not enabled, select it to enable it and then select **Save changes**.
    
-    ![Assign access](../../images/mya/setup/assign-mya-access-new.png)
+    ![Assign access.](../../images/mya/setup/assign-mya-access-new.png)
  
 #### Default off
 
@@ -121,12 +121,12 @@ In this scenario, MyAnalytics is off by default but users can turn it on for the
 
 1.	Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal). Make sure you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
-    ![New admin center](../../images/mya/setup/the-new-admin-center.png)
+    ![New admin center.](../../images/mya/setup/the-new-admin-center.png)
  
 2.	In the left pane, expand **Settings** and then select **Org settings**.
 3.	On the **Service** tab, select **MyAnalytics**. This opens a page to configure access to MyAnalytics elements.
 
-    ![Assign access](../../images/mya/setup/assign-mya-access-new.png)
+    ![Assign access.](../../images/mya/setup/assign-mya-access-new.png)
 
 4.	Deselect **Insights dashboard**, **Weekly digest**, and **Insights Outlook add-in** to keep all MyAnalytics users in your organization opted out of all MyAnalytics features.
 
@@ -136,7 +136,7 @@ After these settings are complete, users can open the MyAnalytics dashboard and 
 
 In this scenario, some users are opted in and some users are opted out of all MyAnalytics surfaces. Those who are opted-in receive the weekly email digest, can open the MyAnalytics dashboard, and see the Outlook Insights add-in. Those who start out as opted out see the default “off” page shown here, on which they can use the Feature settings pane to opt in to any of the MyAnalytics surfaces:
 
-![Feature settings](../../images/mya/setup/feature-settings.png)
+![Feature settings.](../../images/mya/setup/feature-settings.png)
 _Feature settings pane with MyAnalytics off by default_ 
 
 ##### Set up mixed deployment
@@ -187,7 +187,7 @@ In this scenario, some users have MyAnalytics off by default and can opt themsel
 
 Users without a service plan will see the following at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/):
 
-![No service plan](../../images/mya/setup/no-service-plan.png)
+![No service plan.](../../images/mya/setup/no-service-plan.png)
  
 While MyAnalytics is not available to these users, their data contributes to the email-read statistics for other users. For example, when they receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. A user can choose to not contribute data by turning the MyAnalytics toggle off in the **Feature settings** pane of the MyAnalytics dashboard.
 

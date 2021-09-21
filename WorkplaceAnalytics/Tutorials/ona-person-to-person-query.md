@@ -5,7 +5,7 @@ description: Describes how to use Network person-to-person queries in Workplace 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa
@@ -72,7 +72,7 @@ The following columns appear, from left to right, in the query results for Netwo
 
 ### The first two columns identify the initiator of the tie
 
-![first columns -- A and B](../images/wpa/tutorials/columns-a-b.png)
+![first columns -- A and B.](../images/wpa/tutorials/columns-a-b.png)
 
 _Query results example: Columns A and B_
 
@@ -83,7 +83,7 @@ The column names for these attributes are organizational attribute names with th
 
 ### The next columns describe the initiator of the tie
 
-![first columns -- C through E](../images/wpa/tutorials/columns-c-e.png)
+![first columns -- C through E.](../images/wpa/tutorials/columns-c-e.png)
 
 _Query results example: Columns C through E_
 
@@ -95,7 +95,7 @@ The column names for these attributes are organizational attribute names with th
 
 ### The next two columns identify the other participant in the tie
 
-![next columns -- F and G](../images/wpa/tutorials/columns-f-g.png)
+![next columns -- F and G.](../images/wpa/tutorials/columns-f-g.png)
 
 _Query results example: Columns F and G_
 
@@ -106,7 +106,7 @@ The column names for these attributes are organizational attribute names with th
 
 ### The next columns describe the other participant in the tie
 
-![next columns -- H through J](../images/wpa/tutorials/columns-h-j.png)
+![next columns -- H through J.](../images/wpa/tutorials/columns-h-j.png)
 
 _Query results example: Columns H through J_
 
@@ -118,7 +118,7 @@ The column names for these attributes are organizational attribute names with th
 
 ### The last columns give the results
 
-![last columns -- K through O](../images/wpa/tutorials/columns-k-o.png)
+![last columns -- K through O.](../images/wpa/tutorials/columns-k-o.png)
 
 _Query results example: Columns K through O_
 

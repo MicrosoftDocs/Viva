@@ -6,7 +6,7 @@ description: Workplace Analytics offers a number of flexible queries for custom 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -16,7 +16,7 @@ audience: Admin
 
 Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
-![Ways to query data](../Images/WpA/Use/ways-to-query-data.png)
+![Ways to query data.](../Images/WpA/Use/ways-to-query-data.png)
 
 With these queries, you can:
 
@@ -135,11 +135,11 @@ As described in [Consumption model details](#consumption-model-details), the cal
 
 On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
 
-![query cost tooltip](../images/wpa/tutorials/estimated-query-cost-tooltip.png)
+![query cost tooltip.](../images/wpa/tutorials/estimated-query-cost-tooltip.png)
 
 This opens a panel that describes the current calculation:
 
-![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
+![query cost calculation.](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
 >[!Note]
 >* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
@@ -167,7 +167,7 @@ On the **Query designer** > **Results** page, you can locate a query that has al
 2. In the list of queries, find a query whose status shows as completed, as indicated by a green check mark.
 3. In the row for that query, select **More options** (the ellipsis) and then **View query**:
 
-   ![options view query](../images/wpa/tutorials/query-actions.png)
+   ![options view query.](../images/wpa/tutorials/query-actions.png)
 
    This opens the page for designing that query.
 
@@ -194,9 +194,9 @@ The **Queries** > **Results** page shows additional information if the consumpti
 
 * **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
-* **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+* **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information.](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
-   ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
+   ![Query results page.](../images/wpa/tutorials/query-results-new-col.png)
 -->
 ### View analyst usage
 
@@ -315,7 +315,7 @@ You can create queries in the following ways:
 
 When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
-![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
+![Customize metrics.](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
 ## Predefined query templates
 

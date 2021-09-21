@@ -6,7 +6,7 @@ description: About Workplace Analytics Azure Templates and how to use it for adv
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -15,6 +15,8 @@ manager: scott.ruble
 audience: Admin
 ---
 # Workplace Analytics Azure Templates overview
+
+[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 _These templates are only available as part of a Microsoft service engagement._
 
@@ -36,7 +38,7 @@ You can easily customize them to meet your unique organizational needs, includin
 
 The following shows how Workplace Analytics Azure Templates fit into your existing organizational system.
 
-![Workplace Analytics Azure Templates architecture](./images/azure-templates-architecture.png)
+![Workplace Analytics Azure Templates architecture.](./images/azure-templates-architecture.png)
 
 As shown in the graphic, Workplace Analytics Azure Templates work with the following Azure components within your existing Azure environment.
 

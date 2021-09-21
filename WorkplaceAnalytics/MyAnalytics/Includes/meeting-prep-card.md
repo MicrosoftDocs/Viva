@@ -7,7 +7,7 @@ description: Describes how the Meeting prep card looks and works
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 ---
 
@@ -25,13 +25,13 @@ The meeting preparation card shows you a list of upcoming meetings that you have
 
 2.	On the **Insights** panel, locate the **Prepare for your meetings** card: 
  
-    ![Meeting preparation card](../../Images/mya/use/meeting-prep-card.png)
+    ![Meeting preparation card.](../../Images/mya/use/meeting-prep-card.png)
 
     This card provides information about meetings that you have organized for this week and next week (up to 10 business days in the future) and it helps you evaluate the state of those meetings. 
 
 3.	Select the **Prepare for your meetings** card. This opens a panel that displays insights cards for each of your upcoming meetings: 
 
-    ![Meeting preparation panel](../../Images/mya/use/meeting-prep-panel.png)
+    ![Meeting preparation panel.](../../Images/mya/use/meeting-prep-panel.png)
  
 These insights cards inform you of the following:
 
@@ -46,5 +46,5 @@ These insights cards inform you of the following:
 
 _This card shows the **Attachments** section in its expanded state, which lets you see more details about the attachments:_
 
-![Meeting preparation panel, expanded](../../Images/mya/use/meeting-prep-panel-expanded.png) 
+![Meeting preparation panel, expanded.](../../Images/mya/use/meeting-prep-panel-expanded.png) 
  

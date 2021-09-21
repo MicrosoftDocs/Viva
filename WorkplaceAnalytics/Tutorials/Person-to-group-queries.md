@@ -5,7 +5,7 @@ description: Person-to-group queries in Workplace Analytics uncover how an indiv
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -15,7 +15,7 @@ audience: Admin
 
 Person-to-group queries in Workplace Analytics help you understand how an individual invests their time across the rest of the organization and beyond. The query results list individuals ("time investors") by their PersonIDs (de-identified), one or more groups that you define in the query ("their collaborators"), and the amount of time that the time investor spends with the groups that you define.
 
-![Time investors allocate time to groups](../Images/WpA/tutorials/p2g-query.png)
+![Time investors allocate time to groups.](../Images/WpA/tutorials/p2g-query.png)
 
 >[!Note]
 >Because individuals are assigned a randomly generated PersonID to maintain de-identification, there is no way to identify an individual in the output of a query.
@@ -49,21 +49,21 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
    For more information about these metrics, see [Person-to-group metrics](../use/metric-definitions.md#person-to-group-metrics).
 
-      ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics.png)
+      ![Select metrics.](../Images/WpA/tutorials/g2g-01-select-metrics.png)
 
     In the following sections, you can group both the time investors and the collaborators. For example, you could analyze how senior leaders allocated time across different organizations by setting the time investors' group to “level” and the collaborators' group to “organization.”
 7. In the **Time investors** section, for **Employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email or instant message during the aggregated time period (date range) set for this query.
 8. In the **Time investors** section, you can optionally add filters to exclude specific time investors from the query. For example, if you specify **FunctionType** > Equals > **Account Management**, the query results will only include time investors in Account Management.
 
-   ![Group and filter time investors](../Images/WpA/tutorials/p2g-time-investors.png)
+   ![Group and filter time investors.](../Images/WpA/tutorials/p2g-time-investors.png)
 
 9. In the **Their collaborators** section, you can add employee filters to exclude specific collaborators, such as by Domain, FunctionType, or Organization.
 
-   ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+   ![Exclude collaborators.](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
 
 10. At this point, the collaborators are not grouped, therefore the query results won't show which collaborators interacted with the time investors. To group the collaborators, answer the question *How do you want to group the people who collaborated with the time investors?* to show which groups interacted with them. You can also combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
 
-    ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+    ![Group collaborators.](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
 11. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear the selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 12. Select **Run** at the top right to run the query.

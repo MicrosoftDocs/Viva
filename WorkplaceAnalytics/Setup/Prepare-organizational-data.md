@@ -5,7 +5,7 @@ description: How to prepare data from your organization to upload and use in Wor
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -118,13 +118,13 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
 
 * <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
 
-   ![Admin notification](../images/wpa/setup/admin-page-bell.png)
+   ![Admin notification.](../images/wpa/setup/admin-page-bell.png)
 
    To see your notifications, select the bell icon. 
 
 * <u>Banner</u> &ndash; It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
 
-   ![Banner for missing org data](../images/wpa/setup/admin-page-missing-licensed.png)
+   ![Banner for missing org data.](../images/wpa/setup/admin-page-missing-licensed.png)
 
    To respond to this warning, follow the steps in [Upload missing organizational data](#upload-missing-organizational-data).
 
@@ -132,7 +132,7 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
 
 1. Select **Download**. This downloads a .csv file that contains the names of licensed employees whose organizational data is missing. For example:
 
-   ![Missing org data names](../images/wpa/setup/sample-csv-file.png)
+   ![Missing org data names.](../images/wpa/setup/sample-csv-file.png)
 
 2. Open the .csv file.
 3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)

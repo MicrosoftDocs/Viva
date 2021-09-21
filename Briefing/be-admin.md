@@ -5,7 +5,7 @@ description: Steps for admins to configure Briefing email for their organization
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -107,13 +107,13 @@ Users can unsubscribe individually from within any Briefing email they receive. 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
-    ![New admin center](./images/the-new-admin-center.png)
+    ![New admin center.](./images/the-new-admin-center.png)
 
 3. In the left pane, expand **Settings**, and then select **Org Settings**.
 4. Under **Org Settings**, select **Briefing email (Preview)**.
 5. Select or deselect the checkbox for **Let people in your organization receive the Briefing email**, and then select **Save changes**. If you deselect the checkbox, all users in your organization will not receive Briefing email, including all those who were receiving Briefing email. However, individuals can explicitly subscribe again at [cortana.office.com](https://cortana.office.com).
 
-   ![Briefing email access](./images/be-admin.png)
+   ![Briefing email access.](./images/be-admin.png)
 
 <!--### To configure access in PowerShell
 

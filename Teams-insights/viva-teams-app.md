@@ -1,11 +1,11 @@
 ---
 
 title: Viva Insights in Teams
-description: Learn about the Microsoft Viva Insights (personal insights) app.
+description: Learn about the Microsoft Viva Insights (personal insights) app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -29,6 +29,8 @@ By using the Viva Insights app, you can:
 * Start a [virtual commute](viva-insights-virtual-commute.md) &ndash; Mindfully close out your workday.  
 * Use [Microsoft To-Do](viva-insights-home.md#microsoft-to-do) &ndash; Take action on a task in your to-do list.
 
+## Privacy
+
 The insights for individuals that this app presents are completely personal and private. Personal insights in the app are for your eyes only; neither your manager nor the system administration can see your insights. For more information, see the [Privacy guide](viva-teams-app-privacy.md).
 
 ## How it works
@@ -38,12 +40,12 @@ The personal insights and actions in the Viva Insights app are based on your Exc
 <!--   VERIFY THAT THE FOLLOWING NOTE STILL APPLIES   -->
 
 >[!Note]
->To have access to the Viva Insights app, you will need an Exchange Online license.
+>To get access to the Viva Insights app, you must have an Exchange Online license.
 
 ## Related topics
 
-* [Microsoft Viva Insights app Home page](viva-insights-home.md)
+* [Viva Insights Home](viva-insights-home.md)
 * [Privacy guide](viva-teams-app-privacy.md)
-* [Install the Microsoft Viva Insights app](viva-teams-app-install.md)
+* [Install the Viva Insights app](viva-teams-app-install.md)
 * [FAQ](viva-teams-app-faq.md)
 * [Admin tasks](viva-teams-app-admin-tasks.md)

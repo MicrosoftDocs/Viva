@@ -5,7 +5,7 @@ description: Information to help you map fields by using the fields tables.
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ---
 
@@ -34,7 +34,7 @@ ms.prod: wpa
 
 * **Include in report** lets you decide how to treat sensitive data in the report that will be generated about the import operation.
 
-    ![Map data fields](../images/wpa/setup/map-fields-include-column-65.png) 
+    ![Map data fields.](../images/wpa/setup/map-fields-include-column-65.png) 
 
 The drop-down menu under **Include in report** offers the following options for each of the columns in your source data:
 

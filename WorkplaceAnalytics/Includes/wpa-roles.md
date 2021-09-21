@@ -5,7 +5,7 @@ description: (include file) Workplace Analytics roles
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ---
 

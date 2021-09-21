@@ -5,7 +5,7 @@ description: Learn more about the network graphs used in Workplace Analytics vis
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -19,7 +19,7 @@ The organizational network analysis (ONA) graphs used for some of the Workplace 
 
 The following is an example of an Employee empowerment graph.
 
-![Employee empowerment graph](../images/wpa/use/ee-ona-graph.png)
+![Employee empowerment graph.](../images/wpa/use/ee-ona-graph.png)
 
 ## Nodes
 

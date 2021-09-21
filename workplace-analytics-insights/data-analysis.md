@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Insights data access and analysis
-description: More details about what data is accessed and analyzed in Microsoft 365 Insights
+description: More details about what data is accessed and analyzed in Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: none
+ms.localizationpriority: null
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin

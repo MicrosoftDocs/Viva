@@ -5,7 +5,7 @@ description: How to opt out of MyAnalytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -24,12 +24,12 @@ All users can use the MyAnalytics dashboard to opt-out. When you opt out:
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.
 
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under **MyAnalytics**, select **Settings**.
 4. For MyAnalytics, change the setting to **Off**.
 
-    ![Slider off](../../Images/mya/use/opt-out-slider-off.png)
+    ![Slider off.](../../Images/mya/use/opt-out-slider-off.png)
 
 > [!NOTE]
 > It might take up to a week for your saved changes to take effect.
@@ -51,12 +51,12 @@ You will use the answer to this question in the following procedure:
 3. Sign in by using the credentials of an email account whose  MyAnalytics subscription you want to end.
 4. Select the **Settings** (gear) icon in the top right.
 
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
 
 5. Under **MyAnalytics**, select **Settings**.
 6. For MyAnalytics, change the setting to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/opt-out-slider-off.png)
+    ![Slider in off position.](../../Images/mya/use/opt-out-slider-off.png)
   
 7. Repeat steps 1 - 6 for each account whose MyAnalytics subscription you want to opt out of. 
  
@@ -66,7 +66,7 @@ Yes, if you opt yourself out, or if an admin opts you out, you can opt back in a
 
 To opt in, repeat the steps in [To opt out of MyAnalytics](#to-opt-out-of-myanalytics), but in **Step 4**, change the setting for **MyAnalytics** to **On**:
   
-![Slider off position](../../Images/mya/use/opt-in-slider-on.png)
+![Slider off position.](../../Images/mya/use/opt-in-slider-on.png)
 
 ## Related topics
 
@@ -81,6 +81,9 @@ Use the procedures in this section to configure your own access to MyAnalytics.
 * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
 
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
+
+<!--
+* [Uninstall Viva Insights from Teams](mya-notifications.md#opt-out-of-inline-suggestions) -->
 
 #### For administrators
 

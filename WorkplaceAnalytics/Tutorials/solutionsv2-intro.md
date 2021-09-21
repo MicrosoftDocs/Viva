@@ -5,7 +5,7 @@ description: Introduction to Workplace Analytics plans
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa
@@ -77,7 +77,7 @@ Confirm that your organization meets the following licensing prerequisites:
 
 The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provides tips on how to best use Workplace Analytics Teamwork plans to achieve maximum benefit for your organization:
 
-[![solution for teamwork playbook](../images/wpa/tutorials/solns-playbook-title.png)](wpa-teamwork-solution-playbook.pdf)
+[![solution for teamwork playbook.](../images/wpa/tutorials/solns-playbook-title.png)](wpa-teamwork-solution-playbook.pdf)
 -->
 
 ## Plans FAQ

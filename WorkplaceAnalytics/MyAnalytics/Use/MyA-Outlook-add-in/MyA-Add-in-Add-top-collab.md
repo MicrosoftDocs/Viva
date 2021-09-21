@@ -9,7 +9,7 @@ author: paul9955
 ms.author: v-pausch
 ms.date: 04/08/2019
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

@@ -5,7 +5,7 @@ description: This explains why users receive a 500 error when using Workplace An
 author: paul9955
 ms.author: v-mideh
 ms.topic: troubleshooting
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -19,7 +19,7 @@ audience: Admin
 
 "The server is not responding. Please contact your administrator. Error 500".
 
- ![Workplace Analytics 500 error](../Images/Wpa-tool-500-error.png)
+ ![Workplace Analytics 500 error.](../Images/Wpa-tool-500-error.png)
 
 **Why is this happening?** 
 

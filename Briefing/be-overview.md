@@ -5,7 +5,7 @@ description: About the Briefing email and how to use it to help with your workda
 author: madehmer
 ms.author: v-mideh
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -48,7 +48,7 @@ For more details, see [Prepare for meetings](be-meetings.md) and [Follow up on t
 
 As a new user, your first Briefing email explains how to use it to prepare for upcoming meetings and manage pending tasks. It also explains how your personal information is kept private.
   
-   ![First Briefing email](./images/first-briefing.png)
+   ![First Briefing email.](./images/first-briefing.png)
 
 ## Configuration
 

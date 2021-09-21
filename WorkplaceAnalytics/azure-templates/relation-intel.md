@@ -5,7 +5,7 @@ description: Learn about the Relationship Intelligence Power BI report included 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid: 
 - MET150
 ms.prod: wpa
@@ -26,14 +26,14 @@ This report uses account and contact information from a Customer Relationship Ma
 
 The Relationship Intelligence report includes a **General insights** section that shows how your employees are engaging with your customers and an **Account-specific insights** section about how your employees are engaging with a specific account.
 
-![Relationship intelligence report introduction](./images/ri-pbi-intro.png)
+![Relationship intelligence report introduction.](./images/ri-pbi-intro.png)
 
 1. **How have we been engaging with our accounts?** – Shows what percentage of accounts your organization or select groups were meaningfully engaged with the defined group of accounts. It also shows a chart based on the average connectivity score by account group. When you select a group from the chart on the left, the chart on the right will change to show only the selected account data.
 2. **How much attention are we investing in our accounts?** – Shows the level of investment in accounts based on the interaction type, including the total cost and number of hours invested in collaboration with the account over the selected time period. It also shows the average number of internal employees working with accounts. When you select a group to focus on, you’ll see their data highlighted in the charts.
 3. **How are our internal groups engaging with accounts?** – Shows the average number of collaboration hours invested with accounts by internal groups and their time investment with accounts over the selected date range.
 4. **How do accounts compare to each other by collaboration?** – Includes the following information as related to account collaboration activity, such as email and meeting hours spent with accounts and the last date the organization engaged with them. You can filter and focus the list by using the account name, account size, connectivity tier, and/or connectivity score.
 
-   ![Relationship intelligence account comparison](./images/ri-accounts-report.png)
+   ![Relationship intelligence account comparison.](./images/ri-accounts-report.png)
 
    * The **Recent connectivity score** is based on the amount, frequency, and timeliness of collaboration activity with an account. The scores are divided into the following values that can be filtered into any combination.
 
@@ -104,7 +104,7 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
 1. In Workplace Analytics Azure Templates, select **Relationship Intelligence** > **Add New Analysis** (at top right).
 2. In **Define Analysis Settings**, enter a friendly name for the analysis and select the path to the dataset.
 
-    ![Add new analysis for the report](./images/ri-new-analysis.png)
+    ![Add new analysis for the report.](./images/ri-new-analysis.png)
 
 3. In **Select Account Mapping**, select the mapping file you created in [Account mapping](deploy-configure.md#account-mapping).
 4. To only select a subset of the data, select the applicable start and end dates in **Specify the time range**.
@@ -121,9 +121,9 @@ After you add an [account mapping file](deploy-configure.md#account-mapping) for
     >[!Note]
     >If you delete the job, the underlying data required for the report is also deleted and any Power BI file that uses this data won’t work or show any data because it uses a link to the live data.
 
-    ![Analysis table details](./images/ri-analysis-table.png)
+    ![Analysis table details.](./images/ri-analysis-table.png)
 
-    ![Download Power BI template and copy data link](./images/ri-download.png)
+    ![Download Power BI template and copy data link.](./images/ri-download.png)
 
 ## Load the data and view the report
 
@@ -153,14 +153,14 @@ After the Relationship Intelligence Report is set up and populated with data, us
 
 * **Account grouping attribute** - Select an account grouping attribute and value to group accounts by in the **General Insights** report section.
 
-![Relationship Intelligence Power BI report settings](./images/ri-pbi-settings.png)
+![Relationship Intelligence Power BI report settings.](./images/ri-pbi-settings.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 
 * **General insights** and **Account-specific insights** – The data on pages 1 through 5 show generally how your employees are engaging with your customers. Pages 6 through 13 are specific to the account that you select at the top of each page.
 * **Power BI data error** - If you see an error similar to the following, you might not have the correct information copied for the Server and Database fields in Power BI. Repeat the steps in [Load the data and view the report](#load-the-data-and-view-the-report).
 
-    ![Power BI error if no database and server data are linked](./images/ri-pbi-error.png)
+    ![Power BI error if no database and server data are linked.](./images/ri-pbi-error.png)
 
 For details about how to share the dashboard and other Power BI tips, to troubleshoot common issues, or to review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
 

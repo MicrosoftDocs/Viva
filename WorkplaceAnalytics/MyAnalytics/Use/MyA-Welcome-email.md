@@ -5,7 +5,7 @@ description: MyAnalytics users receive a welcome email after licenses are assign
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -19,5 +19,5 @@ Users do not receive the Welcome digest outside of their work week. For example,
 
 The following is an example of a MyAnalytics welcome message.
 
- ![MyAnalytics welcome message top section](../../Images/mya/use/welcome-email-1.png)
- ![MyAnalytics welcome message end section](../../Images/mya/use/welcome-email-2.png)
+ ![MyAnalytics welcome message top section.](../../Images/mya/use/welcome-email-1.png)
+ ![MyAnalytics welcome message end section.](../../Images/mya/use/welcome-email-2.png)

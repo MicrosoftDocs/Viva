@@ -5,7 +5,7 @@ description: Learn how to use Workplace Analytics data to analyze and maximize o
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -15,13 +15,13 @@ audience: Admin
 
 Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Enhance operational effectiveness page](../images/wpa/use/effective-operations.png)
+![Enhance operational effectiveness page.](../images/wpa/use/effective-operations.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Operational effectiveness percentage insight](../images/wpa/use/effective-operations-percent.png)
+![Operational effectiveness percentage insight.](../images/wpa/use/effective-operations-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Operational effectiveness visual insight](../images/wpa/use/effective-operations-visual.png)
+![Operational effectiveness visual insight.](../images/wpa/use/effective-operations-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|

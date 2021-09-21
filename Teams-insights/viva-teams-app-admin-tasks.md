@@ -1,11 +1,11 @@
 ---
 
-title: Viva Insights app - Admin tasks
-description: Microsoft Viva Insights (personal insights) app -- Admin tasks
-author: paul9955
+title: Admin tasks for the Viva Insights app
+description: Admin tasks for the Microsoft Viva Insights (personal insights) app
+author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -19,18 +19,18 @@ audience: Admin
 Complete the steps in the following four mini-playbooks to get the Microsoft Viva Insights app up and running for people in your organization.
 
 1. Turn on the Viva Insights app for your organization:
-[Release the Insights app within your organization](Release-the-Insights-app.pdf).
+[Release the Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
 
-   > [!Note]
-   > To allow or block specific users in your organization from using Insights, do the following:
+   >[!Note]
+   >To allow or block specific users in your organization from using Insights, do the following:
    >
-   >a. Make sure that Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page.
+   >1. Make sure that Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page.
    >
-   >b. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
+   >2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
 
-2. Pin the Viva Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Viva Insights app](Pin-the-Insights-app.pdf).
+2. Pin the Viva Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Viva Insights app](https://download.microsoft.com/download/5/d/f/5df6c702-58f2-4768-b8e5-26ffd2c78b80/Pin-the-Insights-app.pdf).
 
-3. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](Find-and-open-the-Insights-app.pdf).
+3. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](https://download.microsoft.com/download/c/a/6/ca665366-e059-4977-8175-04461af196c1/Find-and-open-the-Insights-app.pdf).
 
 ## Disable Headspace
 
