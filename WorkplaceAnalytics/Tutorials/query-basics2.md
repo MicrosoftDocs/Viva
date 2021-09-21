@@ -78,7 +78,7 @@ The terms in this formula are as follows:
 
 * **A = users**
 
-   This is the number of users whom the query will analyze. Also see [Usage calculation for different query types](#usage-calculation-for-different-query-types).
+   This is the number of users whom the query will analyze. Also see [User scope in usage calculations](#user-scope-in-usage-calculations).
 
 * **B = metrics**
 
@@ -107,13 +107,13 @@ The terms in this formula are as follows:
 
    This is the analysis period, in weeks.
 
-#### Usage calculation for different query types
+#### User scope in usage calculations
 
-As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, note the following about the various query types:
+As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, the user scope for the various query types is defined as follows:
 
-* **Person query**: (no notes)
+* **Person query**: **A** (users) = the number of measured employees, as filtered in the query definition
 
-* **Meeting query**: The user scope for monetization formula is all licensed users that are invited in the filtered meetings.
+* **Meeting query**: **A** (users) = the number of licensed users that are invited in the filtered meetings
 
 * **Person-to-group query**: **A** (users) = the number of time investors
 
