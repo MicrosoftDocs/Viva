@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Insight metrics
-description: Describes the data metrics used in Microsoft 365 Insights
+description: Describes the data metrics used in Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -12,7 +12,7 @@ manager: scott.ruble
 audience: Admin
 
 ---
-# Metrics used in Microsoft 365 Insights
+# Metrics used in Microsoft Viva Insights
 
 *This experience is only available through private preview at this time.*
 

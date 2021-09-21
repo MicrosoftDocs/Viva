@@ -64,7 +64,7 @@
                     - name: First upload
                       href: ~/Setup/upload-organizational-data-1st.md 
                     - name: Subsequent uploads
-                      href: ~/Setup/Upload-organizational-data.md 
+                      href: ~/Setup/upload-organizational-data.md 
                     - name: Upload CRM data
                       href: ~/Setup/crm-data-upload.md
             - name: Admin settings
@@ -162,7 +162,7 @@
                     - name: Manager effectiveness
                       href: ~/tutorials/power-bi-manager.md
                     - name: Behavior patterns for Glint
-                      href: ~/tutorials/power-bi-glint.md
+                      href: ~/tutorials/power-bi-glint-2.md
                     - name: Sales business continuity
                       href: ~/tutorials/pbi-bc-sales.md
                     - name: Power BI tips, FAQ, and troubleshooting
@@ -302,12 +302,6 @@
               href: myanalytics/use/add-in.md
             - name: Use Insights
               href: myanalytics/use/use-the-insights.md
-       # - name: Digests
-       #   items:
-       #     - name: Welcome
-       #       href: MyAnalytics/use/MyA-Welcome-email.md
-       #     - name: Weekly
-       #       href: MyAnalytics/use/email-digest-2.md
         - name: Digest emails
           href: MyAnalytics/use/email-digests-3.md
         - name: Inline suggestions

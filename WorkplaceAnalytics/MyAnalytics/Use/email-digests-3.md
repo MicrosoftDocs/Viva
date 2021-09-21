@@ -65,11 +65,10 @@ Here's an example of a digest insight about work relationships.
 
 -->
 
+
 ### Opt out of digests
 
 If you do not want to receive the monthly digest from Microsoft Viva, you can opt out in either of two ways &mdash; on your MyAnalytics dashboard or in the digest email itself.
-
-#### Opt out on the MyAnalytics dashboard
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at the top right.

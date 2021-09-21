@@ -25,7 +25,7 @@ The MyAnalytics [Dashboard](../use/dashboard-2.md), [Digests](../use/email-diges
 | Plan  | Service plan |
 | ----- | ----- |
 | <li>Microsoft 365 E3 <li>Microsoft 365 Business <li>Microsoft 365 A3 for faculty/students <li>Office 365 E3 <li>Office 365 E1 <li>Office 365 A3 for faculty/students <li>Office 365 E3 Developer <li>Office 365 G3 <li>Business Premium <li>Business Essentials | Insights by MyAnalytics |
-| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing &nbsp; &nbsp; &nbsp; <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-in | MyAnalytics (Full) and Insights by MyAnalytics |
+| <li>Microsoft 365 E5 <li>Microsoft 365 E5 without Audio Conferencing &nbsp; &nbsp; &nbsp; <li>Office 365 Enterprise E5 <li>Office 365 Nonprofit E5 <li>Office 365 G5<li>MyAnalytics add-in <li>Workplace Analytics  | MyAnalytics (Full) and Insights by MyAnalytics |
 | <li>Microsoft 365 A5 for faculty/students <li>Office 365 A5 for faculty/students | MyAnalytics (Full) |
 
 >[!Note]
@@ -39,9 +39,9 @@ The following features are available only in the MyAnalytics (Full) service plan
 
 * Read-status features: [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), [Track email open rate](../use/mya-notifications.md#track-email-open-rate)
 * [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
-* [Plan your time away](../use/mya-notifications.md#plan-your-time-away)
 * [Delay delivery plan](../use/delay-delivery.md)
  <!-- REMOVED 30sept2020 * Ability to participate in a [Workplace Analytics plan](../../tutorials/solutionsv2-intro.md) BUT RE-ADDED 2/12/2021 and removed again 2/16/21  -->
+<!-- REMOVED 13sept2021 * [Plan your time away](../use/mya-notifications.md#plan-your-time-away)  -->
 
 ## Access to MyAnalytics elements
 
