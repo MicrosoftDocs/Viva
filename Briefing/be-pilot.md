@@ -9,10 +9,14 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+recommendations: false
 
 ---
 
 # Conduct a user pilot
+
+>[!Note]
+> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
 
 If you choose to disable the Briefing email for your organization, you can run a pilot with a subset of users first. Especially for large organizations, a small-scale pilot is a natural first step to validate user readiness, identify and mitigate issues, and help ensure a successful, organization-wide rollout.
 
