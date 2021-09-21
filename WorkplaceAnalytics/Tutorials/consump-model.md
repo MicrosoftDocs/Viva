@@ -46,7 +46,7 @@ The terms in this formula are as follows:
 
 * **A = users**
 
-   This is the number of users whom the query will analyze.
+   This is the number of users whom the query will analyze. Also see [Usage calculation for different query types](#usage-calculation-for-different-query-types).
 
 * **B = metrics**
 
@@ -73,6 +73,24 @@ The terms in this formula are as follows:
 
    This is the analysis period, in weeks.
 
+#### Usage calculation for different query types
+
+As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, note the following about the various query types:
+
+* **Person query** &ndash; (no notes)
+
+* **Meeting query** &ndash; The user scope for monetization formula is all licensed users that are invited in the filtered meetings.
+
+* **Person-to-group query** &ndash; **A** (users) = the number of time investors
+
+* **Group-to-group query** &ndash; **A** (users) = the number of time investors
+
+* **Peer Comparison** &ndash; **A** (users) = the number of employees in the reference groups
+
+* **Network: Person query** &ndash;  **A** (users) = the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
+
+* **Network: P2P query** &ndash; User scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
+
 #### See the usage calculation for the query
 
 On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
@@ -84,7 +102,8 @@ This opens a panel that describes the current calculation:
 ![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
 >[!Note]
->The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
+>* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
+>* This cost calculator is not available for meeting queries.
 
 #### Charges for recurring queries
 
