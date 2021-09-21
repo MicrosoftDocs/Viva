@@ -16,6 +16,8 @@ audience: Admin
 
 # What's new in Workplace Analytics Azure Templates
 
+[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
 ## July 2021

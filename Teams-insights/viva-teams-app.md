@@ -1,7 +1,7 @@
 ---
 
 title: Viva Insights in Teams
-description: Learn about the Microsoft Viva Insights (personal insights) app.
+description: Learn about the Microsoft Viva Insights (personal insights) app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
