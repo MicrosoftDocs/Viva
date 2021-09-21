@@ -77,19 +77,19 @@ The terms in this formula are as follows:
 
 As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, note the following about the various query types:
 
-* **Person query** &ndash; (no notes)
+* **Person query**: (no notes)
 
-* **Meeting query** &ndash; The user scope for monetization formula is all licensed users that are invited in the filtered meetings.
+* **Meeting query**: The user scope for monetization formula is all licensed users that are invited in the filtered meetings.
 
-* **Person-to-group query** &ndash; **A** (users) = the number of time investors
+* **Person-to-group query**: **A** (users) = the number of time investors
 
-* **Group-to-group query** &ndash; **A** (users) = the number of time investors
+* **Group-to-group query**: **A** (users) = the number of time investors
 
-* **Peer Comparison** &ndash; **A** (users) = the number of employees in the reference groups
+* **Peer Comparison**: **A** (users) = the number of employees in the reference groups
 
-* **Network: Person query** &ndash;  **A** (users) = the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
+* **Network: Person query**:  **A** (users) = the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
 
-* **Network: P2P query** &ndash; User scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
+* **Network: Person-to-person query**: User scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
 
 #### See the usage calculation for the query
 
