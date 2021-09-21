@@ -36,8 +36,9 @@ Confirm the following additional prerequisites. Then you can use the Exchange On
 
 ### Additional prerequisites
 
-* **Install the required module** - [Install the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module).
-* **.NET Framework** - You must have [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework) or the latest available version installed.
+* **Install the required module** &ndash; [Install the Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2#install-and-maintain-the-exchange-online-powershell-v2-module)
+
+* **.NET Framework** &ndash; You must have [.NET Framework 4.7.2]((https://dotnet.microsoft.com/download/dotnet-framework)) or the latest available version installed.
 
 > [!Important]
 > Before configuring access, confirm you're connected to [Exchange Online](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#connect-to-exchange-online-using-the-exo-v2-module).
@@ -141,4 +142,4 @@ Get-OrganizationIntelligenceConfig
 
 * [Briefing email overview](be-overview.md)
 * [Briefing settings](be-settings.md)
-* [Use the Exchange Online PowerShell V2 module](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2)
+* [Use the Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2)
