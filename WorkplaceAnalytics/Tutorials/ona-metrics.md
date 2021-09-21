@@ -72,7 +72,7 @@ You can use the Network queries to qualify a network connection between two peop
 If two people have many network connections in common, they are considered to have a *strong tie*. Strong ties typically indicate shared membership in a workgroup or team. *Diverse ties* reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection.
 
 >[!Note]
->When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees).
+>When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees-define).
 
 ### Distance is a factor
 

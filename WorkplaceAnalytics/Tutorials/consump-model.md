@@ -79,7 +79,7 @@ The terms in this formula are as follows:
 
 As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, the user scope for the various query types is defined as follows:
 
-* **Person query**: **A** (users) = the number of measured employees, as filtered in the query definition
+* **Person query**: **A** (users) = the number of [measured employees](../use/glossary.md#measured-employees-define), as filtered in the query definition
 
 * **Meeting query**: **A** (users) = the number of licensed users that are invited in the filtered meetings
 
