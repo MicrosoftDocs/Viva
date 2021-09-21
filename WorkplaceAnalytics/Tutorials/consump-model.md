@@ -58,6 +58,8 @@ The terms in this formula are as follows:
 
 * **C = price-tier cost**
 
+<a name="price-tier-anchor"></a>**Price tier costs**
+
    This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
 
    | Tier | Metric used in the query | Units |
@@ -87,9 +89,9 @@ As described in [Consumption model details](#consumption-model-details), the cal
 
 * **Peer Comparison**: **A** (users) = the number of employees in the reference groups
 
-* **Network: Person query**:  **A** (users) = the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
+* **Network: Person query**:  **A** (users) = the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Price tier costs](#price-tier-anchor)).
 
-* **Network: Person-to-person query**: User scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Consumption model details](#consumption-model-details)).
+* **Network: Person-to-person query**: User scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Price tier costs](#price-tier-anchor)).
 
 #### See the usage calculation for the query
 
