@@ -5,7 +5,7 @@ description: Use this dashboard to visualize analysis in Power BI that combines 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -30,10 +30,10 @@ The dashboard combines the following data.
 | Empowerment | I feel empowered to make decisions regarding my work. | <ul><li>Co-attendance rate</li><li>Time in self-organized meetings</li></ul>|
 | Growth | I have good opportunities to learn and grow at my company. |<ul><li>Internal network size</li><li>External network size</li><li>Time in skip-level collaboration</li></ul>|
 
-:::image type="content" source="../images/wpa/tutorials/pbi-glint-wellbe-2.png" alt-text="Power BI Glint Wellbeing report":::
+:::image type="content" source="../images/wpa/tutorials/pbi-glint-wellbe-2.png" alt-text="Power BI Glint Wellbeing report.":::
 
 <!-- SWITCHING TO NEW IMAGE STYLE. FORMERLY HERE:
-![Power BI Glint Wellbeing report](../Images/WpA/Tutorials/pbi-glint-wellbeing.png) -->
+![Power BI Glint Wellbeing report.](../Images/WpA/Tutorials/pbi-glint-wellbeing.png) -->
 
 The dashboard includes the following reports.
 
@@ -84,20 +84,20 @@ The following is required before you can run the query in Workplace Analytics an
 
 1. In Glint, select **Reports** > **Heat Map**, and then select the reports that have questions on wellbeing, prioritization, and connectivity. If the questions spread across different pulse dates, select the **Multiple Pulses** option.
 
-   ![Glint heat map report](../Images/WpA/Tutorials/glint-heat-map-2.png)
+   ![Glint heat map report.](../Images/WpA/Tutorials/glint-heat-map-2.png)
 
 2. In **Filter By**, select the applicable departments for the population you want to analyze in Power BI, and then select **Done**.
 
-   ![Glint filter by departments](../Images/WpA/Tutorials/glint-filter-by.png)
+   ![Glint filter by departments.](../Images/WpA/Tutorials/glint-filter-by.png)
 
 3. Select the grouping attributes that are also used in Workplace Analytics for the report.
 
-   ![Glint report options](../Images/WpA/Tutorials/glint-report.png)
+   ![Glint report options.](../Images/WpA/Tutorials/glint-report.png)
 
 4. In **Add section**, select (up to five) other grouping attributes to analyze by, which must also be present in Workplace Analytics.
 5. Select **Export to spreadsheet** to download the report.
 
-   ![Glint report export](../Images/WpA/Tutorials/glint-report-export.png)
+   ![Glint report export.](../Images/WpA/Tutorials/glint-report-export.png)
 
 6. Save the spreadsheet in an accessible location.
 
@@ -142,7 +142,7 @@ The following is required before you can run the query in Workplace Analytics an
 4. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 6. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -158,11 +158,11 @@ After the Behavior patterns dashboard is set up and populated with both the Glin
 1. **Select the Glint attribute to view the report by** &ndash; In **Settings**, select the primary “group-by” attribute that represents the teams in Glint. To clear an existing mapping, select the **Reset** arrow.
 2. **Select corresponding attributes or values for the Workplace Analytics data** &ndash; For each Glint value, select the matching field value (ideally one to one) that is used in Workplace Analytics data.
 
-   ![Behavior patterns Settings page 1](../Images/WpA/Tutorials/select-glint-settings.png)
+   ![Behavior patterns Settings page 1.](../Images/WpA/Tutorials/select-glint-settings.png)
 
 3. **Select the employee experience pillars to explore** &ndash; Map the employee themes to their corresponding Glint survey question themes, and then enter the actual question asked in Glint.
 
-   ![Behavior patterns Settings page 2](../Images/WpA/Tutorials/select-glint-settings-2.png)
+   ![Behavior patterns Settings page 2.](../Images/WpA/Tutorials/select-glint-settings-2.png)
 
 ## Power BI tips, troubleshooting, and FAQs
 

@@ -4,7 +4,7 @@ description: Group-to-group queries show how a team invested their time across t
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -15,7 +15,7 @@ audience: Admin
 
 Group-to-group queries in Workplace Analytics give results that help you understand how a team invested their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by the organizational attributes, along with how much time people in the first group &ndash; the _time investors_ &ndash; allocated to other groups &ndash; _collaborators_.
 
-![Group A allocates time to Group B](../Images/WpA/tutorials/Group-query1.png)
+![Group A allocates time to Group B.](../Images/WpA/tutorials/Group-query1.png)
 
 ## Overview of time allocation
 
@@ -28,7 +28,7 @@ An understanding of time allocation helps you create better group queries. The d
 
 The following graphic depicts these concepts.
 
- ![Principles of time allocation](../Images/WpA/Tutorials/principals-of-time-allocation.png)
+ ![Principles of time allocation.](../Images/WpA/Tutorials/principals-of-time-allocation.png)
 
 <!-- Per Dheepak, this pptx is not for public consumption 
 > [!Note]  
@@ -48,7 +48,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 5. Select a meeting exclusions rule. The query will ignore meetings that are filtered out by this rule.
 6. In the **Select metrics** section, select one or more metrics that measure interactions between the time investors and collaborators, such as Collaboration hours, Email hours, or Meeting hours.
 
-   ![Select metrics](../Images/WpA/tutorials/g2g-01-select-metrics_2.png)
+   ![Select metrics.](../Images/WpA/tutorials/g2g-01-select-metrics_2.png)
 
    To learn more about metrics for group-to-group queries, see [Group-to-group metrics](../use/metric-definitions.md#group-to-group-metrics).
 
@@ -56,7 +56,7 @@ While setting up a group query differs markedly from setting up meeting or perso
 
 7. In the **Time investors** section, answer the next question, _How do you want to group the time investors?_ by specifying an attribute for this group, for example, FunctionType, IsInternal, or TenureMonths. 
 
-   ![Group and filter time investors](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
+   ![Group and filter time investors.](../Images/WpA/tutorials/g2g-02-group-filter-time-investors.png)
 
 8. Optionally, you can remove some of the time investors from this analysis by applying one or more filters under the question, _Do you want to limit the analysis to only certain time investors?_
 
@@ -64,11 +64,11 @@ While setting up a group query differs markedly from setting up meeting or perso
 
    At this point, the collaborators are ungrouped, which means the query results will not show you which collaborators interacted with the time investors.
 
-   ![Exclude collaborators](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
+   ![Exclude collaborators.](../Images/WpA/tutorials/g2g-03-exclude-collaborators.png)
 
 10. Answer the question _How do you want to group the people who collaborated with the time investors?_ to group the collaborators. This answer helps to show you which groups interacted with the time investors. You can also combine groups of collaborators to isolate other specific groups who interacted with the time investors.
 
-    ![Group collaborators](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
+    ![Group collaborators.](../Images/WpA/tutorials/g2g-04-group-collaborators.png)
 
 11. Select **Run** at the top right to run the query.
 

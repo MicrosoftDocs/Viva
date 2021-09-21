@@ -5,7 +5,7 @@ description: De-identified data in Workplace Analytics
 author: rodonahu
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ROBOTS: NOINDEX, NOFOLLOW
 manager: scott.ruble

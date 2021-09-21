@@ -8,7 +8,7 @@ author: madehmer
 ms.author: v-pausch
 ms.date: 04/11/2019
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 ---
 
@@ -18,7 +18,7 @@ ms.prod: Mya
 
  * In the navigation bar of the Outlook desktop application, select the **Insights** icon.
 
-    ![Insights add-in in Outlook](../../Images/mya/use/insights-icon.png)
+    ![Insights add-in in Outlook.](../../Images/mya/use/insights-icon.png)
 
     The Insights add-in pane slides open to the right in Outlook.
 

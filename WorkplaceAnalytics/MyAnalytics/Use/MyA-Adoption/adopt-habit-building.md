@@ -4,7 +4,7 @@ description: Building good habits with MyAnalytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -14,7 +14,7 @@ audience: Admin
 
 You can turn a selected behavior into a habit by using MyAnalytics and the habit-building method, which is based on behavioral science.
 
-![How to make it a habit](../../../Images/MyA/use/how-to-make-it-a-habit.png)
+![How to make it a habit.](../../../Images/MyA/use/how-to-make-it-a-habit.png)
 
 [Collaboration without burnout](https://insights.office.com/collaboration/collaboration-without-burning-out/) shares why it's important to avoid collaboration overload.
 

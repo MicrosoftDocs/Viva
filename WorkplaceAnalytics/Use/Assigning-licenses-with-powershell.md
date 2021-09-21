@@ -5,7 +5,7 @@ description: Learn how to assign Workplace Analytics licenses in Azure Active Di
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -58,7 +58,7 @@ Workplace Analytics can only extract data from the accounts of users who have va
 
    To sign in, you need credentials with admin privileges.
 
-    ![Azure Active Directory login](../images/WpA/Use/azure-ad-log-in-1.png)
+    ![Azure Active Directory login.](../images/WpA/Use/azure-ad-log-in-1.png)
 
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 

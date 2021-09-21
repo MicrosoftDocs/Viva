@@ -7,7 +7,7 @@ description: Table of inline suggestions to promote focus time
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ---
 

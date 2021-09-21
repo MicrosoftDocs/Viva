@@ -5,7 +5,7 @@ description: Which user roles in Workplace Analytics perform which functions and
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa

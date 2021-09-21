@@ -5,7 +5,7 @@ description: Describes how to use Query designer to analyze CRM data in Workplac
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -51,7 +51,7 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
   For example, the following graphic shows an employee filter of **FunctionType** > Equals > **Sales** *and* customer filters of **IsAccountOwner** or **IsSeller** > Equals > **True**, which will include query results for employee time investors in Sales who are also account owners.
 
-   ![Group and filter time investors for CRM](../Images/WpA/tutorials/p2g-time-investors-crm.png)
+   ![Group and filter time investors for CRM.](../Images/WpA/tutorials/p2g-time-investors-crm.png)
 
 * At this point, the collaborators are not grouped yet. In the **Their collaborators** section, answer the following questions to select which collaborators interacted with the selected time investors.
 
@@ -59,7 +59,7 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
   For example, the following graphic shows a customer filter of **AccountAnnualRevenue** less than **1000**, which will exclude customers with less than that amount of annual revenue from the query results.
 
-   ![CRM collaborators](../Images/WpA/use/crm-collaborator.png)
+   ![CRM collaborators.](../Images/WpA/use/crm-collaborator.png)
 
   * **How do you want to group the people who collaborate with the time investor?** - Use this to group the collaborators to analyze which groups interacted with the time investors.
   * **Do you want to focus the analysis on a particular set of collaborators and group all others as "Unclassified"?** - Use this to combine groups of collaborators for the purpose of isolating other specific groups who interacted with the time investors.
@@ -72,7 +72,7 @@ After you successfully [upload and process CRM data](../setup/crm-data-upload.md
 
 The following graphic shows example CRM data that you might see in the output .csv file.
 
-   ![Query output with CRM data](../Images/WpA/use/crm-query-output.png)
+   ![Query output with CRM data.](../Images/WpA/use/crm-query-output.png)
 
 This output includes the following, which enables you to perform even further grouping for more advanced data analysis.
 
@@ -92,31 +92,31 @@ The following business scenarios are a few of the ways you can use Workplace Ana
 
 To evaluate prioritization of accounts, you can correlate sellers’ time with specific accounts and their value potential, as shown in the following graphic.
 
-   ![CRM seller to account time correlation](../Images/WpA/use/crm-time-correlation.png)
+   ![CRM seller to account time correlation.](../Images/WpA/use/crm-time-correlation.png)
 
 To see this correlation, you can create a query as shown in the following graphic to look at the time investment with customers as compared to their annual revenue, which can highlight any misalignments in prioritization at an account level. This can show where high-value accounts might not be getting enough attention or low-value accounts might be demanding too much time from sellers.
 
-   ![CRM seller to account time correlation query](../Images/WpA/use/crm-time-correlation-query.png)
+   ![CRM seller to account time correlation query.](../Images/WpA/use/crm-time-correlation-query.png)
 
 **Analysis 2 - Sellers need to improve their customer networks**
 
 You need to compare the number of connections with customers, as well as the connections with each account, as shown in the following graphic. These connections indicate the depth of involvement with customer accounts.
 
-   ![CRM seller network size](../Images/WpA/use/crm-network-size.png)
+   ![CRM seller network size.](../Images/WpA/use/crm-network-size.png)
 
 In complex sales solutions, it's the intimate connections with customers that drive success when compared to the total time spent with customers. By expanding their network within customer accounts, sellers can learn more relevant issues and present more compelling sales solutions to their customers. Create a query as shown in the following graphic for your analysis.
 
-   ![CRM seller network size query](../Images/WpA/use/crm-network-query.png)
+   ![CRM seller network size query.](../Images/WpA/use/crm-network-query.png)
 
 **Analysis 3 - Sellers have limited customer focus relative to internal demands** 
 
 You can analyze how the different sales roles spent time as compared to time spent focusing on customers. Complex internal processes can limit the ability to spend more time with customers.
 
-   ![CRM customer focus](../Images/WpA/use/crm-collaboration-volume.png)
+   ![CRM customer focus.](../Images/WpA/use/crm-collaboration-volume.png)
 
 To do this, you can create a query as shown in the following graphic to analyze the ratio of customer hours to internal-only hours and evaluate how much time a seller is spending on internal and external collaborators.
 
-   ![CRM customer focus query](../Images/WpA/use/crm-collaboration-query.png)
+   ![CRM customer focus query.](../Images/WpA/use/crm-collaboration-query.png)
 
 ## Related topics
 

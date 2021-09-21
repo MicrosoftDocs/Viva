@@ -8,7 +8,7 @@ description: Describes the purpose of task cards in MyAnalytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -23,7 +23,7 @@ MyAnalytics can remind you to do tasks that are called out in email messages. In
 
 If you have one or more of these automatically generated tasks, a summary card is displayed in the MyAnalytics pane:  
 
-![Task card](../../../Images/mya/use/To-do-page-1.PNG)
+![Task card.](../../../Images/mya/use/To-do-page-1.PNG)
 
 > [!Note]
 > The Task card is available only in English.

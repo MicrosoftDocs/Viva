@@ -5,7 +5,7 @@ description: Learn how to change your personal settings for the Cortana Briefing
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -24,7 +24,7 @@ You can change your personal settings for the Briefing email to set what time of
    * In **When would you like to receive this email**, select a preferred time period, and then select **Save**. You'll receive your next Briefing within two hours of this new time.
    * In **Current time zone**, select **Change time zone** to change the Outlook setting for your Briefings.
 
-   ![Briefing settings](./images/be-settings.png)
+   ![Briefing settings.](./images/be-settings.png)
 
 > [!Note]
 > If you unsubscribe, you can always subscribe again at [https://cortana.office.com/briefing](https://cortana.office.com/briefing).

@@ -5,7 +5,7 @@ description: Workplace Analytics displays notifications that inform about system
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -40,7 +40,7 @@ Workplace Analytics notifications are of these types:
 
 The notifications panel is open by default on the Workplace Analytics Home page:
 
-![Notifications panel](../images/wpa/use/notifs-panel_4.png)
+![Notifications panel.](../images/wpa/use/notifs-panel_4.png)
 
 You can open this panel on any Workplace Analytics page by selecting the **Bell** icon in the ribbon. You can close the notifications panel by selecting the **Bell** icon again or simply by clicking outside the panel. After you have closed the panel, if you click the Home page or a notification link that causes the page to reload, the panel remains closed by default when the new page loads.
 
@@ -54,7 +54,7 @@ You cannot delete notifications, but notifications expire after 60 days.
 
 To open the _What's new_ panel, select the bullhorn icon in the ribbon: 
 
-![What's new in Workplace Analytics](../images/wpa/use/whats-new-wpa.png)
+![What's new in Workplace Analytics.](../images/wpa/use/whats-new-wpa.png)
 
 _What's new_ describes recently added features of Workplace Analytics, such as new dashboards, metrics, data sources, and navigation possibilities. 
 

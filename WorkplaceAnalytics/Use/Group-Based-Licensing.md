@@ -5,7 +5,7 @@ description: Assign group-based licensing for Workplace Analytics
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -24,7 +24,7 @@ ALSO HIDING THIS TOPIC BUT NOT DELETING IT -- IN CASE SOMEONE HAS BOOKMARKED IT.
 Some Microsoft Online products are "add-ins," which require a service plan that's enabled for a user or a group. With group-based licensing, the system requires that both the prerequisite and add-in service plans be enabled for the group, so that any new users who are added to the group can get a valid service plan assignment.
 
 Here's an example:
-![Admin center](../Images/WpA/Use/AAD_Group1.png)
+![Admin center.](../Images/WpA/Use/AAD_Group1.png)
 
 >[!Note]
 >Previously, Workplace Analytics had a prerequisite of an E1, E3, or E5 license. Now, the prerequisite for an Exchange Online license has been removed, so every organization can deploy Workplace Analytics by using group-based-licensing for a single group.
@@ -38,7 +38,7 @@ This service plan can only be assigned to a user, or a group, when one of the fo
 
 If you try to assign this product on its own to a group, the portal will return an error:
 
-![Admin center group error message](../Images/WpA/Use/AAD_Group2.png )
+![Admin center group error message.](../Images/WpA/Use/AAD_Group2.png )
 
 The error notification details will include the following error message:
 > _License operation failed. Make sure that the group has necessary services before adding or removing a dependent service. **The service Microsoft Workplace Analytics requires Exchange Online (Plan 2) to be enabled as well.**_

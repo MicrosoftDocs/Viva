@@ -5,7 +5,7 @@ description: How MyAnalytics use of data protects user privacy
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -19,7 +19,7 @@ MyAnalytics operates under the following privacy principles:
 
 When you look in your Microsoft 365 mailbox, you see a record of interactions that you’ve had with other people. These interactions are of various kinds: emails that you’ve sent and received, meeting invitations, chats and calls in Teams or in Skype for Business. Because it’s your mailbox, you have a right to it and the information that it contains. In other words, your mailbox content is information that’s freely available to you.
 
-![Outlook inbox](../../images/mya/overview/outlook-1.png)
+![Outlook inbox.](../../images/mya/overview/outlook-1.png)
 
 Most of the interactions in your mailbox involve other people – for example, co-workers who’ve sent you emails or meeting invitations or received those things from you. These interactions provide you with a bit of information about how those co-workers used communication tools. If you want to know how many emails your manager sent you last month (eight, let’s say), you probably don’t ask her. Instead, you open your Outlook inbox, sort it by sender, and count.
 
@@ -39,7 +39,7 @@ It looks in your inbox and in your calendar, crunches numbers, and gives insight
 
 The elements of MyAnalytics are personalized for you and available only to you. Only you can see your personal dashboard. The insights that appear in the Outlook add-in is for you only:
 
-![Meeting reminder in Insights](../../images/mya/overview/mya-add-in-note.png)
+![Meeting reminder in Insights.](../../images/mya/overview/mya-add-in-note.png)
 
 **Conclusion:** _Only you can see your MyAnalytics data. MyAnalytics insights are derived from data that was already available to you in your inbox._
 

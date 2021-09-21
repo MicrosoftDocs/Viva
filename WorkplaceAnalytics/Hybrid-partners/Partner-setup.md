@@ -6,7 +6,7 @@ description: How to set up an on-premises Exchange server to work with Workplace
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -54,7 +54,7 @@ The following table lists the necessary tasks and who's responsible for them dur
 
 Storage mailboxes are Microsoft 365-based mailboxes that contain synchronized data from associated on-premises Exchange Online mailboxes. You can use a PowerShell script to create and configure these mailboxes and assign required licenses, if necessary.
 
-![Workplace Analytics storage mailboxes](./images/storage-mailboxes.png)
+![Workplace Analytics storage mailboxes.](./images/storage-mailboxes.png)
 
 ​These storage mailboxes are different than the mailboxes that already exist in Microsoft 365. Workplace Analytics uses logic to map the storage mailboxes to the correct user mailboxes for data analysis. For these storage mailboxes, you'll need to:
 

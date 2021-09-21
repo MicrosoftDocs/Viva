@@ -5,13 +5,13 @@ description: Workplace Analytics offers a number of queries for custom data anal
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
 ---
 
-[![Viva announcement](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 # Queries overview
 
@@ -132,7 +132,7 @@ You can create queries in the following ways:
 
 When you create a new query or edit an existing query, you can select the metrics to include and customize. You can also use filters to narrow the results and focus in on specific data.
 
-![Customize metrics](../Images/WpA/Use/Customize-attributes-and-metrics.png)
+![Customize metrics.](../Images/WpA/Use/Customize-attributes-and-metrics.png)
 
 ## Query templates
 

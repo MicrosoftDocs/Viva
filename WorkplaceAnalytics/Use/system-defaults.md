@@ -5,7 +5,7 @@ description: Describes the system default settings in Workplace Analytics that a
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -38,7 +38,7 @@ If you are _not_ setting up Workplace Analytics, feel free to change these setti
 
 **Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin settings](../images/wpa/use/sys-def-page.png)
+![Admin settings.](../images/wpa/use/sys-def-page.png)
 
 ## Default time zone
 

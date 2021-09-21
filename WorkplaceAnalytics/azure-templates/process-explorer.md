@@ -6,7 +6,7 @@ description: Learn about the Process Explorer Azure Template for Workplace Analy
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid: 
 - MET150
 ms.prod: wpa
@@ -31,7 +31,7 @@ By copying a factory template to the user-defined library, you can customize it 
 
 The following is available after the data is categorized through a starter template.
 
-![Process Explorer Categorization Analysis page](./images/pe-cat-analysis.png)
+![Process Explorer Categorization Analysis page.](./images/pe-cat-analysis.png)
 
 * **Categorization Analysis** - You can see how the activity data is distributed into predefined categories, including total number of meetings, meeting hours, email, and email hours by category. See [Categorization analysis](#categorization-analysis) for details.
 
@@ -52,7 +52,7 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
    * **Starter Template** - Choose and then select a predefined factory or a user-defined starter template in **Select a categorization Starter template**.
    * **Topic Detection only** - This option auto-detects topics in the selected dataset and then shows you the top results on the **Detected Topics** page. After the analysis is created with this option, you can export any relevant topics to a new starter template and customize the categories and key phrases by selecting **Create Starter Template**. With this option, all emails and meetings that are not categorized in the Categorization Analysis, Email Thread Analysis, and Communication Flow by Category pages can then be categorized.
 
-    ![Process Explorer starter templates](./images/pe-new-analysis1.png)
+    ![Process Explorer starter templates.](./images/pe-new-analysis1.png)
 
 4. In **Analysis Name**, enter a unique name for this analysis.
 5. Select the applicable path for the dataset to use in this analysis.
@@ -61,7 +61,7 @@ If you want to use an [Account mapping](deploy-configure.md#account-mapping) fil
    >[!Note]
    >If you are using the Starter Template Categorization Model and the starter template you selected has specific interaction types selected for each category, this step will override any of the conflicting interaction type selections. For example, if **Category A** only has email data and you select to include **only meetings**, then **Category A** will have no data in the final analysis.
 
-    ![Process Explorer starter templates](./images/pe-new-analysis.png)
+    ![Process Explorer starter templates.](./images/pe-new-analysis.png)
 
 7. Select the grouping attributes to include in this analysis. You can filter your data by these attributes in the final analysis.
 
@@ -108,7 +108,7 @@ You can analyze both emails and meetings or you can select to analyze only email
 
 You can also select **Download Category Distribution Data** to download a .csv file of this categorized data activity.
 
-![Categorization Analysis page details](./images/pe-cat-analysis-2.png)
+![Categorization Analysis page details.](./images/pe-cat-analysis-2.png)
 
 You can filter the data by the grouping attributes that you selected when creating this analysis. The chart and metrics will change to reflect the filters you apply. You can also use filters on the **Communication Flow** and **Time on Category Analysis** charts.
 
@@ -117,7 +117,7 @@ The **Time on Category Analysis** chart at the end of this page includes the fol
 * **Total hours** - Shows the total number of hours spent based on the filters selected for the chart data, including the selected categories and communication types (all, email, or meeting activity) that have been categorized for the dataset for the selected period of time.
 * **Date filter** - You can select a Start Date and End Date for the time period of data that you want to see in the chart. The default is **All**, which shows all time periods available in the dataset.
 
- ![Time Spent on Category chart](./images/pe-time-analysis.png)
+ ![Time Spent on Category chart.](./images/pe-time-analysis.png)
 
 You can also select **Copy Time on Category Data** or **Download Time on Category Data** for a .csv file of the data.
 
@@ -132,7 +132,7 @@ You can see static summary information, including top level analysis, thread ave
 * Select **Download** to view data for either the **Thread Summary** or **Thread Details** in a .csv file for all email threads in the dataset.
 * Select **Copy Data** to copy a table view of either the **Thread Summary** or **Thread Details** data.
 
- ![Email Thread Analysis](./images/pexp-email-analysis.png)
+ ![Email Thread Analysis.](./images/pexp-email-analysis.png)
 
    |Thread metric |Description |
    |--------------|-------------|
@@ -152,17 +152,17 @@ You can see static summary information, including top level analysis, thread ave
 
 This template uses a natural-language processing algorithm to look at all the uncategorized meetings and emails, detect clusters of associated keywords in the dataset, and categorize them for your review. **Detected topics** shows up to 50 suggested categories, each with 20 associated phrases. By default, suggested categories are sorted by their coherence score, which indicates the likelihood the words within each cluster of associated phrases are related to the suggested category. You can select any of the suggested categories within the table, and then select **Create Starter Template** to include them in a new starter template.
 
-  ![Detected topics](./images/pexp-detected-topics.png)
+  ![Detected topics.](./images/pexp-detected-topics.png)
 
 If the analysis already includes some categorized emails and meetings, you can select to include these categories and their associated key phrases when creating a new starter template, or you can select to omit them.
 
-  ![Include categories in new template](./images/pexp-starter-temp-on.png)
+  ![Include categories in new template.](./images/pexp-starter-temp-on.png)
 
 You can then edit the category name or delete it entirely. For each category, you can change the associated key phrases to include or exclude. You can also add an **asterisk** (*) to a word as a wild card (also known as a word stem). For example, the following graphic shows **resourc** with an asterisk in **Key phrases to include** for the **Team meetings** category. This will include the five shortest uses of a word beginning with “resource” in the subject lines. For example, meetings and emails with the words resources, resourcing, or resource group in the subject lines would be included.
 
 For each category, you can also select which interaction types to include. Note that when creating new analysis, if you select a conflicting interaction type to include, the interaction types selected in that step will override what you selected in the template.
 
-  ![Starter template settings](./images/pe-template-settings.png)
+  ![Starter template settings.](./images/pe-template-settings.png)
 
 After you create a new starter template, you can then use it when creating new analysis.
 
@@ -170,7 +170,7 @@ After you create a new starter template, you can then use it when creating new a
 
 If you selected to include an organizational network graph when adding new analysis, your analysis will include Communication flow by category. This page shows how specific categories are communicated across and within the various groups of an organization for varying time periods with the following functionality.
 
-![Communication flow by category](./images/pe-comm-flow.png)
+![Communication flow by category.](./images/pe-comm-flow.png)
 
 * **Self Links** - Turn it on to see how a group communicated with itself on the specified categories.
 * **Link Weight by Hours** or **by Count** - Select an option for how you want to see the communication flow and the links will scale accordingly. Link weight is per person for the selected time period, such as hours per person.
@@ -178,7 +178,7 @@ If you selected to include an organizational network graph when adding new analy
 * **Time Bar** - Adjust the bar to show how the communication flows over the selected time period. For example, double click a month in the time bar to select only that month to view in the graph.
 * **Play an animation** - Use the **play**, **pause**, and **skip** buttons at the bottom of the time bar to show an animation of how the communication flow evolves for the selected time period. For example, select the **play** button to watch how communication changes in the groups shown in the graph over time.
 
-   ![Communication flow buttons](./images/comm-flow-buttons.png)
+   ![Communication flow buttons.](./images/comm-flow-buttons.png)
 
 * **Download** - Use to download a .csv file of the communication flow data.
 

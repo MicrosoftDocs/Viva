@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Accelerate change with Microsoft 365 Insights
+title: Accelerate change with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and accelerate organizational change
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none 
+ms.localizationpriority: null 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -22,17 +22,17 @@ Slow adoption of new technology harms efforts to attract and retain top talent, 
 
 Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
 
-![Accelerate change page](./images/accelerate-change.png)
+![Accelerate change page.](./images/accelerate-change.png)
 
 ## Calculations
 
 The percentage metric for **Engage influencers** is **Percentage of employees who can drive change within your workforce**. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
-![Accelerate change percentage insight](./images/accelerate-change-percent.png)
+![Accelerate change percentage insight.](./images/accelerate-change-percent.png)
 
 The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](glossary.md#ona-define) that shows the [influencers](glossary.md#influencer-define), their connections, and how they effectively connect across your organization. This helps you identify and target the people who power the unobservable communication networks that can drive change.
 
-![Accelerate change visual insight](./images/accelerate-change-visual.png)
+![Accelerate change visual insight.](./images/accelerate-change-visual.png)
 
 ## Take action
 

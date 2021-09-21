@@ -6,7 +6,7 @@ description: How to format .xlsx files and .csv files for uploading in Workplace
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 ms.collection: M365-analytics
 manager: scott.ruble
@@ -73,7 +73,7 @@ Acceptable .xlsx files must adhere to the following:
 
   In the following example, only the data in the sheet labeled "DataSheet" will be used:
 
-   ![First data sheet only](../images/wpa/setup/first-sheet-only.png)
+   ![First data sheet only.](../images/wpa/setup/first-sheet-only.png)
 
 #### Columns and rows
 
@@ -88,17 +88,17 @@ Acceptable .xlsx files must adhere to the following:
 
   **Example 1:** In this example, the columns span A through H:
 
-   ![Column span A](../images/wpa/setup/column-span-simple.png)
+   ![Column span A.](../images/wpa/setup/column-span-simple.png)
 
    **Example 2:** In this example, the column-header cell G1 is missing:
 
-   ![Column span G1](../images/wpa/setup/column-span-simple-w-blank.png)
+   ![Column span G1.](../images/wpa/setup/column-span-simple-w-blank.png)
 
    In this case, the column span still consists of columns A through H because cell H1 is the last non-blank cell in the first row. However, cell G1 is reported as having an error ("blank header value").
 
    **Example 3:** In this example, the values in cells J3 and J4 are ignored because they lie outside the column span. (The column span extends only to column H, so any data in the columns after H is ignored.)
 
-   ![Column span J3 and J4](../images/wpa/setup/column-span.png)
+   ![Column span J3 and J4.](../images/wpa/setup/column-span.png)
 
 * **How _row-span_ data is used** - After Workplace Analytics calculates the column span, it calculates the _row span_. These calculations are ordered because the row span can be determined only after the column span is known.  
 
@@ -106,7 +106,7 @@ Acceptable .xlsx files must adhere to the following:
 
    **Example 4:** In this example, the row spans from 2 through 11:
 
-   ![Row span 2 through 11](../images/wpa/setup/row-span.png)
+   ![Row span 2 through 11.](../images/wpa/setup/row-span.png)
 
   Workplace Analytics considers the rows in this example as follows:
 
@@ -195,7 +195,7 @@ In this example, we're formatting cells that contains dates:
 
 1. Select one or more cells in a column that you want to format.
 
-   ![Save .csv file](../images/wpa/setup/format-date-cell.png)
+   ![Save .csv file.](../images/wpa/setup/format-date-cell.png)
 
 2. Right-click the selection (of one or more cells) and select **Format Cells**.
 3. In the **Format Cells** dialog box, under **Category**, select **Date**.
@@ -209,7 +209,7 @@ In this example, we're formatting cells that contains dates:
    1. In Excel, point to **File** and select **Save As**.
    2. Type a name for the file, choose the file type **Excel Workbook (*.xlsx)**, and select **Save**:
 
-   ![Save as UTF-8 .csv file](../images/wpa/setup/save-as-xlsx.png)
+   ![Save as UTF-8 .csv file.](../images/wpa/setup/save-as-xlsx.png)
 
 6. Save the location of this new file for later use.
 
@@ -272,7 +272,7 @@ The field values also cannot contain any of the following characters:
    1. In Excel, point to **File** and select **Save As**.
    2. Type a name for the file, choose the file type **CSV UTF-8 (Comma delimited) (*.csv)**, and select **Save**:
 
-   ![Save as UTF-8 .csv file option](../images/wpa/setup/csv-utf-8.png)
+   ![Save as UTF-8 .csv file option.](../images/wpa/setup/csv-utf-8.png)
 
 5. Save the location of this new .csv file for later use.
 

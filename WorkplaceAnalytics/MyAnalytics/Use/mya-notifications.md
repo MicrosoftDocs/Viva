@@ -4,7 +4,7 @@ description: Describes what inline suggestions are in Outlook and how they work
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -23,14 +23,13 @@ Inline suggestions can help boost your productivity and that of your team by dis
 
 ## Why don't I see any inline suggestions?
 
-Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place:
+Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place on your computer:
 
-* You have Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
+* Outlook for Windows 2016 version 1808 or greater and build 16.0.10730 or greater.
+* Outlook Insights add-in version 3.0.0.0 or higher. To check the installed version of the add-in, see [Exchange admin center](/exchange/architecture/client-access/exchange-admin-center). The add-in is installed at the tenant level, after which it can take up to eight days for the upgrade to propagate to all users. If you notice that the proper add-in version isn't installed in Outlook, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 * Actionable messages are supported and enabled; see [Actionable messages in Outlook and Microsoft 365 Groups](/outlook/actionable-messages/).
 
 In Outlook for Windows, inline suggestions will show up while reading or composing an email or a meeting invitation. In Outlook for the web, inline suggestions only show while reading email and meetings. These suggestions are not currently available in Outlook for Mac, Outlook for iOS, and Outlook for Android.
-
-Also, verify that the _Insights add-in_ is installed in Outlook. If it is not installed, you can add it by following the steps in [Add the Insights Outlook add-in](../overview/mya-faq.md#add-the-insights-outlook-add-in).
 
 >[!Note]
 >Inline suggestions are not available on mobile devices.
@@ -56,7 +55,7 @@ The following are a few of the suggestions you might see in Outlook:
 
    If you are using Outlook on the web, the **Insights** icon is in the ellipsis menu when reading an email message or when sending a new message.
 
-   ![insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
+   ![Insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
 
 2. Select the **Settings** (gear) icon in the Insights add-in.
 
@@ -78,19 +77,21 @@ You can provide feedback for the inline suggestion in either of the following wa
 
 * Open the inline suggestion in the Insights add-in and add your feedback in the section at the bottom of the page:
 
-   ![inline suggestions feedback](../../Images/mya/use/insights-feedback.png)
+   ![Inline suggestions feedback](../../Images/mya/use/insights-feedback.png)
 
 By using either of these options, you can provide "thumbs up" or a "thumbs down" indication and follow up with verbal feedback. If you select thumbs down, you'll see less of that suggestion.
 
 You can also select **Turn off all notifications** if you would prefer not to receive any of the inline suggestions in the future.
 
- You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Insights Add-in pane.
+You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Insights Add-in pane.
 
 ## Delay delivery
 
+_**Applies to:** This suggestion is available to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). It is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md#availability-of-features)._
+
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
-These suggestions are currently only available to [Microsoft or Office 365 E5, E3, and E1 users](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is) who are using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
+This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
 When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
@@ -145,8 +146,7 @@ When composing an email or calendar invitation in Outlook about your upcoming ti
 
 ![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
 
->[!Note]
->This suggestion is only available if you have an E5 plan. It's coming soon to E1/E3 plans. This feature falls under the preview of [connected experiences that analyze your content in Office](/deployoffice/privacy/connected-experiences#connected-experiences-that-analyze-your-content).
+_**Applies to:** This suggestion is available to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) or Insights by MyAnalytics service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan)._
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 
@@ -166,13 +166,15 @@ If a meeting request conflicts with an existing focus-time block, you might see 
 
 Select **See other available times** to open the Insights add-in pane and display all the available time in the coming week to reschedule the meeting. By selecting a time block you can propose a new time to the meeting organizer.
 
-![focus time send email](../../Images/mya/use/focus-time-send-email-2-50.png)
+![Focus time send email](../../Images/mya/use/focus-time-send-email-2-50.png)
 
 Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work. 
 
-![move focus block](../../Images/mya/use/move-focus-block-50.png)
+![Move focus block](../../Images/mya/use/move-focus-block-50.png)
 
 ## Shorten a meeting
+
+_**Applies to:** This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
@@ -184,15 +186,19 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 ## Track email open rate
 
+_**Applies to:** This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
+
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
 ![Track email open rate](../../Images/mya/use/track-email-open-rate-50.png)
 
 Select **See more insights** to see how many people have opened or forwarded your email and the average time that they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
-![email open rates](../../Images/mya/use/email-open-rates-50.png)
+![Email open rates](../../Images/mya/use/email-open-rates-50.png)
 
 ## Track email
+
+_**Applies to:** This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
 
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 

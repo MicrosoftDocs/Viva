@@ -6,7 +6,7 @@ description: Answers to the most frequently asked questions about Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none
+ms.localizationpriority: null
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -28,7 +28,7 @@ The insights analyze data from your Azure environment that is set up by your IT 
 
 Yes. Trusted Microsoft 365 security keeps data safe and private while providing Insights about your organization. For details, see [Data privacy](privacy.md).
 
-#### Q4. Do Microsoft 365 Insights comply with GDPR?
+#### Q4. Do Microsoft Viva Insights comply with GDPR?
 
 Yes. Microsoft complies with GDPR requirements when providing analysis in Insights.
 

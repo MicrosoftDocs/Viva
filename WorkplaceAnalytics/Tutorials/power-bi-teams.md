@@ -5,7 +5,7 @@ description: Use the Power BI Microsoft Teams insights dashboard to visualize pr
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal
+ms.localizationpriority: medium
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -26,7 +26,7 @@ This dashboard enables you to visualize and explore your company’s current act
 * **How can community influencers help drive the adoption of Teams?** – Shows a recommended teams adoption plan for different groups based on their level of community influence, as described in more detail on this page. The phased plans provide ways employees can make meaningful changes in their work patterns, including communication, wellbeing, and meeting culture recommendations and best practices.
 * **Are employees working after hours in Teams?** – Shows the average workweek span and averages for the spread of activity during the day and outside of the group’s set working hours. As collaboration moves digitally, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
 
-![Power BI Teams template](../Images/WpA/Tutorials/teams-insights.png)
+![Power BI Teams template.](../Images/WpA/Tutorials/teams-insights.png)
 
 The dashboard also includes a page with **Opportunity areas to get more out of Teams** that shows ways your employees can use Teams, such as:
 
@@ -43,6 +43,8 @@ To populate the dashboard in Power BI, you must set up **Microsoft Teams insight
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiYWNlOTU0YjAtMjNkOC00OTQ2LTkwY2UtNzQ1ZDQ5YWZkYmJjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
+To find the template for the Power BI Teams Insights dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
 ## Prerequisites  
 
@@ -80,7 +82,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 7. When prompted, return to the Query designer and repeat **Steps 2-6** for the **Influence insights**. Make the same selections as for Teams insights but for the few exceptions, as noted in **Step 3**.
 8. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Microsoft Teams insights** results, select **PBI template**, and then select **OK** to download the template.
 
-   ![Download the Power BI Teams insights template](../Images/WpA/Tutorials/teams-template.png)
+   ![Download the Power BI Teams insights template.](../Images/WpA/Tutorials/teams-template.png)
 
 9. Open the downloaded **Microsoft Teams insights template**.
 10. If prompted to select a program, select **Power BI**.
@@ -91,12 +93,12 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
     3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     4. Select **Load** to import the results into Power BI. Loading these large files may take some time to complete.
 
-    ![Query URLs for Power BI](../Images/WpA/Tutorials/teams-odata.png)
+    ![Query URLs for Power BI.](../Images/WpA/Tutorials/teams-odata.png)
 
 12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 14. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -116,7 +118,7 @@ After the Microsoft Teams insights dashboard is set up and populated with Workpl
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
-![Power BI Teams insights settings page](../Images/WpA/Tutorials/teams-settings.png)
+![Power BI Teams insights settings page.](../Images/WpA/Tutorials/teams-settings.png)
 
 > [!Important]
 > As new data is processed on a weekly basis, select **Refresh** in the **Power BI Home** ribbon to view the most recent data.

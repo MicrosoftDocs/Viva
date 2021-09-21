@@ -5,7 +5,7 @@ description: Learn about your work patterns in MyAnalytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: priority 
+ms.localizationpriority: high 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -13,7 +13,7 @@ audience: Admin
 
 # MyAnalytics dashboard
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
 Thank you for trying the new MyAnalytics experience. Welcome to your new personalized MyAnalytics dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
@@ -28,7 +28,7 @@ Thank you for trying the new MyAnalytics experience. Welcome to your new persona
 
 The MyAnalytics dashboard opens to the **Home** page that shows you statistics about your work patterns over the past month, including your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you are networking with your coworkers.
 
-![Your work patterns](../../Images/mya/use/home-2.png)
+![Your work patterns.](../../Images/mya/use/home-2.png)
 
 ## Focus and Wellbeing
 
@@ -59,11 +59,11 @@ If you're a people manager, the Leadership page shows information about your rel
 
 MyAnalytics gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
 
-![Weekly digest insight](../../Images/mya/use/digest-insight.png)
+![Weekly digest insight.](../../Images/mya/use/digest-insight.png)
 
 These insights are also available on your MyAnalytics dashboard home page as well as on the specific outcome pages. Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
 
-![Productivity insights](../../Images/mya/use/productivity.png)
+![Productivity insights.](../../Images/mya/use/productivity.png)
 
 If you don’t meet the qualifications for specific productivity insights on the dashboard, the cards will show you educational tips instead. Educational tips are only available in the dashboard.
 
@@ -71,7 +71,7 @@ If you don’t meet the qualifications for specific productivity insights on the
 
 Educational cards give you work productivity and wellbeing tips and ideas, which come from a variety of resources, such as academic and industry research. MyAnalytics refreshes these cards periodically to reflect your most recent work patterns. You can come back at a later time to check out new sets of productivity and educational insights.
 
-![Educational insights](../../Images/mya/use/educational-tips.png)
+![Educational insights.](../../Images/mya/use/educational-tips.png)
 
 ## Config Settings
 
@@ -79,7 +79,7 @@ Your personalized MyAnalytics data and insights are based on the working days, w
 
 You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks. For more details, see [Focus plan](../use/focus-plan.md).
 
-![Config Settings](../../Images/mya/use/mya-config.png)
+![Config Settings.](../../Images/mya/use/mya-config.png)
 
 ## MyAnalytics feedback
 
@@ -94,12 +94,12 @@ Your experience rating and feedback about MyAnalytics is important to us. If you
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.
 
-    ![MyAnalytics settings](../../Images/mya/use/mya-gear-settings.png)
+    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
 4. For **Dashboard**, set the control to **Off**.
 
-    ![Slider in off position](../../Images/mya/use/Slider-off.png)
+    ![Slider in off position.](../../Images/mya/use/Slider-off.png)
   
 5. Select **Save** to save your changes.
 

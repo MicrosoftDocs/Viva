@@ -6,7 +6,7 @@ author: madehmer
 ms.author: v-pausch
 ms.date: 05/16/2019
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -14,6 +14,8 @@ audience: Admin
 ---
 
 # Why use MyAnalytics?
+
+[![Viva announcement.](../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 ## Improve your work patterns through personal productivity insights
 
@@ -37,7 +39,7 @@ The following video shows common ways in which you can benefit from MyAnalytics:
 > [!VIDEO https://www.youtube.com/embed/J9sokkEjGaE]
 
 <!-- Old link:
-[![Getting to know MyAnalytics](../../images/Video-image-get-to-know-mya.png)](https://www.youtube.com/watch?v=vBij7cqif_Y&feature=youtu.be)
+[![Getting to know MyAnalytics.](../../images/Video-image-get-to-know-mya.png)](https://www.youtube.com/watch?v=vBij7cqif_Y&feature=youtu.be)
 -->
 
 ## Privacy

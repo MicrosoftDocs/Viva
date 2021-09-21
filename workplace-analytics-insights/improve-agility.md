@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Improve agility with Microsoft 365 Insights
+title: Improve agility with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and improve organizational agility
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: none 
+ms.localizationpriority: null 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -17,13 +17,13 @@ audience: Admin
 
 Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Improve agility page](./images/improve-agility.png)
+![Improve agility page.](./images/improve-agility.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Improve agility percentage insight](./images/improve-agility-percent.png)
+![Improve agility percentage insight.](./images/improve-agility-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -34,7 +34,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Improve agility visual insight](./images/improve-agility-visual.png)
+![Improve agility visual insight.](./images/improve-agility-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|

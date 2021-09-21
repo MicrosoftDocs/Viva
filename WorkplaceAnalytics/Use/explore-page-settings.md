@@ -5,7 +5,7 @@ description: Describes the page settings for Explore the stats in Workplace Anal
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -15,9 +15,9 @@ audience: Admin
 
 You can select **Settings and filters** to view **Page settings** on the right side of an Explore the stats page in Workplace Analytics. You can use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees.
 
-![Settings and filters](../images/wpa/use/settings-and-filters-2.png)
+![Settings and filters.](../images/wpa/use/settings-and-filters-2.png)
 
-![Page settings](../Images/WpA/Overview/page-settings.png)
+![Page settings.](../Images/WpA/Overview/page-settings.png)
 
 When you change the chart settings, they apply to all the chart data. For example, when you set the chart to group by *Organization*, all charts in all sections are grouped by organization.
 
@@ -25,7 +25,7 @@ When you change the chart settings, they apply to all the chart data. For exampl
 
 After you change a setting or add a filter, select **Apply** at the upper-right to apply the settings to the chart data. Or to change back to the default settings, select **Reset**.
 
-![Apply button](../images/wpa/use/apply-reset.png)
+![Apply button.](../images/wpa/use/apply-reset.png)
 
 ## To save custom settings
 
@@ -33,11 +33,11 @@ After you change page settings or filters:
 
 * Select the **ellipsis** (**...**) next to **Page settings** > **Save current settings** to save them for later use.
 
-![Save settings](../images/wpa/use/save-page-settings.png)
+![Save settings.](../images/wpa/use/save-page-settings.png)
 
 * In **Page settings**, select the **ellipsis** (**...**) next to **Chart settings** > **Apply to page settings** to save specific chart settings, such as with the drill down or exclude chart tools.
 
-![Chart settings](../images/wpa/use/chart-settings.png)
+![Chart settings.](../images/wpa/use/chart-settings.png)
 
 The next time you view Explore the stats data in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
@@ -58,7 +58,7 @@ The next time you view Explore the stats data in Workplace Analytics, it shows t
 
 By default, the Explore the stats data is filtered to show active employees only. Active employees who sent at least one email or instant message during the set date range (the time period set for the query).
 
-![Employee page filter](../images/wpa/use/explore-filter.png)
+![Employee page filter.](../images/wpa/use/explore-filter.png)
 
 1. In **Page settings**, expand **Measured employees**.
 2. In **Group by**, select the organizational attribute to use in all charts.

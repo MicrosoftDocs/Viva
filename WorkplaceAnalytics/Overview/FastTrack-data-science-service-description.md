@@ -5,14 +5,14 @@ description: This topic describes the roles and responsibilities for a Workplace
 author: rodonahu
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
 ---
 
 # Workplace Analytics FastTrack Data Science Service
-
+ 
 ## Service Overview
 
 * The Workplace Analytics Analysis Service offered under Microsoft 365 FastTrack provides you with assistance on running queries in Workplace Analytics and interpreting the results.

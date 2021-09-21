@@ -4,7 +4,7 @@ description: Learn how to use the options in the Insights Outlook add-in.
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: priority 
+ms.localizationpriority: high 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -36,17 +36,17 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
 1. On the **Insights** panel, the **Prepare for your meetings** insight tells you about meetings that you've organized or were invited to for the next seven calendar days (including the current day) to help you review and plan for them.
 
-    ![Prepare for your meetings](../../images/mya/use/prep-for-your-meetings-70.png)
+    ![Prepare for your meetings.](../../images/mya/use/prep-for-your-meetings-70.png)
 
 2. Select **Prepare for your meetings** to see an insight for each of your upcoming meetings. You can select to view **All**, **Organized**, or **Invited** to filter the list by.
 
    * As the meeting organizer, you will see an insight similar to this:
 
-     ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
+     ![Prep for meetings as the organizer.](../../images/mya/use/you-organized-616.png)
 
    * As a meeting invitee, you will see an insight similar to this:
 
-     ![Prep for meetings as an invitee](../../images/mya/use/you-were-invited-78.png)
+     ![Prep for meetings as an invitee.](../../images/mya/use/you-were-invited-78.png)
 
 #### Insight option details
 
@@ -67,7 +67,7 @@ Each meeting card title includes the meeting title, the organizer, the start tim
 
 ## Track email and document open rates
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+_**Applies to:** This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
 
 Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
@@ -128,15 +128,15 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
       >[!Note]
       >In rare cases, the document open rate can be higher than the email open rate. This can happen when recipients open the document through sources other than the email in which it was shared.
 
-      ![Doc open rate exceeds email open rate](../../images/mya/use/docs-exceed-emails-51.png)
+      ![Doc open rate exceeds email open rate.](../../images/mya/use/docs-exceed-emails-51.png)
 
    2. **Track email open rates** - Shows read statistics for all sent emails.  
 
-      ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
+      ![Track email open rates.](../../images/mya/use/step-1-track-open-rates.png)
 
       The option you selected (in step 2a or step 2b) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
-      ![Email open rates](../../images/mya/use/step-2-two-emails.png)
+      ![Email open rates.](../../images/mya/use/step-2-two-emails.png)
 
 <!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     
 
@@ -158,15 +158,15 @@ For more information about privacy, see [Email read rates](). If you need indivi
 
  * On the **Insights** panel, locate **Track email open rates**. This insight provides read statistics of the eligible emails that you sent in the last 14 days:
 
-    ![Track email open rates](../../images/mya/use/step-1-track-open-rates.png)
+    ![Track email open rates.](../../images/mya/use/step-1-track-open-rates.png)
  
    If you are already have a sent email open, the **Insights** pane will show you read statistics at the top of the panel, as shown here:
 
-    ![Test email - read stats](../../images/mya/use/test-email-read-stats.png)   
+    ![Test email - read stats.](../../images/mya/use/test-email-read-stats.png)   
 
    If you do not have an email open, select **Track email open rates** to see read statistics for all eligible sent emails.
 
-    ![Email open rates](../../images/mya/use/email-open-rates-3.png)      
+    ![Email open rates.](../../images/mya/use/email-open-rates-3.png)      
  
 #### Insight option details
 
@@ -222,11 +222,11 @@ It is easy to lose track of commitments that you've made to your colleagues in e
 
 In the **Insights** pane, select **View outstanding tasks**. This insight is available only in English.
 
-   ![Test email - read stats](../../images/mya/use/test-email-read-stats.png)
+   ![Test email - read stats.](../../images/mya/use/test-email-read-stats.png)
 
 This opens a panel that displays insights for each of your suggested outstanding tasks.
 
-   ![Suggested tasks](../../images/mya/use/suggested-tasks-62.png)
+   ![Suggested tasks.](../../images/mya/use/suggested-tasks-62.png)
 
 #### Insight option details
 
@@ -252,11 +252,11 @@ It can be easy to lose track of requests you made of your colleagues. By automat
 
 In the **Insights** pane, select **Follow up on your requests**. This insight is available only in English.
 
-![Follow up on your requests](../../images/mya/use/follow-up-on-your-requests.png)
+![Follow up on your requests.](../../images/mya/use/follow-up-on-your-requests.png)
 
 This opens a panel that displays insights for each of your suggested follow-up tasks.
 
-![Follow ups](../../images/mya/use/follow-ups-card-62.png)
+![Follow ups.](../../images/mya/use/follow-ups-card-62.png)
 
 #### Insight option details
 
@@ -280,11 +280,11 @@ Research shows that on average it takes 23 minutes to refocus on a task after a 
 
 In the **Insights** pane, select **Book time to focus**. This insight appears if your calendar has time available during your working hours that is not blocked by meetings or appointments.
 
-![Book time to focus](../../images/mya/use/book-time-to-focus-52.png)
+![Book time to focus.](../../images/mya/use/book-time-to-focus-52.png)
 
 This opens a panel that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
 
-![Book focus time](../../images/mya/use/book-focus-time.png)
+![Book focus time.](../../images/mya/use/book-focus-time.png)
 
 #### Insight option details
 
@@ -303,11 +303,11 @@ It is easy for important emails to get lost when your inbox is full of unread em
 
 In the **Insights** pane, select **Catch up on email**.
 
-![Catch up on email](../../images/mya/use/catch-up-on-email-54.png)
+![Catch up on email.](../../images/mya/use/catch-up-on-email-54.png)
 
 This opens a panel that displays insights for each of your important unread emails:
 
-![Unread important email](../../images/mya/use/unread-important-email-54.png)  
+![Unread important email.](../../images/mya/use/unread-important-email-54.png)  
 
 #### Insight option details
 
@@ -326,14 +326,14 @@ Searching for that document you had planned to read but just can't find? With so
 
 In the **Insights** pane, select **Catch up on documents**:
 
-![Catch up on documents](../../images/mya/use/catch-up-on-documents-54.png)
+![Catch up on documents.](../../images/mya/use/catch-up-on-documents-54.png)
 
 This opens a panel that displays insights for each document shared with you in the last 14 days that you have not yet opened.
 
-![Unread shared documents](../../images/mya/use/unread-shared-documents-54.png)
+![Unread shared documents.](../../images/mya/use/unread-shared-documents-54.png)
 
 <!-- Don't know why Vivek had this here 
-   ![Choose an open time slot](../../images/mya/use/choose-open-time.png)   
+   ![Choose an open time slot.](../../images/mya/use/choose-open-time.png)   
 -->
 
 #### Insight option details
@@ -354,11 +354,11 @@ You might receive emails and tasks from various people but some items might dese
 
 In the **Insights** pane, select **Add important people**:
 
-![Add important people](../../images/mya/use/add-important-people-54.png)  
+![Add important people.](../../images/mya/use/add-important-people-54.png)  
 
 This opens a panel with suggestions to mark a recommended contact as important:
 
-![Important people](../../images/mya/use/important-people-54.png)  
+![Important people.](../../images/mya/use/important-people-54.png)  
 
 #### Insight option details
 
@@ -381,7 +381,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 
 2. In the **Set lunch hours** area, select the edit (pencil) option:
 
-   ![Set lunch hours](../../images/mya/use/fix-lunch-hours.png)
+   ![Set lunch hours.](../../images/mya/use/fix-lunch-hours.png)
 
 3. Change the values in the **Start** and/or **End** fields.
 
@@ -391,7 +391,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 
 1. In the **Insights** pane, locate **Set lunch hours**:
 
-   ![Set your lunch hours](../../images/mya/use/set-lunch-hours.png)  
+   ![Set your lunch hours.](../../images/mya/use/set-lunch-hours.png)  
 
 2. Use the options that are described in the following table.
 
@@ -416,7 +416,7 @@ The **Plan your time away** checklist can help reduce the stress of planning for
 
 You can plan your schedule with these options all at one time or individually as you get closer to the date. You can also come back at any time and change details before you go. Insights will track your progress and update which actions are done.
 
-![Insights plan your time away task](../../images/mya/use/plan-your-time-away.png)
+![Insights plan your time away task.](../../images/mya/use/plan-your-time-away.png)
 
 **To use Plan your time away**
 
@@ -429,18 +429,18 @@ You can plan your schedule with these options all at one time or individually as
      >[!Tip]
      >Updating your calendar with out-of-office information is a best practice that’ll set the right expectations with coworkers who want to connect with you.
 
-     ![Insights update calendar](../../images/mya/use/insights-select-dates.png)
+     ![Insights update calendar.](../../images/mya/use/insights-select-dates.png)
 
    * **Set automatic replies** - Compose and save an out-of-office reply message here. Your automatic replies will be sent during the start and end dates you selected. You can select to send the same message to people inside and outside your organization, or you can compose a different auto-reply message for those outside your organization, and then select **Save**.
 
-     ![Insights auto-reply email](../../images/mya/use/insights-auto-reply.png)
+     ![Insights auto-reply email.](../../images/mya/use/insights-auto-reply.png)
 
      > [!Note]
      > If you've composed a message for a previous out-off-office period, the most recent message that you used is shown in the **Compose or edit message** field. You can edit the message so that it pertains to your upcoming time away.
 
    * **Notify collaborators** - You'll see a list of people that you collaborated with in the last four weeks. You can select to notify them through an email or meeting invitation, and then select **Compose**.
 
-     ![Insights notify collaborators](../../images/mya/use/insights-notify.png)
+     ![Insights notify collaborators.](../../images/mya/use/insights-notify.png)
 
    * **Resolve meetings** - You'll see a list of meetings you either organized or accepted for while you're away.
 
@@ -450,14 +450,14 @@ You can plan your schedule with these options all at one time or individually as
      >[!Tip]
      >By using this option to quickly and easily resolve all your meetings, you're saving valuable planning time while also respecting your coworkers time.
 
-       ![Insights resolve meetings](../../images/mya/use/insights-resolve-meetings.png)
+       ![Insights resolve meetings.](../../images/mya/use/insights-resolve-meetings.png)
 
    * **Book time to focus** - You can schedule time to focus on wrapping up work before you go, and then on catching up after you get back. Select the **plus sign** (+) next to the available **Focus time** slots, and then select **Done** to add them to your calendar.
 
      >[!Tip]
      >With this time scheduled, you'll know you have time to get everything done both before you go and after you get back.
 
-     ![Insights book focus time](../../images/mya/use/insights-focus-time.png)
+     ![Insights book focus time.](../../images/mya/use/insights-focus-time.png)
 
 ## Catch up with your team
 
@@ -484,17 +484,17 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
 2. Select **Catch up with your team**:
 
-   ![Catch up with your team](../../images/mya/use/catch-up.png)
+   ![Catch up with your team.](../../images/mya/use/catch-up.png)
 
    The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
 
-   ![Team member follow-up](../../images/mya/use/connect-actions-debra-75-90.png)
+   ![Team member follow-up.](../../images/mya/use/connect-actions-debra-75-90.png)
 
 #### To edit your team list
 
 * If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
 
-   ![Update team members](../../images/mya/use/edit-team75-75-80.png)
+   ![Update team members.](../../images/mya/use/edit-team75-75-80.png)
 
 Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
 
@@ -506,7 +506,7 @@ While staying in touch with top collaborators can be difficult, a quick 1:1 meet
 
 * In the **Insights** pane, locate the **Meet with &lt;name of contact&gt;** insight:
 
-  ![Meet with person for 1:1](../../images/mya/use/meet-with-person-54.png)
+  ![Meet with person for 1:1.](../../images/mya/use/meet-with-person-54.png)
 
 #### Insight option details
 
@@ -525,11 +525,11 @@ With **Check quiet hours impact**, you can help your team achieve work-life bala
 
 * In the **Insights** pane, select **Check quiet hours impact**:
 
-  ![Check quiet hours impact](../../images/mya/use/check-quiet-hours-impact-54.png)
+  ![Check quiet hours impact.](../../images/mya/use/check-quiet-hours-impact-54.png)
 
   This opens a panel that displays insights about emails that might have impacted co-workers outside of their working hours:
 
-  ![Quiet hours impact](../../images/mya/use/quiet-hours-impact.png)
+  ![Quiet hours impact.](../../images/mya/use/quiet-hours-impact.png)
 
 ## Related topics
 

@@ -5,7 +5,7 @@ description: Use the Beyond knowledge workers reports to visualize predefined da
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -98,7 +98,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 14. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 15. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select Organizational account, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-    ![Power BI sign in](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 16. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
@@ -120,22 +120,22 @@ After you have customized the report, you can use the following flexible feature
 
 * **Collaboration baseline** - The default average workweek hours is set to 40 hours. If this does not reflect your organization, you can set a custom workweek below, from 0 to 80. Changing this value will change the value of the metrics and the charts on this page.
 
-    ![Baseline workweek setting](../Images/WpA/Tutorials/pbi-baseline-workweek.png)
+    ![Baseline workweek setting.](../Images/WpA/Tutorials/pbi-baseline-workweek.png)
 
 * **Time investment** - The default collaboration tool is set to meetings for the interaction size insight. You can choose to calculate the insight for total collaboration time or any of the individual collaboration types (meetings, email, chats and ad-hoc calls). The default is preset to measure meetings.
 
-    ![Time investment filter](../Images/WpA/Tutorials/pbi-collab-filter.png)
+    ![Time investment filter.](../Images/WpA/Tutorials/pbi-collab-filter.png)
 
 * **Manager habits** - For best results, your organizational data should include an attribute that identifies people managers, like Supervisor indicator. Filter the values of Supervisor Indicator to identify people managers.
 
-    ![Manager habits settings](../Images/WpA/Tutorials/pbi-manager-habits.png)
+    ![Manager habits settings.](../Images/WpA/Tutorials/pbi-manager-habits.png)
 
    >[!Important]
    >If you are unable find the required values, reach out to your Workplace Analytics admin to upload organizational data to include an attribute that identifies people managers. The supervisor indicator filter only applies to the two greyed out visuals on this page. Without this attribute, insights regarding manager habits will not be accurate.
 
 * **Productivity** - If you loaded outcomes related data to your organizational data file you can select Outcome measure from the Y-axis dropdown and compare your success metric with various collaboration metrics on the X-axis. Confirm the outcome data is numerical (such as, performance ratings, store sales figures, engagement results, safety, or quality scores).
 
-    ![Productivity settings](../Images/WpA/Tutorials/pbi-productivity.png)
+    ![Productivity settings.](../Images/WpA/Tutorials/pbi-productivity.png)
 
 Your Workplace Analytics admin must do the following steps to upload (import) organizational data to Workplace Analytics.
 

@@ -1,18 +1,20 @@
 ---
 
-title: Viva Insights app - FAQ
-description: Microsoft Viva Insights (personal insights) app -- FAQ
+title: FAQ for Viva Insights
+description: Personal insights FAQ for Microsoft Viva Insights
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
 
 ---
 
-# Frequently asked questions 
+# Personal insights FAQ
+
+The following are the most frequently asked questions about personal insights within the Microsoft Viva Insights app in Microsoft Teams.
 
 ##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 
@@ -32,13 +34,13 @@ audience: Admin
 
 * At the bottom of every Insight is the question: "Is this helpful?" Select **Yes** or **No** to provide feedback.  
 
-   ![Is this helpful? Yes No](Images/is-helpful.png)
+   ![Is this helpful? Yes No.](Images/is-helpful.png)
 
 * Every page in the Insights app has the question, "Is this helpful?" at the bottom-right corner. Select **Yes** or **No** to provide feedback.  
 
    After you select **Yes** or **No** on one of these options, a dialog box appears in which you can share more. Select the **Allow Microsoft to contact** box if you'd like Microsoft to contact you to follow up on your feedback.
 
-   ![Thanks for the feedback](Images/thanks-for-feedback-70-80.png)
+   ![Thanks for the feedback.](Images/thanks-for-feedback-70-80.png)
 
 ##### Q5. What data does the Viva Insights app use?
 
@@ -61,7 +63,7 @@ audience: Admin
 
 Insights does not use:  
 
- * Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history.
+Email and calendar data from people outside your organization, with the following exception: Insights uses data that is present in your own Office 365 mailbox. For example, if you conduct a meeting with a person outside your organization, the start and end times of that meeting can be found in your mailbox and are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
 ##### Q6. Why do I not see the insights and suggestions that are described in the documentation?
 
@@ -69,4 +71,4 @@ Insights does not use:
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
+[Viva Insights Overview](viva-teams-app.md)

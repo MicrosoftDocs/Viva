@@ -5,7 +5,7 @@ description: An overview of Sources in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -24,7 +24,7 @@ audience: Admin
 
 **Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to **Sources**. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Sources](../images/WpA/Use/sources-365.png)
+![Sources.](../images/WpA/Use/sources-365.png)
 
 ## Video: Learn about Data sources
 

@@ -5,7 +5,7 @@ description: MyAnalytics focus plan
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal
+ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -34,19 +34,19 @@ When you enroll in the focus plan, you configure how focus time will be booked o
 
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
-   ![Focus plan - Get started](../../Images/mya/use/focus-every-day-83.png)
+   ![Focus plan - Get started.](../../Images/mya/use/focus-every-day-83.png)
 
 2. Select the number of hours of focus time you would like MyAnalytics to book for you every day, and then select **Next**.
 
-   ![Focus plan - Choose hours](../../Images/mya/use/focus-plan-choose-hours-83.png)
+   ![Focus plan - Choose hours.](../../Images/mya/use/focus-plan-choose-hours-83.png)
 
 3. Select the time of day for your focus time, and then select **Next**.
    
-   ![Focus plan - Choose AM or PM](../../Images/mya/use/focus-plan-choose-am-pm-101.png)
+   ![Focus plan - Choose AM or PM.](../../Images/mya/use/focus-plan-choose-am-pm-101.png)
    
 4.	Select whether to have Teams chat notifications muted during focus time, and select **Looks good!** 
    
-     ![Focus plan - Choose to mute chat notifications](../../Images/mya/use/focus-plan-choose-mute-105.png)
+     ![Focus plan - Choose to mute chat notifications.](../../Images/mya/use/focus-plan-choose-mute-105.png)
    
      MyAnalytics now seeks time on your Outlook calendar to set aside as focus time, based on your preferences. The amount and placement of focus time depends on the time your calendar has open. 
    
@@ -56,7 +56,7 @@ When you enroll in the focus plan, you configure how focus time will be booked o
 
 You can always modify your focus-plan preferences by selecting **Plan Configuration**. 
 
-   ![Focus plan - Settings](../../Images/mya/use/focus-plan-open-settings.png)
+   ![Focus plan - Settings.](../../Images/mya/use/focus-plan-open-settings.png)
 
 This opens the **Plan configuration** pane, on which you can change the number of focus hours per day, your preference of morning or afternoon, and whether to mute Teams notifications. See [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
 
@@ -66,15 +66,15 @@ You can also use the Outlook add-in to enroll in the focus plan. To do so, follo
 
 1. Select the insight **Want focus time every day?**
    
-   ![Create focus plan in add-in](../../Images/mya/use/want-focus-time.png)
+   ![Create focus plan in add-in.](../../Images/mya/use/want-focus-time.png)
 
 2. Select **Book time now**. 
 
-   ![Book time now](../../Images/mya/use/book-time-now.png)
+   ![Book time now.](../../Images/mya/use/book-time-now.png)
 
    The Insights pane now notifies you that your focus plan has begun, and your calendar now contains focus-time blocks:
 
-   ![Plan has started](../../Images/mya/use/all-set.png)
+   ![Plan has started.](../../Images/mya/use/all-set.png)
 
 Now that your focus plan is underway, you can do the following: 
 
@@ -87,7 +87,7 @@ After your plan has started, you can check your progress and make sure that you 
 
  * In the MyAnalytics dashboard, select **Focus** in the left navigation pane. A panel opens and shows statistics about your focus time:
 
-    ![Dashboard report](../../Images/mya/use/track-progress.png)
+    ![Dashboard report.](../../Images/mya/use/track-progress.png)
   
 An important metric on this page appears under **Last week**. It shows how many days you had focus time last week. 
 
@@ -121,11 +121,11 @@ You can opt in and opt out of the focus plan as many times as you want.
 
 * Select **Plan configuration**:
 
-    ![Plan configuration](../../Images/mya/use/plan-config.png)
+    ![Plan configuration.](../../Images/mya/use/plan-config.png)
  
     This opens the **Configurations** page and displays the **Plan configuration** pane, on which you can leave the plan or change your preferences.
 
-    ![Plan configuration card](../../Images/mya/use/plan-config-pane.png)
+    ![Plan configuration card.](../../Images/mya/use/plan-config-pane.png)
    
    After you indicate your preferences, select **Save changes**.
    
@@ -139,7 +139,7 @@ The following sections provide information that can help you as you create or mo
 
 After you set automatic booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. The time that it books on your calendar appears in a different color and is labeled "Focus time":  
 
-![Focus prompt in the digest](../../Images/mya/use/focus-time-on-your-calendar.png)
+![Focus prompt in the digest.](../../Images/mya/use/focus-time-on-your-calendar.png)
 
 Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments. 
 
@@ -179,11 +179,11 @@ After you enroll in a focus plan, the content of the weekly digest becomes tailo
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 
-![Add-in feed card](../../Images/mya/use/add-in-feed-card.png)
+![Add-in feed card.](../../Images/mya/use/add-in-feed-card.png)
 
 Selecting this card shows the following options, with which you can book focus time on individual days or for several days at once:  
 
-![Book focus time inline](../../Images/mya/use/book-focus-time-nudge.png)
+![Book focus time inline.](../../Images/mya/use/book-focus-time-nudge.png)
 
 <!--
 Note that this content is related to this topic: 

@@ -5,7 +5,7 @@ description: Microsoft Viva Insights (personal insights) app -- Settings
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -20,7 +20,7 @@ To configure features, start by opening the **Settings** page:
 
 1. In the upper-right corner of any page, select the ellipsis (...) and then select **Settings**:
 
-   ![Select settings](Images/upper-right-corner.png)
+   ![Select settings.](Images/upper-right-corner.png)
 
    > [!Note]
    > Select **How it works** to open the product documentation for the Viva Insights app.

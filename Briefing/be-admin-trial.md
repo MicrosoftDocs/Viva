@@ -5,7 +5,7 @@ description: Initial admin trial of the Briefing email
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -20,7 +20,7 @@ As an admin, this is your opportunity to experience the value of the Briefing em
 
 First, you'll get a one-time welcome email that explains what the Briefing email is, key privacy and security information, and links to helpful resources for managing the rollout.
 
-   ![Welcome admin email](./images/admin-welcome.png)
+   ![Welcome admin email.](./images/admin-welcome.png)
 
 For the next two weeks starting with the welcome email, you're eligible to get a Briefing email on days that you have actionable tasks. Your Briefing will look and function exactly how it will for everyone in your organization so you get a good feel for what they will see and experience.
 

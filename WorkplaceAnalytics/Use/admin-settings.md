@@ -4,7 +4,7 @@ description: Describes Admin settings that only administrators can configure and
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: wpa
@@ -23,7 +23,7 @@ As a [Workplace Analytics Admin](settings.md), you can use **Admin settings** to
 
 **Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin settings](../images/wpa/use/system-defaults.png)
+![Admin settings.](../images/wpa/use/system-defaults.png)
 
 ## To access Admin settings
 

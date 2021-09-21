@@ -1,11 +1,11 @@
 ---
 
-title: Viva Insights - Headspace 
-description: Microsoft Viva Insights app -- Use the Headspace feature
+title: Viva Insights Headspace 
+description: Use the Headspace feature in Microsoft Viva Insights app
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -18,8 +18,8 @@ audience: Admin
 
 <!-- DELETE THE FOLLOWING NOTE BEFORE PUBLISHING THE PAS-AM-headspace WORKING BRANCH TO LIVE!  -->
 
-> [!NOTE]
-> The Headspace experience will roll out starting in late June 2021 to users who have their language in Teams set to English. Additional languages will be supported soon.
+>[!NOTE]
+>The Headspace experience will roll out starting in late June 2021 to users who have their language in Teams set to English. Additional languages will be supported soon.
 
 Viva Insights has introduced a curated set of guided meditations and Focus music from Headspace. Reach these resources on the [Home](viva-insights-home.md) page to help you start your day grounded, relax your mind before a big presentation, or find focus before starting an important project. <!-- VERIFY WITH ANJI BUT KEEPING THIS OUT FOR NOW: A Headspace meditation to mindfully wrap up the day will also be integrated into the virtual commute. --> In just a few minutes a day, meditation and mindfulness with Headspace can help you decrease stress and increase focus.
 
@@ -40,19 +40,19 @@ Any time you want, you can start a guided meditation that's been designed for th
 
 1. Open the **Home** page of Microsoft Viva Insights:
 
-   ![Home page with Headspace](images/home-page-with-headspace.png)
+   ![Home page with Headspace.](images/home-page-with-headspace.png)
 
 2. To start the Headspace exercise, select the 'Play' button on the **Headspace** card:
 
-   ![Headspace card](images/headspace-card-65.png)
+   ![Headspace card.](images/headspace-card-65.png)
 
-<!-- ![Headspace is running](images/in-headspace.png) -->
+<!-- ![Headspace is running.](images/in-headspace.png) -->
 
 3. (Optional) Browse through a curated set of meditations that are designed to fit different scenarios within the flow of your day. To see your options, open the **Practice mindfulness** page by selecting **More mindfulness exercises**.
 
 4. Under **Practice mindfulness**, select a meditation option in the **Guided meditations** area or a musical option in the **Focus music** area:
 
-   ![Mindfulness option is running](images/mindful-options.png)
+   ![Mindfulness option is running.](images/mindful-options.png)
 
 ## Run Headspace in the background
 
@@ -64,7 +64,7 @@ You can open and run Viva Insights in a new window. This lets you play Headspace
 
 3. Select **Pop out app**.
 
-   ![Pop-out Headspace app](images/to-pop-out-2.png)
+   ![Pop-out Headspace app.](images/to-pop-out-2.png)
 
    This opens a new window in which the Insights app is running.
 

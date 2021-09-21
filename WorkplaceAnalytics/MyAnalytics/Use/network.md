@@ -4,7 +4,7 @@ description: Learn how to use MyAnalytics to improve your work relationships and
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
@@ -16,7 +16,7 @@ The Network page on the [MyAnalytics dashboard](dashboard-2.md) shows how many p
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
-![Your Network](../../Images/mya/use/network-pg.png)
+![Your Network.](../../Images/mya/use/network-pg.png)
 
 ## Productivity insights
 
