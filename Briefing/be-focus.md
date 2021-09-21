@@ -14,6 +14,9 @@ recommendations: false
 ---
 # Book focus time
 
+>[!Note]
+> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
+
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can use this section to schedule focus time for today’s top-priority work. Select **Book** next a suggested time to block it on your calendar as "focusing," which silences notifications for uninterrupted focused work.
 
 This section will also reference and list any already scheduled focus time in today’s calendar.

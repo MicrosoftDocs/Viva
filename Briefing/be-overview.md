@@ -15,7 +15,10 @@ recommendations: false
 
 # Briefing email overview
 
-The Briefing email helps you stay in control of your calendar and be intentional about your day. In the first two hours of your workday &ndash; as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance) &ndash; or in a two-hour window that's centered around the start of your workday, you'll get an email about any relevant items to help you better prepare for the day ahead, including:
+>[!Note]
+> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
+
+The Briefing email helps you stay in control of your calendar and be intentional about your day. In a two-hour window that's centered around the start of your workday (your workday as it is set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 
 * Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks.
 * Documents related to today’s meetings that you might want to review beforehand.

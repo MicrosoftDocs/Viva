@@ -14,6 +14,9 @@ recommendations: false
 ---
 # Prepare for upcoming meetings
 
+>[!Note]
+> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
+
 In this section of your Briefing email, you’ll see today's first three meetings chronologically that have at least one suggested action. You can select the meeting heading to open the meeting details or select a document that’s related to the upcoming meeting to open and view it.
 
 With the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following to help prepare for today's meetings:

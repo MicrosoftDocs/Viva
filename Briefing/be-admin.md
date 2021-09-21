@@ -16,6 +16,9 @@ recommendations: false
 
 # Configure Briefing email
 
+>[!Note]
+> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
+
 As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the Briefing email for a specific user or multiple users with PowerShell.
 
 ## Prerequisites

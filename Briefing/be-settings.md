@@ -14,6 +14,9 @@ recommendations: false
 ---
 # Settings
 
+>[!Note]
+> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
+
 You can change your personal settings for the Briefing email to set what time of day you receive the Briefing in your mailbox or to unsubscribe from it. These settings override or take precedence over what the admin sets up for your Briefing email. If the Briefing is using an incorrect time zone, use **Change time zone** to change your Outlook time zone setting.
 
 **To update settings**
