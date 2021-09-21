@@ -65,11 +65,10 @@ Here's an example of a digest insight about work relationships.
 
 -->
 
-## Opt out of digests
+
+### Opt out of digests
 
 If you do not want to receive the monthly digest from Microsoft Viva, you can opt out in either of two ways &mdash; on your MyAnalytics dashboard or in the digest email itself.
-
-### Opt out on the MyAnalytics dashboard
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at the top right.
@@ -77,21 +76,21 @@ If you do not want to receive the monthly digest from Microsoft Viva, you can op
 4. Under **Monthly digest**, change the setting to **Off**.
 5. Select **Save** to save your changes.
 
-### Opt out in the digest email
+#### Opt out in the digest email
 
 * Scroll to the bottom of the digest email and select **Unsubscribe**.
 
    >[!Note]
    >After you select **Unsubscribe**, you will see the **Sorry to see you go** page. This page shows your email address in the sentence, "You (<name@domain.com> have been unsubscribed from the **digest email**." Verify that the email address that is shown is the correct email address for you. If this email address is not yours, you will not be unsubscribed.
 
-### If I am opted out, can I opt back in?
+#### If I am opted out, can I opt back in?
 
 Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the digest.
 
 >[!Note]
 > Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two to four days. For details, see [MyAnalytics FAQ](../Overview/MyA-faq.md)
 
-### After unsubscribing from the monthly digest, why am I still receiving them?
+#### After unsubscribing from the monthly digest, why am I still receiving them?
 
 If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
 
