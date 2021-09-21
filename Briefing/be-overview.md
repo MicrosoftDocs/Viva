@@ -25,11 +25,8 @@ The Briefing email helps you stay in control of your calendar and be intentional
 * Suggested focus time you can schedule to help get independent work done.
 
 >[!Important]
->Briefing is being released in phases with a general roll-out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in English and Spanish.
-
->[!Important]
->* The Briefing email is being released in phases with a general roll-out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in French, German, Italian, and Portuguese. 
->* The Briefing email is not available for group mailboxes.
+> * The Briefing email is being released in phases with a general roll-out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in French, German, Italian, and Portuguese. (The Briefing email is already available in English and in Spanish.)
+> * The Briefing email is not available for group mailboxes.
 
 ## Why am I getting this?
 
