@@ -1,6 +1,6 @@
 ---
-title: Workplace Analytics insights
-description: Learn actionable insights into more effective business outcomes for your organization 
+title: Viva Insights in Workplace Analytics home page
+description: Learn actionable insights into more effective business outcomes for your organization in Microsoft Viva Insights in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -10,11 +10,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Workplace Analytics insights
+# Viva Insights in Workplace Analytics
 
 These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what actions you can take to help drive change.
 
-![Workplace Analytics insights home page image.](../images/wpa/use/insights.png)
+![Workplace Analytics insights home page](../images/wpa/use/insights.png)
 
 ## Business outcomes
 

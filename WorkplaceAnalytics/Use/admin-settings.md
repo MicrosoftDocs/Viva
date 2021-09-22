@@ -15,13 +15,13 @@ audience: Admin
 
 # Admin settings
 
-As a [Workplace Analytics Admin](settings.md), you can use **Admin settings** to configure the following.
+As an admin of Microsoft Viva Insights or Workplace Analytics, you can use **Admin settings** to configure the following.
 
 * [System defaults](system-defaults.md) - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Workplace Analytics.
 * [Privacy settings](privacy-settings.md) - Specify what data is excluded from analysis and what data is visible in Query designer and in Explore the stats.
 * [Manager settings](manager-settings.md) - Enable all or specific people managers to see team insights in Workplace Analytics.
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Viva Insights or Workplace Analytics admins have full access to this page. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
 
 ![Admin settings.](../images/wpa/use/system-defaults.png)
 
@@ -32,4 +32,4 @@ As a [Workplace Analytics Admin](settings.md), you can use **Admin settings** to
 
 ## Related topic
 
-[Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md)
+[Assign roles](../setup/assign-roles-to-wpa-admins.md)
