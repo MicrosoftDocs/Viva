@@ -205,15 +205,14 @@ The following must be supplied with the exact column headers in the .csv upload,
 
 These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
 
-|  Attribute  |Case sensitive? |  If used, does a validation<p>threshold apply? | Can be used as the name of a<p>[custom attribute](#custom-attributes)? |  
-| ------------- | ---- | ---- | ---- | ---- |
-| FunctionType         | Yes  | Yes  | No   |
-| HireDate             | No   | Yes  | No   |
-| HourlyRate           | No   | Yes  | No   |
-| Layer                | No   | Yes  | No   |
-| SupervisorIndicator  | Yes  | Yes  | No   |
-| TimeZone             | No   | Yes  | No   |
-| GroupId              | No   | No   | No   |
+|   Attribute   |  Case sensitive? |  If used, does a validation<p>threshold apply? | Can be used as the name of a<p>[custom attribute](#custom-attributes)? |  
+| ------------- | ------------- | ---- | ---- | ---- |
+| FunctionType                  | Yes  | Yes  | No   |
+| HireDate                      | No   | Yes  | No   |
+| HourlyRate                    | No   | Yes  | No   |
+| Layer                         | No   | Yes  | No   |
+| SupervisorIndicator           | Yes  | Yes  | No   |
+| TimeZone                      | No   | Yes  | No   |
 
 ### Custom attributes
 

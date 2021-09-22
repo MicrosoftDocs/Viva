@@ -13,9 +13,6 @@ recommendations: false
 ---
 # Plan your week
 
->[!Note]
-> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
-
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **What do you want to set aside time for** section in a Briefing email about next week. This helps you plan the week ahead for important activities that improve long term productivity and wellbeing.
 
 Select **Book** next one or more of the following to schedule it for each day during your work week:
