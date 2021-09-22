@@ -18,7 +18,7 @@ The Microsoft Viva Insights in Workplace Analytics documentation has a number of
 
 ## Introduction
 
-* [Navigate Workplace Analytics](../overview/get-started.md#video-navigate-the-web-app)
+* [Navigate Workplace Analytics](../overview/get-started.md#video-navigate-workplace-analytics)
 
 ## Setup
 
