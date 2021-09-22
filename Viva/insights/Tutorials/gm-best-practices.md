@@ -21,7 +21,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/manager-coaching-64x64.svg" alt="manager coaching"/>
+                            <img src="../images/wpa/playbooks/manager-coaching-64x64.svg" alt="manager coaching"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -40,7 +40,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/wellbeing-64x64.svg" alt="wellbeing"/>
+                            <img src="../images/wpa/playbooks/wellbeing-64x64.svg" alt="wellbeing"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -59,7 +59,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/meetings-64x64.svg" alt="meetings" />
+                            <img src="../images/wpa/playbooks/meetings-64x64.svg" alt="meetings" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -78,7 +78,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/focus-64x64.svg" alt="focus" />
+                            <img src="../images/wpa/playbooks/focus-64x64.svg" alt="focus" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -97,7 +97,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/manage-connectedness-64x64.svg" alt="manage connectedness" />
+                            <img src="../images/wpa/playbooks/manage-connectedness-64x64.svg" alt="manage connectedness" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -116,7 +116,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/email-overload-64x64.svg" alt="email overload" />
+                            <img src="../images/wpa/playbooks/email-overload-64x64.svg" alt="email overload" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -135,7 +135,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/efficient-communications-64x64.svg" alt="efficient communications" />
+                            <img src="../images/wpa/playbooks/efficient-communications-64x64.svg" alt="efficient communications" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -154,7 +154,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/cross-group-collab-64x64.svg" alt="cross-group collaboration" />
+                            <img src="../images/wpa/playbooks/cross-group-collab-64x64.svg" alt="cross-group collaboration" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -173,7 +173,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/influencer-64x64.svg" alt="influencer" />
+                            <img src="../images/wpa/playbooks/influencer-64x64.svg" alt="influencer" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -192,7 +192,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/manager-coaching-64x64.svg" alt="customer focus"/>
+                            <img src="../images/wpa/playbooks/manager-coaching-64x64.svg" alt="customer focus"/>
                         </div>
                     </div>
                     <div class="cardText">
@@ -211,7 +211,7 @@ audience: Admin
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src=".../images/wpa/playbooks/cross-group-collab-64x64.svg" alt="customer focus"/>
+                            <img src="../images/wpa/playbooks/cross-group-collab-64x64.svg" alt="customer focus"/>
                         </div>
                     </div>
                     <div class="cardText">
