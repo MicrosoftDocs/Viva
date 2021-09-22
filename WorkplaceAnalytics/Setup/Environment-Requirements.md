@@ -80,8 +80,6 @@ If you have questions about licensing, such as "How can I obtain Workplace Analy
 
 Under [Powerful tools to support your enterprise](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans), see **Looking for more** for more details about the available plans.
 
-To provide feedback, go to [Microsoft Office 365 UserVoice forum](https://office365.uservoice.com/).  
-
 
 <!-- FORMER CONTENT 
 
