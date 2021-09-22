@@ -170,7 +170,7 @@ The following options are available for a published rule:
 * **Set preferred** sets this rule as the preferred rule. There can be only one preferred rule within your tenant. This has the following effects:
 
   * When an analyst designates a rule as preferred, that rule will appear to _all_ analysts as the preferred rule in [Explore the stats](../use/explore-intro.md) data.
-  * The preferred rule also appears at the top of the list of rules on the [Analysis settings](../use/settings.md#analysis-settings) page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.)
+  * The preferred rule also appears at the top of the list of rules on the [Analyst settings](../use/settings.md#analyst-settings) page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.)
   * The preferred rule will apply to all [queries](query-basics.md) that are run during the time the rule is in place.
 
 * **Archive** archives the rule.  

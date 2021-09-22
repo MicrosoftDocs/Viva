@@ -1,7 +1,7 @@
 ---
 
 title: To create an auto-update query
-description: How to create an auto-update query in Workplace Analytics. 
+description: How to create an auto-update query in Viva Insights in Workplace Analytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -23,8 +23,8 @@ ms.prod: wpa
 
     <img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
 
-   > [!Note]
-   > Auto-update is available only for the predefined time ranges in the Time period drop-down list. If you select **Custom range**, the Auto-update option becomes unavailable.
+   >[!Note]
+   >Auto-update is available only for the predefined time ranges in the Time period drop-down list. If you select **Custom range**, the Auto-update option becomes unavailable.
 
 5. Select **Auto-update**.
 

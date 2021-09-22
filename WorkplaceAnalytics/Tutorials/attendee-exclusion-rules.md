@@ -45,13 +45,13 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 1. Open [Workplace  Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
 
-2. Select **Settings** > **Analysis settings** to open the **Exclusions** page.
+2. Select **Analyst settings** to open the **Exclusions** page.
 
 3. Select **Attendee exclusion**.
 
 4. Select **Add exclusion**.
 
-5. On the **Analysis settings** > **Exclusions** > **New exclusion** page, for **Exclusion type**, select **Attendee exclusion**:
+5. On the **Analyst settings** > **Exclusions** > **New exclusion** page, for **Exclusion type**, select **Attendee exclusion**:
 
    ![Meeting response options.](../images/wpa/tutorials/select-attendee-exclusion.png)
 

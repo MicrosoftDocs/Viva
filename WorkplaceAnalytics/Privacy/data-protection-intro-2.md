@@ -39,7 +39,7 @@ Based on your role, the following information explains how Microsoft protects em
 
 ## More about advanced insights
 
-If your organization uses advanced insights and analysis in the Viva Insights web app, the following information provides more details about different aspects of data protection, privacy, and access.
+If your organization uses advanced insights and analysis in Viva Insights in Workplace Analytics, the following information provides more details about different aspects of data protection, privacy, and access.
 
 * [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities) &ndash; Read about the concepts of [data controller](data-protection-considerations.md#your-organizations-role-data-controller), [data processor](data-protection-considerations.md#microsofts-role-data-processor), and [data subject](data-protection-considerations.md#data-subject-and-personal-data), and their origins in European privacy law.
 * [Types of data used in analysis](data-protection-considerations.md#types-of-data-for-analysis-in-workplace-analytics) &ndash; Provides an overview of the different types of data that can be included and used in calculations.  

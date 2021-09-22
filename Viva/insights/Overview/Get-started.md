@@ -28,13 +28,13 @@ Analysts can explore organizational data with advanced insights and dive deeper 
 Before analysts can get to work, they must have the proper role. Each analyst must be assigned the 'analyst' role. An Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
 
 >[!Note]
->An employee need not have a Viva Insights license to perform analyst duties; they merely need the analyst role.
+>An employee need not have a Viva Insights or Workplace Analytics license to perform analyst duties; they merely need the analyst role.
 
 ## Analysis options
 
-Viva Insights provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways with the web app.
+Viva Insights in Workplace Analytics provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways.
 
-* [**Advanced insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to the app, you will only see the [new Admin setup experience](../setup/set-up-Workplace-Analytics.md) until you get the web app set up.
+* [**Advanced insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to Workplace Analytics, you will only see the [new Admin setup experience](../setup/set-up-Workplace-Analytics.md) until you get it set up.
 * **Analyze** includes the following data-analysis tools within the app:
 
   * [**Query designer**](../tutorials/query-designer.md) helps you investigate organizational data to answer specific questions. A number of different templates and options, such as person, meeting, group-to-group, and person-to-group queries give you flexibility to look at data from multiple perspectives and generate powerful insights.
@@ -42,23 +42,23 @@ Viva Insights provides advanced analysis tools for deep diving into the data sho
   * [**Peer analysis**](../use/peer-analysis.md) helps you discover the unique workplace collaboration patterns that the most effective people in your organization use to succeed. You can then use these insights to teach and foster these work patterns throughout your company.
 
 * [**Explore the stats**](../use/explore-intro.md) data helps you analyze organizational data trends that are summarized by week, for meetings, by network connections, for management and coaching, and for external collaboration.
-* [**wpa R package**](../tutorials/wpa-r-package.md) is an open-source repository of more than 100 functions that provide low-code pre-built analyses that can help leaders use the data that the web app provides to solve more specific problems.
+* [**wpa R package**](../tutorials/wpa-r-package.md) is an open-source repository of more than 100 functions that provide low-code pre-built analyses that can help leaders use the data that the Workplace Analytics provides to solve more specific problems.
 * [**Workspace Collaboration Optimizer**](../use/wsplan.md) is an open-sourced set of Python-based web apps (Jupyter Notebooks) that can help you create seating plans that are optimized for innovation and cross-team collaboration. The underlying algorithm minimizes the distance between teams who collaborate the most with each other.
-* [**Plans**](../tutorials/solutionsv2-intro.md) provide plans such as the _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Viva Insights. You can use advanced insights to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
-* [**Settings**](../use/settings.md) in the web app includes the following:
+* [**Plans**](../tutorials/solutionsv2-intro.md) provide plans such as the _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Viva Insights in Workplace Analytics. You can use advanced insights to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
+* [**Settings**](../use/settings.md) in the Workplace Analytics includes the following:
 
-  * [**Sources**](../use/settings.md#sources) – View information about the Microsoft 365 and organizational data that's been uploaded into the web app.
+  * [**Data sources**](../use/settings.md#sources) – View information about the Microsoft 365 and organizational data that's been uploaded into the Workplace Analytics.
   * [**Upload**](../use/settings.md#upload) – Prepare and upload organizational and customer data.
   * [**Analyst settings**](../use/settings.md#analysis-settings) – Customize exclusion rules to help ensure data accuracy.
   * [**Admin settings**](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.
 
-### Video: Navigate the web app
+### Video: Navigate Workplace Analytics
 
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
 
 <iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 -->
-The user interface and navigation in recent releases of the web app are different that what's shown in this video.
+The user interface and navigation in recent releases of Workplace Analytics are different that what's shown in this video.
 
 <iframe src="https://player.vimeo.com/video/434890975" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

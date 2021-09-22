@@ -1,7 +1,7 @@
 ---
 
-title: Business process analysis in Viva Insights 
-description: Learn how to analyze business processes with Microsoft Viva Insights
+title: Business process analysis in Workplace Analytics 
+description: Learn how to analyze business processes with Microsoft Viva Insights in Workplace Analytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -17,7 +17,7 @@ When you and your co-workers perform an organized series of steps to reach a goa
 
 You can improve your business processes by analyzing them; for example, by measuring their cost in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees have been participating in them.
 
-To make these determinations, conduct an analysis by running a query in Microsoft Viva Insights in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
+To make these determinations, conduct an analysis by running a query in Workplace Analytics in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
 
 Use the following procedures to analyze a business process:
 
@@ -25,7 +25,7 @@ Use the following procedures to analyze a business process:
 
 2. [Define a business process](#define-a-business-process) &ndash; Define the business process that you want to analyze within the data set that you defined in the preceding step.
 
-3. [Analyze a business process](#analyze-a-business-process) &ndash; Compose and run a Viva Insights query in which you select the business process as a parameter.
+3. [Analyze a business process](#analyze-a-business-process) &ndash; Compose and run a Workplace Analytics query in which you select the business process as a parameter.
 
 This illustration shows these procedures and the types of data that they involve:
 
@@ -52,13 +52,13 @@ Every business process that you create must be based on a data set. For that rea
 
 In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
 
-1. In Viva Insights, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
+1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
-2. On the **Analysis settings** page, select **Data sets** and then, on the right side of the page, select **Add data set**.
+2. In **Data sets**, select **Add data set**.
 
    ![new data set.](../images/wpa/tutorials/new-data-set.png)
 
-3. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we've given **SalesDataSet** as the name of the data set.) Select **Continue**.
+3. In **New data set**, enter a name and, optionally, a description for your new data set. (In this example, we've given **SalesDataSet** as the name of the data set.) Select **Continue**.
 
    ![data set name given.](../images/wpa/tutorials/data-set-name-in-place.png)
 
@@ -78,7 +78,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
    ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
 
-10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights admin has uploaded.)
+10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights or Workplace Analytics admin has uploaded.)
 
     ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 
@@ -88,7 +88,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 ### Data set statuses
 
-Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (which could take from several minutes to a few hours, depending on the size of the data set), its status changes to "Ready" and you can use it in business-process definitions and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Viva Insights support](../overview/getting-support.md).)
+Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (which could take from several minutes to a few hours, depending on the size of the data set), its status changes to "Ready" and you can use it in business-process definitions and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Support](../overview/getting-support.md).)
 
 You can find a list of existing data sets and their statuses in **Analyze** > **Business process analysis** > **Data sets**:
 
@@ -98,16 +98,16 @@ You can find a list of existing data sets and their statuses in **Analyze** > **
 
 After a data set has been created, it can be viewed, used, or deleted, but it cannot be edited. A dataset can be deleted only if no business processes are using it. After you delete a data set, it cannot be recovered.
 
-To view or delete a data set, first find it on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Viva Insights, and then use the **View** or **Delete** options.
+To view or delete a data set, first find it on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics, and then use the **View** or **Delete** options.
 
 ## Define a business process
 
-Before you can analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Viva Insights:  
+Before you can analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
 
 ![Biz process start page.](../images/wpa/tutorials/start-page.png)
 
 >[!Note]
->Currently, you can use only English keywords in the process of defining a business process. This holds true even if your instance of Viva Insights is in a language other than English.
+>Currently, you can use only English keywords in the process of defining a business process. This holds true even if your instance of Workplace Analytics is in a language other than English.
 
 ### Business process steps
 
@@ -124,7 +124,7 @@ We will describe the creation of a business process in two procedures:
 
 In these steps, we create and name an empty business process.
 
-1. In Viva Insights, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
+1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
    ![business process list view.](../images/wpa/tutorials/add-biz-process.png)
 
@@ -214,11 +214,11 @@ Business processes can have the following status:
 
 * <u>Draft</u> &ndash; You are creating or editing the business process but you have not selected **Submit**.  
 
-* <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system. The business process completes processing during the regular weekly processing of Viva Insights.
+* <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system. The business process completes processing during the regular weekly processing of Workplace Analytics.
 
-* <u>Ready</u> &ndash; The business process has been successfully processed and can be used in queries in Viva Insights by an analyst in the same partition.
+* <u>Ready</u> &ndash; The business process has been successfully processed and can be used in queries in Workplace Analytics by an analyst in the same partition.
 
-* <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Failed" status, you can request help by [contacting Viva Insights support](../overview/getting-support.md).)
+* <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
 
    ![Business process statuses.](../images/wpa/tutorials/business-process-list-2.png)
 
@@ -226,11 +226,11 @@ Business processes can have the following status:
 
 After a business process has been created, it can be viewed, used, or deleted, but it cannot be edited (unless it is in Draft state). A business process can be deleted only if no recurring queries are using it. After you delete a business process, it cannot be recovered.
 
-To view or delete a business process, first find it on the **Analyze** > **Business process analysis** page of Viva Insights, under the **Business processes** tab, and then use the **View** or **Delete** options.
+To view or delete a business process, first find it on the **Analyze** > **Business process analysis** page of Workplace Analytics, under the **Business processes** tab, and then use the **View** or **Delete** options.
 
 ## Analyze a business process
 
-You analyze _real-world_ business processes by running Viva Insights meeting or person queries. As you do this, you use a _digital_ "business process" &mdash; the kind that you defined in [Business process steps](#business-process-steps) &mdash; as a filter.
+You analyze _real-world_ business processes by running Workplace Analytics meeting or person queries. As you do this, you use a _digital_ "business process" &mdash; the kind that you defined in [Business process steps](#business-process-steps) &mdash; as a filter.
 
 Design your query and choose its metrics so that filtering by this digital business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze.
 
@@ -240,23 +240,21 @@ You can filter by business processes wherever the **Meeting** option is availabl
 
 In [meeting queries](Meeting-queries.md#meeting-queries), business processes are only available as filters for meetings, as described in the following steps.
 
-1. In Viva Insights, select **Query designer > Meeting** to open a Meeting query.
-
-2. Enter initial information about the query such as its name, time period, and exclusions.
-
-3. Under **Select filters**, select **Meeting**.
+1. In Workplace Analytics, select **Query designer**, and then in **Query**, select **Get started** > **Meeting** > **Next**.
+2. In **Meeting query**, select **Start a new query** > **Set up query**.
+3. Enter initial information about the query such as its name, time period, and exclusions.
+4. Under **Select filters**, select **Meeting**.
 
    ![Select filters.](../images/wpa/tutorials/select-filters-1.png)
 
-4. Next to **Meeting’s**, select **Business process**.
+5. Next to **Meeting’s**, select **Business process**.
 
    ![Select business process.](../images/wpa/tutorials/select-filters-2.png)
 
-5. In the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
+6. In the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
+7. Finish defining your query and select **Run**.
 
-6. Finish defining your query and select **Run**.
-
-#### Interpret your query results
+### Interpret your query results
 
 The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
@@ -266,35 +264,34 @@ For general information about examining query results, see [View, download, and 
 
 In [person queries](Person-queries.md#person-queries), business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
 
-1. In Viva Insights, select **Query designer > Person** to open a Person query.
-
-2. Enter initial information about the query such as its name, time period, and exclusions.
-
-3. Under **Select metrics**, select a metric. In this example, we’ll use **Collaboration hours**.
+1. In Workplace Analytics, select **Query designer**, and then in **Query**, select **Get started** > **Person** > **Next**.
+2. In **Person query**, select **Start a new query** > **Set up query**.
+3. Enter initial information about the query such as its name, time period, and exclusions.
+4. Under **Select metrics**, select a metric. In this example, we’ll use **Collaboration hours**.
 
    ![Select metrics.](../images/wpa/tutorials/select-metrics-collab.png)
 
-4. Customize the Collaboration hours metric. Start by selecting **Edit** (the pencil icon) .
+5. Customize the Collaboration hours metric. Start by selecting **Edit** (the pencil icon) .
 
    ![Customize the metric.](../images/wpa/tutorials/customize-metric.png)
 
-5. Select **Add filter**.
+6. Select **Add filter**.
 
    ![Add a filter.](../images/wpa/tutorials/add-filter.png)
 
-6. For **Collaboration hours where**, select **Meeting**.
+7. For **Collaboration hours where**, select **Meeting**.
 
    ![Select meeting to customize.](../images/wpa/tutorials/select-meeting-collab.png)
 
-7. Next to **Meeting’s**, select **Business process**.
+8. Next to **Meeting’s**, select **Business process**.
 
    ![Select filters for meetings.](../images/wpa/tutorials/select-filters-3.png)
 
-8. In the middle field, select "**=**" and in the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
+9. In the middle field, select "**=**" and in the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
 
-9. Finish defining your query and select **Run**.
+10. Finish defining your query and select **Run**.
 
-#### Interpret your query results
+### Interpret your query results
 
 The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
@@ -302,7 +299,7 @@ After the query runs, examine its results as described in [Understand and interp
 
 ## Data privacy
 
-The business-process analysis feature follows the data-privacy standards of Viva Insights, which are described in [Privacy settings](../use/privacy-settings.md).
+The business-process analysis feature follows the data-privacy standards of Viva Insights in Workplace Analytics, which are described in [Privacy settings](../use/privacy-settings.md).
 
 To define a business process, you must use meeting subject lines, but access to meeting subject lines is restricted by two of the available data-privacy settings: [Hash subject lines](../use/privacy-settings.md#hash-subject-lines) and [Exclude terms from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines). These settings affect your ability to define a business process as described here:
 
@@ -312,13 +309,13 @@ You can use this setting to control whether to show legible or hashed subject li
 
 ![Hash subject lines.](../images/wpa/tutorials/hash-subject-lines.png)
 
-If your Viva Insights admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
+If your Viva Insights or Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
 
-However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Viva Insights admin and ask them to set the **Hash subject lines** option to **No**.
+However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Viva Insights or Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
 
 ### Exclude terms from subject lines
 
-For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page of Viva Insights:
+For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page of Workplace Analytics:
 
 ![Exclude terms from subject lines.](../images/wpa/tutorials/exclude-terms-5.png)
 
@@ -327,14 +324,14 @@ How does the exclusion of terms affect your analysis of business processes? It a
 The exclusion of terms does not work retroactively; that is, exclusions work only on new data. An exclusion takes effect if all of the following hold true:
 
 * You create the data set after the admin creates the exclusion.
-* You create the data set after the weekly data refresh is completed. (The collaboration data that Viva Insights uses is refreshed once a week, on Sunday. Viva Insights then processes the new data, which appears one day later, on Monday.)
+* You create the data set after the weekly data refresh is completed. (The collaboration data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday.)
 * You define the data set to use new data. That is, as you [define the data set](#define-a-data-set), for **Time period**, select dates that take place entirely after the exclusion was defined and data was refreshed.
 
 The following example shows how this can unfold:
 
 | Date | Event |
 | ---- | ----- |
-| 1/1/2020 | A customer begins using Viva Insights. |
+| 1/1/2020 | A customer begins using Workplace Analytics. |
 | 4/1/2020 | An admin excludes the term "merger."
 | 4/8/2020 | The weekly data refresh has taken place. Any new data that arrived during the refresh will respect the exclusion; this means that any data sets based on this data will exclude the word "merger." (Also, any data that will arrive in the future will respect the exclusion.)
 | 4/9/2020 | An analyst defines a data set, called "DS1," for the period 1/1/2020 – 4/1/2020. This data set does NOT respect the exclusion, which means that the word "merger" is _not_ excluded.

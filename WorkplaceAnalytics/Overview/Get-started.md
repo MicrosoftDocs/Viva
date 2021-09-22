@@ -19,7 +19,7 @@ audience: Admin
 
 [![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
-The Microsoft Workplace Analytics web app gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
+Microsoft Viva Insights in Workplace Analytics gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
 Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with the Query designer.
 
@@ -32,10 +32,10 @@ Before analysts can get to work, they must have the proper role. Each analyst mu
 
 ## Options for exploring and analyzing data
 
-Workplace Analytics provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways.
+Viva Insights in Workplace Analytics provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways.
 
 * [**Microsoft Viva Insights**](../use/viva-insights-intro.md) in Microsoft Teams enables managers to see team insights and business leaders to see organizational insights within the Teams app. Individuals can see their own personal and private insights within Teams as well. For details, see [Personal Viva Insights](/insights/teams-app).
-* [**Workplace Analytics Insights**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to the app, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get the Workplace Analytics app set up.
+* [**Viva Insights in Workplace Analytics**](../use/insights.md) provides analysis scope information and research-based behavioral insights into how an organization gets work done, such as enhance organizational agility, boost employee engagement, improve agility, and foster innovation. If you're new to Workplace Analytics, you will only see the [new Admin setup experience](../setup/Set-up-Workplace-Analytics.md) until you get it set up.
 * **Analyze** includes the following data-analysis tools within the app:
 
   * [**Query designer**](../tutorials/query-designer.md) helps you investigate organizational data to answer specific questions. A number of different templates and options, such as person, meeting, group-to-group, and person-to-group queries give you flexibility to look at data from multiple perspectives and generate powerful insights.
@@ -50,7 +50,7 @@ Workplace Analytics provides advanced analysis tools for deep diving into the da
 
   * [**Sources**](../use/settings.md#sources) – View information about the Microsoft 365 and organizational data that's been uploaded into Workplace Analytics.
   * [**Upload**](../use/settings.md#upload) – Prepare and upload organizational and customer data.
-  * [**Analysis settings**](../use/settings.md#analysis-settings) – Customize exclusion rules to help ensure data accuracy.
+  * [**Analyst settings**](../use/settings.md#analysis-settings) – Customize exclusion rules to help ensure data accuracy.
   * [**Admin settings**](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.
 
 ### Video: Navigate Workplace Analytics

@@ -23,7 +23,7 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 
 **Owners** – Viva Insights Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Analysis settings](../images/WpA/Tutorials/analysis-settings.png)
+![Analyst settings](../images/WpA/Tutorials/analysis-settings.png)
 
 ### For more information
 
@@ -42,11 +42,11 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 
 ## To view meeting exclusion rules
 
-You can view existing meeting exclusion rules or create new ones in **Analysis settings**. **Meeting exclusions** shows all the rules that you or other analysts have created and published, and rules that people have started to define and then saved in draft form.
+You can view existing meeting exclusion rules or create new ones in **Analyst settings**. **Meeting exclusions** shows all the rules that you or other analysts have created and published, and rules that people have started to define and then saved in draft form.
 
 1. Open [Viva Insights](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
 
-2. In **Settings** > **Analysis settings** > **Meeting exclusions**, select **Active** to list the active rules, which includes the following:
+2. In **Analyst settings** > **Meeting exclusions**, select **Active** to list the active rules, which includes the following:
 
    * Rules in the _Published_ state are available for use. See [Select which rule to use](#select-which-rule-to-use).
    * Rules in the _Draft_ state are in development. An analyst can edit a draft rule and then publish it. See [Edit a draft rule](#edit-a-draft-rule).  
@@ -77,7 +77,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 
 1. Open [Viva Insights](https://workplaceanalytics.office.com/). If prompted, enter your organization credentials.
 
-2. In **Settings** > **Analysis settings**, select **Add exclusion rule**.
+2. In **Analyst settings**, select **Add exclusion rule**.
 
 3. In **New exclusion**, select either **Meeting exclusion** or **Attendee exclusion**:
 
@@ -187,7 +187,7 @@ After Viva Insights publishes your new rule, it shows a read-only summary of the
 
 You might have started to define a rule and then saved it as a draft. Now, you’d like to work on it more, and possibly complete it.
 
-1. In **Settings > Analysis settings**, select **Active**.
+1. In **Analyst settings**, select **Active**.
 2. In the table of meeting exclusion rules, find the draft rule that you want to edit Draft rules are labeled as such in the **State** column.
 3. Select the **Edit** (pencil) icon in that rule’s row to see a summary list of existing exclusions.
 4. To edit an exclusion, select **Edit**, identify exceptions, and then select **Update**. The summary of exclusions is updated to reflect the change you made.
@@ -201,7 +201,7 @@ To learn how to select a rule to use in a query, see [Use rules with queries](#u
 
 ### Select the preferred rule
 
-1. In **Settings > Analysis settings**, select **Active**.
+1. In **Analyst settings**, select **Active**.
 
 2. In the table of meeting exclusion rules, find the rule that you want to use in Explore the stats, Plans, and Query designer.
 
@@ -233,7 +233,7 @@ You can apply a meeting exclusion rule to a query while you create the query in 
 
 You can make an exact copy of any active rule. You can duplicate both published rules and draft rules. The copy you create is editable.
 
-1. In **Settings > Analysis settings**, select **Active**.
+1. In **Analyst settings**, select **Active**.
 2. In the table of meeting exclusion rules, find the rule that you want to duplicate. This can be a published rule or a draft rule.
 3. In that rule’s row, select the **More options** (ellipsis) icon, and then select **Duplicate**. A copy of the rule is created, given the name “Copy of &lt;original rule name&gt;”, and then opened for editing.
 
@@ -246,7 +246,7 @@ You can make an exact copy of any active rule. You can duplicate both published 
 
 You might have built and used a rule in a past project that you no longer use. However, you might want to keep it for later reference. In this case, you can archive it.
 
-1. In **Settings > Analysis settings**, select **Active**.
+1. In **Analyst settings**, select **Active**.
 
 2. In the table of meeting exclusion rules, find the rule that you want to archive. Note that you can archive only published rules.
 

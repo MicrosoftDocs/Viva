@@ -54,7 +54,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
 
-2. On the **Analysis settings** page, select **Data sets** and then, on the right side of the page, select **Add data set**.
+2. On the **Analyst settings** page, select **Data sets** and then, on the right side of the page, select **Add data set**.
 
    ![new data set.](../images/wpa/tutorials/new-data-set.png)
 

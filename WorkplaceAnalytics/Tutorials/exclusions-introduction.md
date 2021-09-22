@@ -1,7 +1,7 @@
 ---
 
 title: Introduction to attendee and meeting exclusions in Workplace Analytics 
-description: Exclusion rules -- Introduction   
+description: Exclusion rules introduction   
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -11,11 +11,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Analysis settings
+# Analyst settings
 
-As an analyst in Workplace Analytics, you use Analysis settings to set up meeting and attendee exclusion rules for data analysis purposes.
+As an analyst in Workplace Analytics, you use Analyst settings to set up meeting and attendee exclusion rules for data analysis purposes.
 
-You can use Workplace Analytics Query designer to measure work-related calendar collaboration. For this type of analysis, you want to make sure the queried data is applicable. That is, you want to include only participation in meetings that reflect actual work-related collaboration and exclude unrelated events from the data.
+You can use Query designer to measure work-related calendar collaboration. For this type of analysis, you want to make sure the queried data is applicable. That is, you want to include only participation in meetings that reflect actual work-related collaboration and exclude unrelated events from the data.
 
 You can exclude events with one of the following exclusion types:
 
@@ -25,7 +25,7 @@ You can exclude events with one of the following exclusion types:
 
 **Owners** – Workplace Analytics Analysts have full access and limited Analysts have read-only access to these settings. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Analysis settings in Workplace Analytics.](../images/WpA/Tutorials/analysis-settings.png)
+![Analyst settings in Workplace Analytics.](../images/WpA/Tutorials/analysis-settings.png)
 
 ## Notes
 

@@ -14,17 +14,17 @@ audience: Admin
 
 # Advanced insights language support and guidelines
 
-The Microsoft Viva Insights web app user interface is currently available in Chinese (Simplified), Chinese (Traditional), French (France), German (Germany), Italian (Italy), Japanese, Korean, Portuguese (Brazil), Russian (Russia), Spanish (Spain), and English (United States).
+The user interface in Microsoft Viva Insights in Workplace Analytics is currently available in Chinese (Simplified), Chinese (Traditional), French (France), German (Germany), Italian (Italy), Japanese, Korean, Portuguese (Brazil), Russian (Russia), Spanish (Spain), and English (United States).
 
-The Viva Insights web app user interface automatically uses your locale (language and region) setting, as specified in one of the following sources:
+The Workplace Analytics user interface automatically uses your locale (language and region) setting, as specified in one of the following sources:
 
 * Windows
 * your web browser
 * the locale that is set for your Exchange Online mailbox
 
-You can override this setting. To do so, edit the URL that you use to access Viva Insights.
+You can override this setting. To do so, edit the URL that you use to access Workplace Analytics.
 
-* In the URL, replace the locale identifier (for example, "en-us" for US English) with a different locale identifier. The table under [Supported locales](#supported-locales) lists all of the supported locale identifiers for Viva Insights.
+* In the URL, replace the locale identifier (for example, "en-us" for US English) with a different locale identifier. The table under [Supported locales](#supported-locales) lists all of the supported locale identifiers for Workplace Analytics.
 
     For example, replace /en-us/ in the following URL:
 
@@ -52,7 +52,7 @@ English (United States) | en-us
 
 ### Use of non-English data
 
-In certain circumstances, you can use Viva Insights with _data_ that is in other languages. Follow these guidelines:
+In certain circumstances, you can use Workplace Analytics with _data_ that is in other languages. Follow these guidelines:
 
 * Query names and descriptions must be in English, Japanese, or French.
 
@@ -66,7 +66,7 @@ In certain circumstances, you can use Viva Insights with _data_ that is in other
 
 ## Privacy settings
 
-In [Privacy settings](../use/privacy-settings.md), when adding the subject line terms to exclude from analysis, Viva Insights might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
+In [Privacy settings](../use/privacy-settings.md), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ![Exclude terms from subject line.](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
 

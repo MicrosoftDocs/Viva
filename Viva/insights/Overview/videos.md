@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Videos for Viva Insights
-description: Videos about how Microsoft Viva Insights works
+description: Videos about how Microsoft Viva Insights in Workplace Analytics works
 author: paul9955
 ms.author: v-mideh
 ms.topic: conceptual
@@ -14,11 +14,11 @@ audience: Admin
 
 # Viva Insights videos
 
-The Microsoft Viva Insights documentation has a number of videos that help explain concepts or describe procedural steps. To find the current videos, refer to the following sections:
+The Microsoft Viva Insights in Workplace Analytics documentation has a number of videos that help explain concepts or describe procedural steps. To find the current videos, refer to the following sections:
 
 ## Introduction
 
-* [Navigate the web app](../overview/get-started.md#video-navigate-the-web-app)
+* [Navigate Workplace Analytics](../overview/get-started.md#video-navigate-the-web-app)
 
 ## Setup
 
@@ -26,7 +26,7 @@ The Microsoft Viva Insights documentation has a number of videos that help expla
 * [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
 * [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)
 
-### Analysis settings
+### Analyst settings
 
 * [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md#video-learn-about-meeting-exclusion-rules)
 

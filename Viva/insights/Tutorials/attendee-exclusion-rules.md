@@ -1,7 +1,7 @@
 ---
 
 title: Attendee exclusion rules in Viva Insights 
-description: Introduction to attendee exclusion rules in Microsoft Viva Insights
+description: Introduction to attendee exclusion rules in Microsoft Viva Insights in Workplace Analytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -13,15 +13,15 @@ audience: Admin
 
 # Attendee exclusions
 
-As a Microsoft Viva Insights analyst, you can set attendee exclusion rules that exclude from analysis data about meeting invitees, which are based on responses that the invitees made to meeting invitations.
+As an analyst of Microsoft Viva Insights in Workplace Analytics, you can set attendee exclusion rules that exclude from analysis data about meeting invitees, which are based on responses that the invitees made to meeting invitations.
 
 This enables you to measure work-related calendar collaboration in analysis, such as in [Query designer](query-basics.md). These measurements are most accurate when they include data that reflects genuine collaboration.
 
 For example, the data should not include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. Viva Insights lets you exclude these kinds of events so that they don't skew your data.
 
-**Owners** – Viva Insights Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to Viva Insights admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Workplace Analytics analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
 
-![Attendee exclusions in Viva Insights.](../images/wpa/tutorials/attendee-exclusions.png)
+![Attendee exclusions in Workplace Analytics.](../images/wpa/tutorials/attendee-exclusions.png)
 
 ## Responses to meeting invitations
 
@@ -44,37 +44,28 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 **Owners** - Analysts and limited Analysts
 
 1. Open [Workplace  Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
-
-2. Select **Settings** > **Analysis settings** to open the **Exclusions** page.
-
-3. Select **Attendee exclusion**.
-
-4. Select **Add exclusion**.
-
-5. On the **Analysis settings** > **Exclusions** > **New exclusion** page, for **Exclusion type**, select **Attendee exclusion**:
+2. Select **Analyst settings** > **Attendee exclusion**.
+3. Select **Add exclusion**.
+4. In **New exclusion**, for **Exclusion type**, select **Attendee exclusion**:
 
    ![Meeting response options.](../images/wpa/tutorials/select-attendee-exclusion.png)
 
-6. Type a name for your exclusion, and, optionally, a description, and then select **Next**.
-
-7. Choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:
+5. Enter a name for your exclusion, and, optionally, a description, and then select **Next**.
+6. Choose the types of invitees whose data you want to exclude from analysis: those who did not respond to meeting invitations, those who responded as **Tentative** to meeting invitations, or both types of invitees:
 
    ![Exclude these invitees.](../images/wpa/tutorials/exclude-invitees-who-have-70.png)
 
    The **Potential impact of exclusion** area shows the percentage and total number of potential attendees at meetings whose data will be excluded from analysis if you publish and use this exclusion rule.
 
-8. Optionally, select **Apply this exclusion for metrics in Explore the stats**. Selecting this option does not automatically affect any existing queries. It makes this exclusion appear as the default for new queries, and it affects only the data shown in [Explore the stats](../use/explore-intro.md).
-
-9. Select **Publish**. Your new exclusion rule will now be available to analysts who create and run queries.
+7. Optionally, select **Apply this exclusion for metrics in Explore the stats**. Selecting this option does not automatically affect any existing queries. It makes this exclusion appear as the default for new queries, and it affects only the data shown in [Explore the stats](../use/explore-intro.md).
+8. Select **Publish**. Your new exclusion rule will now be available to analysts who create and run queries.
 
 ## Select an attendee exclusion for a query
 
 **Owners** - Analysts and limited Analysts
 
 1. In [Workplace  Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-
 2. Create a query; for example, a **Meeting** query.
-
 3. Select the **Exclusions** box:
 
    ![Exclusions box.](../images/wpa/tutorials/meeting-exclusions.png)
@@ -85,8 +76,8 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 4. Make a selection for **Attendee exclusions**:
 
-   * Select the name of an attendee exclusion to use that exclusion in this query. In the preceding illustration, an attendee exclusion called "Not-responded" is currently selected. 
-   * Select **Clear value** to remove all attendee exclusions from this query. 
+   * Select the name of an attendee exclusion to use that exclusion in this query. In the preceding illustration, an attendee exclusion called "Not-responded" is currently selected.
+   * Select **Clear value** to remove all attendee exclusions from this query.
 
 ## Related topics
 

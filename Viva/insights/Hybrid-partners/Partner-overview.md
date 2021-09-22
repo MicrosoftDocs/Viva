@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights partner solution overview
-description: An overview of how Viva Insights works with partners to access and analyze on-premises Exchange mailbox data
+description: An overview of how Microsoft Viva Insights works with partners to access and analyze on-premises Exchange mailbox data
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -25,8 +25,8 @@ Your organization must comply with the system requirements and complete the setu
 
 ## Viva Insights partner solutions
 
-* **Archive360 FastCollect** is an Azure-based solution that connects your on-premises data to Microsoft 365 and Azure. This solution supports large data sets of structured, semi-structured, and unstructured data and is very extensible as a modular architecture solution. This solution requires an on-premises connector (deployed by the customer) with the data hosted on-premises and uses MAPI for cloud access. For a managed solution, Archive360 needs access to the connector. To learn more about this solution, see [Archive360 FastCollect](https://www.archive360.com/products/fastcollect-for-archives/).
+* **Archive360 FastCollect** is an Azure-based solution that connects your on-premises data to Microsoft 365 and Azure. This solution supports large datasets of structured, semi-structured, and unstructured data and is very extensible as a modular architecture solution. This solution requires an on-premises connector (deployed by the customer) with the data hosted on-premises and uses MAPI for cloud access. For a managed solution, Archive360 needs access to the connector. To learn more about this solution, see [Archive360 FastCollect](https://www.archive360.com/products/fastcollect-for-archives/).
 
 * **Quest On Demand Migration for Email** offers a cloud-based service that synchronizes on-premises Exchange mailbox data with Microsoft 365 as staged mailboxes for Viva Insights to access and analyze. The data is hosted on Quest’s Azure tenant. This solution uses SaaS and an on-premises application with Exchange Web Services. To learn more about this solution, see [Quest](https://www.quest.com/products/on-demand-migration-for-email/).
 
-* **TransVault WPA-SYNC** replicates on-premises Exchange mailbox data into Microsoft 365 for access by Viva Insights.  Implemented as a managed service, it can be deployed on-premises or in Azure and features encrypted end-to-end transfers, auditing and chain-of-custody for optimal security and compliance.  WPA-SYNC also has a range of options for controlling operations and ensuring scalability in large/complex environments.  It uses SaaS with Exchange Web Services and requires access to the customer's domain. To learn more about this solution, see [TransVault](https://www.transvault.com/solutions/microsoft-workplace-analytics-for-hybrid/).
+* **TransVault WPA-SYNC** replicates on-premises Exchange mailbox data into Microsoft 365 for access by Viva Insights. Implemented as a managed service, it can be deployed on-premises or in Azure and features encrypted end-to-end transfers, auditing and chain-of-custody for optimal security and compliance. WPA-SYNC also has a range of options for controlling operations and ensuring scalability in large/complex environments. It uses SaaS with Exchange Web Services and requires access to the customer's domain. To learn more about this solution, see [TransVault](https://www.transvault.com/solutions/microsoft-workplace-analytics-for-hybrid/).

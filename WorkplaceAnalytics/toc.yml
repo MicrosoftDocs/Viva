@@ -77,7 +77,7 @@
                   href: ~/Use/privacy-settings.md
                 - name: Manager settings
                   href: ~/Use/manager-settings.md
-            - name: Analysis settings
+            - name: Analyst settings
               items:
                 - name: Introduction
                   href: ~/tutorials/exclusions-introduction.md
