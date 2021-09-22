@@ -43,14 +43,14 @@ It's frequently necessary to implement changes within organizations, whether thi
 
 Instead, a more successful strategy uses change agents, who are influential, well-connected people in different levels of your company, not just at the top. Beyond an organization's formal hierarchy, informal networks of people can exert influence within those networks and between them. The most influential people have large personal networks with above-average numbers of relationships with their colleagues. This query lets you visualize these relationships through various metrics that reflect influence directly (with *influence* and *influence rank*) and indirectly (with various measures of ties to people outside your team.)
 
-In other words, to help implement change, it pays to know which people have the most ties and the most influence. The Viva Insights Organizational network analysis (ONA) queries were designed for this purpose. They can help you find the best-connected people in the company based on their collaboration characteristics.
+In other words, to help implement change, it pays to know which people have the most ties and the most influence. The Workplace Analytics Organizational network analysis (ONA) queries were designed for this purpose. They can help you find the best-connected people in the company based on their collaboration characteristics.
 
 After you learn who the best connected people are in the company, division, or other group, you can act on the likelihood that these people can effectively connect within or across groups and become
 efficient drivers of change.
 
-See also the following [How Viva Insights calculates influence](#how-workplace-analytics-calculates-influence).
+See also the following [How Workplace Analytics calculates influence](#how-workplace-analytics-calculates-influence).
 
-### How Viva Insights calculates influence
+### How Workplace Analytics calculates influence
 
 The terminology in the following description comes from graph theory. In graph theory, a "node" (also called a "vertex") is an object that can relate to other nodes &ndash; other objects &ndash; in the graph. This model becomes useful when we extend it to the workplace, where a "node" represents a person who has connections to coworkers and others.
 
@@ -72,7 +72,7 @@ You can use the Network queries to qualify a network connection between two peop
 If two people have many network connections in common, they are considered to have a *strong tie*. Strong ties typically indicate shared membership in a workgroup or team. *Diverse ties* reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection.
 
 >[!Note]
->When Viva Insights evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees).
+>When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees).
 
 ### Distance is a factor
 
