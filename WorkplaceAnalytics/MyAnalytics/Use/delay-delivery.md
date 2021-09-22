@@ -12,7 +12,7 @@ audience: Admin
 
 # Delay delivery plan
 
-_**Applies to:** The Delay delivery plan is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). This feature is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md#availability-of-features)._
+_**Applies to:** The Delay delivery plan is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan)._
 
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 

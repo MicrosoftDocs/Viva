@@ -91,6 +91,7 @@ The following steps are for Excel 2016. For other versions of Excel, open **Help
 
    >[!Note]
    >The auto-refresh option for queries determines whether the data in the OData feed is static or dynamic:
+   >
    >* If the URL is tied to a query that is set to auto refresh, the data in the Odata feed updates on a regular schedule. For more information, see [Auto-refresh option for queries](../tutorials/query-auto-refresh.md).
    >* If the URL is tied to a query that is not set to auto refresh, the data in the OData feed is not automatically updated. This means that if you want new or different data, you must run a new query and get a new corresponding URL.
 
@@ -179,6 +180,6 @@ After you have finished creating visuals, you can publish your reports to Power 
 
 * [Connect to OData feeds in Power BI Desktop](/power-bi/desktop-connect-odata)
 * [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md)
-* [User roles in Workplace Analytics](../use/user-roles.md)
+* [User roles](../use/user-roles.md)
 * [Auto-refresh option for queries](../tutorials/query-auto-refresh.md)
 * [Supported languages and guidelines](../overview/supported-languages.md)

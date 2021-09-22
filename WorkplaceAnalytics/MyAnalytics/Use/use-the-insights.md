@@ -67,7 +67,7 @@ Each meeting card title includes the meeting title, the organizer, the start tim
 
 ## Track email and document open rates
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+_**Applies to:** This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
 
 Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
 
