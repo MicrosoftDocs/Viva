@@ -14,9 +14,6 @@ recommendations: false
 ---
 # Follow up on tasks
 
->[!Note]
-> Between September 2021 and November 2021, the personal insights that are provided in your daily briefing email will begin to reflect the Microsoft Viva brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
-
 In the **Commitments and follow-ups** section of your Briefing, you'll see the following types of tasks:
 
 * **Commitment** &ndash; Something that you promised or committed to do for someone else in an email.
@@ -38,7 +35,7 @@ In the following example, you’d select **Done** to confirm you’ve already do
 
 ![Briefing email about commitments](./images/be-task-to-do2.png)
 
-Or, if you use the To Do feature, you could select **Edit task in To Do**.
+Or, if you use the To Do feature, you could select **Add to To Do**.
 
 ![Briefing email about commitments and To Do task](./images/commit-to-do.png)
 

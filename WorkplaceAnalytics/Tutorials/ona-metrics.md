@@ -5,7 +5,7 @@ description: Describes the metrics that are used in network queries
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-ms.localizationpriority: medium 
+localization_priority: normal 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa

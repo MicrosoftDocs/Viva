@@ -2,21 +2,21 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Insights glossary
-description: Describes common terms and concepts used in Microsoft Viva Insights
+description: Describes common terms and concepts used in Microsoft 365 Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-ms.localizationpriority: null 
+localization_priority: none 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
 
 ---
-# Glossary for Microsoft Viva Insights
+# Glossary for Microsoft 365 Insights
 
 *This experience is only available through private preview at this time.*
 
-The following are terms and concepts used in Microsoft Viva Insights (synonymous with Workplace Analytics insights in Microsoft 365). This glossary excludes [outcome definitions](myorg.md#view-the-page).
+The following are terms and concepts used in Microsoft 365 Insights (synonymous with Workplace Analytics insights in Microsoft 365). This glossary excludes [business outcome definitions](intro.md#business-outcomes).
 
 |Term|Definition|
 |----|----------|
