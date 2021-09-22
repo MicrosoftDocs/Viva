@@ -72,4 +72,4 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 ## Related topics
 
 * [Configure Briefing email](be-admin.md)
-* [Briefing email from Microsoft Viva FAQ](be-faqs.md)
+* [Briefing email from Microsoft Viva FAQ](be-faqs.yml)

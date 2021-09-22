@@ -10,7 +10,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Introducing Viva Insights
+# Introducing Microsoft Viva Insights
 
 [![Viva announcement](./images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 

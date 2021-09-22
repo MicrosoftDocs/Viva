@@ -16,7 +16,7 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-The following are terms and concepts used in Microsoft 365 Insights (synonymous with Workplace Analytics insights in Microsoft 365). This glossary excludes [business outcome definitions](intro.md#business-outcomes).
+The following are terms and concepts used in Microsoft 365 Insights (synonymous with Workplace Analytics insights in Microsoft 365). This glossary excludes [business outcome definitions](intro.md).
 
 |Term|Definition|
 |----|----------|

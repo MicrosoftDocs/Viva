@@ -1,7 +1,7 @@
 ---
 
-title: Prepare organizational data for Viva Insights
-description: How to prepare data from your organization to upload and use in Microsoft Viva Insights 
+title: Prepare organizational data for Workplace Analytics
+description: How to prepare data from your organization to upload to Workplace Analytics and use in Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -16,27 +16,27 @@ audience: Admin
 
 # Prepare organizational data
 
-This describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it in Microsoft Viva Insights.
+This describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it in Workplace Analytics.
 
 To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how:
 
 * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) - Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) - A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.  
 * [Get an export of organizational data](#get-an-export-of-organizational-data) - Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.  
-* [Structure the organizational data](#structure-the-organizational-data) - For your data to validate successfully, you must first structure it correctly in the.csv file that you upload.
-* [Upload the data to Viva Insights](#upload-the-data-to-workplace-analytics) - After your .csv file is ready, you upload it to Viva Insights where, after validation and processing, it becomes available for analysis.
+* [Structure the organizational data](#structure-the-organizational-data) - For your data to validate successfully, you must first structure it correctly in the .csv file that you upload.
+* [Upload the data to Workplace Analytics](#upload-the-data-to-workplace-analytics) - After your .csv file is ready, you upload it to Workplace Analytics where, after validation and processing, it becomes available for analysis.
 
 ## Use organizational data for more effective analysis
 
-Organizational data is descriptive information about employees. After an admin uploads organizational data, Viva Insights combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
+Organizational data is descriptive information about employees. After an admin uploads organizational data, Workplace Analytics combines it with Microsoft 365 data to provide detailed, actionable insights into the company's communication and collaboration trends. An analyst can uncover these trends and use them to make more effective business decisions.
 
-Here are examples of what analysts can do in Viva Insights after organizational data has been uploaded:
+Here are examples of what analysts can do in Workplace Analytics after organizational data has been uploaded:
 
 * Know how people communicate across job functions, department groups, and management hierarchies by enabling the grouping and filtering of descriptive attributes.
 * Customize metrics to quantify group relationships, such as collaboration time between the marketing and sales groups.
 * Make metrics calculations, such as insularity and redundancy.
 
-Viva Insights automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; It’s the organizational data that you upload that provides analysis context. The following video illustrates these concepts:
+Workplace Analytics automatically collects collaboration data from Microsoft 365. Analyzing just this data would create an incomplete picture; It’s the organizational data that you upload that provides analysis context. The following video illustrates these concepts:
 
 ### Video: Organizational data provides context
 
@@ -85,9 +85,9 @@ Finally, you might want to consider tying collaboration behavior patterns to emp
 
 ## Know what data to include
 
-To get full functionality from Viva Insights, you must supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
+To get full functionality from Workplace Analytics, you must supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
-Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to Viva Insights at the individual level, which means that these attributes provide context to each person in the dataset.
+Examples of organizational data include: job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, and manager. This data is supplied to Workplace Analytics at the individual level, which means that these attributes provide context to each person in the dataset.
 
 The following video describes which attributes are required and optional in your data upload:
 
@@ -97,12 +97,12 @@ The following video describes which attributes are required and optional in your
 
 ### Which employees to include
 
-At a minimum, include the organizational data for all employees who have Viva Insights licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
+At a minimum, include the organizational data for all employees who have Workplace Analytics licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
 
 >[!Important]
 >If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
 
-For example, if the people in Marketing communicate frequently with the people in Product Development, but Viva Insights has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
+For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
 If you can't include every person in your organization, the minimum to include is all people for whom collaboration data is being gathered. This minimum enables you to analyze collaboration patterns between groups within this population, but not between groups outside this population.
 
@@ -114,7 +114,7 @@ The reason for including all licensed employees in the organization is that, if 
 
 ### Notification of missing data
 
-If Viva Insights detects that data is missing for one or more licensed employees, it alerts admins in two ways:
+If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
 * <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
 
@@ -174,11 +174,11 @@ In addition, your analysts might need data about business outcomes. If so, you'l
 * Sales or other quota-attainment data that provide additional views into performance
 * Employee survey data
 
-After you get this data, you must structure it for successful processing after uploading it to Viva Insights.
+After you get this data, you must structure it for successful processing after uploading it to Workplace Analytics.
 
 ## Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format to upload to Viva Insights. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
 
 The file name must contain only alphanumeric characters (letters and numbers), with no spaces or special characters. For example, _FileName2.csv_.
 
@@ -241,11 +241,11 @@ Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Pacific Standard Time,6,Sa
 
 For more information about attributes, see the [Attribute reference](#attribute-reference) section.
 
-## Upload the data to Viva Insights
+## Upload the data to Workplace Analytics
 
-After you create a source .csv file, you can upload it to the Viva Insights service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
+After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
-After your data has been successfully uploaded, Viva Insights performs additional validation and processing to complete provisioning. If any problems occur, the Viva Insights team will contact your Viva Insights admin.
+After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Workplace Analytics admin.
 
 ### How often to upload organizational data
 
@@ -253,7 +253,7 @@ It is recommended that you upload HR data at least once a month to keep data fre
 
 #### Supplying data over a time period
 
-By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file).
+By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file).
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
@@ -263,7 +263,7 @@ The employee’s collaboration activity will be mapped to the most recent organi
 
 ## Attribute reference
 
-This section contains information about the attributes that you use in the organizational data files uploaded to Viva Insights.
+This section contains information about the attributes that you use in the organizational data files uploaded to Workplace Analytics.
 
 [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements)
 
@@ -280,10 +280,10 @@ EffectiveDate |Date for which the given attribute value applies for the employee
 |<a name="organization-define"></a> Organization| The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or by another naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 |<a name="functiontype-define"></a> FunctionType | The job function that the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore the stats. | This attribute column is not required. If it is included, then each row must contain a function value.|
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), it is best to use the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
-|HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Viva Insights.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Viva Insights uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/admin-settings.md). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Microsoft 365 collaboration data. For more information, see [System defaults](../use/system-defaults.md).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
+|HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/admin-settings.md). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Microsoft 365 collaboration data. For more information, see [System defaults](../use/system-defaults.md).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 |Layer | The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../use/explore-intro.md) features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 |SupervisorIndicator  | Use this attribute to view the habits of people managers or influencers in your organization in Power BI visualizations. It powers the Overview table, the Generated Workload charts that are generated when you use a [Template](../tutorials/power-bi-templates.md) that requires it. <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required for some of the Templates, such as [Ways of working assessment](../tutorials/power-bi-collab-assess.md).|
-|TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Viva Insights](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If it is not included, the default time zone will be used.|
+|TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If it is not included, the default time zone will be used.|
 |Any user-defined columns | Additional columns can represent any data that you want to use in a query to group and filter employee records. | No coverage requirements. |
 
 ### Attribute notes and recommendations
@@ -294,7 +294,7 @@ When choosing attributes to include, some attribute values might be populated fo
 
 #### Use only allowed time zones
 
-The default time zone for Viva Insights is Pacific Standard Time (PST). See [Time zones for Viva Insights](../Use/Timezones-for-workplace-analytics.md) for a complete list of the times zones that you can use.
+The default time zone for Workplace Analytics is Pacific Standard Time (PST). See [Time zones for Workplace Analytics](../Use/Timezones-for-workplace-analytics.md) for a complete list of the times zones that you can use.
 
 #### Too many unique values
 
