@@ -64,9 +64,7 @@ You will use the answer to this question in the following procedure:
 
 Yes, if you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access to MyAnalytics.
 
-To opt in, repeat the steps in [To opt out of MyAnalytics](#to-opt-out-of-myanalytics), but in **Step 4**, change the setting for **MyAnalytics** to **On**:
-  
-![Slider off position.](../../Images/mya/use/opt-in-slider-on.png)
+To opt in, repeat the steps in [To opt out](#to-opt-out-of-the-dashboard), but in **Step 4**, change the setting for MyAnalytics dashboard to **On**.
 
 ## Related topics
 

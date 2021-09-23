@@ -50,7 +50,7 @@ Open the Viva Insights Outlook add-in in one of the programs listed under [Open 
    >[!Note]
    >This works only with emails to which [information rights management](/exchange/policy-and-compliance/information-rights-management#apply-irm-protection-to-messages) have not been applied.  
 
-## Open the Viva Insights add-in
+## Open the add-in
 
 You can use the Viva Insights Outlook add-in in the following environments:
 

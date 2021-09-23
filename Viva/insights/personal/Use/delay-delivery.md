@@ -12,9 +12,9 @@ audience: Admin
 
 # Delay delivery plan
 
-_**Applies to:** The Delay delivery plan is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan)._
+_**Applies to:** The Delay delivery plan is currently available only to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [Viva Insights (Full) service plan](../overview/plans-environments.md#features-in-the-viva-insights-full-service-plan)._
 
-When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
+When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
@@ -45,14 +45,14 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 
    ![Delay delivery options](../../Images/mya/use/delay-inline.png)
 
-## Opt in with MyAnalytics
+## Opt in with the dashboard
 
-When you opt in to the Delay delivery plan, MyAnalytics aligns email delivery with your coworker's working hours. You can opt in as follows:
+When you opt in to the Delay delivery plan, Viva Insights aligns email delivery with your coworker's working hours. You can opt in as follows:
 
-1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
+1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. In **Config Settings**, change the setting for **Delay delivery** to **On**.
 
-  ![Turn on Delay delivery in MyAnalytics](../../Images/mya/use/delay-on-mya.png)
+  ![Turn on Delay delivery in the dashboard](../../Images/mya/use/delay-on-mya.png)
 
 ## Opt in with Insights
 
@@ -65,7 +65,7 @@ You can also use the Outlook Insights add-in to opt in to the Delay delivery pla
 
 ## To opt out
 
-You can opt in and opt out of Delay delivery as many times as you want. To turn it off:
+You can opt in or opt out of Delay delivery as many times as you want. To turn it off:
 
-* In the [MyAnalytics dashboard](https://myanalytics.microsoft.com), select **Config Settings**, and then change the setting for **Delay delivery** to **Off**.
+* In the [dashboard](https://myanalytics.microsoft.com), select **Config Settings**, and then change the setting for **Delay delivery** to **Off**.
 * Or in the Insights Outlook add-in, open **Settings** (gear icon), and then change the setting for **Delay delivery** to **Off** .

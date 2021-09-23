@@ -12,7 +12,6 @@ audience: Admin
 ---
 
 # Plan
-
 ## Roles and responsibilities
 
 The ideal program team is comprised of the following members:
@@ -22,8 +21,8 @@ The ideal program team is comprised of the following members:
 * [Change agents](Team-adopt-plan.md#change-agents)
 * [Program participants](Team-adopt-plan.md#program-participants)
 
-> [!Note]
-> If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build healthier collaboration habits.
+>[!Note]
+>If you are a manager of a small team interested in running this program, focus on the program manager and program participants roles. However, it’s a good idea to inform your manager or an executive sponsor of your admirable effort to help your team build healthier collaboration habits.
 
 ### Executive sponsor
 
@@ -178,7 +177,7 @@ Set your program on the right course with a strong launch email:
 * Personalize the message to draw attention.
 * Frame the program as an opportunity for learning and experimentation.
 * Provide employees with program contact information and easy feedback channel.
-* Include the [MyAnalytics Privacy Information](../../Overview/Privacy-Guide.md).
+* Include the [Privacy guide](../../overview/privacy-guide-users.md).
 
 This email can include:
 
@@ -197,7 +196,7 @@ This email can include:
 * Links to more information on MyAnalytics and privacy
   * [MyAnalytics Overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
   * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
-  * [Privacy Information](../../Overview/Privacy-Guide.md)
+  * [Privacy Information](../../overview/privacy-guide-users.md)
   * [Resources for individual adoption](Indiv-adopt-get-started.md)
   * Descriptions of [MyAnalytics elements](../mya-elements.md)
 

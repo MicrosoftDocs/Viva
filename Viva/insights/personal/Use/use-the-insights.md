@@ -1,6 +1,6 @@
 ---
-title: Use Insights
-description: Learn how to use the options in the Insights Outlook add-in.
+title: Use Microsoft Viva Insights in Outlook
+description: Learn how to use the options in the Viva Insights Outlook add-in
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -9,23 +9,9 @@ ms.prod: Mya
 manager: scott.ruble
 audience: Admin
 ---
-# Use Insights
+# Use Viva Insights in Outlook
 
-The information in this section helps you get the most out of the following insights:
-
-* [Prepare for your meetings](#prepare-for-your-meetings)
-* [Track email and document open rates](#track-email-and-document-open-rates)
-* [View outstanding tasks](#view-outstanding-tasks)
-* [Follow up on your requests](#follow-up-on-your-requests)
-* [Book time to focus](#book-time-to-focus)
-* [Catch up on email](#catch-up-on-email)
-* [Catch up on documents](#catch-up-on-documents)
-* [Add important people](#add-important-people)
-* [Set lunch hours](#set-lunch-hours)
-* [Plan your time away](#plan-your-time-away)
-* [Catch up with your team](#catch-up-with-your-team)
-* [Meeting suggestions](#meeting-suggestions)
-* [Check quiet hours impact](#check-quiet-hours-impact)
+The following insight options help you get your work done fast.
 ## Prepare for your meetings
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
@@ -42,7 +28,7 @@ Meetings are vital for healthy collaboration. Better meeting practices can impro
 
    * As the meeting organizer, you will see an insight similar to this:
 
-     ![Prep for meetings as the organizer.](../../images/mya/use/you-organized-616.png)
+     ![Prep for meetings as the organizer](../../images/mya/use/you-organized-616.png)
 
    * As a meeting invitee, you will see an insight similar to this:
 
@@ -67,9 +53,9 @@ Each meeting card title includes the meeting title, the organizer, the start tim
 
 ## Track email and document open rates
 
-_**Applies to:** This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
+_**Applies to**: This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md)._
 
-Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. (For more information about which email messages are reported about, see [Reporting details](#reporting-details).)
+Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. For more information about which email messages are reported about, see [Reporting details](#reporting-details).
 
 Insights also tells you how many email recipients opened a document that you shared in the email as a link or as an attachment (this insight works for documents that are stored in SharePoint or in OneDrive for Business).
 
@@ -112,7 +98,7 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
    | 11 - 20 | Minimum: 10% <br>Maximum: 90% |
    | &gt; 21 | Minimum: 5%  <br>Maximum: 95% |
 
- For more information, see [Email read rates and document open rates](../overview/privacy-guide.md#email-read-rates-and-document-open-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
+ For more information, see [Email read rates and document open rates](../overview/privacy-guide-users.md#email-read-rates). To see who opened an email, use [Outlook's request read receipts](https://support.office.com/article/add-and-request-read-receipts-and-delivery-notifications-a34bf70a-4c2c-4461-b2a1-12e4a7a92141).
 
 **To see read information about sent emails**
 
@@ -480,7 +466,7 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
 #### To catch up with your team
 
-1. On Outlook or in Outlook on the web, [open the Insights add-in](add-in.md#open-the-insights-add-in).
+1. On Outlook or in Outlook on the web, [open the add-in](add-in.md#open-the-add-in).
 
 2. Select **Catch up with your team**:
 

@@ -87,9 +87,9 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to:** This suggestion is available to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). It is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md#availability-of-features)._
+_**Applies to:** This suggestion is available to people who are using MyAnalytics and enrolled in a [(Full) service plan](../overview/plans-environments.md#features-in-the-viva-insights-full-service-plan). It is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md)._
 
-When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365/Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
+When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
@@ -146,7 +146,7 @@ When composing an email or calendar invitation in Outlook about your upcoming ti
 
 ![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
 
-_**Applies to:** This suggestion is available to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) or Insights by MyAnalytics service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan)._
+_**Applies to**: This suggestion is available to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) or Insights by MyAnalytics service plan](../overview/plans-environments.md)._
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 
@@ -168,13 +168,13 @@ Select **See other available times** to open the Insights add-in pane and displa
 
 ![Focus time send email](../../Images/mya/use/focus-time-send-email-2-50.png)
 
-Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work. 
+Select **Move your focus block** to open the Insights add-in and display all the available focus-time blocks in the coming week. By selecting a time block you can move the focus block that is "in conflict" to a new time, ensuring you have some time for deep work.
 
 ![Move focus block](../../Images/mya/use/move-focus-block-50.png)
 
 ## Shorten a meeting
 
-_**Applies to:** This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
+_**Applies to**: This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md)._
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
@@ -186,7 +186,7 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 ## Track email open rate
 
-_**Applies to:** This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
+_**Applies to**: This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md)._
 
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
@@ -198,7 +198,7 @@ Select **See more insights** to see how many people have opened or forwarded you
 
 ## Track email
 
-_**Applies to:** This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md#features-in-the-myanalytics-full-service-plan). (For more information, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is))_
+_**Applies to**: This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md)._
 
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 
