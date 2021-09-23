@@ -52,7 +52,7 @@ The following base metrics are imported from Workplace Analytics into Power BI t
 |InternalOnly |Not applicable |Number of hours the person spent in meetings and on email with internal employees only (as defined by the participant’s email domains). |Hour |
 |IsActive |IsActive |True if the employee sent at least one email or one instant message during the specified time period. |Logic |
 |LargeNotLongMeetingCount |Not applicable |Number of meetings that the person attended with greater than or equal to nine attendees and the duration is less than or equal to one hour. |Count |
-|LevelDesignation |Required HR attribute  |The employee’s level is specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. |String |
+|LevelDesignation |Required optional HR attribute  |The employee’s level is specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. |String |
 |LongAndLargeMeetingCount |Not applicable |Number of meetings that the person attended with greater than or equal to nine attendees and a duration of greater than one hour. |Count |
 |LongNotLargeMeetingCount |Not applicable |Number of meetings that the person attended with less than nine attendees and a duration of greater than one hour. |Count |
 |LongOrLargeMeetingHours |Not applicable |Number of hours the person spent in meetings with more than nine attendees and a duration of greater than one hour.  |Hour |

@@ -135,8 +135,8 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
    ![Missing org data names.](../images/wpa/setup/sample-csv-file.png)
 
 2. Open the .csv file.
-3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
-4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
+3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. See [Know what data to include](#know-what-data-to-include).
+4. Upload the file. See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
 ## Also include unlicensed employees
 
@@ -190,20 +190,19 @@ The following video describes how to structure your organizational data file, in
 
 ### Required attributes
 
-The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but the other text attributes are.
+The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but Organization is.
 
-* PersonId
 * EffectiveDate
-* LevelDesignation (case sensitive)
+* PersonId
 * ManagerId
 * Organization (case sensitive)
 
 >[!Note]
->The names of these required attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).  
+>The names of these required attributes are reserved and cannot be used as the names of any new [custom attributes](#custom-attributes).
 
 ### Reserved optional attributes
 
-These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
+These are reserved column headers for attributes that are currently used to calculate, filter, and group data. As indicated, FunctionType, LevelDesignation, and SupervisorIndicator are case sensitive. LevelDesignation is used to calculate Redundant and Low quality meeting hours metrics, which won’t be available if LevelDesignation is not uploaded.
 
 |  Attribute  |Case sensitive? |  If used, does a validation<p>threshold apply? | Can be used as the name of a<p>[custom attribute](#custom-attributes)? |  
 | ------------- | ---- | ---- | ---- | ---- |
@@ -211,6 +210,7 @@ These are reserved column headers for attributes that are currently used only to
 | HireDate             | No   | Yes  | No   |
 | HourlyRate           | No   | Yes  | No   |
 | Layer                | No   | Yes  | No   |
+| LevelDesignation     | Yes  | Yes  | No   |
 | SupervisorIndicator  | Yes  | Yes  | No   |
 | TimeZone             | No   | Yes  | No   |
 | GroupId              | No   | No   | No   |
@@ -275,7 +275,7 @@ Attribute (column header) | Description of data / data validity | Data coverage 
 |---------|----------|---------|
 |<a name="personid-define"></a> PersonId |Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid PersonId. Each upload file can have only ONE record with the same PersonID / EffectiveDate pair. |
 EffectiveDate |Date for which the given attribute value applies for the employee. The attribute applies until another record for the same attribute with a different effective date is specified. | Each row must contain a valid EffectiveDate. Each upload file can have only one record with the same PersonID / EffectiveDate pair. |
-|<a name="leveldesignation-define"></a> LevelDesignation | The employee’s level, which is represented as a string. This level is specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain a LevelDesignation value. |
+|<a name="leveldesignation-define"></a> LevelDesignation | The employee’s level, which is represented as a string. This level is specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. |This is a reserved optional attribute that is case sensitive. If it is included, each row must contain a LevelDesignation value. |
 |<a name="managerid-define"></a> ManagerId | Unique identifier for the employee’s manager, which is needed to correctly calculate metrics for time spent with managers and their direct reports.<br>This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid ManagerId. |
 |<a name="organization-define"></a> Organization| The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or by another naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 |<a name="functiontype-define"></a> FunctionType | The job function that the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore the stats. | This attribute column is not required. If it is included, then each row must contain a function value.|

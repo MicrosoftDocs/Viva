@@ -1,7 +1,7 @@
 ---
 
 title: Subsequent organizational data uploads
-description: How to upload data from your organization to Workplace Analytics. Follow these steps if this is not the first time you are uploading data. 
+description: How to upload new data from your organization to Workplace Analytics (only if this is not the first time you are uploading data)
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -222,7 +222,7 @@ This information about the errors helps you decide which path to choose next &md
 
 ### Addition of a new data column
 
-Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, LevelDesignation, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new "EngagementScore" data column, remember to re-upload all five of the minimum required fields along with the new field.
+Let's say that you've already uploaded at least 13 months of snapshot data, which contained the five required columns (PersonId, EffectiveDate, ManagerId, Organization) for all employees. Now, you want to upload one new column of data – for example, an engagement score value for each employee – and you want it to apply to all of the historical data. When you upload to append the new "EngagementScore" data column, remember to upload all of the minimum required fields again along with the new field.
 
 ### Set Validity threshold for custom fields
 
