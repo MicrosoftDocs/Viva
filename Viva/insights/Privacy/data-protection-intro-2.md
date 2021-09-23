@@ -40,7 +40,7 @@ Based on your role, the following information explains how Microsoft protects em
 
 If your organization uses advanced insights and analysis in Viva Insights in Workplace Analytics, the following information provides more details about different aspects of data protection, privacy, and access.
 
-* [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities) &ndash; Read about the concepts of [data controller](data-protection-considerations.md#data-controller), [data processor](data-protection-considerations.md#data-processor), and [data subject](data-protection-considerations.md#data-subject), and their origins in European privacy law.
+* [Roles and responsibilities](data-protection-considerations.md#roles-and-responsibilities) &ndash; Read about the concepts of data controller, data processor, and data subject, and their origins in European privacy law.
 * [Types of data used in analysis](data-protection-considerations.md#types-of-data-used-in-analysis) &ndash; Provides an overview of the different types of data that can be included and used in calculations.  
 * [De-identification of personal data](de-identify-data.md) &ndash; Describes how Viva Insights de-identify personal data by using pseudonymization and other techniques, such as aggregation.
 * [Differential privacy](differential-privacy.md) - Describes what differential privacy is and how is it used in Viva Insights to keep individual data private.
