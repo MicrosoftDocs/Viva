@@ -25,7 +25,7 @@ This Outlook add-in preserves all the data-subject rights afforded by GDPR. The 
 
 Additionally, the add-in begins processing data for insights only after the first time you open it. [Learn more](https://www.microsoft.com/TrustCenter/CloudServices/office365/default.aspx) about how Microsoft protects your privacy.
 
-## Why I do not see the add-in?
+## Why I do not see the add-in
 
 Before you can use the Viva Insights Outlook add-in, be sure that the following prerequisites are in place:
 
