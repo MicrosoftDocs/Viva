@@ -14,13 +14,14 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Analyst settings
+# Settings in Workplace Analytics
 
 Depending on the role you're assigned in Microsoft Viva Insights in Workplace Analytics, you can use the following to configure settings in Workplace Analytics for your organization:
 
 * [Data sources](#data-sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into Workplace Analytics.
 * [Upload](#upload) – Admins use this to prepare and upload organizational and customer data.
-* Admins use these to configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). Analysts use these to customize meeting exclusion rules that help ensure data accuracy.
+* [Admin settings](#admin-settings) - Admins can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). 
+* [Analyst settings](#analyst-settings)Analysts use these to customize meeting exclusion rules that help ensure data accuracy.
 
 >[!Note]
 > Access to one or more pages in Settings depends on what role you're assigned in Workplace Analytics. The following describes page access based on role assignment.
