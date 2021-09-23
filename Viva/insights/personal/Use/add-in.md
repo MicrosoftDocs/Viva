@@ -38,9 +38,9 @@ Before you can use the Viva Insights Outlook add-in, be sure that the following 
   * Internet Explorer version 10 or 11 is installed on your computer.  
 
 >[!Note]
->The Viva Insights Outlook add-in is not available on mobile devices. 
+>The Viva Insights Outlook add-in is not available on mobile devices.
 
-Open the Viva Insights Outlook add-in in one of the programs listed under [Open the Viva Insights add-in](#open-the-viva-insights-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
+Open the Viva Insights Outlook add-in in one of the programs listed under [Open the Viva Insights add-in](#open-the-add-in), namely [Windows Outlook desktop](#windows-outlook-desktop), [Outlook on the web](#outlook-on-the-web), or [Mac Outlook desktop](#mac-outlook-desktop).
 
 * Select an email. In Outlook, you can do this in one of the following ways:
 

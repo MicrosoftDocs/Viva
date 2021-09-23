@@ -129,7 +129,7 @@ Note that if default settings are used, the following applies:
 
 ## Opt in or out
 
-Employees can opt themselves out of Viva Insights. This causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-can-opt-in-or-out).
+Employees can opt themselves out of Viva Insights. This causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-opt-in-or-out).
 
 ### Data processing consequences
 
