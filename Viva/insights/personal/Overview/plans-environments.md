@@ -95,5 +95,5 @@ Viva Insights is available in the same languages as Microsoft 365. See [What lan
 
 ## Outlook support and prerequisites
 
-* For the Outlook add-in, see [Why don't I see the Viva Insights Outlook add-in](../use/add-in.md#why-dont-i-see-the-outlook-insights-add-in).
-* For Inline suggestions, see [Why don't I see any inline suggestions](../use/mya-notifications.md#why-dont-i-see-any-inline-suggestions).
+* [Why I don't see the add-in](../use/add-in.md#why-i-do-not-see-the-add-in)
+* [Why I don't see inline suggestions](../use/mya-notifications.md#why-i-do-not-see-inline-suggestions)
