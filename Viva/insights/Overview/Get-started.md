@@ -47,7 +47,7 @@ Viva Insights in Workplace Analytics provides advanced analysis tools for deep d
 * [**Plans**](../tutorials/solutionsv2-intro.md) provide plans such as the _Teamwork improvement_ plan that enables teams to build better collaboration habits and master their time by using the combined power of Viva Insights in Workplace Analytics. You can use advanced insights to discover what challenges teams are struggling with, such as collaboration overload, and then enroll them in action plans to help address these challenges.
 * [**Settings**](../use/settings.md) in the Workplace Analytics includes the following:
 
-  * [**Data sources**](../use/settings.md#sources) – View information about the Microsoft 365 and organizational data that's been uploaded into the Workplace Analytics.
+  * [**Data sources**](../use/settings.md#data-sources) – View information about the Microsoft 365 and organizational data that's been uploaded into the Workplace Analytics.
   * [**Upload**](../use/settings.md#upload) – Prepare and upload organizational and customer data.
   * [**Analyst settings**](../use/settings.md#analyst-settings) – Customize exclusion rules to help ensure data accuracy.
   * [**Admin settings**](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.

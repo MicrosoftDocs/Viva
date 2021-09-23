@@ -11,7 +11,7 @@ audience: Admin
 
 ---
 
-# Viva Insights introduction for personal insights
+# Viva Insights personal insights
 
 [![Viva announcement.](../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
 
@@ -19,7 +19,7 @@ Microsoft Viva Insights provides personal insights into two of the key factors i
 
 * [**Configuration**](../personal/setup/configure.md) &ndash; As an administrator, you can use this section to configure Viva Insights for users in your organization.
 
-* [**Privacy guide**](../personal/overview/Privacy-Guide.md) &ndash; Learn about the ways Viva Insights gathers, uses, and protects your data, and how administrators can configure Viva Insights based on company policy.
+* [**Privacy guide**](../personal/overview/privacy-guide-users.md) &ndash; Learn about the ways Viva Insights gathers, uses, and protects your data, and how administrators can configure Viva Insights based on company policy.
   
 * **Viva Insights elements** &ndash; As a user, learn about the ways that Viva Insights presents you with insights and how you can use these to make good decisions.
   * [**Dashboard**](../personal/use/dashboard-2.md) &ndash; See how you spent your time over the past month, productivity insights about your work patterns, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.

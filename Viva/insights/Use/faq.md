@@ -22,12 +22,12 @@ The most commonly asked questions and answers about advanced insights with Micro
 * [Privacy and compliance](#privacy-and-compliance)
 * [Language support](#language-support)
 
-[Setup](#workplace-analytics-setup)
+[Set up Workplace Analytics](#workplace-analytics-setup)
 
 * [Setup and configuration](#setup-and-configuration)
 * [Organizational data](#organizational-data)
 
-[Use advanced insights](#use-workplace-analytics)
+[Use Workplace Analytics](#use-workplace-analytics)
 
 * [Meeting exclusions](#meeting-exclusions)
 * [Data validation, verification, and use](#data-validation-verification-and-use)
@@ -80,7 +80,7 @@ A3. Yes. You can use filters in queries that include the following:
 
 For more information, see [Customize a base metric in a query](../tutorials/customize-a-metric.md).
 
-## Viva Insights in Workplace Analytics setup
+## Workplace Analytics setup
 
 ### Setup and configuration
 
@@ -185,7 +185,7 @@ A7  Yes. The data can include double-byte characters, such as Japanese character
 
 -->
 
-## Use Viva Insights in Workplace Analytics
+## Use Workplace Analytics
 
 ### Meeting exclusions
 

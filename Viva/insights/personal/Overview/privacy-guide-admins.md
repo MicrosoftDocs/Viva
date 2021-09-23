@@ -135,7 +135,7 @@ Employees can opt themselves out of Viva Insights. This causes them to lose acce
 
 The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out or an admin opts them out.
 
-### How employees can opt in or out
+### How employees opt in or out
 
 End users can opt in or out of Viva Insights via the **Feature settings** menu in Microsoft 365, as shown in this example:
 
@@ -184,7 +184,7 @@ As is the case with the full Microsoft 365 suite, Viva Insights helps support co
       * Use PowerShell to opt employees out of Viva Insights.
 
          >[!Note]
-         >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees can opt-in and opt-out](#how-employees-can-opt-in-and-opt-out)).
+         >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees opt in or out](#how-employees-opt-in-or-out)).
 
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
