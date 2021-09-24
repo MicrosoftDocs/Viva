@@ -1,0 +1,1299 @@
+{
+  "redirections": [
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/automate-exports.md",
+      "redirect_url": "/viva/insights/azure-templates/automate-exports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/data-export.md",
+      "redirect_url": "/viva/insights/azure-templates/data-export",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/deploy-configure.md",
+      "redirect_url": "/viva/insights/azure-templates/deploy-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/group-analysis.md",
+      "redirect_url": "/viva/insights/azure-templates/group-analysis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/join-datasets.md",
+      "redirect_url": "/viva/insights/azure-templates/join-datasets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/ona-analysis.md",
+      "redirect_url": "/viva/insights/azure-templates/ona-analysis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/ona-insights.md",
+      "redirect_url": "/viva/insights/azure-templates/ona-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/ona-metric-calculations.md",
+      "redirect_url": "/viva/insights/azure-templates/ona-metric-calculations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/organization-network-analysis.md",
+      "redirect_url": "/viva/insights/azure-templates/organization-network-analysis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/overview.md",
+      "redirect_url": "/viva/insights/azure-templates/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/process-explorer.md",
+      "redirect_url": "/viva/insights/azure-templates/process-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/relation-intel.md",
+      "redirect_url": "/viva/insights/azure-templates/relation-intel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/release-notes.md",
+      "redirect_url": "/viva/insights/azure-templates/release-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/space-planning.md",
+      "redirect_url": "/viva/insights/azure-templates/space-planning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/azure-templates/support.md",
+      "redirect_url": "/viva/insights/azure-templates/support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Hybrid-partners/Partner-overview.md",
+      "redirect_url": "/viva/insights/Hybrid-partners/Partner-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Hybrid-partners/Partner-setup.md",
+      "redirect_url": "/viva/insights/Hybrid-partners/Partner-setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/index-orig.md",
+      "redirect_url": "/viva/insights/index-orig",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/best-practices.md",
+      "redirect_url": "/viva/insights/manager-insights/best-practices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/cgcollaboration.md",
+      "redirect_url": "/viva/insights/manager-insights/cgcollaboration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/coaching.md",
+      "redirect_url": "/viva/insights/manager-insights/coaching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/communication.md",
+      "redirect_url": "/viva/insights/manager-insights/communication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/connectedness.md",
+      "redirect_url": "/viva/insights/manager-insights/connectedness",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/faqs.md",
+      "redirect_url": "/viva/insights/manager-insights/faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/focus.md",
+      "redirect_url": "/viva/insights/manager-insights/focus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/get-started.md",
+      "redirect_url": "/viva/insights/manager-insights/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/introduction.md",
+      "redirect_url": "/viva/insights/manager-insights/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/meetings.md",
+      "redirect_url": "/viva/insights/manager-insights/meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/overload.md",
+      "redirect_url": "/viva/insights/manager-insights/overload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/plans.md",
+      "redirect_url": "/viva/insights/manager-insights/plans",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/rollout.md",
+      "redirect_url": "/viva/insights/manager-insights/rollout",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/teams-app.md",
+      "redirect_url": "/viva/insights/manager-insights/teams-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/manager-insights/wellbeing.md",
+      "redirect_url": "/viva/insights/manager-insights/wellbeing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Overview/FastTrack-data-science-service-description.md",
+      "redirect_url": "/viva/insights/Overview/FastTrack-data-science-service-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Overview/Get-started.md",
+      "redirect_url": "/viva/insights/Overview/Get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Overview/Getting-Support.md",
+      "redirect_url": "/viva/insights/Overview/Getting-Support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Overview/Supported-languages.md",
+      "redirect_url": "/viva/insights/Overview/Supported-languages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Overview/videos.md",
+      "redirect_url": "/viva/insights/Overview/videos",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-admin.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-admin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-admin-trial.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-admin-trial",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-focus.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-focus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-manager.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-meetings.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-overview.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-pilot.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-pilot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-privacy.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-privacy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-resources.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-resources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-settings.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-tasks.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/be-time.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/MyA-landing-page.md",
+      "redirect_url": "/viva/insights/personal/MyA-landing-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/Better-work-habits.md",
+      "redirect_url": "/viva/insights/personal/Overview/Better-work-habits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/MyA-faq.md",
+      "redirect_url": "/viva/insights/personal/Overview/MyA-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/mya-for-admins.md",
+      "redirect_url": "/viva/insights/personal/Overview/mya-for-admins",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/mya-languages.md",
+      "redirect_url": "/viva/insights/personal/Overview/mya-languages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/mya-service-description.md",
+      "redirect_url": "/viva/insights/personal/Overview/mya-service-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/plans-environments.md",
+      "redirect_url": "/viva/insights/personal/Overview/plans-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/privacy-guide-admins.md",
+      "redirect_url": "/viva/insights/personal/Overview/privacy-guide-admins",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/privacy-guide-users.md",
+      "redirect_url": "/viva/insights/personal/Overview/privacy-guide-users",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Overview/productivity-insights.md",
+      "redirect_url": "/viva/insights/personal/Overview/productivity-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Setup/configure-myanalytics.md",
+      "redirect_url": "/viva/insights/personal/Setup/configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Setup/deployment-guide.md",
+      "redirect_url": "/viva/insights/personal/Setup/deployment-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Setup/mya-disable-insights.md",
+      "redirect_url": "/viva/insights/personal/Setup/mya-disable-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Setup/Verify-Add-in.md",
+      "redirect_url": "/viva/insights/personal/Setup/Verify-Add-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-insights-headspace.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-headspace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-insights-home.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-insights-praise.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-praise",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-insights-protect-time.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-insights-reflect.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-reflect",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-insights-stay-connected.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-stay-connected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-insights-virtual-commute.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-virtual-commute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-teams-app.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-teams-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-teams-app-admin-tasks.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-teams-app-admin-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-teams-app-faq.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-teams-app-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-teams-app-install.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-teams-app-install",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-teams-app-privacy.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-teams-app-privacy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/viva-teams-app-settings.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-teams-app-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/add-in.md",
+      "redirect_url": "/viva/insights/personal/Use/add-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/collaboration.md",
+      "redirect_url": "/viva/insights/personal/Use/collaboration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/dashboard-2.md",
+      "redirect_url": "/viva/insights/personal/Use/dashboard-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/delay-delivery.md",
+      "redirect_url": "/viva/insights/personal/Use/delay-delivery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/email-digest-2.md",
+      "redirect_url": "/viva/insights/personal/Use/email-digest-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/email-digests-3.md",
+      "redirect_url": "/viva/insights/personal/Use/email-digests-3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/executive.md",
+      "redirect_url": "/viva/insights/personal/Use/executive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/focus.md",
+      "redirect_url": "/viva/insights/personal/Use/focus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/focus-plan.md",
+      "redirect_url": "/viva/insights/personal/Use/focus-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/personal/Use/home-web.md",
+      "redirect_url": "/viva/insights/personal/Use/home-web",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/leadership.md",
+      "redirect_url": "/viva/insights/personal/Use/leadership",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/adopt-habit-building.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/adopt-habit-building",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Adopt-Habit-playbooks.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Adopt-Habit-playbooks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Adopt-Learning-Modules.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Adopt-Learning-Modules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Adopt-myanalytics.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Adopt-myanalytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Indiv-adopt-define-your-why.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Indiv-adopt-define-your-why",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Indiv-adopt-develop-habits.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Indiv-adopt-develop-habits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Indiv-adopt-diagnose.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Indiv-adopt-diagnose",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Indiv-adopt-get-started.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Indiv-adopt-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Indiv-adopt-resources.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Indiv-adopt-resources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Indiv-adopt-set-goals.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Indiv-adopt-set-goals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Indiv-adopt-sustain-change.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Indiv-adopt-sustain-change",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Team-adopt-implement.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Team-adopt-implement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Team-adopt-intro.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Team-adopt-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Team-adopt-measure.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Team-adopt-measure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Team-adopt-plan.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Team-adopt-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Adoption/Team-adopt-reinforce.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Adoption/Team-adopt-reinforce",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-elements.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-elements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/mya-notifications.md",
+      "redirect_url": "/viva/insights/personal/Use/mya-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Outlook-add-in/MyA-Add-in-Add-top-collab.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Outlook-add-in/MyA-Add-in-Add-top-collab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Outlook-add-in/MyA-Add-in-To-do.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Outlook-add-in/MyA-Add-in-To-do",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Outlook-add-in/MyA-Add-in-Unread-emails.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Outlook-add-in/MyA-Add-in-Unread-emails",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Outlook-add-in/MyA-Open-Add-in.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Outlook-add-in/MyA-Open-Add-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/MyA-Welcome-email.md",
+      "redirect_url": "/viva/insights/personal/Use/MyA-Welcome-email",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/network.md",
+      "redirect_url": "/viva/insights/personal/Use/network",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/opt-out-of-mya.md",
+      "redirect_url": "/viva/insights/personal/Use/opt-out-of-mya",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/use-the-insights.md",
+      "redirect_url": "/viva/insights/personal/Use/use-the-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/wellbeing.md",
+      "redirect_url": "/viva/insights/personal/Use/wellbeing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/Data-protection-considerations.md",
+      "redirect_url": "/viva/insights/Privacy/Data-protection-considerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/data-protection-intro.md",
+      "redirect_url": "/viva/insights/Privacy/data-protection-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/Data-protection-summary.md",
+      "redirect_url": "/viva/insights/Privacy/Data-protection-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/de-identify-data.md",
+      "redirect_url": "/viva/insights/Privacy/de-identify-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/differential-privacy.md",
+      "redirect_url": "/viva/insights/Privacy/differential-privacy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/DPR.md",
+      "redirect_url": "/viva/insights/Privacy/DPR",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/license-expiration.md",
+      "redirect_url": "/viva/insights/Privacy/license-expiration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/Privacy-And-Data-Access.md",
+      "redirect_url": "/viva/insights/Privacy/Privacy-And-Data-Access",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Privacy/Privacy-considerations.md",
+      "redirect_url": "/viva/insights/Privacy/Privacy-considerations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/activate-licenses.md",
+      "redirect_url": "/viva/insights/Setup/activate-licenses",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Assign-licenses-to-population.md",
+      "redirect_url": "/viva/insights/Setup/Assign-licenses-to-population",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Assign-roles-to-wpa-admins.md",
+      "redirect_url": "/viva/insights/Setup/Assign-roles-to-wpa-admins",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/assign-user-roles.md",
+      "redirect_url": "/viva/insights/Setup/assign-user-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/audit-logs.md",
+      "redirect_url": "/viva/insights/Setup/audit-logs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/crm-data-upload.md",
+      "redirect_url": "/viva/insights/Setup/crm-data-upload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Determine-key-personas.md",
+      "redirect_url": "/viva/insights/Setup/Determine-key-personas",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Environment-Requirements.md",
+      "redirect_url": "/viva/insights/Setup/Environment-Requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/format-data-for-upload.md",
+      "redirect_url": "/viva/insights/Setup/format-data-for-upload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/maintain-workplace-analytics.md",
+      "redirect_url": "/viva/insights/Setup/maintain-workplace-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/partitions-in-wpa.md",
+      "redirect_url": "/viva/insights/Setup/partitions-in-wpa",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Prepare-organizational-data.md",
+      "redirect_url": "/viva/insights/Setup/Prepare-organizational-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/script-to-prep-org-data.md",
+      "redirect_url": "/viva/insights/Setup/script-to-prep-org-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Set-up-mtg-exclusions.md",
+      "redirect_url": "/viva/insights/Setup/Set-up-mtg-exclusions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Set-up-Workplace-Analytics.md",
+      "redirect_url": "/viva/insights/Setup/Set-up-Workplace-Analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Upload-organizational-data.md",
+      "redirect_url": "/viva/insights/Setup/Upload-organizational-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/upload-organizational-data-1st.md",
+      "redirect_url": "/viva/insights/Setup/upload-organizational-data-1st",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/upload-organizational-data2.md",
+      "redirect_url": "/viva/insights/Setup/upload-organizational-data2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/Validate-verify-data.md",
+      "redirect_url": "/viva/insights/Setup/Validate-verify-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Setup/WpA-assign-o365-licenses.md",
+      "redirect_url": "/viva/insights/Setup/WpA-assign-o365-licenses",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/analyze-business-processes.md",
+      "redirect_url": "/viva/insights/Tutorials/analyze-business-processes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/attendee-exclusion-rules.md",
+      "redirect_url": "/viva/insights/Tutorials/attendee-exclusion-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/bcrps.md",
+      "redirect_url": "/viva/insights/Tutorials/bcrps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/comparison-query.md",
+      "redirect_url": "/viva/insights/Tutorials/comparison-query",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/crm-queries.md",
+      "redirect_url": "/viva/insights/Tutorials/crm-queries",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/csv-files/ExampleGroupQuery.md",
+      "redirect_url": "/viva/insights/Tutorials/csv-files/ExampleGroupQuery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/csv-files/ExampleMeetingHASHQuery.md",
+      "redirect_url": "/viva/insights/Tutorials/csv-files/ExampleMeetingHASHQuery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/csv-files/ExampleMeetingQuery.md",
+      "redirect_url": "/viva/insights/Tutorials/csv-files/ExampleMeetingQuery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/csv-files/ExamplePersonQuery.md",
+      "redirect_url": "/viva/insights/Tutorials/csv-files/ExamplePersonQuery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Customize-a-metric.md",
+      "redirect_url": "/viva/insights/Tutorials/Customize-a-metric",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Download-UTF8-query-report.md",
+      "redirect_url": "/viva/insights/Tutorials/Download-UTF8-query-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/exclusions-introduction.md",
+      "redirect_url": "/viva/insights/Tutorials/exclusions-introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-best-practices.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-best-practices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-cgcollaboration.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-cgcollaboration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-coaching.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-coaching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-communication.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-communication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-connectedness.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-connectedness",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-connectivity.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-connectivity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-cust-collab.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-cust-collab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-focus.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-focus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-influencer.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-influencer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-meetings.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-overload.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-overload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/gm-wellbeing.md",
+      "redirect_url": "/viva/insights/Tutorials/gm-wellbeing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Group-to-group-queries.md",
+      "redirect_url": "/viva/insights/Tutorials/Group-to-group-queries",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/meeting-exclusion-250.md",
+      "redirect_url": "/viva/insights/Tutorials/meeting-exclusion-250",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/meeting-exclusion-concept.md",
+      "redirect_url": "/viva/insights/Tutorials/meeting-exclusion-concept",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/meeting-exclusion-rules.md",
+      "redirect_url": "/viva/insights/Tutorials/meeting-exclusion-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/meeting-exclusions-intro.md",
+      "redirect_url": "/viva/insights/Tutorials/meeting-exclusions-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Meeting-queries.md",
+      "redirect_url": "/viva/insights/Tutorials/Meeting-queries",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/ona-metrics.md",
+      "redirect_url": "/viva/insights/Tutorials/ona-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/ona-person-query.md",
+      "redirect_url": "/viva/insights/Tutorials/ona-person-query",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/ona-person-to-person-query.md",
+      "redirect_url": "/viva/insights/Tutorials/ona-person-to-person-query",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/pbi-bc-sales.md",
+      "redirect_url": "/viva/insights/Tutorials/pbi-bc-sales",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/pbi-beyond-kw.md",
+      "redirect_url": "/viva/insights/Tutorials/pbi-beyond-kw",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/pbi-demos.md",
+      "redirect_url": "/viva/insights/Tutorials/pbi-demos",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/pbi-home-deeper.md",
+      "redirect_url": "/viva/insights/Tutorials/pbi-home-deeper",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Person-queries.md",
+      "redirect_url": "/viva/insights/Tutorials/Person-queries",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Person-to-group-queries.md",
+      "redirect_url": "/viva/insights/Tutorials/Person-to-group-queries",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-bc.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-bc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-collab-assess.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-collab-assess",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-collab-track.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-collab-track",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-glint.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-glint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-glint-2.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-glint-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-intro.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-manager.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-return-tw.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-return-tw",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/power-bi-teams.md",
+      "redirect_url": "/viva/insights/Tutorials/power-bi-teams",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Power-bi-templates.md",
+      "redirect_url": "/viva/insights/Tutorials/Power-bi-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Query-auto-refresh.md",
+      "redirect_url": "/viva/insights/Tutorials/Query-auto-refresh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Query-basics.md",
+      "redirect_url": "/viva/insights/Tutorials/Query-basics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/query-basics2.md",
+      "redirect_url": "/viva/insights/Tutorials/query-basics2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/query-designer.md",
+      "redirect_url": "/viva/insights/Tutorials/query-designer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/query-visualization.md",
+      "redirect_url": "/viva/insights/Tutorials/query-visualization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/seller-success.md",
+      "redirect_url": "/viva/insights/Tutorials/seller-success",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/solutionsv2-conceptual.md",
+      "redirect_url": "/viva/insights/Tutorials/solutionsv2-conceptual",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/solutionsv2-intro.md",
+      "redirect_url": "/viva/insights/Tutorials/solutionsv2-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/solutionsv2-participants.md",
+      "redirect_url": "/viva/insights/Tutorials/solutionsv2-participants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/solutionsv2-task.md",
+      "redirect_url": "/viva/insights/Tutorials/solutionsv2-task",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/teamwork-solution.md",
+      "redirect_url": "/viva/insights/Tutorials/teamwork-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/wpa-r-package.md",
+      "redirect_url": "/viva/insights/Tutorials/wpa-r-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Tutorials/Wpa-tool-500-error.md",
+      "redirect_url": "/viva/insights/Tutorials/Wpa-tool-500-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/accelerate-change.md",
+      "redirect_url": "/viva/insights/Use/accelerate-change",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/admin-settings.md",
+      "redirect_url": "/viva/insights/Use/admin-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Assigning-licenses-with-powershell.md",
+      "redirect_url": "/viva/insights/Use/Assigning-licenses-with-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Assigning-wpa-user-and-group-roles-in-azure-ad.md",
+      "redirect_url": "/viva/insights/Use/Assigning-wpa-user-and-group-roles-in-azure-ad",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/boost-engagement.md",
+      "redirect_url": "/viva/insights/Use/boost-engagement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/chart-types.md",
+      "redirect_url": "/viva/insights/Use/chart-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/crm-data.md",
+      "redirect_url": "/viva/insights/Use/crm-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/csv-query-output-file.md",
+      "redirect_url": "/viva/insights/Use/csv-query-output-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/customer-focus.md",
+      "redirect_url": "/viva/insights/Use/customer-focus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/data-sourcesv2.md",
+      "redirect_url": "/viva/insights/Use/data-sourcesv2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/develop-managers.md",
+      "redirect_url": "/viva/insights/Use/develop-managers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/effective-operations.md",
+      "redirect_url": "/viva/insights/Use/effective-operations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/error-states.md",
+      "redirect_url": "/viva/insights/Use/error-states",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/explore-intro.md",
+      "redirect_url": "/viva/insights/Use/explore-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Explore-Metrics-external-collaboration.md",
+      "redirect_url": "/viva/insights/Use/Explore-Metrics-external-collaboration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Explore-Metrics-internal-networks.md",
+      "redirect_url": "/viva/insights/Use/Explore-Metrics-internal-networks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Explore-metrics-management-and-coaching.md",
+      "redirect_url": "/viva/insights/Use/Explore-metrics-management-and-coaching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Explore-metrics-meetings-overview.md",
+      "redirect_url": "/viva/insights/Use/Explore-metrics-meetings-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/explore-metrics-teams.md",
+      "redirect_url": "/viva/insights/Use/explore-metrics-teams",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Explore-Metrics-Week-in-the-Life.md",
+      "redirect_url": "/viva/insights/Use/Explore-Metrics-Week-in-the-Life",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/explore-page-settings.md",
+      "redirect_url": "/viva/insights/Use/explore-page-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/faq.md",
+      "redirect_url": "/viva/insights/Use/faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/foster-innovation.md",
+      "redirect_url": "/viva/insights/Use/foster-innovation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Glossary.md",
+      "redirect_url": "/viva/insights/Use/Glossary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Group-Based-Licensing.md",
+      "redirect_url": "/viva/insights/Use/Group-Based-Licensing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/improve-agility.md",
+      "redirect_url": "/viva/insights/Use/improve-agility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/insight-faqs.md",
+      "redirect_url": "/viva/insights/Use/insight-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/insight-ona-measures.md",
+      "redirect_url": "/viva/insights/Use/insight-ona-measures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/insights.md",
+      "redirect_url": "/viva/insights/Use/insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/manager-settings.md",
+      "redirect_url": "/viva/insights/Use/manager-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Metric-definitions.md",
+      "redirect_url": "/viva/insights/Use/Metric-definitions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/metric-filters.md",
+      "redirect_url": "/viva/insights/Use/metric-filters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/office-365-data.md",
+      "redirect_url": "/viva/insights/Use/office-365-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/organizational-data.md",
+      "redirect_url": "/viva/insights/Use/organizational-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/peer-analysis.md",
+      "redirect_url": "/viva/insights/Use/peer-analysis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/playbooks.md",
+      "redirect_url": "/viva/insights/Use/playbooks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/pm-home.md",
+      "redirect_url": "/viva/insights/Use/pm-home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/power-bi-metrics.md",
+      "redirect_url": "/viva/insights/Use/power-bi-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/privacy-settings.md",
+      "redirect_url": "/viva/insights/Use/privacy-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/resilient-organizations.md",
+      "redirect_url": "/viva/insights/Use/resilient-organizations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Settings.md",
+      "redirect_url": "/viva/insights/Use/Settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/solutions-scan.md",
+      "redirect_url": "/viva/insights/Use/solutions-scan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/system-defaults.md",
+      "redirect_url": "/viva/insights/Use/system-defaults",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/Timezones-for-workplace-analytics.md",
+      "redirect_url": "/viva/insights/Use/Timezones-for-workplace-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/transform-meetings.md",
+      "redirect_url": "/viva/insights/Use/transform-meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/User-Roles.md",
+      "redirect_url": "/viva/insights/Use/User-Roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/View-download-and-export-query-results.md",
+      "redirect_url": "/viva/insights/Use/View-download-and-export-query-results",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/viva-insights-intro.md",
+      "redirect_url": "/viva/insights/Use/viva-insights-intro",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/viva-insights-my-org.md",
+      "redirect_url": "/viva/insights/Use/viva-insights-my-org",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/viva-insights-my-team.md",
+      "redirect_url": "/viva/insights/Use/viva-insights-my-team",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/wpa-notifications.md",
+      "redirect_url": "/viva/insights/Use/wpa-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/wsplan.md",
+      "redirect_url": "/viva/insights/Use/wsplan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/Use/zoom.md",
+      "redirect_url": "/viva/insights/Use/zoom",
+      "redirect_document_id": false
+    }
+  ]
+}
