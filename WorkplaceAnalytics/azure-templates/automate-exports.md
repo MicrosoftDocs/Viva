@@ -1,7 +1,7 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-title: Automate data exports
-description: Learn how to automate data exports of Workplace Analytics data to Azure
+
+title: Automate query data exports
+description: Learn how to automate data query data exports from Microsoft Workplace Analytics to Azure
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -13,19 +13,13 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Automate data exports to Azure
+# Automate query data exports to Azure
 
-_Data export is available only as part of a Microsoft service engagement._
-
-Do you need to combine Workplace Analytics query data with other Azure data sources, such as HR or Sales data for more advanced data analytics and reporting? Are you manually downloading large amounts of static query data from Workplace Analytics and then uploading it into Azure on a routine basis?
-
-With Azure Data Factory and Azure Active Directory, you can automate the export of Workplace Analytics query data through the OData query link to connect and automatically refresh an Azure data store of your choice.
-
-You can then join dynamically refreshed Workplace Analytics query data with other organizational datasets for more advanced analysis and data science projects.
+With Azure Data Factory and Azure Active Directory, you can automate the export of query data from Microsoft Workplace Analytics through the OData query link to connect and automatically refresh an Azure data store of your choice. 
 
 ## Pick a setup path
 
-To set up the automated OData connection between Workplace Analytics query data and your choice Azure data store, you can use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
+To set up the automated OData connection between query data and your choice Azure data store, you can use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
 
 * [Set up with Azure Data Factory UI](#to-set-up-with-azure-data-factory-ui) – This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Data Factory UI.
 * [Set up with Azure PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md) – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
@@ -43,15 +37,15 @@ The following steps you through how to automate the export of Workplace Analytic
 
 1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Azure Active Directory.
 2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
-3. Enter and search for the **Workplace Analytics App name** or **ID** and then select the applicable **Workplace Analytics app** from the list.
+3. Enter and search for the **Workplace Analytics** app name or **ID** and then select the applicable name from the list.
 
    ![App permissions.](./images/app-permissions.png)
 
    To find the Application (client) ID:
 
-   * In **Active Directory**, select **all applications**, and then enter **Workplace Analytics** for the Workplace Analytics enterprise app that you want to use.
-   * Select **Workplace Analytics** from the list.
-   * In **Workplace Analytics Application ID**, copy the ID and paste it in **APIs my organization uses** search field.
+   * In **Active Directory**, select **all applications**, and then enter **Workplace Analytics** for the enterprise app that you want to use.
+   * Select it from the list.
+   * In **Application ID**, copy the ID and paste it in **APIs my organization uses** search field.
 
      ![Workplace Analytics Application ID.](./images/app-id.png)
 
@@ -69,7 +63,7 @@ The following steps you through how to automate the export of Workplace Analytic
 8. In **Azure Data Factory**, select **Create a pipeline**.
 9. Select the **ellipsis** (**...**) next **Datasets**, and then select **New dataset**. For more details, see [Datasets in Azure Data Factory](/azure/data-factory/concepts-datasets-linked-services).
 10. In **Select a data store**, enter **odata**, and then select **OData**.
-11. In **General**, enter a name and description for the Workplace Analytics query data you’re linking to.
+11. In **General**, enter a name and description for the query data you’re linking to.
 12. Select **Connection**, select **New**, and then enter a name and description for the OData link, such as **WPA_Odata_Collab**.
 
 13. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
@@ -111,7 +105,7 @@ The following steps you through how to automate the export of Workplace Analytic
 26. Select **Preview data** for the path to confirm you entered the correct entity.
 27. In **Azure Data Factory** > **Properties**, confirm the name and description for this new dataset.
 28. Select **Publish all** at the top, and then select **Publish**.
-29. In **Pipelines**, create a new pipeline that can use the new OData dataset to copy the Workplace Analytics data to the external resource. For details, see [Create a pipeline](/azure/data-factory/tutorial-copy-data-portal#create-a-pipeline).
+29. In **Pipelines**, create a new pipeline that can use the new OData dataset to copy the query data to the external resource. For details, see [Create a pipeline](/azure/data-factory/tutorial-copy-data-portal#create-a-pipeline).
 30. For the new pipeline, select **Source**, and in **Source dataset**, select the name of new OData dataset, and in **Use query**, select **Table**.
 31. Create a linked service for the data store you want to export to. For details, see [Linked services](/azure/data-factory/author-management-hub#linked-services).
 32. In **Azure Data Factory** > **Author**, select the new pipeline, and then select **Add trigger** > **Trigger now** to manually run the last published pipeline, as shown in the following graphic. You can also schedule a trigger for this new pipeline by selecting **Add trigger** > **New/Edit** > **New**, and complete the required information for it. See [Pipeline execution and triggers in Azure Data Factory](/azure/data-factory/concepts-pipeline-execution-triggers) for details.
@@ -124,4 +118,5 @@ You can then use this new data factory to access query data from Workplace Analy
 
 ## Related topics
 
-[Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md)
+* [Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md)
+* [View, download, and export query results](../use/view-download-and-export-query-results.md)

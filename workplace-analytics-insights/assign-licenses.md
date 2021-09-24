@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Assign licenses for Microsoft 365 Insights
-description: Learn how to assign licenses through the Microsoft 365 admin center or Azure AD to people who want to use Microsoft 365 Insights (Workplace Analytics Insights in Azure AD)
+title: Assign licenses for Microsoft Viva Insights in Teams
+description: Learn how to assign licenses through the Microsoft 365 admin center or Azure AD to people who want to use Microsoft Viva Insights in Teams
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -18,7 +18,7 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-You can [assign licenses to one or more individual users](#to-assign-licenses-to-individual-users) in your organization who subscribe to a Microsoft 365 or Office 365 E5 or E3 plan. To do this, you sign in to the Microsoft admin center as a global Microsoft 365 admin.
+You can [assign licenses to one or more individual users](#to-assign-licenses-to-individual-users) in your organization for Microsoft Viva Insights in Microsoft Teams who subscribe to a Microsoft 365 or Office 365 E5 or E3 plan. To do this, you must first sign in to the Microsoft admin center as a global Microsoft 365 admin.
 
 <!-- KEEPING ORIGINAL TEXT IN CASE WE NEED IT AGAIN (BECAUSE OF SWEDEN) AT END OF 2021: 
 You must be able to sign in as a global Microsoft 365 admin to use the Microsoft admin center to assign licenses to people in your organization who subscribe to Microsoft 365 or Office 365 E5 or E3 plan whose [Microsoft 365 datacenter geo location is North America](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability). -->
@@ -36,7 +36,7 @@ Alternatively, you can assign licenses as follows:
    **For one user**:
    1. In **Active users**, select the user from the list.
    2. Select the **ellipsis** (**...**) to view more actions, and then select **Manage product licenses**.
-   3. In **Licenses and apps**, select the check box for **Microsoft Workplace Analytics Insights** (synonymous with Microsoft 365 Insights).
+   3. In **Licenses and apps**, select the check box for **Microsoft Workplace Analytics Insights** (synonymous with Microsoft Viva Insights).
    4. Select **Save changes**, as shown in the following graphic.
 
    ![Assign one user a license.](./images/assign-one-license.png)

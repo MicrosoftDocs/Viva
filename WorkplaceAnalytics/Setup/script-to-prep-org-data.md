@@ -17,13 +17,13 @@ audience: Admin
 
 ## Introduction
 
-Whether this is your first time onboarding people to Workplace Analytics or you are creating a new file to update organizational data, this script should help. It uses the [MSOnline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
+Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
 ## Prerequisites
 
-This script requires the following elements. If you need help while installing these prerequisites, contact Workplace Analytics FastTrack services; see [Get support](../overview/getting-support.md) for more information or contact FastTrack services directly by sending email to <wpasetup@microsoft.com>.
+This script requires the following elements. If you need help with these prerequisites, contact Support. See [Get support](../overview/getting-support.md) for details or send email to <wpasetup@microsoft.com>.
 
-* **PowerShell version 5.0 or higher**. To check the version of PowerShell on your computer:
+* **PowerShell version 5.0 or higher** - To check the version of PowerShell on your computer:
 
    1. In Windows, select **Start**, type **PowerShell**, and press **Enter**.
    2. In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. For values less than 5.0, see: [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7).
@@ -34,13 +34,13 @@ This script requires the following elements. If you need help while installing t
 
     ![Run as administrator.](../images/wpa/setup/run-as-admin.png)
 
-* **The Azure Active Directory module**. For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
+* **The Azure Active Directory module** - For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
 
    ```PowerShell
    Install-Module AzureAD
    ```
 
-* **The MSOnline module**. This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
+* **The Microsoft Online module** - This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
 
    ```PowerShell
    Install-Module MSOnline
@@ -48,7 +48,7 @@ This script requires the following elements. If you need help while installing t
 
 ## Run the script
 
-1. Download the latest version of the script: [Organizational data script](https://aka.ms/WpaOrgFileFromAad).
+1. Download the latest version of the script at [Organizational data script](https://aka.ms/WpaOrgFileFromAad).
 2. Extract the downloaded script zip file and note its folder location.
 3. Open a new instance of Windows PowerShell with administrator privileges.
 4. In PowerShell, navigate to the folder that contains the extracted script files.
@@ -81,11 +81,11 @@ This script requires the following elements. If you need help while installing t
 
    As it runs, the script prompts you twice for credentials, once to authenticate to the Azure Active Directory service, and once to authenticate to the MSOnline service.
 
-### Examples
+## Examples
 
 The following example command lines create an organizational data file in different ways, with the inclusion of different data.
 
-#### Example 1
+### Example 1
 
  This example does **not** gather the optional properties City, Country, Office, and Title from Active Directory:
 
@@ -93,7 +93,7 @@ The following example command lines create an organizational data file in differ
  .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -SkipOptionalProperties
  ```
 
-#### Example 2
+### Example 2
 
 This example sets the EffectiveDate field in the resulting organizational data file to the current day:
 
@@ -104,7 +104,7 @@ This example sets the EffectiveDate field in the resulting organizational data f
 > [!Note]
 > If you do not use this option, the effective date will default to a fixed date in the past, such as 01/01/1970.
 
-#### Example 3
+### Example 3
 
 Use the parameters in the following example if your organization doesn't enforce multi-factor authentication and you would like to create PSCredential objects and pass them into the script so that the script can run unattended:
 
@@ -155,20 +155,14 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 
 #### To set up prerequisite software
 
-[Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7&preserve-view=true)
-
-[Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7&preserve-view=true)
-
-[MSOnline service](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
-
-[Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true)
-
-[Get support](../overview/getting-support.md)
+* [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7&preserve-view=true)
+* [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7&preserve-view=true)
+* [MSOnline service](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true)
+* [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true)
+* [Get support](../overview/getting-support.md)
 
 #### About Workplace Analytics organizational data
 
-[Prepare organizational data](prepare-organizational-data.md)
-
-[Upload organizational data (first upload)](upload-organizational-data-1st.md)
-
-[Upload organizational data (subsequent uploads)](upload-organizational-data.md)
+* [Prepare organizational data](prepare-organizational-data.md)
+* [Upload organizational data (first upload)](upload-organizational-data-1st.md)
+* [Upload organizational data (subsequent uploads)](upload-organizational-data.md)

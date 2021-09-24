@@ -82,6 +82,9 @@ Use the procedures in this section to configure your own access to MyAnalytics.
 
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
 
+<!--
+* [Uninstall Viva Insights from Teams](mya-notifications.md#opt-out-of-inline-suggestions) -->
+
 #### For administrators
 
 Use the procedures in this section to configure access to MyAnalytics for the people in your organization.
