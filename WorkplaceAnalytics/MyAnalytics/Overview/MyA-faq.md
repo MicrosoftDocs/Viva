@@ -81,7 +81,7 @@ Email and calendar data from people outside of your organization, with the follo
 
 ##### Q1. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
-No. Only Exchange Online, Skype for Business Online, and Teams are used as sources of MyAnalytics data.
+No. Only Exchange Online, Skype for Business Online, and Teams are used as data sources of MyAnalytics data.
 
 ### Meetings
 
@@ -346,7 +346,7 @@ User metrics data is stored in users' mailboxes. Depending on the scenario, dail
 
 ##### Q4. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
-No. Only Exchange Online, Skype for Business Online, and Teams are used as sources of MyAnalytics data.
+No. Only Exchange Online, Skype for Business Online, and Teams are used as data sources of MyAnalytics data.
 
 ##### Q5. Can I ask that MyAnalytics user data be deleted and not stored?
 
