@@ -116,15 +116,10 @@ The reason for including all licensed employees in the organization is that, if 
 
 If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
-* <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
+* **Notification** - It sends an in-product notification to the admin. To see your notifications, select the **Notifications** (bell) icon.
+* **Banner message** - It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
 
-   ![Admin notification.](../images/wpa/setup/admin-page-bell.png)
-
-   To see your notifications, select the bell icon. 
-
-* <u>Banner</u> &ndash; It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
-
-   ![Banner for missing org data.](../images/wpa/setup/admin-page-missing-licensed.png)
+   ![Banner for missing org data.](../images/wpa/setup/missing-licensed.png)
 
    To respond to this warning, follow the steps in [Upload missing organizational data](#upload-missing-organizational-data).
 
