@@ -1,7 +1,7 @@
 ---
 
 title: Business process analysis in Workplace Analytics 
-description: Analyze business processes -- Introduction and walkthrough   
+description: Learn how to analyze business processes in Workplace Analytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -53,8 +53,7 @@ Every business process that you create must be based on a data set. For that rea
 In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
 
 1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
-
-2. On the **Analysis settings** page, select **Data sets** and then, on the right side of the page, select **Add data set**.
+2. Select **Data sets**, and then select **Add data set**.
 
    ![new data set.](../images/wpa/tutorials/new-data-set.png)
 
@@ -63,17 +62,13 @@ In this example, we restrict the analysis data to meetings of a particular lengt
    ![data set name given.](../images/wpa/tutorials/data-set-name-in-place.png)
 
 4. Under **Time period** select start and end dates. All meetings that took place outside of this time period will be excluded from the data set.
-
 5. Under **Meeting exclusions**, specify a [meeting exclusion rule](meeting-exclusions-intro.md) or accept the default, the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule).
-
 6. Under **Which meetings do you want to include in your query results?**, define filters to scope the data set to the business-process analysis that you want to perform. You'll use these filters to filter out meetings. Select **Add filter**.
-
 7. Select **Meeting**:
 
    ![Add a Meeting filter.](../images/wpa/tutorials/meeting-filter-1.png)
 
 8. In the boxes to the right of **Meeting's**, select **Duration (in hours)**, **<** (less than), and **0.5** (hours).
-
 9. On the next line, select **Attendee**. This lets us choose the work function (in this case, sales) of meeting attendees.
 
    ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
@@ -82,9 +77,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
     ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 
-11. Select **Submit**.
-
-   This starts the creation of a data set that will contain data that matches these criteria (and no other data). The time required to process the data set depends on its size.
+11. Select **Submit** to start the creation of a data set that will contain data that matches these criteria (and no other data). The time required to process the data set varies depending on its size.
 
 ### Data set statuses
 

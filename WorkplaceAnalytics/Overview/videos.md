@@ -26,7 +26,7 @@ The Workplace Analytics documentation offers several videos that explain concept
 * [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
 * [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)
 
-### Analysis settings
+### Analyst settings
 
 * [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md#video-learn-about-meeting-exclusion-rules)
 
