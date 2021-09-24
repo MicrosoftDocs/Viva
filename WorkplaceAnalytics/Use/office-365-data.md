@@ -18,7 +18,7 @@ audience: Admin
 
 As an admin or an analyst, you can use this page to confirm that your Microsoft 365 data is up-to-date. Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
-![Sources.](../images/WpA/Use/sources-365.png)
+![Data sources.](../images/WpA/Use/m365data.png)
 
 **Microsoft 365 data** includes the following:
 
