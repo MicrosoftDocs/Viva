@@ -1,7 +1,7 @@
 ---
 
 title: Assign user and group roles
-description: How to assign roles in Azure Active Directory for Microsoft Viva Insights 
+description: How to assign roles in Azure Active Directory for Microsoft Viva Insights in Workplace Analytics
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Assign user roles in Azure AD
 
-Do the following to assign roles to users in Azure Active Directory (AD) for Microsoft Viva Insights (formerly Workplace Analytics).
+Do the following to assign roles to users in Azure Active Directory (AD) for Microsoft Viva Insights in Workplace Analytics.
 
 1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise Applications**.
@@ -28,8 +28,8 @@ Do the following to assign roles to users in Azure Active Directory (AD) for Mic
 
     ![Select Apply.](../images/WpA/Use/apply-button_90.png)
 
-4. In the search field, type "viva" and then press **Enter**.
-5. In the search results, select **Viva Insights**.
+4. In the search field, type "workplace analytics or viva" and then press **Enter**.
+5. In the search results, select **Viva Insights** or **Workplace Analytics**.
 
     ![All Applications.](../images/WpA/Use/all-applications-2.png)
 
@@ -74,23 +74,23 @@ Do the following to assign roles to users in Azure Active Directory (AD) for Mic
     * To add another role to the _same_ user, repeat steps 11-14.
     * To add roles to _other_ users, repeat steps 7-14.
 
-It might take up to 24 hours for changes to be saved in the system. The user can now sign in to [Viva Insights](https://workplaceanalytics.office.com) with their new role and its corresponding access permissions.
+It might take up to 24 hours for changes to be saved in the system. The user can now sign in to [Workplace Analytics](https://workplaceanalytics.office.com) with their new role and its corresponding access permissions.
 
 ## Assign roles to groups
 
 You can also assign roles to groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group then automatically become members of the group and receive the same permissions that are assigned to that role.
 
-To assign users and roles to a Viva Insights group, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, at the same time, you can also add a group and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
+To assign users and roles to a Workplace Analytics group, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, at the same time, you can also add a group and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
 
    ![Select group.](../images/WpA/Use/select-group-b.png)
 
-If you have not yet created a Viva Insights group in Azure AD, and want to do so, see [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+If you have not yet created a Workplace Analytics group in Azure AD, and want to do so, see [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## FAQ
 
 **When would you assign a role to a group rather than to an individual user?**
 
-It depends on the situation or on your company's policy, but generally speaking, the reason for choosing between one method and another is usually efficiency. In a smaller company, if a few people will be assigned Viva Insights roles, it can be convenient to assign user roles individually, especially if such roles are unlikely to change.
+It depends on the situation or on your company's policy, but generally speaking, the reason for choosing between one method and another is usually efficiency. In a smaller company, if a few people will be assigned Workplace Analytics roles, it can be convenient to assign user roles individually, especially if such roles are unlikely to change.
 
 However, in a larger company where the number of users required for the same role is significant, such as for Program Managers, it is more efficient to assign a role to a group, and then add users to the group, because groups are easier to manage and audit.
 
