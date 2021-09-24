@@ -28,6 +28,7 @@ audience: Admin
 
 ## Video: Learn about Data sources
 
+This video was recorded before the left navigation and how you access Data sources changed in September 2021.
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
 
