@@ -156,7 +156,7 @@ Workplace Analytics admins create partitions on the **Settings** page. This proc
 
 4. Select the ellipsis (...) in that partition's row and then select **Delete partition**:
 
-    ![Admin settings.](../images/wpa/setup/part-based-access-control-delete.png)
+    ![Partitions in Access control](../images/wpa/setup/part-based-access-control-delete.png)
 
    >[!Note]
    >You cannot delete the Global partition. Only user-created partitions can be deleted.
@@ -171,9 +171,9 @@ A1. Currently the partitions feature is being rolled out on a per-customer basis
 
 A2. New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](../setup/upload-organizational-data.md)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition).
 
-#### Q3. Why am I not able to see admin settings in a partition?
+#### Q3. Why am I not able to see analyst settings in a partition?
 
-A3. All admin settings are applied to all partitions. For this reason the settings tab is visible only in the [Global partition](#the-global-partition).
+A3. All analyst settings are applied to all partitions. For this reason the settings tab is visible only in the [Global partition](#the-global-partition).
 
 #### Q4. We regularly upload updates to our organizational data. How can these updates affect partitions?
 
