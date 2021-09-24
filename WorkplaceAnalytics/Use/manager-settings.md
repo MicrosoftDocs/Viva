@@ -24,7 +24,7 @@ The following are based on the latest organizational (HR) data that's been succe
 * **Measured managers** - Total number of people managers who are assigned licenses in Workplace Analytics.
 * **Managers enabled** - Total number of people managers who meet the minimum team size and have access to their team's insights and plans in Workplace Analytics.
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Admins have full access to this page. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
 
 ![Manager settings.](../images/wpa/use/manager-settings.png)
 
@@ -45,9 +45,8 @@ Only Viva Insights or Workplace Analytics Admins can access **Manager settings**
    * **All managers** - Allows all measured managers access.
    * **Select managers** (upload .csv) - Enables you to give specific managers access. You then need to:
 
-      a. Create a .csv file that lists the email addresses for the select managers.
-
-      b. Select **Upload .csv** to upload this list.
+      1. Create a .csv file that lists the email addresses for the select managers.
+      2. Select **Upload .csv** to upload this list.
 
 3. If you're allowing all managers access, continue to **Step 4**. If setting up access for select managers, select **Download currently enabled manual upload manager list .csv** to confirm which managers now have access. If an error occurs, such as an invalid email or an unlicensed manager, the .csv file will show the error for that manager.
 4. In **Minimum team size**, you can change the minimum to a number more than 10 (which is the lowest setting allowed), which limits access to only those managers who have teams equal to or more than that number.
