@@ -96,5 +96,4 @@ After you add a domain and save the change for this setting, it'll change all of
 ## Related topics
 
 * [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
-
-* [Privacy settings / Exclusions](privacy-settings.md)
+* [Privacy settings](privacy-settings.md)

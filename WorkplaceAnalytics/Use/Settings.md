@@ -1,7 +1,7 @@
 ---
 
-title: Settings in Workplace Analytics
-description: Describes what settings are available in Workplace Analytics to confirm data sources, upload HR data, set system defaults and privacy rules, and other data analysis settings
+title: Controls in Workplace Analytics for Viva Insights
+description: Learn about what control settings are available in Workplace Analytics for Viva Insights, such as data sources, data uploads, system defaults, privacy rules, and other data analyst settings
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -14,56 +14,45 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Settings
+# Controls in Workplace Analytics
 
-Depending on the role you're assigned in Workplace Analytics, you can use the following to configure settings in Workplace Analytics for your organization:
+Depending on the role you're assigned in Workplace Analytics, you can use the following to configure settings about your organization in the Controls section of Workplace Analytics. These control settings are required for viewing and using Microsoft Viva Insights in Workplace Analytics and in Microsoft Teams:
 
-* [Sources](#sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into Workplace Analytics.
-* [Upload](#upload) – Admins use this to prepare and upload organizational and customer data.
-* [Admin settings](#admin-settings) – Admins use these to configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md).
-* [Analysis settings](#analysis-settings) – Analysts use these to customize meeting exclusion rules that help ensure data accuracy.
+* [Data sources](#sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into Workplace Analytics. Only Admins have access to [Upload](#upload) in Organizational data and CRM data, so they can prepare and upload organizational and customer data.
+* [Leader & manager settings](#admin-settings) – Only Admins have access and can set privacy settings and [manager settings](manager-settings.md) required to maintain minimum-group settings and to specify which managers and leaders get access to team insights in Microsoft Teams and in Workplace Analytics.
+* [Analyst settings](#analysis-settings) - Only Admins can access and configure [system defaults](system-defaults.md) and [privacy settings](privacy-settings.md). Admins and Analysts can access and customize meeting and attendee exclusion rules that help ensure data accuracy.
 
->[!Note]
-> Access to one or more pages in Settings depends on what role you're assigned in Workplace Analytics. The following describes page access based on role assignment.
+Access to one or more of the following Controls depends on what role you're assigned.
 
-| Settings | Admin | Analyst | Analyst (Limited Access) |  
+| Controls | Admin | Analyst | Analyst (Limited Access) |  
 |---|---|---|---|
-| Sources | Full access| Full access | Full access |
-| Upload  | Full access | No access | No access |
-| Admin settings | Full access | No access| No access |
-| Analysis settings | No access | Full access | Read only |
+| Data sources | Full access| Read-only access excluding Upload | Read-only access excluding Upload |
+| Leader & manager settings  | Full access | No access | No access |
+| Analyst settings | Full access | Access to exclusions | Read-only access to exclusions|
 
-For more details about roles, see [Assign Workplace Analytics roles](../Setup/Assign-roles-to-wpa-admins.md).
+For more details about roles, see [Assign roles](../Setup/Assign-roles-to-wpa-admins.md).
 
-## Sources
+## Data sources
 
-**Owners** – Workplace Analytics Admins, Analysts, and limited Analysts have full access to Sources
+**Owners** – Viva Insights and Workplace Analytics Admins, Analysts, and limited Analysts can view Data sources and only Admins can access Upload
 
-In **Sources**, you can see what Microsoft 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Sources](data-sourcesv2.md).
+* In **Data sources**, as an owner, you can see what Microsoft 365 collaboration data and organizational data was most recently uploaded into Workplace Analytics. You can view average weekly meeting and email activity and measured-employee characteristics to ensure sufficient data coverage. You can also see high-level CRM data if it is uploaded and processed in Workplace Analytics. For details, see [Data sources](data-sourcesv2.md).
+* In **Upload**, Admins can upload the following types of data files in .csv format, UTF-8 encoded:
 
-## Upload
+  * **Organizational data** - Contextual information about employees (such as, job title, level, location) from an HR or other information systems that admins upload as a data file into Workplace Analytics. For details on preparing this upload file, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+  * **CRM data** - Customer relationship management data from Microsoft Dynamics or Salesforce, which typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries. For details, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
 
-**Owner** – Only Workplace Analytics Admins have full access to Upload
+## Leader & manager settings
 
-In **Upload**, admins can upload the following types of data files in .csv format, UTF-8 encoded:
+**Owner** – Viva Insights and Workplace Analytics Admins have full access to these settings
 
-* **Organizational data** - Contextual information about employees (such as, job title, level, location) from an HR or other information systems that admins upload as a data file into Workplace Analytics. For details on preparing this upload file, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+In **Leader & manager settings**, Admins can configure the [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Leader & manager settings](admin-settings.md).
 
-* **CRM data** - Customer relationship management data from Microsoft Dynamics or Salesforce, which typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries. For details, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
+## Analyst settings
 
-## Admin settings
+**Owners** – Viva Insights and Workplace Analytics Admins have full access to these settings and Analysts have full access and limited Analysts have read-only access to the exclusion settings
 
-**Owner** – Workplace Analytics Admins have full access to these settings
-
-In **Admin settings**, you can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and [manager settings](manager-settings.md). For details, see [Admin settings](admin-settings.md).
-
-## Analysis settings
-
-**Owners** – Workplace Analytics Analysts have full access and limited Analysts have read-only access to these settings
-
-In **Analysis settings**, you can create and customize meeting exclusion rules to remove meetings that you to exclude from analysis, such as appointments that are unrelated to work.
-
-For details on how to create new exclusion rules, see [Meeting exclusion rules: walkthroughs](../tutorials/meeting-exclusion-rules.md) and [Meeting exclusion rules: Tools and concepts](../tutorials/meeting-exclusion-concept.md).
+In **Analyst settings**, Admins can configure [system defaults](system-defaults.md), [privacy settings](privacy-settings.md), and default exclusion rules for meetings and attendees. Analysts can create and customize meeting and attendee exclusion rules that exclude meetings or attendees from analysis, such as appointments that are unrelated to work. Limited Analysts have read-only access to exclusion rules. For details, see Exclusion rules
 
 ## Related topics
 
