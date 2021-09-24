@@ -1,6 +1,6 @@
 ---
-title: Admin settings for Workplace Analytics
-description: Describes Admin settings that only administrators can configure and edit in Workplace Analytics
+title: Leader and manager settings in Workplace Analytics
+description: Learn about Leader & manager settings that only administrators can configure and edit in Workplace Analytics for Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -13,22 +13,21 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Admin settings
+# Leader and manager settings
 
-As an admin of Microsoft Viva Insights or Workplace Analytics, you can use **Admin settings** to configure the following.
+As an admin for Microsoft Viva Insights or Workplace Analytics, you can use **Leader & manager settings** to configure the following.
 
-* [System defaults](system-defaults.md) - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Workplace Analytics.
-* [Privacy settings](privacy-settings.md) - Specify what data is excluded from analysis and what data is visible in Query designer and in Explore the stats.
-* [Manager settings](manager-settings.md) - Enable all or specific people managers to see team insights in Workplace Analytics.
+* **Privacy settings for leaders and managers** - This applies exclusively to the outcome data that leaders and managers see in the Microsoft Viva Insights app in Microsoft Teams. Use the **Tenant minimum group size** setting to set the minimum number of people in a group, which must be at least five, before leaders and managers can see any data relating to their groups.
+* **Manager settings** - Enable all or specific people managers to see team insights in Workplace Analytics. For details, see [Manager settings](manager-settings.md).
 
-**Owner** – Only Viva Insights or Workplace Analytics admins have full access to this page. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Viva Insights and Workplace Analytics Admins can access these settings. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin settings.](../images/wpa/use/system-defaults.png)
+![Leader and manager settings](../images/wpa/use/privacy-lm-settings.png)
 
-## To access Admin settings
+## To access Leader & manager settings
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your work credentials.
-2. In the left navigation pane, select **Settings**, and then select **Admin settings**.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your admin credentials.
+2. In the left navigation pane, select **Leader & manager settings**.
 
 ## Related topic
 

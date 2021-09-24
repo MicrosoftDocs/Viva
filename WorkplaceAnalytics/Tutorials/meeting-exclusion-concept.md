@@ -76,7 +76,7 @@ You can make the following types of customizations:
 
 Sometimes, the default exclusion filters out meetings that you may want to keep in your analysis. You may want to make exceptions to an exclusion without removing the entire exclusion itself. The tools described in this section will help you identify which meetings you may want to keep in your analysis based on the keywords associated with these meeting subject lines.
 
-For steps 2-4 in the meeting exclusion creation flow, appointments, large meetings, and long meetings, you can use the  [Word cloud](#word-cloud), a [Phrase table](#phrase-table), and search capability ([Keyword search](#keyword-search)) to customize your exclusions in this manner.
+For steps 2-4 in the meeting exclusion creation flow, appointments, large meetings, and long meetings, you can use the [Word cloud](#word-cloud), a [Phrase table](#phrase-table), and search capability ([Keyword search](#keyword-search)) to customize your exclusions in this manner.
 
 ### Word cloud
 
@@ -145,8 +145,8 @@ Workplace Analytics supplies one meeting exclusion rule by default, the _Tenant 
 * Meetings with 250 or more attendees
 * Cancelled meetings
 
-> [!Note]
-> To respect user privacy, meetings marked as private and/or confidential are always excluded from meeting query calculations.
+>[!Note]
+>To respect user privacy, meetings marked as private and/or confidential are always excluded from meeting query calculations.
 
 This default rule is a good start, but if you were to use only it, you would miss the opportunity to verify that this rule doesn't exclude important meetings you wanted to keep, as well as the opportunity to exclude additional meetings based on meeting-subject keywords.
 
@@ -170,7 +170,7 @@ The following options are available for a published rule:
 * **Set preferred** sets this rule as the preferred rule. There can be only one preferred rule within your tenant. This has the following effects:
 
   * When an analyst designates a rule as preferred, that rule will appear to _all_ analysts as the preferred rule in [Explore the stats](../use/explore-intro.md) data.
-  * The preferred rule also appears at the top of the list of rules on the [Analyst settings](../use/settings.md#analyst-settings) page. (The **Set preferred** action is unavailable for the rule that is currently set as preferred.)
+  * The preferred rule also appears at the top of the list of rules in **Analyst settings**. The **Set preferred** action is unavailable for the rule that is currently set as preferred.
   * The preferred rule will apply to all [queries](query-basics.md) that are run during the time the rule is in place.
 
 * **Archive** archives the rule.  
