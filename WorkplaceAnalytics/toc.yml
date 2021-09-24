@@ -49,7 +49,7 @@
               items:
                 - name: Introduction
                   href: ~/Use/data-sourcesv2.md 
-                - name: Office 365 data
+                - name: Microsoft 365 data
                   href: ~/Use/office-365-data.md
                 - name: Organizational data
                   href: ~/Use/organizational-data.md
