@@ -79,7 +79,7 @@ _Query results example: Columns A and B_
 The column names for these attributes are organizational attribute names with the prefix _TieOrigin__. These first two columns appear automatically:
 
 * TieOrigin_[**PersonId**](../setup/prepare-organizational-data.md#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.  
-* TieOrigin_[**GroupId**](#groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to understand whether there are opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically.
+* TieOrigin_[**Ona_GroupId**](#ona-groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties in a team to understand how cohesive it is and also discover Diverse ties in a team to understand whether there are opportunities for novel information to flow into the team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the initiator of the tie
 
@@ -102,7 +102,7 @@ _Query results example: Columns F and G_
 The column names for these attributes are organizational attribute names with the prefix _TieDestination__. These first two columns for this person appear automatically:
 
 * TieDestination_[**PersonId**](../setup/prepare-organizational-data.md#personid-define) - A de-identified ID number for the person represented in that data row. You do not select this column as you build a query; it appears automatically.
-* TieDestination_[**GroupId**](#groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties into another team to understand how well connected one is with that team and also discover Diverse ties in another team to understand  opportunities for novel information to flow from that team. You do not select this column as you build a query; it appears automatically.
+* TieDestination_[**Ona_GroupId**](#ona-groupid-define) - A de-identified ID number of the group in the organization to which the person belongs. This column can help you discover Strong ties into another team to understand how well connected one is with that team and also discover Diverse ties in another team to understand  opportunities for novel information to flow from that team. You do not select this column as you build a query; it appears automatically.
 
 ### The next columns describe the other participant in the tie
 
@@ -140,11 +140,11 @@ _Query results example: Columns K through O_
 
 ### Derived attributes
 
-The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to Workplace Analytics](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
+The following organizational attribute, _Ona_GroupId_, is used in this query type. Note that this attribute is not among the organization data that [admins upload to Workplace Analytics](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
 
 Attribute (column header) | Description |
 ---------|----------|
-| <a name="groupid-define"></a> GroupId | A unique, de-identified ID number that identifies a group. All members of a team who report to the same person in the organizational hierarchy have the same GroupId. Analysts can use the GroupId column to aggregate members of a team. |
+| <a name="ona-groupid-define"></a> Ona_GroupId | A unique, de-identified ID number that identifies a group. All members of a team who report to the same person in the organizational hierarchy have the same Ona_GroupId. Analysts can use the Ona_GroupId column to aggregate members of a team. |
 
 ## Related topics
 
