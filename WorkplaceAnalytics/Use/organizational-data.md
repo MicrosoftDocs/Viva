@@ -18,7 +18,7 @@ audience: Admin
 
 Organizational data is information about employees that your company provides to Workplace Analytics through [uploads](../setup/upload-organizational-data.md) of organizational (HR) data.
 
-As either an admin or an analyst, you can use this page to understand the data quality and completeness for employees who have an entry in the HR data file and are detected in the specified week's refresh of Office 365 data.
+As either an admin or an analyst, you can use this page to understand the data quality and completeness for employees who have an entry in the HR data file and are detected in the specified week's refresh of Microsoft 365 data.
 
 ![Organizational data sources page.](../images/wpa/Use/org-data-sources.png)
 
@@ -57,5 +57,5 @@ For more details about what data is needed for metric calculations, see:
 
 ## Related topics
 
-* [Office 365 data](office-365-data.md)
+* [Microsoft 365 data](office-365-data.md)
 * [CRM data](crm-data.md)

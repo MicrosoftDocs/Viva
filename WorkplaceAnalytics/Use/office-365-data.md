@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics Office 365 data
-description: What's available on the Office 365 data sources page in Workplace Analytics 
+title: Workplace Analytics Microsoft 365 data
+description: What's available on the Microsoft 365 data sources page in Workplace Analytics 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
@@ -14,20 +14,20 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Office 365 data
+# Microsoft 365 data
 
-As an admin or an analyst, you can use this page to confirm that your Office 365 data is up-to-date. Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
+As an admin or an analyst, you can use this page to confirm that your Microsoft 365 data is up-to-date. Use this page to look for date ranges that have unexpected gaps in activity, inconsistent or degraded data, or activity levels that are higher or lower than what might be considered normal for your organization.
 
 ![Sources.](../images/WpA/Use/sources-365.png)
 
-**Office 365 data** includes the following:
+**Microsoft 365 data** includes the following:
 
-* **Measured employees** - The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignments, Workplace Analytics extracts Office 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
+* **Measured employees** - The employees to whom your Workplace Analytics administrator assigned licenses during setup. After license assignments, Workplace Analytics extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
 
   >[!Note]
   > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (AAD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through AAD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
 
-* **Internal collaborators** - These are unmeasured employees who were included in extractions of Office 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
+* **Internal collaborators** - These are unmeasured employees who were included in extractions of Microsoft 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
 
 * **External collaborators** - These are people outside of your company or external to your email domain with whom your measured employees collaborated. For more information about external collaboration, see [External collaboration](../use/explore-metrics-external-collaboration.md).
 
@@ -35,7 +35,7 @@ As an admin or an analyst, you can use this page to confirm that your Office 365
 
 Hover your cursor over the chart data to get more details and use the chart legend to change what data (meetings, email, instant messages, and calls) the chart shows.
 
-  ![Office 365 data sources chart data.](../images/wpa/use/measured-collab.png)
+  ![Microsoft 365 data sources chart data.](../images/wpa/use/measured-collab.png)
 <!--
   >[!Note]
   > If collaboration activity for Teams drops below 30 percent of the total collaboration, the unscheduled calls and instant message data will not show due to insufficient data.
@@ -43,15 +43,15 @@ Hover your cursor over the chart data to get more details and use the chart lege
 
 ## Origin of data counts
 
-In **Sources** > **Office 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who might or might not have Workplace Analytics licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
+In **Sources** > **Microsoft 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who might or might not have Workplace Analytics licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
 
 Determining the origins of data also determines how to categorize it, as shown in the following flow chart.
 
   ![Origin of data counts.](../images/wpa/use/data-sources-final.png)
 
-The following shows where each appears in **Office 365 data**.
+The following shows where each appears in **Microsoft 365 data**.
 
-  ![Office 365 data sources page info.](../images/wpa/use/data-sources-relate.png)
+  ![Microsoft 365 data sources page info.](../images/wpa/use/data-sources-relate.png)
 
 ## Possible causes of inconsistent data
 
