@@ -36,7 +36,7 @@ You can select **Download PowerPoint** to create and view a PowerPoint version o
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Office 365 data](office-365-data.md) to learn more about what data Workplace Analytics requires and uses for this analysis.
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Microsoft 365 data](office-365-data.md) to learn more about what data Workplace Analytics requires and uses for this analysis.
 
 ## Supporting evidence
 

@@ -131,7 +131,7 @@ A4. The Start time and End time values determine the working hours for which dat
 
 A5. No. No limit is imposed by Workplace Analytics.
 
-##### Q6. In the Workplace Analytics _Data sources_ section, on the "Office 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
+##### Q6. In the Workplace Analytics _Data sources_ section, on the "Microsoft 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
 
 A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Microsoft 365 or Office 365) data. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
@@ -218,7 +218,7 @@ A2. The collaborator totals include the number of internal (or external) people 
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
-A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Office 365 data](office-365-data.md).
+A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Microsoft 365 data](office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
