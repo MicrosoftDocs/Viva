@@ -49,8 +49,8 @@ Workplace Analytics provides advanced analysis tools for deep diving into the da
 * [**Controls**](../use/settings.md) in Workplace Analytics includes the following:
 
   * [**Data sources**](../use/settings.md#data-sources) – View information about the Microsoft 365 and organizational data that's been uploaded into Workplace Analytics.
-  * [**Leader and manager settings**](../use/settings.md#admin-settings) – Configure system defaults, privacy settings, and manager settings.
-  * [**Analyst settings**](../use/settings.md#analyst-settings) – Customize exclusion rules to help ensure data accuracy.
+  * [**Leader and manager settings**](../use/settings.md#leader-and-manager-settings) – Configure leader and manager privacy and other manager settings.
+  * [**Analyst settings**](../use/settings.md#analyst-settings) – Configure system defaults, privacy settings, and exclusion rules to help ensure data accuracy.
 
 ### Video: Navigate Workplace Analytics
 

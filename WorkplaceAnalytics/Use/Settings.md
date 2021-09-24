@@ -18,9 +18,9 @@ audience: Admin
 
 Depending on the role you're assigned in Workplace Analytics, you can use the following to configure settings about your organization in the Controls section of Workplace Analytics. These control settings are required for viewing and using Microsoft Viva Insights in Workplace Analytics and in Microsoft Teams:
 
-* [Data sources](#sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into Workplace Analytics. Only Admins have access to [Upload](#upload) in Organizational data and CRM data, so they can prepare and upload organizational and customer data.
-* [Leader & manager settings](#admin-settings) – Only Admins have access and can set privacy settings and [manager settings](manager-settings.md) required to maintain minimum-group settings and to specify which managers and leaders get access to team insights in Microsoft Teams and in Workplace Analytics.
-* [Analyst settings](#analysis-settings) - Only Admins can access and configure [system defaults](system-defaults.md) and [privacy settings](privacy-settings.md). Admins and Analysts can access and customize meeting and attendee exclusion rules that help ensure data accuracy.
+* [Data sources](#data-sources) – Admins and Analysts use these to verify that Microsoft 365 and organizational data is correctly uploaded into Workplace Analytics. And Admins have access to **Upload** in Organizational data and CRM data, so they can prepare and upload organizational and customer data.
+* [Leader & manager settings](#leader-and-manager-settings) – Only Admins have access and can set privacy settings and [manager settings](manager-settings.md) required to maintain minimum-group settings and to specify which managers and leaders get access to team insights in Microsoft Teams and in Workplace Analytics.
+* [Analyst settings](#analyst-settings) - Admins can access and configure [system defaults](system-defaults.md) and [privacy settings](privacy-settings.md). Admins and Analysts can access and customize meeting and attendee exclusion rules that help ensure data accuracy.
 
 Access to one or more of the following Controls depends on what role you're assigned.
 
@@ -42,7 +42,7 @@ For more details about roles, see [Assign roles](../Setup/Assign-roles-to-wpa-ad
   * **Organizational data** - Contextual information about employees (such as, job title, level, location) from an HR or other information systems that admins upload as a data file into Workplace Analytics. For details on preparing this upload file, see [Prepare organizational data](../setup/prepare-organizational-data.md).
   * **CRM data** - Customer relationship management data from Microsoft Dynamics or Salesforce, which typically includes customer account information, sales records, purchasing history, service history, customer requests, and product inquiries. For details, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
 
-## Leader & manager settings
+## Leader and manager settings
 
 **Owner** – Viva Insights and Workplace Analytics Admins have full access to these settings
 
