@@ -34,7 +34,7 @@ Currently, you cannot configure settings for these insights. The current time pe
 
 ##### Q5 Do the "Teams like yours" metrics account for organizational averages and minimum group size settings?
 
-Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure does not meet the minimum group size, then the company's average is not used or shown in the metrics.  
+Teams like yours metrics use other teams in the same hierarchy that report to the manager's manager. If the team structure does not meet the minimum group size, the team's average is not used or shown in the metrics.  
 
 ##### Q6 Can I see insights for both direct and indirect reports?
 
