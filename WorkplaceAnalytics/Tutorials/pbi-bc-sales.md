@@ -72,7 +72,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
    >[!Important]
-   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in query output or in Power BI reports.
 
 6. Select **Run** to run the query, which might take a few minutes to complete.
 7. When prompted, select to return to the Query designer, and then repeat **Steps 2-6** for the **Domain collaboration** query, which requires the same selections as for Sales business continuity.

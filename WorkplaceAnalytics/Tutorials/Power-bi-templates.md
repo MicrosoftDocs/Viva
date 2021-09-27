@@ -137,7 +137,7 @@ Power BI cannot complete a data join if data values are missing in the Organizat
 
 3. Select the applicable results.
 
-4. In the data preview table, locate the column for Organization and/or LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
+4. In the data preview table, locate the column for Organization and LevelDesignation, expand the column header, select **Remove Empty**, and then select **OK**.
 
 5. Select **Hourly collaboration** and repeat **Steps 3-4** to filter out empty values.
 

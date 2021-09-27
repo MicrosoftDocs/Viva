@@ -86,7 +86,7 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
 9. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes, and add the organizational attributes that reflect the worksite locations and applicable Teams (or Organizations) requiring seat allocation.
 
    >[!Important]
-   >You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI.
+   >You must include the organizational attribute selected in **Step 7** for worksite locations or the data won’t load correctly in Power BI. Also, LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
 10. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
 11. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Return to worksites** results, select **PBI template**, and then select **OK** to download the template.
