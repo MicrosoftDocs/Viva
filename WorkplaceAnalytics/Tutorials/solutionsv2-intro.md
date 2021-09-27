@@ -108,9 +108,9 @@ Additional information about roles and access:
 
 **Q2:** What is the minimum group size?
 
-**A2:** In **Admin settings** > **Privacy settings**, admins can set the [minimum group size](../use/privacy-settings.md) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
+**A2:** In **Analyst settings** > **Privacy**, admins can set the [minimum group size](../use/privacy-settings.md) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
 
-In **Admin settings** > **Manager settings**, admins can also set a [Minimum team size](../use/manager-settings.md) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
+In **Leader and manager settings** > **Manager settings**, admins can also set a [Minimum team size](../use/manager-settings.md) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
 
 **Q3:** Can I monitor metrics for specific users?
 

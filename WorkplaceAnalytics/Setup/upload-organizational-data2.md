@@ -44,8 +44,8 @@ The following video might not represent your exact upload experience that is bas
 Use the following steps to upload (import) your organizational data as a .csv file into Workplace Analytics.
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
-2. Select **Settings** > **Upload**.
-3. Select **Organizational data**, which shows **Upload history** for your organization.
+2. Select **Data sources** > **Organizational data**.
+3. Select **Upload** to see your organization's **Upload history**.
 4. Select **New upload**.
 5. In **Upload**, select **Name your upload**, enter a name, select **Add an optional description**, and enter a description.
 6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download the .csv template** to help with file requirements:
@@ -188,7 +188,7 @@ If validation succeeds, the **Upload** page will indicate it and show the size o
 
 ![Validation succeeded.](../images/wpa/setup/upload6-validated.png)
 
-You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the data that was successfully validated and uploaded.
+You can select **Data sources** > **Organizational data** > **Upload** to see **Upload history**. You can then select **Successes** to see the data that was successfully validated and uploaded.
 
 You can do the following for an upload:
 

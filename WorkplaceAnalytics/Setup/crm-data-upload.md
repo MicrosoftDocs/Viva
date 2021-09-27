@@ -162,7 +162,7 @@ For a complete list of rules, see [Attribute notes and recommendations](Prepare-
 
 ## Upload, validate, and process the CRM data
 
-1. In **Settings** > **Upload** > **CRM data**, select **New upload**.
+1. In **Data sources** > **CRM data**, select **New upload**.
 2. Download and use the template provided in the **Tips** section.
 3. In the **Data source** section, select the applicable source for the upload, such as **Salesforce** or **Dynamics CRM**.
 4. In the **Data type** section, select the type of CRM data you want to upload. You can only upload one of the following types of data files at a time. However, you can wait until you’ve uploaded all the files you need, before submitting the data for validation, which is more time efficient.

@@ -44,8 +44,8 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 **To select the file to upload**
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
-2. In the left navigation pane, select **Settings**.
-3. Select **Organizational data**. The **Upload history** area of this page shows the previous data uploads from your organization.
+2. In the left navigation pane, select **Data sources**.
+3. Select **Organizational data** > **Upload** to see the **Upload history** about previous data uploads from your organization.
 4. Select **New upload**.
 5. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
 6. Optionally, select **Add an optional description** and type a description of this upload.
@@ -195,7 +195,7 @@ If validation succeeds, the **Upload** page will indicate it and show the size o
 
 ![Validation succeeded.](../images/wpa/setup/upload6-validated.png)
 
-You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
+You can select **Data sources** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
 You can do the following for an upload:
 

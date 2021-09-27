@@ -38,7 +38,7 @@ If you are _not_ setting up Workplace Analytics, feel free to change these setti
 
 **Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Admin settings.](../images/wpa/use/sys-def-page.png)
+![System defaults.](../images/wpa/use/sys-def-page.png)
 
 ## Default time zone
 
@@ -84,7 +84,7 @@ After you add a domain and save the change for this setting, it'll change all of
 
 * Explore the stats charts and metrics will show the domain as internal *retroactively* for the specified date range. For example, employees in this domain will change from external to internal collaborators for all collaboration data shown in **Explore the stats**.
 * Organizational and Microsoft 365 data from this domain will update to be internal after the *next data refresh*.
-* Sources data will include this domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
+* Data sources will then include the domain (previously external) in internal-collaborator metrics and applicable coverage data will change based on this new domain classification.
 * The changes can be reverted by removing the domain that was reclassified.
 * [Excluding domains in the privacy settings](privacy-settings.md#exclude-domains-or-email-addresses) overrides the changes made with this reclassification setting. That is, an excluded domain remains excluded, whether or not it's reclassified as internal.
 
@@ -96,5 +96,4 @@ After you add a domain and save the change for this setting, it'll change all of
 ## Related topics
 
 * [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
-
-* [Privacy settings / Exclusions](privacy-settings.md)
+* [Privacy settings](privacy-settings.md)
