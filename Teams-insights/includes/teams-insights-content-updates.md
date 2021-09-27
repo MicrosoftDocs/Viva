@@ -2,6 +2,14 @@
 
 
 
+## Week of September 20, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/21/2021 | [Viva Insights - virtual commute](/insights/viva-insights-virtual-commute) | modified |
+
+
 ## Week of September 13, 2021
 
 
