@@ -67,7 +67,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select any additional attributes (columns) that you want to include in the reports.
 
    >[!Important]
-   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
 6. Select **Run** to run the query, which can take a few minutes to complete.
 7. When prompted, select to go to **Results**. After the query successfully runs, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
