@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Workplace Analytics Zoom integration
 description: Learn how to use the Workplace Analytics Zoom integration for including Zoom data in collaboration analysis
 author: madehmer
@@ -12,8 +12,6 @@ audience: Admin
 ---
 
 # Zoom integration
-
-*This experience is only available through private preview at this time.*
 
 The Zoom integration adds meaningful collaboration metrics from Zoom meeting reports that complement existing metrics used in Workplace Analytics. This integration works with R for Windows and when released, will be included in the existing [wpa R package](../tutorials/wpa-r-package.md), which is an open-source repository of more than 100 functions that provide pre-built analyses.
 
