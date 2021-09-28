@@ -5,7 +5,7 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.prod: wpa
 ms.author: v-mideh
-author: madehmer
+author: paul9955
 manager: scott.ruble
 audience: Admin
 ---
@@ -14,10 +14,16 @@ audience: Admin
 
 The Query designer in Workplace Analytics includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
 
->[!Note]
->The dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+## Requirements for analysts
+
+[!INCLUDE [Requirements for analysts](../includes/analyst-requirements.md)]
+
+## Power BI dashboards
 
 Workplace Analytics includes the following Power BI dashboards for visually analyzing data in Power BI. Select one to see more details about it and to view an interactive demo.
+
+>[!Note]
+>The dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 | &nbsp; | &nbsp; |
 |------|-------|
