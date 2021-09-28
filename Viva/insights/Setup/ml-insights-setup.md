@@ -24,7 +24,7 @@ The prerequisites are different for manager insights about your team and leader 
 
 * **Manager insights** - To get access to **My Team**, confirm you meet the following prerequisites:
 
-  * **Manager access** - Ask if your Workplace Analytics admin has [Manager settings](../use/manager-settings.md) in Workplace Analytics turned **On**.
+  * **Manager access** - Ask if your Viva Insights or Workplace Analytics admin has [Manager settings](../use/manager-settings.md) in Workplace Analytics turned **On**.
   * **No other roles** - You are not assigned _any other_ roles for Viva Insights in Workplace Analytics, including admin, analyst, or program manager.
   * **Licensed team** - The members of your team are assigned licenses for Viva Insights in Workplace Analytics and are included in the reporting hierarchy that leads to you as their manager.  
   * **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
