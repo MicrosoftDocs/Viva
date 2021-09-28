@@ -246,7 +246,7 @@ items:
                         href: ~/Use/analyst-settings.md
                       - name: System defaults
                         href: ~/Use/system-defaults.md
-                            - name: Privacy settings and exclusions
+                      - name: Privacy settings and exclusions
                         href: ~/Use/privacy-settings.md
                       - name: Exclusions
                         items:
