@@ -18,6 +18,9 @@ ms.prod: wpa
 
 Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
 
->[!Note]
->* An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
->* The predefined templates that are offered by Viva Insights create dashboards by using the Power BI desktop application. Power BI desktop requires no license; you can download it free by going to [Getting started with Power BI](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/).
+**Licensing notes**
+
+* An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
+
+* The predefined templates that are available in the Query designer create dashboards by using the Power BI desktop application. Power BI desktop requires no license; you can download it free by going to [Getting started with Power BI](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/).
+
