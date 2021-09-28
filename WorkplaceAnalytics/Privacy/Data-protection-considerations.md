@@ -120,7 +120,7 @@ For example, many companies see the benefit of understanding aggregate collabora
 
 Consult with your organization’s human-resources, privacy, and legal subject matter experts in the countries where you would like to use Workplace Analytics. Analyses that might be acceptable in one country might be subject to additional requirements (for example, notice and consent obligations) or even illegal in other countries. Due diligence is particularly important in highly regulated jurisdictions like the European Union.
 
-## Decide what data is used by Workplace Analytics and who gets to see it
+## Decide what data is used and who gets to see it
 
 You have full control over what data to include in analysis using Workplace Analytics. The primary data source is collaboration data from Microsoft 365. This is supplemented by human resources or other organizational data that you want to include so that you can group information by job title, location, or other attributes.
 

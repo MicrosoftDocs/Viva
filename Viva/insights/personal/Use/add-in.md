@@ -83,7 +83,7 @@ In the new Mac interface, add-ins are not currently available, but you can enabl
 2. In the Outlook **Home** ribbon, open Viva Insights by using the same steps as for [Windows Outlook desktop](#windows-outlook-desktop).
 
 >[!Note]
->If the Viva Insights add-in is not showing up for you, check out the prerequisites that are described in [Why don't I see Viva Insights?](#why-dont-i-see-viva-insights).
+>If the Viva Insights add-in is not showing up for you, check out the prerequisites that are described in [Why I don't see the add-in](#why-i-do-not-see-the-add-in).
 
 ## What you might see
 
