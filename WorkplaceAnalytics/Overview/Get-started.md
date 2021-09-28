@@ -23,10 +23,6 @@ The Microsoft Workplace Analytics web app gives analysts (often at the behest of
 
 Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with the Query designer.
 
-## Requirements for analysts
-
-[!INCLUDE [Requirements for analysts](../includes/analyst-requirements.md)]
-
 ## Options for exploring and analyzing data
 
 Workplace Analytics provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways.
