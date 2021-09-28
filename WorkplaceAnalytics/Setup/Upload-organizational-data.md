@@ -71,7 +71,7 @@ In the following steps, you specify a .csv file to upload to Workplace Analytics
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these in **Organizational data** > **Upload**.
 
-<img src="../images/wpa/setup/new-upload2.png" alt="Upload page">
+<img src="../images/wpa/setup/upload2-map-top.png" alt="Upload page">
 
 The **Upload** page includes tables for System fields and Custom fields for mapping the data for the upload file.
 
