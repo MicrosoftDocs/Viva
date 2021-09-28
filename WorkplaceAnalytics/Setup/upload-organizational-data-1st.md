@@ -116,7 +116,7 @@ After you complete the steps in [File upload](#file-upload), do the following to
 
 1. In **Upload**, map the required fields.
 
-    ![System fields table.](../images/wpa/setup/2-orgd-map-fields.png)
+    ![System fields table.](../images/wpa/setup/system-fields.png)
   
    1. Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).
    2. In **Source column** (the first column in the table), select the name that corresponds with the applicable Workplace Analytics attribute name.

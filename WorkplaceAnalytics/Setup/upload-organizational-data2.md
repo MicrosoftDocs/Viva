@@ -103,7 +103,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these in **Organizational data > Upload**.
 
-![Upload page.](../images/wpa/setup/upload2-map-top.png)
+![Upload page.](../images/wpa/setup/new-upload2.png)
 
 The **Upload** page has System fields and Custom fields that you need to map for the upload file.
 
