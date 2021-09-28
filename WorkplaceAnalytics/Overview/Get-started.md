@@ -23,13 +23,6 @@ The Microsoft Workplace Analytics web app gives analysts (often at the behest of
 
 Analysts can explore organizational data with the Workplace Analytics dashboards, and dive deeper into their company's behavioral metrics with the Query designer.
 
-## Requirements for analysts
-
-Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
-
->[!Note]
->An employee need not have a Workplace Analytics license to perform analyst duties; they merely need the analyst role.
-
 ## Options for exploring and analyzing data
 
 Workplace Analytics provides advanced analysis tools for deep diving into the data shown in the [Microsoft Viva Insights app](https://insights.office.com/VivaInsights/). Analysts can analyze and explore data in the following ways.
