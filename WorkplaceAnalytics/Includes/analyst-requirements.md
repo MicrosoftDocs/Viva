@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ms.prod: wpa
 ---
 
-<!-- Note: In the topic, precede this content with the following heading at the proper heading level:
+<!-- Note: In the topic that INCLUDEs this content, precede it with the following heading at the proper heading level:
 
 ## Requirements for analysts
 -->
@@ -20,5 +20,5 @@ Before analysts can get to work, they must have the proper role. Each analyst mu
 
 **Licensing notes**
 
-* To use analyst features, an employee needs only to have the [analyst role](../use/user-roles#role-descriptions-and-access-levels) assigned. They do not need to have been assigned a Workplace Analytics license.
+* To use analyst features, an employee needs only to have the [analyst role](../use/user-roles.md#role-descriptions-and-access-levels) assigned. They do not need to have been assigned a Workplace Analytics license.
 * The predefined templates available in Query designer require the use of the Power BI desktop. You do not need a license for Power BI desktop; you can download it for free by going to [Getting started with Power BI](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/).
