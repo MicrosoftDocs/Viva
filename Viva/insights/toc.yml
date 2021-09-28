@@ -161,7 +161,13 @@ items:
           - name: Introduction
             href: use/viva-insights-intro.md
           - name: Manager insights
-            href: use/viva-insights-my-team.md
+            items: 
+              - name: My team        
+                href: use/viva-insights-my-team.md
+              - name: Employee experience
+                href: use/team-experience.md
+              - name: Team effectiveness
+                href: use/team-effectiveness.md
           - name: Leader insights
             href: use/viva-insights-my-org.md
           - name: FAQ
@@ -202,57 +208,62 @@ items:
                     href: Use/User-Roles.md
                   - name: Assign roles with Azure AD
                     href: setup/assign-user-roles.md
-              - name: Data sources
+              - name: Controls
                 items:
                   - name: Introduction
-                    href: Use/data-sourcesv2.md 
-                  - name: Microsoft 365 data
-                    href: Use/office-365-data.md
-                  - name: Organizational data
+                    href: ~/Use/Settings.md
+                  - name: Data sources
                     items:
-                      - name: Introduction  
-                        href: Use/organizational-data.md
+                      - name: Introduction
+                        href: ~/Use/data-sourcesv2.md 
+                      - name: Microsoft 365 data
+                        href: ~/Use/office-365-data.md
+                      - name: Organizational data
+                        href: ~/Use/organizational-data.md
+                      - name: CRM data
+                        href: ~/Use/crm-data.md
+                  - name: Upload
+                    items:
                       - name: Prepare organizational data
-                        href: Setup/prepare-organizational-data.md
+                        href: ~/Setup/prepare-organizational-data.md
                       - name: Upload organizational data
                         items: 
                           - name: First upload
-                            href: Setup/upload-organizational-data-1st.md 
+                            href: ~/Setup/upload-organizational-data-1st.md 
                           - name: Subsequent uploads
-                            href: Setup/Upload-organizational-data.md 
-                  - name: CRM data
-                    items:
-                      - name: Upload CRM data
-                        href: Setup/crm-data-upload.md
-                      - name: Use CRM data 
-                        href: Use/crm-data.md
-              - name: Admin settings
-                items:
-                  - name: Introduction
-                    href: Use/admin-settings.md
-                  - name: System defaults
-                    href: Use/system-defaults.md
-                    items:
-                      - name: Privacy settings and exclusions
-                        href: Use/privacy-settings.md
-                      - name: Manager settings
-                        href: Use/manager-settings.md
-              - name: Analyst settings
-                items:
-                  - name: Introduction
-                    href: tutorials/exclusions-introduction.md
-                  - name: Meeting exclusions
+                            href: ~/Setup/upload-organizational-data.md 
+                          - name: Upload CRM data
+                            href: ~/Setup/crm-data-upload.md
+                  - name: Leader & manager settings
                     items:
                       - name: Introduction
-                        href: tutorials/meeting-exclusions-intro.md
-                      - name: Walkthroughs
-                        href: tutorials/meeting-exclusion-rules.md
-                      - name: Tools and concepts
-                        href: tutorials/meeting-exclusion-concept.md
-                  - name: Attendee exclusions
-                    href: tutorials/attendee-exclusion-rules.md
+                        href: ~/Use/admin-settings.md
+                      - name: Manager settings
+                        href: ~/Use/manager-settings.md
+                  - name: Analyst settings
+                    items:
+                      - name: Introduction
+                        href: ~/Use/analyst-settings.md
+                      - name: System defaults
+                        href: ~/Use/system-defaults.md
+                            - name: Privacy settings and exclusions
+                        href: ~/Use/privacy-settings.md
+                      - name: Exclusions
+                        items:
+                          - name: Introduction
+                            href: ~/tutorials/exclusions-introduction.md
+                          - name: Meeting exclusions
+                            items:
+                              - name: Introduction
+                                href: ~/tutorials/meeting-exclusions-intro.md
+                              - name: Walkthroughs
+                                href: ~/tutorials/meeting-exclusion-rules.md
+                              - name: Tools and concepts
+                                href: ~/tutorials/meeting-exclusion-concept.md
+                          - name: Attendee exclusions
+                            href: ~/tutorials/attendee-exclusion-rules.md
               - name: Audit logs
-                href: setup/audit-logs.md
+                href: ~/setup/audit-logs.md
           - name: Use advanced insights
             items:
               - name: Introduction
