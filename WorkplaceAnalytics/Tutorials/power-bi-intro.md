@@ -14,6 +14,10 @@ audience: Admin
 
 The Query designer in Workplace Analytics includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
 
+## Requirements for analysts
+
+[!INCLUDE [Requirements for analysts](../includes/analyst-requirements.md)]
+
 >[!Note]
 >The dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
