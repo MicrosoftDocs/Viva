@@ -37,11 +37,11 @@ Subsequent runs will be faster after the initial setup of the mapping key file. 
 
 #### Zoom admin setup demo
 
-<img src="../images/wpa/use/zoom-admin-demo.gif" height="486" width="800" alt="video" data-linktype="relative-path">
+<img src="../images/wpa/use/zoom-admin-demo.gif" height="486" width="800" alt="admin setup video" data-linktype="relative-path">
 
 #### Zoom analyst setup demo
 
-<img src="../images/wpa/use/zoom-analyst-demo.gif" alt="video" data-linktype="relative-path">
+<img src="../images/wpa/use/zoom-analyst-demo.gif" alt="analyst setup video" data-linktype="relative-path">
 
 ## Prerequisites
 
