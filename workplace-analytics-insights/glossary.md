@@ -65,7 +65,7 @@ The following are terms and concepts used in Microsoft 365 Insights (synonymous 
 |Recipient |A person receiving an email (includes people in the to, cc, and bcc lines).|
 |Redundancy (organizational) |Organizational redundancy is present if at least three attendees are from different levels within the same organization. For example, a meeting whose attendees included a General Manager, a Director, and an Independent Contributor from the same organization would be a redundant meeting.|
 |Redundancy (lower level) |An attendee is considered redundant at the lower level if both the attendee's manager and skip-level manager are present in the meeting.|
-|Required attribute |Mandatory organizational data attributes that describe the people being analyzed in the insights. Required attributes include PersonId, EffectiveDate, ManagerId, LevelDesignation (also referred to as level), and Organization.|
+|Required attribute |Mandatory organizational data attributes that describe the people being analyzed in the insights. Required attributes include PersonId, EffectiveDate, ManagerId, and Organization.|
 |Sender |The person who sends an email.|
 |Span |The number of direct reports per manager.|
 |Time investor |A *measured employee* who interacts with other collaborators in meetings and with email or instant messages. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Insights can appear as collaborators, but never as time investors.|

@@ -123,7 +123,7 @@ The following is required before you can run the query in Workplace Analytics an
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires and up to three more that match up with the attributes included in your Glint data.
 
    >[!Important]
-   >If you remove the required, preselected **Organizational data** attributes, you might disable one or more Power BI charts.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
 7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Behavior patterns for Glint** query results, select **PBI template**, and then select **OK** to download the template.
