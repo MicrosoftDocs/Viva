@@ -105,7 +105,7 @@ The following is required before setting up the Zoom integration tool:
    3. When prompted, select **Rscript.exe** for the required script.
    4. Typically, the script file is located in the **C:/Program Files/R/R-4x-x/bin** folder. To find the file:
 
-      * In Windows search, enter **RGUI.exe** to open the R graphical user interface, and then enter **file.path(R.home(), "bin", "Rscript.exe"**
+      * In Windows search, enter **RGUI.exe** to open the R graphical user interface, and then enter **file.path(R.home(), "bin", "Rscript.exe")**
       * Or in a Windows command prompt, enter **PowerShell** to open PowerShell. And then enter **get-childitem -Recurse -Name rscript.exe -path C:\ | select -First 1**
 
         >[!Note]
