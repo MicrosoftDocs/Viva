@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights maintenance
-description: Admin tasks for keeping Microsoft Viva Insights and the data it uses up-to-date
+title: Workplace Analytics Maintenance
+description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -12,16 +12,16 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Maintain Viva Insights
+# Maintain Workplace Analytics
 
-After you have installed Microsoft Viva Insights and your organization is using it, it will require maintenance by an admin. Some maintenance tasks are needed infrequently, while others must be performed regularly.  
+After you have installed Workplace Analytics and your organization is using it, it will require maintenance by an admin. Some maintenance tasks are needed infrequently, while others must be performed regularly.  
 
 ## Update system defaults
 
 * **Task** - Set the default time zone and the default settings for working days and hours.  
 * **Frequency** - As needed to update these settings.
 
-[System defaults in Admin settings](../use/system-defaults.md)
+[System defaults](../use/system-defaults.md)
 
 ## Update privacy settings
 
@@ -37,7 +37,7 @@ After you have installed Microsoft Viva Insights and your organization is using 
 
 ## Update organizational data
 
-* **Task** - Prepare a .csv file that contains organizational data and upload it to Viva Insights.  
+* **Task** - Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.  
 * **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest Microsoft 365 collaboration data. Since email, calendar, and Teams data is updated once a week, it makes sense to provide updates for this data on a similar cadence.
 
 [Prepare organizational data](prepare-organizational-data.md)
@@ -46,15 +46,15 @@ After you have installed Microsoft Viva Insights and your organization is using 
 
 ## Assign licenses  
 
-* **Task** - Assign Viva Insights licenses to individuals.  
+* **Task** - Assign Workplace Analytics licenses to individuals.  
 * **Frequency** - As needed. Perform this task primarily as one step to add a new employee.
 
 [Assign licenses](assign-licenses-to-population.md)
 
 ## Assign roles
 
-* **Task** - Assign Viva Insights roles to individuals.  
-* **Frequency** - As needed. Perform this step when a new employee requires one of the Viva Insights roles, or an existing employee changes roles.
+* **Task** - Assign Workplace Analytics roles to individuals.  
+* **Frequency** - As needed. Perform this step when a new employee requires one of the Workplace Analytics roles, or an existing employee changes roles.
 
 [Assign roles](assign-roles-to-wpa-admins.md)
 
@@ -70,15 +70,15 @@ After you have installed Microsoft Viva Insights and your organization is using 
 * **Task** - Create custom meeting exclusion rules to remove meetings from analysis.  
 * **Frequency** - As needed, create these rules to exclude meetings that might skew your data.
 
-[Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md)
+[Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md)
 
-## Audit Viva Insights activity
+## Audit Workplace Analytics activity
 
-* **Task** - As an Exchange admin, you can monitor the Microsoft 365 audit logs and track Viva Insights activity for all user actions.
+* **Task** - As an Exchange admin, you can monitor the Microsoft 365 audit logs and track Workplace Analytics activity for all user actions.
 * **Frequency** - As needed to ensure compliance with your organization's privacy and security policies.
 
-[Viva Insights audit logs](../setup/audit-logs.md)
+[Workplace Analytics audit logs](../setup/audit-logs.md)
 
 ## Related topics
 
-[Viva Insights settings](../use/settings.md)
+[Workplace Analytics settings](../use/settings.md)

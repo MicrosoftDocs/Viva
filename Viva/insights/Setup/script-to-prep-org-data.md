@@ -1,8 +1,8 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Script for preparing organizational data
-description: How to use a script to prepare data from your organization to upload and use in Microsoft Viva Insights 
+title: Use a script to prepare organizational data in Workplace Analytics
+description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -15,7 +15,9 @@ audience: Admin
 
 # Use a script to prepare organizational data
 
-Whether you are onboarding people to Microsoft Viva Insights for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Viva Insights organizational-data file for you. A Viva Insights admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
+## Introduction
+
+Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
 ## Prerequisites
 
@@ -119,8 +121,8 @@ You can use the following parameters with the Generate-WpaOrganizationFile.ps1 s
 |MSOLCredential |pscredential |The credential of a person who can authenticate with the MSOnline service and execute the _Get-MsolUser_ cmdlet.  |
 |AzureADCredential |pscredential |The credential of a person who can authenticate with the Azure AD service and execute read-only cmdlets such as _Get-AzureADUser_.|
 |RequireCredentialPrompt |switch| If your organization's IT requires multifactor authentication, this switch lets you authenticate by prompting you for credentials. It uses the built-in prompts that are provided by the _Connect-AzureAD_ and _Connect-MsolService_ cmdlets.|
-| EffectiveDateOption| string | Used to determine the EffectiveDate.<ul><li>Select the **InitialPull** option if this is the first time you are generating an organizational data file for Viva Insights.</li><li>Use the **Delta** option if you're creating a later upload of organizational data.</li></ul> |
-|SkipOptionalProperties| switch | As part of information gathering, there are additional properties available via Azure AD and MSOnline that are not required by Viva Insights. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
+| EffectiveDateOption| string | Used to determine the EffectiveDate.<ul><li>Select the **InitialPull** option if this is the first time you are generating an organizational data file for Workplace Analytics.</li><li>Use the **Delta** option if you're creating a later upload of organizational data.</li></ul> |
+|SkipOptionalProperties| switch | As part of information gathering, there are additional properties available via Azure AD and MSOnline that are not required by Workplace Analytics. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
 |InjectThrottling| switch | This switch is used only for debugging. We recommend that you omit this switch because its use hinders performance.|
 
 ## Resulting organizational-data file schema
@@ -133,7 +135,7 @@ After you run this script, the resulting schema in the organizational-data file 
 | **EffectiveDate**    | String | The start date on which this information is current. It must be able to be cast to the .NET type _datetime_.|
 | **ManagerID**        | String | The ID of the person’s manager, assigned in Azure AD. This must be in valid SMTP format.|
 | **Organization**     | String | The person's Azure AD Department field.|
-| **LevelDesignation** | String | The script generates this required column as it creates the organizational data file. However, the script cannot access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make **LevelDesignation** usable by analysts, you must edit the organizational data file and update the value of this attribute for each person before you upload the file. (Optionally, use the Title property instead. See [Optional properties](#optional-properties).) |
+| **LevelDesignation** | String | The script generates this optionally required column as it creates the organizational data file. However, the script cannot access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make **LevelDesignation** usable by analysts, you must edit the organizational data file and update the value of this attribute for each person before you upload the file. (Optionally, use the Title property instead. See [Optional properties](#optional-properties).) |
 | NumDirectReports     | Integer | The number of direct reports, found in Azure AD, of this person.|
 | SupervisorIndicator  | String  | Indicates whether the person does not manage other people, is a manager, or is a manager of managers.|
 | ManagerIsMissingFlag | String  | If there was no manager found in AD or if an error occurred during lookup, this value is _TRUE_; otherwise it is _FALSE_.|
@@ -159,7 +161,7 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 * [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true)
 * [Get support](../overview/getting-support.md)
 
-#### About Viva Insights organizational data
+#### About Workplace Analytics organizational data
 
 * [Prepare organizational data](prepare-organizational-data.md)
 * [Upload organizational data (first upload)](upload-organizational-data-1st.md)

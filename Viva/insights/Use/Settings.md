@@ -1,7 +1,7 @@
 ---
 
-title: Controls in Workplace Analytics for Viva Insights
-description: Learn about what control settings are available in Workplace Analytics for Viva Insights, such as data sources, data uploads, system defaults, privacy rules, and other data analyst settings
+title: Workplace Analytics Controls
+description: Learn about the settings in the Controls section of Workplace Analytics for Viva Insights, such as data sources, data uploads, system defaults, privacy rules, and other data analyst settings
 author: madehmer
 ms.author: v-mideh
 ms.topic: article

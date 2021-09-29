@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Subsequent uploads of organizational data
-description: Steps for subsequent organizational (HR) data uploads into Microsoft Viva Insights assuming this is not your first data upload
+description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -18,10 +18,10 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-Administrators can use the following steps for a subsequent upload (import) of organizational data into Viva Insights. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
+Administrators can use the following steps for a subsequent upload (import) of organizational data into Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
->Only follow these steps if **this is not** the first time you have uploaded organizational data to Viva Insights. If **this is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
+>Only follow these steps if **this is not** the first time you have uploaded organizational data to Workplace Analytics. If **this is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
 
 ## Import tasks
 
@@ -31,7 +31,7 @@ The task of importing organizational data has three parts:
 2. [Field mapping](#field-mapping)
 3. [Data validation](#data-validation)
 
-After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Viva Insights validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
+After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
 <!--### Video: Upload organizational data
 
@@ -41,11 +41,11 @@ The following video might not represent your exact upload experience that is bas
 -->
 ## File upload
 
-Use the following steps to upload (import) your organizational data as a .csv file into Viva Insights.
+Use the following steps to upload (import) your organizational data as a .csv file into Workplace Analytics.
 
-1. Open [Viva Insights](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
-2. Select **Settings** > **Upload**.
-3. Select **Organizational data**, which shows **Upload history** for your organization.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
+2. Select **Data sources** > **Organizational data**.
+3. Select **Upload** to see your organization's **Upload history**.
 4. Select **New upload**.
 5. In **Upload**, select **Name your upload**, enter a name, select **Add an optional description**, and enter a description.
 6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download the .csv template** to help with file requirements:
@@ -70,7 +70,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 8. <a name="step-8"></a>Map the fields as applicable. For details, see [Field column details](#field-column-details).
 
-    1. In **Source column in file**, map the names in the .csv file to the corresponding names in the **Viva Insights attributes**.
+    1. In **Source column in file**, map the names in the .csv file to the corresponding names in the **Workplace Analytics attributes**.
     2. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
 
       * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
@@ -101,9 +101,9 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 ## Field mapping
 
-You need to map the fields (columns) for the source .csv file to the field names that Viva Insights recognizes. You map these in **Organizational data > Upload**.
+You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these in **Organizational data > Upload**.
 
-![Upload page.](../images/wpa/setup/upload2-map-top.png)
+![Upload page.](../images/wpa/setup/new-upload2.png)
 
 The **Upload** page has System fields and Custom fields that you need to map for the upload file.
 
@@ -125,7 +125,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 ### Field column details
 
 * **Source column** corresponds to each of the fields in the uploaded file.
-* **Viva Insights name** is the name of your organization's Viva Insights.
+* **Workplace Analytics name** is the name of your organization's Workplace Analytics.
 * **Data type** is the data type of the fields.
 
    >[!Note]
@@ -144,16 +144,16 @@ Use the Add new data for existing employees or Edit data for existing employees 
 
   * **Show in report** - Lets the actual data value appear in the report just as it was imported in the organizational data file.
   * **Hash in report** - De-identifies sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of showing actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
-  * **Exclude from report** - Prevents the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Viva Insights _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerId. In those cases, you cannot change this value.
+  * **Exclude from report** - Prevents the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerId. In those cases, you cannot change this value.
 
   >[!Note]
   >The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation.
   >
-  >If so, after you finish mapping fields, Viva Insights shows a warning message that reads "Your upload has certain issues that may affect the auto-refresh of queries." For more details about this message, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
+  >If so, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect the auto-refresh of queries." For more details about this message, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
 
 ### If expected columns are missing or excluded
 
-For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, Viva Insights shows a warning message:
+For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, Workplace Analytics shows a warning message:
 
 ![auto-refresh query warning.](../images/wpa/setup/auto-refresh-warning.png)
 
@@ -184,11 +184,11 @@ When this phase completes, the file will either pass or fail validation. Go to t
 
 ## Validation succeeds
 
-If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After a successful validation, Viva Insights processes your new data.
+If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After a successful validation, Workplace Analytics processes your new data.
 
 ![Validation succeeded.](../images/wpa/setup/upload6-validated.png)
 
-You can select **Settings** > **Upload** > **Organizational data** to see **Upload history**. You can then select **Successes** to see the data that was successfully validated and uploaded.
+You can select **Data sources** > **Organizational data** > **Upload** to see **Upload history**. You can then select **Successes** to see the data that was successfully validated and uploaded.
 
 You can do the following for an upload:
 
@@ -225,7 +225,7 @@ The threshold checks for non-null values, so it depends on the intended use of t
 
 Generally, you should set the Validity threshold to a high value. This is especially important if your analysis will focus on that field.
 
-For example, you might include a SupervisorIndicator attribute. At first, you might think that you're not planning to analyze manager behavior and be  tempted to omit this attribute. However, the organization hierarchy is used implicitly by many Viva Insights analyses, such as for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
+For example, you might include a SupervisorIndicator attribute. At first, you might think that you're not planning to analyze manager behavior and be  tempted to omit this attribute. However, the organization hierarchy is used implicitly by many Workplace Analytics analyses, such as for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
 
 #### Set a lower value
 

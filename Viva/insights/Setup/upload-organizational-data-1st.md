@@ -1,7 +1,7 @@
 ---
 
 title: First organizational data upload
-description: Learn how to upload your organizational data through the new Microsoft Viva Insights onboarding experience 
+description: Learn how to upload your organizational data through the new Workplace Analytics onboarding experience 
 author: madehmer
 ms.author: v-pausch
 ms.topic: article
@@ -16,7 +16,7 @@ audience: Admin
 
 # Upload organizational data (first upload)
 
-Administrators must first upload (import) organizational data before you can analyze insights about your company in Microsoft Viva Insights. Complete the following steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
+Administrators must first upload (import) organizational data before you can analyze insights about your company in Workplace Analytics. Complete the following steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
 >Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md) to update previously uploaded data.
@@ -29,7 +29,7 @@ The task of importing organizational data has three parts:
 2. [Field mapping](#field-mapping)
 3. [Data validation](#data-validation)
 
-After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Viva Insights validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
+After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
 ### Video: Upload organizational data
 
@@ -37,7 +37,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 ## File upload
 
-After the initial processing of collaboration data is complete, the next time you open Viva Insights, the page automatically updates to let you know it's time to upload your organizational data as a .csv file into Viva Insights. Use the following steps to do so.
+After the initial processing of collaboration data is complete, the next time you open Workplace Analytics, the page automatically updates to let you know it's time to upload your organizational data as a .csv file into Workplace Analytics. Use the following steps to do so.
 
 1. In **Upload**, select **Name your upload** and enter a name.
 2. Optionally, select **Add an optional description** and type a description.
@@ -56,9 +56,9 @@ After the initial processing of collaboration data is complete, the next time yo
 
 ## Field Mapping
 
-You need to map the fields (columns) for the source .csv file to the field names that Viva Insights recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
+You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
-   ![Map data fields option.](../images/wpa/setup/onboarding-mapping-2.png)
+   ![Map data fields option.](../images/wpa/setup/onboarding-1.png)
 
 This page includes tables for System default fields and Custom fields for mapping the data for the upload file. These field types are described in the following sections.
 
@@ -71,14 +71,14 @@ This page includes tables for System default fields and Custom fields for mappin
 Removed 18 March 2019 per Pramod because it refers to validity threshold.
 Replaced with actual text and then removed that term: -->
 
-System default fields represent attributes that are known by Viva Insights and are used in specific calculations beyond grouping and filtering. A system default field can be either required or optional.
+System default fields represent attributes that are known by Workplace Analytics and are used in specific calculations beyond grouping and filtering. A system default field can be either required or optional.
 
 * **Required fields** are identified in two ways. Their rows have dark shading and show as "Required" under the Source column header. These rows represent data that was found in the uploaded file. For the upload to succeed, you must map the required fields with a column in your .csv file that is the correct data type.
 
    >[!Important]
    >Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
 
-* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Viva Insights suggests for use. You don't need to map these fields if your organization doesn't have data for them.
+* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them.
 
 <!-- Formerly here: 
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
@@ -95,7 +95,7 @@ Replaced with actual text and then removed that term: -->
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 
-* **Viva Insights name** is the name of this attribute in your organization's Viva Insights data. <!-- VERIFYING THIS NAME WITH PRAMOD -->
+* **Workplace Analytics name** is the name of this attribute in your organization's Workplace Analytics data. <!-- VERIFYING THIS NAME WITH PRAMOD. IT MIGHT BE WORKPLACE ANALYTICS ATTRIBUTE -->
 
 * **Data type** is the data type of the fields, such as Email or DateTime.
 
@@ -116,10 +116,10 @@ After you complete the steps in [File upload](#file-upload), do the following to
 
 1. In **Upload**, map the required fields.
 
-    ![System fields table.](../images/wpa/setup/2-orgd-map-fields.png)
+    ![System fields table.](../images/wpa/setup/field-mapping-1.png)
   
-   1. Determine which of the columns in your .csv file correspond to the second column in the table (Viva Insights name).
-   2. In **Source column** (the first column in the table), select the name that corresponds with the applicable Viva Insights attribute name.
+   1. Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).
+   2. In **Source column** (the first column in the table), select the name that corresponds with the applicable Workplace Analytics attribute name.
    3. Select or enter the applicable values for the other columns, including the **Data type** and **Report options**.
    4. Repeat these steps for all the required system fields.
 
@@ -167,7 +167,7 @@ If validation succeeds, in the **Validation results** section, the page displays
 
 ![Validation succeeded.](../images/wpa/setup/4-orgd-reprocess.png)
 
-After successful validation, Viva Insights processes your new data.
+After successful validation, Workplace Analytics processes your new data.
 
 You can select **Settings** > **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
@@ -177,8 +177,8 @@ On this page, you have the following options:
 * Select the **Mapping** icon to see the mapping settings for the workflow.
 * Select the **Validation** (download) icon to see a list of validation warnings.
 
->[!Note]
->Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page.
+> [!Note]
+> Each tenant can have only one upload in progress at a time. Therefore you need to complete the workflow of one data file, which means you either guide it to a successful validation or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the progress bar across the top of the **Upload** page.
 
 ## Validation fails
 
@@ -186,7 +186,7 @@ If data validation fails, the **Setup** page shows a "could not be validated" no
 
 ![Validation failed.](../images/wpa/setup/onboarding-validation-failed.png)
 
-Before you address the problem, you can select **Download error log**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next, such as fix the source data or change the mapping settings.
+Before you address the problem, you can select **Download error log**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next &mdash; fix the source data or change your mapping settings. The following section describes these options:
 
 ### Options upon failed validation
 

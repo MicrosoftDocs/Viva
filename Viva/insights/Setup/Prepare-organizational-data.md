@@ -1,7 +1,7 @@
 ---
 
-title: Prepare organizational data for Workplace Analytics
-description: How to prepare data from your organization to upload to Workplace Analytics and use in Microsoft Viva Insights
+title: Prepare organizational data in Workplace Analytics
+description: How to prepare data from your organization to upload and use in Workplace Analytics 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -16,14 +16,14 @@ audience: Admin
 
 # Prepare organizational data
 
-This describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it in Workplace Analytics.
+This describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it.
 
 To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how:
 
 * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) - Decide what trends you need to learn about to improve efficiency at work. From this, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) - A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.  
 * [Get an export of organizational data](#get-an-export-of-organizational-data) - Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.  
-* [Structure the organizational data](#structure-the-organizational-data) - For your data to validate successfully, you must first structure it correctly in the .csv file that you upload.
+* [Structure the organizational data](#structure-the-organizational-data) - For your data to validate successfully, you must first structure it correctly in the.csv file that you upload.
 * [Upload the data to Workplace Analytics](#upload-the-data-to-workplace-analytics) - After your .csv file is ready, you upload it to Workplace Analytics where, after validation and processing, it becomes available for analysis.
 
 ## Use organizational data for more effective analysis
@@ -99,8 +99,8 @@ The following video describes which attributes are required and optional in your
 
 At a minimum, include the organizational data for all employees who have Workplace Analytics licenses. It's even better to include every person in your company as part of your data upload, even if you plan to gather collaboration data for only a subgroup, a specific target population within the company.
 
->[!Important]
->If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
+> [!Important]
+> If you upload data for everyone, you can analyze who everyone is collaborating with, even if they are outside your target population.
 
 For example, if the people in Marketing communicate frequently with the people in Product Development, but Workplace Analytics has HR data only about the Marketing organization, you won't be able to create reports to show how much time Marketing is spending with Product Development.
 
@@ -116,15 +116,10 @@ The reason for including all licensed employees in the organization is that, if 
 
 If Workplace Analytics detects that data is missing for one or more licensed employees, it alerts admins in two ways:
 
-* <u>Notification</u> &ndash; It sends an in-product notification to the admin. Alerts for these notifications appear on the bell icon:
+* **Notification** - It sends an in-product notification to the admin. To see your notifications, select the **Notifications** (bell) icon.
+* **Banner message** - It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
 
-   ![Admin notification.](../images/wpa/setup/admin-page-bell.png)
-
-   To see your notifications, select the bell icon. 
-
-* <u>Banner</u> &ndash; It shows a banner on the **Upload** > **Organizational data** page that reads **Upload missing organizational data**:
-
-   ![Banner for missing org data.](../images/wpa/setup/admin-page-missing-licensed.png)
+   ![Banner for missing org data.](../images/wpa/setup/missing-licensed.png)
 
    To respond to this warning, follow the steps in [Upload missing organizational data](#upload-missing-organizational-data).
 
@@ -135,8 +130,8 @@ If Workplace Analytics detects that data is missing for one or more licensed emp
    ![Missing org data names.](../images/wpa/setup/sample-csv-file.png)
 
 2. Open the .csv file.
-3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. (See [Know what data to include](#know-what-data-to-include).)
-4. Upload the file. (See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).)
+3. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads. See [Know what data to include](#know-what-data-to-include).
+4. Upload the file. See [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
 ## Also include unlicensed employees
 
@@ -190,20 +185,19 @@ The following video describes how to structure your organizational data file, in
 
 ### Required attributes
 
-The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but the other text attributes are.
+The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but Organization is.
 
-* PersonId
 * EffectiveDate
-* LevelDesignation (case sensitive)
+* PersonId
 * ManagerId
 * Organization (case sensitive)
 
 >[!Note]
->The names of these required attributes are reserved, which means that you cannot use them as the names of [custom attributes](#custom-attributes).  
+>The names of these required attributes are reserved and cannot be used as the names of any new [custom attributes](#custom-attributes).
 
 ### Reserved optional attributes
 
-These are reserved column headers for attributes that are currently used only to filter and group data. As indicated, FunctionType and SupervisorIndicator are case sensitive.
+These are reserved column headers for attributes that are currently used to calculate, filter, and group data. As indicated, FunctionType, LevelDesignation, and SupervisorIndicator are case sensitive. LevelDesignation is used to calculate Redundant and Low quality meeting hours metrics, which won’t be available if LevelDesignation is not uploaded.
 
 |  Attribute  |Case sensitive? |  If used, does a validation<p>threshold apply? | Can be used as the name of a<p>[custom attribute](#custom-attributes)? |  
 | ------------- | ---- | ---- | ---- | ---- |
@@ -211,6 +205,7 @@ These are reserved column headers for attributes that are currently used only to
 | HireDate             | No   | Yes  | No   |
 | HourlyRate           | No   | Yes  | No   |
 | Layer                | No   | Yes  | No   |
+| LevelDesignation     | Yes  | Yes  | No   |
 | SupervisorIndicator  | Yes  | Yes  | No   |
 | TimeZone             | No   | Yes  | No   |
 | GroupId              | No   | No   | No   |
@@ -245,7 +240,7 @@ For more information about attributes, see the [Attribute reference](#attribute-
 
 After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
 
-After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Workplace Analytics admin.
+After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Workplace Analytics administrator.
 
 ### How often to upload organizational data
 
@@ -275,12 +270,12 @@ Attribute (column header) | Description of data / data validity | Data coverage 
 |---------|----------|---------|
 |<a name="personid-define"></a> PersonId |Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid PersonId. Each upload file can have only ONE record with the same PersonID / EffectiveDate pair. |
 EffectiveDate |Date for which the given attribute value applies for the employee. The attribute applies until another record for the same attribute with a different effective date is specified. | Each row must contain a valid EffectiveDate. Each upload file can have only one record with the same PersonID / EffectiveDate pair. |
-|<a name="leveldesignation-define"></a> LevelDesignation | The employee’s level, which is represented as a string. This level is specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain a LevelDesignation value. |
+|<a name="leveldesignation-define"></a> LevelDesignation | The employee’s level, which is represented as a string. This level is specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. |This is a reserved optional attribute that is case sensitive. If it is included, each row must contain a LevelDesignation value. |
 |<a name="managerid-define"></a> ManagerId | Unique identifier for the employee’s manager, which is needed to correctly calculate metrics for time spent with managers and their direct reports.<br>This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid ManagerId. |
 |<a name="organization-define"></a> Organization| The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or by another naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 |<a name="functiontype-define"></a> FunctionType | The job function that the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore the stats. | This attribute column is not required. If it is included, then each row must contain a function value.|
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), it is best to use the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|
-|HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Admin settings](../use/admin-settings.md). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Microsoft 365 collaboration data. For more information, see [System defaults](../use/system-defaults.md).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
+|HourlyRate | The employee’s salary represented as an hourly rate in US dollars. **Notes**:<br><li>If the HR data only provides annual salaries, you'll need to divide the employees’ salaries by 2080 to calculate their hourly rates in the upload (.csv) file before uploading it into Workplace Analytics.</li><li>The value can be formatted as a whole number, or include two decimal places, and cannot include any special characters, such as a dollar sign.</li><li>The value can represent pay only, or include the full value of benefits, as long as that choice is consistently applied for all employees.</li><li>This rate is used in calculations and can be used to filter and group employees.</li><li>If the upload doesn’t include an hourly rate for an employee, Workplace Analytics uses a default HourlyRate of $75 for calculations and metrics.</li><li>You can change the default rate in [Analyst settings](../use/admin-settings.md). If you change the default, this change applies retroactively to anyone without an effective hourly rate for the next scheduled refresh of your organizational (HR) or Microsoft 365 collaboration data. For more information, see [System defaults](../use/system-defaults.md).|This attribute column is not required. If it is included, then each row must contain a floating point or integer value with no special characters (such as a dollar sign).|
 |Layer | The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO, is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../use/explore-intro.md) features. | This attribute column is not required. If it is included, then each row must contain an integer value.|
 |SupervisorIndicator  | Use this attribute to view the habits of people managers or influencers in your organization in Power BI visualizations. It powers the Overview table, the Generated Workload charts that are generated when you use a [Template](../tutorials/power-bi-templates.md) that requires it. <p></p>This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, note that if different nomenclature is used in your file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in your organizational data. | This attribute is required for some of the Templates, such as [Ways of working assessment](../tutorials/power-bi-collab-assess.md).|
 |TimeZone |Time zone in which the employee performs work. This must be one of the time zones in [Time zones for Workplace Analytics](../use/timezones-for-workplace-analytics.md). If you do not have a time zone available for each employee, the system will use the default, which is Pacific Standard Time. | This attribute column is not required. If it is not included, the default time zone will be used.|

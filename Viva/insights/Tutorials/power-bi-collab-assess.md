@@ -84,7 +84,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
 
    >[!Important]
-   >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
 6. You must then locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the drop-down menu, contact your Workplace Analytics admin to confirm whether the field was included in the Organizational HR data file and made available in the query output.
 

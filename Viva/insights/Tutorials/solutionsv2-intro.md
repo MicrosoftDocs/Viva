@@ -1,8 +1,8 @@
 ---
 
-title: Introduction to Viva Insights plans
-description: Introduction to Viva Insights plans
-author: madehmer
+title: Introduction to Workplace Analytics plans
+description: Introduction to Workplace Analytics plans
+author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
 ms.localizationpriority: medium 
@@ -12,18 +12,18 @@ ms.prod: wpa
 
 ---
 
-# Viva Insights plans
+# Workplace Analytics plans
 
-By combining the capabilities of personal insights, manager insights, and advanced insights in Viva Insights, plans help you transform these insights into targeted change plans across your organization. Targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals. By using the plans feature, you can, for example:  
+By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your organization. Targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals. By using the plans feature, you can, for example:  
 
-1. Use Viva Insights in Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
+1. Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 
-2. Set up 12-week plans for the identified groups. The members of the group experience the plan through their [Personal insights](../personal/mya-landing-page.md).
+2. Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
 
 3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
    >[!Note]
-   >Plans are intended for use by analysts or program managers. For general information about roles, see [User roles](../use/user-roles.md).
+   >Plans are intended for use by analysts or program managers. For general information about roles, see [User roles in Workplace Analytics](../use/user-roles.md).
 
 For more information about real-world possibilities, see [Microsoft Workplace Insights](https://insights.office.com/). <!-- and [[Helen's video]]. -->
 
@@ -31,14 +31,17 @@ For more information about real-world possibilities, see [Microsoft Workplace In
 <iframe width="640" height="564" src="https://player.vimeo.com/video/287139611" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 -->
 
-## Available plans
+## Available Workplace Analytics plans
 
-Viva Insights in Workplace Analytics currently offers plans of the following types:
+Workplace Analytics currently offers plans of the following types:
 
 * [Teamwork improvement plans](teamwork-solution.md) have the goal of helping employees work better together.
-* [Seller success solution](seller-success.md) has the goal of helping sales people become more productive.
 
-## Creating and using plans
+<!-- UNCOMMENT THIS IF WE EVER RELEASE SELLER SUCCESS: 
+ * [Seller success solution](seller-success.md) has the goal of helping sales people become more productive. 
+-->
+
+## Creating and using Workplace Analytics plans
 
 See the following topics to learn how to create and track plans:
 
@@ -56,14 +59,13 @@ Confirm that your organization meets the following licensing prerequisites:
 
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
-  * A [Viva Insights license](../setup/assign-licenses-to-population.md)
-  * A license in either one of the following [service plans](../personal/setup/configure.md#assign-licenses-with-a-service-plan):
-
-    * Viva Insights (Full)
-    * Insights Outlook add-in
+  * A [Workplace Analytics license](../setup/assign-licenses-to-population.md)
+  * A MyAnalytics license in either one of the following [service plans](../myanalytics/setup/configure-myanalytics.md#assign-licenses-with-a-myanalytics-service-plan): 
+    * MyAnalytics (Full)
+    * Insights by MyAnalytics
 
 >[!Note]
->Managers get access to their team's data and plans in Viva Insights as set in [Manager settings](../use/manager-settings.md).
+>Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/manager-settings.md).
 
 <!-- RECONSTITUTE THE SECTION "WHEN MULTIPLE ROLES ARE ASSIGNED"
    > [!Note]
@@ -71,9 +73,9 @@ Confirm that your organization meets the following licensing prerequisites:
 
 <!-- REMOVING PLAYBOOK FOR NOW. IT'S FULL OR "PROGRAM" AND "HABITS" AND PROCEDURES THAT DO NOT REFLECT THE NEW SIMPLER MODEL. 
 
-## Teamwork playbook
+## Workplace Analytics solution for teamwork playbook
 
-The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provides tips on how to best use Teamwork plans to achieve maximum benefit for your organization:
+The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provides tips on how to best use Workplace Analytics Teamwork plans to achieve maximum benefit for your organization:
 
 [![solution for teamwork playbook.](../images/wpa/tutorials/solns-playbook-title.png)](wpa-teamwork-solution-playbook.pdf)
 -->
@@ -94,9 +96,9 @@ All roles -- analysts of both levels or program managers -- can upload a .csv fi
 
 Additional information about roles and access:
 
-* For more information about roles in Workplace Analytics, see [User roles](../use/user-roles.md).
+* For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
 
-* For more information about assigning roles, see [Assign roles to Viva Insights admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
+* For more information about assigning roles, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
 
 ### Plan implementation
 
@@ -106,9 +108,9 @@ Additional information about roles and access:
 
 **Q2:** What is the minimum group size?
 
-**A2:** In **Admin settings** > **Privacy settings**, admins can set the [minimum group size](../use/privacy-settings.md) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
+**A2:** In **Analyst settings** > **Privacy**, admins can set the [minimum group size](../use/privacy-settings.md) for an organization or tenant, which can be greater than or equal to the absolute limit of **5** (five people).
 
-In **Admin settings** > **Manager settings**, admins can also set a [Minimum team size](../use/manager-settings.md) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
+In **Leader and manager settings** > **Manager settings**, admins can also set a [Minimum team size](../use/manager-settings.md) for people managers, which is different than the overall minimum group size setting. The absolute limit for this team size setting is **10**, which applies to all managers.
 
 **Q3:** Can I monitor metrics for specific users?
 
