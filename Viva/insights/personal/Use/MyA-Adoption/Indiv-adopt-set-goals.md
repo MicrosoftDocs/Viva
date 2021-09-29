@@ -16,16 +16,14 @@ audience: Admin
 
 # Set your goal
 
-## Define your purpose 
-
 After you gain more clarity on your collaboration problem and before you set your specific MyAnalytics goal, take some time to reflect on and clearly articulate why you might want to change your behaviors. Articulating these reasons can strengthen your motivation. 
 
 People aim to align their actions with their beliefs. If you don’t fully believe in the underlying reasons for change, it will be more difficult to maintain new habits. Try answering the following questions to define your purpose for change:
 
- * Why is it important for me to change?
- * How exactly will things be better for me if I change?
- * How will this change make me a better teammate and/or manager?
- * What are the risks of not changing?
+* Why is it important for me to change?
+* How exactly will things be better for me if I change?
+* How will this change make me a better teammate and/or manager?
+* What are the risks of not changing?
 
 ## Define your measurable goal 
 

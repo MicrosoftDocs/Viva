@@ -20,9 +20,11 @@ The learning modules include:
 * Tips on how to interpret personal insights data and use the available features
 * Links to articles to learn more about specific topics
 * Fun behavioral-science lessons
+* [Habit playbooks](Adopt-habit-playbooks.md)
+
 
 The following can help you learn more about how to track and analyze your focus hours, meetings, and email data. You can also find lessons in these modules on how to maintain important relationships in your network.
 
-* [MyAnalytics focus hours](MyAnalytics-focus-hours-september-2018.pdf)
-* [MyAnalytics meetings](MyAnalytics-meetings-september-2018.pdf)
-* [MyAnalytics email](MyAnalytics-email-september-2018.pdf)
+* [MyAnalytics focus hours](https://download.microsoft.com/download/f/3/d/f3ddfd34-75d3-4c93-8fae-51c5475567d8/MyAnalytics-focus-hours-september-2018.pdf)
+* [MyAnalytics meetings](https://download.microsoft.com/download/5/b/5/5b5ad4f7-1dc0-4872-ae54-0021d882f55e/MyAnalytics-meetings-september-2018.pdf)
+* [MyAnalytics email](https://download.microsoft.com/download/2/4/a/24af4953-fa8c-479f-bf1f-50e761531e0a/MyAnalytics-email-september-2018.pdf)

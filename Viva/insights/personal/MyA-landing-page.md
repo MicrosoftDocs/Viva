@@ -32,5 +32,4 @@ Microsoft Viva Insights provides personal insights into two of the key factors i
 
   * [Individual adoption](../personal/use/MyA-Adoption/Indiv-adopt-get-started.md) &ndash; Individuals learn how to use personal insights to build and sustain healthier work patterns.
   * [Team adoption](../personal/use/MyA-Adoption/Team-adopt-intro.md) &ndash; Team members learn how to set and track goals and build new habits to change the way the team collaborates.
-
-<!--  * [Habit resources](../personal/use/MyA-Adoption/adopt-learning-modules.md) &ndash; The learning modules and habit playbooks in this section help you build positive new habits and show you how to use Viva Insights more effectively.
+  * [Habit resources](../personal/use/MyA-Adoption/adopt-learning-modules.md) &ndash; The learning modules and habit playbooks in this section help you build positive new habits and show you how to use Viva Insights more effectively.
