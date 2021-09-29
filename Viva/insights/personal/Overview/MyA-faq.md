@@ -176,7 +176,7 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 ##### Q1. Why can't I see the MyAnalytics dashboard?
 
-The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
+The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in [Plans and environments](plans-environments.md). If an organization has no *qualifying plan*, its members can't see any of the personal insight elements, including the dashboard, and MyAnalytics does not use their data.
 
 ##### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
 
