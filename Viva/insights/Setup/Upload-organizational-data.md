@@ -44,12 +44,11 @@ In the following steps, you specify a .csv file to upload to Viva Insights.
 **To select the file to upload**
 
 1. Open [Viva Insights](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
-2. In the left navigation pane, select **Settings**.
-3. Select **Organizational data**. The **Upload history** area of this page shows the previous data uploads from your organization.
-4. Select **New upload**.
-5. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
-6. Optionally, select **Add an optional description** and type a description of this upload.
-7. In **Select file**, choose **Select file**, select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following **important upload considerations**:<a name="important-upload-considerations"></a>
+2. In the left navigation pane, select **Data sources** > **Organizational data**. The **Upload history** area of this page shows the previous data uploads from your organization.
+3. Select **New upload**.
+4. On the **Upload** page, select **Name your upload**, and then type the name of your new upload file.
+5. Optionally, select **Add an optional description** and type a description of this upload.
+6. In **Select file**, choose **Select file**, select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following **important upload considerations**:<a name="important-upload-considerations"></a>
 
    * The .csv file that you upload must be UTF-8 encoded.
    * Make sure that the file you are uploading is not open in a different program when you begin the upload process.
@@ -58,8 +57,8 @@ In the following steps, you specify a .csv file to upload to Viva Insights.
    >[!Note]
    >If you are uploading new data, go to step 8, *Complete new file upload*. However, if you have uploaded data and then discovered that it contains sensitive, incorrect, or unauthorized data, you must remove the uploaded data and replace it with a new file. To do this, go to step 9, *Append or replace organizational data*.
 
-8. To complete a new-file upload, select **Next**. This shows the **System fields** table. Go to [Field mapping](#field-mapping).
-9. If you are not uploading a new data file, you must now choose whether to append or replace organizational data. In the **Append or replace** area, select one of the following options:
+7. To complete a new-file upload, select **Next**. This shows the **System fields** table. Go to [Field mapping](#field-mapping).
+8. If you are not uploading a new data file, you must now choose whether to append or replace organizational data. In the **Append or replace** area, select one of the following options:
 
     * Use **Append the existing organization data** to update attribute values for existing employees, to add new employees, or to add new attributes (columns). This is the default option.
 
