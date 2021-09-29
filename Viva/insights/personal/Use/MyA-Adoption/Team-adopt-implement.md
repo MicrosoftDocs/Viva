@@ -123,7 +123,7 @@ Each habit playbook provides a suggested behavior to turn into a habit, an expla
   >[!Note]
   >These playbooks can also be found in the [Learning modules](adopt-learning-modules.md).
 
-* [Habit playbook template]([https://download.microsoft.com/download/a/4/5/a45b4038-d929-49b9-9068-cf92fc3772f9/Habit-playbook-template.pptx) - Use to create your own custom playbooks for your team using the template provided.
+* [Habit playbook template](https://download.microsoft.com/download/a/4/5/a45b4038-d929-49b9-9068-cf92fc3772f9/Habit-playbook-template.pptx) - Use to create your own custom playbooks for your team using the template provided.
 
 ## Check-ins
 
