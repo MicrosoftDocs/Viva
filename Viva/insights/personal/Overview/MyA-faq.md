@@ -148,12 +148,12 @@ Yes, you can. But first, what's the difference between "opt out" and "remove"?
  * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out) but in step 4, set the control to **On**.)
  * **Remove:** If you remove the add-in, not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Viva Insights Outlook add-in](#add-the-viva-insights-outlook-add-in)).  
 
-###### Remove the Insights Outlook add-in
+###### Remove the Viva Insights Outlook add-in
 
-Follow these steps to remove the Insights add-in from your Outlook ribbon.
+Follow these steps to remove the Viva Insights add-in from your Outlook ribbon.
 
-> [!Note] 
-> This procedure also removes [inline suggestions in Outlook](../use/mya-notifications.md).
+>[!Note]
+>This procedure also removes [inline suggestions in Outlook](../use/mya-notifications.md).
 
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
 
@@ -176,7 +176,7 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 ##### Q1. Why can't I see the MyAnalytics dashboard?
 
-The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](../../myanalytics/overview/plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
+The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in the table under [Availability of features](plans-environments.md#availability-of-features). If an organization has no *qualifying plan*, its members can't see any of the MyAnalytics elements, including the dashboard, and MyAnalytics does not use their data.
 
 ##### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
 
@@ -273,7 +273,7 @@ The questions in this section are sorted into the following areas:
 You can manage the experience in two ways:
 
 * Configure access to MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level).
-* Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configuremd#configure-access-at-the-user-level).
+* Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
 
 ##### Q2. How can I pilot MyAnalytics to a subset of users?
 
@@ -306,7 +306,7 @@ See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in
 
 ##### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
-The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](plans-environments.md#access-to-myanalytics-elements).
+The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](plans-environments.md#access-to-viva-insights-elements).
 
 ##### Q4. How do the MyAnalytics digests show up in Outlook?
 
@@ -316,16 +316,16 @@ The dashboard is available to MyAnalytics users a few days after getting assigne
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest sent on a Monday or Tuesday to your Outlook inbox, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
-##### Q6. Which MyAnalytics features are _not_ available to users who have the "Insights by MyAnalytics" service plan?
+##### Q6. Which features are _not_ available to which service plans?
 
 The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
    > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
 
-##### Q7. Why can't licensed users see one or more of the MyAnalytics elements?
+##### Q7. Why can't licensed users see one or more of the Viva Insights or MyAnalytics elements?
 
-* Check [Access to MyAnalytics elements](plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
+* Check [Access to Viva Insights elements](plans-environments.md#access-to-viva-insights-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
 * Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) for more details:
 
    ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```

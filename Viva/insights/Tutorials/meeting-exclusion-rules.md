@@ -23,7 +23,7 @@ As an analyst, you can work with meeting exclusion rules in the following ways:
 
 **Owners** – Viva Insights Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-![Analyst settings](../images/WpA/Tutorials/analyst-settings.png)
+![Analyst exclusion settings](../images/WpA/Tutorials/analyst-exclusion-settings.png)
 
 ### For more information
 

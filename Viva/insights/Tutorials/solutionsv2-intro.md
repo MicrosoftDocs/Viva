@@ -60,7 +60,7 @@ Confirm that your organization meets the following licensing prerequisites:
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
   * A [Workplace Analytics license](../setup/assign-licenses-to-population.md)
-  * A Viva Insights or MyAnalytics license in either one of the following [service plans](../personal/setup/configure-myanalytics.md#assign-licenses-with-a-myanalytics-service-plan): 
+  * A Viva Insights or MyAnalytics license in either one of the following [service plans](../personal/setup/configure.md#assign-licenses-with-a-myanalytics-service-plan): 
     * Viva Insights or MyAnalytics (Full)
     * Viva Insights in Outlook
 
