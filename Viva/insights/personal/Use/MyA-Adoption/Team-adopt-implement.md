@@ -87,20 +87,19 @@ Ask program participants to follow these instructions:
 During this process, emphasize to participants that, to protect their privacy, their data will be aggregated and not shared at the individual level. Only the program manager will view the data at the individual level.
 
 At the end of the program, repeat the same process as a part of your post-program survey.
-
+<!--
 ## Learning modules
 
 A Learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral science lessons. 
 
 What follows are modules about: focus hours, meetings, and email data. You can also find lessons in these modules on how to maintain important relationships in your network.
 
-* [MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
-* [MyAnalytics Meetings](MyAnalytics-meetings-september-2018.pdf)
-* [MyAnalytics Email](MyAnalytics-email-september-2018.pdf)
-* [MyAnalytics After hours](MyAnalytics-after-hours-september-2018.pdf)
+* MyAnalytics Focus hours
+* MyAnalytics Meetings
+* MyAnalytics Email
 
 Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](Team-adopt-plan.md#team-norms-survey). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method.
-
+-->
 ## Habit-building method
 
 Below is a habit-building method based on behavioral science that can be used to help your team turn a selected behavior into a habit using MyAnalytics.
@@ -112,20 +111,20 @@ Below is a habit-building method based on behavioral science that can be used to
 For additional tailored behavior change tips, take the: [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
 
 To learn more about _The Power of Habit_, see: [The Power of Habit Resources](http://charlesduhigg.com/resources/).
-
+<!--
 ## Habit playbooks
 
 Habit playbooks are examples of how to use MyAnalytics to turn specific behaviors into habits using the Habit-building method. The playbooks leverage [microlearning](https://en.wikipedia.org/wiki/Microlearning), a method of learning through bite-sized lessons. They are compatible with microlearning since the key to building new habits is simplicity and starting small. BJ Fogg, PhD, a behavioral scientist at Stanford University who has studied behavior change for over two decades, said that “baby steps” are one of the only things what will change behavior in the long term.
 
 Each habit playbook provides a suggested behavior to turn into a habit, an explanation of why the habit is important, and a goal-oriented plan using MyAnalytics to build the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the playbook goals. The experiences and results make for a great check-in-meeting topic, too.
 
-* [Habit playbook examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
+* Habit playbook examples. You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
 
   > [!Note]
   > These playbooks can also be found in the [Learning modules](adopt-learning-modules.md).
 
-* [Habit playbook template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
-
+* Habit playbook template. Create your own custom playbooks for your team using the template provided.
+-->
 ## Check-ins
 
 In your check-in meetings, you and the program participants can discuss program learnings, MyAnalytics, and the experience in general. Set a frequency that works best for your team. Typically, a bi-weekly cadence is sufficiently frequent. Alternatively, you can dedicate part of the agenda of an existing team meeting for these check-ins. The recommended duration time is 15-30 minutes, depending on the agenda and size of the team. Meetings can be held virtually, in-person, or a mix of both depending on where team members are located.

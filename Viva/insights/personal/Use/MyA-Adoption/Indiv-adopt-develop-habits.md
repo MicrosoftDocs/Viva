@@ -26,4 +26,5 @@ We recommend that you start by selecting one or two behaviors to keep things sim
 
 * [Learning modules for MyAnalytics](adopt-learning-modules.md)
 * [Habit-building method](adopt-habit-building.md)
-* [Habit playbooks](adopt-habit-playbooks.md)
+
+<!--* [Habit playbooks](adopt-habit-playbooks.md)

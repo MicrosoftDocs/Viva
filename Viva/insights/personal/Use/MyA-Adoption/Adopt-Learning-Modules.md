@@ -17,8 +17,7 @@ MyAnalytics has a few learning modules to help you set up and use its data. Thes
 The learning modules include:
 
 * Healthy behavior suggestions
-* [Habit playbooks](adopt-habit-playbooks.md)
-* Tips on how to interpret MyAnalytics data and use its features
+* Tips on how to interpret personal insights data and use the available features
 * Links to articles to learn more about specific topics
 * Fun behavioral-science lessons
 

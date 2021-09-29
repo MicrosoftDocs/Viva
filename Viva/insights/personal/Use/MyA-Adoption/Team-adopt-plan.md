@@ -116,10 +116,9 @@ These materials provide guidance for using the following six program components:
 * [Kickoff meeting](Team-adopt-implement.md#kickoff-meeting)
 * [Surveys](Team-adopt-plan.md#create-surveys)
 * [Learning modules](Adopt-Learning-modules.md)
-* [Habit playbooks](adopt-habit-playbooks.md)
 * [Check-ins](Team-adopt-implement.md#check-ins)
 * [Collaboration channel](Team-adopt-plan.md#establish-a-collaboration-channel)
-
+<!--* [Habit playbooks](adopt-habit-playbooks.md)-->
 While all of these components can improve your program’s success, it is important to design a program that meets the needs of your team. To that end, we recommend that you read the sections about these components, then select the ones that will work best for your team. For example, if your group communicates well by using a collaboration application and you are aiming to minimize the weekly time commitment, you might choose to exclude weekly check-in meetings and rely solely on the application for program discussions.
 
 After you select your program components, determine the right dates and frequency for each component. You can then estimate a weekly time commitment for the team members and include that estimate in your program launch communications.
