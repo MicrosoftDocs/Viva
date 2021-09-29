@@ -25,7 +25,7 @@ You can exclude events with one of the following exclusion types:
 
 **Owners** – Viva Insights Analysts have full access and limited Analysts have read-only access to these settings. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
 
-![Analyst settings](../images/WpA/Tutorials/analyst-settings.png)
+![Analyst settings](../images/WpA/Tutorials/analysis-settings.png)
 
 ## Notes
 

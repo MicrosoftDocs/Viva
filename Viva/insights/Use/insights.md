@@ -36,7 +36,7 @@ You can select **Download PowerPoint** to create and view a PowerPoint version o
 
 ## Analysis scope
 
-The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Office 365 data](office-365-data.md) to learn more about what data Workplace Analytics requires and uses for this analysis.
+The top right of the page shows who is included in this analysis. This data is based on the most recent organizational HR and collaboration data uploaded to and processed in Workplace Analytics, which includes the current date range and the number of measured employees, managers, teams, and organizational levels. See [Organizational data](organizational-data.md) and [Microsoft 365 data](office-365-data.md) to learn more about what data Workplace Analytics requires and uses for this analysis.
 
 ## Supporting evidence
 
@@ -76,4 +76,4 @@ These insights are only about the participants who are included in the selected 
 
 #### Q2 Which roles have access to these insights?
 
-The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Workplace Analytics manager insights](pm-home.md) for more details.
+The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Manager insights](viva-insights-my-team.md) for details.

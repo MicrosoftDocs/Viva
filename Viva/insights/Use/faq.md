@@ -1,9 +1,9 @@
 ---
 
-title: FAQ for advanced insights
-description: Frequently asked questions about advanced insights with Microsoft Viva Insights in Workplace Analytics
+title: Workplace Analytics FAQ
+description: Frequently asked questions about Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: v-pausch
 ms.topic: reference
 ms.localizationpriority: medium
 ms.prod: wpa
@@ -12,9 +12,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Advanced insights FAQ
+# Workplace Analytics FAQ
 
-The most commonly asked questions and answers about advanced insights with Microsoft Viva Insights in Workpace Analytics are grouped into the following sections:
+The most commonly asked questions and answers about Workplace Analytics are grouped into the following sections:
 
 [Product information](#product-information)
 
@@ -22,7 +22,7 @@ The most commonly asked questions and answers about advanced insights with Micro
 * [Privacy and compliance](#privacy-and-compliance)
 * [Language support](#language-support)
 
-[Set up Workplace Analytics](#workplace-analytics-setup)
+[Workplace Analytics setup](#workplace-analytics-setup)
 
 * [Setup and configuration](#setup-and-configuration)
 * [Organizational data](#organizational-data)
@@ -42,31 +42,38 @@ The most commonly asked questions and answers about advanced insights with Micro
 
 A1.  No. Workplace Analytics is a collaboration analysis tool that can be used to analyze behavior and network patterns.
 
-##### Q2. How do personal and advanced insights differ in Viva Insights?
+##### Q2. How do MyAnalytics and Workplace Analytics differ?
 
-A2. Personal insights (formerly MyAnalytics) in Viva Insights shows personal and private data to Microsoft 365 users in Teams and in Outlook through [digest emails](../personal/use/email-digest-2.md), [inline suggestions](../personal/use/mya-notifications.md) and the [Insights Outlook add-in](../personal/use/add-in.md). It can also be accessed through a web [dashboard](../personal/use/dashboard-2.md).
+A2. MyAnalytics presents personal and private insights to Microsoft 365 users in Outlook through [digest emails](../myanalytics/use/email-digest-2.md), [inline suggestions](../myanalytics/use/mya-notifications.md) and the [Insights Outlook add-in](../myanalytics/use/add-in.md). It can also be accessed through a web [dashboard](../myanalytics/use/dashboard-2.md).
 
-Advanced insights in Workplace Analytics are used by organizations to run top-down analysis, which only compute aggregated and de-identified metrics.
+Workplace Analytics is a tool that is used by organizations for running top-down analysis and it computes only aggregated and de-identified metrics.
 
 ### Privacy and compliance
 
 ##### Q1. How much data does Workplace Analytics collect?
 
-A1.  Workplace Analytics initially collects and processes 13 months' worth of data. Through weekly refreshes, Workplace Analytics continues to increase this history until 27 months’ worth of data is collected. Customers can file a request, for security reasons, to provide Viva Insights in Workplace Analytics with less than this default amount; in that case, the minimum amount that can be collected is one month.
+A1.  Workplace Analytics initially collects and processes 13 months' worth of data. Through weekly refreshes, Workplace Analytics continues to increase this history until 27 months’ worth of data is collected. Customers can file a request, for security reasons, to provide Workplace Analytics with less than this default amount; in that case, the minimum amount that can be collected is one month.
 
-##### Q2. Does Viva Insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
+<!-- REMOVING THIS SCARY QUESTION FOR NOW
 
-A2. Viva Insights in Workplace Analytics is not available in data cloud environments that Microsoft maintains for government agencies.
+##### Q6. Can the data gathered for Workplace Analytics be accessed by Microsoft or by anybody in the tenant or company?
+
+A6.  No. All data is encrypted and kept available only for queries and for Explore the stats data.
+-->
+
+##### Q2. Does Workplace Analytics support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
+
+A2. Workplace Analytics is not available in data cloud environments that Microsoft maintains for government agencies.
 
 ### Language support
 
-##### Q1. Can I use Viva Insights in Workplace Analytics in a language other than English?
+##### Q1. Can I use Workplace Analytics in a language other than English?
 
-A1. Yes. See [Language support and guidelines](../overview/supported-languages.md).
+A1. Yes. See [Workplace Analytics language support and guidelines](../overview/supported-languages.md).
 
 ##### Q2. Can I upload an organizational data file that has non-English words or letters?
 
-A2. Yes. The organizational data file can have non-English words or letters. Note the following:
+A2. Yes. The organizational data file can have non-English words or letters. Note the following: 
   
 * File names and individual rows can have non-English words or letters.
 * Each column header must be mapped to an attribute with an English name.
@@ -108,11 +115,11 @@ A2. The following license plans work:
 
 ##### Q2. Does it present a problem if my licensed population works in different time zones or has varying working hours?
 
-A2. No. Viva Insights in Workplace Analytics can determine each employee's time-zone value and their working hours, regardless of their location. To make this determination, Workplace Analytics carries out the steps that are described in [Default time zone](../use/system-defaults.md#default-time-zone).
+A2. No. Workplace Analytics can determine each employee's time-zone value and their working hours, regardless of their location. To make this determination, Workplace Analytics carries out the steps that are described in [Default time zone](../use/system-defaults.md#default-time-zone).
 
 ##### Q3. Can I configure the user data that particular analysts can access and use?
 
-A3. You can assign analysts the analyst (limited access) role, which limits them to view [Explore the stats](explore-intro.md) data. See [Assign roles](../setup/assign-roles-to-wpa-admins.md) and [User roles](user-roles.md) for more details.
+A3. You can assign analysts the analyst (limited access) role, which limits them to view [Explore the stats](explore-intro.md) data. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details.
 
 <!-- ^^^ *** After partitions ship, add them to this answer. *** ^^^ -->
 
@@ -120,15 +127,15 @@ A3. You can assign analysts the analyst (limited access) role, which limits them
 
 A4. The Start time and End time values determine the working hours for which data will be analyzed. They also determine the time period that is considered *after hours*. <!--(Note that the system time zone is checked once a week, so if an employee travels for a short time the change in their local time might not be captured and reflected in their Start and End times.) --> See [Working days and working hours](system-defaults.md#working-days-and-working-hours).
 
-##### Q5. Is there a maximum number of analyst roles that can be assigned?
+##### Q5. Is there a maximum number of Workplace Analytics analyst roles that can be assigned?
 
 A5. No. No limit is imposed by Workplace Analytics.
 
-##### Q6. In the _Data sources_ section, on the "Office 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
+##### Q6. In the Workplace Analytics _Data sources_ section, on the "Microsoft 365 data" page, you can see the number of "Measured employees." Is this the number of licensed users or the number of both licensed and un-licensed?
 
 A6. Licensed. Specifically, this number refers to licensed employees who are also present in the collaboration (Microsoft 365 or Office 365) data. For more information, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
-##### Q7. What happens with users who were not assigned a Viva Insights or Workplace Analytics license? Are they ignored?
+##### Q7. What happens with users who were not assigned a Workplace Analytics license? Are they ignored?
 
 A7. No, they are not ignored but they are not measured and their data is not processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
@@ -151,15 +158,15 @@ A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (who would be represented by ManagerIDs)?
 
-A4.  Organizational data allows for the identification of only one single, primary manager. This manager is represented by the ManagerID for that PersonID on a given EffectiveDate. However, note that the Viva Insights or Workplace Analytics admin can use the EffectiveDate field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next. 
+A4.  Organizational data allows for the identification of only one single, primary manager. This manager is represented by the ManagerID for that PersonID on a given EffectiveDate. However, note that the Workplace Analytics admin can use the EffectiveDate field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next. 
 
 ##### Q5. Who obtains the organizational data that must be uploaded to Workplace Analytics?
 
-A5. Usually, HR obtains this data and provides it to the Viva Insights or Workplace Analytics admin who [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it to Workplace Analytics.
+A5. Usually, HR obtains this data and provides it to the Workplace Analytics admin who [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it to Workplace Analytics.
 
-##### Q6. Who can access organizational data after it has been uploaded? 
+##### Q6. Who can access organizational data after it has been uploaded to Workplace Analytics? 
 
-A6. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights or Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
+A6. For privacy reasons, no one can download the raw data that was uploaded. Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
 
 <!-- [NEAR FUTURE FOR THESE NEXT FIVE QUESTIONS, AFTER THE XLSX POSSIBILITY SHIPS]
 
@@ -191,9 +198,9 @@ A7  Yes. The data can include double-byte characters, such as Japanese character
 
 ##### Q1. What is the difference between privacy settings and meeting-exclusion rules?
 
-A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. Note that privacy settings changes apply to future data extractions and are not retroactive to past data. For more information, see [Privacy settings](privacy-settings.md) and [Privacy and data access](../privacy/privacy-and-data-access.md).
+A1. Admins make  _privacy settings_ to change the way Workplace Analytics extracts data, such as preventing data from ever being included in any Workplace Analytics calculation. Note that privacy settings changes apply to future data extractions and are not retroactive to past data. For more information, see [Privacy settings](privacy-settings.md) and [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
 
-Analysts use _meeting-exclusion rules_ in Viva Insights queries to help ensure that query results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. For more information, see [Exclusion rules](../tutorials/meeting-exclusions-intro.md).
+Analysts use _meeting-exclusion rules_ in Workplace Analytics queries to help ensure that query results accurately represent relevant meeting norms within the organization. Changes to these rules apply retroactively in the data. For more information, see [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md).
 
 ##### Q2. Can other analysts use the meeting exclusion rule sets that I create?
 
@@ -211,7 +218,7 @@ A2. The collaborator totals include the number of internal (or external) people 
 
 ##### Q3. Why doesn't the email or meeting trend line extend back for the entire historical 13-month period (or for the custom time period that I set)?
 
-A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Office 365 data](office-365-data.md).
+A3. Business policies can affect the historical data that is processed by Workplace Analytics. As you view historical data, if you see a steady decline or point-in-time drop in email and/or meeting activity, it might be due to email having been archived. Another cause can be recurring meetings that are deleted before the data is extracted. However, this only impacts initial baseline data, because future deletions do not affect weekly data that was previously collected. On the **Sources** page, you can select a time period where the email and/or meeting activity is stable. For details, see [Microsoft 365 data](office-365-data.md).
 
 ##### Q4. How does Workplace Analytics process data for meetings and emails sent to distribution lists?
 
