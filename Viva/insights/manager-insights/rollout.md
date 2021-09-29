@@ -19,7 +19,7 @@ When you're ready to roll out manager insights to your organization, do the foll
 
 * **Enable for key leaders** - Enable My team in Viva Insights and Manager insights for key leaders, so they can learn about them first hand and understand their value. For those who are new to Workplace Analytics, you can also share this [Introduction to Workplace Analytics video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true).
 
-* **Introduce to managers** - Ask business leaders to introduce these new apps to their managers with this [sample email](./email-to-managers.docx). It's important that managers understand how to use these insights to best support their teams. Recruiting managers in teams that already support your organization, such as in IT, Training, Corporate communications, and Support, enables them to learn about them first, and then help others learn how to use them.
+* **Introduce to managers** - Ask business leaders to introduce these new apps to their managers with this [sample email](email-to-managers.docx). It's important that managers understand how to use these insights to best support their teams. Recruiting managers in teams that already support your organization, such as in IT, Training, Corporate communications, and Support, enables them to learn about them first, and then help others learn how to use them.
 
 * **Set up a communications channel** - Set up a communications channel with your managers to evangelize the apps and answer any questions that they might have. Consider using Teams, Yammer, or an email distribution group. You can discuss strategic priorities for the organization, such as 1:1 coaching, meeting reductions, or Teams adoption.
 
@@ -29,6 +29,5 @@ For comprehensive guidance on how to formally roll out manager insights to your 
 
 You can use the following sample content to introduce My team or Manager insights to your organization. You can customize these samples to include information specific to your company, such as adding a logo or custom header and footer information.
 
-* [Introductory email to your managers](./email-to-managers.docx)
-* [Manager insights in Workplace Analytics](./manager-insights-intro.docx)
+* [Introductory email to your managers](email-to-managers.docx)
 * [My Team in Viva Insights](../use/viva-insights-my-team.md)

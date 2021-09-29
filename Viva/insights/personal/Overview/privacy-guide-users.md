@@ -97,7 +97,6 @@ You can control this setting in your Outlook settings. To show these signals in 
 As is the case with the full Microsoft 365 suite, Viva Insights helps support compliance with GDPR requirements. For example, Viva Insights supports the following:
 
 * **Secure and protect personal data**. Because all Viva Insights data is stored in your Exchange Online mailbox, Viva Insights meets this security obligation by virtue of Exchange Online also meeting the obligation.
-
 * **Requests to export, delete, or restrict processing personal data**. Microsoft supports user requests, such as requests for export of or deletion of data.
 
 For more information, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).

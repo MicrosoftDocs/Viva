@@ -146,7 +146,7 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 
 ## To remove the Viva Insights icon
 
-If you opt out of the Insights Outlook add-in, you might also want to remove its icon from the Outlook ribbon. To do so, follow these steps:
+If you opt out of the Viva Insights Outlook add-in, you might also want to remove its icon from the Outlook ribbon. To do so, follow these steps:
 
 1. In Outlook, select **Get Add-ins**.
 

@@ -13,7 +13,7 @@ audience: Admin
 
 # Power BI Connector metrics
 
-The following base metrics are imported from Workplace Analytics into Power BI through the Power BI Connector. These base metrics are imported when you only enter a Partition Identifier and not any Query Names or Query Identifiers. For details, see [Connect through the Power BI Connector](View-download-and-export-query-results.md#connect-through-the-power-bi-connector). [Customized](../tutorials/customize-a-metric.md) or calculated metrics that are not available in Workplace Analytics as base metrics, show as **Not applicable** in the Workplace Analytics metric column.
+The following base metrics are imported from Workplace Analytics into Power BI through the Power BI Connector. These base metrics are imported when you only enter a Partition Identifier and not any Query Names or Query Identifiers. For details, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector). [Customized metrics](customize-a-metric.md) or calculated metrics that are not available in Workplace Analytics as base metrics, show as **Not applicable** in the Workplace Analytics metric column.
 
 |Power BI Connector metric |Workplace Analytics metric |Definition |Data type |
 |---------|--------------|---------------------|-------|

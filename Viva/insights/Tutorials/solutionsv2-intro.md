@@ -3,7 +3,7 @@
 title: Introduction to Workplace Analytics plans
 description: Introduction to Workplace Analytics plans
 author: paul9955
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: conceptual
 ms.localizationpriority: medium 
 manager: scott.ruble
@@ -18,7 +18,7 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans help
 
 1. Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 
-2. Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../myanalytics/mya-landing-page.md).
+2. Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../personal/mya-landing-page.md).
 
 3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
@@ -60,9 +60,9 @@ Confirm that your organization meets the following licensing prerequisites:
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
   * A [Workplace Analytics license](../setup/assign-licenses-to-population.md)
-  * A MyAnalytics license in either one of the following [service plans](../myanalytics/setup/configure-myanalytics.md#assign-licenses-with-a-myanalytics-service-plan): 
-    * MyAnalytics (Full)
-    * Insights by MyAnalytics
+  * A Viva Insights or MyAnalytics license in either one of the following [service plans](../personal/setup/configure-myanalytics.md#assign-licenses-with-a-myanalytics-service-plan): 
+    * Viva Insights or MyAnalytics (Full)
+    * Viva Insights in Outlook
 
 >[!Note]
 >Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/manager-settings.md).

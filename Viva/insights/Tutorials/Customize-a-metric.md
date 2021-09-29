@@ -1,7 +1,7 @@
 ---
 
-title: Customize query metrics in Viva Insights
-description: How to customize a base metric in a Microsoft Viva Insights query 
+title: Customize query metrics in Workplace Analytics
+description: How to customize a base metric in a Workplace Analytics query
 author: madehmer
 ms.author: v-mideh
 ms.topic: article

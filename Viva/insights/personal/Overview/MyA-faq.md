@@ -14,7 +14,7 @@ audience: Admin
 
 # MyAnalytics FAQ
 
-The questions in this topic are organized into the following sections: 
+The questions in this topic are organized into the following sections for MyAnalytics as part of Microsoft Viva Insights: 
 
  * The [Privacy](#privacy) section applies to everyone.
 
@@ -29,7 +29,7 @@ The other questions and answers are grouped by role:
 
 Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator cannot view your personal data.
 
-For more details, see the [MyAnalytics privacy guide](Privacy-Guide.md).
+For more details, see the [Privacy guide](Privacy-Guide-users.md).
 
 ##### Q2. How does MyAnalytics protect my data?
 
@@ -43,8 +43,8 @@ MyAnalytics does not have any tracking software running on your computer.
 
 ##### Q3. What data does MyAnalytics use?
 
-> [!Note]
-> MyAnalytics processes the data as described in the [Privacy Guide](privacy-guide.md).
+>[!Note]
+>MyAnalytics processes the data as described in the [Privacy Guide](privacy-guide-users.md).
 
 **MyAnalytics uses:**
 
@@ -130,23 +130,23 @@ See the following for details:
 
  * [Opt out of MyAnalytics](../use/opt-out-of-mya.md)
 
-###### Opt out of individual parts of MyAnalytics
+###### Opt out of different elements
 
- * [Opt out of the MyAnalytics dashboard](../use/dashboard-2.md#opt-out-of-the-myanalytics-dashboard)
- * [Opt out of the weekly digest](../use/email-digest-2.md#opt-out-of-digests)
- * [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in)
+ * [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard)
+ * [Opt out of digests](../use/email-digest-2.md#opt-out-of-digests)
+ * [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-out)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
- ###### Opt in to MyAnalytics
+###### Opt in to MyAnalytics
 
- * [If I opt out, can I opt back in?](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) 
+ * [If I opt out, can I opt back in?](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in)
 
 ##### Q2. Can I add or remove the Insights Outlook add-in?
 
-Yes, you can. But first, what's the difference between "opt out" and "remove"? 
+Yes, you can. But first, what's the difference between "opt out" and "remove"?
 
- * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Insights Outlook add-in](../use/add-in.md#opt-out-of-the-insights-outlook-add-in) but in step 4, set the control to **On**.) 
- * **Remove:** If you [remove the Insights Outlook add-in](#remove-the-insights-outlook-add-in), not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Insights Outlook add-in](#add-the-insights-outlook-add-in)).  
+ * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out) but in step 4, set the control to **On**.)
+ * **Remove:** If you remove the add-in, not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Viva Insights Outlook add-in](#add-the-viva-insights-outlook-add-in)).  
 
 ###### Remove the Insights Outlook add-in
 
@@ -164,9 +164,9 @@ Follow these steps to remove the Insights add-in from your Outlook ribbon.
 
     ![Remove Insights.](../../Images/mya/use/remove-insights.png)
 
-###### Add the Insights Outlook add-in
+###### Add the Viva Insights Outlook add-in
 
-Follow these steps to add the Insights add-in to your Outlook ribbon.
+Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 1. On the Outlook Home Ribbon, select the **Get Add-ins** icon.
 2. Select **Admin-managed**.
@@ -184,7 +184,7 @@ Your personalized data is only accurately calculated when you have a minimum lev
 
 ##### Q3. Even though I don't have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
 
-MyAnalytics will not be available to you if you don't have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the MyAnalytics toggle off in the [Feature settings](../overview/privacy-guide-users.md#how-you-can-opt-in-and-opt-out) on your MyAnalytics dashboard.
+MyAnalytics will not be available to you if you don't have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the MyAnalytics toggle off in the [Feature settings](../overview/privacy-guide-admins.md#opt-in-or-out) on the dashboard.
 
 ##### Q4. How can I find out what my plan is?
 
@@ -272,8 +272,8 @@ The questions in this section are sorted into the following areas:
 
 You can manage the experience in two ways:
 
-* Configure access to MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure-myanalytics.md#configure-access-at-the-tenant-level).
-* Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure-myanalytics.md#configure-access-at-the-user-level).
+* Configure access to MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level).
+* Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configuremd#configure-access-at-the-user-level).
 
 ##### Q2. How can I pilot MyAnalytics to a subset of users?
 
@@ -306,7 +306,7 @@ See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in
 
 ##### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
-The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements).
+The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](plans-environments.md#access-to-myanalytics-elements).
 
 ##### Q4. How do the MyAnalytics digests show up in Outlook?
 
@@ -325,7 +325,7 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 
 ##### Q7. Why can't licensed users see one or more of the MyAnalytics elements?
 
-* Check [Access to MyAnalytics elements](./plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
+* Check [Access to MyAnalytics elements](plans-environments.md#access-to-myanalytics-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
 * Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) for more details:
 
    ```Set-OrganizationConfig -EwsAllowList  @{Add="myanalytics/*"}```
@@ -350,10 +350,10 @@ No. Only Exchange Online, Skype for Business Online, and Teams are used as data 
 
 ##### Q5. Can I ask that MyAnalytics user data be deleted and not stored?
 
-Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide.md#gdpr-compliance).
+Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide-admins.md#gdpr-compliance).
 
-   > [!Note]
-   > If a person opts out of using MyAnalytics, this action does not delete that person's MyAnalytics data.
+   >[!Note]
+   >If a person opts out of using MyAnalytics, this action does not delete that person's MyAnalytics data.
 
 ##### Q6. If a user opts out or is opted out in PowerShell, will they stay opted out even through upgrades of Microsoft 365 or MyAnalytics? 
 
