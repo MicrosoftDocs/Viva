@@ -14,7 +14,7 @@ audience: Admin
 The following insight options help you get your work done fast.
 ## Prepare for your meetings
 
-Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members. Read more about best practices for running effective meetings in the [Meetings playbook](MyA-Adoption/MyAnalytics-meetings-september-2018.pdf).
+Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members.
 
 **Prepare for your meetings** shows you a list of upcoming meetings that you've organized or that you've been invited to. This insight helps you decide whether each meeting is ready to go.
 

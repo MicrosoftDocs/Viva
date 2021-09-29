@@ -94,10 +94,9 @@ A Learning module is a collection of materials focused on a collaboration topic 
 
 What follows are modules about: focus hours, meetings, and email data. You can also find lessons in these modules on how to maintain important relationships in your network.
 
-* [MyAnalytics Focus hours](MyAnalytics-focus-hours-september-2018.pdf)
-* [MyAnalytics Meetings](MyAnalytics-meetings-september-2018.pdf)
-* [MyAnalytics Email](MyAnalytics-email-september-2018.pdf)
-* [MyAnalytics After hours](MyAnalytics-after-hours-september-2018.pdf)
+* MyAnalytics Focus hours
+* MyAnalytics Meetings
+* MyAnalytics Email
 
 Typically, a program manager sends a Learning module to their team every other week. Choose an order that best matches your team goals and program objectives. You can bundle the learning module with a corresponding [team norms survey](Team-adopt-plan.md#team-norms-survey). Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors using the habit-building method.
 
@@ -119,12 +118,12 @@ Habit playbooks are examples of how to use MyAnalytics to turn specific behavior
 
 Each habit playbook provides a suggested behavior to turn into a habit, an explanation of why the habit is important, and a goal-oriented plan using MyAnalytics to build the habit. You can use the playbooks to design a friendly competition to engage participants, and provide prizes and recognition to team members who achieve the playbook goals. The experiences and results make for a great check-in-meeting topic, too.
 
-* [Habit playbook examples](Habit-playbook-examples.pdf). You can try out this collection of playbooks. These examples represent only a small sample of the possible playbooks that could exist.
+* [Habit playbook examples](https://download.microsoft.com/download/3/b/8/3b8bbe93-6f74-42c2-804b-4ee63cd541fa/Habit-playbook-examples.pdf) You can try out this collection of playbooks - Represent only a small sample of the possible playbooks that could exist.
 
-  > [!Note]
-  > These playbooks can also be found in the [Learning modules](adopt-learning-modules.md).
+  >[!Note]
+  >These playbooks can also be found in the [Learning modules](adopt-learning-modules.md).
 
-* [Habit playbook template](Habit-playbook-template.pptx). Create your own custom playbooks for your team using the template provided.
+* [Habit playbook template](https://download.microsoft.com/download/a/4/5/a45b4038-d929-49b9-9068-cf92fc3772f9/Habit-playbook-template.pptx) - Use to create your own custom playbooks for your team using the template provided.
 
 ## Check-ins
 

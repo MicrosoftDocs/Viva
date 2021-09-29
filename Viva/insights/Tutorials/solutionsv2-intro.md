@@ -60,7 +60,7 @@ Confirm that your organization meets the following licensing prerequisites:
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
   * A [Workplace Analytics license](../setup/assign-licenses-to-population.md)
-  * A Viva Insights or MyAnalytics license in either one of the following [service plans](../personal/setup/configure.md#assign-licenses-with-a-myanalytics-service-plan): 
+  * A Viva Insights or MyAnalytics license in either one of the following [service plans](../personal/setup/configure.md):
     * Viva Insights or MyAnalytics (Full)
     * Viva Insights in Outlook
 
@@ -75,10 +75,7 @@ Confirm that your organization meets the following licensing prerequisites:
 
 ## Workplace Analytics solution for teamwork playbook
 
-The [solution for teamwork playbook](wpa-teamwork-solution-playbook.pdf) provides tips on how to best use Workplace Analytics Teamwork plans to achieve maximum benefit for your organization:
-
-[![solution for teamwork playbook.](../images/wpa/tutorials/solns-playbook-title.png)](wpa-teamwork-solution-playbook.pdf)
--->
+The Solution for teamwork playbook provides tips on how to best use Workplace Analytics Teamwork plans to achieve maximum benefit for your organization.-->
 
 ## Plans FAQ
 
