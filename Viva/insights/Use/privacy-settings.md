@@ -28,14 +28,14 @@ You can use privacy settings to:
 
 **Owner** – Only Workplace Analytics admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-Admins make privacy settings on the **Exclusions** section of the **System defaults** page in the setup sequence of Workplace Analytics.
+Admins configure the privacy settings in **Analyst settings** > **Privacy** when setting up Workplace Analytics.
 
 ![Admin privacy settings.](../images/wpa/use/exclusions.png)
 
 <!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
 
-> [!IMPORTANT]
-> You do not need to make privacy settings (the settings that you find under **Exclusions**) while onboarding your organization. You must complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them later. (To indicate that you have completed the **System defaults** settings, select **Next** on that page.)
+>[!IMPORTANT]
+>You do not need to configure privacy settings while onboarding your organization. You must complete the settings on the **System defaults** page, but you can choose to skip the privacy settings during setup and complete them later. (To indicate that you have completed the **System defaults** settings, select **Next** on that page.)
 
 If you do change privacy settings, your changes take effect after Microsoft 365 data is processed in the following week. This means that these changes do not affect data that has already been extracted and processed. (For example, the privacy settings for excluding email, meetings, and domains do not affect data retroactively.)
 
@@ -132,7 +132,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 
 ## To configure privacy settings
 
-1. In **Admin settings** > **Privacy settings**, for **Minimum group size to display in visual dashboards**, set the minimum group size. You cannot use a value lower than 5.
+1. In **Analyst settings** > **Privacy**, for **Minimum group size to display in visual dashboards**, set the minimum group size. You cannot use a value lower than 5.
 
    >[!Note]
    >The following exclusion settings are optional and only change query results. These settings do not change the way a query functions.
