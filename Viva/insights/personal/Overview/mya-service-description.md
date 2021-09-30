@@ -14,7 +14,7 @@ audience: Admin
 
 # Viva Insights service description
 
-Microsoft Viva Insights (formerly MyAnalytics) summarizes how you spend your time at work and then suggests ways to work smarter. Viva Insights provides these personalized insights through [elements](#elements) that you can access in Microsoft Outlook or through your web browser.
+Microsoft Viva Insights (including MyAnalytics) summarizes how you spend your time at work and then suggests ways to work smarter. Viva Insights provides these personalized insights through [elements](#elements) that you can access in Microsoft Outlook or through your web browser.
 
 Some of the elements of Viva Insights are provided automatically to users of various Microsoft 365 or Office 365 plans. For more information, see [Viva Insights distributions](#Viva Insights-distributions).  
 

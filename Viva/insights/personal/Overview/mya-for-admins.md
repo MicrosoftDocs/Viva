@@ -16,7 +16,7 @@ audience: admin
 
 # Admin guide for personal insights
 
-As an administrator, you benefit from knowing what Microsoft Viva Insights (formerly MyAnalytics) provides to its participants and what you can do to enable and enhance their experience.
+As an administrator, you benefit from knowing what Microsoft Viva Insights (including MyAnalytics) provides to its participants and what you can do to enable and enhance their experience.
 
 ## Benefits of use
 
@@ -37,7 +37,7 @@ None of a user's personal information is shared with their co-workers or manager
 
 ## Granting access
 
-Soon after you assign a license with the Microsoft Viva Insights (formerly MyAnalytics) service plan to a user, they'll get access to Viva Insights elements, such as the [Dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Viva Insights Outlook add-in](../use/add-in.md), and the [Viva Insights welcome message](../use/mya-welcome-email.md).
+Soon after you assign a license with the Microsoft Viva Insights (including MyAnalytics) service plan to a user, they'll get access to Viva Insights elements, such as the [Dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Inline suggestions in Outlook](../use/mya-notifications.md), the [Viva Insights Outlook add-in](../use/add-in.md), and the [Viva Insights welcome message](../use/mya-welcome-email.md).
 Access to these elements depends on the plan in place at your organization; for details, see [Access to Viva Insights elements](plans-environments.md#access-to-viva-insights-elements).
 
 ## Introduction to Viva Insights

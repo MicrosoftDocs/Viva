@@ -55,4 +55,4 @@ You can use Microsoft Viva Insights to get more detailed analysis and additional
 
 #### Q4 Who is eligible to see this report?
 
-Organizations who have at least 100 active Exchange Online users with active [Viva Insights (formerly MyAnalytics) licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
+Organizations who have at least 100 active Exchange Online users with active [Viva Insights (including MyAnalytics) licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.

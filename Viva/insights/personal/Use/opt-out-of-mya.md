@@ -1,7 +1,7 @@
 ---
 
 title: Opt out of personal insights
-description: How to opt out of Microsoft Viva Insights (formerly MyAnalytics)
+description: How to opt out of Microsoft Viva Insights (including MyAnalytics)
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -13,7 +13,7 @@ audience: Admin
 
 # Opt out of the dashboard
 
-All users can use the Viva Insights (formerly MyAnalytics) dashboard to opt-out. When you opt out:
+All users can use the Viva Insights (including MyAnalytics) dashboard to opt-out. When you opt out:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Viva Insights Outlook add-in](../use/add-in.md).
 * You will stop receiving [inline suggestions](../use/mya-notifications.md) and [email digests](../use/email-digest-2.md).

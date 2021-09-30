@@ -22,7 +22,7 @@ Microsoft Viva Insights provides personal insights into two of the key factors i
 * [**Privacy guide**](../personal/overview/privacy-guide-users.md) &ndash; Learn about the ways Viva Insights gathers, uses, and protects your data, and how administrators can configure Viva Insights based on company policy.
   
 * **Viva Insights elements** &ndash; As a user, learn about the ways that Viva Insights presents you with insights and how you can use these to make good decisions.
-  * [**Dashboard**](../personal/use/dashboard-2.md) &ndash; See how you spent your time over the past month, productivity insights about your work patterns, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.
+  * [**MyAnalytics dashboard**](../personal/use/dashboard-2.md) &ndash; See how you spent your time over the past month, productivity insights about your work patterns, helpful suggestions for improvement, and information about your network, top collaborators, and collaboration activities.
   * [**Viva Insights Outlook add-in**](../personal/use/add-in.md) &ndash; The Insights add-in for Outlook presents you with activity cards based on your recent work experience with options to respond or follow up on based on the activity.
   * [**Digests**](../personal/use/email-digest-2.md) &ndash; Receive a weekly digest that gives you highlights about your previous week.
   * [**Inline suggestions in Outlook**](../personal/use/mya-notifications.md) &ndash; Contextual, data-driven recommendations to improve your work patterns.
