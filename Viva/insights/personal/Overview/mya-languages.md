@@ -16,7 +16,7 @@ audience: Admin
 
 # Viva Insights languages
 
-The elements of Microsoft Viva Insights (formerly MyAnalytics), which include the [personal dashboard](../use/dashboard-2.md), the [digests](../use/email-digest-2.md), and the [Viva Insights Outlook add-in](../use/add-in.md) are available in world languages as described in the following table. 
+The elements of Microsoft Viva Insights (including MyAnalytics), which include the [personal dashboard](../use/dashboard-2.md), the [digests](../use/email-digest-2.md), and the [Viva Insights Outlook add-in](../use/add-in.md) are available in world languages as described in the following table. 
 
 
 | Dashboard	| Digests | Outlook add-in (a-k)	| Outlook add-in (l-z) |  
