@@ -18,6 +18,10 @@ The **Query designer** in Workplace Analytics combines templates and queries tog
 * [**Templates**](#templates) &ndash; The templates provide an easy way to bring a predefined set of query metrics into a template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
 * [**Queries**](#queries) &ndash; You can also create your own custom query to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
 
+## Requirements for analysts
+
+[!INCLUDE [Requirements for analysts](../includes/analyst-requirements.md)]
+
 ## Templates
 
 The Query designer has a number of [predefined templates](#available-templates) that help you analyze behavioral patterns relating to common business challenges, such as: how to transform meeting culture, enhance organizational resilience, develop effective managers, boost employee engagement, and more.
