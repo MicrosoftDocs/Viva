@@ -5,35 +5,35 @@ items:
     - name: Personal insights
       items:
         - name: Introduction
-          href: personal/introduction.md     
+          href: introduction.md     
         - name: Privacy guide
-          href: personal/Overview/privacy-guide-users.md
+          href: Overview/privacy-guide-users.md
         - name: In Teams
           items:
             - name: Introduction
-              href: personal/teams/viva-teams-app.md
+              href: teams/viva-teams-app.md
             - name: Home
               items:
                 - name: Overview
-                  href: personal/teams/viva-insights-home.md
+                  href: teams/viva-insights-home.md
                 - name: Reflect
-                  href: personal/teams/viva-insights-reflect.md
+                  href: teams/viva-insights-reflect.md
                 - name: Send praise
-                  href: personal/teams/viva-insights-praise.md
+                  href: teams/viva-insights-praise.md
                 - name: Virtual commute
-                  href: personal/teams/viva-insights-virtual-commute.md
+                  href: teams/viva-insights-virtual-commute.md
                 - name: Headspace
-                  href: personal/teams/viva-insights-headspace.md               
+                  href: teams/viva-insights-headspace.md               
             - name: Stay connected
-              href: personal/teams/viva-insights-stay-connected.md
+              href: teams/viva-insights-stay-connected.md
             - name: Protect time
-              href: personal/teams/viva-insights-protect-time.md
+              href: teams/viva-insights-protect-time.md
             - name: Setup
               items: 
                 - name: Discover the app
-                  href: personal/teams/viva-teams-app-install.md
+                  href: teams/viva-teams-app-install.md
                 - name: Configure the app
-                  href: personal/teams/viva-teams-app-settings.md
+                  href: teams/viva-teams-app-settings.md
                 - name: Admin tasks
                   href: /personal/teams/viva-teams-app-admin-tasks.md
                 - name: FAQ
@@ -41,111 +41,111 @@ items:
         - name: Briefing
           items:
             - name: Overview
-              href: personal/Briefing/be-overview.md
+              href: Briefing/be-overview.md
             - name: Privacy guide
-              href: personal/Briefing/be-privacy.md
+              href: Briefing/be-privacy.md
             - name: Configure Briefing
-              href: personal/Briefing/be-admin.md
+              href: Briefing/be-admin.md
             - name: Briefing rollout
               items:
                 - name: Conduct a user pilot
-                  href: personal/Briefing/be-pilot.md
+                  href: Briefing/be-pilot.md
                 - name: Admin trial
-                  href: personal/Briefing/be-admin-trial.md
+                  href: Briefing/be-admin-trial.md
                 - name: Downloadable resources
-                  href: personal/Briefing/be-resources.md
+                  href: Briefing/be-resources.md
             - name: Use Briefing
               items: 
                 - name: Prepare for meetings
-                  href: personal/Briefing/be-meetings.md
+                  href: Briefing/be-meetings.md
                 - name: Follow up on tasks
-                  href: personal/Briefing/be-tasks.md
+                  href: Briefing/be-tasks.md
                 - name: Book focus time
-                  href: personal/Briefing/be-focus.md
+                  href: Briefing/be-focus.md
                 - name: Plan your week
-                  href: personal/Briefing/be-time.md
+                  href: Briefing/be-time.md
             - name: Settings
-              href: personal/Briefing/be-settings.md
+              href: Briefing/be-settings.md
             - name: FAQ
-              href: personal/Briefing/be-faqs.yml
+              href: Briefing/be-faqs.yml
         - name: Outlook add-in
           items:
             - name: Introduction
-              href: personal/use/add-in.md
+              href: use/add-in.md
             - name: Use Insights
-              href: personal/use/use-the-insights.md
+              href: use/use-the-insights.md
             - name: Inline suggestions
-              href: personal/Use/mya-notifications.md
+              href: Use/mya-notifications.md
             - name: Delay delivery plan
-              href: personal/use/delay-delivery.md
+              href: use/delay-delivery.md
         - name: Dashboard
-          href: personal/Use/dashboard-2.md
+          href: Use/dashboard-2.md
         - name: Digests
-          href: personal/use/email-digest-2.md
+          href: use/email-digest-2.md
         - name: Focus plan
-          href: personal/use/focus-plan.md
+          href: use/focus-plan.md
         - name: Work patterns
           items:
             - name: Focus
-              href: personal/use/focus.md
+              href: use/focus.md
             - name: Wellbeing
-              href: personal/use/wellbeing.md
+              href: use/wellbeing.md
             - name: Network
-              href: personal/use/network.md
+              href: use/network.md
             - name: Collaboration
-              href: personal/use/collaboration.md
+              href: use/collaboration.md
             - name: Leadership
-              href: personal/use/leadership.md
+              href: use/leadership.md
         - name: Admin guide
           items: 
             - name: Introduction
-              href: personal/overview/mya-for-admins.md
+              href: overview/mya-for-admins.md
             - name: Deployment guide
-              href: personal/setup/deployment-guide.md
+              href: setup/deployment-guide.md
             - name: Setup
-              href: personal/setup/configure.md
+              href: setup/configure.md
             - name: Plans and environments
-              href: personal/overview/plans-environments.md
+              href: overview/plans-environments.md
             - name: Privacy guide for admins
-              href: personal/overview/privacy-guide-admins.md
+              href: overview/privacy-guide-admins.md
         - name: Adoption
           items:
             - name: Introduction 
-              href: personal/Use/mya-adoption/Adopt-myanalytics.md
+              href: Use/mya-adoption/Adopt-myanalytics.md
             - name: Individual adoption
               items: 
                 - name: Get started
-                  href: personal/Use/mya-adoption/Indiv-adopt-get-started.md
+                  href: Use/mya-adoption/Indiv-adopt-get-started.md
                 - name: Diagnose your issue
-                  href: personal/Use/mya-adoption/Indiv-adopt-diagnose.md
+                  href: Use/mya-adoption/Indiv-adopt-diagnose.md
                 - name: Set your goal
-                  href: personal/Use/mya-adoption/Indiv-adopt-set-goals.md
+                  href: Use/mya-adoption/Indiv-adopt-set-goals.md
                 - name: Develop new habits
-                  href: personal/Use/mya-adoption/Indiv-adopt-develop-habits.md
+                  href: Use/mya-adoption/Indiv-adopt-develop-habits.md
                 - name: Sustain change
-                  href: personal/Use/mya-adoption/Indiv-adopt-sustain-change.md
+                  href: Use/mya-adoption/Indiv-adopt-sustain-change.md
                 - name: Resources
-                  href: personal/Use/mya-adoption/Indiv-adopt-resources.md
+                  href: Use/mya-adoption/Indiv-adopt-resources.md
             - name: Team adoption
               items: 
                 - name: Get started
-                  href: personal/Use/mya-adoption/Team-adopt-intro.md
+                  href: Use/mya-adoption/Team-adopt-intro.md
                 - name: Plan
-                  href: personal/Use/mya-adoption/Team-adopt-plan.md
+                  href: Use/mya-adoption/Team-adopt-plan.md
                 - name: Implement
-                  href: personal/Use/mya-adoption/Team-adopt-implement.md
+                  href: Use/mya-adoption/Team-adopt-implement.md
                 - name: Measure
-                  href: personal/Use/mya-adoption/Team-adopt-measure.md
+                  href: Use/mya-adoption/Team-adopt-measure.md
                 - name: Reinforce
-                  href: personal/Use/mya-adoption/Team-adopt-reinforce.md
+                  href: Use/mya-adoption/Team-adopt-reinforce.md
                 - name: Resources
-                  href: personal/Use/mya-adoption/Indiv-adopt-resources.md
+                  href: Use/mya-adoption/Indiv-adopt-resources.md
             - name: Habit resources
               items: 
                 - name: Learning modules
-                  href: personal/Use/mya-adoption/adopt-learning-modules.md
+                  href: Use/mya-adoption/adopt-learning-modules.md
                 - name: Habit-building method
-                  href: personal/Use/mya-adoption/adopt-habit-building.md
+                  href: Use/mya-adoption/adopt-habit-building.md
                 - name: Habit playbooks
-                  href: personal/Use/mya-adoption/adopt-habit-playbooks.md
+                  href: Use/mya-adoption/adopt-habit-playbooks.md
                   

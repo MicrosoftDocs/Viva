@@ -13,7 +13,7 @@ audience: Admin
 
 # MyAnalytics dashboard
 
-[![Viva announcement.](../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
+[![Viva announcement.](../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 _**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
