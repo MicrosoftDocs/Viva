@@ -30,7 +30,7 @@ You can use privacy settings to:
 
 Admins configure the privacy settings in **Analyst settings** > **Privacy** when setting up Workplace Analytics.
 
-![Admin privacy settings.](../images/wpa/use/exclusions.png)
+![Privacy settings for advanced insights in Workplace Analytics](../images/wpa/use/privacy-settings.png)
 
 <!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
 
