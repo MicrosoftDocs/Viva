@@ -132,5 +132,9 @@
   "docs_build_engine": {
     "name": "docfx_v3"
   },
-  "need_generate_pdf": false
+  "need_generate_pdf": false,
+  "redirection_files": [
+    ".openpublishing.redirection.json",
+    ".openpublishing.redirection.WorkplaceAnalytics.json"
+  ]
 }
