@@ -16,7 +16,7 @@ audience: Admin
 
 **Role** - Global admin, Exchange Online admin, or Viva Insights admin
 
-* **Prerequisite** - Users have access to Microsoft Viva Insights (formerly MyAnalytics) only if they have licenses that include the Viva Insights service plan, as described in [plans and environments](../Overview/plans-environments.md).
+* **Prerequisite** - Users have access to Microsoft Viva Insights (including MyAnalytics) only if they have licenses that include the Viva Insights service plan, as described in [plans and environments](../Overview/plans-environments.md).
 
 * **Data privacy** - See the [Privacy guide](../Overview/privacy-guide-users.md) to understand how privacy is built into Viva Insights and to learn what you can configure to address specific privacy requirements.
 
@@ -33,7 +33,7 @@ audience: Admin
 
 ## Assign licenses with a service plan
 
-Viva Insights is available to users who are assigned a license with a Microsoft Viva Insights (formerly MyAnalytics) service plan. For more details about which licenses have Viva Insights service plans and when users get access to Viva Insights elements after license assignment, see [plans and environments](../Overview/plans-environments.md).
+Viva Insights is available to users who are assigned a license with a Microsoft Viva Insights (including MyAnalytics) service plan. For more details about which licenses have Viva Insights service plans and when users get access to Viva Insights elements after license assignment, see [plans and environments](../Overview/plans-environments.md).
 
 For information on how to assign a license, see [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/assign-licenses-to-users-in-office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 <!--Hiding until the template and adoption info can be updated --
@@ -52,7 +52,7 @@ You can configure access to Viva Insights elements for all users in your organiz
 1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
 3. In the left pane, expand **Settings**, and then select **Org settings**.
-4. Under **Services**, select **Viva Insights** (formerly MyAnalytics) to see settings for the different options.
+4. Under **Services**, select **Viva Insights** (including MyAnalytics) to see settings for the different options.
 5. Select **Dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Dashboard** to opt users _out_.
 6. Select **Digests** to keep all Viva Insights users in your organization opted _in_ for access to the [email digests](../../personal/use/email-digest-2.md). Deselect **Digests** to opt users _out_.  
 7. Select **Viva Insights Outlook add-in** to keep all users in your organization opted _in_ for access to this Outlook add-in. Deselect it to opt users _out_.

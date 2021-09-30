@@ -1,7 +1,7 @@
 ---
 
 title: Plans and environments for personal insights
-description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights (formerly MyAnalytics)
+description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights (including MyAnalytics)
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
