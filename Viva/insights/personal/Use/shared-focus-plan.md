@@ -1,5 +1,6 @@
 ---
 
+ROBOTS: NOINDEX,NOFOLLOW
 title: Shared focus plan
 description: MyAnalytics focus plan
 author: paul9955
