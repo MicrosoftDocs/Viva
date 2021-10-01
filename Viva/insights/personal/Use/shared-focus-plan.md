@@ -33,7 +33,7 @@ This example procedure shows how to create a shared plan by using the first of t
 
 Alternatively, you can use a card in the **Plans** row to create a shared focus plan. (The **Plans** row always shows all the shared plans that you can start.)
 
-1. In [Teams](teams.microsoft.com), open Viva Insights.
+1. In [Teams](https://teams.microsoft.com), open Viva Insights.
 
 2. On the menu bar at the top, select **My team**.
 
@@ -73,7 +73,7 @@ As an invitee to a plan, you can find a reminder of your pending invitation on t
 
    ![Pending invitation](../../Images/mya/use/pending-invitation.png)
 
-1. In [Teams](teams.microsoft.com), do one of the following:
+1. In [Teams](https://teams.microsoft.com), do one of the following:
 
    * Select the notification in the upper-right corner of Teams.
 
