@@ -81,9 +81,11 @@ items:
         - name: Dashboard
           href: Use/dashboard-2.md
         - name: Digests
-          href: use/email-digest-2.md
+          href: use/email-digests-3.md
         - name: Focus plan
           href: use/focus-plan.md
+  #     - name: Shared focus plan
+  #       href: use/shared-focus-plan.md  
         - name: Work patterns
           items:
             - name: Focus
