@@ -19,9 +19,9 @@ Tenants subscribe to Workplace Analytics through one of the following billing mo
 * **Consumption model** &ndash; The tenant pays Microsoft a fee that is based on the volume of query usage.
 * **Per-user-per-month (PUPM) model** &ndash; The tenant pays Microsoft a monthly fee that is based on the number of licensed users.
 
-Your tenant's choice of billing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see the following differences:
+Your tenant's choice of billing model affects the appearance and behavior of the pages for creating and running queries and of the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see differences as described in [Consumption-model billing](#consumption-model-billing) and [Per-user-per-month (PUPM) billing](#per-user-per-month-pupm-billing).
 
-## For analysts in consumption-model tenants
+## Consumption-model billing
 
 In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors:
 
@@ -179,7 +179,7 @@ The **Analyst usage** report is available for download in the administrative pag
 1. COMPLETE DOCS WILL CONTAIN EVERYTHING: TO GO LIVE ON 10/1
 2. QB2 WITH ANALYST USAGE PART CAN GO LIVE NOW -->
 
-## For analysts in PUPM-model tenants
+## Per-user-per-month (PUPM) billing
 
 The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
 
