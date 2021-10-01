@@ -37,7 +37,7 @@ Tenants subscribe to Workplace Analytics through one of the following billing mo
 * **Per-user-per-month (PUPM) model** &ndash; The tenant pays Microsoft a monthly fee that is based on the number of licensed users.
 
 Your tenant's choice of billing model affects the appearance and behavior of the pages for creating queries (such as [person queries](person-queries.md) and [meeting queries](meeting-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. For more information about the differences between these billing models, see 
-[consumption-model billing](consump-model.md#consumption-model) and [per-user-per-month model](consump-model.md#per-user-per-month-billing).
+[consumption-model billing](consump-model.md#for-analysts-in-consumption-model-tenants) and [per-user-per-month model](consump-model.md##for-analysts-in-pupm-model-tenants).
 
 ## Query types
 
