@@ -1,6 +1,5 @@
 ---
 
-ROBOTS: NOINDEX,NOFOLLOW
 title: Consumption billing model
 description: The consumption model billing model for analyst usage of queries 
 author: paul9955
@@ -104,6 +103,7 @@ This opens a panel that describes the current calculation:
 ![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
 >[!Note]
+>
 >* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
 >* This cost calculator is not available for meeting queries.
 
@@ -167,17 +167,13 @@ The **Analyst usage** report is available for download in the administrative pag
 
 ### To download the Analyst usage report
 
-1. Sign in to Workplace Analytics as an admin. 
+1. Sign in to Workplace Analytics as an admin.
 2. Go to the **Analyst usage** page:
 
    ![Download analyst usage report](../images/wpa/tutorials/analyst-usage2.png)
 
 3. Select the time period for which you want information about query usage.
 4. Select **Download**.
-
-<!-- publishing notes:
-1. COMPLETE DOCS WILL CONTAIN EVERYTHING: TO GO LIVE ON 10/1
-2. QB2 WITH ANALYST USAGE PART CAN GO LIVE NOW -->
 
 ## Per-user-per-month (PUPM) billing
 
