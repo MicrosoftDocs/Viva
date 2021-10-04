@@ -1,7 +1,7 @@
 ---
 
 title: Network person queries 
-description: Describes how to use Network person queries in Workplace Analytics to determine the "Influence" metric of individuals in your organization
+description: Describes how to use Network person queries in Workplace Analytics to determine the Influence metric of individuals in your organization
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
