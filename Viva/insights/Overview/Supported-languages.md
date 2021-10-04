@@ -75,5 +75,5 @@ We appreciate all your feedback. To report any language-related issues, use the 
 ### Related topics
 
 * [Supported languages in meeting exclusion rules](../tutorials/meeting-exclusion-concept.md#supported-languages)
-* [Settings](../use/settings.md)
+* [Control settings](../use/settings.md)
 * [Privacy settings considerations](../Privacy/privacy-considerations.md)
