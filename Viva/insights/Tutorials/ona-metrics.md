@@ -80,7 +80,7 @@ You can use the Network queries to qualify a network connection between two peop
 
 For more details about how strong and diverse ties are calculated, see [Network metric calculations](ona-metric-calculations.md) and, in particular, the following sections:
 
-* [Calculation factors](ona-metric-calculations.md#calculation-factors)
+* [Calculation factors](ona-metric-calculations.md)
 * [Metric computations](ona-metric-calculations.md#metric-computations)
 
 ### Distance is a factor
