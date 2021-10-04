@@ -83,21 +83,6 @@ For more details about how strong and diverse ties are calculated, see [Network 
 * [Calculation factors](ona-metric-calculations.md)
 * [Metric computations](ona-metric-calculations.md#metric-computations)
 
-### Distance is a factor
-
-You can derive more value from strong and diverse ties based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports.
-
-* You could have strong ties that are close: These are strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development.
-* You could have strong ties that are distant: These are strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement.
-* You could have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group.
-* You could have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks is considered key for driving innovation and creativity in and among teams.
-
-### Ties are directional
-
-Ties (both Strong and Diverse) are directional in nature. If a Sara-to-Isaiah tie is strong, it does not necessarily follow that the Isaiah-to-Sara tie is also strong. The strength depends on the contribution that each person makes. For example, a greater contribution from Isaiah toward his relationship with Sara makes it more likely that Isaiah has a Strong tie with Sara, but it does not directly increase the likelihood of a tie in the opposite direction.
-
-Another example: A manager's tie to a direct report might be Strong, but not necessarily the reverse.
-
 ### Strong ties example
 
 John and Sally are peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
