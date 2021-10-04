@@ -58,4 +58,4 @@ Only Viva Insights or Workplace Analytics Admins can access **Manager settings**
 ## Related topics
 
 * [Plans](../Tutorials/solutionsv2-intro.md)
-* [Settings](settings.md)
+* [Controls](settings.md)
