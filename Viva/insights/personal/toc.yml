@@ -35,9 +35,9 @@ items:
                 - name: Configure the app
                   href: teams/viva-teams-app-settings.md
                 - name: Admin tasks
-                  href: /personal/teams/viva-teams-app-admin-tasks.md
+                  href: teams/viva-teams-app-admin-tasks.md
                 - name: FAQ
-                  href: /personal/teams/viva-teams-app-faq.md
+                  href: teams/viva-teams-app-faq.md
         - name: Briefing
           items:
             - name: Overview
