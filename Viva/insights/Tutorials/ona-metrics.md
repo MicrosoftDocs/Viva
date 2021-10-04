@@ -77,11 +77,30 @@ You can use the Network queries to qualify a network connection between two peop
 
 >[!Note]
 >When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees-define).
-
+<!--
 For more details about how strong and diverse ties are calculated, see [Network metric calculations](ona-metric-calculations.md) and, in particular, the following sections:
 
 * [Calculation factors](ona-metric-calculations.md)
-* [Metric computations](ona-metric-calculations.md#metric-computations)
+* [Metric computations](ona-metric-calculations.md#metric-computations)-->
+
+## Distance
+
+You can derive more value from strong and diverse ties based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports.
+
+* You can have strong ties that are close: These are strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development.
+* You can have strong ties that are distant: These are strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement.
+* You can have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group.
+* You can have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks is considered key for driving innovation and creativity in and among teams.
+
+## Directionality
+
+Ties (both strong and diverse) are directional in nature.
+
+In general, if a Sara-to-Isaiah tie is strong, it doesn't necessarily follow that the Isaiah-to-Sara tie is also strong. The strength depends on the contribution that each person makes. A greater contribution from Isaiah toward his relationship with Sara makes it more likely that Isaiah has a strong tie with Sara, but not necessarily in the opposite direction.
+
+Moreover, it's possible that Isaiah's network is a subset of Sara's network. Hence although Sara can be a source of new information to Isaiah (since Sara collaborates with people that Isaiah does not) Isaiah would not be a source of new or diverse information to Sara. Hence in this case Sara is a diverse tie to Isaiah, but Isaiah is not a diverse tie to Sara.
+
+Another example: A manager's tie to a direct report might be strong, but not necessarily vice versa.
 
 ### Strong ties example
 
