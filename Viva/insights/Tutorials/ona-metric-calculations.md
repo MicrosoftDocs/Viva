@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Network query metric calculations 
 description: Describes how Workplace Analytics calculates the various metrics that are used in Network queries
 author: madehmer
