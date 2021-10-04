@@ -87,7 +87,7 @@ For more details about how strong and diverse ties are calculated, see [Network 
 
 John and Sally are peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
 
-Each person's contribution counts. See [Ties are directional](#ties-are-directional).
+Each person's contribution counts. See [Directionality](ona-metric-calculations.md#directionality) for more details.
 
 ### Diverse ties example
 
@@ -95,7 +95,7 @@ Preeti is a research scientist in an R&D department, and Rahul is a supply-chain
 
 Both Preeti and Rahul have their own connections, and there is no overlap in people across their connections. Due to these circumstances, a Diverse tie likely exists between them. Recently, Preeti liked an article on climate science on LinkedIn. Since Preeti is in Rahul's LinkedIn network, Rahul got to read this article, which he otherwise might have missed. As shown here, Diverse relationships such as the one between Preeti and Rahul promote sharing of varied and non-typical information.
 
-Each person's contribution counts. See [Ties are directional](#ties-are-directional).
+Each person's contribution counts. See [Directionality](ona-metric-calculations.md#directionality) for more details.
 
 ### Strong and diverse ties example
 
