@@ -17,7 +17,7 @@ Microsoft Viva Insights shows managers insights about their teams’ work patter
 
 As a manager, you can see these insights in **My team** within the Viva Insights app in Microsoft Teams. My team provides visibility into team collaboration patterns that are leading indicators of overall employee experience and wellbeing. You can then use these insights to understand current team norms and take action to create positive change.
 
-![Outcomes page.](../images/wpa/use/viva-team-outcomes.png)
+![My team page](../images/wpa/use/viva-myteam.png)
 
 ## Data privacy
 
@@ -40,9 +40,6 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
    You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information, see [Viva Insights Home](/insights/viva-insights-home).
 
 3. At the top of Viva Insights, select **My team** to see business outcomes related to your team, such as **Employee experience** and **Team effectiveness**.
-
-   ![My Team Outcomes page.](../images/wpa/use/team-outcomes.png)
-
 4. You can then use these outcomes and statistics to spot any red flags that might need your attention.  
 
 ## Outcome insights
