@@ -12,6 +12,8 @@ manager: scott.ruble
 audience: Admin
 ---
 
+<!-- NOTE: This topic exists only for the private preview that Nishant had going during Aug.-Sept. 2021. Now that consumption-model billing has gone GA (Oct 1), we should be able to delete this. Confirm first with Nishant that no preview customers might need it still. -->
+
 # Queries overview
 
 Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
@@ -29,8 +31,6 @@ With these queries, you can:
 The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that&mdash; after you have 27 months of data&mdash;as [Microsoft 365 data](../use/office-365-data.md) is refreshed each week, the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
-
-<!-- NISHANT'S PLAN FOR THE FOLLOWING (BILLING MODEL DIFFERENCES) SECTION IS AS FOLLOWS AS OF AUG. 17 2021: EDIT THIS CONTENT TO REFLECT THE CURRENT STATE OF THE PREVIEW RELEASE. IT STARTS OUT WITH MINIMAL FUNCTIONALITY. PUBLISH AS HIDDEN AND DISTRIBUTE LINK TO PREVIEW CUSTOMERS. GRADUALLY, ADD NEW CONTENT TO REFLECT THE GRADUAL ADDITION OF FEATURES TO THE PREVIEW RELEASE. AT GA, MERGE INTO THE NON-HIDDEN TOPIC QUERY-BASICS.MD. -->
 
 ## Billing model differences
 
@@ -55,6 +55,7 @@ Analysts will see the following differences: -->
 ### For analysts in consumption-model tenants
 
 In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors:
+
 * the number of measured employees being analyzed
 * the number of weeks of data included in the query output for each measured employee
 * the number of base metrics in the query
@@ -62,15 +63,14 @@ In this model, there is no minimum monthly licensing cost for your organization;
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
-<!-- Use this image starting late August 2021. It excludes the "wallet" on the upper status bar: -->
-
-![units per query.](../images/wpa/tutorials/conmod-credits-3.png)
+<!-- Use this image pre-GA. It excludes the "wallet" on the upper status bar: -->
+![units per query](../images/wpa/tutorials/conmod-credits-3.png)
 
 <!-- Revert to this image when we go to GA in fall, 2021. It includes the wallet: 
 
 ![units per query.](../images/wpa/tutorials/conmod-credits-2.png) -->
 
-<!-- REMOVE THIS FOR NOW. RESTORE IT WHEN WE REVERT THE PRECEDING IMAGE: 
+<!-- REMOVE THIS PARAGRAPH FOR NOW. RESTORE IT WHEN WE REVERT THE PRECEDING IMAGE (AT GA): 
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 -->
 
@@ -84,7 +84,7 @@ The terms in this formula are as follows:
 
 * **A = users**
 
-   This is the number of users whom the query will analyze.
+   This is the number of users whom the query will analyze. Also see [User scope in usage calculations](#user-scope-in-usage-calculations).
 
 * **B = metrics**
 
@@ -94,8 +94,9 @@ The terms in this formula are as follows:
 
   A “price tier” is associated with each metric, as described in the following item.
 
-
 * **C = price-tier cost**
+
+<a name="price-tier-anchor"></a>**Price tier costs**
 
    This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
 
@@ -112,6 +113,24 @@ The terms in this formula are as follows:
 
    This is the analysis period, in weeks.
 
+#### User scope in usage calculations
+
+As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, the user scope for the various query types is defined as follows:
+
+* **Person query**: **A** (users) = the number of [measured employees](../use/glossary.md#measured-employees-define), as filtered in the query definition
+
+* **Meeting query**: **A** (users) = the number of licensed users that are invited in the filtered meetings
+
+* **Person-to-group query**: **A** (users) = the number of time investors
+
+* **Group-to-group query**: **A** (users) = the number of time investors
+
+* **Peer Comparison**: **A** (users) = the number of employees in the reference groups
+
+* **Network: Person query**:  **A** (users) = the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Price tier costs](#price-tier-anchor)).
+
+* **Network: Person-to-person query**: User scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Price tier costs](#price-tier-anchor)).
+
 ##### See the usage calculation for the query
 
 On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
@@ -121,6 +140,10 @@ On the query page, you can see how units are calculated for the query that you a
 This opens a panel that describes the current calculation:
 
 ![query cost calculation.](../images/wpa/tutorials/estimated-query-cost-expanded.png)
+
+>[!Note]
+>* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
+>* This cost calculator is not available for meeting queries.
 
 ##### Charges for recurring queries
 
@@ -162,12 +185,6 @@ No additional units are charged for the following:
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
 
-### For analysts in PUPM-model tenants
-
-The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, your organization has been billed for the usage of the product during the time of purchase:
-
-![PUPM: no units shown.](../images/wpa/tutorials/pupm-no-credits-2.png)
-
 <!-- REMOVE THIS ENTIRE SECTION FOR NOW (AUGUST 19 2021). RETURN THIS SECTION TO THE DOC AFTER GA. -->
 <!-- 
 
@@ -181,6 +198,30 @@ The **Queries** > **Results** page shows additional information if the consumpti
 
    ![Query results page.](../images/wpa/tutorials/query-results-new-col.png)
 -->
+### View analyst usage
+
+The **Analyst usage** report is available for download in the administrative pages of Workplace Analytics. This report lists the queries that were run during a specified time period, the analysts who submitted them, and other details, including the query cost:
+
+![Analyst usage report](../images/wpa/tutorials/usage-report-example1.png)
+
+>[!Note]
+>Only admins can download the Analyst usage report.
+
+### To download the Analyst usage report
+
+1. Sign in to Workplace Analytics as an admin.
+2. Go to the **Analyst usage** page:
+
+   ![Download analyst usage report](../images/wpa/tutorials/analyst-usage2.png)
+
+3. Select the time period for which you want information about query usage.
+4. Select **Download**.
+
+### For analysts in PUPM-model tenants
+
+The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, your organization has been billed for the usage of the product during the time of purchase:
+
+![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
 
 <!-- END OF BILLING MODEL DIFFERENCES SECTION -->
 

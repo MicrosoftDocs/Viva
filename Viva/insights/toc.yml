@@ -89,9 +89,11 @@ items:
           - name: Dashboard
             href: personal/Use/dashboard-2.md
           - name: Digests
-            href: personal/use/email-digest-2.md
+            href: personal/use/email-digests-3.md            
           - name: Focus plan
             href: personal/use/focus-plan.md
+    #     - name: Shared focus plan
+    #       href: personal/use/shared-focus-plan.md            
           - name: Work patterns
             items:
               - name: Focus
@@ -311,6 +313,8 @@ items:
                             href: tutorials/power-bi-teams.md
                           - name: Manager effectiveness
                             href: tutorials/power-bi-manager.md
+       #                  - name: Employee wellbeing
+       #                    href: tutorials/power-bi-wellbeing.md  
                           - name: Behavior patterns for Glint
                             href: tutorials/power-bi-glint.md
                           - name: Sales business continuity
@@ -320,7 +324,9 @@ items:
                       - name: Queries
                         items:
                           - name: Overview
-                            href: tutorials/Query-basics.md
+                            href: tutorials/query-basics.md
+                          - name: Billing model differences
+                            href: tutorials/consump-model.md                            
                           - name: Person queries
                             items:
                               - name: Introduction
@@ -377,6 +383,8 @@ items:
                             href: Use/Chart-Types.md
                       - name: wpa R package
                         href: tutorials/wpa-r-package.md
+                      - name: Zoom integration
+                        href: Use/zoom.md 
                       - name: Workspace Collaboration Optimizer
                         href: Use/wsplan.md
                   - name: Plans

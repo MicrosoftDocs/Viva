@@ -2,6 +2,14 @@
 
 
 
+## Week of September 27, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/27/2021 | [Insights glossary](/workplace-analytics-insights/glossary) | modified |
+
+
 ## Week of September 20, 2021
 
 
