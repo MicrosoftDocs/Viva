@@ -35,5 +35,5 @@ You can exclude events with one of the following exclusion types:
 
 ## Related topics
 
-* [Settings](../Use/settings.md)
+* [Controls](../Use/settings.md)
 * [Data sources](../Use/data-sourcesv2.md)
