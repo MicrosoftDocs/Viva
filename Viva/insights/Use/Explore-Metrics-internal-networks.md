@@ -70,4 +70,4 @@ Network breadth can indicate:
 ## Related topics
 
 * [Page settings](../use/explore-page-settings.md)
-* [Workplace Analytics Charts](../use/chart-types.md)
+* [Workplace Analytics charts](../use/chart-types.md)

@@ -2,8 +2,8 @@
 
 title: Network metrics 
 description: Describes the metrics that are used in network queries
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 manager: scott.ruble
@@ -69,31 +69,44 @@ influential node. You can use this metric, for example, to obtain a simple ranke
 
 You can use the Network queries to qualify a network connection between two people as a [strong tie](../use/metric-definitions.md#strong-ties-define), a [diverse tie](../use/metric-definitions.md#diverse-ties-define), or neither.
 
-If two people have many network connections in common, they are considered to have a *strong tie*. Strong ties typically indicate shared membership in a workgroup or team. *Diverse ties* reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection.
+* [Diverse ties](../use/metric-definitions.md#diverse-ties-define) &ndash; *Diverse ties* reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection. This metric also takes into account network differences that exist between the two people where both people are investing time. Diverse ties are both directional and asymmetrical. For example, if A has a diverse tie with B if A either collaborates a lot with B or a lot with a network that they have in common with B.
+* [Strong ties](../use/metric-definitions.md#strong-ties-define) &ndash; If two people have many network connections in common, they are considered to have a *strong tie*. Strong ties typically indicate shared membership in a workgroup or team. Like diverse ties, strong ties are directional. The strength of a person's tie depends on the contribution that the person makes in the relationship with the other person. Network queries also offer the following metrics that derive from the strong-tie metric:
+
+  * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
+  * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
 
 >[!Note]
 >When Workplace Analytics evaluates a network connection, it can only classify that connection as a strong tie or a diverse tie if it is between two [measured employees](../use/glossary.md#measured-employees-define).
+<!--
+For more details about how strong and diverse ties are calculated, see [Network metric calculations](ona-metric-calculations.md) and, in particular, the following sections:
 
-### Distance is a factor
+* [Calculation factors](ona-metric-calculations.md)
+* [Metric computations](ona-metric-calculations.md#metric-computations)-->
+
+## Distance
 
 You can derive more value from strong and diverse ties based on distance. In the following descriptions, "immediate group" refers to one manager and their direct reports.
 
-* You could have strong ties that are close: These are strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development.
-* You could have strong ties that are distant: These are strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement.
-* You could have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group.
-* You could have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks is considered key for driving innovation and creativity in and among teams.
+* You can have strong ties that are close: These are strong ties with people in your immediate group. These ties are necessary for the promotion of overall team efficiency, team effectiveness, knowledge transfer, and best-practice development.
+* You can have strong ties that are distant: These are strong ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. However, such ties are likely not sustainable because of time demand for deep and constant engagement.
+* You can have diverse ties that are close: These are diverse ties with people in your immediate group. These ties might appear as a result of use cases internal to the group; they can also indicate disengagement within the group.
+* You can have diverse ties that are distant: These are diverse ties with people outside your immediate group. These ties are good for evangelizing and embedding fresh or innovative ideas. The presence of such ties in manager networks is considered key for driving innovation and creativity in and among teams.
 
-### Ties are directional
+## Directionality
 
-Ties (both Strong and Diverse) are directional in nature. If a Sara-to-Isaiah tie is strong, it does not necessarily follow that the Isaiah-to-Sara tie is also strong. The strength depends on the contribution that each person makes. For example, a greater contribution from Isaiah toward his relationship with Sara makes it more likely that Isaiah has a Strong tie with Sara, but it does not directly increase the likelihood of a tie in the opposite direction.
+Ties (both strong and diverse) are directional in nature.
 
-Another example: A manager's tie to a direct report might be Strong, but not necessarily the reverse.
+In general, if a Sara-to-Isaiah tie is strong, it doesn't necessarily follow that the Isaiah-to-Sara tie is also strong. The strength depends on the contribution that each person makes. A greater contribution from Isaiah toward his relationship with Sara makes it more likely that Isaiah has a strong tie with Sara, but not necessarily in the opposite direction.
+
+Moreover, it's possible that Isaiah's network is a subset of Sara's network. Hence although Sara can be a source of new information to Isaiah (since Sara collaborates with people that Isaiah does not) Isaiah would not be a source of new or diverse information to Sara. Hence in this case Sara is a diverse tie to Isaiah, but Isaiah is not a diverse tie to Sara.
+
+Another example: A manager's tie to a direct report might be strong, but not necessarily vice versa.
 
 ### Strong ties example
 
 John and Sally are peers on the same team working on the same project. They collaborate with each other often. They exchange emails several times a day and meet in various forums several times a week. Due to the frequent nature of their interaction, a Strong tie likely exists between them. This Strong tie is made even stronger by the fact that John and Sally share a [common network](../use/glossary.md#common-network).  Each has their own set of people with whom they work and meet. These sets of people overlap, which creates an indirect bonding or relationship &ndash; a common network &ndash; which, in turn, strengthens the Strong tie between John and Sally.
 
-Each person's contribution counts. See [Ties are directional](#ties-are-directional).
+Each person's contribution counts. See [Directionality](ona-metric-calculations.md#directionality) for more details.
 
 ### Diverse ties example
 
@@ -101,21 +114,13 @@ Preeti is a research scientist in an R&D department, and Rahul is a supply-chain
 
 Both Preeti and Rahul have their own connections, and there is no overlap in people across their connections. Due to these circumstances, a Diverse tie likely exists between them. Recently, Preeti liked an article on climate science on LinkedIn. Since Preeti is in Rahul's LinkedIn network, Rahul got to read this article, which he otherwise might have missed. As shown here, Diverse relationships such as the one between Preeti and Rahul promote sharing of varied and non-typical information.
 
-Each person's contribution counts. See [Ties are directional](#ties-are-directional).
+Each person's contribution counts. See [Directionality](ona-metric-calculations.md#directionality) for more details.
 
 ### Strong and diverse ties example
 
 Mark and Matt work as engineers in the same large development team. However, they work on different products. Due to the nature of their roles, they are expected to collaborate closely with each other, and they do these in regular cross-group sync-up meetings and occasional emails. Based on these frequent collaboration events, a Strong tie could exist between them.
 
 Now, since they work on separate products, they tend to work with different people within their own workgroups. This results in some amount of fresh information flowing to each other through their own networks. For this reason, it is possible that a Diverse tie could also exist between the two to some degree.
-
-### Calculation of tie metrics
-
-* [Diverse ties](../use/metric-definitions.md#diverse-ties-define) &ndash; Diverse ties reflect the number of diverse or novel connections that a person has across the company, based on the time invested by the person with their connection. This metric also takes into account network differences that exist between the two people where both people are investing time. Diverse ties are both directional and asymmetrical. For example, if A has a diverse tie with B if A either collaborates a lot with B or a lot with a network that they have in common with B.
-* [Strong ties](../use/metric-definitions.md#strong-ties-define) &ndash; If two people have many network connections in common, they are considered to have a strong tie. Strong ties typically indicate shared membership in a workgroup or team. Like diverse ties, strong ties are directional. The strength of a person's tie depends on the contribution that the person makes in the relationship with the other person. This query also offers the following metrics that derive from the strong-tie metric:
-
-  * [Manager overlapping strong ties](../use/metric-definitions.md#manager-overlapping-strong-ties-define) &ndash; A count of the number of strong ties that both a manager has and that their direct reports have in common with the manager.
-  * [Manager unique strong ties](../use/metric-definitions.md#manager-unique-strong-ties-define) &ndash; A count of the number of strong ties that are unique in a manager's network that do not exist in the strong ties of any of that manager's direct reports.
 
 ## FAQ
 
