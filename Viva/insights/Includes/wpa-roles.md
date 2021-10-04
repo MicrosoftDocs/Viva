@@ -27,4 +27,4 @@ The following roles must be assigned by a Microsoft 365 admin as described in [A
 
 The following role must be assigned by a Workplace Analytics admin in **Admin settings** > [**Manager settings**](../use/manager-settings.md) in Workplace Analytics:
 
-* **People Manager** &ndash; Has access to **Insights** only about their team in Workplace Analytics. A People Manager can also open, manage, and track **Plans** only for their team in Workplace Analytics.
+* **People Manager** &ndash; Has access to **Insights** only about their team. A People Manager can also open, manage, and track **Plans** only for their team in Workplace Analytics.
