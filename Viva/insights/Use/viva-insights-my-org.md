@@ -46,15 +46,17 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 
 ### Outcome insights
 
-To investigate more about an outcome, select it to see more details. For example, in **Outcomes**, select **Boost employee engagement** to see more about it:
+To investigate more about an outcome insight, select it to see more details.
 
-![Boost employee engagement.](../images/wpa/use/org-boost.png)
-
-### Best practices
-
-To take action on an outcome, you can select **View best practices** to see a list of recommendations for an insight, such as increasing the frequency of coaching for coaching and development:
-
-![Best practice for coaching and development](../images/wpa/use/org-bestp.png)
+* Organizational resiliency
+* [Boost engagement](engagement.md)
+* Improve agility
+* Foster innovation
+* Effective managers
+* Operational effectiveness
+* Accelerate change
+* Transform meeting culture
+* Increase customer focus
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about it to Microsoft. See **Q2** in [Manager and leader insights FAQ](my-team-faq.md) for details.
