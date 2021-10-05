@@ -16,7 +16,7 @@ audience: Admin
 
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. As a business leader, these insights give you a snapshot of how your company is doing. The insights include company-wide outcomes and leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
-![Outcomes page.](../images/wpa/use/my-org.png)
+![My organization page.](../images/wpa/use/my-org.png)
 
 While you can also see these outcomes and their related best practices in Viva Insights in Workplace Analytics, it's advantageous to find them in Teams. That's because you're already using Teams for communicating during remote work, namely for meeting, for sharing files, and for sending IMs to employees and other leaders.
 
@@ -41,23 +41,22 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 
    You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information about these features, see [Viva Insights Home](/insights/viva-insights-home).
 
-4. In the Viva Insights menu, select My organization to see the top recommendations and some of the top insights in Outcomes:
-
-   ![Viva Insights Outcomes page.](../images/wpa/use/org-outcomes.png)
-
+4. In the Viva Insights menu, select **My organization** to see the top recommendations and some of the top insights.
 5. You can inspect the outcomes and the statistics that they show to see if any red flags might need your attention.
 
-### Outcome insights
+## Outcomes
 
-To investigate more about an outcome, select it to see more details. For example, in **Outcomes**, select **Boost employee engagement** to see more about it:
+To investigate more about an outcome, select it to see more details.
 
-![Boost employee engagement.](../images/wpa/use/org-boost.png)
-
-### Best practices
-
-To take action on an outcome, you can select **View best practices** to see a list of recommendations for an insight, such as increasing the frequency of coaching for coaching and development:
-
-![Best practice for coaching and development](../images/wpa/use/org-bestp.png)
+* [Organizational resiliency](resiliency.md)
+* [Boost engagement](engagement.md)
+* [Improve agility](agility.md)
+* [Foster innovation](innovation.md)
+* [Effective managers](effective-managers.md)
+* [Operational effectiveness](operational.md)
+* [Accelerate change](change.md)
+* [Transform meeting culture](meeting-culture.md)
+* [Increase customer focus](icustomer-focus.md)
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about it to Microsoft. See **Q2** in [Manager and leader insights FAQ](my-team-faq.md) for details.

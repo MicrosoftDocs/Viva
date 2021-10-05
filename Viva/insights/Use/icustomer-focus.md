@@ -1,7 +1,7 @@
 ---
 
-title: Increase customer focus with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and increase customer focus
+title: Increase customer focus with Viva Insights
+description: Learn how to use Microsoft Viva Insights data to analyze and increase customer focus
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,53 +11,41 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Increasing customer focus
+# Increase customer focus
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
 Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Increase customer focus insights.](../images/wpa/use/customer-focus.png)
+Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Increase customer focus**.
+
+![Increase customer focus insights.](../images/wpa/use/icustomer-focus.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Increase customer focus percentage insight example.](../images/wpa/use/customer-focus-percent.png)
+![Increase customer focus percentage insight example.](../images/wpa/use/icustomer-focus-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Optimize time with customers  |Percentage of employees who spend 8+ hours in external collaboration every week |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Percentage of employees who spend more than 8 hours collaborating with people outside the company. This insight is calculated weekly and averaged over the entire time period. |
+|Optimize time with customers  |Percentage of employees who spend eight or more hours in external collaboration every week |[External network size and external collaboration hours](metric-definitions.md#person-metrics) and [connected people and connected groups](glossary.md) |Percentage of employees who spend more than eight hours collaborating with people outside the company. This insight is calculated weekly and averaged over the entire time period. |
 |Promote coaching and development |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |The percentage of employees who spend less than 15 minutes of coaching time with their managers each week. To account for different frequencies in coaching, this percentage is calculated monthly and then divided by four to get a weekly average. |
 <!--|Strengthen internal networks |Percentage of employees who have fewer than five relationships with internal organizations |[Influence metric](metric-definitions.md#network-metrics) |Calculates how much time employees spent collaborating with the internal network per month and averaged over the entire time period. |-->
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Increase customer focus visual insight example.](../images/wpa/use/customer-focus-visual.png)
+![Increase customer focus visual insight example.](../images/wpa/use/icustomer-focus-visual.png)
 
 |Behavior |Visual insight |Definition |
 |---------|--------|----------------------|
 |Optimize time with customers |Distribution of external collaboration |Percentage of employees grouped by their weekly [external collaboration hours](metric-definitions.md#person-metrics). They are divided into groups of employees who spend zero to four hours, four to eight hours, and more than eight hours collaborating externally with people outside the company. These percentages are calculated weekly and averaged over the entire time period. |
-|Promote coaching and development |Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, have between zero and one hour, and have more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
+|Promote coaching and development |Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, have between zero and one hour of 1:1s, and have more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
 <!--|Strengthen internal networks |Internal network connections by employee network strength |An [organizational network graph](insight-ona-measures.md) represents the distribution of current managers and potential managers as compared with the other employees within your organization, based on influence scores. You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles. This graph uses the [influence metric](metric-definitions.md#network-metrics). |-->
-
-## Take action
-
-You can select **See your insights** to see ways you can drive change or simply maintain your organization's focus on customers. Depending on your role, the following are available in addition to the recommendations within Take action.
-
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [management and coaching](explore-metrics-management-and-coaching.md) and [external collaboration](../tutorials/teamwork-solution.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
-
-  |Behavior |Recommendation |Explore the stats|
-  |---|---|---|
-  |Optimize time with customers |Make strategic time investments |[External collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ExternalCollaboration) |
-  |Promote coaching and development |Increase frequency of coaching |[Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) |
-
-* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
 
 ## Best practices
 
-This section describes why each of the following behaviors matter and the top best practices that can help increase customer focus.
+To take action on an outcome, you can select **View best practices** to see a list of recommendations for it. This section describes why each of the following behaviors matter and the top best practices that can help increase customer focus.
 
 * [Optimize time with customers](#optimize-time-with-customers)
 * [Promote coaching and development](#promote-coaching-and-development)
@@ -65,7 +53,7 @@ This section describes why each of the following behaviors matter and the top be
 
 ### Optimize time with customers
 
-Collaboration with customers and other external contacts enables employees to gain the customer and market knowledge needed for business success. Spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.
+Collaboration with customers and other external contacts helps employees stay connected to the market, drive revenue, and enable longer term business success. Spending time collaborating with customers helps you better anticipate customer's needs and develop products and services that create real value.
 
 According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.” Ways to support customer focus:
 
@@ -76,7 +64,7 @@ For best practices and how to track time with your most important external conta
 
 ### Promote coaching and development
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to [How to make your one-on-ones with employees more productive](https://insights.office.com/management-strategy/how-to-make-your-one-on-ones-with-employees-more-productive/): "One-on-ones are one of the most important productivity tools you have as a manager." Ways to keep employees engaged:
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can contribute to employee disengagement and attrition. According to [How to make your one-on-ones with employees more productive](https://insights.office.com/management-strategy/how-to-make-your-one-on-ones-with-employees-more-productive/): "One-on-ones are one of the most important productivity tools you have as a manager." Ways to keep employees engaged:
 
 * Use [Insights](../personal/use/use-the-insights.md#catch-up-with-your-team) to schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
@@ -97,7 +85,3 @@ Ways to foster cross-group collaboration:
 
 For more best practices and how to provide managers with go-to contacts list, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
 -->
-## Related topics
-
-* [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)

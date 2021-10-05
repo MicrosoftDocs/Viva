@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Network query metric calculations 
-description: Describes how Workplace Analytics calculates the various metrics that are used in Network queries
+description: Describes how the metrics are calculated for Viva Insights Network queries
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
