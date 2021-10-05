@@ -13,7 +13,7 @@ audience: Admin
 
 # Team effectiveness
 
-Microsoft Viva Insights has a **My team** page that shows manger's collaboration data about their team. The outcomes include data about **Team effectiveness**, which you can select in **My team** to see more details.
+Microsoft Viva Insights has a **My team** page that shows manager's collaboration data about their team. The outcomes include data about **Team effectiveness**, which you can select in **My team** to see more details.
 
 ![Team effectiveness](../images/wpa/use/team-effect.png)
 

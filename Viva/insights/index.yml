@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title: Microsoft Viva Insights documentation # < 60 chars
-summary: Microsoft Viva Insights is part of Microsoft Viva, which is an employee experience platform built on Microsoft 365 that helps people and teams be their best from wherever they work. Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams. # < 160 chars
+summary: Microsoft Viva Insights is part of Microsoft Viva, which is an employee experience platform built on Microsoft 365 that helps people and teams be their best from wherever they work. Microsoft Viva Insights identifies collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. The Viva Insights suite includes a Microsoft Teams app, web features, and advanced analysis tools that help people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing. # < 160 chars
 brand: workplace-analytics
 
 metadata:
@@ -11,7 +11,7 @@ metadata:
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
   ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
-  ms.date: 08/25/2021 #Required; mm/dd/yyyy format.
+  ms.date: 10/05/2021 #Required; mm/dd/yyyy format.
 
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
@@ -23,7 +23,7 @@ highlightedContent:
       itemType: overview
       url: ./use/viva-insights-my-team.md
     - title: Advanced insights
-      itemType: concept
+      itemType: deploy
       url: index-orig.md
     - title: Privacy protection
       itemType: learn # controls the icon image and super-title text

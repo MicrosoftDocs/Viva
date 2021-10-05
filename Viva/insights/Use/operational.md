@@ -1,7 +1,7 @@
 ---
 
-title: Enhance operational effectiveness with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and maximize operational effectiveness in your organization 
+title: Enhance operational effectiveness with Viva Insights
+description: Learn how to use Microsoft Viva Insights data to analyze and maximize operational effectiveness in your organization
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,56 +11,41 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Enhance operational effectiveness
+# Operational effectiveness
 
 Small changes to collaboration practices can have transformative effects on organizational productivity at scale. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Enhance operational effectiveness page.](../images/wpa/use/effective-operations.png)
+Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Operational effectiveness**.
+
+![Enhance operational effectiveness page.](../images/wpa/use/operational.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Operational effectiveness percentage insight.](../images/wpa/use/effective-operations-percent.png)
+![Operational effectiveness percentage insight.](../images/wpa/use/operational-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
-|Free up capacity |Percentage of employees who 25+ hours in collaboration every week |[Collaboration hours](metric-definitions.md#person-metrics)|Percentage of employees who spend more than 25 hours each week collaborating through email, calls, instant messages, and meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Free up capacity |Percentage of employees who 20+ hours in collaboration every week |[Collaboration hours](metric-definitions.md#person-metrics) |Percentage of employees who spend more than 20 hours each week collaborating through Microsoft Outlook and Teams. This insight is calculated weekly and averaged for the entire time period. |
 |Improve meeting quality |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), and [meeting hours](metric-definitions.md#meeting-hours-define)|The percentage of employees who spent over 50 percent of their meeting hours in long or large meetings. Long meetings are longer than one hour and large meetings have more than eight attendees. This is calculated weekly and averaged for the entire time period. |
 |Keep employees engaged |Percentage of employees who significantly multitask in meetings |[Multi-tasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define) |Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and averaged for the entire time period. |
 |Protect time to get work done |Percentage of employees who have less than 20 hours available to focus each week |[Total focus hours](metric-definitions.md#focus-define) |The percentage of employees who have less than 20 hours available to focus each week, which is calculated weekly and averaged for the entire time period. |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Operational effectiveness visual insight.](../images/wpa/use/effective-operations-visual.png)
+![Operational effectiveness visual insight.](../images/wpa/use/operational-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
-|Free up capacity |Distribution of collaboration hours  |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged for the entire time period. |
-|Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting hours](metric-definitions.md#meeting-hours-define) to calculate the following percentages that are calculated weekly and averaged for the entire time period: <ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
-|Keep employees engaged |Distribution of multitasking in meetings |Percentage of employees based on their weekly [multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one to five hours, and more than five hours. These are calculated weekly and averaged for the entire time period. |
-|Protect time to get work done |Distribution of focus time |Percentage of employees grouped by their [total focus hours](metric-definitions.md#focus-define). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours focusing. These are calculated weekly and averaged for the entire time period. |
-
-## Take action
-
-You can select **See your insights** to see ways you can maximize operational effectiveness in your organization. Depending on your role, the following are available in addition to the recommendations within Take action.
-
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [meetings](explore-metrics-meetings-overview.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
-
-  |Behavior |Recommendation |Explore the stats|
-  |---|---|---|
-  |Free up capacity |Reduce meeting hours |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork)
-  |Improve meeting quality |Try shorter and smaller meetings |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) |
-  |Keep employees engaged |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
-  |Protect time to get work done |Establish new work habits |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
-
-* **Explore in Power BI** - If available, links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
-* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
+|Free up capacity |Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between zero and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged for the entire time period. |
+|Improve meeting quality |Meeting hours by duration and number of attendees |Uses [meeting hours](metric-definitions.md#meeting-hours-define) to calculate the following percentages that are calculated weekly and averaged for the entire time period: <ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
+|Keep employees engaged |Distribution of time spent multitasking in meetings |Percentage of employees based on their weekly [multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one to five hours, and more than five hours. These are calculated weekly and averaged for the entire time period. |
+|Protect time to get work done |Establish new work habits |Percentage of employees grouped by their [total focus hours](metric-definitions.md#focus-define). They are divided into those who have between zero and 10 hours, 10 and 20 hours, 20 and 40 hours, and more than 40 hours available to focus each week. These are calculated weekly and averaged for the entire time period. |
 
 ## Best practices
 
-This section describes why each of the following behaviors matter and the top best practices that can help enhance operational effectiveness.
+To take action on an outcome, you can select **View best practices** to see a list of recommendations for an insight. This section describes why each of the following behaviors matter and the top best practices that can help enhance operational effectiveness.
 
 * [Free up capacity](#free-up-capacity)
 * [Improve meeting quality](#improve-meeting-quality)
@@ -81,7 +66,7 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 ### Improve meeting quality
 
-Long and large meetings are costly and often considered a waste of time. Shorter meetings with fewer people can enhance individual and team performance.
+Long and large meetings are costly and often an inefficient use of attendee time. Meetings that are shorter and have fewer attendees provide the conditions for effective decision making.
 
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Ways to optimize meetings:
 
@@ -92,7 +77,7 @@ For more best practices and ways to schedule shorter meetings, see [Best practic
 
 ### Keep employees engaged
 
-Email and chat activity during meetings unrelated to meeting goals can lead to different interpretations of decisions, missed guidance, and inconsistent follow-through on action items.
+Email and chat activity during meetings unrelated to meeting goals can lead to distractions resulting in missed guidance and inconsistent follow-through. Leadership multitasking habits can also trickle down and create undesirable team norms.
 
 [If you multitask during meetings, your team will too](https://insights.office.com/productivity/multitask-meetings-team-will/) explains "multitasking can signal to others that we don’t value their time or their contributions. When you and your entire team engages in this behavior, little good can come from it." Ways to keep employees engaged:
 
@@ -104,7 +89,7 @@ For more best practices and ways to maintain the interest and participation of m
 
 ### Protect time to get work done
 
-Time without meetings, emails and chats provides employees with the opportunity to get important work done and think creatively.
+Time without meetings, emails, and chats gives employees the opportunity to get important work done and think creatively.
 
 [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking, such as writing, strategic thinking, analysis, coding, designing, or a project with a lot of complexity." Ways to protect time:
 
@@ -112,8 +97,3 @@ Time without meetings, emails and chats provides employees with the opportunity 
 * Create a new team norm that respects the Microsoft Teams focus status of others by not sending chats to teammates whose status is "focusing."
 
 For more best practices and ways to protect the time of yourself and others, see [Best practices for focus time](../tutorials/gm-focus.md).
-
-## Related topics
-
-* [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)

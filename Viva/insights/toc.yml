@@ -171,7 +171,27 @@ items:
               - name: Team effectiveness
                 href: use/team-effectiveness.md
           - name: Leader insights
-            href: use/viva-insights-my-org.md
+            items:
+              - name: My organization    
+                href: use/viva-insights-my-org.md
+              - name: Organizational resiliency
+                href: use/resiliency.md
+              - name: Boost engagement
+                href: use/engagement.md
+              - name: Improve agility
+                href: use/agility.md
+              - name: Foster innovation
+                href: use/innovation.md
+              - name: Effective managers
+                href: use/effective-managers.md
+              - name: Operational effectiveness
+                href: use/operational.md
+              - name: Accelerate change
+                href: use/change.md
+              - name: Transform meeting culture
+                href: use/meeting-culture.md
+              - name: Increase customer focus
+                href: use/icustomer-focus.md
           - name: FAQ
             href: Use/my-team-faq.md
       - name: Advanced insights
