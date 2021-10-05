@@ -85,7 +85,7 @@ As an Outlook add-in, the Viva Insights Outlook add-in requires a browser compat
 
 ## Language support
 
-Viva Insights is available in the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/en-ie/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
+Viva Insights is available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/en-ie/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
 ## Prerequisites and exclusions
 
