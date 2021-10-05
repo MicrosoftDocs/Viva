@@ -51,8 +51,8 @@ To investigate more about an outcome insight, select it to see more details.
 * [Organizational resiliency](resiliency.md)
 * [Boost engagement](engagement.md)
 * [Improve agility](agility.md)
-* Foster innovation
-* Effective managers
+* [Foster innovation](innovation.md)
+* [Effective managers](effective-managers.md)
 * Operational effectiveness
 * Accelerate change
 * Transform meeting culture

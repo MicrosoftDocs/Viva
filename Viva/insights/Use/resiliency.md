@@ -14,7 +14,7 @@ audience: Admin
 
 Resilience depends on having the right insights, systems, and tools to respond to sudden changes, recover from disruption, and reimagine the future for your organization. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Organizational resiliency**, which you can select to see more details.
+Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Organizational resiliency**.
 
 ![Enhance organizational resiliency](../images/wpa/use/org-resiliency.png)
 

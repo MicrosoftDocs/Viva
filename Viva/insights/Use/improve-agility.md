@@ -10,7 +10,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Improve agility
+# Improve organizational agility
 
 Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 

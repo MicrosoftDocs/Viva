@@ -12,13 +12,11 @@ audience: Admin
 
 # Boost engagement
 
-Employees with high job satisfaction and a strong sense of belonging are more likely to produce high-quality work, identify business opportunities, and remain at the organization.
+Employees with high job satisfaction and a strong sense of belonging are more likely to produce high-quality work, identify business opportunities, and remain at the organization. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 For example, are employees routinely getting one-on-one time with their managers? Research shows that employees who get consistent manager coaching are five times more likely to stay engaged, which leads to increased productivity and greater employee retainment.
 
-Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Boost  engagement**, which you can select to see more details.
-
-Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
+Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Boost engagement**.
 
 ![Boost engagement.](../images/wpa/use/org-boost.png)
 

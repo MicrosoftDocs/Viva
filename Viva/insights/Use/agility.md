@@ -1,6 +1,6 @@
 ---
 title: Improve agility in Viva Insights
-description: Learn how to use Viva Insights data to analyze and improve organizational agility
+description: Learn how to use Microsoft Viva Insights data to analyze and improve organizational agility
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -10,11 +10,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Improve organizational agility
+# Improve agility
 
 Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Improve agility** to see more details.
+Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Improve agility**.
 
 ![Improve agility page.](../images/wpa/use/agility.png)
 
