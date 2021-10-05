@@ -14,15 +14,15 @@ audience: Admin
 # Accelerate change
 
 >[!Important]
->This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert for **Accelerate change** about it being "unavailable because the minimum number of employees is not met."
+>This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert about **Accelerate change** being "unavailable because the minimum number of employees is not met."
 
-Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and can lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
+Slow adoption of new technology harms efforts to attract and retain top talent, improve productivity, and might lead to market failure. Influencers are employees who have the best connections to people across the company based on their collaboration patterns.
 
-Engage influencers shows how your organization compares with others based on industry research and your specific organizational data.
+The data for this insight shows how your organization compares with others based on industry research and your specific organizational data.
 
 Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Accelerate change**.
 
-![Accelerate change page.](../images/wpa/use/accelerate-change.png)
+![Accelerate change page in Teams](../images/wpa/use/change.png)
 
 ## Calculations
 
@@ -32,11 +32,11 @@ The percentage metric for **Engage influencers** is **Percentage of employees wh
 
 The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#network-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
-![Accelerate change visual insight.](../images/wpa/use/accelerate-change-visual.png)
+![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
 
 ## Best practices
 
-Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
+To take action, select **View best practices** to see a list of recommendations about engaging influencers. Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 

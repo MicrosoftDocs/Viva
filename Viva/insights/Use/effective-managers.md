@@ -1,5 +1,5 @@
 ---
-title: Develop effective managers in Viva Insights
+title: Develop effective managers with Viva Insights
 description: Learn how to use Microsoft Viva Insights data to analyze and develop effective managers in your organization
 author: madehmer
 ms.author: v-mideh
@@ -48,7 +48,7 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Best practices
 
-To take action on an outcome, you can select **View best practices** to see a list of recommendations for an insight. This section describes why each of the following behaviors matter and the top best practices that can help managers be more effective.
+To take action on an outcome, you can select **View best practices** to see a list of recommendations for it. This section describes why each of the following behaviors matter and the top best practices that can help managers be more effective.
 
 * [Optimize manager meetings](#optimize-manager-meetings)
 * [Protect manager capacity](#protect-manager-capacity)

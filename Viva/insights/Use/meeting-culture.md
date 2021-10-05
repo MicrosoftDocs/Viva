@@ -1,7 +1,7 @@
 ---
 
-title: Transform meeting culture with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and transform your organization's meeting culture
+title: Transform meeting culture with Viva Insights
+description: Learn how to use Microsoft Viva Insights data to analyze and transform your organization's meeting culture
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,17 +11,19 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Transform meetings
+# Transform meeting culture
 
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
-![Transform meeting culture page.](../images/wpa/use/transform-meetings.png)
+Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Transform meeting culture**.
+
+![Transform meeting culture page.](../images/wpa/use/meeting-culture.png)
 
 ## Calculations
 
 The following are the percentage insights, their underlying metrics, and a little about the calculations used for them.
 
-![Transform meetings examine recurring meetings.](../images/wpa/use/transform-meetings-percent.png)
+![Transform meetings examine recurring meetings.](../images/wpa/use/meeting-culture-percent.png)
 
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
@@ -31,33 +33,17 @@ The following are the percentage insights, their underlying metrics, and a littl
 
 The following defines the organizational data shown in the visual behavioral insights.
 
-![Transform meetings promote healthy meeting habits.](../images/wpa/use/transform-meetings-visual.png)
+![Transform meetings promote healthy meeting habits.](../images/wpa/use/meeting-culture-visual.png)
 
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Improve meeting quality |Meetings by duration and number of attendees |Uses [meeting hours](metric-definitions.md#meeting-hours-define) to calculate the following percentages:<ul><li>**Large meetings** - Percentage of meetings that are larger than eight attendees but have a duration of less than one hour. </li><li>**Long meetings** - Percentage of meetings that are longer than one hour but have less than equal to eight attendees. </li><li>**Long and large meetings** - Percentage of meetings that have more than eight attendees and are longer than one hour. </li><li>**Decision-making meetings** - Percentage of meetings that have between two and eight attendees and are less than one hour in duration. </li>|
-|Examine recurring meetings | Recurring vs. non-recurring meetings |Percentage of total meeting hours that are recurring and those that are non-recurring. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [meeting hours](metric-definitions.md#meeting-hours-define) metric and the [IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics).|
-|Promote healthy meeting habits | Distribution of multitasking in meetings  | Percentage of employees based on their weekly [multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one and five hours, and more than five hours multitasking in meetings. These percentages are calculated weekly and averaged for the entire time period. |
-
-## Take action
-
-You can select **See your insights** to see ways you can drive change or transform your organization's meeting culture. Depending on your role, the following are available in addition to the recommendations within Take action.
-
-* **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – The following recommendations link to more in-depth data about your organization's [teamwork](../tutorials/teamwork-solution.md) or [meetings](explore-metrics-meetings-overview.md). In the **Take action** section for each of the following behaviors, select **See your insights** > **Explore the stats** to access them:
-
-  |Behavior |Recommendation |Explore the stats|
-  |---|---|---|
-  |Optimize meeting hours |Reduce meeting hours |[Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) |
-  |Examine recurring meetings |Reinvent the recurring meeting |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
-  |Promote healthy meeting habits |Improve meeting practices |[Teamwork](https://workplaceanalytics.office.com/en-us/Plans/Teamwork) |
-
-* **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
-* **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
+|Examine recurring meetings | Recurring vs. non-recurring meeting hours |Percentage of total meeting hours spent in recurring and non-recurring meetings. These hours are summed for the entire time period and then the percentages are calculated. These calculations use the [meeting hours](metric-definitions.md#meeting-hours-define) metric and the [IsRecurring meeting filter](../tutorials/meeting-queries.md#add-metrics).|
+|Promote healthy meeting habits | Distribution of weekly time spent multitasking | Percentage of employees based on their weekly [multitasking meeting hours](metric-definitions.md#multitasking-meeting-hours-define). They are divided into those who spend between zero and one hour, one and five hours, and more than five hours multitasking in meetings. These percentages are calculated weekly and averaged for the entire time period. |
 
 ## Best practices
 
-This section describes why each of the following behaviors matter and the top best practices that can help transform meeting culture.
+To take action on an outcome, you can select **View best practices** to see a list of recommendations for it. This section describes why each of the following behaviors matter and the top best practices that can help transform meeting culture.
 
 * [Optimize meeting hours](#optimize-meeting-hours)
 * [Examine recurring meetings](#examine-recurring-meetings)
@@ -95,8 +81,3 @@ According to [If you multitask during meetings, your team will, too](https://ins
 * When distracted by a thought to send an email during a meeting, add it quickly to your to-do list instead and move on. This provides satisfaction and can help you regain focus.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
-
-## Related topics
-
-* [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)

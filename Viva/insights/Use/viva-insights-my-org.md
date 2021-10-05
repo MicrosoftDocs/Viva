@@ -53,10 +53,10 @@ To investigate more about an outcome insight, select it to see more details.
 * [Improve agility](agility.md)
 * [Foster innovation](innovation.md)
 * [Effective managers](effective-managers.md)
-* Operational effectiveness
-* Accelerate change
-* Transform meeting culture
-* Increase customer focus
+* [Operational effectiveness](operational.md)
+* [Accelerate change](change.md)
+* [Transform meeting culture](meeting-culture.md)
+* [Increase customer focus](icustomer-focus.md)
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about it to Microsoft. See **Q2** in [Manager and leader insights FAQ](my-team-faq.md) for details.

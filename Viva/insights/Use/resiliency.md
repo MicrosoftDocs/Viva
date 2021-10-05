@@ -46,7 +46,7 @@ The following defines the organizational data shown in the visual behavioral ins
 
 ## Best practices
 
-To take action on an outcome, you can select **View best practices** to see a list of recommendations for an insight. This section describes why each of the following behaviors matter and the top best practices that can help enhance organizational resiliency.
+To take action on an outcome, you can select **View best practices** to see a list of recommendations for it. This section describes why each of the following behaviors matter and the top best practices that can help enhance organizational resiliency.
 
 * [Enable work-life balance](#enable-work-life-balance)
 * [Provide support](#provide-support)
