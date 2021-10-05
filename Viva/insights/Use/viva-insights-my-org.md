@@ -44,9 +44,9 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 4. In the Viva Insights menu, select **My organization** to see the top recommendations and some of the top insights.
 5. You can inspect the outcomes and the statistics that they show to see if any red flags might need your attention.
 
-## Outcome insights
+## Outcomes
 
-To investigate more about an outcome insight, select it to see more details.
+To investigate more about an outcome, select it to see more details.
 
 * [Organizational resiliency](resiliency.md)
 * [Boost engagement](engagement.md)
