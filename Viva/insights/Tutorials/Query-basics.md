@@ -2,7 +2,7 @@
 
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of queries for custom data analysis
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
@@ -23,20 +23,19 @@ With these queries, you can:
 * Customize metrics with a broad range of interaction details.
 * Get your data in a clean and easy-to-use format that can take your analysis to the next level.
 
-## Time limit for querying data 
+## Time limit for querying data
 
 The historical data on which queries are run is time limited: You can run queries only on data that is no older than 27 months. This 27-month period is a _rolling window_. This means that, after you have 27 months of [Microsoft 365 data](../use/office-365-data.md) data, as the data is refreshed each week, the 27-month extent of data that you can query advances by one week to include only the preceding 27 months.
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
-## Billing model differences
+## Consumption model
 
-Tenants subscribe to Workplace Analytics through one of the following billing models:
+You can subscribe a tenant to using the advanced insights and tools in Workplace Analytics through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
 
-* **Consumption model** &ndash; The tenant pays Microsoft a fee that is based on the volume of query usage.
-* **Per-user-per-month model** &ndash; The tenant pays Microsoft a monthly fee that is based on the number of licensed users.
+The appearance and behavior of the pages for creating and running queries and of the query results page will depend on whether your tenant is subscribed to the Workplace Analytics SKU or to the Viva Insights SKU.
 
-Your tenant's choice of billing model affects the appearance and behavior of the pages for creating and running queries (such as for [person queries](person-queries.md)) and the [query results](../use/view-download-and-export-query-results.md) page. For more information about these billing models, see [consumption-model billing](consump-model.md#consumption-model-billing) and [per-user-per-month billing](consump-model.md#per-user-per-month-pupm-billing).
+For more details, see [Consumption model](consump-model.md).
 
 ## Query types
 

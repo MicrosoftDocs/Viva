@@ -1,7 +1,7 @@
 ---
 
-title: Consumption billing model
-description: The consumption model billing model for analyst usage of queries 
+title: Consumption model for Viva Insights
+description: Learn about the consumption model for analyst usage of queries in Workplace Analytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,41 +11,40 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Billing model differences
+# Consumption model
 
-Tenants subscribe to Workplace Analytics through one of the following billing models:
+Effective October 2021, the Microsoft Viva Insights SKU replaced the Microsoft Workplace Analytics SKU.
 
-* **Consumption model** &ndash; The tenant pays Microsoft a fee that is based on the volume of query usage.
-* **Per-user-per-month (PUPM) model** &ndash; The tenant pays Microsoft a monthly fee that is based on the number of licensed users.
+You can subscribe a tenant to using the advanced insights and tools in Workplace Analytics through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
 
-Your tenant's choice of billing model affects the appearance and behavior of the pages for creating and running queries and of the [query results](../use/view-download-and-export-query-results.md) page. Analysts will see differences as described in [Consumption-model billing](#consumption-model-billing) and [Per-user-per-month (PUPM) billing](#per-user-per-month-pupm-billing).
+The appearance and behavior of the pages used to create and run queries and of the [query results](../use/view-download-and-export-query-results.md) page will differ based on your tenant's SKU subscription.
 
-## Consumption-model billing
+## Tenant analysts
 
-In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors:
+In this model, each query that an analyst runs consumes a few "units" based on the following factors:
 
-* the number of measured employees being analyzed
-* the number of weeks of data included in the query output for each measured employee
-* the number of base metrics in the query
-* which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
+* The number of measured employees being analyzed
+* The number of weeks of data included in the query output for each measured employee
+* The number of base metrics in the query
+* Which base metrics are used, which are arranged in price tiers; metrics in higher price tiers consume more units than metrics in lower price tiers (see [Consumption model details](#consumption-model-details) for details)
 
-As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
+As you design a query, Viva Insights in Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query will consume in its current state. This number is updated as you edit the query:
 
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
-### Consumption model details
+## Consumption model details
 
-In a consumption-model tenant, queries consume "units" as they are run. Usage calculation is as follows:
+In a consumption-model tenant, queries consume "units" when you run them. Usage calculation is as follows:
 
-**units consumed** = **A** *  **B** * **C** * **D**
+**units consumed** = **A** * **B** * **C** * **D**
 
 The terms in this formula are as follows:
 
 * **A = users**
 
-   This is the number of users whom the query will analyze. Also see [User scope in usage calculations](#user-scope-in-usage-calculations).
+   This is the number of users whom the query will analyze.
 
 * **B = metrics**
 
@@ -63,9 +62,9 @@ The terms in this formula are as follows:
 
    | Tier | Metric used in the query | Units |
    | ---- | ------------ | -------------- |
-   | 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-   | 2    | Advanced Workplace Analytics metrics &ndash; specifically, the [Network query metrics](../tutorials/ona-metrics.md) of Workplace Analytics. | 2.25 |
-   | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
+   | 1    | Most Workplace Analytics metrics - For example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
+   | 2    | Advanced Workplace Analytics metrics - Specifically, the [Network query metrics](../tutorials/ona-metrics.md) of Workplace Analytics. | 2.25 |
+   | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) - Namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
    >[!Note]
    >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
@@ -74,54 +73,32 @@ The terms in this formula are as follows:
 
    This is the analysis period, in weeks.
 
-#### User scope in usage calculations
+## Usage calculation
 
-As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, the user scope for the various query types is defined as follows:
+On the query page, you can see how units are calculated for the query that you are defining. To see the calculation description, select the **Tooltip** (i) icon:
 
-* **Person query**: **A** (users) = the number of [measured employees](../use/glossary.md#measured-employees-define), as filtered in the query definition
-
-* **Meeting query**: **A** (users) = the number of licensed users that are invited in the filtered meetings
-
-* **Person-to-group query**: **A** (users) = the number of time investors
-
-* **Group-to-group query**: **A** (users) = the number of time investors
-
-* **Peer Comparison**: **A** (users) = the number of employees in the reference groups
-
-* **Network: Person query**:  **A** (users) = the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Price tier costs](#price-tier-anchor)).
-
-* **Network: Person-to-person query**: User scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Price tier costs](#price-tier-anchor)).
-
-##### See the usage calculation for the query
-
-On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
-
-![query cost tooltip](../images/wpa/tutorials/estimated-query-cost-tooltip.png)
-
-This opens a panel that describes the current calculation:
-
-![query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
+![Query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
 >[!Note]
 >
 >* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
 >* This cost calculator is not available for meeting queries.
 
-#### Charges for recurring queries
+## Recurring query charges
 
-Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
+Viva Insights in Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
 Note that the queried population can change between query refresh runs. Take the following example: There are 1,000 licensed employees when you first set up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. The first time that the query refreshes after the initial run, it will include:
 
-* **1:** weeks 2 to 4 for the original population
+* **1**: Weeks 2 to 4 for the original population
 
-* **2:** week 5 for the original population
+* **2**: Week 5 for the original population
 
-* **3:** weeks 2 to 5 for the newly licensed population
+* **3**: Weeks 2 to 5 for the newly licensed population
 
 Of these, the refresh query will charge for **2** and **3** because neither were included in the original query run, but it will not charge for **1**, which duplicates the data that was returned in the original query.
 
-#### Charges for re-running a completed query
+## Charges for re-running a completed query
 
 On the **Query designer** > **Results** page, you can locate a query that has already run, open it, edit it, and run it. This incurs a new cost, as if you were running the query for the first time. The steps to do this are as follows:
 
