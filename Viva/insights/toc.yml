@@ -345,7 +345,7 @@ items:
                         items:
                           - name: Overview
                             href: tutorials/query-basics.md
-                          - name: Billing model differences
+                          - name: Consumption model
                             href: tutorials/consump-model.md                            
                           - name: Person queries
                             items:

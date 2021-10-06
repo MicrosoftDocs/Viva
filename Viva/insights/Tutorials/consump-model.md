@@ -19,7 +19,7 @@ You can subscribe a tenant to using the advanced insights and tools in Workplace
 
 The appearance and behavior of the pages used to create and run queries and of the [query results](../use/view-download-and-export-query-results.md) page will differ based on your tenant's SKU subscription.
 
-## Tenant analysts
+## Consumption-model analysts
 
 In this model, each query that an analyst runs consumes a few "units" based on the following factors:
 
@@ -34,7 +34,7 @@ As you design a query, Viva Insights in Workplace Analytics uses these factors t
 
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 
-## Consumption model details
+### Consumption model details
 
 In a consumption-model tenant, queries consume "units" when you run them. Usage calculation is as follows:
 
@@ -73,7 +73,7 @@ The terms in this formula are as follows:
 
    This is the analysis period, in weeks.
 
-## Usage calculation
+### Usage calculation
 
 On the query page, you can see how units are calculated for the query that you are defining. To see the calculation description, select the **Tooltip** (i) icon:
 
@@ -84,7 +84,7 @@ On the query page, you can see how units are calculated for the query that you a
 >* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
 >* This cost calculator is not available for meeting queries.
 
-## Recurring query charges
+### Recurring query charges
 
 Viva Insights in Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
@@ -98,38 +98,35 @@ Note that the queried population can change between query refresh runs. Take the
 
 Of these, the refresh query will charge for **2** and **3** because neither were included in the original query run, but it will not charge for **1**, which duplicates the data that was returned in the original query.
 
-## Charges for re-running a completed query
+### Charges for running an existing query again
 
-On the **Query designer** > **Results** page, you can locate a query that has already run, open it, edit it, and run it. This incurs a new cost, as if you were running the query for the first time. The steps to do this are as follows:
+If you open an existing, previously run query, and you edit it and run it again, you'll incur a new cost. Same as if you were running a new query for the first time. The steps to do this are as follows:
 
 1. Open the **Query designer** > **Results** page.
 2. In the list of queries, find a query whose status shows as completed, as indicated by a green check mark.
-3. In the row for that query, select **More options** (the ellipsis) and then **View query**:
+3. In the row for that query, select **More options** (the ellipsis) and then select **View query**:
 
-   ![options view query](../images/wpa/tutorials/query-actions.png)
+   ![View query option](../images/wpa/tutorials/query-actions.png)
 
-   This opens the page for designing that query.
+4. Change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**. The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Consumption model details](#consumption-model-details).
 
-4. In the query designer, change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**.
-The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Consumption model details](#consumption-model-details).
-
-#### No additional charges
+### No additional charges
 
 No additional units are charged for the following:
 
-* Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My Team in Viva Insights](../use/viva-insights-my-team.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
-* Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
-* Your use of organizational attributes in queries.
+* Viva Insights in Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
+* Your use of the following features: [Plans](solutionsv2-intro.md), [My team in Viva Insights](../use/viva-insights-my-team.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), and [Explore the stats](../use/explore-intro.md).
+* Your choice of tool, such as Excel, PowerPoint, Power BI, or another visualization tool.
+* Use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
 
-### Results page
+### Query results
 
-The **Queries** > **Results** page shows additional information if the consumption model is in use at your tenant:
+In **Query designer** > **Results**, you'll see additional information if the consumption model is in use for a tenant:
 
-* **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+* **Workplace Analytics SKU** - Analysts in a Workplace Analytics tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
-* **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+* **Consumption-model tenants** - For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the Information tooltip (i) icon to see details about a charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
@@ -142,7 +139,7 @@ The **Analyst usage** report is available for download in the administrative pag
 >[!Note]
 >Only admins can download the Analyst usage report.
 
-### To download the Analyst usage report
+#### To download the Analyst usage report
 
 1. Sign in to Workplace Analytics as an admin.
 2. Go to the **Analyst usage** page:
@@ -152,11 +149,11 @@ The **Analyst usage** report is available for download in the administrative pag
 3. Select the time period for which you want information about query usage.
 4. Select **Download**.
 
-## Per-user-per-month (PUPM) billing
+## Workplace Analytics tenant analysts
 
-The query-creation pages show analysts no information about query usage or tenant billing. This is because, in the PUPM model, the design and use of queries has no effect on the amount that your organization is billed. Billing charges accrue behind the scenes, independently of query usage:
+For those tenants with a Workplace Analytics SKU, Query designer pages show analysts no about query usage or consumption units.
 
-![PUPM: no units shown](../images/wpa/tutorials/pupm-no-credits-2.png)
+![No billing info shown in Query designer](../images/wpa/tutorials/pupm-no-credits-2.png)
 
 ## Related topics
 
