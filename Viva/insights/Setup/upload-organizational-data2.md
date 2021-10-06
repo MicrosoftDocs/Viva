@@ -25,7 +25,7 @@ Administrators can use the following steps for a subsequent upload (import) of o
 
 ## Import tasks
 
-The task of importing organizational data has three parts:
+Importing organizational data requires the following tasks:
 
 1. [File upload](#file-upload)
 2. [Field mapping](#field-mapping)
@@ -75,7 +75,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
       * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
 
-        ![System fields for adding employees.](../images/wpa/setup/upload2-map-sys2.png)
+        ![System fields for adding employees.](../images/wpa/setup/system-fields.png)
 
       * When editing employee data, you’ll see the following types of fields, which *excludes* the validity thresholds:
 
@@ -103,7 +103,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these in **Organizational data > Upload**.
 
-![Upload page.](../images/wpa/setup/new-upload2.png)
+![New upload field mapping](../images/wpa/setup/new-upload2.png)
 
 The **Upload** page has System fields and Custom fields that you need to map for the upload file.
 
