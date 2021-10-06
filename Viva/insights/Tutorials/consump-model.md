@@ -2,8 +2,8 @@
 
 title: Consumption model for Viva Insights
 description: Learn about the consumption model for analyst usage of queries in Workplace Analytics
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 localization_priority: normal 
 ms.prod: wpa
@@ -15,13 +15,13 @@ audience: Admin
 
 Effective October 2021, the Microsoft Viva Insights SKU replaced the Microsoft Workplace Analytics SKU.
 
-You can subscribe a tenant to using the advanced insights and tools in Workplace Analytics through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
+You can subscribe a tenant to using Viva Insights in Workplace Analytics through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
 
 The appearance and behavior of the pages used to create and run queries and of the [query results](../use/view-download-and-export-query-results.md) page will differ based on your tenant's SKU subscription.
 
-## Consumption-model analysts
+## Analysts with the consumption model
 
-In this model, each query that an analyst runs consumes a few "units" based on the following factors:
+For analysts of tenants with the consumption model, each query that you run consumes a few "units" based on the following factors:
 
 * The number of measured employees being analyzed
 * The number of weeks of data included in the query output for each measured employee
@@ -149,9 +149,9 @@ The **Analyst usage** report is available for download in the administrative pag
 3. Select the time period for which you want information about query usage.
 4. Select **Download**.
 
-## Workplace Analytics tenant analysts
+## Analysts with Workplace Analytics tenants
 
-For those tenants with a Workplace Analytics SKU, Query designer pages show analysts no about query usage or consumption units.
+For analysts of tenants with the Workplace Analytics SKU, they won't see any query usage or consumption units in Query designer.
 
 ![No billing info shown in Query designer](../images/wpa/tutorials/pupm-no-credits-2.png)
 
