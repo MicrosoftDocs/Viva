@@ -1,7 +1,7 @@
 ---
 
 title: Viva Insights for managers
-description: My team in the Microsoft Viva Insights shows managers their team collaboration patterns
+description: My team in Microsoft Viva Insights in Teams shows managers their team collaboration patterns
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -42,9 +42,9 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 3. At the top of Viva Insights, select **My team** to see business outcomes related to your team, such as **Employee experience** and **Team effectiveness**.
 4. You can then use these outcomes and statistics to spot any red flags that might need your attention.  
 
-## Outcome insights
+## Outcomes
 
-To investigate more about an outcome insight, select it to see more details.
+To investigate more about an outcome, select it to see more details.
 
 * [Employee experience](team-experience.md)
 * [Team effectiveness](team-effectiveness.md)
