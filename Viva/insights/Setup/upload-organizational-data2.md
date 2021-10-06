@@ -75,7 +75,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
       * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
 
-        ![System fields for adding employees.](../images/wpa/setup/upload2-map-sys2.png)
+        ![System fields for adding employees.](../images/wpa/setup/system-fields.png)
 
       * When editing employee data, you’ll see the following types of fields, which *excludes* the validity thresholds:
 
