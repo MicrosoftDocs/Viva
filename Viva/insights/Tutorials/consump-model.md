@@ -151,7 +151,7 @@ The **Analyst usage** report is available for download in the administrative pag
 
 ## Analysts with Workplace Analytics tenants
 
-For analysts of tenants with the Workplace Analytics SKU, they won't see any query usage or consumption units in Query designer.
+Analysts of tenants with the Workplace Analytics SKU won't see any query usage or consumption units in Query designer.
 
 ![No billing info shown in Query designer](../images/wpa/tutorials/pupm-no-credits-2.png)
 
