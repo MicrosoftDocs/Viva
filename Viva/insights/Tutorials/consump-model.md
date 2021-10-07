@@ -40,7 +40,7 @@ In a consumption-model tenant, queries consume "units" when they are run. Usage 
 
 **units consumed** = **A** * **B** * **C** * **D**
 
-The terms in this formula are as follows:
+The usage formula consists of the following parts:
 
 * **A = people**
 
@@ -86,9 +86,9 @@ On the query page, you can see how units are calculated for the query that you a
 
 ### Recurring query charges
 
-Viva Insights in Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
+Viva Insights uses the usage formula to calculate the units that are consumed whenever analysts run a query in the Query designer, except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of employees and weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
-Note that the queried population can change between query refresh runs. Take the following example: There are 1,000 licensed employees when you first set up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. The first time that the query refreshes after the initial run, it will include:
+Note that the queried population can change between query refresh runs. For example, when you set up a new "last four weeks" auto-refresh query that includes 1,000 licensed employees. And then before the query runs again, another 2,000 employee licenses are approved. The first time the query refreshes after the initial run, it will include:
 
 * **1**: Weeks 2 to 4 for the original population
 
