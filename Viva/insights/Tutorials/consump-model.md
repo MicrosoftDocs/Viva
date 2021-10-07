@@ -23,16 +23,16 @@ The appearance and behavior of the pages used to create and run queries and [que
 
 For analysts of tenants with the consumption model, each query that they run consumes a few "units" based on the following factors:
 
-* The number of measured employees being analyzed
+* The number of measured employees included in the analysis
 * The number of weeks of data included in the query output for each measured employee
-* The number of base metrics in the query
-* Which base metrics are used, which are arranged in price tiers; metrics in higher price tiers consume more units than metrics in lower price tiers (see [Consumption model details](#consumption-model-details) for details)
+* The number of metrics used in the query
+* The type of metrics used from the different price tiers; metrics in the higher price tiers consume more units than metrics in lower price tiers (see [Consumption model details](#consumption-model-details) for details)
 
-As analysts design a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query will consume in its current state. This number is updated as you edit the query:
+As analysts design a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, it shows the estimated number of units the query will consume in its current state. This number is updated as the query is edited:
 
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
-In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
+In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. Analysts can continue to run queries as long as this balance is greater than zero units.
 
 ### Consumption model details
 
@@ -42,9 +42,9 @@ In a consumption-model tenant, queries consume "units" when they are run. Usage 
 
 The usage formula consists of the following parts:
 
-* **A = people**
+* **A = measured population**
 
-   This is the number of people the query will analyze.
+   This is the number of measured employees the query will analyze.
 
 * **B = metrics**
 
