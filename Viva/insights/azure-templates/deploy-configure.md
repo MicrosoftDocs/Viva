@@ -157,14 +157,14 @@ See [Register an application with the Microsoft identity platform](/graph/auth-r
 
 ## Generate SAS URI for data export
 
-After deployment, you need to create a write-only SAS URI on the raw data container in the storage account created during the deployment. The SAS URI is given to the Workplace Analytics admin to configure data exports that are required by some of the templates.
+After deployment, you need to create a write-only SAS URI on the raw data container in the storage account created during the deployment. The SAS URI is given to the Viva Insights or Workplace Analytics to configure data exports that are required by some of the templates.
 
 1. Use Storage Explorer (or Storage Explorer (preview) web) application to view the raw data container in the storage account created during deployment.
 2. Right-click the **rawdata** folder and select **Get Shared Access Signature**.
 3. In **Shared Access Signature**, select an expiration time.
 4. In **Permissions**, confirm only **Write** is selected, and then select **Create**.
 5. For the URI, select **Copy** to copy the complete URI, which will be similar to the example URI in the following graphic.
-6. Give the new URI that you copied in the previous step to your Workplace Analytics admin, who needs it to configure [data exports](data-export.md).
+6. Give the new URI that you copied in the previous step to your admin, who needs it to configure [data exports](data-export.md).
 
     ![Example SAS URI.](./images/example-sas-uri.png)
 

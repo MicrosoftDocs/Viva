@@ -65,19 +65,19 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 4. For **Which measured employees do you want to include in your query results**, select **All employees**. To run the reports for a specific segment of your population, such as frontline workers, scope your population in **Select filters**. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 
    >[!Important]
-   >You must have the preferred segment (example frontline worker) attribute uploaded in the organizational data upload. If the upload does not include this attribute, contact your Workplace Analytics admin to upload it.
+   >You must have the preferred segment (example frontline worker) attribute uploaded in the organizational data upload. If the upload does not include this attribute, contact your Viva Insights or Workplace Analytics admin to upload it.
 
 5. In **Organizational data**, keep the preselected **Organization** attribute that the dashboard requires.
 
    >[!Important]
    >If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
-6. Locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your Workplace Analytics admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
+6. Locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your Viva Insights or Workplace Analytics admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
 
    >[!Important]
    >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
 
-7. Locate and select the organizational attribute that identifies numerical outcome data (such as, performance ratings, store sales figures, engagement results, safety, or quality scores) to explore relationships between collaboration activity and business outcomes. Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your Workplace Analytics admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
+7. Locate and select the organizational attribute that identifies numerical outcome data (such as, performance ratings, store sales figures, engagement results, safety, or quality scores) to explore relationships between collaboration activity and business outcomes. Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
 
    >[!Important]
    >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
@@ -131,13 +131,13 @@ After you have customized the report, you can use the following flexible feature
     ![Manager habits settings.](../Images/WpA/Tutorials/pbi-manager-habits.png)
 
    >[!Important]
-   >If you are unable find the required values, reach out to your Workplace Analytics admin to upload organizational data to include an attribute that identifies people managers. The supervisor indicator filter only applies to the two greyed out visuals on this page. Without this attribute, insights regarding manager habits will not be accurate.
+   >If you are unable find the required values, reach out to your admin to upload organizational data to include an attribute that identifies people managers. The supervisor indicator filter only applies to the two greyed out visuals on this page. Without this attribute, insights regarding manager habits will not be accurate.
 
 * **Productivity** - If you loaded outcomes related data to your organizational data file you can select Outcome measure from the Y-axis dropdown and compare your success metric with various collaboration metrics on the X-axis. Confirm the outcome data is numerical (such as, performance ratings, store sales figures, engagement results, safety, or quality scores).
 
     ![Productivity settings.](../Images/WpA/Tutorials/pbi-productivity.png)
 
-Your Workplace Analytics admin must do the following steps to upload (import) organizational data to Workplace Analytics.
+Your admin must do the following steps to upload (import) organizational data to Workplace Analytics.
 
 1. Prepare and upload the required organizational data into Workplace Analytics.
 2. Map the fields in Workplace Analytics.

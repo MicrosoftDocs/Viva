@@ -83,14 +83,14 @@ In Azure Active Directory, you can assign access rights to users by assigning ro
 
 ### How many assignees
 
-The size of your organization and your requirements for managing organizational data determine the number of people to whom you assign the roles of Workplace Analytics admins and analysts. The number of analysts should be as many as your organization requires to perform data analysis. Workplace Analytics imposes no limit on the number of role assignments.
+The size of your organization and your requirements for managing organizational data determine the number of people to whom you assign the roles of Viva Insights or Workplace Analytics admins and analysts. The number of analysts should be as many as your organization requires to perform data analysis. Workplace Analytics imposes no limit on the number of role assignments.
 
 ### Multiple roles for one person
 
 You can assign multiple Workplace Analytics roles to one person. It's up to your organization to choose who is assigned which role or roles. Examples:
 
-* One person can be both an Microsoft 365 admin and a Workplace Analytics admin.
-* One person can be both a Workplace Analytics admin and a Workplace Analytics analyst. It is best practice, however, to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics.
+* One person can be both an Microsoft 365 admin and a Viva Insights or Workplace Analytics admin.
+* One person can be both a Viva Insights or Workplace Analytics admin and analyst. It is best practice, however, to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics.
 
 In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard.)
 

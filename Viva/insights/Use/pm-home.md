@@ -23,7 +23,7 @@ You can use the following information to lead your team toward more effective bu
 
 * **Team effectiveness** - Nimble companies can more efficiently adapt to market changes and gain a true competitive advantage. The insights in this section show if your team has time to collaborate for rapid innovation, and to focus and produce higher quality work.
 
-* **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
+* **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Viva Insights or Workplace Analytics admin can give you more details about uploads and measured employees.
 
 The following shows what your managers will see in [My Team in Viva Insights](viva-insights-my-team.md).
 
@@ -35,7 +35,7 @@ The following shows what your managers can see in Workplace Analytics, which is 
 
 ## Manager access
 
-To grant managers access to [My Team in Viva Insights](viva-insights-my-team.md) and to Manager insights in Workplace Analytics, your Workplace Analytics admin must add them as managers in [Manager settings](../use/manager-settings.md).
+To grant managers access to [My Team in Viva Insights](viva-insights-my-team.md) and to Manager insights in Workplace Analytics, your Viva Insights or Workplace Analytics admin must add them as managers in [Manager settings](../use/manager-settings.md).
 
 >[!Note]
 >By late June 2021, the app will no longer send an automated welcome email to managers who get access to My Team in Viva Insights and to Manager insights in Workplace Analytics.

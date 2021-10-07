@@ -51,7 +51,7 @@ If you are an analyst, you must have a partition selected to be able to view dat
 
 1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition."
 
-    If you see this notice, ask your Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
+    If you see this notice, ask your Viva Insights or Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
 
 2. What you see now depends on your role and partition assignments: If you are analyst (you have the analyst role or analyst limited role), go to step 3; if you have any other role, go to Step 4.
 
@@ -72,7 +72,7 @@ If you are an analyst, you must have a partition selected to be able to view dat
 
 ## Create, edit, and delete partitions
 
-* **Role**: Workplace Analytics admin
+* **Role**: Viva Insights or Workplace Analytics admin
 
 To administer partitions, see the following sections:
 
@@ -82,7 +82,7 @@ To administer partitions, see the following sections:
 
 ### To create a partition
 
-Workplace Analytics admins create partitions on the **Settings** page. This procedure consists of four sub-tasks, which you complete at the indicated step in the following procedure:
+Viva Insights or Workplace Analytics admins create partitions on the **Settings** page. This procedure consists of four sub-tasks, which you complete at the indicated step in the following procedure:
 
 | Sub-task | Step | Notes |
 | -------- | ---- | ----------- |
@@ -195,7 +195,7 @@ Partitions have limits both in number and size:
 
 The following scenarios can push the size of a partition beyond the allowed limit:
 
-* **Role**: Workplace Analytics admin
+* **Role**: Viva Insights or Workplace Analytics admin
 
 | Scenario | Admin action | Result |
 | -------- | ------------ | ------ |

@@ -16,7 +16,7 @@ As a people manager, confirm the following prerequisites. You can then sign in a
 
 ## Prerequisites
 
-* **Manager access** - Confirm that the Workplace Analytics admin has given you access to Workplace Analytics in [Manager settings](../use/manager-settings.md).
+* **Manager access** - Confirm that the Viva Insights or Workplace Analytics admin has given you access to Workplace Analytics in [Manager settings](../use/manager-settings.md).
 * **Licensed team** - You and your team are measured employees who are assigned a Workplace Analytics license and your team is included in the reporting hierarchy that leads to you as their manager. The hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the admin.
 * **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
@@ -37,7 +37,7 @@ Manager insights provides the following visibility into your team’s collaborat
 
 ## Who is included
 
-Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](../use/organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *included employees* in your team. Your Workplace Analytics admin can give you more details about uploads and measured employees.
+Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](../use/organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *included employees* in your team. Your Viva Insights or Workplace Analytics admin admin can give you more details about uploads and measured employees.
 
 ## About the insights
 

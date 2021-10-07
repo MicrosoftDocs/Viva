@@ -21,7 +21,7 @@ Viva Insights and Workplace Analytics help managers like you identify patterns a
 
 Managers who meet the following criteria can view insights about their team:
 
-* People managers whose team meets the minimum team size that is set by the Workplace Analytics admin, which includes people who directly or indirectly report to you.
+* People managers whose team meets the minimum team size that is set by the Viva Insights or Workplace Analytics admin admin, which includes people who directly or indirectly report to you.
 * Managers who are granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md).
 
 ##### Q3 Who is included in these insights?
