@@ -91,9 +91,7 @@ items:
           - name: Digests
             href: personal/use/email-digests-3.md            
           - name: Focus plan
-            href: personal/use/focus-plan.md
-    #     - name: Shared focus plan
-    #       href: personal/use/shared-focus-plan.md            
+            href: personal/use/focus-plan.md     
           - name: Work patterns
             items:
               - name: Focus

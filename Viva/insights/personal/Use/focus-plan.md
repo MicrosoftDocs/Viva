@@ -15,7 +15,8 @@ audience: Admin
 
 Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs: 
+The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
+
 * You can silence or allow chats in Teams and in Skype for Business. 
 * You can mute or unmute team notifications. 
 
@@ -137,13 +138,11 @@ The following sections provide information that can help you as you create or mo
 
 ### Automatic booking of focus time
 
-After you set automatic booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. The time that it books on your calendar appears in a different color and is labeled "Focus time":  
+After you set automatic booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as a different color and is labeled "Focus time."
 
-![Focus prompt in the digest.](../../Images/mya/use/focus-time-on-your-calendar.png)
+Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments.
 
-Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments. 
-
-Although two hours is the maximum length of a focus-time block that can be scheduled automatically, you can extend your focus time, by hand, in your Outlook calendar. 
+Although two hours is the maximum length of a focus-time block that can be scheduled automatically, you can extend your focus time, by hand, in your Outlook calendar.
 
 #### Booking schedule
 
