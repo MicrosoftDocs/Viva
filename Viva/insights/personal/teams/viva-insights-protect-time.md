@@ -16,7 +16,7 @@ audience: Admin
 You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to protect your time in the following ways:
 
 * [Schedule focus time](#schedule-focus-time) for future workdays.
-* [Start a virtual commute](viva-insights-virtual-commute.md#start-a-virtual-commute) to end your day.
+* [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
 
 ## Schedule focus time
 

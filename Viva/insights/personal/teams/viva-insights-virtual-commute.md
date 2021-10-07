@@ -13,7 +13,7 @@ audience: Admin
 
 # Virtual commute
 
-You can use virtual commute feature in the Microsoft Viva Insights app in Teams from either [Up-next](#up-next-card) or within [Protect time](#protect-time).
+You can use virtual commute feature in the Microsoft Viva Insights app in Teams from either the [Up-next card](#up-next-card) or [Within Protect time](#within-protect-time).
 
 ## Up-next card
 
@@ -28,15 +28,15 @@ This message appears at the following times:
 
 ## Within Protect time
 
-In **Protect time** > **Ready to wrap up**, select **Start**.
+In **Protect time**, when prompted with **Ready to wrap up**, select **Start**.
 
 ![Book focus time.](Images/start-virt-commute.png)  
 
 This causes your virtual commute to start immediately. For details about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps).
 
-Starting a virtual commute this way does not affect the scheduled days and time of day that you set in [Set up virtual commute](#set-up-virtual-commute).
+Starting a virtual commute this way does not affect the scheduled days and time of day that you set in [Set up virtual commutes](#set-up-virtual-commutes).
 
-## Set up a virtual commute
+## Set up virtual commutes
 
 The first time you open **Protect time**, you are prompted to schedule your virtual-commute reminders:
 

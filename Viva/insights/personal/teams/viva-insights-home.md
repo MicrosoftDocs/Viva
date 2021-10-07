@@ -1,6 +1,6 @@
 ---
 
-title: Viva Insights Home page
+title: Viva Insights Home page in Teams
 description: About the Home page in the Microsoft Viva Insights app
 author: paul9955
 ms.author: v-pausch
