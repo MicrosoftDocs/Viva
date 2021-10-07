@@ -15,20 +15,20 @@ audience: Admin
 
 Effective October 2021, the Microsoft Viva Insights SKU replaced the Microsoft Workplace Analytics SKU.
 
-You can subscribe a tenant to using Viva Insights in Workplace Analytics through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
+You can subscribe a tenant to the advanced insights and tools in Viva Insights through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
 
-The appearance and behavior of the pages used to create and run queries and of the [query results](../use/view-download-and-export-query-results.md) page will differ based on your tenant's SKU subscription.
+The appearance and behavior of the pages used to create and run queries and [query results](../use/view-download-and-export-query-results.md) will differ based on your tenant's SKU subscription.
 
 ## Analysts with the consumption model
 
-For analysts of tenants with the consumption model, each query that you run consumes a few "units" based on the following factors:
+For analysts of tenants with the consumption model, each query that they run consumes a few "units" based on the following factors:
 
 * The number of measured employees being analyzed
 * The number of weeks of data included in the query output for each measured employee
 * The number of base metrics in the query
 * Which base metrics are used, which are arranged in price tiers; metrics in higher price tiers consume more units than metrics in lower price tiers (see [Consumption model details](#consumption-model-details) for details)
 
-As you design a query, Viva Insights in Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query will consume in its current state. This number is updated as you edit the query:
+As analysts design a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query will consume in its current state. This number is updated as you edit the query:
 
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
@@ -36,42 +36,42 @@ In the bar above the estimated query cost, you can see how many units remain in 
 
 ### Consumption model details
 
-In a consumption-model tenant, queries consume "units" when you run them. Usage calculation is as follows:
+In a consumption-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
 
 **units consumed** = **A** * **B** * **C** * **D**
 
 The terms in this formula are as follows:
 
-* **A = users**
+* **A = people**
 
-   This is the number of users whom the query will analyze.
+   This is the number of people the query will analyze.
 
 * **B = metrics**
 
-   This is the number of unique base metrics that are used at each price tier in the query. If the query includes more than one customization of one base metric, it counts as only a single use of that metric.
+   This is the number of unique base metrics that are used at each price tier in a query. A [price tier cost](#price-tier-costs) is associated with each metric.
 
-  <u>Example:</u> If a query measures Meeting hours between 8:00 and 9:00 AM and Meeting hours between 9:00 and 10:00 AM, this counts as only a single metric, Meeting hours.
+   If a query includes more than one customization of one base metric, it counts as only a single use of that metric. For example, if a query measures Meeting hours between 8:00 and 9:00 AM and Meeting hours between 9:00 and 10:00 AM, this counts as consuming one metric, which is Meeting hours.
 
-  A “price tier” is associated with each metric, as described in the following item.
+* **C = price tier cost**
 
-* **C = price-tier cost**
-
-<a name="price-tier-anchor"></a>**Price tier costs**
-
-   This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
-
-   | Tier | Metric used in the query | Units |
-   | ---- | ------------ | -------------- |
-   | 1    | Most Workplace Analytics metrics - For example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-   | 2    | Advanced Workplace Analytics metrics - Specifically, the [Network query metrics](../tutorials/ona-metrics.md) of Workplace Analytics. | 2.25 |
-   | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) - Namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
-
-   >[!Note]
-   >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
+   See [Price tier costs](#price-tier-costs) for details.
 
 * **D = weeks**
 
    This is the analysis period, in weeks.
+
+#### Price tier costs
+
+This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
+
+| Tier | Metric used in the query | Units |
+| ---- | ------------ | -------------- |
+| 1    | Most of the metrics - Such as collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
+| 2    | Advanced metrics - Specifically, the [Network query metrics](../tutorials/ona-metrics.md). | 2.25 |
+| 3    | Metrics with [CRM data](crm-queries.md) - External-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
+
+>[!Note]
+>If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
 
 ### Usage calculation
 
@@ -126,7 +126,7 @@ In **Query designer** > **Results**, you'll see additional information if the co
 
 * **Workplace Analytics SKU** - Analysts in a Workplace Analytics tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
-* **Consumption-model tenants** - For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the Information tooltip (i) icon to see details about a charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+* **Consumption-model tenants** - For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the Information tooltip (i) icon to see details about a charge, namely the number of people analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
