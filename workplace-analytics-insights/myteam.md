@@ -37,19 +37,17 @@ While you can also see these outcome-based insights and their related best pract
    * Employee experience
    * Team effectiveness
 
-   ![Two outcomes on the Outcomes page.](./images/viva-team-outcomes.png)
-
 4. Inspect the outcomes and the statistics that they show. Do you see any red flags that might cause you to take action?  
 
 ## Outcome insights
 
-To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select  **Employee experience** to see the **Coaching and development** insights:
+To investigate further, select one of the outcomes to see the insights for that outcome. For example, on the **Outcomes** page, select **Employee experience** to see the **Coaching and development** insights:
 
 ![Coaching and development.](./images/viva-team-drill-down.png)
 
 ## Best practices
 
-To learn about taking action on an outcome, you can drill down another layer to see related best practices. For example, on the **Boost employee engagement** insight, select **View best practices** to see details about **Increase frequency of coaching**:
+To take action for an outcome, select **View best practices** to see related recommendations for it. For example, on the **Boost employee engagement** insight, select **View best practices** to see details about **Increase frequency of coaching**:
 
 ![Best practice - Coaching frequency.](./images/viva-team-coaching-flyout.png)
 
