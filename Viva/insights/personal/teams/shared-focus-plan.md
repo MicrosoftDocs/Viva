@@ -18,7 +18,7 @@ You can join an individual focus plan through Protect time in the Microsoft Viva
 
 An enrolled manager can also invite their team to book daily, uninterrupted focus time to get their work done. This shared focus plan helps the team build a shared productivity habit.
 
-Anyone with a Viva Insights Premium license can start a shared focus plan. However, recipients of the invitation to the shared plan need not have a premium license. <!--Mandy Ndoro: IC users can have v-team they can invite to a shared focus plan.-->
+Anyone with a Viva Insights Premium license can start a shared focus plan. However, recipients of the invitation to the shared plan need not have a premium license.
 
 ## Start a shared focus plan
 
