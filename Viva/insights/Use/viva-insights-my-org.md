@@ -16,7 +16,7 @@ audience: Admin
 
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. As a business leader, these insights give you a snapshot of how your company is doing. The insights include company-wide outcomes and leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
-![My organization page.](../images/wpa/use/my-org.png)
+![My organization page.](../images/wpa/use/my-org2.png)
 
 While you can also see these outcomes and their related best practices in Viva Insights in Workplace Analytics, it's advantageous to find them in Teams. That's because you're already using Teams for communicating during remote work, namely for meeting, for sharing files, and for sending IMs to employees and other leaders.
 
