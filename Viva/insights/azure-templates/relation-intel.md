@@ -93,7 +93,7 @@ The Relationship Intelligence report includes a **General insights** section tha
 ## Prerequisites
 
 * **CRM data** –  Accounts and contacts exported as .csv files from your CRM, such as Microsoft Dynamics or Salesforce. See [Required CRM file formats](deploy-configure.md#required-crm-file-formats) for details about what the files must include based on the type of CRM.
-* **Data export** - The Workplace Analytics admin must include  **ExternalCollaboratorIDs** and *unhashed* **Subject lines** in the [Data export from Workplace Analytics](data-export.md#to-export-data). The subject lines are required to view topic results from your organization's email and meetings in the report. If this data is unavailable, that section of the report will show no data.
+* **Data export** - The Viva Insights or Workplace Analytics must include  **ExternalCollaboratorIDs** and *unhashed* **Subject lines** in the [Data export from Workplace Analytics](data-export.md#to-export-data). The subject lines are required to view topic results from your organization's email and meetings in the report. If this data is unavailable, that section of the report will show no data.
 * **Power BI Desktop** - Have the latest version of Power BI Desktop installed locally. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 * **Template access** - Have access to the Relationship Intelligence Azure Template, which is required for you to view the data in the Power BI report.
 

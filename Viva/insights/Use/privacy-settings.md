@@ -16,7 +16,7 @@ audience: Admin
 
 # Privacy settings and exclusions
 
-As the Workplace Analytics Admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](../Tutorials/query-designer.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
+As the Viva Insights or Workplace Analytics admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](../Tutorials/query-designer.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
 
 You can use privacy settings to:
 
@@ -26,7 +26,7 @@ You can use privacy settings to:
 * [Exclude email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-**Owner** – Only Workplace Analytics admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Viva Insights or Workplace Analytics admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 Admins configure the privacy settings in **Analyst settings** > **Privacy** when setting up Workplace Analytics.
 

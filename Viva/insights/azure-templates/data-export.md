@@ -23,7 +23,7 @@ Your company might have unique data-analysis needs requiring custom exploration 
 
 As part of the service agreement, you can ask your Microsoft representative to enable Data export in the Workplace Analytics app. If you have two or more partitions set up in Workplace Analytics, you can also specify for which partitions to enable Data export in the app. The ability to specify what data can be exported by whom helps you maintain data protection.
 
-After data export is enabled, your Workplace Analytics admin can view and use the **Data export** page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
+After data export is enabled, your Viva Insights or Workplace Analytics can view and use the **Data export** page in Workplace Analytics to save the SAS URI, which points to an Azure storage container with write-only permission.
 
 Saving the SAS URI enables a workflow that exports the Workplace Analytics data to the storage container. The data will be exported each time it is refreshed in Workplace Analytics, for the agreed duration of the CS agreement.
 

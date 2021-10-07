@@ -95,7 +95,7 @@ Additional information about roles and access:
 
 * For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
 
-* For more information about assigning roles, see [Assign roles to Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
+* For more information about assigning roles, see [Assign roles to Viva Insights or Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
 
 ### Plan implementation
 

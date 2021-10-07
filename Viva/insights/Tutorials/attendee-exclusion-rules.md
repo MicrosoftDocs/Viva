@@ -19,7 +19,7 @@ This enables you to measure work-related calendar collaboration in analysis, suc
 
 For example, the data should not include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. Workplace Analytics lets you exclude these kinds of events so that they don't skew your data.
 
-**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to Viva Insights or Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 ![Attendee exclusions](../images/wpa/tutorials/attendee-exclusions.png)
 

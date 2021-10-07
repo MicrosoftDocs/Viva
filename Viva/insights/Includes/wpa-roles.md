@@ -18,10 +18,10 @@ The following roles must be assigned by a Microsoft 365 admin as described in [A
   * No access to **Query designer**.
   * _Read-only_ access to **Analyst settings** where the [meeting and attendee exclusion rules](../tutorials/exclusions-introduction.md) are defined.
 
-* **Administrator** &ndash; Has access to **Data sources**, **Upload**, and **Admin settings**. A Workplace Analytics admin is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data.
+* **Administrator** &ndash; Has access to **Data sources**, **Upload** pages within Data sources, and **Analyst settings**. A Viva Insights or Workplace Analytics admin is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data.
 
   >[!NOTE]
-  >Workplace Analytics admins are not Microsoft 365 admins. Therefore, unless they are *also* assigned the role of Microsoft 365 admin, they only have access to organizational data, not to Microsoft 365 data.
+  >Viva Insights or Workplace Analytics admins are not Microsoft 365 admins. Therefore, unless they are *also* assigned the role of Microsoft 365 admin, they only have access to organizational data, not to Microsoft 365 data.
 
 * **Program Manager** &ndash; Has access to organizational **Insights** in Workplace Analytics. A Program Manager can also open, manage, and track **Plans** in Workplace Analytics.
 

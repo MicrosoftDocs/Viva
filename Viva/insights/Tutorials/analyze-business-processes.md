@@ -73,7 +73,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
    ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
 
-10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Workplace Analytics admin has uploaded.)
+10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights or Workplace Analytics admin has uploaded.)
 
     ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 
@@ -305,9 +305,9 @@ You can use this setting to control whether to show legible or hashed subject li
 
 ![Hash subject lines.](../images/wpa/tutorials/hash-subject-lines.png)
 
-If your Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
+If your Viva Insights or Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
 
-However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
+However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Viva Insights or Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
 
 ### Exclude terms from subject lines
 

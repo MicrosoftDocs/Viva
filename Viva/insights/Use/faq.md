@@ -158,15 +158,15 @@ A3. Workplace Analytics requires that the PersonId and EffectiveDate fields meet
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (who would be represented by ManagerIDs)?
 
-A4.  Organizational data allows for the identification of only one single, primary manager. This manager is represented by the ManagerID for that PersonID on a given EffectiveDate. However, note that the Workplace Analytics admin can use the EffectiveDate field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next. 
+A4.  Organizational data allows for the identification of only one single, primary manager. This manager is represented by the ManagerID for that PersonID on a given EffectiveDate. However, note that the Viva Insights or Workplace Analytics admin can use the EffectiveDate field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next. 
 
 ##### Q5. Who obtains the organizational data that must be uploaded to Workplace Analytics?
 
-A5. Usually, HR obtains this data and provides it to the Workplace Analytics admin who [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it to Workplace Analytics.
+A5. Usually, HR obtains this data and provides it to the Viva Insights or Workplace Analytics admin who [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it to Workplace Analytics.
 
 ##### Q6. Who can access organizational data after it has been uploaded to Workplace Analytics? 
 
-A6. For privacy reasons, no one can download the raw data that was uploaded. Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
+A6. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights or Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
 
 <!-- [NEAR FUTURE FOR THESE NEXT FIVE QUESTIONS, AFTER THE XLSX POSSIBILITY SHIPS]
 
@@ -322,15 +322,15 @@ Use a [person-to-group query](../tutorials/person-to-group-queries.md) to unders
 
 <!-- THE FOLLOWING QUESTIONS WERE REMOVED AND PUT INTO THE REGULAR DOCS: 
 
-##### Q3. How many people should be Workplace Analytics admins and/or analysts (and is there a maximum limit of these roles)?
+##### Q3. How many people should be Viva Insights or Workplace Analytics admins and/or analysts (and is there a maximum limit of these roles)?
 
 A3.  This answer depends on the size of your organization and on your requirements for managing organizational data. The number of analysts should be as many as your organization requires to perform data analysis. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. Workplace Analytics imposes no limit on the number of role assignments.   
 
-##### Q4. Can our organization's Office 365 admin also be our Workplace Analytics admin?
+##### Q4. Can our organization's Office 365 admin also be our Viva Insights or Workplace Analytics admin?
 
 A6. Yes. It's up to your organization to choose who gets assigned which role. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details.
 
-##### Q7. Can I assign the Workplace Analytics admin and analyst roles to the same person?
+##### Q7. Can I assign the Viva Insights or Workplace Analytics admin and analyst roles to the same person?
 
 A7.  Yes. It's up to your organization to choose who gets assigned which role. Best practice is to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details .
 

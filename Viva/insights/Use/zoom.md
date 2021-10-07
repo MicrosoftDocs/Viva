@@ -65,15 +65,15 @@ The following is required before setting up the Zoom integration tool:
 
 4. **Prepare a mapping file** - The Zoom report data that's downloaded from the Zoom admin portal will include identifiable data about employees (email IDs). Before the metrics can be computed and shared with a Workplace Analytics analyst, the information must be de-identified.
 
-   1. The Zoom admin must replace each **email ID** with a **unique random ID** that's specified by the Workplace Analytics Admin.
-   2. Then the Workplace Analytics Admin must create a mapping file that maps a unique random ID (**HashID**) to each email address (**PersonID**) for each of the licensed employees in the company who are included in the analysis. Save this mapping file as a .csv file with the following headers and share it with the Zoom admin for de-identification.
+   1. The Zoom admin must replace each **email ID** with a **unique random ID** that's specified by the Viva Insights or Workplace Analytics admin.
+   2. Then the admin must create a mapping file that maps a unique random ID (**HashID**) to each email address (**PersonID**) for each of the licensed employees in the company who are included in the analysis. Save this mapping file as a .csv file with the following headers and share it with the Zoom admin for de-identification.
 
       ![Zoom mapping file sample data.](../images/wpa/use/zoom-mapping-file.png)
 
    >[!Important]
    >You must save the mapping file as a .csv (not as an .xls or .xlsx file) with "mapping file" included in the file name.
 
-5. **Append to the existing organizational data** - Your Workplace Analytics Admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in Workplace Analytics. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
+5. **Append to the existing organizational data** - Your Viva Insights or Workplace Analytics admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in Workplace Analytics. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
 
    >[!Important]
    >The Zoom meeting data includes identifiable data (email IDs) that must be de-identified before using it to create Workplace Analytics Person query data. Your admins must protect any identifiable data and only use de-identified Zoom data for analysis purposes.
@@ -87,7 +87,7 @@ The following is required before setting up the Zoom integration tool:
 
    ![Zoom example report files.](../images/wpa/use/zoom-reports.png)
 
-   5. Save the mapping file from your Workplace Analytics Admin in your **Zoom integration**/**Admin**/**input** folder.
+   5. Save the mapping file from your Viva Insights or Workplace Analytics admin in your **Zoom integration**/**Admin**/**input** folder.
 
 7. **Run and download the Workplace Analytics data** - Your Workplace Analytics analyst needs to do the following:
 
