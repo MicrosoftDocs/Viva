@@ -16,7 +16,7 @@ audience: Admin
 
 You can view manager insights on the **My team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
-![Outcomes page.](./images/viva-team-outcomes.png)
+![My team page.](./images/viva-myteam.png)
 
 While you can also see these outcome-based insights and their related best practices in Workplace Analytics, it's advantageous to find them in Teams, the tool that you're already using for communicating during remote work, the tool you use for meeting, sharing files, and sending IMs to employees and other leaders.
 
