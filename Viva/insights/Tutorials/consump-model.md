@@ -71,22 +71,22 @@ This is the cost of the price tier that is in use for a metric in the query. A q
 | 3    | Metrics with [CRM data](crm-queries.md) - External-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
 >[!Note]
->If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
+>If you use metrics at multiple price tiers, a subtotal is calculated for each metric, and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
 
 ### Usage calculation
 
-On the query page, you can see how units are calculated for the query that you are defining. To see the calculation description, select the **Tooltip** (i) icon:
+The query page shows how units are calculated for the query that's being defined. To see more details about the calculation, select the **Information** (i) icon:
 
 ![Query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
 
->[!Note]
+>[!Important]
 >
->* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
->* This cost calculator is not available for meeting queries.
+>* The cost shown is only an estimate. The estimate might vary from the query's actual cost, which can be seen after the query is successfully ran.
+>* The cost calculator is not available for meeting queries.
 
 ### Recurring query charges
 
-Viva Insights uses the usage formula to calculate the units that are consumed whenever analysts run a query in the Query designer, except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of employees and weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
+Viva Insights uses the usage formula to calculate the units that are consumed whenever analysts run a query in the Query designer, except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the current number of employees and weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
 Note that the queried population can change between query refresh runs. For example, when you set up a new "last four weeks" auto-refresh query that includes 1,000 licensed employees. And then before the query runs again, another 2,000 employee licenses are approved. The first time the query refreshes after the initial run, it will include:
 
