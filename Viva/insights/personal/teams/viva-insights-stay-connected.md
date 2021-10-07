@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights - Stay connected 
-description: Microsoft Viva Insights app -- Use the Stay connected feature
+title: Stay connected with Viva Insights
+description: Use the Stay connected feature in Microsoft Viva Insights
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
@@ -11,13 +11,13 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Use the Microsoft Viva Insights stay connected feature 
+# Stay connected
 
-Insights in the **Stay connected** tab help you stay connected with your collaborators and improve your productivity.
+You can use **Stay connected** in the Microsoft Viva Insights app in Teams to stay connected with your collaborators and improve your productivity.
 
 ![Stay connected.](images/stay-connected.png)
 
-The **Stay connected** tab can contain insights such as the following: 
+**Stay connected** includes the following insights:
 
 * [Identify and pin important collaborators](#identify-and-pin-important-collaborators)  
 * [Set up 1:1 meeting reminders](#set-up-11-meeting-reminders) 
@@ -104,6 +104,5 @@ In the following example, select **Sync on Proposal** to open the meeting invita
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
-
+[Viva Insights introduction](viva-teams-app.md)
  

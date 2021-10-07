@@ -1,9 +1,9 @@
 ---
 
-title: Viva Insights - virtual commute 
-description: Microsoft Viva Insights app -- Use the virtual commute feature
-author: paul9955
-ms.author: v-pausch
+title: Virtual commute with Viva Insights
+description: Use the virtual commute feature in Microsoft Viva Insights
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -11,46 +11,44 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Use the Microsoft Viva Insights virtual commute feature
+# Virtual commute
 
-You can start the virtual commute feature from either of two places, the [Up-next card](#up-next-card) or the [Protect time](#protect-time) feature.
+You can use virtual commute feature in the Microsoft Viva Insights app in Teams from either [Up-next](#up-next-card) or within [Protect time](#protect-time).
 
 ## Up-next card
 
-The Up-next card reads, "It's time to wrap up your day" to indicate that you can start your virtual commute now. 
+When the Up-next card prompts you to "wrap up your day," you can select it to start your virtual commute now.
 
-![Home (morning).](images/virtual-commute.png)
+![Home virtual commute](images/virtual-commute.png)
 
 This message appears at the following times:
 
 * If you've configured virtual commute reminders, the message appears 30 minutes before the time that you configured. For information about making this and other settings, see [Insights app settings](viva-teams-app-settings.md).
 * If you have not configured virtual commute reminders, the message appears 30 minutes before the end of your workday as [scheduled in Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
-## Protect time
+## Within Protect time
 
-### Start a virtual commute
-
-On the **Protect time** page, under **Ready to wrap up?**, select **Start**.
+In **Protect time** > **Ready to wrap up**, select **Start**.
 
 ![Book focus time.](Images/start-virt-commute.png)  
 
-This causes your virtual commute to start immediately. For information about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps).
+This causes your virtual commute to start immediately. For details about the virtual commute experience, see [virtual commute steps](#virtual-commute-steps).
 
 Starting a virtual commute this way does not affect the scheduled days and time of day that you set in [Set up virtual commute](#set-up-virtual-commute).
 
-#### Set up virtual commute
+## Set up a virtual commute
 
-The first time that you open the protect-time feature, you will be prompted to schedule your virtual-commute reminders:
+The first time you open **Protect time**, you are prompted to schedule your virtual-commute reminders:
 
 ![Schedule virtual commute.](Images/sched-virtual-commute-50.png)  
 
-On this card, choose the days on which you want to see the virtual-commute reminder and the time of day, and then select **Set reminder**.
+You can use this prompt to select the days and time of day that you want to see the virtual-commute reminder, and then select **Set reminder**.
 
 [!INCLUDE [Virtual commute notes](includes/virtual-commute-details.md)]
 
 If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 
-#### Virtual commute steps
+### Virtual commute steps
 
 After you begin your virtual commute by selecting **Start** on the **Protect time** page, the sequence starts. It consists of the following steps. All steps are optional; to skip a step, select **Next**.
 
@@ -74,7 +72,6 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 3. **Add new tasks** &ndash; Use this step to add tasks to your list. There are two reasons to add them to your list:
 
    * If you have work-related tasks that are top of mind, adding them to a list holds them for you in a reliable spot so that you can mentally let them go during your personal time.
-
    * Adding them here puts them directly into Microsoft To Do, complete with reminders set, so that you don't forget about them.
 
    ![Add tasks.](Images/03-add-new-tasks-55.png)
@@ -82,7 +79,6 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
    Tasks that you add on this page will appear in two places:
 
    * If you subscribe to the Cortana briefing email, you'll see your tasks there.
-
    * If you add a task today, it will appear tomorrow on the **Microsoft To-Do** card on the **Home** page:
 
      ![Home page to-do card.](Images/home-to-do.png)  
@@ -120,6 +116,5 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
-
-[Microsoft Viva Insights app &ndash; Protect time](viva-insights-protect-time.md)
+* [Viva Insights introduction](viva-teams-app.md)
+* [Protect time](viva-insights-protect-time.md)

@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Viva Insights Home
+# Home in Viva Insights
 
 In Microsoft Teams, select **Insights** (left app bar) to open the **Home** page for the Microsoft Viva Insights app:
 
@@ -67,8 +67,8 @@ This feature offers a one-minute "breathing break" animated experience that you 
 
 ## Microsoft To Do
 
-This card shows tasks that are in your **To Do** list that are due today or for which a reminder for today has been set. Select **All To Do tasks for today** to open the Tasks app in Teams. For more information, see [Microsoft To Do](https://todosupport.helpshift.com/a/microsoft-to-do/?p=web). 
+This card shows tasks that are in your **To Do** list that are due today or for which a reminder for today has been set. Select **All To Do tasks for today** to open the Tasks app in Teams. For more information, see [Microsoft To Do](https://to-do.microsoft.com/tasks/).
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
+[Viva Insights introduction](viva-teams-app.md)
