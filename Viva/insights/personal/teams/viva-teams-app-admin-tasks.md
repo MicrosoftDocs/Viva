@@ -40,4 +40,4 @@ The PowerShell commands for working with Viva Insights features are described in
 
 ## Related topics
 
-[Viva Insights overview](viva-teams-app.md)
+[Viva Insights introduction](viva-teams-app.md)

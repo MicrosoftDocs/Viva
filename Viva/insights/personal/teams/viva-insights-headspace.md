@@ -80,4 +80,4 @@ You can open and run Viva Insights in a new window. This lets you play Headspace
 
 ## Related topics
 
-[Microsoft Viva Insights app Home page](viva-insights-home.md)
+[Viva Insights Home page](viva-insights-home.md)

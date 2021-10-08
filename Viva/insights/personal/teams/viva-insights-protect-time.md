@@ -1,9 +1,9 @@
 ---
 
-title: Viva Insights - Protect time
+title: Protect time with Viva Insights
 description: Use the Protect time feature in the Viva Insights app  
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -11,12 +11,12 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Use the Microsoft Viva Insights protect time feature 
+# Protect time
 
-You can use this feature to protect your time in these ways:
+You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to protect your time in the following ways:
 
 * [Schedule focus time](#schedule-focus-time) for future workdays.
-* [Start a virtual commute](viva-insights-virtual-commute.md#start-a-virtual-commute) to end your day.
+* [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
 
 ## Schedule focus time
 
@@ -30,6 +30,5 @@ In the following example, select **Book Time** to reserve the time slot for focu
 
 ## Related topics
 
-[Microsoft Viva Insights app &ndash; Overview](viva-teams-app.md)
-
-[Microsoft Viva Insights app &ndash; virtual commute](viva-insights-virtual-commute.md)
+* [Viva Insights introduction](viva-teams-app.md)
+* [Virtual commute](viva-insights-virtual-commute.md)

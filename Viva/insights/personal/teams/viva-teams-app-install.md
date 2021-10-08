@@ -136,4 +136,4 @@ The Viva Insights app is now uninstalled from Teams:
 
 ## Related topics
 
-[Viva Insights overview](viva-teams-app.md)
+[Viva Insights introduction](viva-teams-app.md)
