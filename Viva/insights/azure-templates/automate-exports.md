@@ -15,11 +15,11 @@ audience: Admin
 
 # Automate query data exports to Azure
 
-With Azure Data Factory and Azure Active Directory, you can automate the export of query data from Microsoft Workplace Analytics through the OData query link to connect and automatically refresh an Azure data store of your choice.
+With Azure Active Directory, you can automate the export of query data from Microsoft Viva Insights in Workplace Analytics. You can do this by using an OData query link in Workplace Analytics to connect and automatically refresh an Azure data store of your choice, such as Azure Data Factory or Azure Synapse Analytics.
 
 ## Pick a setup path
 
-To set up the automated OData connection between query data and your choice Azure data store, you can use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
+To set up the automated OData connection between query data and an Azure data store, use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
 
 * [Set up with Azure Data Factory UI](#to-set-up-with-azure-data-factory-ui) – This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Data Factory UI.
 * [Set up with Azure PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md) – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
@@ -27,7 +27,7 @@ To set up the automated OData connection between query data and your choice Azur
 
 ## Prerequisites
 
-* **Workplace Analytics licensed analyst** – Must be assigned a license and an Analyst role for Workplace Analytics and have query results with the data you want to export.
+* **Viva Insights or Workplace Analytics analyst** – Must be assigned a license and an Analyst role for Viva Insights or Workplace Analytics and have query results with the data you want to export.
 * **Microsoft Azure subscription** – If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) now. You’ll be using [Azure Active Directory](/azure/active-directory/), [OData connector](/azure/data-factory/connector-odata#supported-capabilities), and [Data Factory](/rest/api/datafactory/) for this setup.
 * **Azure data store** – Your data store must be [supported by the OData connector](/azure/data-factory/connector-odata).
 * **Azure admin** – You need Azure admin privileges to create and register the app in Azure. You also need to ask the Azure global admin to grant you permissions in Azure Data Factory to connect your new app to the Azure data store.
