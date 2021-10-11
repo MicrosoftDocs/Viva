@@ -22,7 +22,7 @@ With Azure Active Directory, you can automate the export of query data from Micr
 To set up the automated OData connection between query data and an Azure data store, use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
 
 * [Set up with Azure Data Factory UI](#to-set-up-with-azure-data-factory-ui) – This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Data Factory UI.
-* [Set up with Azure Synapse Analytics](#to-set-up-with-azure-synapse-analytics) - This path steps you through creating and registering an app and creating a pipeline for exporting query data through the Azure Synapse Analytics.
+* [Set up with Azure Synapse Analytics](#to-set-up-with-azure-synapse-analytics) - This path steps you through creating and registering an app and creating an OData pipeline for exporting query data through the Azure Synapse Analytics.
 * [Set up with Azure PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md) – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
 
 ## Prerequisites
