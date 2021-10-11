@@ -17,7 +17,7 @@ audience: Admin
 
 The following describes who does what to assign licenses to users for the Microsoft Viva Insights in Workplace Analytics.
 
-* **Owner** &ndash; Viva Insights sponsor, Viva Insights or Workplace Analytics administrator, Azure Active Directory (AD) [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator), and/or [Exchange administrator](/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
+* **Owner** &ndash; Viva Insights sponsor, Viva Insights or Workplace Analytics administrator, Azure Active Directory (AD) [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator), or [Exchange administrator](/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
 * **Task** &ndash; Determine population in scope for analysis and assign licenses through Microsoft 365 or Office 365
 * **Outcome** &ndash; Microsoft 365 licenses are assigned for the population that will be analyzed
 
