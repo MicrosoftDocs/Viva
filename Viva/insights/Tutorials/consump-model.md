@@ -73,7 +73,21 @@ This is the cost of the price tier that is in use for a metric in the query. A q
 >[!Note]
 >If you use metrics at multiple price tiers, a subtotal is calculated for each metric, and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
 
-### Usage calculation
+### Population scope in usage calculations
+
+As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). 
+
+The population scope (measured employees) for the different query types is as follows:
+
+* **Person query** - The population (A) equals the number of measured employees, as filtered in the query definition
+* **Meeting query** - The population equals the number of licensed users that are invited in the filtered meetings
+* **Person-to-group query** - The population equals the number of time investors
+* **Group-to-group query** - The population equals the number of time investors
+* **Peer Comparison** - The population equals the number of employees in the reference groups
+* **Network: Person query** - The population equals the number of filtered measured employees in the query; note that network metrics are charged at tier 2 (see [Price tier costs](#price-tier-costs))
+* **Network: Person-to-person query** - The population scope is determined by the number of filtered measured employees in the query. Note that network metrics are charged at tier 2 (see [Price tier cost](#price-tier-costs))
+
+### Usage calculation for a query
 
 The query page shows how units are calculated for the query that's being defined. To see more details about the calculation, select the **Information** (i) icon:
 
@@ -90,11 +104,11 @@ Viva Insights uses the usage formula to calculate the units that are consumed wh
 
 Note that the queried population can change between query refresh runs. For example, when you set up a new "last four weeks" auto-refresh query that includes 1,000 licensed employees. And then before the query runs again, another 2,000 employee licenses are approved. The first time the query refreshes after the initial run, it will include:
 
-* **1**: Weeks 2 to 4 for the original population
+* **1** - Weeks 2 to 4 for the original population
 
-* **2**: Week 5 for the original population
+* **2** - Week 5 for the original population
 
-* **3**: Weeks 2 to 5 for the newly licensed population
+* **3** - Weeks 2 to 5 for the newly licensed population
 
 Of these, the refresh query will charge for **2** and **3** because neither were included in the original query run, but it will not charge for **1**, which duplicates the data that was returned in the original query.
 
