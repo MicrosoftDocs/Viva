@@ -15,7 +15,7 @@ audience: Admin
 
 # Automate query data exports to Azure
 
-With Azure Active Directory, you can automate the export of query data from Microsoft Viva Insights in Workplace Analytics. You can do this by using an OData query link in Workplace Analytics to connect and automatically refresh an Azure data store of your choice, such as Azure Data Factory or Azure Synapse Analytics.
+With Azure Active Directory, you can automate the export of query data from Microsoft Viva Insights in Workplace Analytics. You can do this by using an OData query link in Workplace Analytics to connect and automatically refresh an Azure data store of your choice, such as through Azure Data Factory or Azure Synapse Analytics.
 
 ## Pick a setup path
 
