@@ -171,7 +171,7 @@ The following steps you through how to automate the export of Workplace Analytic
 18. In **AAD resource**, enter `https://workplaceanalytics.office.com`.
 19. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
 
-     ![Azure application ID.](./images/wpafeed-app.png)
+     ![Azure application ID.2](./images/wpafeed-app.png)
 
 20. In **Azure Synapse Studio** > **New linked service (Odata)** > **Service principal ID**, copy the client ID. For details, see [Linked service properties](/azure/data-factory/connector-odata#linked-service-properties).
 21. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
