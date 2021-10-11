@@ -22,8 +22,8 @@ With Azure Active Directory, you can automate the export of query data from Micr
 To set up the automated OData connection between query data and an Azure data store, use one of the following paths to create and configure a new Azure analytics app, which needs company-specific information (secrets) about your private network and your choice data store.
 
 * [Set up with Azure Data Factory UI](#to-set-up-with-azure-data-factory-ui) – This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Data Factory UI.
+* [Set up with Azure Synapse Analytics](#to-set-up-with-azure-synapse-analytics) - This path steps you through creating and registering an app and creating a pipeline for exporting query data through the Azure Synapse Analytics.
 * [Set up with Azure PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md) – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
-* [Set up with Azure Synapse Analytics](#to-set-up-with-azure-synapse-analytics) - This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Synapse Analytics.
 
 ## Prerequisites
 
@@ -194,7 +194,7 @@ The following steps you through how to automate the export of Workplace Analytic
 
 28. Select **Preview data** for the path to confirm you entered the correct entity.
 29. In the **Sink** section, add a new **sink dataset** and in the **New Integration Dataset**, select **Azure Data Lake Storage Gen2**, and then select **Continue**.
-30. When prompted to **Select Format**, select **Delimited Text**, and then select **Continue**.
+30. For **Select Format**, select **Delimited Text**, and then select **Continue**.
 31. In **Set Properties**, enter a name, select **First row as header**, and then select your default Synapse storage account (which is already linked), or create a new linked service.
 32. Enter a file path for the destination of the copied file in the storage. If you leave  **File** empty, the copy pipeline automatically generates a name for the file in the destination directory.
 
