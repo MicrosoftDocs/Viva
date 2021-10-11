@@ -99,7 +99,7 @@ The following steps you through how to automate the export of Workplace Analytic
 22. Select **Test connection** to test the OData linked service.
 23. After you see **Connection successful**, select **Create**.
 24. In **Connection** > **Linked service** for the new OData linked service, select the new dataset you just created in the previous steps.
-25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**:
+25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
 
      ![Query entity set name.](./images/entity-set-name.png)
 
@@ -188,9 +188,9 @@ The following steps you through how to automate the export of Workplace Analytic
 24. Select **Test connection** to test the OData linked service.
 25. After you see **Connection successful**, select **Create**.
 26. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps.
-27. In **Source** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from **Workplace Analytics** (open in a new browser window) > **Analyze** > **Query designer** > **Results**. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is Persons:
+27. In **Source** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open the query link in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity set name shown in this graphic is **Persons**:
 
-     ![Query entity set name.](./images/entity-set-name.png)
+     ![Query entity set name.2](./images/entity-set-name.png)
 
 28. Select **Preview data** for the path to confirm you entered the correct entity.
 29. In the **Sink** section, add a new **sink dataset** and in the **New Integration Dataset**, select **Azure Data Lake Storage Gen2**, and then select **Continue**.
