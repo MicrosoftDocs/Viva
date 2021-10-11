@@ -194,7 +194,7 @@ The following steps you through how to automate the export of Workplace Analytic
 
 28. Select **Preview data** for the path to confirm you entered the correct entity.
 29. In the **Sink** section, add a new **sink dataset** and in the **New Integration Dataset**, select **Azure Data Lake Storage Gen2**, and then select **Continue**.
-30. When prompted to **Select Format**, select **Delimited Text**, and then select **Continue**.
+30. For **Select Format**, select **Delimited Text**, and then select **Continue**.
 31. In **Set Properties**, enter a name, select **First row as header**, and then select your default Synapse storage account (which is already linked), or create a new linked service.
 32. Enter a file path for the destination of the copied file in the storage. If you leave  **File** empty, the copy pipeline automatically generates a name for the file in the destination directory.
 
