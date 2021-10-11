@@ -1,9 +1,9 @@
 ---
 
 title: Assign roles with Azure AD
-description: How to assign roles for Microsoft Viva Insights with Azure Active Directory
+description: How to assign roles for Microsoft Viva Insights in Workplace Analytics with Azure Active Directory
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -14,7 +14,7 @@ audience: Admin
 
 # Assign roles with Azure AD
 
-People can work with Microsoft Viva Insights only after they've been assigned a role, which can be admin, analyst, limited analyst, or program manager. See [User roles](../use/user-roles.md) for details on what each role can do with Viva Insights. Use the following steps to assign Viva Insights (formerly Workplace Analytics) roles to individual people or to groups:
+People can work with Microsoft Viva Insights  or Workplace Analytics only after they've been assigned a role, which can be admin, analyst, limited analyst, or program manager. See [User roles](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Use the following steps to assign Viva Insights or Workplace Analytics roles to individual people or to groups:
 
 * [Assign roles to individuals](#assign-roles-to-users)
 * [Assign roles to groups](#assign-roles-to-groups)
@@ -36,13 +36,13 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
    ![Application types.](../images/wpa/setup/ent-all-apps-3.png)
 
 4. In the search field, enter **viva**, and then press **Enter**.
-5. In the search results, select **Viva Insights** (formerly Workplace Analytics).  
+5. In the search results, select **Viva Insights** or **Workplace Analytics**.  
 
-6. In the **Viva Insights | Overview**, under **Getting Started**, select **Assign users and groups**:
+6. In the **Viva Insights or Workplace Analytics | Overview**, under **Getting Started**, select **Assign users and groups**:
 
    ![Overview page.](../images/wpa/setup/wpa-overview.png)  
 
-7. In the Viva Insights **Users and groups**, select **Add user**:
+7. In the Viva Insights or Workplace Analytics **Users and groups**, select **Add user**:
 
    ![WpA users and groups.](../images/wpa/setup/wpa-users-and-groups.png)  
 
@@ -112,13 +112,13 @@ To check the role assignments that a user currently has, see [Verify role assign
 You can also assign roles to groups, which means that you are assigning access permissions associated with that role to the group. Any users who are assigned to that group automatically receive the same permissions.
 
 > [!Note]
-> The groups that you can assign Viva Insights roles are Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups). 
+> The groups that you can assign Viva Insights or Workplace Analytics roles are Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups). 
 
-To assign users and roles to Viva Insights groups, the steps are similar to those for assigning users, as previously described in steps 9 through 12 under [Assign roles to users](#assign-roles-to-users). In that process, where you name and select a user in step 9, instead name and select a group, and then assign a role to the selected group.
+To assign users and roles to Viva Insights or Workplace Analytics groups, the steps are similar to those for assigning users, as previously described in steps 9 through 12 under [Assign roles to users](#assign-roles-to-users). In that process, where you name and select a user in step 9, instead name and select a group, and then assign a role to the selected group.
 
    ![Select group.](../images/WpA/Use/select-group-b.png)
 
-If you have not yet created a Viva Insights group in Azure Active Directory, and want to do so, see [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+If you have not yet created a Viva Insights or Workplace Analytics group in Azure Active Directory, and want to do so, see [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## Verify role assignments
 
@@ -131,7 +131,7 @@ Use the following steps to see what roles have been assigned to a user.
 
 **When would you assign a role to a group rather than to an individual user?**
 
-It depends on the situation or on your company's policy, but the reason for choosing between one method and another is usually efficiency. In a smaller company, if only a few people will be assigned Viva Insights roles, it can be convenient to assign user roles individually, especially if such roles are unlikely to change.
+It depends on the situation or on your company's policy, but the reason for choosing between one method and another is usually efficiency. In a smaller company, if only a few people will be assigned Viva Insights or Workplace Analytics roles, it can be convenient to assign user roles individually, especially if such roles are unlikely to change.
 
 However, in a larger company where the number of users required for the same role is significant &mdash; for example, Program Managers &mdash; it is more efficient to assign a role to a group and then add users to the group, because groups are easier to manage and audit.
 
