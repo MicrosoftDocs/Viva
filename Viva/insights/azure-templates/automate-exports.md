@@ -23,6 +23,7 @@ To set up the automated OData connection between query data and your choice Azur
 
 * [Set up with Azure Data Factory UI](#to-set-up-with-azure-data-factory-ui) – This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Data Factory UI.
 * [Set up with Azure PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md) – This path automates the process end-to-end through PowerShell with predefined scripts that create and register the app, prompt for your organization’s specific parameters, and create and deploy the data factory.
+* [Set up with Azure Synapse Analytics](#to-set-up-with-azure-synapse-analytics) - This path steps you through creating and registering an app and creating a data factory for the data export through the Azure Synapse Analytics.
 
 ## Prerequisites
 
@@ -67,7 +68,7 @@ The following steps you through how to automate the export of Workplace Analytic
 12. Select **Connection**, select **New**, and then enter a name and description for the OData link, such as **WPA_Odata_Collab**.
 
 13. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
-14. In [Workplace Analytics](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, copy the OData link for the query data you want to connect to Azure.
+14. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
 
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](../tutorials/query-auto-refresh.md#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
@@ -98,7 +99,7 @@ The following steps you through how to automate the export of Workplace Analytic
 22. Select **Test connection** to test the OData linked service.
 23. After you see **Connection successful**, select **Create**.
 24. In **Connection** > **Linked service** for the new OData linked service, select the new dataset you just created in the previous steps.
-25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Query designer** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**:
+25. In **Connection** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from [Workplace Analytics](https://workplaceanalytics.office.com/) > **Analyze** > **Query designer** > **Results**, and open it in a new browser window. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is **Persons**:
 
      ![Query entity set name.](./images/entity-set-name.png)
 
@@ -115,6 +116,96 @@ The following steps you through how to automate the export of Workplace Analytic
 33. In **Sink** > **Sink dataset**, select the linked service name you created in a previous step.
 
 You can then use this new data factory to access query data from Workplace Analytics and copy it to your choice data store (blob storage) by using the Azure Resource Manager template. You can reuse this new app over time for multiple projects without having to repeat these steps. You can also reuse the data factory you created for new pipelines.
+
+## To set up with Azure Synapse Analytics
+
+The following steps you through how to automate the export of Workplace Analytics query data to your choice Azure data store with the [Azure Synapse Analytics](/azure/synapse-analytics/get-started). Use the following steps in conjunction with the [Azure documentation](/azure/data-factory/introduction) to complete this setup.
+
+1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Azure Active Directory.
+2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
+3. Enter and search for the **Workplace Analytics** or **Viva Insights** app name or **ID** and then select the applicable name from the list.
+
+   ![App permissions.](./images/app-permissions.png)
+
+   To find the Application (client) ID:
+
+   * In **Active Directory**, select **all applications**, and then enter **Workplace Analytics** or **Viva Insights** for the enterprise app that you want to use.
+   * Select it from the list.
+   * In **Application ID**, copy the ID and paste it in **APIs my organization uses** search field.
+
+     ![Workplace Analytics Application ID.](./images/app-id.png)
+
+4. In **Request API permissions**, select **Application permissions**, select **Analyst**, and then select **Add permissions**.
+5. In **API permissions**, the global admin must select **Grant admin consent for [Workplace Analytics…]** before you can continue to the next step.
+
+    ![Grant the app permissions.](./images/permissions-grant.png)
+
+6. Follow the steps in [Create A Synapse Workspace](/azure/synapse-analytics/quickstart-create-workspace) create a new Synapse Workspace within your Azure portal.
+7. In the **Azure Synapse** resource in portal, select **Open Synapse Studio** to open the Azure Synapse Workspace.
+
+    >[!Note]
+    >Keep all your browser windows open because you must switch between them to complete the following steps.
+
+8. In **Azure Synapse Studio**, select **Integrate**, and then add a **Pipeline**.
+
+    ![Add a pipeline in Azure Synapse](./images/synapse-pipeline.png)
+
+9. In the new Pipeline activities menu, select **Move and Transform**, and then drag a **Copy data** into your pipeline workspace.
+10. Select the **ellipsis** (...) next **Datasets**, and then select **New dataset**.
+11. In the **Source** section, add a new source.
+
+    ![Add a new dataset.in Azure Synapse](./images/synapse-dataset.png)
+
+12. In **New Integration Dataset**, enter **odata**, and then select **OData**.
+13. In **Set Properties**, enter a name and create a new linked service.
+14. In **New linked service (Odata)**, enter a name and description for the query data you’re linking to.
+15. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
+16. In Viva Insights in [Workplace Analytics](https://workplaceanalytics.office.com), select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
+
+    >[!Important]
+    >For automatically refreshed data, you must link to a query that uses the Auto-refresh option. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
+
+     ![Query OData link.](./images/query-link.png)
+
+17. In Azure Synapse New linked **Service URL**, paste the query OData link that you copied in the previous step.
+18. In **AAD resource**, enter `https://workplaceanalytics.office.com`.
+19. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
+
+     ![Azure application ID.](./images/wpafeed-app.png)
+
+20. In **Azure Synapse Studio** > **New linked service (Odata)** > **Service principal ID**, copy the client ID. For details, see [Linked service properties](/azure/data-factory/connector-odata#linked-service-properties).
+21. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
+22. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
+
+    * For **Key authentication**, select **New client secret**, and then in **Add a client secret**, enter a description, select when it expires, and then select **Add**. In **Client secrets**, select the new secret, and then select the **Copy** icon to copy it.
+    * For **Certificate authentication** (preferred for higher security), select a certificate and copy it.
+
+23. In **Azure Synapse studio**, do the following for the applicable authentication type:
+
+    * For Service principal key, paste the new client secret copied in the previous step in **Service principal key**.
+    * For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](/azure/key-vault/secrets/quick-create-portal) for details.
+
+24. Select **Test connection** to test the OData linked service.
+25. After you see **Connection successful**, select **Create**.
+26. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps.
+27. In **Source** > **Path**, select **Edit**, and then enter the **Entity set name**. To find it, copy the OData query link from **Workplace Analytics** (open in a new browser window) > **Analyze** > **Query designer** > **Results**. Then search for **metadata** to find the entity name, which is shown after **$metadata#**. For example, the entity name shown in this graphic is Persons:
+
+     ![Query entity set name.](./images/entity-set-name.png)
+
+28. Select **Preview data** for the path to confirm you entered the correct entity.
+29. In the **Sink** section, add a new **sink dataset** and in the **New Integration Dataset**, select **Azure Data Lake Storage Gen2**, and then select **Continue**.
+30. When prompted to **Select Format**, select **Delimited Text**, and then select **Continue**.
+31. In **Set Properties**, enter a name, select **First row as header**, and then select your default Synapse storage account (which is already linked), or create a new linked service.
+32. Enter a file path for the destination of the copied file in the storage. If you leave  **File** empty, the copy pipeline automatically generates a name for the file in the destination directory.
+
+    ![File path destination for Synapse](./images/synapse-filepath.png)
+
+33. Validate and if successful, select **Publish all** at the top.
+
+    ![Publish all in Synapse](./images/synapse-publishall.png)
+
+34. After it publishes successfully, select **Add trigger**, and then **Trigger now** or select the trigger.
+35. After it successfully runs, go to your Azure Data Lake Linked Service to locate the transferred data. Select **More** > **Refresh** to view the latest available data.
 
 ## Related topics
 
