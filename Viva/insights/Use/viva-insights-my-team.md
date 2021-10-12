@@ -44,7 +44,7 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 
 ## Outcomes
 
-To investigate more about an outcome, select it to see more details.
+See the following for more details about an outcome.
 
 * [Employee experience](team-experience.md)
 * [Team effectiveness](team-effectiveness.md)

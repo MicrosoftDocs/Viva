@@ -70,4 +70,4 @@ Email and calendar data from people outside your organization, with the followin
 
 ## Related topics
 
-[Viva Insights Overview](viva-teams-app.md)
+[Viva Insights introduction](viva-teams-app.md)

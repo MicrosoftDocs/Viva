@@ -18,13 +18,13 @@ The following roles must be assigned by a Microsoft 365 admin as described in [A
   * No access to **Query designer**.
   * _Read-only_ access to **Analyst settings** where the [meeting and attendee exclusion rules](../tutorials/exclusions-introduction.md) are defined.
 
-* **Administrator** &ndash; Has access to **Data sources**, **Upload**, and **Admin settings**. A Workplace Analytics admin is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data.
+* **Administrator** &ndash; Has access to **Data sources**, **Upload** pages within Data sources, and **Analyst settings**. A Viva Insights or Workplace Analytics admin is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data.
 
   >[!NOTE]
-  >Workplace Analytics admins are not Microsoft 365 admins. Therefore, unless they are *also* assigned the role of Microsoft 365 admin, they only have access to organizational data, not to Microsoft 365 data.
+  >Viva Insights or Workplace Analytics admins are not Microsoft 365 admins. Therefore, unless they are *also* assigned the role of Microsoft 365 admin, they only have access to organizational data, not to Microsoft 365 data.
 
 * **Program Manager** &ndash; Has access to organizational **Insights** in Workplace Analytics. A Program Manager can also open, manage, and track **Plans** in Workplace Analytics.
 
 The following role must be assigned by a Viva Insights or Workplace Analytics admin in  [**Manager settings**](../use/manager-settings.md):
 
-* **People Manager** &ndash; If you purchased at least one Workplace Analytics license (available before October 2021), your managers can access insights in Workplace Analytics only about their team. These managers can also open, manage, and track **Plans** only for their team in Workplace Analytics. If you purchased only Viva Insights licenses (available in October 2021), they can access insights about their team in [**My team**](../use/viva-insights-my-team.md), within the Viva Insights app in Teams.
+* **People Manager** &ndash; If you purchased a Workplace Analytics license (available before October 2021), your managers can access insights in Workplace Analytics only about their team. These managers can also open, manage, and track **Plans** only for their team in Workplace Analytics. If you purchased Viva Insights licenses (available in October 2021), your managers can access insights about their team in [**My team**](../use/viva-insights-my-team.md) within the Viva Insights app in Teams.

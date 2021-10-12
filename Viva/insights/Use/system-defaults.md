@@ -36,7 +36,7 @@ If you are _not_ setting up Workplace Analytics, feel free to change these setti
 > [!Important]
 > Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
-**Owner** – Only Workplace Analytics Admins have full access to this page. For details, see [Assign roles to Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Viva Insights or Workplace Analytics admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 ![System defaults.](../images/wpa/use/sys-def-page.png)
 

@@ -55,7 +55,6 @@ Viva Insights in Workplace Analytics provides advanced analysis tools for deep d
 
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
-
 <iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 -->
 The user interface and navigation in recent releases of Workplace Analytics are different that what's shown in this video.

@@ -2,6 +2,16 @@
 
 
 
+## Week of October 04, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/7/2021 | [Introducing Viva insights](/workplace-analytics-insights/intro) | modified |
+| 10/7/2021 | [The My organization page in Viva Insights](/workplace-analytics-insights/myorg) | modified |
+| 10/7/2021 | [Microsoft Viva Insights My team page](/workplace-analytics-insights/myteam) | modified |
+
+
 ## Week of September 27, 2021
 
 

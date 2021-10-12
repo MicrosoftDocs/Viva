@@ -21,7 +21,7 @@ As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up a
 
 The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
 
-* **Measured managers** - Total number of people managers who are assigned licenses in Workplace Analytics prior to October 2021. Managers who are assigned licenses starting October 2021, can only access their team's insights in [My Team](viva-insights-my-team.md) within the Viva Insights app in Teams.
+* **Measured managers** - Total number of people managers who are assigned licenses in Workplace Analytics prior to October 2021 can view manager insights in Workplace Analytics. Managers who are assigned licenses starting October 2021, can view their team's insights in [My Team](viva-insights-my-team.md) within the Viva Insights app in Teams.
 * **Managers enabled** - Total number of people managers who meet the minimum team size and have access to their team's insights.
 
 ![Manager settings.](../images/wpa/use/manager-settings.png)

@@ -17,7 +17,7 @@ audience: Admin
 
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
-![Outcomes page.](./images/viva-org-outcomes-2.png)
+![Outcomes page.](./images/my-org2.png)
 
 The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
 
