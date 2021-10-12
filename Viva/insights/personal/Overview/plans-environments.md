@@ -5,7 +5,7 @@ description: Supported plans and environment requirements for personal insights 
 author: paul9955
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 search.appverid:
 - MET150
 ms.prod: Mya

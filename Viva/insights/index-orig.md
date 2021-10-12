@@ -1,7 +1,7 @@
 ---
 title: Overview of advanced insights
 description: Learn about what's available in advanced insights with Microsoft Viva Insights in Workplace Analytics in Workplace Analytics
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 author: madehmer
 ms.author: v-mideh

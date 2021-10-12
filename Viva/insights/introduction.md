@@ -1,7 +1,7 @@
 ---
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 author: madehmer
 ms.author: v-mideh

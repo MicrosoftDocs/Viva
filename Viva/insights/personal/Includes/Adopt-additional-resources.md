@@ -5,7 +5,7 @@ description: Additional resources to help MyAnalytics users get started on reach
 author: paul9955
 ms.author: v-pausch
 ms.topic: conceptual
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble
