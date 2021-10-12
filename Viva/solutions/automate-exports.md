@@ -210,4 +210,3 @@ The following steps you through how to automate the export of Workplace Analytic
 ## Related topics
 
 * [Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)
