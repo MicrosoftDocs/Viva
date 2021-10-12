@@ -27,4 +27,4 @@ Viva Insights includes the following different ways you can use personal insight
 
 ## Introduction to Viva Insights
 
-See [Introduction to Microsoft Viva Learning](https://docs.microsoft.com/microsoft-365/learning) to learn about Microsoft Viva Insights.
+See [Introduction to Microsoft Viva Learning](/microsoft-365/learning) to learn about Microsoft Viva Insights.
