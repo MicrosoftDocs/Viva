@@ -5,7 +5,7 @@ description: Frequently asked questions about MyAnalytics
 author: paul9955
 ms.author: v-pausch
 ms.topic: article
-localization_priority: once
+ms.localizationpriority: null
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
