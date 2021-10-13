@@ -1,0 +1,124 @@
+---
+title: Sales effectiveness dashboard for Power BI
+description: Use the Sales effectiveness dashboard to visualize predefined data from Workplace Analytics in Power BI
+author: madehmer
+ms.author: v-mideh
+ms.topic: article
+ms.localizationpriority: medium 
+ms.prod: wpa
+manager: scott.ruble
+audience: Admin
+---
+
+# Sales effectiveness
+
+The Sales effectiveness dashboard for Power BI that’s populated by Microsoft Viva Insights in Workplace Analytics query data to help you understand how your sales employees collaborate with external parties and identify opportunities to improve sales effectiveness in your organizations.
+
+Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into Workplace Analytics, see [Upload CRM data](../setup/crm-data-upload.md). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
+
+Each theme includes insights about sales effectiveness and ways to help maintain or improve your organizational sales goals. Key metrics are used to deep dive into each theme, along with a **Why it matters** interpretation and best practices recommended by industry experts.
+
+![Sales effectiveness dashboard in Power BI.](../Images/WpA/tutorials/pbi-sales-intro.png)
+
+The following describes the analysis within each report.
+
+**No CRM data required**:
+
+1. Collaboration baseline: How much overall collaboration do employees have with external parties?
+2. Meeting engagement: What are the employee meeting interactions with external parties?
+
+**CRM data required**:
+
+3. Account collaboration baseline: How much overall collaboration do employees have with CRM accounts?
+4. Cross-role engagement: Which employee roles are engaging most with our CRM accounts?
+5. Meaningful engagement: Are our employees meaningfully engaging with CRM accounts?
+6. Account collaboration list: Which accounts are most invested in?
+7. Account collaboration snapshot: How are employees collaborating with specific accounts?
+
+The dashboard also includes:
+
+* [**Customize report**](#customize-report) enables you to select what time period and organizational attribute to view the reports by and which employees to include in the reports.
+* **Glossary** that describes the metrics used in the different reports.
+
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Sales effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+
+When the dashboard is populated with your data, you can use it to visualize, explore, and report about workplace patterns and trends relating to sales.
+
+## Demonstration
+
+The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
+
+<iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiZmVmZmQ3NjMtOGRmYS00ZWE3LTliNjYtZDU1NDg1OTQxYmIwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
+To find the template for the  Sales effectiveness dashboard for Power BI, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
+
+## Prerequisites
+
+Before you can run the query and populate the dashboard in Power BI, you must:
+
+* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
+
+## Set up the dashboard
+
+>[!Note]
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+2. In **Create** > **Other templates**, select ** Sales effectiveness** to see the required setup steps, and then in step 2, select **Set up** next to ** Sales effectiveness** (or select **Influence insights by month**, per **Step 8**).
+3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
+4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
+5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify sales and their groups, such as **LevelDesignation**, **Organization**, and **SupervisorIndicator**.
+
+   >[!Important]
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
+
+7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
+8. When prompted, select to return to the Query designer, and then repeat **Steps 2-7** and select the **Influence insights by month** query. Make the same selections as for ** Sales effectiveness**.
+9. When prompted, select to go to **Results**. After both queries successfully run, in **Query designer** > **Results**, select the **Download** icon for the ** Sales effectiveness** query results, select **PBI template**, and then select **OK** to download the template.
+10. Open the downloaded ** Sales effectiveness** template.
+11. If prompted to select a program, select **Power BI**.
+12. When prompted by Power BI:
+
+    1. In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    2. In Power BI, paste each copied link into its respective URL field.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    4. Select **Load** to import the query results into Power BI. Loading these large files might take a few minutes up to a few hours to complete.
+
+13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
+
+15. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+
+    >[!Important]
+    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+
+16. Select **Connect** to prepare and load the data, which can take a few minutes to complete. After the data loads, you'll see visualization charts in Power BI about  Sales effectiveness within your organization.
+
+## Customize report
+
+After the  Sales effectiveness dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to select the following attribute values.
+
+* **Individual contributor attribute** - Select the attribute values that identify employees as individual contributors who do not manage people within your organization.
+
+![Sales effectiveness required attribute values.](../Images/WpA/Tutorials/sales-effect-qs.png)
+
+After this initial prompt, you can then select **Customize** at top right of any page to view and change the following attribute values.
+
+* **Time period** – Select the time period you want to view data for in the dashboard.
+* **Exclusions** - Select the weeks you want to exclude for everyone in the analysis population, such as holiday weeks where everyone is away from work.
+* **Organizational attribute to view the report by** - Select the primary “group-by” attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
+* **Employee filter** - Select the organizational attribute and values you want to filter the employees by in the reports.
+
+![ Sales effectiveness custom report options.](../Images/WpA/Tutorials/ Sales-effect-settings.png)
+
+## Power BI tips, troubleshooting, and FAQs
+
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
+
+## Related topic
+
+[View, download, and export query results](../use/view-download-and-export-query-results.md)
