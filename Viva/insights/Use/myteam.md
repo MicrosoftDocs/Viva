@@ -35,12 +35,7 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 ## View My team
 
 1. In the left navigation bar in Teams, select **Insights**.
-2. In **Viva Insights Home**, you’ll see an insight about your team. To learn more about this insight, select **Explore more**.
-
-   ![Insights Home page.](../images/wpa/use/home-mgr.png)
-
-   You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information, see [Viva Insights Home](/insights/viva-insights-home).
-
+2. In **Viva Insights Home**, you’ll see an insight about your team. To learn more about this insight, select **Explore more**. You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information, see [Viva Insights Home](/insights/viva-insights-home).
 3. In Viva Insights, select **My team** to see key recommendations, actions, and reflections relating to your team.
 
 ## Manage your team
