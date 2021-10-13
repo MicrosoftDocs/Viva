@@ -1,0 +1,43 @@
+---
+
+title: Explore group insights in Viva Insights
+description: Explore more about group insights shown in Microsoft Viva Insights
+author: madehmer
+ms.author: v-mideh
+ms.topic: article
+ms.localizationpriority: medium 
+ms.prod: wpa
+manager: scott.ruble
+audience: Admin
+---
+
+# Explore group insights
+
+Research shows that happy employees help boost productivity and reduce turnover. As a manager, Microsoft Viva Insights has a **My team** page that shows you insights and suggestions that can help you maintain positive employee experiences, such as evaluating how much time your team is working after hours on email or instant messages, and if your team is getting enough 1:1 time with you and other managers.
+
+The **Group insights** section is only available to qualified managers who are assigned the manager role and meet the minimum-group requirements. Ask your admin for assistance and see [Admin tasks](../setup/ml-insights-setup.md) for details about the requirements.
+
+As a qualified manager, you can see more group insights about your team by selecting **Explore more** in the **Group insights** section.
+
+![Group insights in My team](../images/wpa/use/myteam-explore.png)
+
+## Best practices
+
+To see what actions are recommended for a specific group insight, select **View best practices**. For example, select **View best practices** to see what’s recommended for **Coaching and development**.
+
+![Best practices for coaching and development](../images/wpa/use/myteam-bp.png)
+
+## About the group insights
+
+You can see more details about an insight by selecting the **Information** (i) icon for it. The following describes how your team metrics are calculated to support these behavioral insights. With **Teams like yours**, you get comparable data from within your organization for context into broader organizational patterns. Today, "Team like yours" data is calculated as averages from peer manager teams. If you have only one peer team or no peer team, the company average is shown instead.
+
+|Insight |Team metric description |Metric average for your team and "teams like yours" |
+|--------------------------|-------------------|-----------------|
+|Coaching and development |One-on-one time is the number of meeting hours with only an employee and their manager. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |The average number of hours that managers spend in one-on-one meetings with *all* of their direct reports. |
+|Email overload |Employees that spend over 10 hours in email each week. Email workload is the number of hours employees spend sending and receiving email. |Average number of hours spent sending and receiving email. |
+|After-hours work |After-hours work is the number of hours employees spend in meetings and on email outside of working hours. This uses the working hours set in the employee's Outlook calendar settings. |Average number of total hours a team spent in meetings and on email outside of working hours. |
+|Long and large meetings |The number of employees that spend over 30 percent of their total meeting time in long or large meetings, divided by the total number of measured employees. Long meetings are those scheduled for more than an hour. Large meetings are those that involve more than eight people. |Average number of meeting hours spent by the team. |
+|Focus time |The number of employees who have less than 20 hours each of available time for focused work, divided by the total number of measured employees. Focus time is when employees have two or more consecutive hours with no meetings. |Average number of total hours |
+|Collaboration across silos |Cross-organization collaboration is the number of hours employees spend in meetings and email with at least one person outside of their own department. This insight highlights the organizations that spend more than 50 percent of their overall collaboration within their group. |Average number of hours the team spent collaborating with people outside their department. |
+|Instant message use |One-on-one communication is the combination of email and instant messages (IMs) sent between two employees. This insight highlights the employees that spend less than 20 percent of their one-on-one communication over Teams IM. This is calculated as the percentage of one-on-one IMs sent, divided by the total number of one-on-one IMs and emails sent. |Average number of emails sent between only two employees. |
+|Cross-team manager connections |Manager cross-team connections are the number of departments outside your own that you had meaningful interactions with in the last 28 days. A meaningful interaction is defined as an email or meeting that includes two to five people. |An average number of meaningful connections the managers have outside their team. |
