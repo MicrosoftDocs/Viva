@@ -92,7 +92,7 @@ If your team list or job function changes, you can select the **Edit team** link
 
 ### To open Configurations
 
-1. Go to myanalytics.microsoft.com to open your personal MyAnalytics dashboard.
+1. Go to 'myanalytics.microsoft.com' to open your personal MyAnalytics dashboard.
 2. In the left navigation pane, select **Config settings**.
 
    ![Configurations.](../../Images/mya/use/leadership-config.png)
@@ -108,7 +108,7 @@ If your team list or job function changes, you can select the **Edit team** link
 
 <!-- For now, we cannot use these links, so keeping them safe here: 
 
-**Focus on team members' strengths.** According to [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx), people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
+* **Focus on team members' strengths.** According to [Gallup](https://www.gallup.com/services/182138/state-american-manager.aspx), people who say their manager focuses on their strengths are 16 times more likely to report being engaged with their work. 
 
-**Help team members prioritize tasks.** Research by [Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
+* **Help team members prioritize tasks.** Research by [Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours. 
 -->
