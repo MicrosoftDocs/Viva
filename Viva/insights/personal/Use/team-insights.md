@@ -17,13 +17,13 @@ Microsoft Viva Insights shows team managers and leads insights about their teams
 
 **To view team insights**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
-![Team insights in Viva Insights.](../images/mya/use/team-insights.png)
+![Team insights in Viva Insights.](../../images/mya/use/team-insights.png)
 
 ## Data privacy
 
 All of the information shown on this page is derived from a manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track team member activities. For example, a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened the email.
 
-When data is processed for team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).  
+When data is processed for team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../../personal/teams/viva-teams-app-privacy.md).  
 
 ## Set up your team
 
@@ -72,14 +72,10 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 * **RSVP'd** - Team meetings to which you were invited but did not explicitly accept (note that the denominator here excludes meetings that you declined).
 * **Joined on time** - Online team meetings (over a Teams or Skype for Business link) that you scheduled or were invited to and joined within a few minutes of the scheduled start time.
 
-## Briefing emails and digests
+## Briefing and digest emails
 
-As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/Use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
-
->[!Note]
->As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see **Q2** in [Manager and leader insights FAQ](my-team-faq.md).
+As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](email-digests-3.md) and [Catch up with your team](../Briefing/be-manager.md).
 
 ## Related topics
 
 * [Personal insights in Viva Insights](..\MyA-landing-page.md)
-* [Viva Insights introduction](viva-insights-intro.md)

@@ -121,7 +121,7 @@ They can select **Review schedule** within the notice to help with this task.
 
 ![Review schedule before a no-meeting day.](../images/wpa/use/no-meeting-review.png)
 
-## Briefing emails and digests
+## Briefing and digest emails
 
 As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/Use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
 
