@@ -72,6 +72,10 @@ Group insights are only available to qualifying managers who are assigned the ma
 
 As a qualified manager, the **Group insights** section in **My team** shows a top insight about your team based on collaboration data. You can select **Explore more** to see more in-depth data about your team's employee experience and effectiveness. See [Explore group insights](myteam-explore.md) for details.
 
+## Briefing emails and digests
+
+As a team manager or lead, you'll also see additional information in your Viva Insights monthly digest and Briefing emails. For details, see [Catch up with your team](../personal/Briefing/be-manager.md) and [Viva Insights digest emails](../personal/Use/email-digests-3.md).
+
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see **Q2** in [Manager and leader insights FAQ](my-team-faq.md).
 
