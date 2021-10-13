@@ -88,7 +88,7 @@ When you first visit the Leadership page, you are asked to confirm your team mem
 If your team list or job function changes, you can select the **Edit team** link at the top of the Leadership page or visit **Configurations** to add/remove team members or to indicate that you are no longer a manager.
 
 >[!Note]
->If you indicate that you're not a manager, you will not be able to turn the Leadership page back on for yourself in the future. 
+>If you indicate that you're not a manager, you will not be able to turn the Leadership page back on for yourself in the future.
 
 ### To open Configurations
 
@@ -99,9 +99,9 @@ If your team list or job function changes, you can select the **Edit team** link
 
 ## Leadership tips
 
-**When you hold 1:1s, don’t make them all about business.** Use the time to learn about the team member as a person and to find areas of common interest outside of work.
-**Build a broad internal network.** [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has found that managers with relatively large internal networks receive higher team engagement scores, and their team members tend to have larger networks as well.
-**Help team members prioritize tasks.** [Research by Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours.
+* **When you hold 1:1s, don’t make them all about business.** Use the time to learn about the team member as a person and to find areas of common interest outside of work.
+* **Build a broad internal network.** [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has found that managers with relatively large internal networks receive higher team engagement scores, and their team members tend to have larger networks as well.
+* **Help team members prioritize tasks.** [Research by Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours.
 
 >[!Note]
 >The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned **On** for that tenant in the [Manager settings](../../use/manager-settings.md) of Workplace Analytics.

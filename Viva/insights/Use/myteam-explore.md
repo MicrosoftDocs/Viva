@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Explore group insights in Viva Insights
 description: Explore more about group insights shown in Microsoft Viva Insights
 author: madehmer
