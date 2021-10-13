@@ -4,7 +4,7 @@ description: Overview of privacy features for personal insights, including info 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: priority
+ms.localizationpriority: high
 ms.prod: Mya
 ms.collection: M365-analytics
 manager: scott.ruble

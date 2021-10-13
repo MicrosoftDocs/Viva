@@ -5,7 +5,7 @@ description: Use the new Microsoft Viva Insights cloud-based Home page
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

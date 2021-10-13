@@ -71,7 +71,7 @@ The following steps you through how to automate the export of Workplace Analytic
 14. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
 
     >[!Important]
-    >For automatically refreshed data, you must link to a query that uses the [Auto-refresh option](../tutorials/query-auto-refresh.md#create-a-query-with-the-auto-refresh-option). For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
+    >For automatically refreshed data, you must link to a query that uses the **Auto-refresh** option in Workplace Analytics. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
 
      ![Query OData link.](./images/query-link.png)
 
@@ -210,4 +210,3 @@ The following steps you through how to automate the export of Workplace Analytic
 ## Related topics
 
 * [Automate query data export with PowerShell](https://github.com/microsoftgraph/M365Insights/blob/master/README.md)
-* [View, download, and export query results](../use/view-download-and-export-query-results.md)

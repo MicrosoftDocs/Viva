@@ -5,7 +5,7 @@ description: Describes how the metrics are calculated for Viva Insights Network 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
 ms.prod: wpa

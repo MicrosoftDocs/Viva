@@ -5,7 +5,7 @@ description: Learn about the consumption model for analyst usage of queries in W
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
