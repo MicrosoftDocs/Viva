@@ -15,7 +15,7 @@ audience: Admin
 
 Microsoft Viva Insights shows team managers and leads insights about their teams’ work patterns. Get visibility into leading indicators of overall team experience, wellbeing, and productivity. You can then use these insights to understand current team norms and take action to create positive change.
 
-You can access team insights in **My team** within the Viva Insights app in Microsoft Teams if have team members assigned to you in Azure Active Directory (Azure AD).
+You can access team insights in **My team** within the Viva Insights app in Microsoft Teams if have team members assigned to you in Azure Active Directory (AD).
 
 ![My team page in Viva Insights in Teams](../images/wpa/use/myteam-2.png)
 
