@@ -15,7 +15,7 @@ audience: Admin
 
 Microsoft Viva Insights shows team managers and leads insights about their teams’ work patterns. Get visibility into leading indicators of overall team experience, wellbeing, and productivity. You can then use these insights to understand current team norms and take action to create positive change.
 
-You can access team insights in **My team** within the Viva Insights app in Microsoft Teams if have team members assigned to you in Azure Active Directory (AD).
+**My team** within the Viva Insights app in Microsoft Teams is available for those with a Microsoft Viva Insights license. Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section.
 
 ![My team page in Viva Insights in Teams](../images/wpa/use/myteam-2.png)
 
@@ -40,13 +40,13 @@ After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md),
 
 ## Manage your team
 
-If you are a team manager, lead, or even a team member who has a team of five or more assigned to you in Active AD, you can create a team and view insights about them within the Viva Insights app. With the exception of [Group insights](#group-insights), the team insights you see are based on data that's processed from within your own mailbox for only you to see.
+As a licensed Viva Insights user, you can create a team and view insights about them within the Viva Insights app. With the exception of [Group insights](#group-insights), the team insights you see are based on data that's processed from within your own mailbox for only you to see.
 
 The first time you open **My team**, you are prompted to select or confirm your current team members. The initial list of team members you see is derived from Azure AD. After this initial setup, you can add and remove team members at any time by selecting **Go to settings** in the **Your team** section.
 
 ## Recommendations and actions
 
-Each day, you'll see a new recommendation at the top of your **My team** page. You'll also see options to stay connected and send praise in the **Actions for you** section.
+You'll see a rotating recommendation at the top of your **My team** page that's based on recent activity. You'll also see options to stay connected and send praise in the **Actions for you** section.
 
 In **Reflect**, you might see one or more suggestions to improve your own personal habits as a team member. For example, if you select **Explore more** in [Your habits](#your-habits), you'll see more details about who you collaborated with. It might also suggest you reconnect with members who you haven't collaborated with lately.
 
