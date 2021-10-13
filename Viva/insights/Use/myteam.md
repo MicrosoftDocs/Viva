@@ -59,9 +59,9 @@ You might also see suggestions for your team in the **Plans** section. For examp
 
 ### Your habits
 
-As a manager, you often have a hectic schedule, and it can be tough to stay in close contact with each team member. Viva Insights brings together all the information you need to stay caught up and respond quickly to important requests.
+As a manager, you often have a hectic schedule, which makes it tough to stay in close contact with each team member. Viva Insights brings together all the information you need to stay caught up and respond quickly to important requests.
 
-As a manager, you can:
+As a manager, you can use Viva Insights to do the following:
 
 * Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
 * Act on tasks you promised to get done or that team members asked you to complete
