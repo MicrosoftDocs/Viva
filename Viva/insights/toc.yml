@@ -160,6 +160,8 @@ items:
         items:
           - name: Introduction
             href: use/viva-insights-intro.md
+          - name: Admin tasks
+            href: setup/ml-insights-setup.md         
           - name: Manager insights
             items: 
               - name: My team        
