@@ -17,7 +17,7 @@ Microsoft Viva Insights shows team managers and leads insights about their teams
 
 **My team** within the Viva Insights app in Microsoft Teams is available for those with a Microsoft Viva Insights license. Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section.
 
-![My team page in Viva Insights in Teams](../images/wpa/use/myteam-2.png)
+![My team page in Viva Insights in Teams.](../images/wpa/use/myteam-2.png)
 
 ## Data privacy
 
@@ -50,21 +50,52 @@ You'll see a rotating recommendation at the top of your **My team** page that's 
 
 In **Reflect**, you might see one or more suggestions to improve your own personal habits as a team member. For example, if you select **Explore more** in [Your habits](#your-habits), you'll see more details about who you collaborated with. It might also suggest you reconnect with members who you haven't collaborated with lately.
 
-You might also see suggestions for your team in the **Plans** section. For example, if you select **Get started** for **Schedule a no-meeting day for your team**, you're prompted to get started creating a plan that schedules a shared recurring time that everyone in your team can use to focus without interruptions.
+You might also see suggestions for your team in the [Plans](#plans) section.
 
-### Your habits
+## Your habits
 
 As a manager, you often have a hectic schedule, which makes it tough to stay in close contact with each team member. Viva Insights brings together all the information you need to stay caught up and respond quickly to important requests.
 
 As a manager, you can use Viva Insights to do the following:
 
-* Schedule 1:1 time with a team member (or reschedule if a conflict comes up)
 * Act on tasks you promised to get done or that team members asked you to complete
 * Review important emails and documents from team members that you haven’t read yet
+* Schedule [1:1 time](#11-time) with your team members (or reschedule if a conflict comes up)
+* View and consider changes for [quiet hours impact](#quiet-hours-impact) and [team meeting habits](#team-meeting-habits)
 
-## Leadership insights
+### 1:1 time
 
-See [Leadership insights](../personal/use/leadership.md#leadership-insights) for more details about how best to use 1:1 time with your team members, how quiet hours can impact wellbeing, and how meeting habits can impact you and your team's productivity.
+As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably.
+
+#### How 1:1 time is calculated
+
+Any meeting on your calendar that includes only you and your team member counts as a 1:1. If the calendar invitation also has a meeting room assigned, it still counts as a 1:1.
+
+If you directly call your team member over Teams or Skype for Business outside of a scheduled 1:1 meeting, it does not count as 1:1 time.
+
+### Quiet hours impact
+
+[Research by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) has shown that when managers work after hours, team members take that as a signal that they need to be 'on' too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. While some team members may actually prefer to do some of their work outside traditional 9-5 working hours, others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from their manager.
+
+#### How quiet-hours impact is calculated
+
+Quiet-hours impact is based on collaboration activity that you initiate with team members more than one hour outside of their working hours as configured in Outlook. This activity includes emails and chats you send as well as meetings and calls you hold. For example, if a team member's configured working hours are 9 AM to 5 PM and you arrange a meeting with them from 6 to 7 PM, this counts as quiet-hours impact.
+
+For emails and chats, it is not necessary for the team member to have actually read or responded to the message you sent; the insight is simply intended to draw your awareness to activities that might have impacted team members after hours.
+
+### Team meeting habits
+
+Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
+
+#### How team meetings habits are calculated
+
+A 'team meeting' is any scheduled meeting on your calendar that includes you and at least one of your team members (including 1:1 meetings). The 'habits' shown in this section are defined as follows:
+
+* **<=1 hour** - Team meetings that you scheduled that were no longer than one hour.
+* **No overlap with other meetings:** team meetings that you scheduled or were invited to that did not overlap with other meetings on your calendar.
+* **Didn't multitask** - Team meetings that you scheduled or were invited to during which you did not read or send emails or chats.
+* **RSVP'd** - Team meetings to which you were invited but did not explicitly accept (note that the denominator here excludes meetings that you declined).
+* **Joined on time** - Online team meetings (over a Teams or Skype for Business link) that you scheduled or were invited to and joined within a few minutes of the scheduled start time.
 
 ## Group insights
 
@@ -72,9 +103,29 @@ Group insights are only available to qualifying managers who are assigned the ma
 
 As a qualified manager, the **Group insights** section in **My team** shows a top insight about your team based on collaboration data. You can select **Explore more** to see more in-depth data about your team's employee experience and effectiveness. See [Explore group insights](myteam-explore.md) for details.
 
+## Plans
+
+This section will also show suggestions for you to consider, such as scheduling a [no-meeting day for your team](#no-meeting-day-for-your-team).
+
+### No-meeting day for your team
+
+For **Schedule a no-meeting day for your team** in the **Plans** section, you can select **Get started** to create a plan that schedules a shared recurring time that everyone in your team can use to focus without interruptions. You can select the start date, frequency, and meeting title.
+
+![Start a no-meeting day in My team.](../images/wpa/use/no-meeting-day.png)
+
+You're then prompted to confirm the team members to invite, an optional note for the email invitation, and then after you confirm the details, select **Send invitation**. Viva Insights will then invite your team to participate in the plan.
+
+The day before a scheduled no-meeting day, your team members are prompted by Viva Insights to prepare for the no-meeting day by rescheduling or canceling any conflicting meetings:
+
+![Prompt before a no-meeting day.](../images/wpa/use/no-meeting-prompt.png)
+
+They can select **Review schedule** within the notice to help with this task.
+
+![Review schedule before a no-meeting day.](../images/wpa/use/no-meeting-review.png)
+
 ## Briefing emails and digests
 
-As a team manager or lead, you'll also see additional information in your Viva Insights monthly digest and Briefing emails. For details, see [Catch up with your team](../personal/Briefing/be-manager.md) and [Viva Insights digest emails](../personal/Use/email-digests-3.md).
+As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Catch up with your team](../personal/Briefing/be-manager.md) and [Viva Insights digest emails](../personal/Use/email-digests-3.md).
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see **Q2** in [Manager and leader insights FAQ](my-team-faq.md).
