@@ -9,9 +9,13 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+recommendations: false
 
 ---
 # Privacy guide for Briefing emails
+
+>[!Note]
+>Between September and November 2021, the personal insights included in your Briefing email will switch to the Microsoft Viva Insights brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
 
 When data is processed for Briefing emails, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). The Briefing protects privacy in the following ways:
 
