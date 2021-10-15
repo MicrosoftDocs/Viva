@@ -14,14 +14,19 @@ audience: Admin
 
 # Briefing email overview
 
-The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
+>[!Note]
+> Between September and November 2021, the personal insights included in your Briefing email will switch to the Microsoft Viva Insights brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
+
+The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 
 * Outstanding commitments, requests, and follow-ups to and from other collaborators in email that might have fallen through the cracks.
 * Documents related to today’s meetings that you might want to review beforehand.
 * Suggested focus time you can schedule to help get independent work done.
 
 >[!Important]
->Briefing is being released in phases with a general roll out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in English and Spanish.
+>
+>* The Briefing email is being released in phases with a general roll out in progress for Microsoft 365 Enterprise users with Exchange Online mailboxes in French, German, Italian, and Portuguese. (The Briefing email is already available in English and in Spanish.)
+>* The Briefing email is not available for group mailboxes.
 
 ## Why am I getting this?
 
