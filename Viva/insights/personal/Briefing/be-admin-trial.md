@@ -14,9 +14,6 @@ audience: Admin
 
 # Admin preview
 
->[!Note]
->Between September and November 2021, the personal insights included in your Briefing email will switch to the Microsoft Viva Insights brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
-
 As an admin for your organization, you are eligible to receive the Briefing email before people in your organization start receiving it.
 
 As an admin, this is your opportunity to experience the value of the Briefing email and familiarize yourself with its functionality before the rest of your organization sees it.

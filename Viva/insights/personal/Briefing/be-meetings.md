@@ -9,13 +9,9 @@ ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
-recommendations: false
 
 ---
 # Prepare for upcoming meetings
-
->[!Note]
->Between September and November 2021, the personal insights included in your Briefing email will switch to the Microsoft Viva Insights brand. For more information, see [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246).
 
 In this section of your Briefing email, you’ll see today's first three meetings chronologically that have at least one suggested action. You can select the meeting heading to open the meeting details or select a document that’s related to the upcoming meeting to open and view it.
 
@@ -56,7 +52,7 @@ When scheduling a meeting, a common mistake is forgetting to include online meet
 * Enables you to record meetings and present information to remote attendees.
 * Having a single-select correction also saves you time and stress before and at the start of meetings.
 
-When you select **Add Teams**, Microsoft Viva Insights adds a Teams meeting link to the meeting invitation for you, so you don't have to open the meeting to add it and automatically sends an updated invitation to all invitees.
+When you select **Add Teams**, Cortana adds a Teams meeting link to the meeting invite for you, so you don't have to open the meeting to add it and automatically sends an updated invite to all invitees.
 
 ## Add agenda
 
