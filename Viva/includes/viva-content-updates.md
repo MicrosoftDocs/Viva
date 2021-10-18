@@ -2,6 +2,49 @@
 
 
 
+## Week of October 11, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/11/2021 | [Assigning licenses overview](/viva/insights/setup/assign-licenses-to-population) | modified |
+| 10/11/2021 | [Assign roles with Azure AD](/viva/insights/setup/assign-user-roles) | modified |
+| 10/11/2021 | [Consumption model for Viva Insights](/viva/insights/tutorials/consump-model) | modified |
+| 10/11/2021 | [Automate query data exports](/viva/insights/azure-templates/automate-exports) | modified |
+| 10/11/2021 | [Workplace Analytics data sources](/viva/insights/use/data-sourcesv2) | modified |
+| 10/11/2021 | [Manager settings for Viva Insights](/viva/insights/use/manager-settings) | modified |
+| 10/11/2021 | [Network query metric calculations](/viva/insights/tutorials/ona-metric-calculations) | modified |
+| 10/11/2021 | [Network person queries](/viva/insights/tutorials/ona-person-query) | modified |
+| 10/11/2021 | [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query) | modified |
+| 10/11/2021 | [Overview of advanced insights](/viva/insights/index-orig) | modified |
+| 10/11/2021 | [Introduction to Viva Insights](/viva/insights/introduction) | modified |
+| 10/11/2021 | [Viva Insights personal insights introduction](/viva/insights/personal/mya-landing-page) | modified |
+| 10/11/2021 | [MyAnalytics FAQ](/viva/insights/personal/overview/mya-faq) | modified |
+| 10/11/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
+| 10/11/2021 | [Privacy guide](/viva/insights/personal/overview/privacy-guide-users) | modified |
+| 10/11/2021 | [Viva Insights Home page](/viva/insights/personal/use/home-web) | modified |
+| 10/11/2021 | [Viva Insights documentation # < 60 chars](/viva/insights/personal/index) | modified |
+| 10/11/2021 | [Personal insights introduction](/viva/insights/personal/introduction) | modified |
+| 10/12/2021 | [Automate query data exports](/viva/solutions/automate-exports) | renamed |
+| 10/13/2021 | [Leadership insights dashboard](/viva/insights/personal/use/leadership) | modified |
+| 10/13/2021 | [Personal insights in Viva Insights privacy guide for admins](/viva/insights/personal/overview/privacy-guide-admins) | modified |
+| 10/13/2021 | [Privacy guide](/viva/insights/personal/overview/privacy-guide-users) | modified |
+| 10/15/2021 | [Admin preview](/viva/insights/personal/briefing/be-admin-trial) | modified |
+| 10/15/2021 | [Configure Briefing email](/viva/insights/personal/briefing/be-admin) | modified |
+| 10/15/2021 | [Briefing email from Microsoft Viva FAQ](/viva/insights/personal/briefing/be-faqs) | modified |
+| 10/15/2021 | [Book focus time with the Briefing email](/viva/insights/personal/briefing/be-focus) | modified |
+| 10/15/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
+| 10/15/2021 | [Prepare for meetings with the Briefing email](/viva/insights/personal/briefing/be-meetings) | modified |
+| 10/15/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
+| 10/15/2021 | [Conduct a user pilot](/viva/insights/personal/briefing/be-pilot) | modified |
+| 10/15/2021 | [Privacy guide for Briefing emails](/viva/insights/personal/briefing/be-privacy) | modified |
+| 10/15/2021 | [Downloadable resources](/viva/insights/personal/briefing/be-resources) | modified |
+| 10/15/2021 | [Settings for the Briefing email](/viva/insights/personal/briefing/be-settings) | modified |
+| 10/15/2021 | [Follow up on tasks with the Briefing email](/viva/insights/personal/briefing/be-tasks) | modified |
+| 10/15/2021 | [Plan your week with the Briefing email](/viva/insights/personal/briefing/be-time) | modified |
+| 10/15/2021 | [Virtual commute with Viva Insights](/viva/insights/personal/teams/viva-insights-virtual-commute) | modified |
+
+
 ## Week of October 04, 2021
 
 
