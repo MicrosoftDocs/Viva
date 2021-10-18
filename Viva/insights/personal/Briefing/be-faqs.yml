@@ -1,14 +1,14 @@
 ### YamlMime:FAQ
 metadata:
-  title: Briefing email from Microsoft Viva FAQ
-  description: Get answers to the most frequently asked questions about the Briefing email from Microsoft Viva.
+  title: Cortana Briefing FAQ
+  description: Get answers to the most frequently asked questions about the Cortana Briefing email.
   author: madehmer
   ms.author: v-mideh
   ms.topic: article
   ms.localizationpriority: medium 
   ms.prod: Mya
     
-title: Briefing email from Microsoft Viva FAQ
+title: Cortana Briefing FAQ
 summary: |
 
 sections:
@@ -42,11 +42,11 @@ sections:
     questions:
       - question: Who does the email come from?  
         answer: |
-          The subject line is "Your daily briefing" and the sender is viva-noreply@microsoft.com with a friendly name of "Microsoft Viva."
+          The subject line is "Your daily briefing" and the sender is cortana@microsoft.com with a friendly name of "Cortana."
 
       - question: How does the Briefing email show up in Outlook?
         answer: |
-          The Briefing email is not a standard email. It's system-generated and does not go through the standard email delivery process. Instead, it's inserted directly into your Outlook inbox by Microsoft Viva. Briefing emails can't be managed by email rules or transport rules.
+          The Briefing email is not a standard email. It's system-generated and does not go through the standard email delivery process. Instead, it's inserted directly into your Outlook inbox by Cortana. Briefing emails can't be managed by email rules or transport rules.
 
       - question: How often will I receive the email?  
         answer: |
@@ -74,7 +74,7 @@ sections:
 
       - question: Why am I getting so many emails from Microsoft and how can I manage them?  
         answer: |
-          You're getting emails from Microsoft Viva with the purpose of helping you be more productive during your workday. MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
+          You're getting emails from Cortana and MyAnalytics with the purpose of helping you be more productive during your workday. MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
           
           Briefing is optimized to show you the most relevant and actionable information that you need for the day ahead. It provides complementary experiences to help you be your most productive self. You only get Briefing emails at the beginning of your workday if you have actionable tasks or meetings. You can opt out with the **Unsubscribe** link at the end of the email.
           

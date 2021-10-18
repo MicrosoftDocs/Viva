@@ -87,7 +87,7 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to:** This suggestion is available to people who are using MyAnalytics and enrolled in a [(Full) service plan](../overview/plans-environments.md#features-in-the-viva-insights-full-service-plan). It is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md)._
+_**Applies to:** This suggestion is available to people who are using MyAnalytics and enrolled in a [(Full) service plan](../overview/plans-environments.md). It is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md)._
 
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 

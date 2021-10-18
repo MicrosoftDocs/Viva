@@ -56,14 +56,13 @@ After you begin your virtual commute by selecting **Start** on the **Protect tim
 
    ![Start virtual commute.](Images/01-start-vc.png)  
 
-2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. If you currently have no tasks, go to the next step.
+2. **Review and close out current tasks** &ndash; Virtual commute shows you your open tasks on the Microsoft To-Do list whose due date is today or that have a reminder set for today. (If you currently have no tasks, this step is not shown and you go directly to **Add new tasks**.)
 
-   Mark each task as complete (select "**It's done**") or set a reminder for another day:
+   In this step, you can mark each task as complete (select "**It's done**") or set a reminder for another day:
 
      ![Close out current tasks.](Images/02-close-out-current-tasks-55.png)
 
-   Reminders will show as follows:
-
+   If you do set a reminder, it will appear in the following places:
     * In your Microsoft To Do list.
     * In your Briefing email, if you are subscribed to receive Briefing emails.
     * On the To Do card on the **Home** page; it appears here only on the day after you set the reminder.
