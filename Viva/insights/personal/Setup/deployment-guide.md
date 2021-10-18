@@ -14,7 +14,7 @@ audience: Admin
 
 # Deploy Viva Insights
 
-Microsoft Viva Insights (including MyAnalytics) is an easy-to-deploy, out-of-the-box solution that helps users improve their productivity habits. It is available widely &mdash; to Microsoft 365 users with [these Service plans](../overview/plans-environments.md). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
+Microsoft Viva Insights (formerly MyAnalytics) is an easy-to-deploy, out-of-the-box solution that helps users improve their productivity habits. It is available widely &mdash; to Microsoft 365 users with [these Service plans](../overview/plans-environments.md). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
 
 ## What is Viva Insights?
 
@@ -49,7 +49,7 @@ By using Viva Insights, you and your team can accomplish great things.
 -->
 ## Roll out Viva Insights 
 
-You can deploy Viva Insights in your organization all at once or in phases. In either case, before you roll out the product broadly, we recommend that you obtain additional buy-in, an optional step that is described in the following [preparatory steps](#preparatory-steps) section. 
+You can deploy Viva Insights in your organization all at once or in phases. In either case, before you roll out the product broadly, we recommend that you obtain additional buy-in, an optional step that is described in the following [preparatory steps](#preparatory-steps) section.
 
 ### Viva Insights rollout checklist
 
@@ -103,12 +103,12 @@ In this scenario, all surfaces of Viva Insights are turned on by default for all
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal). Make sure you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**. 
 2. In the left pane, expand **Settings** and then select **Org settings**.
-3. On the **Service** tab, select **Microsoft Viva Insights (including MyAnalytics)**. This opens a page on which you can configure access to Viva Insights elements. It should show that all Viva Insights elements are enabled. 
+3. On the **Service** tab, select **Microsoft Viva Insights (formerly MyAnalytics)**. This opens a page on which you can configure access to Viva Insights elements. It should show that all Viva Insights elements are enabled. 
 4. If any element is not enabled, select it to enable it and then select **Save changes**.
  
 #### Default off
 
-In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive the email digest but they can access the Viva Insights dashboard (at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/)), where they can opt in to each surface individually. 
+In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive the email digest but they can access the Viva Insights MyAnalytics dashboard (at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/)), where they can opt in to each surface individually.
 
 ##### Set Viva Insights off by default
 
@@ -220,12 +220,12 @@ To get the most realistic results from the pilot, it should involve a group of a
 
 Before you start the pilot, have these in place:
 
-* [Set and measure goals](#set-and-measure-goals). You’ll need clearly defined goals for measuring the success of the pilot. 
+* [Set and measure goals](#set-and-measure-goals). You’ll need clearly defined goals for measuring the success of the pilot.
 * **Duration.** Identify the start and end dates of the pilot. Tip: Let it run for a minimum of 45 days.
-* [Recruit pilot users](#recruit-pilot-users). Include a balanced mix of stakeholders and participants in the pilot group. Include a range of different roles, such as managers with direct reports and users from different departments. 
+* [Recruit pilot users](#recruit-pilot-users). Include a balanced mix of stakeholders and participants in the pilot group. Include a range of different roles, such as managers with direct reports and users from different departments.
 * **Pace your work.** Start small and take time to pause, assess results, and adjust the pilot.
 
-### Pilot timeline 
+### Pilot timeline
 
 We recommend that you follow these steps to conduct the pilot:
 
