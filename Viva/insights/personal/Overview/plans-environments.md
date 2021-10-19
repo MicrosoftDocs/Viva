@@ -29,7 +29,7 @@ You can use the following Viva Insights and MyAnalytics features when your organ
 >* To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 >* For more information about the plans that offer these user experiences, see [Microsoft 365 business plans](https://products.office.com/business/compare-more-office-365-for-business-plans).
 
-### Features in the yAnalytics (Full) service plan
+### Features in the MyAnalytics (Full) service plan
 
 The following features are available only in the MyAnalytics (Full) service plan.
 
