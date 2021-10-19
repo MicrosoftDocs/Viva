@@ -27,7 +27,7 @@ Before you can use Headspace, you need access to Viva Insights in Microsoft Team
 
    ![Headspace card](images/be-headspace.png)
 
-   Before Teams opens, you might see a message about the "**site is trying to open Microsoft Teams**." If prompted to "**always allow teams.microsoft.com to open links of this type in the associated app**", you can select **Open** or **Cancel**. To continue to Teams and Headspace, select **Open**.
+   Before Teams opens, you might see a message about the "**site is trying to open Microsoft Teams**." If prompted to "**always allow teams.microsoft.com to open links of this type in the associated app**," you can select **Open** or **Cancel**. To continue to Teams and Headspace, select **Open**.
 
    ![Headspace in Teams](images/be-headspace-2.png)
 
