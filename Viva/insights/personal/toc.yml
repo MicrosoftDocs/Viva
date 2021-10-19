@@ -63,7 +63,7 @@ items:
                 - name: Book focus time
                   href: Briefing/be-focus.md
                 - name: Headspace meditation
-                  href: be-headspace.md
+                  href: Briefing/be-headspace.md
                 - name: Plan your week
                   href: Briefing/be-time.md
             - name: Settings
