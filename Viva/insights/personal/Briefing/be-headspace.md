@@ -19,7 +19,7 @@ In the Headspace section of the Briefing email, you can launch a guided meditati
 Before you can use Headspace, you need access to Viva Insights in Microsoft Teams. See [Discover the Viva Insights app](../teams/viva-teams-app-install.md) for details.
 
 >[!NOTE]
->Headspace is currently available only to you if your language in Outlook or Exchange Online set to English. Additional languages will be supported soon.
+>Headspace is currently available only to you if your Outlook or Exchange Online language is set to English. Additional languages will be supported soon.
 
 ## Start a guided meditation
 
