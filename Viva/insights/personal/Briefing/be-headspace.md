@@ -31,7 +31,7 @@ Before you can use Headspace, you need access to Viva Insights in Microsoft Team
 
    ![Headspace in Teams](images/be-headspace-2.png)
 
-2. To start the meditation, select the **Play** button for **Headspace** that opens in the Viva Insights Teams app.
+2. To start the meditation, select the **Play** button for **Headspace** to open it in Teams.
 
 To learn more about other guided meditation resources in the Viva Insights Teams app, see [Mindfulness content from Headspace](../teams/viva-insights-headspace.md).
 
