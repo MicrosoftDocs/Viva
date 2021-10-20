@@ -246,7 +246,7 @@ After activation, MyAnalytics processes historical data for four weeks before th
 
 ### Insights Outlook add-in
 
-##### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
+##### Q1. What languages are the task cards (commitments) available in the Insights Outlook add-in?
 
 The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
 
