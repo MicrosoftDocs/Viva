@@ -13,6 +13,9 @@ audience: Admin
 ---
 # Privacy guide for Briefing emails
 
+>[!Note]
+>Between September and November 2021, the personal insights included in your daily Briefing email will use the Microsoft Viva brand. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+
 When data is processed for Briefing emails, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). The Briefing protects privacy in the following ways:
 
 * **Personal and private** - Your Briefing emails are personal and private and are only sent to you directly in your mailbox, which cannot be accessed by anybody else in your organization, including your IT admin or your manager.
@@ -24,7 +27,7 @@ When data is processed for Briefing emails, Microsoft protects employee privacy 
 
 ## Your experience with Briefing emails
 
-You can use a Briefing email to do the following:
+You can use a Briefing email to do tasks, such as the following:
 
 * [Prepare for meetings](be-meetings.md) which shows you related tasks or documents related to today's meetings.
 * [Manage tasks](be-tasks.md) which reminds you of pending tasks from email.

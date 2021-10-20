@@ -224,7 +224,7 @@ This opens a panel that displays insights for each of your suggested outstanding
 | **Open** | Select this to open the relevant email so that you can review the task. |
 | **Already done** | Select this to mark the task as completed. Suggested tasks disappear after two weeks or after you mark them as done.
 | **Not a task Action** | Select this to mark the insight as not a task. This will help us improve the detection accuracy
-| **Add to To Do Actions** | If available, select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later. This tool can help you prioritize and even delegate work, which can lead to higher productivity.<br> <br> Consider breaking tasks down into simple steps, adding due dates, and setting reminders to keep you on track. **Note**: The **Add to To Do** feature is releasing in phases through April 2021. If you don't see this as an option yet, you will soon. |
+| **Add to To Do Actions** | If available, select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later. This tool can help you prioritize and even delegate work, which can lead to higher productivity.<br> <br> Consider breaking tasks down into simple steps, adding due dates, and setting reminders to keep you on track. |
 
 ## Follow up on your requests
 
