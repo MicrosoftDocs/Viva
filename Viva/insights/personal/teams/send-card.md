@@ -25,11 +25,15 @@ If you subscribe to notifications, you'll get a notification in your activity fe
 
 1. On the Home page, select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
-   ![Send a card.](images/home-page-two-hours.png)
+   ![Send a card.](images/send-card.png)
 
 2. Select the card type.
+
+   ![Card options.](images/card-options.png)
+
 3. Enter a message and select how you want to send it, such as 1:1 or the time you want to send it
 
+   ![Customize the card.](images/customize-card.png)
 
 
 ## Related topics
