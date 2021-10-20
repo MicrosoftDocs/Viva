@@ -13,25 +13,34 @@ audience: Admin
 ---
 # Follow up on tasks
 
+>[!Note]
+>Between September and November 2021, the personal insights included in your daily Briefing email will use the Microsoft Viva brand. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+
 For **Commitments and follow-ups** in your Briefing, you'll see one or more of the following based on your recent email activity:
 
 * **Commitment** - Something you promised or committed to do for someone else in an email.
 * **Request** - Something another person asked you to do in an email.
 * **Follow-up** - Something you asked for from someone else in an email.
+* **To Do task** - A task that you've added to your To Do task list.
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following:
 
 * If the related task is already done, select **Done**.
-* Depending on your use of the To Do feature, you can select either **Remind me tomorrow** or **Add to To Do** for the related task.
-* To remove it from your list, select the **Delete** (trashcan) icon.
+* If you’d like to follow up on the task later, select **Remind me**. The task is automatically added to To Do and a Briefing email reminder is set for the next working day.  
+* After you select **Remind me**, you can customize the task or its reminder in these ways:
 
-In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me tomorrow** to get a reminder in your next day's briefing email.
+  * To edit the task, select **Edit task in To Do**.
+  * To choose a date on which you’d like to be reminded of the task, select **Remind me on date**.
+  * To be reminded of the task in the briefing email during the following week, select **Remind me next week**.
+* To remove the task from your list, select the **Delete** (trashcan) icon.
 
-![Briefing email about tasks.](./images/be-task.png)
+In the following example, you’d select **Done** to confirm you’ve already done the task related to **TED Talks**. Or you could select **Remind me tomorrow** to get a reminder in your next day's briefing email and to view the task in To Do. After you select **Remind me**, you can further customize your management of the task by editing it in the To Do app or by selecting a reminder for another day.
 
-Or if you use the To Do feature, you could select **Add to To Do**.
+![Briefing email about commitments](./images/be-task-to-do2.png)
 
-![Briefing email about To Dos.](./images/be-task-to-do.png)
+Or if you use the To Do feature, you could select **Edit task in To Do**.
+
+![Briefing email about To Dos.](./images/commit-to-do.png)
 
 ## Related topic
 
