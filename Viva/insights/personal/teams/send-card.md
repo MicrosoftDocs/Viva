@@ -13,20 +13,22 @@ audience: Admin
 
 # Send a card in Viva Insights
 
-You can use this feature in the Microsoft Viva Insights app in Teams to recognize the contributions of your employees and co-workers. Praise messages are shown as notifications in Microsoft Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
+You can use this feature in the Microsoft Viva Insights app in Teams to send your colleagues a message celebrating an occasion, such as a birthday or an anniversary.
 
-You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-praise-reminders).
+Use the Send a card feature to maintain positive relationships and connect with your colleagues in a fun way. You can send a card from nine different categories in Teams as either a 1:1 chat or a Teams chat.
 
->[!Note]
->The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+Within You'll see recommendations for the colleagues you closely collaborate with or have pinned as an important contact in Viva Insights. You can also share your birthday with the system, so your colleagues will know when to send you a birthday card.
+
+If you subscribe to notifications, you'll get a notification in your activity feed in Teams on the day of an event with card recommendations. You can then select when to be notified to send a card. You can also customize the card with a personal message and select when and how it is sent.
 
 ## Send a card
 
 1. On the Home page, select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
 
-   ![Praise on Home page.](images/home-page-two-hours.png)
+   ![Send a card.](images/home-page-two-hours.png)
 
-2. Continue with the steps in [Send a praise message](#send-a-praise-message).
+2. Select the card type.
+3. Enter a message and select how you want to send it, such as 1:1 or the time you want to send it
 
 
 
