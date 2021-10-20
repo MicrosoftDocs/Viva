@@ -75,11 +75,15 @@ Educational insights give you work productivity and wellbeing tips and ideas, wh
 
 ## Config Settings
 
-Your personalized MyAnalytics data and insights are based on the working days, working hours, and time zone that you set on the MyAnalytics **Config Settings** page. Changes to these settings are reflected in next week's data.
+Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work week** section of **Config Settings**. Changes to these settings are reflected in next week's data.
 
-You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks. For more details, see [Focus plan](../use/focus-plan.md).
+In **Plan configuration**, you can personalize your focus plan. You can select how much focus time you want to schedule for what time of day, if you want to automatically book it or only get reminders to schedule it for the next two weeks, and more. For more details, see [Focus plan](../use/focus-plan.md).
 
-![Config Settings.](../../Images/mya/use/mya-config.png)
+In Delay Delivery, you can turn the feature On or Off for the option of delaying delivery of an email during your co-workers configured working hours.
+
+If you're a manager or team lead with a P1 license, you can select **Edit team** in **Team settings** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
+
+![Config Settings.](../../Images/mya/use/config-settings.png)
 
 ## Your feedback
 
