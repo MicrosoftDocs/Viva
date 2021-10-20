@@ -45,9 +45,9 @@ You can also select **Skip** to not share your birthday.
 
 ## Notifications
 
-In this section of Send a card, you can get notified on days when there are occasions to send a card and connect with your colleagues. Select the time of day you want to be notified, and then select **Subscribe**.
+In this section of Send a card, you can get notified on the days of  occasions that you can send a card for and connect with your colleagues.
 
-
+If you want to get these notifications, select the time of day you want to be notified, and then select **Subscribe**.
 
 ## Related topics
 
