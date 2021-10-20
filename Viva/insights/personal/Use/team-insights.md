@@ -74,7 +74,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Briefing and digest emails
 
-As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](email-digests-3.md) and [Catch up with your team](../Briefing/be-manager.md).
+As a team manager or lead with a P1 license, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](email-digests-3.md) and [Catch up with your team](../Briefing/be-manager.md).
 
 ## Related topics
 
