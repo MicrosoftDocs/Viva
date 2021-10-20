@@ -1,8 +1,8 @@
 ---
 title: Viva Insights digest emails
 description: Viva Insights users receive a welcome email and monthly digest emails with key insights and suggestions
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -39,7 +39,7 @@ Monthly digest emails include insights on some of the following work patterns:
 * **Wellbeing** - See if you're getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
 * **Network** - See who's in your network and make sure you're keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
-* **Team insights** - If you're a team manager or lead, you'll also see insights about your team and suggestions on how to help your team's wellbeing and effectiveness.
+* **Team insights** - If you're a team manager or lead with a P1 license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](team-insights.md). You can add or remove team members in [Config settings](dashboard-2.md#config-settings).
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
