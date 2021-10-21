@@ -26,7 +26,9 @@ The following new template features, enhancements, and changes are included in t
 
 ### Organizational Network Analysis (ONA)
 
-This release adds a new **Organization insights** section
+This release adds the following new enhancements to the Organization and Group Insights data:
+
+* 
 
 ## July 2021
 
