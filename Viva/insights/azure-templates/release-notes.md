@@ -20,6 +20,14 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## October 2021
+
+The following new template features, enhancements, and changes are included in this month's release.
+
+### Organizational Network Analysis (ONA)
+
+This release adds a new **Organization insights** section
+
 ## July 2021
 
 The following new template features, enhancements, and changes are included in this month's release.
