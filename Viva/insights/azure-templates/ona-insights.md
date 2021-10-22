@@ -39,10 +39,23 @@ For example, the following graphic shows a Stability of -33.7 percent change in 
 
 ![Organizational Insights data.](./images/ona-org-insights.png)
 
+## Organization Insights graph
+
 The following metrics are used for the graph and are currently only available in the downloaded data.
 
 * **Freedom** - Measures how much of the collaboration within informal workgroups crosses the boundaries of the formal organizational hierarchy. High freedom indicates that people within a workgroup tend to collaborate outside of their reporting lines. Low freedom means that people within a workgroup tend to collaborate within their reporting lines. See [measure calculations](ona-metric-calculations.md#freedom) for more details.
 * **Fluidity** - Measures how much employees’ positions in the network shift over time. These individual scores are averaged at the workgroup and network levels, where workgroups are defined by Community Detection. Low fluidity scores indicate that people have more stable communication patterns month over month. High fluidity scores indicate people who are frequently changing who they collaborate with and how much. For more details on fluidity, see [measure calculations](ona-metric-calculations.md#fluidity).
+
+You can select the **Show Side By Side View** (Venn diagram) icon to see a comparison between two graphs for the organization's network. You can use this feature for before and after comparisons within the set time period for the different specified groups.
+
+To compare the side-by-side graphs, select **Figure Options** in the center, bottom of the page to view and select any combination of the following:
+
+* **Time period** - Select the start month and the end month for the time period that was specified in the analysis, so you can compare the first month's data to the last month's data.
+* **Colored by** - Select what the graph nodes are colored by for each of the graphs, including the Organization Insights Metrics (Workgroup Stability, Network Silo Behavior, Employee Cohesion, and Communities) and organizational (HR) attributes.
+
+For example, you can compare natural group communities with the formal structure within your organization to see who you might seat together for better group cohesion, to improve cross-group collaboration, and for more efficient group communications.
+
+![Organization Insights graph side-by-side view](./images/ona-sbsv-graph.png)
 
 ## Group Insights
 
@@ -57,7 +70,7 @@ For example, the following graphic shows within-group trends for the **Sales - C
 
 ![Within-group trend data.](./images/ona-within-group-trends.png)
 
-For Within-Group comparisons, you can select a column to sort the table by. By default, the highest risk groups are listed first.
+For Within-Group comparisons, you can select a column to sort the table by. By default, the highest risk groups are listed first. Also, it's important to note that if a group ever has fewer individuals than the minimum group threshold, it will not be shown in the Group Insights table.
 
 No change in collaboration means the group members or groups collaborated about the same (or less than a 0.05% change) for the months being compared.
 
