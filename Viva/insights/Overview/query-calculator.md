@@ -31,10 +31,7 @@ The Query cost predictor can help you get an estimated cost of running queries a
 
 ## Power BI template estimate
 
-1. Open the Query cost predictor:
-
-   <iframe width="640" height="564" src="http://c830-2601-601-1200-3e4b-c0a6-a378-98dc-b1f6.ngrok.io/" frameborder="0" ></iframe>
-
+1. Open the Query cost predictor.
 2. In **Power BI templates**, select the following details, and then select **Calculate** to get an estimate:
 
    * Name of the Power BI template
