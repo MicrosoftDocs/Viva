@@ -82,7 +82,7 @@ Select **Cross-Group** to see your organization’s cross-group collaboration tr
 
 For example, the following shows that the **Biz Dev** and **Customer Service** groups had a positive 64 percent change in expected collaboration over the selected time range and a positive 17.4 percent change as compared to the previous month's collaboration.
 
-![Cross-group trend data.](./images/ona-cross-group-charts.png)
+![Cross-group trend data.](./images/ona-cross-group-trends.png)
 
 Use **Focus on** to select which groups you want to hide or show in the **Collaboration Across Group** table. You can also hide a group by selecting the **Clear Row** (**eye**) icon that's available when you hover on the group's column or row name within the table. To unhide a group, select the group name in **Focus on**.
 
