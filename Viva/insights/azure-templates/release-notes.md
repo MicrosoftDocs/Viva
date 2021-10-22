@@ -22,9 +22,7 @@ Azure templates for Workplace Analytics will continue to develop new templates a
 
 ## October 2021
 
-The following new template features, enhancements, and changes are included in this month's release.
-
-### Organizational Network Analysis (ONA)
+The following new template features, enhancements, and changes are included in this month's release of the Organizational Network Analysis (ONA) Azure Template
 
 * **Organization Insights graph** - The new **Show Side By Side View** option in the graph will show you two versions of the Organization Insights graph. You can use this feature for before and after comparisons within the set time period for the different specified groups, which can be colored by the Group Metrics or a specific organizational attribute. For more details, see [Organization Insights graph](./ona-insights.md#organization-insights-graph).
 * **Group Insights metrics** - The Group Metrics data for Group Stability and Group Cohesion have been updated to match more closely with the Organization Insights data. The underlying metric used for Group Stability is now based on the fluidity measure and for Group Cohesion is now based on the employee cohesion metric that's measured with the global clustering coefficient.
