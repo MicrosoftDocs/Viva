@@ -26,9 +26,7 @@ This following analysis helps you identify groups who are showing either positiv
 
 ## Organization Insights
 
-Shows an ONA graph and the following metrics about how the organization as a whole is doing month to month. The graph shows nodes that are sized by the number of connections people have to other colleagues within the organization. In **Network colored by**, you can change how the graph is colored based on the selected attribute. You can also select a node in the graph to see more information about it.
-
-The following graphs to the right about organizational insights show data about the organization as a whole. The gray band in the graphs represent the expected, normal range of numbers for each of the insights based on cross-industry research.
+The graphs to the right about organizational insights show data about the organization as a whole month to month. The gray band in the graphs represent the expected, normal range of numbers for each of the insights based on cross-industry research.
 
 * **Workgroup Stability** - Measures the change of informal workgroup memberships from month to month. Informal employee workgroups are based on Community Detection. A high score indicates a group who is consistently coming together to collaborate month over month. This is also available through the downloaded data. For more details about this measure, see the [measure calculations](ona-metric-calculations.md#workgroup-stability).
 * **Network Silo Behavior** - Helps quantify how connected or siloed a network is. A low score suggests that employees communicate freely across workgroups and throughout the organization. A high score indicates employees who primarily communicate within their informal workgroup, which is based on Community Detection. A high score reflects a network who is siloed or modular in structure, while a low score represents a network who is more connected and not modular. This is also available through the downloaded data. For more details about this measure, see the [measure calculations](ona-metric-calculations.md#network-silo-behavior).
@@ -39,16 +37,18 @@ For example, the following graphic shows a Stability of -33.7 percent change in 
 
 ![Organizational Insights data.](./images/ona-org-insights.png)
 
-## Organization Insights graph
-
 The following metrics are used for the graph and are currently only available in the downloaded data.
 
 * **Freedom** - Measures how much of the collaboration within informal workgroups crosses the boundaries of the formal organizational hierarchy. High freedom indicates that people within a workgroup tend to collaborate outside of their reporting lines. Low freedom means that people within a workgroup tend to collaborate within their reporting lines. See [measure calculations](ona-metric-calculations.md#freedom) for more details.
 * **Fluidity** - Measures how much employees’ positions in the network shift over time. These individual scores are averaged at the workgroup and network levels, where workgroups are defined by Community Detection. Low fluidity scores indicate that people have more stable communication patterns month over month. High fluidity scores indicate people who are frequently changing who they collaborate with and how much. For more details on fluidity, see [measure calculations](ona-metric-calculations.md#fluidity).
 
-You can select the **Show Side By Side View** (Venn diagram) icon to see a comparison between two graphs for the organization's network. You can use this feature for before and after comparisons within the set time period for the different specified groups.
+## Organization Insights graph
 
-To compare the side-by-side graphs, select **Figure Options** in the center, bottom of the page to view and select any combination of the following:
+The organizational network graph help you analyze how the organization as a whole is doing month to month. The graph shows nodes that are sized by the number of connections people have to other colleagues within the organization. In **Network colored by**, you can change how the graph is colored based on the selected group metric or organizational (HR) attribute. You can also select a node in the graph to see more information about it.
+
+To see a comparison between two graphs for about the organization's network, select the **Show Side By Side View** (Venn diagram) icon. You can use this to view before and after comparisons within the set time period for the different specified groups.
+
+For the side-by-side graphs, select **Figure Options** in the center, bottom of the page to view and select any combination of the following:
 
 * **Time period** - Select the start month and the end month for the time period that was specified in the analysis, so you can compare the first month's data to the last month's data.
 * **Colored by** - Select what the graph nodes are colored by for each of the graphs, including the Organization Insights Metrics (Workgroup Stability, Network Silo Behavior, Employee Cohesion, and Communities) and organizational (HR) attributes.
