@@ -55,8 +55,11 @@ Before your analysts can create a query in Viva Insights for use in Qualtrics, V
 2. Give the newly saved .csv file to the Viva Insights or Workplace Analytics admin. 
 3. As the admin, confirm the file has the following attributes in addition to the organizational files required by Viva Insights:
 
-   * **PersonId** - Email_id of the person in the survey file
-   * **EffectiveDate** - Beginning of the time period reflected in the survey. For example, if it’s a quarterly survey that closed on March 30, then the preceding quarter would be the survey time frame of January 1st for the effective date.
+   * **PersonId** - Email address or alias of the person in the survey file
+   * **EffectiveDate** - Beginning of the time period reflected in the survey
+
+      * For example, if it’s a quarterly survey that closed on March 30, then the preceding quarter would be the survey time frame of January 1st for the effective date.
+
    * **Engagement** - Score for survey category one
    * **Motivation** - Score for survey category two
    * **Wellbeing** - Score for survey category three
@@ -96,10 +99,10 @@ After the upload is successfully processed in Viva Insights in Workplace Analyti
 
 As the Qualtrics data manager, do the following to import the Viva Insights query data into Qualtrics Employee Experience.
 
-1. Open the query results .csv file that you downloaded and confirm the file conforms to Qualtrics requirements for the import, which you will import as person metadata. Instead of including raw query data, you'll need to update the Viva Insights metrics into deciles, percentiles, or ranges (such as Very Low to Very High).
+1. Open the query results .csv file that you downloaded and confirm the file conforms to Qualtrics requirements for the import, which you will import as person metadata. Instead of including raw query data, you'll need to update the Viva Insights metrics into deciles, percentiles, or ranges (such as **Very Low** to **Very High**).
 
    >[!Note]
    >An upload can have a maximum of 200 columns of person metadata. If you upload metrics after the survey collection, you must sync the metadata with your responses to allow the new metadata to appear in the responses.
 
-2. Follow the instructions in [Creating and Uploading Your Participant File](https://www.qualtrics.com/support/employee-experience/getting-started-employee-experience/employee-engagement-onboarding/step-3-configuring-project-participants-distributing-project/#CreatingUploadingParticipants) to import the Viva Insights data into Qualtrics Employee Experience.
+2. Follow the instructions in [Creating and Uploading Your Participant File](https://www.qualtrics.com/support/employee-experience/getting-started-employee-experience/employee-engagement-onboarding/step-3-configuring-project-participants-distributing-project/#CreatingUploadingParticipants) (Qualtrics documentation) to import the Viva Insights data into Qualtrics Employee Experience.
 3. You can then use the uploaded data as filters in dashboards or breakouts in Qualtrics widgets.
