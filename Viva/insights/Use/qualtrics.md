@@ -78,17 +78,23 @@ After the upload is successfully processed in Viva Insights in Workplace Analyti
    * **Auto-refresh** - Enable the setting
    * **Meeting exclusions** - Select the preferred rule for your tenant
 
-   >[!Important]
-   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+4. In the **Select metrics** section, keep all the predefined metrics, including:
 
-4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires and up to three more that match up with the attributes included in your Qualtrics data.
-6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Behavior Patterns for Qualtrics and Workday** query results, and then select **OK** to download the query.
+   * For Wellbeing in Qualtrics - **After hours collaboration** and **Focus hours**
+   * For Engagement in Qualtrics - **Manager 1-1 hours**, **Skip level meeting hours**, and **Internal network size**
+   * For Prioritization in Qualtrics - **Manager 1-1 hours**
+
+   >[!Important]
+   >If you delete a preselected or predefined metric, it will limit your ability to use the query data in Qualtrics.
+
+5. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+6. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes and up to three more that match up with the attributes included in your Qualtrics data.
+7. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
+8. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Behavior Patterns for Qualtrics and Workday** query results, and then select **OK** to download the query.
 
 ## Upload to Qualtrics
 
-Do the following to import the Viva Insights query data into Qualtrics.
+As the Qualtrics data manager, do the following to import the Viva Insights query data into Qualtrics Employee Experience.
 
 1. Open the query results .csv file that you downloaded and confirm the file conforms to Qualtrics requirements for the import, which you will import as person metadata. Instead of including raw query data, you'll need to update the Viva Insights metrics into deciles, percentiles, or ranges (such as Very Low to Very High).
 
