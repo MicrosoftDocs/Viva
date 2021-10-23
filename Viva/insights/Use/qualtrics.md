@@ -32,7 +32,7 @@ Also, in Qualtrics, you can include Viva Insights metrics as filters at the top 
 The following tasks are required to set up this integration.
 
 1. Confirm or complete the [Prerequisites](#prerequisites)
-2. [Upload appended HR data](#upload-hr-data)
+2. [Prepare and upload Qualtrics data](#prepare-and-upload-qualtrics-data)
 3. [Set up a Viva Insights query](#query-setup)
 4. [Upload the query data to Qualtrics](#upload-to-qualtrics)
 
@@ -43,46 +43,57 @@ Before using the Viva Insights Query Designer, you must confirm or complete the 
 * Confirm that [Viva Insights in Workplace Analytics is set up](../setup/set-up-workplace-analytics.md) and ready to use.
 * Confirm that your analysis population is assigned Viva Insights or Workplace Analytics licenses
 * Confirm you have a Viva Insights or Workplace Analytics admin assigned to upload appended organizational (HR) data and a Viva Insights analyst assigned to set up the query data.
-* Do the following for the Azure subscription that will host the exported query data:
 
-  * Confirm you have either an **Azure Admin** or an **Azure Contributor** role for the Azure data store that'll store the query data.
-  * Get [applicable Azure AD permissions](/azure/active-directory/develop/active-directory-how-applications-are-added) from your Microsoft 365 global admin for the analysts that will download the query data to that Azure data store.
-  * If the Viva Insights team is downloading the query data, confirm that the vendor accounts are set up for the team.
+## Prepare and Upload Qualtrics data
 
-## Upload HR data
+Before your analysts can create a query in Viva Insights for use in Qualtrics, Viva Insights requires data from Qualtrics.
 
-Before your analysts can create a query in Viva Insights for use in Qualtrics, Viva Insights requires appended organizational data from Qualtrics.
+1. A Qualtrics data manager with the necessary credentials must complete the steps in the following Qualtrics Employee Experience documentation:
 
-1. The HR manager needs to prepare a new organizational data upload (.csv file in UTF-8 format) that maps an employee identifier, such as **EmployeeID**, that Qualtrics uses with the **PersonID**, which Viva Insights creates based on organizational (HR) data that's already been uploaded in Viva Insights, such as employees' primary SMTP address or email alias. See [Prepare organizational data](../setup/prepare-organizational-data.md) for more details about what's required in the upload.
+   * [Exporting Response Data](https://www.qualtrics.com/support/survey-platform/data-and-analysis-module/data/download-data/export-data-overview/) to export (download) participant responses to your survey questions.
+   * [Categories (EX)](https://www.qualtrics.com/support/employee-experience/creating-ee-project/dashboards-tab/dashboard-management/dashboard-settings/categories-ee/) to create, manage, and assign categories for aggregate reporting.
+2. Give the newly saved .csv file to the Viva Insights or Workplace Analytics admin. 
+3. As the admin, confirm the file has the following attributes in addition to the organizational files required by Viva Insights:
 
-   ![Appended upload with Employee ID.](../images/wpa/setup/append-upload.png)
+   * **PersonId** - Email_id of the person in the survey file
+   * **EffectiveDate** - Beginning of the time period reflected in the survey. For example, if it’s a quarterly survey that closed on March 30, then the preceding quarter would be the survey time frame of January 1st for the effective date.
+   * **Engagement** - Score for survey category one
+   * **Motivation** - Score for survey category two
+   * **Wellbeing** - Score for survey category three
 
-2. Give the newly saved .csv file to the Viva Insights or Workplace Analytics admin. Who can then follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Append the existing organizational data** in **Step 7** and **Add attributes** in **Step 7** to add the new **EmployeeID** data into Viva Insights in Workplace Analytics.
+4. Follow the steps in [Subsequent uploads](../setup/upload-organizational-data.md#file-upload) and select to **Append the existing organizational data** in **Step 7** and **Add attributes** in **Step 7** to add the new Qualtrics (.csv) data into Viva Insights in Workplace Analytics. 
+5. When prompted to map the custom fields in Workplace Analytics, for **Engagement**, **Motivation**, and **Wellbeing**, enter the same field names in the **Workplace Analytics attribute** column, and select **Show in report** in the **Report options** column.
 
 ## Query setup
 
 After the upload is successfully processed in Viva Insights in Workplace Analytics, a Viva Insights or Workplace Analytics analyst can do the following to set up the query data.
 
-As the analyst, you can use the Business Continuity template in Query Designer. Do the following to create the query.
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
+2. Select **Person query** > **Behavior Patterns for Qualtrics and Workday** to see the required setup steps, and then in step 2, select **Set up**.
+3. When prompted, select or confirm the following settings:
 
-1. As the analyst, you can use the Query Designer templates or create a custom person query for what's required by Workday for a specific use case.
+   * **Name** - Customize or keep the default name
+   * **Group by** – Week
+   * **Time period** - Last 1 year
+   * **Auto-refresh** - Enable the setting
+   * **Meeting exclusions** - Select the preferred rule for your tenant
 
-   * See [Query designer](../tutorials/query-designer.md) for an overview the currently available templates and queries.
-   * See [How-to-steps](../tutorials/customize-a-metric.md#how-to-steps) and [Person queries](../tutorials/person-queries.md) for details to create and customize a person query in the Query designer.
-   * Be sure to select the [**Auto-refresh**](../tutorials/query-auto-refresh.md) option when creating the query.
+   >[!Important]
+   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-2. You can then [view, download, and export the query results](view-download-and-export-query-results.md) to the Azure data store accessible by Workday.
+4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires and up to three more that match up with the attributes included in your Qualtrics data.
+6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
+7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Behavior Patterns for Qualtrics and Workday** query results, and then select **OK** to download the query.
 
 ## Upload to Qualtrics
 
 Do the following to import the Viva Insights query data into Qualtrics.
 
-1. Open the Business continuity .csv file that you downloaded in the exported file from MS Viva – and make sure it conforms to the following import format.  You will import your Viva metrics as person metadata.
-Instead of including raw Viva data – you will likely want to manipulate Viva metrics into deciles, percentiles, or ranges (Very Low  Very High)
-This data will be available for use as filters in dashboards or breakouts in Qualtrics widgets. 
-PLEASE NOTE:  
-You will be limited to 200 columns of metadata per upload
-If you upload metrics after survey collection – please sync your metadata with your responses to allow the new metadata to appear in responses
+1. Open the query results .csv file that you downloaded and confirm the file conforms to Qualtrics requirements for the import, which you will import as person metadata. Instead of including raw query data, you'll need to update the Viva Insights metrics into deciles, percentiles, or ranges (such as Very Low to Very High).
 
+   >[!Note]
+   >An upload can have a maximum of 200 columns of person metadata. If you upload metrics after the survey collection, you must sync the metadata with your responses to allow the new metadata to appear in the responses.
 
-
+2. Follow the instructions in [Creating and Uploading Your Participant File](https://www.qualtrics.com/support/employee-experience/getting-started-employee-experience/employee-engagement-onboarding/step-3-configuring-project-participants-distributing-project/#CreatingUploadingParticipants) to import the Viva Insights data into Qualtrics Employee Experience.
+3. You can then use the uploaded data as filters in dashboards or breakouts in Qualtrics widgets.
