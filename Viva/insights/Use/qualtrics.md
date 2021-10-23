@@ -87,7 +87,7 @@ After the upload is successfully processed in Viva Insights in Workplace Analyti
    >[!Important]
    >If you delete a preselected or predefined metric, it will limit your ability to use the query data in Qualtrics.
 
-5. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
+5. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).
 6. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes and up to three more that match up with the attributes included in your Qualtrics data.
 7. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
 8. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **Behavior Patterns for Qualtrics and Workday** query results, and then select **OK** to download the query.
