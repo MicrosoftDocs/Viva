@@ -40,30 +40,23 @@ The Power BI templates that are currently available in Query designer use one or
 
 Before you run a query or a template in Query designer, you can use the following Consumption cost calculator in Power BI to calculate the estimated cost of running it.
 
-**Power BI template estimate**
+* On the first page of the following Consumption cost calculator, select the following details for a Power BI template to see an estimate for it:
 
-Within the following Consumption cost calculator, select the following details, and then select **Calculate** to get an estimate:
+  * Name of the template
+  * Time period for the analysis
+  * Number of measured employees to include in the analysis
 
-* Name of the template
-* Time period for the analysis
-* Number of measured employees to include in the analysis
+* On the second page, select the type of query, and then select the following details to see an estimate for it:
+
+  * Metrics to include in the analysis
+  * Time period for the analysis
+  * Number of measured employees to include in the analysis
 
 <iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 The following example shows the cost of running the queries required for the **Business continuity** template, for the **Last 1 month**, and for **500** employees.
 
 ![Example template estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-example.png)
-
-**Query estimate**
-
-Within the following Consumption cost calculator, select the following details, and then select **Calculate** to get an estimate:
-
-* Type of query, such as a Person or Meeting query
-* Metrics to include in the analysis
-* Time period for the analysis
-* Number of measured employees to include in the analysis
-
-<iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 ### Consumption model details
 
