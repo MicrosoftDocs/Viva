@@ -42,15 +42,13 @@ Before you run a query or a template in Query designer, you can use the followin
 
 **Power BI template estimate**
 
-1. Open the calculator:
+Within the following Consumption cost calculator, select the following details, and then select **Calculate** to get an estimate:
 
-   <iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+* Name of the template
+* Time period for the analysis
+* Number of measured employees to include in the analysis
 
-2. Select the following details, and then select Calculate to get an estimate:
-
-   * Name of the template
-   * Time period for the analysis
-   * Number of measured employees to include in the analysis
+<iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 The following example shows the cost of running the queries required for the **Business continuity** template, for the **Last 1 month**, and for **500** employees.
 
@@ -58,21 +56,15 @@ The following example shows the cost of running the queries required for the **B
 
 **Query estimate**
 
-1. Open the calculator:
+Within the following Consumption cost calculator, select the following details, and then select **Calculate** to get an estimate:
 
-   <iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+* Type of query, such as a Person or Meeting query
+* Metrics to include in the analysis
+* Time period for the analysis
+* Number of measured employees to include in the analysis
 
-2. Select the following details, and then select Calculate to get an estimate:
+<iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
-   * Type of query, such as a Person or Meeting query
-   * Metrics to include in the analysis
-   * Time period for the analysis
-   * Number of measured employees to include in the analysis
-
-The following example shows the cost of running a **Person** query with three metrics, for the **Last 3 months**, and for **500** employees.
-<!-->
-![Example query estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-example-2.png)
--->
 ### Consumption model details
 
 In a consumption-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
