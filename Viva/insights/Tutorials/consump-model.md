@@ -40,7 +40,7 @@ The Power BI templates that are currently available in Query designer use one or
 
 Before you run a query or a template in Query designer, you can use the following Consumption cost calculator in Power BI to calculate the estimated cost of running it.
 
-* **Template estimate** - On the first page of the following calculator, select the following details for a Power BI template to see an estimate for it:
+* **Template estimate** - On the first page of the following calculator, select the applicable details for a Power BI template to see an estimate for it:
 
   * Name of the template
   * Time period for the analysis
