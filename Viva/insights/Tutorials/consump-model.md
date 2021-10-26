@@ -44,13 +44,13 @@ Before you run a query or a template in Query designer, you can use the followin
 
   * Name of the template
   * Time period for the analysis
-  * Number of measured employees to include in the analysis (use the left and right arrows on your keyboard to change the number)
+  * Number of measured employees to include in the analysis (use the slider bar or the left and right arrows on your keyboard to change the number)
 
 * **Query estimate** - On the second page, select the type of query, and then select the applicable details to see an estimate for it:
 
   * Metrics to include in the analysis
   * Time period for the analysis
-  * Number of measured employees to include in the analysis (use the left and right arrows on your keyboard to change the number)
+  * Number of measured employees to include in the analysis (use the slider bar or the left and right arrows on your keyboard to change the number)
 
 <iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
