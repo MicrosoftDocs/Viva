@@ -21,24 +21,63 @@ The appearance and behavior of the pages used to create and run queries and [que
 
 ## Analysts with the consumption model
 
-For analysts of tenants with the consumption model, each query that they run consumes a few "units" based on the following factors:
+As an analyst of a tenant with the consumption model, each query that you run consumes a few "units" based on the following factors:
 
 * The number of measured employees included in the analysis
 * The number of weeks of data included in the query output for each measured employee
 * The number of metrics used in the query
 * The type of metrics used from the different price tiers; metrics in the higher price tiers consume more units than metrics in lower price tiers (see [Consumption model details](#consumption-model-details) for details)
 
-As analysts design a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, it shows the estimated number of units the query will consume in its current state. This number is updated as the query is edited:
+When designing a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, you'll see the estimated number of units the query will consume in its current state. This number is updated as the query is edited:
 
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
-In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. Analysts can continue to run queries as long as this balance is greater than zero units.
+In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
+
+The Power BI templates that are currently available in Query designer use one or more predefined queries to use with the provided Power BI template.
+
+### Consumption cost calculator
+
+Before you run a query or a template in Query designer, you can use the following Consumption cost calculator in Power BI to calculate the estimated cost of running it.
+
+**Power BI template estimate**
+
+1. Open the calculator:
+
+   <iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+
+2. Select the following details, and then select Calculate to get an estimate:
+
+   * Name of the template
+   * Time period for the analysis
+   * Number of measured employees to include in the analysis
+
+The following example shows the cost of running the queries required for the **Business continuity** template, for the **Last 1 month**, and for **500** employees.
+
+![Example template estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-estimate.png)
+
+**Query estimate**
+
+1. Open the calculator:
+
+   <iframe width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+
+2. Select the following details, and then select Calculate to get an estimate:
+
+   * Type of query, such as a Person or Meeting query
+   * Metrics to include in the analysis
+   * Time period for the analysis
+   * Number of measured employees to include in the analysis
+
+The following example shows the cost of running a **Person** query with three metrics, for the **Last 3 months**, and for **500** employees.
+
+![Example query estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-estimate-2.png)
 
 ### Consumption model details
 
 In a consumption-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
 
-**units consumed** = **A** * **B** * **C** * **D**
+**Units consumed** = **A** * **B** * **C** * **D**
 
 The usage formula consists of the following parts:
 
@@ -96,7 +135,7 @@ The query page shows how units are calculated for the query that's being defined
 >[!Important]
 >
 >* The cost shown is only an estimate. The estimate might vary from the query's actual cost, which can be seen after the query is successfully ran.
->* The cost calculator is not available for meeting queries.
+>* A running cost estimate is currently not available for meeting queries.
 
 ### Recurring query charges
 

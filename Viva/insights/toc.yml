@@ -346,9 +346,7 @@ items:
                       - name: Queries
                         items:
                           - name: Overview
-                            href: tutorials/query-basics.md
-                          - name: Consumption model
-                            href: tutorials/consump-model.md                            
+                            href: tutorials/query-basics.md                         
                           - name: Person queries
                             items:
                               - name: Introduction
@@ -381,6 +379,8 @@ items:
                             href: Use/Csv-query-output-file.md
                           - name: Query auto-refresh
                             href: tutorials/Query-auto-refresh.md
+                      - name: Consumption model
+                        href: tutorials/consump-model.md 
                       - name: Business process analysis
                         href: tutorials/analyze-business-processes.md
                       - name: Peer analysis
