@@ -54,7 +54,7 @@ Before you run a query or a template in Query designer, you can use the followin
 
 The following example shows the cost of running the queries required for the **Business continuity** template, for the **Last 1 month**, and for **500** employees.
 
-![Example template estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-estimate.png)
+![Example template estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-example.png)
 
 **Query estimate**
 
@@ -70,9 +70,9 @@ The following example shows the cost of running the queries required for the **B
    * Number of measured employees to include in the analysis
 
 The following example shows the cost of running a **Person** query with three metrics, for the **Last 3 months**, and for **500** employees.
-
-![Example query estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-estimate-2.png)
-
+<!-->
+![Example query estimate in the Power BI calculator.](../Images/WpA/tutorials/cost-example-2.png)
+-->
 ### Consumption model details
 
 In a consumption-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
