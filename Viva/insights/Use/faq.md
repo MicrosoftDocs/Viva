@@ -1,9 +1,9 @@
 ---
 
-title: Workplace Analytics FAQ
-description: Frequently asked questions about Workplace Analytics
+title: Advanced insights FAQ
+description: Frequently asked questions about advanced insights for Microsoft Viva Insights in Workplace Analytics
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: reference
 ms.localizationpriority: medium
 ms.prod: wpa
@@ -12,9 +12,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Workplace Analytics FAQ
+# Advanced insights FAQ
 
-The most commonly asked questions and answers about Workplace Analytics are grouped into the following sections:
+The most commonly asked questions and answers about advanced insights and analysis tools for Microsoft Viva Insights in Workplace Analytics are grouped into the following sections:
 
 [Product information](#product-information)
 
