@@ -3,7 +3,7 @@
 title: Viva Insights languages
 description: List of supported languages for the elements of Viva Insights
 author: paul9955
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
