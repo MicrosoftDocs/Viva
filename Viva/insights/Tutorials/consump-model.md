@@ -36,7 +36,7 @@ In the bar above the estimated query cost, it'll show how many units remain in t
 
 The Power BI templates that are currently available in Query designer use one or more predefined queries to use with the provided Power BI template.
 
-### Consumption cost calculator
+## Consumption cost calculator
 
 Before you run a query or a template in Query designer, you can use the following Consumption cost calculator in Power BI to calculate the estimated cost of running it.
 
@@ -80,7 +80,7 @@ The usage formula consists of the following parts:
 
    This is the analysis period, in weeks.
 
-#### Price tier costs
+### Price tier costs
 
 This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
 
@@ -95,7 +95,7 @@ This is the cost of the price tier that is in use for a metric in the query. A q
 
 ### Population scope in usage calculations
 
-As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). 
+As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks).
 
 The population scope (measured employees) for the different query types is as follows:
 
