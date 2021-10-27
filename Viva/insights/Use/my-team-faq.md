@@ -38,4 +38,4 @@ audience: Admin
 
 ##### Q4. What data is used in these insights and how is it protected?
 
-**A4.** Manager and leader insights use de-identified data to maintain personal privacy. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
+**A4.** Manager and leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in Workplace Analytics or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
