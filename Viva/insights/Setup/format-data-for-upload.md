@@ -264,8 +264,8 @@ The field values also cannot contain any of the following characters:
    2. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare organizational data](prepare-organizational-data.md).
    3. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate.
 
-   > [!Note]
-   > Each column represents an attribute. Many attributes are optional, but a few attributes (such as **EffectiveDate**) are required. For details, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).
+   >[!Note]
+   >Each column represents an attribute. Many attributes are optional, but a few attributes (such as **PersonID**) are required. For details, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).
 
 4. Save the worksheet into a single, flat, text file.
 
