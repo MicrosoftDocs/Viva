@@ -38,4 +38,4 @@ audience: Admin
 
 ##### Q4. What data is used in these insights and how is it protected?
 
-**A4.** Manager and leader insights use de-identified data to maintain personal privacy. See [Data-protection considerations](data-protection-considerations.md) for more details.
+**A4.** Manager and leader insights use de-identified data to maintain personal privacy. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
