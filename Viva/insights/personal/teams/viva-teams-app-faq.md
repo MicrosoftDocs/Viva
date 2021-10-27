@@ -1,9 +1,9 @@
 ---
 
-title: FAQ for Viva Insights
-description: Personal insights FAQ for Microsoft Viva Insights
-author: paul9955
-ms.author: v-pausch
+title: FAQ for Viva Insights in Teams
+description: Personal insights FAQ for Microsoft Viva Insights in Teams
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Personal insights FAQ
+# Personal insights in Teams FAQ
 
 The following are the most frequently asked questions about personal insights within the Microsoft Viva Insights app in Microsoft Teams.
 
