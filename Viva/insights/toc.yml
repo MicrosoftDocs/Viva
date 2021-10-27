@@ -337,8 +337,6 @@ items:
                             href: tutorials/power-bi-teams.md
                           - name: Manager effectiveness
                             href: tutorials/power-bi-manager.md
-       #                  - name: Employee wellbeing
-       #                    href: tutorials/power-bi-wellbeing.md  
                           - name: Behavior patterns for Glint
                             href: tutorials/power-bi-glint.md
                           - name: Sales business continuity
@@ -433,31 +431,33 @@ items:
                         href: Use/solutions-scan.md
                   - name: Notifications 
                     href: use/wpa-notifications.md 
-                  - name: FAQ
-                    href: use/faq.md
-                  - name: Known issues
-                    items:
-                      - name: Download a query report in UTF-8 format
-                        href: tutorials/Download-UTF8-query-report.md
-                      - name: Workplace Analytics 500 error
-                        href: tutorials/Wpa-tool-500-error.md
-                      - name: Meeting exclusion rules - large meeting limitation
-                        href: tutorials/meeting-exclusion-250.md                      
               - name: In Power BI
                 href: tutorials/pbi-home-deeper.md
-      - name: Reference
-        items:
-          - name: Glossary
-            href: Use/Glossary.md
-          - name: Metric descriptions
-            href: Use/metric-definitions.md
-          - name: Metric filters
-            href: Use/metric-filters.md          
-          - name: Best practices
-            href: Tutorials/gm-best-practices.md
-          - name: Time zones for Workplace Analytics
-            href: Use/Timezones-for-Workplace-analytics.md
-          - name: Supported languages and guidelines
-            href: Overview/Supported-languages.md
+          - name: Advanced insights FAQ
+            href: use/faq.md
+          - name: Known issues
+            items:
+              - name: Download a query report in UTF-8 format
+                href: tutorials/Download-UTF8-query-report.md
+              - name: Workplace Analytics 500 error
+                href: tutorials/Wpa-tool-500-error.md
+              - name: Meeting exclusion rules - large meeting limitation
+                href: tutorials/meeting-exclusion-250.md                      
+          - name: Reference
+            items:
+              - name: Glossary
+                href: Use/Glossary.md
+              - name: Metric descriptions
+                href: Use/metric-definitions.md
+              - name: Metric filters
+                href: Use/metric-filters.md          
+              - name: Best practices
+                href: Tutorials/gm-best-practices.md
+              - name: Time zones
+                href: Use/Timezones-for-Workplace-analytics.md
+              - name: Languages and guidelines
+                href: Overview/Supported-languages.md
+      - name: Viva Insights FAQ
+        href: use/faq-intro.md
       - name: Get support
         href: overview/getting-support.md
