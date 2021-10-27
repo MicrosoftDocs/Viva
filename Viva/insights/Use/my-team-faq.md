@@ -32,6 +32,10 @@ audience: Admin
 
    ![Thanks for the feedback.](../images/mya/use/thanks-for-feedback-70-80.png)
 
-#### Q3. Can a user gain access to the user experience of a manager or a leader?
+#### Q3. Can a team lead gain access to the user experience of a manager or a leader?
 
 **A3.** Yes. You gain access to an experience if you fulfill the requirements for that experience. To see the prerequisites for the manager and leader insights, see [Admin tasks for manager and leader insights](../setup/ml-insights-setup.md).
+
+#### Q4. What data is used in these insights and how is it protected?
+
+**A3.** Manager and leader insights use de-identified data to maintain personal privacy. See [Data-protection considerations](data-protection-considerations.md) for more details.
