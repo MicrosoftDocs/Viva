@@ -11,7 +11,7 @@ metadata:
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
   ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
-  ms.date: 10/05/2021 #Required; mm/dd/yyyy format.
+  ms.date: 10/27/2021 #Required; mm/dd/yyyy format.
 
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
@@ -33,4 +33,4 @@ highlightedContent:
       url: ./setup/environment-requirements.md
     - title: FAQ
       itemType: reference
-      url: ./use/faq.md
+      url: ./use/faq-intro.md

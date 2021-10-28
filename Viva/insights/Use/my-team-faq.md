@@ -14,11 +14,11 @@ audience: Admin
 
 # Manager and leader insights FAQ
 
-### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
+##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 
 **A1.** Yes. The Viva Insights app complies with GDPR requirements.
 
-### Q2. How can I send feedback to Microsoft about the Insights app?
+##### Q2. How can I send feedback to Microsoft about the Insights app?
 
 **A2.** You can provide feedback through the Viva Insights app as follows:
 
@@ -32,6 +32,10 @@ audience: Admin
 
    ![Thanks for the feedback.](../images/mya/use/thanks-for-feedback-70-80.png)
 
-### Q3. Can a user gain access to the user experience of a manager or a leader?
+##### Q3. Can a team lead gain access to the user experience of a manager or a leader?
 
 **A3.** Yes. You gain access to an experience if you fulfill the requirements for that experience. To see the prerequisites for the manager and leader insights, see [Admin tasks for manager and leader insights](../setup/ml-insights-setup.md).
+
+##### Q4. What data is used in these insights and how is it protected?
+
+**A4.** Manager and leader insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in Workplace Analytics or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
