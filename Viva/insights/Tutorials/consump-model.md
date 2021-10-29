@@ -44,7 +44,7 @@ The steps below describe how to use the following interactive, embedded calculat
 
 **To get a template estimate**
 
-1. In **Select a Power BI template** on the first page of the Consumption cost calculator, select the name of the template.
+1. In **Select a Power BI template** on the first page of the **Consumption cost calculator**, select the name of the template.
 2. In **Select time period**, select the time period for the analysis.
 3. In **Select employees**, enter or select the number of measured employees to include in the analysis.
 4. In **Estimated cost**, you’ll see an estimate on the right side of the page.
@@ -52,7 +52,7 @@ The steps below describe how to use the following interactive, embedded calculat
 **To get a query estimate**
 
 1. Select **Queries** at the bottom right of the **Consumption cost calculator**.
-2. In **Query type**, select the type of query. 
+2. In **Query type**, select the type of query.
 3. In **Select query**, select the query metrics you want to include in your analysis.
 4. In **Select time period**, select the time period for the analysis.
 5. In **Select employees**, enter or select the number of measured employees to include in the analysis.
