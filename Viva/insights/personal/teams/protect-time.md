@@ -75,7 +75,7 @@ This feature can help protect your quiet time, which is the hours each day when 
 
 In the **Quiet time** section on the **Protect time** page, if you haven't scheduled quiet time and are prompted to, select **Let's go**. You are then prompted to select a start and end time for when to mute mobile notifications from Outlook and Teams. In **Mute mobile notifications all day**, you can also select which days to mute notifications for the full 24 hours.
 
-After the initial setup, you'll see the following options in **Configure your quiet time** in **Settings** (gear icon). You can confirm or change any of the quiet-time options or turn quiet time off at anytime.
+After the initial setup, you'll see the following options in **Configure your quiet time** in **Settings** (gear icon). You can confirm or change any of the quiet-time options or turn quiet time off at any time.
 
 ![Configure quiet time.](Images/pt-quiet.png)
 
