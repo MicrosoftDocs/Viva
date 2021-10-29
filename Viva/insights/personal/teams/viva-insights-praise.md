@@ -41,7 +41,7 @@ To send praise, open the praise feature in one of the following ways:
 
 1. After the Praise app opens, select a badge to include with your praise message:
 
-   ![Choose badge.](images/praise-colleague.png)
+   ![Select a praise badge.](images/praise-colleague.png)
 
 2. Add the name of the person you want to praise.
 
@@ -95,10 +95,7 @@ Remind yourself to send praise to co-workers. Praise reminders are always recurr
 
 You can set praise reminders either on the [**Settings** page](viva-teams-app-settings.md) or on the **Home** page, as described here:
 
-1. Select the **Send praise to your colleagues** card, which is located on the **Home** page at center left:
-
-   ![Select Praise on Home page.](images/home-page-two-hours.png)
-
+1. Select the **Send praise to your colleagues** card, which is located on the **Home** page at center left.
 2. In the praise reminder settings, select the time of day and day of the week, and then move the **Reminders** slider to **On**:
 
    ![Praise reminder.](images/praise-settings-page.png)
