@@ -69,7 +69,7 @@ In Microsoft Viva Insights, you can always send praise right [from the **Home** 
 
 2. Continue with the steps in [Send a praise message](#send-a-praise-message).
 
-#### Find the Praise feature
+### Find the Praise feature
 
 1. Below the **Type a new message** field, select more options (the ellipsis):
 
@@ -89,9 +89,9 @@ Remind yourself to send praise to co-workers. Praise reminders are always recurr
 
 >[!Note]
 >
-> * You can schedule praise reminders for any day of the week, including days not configured as workdays in your Outlook settings.
-> * The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
-> * The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
+>* You can schedule praise reminders for any day of the week, including days not configured as workdays in your Outlook settings.
+>* The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
+>* The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
 
 You can set praise reminders either on the [**Settings** page](viva-teams-app-settings.md) or on the **Home** page, as described here:
 
@@ -115,13 +115,13 @@ This history includes related praise details, such as the type of badge, who the
 
 You can also access your personal praise history by selecting **Review your praise history** in the **Praise** section that shows within your Teams channel **Posts**. This link only shows you your own personal history that nobody else can see.
 
-## Badge option changes in 2022
+## Upcoming changes
 
-Starting in January 2022, what's currently available for educator praise badges will be changing. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
+Starting in January 2022, what's currently available for educational praise badges will change. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
 
-The **Create your own badges** option will no longer be available as of January 2022 as well.
+The **Create your own badges** option will also no longer be available as of January 2022.
 
-However, you'll will be able to view history about any praise you sent or received with any of these unavailable badges or by creating your own badges for the next six months.
+However, you'll continue to be able to view the history of any praise you sent or received in the past six months with any of these newly unavailable badges or options.
 
 ## Related topics
 
