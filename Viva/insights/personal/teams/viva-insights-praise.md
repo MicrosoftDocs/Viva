@@ -115,6 +115,14 @@ This history includes related praise details, such as the type of badge, who the
 
 You can also access your personal praise history by selecting **Review your praise history** in the **Praise** section that shows within your Teams channel **Posts**. This link only shows you your own personal history that nobody else can see.
 
+## Badge option changes in 2022
+
+Starting in January 2022, what's currently available for educator praise badges will be changing. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
+
+The **Create your own badges** option will no longer be available as of January 2022 as well.
+
+However, you'll will be able to view history about any praise you sent or received with any of these unavailable badges or by creating your own badges for the next six months.
+
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
