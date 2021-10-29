@@ -21,9 +21,9 @@ The following shows how you can connect Qualtrics survey scores with Viva Insigh
 
 |Qualtrics survey categories |Viva Insights metrics
 |---------------------|-------------------|
-|Engagement: I feel motivated and supported at work |Manager 1-1 hours, Skip level meeting hours, and Internal network size |
-|Motivation: I know what to focus on at work |Manager 1-1 hours |
-|Wellbeing: I am able to achieve a healthy work-life balance |	After-hours collaboration and Focus hours |
+|**Engagement**: I feel motivated and supported at work |Manager 1-1 hours, Skip level meeting hours, and Internal network size |
+|**Motivation**: I know what to focus on at work |Manager 1-1 hours |
+|**Wellbeing**: I am able to achieve a healthy work-life balance |	After-hours collaboration and Focus hours |
 
 ## Example use cases
 
