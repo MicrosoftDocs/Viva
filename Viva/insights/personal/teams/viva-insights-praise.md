@@ -59,7 +59,7 @@ To send praise, open the praise feature in one of the following ways:
 
 ### Send praise from the content pane
 
-In Microsoft Viva Insights, you can always send praise right [from the **Home** page](#send-praise-from-the-home-page). This means that you can send praise without installing the Praise messaging extension.
+In Viva Insights, you can always send praise directly [**Home** page](#send-praise-from-the-home-page), which does not require installing the Praise messaging extension.
 
 1. Below the **Type a new message** field, select **Praise**:
 
