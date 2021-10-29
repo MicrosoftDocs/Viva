@@ -1,7 +1,7 @@
 ---
 
 title: Praise with Viva Insights
-description: Microsoft Viva Insights app -- Use the Praise feature
+description: Use the Praise feature in Microsoft Viva Insights in Teams 
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -13,20 +13,18 @@ audience: Admin
 
 # Praise in Viva Insights
 
-You can use this feature in the Microsoft Viva Insights app in Teams to recognize the contributions of your employees and co-workers. Praise messages are shown as notifications in Microsoft Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
+You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to recognize the contributions of your employees and co-workers. Praise messages are shown as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
 You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-praise-reminders).
 
 >[!Note]
-> The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
-
-<!-- THIS LINK NEEDS TO GO HERE: [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) -->
+>The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 ## Send praise
 
-To send praise, first open the praise feature. You can do so in two places:
+To send praise, open the praise feature in one of the following ways:
 
-* The [Home page](#send-praise-from-the-home-page) of the Viva insights app
+* The Viva Insights [Home](#send-praise-from-the-home-page) page
 * The [content pane](#send-praise-from-the-content-pane) of Teams
 
 ### Send praise from the Home page
@@ -41,7 +39,7 @@ To send praise, first open the praise feature. You can do so in two places:
 
 ### Send a praise message
 
-1. After the Praise app opens, choose a badge to include with your praise message:
+1. After the Praise app opens, select a badge to include with your praise message:
 
    ![Choose badge.](images/praise-colleague.png)
 
@@ -106,6 +104,16 @@ You can set praise reminders either on the [**Settings** page](viva-teams-app-se
    ![Praise reminder.](images/praise-settings-page.png)
 
    On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).
+
+## Praise history
+
+In the **Looking back** section on the **Praise** page, you can see the history for as many as 24 messages that you have either sent or received over the last six months. This history includes any praise sent or received through this page and through the Teams messaging extension.
+
+![Praise history.](images/praise-history.png)
+
+This history includes related praise details, such as the type of badge, who the sender and receiver were, the date and time it was sent, and so on. You can also view the original praise in the Teams chat by selecting **Go to message** within the detailed view of the badge.
+
+You can also access your personal praise history by selecting **Review your praise history** in the **Praise** section that shows within your Teams channel **Posts**. This link only shows you your own personal history that nobody else can see.
 
 ## Related topics
 
