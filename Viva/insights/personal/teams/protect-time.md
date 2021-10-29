@@ -49,7 +49,7 @@ You can schedule focus time on the **Protect time** page, as follows:
     * If you'd like a Teams reminder to begin focus mode.
     * If you'd like Teams to silence notifications during scheduled focus time.
 
-At anytime after the initial setup, you can confirm or change any of the options or leave the plan in the **Focus plan preferences** in **Settings** (gear icon).
+At any time after the initial setup, you can confirm or change any of the options or leave the plan in the **Focus plan preferences** in **Settings** (gear icon).
 
 ![Book focus time.](Images/pt-focus-2.png)
 
