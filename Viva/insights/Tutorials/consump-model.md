@@ -62,7 +62,7 @@ The steps below describe how to use the following interactive, embedded calculat
 
 >[!Tip]
 >
->* To more easily read the options, select the **Open in full screen** icon (double arrow at bottom right) for a larger view of the calculator.
+>* To more easily read the options, select the **Open in full screen mode** icon (double arrow at bottom right) for a larger view of the calculator.
 >* Hover the cursor over the **filter** icon to view how the data is being filtered.
 >* Select **Clear all** to clear all the selections.
 
