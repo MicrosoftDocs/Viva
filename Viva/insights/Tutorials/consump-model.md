@@ -59,10 +59,10 @@ The steps below describe how to use the following interactive, embedded calculat
 6. In **Estimated cost**, you’ll see an estimate on the right side of the page.
 
 >[!Tip]
->
 >* To more easily read the options, select the **Open in full screen** icon (double arrow at bottom right) for a larger view of the calculator.
 >* Hover the cursor over the **filter** icon to view how the data is being filtered.
->* Select **Clear all** to clear all the selections or when available, select the **eraser** icon next to the selection you want to clear.
+>* Select **Clear all** to clear all the selections.
+
 
 <iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
