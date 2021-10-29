@@ -21,7 +21,7 @@ The appearance and behavior of the pages used to create and run queries and [que
 
 ## Analysts with the consumption model
 
-As an analyst of a tenant with the consumption model, each query that you run consumes a few "units" based on the following factors:
+As an analyst of a tenant with the consumption model, each query that you run consumes units based on the following factors:
 
 * The number of measured employees included in the analysis
 * The number of weeks of data included in the query output for each measured employee
@@ -38,19 +38,31 @@ The Power BI templates that are currently available in Query designer use one or
 
 ## Consumption cost calculator
 
-Before you run a query or a template in Query designer, you can use the following Consumption cost calculator in Power BI to calculate the estimated cost of running it.
+Before you run a query or a template in Query designer, you can get an estimate with the following Consumption cost calculator in Power BI.
 
-* **Template estimate** - On the first page of the following calculator, select the applicable details for a Power BI template to see an estimate for it:
+The steps below describe how to use the following interactive, embedded calculator that will give you an estimate for running a specific Viva Insights template or query. Select the details about the query or template to get an estimate that shows in the **Estimated cost** section on this page.
 
-  * Name of the template
-  * Time period for the analysis
-  * Number of measured employees to include in the analysis (use the slider bar or the left and right arrows on your keyboard to change the number)
+**To get a template estimate**
 
-* **Query estimate** - On the second page, select the type of query, and then select the applicable details to see an estimate for it:
+1. In **Select a Power BI template** on the first page of the Consumption cost calculator, select the name of the template.
+2. In **Select time period**, select the time period for the analysis.
+3. In **Select employees**, enter or select the number of measured employees to include in the analysis.
+4. In **Estimated cost**, you’ll see an estimate on the right side of the page.
 
-  * Metrics to include in the analysis
-  * Time period for the analysis
-  * Number of measured employees to include in the analysis (use the slider bar or the left and right arrows on your keyboard to change the number)
+**To get a query estimate**
+
+1. Select **Queries** at the bottom right of the **Consumption cost calculator**.
+2. In **Query type**, select the type of query. 
+3. In **Select query**, select the query metrics you want to include in your analysis.
+4. In **Select time period**, select the time period for the analysis.
+5. In **Select employees**, enter or select the number of measured employees to include in the analysis.
+6. In **Estimated cost**, you’ll see an estimate on the right side of the page.
+
+>[!Tip]
+>
+>* To more easily read the options, select the **Open in full screen** icon (double arrow at bottom right) for a larger view of the calculator.
+>* Hover the cursor over the **filter** icon to view how the data is being filtered.
+>* Select the **eraser** icon to clear the selections.
 
 <iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
