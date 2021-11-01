@@ -17,19 +17,23 @@ The Microsoft Viva Insights and Qualtrics integration combines employee collabor
 
 This integration enables you to combine Viva Insights query data and Qualtrics Employee Experience data. You can then identify behaviors and patterns behind key metrics, such as motivation, engagement, and wellbeing.
 
-The following shows how you can connect Qualtrics survey scores with Viva Insights query data.
+The following shows an example of how you can connect Qualtrics survey scores with Viva Insights query data.
 
 |Qualtrics survey categories |Viva Insights metrics
 |---------------------|-------------------|
 |**Engagement**: I feel motivated and supported at work |Manager 1-1 hours, Skip level meeting hours, and Internal network size |
 |**Motivation**: I know what to focus on at work |Manager 1-1 hours |
-|**Wellbeing**: I am able to achieve a healthy work-life balance |	After-hours collaboration and Focus hours |
+|**Wellbeing**: I am able to achieve a healthy work-life balance |After-hours collaboration and Focus hours |
 
 ## Example use cases
 
-The following shows Qualtrics data included within an existing Power BI report. You can filter the report for those who respond favorably (or unfavorably) by selecting the scores to see their collaboration patterns.
+For example, the following shows how you can use Qualtrics survey scores for employees within the Viva Insights [Ways of working assessment](../tutorials/power-bi-collab-assess.md) dashboard in Power BI. You can use the report settings to filter the data to depict favorable (or unfavorable) responses to observe how collaboration patterns differ based on their wellbeing scores.
 
-![Qualtrics and Viva Insights in Power BI example.](../images/wpa/use/qualtrics-vi-example.png)
+![Qualtrics and Viva Insights in Power BI settings options.](../images/wpa/use/qualtrics-pbi-settings.png)
+
+The following shows example data in **How is collaboration load impacting after-hours** for analyzing how your employees’ collaboration patterns are affected by after-hours work for those who had a score of **4** or **5** for **Wellbeing** in their Qualtrics survey.
+
+![Qualtrics and Viva Insights in Power BI example report.](../images/wpa/use/qualtrics-vi-pbi.png)
 
 The following example shows how you can include Viva Insights metrics in Qualtrics as filters at the top of the dashboard to filter the entire page. And then you can use these to configure the widgets on your Qualtrics dashboard to include Microsoft Viva metrics as breakouts.
 
@@ -62,7 +66,7 @@ A Qualtrics data manager with the necessary credentials must complete the follow
 
    ![Qualtrics download a data table screenshot.](../images/wpa/use/qualtrics-excel.png)
 
-5. Open the downloaded Excel file, remove any columns that aren’t relevant for uploading into Microsoft Viva Insights, including the following: 
+5. Open the downloaded Excel file, remove any columns that aren’t relevant for uploading into Microsoft Viva Insights, including the following:
 
    * StartDate
    * EndDate
@@ -102,22 +106,24 @@ As a Viva Insights admin, do the following to import organizational and survey d
 
 ### Data analysis in Viva Insights
 
-After the upload is successfully processed in Viva Insights within the Workplace Analytics app, a Viva Insights analyst can use the survey score data in Query designer with any of the available queries and Power BI templates. For example, you can include the Engagement attribute in Ways of Working assessment.
+After the upload is successfully processed in Viva Insights within the Workplace Analytics app, a Viva Insights analyst can use the survey score data in [Query designer](../tutorials/query-designer.md) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](../tutorials/power-bi-collab-assess.md).
 
-1. In Workplace Analytics, select Analyze > Query designer, and then select a query or template you want to create analysis with. 
-2. When creating the query, be sure to select what Qualtrics survey score data you want to include, such as Engagement, Motivation, or Wellbeing.
-3. You can then use these survey attributes as group-by or filter attributes. As an example, you can include Wellbeing scores in the Ways of working assessment template for Power BI, and then filter the report for Wellbeing scores that depict favorable responses to observe how collaboration patterns differ based on their wellbeing scores.
+1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select a query or template you want to create analysis with.
+2. When creating the query, be sure to select what Qualtrics survey score data you want to include, such as **Engagement**, **Motivation**, and **Wellbeing**.
+3. You can then use these survey attributes as group-by or filter attributes. As an example, you can include Wellbeing scores in the Ways of working assessment template for Power BI, and then filter the report for **Wellbeing** scores that depict favorable responses to observe how collaboration patterns differ based on their wellbeing scores.
+
 You can also build your own analysis by selecting new attributes as organizational data fields. Be sure to select the time period for the analysis that maps to the survey time period.
 
-Note: After uploading the survey attributes, the attributes will remain in Viva Insights until the values are updated or deleted. For a new survey that requires updated values, you can upload a new organizational file by following the steps in the previous section and include the applicable EffectiveDate values for the new upload.
+>[!Note]
+>After uploading the survey attributes, the attributes will remain in Viva Insights until the values are updated or deleted. For a new survey that requires updated values, you can upload a new organizational file by following the steps in the [previous section](#upload-qualtrics-data-into-viva-insights) and include the applicable **EffectiveDate** values for the new upload.
 
 ## Use Viva Insights data in Qualtrics
 
 To use Viva Insights data in Qualtrics:
 
-1. Import Qualtrics employee data into Viva Insights
-2. Run and download query data in Viva Insights 
-3. Import query data to Qualtrics
+1. [Import Qualtrics employee data into Viva Insights](#upload-qualtrics-employee-data-into-viva-insights)
+2. [Run and download query data in Viva Insights](#run-and-download-query-data-in-viva-insights)
+3. [Import query data to Qualtrics](#import-query-data-to-qualtrics)
 
 ### Import Qualtrics employee data into Viva Insights
 
@@ -128,7 +134,7 @@ If the organizational data in Viva Insights includes an employee identifier, suc
 If the organizational data in Viva Insights does not share a unique employee identifier with Qualtrics data, your manager needs to do the following to append organizational data in Viva Insights.
 
 1. As the Qualtrics data manager, follow the steps in [Employee Directory Tools](https://www.qualtrics.com/support/employee-experience/directories/employee-directory-tools-ex/#DownloadParticipants) to export a .csv file with employee email and ID data that is required by Viva Insights.
-2. Prepare an organizational data upload (.csv file in UTF-8 format) that maps Viva Insights data to Qualtrics data. See [Prepare organizational data](../setup/prepare-organizational-data.md) for more details about what's required in the upload. For example, the following shows how a unique identifier such as employee ID from Qualtrics can be mapped to the Viva Insights PersonID in the .csv upload file:
+2. Prepare an organizational data upload (.csv file in UTF-8 format) that maps Viva Insights data to Qualtrics data. See [Prepare organizational data](../setup/prepare-organizational-data.md) for more details about what's required in the upload. For example, the following shows how a unique identifier, such as employee ID from Qualtrics can be mapped to the Viva Insights **PersonID** in the .csv upload file:
 
    ![Required attributes in Qualtrics upload.](../images/wpa/use/qualtrics-id-upload.png)
 
@@ -149,8 +155,12 @@ As the analyst, you can run the prebuilt query survey templates. You can then sh
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).
 5. In **Organizational data**, confirm the UniqueIdentifier (Employee ID) attribute is selected.
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-7. When prompted, run the next two queries by repeating **steps 2-6**, and then in **step 2**, select the applicable survey query: **Strong network ties for surveys** or **Network influence for surveys**.
-8.	After running all three queries and when prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the three queries’ results and select **OK** to download each of them.
+7. When prompted, run the next two queries by repeating **steps 2-6**, and then in **step 2**, select the applicable survey query to run next:
+
+   * **Network: Person** > **Network influence for surveys**
+   * **Network: Person-to-person** > **Strong network ties for surveys**
+
+8. After running all three queries and when prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the three queries’ results and select **OK** to download each of them.
 
 ### Import query data to Qualtrics
 
