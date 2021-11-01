@@ -121,7 +121,7 @@ You can also build your own analysis by selecting new attributes as organization
 
 To use Viva Insights data in Qualtrics:
 
-1. [Import Qualtrics employee data into Viva Insights](#upload-qualtrics-employee-data-into-viva-insights)
+1. [Import Qualtrics employee data into Viva Insights](#import-qualtrics-employee-data-into-viva-insights)
 2. [Run and download query data in Viva Insights](#run-and-download-query-data-in-viva-insights)
 3. [Import query data to Qualtrics](#import-query-data-to-qualtrics)
 
