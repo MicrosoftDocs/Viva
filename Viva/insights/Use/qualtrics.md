@@ -75,7 +75,7 @@ A Qualtrics data manager with the necessary credentials must complete the follow
    * Duration
 
 6. Retain **Email_ID** and any fields relating to Qualtrics questions that you’ll want to compare to behavioral data in Viva Insights.
-7. To include any aggregate category scores, such as for **Employee Engagement**, **Manager Effectiveness**, or a **DEI index** (diversity, equity, and inclusion index) , add a new column, and calculate the average of the questions that comprise that category score.
+7. To include any aggregate category scores, such as for **Employee Engagement**, **Manager Effectiveness**, or a **DEI index** (diversity, equity, and inclusion index), add a new column, and calculate the average of the questions that comprise that category score.
 8. If categories are not predefined, replace the question text with an applicable category name in the downloaded Excel file. For example, if the question text in the file has “**My company takes a genuine interest in my wellbeing**,” replace this with the **Wellbeing** category name. If the file has multiple questions related to a category, calculate the average of the scores in a new column with an applicable category name.
 9. For a reminder on category composition, you’ll find them in **Categories** within the dashboard settings where they are used. For details about categories, see [Categories (EX)](https://www.qualtrics.com/support/employee-experience/creating-ee-project/dashboards-tab/dashboard-management/dashboard-settings/categories-ee/).
 
@@ -155,7 +155,7 @@ As the analyst, you can run the prebuilt query survey templates. You can then sh
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).
 5. In **Organizational data**, confirm the UniqueIdentifier (Employee ID) attribute is selected.
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the query results, and then select **OK** to download it as a .csv file.
+7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the query results, and then select **OK** to download it.
 
 ### Import query data to Qualtrics
 
