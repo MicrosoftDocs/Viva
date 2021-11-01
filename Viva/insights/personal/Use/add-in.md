@@ -30,7 +30,7 @@ Additionally, the add-in begins processing data for insights only after the firs
 Before you can use the Viva Insights Outlook add-in, be sure that the following prerequisites are in place:
 
 * Have a Microsoft Viva Insights user license and let at least 24 hours elapse since you were granted that license.
-* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](/exchange/recipients/create-user-mailboxes?preserve-view=true&view=exchserver-2019#create-user-mailboxes), if necessary.
+* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](/exchange/recipients/create-user-mailboxes#create-user-mailboxes), if necessary.
 * Have the following in place:
 
   * Your computer has Microsoft Outlook version 1705 (build 8201.2102) or higher for Windows, or version 15.39.1010 or later for Mac.
