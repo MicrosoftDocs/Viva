@@ -2,7 +2,7 @@
 title: About Viva Insights Outlook add-in
 description: Learn about the Outlook add-in for Microsoft Viva Insights
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: high 
 ms.prod: Mya
@@ -30,12 +30,14 @@ Additionally, the add-in begins processing data for insights only after the firs
 Before you can use the Viva Insights Outlook add-in, be sure that the following prerequisites are in place:
 
 * Have a Microsoft Viva Insights user license and let at least 24 hours elapse since you were granted that license.
-* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](/exchange/recipients/create-user-mailboxes?preserve-view=true&view=exchserver-2019#create-user-mailboxes), if necessary.
+* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](/exchange/recipients/create-user-mailboxes#create-user-mailboxes), if necessary.
 * Have the following in place:
 
   * Your computer has Microsoft Outlook version 1705 (build 8201.2102) or higher for Windows, or version 15.39.1010 or later for Mac.
   * Add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](/outlook/add-ins/add-in-commands-for-outlook).
   * Internet Explorer version 10 or 11 is installed on your computer.  
+
+* The admin enables the Viva Insights Outlook add-in by default in the Exchange admin center. If your admin sets the deployment status as "Optionally, disabled by default," you can manually add the add-in from the Microsoft Store Add-ins.
 
 >[!Note]
 >The Viva Insights Outlook add-in is not available on mobile devices.
