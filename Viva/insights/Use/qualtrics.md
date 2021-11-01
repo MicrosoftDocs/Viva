@@ -151,7 +151,7 @@ As the analyst, you can run the prebuilt query survey templates. You can then sh
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Person** > **Next** > **Person query for surveys** > **Set up query**.
-3. When prompted within the **Select metrics** section of the query, keep all the predefined metrics.
+3. In the **Select metrics** section of the query, keep all the predefined metrics.
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).
 5. In **Organizational data**, confirm the UniqueIdentifier (Employee ID) attribute is selected.
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
