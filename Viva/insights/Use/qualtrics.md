@@ -155,12 +155,7 @@ As the analyst, you can run the prebuilt query survey templates. You can then sh
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).
 5. In **Organizational data**, confirm the UniqueIdentifier (Employee ID) attribute is selected.
 6. Select **Run** to run the query, which can take a few minutes up to a few hours to complete.
-7. When prompted, run the next two queries by repeating **steps 2-6**, and then in **step 2**, select the applicable survey query to run next:
-
-   * **Network: Person** > **Network influence for surveys**
-   * **Network: Person-to-person** > **Strong network ties for surveys**
-
-8. After running all three queries and when prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the three queries’ results and select **OK** to download each of them.
+7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the query results, and then select **OK** to download it as a .csv file.
 
 ### Import query data to Qualtrics
 
