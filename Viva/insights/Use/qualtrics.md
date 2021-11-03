@@ -27,7 +27,7 @@ The following shows an example of how you can connect Qualtrics survey scores wi
 
 ## Example use cases
 
-For example, the following shows how you can use Qualtrics survey scores for employees within the Viva Insights [Ways of working assessment](../tutorials/power-bi-collab-assess.md) dashboard in Power BI. You can use the report settings to filter the data to depict favorable (or unfavorable) responses to observe how collaboration patterns differ based on their wellbeing scores.
+For example, the following shows how you can use Qualtrics survey scores for employees within the Viva Insights [Ways of working assessment](../tutorials/power-bi-collab-assess.md) dashboard in Power BI. You can use the report settings to filter the data to depict favorable (or unfavorable) responses and observe how collaboration patterns differ based on their wellbeing scores.
 
 ![Qualtrics and Viva Insights in Power BI settings options.](../images/wpa/use/qualtrics-pbi-settings.png)
 
