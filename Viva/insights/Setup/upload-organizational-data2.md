@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
 author: madehmer
@@ -15,8 +14,6 @@ audience: Admin
 ---
 
 # Subsequent uploads
-
-*This experience is only available through private preview at this time.*
 
 Administrators can use the following steps for a subsequent upload (import) of organizational data into Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
@@ -37,8 +34,8 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 The following video might not represent your exact upload experience that is based on your unique environment and organizational data or might be a different version of the app.
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
--->
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>-->
+
 ## File upload
 
 Use the following steps to upload (import) your organizational data as a .csv file into Workplace Analytics.
@@ -48,16 +45,16 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 3. Select **Upload** to see your organization's **Upload history**.
 4. Select **New upload**.
 5. In **Upload**, select **Name your upload**, enter a name, select **Add an optional description**, and enter a description.
-6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download the .csv template** to help with file requirements:
+6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download a sample template** to help with file requirements:
 
    * **Add new employees to existing organizational data** – Adds new employees to your existing organizational data. You can also use this option to add new attribute values and edit existing attribute values in the same upload. However, you must include all required attributes with the upload, including PersonId, ManagerId, Organization, and EffectiveDate. If EffectiveDate is not provided, the process automatically adds the upload date for all EffectiveDate values in the newly uploaded data.
-    * **Add new data for existing employees** - Adds new attributes to existing employees' organizational data by uploading the minimum required attributes of PersonId and EffectiveDate (if not provided, the process automatically adds the upload date for all EffectiveDate values) along with the edited employee data. You can also use this option to add new attribute values and edit existing attribute values for existing employees in the same upload.
+   * **Add new data for existing employees** - Adds new attributes to existing employees' organizational data by uploading the minimum required attributes of PersonId and EffectiveDate (if not provided, the process automatically adds the upload date for all EffectiveDate values) along with the edited employee data. You can also use this option to add new attribute values and edit existing attribute values for existing employees in the same upload.
    * **Edit data for existing employees** - Edits the current attribute values for existing employees' organizational data by uploading the minimum required attributes of PersonId and EffectiveDate (if not provided, the process automatically adds the upload date for all EffectiveDate values in the newly uploaded data) along with the edited employee data.
    * **Delete data for existing employees** - Deletes attributes that are not required in the existing organizational data. In Existing attributes, select one or more attributes to remove, and then select Delete (trashcan) icon. You cannot delete any required attributes. When you see the message confirming the deletion, select Confirm or Cancel (only if you want to select different or additional attributes to delete).
    * **Upload a new organizational data file** - Deletes all previously uploaded data and replaces it with a new upload.
 
    >[!Important]
-   >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Select here to upload a new organizational data file** to permanently replace it with new employee data.
+   >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Upload a new organizational data file** to permanently replace it with new employee data.
 
    :::image type="content" source="../images/wpa/setup/upload-options.png" alt-text="Subsequent upload options":::
 

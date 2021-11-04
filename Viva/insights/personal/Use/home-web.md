@@ -13,11 +13,12 @@ audience: Admin
 
 # Microsoft Viva Insights Home
 
-*This experience is currently only available to a set of targeted release users with a Microsoft MyAnalytics service plan*
-
 Thank you for trying Microsoft Viva Insights. Welcome to your new personal Home page with valuable recommendations to help you do your best work.
 
 **To open your Home page**: Go to [insights.viva.office.com](https://insights.viva.office.com)
+
+>[!NOTE]
+>Starting November 8th, you'll also be able to open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
 ![Viva Insights web app home page](../../Images/mya/use/home-web.png)
 

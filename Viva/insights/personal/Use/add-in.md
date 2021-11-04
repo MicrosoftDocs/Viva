@@ -37,6 +37,8 @@ Before you can use the Viva Insights Outlook add-in, be sure that the following 
   * Add-in commands are enabled for the Outlook add-in. For details, see [Add-in commands for Outlook](/outlook/add-ins/add-in-commands-for-outlook).
   * Internet Explorer version 10 or 11 is installed on your computer.  
 
+* The admin enables the add-in by default in the Exchange admin center. If your admin sets the deployment status as "Optionally, disabled by default," you can manually add the Viva Insights Outlook add-in yourself from the Microsoft Store Add-ins.
+
 >[!Note]
 >The Viva Insights Outlook add-in is not available on mobile devices.
 
