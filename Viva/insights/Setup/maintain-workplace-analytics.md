@@ -42,7 +42,7 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 [Prepare organizational data](prepare-organizational-data.md)
 
-[Upload organizational data (subsequent uploads)](upload-organizational-data.md)
+[Upload organizational data (subsequent uploads)](upload-organizational-data2.md)
 
 ## Assign licenses  
 

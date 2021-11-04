@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Format data for uploading in Viva Insights 
 description: How to format .xlsx files and .csv files for uploading in Microsoft Viva Insights  
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -264,8 +264,8 @@ The field values also cannot contain any of the following characters:
    2. In the worksheet, the first row must contain column headers. Every column must have a column header. To know what columns (what data) to include, see [Prepare organizational data](prepare-organizational-data.md).
    3. All rows below row 1 must contain data about employees. Include one row of data per person, per EffectiveDate.
 
-   > [!Note]
-   > Each column represents an attribute. Many attributes are optional, but a few attributes (such as **EffectiveDate**) are required. For details, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).
+   >[!Note]
+   >Each column represents an attribute. Many attributes are optional, but a few attributes (such as **PersonID**) are required. For details, see [Structure the organizational data](prepare-organizational-data.md#structure-the-organizational-data).
 
 4. Save the worksheet into a single, flat, text file.
 
@@ -305,16 +305,16 @@ After you have populated and formatted your organizational data file, you can co
    Validation errors can be caused by:
 
    * Cells with invalid formatting, see [Rules for .xlsx files](#rules-for-xlsx-files) and [Rules for .csv files](#rules-for-csv-files)
-   * Missing entries (empty or blank cells), see [Set validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields)
+   * Missing entries (empty or blank cells), see [Set validity threshold for custom fields](upload-organizational-data2.md#set-validity-threshold-for-custom-fields)
    * Invalid use of special characters in column headers or in data rows, see [Use only valid values and formats](#use-only-valid-values-and-formats)
 
    If validation fails:
 
    * If this is your first upload of organizational data, see [Validation fails](upload-organizational-data-1st.md#validation-fails) for details.
-   * If this is a subsequent upload of organizational data, see [Validation fails](upload-organizational-data.md#validation-fails) for details.
+   * If this is a subsequent upload of organizational data, see [Validation fails](upload-organizational-data2.md#validation-fails) for details.
   
    > [!Note]
-   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is the _validity threshold_. For more information, see [Field column details](upload-organizational-data.md#field-column-details) and [Set validity threshold for custom fields](upload-organizational-data.md#set-validity-threshold-for-custom-fields).
+   > If this is a subsequent upload of organizational data, another factor that can play a role in validation is the _validity threshold_. For more information, see [Field column details](upload-organizational-data2.md#field-column-details) and [Set validity threshold for custom fields](upload-organizational-data2.md#set-validity-threshold-for-custom-fields).
 
 <!-- NOTE FROM PRAMOD:
 Specific instructions to create, debug & fix (in case of validation errors) should be separate for CSV & XSLX files. We should have a separate page for each. We should link to these pages as required in the Prepare organizational data, Upload org data (First upload), Upload org data (subsequent uploads) pages.
