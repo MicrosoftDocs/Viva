@@ -80,6 +80,8 @@ items:
               href: Use/mya-notifications.md
             - name: Delay delivery plan
               href: use/delay-delivery.md
+        - name: Home
+          href: Use/home-web.md
         - name: Dashboard
           href: Use/dashboard-2.md
         - name: Digests

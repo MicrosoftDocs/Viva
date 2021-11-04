@@ -85,11 +85,13 @@ items:
               - name: Use Insights
                 href: personal/use/use-the-insights.md
               - name: Inline suggestions
-                href: personal/Use/mya-notifications.md
+                href: personal/use/mya-notifications.md
               - name: Delay delivery plan
                 href: personal/use/delay-delivery.md
+          - name: Home
+            href: personal/use/home-web.md
           - name: Dashboard
-            href: personal/Use/dashboard-2.md
+            href: personal/use/dashboard-2.md
           - name: Digests
             href: personal/use/email-digests-3.md            
           - name: Focus plan
