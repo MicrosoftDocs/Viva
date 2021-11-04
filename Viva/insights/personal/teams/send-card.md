@@ -19,9 +19,12 @@ Use the **Send a card** feature to maintain positive relationships and connect w
 
 ![Card options.](images/card-options.png)
 
-You'll see recommendations for the colleagues you closely collaborate with or have pinned as an important contact in Viva Insights. You can also share your birthday with the system, so your colleagues will know when to send you a birthday card.
+You'll see recommendations on cards you can send to these colleagues who you closely collaborate with or have pinned as important. Viva Insights uses your Teams collaboration activity to identify the people you closely collaborate with.
 
-If you subscribe to notifications, you'll get a notification in your activity feed in Teams on the day of an event with card recommendations. You can then select when to be notified to send a card. You can also customize the card with a personal message and select when and how it is sent.
+You can also share your birthday with Viva Insights, so your colleagues will know when to send you a birthday card. You can also customize the card with a personal message and select when and how it is sent.
+
+If you subscribe to notifications, you'll get a notification in your activity feed in Teams on the day of an event with card recommendations. You can select what time of day you want to be notified with these recommendations. 
+
 
 ## Send a card
 
@@ -29,7 +32,7 @@ If you subscribe to notifications, you'll get a notification in your activity fe
 
    ![Send a card.](images/send-card.png)
 
-2. Select what type of card you want to select.
+2. You can select a card from a number of different types and themes. For example, when you select a birthday card, you can then select from three different birthday themes.
 3. In **Customize your card**, enter a personal message, and then select where you want to send it, either as a **1:1 chat** or in a **Teams channel**.
 
    ![Customize the card.](images/customize-card.png)
@@ -41,13 +44,17 @@ If you subscribe to notifications, you'll get a notification in your activity fe
 
 In this section of Send a card, you can share your birthday by selecting the **Month** and **Date**, and then select **Save**. Viva Insights will remind your team to wish you a happy birthday close to your birthday.
 
-You can also select **Skip** to not share your birthday.
+You can also select **Skip** to not share your birthday. Or if you change your mind about sharing your birthday, select the **ellipsis** sign > **Settings** in Viva Insights and edit or delete your birthday information.
 
 ## Notifications
 
-In this section of Send a card, you can get notified on the days of  occasions that you can send a card for and connect with your colleagues.
+In this section of Send a card, you can set to be notified when occasions occur, so you can send a card for the occasion and connect with your colleagues.
 
-If you want to get these notifications, select the time of day you want to be notified, and then select **Subscribe**.
+If you want to get these notifications, select the time of day you want to be notified, and then select **Subscribe**. The time you select applies to notifications for each day of the week. You cannot set different times for different days of the week.
+
+The notification might not arrive exactly at the scheduled time, but within 15 minutes on either side of it. For example, for a 5 PM notification, you’ll see it sometime between 4:45 and 5:15 PM.
+
+You can change your set notification time by selecting the **ellipsis** sign > **Settings** in Viva Insights.
 
 ## Related topics
 
