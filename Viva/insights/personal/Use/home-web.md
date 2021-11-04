@@ -33,6 +33,7 @@ With Viva Insights, you can:
 * **Personal insights** - Shows you productivity and wellbeing tips and ideas, which come from different resources, such as academic and industry research. This section refreshes periodically to reflect your most recent work patterns.
 * **Set your working hours** - The app uses the **Work week** settings in **Settings** to derive your personalized insights.
 * **Enable Delay Delivery** - When **Delay Delivery Enabled** is set **On** in **Settings**, the app uses it to schedule email delivery at a time that aligns with the recipients' working hours.  
+* **Manage your team** - As a licensed Viva Insights user, you can create a team and view insights about them within Viva Insights. With the exception of **Group insights**, the team insights you see are based on data that's processed from within your own mailbox for only you to see. When you are prompted for the first time to select or confirm your current team members, the initial list of team members you see is derived from Azure Active Directory. After this initial setup, you can add and remove team members at any time through [Config settings](#config-settings).
 
 ## Privacy
 
