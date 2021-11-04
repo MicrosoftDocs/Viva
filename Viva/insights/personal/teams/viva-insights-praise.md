@@ -15,10 +15,10 @@ audience: Admin
 
 You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to recognize the contributions of your employees and co-workers. Praise messages are shown as notifications in Teams. You can have a praise message delivered in a private chat, or for wider recognition, in a Teams channel conversation.
 
-You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-praise-reminders).
+You can also set reminders to send acclaim on a regular basis to your coworkers and view your Praise history. See [Set a praise reminder](#set-praise-reminders) and [Praise history](#praise-history) for details.
 
 >[!Note]
->The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+>The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 ## Send praise
 
@@ -59,7 +59,7 @@ To send praise, open the praise feature in one of the following ways:
 
 ### Send praise from the content pane
 
-In Viva Insights, you can always send praise directly [**Home** page](#send-praise-from-the-home-page), which does not require installing the Praise messaging extension.
+In Viva Insights, you can always send praise directly from the [**Home** page](#send-praise-from-the-home-page), which does not require installing the Praise messaging extension.
 
 1. Below the **Type a new message** field, select **Praise**:
 
