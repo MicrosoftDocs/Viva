@@ -44,7 +44,7 @@ If you subscribe to notifications, you'll get a notification in your activity fe
 
 In this section of Send a card, you can share your birthday by selecting the **Month** and **Date**, and then select **Save**. Viva Insights will remind your team to wish you a happy birthday close to your birthday.
 
-You can also select **Skip** to not share your birthday. Or if you change your mind about sharing your birthday, select the **ellipsis** sign > **Settings** in Viva Insights and edit or delete your birthday information.
+You can also select **Skip** to not share your birthday. Or if you change your mind about sharing your birthday, select the **ellipsis** sign > **Settings** in Viva Insights to add, edit, or delete your birthday information at any time.
 
 ## Notifications
 
