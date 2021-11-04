@@ -3,7 +3,7 @@
 title: Configure MyAnalytics user settings
 description: Configure MyAnalytics settings for new users
 author: paul9955
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -80,7 +80,7 @@ Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
 
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
-Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AAD).   |   -
+Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AD).   |   -
 PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboard and the Insights Outlook add-in.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
   
 ### Determine MyAnalytics access for one user

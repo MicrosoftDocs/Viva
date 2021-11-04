@@ -21,24 +21,56 @@ The appearance and behavior of the pages used to create and run queries and [que
 
 ## Analysts with the consumption model
 
-For analysts of tenants with the consumption model, each query that they run consumes a few "units" based on the following factors:
+As an analyst of a tenant with the consumption model, each query that you run consumes units based on the following factors:
 
 * The number of measured employees included in the analysis
 * The number of weeks of data included in the query output for each measured employee
 * The number of metrics used in the query
 * The type of metrics used from the different price tiers; metrics in the higher price tiers consume more units than metrics in lower price tiers (see [Consumption model details](#consumption-model-details) for details)
 
-As analysts design a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, it shows the estimated number of units the query will consume in its current state. This number is updated as the query is edited:
+When designing a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, you'll see the estimated number of units the query will consume in its current state. This number is updated as the query is edited:
 
 ![units per query](../images/wpa/tutorials/conmod-credits-2.png)
 
-In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. Analysts can continue to run queries as long as this balance is greater than zero units.
+In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
+
+The Power BI templates that are currently available in Query designer use one or more predefined queries to use with the provided Power BI template.
+
+## Consumption cost calculator
+
+Before you run a query or a template in Query designer, you can get an estimate with the following Consumption cost calculator in Power BI.
+
+The steps below describe how to use the following interactive, embedded calculator that will give you an estimate for running a specific Viva Insights template or query. Select the details about the query or template to get an estimate that shows in the **Estimated cost** section on this page.
+
+**To get a template estimate**
+
+1. In **Select a Power BI template** on the first page of the **Consumption cost calculator**, select the name of the template.
+2. In **Select time period**, select the time period for the analysis.
+3. In **Select employees**, enter or select the number of measured employees to include in the analysis.
+4. In **Estimated cost**, you’ll see an estimate on the right side of the page.
+
+**To get a query estimate**
+
+1. Select **Queries** at the bottom right of the **Consumption cost calculator**.
+2. In **Query type**, select the type of query.
+3. In **Select query**, select the query metrics you want to include in your analysis.
+4. In **Select time period**, select the time period for the analysis.
+5. In **Select employees**, enter or select the number of measured employees to include in the analysis.
+6. In **Estimated cost**, you’ll see an estimate on the right side of the page.
+
+<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+
+>[!Tip]
+>
+>* To more easily read the options, select the **Open in full screen mode** icon (double arrow at bottom right) for a larger view of the calculator.
+>* Hover the cursor over the **filter** icon to view how the data is being filtered.
+>* Select **Clear all** to clear all the selections.
 
 ### Consumption model details
 
 In a consumption-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
 
-**units consumed** = **A** * **B** * **C** * **D**
+**Units consumed** = **A** * **B** * **C** * **D**
 
 The usage formula consists of the following parts:
 
@@ -60,7 +92,7 @@ The usage formula consists of the following parts:
 
    This is the analysis period, in weeks.
 
-#### Price tier costs
+### Price tier costs
 
 This is the cost of the price tier that is in use for a metric in the query. A query consumes units at this rate. The higher the tier, the more units are consumed:
 
@@ -75,7 +107,7 @@ This is the cost of the price tier that is in use for a metric in the query. A q
 
 ### Population scope in usage calculations
 
-As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). 
+As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks).
 
 The population scope (measured employees) for the different query types is as follows:
 
@@ -96,7 +128,7 @@ The query page shows how units are calculated for the query that's being defined
 >[!Important]
 >
 >* The cost shown is only an estimate. The estimate might vary from the query's actual cost, which can be seen after the query is successfully ran.
->* The cost calculator is not available for meeting queries.
+>* A running cost estimate is currently not available for meeting queries.
 
 ### Recurring query charges
 
