@@ -107,7 +107,7 @@ If a query set to auto-refresh uses a column that becomes excluded or hashed, Wo
 
 If either of these schema-mismatch situations arises, after you finish mapping fields, Workplace Analytics shows a warning message about your "upload has certain issues that might affect execution of the auto refresh queries."
 
-If you see this message, go to [If expected columns are missing or excluded](../setup/upload-organizational-data.md#if-expected-columns-are-missing-or-excluded) for more information.
+If you see this message, go to [If expected columns are missing or excluded](../setup/upload-organizational-data2.md#if-expected-columns-are-missing-or-excluded) for more information.
 
 #### Options for analysts
 

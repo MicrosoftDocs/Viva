@@ -87,8 +87,6 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to:** This suggestion is available to people who are using MyAnalytics and enrolled in a [(Full) service plan](../overview/plans-environments.md). It is currently being rolled out to people who have the [Insights by MyAnalytics service plan](../overview/plans-environments.md)._
-
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
@@ -145,8 +143,6 @@ Select **See suggested times** to open a pane that displays all the time availab
 When composing an email or calendar invitation in Outlook about your upcoming time away from work, you might see a suggestion similar to the following.
 
 ![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
-
-_**Applies to**: This suggestion is available to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) or Insights by MyAnalytics service plan](../overview/plans-environments.md)._
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 

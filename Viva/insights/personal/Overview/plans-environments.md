@@ -16,7 +16,7 @@ audience: Admin
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in [Viva Insights in Teams](../teams/viva-teams-app.md), the [MyAnalytics Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Digests](../use/email-digest-2.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in [Viva Insights in Teams](../teams/viva-teams-app.md), the [MyAnalytics dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Digests](../use/email-digest-2.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
 You can use the following Viva Insights and MyAnalytics features when your organization subscribes to the following Microsoft 365 or Office 365 plans:
 
