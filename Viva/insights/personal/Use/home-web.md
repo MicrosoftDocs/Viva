@@ -34,6 +34,7 @@ With Viva Insights, you can:
 * **Set your working hours** - The app uses the **Work week** settings in **Settings** to derive your personalized insights.
 * **Enable Delay Delivery** - When **Delay Delivery Enabled** is set **On** in **Settings**, the app uses it to schedule email delivery at a time that aligns with the recipients' working hours.  
 * **Manage your team** - As a manager or team lead, you can use this section to create a team and view insights about them within Viva Insights. With the exception of **Group insights**, the team insights you see are based on data that's processed from within your own mailbox for only you to see. When you select or confirm your current team members for the first time, the initial list of team members you see is derived from Azure Active Directory. After this initial setup, you can add and remove team members at any time through [Config settings](#config-settings).
+* **Group insights** - For qualifying managers, this shows a top insight about your team based on collaboration data. You can select **Learn more** to see more in-depth data about your team's employee experience and effectiveness in Viva Insights in Teams. This section is only available to qualifying managers who are assigned the manager role and meet the minimum-group requirements. See [Admin tasks](../../setup/ml-insights-setup.md) for details.
 
 ## Privacy
 
