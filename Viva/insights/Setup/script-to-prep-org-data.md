@@ -17,7 +17,7 @@ audience: Admin
 
 ## Introduction
 
-Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Viva Insights or Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
+Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Viva Insights or Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
 ## Prerequisites
 
@@ -165,4 +165,4 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 
 * [Prepare organizational data](prepare-organizational-data.md)
 * [Upload organizational data (first upload)](upload-organizational-data-1st.md)
-* [Upload organizational data (subsequent uploads)](upload-organizational-data.md)
+* [Upload organizational data (subsequent uploads)](upload-organizational-data2.md)

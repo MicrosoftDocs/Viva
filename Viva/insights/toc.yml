@@ -85,11 +85,13 @@ items:
               - name: Use Insights
                 href: personal/use/use-the-insights.md
               - name: Inline suggestions
-                href: personal/Use/mya-notifications.md
+                href: personal/use/mya-notifications.md
               - name: Delay delivery plan
                 href: personal/use/delay-delivery.md
+          - name: Home
+            href: personal/use/home-web.md
           - name: Dashboard
-            href: personal/Use/dashboard-2.md
+            href: personal/use/dashboard-2.md
           - name: Digests
             href: personal/use/email-digests-3.md            
           - name: Focus plan
@@ -257,7 +259,7 @@ items:
                           - name: First upload
                             href: Setup/upload-organizational-data-1st.md 
                           - name: Subsequent uploads
-                            href: Setup/upload-organizational-data.md 
+                            href: Setup/upload-organizational-data2.md 
                           - name: Upload CRM data
                             href: Setup/crm-data-upload.md
                   - name: Leader & manager settings
@@ -346,9 +348,7 @@ items:
                       - name: Queries
                         items:
                           - name: Overview
-                            href: tutorials/query-basics.md
-                          - name: Consumption model
-                            href: tutorials/consump-model.md                            
+                            href: tutorials/query-basics.md                         
                           - name: Person queries
                             items:
                               - name: Introduction
@@ -381,6 +381,8 @@ items:
                             href: Use/Csv-query-output-file.md
                           - name: Query auto-refresh
                             href: tutorials/Query-auto-refresh.md
+                      - name: Consumption model
+                        href: tutorials/consump-model.md 
                       - name: Business process analysis
                         href: tutorials/analyze-business-processes.md
                       - name: Peer analysis
@@ -406,7 +408,9 @@ items:
                       - name: wpa R package
                         href: tutorials/wpa-r-package.md
                       - name: Zoom integration
-                        href: Use/zoom.md 
+                        href: Use/zoom.md
+                      - name: Qualtrics integration
+                        href: Use/qualtrics.md
                       - name: Workspace Collaboration Optimizer
                         href: Use/wsplan.md
                   - name: Plans

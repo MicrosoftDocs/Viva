@@ -169,7 +169,7 @@ A1. Currently the partitions feature is being rolled out on a per-customer basis
 
 #### Q2. Why are newly uploaded attributes not being reflected inside non-global partitions?
 
-A2. New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](../setup/upload-organizational-data.md)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition).
+A2. New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](../setup/upload-organizational-data2.md)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition).
 
 #### Q3. Why am I not able to see analyst settings in a partition?
 
@@ -213,7 +213,7 @@ Partitions depend on organizational data in two ways:
 * Partitions can depend on organizational data columns. As described in the **Create filters** step of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
 * As described in the **Select attributes** step of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
 
-Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data.md). In step 9 of [upload organizational data](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**.
+Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data2.md). In step 9 of [upload organizational data](upload-organizational-data2.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**.
 
 Choosing the **Append** option does not affect partitions, regardless of the structure of the new data.
 
