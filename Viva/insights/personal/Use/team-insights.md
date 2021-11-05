@@ -27,7 +27,7 @@ When data is processed for team insights, Microsoft protects employee privacy an
 
 ## Set up your team
 
-Team insights within Viva Insights is available for those with a Microsoft Viva Insights license. Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit in **Settings**.
+As a manager or team lead, you can create a team and view insights about them within Viva Insights. With the exception of **Group insights**, the team insights you see are based on data that's processed from within your own mailbox for only you to see. When you select or confirm your current team members for the first time, the initial list of team members you see is derived from Azure Active Directory. After this initial setup, you can add and remove team members at any time through Config settings.
 
 ## Recommendations and actions
 
@@ -71,6 +71,10 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 * **Didn't multitask** - Team meetings that you scheduled or were invited to during which you did not read or send emails or chats.
 * **RSVP'd** - Team meetings to which you were invited but did not explicitly accept (note that the denominator here excludes meetings that you declined).
 * **Joined on time** - Online team meetings (over a Teams or Skype for Business link) that you scheduled or were invited to and joined within a few minutes of the scheduled start time.
+
+## Group insights
+
+As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness in Viva Insights in Teams. This section is only available to qualifying managers who are assigned the manager role and meet the minimum-group requirements. See [Admin tasks](../../setup/ml-insights-setup.md) for details.
 
 ## Briefing and digest emails
 
