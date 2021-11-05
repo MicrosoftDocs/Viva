@@ -25,9 +25,20 @@ All of the information shown on this page is derived from a manager's personal E
 
 When data is processed for team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).  
 
+## Admin tasks
+
+As the admin, you need to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+
 ## Install, pin, and configure the app
 
-After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md), the setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
+For access to **My team**, confirm your team meets the following prerequisites:
+
+* **Manager access** - For access to Group insights, you need to ask if your admin if [Manager settings](../use/manager-settings.md) are turned **On**.
+* **No other roles** - You are not assigned _any other_ roles for Viva Insights in Workplace Analytics, including admin, analyst, or program manager.
+* **Licensed team** - The members of your team are assigned licenses for Viva Insights in Workplace Analytics and are included in the reporting hierarchy that leads to you as their manager.  
+* **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
+
+The setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
 
 * [Install and pin the app](../personal/teams/viva-teams-app-install.md)
 * [Configure the app](../personal/teams/viva-teams-app-settings.md)
