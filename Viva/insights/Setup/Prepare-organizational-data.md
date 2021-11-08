@@ -178,7 +178,7 @@ The following video describes how to structure your organizational data file, in
 ### Video: How to structure the organizational data file
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
- 
+
 ### Required attributes
 
 The following must be supplied with the exact column headers in the .csv upload, of which PersonId and ManagerId are not case sensitive, but Organization is.
