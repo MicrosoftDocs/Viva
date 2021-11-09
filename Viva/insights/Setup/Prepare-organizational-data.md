@@ -169,12 +169,12 @@ After you get this data, you must structure it for successful processing after u
 
 ## Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
 
 The file name must contain only alphanumeric characters (letters and numbers), with no spaces or special characters. For example, _FileName2.csv_.
 
-The following video describes how to structure your organizational data file, including how to format the file, how to use the EffectiveDate field to reflect historical changes in your organization, which employees to include, and how to structure data that you add or update in subsequent uploads: 
- 
+The following video describes how to structure your organizational data file, including how to format the file, how to use the EffectiveDate field to reflect historical changes in your organization, which employees to include, and how to structure data that you add or update in subsequent uploads:
+
 ### Video: How to structure the organizational data file
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
@@ -189,7 +189,7 @@ The following must be supplied with the exact column headers in the .csv upload,
 * Organization (case sensitive)
 
 >[!Note]
->The names of these required attributes are reserved and cannot be used as the names of any new [custom attributes](#custom-attributes).
+>The attributes can be in any order in the file. However, the names of these required attributes are reserved and cannot be used as the names of any new [custom attributes](#custom-attributes).
 
 ### Reserved optional attributes
 
