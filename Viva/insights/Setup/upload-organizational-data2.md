@@ -126,7 +126,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 * **Data type** is the data type of the fields.
 
    >[!Note]
-   >If the data type is Boolean, the value for the Boolean field must be TRUE or FALSE.
+   >If the data type is Boolean, the value for the Boolean field must be TRUE or FALSE. 
 
 * **Validity threshold** sets the percentage of rows in the uploaded file that must have non-null values (no blanks) for the attribute within the following fields. The source file might still be valid even if some rows have missing values for some columns. This setting is not intended to check or allow invalid values. A single invalid value, such as an incorrect data type, email address, or TimeZone string will cause the file upload to fail.
 
