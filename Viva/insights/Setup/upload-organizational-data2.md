@@ -61,6 +61,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following _important upload considerations_:<a name="important-upload-considerations"></a>
 
    * The .csv file that you upload must be UTF-8 encoded.
+   * The field columns can be in any order in the .csv file.
    * Confirm the .csv file is not open in a different program when you begin the upload process.
    * If you see a message about updating existing data, select **Confirm**.
    * After the upload process begins, the process is irreversible.
