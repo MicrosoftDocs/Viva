@@ -59,7 +59,7 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 Do the following to opt in or our of features in **Feature settings**:
 
 1. Open your [Viva Insights Home page](https://insights.viva.office.com).
-2. Select the **Settings** (gear) icon.
+2. Select the **Settings** (gear) icon at the top-right of the page.
 3. Select **Settings**, and then under **Microsoft Viva Insights**, select to turn features **On** or **Off**. For example, to opt out of this page, turn **Off** the **Dashboard**.
 
     ![Feature settings.](../../Images/mya/use/v-feature-settings.png)
