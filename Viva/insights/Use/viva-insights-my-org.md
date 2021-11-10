@@ -12,9 +12,9 @@ audience: Admin
 
 ---
 
-# My organization
+# Leader insights
 
-You can view leader insights in **My organization** within the Microsoft Viva Insights app in Microsoft Teams. As a business leader, these insights give you a snapshot of how your company is doing. The insights include company-wide outcomes and leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
+You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. As a business leader, these insights give you a snapshot of how your company is doing. The insights include company-wide outcomes and leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
 ![My organization page.](../images/wpa/use/my-org2.png)
 
