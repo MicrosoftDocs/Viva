@@ -22,9 +22,13 @@ The setup steps vary depending on the type of insights you are going to view in 
 
 Your admin needs to set up Viva Insights for personal insights before you can start using the different personal insights apps that are available. For details, refer to the [Admin guide for personal insights](../personal/overview/mya-for-admins.md).
 
-## Manager and leader insights
+## Manager insights
 
-Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for managers and leaders. For details, see [Admin tasks for manager and leader insights](ml-insights-setup.md).
+Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for managers and team leads. For details, see [Install, pin, and configure the app](viva-insights-my-org.md#install-pin-and-configure-the-app).
+
+## Leader insights
+
+Your admin needs to set up the Viva Insights app in Microsoft Teams before you can start using what's available in Viva Insights for business leaders. For details, see [Install, pin, and configure the app](myteam.md#install-pin-and-configure-the-app).
 
 ## Advanced insights
 
