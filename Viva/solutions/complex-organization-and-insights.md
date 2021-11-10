@@ -77,12 +77,102 @@ This identifier can be the manager's primary SMTP address or email alias. It mus
 |LevelDesignation    |      The employee’s level, which is represented as a string. This level is specific to the organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.   |
 |Layer     |      The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../insights/Use/explore-intro.md) features.   |
 |SupervisorIndicator     |    The attribute used to view the habits of people managers or influencers in the organization in Power BI visualizations. This attribute powers the Overview table, the Generated Workload charts that are generated when you use a template that requires it.
-This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, if a different nomenclature is used in the file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in the organizational data.
-     |
+This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, if a different nomenclature is used in the file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in the organizational data. |
 |TimeZone     |    Time zone in which the employee works. This attribute must be one of the time zones in [Time zones for Workplace Analytics](../insights/Use/Timezones-for-workplace-analytics.md). If no time zone is mapped to for an employee, the system will use the default time zone, which is Pacific Standard Time.     |
 |TenantInd     |    Unique name for the Tenant. For example, TenantA, TenantB, TenantC, and so on.     |
 |Location   |     Geographic region or other location detail.    |
 |HashId    |      Unique Hashed identifier for the employee. This attribute enables further advanced analysis on the Viva insights query results.   |
+
+**Example:  Sample of an organizational data file**
+
+
+### Viva Insights Business Continuity dashboard
+
+Set up the [Business Continuity](../insights/Tutorials/power-bi-bc.md) dashboard for your tenant with the following modification:
+
+-	In the **Organizational data** section of the **Business Continuity and Hourly Collaboration** report, add **HashId** and **TenantInd** columns to the list. Additional columns can be added for this report if needed, for analysis.
+
+### Azure
+
+For Adhoc with oData and Automated Data Pipeline, you will need:
+
+- An application registration
+- Registered application's secret for each tenant from which you are planning to pull Viva Insights query results.
+
+You will also need an azure subscription to host the data from the two tenants.
+
+1. To register an application, accomplish Steps 1 to 5 in the [Automate Exports](automate-exports.md) for each tenant.
+    1. To obtain a secret for the registered application, select **Certificates & secrets** from your newly registered application in Azure Active Directory.
+        1. For Key authentication, select **New client** secret and in **Add a client** secret, enter a description, select when it expires, and then click **Add**. In **Client** secrets, select the new secret value, and then click the **Copy** icon to copy the value.
+    2. Make a note of the Application ID and secret that are created for each tenant.
+2. In the case of Microsoft Azure subscription, perform the following steps:
+    1. Deploy custom deployment from arm template.
+    1. Configure the deployed resources.
+
+The template creates the following resources: 
+- Resource group
+- Key vault
+- Storage Account
+- Azure data factory using managed identity
+
+(The example of a privilege that allows for creation of the above resources is Azure Administrator.)
+
+## Solution option samples
+
+Using the case for the need to pull query data from Viva insights from multiple tenants, there are a few sample solutions as described below:
+
+### Adhoc manual approach
+
+Viva Insights queries can be executed and the output can be downloaded and further analyzed offline. 
+This sample will be using the **Business Continuity** report listed in the **Requirements** section. 
+There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click here.
+
+### Adhoc using oData approach
+
+Viva Insights queries can be scheduled to auto refresh and accessed via oData links to provide further analysis or to be visualized in PowerBi reports. 
+This sample will be using the **Business Continuity** report listed in the **Requirements** section.
+There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click here.
+
+### Automated data pipeline
+
+Viva Insights queries can be scheduled to auto refresh and downloaded to a central data store location for further analysis or visualizations. The solution sample uses Azure blob storage. 
+This sample will be using the **Business Continuity** report listed in the **Requirements** section.
+The setup details are available here.
+
+## Solution Sample Pipeline Setup
+
+### Automated data pipeline
+
+1. Deploy the arm template for Data Factory creation for MultiTenant by performing the following steps:
+
+    1. Launch the azure portal for the subscription that you will use.
+    1. Search for and open **Deploy from a custom template**.
+    1. Click **Build your own template** in the editor.
+    1. Click **Load file** , and select the **DataFactory_oData_arm_template.json** file (a download location needed for this>.
+    1. Click **Save**.
+    1. Fill and select the highlighted items. 
+    1. Click the **Review + create** tab, and click **Create**.
+
+1. Grant access to the Data Factory Managed Service Identity to the key vault and the storage account by performing the following steps:
+    1. Obtain the Managed Service Identity for the Data Factory created earlier by select Properties from the left pane and copying the **Managed Identity Application ID** value.
+    1. Add Access Policies to the Key Vault, Open the Key Vault created earlier.
+        1. Select **Access policies** from the left pane.
+        2. Select **+ Add access policy** and add your own account with the following options:
+            1. **Configure from template: Key, Secret, & Certificate Management**
+            1. **Select principal**
+                1. Search for using your Id, select the result.
+        3. Click **Add**.
+        4. Click **Save**
+1. Grant Storage Account permissions to the Data Factory Managed Service Identity.
+    1. Open the Storage Account created earlier, Select Access Control (IAM).
+    1. 
+
+
+
+
+
+
+
 
 
 
