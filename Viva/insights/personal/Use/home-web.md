@@ -54,13 +54,15 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
-## Opt out
+## Opt in or out of features
+
+Do the following to opt in or our of features in **Feature settings**:
 
 1. Open your [Viva Insights Home page](https://insights.viva.office.com).
 2. Select the **Settings** (gear) icon.
-3. Select **Settings**, and then under **Microsoft Viva Insights**, select to turn **Off** the **Dashboard** to opt out of the page.
+3. Select **Settings**, and then under **Microsoft Viva Insights**, select to turn features **On** or **Off**. For example, to opt out of this page, turn **Off** the **Dashboard**.
 
-    ![Feature Settings.](../../Images/mya/use/v-home-settings.png)
+    ![Feature settings.](../../Images/mya/use/v-feature-settings.png)
 
 4. Select **Save** to save your changes.
 
@@ -69,4 +71,4 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 
 ### If I am opted out, can I opt back in?
 
-Yes; if you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access to this cloud-based Home page.
+Yes. If you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access.
