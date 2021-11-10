@@ -166,18 +166,16 @@ items:
         items:
           - name: Introduction
             href: use/viva-insights-intro.md
-          - name: Setup
+          - name: Admin tasks
             href: setup/ml-insights-setup.md         
           - name: Manager insights
             items: 
               - name: My team        
-                href: use/myteam.md
+                href: use/viva-insights-my-team.md
               - name: Employee experience
                 href: use/team-experience.md
               - name: Team effectiveness
                 href: use/team-effectiveness.md
-              - name: My team FAQ
-                href: Use/my-team-faq.md
           - name: Leader insights
             items:
               - name: My organization    
@@ -200,8 +198,8 @@ items:
                 href: use/meeting-culture.md
               - name: Increase customer focus
                 href: use/icustomer-focus.md
-              - name: My organization FAQ
-                href: Use/myorg-faq.md
+          - name: FAQ
+            href: Use/my-team-faq.md
       - name: Advanced insights
         items:
           - name: Overview

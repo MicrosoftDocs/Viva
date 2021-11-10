@@ -11,7 +11,7 @@ audience: Admin
 
 ---
 
-# Personal insights in Viva Insights
+# Viva Insights personal insights
 
 [![Viva announcement.](../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
 

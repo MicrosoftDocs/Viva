@@ -1,6 +1,6 @@
 ---
 title: Manager and leader insights in Viva Insights
-description: Learn about manager and leader insights in Viva Insights in Teams and how to use it 
+description: Learn about manager and leader insights in Viva Insights in Teams and how to use it
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -17,10 +17,5 @@ The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app in 
 
 Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing.
 
-* [**Manager insights**](myteam.md) - Provide much-needed visibility into work patterns that might lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. Managers can use these insights to help their teams strike a balance between productivity and wellbeing.
+* [**Manager insights**](viva-insights-my-team.md) - Provide much-needed visibility into work patterns that might lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. Managers can use these insights to help their teams strike a balance between productivity and wellbeing.
 * [**Leader insights**](viva-insights-my-org.md) - Help business leaders to address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. These help leaders take steps to protect employee wellbeing and see opportunities where a change in process could improve business outcomes.
-
-## Related topics
-
-* [Setup for manager and leader insights](../setup/ml-insights-setup.md)
-* [Personal insights](../personal/introduction.md)
