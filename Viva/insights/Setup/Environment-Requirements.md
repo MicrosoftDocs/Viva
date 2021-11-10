@@ -18,14 +18,21 @@ Environment requirements vary depending on the type of insights you are going to
 
 ## Personal insights
 
-The requirements for personal insights in Microsoft Viva Insights are described in [Plans and environments for personal insights](../personal/overview/plans-environments.md).
+The requirements for personal insights in Viva Insights are described in [Plans and environments for personal insights](../personal/overview/plans-environments.md).
 
-## Manager, leader, and advanced insights
+## Manager and leader insights in Teams
 
-With the correct Microsoft Viva Insights licensing, your company can get manager and leader insights in Teams, and advanced insights features as an add-in to the licensing agreement. Before you can purchase these licenses, your company must have the following:
+With the correct Microsoft Viva Insights licensing, managers, team leads, and business leaders can use Viva Insights in Teams. However, they must also have the following:
+
+* Access to Microsoft Teams
+* A Microsoft 365 or Office 365 product that contains either [Exchange Online Plan 1 or 2](#exchange-online-plans)
+
+## Leader and advanced insights
+
+With the correct Microsoft Viva Insights licensing, business leaders can use **My organization** in Viva Insights in Teams and Insights in Workplace Analytics. Depending on your role, you can also use advanced insights features within Workplace Analytics as an add-in to the licensing agreement. Before you can purchase these licenses, your company must have the following:
 
 * An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft
-* A Microsoft 365 or Office 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans)
+* A Microsoft 365 or Office 365 product that contains either [Exchange Online Plan 1 or 2](#exchange-online-plans)
 
 ## Enterprise Agreements
 
@@ -49,7 +56,7 @@ Viva Insights requires an Office 365 or Microsoft 365 tenant with Exchange Onlin
 
 ## Viva Insights licenses
 
-[Assign licenses](assign-licenses-to-population.md) to the users whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies get the most benefit when they deploy Viva Insights to the entire company or to a large group of employees.
+[Assign licenses](assign-licenses-to-population.md) to the people whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies get the most benefit when they deploy Viva Insights to the entire company or to a large group of employees.
 
 <!-- REMOVING THIS FOR NOW (19 MAY 2021). MAYBE RE-USE IN LATE 2021, DEPENDING ON SWEDEN. CHECK WITH DANNY. 
 >[!Important]
