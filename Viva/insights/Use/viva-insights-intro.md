@@ -19,3 +19,8 @@ Viva Insights helps people and businesses thrive with data-driven, privacy-prote
 
 * [**Manager insights**](myteam.md) - Provide much-needed visibility into work patterns that might lead to burnout and stress, such as regular after-hours work, meeting overload, or too little focus time. Managers can use these insights to help their teams strike a balance between productivity and wellbeing.
 * [**Leader insights**](viva-insights-my-org.md) - Help business leaders to address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. These help leaders take steps to protect employee wellbeing and see opportunities where a change in process could improve business outcomes.
+
+## Related topics
+
+* [Setup for manager and leader insights](../setup/ml-insights-setup.md)
+* [Personal insights](../personal/introduction.md)
