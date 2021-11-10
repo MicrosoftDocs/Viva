@@ -22,7 +22,7 @@ Confirm the following [prerequisites](#prerequisites) and then ask your Teams Se
 
 The prerequisites are different for manager insights about your team and leader insights about your organization. Confirm the following prerequisites for the type of insights you want to view.
 
-* **Manager insights** - To get access to **My Team**, confirm you meet the following prerequisites:
+* **Manager insights** - For access to **My team**, confirm you meet the following prerequisites:
 
   * **Manager access** - Ask if your Viva Insights or Workplace Analytics admin has [Manager settings](../use/manager-settings.md) in Workplace Analytics turned **On**.
   * **No other roles** - You are not assigned _any other_ roles for Viva Insights in Workplace Analytics, including admin, analyst, or program manager.

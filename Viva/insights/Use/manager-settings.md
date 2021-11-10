@@ -17,7 +17,7 @@ audience: Admin
 
 # Manager settings
 
-As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregate collaboration insights about their team. Only managers whose team meets or exceeds the **Minimum team size** setting can access Workplace Analytics. The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
+As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregate collaboration insights about their team. Only managers whose team meets or exceeds the **Minimum team size** setting can access manager insights in Workplace Analytics. The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
 
 The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
 
@@ -26,7 +26,7 @@ The following are based on the latest organizational (HR) data that's been succe
 
 ![Manager settings.](../images/wpa/use/manager-settings.png)
 
-* **Minimum team size** - You can set the minimum size of a team that a manager is allowed to view insights about and start plans for. The minimum size allowed is 10. This section also shows you how many measured managers currently have teams that are equal to or more than the minimum setting.
+* **Minimum team size** - You can set the minimum size of a team that a manager is allowed to view insights about and start plans for. The minimum size allowed is 10 (including the manager). This section also shows you how many measured managers currently have teams that are equal to or more than the minimum setting.
 * **Insights** - You can select to allow all licensed managers access to aggregated collaboration insights about their teams. Or you can upload a .csv file that lists the email addresses for the managers you want to have access.
 
 <!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021. 
@@ -48,7 +48,7 @@ Only Viva Insights or Workplace Analytics admins can access **Manager settings**
       2. Select **Upload .csv** to upload this list.
 
 3. If you're allowing all managers access, continue to **Step 4**. If setting up access for select managers, select **Download currently enabled manual upload manager list .csv** to confirm which managers now have access. If an error occurs, such as an invalid email or an unlicensed manager, the .csv file will show the error for that manager.
-4. In **Minimum team size**, you can change the minimum to a number more than 10 (which is the lowest setting allowed), which limits access to only those managers who have teams equal to or more than that number.
+4. In **Minimum team size**, you can change the minimum to a number more than 10 ( is the lowest setting allowed). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
 5. Select **Save**.
 
 >[!Note]
