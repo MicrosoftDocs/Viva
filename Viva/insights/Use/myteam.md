@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: My team in Viva Insights
 description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their team collaboration patterns
 author: madehmer
