@@ -70,7 +70,7 @@ This can occur if the Viva Insights feature is disabled. My team depends on data
 
 Yes. You gain access to an experience if you fulfill the requirements for that experience. To see the prerequisites for the manager and leader insights, see [Admin tasks for manager and leader insights](../setup/ml-insights-setup.md).
 
-##### Q10 How can I send Microsoft feedback about the insights?
+##### Q10 How can I send Microsoft feedback?
 
 For the "Is this helpful?" question near the end of every insight and every page, select **Yes** or **No** to provide feedback. You can also select the **Allow Microsoft to contact** checkbox if you’d like Microsoft to contact you about the feedback.
 
