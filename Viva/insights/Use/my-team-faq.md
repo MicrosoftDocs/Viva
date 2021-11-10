@@ -1,7 +1,7 @@
 ---
 
 title: FAQ for manager and team lead insights
-description: FAQ for Manager and team lead insights in Microsoft Viva Insights
+description: FAQ for My team in Microsoft Viva Insights in Teams
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -12,7 +12,9 @@ audience: Admin
 
 ---
 
-# Manager and team lead insights FAQ
+# My team FAQ
+
+Get answers to the most frequently asked questions about what you see in **My team** within Microsoft Viva Insights in Microsoft Teams.
 
 ##### Q1 Who benefits from My team in Viva Insights?
 

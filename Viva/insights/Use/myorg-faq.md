@@ -14,6 +14,8 @@ audience: Admin
 
 # My organization insights FAQ
 
+Get answers to the most frequently asked questions about what you see in **My organization** within Microsoft Viva Insights in Microsoft Teams.
+
 ##### Q1 Who benefits from My organization in Viva Insights?
 
 My organization is designed for business leaders with organizational insights derived from Exchange Online mailbox.
