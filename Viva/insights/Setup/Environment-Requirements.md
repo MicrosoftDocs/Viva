@@ -67,7 +67,7 @@ Apple Safari and Mozilla Firefox are not preferred browsers for Viva Insights in
 
 ## Further questions
 
-If you have questions about licensing, have your admin reach out to your Microsoft account team, or use [this form](https://info.microsoft.com/ww-landing-workplace-analytics-contact.html) to inquire about Viva Insights.
+If you have questions about licensing, have your admin reach out to your Microsoft account team, or use [this form](https://www.microsoft.com/microsoft-viva/buy-insights) to inquire about Viva Insights.
 
 ## Related topics
 
