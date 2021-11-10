@@ -27,15 +27,15 @@ When data is processed for team insights, Microsoft protects employee privacy an
 
 ## Admin tasks
 
-As the admin, you need to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+Ask your admin to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 
 For access to **My team**, confirm your team meets the following prerequisites:
 
-* **Manager access** - For access to Group insights, you need to ask if your admin if [Manager settings](../use/manager-settings.md) are turned **On**.
-* **No other roles** - You are not assigned _any other_ roles for Viva Insights in Workplace Analytics, including admin, analyst, or program manager.
-* **Licensed team** - The members of your team are assigned licenses for Viva Insights in Workplace Analytics and are included in the reporting hierarchy that leads to you as their manager.  
+* **Manager access** - For access to Group insights, you need to ask your admin if [Manager settings](../use/manager-settings.md) are turned **On**.
+* **No other roles** - You are not signed in with _any other_ roles for Viva Insights in Workplace Analytics, including admin, analyst, or program manager.
+* **Licensed team** - The members of your team are assigned licenses for Viva Insights and are included in the reporting hierarchy that leads to you as their manager.  
 * **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
 
 The setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
