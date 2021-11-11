@@ -74,6 +74,8 @@ items:
                     href: personal/Briefing/be-headspace.md
                   - name: Plan your week
                     href: personal/Briefing/be-time.md
+                  - name: Catch up with your team
+                    href: personal/Briefing/be-manager.md
               - name: Settings
                 href: personal/Briefing/be-settings.md
               - name: FAQ
@@ -166,6 +168,8 @@ items:
         items: 
           - name: My team        
             href: use/myteam.md
+          - name: Team insights        
+            href: use/myteam.md            
           - name: Employee experience
             href: use/team-experience.md
           - name: Team effectiveness
