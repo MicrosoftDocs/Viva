@@ -39,18 +39,15 @@ Monthly digest emails include insights on some of the following work patterns:
 * **Wellbeing** - See if you're getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
 * **Network** - See who's in your network and make sure you're keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
-* **Team insights** - If you're a team manager or lead with a P1 license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](team-insights.md). You can add or remove team members in [Config settings](dashboard-2.md#config-settings).
+* **Team insights** - If you're a team manager or lead with a P1 license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](../../use/team-insights.md). You can add or remove team members in [Config settings](dashboard-2.md#config-settings).
 
 > [!Note]
 > Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 Here's an example of a monthly digest email.
 
-![Monthly digest email](../../Images/mya/use/monthly-digest-welcome-example-80.png)
-
-<!-- 
-
-![Focus digest.](../../Images/mya/use/digest-focus.png)
+![Monthly digest email.](../../Images/mya/use/monthly-digest-welcome-example-80.png)
+<!-- ![Focus digest.](../../Images/mya/use/digest-focus.png)
 
 Here's an example of an insight included in a digest.
 
@@ -62,9 +59,7 @@ Here's an example of a digest insight about quiet hours.
 
 Here's an example of a digest insight about work relationships.
 
-![Network digest.](../../Images/mya/use/digest-network.png)
-
--->
+![Network digest.](../../Images/mya/use/digest-network.png)-->
 
 ## Opt out of digests
 
