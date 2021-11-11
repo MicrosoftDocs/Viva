@@ -19,12 +19,11 @@ Use the **Send a card** feature to maintain positive relationships and connect w
 
 ![Card options.](images/card-options.png)
 
-You'll see recommendations on cards you can send to these colleagues who you [closely collaborate with](../use/network.md) or have pinned as [important](../use/network.md#important-people). Viva Insights uses your Teams collaboration activity to identify the people you closely collaborate with.
+You'll see recommendations on cards you can send to these colleagues who you [closely collaborate with](../use/network.md) or have pinned as [important](../use/network.md#important-people). Viva Insights uses your collaboration activity (email, meetings, calls, and chats) to identify the people you closely collaborate with.
 
-You can also share your birthday with Viva Insights, so your colleagues will know when to send you a birthday card. You can also customize the card with a personal message and select when and how it is sent.
+You can also share your birthday with Viva Insights, so your colleagues will know when to send you a birthday card. You can also customize the card with a personal message and select how it is sent.
 
-If you subscribe to notifications, you'll get a notification in your activity feed in Teams on the day of an event with card recommendations. You can select what time of day you want to be notified with these recommendations.
-
+If you subscribe to notifications, you'll get a notification in your activity feed in Teams on the day of an event with card recommendations. You can select what time of day you want to be notified about these recommendations.
 
 ## Send a card
 
@@ -32,8 +31,8 @@ If you subscribe to notifications, you'll get a notification in your activity fe
 
    ![Send a card.](images/send-card.png)
 
-2. You can select a card from a number of different types and themes. For example, when you select a birthday card, you can then select from three different birthday themes.
-3. In **Customize your card**, enter a personal message, and then select where you want to send it, either as a **1:1 chat** or in a **Teams channel**.
+2. You can select a card from a number of different types and themes. For example, when you select a birthday card, you can then select from a number of different birthday themes.
+3. In **Customize your card**, enter an optional personal message, and then select where you want to send it, either as a **1:1 chat** or in a **Teams channel**.
 
    ![Customize the card.](images/customize-card.png)
 
