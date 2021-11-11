@@ -79,4 +79,4 @@ For example, analysts can begin to conduct analyses (with data in [Explore the s
 
 ## Related topics
 
-[Environment requirements for Workplace Analytics](environment-requirements.md)
+[Environment requirements](environment-requirements.md)

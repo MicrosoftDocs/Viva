@@ -24,7 +24,7 @@ The requirements for personal insights in Microsoft Viva Insights are described 
 
 With the correct Microsoft Viva Insights licensing, your company can get manager and leader insights in Teams, and advanced insights features as an add-in to the licensing agreement.
 
-Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend that you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 or 2 with your enrollment.
+Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend that you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 or 2.
 
 ## Channel support
 

@@ -19,7 +19,7 @@ In Microsoft Teams, select **Insights** (left app bar) to open the **Home** page
 
 The Home page makes it easy to start the other Viva Insights features. You can reach some features on the top menu and others within the Home page.
 
-You can also open a web-based Viva Insights at [insights.viva.office.com](https://insights.viva.office.com). And starting November 8th, you'll be able to open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
+You can also open a web-based Viva Insights at [insights.viva.office.com](https://insights.viva.office.com). You can also open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
 ## On the top menu
 
