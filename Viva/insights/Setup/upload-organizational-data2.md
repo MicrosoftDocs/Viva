@@ -45,13 +45,13 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 3. Select **Upload** to see your organization's **Upload history**.
 4. Select **New upload**.
 5. In **Upload**, select **Name your upload**, enter a name, select **Add an optional description**, and enter a description.
-6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download a sample template** to help with file requirements:
+6. Select one of the following options to add, change, or replace existing organizational data that’s already been uploaded. You can also select the applicable **Download a sample template** (where attributes can be in any order) to help with file requirements:
 
-   * **Add new employees to existing organizational data** – Adds new employees to your existing organizational data. You can also use this option to add new attribute values and edit existing attribute values in the same upload. However, you must include all required attributes with the upload, including PersonId, ManagerId, Organization, and EffectiveDate. If EffectiveDate is not provided, the process automatically adds the upload date for all EffectiveDate values in the newly uploaded data.
-   * **Add new data for existing employees** - Adds new attributes to existing employees' organizational data by uploading the minimum required attributes of PersonId and EffectiveDate (if not provided, the process automatically adds the upload date for all EffectiveDate values) along with the edited employee data. You can also use this option to add new attribute values and edit existing attribute values for existing employees in the same upload.
+   * **Add new employees to existing organizational data** – This option is the same as the legacy _Append data_ option from earlier releases. This adds new employees to your existing organizational data. You can also use this option to add new attribute values and edit existing attribute values in the same upload. However, you must include all required attributes with the upload, including PersonId, ManagerId, Organization, and EffectiveDate. If EffectiveDate is not provided, the process automatically adds the upload date for all EffectiveDate values in the newly uploaded data.
+   * **Add new data for existing employees** - Adds new attributes to existing employees' organizational data by uploading the minimum required attributes of PersonId and EffectiveDate (if not provided, the process automatically adds the upload date for all EffectiveDate values). You can also use this option to edit existing attribute values for existing employees in the same upload.
    * **Edit data for existing employees** - Edits the current attribute values for existing employees' organizational data by uploading the minimum required attributes of PersonId and EffectiveDate (if not provided, the process automatically adds the upload date for all EffectiveDate values in the newly uploaded data) along with the edited employee data.
-   * **Delete data for existing employees** - Deletes attributes that are not required in the existing organizational data. In Existing attributes, select one or more attributes to remove, and then select Delete (trashcan) icon. You cannot delete any required attributes. When you see the message confirming the deletion, select Confirm or Cancel (only if you want to select different or additional attributes to delete).
-   * **Upload a new organizational data file** - Deletes all previously uploaded data and replaces it with a new upload.
+   * **Delete data for existing employees** - Deletes attributes that are not required in the existing organizational data. In **Existing attributes**, select one or more attributes to remove, and then select the **Delete** (trashcan) icon. You cannot delete any required attributes. When you see the message confirming the deletion, select **Confirm** or **Cancel** (only if you want to select different or additional attributes to delete).
+   * **Upload a new organizational data file** - Deletes all previously uploaded data and replaces it with a new upload with all the required attributes.
 
    >[!Important]
    >If you discover that an existing data upload has sensitive, incorrect, or unauthorized data, use **Upload a new organizational data file** to permanently replace it with new employee data.
@@ -61,6 +61,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 7. Select the .csv file with the new employee data you want to upload, and then select **Open** after reviewing the following _important upload considerations_:<a name="important-upload-considerations"></a>
 
    * The .csv file that you upload must be UTF-8 encoded.
+   * The field columns can be in any order in the .csv file.
    * Confirm the .csv file is not open in a different program when you begin the upload process.
    * If you see a message about updating existing data, select **Confirm**.
    * After the upload process begins, the process is irreversible.
@@ -114,7 +115,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 
 <!-- The following is for "system" fields and is meant only for subsequent uploads, and only temporarily. After the UI changes, switch to the "system default" include file. -->
 [!INCLUDE [System fields table](../includes/org-data-sys-fields.md)]
-
+ 
 ### Custom fields
 
 **Custom fields** are optional attributes you can create. Select a column from the .csv file. Name the column, select the data type, set the [validity threshold](#set-validity-threshold-for-custom-fields), and then select the report option. The validity threshold cannot be changed when editing existing data.
