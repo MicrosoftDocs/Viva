@@ -1,7 +1,7 @@
 ---
 
 title: My team in Viva Insights
-description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their team collaboration patterns
+description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their habits and how that impact their team
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -13,7 +13,7 @@ audience: Admin
 
 # My team
 
-Microsoft Viva Insights gives people managers and team leads much-needed visibility into leading indicators of overall team experience, wellbeing, and productivity. As a manager or lead, you can then use these insights to understand current team norms and take action to create positive change.
+As a manager or team lead, Microsoft Viva Insights shows you insights and suggested actions based on your personal habits. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
 **My team** within the Viva Insights app in Microsoft Teams is available for those with a Microsoft Viva Insights license. Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section.
 
@@ -21,17 +21,9 @@ Microsoft Viva Insights gives people managers and team leads much-needed visibil
 
 ## Data privacy
 
-All of the information shown on this page is derived from a manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track team member activities. For example, a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened the email.
-
-When data is processed for team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).  
+When data is processed for Group insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
 
 ## Admin tasks
-
-To see **Group insights** in **My team**, confirm the following prerequisites for your team:
-
-* **Manager access** - Ask your admin if [Manager settings](../use/manager-settings.md) are turned **On** and you are not signed in or assigned _any other_ roles for Viva Insights in Workplace Analytics.
-* **Licensed team** - The members of your team are assigned [Viva Insights licenses](../setup/environment-requirements.md#viva-insights-licenses) and are included in the reporting hierarchy that leads to you as their manager.
-* **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
 
 Ask your admin to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
@@ -45,7 +37,7 @@ The setup for **My team** is the same as for [Personal insights](../personal/tea
 ## View My team
 
 1. In the left navigation bar in Teams, select **Insights**.
-2. In **Viva Insights Home**, you’ll see an insight about your team. To learn more about this insight, select **Explore more**. You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information, see [Viva Insights Home](/insights/viva-insights-home).
+2. In **Viva Insights Home**, you’ll see an insight about your team. To learn more about an insight, select **Explore more**. You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information, see [Viva Insights Home](/insights/viva-insights-home).
 3. In Viva Insights, select **My team** to see key recommendations, actions, and reflections relating to your team.
 
 ## Manage your team
@@ -107,9 +99,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Group insights
 
-Group insights are only available to qualifying managers who are assigned the manager role and meet the minimum-group requirements. See [Admin tasks](../setup/ml-insights-setup.md) for details.
-
-As a qualified manager, the **Group insights** section in **My team** shows a top insight about your team based on collaboration data. You can select **Explore more** to see more in-depth data about your team's employee experience and effectiveness. See [Explore group insights](myteam-explore.md) for details.
+Group insights are only available to qualifying managers who are set up as a manager in Workplace Analytics and meet the minimum-group requirements. For more details, see [Group insights](Group-insights.md).
 
 ## Plans
 
@@ -117,7 +107,7 @@ This section will also show suggestions for you to consider, such as scheduling 
 
 ### No-meeting day for your team
 
-For **Schedule a no-meeting day for your team** in the **Plans** section, you can select **Get started** to create a plan that schedules a shared recurring time that everyone in your team can use to focus without interruptions. You can select the start date, frequency, and meeting title.
+For **Schedule a no-meeting day for your team** in the **Plans** section, you can select **Get started** to create a plan that schedules a shared recurring time that everyone in your team can use to focus without interruptions. You can select the start date, frequency, status, and meeting title.
 
 ![Start a no-meeting day in My team.](../images/wpa/use/no-meeting-day.png)
 
@@ -140,5 +130,5 @@ As a team manager or lead, you'll also see additional information and suggestion
 
 ## Related topics
 
-* [Personal insights in Viva Insights](/insights/teams-app)
+* [Personal insights in Viva Insights](../personal/teams/viva-teams-app.md)
 * [Viva Insights introduction](viva-insights-intro.md)
