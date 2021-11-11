@@ -13,6 +13,8 @@ audience: Admin
 
 # Send a card in Viva Insights
 
+*This experience is currently only available as a preview release.*
+
 You can use this feature in the Microsoft Viva Insights app in Teams to send your colleagues a message celebrating an occasion, such as a birthday or a holiday.
 
 Use the **Send a card** feature to maintain positive relationships and connect with your colleagues in a fun way. You can send a card from nine different categories in Teams as either a 1:1 chat or in a Teams channel.
