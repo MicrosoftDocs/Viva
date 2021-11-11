@@ -48,7 +48,7 @@ Only Viva Insights or Workplace Analytics admins can access **Manager settings**
       2. Select **Upload .csv** to upload this list.
 
 3. If you're allowing all managers access, continue to **Step 4**. If setting up access for select managers, select **Download currently enabled manual upload manager list .csv** to confirm which managers now have access. If an error occurs, such as an invalid email or an unlicensed manager, the .csv file will show the error for that manager.
-4. In **Minimum team size**, you can change the minimum to a number more than 10 ( is the lowest setting allowed). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
+4. In **Minimum team size**, you can change the minimum to a number more than 10 (the lowest allowed setting). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
 5. Select **Save**.
 
 >[!Note]
