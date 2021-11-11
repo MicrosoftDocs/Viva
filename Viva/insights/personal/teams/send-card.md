@@ -43,7 +43,7 @@ If you subscribe to notifications, you'll get a notification in your activity fe
 
 In this section of Send a card, you can share your birthday by selecting the **Month** and **Date**, and then select **Save**. Viva Insights will remind your team to wish you a happy birthday close to your birthday.
 
-You can also select **Skip** to not share your birthday. Or if you change your mind about sharing your birthday, select the **ellipsis** sign > **Settings** in Viva Insights to add, edit, or delete your birthday information at any time.
+You can also select **Skip** to not share your birthday. Or if you change your mind about sharing your birthday, select the **ellipsis** (...) > **Settings** in Viva Insights to add, edit, or delete your birthday information at any time.
 
 ## Notifications
 
@@ -53,7 +53,7 @@ If you want to get these notifications, select the time of day you want to be no
 
 The notification might not arrive exactly at the scheduled time, but within 15 minutes on either side of it. For example, for a 5 PM notification, you’ll see it sometime between 4:45 and 5:15 PM.
 
-You can change your set notification time by selecting the **ellipsis** sign > **Settings** in Viva Insights.
+You can change your set notification time by selecting the **ellipsis** (...) > **Settings** in Viva Insights.
 
 ## Related topics
 
