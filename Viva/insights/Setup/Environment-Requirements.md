@@ -50,19 +50,15 @@ Viva Insights requires an Office 365 or Microsoft 365 tenant with Exchange Onlin
 >[!Important]
 >Workplace Analytics is not yet supported for users whose mailboxes are in the Microsoft 365 data center geo locations Brazil and Norway. For more details about geo locations, see [Moving core data to new Microsoft 365 data center geos](/microsoft-365/enterprise/moving-data-to-new-datacenter-geos) and [Find the Microsoft 365 data center geo location of a mailbox](/microsoft-365/enterprise/administering-exchange-online-multi-geo#find-the-geo-location-of-a-mailbox). -->
 
-### Pricing
+## Pricing
 
-Contact your Microsoft account team for pricing.
+Contact your Microsoft account team for pricing. If you have questions about licensing, have your admin reach out to your Microsoft account team, or use [this form](https://www.microsoft.com/microsoft-viva/buy-insights) to inquire about Viva Insights.
 
-### Supported browsers
+## Supported browsers
 
 For the best experience, use Microsoft Edge or Google Chrome.
 
 Apple Safari and Mozilla Firefox are not preferred browsers for Viva Insights in Workplace Analytics. Internet Explorer is no longer a supported browser.
-
-## Further questions
-
-If you have questions about licensing, have your admin reach out to your Microsoft account team, or use [this form](https://www.microsoft.com/microsoft-viva/buy-insights) to inquire about Viva Insights.
 
 ## Related topics
 
