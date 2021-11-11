@@ -13,17 +13,17 @@ audience: Admin
 
 # Send a card in Viva Insights
 
-You can use this feature in the Microsoft Viva Insights app in Teams to send your colleagues a message celebrating an occasion, such as a birthday or a work anniversary.
+You can use this feature in the Microsoft Viva Insights app in Teams to send your colleagues a message celebrating an occasion, such as a birthday or a holiday.
 
 Use the **Send a card** feature to maintain positive relationships and connect with your colleagues in a fun way. You can send a card from nine different categories in Teams as either a 1:1 chat or in a Teams channel.
 
 ![Card options.](images/card-options.png)
 
-You'll see recommendations on cards you can send to these colleagues who you closely collaborate with or have pinned as important. Viva Insights uses your Teams collaboration activity to identify the people you closely collaborate with.
+You'll see recommendations on cards you can send to these colleagues who you [closely collaborate with](../use/network.md) or have pinned as [important](../use/network.md#important-people). Viva Insights uses your Teams collaboration activity to identify the people you closely collaborate with.
 
 You can also share your birthday with Viva Insights, so your colleagues will know when to send you a birthday card. You can also customize the card with a personal message and select when and how it is sent.
 
-If you subscribe to notifications, you'll get a notification in your activity feed in Teams on the day of an event with card recommendations. You can select what time of day you want to be notified with these recommendations. 
+If you subscribe to notifications, you'll get a notification in your activity feed in Teams on the day of an event with card recommendations. You can select what time of day you want to be notified with these recommendations.
 
 
 ## Send a card
