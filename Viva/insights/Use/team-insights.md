@@ -78,8 +78,8 @@ As a qualifying manager, you'll see a top insight with a **Learn more** link to 
 
 ## Briefing and digest emails
 
-As a team manager or lead with a P1 license, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](email-digests-3.md) and [Catch up with your team](../Briefing/be-manager.md).
+As a team manager or lead with a P1 license, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
 
 ## Related topics
 
-* [Personal insights in Viva Insights](..\MyA-landing-page.md)
+* [Personal insights in Viva Insights](../personal/MyA-landing-page.md)
