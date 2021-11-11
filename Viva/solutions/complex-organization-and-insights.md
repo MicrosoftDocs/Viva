@@ -53,7 +53,7 @@ A few starter use cases that would be enabled by this data combination strategy 
 - Distinguish collaboration patterns between cross business groups (tenants) VS true external interactions.
 - Data combined from Viva Insights with external sources to address headcount planning, employee well-being, permanent remote work, inclusion and diversity, and so on.
 
-There are different methods and data storage locations possible as storage accounts, sql databases and synapse to name a few. An example leveraging Azure Data Factory, Viva Insights organizational data, and azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
+There are different methods and data storage locations possible as storage accounts, sql databases and synapse to name a few. An example leveraging Azure data factory, Viva Insights organizational data, and azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
 
 ## Requirements
 
@@ -102,8 +102,8 @@ For Adhoc with oData and Automated Data Pipeline, you will need:
 You will also need an azure subscription to host the data from the two tenants.
 
 1. To register an application, accomplish Steps 1 to 5 in the [Automate Exports](automate-exports.md) for each tenant.
-    1. To obtain a secret for the registered application, select **Certificates & secrets** from your newly registered application in Azure Active Directory.
-        1. For Key authentication, select **New client** secret and in **Add a client** secret, enter a description, select when it expires, and then click **Add**. In **Client** secrets, select the new secret value, and then click the **Copy** icon to copy the value.
+    1. To obtain a secret for the registered application, click **Certificates & secrets** from your newly registered application in Azure Active Directory.
+        1. For Key authentication, click **New client** secret and in **Add a client** secret, enter a description, select when it expires, and then click **Add**. In **Client** secrets, select the new secret value, and then click the **Copy** icon to copy the value.
     2. Make a note of the Application ID and secret that are created for each tenant.
 2. In the case of Microsoft Azure subscription, perform the following steps:
     1. Deploy custom deployment from arm template.
@@ -143,7 +143,7 @@ The setup details are available here.
 
 ### Automated data pipeline
 
-1. Deploy the arm template for Data Factory creation for MultiTenant by performing the following steps:
+1. Deploy the arm template for data factory creation for MultiTenant by performing the following steps:
 
     1. Launch the azure portal for the subscription that you will use.
     1. Search for and open **Deploy from a custom template**.
@@ -153,19 +153,258 @@ The setup details are available here.
     1. Fill and select the highlighted items. 
     1. Click the **Review + create** tab, and click **Create**.
 
-1. Grant access to the Data Factory Managed Service Identity to the key vault and the storage account by performing the following steps:
-    1. Obtain the Managed Service Identity for the Data Factory created earlier by select Properties from the left pane and copying the **Managed Identity Application ID** value.
+1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
+    1. Obtain the Managed Service Identity for the data factory created earlier by select Properties from the left pane and copying the **Managed Identity Application ID** value.
     1. Add Access Policies to the Key Vault, Open the Key Vault created earlier.
-        1. Select **Access policies** from the left pane.
-        2. Select **+ Add access policy** and add your own account with the following options:
+        1. Click **Access policies** from the left pane.
+        2. Click **+ Add access policy** and add your own account with the following options:
             1. **Configure from template: Key, Secret, & Certificate Management**
             1. **Select principal**
                 1. Search for using your Id, select the result.
         3. Click **Add**.
         4. Click **Save**
 1. Grant Storage Account permissions to the Data Factory Managed Service Identity.
-    1. Open the Storage Account created earlier, Select Access Control (IAM).
-    1. 
+    1. Open the Storage Account created earlier, click **Access Control (IAM)** on the left pane.
+    1. Click the **Role assignments** tab.
+    1. Click **+ Add** and select **Add role assignment**
+    1. From the **Role** drop-down list, choose **Storage Blob Data Contributor**.
+    1. From the **Assign access to** drop-down list, choose **Data Factory**.
+    1. Search for and select the data factory name created earlier.
+    1. Click **Save**. (Once you refresh the browser and view the **Role assignments** screen again, you can view the data factory application you have just added.)
+2. Create a file named **odatasources.txt**.
+    1. Create a .txt file with the below comma-delimited schema for each oData source and the tenant reference information that will be stored in keyvault.
+
+|Column name  |Description  |
+|---------|---------|
+|odataurl    |   oData URL from viva insights query      |
+|tenantid     |   Name of the secret in the Keyvault for the TenantID (aka omstenantid, aad tenantid)      |
+|aadresource       |  The aadresource for the oData       |
+|servicePrincipal     |  Name of the secret in the Keyvault for the application ID that will be used to access the oData URL      |
+|secretName     |  Name of the secret in Keyvault for the secret for the application ID that will be used to access the oData URL       |
+|path     | oData path of the oData URL        |
+|fileName    |    Pre-fix name of the file     |
+
+> [!NOTE]
+> The content in the .txt file will be a comma-delimited one. This content is built using the schema in the above table. This schema-based content is created for each oData source.
+
+Below are the examples of:
+
+- A [use case](#use-case) that leads to the generation of content that uses the schema specified in the above table
+- The [output](#output) of the .txt file
+
+## Use case
+
+There are two tenants with oData URL in each as shown in the example file contents in output. The pre-requisite AAD App Registration and secret have been created. The registered application has been consented to access Microsoft Viva Insights.
+
+**Tenant 1**
+
+In the following URL, the **tenantid1**, **servicePrincipal1**, **MTWpaSecret1** values will be the secrets created in the keyvault:
+
+https://workplaceanalytics.office.com/2de6681a-42d5-46fa-a858-2660f5743815/scopes/e0d8d313-6075-4c25-b714-98843532ae61/jobsodata/a6ca4178-f30b-4c7a-8c8e-38f53fe1d2d0/GroupToGroup,tenantid1,https://workplaceanalytics.office.com,servicePrincipal1,MTWpaSecret1,GroupToGroup,GroupToGroup
+
+
+**Tenant 2**
+
+In the following URL, the **tenantid2**, **servicePrincipal2**, **SPSecret2** values will be the secrets created in the keyvault:
+
+https://workplaceanalytics.office.com/10c5ca3c-a4d2-424d-8af3-f0efd6c79c99/scopes/217c5147-e12b-448c-9672-25b79a9ec0f0/jobsodata/ae3270dc-ba5a-4c40-b6b9-81fd9b5a4eac/GroupToGroup,tenantid2,https://workplaceanalytics.office.com,servicePrincipal2,SPSecret2,GroupToGroup,WpAAIGroupToGroup
+
+## Output
+
+5. Upload the **odatasources.txt** file to the storage account in the wpaexports container.
+    1. Open the storage account that was created earlier.
+    1. Click **Containers** on the left pane, and select **wpaexports**.
+    1. Click **Upload**.
+6. Generate the secrets in Key Vault.
+    1. Open the Key Vault created earlier.
+    1. Click **Secrets** on the left pane, and click **+ Generate/Import**.
+    1. Create the secrets for each oData source listed in the **odatasources.txt** file, using an example that contain a data source and a file depicted in the screenshot below.
+
+
+|Secret Name (based on above example)  |Value description  |
+|---------|---------|
+|tenantid1     |    AAD TenantId for Tenant 1. Example: bd382938-yyyy-yyyy-yyyy-yyyyyyyyyyyy     |
+|servicePrincipal1     |    Service Principal for tenant 1. Example: lld32e908-yyyy-yyyy-yyyy-yyyyyyyyyyyy     |
+|MTWpaSecret1     |  Credential for servicePrincipal1 for tenant 1. Example: dsfUELk23r7912!#       |
+|tenantid2     |     AAD TenantId for tenant 2. Example: bd382938-xxxx-xxxx-xxxx-xxxxxxxxxxxx    |
+|servicePrincipal2     |   Service Principal for tenant 2. Example: hh2bd38d-xxxx-xxxx-xxxx-xxxxxxxxxxxx      |
+|SPSecret2     |    Credential for servicePrincipal2 for tenant 2. Example: bjdIOLUE.j23iu2!#     |
+
+**Example using a datasource** 
+
+**Example of end secrets in the Key vault (based on the example depicted in the screenshot above)**
+
+## To set trigger for pipeline
+
+A trigger can be created in the Azure data factory to execute the pipeline on a schedule. This schedule is dependent on the needs and the report granularity. For the Business Continuity, it is at a week grain. The minimum timeframe would be on a weekly basis, for example, every Tuesday.
+
+## To execute the pipeline manually
+
+1. Open the data factory created earlier, and click **Open the Azure Data Factory Studio**.
+1. Click **Author** on the left pane.
+1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
+1. Click **Debug**. The below screenshot illustrates a successful execution of a debug operation.
+The output is available to view in the storage account, that is, in the path **wpaexports > rawdata1**.
+
+## Visualize with PowerBi
+
+Visualization with PowerBi can be implemented in the following methods:
+
+- Adhoc manual approach
+- Adhoc with oData approach
+
+## Adhoc manual approach
+
+## Prerequisites
+
+The following prerequisites are to be fulfilled prior to viewing the dashboard that contains data downloaded from the two tenants.
+
+- Execution of Business Continuity Queries on the two tenants
+- Download of the results in CSV format in a local location and decompressed of the results into unique names.
+- Installation of the latest version of PowerBi Desktop.
+    -  If you have an earlier version of PowerBi installed, uninstall it before installing the new version. Go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t) to download and install the latest version.
+ 
+## Information gathering
+
+Information needed for this PowerBi will be the links to the Business Continuity Dashboard reports. This is what was executed in the [Required](#viva-insights-business-continuity-dashboard) section earlier.
+
+1. Click **Queries** on the left pane, and click the **Results** tab.
+1. Click the **Download** icon corresponding to each of query.
+
+## Open the PowerBi template
+
+1. Open the PowerBi report provided by a Viva Solutions team member (a download location needed for this)
+
+<< MultiTenant_BCD_LocalStore_Example.pbit>>
+
+> [!NOTE]
+> Hover over the **Information** icon for further details on the parameter requirement.
+
+1. Update the **Parameters** request with the links copied from each tenant.
+1. Click **Load**.
+
+> [!NOTE]
+> Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
+
+## Adhoc with oData approach
+
+## Prerequisites
+
+The following prerequisites are to be fulfilled prior to visualizing the dashboard with the oData links from 2 tenants:
+
+- Execution of Business Continuity Queries on the two tenants, and availability of the [links to query results](#gathering-of-information)
+- Maintenance of an organizational account for each tenant
+- Installation of the latest version of Power BI Desktop
+    - If you have an earlier version of PowerBi installed, uninstall it before installing the new version. Go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t) to download and install the latest version.
+
+## Gathering of information
+
+Information needed for this PowerBi will be the links to the Business Continuity Dashboard reports. This is what was executed in the Required section earlier.
+
+1. Click **Queries** on the left pane, and click the **Results** tab.
+1. Click the **Link** icon corresponding to each of query.
+1. Click **Copy** to copy the generated oData URL link.
+
+## Open PowerBi template
+
+1. Open the PowerBi report provided by Viva Solutions team member (a download location needed for this).
+
+<< MultiTenant_BCD_oData_Example.pbit>>
+
+> [!NOTE]
+> Hover over the **Information** icon for further details on the parameter requirement.
+
+2. Update the **Parameters** request with the links copied from each tenant.
+3. Click **Load**.
+4. If prompted for privacy levels, select **Organizational**.
+5. When prompted with the sign-in page, select **Organizational account** on the left pane.
+1. From the **Select which level to apply these settings to** drop-down list, choose the tenant-level link.
+1. Click **Sign in** and click **User other account**.
+1. Repeat the sign-in step for each tenant's oData connection.
+1. Click **Connect**.
+
+> [!NOTE]
+> Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
+
+## Automated pipeline approach
+
+**Prerequisites**
+The following prerequisites are to be fulfilled prior to visualizing the dashboard with the outputs of the Azure storage.
+
+- Completion of setup and execution of data factory
+- Creation of access to the Azure storage during the setup, using the Azure portal. The following information will be gathered from it:
+    - Account access key (obtained from the one created during the setup)
+    - Storage account container URL for the wpaexports container created during the setup
+    - Names of the files created in the storage account (in the path **wpaexports > rawdata1 location**)
+- Installation of the latest version of Power BI Desktop
+    - If you have an earlier version of PowerBi installed, uninstall it before installing the new version. Go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t) to download and install the latest version.
+
+## Information gathering process
+
+Obtain the storage account information by performing the following steps:
+
+1. Launch the [Azure portal](https://ms.portal.azure.com/#home) for the subscription that you will use.
+1. Search for storage accounts in the search bar. The **Storage accounts** option is listed under the **Services** pane.
+1. Click **Storage accounts** and filter for the storage account created during the setup.
+1. Check the check box of the storage account and click **+ Container**.
+1. Click **...** and select the **Container properties**.
+1. Make a note of the value in the **URL** text box. This is the **StorageContainerURL** that will be used during the PowerBi parameter prompt.
+
+1. Click **Overview** on the left pane, and click on the **rawdata1** folder.
+1. Copy the names of the four listed files.
+    1. Prepend **rawdata1/** to the names you have copied, for example, rawdata1/PD4_Business Continuity_ZID.csv.  The combined name will be the name of the files which will be used during the PowerBi parameter prompt.
+1. Click **Access keys** on the left pane.
+    1. Select **Show keys**.
+    1. Copy the value of one of the listed keys. This is the value that will be used during the PowerBi parameter prompt.
+
+## Open the PowerBi template
+
+1.	Open the Powerbi report provided by Viva Solutions team member (a download location needed for this)    
+
+        <MultiTenant_BCD_StorageAccount_Example.pbit>
+
+> [!NOTE]
+> Hover over the **Information** icon for further details on the parameter requirement.
+
+2. Update the **Parameters** request.  Based on the previous example, **PubD** and **PD4** are the values for **Tenant 1** and **Tenant 2**, respectively; the **StorageContainerURL** is what was recorded earlier (in a step in [Information gathering process](#information-gathering-process)).
+1. Click **Load**.
+1. Enter the storage key when prompted.
+1. Click **Connect**.
+
+> [!NOTE]
+> Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
+
+**Example 1**
+
+To obtain an insight the look of the report by a tenent, perform the following steps:
+
+1.	On the **Settings** screen, from the **Select an organizational attribute to view the report by**  drop-down list, choose the Tenant identifier attribute. In the synthetic dataset, it is **TenantInd**. 
+2. Select one of the PowerBi report pages.
+
+You can go with any number of settings combinations for different perspectives on the insights.
+
+**Example 2**
+
+To view the Tenant 1 organization insights, perform the following steps:
+
+1. On the **Settings** screen, from the **Select an organizational attribute to view the report by** drop-down list, choose **Organization**.
+1.  Under the **To filter employees, select the organizational attribute and values you would like to filter by** pane, from the **Organizational Attribute** drop-down list, choose **TenantInd**.
+    1. From the **Select filter values** drop-down list, choose one of the tenants.
+1. Select one of the report pages.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
