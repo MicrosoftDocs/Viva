@@ -255,9 +255,9 @@ Visualization with PowerBi can be implemented in the following methods:
 
 ## Adhoc manual approach
 
-## Prerequisites
+## Requirements
 
-The following prerequisites are to be fulfilled prior to viewing the dashboard that contains data downloaded from the two tenants.
+The following requirements are to be fulfilled prior to viewing the dashboard that contains data downloaded from the two tenants.
 
 - Execution of Business Continuity Queries on the two tenants
 - Download of the results in CSV format in a local location and decompressed of the results into unique names.
@@ -271,7 +271,7 @@ Information needed for this PowerBi will be the links to the Business Continuity
 1. Click **Queries** on the left pane, and click the **Results** tab.
 1. Click the **Download** icon corresponding to each of query.
 
-## Open the PowerBi template
+## Open PowerBi template
 
 1. Open the PowerBi report provided by a Viva Solutions team member (a download location needed for this)
 
@@ -288,9 +288,9 @@ Information needed for this PowerBi will be the links to the Business Continuity
 
 ## Adhoc with oData approach
 
-## Prerequisites
+## Conditions
 
-The following prerequisites are to be fulfilled prior to visualizing the dashboard with the oData links from 2 tenants:
+The following conditions are to be complied with prior to visualizing the dashboard with the oData links from 2 tenants:
 
 - Execution of Business Continuity Queries on the two tenants, and availability of the [links to query results](#gathering-of-information)
 - Maintenance of an organizational account for each tenant
@@ -357,11 +357,11 @@ Obtain the storage account information by performing the following steps:
     1. Select **Show keys**.
     1. Copy the value of one of the listed keys. This is the value that will be used during the PowerBi parameter prompt.
 
-## Open the PowerBi template
+## Open the  template of PowerBi
 
 1.	Open the Powerbi report provided by Viva Solutions team member (a download location needed for this)    
 
-        <MultiTenant_BCD_StorageAccount_Example.pbit>
+<< MultiTenant_BCD_StorageAccount_Example.pbit>>
 
 > [!NOTE]
 > Hover over the **Information** icon for further details on the parameter requirement.
