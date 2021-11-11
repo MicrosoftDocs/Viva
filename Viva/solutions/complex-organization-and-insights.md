@@ -55,9 +55,9 @@ A few starter use cases that would be enabled by this data combination strategy 
 
 There are different methods and data storage locations possible as storage accounts, sql databases and synapse to name a few. An example leveraging Azure data factory, Viva Insights organizational data, and azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
 
-## Requirements
+## Preconditions
 
-The following requirements to be fulfilled, prior to continuing with its analytical process using Microsoft Viva Insights:
+The following preconditions are to be fulfilled, prior to continuing with its analytical process using Microsoft Viva Insights:
 
 ### Organizational data
 
@@ -305,7 +305,7 @@ Information needed for this PowerBi will be the links to the Business Continuity
 1. Click the **Link** icon corresponding to each of query.
 1. Click **Copy** to copy the generated oData URL link.
 
-## Open PowerBi template
+## Open template of PowerBi
 
 1. Open the PowerBi report provided by Viva Solutions team member (a download location needed for this).
 
