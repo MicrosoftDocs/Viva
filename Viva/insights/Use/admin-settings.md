@@ -1,6 +1,6 @@
 ---
 
-title: Leader and manager settings in Workplace Analytics
+title: Leader and manager settings for Viva Insights in Teams
 description: Learn about Leader & manager settings that only administrators can configure and edit in Workplace Analytics for Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
