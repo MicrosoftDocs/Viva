@@ -22,26 +22,21 @@ The requirements for personal insights in Microsoft Viva Insights are described 
 
 ## Manager, leader, and advanced insights
 
-With the correct Microsoft Viva Insights licensing, your company can get manager and leader insights in Teams, and advanced insights features as an add-in to the licensing agreement. Before you can purchase these licenses, your company must have the following:
+With the correct Microsoft Viva Insights licensing, your company can get manager and leader insights in Teams, and advanced insights features as an add-in to the licensing agreement.
 
-* An [Enterprise Agreement](#enterprise-agreements) (EA) with Microsoft
-* A Microsoft 365 or Office 365 product that contains either [Exchange Online Plan 1 or Exchange Online Plan 2](#exchange-online-plans)
+Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend that you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 or 2 with your enrollment.
 
-## Enterprise Agreements
+## Channel support
 
-To get Microsoft Viva Insights in Teams and the advanced insights features, you must have an Enterprise Agreement (EA) in place. Other channels such as Cloud Solution Provider (CSP) do not support the addition of Viva Insights at this time. Also, note the following circumstances for various types of customers:
+Other channels such as Cloud Solution Provider (CSP) do not support the addition of Viva Insights at this time. Also, note the following circumstances for various types of customers:
 
 |  Type  | Notes |  
-| ---- | ---- |
-| Government | Government Community Cloud (GCC) does not currently support the addition of Viva Insights. |
-| Education | Supported only for the analysis of faculty at this time, not for students. |
-| Commercial | You can add Viva Insights with commercial enrollments. |
-| Non-profit | Viva Insights under a commercial EA can be used by non-profits but non-profit pricing is not available. |
-| Firstline workers | Viva Insights does not support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
-
-## Exchange Online plans
-
-Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend that you have an Office 365 or Microsoft 365 product that contains Exchange Online (EXO) Plan 1 or EXO Plan 2 on your enrollment.
+|---- | ---- |
+|Government | Government Community Cloud (GCC) does not currently support the addition of Viva Insights. |
+|Education | Supported only for the analysis of faculty at this time, not for students. |
+|Commercial | You can add Viva Insights with commercial enrollments. |
+|Non-profit | Viva Insights can be used by non-profits but non-profit pricing is not available. |
+|Firstline workers | Viva Insights does not support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ## Tenant environments
 
