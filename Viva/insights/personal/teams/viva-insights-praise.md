@@ -1,7 +1,7 @@
 ---
 
 title: Praise with Viva Insights
-description: Microsoft Viva Insights app -- Use the Praise feature
+description: Use the Praise feature in the Microsoft Viva Insights app
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -18,7 +18,7 @@ You can use this feature in the Microsoft Viva Insights app in Teams to recogniz
 You can also set reminders to send acclaim on a regular basis to your coworkers. See [Set a praise reminder](#set-praise-reminders).
 
 >[!Note]
-> The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
+>The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
 <!-- THIS LINK NEEDS TO GO HERE: [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) -->
 
