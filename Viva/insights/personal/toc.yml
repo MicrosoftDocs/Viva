@@ -66,6 +66,8 @@ items:
                   href: Briefing/be-headspace.md
                 - name: Plan your week
                   href: Briefing/be-time.md
+                - name: Catch up with your team
+                  href: /Briefing/be-manager.md
             - name: Settings
               href: Briefing/be-settings.md
             - name: FAQ

@@ -169,7 +169,7 @@ items:
           - name: My team        
             href: use/myteam.md
           - name: Team insights        
-            href: use/myteam.md            
+            href: use/team-insights.md            
           - name: Employee experience
             href: use/team-experience.md
           - name: Team effectiveness
