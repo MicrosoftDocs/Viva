@@ -30,12 +30,11 @@ To see **Group insights** in **My team**, confirm the following prerequisites fo
 * **Manager access** - Ask your admin if [Manager settings](../use/manager-settings.md) are turned **On** and you are not signed in or assigned _any other_ roles for Viva Insights in Workplace Analytics.
 * **Licensed team** - The members of your team are assigned [Viva Insights licenses](../setup/environment-requirements.md#viva-insights-licenses) and are included in the reporting hierarchy that leads to you as their manager.
 * **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
-
-Ask your admin to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+* **Set up the app** - Ask your admin to install and set up the Viva Insights app in Teams for your organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 
-The setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
+Your setup tasks for **My team** are the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
 
 * [Install and pin the app](../personal/teams/viva-teams-app-install.md)
 * [Configure the app](../personal/teams/viva-teams-app-settings.md)
@@ -45,11 +44,7 @@ The setup for **My team** is the same as for [Personal insights](../personal/tea
 1. In the left navigation bar in Teams, select **Insights**.
 2. In Viva Insights, select **My team**.
 3. In the **Group insights** section, you'll see a top insight about your team.
-4. Select **Explore more** to see more in-depth data about your team's employee experience and effectiveness. See [Explore group insights](myteam-explore.md) for details.
-
-Group insights are only available to qualifying managers who are assigned the manager role and meet the minimum-group requirements. See [Admin tasks](../setup/ml-insights-setup.md) for details.
-
-As a qualified manager, the **Group insights** section in **My team** shows a top insight about your team based on collaboration data. 
+4. Select **Explore more** to see more in-depth data about your team. See [Explore group insights](myteam-explore.md) for details.
 
 ## Briefing and digest emails
 

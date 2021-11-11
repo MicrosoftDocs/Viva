@@ -169,11 +169,13 @@ items:
           - name: My team        
             href: use/myteam.md
           - name: Team insights        
-            href: use/team-insights.md            
-          - name: Employee experience
-            href: use/team-experience.md
-          - name: Team effectiveness
-            href: use/team-effectiveness.md
+            href: use/team-insights.md
+          - name: Group insights
+            items:
+              - name: Introduction 
+                href: use/group-insights.md
+              - name: Explore
+                href: use/myteam-explore.md
           - name: My team FAQ
             href: Use/my-team-faq.md
       - name: Leader insights

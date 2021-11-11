@@ -29,7 +29,7 @@ Ask your admin to install and set up the Viva Insights app in Teams for the orga
 
 ## Install, pin, and configure the app
 
-The setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
+Your setup tasks for **My team** are the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
 
 * [Install and pin the app](../personal/teams/viva-teams-app-install.md)
 * [Configure the app](../personal/teams/viva-teams-app-settings.md)
