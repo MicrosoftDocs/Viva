@@ -17,15 +17,13 @@ audience: Admin
 
 # Manager settings
 
-As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team. 
+As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
 
 Only managers whose team meets or exceeds the **Minimum team size** setting can access [Group insights](group-insights.md) within **My team** in Viva Insights in Teams. The other admin tasks required for Group insights access are the same as for personal insights and My team insights. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
-The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
+The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in Workplace Analytics:
 
-The following are based on the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in Workplace Analytics:
-
-* **Measured managers** - Managers who were assigned licenses in Workplace Analytics prior to October 2021 can view manager insights in Workplace Analytics. Managers who are assigned licenses starting October 2021, can view their team's insights in [My Team](myteam.md) within the Viva Insights app in Teams.
+* **Measured managers** - Managers who were assigned licenses in Workplace Analytics prior to October 2021 can see manager insights in Workplace Analytics. Managers who are assigned licenses starting October 2021, can see their team's insights through [Group insights](group-insights.md) within **My team** in Viva Insights in Teams.
 * **Managers enabled** - Managers who meet the minimum team size can access their team's insights.
 
 ![Manager settings.](../images/wpa/use/manager-settings.png)
