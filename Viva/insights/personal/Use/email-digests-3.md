@@ -39,10 +39,10 @@ Monthly digest emails include insights on some of the following work patterns:
 * **Wellbeing** - See if you're getting good balance between work and personal time, then find ways to disconnect and unwind after hours.
 * **Network** - See who's in your network and make sure you're keeping up with important contacts and relationships.
 * **Collaboration** - Get tips on how to plan your calendar, spend less time in low-quality meetings, and write more effective emails.
-* **Team insights** - If you're a team manager or lead with a P1 license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](../../use/team-insights.md). You can add or remove team members in [Config settings](dashboard-2.md#config-settings).
+* **Team insights** - If you're a team lead or manager with a P1 license, you'll also see insights about your team and suggestions on how to help improve or maintain your team's wellbeing and effectiveness. For more details about team insights, see [Team insights](../../use/team-insights.md). You can add or remove team members in [Config settings](dashboard-2.md#config-settings).
 
-> [!Note]
-> Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
+>[!Note]
+>Only you can see your data. See [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
 Here's an example of a monthly digest email.
 
@@ -63,37 +63,18 @@ Here's an example of a digest insight about work relationships.
 
 ## Opt out of digests
 
-If you do not want to receive the monthly digest from Microsoft Viva, you can opt out in either of two ways &mdash; on your MyAnalytics dashboard or in the digest email itself.
-
-### Opt out on the MyAnalytics dashboard
-
-1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
-2. Select the **Settings** (gear) icon at the top right.
-3. Under **MyAnalytics**, select **Settings**.
-4. Under **Monthly digest**, change the setting to **Off**.
-5. Select **Save** to save your changes.
-
-### Opt out in the digest email
-
-* Scroll to the bottom of the digest email and select **Unsubscribe**.
-
-   >[!Note]
-   >After you select **Unsubscribe**, you will see the **Sorry to see you go** page. This page shows your email address in the sentence, "You (<name@domain.com> have been unsubscribed from the **digest email**." Verify that the email address that is shown is the correct email address for you. If this email address is not yours, you will not be unsubscribed.
-
-### If I am opted out, can I opt back in?
-
-Yes; if you opt yourself out or if an admin opts you out, you can opt back in any time to regain access to the digest.
+If you do not want to receive the monthly digest from Microsoft Viva, you can opt out by selecting **Unsubscribe** near the end of the digest email.
 
 >[!Note]
-> Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two to four days. For details, see [MyAnalytics FAQ](../Overview/MyA-faq.md)
+>After you select **Unsubscribe**, you will see a **Sorry to see you go** message that'll show the email address that's opting you out of the **Digest email**. Confirm that's the correct email address for you. If this email address is not yours, you will not be unsubscribed.
 
-### After unsubscribing from the monthly digest, why am I still receiving them?
+#### Why am I still receiving the digest?
 
-If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the unsubscribe page.
+If you have multiple Microsoft 365 emails, you might be getting the digest for a different email address than the one you unsubscribed with. Confirm that the email address at the bottom of your digest email is the same as the one on the Unsubscribe page.
 
-![Unsubscribe from digest message.](../../Images/mya/use/monthly-digest-unsubscribe.png)
+>[!Note]
+>Skype for Business data is usually prompt. However, in rare instances, users can experience delays of up to two to four days.
 
-If this email address does not match your own, make sure that you are signed in with the same account in both the MyAnalytics dashboard and in email, and then repeat the steps in [Opt out of digests](#opt-out-of-digests).
+## Opt back in
 
-<!-- the "Sorry to see you go" page:
-![Unsubscribe from digest message.](../../Images/mya/use/monthly-digest-unsub-2.png) -->
+After you unsubscribe or an admin opts you out, you can opt back in any time in [Feature settings](home-web.md#opt-in-or-out-of-features) within the [Viva Insights Home page](https://insights.viva.office.com).
