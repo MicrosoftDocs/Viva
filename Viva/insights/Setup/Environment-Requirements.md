@@ -40,7 +40,7 @@ Other channels such as Cloud Solution Provider (CSP) do not support the addition
 
 ## Tenant environments
 
-Viva Insights requires the applicable [Viva Insights licensing](#viva-insights-licenses) and a Microsoft 365 or Office 365 tenant with Exchange Online Plan 1, Plan 2, or Kiosk.
+Viva Insights requires the applicable [Viva Insights licensing](#viva-insights-licenses) and a Microsoft 365 or Office 365 tenant with Exchange Online Plan 1 or Plan 2.
 
 ## Viva Insights licenses
 
