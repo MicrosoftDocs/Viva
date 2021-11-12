@@ -18,7 +18,7 @@ Thank you for trying Microsoft Viva Insights. Welcome to your new personal Home 
 **To open your Home page**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
 >[!NOTE]
->Starting November 8th, you'll also be able to open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
+>You can also open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
 ![Viva Insights web app home page](../../Images/mya/use/home-web.png)
 
