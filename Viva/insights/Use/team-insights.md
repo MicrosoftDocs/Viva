@@ -17,13 +17,13 @@ Microsoft Viva Insights shows team managers and leads insights about their teams
 
 **To view team insights**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
-![Team insights in Viva Insights.](../images/mya/use/team-insights.png)
+![Team insights in Viva Insights.](../images/wpa/use/team-insights-2.png)
 
 ## Data privacy
 
 All of the information shown on this page is derived from a manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track team member activities. For example, a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened the email.
 
-When data is processed for team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).  
+When data is processed for team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
 
 ## Set up your team
 
@@ -74,7 +74,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Group insights
 
-As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness in Viva Insights in Teams. This section is only available to qualifying managers who are assigned the manager role and meet the minimum-group requirements. See [Install, pin, and configure the app](../use/viva-insights-my-org.md#install-pin-and-configure-the-app).
+As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness within Viva Insights in Teams. This section is only available to those who are set up as a manager and meet the minimum-group requirements. See [Group insights](../use/group-insights.md) for details.
 
 ## Briefing and digest emails
 
