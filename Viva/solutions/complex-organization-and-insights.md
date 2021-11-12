@@ -188,7 +188,7 @@ The setup details are available [here](#data-pipeline---automated).
     |aadresource       |  The aadresource for the oData       |
     |servicePrincipal     |  Name of the secret in the Keyvault for the application ID that will be used to access the oData URL      |
     |secretName     |  Name of the secret in Keyvault for the secret for the application ID that will be used to access the oData URL       |
-    |path     | oData path of the oData URL        |-
+    |path     | oData path of the oData URL        |
     |fileName    |    Pre-fix name of the file     |
 
     > [!NOTE]
