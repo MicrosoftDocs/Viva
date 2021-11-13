@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Team insights in Viva Insights
 description: Learn about the Team insights page in Microsoft Viva Insights that shows managers their team collaboration patterns
 author: madehmer
@@ -13,7 +12,7 @@ audience: Admin
 
 # Team insights
 
-Microsoft Viva Insights shows team managers and leads insights about their teams’ work patterns. Get visibility into leading indicators of overall team experience, wellbeing, and productivity. You can then use these insights to understand current team norms and take action to create positive change.
+As a manager or team lead, Microsoft Viva Insights shows you insights to learn how your habits impact your team and suggestions to improve and foster team culture.
 
 **To view team insights**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
