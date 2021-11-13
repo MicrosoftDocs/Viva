@@ -65,9 +65,7 @@ You can use the Viva Insights Outlook add-in in the following environments:
 
 1. Open [Outlook on the web](https://outlook.office.com/mail/inbox).
 2. Open an email message.
-3. Select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Viva Insights**:
-
-   ![Insights in OWA.](../../images/mya/use/insights-in-owa.png)
+3. Select the **ellipsis** (**...**) in the top-right corner of your email message, and then select **Viva Insights**.
 
 >[!Note]
 >You can pin the Add-in to your quick access pane for easier access; see [Pin the add-in](#pin-the-add-in) for details.
@@ -121,9 +119,6 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
     ![Customize actions.](../../images/mya/use/customize-actions.png)
 
 4. In the right pane, in the **Message surface** area, select **Viva Insights**.
-
-    ![Message surface for Viva Insights.](../../images/mya/use/msg-surface-insights.png)
-
 5. In the right pane, in the **Toolbar** area, select **Viva Insights**.
 6. Save your new settings.
 
@@ -137,10 +132,7 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
     ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
 
 3. Under MyAnalytics, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **Off**.
-
-    ![Slider in off position.](../../Images/mya/use/add-in-slider-opt-out.png)
-  
+4. For **Insights Outlook add-in**, set the control to **Off**.  
 5. Select **Save** to save your changes.
 
 >[!NOTE]
@@ -156,7 +148,7 @@ If you opt out of the Viva Insights Outlook add-in, you might also want to remov
 
 2. On the left navigation pane, select **My add-ins**.
 
-3. On the **Viva Insights** card, select the ellipsis (**...**) and then select **Remove**.
+3. On the **Viva Insights** card, select the **ellipsis** (**...**), and then select **Remove**.
 
 ### If I am opted out, can I opt back in?
 
@@ -167,13 +159,10 @@ Yes; if you opt yourself out or if an admin opts you out, you can opt back in an
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at top right.
 
-    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
+    ![Feature settings.](../../Images/mya/use/mya-gear-settings.png)
 
-3. Under MyAnalytics, select **Settings**.
-4. For **Insights Outlook add-in**, set the control to **On**.
-
-    ![Slider also in off position.](../../Images/mya/use/add-in-slider-opt-in.png)
-  
+3. Under **Viva Insights**, select **Settings**.
+4. For **Viva Insights Outlook add-in**, set the control to **On**.  
 5. Select **Save** to save your changes.
 
 >[!NOTE]
