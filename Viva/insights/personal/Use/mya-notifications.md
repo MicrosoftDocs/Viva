@@ -150,7 +150,7 @@ _**Applies to**: This suggestion is currently available only to people who are u
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
-![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77-80-75.png)
+![Shorten a meeting](../../Images/mya/use/shorten-a-meeting.png)
 
 Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all the participants in the meeting.
 
@@ -162,11 +162,11 @@ _**Applies to**: This insight is currently available only to people who are usin
 
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
-![Track email open rate](../../Images/mya/use/track-email-open-rate-50.png)
+![Track email open rate](../../Images/mya/use/track-email-3.png)
 
 Select **See more insights** to see how many people have opened or forwarded your email and the average time that they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
-![Email open rates](../../Images/mya/use/email-open-rates-50.png)
+![Email open rates](../../Images/mya/use/email-open-rates-1.png)
 
 ## Track email
 
