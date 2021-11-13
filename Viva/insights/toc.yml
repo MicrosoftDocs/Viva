@@ -172,6 +172,8 @@ items:
             items: 
               - name: My team        
                 href: use/viva-insights-my-team.md
+              - name: Team insights        
+                href: use/team-insights.md             
               - name: Employee experience
                 href: use/team-experience.md
               - name: Team effectiveness
