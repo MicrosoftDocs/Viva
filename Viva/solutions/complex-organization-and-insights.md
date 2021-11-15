@@ -24,12 +24,18 @@ Complex organizations are Microsoft Azure Active Directory (AAD) customers who u
 
 A business merger between two companies resulting in an organization made up with multiple Office365 tenants and separate AADs. The tenants either choose to remain separate and collaborate together or merge into a single tenant (For example, M&A: Bayer & Monsanto).
 
-Mergers and acquisitions are illustrated in the screenshot below.
+The concept of Mergers and acquisitions is depicted in the screenshot below.
+
+:::image type="content" source="images/merger-and-acquisition.png" alt-text="mergers and acquisitions":::
 
 
 ## Conglomerates
 
 A conglomerate is a corporation made up of several independent subsidiaries. The subsidiaries are tenants that have separate AAD and will collaborate together and remain separate (For example, The Walt Disney Company, Honeywell).
+
+The concept of conglomerates is depicted in the screenshot below.
+
+:::image type="content" source="images/conglomerate.png" alt-text="conglomerates":::
 
 ## What is the purpose of this article?
 
@@ -53,8 +59,11 @@ Advanced analytics for organizations comprised of multiple Viva Insights tenants
 A few starter use cases that would be enabled by this data combination strategy are:
 
 - Identify collaboration patterns between two distinct business groups (tenants)
+  :::image type="content" source="images/use case - 1.png" alt-text="Illustration of the collaboration patterns between two distinct business groups":::
 - Distinguish collaboration patterns between cross business groups (tenants) VS true external interactions.
 - Data combined from Viva Insights with external sources to address headcount planning, employee well-being, permanent remote work, inclusion and diversity, and so on.
+  
+  :::image type="content" source="images/use case - 3.png" alt-text="Data combined from Viva Insights with external sources":::
 
 There are different methods and data storage locations possible as storage accounts, sql databases and synapse to name a few. An example leveraging Azure data factory, Viva Insights organizational data, and azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
 
@@ -93,7 +102,8 @@ This attribute indicates the manager status of each employee as IC (individual c
 
 Set up the [Business Continuity](../insights/Tutorials/power-bi-bc.md) dashboard for your tenant with the following modification:
 
--	In the **Organizational data** section of the **Business Continuity and Hourly Collaboration** report, add **HashId** and **TenantInd** columns to the list. Additional columns can be added for this report if needed, for analysis.
+-	In the **Organizational data** section of the **Business Continuity and Hourly Collaboration** report, add **HashId** and **TenantInd** columns to the list. Additional columns can be added for this report if needed, for analysis. The below screenshot illustrates the report:
+    :::image type="content" source="images/organizational-data.png" alt-text="Organizational data section of the Business Continuity and Hourly Collaboration report":::
 
 ### Azure
 
@@ -130,17 +140,23 @@ Viva Insights queries can be executed and the output can be downloaded and furth
 This sample will be using the **Business Continuity** report listed in the **Requirements** section. 
 There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#manual-approach-on-adhoc-basis).
 
+:::image type="content" source="images/adhoc-manual-approach.png" alt-text="Illustration of the instance of adhoc manual approach":::
+
 ### Adhoc using oData approach
 
 Viva Insights queries can be scheduled to auto refresh and accessed via oData links to provide further analysis or to be visualized in PowerBi reports. 
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
 There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#adhoc-with-odata-approach).
 
+:::image type="content" source="images/adhoc-using-odata-approach.png" alt-text="Illustration of the instance of adhoc using OData approach":::
+
 ### Automated data pipeline
 
 Viva Insights queries can be scheduled to auto refresh and downloaded to a central data store location for further analysis or visualizations. The solution sample uses Azure blob storage. 
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
 The setup details are available [here](#data-pipeline---automated).
+
+:::image type="content" source="images/automated-data-pipeline.png" alt-text="Illustration of the instance of automated data pipeline":::
 
 ## Solution Sample Pipeline Setup
 
@@ -149,35 +165,67 @@ The setup details are available [here](#data-pipeline---automated).
 1. Deploy the arm template for data factory creation for MultiTenant by performing the following steps:
 
     1. Launch the Azure portal for the subscription you want to use.
+       (add **azure-portal-home-screen.png** image)
     1. Search for **Deploy from a custom template** in the search bar.
-    1. Once **Deploy from a custom template** is displayed (under **Services** pane), click on it,
-    1. Click **Build your own template in the editor**.
-    1. Click **Load file**, and select the **DataFactory_oData_arm_template.json** file (a download location needed for this>.
+       :::image type="content" source="images/deploy-from-custom-template.png" alt-text="Deploy from a Custom Template option":::
+       :::image type="content" source="images/select-template.png" alt-text="":::
+    1. Once **Deploy from a custom template** is displayed (under **Services** pane), click on it.
+    1. Click **Build your own template in the editor**. The **Edit template screen appears.
+       :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
+    1. Click **Load file**. The browser window is displayed, from which you can navigate to the location of the downloaded `JSON` file.
+    1. Select the **DataFactory_oData_arm_template.json** file (a download location needed for this>, and click **Open**.
+       :::image type="content" source="images/load-file.png" alt-text="Screen on which you can choose the JSON file to upload":::.
+    1. On the resultant screen, click **Save**. 
+       :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Click **Save**.
-    1. Fill and select the highlighted items. 
+    1. Fill and select the highlighted items.
+       :::image type="content" source="images/filling-selecting-highlighted-fields.png" alt-text="The screen on which the fields to be filled are highlighted":::.
+       An example of filled values for the highlighted items is shown in the below screenshot.
+       :::image type="content" source="images/highlighted-fields-filled.png" alt-text="The screen displaying the filled values for the highlighted fields":::
     1. Click the **Review + create** tab, and click **Create**.
-
+       :::image type="content" source="images/review-plus-create-and-create.png" alt-text="The screen on which you can click Create":::
+       :::image type="content" source="images/deployment-completion-notification.png" alt-text="The screen on which the notification message of deployment completion is displayed":::
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
-    1. Obtain the Managed Service Identity for the data factory created earlier by select Properties from the left pane and copying the **Managed Identity Application ID** value.
-    1. Add Access Policies to the Key Vault.
-    1. Launch the Key Vault (created during deployment of arm template for data factory creation for MultiTenant).
-        1. Click **Access policies** from the left pane.
-        2. Click **+ Add access policy** and add your own account by setting values as described below:
-            1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
-            1. **Select principal**
-                1. Search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
-        3. Click **Add**.
-        4. Click **Save**.
+    1. Launch the resource group (wuarmdfrg1). The resource's properties screen is displayed.
+       > [!NOTE]
+       > The resource group **wuarmdfrg1** has been defined in th4e **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+    1. Launch the Data factory (V2) resource.
+       The Data factory (V2) resource in this instance is **wuarmdf1**. 
+    1. Click **Properties**. The Data factory's properties screen appears.
+    1. Copy the value of the **Managed Identity Application ID** attribute.
+       :::image type="content" source="images/copying-managed-identity-application-id.png" alt-text="The screen on which the value of Managed Identity Application ID is displayed to copy":::
+    1. Return to the screen of the resource group by clicking **Resource groups** on the left pane, and clicking the link of the specific resource group (wuarmdfrg1).
+    1. Launch the Key Vault (wuarmdfkv1, in this example).
+    1. Click **Access policies** from the left pane.
+           :::image type="content" source="images/selecting-access-policies.png" alt-text="The screen on which the Access policies are displayed to select":::
+           :::image type="content" source="images/adding-access-policy.png" alt-text="The screen on which the option to add an access policy is displayed":::
+    1. Click **+ Add access policy** and add your own account by setting values as described below:
+    1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
+    1. **Select principal**
+    1. Search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
+                :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
+    1. Click **Add**.
+           :::image type="content" source="images/clicking-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
+    1. Click **Save** on the top-left of the screen.
+           :::image type="content" source="images/clicking-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
 1. Grant Storage Account permissions to the Data Factory Managed Service Identity.
-    1. Launch the Storage Account, and click **Access Control (IAM)** on the left pane.
-    > [!NOTE]
-    > The storage account is the one created during deployment of arm template for data factory creation for MultiTenant.
+    1. Launch the resource group (wuarmdfrg1). The resource group properties screen appears.
+    1. Launch the storage account (wuarmdfsa1). The storage account's properties screen appears.
+    1. Click **Access Control (IAM)** on the left pane.
+       :::image type="content" source="images/access-control-iam.png" alt-text="The screen on which the Access control (IAM) option is displayed":::
     1. Click the **Role assignments** tab.
-    1. Click **+ Add** and select **Add role assignment**.
-    1. From the **Role** drop-down list, choose **Storage Blob Data Contributor**.
-    1. From the **Assign access to** drop-down list, choose **Data Factory**.
-    1. Search for the data factory name (created during deployment of arm template for data factory creation for MultiTenant).
-    1. Click **Save**. Once you refresh the browser and view the **Role assignments** screen again, you can view the data factory application you have just added.
+       :::image type="content" source="images/adding-role-assignment.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
+    1. Click **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
+    1. Select **Storage Blob Data Contributor**, and click **Next**.
+    1. Under **Assign access to**, choose the **Managed identity** radio button.
+    1. Click **Members** tab. The **Select managed identities** screen appears.
+    1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
+    1. Search for the Data factory name (wuarmdf1) from the **Select** field.
+       > [!NOTE]
+       > The Data factory **wuarmdf1** has been defined in th4e **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+    1. Click **Select**.
+    1. Click **Review + assign**.
+    1. Refresh the browser to view the **Role assignments** screen again, in which you can view the data factory application you have just added.
 1. Create a file named **odatasources.txt**.
     1. Create a `.txt` file with the below comma-delimited schema for each oData source and the tenant reference information that will be stored in keyvault.
 
@@ -217,11 +265,14 @@ https://workplaceanalytics.office.com/10c5ca3c-a4d2-424d-8af3-f0efd6c79c99/scope
 
 ## Output
 
-1. Upload the **odatasources.txt** file to the storage account in the wpaexports container.
-    1. Launch the storage account (created during deployment of arm template for data factory creation for MultiTenant).
-    1. Click **Containers** on the left pane, and select **wpaexports**.
+1. Upload the **odatasources.txt** file to the storage account in the wpaexports container by performing the below steps:
+    1. Launch the storage account.
+       > [!NOTE]
+       > The storage account **wuarmdfsa1** has been defined in th4e **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+    1. Click **Containers** on the left pane. 
+    1. Click **wpaexports**.
     1. Click **Upload**.
-2. Generate the secrets in Key Vault.
+1. Generate the secrets in Key Vault.
     1. Launch the Key Vault (created during deployment of arm template for data factory creation for MultiTenant).
     1. Click **Secrets** on the left pane, and click **+ Generate/Import**.
     1. Create the secrets for each oData source listed in the **odatasources.txt** file, using an example that contains a data source and a file depicted in the screenshot below.
