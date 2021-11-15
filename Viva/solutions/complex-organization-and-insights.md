@@ -168,7 +168,7 @@ The setup details are available [here](#data-pipeline---automated).
        (add **azure-portal-home-screen.png** image)
     1. Search for **Deploy from a custom template** in the search bar.
        :::image type="content" source="images/deploy-from-custom-template.png" alt-text="Deploy from a Custom Template option":::
-       :::image type="content" source="images/select-template.png" alt-text="":::
+       :::image type="content" source="images/select-template.png" alt-text="The screen on which the template is chosen":::
     1. Once **Deploy from a custom template** is displayed (under **Services** pane), click on it.
     1. Click **Build your own template in the editor**. The **Edit template screen appears.
        :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
