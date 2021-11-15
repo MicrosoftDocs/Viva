@@ -112,7 +112,7 @@ While reading a calendar invitation, you might see a suggestion to **Book time f
 
 Select **See suggested times** to open a pane that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
 
-![Book focus time](../../Images/mya/use/book-focus-time-2.png)
+![Book focus time](../../Images/mya/use/book-focus-time.png)
 
 ## Plan your time away
 
@@ -134,7 +134,7 @@ For more details about how to use the checklist, see [Plan your time away](use-t
 
 If a meeting request conflicts with an existing focus-time block, you might see a suggestion to protect your focus-time block by moving the focus time to another time or to meet at another time.
 
-![Protect focus time](../../Images/mya/use/protect-focus-time.png)
+![Protect focus time](../../Images/mya/use/protect-focus-time-2.png)
 
 Select **See other available times** to open the Insights add-in pane and display all the available time in the coming week to reschedule the meeting. By selecting a time block you can propose a new time to the meeting organizer.
 
