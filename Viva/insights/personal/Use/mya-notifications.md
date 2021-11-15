@@ -112,7 +112,7 @@ While reading a calendar invitation, you might see a suggestion to **Book time f
 
 Select **See suggested times** to open a pane that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
 
-![Book focus time](../../Images/mya/use/book-focus-time.png)
+![Book focus time](../../Images/mya/use/book-focus-time-2.png)
 
 ## Plan your time away
 
@@ -150,7 +150,7 @@ _**Applies to**: This suggestion is currently available only to people who are u
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
-![Shorten a meeting](../../Images/mya/use/shorten-a-meeting.png)
+![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-2.png)
 
 Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all the participants in the meeting.
 
