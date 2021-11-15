@@ -14,8 +14,8 @@ audience: Admin
 
 If you're a subscriber of Microsoft Viva Insights, you will receive informative emails on the following occasions:
 
-* Up to four weeks after being assigned a license, you'll receive a [welcome message](#microsoft-viva-welcome-message) that introduces the service.
-* Each month, you'll receive a [digest email](#digest-email-from-microsoft-viva) that summarizes data about your work patterns and ways to improve them.
+* Up to four weeks after being assigned a license, you'll receive a [welcome message](#welcome-message) that introduces the service.
+* Each month, you'll receive a [digest email](#digest-email) that summarizes data about your work patterns and ways to improve them.
 
 ## Welcome message
 
