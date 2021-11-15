@@ -61,7 +61,7 @@ You can also use the Outlook Insights add-in to opt in to the Delay delivery pla
 1. In the Outlook Insights add-in, select **Settings** (gear icon) to open it.
 2. Change the setting for **Delay delivery** to **On**.
 
-![Turn on Delay delivery in the Insights add-in.](../../Images/mya/use/try-delay-add-in.png)
+![Turn on Delay delivery in the Insights add-in.](../../Images/mya/use/try-delay-add-in-2.png)
 
 ## To opt out
 
