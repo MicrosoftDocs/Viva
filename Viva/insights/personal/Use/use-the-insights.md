@@ -2,7 +2,7 @@
 title: Use Microsoft Viva Insights in Outlook
 description: Learn how to use the options in the Viva Insights Outlook add-in
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: high 
 ms.prod: Mya
