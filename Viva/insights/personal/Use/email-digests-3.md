@@ -23,10 +23,6 @@ Up to four weeks after the admin assigns you a license, you'll receive a Welcome
 
 You do not receive the Welcome digest outside of your work week. For example, if necessary, the delivery is delayed to Monday to keep it from being delivered during a weekend.
 
-The following shows an example welcome message:
-
-![Welcome message top section.](../../Images/mya/use/monthly-digest-welcome.png)
-
 ## Digest email from Microsoft Viva
 
 _**Applies to**: Microsoft Viva elements are available in varying levels for the different Microsoft 365 and Office 365 plans. You can only get the digest email if you're assigned a license with the MyAnalytics service. See [Plans and environments](../overview/plans-environments.md) for details.
