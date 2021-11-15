@@ -123,7 +123,7 @@ They can select **Review schedule** within the notice to help with this task.
 
 ## Briefing and digest emails
 
-As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/Use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
+As a team manager or lead, you'll also see additional information and suggestions in your Microsoft Viva Briefing and digest emails about your team. For details, see [digest emails](../personal/Use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
 
 >[!Note]
 >As you use the Viva Insights app, you can provide feedback about the app to Microsoft. To learn how, see **Q10** in [My team FAQ](my-team-faq.md).

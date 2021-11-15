@@ -10,20 +10,20 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Viva Insights digest emails
+# Viva digest emails
 
 If you're a subscriber of Microsoft Viva Insights, you will receive informative emails on the following occasions:
 
 * Up to four weeks after being assigned a license, you'll receive a [welcome message](#microsoft-viva-welcome-message) that introduces the service.
 * Each month, you'll receive a [digest email](#digest-email-from-microsoft-viva) that summarizes data about your work patterns and ways to improve them.
 
-## Microsoft Viva welcome message
+## Welcome message
 
 Up to four weeks after the admin assigns you a license, you'll receive a Welcome message from Microsoft Viva in your Outlook inbox.
 
 You do not receive the Welcome digest outside of your work week. For example, if necessary, the delivery is delayed to Monday to keep it from being delivered during a weekend.
 
-## Digest email from Microsoft Viva
+## Digest email
 
 _**Applies to**: Microsoft Viva elements are available in varying levels for the different Microsoft 365 and Office 365 plans. You can only get the digest email if you're assigned a license with the MyAnalytics service. See [Plans and environments](../overview/plans-environments.md) for details.
 
