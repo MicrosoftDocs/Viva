@@ -57,14 +57,14 @@ Group insights in My team are not shown by default. These insights are based on 
 
 Yes. As an individual contributor, you can follow the steps described in the previous question to set up your team. After you set up your team, you’ll see **My team** within Viva Insights in Teams. The team insights will filter to match up to your currently selected team. However, as a team lead, you will not see Group insights.
 
-##### Q8 Why can't I see the My team tab?
+##### Q8 Why can't I see the My team page?
 
 This can occur if the Viva Insights feature is disabled. My team depends on data from Viva Insights.
 
 1. Go to [insights.viva.office.com](https://insights.viva.office.com).
 2. Select the **Settings** (gear icon), and then select **Settings** in the Settings pane.
 3. Select to turn **On** Microsoft Viva Insights.
-4. Revisit Viva Insights in Teams to see the **My team** tab.
+4. Revisit Viva Insights in Teams to see the **My team** page.
 
 ##### Q9 Can a team lead gain access to the user experience of a manager or a leader?
 
