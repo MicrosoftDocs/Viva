@@ -76,9 +76,9 @@ Consider the following personas when granting the different levels of access for
 
 | Persona | Administrator | Analyst |  Insights Business Leader | Analyst (Limited Access) | Program Manager | People Manager |
 | ------- | ------------- | ------- | ------- |------------------- | --------------- | -------------- |
-| Executive/business leader |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp;   |&nbsp; |&nbsp; |
-| Program Manager | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark">  |&nbsp; |
+| Executive or business leader |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp;   |&nbsp; |&nbsp; |
 | Analyst or data scientist |&nbsp;   | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Program Manager | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark">  |&nbsp; |
 | Group or team manager |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 
 ### Access to resources
