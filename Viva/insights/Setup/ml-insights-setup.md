@@ -31,7 +31,7 @@ For access to the **My team** page in the Viva Insights app in Teams, confirm yo
 To view the **My organization** page in the Viva Insights app in Teams, confirm the following prerequisites.
 
 * **Licensed organization** - The members of your organization are assigned licenses for Viva Insights, including yourself as an organizational business leader.
-* **Insights Business Leader role** - Ask your Microsoft 365 admin to assign you the [Insights Business Leader role](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference#all-roles) in the Microsoft 365 admin center. See [Assign admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) for detailed instructions.
+* **Insights Business Leader role** - Ask your Microsoft 365 admin to assign you the [Insights Business Leader role](/azure/active-directory/roles/permissions-reference#insights-business-leader) in the Microsoft 365 admin center. See [Assign admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) for detailed instructions.
 
 ## Install and pin the app
 

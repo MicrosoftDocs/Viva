@@ -27,14 +27,14 @@ You must assign admins of the Viva Insights service the [Insights Administrator]
 ## Roles and access levels
 
 See [User roles](../use/user-roles.md) for detailed role descriptions and access levels.
-<!-->
+<!--
 ## Video: Assign roles
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 -->
-## Assign user or group roles in Azure Active Directory
+## Assign user or group roles
 
-See [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md) for details.
+See [Assign user or group roles](../setup/assign-user-roles.md) for details.
 
 ## Related topics
 

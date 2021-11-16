@@ -11,9 +11,9 @@ ms.prod: wpa
 
 The following roles must be assigned by a Microsoft 365 admin as described in [Assign user roles](../setup/assign-user-roles.md):
 
-* 
+* **Insights Business Leader**- [Insights Business leaders](/azure/active-directory/roles/permissions-reference#insights-business-leader) can see organizational insights on the [My organization](../use/viva-insights-my-org.md) page within the Viva Insights app in Teams.
 
-* **People Manager** &ndash; If you purchased a Workplace Analytics license (available before October 2021), your managers can access insights in Workplace Analytics only about their team. These managers can also open, manage, and track **Plans** only for their team in Workplace Analytics. If you purchased Viva Insights licenses (available in October 2021), your managers can access insights about their team in [**My team**](../use/viva-insights-my-team.md) within the Viva Insights app in Teams.
+* **People Manager** &ndash; People managers are assigned access by the Viva Insights admin. Managers who were assigned licenses in Workplace Analytics before October 2021 can see [Manager insights](../manager-insights/introduction.md) in Workplace Analytics only about their team. Managers who are assigned licenses starting in October 2021, can see their team's insights on the [My Team](../use/viva-insights-my-team.md) page within the Viva Insights app in Teams.
 
 * **Analyst** &ndash; Has full access to all service features except **Upload** and **Admin settings**, which are only available to admins. An Analyst has the most complete access to data, including the ability to launch, manage, and track **Plans** in Workplace Analytics.
 
@@ -28,6 +28,3 @@ The following roles must be assigned by a Microsoft 365 admin as described in [A
   >Viva Insights or Workplace Analytics admins are not Microsoft 365 admins. Therefore, unless they are *also* assigned the role of Microsoft 365 admin, they only have access to organizational data, not to Microsoft 365 data.
 
 * **Program Manager** &ndash; Has access to organizational **Insights** in Workplace Analytics. A Program Manager can also open, manage, and track **Plans** in Workplace Analytics.
-
-The following role must be assigned by a Viva Insights or Workplace Analytics admin in  [**Manager settings**](../use/manager-settings.md):
-
