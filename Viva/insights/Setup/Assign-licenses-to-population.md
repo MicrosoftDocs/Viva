@@ -43,7 +43,7 @@ Microsoft 365 users might want to find out whether their collaboration data is b
 1. Open the [Microsoft 365 portal](https://portal.office.com).
 2. Sign in to your Microsoft 365 account.
 3. View your account settings.
-4. Open the **Subscriptions** page. If you've been assigned a license, "Viva Insights" or "Workplace Analytics" shows as one of your Microsoft 365 subscriptions. This means that your data is being processed.
+4. Open the **Subscriptions** page. If you've been assigned a license, "Viva Insights" or "Workplace Analytics" shows as one of your Microsoft 365 subscriptions, then your data is being processed for Viva Insights.
 
 <!--## Video: Assign licenses
 Intro text out for now:
