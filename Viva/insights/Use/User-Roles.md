@@ -56,7 +56,7 @@ The following shows who can do what with Viva Insights.
 | Upload organizational data into the system | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |&nbsp; |
 | Use the **My organization** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
 | Use the full set of analyst tools in Data sources and Analyze |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
-| Help coordinate, set up, and manage Plans |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+| Help coordinate, set up, and manage Plans |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 | Use the **My team** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |&nbsp; |&nbsp; |&nbsp;|<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 
 ### Levels of responsibility
@@ -66,9 +66,9 @@ People who access data with Viva Insights should ideally have previous experienc
 | Access level | Administrator | Analyst |  Insights Business Leader |Analyst (Limited Access) | Program Manager | People Manager |
 | ------------ | ------------- | ------- | ------- | ------------------------ | --------------- | -------------- |
 | View personally identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| View de-identified, individual-level data:<ul><li>Organizational data (HR fields, such as level or organization)</li><li>Microsoft 365 data (metrics about collaboration and relationships)</li></ul> |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)* |
-| Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark">  | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)*|
+| View de-identified, individual-level data: Organizational data (HR fields, such as level or organization) and Microsoft 365 data (metrics about collaboration and relationships) |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)* |
+| Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)*|
 
 ### Suggested personas
 
@@ -76,7 +76,7 @@ Consider the following personas when granting the different levels of access for
 
 | Persona | Administrator | Analyst |  Insights Business Leader | Analyst (Limited Access) | Program Manager | People Manager |
 | ------- | ------------- | ------- | ------- |------------------- | --------------- | -------------- |
-| Executive/business leader |&nbsp; |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp;   |&nbsp; |&nbsp; |
+| Executive/business leader |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp;   |&nbsp; |&nbsp; |
 | Program Manager | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark">  |&nbsp; |
 | Analyst or data scientist |&nbsp;   | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Group or team manager |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |
