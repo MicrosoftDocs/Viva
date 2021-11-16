@@ -30,7 +30,7 @@ The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in th
 
 The following shows who can access what.
 
-| Feature  | Description | Administrator | Analyst | Insights Business Leader | Analyst (Limited Access) | Program Manager | People Manager |
+|Feature |Description |Administrator |Analyst |Insights Business Leader |Analyst (Limited Access) |Program Manager |People Manager |
 | ---------- | ------------- | -------- | ---------- |--------- | ------- |-------------- | --------------- |
 | **My team** | View highlights about you and your team in **My team** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | &nbsp; | &nbsp;  | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 | **My organization** | View highlights about your organization in **My organization** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |
