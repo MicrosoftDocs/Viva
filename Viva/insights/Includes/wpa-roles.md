@@ -1,8 +1,8 @@
 ---
 
-title: Workplace Analytics roles
-description: (include file) Workplace Analytics roles 
-author: paul9955
+title: Viva Insights roles
+description: (include file) Viva Insights roles 
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
@@ -10,6 +10,10 @@ ms.prod: wpa
 ---
 
 The following roles must be assigned by a Microsoft 365 admin as described in [Assign user roles](../setup/assign-user-roles.md):
+
+* 
+
+* **People Manager** &ndash; If you purchased a Workplace Analytics license (available before October 2021), your managers can access insights in Workplace Analytics only about their team. These managers can also open, manage, and track **Plans** only for their team in Workplace Analytics. If you purchased Viva Insights licenses (available in October 2021), your managers can access insights about their team in [**My team**](../use/viva-insights-my-team.md) within the Viva Insights app in Teams.
 
 * **Analyst** &ndash; Has full access to all service features except **Upload** and **Admin settings**, which are only available to admins. An Analyst has the most complete access to data, including the ability to launch, manage, and track **Plans** in Workplace Analytics.
 
@@ -27,4 +31,3 @@ The following roles must be assigned by a Microsoft 365 admin as described in [A
 
 The following role must be assigned by a Viva Insights or Workplace Analytics admin in  [**Manager settings**](../use/manager-settings.md):
 
-* **People Manager** &ndash; If you purchased a Workplace Analytics license (available before October 2021), your managers can access insights in Workplace Analytics only about their team. These managers can also open, manage, and track **Plans** only for their team in Workplace Analytics. If you purchased Viva Insights licenses (available in October 2021), your managers can access insights about their team in [**My team**](../use/viva-insights-my-team.md) within the Viva Insights app in Teams.

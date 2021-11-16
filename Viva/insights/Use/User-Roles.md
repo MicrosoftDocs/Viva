@@ -1,9 +1,9 @@
 ---
 
-title: User roles in Workplace Analytics
-description: Which user roles in Workplace Analytics perform which functions and have access to which pages in Workplace Analytics
+title: User roles for Viva Insights
+description: Which roles can get access to which pages in Viva Insights
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -14,9 +14,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# User roles in Workplace Analytics
+# User roles in Viva Insights
 
-Users of Workplace Analytics require the correct level of access to specific product areas to perform their required tasks. The roles are distinct in their assigned responsibilities and access permissions.
+People need the correct level of access to specific product areas to perform their required tasks. The roles are distinct in their assigned responsibilities and access permissions.
 
 Each role only gives access to actions, pages, dashboards, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and do not roll up.
 
