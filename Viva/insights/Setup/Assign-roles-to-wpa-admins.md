@@ -22,7 +22,7 @@ The following describes who does what to assign admins roles for Microsoft Viva 
 * **Task** - Assign admins for Viva Insights
 * **Outcome** - Admins must set up Viva Insights for their organization. After data is provisioned, admins can then assign roles to other people in their organization to use Viva Insights.
 
-You must assign admins for the Viva Insights service. Admins are required to set system defaults, privacy settings, upload and verify organizational data for Viva Insights before they can assign other people roles for using Viva Insights.
+You must assign admins of the Viva Insights service the [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator) role. Admins must set the system defaults, privacy settings, upload and verify organizational data for Viva Insights.
 
 ## Roles and access levels
 
@@ -39,4 +39,4 @@ See [Assign user or group roles in Azure Active Directory](../setup/assign-user-
 ## Related topics
 
 * [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md)
-* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
+* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
