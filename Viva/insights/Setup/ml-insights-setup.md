@@ -16,7 +16,7 @@ audience: Admin
 
 # Admin tasks for manager and leader insights
 
-Confirm the following [prerequisites](#prerequisites) and then ask your Teams Service Admin to deploy the Microsoft Viva Insights app in Microsoft Teams for you and your team. Because personal, manager, and leader insights require the same admin tasks, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for the required steps.
+Confirm the following prerequisites and then ask your Teams Service Admin to deploy the Microsoft Viva Insights app in Microsoft Teams for you and your team. Because personal, manager, and leader insights require the same admin tasks, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for the required steps.
 
 ## Prerequisites for manager insights
 
@@ -31,7 +31,7 @@ For access to the **My team** page in the Viva Insights app in Teams, confirm yo
 To view the **My organization** page in the Viva Insights app in Teams, confirm the following prerequisites.
 
 * **Licensed organization** - The members of your organization are assigned licenses for Viva Insights, including yourself as an organizational business leader.
-* **Insights Business Leader role** - Ask your Microsoft 365 admin to assign you the [Insights Business Leader role](/azure/active-directory/roles/permissions-reference#insights-business-leader) in the Microsoft 365 admin center. See [Assign admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) for detailed instructions.
+* **Insights Business Leader role** - Ask your Microsoft 365 admin to assign you the [Insights Business Leader role](/azure/active-directory/roles/permissions-reference#insights-business-leader) in the Microsoft 365 admin center. See [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles) for detailed instructions.
 
 ## Install and pin the app
 
