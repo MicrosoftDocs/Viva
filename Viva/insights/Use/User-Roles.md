@@ -20,6 +20,8 @@ People need the correct level of access to specific product areas to perform the
 
 Each role only gives access to actions, pages, dashboards, and data that correspond with that role. Roles are assigned independently, are non-cumulative, and do not roll up.
 
+The _Insights Administrator_ and the legacy _Workplace Analytics admin_ are interchangeable. Both have access to the same features and functions and share the same responsibilities and tasks for Viva insights.
+
 The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in the following tables, are only applicable to features available within the Workplace Analytics application for licenses assigned before October 2021. For those who are assigned licenses and the People Manager or Insights Business Leader roles starting in October 2021, can only access their applicable insights within the Viva Insights app in Microsoft Teams.
 
 ## Role descriptions and access levels
@@ -30,7 +32,7 @@ The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in th
 
 The following shows who can access what.
 
-|Feature |Description |Administrator |Analyst |Insights Business Leader |Analyst (Limited Access) |Program Manager |People Manager |
+|Feature |Description |Insights Administrator |Analyst |Insights Business Leader |Analyst (Limited Access) |Program Manager |People Manager |
 | ---------- | ------------- | -------- | ---------- |--------- | ------- |-------------- | --------------- |
 | **My team** | View highlights about you and your team in **My team** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | &nbsp; | &nbsp;  | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 | **My organization** | View highlights about your organization in **My organization** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |
