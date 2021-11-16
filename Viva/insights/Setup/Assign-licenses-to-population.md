@@ -45,6 +45,9 @@ Microsoft 365 users might want to find out whether their collaboration data is b
 3. View your account settings.
 4. Open the **Subscriptions** page. If you've been assigned a license, "Viva Insights" or "Workplace Analytics" shows as one of your Microsoft 365 subscriptions, then your data is being processed for Viva Insights.
 
+>[!Note]
+>Workplace Analytic licenses were sold prior to October 2021 and will continue to be active until updated to a Viva Insights license. As of October 2021, you can only purchase or assign Viva Insights licenses for your organization. Different licenses and role assignments give you access to different features. For details, see [User roles in Viva Insights](../use/user-roles.md).
+
 <!--## Video: Assign licenses
 Intro text out for now:
 Watch this video to learn how Workplace Analytics licenses work and how the Microsoft 365 admin can assign Workplace Analytics licenses. old link, with thumbnail
@@ -81,4 +84,4 @@ Azure AD is the single source of truth for licensing statuses. After a user lice
 
 * [Environment requirements](environment-requirements.md)
 * [Microsoft 365 data](../use/office-365-data.md)
-* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true)
+* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
