@@ -1,7 +1,7 @@
 ---
 
-title: User roles for Viva Insights
-description: Which roles can get access to which pages in Viva Insights
+title: Assigned roles for Viva Insights
+description: Which roles get access to which Viva Insights features
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# User roles in Viva Insights
+# Roles in Viva Insights
 
 People need the correct level of access to specific product areas to perform their required tasks. The roles are distinct in their assigned responsibilities and access permissions.
 
@@ -26,7 +26,7 @@ The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in th
 
 [!INCLUDE [Roles](../includes/wpa-roles.md)]
 
-## User access
+## Feature access
 
 The following shows who can access what.
 
@@ -46,7 +46,7 @@ The following shows who can access what.
 | &nbsp;        | **Analyst settings** to set meeting and attendee exclusion rules for analysis  | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">     | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> *(read-only access)*| &nbsp; | &nbsp; |
 | &nbsp;        | **Analyst settings** for system defaults, privacy settings, and default exclusions | <img src="../Images/WpA/check-mark.png" alt="checkmark">     | &nbsp;  |&nbsp; | &nbsp;  | &nbsp;  |  &nbsp; |
 
-### Functions performed
+### Functional tasks
 
 The following shows who can do what with Viva Insights.
 
