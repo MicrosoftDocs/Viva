@@ -187,7 +187,7 @@ The setup details are available [here](#data-pipeline---automated).
     1. On the resultant screen, click **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Provide values for the highlighted items.
-       :::image type="content" source="images/filling-selecting-highlighted-fields.png" alt-text="The screen on which the fields to be filled are highlighted":::.
+       :::image type="content" source="images/filling-selecting-highlighted-fields.png" alt-text="The screen on which the fields to be filled are highlighted":::
        An example of filled values for the highlighted items is shown in the below screenshot.
        :::image type="content" source="images/highlighted-fields-filled.png" alt-text="The screen displaying the filled values for the highlighted fields":::
     1. Click the **Review + create** tab, and click **Create**.
