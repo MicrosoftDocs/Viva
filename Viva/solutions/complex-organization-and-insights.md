@@ -183,7 +183,7 @@ The setup details are available [here](#data-pipeline---automated).
     1. Click **Build your own template in the editor**. The **Edit template screen appears.
        :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
     1. Click **Load file**. 
-       :::image type="content" source="images/load-file.png" alt-text="":::
+       :::image type="content" source="images/load-file.png" alt-text="The screen displaying the Load file option":::
        The browser window is displayed, from which you can navigate to the location of the downloaded `JSON` file.
     1. Select the **DataFactory_oData_arm_template.json** file (a download location needed for this>, and click **Open**.
     1. On the resultant screen, click **Save**.
@@ -341,7 +341,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
 
 1. Click **Author** on the left pane.
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
-   :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text=The screen on which the resource is selected"":::
+   :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text="The screen on which the resource is selected":::
 1. Click **Debug**. The below screenshot illustrates a successful execution of a debug operation.
    :::image type="content" source="images/debug-successful-execution.png" alt-text="The screen on which a debug operation is successfully executed":::
    
@@ -471,7 +471,7 @@ Obtain the storage account information by performing the following steps:
 1. Make a note of the value in the **URL** text box. This is the **StorageContainerURL** that will be used during the PowerBi parameter prompt.
 
 1. Click **Overview** on the left pane, and click on the **rawdata1** folder.
-   :::image type="content" source="images/rawdata1-folder-to-select.png" alt-text="":::
+   :::image type="content" source="images/rawdata1-folder-to-select.png" alt-text="The screen displaying the rawdata1 folder to select":::
 1. Copy the names of the four listed files.
     1. Prepend **rawdata1/** to the names you have copied, for example, rawdata1/PD4_Business Continuity_ZID.csv.  The combined name will be the name of the files which will be used during the PowerBi parameter prompt.
 1. Click **Access keys** on the left pane.
