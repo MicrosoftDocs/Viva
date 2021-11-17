@@ -24,7 +24,7 @@ The Briefing email helps you stay in control of your calendar and be intentional
 * Suggested focus time you can schedule to help get independent work done.
 
 >[!Important]
->Briefing is available for Microsoft 365 Enterprise users with Exchange Online mailboxes in English and Spanish.
+>Briefing is available for Microsoft 365 Enterprise users with Exchange Online mailboxes that are in a [supported language](be-languages.md).
 
 ## Why am I getting this?
 

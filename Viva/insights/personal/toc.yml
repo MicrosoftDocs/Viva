@@ -70,6 +70,8 @@ items:
                   href: /Briefing/be-manager.md
             - name: Settings
               href: Briefing/be-settings.md
+            - name: Languages
+              href: Briefing/be-languages.md
             - name: FAQ
               href: Briefing/be-faqs.yml
         - name: Outlook add-in
