@@ -334,8 +334,8 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
 #### To execute the pipeline manually
 
 1. Launch the data factory created earlier, and click **Open the Azure Data Factory Studio**.
-> [!NOTE]
-> Data factory is the one created during deployment of arm template for data factory creation for MultiTenant.
+   > [!NOTE]
+   > Data factory is the one created during deployment of arm template for data factory creation for MultiTenant.
 
 :::image type="content" source="images/launching-azure-data-factory-studio.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
 
@@ -390,8 +390,8 @@ Information needed for this PowerBi are the .csv files downloaded from the Busin
    :::image type="content" source="images/updating-parameters-request.png" alt-text="The screen on which parameters are updated":::
 3. Click **Load**.
 
-> [!NOTE]
-> Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
+   > [!NOTE]
+   > Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
 
 ### Adhoc with oData approach
 
@@ -500,12 +500,12 @@ Obtain the storage account information by performing the following steps:
    :::image type="content" source="images/entering-storage-key.png" alt-text="The screen on which storage key is entered":::
 1. Click **Connect**.
 
-> [!NOTE]
-> Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
+   > [!NOTE]
+   > Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
 
 **Example 1**
 
-To obtain an insight the look of the report by a tenant, perform the following steps:
+To obtain an insight into the look of the report by a tenant, perform the following steps:
 
 1. On the **Settings** screen, from the **Select an organizational attribute to view the report by**  drop-down list, choose the Tenant identifier attribute.
    :::image type="content" source="images/selecting-tenant-identifier-pages.png" alt-text="The screen on which you select tenant attributes":::
