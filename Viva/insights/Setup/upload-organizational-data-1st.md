@@ -169,7 +169,7 @@ If validation succeeds, in the **Validation results** section, the page displays
 
 After successful validation, Workplace Analytics processes your new data.
 
-You can select **Settings** > **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
+You can select **Data sources** > **Organizational data** to see the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
 On this page, you have the following options:
 
