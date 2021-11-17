@@ -6,6 +6,7 @@ author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
+ms.collection: m365initiative-viva-insights
 ms.prod: wpa
 manager: scott.ruble
 audience: Admin
@@ -15,7 +16,9 @@ audience: Admin
 
 As a manager or team lead, Microsoft Viva Insights shows you insights and suggested actions based on your personal habits. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
-**My team** within the Viva Insights app in Microsoft Teams is available for those with a Microsoft Viva Insights license. Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section.
+**My team** within the Viva Insights app in Microsoft Teams is available for teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md).
+
+Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section.
 
 ![My team page in Viva Insights in Teams.](../images/wpa/use/myteam-2.png)
 
