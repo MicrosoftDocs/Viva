@@ -76,6 +76,8 @@ items:
                     href: personal/Briefing/be-time.md
               - name: Settings
                 href: personal/Briefing/be-settings.md
+              - name: Languages
+                href: personal/Briefing/be-languages.md
               - name: FAQ
                 href: personal/Briefing/be-faqs.yml
           - name: Outlook add-in
