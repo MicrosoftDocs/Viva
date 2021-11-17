@@ -420,8 +420,8 @@ Information needed for this PowerBi will be the **Get results** links for the Bu
    << MultiTenant_BCD_oData_Example.pbit>>
    :::image type="content" source="images/MultiTenant-BCD-oData-Example.png" alt-text="The screen displaying a report to launch":::
 
-  > [!NOTE]
-  > Hover over the **Information** icon for further details on the parameter requirement.
+   > [!NOTE]
+   > Hover over the **Information** icon for further details on the parameter requirement.
   :::image type="content" source="images/MultiTenant-BCD-oData-Example-information.png" alt-text="The screen displaying the Hover-over option":::
 
 2. Update the **Parameters** request with the links copied from each tenant, as shown in the below screenshot.
@@ -434,13 +434,14 @@ Information needed for this PowerBi will be the **Get results** links for the Bu
    
 7. Click **Sign in** and click **User other account**.
    :::image type="content" source="images/use-another-account-option.png" alt-text="The screen from which you can choose to sign in as another user":::
+
    The **OData feed** screen post-signing in as another user is depicted in the below screenshot.
    :::image type="content" source="images/post-sign-in-odata-feed.png" alt-text="The OData feed screen after signing in as a different user":::
 8. Repeat the sign-in step for each tenant's oData connection.
 9. Click **Connect**.
 
-> [!NOTE]
-> Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
+   > [!NOTE]
+   > Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
 
 ### Automated pipeline approach
 
