@@ -36,8 +36,8 @@ The most important task when planning a pilot is thoughtfully selecting the part
 
 A great place to start is to ask your stakeholders and department managers which teams they think would benefit from the assistance offered in the Briefing email. The pilot should also extend to key people in IT, Training, Corporate communications, and your Help desk. This allows for those in key roles in your organization to have an opportunity to familiarize themselves with the capabilities of the Briefing email.
 
- > [!Tip]
- > When selecting a group of people for your Briefing pilot, be sure to include those who check email on Adaptive-compatible clients. The [Adaptive version](be-overview.md#adaptive-or-html-version) ensures users get the optimal experience with links to open tasks, upcoming meetings, related documents, and book suggested focus time, all within the email.
+>[!Tip]
+>When selecting a group of people for your Briefing pilot, be sure to include those who check email on Adaptive-compatible clients. The [Adaptive version](be-overview.md#adaptive-or-html-version) ensures users get the optimal experience with links to open tasks, upcoming meetings, related documents, and book suggested focus time, all within the email.
 
 You can control who receives the Briefing email in your pilot in one of the following ways:
 
@@ -74,7 +74,7 @@ It's crucial to the success of your pilot that you educate pilot participants on
 
 The following tips can help ensure the success of your pilot:
 
-* Remember the Briefing email is enabled by default for everyone with an English or Spanish language mailbox. You can use [PowerShell](be-admin.md) to choose who gets the Briefing email first.
+* Remember the Briefing email is enabled by default for everyone with an Exchange Online mailbox in a [supported language](be-languages.md). You can use [PowerShell](be-admin.md) to choose who gets the Briefing email first.
 * Before beginning a pilot, confirm that all pilot participants have active Exchange Online licenses.
 * Throughout a pilot, meet with your project stakeholders to review user feedback and help desk tickets to ensure the pilot is running smoothly. Make any adjustments as necessary.
 
