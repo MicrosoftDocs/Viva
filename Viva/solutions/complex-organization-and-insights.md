@@ -466,8 +466,10 @@ Obtain the storage account information by performing the following steps:
    :::image type="content" source="images/filtering-for-storage-account.png" alt-text="The screen on which you filter for a specific storage account to select it":::
 1. Click the link of the storage account. The screen containing the details of the chosen storage account appears.
 1. Click **+ Container**.
+
    :::image type="content" source="images/containers-screen.png" alt-text="The Containers screen regarding a specific storage account":::
-1. Click **...** and select the **Container properties**. The scree displaying the data of properties of the container appears.
+
+1. Click **...** and select the **Container properties**. The screen displaying the data of properties of the container appears.
    :::image type="content" source="images/selecting-container-properties.png" alt-text="The screen displaying properties data for the container":::
 1. Make a note of the value in the **URL** text box. This is the **StorageContainerURL** that will be used during the PowerBi parameter prompt.
 
@@ -486,8 +488,8 @@ Obtain the storage account information by performing the following steps:
 
    << MultiTenant_BCD_StorageAccount_Example.pbit>>
    :::image type="content" source="images/MultiTenant-BCD-StorageAccount-Example.png" alt-text="The screen displaying the PowerBi report":::
-> [!NOTE]
-> Hover over the **Information** icon for further details on the parameter requirement.
+   > [!NOTE]
+   > Hover over the **Information** icon for further details on the parameter requirement.
   :::image type="content" source="images/MultiTenant-BCD-StorageAccount-Example-information.png" alt-text="The screen displaying the option to hover over Information icon":::
 
 2. Update the **Parameters** request.  Based on the previous example, **PubD** and **PD4** are the values for **Tenant 1** and **Tenant 2**, respectively; the **StorageContainerURL** is what was recorded earlier (in a step in [Information gathering process](#information-gathering-process)).
