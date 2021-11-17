@@ -25,9 +25,9 @@ The Viva Insights sponsor works with the Viva Insights Administrator and Azure A
 
 Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
-After you have identified the population in scope, the Azure AD Privileged Role Admin assigns Viva Insights or Workplace Analytics licenses to users in this population. Note that users can find out for themselves whether they've been assigned a license; see [Subscription status](#subscription-status).
+After you have identified the population in scope, the Azure AD Privileged Role Admin assigns Viva Insights or Workplace Analytics licenses to users in this population. Note that people can find out for themselves whether they've been assigned a license; see [Subscription status](#subscription-status).
 
-The assignment of licenses affects the user counts that are shown in **Workplace Analytics** > **Data sources**. See [Origin of data counts](../use/office-365-data.md#origin-of-data-counts) for details.
+The assignment of licenses affects the measured population that is shown in **Data sources**. See [Origin of data counts](../use/office-365-data.md#origin-of-data-counts) for details.
 
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](environment-requirements.md).
