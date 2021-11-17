@@ -1,9 +1,9 @@
 ---
 
-title: Business process analysis in Workplace Analytics 
-description: Learn how to analyze business processes in Workplace Analytics
-author: paul9955
-ms.author: v-pausch
+title: Business process analysis for Viva Insights 
+description: Learn how to analyze business processes for Viva Insights
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -17,7 +17,7 @@ When you and your co-workers perform an organized series of steps to reach a goa
 
 You can improve your business processes by analyzing them; for example, by measuring their cost in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees have been participating in them.
 
-To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
+To make these determinations, conduct an analysis by running a query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
 
 Use the following procedures to analyze a business process:
 
@@ -52,7 +52,7 @@ Every business process that you create must be based on a data set. For that rea
 
 In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
 
-1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com), and on the left navigation pane, select **Analyze** > **Business process analysis**.
 2. Select **Data sets**, and then select **Add data set**.
 
    ![new data set.](../images/wpa/tutorials/new-data-set.png)
@@ -73,7 +73,7 @@ In this example, we restrict the analysis data to meetings of a particular lengt
 
    ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
 
-10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights or Workplace Analytics admin has uploaded.)
+10. To the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The available choices are determined by the latest available [organizational data](../setup/prepare-organizational-data.md).)
 
     ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 
@@ -117,7 +117,7 @@ We will describe the creation of a business process in two procedures:
 
 In these steps, we create and name an empty business process.
 
-1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
+1. In Workplace Analytics, on the left navigation pane, select **Analyze** > **Business process analysis**.
 
    ![business process list view.](../images/wpa/tutorials/add-biz-process.png)
 
@@ -126,22 +126,19 @@ In these steps, we create and name an empty business process.
    ![Add a business process.](../images/wpa/tutorials/new-business-process.png)
 
 3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales interactions** as the name of the business process.) Select **Continue**.
-
 4. For **Data set**, select the data set that we recently created, **SalesDataSet**.
-
 5. For **Content type**, leave **Meetings** selected, and select **Continue**.
-
 6. Go to the following procedure.
 
 #### Assemble a list of keywords
 
-**Role:** Analyst
+**Role**: Analyst
 
-In this procedure, you assemble the vocabulary that constitutes the business process. Start on the **New business process** page:
+For this task, you assemble the vocabulary that constitutes the business process on the **New business process** page:
 
 ![Keyword selection.](../images/wpa/tutorials/keyword-page.png)
 
-As an analyst, your goal now is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those words as cues to uncover additional content that it deems relevant. In this example, that means words related to sales interactions.
+As an analyst, your goal is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find these keywords. You start by typing words based on keywords that people in your organization typically use when referring to business processes. The system uses these words as cues to uncover additional content that might be relevant. The following example steps are to find words relating to sales interactions.
 
 1. In the field marked **Enter a search term**, type **purchase** and press Enter. The system searches for content that's related to "purchase" and displays the results in a table.
 
@@ -307,7 +304,7 @@ You can use this setting to control whether to show legible or hashed subject li
 
 If your Viva Insights or Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
 
-However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Viva Insights or Workplace Analytics admin and ask them to set the **Hash subject lines** option to **No**.
+However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Viva Insights admin and ask them to set the **Hash subject lines** option to **No**.
 
 ### Exclude terms from subject lines
 

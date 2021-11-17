@@ -27,7 +27,7 @@ Use these personas to help identify who will gather data, make decisions, and pe
 ## Personas
 
 * Viva Insights sponsor - The initial point person for getting Viva Insights set up
-* Viva Insights or Workplace Analytics admin - Gets access to the Control settings for setting up the system defaults and privacy settings, and uploading and verifying organizational data
+* Viva Insights Administrator - Gets access to the Control settings for setting up the system defaults and privacy settings, and uploading and verifying organizational data
 * Microsoft 365 global admin
 * Exchange admin
 * Human resources (HR) information system admin
