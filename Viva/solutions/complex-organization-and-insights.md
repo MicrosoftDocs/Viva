@@ -337,7 +337,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
    > [!NOTE]
    > Data factory is the one created during deployment of arm template for data factory creation for MultiTenant.
 
-:::image type="content" source="images/launching-azure-data-factory-studio.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
+   :::image type="content" source="images/launching-azure-data-factory-studio.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
 
 1. Click **Author** on the left pane.
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
@@ -383,7 +383,7 @@ Information needed for this PowerBi are the .csv files downloaded from the Busin
    << MultiTenant_BCD_LocalStore_Example.pbit>>
 
    > [!NOTE]
-   > Hover over the **Information** icon for further details on the parameter requirement.
+   > Hover over the **Information** icon for further details on the parameter requirement, as shown in the below screenshot.
   :::image type="content" source="images/hover-over-information-icon.png" alt-text="The screen on which you can hover over the Information icon":::
 
 2. Update the **Parameters** request with the links copied from each tenant, as shown in the below screenshot.
@@ -421,7 +421,7 @@ Information needed for this PowerBi will be the **Get results** links for the Bu
    :::image type="content" source="images/MultiTenant-BCD-oData-Example.png" alt-text="The screen displaying a report to launch":::
 
    > [!NOTE]
-   > Hover over the **Information** icon for further details on the parameter requirement.
+   > Hover over the **Information** icon, as shown in the below screenshot.
   :::image type="content" source="images/MultiTenant-BCD-oData-Example-information.png" alt-text="The screen displaying the Hover-over option":::
 
 2. Update the **Parameters** request with the links copied from each tenant, as shown in the below screenshot.
@@ -483,14 +483,14 @@ Obtain the storage account information by performing the following steps:
        :::image type="content" source="images/selecting-show-keys.png" alt-text="The screen on which you select Show keys":::
     1. Copy the value of one of the listed keys. This is the value that will be used during the PowerBi parameter prompt.
 
-#### Launch the  template of PowerBi
+#### Launch the template of PowerBi
 
 1. Launch the PowerBi report provided by Viva Solutions team member (a download location needed for this).
 
    << MultiTenant_BCD_StorageAccount_Example.pbit>>
    :::image type="content" source="images/MultiTenant-BCD-StorageAccount-Example.png" alt-text="The screen displaying the PowerBi report":::
    > [!NOTE]
-   > Hover over the **Information** icon for further details on the parameter requirement.
+   > Hover over the **Information** icon for further details, as shown in the below screenshot.
   :::image type="content" source="images/MultiTenant-BCD-StorageAccount-Example-information.png" alt-text="The screen displaying the option to hover over Information icon":::
 
 2. Update the **Parameters** request.  Based on the previous example, **PubD** and **PD4** are the values for **Tenant 1** and **Tenant 2**, respectively; the **StorageContainerURL** is what was recorded earlier (in a step in [Information gathering process](#information-gathering-process)).
