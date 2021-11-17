@@ -1,7 +1,7 @@
 ---
 
 title: Complex organization and insights
-description: Learn about a complex organization and its associated Viva insights
+description: Learn about a complex organization and its associated Viva Insights
 author: v-smandalika
 ms.author: v-smandalika
 ms.topic: article
@@ -22,7 +22,7 @@ Complex organizations are Microsoft Azure Active Directory (AAD) customers who u
 
 ## Mergers and acquisitions
 
-A business merger between two companies resulting in an organization made up with multiple Office365 tenants and separate AADs. The tenants either choose to remain separate and collaborate together or merge into a single tenant (For example, M&A: Bayer & Monsanto).
+A business merger between two companies resulting in an organization made up with multiple Office365 tenants and separate AADs. The tenants either choose to remain separate and collaborate together or merge into a single tenant (Fo8r example, M&A: Bayer & Monsanto).
 
 The concept of Mergers and acquisitions is depicted in the screenshot below.
 
@@ -41,9 +41,9 @@ The concept of conglomerates is depicted in the screenshot below.
 
 Complex organizations represent challenges for deriving insights. Often, the task falls to analyzing each of the tenants that make up the complex organization independently and comparing them manually. The process can be highly manual in nature. This article provides a growing number of examples that explain how to overcome manual processes. These examples also include those that lead to output visualizations.
 
-## Complex organizations and Viva insights
+## Complex organizations and Viva Insights
 
-Microsoft Viva insights provide information and research-based behavioral insights into:
+Microsoft Viva Insights provide information and research-based behavioral insights into:
 
 - The tasks an organization has to execute to get work done. For example:
     - how to enhance organizational agility
@@ -54,7 +54,7 @@ Microsoft Viva insights provide information and research-based behavioral insigh
 Advanced analytics for organizations comprised of multiple Viva Insights tenants can be enabled by:
 
 - combining the data in a central location, and
-- combining that data with additional data sources.
+- combining that data with other data sources.
 
 A few starter use cases that would be enabled by this data combination strategy are:
 
@@ -65,7 +65,7 @@ A few starter use cases that would be enabled by this data combination strategy 
   
   :::image type="content" source="images/use case - 3.png" alt-text="Data combined from Viva Insights with external sources":::
 
-There are different methods and data storage locations possible as storage accounts, sql databases and synapse to name a few. An example leveraging Azure data factory, Viva Insights organizational data, and azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
+There are different ways to create a data pipeline to copy data from the source to the destination. There are also different data storage locations that can be used, such as storage accounts, SQL databases, synapse, and so on. An example leveraging Azure data factory, Viva Insights organizational data, and Azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
 
 ## Preconditions
 
@@ -73,10 +73,11 @@ The following preconditions are to be fulfilled, prior to continuing with its an
 
 ### Organizational data
 
-Organizational data is a key requirement for Viva Insights and further advanced analysis. It can be used to enable joins with additional data sources (as sales data), and more granular person attribute analysis, to name a couple.
+Organizational data is a key requirement for Viva Insights and further advanced analysis. The organizational data relates to attributes such as employee's title, manager, group, level, and so on. The data with these attributes is referred to as general required organizational data. General required organizational data is further described in [Viva Insights prepare organizational data](../insights/Use/organizational-data.md).
 
-General required organizational data is further described in [Viva Insights prepare organizational data](../insights/Use/organizational-data.md). For an insight into advanced analysis, the following example can be uploaded into Viva Insights.
+It is essential that only such data (with the attributes mentioned above) is uploaded into Viva Insights for analysis. Only then, the analysis output can integrate with other data sources (for example, sales data and survey data) for advanced analysis.
 
+For an insight into advanced analysis, the following schema can be used in the file that is uploaded into Viva Insights.
 
 |Attribute Name  |Attribute Description  |
 |---------|---------|
@@ -88,21 +89,23 @@ This identifier can be the manager's primary SMTP address or email alias. It mus
 |FunctionType  |    The job function that the employee performs. This job function is specific to the organization. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../insights/Use/explore-intro.md) features.     |
 |LevelDesignation    |      The employee’s level, which is represented as a string. This level is specific to the organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.   |
 |Layer     |      The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../insights/Use/explore-intro.md) features.   |
-|SupervisorIndicator     |    The attribute used to view the habits of people managers or influencers in the organization in Power BI visualizations. This attribute powers the Overview table, the Generated Workload charts that are generated when you use a template that requires it.
-This attribute indicates the manager status of each employee as IC (individual contributor), Mngr (manager), or Mngr+ (manager of managers); however, if a different nomenclature is used in the file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in the organizational data. |
+|SupervisorIndicator     |    The attribute used to view the habits of people managers or influencers in the organization in Power BI visualizations. This attribute powers the Overview table, the Workload charts that are generated when you use a template that requires this attribute.
+This attribute indicates the manager status of each employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers); however, if a different nomenclature is used in the file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in the organizational data. |
 |TimeZone     |    Time zone in which the employee works. This attribute must be one of the time zones in [Time zones for Workplace Analytics](../insights/Use/Timezones-for-workplace-analytics.md). If no time zone is mapped to for an employee, the system will use the default time zone, which is Pacific Standard Time.     |
 |TenantInd     |    Unique name for the Tenant. For example, TenantA, TenantB, TenantC, and so on.     |
 |Location   |     Geographic region or other location detail.    |
-|HashId    |      Unique Hashed identifier for the employee. This attribute enables further advanced analysis on the Viva insights query results.   |
+|HashId    |      Unique Hashed identifier for the employee. This attribute enables further advanced analysis on the Viva Insights query results.   |
 
 **Example:  Sample of an organizational data file**
+
+
 
 
 ### Viva Insights Business Continuity dashboard
 
 Set up the [Business Continuity](../insights/Tutorials/power-bi-bc.md) dashboard for your tenant with the following modification:
 
--	In the **Organizational data** section of the **Business Continuity and Hourly Collaboration** report, add **HashId** and **TenantInd** columns to the list. Additional columns can be added for this report if needed, for analysis. The below screenshot illustrates the report:
+-	In the **Organizational data** section of the **Business Continuity and Hourly Collaboration** report, add **HashId** and **TenantInd** columns to the list. More columns can be added for this report if needed, for analysis. The below screenshot illustrates the report:
     :::image type="content" source="images/organizational-data.png" alt-text="Organizational data section of the Business Continuity and Hourly Collaboration report":::
 
 ### Azure
@@ -112,7 +115,7 @@ For Adhoc with oData and Automated Data Pipeline, you will need:
 - An application registration
 - Registered application's secret for each tenant from which you are planning to pull Viva Insights query results.
 
-You will also need an azure subscription to host the data from the two tenants.
+You will also need an Azure subscription to host the data from the two tenants.
 
 1. To register an application, accomplish Steps 1 to 5 in the [Automate Exports](automate-exports.md) for each tenant.
     1. To obtain a secret for the registered application, click **Certificates & secrets** from your newly registered application in Azure Active Directory.
@@ -132,7 +135,7 @@ The template creates the following resources:
 
 ## Solution option samples
 
-Using the case for the need to pull query data from Viva insights from multiple tenants, there are a few sample solutions as described below:
+Using the case for the need to pull query data from Viva Insights from multiple tenants, there are a few sample solutions as described below:
 
 ### Adhoc manual approach
 
@@ -178,7 +181,7 @@ The setup details are available [here](#data-pipeline---automated).
     1. On the resultant screen, click **Save**. 
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Click **Save**.
-    1. Fill and select the highlighted items.
+    1. Provide values for the highlighted items.
        :::image type="content" source="images/filling-selecting-highlighted-fields.png" alt-text="The screen on which the fields to be filled are highlighted":::.
        An example of filled values for the highlighted items is shown in the below screenshot.
        :::image type="content" source="images/highlighted-fields-filled.png" alt-text="The screen displaying the filled values for the highlighted fields":::
@@ -249,7 +252,7 @@ Below are the examples of:
 
 ## Use case
 
-There are two tenants with oData URL in each as illustrated in [Tenant 1](#tenant-1) and [Tenant 2](#tenant-2). The pre-requisite AAD App Registration and secret have been created. The registered application has been consented to access Microsoft Viva Insights.
+There are two tenants with oData URL in each as illustrated in [Tenant 1](#tenant-1) and [Tenant 2](#tenant-2). 
 
 ### Tenant-1
 
@@ -275,10 +278,12 @@ https://workplaceanalytics.office.com/10c5ca3c-a4d2-424d-8af3-f0efd6c79c99/scope
 1. Generate the secrets in Key Vault.
     1. Launch the Key Vault (created during deployment of arm template for data factory creation for MultiTenant).
     1. Click **Secrets** on the left pane, and click **+ Generate/Import**.
-    1. Create the secrets for each oData source listed in the **odatasources.txt** file, using an example that contains a data source and a file depicted in the screenshot below.
+    1. Create the secrets using the names in the below table and screenshot.
+       > [!NOTE]
+       > The two examples below the table describe the process of creating a secret.
 
-
-    |Secret Name (based on above example)  |Value description  |
+ 
+    |Secret Name (based on the examples Tenant 1 and Tenant 2)  |Value description  |
     |---------|---------|
     |tenantid1     |    AAD TenantId for Tenant 1. Example: bd382938-yyyy-yyyy-yyyy-yyyyyyyyyyyy     |
     |servicePrincipal1     |    Service Principal for tenant 1. Example: lld32e908-yyyy-yyyy-yyyy-yyyyyyyyyyyy     |
@@ -286,6 +291,18 @@ https://workplaceanalytics.office.com/10c5ca3c-a4d2-424d-8af3-f0efd6c79c99/scope
     |tenantid2     |     AAD TenantId for tenant 2. Example: bd382938-xxxx-xxxx-xxxx-xxxxxxxxxxxx    |
     |servicePrincipal2     |   Service Principal for tenant 2. Example: hh2bd38d-xxxx-xxxx-xxxx-xxxxxxxxxxxx      |
     |SPSecret2     |    Credential for servicePrincipal2 for tenant 2. Example: bjdIOLUE.j23iu2!#     |
+
+    **Example 1**: This example provides a sample oData URL for each of the tenants, namely Tenant 1 and Tenant 2, in which the names of the secrets to be created are present.
+
+    **Tenant 1**: In this example, the **tenantid1**, **servicePrincipal1**, and **MTWpaSecret1** values are the secrets to be created in the keyvault.
+
+    https://workplaceanalytics.office.com/2de6681a-42d5-46fa-a858-2660f5743815/scopes/e0d8d313-6075-4c25-b714-98843532ae61/jobsodata/a6ca4178-f30b-4c7a-8c8e-38f53fe1d2d0/GroupToGroup,tenantid1,https://workplaceanalytics.office.com,servicePrincipal1,MTWpaSecret1,GroupToGroup,GroupToGroup
+
+    **Tenant 2**: In this example, the values **tenantid2**, **servicePrincipal2**, and **SPSecret2** are the secrets to be created in the keyvault.
+
+    https://workplaceanalytics.office.com/10c5ca3c-a4d2-424d-8af3-f0efd6c79c99/scopes/217c5147-e12b-448c-9672-25b79a9ec0f0/jobsodata/ae3270dc-ba5a-4c40-b6b9-81fd9b5a4eac/GroupToGroup,tenantid2,https://workplaceanalytics.office.com,servicePrincipal2,SPSecret2,GroupToGroup,WpAAIGroupToGroup
+
+    **Example 2**: This example describes the step involved in creating a secret, using the **tenantid1** value from the **Tenant 1** example.
 
 **Example using a datasource** 
 
@@ -325,7 +342,7 @@ The following requirements are to be fulfilled prior to viewing the dashboard th
  
 ## Information gathering
 
-Information needed for this PowerBi will be the links to the Business Continuity Dashboard reports. This is what was executed in the [Required](#viva-insights-business-continuity-dashboard) section earlier.
+Information needed for this PowerBi are the .csv files downloaded from the Business Continuity Dashboard reports. The reports are what is executed as part of the Business Continuity setup in [Viva Insights business continuity dashboard](#viva-insights-business-continuity-dashboard).
 
 1. Click **Queries** on the left pane, and click the **Results** tab.
 1. Click the **Download** icon corresponding to each of query.
@@ -358,7 +375,7 @@ The following conditions are to be complied with prior to visualizing the dashbo
 
 ## Gathering of information
 
-Information needed for this PowerBi will be the links to the Business Continuity Dashboard reports. This is what was executed in the Required section earlier.
+Information needed for this PowerBi will be the **Get results** links for the Business Continuity Dashboard reports. The reports are what is executed as part of the Business Continuity setup in [Viva Insights business continuity dashboard](#viva-insights-business-continuity-dashboard).
 
 1. Click **Queries** on the left pane, and click the **Results** tab.
 1. Click the **Link** icon corresponding to each of query.
