@@ -18,9 +18,9 @@ Briefings are available in the following world languages.
 
 |Supported languages |
 |------- |
-|English |
-|French |
-|German |
-|Italian |
-|Portuguese |
-|Spanish |
+|English (EN)|
+|French (FR) |
+|German (DE) |
+|Italian (IT) |
+|Portuguese (PT) |
+|Spanish (ES) |
