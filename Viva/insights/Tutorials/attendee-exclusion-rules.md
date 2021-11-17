@@ -2,8 +2,8 @@
 
 title: Attendee exclusion rules in Workplace Analytics 
 description: Attendee exclusion rules -- Introduction and walkthrough   
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa

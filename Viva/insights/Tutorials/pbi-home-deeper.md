@@ -3,7 +3,7 @@
 title: In-depth insights in Power BI
 description: Learn how to use Power BI to deep dive into insights about your organization
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -14,7 +14,7 @@ audience: Admin
 
 # In-depth insights in Power BI
 
-**Owner** - Workplace Analytics Analyst or Analyst limited have access to these insights
+**Owner** - Analyst or Analyst limited
 
 As a business decision maker, you can use the Workplace Analytics **Home** page to see your organization's current work conditions and trends. With these insights, you can identify “opportunity groups” (groups that you might want to act on) and do detailed analysis with the drill-down capabilities in Power BI.
 

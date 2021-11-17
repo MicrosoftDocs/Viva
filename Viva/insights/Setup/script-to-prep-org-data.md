@@ -3,8 +3,8 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Use a script to prepare organizational data in Workplace Analytics
 description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -17,7 +17,7 @@ audience: Admin
 
 ## Introduction
 
-Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
+Whether you are onboarding people for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create an organizational-data file. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
 ## Prerequisites
 

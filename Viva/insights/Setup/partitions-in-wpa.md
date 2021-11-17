@@ -99,7 +99,7 @@ Viva Insights Administrators create partitions on **Analyst settings**. This tas
 2. In **Controls** > **Analyst settings**, select **Access control**.
 3. Select **New partition**:
 
-    ![New partition option.](../images/wpa/setup/access-control-page.png)
+    ![New partition option.](../images/wpa/setup/access-control.png)
 
 4. Enter the name of the new partition and optionally type a description.
 5. In **Select employees for partition** > **Create filters**, add one or more filters to define what employee data can be accessed within this new partition:
