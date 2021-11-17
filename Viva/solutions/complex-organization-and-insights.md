@@ -382,13 +382,13 @@ Information needed for this PowerBi are the .csv files downloaded from the Busin
    :::image type="content" source="images/MultiTenant-BCD-LocalStore-Example.png" alt-text="The screen containing the report to launch":::
    << MultiTenant_BCD_LocalStore_Example.pbit>>
 
-> [!NOTE]
-> Hover over the **Information** icon for further details on the parameter requirement.
+   > [!NOTE]
+   > Hover over the **Information** icon for further details on the parameter requirement.
   :::image type="content" source="images/hover-over-information-icon.png" alt-text="The screen on which you can hover over the Information icon":::
 
-1. Update the **Parameters** request with the links copied from each tenant, as shown in the below screenshot.
+2. Update the **Parameters** request with the links copied from each tenant, as shown in the below screenshot.
    :::image type="content" source="images/updating-parameters-request.png" alt-text="The screen on which parameters are updated":::
-1. Click **Load**.
+3. Click **Load**.
 
 > [!NOTE]
 > Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
@@ -420,23 +420,24 @@ Information needed for this PowerBi will be the **Get results** links for the Bu
    << MultiTenant_BCD_oData_Example.pbit>>
    :::image type="content" source="images/MultiTenant-BCD-oData-Example.png" alt-text="The screen displaying a report to launch":::
 
-> [!NOTE]
-> Hover over the **Information** icon for further details on the parameter requirement.
+  > [!NOTE]
+  > Hover over the **Information** icon for further details on the parameter requirement.
   :::image type="content" source="images/MultiTenant-BCD-oData-Example-information.png" alt-text="The screen displaying the Hover-over option":::
+
 2. Update the **Parameters** request with the links copied from each tenant, as shown in the below screenshot.
    :::image type="content" source="images/MultiTenant-BCD-oData-Example-links-copied.png" alt-text="The screen on which parameters values are updated":::
-1. Click **Load**.
-1. If prompted for privacy levels, select **Organizational**.
+3. Click **Load**.
+4. If prompted for privacy levels, select **Organizational**.
    :::image type="content" source="images/selecting-organizational-as-privacy-level.png" alt-text="The screen on which values for privacy levels are chosen":::
-1. When prompted with the sign-in page, select **Organizational account** on the left pane.
-1. From the **Select which level to apply these settings to** drop-down list, choose the tenant-level link.
+5. When prompted with the sign-in page, select **Organizational account** on the left pane.
+6. From the **Select which level to apply these settings to** drop-down list, choose the tenant-level link.
    
-1. Click **Sign in** and click **User other account**.
+7. Click **Sign in** and click **User other account**.
    :::image type="content" source="images/use-another-account-option.png" alt-text="The screen from which you can choose to sign in as another user":::
    The **OData feed** screen post-signing in as another user is depicted in the below screenshot.
    :::image type="content" source="images/post-sign-in-odata-feed.png" alt-text="The OData feed screen after signing in as a different user":::
-1. Repeat the sign-in step for each tenant's oData connection.
-1. Click **Connect**.
+8. Repeat the sign-in step for each tenant's oData connection.
+9. Click **Connect**.
 
 > [!NOTE]
 > Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
