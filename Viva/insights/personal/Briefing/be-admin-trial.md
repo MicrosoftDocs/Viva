@@ -15,7 +15,7 @@ audience: Admin
 # Admin preview
 
 >[!Note]
->Between September and November 2021, the personal insights included in your daily Briefing email will use the Microsoft Viva brand. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+>Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
 
 As an admin for your organization, you are eligible to receive the Briefing email before people in your organization start receiving it.
 
