@@ -14,9 +14,9 @@ audience: Admin
 
 # My team
 
-As a manager or team lead, Microsoft Viva Insights shows you insights and suggested actions based on your personal habits. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
+As a manager or team lead, you can see insights and suggested actions based on your personal habits in **My team** within the Microsoft Viva Insights app in Microsoft Teams. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
-**My team** within the Viva Insights app in Microsoft Teams is available for teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section.
+Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section. For more details about what's required to get **My team**, see [Admin tasks](#admin-tasks).
 
 ![My team page in Viva Insights in Teams.](../images/wpa/use/myteam-2.png)
 
@@ -26,7 +26,7 @@ When data is processed for Group insights, Microsoft protects employee privacy a
 
 ## Admin tasks
 
-Ask your admin to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**My team** is available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 
