@@ -103,9 +103,9 @@ Before you can analyze a business process within your organization, you need to 
 
 ### Business process steps
 
-In this example, we want to examine meetings of a particular length that sales representatives attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [dataset steps](#dataset-steps).
+The following example shows how to examine a specific length of meetings where one of more sales representatives attended. To make sure the data is restricted to the Sales group, the steps use the "SalesDataSet" that was defined in [Dataset steps](#dataset-steps).
 
-We will describe the creation of a business process in two procedures:
+To create a business process, you need to do the following:
 
 1. [Create a new business process](#create-a-new-business-process)
 2. [Assemble a list of keywords](#assemble-a-list-of-keywords)
@@ -114,9 +114,9 @@ We will describe the creation of a business process in two procedures:
 
 **Role:** Analyst
 
-In these steps, we create and name an empty business process.
+Do the following to create and name a new business process.
 
-1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
+1. In Workplace Analytics, select **Analyze** > **Business process analysis**.
 
    ![business process list view.](../images/wpa/tutorials/add-biz-process.png)
 
@@ -124,68 +124,56 @@ In these steps, we create and name an empty business process.
 
    ![Add a business process.](../images/wpa/tutorials/new-business-process.png)
 
-3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales interactions** as the name of the business process.) Select **Continue**.
+3. In **New Business process**, enter a name and an optional description for this new business process, such as **Sales interactions**, and then select **Continue**.
+4. For **dataset**, select what dataset to use for this analysis, such as **SalesDataSet**.
+5. For **Content type**, keep **Meetings** selected, and then select **Continue**.
+6. Continue to the next section to define the keywords.
 
-4. For **dataset**, select the dataset that we recently created, **SalesDataSet**.
+#### Define keywords
 
-5. For **Content type**, leave **Meetings** selected, and select **Continue**.
+**Role**: Analyst
 
-6. Go to the following procedure.
-
-#### Assemble a list of keywords
-
-**Role:** Analyst
-
-In this procedure, you assemble the vocabulary that constitutes the business process. Start on the **New business process** page:
+Do the following to define the vocabulary for the business process. Start on the **New business process** page:
 
 ![Keyword selection.](../images/wpa/tutorials/keyword-page.png)
 
-As an analyst, your goal now is to find the keywords that most effectively represent the business process. The **New business process** mechanisms help you find those keywords. You start by typing words based on keywords that your users typically use when referring to the process. The system then takes those words as cues to uncover additional content that it deems relevant. In this example, that means words related to sales interactions.
+As an analyst, you need to find the keywords that most effectively represent the business process. The system can help you find these keywords. You start by entering words based on what users typically use when referring to the process. The system then takes these words as cues to uncover additional content that might be relevant. For example, the following defines words related to sales interactions.
 
 1. In the field marked **Enter a search term**, type **purchase** and press Enter. The system searches for content that's related to "purchase" and displays the results in a table.
 
    ![Results table.](../images/wpa/tutorials/result-words-2.png)
 
-2. (Optional) You might find it helpful to sort the values in the table's columns. Do this by selecting a header in the table (**Rank**, **Keyword**, **Attendee meeting hours**, or **Number of meetings**).
+2. You can optionally sort the values in the table's columns by selecting a header in the table, such as **Rank**, **Keyword**, **Attendee meeting hours**, or **Number of meetings**.
 
    >[!Note]
    >The Rank column indicates relevance ranking. In the preceding illustration, a rank of 1 indicates that the "account" keyword is the most relevant to the specified search term "purchase." The concept is similar to the ranking in web-page search results.
 
-3. Scan the words in the **Keyword** column. Which ones do you find relate most closely to the concept of "Sales activities" (the business process to be analyzed)?
+3. Scan the words in the **Keyword** column to find what relates most closely to the business process to be analyzed, such as "Sales activities."
 
-   To make sure you're looking at relevant content, you can examine these terms more closely in either of two ways:
+   To make sure you're looking at relevant content, you can examine these terms more closely, as follows:
 
-   * <u>Find related keywords</u>. Expand the keyword by selecting the ">" (greater-than) sign to its left. This shows multiple-word phrases that included the keyword. For example, if you expand the keyword **lead**, you might see "qualified lead" or "lead generation." For each keyword, you can see the **Number of meetings** that contained it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
+   * **Find related keywords** - Expand the keyword by selecting the ">" (greater-than) sign to its left. This shows multiple-word phrases that include the keyword. For example, if you expand the keyword **lead**, you might see "qualified lead" or "lead generation." For each keyword, you can see the **Number of meetings** that contain it in its subject line, and the amount of time spent in those meetings (**Attendee meeting hours**).
 
-   * <u>View the metadata of actual meetings.</u> Click the keyword. This opens a pane on the right side of the page that lists meetings whose subject lines contained this exact phrase, along with additional information such as number of attendees and whether the meeting is recurring. If these meetings are relevant to the business process, you might want to consider this keyword for your business process.
+   * **View the metadata of actual meetings** - Select a keyword to see a list of meetings whose subject lines contained this exact phrase, along with additional information such as the number of attendees and whether the meeting is recurring. If these meetings are relevant to the business process, consider selecting this keyword for your business process.
 
-4. After you decide that a keyword is relevant, include it into the business-process definition by completing these two steps:
-
-   a. Hover your mouse over the keyword's row to see an unselected checkbox to the left of the keyword.
+4. After you decide that a keyword is relevant, you can include it hovering your mouse over the keyword's row to see the checkbox to the left of it, and then select the checkbox for it. 
 
    ![Unselected term.](../images/wpa/tutorials/unchecked-box-2.png)
 
-   b. Then, select the checkbox:
-
-   ![Select term.](../images/wpa/tutorials/select-terms-2.png)
-
-5. With one or more terms checked, select **Add selected to** and then select **Included keywords**.
+5. After one or more terms are selected, select **Add selected to**, and then select **Included keywords**.
 
    ![Add terms to list.](../images/wpa/tutorials/add-terms-to-2.png)
 
-   After you include a term, it appears in the **Included keywords** list to the right of the results table:
+   After you include a term, you'll see it in the **Included keywords** list to the right of the results table:
 
    ![Term added to list.](../images/wpa/tutorials/added-to-list-50-2.png)
 
-6. (Optional) To explicitly _exclude_ terms from the keyword list, repeat the preceding step but after you select **Add selected to**, select **Excluded keywords**.
+6. Optionally, you can explicitly _exclude_ terms from the keyword list by repeating the previous step and select **Excluded keywords**.
 
    >[!Note]
-   >As you add keywords, the system becomes more context-aware. It automatically begins to uncover more content that's relevant to the keywords that you've added. It shows this new content in the results list.  
+   >As you add keywords, the system becomes more context-aware and will automatically start uncovering more content that's relevant to the keywords that you've added and will show it in the results list.  
 
-7. You might already be aware of words that your company uses for the business process and you'd like to add them as keywords directly, without first conducting a search (as described in the preceding steps). In this case, add keywords directly to the keyword list. To do this, under **Included keywords**, select **Add**, type the keyword that you want to add (or multiple keywords selected by semicolons), and press Enter.
-
-   Similarly, if there are words that you know you want to explicitly exclude, you can exclude them under **Excluded keywords**.
-
+7. You might already know the keywords your company uses for a business process. To manually enter them, select **Included keywords** > **Add**, and then enter the keyword (or multiple keywords separated by semicolons), and then press **Enter**. Similarly, for keywords you want to explicitly exclude, use the **Excluded keywords** option.
 8. Look at the numbers of meeting hours and meetings at the top of the page:
 
    ![Meeting hours.](../images/wpa/tutorials/meeting-hours.png)
@@ -204,21 +192,18 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
 Business processes can have the following status:
 
-* <u>Draft</u> &ndash; You are creating or editing the business process but you have not selected **Submit**.  
-
-* <u>In progress</u> &ndash; You've selected **Submit** and the business process is being processed by the system. The business process completes processing during the regular weekly processing of Workplace Analytics.
-
-* <u>Ready</u> &ndash; The business process has been successfully processed and can be used in queries in Workplace Analytics by an analyst in the same partition.
-
-* <u>Failed</u> &ndash; The processing of the business process failed. (If a business process that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+* **Draft** - For a draft business process that you are working on but haven't selected **Submit** for yet.  
+* **In progress** - After you **Submit** it and the system is processing it, which is done during the regularly scheduled weekly Microsoft 365 data processing cycle.
+* **Ready** - The business process was successfully processed and can be used in queries by an analyst in the same partition.
+* **Failed** - The processing failed. If a business process fails, you can ask for help. See [Get support](../overview/getting-support.md) for details.
 
    ![Business process statuses.](../images/wpa/tutorials/business-process-list-2.png)
 
 ### Business process actions
 
-After a business process has been created, it can be viewed, used, or deleted, but it cannot be edited (unless it is in Draft state). A business process can be deleted only if no recurring queries are using it. After you delete a business process, it cannot be recovered.
+After a business process is ready, you can view, use, or delete it. However, you cannot edit it, unless it is still in _Draft_ state. You can only delete a business process that's not being used in one or more reoccurring queries. After you delete a business process, it cannot be recovered.
 
-To view or delete a business process, first find it on the **Analyze** > **Business process analysis** page of Workplace Analytics, under the **Business processes** tab, and then use the **View** or **Delete** options.
+To view or delete a business process, go to **Analyze** > **Business process analysis** > **Business processes**,  and then use the **View** or **Delete** options.
 
 ## Analyze a business process
 
