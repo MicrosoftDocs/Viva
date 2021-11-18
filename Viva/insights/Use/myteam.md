@@ -16,7 +16,7 @@ audience: Admin
 
 As a manager or team lead, you can see insights and suggested actions based on your personal habits in **My team** within the Microsoft Viva Insights app in Microsoft Teams. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
-Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section. For more details about what's required to get **My team**, see [Admin tasks](#admin-tasks).
+Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section. See [Admin tasks](#admin-tasks) to learn what's required to get the **My team** page.
 
 ![My team page in Viva Insights in Teams.](../images/wpa/use/myteam-2.png)
 
