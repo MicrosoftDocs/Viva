@@ -22,7 +22,7 @@ Complex organizations are Microsoft Azure Active Directory (AAD) customers who u
 
 ## Mergers and acquisitions
 
-A business merger between two companies resulting in an organization made up with multiple Office365 tenants and separate AADs. The tenants either choose to remain separate and collaborate together or merge into a single tenant (Fo8r example, M&A: Bayer & Monsanto).
+A business merger between two companies resulting in an organization made up with multiple Office365 tenants and separate AADs. The tenants either choose to remain separate and collaborate together or merge into a single tenant (For example, M&A: Bayer & Monsanto).
 
 The concept of Mergers and acquisitions is depicted in the screenshot below.
 
@@ -178,12 +178,12 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/deploy-from-custom-template.png" alt-text="Deploy from a Custom Template option":::
        The screen on clicking **Deploy from a custom template** is depicted in the below screenshot.
        :::image type="content" source="images/select-template.png" alt-text="The screen on which the template is chosen":::
-    1. Click **Build your own template in the editor**. The **Edit template screen appears.
+    1. Click **Build your own template in the editor**. The **Edit template** screen appears.
        :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
     1. Click **Load file**. 
        :::image type="content" source="images/load-file.png" alt-text="The screen displaying the Load file option":::
        The browser window is displayed, from which you can navigate to the location of the downloaded `JSON` file.
-    1. Select the **DataFactory_oData_arm_template.json** file (a download location needed for this>, and click **Open**.
+    1. Select the **DataFactory_oData_arm_template.json** file (a download location needed for this), and click **Open**.
     1. On the resultant screen, click **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Provide values for the highlighted items.
@@ -198,7 +198,7 @@ The setup details are available [here](#data-pipeline---automated).
        > [!NOTE]
        > The resource group **wuarmdfrg1** has been defined in th4e **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
        :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
-    1. Launch the Data factory (V2) resource by clicking its link
+    1. Launch the Data factory (V2) resource by clicking its link.
        > [!NOTE]
        > The Data factory (V2) resource in this instance is **wuarmdf1**.
        The screen displaying details of the **wuarmdf1** Data factory resource appears.
@@ -376,7 +376,7 @@ Information needed for this PowerBi are the .csv files downloaded from the Busin
 
 #### Launch PowerBi template
 
-1. Launch the PowerBi report provided by a Viva Solutions team member (a download location needed for this)
+1. Launch the PowerBi report provided by a Viva Solutions team member (a download location needed for this).
    :::image type="content" source="images/MultiTenant-BCD-LocalStore-Example.png" alt-text="The screen containing the report to launch":::
    << MultiTenant_BCD_LocalStore_Example.pbit>>
 
@@ -450,7 +450,7 @@ The following prerequisites are to be fulfilled prior to visualizing the dashboa
 - Creation of [access to the Azure storage](#information-gathering-process) during the setup, using the Azure portal. The following information will be gathered from it:
     - Account access key (obtained from the one created during the setup)
     - Storage account container URL for the wpaexports container created during the setup
-    - Names of the files created in the storage account (in the path **wpaexports > rawdata1 location**)
+    - Names of the files created in the storage account (in **wpaexports > rawdata1 location**)
 - Installation of the latest version of Power BI Desktop
     - If you have an earlier version of PowerBi installed, uninstall it before installing the new version. Go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t) to download and install the latest version.
 
