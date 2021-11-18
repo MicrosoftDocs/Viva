@@ -180,13 +180,13 @@ As an analyst, you need to find the keywords that most effectively represent the
 
    The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire dataset. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have added to the business process. These smaller numbers change as you add or delete keywords.
 
-   If you are familiar with the hiring process, these numbers could indicate that your selection of keywords is too narrow (too few meetings and hours) or too broad (too many), after which you can adjust accordingly by adding or deleting keywords.
+   If you are familiar with the hiring process, these numbers could indicate that your defined keywords are too narrow (too few meetings and hours) or too broad (too many), after which you can adjust accordingly by adding or deleting keywords.
 
 9. You might have added some keywords and feel you're not finished but you have no more time. In this case, you can select **Save draft**, return later, and resume where you left off.
 
    ![Business process options.](../images/wpa/tutorials/business-process-options.png)
 
-10. When you're finished defining the business process, select **Submit**. (**Submit** is available only if at least one keyword is present in the **Included Keywords** list.) The system starts processing your new business process and gives it a [status](#business-process-statuses) of "In progress."
+10. When you're finished defining the business process, select **Submit**, which will only be available when at least one keyword is present in the **Included Keywords** list. The system starts processing and shows an [In progress status](#business-process-statuses).
 
 ### Business process statuses
 
@@ -217,11 +217,9 @@ You can filter by business processes wherever the **Meeting** option is availabl
 
 In [meeting queries](Meeting-queries.md#meeting-queries), business processes are only available as filters for meetings, as described in the following steps.
 
-1. In Workplace Analytics, select **Query designer > Meeting** to open a Meeting query.
-
-2. Enter initial information about the query such as its name, time period, and exclusions.
-
-3. Under **Select filters**, select **Meeting**.
+1. In **Analyze** > **Query designer**, under **Query**, select **Get started** > **Meeting** > **Next**.
+2. Select **Set up query** and enter initial information about it, such as name, time period, and exclusions.
+3. In **Select filters**, select **Meeting**.
 
    ![Select filters.](../images/wpa/tutorials/select-filters-1.png)
 
@@ -229,11 +227,10 @@ In [meeting queries](Meeting-queries.md#meeting-queries), business processes are
 
    ![Select business process.](../images/wpa/tutorials/select-filters-2.png)
 
-5. In the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
-
+5. In the field on the right, select an available business process. Only business processes in the "Ready" state are available.
 6. Finish defining your query and select **Run**.
 
-#### Interpret your query results
+### Interpret the query results
 
 The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
@@ -243,15 +240,10 @@ For general information about examining query results, see [View, download, and 
 
 In [person queries](Person-queries.md#person-queries), business processes are available as filters for meetings that are used for customizing metrics, as described in the following steps.
 
-1. In Workplace Analytics, select **Query designer > Person** to open a Person query.
-
-2. Enter initial information about the query such as its name, time period, and exclusions.
-
-3. Under **Select metrics**, select a metric. In this example, we’ll use **Collaboration hours**.
-
-   ![Select metrics.](../images/wpa/tutorials/select-metrics-collab.png)
-
-4. Customize the Collaboration hours metric. Start by selecting **Edit** (the pencil icon) .
+1. In **Analyze** > **Query designer**, under **Query**, select **Get started** > **Person** > **Next**.
+2. Select **Set up query** and then enter the applicable information for the query, such as name, time period, and exclusions.
+3. In **Select metrics**, select a metric, such as **Collaboration hours**.
+4. For the Collaboration hours metric, select **Edit** (the pencil icon) to customize it.
 
    ![Customize the metric.](../images/wpa/tutorials/customize-metric.png)
 
@@ -259,19 +251,10 @@ In [person queries](Person-queries.md#person-queries), business processes are av
 
    ![Add a filter.](../images/wpa/tutorials/add-filter.png)
 
-6. For **Collaboration hours where**, select **Meeting**.
+6. For **Collaboration hours where**, edit the filter and use an applicable business process. Only business processes in the "Ready" state are available for selection.
+7. Finish defining the query, and then select **Run**.
 
-   ![Select meeting to customize.](../images/wpa/tutorials/select-meeting-collab.png)
-
-7. Next to **Meeting’s**, select **Business process**.
-
-   ![Select filters for meetings.](../images/wpa/tutorials/select-filters-3.png)
-
-8. In the middle field, select "**=**" and in the field on the right, select a business process. Only business processes in the "Ready" state are available for selection.
-
-9. Finish defining your query and select **Run**.
-
-#### Interpret your query results
+### Interpret query results
 
 The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
@@ -299,7 +282,7 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 ![Exclude terms from subject lines.](../images/wpa/tutorials/exclude-terms-5.png)
 
-How does the exclusion of terms affect your analysis of business processes? It affects your ability to [assemble a list of keywords](#assemble-a-list-of-keywords), which is the central task in defining a business process. This is because you define a business process atop a dataset, and within that dataset are the words that you can add as keywords. If your admin excludes a word (such as "merger" or "acquisition") from analysis in general, that also excludes it from datasets and consequently from business-process analysis.
+How does the exclusion of terms affect your analysis of business processes? It affects your ability to [define keywords](#define-keywords), which is the central task in defining a business process. This is because you define a business process atop a dataset, and within that dataset are the words that you can add as keywords. If your admin excludes a word (such as "merger" or "acquisition") from analysis in general, that also excludes it from datasets and consequently from business-process analysis.
 
 The exclusion of terms does not work retroactively; that is, exclusions work only on new data. An exclusion takes effect if all of the following hold true:
 
