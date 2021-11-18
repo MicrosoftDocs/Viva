@@ -1,10 +1,11 @@
 ---
 
-title: Business process analysis in Workplace Analytics 
-description: Learn how to analyze business processes in Workplace Analytics
-author: paul9955
-ms.author: v-pausch
+title: Business process analysis for Viva Insights 
+description: Learn how to analyze business processes for Viva Insights
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
+ms.collection: m365initiative-viva-insights
 ms.localizationpriority: medium 
 ms.prod: wpa
 manager: scott.ruble
@@ -13,85 +14,84 @@ audience: Admin
 
 # Business process analysis
 
-When you and your co-workers perform an organized series of steps to reach a goal, you've participated in a business process. For example, your organization's hiring process might consist of obtaining leads, screening candidates, conducting interviews, making an offer, and sending new hires to HR for onboarding. Later business processes might have goals of training or coaching.
+When you and your co-workers perform an organized series of steps to reach a goal, you've participated in a business process. For example, your organization's hiring process might consist of getting leads, screening candidates, conducting interviews, making an offer, and sending new hires to HR for onboarding. Later business processes might have training or coaching goals.
 
-You can improve your business processes by analyzing them; for example, by measuring their cost in time and money. For example, your business might conduct an information-security audit from time to time. Your CFO or CIO might want to know whether too little, too much, or just the right amount of time is being spent on these audits, and whether the right roles of employees have been participating in them.
+You can improve your business processes by analyzing them, such as by measuring their cost in time and money. For example, your business routinely conducts an information-security audit and your CFO or CIO might want to know if the right amount of time is being spent on these audits, and whether the correct employees (roles) are participating in them.
 
-To make these determinations, conduct an analysis by running a Workplace Analytics query in which you designate the business process (such as hiring or auditing) as a query filter or a [metric filter](../use/metric-filters.md) while defining a [query](query-basics.md). <!-- ***  CALL THESE NEW FILTERS OUT IN THAT TOPIC  *** -->
+To find out, you can conduct an analysis by running a business process query (such as for hiring or auditing) with a query filter or a [metric filter](../use/metric-filters.md).
 
-Use the following procedures to analyze a business process:
+To analyze a business process:
 
-1. [Define a data set](#define-a-data-set) &ndash; Make sure that you're analyzing only data that is relevant in every aspect, such as organizationally and geographically.
-
-2. [Define a business process](#define-a-business-process) &ndash; Define the business process that you want to analyze within the data set that you defined in the preceding step.
-
+1. [Define a dataset](#define-a-dataset) &ndash; Make sure that you're analyzing only data that is relevant in every aspect, such as organizationally and geographically.
+2. [Define a business process](#define-a-business-process) &ndash; Define the business process that you want to analyze within the dataset that you defined in the preceding step.
 3. [Analyze a business process](#analyze-a-business-process) &ndash; Compose and run a Workplace Analytics query in which you select the business process as a parameter.
 
-This illustration shows these procedures and the types of data that they involve:
+The following sections describes this analysis.
 
 ![Conceptual art: three steps.](../images/wpa/tutorials/steps-3.png)
 
-The following sections describe these procedures.
-
 >[!Note]
->After you define a data set, it becomes available to all other analysts in your partition. Similarly, after you define a business process, it also becomes available to all other analysts in your partition.
+>After you define a dataset, all other analysts with access to this partition can you use it. Similarly, after you define a business process, all other analysts in the partition can use it too.
 
-## Define a data set
+## Define a dataset
 
-Before you define a business process, you need to select the data set that's applicable to that process. For example, you might want to answer this question: "How much time does our sales team spend in sales activities?"
+Before you define a business process, you need to select the dataset that's applicable to that process. For example, you might want to answer this question: "How much time does our sales team spend in sales activities?"
 
-You start by limiting the data set for your query by keeping only the organizational data that applies to the analysis &ndash; in this case, meetings that were attended by at least one sales representative.
+You start by limiting the dataset for your query by keeping only the organizational data that applies to the analysis &ndash; in this case, meetings that were attended by at least one sales representative.
 
-To define a data set, use the following procedure:
+To define a dataset, use the following procedure:
 
-### Data set steps
+### Dataset steps
 
-**Role:** Analyst
+**Role**: Analyst
 
-Every business process that you create must be based on a data set. For that reason, creating at least one data set is mandatory before you can proceed to [Define a business process](#define-a-business-process).
+Every business process that you create must be based on a dataset. For that reason, creating at least one dataset is mandatory before you can proceed to [Define a business process](#define-a-business-process).
 
-In this example, we restrict the analysis data to meetings of a particular length that were attended by at least one sales representative.
+For example, the following steps define analysis data for meetings of a particular length that were attended by at least one sales representative.
 
-1. In Workplace Analytics, on the left navigation pane, expand **Analyze** and select **Business process analysis**.
+1. In **Analyze**, select **Business process analysis**.
 2. Select **Data sets**, and then select **Add data set**.
 
-   ![new data set.](../images/wpa/tutorials/new-data-set.png)
+   ![new dataset.](../images/wpa/tutorials/new-data-set.png)
 
-3. On the **New data set** page, type a name and, optionally, a description for your new data set. (In this example, we've given **SalesDataSet** as the name of the data set.) Select **Continue**.
+3. On the **New data set** page, type a name and, optionally, a description for your new dataset. (In this example, we've given **SalesDataSet** as the name of the dataset.) Select **Continue**.
 
-   ![data set name given.](../images/wpa/tutorials/data-set-name-in-place.png)
+   ![Dataset name given.](../images/wpa/tutorials/data-set-name-in-place.png)
 
-4. Under **Time period** select start and end dates. All meetings that took place outside of this time period will be excluded from the data set.
-5. Under **Meeting exclusions**, specify a [meeting exclusion rule](meeting-exclusions-intro.md) or accept the default, the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule).
-6. Under **Which meetings do you want to include in your query results?**, define filters to scope the data set to the business-process analysis that you want to perform. You'll use these filters to filter out meetings. Select **Add filter**.
-7. Select **Meeting**:
+4. For **Time period**, select start and end dates. All meetings that occurred outside of this time period are excluded from the dataset.
+5. For **Meeting exclusions**, specify a [meeting exclusion rule](meeting-exclusions-intro.md) or accept the default, the [Tenant default meeting exclusion rule](meeting-exclusion-concept.md#default-meeting-exclusion-rule).
+6. For **Which meetings do you want to include in your query results**, define filters to scope the dataset for the analysis. For example, to filter out specific meetings, select **Add filter**, and then select **Meeting**:
 
    ![Add a Meeting filter.](../images/wpa/tutorials/meeting-filter-1.png)
 
-8. In the boxes to the right of **Meeting's**, select **Duration (in hours)**, **<** (less than), and **0.5** (hours).
-9. On the next line, select **Attendee**. This lets us choose the work function (in this case, sales) of meeting attendees.
+7. In the boxes to the right of **Meetings**, select **Duration (in hours)**, **<** (less than), and **0.5** (hours).
+8. On the next line, select **Attendee**, and then select the work function (such as Sales) for the meeting attendees.
 
    ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
 
-10. In the boxes to the right of **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights or Workplace Analytics admin has uploaded.)
+9. For **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights or Workplace Analytics admin has uploaded.)
 
     ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 
-11. Select **Submit** to start the creation of a data set that will contain data that matches these criteria (and no other data). The time required to process the data set varies depending on its size.
+10. Select **Submit** to create the dataset that matches these criteria (and no other data). The process time for the dataset varies depending on its size.
 
-### Data set statuses
+### Dataset statuses
 
-Right after you select **Submit**, the data set has a status of "In progress"; after it is processed (which could take from several minutes to a few hours, depending on the size of the data set), its status changes to "Ready" and you can use it in business-process definitions and analyses. If data-set creation fails, the data set changes to "Failed" status. (If a data set that you've submitted shows "Failed" status, you can request help by [contacting Workplace Analytics support](../overview/getting-support.md).)
+When you select **Submit**, the dataset status shows as "In progress". After it's processed (which can take a few minutes up to a few hours, depending on its size), the status changes to "Ready." You can then use the new dataset in business-process definitions and analyses.
 
-You can find a list of existing data sets and their statuses in **Analyze** > **Business process analysis** > **Data sets**:
+If you see an "Empty" status, 
 
-![Data sets page.](../images/wpa/tutorials/data-set-statuses.png)
+If a dataset fails, you'll see a "Failed" status instead. If you need help with a failed dataset, see [Getting support](../overview/getting-support.md).
 
-### Data set actions
+Go to **Analyze** > **Business process analysis** > **Data sets** to see a list of existing datasets and their statuses:
 
-After a data set has been created, it can be viewed, used, or deleted, but it cannot be edited. A dataset can be deleted only if no business processes are using it. After you delete a data set, it cannot be recovered.
+![Datasets page.](../images/wpa/tutorials/data-set-statuses.png)
 
-To view or delete a data set, first find it on the **Data sets** tab of the **Analyze** > **Business process analysis** page of Workplace Analytics, and then use the **View** or **Delete** options.
+### Dataset actions
+
+After a dataset is processed, you can view, use, or delete it, but you cannot edit it. Also, you can only delete a dataset when no business processes are using it. After you delete a dataset, it cannot be recovered.
+
+To view or delete a dataset, go to **Analyze** > **Business process analysis** > **Data sets**, and then use the **View** or **Delete** options.
 
 ## Define a business process
 
@@ -104,7 +104,7 @@ Before you can analyze a business process within your organization, you need to 
 
 ### Business process steps
 
-In this example, we want to examine meetings of a particular length that sales representatives attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [Data set steps](#data-set-steps).
+In this example, we want to examine meetings of a particular length that sales representatives attended. To make sure that the data we use is restricted to the correct division, we'll use the "SalesDataSet" that we defined in [dataset steps](#dataset-steps).
 
 We will describe the creation of a business process in two procedures:
 
@@ -127,7 +127,7 @@ In these steps, we create and name an empty business process.
 
 3. On the **New Business process** page, type a name and, optionally, a description for your new business process. (In this example, we'll give  **Sales interactions** as the name of the business process.) Select **Continue**.
 
-4. For **Data set**, select the data set that we recently created, **SalesDataSet**.
+4. For **dataset**, select the dataset that we recently created, **SalesDataSet**.
 
 5. For **Content type**, leave **Meetings** selected, and select **Continue**.
 
@@ -191,7 +191,7 @@ As an analyst, your goal now is to find the keywords that most effectively repre
 
    ![Meeting hours.](../images/wpa/tutorials/meeting-hours.png)
 
-   The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire data set. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have added to the business process. These smaller numbers change as you add or delete keywords.
+   The totals (229.5K and 409K) reflect the meeting hours and meetings in the entire dataset. The smaller numbers reflect the numbers of meeting hours (11.K) and meetings (20K) in the data associated with the keywords that you currently have added to the business process. These smaller numbers change as you add or delete keywords.
 
    If you are familiar with the hiring process, these numbers could indicate that your selection of keywords is too narrow (too few meetings and hours) or too broad (too many), after which you can adjust accordingly by adding or deleting keywords.
 
@@ -315,13 +315,13 @@ For data-privacy reasons, you might want to exclude particular meetings from ana
 
 ![Exclude terms from subject lines.](../images/wpa/tutorials/exclude-terms-5.png)
 
-How does the exclusion of terms affect your analysis of business processes? It affects your ability to [assemble a list of keywords](#assemble-a-list-of-keywords), which is the central task in defining a business process. This is because you define a business process atop a data set, and within that data set are the words that you can add as keywords. If your admin excludes a word (such as "merger" or "acquisition") from analysis in general, that also excludes it from data sets and consequently from business-process analysis.
+How does the exclusion of terms affect your analysis of business processes? It affects your ability to [assemble a list of keywords](#assemble-a-list-of-keywords), which is the central task in defining a business process. This is because you define a business process atop a dataset, and within that dataset are the words that you can add as keywords. If your admin excludes a word (such as "merger" or "acquisition") from analysis in general, that also excludes it from datasets and consequently from business-process analysis.
 
 The exclusion of terms does not work retroactively; that is, exclusions work only on new data. An exclusion takes effect if all of the following hold true:
 
-* You create the data set after the admin creates the exclusion.
-* You create the data set after the weekly data refresh is completed. (The collaboration data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday.)
-* You define the data set to use new data. That is, as you [define the data set](#define-a-data-set), for **Time period**, select dates that take place entirely after the exclusion was defined and data was refreshed.
+* You create the dataset after the admin creates the exclusion.
+* You create the dataset after the weekly data refresh is completed. (The collaboration data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday.)
+* You define the dataset to use new data. That is, as you [define the dataset](#define-a-dataset), for **Time period**, select dates that take place entirely after the exclusion was defined and data was refreshed.
 
 The following example shows how this can unfold:
 
@@ -329,11 +329,11 @@ The following example shows how this can unfold:
 | ---- | ----- |
 | 1/1/2020 | A customer begins using Workplace Analytics. |
 | 4/1/2020 | An admin excludes the term "merger."
-| 4/8/2020 | The weekly data refresh has taken place. Any new data that arrived during the refresh will respect the exclusion; this means that any data sets based on this data will exclude the word "merger." (Also, any data that will arrive in the future will respect the exclusion.)
-| 4/9/2020 | An analyst defines a data set, called "DS1," for the period 1/1/2020 – 4/1/2020. This data set does NOT respect the exclusion, which means that the word "merger" is _not_ excluded.
-| 4/9/2020 | An analyst creates a business process that uses the data set DS1 and they later use it in a query. This business process does _not_ respect the exclusion and therefore still contains the word "merger."
-| 8/1/2020 | An analyst defines a data set, called "DS2" for the period 5/1/2020 – 8/1/2020. This data set does respect the exclusion and therefore does _not_ contain the word "merger."
-| 8/5/2020 | An analyst defines a business process that uses the data set DS2 and they later use it in a query. This data set (and therefore the business process that uses it) _does_ respect the exclusion and does _not_ contain the word "merger."
+| 4/8/2020 | The weekly data refresh has taken place. Any new data that arrived during the refresh will respect the exclusion; this means that any datasets based on this data will exclude the word "merger." (Also, any data that will arrive in the future will respect the exclusion.)
+| 4/9/2020 | An analyst defines a dataset, called "DS1," for the period 1/1/2020 – 4/1/2020. This dataset does NOT respect the exclusion, which means that the word "merger" is _not_ excluded.
+| 4/9/2020 | An analyst creates a business process that uses the dataset DS1 and they later use it in a query. This business process does _not_ respect the exclusion and therefore still contains the word "merger."
+| 8/1/2020 | An analyst defines a dataset, called "DS2" for the period 5/1/2020 – 8/1/2020. This dataset does respect the exclusion and therefore does _not_ contain the word "merger."
+| 8/5/2020 | An analyst defines a business process that uses the dataset DS2 and they later use it in a query. This dataset (and therefore the business process that uses it) _does_ respect the exclusion and does _not_ contain the word "merger."
 
 ## Related topics
 
