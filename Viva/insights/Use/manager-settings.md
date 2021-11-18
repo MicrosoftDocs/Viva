@@ -16,12 +16,14 @@ audience: Admin
 
 # Manager settings
 
-As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregate collaboration insights about their team. Only managers whose team meets or exceeds the **Minimum team size** setting can access manager insights in Workplace Analytics. The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy.
+As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
 
-The following are based on the latest organizational (HR) data that's been successfully uploaded and processed in Workplace Analytics:
+Only managers whose team meets or exceeds the **Minimum team size** setting can access [Group insights](group-insights.md) within **My team** in Viva Insights in Teams. The other admin tasks required for Group insights access are the same as for personal insights and My team insights. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
-* **Measured managers** - People managers who were assigned licenses in Workplace Analytics prior to October 2021 can see manager insights in Workplace Analytics. Managers who are assigned licenses starting October 2021, can see their team's insights in [My Team](viva-insights-my-team.md) within the Viva Insights app in Teams.
-* **Managers enabled** - Only managers who meet the set minimum team size can view their team's insights.
+The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in Workplace Analytics:
+
+* **Measured managers** - Managers who were assigned licenses in Workplace Analytics prior to October 2021 can see manager insights in Workplace Analytics. Managers who are assigned licenses starting October 2021, can see their team's insights through [Group insights](group-insights.md) within **My team** in Viva Insights in Teams.
+* **Managers enabled** - Only managers who meet the minimum team size can view their team's insights.
 
 ![Manager settings.](../images/wpa/use/manager-settings.png)
 
@@ -47,7 +49,7 @@ Only Viva Insights or Workplace Analytics admins can access **Manager settings**
       2. Select **Upload .csv** to upload this list.
 
 3. If you're allowing all managers access, continue to **Step 4**. If setting up access for select managers, select **Download currently enabled manual upload manager list .csv** to confirm which managers now have access. If an error occurs, such as an invalid email or an unlicensed manager, the .csv file will show the error for that manager.
-4. In **Minimum team size**, you can change the minimum to a number more than 10 ( is the lowest setting allowed). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
+4. In **Minimum team size**, you can change the minimum to a number more than 10 (the lowest allowed setting). This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
 5. Select **Save**.
 
 >[!Note]

@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Admin tasks for manager and leader insights
+# Setup for manager and leader insights
 
 Confirm the following prerequisites and then ask your Teams Service Admin to deploy the Microsoft Viva Insights app in Microsoft Teams for you and your team. Because personal, manager, and leader insights require the same admin tasks, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for the required steps.
 
@@ -35,7 +35,7 @@ To view the **My organization** page in the Viva Insights app in Teams, confirm 
 
 ## Install and pin the app
 
-To install and pin the Viva Insights app for yourself, see [Install and pin the app](../personal/teams/viva-teams-app-install.md#install-the-app). However, if you're an admin installing the Viva Insights app for an organization, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).  
+To install and pin the Viva Insights app for yourself, see [Install and pin the app](../personal/teams/viva-teams-app-install.md#install-the-app). However, if you're an admin installing the Viva Insights app for an organization, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).
 
 >[!Note]
 >You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
