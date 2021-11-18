@@ -12,9 +12,9 @@ audience: Admin
 
 ---
 
-# Leader insights
+# My organization
 
-You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. As a business leader, these insights give you a snapshot of how your company is doing. The insights include company-wide outcomes and leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
+You can view leader insights in **My organization** within the Microsoft Viva Insights app in Microsoft Teams. As a business leader, these insights give you a snapshot of how your company is doing. The insights include company-wide outcomes and leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
 ![My organization page.](../images/wpa/use/my-org2.png)
 
@@ -24,12 +24,21 @@ While you can also see these outcomes and their related best practices in Viva I
 
 For information about data privacy and GDPR compliance in the Viva Insights app, see [Privacy and data protection](../privacy/data-protection-intro.md).
 
+## Admin tasks
+
+For access to **My organization**, your admin must assign you the role of _Analyst (Limited)_ for Viva Insights in Workplace Analytics. Refer your admin to [Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.
+
+Ask your admin also needs to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+
 ## Install, pin, and configure the app
 
-After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md), the setup for **My organization** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
+After your admin completes the [Admin tasks](#admin-tasks), your setup for **My organization** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
 
 * [Install and pin the app](../personal/teams/viva-teams-app-install.md)
 * [Configure the app](../personal/teams/viva-teams-app-settings.md)
+
+>[!Note]
+>You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
 
 ## View My organization
 

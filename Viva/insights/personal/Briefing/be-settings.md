@@ -26,11 +26,12 @@ You can change your personal settings for the Briefing email to set what time of
    * To change your subscription to the Briefing email from Microsoft Viva, set **Cortana Briefing** to **On** to subscribe or **Off** to unsubscribe.
    * In **When would you like to receive this email**, select a preferred time period, and then select **Save**. You'll receive your next Briefing within two hours of this new time.
    * In **Current time zone**, select **Change time zone** to change the Outlook setting for your Briefings.
+   * Only managers or team leads with a P1 license will see this option. In **Your team members**, select **Edit team** to add or remove team members. If you're not a manager, you can select **I am not a manager** to hide this setting.
 
-   ![Briefing settings.](./images/be-settings.png)
+   ![Briefing settings.](./images/be-settings-2.png)
 
-> [!Note]
-> If you unsubscribe, you can always subscribe again at [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
+>[!Note]
+>If you unsubscribe, you can always subscribe again at [https://cortana.office.com/briefing](https://cortana.office.com/briefing).
 
 ## Related topics
 
