@@ -13,7 +13,7 @@ manager: dansimp
 audience: Admin
 ---
 
-# What is a complex organization?
+# Complex organization and insights
 
 Complex organizations are Microsoft Azure Active Directory (AAD) customers who use multiple Office365 tenants. There are primarily two reasons for this type of configuration:
 
@@ -114,7 +114,7 @@ Set up the [Business Continuity](../insights/Tutorials/power-bi-bc.md) dashboard
 
 ### Azure
 
-For [Adhoc with oData](#adhoc-using-odata-approach) and [Automated Data Pipeline](#automated-data-pipeline), you will need:
+For [Ad hoc with oData](#ad-hoc-using-odata-approach) and [Automated Data Pipeline](#automated-data-pipeline), you will need:
 
 - An application registration
 - Registered application's secret for each tenant from which you are planning to pull Viva Insights query results.
@@ -141,21 +141,21 @@ The template creates the following resources:
 
 Using the case for the need to pull query data from Viva Insights from multiple tenants, there are a few sample solutions as described below:
 
-### Adhoc manual approach
+### Ad hoc manual approach
 
-Viva Insights queries can be executed and the output can be downloaded and further analyzed offline. 
-This sample will be using the **Business Continuity** report listed in the **Requirements** section. 
-There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#manual-approach-on-adhoc-basis).
+Viva Insights queries can be executed and the output can be downloaded and further analyzed offline.
+This sample will be using the **Business Continuity** report listed in the **Requirements** section.
+There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#manual-approach-on-ad-hoc-basis).
 
-:::image type="content" source="images/adhoc-manual-approach.png" alt-text="Illustration of the instance of adhoc manual approach":::
+:::image type="content" source="images/adhoc-manual-approach.png" alt-text="Illustration of the instance of ad hoc manual approach":::
 
-### Adhoc using oData approach
+### Ad hoc using oData approach
 
 Viva Insights queries can be scheduled to auto refresh and accessed via oData links to provide further analysis or to be visualized in PowerBi reports. 
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
-There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#adhoc-with-odata-approach).
+There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#ad-hoc-with-odata-approach).
 
-:::image type="content" source="images/adhoc-using-odata-approach.png" alt-text="Illustration of the instance of adhoc using OData approach":::
+:::image type="content" source="images/adhoc-using-odata-approach.png" alt-text="Illustration of the instance of ad hoc oData approach":::
 
 ### Automated data pipeline
 
@@ -350,10 +350,10 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
 
 Visualization with PowerBi can be implemented in the following methods:
 
-- [Manual approach on adhoc basis](#manual-approach-on-adhoc-basis)
-- [Adhoc with oData approach](#adhoc-with-odata-approach)
+- [Manual approach on ad hoc basis](#manual-approach-on-ad-hoc-basis)
+- [Ad hoc with oData approach](#ad-hoc-with-odata-approach)
 
-### Manual approach on adhoc basis
+### Manual approach on ad hoc basis
 
 #### Requirements
 
@@ -391,7 +391,7 @@ Information needed for this PowerBi are the .csv files downloaded from the Busin
    > [!NOTE]
    > Once the PowerBi report has refreshed successfully, you can view the results from your dataset by changing filters and navigating to the report.
 
-### Adhoc with oData approach
+### Ad hoc with oData approach
 
 #### Conditions
 
@@ -428,7 +428,8 @@ Information needed for this PowerBi will be the **Get results** links for the Bu
 4. If prompted for privacy levels, select **Organizational**.
    :::image type="content" source="images/selecting-organizational-as-privacy-level.png" alt-text="The screen on which values for privacy levels are chosen":::
 5. When prompted with the sign-in page, select **Organizational account** on the left pane.
-6. From the **Select which level to apply these settings to** drop-down list, choose the tenant-level link.
+   :::image type="content" source="images/selecting-organizational-account.png" alt-text="The screen on which the Organizational account is available on the left pane":::
+1. From the **Select which level to apply these settings to** drop-down list, choose the tenant-level link.
    
 7. Click **Sign in** and click **User other account**.
    :::image type="content" source="images/use-another-account-option.png" alt-text="The screen from which you can choose to sign in as another user":::
