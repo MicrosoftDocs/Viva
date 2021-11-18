@@ -108,7 +108,7 @@ The following example shows how to examine a specific length of meetings where o
 To create a business process, you need to do the following:
 
 1. [Create a new business process](#create-a-new-business-process)
-2. [Assemble a list of keywords](#assemble-a-list-of-keywords)
+2. [Define a list of keywords](#define-keywords)
 
 #### Create a new business process
 
