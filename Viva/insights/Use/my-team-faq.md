@@ -5,6 +5,7 @@ description: FAQ for My team in Microsoft Viva Insights in Teams
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
+ms.collection: m365initiative-viva-insights
 ms.localizationpriority: medium 
 ms.prod: Mya
 manager: scott.ruble
