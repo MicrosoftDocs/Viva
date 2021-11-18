@@ -77,13 +77,12 @@ For example, the following steps define analysis data for meetings of a particul
 
 ### Dataset statuses
 
-When you select **Submit**, the dataset status shows as "In progress". After it's processed (which can take a few minutes up to a few hours, depending on its size), the status changes to "Ready." You can then use the new dataset in business-process definitions and analyses.
+When you select **Submit**, you'll see the following possible statuses in **Analyze** > **Business process analysis** > **Data sets**:
 
-If you see an "Empty" status, 
-
-If a dataset fails, you'll see a "Failed" status instead. If you need help with a failed dataset, see [Getting support](../overview/getting-support.md).
-
-Go to **Analyze** > **Business process analysis** > **Data sets** to see a list of existing datasets and their statuses:
+* **In progress** - Shows the system is processing a new dataset, which can take a few minutes up to a few hours, depending on its size.
+* **Ready** - After the system successfully creates the dataset, it's ready to use by you and other analysts in new business-process definitions and analyses.
+* **Empty** - Means the filters you defined caused an empty dataset. Review the filters options and create a new dataset with filters that will create a meaningful subset of your data.
+* **Failed** - Shows when the system failed to create the new dataset. If you see this status and you know that the dataset has all the correct selections and should work, give the system a few days to process the failure. Because when the Microsoft team sees a dataset failure, they will investigate and try to fix the failure for you. To ask for help with a failed dataset, see [Getting support](../overview/getting-support.md) for your options.
 
 ![Datasets page.](../images/wpa/tutorials/data-set-statuses.png)
 
