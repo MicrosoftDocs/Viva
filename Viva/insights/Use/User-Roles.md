@@ -34,9 +34,9 @@ The following shows who can access what.
 
 |Feature |Description |Insights Administrator |Analyst |Insights Business Leader |Analyst (Limited Access) |Program Manager |People Manager |
 | ---------- | ------------- | -------- | ---------- |--------- | ------- |-------------- | --------------- |
-| **My team** | View highlights about you and your team in **My team** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | &nbsp; | &nbsp;  | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
+| **My team** | View Group insights about your team in **My team** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | &nbsp; | &nbsp;  | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 | **My organization** | View highlights about your organization in **My organization** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |
-| **Home**      | View highlights from the latest data and see the latest notifications | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
+| **Home**      | View highlights from the latest organizational data and see the latest notifications | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 | **Analyze**   | &nbsp;                | &nbsp;    | &nbsp;  |&nbsp; |&nbsp; | &nbsp;   | &nbsp;  | &nbsp; |
 | &nbsp;        | **Peer analysis** collaboration data                               | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | &nbsp;   | &nbsp;  | &nbsp; |
 | &nbsp;        | Analysis with the **Query designer**                             | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | &nbsp;   |&nbsp; | &nbsp;  | &nbsp; |
@@ -59,7 +59,7 @@ The following shows who can do what with Viva Insights.
 | Use the **My organization** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
 | Use the full set of analyst tools in Data sources and Analyze |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
 | Help coordinate, set up, and manage Plans |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
-| Use the **My team** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |&nbsp; |&nbsp; |&nbsp;|<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
+| Use Group insights on the **My team** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |&nbsp; |&nbsp; |&nbsp;|<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 
 ### Levels of responsibility
 
@@ -78,6 +78,7 @@ Consider the following personas when granting the different levels of access for
 
 | Persona | Administrator | Analyst |  Insights Business Leader | Analyst (Limited Access) | Program Manager | People Manager |
 | ------- | ------------- | ------- | ------- |------------------- | --------------- | -------------- |
+| Administrator |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;  |&nbsp; |&nbsp; |&nbsp; |
 | Executive or business leader |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp;   |&nbsp; |&nbsp; |
 | Analyst or data scientist |&nbsp;   | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Program Manager | &nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark">  |&nbsp; |

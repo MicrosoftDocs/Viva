@@ -15,7 +15,7 @@ audience: Admin
 
 Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in Microsoft Viva Insights in Teams and in Workplace Analytics.
 
-Managers who are assigned licenses starting October 2021, can view their team's [group insights](../use/group-insights.md) in [My Team](../use/myteam.md) within the Viva Insights app in Teams. Managers who were assigned licenses in Workplace Analytics prior to October 2021 can see the legacy manager insights in [Workplace Analytics](https://workplaceanalytics.office.com).
+Managers who are assigned licenses starting October 2021, can view their team's [group insights](../use/group-insights.md) in [My team](../use/myteam.md) within the Viva Insights app in Teams. Managers who were assigned licenses in Workplace Analytics prior to October 2021 can see the legacy manager insights in [Workplace Analytics](https://workplaceanalytics.office.com).
 
 ![Manager insights in Workplace Analytics.](./images/manager-insights.png)
 
