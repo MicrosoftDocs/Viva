@@ -27,7 +27,7 @@ highlightedContent:
       url: ./personal/introduction.md
     - title: Manager and leader insights
       itemType: overview
-      url: ./use/viva-insights-my-team.md
+      url: ./use/myteam.md
     - title: Advanced insights
       itemType: deploy
       url: index-orig.md

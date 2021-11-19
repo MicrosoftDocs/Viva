@@ -15,7 +15,7 @@ audience: Admin
 
 Microsoft Viva Insights provides personalized recommendations to help you and your team do your best work. The app brings personal insights and manager insights in a unified experience, so that you have access to insights in your flow of work in Teams, the tool that you are already using for communicating with your team.
 
-![My Team page in Teams.](./images/my-team-page.png)
+![My team page in Teams.](./images/my-team-page.png)
 
 ## Your personal insights
 
