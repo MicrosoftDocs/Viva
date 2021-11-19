@@ -66,8 +66,9 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 * [Book focus time](be-focus.md) (Adaptive version only)
 * [Meditate with Headspace](be-headspace.md)
 * [Plan your week](be-time.md) (Adaptive version only)
+* [Catch up with your team](be-manager.md)
 * [Settings](be-settings.md)
-<!--* [Catch up with your team](be-manager.md) (Adaptive version only)-->
+
 ## Related topics
 
 * [Configure Briefing email](be-admin.md)
