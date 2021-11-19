@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights setup for manager and leader insights
-description: Setup steps required for manager and leader insights in Microsoft Viva Insights in Teams
+title: Setup for manager and leader insights
+description: Setup steps for manager and leader insights in Viva Insights in Teams
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -16,25 +16,22 @@ audience: Admin
 
 # Setup for manager and leader insights
 
-Confirm the following [prerequisites](#prerequisites) and then ask your Teams Service Administrator to deploy the Microsoft Viva Insights app in Microsoft Teams for you and your team.
+Confirm the following prerequisites and then ask your Teams Service Admin to deploy the Microsoft Viva Insights app in Microsoft Teams for you and your team. Because personal, manager, and leader insights require the same admin tasks, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for the required steps.
 
-Because personal, manager, and leader insights require the same admin tasks, your admin might have already deployed Viva Insights for your company:
+## Prerequisites for manager insights
 
-* If not, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for the required steps.
-* If so, you might need to [install and pin the app](#install-and-pin-the-app) to complete your setup.
+For access to the **My team** page in the Viva Insights app in Teams, confirm you meet the following prerequisites:
 
-## Prerequisites
+* **Manager access** - Ask if your Viva Insights admin has [Manager settings](../use/manager-settings.md) turned **On**.
+* **Licensed team** - The members of your team are assigned licenses for Viva Insights and are included in the reporting hierarchy that leads to you as their manager.  
+* **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
 
-The prerequisites are different for manager insights about your team and leader insights about your organization. Confirm the following prerequisites for the type of insights you want to view.
+## Prerequisites for leader insights
 
-* **Manager insights** - For access to **My team**, confirm you meet the following prerequisites:
+To view the **My organization** page in the Viva Insights app in Teams, confirm the following prerequisites.
 
-  * **Manager access** - Ask if your Viva Insights or Workplace Analytics admin has [Manager settings](../use/manager-settings.md) in Workplace Analytics turned **On**.
-  * **No other roles** - You can't sign in with _any other_ role assigned for using Viva Insights in Workplace Analytics, including admin, analyst, or program manager.
-  * **Licensed team** - The members of your team are assigned Viva Insights licenses and are included in the reporting hierarchy that leads to you as their manager.
-  * **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
-
-* **Leader insights** - To view the **My organization** page in the Viva Insights app in Teams, you need the role of _Analyst (Limited)_ for Viva Insights in Workplace Analytics. See [Assign roles](../setup/assign-roles-to-wpa-admins.md) for detailed instructions and see [Role descriptions and access levels](../use/user-roles.md#role-descriptions-and-access-levels) for general information about roles.
+* **Licensed organization** - The members of your organization are assigned licenses for Viva Insights, including yourself as an organizational business leader.
+* **Insights Business Leader role** - Ask your Microsoft 365 admin to assign you the [Insights Business Leader role](/azure/active-directory/roles/permissions-reference#insights-business-leader) in the Microsoft 365 admin center. See [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles) for detailed instructions.
 
 ## Install and pin the app
 

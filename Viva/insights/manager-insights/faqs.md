@@ -21,19 +21,19 @@ Viva Insights and Workplace Analytics help managers like you identify patterns a
 
 Managers who meet the following criteria can view insights about their team:
 
-* People managers whose team meets the minimum team size that is set by the Viva Insights or Workplace Analytics admin admin, which includes people who directly or indirectly report to you.
-* Managers who are granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md).
+* People managers whose team meets the minimum team size that is set by the admin, which includes people who directly or indirectly report to you.
+* Managers who are granted access through [Manager settings](../use/manager-settings.md).
 
 ##### Q3 Who is included in these insights?
 
-Employees who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the Admin.
+Employees who are assigned a license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded by the admin.
 
 ##### Q4 Why is the number of included employees different from my current number of direct and indirect reports?
 
 The number of included employees might be different because:
 
-* One or more of the employees on your team are not assigned a Workplace Analytics license.
-* Or the latest available HR data uploaded into Workplace Analytics did not include the latest hierarchy or employee data.
+* One or more of the employees on your team are not assigned a license.
+* Or the latest available HR data uploaded did not include the latest hierarchy or employee data.
 
   >[!Note]
   >HR data is typically uploaded monthly on the last day of the month. If a person recently joined your, you might need to wait until next month for that person's data to be included in your team's insights. If you don’t see your insights data change, ask your admin when the next HR data upload will occur.
