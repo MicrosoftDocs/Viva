@@ -220,11 +220,11 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
   * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Workplace Analytics calculations.
   * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the **Send As** permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Workplace Analytics credits the owner of the mailbox in calculations.
 
-##### Q7. Why don't I see last week's data in my analyses?
+##### Q7. Why don't I see data from this week in my analyses?
 
 A7. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. Each Monday, Workplace Analytics processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday. For example, on Monday, November 15th, analysis will include data through the previous Saturday, November 13th.
 
-##### Q8. Why is my data always a week late?
+##### Q8. Why don't I see last week's data in my analyses?
 
 A8. I expect my analysis to include last week's collaboration data and I only see data through the previous Sunday. All multi-day periods (weeks and months) that are included in analysis reflect the first day of the specified time period. For example, for a query aggregated by week, you’ll see it starts with Sunday. If you see a "November 7th” row in a weekly aggregated query, it means that the metrics include data through Saturday, November 13th.
 
