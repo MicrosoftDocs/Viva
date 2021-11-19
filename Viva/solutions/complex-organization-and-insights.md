@@ -196,7 +196,7 @@ The setup details are available [here](#data-pipeline---automated).
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
     1. Launch the resource group (**wuarmdfrg1**) by clicking its link. The screen displaying details of the resource group appears.
        > [!NOTE]
-       > The resource group **wuarmdfrg1** has been defined in th4e **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+       > The resource group **wuarmdfrg1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
        :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
     1. Launch the Data factory (V2) resource by clicking its link.
        > [!NOTE]
@@ -242,7 +242,7 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
     1. Search for the Data factory name (**wuarmdf1**) from the **Select** field.
        > [!NOTE]
-       > The Data factory **wuarmdf1** has been defined in th4e **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+       > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
        :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
     1. Click **Select**. The **Add role assignment** screen appears.
     1. Click **Review + assign**.
@@ -308,7 +308,7 @@ The setup details are available [here](#data-pipeline---automated).
 
 :::image type="content" source="images/create-secret-example-1.png" alt-text="The screen on which the name for a secret is defined":::
 
-**Created secret (above) in the key vault**
+**Created (the above) secret  in the key vault**
 
 :::image type="content" source="images/create-secret-using-example-in-screenshot.png" alt-text="The screen displaying the created secret in the keyvault":::
 
@@ -371,7 +371,7 @@ Information needed for this PowerBi are the .csv files downloaded from the Busin
 1. Click **Query designer** on the left pane, and click the **Results** tab.
    :::image type="content" source="images/query-designer-results-tab.png" alt-text="The Query designer screen":::
 
-1. Click the **Download** icon corresponding to each of query.
+1. Click the **Download** icon corresponding to each query.
    :::image type="content" source="images/query-data-download.png" alt-text="The screen from which data can be downloaded":::
 
 #### Launch PowerBi template
