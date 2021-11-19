@@ -61,6 +61,7 @@ A few starter use cases that would be enabled by this data combination strategy 
 - Identify collaboration patterns between two distinct business groups (tenants)
   :::image type="content" source="images/use case - 1.png" alt-text="Illustration of the collaboration patterns between two distinct business groups":::
 - Distinguish collaboration patterns between cross business groups (tenants) VS true external interactions.
+  :::image type="content" source="images/use case - 2.png" alt-text="Illustration of distinctive collaboration patterns":::
 - Data combined from Viva Insights with external sources to address headcount planning, employee well-being, permanent remote work, inclusion and diversity, and so on.
   
   :::image type="content" source="images/use case - 3.png" alt-text="Data combined from Viva Insights with external sources":::
