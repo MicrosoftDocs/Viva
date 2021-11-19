@@ -245,9 +245,6 @@ In [person queries](Person-queries.md#person-queries), business processes are av
 2. Select **Set up query** and then enter the applicable information for the query, such as name, time period, and exclusions.
 3. In **Select metrics**, select a metric, such as **Collaboration hours**.
 4. For the Collaboration hours metric, select **Edit** (the pencil icon) to customize it.
-
-   ![Customize the metric.](../images/wpa/tutorials/customize-metric.png)
-
 5. Select **Add filter**.
 
    ![Add a filter.](../images/wpa/tutorials/add-filter.png)
