@@ -228,7 +228,8 @@ In [meeting queries](Meeting-queries.md#meeting-queries), business processes are
    ![Select business process.](../images/wpa/tutorials/select-filters-2.png)
 
 5. In the field on the right, select an available business process. Only business processes in the "Ready" state are available.
-6. Finish defining your query and select **Run**.
+6. In **Organizational data**, be sure to select **BusinessProcesses** as as an attribute to include in the query.
+7. Finish defining your query and select **Run**.
 
 ### Interpret the query results
 
@@ -252,11 +253,12 @@ In [person queries](Person-queries.md#person-queries), business processes are av
    ![Add a filter.](../images/wpa/tutorials/add-filter.png)
 
 6. For **Collaboration hours where**, edit the filter and use an applicable business process. Only business processes in the "Ready" state are available for selection.
-7. Finish defining the query, and then select **Run**.
+7. In **Organizational data**, be sure to select **BusinessProcesses** as as an attribute to include in the query.
+8. Finish defining the query, and then select **Run**.
 
 ### Interpret query results
 
-The results of meeting queries in which you’ve specified a business-process filter will contain a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
+The query results in which you’ve specified a business-process filter will include a column called **BusinessProcesses**. This column will contain the matched business process name for each meeting row in the results. If multiple business processes match a single meeting, this column will contain a comma-delimited list of matched business process names for the meeting.
 
 After the query runs, examine its results as described in [Understand and interpret query output](../use/csv-query-output-file.md) and [View, download, and export query results](../use/View-download-and-export-query-results.md).
 
