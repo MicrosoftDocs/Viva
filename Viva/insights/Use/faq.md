@@ -18,7 +18,7 @@ The most commonly asked questions and answers about advanced insights and analys
 
 * [Functionality and features](#functionality-and-features)
 
-  * [Roles](#product-roles)
+  * [Roles](#roles)
   * [Privacy and compliance](#privacy-and-compliance)
   * [Language support](#language-support)
 
@@ -42,7 +42,7 @@ A1.  No. Viva Insights is a collaboration analysis tool for analyzing behavior a
 
 ##### Q2. How do personal, manager, leader, and advanced insights differ?
 
-A2. See [Introducing Microsoft Viva Insights](introduction.md) for more information about the following different types of insights for the distinctly different audiences:
+A2. See [Introducing Microsoft Viva Insights](../introduction.md) for more information about the following different types of insights for the distinctly different audiences:
 
 * Personal and private insights are for individual use only
 * Manager insights are for people managers or team leads
