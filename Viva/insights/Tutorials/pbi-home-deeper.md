@@ -3,7 +3,7 @@
 title: In-depth insights in Power BI
 description: Learn how to use Power BI to deep dive into insights about your organization
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -14,11 +14,11 @@ audience: Admin
 
 # In-depth insights in Power BI
 
-**Owner** - Workplace Analytics Analyst or Analyst limited have access to these insights
+**Owner** - Analyst or Analyst limited
 
 As a business decision maker, you can use the Workplace Analytics **Home** page to see your organization's current work conditions and trends. With these insights, you can identify “opportunity groups” (groups that you might want to act on) and do detailed analysis with the drill-down capabilities in Power BI.
 
-The Power BI Connector combines Workplace Analytics data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Workplace Analytics. The connector also enforces privacy by preventing those who view the report from seeing data about a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size), which is specified by the Viva Insights or Workplace Analytics admin. This lets you share reports with confidence that individual data is not exposed.
+The Power BI Connector combines Workplace Analytics data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Workplace Analytics. The connector also enforces privacy by preventing those who view the report from seeing data about a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size), which is specified by the Viva Insights admin. This lets you share reports with confidence that individual data is not exposed.
 
 To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are predefined and communicated to Power BI through the Power BI Connector. For background information, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector).
 
