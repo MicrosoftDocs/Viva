@@ -49,41 +49,24 @@ The following are a few of the suggestions you might see in Outlook:
 
 ## Opt out of inline suggestions
 
-1. To opt out of inline suggestions in Outlook, select the **Insights** icon on the Outlook Home ribbon.
+1. To opt out of inline suggestions in Outlook, select the **Viva Insights** icon on the Outlook Home ribbon. Or if you are using Outlook on the web, the **Viva Insights** icon is in the **ellipsis** (...) menu when reading an email message or when sending a new message.
+2. Select the **Settings** (gear) icon in the Viva Insights add-in.
 
-   ![Insights icon in Outlook](../../Images/mya/use/insights-icon.png)
-
-   If you are using Outlook on the web, the **Insights** icon is in the ellipsis menu when reading an email message or when sending a new message.
-
-   ![Insights icon in Outlook on the web](../../Images/mya/use/owa-insights.png)
-
-2. Select the **Settings** (gear) icon in the Insights add-in.
-
-   ![Insights settings](../../Images/mya/use/insights-settings.png)
+   ![Viva Insights settings](../../Images/mya/use/viva-insights-settings.png)
 
 3. In **Settings**, for **Productivity inline suggestions**, change the setting to **Off**.
 
-   ![Turn productivity inline suggestions off](../../Images/mya/use/inline-off.png)
-
 ### If I am opted out, can I opt back in?
 
-Yes; if you opt yourself out, you can opt back in any time to regain access to inline suggestions.
+Yes. If you opt yourself out, you can opt back in any time to regain access to inline suggestions.
 
 ## Providing feedback
 
-You can provide feedback for the inline suggestion in either of the following ways:
-
-* Select **Feedback** in the suggestion. This opens the Feedback page in the Insights add-in.
-
-* Open the inline suggestion in the Insights add-in and add your feedback in the section at the bottom of the page:
-
-   ![Inline suggestions feedback](../../Images/mya/use/insights-feedback.png)
-
-By using either of these options, you can provide "thumbs up" or a "thumbs down" indication and follow up with verbal feedback. If you select thumbs down, you'll see less of that suggestion.
+You can provide feedback for the inline suggestion  by selecting **Feedback** in the suggestion. In the Feedback section, select the "thumbs up" or a "thumbs down" and any other applicable feedback. If you select thumbs down, you'll see less of that suggestion.
 
 You can also select **Turn off all notifications** if you would prefer not to receive any of the inline suggestions in the future.
 
-You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Insights Add-in pane.
+You can also provide general feedback on anything by selecting the **smiley face** icon at the upper-right of the Viva Insights Add-in pane.
 
 ## Delay delivery
 
@@ -93,21 +76,16 @@ This suggestion is available to you if you’re using the Outlook desktop app. B
 
 When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
-![Inline suggestions email](../../Images/mya/use/nudges-email.png)
+![Inline suggestions email](../../Images/mya/use/email-inline.png)
 
 **To delay delivery**
 
-1. When you see a suggested delivery time while composing an email, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
-
-   ![Delay delivery inline suggestion](../../Images/mya/use/delay-delivery-inline-1.png)
-
+1. When you see a suggested delivery time while composing an email, such as **Thu, Nov 07 10:00 AM**, select **Delay send** to confirm message delivery at that time.
 2. An insight opens to show the scheduled time. You can select:
 
    * **Send** (within the email) to send the email at that scheduled time.
    * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
    * **Cancel delay** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
-
-   ![Delay delivery insight options](../../Images/mya/use/delay-delivery-inline.png)
 
 3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
@@ -116,13 +94,13 @@ When inline suggestions is turned on, you can delay up two email deliveries each
    * **Send now** to ignore the scheduled delivery time and send the email now.
    * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
 
-   ![Delay delivery options](../../Images/mya/use/delay-inline.png)
+   ![Delay delivery options](../../Images/mya/use/delay-inline-2.png)
 
 ## Suggested outstanding tasks
 
 When reading an email or a calendar invitation, you might see a suggestion to review suggested outstanding tasks for the sender of email or calendar invitation. There are task suggestions based on your email communications with the sender in the last 14 days and can help you keep tab of tasks you promised to get done or that team members asked you to complete.
 
-![Suggested outstanding tasks](../../Images/mya/use/sugg-out-tasks-60.png)
+![Suggested outstanding tasks](../../Images/mya/use/sugg-out-tasks-2.png)
 
 You can select **See my tasks** to see and follow up on the potentially outstanding task in Insights. As shown in this image, you can open the related task (RE: Kat - Anisa chat) for more details, or select **Mark as done** or **Not a task** to remove it from your task list.
 
@@ -132,8 +110,6 @@ You can select **See my tasks** to see and follow up on the potentially outstand
 
 While reading a calendar invitation, you might see a suggestion to **Book time for focused work** (if you have a heavy meeting load) so that you get more time to do deep work and reclaim your calendar for work that matters most.
 
-![Get more time to focus](../../Images/mya/use/more-time-to-focus-60.png)
-
 Select **See suggested times** to open a pane that displays all the time available to focus in the coming week, with a couple of available slots every day. With one click you can add focus time to your calendar and get ready for distraction-free deep work. You can also book all available time for focused work with one click, thus setting you up for focused work over a longer duration.
 
 ![Book focus time](../../Images/mya/use/book-focus-time.png)
@@ -142,7 +118,7 @@ Select **See suggested times** to open a pane that displays all the time availab
 
 When composing an email or calendar invitation in Outlook about your upcoming time away from work, you might see a suggestion similar to the following.
 
-![Plan your time away inline suggestion](../../Images/mya/use/inline-away.png)
+![Plan your time away inline suggestion](../../Images/mya/use/inline-away-2.png)
 
 Reduce the stress of planning for time away from work with the **Plan your time away** checklist. When you see an inline suggestion about it, select **Plan** to open the checklist and do the following:
 
@@ -158,7 +134,7 @@ For more details about how to use the checklist, see [Plan your time away](use-t
 
 If a meeting request conflicts with an existing focus-time block, you might see a suggestion to protect your focus-time block by moving the focus time to another time or to meet at another time.
 
-![Protect focus time](../../Images/mya/use/protect-focus-time.png)
+![Protect focus time](../../Images/mya/use/protect-focus-time-2.png)
 
 Select **See other available times** to open the Insights add-in pane and display all the available time in the coming week to reschedule the meeting. By selecting a time block you can propose a new time to the meeting organizer.
 
@@ -174,7 +150,7 @@ _**Applies to**: This suggestion is currently available only to people who are u
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
-![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-77-80-75.png)
+![Shorten a meeting](../../Images/mya/use/shorten-a-meeting-2.png)
 
 Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also opens the Insights add-in, where you can see the amount of time saved by all the participants in the meeting.
 
@@ -186,11 +162,11 @@ _**Applies to**: This insight is currently available only to people who are usin
 
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
-![Track email open rate](../../Images/mya/use/track-email-open-rate-50.png)
+![Track email open rate](../../Images/mya/use/track-email-3.png)
 
 Select **See more insights** to see how many people have opened or forwarded your email and the average time that they spent reading that email, plus similar information for any attachments on that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done.
 
-![Email open rates](../../Images/mya/use/email-open-rates-50.png)
+![Email open rates](../../Images/mya/use/email-open-rates-1.png)
 
 ## Track email
 
