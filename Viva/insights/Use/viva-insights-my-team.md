@@ -1,7 +1,7 @@
 ---
 
 title: Viva Insights for managers
-description: My team in the Microsoft Viva Insights shows managers their team collaboration patterns
+description: My team in Microsoft Viva Insights in Teams shows managers their team collaboration patterns
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Manager insights
+# My team insights
 
 Microsoft Viva Insights shows managers insights about their teams’ work patterns that might lead to burnout and stress. These can be caused by regular after-hours work, meeting overload, or too little focus time.
 

@@ -15,7 +15,7 @@ audience: Admin
 # Briefing email overview
 
 >[!Note]
->Between September and November 2021, the personal insights included in your daily Briefing email will use the Microsoft Viva brand. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+>Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
 
 The Briefing email helps you stay in control of your calendar and be intentional about your day. Within two hours of your workday (as set up in [Outlook](https://outlook.office.com/calendar/options/calendar/view/appearance)), you'll get an email about any relevant items to help you better prepare for the day ahead, including:
 
@@ -24,7 +24,7 @@ The Briefing email helps you stay in control of your calendar and be intentional
 * Suggested focus time you can schedule to help get independent work done.
 
 >[!Important]
->Briefing is available for Microsoft 365 Enterprise users with Exchange Online mailboxes in English and Spanish.
+>Briefing is available for Microsoft 365 Enterprise users with Exchange Online mailboxes that are in a [supported language](be-languages.md).
 
 ## Why am I getting this?
 
@@ -66,8 +66,9 @@ Depending on if you open the [Adaptive or HTML version](#adaptive-or-html-versio
 * [Book focus time](be-focus.md) (Adaptive version only)
 * [Meditate with Headspace](be-headspace.md)
 * [Plan your week](be-time.md) (Adaptive version only)
+* [Catch up with your team](be-manager.md)
 * [Settings](be-settings.md)
-<!--* [Catch up with your team](be-manager.md) (Adaptive version only)-->
+
 ## Related topics
 
 * [Configure Briefing email](be-admin.md)

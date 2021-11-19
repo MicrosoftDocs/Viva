@@ -35,7 +35,7 @@ The file will include any standard or customized metrics you specify. The IsActi
 
 ![Query results metrics.](../images/wpa/tutorials/query-results-metrics.png)
 
- And your results will include any employee organizational data attributes that your Viva Insights or Workplace Analytics admin has uploaded.
+ And your results will include any employee organizational data attributes in the latest available organizational data.
 
 ![Query results attributes.](../images/wpa/tutorials/query-results-attributes.png)
 

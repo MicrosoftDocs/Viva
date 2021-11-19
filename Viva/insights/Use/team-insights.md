@@ -60,6 +60,9 @@ Quiet-hours impact is based on collaboration activity that you initiate with tea
 
 For emails and chats, it is not necessary for the team member to have actually read or responded to the message you sent; the insight is simply intended to draw your awareness to activities that might have impacted team members after hours.
 
+>[!Note]
+>When you add a member to your team this week, your impact on the new member's quiet hours are reflected in next week's data.
+
 ### Team meeting habits
 
 Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
@@ -77,6 +80,9 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 ## Group insights
 
 As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness within Viva Insights in Teams. This section is only available to those who are set up as a manager and meet the minimum-group requirements. <!--See [Group insights](group-insights.md) for details.-->
+
+>[!Note]
+>When you add a member to your team this week, those changes are reflected in next week's data.
 
 ## Briefing and digest emails
 

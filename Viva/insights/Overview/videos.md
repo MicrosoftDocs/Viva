@@ -14,7 +14,7 @@ audience: Admin
 
 # Viva Insights videos
 
-The Microsoft Viva Insights in Workplace Analytics documentation has a number of videos that help explain concepts or describe procedural steps. To find the current videos, refer to the following sections:
+The Microsoft Viva Insights documentation has a number of videos that can help explain concepts or describe procedural steps.
 
 ## Introduction
 
@@ -22,9 +22,9 @@ The Microsoft Viva Insights in Workplace Analytics documentation has a number of
 
 ## Setup
 
-* [Set up overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
-* [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
-* [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)
+* [Setup overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
+<!--* [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
+* [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)-->
 
 ### Analyst settings
 
