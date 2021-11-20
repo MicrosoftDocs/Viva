@@ -122,8 +122,6 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 5. In the right pane, in the **Toolbar** area, select **Viva Insights**.
 6. Save your new settings.
 
-    ![Save settings.](../../images/mya/use/save-settings.png)
-
 ## To opt out
 
 1. Open your [dashboard](https://myanalytics.microsoft.com).
