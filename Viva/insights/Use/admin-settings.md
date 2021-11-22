@@ -16,18 +16,18 @@ audience: Admin
 
 # Leader and manager settings
 
-As an admin for Microsoft Viva Insights or Workplace Analytics, you can use **Leader & manager settings** to configure the following.
+As the Microsoft Viva Insights Administrator, you can use **Leader & manager settings** to configure the following.
 
-* **Privacy settings** - This applies exclusively to the outcome data that leaders see in the Microsoft Viva Insights app in Microsoft Teams. Use the **Tenant minimum group size** setting to set the minimum number of people in a group, which must be at least five, before leaders can see any data in **My organization**.
-* **Manager settings** - Enable all or specific people managers to see team insights within **My team** in Viva Insights in Teams. For details, see [Manager settings](manager-settings.md).
+* **Privacy settings** - Applies exclusively to the outcome data that leaders see in the Viva Insights app in Microsoft Teams. Use the **Tenant minimum group size** setting to set the minimum number of people in a group, which must be at least five, before **Insights Business Leaders** can see any data in **My organization**.
+* **Manager settings** - Enable all or specific people managers to see team insights on the **My team** page within Viva Insights in Teams. For details, see [Manager settings](manager-settings.md).
 
-**Owner** – Only Viva Insights and Workplace Analytics admins can access these settings. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights Administrators can access these settings. For details, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
 
 ![Leader and manager settings](../images/wpa/use/privacy-lm-settings.png)
 
 ## To access the settings
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your admin credentials.
+1. Open [the app](https://workplaceanalytics.office.com). If prompted, enter your admin credentials.
 2. In the left navigation pane, select **Leader & manager settings**.
 
 ## Related topic

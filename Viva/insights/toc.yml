@@ -234,9 +234,9 @@ items:
                     href: use/Assigning-licenses-with-powershell.md
               - name: Assign roles
                 items:
-                  - name: Overview
+                  - name: Assign admin roles
                     href: setup/assign-roles-to-wpa-admins.md
-                  - name: User roles
+                  - name: Role access
                     href: Use/User-Roles.md
                   - name: Assign roles with Azure AD
                     href: setup/assign-user-roles.md

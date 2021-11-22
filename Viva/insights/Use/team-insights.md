@@ -77,12 +77,12 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 * **RSVP'd** - Team meetings to which you were invited but did not explicitly accept (note that the denominator here excludes meetings that you declined).
 * **Joined on time** - Online team meetings (over a Teams or Skype for Business link) that you scheduled or were invited to and joined within a few minutes of the scheduled start time.
 
->[!Note]
->When you add a member to your team this week, those changes are reflected in next week's data.
-
 ## Group insights
 
-As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness within Viva Insights in Teams. This section is only available to those who are set up as a manager and meet the minimum-group requirements. See [Group insights](../use/group-insights.md) for details.
+As a qualifying manager, you'll see a top insight with a **Learn more** link to see more in-depth data about your team's employee experience and effectiveness within Viva Insights in Teams. This section is only available to those who are set up as a manager and meet the minimum-group requirements. <!--See [Group insights](group-insights.md) for details.-->
+
+>[!Note]
+>When you add a member to your team this week, those changes are reflected in next week's data.
 
 ## Briefing and digest emails
 
