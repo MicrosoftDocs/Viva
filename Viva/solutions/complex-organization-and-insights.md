@@ -349,6 +349,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
    :::image type="content" source="images/debug-successful-execution.png" alt-text="The screen on which a debug operation is successfully executed":::
    
    The output is available to view in the storage account in **wpaexports > rawdata1**.
+
    :::image type="content" source="images/rawdata1-folder-to-select.png" alt-text="The screen displaying the **rawdata1** folder in which the output is available":::
 
 ## Visualize with PowerBi
