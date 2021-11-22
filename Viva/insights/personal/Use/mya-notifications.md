@@ -70,6 +70,8 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
+_**Applies to**: Delay delivery inline suggestions are currently available only to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) or Insights by MyAnalytics with a [supported plan](../overview/plans-environments.md)._
+
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
