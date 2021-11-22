@@ -250,8 +250,7 @@ In [person queries](Person-queries.md#person-queries), business processes are av
    ![Add a filter.](../images/wpa/tutorials/add-filter.png)
 
 6. For **Collaboration hours where**, edit the filter and use an applicable business process. Only business processes in the "Ready" state are available for selection.
-7. In **Organizational data**, be sure to select **BusinessProcesses** as as an attribute to include in the query.
-8. Finish defining the query, and then select **Run**.
+7. Finish defining the query, and then select **Run**.
 
 ### Interpret query results
 
