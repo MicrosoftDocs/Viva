@@ -149,7 +149,7 @@ Using the case for the need to pull query data from Viva Insights from multiple 
 
 Viva Insights queries can be executed and the output can be downloaded and further analyzed offline.
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
-There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#manual-approach-on-ad-hoc-basis).
+There are no other pipeline setup requirements.
 
 :::image type="content" source="images/adhoc-manual-approach.png" alt-text="Illustration of the instance of ad hoc manual approach":::
 
@@ -157,7 +157,7 @@ There are no other pipeline setup requirements. To visualize it in the sample Bu
 
 Viva Insights queries can be scheduled to auto refresh and accessed via oData links to provide further analysis or to be visualized in PowerBi reports. 
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
-There are no other pipeline setup requirements. To visualize it in the sample Business Continuity PowerBi, click [here](#ad-hoc-with-odata-approach).
+There are no other pipeline setup requirements.
 
 :::image type="content" source="images/adhoc-using-odata-approach.png" alt-text="Illustration of the instance of ad hoc oData approach":::
 
