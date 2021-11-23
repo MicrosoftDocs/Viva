@@ -43,9 +43,9 @@ Complex organizations represent challenges for deriving insights. Often, the tas
 
 ## Complex organizations and Viva Insights
 
-Microsoft Viva Insights provide information and research-based behavioral insights into:
+Microsoft Viva Insights provide information and research-based behavioral insights into how an organization gets work done:
 
-- The tasks an organization has to execute to get work done. For example:
+- Some examples of the works to get done are:
     - how to enhance organizational agility
     - how to boost employee engagement
     - how to improve agility
@@ -53,8 +53,8 @@ Microsoft Viva Insights provide information and research-based behavioral insigh
 
 Advanced analytics for organizations comprised of multiple Viva Insights tenants can be enabled by:
 
-- combining the data in a central location, and
-- combining that data with other data sources.
+- combining the data in a central location
+- combining that data with other data sources
 
 A few starter use cases that would be enabled by this data combination strategy are:
 
@@ -70,7 +70,7 @@ A few starter use cases that would be enabled by this data combination strategy 
   
   :::image type="content" source="images/use case - 3.png" alt-text="Data combined from Viva Insights with external sources":::
 
-There are different ways to create a data pipeline to copy data from the source to the destination. There are also different data storage locations that can be used, such as storage accounts, SQL databases, synapse, and so on. An example leveraging Azure data factory, Viva Insights organizational data, and Azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
+There are different ways to create a data pipeline to copy data from the source to the destination. There are also different data storage locations that can be used, such as storage accounts, SQL databases, synapses, and so on. An example leveraging Azure data factory, Viva Insights organizational data, and Azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
 
 ## Preconditions
 
@@ -78,11 +78,12 @@ The following preconditions are to be fulfilled, prior to continuing with its an
 
 ### Organizational data
 
-Organizational data is a key requirement for Viva Insights and further advanced analysis. The organizational data relates to attributes such as employee's title, manager, group, level, and so on. The data with these attributes is referred to as general required organizational data. General required organizational data is further described in [Viva Insights prepare organizational data](../insights/Use/organizational-data.md).
+Organizational data is a key requirement for Viva Insights and further advanced analysis. The organizational data relates to attributes such as employee's title, manager, group, level, and so on. The organizational data that is generally required is further described in [Viva Insights prepare organizational data](../insights/Use/organizational-data.md).
 
-It is essential that only such data (with the attributes mentioned above) is uploaded into Viva Insights for analysis. Only then, the analysis output can integrate with other data sources (for example, sales data and survey data) for advanced analysis.
+To enable advanced analysis, the following schema can be used in the file that is uploaded into Viva Insights:
 
-For an insight into advanced analysis, the following schema can be used in the file that is uploaded into Viva Insights.
+> [!NOTE]
+> The schema should be the same between tenants.
 
 |Attribute Name  |Attribute Description  |
 |---------|---------|
@@ -99,11 +100,9 @@ For an insight into advanced analysis, the following schema can be used in the f
 |Location   |     Geographic region or other location detail.    |
 |HashId    |      Unique Hashed identifier for the employee. This attribute enables further advanced analysis on the Viva Insights query results.   |
 
-> [!NOTE]
-> The schema should be the same between tenants.
+With the schema in the above table being used in the file, the analysis output from the uploaded file can be joined with other data sources (for example, sales data and zoom data) for an advanced analysis.
 
-The descriptions for other attributes for Viva Insights are available [here](../insights/Setup/Prepare-organizational-data.md). 
-
+Sdditional instructions for preparing organizational data for Viva Insights are available [here](../insights/Setup/Prepare-organizational-data.md). 
 
 **Example:  Sample of an organizational data file**
 
