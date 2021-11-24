@@ -228,11 +228,16 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/clicking-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
 1. Add the keyvault's secret permissions to the managed identity by performing the following steps:
      1. From the keyvault's properties screen (below screenshot), click **+ Add access policy**.
+        :::image type="content" source="images/keyvault-before-managed-identity.png" alt-text="The screen displaying information about the properties of the keyvault":::
         The **Add access policy** screen appears.
      1. From the **Secret permissions** drop-down list, choose **Get** and **List**.
+        :::image type="content" source="images/keyvault-managed-identity-permissions.png" alt-text="The screen on which secret permissions are selected":::
      1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
+        :::image type="content" source="images/keyvault-managed-identity-principal.png" alt-text="The screen on which the Managed Identity Application ID is displayed":::
      1. Click **Add**.
+        :::image type="content" source="images/keyvault-managed-identity-principal-add.png" alt-text="The screen on which you add the managed identity":::
      1. Click **Save** on the top-left of the screen.
+        :::image type="content" source="images/keyvault-managed-identity-principal-save.png" alt-text="The screen on which the added managed identity is saved":::
 1. Grant Storage Account permissions to the Data Factory Managed Service Identity.
      1. Launch the resource group (**wuarmdfrg1**). The screen displaying details of the chosen resource group appears.
        :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
