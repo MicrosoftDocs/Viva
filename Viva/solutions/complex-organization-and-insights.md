@@ -220,10 +220,11 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/properties-screen.png" alt-text="The screen from which you select the keyvault":::
        The screen displaying details of the chosen keyvault appears.
        :::image type="content" source="images/key-vault-resource-screen.png" alt-text="The screen containing details of the chosen keyvault":::
-     1. Click **Access policies** from the left pane.
+     1. Click **Access policies** on the left pane.
        :::image type="content" source="images/selecting-access-policies.png" alt-text="The screen on which the Access policies are displayed to select":::
+     1. Click **+ Add access policy** in the center of the screen. The **Add access policy** screen appears.
        :::image type="content" source="images/adding-access-policy.png" alt-text="The screen on which the option to add an access policy is displayed":::
-     1. Click **+ Add access policy** and add your own account by setting values as described below:
+     1. Add your own account by setting values as described below:
      1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
      1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
        :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
@@ -232,8 +233,9 @@ The setup details are available [here](#data-pipeline---automated).
      1. Click **Save** on the top-left of the screen.
        :::image type="content" source="images/clicking-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
 1. Add the keyvault's secret permissions to the managed identity by performing the following steps:
-     1. From the keyvault's properties screen (below screenshot), click **+ Add access policy**.
+     1. From the keyvault's properties screen (below screenshot), click **Access policies** on the left pane.
         :::image type="content" source="images/keyvault-before-managed-identity.png" alt-text="The screen displaying information about the properties of the keyvault":::
+     1. Click **+ Add access policy**.
         The **Add access policy** screen appears.
      1. From the **Secret permissions** drop-down list, choose **Get** and **List**.
         :::image type="content" source="images/keyvault-managed-identity-permissions.png" alt-text="The screen on which secret permissions are selected":::
@@ -249,14 +251,14 @@ The setup details are available [here](#data-pipeline---automated).
      1. Launch the storage account (**wuarmdfsa1**). The screen displaying details of the chosen storage account appears.
      1. Click **Access Control (IAM)** on the left pane.
        :::image type="content" source="images/access-control-iam.png" alt-text="The screen on which the Access control (IAM) option is displayed":::
-     1. Click the **Role assignments** tab.
+     1. Click the **Role assignments** tab. The below screen appears.
        :::image type="content" source="images/adding-role-assignment.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
      1. Click **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
      1. Select **Storage Blob Data Contributor**, and click **Next**.
        :::image type="content" source="images/selecting-role-assignment.png" alt-text="The role assignment screen":::
-     1. Under **Assign access to**, choose the **Managed identity** radio button.
+     1. Click the **Members** tab, and under **Assign access to**, choose the **Managed identity** radio button.
        :::image type="content" source="images/choosing-managed-identity.png" alt-text="The screen on which the Managed identity radio button is chosen":::
-     1. Click **+ Select members** tab. The **Select managed identities** screen appears.
+     1. Click **+ Select members** on the center of the screen. The **Select managed identities** screen appears.
        :::image type="content" source="images/select-members.png" alt-text="The Select managed identities screen":::
      1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
        :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
@@ -347,7 +349,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
 
 #### To execute the pipeline manually
 
-1. Launch the data factory created earlier, and click **Open the Azure Data Factory Studio**.
+1. Launch the data factory created earlier, and click **Open** under the **Open the Azure Data Factory Studio** option in the **Getting started** pane.
 
    > [!NOTE]
    > Data factory is the one created during deployment of arm template for data factory creation for MultiTenant.
@@ -355,6 +357,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
    :::image type="content" source="images/launching-azure-data-factory-studio.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
 
 1. Click **Author** on the left pane.
+   
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
    :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text="The screen on which the resource is selected":::
 1. Click **Debug**. The below screenshot illustrates a successful execution of a debug operation.
