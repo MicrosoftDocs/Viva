@@ -264,7 +264,7 @@ The setup details are available [here](#data-pipeline---automated).
         > [!NOTE]
         > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
 
-       :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
+        :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Click **Select**. The **Add role assignment** screen appears.
      1. Click **Review + assign**.
        :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen.png" alt-text="Add role assignment screen that displays the Review + assign option":::
