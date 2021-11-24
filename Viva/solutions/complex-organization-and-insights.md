@@ -200,7 +200,7 @@ The setup details are available [here](#data-pipeline---automated).
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
      1. Launch the resource group (**wuarmdfrg1**) by clicking its link. The screen displaying details of the resource group appears.
         > [!NOTE]
-        > The resource group **wuarmdfrg1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+        > The resource group **wuarmdfrg1** has been defined in the **Custom deployment** screen; see the second screenshot under sub-step (h) in [Data pipeline - Automated](#data-pipeline---automated).
 
         :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
 
@@ -262,7 +262,7 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
      1. Search for the Data factory name (**wuarmdf1**) from the **Select** field.
         > [!NOTE]
-        > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+        > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under sub-step (h) in [Data pipeline - Automated](#data-pipeline---automated).
 
         :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Click **Select**. The **Add role assignment** screen appears.
