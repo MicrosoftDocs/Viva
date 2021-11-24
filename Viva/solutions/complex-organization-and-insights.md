@@ -199,9 +199,8 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/deployment-completion-notification.png" alt-text="The screen on which the notification message of deployment completion is displayed":::
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
      1. Launch the resource group (**wuarmdfrg1**) by clicking its link. The screen displaying details of the resource group appears.
-     
-       > [!NOTE]
-       > The resource group **wuarmdfrg1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+        > [!NOTE]
+        > The resource group **wuarmdfrg1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
 
         :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
 
@@ -262,9 +261,8 @@ The setup details are available [here](#data-pipeline---automated).
      1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
        :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
      1. Search for the Data factory name (**wuarmdf1**) from the **Select** field.
-     
-       > [!NOTE]
-       > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+        > [!NOTE]
+        > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
 
        :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Click **Select**. The **Add role assignment** screen appears.
@@ -297,9 +295,8 @@ The setup details are available [here](#data-pipeline---automated).
      1. Click **Secrets** on the left pane, and click **+ Generate/Import**.
        :::image type="content" source="images/secrets-generate-import.png" alt-text="The Secrets screen on which the Generate/Import option is available":::
      1. Create the secrets using the names in the below table.
-     
-       > [!NOTE]
-       > The two examples below the table describe the process of creating a secret.
+        > [!NOTE]
+        > The two examples below the table describe the process of creating a secret.
  
         |Secret Name (based on the examples Tenant 1 and Tenant 2)  |Value description  |
         |---------|---------|
