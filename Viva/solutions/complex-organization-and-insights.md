@@ -199,14 +199,20 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/deployment-completion-notification.png" alt-text="The screen on which the notification message of deployment completion is displayed":::
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
      1. Launch the resource group (**wuarmdfrg1**) by clicking its link. The screen displaying details of the resource group appears.
+     
        > [!NOTE]
        > The resource group **wuarmdfrg1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
-       :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
+
+        :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
+
      1. Launch the Data factory (V2) resource by clicking its link.
-       > [!NOTE]
-       > The Data factory (V2) resource in this instance is **wuarmdf1**.
-       The screen displaying details of the **wuarmdf1** Data factory resource appears.
-       :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
+      
+        > [!NOTE]
+        > The Data factory (V2) resource in this instance is **wuarmdf1**.
+
+        The screen displaying details of the **wuarmdf1** Data factory resource appears.
+        :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
+
      1. Click **Properties**. The screen displaying details of the chosen Data factory appears.
        :::image type="content" source="images/copying-managed-identity-application-id.png" alt-text="The screen on which the value of Managed Identity Application ID is displayed to copy":::
      1. Copy the value of the **Managed Identity Application ID** attribute.
@@ -256,8 +262,10 @@ The setup details are available [here](#data-pipeline---automated).
      1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
        :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
      1. Search for the Data factory name (**wuarmdf1**) from the **Select** field.
+     
        > [!NOTE]
        > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under Step-9 in [Data pipeline - Automated](#data-pipeline---automated).
+
        :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Click **Select**. The **Add role assignment** screen appears.
      1. Click **Review + assign**.
@@ -289,6 +297,7 @@ The setup details are available [here](#data-pipeline---automated).
      1. Click **Secrets** on the left pane, and click **+ Generate/Import**.
        :::image type="content" source="images/secrets-generate-import.png" alt-text="The Secrets screen on which the Generate/Import option is available":::
      1. Create the secrets using the names in the below table.
+     
        > [!NOTE]
        > The two examples below the table describe the process of creating a secret.
  
@@ -342,6 +351,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
 #### To execute the pipeline manually
 
 1. Launch the data factory created earlier, and click **Open the Azure Data Factory Studio**.
+
    > [!NOTE]
    > Data factory is the one created during deployment of arm template for data factory creation for MultiTenant.
 
