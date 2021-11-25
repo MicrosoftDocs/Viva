@@ -147,7 +147,7 @@ Using the case for the need to pull query data from Viva Insights from multiple 
 
 ### Ad hoc manual approach
 
-Viva Insights queries can be executed and the output can be downloaded and further analyzed offline.
+Viva Insights queries can be executed and the output can be [downloaded](../insights/Use/View-download-and-export-query-results.md) and further analyzed offline.
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
 There are no other pipeline setup requirements.
 
@@ -155,7 +155,7 @@ There are no other pipeline setup requirements.
 
 ### Ad hoc using oData approach
 
-Viva Insights queries can be scheduled to auto refresh and accessed via oData links to provide further analysis or to be visualized in PowerBi reports. 
+Viva Insights queries can be scheduled to auto refresh and accessed via [oData links](../insights/Use/View-download-and-export-query-results.md) to provide further analysis or to be visualized in PowerBi reports. 
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
 There are no other pipeline setup requirements.
 
@@ -186,8 +186,10 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
     1. Click **Load file**. 
        :::image type="content" source="images/load-file.png" alt-text="The screen displaying the Load file option":::
-       The browser window is displayed, from which you can navigate to the location of the downloaded `JSON` file.
-    1. Select the **DataFactory_oData_arm_template.json** file (a download location needed for this), and click **Open**.
+       The browser window is displayed..
+    1. Navigate to the location that contains the downloaded **DataFactory_oData_arm_template.json** file and click **Open**.
+       > [!NOTE]
+       > You can download the **DataFactory_oData_arm_template.json** file from the location https://vscomporgsa.blob.core.windows.net/files/DataFactory_oData_arm_template.zip?sp=r&st=2021-11-23T16:55:42Z&se=2022-06-01T23:55:42Z&spr=https&sv=2020-08-04&sr=b&sig=hAmyCMD1R4UARcrWTxjK20Yflo9ZQmXWkCeNqtXfqpk%3D).
     1. On the resultant screen, click **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Provide values for the highlighted items.
