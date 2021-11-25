@@ -16,18 +16,18 @@ As a people manager, confirm the following prerequisites. You can then sign in a
 
 ## Prerequisites
 
-* **Manager access** - Confirm that the Viva Insights or Workplace Analytics admin has given you access to Workplace Analytics in [Manager settings](../use/manager-settings.md).
-* **Licensed team** - You and your team are measured employees who are assigned a Workplace Analytics license and your team is included in the reporting hierarchy that leads to you as their manager. The hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the admin.
+* **Manager access** - Confirm that the Viva Insights or Workplace Analytics admin has given you access through [Manager settings](../use/manager-settings.md).
+* **Licensed team** - You and your team are measured employees who are assigned a license and your team is included in the reporting hierarchy that leads to you as their manager. The hierarchy is based on the latest available HR data uploaded by the admin.
 * **Minimum team size** - Your team structure must meet the minimum group size of 10 or more measured and licensed employees.
 
 ## View your team's insights
 
-After confirming the prerequisites, you can get a snapshot of how your team is currently doing in the following apps:
+Depending on your license and access settings, you can get a snapshot of how your team is currently doing in the following apps:
 
 * [Microsoft Viva Insights app](teams-app.md)
 * [Workplace Analytics app](https://workplaceanalytics.office.com)
 
-Manager insights provides the following visibility into your team’s collaboration patterns, which are leading indicators that ladder up to overall wellbeing:
+Manager insights give you visibility into your team’s collaboration patterns, which are leading indicators that ladder up to overall wellbeing.
 
 * **Employee experience** - Research shows that happy employees help boost productivity and reduce turnover. These insights and suggestions can help you maintain positive employee experiences, such as evaluating how much time your team is working after hours on email or instant messages, and if your team is getting enough 1:1 time with you and other managers.
 
@@ -37,7 +37,7 @@ Manager insights provides the following visibility into your team’s collaborat
 
 ## Who is included
 
-Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](../use/organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *included employees* in your team. Your Viva Insights or Workplace Analytics admin admin can give you more details about uploads and measured employees.
+Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](../use/organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *included employees* in your team. Your Viva Insights Administrator can give you more details about uploads and measured employees.
 
 ## About the insights
 

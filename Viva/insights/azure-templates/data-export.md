@@ -57,7 +57,7 @@ Before exporting Workplace Analytics data, confirm the following:
 
 1. If you have already installed Azure Templates, use the SAS URI created after deployment which grants write-only access to the raw data folder that was set up during deployment and use that URI in **Step 3**.
 2. If you have partitions set up in Workplace Analytics, select which partition you want to export data from. If not, skip to the next step.
-3. In Workplace Analytics, go to **Settings** > **Data export**.
+3. In Workplace Analytics, go to **Controls** > **Analyst settings** > **Data export**.
 4. In **Azure storage container SAS URI**, enter the URI for the Azure storage container.
 5. In the **Field privacy** section, select which fields to export as raw values and as hashed values. Note the options for the required fields at the top of the list are locked and unchangeable, as shown in the following graphic.
 

@@ -236,7 +236,7 @@ For more information about attributes, see the [Attribute reference](#attribute-
 
 After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
-After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Viva Insights or Workplace Analytics admin.
+After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Microsoft Viva Insights team will contact your Viva Insights Administrator.
 
 ### How often to upload organizational data
 
@@ -244,7 +244,7 @@ It is recommended that you upload HR data at least once a month to keep data fre
 
 #### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file).
+By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file).
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
