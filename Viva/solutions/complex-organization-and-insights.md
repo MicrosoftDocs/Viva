@@ -200,13 +200,7 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/review-plus-create-and-create.png" alt-text="The screen on which you can click Create":::
        :::image type="content" source="images/deployment-completion-notification.png" alt-text="The screen on which the notification message of deployment completion is displayed":::
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
-     1. Launch the resource group (**wuarmdfrg1**) by clicking its link. The screen displaying details of the resource group appears.
-        > [!NOTE]
-        > The resource group **wuarmdfrg1** has been defined in the **Custom deployment** screen; see the second screenshot under sub-step (h) in [Data pipeline - Automated](#data-pipeline---automated).
-
-        :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
-
-     1. Launch the Data factory (V2) resource by clicking its link.
+      1. Launch the Data factory (V2) resource by clicking its link to obtain the managed service identity.
       
         > [!NOTE]
         > The Data factory (V2) resource in this instance is **wuarmdf1**.
@@ -214,26 +208,25 @@ The setup details are available [here](#data-pipeline---automated).
         The screen displaying details of the **wuarmdf1** Data factory resource appears.
         :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
 
-     1. Click **Properties**. The screen displaying details of the chosen Data factory appears.
-       :::image type="content" source="images/copying-managed-identity-application-id.png" alt-text="The screen on which the value of Managed Identity Application ID is displayed to copy":::
-     1. Copy the value of the **Managed Identity Application ID** attribute.
-     1. Navigate back to the screen of the resource group **wuarmdfrg1** by selecting **Overview**, the **Resources** tab and **wuarmdfrg1** under it.
-     1. Launch the Key Vault (**wuarmdfkv1**) by clicking its link.
-       :::image type="content" source="images/properties-screen.png" alt-text="The screen from which you select the keyvault":::
-       The screen displaying details of the chosen keyvault appears.
-       :::image type="content" source="images/key-vault-resource-screen.png" alt-text="The screen containing details of the chosen keyvault":::
-     1. Click **Access policies** on the left pane.
-       :::image type="content" source="images/selecting-access-policies.png" alt-text="The screen on which the Access policies are displayed to select":::
-     1. Click **+ Add access policy** in the center of the screen. The **Add access policy** screen appears.
-       :::image type="content" source="images/adding-access-policy.png" alt-text="The screen on which the option to add an access policy is displayed":::
-     1. Add your own account by setting values as described below:
-     1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
-     1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
-       :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
-     1. Click **Add**.
-       :::image type="content" source="images/clicking-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
-     1. Click **Save** on the top-left of the screen.
-       :::image type="content" source="images/clicking-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
+      1. Click **Properties**. The screen displaying details of the chosen Data factory appears.
+        :::image type="content" source="images/copying-managed-identity-application-id.png" alt-text="The screen on which the value of Managed Identity Application ID is displayed to copy":::
+      1. Copy the value of the **Managed Identity Application ID** attribute.
+      1. Navigate back to the screen of the resource group **wuarmdfrg1** by selecting **Overview**, the **Resources** tab and **wuarmdfrg1** under it.
+      1. Launch the Key Vault (**wuarmdfkv1**) by clicking its link.
+         The screen displaying details of the chosen keyvault appears.
+         :::image type="content" source="images/key-vault-resource-screen.png" alt-text="The  screen containing details of the chosen keyvault":::
+      1. Click **Access policies** on the left pane.
+         :::image type="content" source="images/selecting-access-policies.png" alt-text="The screen on which the Access policies are displayed to select":::
+      1. Click **+ Add access policy** in the center of the screen. The **Add access policy** screen appears.
+         :::image type="content" source="images/adding-access-policy.png" alt-text="The screen on which the option to add an access policy is displayed":::
+      1. Add your own account by setting values as described below:
+         1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
+         1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
+            :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
+      1. Click **Add**.
+         :::image type="content" source="images/clicking-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
+      1. Click **Save** on the top-left of the screen.
+         :::image type="content" source="images/clicking-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
 1. Add the keyvault's secret permissions to the managed identity by performing the following steps:
      1. From the keyvault's properties screen (below screenshot), click **Access policies** on the left pane.
         :::image type="content" source="images/keyvault-before-managed-identity.png" alt-text="The screen displaying information about the properties of the keyvault":::
@@ -252,52 +245,53 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
      1. Launch the storage account (**wuarmdfsa1**). The screen displaying details of the chosen storage account appears.
      1. Click **Access Control (IAM)** on the left pane.
-       :::image type="content" source="images/access-control-iam.png" alt-text="The screen on which the Access control (IAM) option is displayed":::
+        :::image type="content" source="images/access-control-iam.png" alt-text="The screen on which the Access control (IAM) option is displayed":::
      1. Click the **Role assignments** tab. The below screen appears.
-       :::image type="content" source="images/adding-role-assignment.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
+        :::image type="content" source="images/adding-role-assignment.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
      1. Click **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
      1. Select **Storage Blob Data Contributor**, and click **Next**.
-       :::image type="content" source="images/selecting-role-assignment.png" alt-text="The role assignment screen":::
+        :::image type="content" source="images/selecting-role-assignment.png" alt-text="The role assignment screen":::
      1. Click the **Members** tab, and under **Assign access to**, choose the **Managed identity** radio button.
-       :::image type="content" source="images/choosing-managed-identity.png" alt-text="The screen on which the Managed identity radio button is chosen":::
+        :::image type="content" source="images/choosing-managed-identity.png" alt-text="The screen on which the Managed identity radio button is chosen":::
      1. Click **+ Select members** on the center of the screen. The **Select managed identities** screen appears.
-       :::image type="content" source="images/select-members.png" alt-text="The Select managed identities screen":::
+        :::image type="content" source="images/select-members.png" alt-text="The Select managed identities screen":::
      1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
-       :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
+        :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
      1. Search for the Data factory name (**wuarmdf1**) from the **Select** field.
         > [!NOTE]
         > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under sub-step (h) in [Data pipeline - Automated](#data-pipeline---automated).
 
         :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
      1. Click **Select**. The **Add role assignment** screen appears.
-     1. Click **Review + assign**.
-       :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen.png" alt-text="Add role assignment screen that displays the Review + assign option":::
+        :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen.png" alt-text="Add role assignment screen that displays the Review + assign option":::
+     1. Click the **Review + assign** tab, and click **Review + assign** at the bottom-left of the screen.
+        :::image type="content" source="images/clicking-review-plus-assign.png" alt-text="The review-plus-assign tab screen":::
      1. Refresh the browser to view the **Role assignments** screen again, in which you can view the Data factory application you have just added.
-       :::image type="content" source="images/role-reflection-screen.png" alt-text="The screen that displays the Data factory application":::
+        :::image type="content" source="images/role-reflection-screen.png" alt-text="The screen that displays the Data factory application":::
 1. Create a file named **odatasources.txt**.
      1. Create a `.txt` file with the below comma-delimited schema for each oData source and the tenant reference information that will be stored in keyvault.
 
-    |Column name  |Description  |
-    |---------|---------|
-    |odataurl    |   oData URL from viva insights query      |
-    |tenantid     |   Name of the secret in the Keyvault for the TenantID (aka omstenantid, aad tenantid)      |
-    |aadresource       |  The aadresource for the oData       |
-    |servicePrincipal     |  Name of the secret in the Keyvault for the application ID that will be used to access the oData URL      |
-    |secretName     |  Name of the secret in Keyvault for the secret for the application ID that will be used to access the oData URL       |
-    |path     | oData path of the oData URL        |
-    |fileName    |    Pre-fix name of the file     |
+        |Column name  |Description  |
+        |---------|---------|
+        |odataurl    |   oData URL from viva insights query      |
+        |tenantid     |   Name of the secret in the Keyvault for the TenantID (aka omstenantid, aad tenantid)      |
+        |aadresource       |  The aadresource for the oData       |
+        |servicePrincipal     |  Name of the secret in the Keyvault for the application ID that will be used to access the oData URL      |
+        |secretName     |  Name of the secret in Keyvault for the secret for the application ID that will be used to access the oData URL       |
+        |path     | oData path of the oData URL        |
+        |fileName    |    Pre-fix name of the file     |
 
-    > [!NOTE]
-    > The content in the `.txt` file will be a comma-delimited one. This content is built using the schema in the above table. This schema-based content is created for each oData source.
+        > [!NOTE]
+        > The content in the `.txt` file will be a comma-delimited one. This content is built using the schema in the above table. This schema-based content is created for each oData source.
 
       A sample of the `odatasources.txt` file is depicted in the below screenshot. This file contains details of two tenants, who are each assigned two sets of oData URLs they can govern. Each oData URL for a tenant uses the keyvault secret created specifically for that tenant.
 
       :::image type="content" source="images/example-file-contents.png" alt-text="The content of the sample organizational data file":::
 1. Generate the secrets in Key Vault by performing the following steps:
      1. Launch the Key Vault (**wuarmdfkv1)**.
-       :::image type="content" source="images/properties-screen.png" alt-text="The screen from which you select the keyvault":::
+        :::image type="content" source="images/properties-screen.png" alt-text="The screen from which you select the keyvault":::
      1. Click **Secrets** on the left pane, and click **+ Generate/Import**.
-       :::image type="content" source="images/secrets-generate-import.png" alt-text="The Secrets screen on which the Generate/Import option is available":::
+        :::image type="content" source="images/secrets-generate-import.png" alt-text="The Secrets screen on which the Generate/Import option is available":::
      1. Create the secrets using the names in the below table.
         > [!NOTE]
         > The two examples below the table describe the process of creating a secret.
@@ -360,6 +354,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
 
 1. Click **Author** on the left pane.
    
+   
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
    :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text="The screen on which the resource is selected":::
 1. Click **Debug**. The below screenshot illustrates a successful execution of a debug operation.
@@ -385,7 +380,7 @@ Once you have downloaded the report and the data sources have been modified, the
 
 To obtain an insight into the look of the report by a tenant, perform the following steps:
 
-1. On the **Settings** screen, from the **Select an organizational attribute to view the report by**  drop-down list, choose the Tenant identifier attribute.
+1. On the **Settings** screen, from the **Select an organizational attribute to view the report by** drop-down list, choose the Tenant identifier attribute.
    :::image type="content" source="images/selecting-tenant-identifier-pages.png" alt-text="The screen on which you select tenant attributes":::
 2. Select one of the PowerBi report pages.
    The below screenshot depicts one of the selected pages.
@@ -401,8 +396,8 @@ To view the Tenant 1 organization insights, perform the following steps:
 1.  Under the **To filter employees, select the organizational attribute and values you would like to filter by** pane, from the **Organizational Attribute** drop-down list, choose **TenantInd**.
     1. From the **Select filter values** drop-down list, choose one of the tenants.
        :::image type="content" source="images/settings-to-view-tenant-1-insights.png" alt-text="The screen on which value of a tenant is selected as a filter criteria":::
-1. Select one of the report pages.
-   :::image type="content" source="images/settings-to-view-tenant-1-insights-selecting-report-pages.png" alt-text="The screen displaying pages of a chosen report":::
+    1. Select one of the report pages.
+       :::image type="content" source="images/settings-to-view-tenant-1-insights-selecting-report-pages.png" alt-text="The screen displaying pages of a chosen report":::
 
 
 
