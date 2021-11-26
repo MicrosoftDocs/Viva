@@ -201,9 +201,8 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/deployment-completion-notification.png" alt-text="The screen on which the notification message of deployment completion is displayed":::
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
       1. Launch the Data factory (V2) resource by clicking its link to obtain the managed service identity.
-      
-        > [!NOTE]
-        > The Data factory (V2) resource in this instance is **wuarmdf1**.
+         > [!NOTE]
+         > The Data factory (V2) resource in this instance is **wuarmdf1**.
 
         The screen displaying details of the **wuarmdf1** Data factory resource appears.
         :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
