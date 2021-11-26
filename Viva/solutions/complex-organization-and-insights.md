@@ -204,8 +204,8 @@ The setup details are available [here](#data-pipeline---automated).
          > [!NOTE]
          > The Data factory (V2) resource in this instance is **wuarmdf1**.
 
-        The screen displaying details of the **wuarmdf1** Data factory resource appears.
-        :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
+         The screen displaying details of the **wuarmdf1** Data factory resource appears.
+         :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
 
       1. Click **Properties**. The screen displaying details of the chosen Data factory appears.
         :::image type="content" source="images/copying-managed-identity-application-id.png" alt-text="The screen on which the value of Managed Identity Application ID is displayed to copy":::
