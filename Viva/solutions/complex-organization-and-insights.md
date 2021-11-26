@@ -352,8 +352,7 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
    :::image type="content" source="images/launching-azure-data-factory-studio.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
 
 1. Click **Author** on the left pane.
-   
-   
+   :::image type="content" source="images/selecting-author-on-left-pane.png" alt-text="The screen on which the Author option is clicked on":::
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
    :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text="The screen on which the resource is selected":::
 1. Click **Debug**. The below screenshot illustrates a successful execution of a debug operation.
