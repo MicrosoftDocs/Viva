@@ -159,7 +159,7 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 |Card designer    |     Create your own cards and quick views using the adaptive cards framework    |
 |Teams app card     |    Use to open a Teams personal app or bot specified by the dashboard author     |
 |Tasks     |    Use to open the Teams Tasks app     |
-|Shifts     | Use to open the Shifts app in Teams (upon General Availability release)          |
+|Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
 
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
@@ -198,14 +198,14 @@ Learn how to [set up and deploy Viva Connections for your organization](guide-to
 
 ## Summary of release notes
 
-| Known issues  | Target release                 | 
-| :------------------- | :------------------- |
-| [SPFx] Isolated components are not currently supported  | December | 
-| [SPFx] Domain isolation is not supported yet  | December | 
-| [Feed] Social reactions/comments still enabled but not functional (when disabled)  | December    | 
-| [Mobile] App acquisition flow. Workaround is to install missing app from desktop| December     | 
-| [Config] MDL2 icons are not supported on cards in the Teams mobile experience  | December |
-| Guest user access is not yet supported  | December |
+| Known issues  | 
+| :------------------- | 
+| [SPFx] Isolated components are not currently supported  | 
+| [SPFx] Domain isolation is not supported yet  |  
+| [Feed] Social reactions/comments still enabled but not functional (when disabled)  | 
+| [Mobile] App acquisition flow. Workaround is to install missing app from desktop| 
+| [Config] MDL2 icons are not supported on cards in the Teams mobile experience  | 
+| Guest user access is not yet supported  | 
 
 
 ## More resources
