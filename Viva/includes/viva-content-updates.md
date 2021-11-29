@@ -2,6 +2,16 @@
 
 
 
+## Week of November 22, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/22/2021 | [Business process analysis for Viva Insights](/viva/insights/tutorials/analyze-business-processes) | modified |
+| 11/22/2021 | [Delay delivery plan in MyAnalytics](/viva/insights/personal/use/delay-delivery) | modified |
+| 11/22/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
+
+
 ## Week of November 15, 2021
 
 
@@ -118,50 +128,3 @@
 | 10/27/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
 | 10/27/2021 | [Personal insights configuration for Microsoft 365 administrators](/viva/insights/personal/setup/configure) | modified |
 | 10/27/2021 | [FAQ for Viva Insights in Teams](/viva/insights/personal/teams/viva-teams-app-faq) | modified |
-
-
-## Week of October 18, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/18/2021 | [Admin preview](/viva/insights/personal/briefing/be-admin-trial) | modified |
-| 10/18/2021 | [Configure Briefing email](/viva/insights/personal/briefing/be-admin) | modified |
-| 10/18/2021 | [Cortana Briefing FAQ](/viva/insights/personal/briefing/be-faqs) | modified |
-| 10/18/2021 | [Book focus time with the Briefing email](/viva/insights/personal/briefing/be-focus) | modified |
-| 10/18/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
-| 10/18/2021 | [Prepare for meetings with the Briefing email](/viva/insights/personal/briefing/be-meetings) | modified |
-| 10/18/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
-| 10/18/2021 | [Conduct a user pilot](/viva/insights/personal/briefing/be-pilot) | modified |
-| 10/18/2021 | [Privacy guide for Briefing emails](/viva/insights/personal/briefing/be-privacy) | modified |
-| 10/18/2021 | [Downloadable resources](/viva/insights/personal/briefing/be-resources) | modified |
-| 10/18/2021 | [Settings for Briefings](/viva/insights/personal/briefing/be-settings) | modified |
-| 10/18/2021 | [Follow up on tasks with the Briefing email](/viva/insights/personal/briefing/be-tasks) | modified |
-| 10/18/2021 | [Plan your week with the Briefing email](/viva/insights/personal/briefing/be-time) | modified |
-| 10/18/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 10/18/2021 | [Viva Insights deployment guide](/viva/insights/personal/setup/deployment-guide) | modified |
-| 10/18/2021 | [Delay delivery plan in MyAnalytics](/viva/insights/personal/use/delay-delivery) | modified |
-| 10/18/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
-| 10/18/2021 | [Virtual commute with Viva Insights](/viva/insights/personal/teams/viva-insights-virtual-commute) | modified |
-| 10/19/2021 | [About Viva Insights Outlook add-in](/viva/insights/personal/use/add-in) | modified |
-| 10/19/2021 | [FAQ for Viva Insights](/viva/insights/personal/teams/viva-teams-app-faq) | modified |
-| 10/19/2021 | [Headspace meditation with the Briefing email](/viva/insights/personal/briefing/be-headspace) | added |
-| 10/19/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 10/19/2021 | [Subsequent uploads of organizational data](/viva/insights/setup/upload-organizational-data2) | modified |
-| 10/19/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
-| 10/19/2021 | [Headspace meditation with the Briefing email](/viva/insights/personal/briefing/be-headspace) | modified |
-| 10/19/2021 | [Configure Briefing email](/viva/insights/personal/briefing/be-admin) | modified |
-| 10/19/2021 | [Briefing email from Microsoft Viva FAQ](/viva/insights/personal/briefing/be-faqs) | modified |
-| 10/19/2021 | [Book focus time with the Briefing email](/viva/insights/personal/briefing/be-focus) | modified |
-| 10/19/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
-| 10/19/2021 | [Prepare for meetings with the Briefing email](/viva/insights/personal/briefing/be-meetings) | modified |
-| 10/19/2021 | [Conduct a user pilot](/viva/insights/personal/briefing/be-pilot) | modified |
-| 10/19/2021 | [Privacy guide for Briefing emails](/viva/insights/personal/briefing/be-privacy) | modified |
-| 10/19/2021 | [Downloadable resources](/viva/insights/personal/briefing/be-resources) | modified |
-| 10/19/2021 | [Settings for the Briefing email](/viva/insights/personal/briefing/be-settings) | modified |
-| 10/19/2021 | [Follow up on tasks with the Briefing email](/viva/insights/personal/briefing/be-tasks) | modified |
-| 10/19/2021 | [Plan your week with the Briefing email](/viva/insights/personal/briefing/be-time) | modified |
-| 10/19/2021 | [MyAnalytics FAQ](/viva/insights/personal/overview/mya-faq) | modified |
-| 10/19/2021 | [Viva Insights languages](/viva/insights/personal/overview/mya-languages) | modified |
-| 10/19/2021 | [Use Microsoft Viva Insights in Outlook](/viva/insights/personal/use/use-the-insights) | modified |
-| 10/19/2021 | [Viva Insights Headspace](/viva/insights/personal/teams/viva-insights-headspace) | modified |
