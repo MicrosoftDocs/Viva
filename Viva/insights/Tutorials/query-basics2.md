@@ -180,7 +180,7 @@ The edited query runs again. As it does, it incurs a new cost, in units, calcula
 No additional units are charged for the following:
 
 * Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My Team in Viva Insights](../use/viva-insights-my-team.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
+* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
 * Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.

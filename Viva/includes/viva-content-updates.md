@@ -2,6 +2,110 @@
 
 
 
+## Week of November 22, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/22/2021 | [Business process analysis for Viva Insights](/viva/insights/tutorials/analyze-business-processes) | modified |
+| 11/22/2021 | [Delay delivery plan in MyAnalytics](/viva/insights/personal/use/delay-delivery) | modified |
+| 11/22/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
+
+
+## Week of November 15, 2021
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/17/2021 | [Admin preview](/viva/insights/personal/briefing/be-admin-trial) | modified |
+| 11/17/2021 | [Configure Briefing email](/viva/insights/personal/briefing/be-admin) | modified |
+| 11/17/2021 | [Briefing languages](/viva/insights/personal/briefing/be-languages) | added |
+| 11/17/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
+| 11/17/2021 | [Conduct a user pilot](/viva/insights/personal/briefing/be-pilot) | modified |
+| 11/17/2021 | [Book focus time with the Briefing email](/viva/insights/personal/briefing/be-focus) | modified |
+| 11/17/2021 | [Headspace meditation with the Briefing email](/viva/insights/personal/briefing/be-headspace) | modified |
+| 11/17/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
+| 11/17/2021 | [Prepare for meetings with the Briefing email](/viva/insights/personal/briefing/be-meetings) | modified |
+| 11/17/2021 | [Privacy guide for Briefing emails](/viva/insights/personal/briefing/be-privacy) | modified |
+| 11/17/2021 | [Downloadable resources](/viva/insights/personal/briefing/be-resources) | modified |
+| 11/17/2021 | [Settings for the Briefing email](/viva/insights/personal/briefing/be-settings) | modified |
+| 11/17/2021 | [Follow up on tasks with the Briefing email](/viva/insights/personal/briefing/be-tasks) | modified |
+| 11/17/2021 | [Plan your week with the Briefing email](/viva/insights/personal/briefing/be-time) | modified |
+| 11/18/2021 | [Advanced insights in Viva Insights](/viva/insights/overview/get-started) | modified |
+| 11/18/2021 | [Get support for Viva Insights](/viva/insights/overview/getting-support) | modified |
+| 11/18/2021 | [System requirements for Viva Insights](/viva/insights/setup/environment-requirements) | modified |
+| 11/18/2021 | [Viva Insights setup for manager and leader insights](/viva/insights/setup/ml-insights-setup) | modified |
+| 11/18/2021 | [Setup overview for Viva Insights](/viva/insights/setup/setup-intro) | modified |
+| 11/18/2021 | [Viva Insights FAQ](/viva/insights/use/faq-intro) | modified |
+| 11/18/2021 | [Group insights within My team in Viva Insights](/viva/insights/use/group-insights) | added |
+| 11/18/2021 | [Manager settings for Viva Insights](/viva/insights/use/manager-settings) | modified |
+| 11/18/2021 | [FAQ for manager and team lead insights](/viva/insights/use/my-team-faq) | modified |
+| 11/18/2021 | [FAQ for My organization insights](/viva/insights/use/myorg-faq) | added |
+| 11/18/2021 | [Explore group insights in Viva Insights](/viva/insights/use/myteam-explore) | added |
+| 11/18/2021 | [My team in Viva Insights](/viva/insights/use/myteam) | added |
+| 11/18/2021 | [Team effectiveness in Viva Insights](/viva/insights/use/team-effectiveness) | modified |
+| 11/18/2021 | [Team insights in Viva Insights](/viva/insights/use/team-insights) | added |
+| 11/18/2021 | [Manager and leader insights in Viva Insights](/viva/insights/use/viva-insights-intro) | modified |
+| 11/18/2021 | [Leader insights in the My organization page](/viva/insights/use/viva-insights-my-org) | modified |
+| 11/18/2021 | [Viva Insights for managers](/viva/insights/use/viva-insights-my-team) | modified |
+| 11/18/2021 | [Introduction to Viva Insights](/viva/insights/introduction) | modified |
+| 11/18/2021 | [Introducing Manager insights](/viva/insights/manager-insights/introduction) | modified |
+| 11/18/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
+| 11/18/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
+| 11/18/2021 | [Settings for the Briefing email](/viva/insights/personal/briefing/be-settings) | modified |
+| 11/18/2021 | [Viva Insights personal insights introduction](/viva/insights/personal/mya-landing-page) | modified |
+| 11/18/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
+| 11/18/2021 | [MyAnalytics dashboard](/viva/insights/personal/use/dashboard-2) | modified |
+| 11/18/2021 | [Viva Insights digest emails](/viva/insights/personal/use/email-digests-3) | modified |
+| 11/18/2021 | [Admin tasks for the Viva Insights app](/viva/insights/personal/teams/viva-teams-app-admin-tasks) | modified |
+| 11/19/2021 | [Briefing languages](/viva/insights/personal/briefing/be-languages) | modified |
+| 11/19/2021 | [Videos for Viva Insights](/viva/insights/overview/videos) | modified |
+| 11/19/2021 | [Privacy and data access](/viva/insights/privacy/privacy-and-data-access) | modified |
+| 11/19/2021 | [Assigning licenses overview](/viva/insights/setup/assign-licenses-to-population) | modified |
+| 11/19/2021 | [Assigning admin roles](/viva/insights/setup/assign-roles-to-wpa-admins) | modified |
+| 11/19/2021 | [Key personas and roles](/viva/insights/setup/determine-key-personas) | modified |
+| 11/19/2021 | [Prepare organizational data in Workplace Analytics](/viva/insights/setup/prepare-organizational-data) | modified |
+| 11/19/2021 | [Viva Insights setup](/viva/insights/setup/set-up-workplace-analytics) | modified |
+| 11/19/2021 | [Subsequent organizational data uploads](/viva/insights/setup/upload-organizational-data) | modified |
+| 11/19/2021 | [Three ways to assign Microsoft 365 licenses](/viva/insights/setup/wpa-assign-o365-licenses) | modified |
+| 11/19/2021 | [Assign roles with Azure AD](/viva/insights/setup/assign-user-roles) | modified |
+| 11/19/2021 | [Format data for uploading in Viva Insights](/viva/insights/setup/format-data-for-upload) | modified |
+| 11/19/2021 | [Viva Insights maintenance](/viva/insights/setup/maintain-workplace-analytics) | modified |
+| 11/19/2021 | [Setup for manager and leader insights](/viva/insights/setup/ml-insights-setup) | modified |
+| 11/19/2021 | [Partitions for Viva Insights](/viva/insights/setup/partitions-in-wpa) | modified |
+| 11/19/2021 | [Use a script to prepare organizational data in Workplace Analytics](/viva/insights/setup/script-to-prep-org-data) | modified |
+| 11/19/2021 | [First organizational data upload](/viva/insights/setup/upload-organizational-data-1st) | modified |
+| 11/19/2021 | [Person queries in Workplace Analytics](/viva/insights/tutorials/person-queries) | modified |
+| 11/19/2021 | [Business process analysis for Viva Insights](/viva/insights/tutorials/analyze-business-processes) | modified |
+| 11/19/2021 | [Attendee exclusion rules in Workplace Analytics](/viva/insights/tutorials/attendee-exclusion-rules) | modified |
+| 11/19/2021 | [Meeting exclusion rule concepts](/viva/insights/tutorials/meeting-exclusion-concept) | modified |
+| 11/19/2021 | [Beyond knowledge workers dashboard](/viva/insights/tutorials/pbi-beyond-kw) | modified |
+| 11/19/2021 | [In-depth insights in Power BI](/viva/insights/tutorials/pbi-home-deeper) | modified |
+| 11/19/2021 | [Ways of working assessment dashboard](/viva/insights/tutorials/power-bi-collab-assess) | modified |
+| 11/19/2021 | [Introduction to Workplace Analytics plans](/viva/insights/tutorials/solutionsv2-intro) | modified |
+| 11/19/2021 | [Assigned roles for Viva Insights](/viva/insights/use/user-roles) | modified |
+| 11/19/2021 | [Leader and manager settings for Viva Insights](/viva/insights/use/admin-settings) | modified |
+| 11/19/2021 | [Advanced insights FAQ](/viva/insights/use/faq) | modified |
+| 11/19/2021 | [Videos for Viva Insights](/viva/insights/use/videos) | modified |
+| 11/19/2021 | [Data export](/viva/insights/azure-templates/data-export) | modified |
+| 11/19/2021 | [Manager insights FAQ](/viva/insights/manager-insights/faqs) | modified |
+| 11/19/2021 | [Get started with manager insights](/viva/insights/manager-insights/get-started) | modified |
+| 11/19/2021 | [Consumption model for Viva Insights](/viva/insights/tutorials/consump-model) | modified |
+| 11/19/2021 | [Workplace Analytics query overview](/viva/insights/tutorials/query-basics2) | modified |
+| 11/19/2021 | [Workplace Analytics insights](/viva/insights/use/insights) | modified |
+| 11/19/2021 | [Workplace Analytics insights for managers](/viva/insights/use/pm-home) | modified |
+| 11/19/2021 | [Microsoft Viva Insights documentation # < 60 chars](/viva/insights/index) | modified |
+| 11/19/2021 | [Introducing Manager insights](/viva/insights/manager-insights/introduction) | modified |
+| 11/19/2021 | [Manager insights rollout](/viva/insights/manager-insights/rollout) | modified |
+| 11/19/2021 | [Microsoft Viva Insights for managers in Microsoft Teams](/viva/insights/manager-insights/teams-app) | modified |
+| 11/19/2021 | [Configure Viva Insights](/viva/insights/personal/teams/viva-teams-app-settings) | modified |
+| 11/19/2021 | [Team insights in Viva Insights](/viva/insights/use/team-insights) | modified |
+| 11/19/2021 | [About Viva Insights Outlook add-in](/viva/insights/personal/use/add-in) | modified |
+| 11/19/2021 | [Delay delivery plan in MyAnalytics](/viva/insights/personal/use/delay-delivery) | modified |
+| 11/19/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
+| 11/19/2021 | [Use Microsoft Viva Insights in Outlook](/viva/insights/personal/use/use-the-insights) | modified |
+
+
 ## Week of October 25, 2021
 
 
@@ -24,188 +128,3 @@
 | 10/27/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
 | 10/27/2021 | [Personal insights configuration for Microsoft 365 administrators](/viva/insights/personal/setup/configure) | modified |
 | 10/27/2021 | [FAQ for Viva Insights in Teams](/viva/insights/personal/teams/viva-teams-app-faq) | modified |
-
-
-## Week of October 18, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/18/2021 | [Admin preview](/viva/insights/personal/briefing/be-admin-trial) | modified |
-| 10/18/2021 | [Configure Briefing email](/viva/insights/personal/briefing/be-admin) | modified |
-| 10/18/2021 | [Cortana Briefing FAQ](/viva/insights/personal/briefing/be-faqs) | modified |
-| 10/18/2021 | [Book focus time with the Briefing email](/viva/insights/personal/briefing/be-focus) | modified |
-| 10/18/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
-| 10/18/2021 | [Prepare for meetings with the Briefing email](/viva/insights/personal/briefing/be-meetings) | modified |
-| 10/18/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
-| 10/18/2021 | [Conduct a user pilot](/viva/insights/personal/briefing/be-pilot) | modified |
-| 10/18/2021 | [Privacy guide for Briefing emails](/viva/insights/personal/briefing/be-privacy) | modified |
-| 10/18/2021 | [Downloadable resources](/viva/insights/personal/briefing/be-resources) | modified |
-| 10/18/2021 | [Settings for Briefings](/viva/insights/personal/briefing/be-settings) | modified |
-| 10/18/2021 | [Follow up on tasks with the Briefing email](/viva/insights/personal/briefing/be-tasks) | modified |
-| 10/18/2021 | [Plan your week with the Briefing email](/viva/insights/personal/briefing/be-time) | modified |
-| 10/18/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 10/18/2021 | [Viva Insights deployment guide](/viva/insights/personal/setup/deployment-guide) | modified |
-| 10/18/2021 | [Delay delivery plan in MyAnalytics](/viva/insights/personal/use/delay-delivery) | modified |
-| 10/18/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
-| 10/18/2021 | [Virtual commute with Viva Insights](/viva/insights/personal/teams/viva-insights-virtual-commute) | modified |
-| 10/19/2021 | [About Viva Insights Outlook add-in](/viva/insights/personal/use/add-in) | modified |
-| 10/19/2021 | [FAQ for Viva Insights](/viva/insights/personal/teams/viva-teams-app-faq) | modified |
-| 10/19/2021 | [Headspace meditation with the Briefing email](/viva/insights/personal/briefing/be-headspace) | added |
-| 10/19/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 10/19/2021 | [Subsequent uploads of organizational data](/viva/insights/setup/upload-organizational-data2) | modified |
-| 10/19/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
-| 10/19/2021 | [Headspace meditation with the Briefing email](/viva/insights/personal/briefing/be-headspace) | modified |
-| 10/19/2021 | [Configure Briefing email](/viva/insights/personal/briefing/be-admin) | modified |
-| 10/19/2021 | [Briefing email from Microsoft Viva FAQ](/viva/insights/personal/briefing/be-faqs) | modified |
-| 10/19/2021 | [Book focus time with the Briefing email](/viva/insights/personal/briefing/be-focus) | modified |
-| 10/19/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
-| 10/19/2021 | [Prepare for meetings with the Briefing email](/viva/insights/personal/briefing/be-meetings) | modified |
-| 10/19/2021 | [Conduct a user pilot](/viva/insights/personal/briefing/be-pilot) | modified |
-| 10/19/2021 | [Privacy guide for Briefing emails](/viva/insights/personal/briefing/be-privacy) | modified |
-| 10/19/2021 | [Downloadable resources](/viva/insights/personal/briefing/be-resources) | modified |
-| 10/19/2021 | [Settings for the Briefing email](/viva/insights/personal/briefing/be-settings) | modified |
-| 10/19/2021 | [Follow up on tasks with the Briefing email](/viva/insights/personal/briefing/be-tasks) | modified |
-| 10/19/2021 | [Plan your week with the Briefing email](/viva/insights/personal/briefing/be-time) | modified |
-| 10/19/2021 | [MyAnalytics FAQ](/viva/insights/personal/overview/mya-faq) | modified |
-| 10/19/2021 | [Viva Insights languages](/viva/insights/personal/overview/mya-languages) | modified |
-| 10/19/2021 | [Use Microsoft Viva Insights in Outlook](/viva/insights/personal/use/use-the-insights) | modified |
-| 10/19/2021 | [Viva Insights Headspace](/viva/insights/personal/teams/viva-insights-headspace) | modified |
-
-
-## Week of October 11, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/11/2021 | [Assigning licenses overview](/viva/insights/setup/assign-licenses-to-population) | modified |
-| 10/11/2021 | [Assign roles with Azure AD](/viva/insights/setup/assign-user-roles) | modified |
-| 10/11/2021 | [Consumption model for Viva Insights](/viva/insights/tutorials/consump-model) | modified |
-| 10/11/2021 | [Automate query data exports](/viva/insights/azure-templates/automate-exports) | modified |
-| 10/11/2021 | [Workplace Analytics data sources](/viva/insights/use/data-sourcesv2) | modified |
-| 10/11/2021 | [Manager settings for Viva Insights](/viva/insights/use/manager-settings) | modified |
-| 10/11/2021 | [Network query metric calculations](/viva/insights/tutorials/ona-metric-calculations) | modified |
-| 10/11/2021 | [Network person queries](/viva/insights/tutorials/ona-person-query) | modified |
-| 10/11/2021 | [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query) | modified |
-| 10/11/2021 | [Overview of advanced insights](/viva/insights/index-orig) | modified |
-| 10/11/2021 | [Introduction to Viva Insights](/viva/insights/introduction) | modified |
-| 10/11/2021 | [Viva Insights personal insights introduction](/viva/insights/personal/mya-landing-page) | modified |
-| 10/11/2021 | [MyAnalytics FAQ](/viva/insights/personal/overview/mya-faq) | modified |
-| 10/11/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 10/11/2021 | [Privacy guide](/viva/insights/personal/overview/privacy-guide-users) | modified |
-| 10/11/2021 | [Viva Insights Home page](/viva/insights/personal/use/home-web) | modified |
-| 10/11/2021 | [Viva Insights documentation # < 60 chars](/viva/insights/personal/index) | modified |
-| 10/11/2021 | [Personal insights introduction](/viva/insights/personal/introduction) | modified |
-| 10/12/2021 | [Automate query data exports](/viva/solutions/automate-exports) | renamed |
-| 10/13/2021 | [Leadership insights dashboard](/viva/insights/personal/use/leadership) | modified |
-| 10/13/2021 | [Personal insights in Viva Insights privacy guide for admins](/viva/insights/personal/overview/privacy-guide-admins) | modified |
-| 10/13/2021 | [Privacy guide](/viva/insights/personal/overview/privacy-guide-users) | modified |
-| 10/15/2021 | [Admin preview](/viva/insights/personal/briefing/be-admin-trial) | modified |
-| 10/15/2021 | [Configure Briefing email](/viva/insights/personal/briefing/be-admin) | modified |
-| 10/15/2021 | [Briefing email from Microsoft Viva FAQ](/viva/insights/personal/briefing/be-faqs) | modified |
-| 10/15/2021 | [Book focus time with the Briefing email](/viva/insights/personal/briefing/be-focus) | modified |
-| 10/15/2021 | [Catch up with your team through the Briefing email](/viva/insights/personal/briefing/be-manager) | modified |
-| 10/15/2021 | [Prepare for meetings with the Briefing email](/viva/insights/personal/briefing/be-meetings) | modified |
-| 10/15/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
-| 10/15/2021 | [Conduct a user pilot](/viva/insights/personal/briefing/be-pilot) | modified |
-| 10/15/2021 | [Privacy guide for Briefing emails](/viva/insights/personal/briefing/be-privacy) | modified |
-| 10/15/2021 | [Downloadable resources](/viva/insights/personal/briefing/be-resources) | modified |
-| 10/15/2021 | [Settings for the Briefing email](/viva/insights/personal/briefing/be-settings) | modified |
-| 10/15/2021 | [Follow up on tasks with the Briefing email](/viva/insights/personal/briefing/be-tasks) | modified |
-| 10/15/2021 | [Plan your week with the Briefing email](/viva/insights/personal/briefing/be-time) | modified |
-| 10/15/2021 | [Virtual commute with Viva Insights](/viva/insights/personal/teams/viva-insights-virtual-commute) | modified |
-
-
-## Week of October 04, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 10/4/2021 | [Network query metric calculations](/viva/insights/tutorials/ona-metric-calculations) | added |
-| 10/4/2021 | [Language support and guidelines for Viva Insights](/viva/insights/overview/supported-languages) | modified |
-| 10/4/2021 | [Introduction to Analyst settings in Workplace Analytics](/viva/insights/tutorials/exclusions-introduction) | modified |
-| 10/4/2021 | [Network metrics](/viva/insights/tutorials/ona-metrics) | modified |
-| 10/4/2021 | [Network person queries](/viva/insights/tutorials/ona-person-query) | modified |
-| 10/4/2021 | [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query) | modified |
-| 10/4/2021 | [Explore internal network metrics in Workplace Analytics](/viva/insights/use/explore-metrics-internal-networks) | modified |
-| 10/4/2021 | [Manager settings for Viva Insights](/viva/insights/use/manager-settings) | modified |
-| 10/4/2021 | [System defaults for Workplace Analytics](/viva/insights/use/system-defaults) | modified |
-| 10/4/2021 | [Leader insights in the My organization page](/viva/insights/use/viva-insights-my-org) | modified |
-| 10/4/2021 | [Join Datasets Azure Template for Workplace Analytics](/viva/insights/azure-templates/join-datasets) | modified |
-| 10/4/2021 | [Viva Insights for managers](/viva/insights/use/viva-insights-my-team) | modified |
-| 10/5/2021 | [Improve agility in Viva Insights](/viva/insights/use/agility) | added |
-| 10/5/2021 | [Accelerate change in Viva Insights](/viva/insights/use/change) | added |
-| 10/5/2021 | [Develop effective managers with Viva Insights](/viva/insights/use/effective-managers) | added |
-| 10/5/2021 | [Boost engagement in Viva Insights](/viva/insights/use/engagement) | added |
-| 10/5/2021 | [Increase customer focus with Viva Insights](/viva/insights/use/icustomer-focus) | added |
-| 10/5/2021 | [Foster innovation in Viva Insights](/viva/insights/use/innovation) | added |
-| 10/5/2021 | [Transform meeting culture with Viva Insights](/viva/insights/use/meeting-culture) | added |
-| 10/5/2021 | [Enhance operational effectiveness with Viva Insights](/viva/insights/use/operational) | added |
-| 10/5/2021 | [Organizational resiliency in Viva Insights](/viva/insights/use/resiliency) | added |
-| 10/5/2021 | [Data protection and Viva Insights](/viva/insights/privacy/data-protection-intro) | modified |
-| 10/5/2021 | [Network query metric calculations](/viva/insights/tutorials/ona-metric-calculations) | modified |
-| 10/5/2021 | [Increase customer focus with Workplace Analytics](/viva/insights/use/customer-focus) | modified |
-| 10/5/2021 | [Workplace Analytics data sources](/viva/insights/use/data-sourcesv2) | modified |
-| 10/5/2021 | [Develop effective managers with Workplace Analytics](/viva/insights/use/develop-managers) | modified |
-| 10/5/2021 | [Enhance operational effectiveness with Workplace Analytics](/viva/insights/use/effective-operations) | modified |
-| 10/5/2021 | [Foster innovation](/viva/insights/use/foster-innovation) | modified |
-| 10/5/2021 | [Improve agility with Workplace Analytics](/viva/insights/use/improve-agility) | modified |
-| 10/5/2021 | [Workplace Analytics Organizational data](/viva/insights/use/organizational-data) | modified |
-| 10/5/2021 | [Team effectiveness in Viva Insights](/viva/insights/use/team-effectiveness) | modified |
-| 10/5/2021 | [Transform meeting culture with Workplace Analytics](/viva/insights/use/transform-meetings) | modified |
-| 10/5/2021 | [Leader insights in the My organization page](/viva/insights/use/viva-insights-my-org) | modified |
-| 10/5/2021 | [Viva Insights for managers](/viva/insights/use/viva-insights-my-team) | modified |
-| 10/5/2021 | [Microsoft Viva Insights documentation # < 60 chars](/viva/insights/index) | modified |
-| 10/5/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 10/6/2021 | [Subsequent organizational data uploads](/viva/insights/setup/upload-organizational-data) | modified |
-| 10/6/2021 | [Subsequent uploads of organizational data](/viva/insights/setup/upload-organizational-data2) | modified |
-| 10/6/2021 | [Workplace Analytics query overview](/viva/insights/tutorials/query-basics) | modified |
-| 10/6/2021 | [Consumption model for Viva Insights](/viva/insights/tutorials/consump-model) | modified |
-| 10/6/2021 | [Viva Insights for managers](/viva/insights/use/viva-insights-my-team) | modified |
-| 10/6/2021 | [Introducing Manager insights](/viva/insights/manager-insights/introduction) | modified |
-| 10/6/2021 | [Data protection and Viva Insights](/viva/insights/privacy/data-protection-intro) | modified |
-| 10/6/2021 | [Workplace Analytics Microsoft 365 data](/viva/insights/use/office-365-data) | modified |
-| 10/6/2021 | [Workplace Analytics Organizational data](/viva/insights/use/organizational-data) | modified |
-| 10/7/2021 | [Consumption model for Viva Insights](/viva/insights/tutorials/consump-model) | modified |
-| 10/7/2021 | [Leader insights in the My organization page](/viva/insights/use/viva-insights-my-org) | modified |
-| 10/7/2021 | [Shared focus plan](/viva/insights/personal/use/shared-focus-plan) | modified |
-| 10/7/2021 | [Shared focus plan](/viva/insights/personal/teams/shared-focus-plan) | renamed |
-
-
-## Week of September 27, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 9/30/2021 | [Viva Insights partner solution overview](/viva/insights/hybrid-partners/partner-overview) | added |
-| 9/30/2021 | [Viva Insights partner solution setup](/viva/insights/hybrid-partners/partner-setup) | added |
-| 9/30/2021 | [Business continuity report](/viva/insights/tutorials/bcrps) | modified |
-| 9/30/2021 | [Introduction to Viva Insights](/viva/insights/introduction) | modified |
-| 9/30/2021 | [Viva Insights personal insights introduction](/viva/insights/personal/mya-landing-page) | modified |
-| 9/30/2021 | [Admin tasks for personal insights](/viva/insights/personal/overview/mya-for-admins) | modified |
-| 9/30/2021 | [Viva Insights languages](/viva/insights/personal/overview/mya-languages) | modified |
-| 9/30/2021 | [Viva Insights service description](/viva/insights/personal/overview/mya-service-description) | modified |
-| 9/30/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 9/30/2021 | [Confirm the installation of the Viva Insights Outlook add-in](/viva/insights/personal/setup/verify-add-in) | modified |
-| 9/30/2021 | [Personal insights configuration for Microsoft 365 administrators](/viva/insights/personal/setup/configure) | modified |
-| 9/30/2021 | [Viva Insights deployment guide](/viva/insights/personal/setup/deployment-guide) | modified |
-| 9/30/2021 | [Disabling the Viva Insights Outlook add-in](/viva/insights/personal/setup/mya-disable-insights) | modified |
-| 9/30/2021 | [Viva Insights welcome email](/viva/insights/personal/use/mya-welcome-email) | modified |
-| 9/30/2021 | [MyAnalytics dashboard](/viva/insights/personal/use/dashboard-2) | modified |
-| 9/30/2021 | [Opt out of personal insights](/viva/insights/personal/use/opt-out-of-mya) | modified |
-| 9/30/2021 | [Personal insights introduction](/viva/insights/personal/introduction) | modified |
-| 9/30/2021 | [Privacy settings and exclusions for Workplace Analytics](/viva/insights/use/privacy-settings) | modified |
-| 9/30/2021 | [Employee wellbeing dashboard](/viva/insights/tutorials/power-bi-wellbeing) | added |
-| 9/30/2021 | [Shared focus plan](/viva/insights/personal/use/shared-focus-plan) | added |
-| 10/1/2021 | [Advanced insights in Viva Insights](/viva/insights/overview/get-started) | modified |
-| 10/1/2021 | [Query designer templates](/viva/insights/tutorials/power-bi-intro) | modified |
-| 10/1/2021 | [Query designer in Workplace Analytics](/viva/insights/tutorials/query-designer) | modified |
-| 10/1/2021 | [FAQs about Workplace Analytics insights for managers](/viva/insights/use/insight-faqs) | modified |
-| 10/1/2021 | [Workplace Analytics Zoom integration](/viva/insights/use/zoom) | modified |
-| 10/1/2021 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-| 10/1/2021 | [Consumption billing model](/viva/insights/tutorials/consump-model) | added |
-| 10/1/2021 | [Workplace Analytics query overview](/viva/insights/tutorials/query-basics) | modified |
-| 10/1/2021 | [Network metrics](/viva/insights/tutorials/ona-metrics) | modified |
-| 10/1/2021 | Workplace Analytics query overview | removed |
-| 10/1/2021 | [Workplace Analytics Glossary](/viva/insights/use/glossary) | modified |
-| 10/1/2021 | [Workplace Analytics query overview](/viva/insights/tutorials/query-basics2) | added |

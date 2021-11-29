@@ -2,7 +2,7 @@
 title: Use Microsoft Viva Insights in Outlook
 description: Learn how to use the options in the Viva Insights Outlook add-in
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: high 
 ms.prod: Mya
@@ -122,7 +122,7 @@ Within 30 minutes of when you sent qualifying email, the Insights add-in  report
 
       The option you selected (in step 2a or step 2b) shows the email subject line and a summary of the open rate, the open rate (sometimes expressed as a percentage), and the number of forwards.
 
-      ![Email open rates.](../../images/mya/use/step-2-two-emails.png)
+      ![Email open rates.](../../images/mya/use/step-2-two-emails-2.png)
 
 <!-- Here is the section that Vivek gave me on email open rates, the section that I am not using. Instead I'm using the one from Rishabh, just above.     
 
@@ -468,21 +468,13 @@ This feature is only available for MyAnalytics users who have direct reports lis
 
 1. On Outlook or in Outlook on the web, [open the add-in](add-in.md#open-the-add-in).
 
-2. Select **Catch up with your team**:
+2. Select **Catch up with your team** to see the team members you need reconnect and actions you can take to do so
 
    ![Catch up with your team.](../../images/mya/use/catch-up.png)
 
-   The **Insights** pane shows team members with whom you can reconnect and actions you can take to do so:
-
-   ![Team member follow-up.](../../images/mya/use/connect-actions-debra-75-90.png)
-
 #### To edit your team list
 
-* If you notice that your team member list is inaccurate, select **Edit team** to add or remove team members, as shown here:
-
-   ![Update team members.](../../images/mya/use/edit-team75-75-80.png)
-
-Any changes you make apply only to your MyAnalytics experience; they do not synchronize back to Azure Active Directory.
+If your team member list is inaccurate, select **Edit team** to add or remove team members. Any changes you make apply only to your MyAnalytics experience and do not synchronize back to Azure Active Directory.
 
 ## Meeting suggestions
 
