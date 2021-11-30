@@ -59,7 +59,7 @@ Viva Topics only discovers topics in the SharePoint sites that you specify. User
 
 ## Best practices
 
-Topics presents information to users based on their existing permissions to content. Microsoft 365 provides a variety of ways to ensure that sensitive content is restricted to appropriate users. Beyond standard team or site permissions, you can use [sensitivity labels](../compliance/sensitivity-labels.md) or [data loss prevention](../compliance/dlp-learn-about-dlp.md) to restrict access to content and [access reviews](/azure/active-directory/governance/access-reviews-overview) to periodically review user access to sensitive information.
+Topics presents information to users based on their existing permissions to content. Microsoft 365 provides a variety of ways to ensure that sensitive content is restricted to appropriate users. Beyond standard team or site permissions, you can use [sensitivity labels](/microsoft-365/compliance/sensitivity-labels) or [data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp) to restrict access to content and [access reviews](/azure/active-directory/governance/access-reviews-overview) to periodically review user access to sensitive information.
 
 We recommend that you use these tools to ensure that your content permissions are set appropriately inside your organization. Topic experiences can then provide useful and appropriate information to your users.
 
@@ -83,7 +83,7 @@ While you can change the permissions on individual topic pages to narrow access 
 
 ## See also
 
-[Configure Teams with three tiers of protection](../solutions/configure-teams-three-tiers-protection.md)
+[Configure Teams with three tiers of protection](/microsoft-365/solutions/configure-teams-three-tiers-protection)
 
 [Plan topic experiences](plan-topic-experiences.md)
 
