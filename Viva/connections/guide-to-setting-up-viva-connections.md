@@ -32,7 +32,7 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 
 > [!IMPORTANT]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
-> - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](customize-sharepoint-site-permissions.md) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview).
+> - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](/sharepoint/customize-sharepoint-site-permissions) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview).
 
 
 
@@ -45,13 +45,13 @@ While working to prepare your intranet, align with stakeholders to define top sc
 
 
 ### Get started
-1.  **Prepare home site and global navigation design -** To ensure that your navigational design is a success, review best practices on how to design and set up your [SharePoint information architecture](information-architecture-modern-experience.md).
-2.  **Modernize sites and pages -** Only modern SharePoint sites and pages can be viewed in Microsoft Teams, otherwise they will open in a separate browser window. Learn more about how to [modernize SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites) and [pages](/sharepoint/dev/transform/modernize-userinterface-site-pages). If you are not using modern SharePoint yet, review the [Guide to the modern experience in SharePoint](guide-to-sharepoint-modern-experience.md).
+1.  **Prepare home site and global navigation design -** To ensure that your navigational design is a success, review best practices on how to design and set up your [SharePoint information architecture](/sharepoint/information-architecture-modern-experience).
+2.  **Modernize sites and pages -** Only modern SharePoint sites and pages can be viewed in Microsoft Teams, otherwise they will open in a separate browser window. Learn more about how to [modernize SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites) and [pages](/sharepoint/dev/transform/modernize-userinterface-site-pages). If you are not using modern SharePoint yet, review the [Guide to the modern experience in SharePoint](/sharepoint/guide-to-sharepoint-modern-experience).
 3.  **Consider whether you will need a multilingual experience -** You'll need to start by enabling your home site with a default language. 
 
 
 ### Permissions
-- SharePoint or Global Administrators can [create home sites](home-site.md) and [hub sites](create-hub-site.md).
+- SharePoint or Global Administrators can [create home sites](/sharepoint/home-site) and [hub sites](/sharepoint/create-hub-site).
 - Site owners of the home site (or higher) can [enable and customize global navigation](sharepoint-app-bar.md).
 - Site owner and site member permissions are required to [customize site-level navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca).
 
@@ -64,11 +64,11 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 > [!IMPORTANT]
 > - A SharePoint home site is required to set up Viva Connections.
-> - Home sites are generally high-traffic sites that should be [optimized for performance](portal-health.md)
+> - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health)
 
 ### Get started
 1. If your organization does not already have a home site, learn more about [how to plan a home site](home-site-plan.md). 
-2. Then, [set the home site](home-site.md) in the SharePoint admin center.
+2. Then, [set the home site](/sharepoint/home-site) in the SharePoint admin center.
 3. Make sure you [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everybody in your organization.
 
 
@@ -128,7 +128,7 @@ The Dashboard brings it all together – it provides a personalized landing expe
 > [!div class="mx-imgBorder"]
 > ![image of content in the Feed web part](../media/connections/viva-feed-web-part.png)
 
-In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. [Get answers to common questions](faqs-viva-connections-feed.md) about how content in the Feed gets prioritized and displayed.
+In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. [Get answers to common questions](/sharepoint/faqs-viva-connections-feed) about how content in the Feed gets prioritized and displayed.
 
 The Feed requires usage of modern SharePoint and either SharePoint news or a Yammer community. For the best and most engaging experience, use both. We recommend creating or using an existing organization news site so that users get the most important news.
 
@@ -136,7 +136,7 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 
 **SharePoint news:**
 
-- [Create an organizational news site](organization-news-site.md)
+- [Create an organizational news site](/sharepoint/organization-news-site)
 - [Use SharePoint news](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7)
 
 
@@ -146,14 +146,14 @@ If you are not already using SharePoint news or Yammer, learn how to use them by
 - [Join and create Yammer community](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6#:~:text=Create%20a%20community%20in%20Yammer%20Click%20the%20Yammer,Community%20Name,%20enter%20the%20name%20of%20your%20community.)
 
 **Stream (built on SharePoint)**
-- [Video news links](video-news-links.md) on organization news sites
+- [Video news links](/sharepoint/video-news-links) on organization news sites
 - Video in a SharePoint news post
 
 
 ### Get started
 1. In Yammer, target the conversations you want to display in the Feed by using Yammer’s **Boost** and [**Featured**](https://support.microsoft.com/office/feature-a-conversation-in-new-yammer-92469ece-8a63-424f-9ad6-802ad90fc5c4) options on Yammer community pages.
 2. Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to elevate SharePoint news and announcements into a priority position in the Feed.
-3. Use [Video news links](video-news-links.md) in SharePoint to create an engaging viewing experience in the Feed.
+3. Use [Video news links](/sharepoint/video-news-links) in SharePoint to create an engaging viewing experience in the Feed.
 4. Use the [Feed web part](https://prod.support.services.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330?preview=true) to display personalized news and announcements to viewers on the home site.
 
 
