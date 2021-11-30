@@ -53,7 +53,7 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > - Global navigation in the SharePoint app bar must be enabled in order for SharePoint resources to display in the [Microsoft Teams app bar for Viva Connections](viva-connections-overview.md).
 
 
-The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](information-architecture-modern-experience.md). To ensure a seamless experience, we've created specific guidance on how to design current navigation to compliment the new global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.   
+The SharePoint app bar is a significant change to the user experience and your organization's [intranet information architecture](/sharepoint/information-architecture-modern-experience). To ensure a seamless experience, we've created specific guidance on how to design current navigation to compliment the new global navigation feature. We have also created [end-user guidance](https://support.microsoft.com/office/use-the-sharepoint-app-bar-b2ab82d5-9af7-445e-ad24-236c5a86b5f8?ui=en-US&rs=en-US&ad=US) to help onboard the rest of your organization.   
 
 
 ## Customize global navigation in the app bar
@@ -114,7 +114,7 @@ Global navigation can be enabled and customized in the SharePoint app bar. Custo
 
 ### Determine the global navigation source depending on your home site’s configuration:
 
-If you haven’t set up your [home site](home-site.md), do that first and if you are setting up a home site specifically to implement global navigation, review this guidance.
+If you haven’t set up your [home site](/sharepoint/home-site), do that first and if you are setting up a home site specifically to implement global navigation, review this guidance.
 
 #### For home sites that are a hub, you have two source options:
 
@@ -192,7 +192,7 @@ If you are creating a [home site](home-site-plan.md) for the main purpose of set
 
 1.	Start by creating a [SharePoint communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb).
 2.	[Customize the communication site navigation](https://support.microsoft.com/office/customize-the-navigation-on-your-sharepoint-site-3cd61ae7-a9ed-4e1e-bf6d-4655f0bf25ca) to reflect the view you’d like to see in the global navigation pane. You can make edits to the navigation source and individual labels and links at any time.
-3.	[Set this communication](./home-site.md#set-a-site-as-your-home-site) site as a home site using SharePoint Online Management Shell tool.
+3.	[Set this communication](/sharepoint/home-site#set-a-site-as-your-home-site) site as a home site using SharePoint Online Management Shell tool.
 4.	[Share the home site with users](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658?ui=en-us&rs=en-us&ad=us#:~:text=Share%20a%20site%201%20Communication%20sites.%20Select%20Share,external%20users%22%20to%20share%20the%20...%20See%20More.) so they can access the global navigation links. 
 5.	On the home site, select **Settings** and then **Global navigation** to **enable** and customize.
 6.	For the global navigation source, select **Home site navigation** to display the home site navigation that you created in the global navigation panel, then select **Save**.
@@ -227,7 +227,7 @@ Temporarily disable the SharePoint app bar:
     > [!NOTE]
     > If you installed a previous version of the SharePoint Online Management Shell, go to Add or remove programs and uninstall "SharePoint Online Management Shell." 
 
-2. Connect to SharePoint as a [global admin or SharePoint admin](./sharepoint-admin-role.md) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [global admin or SharePoint admin](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run the following command:
 
@@ -268,6 +268,6 @@ Temporarily disable the SharePoint app bar:
 ### Resources
 
 - Learn more about [home sites](home-site-plan.md)
-- Learn more about [planning](planning-hub-sites.md) and [creating hub sites](create-hub-site.md)
-- Learn more about [navigation and information architecture in SharePoint](information-architecture-modern-experience.md)
-- Learn more about [sharing and permissions in SharePoint](modern-experience-sharing-permissions.md)
+- Learn more about [planning](/sharepoint/planning-hub-sites) and [creating hub sites](/sharepoint/create-hub-site)
+- Learn more about [navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience)
+- Learn more about [sharing and permissions in SharePoint](/sharepoint/modern-experience-sharing-permissions)
