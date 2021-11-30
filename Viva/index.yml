@@ -44,9 +44,9 @@ additionalContent:
         - title: Microsoft Viva Topics
           links:
             - text: Get started
-              url: /microsoft-365/knowledge/
+              url: /viva/topics/
             - text: Setup
-              url: /microsoft-365/knowledge/set-up-topic-experiences
+              url: /viva/topics/set-up-topic-experiences
             - text: Learning path - Get started with Microsoft Viva Topics
               url: /learn/paths/m365-viva-topics/
             - text: Viva Topics resource center
@@ -66,9 +66,9 @@ additionalContent:
         - title: Microsoft Viva Connections
           links:
             - text: Get started
-              url: /sharepoint/viva-connections-overview
+              url: /viva/connections/viva-connections-overview
             - text: Setup
-              url: /sharepoint/guide-to-setting-up-viva-connections
+              url: /viva/connections/guide-to-setting-up-viva-connections
             - text: Learning path - Extend Microsoft Viva Connections
               url: /learn/paths/m365-extend-viva-connections
             - text: Extensibility 
@@ -79,8 +79,8 @@ additionalContent:
         - title: Microsoft Viva Learning
           links:
             - text: Get started
-              url: /microsoft-365/learning/
+              url: /viva/learning/
             - text: Setup
-              url: /microsoft-365/learning/set-up-teams-admin-center
+              url: /viva/learning/set-up-teams-admin-center
             - text: End user help & training
               url: https://support.microsoft.com/en-us/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
