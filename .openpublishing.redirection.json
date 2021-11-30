@@ -164,7 +164,11 @@
         "source_path": "Teams-insights/index.md",
         "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
         "redirect_document_id": false
-      }  
-      
+      },
+      {
+        "source_path": "viva/connections/index.md",
+        "redirect_url": "/viva/connections/viva-connections-overview",
+        "redirect_document_id": false
+      }
     ]
 }
