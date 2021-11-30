@@ -26,7 +26,7 @@ description: "Learn how to set up and launch Viva Connections for desktop and mo
 
 Microsoft [Viva Connections](viva-connections-overview.md) is a desktop and mobile experience that brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and powered by SharePoint to help you engage, inform, and empower your hybrid workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
-![Image of a step-by-step diagram about how to set up Viva Connections.](media/vc-step-diagram-2.png)
+![Image of a step-by-step diagram about how to set up Viva Connections.](../media/vc-step-diagram-2.png)
 
 Use these step-by-step instructions to help you set up and launch Viva Connections on desktop and mobile devices using currently available features to create an engaging user experience.
 
@@ -126,7 +126,7 @@ The Dashboard brings it all together – it provides a personalized landing expe
 ## Step 5: Get content ready for your Feed with SharePoint news and Yammer
 
 > [!div class="mx-imgBorder"]
-> ![image of content in the Feed web part](media/viva-feed-web-part.png)
+> ![image of content in the Feed web part](../media/viva-feed-web-part.png)
 
 In the Viva Connections app, users will see a Feed that is personalized with relevant content personalized to them. The Feed automatically balances fresh and engaging content with corporate communications to keep users engaged, while also ensuring that the users see the most important messages. [Get answers to common questions](faqs-viva-connections-feed.md) about how content in the Feed gets prioritized and displayed.
 
@@ -189,7 +189,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 | Viva Connections Dashboard on a mobile device                  |Mobile settings guidance              | 
 | :------------------- | :------------------- |
-| ![image of the Viva Connections mobile app.](media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
+| ![image of the Viva Connections mobile app.](../media/viva-dashboard-mobile.png)  | The Viva Connections app creates a custom app in Microsoft Teams that fits the needs of your organization. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams experience. Users won’t see the app by default if you don’t pre-install and pre-pin.
 
 
 
@@ -207,7 +207,7 @@ After you have prepared your intranet for Viva Connections in SharePoint, you ar
 
 | Viva Connections Dashboard interaction                 |End-user guidance                 | 
 | :------------------- | :------------------- |
-| ![Automated GIF of the Dashboard on a mobile device.](media/new-vc-dashboard-interaction.GIF)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). | 
+| ![Automated GIF of the Dashboard on a mobile device.](../media/new-vc-dashboard-interaction.GIF)  | Help make end users aware of this new resource and provide guidance on what icon in the Teams app bar is your organization's instance of Viva Connections. Then, help end users understand how to use [the desktop experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b). | 
 
 
 ## Resources
