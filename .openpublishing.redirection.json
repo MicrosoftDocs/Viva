@@ -151,11 +151,6 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "Viva/index.md",
-        "redirect_url": "/viva/insights",
-        "redirect_document_id": false
-      },
-      {
         "source_path": "WorkplaceAnalytics/index.md",
         "redirect_url": "/viva",
         "redirect_document_id": false
