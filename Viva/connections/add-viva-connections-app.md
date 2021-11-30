@@ -29,7 +29,7 @@ After you have [prepared your intranet for Viva Connections](guide-to-setting-up
 > - Teams administrator (or higher) permissions are required to add the Viva Connections app to the Teams Admin Center.
 
 
-![Image of Viva Connections app in the Teams admin center.](../media/viva-teams-add-app.png)
+![Image of Viva Connections app in the Teams admin center.](../media/connections/viva-teams-add-app.png)
 
 
 ## Start by adding the app in the Teams Admin Center
@@ -44,7 +44,7 @@ After you have [prepared your intranet for Viva Connections](guide-to-setting-up
 
 ## Next, customize the app
 
-![Image of the app customization panel.](../media/viva-app-customize.png)
+![Image of the app customization panel.](../media/connections/viva-app-customize.png)
 
 1. Select **Actions** in the top-right area and then select **Customize**
 
@@ -52,7 +52,7 @@ After you have [prepared your intranet for Viva Connections](guide-to-setting-up
 
    The **Short name** will be the display name of the Viva Connections app in your tenant.  In this example, it is “Relecloud”. 
 
-   ![Image of the app customization panel for the app logo.](../media/viva-app-customize-logo.png)
+   ![Image of the app customization panel for the app logo.](../media/connections/viva-app-customize-logo.png)
 
 3. Next, select **Icon** at the bottom of the **Customize** panel.
 
@@ -71,7 +71,7 @@ After you have [prepared your intranet for Viva Connections](guide-to-setting-up
 
 ## Finally, make the app available to end users
 
-![Image of the app panel.](../media/viva-allow-app.png)
+![Image of the app panel.](../media/connections/viva-allow-app.png)
 
 1. Return to the Teams admin center and select **Teams apps** then **Manage apps** and search for the Viva Connections app using the name you selected as the **Short name** when you first customized the Viva Connections app.
 

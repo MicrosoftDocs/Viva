@@ -25,7 +25,7 @@ description: "Learn how to create the Viva Connections Dashboard"
 
 The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
-![Image of a Dashboard example.](../media/vc-hero2.png)
+![Image of a Dashboard example.](../media/connections/vc-hero2.png)
 
 Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your [home site.](home-site-plan.md) As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site. When you are done, you can add it to Microsoft Teams so that it's easily accessible from a mobile device and desktop. You can also add it to your home page using the [Dashboard web part.](use-dashboard-web-part-on-home-site.md)
 
@@ -62,7 +62,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 
 4. Select **+ Add a card**.
 
-   ![Image of adding a dashboard card.](../media/add-a-card.png)
+   ![Image of adding a dashboard card.](../media/connections/add-a-card.png)
 
 
 5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile, desktop, and tablet for different audiences.
@@ -84,12 +84,12 @@ Add a web link card when you want your users to go to an internal or external li
 1. While in **edit** mode, select **+ Add a card** from the Dashboard.
 2. Select **Web link** from the web toolbox.
 
-   ![Adding a web link card.](../media/add-web-link-card.png)
+   ![Adding a web link card.](../media/connections/add-web-link-card.png)
 
 
 3. In the property pane on the right side of the page, select your options.
 
-   ![Choosing options.](../media/choosing-options.png)
+   ![Choosing options.](../media/connections/choosing-options.png)
 
 4. Select a size for the card from the **Card size** drop-down list.
 5. Enter the URL for your link in the **Link** text box. 
@@ -111,17 +111,17 @@ Add a web link card when you want your users to go to an internal or external li
 
 The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the Tasks app in Teams.
 
-![Adding a tasks card.](../media/tasks-card.png)
+![Adding a tasks card.](../media/connections/tasks-card.png)
 
 
 1. While in edit mode, click **+ Add a card** from the dashboard.
 2. Select **Assigned Tasks** from the Dashboard toolbox.
 
-   ![Adding a tasks card in the dashboard.](../media/assigned-tasks.png)
+   ![Adding a tasks card in the dashboard.](../media/connections/assigned-tasks.png)
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-   ![Choosing card size.](../media/choosing-card-size.png)
+   ![Choosing card size.](../media/connections/choosing-card-size.png)
 
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
@@ -134,12 +134,12 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
 2. Select **Teams app** from the web toolbox.
 
 
-   ![Adding a Teams app card.](../media/teamsappicon.png)
+   ![Adding a Teams app card.](../media/connections/teamsappicon.png)
 
 
 3. In the **property** pane on the right side of the page, select your options.
 
-   ![Teams app property pane.](../media/teamsapp.png)
+   ![Teams app property pane.](../media/connections/teamsapp.png)
 
 4. Select a size for the card from the **Card size** drop-down list.
 5.  Search for the Teams app you want to use, and then select it from the list.
@@ -159,7 +159,7 @@ The Shifts card shows users information about their next or current shift from t
 1. While in edit mode, select **+ Add a card** from the dashboard.
 2. Select **Shifts** from the Dashboard toolbox.
 
-   ![Adding a Shifts app card](../media/shiftsicon.png)
+   ![Adding a Shifts app card](../media/connections/shiftsicon.png)
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
@@ -201,7 +201,7 @@ A Microsoft app card allows you to create a card that links to Microsoft apps e.
 
 2. Select the Microsoft App you want to add from the web toolbox.
 
-   ![Image of how to find a Microsoft app in the card picker window.](../media/3p-apps-1.png)
+   ![Image of how to find a Microsoft app in the card picker window.](../media/connections/3p-apps-1.png)
 
 3. Select your options in the property pane on the right side of the page.
 
@@ -225,7 +225,7 @@ By using audience targeting, you can promote cards to specific groups of people.
 
 4. When a card is successfully audience targeted, you’ll see a **people** icon in the lower-left corner of the card.
 
-   ![Audience targeting confirmation.](../media/card-targeted-audience.png)
+   ![Audience targeting confirmation.](../media/connections/card-targeted-audience.png)
 
 
 
@@ -237,7 +237,7 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 
    1. While in edit mode, select **Preview** on the top right.
 
-      ![Audience targeting icon.](../media/preview-option.png)
+      ![Audience targeting icon.](../media/connections/preview-option.png)
 
 
    2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a disabled **Audience targeting** label).
@@ -245,7 +245,7 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 
    3. Search for and select a groups. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
 
-   ![Audience targeting group label.](../media/selecting-groups.png)
+   ![Audience targeting group label.](../media/connections/selecting-groups.png)
 
    - Cards that targeted to a specific group will display.
    - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
@@ -260,7 +260,7 @@ What you see in *preview mode* approximates how the Dashboard will display for c
    - The image on the left shows the view for a specific audience that includes two specific cards. 
    - In the second image on the right, the top two cards are not displayed when previewing a different audience group.
 
-   ![Audience targeting example.](../media/dashboard-preview-examples.png)
+   ![Audience targeting example.](../media/connections/dashboard-preview-examples.png)
    
 
 
