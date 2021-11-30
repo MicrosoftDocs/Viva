@@ -95,7 +95,7 @@ A tailored experience is one in which content is automatically displayed accordi
 Matching your company or organizational brand is integral to your employee’s connection with your company's values and goals. The branding you apply in Teams to the Viva Connections app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, see [Customize apps in Microsoft Teams](/microsoftteams/customize-apps).
 
 ## Localization
-Viva Connections is available in most major languages used in Microsoft 365. [Learn more about how to set up the Viva Connections mobile experience in a specific language](viva-connections-language.md).  
+Viva Connections is available in most major languages used in Microsoft 365. [Learn more about how to set up the Viva Connections mobile experience in a specific language](/sharepoint/viva-connections-language).  
 
    - **Dashboard:** content can be set by Dashboard authors to support multiple languages.
    - **Feed:** the content will be available in the format in which it was authored and SharePoint news posts will display author-translated posts in the user’s preferred language.
@@ -167,7 +167,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 ![Image showing display of cards on dashboard.](../media/connections/vc-tool-box-2.png) 
 
 ## Viva Connections Feed
-In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options. [Get answers to common questions](faqs-viva-connections-feed.md) about how content in the Feed gets prioritized and displayed.
+In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options. [Get answers to common questions](/sharepoint/faqs-viva-connections-feed) about how content in the Feed gets prioritized and displayed.
 
 The Feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
@@ -183,7 +183,7 @@ Users will see content aggregated from the following sources, provided they have
     - Featured posts
     - Posts to communities that the user follows
 - **Stream (built on SharePoint)**
-    - [Video news links](video-news-links.md) on organization news sites
+    - [Video news links](/sharepoint/video-news-links) on organization news sites
     - Video in a news post
 
 
