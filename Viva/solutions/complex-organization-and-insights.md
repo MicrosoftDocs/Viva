@@ -102,7 +102,7 @@ To enable advanced analysis, the following schema can be used in the file that i
 
 With the schema in the above table being used in the file, the analysis output from the uploaded file can be joined with other data sources (for example, sales data and zoom data) for an advanced analysis.
 
-Sdditional instructions for preparing organizational data for Viva Insights are available [here](../insights/Setup/Prepare-organizational-data.md). 
+Additional instructions for preparing organizational data for Viva Insights are available [here](../insights/Setup/Prepare-organizational-data.md). 
 
 **Example:  Sample of an organizational data file**
 
@@ -189,7 +189,7 @@ The setup details are available [here](#data-pipeline---automated).
        The browser window is displayed..
     1. Navigate to the location that contains the downloaded **DataFactory_oData_arm_template.json** file and click **Open**.
        > [!NOTE]
-       > You can download the **DataFactory_oData_arm_template.json** file from the location https://vscomporgsa.blob.core.windows.net/files/DataFactory_oData_arm_template.zip?sp=r&st=2021-11-23T16:55:42Z&se=2022-06-01T23:55:42Z&spr=https&sv=2020-08-04&sr=b&sig=hAmyCMD1R4UARcrWTxjK20Yflo9ZQmXWkCeNqtXfqpk%3D).
+       > You can download the **DataFactory_oData_arm_template.json** file [here](https://vscomporgsa.blob.core.windows.net/files/DataFactory_oData_arm_template.zip?sp=r&st=2021-11-23T16:55:42Z&se=2022-06-01T23:55:42Z&spr=https&sv=2020-08-04&sr=b&sig=hAmyCMD1R4UARcrWTxjK20Yflo9ZQmXWkCeNqtXfqpk%3D)).
     1. On the resultant screen, click **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Provide values for the highlighted items.
