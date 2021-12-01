@@ -104,7 +104,7 @@ Check the **Enable Learner Record Sync** checkbox to enable assignments and cour
 
 By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced.  
 
-### Pre-Requisite
+### Prerequisite
 
 You'll need to enable inbound user provisioning with SuccessFactors AD. [Learn how](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-cloud-only-tutorial)
 
