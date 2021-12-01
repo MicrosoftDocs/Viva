@@ -35,11 +35,11 @@ This article shows you how to configure SAP SuccessFactors as a third-party cont
 
 3. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
 
-    - customer notification email for all job status
+    - Customer notification email for all job status
         - defaultJob.email=
     
     - Partner1
-        - PartnerID maximum length is 10 characters. This can be your LMS tenant ID.
+        - PartnerID maximum length is 10 characters. This ID can be your LMS tenant ID.
     partners1.partnerID=
     
     - EncryptionKey is the PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK
@@ -66,7 +66,7 @@ Once you've completed these steps in the SuccessFactors portal, you'll need to c
 
 3. Fill in the configuration details:
 
-    **Display Name**: Enter your desired display name for the SAP SuccessFactors carousel.
+    **Display Name**: Enter the display name you want to appear for the SAP SuccessFactors carousel.
 
     **SFTP Host URL**: Navigate to **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **CONNECTORS**. Get the value of the `connector.ftp.server` property.
 
@@ -98,5 +98,18 @@ Once you've completed these steps in the SuccessFactors portal, you'll need to c
 >[!Note]
 > All users within an organization will be able to discover all the tenant-specific courses, but they'll only be able to access and consume courses that they have access to. User specific content discovery is planned for future releases.
 
->[!NOTE]
->Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
+## Learner record sync
+
+Check the **Enable Learner Record Sync** checkbox to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization will then be able to see their assigned and completed courses from your LMS within Viva Learning.  
+
+By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced.  
+
+### Pre-Requisite
+
+You'll need to enable inbound user provisioning with SuccessFactors AD. [Learn how](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-cloud-only-tutorial)
+
+### Steps followed for user sync
+
+After you enable user sync, the EmployeeID is synced with each LMS user synced to Azure Active Directory.  
+
+Viva Learning receives this EmployeeID in a zip package, which is used for StudentID matching.  
