@@ -39,6 +39,8 @@ French (France)| |
 German| | 
 Greek| | 
 
+[Learn how to set up the Viva Connections experience in different languages](/sharepoint/viva-connections-language)
+
 ## Viva Learning supported languages
 
 | A-G | H-P | R-U |
@@ -73,6 +75,8 @@ French (France)|Portuguese (Portugal)|
 German| |
 Greek| |
 
+[Learn more about language support for Viva Insights](/viva/insights/personal/overview/mya-languages)
+
 **Advanced**
 
 | A-F | G-K | P-S |
@@ -81,6 +85,9 @@ Chinese (Simplified)|German|Portuguese (Brazil)
 Chinese (Traditional)|Italian|Russian
 English (United States)|Japanese|Spanish (Spain)
 French (France)|Korean|
+
+[Learn more about language support and guidelines for Advanced insights](/viva/insights/overview/supported-languages)
+
 
 ## Viva Topics supported languages
 
