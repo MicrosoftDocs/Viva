@@ -6,7 +6,6 @@ manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
 ms.topic: article
-ms.prod: microsoft-365-enterprise
 ms.collection: m365initiative-viva-topics
 ms.service: viva 
 ms.subservice: viva-topics 

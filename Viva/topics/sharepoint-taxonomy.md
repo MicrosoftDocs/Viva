@@ -7,7 +7,6 @@ ms.reviewer: anfra; cjtan
 audience: admin
 ms.date: 10/25/2021
 ms.topic: article
-ms.prod: microsoft-365-enterprise
 ms.collection: m365initiative-viva-topics
 ms.service: viva 
 ms.subservice: viva-topics 

@@ -6,8 +6,6 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.service: 
-ms.prod: microsoft-365-enterprise
 ms.collection: m365initiative-viva-topics
 ms.service: viva 
 ms.subservice: viva-topics 

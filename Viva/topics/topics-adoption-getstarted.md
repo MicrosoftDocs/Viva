@@ -7,7 +7,6 @@ manager: pamgreen
 ms.date: 7/20/2020
 audience: admin
 ms.topic: article
-ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
 ms.collection: m365initiative-viva-topics
 ms.service: viva 

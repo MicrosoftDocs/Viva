@@ -7,7 +7,6 @@ ms.reviewer: lauris; jaeccles
 ms.date:
 audience: admin
 ms.topic: article
-ms.prod: microsoft-365-enterprise
 ms.custom:
 ms.collection: m365initiative-viva-topics
 ms.service: viva 
