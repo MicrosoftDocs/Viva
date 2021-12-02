@@ -9,7 +9,11 @@ audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
 ms.custom: Adopt
-search.appverid: 
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 ---
 

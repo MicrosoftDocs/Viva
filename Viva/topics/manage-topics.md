@@ -7,10 +7,11 @@ ms.reviewer: ergradel
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: 
-ms.collection: 
-    - enabler-strategic 
-    - m365initiative-viva-topics
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Learn how to manage topics in the topic center in Microsoft Viva Topics.
 

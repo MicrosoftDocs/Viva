@@ -7,12 +7,11 @@ ms.reviewer: cjtan; lauris
 audience: admin
 ms.topic: article
 ms.custom: intro-overview
-ms.service: viva
-ms.subservice: viva-topics
-search.appverid: 
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-topics
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Learn about how to use Viva Topics in your organization.
 ---

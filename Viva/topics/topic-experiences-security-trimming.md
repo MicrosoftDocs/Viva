@@ -6,10 +6,12 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.service: 
 ms.prod: microsoft-365-enterprise
-search.appverid: 
-ms.collection: enabler-strategic
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Learn how security is used to view topics in Viva Topics.
 ---

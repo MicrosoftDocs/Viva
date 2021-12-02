@@ -7,11 +7,11 @@ ms.reviewer: hoanth
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-topics
-ms.service: 
-search.appverid: 
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 ROBOTS: NOINDEX, NOFOLLOW
 description: Learn how to save a new or revised topic as a draft in Microsoft Viva Topics.

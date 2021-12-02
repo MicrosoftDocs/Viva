@@ -7,11 +7,11 @@ ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-topics
-ms.service: 
-search.appverid: 
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Learn how to create a new topic in Microsoft Viva Topics.
 

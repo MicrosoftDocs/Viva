@@ -7,10 +7,11 @@ ms.reviewer: mattw
 audience: admin
 ms.topic: article
 ms.prod: microsoft-365-enterprise
-search.appverid: 
-ms.collection: 
-    - enabler-strategic 
-    - m365initiative-viva-topics
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Find resources to help your organization learn about and get the most out of Viva Topics.
 ---
