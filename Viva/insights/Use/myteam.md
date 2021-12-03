@@ -44,13 +44,11 @@ Your setup tasks for **My team** are the same as for [Personal insights](../pers
 ## Opt in or out
 
 1. In the left navigation bar in Teams, select **Viva Insights** > **My team**.
-2. Select the **ellipsis** (**...**) icon at the top right, and then select Settings.
+2. Select the **ellipsis** (**...**) icon > **Settings** at the top right.
 3. In **Choose your team members**:
 
    * To opt out, select **I don't lead a team**.
-   * To opt in, select **I lead a team**, and then select the members of your team.
-
-4. Save your changes.
+   * To opt in, select **I lead a team**, select your team members, and then select **Save changes**.
 
 ## Manage your team
 
