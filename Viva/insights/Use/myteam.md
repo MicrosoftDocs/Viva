@@ -41,14 +41,14 @@ Your setup tasks for **My team** are the same as for [Personal insights](../pers
 2. In **Viva Insights Home**, you’ll see an insight about your team. To learn more about an insight, select **Explore more**. You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information, see [Viva Insights Home](/insights/viva-insights-home).
 3. Alternatively, select **My team** in Viva Insights to see key recommendations, actions, and reflections relating to your team.
 
-## Opt in or out
+## Disable or enable My team
 
 1. In the left navigation bar in Teams, select **Viva Insights** > **My team**.
 2. Select the **ellipsis** (**...**) icon > **Settings** at the top right.
 3. In **Choose your team members**:
 
-   * To opt out, select **I don't lead a team**.
-   * To opt in, select **I lead a team**, select your team members, and then select **Save changes**.
+   * To disable it, select **I don't lead a team**.
+   * To enable it, select **I lead a team**, select your team members, and then select **Save changes**.
 
 ## Manage your team
 
