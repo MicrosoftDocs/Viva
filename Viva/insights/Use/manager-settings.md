@@ -16,9 +16,12 @@ audience: Admin
 
 # Manager settings
 
+>[!Important]
+>Manager settings only control **Group insights** within **My team** in the Viva Insights app in Teams. To set up or opt in or out of the Viva Insights **My team** page in Teams, see [Admin tasks](myteam.md#admin-tasks).
+
 As an admin for Microsoft Viva Insights or Workplace Analytics, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
 
-Only managers whose team meets or exceeds the **Minimum team size** setting can access [Group insights](group-insights.md) within **My team** in Viva Insights in Teams. The other admin tasks required for Group insights access are the same as for personal insights and My team insights. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+Only managers whose team meets or exceeds the **Minimum team size** setting can access [Group insights](group-insights.md) within **My team** in Viva Insights in Teams. The other admin tasks required for Group insights access are the same as for access to My team. See [Admin tasks](myteam.md#admin-tasks) for details.
 
 The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in Workplace Analytics:
 
