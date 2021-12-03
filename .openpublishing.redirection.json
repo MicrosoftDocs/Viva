@@ -1,0 +1,174 @@
+{
+    "redirections": [
+      {
+        "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
+        "redirect_url": "/insights/viva-teams-app",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "teams-insights/new/viva-insights-home.md",
+        "redirect_url": "/insights/viva-insights-home",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/teams-app-use-insights.md",
+        "redirect_url": "/insights/viva-insights-home",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "teams-insights/teams-app.md",
+        "redirect_url": "/insights/viva-teams-app",
+        "redirect_document_id": false
+      },        
+      {
+        "source_path": "teams-insights/new/viva-insights-praise.md",
+        "redirect_url": "/insights/viva-insights-praise",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/new/viva-insights-protect-time.md",
+        "redirect_url": "/insights/viva-insights-protect-time",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/new/viva-insights-reflect.md",
+        "redirect_url": "/insights/viva-insights-reflect",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/new/viva-insights-stay-connected.md",
+        "redirect_url": "/insights/viva-insights-stay-connected",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/new/viva-insights-virtual-commute.md",
+        "redirect_url": "/insights/viva-insights-virtual-commute",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/new/viva-teams-app.md",
+        "redirect_url": "/insights/viva-teams-app",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/new/viva-teams-app-admin-tasks.md",
+        "redirect_url": "/insights/viva-teams-app-admin-tasks",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/teams-app-admin-tasks.md",
+        "redirect_url": "/insights/viva-teams-app-admin-tasks",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "teams-insights/new/viva-teams-app-faq.md",
+        "redirect_url": "/insights/viva-teams-app-faq",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/teams-app-faq.md",
+        "redirect_url": "/insights/viva-teams-app-faq",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "teams-insights/new/viva-teams-app-install.md",
+        "redirect_url": "/insights/viva-teams-app-install",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/teams-app-install.md",
+        "redirect_url": "/insights/viva-teams-app-install",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "teams-insights/new/viva-teams-app-privacy.md",
+        "redirect_url": "/insights/viva-teams-app-privacy",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "teams-insights/teams-app-privacy.md",
+        "redirect_url": "/insights/viva-teams-app-privacy",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "teams-insights/new/viva-teams-app-settings.md",
+        "redirect_url": "/insights/viva-teams-app-settings",
+        "redirect_document_id": true
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/data-access.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export",
+        "redirect_document_id": true
+      },      
+      {
+        "source_path": "WorkplaceAnalytics/data-access/meetings.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#meetings",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/meetingparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#meetingparticipants",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/personhistorical.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#personhistorical",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/mailparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#mailparticipants",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/mails.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#mails",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/calls.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#calls",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/callparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#callparticipants",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/instantmessages.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessages",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/instantmessageparticipants.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessageparticipants",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/data-access/query-data-export.md",
+        "redirect_url": "/workplace-analytics/azure-templates/data-export#automate-query-data-export-to-azure-with-azure-data-factory-ui",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "WorkplaceAnalytics/index.md",
+        "redirect_url": "/viva",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Briefing/index.md",
+        "redirect_url": "/viva/insights/personal/Briefing/be-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Teams-insights/index.md",
+        "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/connections/index.md",
+        "redirect_url": "/viva/connections/viva-connections-overview",
+        "redirect_document_id": false
+      }
+    ]
+}
