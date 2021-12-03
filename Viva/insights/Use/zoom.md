@@ -19,7 +19,7 @@ This integration tool enables you to analyze unscheduled collaboration that occu
 
 This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
-![Zoom Power BI dashboard settings.](../images/wpa/use/zoom-pbi-settings.png)
+![Zoom Power BI dashboard data.](../images/wpa/use/zoom-pbi-data.png)
 
 ## Ways of working assessment demo
 
