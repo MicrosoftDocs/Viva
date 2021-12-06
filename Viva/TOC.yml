@@ -23,7 +23,7 @@ items:
   - name: Microsoft Viva Insights
     items:
         - name: Introducing Microsoft Viva Insights
-          href: introduction.md
+          href: insights/introduction.md
           items:
           - name: Privacy and data protection
             href: insights/Privacy/data-protection-intro.md
@@ -228,7 +228,7 @@ items:
           - name: Advanced insights
             items:
               - name: Overview
-                href: index-orig.md
+                href: insights/index-orig.md
               - name: Data privacy and protection
                 items:
                   - name: Data-protection considerations
