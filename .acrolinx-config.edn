@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["master"]
- :allowed-filename-matches ["Briefing/" "MyAnalytics/" "WorkplaceAnalytics/"]
+ :allowed-filename-matches ["Briefing/" "MyAnalytics/" "WorkplaceAnalytics/" "Viva/"]
  
   :targets 
    {
