@@ -9,4 +9,6 @@ common/
 *.ini
 .DS_Store
 *.db
+
 .openpublishing.buildcore.ps1
+

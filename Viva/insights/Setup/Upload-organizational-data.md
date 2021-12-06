@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Subsequent uploads
+# Subsequent organizational data uploads
 
 Administrators can use the following steps for a subsequent upload (import) organizational data to Viva Insights in Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 

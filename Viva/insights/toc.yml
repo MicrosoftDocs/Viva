@@ -74,8 +74,12 @@ items:
                     href: personal/Briefing/be-headspace.md
                   - name: Plan your week
                     href: personal/Briefing/be-time.md
+                  - name: Catch up with your team
+                    href: personal/Briefing/be-manager.md
               - name: Settings
                 href: personal/Briefing/be-settings.md
+              - name: Languages
+                href: personal/Briefing/be-languages.md
               - name: FAQ
                 href: personal/Briefing/be-faqs.yml
           - name: Outlook add-in
@@ -85,11 +89,13 @@ items:
               - name: Use Insights
                 href: personal/use/use-the-insights.md
               - name: Inline suggestions
-                href: personal/Use/mya-notifications.md
+                href: personal/use/mya-notifications.md
               - name: Delay delivery plan
                 href: personal/use/delay-delivery.md
+          - name: Home
+            href: personal/use/home-web.md
           - name: Dashboard
-            href: personal/Use/dashboard-2.md
+            href: personal/use/dashboard-2.md
           - name: Digests
             href: personal/use/email-digests-3.md            
           - name: Focus plan
@@ -160,44 +166,44 @@ items:
                     href: personal/Use/mya-adoption/adopt-habit-building.md
                   - name: Habit playbooks
                     href: personal/Use/mya-adoption/adopt-habit-playbooks.md
-      - name: Manager and leader insights
-        items:
-          - name: Introduction
-            href: use/viva-insights-intro.md
-          - name: Admin tasks
-            href: setup/ml-insights-setup.md         
-          - name: Manager insights
-            items: 
-              - name: My team        
-                href: use/viva-insights-my-team.md
-              - name: Employee experience
-                href: use/team-experience.md
-              - name: Team effectiveness
-                href: use/team-effectiveness.md
-          - name: Leader insights
+      - name: Manager insights
+        items: 
+          - name: My team        
+            href: use/myteam.md
+          - name: Team insights        
+            href: use/team-insights.md
+          - name: Group insights
             items:
-              - name: My organization    
-                href: use/viva-insights-my-org.md
-              - name: Organizational resiliency
-                href: use/resiliency.md
-              - name: Boost engagement
-                href: use/engagement.md
-              - name: Improve agility
-                href: use/agility.md
-              - name: Foster innovation
-                href: use/innovation.md
-              - name: Effective managers
-                href: use/effective-managers.md
-              - name: Operational effectiveness
-                href: use/operational.md
-              - name: Accelerate change
-                href: use/change.md
-              - name: Transform meeting culture
-                href: use/meeting-culture.md
-              - name: Increase customer focus
-                href: use/icustomer-focus.md
-          - name: FAQ
+              - name: Introduction 
+                href: use/group-insights.md
+              - name: Explore
+                href: use/myteam-explore.md
+          - name: My team FAQ
             href: Use/my-team-faq.md
+      - name: Leader insights
+        items:
+          - name: My organization    
+            href: use/viva-insights-my-org.md
+          - name: Organizational resiliency
+            href: use/resiliency.md
+          - name: Boost engagement
+            href: use/engagement.md
+          - name: Improve agility
+            href: use/agility.md
+          - name: Foster innovation
+            href: use/innovation.md
+          - name: Effective managers
+            href: use/effective-managers.md
+          - name: Operational effectiveness
+            href: use/operational.md
+          - name: Accelerate change
+            href: use/change.md
+          - name: Transform meeting culture
+            href: use/meeting-culture.md
+          - name: Increase customer focus
+            href: use/icustomer-focus.md
+          - name: My organization FAQ
+            href: Use/myorg-faq.md
       - name: Advanced insights
         items:
           - name: Overview
@@ -228,9 +234,9 @@ items:
                     href: use/Assigning-licenses-with-powershell.md
               - name: Assign roles
                 items:
-                  - name: Overview
+                  - name: Assign admin roles
                     href: setup/assign-roles-to-wpa-admins.md
-                  - name: User roles
+                  - name: Role access
                     href: Use/User-Roles.md
                   - name: Assign roles with Azure AD
                     href: setup/assign-user-roles.md
@@ -257,7 +263,7 @@ items:
                           - name: First upload
                             href: Setup/upload-organizational-data-1st.md 
                           - name: Subsequent uploads
-                            href: Setup/upload-organizational-data.md 
+                            href: Setup/upload-organizational-data2.md 
                           - name: Upload CRM data
                             href: Setup/crm-data-upload.md
                   - name: Leader & manager settings
@@ -346,9 +352,7 @@ items:
                       - name: Queries
                         items:
                           - name: Overview
-                            href: tutorials/query-basics.md
-                          - name: Consumption model
-                            href: tutorials/consump-model.md                            
+                            href: tutorials/query-basics.md                         
                           - name: Person queries
                             items:
                               - name: Introduction
@@ -381,6 +385,8 @@ items:
                             href: Use/Csv-query-output-file.md
                           - name: Query auto-refresh
                             href: tutorials/Query-auto-refresh.md
+                      - name: Consumption model
+                        href: tutorials/consump-model.md 
                       - name: Business process analysis
                         href: tutorials/analyze-business-processes.md
                       - name: Peer analysis
@@ -406,7 +412,9 @@ items:
                       - name: wpa R package
                         href: tutorials/wpa-r-package.md
                       - name: Zoom integration
-                        href: Use/zoom.md 
+                        href: Use/zoom.md
+                      - name: Qualtrics integration
+                        href: Use/qualtrics.md
                       - name: Workspace Collaboration Optimizer
                         href: Use/wsplan.md
                   - name: Plans

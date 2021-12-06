@@ -93,9 +93,9 @@ All roles -- analysts of both levels or program managers -- can upload a .csv fi
 
 Additional information about roles and access:
 
-* For more information about roles in Workplace Analytics, see [User roles in Workplace Analytics](../use/user-roles.md).
+* For more information about roles in Workplace Analytics, see [User roles in Viva Insights](../use/user-roles.md).
 
-* For more information about assigning roles, see [Assign roles to Viva Insights or Workplace Analytics admins and analysts](../setup/set-up-workplace-analytics.md#setup-steps).
+* For more information about assigning roles, see [Assign roles](../setup/set-up-workplace-analytics.md#setup-steps).
 
 ### Plan implementation
 

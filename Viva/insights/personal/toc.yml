@@ -65,9 +65,13 @@ items:
                 - name: Headspace meditation
                   href: Briefing/be-headspace.md
                 - name: Plan your week
-                  href: Briefing/be-time.md
+                  href: Briefing/be-time.md 
+                - name: Catch up with your team
+                  href: Briefing/be-manager.md
             - name: Settings
               href: Briefing/be-settings.md
+            - name: Languages
+              href: Briefing/be-languages.md
             - name: FAQ
               href: Briefing/be-faqs.yml
         - name: Outlook add-in
@@ -80,6 +84,8 @@ items:
               href: Use/mya-notifications.md
             - name: Delay delivery plan
               href: use/delay-delivery.md
+        - name: Home
+          href: Use/home-web.md
         - name: Dashboard
           href: Use/dashboard-2.md
         - name: Digests

@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics Maintenance
-description: Admin tasks for keeping Workplace Analytics and the data it uses up-to-date
+title: Viva Insights maintenance
+description: Admin tasks for maintaining Microsoft Viva Insights data
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -12,14 +12,14 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Maintain Workplace Analytics
+# Maintenance tasks
 
-After you have installed Workplace Analytics and your organization is using it, it will require maintenance by an admin. Some maintenance tasks are needed infrequently, while others must be performed regularly.  
+After you have installed and set up Microsoft Viva Insights, it will require maintenance by an admin. Some maintenance tasks are infrequently required, while others must be done regularly.  
 
 ## Update system defaults
 
 * **Task** - Set the default time zone and the default settings for working days and hours.  
-* **Frequency** - As needed to update these settings.
+* **Frequency** - As needed to update settings.
 
 [System defaults](../use/system-defaults.md)
 
@@ -27,40 +27,40 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 * **Task** - Configure the following privacy settings:
 
-  * Set the minimum group size for data shown in charts and dashboards.
-  * Decide to show or hash subject lines from analysis.
+  * Set the minimum-group size for data shown in analysis.
+  * Show or hide subject lines from analysis.
   * Update settings to exclude emails or meetings for specific email addresses, from specific domains, or key terms in subject lines for emails or meetings.
 
-* **Frequency** - As needed. Perform this task after your organization has decided that the current settings are insufficient or inaccurate.
+* **Frequency** - As needed to keep the settings up-to-date.
 
 [Privacy settings](../use/privacy-settings.md)
 
 ## Update organizational data
 
-* **Task** - Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.  
-* **Frequency** - Regularly. You can update organizational data as frequently as you like, but it will be refreshed upon the latest Microsoft 365 collaboration data. Since email, calendar, and Teams data is updated once a week, it makes sense to provide updates for this data on a similar cadence.
+* **Task** - Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.
+* **Frequency** - Update organizational data as frequently as you like; however, it will be refreshed upon the latest Microsoft 365 collaboration data. Because email, calendar, and Microsoft Teams data is updated weekly, it makes sense to update this data on a similar cadence in Viva Insights.
 
 [Prepare organizational data](prepare-organizational-data.md)
 
-[Upload organizational data (subsequent uploads)](upload-organizational-data.md)
+[Upload organizational data (subsequent uploads)](upload-organizational-data2.md)
 
 ## Assign licenses  
 
-* **Task** - Assign Workplace Analytics licenses to individuals.  
-* **Frequency** - As needed. Perform this task primarily as one step to add a new employee.
+* **Task** - Assign licenses to individuals.  
+* **Frequency** - As needed, such as to add a new employee.
 
 [Assign licenses](assign-licenses-to-population.md)
 
 ## Assign roles
 
-* **Task** - Assign Workplace Analytics roles to individuals.  
-* **Frequency** - As needed. Perform this step when a new employee requires one of the Workplace Analytics roles, or an existing employee changes roles.
+* **Task** - Assign roles to individuals or groups.  
+* **Frequency** - As needed, such as to assign a new employee a role, or when an existing employee changes roles.
 
 [Assign roles](assign-roles-to-wpa-admins.md)
 
 ## Validate and verify data
 
-* **Task** - Use **Sources** to verify that the Microsoft 365 and other organizational data is loaded and ready for use.
+* **Task** - Use **Data sources** to verify that the Microsoft 365 and other organizational data is loaded and ready for use.
 * **Frequency** - As needed, particularly after uploading organizational data.
 
 [Validate and verify data](validate-verify-data.md)
@@ -72,13 +72,13 @@ After you have installed Workplace Analytics and your organization is using it, 
 
 [Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md)
 
-## Audit Workplace Analytics activity
+## Audit activity
 
-* **Task** - As an Exchange admin, you can monitor the Microsoft 365 audit logs and track Workplace Analytics activity for all user actions.
+* **Task** - As an Exchange admin, you can monitor the Microsoft 365 audit logs and track Viva Insights activity.
 * **Frequency** - As needed to ensure compliance with your organization's privacy and security policies.
 
-[Workplace Analytics audit logs](../setup/audit-logs.md)
+[Audit logs](../setup/audit-logs.md)
 
 ## Related topics
 
-[Workplace Analytics settings](../use/settings.md)
+[Settings](../use/settings.md)

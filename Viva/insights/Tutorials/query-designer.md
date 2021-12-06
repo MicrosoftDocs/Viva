@@ -87,6 +87,7 @@ In addition to the templates, Workplace Analytics also includes the following qu
 * **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
 * **Standard person query** - Provides all base metrics available for a person query.
 * **Hourly collaboration** - Analyzes meeting, email, instant-message, and call activity by hour of the day.
+* **Person query for surveys** - Combines survey data and Viva Insights data for exporting to an analysis tool of your choice, such as Power BI. Survey data from Qualtrics can be integrated with Viva Insights data. For details, see [Qualtrics integration](../use/qualtrics.md).
 
 ## Meeting exclusions
 

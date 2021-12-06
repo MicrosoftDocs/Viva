@@ -19,7 +19,7 @@ This integration tool enables you to analyze unscheduled collaboration that occu
 
 This analysis helps leaders and analysts get a richer, more complete picture of collaboration patterns within their organization. See [Zoom metrics](#zoom-metrics) for a complete list of the type of metrics used for analysis of Zoom collaboration activity.
 
-![Zoom Power BI dashboard settings.](../images/wpa/use/zoom-pbi-settings.png)
+![Zoom Power BI dashboard data.](../images/wpa/use/zoom-pbi-data.png)
 
 ## Ways of working assessment demo
 
@@ -73,7 +73,7 @@ The following is required before setting up the Zoom integration tool:
    >[!Important]
    >You must save the mapping file as a .csv (not as an .xls or .xlsx file) with "mapping file" included in the file name.
 
-5. **Append to the existing organizational data** - Your Viva Insights or Workplace Analytics admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in Workplace Analytics. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
+5. **Append to the existing organizational data** - Your Viva Insights or Workplace Analytics admin must upload the .csv mapping file with the **HashID** as an additional column named **PersonHashID** that appends the existing organizational data that's already uploaded in Workplace Analytics. For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
 
    >[!Important]
    >The Zoom meeting data includes identifiable data (email IDs) that must be de-identified before using it to create Workplace Analytics Person query data. Your admins must protect any identifiable data and only use de-identified Zoom data for analysis purposes.

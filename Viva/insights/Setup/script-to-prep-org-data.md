@@ -3,8 +3,8 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Use a script to prepare organizational data in Workplace Analytics
 description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -17,7 +17,7 @@ audience: Admin
 
 ## Introduction
 
-Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Viva Insights or Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data.md).
+Whether you are onboarding people for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create an organizational-data file. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
 ## Prerequisites
 
@@ -28,13 +28,13 @@ This script requires the following elements. If you need help with these prerequ
    1. In Windows, select **Start**, type **PowerShell**, and press **Enter**.
    2. In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. For values less than 5.0, see: [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7).
 
-    For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7).
+    For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos).
 
     Note that when you install the following modules – AAD and MSOnline – you first need to start PowerShell as an administrator:
 
     ![Run as administrator.](../images/wpa/setup/run-as-admin.png)
 
-* **The Azure Active Directory module** - For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
+* **The Azure Active Directory module** - For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2). To install the AAD module, use the PowerShell command:
 
    ```PowerShell
    Install-Module AzureAD
@@ -101,8 +101,8 @@ This example sets the EffectiveDate field in the resulting organizational data f
 .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -EffectiveDateOption Delta
 ```
 
-> [!Note]
-> If you do not use this option, the effective date will default to a fixed date in the past, such as 01/01/1970.
+>[!Note]
+>If you do not use this option, the effective date will default to a fixed date in the past, such as 01/01/1970.
 
 ### Example 3
 
@@ -161,8 +161,8 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 * [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true)
 * [Get support](../overview/getting-support.md)
 
-#### About Workplace Analytics organizational data
+#### About organizational data
 
 * [Prepare organizational data](prepare-organizational-data.md)
 * [Upload organizational data (first upload)](upload-organizational-data-1st.md)
-* [Upload organizational data (subsequent uploads)](upload-organizational-data.md)
+* [Upload organizational data (subsequent uploads)](upload-organizational-data2.md)

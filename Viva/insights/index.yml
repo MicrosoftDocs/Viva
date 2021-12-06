@@ -11,26 +11,26 @@ metadata:
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
   ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
-  ms.date: 10/27/2021 #Required; mm/dd/yyyy format.
+  ms.date: 11/11/2021 #Required; mm/dd/yyyy format.
 
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
+    - title: Environment requirements
+      itemType: get-started # controls the icon image and super-title text
+      url: ./setup/environment-requirements.md
+    - title: Privacy protection
+      itemType: learn 
+      url: ./privacy/data-protection-intro.md
     - title: Personal insights
       itemType: quickstart
       url: ./personal/introduction.md
     - title: Manager and leader insights
       itemType: overview
-      url: ./use/viva-insights-my-team.md
+      url: ./use/myteam.md
     - title: Advanced insights
       itemType: deploy
       url: index-orig.md
-    - title: Privacy protection
-      itemType: learn # controls the icon image and super-title text
-      url: ./privacy/data-protection-intro.md
-    - title: Environment requirements
-      itemType: get-started
-      url: ./setup/environment-requirements.md
     - title: FAQ
       itemType: reference
       url: ./use/faq-intro.md
