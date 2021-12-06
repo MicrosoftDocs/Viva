@@ -1,3 +1,571 @@
-- name: Index
+items:
+- name: Microsoft Viva
   href: index.yml
-  
+  items:
+  - name: Microsoft Viva Connections
+    items: 
+    - name: Overview of Viva Connections
+      href: connections/viva-connections-overview.md
+    - name: Guide to setting up Viva Connections
+      href: connections/guide-to-setting-up-viva-connections.md
+    - name: Plan, build, and launch a home site
+      href: connections/home-site-plan.md
+    - name: Enable and set up global navigation
+      href: connections/sharepoint-app-bar.md
+    - name: Create a Dashboard
+      href: connections/create-dashboard.md
+    - name: Add the Viva Connections app
+      href: connections/add-viva-connections-app.md
+  - name: Microsoft Viva Insights
+    items:
+        - name: Introducing Microsoft Viva Insights
+          href: introduction.md
+          items:
+          - name: Privacy and data protection
+            href: insights/Privacy/data-protection-intro.md
+          - name: Environment requirements    
+            href: insights/setup/environment-requirements.md
+          - name: Setup introduction
+            href: insights/setup/setup-intro.md
+          - name: Personal insights
+            items:
+              - name: Introduction
+                href: insights/personal/introduction.md     
+              - name: Privacy guide
+                href: insights/personal/Overview/privacy-guide-users.md
+              - name: In Teams
+                items:
+                  - name: Introduction
+                    href: insights/personal/teams/viva-teams-app.md
+                  - name: Home
+                    items:
+                      - name: Overview
+                        href: insights/personal/teams/viva-insights-home.md
+                      - name: Reflect
+                        href: insights/personal/teams/viva-insights-reflect.md
+                      - name: Send praise
+                        href: insights/personal/teams/viva-insights-praise.md
+                      - name: Virtual commute
+                        href: insights/personal/teams/viva-insights-virtual-commute.md
+                      - name: Headspace
+                        href: insights/personal/teams/viva-insights-headspace.md               
+                  - name: Stay connected
+                    href: insights/personal/teams/viva-insights-stay-connected.md
+                  - name: Protect time
+                    href: insights/personal/teams/viva-insights-protect-time.md
+                  - name: Setup
+                    items: 
+                      - name: Discover the app
+                        href: insights/personal/teams/viva-teams-app-install.md
+                      - name: Configure the app
+                        href: insights/personal/teams/viva-teams-app-settings.md
+                      - name: Admin tasks
+                        href: insights/personal/teams/viva-teams-app-admin-tasks.md
+                      - name: FAQ
+                        href: insights/personal/teams/viva-teams-app-faq.md
+              - name: Briefing
+                items:
+                  - name: Overview
+                    href: insights/personal/Briefing/be-overview.md
+                  - name: Privacy guide
+                    href: insights/personal/Briefing/be-privacy.md
+                  - name: Configure Briefing
+                    href: insights/personal/Briefing/be-admin.md
+                  - name: Briefing rollout
+                    items:
+                      - name: Conduct a user pilot
+                        href: insights/personal/Briefing/be-pilot.md
+                      - name: Admin trial
+                        href: insights/personal/Briefing/be-admin-trial.md
+                      - name: Downloadable resources
+                        href: insights/personal/Briefing/be-resources.md
+                  - name: Use Briefing
+                    items: 
+                      - name: Prepare for meetings
+                        href: insights/personal/Briefing/be-meetings.md
+                      - name: Follow up on tasks
+                        href: insights/personal/Briefing/be-tasks.md
+                      - name: Book focus time
+                        href: insights/personal/Briefing/be-focus.md
+                      - name: Headspace meditation
+                        href: insights/personal/Briefing/be-headspace.md
+                      - name: Plan your week
+                        href: insights/personal/Briefing/be-time.md
+                      - name: Catch up with your team
+                        href: insights/personal/Briefing/be-manager.md
+                  - name: Settings
+                    href: insights/personal/Briefing/be-settings.md
+                  - name: Languages
+                    href: insights/personal/Briefing/be-languages.md
+                  - name: FAQ
+                    href: insights/personal/Briefing/be-faqs.yml
+              - name: Outlook add-in
+                items:
+                  - name: Introduction
+                    href: insights/personal/use/add-in.md
+                  - name: Use Insights
+                    href: insights/personal/use/use-the-insights.md
+                  - name: Inline suggestions
+                    href: insights/personal/use/mya-notifications.md
+                  - name: Delay delivery plan
+                    href: insights/personal/use/delay-delivery.md
+              - name: Home
+                href: insights/personal/use/home-web.md
+              - name: Dashboard
+                href: insights/personal/use/dashboard-2.md
+              - name: Digests
+                href: insights/personal/use/email-digests-3.md            
+              - name: Focus plan
+                href: insights/personal/use/focus-plan.md     
+              - name: Work patterns
+                items:
+                  - name: Focus
+                    href: insights/personal/use/focus.md
+                  - name: Wellbeing
+                    href: insights/personal/use/wellbeing.md
+                  - name: Network
+                    href: insights/personal/use/network.md
+                  - name: Collaboration
+                    href: insights/personal/use/collaboration.md
+                  - name: Leadership
+                    href: insights/personal/use/leadership.md
+              - name: Personal insights FAQ
+                href: insights/personal/overview/mya-faq.md 
+              - name: Admin guide
+                items: 
+                  - name: Introduction
+                    href: insights/personal/overview/mya-for-admins.md
+                  - name: Deployment guide
+                    href: insights/personal/setup/deployment-guide.md
+                  - name: Setup
+                    href: insights/personal/setup/configure.md
+                  - name: Plans and environments
+                    href: insights/personal/overview/plans-environments.md
+                  - name: Privacy guide for admins
+                    href: insights/personal/overview/privacy-guide-admins.md
+              - name: Adoption
+                items:
+                  - name: Introduction 
+                    href: insights/personal/Use/mya-adoption/Adopt-myanalytics.md
+                  - name: Individual adoption
+                    items: 
+                      - name: Get started
+                        href: insights/personal/Use/mya-adoption/Indiv-adopt-get-started.md
+                      - name: Diagnose your issue
+                        href: insights/personal/Use/mya-adoption/Indiv-adopt-diagnose.md
+                      - name: Set your goal
+                        href: insights/personal/Use/mya-adoption/Indiv-adopt-set-goals.md
+                      - name: Develop new habits
+                        href: insights/personal/Use/mya-adoption/Indiv-adopt-develop-habits.md
+                      - name: Sustain change
+                        href: insights/personal/Use/mya-adoption/Indiv-adopt-sustain-change.md
+                      - name: Resources
+                        href: insights/personal/Use/mya-adoption/Indiv-adopt-resources.md
+                  - name: Team adoption
+                    items: 
+                      - name: Get started
+                        href: insights/personal/Use/mya-adoption/Team-adopt-intro.md
+                      - name: Plan
+                        href: insights/personal/Use/mya-adoption/Team-adopt-plan.md
+                      - name: Implement
+                        href: insights/personal/Use/mya-adoption/Team-adopt-implement.md
+                      - name: Measure
+                        href: insights/personal/Use/mya-adoption/Team-adopt-measure.md
+                      - name: Reinforce
+                        href: insights/personal/Use/mya-adoption/Team-adopt-reinforce.md
+                      - name: Resources
+                        href: insights/personal/Use/mya-adoption/Indiv-adopt-resources.md
+                  - name: Habit resources
+                    items: 
+                      - name: Learning modules
+                        href: insights/personal/Use/mya-adoption/adopt-learning-modules.md
+                      - name: Habit-building method
+                        href: insights/personal/Use/mya-adoption/adopt-habit-building.md
+                      - name: Habit playbooks
+                        href: insights/personal/Use/mya-adoption/adopt-habit-playbooks.md
+          - name: Manager insights
+            items: 
+              - name: My team        
+                href: insights/use/myteam.md
+              - name: Team insights        
+                href: insights/use/team-insights.md
+              - name: Group insights
+                items:
+                  - name: Introduction 
+                    href: insights/use/group-insights.md
+                  - name: Explore
+                    href: insights/use/myteam-explore.md
+              - name: My team FAQ
+                href: insights/use/my-team-faq.md
+          - name: Leader insights
+            items:
+              - name: My organization    
+                href: insights/use/viva-insights-my-org.md
+              - name: Organizational resiliency
+                href: insights/use/resiliency.md
+              - name: Boost engagement
+                href: insights/use/engagement.md
+              - name: Improve agility
+                href: insights/use/agility.md
+              - name: Foster innovation
+                href: insights/use/innovation.md
+              - name: Effective managers
+                href: insights/use/effective-managers.md
+              - name: Operational effectiveness
+                href: insights/use/operational.md
+              - name: Accelerate change
+                href: insights/use/change.md
+              - name: Transform meeting culture
+                href: insights/use/meeting-culture.md
+              - name: Increase customer focus
+                href: insights/use/icustomer-focus.md
+              - name: My organization FAQ
+                href: insights/use/myorg-faq.md
+          - name: Advanced insights
+            items:
+              - name: Overview
+                href: index-orig.md
+              - name: Data privacy and protection
+                items:
+                  - name: Data-protection considerations
+                    href: insights/Privacy/data-protection-considerations.md
+                  - name: Data de-identification
+                    href: insights/Privacy/de-identify-data.md
+                  - name: Differential privacy
+                    href: insights/Privacy/differential-privacy.md
+                  - name: Privacy and data access
+                    href: insights/Privacy/privacy-and-data-access.md 
+                  - name: Data retention policy
+                    href: insights/Privacy/license-expiration.md       
+              - name: Setup and maintenance
+                items:
+                  - name: Setup
+                    href: insights/setup/set-up-workplace-analytics.md
+                  - name: Maintenance
+                    href: insights/setup/maintain-workplace-analytics.md
+                  - name: Assign licenses
+                    items:
+                      - name: Overview
+                        href: insights/setup/assign-licenses-to-population.md
+                      - name: Assign licenses with PowerShell
+                        href: insights/use/Assigning-licenses-with-powershell.md
+                  - name: Assign roles
+                    items:
+                      - name: Assign admin roles
+                        href: insights/setup/assign-roles-to-wpa-admins.md
+                      - name: Role access
+                        href: insights/use/User-Roles.md
+                      - name: Assign roles with Azure AD
+                        href: insights/setup/assign-user-roles.md
+                  - name: Controls
+                    items:
+                      - name: Introduction
+                        href: insights/use/Settings.md
+                      - name: Data sources
+                        items:
+                          - name: Introduction
+                            href: insights/use/data-sourcesv2.md 
+                          - name: Microsoft 365 data
+                            href: insights/use/office-365-data.md
+                          - name: Organizational data
+                            href: insights/use/organizational-data.md
+                          - name: CRM data
+                            href: insights/use/crm-data.md
+                      - name: Upload
+                        items:
+                          - name: Prepare organizational data
+                            href: insights/setup/prepare-organizational-data.md
+                          - name: Upload organizational data
+                            items: 
+                              - name: First upload
+                                href: insights/setup/upload-organizational-data-1st.md 
+                              - name: Subsequent uploads
+                                href: insights/setup/upload-organizational-data2.md 
+                              - name: Upload CRM data
+                                href: insights/setup/crm-data-upload.md
+                      - name: Leader & manager settings
+                        items:
+                          - name: Introduction
+                            href: insights/use/admin-settings.md
+                          - name: Manager settings
+                            href: insights/use/manager-settings.md
+                      - name: Analyst settings
+                        items:
+                          - name: Introduction
+                            href: insights/use/analyst-settings.md
+                          - name: System defaults
+                            href: insights/use/system-defaults.md
+                          - name: Privacy settings and exclusions
+                            href: insights/use/privacy-settings.md
+                          - name: Exclusions
+                            items:
+                              - name: Introduction
+                                href: insights/tutorials/exclusions-introduction.md
+                              - name: Meeting exclusions
+                                items:
+                                  - name: Introduction
+                                    href: insights/tutorials/meeting-exclusions-intro.md
+                                  - name: Walkthroughs
+                                    href: insights/tutorials/meeting-exclusion-rules.md
+                                  - name: Tools and concepts
+                                    href: insights/tutorials/meeting-exclusion-concept.md
+                              - name: Attendee exclusions
+                                href: insights/tutorials/attendee-exclusion-rules.md
+                  - name: Audit logs
+                    href: insights/setup/audit-logs.md
+              - name: Use advanced insights
+                items:
+                  - name: Introduction
+                    href: insights/overview/get-started.md 
+                  - name: Home
+                    href: insights/use/insights.md
+                    items:
+                      - name: Enhance organizational resiliency
+                        href: insights/use/resilient-organizations.md
+                      - name: Boost employee engagement
+                        href: insights/use/boost-engagement.md
+                      - name: Improve agility
+                        href: insights/use/improve-agility.md
+                      - name: Foster innovation
+                        href: insights/use/foster-innovation.md
+                      - name: Develop effective managers
+                        href: insights/use/develop-managers.md
+                      - name: Enhance operational effectiveness
+                        href: insights/use/effective-operations.md
+                      - name: Accelerate change
+                        href: insights/use/accelerate-change.md
+                      - name: Transform meeting culture
+                        href: insights/use/transform-meetings.md
+                      - name: Increase customer focus
+                        href: insights/use/customer-focus.md
+                  - name: Analyze
+                    items:
+                      - name: Query designer
+                        items:
+                          - name: Overview
+                            href: insights/tutorials/query-designer.md
+                          - name: Templates
+                            items:
+                              - name: Introduction
+                                href: insights/tutorials/power-bi-intro.md
+                              - name: Ways of working assessment
+                                href: insights/tutorials/power-bi-collab-assess.md
+                              - name: Ways of working tracker
+                                href: insights/tutorials/power-bi-collab-track.md
+                              - name: Return to worksites
+                                href: insights/tutorials/power-bi-return-tw.md
+                              - name: Business continuity
+                                href: insights/tutorials/power-bi-bc.md
+                              - name: Teams insights
+                                href: insights/tutorials/power-bi-teams.md
+                              - name: Manager effectiveness
+                                href: insights/tutorials/power-bi-manager.md
+                              - name: Behavior patterns for Glint
+                                href: insights/tutorials/power-bi-glint.md
+                              - name: Sales business continuity
+                                href: insights/tutorials/pbi-bc-sales.md
+                              - name: Power BI tips, FAQ, and troubleshooting
+                                href: insights/tutorials/power-bi-templates.md
+                          - name: Queries
+                            items:
+                              - name: Overview
+                                href: insights/tutorials/query-basics.md                         
+                              - name: Person queries
+                                items:
+                                  - name: Introduction
+                                    href: insights/tutorials/Person-queries.md
+                                  - name: Visualize person queries
+                                    href: insights/tutorials/query-visualization.md
+                              - name: Meeting queries
+                                href: insights/tutorials/Meeting-queries.md
+                              - name: Group-to-group queries
+                                href: insights/tutorials/Group-to-group-queries.md
+                              - name: Person-to-group queries
+                                href: insights/tutorials/Person-to-group-queries.md
+                              - name: Queries with CRM data
+                                href: insights/tutorials/crm-queries.md
+                              - name: Peer comparison queries
+                                href: insights/tutorials/comparison-query.md
+                              - name: Network queries
+                                items: 
+                                  - name: Network person queries
+                                    href: insights/tutorials/ona-person-query.md
+                                  - name: Network person-to-person queries
+                                    href: insights/tutorials/ona-person-to-person-query.md
+                                  - name: Network query metrics
+                                    href: insights/tutorials/ona-metrics.md
+                              - name: Customize query metrics
+                                href: insights/tutorials/Customize-a-metric.md
+                              - name: View, download, and export query results
+                                href: insights/use/View-download-and-export-query-results.md
+                              - name: Understand and interpret query output
+                                href: insights/use/Csv-query-output-file.md
+                              - name: Query auto-refresh
+                                href: insights/tutorials/Query-auto-refresh.md
+                          - name: Consumption model
+                            href: insights/tutorials/consump-model.md 
+                          - name: Business process analysis
+                            href: insights/tutorials/analyze-business-processes.md
+                          - name: Peer analysis
+                            href: insights/use/peer-analysis.md
+                          - name: Explore the stats
+                            items:
+                              - name: Introduction
+                                href: insights/use/explore-intro.md
+                              - name: Week in the life
+                                href: insights/use/Explore-Metrics-week-in-the-life.md
+                              - name: Meetings overview
+                                href: insights/use/Explore-Metrics-meetings-overview.md
+                              - name: Management and coaching
+                                href: insights/use/Explore-Metrics-management-and-coaching.md
+                              - name: Internal networks
+                                href: insights/use/Explore-Metrics-internal-networks.md
+                              - name: External collaboration
+                                href: insights/use/Explore-Metrics-external-collaboration.md
+                              - name: Teams collaboration
+                                href: insights/use/Explore-metrics-teams.md
+                              - name: Charts
+                                href: insights/use/Chart-Types.md
+                          - name: wpa R package
+                            href: insights/tutorials/wpa-r-package.md
+                          - name: Zoom integration
+                            href: insights/use/zoom.md
+                          - name: Qualtrics integration
+                            href: insights/use/qualtrics.md
+                          - name: Workspace Collaboration Optimizer
+                            href: insights/use/wsplan.md
+                      - name: Plans
+                        items:
+                          - name: Introduction
+                            href: insights/tutorials/solutionsv2-intro.md
+                          - name: Plan types
+                            items:
+                              - name: Teamwork plans
+                                href: insights/tutorials/teamwork-solution.md
+                              - name: Seller success plan
+                                href: insights/tutorials/seller-success.md
+                          - name: Use plans
+                            items: 
+                              - name: Walkthrough    
+                                href: insights/tutorials/solutionsv2-task.md 
+                              - name: Participants
+                                href: insights/tutorials/solutionsv2-participants.md
+                              - name: Concepts
+                                href: insights/tutorials/solutionsv2-conceptual.md
+                          - name: Opportunities scan
+                            href: insights/use/solutions-scan.md
+                      - name: Notifications 
+                        href: insights/use/wpa-notifications.md 
+                  - name: In Power BI
+                    href: insights/tutorials/pbi-home-deeper.md
+              - name: Advanced insights FAQ
+                href: insights/use/faq.md
+              - name: Known issues
+                items:
+                  - name: Download a query report in UTF-8 format
+                    href: insights/tutorials/Download-UTF8-query-report.md
+                  - name: Workplace Analytics 500 error
+                    href: insights/tutorials/Wpa-tool-500-error.md
+                  - name: Meeting exclusion rules - large meeting limitation
+                    href: insights/tutorials/meeting-exclusion-250.md                      
+              - name: Reference
+                items:
+                  - name: Glossary
+                    href: insights/use/Glossary.md
+                  - name: Metric descriptions
+                    href: insights/use/metric-definitions.md
+                  - name: Metric filters
+                    href: insights/use/metric-filters.md          
+                  - name: Best practices
+                    href: insights/tutorials/gm-best-practices.md
+                  - name: Time zones
+                    href: insights/use/Timezones-for-Workplace-analytics.md
+                  - name: Languages and guidelines
+                    href: insights/overview/Supported-languages.md
+        - name: Viva Insights FAQ
+          href: insights/use/faq-intro.md
+        - name: Get support
+          href: insights/overview/getting-support.md
+  - name: Microsoft Viva Learning
+    items:
+    - name: Get started with Viva Learning
+      items:    
+        - name: Overview of Viva Learning
+          href: learning/overview-viva-learning.md 
+        - name: Terms and conditions
+          href: learning/terms-and-conditions.md
+        - name: Get help
+          href: learning/help-support.md
+    - name: Setup and administration
+      items:
+        - name: Set up Viva Learning
+          href: learning/set-up-viva-learning.md
+        - name: Manage learning content sources
+          items:
+            - name: Overview
+              href: learning/content-sources-365-admin-center.md
+            - name: Manage how content shows up in Viva Learning
+              href: learning/use-tabs.md
+            - name: Add SharePoint
+              href: learning/configure-sharepoint-content-source.md
+            - name: Add learning management systems
+              href: learning/configure-lms.md
+            - name: Add other providers
+              href: learning/configure-other-content-sources.md
+  - name: Microsoft Viva Topics
+    items:
+    - name: Get started with Microsoft Viva Topics
+      items:    
+        - name: Microsoft Viva Topics overview
+          href: topics/topic-experiences-overview.md 
+        - name: Microsoft Viva Topics discovery and curation
+          href: topics/topic-experiences-discovery-curation.md           
+        - name: Microsoft Viva Topics roles 
+          href: topics/topic-experiences-roles.md 
+        - name: Get your environment ready 
+          href: topics/topic-experiences-get-ready.md           
+    - name: Setup and administration
+      items:
+        - name: Topics security
+          href: topics/topic-experiences-security-privacy.md
+        - name: Plan for Topics
+          href: topics/plan-topic-experiences.md
+        - name: Set up Topics
+          href: topics/set-up-topic-experiences.md
+        - name: Manage topic discovery
+          href: topics/topic-experiences-discovery.md
+        - name: Manage topic visibility
+          href: topics/topic-experiences-knowledge-rules.md
+        - name: Manage topic permissions
+          href: topics/topic-experiences-user-permissions.md
+        - name: Change the topic center name
+          href: topics/topic-experiences-administration.md
+    - name: Work with topics
+      items:
+        - name: Get started with Viva Topics
+          href: topics/get-started-with-viva-topics.md
+        - name: Topic center overview
+          href: topics/topic-center-overview.md    
+        - name: Manage topics in the topic center
+          href: topics/manage-topics.md 
+        - name: Create a new topic
+          href: topics/create-a-topic.md   
+        - name: Edit a topic
+          href: topics/edit-a-topic.md
+        - name: Save a topic as a draft
+          href: topics/save-topic-as-draft.md
+        - name: Security trimming 
+          href: topics/topic-experiences-security-trimming.md 
+        - name: Search for topics 
+          href: topics/search.md             
+        - name: Manage topics at scale 
+          href: topics/scale-topics.md             
+    - name: Adoption
+      items: 
+        - name: Get started driving adoption
+          href: topics/topics-adoption-getstarted.md
+        - name: Run a trial
+          href: topics/trial-topics.md
+        - name: Adoption resources
+          href: topics/adoption-resources.md
+    
