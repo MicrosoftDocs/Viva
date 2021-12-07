@@ -8,7 +8,6 @@ ms.date: 11/02/2021
 audience: enabler, admin
 ms.topic: landing-page
 ms.custom: intro-hub-or-landing
-ms.prod: microsoft-365-enterprise
 search.appverid: MET150
 ms.collection: 
     - enabler-strategic
