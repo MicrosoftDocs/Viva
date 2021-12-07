@@ -13,6 +13,8 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
+ms.service: viva
+ms.subservice: viva-learning
 ms.localizationpriority: medium
 description: Learn how to find resources for Microsoft Viva Learning.
 ---
