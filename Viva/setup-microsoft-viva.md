@@ -1,5 +1,5 @@
 ---
-title: "Set up Microsoft Viva)"
+title: "Set up Microsoft Viva"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
@@ -80,4 +80,6 @@ Inform, engage, and empower -- Microsoft Viva Connections is your gateway to a m
 
 **More information**
 
-[Get additional documentation and ways to learn about Microsoft Viva](/microsoft-365/viva)
+[Learn about where Microsoft Viva data is stored](/microsoft-365/enterprise/o365-data-locations#what-are-the-considerations-for-microsoft-viva-data-locations)
+
+[Find more documentation for Microsoft Viva](/microsoft-365/viva)
