@@ -16,7 +16,7 @@ audience: Admin
 _This experience is only available through a targeted release at this time._
 
 >[!Important]
->By the end of January 2022, this page will no longer be available. To access the same insights, see [Team insights](../../use/team-insights).
+>By the end of January 2022, this page will no longer be available. To access the same insights, see [Team insights](../../use/team-insights.md).
 
 If you're a people manager, the Leadership page on the [MyAnalytics dashboard](dashboard-2.md) gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement.
 
