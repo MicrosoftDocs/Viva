@@ -26,7 +26,7 @@ Viva is easily customizable and extensible, accessible from anywhere you work, a
 
 Viva is an open and extensible platform. Soon, partners and developers will be able to use toolkits and APIs for each of the four modules. The [Viva Connections toolkit](/sharepoint/dev/spfx/viva/overview-viva-connections) is available now, and coming soon are APIs for Viva Insights and Viva Learning as well as content support for Viva Topics. To find out more, see the [Microsoft Viva Developer Page](https://developer.microsoft.com/en-us/viva).
 
-As an integrated experience, administrators can use the centralized Microsoft 365 admin center experience to access guided set-ups for deploying Viva. [Learn how to set up Microsoft Viva](/setup-microsoft-viva).
+As an integrated experience, administrators can use the centralized Microsoft 365 admin center experience to access guided set-ups for deploying Viva. [Learn how to set up Microsoft Viva](/viva/setup-microsoft-viva).
 
 ## Viva modules
 
@@ -34,22 +34,22 @@ As an integrated experience, administrators can use the centralized Microsoft 36
 
 Viva Connections is a curated, company-branded experience that brings together relevant news, conversations, and resources in the applications and devices you use every day.
 
-[Get more information on Viva Connections](/connections/viva-connections-overview)
+[Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
 ### Viva Insights: Productivity and wellbeing
 Viva Insights helps improve productivity and wellbeing through data-driven, privacy-protected insights and recommendations.
  
-[Get more information on Viva Insights](/insights/index)
+[Get more information on Viva Insights](/viva/insights/index)
 
 ### Viva Topics: Knowledge and expertise
 Viva Topics applies AI to automatically organize content and expertise across your systems and teams into related topics, like projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enable experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.
 
-[Get more information on Viva Topics](/topics/topic-experiences-overview)
+[Get more information on Viva Topics](/viva/topics/topic-experiences-overview)
 
 ### Viva Learning: Skilling and growth
 Viva Learning brings enterprise learning into the flow of work by connecting content from your organization, Learning Management Systems, third-party providers, and Microsoft.
  
-[Get more information on Viva Learning](/learning/overview-viva-learning)
+[Get more information on Viva Learning](/viva/learning/overview-viva-learning)
 
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Following are examples of current partner integrations, and new partners are being added on an ongoing basis, so check back for more.
