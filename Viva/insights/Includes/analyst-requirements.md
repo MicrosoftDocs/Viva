@@ -9,6 +9,11 @@ ms.author: v-pausch
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 
 <!-- Note: In the topic that INCLUDEs this content, precede it with the following heading at the proper heading level:

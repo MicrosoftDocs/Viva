@@ -7,6 +7,11 @@ ms.author: v-pausch
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 
 <!-- NOTE: "System default fields" is the proper term. We are temporarily using "system fields" in the subsequent uploads topic because that's what the UI has on the mapping screens for subsequent uploads. 
