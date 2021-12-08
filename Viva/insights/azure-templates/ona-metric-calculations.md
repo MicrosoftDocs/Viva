@@ -12,7 +12,6 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-ms.prod: wpa
 manager: scott.ruble
 audience: Admin
 ---

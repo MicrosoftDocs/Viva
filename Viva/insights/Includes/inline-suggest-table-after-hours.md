@@ -8,7 +8,6 @@ author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
 ms.collection: m365initiative-viva-insights 
 ms.service: viva 
 ms.subservice: viva-insights 
