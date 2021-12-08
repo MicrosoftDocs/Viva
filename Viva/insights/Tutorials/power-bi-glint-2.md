@@ -1,7 +1,7 @@
 ---
 title: Behavior patterns for Glint dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and Glint data
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
