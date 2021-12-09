@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 description: "An overview of the Microsoft Viva suite"
 ---
-# Microsoft Viva Overview
+# Microsoft Viva overview
 
 With the growth in hybrid work, it is more important than ever to connect employees with an integrated employee experience that brings together communications, knowledge, learning, resources, and insights into the flow of work.
 
