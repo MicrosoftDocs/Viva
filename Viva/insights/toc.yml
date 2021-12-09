@@ -337,6 +337,8 @@ items:
                             href: tutorials/power-bi-collab-track.md
                           - name: Return to worksites
                             href: tutorials/power-bi-return-tw.md
+                          - name: Wellbeing
+                            href: tutorials/power-bi-wellbeing.md                            
                           - name: Business continuity
                             href: tutorials/power-bi-bc.md
                           - name: Teams insights
