@@ -3,10 +3,14 @@
 title: Introduction to Analyst settings in Workplace Analytics
 description: Introduction to Analyst settings in Microsoft Viva Insights in Workplace Analytics
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
