@@ -14,25 +14,10 @@ audience: Admin
 
 # Mindfulness content from Headspace
 
-<!-- PUBLISH THE PAS-AM-headspace WORKING BRANCH AT 6:00 AM PDT on June 17, 2021!  -->
-
-<!-- DELETE THE FOLLOWING NOTE BEFORE PUBLISHING THE PAS-AM-headspace WORKING BRANCH TO LIVE!  -->
-
 >[!NOTE]
->The Headspace experience will roll out starting in late June 2021 to users who have their language in Teams set to English. Additional languages will be supported soon.
+>The Headspace experience is available to you if your language in Teams set to English. Additional languages will be supported soon.
 
 Viva Insights has introduced a curated set of guided meditations and Focus music from Headspace. Reach these resources on the [Home](viva-insights-home.md) page to help you start your day grounded, relax your mind before a big presentation, or find focus before starting an important project. <!-- VERIFY WITH ANJI BUT KEEPING THIS OUT FOR NOW: A Headspace meditation to mindfully wrap up the day will also be integrated into the virtual commute. --> In just a few minutes a day, meditation and mindfulness with Headspace can help you decrease stress and increase focus.
-
-<!-- REMOVING THIS PER MALAVIKA BEFORE OUR RELEASE ON JUNE 17: 
-
-> [!NOTE]
-> As of June 2021, Headspace is only available to users who have their language in Teams set to English. Additional languages will be supported soon.  -->
-
-<!-- USE THE FOLLOWING NOTE INSTEAD OF THE PREVIOUS ONE IN THE VERSION THAT GETS RELEASED PUBLICLY ON JUNE 17TH  
-
-> [!NOTE]
-> The Headspace experience will roll out starting in late June 2021 to users who have their language in Teams set to English. Additional languages will be supported soon.
--->
 
 ## Start a guided meditation
 

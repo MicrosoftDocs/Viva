@@ -1,10 +1,10 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Partitions in Workplace Analytics
-description: Description of partitions plus how to use and set up partitions in Workplace Analytics 
-author: paul9955
-ms.author: v-pausch
+title: Partitions for Viva Insights
+description: Describes how to use and set up partitions in Workplace Analytics for Viva Insights 
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -15,28 +15,28 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Partitions in Workplace Analytics
+# Partitions for Viva Insights
 
-A partition is a data workspace for an analyst. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create partitions that contain subsets of employee data. To do this, they use various criteria. Here are examples:
+A partition is a data workspace for Microsoft Viva Insights analysis. A partition delimits the employee data and organizational attributes that an analyst can use for analysis. Companies create partitions that contain subsets of employee data. To do this, they use various criteria, such as the following for example:
 
-* **Organization:** A company can create a partition for data about all the employees in one division, or in a functional group or team. Example: R & D
-* **Geography:** A multi-national corporation might create different partitions for the data of employees of different countries or parts of countries. Example: Wales
-* **Role:** A company could select the data of all the employees who have a particular function to include in a partition. Example: Accounting personnel
+* **Organization** - A company can create a partition for data about all the employees in one division, or in a functional group or team, such as for Research and development.
+* **Geography** - A multi-national corporation might create different partitions for the data of employees of different countries or parts of countries, such as for Wales.
+* **Role** - A company could select the data of all the employees who have a particular function to include in a partition, such as for Accounting personnel.
 
 ## Partitions give access to data
 
-A partition defines what data you work with in Workplace Analytics. If you have one of the analyst roles (analyst or analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](../tutorials/query-designer.md) in Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
+A partition defines what data you work with in Workplace Analytics for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](../tutorials/query-designer.md) in Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
 
 If you have the program manager role, you have complete access to **Plans** with no limitations.
 
 For example, if you are an analyst with the job of finding workplace trends in the sales organization, you must be assigned a partition that encompasses the data of salespeople. You can then view data about salespeople in **Explore the stats** and create queries about salespeople in **Query designer**.
 
 >[!Note]
->Analysts (and limited analysts) are not the only Workplace Analytics users who use partitions. Program managers who work in [Plans](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
+>Analysts (and limited analysts) are not the only people who use partitions. Program managers who work in [Plans](../tutorials/solutionsv2-intro.md) must also be granted explicit access to a partition, after which they can create and view solution [Plans](../tutorials/solutionsv2-task.md#create-a-plan) only in that partition.
 
 ## The Global partition
 
-One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded to Workplace Analytics. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [To create a partition](#to-create-a-partition) for more information about assigning analysts to a partition.
+One particular partition encompasses everyone’s data: the "Global" partition. If an analyst has this partition, they can work with all employee data that’s been uploaded. The Global partition is created by the system. While it exists by default, no analysts are given access to it by default. Analysts must be granted access&mdash;to this or to any partition&mdash;expressly, by an admin. See [To create a partition](#to-create-a-partition) for more information about assigning analysts to a partition.
 
 >[!Note]
 >For existing users, as part of one-time migration in 2019, all existing analysts and their existing Query designer and settings are being moved to the Global partition.
@@ -47,32 +47,33 @@ If you are an analyst, you must have a partition selected to be able to view dat
 
 ### To use a partition
 
-* **Roles**: Workplace Analytics analyst, PM, or admin
+* **Roles**: Analyst, Program manager, or Admin
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition."
+1. [Open the app](https://workplaceanalytics.office.com/). If prompted, enter your work credentials. If you are a PM or analyst and you have not been assigned a partition, you'll see a notice that "to proceed, you have to be part of at least one partition."
 
-    If you see this notice, ask your Viva Insights or Workplace Analytics admin to assign you to a partition. You cannot start using Workplace Analytics until an admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
+    If you see this notice, ask your Viva Insights Administrator to assign you to a partition. You cannot start using Viva Insights until the admin assigns you to one or more partitions. If you do not see this notice, go on to the next step.
 
-2. What you see now depends on your role and partition assignments: If you are analyst (you have the analyst role or analyst limited role), go to step 3; if you have any other role, go to Step 4.
+2. What you see now depends on your role and partition assignments:
 
-3. Step for analysts:
+   * If you are an analyst (or limited analyst), go to **Step 3**.
+   * If you have any other role, go to **Step 4**.
 
-    * If you have only one partition (even the default "Global" partition), this is the partition that you will use. Skip the rest of these steps. You can view **Explore the stats** data or **Query designer** where you will only see data to which your partition grants you access.
-    * If you have more than one partition, the **Partition** drop-down menu at the top of the **Home** page displays the partitions that you are linked to. Open this menu and select one:
+3. If you're an analyst, do the following:
 
-       ![Select a partition.](../images/wpa/setup/partition-menu.png)
+    * If you only have one partition (even the default "Global" partition), this is the partition that you will use. Skip the rest of these steps. You can view **Explore the stats** data or **Query designer** where you will only see data to which your partition grants you access.
+    * If you have more than one partition, the **Partition** drop-down menu at the top of the **Home** page shows what partitions you can access. After you’ve selected a partition, you can skip the rest of these steps and view date in **Explore the stats** and **Query designer**.
 
-      After you’ve chosen the partition to work with, you can skip the rest of these steps and view date in **Explore the stats** and **Query designer**.
+       ![Select a partition.](../images/wpa/setup/partition-menu.png)  
 
-4. If you have a non-analyst role, your choice depends on the role (or roles) that you've been assigned:
+4. If you are a Program manager or admin, your choices depend on your role assignment:
 
-    * **Both a manager and an analyst:** If you have both a program manager role and an analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a manager and analyst roles can access plans in Global partition and access **Explore the stats** and **Query designer** in other partitions that they have been granted.
-    * **Manager only:** Managers do not need to select a partition because they automatically use Global partition. If you’re a manager, go to the **Plans** page.
-    * **Admin:** If you’re signed in to Workplace Analytics as an admin, then partitions don't affect you or your access to **Settings**.
+    * **Both a program manager and an analyst** - If you have both a Program manager role and an Analyst role, the data you see depends on the page that you open. Plans are accessible only in the Global partition. A person with both a Program manager and an Analyst role can access plans in Global partition and access **Explore the stats** and **Query designer** in other partitions that they can access.
+    * **Program manager only** - Program managers automatically access and use the Global partition to access the Plans page.
+    * **Administrator** - If you’re signed in as an admin, then partitions don't affect your access.
 
 ## Create, edit, and delete partitions
 
-* **Role**: Viva Insights or Workplace Analytics admin
+* **Role**: Viva Insights Administrator
 
 To administer partitions, see the following sections:
 
@@ -82,55 +83,53 @@ To administer partitions, see the following sections:
 
 ### To create a partition
 
-Viva Insights or Workplace Analytics admins create partitions on the **Settings** page. This procedure consists of four sub-tasks, which you complete at the indicated step in the following procedure:
+Viva Insights Administrators create partitions on **Analyst settings**. This task consists of the following sub-tasks:
 
 | Sub-task | Step | Notes |
 | -------- | ---- | ----------- |
 | Name the partition | 4 | Also, optionally, type a description |
 | Create filters  | 5 | Select the employees whose data the partition will contain |
-| Set attributes  | 6, 7 | Select organizational-data attributes to include in the partition |
+| Select attributes  | 6, 7 | Select organizational-data attributes to include in the partition |
 | Give access |  8  | Select one or more analysts who will have access to this partition |
 
 >[!Important]
->Plan your partitions carefully before you start to create them. Partions have limits in both number and size. For more information, see [Number and size limits](#number-and-size-limits).
+>Plan your partitions carefully before you start to create them. Partitions have limits in both number and size. For more information, see [Number and size limits](#number-and-size-limits).
 
-1. Open the Workplace Analytics **Home** page. If prompted, sign in with your work account.  
-2. Open the **Settings** page and select **Access control**.
-3. In the **Partition-based access control** area, select **New partition**:
+1. [Open the app](https://workplaceanalytics.office.com). If prompted, sign in with your work account.  
+2. In **Controls** > **Analyst settings**, select **Access control**.
+3. Select **New partition**:
 
-    ![New partition option.](../images/wpa/setup/access-control-page.png)
+    ![New partition option.](../images/wpa/setup/access-control.png)
 
-4. On the **Access control > New partition** page, type the name of the new partition and optionally type a description.
-5. **Create filters.** Under **Select employees for partition**, add one or more filters to define the employee data that will fall within the new partition:
+4. Enter the name of the new partition and optionally type a description.
+5. In **Select employees for partition** > **Create filters**, add one or more filters to define what employee data can be accessed within this new partition:
 
     ![New partition.](../images/wpa/setup/create-partitions-filters.png)
 
     >[!Note]
-    >You can filter by only one attribute. For example, if you create a filter that uses the Organization attribute, you could produce the following filter clauses:
+    >You can filter by only one attribute. For example, if you create a filter that uses the Organization attribute, you can select the following filter clauses:
     >
     >* Organization + Equals + <name_of_manager_1> AND
     >
     >  Organization + Equals + <name_of_manager_2>
     >
-    >  But you cannot add another clause that uses a different attribute, such as:
-    >
-    >* Domain + Equals + <domain_name>
+    >* And you cannot add other clauses that use a different attribute, such as: Domain + Equals + <domain_name>
 
-6. **Select attributes**. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected.
-7. **Select visibility of attributes**. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that nevertheless has been uploaded in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**.
+6. Select which attributes from the organizational data to include in the partition. To exclude an attribute from the partition, leave it unselected.
+7. You might want one or more attributes to not be visible to analysts who work in this partition. For example, "sales quota" might be a sensitive attribute that is included in the organizational data. To hide the "sales quota" attribute, select it and then set its **Visibility** to **Hash in report**.
 
     ![Select visibility.](../images/wpa/setup/create-partitions-attributes.png)
 
-8. **Give access**. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.
+8. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.
 
     ![Select analysts.](../images/wpa/setup/create-partitions-access.png)
 
 ### To edit a partition
 
-1. Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
-2. Open the **Settings** page and select **Access control**.
-3. In the **Partition-based access control** area, locate the partition that you want to edit.
-4. Select the ellipsis (...) in that partition's row and then select **Edit partition**:
+1. [Open the app](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.  
+2. Go to **Controls** > **Analyst settings**, and then select **Access control**.
+3. Locate the partition that you want to edit.
+4. Select the **ellipsis** (...) in that partition's row, and then select **Edit partition**:
 
     ![Edit partition.](../images/wpa/setup/part-based-access-control-edit.png)
 
@@ -148,36 +147,32 @@ Viva Insights or Workplace Analytics admins create partitions on the **Settings*
 
 ### To delete a partition
 
-1. Open the Workplace Analytics **Home** page. If prompted, enter your Microsoft credentials.  
-
-2. Open the **Settings** page and select **Access control**.
-
-3. In the **Partition-based access control** area, locate the partition that you want to edit.
-
-4. Select the ellipsis (...) in that partition's row and then select **Delete partition**:
+1. In **Controls** > **Analyst settings**, select **Access control**.
+2. Locate the partition that you want to delete.
+3. Select the **ellipsis** (...) in that partition's row, and then select **Delete partition**:
 
     ![Partitions in Access control](../images/wpa/setup/part-based-access-control-delete.png)
 
    >[!Note]
-   >You cannot delete the Global partition. Only user-created partitions can be deleted.
+   >You cannot delete the Global partition. Only other partitions created by you can be deleted.
 
 ## FAQ
 
 #### Q1. How can I start using partitions?
 
-A1. Currently the partitions feature is being rolled out on a per-customer basis. To have it enabled for your organization, reach out to your customer service contact at Microsoft.
+Currently the partitions feature is being rolled out on a per-customer basis. To have it enabled for your organization, reach out to your customer service contact at Microsoft.
 
 #### Q2. Why are newly uploaded attributes not being reflected inside non-global partitions?
 
-A2. New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](../setup/upload-organizational-data.md)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition).
+New attributes are not added automatically. After you upload a new attribute (in an [organizational data upload](../setup/upload-organizational-data2.md)), you must explicitly add the attribute to a partition by [editing the partition](#to-edit-a-partition).
 
 #### Q3. Why am I not able to see analyst settings in a partition?
 
-A3. All analyst settings are applied to all partitions. For this reason the settings tab is visible only in the [Global partition](#the-global-partition).
+All analyst settings are applied to all partitions. For this reason the settings tab is visible only in the [Global partition](#the-global-partition).
 
-#### Q4. We regularly upload updates to our organizational data. How can these updates affect partitions?
+#### Q4. Upload updates to organizational data occur regularly. How can these updates affect partitions?
 
-A4. See the following section, [Partitions and organizational data](#partitions-and-organizational-data).
+See [Partitions and organizational data](#partitions-and-organizational-data) for details.
 
 ## Number and size limits
 
@@ -193,9 +188,9 @@ Partitions have limits both in number and size:
 
 ### Actions that can change partition size
 
-The following scenarios can push the size of a partition beyond the allowed limit:
+The following scenarios can push the size of a partition beyond the allowed limit.
 
-* **Role**: Viva Insights or Workplace Analytics admin
+* **Role**: Viva Insights Administrator
 
 | Scenario | Admin action | Result |
 | -------- | ------------ | ------ |
@@ -208,22 +203,20 @@ The following scenarios can push the size of a partition beyond the allowed limi
 
 ## Partitions and organizational data
 
-Partitions depend on organizational data in two ways:
+Partitions depend on organizational data in the following ways.
 
 * Partitions can depend on organizational data columns. As described in the **Create filters** step of [To create a partition](#to-create-a-partition), you can define a partition by filtering by organizational data columns. For example, you can define a partition by filtering on an organizational data column called _Country_.
 * As described in the **Select attributes** step of [To create a partition](#to-create-a-partition), organizational-data attributes can be configured to be included in the partition for analysts to use.
 
-Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data.md). In step 9 of [upload organizational data](upload-organizational-data.md#important-upload-considerations), the admin can select either **Append the existing organization data** or **Replace all existing organizational data with this file**.
+Because of these dependencies, existing partitions can be affected when an admin, after [uploading organizational data for the first time](upload-organizational-data-1st.md), uploads new data in a [subsequent upload](upload-organizational-data2.md). In [Upload organizational data](upload-organizational-data2.md#important-upload-considerations), the admin has a number of options. Appending existing organizational data does not affect partitions, regardless of the structure of the new data.
 
-Choosing the **Append** option does not affect partitions, regardless of the structure of the new data.
+However, if the admin selects to **Replace all existing organizational data** and the organizational data has a new data schema, it could cause errors. For example, if the _Country_ column is not present in the new organizational-data upload (and if the column is either used as a filter or included in a partition), the definition of any partition that refers to this column is violated.
 
-However, the admin can select the **Replace all existing organizational data** option, and the organizational data that they upload could have a new data schema. For example, if the _Country_ column is not present in the new organizational-data upload schema (and if the column is either used as a filter or included in a partition), the definition of any partition that refers to this column is violated.
-
-Because of this possibility, during organizational-data upload (between the mapping step and the validation step), Workplace Analytics checks for partition schema violations. If the schemas of one or more partitions are violated, Workplace Analytics displays the following error:
+Because of this possibility, during organizational-data upload (between the mapping step and the validation step), the system checks for partition schema violations. If the schemas of one or more partitions are violated, you'll see the following error:
 
 ![Partition violation.](../images/wpa/setup/partition-violation.png)
 
-In the lower half of this page, Workplace Analytics identifies the columns that are omitted in the uploaded file but present in the earlier uploaded data (and its schema) and are present in existing partitions. It also names the partitions that are affected by the missing columns.  
+In the lower half of this page, the system identifies the columns that are omitted in the uploaded file but present in the earlier uploaded data (and its schema) and are present in existing partitions. It also names the partitions that are affected by the missing columns.  
 
    >[!Note]
    >If a column in a new set of data is missing, this affects the schema of a partition only if that column is referred to in the schema. If no partition's schema refers to the missing column, the missing column will not cause an error, and the organizational-data upload will continue on to the validation phase.

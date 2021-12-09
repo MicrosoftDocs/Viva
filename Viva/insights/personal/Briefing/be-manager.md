@@ -14,7 +14,12 @@ audience: Admin
 
 # Catch up with your team
 
+>[!Note]
+>Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+
 People managers often have hectic schedules, and it can be tough to stay in close contact with your team members. The Briefing can help you maintain a strong relationship with your team and stay caught up and respond quickly to important requests from your team.
+
+Only managers with a P1 license who have team members can see this feature. You can add or edit your team members in [Settings](be-settings.md).
 
 As a manager, you'll see one or more of the following based on your calendar and email activity in the **Catch up with your team** section of your Briefing email:
 
@@ -24,14 +29,14 @@ As a manager, you'll see one or more of the following based on your calendar and
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can also do the following:
 
-* To schedule 1:1 time, select **Find time**.
-* If the related task is already done, select **Done**.
+* In **Schedule 1:1**, select **Find time** to schedule it, or **Snooze** to remind you to schedule it later.
+* If you see items that may be related, you can select **Done** or **Add To Do**.
 * To do the task later, select **Later**.
 * Or if it's not a task, select the **Delete** (trashcan) icon to remove it from the list.
 
-In the following example, you’d select **Find time** to schedule a 1:1 with Christie and select **Done** to mark the Sync up as complete.
+In the following example, you’d select **Find time** to schedule a 1:1 with Christie and select **Done** to mark the **Sync up** as complete.
 
-   ![Briefing email manager card image.](./images/be-manager.png)
+   ![Briefing email manager card image.](./images/be-manager-2.png)
 
 ## Related topic
 

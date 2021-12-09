@@ -20,13 +20,21 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## October 2021
+
+The following new template features, enhancements, and changes are included in this month's release of the Organizational Network Analysis (ONA) Azure Template
+
+* **Organization Insights graph** - The new **Show Side By Side View** option in the graph will show you two versions of the Organization Insights graph. You can use this feature for before and after comparisons within the set time period for the different specified groups, which can be colored by the Group Metrics or a specific organizational attribute. For more details, see [Organization Insights graph](./ona-insights.md#organization-insights-graph).
+* **Group Insights metrics** - The Group Metrics data for Group Stability and Group Cohesion have been updated to match more closely with the Organization Insights data. The underlying metric used for Group Stability is now based on the fluidity measure and for Group Cohesion is now based on the employee cohesion metric that's measured with the global clustering coefficient.
+* **Group Insights table** - If a group ever has fewer individuals than the minimum group threshold, it will not be shown in the Group Insights table. For more details, see [Group Insights](./ona-insights.md#group-insights).
+
 ## July 2021
 
 The following new template features, enhancements, and changes are included in this month's release.
 
 ### Organizational Network Analysis (ONA)
 
-This release adds a new **Organization insights** section within the **ONA Insights** template option with an ONA graph that shows the number of connections employees have within the organization and the following new metrics.
+This release adds a new **Organization Insights** section within the **ONA Insights** template option with an ONA graph that shows the number of connections employees have within the organization and the following new metrics.
 
 * **Workgroup Stability** - Measures the change of informal workgroup memberships from month to month.
 * **Network Silo Behavior** - Helps quantify how connected or siloed a network is. A low score suggests that employees communicate freely across workgroups and throughout the organization.

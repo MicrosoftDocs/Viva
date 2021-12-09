@@ -1,14 +1,14 @@
 ### YamlMime:FAQ
 metadata:
-  title: Cortana Briefing FAQ
-  description: Get answers to the most frequently asked questions about the Cortana Briefing email.
+  title: Briefing email from Microsoft Viva FAQ
+  description: Get answers to the most frequently asked questions about the Briefing email from Microsoft Viva Insights
   author: madehmer
   ms.author: v-mideh
   ms.topic: article
   ms.localizationpriority: medium 
   ms.prod: Mya
     
-title: Cortana Briefing FAQ
+title: Briefing email from Microsoft Viva FAQ
 summary: |
 
 sections:
@@ -16,7 +16,7 @@ sections:
     questions:
       - question: Who will get the email?
         answer: |
-          Everyone in your Microsoft 365 or Office 365 tenant with an English (United States) or Spanish language Exchange Online mailbox will receive the email (if they have actionable tasks).
+          Everyone in your Microsoft 365 or Office 365 tenant that Exchange Online mailbox in a [supported language](be-languages.md) will receive the email (if they have actionable tasks).
 
       - question: How can I manage who receives the email?  
         answer: |
@@ -42,11 +42,11 @@ sections:
     questions:
       - question: Who does the email come from?  
         answer: |
-          The subject line is "Your daily briefing" and the sender is cortana@microsoft.com with a friendly name of "Cortana."
+          The subject line is "Your daily briefing" and the sender is viva-noreply@microsoft.com with a friendly name of "Microsoft Viva."
 
       - question: How does the Briefing email show up in Outlook?
         answer: |
-          The Briefing email is not a standard email. It's system-generated and does not go through the standard email delivery process. Instead, it's inserted directly into your Outlook inbox by Cortana. Briefing emails can't be managed by email rules or transport rules.
+          The Briefing email is not a standard email. It's system-generated and does not go through the standard email delivery process. Instead, it's inserted directly into your Outlook inbox by Microsoft Viva. Briefing emails can't be managed by email rules or transport rules.
 
       - question: How often will I receive the email?  
         answer: |
@@ -74,11 +74,11 @@ sections:
 
       - question: Why am I getting so many emails from Microsoft and how can I manage them?  
         answer: |
-          You're getting emails from Cortana and MyAnalytics with the purpose of helping you be more productive during your workday. MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
+          You're getting emails from Microsoft Viva with the purpose of helping you be more productive during your workday. Viva Insights and MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
           
           Briefing is optimized to show you the most relevant and actionable information that you need for the day ahead. It provides complementary experiences to help you be your most productive self. You only get Briefing emails at the beginning of your workday if you have actionable tasks or meetings. You can opt out with the **Unsubscribe** link at the end of the email.
           
       - question: How can I send Microsoft product feedback or ask a question about the Briefing email?
         answer: |
-          At the end of each section in the email (in the Adaptive version), select the thumbs up or down icons to indicate whether that section was helpful or not. You can also send questions or additional feedback to: [cortana.office.com/briefing?v=feedback](https://cortana.office.com/briefing?v=feedback).
+          At the end of each section in the email (in the Adaptive version), select the thumbs up or down icons to indicate whether that section was helpful or not. You can also send questions or additional feedback to: [Briefing feedback](https://cortana.office.com/briefing?v=feedback).
           

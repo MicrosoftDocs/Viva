@@ -1,37 +1,37 @@
 ---
 
-title: MyAnalytics FAQ
-description: Frequently asked questions about MyAnalytics
-author: paul9955
-ms.author: v-pausch
+title: Personal insights FAQ
+description: Frequently asked questions about Personal insights with Microsoft Viva Insights
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
-ms.localizationpriority: null
+ms.localizationpriority: medium
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
 
 ---
 
-# MyAnalytics FAQ
+# Personal insights FAQ
 
-The questions in this topic are organized into the following sections for MyAnalytics as part of Microsoft Viva Insights: 
+This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the the [MyAnalytics dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
 
- * The [Privacy](#privacy) section applies to everyone.
+* The [Privacy](#privacy) section applies to everyone.
 
 The other questions and answers are grouped by role:
 
- * For [MyAnalytics users](#for-myanalytics-users)
- * For [IT administrators](#for-it-administrators)
+* For [using personal insights](#for-using-personal-insights)
+* For [IT administrators](#for-it-administrators)
 
 ## Privacy
 
-##### Q1. Who can see my data?
+#### Q1. Who can see my data?
 
 Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator cannot view your personal data.
 
 For more details, see the [Privacy guide](Privacy-Guide-users.md).
 
-##### Q2. How does MyAnalytics protect my data?
+#### Q2. How does MyAnalytics protect my data?
 
 MyAnalytics uses data from your Microsoft 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams or in Skype for Business.
 
@@ -41,7 +41,7 @@ Every calculation that MyAnalytics performs is based on data that you, yourself,
 
 MyAnalytics does not have any tracking software running on your computer.
 
-##### Q3. What data does MyAnalytics use?
+#### Q3. What data does MyAnalytics use?
 
 >[!Note]
 >MyAnalytics processes the data as described in the [Privacy Guide](privacy-guide-users.md).
@@ -75,7 +75,7 @@ MyAnalytics does not have any tracking software running on your computer.
 
 Email and calendar data from people outside of your organization, with the following exception: MyAnalytics uses data that is present in your own Microsoft 365 mailbox. For example, if you conduct a meeting with a person outside of your organization, the start and end times of that meeting can be found in your mailbox and therefore are visible to you. This data, therefore, can be used in computations about your collaboration history.
 
-## For MyAnalytics users
+## For using personal insights
 
 ### Data sources
 
@@ -114,41 +114,41 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 
 ### Digests
 
-##### Q1. How do the MyAnalytics digests show up in Outlook?
+#### Q1. How do the MyAnalytics digests show up in Outlook?
 
  Your [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
 
 ### Opt out
 
-##### Q1. Can I opt out of MyAnalytics? And if I do (or if an admin opts me out), can I opt back in later?
+#### Q1. Can I opt out of MyAnalytics? And if I do (or if an admin opts me out), can I opt back in later?
 
 Yes to both questions. You can opt out of access to individual parts of MyAnalytics or out of all of MyAnalytics at once. And you can [opt back in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) again later, if you want.
 
 See the following for details:
 
-###### Opt out of all of MyAnalytics
+##### Opt out of all of MyAnalytics
 
  * [Opt out of MyAnalytics](../use/opt-out-of-mya.md)
 
-###### Opt out of different elements
+##### Opt out of different elements
 
  * [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard)
  * [Opt out of digests](../use/email-digest-2.md#opt-out-of-digests)
  * [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-out)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
-###### Opt in to MyAnalytics
+##### Opt in to MyAnalytics
 
  * [If I opt out, can I opt back in?](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in)
 
-##### Q2. Can I add or remove the Insights Outlook add-in?
+#### Q2. Can I add or remove the Insights Outlook add-in?
 
 Yes, you can. But first, what's the difference between "opt out" and "remove"?
 
  * **Opt out:** If you opt out, you lose access to the feature. (But remember that you can opt back in if you change your mind. To do so, follow the steps in [Opt out of the Viva Insights Outlook add-in](../use/add-in.md#to-opt-out) but in step 4, set the control to **On**.)
  * **Remove:** If you remove the add-in, not only do you lose access to the feature, its icon is also removed from your Outlook ribbon. (Note that you can change your mind about this, as well: See [Add the Viva Insights Outlook add-in](#add-the-viva-insights-outlook-add-in)).  
 
-###### Remove the Viva Insights Outlook add-in
+##### Remove the Viva Insights Outlook add-in
 
 Follow these steps to remove the Viva Insights add-in from your Outlook ribbon.
 
@@ -164,7 +164,7 @@ Follow these steps to remove the Viva Insights add-in from your Outlook ribbon.
 
     ![Remove Insights.](../../Images/mya/use/remove-insights.png)
 
-###### Add the Viva Insights Outlook add-in
+##### Add the Viva Insights Outlook add-in
 
 Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
@@ -174,19 +174,19 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 ### Visibility and access
 
-##### Q1. Why can't I see the MyAnalytics dashboard?
+#### Q1. Why can't I see the MyAnalytics dashboard?
 
 The MyAnalytics dashboard is only available if your organization has a *qualifying plan*. Qualifying plans are listed in [Plans and environments](plans-environments.md). If an organization has no *qualifying plan*, its members can't see any of the personal insight elements, including the dashboard, and MyAnalytics does not use their data.
 
-##### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
+#### Q2. I used to get a dashboard full of data but now it's grayed out. What happened?
 
 Your personalized data is only accurately calculated when you have a minimum level of activities with Microsoft 365. Check back on your MyAnalytics dashboard in a few days to get a fully personalized experience.
 
-##### Q3. Even though I don't have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
+#### Q3. Even though I don't have a MyAnalytics license, why is the MyAnalytics toggle "on" in the MyAnalytics dashboard's Feature settings? What will happen if I change it?
 
 MyAnalytics will not be available to you if you don't have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, MyAnalytics includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the MyAnalytics toggle off in the [Feature settings](../overview/privacy-guide-admins.md#opt-in-or-out) on the dashboard.
 
-##### Q4. How can I find out what my plan is?
+#### Q4. How can I find out what my plan is?
 
 Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that refer to Microsoft 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have?
 
@@ -211,24 +211,24 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
    ![service plan: Microsoft MyAnalytics (Full).](../../images/mya/overview/e5-plans-service-plans-446.png)
 
-##### Q5. In what languages are the elements of MyAnalytics available?
+#### Q5. In what languages are the elements of MyAnalytics available?
 
 See [MyAnalytics languages](mya-languages.md).
 
-##### Q6. If my assistant manages my email and calendar, does MyAnalytics include these activities in my data?
+#### Q6. If my assistant manages my email and calendar, does MyAnalytics include these activities in my data?
 
 * Email sent by your assistant on your behalf is not included in your data. MyAnalytics only includes data about email that you send from your mailbox.
 * However, MyAnalytics does include your calendar events in your data, including the events created and accepted on your behalf by your assistant.
 
-##### Q7. Does MyAnalytics use cookies?
+#### Q7. Does MyAnalytics use cookies?
 
 MyAnalytics only uses cookies to authenticate users for the dashboard. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
-##### Q8. Which MyAnalytics experiences include Windows 10 activity history?
+#### Q8. Which MyAnalytics experiences include Windows 10 activity history?
 
 MyAnalytics uses Windows 10 Activity history to power insights related to time spent in documents within working hours and after hours. These show up as Food for thought in the MyAnalytics dashboard. The time spent in documents is also added to the total collaboration time and affects metrics, such as “Time available to focus” and “Quiet hours.”
 
-##### Q9. How can I check if Window 10 Activity history is enabled on my device?
+#### Q9. How can I check if Window 10 Activity history is enabled on my device?
 
 1. Open Windows Settings.
 2. Search for “Activity History Privacy Settings.”
@@ -236,31 +236,31 @@ MyAnalytics uses Windows 10 Activity history to power insights related to time s
 
    ![Windows 10 Activity History settings.](../../images/mya/overview/activity-history.png)
 
-##### Q10. Will MyAnalytics work for shared mailboxes?
+#### Q10. Will MyAnalytics work for shared mailboxes?
 
 No; currently the MyAnalytics service plan cannot be used with shared mailboxes.
 
-##### Q11. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
+#### Q11. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
 
 After activation, MyAnalytics processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, MyAnalytics processes historical data for the previous 12 months.
 
 ### Insights Outlook add-in
 
-##### Q1. The Insights Outlook add-in displays task cards (commitments). Are they available in all languages, or just in English?
+#### Q1. What languages are the task cards (commitments) available in the Insights Outlook add-in?
 
 The [task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) of the Outlook add-in are available only in English.
 
-##### Q2. Can I get email read rates for shared or secondary mailboxes?
+#### Q2. Can I get email read rates for shared or secondary mailboxes?
 
 MyAnalytics does not use data from shared or secondary mailboxes.
 
-##### Q3. Why are read statistics not available for some of my email?
+#### Q3. Why are read statistics not available for some of my email?
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
 ## For IT administrators
 
-The questions in this section are sorted into the following areas: 
+The questions in this section are sorted into the following areas:
 
 * [Admin management tasks and capabilities](#admin-management-tasks-and-capabilities) &ndash; Questions about the tasks of IT admins.
 * [Feature visibility and access](#feature-visibility-and-access) &ndash; Questions about when MyAnalytics features are available to users. (Also see the [Visibility and access](#visibility-and-access) section.) 
@@ -268,22 +268,22 @@ The questions in this section are sorted into the following areas:
 
 ### Admin management tasks and capabilities 
 
-##### Q1. How do I manage the MyAnalytics experience for users?
+#### Q1. How do I manage the MyAnalytics experience for users?
 
 You can manage the experience in two ways:
 
 * Configure access to MyAnalytics elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level).
 * Turn MyAnalytics access on or off for individual users. For details, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
 
-##### Q2. How can I pilot MyAnalytics to a subset of users?
+#### Q2. How can I pilot MyAnalytics to a subset of users?
 
 Turn on the "Insights by MyAnalytics" OR "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
-##### Q3. How can I manage MyAnalytics experiences in Microsoft 365 GCC?
+#### Q3. How can I manage MyAnalytics experiences in Microsoft 365 GCC?
 
 You can enable or disable MyAnalytics experiences by following the applicable steps in [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users). More granular controls for each user surface will be available by the end of 2019. 
 
-##### Q4. How can I manage the Windows 10 activity history for the organization?
+#### Q4. How can I manage the Windows 10 activity history for the organization?
 
 You can set the following two Group Policy settings at the tenant level for the organization:
 
@@ -294,36 +294,36 @@ For details, see [New policies for Windows 10](/windows/client-management/new-po
 
 ### Feature visibility and access
 
-##### Q1. What browsers can I use with MyAnalytics and the Insights Outlook Add-in?
+#### Q1. What browsers can I use with MyAnalytics and the Insights Outlook Add-in?
 
 See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics dashboard supports.
 
 As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
 
-##### Q2. How can I confirm that the Insights Outlook add-in is installed?
+#### Q2. How can I confirm that the Insights Outlook add-in is installed?
 
 See [Confirm installation of the Insights Outlook add-in](../setup/verify-add-in.md) to confirm it's installed.
 
-##### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
+#### Q3. How long before new users can access the dashboard and other MyAnalytics elements?
 
 The dashboard is available to MyAnalytics users a few days after getting assigned a license with a MyAnalytics service plan. For more details about when new users get access to MyAnalytics, see [Access to MyAnalytics elements](plans-environments.md#access-to-viva-insights-elements).
 
-##### Q4. How do the MyAnalytics digests show up in Outlook?
+#### Q4. How do the MyAnalytics digests show up in Outlook?
 
  The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
 
-##### Q5. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
+#### Q5. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
 Skype for Business data is usually prompt. However, in rare instances, users can experience delays of from two to four days. User actions completed on a Friday might not be included in MyAnalytics computations that are executed the following Monday. In such cases, non-working time, which includes Teams data, is updated later. Similarly, certain meetings might be marked as "Late start" after a day or two, or a digest sent on a Monday or Tuesday to your Outlook inbox, might not immediately include the data. In all such cases, the metrics are updated as soon as the data is updated.
 
-##### Q6. Which features are _not_ available to which service plans?
+#### Q6. Which features are _not_ available to which service plans?
 
 The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are not currently available with the *Insights by MyAnalytics* service plan.
 
    > [!Note]
    > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
 
-##### Q7. Why can't licensed users see one or more of the Viva Insights or MyAnalytics elements?
+#### Q7. Why can't licensed users see one or more of the Viva Insights or MyAnalytics elements?
 
 * Check [Access to Viva Insights elements](plans-environments.md#access-to-viva-insights-elements) to see when MyAnalytics elements become available after users are assigned a license with a MyAnalytics service plan.
 * Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) for more details:
@@ -332,34 +332,34 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 
 ### User data privacy
 
-##### Q1. Can Microsoft personnel access a person's MyAnalytics data?
+#### Q1. Can Microsoft personnel access a person's MyAnalytics data?
 
 The same rules apply as with Microsoft Microsoft 365 commercial online services, Microsoft personnel do not have access to customer data in MyAnalytics. To learn more, see [Who can access your data](https://www.microsoft.com/trust-center/privacy/data-access).
 
-##### Q2. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
+#### Q2. Does the system enable administrators the ability to log or audit data activity, such as accessing, modifying, or deleting data?
 
 No. MyAnalytics does not support auditing.
 
-##### Q3. Where and for how long is user data stored?
+#### Q3. Where and for how long is user data stored?
 
 User metrics data is stored in users' mailboxes. Depending on the scenario, daily data is stored for up to 35 days and weekly data is stored for up to 9 weeks. However, data about the number of collaborators in the past 12 months is stored for up to 370 days.
 
-##### Q4. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
+#### Q4. Can data be extracted from on-premises installations of Microsoft Exchange or Skype for Business?
 
 No. Only Exchange Online, Skype for Business Online, and Teams are used as data sources of MyAnalytics data.
 
-##### Q5. Can I ask that MyAnalytics user data be deleted and not stored?
+#### Q5. Can I ask that MyAnalytics user data be deleted and not stored?
 
 Yes, you can delete and restrict the processing of MyAnalytics user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide-admins.md#gdpr-compliance).
 
    >[!Note]
    >If a person opts out of using MyAnalytics, this action does not delete that person's MyAnalytics data.
 
-##### Q6. If a user opts out or is opted out in PowerShell, will they stay opted out even through upgrades of Microsoft 365 or MyAnalytics? 
+#### Q6. If a user opts out or is opted out in PowerShell, will they stay opted out even through upgrades of Microsoft 365 or MyAnalytics? 
 
 Yes. Opt-out settings can only be modified by the user or the tenant administrator. They are not changed as a result of upgrades.
 
-##### Q7. Can an admin disable MyAnalytics at the tenant level?
+#### Q7. Can an admin disable MyAnalytics at the tenant level?
 
 Administrators can configure the default setting for MyAnalytics at the tenant level for MyAnalytics. This can be overridden by the user, based on their choice to opt out or opt in.
 

@@ -13,6 +13,9 @@ audience: Admin
 ---
 # Briefing email resources
 
+>[!Note]
+>Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+
 When you're ready to roll out the Briefing email to your organization or to a new group of employees who just joined your organization, it's important that you educate them on how the Briefing email can help them get their work done and plan for the day ahead.
 
 You can use the following to help explain what the Briefing email is, when they will get it, and how to best use it:
@@ -22,8 +25,8 @@ You can use the following to help explain what the Briefing email is, when they 
 * [Demo for the Adaptive version of the Briefing email](https://download.microsoft.com/download/0/7/6/07632f67-84cc-4cf3-aab1-2c70a48fdf19/briefing-demo.gif)
 * [Sample feedback surveys](https://download.microsoft.com/download/a/9/f/a9fea3f4-77a9-4465-a6eb-c021087c3b7f/fedback-survey.docx)
 
- > [!Tip]
- > You can edit and customize the overview and email documents to include information specific about your company, such as a logo or custom header and footer information.
+ >[!Tip]
+ >You can edit and customize the overview and email documents to include information specific about your company, such as a logo or custom header and footer information.
 
 ## Related topics
 

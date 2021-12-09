@@ -47,7 +47,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to en-us in the app's URL: https://workplaceanalytics.office.com/en-us/Home/
+>This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: https://workplaceanalytics.office.com/en-us/Home/
 
 1. In Workplace Analytics, select **Analyze** > **Queries**.
 2. Under **Start from preselected filters and metrics**, select **Beyond knowledge workers** to open the predefined query, which contains the required metrics to populate the dashboard.
@@ -65,14 +65,14 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 4. For **Which measured employees do you want to include in your query results**, select **All employees**. To run the reports for a specific segment of your population, such as frontline workers, scope your population in **Select filters**. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
 
    >[!Important]
-   >You must have the preferred segment (example frontline worker) attribute uploaded in the organizational data upload. If the upload does not include this attribute, contact your Viva Insights or Workplace Analytics admin to upload it.
+   >You must have the preferred segment (example frontline worker) attribute uploaded in the organizational data upload. If the upload does not include this attribute, contact your Viva Insights admin to upload it.
 
 5. In **Organizational data**, keep the preselected **Organization** attribute that the dashboard requires.
 
    >[!Important]
    >If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
-6. Locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your Viva Insights or Workplace Analytics admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
+6. Locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your Viva Insights admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
 
    >[!Important]
    >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
@@ -143,7 +143,7 @@ Your admin must do the following steps to upload (import) organizational data to
 2. Map the fields in Workplace Analytics.
 3. Allow Workplace Analytics to validate the data.
 
-For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data.md).
+For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
 
 ## Power BI tips, troubleshooting, and FAQs
 

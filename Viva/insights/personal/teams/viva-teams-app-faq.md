@@ -1,9 +1,9 @@
 ---
 
-title: FAQ for Viva Insights
-description: Personal insights FAQ for Microsoft Viva Insights
-author: paul9955
-ms.author: v-pausch
+title: FAQ for Viva Insights in Teams
+description: Personal insights FAQ for Microsoft Viva Insights in Teams
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -11,7 +11,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Personal insights FAQ
+# Personal insights in Teams FAQ
 
 The following are the most frequently asked questions about personal insights within the Microsoft Viva Insights app in Microsoft Teams.
 
@@ -25,7 +25,7 @@ The following are the most frequently asked questions about personal insights wi
 
 ##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app?
 
-**A3.** No. Personal insights are private and visible to you and only you. Personal information in the Insights app is from your mailbox and stored in your mailbox. Insights just make it easier to find items that might need attention.
+**A3.** No. Personal insights are private and visible to you. Personal information in the Insights app is from your mailbox and stored in your mailbox. Insights just make it easier to find items that might need attention. However, if you give another person, such as an administrative assistant [read and manage mailbox permission](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user#read-email-in-another-users-mailbox), then that person can also see your personal insights within your mailbox.
 
 ##### Q4. How can I send feedback to Microsoft about the Viva Insights app?
 

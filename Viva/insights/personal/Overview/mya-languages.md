@@ -3,7 +3,7 @@
 title: Viva Insights languages
 description: List of supported languages for the elements of Viva Insights
 author: paul9955
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -16,7 +16,7 @@ audience: Admin
 
 # Viva Insights languages
 
-The elements of Microsoft Viva Insights (including MyAnalytics), which include the [personal dashboard](../use/dashboard-2.md), the [digests](../use/email-digest-2.md), and the [Viva Insights Outlook add-in](../use/add-in.md) are available in world languages as described in the following table. 
+The elements of Microsoft Viva Insights (including MyAnalytics), which include the [Dashboard](../use/dashboard-2.md), the [Digests](../use/email-digest-2.md), and the [Viva Insights Outlook add-in](../use/add-in.md) are available in world languages as described in the following table. However, the [Task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) in the Outlook add-in are only available in English.
 
 
 | Dashboard	| Digests | Outlook add-in (a-k)	| Outlook add-in (l-z) |  

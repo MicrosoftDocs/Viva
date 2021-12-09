@@ -90,7 +90,10 @@
     }
   ],
   "notification_subscribers": [],
-  "sync_notification_subscribers": [],
+  "sync_notification_subscribers": [
+    "dstrome@microsoft.com",
+    " v-thraya@microsoft.com"
+  ],
   "branches_to_filter": [],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
   "git_repository_branch_open_to_public_contributors": "public",

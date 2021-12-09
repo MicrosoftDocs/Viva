@@ -13,7 +13,7 @@ audience: Admin
 # Insights for managers
 
 >[!Note]
->Only people managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see their team's data in My Team in Microsoft Viva Insights and in Workplace Analytics.
+>Only people managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see their team's data in My team in Microsoft Viva Insights and in Workplace Analytics.
 
 As a people manager, you can get actionable insights about your team based on industry expert research. You can see how your team is currently getting work done and get suggestions on maintaining employee engagement, improving team collaboration, and increasing organizational agility.
 
@@ -25,7 +25,7 @@ You can use the following information to lead your team toward more effective bu
 
 * **My team's data** - Insights are scoped to your team's data, including employees who you directly or indirectly manage within your defined organizational group. The date range shows you the most recent [Organizational data](organizational-data.md) that's been uploaded to and processed in Workplace Analytics, including the current date range and the number of *measured employees* in your team. Your Viva Insights or Workplace Analytics admin can give you more details about uploads and measured employees.
 
-The following shows what your managers will see in [My Team in Viva Insights](viva-insights-my-team.md).
+The following shows what your managers will see in [My team in Viva Insights](myteam.md).
 
 ![Outcomes page.](../images/wpa/use/viva-team-outcomes.png)
 
@@ -35,10 +35,10 @@ The following shows what your managers can see in Workplace Analytics, which is 
 
 ## Manager access
 
-To grant managers access to [My Team in Viva Insights](viva-insights-my-team.md) and to Manager insights in Workplace Analytics, your Viva Insights or Workplace Analytics admin must add them as managers in [Manager settings](../use/manager-settings.md).
+To grant managers access to [My team in Viva Insights](myteam.md) and to Manager insights in Workplace Analytics, your Viva Insights or Workplace Analytics admin must add them as managers in [Manager settings](../use/manager-settings.md).
 
 >[!Note]
->By late June 2021, the app will no longer send an automated welcome email to managers who get access to My Team in Viva Insights and to Manager insights in Workplace Analytics.
+>By late June 2021, the app will no longer send an automated welcome email to managers who get access to My team in Viva Insights and to Manager insights in Workplace Analytics.
 
 ## About the insights
 

@@ -19,7 +19,7 @@ audience: Admin
 Administrators must first upload (import) organizational data before you can analyze insights about your company in Workplace Analytics. Complete the following steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
->Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](upload-organizational-data.md) to update previously uploaded data.
+>Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md) to update previously uploaded data.
 
 ## Import tasks
 
@@ -169,7 +169,7 @@ If validation succeeds, in the **Validation results** section, the page displays
 
 After successful validation, Workplace Analytics processes your new data.
 
-You can select **Settings** > **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
+You can select **Data sources** > **Organizational data** to see the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
 On this page, you have the following options:
 
