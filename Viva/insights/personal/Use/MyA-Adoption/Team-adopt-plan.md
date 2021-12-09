@@ -2,11 +2,15 @@
 
 title: MyAnalytics Team Adoption --Plan
 description: MyAnalytics Team Adoption by Kate Nowak --Plan section
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
