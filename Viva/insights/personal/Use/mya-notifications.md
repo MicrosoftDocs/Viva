@@ -1,11 +1,15 @@
 ---
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work 
-author: paul9955
+author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
