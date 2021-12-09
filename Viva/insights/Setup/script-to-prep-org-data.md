@@ -29,7 +29,7 @@ This script requires the following elements. If you need help with these prerequ
 * **PowerShell version 5.0 or higher** - To check the version of PowerShell on your computer:
 
    1. In Windows, select **Start**, type **PowerShell**, and press **Enter**.
-   2. In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. For values less than 5.0, see: [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7).
+   2. In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. For values less than 5.0, see: [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell).
 
     For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos).
 
@@ -43,7 +43,7 @@ This script requires the following elements. If you need help with these prerequ
    Install-Module AzureAD
    ```
 
-* **The Microsoft Online module** - This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
+* **The Microsoft Online module** - This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1). To install the MSOnline module, use the PowerShell cmdlet:
 
    ```PowerShell
    Install-Module MSOnline
