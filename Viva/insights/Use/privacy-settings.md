@@ -42,7 +42,7 @@ If you do change privacy settings, your changes take effect after Microsoft 365 
 
 ## Privacy video
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowfullscreen=""></iframe>
 
 ## Minimum group size
 

@@ -38,14 +38,14 @@ The following shows who can access what.
 | **My team** | View Group insights about your team in **My team** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | &nbsp; | &nbsp;  | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 | **My organization** | View highlights about your organization in **My organization** within the Viva Insights app in Teams | &nbsp;  |&nbsp;  | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |
 | **Home**      | View highlights from the latest organizational data and see the latest notifications | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
-| **Analyze**   | &nbsp;                | &nbsp;    | &nbsp;  |&nbsp; |&nbsp; | &nbsp;   | &nbsp;  | &nbsp; |
+| **Analyze**   | &nbsp;                | &nbsp;    | &nbsp;  |&nbsp; |&nbsp; | &nbsp;   | &nbsp;  | 
 | &nbsp;        | **Peer analysis** collaboration data                               | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | &nbsp;   | &nbsp;  | &nbsp; |
 | &nbsp;        | Analysis with the **Query designer**                             | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    | &nbsp;   |&nbsp; | &nbsp;  | &nbsp; |
 | **Explore the stats** | Chart data based on insight recommendations                | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp; |
 | **Plans**     | Create plans that help participants improve workplace behaviors    | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">    |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 | **Controls**  | &nbsp;                                                             | &nbsp;    |&nbsp; | &nbsp;                                                      | &nbsp;   | &nbsp;  | &nbsp; |
 | &nbsp;        | **Data sources** help to verify that the Microsoft 365 data and organizational data have been loaded properly and are available for analysis | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; |
-| &nbsp;        | **Upload** for importing an organizational (HR) data file | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |&nbsp; | &nbsp;  | &nbsp; |
+| &nbsp;        | **Upload** for importing an organizational (HR) data file | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  | &nbsp; | &nbsp; |&nbsp; | &nbsp;  | 
 | &nbsp;        | **Analyst settings** to set meeting and attendee exclusion rules for analysis  | &nbsp;    | <img src="../Images/WpA/check-mark.png" alt="checkmark">     | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> *(read-only access)*| &nbsp; | &nbsp; |
 | &nbsp;        | **Analyst settings** for system defaults, privacy settings, and default exclusions | <img src="../Images/WpA/check-mark.png" alt="checkmark">     | &nbsp;  |&nbsp; | &nbsp;  | &nbsp;  |  &nbsp; |
 
@@ -54,11 +54,11 @@ The following shows who can access what.
 The following shows who can do what with Viva Insights.
 
 |  Function |  Administrator |  Analyst |  Insights Business Leader | Analyst (Limited Access) | Program Manager | People Manager |
-| ---- | ---- | ---- | ---- | ---- | ---- |----| ---- |---- |
-| Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark">|&nbsp; |&nbsp; |&nbsp;|&nbsp; |
-| Upload organizational data into the system | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |&nbsp; |
+| ---- | ---- | ---- | ---- | ---- | ---- |----| 
+| Configure system defaults, privacy settings, and manager settings | <img src="../Images/WpA/check-mark.png" alt="checkmark">|&nbsp; |&nbsp; |&nbsp;|&nbsp; |&nbsp; |
+| Upload organizational data into the system | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |&nbsp; |&nbsp; |
 | Use the **My organization** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
-| Use the full set of analyst tools in Data sources and Analyze |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |
+| Use the full set of analyst tools in Data sources and Analyze |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp;|&nbsp; |&nbsp; |
 | Help coordinate, set up, and manage Plans |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark"> (team only) |
 | Use Group insights on the **My team** page within the Viva Insights app in Teams |&nbsp; | &nbsp; |&nbsp; |&nbsp; |&nbsp;|<img src="../Images/WpA/check-mark.png" alt="checkmark"> |
 
