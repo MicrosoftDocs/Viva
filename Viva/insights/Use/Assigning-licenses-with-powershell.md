@@ -333,7 +333,7 @@ The Add-WpALicense.ps1 script is designed to assign Viva Insights licenses to Mi
    ```
 
    >[!Note]
-   >The \<CSVLocation> should contain the full path to the CSV input file, such as **C:\Scripts\InputFile.csv**. And <WpALicenseSKU> should contain the MSOL License SKU, for example: CONTOSO:WORKPLACE_ANALYTICS.
+   >The \<CSVLocation> should contain the full path to the CSV input file, such as **C:\Scripts\InputFile.csv**. And \<WpALicenseSKU> should contain the MSOL License SKU, for example: CONTOSO:WORKPLACE_ANALYTICS.
 
 4. When prompted, enter the Microsoft 365 global administrator credentials for the tenant where the licenses are to be added.
 

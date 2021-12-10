@@ -13,7 +13,6 @@ search.appverid:
 - MET150 
 manager: scott.ruble
 audience: Admin
-ms.prod: wpa
 ---
 
 # Plans: Participants' experience
