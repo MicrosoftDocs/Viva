@@ -4,11 +4,11 @@ description: Describes what inline suggestions are in Outlook and how they work
 author: madehmer
 ms.author: loreenl
 ms.topic: article
-ms.localizationpriority: medium 
-ms.service: viva-insights
-ms.collection: viva
+ms.localizationpriority: medium
+ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+
 ---
 
 # Inline suggestions in Outlook
