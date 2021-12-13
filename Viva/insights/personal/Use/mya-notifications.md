@@ -2,21 +2,16 @@
 title: Inline suggestions in Outlook
 description: Describes what inline suggestions are in Outlook and how they work 
 author: madehmer
-ms.author: v-mideh
+ms.author: loreenl
 ms.topic: article
-ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
-ms.service: viva 
-ms.subservice: viva-insights 
-search.appverid: 
-- MET150 
+ms.localizationpriority: medium
+ms.prod: Mya
 manager: scott.ruble
 audience: Admin
+
 ---
 
 # Inline suggestions in Outlook
-
-## What are inline suggestions in Outlook?
 
 Inline suggestions in Outlook are brief data and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
@@ -104,7 +99,7 @@ When inline suggestions is turned on, you can delay up two email deliveries each
 
 ## Suggested outstanding tasks
 
-When reading an email or a calendar invitation, you might see a suggestion to review suggested outstanding tasks for the sender of email or calendar invitation. There are task suggestions based on your email communications with the sender in the last 14 days and can help you keep tab of tasks you promised to get done or that team members asked you to complete.
+When composing or reading an email or a calendar invitation, you might see a suggestion to review suggested outstanding tasks for the sender of email or calendar invitation. There are task suggestions based on your email communications with the sender in the last 14 days and can help you keep tab of tasks you promised to get done or that team members asked you to complete.
 
 ![Suggested outstanding tasks](../../Images/mya/use/sugg-out-tasks-2.png)
 

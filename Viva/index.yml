@@ -23,7 +23,7 @@ highlightedContent:
     # Card
     - title: Get started with Microsoft Viva
       itemType: get-started
-      url: setup-microsoft-viva.md
+      url: microsoft-viva-overview.md
     # Card
     - title: Microsoft Viva blog
       itemType: whats-new
