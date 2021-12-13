@@ -68,10 +68,9 @@ You can also start focus mode through **Home** > **Launch focus mode**. Or if yo
 
   ![Focus mode without Headspace.](Images/pt-focus-mode-2.png)
 
+### Pop out Focus mode
 
-### Run Focus mode in the background
-
-You can open **Focus mode** in a new window in Teams, which allows you to play focus music while using Teams for other work.
+You can open **Focus mode** in a separate pop-out window in Teams, which allows you to play focus music while using Teams for other work.
 
 1. In the left navigation in Teams, right-click **Viva Insights**.
 2. Select **Pop out app**.
