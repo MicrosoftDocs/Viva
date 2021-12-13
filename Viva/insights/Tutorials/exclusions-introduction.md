@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Analyst settings
+# Analyst settings in Workplace Analytics
 
 As an analyst of Microsoft Viva Insights in Workplace Analytics, you use Analyst settings to set up meeting and attendee exclusion rules for data analysis purposes.
 
