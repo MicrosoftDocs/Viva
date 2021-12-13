@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Accelerate change
+# Accelerate change with Viva Insights
 
 >[!Important]
 >This insight is only available for organizations with at least 200 licensed users. For organizations with less than that, you'll see an alert for **Accelerate change** about it being "unavailable because the minimum number of employees is not met."
