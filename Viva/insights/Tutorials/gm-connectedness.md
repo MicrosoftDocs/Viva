@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for connectedness
-description: Workplace Analytics shares best practices with managers about connecting with their teams and employees
+description: Microsoft Viva Insights shares best practices with managers about connecting with their teams and employees
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Best practices for manager connectedness
+# Best practices for connectedness
 
 As a manager, you can help share ideas and expertise across the company. This type of collaboration helps companies stay ahead of the competition by driving organizational efficiency, engagement, and innovation.
 
