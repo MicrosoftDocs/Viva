@@ -81,7 +81,7 @@ In **Plan configuration**, you can personalize your focus plan. You can select h
 
 In Delay Delivery, you can turn the feature On or Off for the option of delaying delivery of an email during your co-workers configured working hours.
 
-If you're a manager or team lead with a P1 license, you can select **Edit team** in **Team settings** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
+If you're a manager or team lead, you can select **Edit team** in **Team settings** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
 
 ![Config Settings.](../../Images/mya/use/config-settings-2.png)
 
