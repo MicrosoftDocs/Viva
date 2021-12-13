@@ -19,7 +19,7 @@ audience: Admin
 
 People managers often have hectic schedules, and it can be tough to stay in close contact with your team members. The Briefing can help you maintain a strong relationship with your team and stay caught up and respond quickly to important requests from your team.
 
-Only qualified managers who have team members can see this feature. You can add or edit your team members in [Settings](be-settings.md).
+Only managers who have team members can see this feature. You can add or edit your team members in [Settings](be-settings.md).
 
 As a manager, you'll see one or more of the following based on your calendar and email activity in the **Catch up with your team** section of your Briefing email:
 
