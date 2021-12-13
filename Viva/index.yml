@@ -21,6 +21,10 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
   items:
     # Card
+    - title: Get started with Microsoft Viva
+      itemType: get-started
+      url: microsoft-viva-overview.md
+    # Card
     - title: Microsoft Viva blog
       itemType: whats-new
       url: https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog
