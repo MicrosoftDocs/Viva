@@ -5,8 +5,10 @@ description: Use the Protect time feature in Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
+ms.collection: m365initiative-viva-insights
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
+ms.subservice: viva-insights
 manager: scott.ruble
 audience: Admin
 ---
@@ -49,7 +51,7 @@ You can schedule focus time on the **Protect time** page, as follows:
     * If you'd like a Teams reminder to begin focus mode.
     * If you'd like Teams to silence notifications during scheduled focus time.
 
-At any time after the initial setup, you can confirm or change any of the options or leave the plan by selecting **Focus plan preferences** in **Settings** (gear icon).
+At any time after the initial setup, you can confirm or change any of the options or leave the plan by selecting **Focus plan preferences** in **Settings** (gear icon) within the Viva Insights in Teams app.
 
 ![Book focus time.](Images/pt-focus-2.png)
 
@@ -67,6 +69,14 @@ You can also start focus mode through **Home** > **Launch focus mode**. Or if yo
 
   ![Focus mode without Headspace.](Images/pt-focus-mode-2.png)
 
+
+### Run Focus mode in the background
+
+You can open **Focus mode** in a new window in Teams, which allows you to play focus music while using Teams for other work.
+
+1. In the left navigation in Teams, right-click **Viva Insights**.
+2. Select **Pop out app**.
+
 ## Configure quiet time
 
 Research shows that long hours and the pressure to always be available can lead to employee burnout. The amount of time you spend collaborating outside of business hours can be an indicator that you are at risk of burnout, even as you and your team embrace flexibility.
@@ -78,13 +88,6 @@ In the **Quiet time** section on the **Protect time** page, if you haven't sched
 After the initial setup, you'll see the following options in **Configure your quiet time** in **Settings** (gear icon). You can confirm or change any of the quiet-time options or turn quiet time off at any time.
 
 ![Configure quiet time.](Images/pt-quiet.png)
-
-## Run Focus mode in the background
-
-You can open Focus mode in a new window in Team, which allows you to play focus music while Teams for other work.
-
-1. In the left navigation in Teams, right-click **Viva Insights**.
-2. Select **Pop out app**.
 
 ## Related topics
 
