@@ -1,5 +1,4 @@
 ---
-
 ROBOTS: NOINDEX,NOFOLLOW
 title: Shared focus plan
 description: Learn about the Shared focus plan option in Microsoft Viva Insights in Teams
