@@ -8,8 +8,8 @@ ms.date: 11/02/2021
 audience: admin
 ms.topic: article
 ms.custom: intro-overview
-ms.service: 
-ms.prod: microsoft-365-enterprise
+ms.service: viva
+ms.subservice: viva-learning
 search.appverid: MET150
 ms.collection: 
     - enabler-strategic

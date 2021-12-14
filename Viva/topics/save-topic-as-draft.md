@@ -13,7 +13,6 @@ ms.collection:
 ms.service: 
 search.appverid: 
 ms.localizationpriority:  medium
-ROBOTS: NOINDEX, NOFOLLOW
 description: Learn how to save a new or revised topic as a draft in Microsoft Viva Topics.
 
 ---
@@ -70,6 +69,7 @@ You can save as a draft a new topic or a revised topic that you're working on, b
     - For users:
          - From the **Confirmed Topics** section on topics web part
          - By searching for topic and opening it from the topic answer
+         - From a direct link to the topic page
 
     - For knowledge managers:
          - From the **Manage Topics** page

@@ -3,7 +3,7 @@
 title: Personal insights configuration for Microsoft 365 administrators
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: madehmer
-ms.author: v-pausch
+ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -47,7 +47,7 @@ You can configure access to Viva Insights elements for all users in your organiz
 >[!Important]
 >You must have a Global admin or an Exchange Online admin role to configure tenant level settings in the admin center.
 
-### To enable access to the dashboard and digests
+### To enable access to Viva digest emails, the dashboard, and the Viva Insights Outlook add-in
 
 1. Sign in as a Global admin or an Exchange Online admin to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal).
 2. Make sure you're using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**.
@@ -55,10 +55,10 @@ You can configure access to Viva Insights elements for all users in your organiz
 4. Under **Services**, select **Viva Insights** (including MyAnalytics) to see settings for the different options.
 5. Select **Dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Dashboard** to opt users _out_.
 6. Select **Digests** to keep all Viva Insights users in your organization opted _in_ for access to the [email digests](../../personal/use/email-digest-2.md). Deselect **Digests** to opt users _out_.  
-7. Select **Viva Insights Outlook add-in** to keep all users in your organization opted _in_ for access to this Outlook add-in. Deselect it to opt users _out_.
+7. Select **Viva Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
 
 >[!Note]
->After a new tenant is established, it might take up to 48 hours for this functionality to become available.
+>After a new tenant is established, it can take up to 48 hours for this functionality to become available.
 
 ## Configure access at the user level
 

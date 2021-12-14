@@ -15,7 +15,7 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how to set up the Microsoft Viva suite"
+description: "Learn about language support in Microsoft Viva"
 ---
 # Microsoft Viva language support
   
