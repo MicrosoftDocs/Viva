@@ -1,5 +1,4 @@
 ---
-
 title: Complex organization and insights
 description: Learn about a complex organization and its associated Viva Insights
 author: v-smandalika
@@ -396,39 +395,3 @@ To view the Tenant 1 organization insights, perform the following steps:
        :::image type="content" source="images/settings-to-view-tenant-1-insights.png" alt-text="The screen on which value of a tenant is selected as a filter criteria":::
     1. Select one of the report pages.
        :::image type="content" source="images/settings-to-view-tenant-1-insights-selecting-report-pages.png" alt-text="The screen displaying pages of a chosen report":::
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
