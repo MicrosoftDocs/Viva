@@ -25,7 +25,7 @@ The Microsoft Viva user interface is supported in several languages depending on
 
 ## Viva Connections supported languages  
 
-|Language name |Language name  |Language name |
+|&nbsp; |&nbsp;  |&nbsp; |
 |---|---|---|
 Catalan|Hungarian|Romanian
 Chinese (Simplified)|Indonesian|Russian
@@ -43,7 +43,7 @@ Greek| |
 
 ## Viva Learning supported languages
 
-| Language name | Language name | Language name |
+|&nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
 Catalan|Hungarian|Romanian
 Chinese (Simplified)|Indonesian|Russian
@@ -61,7 +61,7 @@ Greek| |
 
 **Teams app + Personal**
 
-| Language name | Language name | Language name |
+| &nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
 Catalan|Hungarian|Romanian
 Chinese (Simplified)|Indonesian|Russian
@@ -79,7 +79,7 @@ Greek| |
 
 **Advanced**
 
-| Language name | Language name |Language name  |
+| &nbsp; | &nbsp; |&nbsp; |
 |---|---|---|
 Chinese (Simplified)|German|Portuguese (Brazil)
 Chinese (Traditional)|Italian|Russian
@@ -91,7 +91,7 @@ French (France)|Korean|
 
 ## Viva Topics supported languages
 
-|Language name  | Language name | Language name |
+|&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
 Arabic|Galician|Norwegian, Bokmal
 Azeri|German|Polish
