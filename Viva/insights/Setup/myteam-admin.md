@@ -5,7 +5,6 @@ description: Admin tasks for My team in the Microsoft Viva Insights app
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.collection: m365initiative-viva-insights
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights
 ms.service: viva
@@ -15,7 +14,7 @@ audience: Admin
 
 ---
 
-## Admin tasks for My team
+# Admin tasks for My team
 
 Before licensed users can access the premium features within the Microsoft Viva Insights apps, you or your admin needs to enable them. The Microsoft Viva Insights SKU includes the following **Assignment options** in the Microsoft Azure Active Directory:
 
