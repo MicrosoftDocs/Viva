@@ -6,7 +6,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights
+ms.service: viva
+ms.subservice: viva-insights
 manager: scott.ruble
 audience: Admin
 ---
@@ -22,6 +24,10 @@ As a manager, you can see these insights in **My team** within the Viva Insights
 ## Data privacy
 
 When data is processed for My team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for Personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).  
+
+## Admin tasks
+
+**My team** is available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for your organization. See [Admin tasks](../setup/myteam-admin.md) for details.
 
 ## Install, pin, and configure the app
 

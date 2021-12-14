@@ -7,7 +7,8 @@ ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights
-ms.prod: wpa
+ms.service: viva
+ms.subservice: viva-insights
 manager: scott.ruble
 audience: Admin
 ---
