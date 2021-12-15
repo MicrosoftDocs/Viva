@@ -7,7 +7,11 @@ author: paul9955
 ms.author: v-mideh
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
