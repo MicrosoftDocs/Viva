@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Protect time in Viva Insights
 description: Use the Protect time feature in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
