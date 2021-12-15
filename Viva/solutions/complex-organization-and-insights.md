@@ -67,7 +67,7 @@ A few starter use cases that would be enabled by this data combination strategy 
 
 - Data combined from Viva Insights with external sources to address headcount planning, employee well-being, permanent remote work, inclusion and diversity, and so on.
   
-  :::image type="content" source="images/use case - 3.png" alt-text="Data combined from Viva Insights with external sources":::
+  :::image type="content" source="images/use-case-3.png" alt-text="Data combined from Viva Insights with external sources":::
 
 There are different ways to create a data pipeline to copy data from the source to the destination. There are also different data storage locations that can be used, such as storage accounts, SQL databases, synapses, and so on. An example leveraging Azure data factory, Viva Insights organizational data, and Azure blob storage will be described below using the [Business Continuity](../insights/Tutorials/power-bi-bc.md) use case.
 
