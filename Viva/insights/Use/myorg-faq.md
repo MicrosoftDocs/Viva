@@ -5,9 +5,12 @@ description: FAQ for My organization insights in Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-ms.collection: m365initiative-viva-insights
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 

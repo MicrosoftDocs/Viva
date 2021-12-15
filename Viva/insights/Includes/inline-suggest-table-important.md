@@ -8,7 +8,11 @@ author: paul9955
 ms.author: v-pausch
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 
 | Where it shows up | What it says | How it helps |

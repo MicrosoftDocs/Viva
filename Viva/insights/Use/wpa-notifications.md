@@ -2,12 +2,15 @@
 
 title:  Notifications in Workplace Analytics
 description: Workplace Analytics displays notifications that inform about system changes, user actions, and product updates
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Analyst
 

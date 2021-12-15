@@ -6,10 +6,11 @@ author: paul9955
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -41,7 +42,7 @@ If you do change privacy settings, your changes take effect after Microsoft 365 
 
 ## Privacy video
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowfullscreen=""></iframe>
 
 ## Minimum group size
 
