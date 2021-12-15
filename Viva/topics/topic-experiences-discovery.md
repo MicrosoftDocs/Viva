@@ -81,6 +81,19 @@ In the CSV template, enter the following information about the topics you want t
 
     ![Exclude topics in CSV template.](../media/exclude-topics-csv.png) 
 
+## Prevent topic viewers from seeing suggested topics
+
+You can prevent topic viewers from seeing unconfirmed AI-suggested topics in highlights and search results. This allows knowledge managers to review the topics first and confirm them before topic viewers see them.
+
+To hide suggested topics from topic viewers
+
+1. On the **Topic discovery** tab, select **Advanced settings**.
+1. Under **Control if AI suggested topics are visible to users**, choose **No suggested topics**.
+1. Select **Save**.
+1. Close the advanced settings panel.
+
+    ![Screenshot of exclude suggested topics user interface.](../media/km-show-suggested-topics.png)
+
 ## See also
 
 [Manage topic visibility in Microsoft 365](topic-experiences-knowledge-rules.md)
