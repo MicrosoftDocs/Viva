@@ -10,7 +10,11 @@ metadata:
  description: Microsoft Viva Insights can help people managers improve how they and their teams get work done 
  ms topic: hub-page
  ms.localizationpriority: medium
- ms.prod: wpa
+ ms.collection: m365initiative-viva-insights 
+ ms.service: viva 
+ ms.subservice: viva-insights 
+ search.appverid: 
+ - MET150 
  author: madehmer
  ms.author: v-mideh
  ms.date: 09/14/2021

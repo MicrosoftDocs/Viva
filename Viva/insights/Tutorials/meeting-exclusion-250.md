@@ -1,11 +1,15 @@
 ---
 title: The meeting exclusion rule limitation for large meetings
 description: Meeting exclusion rule limitation for large meetings in Microsoft Viva Insights
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: v-mideh
 ms.topic: troubleshooting
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
