@@ -33,7 +33,7 @@ Complete the steps in the following playbooks to get the Viva Insights app up an
 4. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](https://download.microsoft.com/download/c/a/6/ca665366-e059-4977-8175-04461af196c1/Find-and-open-the-Insights-app.pdf).
 
 >[!Important]
->If your organization purchased licenses before July 2021 (under the Workplace Analytics SKU), follow [these steps](#access-to-premium-features) to enable or disable access to the Viva Insights premium features released starting in November 2021.
+>If your organization assigned licenses before July 2021 (under the Workplace Analytics SKU), follow [these steps](#access-to-premium-features) to enable or disable access to the Viva Insights premium features released starting in November 2021.
 
 ## Disable Headspace
 
@@ -41,19 +41,19 @@ When the Headspace feature is enabled, users can find it on the [Home](viva-insi
 
 The PowerShell commands for working with Viva Insights features are described in [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings). To disable Headspace, see [Example 1](/powershell/module/exchange/set-vivainsightssettings).
 
-## Premium access for licenses purchased before July 2021
+## Premium access for licenses assigned before July 2021
 
-The following steps are only applicable to organizations who purchased licenses prior to July 2021. You need to confirm the following assignment options in Azure Active Directory for the Microsoft Viva Insights SKU:
+The following steps are only applicable to organizations who assigned licenses prior to July 2021. You need to confirm the following assignment options in Azure Active Directory for the Microsoft Viva Insights SKU:
 
 * **Microsoft Viva Insights** - Enables access to premium personal and manager features released in November 2021, including the updated [My team](../../use/myteam.md) page in the Viva Insights in Teams app.
-* **Microsoft Viva Insights (WpA transition)** – This option is only applicable for organizations who purchased licenses before July 2021 and want to keep their access to the advanced analyst features. If this is the only option enabled, then their access to advanced insights will continue unchanged. However, you must enable the first app option for access to the premium features released starting in November 2021.
+* **Microsoft Viva Insights (WpA transition)** – This option is only applicable for organizations who assigned licenses before July 2021 and want to keep their access to the advanced analyst features. If this is the only option enabled, then their access to advanced insights will continue unchanged. However, you must enable the first app option for access to the premium features released starting in November 2021.
 
 >[!Important]
->If your organization purchased Viva Insights licenses starting in July 2021, the Microsoft Viva Insights assignment option controls access to all premium personal, manager, and advanced analyst features. Enabling or disabling the Microsoft Viva Insights (WpA transition) option in Azure Active Directory will not affect their access to these features.
+>If your organization assigned Viva Insights licenses starting in July 2021, the Microsoft Viva Insights assignment option controls access to all premium personal, manager, and advanced analyst features. Enabling or disabling the Microsoft Viva Insights (WpA transition) option in Azure Active Directory will not affect their access to these features.
 
 ### Access to premium features
 
-To confirm, enable, or disable access to premium features for users with licenses purchased prior to July 2021, complete the following steps.
+To confirm, enable, or disable access to premium features for users with licenses assigned before July 2021, complete the following steps.
 
 1. Go to [Azure portal](https://portal.azure.com/) > **Azure Active Directory**.
 2. In the left navigation, select **Licenses** > **All products**.
@@ -64,7 +64,7 @@ To confirm, enable, or disable access to premium features for users with license
 7. Select **Assignment options**, and then select **On** to enable or **Off** to disable the following:
 
    * **Microsoft Viva Insights** – Enables access to premium features that were released starting in November 2021.
-   * **Microsoft Viva Insights (WpA transition)** – Only applicable to users who were assigned licenses purchased **before July 2021**.
+   * **Microsoft Viva Insights (WpA transition)** – Only applicable to users who were assigned licenses **before July 2021**.
 
     ![Azure AD license app options for Viva Insights](./images/wpa-transition-app-option.png)
 
