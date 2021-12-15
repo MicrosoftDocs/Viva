@@ -15,28 +15,60 @@ audience: Admin
 
 # Admin tasks for Viva Insights
 
-[Teams Service Administrators](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) can choose to deploy and pin the Microsoft Viva Insights app in Microsoft Teams for all users or specific departments [through custom policies](/microsoftteams/teams-app-setup-policies).
+As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can deploy and pin the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
-Complete the steps in the following four mini-playbooks to get the Viva Insights app up and running for people in your organization.
+Complete the steps in the following playbooks to get the Viva Insights app up and running for people in your organization.
 
 1. Confirm that the employees who want to use the Viva Insights app in Microsoft Teams have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../overview/plans-environments.md).
 2. Turn on the Viva Insights app for your organization:
 [Release the Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
 
    >[!Note]
-   >To allow or block specific users in your organization from using Insights, do the following:
+   >To allow or block specific users in your organization from using Insights, do the following:
    >
-   >1. Make sure that Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page.
-   >2. Create a custom-app permission policy and assign it to those users. To learn more, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
+   >1. Confirm that Viva Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page.
+   >2. Create a custom app permission policy and assign it to those users. For details, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
 
-3. Pin the Viva Insights app to the left navigation pane of Teams for all employees in your organization: [Pin the Viva Insights app](https://download.microsoft.com/download/5/d/f/5df6c702-58f2-4768-b8e5-26ffd2c78b80/Pin-the-Insights-app.pdf).
+3. Pin the Viva Insights app in Teams left navigation for all users in your organization: [Pin the Viva Insights app](https://download.microsoft.com/download/5/d/f/5df6c702-58f2-4768-b8e5-26ffd2c78b80/Pin-the-Insights-app.pdf).
 4. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](https://download.microsoft.com/download/c/a/6/ca665366-e059-4977-8175-04461af196c1/Find-and-open-the-Insights-app.pdf).
+
+>[!Important]
+>If your organization purchased licenses before July 2021 (under the Workplace Analytics SKU), follow [these steps](#access-to-premium-features) to enable or disable access to the Viva Insights premium features released starting in November 2021.
 
 ## Disable Headspace
 
 When the Headspace feature is enabled, users can find it on the [Home](viva-insights-home.md) page of Viva Insights. As an admin, you can disable this feature by using PowerShell cmdlets.
 
 The PowerShell commands for working with Viva Insights features are described in [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings). To disable Headspace, see [Example 1](/powershell/module/exchange/set-vivainsightssettings).
+
+## Premium access for licenses purchased before July 2021
+
+The following steps are only applicable to organizations who purchased licenses prior to July 2021. You need to confirm the following assignment options in Azure Active Directory for the Microsoft Viva Insights SKU:
+
+* **Microsoft Viva Insights** - Enables access to premium personal and manager features released in November 2021, including the updated [My team](../../use/myteam.md) page in the Viva Insights in Teams app.
+* **Microsoft Viva Insights (WpA transition)** – This option is only applicable for organizations who purchased licenses before July 2021 and want to keep their access to the advanced analyst features. If this is the only option enabled, then their access to advanced insights will continue unchanged. However, you must enable the first app option for access to the premium features released starting in November 2021.
+
+>[!Important]
+>If your organization purchased Viva Insights licenses starting in July 2021, the Microsoft Viva Insights assignment option controls access to all premium personal, manager, and advanced analyst features. Enabling or disabling the Microsoft Viva Insights (WpA transition) option in Azure Active Directory will not affect their access to these features.
+
+### Access to premium features
+
+To confirm, enable, or disable access to premium features for users with licenses purchased prior to July 2021, complete the following steps.
+
+1. Go to [Azure portal](https://portal.azure.com/) > **Azure Active Directory**.
+2. In the left navigation, select **Licenses** > **All products**.
+3. Search for and select **Microsoft Viva Insights**.
+4. In the left navigation, for groups, select **Licensed groups** or for individual users, select **Licensed users**.
+5. At the top, select **+Assign**.
+6. In **Users and groups**, select the group or individual to add, which will then show up under **Name**.
+7. Select **Assignment options**, and then select **On** to enable or **Off** to disable the following:
+
+   * **Microsoft Viva Insights** – Enables access to premium features that were released starting in November 2021.
+   * **Microsoft Viva Insights (WpA transition)** – Only applicable to users who were assigned licenses purchased **before July 2021**.
+
+    ![Azure AD license app options for Viva Insights](./images/wpa-transition-app-option.png)
+
+8. Select **Review + assign**, and then near the bottom, select **Assign** to apply the changes.
 
 ## Related topics
 
