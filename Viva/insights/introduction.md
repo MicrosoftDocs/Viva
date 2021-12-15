@@ -2,7 +2,11 @@
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 author: madehmer
 ms.author: v-mideh
 ms.topic: overview
@@ -27,5 +31,6 @@ Viva Insights includes a Microsoft Teams app and web features and tools that hel
 ## Additional resources
 
 * [**Workplace Insights**](https://workplaceinsights.microsoft.com/) - A collection of articles from the leading edge of productivity analytics.
+* [**Microsoft Viva Insights Community**](https://community.vivainsights.microsoft.com/) - An online community where you can connect, learn, and discuss with Viva Insights experts and peers.
 * [**Microsoft Viva Blog**](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog/label-name/Viva%20Insights) - Latest news about Microsoft Viva Insights features and functionality.
 * [**Discover Microsoft Viva Insights**](/learn/modules/workplace-analytics-discover/) - Take this e-learning course on how to use Viva Insights for organizational and team insights and other advanced analytics features.

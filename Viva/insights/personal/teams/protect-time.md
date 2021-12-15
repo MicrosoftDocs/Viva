@@ -18,8 +18,7 @@ audience: Admin
 You can use this feature in the Microsoft Viva Insights app in Microsoft Teams to protect your time in the following ways:
 
 * [Schedule focus time](#schedule-focus-time) for future workdays.
-* [Schedule shared focus time](shared-focus-plan.md) for you and your team.
-* [Configure quiet time](#configure-quiet-time) to mute mobile notifications about work.
+* [Configure quiet time](#configure-quiet-time) to disconnect from work and recharge.
 * [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
 
 ![Protect time page.](Images/pt-focus.png)
@@ -69,10 +68,9 @@ You can also start focus mode through **Home** > **Launch focus mode**. Or if yo
 
   ![Focus mode without Headspace.](Images/pt-focus-mode-2.png)
 
+### Pop out Focus mode
 
-### Run Focus mode in the background
-
-You can open **Focus mode** in a new window in Teams, which allows you to play focus music while using Teams for other work.
+You can open **Focus mode** in a separate pop-out window in Teams, which allows you to play focus music while using Teams for other work.
 
 1. In the left navigation in Teams, right-click **Viva Insights**.
 2. Select **Pop out app**.

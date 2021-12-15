@@ -3,11 +3,14 @@
 title: My team in Viva Insights
 description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their habits and how that impact their team
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights
-ms.prod: wpa
+ms.collection: viva-insights-manager
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -26,7 +29,7 @@ When data is processed for Group insights, Microsoft protects employee privacy a
 
 ## Admin tasks
 
-**My team** is available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**My team** is available to managers or team leads who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 

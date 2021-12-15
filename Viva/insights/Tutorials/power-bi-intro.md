@@ -3,7 +3,11 @@ title: Query designer templates
 description: Learn about the Query designer templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
 ms.topic: article
 ms.localizationpriority: medium
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ms.author: v-mideh
 author: paul9955
 manager: scott.ruble
