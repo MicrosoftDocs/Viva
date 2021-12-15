@@ -3,10 +3,10 @@
 title: MyAnalytics team adoption introduction
 description: MyAnalytics team adoption introduction
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -52,7 +52,7 @@ The following program components are critical for the success of any change prog
 
 Multiple large studies conducted over the past two decades have consistently identified an active and visible executive sponsor as the most important contributor to change-management success ([Prosci Best Practices Report](https://www.prosci.com/bookstore/best-practices-in-change-management-2016-edition.html)). 
 
-Unless the scope of change is very extensive, an executive sponsor does not have to be a c-level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see [Roles and responsibilities](Team-adopt-plan.md#roles-and-responsibilities).
+Unless the scope of change is very extensive, an executive sponsor does not have to be a c-level executive, but regardless of title, this person should hold a senior-level leadership position and be a key decision-maker for the team. For more information on the role of the executive sponsor, see [Team Adoption plan](Team-adopt-plan.md).
 
 ### A program purpose statement
 
