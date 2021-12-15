@@ -3,13 +3,14 @@
 title: First organizational data upload
 description: Learn how to upload your organizational data through the new Workplace Analytics onboarding experience 
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -33,7 +34,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 ### Video: Upload organizational data
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+  <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowfullscreen=""> </iframe>
 
 ## File upload
 
