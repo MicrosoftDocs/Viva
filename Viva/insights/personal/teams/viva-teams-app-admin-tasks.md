@@ -33,7 +33,7 @@ Complete the steps in the following playbooks to get the Viva Insights app up an
 4. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](https://download.microsoft.com/download/c/a/6/ca665366-e059-4977-8175-04461af196c1/Find-and-open-the-Insights-app.pdf).
 
 >[!Note]
->If your organization purchased licenses before **July 2021** (under the Workplace Analytics SKU), follow the steps in the next section to enable or disable access to Viva Insights premium features.
+>If your organization purchased licenses before July 2021 (under the Workplace Analytics SKU), follow [these setup steps](#set-up-access-to-premium-features) to enable or disable access to the Viva Insights premium features released in November 2021.
 
 ## Admin tasks for earlier licenses to get premium features
 
