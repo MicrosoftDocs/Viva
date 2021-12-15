@@ -60,7 +60,7 @@ If your organization purchased Workplace Analytics **before July 2021**, you mig
    * **Microsoft Viva Insights** – Select to enable the Viva Insights in Teams app.
    * **Microsoft Viva Insights (WpA transition)** – This setting is only applicable to groups or individuals with managers who were assigned licenses that were purchased **before July 2021**.
 
-    ![Azure AD license app options for Viva Insights](../images/wpa/setup/wpa-transition-app-option.png)
+    ![Azure AD license app options for Viva Insights](./images/wpa-transition-app-option.png)
 
 8. Select **Review + assign**, and then near the bottom, select **Assign** to apply the changes.
 
