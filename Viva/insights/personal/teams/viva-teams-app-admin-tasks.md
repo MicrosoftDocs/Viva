@@ -1,13 +1,14 @@
 ---
 
 title: Admin tasks for the Viva Insights app
-description: Admin tasks for the Microsoft Viva Insights (personal insights) app
+description: Admin tasks for the Microsoft Viva Insights app
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
-ms.collection: m365initiative-viva-insights
+ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
+ms.subservice: viva-insights
 manager: scott.ruble
 audience: Admin
 
@@ -45,7 +46,7 @@ The PowerShell commands for working with Viva Insights features are described in
 
 The following steps are only applicable to organizations who assigned licenses prior to July 2021. You need to confirm the following assignment options in Azure Active Directory for the Microsoft Viva Insights SKU:
 
-* **Microsoft Viva Insights** - Enables access to premium personal and manager features released in November 2021, including the updated [My team](../../use/myteam.md) page in the Viva Insights in Teams app.
+* **Microsoft Viva Insights** - Enables access to premium personal and manager features released starting in November 2021, including the updated [My team](../../use/myteam.md) page in the Viva Insights app in Teams.
 * **Microsoft Viva Insights (WpA transition)** – This option is only applicable for organizations who assigned licenses before July 2021 and want to keep their access to the advanced analyst features. If this is the only option enabled, then their access to advanced insights will continue unchanged. However, you must enable the first app option for access to the premium features released starting in November 2021.
 
 >[!Important]
