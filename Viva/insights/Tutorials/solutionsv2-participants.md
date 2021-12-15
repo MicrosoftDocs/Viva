@@ -3,12 +3,16 @@
 title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
 author: madehmer
-ms.author: v-pausch
+ms.author: v-mideh
 ms.topic: conceptual
 ms.localizationpriority: medium 
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
-ms.prod: wpa
 ---
 
 # Plans: Participants' experience

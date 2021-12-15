@@ -1,11 +1,15 @@
 ---
 title: Foster innovation
-description: Learn how to use Workplace Analytics data to analyze and foster innovation in your organization
+description: Learn how to use Microsoft Viva Insights data to analyze and foster innovation in your organization
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
