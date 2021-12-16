@@ -15,19 +15,19 @@ manager: scott.ruble
 
 # Viva Insights trial
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview*
 
 The Viva Insights app in Microsoft Teams helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations for improving productivity and wellbeing.
 
 As a licensed user with a Microsoft 365 E3 or E5 plan, you get access to insights for building better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 
-As a licensed user of MyAnalytics and Viva Insights, you can use the app and its premium features for a 60-day free trial period before requiring to purchase.
+As a licensed user of MyAnalytics and Viva Insights, you can use the app and its premium features for a 60-day free trial period.
 
-During the 60-day trial, you can access premium insights in the Viva Insights app. These insights are based on information team leads and managers already have access to within Outlook and Teams. Viva Insights applies intelligence to this information to make it easier for managers to reflect on their work patterns and take action to improve team productivity and wellbeing. All these insights are presented to an individual in the context of the team that they have defined.
+During the 60-day trial, you get access to premium insights within the Viva Insights app. These insights are based on information that you already have access to within Outlook and Teams. Viva Insights applies intelligence to this information to make it easier for you to reflect on work patterns and take action to improve yours and your team's productivity and wellbeing. All these insights are presented to an individual in the context of the team you define in the app.
 
 ## Premium insights
 
-The following premium insights are available as part of this trial.
+The following premium insights are available as part of this trial on the [My team](../../use/myteam.md) page.
 
 * **Stay connected and engaged with team**:  
 
