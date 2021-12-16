@@ -40,7 +40,10 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" ></iframe>
 
-**To set up the app**
+## Setup steps
+
+>[!Note]
+>If you need to set up a test environment for regulatory or compliance reasons, follow [these steps](#test-setup).
 
 1. **[Open the app](https://workplaceanalytics.office.com)**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
 
@@ -69,6 +72,16 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
    3. **Data processing** - The validated data is processed. When the processing finishes, you'll see a message that setup is complete.
 
       ![Processing organizational data.](../images/wpa/setup/onboarding-validation-success.png)
+
+## Test setup
+
+A test environment is not recommended because good analysis requires real-time collaboration data from a comparable population, which is difficult to simulate through a test tenant. However, if you are required by your organization to set up a test environment for regulatory or compliance reasons, then do the following to set it up.
+
+* Assign a Viva Insights license to at least five test users (or whatever your minimum group size is) who have cloud-hosted Exchange Online mailboxes.
+* Each user has sent messages in their Sent Items folder (preferably to other test users with a Viva Insights license).
+* Each user has appointments in their calendars that have occurred in the past month (preferably with other test users with a Viva Insights license).
+* The test users all have managers that lead up to a single hierarchy.
+* After confirming the previous requirements, upload an organizational data file for these test users where their Organization and LevelDesignation attributes are correct and are not blank.
 
 ## Product availability
 
