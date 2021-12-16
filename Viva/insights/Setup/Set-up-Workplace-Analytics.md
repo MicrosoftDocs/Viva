@@ -3,7 +3,7 @@
 title: Viva Insights setup
 description: How to set up and configure Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
@@ -33,14 +33,10 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 
 * **Task** - Complete steps to set up and configure the Viva Insights applications.  
 * **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time. Also, you've set system defaults and privacy settings and an admin has uploaded organizational data.
-
 <!-- IN THIS VIDEO, MUST FIX A) EARLY SCREENSHOT THAT SHOWS EXPLORE PAGE AND B) END SEQUENCE THAT NO LONGER MATCHES CURRENT FRE. -->
-
 ### Video: Overview for admins
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" ></iframe>
-
-## Setup steps
 
 >[!Note]
 >If you need to set up a test environment for regulatory or compliance reasons, follow [these recommendations](#test-setup-recommendations).
