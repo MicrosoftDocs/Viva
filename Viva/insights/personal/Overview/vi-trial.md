@@ -32,7 +32,7 @@ The following premium insights are available as part of this trial.
 * **Stay connected and engaged with team**:  
 
   * Schedule 1:1 time with team members (or reschedule for a conflict). As a people manager or a team lead, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles.
-  * One of the simplest coaching tools that team leads or managers have are 1:1 time. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged. See [1:1 time in My team](../../use/myteam.md##11-time) for more details.
+  * One of the simplest coaching tools that team leads or managers have are 1:1 time. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged. See [1:1 time in My team](../../use/myteam.md#11-time) for more details.
 
 * **Team meeting habits**: Managers are role models when it comes to collaboration habits; team members tend to mimic their manager’s behavior. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [How 1:1 time is calculated](../../use/myteam.md#how-11-time-is-calculated) for details.
 * **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation.
