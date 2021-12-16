@@ -1,9 +1,9 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Beyond knowledge workers dashboard
-description: Use the Beyond knowledge workers reports to visualize predefined data from Workplace Analytics in Power BI
+description: Use the Beyond knowledge workers reports to visualize predefined data from Viva Insights in Power BI
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -17,9 +17,9 @@ audience: Admin
 
 # Beyond knowledge workers
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview.*
 
-The Beyond knowledge worker dashboard uses a Power BI template that is populated by Workplace Analytics data to conduct a broad diagnostic of digital collaboration patterns (Teams chats, Teams calls, emails, and meetings) for frontline workers and those workers with hybrid office or field roles. It is designed to highlight collaboration patterns for different groups and to correlate collaboration behaviors to productivity outcomes.
+The Beyond knowledge worker dashboard uses a Power BI template that is populated by Microsoft Viva Insights data to conduct a broad diagnostic of digital collaboration patterns (Teams chats, Teams calls, emails, and meetings) for frontline workers and those workers with hybrid office or field roles. It is designed to highlight collaboration patterns for different groups and to correlate collaboration behaviors to productivity outcomes.
 
 The dashboard helps answer the following questions:
 
