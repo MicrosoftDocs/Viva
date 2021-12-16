@@ -3,7 +3,11 @@ layout: LandingPage
 title: Viva Insights best practices
 description: Viva Insights can help you improve how you and your organization gets work done
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ms.author: v-mideh
 author: madehmer
 manager: scott.ruble

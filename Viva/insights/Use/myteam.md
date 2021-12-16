@@ -3,11 +3,14 @@
 title: My team in Viva Insights
 description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their habits and how that impact their team
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights
-ms.prod: wpa
+ms.collection: viva-insights-manager
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
