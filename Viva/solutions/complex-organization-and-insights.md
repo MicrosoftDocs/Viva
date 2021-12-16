@@ -87,8 +87,8 @@ To enable advanced analysis, the following schema can be used in the file that i
 |Attribute Name  |Attribute Description  |
 |---------|---------|
 |EffectiveDate     |      Date for which the given attribute value applies for the employee. The attribute applies until another record for the same attribute with a different effective date is specified.   |
-|PersonId    | Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example,  the format **person.name@xyz.com** is allowed; however, the format **<Name, Person> (person.name@xyz.com)** is not allowed.     |
-|ManagerId    |  Unique identifier for the employee’s manager, which is needed to correctly calculate metrics for time spent with managers and their direct reports. This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example,  the format **person.name@xyz.com** is allowed; however, the format **<Name, Person> (person.name@xyz.com)** is not allowed.      |
+|PersonId    | Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example,  the format **person.name@contoso.com** is allowed; however, the format **<Name, Person> (person.name@contoso.com)** is not allowed.     |
+|ManagerId    |  Unique identifier for the employee’s manager, which is needed to correctly calculate metrics for time spent with managers and their direct reports. This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example,  the format **person.name@contoso.com** is allowed; however, the format **<Name, Person> (person.name@contoso.com)** is not allowed.      |
 |Organization    |    The internal organization that the employee belongs to. An employee’s organization will be specific to the individual needs and could be identified by the leader of the organization, or by another naming convention. This data is needed to correctly calculate metrics for redundancy and insularity.     |
 |FunctionType  |    The job function that the employee performs. This job function is specific to the organization. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../insights/Use/explore-intro.md) features.     |
 |LevelDesignation    |      The employee’s level, which is represented as a string. This level is specific to the organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.   |
@@ -125,8 +125,8 @@ For [Ad hoc with oData](#ad-hoc-using-odata-approach) and [Automated Data Pipeli
 You will also need an Azure subscription to host the data from the two tenants.
 
 1. To register an application, accomplish Steps 1 to 5 in the [Automate Exports](automate-exports.md) for each tenant.
-    1. To obtain a secret for the registered application, click **Certificates & secrets** from your newly registered application in Azure Active Directory.
-        1. For Key authentication, click **New client** secret and in **Add a client** secret, enter a description, select when it expires, and then click **Add**. In **Client** secrets, select the new secret value, and then click the **Copy** icon to copy the value.
+    1. To obtain a secret for the registered application, select **Certificates & secrets** from your newly registered application in Azure Active Directory.
+        1. For Key authentication, select **New client** secret and in **Add a client** secret, enter a description, select when it expires, and select **Add**. In **Client** secrets, select the new secret value, and select the **Copy** icon to copy the value.
     2. Make a note of the Application ID and secret that are created for each tenant.
 2. In the case of Microsoft Azure subscription, perform the following steps:
     1. Deploy custom deployment from arm template.
@@ -177,26 +177,26 @@ The setup details are available [here](#data-pipeline---automated).
     1. Launch the Azure portal for the subscription you want to use.
        :::image type="content" source="images/azure-portal-home-screen.png" alt-text="The Azure portal home screen":::
     1. Search for **Deploy from a custom template** in the search bar.
-    1. Once **Deploy from a custom template** is displayed (under **Services** pane), click on it.
+    1. Once **Deploy from a custom template** is displayed (under **Services** pane), select it.
        :::image type="content" source="images/deploy-from-custom-template.png" alt-text="Deploy from a Custom Template option":::
-       The screen on clicking **Deploy from a custom template** is depicted in the below screenshot.
+       The screen on selecting **Deploy from a custom template** is depicted in the below screenshot.
        :::image type="content" source="images/select-template.png" alt-text="The screen on which the template is chosen":::
-    1. Click **Build your own template in the editor**. The **Edit template** screen appears.
+    1. Select **Build your own template in the editor**. The **Edit template** screen appears.
        :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
-    1. Click **Load file**. 
+    1. Select **Load file**. 
        :::image type="content" source="images/load-file.png" alt-text="The screen displaying the Load file option":::
        The browser window is displayed..
-    1. Navigate to the location that contains the downloaded **DataFactory_oData_arm_template.json** file and click **Open**.
+    1. Navigate to the location that contains the downloaded **DataFactory_oData_arm_template.json** file and select **Open**.
        > [!NOTE]
        > You can download the **DataFactory_oData_arm_template.json** file [here](https://vscomporgsa.blob.core.windows.net/files/DataFactory_oData_arm_template.zip?sp=r&st=2021-11-23T16:55:42Z&se=2022-06-01T23:55:42Z&spr=https&sv=2020-08-04&sr=b&sig=hAmyCMD1R4UARcrWTxjK20Yflo9ZQmXWkCeNqtXfqpk%3D)).
-    1. On the resultant screen, click **Save**.
+    1. In the resultant screen, select **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Provide values for the highlighted items.
        :::image type="content" source="images/filling-selecting-highlighted-fields.png" alt-text="The screen on which the fields to be filled are highlighted":::
        An example of filled values for the highlighted items is shown in the below screenshot.
        :::image type="content" source="images/highlighted-fields-filled.png" alt-text="The screen displaying the filled values for the highlighted fields":::
-    1. Click the **Review + create** tab, and click **Create**.
-       :::image type="content" source="images/review-plus-create-and-create.png" alt-text="The screen on which you can click Create":::
+    1. Select the **Review + create** tab, and select **Create**.
+       :::image type="content" source="images/review-plus-create-and-create.png" alt-text="The screen on which you can select Create":::
        :::image type="content" source="images/deployment-completion-notification.png" alt-text="The screen on which the notification message of deployment completion is displayed":::
 1. Grant access to the data factory managed service identity to the key vault and the storage account by performing the following steps:
       1. Launch the Data factory (V2) resource by clicking its link to obtain the managed service identity.
@@ -206,52 +206,52 @@ The setup details are available [here](#data-pipeline---automated).
          The screen displaying details of the **wuarmdf1** Data factory resource appears.
          :::image type="content" source="images/data-factory-launch-screen.png" alt-text="The screen containing details of the chosen data factory":::
 
-      1. Click **Properties**. The screen displaying details of the chosen Data factory appears.
+      1. Select **Properties**. The screen displaying details of the chosen Data factory appears.
         :::image type="content" source="images/copying-managed-identity-application-id.png" alt-text="The screen on which the value of Managed Identity Application ID is displayed to copy":::
       1. Copy the value of the **Managed Identity Application ID** attribute.
       1. Navigate back to the screen of the resource group **wuarmdfrg1** by selecting **Overview**, the **Resources** tab and **wuarmdfrg1** under it.
       1. Launch the Key Vault (**wuarmdfkv1**) by clicking its link.
          The screen displaying details of the chosen keyvault appears.
          :::image type="content" source="images/key-vault-resource-screen.png" alt-text="The  screen containing details of the chosen keyvault":::
-      1. Click **Access policies** on the left pane.
+      1. Select **Access policies** in the left pane.
          :::image type="content" source="images/selecting-access-policies.png" alt-text="The screen on which the Access policies are displayed to select":::
-      1. Click **+ Add access policy** in the center of the screen. The **Add access policy** screen appears.
+      1. Select **+ Add access policy** in the center of the screen. The **Add access policy** screen appears.
          :::image type="content" source="images/adding-access-policy.png" alt-text="The screen on which the option to add an access policy is displayed":::
       1. Add your own account by setting values as described below:
          1. From the **Configure from template** drop-down list, choose **Key, Secret, & Certificate Management**.
          1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
             :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
-      1. Click **Add**.
-         :::image type="content" source="images/clicking-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
-      1. Click **Save** on the top-left of the screen.
-         :::image type="content" source="images/clicking-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
+      1. Select **Add**.
+         :::image type="content" source="images/selecting-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
+      1. Select **Save** in the upper-left of the screen.
+         :::image type="content" source="images/selecting-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
 1. Add the keyvault's secret permissions to the managed identity by performing the following steps:
-     1. From the keyvault's properties screen (below screenshot), click **Access policies** on the left pane.
+     1. From the keyvault's properties screen (below screenshot), select **Access policies** in the left pane.
         :::image type="content" source="images/keyvault-before-managed-identity.png" alt-text="The screen displaying information about the properties of the keyvault":::
-     1. Click **+ Add access policy**.
+     1. Select **+ Add access policy**.
         The **Add access policy** screen appears.
      1. From the **Secret permissions** drop-down list, choose **Get** and **List**.
         :::image type="content" source="images/keyvault-managed-identity-permissions.png" alt-text="The screen on which secret permissions are selected":::
      1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
         :::image type="content" source="images/keyvault-managed-identity-principal.png" alt-text="The screen on which the Managed Identity Application ID is displayed":::
-     1. Click **Add**.
+     1. Select **Add**.
         :::image type="content" source="images/keyvault-managed-identity-principal-add.png" alt-text="The screen on which you add the managed identity":::
-     1. Click **Save** on the top-left of the screen.
+     1. Select **Save** in the upper-left of the screen.
         :::image type="content" source="images/keyvault-managed-identity-principal-save.png" alt-text="The screen on which the added managed identity is saved":::
 1. Grant Storage Account permissions to the Data Factory Managed Service Identity.
      1. Launch the resource group (**wuarmdfrg1**). The screen displaying details of the chosen resource group appears.
        :::image type="content" source="images/properties-screen.png" alt-text="The screen displaying properties data for the launched resource group":::
      1. Launch the storage account (**wuarmdfsa1**). The screen displaying details of the chosen storage account appears.
-     1. Click **Access Control (IAM)** on the left pane.
+     1. Select **Access Control (IAM)** in the left pane.
         :::image type="content" source="images/access-control-iam.png" alt-text="The screen on which the Access control (IAM) option is displayed":::
-     1. Click the **Role assignments** tab. The below screen appears.
+     1. Select the **Role assignments** tab. The below screen appears.
         :::image type="content" source="images/adding-role-assignment.png" alt-text="The screen on which the tab to add a role assignment is displayed":::
-     1. Click **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
-     1. Select **Storage Blob Data Contributor**, and click **Next**.
+     1. Select **+ Add** and select **Add role assignment**. The **Add role assignment** screen appears.
+     1. Select **Storage Blob Data Contributor**, and select **Next**.
         :::image type="content" source="images/selecting-role-assignment.png" alt-text="The role assignment screen":::
-     1. Click the **Members** tab, and under **Assign access to**, choose the **Managed identity** radio button.
+     1. Select the **Members** tab, and under **Assign access to**, choose the **Managed identity** radio button.
         :::image type="content" source="images/choosing-managed-identity.png" alt-text="The screen on which the Managed identity radio button is chosen":::
-     1. Click **+ Select members** on the center of the screen. The **Select managed identities** screen appears.
+     1. Select **+ Select members** in the center of the screen. The **Select managed identities** screen appears.
         :::image type="content" source="images/select-members.png" alt-text="The Select managed identities screen":::
      1. From the **Managed identity** drop-down list, choose **Data factory (V2)**.
         :::image type="content" source="images/choosing-data-factory-v2-value.png" alt-text="The screen on which you choose the Data factory parameter":::
@@ -260,10 +260,10 @@ The setup details are available [here](#data-pipeline---automated).
         > The Data factory **wuarmdf1** has been defined in the **Custom deployment** screen; see the second screenshot under sub-step (h) in [Data pipeline - Automated](#data-pipeline---automated).
 
         :::image type="content" source="images/selecting-factory-name.png" alt-text="The screen on which you select the Data factory value":::
-     1. Click **Select**. The **Add role assignment** screen appears.
+     1. Select the **Select** option. The **Add role assignment** screen appears.
         :::image type="content" source="images/review-plus-assign-on-add-role-assignment-screen.png" alt-text="Add role assignment screen that displays the Review + assign option":::
-     1. Click the **Review + assign** tab, and click **Review + assign** at the bottom-left of the screen.
-        :::image type="content" source="images/clicking-review-plus-assign.png" alt-text="The review-plus-assign tab screen":::
+     1. Select the **Review + assign** tab, and select **Review + assign** at the bottom-left of the screen.
+        :::image type="content" source="images/selecting-review-plus-assign.png" alt-text="The review-plus-assign tab screen":::
      1. Refresh the browser to view the **Role assignments** screen again, in which you can view the Data factory application you have just added.
         :::image type="content" source="images/role-reflection-screen.png" alt-text="The screen that displays the Data factory application":::
 1. Create a file named **odatasources.txt**.
@@ -288,7 +288,7 @@ The setup details are available [here](#data-pipeline---automated).
 1. Generate the secrets in Key Vault by performing the following steps:
      1. Launch the Key Vault (**wuarmdfkv1)**.
         :::image type="content" source="images/properties-screen.png" alt-text="The screen from which you select the keyvault":::
-     1. Click **Secrets** on the left pane, and click **+ Generate/Import**.
+     1. Select **Secrets** in the left pane, and select **+ Generate/Import**.
         :::image type="content" source="images/secrets-generate-import.png" alt-text="The Secrets screen on which the Generate/Import option is available":::
      1. Create the secrets using the names in the below table.
         > [!NOTE]
@@ -326,11 +326,11 @@ The setup details are available [here](#data-pipeline---automated).
 1. Upload the **odatasources.txt** file to the storage account in the wpaexports container by performing the below steps:
     1. Launch the storage account (**wuarmdfsa1**).
        :::image type="content" source="images/storage-account-screen-while-uploading-odata-file.png" alt-text="The storage account screen at the stage of oData file upload":::
-    1. Click **Containers** on the left pane.
-       :::image type="content" source="images/containers-screen.png" alt-text="The screen on which you can click the Containers option":::
-    1. Click **wpaexports**. The screen displaying details/options in **wpaexports** is displayed.
+    1. Select **Containers** in the left pane.
+       :::image type="content" source="images/containers-screen.png" alt-text="The screen on which you can select the Containers option":::
+    1. Select **wpaexports**. The screen displaying details/options in **wpaexports** is displayed.
        :::image type="content" source="images/containers-wpaexports.png" alt-text="The screen displaying the Upload option":::
-    1. Click **Upload**. The screen displaying the uploaded file appears.
+    1. Select **Upload**. The screen displaying the uploaded file appears.
        :::image type="content" source="images/containers-wpaexports-upload.png" alt-text="THe screen displaying the odatasources.txt file":::
 
 #### To set trigger for pipeline
@@ -343,18 +343,18 @@ Creation of a trigger for a pipeline is depicted in the below screenshot.
 
 #### To execute the pipeline manually
 
-1. Launch the data factory created earlier, and click **Open** under the **Open the Azure Data Factory Studio** option in the **Getting started** pane.
+1. Launch the data factory created earlier, and select **Open** under the **Open the Azure Data Factory Studio** option in the **Getting started** pane.
 
    > [!NOTE]
    > Data factory is the one created during deployment of arm template for data factory creation for MultiTenant.
 
    :::image type="content" source="images/launching-azure-data-factory-studio.png" alt-text="The screen that displays option to launch Azure Data factory studio":::
 
-1. Click **Author** on the left pane.
-   :::image type="content" source="images/selecting-author-on-left-pane.png" alt-text="The screen on which the Author option is clicked on":::
+1. Select **Author** in the left pane.
+   :::image type="content" source="images/selecting-author-on-left-pane.png" alt-text="The screen on which the Author option is selected":::
 1. Expand the **Pipeline** pane and select **CopyPipeline_MTBCDPipeline**.
    :::image type="content" source="images/selecting-CopyPipeline-MTBCDPipeline.png" alt-text="The screen on which the resource is selected":::
-1. Click **Debug**. The below screenshot illustrates a successful execution of a debug operation.
+1. Select **Debug**. The below screenshot illustrates a successful execution of a debug operation.
    :::image type="content" source="images/debug-successful-execution.png" alt-text="The screen on which a debug operation is successfully executed":::
    
    The output is available to view in the storage account in **wpaexports > rawdata1**.
@@ -377,7 +377,7 @@ Once you have downloaded the report and the data sources have been modified, the
 
 To obtain an insight into the look of the report by a tenant, perform the following steps:
 
-1. On the **Settings** screen, from the **Select an organizational attribute to view the report by** drop-down list, choose the Tenant identifier attribute.
+1. In the **Settings** screen, from the **Select an organizational attribute to view the report by** drop-down list, choose the Tenant identifier attribute.
    :::image type="content" source="images/selecting-tenant-identifier-pages.png" alt-text="The screen on which you select tenant attributes":::
 2. Select one of the PowerBi report pages.
    The below screenshot depicts one of the selected pages.
@@ -389,7 +389,7 @@ You can go with any number of settings combinations for different perspectives o
 
 To view the Tenant 1 organization insights, perform the following steps:
 
-1. On the **Settings** screen, from the **Select an organizational attribute to view the report by** drop-down list, choose **Organization**.
+1. In the **Settings** screen, from the **Select an organizational attribute to view the report by** drop-down list, choose **Organization**.
 1.  Under the **To filter employees, select the organizational attribute and values you would like to filter by** pane, from the **Organizational Attribute** drop-down list, choose **TenantInd**.
     1. From the **Select filter values** drop-down list, choose one of the tenants.
        :::image type="content" source="images/settings-to-view-tenant-1-insights.png" alt-text="The screen on which value of a tenant is selected as a filter criteria":::
