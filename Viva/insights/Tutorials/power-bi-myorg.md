@@ -31,7 +31,7 @@ The dashboard includes the following reports:
 * **Connecting in small groups** – Shows how much time employees spend interacting at least one hour each week with eight or fewer people to encourage small-group collaboration where most have a voice in the activity.
 * **Finding time to focus** - Measures how much uninterrupted focus time your employees get during the workweek, which are one- to two-hour blocks of time with no collaboration activity. People need this valuable time to complete challenging work, think creatively, and generate new ideas.
 * **Getting manager coaching** - Measure how much 1:1 time managers spend with their employees on average each month. Research shows that time spent 1:1 with your manager helps keep employees engaged and improves their job performance and career development.
-* **Effective meetings** - Shows the percentage of employees who spend the majority of their time in short or focused meetings, which are less than one hour long with two to eight participants. Research shows short and targeted meetings are more inclusive with higher participation where decisions get made and work gets done.
+* **Effective meetings** - Shows the percentage of employees who spend most of their time in short or focused meetings, which are less than one hour long with two to eight participants. Research shows short and targeted meetings are more inclusive with higher participation where decisions get made and work gets done.
 
 ![Power BI My organization template.](../Images/WpA/Tutorials/pbi-myorg.png)
 
@@ -41,7 +41,7 @@ Each report also includes the following details:
 * **Top tools and suggestions** - In the blue area at the top right of each report, you'll see a few suggestions and tool tips that can help support the insights and analysis shown on the page.
 * **Supporting articles** - To the right of "Current State," you'll see links to articles about why this analysis matters based on industry research and other businesses experience.
 * **Go deeper** - Shows other available reports or options that you can use for more advanced and focused analysis relating to the data shown.
-* **Supporting insights** - This section show the top insights that are important to focus on based on the analysis shown. For example, for Protecting personal time, you might see insights about what activities drive most of your employees after-hours work and how many hours they spend collaborating.
+* **Supporting insights** - This section shows the top insights that are important to focus on based on the analysis shown. For example, for Protecting personal time, you might see insights about what activities drive most of your employees' after-hours work and how many hours they spend collaborating.
 
 The following is an example of what you'll see in the Protecting personal time report:
 
