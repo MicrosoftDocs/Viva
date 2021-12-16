@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Organizational network analysis metrics for Workplace Analytics visual insights
 description: Learn more about the network graphs used in Workplace Analytics visual insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -17,7 +17,7 @@ audience: Admin
 
 # Organizational network analysis metrics
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview.*
 
 The organizational network analysis (ONA) graphs used for some of the Workplace Analytics visual insights use the influence metric to help you visualize and analyze relationships within your organization.
 
@@ -37,4 +37,5 @@ For calculation information about a specific ONA graph, select the applicable be
 
 * [Accelerate decision making](improve-agility.md#ona-accelerate-define) - The **Employee empowerment** graph shows the general distribution of empowered employees and disempowered employees in your organization. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices.
 * [Engage influencers](accelerate-change.md#calculations) - The **Reach of influencers** graph shows the influencers, their connections, and how they effectively connect across your organization. This shows people who power the unobservable communication networks that you can target to effectively drive change.
+
 <!--* [Strengthen management pipeline](develop-managers.md#ona-strengthen-define) - The **Distribution of potential manager candidates** graph shows the distribution of current managers, potential managers, and other employees within your organization, based on influence scores. You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles.-->
