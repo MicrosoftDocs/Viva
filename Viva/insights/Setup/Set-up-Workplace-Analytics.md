@@ -38,6 +38,8 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" ></iframe>
 
+**To set up the app**
+
 >[!Note]
 >If you need to set up a test environment for regulatory or compliance reasons, follow [these recommendations](#test-setup-recommendations).
 
