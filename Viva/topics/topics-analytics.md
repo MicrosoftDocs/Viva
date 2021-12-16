@@ -14,7 +14,12 @@ description: Learn where to see analytics for Microsoft Viva Topics.
 
 # Security and privacy in Microsoft Viva Topics
 
+![Screenshot of analytics for topics visible.](../media/topics-analytics-topics-visible.png) 
 
+
+
+
+![Screenshot of analytics for unique files processed.](../media/topics-analytics-unique-files.png) 
 
 
 
