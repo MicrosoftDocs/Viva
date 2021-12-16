@@ -5,7 +5,9 @@ description: Admin tasks for the Microsoft Viva Insights app
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.collection: viva-insights-personal
+ms.collection: 
+- viva-insights-manager
+- viva-insights-leader
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
