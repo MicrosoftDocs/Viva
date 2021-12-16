@@ -6,6 +6,9 @@ author: madehmer
 ms.author: v-pausch
 ms.topic: article
 ms.localizationpriority: medium 
+ms.collection: 
+- viva-insights-manager
+- viva-insights-leader
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

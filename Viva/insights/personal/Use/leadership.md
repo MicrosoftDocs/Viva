@@ -2,11 +2,15 @@
 
 title: Leadership insights dashboard
 description: Leaders use this dashboard to learn about their relationships with team members
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: high 
-ms.prod: Mya
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -14,6 +18,9 @@ audience: Admin
 # Leadership
 
 _This experience is only available through a targeted release at this time._
+
+>[!Important]
+>By the end of January 2022, this page will no longer be available. To access the same insights, see [Team insights](../../use/team-insights.md).
 
 If you're a people manager, the Leadership page on the [MyAnalytics dashboard](dashboard-2.md) gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement.
 

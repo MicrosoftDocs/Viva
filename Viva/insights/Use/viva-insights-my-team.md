@@ -3,17 +3,21 @@
 title: Viva Insights for managers
 description: My team in Microsoft Viva Insights in Teams shows managers their team collaboration patterns
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-manager
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
 # My team insights
 
-Microsoft Viva Insights shows managers insights about their teams’ work patterns that might lead to burnout and stress. These can be caused by regular after-hours work, meeting overload, or too little focus time.
+Microsoft Viva Insights shows managers insights about how their teams’ work patterns might lead to burnout and stress. These can be caused by regular after-hours work, meeting overload, or too little focus time.
 
 As a manager, you can see these insights in **My team** within the Viva Insights app in Microsoft Teams. My team provides visibility into team collaboration patterns that are leading indicators of overall employee experience and wellbeing. You can then use these insights to understand current team norms and take action to create positive change.
 
@@ -23,9 +27,13 @@ As a manager, you can see these insights in **My team** within the Viva Insights
 
 When data is processed for My team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for Personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).  
 
+## Admin tasks
+
+**My team** is available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for your organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+
 ## Install, pin, and configure the app
 
-After your admin has completed the [Admin tasks](../setup/ml-insights-setup.md), the setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
+After your admin has completed the [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md), the setup for **My team** is the same as for [Personal insights](../personal/teams/viva-teams-app.md) in the Viva Insights app. See the following to install, pin, and configure the app in Teams:
 
 * [Install and pin the app](../personal/teams/viva-teams-app-install.md)
 * [Configure the app](../personal/teams/viva-teams-app-settings.md)

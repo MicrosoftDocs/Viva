@@ -65,9 +65,9 @@ items:
                 - name: Headspace meditation
                   href: Briefing/be-headspace.md
                 - name: Plan your week
-                  href: Briefing/be-time.md
+                  href: Briefing/be-time.md 
                 - name: Catch up with your team
-                  href: /Briefing/be-manager.md
+                  href: Briefing/be-manager.md
             - name: Settings
               href: Briefing/be-settings.md
             - name: Languages

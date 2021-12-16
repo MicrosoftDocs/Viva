@@ -2,10 +2,16 @@
 title: Team insights in Viva Insights
 description: Learn about the Team insights page in Microsoft Viva Insights that shows managers their team collaboration patterns
 author: madehmer
-ms.author: v-mideh
+ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-manager
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -23,6 +29,10 @@ As a manager or team lead, Microsoft Viva Insights shows you insights to learn h
 All of the information shown on this page is derived from a manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track team member activities. For example, a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened the email.
 
 When data is processed for team insights, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR) the same as for personal insights. For information about data privacy and GDPR compliance in Viva Insights, see [Privacy guide](../personal/teams/viva-teams-app-privacy.md).
+
+## Admin tasks
+
+**Team insights** are available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Set up your team
 
@@ -86,7 +96,7 @@ As a qualifying manager, you'll see a top insight with a **Learn more** link to 
 
 ## Briefing and digest emails
 
-As a team manager or lead with a P1 license, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
+As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
 
 ## Related topics
 

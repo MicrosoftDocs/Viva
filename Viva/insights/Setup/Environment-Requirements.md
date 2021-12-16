@@ -6,15 +6,18 @@ author: madehmer
 ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
 # Environment requirements
 
-Environment requirements vary depending on the type of insights you are going to view in Microsoft Viva Insights, such as personal insights, manager insights, or leader insights in Microsoft Teams or advanced insights in the web-based service.
+Environment requirements vary depending on the type of insights you view in Microsoft Viva Insights. They are personal insights, manager insights, or leader insights in Microsoft Teams or advanced insights in the web-based service.
 
 ## Personal insights
 
@@ -24,19 +27,19 @@ The requirements for personal insights in Microsoft Viva Insights are described 
 
 With the applicable [Viva Insights licensing](#viva-insights-licenses), your company can get manager and leader insights in Teams, and advanced insights features as an add-on to the licensing agreement.
 
-Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend that you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 and Plan 2.
+Microsoft Exchange Online provides much of the collaboration data that Viva Insights uses. For this reason, we recommend you have a Microsoft 365 or an Office 365 product that contains Exchange Online Plan 1 and Plan 2.
 
 ## Channel support
 
-Other channels such as Cloud Solution Provider (CSP) do not support the addition of Viva Insights at this time. Also, note the following circumstances for various types of customers:
+Other channels such as Cloud Solution Provider (CSP) don't support the addition of Viva Insights at this time. Also, note the following circumstances for various types of customers:
 
 |  Type  | Notes |  
 |---- | ---- |
-|Government | Government Community Cloud (GCC) does not currently support the addition of Viva Insights. |
+|Government | Government Community Cloud (GCC) doesn't currently support the addition of Viva Insights. |
 |Education | Supported only for the analysis of faculty at this time, not for students. |
 |Commercial | You can add Viva Insights with commercial enrollments. |
-|Non-profit | Viva Insights can be used by non-profits but non-profit pricing is not available. |
-|Firstline workers | Viva Insights does not support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
+|Non-profit | Viva Insights can be used by non-profits but non-profit pricing isn't available. |
+|Firstline workers | Viva Insights doesn't support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ## Tenant environments
 
@@ -44,7 +47,7 @@ Viva Insights requires the applicable [Viva Insights licensing](#viva-insights-l
 
 ## Viva Insights licenses
 
-[Assign licenses](assign-licenses-to-population.md) to the users whose mailboxes you want to analyze. This can mean all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies get the most benefit when they deploy Viva Insights to the entire company or to a large group of employees.
+[Assign licenses](assign-licenses-to-population.md) to the users whose mailboxes you want to analyze. They include all the employees in your organization or a specific subset. To ensure statistical significance and meaningful comparative analysis, companies get the most benefit when they deploy Viva Insights to the entire company or to a large group of employees.
 
 <!-- REMOVING THIS FOR NOW (19 MAY 2021). MAYBE RE-USE IN LATE 2021, DEPENDING ON SWEDEN. CHECK WITH DANNY. 
 >[!Important]

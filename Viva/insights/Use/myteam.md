@@ -3,11 +3,14 @@
 title: My team in Viva Insights
 description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their habits and how that impact their team
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights
-ms.prod: wpa
+ms.collection: viva-insights-manager
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -26,7 +29,7 @@ When data is processed for Group insights, Microsoft protects employee privacy a
 
 ## Admin tasks
 
-**My team** is available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**My team** is available to managers or team leads who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 
@@ -37,9 +40,18 @@ Your setup tasks for **My team** are the same as for [Personal insights](../pers
 
 ## View My team
 
-1. In the left navigation bar in Teams, select **Insights**.
+1. In the left navigation bar in Teams, select **Viva Insights**.
 2. In **Viva Insights Home**, you’ll see an insight about your team. To learn more about an insight, select **Explore more**. You can also use any of the other features on this page, such as **Reflect**, **Praise**, **Stay connected**, and **Protect time**. For more information, see [Viva Insights Home](/insights/viva-insights-home).
-3. In Viva Insights, select **My team** to see key recommendations, actions, and reflections relating to your team.
+3. Alternatively, select **My team** in Viva Insights to see key recommendations, actions, and reflections relating to your team.
+
+## Disable or enable My team
+
+1. In the left navigation bar in Teams, select **Viva Insights** > **My team**.
+2. Select the **ellipsis** (**...**) icon > **Settings** at the top right.
+3. In **Choose your team members**:
+
+   * To disable it, select **I don't lead a team**.
+   * To enable it, select **I lead a team**, select your team members, and then select **Save changes**.
 
 ## Manage your team
 

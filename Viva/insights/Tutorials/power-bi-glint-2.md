@@ -1,12 +1,15 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 title: Behavior patterns for Glint dashboard
 description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and Glint data
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
