@@ -2,7 +2,7 @@
 title: Organizational resiliency in Viva Insights
 description: Learn about how to enhance organizational resiliency with recommendations in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
@@ -34,10 +34,9 @@ The following are the percentage insights, their underlying metrics, and some de
 |---------|--------|--------------------|----------------------|
 |Enable work-life balance |Percentage of employees who are working after hours for more than three hours each week |[After-hours collaboration](metric-definitions.md#after-hours-collaboration-define) |Percentage of employees who spend more than 1 hour collaborating through emails, calls, instant messages, and meetings outside of working hours. This percentage is calculated weekly and averaged over the entire time period. |
 |Provide support |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |Percentage of employees who spend less than 15 minutes of weekly 1:1 time with their managers. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
-|Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](metric-definitions.md#collaboration-hours-define) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
 |Connect across boundaries | Percentage of managers who spend a majority of their meeting time in double-booked meetings |[Conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define) |Percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks. |
 |Cohesion within teams |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#network-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the last six months. |
-
+<!--removing 12/16/21 per nick d.|Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](metric-definitions.md#collaboration-hours-define) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |-->
 The following defines the organizational data shown in the visual behavioral insights.
 
 ![Enhance resiliency empathy.](../images/wpa/use/resilient-visual.png)
@@ -46,17 +45,15 @@ The following defines the organizational data shown in the visual behavioral ins
 |---------|--------|----------------------|
 |Enable work-life balance | Average weekly time spent collaborating after hours  |Percentage of employees based on their weekly [after-hours collaboration](metric-definitions.md#person-metrics). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between 1 to 5 hours collaborating after-hours, and employees who spend more than 5 hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
 |Provide support | Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
-|Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
 |Connect across boundaries | Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and 10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
 |Cohesion within teams |Team cohesion levels across the company |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [Strong ties](metric-definitions.md#network-metrics).|
-
+<!--removing 12/16/21 per nick d.|Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |-->
 ## Best practices
 
 To take action on an outcome, you can select **View best practices** to see a list of recommendations for it. This section describes why each of the following behaviors matter and the top best practices that can help enhance organizational resiliency.
 
 * [Enable work-life balance](#enable-work-life-balance)
 * [Provide support](#provide-support)
-* [Free up capacity](#free-up-capacity)
 * [Connect across boundaries](#connect-across-boundaries)
 * [Cohesion within teams](#cohesion-within-teams)
 
@@ -82,7 +79,7 @@ According to the research referenced in [What great managers do daily](https://i
 * Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
 For more best practices and ways to establish better manager-team connections, see [Best practices for manager coaching](../tutorials/gm-coaching.md).
-
+<!--
 ### Free up capacity
 
 Resilient organizations respond to changing demands and new opportunities by nimbly adapting and refocusing employees' time to align with new priorities.
@@ -93,7 +90,7 @@ As explained in [How to finally kill the useless, recurring meeting](https://hbr
 * Use [MyAnalytics wellbeing](../personal/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
-For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](../tutorials/gm-meetings.md).
+For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](../tutorials/gm-meetings.md).-->
 
 ### Connect across boundaries
 
