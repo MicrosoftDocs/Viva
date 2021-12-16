@@ -89,9 +89,6 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
 6. Select **Run** to run the query, which might take several minutes to complete.
 7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **My organization insights** results, select **PBI template**, and then select **OK** to download the template.
-
-   ![Download the Power BI Teams insights template.](../Images/WpA/Tutorials/teams-template.png)
-
 8. Open the downloaded **My organization insights template**.
 9. If prompted to select a program, select **Power BI**.
 10. When prompted by Power BI:
@@ -100,8 +97,6 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
     2. In Power BI, paste each copied link into its respective URL field.
     3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
     4. Select **Load** to import the results into Power BI. Loading these large files may take some time to complete.
-
-    ![Query URLs for Power BI.](../Images/WpA/Tutorials/teams-odata.png)
 
 11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
