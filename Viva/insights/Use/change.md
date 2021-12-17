@@ -32,7 +32,7 @@ Microsoft Viva Insights has a **My organization** page that shows leader's colla
 
 ## Calculations
 
-The percentage metric for **Engage influencers** is the **Percentage of employees who can drive change within your workforce**, which uses the [Influence](metric-definitions.md#network-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
+The **Engage influencers** insights shows the **Percentage of employees who can drive change within your workforce**, which uses the [Influence](metric-definitions.md#network-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
 ![Accelerate change percentage insight.](../images/wpa/use/accelerate-change-percent.png)
 
