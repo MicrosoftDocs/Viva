@@ -6,7 +6,7 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -36,6 +36,4 @@ The node colors depend on the specific insight as indicated in the graph legends
 For calculation information about a specific ONA graph, select the applicable behavior.
 
 * [Accelerate decision making](improve-agility.md#ona-accelerate-define) - The **Employee empowerment** graph shows the general distribution of empowered employees and less empowered employees in your organization. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices.
-* [Engage influencers](accelerate-change.md#calculations) - The **Reach of influencers** graph shows the influencers, their connections, and how they effectively connect across your organization. This shows people who power the unobservable communication networks that you can target to effectively drive change.
-
-<!--* [Strengthen management pipeline](develop-managers.md#ona-strengthen-define) - The **Distribution of potential manager candidates** graph shows the distribution of current managers, potential managers, and other employees within your organization, based on influence scores. You can use this insight to evaluate future managers with high influence scores who are currently not in managerial roles.-->
+* [Engage influencers](accelerate-change.md#calculations) - The **Reach of influencers** graph shows the people who can influence, their connections, and how they effectively connect across your organization. This shows people who power the unobservable communication networks that you can target to effectively drive change.
