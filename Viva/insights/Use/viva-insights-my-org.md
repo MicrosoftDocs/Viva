@@ -3,7 +3,7 @@
 title: Leader insights in the My organization page
 description: My organization in Microsoft Viva Insights gives leaders key indicators into how their company is getting work done
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
