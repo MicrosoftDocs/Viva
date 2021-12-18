@@ -88,11 +88,8 @@ This section describes how to uninstall the Microsoft Viva Insights app from Tea
 
 1. In Teams, select the **ellipsis** (**...**) in the left bar.
 2. If Viva Insights is not visible in your most recent view, find it by using search.
-3. Right-click **Viva Insights**, and then select **Uninstall** on the shortcut menu:
-
-   ![Shortcut menu -- select Uninstall](Images/option-menu.png)
-
-4. In the window that appears, select **Uninstall**.
+3. Right-click **Viva Insights**, and then select **Uninstall**.
+4. When prompted, select **Uninstall** again.
 
 ## Related topics
 
