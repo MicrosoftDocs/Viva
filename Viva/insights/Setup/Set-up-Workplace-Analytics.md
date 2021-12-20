@@ -73,13 +73,13 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 
 ## Test setup recommendations
 
-A test environment is not recommended because good analysis requires real-time collaboration data from a comparable population, which is difficult to simulate through a test tenant. However, if your organization requires that you set up a test environment for regulatory or compliance reasons, then use the following recommendations for setting it up.
+A test environment is not recommended because good analysis requires real-time collaboration data from a comparable population, which is difficult to simulate through a test tenant. However, if your organization requires a test environment for regulatory or compliance reasons, then you can use the following recommendations to set it up.
 
-* Assign a Viva Insights license to at least five test users (or whatever your minimum group size is) who have Exchange Online (cloud-hosted) mailboxes.
+* Assign a Viva Insights license to your minimum group size (default is five) who have Exchange Online (cloud-hosted) mailboxes.
 * Each user has sent messages in their Sent Items folder (preferably to other test users with a Viva Insights license).
 * Each user has appointments in their calendars that have occurred in the past month (preferably with other test users with a Viva Insights license).
-* The test users all have managers that lead up to a single hierarchy.
 * After confirming the previous requirements, upload an organizational data file for these test users where their **Organization** and **LevelDesignation** attributes are correct (cannot be *blank*).
+* The test users all have managers that lead up to a single hierarchy.
 
 ## Product availability
 
