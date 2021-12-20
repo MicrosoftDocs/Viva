@@ -185,10 +185,10 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/build-your-own-template.png" alt-text="The Edit template screen":::
     1. Select **Load file**. 
        :::image type="content" source="images/load-file.png" alt-text="The screen displaying the Load file option":::
-       The browser window is displayed..
+       The browser window is displayed.
     1. Navigate to the location that contains the downloaded **DataFactory_oData_arm_template.json** file and select **Open**.
        > [!NOTE]
-       > You can download the **DataFactory_oData_arm_template.json** file [here](https://vscomporgsa.blob.core.windows.net/files/DataFactory_oData_arm_template.zip?sp=r&st=2021-11-23T16:55:42Z&se=2022-06-01T23:55:42Z&spr=https&sv=2020-08-04&sr=b&sig=hAmyCMD1R4UARcrWTxjK20Yflo9ZQmXWkCeNqtXfqpk%3D)).
+       > You can download the **DataFactory_oData_arm_template.json** file [here](https://vscomporgsa.blob.core.windows.net/files/DataFactory_oData_arm_template.zip?sp=r&st=2021-11-23T16:55:42Z&se=2022-06-01T23:55:42Z&spr=https&sv=2020-08-04&sr=b&sig=hAmyCMD1R4UARcrWTxjK20Yflo9ZQmXWkCeNqtXfqpk%3D).
     1. In the resultant screen, select **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Provide values for the highlighted items.
@@ -222,6 +222,7 @@ The setup details are available [here](#data-pipeline---automated).
          1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
             :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
       1. Select **Add**.
+      
          :::image type="content" source="images/selecting-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
       1. Select **Save** in the upper-left of the screen.
          :::image type="content" source="images/selecting-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
@@ -284,7 +285,7 @@ The setup details are available [here](#data-pipeline---automated).
 
       A sample of the `odatasources.txt` file is depicted in the below screenshot. This file contains details of two tenants, who are each assigned two sets of oData URLs they can govern. Each oData URL for a tenant uses the keyvault secret created specifically for that tenant.
 
-      :::image type="content" source="images/example-file-contents.png" alt-text="The content of the sample organizational data file":::
+      :::image type="content" source="images/example-file-contents.png" alt-text="The content of the sample organizational data file" lightbox="images/example-file-contents.png":::
 1. Generate the secrets in Key Vault by performing the following steps:
      1. Launch the Key Vault (**wuarmdfkv1)**.
         :::image type="content" source="images/properties-screen.png" alt-text="The screen from which you select the keyvault":::
@@ -307,11 +308,11 @@ The setup details are available [here](#data-pipeline---automated).
 
     **Tenant 1**: In this example, the **tenantid1**, **servicePrincipal1**, and **MTWpaSecret1** values are the secrets to be created in the keyvault.
 
-    https://workplaceanalytics.office.com/2de6681a-42d5-46fa-a858-2660f5743815/scopes/e0d8d313-6075-4c25-b714-98843532ae61/jobsodata/a6ca4178-f30b-4c7a-8c8e-38f53fe1d2d0/GroupToGroup,tenantid1,https://workplaceanalytics.office.com,servicePrincipal1,MTWpaSecret1,GroupToGroup,GroupToGroup
+    `https://workplaceanalytics.office.com/2de6681a-42d5-46fa-a858-2660f5743815/scopes/e0d8d313-6075-4c25-b714-98843532ae61/jobsodata/a6ca4178-f30b-4c7a-8c8e-38f53fe1d2d0/GroupToGroup,tenantid1,https://workplaceanalytics.office.com,servicePrincipal1,MTWpaSecret1,GroupToGroup,GroupToGroup`
 
     **Tenant 2**: In this example, the values **tenantid2**, **servicePrincipal2**, and **SPSecret2** are the secrets to be created in the keyvault.
 
-    https://workplaceanalytics.office.com/10c5ca3c-a4d2-424d-8af3-f0efd6c79c99/scopes/217c5147-e12b-448c-9672-25b79a9ec0f0/jobsodata/ae3270dc-ba5a-4c40-b6b9-81fd9b5a4eac/GroupToGroup,tenantid2,https://workplaceanalytics.office.com,servicePrincipal2,SPSecret2,GroupToGroup,WpAAIGroupToGroup
+    `https://workplaceanalytics.office.com/10c5ca3c-a4d2-424d-8af3-f0efd6c79c99/scopes/217c5147-e12b-448c-9672-25b79a9ec0f0/jobsodata/ae3270dc-ba5a-4c40-b6b9-81fd9b5a4eac/GroupToGroup,tenantid2,https://workplaceanalytics.office.com,servicePrincipal2,SPSecret2,GroupToGroup,WpAAIGroupToGroup`
 
     **Example 2**: This example describes (in a pictorial form) the step involved in creating a secret, using the **tenantid1** value from the **Tenant 1** example.
 
@@ -331,7 +332,7 @@ The setup details are available [here](#data-pipeline---automated).
     1. Select **wpaexports**. The screen displaying details/options in **wpaexports** is displayed.
        :::image type="content" source="images/containers-wpaexports.png" alt-text="The screen displaying the Upload option":::
     1. Select **Upload**. The screen displaying the uploaded file appears.
-       :::image type="content" source="images/containers-wpaexports-upload.png" alt-text="THe screen displaying the odatasources.txt file":::
+       :::image type="content" source="images/containers-wpaexports-upload.png" alt-text="The screen displaying the odatasources.txt file":::
 
 #### To set trigger for pipeline
 
@@ -371,7 +372,7 @@ The Business Continuity PBI report file can be used as an example of the followi
 
 To download the report, you can download the PBI template for the [Business Continuity](../insights/Tutorials/power-bi-bc.md) report you executed as part of the preconditions.
 
-Once you have downloaded the report and the data sources have been modified, the report can show visualizations across the two tenants. See below for some example screen shots.
+Once you have downloaded the report and the data sources have been modified, the report can show visualizations across the two tenants. See below for some example screenshots.
 
 **Example 1**
 
