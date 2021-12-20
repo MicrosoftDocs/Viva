@@ -185,7 +185,7 @@ If you get the following error, you have not selected the Organizational attribu
 
 ![Collaborators record not found error.](../Images/WpA/Tutorials/pbi-collaborators-error.png)
 
-Close Power BI, redo the set up steps in [Set up the dashboard for Return to worksites](power-bi-return-tw.md#set-up-the-dashboard), and then select the applicable Organizational attribute in **Steps 7 and 9** for the correct worksite location for the employees included in the analysis.
+Close Power BI, redo the set up steps in [Set up the dashboard for Return to worksites](power-bi-return-tw.md#set-up-the-dashboard), and then select the applicable Organizational attribute in **Steps 7 and 9** for the worksite location for the employees included in the analysis.
 
 ## Support
 
