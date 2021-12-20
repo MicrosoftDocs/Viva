@@ -2,11 +2,11 @@
 
 title: Privacy settings and exclusions for Workplace Analytics
 description: Describes the privacy settings and exclusions in Workplace Analytics that administrators can set up and edit for your organization
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -142,7 +142,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 3. In **Exclude domains**, type one or more domains to exclude.
 4. In **Exclude email addresses**, type one or more email addresses to exclude.
 5. In **Exclude terms from subject lines**, type one or more terms or keywords to exclude.
-6. Carefully confirm all settings, and then select **I confirm that all privacy settings are correct**. Settings can be finalized only when you select this check box.
+6. Carefully confirm all settings, and then select **I confirm that all privacy settings are correct**. Settings can be finalized only when you select this checkbox.
 7. At the top right of the page, select **Save**.
 
 >[!Important]
