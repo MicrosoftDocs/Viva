@@ -5,8 +5,12 @@ description: Describes the privacy and data access controls available in Microso
 author: madehmer
 ms.author: helayne
 ms.topic: article
+ms.collection: 
+- viva-insights-advanced
+- viva-insights-leader
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: viva 
+ms.subservice: viva-insights 
 manager: scott.ruble
 audience: Admin
 

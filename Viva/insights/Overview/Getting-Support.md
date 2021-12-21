@@ -5,8 +5,14 @@ description: What support options are available for help with Microsoft Viva Ins
 author: madehmer
 ms.author: helayne
 ms.topic: troubleshooting
+ms.collection: 
+- viva-insights-personal
+- viva-insights-advanced
+- viva-insights-leader
+- viva-insights-manager
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: viva 
+ms.subservice: viva-insights 
 manager: scott.ruble
 audience: Admin
 

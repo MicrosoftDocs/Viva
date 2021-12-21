@@ -18,7 +18,7 @@ audience: Admin
 ---
 # Viva Insights partner solution overview
 
-Microsoft Viva Insights provides rich insights into your company’s communication and collaboration trends to identify behaviors that affect your bottom line. Viva Insights uses Microsoft 365 email and calendar metadata and turns it into a set of behavioral metrics that help you understand how your teams are currently spending their time and working together.
+Microsoft Viva Insights provides insights into your company’s communication and collaboration trends that can affect your bottom line. Viva Insights uses Microsoft 365 email and calendar metadata to create behavioral metrics about how your employees are currently spending their time and working together.
 
 Viva Insights requires Microsoft 365 Exchange Online mailbox data. If your organization uses on-premises Exchange mailboxes, you will need to do one of the following to use Viva Insights:
 
