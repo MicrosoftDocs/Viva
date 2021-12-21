@@ -4,10 +4,13 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Data protection and Viva Insights
 description: Summarizes how your data is kept private and protected within Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- viva-insights-advanced
+- viva-insights-leader
+- viva-insights-manager
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

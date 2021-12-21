@@ -3,10 +3,10 @@
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of queries for custom data analysis
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

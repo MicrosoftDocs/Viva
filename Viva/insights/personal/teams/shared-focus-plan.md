@@ -5,7 +5,7 @@ description: Learn about the Shared focus plan option in Microsoft Viva Insights
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-ms.collection: m365initiative-viva-insights
+ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights

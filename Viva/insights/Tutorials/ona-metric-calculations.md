@@ -3,12 +3,12 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Network query metric calculations 
 description: Describes how the metrics are calculated for Viva Insights Network queries
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

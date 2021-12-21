@@ -6,7 +6,7 @@ ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
-- m365initiative-viva-insights 
+- viva-insights-personal 
 - viva-insights-manager
 ms.service: viva 
 ms.subservice: viva-insights 

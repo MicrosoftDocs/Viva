@@ -1,15 +1,12 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Individual Adoption - Sustain change
 description: How to sustain change after collaboration goals are met by using MyAnalytics
 author: madehmer
-ms.author: v-mideh
-ms.date: 02/21/2019
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

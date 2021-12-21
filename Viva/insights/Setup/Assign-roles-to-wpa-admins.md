@@ -7,7 +7,7 @@ ms.author: v-mideh
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
-- m365initiative-viva-insights 
+- viva-insights-advanced 
 - viva-insights-leader
 ms.service: viva 
 ms.subservice: viva-insights 

@@ -9,7 +9,7 @@ ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.prod: Mya
-ms.collection: M365-analytics, m365initiative-viva-insights
+ms.collection: M365-analytics, viva-insights-personal
 manager: scott.ruble
 audience: Admin
 ---

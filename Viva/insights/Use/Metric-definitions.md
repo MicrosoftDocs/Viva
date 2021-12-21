@@ -2,13 +2,13 @@
 
 title: Metric definitions 
 description: Describes the metrics for queries that are available in Microsoft Viva Insights, including Person, Meeting, Group-to-group, Person-to-group, and Network query metrics 
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

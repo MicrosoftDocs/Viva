@@ -9,7 +9,7 @@ ms.author: v-mideh
 ms.date: 04/03/2019
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

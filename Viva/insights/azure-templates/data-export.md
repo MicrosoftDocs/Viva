@@ -5,7 +5,7 @@ description: Learn how to use Data export in Workplace Analytics for advanced da
 author: madehmer
 ms.author: v-mideh
 ms.topic: article
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

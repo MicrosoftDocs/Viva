@@ -3,7 +3,7 @@ layout: LandingPage
 title: Workplace Analytics best practices for managers
 description: Learn what more about the best practices for managers that can help you improve how you and your team get work done
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-manager 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
