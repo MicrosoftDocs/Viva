@@ -6,7 +6,7 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced
+ms.collection: viva-insights-leader
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -32,7 +32,7 @@ The following are the percentage insights, their underlying metrics, and some de
 |Practice empathy |Percentage of employees who have less than 15 minutes of 1:1 time with their managers each week |[Meeting hours with manager 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define) |Percentage of employees who spend less than 15 minutes of weekly 1:1 time with their managers. To account for various meeting frequencies, the total time is calculated for each employee per month and averaged over a week. |
 |Free up capacity |Percentage of employees who spend 25+ hours in collaboration each week |[Collaboration hours](metric-definitions.md#collaboration-hours-define) |Percentage of employees who spend more than 25 hours collaborating each week over email, calls, instant messages, and meetings. This insight is calculated weekly and averaged over the time period. |
 |Accelerate decision making | Percentage of managers who spend a majority of their meeting time in double-booked meetings |[Conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define) |Percentage of employees who more than 50 percent of their meeting hours in conflicting meetings. This insight is calculated weekly and averaged over all the weeks. |
-|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#network-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the last six months. **Important**: At least 25 percent of your teams must have five or more members. If not, this insight will be unavailable due to incomplete information. |
+|Improve team cohesion |Percentage of employees who are members of teams with strong cohesion |[Strong ties](metric-definitions.md#network-metrics) |Strong cohesion is calculated by the number of strong ties of all team members divided by the maximum possible number of strong ties in the team. This percentage is calculated weekly and averaged over the last six months.* |
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -44,7 +44,10 @@ The following defines the organizational data shown in the visual behavioral ins
 |Practice empathy | Distribution of monthly 1:1 time with managers |Percentage of employees based on their monthly [meeting hours with managers 1:1](metric-definitions.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. |
 |Free up capacity | Distribution of collaboration hours |Percentage of employees based on their weekly [collaboration hours](metric-definitions.md#collaboration-hours-define). They are divided into those who spend between 0 and 10 hours, 10 and 20 hours, and more than 20 hours collaborating. These percentages are calculated weekly and averaged over the entire time period.  |
 |Accelerate decision making| Distribution of conflicting meeting hours |Percentage of employees based on their [conflicting meeting hours](metric-definitions.md#conflicting-meeting-hours-define). They are divided into those who spend less than 5 hours, between 5 and 10 hours, and more than 10 hours in conflicting meetings. These percentages are calculated weekly and averaged over the entire time period. |
-|Improve team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [Strong ties](metric-definitions.md#network-metrics). **Important**: At least 25 percent of your teams must have five or more members. If not, this insight will be unavailable due to incomplete information.|
+|Improve team cohesion |Cohesion within teams |An [organizational network graph](insight-ona-measures.md) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [Strong ties](metric-definitions.md#network-metrics).* |
+
+>[!Important]
+>*At least 25 percent of your teams must have five or more members. If not, this insight will be unavailable due to incomplete information. To ensure teams are accurately identified, confirm that your [Organizational upload](../Setup\upload-organizational-data2.md) includes all employees with the correct **ManagerId** information.
 
 ## Take action
 
