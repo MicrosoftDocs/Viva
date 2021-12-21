@@ -75,8 +75,6 @@ As described in [How to finally kill the useless, recurring meeting](https://ins
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.
 * Experiment with 15-minute meetings. Short stand-up meetings with focused agendas are common in high-stakes workplaces to debrief or reflect on an event.
 
-For more best practices and change strategies, see [Best practices for meetings](viva/insights/tutorials/gm-meetings).
-
 ### Promote healthy meeting habits
 
 Emailing and chatting during meetings can lead to different interpretations of decisions, missed guidance and inconsistent follow-through on action items.
