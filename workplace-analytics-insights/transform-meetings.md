@@ -13,7 +13,7 @@ audience: Admin
 
 # Transform meeting culture insights
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview.*
 
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -28,7 +28,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](glossary.md#long-meeting-define), [large meetings](glossary.md#large-meeting-define), [decision-making meetings](glossary.md#decision-making-meeting-define), and [meeting hours](metrics.md#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
-|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | [IsRecurring meeting filter](https://docs.microsoft.com/workplace-analytics/tutorials/meeting-queries.md#add-metrics) and [meeting hours](metrics.md#meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | [IsRecurring meeting filter](/viva/insights/tutorials/meeting-queries.md#add-metrics) and [meeting hours](metrics.md#meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
 |Promote healthy meeting habits |Percentage of employees who significantly multitask in meetings |[Multitasking meeting hours](metrics.md#multitasking-meeting-hours-define) | Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and then averaged for the entire time period. |
 
 The following defines the organizational data shown in the visual behavioral insights.
@@ -61,10 +61,10 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 The [condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Other ways to reduce meeting time:
 
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.  
 * Encourage employees to politely say no to meetings that lack an agenda or are misaligned with priorities. The feedback will motivate organizers to plan better meetings.
 
-For more best practices and change strategies, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
+For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
 
 ### Examine recurring meetings
 
@@ -72,10 +72,10 @@ Recurring meetings for team updates often consume large amounts of time. Over ti
 
 As described in [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), we all know how wasteful a "bloated" weekly meeting can be. But there's hope: "To liberate victims from this seemingly inescapable vicious cycle, it’s necessary to kick-start a virtuous cycle in which everyone is empowered to say no, ask why, and identify strategies to allow everyone in an organization to be more effective on a day-to-day basis." Ways to optimize recurring meetings:
 
-* Use [Microsoft Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.
+* Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) as a way for team members to get questions answered and provide updates without the need for a meeting.
 * Experiment with 15-minute meetings. Short stand-up meetings with focused agendas are common in high-stakes workplaces to debrief or reflect on an event.
 
-For more best practices and change strategies, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
+For more best practices and change strategies, see [Best practices for meetings](viva/insights/tutorials/gm-meetings).
 
 ### Promote healthy meeting habits
 
@@ -83,7 +83,7 @@ Emailing and chatting during meetings can lead to different interpretations of d
 
 According to [If you multitask during meetings, your team will, too](https://insights.office.com/productivity/multitask-meetings-team-will/): “Managers that frequently send emails during meetings are, according to our analysis, are 2.2 times more likely to have direct reports who also multi-task in meetings.” Ways to improve meetings:
 
-* Use [MyAnalytics insights to prepare for meetings](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#prepare-for-your-meetings), which includes information about the meetings, related documents, and reminders to book preparation time.
+* Use [MyAnalytics insights to prepare for meetings](/viva/insights/personal/use/use-the-insights#prepare-for-your-meetings), which includes information about the meetings, related documents, and reminders to book preparation time.
 * When distracted by a thought to send an email during a meeting, add it quickly to your to-do list instead and move on. This provides satisfaction and can help you regain focus.
 
-For more best practices and change strategies, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
+For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).

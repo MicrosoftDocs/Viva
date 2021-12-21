@@ -34,20 +34,7 @@ To assign roles:
 
 >[!Note]
 >The Microsoft 365 admin center references all roles as admins even though not all roles are admins.
-<!--NOT CURRENTLY AVAILABLE 2/26/21
-## Assign roles to groups
 
-You can also assign the role to one or more groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group automatically receive the same permissions that are assigned to that role.
-
->[!Note]
->The groups to which you can assign Insight app roles are Azure AD security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups).
-
-To assign users and roles to an Insights app group, the steps are similar to those for assigning users, as previously described in **Steps 9-12** in [Assign roles to users](#assign-roles-to-users) where in **Step 9**, instead of selecting a name, select a group, and then assign a role to that group.
-
-![Select group.](./images/select-group-b.png)
-
-If you have not yet created an Insights app group in Azure AD, and want to do so, see [Create a group and add members in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
--->
 ## Access to Viva Insights
 
 After assigning licenses, the data for Insights might take up to a week to process and become available. After [assigning roles](assign-roles.md) and allowing for data processing, refer your organization's leaders to [Viva Insights introduction](./intro.md) to learn more about how to use them.
@@ -55,4 +42,4 @@ After assigning licenses, the data for Insights might take up to a week to proce
 ## Related topics
 
 * [Set up Viva Insights](setup.md)
-* [Assign admin roles to Microsoft 365 user accounts with PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)
+* [Assign admin roles to Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)

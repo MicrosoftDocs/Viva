@@ -13,7 +13,7 @@ audience: Admin
 
 # Develop effective managers insights
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview.*
 
 Managers have a large impact on employee engagement, development and performance, and are pivotal for driving organizational change. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -45,8 +45,6 @@ The following defines the organizational data shown in the visual behavioral ins
 |Promote coaching and development |Distribution 1:1 time with managers each month |Shows the percentage of employees based on their monthly average number of [meeting hours with managers 1:1](metrics.md#meeting-hours-with-manager-1-1-define). They are divided into employees who have no 1:1s, between zero and one hour, and more than one hour of 1:1s with their manager in a month. These percentages are calculated monthly and averaged over the entire time period. This graph also uses the [influence metric](metrics.md#influence-define). |
 |Empower employees |Distribution of manager-employee coaching relationships |Uses the average time employees spend with their [managers in 1:1s](metrics.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with the manager](metrics.md#meeting-hours-with-manager-define) in attendance. The different manager-employee coaching relationships are grouped by employee time percentages that are weekly averages based on the monthly calculations: <ul><li>**Coached** - Spend more than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance.</li><li>**Co-attended** - Spend less than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spend more than 15 minutes in 1:1s and more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - Spend less than 15 minutes in 1:1s and less than 30 percent of their meeting hours with their managers in attendance. </li> |
 
-<!-- SEPARATING THIS ROW FROM THE TABLE TO AVOID BUILD ERRORS:  |Foster connectivity |Managers and cross-group connectivity |Shows an organizational network graph representing well-connected managers, less-connected managers, and all other employees based on their network connections within your organization. Enables you to see the impact a manager's network has on engagement and the networks of direct reports. These insights enable you to build more effective manager training programs to improve engagement and broader organizational connectivity. |-->
-
 ## Take action
 
 In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization.
@@ -70,9 +68,9 @@ Long and large meetings are costly and often a waste of manager time. Shorter an
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Ways to optimize meetings:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
-* Use [Manager insights in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/manager-insights/introduction) to help identify ways to support team behavior.
+* Use [Manager insights in Workplace Analytics](/viva/insights/manager-insights/introduction) to help identify ways to support team behavior.
 
-For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings)
+For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings)
 
 ### Prevent burnout
 
@@ -80,10 +78,10 @@ Pressure to "always be on" and long hours can lead to burnout. The amount of tim
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
-* Use [MyAnalytics wellbeing data](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/wellbeing) about after-hours activity and encourage them to disconnect.
-* Use the [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/mya-notifications#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
+* Use [MyAnalytics wellbeing data](/viva/insights/personal/Use/wellbeing) about after-hours activity and encourage them to disconnect.
+* Use the [Inline suggestions in Outlook](/viva/insights/personal/Use/mya-notifications#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 
-For more best practices and how to define and share working hours, see [Best practices for wellbeing](https://docs.microsoft.com/workplace-analytics/tutorials/gm-wellbeing).
+For more best practices and how to define and share working hours, see [Best practices for wellbeing](/viva/insights/tutorials/gm-wellbeing).
 
 ### Strengthen management pipeline
 
@@ -91,19 +89,19 @@ Potential influencers are often difficult to discover within an organization. Em
 
 The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
 
-* Use MyAnalytics network insights to cultivate influence and the [Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network) page to see connections, top collaborators, and suggestions on how to improve connections.
-* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](https://docs.microsoft.com/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
+* Use MyAnalytics network insights to cultivate influence and the [Network](/viva/insights/personal/use/network) page to see connections, top collaborators, and suggestions on how to improve connections.
+* Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
 * Consider employees with high potential, not just top performers. Attributes that have contributed to past success may not predict future success. Broaden measures used to identify leaders to include those that assess potential, such as influence ranking.
 
-For more best practices and how to identify and utilize influencers, see [Best practices for influencers](https://docs.microsoft.com/workplace-analytics/tutorials/gm-influencer).
+For more best practices and how to identify and utilize influencers, see [Best practices for influencers](/viva/insights/tutorials/gm-influencer).
 
 ### Promote coaching and development
 
 Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
-One of the top best practices for promoting coaching and development is to require that managers schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
+One of the top best practices for promoting coaching and development is to require that managers schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](/viva/insights/personal/use/use-the-insights#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
 
-For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](https://docs.microsoft.com/workplace-analytics/tutorials/gm-coaching).
+For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](/viva/insights/tutorials/gm-coaching).
 
 ### Empower employees
 
@@ -112,18 +110,6 @@ Cultivating autonomy and development are essential for employee engagement. When
 [How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that "helping your team manage its time well is a critical factor for its success." Ways to increase information sharing:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
-* Use [Manager insights in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/manager-insights/introduction) to identify ways to support team behavior.
+* Use [My team in Teams](/viva/insights/use/myteam) to identify ways to support team behavior.
 
-For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
-
-<!--### Foster connectivity
-
-Managers who have diverse ties across an organization are typically considered more effective and help their employees build strong networks.
-
- [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) explains that work "occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes." Ways to foster connectivity:
-
-* Create cross-team communities for people with similar interests to share ideas, knowledge, and resources. This can also be done using [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview).
-* Enable and use the [Insights Outlook add-in](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights) and [MyAnalytics Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network) to add colleagues to your **Important people** list, receive suggestions to meet, reminders to respond to emails, and complete tasks for these contacts. And urge your team to do the same.
-
-For more best practices and ways to open your network to your team, see [Best practices for manager connectedness](https://docs.microsoft.com/workplace-analytics/tutorials/gm-connectedness).
--->
+For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).

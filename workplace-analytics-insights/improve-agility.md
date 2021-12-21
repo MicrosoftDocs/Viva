@@ -13,7 +13,7 @@ audience: Admin
 
 # Improve agility
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview.*
 
 Companies that redefine industries and lead markets are less bureaucratic and nimbly adapt to rapid changes in technology and customer needs. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -30,7 +30,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Organize better meetings |Percentage of employees who spend a majority of their meeting time in long or large meetings | [Attendees](metrics.md#attendees-define), [Attendee meeting hours](metrics.md#attendee-meeting-hours-define), [Long meetings](glossary.md#long-meeting-define), [Large meetings](glossary.md#large-meeting-define)| Percentage of employees who spend more than 50 percent of their meeting hours in long or large meetings. The insight is calculated weekly and averaged over the entire time period.  |
 |Accelerate decision making |Percentage of employees who could be empowered to make faster decisions | [Influence](metrics.md#influence-define)  |Employees whose influence score is within 25 percent of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered as compared to all measured employees.  |
 |Improve management practices |Percentage of managers who spend a majority of their meeting time in double-booked meetings | [Attendees with conflicting meeting](metrics.md#attendees-with-conflicting-meeting-define) |Percentage of managers who spend more than 50 percent of their time in overlapping meetings. The count includes the entire duration of the overlapping meetings, not just the amount of time that overlaps. This counts all non-declined meetings, including accepted, tentative, and no responses to meeting invitations on their calendars. This insight is calculated weekly and averaged over the entire time period. |
-<!--|Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metrics.md#diverse-tie-score-define)  |\[Calculation info\] |  -->
 
 The following defines the organizational data shown in the visual behavioral insights.
 
@@ -62,10 +61,10 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) suggests: "Always set an agenda out ahead of time—and be clear about the purpose of the meeting." Other ways to reduce meeting size or length:
 
-* When composing a meeting invitation with a duration of one hour, note the [MyAnalytics inline suggestion](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-notifications.md#shorten-a-meeting) to shorten the meeting by 15 minutes.
+* When composing a meeting invitation with a duration of one hour, note the [MyAnalytics inline suggestion](/viva/insights/personal/use/mya-notifications.md#shorten-a-meeting) to shorten the meeting by 15 minutes.
 * When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 
-For more best practices, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
+For more best practices, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
 
 ### Accelerate decision making
 
@@ -74,24 +73,10 @@ Agile organizations are transparent and freely share information to avoid miscom
 According to [Five ways to empower your team to make decisions](https://insights.office.com/management-strategy/five-ways-to-empower-your-team-to-make-decisions/): “Employee empowerment is directly tied to results. A study by Zenger Folkman found 4 percent of employees are willing to put in more effort when empowerment is low, while 67 percent are willing to go above and beyond when empowerment is high.” Ways to empower decision making:
 
 * Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
-* Use [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
-* Use [MyAnalytics insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
+* Use [Teams channels](/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
+* Use [MyAnalytics insights](/viva/insights/personal/use/use-the-insights) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
 
-For more best practices and change strategies, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
-
-<!--
-### Foster cross-group collaboration
-
-Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
-
-Ways to foster cross-group collaboration:
-
-* Build community by promoting information sharing and community building. Do this, for example, through cross-functional projects and communication about strategic topics carried out in Microsoft Teams channels.
-* The MyAnalytics network dashboard shows your connections and top collaborators, and gives you suggestions on how to improve connections with your most important contacts.
-
-For more best practices and how to create goals across teams or departments, see [Best practices for cross-group collaboration](https://docs.microsoft.com/workplace-analytics/tutorials/gm-cgcollaboration).
-
--->
+For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
 
 ### Improve management practices
 
@@ -102,7 +87,7 @@ The level of day-to-day collaboration between managers and their employees can i
 [Collaboration overload is a symptom of a deeper organizational problem](https://insights.office.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/) explains that “meetings can become a substitute for effective leadership communication. Rather than taking the time to share the specifics discussed in a meeting with subordinates who did not attend, some leaders opt to invite an army to every meeting.” Ways to improve:
 
 * Empower employees with ownership of work streams so they can quickly make decisions and take action.
-* Use [MyAnalytics insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
+* Use [MyAnalytics insights](/viva/insights/personal/use/use-the-insights#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
 * Promptly decline meetings as soon as possible with a brief explanation for why to reinforce decision rights and role model healthy habits.
 
-For more best practices and change strategies, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
+For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
