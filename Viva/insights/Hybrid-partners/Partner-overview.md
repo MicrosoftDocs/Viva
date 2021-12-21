@@ -18,7 +18,7 @@ audience: Admin
 ---
 # Viva Insights partner solution overview
 
-Microsoft Viva Insights provides insights into your company’s communication and collaboration trends that can affect your bottom line. Viva Insights uses Microsoft 365 email and calendar metadata to create behavioral metrics about how your employees are currently spending their time and working together.
+Microsoft Viva Insights provides insights into communication and collaboration trends that can affect your bottom line. Viva Insights uses Microsoft 365 email and calendar metadata to create behavioral metrics about how your employees are currently spending their time and working together.
 
 Viva Insights requires Microsoft 365 Exchange Online mailbox data. If your organization uses on-premises Exchange mailboxes, you will need to do one of the following to use Viva Insights:
 
@@ -29,7 +29,7 @@ Your organization must comply with the system requirements and complete the setu
 
 ## Viva Insights partner solutions
 
-* **Archive360 FastCollect** - A solution for Azure that connects on-premises data to Microsoft 365 and Azure data. This solution supports large datasets of structured, semi-structured, and unstructured data and is very extensible as a modular architecture solution. This solution requires an on-premises connector (deployed by the customer) with the data hosted on-premises and uses MAPI for cloud access. For a managed solution, Archive360 needs access to the connector. See [Archive360 FastCollect](https://www.archive360.com/products/fastcollect-for-archives/) to learn more about this solution.
+* **Archive360 FastCollect** - A solution for Azure that connects on-premises data to Microsoft 365 and Azure data. This solution supports large datasets of structured, semi-structured, and unstructured data and is very extensible as a modular architecture solution. This solution requires an on-premises connector (deployed by the customer) with the data hosted on-premises and uses MAPI for cloud access. For a managed solution, Archive360 needs access to the connector. See [Archive360 FastCollect](https://www.archive360.com/products/fastcollect-for-archives/) for details.
 
 * **Quest On Demand Migration for Email** - Offers a cloud-based service that synchronizes on-premises Exchange mailbox data with Microsoft 365 as staged mailboxes for Viva Insights to access and analyze. The data is hosted on Quest’s Azure tenant. This solution uses SaaS and an on-premises application with Exchange Web Services. See [Quest](https://www.quest.com/products/on-demand-migration-for-email/) for details.
 
