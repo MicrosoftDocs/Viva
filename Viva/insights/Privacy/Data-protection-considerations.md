@@ -29,7 +29,7 @@ The concepts of [data controller](#data-controller), [data processor](#data-proc
 
 The following graphic shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (right):
 
-![Roles in data protection.](./images/data-subject-controller-processor.png)
+![Roles in data protection.](../images/data-subject-controller-processor.png)
 
 Before setting up Viva Insights, first consider the respective roles and responsibilities of your organization and of Microsoft to protect personal data and honor the rights of data subjects.
 
