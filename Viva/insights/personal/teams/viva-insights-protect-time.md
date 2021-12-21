@@ -3,7 +3,7 @@
 title: Protect time with Viva Insights
 description: Use the Protect time feature in the Viva Insights app  
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

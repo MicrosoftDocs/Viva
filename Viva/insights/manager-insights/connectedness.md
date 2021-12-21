@@ -3,7 +3,7 @@
 title: Best practices for manager connectedness
 description: Workplace Analytics shares best practices with managers about connecting with their teams and employees
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

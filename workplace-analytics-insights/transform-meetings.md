@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Transform meeting culture with Microsoft Viva Insights
 description: Learn how to use the insights data to analyze and transform your organization's meeting culture
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa

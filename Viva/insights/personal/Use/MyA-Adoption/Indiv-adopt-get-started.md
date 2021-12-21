@@ -3,7 +3,7 @@
 title: MyAnalytics Individual Adoption --Get started
 description: MyAnalytics Individual Adoption by Kate Nowak --Get started section
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 

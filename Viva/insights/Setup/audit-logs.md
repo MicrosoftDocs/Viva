@@ -3,7 +3,7 @@
 title: Audit logs for Viva Insights
 description: Learn how to monitor Microsoft Viva Insights activity with audit logs
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

@@ -2,7 +2,7 @@
 title: Viva Insights digest emails
 description: Viva Insights users receive a welcome email and monthly digest emails with key insights and suggestions
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 

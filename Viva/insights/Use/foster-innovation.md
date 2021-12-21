@@ -2,7 +2,7 @@
 title: Foster innovation
 description: Learn how to use Microsoft Viva Insights data to analyze and foster innovation in your organization
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-leader 

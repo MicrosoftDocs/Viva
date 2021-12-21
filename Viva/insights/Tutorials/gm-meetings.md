@@ -3,7 +3,7 @@
 title: Best practices for manager meetings
 description: Microsoft Viva Insights shares best practices with managers about planning and running meetings
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

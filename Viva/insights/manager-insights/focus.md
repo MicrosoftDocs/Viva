@@ -3,7 +3,7 @@
 title: Best practices for focused work
 description: Workplace Analytics shares best practices with managers about the importance of scheduled time to focus
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

@@ -3,8 +3,8 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Videos for Viva Insights
 description: Videos about how Microsoft Viva Insights in Workplace Analytics works
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.prod: wpa

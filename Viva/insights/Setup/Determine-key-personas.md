@@ -3,7 +3,7 @@
 title: Key personas and roles
 description: Determine key personas and roles for setting up Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced 

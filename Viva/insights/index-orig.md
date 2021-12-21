@@ -10,7 +10,7 @@ ms.subservice: viva-insights
 search.appverid: 
 - MET150 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: overview
 manager: scott.ruble
 audience: Admin

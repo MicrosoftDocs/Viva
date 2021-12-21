@@ -2,8 +2,8 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Group-based licensing for Workplace Analytics
 description: Assign group-based licensing for Workplace Analytics
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

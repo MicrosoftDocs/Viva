@@ -2,8 +2,8 @@
 
 title: Assign licenses with the MyAnalytics service plan
 description: Assign licenses with the MyAnalytics service plan
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

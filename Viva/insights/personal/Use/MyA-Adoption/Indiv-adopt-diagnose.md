@@ -3,7 +3,7 @@
 title: MyAnalytics Individual Adoption --Diagnose 
 description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose issues
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 

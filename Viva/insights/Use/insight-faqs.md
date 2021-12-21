@@ -3,7 +3,7 @@
 title: FAQs about Workplace Analytics insights for managers
 description: Most frequently asked questions and answers about Workplace Analytics manager insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

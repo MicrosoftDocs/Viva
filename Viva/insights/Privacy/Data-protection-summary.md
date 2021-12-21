@@ -3,7 +3,7 @@
 title: Summary of data-protection considerations
 description: Data-protection considerations summary when using Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection:  - viva-insights-advanced

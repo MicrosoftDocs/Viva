@@ -3,7 +3,7 @@
 title: Best practices for community connectivity
 description: Workplace Analytics shares best practices about supporting community connectivity
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

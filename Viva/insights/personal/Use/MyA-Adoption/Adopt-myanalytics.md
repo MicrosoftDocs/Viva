@@ -3,7 +3,7 @@
 title: Learning collateral for MyAnalytics adoption
 description: Learning materials that help you understand how to best adopt and use MyAnalytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 

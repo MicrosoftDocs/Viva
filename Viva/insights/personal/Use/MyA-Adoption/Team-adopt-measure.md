@@ -3,7 +3,7 @@
 title: MyAnalytics Team Adoption --Measure
 description: MyAnalytics Team Adoption by Kate Nowak --Measure section
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 

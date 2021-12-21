@@ -3,7 +3,7 @@
 title: Advanced insights in Viva Insights
 description: Learn about advanced insights in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:

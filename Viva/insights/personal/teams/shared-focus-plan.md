@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Shared focus plan
 description: Learn about the Shared focus plan option in Microsoft Viva Insights in Teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 

@@ -3,7 +3,7 @@
 title: Week in the life metrics in Workplace Analytics
 description: Overview of the data available for a Week in the life in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

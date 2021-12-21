@@ -3,7 +3,7 @@
 title: Best practices for wellbeing
 description: Best practices for work-life balance that managers can share with their teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

@@ -3,7 +3,7 @@
 title: Admin tasks for personal insights
 description: Admin guide for personal insights in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:

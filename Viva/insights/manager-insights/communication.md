@@ -3,7 +3,7 @@
 title: Best practices for efficient communication
 description: Workplace Analytics shares best practices with managers about communication with their teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

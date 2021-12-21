@@ -3,7 +3,7 @@
 title: Viva Insights maintenance
 description: Admin tasks for maintaining Microsoft Viva Insights data
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

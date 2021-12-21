@@ -2,7 +2,7 @@
 title: Get started with manager insights
 description: Learn how to sign in and use Manager insights in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: viva-insights-manager 

@@ -3,7 +3,7 @@
 title: Advanced insights FAQ
 description: Frequently asked questions about advanced insights for Microsoft Viva Insights in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: reference
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced 

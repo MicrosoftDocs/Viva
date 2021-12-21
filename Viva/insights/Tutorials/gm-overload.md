@@ -3,7 +3,7 @@
 title: Best practices for avoiding email overload with Workplace Analytics
 description: Microsoft Viva Insights shares best practices with managers about how to avoid email overload
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

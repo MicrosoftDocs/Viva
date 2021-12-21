@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Data privacy with Insights
 description: About how personal data is kept private in Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
 ms.prod: wpa

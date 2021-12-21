@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Format data for uploading in Viva Insights 
 description: How to format .xlsx files and .csv files for uploading in Microsoft Viva Insights  
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

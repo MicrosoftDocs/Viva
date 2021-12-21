@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Activate licenses for Viva Insights
 description: Activate licenses for Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

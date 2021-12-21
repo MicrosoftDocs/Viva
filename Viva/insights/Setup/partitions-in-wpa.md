@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Partitions for Viva Insights
 description: Describes how to use and set up partitions in Workplace Analytics for Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

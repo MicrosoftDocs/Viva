@@ -3,7 +3,7 @@
 title: Explore the stats page settings
 description: Describes the page settings for Explore the stats in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

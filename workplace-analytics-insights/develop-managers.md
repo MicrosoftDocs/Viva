@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Develop effective managers with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and develop effective managers in your organization
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
 ms.prod: wpa

@@ -2,7 +2,7 @@
 title: MyAnalytics Individual Adoption --Additional resources
 description: MyAnaytics Individual Adoption by Kate Nowak --Additional resources section
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 

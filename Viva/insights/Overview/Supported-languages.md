@@ -3,7 +3,7 @@
 title: Language support and guidelines for Viva Insights
 description: Describes the privacy and data access controls available in Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa

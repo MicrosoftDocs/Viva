@@ -3,7 +3,7 @@
 title: Get support for Viva Insights
 description: What support options are available for help with Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: troubleshooting
 ms.localizationpriority: medium 
 ms.prod: wpa

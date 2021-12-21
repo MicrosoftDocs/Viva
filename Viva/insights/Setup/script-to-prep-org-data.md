@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Use a script to prepare organizational data in Workplace Analytics
 description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

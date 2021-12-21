@@ -3,7 +3,7 @@
 title: Business continuity report
 description: Use the Business continuity report that's within the Productivity Score report to analyze organizational collaboration data
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

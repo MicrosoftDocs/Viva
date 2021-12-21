@@ -2,7 +2,7 @@
 title: Manager insights FAQ
 description: Most commonly asked questions and their answers about My team insights in Viva Insights and Manager insights in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: viva-insights-manager 

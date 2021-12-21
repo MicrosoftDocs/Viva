@@ -8,7 +8,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-ms.author: v-mideh
+ms.author: helayne
 author: madehmer
 
 ---

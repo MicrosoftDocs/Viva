@@ -3,7 +3,7 @@
 title: Best practices for efficient communication in Workplace Analytics
 description: Microsoft Viva Insights shares best practices with managers about communication with their teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

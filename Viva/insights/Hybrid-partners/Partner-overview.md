@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights partner solution overview
 description: An overview of how Microsoft Viva Insights works with partners to access and analyze on-premises Exchange mailbox data
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

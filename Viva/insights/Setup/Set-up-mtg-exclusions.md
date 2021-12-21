@@ -3,7 +3,7 @@
 title: Set up meeting exclusions for Viva Insights
 description: Set up initial meeting exclusions for Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

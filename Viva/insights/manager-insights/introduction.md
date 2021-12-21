@@ -3,7 +3,7 @@
 title: Introducing Manager insights
 description: About Manager insights in Microsoft Viva Insights in Teams and in Workplace Analytics and how to use them to help manage your team
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: viva-insights-manager 
