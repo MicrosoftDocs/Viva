@@ -3,10 +3,10 @@
 title: Consumption model for Viva Insights
 description: Learn about the consumption model for analyst usage of queries in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

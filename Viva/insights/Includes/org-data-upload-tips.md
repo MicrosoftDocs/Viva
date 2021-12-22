@@ -2,8 +2,8 @@
 
 title: Tips for uploading org data
 description: Tips when uploading org data to MyAnalytics. 
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-insights 

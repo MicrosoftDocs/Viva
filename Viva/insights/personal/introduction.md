@@ -3,7 +3,7 @@
 title: Personal insights introduction
 description: Personal insights introduction
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 

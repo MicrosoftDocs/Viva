@@ -3,13 +3,16 @@
 title: Advanced insights in Viva Insights
 description: Learn about advanced insights in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150
-ms.prod: wpa
-ms.collection: M365-analytics, m365initiative-viva-insights, viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-advanced
 manager: scott.ruble
 audience: Admin
 

@@ -3,10 +3,10 @@
 title: Explore internal network metrics in Workplace Analytics
 description: An overview of the internal network collaboration data available in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

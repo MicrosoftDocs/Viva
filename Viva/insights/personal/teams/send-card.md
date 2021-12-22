@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Send a card with Viva Insights
 description: Use the Send a card feature in the Microsoft Viva Insights app
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

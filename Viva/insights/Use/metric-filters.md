@@ -2,12 +2,12 @@
 title: Workplace Analytics metric filters 
 description: Describes the filters that analysts can use to refine metrics in queries 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Workspace Planning Azure Template for Workplace Analytics 
 description: Learn about the Workspace Planning Azure Template for Workplace Analytics and how to use it for advanced data analysis
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

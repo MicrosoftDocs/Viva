@@ -3,10 +3,10 @@
 title: Viva Insights privacy considerations
 description: Privacy considerations when using Advanced insights in Microsoft Viva Insights to analyze your organizational data 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

@@ -2,10 +2,10 @@
 title: Workplace Analytics insights
 description: Learn actionable insights into more effective business outcomes for your organization 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-leader 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

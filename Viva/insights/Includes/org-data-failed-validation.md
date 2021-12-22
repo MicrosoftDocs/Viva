@@ -2,8 +2,8 @@
 
 title: Options upon failed validation (subsequent uploads)
 description: What you can do after your uploaded data has failed to validate.  
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

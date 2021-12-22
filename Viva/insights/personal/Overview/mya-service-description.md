@@ -3,7 +3,7 @@
 title: Viva Insights service description
 description: Microsoft Viva Insights features, distributions, privacy, and prerequisites
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

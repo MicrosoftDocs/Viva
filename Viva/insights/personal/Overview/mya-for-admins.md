@@ -3,7 +3,7 @@
 title: Admin tasks for personal insights
 description: Admin guide for personal insights in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -42,4 +42,4 @@ Access to these elements depends on the plan in place at your organization; for 
 
 ## Introduction to Viva Insights
 
-See [Introduction to Microsoft Viva Learning](https://docs.microsoft.com/microsoft-365/learning) to learn about Microsoft Viva Insights.
+See [Introduction to Microsoft Viva Learning](/microsoft-365/learning) to learn about Microsoft Viva Insights.

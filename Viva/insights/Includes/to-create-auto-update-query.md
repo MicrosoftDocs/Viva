@@ -2,8 +2,8 @@
 
 title: To create an auto-update query
 description: How to create an auto-update query in Viva Insights in Workplace Analytics
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

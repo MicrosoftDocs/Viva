@@ -2,12 +2,13 @@
 title: Data-protection considerations for manager, leader, and advanced insights 
 description: Data-protection considerations when using Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: 
-- m365initiative-viva-insights
-- viva-insights-advanced 
+- viva-insights-advanced
+- viva-insights-leader
+- viva-insights-manager
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -18,7 +19,7 @@ audience: Admin
 
 # Data-protection considerations
 
-By using data generated from everyday work in Microsoft 365, manager, leader, and advanced insights in the different Microsoft Viva Insights features help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
+By using data generated from everyday work in Microsoft 365, the different Microsoft Viva Insights features help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 The following includes a basic overview of the roles, responsibilities, types of data, and data-privacy recommendations. The general suggestions offered here are a starting point for planning your data-protection strategy and deployment. These are not intended as a substitute for addressing your organization’s unique needs by engaging with legal, privacy, human-resources, and other subject matter experts within your organization.
 
@@ -28,7 +29,7 @@ The concepts of [data controller](#data-controller), [data processor](#data-proc
 
 The following graphic shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (right):
 
-<img src="../Images/data-subject-controller-processor.PNG" alt="Roles in data protection">
+![Roles in data protection.](../images/data-subject-controller-processor.png)
 
 Before setting up Viva Insights, first consider the respective roles and responsibilities of your organization and of Microsoft to protect personal data and honor the rights of data subjects.
 
@@ -74,7 +75,7 @@ A data subject is a person who can be identified through personal data. In the c
 
 ## De-identification of data
 
-To keep from disclosing personal data, Viva Insights de-identifies user data by using pseudonymization and other techniques, including aggregation. For more information, see [De-identification of personal data](de-identify-data.md).  
+To keep from disclosing personal data, Viva Insights de-identifies user data. See [De-identification of personal data](de-identify-data.md) for details.  
 
 ## Types of data used in analysis
 

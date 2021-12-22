@@ -2,11 +2,11 @@
 
 title: Introduction to Workplace Analytics plans
 description: Introduction to Workplace Analytics plans
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

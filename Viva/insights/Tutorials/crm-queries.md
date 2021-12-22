@@ -3,10 +3,10 @@
 title: CRM queries in Viva Insights 
 description: Describes how to use Query designer to analyze CRM data in Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
