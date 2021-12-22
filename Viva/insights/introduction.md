@@ -15,6 +15,7 @@ ms.author: helayne
 ms.topic: overview
 manager: scott.ruble
 audience: Admin
+ms.custom: intro-overview
 ---
 
 # Introducing Microsoft Viva Insights
