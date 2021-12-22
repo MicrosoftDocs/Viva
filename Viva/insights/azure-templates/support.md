@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Support for Workplace Analytics Azure Templates 
 description: How to get support for Workplace Analytics Azure Templates
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

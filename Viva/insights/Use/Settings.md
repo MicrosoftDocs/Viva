@@ -3,10 +3,10 @@
 title: Workplace Analytics Controls
 description: Learn about the settings in the Controls section of Workplace Analytics for Viva Insights, such as data sources, data uploads, system defaults, privacy rules, and other data analyst settings
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

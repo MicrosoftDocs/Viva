@@ -3,7 +3,7 @@
 title: Headspace meditation with the Briefing email
 description: Learn how to access the Headspace feature from the Briefing email
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 localization_priority: normal 
 ms.prod: Mya

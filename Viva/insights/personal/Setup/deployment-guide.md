@@ -3,7 +3,7 @@
 title: Viva Insights deployment guide
 description: Guide for admins on deploying Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

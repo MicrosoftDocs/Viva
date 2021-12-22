@@ -5,11 +5,11 @@
 title: MyAnalytics Individual Adoption --Set goals
 description: MyAnalytics Individual Adoption by Kate Nowak --Set goals section
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.date: 04/03/2019
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

@@ -3,7 +3,7 @@
 title: Viva Insights Home page in Teams
 description: About the Home page in the Microsoft Viva Insights app
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

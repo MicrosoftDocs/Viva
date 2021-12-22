@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Install and pin the app
 description: Installation and pin steps for Microsoft Viva Insights in Microsoft Teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
 ms.prod: wpa

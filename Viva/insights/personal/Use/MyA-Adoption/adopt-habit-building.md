@@ -2,9 +2,9 @@
 title: Use MyAnalytics to build good work habits
 description: Building good habits with MyAnalytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

@@ -3,7 +3,7 @@
 title: Virtual commute with Viva Insights
 description: Use the virtual commute feature in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

@@ -3,7 +3,7 @@
 title: Follow up on tasks with the Briefing email
 description: Learn how to use the Briefing email to get today's tasks done
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
