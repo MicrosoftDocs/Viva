@@ -3,10 +3,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Connector base metrics 
 description: Describes the metrics for Workplace Analytics that you can import into Power BI through the Power BI Connector 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

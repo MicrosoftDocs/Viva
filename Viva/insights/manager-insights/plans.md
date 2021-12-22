@@ -3,7 +3,7 @@
 title: Workplace Analytics plans for managers
 description: Introduction and summary of Workplace Analytics plans
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.prod: wpa

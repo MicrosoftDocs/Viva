@@ -3,7 +3,7 @@
 title: Accelerate change in Viva Insights
 description: Learn how to use Microsoft Viva Insights data to analyze and accelerate organizational change
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 

@@ -3,10 +3,14 @@
 title: Language support and guidelines for Viva Insights
 description: Describes the privacy and data access controls available in Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
+ms.collection: 
+- viva-insights-advanced
+- viva-insights-leader
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: viva 
+ms.subservice: viva-insights 
 manager: scott.ruble
 audience: Admin
 
@@ -16,27 +20,19 @@ audience: Admin
 
 The user interface in Microsoft Viva Insights in Workplace Analytics is currently available in Chinese (Simplified), Chinese (Traditional), French (France), German (Germany), Italian (Italy), Japanese, Korean, Portuguese (Brazil), Russian (Russia), Spanish (Spain), and English (United States).
 
-The Workplace Analytics user interface automatically uses your locale (language and region) setting, as specified in one of the following sources:
+The Workplace Analytics app automatically uses your language identifier (language and region) setting, as specified in one of the following sources:
 
 * Windows
-* your web browser
-* the locale that is set for your Exchange Online mailbox
+* Your web browser
+* Location that's set for your Exchange Online mailbox
 
-You can override this setting. To do so, edit the URL that you use to access Workplace Analytics.
+You can override this setting. To do so, replace language identifier ("en-us" is for US English) with a different language identifier. The table under [Supported languages](#supported-languages) lists all of the supported languages for Workplace Analytics.
 
-* In the URL, replace the locale identifier (for example, "en-us" for US English) with a different locale identifier. The table under [Supported locales](#supported-locales) lists all of the supported locale identifiers for Workplace Analytics.
+For example, you'd replace '/en-us/' with '/ja-jp/' to indicate Japanese as the language to open the app in: 'https://workplaceanalytics.office.com/ja-jp/'
 
-    For example, replace /en-us/ in the following URL:
+## Supported languages
 
-    https://workplaceanalytics.office.com/en-us/ 
-
-    with /ja-jp/, to indicate Japanese:
-
-    https://workplaceanalytics.office.com/ja-jp/ 
-
-#### Supported locales
-
-Language and region | Locale identifier
+Language and region | Language identifier
 ------ | ------
 Chinese (Simplified) | zh-cn
 Chinese (Traditional) | zh-tw
@@ -50,7 +46,7 @@ Russian (Russia) | ru-ru
 Spanish (Spain) | es-es
 English (United States) | en-us
 
-### Use of non-English data
+## Use of data other than English
 
 In certain circumstances, you can use Workplace Analytics with _data_ that is in other languages. Follow these guidelines:
 
@@ -72,7 +68,7 @@ In [Privacy settings](../use/privacy-settings.md), when adding the subject line 
 
 We appreciate all your feedback. To report any language-related issues, use the **Send feedback** button.
 
-### Related topics
+## Related topics
 
 * [Supported languages in meeting exclusion rules](../tutorials/meeting-exclusion-concept.md#supported-languages)
 * [Control settings](../use/settings.md)

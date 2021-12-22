@@ -5,7 +5,7 @@
 title: View your important people list in MyAnalytics
 description: How to view your list of Important people in MyAnalytics 
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.date: 04/08/2019
 ms.topic: article
 ms.localizationpriority: medium 

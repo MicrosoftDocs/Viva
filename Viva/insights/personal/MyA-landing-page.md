@@ -2,10 +2,10 @@
 title: Viva Insights personal insights introduction
 description: Personal insights introduction for Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

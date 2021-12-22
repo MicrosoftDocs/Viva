@@ -2,12 +2,12 @@
 title: Workplace Analytics Power BI dashboard demos
 description: See demonstrations of the Power BI dashboards available in Workplace Analytics 
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-ms.author: v-mideh
+ms.author: helayne
 author: madehmer
 ms.topic: article
 manager: scott.ruble

@@ -3,10 +3,10 @@
 title: Data retention policy
 description: Accessing your organization's data after expiration of Microsoft Viva Insights subscriptions or removal of licenses
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

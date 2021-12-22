@@ -3,18 +3,18 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics playbooks
 description: Learn more about how to use Workplace Analytics with the available playbooks
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-ms.author: v-mideh
+ms.author: helayne
 author: madehmer
 ms.topic: article
 manager: scott.ruble
 audience: Admin
 ---
-# Workplace Analytics Playbooks
+# Workplace Analytics playbooks
 
 Maximize the power of Workplace Analytics to gain insights into how your organization collaborates and how to improve teamwork across your organization.
 
