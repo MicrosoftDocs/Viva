@@ -6,7 +6,9 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: enabler, admin
 ms.topic: landing-page
-ms.custom: intro-hub-or-landing
+ms.custom: 
+- intro-hub-or-landing
+- intro-overview
 ms.service: viva
 ms.subservice: viva-topics
 search.appverid: 

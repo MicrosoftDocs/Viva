@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-viva-connections
 - intro-get-started 
+ms.custom: intro-get-started
 search.appverid:
 - SPO160
 - MET150

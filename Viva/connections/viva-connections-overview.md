@@ -19,6 +19,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
+ms.custom: intro-overview
 description: "Learn how to use Viva Connections to engage and unite your organization."
 ---
 
