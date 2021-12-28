@@ -6,7 +6,9 @@ manager: pamgreen
 ms.reviewer: cjtan; lauris
 audience: admin
 ms.topic: article
-ms.custom: intro-overview
+ms.custom: 
+- intro-overview
+- intro-get-started
 ms.service: viva
 ms.subservice: viva-topics
 search.appverid: 
