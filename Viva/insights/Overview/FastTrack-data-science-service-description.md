@@ -3,10 +3,12 @@ ROBOTS: NOINDEX,FOLLOW
 title: Workplace Analytics FastTrack Data Science Service
 description: This topic describes the roles and responsibilities for a Workplace Analytics data science service project. 
 author: rodonahu
-ms.author: v-mideh
+ms.collection: viva-insights-advanced
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.service: viva 
+ms.subservice: viva-insights
 manager: scott.ruble
 audience: Admin
 ---

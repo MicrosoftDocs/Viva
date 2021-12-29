@@ -3,7 +3,7 @@
 title: Conduct a user pilot
 description: Helps you conduct a pilot rollout for the Briefing email
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

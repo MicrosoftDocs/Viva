@@ -3,10 +3,12 @@
 title: Group insights within My team in Viva Insights
 description: Learn about the Group insights within My team in Microsoft Viva Insights in Teams that shows managers their team collaboration patterns
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights
+- viva-insights-manager 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

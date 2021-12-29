@@ -3,10 +3,12 @@
 title: Leader insights in the My organization page
 description: My organization in Microsoft Viva Insights gives leaders key indicators into how their company is getting work done
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-leader
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -72,7 +74,7 @@ To investigate more about an outcome, select it to see more details.
 * [Increase customer focus](icustomer-focus.md)
 
 >[!Note]
->As you use the Viva Insights app, you can provide feedback about it to Microsoft. See **Q2** in [Manager and leader insights FAQ](my-team-faq.md) for details.
+>To provide feedback as you use Viva Insights, select **Yes** or **No** for the "Is this helpful" question near the end of every insight and every page.
 
 ## Related topics
 

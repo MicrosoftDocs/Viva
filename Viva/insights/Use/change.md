@@ -3,10 +3,12 @@
 title: Accelerate change in Viva Insights
 description: Learn how to use Microsoft Viva Insights data to analyze and accelerate organizational change
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-leader
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -30,11 +32,11 @@ Microsoft Viva Insights has a **My organization** page that shows leader's colla
 
 ## Calculations
 
-The percentage metric for **Engage influencers** is **Percentage of employees who can drive change within your workforce** that uses the [Influence](metric-definitions.md#network-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
+The **Engage influencers** insights shows the **Percentage of employees who can drive change within your workforce**, which uses the [Influence](metric-definitions.md#network-metrics) metric. This is the percentage of employees who are one step away from influencers. Influencers are the people with the best connections across the company.
 
 ![Accelerate change percentage insight.](../images/wpa/use/accelerate-change-percent.png)
 
-The visual behavioral insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#network-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
+The visual insight for **Engage influencers** is **Reach of influencers**, which is an [organizational network graph](insight-ona-measures.md) that shows the [influencers](metric-definitions.md#network-metrics), their connections, and how they effectively connect across your organization. It shows people who power the unobservable communication networks that you can target to effectively drive change.
 
 ![Accelerate change visual insight](../images/wpa/use/accelerate-change-visual.png)
 

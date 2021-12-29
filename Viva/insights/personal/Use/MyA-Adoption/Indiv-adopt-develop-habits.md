@@ -2,10 +2,10 @@
 title: MyAnalytics Individual Adoption - Develop new habits
 description: MyAnalytics Individual Adoption by Kate Nowak - Develop new habits section
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

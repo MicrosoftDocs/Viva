@@ -2,8 +2,8 @@
 
 title: Viva Insights Headspace 
 description: Use the Headspace feature in Microsoft Viva Insights app
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

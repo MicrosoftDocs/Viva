@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Increase customer focus with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and increase customer focus
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
 ms.prod: wpa
@@ -13,7 +13,7 @@ audience: Admin
 
 # Increase customer focus insights
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview.*
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
@@ -63,31 +63,16 @@ Collaboration with customers and other external contacts enables employees to ga
 
 According to [Optimizing sales and connecting with customers in the age of big data and machine learning](https://insights.office.com/sales-excellence/optimizing-sales-workplace-analytics/): "More time spent with customers; larger internal networks; and more time spent with managers and senior leadership. These three behaviors persisted regardless of region, territory, or sales role, suggesting that they are foundational ingredients for success.” Ways to support customer focus:
 
-* Use [MyAnalytics Important people list](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
-* Create a shared [Teams channel](https://docs.microsoft.com/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
+* Use [MyAnalytics Important people list](/viva/insights/personal/use/use-the-insights#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
+* Create a shared [Teams channel](/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
 
-For best practices and how to track time with your most important external contacts, see [Best practices for customer collaboration](https://docs.microsoft.com/workplace-analytics/tutorials/gm-cust-collab).
+For best practices and how to track time with your most important external contacts, see [Best practices for customer collaboration](/viva/insights/tutorials/gm-cust-collab).
 
 ### Promote coaching and development
 
 Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to [How to make your one-on-ones with employees more productive](https://insights.office.com/management-strategy/how-to-make-your-one-on-ones-with-employees-more-productive/): "One-on-ones are one of the most important productivity tools you have as a manager." Ways to keep employees engaged:
 
-* Use [Insights](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#catch-up-with-your-team) to schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
+* Use [Insights](/viva/insights/personal/use/use-the-insights#catch-up-with-your-team) to schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
 
-For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](https://docs.microsoft.com/workplace-analytics/tutorials/gm-coaching).
-
-<!--### Strengthen internal networks
-
-Employees who maintain strong internal networks are better resourced to meet customer needs and achieve goals. Connecting employees across units creates agile innovation by helping the company leverage benefits of scale, cross-pollinate ideas, and integrate different perspectives.
-
-The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com/collaboration/how-to-make-sure-agile-teams-can-work-together/) article says “Work occurs through collaboration in networks of relationships that often do not mirror formal reporting structures or standard work processes."
-
-Ways to foster cross-group collaboration:
-
-* Improve internal connectivity. Create inclusive and trusting environments to facilitate agile collaboration. Employees who maintain large, stable, and diversified internal networks are often better positioned to leverage their connections for quickly responding to customer needs and driving customer satisfaction.
-* Create cross-functional [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview) that focus on customer needs.
-* Use [MyAnalytics to manage important people](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
-
-For more best practices and how to provide managers with go-to contacts list, see [Best practices for cross-group collaboration](https://docs.microsoft.com/workplace-analytics/tutorials/gm-cgcollaboration).
--->
+For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](/viva/insights/tutorials/gm-coaching).

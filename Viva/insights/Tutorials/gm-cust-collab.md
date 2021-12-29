@@ -3,10 +3,10 @@
 title: Best practices for collaborating with customers
 description: Workplace Analytics shares best practices for customer collaboration
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-manager 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

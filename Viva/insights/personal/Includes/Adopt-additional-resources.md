@@ -2,8 +2,8 @@
 
 title: Additional resources for MyAnalytics
 description: Additional resources to help MyAnalytics users get started on reaching their personal work-life balance goals
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.prod: Mya

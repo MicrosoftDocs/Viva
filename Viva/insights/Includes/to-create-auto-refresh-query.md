@@ -2,8 +2,8 @@
 
 title: To create an auto-refresh query
 description: How to create an auto-refresh query with Viva Insights in Workplace Analytics
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: include
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
