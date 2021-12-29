@@ -11,6 +11,7 @@ ms.collection:
 - viva-insights-advanced
 - viva-insights-leader
 - viva-insights-manager
+ms.custom: intro-get-started
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

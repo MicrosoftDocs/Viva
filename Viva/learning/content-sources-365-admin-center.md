@@ -101,6 +101,18 @@ Some learning content sources will be enabled by default. These learning sources
 > For data that you copy to Viva Learning from a non-Microsoft service (learning provider or learning management system), you are not able to directly extract, correct, or delete that data in Viva Learning. We refresh the data you import from non-Microsoft providers promptly to reflect changes and deletions in the non-Microsoft source data.
 You need to work with the supplier of the non-Microsoft service to access, correct, delete or extract data under the license, service, or privacy terms of the non-Microsoft service. The changes made there will be reflected in the data processed for your use in Viva Learning upon completion of the data update cycles of the non-Microsoft service and Viva Learning. If you turn off the connection between Viva Learning and a non-Microsoft service, all data you had previously imported from that service will be deleted.
 
+## Enable tracking of recommended content
+
+Users can recommend content to each other in Viva Learning. Enable tracking to allow a recommender to set due dates and track the progress of content they recommended. Tracking is enabled by default.
+
+1. In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org settings**.
+
+2. On the **Org settings** page, on the **Services** tab, select **Viva Learning**.
+
+3. Check the box to enable tracking, or uncheck the box to disable tracking.
+
+    ![Image of the enable tracking checkbox in the admin center.](../media/learning/enable-tracking.png)
+
 ## Next step
 
 [Add SharePoint as a content source for Microsoft Viva Learning](configure-sharepoint-content-source.md)
