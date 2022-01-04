@@ -147,6 +147,14 @@ For more information, see [Topic discovery and curation](./topic-experiences-dis
 Viva Topics is available to customers worldwide, but currently offers the following language support.
 
 
+|&nbsp; |&nbsp;  |&nbsp; |
+|---|---|---|
+English (United States)|German|Spanish (Spain)|
+French (France)|
+German|
+Spanish (Spain)
+
+
 |&nbsp; |
 |---|
 English (United States)
