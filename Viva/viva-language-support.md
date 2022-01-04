@@ -75,6 +75,9 @@ French (France)|Portuguese (Portugal)|
 German| |
 Greek| |
 
+> [!NOTE]
+> Briefing emails are are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
+
 [Learn more about language support for Viva Insights](/viva/insights/personal/overview/mya-languages)
 
 **Advanced**
