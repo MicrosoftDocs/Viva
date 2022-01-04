@@ -151,6 +151,7 @@ Viva Topics is available to customers worldwide, but currently offers the follow
 |---|---|
 English (United States)|German|
 French (France)|Spanish (Spain)|
+| |
 
 |---|---|---|
 English (United States)|
