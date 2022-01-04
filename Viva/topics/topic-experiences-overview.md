@@ -152,6 +152,8 @@ English (United States)|German|
 French (France)|Spanish (Spain)|
 | |
 
+For information about the languages supported in the Viva Topics user interface, see [Viva Topics supported languages](/viva/viva-language-support#viva-topics-supported-languages). 
+
 ## Provide us feedback
 
 At Microsoft we take feedback from our customers very seriously. The feedback you provide for Viva Topics will be used to troubleshoot, fix bugs, enhance existing features, and develop new ones. 
