@@ -144,36 +144,13 @@ For more information, see [Topic discovery and curation](./topic-experiences-dis
 
 ## Language support
 
-Viva Topics is available to customers worldwide, but currently offers the following language support.
-
+Viva Topics is available to customers worldwide, but currently offers the following language support for identifying topics in your organization.
 
 |&nbsp; |&nbsp;  |
 |---|---|
 English (United States)|German|
 French (France)|Spanish (Spain)|
 | |
-
-|---|---|---|
-English (United States)|
-French (France)|
-German|
-Spanish (Spain)
-
-
-|&nbsp; |
-|---|
-English (United States)
-French (France)
-German
-Spanish (Spain)
-
-
-|&nbsp; |&nbsp;  |&nbsp; |
-|---|---|---|
-English (United States)|German|Spanish (Spain)
-French (France)||
-
-
 
 ## Provide us feedback
 
