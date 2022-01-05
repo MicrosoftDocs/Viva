@@ -23,13 +23,13 @@ This section describes concepts whose understanding can help you create and moni
 
 One way to identify a group for an improvement plan is to upload a list of the group’s members in a .csv file. You obtain such a file by creating it in a text editor or in Microsoft Excel or by exporting it from an HR tool or service. This .csv file must contain the email addresses of people in your organization. After you obtain and upload the file, the system uses the email addresses to finalize the list of participants in the plan that you will create. 
 
-Finalizing the participant list means determining whether any proposed participants are ineligible for the plan because they are already enrolled in a plan, their email address is invalid, or they are not using MyAnalytics.  
+Finalizing the participant list means determining whether any proposed participants are ineligible for the plan because they are already enrolled in a plan, their email address is invalid, or they are not using the MyAnalytics dashboard with Viva Insights.  
 
 ### Invalid email addresses
 
 An "invalid" email address means that the email address was formatted incorrectly, the person is not a measured employee (they have no Workplace Analytics license), or the person is not in the partition that the user is currently working in. 
 
-### Csv file privacy considerations
+### CSV file privacy considerations
 
 #### Separation from org data
 
@@ -50,9 +50,9 @@ In the **Group Details** area of the **Upload group** page, you can check the nu
 During validation, Workplace Analytics checks the following about each potential participant. (You must validate your group regardless of how you identified its members – by using filters or by uploading a .csv file.)
 
  * Is their email address valid? This check helps verify that the person still works for the company. (See [Invalid email addresses](#invalid-email-addresses).)
- * Do they have a MyAnalytics license and a Workplace Analytics license? To participate in a plan, they must have both.
+ * Do they have a MyAnalytics or Viva Insights license and a Workplace Analytics license? To participate in a plan, they must have both.
  * Are they already enrolled in a plan? A person can be in only one plan at a time.
- * Have they opted out of MyAnalytics? If the person has opted out, they cannot participate in plans. 
+ * Have they opted out of Viva Insights or MyAnalytics? If the person has opted out, they cannot participate in plans.
 
 After validation, Workplace Analytics reports the results, including the number of qualified participants. The results also show any warnings, which display the numbers of participants who’ve failed any tests.
 
@@ -94,18 +94,17 @@ Groups and plans are shown on the **Plans > Manage** page of Workplace Analytics
 
 ![Manage.](../images/wpa/tutorials/solutions-manage.png)
 
-
 **Drafts** are plans that you have begun to define, and saved. A draft plan remains in the draft state until you select **Start plan**. It does not go live until you select **Start plan**, even if you’ve set its start date and that date passes. You can take either of two actions with draft plans: delete them or start them. On this page, if you click **Start now** for a draft plan, the **Set up new plan** panel opens. 
 
 **Active** plans are currently ongoing. After you select **Active**, the display shows plans that are either scheduled or active. If the plan is active, the option in its row is **Track** and its start date is in the past. You can take either of two options with Active plans: track them or stop them. 
 
 A **Scheduled** plan has been set up (you’ve selected **Start plan**) but its start date lies in the future. Scheduled plans are listed as active plans; the different is in the options you have:
 
- * **Edit:** One option for a scheduled plan is **Edit**. Selecting  **Edit** lets you change the plan’s details, such as its start date.
+* **Edit** - Select this option to change the plan’s details, such as its start date.
 
- * **Send to draft:** In the row of a scheduled plan, the square means **Stop**. Selecting **Stop** stops the plan from starting and sends it back to the draft state.
+* **Send to draft** - In the row of a scheduled plan, the square represents **Stop**. Selecting **Stop** stops the plan from starting and sends it back to the draft state.
 
-For plans that have started, click **Track** to display the tracking dashboard. 
+For plans that have started, select **Track** to see the tracking dashboard.
 
 A **Completed** plan is one that has finished, either because its twelve weeks have passed or because someone ended the plan early.
 
@@ -116,26 +115,26 @@ Return to [Track plans](solutionsv2-task.md#track-plans)<!-- or [Next steps: pro
 On the **Plans** > **Teamwork** page, groups of employees are shown below the chart:
 
    ![Available and selected employees.](../Images/WpA/Tutorials/solutions-conceptual-01.png)
- 
-* **Measured employees:** The total number of employees in the organization who are available for analysis.
-* **In filter group:** The number of measured employees who remain available for analysis after you applied filters.
-* **Selected group:** The number of employees in the group or groups that you selected in the chart.
+
+* **Measured employees** - The total number of employees in the organization who are available for analysis.
+* **In filter group** - The number of measured employees who remain available for analysis after you applied filters.
+* **Selected group** - The number of employees in the group or groups that you selected in the chart.
 
 Return to [Select a group](solutionsv2-task.md#select-a-group).
 
 ## Persistence of group selections
 
-After you select groups, you can change other settings on this page. Not all of the settings that you can change retain the group selections that you've made: 
+After you select groups, you can change other settings on this page. Not all of the settings that you can change retain the group selections that you've made:
 
 ### Group selections are retained when
 
-* <u>You change the chart-view question.</u> You can change the data that is shown by selecting different questions under Select a question to change the view of your chart. As you do this, the group or groups that you've selected remains the same, even though the data shown about the group is shown from different perspectives.
+* **You change the chart-view question** - You can change the data that is shown by selecting different questions under **Select a question** to change the view of your chart. As you do this, the group or groups that you've selected remains the same, even though the data shown about the group is shown from different perspectives.
 
 ### Group selections are lost when
 
-* <u>You change the chart view.</u> If you change the selections in the **Chart** (such as **Group by**) and then select **Apply**, your group selections are lost.
-* <u>You change the area of focus.</u> If you change the area of focus, your group selections are lost.
-* You apply <u>new page settings</u> in the panel. 
+* **You change the chart view** - If you change the selections in the **Chart** (such as **Group by**) and then select **Apply**, your group selections are lost.
+* **You change the area of focus** - If you change the area of focus, your group selections are lost.
+* **You apply new Page settings**
 
 To select groups again after you have changed the chart or area of focus, select **groups** in the chart.  
 
@@ -156,7 +155,6 @@ After you create and upload a .csv file to create a group, all email addresses t
 ### Privacy note
 
 After you create and upload a file to create a group, Workplace Analytics matches the email addresses in the file to PersonIDs. From this point on, Workplace Analytics uses the PersonIDs and no longer shows email addresses in any of its outputs, for example, in **Query designer** > **Results**. The email addresses are never again made visible to analysts or program managers. As for admins, they maintain access to the HR data, which includes email addresses, but they cannot match email addresses to PersonIDs. The person who uploads email addresses never sees the associated PersonIDs.
-
 <!-- 
 Return to [Next steps: processing tasks](solutionsv2-task.md#next-steps-processing-tasks).
 -->
@@ -181,12 +179,9 @@ Conversely, if you examined a period shorter than twelve weeks -- only four week
 
 After the group has been determined, the benchmark is recalculated by using the data for this new group. This means that the benchmark numbers might also change from what you expected when you submitted the group initially. Benchmarks are also calculated for a 12-week window of data. 
 
-Return to [Select a group](solutionsv2-task.md#select-a-group) 
+Return to [Select a group](solutionsv2-task.md#select-a-group)-->
 
--->
-## Additional Concepts
-
-### Dated attributes
+## Dated attributes
 
 Workplace Analytics uses the concept of dated attributes. Every time an admin uploads a file of organizational data, the file has an effective date. The attributes in the file can be used from the upload date forward. If people change organizations, are promoted, or make other job changes, those changes are reflected in the next uploaded file. For this reason, we recommend that you upload fresh data at least once a month to keep the data, the attributes, up to date. The term dated attributes applies only to HR data. When you identify a group, you filter the potential group members by their dated HR attributes. (You also filter by selecting a date range.) Few if any attributes (for example, PersonID) are not dated.
 
