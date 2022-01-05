@@ -22,7 +22,7 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans help
 
 1. Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 
-2. Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../personal/mya-landing-page.md).
+2. Set up 12-week plans for the identified groups. The members of the group experience the plan through the [MyAnalytics dashboard](../personal/use/dashboard-2.md).
 
 3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
@@ -40,12 +40,9 @@ For more information about real-world possibilities, see [Microsoft Workplace In
 Workplace Analytics currently offers plans of the following types:
 
 * [Teamwork improvement plans](teamwork-solution.md) have the goal of helping employees work better together.
+* [Seller success solution](seller-success.md) has the goal of helping sales people become more productive.
 
-<!-- UNCOMMENT THIS IF WE EVER RELEASE SELLER SUCCESS: 
- * [Seller success solution](seller-success.md) has the goal of helping sales people become more productive. 
--->
-
-## Creating and using Workplace Analytics plans
+## Creating and using plans
 
 See the following topics to learn how to create and track plans:
 
@@ -87,7 +84,7 @@ The Solution for teamwork playbook provides tips on how to best use Workplace An
 
 **Q1:** Why don't I see the **Plans** page?
 
-**A1:** You can see the **Plans** page only if you've been assigned the role of analyst, limited analyst or program manager.
+**A1:** You can see the **Plans** page only if you've been assigned the role of analyst, limited analyst, or program manager.
 
 **Q2:** What can people with the various Workplace Analytics roles do when they work with plans?
 
