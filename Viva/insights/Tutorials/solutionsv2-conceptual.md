@@ -15,10 +15,10 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Plans: Concepts
+# Plan concepts
 
-This section describes concepts whose understanding can help you create and monitor Teamwork improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Plans: Walkthrough](solutionsv2-task.md).
- 
+This section describes concepts whose understanding can help you create and monitor Teamwork improvement plans. These creation and monitoring tasks are described in the step-by-step walkthrough for creating a plan, [Plan walkthrough](solutionsv2-task.md).
+
 ## Use of a .csv file
 
 One way to identify a group for an improvement plan is to upload a list of the group’s members in a .csv file. You obtain such a file by creating it in a text editor or in Microsoft Excel or by exporting it from an HR tool or service. This .csv file must contain the email addresses of people in your organization. After you obtain and upload the file, the system uses the email addresses to finalize the list of participants in the plan that you will create. 
@@ -187,6 +187,6 @@ Workplace Analytics uses the concept of dated attributes. Every time an admin up
 
 ## Related topics
 
-* [Plans: Introduction](solutionsv2-intro.md)  
-* [Plans: Walkthrough](solutionsv2-task.md)
-* [Plans: Participants](solutionsv2-participants.md)  
+* [Plan introduction](solutionsv2-intro.md)  
+* [Plan walkthrough](solutionsv2-task.md)
+* [Plan participants' experience](solutionsv2-participants.md)  

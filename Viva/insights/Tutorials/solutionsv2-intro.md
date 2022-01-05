@@ -116,6 +116,6 @@ In **Leader and manager settings** > **Manager settings**, admins can also set a
 
 ## Related topics
 
-* [Plans: Walkthrough](solutionsv2-task.md)
-* [Plans: Participants](solutionsv2-participants.md)  
-* [Plans: Concepts](solutionsv2-conceptual.md)
+* [Plan walkthrough](solutionsv2-task.md)
+* [Plan participants' experience](solutionsv2-participants.md)  
+* [Plan concepts](solutionsv2-conceptual.md)
