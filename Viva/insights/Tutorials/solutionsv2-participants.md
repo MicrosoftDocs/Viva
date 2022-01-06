@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Plans: Participants' experience
+# Plan participants' experience
 
 **Role** - a participant in a plan or a person who is using Viva Insights or MyAnalytics for personal insights
 
@@ -103,9 +103,9 @@ Many other inline suggestions are available to _all_ MyAnalytics participants, w
 
 ## Related topics
 
-* [Plans: Introduction](solutionsv2-intro.md)  
-* [Plans: Walkthrough](solutionsv2-task.md)
-* [Plans: Concepts](solutionsv2-conceptual.md)
+* [Plan introduction](solutionsv2-intro.md)  
+* [Plan walkthrough](solutionsv2-task.md)
+* [Plan concepts](solutionsv2-conceptual.md)
 
 
 <!-- REPLACING THe FOLLOWING TABLES WITH LINKS TO THE COMPLETE LIST IN THE MYA TOPICS
