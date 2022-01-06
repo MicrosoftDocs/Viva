@@ -6,12 +6,13 @@ manager: pamgreen
 ms.reviewer: cjtan; lauris
 audience: admin
 ms.topic: article
+search.appverid:
+    - MET150  
 ms.custom: 
 - intro-overview
 - intro-get-started
 ms.service: viva
 ms.subservice: viva-topics
-search.appverid: 
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics

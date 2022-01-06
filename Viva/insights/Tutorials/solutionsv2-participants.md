@@ -17,7 +17,7 @@ audience: Admin
 
 # Plan participants' experience
 
-**Role** - a participant in a plan or a person who is using Viva Insights or MyAnalytics for personal insights
+**Role** - A participant in a plan or a person who is using Viva Insights or MyAnalytics for personal insights
 
 While analysts and program managers can create and manage Workplace Analytics plans as part of Microsoft Viva Insights, the actual work of change is done by people. People who are using Viva Insights or MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
 
@@ -46,17 +46,6 @@ People who use Viva Insights or MyAnalytics get a monthly [digest](../personal/u
 For plan participants, their monthly digest includes an additional section, such as the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding month.
 
 ![Track Teams plan progress.](../images/wpa/tutorials/track-team-progress.png)
-
-However, people who are also using a [Focus plan](../personal/use/focus-plan.md) will not see this additional *Teams Plan* section in their weekly digest. They will only see a weekly Focus digest (instead of a rotating digest) that shows updates about their focus plan.
-
-![Monthly digest.](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
-
-<!--  THIS SECTION CAN DESCRIBE THE EXCEPTION CAUSE BY "ADAPTIVE" AFTER WE GET THAT WORDING FROM PM. (PER PRAMOD, HELEN)
-> [!Note] 
-> This Team Plans section is unavailable in the following circumstance:
-> * It is a week in which the digest email is about _Focus_ or _Network_.
-> * You are using a particular email client application to view your digest emails.
--->
 
 ## Inline suggestions
 
