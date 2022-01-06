@@ -6,8 +6,6 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: enabler, admin
 ms.topic: landing-page
-ms.custom: intro-hub-or-landing
-ms.collection: m365initiative-viva-topics
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -15,9 +13,6 @@ search.appverid:
 ms.custom: 
 - intro-hub-or-landing
 - intro-overview
-ms.service: viva
-ms.subservice: viva-topics
-search.appverid: 
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
