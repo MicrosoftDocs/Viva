@@ -47,10 +47,6 @@ For plan participants, their monthly digest includes an additional section, such
 
 ![Track Teams plan progress.](../images/wpa/tutorials/track-team-progress.png)
 
-However, people who are also using a [Focus plan](../personal/use/focus-plan.md) will not see this additional *Teams Plan* section in their weekly digest. They will only see a weekly Focus digest (instead of a rotating digest) that shows updates about their focus plan.
-
-![Monthly digest.](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
-
 ## Inline suggestions
 
 [Inline suggestions](../personal/Use/mya-notifications.md) are brief, data-driven and AI-driven notifications that show up in Outlook when reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask if you want to review them.
