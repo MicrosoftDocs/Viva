@@ -2,10 +2,10 @@
 title: Workplace Analytics insights for managers
 description: Learn how the Workplace Analytics Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-manager 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

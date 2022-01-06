@@ -2,10 +2,10 @@
 title: MyAnalytics learning modules
 description: Learn how to set up and use MyAnalytics data, including focus hours, meetings, email, and after hours data
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

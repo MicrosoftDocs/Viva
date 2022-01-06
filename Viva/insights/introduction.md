@@ -2,16 +2,20 @@
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- viva-insights-advanced 
+- viva-insights-manager
+- viva-insights-leader  
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: overview
 manager: scott.ruble
 audience: Admin
+ms.custom: intro-overview
 ---
 
 # Introducing Microsoft Viva Insights

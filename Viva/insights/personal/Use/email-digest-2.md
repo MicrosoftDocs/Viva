@@ -1,8 +1,9 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: MyAnalytics digests
 description: MyAnalytics users receive a weekly digest with key insights and suggestions
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 

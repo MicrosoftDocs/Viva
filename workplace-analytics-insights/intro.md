@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Introducing Viva insights
 description: About Viva Insights in Microsoft Teams to learn how your organization gets work done
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
 ms.prod: wpa

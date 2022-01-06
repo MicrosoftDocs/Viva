@@ -3,7 +3,7 @@
 title: System requirements for Viva Insights
 description: Describes the system requirements for using Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

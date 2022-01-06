@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Microsoft Viva Insights My team page
 description: The My team page in the Microsoft Viva Insights app in Microsoft Teams
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null
 ms.prod: wpa

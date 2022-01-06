@@ -4,8 +4,8 @@
 
 title: Requirements for analysts
 description: Licensing requirements for analysts for using queries and templates  
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

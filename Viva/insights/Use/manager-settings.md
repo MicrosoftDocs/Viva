@@ -3,10 +3,10 @@
 title: Manager settings for Viva Insights
 description: Learn about the manager settings for Viva Insights in Teams and in Workplace Analytics and how administrators can set up and edit them for your organization 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-manager 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

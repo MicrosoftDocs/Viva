@@ -2,7 +2,7 @@
 title: Briefing languages
 description: List of supported languages for Briefings
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 localization_priority: normal 
 search.appverid:

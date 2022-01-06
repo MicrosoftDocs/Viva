@@ -7,7 +7,9 @@ ms.reviewer: shirana
 ms.date: 11/02/2021
 audience: admin
 ms.topic: article
-ms.custom: intro-overview
+ms.custom: 
+- intro-overview
+- intro-get-started
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
