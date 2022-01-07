@@ -16,7 +16,7 @@ audience: Admin
 
 # Delay delivery plan
 
-_**Applies to**: The Delay delivery plan is currently available only to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) with a [supported E5 level plan](../overview/plans-environments.md)._
+_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and MyAnalytics and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) with a [supported E5 level plan](../overview/plans-environments.md). This is also being released to those with a Microsoft Viva Insights service plan._
 
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.
 
