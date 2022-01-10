@@ -211,9 +211,9 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
    ![service plan: Microsoft MyAnalytics (Full).](../../images/mya/overview/e5-plans-service-plans-446.png)
 
-#### Q5. In what languages are the elements of MyAnalytics available?
+#### Q5. In what languages are supported for personal insights?
 
-See [MyAnalytics languages](mya-languages.md).
+See [Personal insights languages](mya-languages.md).
 
 #### Q6. If my assistant manages my email and calendar, does MyAnalytics include these activities in my data?
 

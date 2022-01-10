@@ -1,7 +1,7 @@
 ---
 
-title: Viva Insights languages
-description: List of supported languages for the elements of Viva Insights
+title: Personal insights languages
+description: Supported languages for personal insights in Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -14,16 +14,22 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Viva Insights languages
+# Personal insights language support
 
-The elements of Microsoft Viva Insights (including MyAnalytics), which include the [Dashboard](../use/dashboard-2.md), the [Digests](../use/email-digest-2.md), and the [Viva Insights Outlook add-in](../use/add-in.md) are available in world languages as described in the following table. However, the [Task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) in the Outlook add-in are only available in English.
+The elements of Microsoft Viva Insights (including MyAnalytics) for personal insights, including the [Dashboard](../use/dashboard-2.md), the [Digests](../use/email-digest-2.md), and the [Viva Insights Outlook add-in](../use/add-in.md) are available in the following world languages. However, the [Task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) in the Viva Insights Outlook add-in are only available in English.
+
+Also, see [Briefing languages](../briefing/be-languages.md) to see what's supported for Briefing emails.
+
+This support is based on your Outlook language setting. For details, see [Change the time zone and language settings in Outlook.com](https://support.microsoft.com/office/change-the-time-zone-and-language-settings-in-outlook-com-8a34d50d-81b4-40c2-b304-b3d043566389).
 
 
-| Dashboard	| Digests | Outlook add-in (a-k)	| Outlook add-in (l-z) |  
-|  	-------	  |  --------- | -------------------  | -------------------- |  
-|  	Arabic	  |  	Amharic	 |  	Afghan Persian	  |  	Lao-LA	           |  
-|  	Basque	  |  	Arabic   |  	Afghan Persian-AF	|  	Latvian	           |  
-|  	Bulgarian	|  	Basque   |  	Afrikaans	        |  	Lithuanian	       |  
+|Supported language | Dashboard | Digests | Outlook add-in |
+| -------  |  --------- | -------------------  | -------------------- |  
+| Arabic	  | X |    |  		           |  
+| Afghan Persian
+| Amharic
+| Basque	  |  	Arabic   |  	Afghan Persian-AF	|  	Latvian	           |  
+| Bulgarian	|  	Basque   |  	Afrikaans	        |  	Lithuanian	       |  
 |  	Catalan	  |  	Bengali-in	  |  	Albanian	    |  	Luxembourgish-LU   |  
 |  	Chinese (Simplified)	  |  	Bulgarian	  |  	Amharic	  |  	Macedonian	  |  
 |  	Chinese (Traditional)	  |  	Catalan	  |  	Arabic	  |  	Malay	  |  
@@ -46,9 +52,10 @@ The elements of Microsoft Viva Insights (including MyAnalytics), which include t
 |  	Japanese	  |  	Hindi	  |  	Croatian	  |  	Romanian	  |  
 |  	Kazakh	  |  	Hungarian	  |  	Cusco Quechua-PE	  |  	Russian	  |  
 |  	Korean	  |  	Icelandic	  |  	Czech	  |  	Serbian	  |  
-|  	Latvian	  |  	Indonesian	  |  	Danish	  |  	Serbian-Cyrillic	  |  
-|  	Lithuanian	  |  	Italian	  |  	Dutch	  |  	Serbian-Cyrillic-BA	  |  
-|  	Malay	  |  	Japanese	  |  	English-AU	  |  	Sindhi-Arab-PK	  |  
+| Latvian	  |  	Indonesian	  |  	Danish	  |  	Serbian-Cyrillic	  | 
+| Lao-LA
+| Lithuanian	  |  	Italian	  |  	Dutch	  |  	Serbian-Cyrillic-BA	  |  
+| Malay  |  	Japanese	  |  	English-AU	  |  	Sindhi-Arab-PK	  |  
 |  	Norwegian	  |  	Kannada	  |  	English-CA	  |  	Sinhala-LK	  |  
 |  	Polish	  |  	Kazakh	  |  	English-GB	  |  	Slovak	  |  
 |  	Portuguese	  |  	Korean	  |  	English-IN	  |  	Slovenian	  |  

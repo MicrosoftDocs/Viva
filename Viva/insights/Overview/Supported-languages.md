@@ -1,7 +1,7 @@
 ---
 
-title: Language support and guidelines for Viva Insights
-description: Describes the privacy and data access controls available in Microsoft Viva Insights 
+title: Language support and guidelines for Advanced insights in Viva Insights
+description: Describes the languages supported by Advanced insights within Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -18,7 +18,7 @@ audience: Admin
 
 # Advanced insights language support and guidelines
 
-The user interface in Microsoft Viva Insights in Workplace Analytics is currently available in Chinese (Simplified), Chinese (Traditional), French (France), German (Germany), Italian (Italy), Japanese, Korean, Portuguese (Brazil), Russian (Russia), Spanish (Spain), and English (United States).
+The user interface in Microsoft Viva Insights in Workplace Analytics is currently available in the languages listed in [Supported languages](#supported-languages).
 
 The Workplace Analytics app automatically uses your language identifier (language and region) setting, as specified in one of the following sources:
 
