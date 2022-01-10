@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Protect time in Viva Insights
+title: Protect time in Viva Insights 
 description: Use the Protect time feature in Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
@@ -76,6 +76,9 @@ You can open **Focus mode** in a separate pop-out window in Teams, which allows 
 2. Select **Pop out app**.
 
 ## Configure quiet time
+
+>[!NOTE]
+>Quiet time is only available as a preview.
 
 Research shows that long hours and the pressure to always be available can lead to employee burnout. The amount of time you spend collaborating outside of business hours can be an indicator that you are at risk of burnout, even as you and your team embrace flexibility.
 
