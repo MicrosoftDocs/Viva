@@ -2,6 +2,55 @@
 
 
 
+## Week of January 03, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/4/2022 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | modified |
+| 1/4/2022 | [Microsoft Viva language support](/viva/viva-language-support) | modified |
+| 1/5/2022 | [Workplace Analytics plans concepts](/viva/insights/tutorials/solutionsv2-conceptual) | modified |
+| 1/5/2022 | [Introduction to Workplace Analytics plans](/viva/insights/tutorials/solutionsv2-intro) | modified |
+| 1/5/2022 | [Workplace Analytics plan participants](/viva/insights/tutorials/solutionsv2-participants) | modified |
+| 1/5/2022 | [Workplace Analytics query overview](/viva/insights/tutorials/query-basics) | modified |
+| 1/5/2022 | [Workplace Analytics query overview](/viva/insights/tutorials/query-basics2) | modified |
+| 1/5/2022 | [Visualize person queries](/viva/insights/tutorials/query-visualization) | modified |
+| 1/5/2022 | [Seller success plan in Workplace Analytics](/viva/insights/tutorials/seller-success) | modified |
+| 1/5/2022 | [Workplace Analytics plan walkthrough](/viva/insights/tutorials/solutionsv2-task) | modified |
+| 1/5/2022 | [Workplace Analytics Teamwork plans](/viva/insights/tutorials/teamwork-solution) | modified |
+| 1/6/2022 | [Workplace Analytics plan participants](/viva/insights/tutorials/solutionsv2-participants) | modified |
+| 1/6/2022 | [Workplace Analytics plans for managers](/viva/insights/manager-insights/plans) | modified |
+| 1/6/2022 | [Adoption resources for Microsoft Viva Topics](/viva/topics/adoption-resources) | modified |
+| 1/6/2022 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | modified |
+| 1/6/2022 | [Edit an existing topic in Microsoft Viva Topics](/viva/topics/edit-a-topic) | modified |
+| 1/6/2022 | [Frequently asked questions about Microsoft Viva Topics](/viva/topics/faq-topics) | modified |
+| 1/6/2022 | [Get started with Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics) | modified |
+| 1/6/2022 | [Introduction to Microsoft Viva Topics](/viva/topics/index) | modified |
+| 1/6/2022 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
+| 1/6/2022 | [Plan for Microsoft Viva Topics](/viva/topics/plan-topic-experiences) | modified |
+| 1/6/2022 | [Restrict access to topics in Microsoft Viva Topics](/viva/topics/restrict-access-to-topics) | modified |
+| 1/6/2022 | [Save a topic as a draft in Microsoft Viva Topics](/viva/topics/save-topic-as-draft) | modified |
+| 1/6/2022 | [Manage topics at scale in Microsoft Viva Topics](/viva/topics/scale-topics) | modified |
+| 1/6/2022 | [Use Microsoft Search to find topics in Microsoft Viva Topics](/viva/topics/search) | modified |
+| 1/6/2022 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
+| 1/6/2022 | [Use SharePoint taxonomy terms to create topics in Microsoft Viva Topics](/viva/topics/sharepoint-taxonomy) | modified |
+| 1/6/2022 | [Topic center overview in Microsoft Viva Topics](/viva/topics/topic-center-overview) | modified |
+| 1/6/2022 | [Change the name of the topic center in Microsoft Viva Topics](/viva/topics/topic-experiences-administration) | modified |
+| 1/6/2022 | [Topic discovery and curation in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery-curation) | modified |
+| 1/6/2022 | [Manage topic discovery in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery) | modified |
+| 1/6/2022 | [Get your environment ready for Microsoft Viva Topics](/viva/topics/topic-experiences-get-ready) | modified |
+| 1/6/2022 | [Manage topic visibility in Microsoft Viva Topics](/viva/topics/topic-experiences-knowledge-rules) | modified |
+| 1/6/2022 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | modified |
+| 1/6/2022 | [Roles in Microsoft Viva Topics](/viva/topics/topic-experiences-roles) | modified |
+| 1/6/2022 | [Security and privacy in Microsoft Viva Topics](/viva/topics/topic-experiences-security-privacy) | modified |
+| 1/6/2022 | [Security trimming in Microsoft Viva Topics](/viva/topics/topic-experiences-security-trimming) | modified |
+| 1/6/2022 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | modified |
+| 1/6/2022 | [Get started driving adoption of Microsoft Viva Topics](/viva/topics/topics-adoption-getstarted) | modified |
+| 1/6/2022 | [Run a trial of Microsoft Viva Topics](/viva/topics/trial-topics) | modified |
+| 1/6/2022 | [Privacy settings and exclusions for Workplace Analytics](/viva/insights/use/privacy-settings) | modified |
+| 1/7/2022 | [Delay delivery plan in MyAnalytics](/viva/insights/personal/use/delay-delivery) | modified |
+
+
 ## Week of December 20, 2021
 
 
@@ -642,81 +691,3 @@
 | 12/9/2021 | [Microsoft Viva Overview](/viva/microsoft-viva-overview) | modified |
 | 12/9/2021 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
 | 12/10/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
-
-
-## Week of November 29, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/30/2021 | [Add the Viva Connections app in the Teams admin center](/viva/connections/add-viva-connections-app) | added |
-| 11/30/2021 | [Create the Viva Connections Dashboard](/viva/connections/create-dashboard) | added |
-| 11/30/2021 | [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections) | added |
-| 11/30/2021 | [Plan, build, and launch a home site for your organization](/viva/connections/home-site-plan) | added |
-| 11/30/2021 | [Set up global navigation in the SharePoint app bar](/viva/connections/sharepoint-app-bar) | added |
-| 11/30/2021 | [Overview: Viva Connections](/viva/connections/viva-connections-overview) | added |
-| 11/30/2021 | [Configure Cornerstone OnDemand as a content source for Microsoft Viva Learning](/viva/learning/configure-cornerstone-content-source) | added |
-| 11/30/2021 | [Configure Go1 as a content source for Microsoft Viva Learning](/viva/learning/configure-go1-content-source) | added |
-| 11/30/2021 | [Add learning management systems for Microsoft Viva Learning](/viva/learning/configure-lms) | added |
-| 11/30/2021 | [Add other content providers for Microsoft Viva Learning](/viva/learning/configure-other-content-sources) | added |
-| 11/30/2021 | [Configure Saba as a content source for Microsoft Viva Learning](/viva/learning/configure-saba-content-source) | added |
-| 11/30/2021 | [Add SharePoint as a learning content source for Microsoft Viva Learning](/viva/learning/configure-sharepoint-content-source) | added |
-| 11/30/2021 | [Configure Skillsoft as a content source for Microsoft Viva Learning](/viva/learning/configure-skillsoft-content-source) | added |
-| 11/30/2021 | [Configure SAP SuccessFactors as a content source for Microsoft Viva Learning](/viva/learning/configure-successfactors-content-source) | added |
-| 11/30/2021 | [Configure Udemy as a content source for Microsoft Viva Learning](/viva/learning/configure-udemy-content-source) | added |
-| 11/30/2021 | [Manage content sources for Microsoft Viva Learning in the Microsoft 365 admin center](/viva/learning/content-sources-365-admin-center) | added |
-| 11/30/2021 | [Help and support](/viva/learning/help-support) | added |
-| 11/30/2021 | [Introduction to Microsoft Viva Learning](/viva/learning/index) | added |
-| 11/30/2021 | [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning) | added |
-| 11/30/2021 | [Set up Microsoft Viva Learning in the Teams admin center](/viva/learning/set-up-viva-learning) | added |
-| 11/30/2021 | [Understand terms and conditions](/viva/learning/terms-and-conditions) | added |
-| 11/30/2021 | [Manage content in the admin tab](/viva/learning/use-tabs) | added |
-| 11/30/2021 | [Set up Microsoft Viva)](/viva/setup-microsoft-viva) | added |
-| 11/30/2021 | [Adoption resources for Microsoft Viva Topics](/viva/topics/adoption-resources) | added |
-| 11/30/2021 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | added |
-| 11/30/2021 | [Edit an existing topic in Microsoft Viva Topics](/viva/topics/edit-a-topic) | added |
-| 11/30/2021 | [Frequently asked questions about Microsoft Viva Topics](/viva/topics/faq-topics) | added |
-| 11/30/2021 | [Get started with Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics) | added |
-| 11/30/2021 | [Introduction to Microsoft Viva Topics](/viva/topics/index) | added |
-| 11/30/2021 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | added |
-| 11/30/2021 | [Plan for Microsoft Viva Topics](/viva/topics/plan-topic-experiences) | added |
-| 11/30/2021 | [Restrict access to topics in Microsoft Viva Topics](/viva/topics/restrict-access-to-topics) | added |
-| 11/30/2021 | [Save a topic as a draft in Microsoft Viva Topics](/viva/topics/save-topic-as-draft) | added |
-| 11/30/2021 | [Manage topics at scale in Microsoft Viva Topics](/viva/topics/scale-topics) | added |
-| 11/30/2021 | [Use Microsoft Search to find topics in Microsoft Viva Topics](/viva/topics/search) | added |
-| 11/30/2021 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | added |
-| 11/30/2021 | [Use SharePoint taxonomy terms to create topics in Microsoft Viva Topics](/viva/topics/sharepoint-taxonomy) | added |
-| 11/30/2021 | [Topic center overview in Microsoft Viva Topics](/viva/topics/topic-center-overview) | added |
-| 11/30/2021 | [Change the name of the topic center in Microsoft Viva Topics](/viva/topics/topic-experiences-administration) | added |
-| 11/30/2021 | [Topic discovery and curation in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery-curation) | added |
-| 11/30/2021 | [Manage topic discovery in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery) | added |
-| 11/30/2021 | [Get your environment ready for Microsoft Viva Topics](/viva/topics/topic-experiences-get-ready) | added |
-| 11/30/2021 | [Manage topic visibility in Microsoft Viva Topics](/viva/topics/topic-experiences-knowledge-rules) | added |
-| 11/30/2021 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | added |
-| 11/30/2021 | [Roles in Microsoft Viva Topics](/viva/topics/topic-experiences-roles) | added |
-| 11/30/2021 | [Security and privacy in Microsoft Viva Topics](/viva/topics/topic-experiences-security-privacy) | added |
-| 11/30/2021 | [Security trimming in Microsoft Viva Topics](/viva/topics/topic-experiences-security-trimming) | added |
-| 11/30/2021 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | added |
-| 11/30/2021 | [Get started driving adoption of Microsoft Viva Topics](/viva/topics/topics-adoption-getstarted) | added |
-| 11/30/2021 | [Run a trial of Microsoft Viva Topics](/viva/topics/trial-topics) | added |
-| 12/1/2021 | [Microsoft Viva language support](/viva/viva-language-support) | added |
-| 12/1/2021 | [Configure SAP SuccessFactors as a content source for Microsoft Viva Learning](/viva/learning/configure-successfactors-content-source) | modified |
-| 12/1/2021 | [Introduction to Microsoft Viva Topics](/viva/topics/index) | modified |
-| 12/1/2021 | [Microsoft Viva language support](/viva/viva-language-support) | modified |
-| 12/2/2021 | [Plan for Microsoft Viva Topics](/viva/topics/plan-topic-experiences) | modified |
-| 12/3/2021 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
-| 12/3/2021 | [Workplace Analytics 500 error](/viva/insights/tutorials/wpa-tool-500-error) | modified |
-| 12/3/2021 | [Manager settings for Viva Insights](/viva/insights/use/manager-settings) | modified |
-| 12/3/2021 | [My team in Viva Insights](/viva/insights/use/myteam) | modified |
-| 12/3/2021 | [Workplace Analytics Zoom integration](/viva/insights/use/zoom) | modified |
-| 12/3/2021 | [Save a topic as a draft in Microsoft Viva Topics](/viva/topics/save-topic-as-draft) | modified |
-
-
-## Week of November 22, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 11/22/2021 | [Business process analysis for Viva Insights](/viva/insights/tutorials/analyze-business-processes) | modified |
-| 11/22/2021 | [Delay delivery plan in MyAnalytics](/viva/insights/personal/use/delay-delivery) | modified |
-| 11/22/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
