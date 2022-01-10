@@ -26,12 +26,12 @@ As an enrolled team lead or manager, you can also start a shared focus plan with
 1. In [Teams](https://teams.microsoft.com), open Viva Insights, and then select **Home**.
 2. In the **Plans** section, select **Get started** for the **Start a focus plan for your team** option:
 
-   ![Start a shared focus plan](../../Images/mya/use/page-showing-plans-row-2.png)
+   ![Start a shared focus plan](../Images/mya/use/page-showing-plans-row-2.png)
 
 3. When prompted, select **Let’s do this**.
 4. In **Customize your shared focus plan**, select the number of hours per day, the general time of day, and whether to silence notifications, and then select **Next**.
 
-   ![Select settings](../../Images/mya/use/select-settings.png)
+   ![Select settings](../Images/mya/use/select-settings.png)
 
 5. In **Who would you like to invite**, select people in your team to receive invitations to the focus plan. Your team members will pre-populate the list of **Recipients**; you can also remove or add people to this list. When you’re done, select **Next**.
 6. When prompted, you can either accept or edit the draft note or delete it, and then select **Send invitation**.
@@ -57,7 +57,7 @@ If you received an invitation for a shared focus plan, use the following steps t
    * To switch from your individual plan to the shared plan, select **Join plan**.
    * To switch and join the shared plan but first change some of the settings, select **Edit settings**. You can then change the number of hours per day, the general time of day, and whether to silence notifications, and then select **Join plan**.
    * To keep your current (individual) focus plan, close this page by selecting the **X**. The invitation will no longer be visible, and your current focus plan will be unaffected.
-     ![Select focus plan settings](../../Images/mya/use/select-focus-plan-settings.png)
+     ![Select focus plan settings](../Images/mya/use/select-focus-plan-settings.png)
 
 4. On the **All done** page, select **Done**. You have now successfully joined your team’s shared focus plan.
 
@@ -65,13 +65,13 @@ If you received an invitation for a shared focus plan, use the following steps t
 
 To check the details of your new plan, open the **Home** page of Viva Insights. The **Shared focus plan** details will be included in the **Plans** section:
 
-   ![Shared-focus-plan card](../../Images/mya/use/shared-focus-plan-card.png)
+   ![Shared-focus-plan card](../Images/mya/use/shared-focus-plan-card.png)
 
 If you have a Viva Insights Premium license, you'll also see the plan details on the **My team** page.
 
 If you are the creator of a shared focus plan, you'll also see details in the **Plans** section of the Viva Insights **Home** page:
 
-   ![Shared-focus-plan card](../../Images/mya/use/your-shared-focus-plan.png)
+   ![Shared-focus-plan card](../Images/mya/use/your-shared-focus-plan.png)
 
 ## Leave a shared focus plan
 
@@ -85,7 +85,7 @@ After you leave a shared plan, you will still be enrolled in your personal focus
 
 1. Select the **ellipsis** (…) in the upper right corner of Viva Insights, and then select **Settings**.
 
-   ![Select ellipsis and then Settings](../../Images/mya/use/ellipsis-settings.png)
+   ![Select ellipsis and then Settings](../Images/mya/use/ellipsis-settings.png)
 
 2. In **Settings**, select **Protect time**.
 3. In the **Focus plan preferences** section, select **Leave plan**.

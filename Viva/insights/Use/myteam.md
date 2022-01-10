@@ -142,7 +142,7 @@ They can select **Review schedule** within the notice to help with this task.
 <!-->
 ### Shared focus plan
 
-An enrolled manager can invite their team to book daily, uninterrupted focus time to get their work done. A shared focus plan helps your team build a shared productivity habit. See [Shared focus plan](../personal/teams/shared-focus-plan.md) for details.-->
+An enrolled manager can invite their team to book daily, uninterrupted focus time to get their work done. A shared focus plan helps your team build a shared productivity habit. See [Shared focus plan](shared-focus-plan.md) for details.-->
 
 ## Briefing and digest emails
 
