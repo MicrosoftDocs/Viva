@@ -170,9 +170,6 @@ items:
         items: 
           - name: My team        
             href: use/myteam.md
-            items: 
-              - name: Shared focus plan
-                href: personal/teams/shared-focus-plan.md
           - name: Team insights        
             href: use/team-insights.md
           - name: Group insights

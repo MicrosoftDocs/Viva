@@ -17,7 +17,6 @@ You can use this feature in the Microsoft Viva Insights app in Microsoft Teams t
 
 * [Schedule focus time](#schedule-focus-time) for future workdays.
 * [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
-* [Set up a shared focus plan](shared-focus-plan.md) for your team.
 
 ## Schedule focus time
 

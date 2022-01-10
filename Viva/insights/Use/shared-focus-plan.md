@@ -15,9 +15,11 @@ audience: Admin
 
 # Shared focus plan
 
-You can join an individual focus plan through [Protect time](viva-insights-protect-time.md) in the Microsoft Viva Insights app in Microsoft Teams. A focus plan helps you automatically block focus time for top-priority work for up to four hours every day. However, you can also start a shared focus plan with your team or co-workers to encourage good productivity habits.
+_**Note**: Shared focus plan is currently only available as a preview._
 
-An enrolled manager can also invite their team to book daily, uninterrupted focus time to get their work done. This shared focus plan helps the team build a shared productivity habit.
+A focus plan helps you automatically block uninterrupted time for top-priority work for up to four hours every day. As an individual, you can schedule a personal focus plan through [Protect time](../personal/teams/viva-insights-protect-time.md) in the Microsoft Viva Insights app in Microsoft Teams.
+
+As an enrolled team lead or manager, you can also start a shared focus plan with your team or co-workers to encourage good productivity habits. With this option, you can invite your team to book daily, uninterrupted time to get their work done. This shared plan also helps your team build a shared productivity habit.
 
 ## Start a shared focus plan
 
