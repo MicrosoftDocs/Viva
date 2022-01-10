@@ -33,10 +33,11 @@ When you select a feature on the top menu, you'll leave the Home page.
 You use the following features on the Home page with the on-screen instructions.  
 
 * [Up-next card](#up-next-card) - View the card and its message.
-* [Reflect](viva-insights-reflect.md) &ndash; Under **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
-* Send [Praise](viva-insights-praise.md) &ndash; Under **Send praise to your colleagues**, select **Send praise**.
-* [Guided meditations from Headspace](#take-a-break) &ndash; In the **Headspace** card, select the 'Play' button. (Alternatively, you can select from among **More mindfulness exercises**.)
-* [Take a break](#take-a-break) &ndash; Under **Take a break**, select **Start**.
+* [Reflect](viva-insights-reflect.md) - In **How are you feeling?**, select a representative image. <!--In the following cases, you can take action directly on a feature's card on the Home page without needing to open the feature.  -->
+* Send [Praise](viva-insights-praise.md) - In **Send praise to your colleagues**, select **Send praise**.
+* [Guided meditations from Headspace](#take-a-break) - In the **Headspace** card, select the 'Play' button. (Alternatively, you can select from among **More mindfulness exercises**.)
+* [Take a break](#take-a-break) - In **Take a break**, select **Start**.
+* [Shared focus plan](shared-focus-plan.md) - In **Plans**, use this option to set up shared focus time for your team.
 
 >[!NOTE]
 >Headspace is only available if you have your language is set to English in Teams. Additional languages will be supported soon. However, the **Take a break** option is available even if you don't have your default language set to English.
