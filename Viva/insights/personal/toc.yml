@@ -106,6 +106,8 @@ items:
               href: use/leadership.md
         - name: Personal insights FAQ
           href: overview/mya-faq.md
+        - name: Language support
+          href: overview/mya-languages.md
         - name: Admin guide
           items: 
             - name: Introduction
@@ -118,8 +120,6 @@ items:
               href: overview/plans-environments.md
             - name: Privacy guide for admins
               href: overview/privacy-guide-admins.md
-            - name: Language support
-              href: overview/mya-languages.md
         - name: Adoption
           items:
             - name: Introduction 
