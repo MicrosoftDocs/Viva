@@ -19,7 +19,7 @@ audience: Admin
 
 As a manager or team lead, you can see insights and suggested actions based on your personal habits in **My team** within the Microsoft Viva Insights app in Microsoft Teams. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
-Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section. See [Admin tasks](#admin-tasks) to learn what's required to get the **My team** page.
+Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section. See [Admin tasks](#admin-tasks) to learn what's required to see the **My team** page.
 
 ![My team page in Viva Insights in Teams.](../images/wpa/use/myteam-2.png)
 
@@ -122,7 +122,7 @@ Group insights are only available to qualifying managers who are set up as a man
 
 ## Plans
 
-This section will also show suggestions for you to consider, such as scheduling a [no-meeting day for your team](#no-meeting-day-for-your-team).
+This section will also show suggestions for you to consider, such as scheduling a [no-meeting day for your team](#no-meeting-day-for-your-team) or a [shared focus plan](#shared-focus-plan).
 
 ### No-meeting day for your team
 
@@ -139,6 +139,10 @@ The day before a scheduled no-meeting day, your team members are prompted by Viv
 They can select **Review schedule** within the notice to help with this task.
 
 ![Review schedule before a no-meeting day.](../images/wpa/use/no-meeting-review.png)
+<!-->
+### Shared focus plan
+
+An enrolled manager can invite their team to book daily, uninterrupted focus time to get their work done. A shared focus plan helps your team build a shared productivity habit. See [Shared focus plan](shared-focus-plan.md) for details.-->
 
 ## Briefing and digest emails
 
