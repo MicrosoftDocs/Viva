@@ -21,7 +21,9 @@ description: See what LinkedIn Learning courses are available for free in Micros
 
 A selection of 125 courses are available from LinkedIn Learning for free. This means you don't need an Enterprise license for users in your organization to access these courses. LinkedIn Learning is enabled as a content source by default in Viva Learning. [Learn more about content sources in Viva Learning](content-sources-365-admin-center.md).
 
-## Business courses
+## Courses in English
+
+### Business courses
 
 :::row:::
    :::column span="":::
@@ -70,7 +72,7 @@ A selection of 125 courses are available from LinkedIn Learning for free. This m
    :::column-end:::
 :::row-end:::
 
-## Creative courses
+### Creative courses
 
 - Banish Your Inner Critic to Unleash Creativity
 - Getting Started in User Experience
@@ -85,7 +87,7 @@ A selection of 125 courses are available from LinkedIn Learning for free. This m
 - Simple Photo Edits On Your Phone
 - Social Media Video for Business and Marketing
 
-## Tech courses
+### Tech courses
 
 :::row:::
    :::column span="":::
@@ -117,9 +119,24 @@ A selection of 125 courses are available from LinkedIn Learning for free. This m
    :::column-end:::
 :::row-end:::
 
-## LinkedIn skills courses
+### LinkedIn skills courses
 
 - Learn LinkedIn Sales Navigator
 - Learning LinkedIn Recruiter
 - LinkedIn Quick Tips
 - Rock Your LinkedIn Profile
+
+## Courses in German
+
+|English title   |Original title   |
+|----------|-----------|
+|table     |data       |
+|it doesn't|actually   |
+|it doesn't|actually   |
+|it doesn't|actually   |
+|it doesn't|actually   |
+|it doesn't|actually   |
+|it doesn't|actually   |
+|it doesn't|actually   |
+|it doesn't|actually   |
+|it doesn't|actually   |
