@@ -42,21 +42,28 @@ To allow or block specific users in your organization from using Viva Learning, 
 Viva Learning brings in content from different sources including Microsoft Learn, your organization’s SharePoint sites, LinkedIn Learning, and third-party content providers and learning management systems depending on what you’ve enabled in the Microsoft 365 admin center. Content accessible through Viva Learning is therefore subject to terms other than the Microsoft product terms. [Learn more about Viva Learning content terms and conditions](/viva/learning/terms-and-conditions).
 
 Learn more
+
 [Security guide for Microsoft Teams](/microsoftteams/teams-security-guide)
+
 [Introduction to Microsoft Viva Learning](/viva/learning/)
  
 ## Viva Connections
 Microsoft Viva Connections brings together relevant news, conversations, and resources in one place for your organization. It's built on your current Microsoft 365 ecosystem and is powered by SharePoint. The Viva Connections experience is deployed and accessed in Microsoft Teams desktop and the mobile app. 
 
-Viva Connections uses a combination of existing Microsoft 365 apps and features. Security and permission settings are managed and inherited from the original Microsoft 365 app. There are no specific security settings that need to be managed for Viva Connections. For example, the Viva Connections Dashboard permissions are  governed by the [SharePoint home site](/sharepoint/home-site). Another example is [content in the Feed comes from three main sources](/SharePoint/faqs-viva-connections-feed), one being posts in Yammer. Only users who have permissions to specific Yammer communities will be able to view posts from that Yammer community in the Viva Connections Feed. 
+Viva Connections uses a combination of existing Microsoft 365 apps and features. Security and permission settings are managed and inherited from the original Microsoft 365 app. There are no specific security settings that need to be managed for Viva Connections. For example, the Viva Connections Dashboard permissions are  governed by the [SharePoint home site](/sharepoint/home-site). Another example is [content in the Feed comes from three main sources](/SharePoint/faqs-viva-connections-feed), one being posts in Yammer. Only users who have permissions to specific Yammer communities will be able to view posts from that Yammer community in the Viva Connections Feed.
 
 Learn more
 
 [Settings interactions between Microsoft 365 Groups, Teams and SharePoint](/microsoft-365/solutions/groups-sharepoint-teams-governance)
+
 [Overview of security and compliance in Microsoft Teams](/microsoftteams/security-compliance-overview)
+
 [Managing SharePoint Online Security: A Team Effort](/microsoft-365/community/sharepoint-security-a-team-effort)
+
 [Overview of security and compliance in Yammer](/Yammer/manage-security-and-compliance/security-and-compliance) 
+
 
 ## Related information
 [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely)
+
 [Data residency: Learn about where Microsoft Viva data is stored](/microsoft-365/enterprise/o365-data-locations#what-are-the-considerations-for-microsoft-viva-data-locations)
