@@ -22,73 +22,103 @@ Also, see [Briefing languages](../briefing/be-languages.md) to see what's suppor
 
 This support is based on your Outlook language setting. For details, see [Change the time zone and language settings in Outlook.com](https://support.microsoft.com/office/change-the-time-zone-and-language-settings-in-outlook-com-8a34d50d-81b4-40c2-b304-b3d043566389).
 
-
-|Supported language | Dashboard | Digests | Outlook add-in |
-| -------  |  --------- | -------------------  | -------------------- |  
-| Arabic	  | X |    |  		           |  
-| Afghan Persian
-| Amharic
-| Basque	  |  	Arabic   |  	Afghan Persian-AF	|  	Latvian	           |  
-| Bulgarian	|  	Basque   |  	Afrikaans	        |  	Lithuanian	       |  
-|  	Catalan	  |  	Bengali-in	  |  	Albanian	    |  	Luxembourgish-LU   |  
-|  	Chinese (Simplified)	  |  	Bulgarian	  |  	Amharic	  |  	Macedonian	  |  
-|  	Chinese (Traditional)	  |  	Catalan	  |  	Arabic	  |  	Malay	  |  
-|  	Croatian	  |  	Chinese (Simplified)	  |  	Armenian	  |  	Malayalam	  |  
-|  	Czech	  |  	Chinese (Traditional)	  |  	Assamese-IN	  |  	Maltese-MT	  |  
-|  	Danish	  |  	Croatian	  |  	Azerbaijani-Latin-AZ	  |  	Maori-NZ	  |  
-|  	Dutch	  |  	Czech	  |  	Basque	  |  	Marathi	  |  
-|  	English	  |  	Danish	  |  	Belarusian-BY	  |  	mn-MN	  |  
-|  	Estonian	  |  	Dutch	  |  	Bengali-BD	  |  	Nepali-NP	  |  
-|  	Finnish	  |  	English	  |  	Bengali-IN	  |  	Northern Sotho-ZA	  |  
-|  	French	  |  	Estonian	  |  	Bosnian-Latin-BA	  |  	Norwegian	  |  
-|  	Galician	  |  	Filipino	  |  	Bulgarian	  |  	Norwegian Nynorsk-NO	  |  
-|  	German	  |  	Finnish	  |  	Catalan	  |  	Oriya	  |  
-|  	Greek	  |  	French	  |  	Catalan-Es-VALENCIA	  |  	Persian	  |  
-|  	Hebrew	  |  	Galician	  |  	Central Khmer-KH	  |  	Polish	  |  
-|  	Hindi	  |  	German	  |  	Cherokee-Cher-US	  |  	Portuguese	  |  
-|  	Hungarian	  |  	Greek	  |  	Chinese (Simplified)	  |  	Portuguese-PT	  |  
-|  	Indonesian	  |  	Gujarati	  |  	Chinese (Traditional)	  |  	Punjabi-Arab-PK	  |  
-|  	Italian	  |  	Hebrew	  |  	Chinese-HK	  |  	Punjabi-IN	  |  
-|  	Japanese	  |  	Hindi	  |  	Croatian	  |  	Romanian	  |  
-|  	Kazakh	  |  	Hungarian	  |  	Cusco Quechua-PE	  |  	Russian	  |  
-|  	Korean	  |  	Icelandic	  |  	Czech	  |  	Serbian	  |  
-| Latvian	  |  	Indonesian	  |  	Danish	  |  	Serbian-Cyrillic	  | 
-| Lao-LA
-| Lithuanian	  |  	Italian	  |  	Dutch	  |  	Serbian-Cyrillic-BA	  |  
-| Malay  |  	Japanese	  |  	English-AU	  |  	Sindhi-Arab-PK	  |  
-|  	Norwegian	  |  	Kannada	  |  	English-CA	  |  	Sinhala-LK	  |  
-|  	Polish	  |  	Kazakh	  |  	English-GB	  |  	Slovak	  |  
-|  	Portuguese	  |  	Korean	  |  	English-IN	  |  	Slovenian	  |  
-|  	Portuguese-PT	  |  	Latvian	  |  	Estonian	  |  	Spanish	  |  
-|  	Romanian	  |  	Lithuanian	  |  	Filipino	  |  	Spanish-MX	  |  
-|  	Russian	    |  	Malay	      |  	Finnish	  |  	Swahili	  |  
-|  	Serbian	    |  	Malayalam	  |  	French	  |  	Swedish	  |  
-|  	Serbian-Cyrillic | Marathi	|  French-CA	| Tajik-Cyrillic-TJ	  |  
-|  	Slovak	    |  	nn-no	      |  	Gaelic-gb	  |  	Tamil	  |  
-|  	Slovenian	  |  	Norwegian	  |  	Galician	  |  	Tatar	  |  
-|  	Spanish	    |  	Oriya	      |  	Georgian	  |  	Telugu	  |  
-|  	Swedish	    |  	Persian	    |  	German	    |  	Thai	  |  
-|  	Thai	      |  	Polish	    |  	Greek	      |  	Tigrinya-ET	  |  
-|  	Turkish	    |  	Portuguese  |  	Gujarati	  | 	Tswana-ZA |  
-|  	Ukranian    | Portuguese-pt | Hausa-Latin-NG | 	Turkic	  |  
-|  	Vietnamese  |  	qps-ploc	  |  	Hebrew	  |  	Turkish	  |  
-|         		  |  	qps-ploca	  |  	Hindi	    |  	Turkmen-TM	  |  
-|         		  |  	qps-plocm	  |  	Hungarian	  |  	Uighur-CN	  |  
-|         		  |  	Romanian	  |  	Icelandic	  |  	Ukranian	  |  
-|   		        |  	Russian	    |  	Igbo-NG	    |  	Urdu	      |   
-|         		  |  	Serbian	    |  	Indonesian	|  	Uzbek	      |  
-|   		        | Serbian-Cyrillic | Inuktitut-Latin-CA | Vietnamese |  
-|         		  |  	Slovak	    |  	Irish-IE	  |  	Welsh	      |  
-|         		  |  	Slovenian	  |  	Italian	    |  	Wolof-SN	  |  
-|         		  |  	Spanish	    |  	Japanese	  |  	Xhosa-ZA	  |  
-|         		  |  	Swahili	    |  	Kannada  	  |  	Yoruba-NG	  |  
-|         		  |  	Swedish	    |  	Kazakh      |  	Zulu-ZA	    |  
-|         		  | Tamil	   | K'iche'-Latin-gt	  |  	        	  |  
-|         		  | Telugu   | Kinyarwanda-RW	    |         		  |  
-|         		  |  	Thai	      |  	kok	        |  	        	  |  
-|         		  |  	Turkish	    |  	Korean	    |         		  |  
-|         		  | Ukranian | Kurdish-Arab-IQ	  |  	        	  |  
-|         		  |  	Urdu        |         		  |         		  |  
-|         		  |  	Vietnamese  |         		  |         		  |  
-|         		  |  	Welsh	      |         		  |         		  |  
-
+Supported language | Dashboard | Digests | Outlook add-in
+------------------- | --------- | --------- | ---------  
+English | X | X | X
+Japanese | X | X | X
+French | X | X | X
+Spanish | X | X | X
+Chinese (Simplified and Traditional) | X | X | X
+German | X | X | X
+Dutch | X | X | X
+Afghan Persian | | | X
+Afrikaans | | | X
+Albanian | | | X
+Amharic | | |X
+Arabic | X | X | X
+Armenian |  | X |
+Assamese |  | X |
+Azerbaijani-Latin |  | X |
+Basque |  | X | X
+Bengali|  | X | X
+Bosnian-Latin-BA
+Bulgarian|  | X | X
+Catalan|  | X | X
+Central Khmer-KH|  | | X
+Cherokee-Cher-US|  |  | X
+Croatian| X | X | X
+Cusco Quechua-PE|  | X | X
+Czech|  | X | X
+Danish|  | X | X
+Estonian|  | X | X
+Filipino|  | X | X
+Finnish|  | X | X
+Gaelic-gb|  | X | X
+Galician|  | X | X
+Georgian|  | X | X
+Greek|  | X | X
+Gujarati|  | X | X
+Hausa-Latin-NG|  | X | X
+Hebrew|  | X | X
+Hindi|  | X | X
+Hungarian|  | X | X
+Icelandic|  | X | X
+Igbo-NG|  | X | X
+Indonesian|  | X | X
+Inuktitut-Latin-CA|  | X | X
+Irish-IE|  | X | X
+Italian|  | X | X
+K'iche'-Latin-gt|  | X | X
+Kannada |  | X | X
+Kazakh |  | X | X
+Kinyarwanda-RW |  | X | X
+Korean |  | X | X
+Kurdish-Arab-IQ |  | X | X
+Lao-LA |  | X | X
+Latvian |  | X | X
+Lithuanian |  | X | X
+Luxembourgish |  | X | X
+Macedonian |  | X | X
+Malay |  |  | X
+Malayalam |  |  | X
+Maltese |  |  | X
+Maori |  |  | X
+Marathi |  |  | X
+Nepali |  |  | X
+Northern Sotho-ZA |  |  | X
+Norwegian |  |  | X
+Oriya |  |  | X
+Persian |  |  | X
+Polish |  |  | X
+Portuguese |  |  | X
+Punjabi-Arab-PK |  |  | X
+Punjabi-IN |  |  | X
+Romanian |  |  | X
+Russian	 |  |  | X
+Serbian |  |  | X
+Serbian-Cyrillic |  |  | X
+Sindhi-Arab-PK |  |  | X
+Sinhala-LK |  |  | X
+Slovak |  |  | X
+Slovenian |  |  | X
+Swahili	 |  |  | X
+Swedish |  |  | X
+Tamil |  |  | X
+Tatar |  |  | X
+Telugu |  |  | X
+Thai |  |  | X
+Tigrinya-ET |  |  | X
+Tswana-ZA |  |  | X
+Turkic |  |  | X
+Turkish |  |  | X
+Turkmen-TM |  |  | X
+Uighur-CN |  |  | X
+Ukranian |  |  | X
+Urdu |  |  | X
+Uzbek |  |  | X
+Vietnamese |  |  | X
+Welsh |  |  | X
+Wolof-SN |  |  | X
+Xhosa-ZA |  |  | X
+Yoruba-NG |  |  | X
+Zulu-ZA |  |  | X
