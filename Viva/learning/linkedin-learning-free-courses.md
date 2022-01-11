@@ -128,15 +128,86 @@ A selection of 125 courses are available from LinkedIn Learning for free. This m
 
 ## Courses in German
 
-|English title   |Original title   |
-|----------|-----------|
-|table     |data       |
-|it doesn't|actually   |
-|it doesn't|actually   |
-|it doesn't|actually   |
-|it doesn't|actually   |
-|it doesn't|actually   |
-|it doesn't|actually   |
-|it doesn't|actually   |
-|it doesn't|actually   |
-|it doesn't|actually   |
+|English title   |Native title   |Skill type |
+|----------|-----------|-----------|
+|Performing Confidently in Video Conferences |In der Videokonferenz souverän auftreten |Business |
+|Developing an Agile Mindset|Ein agiles Mindset entwickeln |Business |
+|Managing Changes in the Job Successfully|Veränderungen im Beruf erfolgreich bewältigen |Business |
+|Presenting Convincingly|Psychologisch geschickt und überzeugend präsentieren |Business |
+|Time Management with Outlook|Zeitmanagement mit Outlook (365/2019) |Business |
+|Excel: Tips, Tricks and Techniques|Excel: Tipps, Tricks, Techniken (365/2019) |Business |
+|Deep Learning: Foundations, Tools and Applications|Deep Learning: Grundlagen, Tools und Anwendungen |Tech |
+|Learning Python|Python lernen |Tech |
+|Project Management for Creatives|Kreative Ideen entwickeln: Tipps & Tricks |Creative |
+|Artificial Intelligence (AI): Tools and Apps|Künstliche Intelligenz (KI): Geschichte, Techniken, Einsatzgebiete |Tech |
+
+## Courses in French
+
+|English title   |Native title   |Skill type |
+|----------|-----------|-----------|
+|Learn to Communicate Effectively |Les fondements de la communication |Business |
+|Communication within Teams |Communiquer au sein d'une équipe |Business|
+|Lead Like a Boss |Diriger comme un patron |Business|
+|Digital Transformation for Leaders |La transformation digitale pour les décideurs |Business|
+|5 Steps to Make Your PowerPoint Presentations More Powerful |Rendre ses présentations PowerPoint plus percutantes |Business|
+|Python for Data Science |Python pour la data science |Tech |
+|Cybersecurity and IT Security Foundations |Les fondements de la sécurité informatique et de la cybersécurité |Tech |
+|Foundations of Artificial Intelligence |Les fondements de l'intelligence artificielle |Tech |
+|Drawing Foundations |Les fondements du dessin |Creative |Tech |
+|Interpersonal Communication |La communication interpersonnelle |Business|
+
+## Courses in Spanish
+
+|English title   |Native title   |Skill type |
+|----------|-----------|-----------|
+|How to Write Effectively |How to Write Effectively |Business |
+|Digital Transformation for Remote Teams and Collaborative Work |Digital Transformation for Remote Teams and Collaborative Work |Business |
+|Leading with the Brain in Mind |Leading with the Brain in Mind |Business |
+|Productivity Foundations |Productivity Foundations |Business |
+|Employee Empowerment |Employee Empowerment |Business |
+|Overcoming the Creative Block |Overcoming the Creative Block |Business |
+|Tricks to Change or Create New Habits |Tricks to Change or Create New Habits |Business |
+|Learning Big Data: Data Visualization |Learning Big Data: Data Visualization |Tech |
+|Big Data Foundations |Big Data Foundations |Tech |
+|Design Thinking Foundations |Design Thinking Foundations |Creative |
+
+## Courses in Japanese
+
+> [!NOTE]
+> All business courses are translated versions of their English-language counterparts.
+
+|English title   |Native title   |Skill type |
+|----------|-----------|-----------|
+|Effective Listening |優れた聴き手になるには |Business |
+|Developing Cross-Cultural Intelligence |困難から立ち直るには |Business |
+|Developing Resourcefulness |課題解決力を高めるには |Business |
+|Unconscious Bias | 無意識の思い込みと向き合うには |Business |
+|Microsoft Teams: Meetings and Live Events |Microsoft Teams：ビデオ会議とライブイベント |Business |
+|Excel Tips and Tricks (Office 365/Excel 2019) |Excel すぐに役立つ小ワザ集（365/2019）|Business |
+|PowerPoint: Tips and Tricks (Office 365/PowerPoint 2019) |PowerPointの便利技（Office 365/PowerPoint 2019）|Business |
+|Windows 10: Installation, Deployment, and Migration |Windows 10：インストール・展開・移行 |Tech |
+|Programming Foundations: Fundamentals |プログラミングの基礎：基本 |Tech |
+|Drawing Foundations: The Basics |デッサンの基礎：基本 |Creative |
+
+## Courses in Brazilian Portuguese
+
+> [!NOTE]
+> All business courses are translated versions of their English-language counterparts.
+
+|English title   |Native title   |Skill type |
+|----------|-----------|-----------|
+|Communication within Teams |A Comunicação no Trabalho em Equipe|Business |
+|How to Get Your Ideas Approved |Como Obter Aprovação para suas Ideias|Business |
+|Developing Cross-Cultural Intelligence |Desenvolvimento da Inteligência Intercultural|Business |
+|Team Collaboration in Office 365 |Colaboração entre Equipes no Microsoft Office 365|Business |
+|Learning Data Analytics |Fundamentos de Análise de Dados |Tech|
+
+## Courses in Mandarin
+
+|English title   |Native title   |Skill type |
+|----------|-----------|-----------|
+|Communication within Teams |团队沟通 |Business |
+|Cultivating a Growth Mindset |培养成长型思维 |Business |
+|Team Collaboration in Office 365 |Office 365 中的团队合作 (Microsoft 365) |Business |
+|Learning Data Science: Telling Stories with Data |学习数据科学：用数据说话 |Tech|
+|Learning Data Science: Understanding the Basics |学习数据科学：基础知识理解 |Tech|
