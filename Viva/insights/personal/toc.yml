@@ -106,8 +106,6 @@ items:
               href: use/leadership.md
         - name: Personal insights FAQ
           href: overview/mya-faq.md
-        - name: Language support
-          href: overview/mya-languages.md
         - name: Admin guide
           items: 
             - name: Introduction
