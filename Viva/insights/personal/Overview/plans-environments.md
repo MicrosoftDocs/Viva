@@ -16,7 +16,7 @@ audience: Admin
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in [Viva Insights in Teams](../teams/viva-teams-app.md), the [MyAnalytics dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Digests](../use/email-digest-2.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in [Viva Insights in Teams](../teams/viva-teams-app.md), the [MyAnalytics dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Digests](../use/email-digests-3.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
 You can use the following Viva Insights and MyAnalytics features when your organization subscribes to the following Microsoft 365 or Office 365 plans:
 
@@ -45,7 +45,7 @@ After users get assigned licenses with a MyAnalytics service plan, they get acce
 | ------- | ------------------|
 | [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment|
 | [MyAnalytics Dashboard](../use/dashboard-2.md)  | Available a few days after license assignment |
-| [Digests](../use/email-digest-2.md)  | Sent the Monday of the first week after the welcome email |
+| [Digests](../use/email-digests-3.md)  | Sent the Monday of the first week after the welcome email |
 | [Inline suggestions](../use/mya-notifications.md)  | Available about one day after license assignment |
 | [Insights Outlook add-in](../use/add-in.md)  | Available about one day after license assignment |
 

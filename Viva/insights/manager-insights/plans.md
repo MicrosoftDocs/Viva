@@ -62,7 +62,7 @@ The [MyAnalytics dashboard](../personal/use/dashboard-2.md) is a constantly avai
 
 ### Digest
 
-All MyAnalytics and Viva Insights users receive a monthly [digest](../personal/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan.
+All MyAnalytics and Viva Insights users receive a monthly [digest](../personal/use/email-digests-3.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan.
 
 ### Inline suggestions
 
