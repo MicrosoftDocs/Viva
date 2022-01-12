@@ -17,18 +17,19 @@ audience: Admin
 
 # Assign roles with Azure AD
 
-People can work with Microsoft Viva Insights only after they've been assigned a role. See [User roles](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Use the following steps to assign Viva Insights or Workplace Analytics roles to individual people or to groups:
+People can work with Microsoft Viva Insights only after they've been assigned a role. See [User roles](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following to assign Viva Insights or Workplace Analytics roles:
 
-* [Assign roles to individuals](#assign-roles-to-users)
+* [Assign Viva Insights roles](#assign-viva-insights-roles)
+* [Assign Workplace Analytics roles](#assign-workplace-analytics-roles)
 * [Assign roles to groups](#assign-roles-to-groups)
 * [Verify role assignments](#verify-role-assignments)
 * [Role assignment FAQ](#role-assignment-faq)
 
-## Assign roles to users
+## Assign Viva Insights roles
 
 **Owner** - Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference)
 
-1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. To assign roles for Viva Insights, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise applications**:
 
    ![Enterprise applications.](../images/wpa/setup/enterprise-apps.png)
@@ -56,37 +57,22 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
    >[!Note]
    >Repeat this step to add one or more additional users to assign them the same role.
 
-10. In **Add Assignment**, chose **Select Role** to view it on the right side of the page:
-
-    ![Select role.](../images/wpa/setup/select-role.png)
-
-11. Select one of the following roles:  
-
-    * Analyst
-    * Insights Business Leader
-    * Insights Administrator
-    * Program manager
+10. In **Add Assignment**, choose **Select Role** to view it on the right side of the page, and then select the applicable role. You'll then see the selected role at the bottom of the **Select Role** section and under **Add Assignment** in the **Select Role** section.
 
     >[!Note]
-    >The Group manager role might appear (as a disabled option) in some tenants that were provisioned earlier.  
+    >To change the role for a user, repeat this and the next step, and select a different role.
 
-    You'll see the selected role at the bottom of the **Select Role** section. The role also shows up under **Add Assignment** in the **Select Role** section:
-
-    ![Added role.](../images/wpa/setup/add-assignment-select-53.png)
-
-    >[!Note]
-    >To change the role for a user, repeat **Steps 10-11** and select a different role in **Step 11**.
-
-12. In **Add Assignment**, select **Assign** (bottom of the page):
-
-    ![Assign.](../images/wpa/setup/assign-button.png)
-
-13. After a few seconds, you'll see a message in the upper right about the role assignment. Optionally, you can now assign additional roles, either to the same user or to different users:
-
-    * **Same user, additional role** - To add another role to the same user, repeat **Steps 7-12** and in **Step 9**, be sure to select the correct user, and then select the additional role in **Steps 10-11**.
-    * **Other users** - To select other users and assign roles to them, repeat **Steps 7-12** and in **Step 9-11**, be sure to select the new user and role.
+11. In **Add Assignment**, select **Assign** (bottom of the page).
+12. After a few seconds, you'll see a message in the upper right about the role assignment. Optionally, you can repeat these steps to assign a role to other users or to assign a different role to the same user.
 
 To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments).
+
+## Assign Workplace Analytics roles
+
+**Owner** - Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference)
+
+1. To assign roles for Workplace Analytics, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+2. 
 
 ## Assign roles to groups
 
