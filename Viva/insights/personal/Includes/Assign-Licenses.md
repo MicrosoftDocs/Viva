@@ -42,6 +42,6 @@ After you assign a user license with the MyAnalytics service plan, the new parti
 
  * **Insights Outlook add-in:** Users can see the [Insights Outlook add-in](../Use/add-in.md) in a day or so after their license with the MyAnalytics service plan is granted.
 
- * **Weekly digest:** Users will begin to receive the [MyAnalytics digest](../Use/email-digest-2.md) on the Monday of the first week after they receive the welcome email.
+ * **Weekly digest:** Users will begin to receive the [MyAnalytics digest](../Use/email-digests-3.md) on the Monday of the first week after they receive the welcome email.
 
  * **Inline suggestions:** Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the MyAnalytics service plan is granted.

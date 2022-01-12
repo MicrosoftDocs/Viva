@@ -308,7 +308,7 @@ If users have questions about using Viva Insights, point them to the published [
   * [Personal dashboard](./../use/dashboard-2.md)
   * [Viva Insights Outlook add-in](./../use/add-in.md)
   * [Briefing emails](../Briefing/be-overview.md)
-  * [Digests](./../use/email-digest-2.md)
+  * [Digests](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
 
 <!--#### Training videos for Viva Insights
