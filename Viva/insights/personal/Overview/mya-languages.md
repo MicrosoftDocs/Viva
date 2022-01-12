@@ -16,6 +16,7 @@ audience: Admin
 
 # Personal insights language support
 
+
 You can view the [Dashboard](../use/dashboard-2.md) and [Viva Insights Home](../use/home-web.md) in the languages that are supported through your web browser. See [Browser support](#browser-support) for what's supported.
 
 The personal insights with Viva Insights that are available through Outlook, such as [Digests](../use/email-digest-2.md) and the [Viva Insights Outlook add-in](../use/add-in.md) support the languages available in Outlook. See [Change the time zone and language settings in Outlook.com](https://support.microsoft.com/office/change-the-time-zone-and-language-settings-in-outlook-com-8a34d50d-81b4-40c2-b304-b3d043566389) to check or change your language setting. However, the [Task cards](../use/MyA-Outlook-add-in/MyA-Add-in-To-do.md) in the Viva Insights Outlook add-in are currently only available in English.
