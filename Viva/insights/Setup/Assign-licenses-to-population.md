@@ -22,11 +22,11 @@ The following describes who does what to assign licenses to users for Microsoft 
 * **Task** &ndash; Determine population in scope for analysis and assign licenses through Microsoft 365 or Office 365
 * **Outcome** &ndash; Microsoft 365 licenses are assigned for the population that will be analyzed
 
-The Viva Insights sponsor works with the Viva Insights Administrator and Azure AD Privileged Role Admin to identify the population (the people in your company) whose Microsoft 365 collaboration activity you want to analyze. These people are referred to as _measured employees_.
+The Viva Insights sponsor works with the Viva Insights Administrator, Microsoft 365 global admin, and Azure AD Privileged Role Admin to identify the population (the people in your company) whose Microsoft 365 collaboration activity you want to analyze. These people are referred to as _measured employees_.
 
 Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
-After you have identified the population in scope, the Azure AD Privileged Role Admin assigns Viva Insights or Workplace Analytics licenses to users in this population. Note that people can find out for themselves whether they've been assigned a license; see [Subscription status](#subscription-status).
+After you have identified the population in scope, the global admin assigns Viva Insights or Workplace Analytics licenses to users in this population. Note that people can find out if they've been assigned a license; see [Subscription status](#subscription-status).
 
 The assignment of licenses affects the measured population that is shown in **Data sources**. See [Origin of data counts](../use/office-365-data.md#origin-of-data-counts) for details.
 
@@ -35,11 +35,11 @@ The assignment of licenses affects the measured population that is shown in **Da
 
 ### Subscription status
 
-Microsoft 365 users might want to find out whether their collaboration data is being processed. First, they should know that Viva Insights in Workplace Analytics processes data only for users who've been assigned Viva Insights licenses. Next, they need to determine whether they have a license. They can determine this by completing the following steps.
+Microsoft 365 users might want to find out whether their collaboration data is being processed. First, they should know that Viva Insights in Workplace Analytics processes data only for users who've been assigned licenses. Next, they can determine if they have a license with the following steps.
 
 #### Confirm an assigned license
 
-**Role**: Microsoft 365 user
+**Role** - Microsoft 365 user
 
 1. Open the [Microsoft 365 portal](https://portal.office.com).
 2. Sign in to your Microsoft 365 account.

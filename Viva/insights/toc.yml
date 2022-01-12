@@ -238,7 +238,7 @@ items:
                     href: setup/assign-roles-to-wpa-admins.md
                   - name: Role access
                     href: Use/User-Roles.md
-                  - name: Assign roles with Azure AD
+                  - name: Assign roles
                     href: setup/assign-user-roles.md
               - name: Controls
                 items:
