@@ -48,7 +48,7 @@ Personal insights in Viva Insights are shown in the following ways:
 * [Personal dashboard](../use/dashboard-2.md)
 * [Briefing emails](../Briefing/be-overview.md)
 * [Viva Insights in Outlook](../use/add-in.md)
-* [Digest emails in Outlook](../use/email-digest-2.md)
+* [Digest emails in Outlook](../use/email-digests-3.md)
 * [Inline suggestions in Outlook](../use/mya-notifications.md)
 
 Personal insights in Viva Insights uses the following types of data.
@@ -159,7 +159,7 @@ To notify employees that their dashboard and Outlook add-in have been enabled, V
 
 ### Digest emails
 
-A few days after the welcome email is delivered, users begin to receive the [Digest emails](../use/email-digest-2.md).
+A few days after the welcome email is delivered, users begin to receive the [Digest emails](../use/email-digests-3.md).
 
 ## GDPR Compliance
 

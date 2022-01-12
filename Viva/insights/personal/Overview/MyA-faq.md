@@ -14,7 +14,7 @@ audience: Admin
 
 # Personal insights FAQ
 
-This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the the [MyAnalytics dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
+This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the the [MyAnalytics dashboard](../use/dashboard-2.md), [Digests](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
 
 * The [Privacy](#privacy) section applies to everyone.
 
@@ -116,7 +116,7 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 
 #### Q1. How do the MyAnalytics digests show up in Outlook?
 
- Your [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
+ Your [MyAnalytics digests](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
 
 ### Opt out
 
@@ -133,7 +133,7 @@ See the following for details:
 ##### Opt out of different elements
 
  * [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard)
- * [Opt out of digests](../use/email-digest-2.md#opt-out-of-digests)
+ * [Opt out of digests](../use/email-digests-3.md#opt-out-of-digests)
  * [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-out)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
@@ -310,7 +310,7 @@ The dashboard is available to MyAnalytics users a few days after getting assigne
 
 #### Q4. How do the MyAnalytics digests show up in Outlook?
 
- The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
+ The [MyAnalytics digests](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
 
 #### Q5. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
