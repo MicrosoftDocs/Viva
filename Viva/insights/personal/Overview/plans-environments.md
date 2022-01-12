@@ -87,9 +87,7 @@ As an Outlook add-in, the Insights Outlook add-in requires a browser compatible 
 
 Personal insights in Viva Insights and MyAnalytics are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
-You can view the [Dashboard](../use/dashboard-2.md) and [Viva Insights Home](../use/home-web.md) in most of the languages that are available through a [supported browser](#browser-support).
-
-See [Briefing languages](../briefing/be-languages.md) to see what's supported for Briefing emails. Also, see [Advanced insights language support](../../overview/supported-languages.md) for what's supported and other guidelines for advanced insights.
+See [Briefing languages](../briefing/be-languages.md) to see what's supported for Briefing emails and [Advanced insights language support](../../overview/supported-languages.md) for what's supported for advanced insights.
 
 ## Prerequisites and exclusions
 
