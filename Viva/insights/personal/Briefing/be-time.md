@@ -2,7 +2,7 @@
 title: Plan your week with the Briefing email
 description: Learn how to use the Briefing email to schedule time to focus, catch up on email, and more
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

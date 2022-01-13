@@ -2,11 +2,15 @@
 
 title: Tips for uploading org data
 description: Tips when uploading org data to MyAnalytics. 
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 #### Rules for field headers
 

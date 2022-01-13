@@ -3,7 +3,7 @@
 title: Praise with Viva Insights
 description: Use the Praise feature in the Microsoft Viva Insights app
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

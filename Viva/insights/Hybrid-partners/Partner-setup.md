@@ -4,10 +4,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Viva Insights partner solution setup
 description: How to set up an on-premises Exchange server to work with Microsoft Viva Insights in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 

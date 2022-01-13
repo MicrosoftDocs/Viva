@@ -4,6 +4,8 @@ items:
   items:
   - name: Get started with Microsoft Viva
     items:
+    - name: Microsoft Viva overview
+      href: microsoft-viva-overview.md
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
     - name: Microsoft Viva language support

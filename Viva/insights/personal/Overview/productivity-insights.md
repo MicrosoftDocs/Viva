@@ -3,7 +3,7 @@
 title: Productivity insights in Viva Insights in Outlook
 description: Learn ways to improve your productivity with Microsoft Viva Insights in Outlook 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
 ms.prod: Mya

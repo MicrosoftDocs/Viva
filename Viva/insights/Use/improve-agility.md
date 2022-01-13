@@ -2,10 +2,14 @@
 title: Improve agility with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and improve organizational agility
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -28,8 +32,6 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Accelerate decision making |Percentage of employees who could be empowered to make faster decisions | [Influence](metric-definitions.md#influence-define)  |Employees whose influence score is within 25 percent of their manager's influence score are considered empowered employees. This insight calculates the number of employees who are empowered as compared to all measured employees.  |
 |Improve management practices |Percentage of managers who spend a majority of their meeting time in double-booked meetings | [Attendees with conflicting meeting](metric-definitions.md#attendees-with-conflicting-meeting-define) |Percentage of managers who spend more than 50 percent of their time in overlapping meetings. The count includes the entire duration of the overlapping meetings, not just the amount of time that overlaps. This counts all non-declined meetings, including accepted, tentative, and no responses to meeting invitations on their calendars. This insight is calculated weekly and averaged over the entire time period. |
 
-<!-- MOVED THIS ROW AWAY FROM THE ACTUAL TABLE TO AVOID BUILD WARNING:  |Foster cross-group collaboration |Percentage of organizations that have low cross-group collaboration | [Diverse tie score](metric-definitions.md#diverse-tie-score-define)  |\[Calculation info\] |  -->
-
 The following defines the organizational data shown in the visual behavioral insights.
 
 ![Improve agility visual insight.](../images/wpa/use/improve-agility-visual.png)
@@ -37,7 +39,7 @@ The following defines the organizational data shown in the visual behavioral ins
 |Behavior |Visual insight | Definition |
 |---------|--------|----------------------|
 |Organize better meetings | Meetings by duration and number of attendees | Shows the percentages of meetings that are [long](glossary.md#long-meeting-define), [large](glossary.md#large-meeting-define), [long and large](glossary.md#long-and-large-meeting-define), and [decision-making meetings](glossary.md#decision-making-meeting-define). |
-|<a name="ona-accelerate-define"></a> Accelerate decision making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) that shows the distribution of empowered employees and disempowered employees in your organization. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices. This graph uses the [influence metric](metric-definitions.md#network-metrics). |
+|<a name="ona-accelerate-define"></a> Accelerate decision making | Employee empowerment | [An organizational network graph](insight-ona-measures.md) that shows the distribution of empowered employees and less empowered employees in your organization. This helps identify information sharing patterns, and where they are well represented in your organization. You can use this insight to understand at a high level which parts of your organization could benefit from better information sharing practices. This graph uses the [influence metric](metric-definitions.md#network-metrics). |
 |Improve management practices | Distribution of conflicting meeting hours | Shows the percentage of managers according to the number of their [conflicting meeting](glossary.md#conflicting-meeting-define) hours. These percentages are calculated weekly and averaged over the entire time period. |
 
 ## Take action
@@ -62,7 +64,6 @@ This section describes why each of the following behaviors matter and the top be
 
 * [Organize better meetings](#organize-better-meetings)
 * [Accelerate decision making](#accelerate-decision-making)
-* [Improve management practices](#improve-management-practices)
 
 ### Organize better meetings
 
@@ -86,20 +87,6 @@ According to [Five ways to empower your team to make decisions](https://insights
 * Use [MyAnalytics insights](../personal/use/use-the-insights.md) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).
-
-<!--
-### Foster cross-group collaboration
-
-Agile organizations rely on a network of highly-connected teams that actively collaborate together with a shared understanding of the collective mission.
-
-Ways to foster cross-group collaboration:
-
-* Build community by promoting information sharing and community building. Do this, for example, through cross-functional projects and communication about strategic topics carried out in Microsoft Teams channels.
-* The MyAnalytics network dashboard shows your connections and top collaborators, and gives you suggestions on how to improve connections with your most important contacts.
-
-For more best practices and how to create goals across teams or departments, see [Best practices for cross-group collaboration](../tutorials/gm-cgcollaboration.md).
-
--->
 
 ### Improve management practices
 

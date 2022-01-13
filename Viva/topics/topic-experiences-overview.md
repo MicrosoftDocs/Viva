@@ -6,10 +6,13 @@ manager: pamgreen
 ms.reviewer: cjtan; lauris
 audience: admin
 ms.topic: article
-ms.custom: intro-overview
+search.appverid:
+    - MET150  
+ms.custom: 
+- intro-overview
+- intro-get-started
 ms.service: viva
 ms.subservice: viva-topics
-search.appverid: 
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-topics
@@ -139,6 +142,18 @@ Users with edit or create topics permissions can make updates to topic pages dir
 Users that you allow access to see topics in their daily work might be asked if the topic was useful to them. The system looks at these responses and uses them to improve the topic highlight, and help determine what's shown on topic summaries and in topic details.
 
 For more information, see [Topic discovery and curation](./topic-experiences-discovery-curation.md).
+
+## Language support
+
+Viva Topics is available to customers worldwide, but currently offers the following language support for indexing content in your organization.
+
+|&nbsp; |&nbsp;  |
+|---|---|
+English (United States)|German (coming soon)|
+French (France) (coming soon)|Spanish (Spain) (coming soon)|
+| |
+
+For information about the languages supported in the Viva Topics user interface, see [Viva Topics supported languages](/viva/viva-language-support#viva-topics-supported-languages). 
 
 ## Provide us feedback
 

@@ -3,12 +3,16 @@
 title: Network metrics 
 description: Describes the metrics that are used in network queries
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 
 # Network query metrics

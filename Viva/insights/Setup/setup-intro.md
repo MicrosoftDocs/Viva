@@ -3,13 +3,19 @@
 title: Setup overview for Viva Insights
 description: Setup overview for Microsoft Viva Insights features
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: 
+- viva-insights-personal
+- viva-insights-advanced
+- viva-insights-leader
+- viva-insights-manager
+ms.custom: intro-get-started
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

@@ -14,6 +14,7 @@ metadata:
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 09/02/2021 #Required; mm/dd/yyyy format.
+  ms.custom: intro-hub-or-landing
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -23,7 +24,7 @@ highlightedContent:
     # Card
     - title: Get started with Microsoft Viva
       itemType: get-started
-      url: setup-microsoft-viva.md
+      url: microsoft-viva-overview.md
     # Card
     - title: Microsoft Viva blog
       itemType: whats-new

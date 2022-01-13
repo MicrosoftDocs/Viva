@@ -6,8 +6,11 @@ manager: serdars
 ms.reviewer: nkokoye, cjtan
 audience: admin
 ms.topic: article
-ms.service: o365-administration
-search.appverid: MET150
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Learn how to plan for security and privacy in Microsoft Viva Topics.
 ---

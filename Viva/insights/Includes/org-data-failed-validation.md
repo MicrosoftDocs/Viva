@@ -2,11 +2,15 @@
 
 title: Options upon failed validation (subsequent uploads)
 description: What you can do after your uploaded data has failed to validate.  
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 <!-- Note: Options in subsequent uploads contain a) changing (or even mentioning) thresholds and b) Abandon option. Options for first upload do not.   -->
 | Nature of errors | Recommended selection | Description |

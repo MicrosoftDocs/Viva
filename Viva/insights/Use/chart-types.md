@@ -1,11 +1,15 @@
 ---
 title: Charts in Workplace Analytics
 description: Describes the different chart types and how to use the chart features in Workplace Analytics
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

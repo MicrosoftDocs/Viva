@@ -3,14 +3,19 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Microsoft Viva Insights playbooks
 description: Learn more about how to use Viva Insights with the available playbooks
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ms.author: helayne
 author: madehmer
 ms.topic: article
 manager: scott.ruble
 audience: Admin
 ---
-# Viva Insights Playbooks
+
+# Workplace Analytics playbooks
 
 Maximize the power of Microsoft Viva Insights in Workplace Analytics to gain insights into how your organization collaborates and how to improve teamwork across your organization.
 
