@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 description: "An overview of the Microsoft Viva suite"
 ---
-# Microsoft Viva Overview
+# Microsoft Viva overview
 
 With the growth in hybrid work, it is more important than ever to connect employees with an integrated employee experience that brings together communications, knowledge, learning, resources, and insights into the flow of work.
 
@@ -26,7 +26,7 @@ Viva is easily customizable and extensible, accessible from anywhere you work, a
 
 Viva is an open and extensible platform. Soon, partners and developers will be able to use toolkits and APIs for each of the four modules. The [Viva Connections toolkit](/sharepoint/dev/spfx/viva/overview-viva-connections) is available now, and coming soon are APIs for Viva Insights and Viva Learning as well as content support for Viva Topics. To find out more, see the [Microsoft Viva Developer Page](https://developer.microsoft.com/en-us/viva).
 
-As an integrated experience, administrators can use the centralized Microsoft 365 admin center experience to access guided set-ups for deploying Viva. [Learn how to set up Microsoft Viva](/viva/setup-microsoft-viva).
+As an integrated experience, administrators can use the centralized Microsoft 365 admin center experience to access guided setups for deploying Viva. [Learn how to set up Microsoft Viva](/viva/setup-microsoft-viva).
 
 ## Viva modules
 

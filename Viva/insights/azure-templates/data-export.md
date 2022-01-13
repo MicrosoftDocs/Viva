@@ -3,12 +3,13 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Data export
 description: Learn how to use Data export in Workplace Analytics for advanced data analysis
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

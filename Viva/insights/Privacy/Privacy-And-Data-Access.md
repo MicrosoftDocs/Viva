@@ -3,29 +3,33 @@
 title: Privacy and data access
 description: About the privacy and data access controls available in Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
-search.appverid:
+ms.collection:  
+- viva-insights-advanced
+- viva-insights-leader
+- viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
 - MET150 
-ms.prod: wpa
-ms.collection: M365-analytics, m365initiative-viva-insights
 manager: scott.ruble
 audience: Admin
 ---
 
 # Privacy and data access
 
-Being aware of employees' rights is a key component to ensuring a successful program using Microsoft Viva Insights. It is important to consider ever-changing laws and regulations regarding employer-employee relationships, privacy, and personal data, as well as company policies, before using the Viva Insights web features.
+Being aware of employees' rights is a key component to ensuring a successful program using Microsoft Viva Insights. It's important to consider ever-changing laws and regulations about employer-employee relationships, privacy, personal data, and company policies, before using the Viva Insights web features.
 
-Viva Insights does not encode any specific policy, instead it provides controls that administrators can use to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in the app.
+Viva Insights doesn't encode any specific policy. Instead, it gives control to the administrators to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in the app.
 
 >[!Important]
 >Consult with your legal and human resources teams before enabling Microsoft Viva Insights for your organization.
 
 ## You decide who gets to see what data
 
-Organizations decide who has access to what Viva Insights data. You should ensure that primary users receive suitable training in privacy, and in your company’s policies and other applicable subject areas, before being granted access to the data.
+Organizations decide who has access to Viva Insights data. Primary users must receive suitable training in privacy, in company’s policies, and other applicable subject areas, before being granted access to the data.
 
 The following levels of permission provide access to the Viva Insights data:
 
@@ -37,22 +41,22 @@ The following levels of permission provide access to the Viva Insights data:
 
 ## You control the data that Viva Insights uses
 
-You retain full control over what data is used and how it is used within Viva Insights. Viva Insights uses Microsoft 365 email and calendar metadata and external data defined by your organization (usually exported from an HR system) to compute how much time groups within your organization spend in meetings, emails, calls, and chats, and with whom.
+You have full control over what data is used and how it's used within Viva Insights. Viva Insights uses Microsoft 365 email, calendar metadata, and external data exported from an HR system, to compute how much time groups within your organization spend in meetings, emails, calls, and chats.
 
-Viva Insights processes data sourced with [organizational data](#organizational-data) from your own HR system and [collaboration data from Microsoft 365](#collaboration-data-from-microsoft-365) to provide analysts with a unified pool of data on which to perform analyses.
+Viva Insights processes [organizational data](#organizational-data) from the HR system and [collaboration data from Microsoft 365](#collaboration-data-from-microsoft-365) to provide analysts with a unified pool of data to analyze.
 
 ### Organizational data
 
-Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line-of-business data stores. Viva Insights combines Microsoft 365 email, calendar, call, and instant message metadata with the organizational data that you choose to use to provide rich, actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
+Organizational data is contextual information about your employees (for example: job title, level, location) and can come from human resources, information systems, or other line-of-business data stores. Viva Insights combines Microsoft 365 email, calendar, call, and instant message metadata with the organizational data that you choose to use. With this data, it provides rich and actionable insights into your company’s communication and collaboration trends to help you make more effective business decisions.
 
 The organizational data set is combined with the Microsoft 365 metadata to produce the complete dataset that is analyzed for insights. The data sets are combined using the email addresses of the users, but the email addresses are never shown in Viva Insights through dashboards or query results.
 
-Note that other information provided in the organizational data set is exposed in Viva Insights and in Viva Insights. Take care to ensure that the data set does not include personal data (such as the employee ID).
-For more details, see [Prepare organizational data](../setup/prepare-organizational-data.md).
+Other information provided in the organizational data set is exposed in Viva Insights and in Viva Insights. Take care to ensure that the data set doesn't include personal data (such as the employee ID).
+For more information, see [Prepare organizational data](../setup/prepare-organizational-data.md).
 
 ### Collaboration data from Microsoft 365
 
-Microsoft 365 email, calendar, call, and instant message metadata provides the foundation for all analysis in Viva Insights, so the first step is to determine which users you want to include. When you choose a user to be included, Viva Insights uses the following information about items in that user's mailbox and calendar:
+Microsoft 365 email, calendar, call, and instant message metadata provide the foundation for all analysis in Viva Insights. So, the first step is to determine which users you want to include. When you choose a user to be included, Viva Insights uses the following information about items in that user's mailbox and calendar:
 
  | item | originator | recipient | subject | chronology | status | venue |
  | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 

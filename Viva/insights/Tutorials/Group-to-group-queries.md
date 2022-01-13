@@ -2,10 +2,14 @@
 title: Group-to-group queries in Viva Insights
 description: Group-to-group queries show how a team invested their time across the rest of the organization and beyond with Microsoft Viva Insights  
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 

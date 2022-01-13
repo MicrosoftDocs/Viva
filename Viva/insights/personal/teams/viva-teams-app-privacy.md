@@ -3,9 +3,12 @@
 title: Privacy guide for personal insights in Teams
 description: Learn about how Microsoft keeps your data private when using personal insights in the Microsoft Viva Insights Teams app
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
+ms.collection: 
+- viva-insights-personal
+- viva-insights-manager
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

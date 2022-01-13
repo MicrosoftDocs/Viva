@@ -3,11 +3,14 @@
 title: My team in Viva Insights
 description: Learn about the My team page in Microsoft Viva Insights in Teams that shows managers their habits and how that impact their team
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights
-ms.prod: wpa
+ms.collection: viva-insights-manager
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -16,7 +19,7 @@ audience: Admin
 
 As a manager or team lead, you can see insights and suggested actions based on your personal habits in **My team** within the Microsoft Viva Insights app in Microsoft Teams. You can also learn how your habits impact your team while getting suggestions on how to foster team culture.
 
-Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section. See [Admin tasks](#admin-tasks) to learn what's required to get the **My team** page.
+Viva Insights uses Azure Active Directory (AD) for your initial team, which you can then edit by selecting **Go to settings** in the **Your team** section. See [Admin tasks](#admin-tasks) to learn what's required to see the **My team** page.
 
 ![My team page in Viva Insights in Teams.](../images/wpa/use/myteam-2.png)
 
@@ -26,7 +29,7 @@ When data is processed for Group insights, Microsoft protects employee privacy a
 
 ## Admin tasks
 
-**My team** is available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**My team** and its features (as described on this page) are available to managers or team leads who have a Microsoft Viva Insights license with a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 
@@ -119,7 +122,7 @@ Group insights are only available to qualifying managers who are set up as a man
 
 ## Plans
 
-This section will also show suggestions for you to consider, such as scheduling a [no-meeting day for your team](#no-meeting-day-for-your-team).
+This section will also show suggestions for you to consider, such as scheduling a [no-meeting day for your team](#no-meeting-day-for-your-team) or a [shared focus plan](#shared-focus-plan).
 
 ### No-meeting day for your team
 
@@ -136,6 +139,10 @@ The day before a scheduled no-meeting day, your team members are prompted by Viv
 They can select **Review schedule** within the notice to help with this task.
 
 ![Review schedule before a no-meeting day.](../images/wpa/use/no-meeting-review.png)
+<!-->
+### Shared focus plan
+
+An enrolled manager can invite their team to book daily, uninterrupted focus time to get their work done. A shared focus plan helps your team build a shared productivity habit. See [Shared focus plan](shared-focus-plan.md) for details.-->
 
 ## Briefing and digest emails
 

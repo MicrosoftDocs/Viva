@@ -3,11 +3,17 @@
 title: FAQ for manager and team lead insights
 description: FAQ for My team in Microsoft Viva Insights in Teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
-ms.collection: m365initiative-viva-insights
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-manager
+- viva-insights-leader
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 
@@ -73,7 +79,7 @@ Yes. You gain access to an experience if you fulfill the requirements for that e
 
 ##### Q10 How can I send Microsoft feedback?
 
-For the "Is this helpful?" question near the end of every insight and every page, select **Yes** or **No** to provide feedback. You can also select the **Allow Microsoft to contact** checkbox if you’d like Microsoft to contact you about the feedback.
+For the "Is this helpful" question near the end of every insight and every page, select **Yes** or **No** to provide feedback. You can also select the **Allow Microsoft to contact** checkbox if you’d like Microsoft to contact you about the feedback.
 
 ##### Q11 How do I opt back in to My team?
 

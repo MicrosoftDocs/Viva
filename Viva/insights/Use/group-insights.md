@@ -3,11 +3,16 @@
 title: Group insights within My team in Viva Insights
 description: Learn about the Group insights within My team in Microsoft Viva Insights in Teams that shows managers their team collaboration patterns
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
-ms.collection: m365initiative-viva-insights
+ms.collection: 
+- m365initiative-viva-insights
+- viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -29,7 +34,7 @@ When data is processed for group insights, Microsoft protects employee privacy a
 To see **Group insights** in **My team**, confirm the following prerequisites for your team:
 
 * **Manager access** - Ask your admin if [Manager settings](../use/manager-settings.md) are turned **On** and you are not signed in or assigned _any other_ roles for Viva Insights in Workplace Analytics.
-* **Licensed team** - The members of your team are assigned [Viva Insights licenses](../setup/environment-requirements.md#viva-insights-licenses) with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md) and are included in the reporting hierarchy that leads to you as their manager.
+* **Licensed team** - The members of your team are assigned Microsoft Viva Insights licenses and are included in the reporting hierarchy that leads to you as their manager.
 * **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
 * **Set up the app** - Ask your admin to install and set up the Viva Insights app in Teams for your organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 

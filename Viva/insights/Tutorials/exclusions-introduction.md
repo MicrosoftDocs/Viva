@@ -3,15 +3,19 @@
 title: Introduction to Analyst settings in Workplace Analytics
 description: Introduction to Analyst settings in Microsoft Viva Insights in Workplace Analytics
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
-# Analyst settings
+# Analyst settings in Workplace Analytics
 
 As an analyst of Microsoft Viva Insights in Workplace Analytics, you use Analyst settings to set up meeting and attendee exclusion rules for data analysis purposes.
 

@@ -2,11 +2,17 @@
 title: Manager and leader insights in Viva Insights
 description: Learn about manager and leader insights in Viva Insights in Teams and how to use it 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: 
+- m365initiative-viva-insights
+- viva-insights-manager
+- viva-insights-leader 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

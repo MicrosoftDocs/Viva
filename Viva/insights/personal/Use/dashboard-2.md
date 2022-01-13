@@ -3,10 +3,16 @@
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
-ms.prod: Mya
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-personal
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -49,8 +55,6 @@ The Collaboration section shows the people you actively collaborated with based 
 
 For more details and tips, see [Network](../use/network.md) and [Collaboration](../use/collaboration.md).
 
-<!-- REMOVE THIS (6/2/2020) FOR THE TIME BEING. PETERB WILL SAY WHEN TO REINSTATE IT. AT THAT TIME, ALSO RE-ADD LEADERSHIP.MD TO THE TOC AND UN-HIDE IT FROM WEB SEARCHES. -->
-
 ## Leadership
 
 If you're a people manager, the Leadership page shows information about your relationships with team members. For more details, see [Leadership](leadership.md).
@@ -81,7 +85,7 @@ In **Plan configuration**, you can personalize your focus plan. You can select h
 
 In Delay Delivery, you can turn the feature On or Off for the option of delaying delivery of an email during your co-workers configured working hours.
 
-If you're a manager or team lead with a P1 license, you can select **Edit team** in **Team settings** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
+If you're a manager or team lead with a Microsoft Viva Insights license, you can select **Edit team** in **Team settings** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
 
 ![Config Settings.](../../Images/mya/use/config-settings-2.png)
 

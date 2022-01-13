@@ -3,13 +3,16 @@
 title: Viva Insights setup
 description: How to set up and configure Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -30,14 +33,15 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 
 * **Task** - Complete steps to set up and configure the Viva Insights applications.  
 * **Outcome** - In your organization, people have been assigned licenses and roles. Those roles grant access to data that the people can use to analyze work habits and implement change in how employees spend their time. Also, you've set system defaults and privacy settings and an admin has uploaded organizational data.
-
 <!-- IN THIS VIDEO, MUST FIX A) EARLY SCREENSHOT THAT SHOWS EXPLORE PAGE AND B) END SEQUENCE THAT NO LONGER MATCHES CURRENT FRE. -->
-
 ### Video: Overview for admins
 
 <iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" ></iframe>
 
 **To set up the app**
+
+>[!Note]
+>If you need to set up a test environment for regulatory or compliance reasons, follow [these recommendations](#test-setup-recommendations).
 
 1. **[Open the app](https://workplaceanalytics.office.com)**. If prompted, sign in with your work account. This page begins a sequence that guides you through setup. Under **Required to start**, the page describes the next task, and verifies the assignment of licenses and roles:
 
@@ -66,6 +70,16 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
    3. **Data processing** - The validated data is processed. When the processing finishes, you'll see a message that setup is complete.
 
       ![Processing organizational data.](../images/wpa/setup/onboarding-validation-success.png)
+
+## Test setup recommendations
+
+A test environment is not recommended because good analysis requires real-time collaboration data from a comparable population, which is difficult to simulate through a test tenant. However, if your organization requires a test environment for regulatory or compliance reasons, then you can use the following recommendations to set it up.
+
+* Assign a Viva Insights license to your minimum group size (default is five) who have Exchange Online (cloud-hosted) mailboxes.
+* Each user has sent messages in their Sent Items folder (preferably to other test users with a Viva Insights license).
+* Each user has appointments in their calendars that have occurred in the past month (preferably with other test users with a Viva Insights license).
+* After confirming the previous requirements, upload an organizational data file for these test users where their **Organization** and **LevelDesignation** attributes are correct (cannot be *blank*).
+* The test users all have managers that lead up to a single hierarchy.
 
 ## Product availability
 

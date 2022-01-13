@@ -2,11 +2,15 @@
 
 title: Walkthroughs for meeting exclusion rules
 description: Introduction and walkthrough of meeting exclusion rules in Viva Insights
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -105,7 +109,7 @@ In this task, you open the meeting exclusions page and name the rule that you wi
 6. Enter a name and optionally a description for the exclusion rule, select **Next**, and then do the following steps [to create a meeting exclusion rule](#to-create-a-meeting-exclusion-rule).
 
    >[!Note]
-   >You can skip adding the exclusion by clearing the **Use this exclusion** check box before you select **Next**:
+   >You can skip adding the exclusion by clearing the **Use this exclusion** checkbox before you select **Next**:
 
    ![Skip this exclusion.](../images/wpa/tutorials/18-use-this-exclusion-80.png)
 

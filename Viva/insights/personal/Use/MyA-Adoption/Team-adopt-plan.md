@@ -1,18 +1,21 @@
 ---
 
-title: MyAnalytics Team Adoption --Plan
-description: MyAnalytics Team Adoption by Kate Nowak --Plan section
-author: paul9955
-ms.author: v-pausch
+title: MyAnalytics Team Adoption plan
+description: Team Adoption plan for MyAnalytics users
+author: madehmer
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
-# Plan
-## Roles and responsibilities
+# Team Adoption plan
 
 The ideal program team is comprised of the following members:
 
@@ -214,7 +217,7 @@ The collaboration channel also serves as a great program-management tool. You ca
 
 ## Create surveys
 
-In addition to the quantitative data that MyAnalytics provides, you can use surveys to collect qualitative data before, during, and after your program. Surveys help diagnose collaboration pain points, identify solutions, and understand the results of your program. Aim to keep your survey as short as possible, and avoid these common survey question mistakes: [Where Employee Surveys on Burnout and Engagement Go Wrong](https://hbr.org/2017/12/where-employee-surveys-on-burnout-and-engagement-go-wrong). 
+In addition to the quantitative data that MyAnalytics provides, you can use surveys to collect qualitative data before, during, and after your program. Surveys help diagnose collaboration pain points, identify solutions, and understand the results of your program. Aim to keep your survey as short as possible, and avoid these common survey question mistakes: [Where Employee Surveys on Burnout and Engagement Go Wrong](https://hbr.org/2017/12/where-employee-surveys-on-burnout-and-engagement-go-wrong).
 
 For ease of managing the survey, use an application such as Microsoft Forms to distribute the questions and collect results. For more information on how to create an effective survey, see [Run an Employee Survey](https://rework.withgoogle.com/guides/analytics-run-an-employee-survey/steps/introduction/).
 
@@ -224,21 +227,15 @@ Consider implementing any of the following: a pre-program survey, a team norms s
 
 The pre-program survey helps you diagnose your team’s collaboration pain points. Perception often differs from reality, and this survey helps you better understand your team’s actual needs, inform your program goals, and recommend new habits that will resonate with the group. We recommend that you include a link to your pre-program survey in the program-launch email.
 
-Here are suggested pre-program-survey questions to use, tailor, and/or build on: [Pre-program survey questions](Pre-program-survey-questions.xlsx)
-
 ### Team norms survey
 
 During your program, you can use Learning modules to experiment with new behaviors. Some of these behaviors will work for your team; others will not. After you try out different behaviors, conduct a team-norms survey to vote on new norms to adopt as a team. For additional information on how to select group norms and make them stick, see [How to Create Executive Team Norms and Make Them Stick](https://hbr.org/2018/01/how-to-create-executive-team-norms-and-make-them-stick).
-
-Here are suggested team-norms survey questions to use or adapt: [Norms survey questions](Norms-survey-questions.xlsx). 
 
 To avoid survey fatigue, bundle the team norms survey with a corresponding [Learning module](Adopt-Learning-modules.md) at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
 
 ### Post-program survey
 
-Use the post-program survey to collect additional information on the results of your program, determine whether your program was successful and what the next steps should be to develop heathier work habits. You can also use the post-program survey to manually collect MyAnalytics data from participants to measure goal attainment. (See [Data sharing](Team-adopt-implement.md#data-sharing)).
-
-Here are suggested post-program survey questions to use or adapt: [Post-program survey questions](Post-program-survey-questions.xlsx).
+Use the post-program survey to collect additional information on the results of your program, determine whether your program was successful and what the next steps should be to develop heathier work habits. You can also use the post-program survey to manually collect MyAnalytics data from participants to measure goal attainment. See [Data sharing](Team-adopt-implement.md#data-sharing).
 
 ### Goal-setting survey
 

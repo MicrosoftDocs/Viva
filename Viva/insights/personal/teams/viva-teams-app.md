@@ -3,9 +3,13 @@
 title: Viva Insights in Microsoft Teams
 description: Learn about personal insights with the Microsoft Viva Insights app 
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
+ms.collection: 
+- viva-insights-personal
+- viva-insights-manager
+- viva-insights-leader
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin
