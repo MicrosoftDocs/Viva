@@ -66,7 +66,7 @@ The Dashboard is intended to enable quick access to content and tasks from vario
 
    ![Image of where to specify the language for a site.](../media/connections/vc-language-select.png)
 
-2. Make this communication site the home site of your tenant, which will enable the Dashboard creation on that site. [Learn more about how to set a home site](https://docs.microsoft.com/sharepoint/home-site). 
+2. Make this communication site the home site of your tenant, which will enable the Dashboard creation on that site. [Learn more about how to set a home site](/sharepoint/home-site). 
 
 3. When creating the dashboard, make sure the Dashboard author is typing the content in the English language for details like card titles and descriptions – [even if their own preferred language setting](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) in Microsoft 365 is not English. 
 
@@ -77,13 +77,13 @@ The Dashboard is intended to enable quick access to content and tasks from vario
    ![Image of where to specify the language for a card.](../media/connections/vc-language-card.png)
 
 ## Viva Connections Feed
-The Feed experience will show SharePoint news posted from [organizational news sites](https://docs.microsoft.com/sharepoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](video-news-links.md), Yammer posts in the [All-company group](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-all-company-yammer-community), Yammer posts in communities you follow, and [SharePoint news that has been boosted](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
+The Feed experience will show SharePoint news posted from [organizational news sites](/sharepoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](video-news-links.md), Yammer posts in the [All-company group](/yammer/manage-yammer-groups/yammer-all-company-yammer-community), Yammer posts in communities you follow, and [SharePoint news that has been boosted](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
 #### Organizational news
 Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) is not English. 
 
 #### All company Yammer
-Announcement posts in the [All-company group in Yammer](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-all-company-yammer-community) should be created in English.
+Announcement posts in the [All-company group in Yammer](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) should be created in English.
 
 
 ## Viva Connections Resources
