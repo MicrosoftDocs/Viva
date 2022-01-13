@@ -17,7 +17,7 @@ audience: Admin
 
 # Assign roles for Viva Insights
 
-People can work with Microsoft Viva Insights only after they've been assigned a role. See [User roles](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following to assign Viva Insights or Workplace Analytics roles:
+People can work with Microsoft Viva Insights only after they've been assigned a role. See [User roles](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following when assigning roles:
 
 * [Assign Viva Insights roles](#assign-viva-insights-roles)
 * [Assign Workplace Analytics roles](#assign-workplace-analytics-roles)
@@ -29,11 +29,11 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 **Owner** - [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles)
 
-1. To assign roles for Viva Insights, sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).
 2. Go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
 3. Search for **Insights**, and then select the applicable Insights role to assign a user or group.
 4. Select **Assign** > **Add**.
-5. Enter the user or group's display name or username, and then select the user or group from the list of suggestions. Optionally, add multiple users until you're done.
+5. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
 6. Select **Save**.
 
 ## Assign Workplace Analytics roles
