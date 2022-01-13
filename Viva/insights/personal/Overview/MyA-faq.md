@@ -14,7 +14,7 @@ audience: Admin
 
 # Personal insights FAQ
 
-This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the the [MyAnalytics dashboard](../use/dashboard-2.md), [Digests](../use/email-digest-2.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
+This FAQ is organized into the following sections for using the different personal insights options with Microsoft Viva Insights, such as the the [MyAnalytics dashboard](../use/dashboard-2.md), [Digests](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md):
 
 * The [Privacy](#privacy) section applies to everyone.
 
@@ -116,7 +116,7 @@ Yes. You can change your time zone and your working time in your [Outlook settin
 
 #### Q1. How do the MyAnalytics digests show up in Outlook?
 
- Your [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
+ Your [MyAnalytics digests](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into your Outlook inbox by MyAnalytics.
 
 ### Opt out
 
@@ -133,7 +133,7 @@ See the following for details:
 ##### Opt out of different elements
 
  * [Opt out of the dashboard](../use/dashboard-2.md#opt-out-of-the-dashboard)
- * [Opt out of digests](../use/email-digest-2.md#opt-out-of-digests)
+ * [Opt out of digests](../use/email-digests-3.md#opt-out-of-digests)
  * [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-out)
  * [Opt out of inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions)
 
@@ -193,27 +193,27 @@ Some MyAnalytics feature descriptions start with _**Applies to:**_ sections that
 You can identify your _plan_ (and also your _service plan_) by following these steps:
 
 1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com).
-2. In the upper-right corner, under **My account**, select **My account**:
+2. At the top right of the page, under **My account**, select **My account**:
 
    ![My account.](../../images/mya/overview/my-account-2.png)
 
-3. On the **My account** page, under **Subscriptions**, select **View subscriptions**:
+3. For **Subscriptions**, select **View subscriptions**:
 
    ![View subscriptions.](../../images/mya/overview/subscriptions_85.png)
 
-4. On the **Subscriptions** page, find your plan and your service plan listed under **Licenses**:
+4. In **Subscriptions**, the available service plans are listed under **Licenses**:
 
-   _In the following example, the plan is "Microsoft 365 E1" and the MyAnalytics-related service plan is "Insights by MyAnalytics":_
+   _ For example, the following shows "Insights by MyAnalytics" for "Office 365 E1":_
 
    ![service plan: Insights by MyAnalytics.](../../images/mya/overview/licenses-plans-service-plans.png)
 
-   _In the following example, the plan is "Microsoft 365 E5" and the MyAnalytics-related service plan is "Microsoft MyAnalytics (Full)":_
+   _For example, the following shows "Microsoft MyAnalytics (Full)" for "Microsoft 365 E5":_
 
    ![service plan: Microsoft MyAnalytics (Full).](../../images/mya/overview/e5-plans-service-plans-446.png)
 
-#### Q5. In what languages are the elements of MyAnalytics available?
+#### Q5. What languages are supported?
 
-See [MyAnalytics languages](mya-languages.md).
+Personal insights are available in most of the same languages as the Microsoft 365 apps you're viewing them through. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec). Also, see [Language support](../overview/plans-environments.md#language-support) for more details about what's supported by Viva Insights.
 
 #### Q6. If my assistant manages my email and calendar, does MyAnalytics include these activities in my data?
 
@@ -277,7 +277,7 @@ You can manage the experience in two ways:
 
 #### Q2. How can I pilot MyAnalytics to a subset of users?
 
-Turn on the "Insights by MyAnalytics" OR "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Turn on the "Insights by MyAnalytics" or "MyAnalytics (Full)" service plan for the pilot users. Because these plans are enabled by default, you'll need to confirm that the plans are turned off for other users. For details on how to turn off the plans, see [Assign licenses to users](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 #### Q3. How can I manage MyAnalytics experiences in Microsoft 365 GCC?
 
@@ -310,7 +310,7 @@ The dashboard is available to MyAnalytics users a few days after getting assigne
 
 #### Q4. How do the MyAnalytics digests show up in Outlook?
 
- The [MyAnalytics digests](../use/email-digest-2.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
+ The [MyAnalytics digests](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by MyAnalytics. Digests cannot be managed by email setting transport rules.
 
 #### Q5. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 
@@ -320,8 +320,8 @@ Skype for Business data is usually prompt. However, in rare instances, users can
 
 The cards that show [email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates) are not currently available with the *Insights by MyAnalytics* service plan.
 
-   > [!Note]
-   > All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
+>[!Note]
+>All MyAnalytics features are available to users who have the *MyAnalytics (Full)* service plan.
 
 #### Q7. Why can't licensed users see one or more of the Viva Insights or MyAnalytics elements?
 

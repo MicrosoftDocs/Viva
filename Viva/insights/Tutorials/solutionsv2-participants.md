@@ -39,7 +39,7 @@ When people are part of a plan, they'll see a new **Team Plans** in their dashbo
 
 ## Digest
 
-People who use Viva Insights or MyAnalytics get a monthly [digest](../personal/use/email-digest-2.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
+People who use Viva Insights or MyAnalytics get a monthly [digest](../personal/use/email-digests-3.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
 
 ### Teams Plan section
 
