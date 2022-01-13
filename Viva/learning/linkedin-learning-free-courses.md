@@ -13,13 +13,13 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
-localization_priority: medium
+localization_priority: high
 description: See what LinkedIn Learning courses are available for free in Microsoft Viva Learning.
 ---
 
 # Free courses from LinkedIn Learning
 
-A selection of 125 courses are available from LinkedIn Learning for free. This means you don't need an Enterprise license for users in your organization to access these courses. LinkedIn Learning is enabled as a content source by default in Viva Learning. [Learn more about content sources in Viva Learning](content-sources-365-admin-center.md).
+A selection of courses are available from LinkedIn Learning for free. This means you don't need an Enterprise license for users in your organization to access these courses. LinkedIn Learning is enabled as a content source by default in Viva Learning. [Learn more about content sources in Viva Learning](content-sources-365-admin-center.md).
 
 ## Courses in English
 
