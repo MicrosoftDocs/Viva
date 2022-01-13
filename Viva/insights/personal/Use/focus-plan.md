@@ -93,7 +93,7 @@ After your plan has started, you can check your progress and make sure that you 
 
 In the MyAnalytics dashboard, select **Focus** on the left to see statistics about your focus time:
 
-    ![Dashboard report.](../../Images/mya/use/track-progress.png)
+   ![Dashboard report.](../../Images/mya/use/track-progress.png)
   
 An important metric shows under **Last week** about how many days last week that you had time to focus.
 
