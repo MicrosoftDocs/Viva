@@ -31,7 +31,7 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).
 2. Go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
-3. Search for **Insights**, and then select the applicable Insights role to assign a user or group.
+3. Search for **Insights**, and then select the applicable Insights role to assign a user.
 4. Select **Assign** > **Add**.
 5. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
 6. Select **Save**.
