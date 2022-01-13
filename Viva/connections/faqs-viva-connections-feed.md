@@ -55,7 +55,7 @@ Certain posts in various Yammer communities will appear in the Feed. These Yamme
     - Yammer Followed Community Posts
     
 3. **Videos in SharePoint hosted by Stream**
-[Stream videos](https://docs.microsoft.com/stream/streamnew/new-stream) built on SharePoint or OneDrive that are shared with your entire organization will appear in the Feed. Depending on how your organization stores and shares videos in Stream will impact the viewing experience for videos in the Feed. 
+[Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive that are shared with your entire organization will appear in the Feed. Depending on how your organization stores and shares videos in Stream will impact the viewing experience for videos in the Feed. 
 
 
 Not all of the three sources of content will be given equal weight in the ranking, so refer to the question *How is the feed personalized and ranked?* for more information.
@@ -141,4 +141,4 @@ Users can bookmark content that they would like to view later by selecting the *
 
 [Use the Viva Connections Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330)
 
-[Create an organizational news site in SharePoint](https://docs.microsoft.com/SharePoint/organization-news-site)
+[Create an organizational news site in SharePoint](/SharePoint/organization-news-site)
