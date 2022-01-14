@@ -22,7 +22,7 @@ description: See what LinkedIn Learning courses are available for free in Micros
 A selection of courses are available from LinkedIn Learning for free. This means you don't need an Enterprise license for users in your organization to access these courses. LinkedIn Learning is enabled as a content source by default in Viva Learning. [Learn more about content sources in Viva Learning](content-sources-365-admin-center.md).
 
 > [!NOTE]
-> You'll need to search the course in Viva Learning to get free access.
+> You'll need to search the course in the Viva Learning app for Teams to get free access.
 
 ## Courses in English
 
@@ -52,51 +52,40 @@ A selection of courses are available from LinkedIn Learning for free. This means
 
 ### Creative courses
 
-- Banish Your Inner Critic to Unleash Creativity
-- Getting Started in User Experience
-- Illustrator Quick Start
-- iMovie 10.1.8 Essential Training
-- Learning Audacity
-- Learning Graphic Design: Presentations
-- Learning Premiere Pro
-- Lightroom: Get Professional Results
-- Marketing to Humans
-- Photographing for Compositing in Photoshop
-- Simple Photo Edits On Your Phone
-- Social Media Video for Business and Marketing
+|Title A-L |Title L-Z |
+|-----------|-----------|
+|Banish Your Inner Critic to Unleash Creativity |Learning Premiere Pro |
+|Getting Started in User Experience |Lightroom: Get Professional Results |
+|Illustrator Quick Start |Marketing to Humans |
+|iMovie 10.1.8 Essential Training |Photographing for Compositing in Photoshop |
+|Learning Audacity |Simple Photo Edits On Your Phone |
+|Learning Graphic Design: Presentations |Social Media Video for Business and Marketing |
 
 ### Tech courses
 
-- Android Development Essential Training: Your First App with Kotlin
-- Building a Home IT Lab
-- Building Your First iOS 13 App
-- CSS: Advanced Layouts with Grid
-- Data Visualization Best Practices
-- Design a Cloud Migration Strategy
-- DJ Patil: Ask Me Anything
-- Github Quick Tip
-- Implementing a Vulnerability Management Program
-- Installing Apache, MySQL, and PHP
-- Learning Java Applications
-- Learning Swift Playgrounds Application Development
-- Microsoft Enterprise Mobility Suite: Management and Security
-- Office 365 for Administrators: Troubleshooting Issues for Users
-- Python: Programming Efficiently
-- Remote Collaboration for Developers with Microsoft Live Share
-- SQL Code Challenges
-- Succeeding in Web Development: Full Stack and Front End
-- Tech Sense
-- Technology and Design Ethics
-- Visual Studio Code Productivity Tips
-- Visual Studio Step-by-Step
-- WordPress: Creating an Intranet Website
+|Title A-L |Title M-Z |
+|-----------|-----------|
+|Android Development Essential Training: Your First App with Kotlin |Microsoft Enterprise Mobility Suite: Management and Security |
+|Building a Home IT Lab |Office 365 for Administrators: Troubleshooting Issues for Users |
+|Building Your First iOS 13 App |Python: Programming Efficiently |
+|CSS: Advanced Layouts with Grid |Remote Collaboration for Developers with Microsoft Live Share |
+|Data Visualization Best Practices |SQL Code Challenges |
+|Design a Cloud Migration Strategy |Succeeding in Web Development: Full Stack and Front End |
+|DJ Patil: Ask Me Anything |Tech Sense |
+|Github Quick Tip |Technology and Design Ethics |
+|Implementing a Vulnerability Management Program |Visual Studio Code Productivity Tips |
+|Installing Apache, MySQL, and PHP |Visual Studio Step-by-Step |
+|Learning Java Applications |WordPress: Creating an Intranet Website |
+|Learning Swift Playgrounds Application Development |  |
 
 ### LinkedIn skills courses
 
-- Learn LinkedIn Sales Navigator
-- Learning LinkedIn Recruiter
-- LinkedIn Quick Tips
-- Rock Your LinkedIn Profile
+|Title |
+|-----------|
+|Learn LinkedIn Sales Navigator |
+|Learning LinkedIn Recruiter |
+|LinkedIn Quick Tips |
+|Rock Your LinkedIn Profile |
 
 ## Courses in German
 
