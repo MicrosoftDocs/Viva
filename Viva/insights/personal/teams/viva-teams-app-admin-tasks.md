@@ -22,7 +22,7 @@ As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles
 
 Complete the steps in the following playbooks to get the Viva Insights app up and running for people in your organization.
 
-1. Confirm that the employees who want to use the Viva Insights app in Microsoft Teams have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../overview/plans-environments.md).
+1. Confirm they have a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../overview/plans-environments.md).
 2. In the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), add the Viva Insights app to the list of allowed apps within the organization, as follows:
 [Release the Viva Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
 

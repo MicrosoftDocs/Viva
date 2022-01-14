@@ -15,13 +15,13 @@ audience: Admin
 
 # Shared focus plan
 
-_**Note**: This is currently only available through a preview release._
+_**Note**: This is currently only available through a targeted release._
 
 A focus plan helps you automatically block uninterrupted time for top-priority work for up to four hours every day. As an individual, you can schedule a personal focus plan through [Protect time](../personal/teams/viva-insights-protect-time.md) in the Microsoft Viva Insights app in Microsoft Teams.
 
 As an enrolled team lead or manager, you can also start a shared focus plan with your team or co-workers to encourage good productivity habits. With this option, you can invite your team to book daily, uninterrupted time to get their work done. This shared plan also helps your team build a shared productivity habit.
 
-Anyone with a Viva Insights Premium license can start a shared focus plan. However, recipients of the invitation to the shared plan do not need a premium license.
+Anyone with a Microsoft Viva Insights license with a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../personal/overview/plans-environments.md) can start a shared focus plan. However, recipients of the invitation to the shared plan do not need this license.
 
 ## Start a shared focus plan
 
@@ -69,7 +69,7 @@ To check the details of your new plan, open the **Home** page of Viva Insights. 
 
    ![Shared-focus-plan card](../Images/mya/use/shared-focus-plan-card.png)
 
-If you have a Viva Insights Premium license, you'll also see the plan details on the **My team** page.
+If you have a Microsoft Viva Insights license with a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../personal/overview/plans-environments.md), you'll also see the plan details on the **My team** page.
 
 If you are the creator of a shared focus plan, you'll also see details in the **Plans** section of the Viva Insights **Home** page:
 
