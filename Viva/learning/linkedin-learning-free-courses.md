@@ -72,7 +72,7 @@ A selection of courses are available from LinkedIn Learning for free. This means
 |Data Visualization Best Practices |SQL Code Challenges |
 |Design a Cloud Migration Strategy |Succeeding in Web Development: Full Stack and Front End |
 |DJ Patil: Ask Me Anything |Tech Sense |
-|Github Quick Tip |Technology and Design Ethics |
+|GitHub Quick Tip |Technology and Design Ethics |
 |Implementing a Vulnerability Management Program |Visual Studio Code Productivity Tips |
 |Installing Apache, MySQL, and PHP |Visual Studio Step-by-Step |
 |Learning Java Applications |WordPress: Creating an Intranet Website |
