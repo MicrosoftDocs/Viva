@@ -96,5 +96,7 @@ productDirectory:
           text: Get started
         - url: /viva/learning/set-up-viva-learning
           text: Setup
+        - url: /viva/learning/content-sources-365-admin-center
+          text: Manage content sources          
         - url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
           text: End user help & training
