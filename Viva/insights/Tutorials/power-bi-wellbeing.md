@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Wellbeing dashboard
-description: Use the Employee wellbeing dashboard to visualize insights into employee wellbeing across the company
+description: Use the Wellbeing dashboard in Power BI to visualize insights into employee wellbeing across the company that's based on Viva Insights data
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -32,9 +32,9 @@ The dashboard includes the following reports.
 
 Each report includes a **Why this matters** section that explains the business implications, best practices, and recommended actions to help maintain or improve employee wellbeing.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Wellbeing** and **Hourly collaboration** query in the Query designer.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Wellbeing - balance and flexibility** and **Hourly collaboration** query in the Query designer.
 
-After you successfully run these queries, you can download the template for the **Employee wellbeing** query on the **Results** page. After you download the template, you can then connect the query data from Viva Insights to the dashboard in Power BI.
+After you successfully run these queries, you can download the template for the **Wellbeing - balance and flexibility** query on the **Results** page. After you download the template, you can then connect the query data from Viva Insights to the dashboard in Power BI.
 
 ## Demonstration
 
@@ -42,7 +42,7 @@ The following demo uses sample data that is only representative of this dashboar
 
 <br><iframe width="800" height="486" src="https://msit.powerbi.com/links/S5r9eRG7oq?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&pbi_source=linkShare&bookmarkGuid=2f42ceb9-9409-4ba6-841b-6141a33ec3e9" frameborder="0" allowFullScreen="true"></iframe>
 
-The template for the Employee wellbeing dashboard is on the Results page in [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the report](#set-up-the-report).
+The template for the Wellbeing dashboard is on the Results page in [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the report](#set-up-the-report).
 
 ## Prerequisites  
 
@@ -113,7 +113,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 ## Report settings
 
-After the Employee wellbeing report is set up and populated with Viva Insights data, as a first step to viewing data in the dashboard, view and set the following parameters in **Settings**. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
+After the Wellbeing - balance and flexibility report is set up and populated with Viva Insights data, as a first step to viewing data in the dashboard, view and set the following parameters in **Settings**. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
 ![Power BI Wellbeing settings.](../Images/WpA/Tutorials/wellbeing-settings.png)
 
@@ -133,7 +133,7 @@ For Embrace flexibility and Take breaks, you can customize the working hours for
 
 ## About the report
 
-The Employee wellbeing report includes the following report pages that help you identify your employees' wellbeing across the company.
+The Wellbeing - balance and flexibility report includes the following report pages that help you identify your employees' wellbeing across the company.
 
 * **Improve focus** &ndash; Shows the average daily collaboration hours for each employee by organization as compared to focus hours. This highlights how an employee's collaboration load is impacting their focus time.
 * **Balance work and life** &ndash; Shows the average daily after-hours collaboration for each employee, the distribution of employees by their after-hours collaboration, and percentage of employees that were active during the weekends at least once every four weeks. Understanding employees' after-hours and weekend work behaviors can uncover opportunities to improve their work-life balance.
