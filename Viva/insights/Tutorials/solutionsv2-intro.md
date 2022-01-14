@@ -61,9 +61,7 @@ Confirm that your organization meets the following licensing prerequisites:
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
   * A [Workplace Analytics license](../setup/assign-licenses-to-population.md)
-  * A Viva Insights or MyAnalytics license in either one of the following [service plans](../personal/setup/configure.md):
-    * Viva Insights or MyAnalytics (Full)
-    * Viva Insights in Outlook
+  * A [MyAnalytics service plan](../personal/overview/plans-environments.md)
 
 >[!Note]
 >Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/manager-settings.md).
