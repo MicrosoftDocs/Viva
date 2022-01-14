@@ -18,18 +18,18 @@ Part of the report requires CRM data for advanced insights about CRM account col
 
 The dashboard includes the following reports.
 
-**No CRM data required**:
+**External domains (No CRM data required)**:
 
-1. Collaboration baseline - How much overall collaboration do employees have with external parties?
-2. Meeting engagement - What are the employee meeting interactions with external parties?
+1. **Collaboration baseline** - How much overall collaboration do employees have with external parties?
+2. **Meeting engagement** - What are the employee meeting interactions with external parties?
 
-**CRM data required**:
+**CRM account domains (CRM data required)**:
 
-3. Account collaboration baseline - How much overall collaboration do employees have with CRM accounts?
-4. Cross-role engagement - Which employee roles are engaging most with our CRM accounts?
-5. Meaningful engagement - Are our employees meaningfully engaging with CRM accounts?
-6. Account collaboration list - Which accounts are most invested in?
-7. Account collaboration snapshot - How are employees collaborating with specific accounts?
+3. **Account collaboration baseline** - How much overall collaboration do employees have with CRM accounts?
+4. **Cross-role engagement** - Which employee roles are engaging most with our CRM accounts?
+5. **Meaningful engagement** - Are employees meaningfully engaging with CRM accounts?
+6. **Account collaboration list** - Which accounts are most invested in?
+7. **Account collaboration snapshot** - How are employees collaborating with specific accounts?
 
 ![Sales effectiveness dashboard in Power BI.](../Images/WpA/tutorials/pbi-sales-summary.png)
 
@@ -39,7 +39,7 @@ To populate the dashboard in Power BI, you must set up and successfully run the 
 
 After you successfully run it, you can download the template from the **Sales effectiveness** query on the **Results** page. After you download the template, you can then connect the query data to the dashboard in Power BI.
 
-When the dashboard is populated with your data, you can use it to visualize, explore, and report about workplace patterns and trends relating to sales.
+When the dashboard is populated with your data, you can use it to visualize, explore, and report about workplace patterns and trends relating to sales or other external-facing groups.
 
 ## Demonstration
 
@@ -93,7 +93,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
    * An attribute that identifies the sales regions or customer segments, which can be leveraged to understand region-specific or segment-specific work patterns.
 
 7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
-8. To use CRM data in the dashboard, select to return to the Query designer and set up the **CRM collaboration** query. Skip **Steps 9-13** if not running the CRM collaboration query.
+8. To use CRM data in the dashboard, select to return to the Query designer and set up the **CRM collaboration** query. Skip **Steps 9-12** if not running the CRM collaboration query.
 9. Repeat **Step 3** for the query settings.
 
    >[!Important]
@@ -102,9 +102,9 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 10. In **Time investors**, confirm **Active only** is set for **Do you want to limit the analysis to only certain time investors**. If you applied a filter for the Sales effectiveness query, apply the same filter criteria for this query.
 11. In **Their collaborators**, keep the following settings that are applied by default:
 
-    * **Employees’ Internal** equals **True** for **Do you want to exclude any collaborators**
+    * **Employees’ IsInternal** equals **True** for **Do you want to exclude any collaborators**
     * **AccountName** for **How do you want to group the people who collaborated with the time investors**
-    * **Employees’ Internal** equals **False** for **Do you want to focus the analysis on a particular set of collaborators and group all others as “Unclassified”**
+    * **Employees’ IsInternal** equals **False** for **Do you want to focus the analysis on a particular set of collaborators and group all others as “Unclassified”**
     * **Default match with CRM data** for **How would you like to join collaborators with accounts**
 
     ![Their collaborators selections for Power BI Sales dashboard](../Images/WpA/tutorials/pbi-sales-collaborators.png)
@@ -130,7 +130,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-19. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+19. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics for Viva Insights, and then select **Save**.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Viva Insights.
