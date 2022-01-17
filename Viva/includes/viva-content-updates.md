@@ -2,6 +2,49 @@
 
 
 
+## Week of January 10, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/10/2022 | [Shared focus plan](/viva/insights/use/shared-focus-plan) | renamed |
+| 1/10/2022 | [Protect time in Viva Insights](/viva/insights/personal/teams/protect-time) | modified |
+| 1/10/2022 | [Viva Insights Home page in Teams](/viva/insights/personal/teams/viva-insights-home) | modified |
+| 1/10/2022 | [Shared focus plan](/viva/insights/use/shared-focus-plan) | modified |
+| 1/10/2022 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | modified |
+| 1/11/2022 | [Workplace Analytics plan participants](/viva/insights/tutorials/solutionsv2-participants) | modified |
+| 1/11/2022 | [My team in Viva Insights](/viva/insights/use/myteam) | modified |
+| 1/11/2022 | [Shared focus plan](/viva/insights/use/shared-focus-plan) | modified |
+| 1/11/2022 | [Workplace Analytics plans for managers](/viva/insights/manager-insights/plans) | modified |
+| 1/11/2022 | [Viva Insights personal insights introduction](/viva/insights/personal/mya-landing-page) | modified |
+| 1/11/2022 | [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) | modified |
+| 1/11/2022 | [Admin tasks for personal insights](/viva/insights/personal/overview/mya-for-admins) | modified |
+| 1/11/2022 | [Viva Insights languages](/viva/insights/personal/overview/mya-languages) | modified |
+| 1/11/2022 | [Viva Insights service description](/viva/insights/personal/overview/mya-service-description) | modified |
+| 1/11/2022 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
+| 1/11/2022 | [Personal insights in Viva Insights privacy guide for admins](/viva/insights/personal/overview/privacy-guide-admins) | modified |
+| 1/11/2022 | [Privacy guide](/viva/insights/personal/overview/privacy-guide-users) | modified |
+| 1/11/2022 | [Personal insights configuration for Microsoft 365 administrators](/viva/insights/personal/setup/configure) | modified |
+| 1/11/2022 | [Viva Insights deployment guide](/viva/insights/personal/setup/deployment-guide) | modified |
+| 1/11/2022 | [MyAnalytics key user interface elements](/viva/insights/personal/use/mya-elements) | modified |
+| 1/11/2022 | [Opt out of personal insights](/viva/insights/personal/use/opt-out-of-mya) | modified |
+| 1/11/2022 | [Personal insights introduction](/viva/insights/personal/introduction) | modified |
+| 1/13/2022 | [Introduction to Workplace Analytics plans](/viva/insights/tutorials/solutionsv2-intro) | modified |
+| 1/13/2022 | [Group insights within My team in Viva Insights](/viva/insights/use/group-insights) | modified |
+| 1/13/2022 | [Explore group insights in Viva Insights](/viva/insights/use/myteam-explore) | modified |
+| 1/13/2022 | [My team in Viva Insights](/viva/insights/use/myteam) | modified |
+| 1/13/2022 | [Shared focus plan](/viva/insights/use/shared-focus-plan) | modified |
+| 1/13/2022 | [Team insights in Viva Insights](/viva/insights/use/team-insights) | modified |
+| 1/13/2022 | [Viva Insights for managers](/viva/insights/use/viva-insights-my-team) | modified |
+| 1/13/2022 | [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) | modified |
+| 1/13/2022 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
+| 1/13/2022 | [Admin tasks for the Viva Insights app](/viva/insights/personal/teams/viva-teams-app-admin-tasks) | modified |
+| 1/13/2022 | [Focus plan for MyAnalytics](/viva/insights/personal/use/focus-plan) | modified |
+| 1/14/2022 | [Overview of security and compliance in Microsoft Viva](/viva/microsoft-viva-security) | added |
+| 1/14/2022 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
+| 1/14/2022 | [Free courses from LinkedIn Learning](/viva/learning/linkedin-learning-free-courses) | added |
+
+
 ## Week of January 03, 2022
 
 
@@ -651,43 +694,3 @@
 | 12/17/2021 | [Focus plan for MyAnalytics](/viva/insights/personal/use/focus-plan) | modified |
 | 12/17/2021 | [Discover and pin the Viva Insights app](/viva/insights/personal/teams/viva-teams-app-install) | modified |
 | 12/17/2021 | [Briefing email overview](/viva/insights/personal/briefing/be-overview) | modified |
-
-
-## Week of December 06, 2021
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/7/2021 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
-| 12/7/2021 | [Set up Microsoft Viva](/viva/setup-microsoft-viva) | modified |
-| 12/7/2021 | [Microsoft Viva language support](/viva/viva-language-support) | modified |
-| 12/8/2021 | [Behavior patterns for Glint dashboard](/viva/insights/tutorials/power-bi-glint-2) | modified |
-| 12/8/2021 | Behavior patterns for Glint dashboard | removed |
-| 12/8/2021 | [Query designer templates](/viva/insights/tutorials/power-bi-intro) | modified |
-| 12/8/2021 | [Return to worksites dashboard](/viva/insights/tutorials/power-bi-return-tw) | modified |
-| 12/8/2021 | [Query designer in Workplace Analytics](/viva/insights/tutorials/query-designer) | modified |
-| 12/8/2021 | [Workplace Analytics playbooks](/viva/insights/use/playbooks) | modified |
-| 12/8/2021 | [Team insights in Viva Insights](/viva/insights/use/team-insights) | modified |
-| 12/8/2021 | [Personal insights configuration for Microsoft 365 administrators](/viva/insights/personal/setup/configure) | modified |
-| 12/8/2021 | [Leadership insights dashboard](/viva/insights/personal/use/leadership) | modified |
-| 12/8/2021 | [Configure Cornerstone OnDemand as a content source for Microsoft Viva Learning](/viva/learning/configure-cornerstone-content-source) | modified |
-| 12/8/2021 | [Configure Go1 as a content source for Microsoft Viva Learning](/viva/learning/configure-go1-content-source) | modified |
-| 12/8/2021 | [Add learning management systems for Microsoft Viva Learning](/viva/learning/configure-lms) | modified |
-| 12/8/2021 | [Add other content providers for Microsoft Viva Learning](/viva/learning/configure-other-content-sources) | modified |
-| 12/8/2021 | [Configure Saba as a content source for Microsoft Viva Learning](/viva/learning/configure-saba-content-source) | modified |
-| 12/8/2021 | [Add SharePoint as a learning content source for Microsoft Viva Learning](/viva/learning/configure-sharepoint-content-source) | modified |
-| 12/8/2021 | [Configure Skillsoft as a content source for Microsoft Viva Learning](/viva/learning/configure-skillsoft-content-source) | modified |
-| 12/8/2021 | [Configure SAP SuccessFactors as a content source for Microsoft Viva Learning](/viva/learning/configure-successfactors-content-source) | modified |
-| 12/8/2021 | [Configure Udemy as a content source for Microsoft Viva Learning](/viva/learning/configure-udemy-content-source) | modified |
-| 12/8/2021 | [Manage content sources for Microsoft Viva Learning in the Microsoft 365 admin center](/viva/learning/content-sources-365-admin-center) | modified |
-| 12/8/2021 | [Help and support](/viva/learning/help-support) | modified |
-| 12/8/2021 | [Introduction to Microsoft Viva Learning](/viva/learning/index) | modified |
-| 12/8/2021 | [Overview of Microsoft Viva Learning](/viva/learning/overview-viva-learning) | modified |
-| 12/8/2021 | [Set up Microsoft Viva Learning in the Teams admin center](/viva/learning/set-up-viva-learning) | modified |
-| 12/8/2021 | [Understand terms and conditions](/viva/learning/terms-and-conditions) | modified |
-| 12/8/2021 | [Manage content in the admin tab](/viva/learning/use-tabs) | modified |
-| 12/9/2021 | [Microsoft Viva Overview](/viva/microsoft-viva-overview) | added |
-| 12/9/2021 | [Set up Microsoft Viva](/viva/setup-microsoft-viva) | modified |
-| 12/9/2021 | [Microsoft Viva Overview](/viva/microsoft-viva-overview) | modified |
-| 12/9/2021 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
-| 12/10/2021 | [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications) | modified |
