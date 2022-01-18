@@ -28,6 +28,8 @@ Viva is an open and extensible platform. Soon, partners and developers will be a
 
 As an integrated experience, administrators can use the centralized Microsoft 365 admin center experience to access guided setups for deploying Viva. [Learn how to set up Microsoft Viva](/viva/setup-microsoft-viva).
 
+Learn which Microsoft Viva features are available across Microsoft 365 plans in the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
+
 ## Viva modules
 
 ### Viva Connections: Culture and communications
