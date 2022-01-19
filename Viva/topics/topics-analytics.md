@@ -30,7 +30,7 @@ The changes from the last time period appear next to each metric. If the time pe
 
 |Measure|Value|
 |:------|:----|
-|Topics visible|The number of topics that are visible to topic viewers.|
+|Topics visible|The number of topics that are visible to topic viewers in Microsoft 365 locations such as search and SharePoint |
 |Discovered by Viva Topics|The number of topics that have been [discovered by Topics](/topics/topic-experiences-discovery-curation) or have AI-discovered properties.|
 |Created by users|The number of topics that have been [manually created](/viva/topics/create-a-topic)|
 |Hidden by settings|If you have [configured Topics to not show suggested topics to topic viewers](/topics/topic-experiences-discovery#prevent-topic-viewers-from-seeing-suggested-topics), the number of hidden topics will be reflected here|
