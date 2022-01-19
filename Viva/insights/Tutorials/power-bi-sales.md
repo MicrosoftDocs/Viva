@@ -45,7 +45,7 @@ When the dashboard is populated with your data, you can use it to visualize, exp
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<iframe width="800" height="486" src="https://msit.powerbi.com/links/7I_2tVwbMR?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Sales effectiveness - Introduction" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZDEyMjVmYmYtMmQyMy00M2ExLWFkNTMtZWI2MjhiODlkNTFhIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
 
 To find the template for the  Sales effectiveness dashboard for Power BI, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
