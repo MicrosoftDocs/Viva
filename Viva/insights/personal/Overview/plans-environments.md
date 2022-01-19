@@ -84,12 +84,14 @@ As an Outlook add-in, the Insights Outlook add-in requires a browser compatible 
 
 ## Language support
 
-Viva Insights and MyAnalytics are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
+Personal insights in Viva Insights and MyAnalytics are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
+
+See [Briefing languages](../briefing/be-languages.md) to see what's supported for Briefing emails and [Advanced insights language support](../../overview/supported-languages.md) for what's supported for advanced insights.
 
 ## Prerequisites and exclusions
 
-* [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for the MyAnalytics (Full) and Insights by MyAnalytics service plans.
-* **Licensing exclusion** - Shared mailboxes cannot use and are not supported by the MyAnalytics service plans.
+* [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for the MyAnalytics (Full) and Insights by MyAnalytics Outlook service plans.
+* **Licensing exclusion** - Shared mailboxes cannot use and are not supported by MyAnalytics service plans.
 
 ## Outlook support and prerequisites
 
