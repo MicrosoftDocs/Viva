@@ -3,13 +3,14 @@
 title: First organizational data upload
 description: Learn how to upload your organizational data through the new Workplace Analytics onboarding experience 
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -33,7 +34,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 ### Video: Upload organizational data
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+  <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowfullscreen=""> </iframe>
 
 ## File upload
 
@@ -134,7 +135,7 @@ After you complete the steps in [File upload](#file-upload), do the following to
 
    <img src="../images/wpa/setup/upload3-map-custom2.png" alt="Custom fields table">
 
-3. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Next**. You'll then see a notice about "your file is uploading."
+3. In **Submit for validation**, select the checkbox for **I confirm that these mappings are correct**, and then select **Next**. You'll then see a notice about "your file is uploading."
 
 >[!Important]
 >You must stay logged in while the file is uploading or the upload will be canceled. The upload requires this page to be open in your web browser during the upload. If you close the browser (or this browser page), the upload will fail.
@@ -169,7 +170,7 @@ If validation succeeds, in the **Validation results** section, the page displays
 
 After successful validation, Workplace Analytics processes your new data.
 
-You can select **Settings** > **Upload** > **Organizational data** to show the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
+You can select **Data sources** > **Organizational data** to see the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
 On this page, you have the following options:
 

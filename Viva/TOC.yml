@@ -1,2 +1,23 @@
-- name: Index
-  href: index.md
+items:
+- name: Microsoft Viva
+  href: index.yml
+  items:
+  - name: Get started with Microsoft Viva
+    items:
+    - name: Microsoft Viva overview
+      href: microsoft-viva-overview.md
+    - name: Set up Microsoft Viva
+      href: setup-microsoft-viva.md
+    - name: Overview of Microsoft Viva security and compliance
+      href: microsoft-viva-security.md
+    - name: Microsoft Viva language support
+      href: viva-language-support.md
+  - name: Microsoft Viva Connections
+    href: connections/viva-connections-overview.md
+  - name: Microsoft Viva Insights
+    href: insights/introduction.md
+  - name: Microsoft Viva Learning
+    href: learning/overview-viva-learning.md
+  - name: Microsoft Viva Topics
+    href: topics/topic-experiences-overview.md 
+    

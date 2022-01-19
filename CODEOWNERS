@@ -3,3 +3,6 @@ docfx.json                          @microsoftdocs/officedocs-admin
 .openpublishing.publish.config.json @microsoftdocs/officedocs-admin
 CODEOWNERS                          @microsoftdocs/officedocs-admin
 .acrolinx-config.edn                @microsoftdocs/officedocs-admin
+
+# You can also use email addresses if you prefer.
+/WorkplaceAnalytics/ @madehmer @AndreaBarr @dayshacarter

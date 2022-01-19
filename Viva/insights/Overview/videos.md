@@ -3,8 +3,8 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Videos for Viva Insights
 description: Videos about how Microsoft Viva Insights in Workplace Analytics works
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -14,21 +14,21 @@ audience: Admin
 
 # Viva Insights videos
 
-The Microsoft Viva Insights in Workplace Analytics documentation has a number of videos that help explain concepts or describe procedural steps. To find the current videos, refer to the following sections:
+The Microsoft Viva Insights documentation has a number of videos that can help explain concepts or describe procedural steps. Some of these videos show earlier versions of Workplace Analytics and might not be what you see in your version of the app.
 
 ## Introduction
 
-* [Navigate Workplace Analytics](../overview/get-started.md#video-navigate-workplace-analytics)
+[Navigate Workplace Analytics](../overview/get-started.md#video-navigate-workplace-analytics)
 
 ## Setup
 
-* [Set up overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
-* [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
-* [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)
+[Setup overview for admins](../setup/Set-up-Workplace-Analytics.md#video-overview-for-admins)
+<!--* [Assign licenses](../setup/assign-licenses-to-population.md#video-assign-licenses)
+* [Assign roles](../setup/assign-roles-to-wpa-admins.md#video-assign-roles)-->
 
 ### Analyst settings
 
-* [Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md#video-learn-about-meeting-exclusion-rules)
+[Meeting exclusion rules](../tutorials/meeting-exclusions-intro.md#video-learn-about-meeting-exclusion-rules)
 
 ### Upload data
 
@@ -122,5 +122,4 @@ https://review.docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intr
 This video can also be found here: 
 [Introduction for admins](
 https://review.docs.microsoft.com/Workplace-Analytics/personal/overview/mya-for-admins?branch=PAS-AddMyAVideo)
-
 -->

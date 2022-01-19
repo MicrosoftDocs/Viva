@@ -1,17 +1,21 @@
 ---
 
-title: Best practices for meetings
-description: Workplace Analytics shares best practices with managers about planning and running meetings
+title: Best practices for manager meetings
+description: Microsoft Viva Insights shares best practices with managers about planning and running meetings
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
-# Best practices for meetings
+# Best practices for manager meetings
 
 Meetings are critical for businesses to succeed and many people spend most of their time in them. However, at the same time many people say the meetings they attend are ineffective and a waste of their time. Creating effective meetings through the use of agendas, meetings roles, and many other tactics can ensure that something that is done so frequently can also bring value with it.
 

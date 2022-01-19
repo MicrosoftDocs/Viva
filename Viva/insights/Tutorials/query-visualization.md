@@ -2,10 +2,14 @@
 title: Visualize person queries
 description: View query results in charts without leaving Workplace Analytics
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -95,10 +99,10 @@ For more information about plans, see [Workplace Analytics plans](solutionsv2-in
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 
-5. With your group validated, you can now start a change plan. See the [Start the plan](solutionsv2-task.md#start-the-plan) section of [Plans: walkthrough](solutionsv2-task.md).
+5. With your group validated, you can now start a change plan. See the [Start the plan](solutionsv2-task.md#start-the-plan) section of [Plan walkthrough](solutionsv2-task.md).
 6. After the plan starts and is underway, you can track its progress; for more information, see [Track plans](solutionsv2-task.md#track-plans). To learn about the plan from the participants' perspective, see [The experience of plan participants](solutionsv2-participants.md).
 
 ## Related topics
 
 * [Person query](person-queries.md)
-* [Plans: walkthrough](solutionsv2-task.md)
+* [Plan walkthrough](solutionsv2-task.md)

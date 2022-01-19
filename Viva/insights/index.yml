@@ -7,30 +7,34 @@ brand: workplace-analytics
 metadata:
   title: Viva Insights documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Viva Insights uses data from everyday work in Microsoft 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.collection: m365initiative-viva-insights 
+  ms.subservice: viva-insights 
+  search.appverid: 
+  - MET150 
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
-  ms.date: 10/27/2021 #Required; mm/dd/yyyy format.
+  ms.author: helayne #Required; microsoft alias of author; optional team alias.
+  ms.date: 12/14/2021 #Required; mm/dd/yyyy format.
 
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
+    - title: Environment requirements
+      itemType: get-started # controls the icon image and super-title text
+      url: ./setup/environment-requirements.md
+    - title: Privacy protection
+      itemType: learn 
+      url: ./privacy/data-protection-intro.md
     - title: Personal insights
       itemType: quickstart
       url: ./personal/introduction.md
-    - title: Manager and leader insights
+    - title: Manager insights
       itemType: overview
-      url: ./use/viva-insights-my-team.md
+      url: ./use/myteam.md
+    - title: Leader insights
+      itemType: tutorial
+      url: ./use/viva-insights-my-org.md
     - title: Advanced insights
       itemType: deploy
       url: index-orig.md
-    - title: Privacy protection
-      itemType: learn # controls the icon image and super-title text
-      url: ./privacy/data-protection-intro.md
-    - title: Environment requirements
-      itemType: get-started
-      url: ./setup/environment-requirements.md
-    - title: FAQ
-      itemType: reference
-      url: ./use/faq-intro.md

@@ -2,11 +2,15 @@
 
 title: Attendee exclusion rules in Workplace Analytics 
 description: Attendee exclusion rules -- Introduction and walkthrough   
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -19,7 +23,7 @@ This enables you to measure work-related calendar collaboration in analysis, suc
 
 For example, the data should not include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. Workplace Analytics lets you exclude these kinds of events so that they don't skew your data.
 
-**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to Viva Insights or Workplace Analytics admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins](../setup/assign-roles-to-wpa-admins.md).
 
 ![Attendee exclusions](../images/wpa/tutorials/attendee-exclusions.png)
 

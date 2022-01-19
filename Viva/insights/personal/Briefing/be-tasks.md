@@ -3,7 +3,7 @@
 title: Follow up on tasks with the Briefing email
 description: Learn how to use the Briefing email to get today's tasks done
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -14,7 +14,7 @@ audience: Admin
 # Follow up on tasks
 
 >[!Note]
->Between September and November 2021, the personal insights included in your daily Briefing email will use the Microsoft Viva brand. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+>Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
 
 For **Commitments and follow-ups** in your Briefing, you'll see one or more of the following based on your recent email activity:
 

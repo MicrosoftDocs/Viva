@@ -3,11 +3,15 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics query overview
 description: Workplace Analytics offers a number of flexible queries for custom data analysis
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -180,7 +184,7 @@ The edited query runs again. As it does, it incurs a new cost, in units, calcula
 No additional units are charged for the following:
 
 * Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My Team in Viva Insights](../use/viva-insights-my-team.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
+* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
 * Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
@@ -305,7 +309,7 @@ An analyst might start by looking at a person query to see trends of employees a
 
 If the metrics show indications of poor meeting behavior, such as too many long meetings, the analyst could create a meeting query to investigate specific meetings in depth to uncover causes of the poor meeting behavior.
 
-Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plans: walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
+Additionally, the analyst could create a group query to identify the groups involved in those meetings and further investigate potential causes that could be addressed. Finally, to address the problem, the analyst could work with a program to set up an improvement plan. See [Plan walkthrough](../Tutorials/solutionsv2-intro.md) to learn more.
 
 You can create queries in the following ways:
 

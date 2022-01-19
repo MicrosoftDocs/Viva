@@ -3,10 +3,14 @@
 title: Viva Insights Home page
 description: Use the new Microsoft Viva Insights cloud-based Home page
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -18,7 +22,7 @@ Thank you for trying Microsoft Viva Insights. Welcome to your new personal Home 
 **To open your Home page**: Go to [insights.viva.office.com](https://insights.viva.office.com)
 
 >[!NOTE]
->Starting November 8th, you'll also be able to open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
+>You can also open Viva Insights through the Microsoft 365 App Launcher menu at [office.com](https://www.office.com).
 
 ![Viva Insights web app home page](../../Images/mya/use/home-web.png)
 
@@ -54,13 +58,15 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
-## Opt out
+## Opt in or out of features
+
+Do the following to opt in or our of features in **Feature settings**:
 
 1. Open your [Viva Insights Home page](https://insights.viva.office.com).
-2. Select the **Settings** (gear) icon.
-3. Select **Settings**, and then under **Microsoft Viva Insights**, select to turn **Off** the **Dashboard** to opt out of the page.
+2. Select the **Settings** (gear) icon at the top-right of the page.
+3. Select **Settings**, and then under **Microsoft Viva Insights**, select to turn features **On** or **Off**. For example, to opt out of this page, turn **Off** the **Dashboard**.
 
-    ![Feature Settings.](../../Images/mya/use/v-home-settings.png)
+    ![Feature settings.](../../Images/mya/use/v-feature-settings.png)
 
 4. Select **Save** to save your changes.
 
@@ -69,4 +75,4 @@ Your experience rating and feedback about Viva Insights is important to us. If y
 
 ### If I am opted out, can I opt back in?
 
-Yes; if you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access to this cloud-based Home page.
+Yes. If you opt yourself out, or if an admin opts you out, you can opt back in any time to regain access.

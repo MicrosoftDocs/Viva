@@ -3,15 +3,19 @@
 title: Best practices for wellbeing
 description: Best practices for work-life balance that managers can share with their teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
-# Best practices for wellbeing
+# Best practices for team's wellbeing
 
  More than 40 percent of creative ideas occur during breaks or when allowing your mind to wander. Employee burnout accounts for 20 to 50 percent of a company's annual employee turnover costs.
 

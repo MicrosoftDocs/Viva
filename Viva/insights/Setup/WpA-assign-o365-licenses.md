@@ -1,15 +1,16 @@
 ---
 
-title: Three ways to assign Microsoft 365 licenses
+title: Ways to assign Microsoft 365 licenses
 description: Links to instructions and to videos that describe how to assign licenses using the Microsoft 365 admin center, PowerShell, and Group-based licensing 
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -20,8 +21,8 @@ Administrators can assign Microsoft 365 licenses in the following ways. For guid
 
 ## Use the Microsoft 365 admin center
 
-* [Admin Center instructions](/microsoft-365/admin/add-users/add-users)
-* [Admin Center video demo](https://aka.ms/Video_AssignLicenseUsingO365AdminCenter)
+* [Admin center instructions](/microsoft-365/admin/add-users/add-users)
+* [Admin center video demo](https://aka.ms/Video_AssignLicenseUsingO365AdminCenter)
 
 ## Use PowerShell
 

@@ -2,7 +2,7 @@
 title: Disabling the Viva Insights Outlook add-in
 description: How to disable the Viva Insights Outlook add-in at the organizational level 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

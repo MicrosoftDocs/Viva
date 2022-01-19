@@ -3,12 +3,15 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Use a script to prepare organizational data in Workplace Analytics
 description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -17,7 +20,7 @@ audience: Admin
 
 ## Introduction
 
-Whether you are onboarding people to Workplace Analytics for the first time or creating a new file to update organizational data, this script can help. It uses the [Mainline service](/powershell/azure/active-directory/overview?view=azureadps-1.0) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create a Workplace Analytics organizational-data file for you. A Viva Insights or Workplace Analytics admin can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
+This script can help you to onboard people for the first time or create a new file to update organizational data. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create an organizational-data file. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](prepare-organizational-data.md), [Upload organizational data (first upload)](upload-organizational-data-1st.md), and [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
 ## Prerequisites
 
@@ -26,21 +29,21 @@ This script requires the following elements. If you need help with these prerequ
 * **PowerShell version 5.0 or higher** - To check the version of PowerShell on your computer:
 
    1. In Windows, select **Start**, type **PowerShell**, and press **Enter**.
-   2. In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. For values less than 5.0, see: [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7).
+   2. In the Windows PowerShell window, type **$PSVersionTable** and press **Enter**. Verify that the value listed for “PSVersion” is at least 5.0. For values less than 5.0, see: [Installing Windows PowerShell](/powershell/scripting/windows-powershell/install/installing-windows-powershell).
 
-    For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7).
+    For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos).
 
-    Note that when you install the following modules – AAD and MSOnline – you first need to start PowerShell as an administrator:
+    When you install the following modules – AAD and MSOnline – you first need to start PowerShell as an administrator:
 
     ![Run as administrator.](../images/wpa/setup/run-as-admin.png)
 
-* **The Azure Active Directory module** - For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0). To install the AAD module, use the PowerShell command:
+* **The Azure Active Directory module** - For installation instructions, see [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2). To install the AAD module, use the PowerShell command:
 
    ```PowerShell
    Install-Module AzureAD
    ```
 
-* **The Microsoft Online module** - This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0). To install the MSOnline module, use the PowerShell cmdlet:
+* **The Microsoft Online module** - This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1). To install the MSOnline module, use the PowerShell cmdlet:
 
    ```PowerShell
    Install-Module MSOnline
@@ -71,7 +74,7 @@ This script requires the following elements. If you need help with these prerequ
     Unblock-File .\helper.psm1
     ```
 
-6. The script is now ready to run. If this is your first time creating an organizational data file and your organization requires multi-factor authentication, run the script with the default options:
+6. The script is now ready to run. If you're creating an organizational data file for the first time and your organization requires multi-factor authentication, run the script with the default options:
 
     _Run:_
 
@@ -101,12 +104,12 @@ This example sets the EffectiveDate field in the resulting organizational data f
 .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt -EffectiveDateOption Delta
 ```
 
-> [!Note]
-> If you do not use this option, the effective date will default to a fixed date in the past, such as 01/01/1970.
+>[!Note]
+>If you do not use this option, the effective date will default to a fixed date in the past, such as 01/01/1970.
 
 ### Example 3
 
-Use the parameters in the following example if your organization doesn't enforce multi-factor authentication and you would like to create PSCredential objects and pass them into the script so that the script can run unattended:
+Use the parameters in the following example if your organization doesn't enforce multi-factor authentication and you want to create PSCredential objects and pass them into the script so that the script can run unattended:
 
 ```PowerShell
 .\Generate-WpaOrganizationFile.ps1 -MSOLCredential $MsolCred -AzureADCredential $AzureADcred
@@ -121,8 +124,8 @@ You can use the following parameters with the Generate-WpaOrganizationFile.ps1 s
 |MSOLCredential |pscredential |The credential of a person who can authenticate with the MSOnline service and execute the _Get-MsolUser_ cmdlet.  |
 |AzureADCredential |pscredential |The credential of a person who can authenticate with the Azure AD service and execute read-only cmdlets such as _Get-AzureADUser_.|
 |RequireCredentialPrompt |switch| If your organization's IT requires multifactor authentication, this switch lets you authenticate by prompting you for credentials. It uses the built-in prompts that are provided by the _Connect-AzureAD_ and _Connect-MsolService_ cmdlets.|
-| EffectiveDateOption| string | Used to determine the EffectiveDate.<ul><li>Select the **InitialPull** option if this is the first time you are generating an organizational data file for Workplace Analytics.</li><li>Use the **Delta** option if you're creating a later upload of organizational data.</li></ul> |
-|SkipOptionalProperties| switch | As part of information gathering, there are additional properties available via Azure AD and MSOnline that are not required by Workplace Analytics. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
+| EffectiveDateOption| string | Used to determine the EffectiveDate.<ul><li>Select the **InitialPull** option if you're generating an organizational data file for the first time for Workplace Analytics.</li><li>Use the **Delta** option if you're creating a later upload of organizational data.</li></ul> |
+|SkipOptionalProperties| switch | As part of information gathering, there are extra properties available via Azure AD and MSOnline that are not required by Workplace Analytics. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
 |InjectThrottling| switch | This switch is used only for debugging. We recommend that you omit this switch because its use hinders performance.|
 
 ## Resulting organizational-data file schema
@@ -135,9 +138,9 @@ After you run this script, the resulting schema in the organizational-data file 
 | **EffectiveDate**    | String | The start date on which this information is current. It must be able to be cast to the .NET type _datetime_.|
 | **ManagerID**        | String | The ID of the person’s manager, assigned in Azure AD. This must be in valid SMTP format.|
 | **Organization**     | String | The person's Azure AD Department field.|
-| **LevelDesignation** | String | The script generates this optionally required column as it creates the organizational data file. However, the script cannot access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make **LevelDesignation** usable by analysts, you must edit the organizational data file and update the value of this attribute for each person before you upload the file. (Optionally, use the Title property instead. See [Optional properties](#optional-properties).) |
+| **LevelDesignation** | String | The script generates this optionally required column as it creates the organizational data file. However, the script can't access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make **LevelDesignation** usable by analysts, you must edit the organizational data file and update the value of this attribute for each person before you upload the file. (Optionally, use the Title property instead. See [Optional properties](#optional-properties).) |
 | NumDirectReports     | Integer | The number of direct reports, found in Azure AD, of this person.|
-| SupervisorIndicator  | String  | Indicates whether the person does not manage other people, is a manager, or is a manager of managers.|
+| SupervisorIndicator  | String  | Indicates whether the person doesn't manage other people, is a manager, or is a manager of managers.|
 | ManagerIsMissingFlag | String  | If there was no manager found in AD or if an error occurred during lookup, this value is _TRUE_; otherwise it is _FALSE_.|
 
 ## Optional properties
@@ -161,7 +164,7 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 * [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0&preserve-view=true)
 * [Get support](../overview/getting-support.md)
 
-#### About Workplace Analytics organizational data
+#### About organizational data
 
 * [Prepare organizational data](prepare-organizational-data.md)
 * [Upload organizational data (first upload)](upload-organizational-data-1st.md)

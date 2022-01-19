@@ -2,13 +2,17 @@
 
 title: Workplace Analytics Glossary
 description: This glossary defines concepts and other terms important for working with Workplace Analytics
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: reference
 ms.localizationpriority: medium 
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
-ms.prod: wpa
 
 ---
 

@@ -4,11 +4,14 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Format data for uploading in Viva Insights 
 description: How to format .xlsx files and .csv files for uploading in Microsoft Viva Insights  
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -40,6 +43,7 @@ For these uploads, you can choose from among two file formats. The following sec
 3. **Stay under the size limit** - The upper limit of .xlsx files for upload is 1.0 GB. If your upload file is larger than 1.0 GB, use the .csv format instead.
 
 >[!Note]
+>
 >* For more information about selecting and arranging the _contents_ of these files (as opposed to adhering to their _formatting_ rules), see [Prepare organizational data](prepare-organizational-data.md).
 >* If you've uploaded data by using one file format and would like to upload data in a different file format in the future, you can do so, as long as you format the data according to the rules in the following sections.
 

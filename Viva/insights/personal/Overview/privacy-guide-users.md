@@ -2,7 +2,7 @@
 title: Privacy guide 
 description: Overview of privacy features for personal insights, including info about data de-identification and privacy, minimum group size for reporting, admin settings, and users in sensitive roles
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high
 ms.prod: Mya
@@ -41,7 +41,7 @@ Personal insights in Viva Insights are available as follows:
 * [Viva Insights in Outlook](../use/add-in.md)
 * [Viva Insights dashboard](../Use/dashboard-2.md)
 * [Briefing emails in Outlook](../Briefing/be-overview.md)
-* [Digest emails in Outlook](../use/email-digest-2.md)
+* [Digest emails in Outlook](../use/email-digests-3.md)
 * [Inline suggestions in Outlook](../use/mya-notifications.md)
 
 ## Data types

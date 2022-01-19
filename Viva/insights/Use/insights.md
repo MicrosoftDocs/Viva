@@ -2,10 +2,14 @@
 title: Workplace Analytics insights
 description: Learn actionable insights into more effective business outcomes for your organization 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-leader 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -76,4 +80,4 @@ These insights are only about the participants who are included in the selected 
 
 #### Q2 Which roles have access to these insights?
 
-The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Manager insights](viva-insights-my-team.md) for details.
+The analyst, limited analyst, and program manager roles can access these pages. People managers can only see insights about and data for their specific teams, see [Manager insights](myteam.md) for details.

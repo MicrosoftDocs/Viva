@@ -3,10 +3,14 @@
 title: Return to worksites dashboard
 description: Use the Return to worksite dashboard to visualize different seat-allocation options in Power BI based on Workplace Analytics data
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -145,7 +149,7 @@ After you specify a location and the number of employees permitted in that locat
 
 ## Return to Worksites Playbook
 
-The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The [Return to worksites playbook](https://download.microsoft.com/download/3/7/8/378b6b0d-c3de-401a-8ccf-a58e9d9c127f/Return-to-worksites-playbook.pdf) has more details and instructions on how to create and use the analysis.
+The last report in the Return to worksites dashboard describes further analysis you can do for planning when, who, where, and how employees can return to work. The [Return to worksites playbook](https://download.microsoft.com/download/f/0/b/f0ba439e-efc2-432a-adca-718f313cc9ac/Return-to-worksites-playbook.pdf) has more details and instructions on how to create and use the analysis.
 
 ![Dashboard page about the playbook.](../Images/WpA/Tutorials/pbi-rtw-playbook.png)
 

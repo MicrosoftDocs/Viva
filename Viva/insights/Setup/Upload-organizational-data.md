@@ -3,18 +3,19 @@
 title: Subsequent organizational data uploads
 description: How to upload data from your organization to Microsoft Workplace Analytics if this is not the first time you are uploading data. 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
-# Subsequent uploads
+# Subsequent organizational data uploads
 
 Administrators can use the following steps for a subsequent upload (import) organizational data to Viva Insights in Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 

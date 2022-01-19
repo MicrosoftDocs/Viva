@@ -3,13 +3,14 @@
 title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -40,7 +41,7 @@ Workplace Analytics automatically collects collaboration data from Microsoft 365
 
 ### Video: Organizational data provides context
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/321146161" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/321146161" frameborder="0" allowfullscreen=""> </iframe>
 
 ## Identify trends that you want to analyze
 
@@ -93,7 +94,7 @@ The following video describes which attributes are required and optional in your
 
 ### Video: What to include in the upload
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/323318072" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/323318072" frameborder="0" allowfullscreen=""> </iframe>
 
 ### Which employees to include
 
@@ -169,7 +170,7 @@ After you get this data, you must structure it for successful processing after u
 
 ## Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
+After you’ve identified what data to provide, you need to export it into the correct format to upload to Workplace Analytics. To start with, the data must be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. For more information about saving a file in UTF-8 format, see [Solution](../tutorials/download-utf8-query-report.md#solution).
 
 The file name must contain only alphanumeric characters (letters and numbers), with no spaces or special characters. For example, _FileName2.csv_.
 
@@ -177,7 +178,7 @@ The following video describes how to structure your organizational data file, in
 
 ### Video: How to structure the organizational data file
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen=""> </iframe>
 
 ### Required attributes
 
@@ -189,7 +190,7 @@ The following must be supplied with the exact column headers in the .csv upload,
 * Organization (case sensitive)
 
 >[!Note]
->The names of these required attributes are reserved and cannot be used as the names of any new [custom attributes](#custom-attributes).
+>The attributes can be in any order in the file. However, the names of these required attributes are reserved and cannot be used as the names of any new [custom attributes](#custom-attributes).
 
 ### Reserved optional attributes
 
@@ -236,7 +237,7 @@ For more information about attributes, see the [Attribute reference](#attribute-
 
 After you create a source .csv file, you can upload it to the Workplace Analytics service. If this is the first time that you will upload organizational data, see [Upload organizational data (first upload)](upload-organizational-data-1st.md). If this is not the first time, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md).
 
-After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Workplace Analytics team will contact your Viva Insights or Workplace Analytics admin.
+After your data has been successfully uploaded, Workplace Analytics performs additional validation and processing to complete provisioning. If any problems occur, the Microsoft Viva Insights team will contact your Viva Insights Administrator.
 
 ### How often to upload organizational data
 
@@ -244,7 +245,7 @@ It is recommended that you upload HR data at least once a month to keep data fre
 
 #### Supplying data over a time period
 
-By default, Workplace Analytics includes meeting and email data for measured employees for one year. Organizational data is provided to Workplace Analytics with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file).
+By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file, as described in [Attribute descriptions and data-coverage requirements](#attribute-descriptions-and-data-coverage-requirements) and in [Video: How to structure the organizational data file](#video-how-to-structure-the-organizational-data-file).
 
 If you do a point-in-time export of organizational data from your HR information system as of the current date, you will get a picture of your employee population for that single point in time. Therefore, for the greatest data fidelity during provisioning, you should provide organizational data exports for each of the last 13 months. This can be supplied in a single file or in a sequence of files.
 
@@ -264,10 +265,10 @@ This section contains information about the attributes that you use in the organ
 
 Attribute (column header) | Description of data / data validity | Data coverage requirements
 |---------|----------|---------|
-|<a name="personid-define"></a> PersonId |Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid PersonId. Each upload file can have only ONE record with the same PersonID and EffectiveDate pair. |
+|<a name="personid-define"></a> PersonId |Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@contoso.com</li><li><u>Not allowed:</u><Name, Person>(person.name@contoso.com)</li> | Each row must contain a valid PersonId. Each upload file can have only ONE record with the same PersonID and EffectiveDate pair. |
 EffectiveDate |Date for which the given attribute value applies for the employee. The attribute applies until another record for the same attribute with a different effective date is specified. | Each row must contain a valid EffectiveDate. Each upload file can have only one record with the same PersonID and EffectiveDate pair. |
 |<a name="leveldesignation-define"></a> LevelDesignation | The employee’s level, which is represented as a string. This level is specific to your organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity. |This is a reserved optional attribute that is case sensitive. If it is included, each row must contain a LevelDesignation value. |
-|<a name="managerid-define"></a> ManagerId | Unique identifier for the employee’s manager, which is needed to correctly calculate metrics for time spent with managers and their direct reports.<br>This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@xyz.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@xyz.com) </li> | Each row must contain a valid ManagerId. |
+|<a name="managerid-define"></a> ManagerId | Unique identifier for the employee’s manager, which is needed to correctly calculate metrics for time spent with managers and their direct reports.<br>This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example: <li><u>Allowed:</u> person.name@contoso.com </li><li><u>Not allowed:</u> <Name, Person> (person.name@contoso.com) </li> | Each row must contain a valid ManagerId. |
 |<a name="organization-define"></a> Organization| The internal organization that the employee belongs to. An employee’s organization will be specific to your individual needs and could be identified by the leader of the organization, or by another naming convention. This data is needed to correctly calculate metrics for redundancy and insularity. | Each row must contain an organization value. |
 |<a name="functiontype-define"></a> FunctionType | The job function that the employee performs. This is specific to your organization. This data is used to filter and group reports, and for grouping of data in Explore the stats. | This attribute column is not required. If it is included, then each row must contain a function value.|
 HireDate| The date the employee began employment. This date determines the beginning date for calculating metrics of a measured employee. If an employee has multiple hire dates (for example: first hire date, most recent hire date), it is best to use the most recent hire date. | Each row should ideally contain a valid HireDate. If not included, metrics will be calculated from the start date of the data collection period.|

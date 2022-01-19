@@ -1,17 +1,21 @@
 ---
 
-title: Best practices for avoiding email overload
-description: Workplace Analytics shares best practices with managers about how to avoid email overload
+title: Best practices for avoiding email overload with Workplace Analytics
+description: Microsoft Viva Insights shares best practices with managers about how to avoid email overload
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
-# Best practices for avoiding email overload
+# Best practices for avoiding email overload with Viva Insights
 
 Email is the most widely used collaboration tool with an estimated 110 billion messages sent daily. Despite the benefits, email can become overwhelming to manage. It steals your attention and leads to higher stress levels.
 

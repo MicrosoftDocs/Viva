@@ -3,10 +3,14 @@
 title: Business continuity report
 description: Use the Business continuity report that's within the Productivity Score report to analyze organizational collaboration data
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -28,6 +32,8 @@ You are encouraged to share this report with business leaders in your organizati
 * Maintaining their community connections.
 
 ![Business continuity report v3.](../Images/WpA/Tutorials/bcrps-3.png)
+
+In the report, when it says the **last 90 days**, it’s referring to the time period of the last 90 days from when the day the report was updated. Also, where it says **90 days ago**, it’s referring to the time period starting from 180 days ago to 91 days from when the day the report was updated.
 
 The following are some of the top-level business questions this report helps you analyze.
 

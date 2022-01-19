@@ -5,7 +5,7 @@
 title: To check your Outlook settings for MyAnalytics
 description: How to check your Outlook settings for MyAnalytics 
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.date: 02/21/2019
 ms.topic: article
 ms.localizationpriority: medium 

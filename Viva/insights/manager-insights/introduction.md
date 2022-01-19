@@ -1,26 +1,27 @@
 ---
+
 title: Introducing Manager insights
 description: About Manager insights in Microsoft Viva Insights in Teams and in Workplace Analytics and how to use them to help manage your team
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.prod: wpa
+ms.collection: viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
 # Manager insights introduction
 
-Microsoft Viva Insights includes a new Viva Insights app in Teams. The app’s “My Team” tab helps people managers like you discover key insights about your team’s collaboration effectiveness and employee experience. Manager insights are also available in the [web experience](https://workplaceanalytics.office.com). People managers will maintain access to insights as long as they have at least nine people in their hierarchy.
+Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in Microsoft Viva Insights in Teams and in Workplace Analytics.
 
-The following shows what you'll see in [My Team in Viva Insights](teams-app.md).
+Managers who are assigned licenses starting October 2021, can view their team's [group insights](../use/group-insights.md) in [My team](../use/myteam.md) within the Viva Insights app in Teams. Managers who were assigned licenses in Workplace Analytics prior to October 2021 can see the legacy manager insights in [Workplace Analytics](https://workplaceanalytics.office.com).
 
-![Outcomes page.](../images/wpa/use/viva-team-outcomes.png)
-
-The following shows what your managers can see in Workplace Analytics, which is the same information shown in Viva Insights.
-
-![People Manager Home page.](../images/wpa/use/manager-insights.png)
+![Manager insights in Workplace Analytics.](./images/manager-insights.png)
 
 ## How do these insights help
 

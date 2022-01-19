@@ -3,7 +3,7 @@
 title: Book focus time with the Briefing email
 description: Learn how to use the Briefing email to schedule focus time
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -14,7 +14,7 @@ audience: Admin
 # Book focus time
 
 >[!Note]
->Between September and November 2021, the personal insights included in your daily Briefing email will use the Microsoft Viva brand. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
+>Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
 
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can use this section to schedule focus time for today’s top-priority work. Select **Book** next a suggested time to block it on your calendar as "focusing," which silences notifications for uninterrupted focused work.
 

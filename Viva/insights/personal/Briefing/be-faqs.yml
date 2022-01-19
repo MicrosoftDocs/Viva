@@ -3,7 +3,7 @@ metadata:
   title: Briefing email from Microsoft Viva FAQ
   description: Get answers to the most frequently asked questions about the Briefing email from Microsoft Viva Insights
   author: madehmer
-  ms.author: v-mideh
+  ms.author: helayne
   ms.topic: article
   ms.localizationpriority: medium 
   ms.prod: Mya
@@ -16,7 +16,7 @@ sections:
     questions:
       - question: Who will get the email?
         answer: |
-          Everyone in your Microsoft 365 or Office 365 tenant with an English (United States) or Spanish language Exchange Online mailbox will receive the email (if they have actionable tasks).
+          Everyone in your Microsoft 365 or Office 365 tenant that Exchange Online mailbox is set to a [supported language](be-languages.md) will receive the email (if they have actionable tasks).
 
       - question: How can I manage who receives the email?  
         answer: |

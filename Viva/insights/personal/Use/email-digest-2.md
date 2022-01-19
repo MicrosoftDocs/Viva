@@ -1,11 +1,18 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 title: MyAnalytics digests
 description: MyAnalytics users receive a weekly digest with key insights and suggestions
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-personal
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

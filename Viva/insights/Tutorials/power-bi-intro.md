@@ -3,9 +3,13 @@ title: Query designer templates
 description: Learn about the Query designer templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
 ms.topic: article
 ms.localizationpriority: medium
-ms.prod: wpa
-ms.author: v-mideh
-author: paul9955
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
+ms.author: helayne
+author: madehmer
 manager: scott.ruble
 audience: Admin
 ---
@@ -33,5 +37,5 @@ Workplace Analytics includes the following Power BI dashboards for visually anal
 |![Business communication icon.](../images/wpa/playbooks/focus-64x64.svg) |[**Business continuity**](./power-bi-bc.md)<br>Shows example insights into how shifting to remote work has impacted business. |
 |![Microsoft Teams insights icon.](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Microsoft Teams insights**](./power-bi-teams.md) <br>Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization. |
 |![Manager effectiveness icon.](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Manager effectiveness**](./power-bi-manager.md) <br>Shows analysis to measure behaviors and trends of people managers across four key themes within your organization, including coaching, empowerment, connecting, and modeling. |
-|![Behavior patterns icon.](../images/wpa/playbooks/influencer-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes. |
+|![Behavior patterns icon.](../images/wpa/playbooks/influencer-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint-2.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes. |
 |![Sales business continuity icon.](../images/wpa/playbooks/manage-connectedness-32x32.svg) |[**Sales business continuity**](./pbi-bc-sales.md) <br>Shows insights into how shifting to remote work has impacted your sales organization. |

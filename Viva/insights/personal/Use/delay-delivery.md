@@ -1,20 +1,24 @@
 ---
 title: Delay delivery plan in MyAnalytics
 description: Learn how to opt in and use Delay delivery in MyAnalytics for suggestions on when to send email during your coworker's working hours
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
 
 # Delay delivery plan
 
-_**Applies to:** The Delay delivery plan is currently available only to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md)._
+_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and MyAnalytics and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) with a [supported E5 level plan](../overview/plans-environments.md). This is also being released to those with a Microsoft Viva Insights service plan._
 
-When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
+When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
@@ -26,7 +30,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
 
 1. When you see a suggested delivery time while composing an email, such as **Thu, Nov 07 10:00 AM** (as shown in the graphic), select **Delay send** to confirm message delivery at that time.
 
-   ![Delay delivery inline suggestion](../../Images/mya/use/delay-delivery-inline-1.png)
+   ![Delay delivery inline suggestion](../../Images/mya/use/delay-delivery-inline-2.png)
 
 2. An insight opens to show the scheduled time. You can select:
 
@@ -34,7 +38,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
    * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
    * **Cancel delay** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
 
-   ![Delay delivery insight options](../../Images/mya/use/delay-delivery-inline.png)
+   ![Delay delivery insight options](../../Images/mya/use/delay-delivery-inline-3.png)
 
 3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
@@ -43,7 +47,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
    * **Send now** to ignore the scheduled delivery time and send the email now.
    * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
 
-   ![Delay delivery options](../../Images/mya/use/delay-inline.png)
+   ![Delay delivery options](../../Images/mya/use/delay-inline-2.png)
 
 ## Opt in with the dashboard
 
@@ -61,7 +65,7 @@ You can also use the Outlook Insights add-in to opt in to the Delay delivery pla
 1. In the Outlook Insights add-in, select **Settings** (gear icon) to open it.
 2. Change the setting for **Delay delivery** to **On**.
 
-![Turn on Delay delivery in the Insights add-in.](../../Images/mya/use/try-delay-add-in.png)
+![Turn on Delay delivery in the Insights add-in.](../../Images/mya/use/try-delay-add-in-2.png)
 
 ## To opt out
 

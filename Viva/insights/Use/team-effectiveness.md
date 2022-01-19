@@ -3,10 +3,14 @@
 title: Team effectiveness in Viva Insights
 description: Learn about your team's effectiveness in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -17,7 +21,7 @@ Microsoft Viva Insights has a **My team** page that shows manager's collaboratio
 
 ![Team effectiveness](../images/wpa/use/team-effect.png)
 
-Nimble companies can more efficiently adapt to market changes and gain a true competitive advantage. The insights in this section show if your team has time to collaborate for rapid innovation, and to focus and produce higher quality work.
+Nimble teams can more efficiently adapt to market changes and gain a true competitive advantage. The insights in this section show if your team has time to collaborate for rapid innovation, and to focus and produce higher quality work.
 
 ## Best practices
 
