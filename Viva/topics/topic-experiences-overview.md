@@ -153,7 +153,7 @@ English (United States)|German (coming soon)|
 French (France) (coming soon)|Spanish (Spain) (coming soon)|
 | |
 
-For information about the languages supported in the Viva Topics user interface, see [Viva Topics supported languages](/viva/viva-language-support#viva-topics-supported-languages). 
+Languages in the Viva Topics user interface are based your organization's Microsoft 365 language preferences. For more information, see [Viva Topics supported languages](/viva/viva-language-support#viva-topics-supported-languages). 
 
 ## Provide us feedback
 
