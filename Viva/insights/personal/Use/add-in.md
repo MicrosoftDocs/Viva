@@ -2,10 +2,12 @@
 title: About Viva Insights Outlook add-in
 description: Learn about the Outlook add-in for Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-personal
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

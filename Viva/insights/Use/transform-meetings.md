@@ -3,10 +3,10 @@
 title: Transform meeting culture with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and transform your organization's meeting culture
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-leader 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

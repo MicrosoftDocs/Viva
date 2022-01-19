@@ -5,7 +5,9 @@ author: madehmer
 ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-manager
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -30,7 +32,7 @@ When data is processed for team insights, Microsoft protects employee privacy an
 
 ## Admin tasks
 
-**Team insights** are available to teams who have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**Team insights** are available to teams who have a Microsoft Viva Insights license with a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Set up your team
 

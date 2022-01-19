@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Insights FAQ
 description: Answers to the most frequently asked questions about Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null
 ms.prod: wpa

@@ -3,10 +3,12 @@
 title: Assigning admin roles
 description: Learn how to assign admin roles for Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- viva-insights-advanced 
+- viva-insights-leader
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

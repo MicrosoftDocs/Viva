@@ -3,10 +3,10 @@
 title: Best practices for focus time
 description: Workplace Analytics shares best practices with managers about the importance of scheduled focus time
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-manager 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

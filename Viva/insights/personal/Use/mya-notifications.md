@@ -5,6 +5,7 @@ author: madehmer
 ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium
+ms.collection: viva-insights-personal
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

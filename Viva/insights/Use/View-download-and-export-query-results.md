@@ -2,10 +2,10 @@
 title: View, download, and export Workplace Analytics query results
 description: Describes how to view, download, and export Workplace Analytics query results to Power BI and other data analysis tools
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

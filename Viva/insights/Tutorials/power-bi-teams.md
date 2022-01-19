@@ -3,10 +3,10 @@
 title: Power BI Microsoft Teams dashboard
 description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined data from Workplace Analytics in Power BI
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

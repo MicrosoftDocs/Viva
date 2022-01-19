@@ -3,10 +3,13 @@
 title: Privacy and data access
 description: About the privacy and data access controls available in Microsoft Viva Insights 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.collection: m365initiative-viva-insights 
+ms.collection:  
+- viva-insights-advanced
+- viva-insights-leader
+- viva-insights-manager 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

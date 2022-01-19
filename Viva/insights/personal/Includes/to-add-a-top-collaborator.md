@@ -2,8 +2,8 @@
 
 title: Add a top collaborator in MyAnalytics
 description: How-to steps to add a top collaborator in MyAnalytics 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

@@ -3,7 +3,7 @@
 title: Confirm the installation of the Viva Insights Outlook add-in
 description: Confirm that the Microsoft Viva Insights add-in for Outlook is installed
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

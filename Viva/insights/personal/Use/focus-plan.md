@@ -1,12 +1,12 @@
 ---
 
-title: Focus plan
+title: Focus plan for MyAnalytics
 description: MyAnalytics focus plan
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -32,10 +32,11 @@ You can create your focus plan in the [MyAnalytics dashboard](#create-focus-plan
 
 ### Create focus plan in the MyAnalytics dashboard
 
-When you enroll in the focus plan, you configure how focus time will be booked on your calendar. MyAnalytics books this time based on the preferences that you set: 
- * The number of focus hours per day &mdash; one, two, or four hours.
- * Your preferred time of day &mdash; morning or afternoon.  
- * Whether to mute or to allow chat notifications in Teams. Muting chat notifications changes your Teams status to "Focusing." 
+When you enroll in the focus plan, you configure how focus time will be booked on your calendar. MyAnalytics books this time based on the preferences that you set:
+
+* The number of focus hours per day &mdash; one, two, or four hours.
+* Your preferred time of day &mdash; morning or afternoon.  
+* Whether to mute or to allow chat notifications in Teams. Muting chat notifications changes your Teams status to "Focusing."
 
 1. In the header of the **Focus** page of your personal dashboard, select **Get started**. 
 
@@ -46,34 +47,34 @@ When you enroll in the focus plan, you configure how focus time will be booked o
    ![Focus plan - Choose hours.](../../Images/mya/use/focus-plan-choose-hours-83.png)
 
 3. Select the time of day for your focus time, and then select **Next**.
-   
+
    ![Focus plan - Choose AM or PM.](../../Images/mya/use/focus-plan-choose-am-pm-101.png)
-   
-4.	Select whether to have Teams chat notifications muted during focus time, and select **Looks good!** 
-   
+
+4. Select whether to have Teams chat notifications muted during focus time, and select **Looks good**.
+
      ![Focus plan - Choose to mute chat notifications.](../../Images/mya/use/focus-plan-choose-mute-105.png)
-   
-     MyAnalytics now seeks time on your Outlook calendar to set aside as focus time, based on your preferences. The amount and placement of focus time depends on the time your calendar has open. 
-   
-     For more information, see [Automatic booking of focus time](#automatic-booking-of-focus-time).
+
+     MyAnalytics now looks for time in your Outlook calendar to set aside for focusing, based on your preferences. The amount and placement of focus time depends on the time your calendar has open.
+
+     See [Automatic booking of focus time](#automatic-booking-of-focus-time) for details.
 
 #### Change your focus-plan preferences
 
-You can always modify your focus-plan preferences by selecting **Plan Configuration**. 
+You can always modify your focus-plan preferences by selecting **Plan Configuration**.
 
    ![Focus plan - Settings.](../../Images/mya/use/focus-plan-open-settings.png)
 
-This opens the **Plan configuration** pane, on which you can change the number of focus hours per day, your preference of morning or afternoon, and whether to mute Teams notifications. See [To leave or change your focus plan](#to-leave-or-change-your-focus-plan). 
+This opens the **Plan configuration** pane, on which you can change the number of focus hours per day, your preference of morning or afternoon, and whether to mute Teams notifications. See [To leave or change your focus plan](#to-leave-or-change-your-focus-plan).
 
 ### Create focus plan in the Insights Outlook add-in
 
 You can also use the Outlook add-in to enroll in the focus plan. To do so, follow these steps.
 
 1. Select the insight **Want focus time every day?**
-   
+
    ![Create focus plan in add-in.](../../Images/mya/use/want-focus-time.png)
 
-2. Select **Book time now**. 
+2. Select **Book time now**.
 
    ![Book time now.](../../Images/mya/use/book-time-now.png)
 
@@ -88,30 +89,30 @@ Now that your focus plan is underway, you can do the following:
 
 ## To check the progress of your focus plan
 
-After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report. 
+After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report.
 
- * In the MyAnalytics dashboard, select **Focus** in the left navigation pane. A panel opens and shows statistics about your focus time:
+In the MyAnalytics dashboard, select **Focus** on the left to see statistics about your focus time:
 
-    ![Dashboard report.](../../Images/mya/use/track-progress.png)
+   ![Dashboard report.](../../Images/mya/use/track-progress.png)
   
-An important metric on this page appears under **Last week**. It shows how many days you had focus time last week. 
+An important metric shows under **Last week** about how many days last week that you had time to focus.
 
-The **Plan ahead** area helps you to plan focus time for the upcoming days. This area has the following sections: 
+The **Plan ahead** area helps you plan focus time for the upcoming days with the following sections.
 
 ### Focus time booked
 
-For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot, the three days with focus time booked are shown in green. 
+For the current week and the following week, this area shows how many days and which days have had focus time booked. In the preceding example screenshot, the three days with focus time booked are shown in green.
 
 ### Needs focus time
 
-This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have MyAnalytics select and book this time. 
+This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have MyAnalytics select and book this time.
 
 ### Needs review
 
-During the number of days shown (in the screenshot, three days) MyAnalytics has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web to resolve the issue. 
+During the number of days shown (in the screenshot, three days) MyAnalytics has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web to resolve the issue.
 
-> [!Note] 
-> If you make changes to your Outlook calendar, they will be reflected on your dashboard within five minutes. 
+>[!Note]
+>If you make changes to your Outlook calendar, they will be reflected on your dashboard within five minutes.
 
 <!-- 
 ### To add tasks to your focus time
@@ -120,7 +121,7 @@ During the number of days shown (in the screenshot, three days) MyAnalytics has 
 
 ## To leave or change your focus plan
 
-_**Applies to:** The new Focus Plan Settings page (which is described in this section) is currently in preview status. It is in the process of rolling out to all MyAnalytics users._
+_**Applies to**: The new Focus Plan Settings page (which is described in this section) is currently in preview status. It is in the process of rolling out to all MyAnalytics users._
 
 You can opt in and opt out of the focus plan as many times as you want. 
 
@@ -164,7 +165,7 @@ After it books a block on one day, it then moves on to the next day to find the 
 
 #### Lunchtime
 
-MyAnalytics considers the time from 12:00 PM (noon) to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period.
+MyAnalytics considers the time from noon to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period.
 
 ### Chats are muted during focus time  
 

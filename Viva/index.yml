@@ -14,6 +14,7 @@ metadata:
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
   ms.date: 09/02/2021 #Required; mm/dd/yyyy format.
+  ms.custom: intro-hub-or-landing
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -66,6 +67,13 @@ productDirectory:
           text: Setup
         - url: /learn/modules/workplace-analytics-discover/
           text: Learning path - Discover Microsoft Viva Insights
+        - url: /viva/insights/personal/introduction
+          text: Personal insights
+        - url: /viva/insights/use/myteam
+          text: Manager insights
+        - url: /viva/insights/use/viva-insights-my-org
+          text: Leader insights
+
     # Card
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
@@ -88,5 +96,7 @@ productDirectory:
           text: Get started
         - url: /viva/learning/set-up-viva-learning
           text: Setup
+        - url: /viva/learning/content-sources-365-admin-center
+          text: Manage content sources          
         - url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
           text: End user help & training

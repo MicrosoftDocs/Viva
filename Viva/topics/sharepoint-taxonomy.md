@@ -7,11 +7,11 @@ ms.reviewer: anfra; cjtan
 audience: admin
 ms.date: 10/25/2021
 ms.topic: article
-ms.prod: microsoft-365-enterprise
-search.appverid: 
-ms.collection: 
-    - enabler-strategic 
-    - m365initiative-viva-topics
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 localization_priority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 description: Learn about how to find topics in Viva Topics by using SharePoint taxonomy.
