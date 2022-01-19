@@ -2,7 +2,7 @@
 title: Manager insights rollout
 description: Guidance on how to rollout new Manager insights in Workplace Analytics to your organization's managers
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.prod: wpa

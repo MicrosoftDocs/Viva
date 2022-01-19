@@ -3,7 +3,7 @@
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
 ms.collection: 

@@ -3,7 +3,7 @@
 title: Automate query data exports
 description: Learn how to automate data query data exports from Microsoft Workplace Analytics to Azure
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 search.appverid:
 - MET150

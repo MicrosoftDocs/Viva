@@ -3,10 +3,10 @@
 title: Workplace Analytics plan participants
 description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -15,11 +15,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Plans: Participants' experience
+# Plan participants' experience
 
-**Role** - a participant in a plan or a person who is using MyAnalytics <!-- REMOVED 22 MARCH 2021. and is enrolled in a [MyAnalytics (Full) service plan](../personal/overview/plans-environments.md#features-in-the-myanalytics-full-service-plan) -->
+**Role** - A participant in a plan or a person who is using Viva Insights or MyAnalytics for personal insights
 
-While analysts and program managers can create and manage programs in Workplace Analytics, the actual work of change is done by people. People who are using MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
+While analysts and program managers can create and manage Workplace Analytics plans as part of Microsoft Viva Insights, the actual work of change is done by people. People who are using Viva Insights or MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
 
 All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view what is described in the following sections.
 
@@ -29,44 +29,31 @@ All plans are scheduled to start on a Sunday. As soon as the plan starts and thr
 As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Workplace Analytics. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on.  
 -->
 
-## MyAnalytics dashboard
+## Viva Insights
 
-The [MyAnalytics dashboard](../personal/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan.  
+[Viva Insights in Teams](../personal/teams/viva-insights-home.md), [Viva Insights Home page](../personal/use/home-web.md), and the [Dashboard](../personal/use/dashboard-2.md) are available resources for plan participants. In addition to the standard content available to all, the dashboard also includes a new participant section during a plan.
 
 When people are part of a plan, they'll see a new **Team Plans** in their dashboard for tracking their progress. This added section contains information, such as recommended habits and a report about their progress as compared to the plan goals.
-
-<!-- Remove for now
-![Participant's dashboard.](../images/wpa/tutorials/dashboard-prog-partic.png)
--->
 
 ![Participant's dashboard.](../images/wpa/tutorials/plans-dashboard2.png)
 
 ## Digest
 
-People who use MyAnalytics get a weekly [digest](../personal/use/email-digest-2.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
+People who use Viva Insights or MyAnalytics get a monthly [digest](../personal/use/email-digests-3.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
 
 ### Teams Plan section
 
-For plan participants, their weekly digest includes an additional section, such as the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding week.
+For plan participants, their monthly digest includes an additional section, such as the _Teams Plan_ section. This section summarizes their progress in the plan over the preceding month.
 
-However, people who are also using the [MyAnalytics Focus plan](../personal/use/focus-plan.md) will not see this additional Plans section in their weekly digest. They will only see a weekly Focus digest (instead of a rotating digest) that shows updates about their focus plan.
+![Track Teams plan progress.](../images/wpa/tutorials/track-team-progress.png)
 
-![Weekly digest.](../images/wpa/tutorials/program-checkpoint-card-60sh.png)
+## Inline suggestions
 
-<!--  THIS SECTION CAN DESCRIBE THE EXCEPTION CAUSE BY "ADAPTIVE" AFTER WE GET THAT WORDING FROM PM. (PER PRAMOD, HELEN)
-> [!Note] 
-> This Team Plans section is unavailable in the following circumstance:
-> * It is a week in which the digest email is about _Focus_ or _Network_.
-> * You are using a particular email client application to view your digest emails.
--->
-
-## MyAnalytics inline suggestions
-
-MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them.
+[Inline suggestions](../personal/Use/mya-notifications.md) are brief, data-driven and AI-driven notifications that show up in Outlook when reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask if you want to review them.
 
 ### Plan-only inline suggestions
 
-Many inline suggestions are available to all MyAnalytics participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), but some apply only to participants of a particular Teamwork plan, such as the [Collaboration plan](#collaboration-plan) or the [Wellbeing plan](#wellbeing-plan):
+Many inline suggestions are available to all participants (see [broadly available inline suggestions](#broadly-available-inline-suggestions)), but some apply only to participants of a particular Teamwork plan, such as the [Collaboration plan](#collaboration-plan) or the [Wellbeing plan](#wellbeing-plan):
 
 #### Collaboration plan
 
@@ -105,12 +92,12 @@ Many other inline suggestions are available to _all_ MyAnalytics participants, w
 
 ## Related topics
 
-* [Plans: Introduction](solutionsv2-intro.md)  
-* [Plans: Walkthrough](solutionsv2-task.md)
-* [Plans: Concepts](solutionsv2-conceptual.md)
+* [Plan introduction](solutionsv2-intro.md)  
+* [Plan walkthrough](solutionsv2-task.md)
+* [Plan concepts](solutionsv2-conceptual.md)
 
 
-<!-- REPLACING THIS FOLLOWING TABLES WITH LINKS TO THE COMPLETE LIST IN THE MYA TOPICS
+<!-- REPLACING THe FOLLOWING TABLES WITH LINKS TO THE COMPLETE LIST IN THE MYA TOPICS
 
 #### Get more time to focus
 

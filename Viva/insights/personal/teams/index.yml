@@ -9,8 +9,8 @@ metadata:
   description: Learn about Viva Insights -- how to install and use them # Required; article description that is displayed in search results. < 160 chars.
   ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page 
-  author: paul9955 
-  ms.author: v-mideh 
+  author: madehmer 
+  ms.author: helayne 
   ms.date: 08/18/2021 #Required; mm/dd/yyyy format.
 
 highlightedContent:

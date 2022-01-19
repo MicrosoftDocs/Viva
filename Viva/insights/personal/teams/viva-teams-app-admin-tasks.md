@@ -22,18 +22,18 @@ As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles
 
 Complete the steps in the following playbooks to get the Viva Insights app up and running for people in your organization.
 
-1. Confirm that the employees who want to use the Viva Insights app in Microsoft Teams have the Microsoft Viva Insights license with the [MyAnalytics (Full) service plan](../overview/plans-environments.md).
-2. Turn on the Viva Insights app for your organization:
-[Release the Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
+1. Confirm they have a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../overview/plans-environments.md).
+2. In the [Teams admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), add the Viva Insights app to the list of allowed apps within the organization, as follows:
+[Release the Viva Insights app within your organization](https://download.microsoft.com/download/1/b/9/1b980a29-f166-4b72-8d8e-d1126f4028c7/Release-the-Insights-app.pdf).
 
    >[!Note]
-   >To allow or block specific users in your organization from using Insights, do the following:
+   >To allow or block specific users in your organization from using Viva Insights, do the following:
    >
    >1. Confirm that Viva Insights is turned on for your organization on the [Manage apps](/microsoftteams/manage-apps) page.
    >2. Create a custom app permission policy and assign it to those users. For details, see [Manage app permission](/microsoftteams/manage-apps) policies in Teams.
 
-3. Pin the Viva Insights app in Teams left navigation for all users in your organization: [Pin the Viva Insights app](https://download.microsoft.com/download/5/d/f/5df6c702-58f2-4768-b8e5-26ffd2c78b80/Pin-the-Insights-app.pdf).
-4. Now that the Viva Insights app is available for employees, they can follow these steps to locate and open it: [Find and open the Insights app](https://download.microsoft.com/download/c/a/6/ca665366-e059-4977-8175-04461af196c1/Find-and-open-the-Insights-app.pdf).
+3. In Teams, pin the Viva Insights app in the left app bar for all users in your organization: [Pin the Viva Insights app](https://download.microsoft.com/download/5/d/f/5df6c702-58f2-4768-b8e5-26ffd2c78b80/Pin-the-Insights-app.pdf).
+4. Now that Viva Insights is available, all users can do the following to locate and open it: [Find and open the Viva Insights app](https://download.microsoft.com/download/c/a/6/ca665366-e059-4977-8175-04461af196c1/Find-and-open-the-Insights-app.pdf).
 
 >[!Important]
 >If your organization assigned licenses before July 2021 (under the Workplace Analytics SKU), follow [these steps](#access-to-premium-features) to enable or disable access to the Viva Insights premium features released starting in November 2021.

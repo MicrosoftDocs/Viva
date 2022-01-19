@@ -4,8 +4,8 @@
 
 title: To see email information and insights in MyAnalytics
 description: How to see email information and general insights in MyAnalytics 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.date: 02/21/2019
 ms.topic: article
 ms.localizationpriority: medium 

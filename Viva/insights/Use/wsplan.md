@@ -2,10 +2,10 @@
 title: Workspace Collaboration Optimizer 
 description: Learn about the Workspace Collaboration Optimizer and how to use it to create seating plans
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
