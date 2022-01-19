@@ -61,24 +61,11 @@ Greek| |
 
 **Teams app + Personal**
 
-| &nbsp; | &nbsp; | &nbsp; |
-|---|---|---|
-Catalan|Hungarian|Romanian
-Chinese (Simplified)|Indonesian|Russian
-Chinese (Traditional)|Italian|Spanish (Spain)
-Czech|Japanese|Swedish
-Danish|Korean|Thai
-Dutch|Norwegian, Bokmal|Turkish
-English (United States)|Polish|Ukrainian
-Finnish|Portuguese (Brazil)| 
-French (France)|Portuguese (Portugal)| 
-German| |
-Greek| |
+Personal insights in Viva Insights and MyAnalytics are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
-> [!NOTE]
-> Briefing emails are are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
+Briefing emails are are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
 
-[Learn more about language support for Viva Insights](/viva/insights/personal/overview/mya-languages)
+[Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments.md#language-support)
 
 **Advanced**
 

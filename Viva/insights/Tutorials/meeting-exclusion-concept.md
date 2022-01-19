@@ -232,7 +232,7 @@ The following languages are supported for keywords and phrases in meeting exclus
 |Danish | Indonesian |Portuguese (Brazilian | Turkish|
 |Dutch | Italian | Portuguese (Spanish) | Ukrainian |
 |English |Japanese | Punjabi | Urdu |
-| Estonian | Kannada | Romanian | Vietnamese|
+|Estonian | Kannada | Romanian | Vietnamese|
 |Finnish | Kazakh | Russian|
 
 ## Related topic
