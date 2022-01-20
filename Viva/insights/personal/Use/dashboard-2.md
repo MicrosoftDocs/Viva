@@ -77,17 +77,19 @@ Educational insights give you work productivity and wellbeing tips and ideas, wh
 
 ![Educational insights.](../../Images/mya/use/educational-tips.png)
 
-## Config Settings
+## Settings
 
-Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work week** section of **Config Settings**. Changes to these settings are reflected in next week's data.
+Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. Changes to these settings are reflected in next week's data.
 
-In **Plan configuration**, you can personalize your focus plan. You can select how much focus time you want to schedule for what time of day, if you want to automatically book it or only get reminders to schedule it for the next two weeks, and more. For more details, see [Focus plan](../use/focus-plan.md).
+In **Protect Time**, you can personalize your focus plan. You can select how much focus time you want to schedule for what time of day, if you want to automatically book it or only get reminders to schedule it for the next two weeks, and more. For more details, see [Focus plan](../use/focus-plan.md).
 
-In Delay Delivery, you can turn the feature On or Off for the option of delaying delivery of an email during your co-workers configured working hours.
+Also in **Protect time**, you can turn the **Delay Delivery** feature **On** or **Off** for the delaying delivery of an email until when your co-workers are in their set working hours.
 
-If you're a manager or team lead with a Microsoft Viva Insights license, you can select **Edit team** in **Team settings** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
+As a manager or team lead with a Microsoft Viva Insights license, you can select **Edit team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
 
-![Config Settings.](../../Images/mya/use/config-settings-2.png)
+In **Briefing settings**, you can change the settings for your Briefing emails, such as to subscribe or unsubscribe, to set when you want to receive it, and more. For details, see [Briefing settings](../briefing/be-settings.md)
+
+![Viva Insights Settings.](../../Images/mya/use/settings.png)
 
 ## Your feedback
 
