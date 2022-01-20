@@ -1,7 +1,7 @@
 ---
 
-title: Language support and guidelines for Viva Insights
-description: Describes the privacy and data access controls available in Microsoft Viva Insights 
+title: Language support and guidelines for Advanced insights in Viva Insights
+description: Describes the languages supported by Advanced insights within Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -18,7 +18,7 @@ audience: Admin
 
 # Advanced insights language support and guidelines
 
-The user interface in Microsoft Viva Insights in Workplace Analytics is currently available in Chinese (Simplified), Chinese (Traditional), French (France), German (Germany), Italian (Italy), Japanese, Korean, Portuguese (Brazil), Russian (Russia), Spanish (Spain), and English (United States).
+The user interface in Microsoft Viva Insights in Workplace Analytics is currently available in the languages listed in [Supported languages](#supported-languages).
 
 The Workplace Analytics app automatically uses your language identifier (language and region) setting, as specified in one of the following sources:
 
@@ -26,9 +26,9 @@ The Workplace Analytics app automatically uses your language identifier (languag
 * Your web browser
 * Location that's set for your Exchange Online mailbox
 
-You can override this setting. To do so, replace language identifier ("en-us" is for US English) with a different language identifier. The table under [Supported languages](#supported-languages) lists all of the supported languages for Workplace Analytics.
+You can override this setting by replacing the language identifier in the URL. [Supported languages](#supported-languages) lists the languages currently supported for Workplace Analytics.
 
-For example, you'd replace '/en-us/' with '/ja-jp/' to indicate Japanese as the language to open the app in: 'https://workplaceanalytics.office.com/ja-jp/'
+For example, replace '/en-us/' with '/ja-jp/' in the following URL to indicate Japanese as the language to view it in: 'https://workplaceanalytics.office.com/ja-jp/'
 
 ## Supported languages
 
@@ -36,6 +36,7 @@ Language and region | Language identifier
 ------ | ------
 Chinese (Simplified) | zh-cn
 Chinese (Traditional) | zh-tw
+English (United States) | en-us
 French (France) | fr-fr
 German (Germany) | de-de
 Italian (Italy) | it-it
@@ -44,11 +45,10 @@ Korean | ko-kr
 Portuguese (Brazil) | pt-br
 Russian (Russia) | ru-ru
 Spanish (Spain) | es-es
-English (United States) | en-us
 
 ## Use of data other than English
 
-In certain circumstances, you can use Workplace Analytics with _data_ that is in other languages. Follow these guidelines:
+If and when you are able to use Workplace Analytics with _data_ that is in other languages, do the following as a guideline:
 
 * Query names and descriptions must be in English, Japanese, or French.
 
@@ -66,7 +66,7 @@ In [Privacy settings](../use/privacy-settings.md), when adding the subject line 
 
 ![Exclude terms from subject line.](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
 
-We appreciate all your feedback. To report any language-related issues, use the **Send feedback** button.
+We appreciate all your feedback. To report any language-related issues, use **Send feedback** within the app.
 
 ## Related topics
 
