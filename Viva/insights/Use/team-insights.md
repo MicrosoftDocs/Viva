@@ -36,7 +36,7 @@ When data is processed for team insights, Microsoft protects employee privacy an
 
 ## Set up your team
 
-As a manager or team lead, you can create a team and view insights about them within Viva Insights. With the exception of **Group insights**, the team insights you see are based on data that's processed from within your own mailbox for only you to see. When you select or confirm your current team members for the first time, the initial list of team members you see is derived from Azure Active Directory. After this initial setup, you can add and remove team members at any time through **Config settings**.
+As a manager or team lead, you can create a team and view insights about them within Viva Insights. With the exception of **Group insights**, the team insights you see are based on data that's processed from within your own mailbox for only you to see. When you select or confirm your current team members for the first time, the initial list of team members you see is derived from Azure Active Directory. After this initial setup, you can add and remove team members at any time through **Settings**.
 
 >[!Note]
 >After you make changes, the automatic sync from your organization’s directory will stop and you will be responsible for keeping the list up to date.

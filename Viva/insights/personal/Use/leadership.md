@@ -100,7 +100,7 @@ If your team list or job function changes, you can select the **Edit team** link
 ### To open Configurations
 
 1. Go to 'myanalytics.microsoft.com' to open your personal MyAnalytics dashboard.
-2. In the left navigation pane, select **Config settings**.
+2. In the left navigation pane, select **Settings**.
 
    ![Configurations.](../../Images/mya/use/leadership-config.png)
 
