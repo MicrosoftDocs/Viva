@@ -1,7 +1,7 @@
 ---
 
-title: Assign roles for Viva Insights
-description: How to assign roles for Microsoft Viva Insights with Azure Active Directory
+title: Assign roles for Microsoft Viva Insights
+description: How to assign roles for Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -38,7 +38,7 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 ## Assign Workplace Analytics roles
 
-**Owner** - Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference)
+**Owner** - Azure Active Directory [Enterprise App Administrator](/azure/active-directory/roles/permissions-reference)
 
 1. To assign roles for Workplace Analytics, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise applications**:
