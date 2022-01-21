@@ -331,6 +331,8 @@ items:
                         items:
                           - name: Introduction
                             href: tutorials/power-bi-intro.md
+                          - name: Sales effectiveness
+                            href: tutorials/power-bi-sales.md
                           - name: Ways of working assessment
                             href: tutorials/power-bi-collab-assess.md
                           - name: Ways of working tracker

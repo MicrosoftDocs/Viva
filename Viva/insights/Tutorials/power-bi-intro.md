@@ -31,7 +31,8 @@ The Query designer has templates for the following Power BI dashboards for visua
 
 | &nbsp; | &nbsp; |
 |------|-------|
-|![Ways of working assessment icon.](../images/wpa/playbooks/influencer-32x32.svg) |[**Ways of working assessment**](./power-bi-collab-assess.md) <br>Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization. |
+|![Sales effectiveness icon.](../images/wpa/playbooks/manage-connectedness-32x32.svg) |[**Sales effectiveness**](power-bi-sales.md) <br> Shows how your sales employees collaborate with external parties. With CRM data uploaded, this report can provide advanced insights about your employees’ interactions with CRM accounts. |
+|![Ways of working assessment icon.](../images/wpa/playbooks/wellbeing-64x64.svg) |[**Ways of working assessment**](./power-bi-collab-assess.md) <br>Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization. |
 |![Ways of working tracker icon.](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Ways of working tracker**](./power-bi-collab-track.md) <br>Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness. |
 |![Return to work icon.](../images/wpa/playbooks/meetings-32x32.svg) |[**Return to worksites**](./power-bi-return-tw.md) <br>Shows how to plan who returns to work, and when, where, and how they do for the different work locations. |
 |![Wellbeing icon.](../images/wpa/playbooks/wellbeing-64x64.svg) |[**Wellbeing - Balance and flexibility**](./power-bi-wellbeing.md) <br>Shows insights into employee wellbeing across your company and uncovers opportunities to improve focus, work-life balance, flexibility at work, and a sense of community. |
