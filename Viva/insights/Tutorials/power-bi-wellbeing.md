@@ -1,5 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Wellbeing dashboard
 description: Use the Wellbeing dashboard in Power BI to visualize insights into employee wellbeing across the company that's based on Viva Insights data
 author: madehmer
@@ -40,7 +40,7 @@ After you successfully run these queries, you can download the template for the 
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<br><iframe width="800" height="486" src="https://msit.powerbi.com/links/S5r9eRG7oq?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&pbi_source=linkShare&bookmarkGuid=2f42ceb9-9409-4ba6-841b-6141a33ec3e9" frameborder="0" allowFullScreen="true"></iframe>
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzhjNmE0NWMtYWMwYi00N2EzLWE1YjUtY2FhNzc1MDE0OTc3IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true " frameborder="0" allowFullScreen="true"></iframe>
 
 The template for the Wellbeing dashboard is on the Results page in [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the report](#set-up-the-report).
 
