@@ -1,7 +1,7 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-title: Employee wellbeing dashboard
-description: Use the Employee wellbeing dashboard to visualize insights into employee wellbeing across the company
+
+title: Wellbeing dashboard
+description: Use the Wellbeing dashboard in Power BI to visualize insights into employee wellbeing across the company that's based on Viva Insights data
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,11 +15,11 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Employee wellbeing
+# Wellbeing dashboard
 
-The Employee wellbeing report uses a template that's populated by Viva Insights data to help you get insights into employee wellbeing across your company and uncover opportunities to improve focus, work-life balance, flexibility at work, and employee's sense of community.
+The **Wellbeing &ndash; balance and flexibility** dashboard uses a template that's populated by Microsoft Viva Insights data to help you get insights into employee wellbeing across your company. This analysis can help you uncover opportunities to improve focus, work-life balance, flexibility at work, and employee's sense of community.
 
-The report covers the following topics:
+The dashboard includes the following reports.
 
 * **Improve focus** &ndash; Do you have time to focus on your core priorities?
 * **Balance work and life** &ndash; Are you able to protect personal time?
@@ -28,19 +28,21 @@ The report covers the following topics:
 * **Take breaks** &ndash; Are you able to mindfully disconnect?
 * **Stay connected** &ndash; Are you part of a community at work?
 
-Each page includes a Why this matters flyout that explains the business implication of the topic and best practices or recommended actions to improve employee wellbeing.
+![Power BI Wellbeing template.](../Images/WpA/Tutorials/wellbeing-summary.png)
 
-To populate the dashboard in PowerBI, you must set up and successfully run the predefined Employee wellbeing query and Hourly collaboration query in Viva Insights.
+Each report includes a **Why this matters** section that explains the business implications, best practices, and recommended actions to help maintain or improve employee wellbeing.
 
-After you successfully run these queries, you can download the template from the Employee wellbeing query on the Results page. After you download the template, you can then connect the query data from Viva Insights to the dashboard in PowerBI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Wellbeing - balance and flexibility** and **Hourly collaboration** query in the Query designer.
+
+After you successfully run these queries, you can download the template for the **Wellbeing - balance and flexibility** query on the **Results** page. After you download the template, you can then connect the query data from Viva Insights to the dashboard in Power BI.
 
 ## Demonstration
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiM2ZiY2Y4M2YtMTMyNi00NWY1LWEyMjctYTY2OTdlOWQzNDhhIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSectionbbd7dee40bcdeee460e6" frameborder="0" allowFullScreen="true"></iframe>
+<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzhjNmE0NWMtYWMwYi00N2EzLWE1YjUtY2FhNzc1MDE0OTc3IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true " frameborder="0" allowFullScreen="true"></iframe>
 
-To find the template for the Employee wellbeing report, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the report](#set-up-the-report).
+The template for the Wellbeing dashboard is on the Results page in [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). For complete steps, see [Set up the report](#set-up-the-report).
 
 ## Prerequisites  
 
@@ -54,12 +56,11 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 >[!Note]
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Viva Insights](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [Workplace Analytics with Viva Insights](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 
-2. In **Create** > **Other templates**, select **Employee wellbeing** to see the required setup steps, and then in step 2, select **Set up**.
+2. In **Create** > **Other templates**, select **Wellbeing - balance and flexibility** to see the required setup steps, and then in step 2, select **Set up**.
 
-<!--  UPDATE THIS IMAGE -->
-   ![Business continuity template.](../Images/WpA/Tutorials/bc-setup-step2.png)
+   ![Wellbeing template.](../Images/WpA/Tutorials/wellbeing-setup.png)
 
 3. When prompted, confirm the following settings:
 
@@ -69,52 +70,37 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Auto-refresh** &ndash; Keep this setting disabled by default. Turn it on only if you plan to track indicators on a weekly basis.
    * **Meeting exclusions** &ndash; Select the preferred rule for your tenant
 
-<!-- Insert screenshot of Employee wellbeing query content -->
-
   >[!Important]
   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
- 4. For **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
+4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
 
-4. For **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
+5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
 
    >[!Important]
    >If you remove the required, preselected Organizational data attributes, you might disable one or more Power BI charts.
 
-5. Select any additional attributes (columns) that you want to include in the reports.
-6. Select **Run** to run the query, which might take a few minutes to complete.
-7. When prompted, return to Query designer, and then repeat  **Steps 3-7** for the **Hourly collaboration** query, which requires the same selections as for Employee wellbeing.
+6. Select any additional attributes (columns) that you want to include in the reports.
+7. Select **Run** to run the query, which might take a few minutes to complete.
+8. When prompted, return to Query designer, and then repeat  **Steps 3-7** for the **Hourly collaboration** query, which requires the same selections as for the Wellbeing query.
 
    >[!Important]
    >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-9. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Employee wellbeing** query results, select **PBI template**, and then select **OK** to download the template.
-
-<!-- VERIFY THIS SCREENSHOT OF QUERY RESULTS-->
-
-   ![template download.](../Images/WpA/Tutorials/pbi-template-download.png)
-
-10. Open the downloaded **Employee wellbeing** template.
+9. When prompted, continue to **Results**. After both queries successfully run, select the **Download** icon for the **Wellbeing - balance and flexibility** query results, select **PBI template**, and then select **OK** to download the template.
+10. Open the downloaded **Wellbeing - balance and flexibility** template.
 11. If prompted to select a program, select **Power BI**.
 12. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
-    a. In the Viva Insights **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
-    
-    b. In Power BI, paste each copied link into its respective field.
-     
-    c. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
-     
-    d. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
+    1. In the Viva Insights **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    2. In Power BI, paste each copied link into its respective field.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
+    4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-<!-- VERIFY THIS SCREENSHOT OF THE TEMPLATE POP-UP WINDOW -->
+  ![Query URLs for Power BI.](../Images/WpA/Tutorials/wellbeing-odata.png)
 
-  ![Query URLs for Power BI.](../Images/WpA/Tutorials/odata-link-2.png)
-
-13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data: You are done and can skip the following steps. If not, proceed to the next step.
-
+13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data: You are done and can skip the following steps. If not, proceed to the next step.
 14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account** and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
-
-<!-- VERIFY THIS SCREENSHOT OF THE CREDENTIAL WINDOW -->
 
    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
@@ -125,32 +111,29 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 16. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
-<!-- INCLUDE THE FOLLOWING TIP? -->
-
->[!Tip]
->If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../Tutorials/Query-auto-refresh.md#stop-auto-refresh) for details.
-
 ## Report settings
 
-After the Employee wellbeing report is set up and populated with Viva Insights data, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
+After the Wellbeing - balance and flexibility report is set up and populated with Viva Insights data, as a first step to viewing data in the dashboard, view and set the following parameters in **Settings**. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
-<!-- (Insert screenshot of intro page settings)
-
-(Insert screenshot of content page settings)
--->
+![Power BI Wellbeing settings.](../Images/WpA/Tutorials/wellbeing-settings.png)
 
 * **Select the time period to measure** &ndash; This is the time period that you want to analyze.
 * **Select an organizational attribute to view the report by** &ndash; The primary "group-by" attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
-* **Select optional filters to exclude employee groups** &ndash; To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week included in the current time period.
-* **Exclude weeks marked with a holiday indicator** &ndash; You can check the box to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
-* **Exclude non-knowledge workers** &ndash; You can check the box to exclude employees who spent a weekly average of less than five hours in meetings, email, instant messages, and calls because they are likely non-knowledge workers or they do not use Outlook or Teams.
-After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze. 
+* **Select optional filters to exclude employee groups** &ndash; To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will represent a reduced number. Measured employees are the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week that's included in the current time period.
+* **Exclude weeks marked with a holiday indicator** &ndash; Select to exclude unusually low collaboration weeks based on individual collaboration patterns. These low collaboration weeks usually occur when employees are taking time off from work.
+* **Exclude non-knowledge workers** &ndash; Select to exclude employees who spent a weekly average of less than five hours in meetings, email, instant messages, and calls because they are unlikely knowledge workers or they do not use Outlook or Teams.
 
-<!-- Add a paragraph about the standard time settings -->
+After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
+
+### Customize working hours
+
+For Embrace flexibility and Take breaks, you can customize the working hours for your organization as a baseline. Select **Customize working hours**, and then select the standard start time and end time. Employees’ collaboration patterns will then be compared with these time settings.
+
+![Power BI Wellbeing customize working hours option.](../Images/WpA/Tutorials/wellbeing-customize.png)
 
 ## About the report
 
-The Employee wellbeing report includes the following report pages that help you identify your employees' wellbeing across the company.
+The Wellbeing - balance and flexibility report includes the following report pages that help you identify your employees' wellbeing across the company.
 
 * **Improve focus** &ndash; Shows the average daily collaboration hours for each employee by organization as compared to focus hours. This highlights how an employee's collaboration load is impacting their focus time.
 * **Balance work and life** &ndash; Shows the average daily after-hours collaboration for each employee, the distribution of employees by their after-hours collaboration, and percentage of employees that were active during the weekends at least once every four weeks. Understanding employees' after-hours and weekend work behaviors can uncover opportunities to improve their work-life balance.

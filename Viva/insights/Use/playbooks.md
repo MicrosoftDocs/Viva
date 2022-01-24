@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Workplace Analytics playbooks
+# Viva Insights playbooks
 
 Maximize the power of Microsoft Viva Insights in Workplace Analytics to gain insights into how your organization collaborates and how to improve teamwork across your organization.
 
