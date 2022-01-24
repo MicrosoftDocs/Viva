@@ -5,7 +5,7 @@ ms.author: chucked
 manager: pamgreen
 ms.reviewer: anfra; cjtan
 audience: admin
-ms.date: 10/25/2021
+ms.date: 
 ms.topic: article
 ms.collection: m365initiative-viva-topics
 ms.service: viva 
@@ -13,7 +13,6 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 localization_priority: medium
-ROBOTS: NOINDEX, NOFOLLOW
 description: Learn about how to find topics in Viva Topics by using SharePoint taxonomy.
 ---
 
