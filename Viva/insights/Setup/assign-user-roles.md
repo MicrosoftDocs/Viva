@@ -17,7 +17,7 @@ audience: Admin
 
 # Assign roles for Viva Insights
 
-People can work with Microsoft Viva Insights only after they've been assigned a role. See [User roles](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following when assigning roles:
+People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following when assigning roles:
 
 * [Assign Viva Insights roles](#assign-viva-insights-roles)
 * [Assign Workplace Analytics roles](#assign-workplace-analytics-roles)
@@ -38,7 +38,7 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 ## Assign Workplace Analytics roles
 
-**Owner** - Azure Active Directory [Enterprise App Administrator](/azure/active-directory/roles/permissions-reference)
+**Owner** - Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator)
 
 1. To assign roles for Workplace Analytics, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise applications**:
@@ -94,6 +94,12 @@ To check the current role assignments for a person, see [Verify role assignments
 
 You can also assign roles to groups, which means that you are assigning access permissions associated with that role to the group. Any people who are assigned to that group automatically receive the same permissions.
 
+### Viva Insights groups
+
+To assign Viva Insights roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Viva Insights roles](#assign-viva-insights-roles). In that process, when prompted to select a name, select a group name instead, and then assign a role to the selected group. For more details, see [Manage a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/manage-groups).
+
+### Workplace Analytics groups
+
 >[!Note]
 >You can assign Workplace Analytics roles to Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups).
 
@@ -125,7 +131,7 @@ However, in a larger company where the number of people required for the same ro
 
 ## Related topics
 
-* [User roles](../use/user-roles.md)
+* [Roles in Viva Insights](../use/user-roles.md)
 * [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements](../setup/environment-requirements.md)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
