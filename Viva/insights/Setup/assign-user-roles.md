@@ -1,7 +1,7 @@
 ---
 
 title: Assign roles for Microsoft Viva Insights
-description: How to assign roles for Microsoft Viva Insights
+description: How to assign user roles for Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,9 +15,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Assign roles for Viva Insights
+# Assign user roles for Viva Insights
 
-People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following when assigning roles:
+People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following for assigning roles:
 
 * [Assign Viva Insights roles](#assign-viva-insights-roles)
 * [Assign Workplace Analytics roles](#assign-workplace-analytics-roles)
