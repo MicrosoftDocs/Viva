@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Boost employee engagement with Microsoft Viva Insights
 description: Learn how to use insights data to analyze and improve employee engagement
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null
 ms.prod: wpa
@@ -13,7 +13,7 @@ audience: Admin
 
 # Boost employee engagement insights
 
-*This experience is only available through private preview at this time.*
+*This experience is only available through private preview.*
 
 Employees with high job satisfaction and a strong sense of belonging are more likely to produce high-quality work, identify business opportunities, and remain at the organization.
 
@@ -47,8 +47,6 @@ The following defines the organizational data shown in the visual behavioral ins
 |Prevent employee burnout | Distribution of weekly after-hours collaboration |Percentage of employees based on their weekly [after-hours collaboration](metrics.md#after-hours-collaboration-define). They are divided into employees who spend less than one hour collaborating after-hours, employees who spend between one to five hours collaborating after-hours, and employees who spend more than five hours collaborating after-hours. These percentages are calculated weekly and averaged over the entire time period. |
 |Drive employee empowerment |Distribution of manager-employee coaching relationships |Uses the average time employees spend with [their managers in 1:1s](metrics.md#meeting-hours-with-manager-1-1-define) and the percentage of [meeting hours with manager in attendance](metrics.md#meeting-hours-with-manager-define), the different manager-employee coaching relationships are grouped by employee time percentages: <ul><li>**Coached** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend less than 30 percent of their meeting hours with their managers in attendance.  </li><li>**Co-attended** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Micromanaged** - Spend more than 15 minutes in 1:1s (weekly average based on the monthly calculation) and those who spend more than 30 percent of their meeting hours with their managers in attendance. </li><li>**Under-coached** - Spend less than 15 minutes in 1:1s (weekly average based on the monthly calculation) and employees who have less than 30 percent of their meeting hours with their managers in attendance.</li> |
 
-<!-- SEPARATING THIS ROW FROM THE TABLE TO AVOID BUILD ERRORS: |Encourage team cohesion |Cohesion within teams |An [organizational network graph](https://docs.microsoft.com/workplace-analytics/use/insight-ona-measures) that shows the number of teams with strong cohesion and those who are not very cohesive based on the average monthly collaboration activity within the team’s network. This uses [collaboration hours and other related metrics](metrics.md). |-->
-
 ## Take action
 
 In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization.
@@ -67,9 +65,9 @@ This section describes why each of the following behaviors matter and the top be
 
 Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
 
-One of the top best practices for promoting coaching and development is to require that managers schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
+One of the top best practices for promoting coaching and development is to require that managers schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](/viva/insights/personal/use/use-the-insights#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
 
-For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](https://docs.microsoft.com/workplace-analytics/tutorials/gm-coaching).
+For more best practices and how to develop a 1:1 conversation series, see [Best practices for manager coaching](/viva/insights/tutorials/gm-coaching).
 
 ### Prevent employee burnout
 
@@ -77,24 +75,10 @@ Pressure to "always be on" and long hours can lead to employee burnout. The amou
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
-* Use [MyAnalytics wellbeing data](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/wellbeing) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
-* Use [Inline suggestions in Outlook](https://docs.microsoft.com/workplace-analytics/MyAnalytics/Use/mya-notifications#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [MyAnalytics wellbeing data](/viva/insights/personal/use/wellbeing) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
+* Use [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 
-For more best practices and how to define and share working hours, see [Best practices for wellbeing](https://docs.microsoft.com/workplace-analytics/tutorials/gm-wellbeing).
-<!--
-### Encourage team cohesion
-
-Employees who maintain strong connections within their team feel a sense of organizational belonging.
-
-According to the [Horizontal collaboration and cross-silo leadership](https://insights.office.com/networks/cross-silo-leadership-horizontal-collaboration/) article, it's important to develop and deploy cultural "brokers" to "promote cross-boundary work in one of two ways: by acting as a bridge or as an adhesive."
-
-Ways to support team cohesion:
-
-* Ask employees to use [MyAnalytics network features](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network) to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
-* Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
-* Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
-
-For more best practices and how to open your network to your teams, see [Best practices for manager connectedness](https://docs.microsoft.com/workplace-analytics/tutorials/gm-connectedness.-->
+For more best practices and how to define and share working hours, see [Best practices for wellbeing](/viva/insights/tutorials/gm-wellbeing).
 
 ### Drive employee empowerment
 
@@ -103,6 +87,6 @@ Cultivating autonomy and development are essential for employee engagement. By e
 [How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that the "key to improving individual productivity is to eliminate or delegate unimportant tasks and replace them with value-added ones." Ways to empower employees:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
-* Use [Manager insights in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/manager-insights/introduction) to help identify ways to support team behavior.
+* Use [Manager insights in Workplace Analytics](/viva/insights/manager-insights/introduction) to help identify ways to support team behavior.
 
-For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](https://docs.microsoft.com/workplace-analytics/tutorials/gm-meetings).
+For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).

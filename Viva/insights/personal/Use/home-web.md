@@ -3,10 +3,14 @@
 title: Viva Insights Home page
 description: Use the new Microsoft Viva Insights cloud-based Home page
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

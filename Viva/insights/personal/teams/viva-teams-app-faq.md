@@ -3,7 +3,7 @@
 title: FAQ for Viva Insights in Teams
 description: Personal insights FAQ for Microsoft Viva Insights in Teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

@@ -2,13 +2,17 @@
 
 title: Network person-to-person queries 
 description: Describes how to use Network person-to-person queries in Workplace Analytics to determine the metrics that measure ties between individuals in your organization
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 manager: scott.ruble
 audience: Admin
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 
 # Network person-to-person queries

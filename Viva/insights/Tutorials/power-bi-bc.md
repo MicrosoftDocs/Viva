@@ -3,10 +3,14 @@
 title: Business continuity dashboard
 description: Use the Business continuity dashboard to visualize predefined query data from Workplace Analytics in Power BI
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

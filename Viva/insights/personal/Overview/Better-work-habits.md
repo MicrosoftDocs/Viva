@@ -3,7 +3,7 @@
 title: Improve your work patterns with personal productivity insights in MyAnalytics
 description: How to use Viva Insights to improve your work patterns
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

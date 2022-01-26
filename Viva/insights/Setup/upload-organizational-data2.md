@@ -2,13 +2,14 @@
 title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -89,7 +90,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
         ![Custom fields for editing employees.](../images/wpa/setup/upload-edit-data-custom.png)
 
-9. In **Submit for validation**, select the check box for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
+9. In **Submit for validation**, select the checkbox for **I confirm that these mappings are correct**, and then select **Submit** to start the upload and validation process.
 10. You’ll then see a message while the data is being validated and then a new message when it is successful or not. The following can cause a warning message:
 
     * **Omitted columns** - If replacing an existing upload and while mapping fields, you chose to omit one or more columns that are present in the existing upload data schema, and at least one auto-refresh query depends on those (omitted) columns.

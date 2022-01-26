@@ -6,8 +6,11 @@ manager: pamgreen
 audience: enabler, admin
 ms.topic: article
 ms.custom: intro-get-started
-ms.service: o365-administration
-search.appverid: 
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150   
 ms.localizationpriority:  medium
 description: Learn about new ways to discover and explore information in Microsoft Viva Topics.
 ---

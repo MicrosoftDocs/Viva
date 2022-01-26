@@ -2,13 +2,14 @@
 title: Assigning licenses overview
 description: Assign Microsoft Viva Insights licenses for population in scope for analysis
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

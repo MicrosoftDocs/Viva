@@ -2,11 +2,15 @@
 
 title: MyAnalytics Individual Adoption --Get started
 description: MyAnalytics Individual Adoption by Kate Nowak --Get started section
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

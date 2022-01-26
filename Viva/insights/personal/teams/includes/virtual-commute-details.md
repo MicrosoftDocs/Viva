@@ -4,8 +4,8 @@
 
 title: Virtual commute settings on the Settings page
 description: Notes about virtual commute settings  
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: wpa

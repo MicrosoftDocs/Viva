@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Set up Viva Insights
 description: Steps to set up Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null
 ms.prod: wpa

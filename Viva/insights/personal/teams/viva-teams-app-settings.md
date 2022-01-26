@@ -2,10 +2,13 @@
 
 title: Configure Viva Insights
 description: Learn how to configure the settings for the Microsoft Viva Insights app
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
+ms.collection: 
+- viva-insights-manager
+- viva-insights-leader
 ms.prod: Mya
 manager: scott.ruble
 audience: Admin

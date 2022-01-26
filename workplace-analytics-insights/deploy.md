@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Deploy steps for Viva insights
 description: Deploy steps for Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
 ms.prod: wpa

@@ -2,14 +2,15 @@
 
 title: Privacy settings and exclusions for Workplace Analytics
 description: Describes the privacy settings and exclusions in Workplace Analytics that administrators can set up and edit for your organization
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -41,7 +42,7 @@ If you do change privacy settings, your changes take effect after Microsoft 365 
 
 ## Privacy video
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowfullscreen=""></iframe>
 
 ## Minimum group size
 
@@ -55,25 +56,6 @@ For example, the columns on the left in the following graphic shows chart data f
 
 >[!Note]
 >The minimum-group-size rule applies to charts that are derived from HR data, which is information about your organization, such as managers at a specific level or employees in a particular city.
-
-### Histogram charts are an exception
-
-For histogram charts, the minimum-group-size rule is applied differently, in the following ways:
-
-1. If the filter group is too small, no histogram appears.
-
-   If the filter group that the histogram uses for its data is below the minimum group size, Workplace Analytics does not display the histogram at all.
-
-2. If the bin population is too small, the bin still appears.
-
-   In histograms, the x-axis consists of bins (rectangles) that are based on average metric values, and the y-axis determines the number of people whose average metric value puts them in that bin. *These values do not reflect organizational (HR) data.* So the histogram can still show data for a bin even if it contains fewer people than the minimum-group setting. Histogram charts can safely show this data because the data is based on calculations from observed behavior, *not from HR data*.
-
-   Even if a histogram bin has data for only one person, it can still show that data. You cannot single out the person because you don't know which HR group they belong to. (In other charts, such as column charts, a person in a group below the threshold might be identifiable, but in a histogram the HR group to which people belong is the larger filter group.) You also cannot determine the precise metric value of specific people because they are in a bin with a minimum 0.5-hour range.
-  
-   You can see histogram charts in the following areas of Workplace Analytics:
-
-   * In [Management and coaching](../use/explore-metrics-management-and-coaching.md)
-   * In [Plans](../Tutorials/solutionsv2-intro.md), on the **Identify** and **Track** pages
 
 ## Hash subject lines
 
@@ -141,7 +123,7 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 3. In **Exclude domains**, type one or more domains to exclude.
 4. In **Exclude email addresses**, type one or more email addresses to exclude.
 5. In **Exclude terms from subject lines**, type one or more terms or keywords to exclude.
-6. Carefully confirm all settings, and then select **I confirm that all privacy settings are correct**. Settings can be finalized only when you select this check box.
+6. Carefully confirm all settings, and then select **I confirm that all privacy settings are correct**. Settings can be finalized only when you select this checkbox.
 7. At the top right of the page, select **Save**.
 
 >[!Important]

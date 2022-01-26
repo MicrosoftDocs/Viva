@@ -4,12 +4,16 @@
 
 title: System default fields table
 description: Tables that are used for mapping the system default fields.   
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.date: 03/12/2019
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 
 

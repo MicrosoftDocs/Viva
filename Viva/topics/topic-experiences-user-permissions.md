@@ -6,8 +6,11 @@ manager: serdars
 ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
-ms.service: o365-administration
-search.appverid: MET150
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Learn how to administer topic permissions in Microsoft Viva Topics.
 ---

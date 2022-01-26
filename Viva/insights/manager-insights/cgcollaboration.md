@@ -3,10 +3,14 @@
 title: Best practices for collaboration across groups
 description: Workplace Analytics shares best practices with managers about the importance of cross-group collaboration
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-manager 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

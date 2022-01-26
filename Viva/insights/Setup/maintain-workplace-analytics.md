@@ -3,11 +3,14 @@
 title: Viva Insights maintenance
 description: Admin tasks for maintaining Microsoft Viva Insights data
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Insights glossary
 description: Describes common terms and concepts used in Microsoft 365 Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 localization_priority: none 
 ms.prod: wpa

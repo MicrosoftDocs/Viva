@@ -1,11 +1,15 @@
 ---
 title: Seller success plan in Workplace Analytics 
 description: Describes the seller success plan and how to create one 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -20,23 +24,20 @@ This plan displays insights to help salespeople optimally use their limited time
 
 ## Create a seller success plan
 
-**Role:** analyst or limited analyst
+**Role** - Analyst or Limited analyst
 
-**Prerequisite:** To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
+**Prerequisite** - To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
 
 Complete the following tasks to create and run a seller success plan:
 
-* [Create the plan](#create-the-plan): Take the initial steps to create a plan.  
-* [Select participants](#select-participants): Select participants for the plan either by uploading a .csv file or by using filters.
-* [Start the plan](#start-the-plan): After your list of participants has been validated, start the plan for them.
+* [Create the plan](#create-the-plan) - Take the initial steps to create a plan.  
+* [Select participants](#select-participants) - Select participants for the plan either by uploading a .csv file or by using filters.
+* [Start the plan](#start-the-plan) - After the list of participants is validated, start the plan for them.
 
-### Create the plan 
+### Create the plan
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account. 
-
-2. In the left navigation pane, select **Plans**. 
-
-3. On the **Plans** page, under **Available plans**, on the **Seller success** card, select **Start now**. 
+1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
+2. Select **Plans**, and then for **Seller success**, select **Start now**.
 
     ![Plans main page.](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
 
@@ -44,9 +45,8 @@ Complete the following tasks to create and run a seller success plan:
 
     ![New Seller success plan.](../images/wpa/tutorials/set-up-new-seller-plan.png)
 
-4. (Optional) Change the plan name from the default name. 
-
-5. Go to [Select participants](#select-participants). 
+3. Optionally, change the plan name from the default name.
+4. Go to [Select participants](#select-participants).
 
 ### Select participants
 
@@ -57,21 +57,20 @@ If you have a particular group in mind, you can identify the group in either of 
 
 #### Upload a .csv file
 
-**Prerequisite:** A .csv file that lists the employees you want to participate in the plan. The format of this file is simple: a list of email addresses in a single column. To obtain this file, you might have exported it from an HR system. 
+A **prerequisite** is to get a .csv file that lists the employees you want to participate in the plan. The format of this file is: a list of email addresses in a single column. To get this file, you might need it exported from an HR system by your HR manager or admin.
 
-1. Obtain the .csv file to upload.
+1. Get the .csv file (the prerequisite to this step).
 2. Select **Upload .csv file**.
-3. Select **Browse**, select a .csv file, and then select **Open**. 
+3. Select **Browse**, select a .csv file, and then select **Open**.
 4. After the file has been uploaded, select **Validate**.
 
-    Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation). 
+    Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
 
 5. After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan).
 
 #### Use filters
 
 1. Select **Use filters**.
-
 2. Add filters to define your group. For example, select **Organization**, **Equals**, and **Sales** in the fields to select the people who work in sales as your group. 
 
     Optionally, add more function types to expand this group, or add more filtering criteria to refine the selection: 
@@ -87,7 +86,6 @@ If you have a particular group in mind, you can identify the group in either of 
 ### Start the plan
 
 1. (Optional) Change the dates of the **Plan duration**. Do this by editing the start date of the plan.
-
 2. Select **Create plan**. This starts the plan for the plan participants. For an overview of their experience, see [Participant experience](#participant-experience). 
 
 ## Task notes
@@ -105,7 +103,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 ## Participant experience
 
-**Role:** No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.
+**Role** - No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.
 
 After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this information can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan.
 
@@ -116,8 +114,8 @@ This email can contain any of several descriptive cards, each of which offers ta
 * [Time with customers](#time-with-customers)
 * [Depth of engagement](#depth-of-engagement)
 * [Manager interactions](#manager-interactions)
-* [Explore](#explore)
 
+<!--* [Explore](#explore)-->
 <!-- THIS ONE IS IN SECOND PERSON:
 
 ## Seller insights monthly email 
@@ -168,12 +166,12 @@ On this card, selecting **Explore** opens the **Network** page of the MyAnalytic
 Spending time with and getting attention from your manager is important for the success of salespeople. The chart on the _Manager interactions_ card displays the time the salesperson spent with their manager in meetings with particular customers.  
 
 ![Manager interactions.](../images/wpa/tutorials/manager-interactions-ss.png)
- 
-### Explore
 
-The final card in the digest is the Explore card. On this card, select **Explore** to open the MyAnalytics Network dashboard, which shows how many people you actively connected with in the last month.
+<!--### Explore
 
-![Explore card.](../images/wpa/tutorials/explore-card-ss.png)
+The final card in the digest is the Explore card. On this card, select **Explore** to open the Network page, which shows how many people you actively connected with in the last month.
+
+![Explore card.](../images/wpa/tutorials/explore-card-ss.png)-->
 
 ## Seller success Q & A
 
@@ -181,26 +179,26 @@ The final card in the digest is the Explore card. On this card, select **Explore
 
 **Q1.** As a participant in a Seller success plan, what guidance will I receive to help me during my participation in the plan?  
 
-**A1.** After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month. For more information, see [Participant experience](#participant-experience).
+A1. After the plan starts, you will regularly receive a tailored email. This mail starts out by summarizing how you spent your time in internal and external collaboration during the preceding month. For more information, see [Participant experience](#participant-experience).
 
-**Q2.**  Why am I receiving this email? 
+**Q2.**  Why am I receiving this email?
 
-**A2.** You receive the monthly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
+A2. You receive the monthly "Seller insights" email so that you can visualize aspects of your sales-related behavior. The insights and suggestions in this email, which are based on recent collaboration with your customers and partners, can help you make course corrections with the goal of helping your sales productivity.
  
-**Q3.** What am I supposed to do with the information in this email?
+**Q3.** What can I do with the information in this email?
 
-**A3.** It depends on the particular insight. For example, you can use the _Time with customers_ data to make large or small shifts in the amount of time you spend communicating with particular customers. 
+A3. It depends on the particular insight. For example, you can use the _Time with customers_ data to make large or small shifts in the amount of time you spend communicating with particular customers.
 <!-- You can use the data in the _Leverage internal networks_ card to adjust the time that you spend communicating with particular internal groups&mdash;such as solution specialists&mdash;to a more appropriate level.
 -->
 
 **Q4.** This email contains charts that describe my workplace behavior. Where did this data come from?
 
-**A4.** On a weekly basis, Workplace Analytics receives from Microsoft 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
+A4. On a weekly basis, Workplace Analytics receives from Microsoft 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
 
 **Q5.** Who else can see this data about me?
 
-**A5.** The data that you see in the seller insights email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email itself, this data is for your eyes only.
+A5. The data that you see in the seller insights email is your own data and only you have access to it. Your manager, your admin, and your teammates cannot see it. As is stated at the top of the email itself, this data is for your eyes only.
 
 **Q6.** Could this data be used for other purposes?
 
-**A6.** There is no mechanism or option that allows anyone but you to access the personalized information that you receive in this email, unless you purposefully and independently share that information. The data and insights provided by this feature cannot be used for automated decision making or for profiling.
+A6. There is no mechanism or option that allows anyone but you to access your own personalized information that you receive within the email, unless you purposefully and independently share that information. The data and insights provided by this feature cannot be used for automated decision making or for profiling.

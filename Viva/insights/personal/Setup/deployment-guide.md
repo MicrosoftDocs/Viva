@@ -3,7 +3,7 @@
 title: Viva Insights deployment guide
 description: Guide for admins on deploying Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -308,7 +308,7 @@ If users have questions about using Viva Insights, point them to the published [
   * [Personal dashboard](./../use/dashboard-2.md)
   * [Viva Insights Outlook add-in](./../use/add-in.md)
   * [Briefing emails](../Briefing/be-overview.md)
-  * [Digests](./../use/email-digest-2.md)
+  * [Digests](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
 
 <!--#### Training videos for Viva Insights

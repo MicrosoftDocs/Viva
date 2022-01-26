@@ -1,16 +1,17 @@
 ---
-# Metadata Sample
-# required metadata
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Add top collaborators in MyAnalytics
 description: Use this card to add a "top collaborator" to your Important people list in MyAnalytics 
-author: paul9955
-ms.author: v-pausch
-ms.date: 04/08/2019
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
