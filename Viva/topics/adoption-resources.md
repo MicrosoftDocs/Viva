@@ -32,5 +32,5 @@ Use these downloadable resources and other information to spark ideas about how 
 |Name     |Description  |
 |---------|---------|
 |[Adoption blog](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/the-journey-to-viva-topics-adoption-success-intro/ba-p/2976552) |Read about how organizations are using Viva Topics to drive a knowledge-centric culture, including learnings, insights, and best practices. |
-|[Viva Topics FAQ](https://resources.techcommunity.microsoft.com/viva-topics/faq/) |Find answers to frequently asked questions to help you understand more about Viva Topics.    |
+|[Viva Topics FAQ](faq-topics.md) |Find answers to frequently asked questions to help you understand more about Viva Topics.    |
 
