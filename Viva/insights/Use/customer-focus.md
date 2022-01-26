@@ -3,10 +3,14 @@
 title: Increase customer focus with Workplace Analytics
 description: Learn how to use Workplace Analytics data to analyze and increase customer focus
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-leader 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

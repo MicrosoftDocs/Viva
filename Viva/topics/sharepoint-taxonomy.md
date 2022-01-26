@@ -5,22 +5,18 @@ ms.author: chucked
 manager: pamgreen
 ms.reviewer: anfra; cjtan
 audience: admin
-ms.date: 10/25/2021
+ms.date: 
 ms.topic: article
-ms.prod: microsoft-365-enterprise
-search.appverid: 
-ms.collection: 
-    - enabler-strategic 
-    - m365initiative-viva-topics
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 localization_priority: medium
-ROBOTS: NOINDEX, NOFOLLOW
 description: Learn about how to find topics in Viva Topics by using SharePoint taxonomy.
 ---
 
 # Use SharePoint taxonomy terms to create topics in Microsoft Viva Topics
-
-> [!Note] 
-> This feature is currently available only to participants that are in the early adopter program. This feature will be available to users worldwide at a later date.
 
 You can use SharePoint taxonomy terms to help guide artificial intelligence (AI) to create topics in Viva Topics. The SharePoint taxonomy service provides global terms that are available to all sites. Users can create topics that correspond with concepts that are represented as terms. 
 

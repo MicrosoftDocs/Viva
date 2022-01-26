@@ -3,10 +3,14 @@
 title: Consumption model for Viva Insights
 description: Learn about the consumption model for analyst usage of queries in Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -70,7 +74,7 @@ The steps below describe how to use the following interactive, embedded calculat
 
 In a consumption-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
 
-**Units consumed** = **A** * **B** * **C** * **D**
+**Units consumed** = **A** x **B** x **C** x **D**
 
 The usage formula consists of the following parts:
 
@@ -103,11 +107,11 @@ This is the cost of the price tier that is in use for a metric in the query. A q
 | 3    | Metrics with [CRM data](crm-queries.md) - External-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
 >[!Note]
->If you use metrics at multiple price tiers, a subtotal is calculated for each metric, and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
+>If you use metrics at multiple price tiers, a subtotal is calculated for each metric, and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** x **B** x **C** x **D** (for the metric on price tier 1) + **A** x **B** x **C** x **D** (for the metric on price tier 2)
 
 ### Population scope in usage calculations
 
-As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks).
+As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) x **B** (metrics) x **C** (price-tier cost) x **D** (weeks).
 
 The population scope (measured employees) for the different query types is as follows:
 

@@ -7,10 +7,14 @@ brand: workplace-analytics
 metadata:
   title: Manager insights documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Use these insights to discover how your team’s collaboration effectiveness and employee experience. # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.collection: viva-insights-manager 
+  ms.subservice: viva-insights 
+  search.appverid: 
+  - MET150 
   ms.topic: hub-page 
   author: madehmer 
-  ms.author: v-mideh 
+  ms.author: helayne 
   ms.date: 10/14/2020 #Required; mm/dd/yyyy format.
 
 highlightedContent:

@@ -1,8 +1,8 @@
 ---
 title: Meeting preparation card in MyAnalytics
 description: Describes how the Meeting prep card looks and works 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

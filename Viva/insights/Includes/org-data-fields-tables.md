@@ -2,11 +2,15 @@
 
 title: Descriptions of the custom fields table and columns in all of the fields tables
 description: Information to help you map fields by using the fields tables.   
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: wpa
+ms.collection: m365initiative-viva-insights 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 ---
 
 ### Custom fields table

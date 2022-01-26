@@ -3,7 +3,7 @@
 title: Settings for the Briefing email
 description: Learn how to change your personal settings for the Briefing email from Microsoft Viva
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya

@@ -3,7 +3,7 @@
 title: Viva Insights service description
 description: Microsoft Viva Insights features, distributions, privacy, and prerequisites
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.prod: Mya
@@ -28,7 +28,7 @@ Viva Insights consists of the following elements.
 * [Dashboard](../use/dashboard-2.md) - Helps you reflect on your work patterns such as time that you have available to focus, your meeting and email practices, and your network.
 * [Viva Insights Outlook add-in](../use/add-in.md) - Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
 * [Briefing emails](../Briefing/be-overview.md) - Within two hours of your workday, you'll get an email about any relevant items to help you stay in control of your calendar and better prepare for the day ahead.
-* [Digests](../use/email-digest-2.md) - Gives you key highlights about your work patterns in a weekly digest in your Outlook inbox.
+* [Digests](../use/email-digests-3.md) - Gives you key highlights about your work patterns in a weekly digest in your Outlook inbox.
 * [Inline suggestions](../use/mya-notifications.md) - These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
 
 ## Viva Insights distributions

@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: The My organization page in Viva Insights
 description: About Microsoft Viva Insights to learn how your organization gets work done
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
 ms.prod: wpa

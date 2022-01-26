@@ -3,13 +3,14 @@
 title: Prepare organizational data in Workplace Analytics
 description: How to prepare data from your organization to upload and use in Workplace Analytics 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
@@ -40,7 +41,7 @@ Workplace Analytics automatically collects collaboration data from Microsoft 365
 
 ### Video: Organizational data provides context
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/321146161" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/321146161" frameborder="0" allowfullscreen=""> </iframe>
 
 ## Identify trends that you want to analyze
 
@@ -93,7 +94,7 @@ The following video describes which attributes are required and optional in your
 
 ### Video: What to include in the upload
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/323318072" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/323318072" frameborder="0" allowfullscreen=""> </iframe>
 
 ### Which employees to include
 
@@ -177,7 +178,7 @@ The following video describes how to structure your organizational data file, in
 
 ### Video: How to structure the organizational data file
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen=""> </iframe>
 
 ### Required attributes
 

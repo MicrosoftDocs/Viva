@@ -3,13 +3,17 @@
 title: Time zones for Viva Insights
 description: This article introduces the time-zone formats required in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection:
+- viva-insights-advanced
+- viva-insights-leader
+- viva-insights-manager  
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

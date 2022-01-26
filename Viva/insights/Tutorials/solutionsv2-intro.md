@@ -2,13 +2,17 @@
 
 title: Introduction to Workplace Analytics plans
 description: Introduction to Workplace Analytics plans
-author: paul9955
-ms.author: v-mideh
+author: madehmer
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
-ms.prod: wpa
 
 ---
 
@@ -18,7 +22,7 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans help
 
 1. Use Workplace Analytics to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 
-2. Set up 12-week plans for the identified groups. The members of the group experience the plan through [MyAnalytics](../personal/mya-landing-page.md).
+2. Set up 12-week plans for the identified groups. The members of the group experience the plan through the [MyAnalytics dashboard](../personal/use/dashboard-2.md).
 
 3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
@@ -36,12 +40,9 @@ For more information about real-world possibilities, see [Microsoft Workplace In
 Workplace Analytics currently offers plans of the following types:
 
 * [Teamwork improvement plans](teamwork-solution.md) have the goal of helping employees work better together.
+* [Seller success solution](seller-success.md) has the goal of helping sales people become more productive.
 
-<!-- UNCOMMENT THIS IF WE EVER RELEASE SELLER SUCCESS: 
- * [Seller success solution](seller-success.md) has the goal of helping sales people become more productive. 
--->
-
-## Creating and using Workplace Analytics plans
+## Creating and using plans
 
 See the following topics to learn how to create and track plans:
 
@@ -60,9 +61,7 @@ Confirm that your organization meets the following licensing prerequisites:
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
   * A [Workplace Analytics license](../setup/assign-licenses-to-population.md)
-  * A Viva Insights or MyAnalytics license in either one of the following [service plans](../personal/setup/configure.md):
-    * Viva Insights or MyAnalytics (Full)
-    * Viva Insights in Outlook
+  * A [MyAnalytics service plan](../personal/overview/plans-environments.md)
 
 >[!Note]
 >Managers get access to their team's data and plans in Workplace Analytics as set in [Manager settings](../use/manager-settings.md).
@@ -83,7 +82,7 @@ The Solution for teamwork playbook provides tips on how to best use Workplace An
 
 **Q1:** Why don't I see the **Plans** page?
 
-**A1:** You can see the **Plans** page only if you've been assigned the role of analyst, limited analyst or program manager.
+**A1:** You can see the **Plans** page only if you've been assigned the role of analyst, limited analyst, or program manager.
 
 **Q2:** What can people with the various Workplace Analytics roles do when they work with plans?
 
@@ -115,6 +114,6 @@ In **Leader and manager settings** > **Manager settings**, admins can also set a
 
 ## Related topics
 
-* [Plans: Walkthrough](solutionsv2-task.md)
-* [Plans: Participants](solutionsv2-participants.md)  
-* [Plans: Concepts](solutionsv2-conceptual.md)
+* [Plan walkthrough](solutionsv2-task.md)
+* [Plan participants' experience](solutionsv2-participants.md)  
+* [Plan concepts](solutionsv2-conceptual.md)

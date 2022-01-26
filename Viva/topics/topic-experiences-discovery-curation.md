@@ -6,11 +6,11 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.service: 
-ms.prod: microsoft-365-enterprise
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-topics
+ms.collection: m365initiative-viva-topics
+ms.service: viva 
+ms.subservice: viva-topics 
+search.appverid:
+    - MET150  
 ms.localizationpriority:  medium
 description: Overview of how topics are discovered in Viva Topics.
 ---

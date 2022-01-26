@@ -3,10 +3,16 @@
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
-ms.prod: Mya
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-personal
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---

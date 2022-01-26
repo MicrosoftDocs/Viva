@@ -3,13 +3,16 @@
 title: Setup for manager and leader insights
 description: Setup steps for manager and leader insights in Viva Insights in Teams
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-search.appverid:
-- MET150
-ms.prod: wpa
-ms.collection: M365-analytics
+ms.collection: 
+- viva-insights-manager
+- viva-insights-leader
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
 manager: scott.ruble
 audience: Admin
 ---
