@@ -1,6 +1,6 @@
 ---
 
-title: Assigned roles for Viva Insights
+title: Roles for Viva Insights
 description: Which roles get access to which Viva Insights features
 author: madehmer
 ms.author: helayne
