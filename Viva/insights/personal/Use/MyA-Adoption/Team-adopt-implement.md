@@ -1,6 +1,6 @@
 ---
 
-title: MyAnalytics Team Adoption --Implement
+title: MyAnalytics Team Adoption implementation
 description: MyAnalytics Team Adoption by Kate Nowak --Implement section
 author: madehmer
 ms.author: helayne
@@ -38,7 +38,7 @@ To learn how to demo MyAnalytics, watch the following video:
 
  -->
  
-Build your kickoff presentation based on the agenda and make sure to include the program purpose statement and team roles and responsibilities in the program overview. Post your kickoff presentation <!-- and the MyAnaltyics Product Demo video -->on your collaboration channel to allow participants to easily access <!--them-->it.
+Build your kickoff presentation based on the agenda and make sure to include the program purpose statement and team roles and responsibilities in the program overview. Post your kickoff presentation <!-- and the MyAnalytics Product Demo video -->on your collaboration channel to allow participants to easily access <!--them-->it.
 
 ## Goal setting
 
