@@ -51,7 +51,7 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 
 
 >[!NOTE] 
-> - Anyone in your organization's [Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) can be assigned as a translator. People assigned as translators will not automatically be given appropriate permissions. When someone without edit permissions to a site tries to access the site, they will be directed to a web page where they can request access.
+> - Anyone in your organization's [Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) can be assigned as a translator. People assigned as translators will not automatically be given appropriate permissions. When someone without edit permissions to a site tries to access the site, they will be directed to a web page where they can request access.
 > - You can add or remove languages from your site at any time by going back to this page.
 > - The default language of a site is set to the language chosen when the site is created. However, when English is among the supported languages, English is treated as the preferred language if the user's preferred language is not supported by the site. This is a known issue.
 
@@ -77,6 +77,19 @@ Translators manually translate copies of the Dashboard into the language(s) spec
 3.	To edit the name of the Dashboard, navigate to **Settings**, and then **Site contents**, and then find the translated Dashboard in **Site pages**. Hover over the Dashboard that you want to rename and select the ellipsies **(...)** and then select **Rename.**
 
 <image>
+
+
+## Email notifications
+Learn more about when and why the default Dashboard owner and assigned translators will receive emails when content is edited.
+
+Email notifications are batched in 30-minute increments as needed. For example, when the first email related to a page is sent, and an update is made to the default language page, the next notification email or any others that need to be sent, will be batched, and sent after 30 minutes.
+
+- When a translation Dashboard is created, an email is sent to the assigned translator(s) to request a translation. The email includes a Start translating button.
+<image>
+
+- When a translation Dashboard is published by a translator, an email is sent to the person who requested the translation.
+- When an update is made to the default language Dashboard and saved as a draft or is published, an email is sent to the translator to notify them that an update to the translation Dashboard may be required.
+
 
 
 ## More tasks for your multilingual Dashboard
@@ -122,20 +135,8 @@ Make changes as needed over time to the Dashboard and select **Save as draft** o
 When the default language Dashboard is updated, it must be republished. Then, the translator(s) for the translated Dashboard are notified in email that an update has been made so updates can be made to the individual translation pages. Translators will need to view the version history of the default Dashboard to see what content has changed.
 
 
-## Email notifications
-Learn more about when and why the default Dashboard owner and assigned translators will receive emails when content is edited.
-
-Email notifications are batched in 30-minute increments as needed. For example, when the first email related to a page is sent, and an update is made to the default language page, the next notification email or any others that need to be sent, will be batched, and sent after 30 minutes.
-
-- When a translation Dashboard is created, an email is sent to the assigned translator(s) to request a translation. The email includes a Start translating button.
-<image>
-
-- When a translation Dashboard is published by a translator, an email is sent to the person who requested the translation.
-- When an update is made to the default language Dashboard and saved as a draft or is published, an email is sent to the translator to notify them that an update to the translation Dashboard may be required.
-
-
 ## Translated Dashboards in the Dashboard web part
-The [Dashboard web part](https://docs.microsoft.com/sharepoint/use-dashboard-web-part-on-home-site) can be used once the Dashboard has been published. The Dashboard web part will display in the users preferred language (if different from the default language) if a translated Dashboard has been provided.
+The [Dashboard web part](/sharepoint/use-dashboard-web-part-on-home-site) can be used once the Dashboard has been published. The Dashboard web part will display in the users preferred language (if different from the default language) if a translated Dashboard has been provided.
 Note: 
  - Translation Dashboards must be approved and published before they will appear.
  - Some components of the 2nd party and 3rd party Dashboard cards (like the card name) may not be translatable. 
@@ -144,8 +145,8 @@ Note:
  ### More resources
 
 
-[Set up the Viva Connections experience in a specific language](https://docs.microsoft.com/sharepoint/viva-connections-language)
+[Set up the Viva Connections experience in a specific language](connections/viva-connections-language.md)
 
-[Create the Viva Connections Dashboard](https://docs.microsoft.com/sharepoint/create-dashboard)
+[Create the Viva Connections Dashboard](connections/create-dashboard.md)
 
 [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c)
