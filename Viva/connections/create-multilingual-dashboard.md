@@ -25,6 +25,8 @@ description: "Learn how to create a Viva Connections Dashboard in more than one 
 
 Create a Viva Connections Dashboard that can be viewed in multiple languages. Start by enabling the multilingual experience, select languages, and assign translators.  
 
+>[!NOTE] 
+> The option to create a multilingual Dashboard is currently available for Private Preview customers only. This feature will become generally avaiable in May 2022. 
 
 ## Step 1: Navigate to the Viva Connections Dashboard
 1.	Navigate to your organization’s home site.
@@ -43,6 +45,80 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 <image>
 
 3. Select **Save**.
+
+
+>[!NOTE] 
+> - Anyone in your organization's [Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) can be assigned as a translator. People assigned as translators will not automatically be given appropriate permissions. When someone without edit permissions to a site tries to access the site, they will be directed to a web page where they can request access.
+> - You can add or remove languages from your site at any time by going back to this page.
+> - The default language of a site is set to the language chosen when the site is created. However, when English is among the supported languages, English is treated as the preferred language if the user's preferred language is not supported by the site. This is a known issue.
+
+
+## Step 4: Create Dashboards in specific languages
+Translators manually translate copies of the Dashboard into the language(s) specified. When you select a language and assign a translator, a copy of the Dashboard is created, and translators are notified in an email that a translation is requested. The email includes a link to a copy of the Dashboard. An email notification will be sent to the person who requested the translation when its done. The translator will:
+
+1.	Select the **Start translating** button in the email.
+
+2.	Select **Edit** on the top right of the Dashboard and translate the content.
+
+3.	When the translation is done, select **Save as draft** (if you're not ready to make it visible to readers) or, if the Dashboard is ready to be visible to everyone who is using that language on the site, select **Publish**.
+
+
+>[!NOTE] 
+> Some components of 2nd and 3rd party Dashboard cards (for example, the card name) may not be translatable. 
+
+
+## Step 5: Add a translated Dashboard name and description
+
+1.	To edit the description, from the Dashboard, select **Dashboard settings** in the command bar.
+2.	**Edit** the Dashboard description.
+3.	To edit the name of the Dashboard, navigate to **Settings**, and then **Site contents**, and then find the translated Dashboard in **Site pages**. Hover over the Dashboard that you want to rename and select the ellipsies **(...)** and then select **Rename.**
+
+<image>
+
+
+## More tasks for your multilingual Dashboard
+After you’ve created Dashboards in additional languages, learn more about how to confirm which languages are available, update translated versions, and delete translations that are no longer needed. 
+
+### Confirm the languages the Dashboard can be viewed in
+The status of the translation of the Dashboard (draft saved, published, and so on) are shown in the Translation pane next to each language. To see the status:
+
+<image>
+ 
+1.	Go to the default Dashboard.
+2.	Select **Translation** at the top of the page.
+3.	In the Translation pane on the right, the status of each language is shown, as well as a link to view the Dashboard in that specific language.
+
+
+### Find a translated Dashboard
+You can use the language dropdown at the top of the page, the translation panel, or find the Dashboard in the Pages library.
+
+<image>
+
+To find it in the Pages library, do this:
+
+1.	Go to the Pages library for the home site.
+2.	Find the Dashboard you want to delete in the language folder adjacent to the default language page. The folder can be identified by its 2- or 4-letter language code. For example, the French folder will be identified as "fr."
+
+
+### Delete a version of the Dashboard for a specific language
+To delete a translated Dashboard, you must perform a few additional steps to break the association between the default language Dashboard and the deleted Dashboard.
+1.	Go to the **Pages library** for the Dashboard.
+2.	Find the version of the Dashboard you want to delete in the language folder adjacent to the default language page. The folder can be identified by it's 2- or 4-letter language code. For example, the French folder will be identified as "fr."
+3.	Select the Dashboard you want within the folder, and then select the ellipses (...) to the right of the selected page.
+4.	Select **Delete**.
+5.	After you've deleted the version of the Dashboard that’s no longer needed, go to the default language Dashboard, and select **Edit** at the top right. If you are not in edit mode, the rest of the steps will not work.
+6.	Select **Translation** at the top of the page.
+7.	In the Translation panel, you should see a message indicating that an association with the page has been removed.
+8.	**Republish** the default language Dashboard.
+
+
+### Update the Dashboard with new changes or edits
+Make changes as needed over time to the Dashboard and select **Save as draft** or **Republish**. Then, the translator(s) for the translated Dashboard are notified in email that an update has been made so updates can be made to the individual translation pages as well.
+
+### Update the default language page
+When the default language Dashboard is updated, it must be republished. Then, the translator(s) for the translated Dashboard are notified in email that an update has been made so updates can be made to the individual translation pages. Translators will need to view the version history of the default Dashboard to see what content has changed.
+
+
 
 
 
