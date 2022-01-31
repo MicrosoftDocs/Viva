@@ -21,7 +21,7 @@ audience: Admin
 
 The following describes who does what to assign admins roles for Microsoft Viva Insights:
 
-* **Owner** - The [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) assigns Viva Insights roles and the Azure Active Directory [Privileged Role Admin](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles for Workplace Analytics
+* **Owner** - The [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) assigns Viva Insights roles and the Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles for Workplace Analytics
 * **Task** - Assign admins for Viva Insights and Workplace Analytics
 * **Outcome** - Admins must set up Viva Insights for their organization. After data is provisioned, admins can then assign roles to other people in their organization to use Viva Insights.
 
