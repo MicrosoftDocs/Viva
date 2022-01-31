@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Power BI My organization dashboard
-description: Use the Power BI My organization dashboard to visualize predefined data from Viva Insights in Power BI
+title: Employee experience dashboard
+description: Use the Employee experience dashboard in Power BI to visualize predefined data from Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,13 +15,13 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# My organization dashboard in Power BI
+# Employee experience
 
-*This experience is only available through private preview.*
+*This experience is only available through private preview*
 
 As employees shift to remote work and to digital only collaboration, Microsoft Viva Insights can help you stay on track and make data-driven decisions that can help your employees do their best work.
 
-The Power BI My organization dashboard directionally highlights where a shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
+The Employee experience dashboard in Power BI directionally highlights where a shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
 You can use this dashboard to visualize and explore your company’s collaboration activity in Microsoft Teams and Outlook and get ideas about how to help your organization be successful moving forward. 
 
@@ -47,13 +47,13 @@ The following is an example of what you'll see in the Protecting personal time r
 
 ![Protecting personal time report.](../Images/WpA/Tutorials/pbi-ppt-report.png)
 
-To populate the dashboard in Power BI, you must set up **My organization insights** in Workplace Analytics for Viva Insights. The results will refresh your downloaded Power BI dashboard on a weekly basis.
-
+To populate the dashboard in Power BI, you must set up the **Employee experience** template in Workplace Analytics for Viva Insights. The results will refresh your downloaded Power BI dashboard on a weekly basis.
+<!--
 ## Demonstration
 
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-[My organization in Power BI demo](https://msit.powerbi.com/groups/me/reports/a46f5da2-58ba-467d-b1e8-68541ab302ea/ReportSection047f79d6110db8b7d45b?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&bookmarkGuid=Bookmarkcd33e1e642e6511e8d55)
+[Employee experience in Power BI demo](https://msit.powerbi.com/groups/me/reports/a46f5da2-58ba-467d-b1e8-68541ab302ea/ReportSection047f79d6110db8b7d45b?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&bookmarkGuid=Bookmarkcd33e1e642e6511e8d55) -->
 
 ## Prerequisites  
 
@@ -69,7 +69,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 >This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Create** > **Other templates**, select **My organization insights** to see the required setup steps, and then in step 2, select **Set up**.
+2. In **Create** > **Other templates**, select **Employee experience** to see the required setup steps, and then in step 2, select **Set up**.
 3. When prompted, select or confirm the following settings:
 
    * **Name** - Customize or keep the default name
