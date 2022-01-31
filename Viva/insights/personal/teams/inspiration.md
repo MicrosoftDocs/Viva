@@ -21,8 +21,6 @@ You can use the library to turn your personal insights through Viva Insights int
 
 ![Inspiration library page.](Images/inspire-1.png)
 
-The library uses the details you enter in [More about you](#more-about-you) and your personal Viva Insights data for initial article line-up. And then based on what you read and your *feedback* (thumbs up or down), the library will show you more of what you're interested in as you use it.
-
 ## View an article
 
 The library shows you articles that you haven’t read yet first. You can view these articles within your Teams app on your computer or mobile device. Select the **eye** (view) icon to focus in and view the complete story. For example, the following shows what you might see from Thrive Global. To view all the articles available to read within a specific theme, select **View more** in that section.
