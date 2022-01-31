@@ -34,7 +34,7 @@ As an analyst of a tenant with the capacity model, each query that you run consu
 
 When designing a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, you'll see the estimated number of units the query will consume in its current state. This number is updated as the query is edited:
 
-![units per query](../images/wpa/tutorials/conmod-credits-2.png)
+![query estimate](../images/wpa/tutorials/query-estimate-1.png)
 
 In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
 

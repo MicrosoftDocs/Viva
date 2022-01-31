@@ -43,7 +43,7 @@ For more details, see [Capacity model](consump-model.md).
 
 ## Query types
 
-You can find these queries in **Analyze** > **Query designer** within Workplace Analytics.
+You can run the following types of queries in Query designer.
 
 ### Person query
 
@@ -164,5 +164,5 @@ The _Expensive meetings_ video demonstrates how to work with a [Meeting query](m
 ## Related topics
 
 * [Templates](../Tutorials/Power-bi-templates.md)
-* [Workplace Analytics glossary](../Use/Glossary.md)
+* [Glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)

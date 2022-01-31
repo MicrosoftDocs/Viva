@@ -60,23 +60,14 @@ Analysts will see the following differences: -->
 
 In this model, there is no minimum monthly licensing cost for your organization; rather, all fees are based on the running of queries. Each query that you run consumes a number of "units," based on the following factors:
 
-* the number of measured employees being analyzed
-* the number of weeks of data included in the query output for each measured employee
-* the number of base metrics in the query
-* which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Capacity model details](#consumption-model-details).)
+* The number of measured employees being analyzed.
+* The number of weeks of data included in the query output for each measured employee.
+* The number of base metrics in the query.
+* What base metrics are used, which are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Capacity model details](#capacity-model-details).
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
-<!-- Use this image pre-GA. It excludes the "wallet" on the upper status bar: -->
-![units per query](../images/wpa/tutorials/conmod-credits-3.png)
-
-<!-- Revert to this image when we go to GA in fall, 2021. It includes the wallet: 
-
-![units per query.](../images/wpa/tutorials/conmod-credits-2.png) -->
-
-<!-- REMOVE THIS PARAGRAPH FOR NOW. RESTORE IT WHEN WE REVERT THE PRECEDING IMAGE (AT GA): 
-In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
--->
+![query estimate](../images/wpa/tutorials/query-estimate-1.png)
 
 #### Capacity model details
 
@@ -139,11 +130,11 @@ As described in [Capacity model details](#capacity-model-details), the calculati
 
 On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
 
-![query cost tooltip.](../images/wpa/tutorials/estimated-query-cost-tooltip.png)
+![query cost tooltip.](../images/wpa/tutorials/query-estimate-1.png)
 
 This opens a panel that describes the current calculation:
 
-![query cost calculation.](../images/wpa/tutorials/estimated-query-cost-expanded.png)
+![query cost calculation.](../images/wpa/tutorials/query-estimate.png)
 
 >[!Note]
 >* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
@@ -177,7 +168,7 @@ On the **Query designer** > **Results** page, you can locate a query that has al
 
 4. In the query designer, change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**.
 
-The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Capacity model details](#consumption-model-details).
+The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Capacity model details](#capacity-model-details).
 
 ##### No additional charges
 
@@ -231,7 +222,7 @@ The query-creation pages show analysts no information about query usage or tenan
 
 ## Query types
 
-You can find these queries on the **Analyze** > **Queries** page of Workplace Analytics.
+You can run the following types of queries through the Query designer.
 
 ### Person query
 
@@ -349,5 +340,5 @@ The _Expensive meetings_ video demonstrates how to work with a [meeting query](m
 ## Related topics
 
 * [Power BI templates](../Tutorials/Power-bi-templates.md)
-* [Workplace Analytics glossary](../Use/Glossary.md)
+* [Glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)
