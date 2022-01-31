@@ -33,17 +33,17 @@ The historical data on which queries are run is time limited: You can run querie
 
 The results of any queries that you've already run remain available to you, even after the data that was queried to produce those results passes the 27-month limit.
 
-## Consumption model
+## Capacity model
 
-You can subscribe a tenant to using the advanced insights and tools in Workplace Analytics through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
+You can subscribe a tenant to using the advanced insights and tools in Workplace Analytics through the Capacity model where the tenant consumes capacity units based on their volume of query usage.
 
 The appearance and behavior of the pages for creating and running queries and of the query results page will depend on whether your tenant is subscribed to the Workplace Analytics SKU or to the Viva Insights SKU.
 
-For more details, see [Consumption model](consump-model.md).
+For more details, see [Capacity model](consump-model.md).
 
 ## Query types
 
-You can find these queries on the **Analyze** > **Queries** page of Workplace Analytics.
+You can find these queries in **Analyze** > **Query designer** within Workplace Analytics.
 
 ### Person query
 

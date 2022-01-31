@@ -63,7 +63,7 @@ In this model, there is no minimum monthly licensing cost for your organization;
 * the number of measured employees being analyzed
 * the number of weeks of data included in the query output for each measured employee
 * the number of base metrics in the query
-* which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Consumption model details](#consumption-model-details).)
+* which base metrics are used. (Metrics are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Capacity model details](#consumption-model-details).)
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
@@ -78,9 +78,9 @@ As you design a query, Workplace Analytics uses these factors to calculate the c
 In the bar above the estimated query cost, you can see how many units remain in your tenant's account. Analysts can continue to run queries as long as this balance remains above zero units.
 -->
 
-#### Consumption model details
+#### Capacity model details
 
-In a consumption-model tenant, queries consume "units" as they are run. Usage calculation is as follows:
+In a capacity-model tenant, queries consume "units" as they are run. Usage calculation is as follows:
 
 **units consumed** = **A** * **B** * **C** * **D**
 
@@ -119,7 +119,7 @@ The terms in this formula are as follows:
 
 #### User scope in usage calculations
 
-As described in [Consumption model details](#consumption-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, the user scope for the various query types is defined as follows:
+As described in [Capacity model details](#capacity-model-details), the calculation is the same across all query types: **units consumed** = **A** (users) * **B** (metrics) * **C** (price-tier cost) * **D** (weeks). With this in mind, the user scope for the various query types is defined as follows:
 
 * **Person query**: **A** (users) = the number of [measured employees](../use/glossary.md#measured-employees-define), as filtered in the query definition
 
@@ -177,7 +177,7 @@ On the **Query designer** > **Results** page, you can locate a query that has al
 
 4. In the query designer, change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**.
 
-The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Consumption model details](#consumption-model-details).
+The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Capacity model details](#consumption-model-details).
 
 ##### No additional charges
 
@@ -194,13 +194,13 @@ No additional units are charged for the following:
 
 ### Results page
 
-The **Queries** > **Results** page shows additional information if the consumption model is in use at your tenant:
+In Query designer results, you'll see additional information if the capacity model is in use at your tenant:
 
-* **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Queries** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+* **PUPM-model tenants** &ndash; Analysts in a PUPM-model tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
-* **Consumption-model tenants** &ndash; For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information.](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+* **Capacity-model tenants** &ndash; For analysts in a capacity-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the ![More information.](../images/wpa/tutorials/more-info-50.png) (more information) option to see the details of this charge, namely the number of users analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
-   ![Query results page.](../images/wpa/tutorials/query-results-new-col.png)
+   ![Query cost.](../images/wpa/tutorials/query-cost.png)
 -->
 ### View analyst usage
 
