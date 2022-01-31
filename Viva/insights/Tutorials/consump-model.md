@@ -1,7 +1,7 @@
 ---
 
 title: Capacity model for Viva Insights
-description: Learn about the capacity model for analyst usage of queries in Workplace Analytics
+description: Learn about the capacity model for using the Query designer in Workplace Analytics for advanced analysis of Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
