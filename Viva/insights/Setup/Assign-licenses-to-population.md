@@ -18,11 +18,11 @@ audience: Admin
 
 The following describes who does what to assign licenses to users for Microsoft Viva Insights.
 
-* **Owner** &ndash; Viva Insights sponsor, Viva Insights Administrator, Azure Active Directory (AD) [Privileged Role Admin](/azure/active-directory/roles/permissions-reference#privileged-role-administrator), or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
+* **Owner** &ndash; Viva Insights sponsor, Viva Insights Administrator, Azure Active Directory (AD) [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator), or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
 * **Task** &ndash; Determine population in scope for analysis and assign licenses through Microsoft 365 or Office 365
 * **Outcome** &ndash; Microsoft 365 licenses are assigned for the population that will be analyzed
 
-The Viva Insights sponsor works with the Viva Insights Administrator, Microsoft 365 global admin, and Azure AD Privileged Role Admin to identify the population (the people in your company) whose Microsoft 365 collaboration activity you want to analyze. These people are referred to as _measured employees_.
+The Viva Insights sponsor works with the Viva Insights Administrator, Microsoft 365 global admin, and Azure AD Application Administrator to identify the population (the people in your company) whose Microsoft 365 collaboration activity you want to analyze. These people are referred to as _measured employees_.
 
 Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
