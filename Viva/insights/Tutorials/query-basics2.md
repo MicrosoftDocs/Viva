@@ -63,7 +63,7 @@ In this model, there is no minimum monthly licensing cost for your organization;
 * The number of measured employees being analyzed.
 * The number of weeks of data included in the query output for each measured employee.
 * The number of base metrics in the query.
-* What base metrics are used, which are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Capacity model details](#consumption-model-details).
+* What base metrics are used, which are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Capacity model details](#capacity-model-details).
 
 As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
