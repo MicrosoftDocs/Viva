@@ -139,11 +139,11 @@ As described in [Capacity model details](#capacity-model-details), the calculati
 
 On the query page, you can see how units are calculated for the query that you are defining. To see the calculation, select the tooltip:
 
-![query cost tooltip.](../images/wpa/tutorials/estimated-query-cost-tooltip.png)
+![query cost tooltip.](../images/wpa/tutorials/query-estimate-1.png)
 
 This opens a panel that describes the current calculation:
 
-![query cost calculation.](../images/wpa/tutorials/estimated-query-cost-expanded.png)
+![query cost calculation.](../images/wpa/tutorials/query-estimate.png)
 
 >[!Note]
 >* The cost that is shown in this way is an estimate; it can vary from the query's actual cost, which can be seen after the query has been run successfully.
