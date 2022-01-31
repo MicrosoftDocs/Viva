@@ -1,7 +1,7 @@
 ---
 
-title: Consumption model for Viva Insights
-description: Learn about the consumption model for analyst usage of queries in Workplace Analytics
+title: Capacity model for Viva Insights
+description: Learn about the capacity model for analyst usage of queries in Workplace Analytics
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,47 +15,47 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Consumption model
+# Capacity model
 
 Effective October 2021, the Microsoft Viva Insights SKU replaced the Microsoft Workplace Analytics SKU.
 
-You can subscribe a tenant to the advanced insights and tools in Viva Insights through the Consumption model where the tenant consumes capacity units based on their volume of query usage.
+You can subscribe a tenant to the advanced insights and tools in Viva Insights through the Capacity model where the tenant consumes capacity units based on their volume of query usage.
 
 The appearance and behavior of the pages used to create and run queries and [query results](../use/view-download-and-export-query-results.md) will differ based on your tenant's SKU subscription.
 
-## Analysts with the consumption model
+## Analysts with the capacity model
 
-As an analyst of a tenant with the consumption model, each query that you run consumes units based on the following factors:
+As an analyst of a tenant with the capacity model, each query that you run consumes units based on the following factors:
 
 * The number of measured employees included in the analysis
 * The number of weeks of data included in the query output for each measured employee
 * The number of metrics used in the query
-* The type of metrics used from the different price tiers; metrics in the higher price tiers consume more units than metrics in lower price tiers (see [Consumption model details](#consumption-model-details) for details)
+* The type of metrics used from the different price tiers; metrics in the higher price tiers consume more units than metrics in lower price tiers (see [Capacity model details](#capacity-model-details) for details)
 
 When designing a query, Viva Insights uses these factors to calculate the cost of the query. Within the query editor, you'll see the estimated number of units the query will consume in its current state. This number is updated as the query is edited:
 
-![units per query](../images/wpa/tutorials/conmod-credits-2.png)
+![query estimate](../images/wpa/tutorials/query-estimate-1.png)
 
 In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
 
 The Power BI templates that are currently available in Query designer use one or more predefined queries to use with the provided Power BI template.
 
-## Consumption cost calculator
+## Capacity cost calculator
 
-Before you run a query or a template in Query designer, you can get an estimate with the following Consumption cost calculator in Power BI.
+Before you run a query or a template in Query designer, you can get an estimate with the following Capacity cost calculator in Power BI.
 
 The steps below describe how to use the following interactive, embedded calculator that will give you an estimate for running a specific Viva Insights template or query. Select the details about the query or template to get an estimate that shows in the **Estimated cost** section on this page.
 
 **To get a template estimate**
 
-1. In **Select a Power BI template** on the first page of the **Consumption cost calculator**, select the name of the template.
+1. In **Select a Power BI template** on the first page of the **Capacity cost calculator**, select the name of the template.
 2. In **Select time period**, select the time period for the analysis.
 3. In **Select employees**, enter or select the number of measured employees to include in the analysis.
 4. In **Estimated cost**, you’ll see an estimate on the right side of the page.
 
 **To get a query estimate**
 
-1. Select **Queries** at the bottom right of the **Consumption cost calculator**.
+1. Select **Queries** at the bottom right of the **Capacity cost calculator**.
 2. In **Query type**, select the type of query.
 3. In **Select query**, select the query metrics you want to include in your analysis.
 4. In **Select time period**, select the time period for the analysis.
@@ -70,9 +70,9 @@ The steps below describe how to use the following interactive, embedded calculat
 >* Hover the cursor over the **filter** icon to view how the data is being filtered.
 >* Select **Clear all** to clear all the selections.
 
-### Consumption model details
+### Capacity model details
 
-In a consumption-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
+In a capacity-model tenant, queries consume "units" when they are run. Usage calculation is as follows:
 
 **Units consumed** = **A** x **B** x **C** x **D**
 
@@ -111,7 +111,7 @@ This is the cost of the price tier that is in use for a metric in the query. A q
 
 ### Population scope in usage calculations
 
-As described in Consumption model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) x **B** (metrics) x **C** (price-tier cost) x **D** (weeks).
+As described in Capacity model details, the calculation is the same across all query types: **Units consumed** = **A** (measured employees) x **B** (metrics) x **C** (price-tier cost) x **D** (weeks).
 
 The population scope (measured employees) for the different query types is as follows:
 
@@ -127,7 +127,7 @@ The population scope (measured employees) for the different query types is as fo
 
 The query page shows how units are calculated for the query that's being defined. To see more details about the calculation, select the **Information** (i) icon:
 
-![Query cost calculation](../images/wpa/tutorials/estimated-query-cost-expanded.png)
+![Query cost estimate](../images/wpa/tutorials/query-estimate.png)
 
 >[!Important]
 >
@@ -156,9 +156,9 @@ If you open an existing, previously run query, and you edit it and run it again,
 2. In the list of queries, find a query whose status shows as completed, as indicated by a green check mark.
 3. In the row for that query, select **More options** (the ellipsis) and then select **View query**:
 
-   ![View query option](../images/wpa/tutorials/query-actions.png)
+   ![Query cost details](../images/wpa/tutorials/query-cost.png)
 
-4. Change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**. The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Consumption model details](#consumption-model-details).
+4. Change a detail about the query. For example, change **Group by** from **Week** to **Month**, and then select **Run**. The edited query runs again. As it does, it incurs a new cost, in units, calculated as described in [Capacity model details](#capacity-model-details).
 
 ### No additional charges
 
@@ -172,11 +172,11 @@ No additional units are charged for the following:
 
 ### Query results
 
-In **Query designer** > **Results**, you'll see additional information if the consumption model is in use for a tenant:
+In **Query designer** > **Results**, you'll see additional information if the capacity model is in use for a tenant:
 
 * **Workplace Analytics SKU** - Analysts in a Workplace Analytics tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
-* **Consumption-model tenants** - For analysts in a consumption-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the Information tooltip (i) icon to see details about a charge, namely the number of people analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
+* **Capacity-model tenants** - For analysts in a capacity-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the Information tooltip (i) icon to see details about a charge, namely the number of people analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
    ![Query results page](../images/wpa/tutorials/query-results-new-col.png)
 
@@ -201,7 +201,7 @@ The **Analyst usage** report is available for download in the administrative pag
 
 ## Analysts with Workplace Analytics tenants
 
-Analysts of tenants with the Workplace Analytics SKU won't see any query usage or consumption units in Query designer.
+Analysts of tenants with the Workplace Analytics SKU won't see any query usage or capacity units in Query designer.
 
 ![No billing info shown in Query designer](../images/wpa/tutorials/pupm-no-credits-2.png)
 
