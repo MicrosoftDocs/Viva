@@ -389,7 +389,7 @@ items:
                             href: Use/Csv-query-output-file.md
                           - name: Query auto-refresh
                             href: tutorials/Query-auto-refresh.md
-                      - name: Consumption model
+                      - name: Capacity model
                         href: tutorials/consump-model.md 
                       - name: Business process analysis
                         href: tutorials/analyze-business-processes.md
