@@ -17,35 +17,19 @@ audience: Admin
 
 You can use the Inspiration library in Microsoft Viva Insights to learn more about the things that matter most to you. This library is designed to inspire you in life and at work to get the most out of both.
 
-You can use the library to turn your personal insights through Viva Insights into actions. The articles are geared toward helping you improve your overall wellbeing and employee experience.
+You can use the library to turn your personal insights through Viva Insights into actions. The articles are shown on the page within specific themes, including wellbeing, culture, impact, and resilience. Article sources include Microsoft, Harvard Business Review, and Thrive Global.
 
 ![Inspiration library page.](Images/inspire-1.png)
 
 The library uses the details you enter in [More about you](#more-about-you) and your personal Viva Insights data for initial article line-up. And then based on what you read and your *feedback* (thumbs up or down), the library will show you more of what you're interested in as you use it.
 
-## Article feedback and options
+## View an article
 
-Over time, the library uses AI to show you articles that are based on what you read and your feedback about them, such as the **thumbs up** and **thumbs down**.
+The library shows you articles that you haven’t read yet first. You can view these articles within your Teams app on your computer or mobile device. Select the **eye** (view) icon to focus in and view the complete story. For example, the following shows what you might see from Thrive Global. To view all the articles available to read within a specific theme, select **View more** in that section.
 
-You can also select the **eye** icon to focus in and view the complete story. For example, the following shows what you might see from Thrive Global.
+Viva Insights will show you more based on what you read and your feedback about them, such as selecting the **thumbs up** and **thumbs down** to confirm what you liked and disliked in the library.
 
 ![Inspiration story details.](Images/inspire-2.png)
-
-## Filters
-
-You can use the available filters to focus in on articles you're most interested in, such as:
-
-* **Theme** - Select to filter and focus on a specific theme, such as articles about wellbeing, culture, impact, and resilience.
-* **Author** - Filter the articles based on the author, such as from Microsoft, Harvard Business Review (HBR), and Thrive Global.
-* **Type** - Filter by type of article, such as documents, videos, and audio recordings.
-
-## More about you
-
-When you first open Microsoft Viva, you are prompted to enter a few details about yourself, such as what you're working on, the people you're working with most, and the topics you'd like to learn about. The library uses this information to show you documents, videos, and audios that are most related.
-
-![More about you example.](Images/inspire-you.png)
-
-Select the **ellipsis** (...) icon to edit these details whenever you want to change up what you're working on or what you want to learn more about through the library.
 
 ## Related topics
 
