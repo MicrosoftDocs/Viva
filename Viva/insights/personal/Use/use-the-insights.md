@@ -16,6 +16,7 @@ audience: Admin
 # Use Viva Insights in Outlook
 
 The following insight options help you get your work done fast.
+
 ## Prepare for your meetings
 
 Meetings are vital for healthy collaboration. Better meeting practices can improve productivity, information sharing, innovation, decision making, and connections among team members.
@@ -496,22 +497,6 @@ While staying in touch with top collaborators can be difficult, a quick 1:1 meet
 | ------ | ------ |
 | **Name and icon** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; | A person you collaborate with regularly but with whom you haven't had a 1:1 meeting in a while. |
 | **Schedule meeting** | Select this to open a meeting form that you can quickly complete to set up a meeting. |
-
-## Check quiet hours impact
-
-Studies shows that the expectation to respond to email outside of working hours results in anxiety and impacts the health of employees and their families. In fact, the mere expectation of availability outside of working hours can increase strain for your colleagues, even when they do not engage in actual work outside of working hours.
-
-With **Check quiet hours impact**, you can help your team achieve work-life balance by reviewing emails that your co-workers responded to outside of working hours.
-
-### To use this insight
-
-* In the **Insights** pane, select **Check quiet hours impact**:
-
-  ![Check quiet hours impact.](../../images/mya/use/check-quiet-hours-impact-54.png)
-
-  This opens a panel that displays insights about emails that might have impacted co-workers outside of their working hours:
-
-  ![Quiet hours impact.](../../images/mya/use/quiet-hours-impact.png)
 
 ## Related topics
 
