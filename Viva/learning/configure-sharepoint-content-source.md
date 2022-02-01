@@ -65,7 +65,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 ## Configure SharePoint as a source
 
-You must be a Microsoft 365 global administrator, SharePoint administrator, or knowledge admin to perform these tasks.
+You must be a Microsoft 365 global administrator or knowledge admin to perform these tasks..
 
 To configure SharePoint as a learning content sources in for Viva Learning, follow these steps:
 
