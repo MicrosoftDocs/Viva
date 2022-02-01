@@ -59,63 +59,48 @@ This uses sample data that is only representative of the dashboard and might not
 
 Before you can run the results and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned [Insights Business Leader role](../use/user-roles.md).
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version.
 Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English.
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
-2. In **Create** > **Other templates**, select **Employee experience** to see the required setup steps, and then in step 2, select **Set up**.
-3. When prompted, select or confirm the following settings:
-
-   * **Name** - Customize or keep the default name
-   * **Group by** - Select **Week**
-   * **Time period** - Select the time period for this analysis
-   * **Auto-refresh** - Enable this setting
-   * **Exclusions** - Select the preferred rules
-
-   >[!Important]
-   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
-
-4. In **Select filters**, for "**Which measured employees do you want to include**," you can filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](./person-queries.md).
-5. In **Organizational data**, keep the preselected organizational data attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
-
-   > [!Important]
-   > If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
-
-6. Select **Run** to run the query, which might take several minutes to complete.
-7. When prompted, select to go to **Results**. After the results successfully run, select the **Download** icon for the **My organization insights** results, select **PBI template**, and then select **OK** to download the template.
-8. Open the downloaded **My organization insights template**.
-9. If prompted to select a program, select **Power BI**.
-10. When prompted by Power BI:
-
-    1. In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon for each result, and select to copy the generated OData URL link.
-    2. In Power BI, paste each copied link into its respective URL field.
-    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
-    4. Select **Load** to import the results into Power BI. Loading these large files may take some time to complete.
-
-11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
-12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
+1. In **Query designer** > **Results**, select the **Download** icon for the **Employee experience** results, select **PBI template**, and then select **OK** to download the template.
+2. Open the downloaded **Employee experience template**.
+3. If prompted to select a program, select **Power BI**.
+4. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
-
-13. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
+5. In Power BI Desktop, select Publish on the ribbon and then, sign in with the same email address you use for Microsoft Viva.
+6. Follow the online instructions to view these reports in your Power BI workspace.
+
+## Achieved or At Risk KPIs
+
+Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../privacy/de-identify-data.md) for details.
+
+The following lists the minimum and maximum percentage range for the value thresholds that are used to categorize employees as Achieved or as compared to At Risk, which fall outside of these ranges.
+
+Number of employees in a group | Value threshold range for Achieved
+--------------| ------------
+10 | 25 to 75 percent
+11 to 20 | 10 to 90 percent
+21 or more | 5 to 95 percent
+
+For more information, see [Differential privacy in Viva Insights](../privacy/differential-privacy.md).  
 
 ## Organizational data
 
 After the dashboard is set up and populated with data in Power BI, as a first step, confirm the date range and number of measured employees that's shown at the top of each page is what you expected for this analysis.
 
 >[!Important]
->As new data is processed on a weekly basis, select **Refresh** in the **Power BI Home** ribbon to view the most recent data.
+>As new data is processed on a weekly basis, select **On** for **Keep your data up to date** in the **Scheduled refresh** section in Power BI if you want the report data to refresh in Power BI each week. For details, see [Configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh#scheduled-refresh).
 
 ## Power BI tips, troubleshooting, and FAQs
 
