@@ -1,7 +1,7 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-title: Organizational network analysis metrics for Workplace Analytics visual insights with Viva Insights
-description: Learn more about the network graphs used in Workplace Analytics visual insights
+
+title: Workplace Analytics visual network graph metrics with Viva Insights
+description: Learn more about the metrics used for the visual network graphs used in Workplace Analytics for Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,9 +15,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Organizational network analysis metrics
+# Network graph metrics
 
-The organizational network analysis (ONA) graphs that are used for some of the Workplace Analytics visual insights with Viva Insights use the influence metric to help you visualize and analyze relationships within your organization.
+The organizational network analysis (ONA) graphs that are used for some of the Workplace Analytics visual insights with Viva Insights use influence metrics to help you visualize and analyze relationships within your organization.
 
 The following is an example of an Employee empowerment graph.
 
