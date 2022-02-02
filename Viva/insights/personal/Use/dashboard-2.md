@@ -55,10 +55,6 @@ The Collaboration section shows the people you actively collaborated with based 
 
 For more details and tips, see [Network](../use/network.md) and [Collaboration](../use/collaboration.md).
 
-## Leadership
-
-If you're a people manager, the Leadership page shows information about your relationships with team members. For more details, see [Leadership](leadership.md).
-
 ## Productivity insights
 
 MyAnalytics gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
