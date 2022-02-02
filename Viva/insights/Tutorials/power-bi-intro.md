@@ -27,7 +27,7 @@ The Query designer in Workplace Analytics with Viva Insights includes a number o
 The Query designer has templates for the following Power BI dashboards for visually analyzing data in Power BI. Select one to see more details about it and to view an interactive demo.
 
 >[!Note]
->The dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>Most of these dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/> (Business continuity and Microsoft Teams insights are the exceptions that support the same [languages as Workplace Analytics](../overview/supported-languages.md#supported-languages).)
 
 | &nbsp; | &nbsp; |
 |------|-------|
