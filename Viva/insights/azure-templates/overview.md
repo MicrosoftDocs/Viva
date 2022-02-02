@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Workplace Analytics Azure Templates overview
 description: About Workplace Analytics Azure Templates and how to use it for advanced data analysis
 author: madehmer
-ms.author: lilyolason
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

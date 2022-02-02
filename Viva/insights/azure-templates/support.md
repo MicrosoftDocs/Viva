@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Support for Workplace Analytics Azure Templates 
 description: How to get support for Workplace Analytics Azure Templates
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -18,7 +18,8 @@ audience: Admin
 
 # Get support for Workplace Analytics Azure Templates
 
-_Support for these templates is only available as part of a Microsoft service engagement._
+>[!Important]
+>As of February 2022, this product is no longer being supported.
 
 For general help with Microsoft 365 and Azure subscriptions, components, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/).
 
