@@ -14,6 +14,9 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
+>[!Important]
+>Starting in March 2022, this product will no longer be available. You can access the same insights with [Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights/).
+
 Microsoft Insights produce powerful analysis about how your organization functions. It does this by analyzing Microsoft 365 collaboration data and organizational data already present in Microsoft Azure Active Directory.
 
 Given the potential sensitivity about how data could be used, successful implementation and use of Insights requires careful thought and planning regarding data protection.  
