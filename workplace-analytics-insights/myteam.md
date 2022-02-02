@@ -14,6 +14,11 @@ audience: Admin
 
 # My team in Viva Insights
 
+*This experience is only available through private preview at this time.*
+
+>[!Important]
+>Starting in March 2022, this product will no longer be available. You can access the same insights with [Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights/).
+
 You can view manager insights on the **My team** page in the Microsoft Viva Insights app in Microsoft Teams. Manager insights provide visibility into team collaboration patterns that are leading indicators for overall employee experience and wellbeing.
 
 ![My team page.](./images/viva-myteam.png)
