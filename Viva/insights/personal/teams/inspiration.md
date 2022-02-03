@@ -23,9 +23,9 @@ You can use the library to help transform your personal, manager, and leader ins
 
 ## View an article
 
-The library shows you articles that you haven’t read yet first. You can view these articles within your Teams app on your computer or mobile device. Select the **eye** (view) icon to focus in and view the complete story. For example, the following shows what you might see from Thrive Global. To view all the articles available to read within a specific theme, select **View more** in that section.
+The library shows you articles that you haven’t read yet first. You can view these articles within your Teams app on your computer or mobile device. Select the article title to open and read it. For example, the following shows what you might see from Thrive Global. To view all the articles available to read within a specific theme, select **View more** in that section.
 
-Viva Insights will show you more based on what you read and your feedback about them, such as selecting the **thumbs up** and **thumbs down** to confirm what you liked and disliked in the library.
+You can also provide feedback on the articles you have read by selecting the **thumbs up** and **thumbs down** icons at the end of the article.
 
 ![Inspiration story details.](Images/inspire-2.png)
 
