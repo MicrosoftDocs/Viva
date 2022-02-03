@@ -28,7 +28,7 @@ This web part is specifically designed to aggregate and display corporate commun
 > [!NOTE]
 > The Feed web part is not supported in IE11.
 
-(image)
+![company-feed](../media/company-feed.png)
 
 ## What is Viva Connections?
 
@@ -55,9 +55,9 @@ If you're using Viva Connections, the Viva Connections Feed web part aggregates 
    
 ## Add the Viva Connections Feed web part to a site
 
- 1. If you're not in edit mode already, select **Edit** at the top right of the page.
+ 1. If you're not in edit mode already, select **Edit** at the top right of the page. 
 
- 2. Within the section where you want to add the web part, hover your mouse near the top, and then select the (Circled plus sign icon) that appears.
+ 2. Within the section where you want to add the web part, hover your mouse near the top, and then select the ![icon](../media/circle-icon.png) that appears.
 
  3. In the web part toolbox that appears, search for and then select the **Feed for Viva Connections Feed web part**.
  
