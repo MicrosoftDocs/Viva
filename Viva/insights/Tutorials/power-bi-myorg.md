@@ -19,13 +19,9 @@ audience: Admin
 
 *This experience is only available through private preview*
 
-As employees shift to remote work and to digital only collaboration, Microsoft Viva Insights can help you stay on track and make data-driven decisions that can help your employees do their best work.
+With the new Power BI template from Viva Insights, you'll learn more about focus time, manager coaching, and other key experience indicators for your organization. You’ll be able to customize the template by grouping and filtering for parts of the organization, and you’ll receive actionable insights to help improve wellbeing and productivity.
 
-The Employee experience dashboard in Power BI directionally highlights where a shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
-
-You can use this dashboard to visualize and explore your company’s collaboration activity in Microsoft Teams and Outlook and get ideas about how to help your organization be successful moving forward. 
-
-The dashboard includes the following reports:
+The dashboard in Power BI includes the following reports:
 
 * **Protecting personal time** - Shows the percentage of employees who are successfully protecting their personal time by limiting their after-hours work to less than five hours each week. As digital collaboration becomes our new norm, it’s important to establish communication guidelines and boundaries to encourage employees to balance work and life and maintain good wellbeing.
 * **Connecting in small groups** – Shows how much time employees spend interacting at least one hour each week with eight or fewer people to encourage small-group collaboration where most have a voice in the activity.
