@@ -28,7 +28,7 @@ This web part is specifically designed to aggregate and display corporate commun
 > [!NOTE]
 > The Feed web part is not supported in IE11.
 
-![company-feed](../media/company-feed.png)
+![Screenshot of company feed](../media/company-feed.png)
 
 ## What is Viva Connections?
 
