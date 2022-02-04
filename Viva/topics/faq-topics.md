@@ -93,9 +93,9 @@ There is no requirement for the knowledge admin to have access to all sites, but
 
 Viva Topics relies on the search crawler for detecting changes and initial parsing of the document formats. Viva Topics only deals with text content, so all document formats are processed in the same way.
 
-### Even if we don't include the Teams Viva App in Pilot, will the Viva Topics experience show up in users' chats in Microsoft Teams?
+### Even if we don't include the Viva app for Teams pilot, will the Viva Topics experience show up in users' chats in Microsoft Teams?
 
-Viva will be able to suggest topics to include in the chats or messages at authoring time. This experience will be similar to Outlook. Please refer to the M365 public roadmap for availability of Topics in Teams and Outlook.
+Viva will be able to suggest topics to include in the chats or messages at authoring time. This experience will be similar to Outlook. For more information about the availability of Viva Topics in Teams and Outlook, see the [Microsoft 365 public roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap).
 
 For more information about the user experience, see the following help articles:
 
