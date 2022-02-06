@@ -73,6 +73,8 @@ Here are the built-in cards available now:
    [Assigned tasks](#add-the-assigned-tasks-card): Automatically display information to users about their assigned tasks.
  
    [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
+   
+   [Card Designer](#add-a-card-designer): Add a card designer OOTB to display information sourced by JSON
 
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
@@ -148,6 +150,33 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
+## Add a Card Designer
+
+Card Designer can be added to design a card in an Out-Of-The-Box method. To design a card:
+
+1. While in **edit** mode, select **+ Add a card** from the Dashboard.
+2. Select **Card Designer** from the web toolbox.
+
+
+   ![Adding a Card Designer.](../media/connections/card-designer.png)
+
+
+3. In the **property** pane on the right side of the page, select your options.
+
+   ![Card Designer property pane.](../media/connections/property-pane.png)
+
+4. Select the template layout and size of the card.
+    - Template layouts has 3 types **Heading** , **Image** , **Description**. Layouts can be chosen based on the need.
+    - Card Sizes are 2 types **Medium** , **Large**
+5. Card Action / Button Action: Will choose what happens when user clicks on the card / button
+    - Set to **Go to a link** to redirect to a different URL.
+    - Set to **Go to a Teams app** to redirect to a teams app, since Viva Connections are available in Teams as well.
+    - Set to **Show the quick view** to customize the quick view layout where template layout and data can be sourced from JSON through property pane.
+
+   ![Show the quick view.](../media/connections/show-quick-view.png)
+   
+>[!NOTE]
+> Template layout can be utilized from the samples available [here](https://adaptivecards.io/samples/) or can be newly designed using the [designer](https://adaptivecards.io/designer/). 
 
 ## Add a Shifts card
 
