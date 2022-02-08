@@ -147,7 +147,7 @@ Personal insights in Microsoft Viva Insights is a first-party application that's
 
 The Microsoft Graph cannot be turned on or off globally through the Microsoft 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
 
-## Employee experience of Viva Insights
+## Employee experience with Viva Insights
 
 ### Dashboard and Outlook add-in
 
