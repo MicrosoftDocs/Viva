@@ -1,10 +1,10 @@
 ---
-title: Configure Go1 as a content source for Microsoft Viva Learning
+title: Configure EdCast as a content source for Microsoft Viva Learning
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 2/9/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,49 +14,33 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
 localization_priority: medium
-description: Learn how to configure Go1 as a learning content source for Microsoft Viva Learning.
+description: Learn how to configure EdCast as a learning content source for Microsoft Viva Learning.
 ---
 
-# Configure Go1 as a content source for Microsoft Viva Learning
+# Configure EdCast as a content source for Microsoft Viva Learning
 
-This article shows you how to configure Go1 as a third-party learning content source in Viva Learning.
-
->[!NOTE]
->Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Go1 content and any associated services are subject to Go1's privacy and service terms.
-
-Go1 provides access to thousands of courses from top content providers. [Learn more about Go1](https://www.go1.com/go1-microsoft-viva). Follow these steps to add Go1 as a learning source in Viva Learning.
-
-## Configure in your Go1 portal
+This article shows you how to configure EdCast as a third-party learning content source in Viva Learning.
 
 >[!NOTE]
->You'll need to have admin permissions in Go1 to complete these steps.
+>Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. EdCast content and any associated services are subject to EdCast's privacy and service terms.
 
-First, you'll need to follow these steps to create an app in your Go1 Portal. This app will generate your API keys, which you can use to authenticate with Go1 and make requests to the API.
+## Configure in your EdCast portal
 
-1. Sign in to your Go1 Portal as an administrator.
+>[!NOTE]
+>Your organization must have an active subscription to EdCast as well as a premium license for Microsoft Viva Learning.
 
-2. Select **Integrations** from the menu options.
+You'll need Your EdCast API key, Secret, Client Host URL and User Email for Viva Learning to surface content from your EdCast instance.
 
-3. Select **Developers**.
-4. Select the **Create App** button.
-5. Enter a name for the app, for example, "My-go1-viva-integration".
-6. Enter a call back URL, for example, "Mycompany.mygo1.com".
-7. Save the information you entered.
-8. Your information will display with the Secret hidden. Select the ellipses (**...**), then select **View Secret** to display the Secret.
-9. Copy the following values:
+1. Your organization's EdCast administrator can obtain your EdCast API key and Secret by reaching out to your dedicated EdCast Customer Success Manager.
 
-    - **Client's Host URL:** This is your Go1 Portal URL. It will look like "https://mycompany.mygo1.com".
-    - **Client ID:** You can find your ID in your Go1 Portal under the **Integrations/Developer** menu options.
-    - **Secret:** You can find your Secret in your Go1 Portal under the **Integrations/Developer** menu options.
-
-Learn more about [how to create a private developer's app for Go1](https://help.go1.com/en/articles/4642648-integrate-with-the-go1-api).
+2. Your Client host URL will be the same as your EdCast instance URL. It should look like "[subdomain].edcast.com".
 
 ## Configure in your Microsoft 365 admin center
 
 >[!NOTE]
 >You'll need to have admin permissions in Microsoft 365 to complete these steps.
 
-1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
-2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable Go1 in the panel.
-3. Fill in the configuration details that you retrieved from your Go1 portal.
-4. Select **Save** to activate Go1 content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
+2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable EdCast in the panel.
+3. Fill in the configuration details that you got from your EdCast Customer Success Manager.
+4. Select **Save** to activate EdCast content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
