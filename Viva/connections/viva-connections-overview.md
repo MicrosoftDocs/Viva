@@ -39,6 +39,7 @@ Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva).
 
 > [!NOTE]
 > - Information in this article relates to the upgraded Viva Connections app. Viva Connections includes *both the desktop and mobile experiences*. 
+> - A home site is a requirement for Viva Connections. Learn more about [how to plan, build, and launch a home site](/viva/connections/home-site-plan).
 
 ## Components to Viva Connections 
 Viva Connections is designed to meet people where they usually get their work done - in Microsoft Teams. Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. All three components will display different between desktop and mobile devices. 
@@ -120,6 +121,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 #### Dashboard resources
 
 Learn more about [how to create and customize a Dashboard](/viva/connections/create-dashboard)
+
 Discover [card options from third-party providors](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643)
 
 
@@ -225,3 +227,5 @@ Learn how to [set up and deploy Viva Connections for your organization](guide-to
 [Set up and launch Viva Connections](guide-to-setting-up-viva-connections.md)
 
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
+
+[Learn how to plan, build, and launch a home site](/viva/connections/home-site-plan)
