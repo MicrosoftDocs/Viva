@@ -55,7 +55,7 @@ Viva Connections is designed to meet people where they usually get their work do
 ### Viva Connections Dashboard
 The Viva Connections Dashboard enables you to create a curated experience using Dashboard cards that give your employee's access to their most critical content and tools. These cards are designed to enable quick task completion either by interacting with a card directly or by opening a quick view in the Dashboard. Think of the Viva Connections Dashboard as a digital toolset for your employees.
 
-![Image of viva connections on mobile and desktop.](../media/connections/dashboard-desktop-mobile.png)
+![Image of the viva connections Dashboard on mobile and desktop.](../media/connections/dashboard-desktop-mobile.png)
 
 The Viva Connections Dashboard is available on mobile platforms (iOS, Android) in the Viva Connections Teams app, and on the desktop as a web part. This web part can be integrated into a SharePoint Home site, which then is exposed as part of the Viva Connections for Desktop experience in Teams.
 
