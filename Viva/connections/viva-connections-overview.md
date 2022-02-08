@@ -147,13 +147,13 @@ Users will see content aggregated from the following sources, provided they have
 
 ![Image of the resources on a desktop device.](../media/connections/vc-resources.png)
 
-The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](sharepoint-app-bar.md). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
+Resources are the navigational links that are set up and customized in the [SharePoint app bar](sharepoint-app-bar.md) from the home site. These resources will get displayed on both the desktop and mobile instances of Viva Connections. 
+
+In the mobile app, users can view resources by selecting the **Resources** tab. This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
 
 
 
 ## Viva Connections mobile and desktop experiences
-
-### The Viva Connections desktop experience
 On desktop, Viva Connections surfaces your own home site as a branded app in Teams, combining the power of your intelligent SharePoint intranet with chat and collaboration tools that Teams provides.
 
 ![Image of the viva connections Dashboard on a desktop device.](../media/connections/viva-connections-desktop.png)
@@ -167,7 +167,7 @@ On desktop, Viva Connections surfaces your own home site as a branded app in Tea
 - **Feed**: The Feed that is available in the mobile app is also available as a web part for your home site; thus, users can stay up to date with news, conversations, and videos while they’re on the desktop.
 
 
-### The Viva Connections mobile experience
+**The Viva Connections mobile experience:**
 The experience in the Viva Connections mobile app is anchored around three key concepts: the Dashboard, the Feed, and Resources.
 
 ![Image of the three viva connections pivots on mobile and desktop.](../media/connections/viva-connections-mobile.png)
