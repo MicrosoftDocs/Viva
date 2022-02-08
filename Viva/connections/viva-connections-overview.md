@@ -145,6 +145,8 @@ Users will see content aggregated from the following sources, provided they have
 
 ### Viva Connections Resources
 
+![Image of the resources on a desktop device.](../media/connections/vc-resources.png)
+
 The **Resources** tab of the mobile app automatically uses the global navigation links that you set up in your [SharePoint app bar](sharepoint-app-bar.md). This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
 
 
