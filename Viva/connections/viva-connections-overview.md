@@ -150,6 +150,7 @@ Users will see content aggregated from the following sources, provided they have
 #### Feed resources
 
 [Frequently asked questions about the Feed](/viva/connections/faqs-viva-connections-feed)
+
 Prioritize SharePoint news posts in the Feed by [using News Boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
 
 Use the [Feed web part for Viva Connections](/viva/connections/use-feed-web-part-for-viva-connections)
