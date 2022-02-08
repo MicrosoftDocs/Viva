@@ -70,7 +70,7 @@ A Dashboard is made of medium-sized and large-sized cards which users can intera
 
 A card can also reflect dynamic content that refreshes based on a user action or other event. For example, users can see new tasks assigned to them when they open the Dashboard. As the users mark the tasks as **complete**, the card updates to reflect their new number of tasks.
 
-**In this example, view the experience for a card that enables a daily health check for on-site workers:**
+**In this example, view the experience for a Dashboard card that enables a daily health check for on-site workers:**
 
 ![Animated GIF displaying how to interact with the Dashboard.](../media/connections/new-vc-dashboard-interaction.gif)
 
@@ -117,13 +117,18 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 |Tasks     |    Use to open the Teams Tasks app     |
 |Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
 
+#### Dashboard resources
+
+Learn more about [how to create and customize a Dashboard](/viva/connections/create-dashboard)
+
+Discover [card options from third-party providors](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643)
 
 
 ### Viva Connections Feed
 
 ![Image showing content in the Feed.](../media/connections/viva-connections-feed-webpart.png) 
 
-In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s Boost and Yammer’s Featured options. [Get answers to common questions](/sharepoint/faqs-viva-connections-feed) about how content in the Feed gets prioritized and displayed.
+In the Viva Connections app, users will see a personalized Feed with relevant information from across their organization. The Feed automatically balances fresh and engaging content with corporate communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using SharePoint’s News boost and Yammer’s "Featured" options. [Get answers to common questions](/sharepoint/faqs-viva-connections-feed) about how content in the Feed gets prioritized and displayed.
 
 The Feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
 
@@ -142,6 +147,14 @@ Users will see content aggregated from the following sources, provided they have
     - [Video news links](/sharepoint/video-news-links) on organization news sites
     - Video in a news post
 
+#### Feed resources
+
+[Frequently asked questions about the Feed](viva/connections/faqs-viva-connections-feed)
+
+Prioritize SharePoint news posts in the Feed by [using News Boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)
+
+Use the [Feed web part for Viva Connections](viva/connections/use-feed-web-part-for-viva-connections)
+
 
 ### Viva Connections Resources
 
@@ -150,6 +163,11 @@ Users will see content aggregated from the following sources, provided they have
 Resources are the navigational links that are set up and customized in the [SharePoint app bar](sharepoint-app-bar.md) from the home site. These resources will get displayed on both the desktop and mobile instances of Viva Connections. 
 
 In the mobile app, users can view resources by selecting the **Resources** tab. This type of functioning provides users with a familiar navigation structure and allows them to open sites, pages, news, and more — right from their mobile devices.
+
+#### Learn more about Resources
+
+[Enable and customize global navigation](/viva/connections/sharepoint-app-bar) in the SharePoint app bar
+
 
 
 
