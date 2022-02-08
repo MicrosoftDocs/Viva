@@ -281,10 +281,10 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 35. Publish the pipeline to confirm it's error-free.
 36. Repeat the previous steps to modify the names and parameter names to create another copy data activity for meeting query named **Meeting Query Copy**, as shown in these steps. Change the parameter names for the meeting query to be **MeetingQueryDatasetFolder** and **MeetingQueryMetaData**, as applicable.
 37. Publish the pipeline again to confirm the configuration is error-free.
-38. Download the two Synapes Notebook ipynb files from this Github repository called vivainsights_person and vivainsights_meeting.
-39. From Synapse Develop menu, select the Notebook ellipsis (...) and import the two downloaded ipynb files.
-40. Open your Pipeline and from the Pipeline Activities menu, under Synapse, add a Notebook called Viva Insights Person Transformation and connect it to the Person Query Copy.
-41. In **Settings** for the Notebook, select the imported vivainsights_person notebook, add the following base parameters and use the Add dynamic content to initialize them with the pre-defined Pipeline parameters.
+38. Download the **vivainsights_person** and **vivainsights_meeting** Synapse Notebook (ipynb) files from [this Github repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights).
+39. In the Synapse **Develop** menu, select the **Notebook ellipsis** (...) and import the two downloaded ipynb files.
+40. Open your Pipeline and from the Pipeline **Activities** menu, under **Synapse**, add a **Notebook** named **Viva Insights Person Transformation**, and then connect it to the **Person Query Copy**.
+41. In **Settings** for the Notebook, select the imported **vivainsights_person** notebook, add the following base parameters, and then use the **Add dynamic content** to initialize them with the pre-defined Pipeline parameters:
 
     - VivaInsightsDataFileSystem
     - StorageAccountName
@@ -301,11 +301,10 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 
        ![Pipeline example.](../images/pipeline-example.png)
 
-42. Repeat steps 41 and 42 to add another notebook called Viva Insights Meeting Transformation and connect it to Meeting Query Copy activity. For this notebook, add the MeetingQueryDatasetFolder instead of PersonQueryDatasetFolder.
-43. Your Pipeline now looks like this.
-44. Publish the pipeline to make sure there is no error.
-45. In the Github repository, download the two SQL scripts to create the viva_insights_meeting and viva_insights_person tables.
-46. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in Connect To and your database in Use Database and run.
+42. Repeat the previous two steps to add another notebook named **Viva Insights Meeting Transformation**, and then connect it to the **Meeting Query Copy** activity. For this notebook, add the **MeetingQueryDatasetFolder**.
+43. Publish the pipeline to confirm it's error-free.
+44. In [the Github repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights), download the two SQL scripts to create the **viva_insights_meeting** and **viva_insights_person** tables.
+45. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it.
 
 ## Consume data for analytics
 
@@ -324,7 +323,7 @@ Follow these steps to connect your Power BI desktop to the SQL Database:
 
 ## Additional external data sources
 
-Many advanced analytics use cases require the joining of multiple data sources for a comprehensive view of workplace interactions and collaboration patterns. The secondary **EmployeeId** for this pipeline is the key that's added to Viva Insight data to enable dataset joins. 
+Many advanced analytics use cases require the joining of multiple data sources for a comprehensive view of workplace interactions and collaboration patterns. The secondary **EmployeeId** for this pipeline is the key that's added to Viva Insight data to enable dataset joins.
 
 You can use Synapse activities and capabilities to load the additional data source into the SQL database and join via a python script or BI tools like Power BI for analysis.
 
