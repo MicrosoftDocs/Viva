@@ -281,7 +281,7 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 35. Publish the pipeline to confirm it's error-free.
 36. Repeat the previous steps to modify the names and parameter names to create another copy data activity for meeting query named **Meeting Query Copy**, as shown in these steps. Change the parameter names for the meeting query to be **MeetingQueryDatasetFolder** and **MeetingQueryMetaData**, as applicable.
 37. Publish the pipeline again to confirm the configuration is error-free.
-38. Download the **vivainsights_person** and **vivainsights_meeting** Synapse Notebook (ipynb) files from [this Github repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights).
+38. Download the **vivainsights_person** and **vivainsights_meeting** Synapse Notebook (ipynb) files from [this GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights).
 39. In the Synapse **Develop** menu, select the **Notebook ellipsis** (...) and import the two downloaded ipynb files.
 40. Open your Pipeline and from the Pipeline **Activities** menu, under **Synapse**, add a **Notebook** named **Viva Insights Person Transformation**, and then connect it to the **Person Query Copy**.
 41. In **Settings** for the Notebook, select the imported **vivainsights_person** notebook, add the following base parameters, and then use the **Add dynamic content** to initialize them with the pre-defined Pipeline parameters:
@@ -303,7 +303,7 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 
 42. Repeat the previous two steps to add another notebook named **Viva Insights Meeting Transformation**, and then connect it to the **Meeting Query Copy** activity. For this notebook, add the **MeetingQueryDatasetFolder**.
 43. Publish the pipeline to confirm it's error-free.
-44. In [the Github repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights), download the two SQL scripts to create the **viva_insights_meeting** and **viva_insights_person** tables.
+44. In [the GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights), download the two SQL scripts to create the **viva_insights_meeting** and **viva_insights_person** tables.
 45. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it.
 
 ## Consume data for analytics
