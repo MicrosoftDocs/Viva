@@ -17,14 +17,14 @@ audience: Admin
 
 # Viva Insights Data Lake Solution
 
-This walkthrough is an end-to-end data lake solution to extract, transform, and load (ETL) Microsoft Viva Insights data into a database and then report it through Power BI as an end-user platform. The key features of this workload:
+You can use this Data Lake Solution to extract, transform, and load (ETL) Microsoft Viva Insights data into a database and then report it through Power BI as an end-user platform. The key features of this workload:
 
 - Automated pipeline to avoid manual interaction with the Viva Insights query builder platform.
 - Instructions and guidelines on managing and loading Viva Insights historical data.
 - Utilizing an open source scripting language (Spark) to enable reusability of the script in other platforms and tools.
 - Leveraging Azure Synapse for a seamless, easy-to-manage workspace to implement the solution.
 
-## Example use cases
+## Use cases
 
 Several scenarios can benefit from this workload through layering an advanced ETL pipeline on top of Viva Insights:
 
@@ -49,7 +49,7 @@ Several scenarios can benefit from this workload through layering an advanced ET
 
 The following shows how these components are used within this solution's architecture.
 
-![Viva Insights Data Lake solution architecture.](./images/vidl-architecture.png)
+![Viva Insights Data Lake solution architecture.](../images/vidl-architecture.png)
 
 ## Alternatives
 
@@ -268,9 +268,9 @@ The following steps walk you through creation of the pipeline in Azure Synapse A
     >[!Note]
     >PipelineID can be found under system variables Pipeline Run ID.
 
-36. Publish the pipeline to make sure there is no error.
+36. Publish the pipeline to confirm it's error-free.
 37. Repeat steps 6 to 36, modify the names and parameter names to create another copy data activity for meeting query called Meeting Query Copy in this walkthrough. Changes to parameter names are like PersonQueryDatasetFolder to MeetingQueryDatasetFolder or PersonQueryMetaData to MeetingQueryMetaData.
-38. Once step 37 is completed, publish the pipeline to make sure there is no error in the configuration, At this point, your pipeline view should be like the following.
+38. Once step 37 is completed, publish the pipeline to confirm the configuration is error-free.
 39. Download the two Synapes Notebook ipynb files from this Github repository called vivainsights_person and vivainsights_meeting.
 40. From Synapse Develop menu, select the Notebook ellipsis (...) and import the two downloaded ipynb files.
 41. Open your Pipeline and from the Pipeline Activities menu, under Synapse, add a Notebook called Viva Insights Person Transformation and connect it to the Person Query Copy.
@@ -289,7 +289,7 @@ The following steps walk you through creation of the pipeline in Azure Synapse A
 
     The following shows an example of what your pipeline should look like:
 
-       ![Pipeline example.](./images/pipeline-example.png)
+       ![Pipeline example.](../images/pipeline-example.png)
 
 43. Repeat steps 41 and 42 to add another notebook called Viva Insights Meeting Transformation and connect it to Meeting Query Copy activity. For this notebook, add the MeetingQueryDatasetFolder instead of PersonQueryDatasetFolder.
 44. Your Pipeline now looks like this.
