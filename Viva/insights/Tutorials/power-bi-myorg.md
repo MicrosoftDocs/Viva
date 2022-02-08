@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Employee experience dashboard
-description: Use the Employee experience dashboard in Power BI to visualize predefined data from Viva Insights
+description: Use the Employee experience dashboard in Power BI to visualize predefined data from Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -19,7 +19,7 @@ audience: Admin
 
 *This experience is only available through private preview*
 
-With the new Power BI template from Viva Insights, you'll learn more about focus time, manager coaching, and other key experience indicators for your organization. You’ll be able to customize the template by grouping and filtering for parts of the organization, and you’ll receive actionable insights to help improve wellbeing and productivity.
+With the new Power BI template and dashboard from Microsoft Viva Insights, you'll learn more about focus time, manager coaching, and other key experience indicators for your organization. You’ll be able to customize the template by grouping and filtering for parts of the organization, and you’ll receive actionable insights to help improve wellbeing and productivity.
 
 The dashboard in Power BI includes the following reports:
 
@@ -64,9 +64,9 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 >[!Note]
 >This dashboard is currently only available in English.
 
-1. In **Query designer** > **Results**, select the **Download** icon for the **Employee experience** results, select **PBI template**, and then select **OK** to download the template.
-2. Open the downloaded **Employee experience template**.
-3. If prompted to select a program, select **Power BI**.
+1. In the Viva Insights app in Teams, select **My organization**, and then select **Get started** for **Unlock more insights** within the **Recommended actions** section.
+2. For **Try the beta version of Organizational Insights**, select **Download Power BI**.
+3. Open the downloaded **Employee experience** template.
 4. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
