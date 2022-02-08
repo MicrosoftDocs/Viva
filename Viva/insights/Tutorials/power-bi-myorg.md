@@ -66,22 +66,23 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 
 1. In the Viva Insights app in Teams, select **My organization**, and then select **Get started** for **Unlock more insights** within the **Recommended actions** section.
 2. For **Try the beta version of Organizational Insights**, select **Download Power BI**.
-3. Open the downloaded **Employee experience** template.
-4. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
-
-    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
+3. Open the downloaded **Employee experience** template, and if prompted to select a program, select **Power BI**.
+4. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
 
-5. In Power BI Desktop, select Publish on the ribbon and then, sign in with the same email address you use for Microsoft Viva.
-6. Follow the online instructions to view these reports in your Power BI workspace.
+6. In Power BI Desktop, select **Publish** at the top (ribbon), and then sign in with the same email address you use for Microsoft Viva.
+7. Follow the online instructions to view these reports in your Power BI workspace.
 
 ## Achieved or At Risk KPIs
 
-Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../privacy/de-identify-data.md) for details.
+Because Viva Insights respects user privacy, the Employee experience reports in Power BI do not show information about individual recipients and when necessary to protect privacy, it reports approximated values only. For example, the following shows an approximation about “Hosting targeted meetings.” Groups with less than 10 employees are not shown in the reports. See [De-identification of personal data in Viva Insights](../privacy/de-identify-data.md) for details.
 
-The following lists the minimum and maximum percentage range for the value thresholds that are used to categorize employees as Achieved or as compared to At Risk, which fall outside of these ranges.
+![Example KPI approximation about Hosting targeted meetings.](../Images/WpA/Tutorials/kpi-example.png)
+
+The following lists the minimum and maximum percentage ranges for the value thresholds that are used to categorize employees as **Achieved** as compared to **At Risk**, which fall outside of these ranges.
 
 Number of employees in a group | Value threshold range for Achieved
 --------------| ------------
