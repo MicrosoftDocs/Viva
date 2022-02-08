@@ -15,6 +15,9 @@ audience: Admin
 
 *This experience is only available through private preview at this time*
 
+>[!Important]
+>Starting in March 2022, this product will no longer be available. You can access the same insights with [Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights/).
+
 The Microsoft Viva Insights app in Microsoft Teams is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva). Microsoft Viva is the employee experience platform built on Microsoft 365 that helps people and teams be their best from wherever they work. Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams.
 
 Viva Insights in Microsoft 365 help people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing.

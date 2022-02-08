@@ -18,35 +18,35 @@ description: Read commonly asked questions and answers about using Microsoft Viv
 
 # Frequently asked questions about Microsoft Viva Topics 
 
-## Topic generation and curation
+## Topic discovery and curation
 
-### How are topics generated and updated?
+### How are topics discovered and updated?
 
-There are two ways to generate topics:
+There are two ways that topics are discovered:
 
-- Users can create topics manually.
-- AI can detect and generate topics automatically.
+- Users can add topics manually.
+- AI can identify topics automatically.
 
-Once a topic is created, AI will update the topic and related resources as it discovers new information. For manually created topics, AI will attempt to add more content based on the topic’s context. In addition, users can manually update topic cards and pages to adjust the topic description or highlight new resources and connections. These scenarios are part of the human and AI story where machine learning and human curation together can build a better experience for end users. 
+Once a topic is identified, AI can discover alternate names, description, related people and resources. For manually added topics, AI may also be able to enrich it with more content based on what has been added to the topic page. In addition, users can manually update topic pages to adjust the topic description or highlight new resources and connections. These scenarios are part of the human and AI story where machine learning and human curation together can build a better experience for end users. 
  
 AI models are run in two steps:
 
-- A basic pattern recognition that runs in a massively parallel manner on every update on every document to detect an initial set of candidate.
+- A pattern recognition that runs in a massively parallel manner on every update on every document to detect an initial set of candidate.
 - An aggregation process that actually performs inferencing of topics and their metadata. Aggregation is executed in a centralized manner on a set of worker VMs.
 
 The topics and metadata are updated incrementally as the changes are received in the system.
 
-### How does the AI work when creating new topics?
+### How does Viva Topics work when discovering new topics?
 
-Viva Topics AI builds an index similar to search, and relies on the SharePoint Online search crawler to keep the index up to date. The search crawler detects changes in SharePoint Online, performs basic parsing of various document formats, and pushes the content and metadata streams into substrate.
+Viva Topics builds an index similar to search, and relies on the SharePoint Online search crawler to keep the index up to date. The search crawler detects changes in SharePoint Online, performs basic parsing of various document formats.
 
-Viva Topics AI registers listeners in Microsoft 365 substrate for changes in these document streams. The main difference between Viva Topics and search is that Viva Topics builds a knowledge graph, not a full-text search index, making it possible to execute queries such as:
+Viva Topics listens for changes in these documents, processing them for changes to the topics it has discovered. The main difference between Viva Topics and search is that Viva Topics builds a knowledge graph, not a full-text search index, making it possible to execute queries such as:
 
 - Find all topics by name.
 - Look up metadata of a given topic, such as alternative names.
 - Find all related topics of a given topic. 
 
-For more information about topic generation and curation, see the following help articles:
+For more information about topic discovery and curation, see the following help articles:
 
 - [Topic discovery and curation in Microsoft Viva Topics](topic-experiences-discovery-curation.md)
 - [Create a new topic in Microsoft Viva Topics](create-a-topic.md)
@@ -55,9 +55,9 @@ For more information about topic generation and curation, see the following help
 
 ### When data is being indexed and analyzed, where is it stored and how long is it stored?
 
-The Object Store is a tenant-wide service separated by geographical regions. Viva Topics respects geo-sovereignty of the data it processes. The resulting topics and any intermediate state is shared into the corresponding regions where the data originates from.
+The storage is a tenant-wide service separated by geographical regions. Viva Topics respects geo-sovereignty of the data it processes. The resulting topics and any intermediate state is shared into the corresponding regions where the data originates from.
 
-For example, if topic A is identified from a file in NAM (North America), the topic will be present in the NAM region of the Object Store, with the corresponding relationship to the file and any metadata derived from it. In a multi-regional tenant, a single topic can span regions. Part of the topic can be physically stored in one region and another part can be stored in a different region, according to the origin of the underlying resources.
+For example, if topic A is identified from a file in NAM (North America), the topic will be present in the NAM region of the storage, with the corresponding relationship to the file and any metadata derived from it. In a multi-regional tenant, a single topic can span regions. Part of the topic can be physically stored in one region and another part can be stored in a different region, according to the origin of the underlying resources.
 
 When content is migrated between regions, Viva Topics data structures are updated accordingly, so if a file is migrated from EUR to GBR, the corresponding topic metadata will follow and be removed from EUR and created in the GBR.
 
@@ -96,7 +96,6 @@ Viva Topics relies on the search crawler for detecting changes and initial parsi
 ### Even if we decide not to transform our Topic Center into an app in Microsoft Teams, will Viva Topics appear in users’ chats?
 
 Transforming your Topic Center into [an app](https://aka.ms/TopicsApp) now gives your users access to topics in Microsoft Teams before the Viva Topics integration (that is, topics appear in chats) in Teams is available. Once the integration is available, you won't need to keep the Topic Center app to see the integration.
-
 
 For more information about the user experience, see the following help articles:
 

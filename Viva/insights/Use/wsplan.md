@@ -2,7 +2,7 @@
 title: Workspace Collaboration Optimizer 
 description: Learn about the Workspace Collaboration Optimizer and how to use it to create seating plans
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced
@@ -14,7 +14,7 @@ manager: scott.ruble
 audience: Admin
 
 ---
-# Workspace Collaboration Optimizer 
+# Workspace Collaboration Optimizer
 
 As a facility management professional or occupancy planner,  you can use the Workspace Collaboration Optimizer to plan a workspace. If your company is moving to a new worksite or reorganizing an existing workspace, this open-source tool can help, as follows:
 
@@ -41,11 +41,11 @@ You can create seating plans that require different variables, such as the follo
 
 ## Prerequisites
 
-Before you can use the tool, confirm the following required prerequisites are met.
+Before you can use the tool, confirm with your IT admin that you can install and set up the following required apps, which are the required prerequisites for using this tool.
 
 * **Anaconda** - Use to install and manage the following required versions of Python and Jupyter Notebook. See [Anaconda](https://www.anaconda.com/products/individual#windows) to install it. During the installation, select to **Register Anaconda as your default for Python**.
-* **Python** - Latest available or version 3.3 or later is required.
-* **Jupyter Notebook** - An open-source application that's required to run the Workspace Collaboration Optimizer.
+* **Python** - Latest available or version 3.3 or later is installed and you have some knowledge on how to use it.
+* **Jupyter Notebook** - This open-source application is installed and you have some knowledge on how to use it because it is required to run the Workspace Collaboration Optimizer.
 * **Workplace Analytics** - Have [the app set up](../setup/set-up-workplace-analytics.md) with an analyst role to create the query data for the interaction file.
 
 ## Input files
@@ -200,9 +200,16 @@ A1. Confirm you are using a [Chrome browser](https://www.google.com/chrome/). Th
 
 A2. Yes, you can use **Ctrl+C** and **Ctrl+V** to copy and paste the values in this notebook in their respective cells. At this moment, you cannot copy and paste multiple values.
 
-#### Q3. What does the X error represent?
+#### Q3. What does the error about missing packages mean?
 
-A3. Check the following, which might be causing the error.
+A3. Sometimes the tool doesn't install the following required packages through Anaconda. Confirm these packages are installed.
+
+* **Required packages** - ipython, ipywidgets, scipy, pandas, numpy, ipywidgets, ipyfilechooser, pulp, ipysheet, and geopy
+* If one or more of these packages are missing, install them through Anaconda. See [Installing conda packages](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/) for installation instructions.
+
+#### Q4. What does the X error represent?
+
+A4. Check the following, which might be causing the error.
 
 * **Distance Helper notebook** - Confirm that the addresses and the zone coordinates are entered correctly.
 * **File Validations notebook** - Confirm the input files have the correct headings and match the values in the other files. For example, the team names in the team_size.csv should match the team names in the interactions.csv and the workspace names should be the same in the distance file and the space_capacity file. Also, check the Input Files section to confirm that the Requirements.txt file has the correct names for all the required files.

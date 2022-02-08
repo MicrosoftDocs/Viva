@@ -15,6 +15,9 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
+>[!Important]
+>Starting in March 2022, this product will no longer be available. You can access the same insights with [Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights/).
+
 You can view leader insights on the **My organization** page of the Microsoft Viva Insights app in Microsoft Teams. These insights give you a snapshot of how your company is doing. They do this by presenting company-wide outcomes to focus on, and by showing leading indicators for each outcome, which help you see why it's important to pay attention to that outcome:  
 
 ![Outcomes page.](./images/my-org2.png)
