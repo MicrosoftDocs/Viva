@@ -240,31 +240,32 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 13. In **Azure Synapse New linked Service URL**, paste the query OData link that you copied in the previous step.
 14. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](https://docs.microsoft.com/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
 15. In **AAD resource**, enter 'https://workplaceanalytics.office.com'.
-16. If not set by default, paste the tenant id recorded in Step in Azure Synapse Studio > New linked service (OData) > Tenant. (if not recorded, In Active Directory, select Overview for the new app, and then copy the Directory (tenant) ID.)
-17. Paste the Application (Client) ID recorded in step 5 in Azure Synapse Studio > New linked service (OData) > Service principal ID (if not recorded, In Active Directory, select Overview for the new app, and then copy the Application (client) ID.). For details, see Linked service properties.
-18. In Azure Active Directory > your newly registered analytics app, select Certificates & secrets, and then do one of the following.
+16. If not set by default, paste your saved **Directory ID** (tenant) in **Azure Synapse Studio** > **New linked service (OData)** > **Tenant**.
+17. Paste your saved **Application ID** (client) recorded in **Azure Synapse Studio** > **New linked service (OData)** > **Service principal ID**. For details, see [Linked service properties](https://docs.microsoft.com/azure/data-factory/connector-odata#linked-service-properties).
+18. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
-    - For Key authentication, select New client secret, and then in Add a client secret, enter a description, select when it expires, and then select Add. In Client secrets, select the new secret, and then select the Copy icon to copy it.
-    - For Certificate authentication (preferred for higher security), select a certificate and copy it.
+    - For **Key authentication**, select **New client secret**, and then in **Add a client secret**, enter a description, select when it expires, and then select **Add**. In **Client secrets**, select the new secret, and then select the **Copy** icon to copy it.
+    - For **Certificate authentication** (preferred for higher security), select a certificate and copy it.
 
-19. In Azure Synapse studio, do the following for the applicable authentication type:
-    - For Service principal key, paste the new client secret copied in the previous step.
-    - For Azure key vault, copy and paste the certificate and the other required information. See Set and retrieve a secret from Azure Key Vault for details.
+19. In **Azure Synapse studio**, do the following for the applicable authentication type:
 
-20. Select Test connection to test the OData linked service.
-21. After you see Connection successful, select Create.
-22. In Set Properties > Linked service for the new OData linked service, select the new linked service you just created in the previous steps. In Path, ignore the “Failed” status and click OK.
-23. In Source, Open the source dataset created. 
-24. In the opened OData Resource, in Parameters, add PersonQueryMetaData
-25. Go back to the Connection tab, click on the empty box of the Path and use the Add Dynamic Content to set the Path to dynamic value of “@dataset().PersonQueryMetaData”
-26. Preview data to make sure you  have the correct setting. (note: if asked, input the PersonQueryMetaData parameter value manually (default is “Persons” for Person query or “Meetings” for meeting query. For other queries refer to the note in step 4 above.)
-27. Go back to the Person Query Copy activity -> Source -> Dataset Properties, click on the empty value box of the parameter and use the Add Dynamic Content to set the parameter value.
-28. For Person Query Copy activity, select the Sink tab and add a new Sink dataset.
-29. Select Azure Data Lake Storage Gen2, continue with DelimitedText as format and Continue
-30. In Set properties, select your linked storage account, which will be used as the write destination of the Viva Insights query result, in Linked Service. Leave the File Path as is.
+    - For **Service principal key**, paste the new client secret copied in the previous step in **Service principal key**.
+    - For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal) for details.
+
+20. Select **Test connection** to test the OData linked service.
+21. After confirming that the connection is successful, select **Create**.
+22. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps. In **Path**, ignore the “Failed” status and select **OK**.
+23. In **Source**, select **Open** for the source dataset that you've created.
+24. In **Parameters** for the opened OData resource, add **PersonQueryMetaData**.
+25. Go back to the **Connection** tab, select the empty field for the **Path** and use the **Add Dynamic Content** to set the path to the dynamic value of: '@dataset().PersonQueryMetaData'
+26. Select **Preview data** and confirm the path is correct. If prompted to enter the PersonQueryMetaData parameter value, use “Persons” or “Meetings," which are the defaults for the the person and meeting queries.
+27. Go back to the **Person Query Copy** activity > **Source** > **Dataset Properties**, select the empty value field for the parameter, and use the **Add Dynamic Content** to set the parameter value.
+28. For the **Person Query Copy** activity, select the **Sink** tab, and then add a new **Sink** dataset.
+29. Select **Azure Data Lake Storage Gen2**, continue with **DelimitedText** as the format, and then select **Continue**.
+30. In **Set properties**, select your linked storage account, which will be used as the write destination of the Viva Insights query result in Linked Service. Leave the **File Path** as is.
 
     >[!Note]
-    >When creating the Synapse Workspace, it links to a default storage account. To link to a different storage account (new or existing storage), follow the steps in Synapse.
+    >When creating the Synapse Workspace, it links to a default storage account. To link to a different storage account (new or existing storage), follow the steps in the [Synapse documentation](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#prepare-an-existing-storage-account-for-use-with-azure-synapse-analytics) to link a different storage account.
 
 31. In **Sink**, open the created Sync dataset.
 32. In **Parameters**, add the **PersonQueryDatasetFolder**, **PipelineID**, and **VivaInsightsDataFileSystem** parameters.
@@ -272,14 +273,14 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 
     '@concat(dataset().VivaInsightsDataFileSystem,'/',dataset().PipelineID,'/raw/',dataset().PersonQueryDatasetFolder)'
 
-34. Keep the **PersonQuerySink** tab open and go back to the pipeline tab, Person Query Copy activity, under Sink -> Dataset Properties. Use the Add Dynamic Content for each parameter to set the values accordingly.
+34. Keep the **PersonQuerySink** tab open and go back to the pipeline tab. In the **Person Query Copy** activity > **Sink** > **Dataset Properties**, use the **Add Dynamic Content** for each parameter to set the values accordingly.
 
     >[!Note]
-    >PipelineID can be found under system variables Pipeline Run ID.
+    >The PipelineID is shown under the system variables for the Pipeline Run ID.
 
 35. Publish the pipeline to confirm it's error-free.
-36. Repeat steps 6 to 36, modify the names and parameter names to create another copy data activity for meeting query called Meeting Query Copy in this walkthrough. Changes to parameter names are like PersonQueryDatasetFolder to MeetingQueryDatasetFolder or PersonQueryMetaData to MeetingQueryMetaData.
-37. Once step 37 is completed, publish the pipeline to confirm the configuration is error-free.
+36. Repeat the previous steps to modify the names and parameter names to create another copy data activity for meeting query named **Meeting Query Copy**, as shown in these steps. Change the parameter names for the meeting query to be **MeetingQueryDatasetFolder** and **MeetingQueryMetaData**, as applicable.
+37. Publish the pipeline again to confirm the configuration is error-free.
 38. Download the two Synapes Notebook ipynb files from this Github repository called vivainsights_person and vivainsights_meeting.
 39. From Synapse Develop menu, select the Notebook ellipsis (...) and import the two downloaded ipynb files.
 40. Open your Pipeline and from the Pipeline Activities menu, under Synapse, add a Notebook called Viva Insights Person Transformation and connect it to the Person Query Copy.
