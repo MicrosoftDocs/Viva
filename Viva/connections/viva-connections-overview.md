@@ -166,15 +166,9 @@ On desktop, Viva Connections surfaces your own home site as a branded app in Tea
 
 
 ### The Viva Connections mobile experience
-The Viva Connections is optimized to provide a fast, native, and branded experience focused on Dashboard, Feed, and Resources. It is a Teams application that is branded with your company name and logo.
-
 The experience in the Viva Connections mobile app is anchored around three key concepts: the Dashboard, the Feed, and Resources.
 
 ![Image of the three viva connections pivots on mobile and desktop.](../media/connections/viva-connections-mobile.png)
-
-
-
-
 
 
 ## Curated and tailored experiences
