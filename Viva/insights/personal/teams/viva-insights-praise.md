@@ -116,9 +116,9 @@ You can also access your personal praise history by selecting **Review your prai
 
 ## Upcoming changes
 
-Starting in January 2022, what's currently available for educational praise badges will change. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
+Starting in February 2022, what's currently available for educational praise badges will change. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
 
-The **Create your own badges** option will also no longer be available as of January 2022.
+The **Create your own badges** option will also no longer be available as of February 2022.
 
 However, you'll continue to be able to view the history of any praise you sent or received in the past six months with any of these newly unavailable badges or options.
 
