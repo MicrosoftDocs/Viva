@@ -36,6 +36,8 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 5. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
 6. Select **Save**.
 
+Within a few days after being assigned an Insights role, these users will get an email about what product features are available based on their role and service plan.
+
 ## Assign Workplace Analytics roles
 
 **Owner** - Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator)
@@ -88,7 +90,7 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 13. After a few seconds, you'll see a message in the upper right about the role assignment. Optionally, you can now assign additional roles, either to the same user or to different users by repeating these steps.
 
-To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments).
+To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments). After users are assigned a Workplace Analytics role, they will not receive an email notification from Workplace Analytics. As their admin, you'll need to notify them of what's available to them based on their role. For details, see [Roles in Viva Insights](../use/User-Roles.md).
 
 ## Assign roles to groups
 
