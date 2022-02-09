@@ -30,13 +30,13 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
 > Teams and SharePoint may individually support more languages than the ones below.
 
 1. Catalan
-2. Chinese(S)	
-3. Chinese(T)
+2. Chinese(Simplified)	
+3. Chinese(Traditional)
 4. Czech	
 5. Danish
 6. Dutch
 7. English	
-8. Finish
+8. Finnish
 9. French	
 10. German		
 11. Greek	
