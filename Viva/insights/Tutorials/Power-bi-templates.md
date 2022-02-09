@@ -3,7 +3,7 @@
 title: Power BI tips, troubleshooting, and FAQ
 description: Learn some tips, troubleshooting, and answers to the FAQ about setting up and using the Workplace Analytics Templates
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced
@@ -18,6 +18,12 @@ audience: Admin
 # Power BI tips, FAQ, and troubleshooting
 
 The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Templates in Workplace Analytics.
+
+For best results, use the following guidelines for selecting the parameters while setting up the templates for Power BI:
+
+* Limit the number of employees included in your query results to 50,000 or less.
+* Select the last six months or less for the time period.
+* Include up to seven organizational attributes in your query, including the required ones.
 
 ## Power BI tips
 
