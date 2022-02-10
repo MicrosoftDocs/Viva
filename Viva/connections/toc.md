@@ -9,10 +9,9 @@
 ### [Add the Viva Connections app](add-viva-connections-app.md)
 ### [Viva Connections for a specific language](viva-connections-language.md)
 ### [Embed videos in the Viva Connections Feed](video-news-links.md)
-### [Frequently asked questions about the Feed](faqs-viva-connections-feed.md) 
+### [Frequently asked questions about the Feed](faqs-viva-connections-feed.md)
+## [Troubleshoot]()
+### [Can't update app details](can't-update-app-details.md)
 ## [Webparts]()
 ### [Use the Dashboard web part](use-dashboard-web-part-on-home-site.md)
 ### [Use the Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.md)
-
-
-
