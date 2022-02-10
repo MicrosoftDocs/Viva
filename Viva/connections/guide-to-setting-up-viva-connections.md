@@ -34,6 +34,7 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 > [!IMPORTANT]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
 > - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](/sharepoint/customize-sharepoint-site-permissions) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview).
+> - Viva Connections is not supported on the Linux operating system.
 
 
 
