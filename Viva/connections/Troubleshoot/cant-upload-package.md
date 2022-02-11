@@ -19,7 +19,7 @@ search.appverid:
 
 # Error when uploading Viva Connections desktop package
 
-Your organization has decided to use the custom line of business Viva Connections desktop app. After the Viva Connections desktop package is created as a .zip file, you try to upload the package to the Microsoft Teams admin . However, you receive one of the following error messages:
+Your organization has decided to use the custom line of business Viva Connections desktop app. After the Viva Connections desktop package is created as a .zip file, you try to upload the package to the Microsoft Teams admin. However, you receive one of the following error messages:
 
 > We can't read the manifest file. Try again later.
 
@@ -50,4 +50,4 @@ Additionally, the package must follow these guidelines:
   - 192x192 pixels for the colored icon
   - 32x32 pixels for the outline (monochrome) icon
 
-After you check the information in the manifest file for these character limits and guidelines, and update the information as necessary to meet the requirements, try to upload the .zip file again.
+After you check the information in the manifest file for these character limits and conditions, and update the information as necessary to meet the requirements, try to upload the .zip file again.
