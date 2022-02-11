@@ -26,7 +26,7 @@ You can check the details of the installed app in the Microsoft Teams admin cent
 - Select [**Teams Apps** > **Manage Apps**](https://admin.teams.microsoft.com/policies/manage-apps).
 - Search for the app, and then select it. You should see information that resembles the following screenshot:
 
-    :::image type="content" source="media/cant-find-app-in-teams-mobile/custom-lob-app-version.png" alt-text="Screenshot of details for the custom line of business viva connections desktop app.":::
+    :::image type="content" source="media/cant-find-app-in-teams-mobile/custom-lob-app-version.png" alt-text="Screenshot of details for the custom line of business Viva Connections desktop app.":::
 
 If your organization wants to use a Viva Connections app that is available for both the desktop and mobile environments for Teams, you can enable the first-party Viva Connections app in the Microsoft Teams admin center:
 
@@ -37,4 +37,4 @@ If your organization wants to use a Viva Connections app that is available for b
 
 In the Microsoft Teams admin center, the details of the first-party Viva Connections app should resemble the following screenshot:
 
-:::image type="content" source="media/cant-find-app-in-teams-mobile/first-party-app-version.png" alt-text="Screenshot of the details for the first-party viva connections app for Teams desktop and mobile.":::
+:::image type="content" source="media/cant-find-app-in-teams-mobile/first-party-app-version.png" alt-text="Screenshot of the details for the first-party Viva Connections app for Teams desktop and mobile.":::
