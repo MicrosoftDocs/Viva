@@ -1,6 +1,6 @@
 ---
-title: Can't upload Viva Connections desktop package
-description: Troubleshoot an issue in which the manifest file can't be read when you upload the Viva Connections desktop package to Microsoft Teams admin center.
+title: Error when uploading Viva Connections desktop package
+description: Provides troubleshooting steps to determine why the manifest file can't be read when uploading the Viva Connections desktop package to the Teams admin center.
 author: cloud-writer
 ms.author: meerak
 manager: dcscontentpm
