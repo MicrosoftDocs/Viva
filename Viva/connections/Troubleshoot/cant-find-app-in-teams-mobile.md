@@ -17,7 +17,7 @@ search.appverid:
 - MET150
 ---
 
-# Error when uploading Viva Connections desktop package
+# Can't find Viva Connections app in Teams mobile
 
 Your organization has added the custom line of business Viva Connections desktop app. Users can see the app in Microsoft Teams on their desktop but can’t find the app in Teams on their mobile devices. This is because the custom line of business Viva Connections app is available only for Teams on the desktop.
 
