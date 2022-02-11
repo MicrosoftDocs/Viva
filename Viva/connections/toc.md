@@ -13,7 +13,7 @@
 ## [Troubleshoot]()
 ### [Can't find app in Teams mobile](troubleshoot/cant-find-app-in-teams-mobile.md)
 ### [Can't update app details](troubleshoot/cant-update-app-details.md)
-### [Can't upload package](troubleshoot/cant-update-package.md)
+### [Can't upload package](troubleshoot/cant-upload-package.md)
 ## [Webparts]()
 ### [Use the Dashboard web part](use-dashboard-web-part-on-home-site.md)
 ### [Use the Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.md)

@@ -77,6 +77,10 @@ Knowledge managers can also edit topics directly from the **Manage topics** page
  
     To add a new file, select **Add**, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.
 
+    You can use the search function in the resource picker to search for a file or page. To use the search, select **Add**. The resource picker will open and you can select the search option to search for a file or page.    
+
+   ![Screenshot showing the search option for a file or page.](../media/knowledge-management/topics-search-resource.png)    
+
     You can also use the **From a link** option to add a file or page by providing the URL. 
 
    > [!Note] 
