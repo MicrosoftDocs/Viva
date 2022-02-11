@@ -11,6 +11,7 @@
 ### [Embed videos in the Viva Connections Feed](video-news-links.md)
 ### [Frequently asked questions about the Feed](faqs-viva-connections-feed.md)
 ## [Troubleshoot]()
+### [Can't find app in Teams mobile](troubleshoot/cant-find-app-in-teams-mobile.md)
 ### [Can't update app details](troubleshoot/cant-update-app-details.md)
 ### [Can't upload package](troubleshoot/cant-update-package.md)
 ## [Webparts]()
