@@ -77,8 +77,6 @@ Translators manually translate copies of the Dashboard into the language(s) spec
 2.	**Edit** the Dashboard description.
 3.	To edit the name of the Dashboard, navigate to **Settings**, and then **Site contents**, and then find the translated Dashboard in **Site pages**. Hover over the Dashboard that you want to rename and select the ellipsies **(...)** and then select **Rename.**
 
-<image>
-
 
 ## Email notifications
 Learn more about when and why the default Dashboard owner and assigned translators will receive emails when content is edited.
@@ -86,7 +84,7 @@ Learn more about when and why the default Dashboard owner and assigned translato
 Email notifications are batched in 30-minute increments as needed. For example, when the first email related to a page is sent, and an update is made to the default language page, the next notification email or any others that need to be sent, will be batched, and sent after 30 minutes.
 
 - When a translation Dashboard is created, an email is sent to the assigned translator(s) to request a translation. The email includes a Start translating button.
-<image>
+
 
 - When a translation Dashboard is published by a translator, an email is sent to the person who requested the translation.
 - When an update is made to the default language Dashboard and saved as a draft or is published, an email is sent to the translator to notify them that an update to the translation Dashboard may be required.
@@ -99,7 +97,6 @@ After you’ve created Dashboards in additional languages, learn more about how 
 ### Confirm the languages the Dashboard can be viewed in
 The status of the translation of the Dashboard (draft saved, published, and so on) are shown in the Translation pane next to each language. To see the status:
 
-<image>
  
 1.	Go to the default Dashboard.
 2.	Select **Translation** at the top of the page.
@@ -109,7 +106,6 @@ The status of the translation of the Dashboard (draft saved, published, and so o
 ### Find a translated Dashboard
 You can use the language dropdown at the top of the page, the translation panel, or find the Dashboard in the Pages library.
 
-<image>
 
 To find it in the Pages library, do this:
 
@@ -144,7 +140,6 @@ Note:
 
 
  ### More resources
-
 
 [Set up the Viva Connections experience in a specific language](/viva/connections/viva-connections-language.md)
 
