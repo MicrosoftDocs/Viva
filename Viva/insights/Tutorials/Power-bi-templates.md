@@ -43,7 +43,7 @@ A few tips to help you use these dashboards in Power BI:
 
 * **Cross-filter and cross-highlight** - All visuals on a report page are interconnected. If you select a data point on one of the visuals, all the others on the page that contain that data will change, based on that selection.
 * **Drill down into a visual that has a hierarchy** - When a visual has a hierarchy, you can drill down to reveal additional details. Some of the charts in the dashboards support this capability, such as the "By Organization and Level Designation" chart in the Business Continuity dashboard.
-* **Export data as a table** – From the upper right corner of any visualization, select **More options** (**…**) and select **Export data**.
+* **Export data as a table** - From the upper right corner of any visualization, select **More options** (**…**) and select **Export data**.
 
 For more details about using Power BI, see [Interact with visuals in reports, dashboards, and apps](/power-bi/consumer/end-user-visualizations).
 
