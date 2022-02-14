@@ -30,13 +30,13 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 
 ## Step 1: Navigate to the Viva Connections Dashboard
 1.	Navigate to your organization’s home site.
-2.	Select Settings, and then Set up Viva Connections. Here, you will create a Dashboard and add cards for the first time or edit an existing Dashboard.
+2.	Select **Settings**, and then **Set up Viva Connections**. Here, you will create a Dashboard and add cards for the first time or edit an existing Dashboard.
 
 ## Step 2: Enable the multilingual experience and choose languages in Site settings
-1.	Select Settings from the top right, and then select Site information.
-2.	At the bottom of the site information pane, select View all site settings.
-3.	Under Site Administration, select Language settings.
-4.	Under Enable pages and news to be translated into multiple languages, slide the toggle to On.
+1.	Select **Settings** from the top right, and then select **Site information**.
+2.	At the bottom of the site information pane, select **View all site settings**.
+3.	Under **Site Administration**, select **Language settings**.
+4.	Under **Enable pages and news to be translated into multiple languages**, slide the toggle to **On**.
 
 ## Step 3: Select languages and assign translators
 1.	Under **Add or remove site languages**, start typing a language name in **Select or type a language**, or choose a language from the dropdown. You can repeat this step to add multiple languages. You can add or remove languages from your site at any time by going back to this page.
@@ -50,9 +50,9 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 
 
 >[!NOTE] 
-> - Anyone in your organization's [Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) can be assigned as a translator. People assigned as translators will not automatically be given appropriate permissions. When someone without edit permissions to a site tries to access the site, they will be directed to a web page where they can request access.
-> - You can add or remove languages from your site at any time by going back to this page.
-> - The default language of a site is set to the language chosen when the site is created. However, when English is among the supported languages, English is treated as the preferred language if the user's preferred language is not supported by the site. This is a known issue.
+> - Anyone in your organization's [Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) can be assigned as a translator. People assigned as translators will not automatically be given appropriate permissions. When someone without edit permissions to the Dashboard tries to access the site, they will be directed to a web page where they can request access.
+> - You can add or remove languages from your Dashboard at any time by going back to this settings page.
+> - The default language of a Dashboard is set to the language chosen when the Dashboard is created. However, when English is among the supported languages, English is treated as the preferred language if the user's preferred language is not supported by the Dashboard. This is a known issue.
 
 
 ## Step 4: Create Dashboards in specific languages
