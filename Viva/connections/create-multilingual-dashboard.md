@@ -43,7 +43,7 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 2.	In the **Translator** column, start typing the name of a person you want to be a [translator](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c?ui=en-us&rs=en-us&ad=us#bkmk_translators), and then select the name from the list.
 
 
-![Image of multilingual settings turned on.](../media/connections/ml-dashboard-settings.png)
+   ![Image of multilingual settings turned on.](../media/connections/ml-dashboard-settings.png)
 
 
 3. Select **Save**.
@@ -60,7 +60,7 @@ Translators manually translate copies of the Dashboard into the language(s) spec
 
 1.	Select the **Start translating** button in the email.
 
-![Image of a email translation request.](../media/connections/ml-dashboard-email.png)
+   ![Image of a email translation request.](../media/connections/ml-dashboard-email.png)
 
 2.	Select **Edit** on the top right of the Dashboard and translate the content.
 
