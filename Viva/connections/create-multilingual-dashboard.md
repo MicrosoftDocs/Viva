@@ -1,5 +1,5 @@
 ---
-title: "Create a Viva Connections Dashboard in more than one language"
+title: "Create a Viva Connect\ions Dashboard in more than one language"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
@@ -118,7 +118,7 @@ To find it in the Pages library, do this:
 To delete a translated Dashboard, you must perform a few additional steps to break the association between the default language Dashboard and the deleted Dashboard.
 1.	Go to the **Pages library** for the Dashboard.
 2.	Find the version of the Dashboard you want to delete in the language folder adjacent to the default language page. The folder can be identified by its 2- or 4-letter language code. For example, the French folder will be identified as "fr."
-3.	Select the Dashboard you want within the folder, and then select the ellipses (...) to the right of the selected page.
+3.	Select the Dashboard you want within the folder, and then select the ellipsis (...) to the right of the selected page.
 4.	Select **Delete**.
 5.	After you've deleted the version of the Dashboard that’s no longer needed, go to the default language Dashboard, and select **Edit** at the top right. If you are not in edit mode, the rest of the steps will not work.
 6.	Select **Translation** at the top of the page.
@@ -142,8 +142,8 @@ Note:
 
  ### More resources
 
-[Set up the Viva Connections experience in a specific language](/viva/connections/viva-connections-language.md)
+[Set up the Viva Connections experience in a specific language](viva/connections/viva-connections-language.md)
 
-[Create the Viva Connections Dashboard](/viva/connections/create-dashboard.md)
+[Create the Viva Connections Dashboard](viva/connections/create-dashboard.md)
 
 [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c)
