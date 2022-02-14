@@ -31,7 +31,9 @@ Most users who work on data analytics projects use Power BI Desktop to create re
 
 You must use Power BI Desktop to initialize the Viva Insights Power BI templates. When you open the Power BI template for the first time, and after you provide the query URLs, Power BI will load the output of the queries. Depending on the parameters you selected when setting up the Viva Insights queries, loading data into Power BI may take up to several hours. The previous applies to weekly data refresh as well. You can [configure scheduled refresh](https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh) in the Power BI service to define frequency and time slots to refresh the dataset.  
 
-After initializing the template, you may consider publishing it to the Power BI service to consume and share with others. For best results, publish the Viva Insights Power BI report to a workspace in a Premium capacity. 
+After initializing the template, you may consider publishing it to the Power BI service to consume and share with others. For best results, publish the Viva Insights Power BI report to a workspace in a Premium capacity.
+
+## Customizing Viva Insights Power BI Templates
 
 Power BI templates are a great way to begin your journey with Viva Insights. After you get familiar with these templates, you can customize them to fit your organization’s needs. While you’re welcome to make changes, keep in mind that template customizations could affect report performance.
 
