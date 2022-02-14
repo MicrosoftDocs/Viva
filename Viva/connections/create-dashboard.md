@@ -38,7 +38,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Add an Adaptive Card Extension](##design-your-own-card-with-a-quick-view)
+- [Add an Adaptive Card Extension](#design-your-own-card-with-a-quick-view)
 - [Add a Shifts card](#add-a-shifts-card)
 - [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
@@ -199,19 +199,7 @@ Under **Quick view layout and data**, enter JSON template code for your quick vi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp![The screen on which the JSON template code is entered to retrieve and view the quick view layout of the data](media/adaptive-cards-templating.png)
 
-If you want to target your card to specific audiences (that is, only audiences you specify will see the card in the Dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
-
-
-
-
-
-
-
-
-
-
-
-
+If you want to target your card to specific audiences (that is, only audiences you specify will see the card in the Dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Add a Shifts card
