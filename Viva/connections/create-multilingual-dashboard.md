@@ -57,7 +57,7 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 
 
 ## Step 4: Create Dashboards in specific languages
-Translators manually translate copies of the Dashboard into the language(s) specified. When you select a language and assign a translator, a copy of the Dashboard is created, and translators are notified in an email that a translation is requested. The email includes a link to a copy of the Dashboard. An email notification will be sent to the person who requested the translation when its done. The translator will:
+Translators manually translate copies of the Dashboard into the language(s) specified. When you select a language and assign a translator, a copy of the Dashboard is created, and translators are notified in an email that a translation is requested. The email includes a link to a copy of the Dashboard. An email notification will be sent to the person who requested the translation when it's done. The translator will:
 
 1.	Select the **Start translating** button in the email.
 
@@ -76,7 +76,7 @@ Translators manually translate copies of the Dashboard into the language(s) spec
 
 1.	To edit the description, from the Dashboard, select **Dashboard settings** in the command bar.
 2.	**Edit** the Dashboard description.
-3.	To edit the name of the Dashboard, navigate to **Settings**, and then **Site contents**, and then find the translated Dashboard in **Site pages**. Hover over the Dashboard that you want to rename and select the ellipsies **(...)** and then select **Rename.**
+3.	To edit the name of the Dashboard, navigate to **Settings**, and then **Site contents**, and then find the translated Dashboard in **Site pages**. Hover over the Dashboard that you want to rename and select the ellipsis **(...)** and then select **Rename.**
 
 
 ## Email notifications
@@ -96,7 +96,7 @@ Email notifications are batched in 30-minute increments as needed. For example, 
 After you’ve created Dashboards in additional languages, learn more about how to confirm which languages are available, update translated versions, and delete translations that are no longer needed. 
 
 ### Confirm the languages the Dashboard can be viewed in
-The status of the translation of the Dashboard (draft saved, published, and so on) are shown in the Translation pane next to each language. To see the status:
+The status of the translation of the Dashboard (draft saved, published, and so on) is shown in the Translation pane next to each language. To see the status:
 
  
 1.	Go to the default Dashboard.
@@ -117,7 +117,7 @@ To find it in the Pages library, do this:
 ### Delete a version of the Dashboard for a specific language
 To delete a translated Dashboard, you must perform a few additional steps to break the association between the default language Dashboard and the deleted Dashboard.
 1.	Go to the **Pages library** for the Dashboard.
-2.	Find the version of the Dashboard you want to delete in the language folder adjacent to the default language page. The folder can be identified by it's 2- or 4-letter language code. For example, the French folder will be identified as "fr."
+2.	Find the version of the Dashboard you want to delete in the language folder adjacent to the default language page. The folder can be identified by its 2- or 4-letter language code. For example, the French folder will be identified as "fr."
 3.	Select the Dashboard you want within the folder, and then select the ellipses (...) to the right of the selected page.
 4.	Select **Delete**.
 5.	After you've deleted the version of the Dashboard that’s no longer needed, go to the default language Dashboard, and select **Edit** at the top right. If you are not in edit mode, the rest of the steps will not work.
