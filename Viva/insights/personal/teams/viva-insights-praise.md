@@ -26,8 +26,8 @@ You can also set reminders to send acclaim on a regular basis to your coworkers 
 
 To send praise, open the praise feature in one of the following ways:
 
-* The Viva Insights [Home](#send-praise-from-the-home-page) page
-* The [content pane](#send-praise-from-the-content-pane) of Teams
+* The Viva Insights [Home](#send-praise-from-the-viva-insights-home-page) page
+* The [content pane](#send-praise-from-the-Teams-content-pane-using-the-Praise-messaging-extension) of Teams
 
 ### Send praise from the Viva Insights Home page
 
@@ -52,7 +52,8 @@ To send praise, open the praise feature in one of the following ways:
 5. (Optional) In the **Note** field, add a personalized note.
 
 6. (Optional) Select **Preview**.
-   * Inspect your praise on the left panel. If you need to edit it, select **Edit**. Change the badge choice, the recipients list, or the personalized note. 
+   * Inspect your praise on the left panel. If you need to edit it, select **Edit**. Change the badge choice, the recipients list, or the personalized note.
+
    ![Select Preview.](images/preview.png)
 
 7. When it's ready to go, select **Send**.
@@ -89,7 +90,7 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
    The **Praise** app opens.
 
-3. Continue with the steps in [Send a praise message](#send-praise-from-the-Teams-content-pane-using-the-Praise-messaging-extension).
+3. Continue with the steps in [Send praise from the Teams content pane using Praise messaging extension](#send-praise-from-the-teams-content-pane-using-the-praise-messaging-extension').
 
 ## Set praise reminders
 
@@ -108,7 +109,7 @@ You can set praise reminders either on the [**Settings** page](viva-teams-app-se
 
    ![Praise reminder.](images/praise-settings-page.png)
 
-   On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send a praise message](#send-a-praise-message).
+   On the day of the week and time that you configured, the Viva Insights app will remind you to send praise. Selecting the reminder notification opens the Praise feature, after which you can continue with the steps in [Send praise from the Viva Insights Home page](#send-praise-from-the-viva-insights-home-page).
 
 ## Praise history
 
