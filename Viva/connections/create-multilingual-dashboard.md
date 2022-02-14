@@ -1,5 +1,5 @@
 ---
-title: "Create a Viva Connect\ions Dashboard in more than one language"
+title: "Create a Viva Connections Dashboard in more than one language"
 ms.reviewer: 
 ms.author: hokavian
 author: Holland-ODSP
