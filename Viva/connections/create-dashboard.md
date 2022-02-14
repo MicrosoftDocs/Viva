@@ -25,7 +25,7 @@ description: "Learn how to create the Viva Connections Dashboard"
 
 The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
-![Image of a Dashboard example.](../media/connections/vc-hero2.png)
+![Image of a Dashboard example.](../media/connections/vc-dashboard.png)
 
 Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your [home site.](home-site-plan.md) As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site. When you are done, you can add it to Microsoft Teams so that it's easily accessible from a mobile device and desktop. You can also add it to your home page using the [Dashboard web part.](/sharepoint/use-dashboard-web-part-on-home-site)
 
@@ -55,7 +55,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 3. Select the **+ Create Dashboard** button.
 
    >[!NOTE]
-   > - The Dashboard page opens in Mobile view by default.
+   > - The Dashboard page opens in mobile view by default.
    > - You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
    > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
    > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
@@ -67,15 +67,16 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 
 
 5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile, desktop, and tablet for different audiences.
-Here are the built-in cards available now:
 
-   [Web link](#add-a-web-link-card): Add an internal or external link
+**Here are the built-in cards available now:**
 
-   [Assigned tasks](#add-the-assigned-tasks-card): Automatically display information to users about their assigned tasks.
+  - [Web link](#add-a-web-link-card): Add an internal or external link
+
+  - [Assigned tasks](#add-the-assigned-tasks-card): Automatically display information to users about their assigned tasks.
  
-   [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
+  - [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
 
-   [Adaptive Card Extensions](#design-your-own-card-with-a-quick-view): Also known as ACEs, can be fully customized using JSON
+  - [Design your own using Adaptive Card Extensions](#design-your-own-card-with-a-quick-view): Also known as ACEs, can be fully customized using JSON
 
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
@@ -154,7 +155,7 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
 
 ## Design your own card with a quick view
 
-You can choose the **card designer** option to design your own card that includes a quick view. To do this, you should be familiar with JSON and Adaptive Card templates. For more information, see [Adaptive Cards Templating](/adaptive-cards/templating/).
+You can choose the **Card designer** option to design your own card that includes a quick view. To do this, you should be familiar with JSON and Adaptive Card templates. For more information, see [Adaptive Cards Templating](/adaptive-cards/templating/).
 
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
 2. Select **Card designer**.
