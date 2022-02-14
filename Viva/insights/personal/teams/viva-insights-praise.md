@@ -27,7 +27,7 @@ You can also set reminders to send acclaim on a regular basis to your coworkers 
 To send praise, open the praise feature in one of the following ways:
 
 * The Viva Insights [Home](#send-praise-from-the-viva-insights-home-page) page
-* The [content pane](#send-praise-from-the-Teams-content-pane-using-the-Praise-messaging-extension) of Teams
+* The [content pane](#send-praise-from-the-teams-content-pane-using-the-praise-messaging-extension) of Teams
 
 ### Send praise from the Viva Insights Home page
 
@@ -90,7 +90,7 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
    The **Praise** app opens.
 
-3. Continue with the steps in [Send praise from the Teams content pane using Praise messaging extension](#send-praise-from-the-teams-content-pane-using-the-praise-messaging-extension').
+3. Continue with the steps in [Send praise from the Teams content pane using Praise messaging extension](#send-praise-from-the-teams-content-pane-using-the-praise-messaging-extension).
 
 ## Set praise reminders
 
