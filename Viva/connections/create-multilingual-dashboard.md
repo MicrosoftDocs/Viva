@@ -18,6 +18,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to create a Viva Connections Dashboard in more than one language"
 ---
 
