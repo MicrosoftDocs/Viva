@@ -33,7 +33,7 @@ You must use Power BI Desktop to initialize the Viva Insights Power BI templates
 
 After initializing the template, you may consider publishing it to the Power BI service to consume and share with others. For best results, publish the Viva Insights Power BI report to a workspace in a Premium capacity.
 
-## Customizing Viva Insights Power BI Templates
+## Customizing Viva Insights Power BI templates
 
 Power BI templates are a great way to begin your journey with Viva Insights. After you get familiar with these templates, you can customize them to fit your organization’s needs. While you’re welcome to make changes, keep in mind that template customizations could affect report performance.
 
