@@ -19,11 +19,21 @@ audience: Admin
 
 The following provides a few key Power BI tips, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the Templates in Workplace Analytics.
 
+## Setting up the Power BI template 
+
 For best results, use the following guidelines for selecting the parameters while setting up the templates for Power BI:
 
 * Limit the number of employees included in your query results to 50,000 or less.
 * Select the last six months or less for the time period.
 * Include up to seven organizational attributes in your query, including the required ones.
+
+Most users who work on data analytics projects use Power BI Desktop to create reports, and then use the Power BI service to share their reports with others. 
+
+You must use Power BI Desktop to initialize the Viva Insights Power BI templates. When you open the Power BI template for the first time, and after you provide the query URLs, Power BI will load the output of the queries. Depending on the parameters you selected when setting up the Viva Insights queries, loading data into Power BI may take up to several hours. The previous applies to weekly data refresh as well. You can [configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) in the Power BI service to define frequency and time slots to refresh the dataset.  
+
+After initializing the template, you may consider publishing it to the Power BI service to consume and share with others. For best results, publish the Viva Insights Power BI report to a workspace in a Premium capacity. 
+
+Power BI templates are a great way to begin your journey with Viva Insights. After you get familiar with these templates, you can customize them to fit your organization’s needs. While you’re welcome to make changes, keep in mind that template customizations could affect report performance.
 
 ## Power BI tips
 
