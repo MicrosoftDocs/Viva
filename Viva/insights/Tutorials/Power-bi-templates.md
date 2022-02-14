@@ -29,7 +29,7 @@ For best results, use the following guidelines for selecting the parameters whil
 
 Most users who work on data analytics projects use Power BI Desktop to create reports, and then use the Power BI service to share their reports with others. 
 
-You must use Power BI Desktop to initialize the Viva Insights Power BI templates. When you open the Power BI template for the first time, and after you provide the query URLs, Power BI will load the output of the queries. Depending on the parameters you selected when setting up the Viva Insights queries, loading data into Power BI may take up to several hours. The previous applies to weekly data refresh as well. You can [configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) in the Power BI service to define frequency and time slots to refresh the dataset.  
+You must use Power BI Desktop to initialize the Viva Insights Power BI templates. When you open the Power BI template for the first time, and after you provide the query URLs, Power BI will load the output of the queries. Depending on the parameters you selected when setting up the Viva Insights queries, loading data into Power BI may take up to several hours. The previous applies to weekly data refresh as well. You can [configure scheduled refresh](https://docs.microsoft.com/en-us/power-bi/connect-data/refresh-scheduled-refresh) in the Power BI service to define frequency and time slots to refresh the dataset.  
 
 After initializing the template, you may consider publishing it to the Power BI service to consume and share with others. For best results, publish the Viva Insights Power BI report to a workspace in a Premium capacity. 
 
