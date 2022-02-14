@@ -142,8 +142,8 @@ Note:
 
  ### More resources
 
-[Set up the Viva Connections experience in a specific language](viva/connections/viva-connections-language.md)
+[Set up the Viva Connections experience in a specific language](/viva/connections/viva-connections-language.md)
 
-[Create the Viva Connections Dashboard](viva/connections/create-dashboard.md)
+[Create the Viva Connections Dashboard](/viva/connections/create-dashboard.md)
 
 [Create multilingual communication sites, pages, and news](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c)
