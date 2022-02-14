@@ -42,9 +42,8 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 1.	Under **Add or remove site languages**, start typing a language name in **Select or type a language**, or choose a language from the dropdown. You can repeat this step to add multiple languages. You can add or remove languages from your site at any time by going back to this page.
 2.	In the **Translator** column, start typing the name of a person you want to be a [translator](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c?ui=en-us&rs=en-us&ad=us#bkmk_translators), and then select the name from the list.
 
-<image>
 
-   ![Image of adding a dashboard card.](../media/connections/add-a-card.png)
+![Image of multilingual settings turned on.](../media/connections/add-a-card.png)
 
 
 3. Select **Save**.
@@ -60,6 +59,8 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 Translators manually translate copies of the Dashboard into the language(s) specified. When you select a language and assign a translator, a copy of the Dashboard is created, and translators are notified in an email that a translation is requested. The email includes a link to a copy of the Dashboard. An email notification will be sent to the person who requested the translation when its done. The translator will:
 
 1.	Select the **Start translating** button in the email.
+
+![Image of a email translation request.](../media/connections/ml-dashboard-email.png)
 
 2.	Select **Edit** on the top right of the Dashboard and translate the content.
 
