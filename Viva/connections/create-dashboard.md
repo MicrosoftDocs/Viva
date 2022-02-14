@@ -38,6 +38,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
+- [Add an Adaptive Card Extension](##design-your-own-card-with-a-quick-view)
 - [Add a Shifts card](#add-a-shifts-card)
 - [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
@@ -73,6 +74,8 @@ Here are the built-in cards available now:
    [Assigned tasks](#add-the-assigned-tasks-card): Automatically display information to users about their assigned tasks.
  
    [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
+
+   [Adaptive Card Extensions](#design-your-own-card-with-a-quick-view): Also known as ACEs, can be fully customized using JSON
 
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
@@ -147,6 +150,68 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
     - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
+## Design your own card with a quick view
+
+You can choose the **card designer** option to design your own card that includes a quick view. To do this, you should be familiar with JSON and Adaptive Card templates. For more information, see [Adaptive Cards Templating](/adaptive-cards/templating/).
+
+1. While in **edit** mode, select **+ Add a card** from the dashboard.
+2. Select **Card designer**.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp![Adding a Card designer card](media/card-designer.png)
+
+3. In the **property** pane, select your card options.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![property pane](media/property-pane.png)
+
+4. From the **Card size** drop-down list, choose either **Medium** or **Large**.
+   A medium-sized card allows you to add one button, while a large-sized card allows you to add two buttons.
+
+5. Enter a title for your card in the **Title** text box. 
+6. Enter a URL in the **Icon** text box. This URL is the icon's location.
+7. Select a template type from one of the following options in the **Templlate type** drop-down list:
+    - **Text**: Provides you the option to add only a heading.
+    - **Text and image**: Provides you the option to add a heading and an image.
+    - **Text and description**: Provides you the option to add your own heading and a description, but without an image option.
+8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
+
+>[!NOTE]
+>If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
+>
+
+9. Toggle **Enable card action** to **On** if you want the card to either go to a link or show a quick view when the user selects it. 
+
+> [!IMPORTANT]
+> The quick view will need to be set up first (see the Add a quick view section below).
+
+10. Set the number of buttons to be displayed under **Number of buttons**. 
+    For a medium-sized card, you can show only 1 button. For a large-sized card you can show 1 or 2 buttons.
+
+1. Enter values for the following properties of the button:
+    - **Title**: Title for the button.
+    - **Action**: The result on clicking the button.
+    - **Link**: The URL of the destination the user is directed to, on clicking the button.
+
+## Set up a quick view
+
+Under **Quick view layout and data**, enter JSON template code for your quick view layout, and add the code for the data you want to use. For more information on templating and data with some examples, see [Adaptive Cards Templating](media/adaptive-cards/templating/). You can find more examples at [Adaptive Cards](https://adaptivecards.io/designer/).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp![The screen on which the JSON template code is entered to retrieve and view the quick view layout of the data](media/adaptive-cards-templating.png)
+
+If you want to target your card to specific audiences (that is, only audiences you specify will see the card in the Dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#audience-targeting).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Add a Shifts card
