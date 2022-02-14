@@ -65,7 +65,7 @@ Personal insights in Viva Insights and MyAnalytics are available in most of the 
 
 Briefing emails are are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
 
-[Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments.md#language-support)
+[Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments#language-support)
 
 **Advanced**
 

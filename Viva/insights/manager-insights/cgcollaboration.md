@@ -35,15 +35,15 @@ Employees that collaborate across silos are more aware of other perspectives and
 * Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
 * Use [Manage important people](../personal/use/network.md) to mark key internal contacts as important to never miss emails from them and to respond more efficiently.
 * Motivate team members to reach across silos. Break down silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
-* Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.  
+* Map the interdependencies between different teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover such emergencies.  
 * Pair newcomers and network inﬂuencers through staffing or mentoring. This simple practice triples newcomer connectivity compared to employees who don't get this experience.  
 * Create inclusive and trusting environments to ease agile collaboration. A culture of fear exists when employees don't feel safe to come forward with ideas or those on the fringe feel less confident about contributing.  
 * Set up "communities of practice" or business development initiatives to help share expertise or resources.  
-* Set speciﬁc goals and reward agile collaboration. Peer feedback helps to identify people who the formal performance reviews might otherwise overlook.
+* Set specific goals and reward agile collaboration. Peer feedback helps to identify people who the formal performance reviews might otherwise overlook.
 
 ## Change strategies
 
-#### Cocreate lists of go-to contacts and distribute them to highly networked individuals
+#### Co-create lists of go-to contacts and distribute them to highly networked individuals
 
 Survey the group to collect a list of contacts. This list could be a good place for your team to start when they establish new connections. This can empower you and your team with the right contacts in order to solve any problems that might arise. Ways to do this:
 
