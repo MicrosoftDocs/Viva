@@ -47,7 +47,7 @@ When composing email in Outlook, you can delay delivery of an email as follows:
    * **Send now** to ignore the scheduled delivery time and send the email now.
    * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
 
-   ![Delay delivery options](../../Images/mya/use/delay-options-2.png)
+   ![Delay delivery options after being sent](../../Images/mya/use/delay-options-2.png)
 
 ## Opt in with the dashboard
 
