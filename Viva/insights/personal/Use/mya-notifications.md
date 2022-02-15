@@ -89,7 +89,7 @@ When inline suggestions is turned on, you can delay up two email deliveries each
    * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
    * **Cancel delay** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
 
-   ![Delay delivery options](../../Images/mya/use/delay-options.png)
+   ![Delay delivery inline options](../../Images/mya/use/delay-options.png)
 
 3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
