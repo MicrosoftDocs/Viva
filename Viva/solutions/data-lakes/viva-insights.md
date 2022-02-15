@@ -235,55 +235,56 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 10. In **New linked service (OData)**, enter a name and description for the query data you’re linking to.
 
     1. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
-    2. On the Query designer **Results** page within Workplace Analytics, copy the OData link for the person query data you want to connect to Azure.
-    3. In **Azure Synapse New linked Service URL**, paste the query OData link that you copied in the previous step.
-    4. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](https://docs.microsoft.com/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
+    2. Open Workplace Analytics in a separate browser, and then on the Query designer **Results** page, copy the OData link for the person query data you want to connect to Azure.
+    3. In **Service URL**, paste the query OData link that you copied in the previous step.
+    4. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](https://docs.microsoft.com/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
     5. In **AAD resource**, enter 'https://workplaceanalytics.office.com'.
-    6. If not set by default, paste your saved **Directory ID** (tenant) in **Azure Synapse Studio** > **New linked service (OData)** > **Tenant**.
-    7. Paste your saved **Application ID** (client) recorded in **Azure Synapse Studio** > **New linked service (OData)** > **Service principal ID**. For details, see [Linked service properties](https://docs.microsoft.com/azure/data-factory/connector-odata#linked-service-properties).
+    6. If not set by default, paste your saved **Directory ID** (tenant) in **AAD tenant**.
+    7. Paste your saved **Application ID** (client) recorded in **AAD service principal ID**. For details, see [Linked service properties](https://docs.microsoft.com/azure/data-factory/connector-odata#linked-service-properties).
     8. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
        - For **Key authentication**, select **New client secret**, and then in **Add a client secret**, enter a description, select when it expires, and then select **Add**. In **Client secrets**, select the new secret, and then select the **Copy** icon to copy it.
        - For **Certificate authentication** (preferred for higher security), select a certificate and copy it.
 
-    9. In **Azure Synapse studio**, do the following for the applicable authentication type:
+    9. Back in the **New linked service** window, do the following for the applicable authentication type:
 
        - For **Service principal key**, paste the new client secret copied in the previous step in **Service principal key**.
        - For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal) for details.
 
-11. Select **Test connection** to test the OData linked service.
-12. After confirming that the connection is successful, select **Create**.
-13. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps. In **Path**, ignore the “Failed” status and select **OK**.
-14. In **Source**, select **Open** for the source dataset that you've created.
-15. In **Parameters** for the opened OData resource, add **PersonQueryMetaData**.
-16. Go back to the **Connection** tab, select the empty field for the **Path** and use the **Add Dynamic Content** to set the path to the dynamic value of: '@dataset().PersonQueryMetaData'
-17. Select **Preview data** and confirm the path is correct. If prompted to enter the PersonQueryMetaData parameter value, use “Persons” or “Meetings," which are the defaults for the the person and meeting queries.
-18. Go back to the **Person Query Copy** activity > **Source** > **Dataset Properties**, select the empty value field for the parameter, and use the **Add Dynamic Content** to set the parameter value.
-19. For the **Person Query Copy** activity, select the **Sink** tab, and then add a new **Sink** dataset.
-20. Select **Azure Data Lake Storage Gen2**, continue with **DelimitedText** as the format, and then select **Continue**.
-21. In **Set properties**, select your linked storage account, which will be used as the write destination of the Viva Insights query result in Linked Service. Leave the **File Path** as is.
+    10. Select **Test connection** to test the OData linked service.
+    11. After confirming that the connection is successful, select **Create**.
+
+11. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps. In **Path**, ignore the “Failed” status and select **OK**.
+12. In **Source**, select **Open** for the source dataset that you've created.
+13. In **Parameters** for the opened OData resource, add **PersonQueryMetaData**.
+14. Go back to the **Connection** tab, select the empty field for the **Path** and use the **Add Dynamic Content** to set the path to the dynamic value of: '@dataset().PersonQueryMetaData'
+15. Select **Preview data** and confirm the path is correct. If prompted to enter the PersonQueryMetaData parameter value, use “Persons” or “Meetings," which are the defaults for the person and meeting queries.
+16. Go back to the **Person Query Copy** activity > **Source** > **Dataset Properties**, select the empty value field for the parameter, and use the **Add Dynamic Content** to set the parameter value.
+17. For the **Person Query Copy** activity, select the **Sink** tab, and then add a new **Sink** dataset.
+18. Select **Azure Data Lake Storage Gen2**, continue with **DelimitedText** as the format, and then select **Continue**.
+19. In **Set properties**, select your linked storage account, which will be used as the write destination of the Viva Insights query result in Linked Service. Leave the **File Path** as is.
 
     >[!Note]
     >When creating the Synapse Workspace, it links to a default storage account. To link to a different storage account (new or existing storage), follow the steps in the [Synapse documentation](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#prepare-an-existing-storage-account-for-use-with-azure-synapse-analytics) to link a different storage account.
 
-22. In **Sink**, open the created Sync dataset.
-23. In **Parameters**, add the **PersonQueryDatasetFolder**, **PipelineID**, and **VivaInsightsDataFileSystem** parameters.
-24. In **Connection**, select the **File Path** > **Directory** > **Add Dynamic Content** and create the following path:
+20. In **Sink**, open the created Sync dataset.
+21. In **Parameters**, add the **PersonQueryDatasetFolder**, **PipelineID**, and **VivaInsightsDataFileSystem** parameters.
+22. In **Connection**, select the **File Path** > **Directory** > **Add Dynamic Content** and create the following path:
 
     '@concat(dataset().VivaInsightsDataFileSystem,'/',dataset().PipelineID,'/raw/',dataset().PersonQueryDatasetFolder)'
 
-25. Keep the **PersonQuerySink** tab open and go back to the pipeline tab. In the **Person Query Copy** activity > **Sink** > **Dataset Properties**, use the **Add Dynamic Content** for each parameter to set the values accordingly.
+23. Keep the **PersonQuerySink** tab open and go back to the pipeline tab. In the **Person Query Copy** activity > **Sink** > **Dataset Properties**, use the **Add Dynamic Content** for each parameter to set the values accordingly.
 
     >[!Note]
     >The PipelineID is shown under the system variables for the Pipeline Run ID.
 
-26. Publish the pipeline to confirm it's error-free.
-27. Repeat the previous steps to modify the names and parameter names to create another copy data activity for meeting query named **Meeting Query Copy**, as shown in these steps. Change the parameter names for the meeting query to be **MeetingQueryDatasetFolder** and **MeetingQueryMetaData**, as applicable.
-28. Publish the pipeline again to confirm the configuration is error-free.
-29. Download the **vivainsights_person** and **vivainsights_meeting** Synapse Notebook (ipynb) files from [this GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights).
-30. In the Synapse **Develop** menu, select the **Notebook ellipsis** (...) and import the two downloaded ipynb files.
-31. Open your Pipeline and from the Pipeline **Activities** menu, under **Synapse**, add a **Notebook** named **Viva Insights Person Transformation**, and then connect it to the **Person Query Copy**.
-32. In **Settings** for the Notebook, select the imported **vivainsights_person** notebook, add the following base parameters, and then use the **Add dynamic content** to initialize them with the pre-defined Pipeline parameters:
+24. Publish the pipeline to confirm it's error-free.
+25. Repeat the previous steps to modify the names and parameter names to create another copy data activity for meeting query named **Meeting Query Copy**, as shown in these steps. Change the parameter names for the meeting query to be **MeetingQueryDatasetFolder** and **MeetingQueryMetaData**, as applicable.
+26. Publish the pipeline again to confirm the configuration is error-free.
+27. Download the **vivainsights_person** and **vivainsights_meeting** Synapse Notebook (ipynb) files from [this GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights).
+28. In the Synapse **Develop** menu, select the **Notebook ellipsis** (...) and import the two downloaded ipynb files.
+29. Open your Pipeline and from the Pipeline **Activities** menu, under **Synapse**, add a **Notebook** named **Viva Insights Person Transformation**, and then connect it to the **Person Query Copy**.
+30. In **Settings** for the Notebook, select the imported **vivainsights_person** notebook, add the following base parameters, and then use the **Add dynamic content** to initialize them with the pre-defined Pipeline parameters:
 
     - VivaInsightsDataFileSystem
     - StorageAccountName
@@ -300,10 +301,10 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 
        ![Pipeline example.](../images/pipeline-example.png)
 
-33. Repeat the previous two steps to add another notebook named **Viva Insights Meeting Transformation**, and then connect it to the **Meeting Query Copy** activity. For this notebook, add the **MeetingQueryDatasetFolder**.
-34. Publish the pipeline to confirm it's error-free.
-35. In [the GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights), download the two SQL scripts to create the **viva_insights_meeting** and **viva_insights_person** tables.
-36. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it.
+31. Repeat the previous two steps to add another notebook named **Viva Insights Meeting Transformation**, and then connect it to the **Meeting Query Copy** activity. For this notebook, add the **MeetingQueryDatasetFolder**.
+32. Publish the pipeline to confirm it's error-free.
+33. In [the GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights), download the two SQL scripts to create the **viva_insights_meeting** and **viva_insights_person** tables.
+34. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it.
 
 ## Consume data for analytics
 
