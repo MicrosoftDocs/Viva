@@ -38,7 +38,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Add an Adaptive Card Extension](#design-your-own-card-with-a-quick-view)
+- [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
 - [Add a Shifts card](#add-a-shifts-card)
 - [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
@@ -76,7 +76,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
  
   - [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
 
-  - [Design your own using Adaptive Card Extensions](#design-your-own-card-with-a-quick-view): Also known as ACEs, can be fully customized using JSON
+  - [Design your own using Card designer](#design-your-own-card-with-a-quick-view): Create customizable cards using JSON
 
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
@@ -160,11 +160,11 @@ You can choose the **Card designer** option to design your own card that include
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
 2. Select **Card designer**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp![Adding a Card designer card](media/card-designer.png)
+  ![Adding a Card designer card](media/card-designer.png)
 
 3. In the **property** pane, select your card options.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![property pane](media/property-pane.png)
+  ![property pane](media/card-designer-panel.png)
 
 4. From the **Card size** drop-down list, choose either **Medium** or **Large**.
    A medium-sized card allows you to add one button, while a large-sized card allows you to add two buttons.
@@ -197,8 +197,6 @@ You can choose the **Card designer** option to design your own card that include
 ## Set up a quick view
 
 Under **Quick view layout and data**, enter JSON template code for your quick view layout, and add the code for the data you want to use. For more information on templating and data with some examples, see [Adaptive Cards Templating](media/adaptive-cards/templating/). You can find more examples at [Adaptive Cards](https://adaptivecards.io/designer/).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp![The screen on which the JSON template code is entered to retrieve and view the quick view layout of the data](media/adaptive-cards-templating.png)
 
 If you want to target your card to specific audiences (that is, only audiences you specify will see the card in the Dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
