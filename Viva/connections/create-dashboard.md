@@ -160,11 +160,11 @@ You can choose the **Card designer** option to design your own card that include
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
 2. Select **Card designer**.
 
-  ![Adding a Card designer card](media/connections/card-designer.png)
+  ![Adding a Card designer card](../media/connections/card-designer.png)
 
 3. In the **property** pane, select your card options.
 
-  ![property pane](media/connections/card-designer-panel.png)
+  ![property pane](../media/connections/card-designer-panel.png)
 
 4. From the **Card size** drop-down list, choose either **Medium** or **Large**.
    A medium-sized card allows you to add one button, while a large-sized card allows you to add two buttons.
