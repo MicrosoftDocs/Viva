@@ -22,7 +22,7 @@ When you're composing an email in Outlook, Delay delivery will show you suggesti
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
-You can opt in to the Delay delivery plan through MyAnalytics or through the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers. The Delay delivery plan is currently available in the Outlook desktop app for Windows. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
+You can opt in to the Delay delivery plan through MyAnalytics or through the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers. The Delay delivery plan is currently available in the Outlook desktop app for Windows. Be sure you are using Outlook for Windows 2016 version 1808 or later and build 16.0.12016.10000 or later.
 
 ## Use Delay delivery
 
