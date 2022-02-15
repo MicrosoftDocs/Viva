@@ -171,7 +171,7 @@ You can choose the **Card designer** option to design your own card that include
 
 5. Enter a title for your card in the **Title** text box. 
 6. Enter a URL in the **Icon** text box. This URL is the icon's location.
-7. Select a template type from one of the following options in the **Templlate type** drop-down list:
+7. Select a template type from one of the following options in the **Template type** drop-down list:
     - **Text**: Provides you the option to add only a heading.
     - **Text and image**: Provides you the option to add a heading and an image.
     - **Text and description**: Provides you the option to add your own heading and a description, but without an image option.
@@ -295,7 +295,7 @@ What you see in *preview mode* approximates how the Dashboard will display for c
    2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a disabled **Audience targeting** label).
 
 
-   3. Search for and select a groups. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
+   3. Search for and select a group. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
 
    ![Audience targeting group label.](../media/connections/selecting-groups.png)
 
