@@ -304,11 +304,11 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 31. Repeat the previous two steps to add another notebook named **Viva Insights Meeting Transformation**, and then connect it to the **Meeting Query Copy** activity. For this notebook, add the **MeetingQueryDatasetFolder**.
 32. Publish the pipeline to confirm it's error-free.
 33. In [the GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights), download the two SQL scripts to create the **viva_insights_meeting** and **viva_insights_person** tables.
-34. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it.
+34. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it. The pipeline is now complete and can be triggered
 
 ## Consume data for analytics
 
-After the Viva Insights query data is included in the SQL Database, you can now add an analytics layer. Almost all platforms, applications, and scripting/programming languages have connectors for SQL Databases. The following is sample script for Python and R.
+After the Viva Insights query data is included in the SQL Database, you can now add an analytics layer. Almost all platforms, applications, and scripting or programming languages have connectors for SQL Databases. The following is sample script for Python and R.
 
 Follow these steps to connect your Power BI desktop to the SQL Database:
 
@@ -323,9 +323,9 @@ Follow these steps to connect your Power BI desktop to the SQL Database:
 
 ## Additional external data sources
 
-Many advanced analytics use cases require the joining of multiple data sources for a comprehensive view of workplace interactions and collaboration patterns. The secondary **EmployeeId** for this pipeline is the key that's added to Viva Insight data to enable dataset joins.
+Many advanced analytics use cases require the joining of multiple data sources for a comprehensive view of workplace interactions and collaboration patterns. The secondary **EmployeeId** in this pipeline is the key that's added to Viva Insight data to enable dataset joins.
 
 You can use Synapse activities and capabilities to load the additional data source into the SQL database and join via a python script or BI tools like Power BI for analysis.
 
 >[!Note]
->PersonId in Viva Insights data is, by default, a hashed and de-identified employee identifier which cannot be reverse mapped and so cannot be used for the join purpose.
+>PersonId in Viva Insights data is, by default, a hashed and de-identified employee identifier which cannot be reverse mapped and so cannot be used as the join key.
