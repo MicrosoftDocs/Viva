@@ -160,11 +160,11 @@ You can choose the **Card designer** option to design your own card that include
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
 2. Select **Card designer**.
 
-  ![Adding a Card designer card](media/card-designer.png)
+  ![Adding a Card designer card](media/connections/card-designer.png)
 
 3. In the **property** pane, select your card options.
 
-  ![property pane](media/card-designer-panel.png)
+  ![property pane](media/connections/card-designer-panel.png)
 
 4. From the **Card size** drop-down list, choose either **Medium** or **Large**.
    A medium-sized card allows you to add one button, while a large-sized card allows you to add two buttons.
@@ -196,7 +196,7 @@ You can choose the **Card designer** option to design your own card that include
 
 ## Set up a quick view
 
-Under **Quick view layout and data**, enter JSON template code for your quick view layout, and add the code for the data you want to use. For more information on templating and data with some examples, see [Adaptive Cards Templating](media/adaptive-cards/templating/). You can find more examples at [Adaptive Cards](/adaptive-cards/).
+Under **Quick view layout and data**, enter JSON template code for your quick view layout, and add the code for the data you want to use. For more information on templating and data with some examples, see [Adaptive Cards Templating](/adaptive-cards/templating/). You can find more examples at [Adaptive Cards](/adaptive-cards/).
 
 If you want to target your card to specific audiences (that is, only audiences you specify will see the card in the Dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
