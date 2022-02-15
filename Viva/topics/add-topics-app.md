@@ -17,11 +17,11 @@ description: Learn how to Add the Viva Topics app in the Teams Admin Center.
 
 # Add the Viva Topics app in the Teams Admin Center
 
-This article covers the steps to deploy the Viva Topics app, which is a custom line of business app for Microsoft Teams and is built using PowerShell provided by Microsoft. This app includes the desktop experience only.
+This article covers the steps to deploy the Viva Topics app, which is a custom app for Microsoft Teams. When the app is added to Teams, the Viva Topics icon will appear in the left navigation rail of Teams and will direct users to your organization's topic center.
 
-When the app is added to Teams, the Viva Topics icon will appear in the left navigation rail of Teams and will direct users to your organization's topic center.
+The app is built using a PowerShell script provided by Microsoft.
 
-You must be a SharePoint admin and a site owner for the topic center to create the Viva Topics app in PowerShell. You must be a Teams admin to upload and add the app in the Teams Admin Center.
+You must be a SharePoint admin and a site owner for the topic center to create the Viva Topics app in PowerShell. You must be a Teams admin to upload and manage the app in the Teams Admin Center.
 
 We recommended that global navigation is enabled and customized in the SharePoint app bar so that SharePoint resources appear in Teams.
 
@@ -46,19 +46,17 @@ Run the script and provide the following inputs:
 - Your organization's public website (starting with https://). This will be linked to your company's app name on the app page in the Teams app catalog in "Created By" section.
 - Icons: Default icons are provided in the zip file. When the script runs you can select to use the default icons or [provide your own](/microsoftteams/platform/concepts/build-and-test/apps-package#app-icons).
 
-The script creates a Teams app manifest (.zip file) which you must upload in the Teams admin center.
+The script creates a Teams app manifest (.zip) file which you must upload in the Teams admin center.
 
 ## Upload the manifest file
-
-The SharePoint admin who creates the Viva Topics app package needs site owner permissions to the topic center.
 
 To upload the app
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click **Upload**, click **Upload**, and then select the manifest file and click **Open**.
 
-Once the Viva Topics app package is successfully uploaded in the Teams admin center, it can be managed like any other app. You can configure user permissions to make this app available to the right set of users. Permitted users can then find this app in Teams app catalog.
+Once the Viva Topics app package is successfully uploaded in the Teams admin center, it can be managed like any other app. You can configure user permissions to make this app available to a specific set of users. Permitted users can then find this app in Teams app catalog.
 
-We highly recommend that you [pin this app by default for users in your organization](/microsoftteams/teams-app-setup-policies#pin-apps) so that they can easily access the topic center and the topics they are related to without having to discover the app in Teams app catalog. Use Teams app setup policies to pin this app by default in Teams app bar and then apply this policy to a set of users.
+We highly recommend that you [pin this app by default for users in your organization](/microsoftteams/teams-app-setup-policies#pin-apps) so that they can easily access the topic center and the topics they are related to without having to discover the app in Teams app catalog.
 
 ## Related topics
 
