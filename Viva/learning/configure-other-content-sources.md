@@ -40,6 +40,7 @@ Third-party content sources are not enabled by default. To enable these sources,
 |Go1     |[Configure Go1 as a content source](configure-go1-content-source.md)         |
 |Skillsoft     |[Configure Skillsoft as a content source](configure-skillsoft-content-source.md)         |
 |Udemy   |[Configure Udemy as a content source](configure-udemy-content-source.md)         |
+|EdCast    |[Configure EdCast as a content source](configure-edcast-content-source.md)    |
 |edX    |Follow the steps below to add edX in your Microsoft 365 admin center.    |
 |Coursera    |Follow the steps below to add Coursera in your Microsoft 365 admin center.    |
 |Pluralsight    |Follow the steps below to add Pluralsight in your Microsoft 365 admin center.    |
