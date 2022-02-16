@@ -110,8 +110,6 @@ items:
                 href: personal/use/network.md
               - name: Collaboration
                 href: personal/use/collaboration.md
-              - name: Leadership
-                href: personal/use/leadership.md
           - name: Personal insights FAQ
             href: personal/overview/mya-faq.md 
           - name: Admin guide
@@ -238,7 +236,7 @@ items:
                     href: setup/assign-roles-to-wpa-admins.md
                   - name: Role access
                     href: Use/User-Roles.md
-                  - name: Assign roles with Azure AD
+                  - name: Assign user roles
                     href: setup/assign-user-roles.md
               - name: Controls
                 items:
@@ -389,7 +387,7 @@ items:
                             href: Use/Csv-query-output-file.md
                           - name: Query auto-refresh
                             href: tutorials/Query-auto-refresh.md
-                      - name: Consumption model
+                      - name: Capacity model
                         href: tutorials/consump-model.md 
                       - name: Business process analysis
                         href: tutorials/analyze-business-processes.md
@@ -462,7 +460,9 @@ items:
               - name: Metric descriptions
                 href: Use/metric-definitions.md
               - name: Metric filters
-                href: Use/metric-filters.md          
+                href: Use/metric-filters.md
+              - name: Network graph metrics
+                href: Use/insight-ona-measures.md                      
               - name: Best practices
                 href: Tutorials/gm-best-practices.md
               - name: Time zones

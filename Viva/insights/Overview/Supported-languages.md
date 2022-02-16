@@ -3,7 +3,7 @@
 title: Language support and guidelines for Advanced insights in Viva Insights
 description: Describes the languages supported by Advanced insights within Microsoft Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.collection: 
 - viva-insights-advanced
@@ -34,17 +34,17 @@ For example, replace '/en-us/' with '/ja-jp/' in the following URL to indicate J
 
 Language and region | Language identifier
 ------ | ------
-Chinese (Simplified) | zh-cn
-Chinese (Traditional) | zh-tw
-English (United States) | en-us
-French (France) | fr-fr
-German (Germany) | de-de
-Italian (Italy) | it-it
+English | en-us
 Japanese | ja-jp
-Korean | ko-kr
+German | de-de
+Chinese (Simplified) | zh-cn
+Spanish | es-es
+French | fr-fr
 Portuguese (Brazil) | pt-br
-Russian (Russia) | ru-ru
-Spanish (Spain) | es-es
+Russian | ru-ru
+Italian | it-it
+Chinese (Traditional) | zh-tw
+Korean | ko-kr
 
 ## Use of data other than English
 
