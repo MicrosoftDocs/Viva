@@ -40,12 +40,12 @@ Several scenarios can benefit from this workload through layering an advanced ET
 
 ## Architecture
 
-- [Azure Synapse Analytics](https://docs.microsoft.com//azure/architecture/example-scenario/data/small-medium-data-warehouse) is an analytics service that combines data integration, enterprise data warehousing, and big data analytics. This solution includes the following components:
+- [Azure Synapse Analytics](/azure/architecture/example-scenario/data/small-medium-data-warehouse) is an analytics service that combines data integration, enterprise data warehousing, and big data analytics. This solution includes the following components:
 
-  - An [Azure Synapse workspace](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace) - Promotes collaboration between data engineers, data scientists, data analysts, and BI professionals.
-  - [Azure Synapse pipelines](https://docs.microsoft.com/azure/synapse-analytics/get-started-pipelines) - Orchestrate and ingest data into SQL Database and Data Lake Storage.
-  - [Azure Synapse SQL pools](https://docs.microsoft.com/azure/synapse-analytics/get-started-analyze-sql-on-demand) - Run queries and analytics at massive scale once data is stored in relational tables with columnar storage.
-  - [Azure Synapse serverless Apache Spark pools](https://docs.microsoft.com/azure/synapse-analytics/get-started-analyze-spark) - For code-first explorations in Data Lake Storage with Spark languages, such as Spark SQL, PySpark, and Scala.
+  - An [Azure Synapse workspace](/azure/synapse-analytics/quickstart-create-workspace) - Promotes collaboration between data engineers, data scientists, data analysts, and BI professionals.
+  - [Azure Synapse pipelines](/azure/synapse-analytics/get-started-pipelines) - Orchestrate and ingest data into SQL Database and Data Lake Storage.
+  - [Azure Synapse SQL pools](/azure/synapse-analytics/get-started-analyze-sql-on-demand) - Run queries and analytics at massive scale once data is stored in relational tables with columnar storage.
+  - [Azure Synapse serverless Apache Spark pools](/azure/synapse-analytics/get-started-analyze-spark) - For code-first explorations in Data Lake Storage with Spark languages, such as Spark SQL, PySpark, and Scala.
 
 The following shows how these components are used within this solution's architecture.
 
@@ -55,17 +55,17 @@ The following shows how these components are used within this solution's archite
 
 - Use [Azure Data Factory](https://azure.microsoft.com/services/data-factory) for orchestration instead of Azure Synapse pipelines. The choice depends on several factors:
 
-  - [Azure Synapse pipelines](https://docs.microsoft.com/azure/synapse-analytics/get-started-pipelines) keep the solution design simpler and enable collaboration inside a single Azure Synapse workspace. However, Azure Synapse pipelines do not support rehosting the SSIS packages, which is supported in Azure Data Factory.
-  - [Synapse Monitor Hub](https://docs.microsoft.com/azure/synapse-analytics/get-started-monitor) monitors Azure Synapse pipelines, while [Azure Monitor](https://azure.microsoft.com/services/monitor) can monitor Data Factory.
+  - [Azure Synapse pipelines](/azure/synapse-analytics/get-started-pipelines) keep the solution design simpler and enable collaboration inside a single Azure Synapse workspace. However, Azure Synapse pipelines do not support rehosting the SSIS packages, which is supported in Azure Data Factory.
+  - [Synapse Monitor Hub](/azure/synapse-analytics/get-started-monitor) monitors Azure Synapse pipelines, while [Azure Monitor](https://azure.microsoft.com/services/monitor) can monitor Data Factory.
 
-  For more information and a feature comparison between Azure Synapse pipelines and Data Factory, see [Data integration in Azure Synapse Analytics versus Azure Data Factory](https://docs.microsoft.com/eazure/synapse-analytics/data-integration/concepts-data-factory-differences).
+  For more information and a feature comparison between Azure Synapse pipelines and Data Factory, see [Data integration in Azure Synapse Analytics versus Azure Data Factory](/azure/synapse-analytics/data-integration/concepts-data-factory-differences).
 
-- Use SQL Database instead of [Synapse Analytics dedicated SQL pools](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is) for storing enterprise data.
+- Use SQL Database instead of [Synapse Analytics dedicated SQL pools](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is) for storing enterprise data.
 - Use DataBricks instead of Synapse Spark Pool to transform the data. The link for DataBricks notebooks is also available in the [GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights).
 
 ## Availability and pricing
 
-SQL Database (standalone or as a Synapse dedicated SQL pool) is a PaaS service that can meet your high availability (HA) and disaster recovery (DR) requirements. For guidance, see [High availability for Azure SQL Database and SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/database/high-availability-sla).
+SQL Database (standalone or as a Synapse dedicated SQL pool) is a PaaS service that can meet your high availability (HA) and disaster recovery (DR) requirements. For guidance, see [High availability for Azure SQL Database and SQL Managed Instance](/azure/azure-sql/database/high-availability-sla).
 
 You can use the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/) to get an estimate for this workflow. You can use Azure Synapse to scale your compute and storage levels independently. Compute resources are charged by the hour, which you can scale or pause on demand. Because storage resources are billed by the terabyte, your costs will increase as you ingest more data.
 
@@ -76,10 +76,10 @@ You can use the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/c
 
 ## Prerequisites
 
-- [Workplace Analytics Analyst](https://docs.microsoft.com/viva/insights/setup/assign-user-roles) – Must be assigned a Viva Insights license and the Analyst role for Workplace Analytics with Viva Insights and know how to use the Query designer.
+- [Workplace Analytics Analyst](/viva/insights/setup/assign-user-roles) – Must be assigned a Viva Insights license and the Analyst role for Workplace Analytics with Viva Insights and know how to use the Query designer.
 - [Microsoft Azure subscription](https://azure.microsoft.com/free/) – If you don't have an Azure subscription, create a free account now. You’ll be using Azure Active Directory, OData connector, and Synapse or Azure Data Factory for this setup.
-- [Azure data store](https://docs.microsoft.com/azure/data-share/supported-data-stores) – Your data store must be supported by the [OData connector](https://docs.microsoft.com/azure/data-factory/connector-odata).
-- [Azure admin](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions) – You need Azure admin privileges to create and register the app in Azure. You also need to ask the Azure global admin to grant you permissions to connect your new app to the Azure data store.
+- [Azure data store](/azure/data-share/supported-data-stores) – Your data store must be supported by the [OData connector](/azure/data-factory/connector-odata).
+- [Azure admin](/azure/data-factory/concepts-roles-permissions) – You need Azure admin privileges to create and register the app in Azure. You also need to ask the Azure global admin to grant you permissions to connect your new app to the Azure data store.
 
 ## Setup overview
 
@@ -95,7 +95,7 @@ Use the following steps in conjunction with the Azure documentation to complete 
 
 The pipeline requires the following data attributes within the organizational (HR) data that’s uploaded and used in Viva Insights:
 
-- **PersonId**, **ManagerId**, and **Organization** - For details, see [Attribute reference](https://docs.microsoft.com/viva/insights/setup/prepare-organizational-data#attribute-reference).
+- **PersonId**, **ManagerId**, and **Organization** - For details, see [Attribute reference](/viva/insights/setup/prepare-organizational-data#attribute-reference).
 - **LevelDesignation** - Defines the reporting hierarchy and is used in a lot of workplace analysis.
 - **EmployeeId** - Secondary unique identifier that’s used as a key for joining Viva Insights data with other external data sources. Many advanced use cases can use this workflow to export the Viva Insights query output into a database to join with other data sources for a comprehensive analysis of organizational collaboration patterns. Because PersonId in Viva Insights is automatically de-identified in the system and in query results, you must add a secondary identifier (EmployeeId) as a key for the join scenarios.
 
@@ -108,7 +108,7 @@ After your organizational data is updated based on these instructions, do the fo
 
 ## Create the queries
 
-Within your Viva Insights workspace, follow the instructions in the [Query designer](https://docs.microsoft.com/viva/insights/tutorials/query-designer) to create a standard person query and a standard meeting query with the following configurations.
+Within your Viva Insights workspace, follow the instructions in the [Query designer](/viva/insights/tutorials/query-designer) to create a standard person query and a standard meeting query with the following configurations.
 
 - Select **Standard meeting query** and **Standard person query** when creating your custom queries.
 - In **Select filters**, select your target group (all employees or active only).
@@ -140,12 +140,12 @@ Usually, Viva Insights weekly updates are processed on weekends and for some, ca
 
 ## Prepare the Synapse Workspace
 
-- Follow the steps in [Synapse documentation](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace) to create a Synapse workspace and connect it to a new or existing Storage account. When creating the workspace, keep the SQL Server admin credentials.
-- Follow the steps in documentation to create a [Synapse Dedicated SQL Pool](https://docs.microsoft.com/azure/synapse-analytics/get-started-analyze-sql-pool#create-a-dedicated-sql-pool) and a [Spark Pool](https://docs.microsoft.com/azure/synapse-analytics/get-started-analyze-spark#create-a-serverless-apache-spark-pool).
+- Follow the steps in [Synapse documentation](/azure/synapse-analytics/quickstart-create-workspace) to create a Synapse workspace and connect it to a new or existing Storage account. When creating the workspace, keep the SQL Server admin credentials.
+- Follow the steps in documentation to create a [Synapse Dedicated SQL Pool](/azure/synapse-analytics/get-started-analyze-sql-pool#create-a-dedicated-sql-pool) and a [Spark Pool](/azure/synapse-analytics/get-started-analyze-spark#create-a-serverless-apache-spark-pool).
 
 ## Set up the Viva Insights Synapse Pipeline
 
-After following the steps to [Create the queries](#create-the-queries), do the following to set up the pipeline in Azure Synapse Analytics. Use the [Azure documentation](https://docs.microsoft.com/azure/data-factory/introduction) in conjunction with these steps.
+After following the steps to [Create the queries](#create-the-queries), do the following to set up the pipeline in Azure Synapse Analytics. Use the [Azure documentation](/azure/data-factory/introduction) in conjunction with these steps.
 
 1. In the **Azure Synapse** resource in portal, select **Open Synapse Studio** to open the Azure Synapse Workspace.
 
@@ -190,10 +190,10 @@ After following the steps to [Create the queries](#create-the-queries), do the f
     1. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
     2. Open Workplace Analytics in a separate browser, and then on the Query designer **Results** page, copy the OData link for the person query data you want to connect to Azure.
     3. In **Service URL**, paste the query OData link that you copied in the previous step.
-    4. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](https://docs.microsoft.com/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
+    4. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
     5. In **AAD resource**, enter 'https://workplaceanalytics.office.com'.
     6. If not set by default, paste your saved **Directory ID** (tenant) in **AAD tenant**.
-    7. Paste your saved **Application ID** (client) recorded in **AAD service principal ID**. For details, see [Linked service properties](https://docs.microsoft.com/azure/data-factory/connector-odata#linked-service-properties).
+    7. Paste your saved **Application ID** (client) recorded in **AAD service principal ID**. For details, see [Linked service properties](/azure/data-factory/connector-odata#linked-service-properties).
     8. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
        - For **Key authentication**, select **New client secret**, and then in **Add a client secret**, enter a description, select when it expires, and then select **Add**. In **Client secrets**, select the new secret, and then select the **Copy** icon to copy it.
@@ -202,7 +202,7 @@ After following the steps to [Create the queries](#create-the-queries), do the f
     9. Back in the **New linked service** window, do the following for the applicable authentication type:
 
        - For **Service principal key**, paste the new client secret copied in the previous step in **Service principal key**.
-       - For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal) for details.
+       - For **Azure key vault**, copy and paste the certificate and the other required information. See [Set and retrieve a secret from Azure Key Vault](/azure/key-vault/secrets/quick-create-portal) for details.
 
     10. Select **Test connection** to test the OData linked service.
     11. After confirming that the connection is successful, select **Create**.
@@ -218,7 +218,7 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 19. In **Set properties**, select your linked storage account, which will be used as the write destination of the Viva Insights query result in Linked Service. Leave the **File Path** as is.
 
     >[!Note]
-    >When creating the Synapse Workspace, it links to a default storage account. To link to a different storage account (new or existing storage), follow the steps in the [Synapse documentation](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#prepare-an-existing-storage-account-for-use-with-azure-synapse-analytics) to link a different storage account.
+    >When creating the Synapse Workspace, it links to a default storage account. To link to a different storage account (new or existing storage), follow the steps in the [Synapse documentation](/azure/synapse-analytics/quickstart-create-workspace#prepare-an-existing-storage-account-for-use-with-azure-synapse-analytics) to link a different storage account.
 
 20. In **Sink**, open the created Sync dataset.
 21. In **Parameters**, add the **PersonQueryDatasetFolder**, **PipelineID**, and **VivaInsightsDataFileSystem** parameters.
