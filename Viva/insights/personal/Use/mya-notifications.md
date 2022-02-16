@@ -70,15 +70,15 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to**: Delay delivery inline suggestions are currently available only to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) or Insights by MyAnalytics with a [supported plan](../overview/plans-environments.md)._
+_**Applies to**: Delay delivery inline suggestions are available to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) or Insights by MyAnalytics with a [supported plan](../overview/plans-environments.md)._
 
 When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
-When inline suggestions is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
+When the inline suggestions feature is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
-![Inline suggestions email](../../Images/mya/use/email-inline.png)
+![Inline suggestion in email](../../Images/mya/use/delay-delivery.png)
 
 **To delay delivery**
 
@@ -89,6 +89,8 @@ When inline suggestions is turned on, you can delay up two email deliveries each
    * **Edit time** (within the insight) to change the suggested delivery time, and then select **Send** (within the email) to send the email at the new time.
    * **Cancel delay** (within the insight) to cancel the scheduled delivery time, and then select **Send** (within the email) to send the email now.
 
+   ![Delay delivery inline options](../../Images/mya/use/delay-options.png)
+
 3. After you send the email, it's kept in your Outlook **Sent items** folder until the scheduled delivery time, when it's automatically delivered for you.
 
    Before the message is sent, you can open the message and select:
@@ -96,7 +98,7 @@ When inline suggestions is turned on, you can delay up two email deliveries each
    * **Send now** to ignore the scheduled delivery time and send the email now.
    * **Don't send** to stop the scheduled delivery time, which moves the email to your Outlook **Deleted items** folder.
 
-   ![Delay delivery options](../../Images/mya/use/delay-inline-2.png)
+   ![Delay delivery options](../../Images/mya/use/delay-options-2.png)
 
 ## Suggested outstanding tasks
 
