@@ -1,7 +1,7 @@
 ---
 
-title: Microsoft Viva Insights Data Lake Solution overview
-description: Learn how to set up and use the Viva Insights Data Lake Solution
+title: Microsoft Viva Insights data lake solution
+description: Learn how to set up and use the Viva Insights data lake solution
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,9 +15,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Viva Insights Data Lake Solution
+# Viva Insights data lake solution
 
-You can use this Data Lake Solution to extract, transform, and load (ETL) Microsoft Viva Insights data into a database and then report on it through Power BI as an end-user platform. The key features of this workload:
+You can use this solution to extract, transform, and load (ETL) Microsoft Viva Insights data into a database and then report on it through Power BI as an end-user platform. The key features of this workload:
 
 - Automated pipeline to avoid manual interaction with the Viva Insights Query designer.
 - Instructions and guidelines on managing and loading Viva Insights historical data.
@@ -83,7 +83,7 @@ You can use the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/c
 
 ## Setup overview
 
-The following steps walk you through how to implement the Viva Insights Synapse pipeline in the architecture. The focus of this workflow will be on transferring and maintain Viva Insights Person and Meetings standard queries in the Azure Synapse Dedicated SQL DB and maintaining the workflow over time.
+The following steps walk you through how to implement the Viva Insights Synapse pipeline in the architecture. The focus of this workflow will be on transferring and maintaining Viva Insights standard person and meeting queries in an Azure Synapse Dedicated SQL Database and maintaining the workflow over time.
 Use the following steps in conjunction with the Azure documentation to complete this setup.
 
 1. [Update your organizational data](#update-your-organizational-data)
@@ -100,9 +100,9 @@ The pipeline requires the following data attributes within the organizational (H
 - **EmployeeId** - Secondary unique identifier that’s used as a key for joining Viva Insights data with other external data sources. Many advanced use cases can use this workflow to export the Viva Insights query output into a database to join with other data sources for a comprehensive analysis of organizational collaboration patterns. Because PersonId in Viva Insights is automatically de-identified in the system and in query results, you must add a secondary identifier (EmployeeId) as a key for the join scenarios.
 
 >[!Note]
->If you prefer not to use LevelDesignation and EmployeeId, you can change the PySpark script and the database table creation script to remove these attributes.
+>If you prefer not to use LevelDesignation and EmployeeId, you can change the PySpark script and the database table creation script to remove these attributes. Also, you can use a different naming structure for EmployeeId. In the pipeline parameters, you can name the identifier that you want to use for EmployeeId.
 
-**Recommendation**: To protect employee privacy, don’t use an existing EmployeeId in your organizational data file. Instead, use a modified, mapped, or hashed version of EmployeeId and only make the reverse mapping available to a limited number of Workplace Analytics or Viva Insights Admins.
+**Recommendation**: To protect employee privacy, don’t use employees' actual employee IDs in your organizational data file. Instead, use a modified, mapped, or hashed version of employee IDs for the EmployeeID in the file, and then only make the reverse mapping available to a limited number of Workplace Analytics or Viva Insights Admins.
 
 After your organizational data is updated based on these instructions, do the following to create a query in Workplace Analytics for Viva Insights.
 
@@ -114,54 +114,7 @@ Within your Viva Insights workspace, follow the instructions in the [Query desig
 - In **Select filters**, select your target group (all employees or active only).
 - In **Organizational data**, select to include all the attributes. The PySpark script will only use the fields required in addition to the secondary **EmployeeId** for the join. By including all of the available attributes, you can then easily change the workflow to add other attributes for future configurations.
 
-### Person attributes
-
-The following attributes are required from the person query for this solution.
-
-&nbsp; | &nbsp; | &nbsp;
--------|--------|------
-PersonId | Date | Organization
-LevelDesignation | ManagerId | Workweek_span
-Meetings_with_skip_level | Meeting_hours_with_skip_level | Generated_workload_email_hours
-Generated_workload_email_recipients | Generated_workload_instant_messages_hours | Generated_workload_instant_messages_recipients
-Generated_reactions_to_posts | Generated_replies_to_posts | Generated_workload_call_hours
-Generated_workload_call_participants | Generated_workload_calls_organized | External_network_size
-Internal_network_size | Networking_outside_company | Networking_outside_organization
-Multitasking_hours | After_hours_meeting_hours | Open_1_hour_block
-Open_2_hour_blocks | Total_focus_hours | Low_quality_meeting_hours
-Meetings | Meeting_hours | Conflicting_meeting_hours
-Multitasking_meeting_hours | Redundant_meeting_hours__lower_level_ | Redundant_meeting_hours__organizational_
-Time_in_self_organized_meetings | Meeting_hours_during_working_hours | Generated_workload_meeting_attendees
-Generated_workload_meeting_hours | Generated_workload_meetings_organized | Manager_coaching_hours_1_on_1
-Meetings_with_manager | Meeting_hours_with_manager | Meetings_with_manager_1_on_1
-Meeting_hours_with_manager_1_on_1 | After_hours_instant_messages | Instant_messages_sent
-Instant_Message_hours | Working_hours_instant_messages | Emails_sent
-Email_hours | Uninterrupted_focus_hours | After_hours_collaboration_hours
-Collaboration_hours_external | Collaboration_hours | Working_hours_collaboration_hours
-After_hours_email_hours | Working_hours_email_hours | Channels_with_active_engagement
-Teams_with_active_engagement | After_hours_channel_message_hours | Channel_message_hours
-Channel_messages_sent | Channel_reactions | Channel_visits
-Working_hours_channel_message_hours | After_hours_in_calls | Total_calls
-Call_hours | Working_hours_in_calls | IsInternal
-IsActive | WorkingStartTimeSetInOutlook | WorkingEndTimeSetInOutlook
-WorkingDaysSetInOutlook | |
-
-### Meeting attributes
-
-The following attributes are required from the meeting query for this solution.
-
-&nbsp; | &nbsp; | &nbsp;
--------|--------|------
-MeetingId | StartTimestampUTC | EndTimestampUTC
-Organizer_PersonId | Organizer_Organization | Organizer_LevelDesignation
-Organizer_IsInternal | Attendees | Attendees_with_conflicting_meetings
-Invitees | Emails_sent_during_meetings | Instant_messages_sent_during_meetings
-Attendees_multitasking | Attendee_meeting_hours | Redundant_attendees
-Total_meeting_cost | Total_redundant_hours | IsCancelled
-DurationHours | IsRecurring | Subject
-TotalAccept | TotalNoResponse | TotalDecline
-TotalNoEmailsDuringMeeting | TotalNoDoubleBooked | TotalNoAttendees
-MeetingResources | BusinessProcesses |
+The Organizational attributes listed in the [AttributeList.txt](https://github.com/microsoft/VivaSolutions/blob/main/Sample%20Solutions/Data%20Lake/Viva%20Insights/AttributeList.txt) file are required in the Viva Insights meeting and person queries used in this solution.
 
 ### Managing historical data
 
@@ -229,7 +182,7 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 4. Follow **Steps 1 to 5** in [To set up with Azure Synapse Analytics](../automate-exports.md#to-set-up-with-azure-synapse-analytics) to register an application and grant it permissions, and then copy and save the **Application** (client) and **Directory** (tenant) **IDs**.
 5. In the **Pipeline activities** menu, select **Move and Transform**, and then drag a **Copy data** into your pipeline workspace.
 6. In **General**, enter a name, such as "Person Query Copy,” as shown in these steps.
-7. In **Source**, add a new Source dataset. 
+7. In **Source**, add a new Source dataset.
 8. In **New Integration Dataset**, enter **OData**, and then select **OData**.
 9. In **Set Properties**, enter a name and create a new linked service.
 10. In **New linked service (OData)**, enter a name and description for the query data you’re linking to.
