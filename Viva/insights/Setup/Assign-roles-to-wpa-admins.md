@@ -3,10 +3,12 @@
 title: Assigning admin roles
 description: Learn how to assign admin roles for Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- viva-insights-advanced 
+- viva-insights-leader
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -19,11 +21,11 @@ audience: Admin
 
 The following describes who does what to assign admins roles for Microsoft Viva Insights:
 
-* **Owner** - Azure Active Directory [Privileged Role Admin](/azure/active-directory/roles/permissions-reference#privileged-role-administrator)
-* **Task** - Assign admins for Viva Insights
+* **Owner** - The [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) assigns Viva Insights roles and the Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles for Workplace Analytics
+* **Task** - Assign admins for Viva Insights and Workplace Analytics
 * **Outcome** - Admins must set up Viva Insights for their organization. After data is provisioned, admins can then assign roles to other people in their organization to use Viva Insights.
 
-You must assign admins for the Viva Insights service the role of [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator). Admins are required to set the system defaults, privacy settings, upload and verify organizational data, and assign other people roles for using Viva Insights.
+You must assign admins of the Viva Insights service the role of **Insights Administrator**. Admins are required to set the system defaults, privacy settings, upload and verify organizational data, and assign other people roles for using Viva Insights.
 
 The _Insights Administrator_ and the legacy _Workplace Analytics admin_ are interchangeable. Both have access to the same features and functions and share the same responsibilities and tasks for Viva insights.
 
@@ -41,5 +43,5 @@ See [Assign user or group roles](../setup/assign-user-roles.md) for details.
 
 ## Related topics
 
-* [Assign user or group roles in Azure Active Directory](../setup/assign-user-roles.md)
+* [Assign user or group roles](../setup/assign-user-roles.md)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)

@@ -1,15 +1,12 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: MyAnalytics Team Adoption -- Reinforce
 description: MyAnalytics Team Adoption by Kate Nowak -- Reinforce section
 author: madehmer
-ms.author: v-mideh
-ms.date: 02/21/2019
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

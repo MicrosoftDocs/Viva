@@ -3,10 +3,12 @@
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-personal
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -52,10 +54,6 @@ The Network section shows information about your relationships with the people i
 The Collaboration section shows the people you actively collaborated with based on your work activities over the past month, such as email, chats, calls, and meetings.
 
 For more details and tips, see [Network](../use/network.md) and [Collaboration](../use/collaboration.md).
-
-## Leadership
-
-If you're a people manager, the Leadership page shows information about your relationships with team members. For more details, see [Leadership](leadership.md).
 
 ## Productivity insights
 

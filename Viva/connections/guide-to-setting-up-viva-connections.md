@@ -16,6 +16,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-viva-connections
 - intro-get-started 
+ms.custom: intro-get-started
 search.appverid:
 - SPO160
 - MET150
@@ -33,6 +34,7 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 > [!IMPORTANT]
 > - Information in this article relates to the upgraded Viva Connections app that includes *both the desktop and mobile experiences*.
 > - To complete these step-by-step instructions, ensure that you have the permissions (or privileges) to the SharePoint and Microsoft Teams admin centers. Get more information about [permissions in SharePoint](/sharepoint/customize-sharepoint-site-permissions) and [permissions in Microsoft Teams](/microsoftteams/teams-channels-overview).
+> - Viva Connections is not supported on the Linux operating system.
 
 
 
@@ -79,8 +81,8 @@ A home site is a SharePoint communication site that acts as the front door to yo
 
 ## Step 3: Enable the SharePoint app bar and customize global navigation
 
-The SharePoint app bar allows users to find important content and resources, and dynamically displays personalized sites, news, and files. Viva Connections uses elements from the SharePoint app bar and global navigation for the desktop and mobile experiences. 
-SharePoint app bar elements will display in Microsoft Teams (the access point is highlighted in the red box in the image above) and includes global navigation, followed sites, and recommended news. On mobile devices, Viva Connections uses global navigation for the **Resources** tab. 
+The SharePoint app bar allows users to find important content, resources, and dynamically displays personalized sites, news, and files. Viva Connections uses elements from the SharePoint app bar and global navigation for the desktop and mobile experiences. 
+SharePoint app bar elements will display in Microsoft Teams and includes global navigation, followed sites, and recommended news. On mobile devices, Viva Connections uses global navigation for the **Resources** tab. 
 
 > [!IMPORTANT]
 > - If your app bar is not set up, you won’t see a navigation panel in the desktop experience, and global navigation resources in the **Resources** tab of the Viva Connections app will not display.

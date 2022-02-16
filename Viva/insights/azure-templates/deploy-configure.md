@@ -4,10 +4,10 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Deploy and configure Workplace Analytics Azure Templates 
 description: Learn how to deploy and configure Workplace Analytics Azure Templates
 author: madehmer
-ms.author: v-mideh
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -18,6 +18,9 @@ audience: Admin
 # Deploy and configure Workplace Analytics Azure Templates
 
 _These templates are only available as part of a Microsoft service engagement._
+
+>[!Important]
+>As of February 2022, this product is no longer being supported.
 
 Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to do the following:
 

@@ -4,8 +4,8 @@
 
 title: Inline suggestions about important contacts
 description: Table of inline suggestions about important contacts 
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

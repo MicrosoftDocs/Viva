@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Relationship Intelligence report 
 description: Learn about the Relationship Intelligence Power BI report included in Workplace Analytics Azure Templates and how to use it
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

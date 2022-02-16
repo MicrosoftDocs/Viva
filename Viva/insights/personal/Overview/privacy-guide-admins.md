@@ -3,7 +3,7 @@
 title: Personal insights in Viva Insights privacy guide for admins
 description: Overview of Personal insights in Viva Insights privacy features for admins, including info about data de-identification and privacy, minimum group size for reporting, admin choices and default settings, and users in sensitive roles
 author: madehmer
-ms.author: v-pausch
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -48,7 +48,7 @@ Personal insights in Viva Insights are shown in the following ways:
 * [Personal dashboard](../use/dashboard-2.md)
 * [Briefing emails](../Briefing/be-overview.md)
 * [Viva Insights in Outlook](../use/add-in.md)
-* [Digest emails in Outlook](../use/email-digest-2.md)
+* [Digest emails in Outlook](../use/email-digests-3.md)
 * [Inline suggestions in Outlook](../use/mya-notifications.md)
 
 Personal insights in Viva Insights uses the following types of data.
@@ -147,7 +147,7 @@ Personal insights in Microsoft Viva Insights is a first-party application that's
 
 The Microsoft Graph cannot be turned on or off globally through the Microsoft 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
 
-## Employee experience of Viva Insights
+## Employee experience with Viva Insights
 
 ### Dashboard and Outlook add-in
 
@@ -159,7 +159,7 @@ To notify employees that their dashboard and Outlook add-in have been enabled, V
 
 ### Digest emails
 
-A few days after the welcome email is delivered, users begin to receive the [Digest emails](../use/email-digest-2.md).
+A few days after the welcome email is delivered, users begin to receive the [Digest emails](../use/email-digests-3.md).
 
 ## GDPR Compliance
 

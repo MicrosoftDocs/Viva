@@ -14,7 +14,7 @@ metadata:
   - MET150 
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-mideh #Required; microsoft alias of author; optional team alias.
+  ms.author: helayne #Required; microsoft alias of author; optional team alias.
   ms.date: 08/25/2021 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
 

@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Data privacy with Insights
 description: About how personal data is kept private in Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
 ms.prod: wpa
@@ -13,6 +13,9 @@ audience: Admin
 # Data privacy
 
 *This experience is only available through private preview at this time.*
+
+>[!Important]
+>Starting in March 2022, this product will no longer be available. You can access the same insights with [Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights/).
 
 Microsoft Insights produce powerful analysis about how your organization functions. It does this by analyzing Microsoft 365 collaboration data and organizational data already present in Microsoft Azure Active Directory.
 

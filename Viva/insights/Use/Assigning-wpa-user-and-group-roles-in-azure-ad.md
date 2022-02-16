@@ -1,12 +1,12 @@
 ---
 
-title: Assign user and group roles
-description: How to assign roles in Azure Active Directory for Microsoft Viva Insights in Workplace Analytics
+title: Assign user or group roles
+description: How to assign roles for Microsoft Viva Insights and Workplace Analytics
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -16,7 +16,7 @@ audience: Admin
 
 ---
 
-# Assign user roles in Azure AD
+# Assign user roles
 
 Do the following to assign roles to users in Azure Active Directory (AD) for Microsoft Viva Insights in Workplace Analytics.
 
@@ -29,16 +29,16 @@ Do the following to assign roles to users in Azure Active Directory (AD) for Mic
 
     ![Select Apply.](../images/WpA/Use/apply-button_90.png)
 
-4. In the search field, type "workplace analytics or viva" and then press **Enter**.
-5. In the search results, select **Viva Insights** or **Workplace Analytics**.
+4. In the search field, type "workplace analytics" and then press **Enter**.
+5. In the search results, select **Workplace Analytics**.
 
     ![All Applications.](../images/WpA/Use/all-applications-2.png)
 
-6. In the Overview section, select **Total Users**.
+6. In the **Overview** section, select **Total Users**.
 
     ![Total users.](../images/WpA/Use/total-users-3.png)
 
-7. In the Users and groups window, select **Add user**.
+7. In the **Users and groups** window, select **Add user**.
 
    ![Add user.](../images/WpA/Use/add-user-4.png)
 
@@ -81,7 +81,7 @@ It might take up to 24 hours for changes to be saved in the system. The user can
 
 You can also assign roles to groups, which means that you are assigning the access permissions associated with that role to the group. Any users who are assigned to that group then automatically become members of the group and receive the same permissions that are assigned to that role.
 
-To assign users and roles to a Workplace Analytics group, the steps are similar to those for assigning users, as previously described in steps 9 through 14. In that same process, where you add the name of a user in step 9, at the same time, you can also add a group and assign it a role. The only difference is that instead of a user name, you substitute the name of your group, then select the group and assign a role to it.
+To assign users and roles to a Workplace Analytics group, the steps are similar to those for assigning users, as described in the previous steps. In that same process, where you add a username, you can enter a group and assign it a role.
 
    ![Select group.](../images/WpA/Use/select-group-b.png)
 

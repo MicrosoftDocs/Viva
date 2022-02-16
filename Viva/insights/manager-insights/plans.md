@@ -3,7 +3,7 @@
 title: Workplace Analytics plans for managers
 description: Introduction and summary of Workplace Analytics plans
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.prod: wpa
@@ -62,15 +62,11 @@ The [MyAnalytics dashboard](../personal/use/dashboard-2.md) is a constantly avai
 
 ### Digest
 
-All MyAnalytics users receive a weekly [digest](../personal/use/email-digest-2.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan, similar to the following:
-
-![Weekly digest.](../images/wpa/tutorials/program-checkpoint-card-60.png)
-
-### MyAnalytics inline suggestions
-
-MyAnalytics inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them.
+All MyAnalytics and Viva Insights users receive a monthly [digest](../personal/use/email-digests-3.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan.
 
 ### Inline suggestions
+
+Inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them.
 
 Some inline suggestion apply only to participants of an active plan. For example, the Improve wellbeing suggestion applies only to participants in an active Wellbeing plan. The remaining suggestions in the following table are available to all MyAnalytics users in your organization, whether they are participating in an active plan or not.
 

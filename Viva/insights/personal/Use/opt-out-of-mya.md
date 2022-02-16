@@ -3,10 +3,10 @@
 title: Opt out of personal insights
 description: How to opt out of Microsoft Viva Insights (including MyAnalytics)
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-personal 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -20,7 +20,7 @@ audience: Admin
 All users can use the Viva Insights (including MyAnalytics) dashboard to opt-out. When you opt out:
 
 * You will no longer be able to access MyAnalytics, including your personal dashboard and [Viva Insights Outlook add-in](../use/add-in.md).
-* You will stop receiving [inline suggestions](../use/mya-notifications.md) and [email digests](../use/email-digest-2.md).
+* You will stop receiving [inline suggestions](../use/mya-notifications.md) and [email digests](../use/email-digests-3.md).
 * Your email activity will not be included in other users' [email open rates](../use/use-the-insights.md#track-email-and-document-open-rates).
 
 ## To opt out of the dashboard
@@ -77,7 +77,7 @@ To opt in, repeat the steps in [To opt out](#to-opt-out-of-the-dashboard), but i
 Use the procedures in this section to configure your own access to MyAnalytics.
 
 * [Opt out of the dashboard](dashboard-2.md#opt-out-of-the-dashboard)
-* [Opt out of the digests](email-digest-2.md#opt-out-of-digests)
+* [Opt out of the digests](email-digests-3.md#opt-out-of-digests)
 * [Opt out of the add-in](../use/add-in.md#to-opt-out)
 * [Opt out of inline suggestions](mya-notifications.md#opt-out-of-inline-suggestions)
 

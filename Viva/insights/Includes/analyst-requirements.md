@@ -1,11 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Requirements for analysts
 description: Licensing requirements for analysts for using queries and templates  
-author: paul9955
-ms.author: v-pausch
+author: madehmer
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -20,7 +18,7 @@ search.appverid:
 ## Requirements for analysts
 -->
 
-Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Privileged Role Administrator](/azure/active-directory/roles/permissions-reference#privileged-role-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
+Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
 
 **Licensing notes**
 

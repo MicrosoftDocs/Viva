@@ -3,10 +3,10 @@
 title: Workplace Analytics Teamwork plans 
 description: Introduction and summary of the Workplace Analytics Teamwork plans
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Workplace Analytics Teamwork plans
+# Teamwork plans
 
 The purpose of the Teamwork plans is to create plans that help teams become more productive, use their time effectively, and make the most of their collaboration time. You start by identifying a shared goal that could benefit a team. Put that goal and that team together, and you have an _opportunity_. Workplace Analytics offers the following kinds of opportunities that you can use to create plans.
 
@@ -25,14 +25,14 @@ The purpose of the Teamwork plans is to create plans that help teams become more
 
 ## Use Teamwork plans
 
-**Analysts**, **limited analysts**, and **program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
+**Analysts**, **Limited analysts**, and **Program managers** can identify groups of employees and opportunities for change, design and start plans, track plans that are underway, and examine plans that have completed.
 
-To start using Teamwork plans, see the following topics:
+To start using Teamwork plans, see the following for details:
 
-* [Plans: Walkthrough](solutionsv2-task.md) - Follow these steps to create and track plans.
-* [Plans: The experience of plan participants](solutionsv2-participants.md) - See the MyAnalytics surfaces that help participants succeed in a plan you create.
-* [Plans: Concepts](solutionsv2-conceptual.md) - Gain more understanding about concepts that can help you create successful plans.
+* [Plan walkthrough](solutionsv2-task.md) - Follow these steps to create and track plans.
+* [Plan participants' experience](solutionsv2-participants.md) - See the personal insights that help participants succeed in a plan you create.
+* [Plan concepts](solutionsv2-conceptual.md) - Gain more understanding about concepts that can help you create successful plans.
 
 ## Related topic
 
-[Plans: Introduction](solutionsv2-intro.md)
+[Plan introduction](solutionsv2-intro.md)

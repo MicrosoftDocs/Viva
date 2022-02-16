@@ -1,12 +1,12 @@
 ---
 
-title: Assigned roles for Viva Insights
+title: Roles for Viva Insights
 description: Which roles get access to which Viva Insights features
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

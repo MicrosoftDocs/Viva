@@ -3,9 +3,9 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Data export
 description: Learn how to use Data export in Workplace Analytics for advanced data analysis
 author: madehmer
-ms.author: v-mideh
+ms.author: v-lilyolason
 ms.topic: article
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -16,9 +16,10 @@ audience: Admin
 
 # Workplace Analytics Data export
 
-[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
-
 _Data export is available only as part of a Microsoft service engagement._
+
+>[!Important]
+>As of February 2022, this product is no longer being supported.
 
 Your company might have unique data-analysis needs requiring custom exploration of Workplace Analytics insights and data that goes beyond what's available in Workplace Analytics. For example, you might have custom data exploration that requires you to combine Workplace Analytics data with data outside of Workplace Analytics.
 

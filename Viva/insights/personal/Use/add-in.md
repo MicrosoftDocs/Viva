@@ -2,10 +2,12 @@
 title: About Viva Insights Outlook add-in
 description: Learn about the Outlook add-in for Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights 
+- viva-insights-personal
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -107,7 +109,6 @@ This pane will show you a number of options, such as the following:
 * [Plan your time away](use-the-insights.md#plan-your-time-away) - Use this card to plan your time away from work.
 * [Catch up with your team](use-the-insights.md#catch-up-with-your-team) - Stay on top of your team's needs with insights for 1:1 meetings, outstanding tasks, and so on.
 * [Meeting suggestions](use-the-insights.md#meeting-suggestions) - Grow and nurture your network by staying connected with important colleagues.
-* [Check quiet hours impact](use-the-insights.md#check-quiet-hours-impact) - Help your team achieve work-life balance by reviewing the impact of sending email outside of working hours.
 
 ## Pin the add-in
 

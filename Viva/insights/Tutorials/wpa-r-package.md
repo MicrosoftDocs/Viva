@@ -3,10 +3,10 @@
 title: wpa R package
 description: Describes the wpa R package, an open-source package of 100+ functions in the R data-analysis language for use with Workplace Analytics 
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: troubleshooting
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

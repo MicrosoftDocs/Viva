@@ -3,10 +3,10 @@
 title: Power BI Microsoft Teams dashboard
 description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined data from Workplace Analytics in Power BI
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium
-ms.collection: m365initiative-viva-insights 
+ms.collection: viva-insights-advanced 
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -61,7 +61,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard supports the [same languages](../overview/supported-languages.md#supported-languages) that Workplace Analytics supports.
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Microsoft Teams insights** to see the required setup steps, and then in step 2, select **Set up** next to **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**).

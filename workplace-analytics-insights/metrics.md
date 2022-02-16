@@ -4,7 +4,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Insight metrics
 description: Describes the data metrics used in Microsoft Viva Insights
 author: madehmer
-ms.author: v-mideh
+ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
 ms.prod: wpa
