@@ -3,7 +3,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 title: Release Notes for Workplace Analytics Azure Templates
 description: Learn about what new Azure Templates or new functionality has been released for Workplace Analytics
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -17,7 +17,8 @@ audience: Admin
 
 # What's new in Workplace Analytics Azure Templates
 
-[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
+>[!Important]
+>As of February 2022, this product is no longer being supported.
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
