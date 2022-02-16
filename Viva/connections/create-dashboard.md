@@ -25,7 +25,7 @@ description: "Learn how to create the Viva Connections Dashboard"
 
 The Viva Connections Dashboard provides fast and easy-access to information and job-related tasks. Content on the Dashboard can be targeted to users in specific roles, markets, and job functions. The Dashboard consists of cards that engage viewers with existing Teams apps, third-party apps, custom solutions, internal, and external links. The Dashboard can be built with no code, or a developer can create custom cards to meet the specific needs of an organization. 
 
-![Image of a Dashboard example.](../media/connections/vc-hero2.png)
+![Image of a Dashboard example.](../media/connections/vc-dashboard.png)
 
 Once [certain requirements are met](guide-to-setting-up-viva-connections.md), the Dashboard can be created and edited from your [home site.](home-site-plan.md) As you are building the Dashboard, you can see a preview of how it will display for targeted audiences and different devices. Then publish your Dashboard to make it available to users who have access to your home site. When you are done, you can add it to Microsoft Teams so that it's easily accessible from a mobile device and desktop. You can also add it to your home page using the [Dashboard web part.](/sharepoint/use-dashboard-web-part-on-home-site)
 
@@ -38,6 +38,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a Teams app card](#add-a-teams-app-card)
+- [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
 - [Add a Shifts card](#add-a-shifts-card)
 - [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
@@ -54,7 +55,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 3. Select the **+ Create Dashboard** button.
 
    >[!NOTE]
-   > - The Dashboard page opens in Mobile view by default.
+   > - The Dashboard page opens in mobile view by default.
    > - You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
    > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
    > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
@@ -66,13 +67,16 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 
 
 5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile, desktop, and tablet for different audiences.
-Here are the built-in cards available now:
 
-   [Web link](#add-a-web-link-card): Add an internal or external link
+**Here are the built-in cards available now:**
 
-   [Assigned tasks](#add-the-assigned-tasks-card): Automatically display information to users about their assigned tasks.
+  - [Web link](#add-a-web-link-card): Add an internal or external link
+
+  - [Assigned tasks](#add-the-assigned-tasks-card): Automatically display information to users about their assigned tasks.
  
-   [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
+  - [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
+
+  - [Design your own using Card designer](#design-your-own-card-with-a-quick-view): Create customizable cards using JSON
 
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
@@ -147,6 +151,54 @@ A Teams app card allows you to create a card for an existing Teams app. To add a
     - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
 7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
+## Design your own card with a quick view
+
+You can choose the **Card designer** option to design your own card that includes a quick view. To do this, you should be familiar with JSON and Adaptive Card templates. For more information, see [Adaptive Cards Templating](/adaptive-cards/templating/).
+
+1. While in **edit** mode, select **+ Add a card** from the dashboard.
+2. Select **Card designer**.
+
+  ![Adding a Card designer card](../media/connections/card-designer.png)
+
+3. In the **property** pane, select your card options.
+
+  ![property pane](../media/connections/card-designer-panel.png)
+
+4. From the **Card size** drop-down list, choose either **Medium** or **Large**.
+   A medium-sized card allows you to add one button, while a large-sized card allows you to add two buttons.
+
+5. Enter a title for your card in the **Title** text box. 
+6. Enter a URL in the **Icon** text box. This URL is the icon's location.
+7. Select a template type from one of the following options in the **Template type** drop-down list:
+    - **Text**: Provides you the option to add only a heading.
+    - **Text and image**: Provides you the option to add a heading and an image.
+    - **Text and description**: Provides you the option to add your own heading and a description, but without an image option.
+8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
+
+>[!NOTE]
+>If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
+>
+
+9. Toggle **Enable card action** to **On** if you want the card to either go to a link or show a quick view when the user selects it. 
+
+> [!IMPORTANT]
+> The quick view will need to be set up first (see the Add a quick view section below).
+
+10. Set the number of buttons to be displayed under **Number of buttons**. 
+    For a medium-sized card, you can show only 1 button. For a large-sized card you can show 1 or 2 buttons.
+
+1. Enter values for the following properties of the button:
+    - **Title**: Title for the button.
+    - **Action**: The result on clicking the button.
+    - **Link**: The URL of the destination the user is directed to, on clicking the button.
+
+## Set up a quick view
+
+Under **Quick view layout and data**, enter JSON template code for your quick view layout, and add the code for the data you want to use. For more information on templating and data with some examples, see [Adaptive Cards Templating](/adaptive-cards/templating/). You can find more examples at [Adaptive Cards](/adaptive-cards/).
+
+If you want to target your card to specific audiences (that is, only audiences you specify will see the card in the Dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Add a Shifts card
@@ -243,7 +295,7 @@ What you see in *preview mode* approximates how the Dashboard will display for c
    2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you will see a disabled **Audience targeting** label).
 
 
-   3. Search for and select a groups. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
+   3. Search for and select a group. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
 
    ![Audience targeting group label.](../media/connections/selecting-groups.png)
 
