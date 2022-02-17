@@ -1,0 +1,11 @@
+items:
+- name: Microsoft Viva Solutions
+  items:
+  - name: Introduction
+    href: introduction.md
+  - name: Automate query exports
+    href: automate-exports.md
+  - name: Complex organizations and insights
+    href: complex-organization-insights.md
+  - name: Viva Insights Data Lake solution
+    href: ./data-lakes/viva-insights.md
