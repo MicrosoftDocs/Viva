@@ -7,5 +7,5 @@ items:
     href: automate-exports.md
   - name: Complex organizations and insights
     href: complex-organization-insights.md
-  - name: Viva Insights Data Lake solution
+  - name: Viva Insights data lake solution
     href: ./data-lakes/viva-insights.md
