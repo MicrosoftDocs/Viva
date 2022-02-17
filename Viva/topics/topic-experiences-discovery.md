@@ -86,9 +86,10 @@ In the CSV template, enter the following information about the topics you want t
 
 ## Exclude resources based on sensitivity labels
 
-If you use sensitivity labels in your organization, you can exclude SharePoint files that have sensitivity labels from topic discovery. This allows you to prevent these files from being listed as suggested files on a topic. Information in labeled files won't be used for AI-generated topic descriptions.
+If you use sensitivity labels in your organization, you can exclude SharePoint files that have sensitivity labels from topic discovery. This allows you to prevent these files from being listed as suggested files on a topic. Information in labeled files won't be used for AI-extracted topic descriptions.
 
-This setting excludes content based on file labels but not site labels.
+This setting excludes content based on file labels but not site labels. Changing this setting may cause some already suggested topics to be removed if they are based only on labeled content.
+
 
 > [!Note] 
 > This option is only available if you have [created sensitivity labels in the Microsoft 365 compliance center](/microsoft-365/compliance/create-sensitivity-labels).
