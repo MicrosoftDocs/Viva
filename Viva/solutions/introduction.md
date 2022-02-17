@@ -28,7 +28,7 @@ Microsoft Viva Solutions can help you create foundation applications and workflo
 
 ## Data access automation
 
-- [**Automate Viva Insights query data exports**](automate-exports.md) - Automated process to export query data from Microsoft Viva Insights in Workplace Analytics into Azure storage.
+- [**Automate Viva Insights query exports**](automate-exports.md) - Automated process to export query data from Microsoft Viva Insights in Workplace Analytics into Azure storage.
 
 ## Multitenant solution
 
@@ -36,4 +36,4 @@ Microsoft Viva Solutions can help you create foundation applications and workflo
 
 ## Help and feedback
 
-To give feedback about or get support for setting up and using these solutions, email the Microsoft Viva Solutions team at 'vivasolutionsext@microsoft.com'.
+To give feedback about or get support for setting up and using these solutions, email the Microsoft Viva Solutions team at [vivasolutionsext@microsoft.com](mailto:vivasolutionsext@microsoft.com).
