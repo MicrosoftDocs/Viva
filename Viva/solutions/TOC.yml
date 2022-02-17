@@ -1,7 +1,7 @@
 items:
 - name: Microsoft Viva Solutions
   items:
-  - name: Introduction
+  - name: Microsoft Viva Solutions
     href: introduction.md
   - name: Automate query exports
     href: automate-exports.md

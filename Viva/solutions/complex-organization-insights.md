@@ -33,7 +33,7 @@ The following shows how mergers and acquisitions require the use of two tenants.
 
 ## Conglomerates
 
-A conglomerate is a corporation made up of several independent subsidiaries. The subsidiaries are tenants that have separate AAD and will collaborate together and remain separate (For example, The Walt Disney Company, Honeywell).
+A conglomerate is a corporation made up of several independent subsidiaries. The subsidiaries are tenants that have separate Azure AD and will collaborate together and remain separate (For example, The Walt Disney Company, Honeywell).
 
 The concept of conglomerates is as follows.
 
@@ -283,8 +283,8 @@ The setup details are available [here](#data-pipeline---automated).
         |path     | OData path of the OData URL        |
         |fileName    |    Pre-fix name of the file     |
 
-        > [!NOTE]
-        > The content in the `.txt` file will be a comma-delimited one. This content is built using the schema in the above table. This schema-based content is created for each OData source.
+        >[!NOTE]
+        >The content in the `.txt` file will be a comma-delimited one. This content is built using the schema in the above table. This schema-based content is created for each OData source.
 
       A sample of the `ODatasources.txt` file is shown in the following graphic. This file contains details of two tenants, who are each assigned two sets of OData URLs they can govern. Each OData URL for a tenant uses the keyvault secret created specifically for that tenant.
 
@@ -300,10 +300,10 @@ The setup details are available [here](#data-pipeline---automated).
  
         |Secret Name (based on the examples Tenant 1 and Tenant 2)  |Value description  |
         |---------|---------|
-        |tenantid1     |    AAD TenantId for Tenant 1. Example: bd382938-yyyy-yyyy-yyyy-yyyyyyyyyyyy     |
+        |tenantid1     |    Azure AD TenantId for Tenant 1. Example: bd382938-yyyy-yyyy-yyyy-yyyyyyyyyyyy     |
         |servicePrincipal1     |    Service Principal for tenant 1. Example: lld32e908-yyyy-yyyy-yyyy-yyyyyyyyyyyy     |
         |MTWpaSecret1     |  Credential for servicePrincipal1 for tenant 1. Example: dsfUELk23r7912!#       |
-        |tenantid2     |     AAD TenantId for tenant 2. Example: bd382938-xxxx-xxxx-xxxx-xxxxxxxxxxxx    |
+        |tenantid2     |     Azure AD TenantId for tenant 2. Example: bd382938-xxxx-xxxx-xxxx-xxxxxxxxxxxx    |
         |servicePrincipal2     |   Service Principal for tenant 2. Example: hh2bd38d-xxxx-xxxx-xxxx-xxxxxxxxxxxx      |
         |SPSecret2     |    Credential for servicePrincipal2 for tenant 2. Example: bjdIOLUE.j23iu2!#     |
 
