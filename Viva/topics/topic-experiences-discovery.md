@@ -3,7 +3,7 @@ title: Manage topic discovery in Microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: nkokoye
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.collection: m365initiative-viva-topics
@@ -84,18 +84,20 @@ In the CSV template, enter the following information about the topics you want t
 
     ![Exclude topics in CSV template.](../media/exclude-topics-csv.png) 
 
-## Prevent topic viewers from seeing suggested topics
+## Exclude resources based on sensitivity labels
 
-You can prevent topic viewers from seeing unconfirmed AI-suggested topics in highlights and search results. This allows knowledge managers to review the topics first and confirm them before topic viewers see them.
+If you use sensitivity labels in your organization, you can exclude SharePoint files that have sensitivity labels from topic discovery. This allows you to prevent these files from being listed as suggested files on a topic. Information in labeled files won't be used for AI-generated topic descriptions.
 
-To hide suggested topics from topic viewers
+This setting excludes content based on file labels but not site labels.
 
+> [!Note] 
+> This option is only available if you have [created sensitivity labels in the Microsoft 365 compliance center](/microsoft-365/compliance/create-sensitivity-labels).
+
+To exclude resources based on sensitivity labels
 1. On the **Topic discovery** tab, select **Advanced settings**.
-1. Under **Control if AI suggested topics are visible to users**, choose **No suggested topics**.
+1. Under **Exclude resources based on sensitivity labels**, select the labels for the files you want to exclude.
 1. Select **Save**.
 1. Close the advanced settings panel.
-
-    ![Screenshot of exclude suggested topics user interface.](../media/km-show-suggested-topics.png)
 
 ## See also
 
