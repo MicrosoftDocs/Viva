@@ -1,7 +1,7 @@
 ---
 
-title: Microsoft Viva Insights Data Lake solution
-description: Learn how to set up and use the Viva Insights Data Lake solution
+title: Microsoft Viva Insights data lake solution
+description: Learn how to set up and use the Viva Insights data lake solution
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Viva Insights Data Lake solution
+# Viva Insights data lake solution
 
 You can use this solution to extract, transform, and load (ETL) Microsoft Viva Insights data into a database and then report on it through Power BI as an end-user platform. The key features of this workload:
 
