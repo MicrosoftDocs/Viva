@@ -11,6 +11,9 @@
   - name: Viva Insights
     tocHref: /viva/insights/introduction
     topicHref: /viva/insights/index
+  - name: Viva Solutions
+    tocHref: /viva/solutions/
+    topicHref: /viva/solutions/introduction
   - name: Viva Topics
     tocHref: /viva/topics/
     topicHref: /viva/topics/index
