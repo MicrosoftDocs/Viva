@@ -90,7 +90,9 @@ Within a few days after being assigned an Insights role, these users will get an
 
 13. After a few seconds, you'll see a message in the upper right about the role assignment. Optionally, you can now assign additional roles, either to the same user or to different users by repeating these steps.
 
-To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments). After users are assigned a Workplace Analytics role, they will not receive an email notification from Workplace Analytics. As their admin, you'll need to notify them of what's available to them based on their role. For details, see [Roles in Viva Insights](../use/User-Roles.md).
+To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments). After people are assigned a Workplace Analytics role, they will not receive an email notification from Workplace Analytics. As their admin, you'll need to notify them of what's available to them based on their role. To learn more about feature access for the different roles, see [Roles in Viva Insights](../use/User-Roles.md).
+
+If you assigned the Microsoft Viva Insights (WpA transition) license to one or more people, they will also not receive an email notification. So you'll need to notify them as well. For details about this license option, see [Premium access for licenses assigned before July 2021](../personal/teams/viva-teams-app-admin-tasks.md#premium-access-for-licenses-assigned-before-july-2021).
 
 ## Assign roles to groups
 
