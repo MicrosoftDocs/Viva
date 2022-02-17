@@ -36,4 +36,4 @@ Microsoft Viva Solutions can help you create foundation applications and workflo
 
 ## Help and feedback
 
-To give feedback about or get support for setting up and using these solutions, email the Microsoft Viva Solutions team at [vivasolutionsext@microsoft.com](vivasolutionsext@microsoft.com).
+To give feedback about or get support for setting up and using these solutions, email the Microsoft Viva Solutions team at 'vivasolutionsext@microsoft.com'.

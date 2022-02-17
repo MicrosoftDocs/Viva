@@ -120,7 +120,7 @@ Set up the [Business Continuity](../insights/Tutorials/power-bi-bc.md) dashboard
 
 ### Azure
 
-For [Ad hoc with OData](#ad-hoc-using-OData-approach) and [Automated Data Pipeline](#automated-data-pipeline), you will need:
+For [Ad hoc with OData](#ad-hoc-using-odata-approach) and [Automated Data Pipeline](#automated-data-pipeline), you will need:
 
 - An application registration
 - Registered application's secret for each tenant from which you are planning to pull Viva Insights query results.
