@@ -1,11 +1,12 @@
 items:
 - name: Microsoft Viva Solutions
   items:
-  - name: Microsoft Viva Solutions
+  - name: Introduction
     href: introduction.md
-  - name: Automate query exports
-    href: automate-exports.md
-  - name: Complex organizations and insights
-    href: complex-organization-insights.md
-  - name: Viva Insights data lake solution
-    href: ./data-lakes/viva-insights.md
+    items:
+    - name: Viva Insights data lake solution
+      href: ./data-lakes/viva-insights.md
+    - name: Data access automation
+      href: automate-exports.md
+    - name: Multitenant solution
+      href: complex-organization-insights.md
