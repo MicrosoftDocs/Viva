@@ -8,10 +8,10 @@ ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.service: viva 
-ms.subservice: viva-solutions
+ms.subservice: viva-insights
 ms.collection: 
 - M365-analytics
-- viva-solutions
+- viva-insights
 manager: dansimp
 audience: Admin
 ---
