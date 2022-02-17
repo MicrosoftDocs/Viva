@@ -208,28 +208,57 @@ After following the steps to [Create the queries](#create-the-queries), do the f
     11. After confirming that the connection is successful, select **Create**.
 
 11. In **Set Properties** > **Linked service** for the new OData linked service, select the new linked service you just created in the previous steps. In **Path**, ignore the “Failed” status and select **OK**.
+
+    ![Set properties for Linked service screen.](../images/set-properties.png)
+
 12. In **Source**, select **Open** for the source dataset that you've created.
+
+    ![Open source dataset option.](../images/open-dataset.png)
+
 13. In **Parameters** for the opened OData resource, add **PersonQueryMetaData**.
+
+    ![Add parameters for person query.](../images/person-parameters.png)
+
 14. Go back to the **Connection** tab, select the empty field for the **Path** and use the **Add Dynamic Content** to set the path to the dynamic value of: '@dataset().PersonQueryMetaData'
+
+    ![Add Dynamic Content connection path.](../images/connection-path.png)
+
 15. Select **Preview data** and confirm the path is correct. If prompted to enter the PersonQueryMetaData parameter value, use “Persons” or “Meetings," which are the defaults for the person and meeting queries.
 16. Go back to the **Person Query Copy** activity > **Source** > **Dataset Properties**, select the empty value field for the parameter, and use the **Add Dynamic Content** to set the parameter value.
+
+    ![Add dataset properties.](../images/dataset-properties.png)
+
 17. For the **Person Query Copy** activity, select the **Sink** tab, and then add a new **Sink** dataset.
 18. Select **Azure Data Lake Storage Gen2**, continue with **DelimitedText** as the format, and then select **Continue**.
+
+    ![DelimitedText format for Azure Data Lake Storage Gen2.](../images/azure-gen2.png)
+
 19. In **Set properties**, select your linked storage account, which will be used as the write destination of the Viva Insights query result in Linked Service. Leave the **File Path** as is.
 
     >[!Note]
     >When creating the Synapse Workspace, it links to a default storage account. To link to a different storage account (new or existing storage), follow the steps in the [Synapse documentation](/azure/synapse-analytics/quickstart-create-workspace#prepare-an-existing-storage-account-for-use-with-azure-synapse-analytics) to link a different storage account.
 
-20. In **Sink**, open the created Sync dataset.
+20. In **Sink**, open the created Sink dataset.
+
+    ![Open the new Sink dataset.](../images/sink-dataset.png)
+
 21. In **Parameters**, add the **PersonQueryDatasetFolder**, **PipelineID**, and **VivaInsightsDataFileSystem** parameters.
+
+    ![Add the Sink Parameters.](../images/sink-parameters.png)
+
 22. In **Connection**, select the **File Path** > **Directory** > **Add Dynamic Content** and create the following path:
 
     '@concat(dataset().VivaInsightsDataFileSystem,'/',dataset().PipelineID,'/raw/',dataset().PersonQueryDatasetFolder)'
+
+    ![Add the dynamic content path.](../images/dynamic-path.png)
+    ![Confirm the DelimitedText Connection details.](../images/delimitedtext.png)
 
 23. Keep the **PersonQuerySink** tab open and go back to the pipeline tab. In the **Person Query Copy** activity > **Sink** > **Dataset Properties**, use the **Add Dynamic Content** for each parameter to set the values accordingly.
 
     >[!Note]
     >The PipelineID is shown under the system variables for the Pipeline Run ID.
+
+    ![Sink dataset properties.](../images/sink-dataset-properties.png)
 
 24. Publish the pipeline to confirm it's error-free.
 25. Repeat the previous steps to modify the names and parameter names to create another copy data activity for meeting query named **Meeting Query Copy**, as shown in these steps. Change the parameter names for the meeting query to be **MeetingQueryDatasetFolder** and **MeetingQueryMetaData**, as applicable.
@@ -252,12 +281,19 @@ After following the steps to [Create the queries](#create-the-queries), do the f
 
     The following shows an example of what your pipeline should look like:
 
-       ![Pipeline example.](../images/pipeline-example.png)
+       ![Pipeline example view.](../images/pipeline-view.png)
 
 31. Repeat the previous two steps to add another notebook named **Viva Insights Meeting Transformation**, and then connect it to the **Meeting Query Copy** activity. For this notebook, add the **MeetingQueryDatasetFolder**.
-32. Publish the pipeline to confirm it's error-free.
+32. Your pipeline should now look like the following example. Publish the pipeline to confirm it's error-free.
+
+    ![Pipeline example view at this stage.](../images/pipeline-view-3.png)
+
 33. In [the GitHub repository](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/Viva%20Insights), download the two SQL scripts to create the **viva_insights_meeting** and **viva_insights_person** tables.
-34. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it. The pipeline is now complete and can be triggered
+34. In **Develop**, select the SQL Script **ellipsis** (...) icon and import the two SQL scripts. Open each, select your SQL server in **Connect To** and your database in **Use Database**, and then run it.
+
+    ![Import the SQL Scripts.](../images/import-scripts.png)
+
+The pipeline is now complete and can be triggered
 
 ## Consume data for analytics
 
@@ -271,6 +307,8 @@ Follow these steps to connect your Power BI desktop to the SQL Database:
 
    >[!Note]
    >Open the **Synapse Manage** tab, and then in **Analytics Pool** > **SQL Pools**, select the SQL pool for this pipeline. In the **Properties** window, confirm **Workspace SQL Endpoint** is the correct value for SQL Database.
+
+    ![SQL Server database details for Power BI.](../images/database-details.png)
 
 4. Select the tables, and then load them.
 
