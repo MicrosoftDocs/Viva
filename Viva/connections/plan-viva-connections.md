@@ -211,6 +211,22 @@ Learn more about adoption and get communication templates in the [Viva adoption 
 
 
 
+## Consider which metrics to use to measure the effectiveness of Viva Connections
+Part of the planning process includes determining which metrics will be used to measure how effective Viva Connections is in bringing your organization together and keeping specific audiences informed. Start by considering the tasks and tools that the Dashboard will offer. For example, if you create a card that links to your human resources SharePoint site or a specific page, you should expect to see more traffic and engagement for that site in usage reports.
+
+For a high-level view of usage across M365 apps, use [Microsoft 365 usage analytics](/admin/usage-analytics/usage-analytics?view=o365-worldwide) to access a pre-built dashboard that contains several pre-built reports that focus on adoption of M365 apps, usage, communication, and collaboration. Alternatively, you can use [site level](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and [page level](https://support.microsoft.com/office/view-usage-data-for-pages-and-news-e3186199-ccc8-4445-9162-bb1bcec8b7ee) usage reports in SharePoint to gauge engagement and learn more about when users access content and what devices they are using. 
+Usage analytics aside, you can ask users directly about their overall satisfaction. Consider [creating a card on the Dashboard that links to a Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) where you can ask users to rate satisfaction and provide feedback.  
+
+
+## Plan for maintenance over time
+Generally, Viva Connections needs minimal ongoing maintenance. This is partially because most resources and content is stored in SharePoint. Therefore, if your SharePoint intranet is up to date, so is Viva Connections. 
+•	Dashboard: Once designed and tested, the Dashboard will only need to be updated to support new scenarios or retire old scenarios.
+•	Feed: Content is dynamically displayed and aggregated from SharePoint news posts and Yammer communities.  
+•	Resources: Like the Dashboard, once links to portals have been established, the Resources will only need updates as needed.
+
+As your business grows and evolves, you will likely identify new scenarios that can be supported by Viva Connections. Over time, you may decide to retire cards on the Dashboard or rearrange global navigation in Resources. Additionally, users will share feedback that can be used to improve the experience. Each of these scenarios will require time to implement and to communicate as needed. Plan to have a point-person, or team of people, who can manage these tasks over time. 
+
+
 
 
 
