@@ -23,7 +23,7 @@ Microsoft Viva Solutions can help you create foundation applications and workflo
 
 ## Data lake solutions
 
-- [**Viva Insights data lake lolution**](./data-lakes/viva-insights.md) - Automated solution to extract, transform, and load (ETL) Viva Insights data into a database, and then report on it through Microsoft Power BI.
+- [**Viva Insights data lake solution**](./data-lakes/viva-insights.md) - Automated solution to extract, transform, and load (ETL) Viva Insights data into a database, and then report on it through Microsoft Power BI.
 - [**Microsoft Graph Data Connect**](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/MGDC) - Automated solution to copy data from your Microsoft 365 or Office 365 organization (Microsoft Graph) a Microsoft Graph Data Connect into an Azure storage, and then extracting enriched attributes exported into entity (.csv) tables.
 
 ## Data access automation
