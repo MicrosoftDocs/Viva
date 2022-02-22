@@ -97,16 +97,117 @@ Viva Connections is comprised of 3 main parts – the Dashboard, the Feed, and R
 - **Resources:** The Resources experience enables wayfinding across platforms. It uses navigation elements from the SharePoint app bar, which can be [audience targeted](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293).
 
 
+Table with images and bullet points
+
+
+### Plan the Dashboard
+Start by identifying the key scenarios that Viva Connections needs to support and identify owners of those employee experiences. Tasks and scenarios will be primarily supported by cards in the Viva Connections Dashboard that can be targeted to specific audiences using Microsoft 365 groups. Consider which groups of employees will need access to specific resources. 
+
+Table with GIF and description
+
+Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design.
+
+**Popular scenarios that can be supported by Viva Connections:**
+
+| General tasks    | Tasks for information workers   | Tasks for frontline workers  |
+| :------------------- | :------------------- |:-------------------|
+| - View pay and benefits <br> - Submit a ticket to the help desk <br> - Access lunch and café options <br> - Catch up on news and announcements | - Find people and team information <br> - Complete required training <br> - View company holidays | - View and manage shifts <br> - Access time sheets and popular forms <br> - View workplace policies and resources | 
+
+#### Types of Dashboard cards:
+As you plan, consider the different types of cards available. There are three different types of cards that can be used on the Viva Connections Dashboard. Some cards may take longer than other to implement or may require work on the backend to set up.
+- **Out of the box cards:** These cards require very little configuring and include the [Link, Shifts, Teams, and Assigned tasks cards](/viva/connections/create-dashboard).
+- **Adaptive extension cards:** Also known as ACE’s, are [cards that can be extended and customized](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension) using the SharePoint Framework (SPFx).  
+- **Third-party cards:** These cards come from [third parties like Qualtrics, ServiceNow, and Workday](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643).
+
+
+#### Planning process
+
+![Image of a planning process flow.](../media/connections/add-a-card.png)
+
+As you work with business owners and key stakeholders to align your Viva Connections design strategy, answer the following for each task:
+- Who is the audience?
+- What do users need to accomplish or learn?
+- What tools or technology do they use today?
+- What tools or technology do you want visitors to use to accomplish their key tasks?
+- What information needs to be promoted?
+
+
+#### Examples of different Dashboard design
+The Dashboard should focus on the most important tasks. Tasks that are specific to certain audiences should be targeted to make sure users only see cards that are relevant to their day-to-day jobs.
+
+
+![Image of a Dashbaord that is designed for frontline workers.](../media/connections/add-a-card.png)
+
+
+#### Planning resources:
+•	[Create and customize a Dashboard](/viva/connections/create-dashboard)
+•	Learn more about [adaptive cards](https://adaptivecards.io/)and  [third-party cards](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643)
+•	Leverage existing [Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) or create news groups if needed so that you can quickly create cards and [target them to specific audiences](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
+
+
+## Plan the Feed
+The Feed brings communications from across the organization into one place where it can be easily viewed. This Feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements.  This solution also gives content publishers a reliable method of distributing important news and information. 
+
+   ![Image of the feed.](../media/connections/add-a-card.png)
+
+
+### Tips on how to curate content that’s viewed in the Feed
+The Feed is designed to be dynamic, personalized, and a place where the most relevant news and announcements can be consumed. The Feed relies on a constant flow of new content and the best experience contains a balance of organizational news, organic content, and curated content.
+-  Publish SharePoint news from [official organizational news sources](/sharepoint/organization-news-site#:~:text=Use%20Microsoft%20PowerShell%20to%20specify%20a%20site%20as,organization%20news%20site%3A%20PowerShell%20Set-SPOOrgNewsSite%20-OrgNewsSiteUrl%20%3Csite%20URL%3E) like the [home site](/viva/connections/home-site-plan)
+- [Use News boost to elevate the most important news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83#:~:text=1%20On%20your%20organization%20news%20site%2C%20open%20the,post%20to%20stop%20being%20boosted.%20More%20items...%20) posts on organizational news sites to surface news posts to the top of the feed
+- [Post news as a video news links](/viva/connections/video-news-links) hosted by stream to share updates, rebroadcast an all-hands meeting, or provide reusable training materials
+- Highlight community discussions by [featuring posts in public Yammer communities](/yammer/manage-yammer-groups/yammer-all-company-yammer-community) that you’d like seen by the entire organization
+- Encourage your organization to [engage and participate in Yammer discussions](https://adoption.microsoft.com/yammer/), especially leaders and workplace champions
+- [Use audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to make sure specific content is seen by different audiences using Microsoft 365 groups
+
+
+### Planning resources:
+- Review [frequently asked questions about the Feed](/viva/connections/faqs-viva-connections-feed) for Viva Connections
+- Consider using the [Feed web part](https://support.microsoft.com/office/use-the-feed-web-part-for-viva-connections-001fbe90-3778-4801-9ea9-71308711d330#:~:text=%20Add%20the%20Viva%20Connections%20Feed%20web%20part,for%20Viva%20Connections%20Feed%20web%20part.%20More%20) on popular SharePoint pages to surface news and announcements
+
+
+## Plan the Resources
+Resources are the navigational links to portals that get set up when you enable and customize global navigation. While preparing your Viva Connections, know that these resources will display from the SharePoint app bar and the Teams app bar when Viva Connections is set up. The resources in the app bar should be the most important and popular portals for your target audience. Resources can be targeted to specific audiences.
+
+   ![Image of the Resources.](../media/connections/add-a-card.png)
+
+
+Consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
+
+
+### Planning resources:
+- Set up for the first time, or [customize navigational links in the global navigation](/viva/connections/sharepoint-app-bar) from the home site
+- Get more guidance on how to [design navigation in SharePoint](/sharepoint/information-architecture-modern-experience)
 
 
 
+## Create an adoption plan that includes considerations for change management and training materials for end-users
+Planning for change and helping users adopt new resources will be different for every organization. Use the considerations and best practices here as a starting point to creating an adoption plan that fits your organization’s needs.
+
+### Adoption considerations:
+- Viva Connections can only be accessed in Microsoft Teams. If your organization is not already using Microsoft Teams, you will need to [plan the adoption of Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/) alongside [Viva Connections](https://adoption.microsoft.com/viva/).
+- Make adoption easy for end-users by [pre-installing and pre-pinning the app in Teams](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) while picking settings.
+- Find early adopters and champions and create ways to extend their enthusiasm to the rest of the organization.
+- Plan to engage with users where they typically meet and share information (for example, if your organization already meets in Teams, plan to post in channels.)
+- Determine who and where questions about Viva Connections should go to. Consider using a [Yammer community](https://support.microsoft.com/office/join-and-create-a-community-in-yammer-56aaf591-1fbc-4160-ba26-0c4723c23fd6), [SharePoint site](https://support.microsoft.com/office/create-a-site-in-sharepoint-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8), or [Teams channels](https://support.microsoft.com/office/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525) allow users to ask questions or see commonly asked questions.
+
+### Change management considerations:
+- Start by creating awareness and interest in multiple channels to appeal to different audiences. Consider common spaces for on-site users like the breakroom or conference rooms. For remote workers and the rest of the organization, plan to post announcements in Teams, Yammer, and SharePoint.
+- Make sure different audiences of end-users can easily understand how this new tool will help improve their day-to-day work.
+- Create opportunities for users to ask questions, get help, and see live demonstrations. Consider setting up weekly training sessions or office hours during the first month of adoption. Leverage champions where possible. 
+- Reinforce change by creating incentives for using the new tools. 
+- Clearly explain: how to use Viva Connections on desktop and mobile apps, how to engage with the Dashboard, the Feed, and Resources, and where to view the latest news and announcements
+- Specialized guidance for different audiences like frontline workers or hybrid workers
 
 
+### Training considerations:
+- Use training to help raise awareness about where resources [can be accessed in Teams on desktop or mobile devices](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b).  
+- Showcase different ways to connect and engage with cards on the Dashboard and content in the Feed. Consider providing different training guidance for different audiences. 
+- Highlight popular portals in SharePoint that can be found in the Resource tab when on a mobile device.
 
 
-
-
-
+#### Adoption resources:
+Learn more about adoption and get communication templates in the [Viva adoption center](https://adoption.microsoft.com/viva/).
 
 
 
