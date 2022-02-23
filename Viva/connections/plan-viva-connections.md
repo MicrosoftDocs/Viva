@@ -215,8 +215,8 @@ Consider how links in the global navigation will complement resources highlighte
 
 
 
-## Create an adoption plan that includes considerations for change management and training materials for end-users
-Planning for change and helping users adopt new resources will be different for every organization. Use the considerations and best practices here as a starting point to creating an adoption plan that fits your organization’s needs.
+## Create an adoption plan 
+Planning for change and helping users adopt new resources will be different for every organization. Use the considerations and best practices here as a starting point to creating an adoption plan that fits your organization’s needs. Include considerations for change management and training materials for end-users in your plan.
 
 ### Adoption considerations:
 - Viva Connections can only be accessed in Microsoft Teams. If your organization is not already using Microsoft Teams, you will need to [plan the adoption of Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/) alongside [Viva Connections](https://adoption.microsoft.com/viva/).
@@ -245,11 +245,12 @@ Learn more about adoption and get communication templates in the [Viva adoption 
 
 
 
-## Consider which metrics to use to measure the effectiveness of Viva Connections
+## Consider success metrics
 Part of the planning process includes determining which metrics will be used to measure how effective Viva Connections is in bringing your organization together and keeping specific audiences informed. Start by considering the tasks and tools that the Dashboard will offer. For example, if you create a card that links to your human resources SharePoint site or a specific page, you should expect to see more traffic and engagement for that site in usage reports.
 
-For a high-level view of usage across M365 apps, use [Microsoft 365 usage analytics](/admin/usage-analytics/usage-analytics?view=o365-worldwide) to access a pre-built dashboard that contains several pre-built reports that focus on adoption of M365 apps, usage, communication, and collaboration. Alternatively, you can use [site level](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and [page level](https://support.microsoft.com/office/view-usage-data-for-pages-and-news-e3186199-ccc8-4445-9162-bb1bcec8b7ee) usage reports in SharePoint to gauge engagement and learn more about when users access content and what devices they are using. 
-Usage analytics aside, you can ask users directly about their overall satisfaction. Consider [creating a card on the Dashboard that links to a Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) where you can ask users to rate satisfaction and provide feedback.  
+ - **High-level view of usage across M365 apps:** Use [Microsoft 365 usage analytics](/admin/usage-analytics/usage-analytics?view=o365-worldwide) to access a pre-built dashboard that contains several pre-built reports that focus on adoption of M365 apps, usage, communication, and collaboration. 
+ - **Site or page level data:** Get [site level](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) and [page level](https://support.microsoft.com/office/view-usage-data-for-pages-and-news-e3186199-ccc8-4445-9162-bb1bcec8b7ee) usage reports in SharePoint to gauge engagement and learn more about when users access content and what devices they are using. 
+- **Get direct feedback from users:** Usage analytics aside, you can ask users directly about their overall satisfaction. Consider [creating a card on the Dashboard that links to a Microsoft Form](https://support.microsoft.com/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) where you can ask users to rate satisfaction and provide feedback.  
 
 
 ## Plan for maintenance over time
@@ -262,5 +263,5 @@ As your business grows and evolves, you will likely identify new scenarios that 
 
 
 ## Next, build Viva Connections for your organization
-
+After you meet requirements, have a plan for the Dashbaord, and are prepared to help users adopt Viva Connections, its time to [move on the the build phase](build-viva-connecitons.md). 
 
