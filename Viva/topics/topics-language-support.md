@@ -25,25 +25,26 @@ description: What languages are available in Microsoft Viva Topics.
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
-Arabic|Galician|Norwegian, Bokmal
-Azeri|German|Polish
-Basque|Greek|Portuguese (Brazil)
-Bosnian Latin|Hebrew|Portuguese (Portugal)
-Bulgarian|Hindi|Romanian
-Catalan|Hungarian|Russian
-Chinese (Simplified)|Indonesian|Serbian (Latin)
-Chinese (Traditional)|Irish|Slovak
-Croatian|Italian|Slovenian
-Czech|Japanese|Spanish (Spain)
-Danish|Kazakh|Swedish
-Dari|Korean|Thai
-Dutch|Latvian|Turkish
-English (United States)|Lithuanian|Ukrainian
-Estonian|Macedonian|Vietnamese
-Finnish|Malay-Malaysia|Welsh 
-French (France)| |
+English|Thai|Slovenian
+Japenese|Danish|Lithuanian
+German|Hungarian|Estonian
+Chinese (Simplified)|Finnish|Latvian
+Spain|Infonesian|Malay (Latin)
+French|Greek|Serbian (Latin)
+Portuguese (Brazil)|Romanian|Hindi
+Russian|Ukrainian|Bosnian (Latin)
+Italian|Catalan|Kazakh
+Chinese (Traditional)|Norwegian Bokmål|Basque
+Korean|Arabic|Galacian
+Dutch|Vietnamese|Irish
+Polish|Slovak|Macedonian
+Swedish|Hebrew|Azerbaijani (Cyrillic) and/or Azerbaijani (Latin)
+Turkish|Bulgarian|Dari
+Czech|Croatian|Welsh
+Portuguese (Portugal)| |
 
-Bokmål
+
+
 
 
 
