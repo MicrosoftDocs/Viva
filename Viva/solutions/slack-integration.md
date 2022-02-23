@@ -46,7 +46,7 @@ To get the oAuth token this pipeline needs:
 
    * Redirect URL:
 
-        ```json
+        ```
         https://app.slack.com
 
         https://slack.com/
@@ -56,13 +56,13 @@ To get the oAuth token this pipeline needs:
 
     * User scopes:
 
-        ```json
+        ```
         admin.analytics:read
         ```
 
     Refer to the following App Manifest example. The redirect URLs and user scope have updates.
 
-    ```json
+    ```
     display_information:
         name: vsappanalytics
         features:
