@@ -23,18 +23,18 @@ description: "Build Viva Connections for your organization"
 
 # Build Viva Connections 
 
-After deciding which tasks, audiences, and resources to promote using Viva Connections in the [planning phase](plan-viva-connections.md), you are ready to move onto the building phase. 
+After deciding which tasks, audiences, and resources to promote using Viva Connections in the [planning phase](plan-viva-connections.md), you're ready to move onto the building phase. 
 
 
 ## Step 3: Create your organization's instance of Viva Connections
-You know you are ready to move onto the building phase if you've met the following requirements and have reviewed best practices:
+You know you're ready to move onto the building phase if you've met the following requirements and have reviewed best practices:
 
-- You’ve got a home site, global navigation set up, and modernized sites (if needed and only for sites related to tasks in the Viva Connections Dashboard)
-- The most valueable tasks and processes can be completed using Viva Connections
+- You’ve got a home site, global navigation setup, and modernized sites (if needed and only for sites related to tasks in the Viva Connections Dashboard)
+- The most valuable tasks and processes can be completed using Viva Connections
 - Considerations have been made for specific audiences
 - You have an adoption and launch plan along with success metrics
 
-Now, you are ready to create the Viva Connections Dashboard. Then, you will select settings for the mobile app. Next, you will make sure content that’s on the home site, and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
+Now, you're ready to create the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site, and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
 
 ## Create a Viva Connections Dashboard
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. 
@@ -51,9 +51,9 @@ The Dashboard brings it all together – it provides a personalized landing expe
 
 
 ## Enable the Viva Connections app in the Microsoft Teams admin center and choose mobile settings
-The Viva Connections app creates a custom app in Microsoft Teams. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams app. Users *will not* see the app by default if you don’t pre-install and pre-pin. [Learn more about app setup policies in the Teams admin center](/MicrosoftTeams/teams-app-setup-policies#:~:text=Arrange%20the%20apps%20in%20the%20order%20that%20you,to%20appear%20in%20Teams%2C%20and%20then%20select%20Save.).
+The Viva Connections app creates a custom app in Microsoft Teams. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams app. Users *won't* see the app by default if you don’t pre-install and pre-pin. [Learn more about app setup policies in the Teams admin center](/MicrosoftTeams/teams-app-setup-policies#:~:text=Arrange%20the%20apps%20in%20the%20order%20that%20you,to%20appear%20in%20Teams%2C%20and%20then%20select%20Save.).
 
-After you have created the Dashboard, you are ready to [add the Viva Connections app in the Microsoft Teams Admin Center](/viva/connections/add-viva-connections-app). Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users.
+After you've created the Dashboard, you're ready to [add the Viva Connections app in the Microsoft Teams Admin Center](/viva/connections/add-viva-connections-app). Add the Viva Connections app, and then customize app settings to add your organization's logo, pre-install, and pre-pin the app for end users.
 
 
 ## Ensure high-traffic content can be accessed by the right users and provides an ideal viewing experience
@@ -81,4 +81,4 @@ Before sharing Viva Connections with the rest of your organization, recruit a sm
 
 ## Next, launch Viva Connections for your organization
 
-After [planning](plan-viva-connections.md), building, and testing Viva Connections, it’s time to let the rest of the organization know that its available for use. [Learn more about how to launch Viva Connections.](launch-viva-connections.md)
+After [planning](plan-viva-connections.md), building, and testing Viva Connections, it’s time to let the rest of the organization know that it's available for use. [Learn more about how to launch Viva Connections.](launch-viva-connections.md)
