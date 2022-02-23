@@ -203,7 +203,7 @@ Resources are the navigational links to portals that get set up when you enable 
 
 | Desktop             | Mobile                 | 
 | :------------------: |: ------------------: |
-| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-med.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
+| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-table.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
 Consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
