@@ -23,8 +23,6 @@ The app is built using a PowerShell script provided by Microsoft.
 
 You must be a SharePoint admin and a site owner for the topic center to create the Viva Topics app in PowerShell. You must be a Teams admin to upload and manage the app in the Teams Admin Center.
 
-We recommended that global navigation is enabled and customized in the SharePoint app bar so that SharePoint resources appear in Teams.
-
 > [!NOTE]
 > Viva Topics is not supported in the Teams mobile app.
 
