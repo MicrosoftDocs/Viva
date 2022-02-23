@@ -135,9 +135,9 @@ As you plan, consider the different types of cards available. There are three di
 - **Third-party cards:** These cards come from [third parties like Qualtrics, ServiceNow, and Workday](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643).
 
 
-#### Planning process
+### Planning process
 
-![Image of a planning process flow.](../media/connections/add-a-card.png)
+![Image of a planning process flow.](../media/connections/plan-process.png)
 
 As you work with business owners and key stakeholders to align your Viva Connections design strategy, answer the following for each task:
 - Who is the audience?
@@ -146,12 +146,23 @@ As you work with business owners and key stakeholders to align your Viva Connect
 - What tools or technology do you want visitors to use to accomplish their key tasks?
 - What information needs to be promoted?
 
+#### Start with the most important workflows
+Not *every* task should be turned into a card on the Dashboard. Focus on the most impactful tasks that can be executed within a short amount of time. Find opportunities that align with the fields "Quick wins" and "First successes" in the decision matrix below as a start.  
+
+![Image of a planning matrix.](../media/connections/plan-matrix.png)
+
+
+#### Design with your audience in mind
+As a best practice, it's important to make decisions that are rooted in specific tasks for certain audiences. Consider using a common framework for scenario planning that starts by selecting a certain role or audience *"As some in..."*. Then, narrow down the objective in *"I want to..."*. Next, consider the ideal tool or process to meet the objective in *"Using..."*.
+
+![Image of a the planning framework.](../media/connections/plan-framework.png)
+
 
 #### Examples of different Dashboard design
 The Dashboard should focus on the most important tasks. Tasks that are specific to certain audiences should be targeted to make sure users only see cards that are relevant to their day-to-day jobs.
 
 | Frontline workers   | Information workers  | 
-| :------------------- |:------------------- |
+| :------------------: |:------------------: |
 | ![Image of the Viva Connections dashboard designed for frontline workers.](../media/connections/dashboard-information-worker.png) |  ![Image of the Viva Connections dashboard designed for information workers.](../media/connections/dashboard-frontline.png) | 
 
 
