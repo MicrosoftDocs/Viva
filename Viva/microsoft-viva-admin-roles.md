@@ -17,7 +17,7 @@ search.appverid:
 
 description: "Learn about the admin roles for Viva Connections, Viva Learning, Viva Topics, and Viva Insights in Microsoft Viva"
 ---
-## Admin roles and tasks in Microsoft Viva
+# Admin roles and tasks in Microsoft Viva
 Each Microsoft Viva module has its own individual options for setup, permissions, management, and governance. Admin options and permissions rely on the environment the module is built in. For example, Viva Connections relies heavily on the SharePoint admin and permissions model. In this article, we bring together information on the admin roles and management for each module.
 
 #### Setup in the Microsoft 365 admin  center
