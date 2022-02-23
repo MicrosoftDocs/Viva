@@ -38,7 +38,7 @@ Want to get started now? [Follow these steps to create your organization’s ins
 Learn more about the planning, building, and launching phases. Get guidance for each phase to ensure you meet the needs of your users and the organization. 
 
 
-| Phase                  | Tasks               |
+| Phase                | Tasks               |
 | :------------------- | :------------------- |
 | **Plan**  | - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time  | 
 | **Build** | - Create or update your organization’s home site <br> - Set up global navigation <br> - Modernize SharePoint sites and pages (as needed) <br> - Create a Viva Connections Dashboard <br> - Prepare the Viva Connections app for mobile <br> - Ensure high-traffic content can be accessed and is performant <br> - Test and refine the Viva Connections experience for key tasks and scenarios               | 
@@ -103,7 +103,7 @@ Viva Connections is composed of three main parts – the Dashboard, the Feed, an
 
 
 | Desktop              | Mobile              | 
-| :------------------- |:------------------- |
+| :------------------: |:------------------: |
 | ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/teams-desktop-small.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)| 
 |- Your organization’s instance of Viva Connections [will appear as an icon](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When the icon is selected, users will see the home site in Teams. <br> - When the icon is selected twice, the global navigation panel will display. <br> - Add the [Feed web part](use-feed-web-part-for-viva-connections.md) to highlight personalized news. <br> - Add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) to make it easy to complete tasks | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the Dashboard to the Feed to Resources. <br> - Resources come from global navigation. |
 
@@ -135,7 +135,7 @@ As you plan, consider the different types of cards available. There are three di
 
 ### Planning process
 
-![Image of a planning process flow.](../media/connections/plan-process-2.png)
+   ![Image of a planning process flow.](../media/connections/plan-process-2.png)
 
 As you work with business owners and key stakeholders to align your Viva Connections design strategy, answer the following for each task:
 - Who is the audience?
@@ -147,19 +147,19 @@ As you work with business owners and key stakeholders to align your Viva Connect
 #### Start with the most important workflows
 Not *every* task should be turned into a card on the Dashboard. Focus on the most impactful tasks that can be executed within a short amount of time. Find opportunities that align with the fields "Quick wins" and "First successes" in the decision matrix below as a start.  
 
-![Image of a planning matrix.](../media/connections/plan-matrix.png)
+   ![Image of a planning matrix.](../media/connections/plan-matrix.png)
 
 
 #### Design with your audience in mind
 As a best practice, it's important to make decisions that are rooted in specific tasks for certain audiences. Consider using a common framework for scenario planning that starts by selecting a certain role or audience *"As an..."*. Then, narrow down the objective in *"I need to..."*. Next, consider the ideal tool or process to meet the objective in *"So that I..."*. Lastly, script out what success looks like in *"I know this is successful when..."*.
 
-For example, create a table like the following to list business scenarios that you want to address with card in the Dashboard:
+For example, create a table like the following to list business scenarios that you want to address with cards in the Dashboard:
 
 |**As an...**|**I need to...**|**So that...**|**I know this is successful when...**|
 |:-------------------|:---------------|:-----------|:------------------------------------|
-|Employee|Understand and be able to update my benefits|I can take advantage of a key lifecycle benefit|Help requests are reduced|
-|Employee|Learn about how to use the self-service benefits portal|Make updates on my own|Help requests are reduced|
-|HR employee|Promote the use of the self-service benefits portal|I can spend more time working with employees on unique benefits questions and scenarios|All of my employee interactions are about individual critical scenarios|
+|People manager |Welcome and onboard new team members |I can grow and develop talent |I spend less time managing standard onboarding functions |
+|Sales representative| Access specific product training materials while on a mobile device |Can quickly resolve customer issues|Most customer issues get resolved in real-time|
+|HR specialist |Promote the use of the self-service benefits |I can spend more time working with employees on unique benefits questions and scenarios|All of my employee interactions are about individual critical scenarios|
 
 
 
@@ -203,7 +203,7 @@ Resources are the navigational links to portals that get set up when you enable 
 
 | Desktop             | Mobile                 | 
 | :------------------: |: ------------------: |
-| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-table.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
+| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
 Consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
