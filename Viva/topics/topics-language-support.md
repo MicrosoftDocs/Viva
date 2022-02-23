@@ -47,11 +47,6 @@ Portuguese (Portugal)| |
 
 
 
-
-
-
-
-
 ## Supported language for processing topics
 
 
