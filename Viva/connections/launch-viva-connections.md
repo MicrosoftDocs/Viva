@@ -22,10 +22,12 @@ description: "Launch Viva Connections for your organization"
 ---
 
 # Launch Viva Connections for your organization
-After planning, building, and testing Viva Connections, it’s time to let the rest of the organization know that its available for use. 
+After [planning](plan-viva-connections.md), [building](build-viva-connections.md), and testing Viva Connections, it’s time to let the rest of the organization know that it's available for use. 
 
 ## Step 4: Announce Viva Connections
-One final and critical phase is announcing Viva Connections. Communications should be engaging and interactive where possible. Ensure end users can quickly understand how this new tool will improve their jobs and make getting news and access to important resources easier than before. Emphasize that Viva Connections is a customized experience that is access in Microsoft Teams, so its likely there aren't any brand new tools being introduced. Instead, Viva Connections is added value where most end users are getting their work done.  
+One final and critical phase is announcing Viva Connections. Communications should be engaging and interactive where possible. Ensure end users can quickly understand how this new tool will improve their jobs and makes getting news and access to important resources easier than before. 
+
+Emphasize that Viva Connections is a customized and personalized experience that is accessed in Microsoft Teams, so its likely there aren't any brand new tools being introduced.   
 
 ### Best practices for launching Viva Connections:
 
@@ -36,7 +38,7 @@ One final and critical phase is announcing Viva Connections. Communications shou
 - Regularly revisit success metrics over the first 90 days to track progress and learn more about how audiences engage with Viva Connections.
 - Ask end users for feedback and provide multiple ways to connect so that the experience can be improved over time
 
-## Consider using the following tactics to spread the news:**
+### Consider using the following tactics to spread the news:
 
 - **Announce your organization’s instance of Viva Connections at an event:** Kick off the announcement about the availability of Viva Connections at an all-hands (or sometimes called a Town Hall) meeting where everyone in the organization will attend or can view a recording later. 
 - **Use communication tools like SharePoint news and Yammer communities:** Share details about the Viva Connections launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:~:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Yammer communities](https://support.microsoft.com/office/start-a-conversation-in-yammer-da65b1c3-6651-4141-8dbd-d50d61b98a6e), and [Microsoft Teams channels](https://support.microsoft.com/office/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885).
