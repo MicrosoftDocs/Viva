@@ -73,7 +73,7 @@ Next, from the home site Settings icon, select [set up global navigation](/Share
 
 | Desktop                  | Mobile                 | 
 | :------------------- |: ------------------- |
-| ![Image of global navigation in the desktop and mobile apps.](../media/connections/vc-resources.png)| ![Image of global navigation in the desktop and mobile apps.](../media/connections/mobile-resources.png)| 
+| ![Image of global navigation in the desktop app.](../media/connections/vc-resources.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources.png)| 
 
 
 Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams. Content in global navigation will display in the “Resources” tab in the mobile app.
@@ -105,14 +105,17 @@ Viva Connections is comprised of 3 main parts – the Dashboard, the Feed, and R
 
 | Desktop                  | Mobile                 | 
 | :------------------- |: ------------------- |
-| ![Image of global navigation in the desktop and mobile apps.](../media/connections/viva-connections-desktop.png)  | ![Image of global navigation in the desktop and mobile apps.](../media/connections/mobile-dashboard.png) | - Your organization’s instance of Viva Connections [will appear as an icon](viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When this icon is selected, users will see the home site. Add the Feed webpart to highlight personalized news. <br> - When the icon is selected twice, the global navigation panel will display. | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the Dashboard to the Feed to Resources. <br> - Resources come from global navigation. |
+| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/viva-connections-desktop.png)  | ![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard.png) | - Your organization’s instance of Viva Connections [will appear as an icon](viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When this icon is selected, users will see the home site. Add the Feed webpart to highlight personalized news. <br> - When the icon is selected twice, the global navigation panel will display. | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the Dashboard to the Feed to Resources. <br> - Resources come from global navigation. |
 
 
 
 ### Plan the Dashboard
 Start by identifying the key scenarios that Viva Connections needs to support and identify owners of those employee experiences. Tasks and scenarios will be primarily supported by cards in the Viva Connections Dashboard that can be targeted to specific audiences using Microsoft 365 groups. Consider which groups of employees will need access to specific resources. 
 
-Table with GIF and description
+| Dashboard animation  | Description                 | 
+| :------------------- |: ------------------- |
+| ![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.GIF) | In this example, a card on the Dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.| 
+
 
 Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design.
 
