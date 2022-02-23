@@ -20,38 +20,39 @@ description: Find the languages available in Microsoft Viva Topics.
 
 # Language support in Viva Topics
 
-## Viva Topics supported languages
+## Supported languages
 Languages in the Viva Topics user interface are based on your organization's Microsoft 365 language preferences. 
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
-English|Thai|Slovenian
-Japenese|Danish|Lithuanian
-German|Hungarian|Estonian
-Chinese (Simplified)|Finnish|Latvian
-Spain|Indonesian|Malay (Latin)
-French|Greek|Serbian (Latin)
-Portuguese (Brazil)|Romanian|Hindi
-Russian|Ukrainian|Bosnian (Latin)
-Italian|Catalan|Kazakh
-Chinese (Traditional)|Norwegian Bokmål|Basque
-Korean|Arabic|Galacian
-Dutch|Vietnamese|Irish
-Polish|Slovak|Macedonian
-Swedish|Hebrew|Azerbaijani (Cyrillic) and/or Azerbaijani (Latin)
+English|Thai|Lithuanian
+Japenese|Danish|Estonian
+German|Hungarian|Latvian
+Chinese (Simplified)|Finnish|Malay (Latin)
+Spain|Indonesian|Serbian (Latin)
+French|Greek|Hindi
+Portuguese (Brazil)|Romanian|Bosnian (Latin)
+Russian|Ukrainian|Kazakh
+Italian|Catalan|Basque
+Chinese (Traditional)|Norwegian Bokmål|Galacian
+Korean|Arabic|Irish
+Dutch|Vietnamese|Macedonian
+Polish|Slovak|Azerbaijani (Cyrillic)
+Swedish|Hebrew|Azerbaijani (Latin)
 Turkish|Bulgarian|Dari
 Czech|Croatian|Welsh
-Portuguese (Portugal)| |
+Portuguese (Portugal)|Slovenian |
+| |
 
-## Supported language for processing topics
 
+## Supported languages for processing topics
 
 Viva Topics is available to customers worldwide, but currently offers the following language support for indexing content in your organization.
 
 |&nbsp; |&nbsp;  |
 |---|---|
-English (United States)|German (coming soon)|
-French (France) (coming soon)|Spanish (Spain) (coming soon)|
+English|German (coming soon)|
+French (coming soon)|Spanish (coming soon)|
 | |
 
 
