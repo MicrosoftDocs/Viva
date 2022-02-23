@@ -66,11 +66,11 @@ Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [h
 
 
 ### Set up global navigation in the SharePoint app bar 
-Next, from the home site Settings icon, select [set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
+Next, from the home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
 
 
-| Desktop                  | Mobile                 | 
-| :------------------- |: ------------------- |
+| Desktop             | Mobile                 | 
+| :------------------: |: ------------------: |
 | ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
@@ -106,7 +106,7 @@ Viva Connections is comprised of 3 main parts – the Dashboard, the Feed, and R
 
 | Desktop              | Mobile              | 
 | :------------------- |:------------------- |
-| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/teams-desktop-small.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard.png)| 
+| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/teams-desktop-small.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)| 
 |- Your organization’s instance of Viva Connections [will appear as an icon](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When the icon is selected, users will see the home site in Teams. <br> - When the icon is selected twice, the global navigation panel will display. <br> - Add the [Feed webpart](use-feed-web-part-for-viva-connections.md) to highlight personalized news. <br> - Add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) to make it easy to complete tasks | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the Dashboard to the Feed to Resources. <br> - Resources come from global navigation. |
 
 
