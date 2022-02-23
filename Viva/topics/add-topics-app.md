@@ -50,7 +50,7 @@ The script creates a Teams app manifest (.zip) file which you must upload in the
 
 ## Upload the manifest file
 
-To upload the app
+To upload the app:
 1. In the left navigation of the Teams admin center, go to **Teams apps** > **Manage apps**.
 2. Click **Upload**, click **Upload**, and then select the manifest file and click **Open**.
 
