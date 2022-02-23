@@ -151,9 +151,16 @@ Not *every* task should be turned into a card on the Dashboard. Focus on the mos
 
 
 #### Design with your audience in mind
-As a best practice, it's important to make decisions that are rooted in specific tasks for certain audiences. Consider using a common framework for scenario planning that starts by selecting a certain role or audience *"As some in..."*. Then, narrow down the objective in *"I want to..."*. Next, consider the ideal tool or process to meet the objective in *"Using..."*.
+As a best practice, it's important to make decisions that are rooted in specific tasks for certain audiences. Consider using a common framework for scenario planning that starts by selecting a certain role or audience *"As an..."*. Then, narrow down the objective in *"I need to..."*. Next, consider the ideal tool or process to meet the objective in *"So that I..."*. Lastly, script out what success looks like in *"I know this is successful when..."*.
 
-![Image of a the planning framework.](../media/connections/plan-framework.png)
+For example, create a table like the following to list business scenarios that you want to address with card in the Dashboard:
+
+|**As an...**|**I need to...**|**So that...**|**I know this is successful when...**|
+|:-------------------|:---------------|:-----------|:------------------------------------|
+|Employee|Understand and be able to update my benefits|I can take advantage of a key lifecycle benefit|Help requests are reduced|
+|Employee|Learn about how to use the self-service benefits portal|Make updates on my own|Help requests are reduced|
+|HR employee|Promote the use of the self-service benefits portal|I can spend more time working with employees on unique benefits questions and scenarios|All of my employee interactions are about individual critical scenarios|
+
 
 
 #### Examples of different Dashboard design
