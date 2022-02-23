@@ -121,6 +121,7 @@ Start by identifying the key scenarios that Viva Connections needs to support an
 
 Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design.
 
+
 **Popular scenarios that can be supported by Viva Connections:**
 
 | General tasks    | Tasks for information workers   | Tasks for frontline workers  |
@@ -149,14 +150,15 @@ As you work with business owners and key stakeholders to align your Viva Connect
 #### Examples of different Dashboard design
 The Dashboard should focus on the most important tasks. Tasks that are specific to certain audiences should be targeted to make sure users only see cards that are relevant to their day-to-day jobs.
 
-
-![Image of a Dashbaord that is designed for frontline workers.](../media/connections/add-a-card.png)
+| Frontline workers   | Information workers  | 
+| :------------------- |:------------------- |
+| ![Image of the Viva Connections dashboard designed for frontline workers.](../media/connections/dashboard-information-worker.png) |  ![Image of the Viva Connections dashboard designed for information workers.](../media/connections/dashboard-frontline.png) | 
 
 
 #### Planning resources:
-•	[Create and customize a Dashboard](/viva/connections/create-dashboard)
-•	Learn more about [adaptive cards](https://adaptivecards.io/)and  [third-party cards](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643)
-•	Leverage existing [Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) or create news groups if needed so that you can quickly create cards and [target them to specific audiences](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
+- [Create and customize a Dashboard](/viva/connections/create-dashboard)
+- Learn more about [adaptive cards](https://adaptivecards.io/)and  [third-party cards](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643)
+- Leverage existing [Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) or create news groups if needed so that you can quickly create cards and [target them to specific audiences](/viva/connections/create-dashboard#apply-audience-targeting-to-cards)
 
 
 ### Plan the Feed
