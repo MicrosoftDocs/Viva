@@ -26,7 +26,7 @@ Languages in the Viva Topics user interface are based on your organization's Mic
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
 English|Thai|Lithuanian
-Japenese|Danish|Estonian
+Japanese|Danish|Estonian
 German|Hungarian|Latvian
 Chinese (Simplified)|Finnish|Malay (Latin)
 Spain|Indonesian|Serbian (Latin)
@@ -34,7 +34,7 @@ French|Greek|Hindi
 Portuguese (Brazil)|Romanian|Bosnian (Latin)
 Russian|Ukrainian|Kazakh
 Italian|Catalan|Basque
-Chinese (Traditional)|Norwegian Bokmål|Galacian
+Chinese (Traditional)|Norwegian Bokmål|Galician
 Korean|Arabic|Irish
 Dutch|Vietnamese|Macedonian
 Polish|Slovak|Azerbaijani (Cyrillic)
