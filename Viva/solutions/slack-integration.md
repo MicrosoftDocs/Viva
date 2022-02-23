@@ -46,20 +46,25 @@ To get the oAuth token this pipeline needs:
 
    * Redirect URL:
 
-            https://app.slack.com
+        ```json
+        https://app.slack.com
 
-            https://slack.com/
+        https://slack.com/
 
-            https://flow.microsoft.com/
+        https://flow.microsoft.com/
+        ```
 
     * User scopes:
 
-            admin.analytics:read
+        ```json
+        admin.analytics:read
+        ```
 
     Refer to the following App Manifest example. The redirect URLs and user scope have updates.
 
-        display_information:
-            name: vsappanalytics
+    ```json
+    display_information:
+        name: vsappanalytics
         features:
           bot_user:
             display_name: vsappanalytics
@@ -79,13 +84,13 @@ To get the oAuth token this pipeline needs:
             org_deploy_enabled: true
             socket_mode_enabled: false
             token_rotation_enabled: false
-
+    ```
 2. Install the application (e.g., `vsappanalyticc`) to the enterprise and enable it in the workspace.
 
     Here’s an example:
 :::image type="content" source="./images/install-and-enable-app.png" alt-text="vsappanalyticc install and enable":::
 
-4. Find the User oAuth Token (xoxp xxxxxx) needed for authentication to the workspace under the Install App & OAuth & Permissions sidebar. You’ll input this token in the `parameters.json` file.
+4. Find the User oAuth Token (`xoxp xxxxxx`) needed for authentication to the workspace under the Install App & OAuth & Permissions sidebar. You’ll input this token in the `parameters.json` file.
 
 ## Deploy Azure infrastructure
 
@@ -226,7 +231,7 @@ There are two methods to execute the pipeline, depending on what you’d like to
 
         If you select this option, you don’t need to make any changes before executing the pipeline. Option a executes the pipeline for a single day; it obtains the data from Slack for the present day minus 2. The Slack API may require a couple of days to produce the summary report.
 
-        For reference, this setting works by having the `Set startdate variable` set to `empty` and the `Set enddate variable` set to `@formatDateTime(addDays(convertTimeZone(utcNow(),'UTC','Pacific Standard Time'),-2),'yyyy-MM-dd')`.
+        For reference, this setting works by having `Set startdate variable` as `empty` and `Set enddate variable` as `@formatDateTime(addDays(convertTimeZone(utcNow(),'UTC','Pacific Standard Time'),-2),'yyyy-MM-dd')`.
 
         The following images display this setting.
 
@@ -236,7 +241,7 @@ There are two methods to execute the pipeline, depending on what you’d like to
 
     2. Execution for historical data:
 
-        You would typically run this execution once to get daily data from the Slack API up to the API's historical date limits (visit admin.analytics.getFile method | Slack for more information).
+        You would typically run this execution once to get daily data from the Slack API up to the API's historical date limits (visit [admin.analytics.getFile on Slack](https://api.slack.com/methods/admin.analytics.getFile) for more information).
         1. In the pipeline details value for the Set startdate variable, change empty to a date in the YYYY-MM-DD format (e.g., 2021-11-15).
         2. Execute the pipeline by selecting **Debug**.
 
