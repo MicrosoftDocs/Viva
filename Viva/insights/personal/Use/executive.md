@@ -29,7 +29,7 @@ Before you use the Executive dashboard, you or an assistant should categorize yo
 
 ### Access to the Executive dashboard
 
-Access to the dashboad is based on either of two things: executive status as determined by the organizational hierarchy, or possession of delegate access to an executive's mailbox. 
+Access to the dashboard is based on either of two things: executive status as determined by the organizational hierarchy, or possession of delegate access to an executive's mailbox. 
 
 * **Executives and senior leadership** &ndash; Who is considered an executive and therefore has access to this dashboard? Based on analysis of Azure Active Directory records, an executive is someone who has a reporting structure of least 200 employees and is above at least two levels of managers.
 
@@ -111,4 +111,4 @@ The following kinds of meetings are excluded from view, by default, in the dashb
  
 ## Related topics
 
-[MyAnalytics dashboard](../use/dashboard-2.md)
+[Dashboard](../use/dashboard-2.md)
