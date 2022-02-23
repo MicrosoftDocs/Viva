@@ -25,8 +25,6 @@ description: "Build Viva Connections for your organization"
 
 After deciding which tasks, audiences, and resources to promote using Viva Connections in the [planning phase](plan-viva-connections.md), you're ready to move onto the building phase. 
 
-
-## Step 3: Create your organization's instance of Viva Connections
 You know you're ready to move onto the building phase if you've met the following requirements and have reviewed best practices:
 
 - You’ve got a home site, global navigation setup, and modernized sites (if needed and only for sites related to tasks in the Viva Connections Dashboard)
@@ -34,7 +32,10 @@ You know you're ready to move onto the building phase if you've met the followin
 - Considerations have been made for specific audiences
 - You have an adoption and launch plan along with success metrics
 
-Now, you're ready to create the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site, and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
+
+
+## Step 3: Create your organization's instance of Viva Connections
+Start by creating the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site, and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
 
 ## Create a Viva Connections Dashboard
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. 
