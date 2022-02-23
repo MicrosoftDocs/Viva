@@ -157,6 +157,8 @@ Once you have set up Topics, you can change the settings that you chose during s
 - [Manage topic permissions in Microsoft Viva Topics](topic-experiences-user-permissions.md)
 - [Change the name of the topic center in Microsoft Viva Topics](topic-experiences-administration.md)
 
+You can also [add Viva Topics as an app in Teams](add-topics-app.md).
+
 ## See also
 
 [Topic Experiences Overview](topic-experiences-overview.md)
