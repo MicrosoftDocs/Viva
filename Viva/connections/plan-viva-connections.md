@@ -163,10 +163,10 @@ For example, create a table like the following to list business scenarios that y
 
 
 
-#### Examples of different Dashboard design
+#### Examples of different Dashboard designs
 The Dashboard should focus on the most important tasks. Tasks that are specific to certain audiences should be targeted to make sure users only see cards that are relevant to their day-to-day jobs.
 
-| Frontline workers   | Information workers  | 
+| Information workers   | Frontline workers  | 
 | :------------------: |:------------------: |
 | ![Image of the Viva Connections dashboard designed for frontline workers.](../media/connections/dashboard-information-worker.png) |  ![Image of the Viva Connections dashboard designed for information workers.](../media/connections/dashboard-frontline.png) | 
 
@@ -180,7 +180,7 @@ The Dashboard should focus on the most important tasks. Tasks that are specific 
 ### Plan the Feed
 The Feed brings communications from across the organization into one place where it can be easily viewed. This Feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements.  This solution also gives content publishers a reliable method of distributing important news and information. 
 
-![Image of the Feed in the mobile app.](../media/connections/mobile-feed.png) | 
+![Image of the Feed in the mobile app.](../media/connections/mobile-feed.png) 
 
 
 #### Tips on how to curate content that’s viewed in the Feed
@@ -203,7 +203,7 @@ Resources are the navigational links to portals that get set up when you enable 
 
 | Desktop             | Mobile                 | 
 | :------------------: |: ------------------: |
-| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
+| ![Image of global navigation in the desktop app.](../media/connections/vc-resources.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
 Consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
