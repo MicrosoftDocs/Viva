@@ -66,9 +66,7 @@ Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [h
 
 
 ### Set up global navigation in the SharePoint app bar 
-Next, from the home site Settings icon, select [set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. 
-
-[Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
+Next, from the home site Settings icon, select [set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
 
 
 | Desktop                  | Mobile                 | 
@@ -76,7 +74,7 @@ Next, from the home site Settings icon, select [set up global navigation](/Share
 | ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
-Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams. Content in global navigation will display in the “Resources” tab in the mobile app.
+Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop and mobile apps. Content in global navigation will display in the “Resources” tab in the mobile app.
 
 
 ### Audit, prioritize, and modernize content to align with key scenarios and tasks
@@ -90,7 +88,10 @@ If you have many classic SharePoint sites make sure you focus on sites, pages, a
    - Sites that frequently publish organizational news
    - Sites that help employees complete the most important day-to-day tasks or access important information
 
-Use the [SharePoint modernization scanner](/sharepoint/dev/transform/modernize-scanner) to create a dashboard that helps you determine modernization readiness. Learn more about how to [transform classic sites to modern sites](/sharepoint/dev/transform/modernize-userinterface-site-pages), or consider [creating new modern sites using SharePoint site templates](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398). For popular sites that are expected to get a high amount of traffic (thousands of views per day) [learn more about best practices for high-performing sites and portals](/sharepoint/portal-health).
+**Tools to help you modernize:**
+   - Use the [SharePoint modernization scanner](/sharepoint/dev/transform/modernize-scanner) to create a dashboard that helps you determine modernization readiness. 
+   - Learn more about how to [transform classic sites to modern sites](/sharepoint/dev/transform/modernize-userinterface-site-pages), or consider [creating new modern sites using SharePoint site templates](https://support.microsoft.com/office/apply-and-customize-sharepoint-site-templates-39382463-0e45-4d1b-be27-0e96aeec8398). 
+   - For popular sites that are expected to get a high amount of traffic (thousands of views per day) [learn more about best practices for high-performing sites and portals](/sharepoint/portal-health).
 
 
 ## Step 2: Plan for Viva Connections
@@ -106,7 +107,7 @@ Viva Connections is comprised of 3 main parts – the Dashboard, the Feed, and R
 | Desktop              | Mobile              | 
 | :------------------- |:------------------- |
 | ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/teams-desktop-small.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard.png)| 
-|- Your organization’s instance of Viva Connections [will appear as an icon](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When this icon is selected, users will see the home site. Add the Feed webpart to highlight personalized news. <br> - When the icon is selected twice, the global navigation panel will display. | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the Dashboard to the Feed to Resources. <br> - Resources come from global navigation. |
+|- Your organization’s instance of Viva Connections [will appear as an icon](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When the icon is selected, users will see the home site in Teams. <br> - When the icon is selected twice, the global navigation panel will display. <br> - Add the [Feed webpart](use-feed-web-part-for-viva-connections.md) to highlight personalized news. <br> - Add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) to make it easy to complete tasks | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the Dashboard to the Feed to Resources. <br> - Resources come from global navigation. |
 
 
 
