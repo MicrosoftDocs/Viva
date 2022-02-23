@@ -29,7 +29,7 @@ English|Thai|Lithuanian
 Japanese|Danish|Estonian
 German|Hungarian|Latvian
 Chinese (Simplified)|Finnish|Malay (Latin)
-Spain|Indonesian|Serbian (Latin)
+Spanish|Indonesian|Serbian (Latin)
 French|Greek|Hindi
 Portuguese (Brazil)|Romanian|Bosnian (Latin)
 Russian|Ukrainian|Kazakh
