@@ -37,6 +37,7 @@ Want to get started now? [Follow these steps to create your organization’s ins
 ## Review how to get Viva Connections for your organization
 Learn more about the planning, building, and launching phases. Get guidance for each phase to ensure you meet the needs of your users and the organization. 
 
+
 | Phase                  | Tasks               |
 | :------------------- | :------------------- |
 | **Plan**  | - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time  | 
@@ -134,7 +135,7 @@ As you plan, consider the different types of cards available. There are three di
 
 ### Planning process
 
-![Image of a planning process flow.](../media/connections/plan-process.png)
+![Image of a planning process flow.](../media/connections/plan-process-2.png)
 
 As you work with business owners and key stakeholders to align your Viva Connections design strategy, answer the following for each task:
 - Who is the audience?
@@ -172,9 +173,7 @@ The Dashboard should focus on the most important tasks. Tasks that are specific 
 ### Plan the Feed
 The Feed brings communications from across the organization into one place where it can be easily viewed. This Feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements.  This solution also gives content publishers a reliable method of distributing important news and information. 
 
-| The Feed web part   | The Feed in the mobile app | 
-| :------------------: | :------------------: |
-|  ![Image of the Feed web part.](../media/connections/viva-feed-web-part.png) |  ![Image of the Feed in the mobile app.](../media/connections/mobile-feed.png) | 
+![Image of the Feed in the mobile app.](../media/connections/mobile-feed.png) | 
 
 
 #### Tips on how to curate content that’s viewed in the Feed
