@@ -30,13 +30,10 @@ The Dashboard brings it all together – it provides a personalized landing expe
 
    ![Image of the Viva Connections Dashboard in edit mode.](../media/connections/dashboard-creation.png)
 
-Start by [creating the Dashboard](create-dashboard). Next, [apply audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to Dashboard cards to give your users an experience tailored to their role and interests. 
+Start by [creating the Dashboard](create-dashboard.md). Next, [apply audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to Dashboard cards to give your users an experience tailored to their role and interests. 
 
 
-
-
-
-
+   ![Image of the Viva Connections Dashboard web part highlighted on a site.](../media/connections/vc-dashboard-web-part.png)
 
 Once you set up the Dashboard, you will be able to use the [Dashboard web part](/SharePoint/use-dashboard-web-part-on-home-site). Consider using the Dashboard web part on the home site or other high-traffic portals.
 
@@ -69,6 +66,6 @@ Before sharing Viva Connections with the rest of your organization, recruit a sm
 
 ## Next, launch Viva Connections for your organization
 
-After [planning](plan-viva-connections), building, and testing Viva Connections, it’s time to let the rest of the organization know that its available for use.
+After [planning](plan-viva-connections.md), building, and testing Viva Connections, it’s time to let the rest of the organization know that its available for use.
 
-[Learn more about how to launch Viva Connections.](launch-viva-connections)
+[Learn more about how to launch Viva Connections.](launch-viva-connections.md)
