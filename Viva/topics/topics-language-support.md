@@ -13,8 +13,7 @@ ms.collection:
     - m365initiative-viva-topics
 ms.service: 
 localization_priority: Normal
-ROBOTS: NOINDEX, NOFOLLOW
-description: What languages are available in Microsoft Viva Topics.
+description: Find the languages available in Microsoft Viva Topics.
 
 ---
 
@@ -30,7 +29,7 @@ English|Thai|Slovenian
 Japenese|Danish|Lithuanian
 German|Hungarian|Estonian
 Chinese (Simplified)|Finnish|Latvian
-Spain|Infonesian|Malay (Latin)
+Spain|Indonesian|Malay (Latin)
 French|Greek|Serbian (Latin)
 Portuguese (Brazil)|Romanian|Hindi
 Russian|Ukrainian|Bosnian (Latin)
