@@ -68,13 +68,10 @@ Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [h
 ### Set up global navigation in the SharePoint app bar 
 Next, from the home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
 
-
-| Desktop             | Mobile                 | 
-| :------------------: |: ------------------: |
-| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
+   ![Animation of the global app bar in SharePoint.](../media/connections/app-bar-gif.GIF)
 
 
-Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop and mobile apps. Content in global navigation will display in the “Resources” tab in the mobile app.
+Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop and mobile apps. 
 
 
 ### Audit, prioritize, and modernize content to align with key scenarios and tasks
@@ -175,7 +172,9 @@ The Dashboard should focus on the most important tasks. Tasks that are specific 
 ### Plan the Feed
 The Feed brings communications from across the organization into one place where it can be easily viewed. This Feed helps keep frontline workers, information workers, and hybrid workers alike engaged and informed on important news and announcements.  This solution also gives content publishers a reliable method of distributing important news and information. 
 
-   ![Image of the feed.](../media/connections/add-a-card.png)
+| The Feed web part   | The Feed in the mobile app | 
+| :------------------: | :------------------: |
+|  ![Image of the Feed web part.](../media/connections/viva-feed-web-part.png) |  ![Image of the Feed in the mobile app.](../media/connections/mobile-feed.png) | 
 
 
 #### Tips on how to curate content that’s viewed in the Feed
@@ -196,7 +195,9 @@ The Feed is designed to be dynamic, personalized, and a place where the most rel
 ### Plan the Resources
 Resources are the navigational links to portals that get set up when you enable and customize global navigation. While preparing your Viva Connections, know that these resources will display from the SharePoint app bar and the Teams app bar when Viva Connections is set up. The resources in the app bar should be the most important and popular portals for your target audience. Resources can be targeted to specific audiences.
 
-   ![Image of the Resources.](../media/connections/add-a-card.png)
+| Desktop             | Mobile                 | 
+| :------------------: |: ------------------: |
+| ![Image of global navigation in the desktop app.](../media/connections/vc-resources-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)| 
 
 
 Consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
