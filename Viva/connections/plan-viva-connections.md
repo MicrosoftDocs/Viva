@@ -25,9 +25,9 @@ description: "Plan, build, and launch Microsoft Viva Connections for your organi
 
 Use Viva Connections to engage and empower frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are, keeps them updated on news and announcements, and provides access to resources from a desktop or mobile device. 
 
-- Use this guide to prepare your organization for Viva Connections through the planning, building, and launching phases
-- Learn more about the requirements before creating and customizing your organization’s instance of Viva Connections
-- Discover planning considerations and best practices
+- Use this guide to prepare your organization for Viva Connections through the planning, [building](build-viva-connections.md), and [launching](launch-viva-connections.md) phases
+- Learn more about the requirements before creating and customizing
+- Discover planning considerations and best practice
 - Get guidance for change management, adoption, and end-user training
 
 Want to get started now? [Follow these steps to create your organization’s instance of Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).  
@@ -37,9 +37,12 @@ Want to get started now? [Follow these steps to create your organization’s ins
 ## Review how to get Viva Connections for your organization
 Learn more about the planning, building, and launching phases. Get guidance for each phase to ensure you meet the needs of your users and the organization. 
 
-| Plan                 | Build                 | Launch         |
-| :------------------- | :------------------- |:----------------|
-| - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time | - Create or update your organization’s home site <br> - Set up global navigation <br> - Modernize SharePoint sites and pages (as needed) <br> - Create a Viva Connections Dashboard <br> - Prepare the Viva Connections app for mobile <br> - Ensure high-traffic content can be accessed and is performant <br> - Test and refine the Viva Connections experience for key tasks and scenarios | - Announce your organization’s instance of Viva Connections at an all-team meeting <br> - Use communication tools like SharePoint news and Yammer communities to share details <br> - Consider hosting training events or office hours to make sure end-users get the most from Viva Connections|
+| Phase                  | Tasks               |
+| :------------------- | :------------------- |
+| Plan  | - Align stakeholders and business owners around common goals <br> - Identify key tasks and scenarios that can be supported by Viva Connections <br> - Prepare your SharePoint intranet to support your Viva Connections plan <br> - Prepare content for the Dashboard, the Feed, and Resources <br> - Create an adoption plan and change-management guide <br> - Include training for end-users <br> - Consider success metrics and plan for maintenance over time  | 
+| - Create or update your organization’s home site <br> - Set up global navigation <br> - Modernize SharePoint sites and pages (as needed) <br> - Create a Viva Connections Dashboard <br> - Prepare the Viva Connections app for mobile <br> - Ensure high-traffic content can be accessed and is performant <br> - Test and refine the Viva Connections experience for key tasks and scenarios  | 
+| - Announce your organization’s instance of Viva Connections at an all-team meeting <br> - Use communication tools like SharePoint news and Yammer communities to share details <br> - Consider hosting training events or office hours to make sure end-users get the most from Viva Connections   | 
+
 
 ## Step 1: Plan to meet technical requirements for Viva Connections
 Viva Connections requires a SharePoint home site, customized global navigation in the SharePoint app bar, and modern SharePoint sites. 
