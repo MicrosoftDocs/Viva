@@ -28,7 +28,17 @@ After the planning phase for Viva Connections is the building phase. Once you’
 ## Create a Viva Connections Dashboard
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. 
 
-[Apply audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to Dashboard cards to give your users an experience tailored to their role and interests. Once you set up the Dashboard, you will be able to use the [Dashboard web part](/SharePoint/use-dashboard-web-part-on-home-site). Consider using the Dashboard web part on the home site or other high-traffic portals.
+   ![Image of the Viva Connections Dashboard in edit mode.](../media/connections/dashboard-creation.png)
+
+Start by [creating the Dashboard](create-dashboard). Next, [apply audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards) to Dashboard cards to give your users an experience tailored to their role and interests. 
+
+
+
+
+
+
+
+Once you set up the Dashboard, you will be able to use the [Dashboard web part](/SharePoint/use-dashboard-web-part-on-home-site). Consider using the Dashboard web part on the home site or other high-traffic portals.
 
 
 ## Enable the Viva Connections app in the Microsoft Teams admin center and choose mobile settings
@@ -54,8 +64,11 @@ Before sharing Viva Connections with the rest of your organization, recruit a sm
 - Evaluate the quality and effectiveness of icons and images
 - Check for performance issues like slow loading times or missing images
 - Ask testers about the [navigation experience](/sharepoint/information-architecture-modern-experience)
-- Test with early adopters and champions and capture their feedback
+- Test with [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and capture their feedback
 
 
 ## Next, launch Viva Connections for your organization
 
+After [planning](plan-viva-connections), building, and testing Viva Connections, it’s time to let the rest of the organization know that its available for use.
+
+[Learn more about how to launch Viva Connections.](launch-viva-connections)
