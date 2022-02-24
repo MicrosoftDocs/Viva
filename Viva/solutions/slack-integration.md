@@ -19,7 +19,7 @@ audience: Admin
 
 # Slack Integration
 
-You can join Viva Insights query data with collaboration data from a third-party tool. In this article, we use Slack as an example of an end-to-end pipeline for Viva Insights data and a third-party data set. For additional instructions on how to use Viva Insights, refer to the [Viva Insights training resources](https://docs.microsoft.com/learn/browse/?products=m365%2Cviva-insights&expanded=viva).
+You can join Viva Insights query data with collaboration data from a third-party tool. In this article, we use Slack as an example of an end-to-end pipeline for Viva Insights data and a third-party data set. For additional instructions on how to use Viva Insights, refer to the [Viva Insights training resources](/learn/browse/?products=m365%2Cviva-insights&expanded=viva).
   
 ## High-level architecture flow
 
@@ -32,7 +32,7 @@ Here is a high-level flow of the pipeline.
 To complete the steps in this article, you’ll need:
 
 1. To download the Slack synapse pipeline sample files from the [VivaSolutions GitHub repository](https://github.com/microsoft/VivaSolutions), or clone the repository to your local machine
-2. PowerShell (minimum version 5.1) and the latest [Az PowerShell Module](https://docs.microsoft.com/powershell/azure/new-azureps-module-az)
+2. PowerShell (minimum version 5.1) and the latest [Az PowerShell Module](/powershell/azure/new-azureps-module-az)
 3. Access to the Slack enterprise grid
 4. To have completed the Slack app registration and gotten an oAuth token (see [Slack app registration](#slack-app-registration) to learn how to get the oAuth token)
 
@@ -46,7 +46,7 @@ To get the oAuth token this pipeline needs:
 
    * Redirect URL:
 
-        ```
+        ```CSHARP
         https://app.slack.com
 
         https://slack.com/
@@ -56,13 +56,14 @@ To get the oAuth token this pipeline needs:
 
     * User scopes:
 
-        ```
+        ```CSHARP
         admin.analytics:read
         ```
 
     Refer to the following App Manifest example. The redirect URLs and user scope have updates.
 
-    ```
+```csharp
+
     display_information:
         name: vsappanalytics
         features:
@@ -84,7 +85,8 @@ To get the oAuth token this pipeline needs:
             org_deploy_enabled: true
             socket_mode_enabled: false
             token_rotation_enabled: false
-    ```
+```
+
 2. Install the application (e.g., `vsappanalyticc`) to the enterprise and enable it in the workspace.
 
     Here’s an example:
@@ -260,6 +262,6 @@ We don't recommend setting triggers more frequently than daily. You can also set
 
 ## Applying the output
 
-Once you’ve joined Viva Insights data and a third-party data set—like Slack’s—you can populate reports and visualizations to see this information in new ways. One example might be modifying the [Viva Insights Ways of working template](../insights/tutorials/power-bi-collab-assess) with a new visual, as pictured below.
+Once you’ve joined Viva Insights data and a third-party data set—like Slack’s—you can populate reports and visualizations to see this information in new ways. One example might be modifying the [Viva Insights Ways of working template](/insights/tutorials/power-bi-collab-assess) with a new visual, as pictured below.
 
 :::image type="content" source="./images/ways-of-working-vis.png" alt-text="Power BI report with graphs titled 'Ways of Working Assessment with Slack (inc. new view for Slack activity)'.":::
