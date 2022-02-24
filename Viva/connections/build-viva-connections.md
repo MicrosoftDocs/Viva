@@ -63,7 +63,7 @@ For a smooth launch, you'll want to make sure information can be easily accessed
 1. As a first step, [test the performance of the home site](/sharepoint/portal-health) to ensure an optimal viewing experience. 
 2. Then, check the performance for SharePoint sites that will receive a high amount of traffic. For example, sites that relate to human resources, organizational news, and popular services like transportation or café menus. 
 3. Then, [share the home site with the entire organization](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) before launching. Next, make sure that the target audiences for the cards in the Viva Connections Dashboard are shared with the right audiences. 
-4. Consider using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler.) to monitor performance for high-traffic sites that are being shared for the first time.
+4. Consider using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to monitor performance for high-traffic sites that are being shared for the first time.
 
 
 ## Test and refine the Viva Connections experience
