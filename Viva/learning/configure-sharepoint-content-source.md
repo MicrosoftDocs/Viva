@@ -170,7 +170,7 @@ Knowledge admins can access their organization's Learning App Content Repository
 2. Choose **Delete** on the command bar, or select the ellipses and then select **Delete**.
 
 >[!NOTE]
-> Content you delete from the Learning App Content Repository will take approximately 12 hours to be removed from Viva Learning.
+> Content you delete from the Learning App Content Repository will take approximately 24 hours to be removed from Viva Learning.
 
 ## Next step
 
