@@ -43,13 +43,14 @@ For more information on all the roles in Microsoft Viva Topics, see [Roles in Vi
 Learn more about planning and administration for Topics here: [Plan for Microsoft Viva Topics](/viva/topics/plan-topic-experiences).
 
 ### Viva Connections
-Depending on the task, Viva Connections administration and permissions are managed through SharePoint Online and Teams admin centers.
 
-To learn about setup and administration for Connections, see [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections), in which required permissions are noted for each step.
+Depending on the task, Viva Connections administration and permissions are managed through SharePoint Online and Microsoft Teams admin centers. The following are the basic requirements and minimum permission level:
 
-To learn about SharePoint Online roles and tasks see [Introduction to roles, tasks, and timelines in SharePoint Online](/sharepoint/intranet-roles-tasks).
+- **Set a home site**: SharePoint admin
+- **Enable global navigation and create a Dashboard**: SharePoint site admin
+- **Create and select setting for the customized app**: Teams admin
 
-To learn about Teams administration, see [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal).
+To learn about setup and administration for Connections, see [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections), in which required permissions are noted for each step. To learn about SharePoint Online roles and tasks see [Introduction to roles, tasks, and timelines in SharePoint Online](/sharepoint/intranet-roles-tasks). To learn about Teams administration, see [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal).
 
 ### Viva Learning
 Viva Learning is by default available in Microsoft Teams with some content already available. To set up learning content sources in Viva Learning and manage individual licensing, you'll need these permissions:
