@@ -30,7 +30,7 @@ You must be a SharePoint admin and a site owner for the topic center to create t
 
 The Viva Topics app is provisioned by running a PowerShell script. The script creates an app manifest file which you then upload as an app in the Teams Admin Center. 
 
-Download the [Viva Topics for desktop PowerShell script (Viva-Topics-Teams-Desktop.zip)](https://www.microsoft.com/download/details.aspx?id=103906) from the Microsoft download center. Note that Microsoft does not have access to any information provided by you while running this script.
+Download the [Viva Topics for desktop PowerShell script (Viva-Topics-Teams-Desktop-App.zip)](https://www.microsoft.com/download/details.aspx?id=103906) from the Microsoft download center. Note that Microsoft does not have access to any information provided by you while running this script.
 
 Run the script and provide the following inputs:
 
