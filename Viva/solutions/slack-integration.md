@@ -25,28 +25,29 @@ You can join Viva Insights query data with collaboration data from a third-party
 
 Here is a high-level flow of the pipeline.
 
-:::image type="content" source="./images/high-level-overview.png" alt-text="Architecture flow beginning with Enterprise Grid Slack Web API and ending with Power BI":::
+:::image type="content" source="./images/high-level-overview1.png" alt-text="Architecture flow beginning with Enterprise Grid Slack Web API and ending with Power BI":::
 
 ## Prerequisites
 
-To complete the steps in this article, you’ll need:
+To complete the steps in this setup, confirm or do the following:
 
-1. To download the Slack synapse pipeline sample files from the [VivaSolutions GitHub repository](https://github.com/microsoft/VivaSolutions), or clone the repository to your local machine
-2. PowerShell (minimum version 5.1) and the latest [Az PowerShell Module](/powershell/azure/new-azureps-module-az)
-3. Access to the Slack enterprise grid
-4. To have completed the Slack app registration and gotten an oAuth token (see [Slack app registration](#slack-app-registration) to learn how to get the oAuth token)
+* Download the Slack synapse pipeline sample files from the [VivaSolutions GitHub repository](https://github.com/microsoft/VivaSolutions), or clone the repository to your local machine
+
+* Have PowerShell (minimum version 5.1) and the latest [Az PowerShell Module](/powershell/azure/new-azureps-module-az)
+
+* Have access to the Slack enterprise grid
+
+* Complete the Slack app registration and get an oAuth token (see [Slack app registration](#slack-app-registration) to learn how to get the oAuth token)
 
 ### Slack app registration
 
-To get the oAuth token this pipeline needs:
+To get the OAuth token this pipeline needs:
 
-1. Create a [Slack application registration](https://api.slack.com/authentication/basics#creating).
-
-    You’ll need the following settings:
+1. Create a [Slack application registration](https://api.slack.com/authentication/basics#creating) with the following settings:
 
    * Redirect URL:
 
-        ```CSHARP
+        ```json
         https://app.slack.com
 
         https://slack.com/
@@ -56,13 +57,13 @@ To get the oAuth token this pipeline needs:
 
     * User scopes:
 
-        ```CSHARP
+        ```json
         admin.analytics:read
         ```
 
-    Refer to the following App Manifest example. The redirect URLs and user scope have updates.
+    As shown in the following App Manifest example, you can update the redirect URLs and user scope.
 
-```csharp
+```json
 
     display_information:
         name: vsappanalytics
@@ -87,71 +88,66 @@ To get the oAuth token this pipeline needs:
             token_rotation_enabled: false
 ```
 
-2. Install the application (e.g., `vsappanalyticc`) to the enterprise and enable it in the workspace.
-
-    Here’s an example:
-:::image type="content" source="./images/install-and-enable-app.png" alt-text="vsappanalyticc install and enable":::
+2. Install the application (`vsappanalyticc`) to the enterprise and enable it in the workspace, as shown in the following example.
+ 
+    :::image type="content" source="./images/install-and-enable-app.png" alt-text="vsappanalyticc install and enable":::
 
 4. Find the User oAuth Token (`xoxp xxxxxx`) needed for authentication to the workspace under the Install App & OAuth & Permissions sidebar. You’ll input this token in the `parameters.json` file.
 
 ## Deploy Azure infrastructure
 
-1. Update the `parameters.json` file. The needed configuration values are described within the file.
-2. Launch a PowerShell command window.
+1. Update the `parameters.json` file with the configuration values that are described within the file.
+2. Launch a PowerShell command prompt.
 3. Navigate to where you saved the files from the GitHub download.
-4. Execute the `synapseworkspace_arm_deployment.ps1` PowerShell.
+4. Run the following Powershell:
 
-Once the PowerShell command in step 4 is successfully executed, follow the steps in [Deploy synapse pipeline](#deploy-synapse-pipeline).
+     `synapseworkspace_arm_deployment.ps1`.
+
+Once the PowerShell command in step 4 is successfully executed, follow the steps in [the next section](#deploy-synapse-pipeline) to deploy the pipeline.
 
 ## Deploy Synapse pipeline
 
-1. To maintain consistency, use the same `parameters.json` file you did in [Deploy Azure infrastructure](#deploy-azure-infrastructure).
-2. Execute the `synapseworkspace_pipeline.ps1` PowerShell.
-3. Update the **Notebook** activities in the **SlackAnalyticsPipeline**:
+1. To maintain consistency, use the same `parameters.json` file you did in the [previous section](#deploy-azure-infrastructure).
+2. Run the following PowerShell:  
+`synapseworkspace_pipeline.ps1`.
+
+1. Update the **Notebook** activities in the **SlackAnalyticsPipeline**:
 
     1. In the [Azure portal](https://portal.azure.com/#home), open the deployed **Synapse workspace**.
 
-    :::image type="content" source="./images/deployed-synapse-workspace.png" alt-text="Deployed synapse workspace":::
-
     2. Under **Getting started**, select **Open Synapse Studio**.
 
-    :::image type="content" source="./images/open-synapse-studio.png" alt-text="'Open Synapse Studio' link beneath the 'Getting started' header":::
+        :::image type="content" source="./images/open-synapse-studio.png" alt-text="'Open Synapse Studio' link beneath the 'Getting started' header":::
 
-    3. Expand the left menu by selecting the **>>** symbol.
-  
-        Then:
-
-        1. Select **Integrate**.
-
-        :::image type="content" source="./images/select-integrate.png" alt-text="'Integrate' selected on the left-hand sidebar":::
+    3. Expand the left menu and then select **Integrate**.
 
         1. Expand the **Pipelines** header.
 
-        :::image type="content" source="./images/expand-pipelines.png" alt-text="Pipelines header expanded in the Integrate window":::
+            :::image type="content" source="./images/expand-pipelines.png" alt-text="Pipelines header expanded in the Integrate window":::
 
-        1. Select **SlackAnalyticsPipeline**. The **Activities** pane appears.
+        1. Select **SlackAnalyticsPipeline** to see the **Activities** pane.
 
-        :::image type="content" source="./images/select-slackanalyticspipeline.png" alt-text="SlackAnalyticsPipeline selected and Activities pane expanded":::
+            :::image type="content" source="./images/select-slackanalyticspipeline.png" alt-text="SlackAnalyticsPipeline selected and Activities pane expanded":::
 
-    4. On the **Activities** pane, select each   **Notebook** activity, then select its available **Spark pool**.
+    4. On the **Activities** pane, select each   **Notebook** activity and then select its available **Spark pool**.
   
-   :::image type="content" source="./images/update-sparkpool1.png" alt-text="Notebook activities selected":::
+       :::image type="content" source="./images/update-sparkpool1.png" alt-text="Notebook activities selected":::
 
-   :::image type="content" source="./images/update-sparkpool2.png" alt-text="Spark pool within a Notebook selected":::
+       :::image type="content" source="./images/update-sparkpool2.png" alt-text="Spark pool within a Notebook selected":::
 
     5. In the **Until** activity, select the pencil icon.
 
-   :::image type="content" source="./images/until-activity-pencil.png" alt-text="Selected pencil icon on the 'Until' activity":::
+       :::image type="content" source="./images/until-activity-pencil.png" alt-text="Selected pencil icon on the 'Until' activity":::
 
     6. Update the **Notebook** activities by selecting the available **Spark pool**.
 
-   :::image type="content" source="./images/update-sparkpool3.png" alt-text="Selected Spark pool within Notebook":::
+       :::image type="content" source="./images/update-sparkpool3.png" alt-text="Selected Spark pool within Notebook":::
 
-    7. Select **Publish all**. When the **Publish all** window appears, select **Publish**.
+    7. Select **Publish all** > **Publish**.
 
-   :::image type="content" source="./images/publish-all.png" alt-text="'Publish all' icon on ribbon above 'Validate,' 'Debug,' and 'Add trigger'":::
+       :::image type="content" source="./images/publish-all.png" alt-text="'Publish all' icon on ribbon above 'Validate,' 'Debug,' and 'Add trigger'":::
 
-   :::image type="content" source="./images/publish.png" alt-text="'Publish' button at the bottom of the 'Publish all' window":::
+       :::image type="content" source="./images/publish.png" alt-text="'Publish' button at the bottom of the 'Publish all' window":::
 
 ## Add reference files
 
@@ -166,7 +162,7 @@ synworkingtmp| Hosts the Slack data output from the web API calls|
 
 ## Get and update .csv files
 
-Before performing the steps below, you’ll need the following two reference files, which you downloaded or cloned from the VivaSolutions GitHub repository. The first one—`Activity Time Config.csv`—is pre-populated with default values. You’ll need to add values to the second one, `personmapping.csv`.
+Before performing the steps below, you’ll need the following two reference files, which you downloaded or cloned from the Viva Solutions GitHub repository. The first one—`Activity Time Config.csv`—is pre-populated with default values. You’ll need to add values to the second one, `personmapping.csv`.
 
 ### Activity Time Config.csv
 
@@ -197,33 +193,32 @@ Schema:
 
 The following image shows how the Hash id allows the two datasets to be combined.
 
-   :::image type="content" source="./images/combined-datasets-with-hashid.png" alt-text="Flow diagram beginning with 'Admin/Hash id to person id mapping' and ending with 'Analyst/Joined data sets'":::
+   :::image type="content" source="./images/combined-datasets-with-hashid1.png" alt-text="Flow diagram beginning with 'Admin/Hash id to person id mapping' and ending with 'Analyst/Joined data sets'":::
 
 ## Upload reference files
 
-Upload `personmapping.csv` to the **reference** container in the blob storage account created during the [infrastructure deployment](#deploy-azure-infrastructure). If you made any changes to the `Activity Time Config.csv` file, also upload it to the **reference** container.
+Upload the `personmapping.csv` to the **reference** container in the blob storage account created during the [infrastructure deployment](#deploy-azure-infrastructure). If you made any changes to the `Activity Time Config.csv` file, also upload it to the **reference** container.
 
 1. Launch the Azure Portal.
-2. Navigate to the **resource group*** hosting the infrastructure.
-3. Select the **blob storage account***.
-4. Select **Blob containers**, then select **reference**. The **Upload blob** window appears.
-5. Upload the file by dragging and dropping into the **Drag and drop files here** box. You can also select **Browse for files** and select the file.
 
-    \* specified in `parameters.json`
+1. As specified in the `parameters.json` file, navigate to the **resource group** hosting the infrastructure and then select the **blob storage account**.
+
+3. Select **Blob containers**, then select **reference**. The **Upload blob** window appears.
+
+1. Upload the file by dragging and dropping into the **Drag and drop files here** box. You can also select **Browse for files** and select the file.
 
    :::image type="content" source="./images/blob-containers-reference.png" alt-text="Right: 'Storage browser' with 'Blob containers' expanded and 'reference' container selected. Left: 'Upload blob window'":::
 
 ## Execute the pipeline
 
-There are two methods to execute the pipeline, depending on what you’d like to achieve. They both share the first step, which is to:
+You can execute the pipeline in two ways, depending on what you want to achieve. They both share the first step, which is to:
 
 1. Open the Synapse Studio created during the [infrastructure deployment](#deploy-azure-infrastructure):
     1. Launch the Azure Portal.
     2. Navigate to the resource group hosting the infrastructure.
     3. Select the Synapse workspace in the resource group.
     4. Under **Getting started**, select **Synapse Studio**.
-    5. Expand the left menu by selecting the **>>** symbol.
-    6. Select **Integrate**, expand **Pipelines**, and select **SlackAnalyticsPipeline**.
+    5. Expand the left menu and select **Integrate**, expand **Pipelines**, and select **SlackAnalyticsPipeline**.
 
 2. Next, follow the steps in either option a or option b.
     1. Daily execution:
@@ -233,9 +228,9 @@ There are two methods to execute the pipeline, depending on what you’d like to
 
         If you select this option, you don’t need to make any changes before executing the pipeline. Option a executes the pipeline for a single day; it obtains the data from Slack for the present day minus 2. The Slack API may require a couple of days to produce the summary report.
 
-        For reference, this setting works by having `Set startdate variable` as `empty` and `Set enddate variable` as `@formatDateTime(addDays(convertTimeZone(utcNow(),'UTC','Pacific Standard Time'),-2),'yyyy-MM-dd')`.
+        For reference, option a's setting works by having `Set startdate variable` as `empty` and `Set enddate variable` as `@formatDateTime(addDays(convertTimeZone(utcNow(),'UTC','Pacific Standard Time'),-2),'yyyy-MM-dd')`.
 
-        The following images display this setting.
+        The following images show using this setting.
 
        :::image type="content" source="./images/set-startdate-variable-to-empty.png" alt-text="Top: 'Set startdate variable' box selected. Bottom: 'General,' 'Variables,' and 'User properties' tabs. 'Variables' tab selected. Name field contains 'startdate'; value field contains 'empty'":::
 
@@ -243,12 +238,12 @@ There are two methods to execute the pipeline, depending on what you’d like to
 
     2. Execution for historical data:
 
-        You would typically run this execution once to get daily data from the Slack API up to the API's historical date limits (visit [admin.analytics.getFile on Slack](https://api.slack.com/methods/admin.analytics.getFile) for more information).
-        1. In the pipeline details value for the Set startdate variable, change empty to a date in the YYYY-MM-DD format (e.g., 2021-11-15).
+        You would typically run this execution a single time to get daily data from the Slack API up to the API's historical date limits (visit [admin.analytics.getFile on Slack](https://api.slack.com/methods/admin.analytics.getFile) for more information).
+        1. In the pipeline details value for the Set startdate variable, change empty to a date in the YYYY-MM-DD format (2022-02-25).
         2. Execute the pipeline by selecting **Debug**.
 
     > [!NOTE]
-    > This execution gathers Slack data from the date entered (e.g., 2021-11-15) to the present date minus 2. Because you only need to execute the historical date once to get the data, we don’t recommend publishing this change. To revert the change, set the value back to `empty`.
+    > This execution gathers Slack data from the date entered (2021-11-15) to the present date minus 2. Because you only need to execute the historical date once to get the data, we don’t recommend publishing this change. To revert the change, set the value back to `empty`.
 
 ## Schedule pipeline execution
 
