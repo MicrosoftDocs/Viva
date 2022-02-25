@@ -31,7 +31,7 @@ You must use Power BI Desktop to initialize the Viva Insights Power BI templates
 
 If you follow the above guidelines, interacting with elements (like slicers) in the reports or navigating between pages should only take a few seconds.
 
-After initializing the template, you might consider publishing it to the Power BI service to consume and share with others. For best results, publish the reports to a workspace in a Premium capacity. You can also [configure scheduled refresh](https://docs.microsoft.com/power-bi/connect-data/refresh-scheduled-refresh) in the Power BI service to define when you want to refresh the dataset.  
+After initializing the template, you might consider publishing it to the Power BI service to consume and share with others. For best results, publish the reports to a workspace in a Premium capacity. You can also [configure scheduled refresh](/power-bi/connect-data/refresh-scheduled-refresh) in the Power BI service to define when you want to refresh the dataset.  
 
 ## Sharing a report
 
