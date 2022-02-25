@@ -18,10 +18,10 @@ You can use this feature in the Microsoft Viva Insights app in Microsoft Teams t
 * [Schedule focus time](#schedule-focus-time) for future workdays.
 * [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
 
-![Protect time screenshot.](Images/protect-t3.png)
-
 >[!Note]
->As described and shown in the images on this page, this new experience will be available to you through a targeted, rolling release starting now through March 2022.
+>The images on this page represent the latest experience as part of a rolling release with an expected general availability by the end of March 2022.
+
+![Protect time screenshot.](Images/protect-t3.png)
 
 ## Schedule focus time
 
@@ -39,7 +39,7 @@ You can schedule focus time on the **Protect time** page, as follows:
 
 * **Focus plan** - Within **Focus plan**, select **Get started** to create a focus plan.
 
-  * If this is not your first time using a focus plan, you'll automatically be set up with the default settings from your last plan. Then based on the prompt, you can then select **Edit settings** to make any changes.
+  * If this is not your first time using a focus plan, you'll automatically be set up with the default settings. Then based on the prompt, you can then select **Edit settings** to make any changes.
   * If this is your first focus plan, you'll be prompted to select the following options.
 
     * **Do this later** skips the prompts and simply enrolls you in a default plan based on your settings.
