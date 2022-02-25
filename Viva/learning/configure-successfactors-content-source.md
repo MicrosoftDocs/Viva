@@ -55,7 +55,7 @@ To generate private and public PGP key pairs, you can work with your IT admin or
     
     - Partner1
         - The maximum length of PartnerID is 10 characters. For Microsoft Viva Learning enter the value **VL**.
-    partners1.partnerID=
+            - partners1.partnerID=
     
     - EncryptionKey is the PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK. Make sure to remove any line breaks in the key when you enter this value.
         - partners1.encryptionKey=
@@ -88,7 +88,7 @@ To obtain the folder path:
 2. Get the value of the defaultFtp.path property.
 
 >[!NOTE]
->YIt may take up to 7 business days after configuration in your SuccessFactors portal for this folder to appear. If you're still unable to find the package, contact your SuccessFactors support team.
+>It may take up to 7 business days after configuration in your SuccessFactors portal for the SuccessFactors package to appear in your folder path. If you're still unable to find the package, contact your SuccessFactors support team.
 
 ### Admin center configuration
 
