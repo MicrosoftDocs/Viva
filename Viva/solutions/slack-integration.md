@@ -180,9 +180,9 @@ Schema:
 
 ### personmapping.csv
 
-The `personmapping.csv` file is a comma-delimited mapping of an email address (used in Viva Insights organization data) to a Hash id (person identifier). `personmapping.csv` allows these two datasets—email and Hash id—to be surfaced in a report, such as the Viva Insights Ways of Working Power BI report.
+The `personmapping.csv` file is a comma-delimited mapping of an email address (used in Viva Insights organization data) to a Hash ID (person identifier). `personmapping.csv` allows these two datasets—email and Hash ID—to be surfaced in a report, such as the Viva Insights Ways of Working Power BI report.
 
-To create `personmapping.csv`, you’ll need to add in the Hash id and email addresses. Make sure the person identifier is the same in `personmapping.csv` as it is in the organization data loaded into Viva Insights. The email address is the same as what’s used in Slack.
+To create `personmapping.csv`, you’ll need to add in the Hash ID and email addresses. Make sure the person identifier is the same in `personmapping.csv` as it is in the organization data loaded into Viva Insights. The email address is the same as what’s used in Slack.
 
 Schema:
 
@@ -191,9 +191,9 @@ Schema:
 |hashid| Person identifier that is the same as used in Viva Insights organization data|
 |emailaddress| Slack email address that represents the same user in the Viva Insights organization data|
 
-The following image shows how the Hash id allows the two datasets to be combined.
+The following image shows how the Hash ID allows the two datasets to be combined.
 
-   :::image type="content" source="./images/combined-datasets-with-hashid1.png" alt-text="Flow diagram beginning with 'Admin/Hash id to person id mapping' and ending with 'Analyst/Joined data sets'":::
+   :::image type="content" source="./images/combined-datasets-with-hashid1.png" alt-text="Flow diagram beginning with 'Admin/Hash ID to person ID mapping' and ending with 'Analyst/Joined data sets'":::
 
 ## Upload reference files
 
