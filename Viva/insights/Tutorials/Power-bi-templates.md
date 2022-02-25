@@ -21,7 +21,7 @@ The following provides a few guidelines to consider when setting up the Power BI
 
 ## Setting up the Power BI template
 
-For best results, use the following guidelines for selecting the parameters while setting up the templates for Power BI:
+These templates are designed to help Viva Insights users with the most common setups and business scenarios. For best results, use the following guidelines for selecting the parameters while setting up the templates for Power BI:
 
 * Limit the number of employees included in your query results to 50,000 or less.
 * Select the last six months or less for the time period.
