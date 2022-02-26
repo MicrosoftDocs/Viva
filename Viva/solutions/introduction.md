@@ -1,7 +1,7 @@
 ---
 
-title: Microsoft Viva Solutions introduction
-description: Introduces Microsoft Viva Solutions and what's solutions are available to use
+title: Microsoft Viva Accelerators introduction
+description: Introduces Microsoft Viva Accelerators and what's solutions are available to use
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
@@ -17,9 +17,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Microsoft Viva Solutions
+# Microsoft Viva Accelerators
 
-Microsoft Viva Solutions can help you create foundation applications and workflows to solve common business problems. These solutions enable you to access, transform, and utilize your existing Microsoft data sources, such as Microsoft Viva Insights, Microsoft Viva Topics, and Microsoft Graph. The following solutions include step-by-step walkthroughs and code sample to help guide you.
+Microsoft Viva Accelerators can help you create foundation applications and workflows to solve common business problems. These solutions enable you to access, transform, and utilize your existing Microsoft data sources, such as Microsoft Viva Insights, Microsoft Viva Topics, and Microsoft Graph. The following solutions include step-by-step walkthroughs and code sample to help guide you.
 
 ## Data lake solutions
 

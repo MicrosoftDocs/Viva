@@ -51,13 +51,8 @@ Korean | ko-kr
 If and when you are able to use Workplace Analytics with _data_ that is in other languages, do the following as a guideline:
 
 * Query names and descriptions must be in English, Japanese, or French.
-
-   ![Query names and descriptions.](../Images/WpA/Overview/query-name-description.png)
-
 * Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md) must be in English.
-
 * When an analyst selects metrics while building a [query](../tutorials/query-basics.md), the metric names they choose can be in the language of their choice. See [Supported languages for column headers](../use/view-download-and-export-query-results.md?branch=pas-pd-other-char-sets#supported-languages-for-column-headers).
-
 * For content within organizational data, you can use languages other than English.
 
 ## Privacy settings

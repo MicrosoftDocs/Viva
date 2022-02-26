@@ -116,6 +116,8 @@ items:
               href: overview/plans-environments.md
             - name: Privacy guide for admins
               href: overview/privacy-guide-admins.md
+            - name: Activity report
+              href: personal/overview/activity-report.md
         - name: Adoption
           items:
             - name: Introduction 
