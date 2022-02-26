@@ -9,8 +9,8 @@ ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 ---
 
 # Protect time with Viva Insights
