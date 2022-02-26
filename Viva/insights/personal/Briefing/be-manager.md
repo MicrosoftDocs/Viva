@@ -1,15 +1,17 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
+
 title: Catch up with your team through the Briefing email
 description: Learn how to use the Briefing email to catch up with your team
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-manager
-ms.prod: Mya
-manager: scott.ruble
-audience: Admin
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-manager
+manager: helayne
 
 ---
 

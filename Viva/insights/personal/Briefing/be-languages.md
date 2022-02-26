@@ -7,10 +7,13 @@ ms.topic: article
 localization_priority: normal 
 search.appverid:
 - MET150
-ms.prod: Mya
-ms.collection: M365-analytics
-manager: scott.ruble
-audience: Admin
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+manager: helayne
+audience: user
 ---
 # Briefing languages
 

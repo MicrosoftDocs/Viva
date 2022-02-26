@@ -49,7 +49,7 @@ Several scenarios can benefit from this workload through layering an advanced ET
 
 The following shows how these components are used within this solution's architecture.
 
-![Viva Insights Data Lake solution architecture.](../images/vidl-architecture.png)
+![Viva Insights Data Lake solution architecture.](../images/vidl-architecture-2.png)
 
 ## Alternatives
 
