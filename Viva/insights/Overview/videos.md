@@ -7,8 +7,14 @@ author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.prod: wpa
-manager: scott.ruble
+search.appverid:
+- MET150
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-advanced
+manager: helayne
 audience: Admin
 ---
 

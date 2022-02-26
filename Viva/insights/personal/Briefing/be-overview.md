@@ -6,10 +6,12 @@ author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.collection: viva-insights-personal
-ms.prod: Mya
-manager: scott.ruble
-audience: Admin
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+manager: helayne
 
 ---
 

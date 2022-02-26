@@ -8,9 +8,12 @@ ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150
-ms.prod: Mya
-ms.collection: M365-analytics, viva-insights-personal
-manager: scott.ruble
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+manager: helayne
 audience: Admin
 ---
 
