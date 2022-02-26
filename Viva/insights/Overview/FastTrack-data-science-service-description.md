@@ -32,10 +32,9 @@ audience: Admin
 * If requested, data insights and analysis will be delivered via PowerPoint presentation.
 * Email completion report is provided by a FastTrack project manager.
 
-
 ## Services out-of-scope
 
- * Microsoft 365 Tenant configuration and access provisioning.
+Microsoft 365 Tenant configuration and access provisioning.
 
 ## FastTrack Data Service specialists do the following
 
