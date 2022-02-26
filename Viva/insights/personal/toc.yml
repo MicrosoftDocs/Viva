@@ -117,7 +117,7 @@ items:
             - name: Privacy guide for admins
               href: overview/privacy-guide-admins.md
             - name: Activity report
-              href: personal/overview/activity-report.md
+              href: overview/activity-report.md
         - name: Adoption
           items:
             - name: Introduction 
