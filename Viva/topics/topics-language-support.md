@@ -59,7 +59,7 @@ French (coming soon)|Spanish (coming soon)|
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
-English|French (Coming soon)|Italian (Coming soon)
-German (coming soon)|Chinese (simplified) (Coming soon)|Italian (Coming soon)
-Chinese (Simplified) (coming soon) |
+English|French (coming soon)|Italian (planned)
+German (coming soon)|Portuguese (planned)|Spanish (coming soon)
+Chinese (Simplified) (planned) | Japanese (planned)
 | |
