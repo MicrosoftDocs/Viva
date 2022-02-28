@@ -23,7 +23,7 @@ Microsoft Viva Insights provides personal insights in [Viva Insights in Teams](.
 
 You can use these Viva Insights and MyAnalytics features when your organization subscribes to the following Microsoft 365 or Office 365 plans:
 
-* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) - Microsoft 365 or Office 365 E5 or E3; Office 365 E1; Microsoft 365 or Office 365 A5, A3, or A1 for faculty and students; Microsoft 365 or Office 365 G1, G3, or G5; Microsoft 365 Business Basic, Business Standard, or Business Premium; or Exchange Online Plan 1 or 2
+* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) - Microsoft 365 or Office 365 Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, or Business Premium; or Exchange Online Plan 1 or 2
 
 * **MyAnalytics (Full) and Insights by MyAnalytics** - Microsoft 365 E5 with or without Audio Conferencing, Office 365 Enterprise or Nonprofit E5, or Microsoft 365 or Office 365 G5
 
