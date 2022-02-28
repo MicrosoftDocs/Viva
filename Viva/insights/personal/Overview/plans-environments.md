@@ -23,9 +23,10 @@ Microsoft Viva Insights provides personal insights in [Viva Insights in Teams](.
 
 You can use these Viva Insights and MyAnalytics features when your organization subscribes to the following Microsoft 365 or Office 365 plans:
 
-* **MyAnalytics (Full) and Insights by MyAnalytics** - Microsoft 365 E5, Microsoft 365 E5 without Audio Conferencing, Office 365 Enterprise E5, Office 365 Nonprofit E5, and Office 365 G5
-* **MyAnalytics (Full)** - Microsoft 365 A5 for faculty and students and Office 365 A5 for faculty and students
-* **Insights by MyAnalytics** - Microsoft 365 E3, Microsoft 365 Business, Microsoft 365 A3 for faculty and students, Office 365 E3, Office 365 E1, Office 365 A3 for faculty and students, Office 365 E3 Developer, Office 365 G3, Business Premium, and Business Essentials
+* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) - Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, Business Premium, or Exchange Online Plan 1 or Plan 2 license
+* **MyAnalytics (Full) and Insights by MyAnalytics** - Microsoft 365 E5, Microsoft 365 E5 without Audio Conferencing, Office 365 Enterprise E5, Office 365 Nonprofit E5, or Office 365 G5
+* **MyAnalytics (Full)** - Microsoft 365 A5 for faculty and students or Office 365 A5 for faculty and students
+* **Insights by MyAnalytics** - Microsoft 365 E3, Microsoft 365 Business, Microsoft 365 A3 for faculty and students, Office 365 E3, Office 365 E1, Office 365 A3 for faculty and students, Office 365 E3 Developer, Office 365 G3, Business Premium, or Business Essentials
 
 >[!Note]
 >
@@ -34,11 +35,7 @@ You can use these Viva Insights and MyAnalytics features when your organization 
 
 ### Features with the MyAnalytics (Full) service plan
 
-The following features are available only in the MyAnalytics (Full) service plan.
-
-* Read-status features: [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), [Track email open rate](../use/mya-notifications.md#track-email-open-rate)
-* [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
-* [Delay delivery plan](../use/delay-delivery.md)
+The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature is only available with the MyAnalytics (Full) service plan.
 
 ## Access to Viva Insights elements
 
