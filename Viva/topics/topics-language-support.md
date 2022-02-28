@@ -47,12 +47,20 @@ Portuguese (Portugal)|Slovenian |
 
 ## Supported languages for processing topics
 
-Viva Topics is available to customers worldwide, but currently offers the following language support for indexing content in your organization.
+Viva Topics is available to customers worldwide. Available and planned language support for indexing content is shown in the following table.
 
 |&nbsp; |&nbsp;  |
 |---|---|
 English|German (coming soon)|
 French (coming soon)|Spanish (coming soon)|
+
 | |
 
 
+
+|&nbsp;  | &nbsp; |&nbsp; |
+|---|---|---|
+English|French (Coming soon)|Italian (Coming soon)
+German (coming soon)|Chinese (simplified) (Coming soon)|Italian (Coming soon)
+Chinese (Simplified) (coming soon) |
+| |
