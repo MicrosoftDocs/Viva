@@ -36,7 +36,7 @@ When designing a query, Viva Insights uses these factors to calculate the cost o
 
 ![query estimate](../images/wpa/tutorials/query-estimate-1.png)
 
-In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
+The bar above the estimated query cost shows how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
 
 The Power BI templates that are currently available in Query designer use one or more predefined queries to use with the provided Power BI template.
 
