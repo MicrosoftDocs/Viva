@@ -63,6 +63,7 @@ If you experience any errors in your Microsoft 365 admin center during content i
 |:----------------|:----------|:----------------------|
 |All providers |USR_ERROR_INVALID_RESOURCE_CREDENTIALS |The authentication credentials you provided are Invalid. Make sure you enter the correct credentials. You can contact Microsoft customer support for more details. |
 |All providers |USR_ERROR_ACCESS_DENIED |Access denied by partner. Confirm that the credentials you entered are correct or contact the content provider's support team. |
+|All providers |Changes not saved | Make sure that you've entered the correct configuration details. |
 
 ## Content consumption for end users
 

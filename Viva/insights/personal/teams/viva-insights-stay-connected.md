@@ -5,10 +5,12 @@ description: Use the Stay connected feature in Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
+ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
-ms.prod: Mya
-manager: scott.ruble
-audience: Admin
+ms.service: viva
+ms.subservice: viva-insights
+manager: helayne
+audience: user
 ---
 
 # Stay connected
