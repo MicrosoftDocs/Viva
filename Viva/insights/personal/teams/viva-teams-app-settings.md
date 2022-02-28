@@ -1,17 +1,19 @@
 ---
 
 title: Configure Viva Insights
-description: Learn how to configure the settings for the Microsoft Viva Insights app
+description: Learn how to configure the settings for the Microsoft Viva Insights app in Teams
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
+- viva-insights-personal
 - viva-insights-manager
 - viva-insights-leader
-ms.prod: Mya
-manager: scott.ruble
-audience: Admin
+ms.service: viva
+ms.subservice: viva-insights
+manager: helayne
+audience: user
 
 ---
 

@@ -11,7 +11,7 @@ ms.collection:
 - viva-insights-leader
 ms.service: viva
 ms.subservice: viva-insights
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
