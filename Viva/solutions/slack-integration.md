@@ -170,9 +170,9 @@ The `Activity Time Config.csv` file is pre-populated with time allocations for S
 
 Schema:
 
-|Activity| Time_in_seconds|
-|--------|----------------|
-|Slack_messages_posted| 22|
+|Activity|Time_in_seconds|
+|----|----|
+|Slack_messages_posted|22|
 |Slack_reactions_added| 8|
 |Slack_channel_messages_posted| 300|
 |Slack_files_added| 22|
@@ -224,6 +224,7 @@ You can execute the pipeline in two ways, depending on what you want to achieve.
     1. Daily execution:
 
         Execute the pipeline by selecting **Debug**.
+
        :::image type="content" source="./images/select-debug.png" alt-text="Ribbon containing 'Validate,' 'Debug,' and 'Add trigger.' 'Debug' command selected":::
 
         If you select this option, you don’t need to make any changes before executing the pipeline. Option a executes the pipeline for a single day; it obtains the data from Slack for the present day minus 2. The Slack API may require a couple of days to produce the summary report.
