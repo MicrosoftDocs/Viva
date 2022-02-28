@@ -49,14 +49,6 @@ Portuguese (Portugal)|Slovenian |
 
 Viva Topics is available to customers worldwide. Available and planned language support for indexing content is shown in the following table.
 
-|&nbsp; |&nbsp;  |
-|---|---|
-English|German (coming soon)|
-French (coming soon)|Spanish (coming soon)|
-| |
-
-
-
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
 English|French (coming soon)|Italian (planned)
