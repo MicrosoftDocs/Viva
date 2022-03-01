@@ -1,8 +1,8 @@
 ---
 title: How to interpret query output in Workplace Analytics
 description: Understand and interpret query output is Workplace Analytics
-author: madehmer
-ms.author: helayne
+author: lilyolason
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -10,7 +10,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
@@ -76,8 +76,8 @@ The query output for person-to-group queries consists of general header columns 
 | **IsInternal** | This value is true for all internal company employees and equates to false for all people external to the company. |
 | **FunctionType**<sup>*</sup> | Represents the function that employees perform within the company, for example, Manufacturing, HR, or Finance. |  
 | **Organization**<sup>*</sup> | Represents the name of the organization to which a person belongs. For information on other variable organization-related columns, see [Organizational attribute columns](#organizational-attribute-columns). |
-|  **Collaborators** (collaborator group-by attribute) | Represents the various collaborators by group. For example, if you select "Domain" as the *Group by* attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the *Group by* attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType Group by attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
-| **Date** | Is either the first day of the week (Sunday) or first day of the month, depending on which date option you originally selected as the group by attribute.|  
+|  **Collaborators** (collaborator group-by attribute) | Represents the various collaborators by group. For example, if you select "Domain" as the *Group by* attribute, the values will be all the email domains with which time investors have collaborated.  The name of this header column changes depending on the *Group by* attribute selected for the collaborators part of the query. So if you group collaborators by domain, the column name will be concatenated as Collaborators_Domain. If you selected the FunctionType *Group by* attribute, the values will be all the various company organizations with which the time investors have collaborated, such as Sales, HR, or Finance.  Similarly, the column name will be concatenated as Collaborators_FunctionType. |  
+| **Date** | Is either the first day of the week (Sunday) or first day of the month, depending on which date option you originally selected as the *Group by* attribute.|  
 
 <sup>*</sup> The Organization and FunctionType columns are similar in that they both reflect the function of employees within an organization. However, the values of each might differ, as in the following examples:
 
@@ -101,7 +101,17 @@ For details about person-to-group metrics, see [Workplace Analytics metrics](../
 
 **The IsActive attribute**
 
-For the **Employees** filter in the **Time investors** section, you can select if you want Active only, Inactive only, or All employees as time investors for the query. Active employees are those who sent at least one email or instant message during the aggregated time period (date range) set for the query. This option is only available for person and person-to-group queries, which will be the *IsActive* attribute column with a Boolean value of true or false for each row in the output file.
+You can select whether you want to include Active only, Inactive only, or All employees in your person query or person-to-group query results. The query inserts a Boolean value of "TRUE" or "FALSE" in the IsActive attribute column for each row in the output file.
+
+* Person queries: Find this selection under the **Employees** filter in **Select filters**.
+
+* Person-to-group queries: Find this selection under **Time investors**.
+
+Notes:  
+
+* Active employees send at least one email or instant message during the unit of time—day, week, or month—defined by the query’s *Group by* setting.
+
+* You might notice differences when comparing metrics summarized by day with metrics summarized by week; a person can be active in a week, but not necessarily active seven days of the week.
 
 ## Additional attributes for group queries
 
