@@ -1,0 +1,21 @@
+    - name: Microsoft Viva Goals
+      href: index.md   
+
+    - name: Get started with Viva Goals Example TOC
+      items:    
+        - name: Placeholder Overview of Viva Goals
+          href: placeholder-overview-viva-goals.md
+        - name: Placeholder
+          href: placeholder-set-up-viva-learning.md
+        - name: Supported languages
+          href: viva-goals-supported-languages.md
+        - name: Terms and conditions
+          href: terms-and-conditions.md
+        - name: Get help
+          href: help-support.md
+        
+    
+        - 
+            
+
+
