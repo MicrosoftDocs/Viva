@@ -63,7 +63,7 @@ To get the OAuth token this pipeline needs:
 
     As shown in the following App Manifest example, you can update the redirect URLs and user scope.
 
-```json
+    ```json
 
     display_information:
         name: vsappanalytics
@@ -86,7 +86,8 @@ To get the OAuth token this pipeline needs:
             org_deploy_enabled: true
             socket_mode_enabled: false
             token_rotation_enabled: false
-```
+
+    ```
 
 2. Install the application (`vsappanalyticc`) to the enterprise and enable it in the workspace, as shown in the following example.
  
@@ -258,6 +259,6 @@ We don't recommend setting triggers more frequently than daily. You can also set
 
 ## Applying the output
 
-Once you’ve joined Viva Insights data and a third-party data set—like Slack’s—you can populate reports and visualizations to see this information in new ways. One example might be modifying the [Viva Insights Ways of working template](/insights/tutorials/power-bi-collab-assess) with a new visual, as pictured below.
+Once you’ve joined Viva Insights data and a third-party data set—like Slack’s—you can populate reports and visualizations to see this information in new ways. One example might be modifying the [Viva Insights Ways of working template](../insights/tutorials/power-bi-collab-assess) with a new visual, as pictured below.
 
 :::image type="content" source="./images/ways-of-working-vis.png" alt-text="Power BI report with graphs titled 'Ways of Working Assessment with Slack (inc. new view for Slack activity)'.":::
