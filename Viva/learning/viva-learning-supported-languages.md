@@ -24,12 +24,12 @@ Viva Learning adapts to your organization's Microsoft 365 language preferences. 
 
 |&nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
-English|Japanese|German|
-Chinese (Simplified)|Spanish|French|
-Portuguese (Brazil)|Russian|Italian|
-Chinese (Traditional)|Korean|Dutch|
-Polish|Swedish|Turkish|
-Czech|Portuguese (Portugal)|Thai|
-Danish|Hungarian|Finnish|
-Indonesian|Greek|Romanian|
-Ukrainian|Catalan|Norwegian Bokmål|
+English|Chinese (Traditional)|Danish|
+Japanese|Korean|Hungarian|
+German|Dutch|Finnish|
+Chinese (Simplified)|Polish|Indonesian|
+Spanish|Swedish|Greek|
+French|Turkish|Romanian|
+Portuguese (Brazil)|Czech|Ukrainian|
+Russian|Portuguese (Portugal)|Catalan|
+Italian|Thai|Norwegian Bokmål|
