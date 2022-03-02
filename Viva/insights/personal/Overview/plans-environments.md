@@ -8,21 +8,28 @@ ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150
-ms.prod: Mya
-ms.collection: M365-analytics, viva-insights-personal
-manager: scott.ruble
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+manager: helayne
 audience: Admin
 ---
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in [Viva Insights in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Digests](../use/email-digests-3.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Digest emails](../use/email-digests-3.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
 
 You can use these Viva Insights and MyAnalytics features when your organization subscribes to the following Microsoft 365 or Office 365 plans:
 
-* **MyAnalytics (Full) and Insights by MyAnalytics** - Microsoft 365 E5, Microsoft 365 E5 without Audio Conferencing, Office 365 Enterprise E5, Office 365 Nonprofit E5, and Office 365 G5
-* **MyAnalytics (Full)** - Microsoft 365 A5 for faculty and students and Office 365 A5 for faculty and students
-* **Insights by MyAnalytics** - Microsoft 365 E3, Microsoft 365 Business, Microsoft 365 A3 for faculty and students, Office 365 E3, Office 365 E1, Office 365 A3 for faculty and students, Office 365 E3 Developer, Office 365 G3, Business Premium, and Business Essentials
+* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) - Microsoft 365 or Office 365 Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, or Business Premium; or Exchange Online Plan 1 or 2
+
+* **MyAnalytics (Full) and Insights by MyAnalytics** - Microsoft 365 E5 with or without Audio Conferencing, Office 365 Enterprise or Nonprofit E5, or Microsoft 365 or Office 365 G5
+
+* **MyAnalytics (Full)** - Microsoft 365 A5 for faculty and students or Office 365 A5 for faculty and students
+
+* **Insights by MyAnalytics** - Microsoft 365 E3, Microsoft 365 Business, Microsoft 365 A3 for faculty and students, Office 365 E3, Office 365 E1, Office 365 A3 for faculty and students, Office 365 E3 Developer, Office 365 G3, Business Premium, or Business Essentials
 
 >[!Note]
 >
@@ -31,22 +38,18 @@ You can use these Viva Insights and MyAnalytics features when your organization 
 
 ### Features with the MyAnalytics (Full) service plan
 
-The following features are available only in the MyAnalytics (Full) service plan.
-
-* Read-status features: [Email read rates and document open rates](../use/use-the-insights.md#track-email-and-document-open-rates), [Track email](../use/mya-notifications.md#track-email), [Track email open rate](../use/mya-notifications.md#track-email-open-rate)
-* [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting)
-* [Delay delivery plan](../use/delay-delivery.md)
+The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature is only available with the MyAnalytics (Full) service plan.
 
 ## Access to Viva Insights elements
 
-After users get assigned licenses with a MyAnalytics (Full) or Insights by MyAnalytics service plan, they get access to the following within the specified time frames.
+After users get assigned licenses with a Microsoft Viva Insights, MyAnalytics (Full), or Insights by MyAnalytics service plan, they get access to the following within the specified time frames.
 
 | Element | Approximate time frame |
 | ------- | ------------------|
-| [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment|
+| [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
 | [Insights Outlook add-in](../use/add-in.md) and [Inline suggestions](../use/mya-notifications.md) | Available about one day after license assignment |
 | The [Dashboard](../use/dashboard-2.md), [Viva Insights Home page](../use/home-web.md), and [Viva Insights in Teams](../teams/viva-teams-app.md) | Available a few days after license assignment |
-| [Digests](../use/email-digests-3.md) | Sent the Monday of the first week after the welcome email |
+| [Digest emails](../use/email-digests-3.md) | Sent the Monday of the first week after the welcome email |
 
 >[!Note]  
 >

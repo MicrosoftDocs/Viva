@@ -9,8 +9,9 @@ ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-personal
 - viva-insights-manager
-ms.prod: Mya
-manager: scott.ruble
+ms.service: viva
+ms.subservice: viva-insights
+manager: helayne
 audience: Admin
 
 ---

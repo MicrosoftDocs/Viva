@@ -6,7 +6,9 @@
         - name: Overview of Viva Learning
           href: overview-viva-learning.md
         - name: Set up Viva Learning
-          href: set-up-viva-learning.md 
+          href: set-up-viva-learning.md
+        - name: Supported languages
+          href: viva-learning-supported-languages.md
         - name: Terms and conditions
           href: terms-and-conditions.md
         - name: Get help
