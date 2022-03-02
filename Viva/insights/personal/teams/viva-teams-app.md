@@ -10,9 +10,10 @@ ms.collection:
 - viva-insights-personal
 - viva-insights-manager
 - viva-insights-leader
-ms.prod: Mya
-manager: scott.ruble
-audience: Admin
+ms.service: viva
+ms.subservice: viva-insights
+manager: helayne
+audience: user
 
 ---
 

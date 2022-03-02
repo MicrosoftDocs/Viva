@@ -2,19 +2,19 @@
 ROBOTS: NOINDEX,FOLLOW
 title: Workplace Analytics FastTrack Data Science Service
 description: This topic describes the roles and responsibilities for a Workplace Analytics data science service project. 
-author: rodonahu
-ms.collection: viva-insights-advanced
+author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: medium 
+ms.localizationpriority: medium
+ms.collection: viva-insights-advanced
 ms.service: viva 
 ms.subservice: viva-insights
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Workplace Analytics FastTrack Data Science Service
- 
+
 ## Service Overview
 
 * The Workplace Analytics Analysis Service offered under Microsoft 365 FastTrack provides you with assistance on running queries in Workplace Analytics and interpreting the results.
@@ -32,10 +32,9 @@ audience: Admin
 * If requested, data insights and analysis will be delivered via PowerPoint presentation.
 * Email completion report is provided by a FastTrack project manager.
 
-
 ## Services out-of-scope
 
- * Microsoft 365 Tenant configuration and access provisioning.
+Microsoft 365 Tenant configuration and access provisioning.
 
 ## FastTrack Data Service specialists do the following
 
