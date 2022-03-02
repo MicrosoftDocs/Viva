@@ -7,9 +7,9 @@ ms.author: helayne
 ms.topic: article
 ms.localizationpriority: high 
 ms.collection: viva-insights-personal
-ms.service: viva 
+ms.service: viva
 ms.subservice: viva-insights
-manager: scott.ruble
+manager: helayne
 
 ---
 
@@ -97,23 +97,15 @@ As the Viva Insights admin, you'll need to complete the following steps to give 
 
 After the admin tasks are complete, do the following to start your trial experience.
 
-1. Within your Viva Insights app in Teams, select **Get started** when prompted to Support your team's wellbeing and productivity with even more Viva Insights features:
-
-   ![Insights panel.](../teams/images/trial-prompt.png)
-
+1. Within your Viva Insights app in Teams, select **Get started** when prompted to Support your team's wellbeing and productivity with even more Viva Insights features.
 2. When prompted in **You've made a great choice**, select **Get started**.
-3. In **Choose your team members**:
-
-   * If you are a team lead or manager, enter, confirm, or remove the names of the people you want to include in your team insights, and then select **Confirm**.
-   * If you are not a team lead, select **I don't lead a team** to skip this prompt.
-
-4. For team leads and managers, you'll see team insights on the **My team** page. If you don't lead a team, you won't see the **My team** page.
+3. In **Choose your team members**, define your team with at least one other team member (to participate in this trial), and then select **Confirm**.
 
    ![My team page in Viva Insights in Teams.](../../images/wpa/use/myteam-2.png)
 
 ## Expiration
 
-During the trial experience, you'll see a prompt at the top of the page within Viva Insights in Teams that shows how many days you can use the trial experience. It'll then count down to show you how many days are left during this trial phase. It'll also prompt you to **Contact us** to complete a form and request a license to keep using these features after the trial ends.
+During the trial experience, you'll see a prompt at the top of the page within Viva Insights in Teams that shows how many days you can use the trial experience. It'll then count down to show you how many days are left during this trial phase. After the trial ends, you are prompted to contact your admin to request a license for [Viva Insights](https://www.microsoft.com/microsoft-viva/insights/). See [My team](../../use/myteam.md) for more details about advanced team features available with the full [Microsoft Viva Insights suite](https://www.microsoft.com/microsoft-viva/buy-insights).
 
 ## Related topics
 
