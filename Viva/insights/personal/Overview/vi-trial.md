@@ -23,28 +23,39 @@ As a licensed user with a Microsoft 365 E3 or E5 plan, you can use this free 60-
 
 During your 60-day trial, you get access to premium features within the Viva Insights app. Your insights are based on information that you already have access to within Outlook and Teams. Viva Insights applies intelligence to this information to make it easier for you to reflect on work patterns and take action to improve yours and your team's productivity and wellbeing.
 
-## Premium features
+## My team trial features
 
-After you enroll in the trial, you can experience the following features within the [My team](../../use/myteam.md) page. These team insights are presented to you as a team lead or a manager, which are based on the team you define within the app.
+As part of a team, you can use this trial to get valuable insights about you and your team’s work patterns. A team is defined as one of the following:
 
-* **Stay connected and engaged with your team**:  
+* Formal hierarchical structure with a team who reports to a manager.
+* Informal virtual team of people collaborating closely with one another. This definition is flexible and dependent on you as an individual user.
 
-  * Schedule 1:1 time with team members (or reschedule for a conflict). As a people manager or a team lead, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles.
-  * One of the simplest coaching tools that team leads or managers have are 1:1 time. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged. See [1:1 time in My team](../../use/myteam.md#11-time) for more details.
+After you enroll in the trial, you can experience the following subset of features within the **My team** page.
 
-* **Team meeting habits**: Managers are role models when it comes to collaboration habits; team members tend to mimic their manager’s behavior. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [How 1:1 time is calculated](../../use/myteam.md#how-11-time-is-calculated) for details.
-* **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation.
+* **Stay connected and engaged with your team**: You'll see a rotating recommendation at the top of your My team page that's based on recent activity. It's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles. One of the simplest coaching tools that team leads or managers have is regularly scheduled 1:1 time with each team member. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged.  See [1:1 time in My team](../../use/myteam.md#11-time) for more details.
+
+* **Team meeting habits**: You’ll see your current behavior and suggestions on how to improve, such as if you RSVP’d, joined on time, and didn’t multitask during team meetings. When it comes to collaboration habits, you are a role model, and your team members tend to mimic your behaviors. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [How 1:1 time is calculated](../../use/myteam.md#how-11-time-is-calculated) for details.
+* **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/viva-insights-praise.md) for details.
 * **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/viva-insights-stay-connected.md#stay-on-top-of-outstanding-task-suggestions) for details.
 
   * **Commitments** – Something you promised or committed to do for someone else in an email.
   * **Requests** – Something another person asked you to do in an email.
   * **Follow-ups** – Something you asked someone else for in an email.
 
+### Feature comparison
+
+Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights
+-----------|------------|-------|--------
+[Home page](../teams/viva-insights-home.md) | X | X | X
+[My team trial features](#my-team-trial-features))| X | X | X
+[My organization page](../../use/viva-insights-my-org.md) |&nbsp; |&nbsp; | X
+[Advanced analysis tools and templates](../../index-orig.md) | &nbsp;| &nbsp; | X
+
 ## Privacy
 
-These premium features use real, live collaboration data from Microsoft 365 but use only your data for your insights – no private data is available from other users, even as de-identified or aggregated data. These insights are generated by using your data, such as your email, meetings, calls, and chats. Your individual employee data is stored and protected in the same way as your Microsoft 365 data.
+These premium features use real, live collaboration data from Microsoft 365 but use only your data for your insights – no private data is available from other users, even as de-identified or aggregated data. These insights are generated by using your Exchange Online email and calendar data, which Viva Insights processes and stores within your Exchange Online mailbox, so data security is built in and enforced by Exchange.
 
-As is the case with the full Microsoft 365 suite, Viva Insights helps support compliance with GDPR requirements. For more details, see the [Privacy guide](privacy-guide-users.md).
+Viva Insights is compliance with GDPR requirements. For more details, see the [Privacy guide](../teams/viva-teams-app-privacy.md).
 
 ## Admin tasks
 
