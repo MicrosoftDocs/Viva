@@ -32,10 +32,12 @@ As part of a team, you can use this trial to get valuable insights about you and
 
 After you enroll in the trial, you can experience the following subset of features within the **My team** page.
 
-* **Stay connected and engaged with your team**: You'll see a rotating recommendation at the top of your My team page that's based on recent activity. It's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles. One of the simplest coaching tools that team leads or managers have is regularly scheduled 1:1 time with each team member. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged.  See [1:1 time in My team](../../use/myteam.md#11-time) for more details.
+* **Stay connected and engaged with your team**: You'll see a rotating recommendation at the top of your **My team** page that's based on recent activity. It's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles. One of the simplest coaching tools that team leads or managers have is regularly scheduled 1:1 time with each team member. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged. See [1:1 time in My team](../../use/myteam.md#11-time) for more details.
 
 * **Team meeting habits**: You’ll see your current behavior and suggestions on how to improve, such as if you RSVP’d, joined on time, and didn’t multitask during team meetings. When it comes to collaboration habits, you are a role model, and your team members tend to mimic your behaviors. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [How 1:1 time is calculated](../../use/myteam.md#how-11-time-is-calculated) for details.
+
 * **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/viva-insights-praise.md) for details.
+
 * **Stay on top of outstanding task suggestions**: It is easy to lose track of commitments made to your colleagues in email. This insight helps make sure nothing gets missed by reminding you. It's based on emails that you sent and requests you've made during the last 14 days of email communication, including the following. See [Stay on top of outstanding task suggestions](../teams/viva-insights-stay-connected.md#stay-on-top-of-outstanding-task-suggestions) for details.
 
   * **Commitments** – Something you promised or committed to do for someone else in an email.
@@ -47,7 +49,7 @@ After you enroll in the trial, you can experience the following subset of featur
 Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights
 -----------|------------|-------|--------
 [Home page](../teams/viva-insights-home.md) | X | X | X
-[My team trial features](#my-team-trial-features))| X | X | X
+[My team trial features](#my-team-trial-features)| X | X | X
 [My organization page](../../use/viva-insights-my-org.md) |&nbsp; |&nbsp; | X
 [Advanced analysis tools and templates](../../index-orig.md) | &nbsp;| &nbsp; | X
 
@@ -63,6 +65,9 @@ As the Viva Insights admin, you'll need to complete the following steps to give 
 
 * Identify the group of users in your organization who are already using the Viva Insights app in Teams. This experience is intended for managers and team leads, so those groups would be your ideal candidate.
 * To test if the trial experience is discoverable, you can test it with a specific group. To do this, complete the following steps to enable that group access. Then you can ask if they see the banner prompting them to **Get started**, as described in the next section.
+
+>[!Important]
+>You must do **Step 5** to opt specific users out of this trial, otherwise everyone in the tenant will get this experience.
 
 1. Use the following command in PowerShell to install this new version of Viva Insights:
 
@@ -87,7 +92,7 @@ As the Viva Insights admin, you'll need to complete the following steps to give 
    Set-VivaInsightsSettings -Identity "testuser@tenant" -Feature discovertrybuy -Enabled $True
    ```
 
-5. You'll also need to run [Set-VivaInsightsSettings](https://docs.microsoft.com/powershell/module/exchange/set-vivainsightssettings) for each user who wants to opt out of this trial experience. For example:
+5. You'll also must run [Set-VivaInsightsSettings](https://docs.microsoft.com/powershell/module/exchange/set-vivainsightssettings) for each user who needs to be opted out of this trial experience. For example:
 
    ```PowerShell
    Set-VivaInsightsSettings -Identity "testuser@tenant" -Feature discovertrybuy -Enabled $False
@@ -97,7 +102,7 @@ As the Viva Insights admin, you'll need to complete the following steps to give 
 
 After the admin tasks are complete, do the following to start your trial experience.
 
-1. Within your Viva Insights app in Teams, select **Get started** when prompted to Support your team's wellbeing and productivity with even more Viva Insights features.
+1. Within your Viva Insights app in Teams, select **Get started** in the banner at the top of the page to support your team's wellbeing and productivity with even more Viva Insights features.
 2. When prompted in **You've made a great choice**, select **Get started**.
 3. In **Choose your team members**, define your team with at least one other team member (to participate in this trial), and then select **Confirm**.
 
