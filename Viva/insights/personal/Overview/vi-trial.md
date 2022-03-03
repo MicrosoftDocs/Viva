@@ -82,7 +82,7 @@ As the Viva Insights admin, you'll need to complete the following steps to give 
    ```
 
 3. Complete the authentication as either a Global Administrator, Exchange Administrator, Teams Administrator, or Insights Administrator credentials.
-4. Use the [Get-VivaInsightsSettings](https://docs.microsoft.com/powershell/module/exchange/get-vivainsightssettings) and [Set-VivaInsightsSettings](https://docs.microsoft.com/powershell/module/exchange/set-vivainsightssettings) commands in PowerShell, as required. For example:
+4. Use the [Get-VivaInsightsSettings](/powershell/module/exchange/get-vivainsightssettings) and [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings) commands in PowerShell, as required. For example:
 
    ```PowerShell
    Get-VivaInsightsSettings -Identity "testuser@tenant" -Feature discovertrybuy
@@ -92,7 +92,7 @@ As the Viva Insights admin, you'll need to complete the following steps to give 
    Set-VivaInsightsSettings -Identity "testuser@tenant" -Feature discovertrybuy -Enabled $True
    ```
 
-5. You'll also must run [Set-VivaInsightsSettings](https://docs.microsoft.com/powershell/module/exchange/set-vivainsightssettings) for each user who needs to be opted out of this trial experience. For example:
+5. You'll also must run [Set-VivaInsightsSettings](/powershell/module/exchange/set-vivainsightssettings) for each user who needs to be opted out of this trial experience. For example:
 
    ```PowerShell
    Set-VivaInsightsSettings -Identity "testuser@tenant" -Feature discovertrybuy -Enabled $False
