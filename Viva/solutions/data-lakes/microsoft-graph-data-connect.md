@@ -1,6 +1,6 @@
 ---
 
-title: Microsoft Graph Data Coonnect data lake solution
+title: Microsoft Graph Data Connect data lake solution
 description: Learn how to set up and use the Microsoft Graph Data Connect data lake solution
 author: lilyolason
 ms.author: v-lilyolason
