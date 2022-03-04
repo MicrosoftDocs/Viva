@@ -23,7 +23,7 @@ highlightedContent:
       itemType: how-to-guide
       url: /viva/solutions/data-lakes/viva-insights
     - title: Data access automation
-      itemType: configure
+      itemType: get-started
       url: /viva/solutions/automate-exports
     - title: Multitenant solution
       itemType: deploy
