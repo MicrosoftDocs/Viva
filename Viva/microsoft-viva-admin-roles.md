@@ -25,7 +25,7 @@ While each module has its own setup process, you can find all of the setup pages
 
 
 ### Viva Topics
-You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) to setup and manage Topics in the Microsoft 365 admin center. During setup, admins can configure Viva Topics to:
+You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) to set up and manage Topics in the Microsoft 365 admin center. During setup, admins can configure Viva Topics to:
 - Select which SharePoint sites will be crawled for topics.
 - Select which licensed users who can view topics (topic viewers).
 - Select which topics will be excluded from being identified.
