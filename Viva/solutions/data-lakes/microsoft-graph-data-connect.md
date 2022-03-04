@@ -166,7 +166,8 @@ In **ADF/Synapse > Manage > Linked Services**:
 
 Follow the steps here to create four *Copy Data* activities to load the following four Office 365 tables. For each table, include the respective **Source** parameters from the list below.
 
->[Note!] The versions provided for each table are current as of time of writing.
+>[!Note]
+>The versions provided for each table are current as of time of writing.
 
 1. **Event Table** (BasicDataSet_v0.Event_v1)
 
@@ -259,4 +260,5 @@ At this point, the pipeline should resemble the following image:
 
 2. After the first trigger, follow steps [here](/graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=5) to monitor and approve data consent requests at in the Microsoft 365 Admin Center or via PowerShell.
 
-> [Note!]: Each approved data consent request is valid for six months unless there is a change in the pipeline (for example, a *Copy Data* activity name change or a  pipeline name change)
+> [!NOTE]
+> Each approved data consent request is valid for six months unless there is a change in the pipeline (for example, a *Copy Data* activity name change or a  pipeline name change)
