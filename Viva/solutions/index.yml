@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
-title: Microsoft Viva Accelerators documentation # < 60 chars
-summary: Learn what Microsoft Viva Accelerators are and how to use them. # < 160 chars
+title: Microsoft Viva Accelerators # < 60 chars
+summary: Learn what Microsoft Viva Accelerators are and how to use them to create foundation applications and workflows to solve common business problems.. # < 160 chars
 brand: m365
 
 metadata:
@@ -20,11 +20,11 @@ highlightedContent:
       itemType: overview # controls the icon image and super-title text
       url: /viva/solutions/introduction
     - title: Data lake solutions
-      itemType: learn
+      itemType: how-to-guide
       url: /viva/solutions/data-lakes/viva-insights
     - title: Data access automation
-      itemType: deploy
+      itemType: configure
       url: /viva/solutions/automate-exports
     - title: Multitenant solution
-      itemType: how-to-guide
+      itemType: deploy
       url: /viva/solutions/complex-organization-insights
