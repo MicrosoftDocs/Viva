@@ -17,7 +17,7 @@ audience: Admin
 
 # Microsoft Graph Data Connect Data Lake Solution
 
-Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution export data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](https://docs.microsoft.com/en-us/common-data-model/) to learn more about the CDM.
+Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](https://docs.microsoft.com/en-us/common-data-model/) to learn more about the CDM.
 
 In this walkthrough you’ll:
 
@@ -37,13 +37,13 @@ Before following the steps in this walkthrough, make sure you have:
 
 Need to enable and configure Microsoft Graph Data Connect in your environment alongside an Azure subscription? Follow the steps in [Set up your Microsoft 365 tenant and enable Microsoft Graph Data Connect](/graph/data-connect-quickstart?tabs=Microsoft365) of our Microsoft Graph Data Connect training module.
 
-## Provision required resources
+## Provision and configure required resources
 
 To complete the conversion, you’ll need to create or provision a few resources in your Azure environment:
 
-* **App registration**: The app registration enables Microsoft Graph Data Connect to extract your Office 365 data into your Azure storage. Follow the steps in [Set up your Azure Active Directory app registration](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=2) of our training module to provision the resource. 
+* **App registration**: The app registration enables Microsoft Graph Data Connect to extract your Office 365 data into your Azure storage. Follow the steps in [Set up your Azure Active Directory app registration](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=2) of our training module to provision the resource.
 
-   * Note down the **application ID**, **tenant ID**, and **application key**; they’ll be used [later](#create-linked-services-within-the-orchestration-tool) in the walkthrough.
+  * Note down the **application ID**, **tenant ID**, and **application key**; they’ll be used [later](#create-linked-services-within-the-orchestration-tool) in the walkthrough.
 
   * Ensure the app registration has Storage Blob Data Contributor access to the ADLSg2 account (detailed on the next bullet).
 
@@ -51,35 +51,39 @@ To complete the conversion, you’ll need to create or provision a few resources
 
     Follow the steps in [Set up your Azure Storage resource](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=3) to set up proper permissions for your storage account.
 
-* **File systems**:
+  * **File systems**:
 
-    * A file system to store the Office 365 data outputted by Microsoft Graph Data Connect in JSON format (called json in this walkthrough and is the default value in the script)
+    * A file system to store the Office 365 data outputted by Microsoft Graph Data Connect in JSON format (called *json* in this walkthrough and is the default value in the script and pipeline parameters)
 
-    * A file system to store the outputted CDM entities after the conversion is complete (called cdm in this walkthrough and is the default value in the script)
+    * A file system to store the outputted CDM entities after the conversion is complete (called *cdm* in this walkthrough and is the default value in the script and pipeline parameters)
 
-    * A file system to store the outputted CSV entities after the conversion is complete (called csv in this walkthrough and is the default value in the script)
+    * A file system to store the outputted CSV entities after the conversion is complete (called *csv* in this walkthrough and is the default value in the script and pipeline parameters)
 
 * A preferred:
 
-    * **Orchestration tool**: Synapse/Azure Data Factory
+  * **Orchestration tool**: Synapse/Azure Data Factory
 
-    * **Processing engine**: Databricks or Synapse Spark pool
+  * **Processing engine**: Databricks or Synapse Spark pool
 
 * **The PySpark script**: This script converts the Microsoft Graph Data Connect JSON lines into CDM and CSV format and stores the resulting files.
 
-    * If using **Databricks** as your compute engine: upload the Databricks notebook—located in the **src** directory of this repository—into the Databricks instance.
+  * If using **Databricks** as your compute engine: upload the Databricks notebook—located in the [**src**](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/MGDC/src) directory of this repository—into the Databricks instance.
 
-    * If using **Synapse Spark pool** as your compute engine: Import the Synapse notebook from the **src** directory of this repository into your Synapse workspace (**Develop > Notebooks > import**).
+  * If using **Synapse Spark pool** as your compute engine: Import the Synapse notebook from the [**src**](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/Data%20Lake/MGDC/src) directory of this repository into your Synapse workspace (**Develop > Notebooks > import**).
 
-* **CDM library**: 
-    
-    * **Synapse** has the CDM library installed by default. 
+* **CDM library**:
 
-    * If you’re using **Databricks**, install the CDM library via Maven:
+  * **Synapse** has the CDM library installed by default.
 
-    1.	Under **Install library**, select **Maven** as the source, then select **Search Packages**.
+  * If you’re using **Databricks**, install the CDM library via Maven:
+
+    1. Under **Install library**, select **Maven** as the source, then select **Search Packages**.
+
+        :::image type="content" source="../images/databricks-library1.png" alt-text="Screenshot of the 'Install library' window with Maven selected and 'Search packages' outlined for emphasis.":::
 
     2. Search for and select `spark-cdm-connector`.
+
+        :::image type="content" source="../images/databricks-library2.png" alt-text="Screenshot of 'Search packages' window with 'spark-cdm-connector' entered in search bar and listed as entry under 'Artifact id'.":::
 
 ## Load and convert Office 365 data
 
@@ -101,22 +105,26 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     1. Select **Create**.
 
+        :::image type="content" source="../images/storage-linked-service.png" alt-text="Screenshot of 'New linked service' blade.":::
+
 2. Create an Office 365 data linked service to allow Microsoft Graph Data Connect to move data into your Azure storage account:
 
     1. Select **Office 365** and create a new linked service.
 
     1. In the resulting blade, provide the **application ID** and **application key** noted in [Provision required resources](#provision-required-resources).
-    1.  Select **Create**. This linked service will automatically be used for all of the Office 365 tables.
+    1. Select **Create**. This linked service will automatically be used for all of the Office 365 tables.
+
+        :::image type="content" source="../images/office365-linked-service.png" alt-text="alt text":::
 
 3. Depending on your compute engine, create either a Databricks linked service or a new Synapse Spark pool.
 
-     1. ***If using Databricks***, create a Databricks linked service connected to your Databricks instance:
+     1. ***If using Databricks***, create a Databricks linked service connected to your existing Databricks instance:
 
-        1. Select **Databricks** under compute and create a new linked service.
+        1. Select **Databricks** under **Compute** and create a new linked service.
 
         1. In the resulting blade, make sure the appropriate Databricks workspace and cluster is selected. Generate the Access Token from the Azure Databricks workplace. (You can find the steps to do that [here](https://docs.databricks.com/dev-tools/api/latest/authentication.html#generate-token).)
 
-    2. ***If using Synapse with Synapse Spark pool***, create a new pool in **Synapse > Manage > Analytics Pools > Apache Spark Pool**.
+     2. ***If using Synapse with Synapse Spark pool***, create a new pool in **Synapse > Manage > Analytics Pools > Apache Spark Pool**.
 
 ### Create a new pipeline
 
@@ -124,7 +132,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
 2. Create the following parameters for the pipeline:
 
-    * `OfficeDataFileSystem` - The file system in the ADLSg2 account to place the Office 365 data in JSON lines (`json` for this walkthrough)
+    * `OfficeDataFileSystem` - The file system in the ADLSg2 account to place the Office 365 data in JSON lines (for this walkthrough, we use `json`)
 
     * `DateStartTime` - The start time for the Office 365 data you want to process. The format is *2019-10-22T00:00:00Z*.
 
@@ -140,42 +148,60 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     * `CdmDataFileSystem` - The file system in the ADLSg2 account that will contain the CDM entities (`cdm` for this walkthrough)
 
-    * `CdmModelName` - Sub-directory in the `CdmDataFileSystem` for the CDM entities; defaults to `O365-data`
+    * `CdmModelName` - Sub-directory in the `CdmDataFileSystem` for the CDM entities (`O365-data` for this walkthrough)
 
-    * `MessageDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for the messages in JSON; defaults to `message`
+    * `MessageDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for the messages in JSON (`message` for this walkthrough)
 
-    * `EventDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for events in JSON; defaults to `event`
+    * `EventDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for events in JSON (`event` for this walkthrough)
 
-    * `UserDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for user data in JSON; defaults to `user`
+    * `UserDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for user data in JSON (`user` for this walkthrough)
 
-    * `ManagerDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for manager user data in JSON; defaults to `manager`
+    * `ManagerDatasetFolder` - Sub-directory in the `OfficeDataFileSystem` for manager user data in JSON (`manager`for this walkthrough)
+
+    * `CsvDataFileSystem` - The file system in the ADLSg2 account that will contain the CSV entities (`csv` for this walkthrough)
+
+        :::image type="content" source="../images/pipeline-parameters2.png" alt-text="Screenshot of pipeline Parameters window":::
 
 ### Create Copy Data activities and a new Sink dataset
 
 Follow the steps here to create four *Copy Data* activities to load the following four Office 365 tables. For each table, include the respective **Source** parameters from the list below.
-1.	**Event Table** (latest version at the moment: BasicDataSet_v0.Event_v1)
+
+>[Note!] The versions provided for each table are current as of time of writing.
+
+1. **Event Table** (BasicDataSet_v0.Event_v1)
 
     * **Date filter**: input pipeline `DateStartTime` and `DateEndTime` parameters via **Add Dynamic Content**.
 
-2. **Message Table** (latest version at the moment: BasicDataSet_v0.Message_v1)
+       :::image type="content" source="../images/event-tbl-source2.png" alt-text="alt text":::
+
+2. **Message Table** (BasicDataSet_v0.Message_v1)
     * **Date filter**: input pipeline `DateStartTime` and `DateEndTime` parameters via **Add Dynamic Content**.
 
-3. **Manager Table** (latest version at the moment: BasicDataSet_v0.Manager_v0)
+        :::image type="content" source="../images/message-tbl-source2.png" alt-text="alt text":::
+
+3. **Manager Table** (BasicDataSet_v0.Manager_v0)
     * No **Date filter** is required.
 
-4. **User Table**  (latest version at the moment: BasicDataSet_v0.User_v1)
+4. **User Table**  (BasicDataSet_v0.User_v1)
     * No **Date filter** is required.
 
 Create a new Sink dataset to be used for all four data tables.
 
 1. Select the storage account provisioned in this walkthrough, then add `OfficeDataFileSystem`, `DatasetPath`, and `PipelineID` as the Sink dataset parameters, and add `@concat(dataset().OfficeDataFileSystem`,`'/'`,`dataset().PipelineID`,`'/',` `dataset().DatasetPath)` as the **File path** in the **Directory field**.
 
+    :::image type="content" source="../images/sink-connection-parameters.png" alt-text="screenshot of the Sink dataset Parameters window":::
+
+
+
+
+    :::image type="content" source="../images/event-tbl-sink-file-path.png" alt-text="Screenshot of the Sink dataset Connection window":::
+
 2. In the *Copy Data* activities, set the **Sink** parameters as follows:
 
     1. `OfficeDataFileSystem`: `@pipeline().parameters.OfficeDataFileSystem`
 
     2. `DatasetPath`, unique to each activity:
-    
+
         * **Event Table**: `@pipeline().parameters.EventDatasetFolder`
 
         * **Message Table**: `@pipeline().parameters.MessageDatasetFolder`
@@ -186,7 +212,7 @@ Create a new Sink dataset to be used for all four data tables.
 
     3. `PipelineID`: `@pipeline().RunId`
 
-          :::image type="content" source="../images/event-tbl-sink1.png" alt-text="alt text":::
+          :::image type="content" source="../images/event-tbl-sink3.png" alt-text="alt text":::
 
 ### Add a notebook to the pipeline
 
@@ -196,14 +222,46 @@ Based on your orchestration tool and preferred processing platform, add a Synaps
 
 2. Select the Spark pool or the Databricks linked service.
 
-3. Set the **Base parameters** as shown in the following image:
+3. Set the **Base parameters** as follows:
+
+    * **`OfficeDataFileSystem`** - `@pipeline().parameters.OfficeDataFileSystem`
+
+    * **`StorageAccountName`** - `@pipeline().parameters.StorageAccountName`
+
+    * **`AppId`** - `@pipeline().parameters.AppId`
+
+    * **`AppKey`** - `@pipeline().parameters.AppKey`
+
+    * **`TenantId`** - `@pipeline().parameters.TenantId`
+
+    * **`CdmDataFileSystem`** - `@@pipeline().parameters.CdmDataFileSystem`
+
+    * **`CdmModelName`** - `@pipeline().parameters.CdmModelName`
+
+    * **`PipelineId`**  - `@pipeline().parameters.PipelineId`
+
+    * **`EventDatasetFolder`**  - `@pipeline().parameters.EventDatasetFolder`
+
+    * **`ManagerDatasetFolder`**  - `@pipeline().parameters.ManagerDatasetFolder`
+
+    * **`MessageDatasetFolder`**  - `@pipeline().parameters.MessageDatasetFolder`
+
+    * **`UserDatasetFolder`** - `@pipeline().parameters.UserDatasetFolder`
+
+    * **`CsvDataFileSystem`** - `@pipeline().parameters.CsvDataFileSystem`
+
+    :::image type="complex" source="../images/notebook-parameters.png" alt-text="Screenshot of Base parameters window":::
+    Screenshot of the Base parameters window. The screenshot shows a table with three content columns--Name, Type, and Value--with 13 rows. The value in each Name row corresponds to the parameter names provided in step 3 of this section. The value for every Type row is the word, String. The value for each Value row corresponds to the value provided for each parameter in step 3 of this section.
+    :::image-end:::
 
 At this point, the pipeline should resemble the following image:
+
+:::image type="content" source="../images/pipeline.png" alt-text="Screenshot of pipeline window showing Copy Data activities flowing into the JsonToCDM-CSV notebook":::
 
 ## Publish the pipeline and add triggers
 
 1. Publish the pipeline.
 
-2. For the first trigger, follow steps [here](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=5) to monitor and approve data consent requests at in the Microsoft 365 Admin Center or via PowerShell.
+2. After the first trigger, follow steps [here](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=5) to monitor and approve data consent requests at in the Microsoft 365 Admin Center or via PowerShell.
 
 > [Note!]: Each approved data consent request is valid for six months unless there is a change in the pipeline (for example, a *Copy Data* activity name change or a  pipeline name change)
