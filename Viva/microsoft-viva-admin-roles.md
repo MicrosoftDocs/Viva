@@ -43,26 +43,26 @@ Learn more about planning and administration for Topics in: [Plan for Microsoft 
 
 Depending on the task, Viva Connections administration and permissions are managed through SharePoint Online and Microsoft Teams admin centers. The following are the basic requirements and minimum permission level:
 
-- **Set a home site**: SharePoint admin
-- **Enable global navigation and create a Dashboard**: SharePoint site admin
-- **Create and select setting for the customized app**: Teams admin
+- **Set a home site**:  [SharePoint admin](/sharepoint/sharepoint-admin-role)
+- **Enable global navigation and create a Dashboard**: [SharePoint site admin](/sharepoint/manage-site-collection-administrators)
+- **Create and select setting for the customized app**: [Teams admin](/microsoftteams/using-admin-roles)
 
 To learn about setup and administration for Connections, see [Guide to setting up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections), in which required permissions are noted for each step. To learn about SharePoint Online roles and tasks see [Introduction to roles, tasks, and timelines in SharePoint Online](/sharepoint/intranet-roles-tasks). To learn about Teams administration, see [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal).
 
 ### Viva Learning
 Viva Learning is by default available in Microsoft Teams with some content already available. To set up learning content sources in Viva Learning and manage individual licensing, you'll need these permissions:
 
-- Microsoft Teams admin
-- Microsoft 365 global admin or SharePoint admin
-- Knowledge admin
+- [Microsoft Teams admin](/microsoftteams/using-admin-roles)
+- [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role)
+- [Knowledge admin]([Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 
 The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator)  and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
 
 ### Viva Insights
-The Insights administrator role must be assigned by a Microsoft 365 admin as described in [Assign user roles](/viva/insights/setup/assign-user-roles). The admin is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.
+ The [Insights admin](/azure/active-directory/roles/permissions-reference#insights-administrator) is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.
 
-The administrator has access to data sources, the ability to upload pages within data sources, and has access to analyst settings. The Insights Administrator and the legacy Workplace Analytics admin are interchangeable roles. The admin is responsible for configuring the privacy settings and system defaults and for preparing, uploading, and verifying the organizational data for Viva Insights.
+The admin has access to data sources, the ability to upload pages within data sources, and has access to analyst settings. While the admin has access to organizational data, they do not have access to Microsoft 365 data. 
 
-Insights Administrators are not Microsoft 365 admins. Unless they are also assigned the role of Microsoft 365 admin, they only have access to organizational data, not to Microsoft 365 data.
+The Insights admin role  must be assigned by a Microsoft 365 admin as described in [Assign user roles](/viva/insights/setup/assign-user-roles). The Insights admin and the legacy Workplace Analytics admin are interchangeable roles. 
 
 For more information on all the roles in Viva Insights see [Roles in Viva Insights](/viva/insights/use/user-roles).
