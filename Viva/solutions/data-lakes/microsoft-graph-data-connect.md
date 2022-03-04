@@ -49,7 +49,7 @@ To complete the conversion, you’ll need to create or provision a few resources
 
 * **ADLSg2 account**: This account stores the JSON lines outputted from Microsoft Graph Data Connect. This storage account can be any new or existing account, or if you're using Synapse pipelines, the default storage linked to Synapse.
 
-    Follow the steps in [Set up your Azure Storage resource](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=3) to set up proper permissions for your storage account.
+    Follow the steps in [Set up your Azure Storage resource](/graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=3) to set up proper permissions for your storage account.
 
   * File systems:
 
@@ -172,12 +172,12 @@ Follow the steps here to create four *Copy Data* activities to load the followin
 
     * **Date filter**: input pipeline `DateStartTime` and `DateEndTime` parameters via **Add Dynamic Content**.
 
-       :::image type="content" source="../images/event-tbl-source2.png" alt-text="alt text":::
+       :::image type="content" source="../images/event-tbl-source2.png" alt-text="screenshot of the Event Table Source parameter window with Source tab and Start time (UTC) and End time (UTC) fields highlighted.":::
 
 2. **Message Table** (BasicDataSet_v0.Message_v1)
     * **Date filter**: input pipeline `DateStartTime` and `DateEndTime` parameters via **Add Dynamic Content**.
 
-        :::image type="content" source="../images/message-tbl-source2.png" alt-text="alt text":::
+        :::image type="content" source="../images/message-tbl-source2.png" alt-text="screenshot of the Message Table Source parameter window with Source tab and Start time (UTC) and End time (UTC) fields highlighted.":::
 
 3. **Manager Table** (BasicDataSet_v0.Manager_v0)
     * No **Date filter** is required.
