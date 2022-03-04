@@ -51,7 +51,7 @@ To complete the conversion, you’ll need to create or provision a few resources
 
     Follow the steps in [Set up your Azure Storage resource](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=3) to set up proper permissions for your storage account.
 
-  * **File systems**:
+  * File systems:
 
     * A file system to store the Office 365 data outputted by Microsoft Graph Data Connect in JSON format (called *json* in this walkthrough and is the default value in the script and pipeline parameters)
 
@@ -79,7 +79,7 @@ To complete the conversion, you’ll need to create or provision a few resources
 
     1. Under **Install library**, select **Maven** as the source, then select **Search Packages**.
 
-        :::image type="content" source="../images/databricks-library1.png" alt-text="Screenshot of the 'Install library' window with Maven selected and 'Search packages' outlined for emphasis.":::
+        :::image type="content" source="../images/databricks-library1.png" alt-text="Screenshot of the 'Install library' window with Maven selected and 'Search packages' highlighted.":::
 
     2. Search for and select `spark-cdm-connector`.
 
@@ -101,7 +101,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     1. In the resulting blade, make sure you‘ve set the **Authentication method** to **Service Principal** and **Account selection method** to **From Azure subscription**.
 
-    1. Select the Azure subscription and account created earlier, then input the **application ID** and **application key** noted in [Provision required resources](#provision-required-resources) that has access to the account.
+    1. Select the Azure subscription and account created earlier, then input the **application ID** and **application key** noted in [Provision required resources](#provision-required-resources) that has access to the account..
 
     1. Select **Create**.
 
@@ -187,14 +187,11 @@ Follow the steps here to create four *Copy Data* activities to load the followin
 
 Create a new Sink dataset to be used for all four data tables.
 
-1. Select the storage account provisioned in this walkthrough, then add `OfficeDataFileSystem`, `DatasetPath`, and `PipelineID` as the Sink dataset parameters, and add `@concat(dataset().OfficeDataFileSystem`,`'/'`,`dataset().PipelineID`,`'/',` `dataset().DatasetPath)` as the **File path** in the **Directory field**.
+1. Select the storage account provisioned in this walkthrough, then add `OfficeDataFileSystem`, `DatasetPath`, and `PipelineID` as the Sink dataset parameters, and add `@concat(dataset().OfficeDataFileSystem,'/',dataset().PipelineID,'/',dataset().DatasetPath) ` as the **File path** in the **Directory field**.
 
-    :::image type="content" source="../images/sink-connection-parameters.png" alt-text="screenshot of the Sink dataset Parameters window":::
-
-
-
-
-    :::image type="content" source="../images/event-tbl-sink-file-path.png" alt-text="Screenshot of the Sink dataset Connection window":::
+    :::image type="complex" source="../images/event-tbl-sink-file-path.png" alt-text="Screenshot of the Sink dataset Connection window":::
+Screenshot of the Sink dataset Connections window. Screenshot shows a window with three sections--Linked service, Integration runtime, and File path. Each section contains a required field, which is filled in as follows. Linked service: dropdown menu; mgdcvivadatalakeLinkedService is selected.Integrationruntime: field is grayed out with a green checkmark and reads AutoResolveIntegrationRuntime. File path has three free-text fields; the first and last have placeholder values of File system and File and the middle contains the filepath described in step 1.
+:::image-end:::
 
 2. In the *Copy Data* activities, set the **Sink** parameters as follows:
 
@@ -250,13 +247,13 @@ Based on your orchestration tool and preferred processing platform, add a Synaps
 
     * **`CsvDataFileSystem`** - `@pipeline().parameters.CsvDataFileSystem`
 
-    :::image type="complex" source="../images/notebook-parameters.png" alt-text="Screenshot of Base parameters window":::
-    Screenshot of the Base parameters window. The screenshot shows a table with three content columns--Name, Type, and Value--with 13 rows. The value in each Name row corresponds to the parameter names provided in step 3 of this section. The value for every Type row is the word, String. The value for each Value row corresponds to the value provided for each parameter in step 3 of this section.
-    :::image-end:::
+:::image type="complex" source="../images/sink-connection-parameters.png" alt-text="screenshot of the Sink dataset Parameters window":::
+   Screenshot that shows the Sink dataset Parameters window. Screenshot shows a table with three columns--Name, Type, and Default value--and three rows. The values in the Name column are OfficeDataFileSystem, DatasetPath, and PipelineID. Each value in the Type column is the word, String. Each value in the Default value column is the word, Value.
+:::image-end:::
 
 At this point, the pipeline should resemble the following image:
 
-:::image type="content" source="../images/pipeline.png" alt-text="Screenshot of pipeline window showing Copy Data activities flowing into the JsonToCDM-CSV notebook":::
+:::image type="content" source="../images/pipeline.png" alt-text="Screenshot of diagram in pipeline window showing Copy Data activities flowing into the JsonToCDM-CSV notebook":::
 
 ## Publish the pipeline and add triggers
 
