@@ -30,8 +30,9 @@ You must be a [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-
 - Select which licensed users who can view topics (topic viewers).
 - Select which topics will be excluded from being identified.
 - Select which licensed users who can create and edit topics (topic contributors).
-- Select which licensed users who can manage topics (knowledge managers).
+- Select which licensed users who can manage topics.
 - Name the topic center.
+
 Admins need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the admin needs to be informed so that they can make sure that the SharePoint site is not crawled for topics, or specific topic names need to be excluded.
 
 
@@ -54,7 +55,7 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 
 - [Microsoft Teams admin](/microsoftteams/using-admin-roles)
 - [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role)
-- [Knowledge admin]([Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
+- [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 
 The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator)  and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
 
