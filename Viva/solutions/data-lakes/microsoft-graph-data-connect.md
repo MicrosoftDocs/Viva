@@ -17,7 +17,7 @@ audience: Admin
 
 # Microsoft Graph Data Connect Data Lake Solution
 
-Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](https://docs.microsoft.com/en-us/common-data-model/) to learn more about the CDM.
+Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](common-data-model-and-service/common-data-model/) to learn more about the CDM.
 
 In this walkthrough you’ll:
 
@@ -41,7 +41,7 @@ Need to enable and configure Microsoft Graph Data Connect in your environment al
 
 To complete the conversion, you’ll need to create or provision a few resources in your Azure environment:
 
-* **App registration**: The app registration enables Microsoft Graph Data Connect to extract your Office 365 data into your Azure storage. Follow the steps in [Set up your Azure Active Directory app registration](graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=2) of our training module to provision the resource.
+* **App registration**: The app registration enables Microsoft Graph Data Connect to extract your Office 365 data into your Azure storage. Follow the steps in [Set up your Azure Active Directory app registration](/graph/data-connect-quickstart?tabs=Microsoft365&tutorial-step=2) of our training module to provision the resource.
 
   * Note down the **application ID**, **tenant ID**, and **application key**; they’ll be used [later](#create-linked-services-within-the-orchestration-tool) in the walkthrough.
 
@@ -91,7 +91,7 @@ Follow these steps to create a pipeline to export your Office 365 data into a st
 
 ### Create linked services within the orchestration tool
 
-You'll need to create a few linked service entities within the orchestration tool (Azure Data Factory or Synapse) using the Azure resources provisioned [earlier](#provision-required-resources).
+You'll need to create a few linked service entities within the orchestration tool (Azure Data Factory or Synapse) using the Azure resources provisioned [earlier](#provision-and-configure-required-resources).
 
 In **ADF/Synapse > Manage > Linked Services**:
 
@@ -101,7 +101,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     1. In the resulting blade, make sure you‘ve set the **Authentication method** to **Service Principal** and **Account selection method** to **From Azure subscription**.
 
-    1. Select the Azure subscription and account created earlier, then input the **application ID** and **application key** noted in [Provision required resources](#provision-required-resources) that has access to the account..
+    1. Select the Azure subscription and account created earlier, then input the **application ID** and **application key** noted in [Provision and configure required resources](#provision-and-configure-required-resources) that has access to the account.
 
     1. Select **Create**.
 
@@ -111,10 +111,10 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     1. Select **Office 365** and create a new linked service.
 
-    1. In the resulting blade, provide the **application ID** and **application key** noted in [Provision required resources](#provision-required-resources).
+    1. In the resulting blade, provide the **application ID** and **application key** noted in [Provision and configure required resources](#provision-and-configure-required-resources).
     1. Select **Create**. This linked service will automatically be used for all of the Office 365 tables.
 
-        :::image type="content" source="../images/office365-linked-service.png" alt-text="alt text":::
+        :::image type="content" source="../images/office365-linked-service.png" alt-text="screenshot of New linked service blade":::
 
 3. Depending on your compute engine, create either a Databricks linked service or a new Synapse Spark pool.
 
@@ -189,9 +189,7 @@ Create a new Sink dataset to be used for all four data tables.
 
 1. Select the storage account provisioned in this walkthrough, then add `OfficeDataFileSystem`, `DatasetPath`, and `PipelineID` as the Sink dataset parameters, and add `@concat(dataset().OfficeDataFileSystem,'/',dataset().PipelineID,'/',dataset().DatasetPath) ` as the **File path** in the **Directory field**.
 
-    :::image type="complex" source="../images/event-tbl-sink-file-path.png" alt-text="Screenshot of the Sink dataset Connection window":::
-Screenshot of the Sink dataset Connections window. Screenshot shows a window with three sections--Linked service, Integration runtime, and File path. Each section contains a required field, which is filled in as follows. Linked service: dropdown menu; mgdcvivadatalakeLinkedService is selected.Integrationruntime: field is grayed out with a green checkmark and reads AutoResolveIntegrationRuntime. File path has three free-text fields; the first and last have placeholder values of File system and File and the middle contains the filepath described in step 1.
-:::image-end:::
+    :::image type="content" source="../images/event-tbl-sink-file-path.png" alt-text="Screenshot of the Sink dataset Connection window":::
 
 2. In the *Copy Data* activities, set the **Sink** parameters as follows:
 
@@ -215,7 +213,7 @@ Screenshot of the Sink dataset Connections window. Screenshot shows a window wit
 
 Based on your orchestration tool and preferred processing platform, add a Synapse notebook or Databricks notebook to the pipeline. In the settings:
 
-1. Link to the notebook downloaded and imported to the tool [earlier](#provision-required-resources) in this walkthrough.
+1. Link to the notebook downloaded and imported to the tool [earlier](#provision-and-configure-required-resources) in this walkthrough.
 
 2. Select the Spark pool or the Databricks linked service.
 
@@ -247,7 +245,7 @@ Based on your orchestration tool and preferred processing platform, add a Synaps
 
     * **`CsvDataFileSystem`** - `@pipeline().parameters.CsvDataFileSystem`
 
-:::image type="complex" source="../images/sink-connection-parameters.png" alt-text="screenshot of the Sink dataset Parameters window":::
+    :::image type="complex" source="../images/notebook-parameters.png" alt-text="screenshot of the Sink dataset Parameters window":::
    Screenshot that shows the Sink dataset Parameters window. Screenshot shows a table with three columns--Name, Type, and Default value--and three rows. The values in the Name column are OfficeDataFileSystem, DatasetPath, and PipelineID. Each value in the Type column is the word, String. Each value in the Default value column is the word, Value.
 :::image-end:::
 
