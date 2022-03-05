@@ -31,8 +31,8 @@ The following is a list of helpful resources that can help get you and your team
 
 ### Collaboration Overload
 
-* [Overview: Collaborative Overload](https://hbr.org/2016/01/collaborative-overload#)
-* [Overview: The Collaboration Curse](https://www.economist.com/news/business/21688872-fashion-making-employees-collaborate-has-gone-too-far-collaboration-curse#)
+* [Collaboration without burnout](https://workplaceinsights.microsoft.com/collaboration/collaboration-without-burning-out/)
+* [Collaborative Overload is a symptom of a deeper organizational problem](https://workplaceinsights.microsoft.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/)
 * [Overview: How Successful People Manage Collaborative Overload](https://www.linkedin.com/pulse/how-successful-people-manage-collaborative-overload-rob-cross/#)
 
 ### Focus hours
@@ -40,10 +40,9 @@ The following is a list of helpful resources that can help get you and your team
 * [“Deep Work”: Hidden Brain Podcast: Deep Work, Cal Newport](http://www.npr.org/2017/07/25/539092670/you-2-0-the-value-of-deep-work-in-an-age-of-distraction#)
 * [Multitasking: Productivity in Peril: Higher and Higher Rates of Technology Multitasking](http://behavioralscientist.org/productivity-peril-higher-higher-rates-technology-multitasking/#)
 * [Multitasking: Why You Shouldn't Multitask](http://fortune.com/2016/12/07/why-you-shouldnt-multitask/#)
-* [Multitasking: If You Multitask During Meetings Your Team Will Too](https://hbr.org/2018/01/if-you-multitask-during-meetings-your-team-will-too#)
-* [Multitasking: How Can I Use More of My Brain?](http://time.com/4817946/brain-games-distraction-attention/#)
-* [Multi-teaming: How to Stay Focused if You're Assigned to Multiple Projects](https://hbr.org/2017/11/how-to-stay-focused-if-youre-assigned-to-multiple-projects-at-once?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert&referral=00563&spMailingID=18433252&spUserID=Mzc3NDk4MDM5NjkwS0&spJobID=1140540686&spReportId=MTE0MDU0MDY4NgS2#)
-* [Interruptions: Brain, Interrupted](http://www.nytimes.com/2013/05/05/opinion/sunday/a-focus-on-distraction.html#)
+* [Multitasking: If You Multitask During Meetings Your Team Will Too](https://workplaceinsights.microsoft.com/productivity/multitask-meetings-team-will/)
+* [Multitasking: How Can I Use More of My Brain?](https://workplaceinsights.microsoft.com/productivity/multitask-meetings-team-will/)
+* [How to establish a meeting-free day each week](https://workplaceinsights.microsoft.com/time-management/how-to-establish-a-meeting-free-day-each-week/)
 * [Interruptions: Worker Interrupted: The Cost of Task Switching](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching#)
 * [Interruptions: To Control Your Life, Control What You Pay Attention To](https://hbr.org/2018/03/to-control-your-life-control-what-you-pay-attention-to?utm_medium=email&utm_source=newsletter_weekly&utm_campaign=weeklyhotlist&referral=00202&deliveryName=DM3015#)
 * [Interruptions: Workplace Distractions: Here is Why You Won't Finish This Article](https://www.wsj.com/articles/SB10001424127887324339204578173252223022388?mg=prod/accounts-wsj#)
@@ -53,6 +52,7 @@ The following is a list of helpful resources that can help get you and your team
 
 ### Meetings
 
+* [New research fuels the race to make work better](https://workplaceinsights.microsoft.com/workplace-analytics/new-research-fuels-the-race-to-make-work-better/)
 * [Meeting design: Master the Team Meeting](https://hbswk.hbs.edu/item/mastering-the-team-meeting?cid=spmailing-19102256-WK%20Newsletter%2002-28-2018%20(1)-February%2028,%202018#)
 * [Meeting design: Plan A Better Meeting with Design Thinking](https://hbr.org/2018/02/plan-a-better-meeting-with-design-thinking?utm_campaign=hbr&utm_source=linkedin&utm_medium=social#)
 * [Meeting design: The 7 Imperatives to Keeping Meetings on Track](https://hbr.org/2013/12/the-seven-imperatives-to-keeping-meetings-on-track#)
