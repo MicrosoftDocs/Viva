@@ -24,7 +24,7 @@ To access Viva Topics insights
 
 The **Topics overview** section provides a look at topic visibility in your organization.
 
-The changes from the last time period appear next to each metric. If the time period selected is larger than when data was first available, the delta is collected from a starting point of 0.
+The information in this section is based on the time period that you select. The changes from the last time period appear next to each metric. If the time period selected is larger than when data was first available, the delta is collected from a starting point of 0.
 
 ![Screenshot of analytics for topics visible.](../media/topics-analytics-topics-visible.png) 
 
