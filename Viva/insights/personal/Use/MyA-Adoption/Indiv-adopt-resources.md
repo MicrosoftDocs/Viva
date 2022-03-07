@@ -23,14 +23,13 @@ The following is a list of helpful resources that can help get you and your team
 
 * _Deep Work_, by Cal Newport
 * _How to Have A Good Day_, by Caroline Webb
-* _One Second Ahead_, by Rasmus Houggard
 * _Switch_, by Dan and Chip Heath
 * _The Power of Habit_, by Charles Duhigg
 * _Time Talent and Energy_, by Michael Mankins and Eric Garton
 
 ## Articles about collaboration, focus, meetings, email, and work-life balance
 
-### Collaboration overload
+### Collaboration
 
 * [Collaboration without burnout](https://workplaceinsights.microsoft.com/collaboration/collaboration-without-burning-out/)
 * [Collaborative Overload is a symptom of a deeper organizational problem](https://workplaceinsights.microsoft.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/)
@@ -62,7 +61,7 @@ The following is a list of helpful resources that can help get you and your team
 * [Reduce meetings: Stop the Meeting Madness](https://workplaceinsights.microsoft.com/collaboration/out-of-control-meetings-waste-time-undermine-work/)
 * [Reduce meetings: Polite Ways to Decline a Meeting Invitation](https://hbr.org/2016/05/polite-ways-to-decline-a-meeting-invitation#)
 * [The 18-minute rule: The Science Behind Ted's 18 Minute Rule](https://www.linkedin.com/pulse/20140313205730-5711504-the-science-behind-ted-s-18-minute-rule/#)
-* [Avoid FOMO: how declining certain work meetings may increase productivity](https://workplaceinsights.microsoft.com/productivity/is-after-hours-work-destroying-your-productivity-and-health-8/)
+* [How declining certain work meetings may increase productivity](https://workplaceinsights.microsoft.com/productivity/is-after-hours-work-destroying-your-productivity-and-health-8/)
 
 ### Email
 
