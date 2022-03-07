@@ -1,6 +1,6 @@
 ---
-title: MyAnalytics Individual Adoption --Additional resources
-description: MyAnaytics Individual Adoption by Kate Nowak --Additional resources section
+title: MyAnalytics Individual Adoption resources
+description: MyAnaytics Individual Adoption resources section
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -10,8 +10,9 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
+
 ---
 
 # Additional resources
@@ -29,7 +30,7 @@ The following is a list of helpful resources that can help get you and your team
 
 ## Articles about collaboration, focus, meetings, email, and work-life balance
 
-### Collaboration Overload
+### Collaboration overload
 
 * [Collaboration without burnout](https://workplaceinsights.microsoft.com/collaboration/collaboration-without-burning-out/)
 * [Collaborative Overload is a symptom of a deeper organizational problem](https://workplaceinsights.microsoft.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/)
