@@ -8,10 +8,14 @@ ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150
-ms.prod: Mya
-ms.collection: M365-analytics
-manager: scott.ruble
-audience: admin
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+manager: helayne
+audience: Admin
+
 ---
 
 # Admin guide for personal insights
@@ -42,4 +46,4 @@ Access to these elements depends on the plan in place at your organization; for 
 
 ## Introduction to Viva Insights
 
-See [Introduction to Microsoft Viva Learning](/microsoft-365/learning) to learn about Microsoft Viva Insights.
+See [Introduction to Microsoft Viva Insights](/learn/modules/workplace-analytics-ways-working-action/) to learn about Microsoft Viva Insights.

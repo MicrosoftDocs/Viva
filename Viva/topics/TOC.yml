@@ -31,6 +31,8 @@
           href: topic-experiences-user-permissions.md
         - name: Change the topic center name
           href: topic-experiences-administration.md
+        - name: Add the Topics app to Teams
+          href: add-topics-app.md
        
     - name: Work with topics
       items:
@@ -46,10 +48,12 @@
           href: edit-a-topic.md
         - name: Save a topic as a draft
           href: save-topic-as-draft.md
-        - name: Security trimming 
-          href: topic-experiences-security-trimming.md 
+        - name: Use taxonomy terms to create a topic
+          href: sharepoint-taxonomy.md
         - name: Search for topics 
           href: search.md             
+        - name: Security trimming 
+          href: topic-experiences-security-trimming.md 
         - name: Manage topics at scale 
           href: scale-topics.md             
 

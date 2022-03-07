@@ -10,9 +10,10 @@ ms.collection:
 - viva-insights-personal
 - viva-insights-manager
 - viva-insights-leader
-ms.prod: Mya
-manager: scott.ruble
-audience: Admin
+ms.service: viva
+ms.subservice: viva-insights
+manager: helayne
+audience: user
 
 ---
 
@@ -40,8 +41,6 @@ The insights for individuals that this app presents are completely personal and 
 ## How it works
 
 The personal insights and actions in the Viva Insights app are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process.
-
-<!--   VERIFY THAT THE FOLLOWING NOTE STILL APPLIES   -->
 
 >[!Note]
 >To get access to the Viva Insights app, you must have an Exchange Online license.

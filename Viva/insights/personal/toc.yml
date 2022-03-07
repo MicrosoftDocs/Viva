@@ -102,8 +102,6 @@ items:
               href: use/network.md
             - name: Collaboration
               href: use/collaboration.md
-            - name: Leadership
-              href: use/leadership.md
         - name: Personal insights FAQ
           href: overview/mya-faq.md
         - name: Admin guide
@@ -118,6 +116,8 @@ items:
               href: overview/plans-environments.md
             - name: Privacy guide for admins
               href: overview/privacy-guide-admins.md
+            - name: Activity report
+              href: overview/activity-report.md
         - name: Adoption
           items:
             - name: Introduction 
