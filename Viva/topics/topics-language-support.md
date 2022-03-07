@@ -59,6 +59,6 @@ Spanish (coming soon)
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
 English|German (coming soon)|French (coming soon)
-Spanish (coming soon)|
+Spanish (coming soon) |
 | |
 
