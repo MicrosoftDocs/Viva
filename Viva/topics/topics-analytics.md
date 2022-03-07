@@ -12,12 +12,12 @@ ms.localizationpriority: medium
 description: Learn about analytics for Microsoft Viva Topics.
 ---
 
-# Security and privacy in Microsoft Viva Topics
+# Analytics for Microsoft Viva Topics
 
 Insights are available for Viva Topics in the Microsoft 365 admin center. You need to be a SharePoint admin and a Groups admin to see these reports.
 
 To access Viva Topics insights
-1. In the Microsoft 365 amdin center, expand **Settings** and select **Search & intelligence**.
+1. In the Microsoft 365 admin center, expand **Settings** and select **Search & intelligence**.
 1. On the **Insights** tab, select **Viva Topics**.
 
 ## Topics overview
@@ -32,7 +32,7 @@ The changes from the last time period appear next to each metric. If the time pe
 |:------|:----|
 |Topics visible|The number of topics that are visible to topic viewers in Microsoft 365 locations such as search and SharePoint |
 |Discovered by Viva Topics|The number of topics that have been [discovered by Topics](/topics/topic-experiences-discovery-curation) or have AI-discovered properties.|
-|Created by users|The number of topics that have been [manually created](/viva/topics/create-a-topic)|
+|Created by users|The number of topics that have been [manually created](/viva/topics/create-a-topic) and do not have any AI-discovered properties.|
 |Hidden by settings|If you have [configured Topics to not show suggested topics to topic viewers](/topics/topic-experiences-discovery#prevent-topic-viewers-from-seeing-suggested-topics), the number of hidden topics will be reflected here|
 |Removed|The number of topics that have been [removed by user feedback and knowledge managers](/viva/topics/manage-topics)|
 
@@ -42,7 +42,7 @@ The **File processing for topic discovery** section shows the number of files th
 
 |Measure|Value|
 |:------|:----|
-|Unique files processed|The number of files that have been processed for topic discovery|
+|Unique files processed|The number of files that have been processed for topic discovery. This is a cumulative total since Topics was set up. This number does not decrease if topics are deleted or excluded.|
 
 ![Screenshot of analytics for unique files processed.](../media/topics-analytics-unique-files.png) 
 
