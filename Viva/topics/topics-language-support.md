@@ -51,7 +51,7 @@ Viva Topics is available to customers worldwide. Available and planned language 
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
-English|German (coming soon)|French (coming soon)
-Spanish (coming soon) |
+English|Spanish (coming soon)|French (coming soon)
+German (coming soon) |
 | |
 
