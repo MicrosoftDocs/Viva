@@ -11,8 +11,8 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 ---
 
 # Implement
@@ -94,7 +94,7 @@ At the end of the program, repeat the same process as a part of your post-progra
 
 ## Learning modules
 
-A Learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral science lessons. 
+A Learning module is a collection of materials focused on a collaboration topic to help the team develop new habits and to better understand how to use MyAnalytics. Learning modules include healthy behavior suggestions, Habit playbooks, tips on how to interpret MyAnalytics data and use product features, links to articles to learn more about specific topics, and fun behavioral science lessons.
 
 What follows are modules about: focus hours, meetings, and email data. You can also find lessons in these modules on how to maintain important relationships in your network.
 
@@ -112,9 +112,9 @@ Below is a habit-building method based on behavioral science that can be used to
 
 [Collaboration without burnout](https://insights.office.com/collaboration/collaboration-without-burning-out/) shares why it's important to avoid collaboration overload.
 
-For additional tailored behavior change tips, take the: [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
+For additional tailored behavior change tips, take the [Collaborative Overload Personal Assessment](https://www.networkassessments.org/).
 
-To learn more about _The Power of Habit_, see: [The Power of Habit Resources](http://charlesduhigg.com/resources/).
+To learn more about _The Power of Habit_, see [The Power of Habit Resources](http://charlesduhigg.com/resources/).
 
 ## Habit playbooks
 
@@ -159,4 +159,4 @@ When you or a change agent identify a program participant who is resisting chang
 * **Forget efficiency:** Motivating change requires unhurried, face-to-face, one-on-one conversations.
 * **Focus on listening:** Make everyone feel understood. Listen more than you speak and try to repeat back what you have heard as much as possible to reveal the root of resistance and develop a solution.
 * **Be open to change yourself:** Have an open attitude and be ready to learn something new and, if necessary, modify the program plan.
-* **Have multiple conversations:** In the first conversation, listen and diagnose the roots of the resistance. In the second conversation, your goal is to make clear that you have reflected on what you heard; to outline what will or will not be different in your approach to the change based on that conversation; and to explain why. Even if you do not change your overall plan, anyone who truly listens to opposition will have their thinking changed in some way. ([Overcome Resistance to Change with Two Conversations](https://hbr.org/2017/05/overcome-resistance-to-change-with-two-conversations).)
+* **Have multiple conversations:** In the first conversation, listen and diagnose the roots of the resistance. In the second conversation, your goal is to make clear that you have reflected on what you heard; to outline what will or will not be different in your approach to the change based on that conversation; and to explain why. Even if you do not change your overall plan, anyone who truly listens to opposition will have their thinking changed in some way.
