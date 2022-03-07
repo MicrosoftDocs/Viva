@@ -54,7 +54,7 @@ To generate private and public PGP key pairs, you can work with your IT admin or
         - defaultJob.email=
     
     - Partner1
-        - The maximum length of PartnerID is 10 characters. For Microsoft Viva Learning enter the value **VL**.
+        - The maximum length of PartnerID is 10 characters. For Microsoft Viva Learning enter the value **MVL**.
             - partners1.partnerID=
     
     - EncryptionKey is the PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK. Make sure to remove any line breaks in the key when you enter this value.
