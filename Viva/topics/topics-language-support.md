@@ -43,7 +43,7 @@ Swedish|Hebrew|Azerbaijani (Latin)
 Turkish|Bulgarian|Dari
 Czech|Croatian|Welsh
 Portuguese (Portugal)|Slovenian |
-| |
+
 
 ## Languages available for processing topics
 
@@ -53,5 +53,5 @@ Viva Topics is available to customers worldwide. Available and planned language 
 |---|---|---|
 English|Spanish (coming soon)|French (coming soon)
 German (coming soon) |
-| |
+
 
