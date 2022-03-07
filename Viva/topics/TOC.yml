@@ -9,6 +9,8 @@
           href: topic-experiences-discovery-curation.md           
         - name: Microsoft Viva Topics roles 
           href: topic-experiences-roles.md 
+          name: Supported languages
+          href: topics-language-support.md 
         - name: Get your environment ready 
           href: topic-experiences-get-ready.md           
 
@@ -21,8 +23,6 @@
           href: plan-topic-experiences.md
         - name: Set up Topics
           href: set-up-topic-experiences.md
-        - name: Language support
-          href: topics-language-support.md 
         - name: Manage topic discovery
           href: topic-experiences-discovery.md
         - name: Manage topic visibility
