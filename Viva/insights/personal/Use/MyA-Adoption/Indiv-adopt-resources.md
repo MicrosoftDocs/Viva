@@ -45,7 +45,7 @@ The following is a list of helpful resources that can help get you and your team
 * [Multitasking: Why You Shouldn't Multitask](http://fortune.com/2016/12/07/why-you-shouldnt-multitask/#)
 * [Multitasking: How Can I Use More of My Brain?](https://workplaceinsights.microsoft.com/productivity/multitask-meetings-team-will/)
 * [How to establish a meeting-free day each week](https://workplaceinsights.microsoft.com/time-management/how-to-establish-a-meeting-free-day-each-week/)
-* [Interruptions: Worker Interrupted: The Cost of Task Switching](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching#)
+* [Worker Interrupted: The Cost of Task Switching](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching#)
 * [Interruptions: Productivity isn’t about time management, it’s about attention management](https://workplaceinsights.microsoft.com/time-management/productivity-isnt-about-time-management-its-about-attention-management/)
 * [Interruptions: Workplace Distractions: Here is Why You Won't Finish This Article](https://www.wsj.com/articles/SB10001424127887324339204578173252223022388?mg=prod/accounts-wsj#)
 * [Interruptions: What email, IM, and the phone are each good for](https://workplaceinsights.microsoft.com/collaboration/what-email-im-and-the-phone-are-each-good-for/)
