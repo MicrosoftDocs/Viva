@@ -7,8 +7,8 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-personal
 ms.prod: Mya
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 
 ---
 
