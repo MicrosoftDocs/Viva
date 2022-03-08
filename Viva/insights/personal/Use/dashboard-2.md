@@ -13,8 +13,8 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 ---
 
 # MyAnalytics dashboard
@@ -77,13 +77,15 @@ Educational insights give you work productivity and wellbeing tips and ideas, wh
 
 Your personalized insights are based on the working days, working hours, and time zone that you set in the **Work Week** section of **Settings**. Changes to these settings are reflected in next week's data.
 
-In **Protect Time**, you can personalize your focus plan. You can select how much focus time you want to schedule for what time of day, if you want to automatically book it or only get reminders to schedule it for the next two weeks, and more. For more details, see [Focus plan](../use/focus-plan.md).
+In **Protect Time**, you can do the following:
 
-Also in **Protect time**, you can turn the **Delay Delivery** feature **On** or **Off** for the delaying delivery of an email until when your co-workers are in their set working hours.
+* Personalize your focus plan by selecting how much focus time you want to schedule for what time of day and set Teams settings accordingly. For more details, see [Focus plan](../use/focus-plan.md).
+* Configure your quiet time to mute mobile notifications from Outlook and Teams for a set number of hours or days.
+* Turn the **Delay Delivery** feature **On** or **Off** for the option to delay delivery of an email until when your co-workers are in their set working hours.
 
-As a manager or team lead with a Microsoft Viva Insights license, you can select **Edit team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager, select **I'm not a manager** to hide this section.
+In **Daily Briefing**, you can change the settings for your Briefing email, such as to subscribe or unsubscribe and to set up when you want to receive it. For details, see [Briefing settings](../briefing/be-settings.md).
 
-In **Briefing settings**, you can change the settings for your Briefing emails, such as to subscribe or unsubscribe, to set when you want to receive it, and more. For details, see [Briefing settings](../briefing/be-settings.md)
+As a manager or team lead with a Microsoft Viva Insights license, you can select **Manage team** in **My Team** to add or remove team members and your team insights will update accordingly. If you're not a manager or team lead, select **I don't lead a team** to hide this section.
 
 ![Viva Insights Settings.](../../Images/mya/use/settings.png)
 
