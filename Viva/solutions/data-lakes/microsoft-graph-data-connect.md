@@ -164,7 +164,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     * `CsvDataFileSystem` - The file system in the ADLSg2 account that will contain the CSV entities (`csv` for this walkthrough)
 
-    :::image type="complex" source="../images/pipeline-parameters2.png"     alt-text="Screenshot of Screenshot of pipeline Parameters window":::
+    :::image type="complex" source="../images/pipeline-parameters2.png"     alt-text="screenshot of pipeline Parameters window":::
        Screenshot that shows the pipeline Parameters window, which contains a table with Name, Type, and Default value columns. Values for the Name and Default value columns correspond to the values provided in step 2. For Default value, StorageAccountName, AppID, AppKey, and TenantId have placeholder text that reads, Value. Type is String for all rows.
 :::image-end:::
 
@@ -179,14 +179,14 @@ Follow the steps here to create four *Copy Data* activities to load the followin
 
     * **Date filter**: input pipeline `DateStartTime` and `DateEndTime` parameters via **Add Dynamic Content**.
 
-        :::image type="complex" source="../images/event-tbl-source2.png"     alt-text="Screenshot of Screenshot of pipeline Parameters window":::
+        :::image type="complex" source="../images/event-tbl-source2.png"     alt-text="screenshot of Source window for Event Table":::
        Screenshot that shows the Copy data activity parameter window for Event Table. The Source tab is selected and highlighted. Office365EventTable is selected in the Source dataset section and All users in the office 365 tenant is selected in the Scope section. In the Date filter section, createdDateTime is selected under Column name, and Start time and End time fields are highlighted and each contain content beginning with @pipeline....
 :::image-end:::
 
 2. **Message Table** (BasicDataSet_v0.Message_v1)
     * **Date filter**: input pipeline `DateStartTime` and `DateEndTime` parameters via **Add Dynamic Content**.
 
-        :::image type="complex" source="../images/message-tbl-source2.png"     alt-text="screenshot of pipeline Parameters window":::
+        :::image type="complex" source="../images/message-tbl-source2.png"     alt-text="screenshot of Source window for Message Table":::
        Screenshot that shows the Copy data activity parameter window for Message Table. The Source tab is selected and highlighted. Office365MessageTble is selected in the Source dataset section, and All users in the office 365 tenant is selected in the Scope section. In the Date filter section, received DateTime is selected under Column name, and Start time and End time fields are highlighted and each contain content beginning with @pipeline....
 :::image-end:::
 
