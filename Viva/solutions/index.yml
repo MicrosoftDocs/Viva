@@ -1,0 +1,30 @@
+### YamlMime:Hub
+
+title: Microsoft Viva Accelerators # < 60 chars
+summary: Learn what Microsoft Viva Accelerators are and how to use them to create foundation applications and workflows to solve common business problems. These accelerators enable you to access, transform, and utilize your existing Microsoft data sources, such as Microsoft Viva Insights, Microsoft Viva Topics, and Microsoft Graph. The following solutions include step-by-step walkthroughs and code sample to help guide you. # < 160 chars
+brand: m365
+
+metadata:
+  title: Microsoft Viva Accelerators # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: The Microsoft Viva Accelerators help you create foundation applications and workflows to solve common business problems. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page
+  author: madehmer 
+  ms.author: helayne 
+  ms.date: 03/04/2022 #Required; mm/dd/yyyy format.
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  items:
+    - title: Introduction
+      itemType: overview # controls the icon image and super-title text
+      url: /viva/solutions/introduction
+    - title: Data lake solutions
+      itemType: how-to-guide
+      url: /viva/solutions/data-lakes/viva-insights
+    - title: Data access automation
+      itemType: get-started
+      url: /viva/solutions/automate-exports
+    - title: Multitenant solution
+      itemType: deploy
+      url: /viva/solutions/complex-organization-insights
