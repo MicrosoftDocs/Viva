@@ -5,10 +5,15 @@ description: Personal insights FAQ for Microsoft Viva Insights in Teams
 author: madehmer
 ms.author: helayne
 ms.topic: article
+ms.collection:
+- viva-insights-personal
+- viva-insights-manager
+- viva-insights-leader
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.service: viva
+ms.subservice: viva-insights
 manager: scott.ruble
-audience: Admin
+audience: Admin, user
 ---
 
 # Personal insights in Teams FAQ
