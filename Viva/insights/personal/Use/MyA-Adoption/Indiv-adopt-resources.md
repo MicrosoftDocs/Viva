@@ -34,7 +34,7 @@ The following is a list of helpful resources that can help get you and your team
 
 * [Collaboration without burnout](https://workplaceinsights.microsoft.com/collaboration/collaboration-without-burning-out/)
 * [Collaborative Overload is a symptom of a deeper organizational problem](https://workplaceinsights.microsoft.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/)
-* [Overview: How Successful People Manage Collaborative Overload](https://www.linkedin.com/pulse/how-successful-people-manage-collaborative-overload-rob-cross/#)
+* [How Successful People Manage Collaborative Overload](https://www.linkedin.com/pulse/how-successful-people-manage-collaborative-overload-rob-cross/#)
 * [Can you be too well connected?](https://workplaceinsights.microsoft.com/networks/can-you-be-too-well-connected/)
 * [The Big Idea: 6 lessons on fighting burnout from Boston’s biggest hospital](https://workplaceinsights.microsoft.com/productivity/the-big-idea-6-lessons-on-fighting-burnout-from-bostons-biggest-hospital/)
 
@@ -47,7 +47,7 @@ The following is a list of helpful resources that can help get you and your team
 * [How to establish a meeting-free day each week](https://workplaceinsights.microsoft.com/time-management/how-to-establish-a-meeting-free-day-each-week/)
 * [Worker Interrupted: The Cost of Task Switching](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching#)
 * [Interruptions: Productivity isn’t about time management, it’s about attention management](https://workplaceinsights.microsoft.com/time-management/productivity-isnt-about-time-management-its-about-attention-management/)
-* [Interruptions: Workplace Distractions: Here is Why You Won't Finish This Article](https://www.wsj.com/articles/SB10001424127887324339204578173252223022388?mg=prod/accounts-wsj#)
+* [Workplace Distractions: Here is Why You Won't Finish This Article](https://www.wsj.com/articles/SB10001424127887324339204578173252223022388?mg=prod/accounts-wsj#)
 * [Interruptions: What email, IM, and the phone are each good for](https://workplaceinsights.microsoft.com/collaboration/what-email-im-and-the-phone-are-each-good-for/)
 * [Time Blocking: Could Time Blocking Replace Your To-Do List?](https://www.fastcompany.com/3069293/could-time-blocking-replace-your-to-do-list#)
 * [Time Blocking: How to Be Healthier, Happier and More Productive: It's All in the Timing](https://www-wsj-com.cdn.ampproject.org/c/s/www.wsj.com/amp/articles/how-to-be-healthier-happier-and-more-productive-its-all-in-the-timing-1514560647#)
