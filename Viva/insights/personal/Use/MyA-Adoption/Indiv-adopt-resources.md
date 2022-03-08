@@ -60,7 +60,6 @@ The following is a list of helpful resources that can help get you and your team
 * [Meeting design: Why your meetings stink—and what to do about it](https://workplaceinsights.microsoft.com/time-management/why-your-meetings-stink-and-what-to-do-about-it/)
 * [Meeting design: Decision-Focused Meetings](http://www.bain.com/publications/articles/decision-insights-9-decision-focused-meetings.aspx#)
 * [Reduce meetings: Stop the Meeting Madness](https://workplaceinsights.microsoft.com/collaboration/out-of-control-meetings-waste-time-undermine-work/)
-* [Reduce meetings: Polite Ways to Decline a Meeting Invitation](https://hbr.org/2016/05/polite-ways-to-decline-a-meeting-invitation#)
 * [The 18-minute rule: The Science Behind Ted's 18 Minute Rule](https://www.linkedin.com/pulse/20140313205730-5711504-the-science-behind-ted-s-18-minute-rule/#)
 * [Avoid FOMO: how declining certain work meetings may increase productivity](https://workplaceinsights.microsoft.com/productivity/is-after-hours-work-destroying-your-productivity-and-health-8/)
 
