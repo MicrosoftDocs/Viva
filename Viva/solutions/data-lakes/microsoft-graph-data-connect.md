@@ -118,7 +118,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
         :::image type="complex" source="../images/office365-linked-service.png" alt-text="Screenshot of New linked service blade":::
            Screenshot that shows a New linked service blade. Office365LinkedService is entered in the field underneath the Name section. The field underneath the Description section is not filled in, and AutoResolveIntegrationRuntime is selected in the field underneath the Connect via integration runtime section. The field underneath the Office 365 Tenant section is simplified with a black bar, and the section underneath Service principal ID is not filled in. The Service principal key button is selected above the Service principal key section. The field underneath the Service principal key field is not filled in.
-:::image-end:::
+        :::image-end:::
 
 3. Depending on your compute engine, create either a Databricks linked service or a new Synapse Spark pool.
 
@@ -166,7 +166,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
         :::image type="complex" source="../images/pipeline-parameters2.png"     alt-text="screenshot of pipeline Parameters window":::
            Screenshot that shows the pipeline Parameters window, which contains a table with Name, Type, and Default value columns. Values for the Name and Default value columns correspond to the values provided in step 2. For Default value, StorageAccountName, AppID, AppKey, and TenantId have placeholder text that reads, Value. Type is String for all rows.
-    :::image-end:::
+        :::image-end:::
 
 ### Create Copy Data activities and a new Sink dataset
 
@@ -181,14 +181,14 @@ Follow the steps here to create four *Copy Data* activities to load the followin
 
         :::image type="complex" source="../images/event-tbl-source2.png"     alt-text="screenshot of Source window for Event Table":::
        Screenshot that shows the Copy data activity parameter window for Event Table. The Source tab is selected and highlighted. Office365EventTable is selected in the Source dataset section and All users in the office 365 tenant is selected in the Scope section. In the Date filter section, createdDateTime is selected under Column name, and Start time and End time fields are highlighted and each contain content beginning with @pipeline....
-:::image-end:::
+        :::image-end:::
 
 2. **Message Table** (BasicDataSet_v0.Message_v1)
     * **Date filter**: input pipeline `DateStartTime` and `DateEndTime` parameters via **Add Dynamic Content**.
 
         :::image type="complex" source="../images/message-tbl-source2.png"     alt-text="screenshot of Source window for Message Table":::
        Screenshot that shows the Copy data activity parameter window for Message Table. The Source tab is selected and highlighted. Office365MessageTble is selected in the Source dataset section, and All users in the office 365 tenant is selected in the Scope section. In the Date filter section, received DateTime is selected under Column name, and Start time and End time fields are highlighted and each contain content beginning with @pipeline....
-:::image-end:::
+        :::image-end:::
 
 3. **Manager Table** (BasicDataSet_v0.Manager_v0)
     * No **Date filter** is required.
@@ -262,7 +262,7 @@ Based on your orchestration tool and preferred processing platform, add a Synaps
 
         :::image type="complex" source="../images/notebook-parameters.png"     alt-text="screenshot of the screenshot of the Sink dataset Parameters window":::
             Screenshot that shows the Sink dataset Parameters window with columns for Name, Type, and Value. Name and Value entries correspond to the parameter names and values in step 3; Type is String for all rows.
-    :::image-end:::
+        :::image-end:::
 
 At this point, the pipeline should resemble the following image:
 
