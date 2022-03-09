@@ -17,7 +17,7 @@ audience: Admin
 
 # Microsoft Graph Data Connect Data Lake Solution
 
-Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](/common-data-model-and-service/common-data-model/) to learn more about the CDM.
+Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](/common-data-model/) to learn more about the CDM.
 
 In this walkthrough you’ll:
 
@@ -166,7 +166,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     :::image type="complex" source="../images/pipeline-parameters2.png"     alt-text="screenshot of pipeline Parameters window":::
        Screenshot that shows the pipeline Parameters window, which contains a table with Name, Type, and Default value columns. Values for the Name and Default value columns correspond to the values provided in step 2. For Default value, StorageAccountName, AppID, AppKey, and TenantId have placeholder text that reads, Value. Type is String for all rows.
-:::image-end:::
+    :::image-end:::
 
 ### Create Copy Data activities and a new Sink dataset
 
@@ -202,7 +202,7 @@ Create a new Sink dataset to be used for all four data tables.
 
     :::image type="complex" source="../images/event-tbl-sink-file-path.png"  alt-text="Screenshot of the Sink dataset Connection window":::
        Screenshot that shows the Sink dataset window with the Connection tab selected. mgdcvivadatalakeLinkedService is selected in the Link service section, AutoResolveIntegrationRuntime is selected in the Integration runtime section, and the @concat... data path, described in step 1, is entered in the middle field of the File path section.
-:::image-end:::
+    :::image-end:::
 
 2. In the *Copy Data* activities, set the **Sink** parameters as follows:
 
@@ -262,7 +262,7 @@ Based on your orchestration tool and preferred processing platform, add a Synaps
 
     :::image type="complex" source="../images/notebook-parameters.png"     alt-text="screenshot of the screenshot of the Sink dataset Parameters window":::
        Screenshot that shows the Sink dataset Parameters window with columns for Name, Type, and Value. Name and Value entries correspond to the parameter names and values in step 3; Type is String for all rows.
-:::image-end:::
+    :::image-end:::
 
 At this point, the pipeline should resemble the following image:
 
