@@ -65,7 +65,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 ## Configure SharePoint as a source
 
-You must be a Microsoft 365 global administrator, SharePoint administrator, or knowledge admin to perform these tasks.
+You must be a Microsoft 365 global administrator or knowledge admin to perform these tasks.
 
 To configure SharePoint as a learning content sources in for Viva Learning, follow these steps:
 
@@ -163,14 +163,6 @@ Knowledge admins can access their organization's Learning App Content Repository
     ![Settings option page in SharePoint showing the Permissions and Check access options.](../media/learning/learning-sharepoint-library-2.png)
 
 3. Select **Check access** to connect to your organization's centralized library.
-
-### Delete content
-
-1. Select the content you wish to remove from your Learning App Content Repository.
-2. Choose **Delete** on the command bar, or select the ellipses and then select **Delete**.
-
->[!NOTE]
-> Content you delete from the Learning App Content Repository will take approximately 24 hours to be removed from Viva Learning.
 
 ## Next step
 

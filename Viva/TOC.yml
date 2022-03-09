@@ -8,6 +8,8 @@ items:
       href: microsoft-viva-overview.md
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
+    - name: Microsoft Viva admin roles and tasks
+      href: microsoft-viva-admin-roles.md
     - name: Overview of Microsoft Viva security and compliance
       href: microsoft-viva-security.md
     - name: Microsoft Viva language support
