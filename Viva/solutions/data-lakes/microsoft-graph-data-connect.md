@@ -17,7 +17,7 @@ audience: Admin
 
 # Microsoft Graph Data Connect Data Lake Solution
 
-Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](/common-data-model/) to learn more about the CDM.
+Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](common-data-model) to learn more about the CDM.
 
 In this walkthrough you’ll:
 
@@ -105,9 +105,9 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     1. Select **Create**.
 
-:::image type="complex" source="../images/storage-linked-service.png" alt-text="Screenshot of 'New linked service' blade":::
+        :::image type="complex" source="../images/storage-linked-service.png" alt-text="Screenshot of 'New linked service' blade":::
    Screenshot that shows a New linked service blade. AzureDataLakeStorage is entered in the first field, the field underneath the Description section is not filled in, AutoResolveIntegrationRuntime is selected in the field underneath the Connect via integration runtime section, and Service Principal is selected in the field underneath the Authentication method section. Underneath the Authentication reference method section, the Inline radio button is selected. The field underneath the Tenant section is simplified with a black bar. The field underneath Service principal ID section is not filled in, and Service Principal credential is selected underneath the Service principal credential type section. Underneath the Service principal credential type section, the Service principal key button is selected. workspace's cloud type is selected underneath the Azure cloud type section. The From Azure subscription radio button is selected underneath the Account selection method section. 
-:::image-end:::
+        :::image-end:::
 
 2. Create an Office 365 data linked service to allow Microsoft Graph Data Connect to move data into your Azure storage account:
 
