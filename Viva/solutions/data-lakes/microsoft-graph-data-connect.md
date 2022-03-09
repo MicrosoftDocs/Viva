@@ -116,8 +116,8 @@ In **ADF/Synapse > Manage > Linked Services**:
     1. In the resulting blade, provide the **application ID** and **application key** noted in [Provision and configure required resources](#provision-and-configure-required-resources).
     1. Select **Create**. This linked service will automatically be used for all of the Office 365 tables.
 
-    :::image type="complex" source="../images/office365-linked-service.png" alt-text="Screenshot of New linked service blade":::
-   Screenshot that shows a New linked service blade. Office365LinkedService is entered in the field underneath the Name section. The field underneath the Description section is not filled in, and AutoResolveIntegrationRuntime is selected in the field underneath the Connect via integration runtime section. The field underneath the Office 365 Tenant section is simplified with a black bar, and the section underneath Service principal ID is not filled in. The Service principal key button is selected above the Service principal key section. The field underneath the Service principal key field is not filled in.
+        :::image type="complex" source="../images/office365-linked-service.png" alt-text="Screenshot of New linked service blade":::
+           Screenshot that shows a New linked service blade. Office365LinkedService is entered in the field underneath the Name section. The field underneath the Description section is not filled in, and AutoResolveIntegrationRuntime is selected in the field underneath the Connect via integration runtime section. The field underneath the Office 365 Tenant section is simplified with a black bar, and the section underneath Service principal ID is not filled in. The Service principal key button is selected above the Service principal key section. The field underneath the Service principal key field is not filled in.
 :::image-end:::
 
 3. Depending on your compute engine, create either a Databricks linked service or a new Synapse Spark pool.
@@ -164,8 +164,8 @@ In **ADF/Synapse > Manage > Linked Services**:
 
     * `CsvDataFileSystem` - The file system in the ADLSg2 account that will contain the CSV entities (`csv` for this walkthrough)
 
-    :::image type="complex" source="../images/pipeline-parameters2.png"     alt-text="screenshot of pipeline Parameters window":::
-       Screenshot that shows the pipeline Parameters window, which contains a table with Name, Type, and Default value columns. Values for the Name and Default value columns correspond to the values provided in step 2. For Default value, StorageAccountName, AppID, AppKey, and TenantId have placeholder text that reads, Value. Type is String for all rows.
+        :::image type="complex" source="../images/pipeline-parameters2.png"     alt-text="screenshot of pipeline Parameters window":::
+           Screenshot that shows the pipeline Parameters window, which contains a table with Name, Type, and Default value columns. Values for the Name and Default value columns correspond to the values provided in step 2. For Default value, StorageAccountName, AppID, AppKey, and TenantId have placeholder text that reads, Value. Type is String for all rows.
     :::image-end:::
 
 ### Create Copy Data activities and a new Sink dataset
@@ -260,8 +260,8 @@ Based on your orchestration tool and preferred processing platform, add a Synaps
 
     * **`CsvDataFileSystem`** - `@pipeline().parameters.CsvDataFileSystem`
 
-    :::image type="complex" source="../images/notebook-parameters.png"     alt-text="screenshot of the screenshot of the Sink dataset Parameters window":::
-       Screenshot that shows the Sink dataset Parameters window with columns for Name, Type, and Value. Name and Value entries correspond to the parameter names and values in step 3; Type is String for all rows.
+        :::image type="complex" source="../images/notebook-parameters.png"     alt-text="screenshot of the screenshot of the Sink dataset Parameters window":::
+            Screenshot that shows the Sink dataset Parameters window with columns for Name, Type, and Value. Name and Value entries correspond to the parameter names and values in step 3; Type is String for all rows.
     :::image-end:::
 
 At this point, the pipeline should resemble the following image:
