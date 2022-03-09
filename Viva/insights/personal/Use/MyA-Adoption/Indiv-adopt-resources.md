@@ -34,20 +34,20 @@ The following is a list of helpful resources that can help get you and your team
 
 * [Collaboration without burnout](https://workplaceinsights.microsoft.com/collaboration/collaboration-without-burning-out/)
 * [Collaborative Overload is a symptom of a deeper organizational problem](https://workplaceinsights.microsoft.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/)
-* [Overview: How Successful People Manage Collaborative Overload](https://www.linkedin.com/pulse/how-successful-people-manage-collaborative-overload-rob-cross/#)
+* [How Successful People Manage Collaborative Overload](https://www.linkedin.com/pulse/how-successful-people-manage-collaborative-overload-rob-cross/#)
 * [Can you be too well connected?](https://workplaceinsights.microsoft.com/networks/can-you-be-too-well-connected/)
 * [The Big Idea: 6 lessons on fighting burnout from Boston’s biggest hospital](https://workplaceinsights.microsoft.com/productivity/the-big-idea-6-lessons-on-fighting-burnout-from-bostons-biggest-hospital/)
 
 ### Focus hours
 
-* [“Deep Work”: Hidden Brain Podcast: Deep Work, Cal Newport](http://www.npr.org/2017/07/25/539092670/you-2-0-the-value-of-deep-work-in-an-age-of-distraction#)
+* [Hidden Brain Podcast: Deep Work, Cal Newport](http://www.npr.org/2017/07/25/539092670/you-2-0-the-value-of-deep-work-in-an-age-of-distraction#)
 * [Multitasking: Productivity in Peril: Higher and Higher Rates of Technology Multitasking](http://behavioralscientist.org/productivity-peril-higher-higher-rates-technology-multitasking/#)
 * [Multitasking: Why You Shouldn't Multitask](http://fortune.com/2016/12/07/why-you-shouldnt-multitask/#)
 * [Multitasking: How Can I Use More of My Brain?](https://workplaceinsights.microsoft.com/productivity/multitask-meetings-team-will/)
 * [How to establish a meeting-free day each week](https://workplaceinsights.microsoft.com/time-management/how-to-establish-a-meeting-free-day-each-week/)
-* [Interruptions: Worker Interrupted: The Cost of Task Switching](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching#)
+* [Worker Interrupted: The Cost of Task Switching](https://www.fastcompany.com/944128/worker-interrupted-cost-task-switching#)
 * [Interruptions: Productivity isn’t about time management, it’s about attention management](https://workplaceinsights.microsoft.com/time-management/productivity-isnt-about-time-management-its-about-attention-management/)
-* [Interruptions: Workplace Distractions: Here is Why You Won't Finish This Article](https://www.wsj.com/articles/SB10001424127887324339204578173252223022388?mg=prod/accounts-wsj#)
+* [Workplace Distractions: Here is Why You Won't Finish This Article](https://www.wsj.com/articles/SB10001424127887324339204578173252223022388?mg=prod/accounts-wsj#)
 * [Interruptions: What email, IM, and the phone are each good for](https://workplaceinsights.microsoft.com/collaboration/what-email-im-and-the-phone-are-each-good-for/)
 * [Time Blocking: Could Time Blocking Replace Your To-Do List?](https://www.fastcompany.com/3069293/could-time-blocking-replace-your-to-do-list#)
 * [Time Blocking: How to Be Healthier, Happier and More Productive: It's All in the Timing](https://www-wsj-com.cdn.ampproject.org/c/s/www.wsj.com/amp/articles/how-to-be-healthier-happier-and-more-productive-its-all-in-the-timing-1514560647#)
@@ -60,7 +60,6 @@ The following is a list of helpful resources that can help get you and your team
 * [Meeting design: Why your meetings stink—and what to do about it](https://workplaceinsights.microsoft.com/time-management/why-your-meetings-stink-and-what-to-do-about-it/)
 * [Meeting design: Decision-Focused Meetings](http://www.bain.com/publications/articles/decision-insights-9-decision-focused-meetings.aspx#)
 * [Reduce meetings: Stop the Meeting Madness](https://workplaceinsights.microsoft.com/collaboration/out-of-control-meetings-waste-time-undermine-work/)
-* [Reduce meetings: Polite Ways to Decline a Meeting Invitation](https://hbr.org/2016/05/polite-ways-to-decline-a-meeting-invitation#)
 * [The 18-minute rule: The Science Behind Ted's 18 Minute Rule](https://www.linkedin.com/pulse/20140313205730-5711504-the-science-behind-ted-s-18-minute-rule/#)
 * [Avoid FOMO: how declining certain work meetings may increase productivity](https://workplaceinsights.microsoft.com/productivity/is-after-hours-work-destroying-your-productivity-and-health-8/)
 
