@@ -40,7 +40,7 @@ The following is a list of helpful resources that can help get you and your team
 
 ### Focus hours
 
-* [“Deep Work”: Hidden Brain Podcast: Deep Work, Cal Newport](http://www.npr.org/2017/07/25/539092670/you-2-0-the-value-of-deep-work-in-an-age-of-distraction#)
+* [Hidden Brain Podcast: Deep Work, Cal Newport](http://www.npr.org/2017/07/25/539092670/you-2-0-the-value-of-deep-work-in-an-age-of-distraction#)
 * [Multitasking: Productivity in Peril: Higher and Higher Rates of Technology Multitasking](http://behavioralscientist.org/productivity-peril-higher-higher-rates-technology-multitasking/#)
 * [Multitasking: Why You Shouldn't Multitask](http://fortune.com/2016/12/07/why-you-shouldnt-multitask/#)
 * [Multitasking: How Can I Use More of My Brain?](https://workplaceinsights.microsoft.com/productivity/multitask-meetings-team-will/)

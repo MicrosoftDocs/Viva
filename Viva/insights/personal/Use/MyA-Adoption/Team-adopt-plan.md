@@ -217,11 +217,9 @@ The collaboration channel also serves as a great program-management tool. You ca
 
 ## Create surveys
 
-In addition to the quantitative data that MyAnalytics provides, you can use surveys to collect qualitative data before, during, and after your program. Surveys help diagnose collaboration pain points, identify solutions, and understand the results of your program. Aim to keep your survey as short as possible, and avoid these common survey question mistakes: [Where Employee Surveys on Burnout and Engagement Go Wrong](https://hbr.org/2017/12/where-employee-surveys-on-burnout-and-engagement-go-wrong).
+In addition to the quantitative data that MyAnalytics provides, you can use surveys to collect qualitative data before, during, and after your program. Surveys help diagnose collaboration pain points, identify solutions, and understand the results of your program. Aim to keep your survey as short as possible.
 
-For ease of managing the survey, use an application such as Microsoft Forms to distribute the questions and collect results. For more information on how to create an effective survey, see [Run an Employee Survey](https://rework.withgoogle.com/guides/analytics-run-an-employee-survey/steps/introduction/).
-
-Consider implementing any of the following: a pre-program survey, a team norms survey, a post-program survey, and/or a goal-setting survey:
+For ease of managing the survey, use an application such as Microsoft Forms to distribute the questions and collect results. Consider implementing one or more of the following:
 
 ### Pre-program survey
 
@@ -229,7 +227,7 @@ The pre-program survey helps you diagnose your team’s collaboration pain point
 
 ### Team norms survey
 
-During your program, you can use Learning modules to experiment with new behaviors. Some of these behaviors will work for your team; others will not. After you try out different behaviors, conduct a team-norms survey to vote on new norms to adopt as a team. For additional information on how to select group norms and make them stick, see [How to Create Executive Team Norms and Make Them Stick](https://hbr.org/2018/01/how-to-create-executive-team-norms-and-make-them-stick).
+During your program, you can use Learning modules to experiment with new behaviors. Some of these behaviors will work for your team; others will not. After you try out different behaviors, conduct a team-norms survey to vote on new norms to adopt as a team.
 
 To avoid survey fatigue, bundle the team norms survey with a corresponding [Learning module](Adopt-Learning-modules.md) at the appropriate time in your program schedule. Program participants should complete the survey after they have had time to process the contents of the Learning module and experiment with suggested behaviors.
 

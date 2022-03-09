@@ -143,18 +143,6 @@ Users that you allow access to see topics in their daily work might be asked if 
 
 For more information, see [Topic discovery and curation](./topic-experiences-discovery-curation.md).
 
-## Language support
-
-Viva Topics is available to customers worldwide, but currently offers the following language support for indexing content in your organization.
-
-|&nbsp; |&nbsp;  |
-|---|---|
-English (United States)|German (coming soon)|
-French (France) (coming soon)|Spanish (Spain) (coming soon)|
-| |
-
-Languages in the Viva Topics user interface are based your organization's Microsoft 365 language preferences. For more information, see [Viva Topics supported languages](/viva/viva-language-support#viva-topics-supported-languages). 
-
 ## Provide us feedback
 
 At Microsoft we take feedback from our customers very seriously. The feedback you provide for Viva Topics will be used to troubleshoot, fix bugs, enhance existing features, and develop new ones. 

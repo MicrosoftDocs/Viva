@@ -11,8 +11,8 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 ---
 
 # Microsoft Viva Insights Home
