@@ -85,7 +85,7 @@ For more best practices and ways to establish better manager-team connections, s
 
 Resilient organizations respond to changing demands and new opportunities by nimbly adapting and refocusing employees' time to align with new priorities.
 
-As explained in [How to finally kill the useless, recurring meeting](https://hbr.org/2015/03/how-to-finally-kill-the-useless-recurring-meeting), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
+As explained in [How to finally kill the useless, recurring meeting](https://workplaceinsights.microsoft.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
 * Use [MyAnalytics wellbeing](/viva/insights/personal/use/wellbeing) to learn about your after-hours work habits and use [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
