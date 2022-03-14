@@ -15,7 +15,7 @@ manager: helayne
 audience: Admin
 ---
 
-# Microsoft Graph Data Connect Data Lake Solution
+# Microsoft Graph Data Connect data lake solution
 
 Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](/common-data-model/index) to learn more about the CDM.
 
