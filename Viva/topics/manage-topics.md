@@ -1,7 +1,7 @@
 ---
 title: Manage topics in the topic center in Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthholls
+author: ruthhollands
 manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
