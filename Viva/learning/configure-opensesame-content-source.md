@@ -1,10 +1,10 @@
 ---
-title: Configure Go1 as a content source for Microsoft Viva Learning
+title: Configure OpenSesame as a content source for Microsoft Viva Learning
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 3/15/2022
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,42 +14,29 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
 localization_priority: medium
-description: Learn how to configure Go1 as a learning content source for Microsoft Viva Learning.
+description: Learn how to configure OpenSesame as a learning content source for Microsoft Viva Learning.
 ---
 
-# Configure Go1 as a content source for Microsoft Viva Learning
+# Configure OpenSesame as a content source for Microsoft Viva Learning
 
-This article shows you how to configure Go1 as a third-party learning content source in Viva Learning.
+This article shows you how to configure OpenSesame as a third-party learning content source in Viva Learning.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Go1 content and any associated services are subject to Go1's privacy and service terms.
 
-Go1 provides access to thousands of courses from top content providers. [Learn more about Go1](https://www.go1.com/go1-microsoft-viva). Follow these steps to add Go1 as a learning source in Viva Learning.
+With more than 25,000 curated courses from over 150 publishers, OpenSesame helps companies develop productive and admired workforces. [Learn more about OpenSesame.](https://www.opensesame.com/site/lms-integrations-viva/)
 
-## Configure in your Go1 portal
+## Configure in your OpenSesame portal
 
 >[!NOTE]
->You'll need to have admin permissions in Go1 to complete these steps.
+>You'll need to have admin permissions in OpenSesame to complete these steps. You’ll also need an identity provider (IdP), as this integration uses SAML Single Sign-On (SSO) authentication.
 
-First, you'll need to follow these steps to create an app in your Go1 Portal. This app will generate your API keys, which you can use to authenticate with Go1 and make requests to the API.
+>[!NOTE]
+>Your organization must have an active license for OpenSesame and a premium license for Microsoft Viva Learning.
 
-1. Sign in to your Go1 Portal as an administrator.
+You'll need to reach out to your OpenSesame Customer Success Manager or Implementation Specialist to enable integration with Viva Learning. They'll also provide your OpenSesame Customer Integration ID, which you'll need for the next step. You can view the full details in OpenSesame’s [PDF walkthrough guide](https://resources.opensesame.com/implementations/Viva-Learning-OpenSesame-integration-walkthrough.pdf).
 
-2. Select **Integrations** from the menu options.
-
-3. Select **Developers**.
-4. Select the **Create App** button.
-5. Enter a name for the app, for example, "My-go1-viva-integration".
-6. Enter a call back URL, for example, "Mycompany.mygo1.com".
-7. Save the information you entered.
-8. Your information will display with the Secret hidden. Select the ellipses (**...**), then select **View Secret** to display the Secret.
-9. Copy the following values:
-
-    - **Client's Host URL:** This is your Go1 Portal URL. It will look like "https://mycompany.mygo1.com".
-    - **Client ID:** You can find your ID in your Go1 Portal under the **Integrations/Developer** menu options.
-    - **Secret:** You can find your Secret in your Go1 Portal under the **Integrations/Developer** menu options.
-
-Learn more about [how to create a private developer's app for Go1](https://help.go1.com/en/articles/4642648-integrate-with-the-go1-api).
+You can [contact OpenSesame Support](mailto:support@opensesame.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can explore OpenSesame further [here](https://www.opensesame.com/site/lms-integrations-viva/).
 
 ## Configure in your Microsoft 365 admin center
 
@@ -57,6 +44,6 @@ Learn more about [how to create a private developer's app for Go1](https://help.
 >You'll need to have admin permissions in Microsoft 365 to complete these steps.
 
 1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
-2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable Go1 in the panel.
-3. Fill in the configuration details that you retrieved from your Go1 portal.
-4. Select **Save** to activate Go1 content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
+2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable OpenSesame in the panel.
+3. Fill in the OpenSesame Customer Integration ID you got from your OpenSesame Customer Success Manager or Implementation Specialist.
+4. Select **Save** to activate OpenSesame content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
