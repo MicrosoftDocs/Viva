@@ -1,5 +1,5 @@
 ---
-
+ROBOTS: NOINDEX,NOFOLLOW
 title: Inspiration library with Viva Insights 
 description: Use the Inspiration library feature in Microsoft Viva Insights
 author: madehmer
