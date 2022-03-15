@@ -15,7 +15,7 @@ manager: helayne
 audience: Admin
 ---
 
-# Microsoft Graph Data Connect Data Lake Solution
+# Microsoft Graph Data Connect data lake solution
 
 Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](/common-data-model/index) to learn more about the CDM.
 
@@ -85,11 +85,9 @@ To complete the conversion, you’ll need to create or provision a few resources
 
         :::image type="content" source="../images/databricks-library2.png" alt-text="Screenshot of Search packages window with spark-cdm-connector entered in search bar and listed as entry under Artifact id.":::
 
-## Load and convert Office 365 data
-
 Follow these steps to create a pipeline to export your Office 365 data into a storage account, and then transform this data into CDM and CSV formats.
 
-### Create linked services within the orchestration tool
+## Create linked services within the orchestration tool
 
 You'll need to create a few linked service entities within the orchestration tool (Azure Data Factory or Synapse) using the Azure resources provisioned [earlier](#provision-and-configure-required-resources).
 
@@ -130,7 +128,7 @@ In **ADF/Synapse > Manage > Linked Services**:
 
      2. ***If using Synapse with Synapse Spark pool***, create a new pool in **Synapse > Manage > Analytics Pools > Apache Spark Pool**.
 
-### Create a new pipeline
+## Create a new pipeline
 
 1. Within the orchestration tool (either Azure Data Factory or Synapse), create a new pipeline.
 
@@ -168,7 +166,7 @@ In **ADF/Synapse > Manage > Linked Services**:
            Screenshot that shows the pipeline Parameters window, which contains a table with Name, Type, and Default value columns. Values for the Name and Default value columns correspond to the values provided in step 2. For Default value, StorageAccountName, AppID, AppKey, and TenantId have placeholder text that reads, Value. Type is String for all rows.
         :::image-end:::
 
-### Create Copy Data activities and a new Sink dataset
+## Create Copy Data activities and a new Sink dataset
 
 Follow the steps here to create four *Copy Data* activities to load the following four Office 365 tables. For each table, include the respective **Source** parameters from the list below.
 
@@ -224,7 +222,7 @@ Create a new Sink dataset to be used for all four data tables.
        Screenshot that shows the Copy Data activity parameter window with the Sink tab selected and highlighted. AzureDataLakeStorageGen2 is selected in the Sink dataset section, and the Dataset properties section is highlighted and expanded to show Name, Value, and Type. Name and Value correspond to steps 2a-c; Type is string for all three rows.
 :::image-end:::
 
-### Add a notebook to the pipeline
+## Add a notebook to the pipeline
 
 Based on your orchestration tool and preferred processing platform, add a Synapse notebook or Databricks notebook to the pipeline. In the settings:
 
