@@ -12,7 +12,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn about best practices to manage the many topics in your organization using Viva Topics.
+description: Learn about best practices to manage topics in your organization using Viva Topics.
 ---
 
 # Manage topics at scale in Microsoft Viva Topics
