@@ -29,6 +29,7 @@ When you select a feature on the top menu, you'll leave the Home page.
 
 * [Stay connected](viva-insights-stay-connected.md)
 * [Protect time](viva-insights-protect-time.md)
+* [Inspiration library](inspiration.md)
 
 ## On the Home page
 
