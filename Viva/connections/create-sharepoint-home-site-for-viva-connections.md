@@ -2,6 +2,7 @@
 title: "Create a SharePoint home site for Viva Connections"
 ms.reviewer: 
 ms.author: v-mathavale
+author: v-mathavale
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -103,7 +104,7 @@ After the site has been built out, edit site details to create a customized desi
 
 - Before launching the home site broadly, test the site with a handful of users to make sure key tasks and resources are readily accessible and fully functioning. 
 
-- Consider using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler?view=o365-worldwide) to help you follow a phased roll-out approach by batching viewers in waves and managing the URL redirects for the new portal.
+- Consider using the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to help you follow a phased roll-out approach by batching viewers in waves and managing the URL redirects for the new portal.
 
 ## Next: Enable and set up global navigation
 
