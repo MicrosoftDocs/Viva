@@ -112,9 +112,9 @@ After the site has been built out, edit site details to create a customized desi
 
 ## Best practices before launching your new home site
 
-- A home site is used by the entire organization, so the site needs to be [inclusive and easily accessible on all devices](https://support.microsoft.com/en-us/office/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb)and potentially [need to be viewed in other languages](https://support.microsoft.com/en-us/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
+- A home site is used by the entire organization, so the site needs to be [inclusive and easily accessible on all devices](https://support.microsoft.com/en-us/office/get-ready-build-an-accessible-sharepoint-site-3a1df3ad-f093-450c-85a6-b3bf70fd6abb)and potentially [needs to be viewed in other languages](https://support.microsoft.com/en-us/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
 
-- The home site will be viewed by a high volume of users. Make sure you [manage site performance](/sharepoint/portal-health)through the planning and building phases.
+- The home site will be viewed by a high volume of users. Make sure you [manage site performance](/sharepoint/portal-health) through the planning and building phases.
 
 - Before launching the home site broadly, test the site with a handful of users to make sure key tasks and resources are readily accessible and fully functioning. 
 
