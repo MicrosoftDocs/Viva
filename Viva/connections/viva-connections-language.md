@@ -30,9 +30,7 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
 > Teams and SharePoint may individually support more languages than the ones below.
 
 
-
-
-
+## Available languages 
 
 :::row:::
    :::column span="2":::
@@ -52,19 +50,19 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
       Swedish <br>
    :::column-end:::
    :::column span="":::
-      Turkish
-      Czech
-      Portuguese (Portugal)
-      Thai
-      Danish
-      Hungarian
-      Finnish
-      Indonesian
-      Greek
-      Romanian
-      Ukrainian
-      Catalan
-      Norwegian Bokmål
+      Turkish <br>
+      Czech <br>
+      Portuguese (Portugal) <br>
+      Thai <br>
+      Danish <br>
+      Hungarian <br>
+      Finnish <br>
+      Indonesian <br>
+      Greek <br>
+      Romanian <br>
+      Ukrainian <br>
+      Catalan <br>
+      Norwegian Bokmål <br>
 
    :::column-end:::
 :::row-end:::
