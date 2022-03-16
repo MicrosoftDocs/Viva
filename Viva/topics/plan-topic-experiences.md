@@ -45,7 +45,7 @@ All users who are going to use Topics require a **Topic Experiences** license. A
 
 ## Topic discovery
 
-The topic discovery settings specify which SharePoint sites are used as sources for topics. This includes both classic and modern sites, as well as sites associated with Microsoft Teams and Microsoft 365 Groups. OneDrive sites are not included.
+The topic discovery settings specify which SharePoint sites are used as sources for topics. This includes both classic and modern sites, as well as sites associated with Microsoft Teams and Microsoft 365 Groups. OneDrive sites are not included. Topics crawls all Office files, text files, and the SharePoint site pages themselves in the sites you specify.
 
 You can choose to include all SharePoint sites, a specific list of sites, or no sites. We recommend that you choose all sites so that topic experiences can discover a large number of good topics for your users.
 
