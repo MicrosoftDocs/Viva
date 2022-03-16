@@ -3,7 +3,7 @@ title: Security and privacy in Microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: nkokoye, cjtan
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.collection: m365initiative-viva-topics
