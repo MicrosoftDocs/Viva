@@ -11,19 +11,19 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 ---
 
 # Get started
 
 ## The MyAnalytics Team Behavior Change Program
 
-The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits. (See [Collaborative Overload](https://hbr.org/2016/01/collaborative-overload) for more background).
+The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits.
 
 In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and build new habits to change the way the team collaborates.
 
-At its core, the program is a series of MyAnalytics [Learning modules](Adopt-learning-modules.md) that can require as little as 15 minutes per week from team members. 
+At its core, the program is a series of MyAnalytics [Learning modules](Adopt-learning-modules.md) that can require as little as 15 minutes per week from team members.
 
 The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs. For example, the program manager might design a short program that encourages teams to experiment with new behaviors, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
 
