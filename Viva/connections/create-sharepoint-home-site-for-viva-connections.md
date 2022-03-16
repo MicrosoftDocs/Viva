@@ -43,7 +43,7 @@ A home site needs site navigation that is organized well, highlights popular res
 ### Image of the home site
 :::image type="content" source="../media/connections/vc-home-site-design.png" alt-text="Home site"::: 
 
-### Web parts key
+#### Web parts key
 1.	Hero web part
 2.	World clock web part
 3.	Weather web part
