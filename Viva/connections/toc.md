@@ -6,6 +6,7 @@
 ### [Launch and maintain](launch-viva-connections.md)
 ## [Requirements]()
 ### [Plan, build, and launch a home site](home-site-plan.md)
+### [Create a home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
 ### [Enable and set up global navigation](sharepoint-app-bar.md)
 ## [Set up and administration]()
 ### [Guide to setting up Viva Connections](guide-to-setting-up-viva-connections.md)
