@@ -33,7 +33,7 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
 ## Available languages 
 
 :::row:::
-   :::column span="2":::
+   :::column span="3":::
       English <br>
       Japanese <br>
       German <br>
@@ -44,18 +44,22 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
       Russian <br>
       Italian <br>
       Chinese (Traditional) <br>
+      
+   :::column-end:::
+   :::column span="":::
       Korean <br>
       Dutch <br>
       Polish <br>
       Swedish <br>
-   :::column-end:::
-   :::column span="":::
       Turkish <br>
       Czech <br>
       Portuguese (Portugal) <br>
       Thai <br>
       Danish <br>
       Hungarian <br>
+
+   :::column-end:::
+   :::column span="":::
       Finnish <br>
       Indonesian <br>
       Greek <br>
