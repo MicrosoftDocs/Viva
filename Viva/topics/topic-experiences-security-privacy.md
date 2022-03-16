@@ -74,6 +74,9 @@ If there are topics that you want to exclude entirely from topic experiences, yo
 
 - Have knowledge managers remove topics in the topic center.
 
+> [!Note] 
+> A topic, when removed, can take up to 24 hours to stop appearing to users in your organization.
+
 Additionally, we recommend these best practices:
 
 - Recruit knowledge managers from different areas of your organization. Having knowledge managers with a variety of expertise - and access to the underlying content used by AI - can help you curate the most useful knowledge for your users and remove sensitive information if found.
