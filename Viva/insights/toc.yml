@@ -441,8 +441,6 @@ items:
                             href: tutorials/solutionsv2-participants.md
                           - name: Concepts
                             href: tutorials/solutionsv2-conceptual.md
-                      - name: Opportunities scan
-                        href: Use/solutions-scan.md
                   - name: Notifications 
                     href: use/wpa-notifications.md 
               - name: In Power BI
