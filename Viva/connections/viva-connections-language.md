@@ -43,10 +43,10 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
       Portuguese (Brazil) <br>
       Russian <br>
       Italian <br>
-      Chinese (Traditional) <br>
       
    :::column-end:::
    :::column span="":::
+      Chinese (Traditional) <br>
       Korean <br>
       Dutch <br>
       Polish <br>
@@ -55,11 +55,11 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
       Czech <br>
       Portuguese (Portugal) <br>
       Thai <br>
-      Danish <br>
-      Hungarian <br>
 
    :::column-end:::
    :::column span="":::
+      Danish <br>
+      Hungarian <br>
       Finnish <br>
       Indonesian <br>
       Greek <br>
