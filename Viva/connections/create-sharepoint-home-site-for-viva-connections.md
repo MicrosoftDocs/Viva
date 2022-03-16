@@ -40,9 +40,23 @@ A home site needs site navigation that is organized well, highlights popular res
 
 ## Summary of web parts
 
-|Image of the home site  |Web parts key  |
-|---------|---------|
-|:::image type="content" source="../media/connections/vc-home-site-design.png" alt-text="Home site" lightbox="../media/connections/vc-home-site-design.png":::    |<ol><li>Hero web part</li><li>World clock web part</li><li>Weather web part</li><li>Feed for Viva Connections web part</li><li>Dashboard web part</li><li>Image web part</li><li>File viewer web part</li><li>Events web part</li><li>Quick Links web part</li><li>Quick Links web part</li><li>News web part</li><li>Quick Links web part</li><li>Call to action web part</li></ol>|
+### Image of the home site
+:::image type="content" source="../media/connections/vc-home-site-design.png" alt-text="Home site"::: 
+
+### Web parts key
+1.	Hero web part
+2.	World clock web part
+3.	Weather web part
+4.	Feed for Viva Connections web part
+5.	Dashboard web part
+6.	Image web part
+7.	File viewer web part
+8.	Events web part
+9.	Quick Links web part
+10.	Quick Links web part
+11.	News web part
+12.	Quick Links web part
+13.	Call to action web part
 
 ## Summary of the site structure
 This home site design uses a vertical section and a combination of one and two column sections. After [creating your communication site](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name), start by [laying out the sections](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) before adding web parts.  
