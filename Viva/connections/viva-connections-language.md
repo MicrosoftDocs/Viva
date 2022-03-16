@@ -30,18 +30,42 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
 > Teams and SharePoint may individually support more languages than the ones below.
 
 
+
+
+
+
 :::row:::
    :::column span="2":::
-      **This is a 2-span column with lots of text.**
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum mollis nunc
-      ornare commodo. Nullam ac metus imperdiet, rutrum justo vel, vulputate leo. Donec
-      rutrum non eros eget consectetur.
+      English
+      Japanese
+      German
+      Chinese (Simplified)
+      Spanish
+      French
+      Portuguese (Brazil)
+      Russian
+      Italian
+      Chinese (Traditional)
+      Korean
+      Dutch
+      Polish
+      Swedish
    :::column-end:::
    :::column span="":::
-      **This is a single-span column with an image in it.**
-
-      ![Doc.U.Ment.](media/markdown-reference/document.png)
+      Turkish
+      Czech
+      Portuguese (Portugal)
+      Thai
+      Danish
+      Hungarian
+      Finnish
+      Indonesian
+      Greek
+      Romanian
+      Ukrainian
+      Catalan
+      Norwegian Bokmål
+      
    :::column-end:::
 :::row-end:::
 
