@@ -33,7 +33,7 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
 ## Available languages 
 
 :::row:::
-   :::column span="3":::
+   :::column span="2":::
       English <br>
       Japanese <br>
       German <br>
