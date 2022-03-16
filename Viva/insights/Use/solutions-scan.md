@@ -17,7 +17,8 @@ audience: Analyst
 
 # Opportunities scan
 
-_**Important**: This feature will no longer be available starting in April 2022._
+>[!IMPORTANT]
+>This feature will no longer be available starting in April 2022.
 
 An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is collaboration overload, excessive time worked after work hours, or something else.
 
