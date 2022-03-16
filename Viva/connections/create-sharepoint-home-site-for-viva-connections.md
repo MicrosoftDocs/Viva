@@ -61,12 +61,12 @@ A home site needs site navigation that is organized well, highlights popular res
 ## Summary of the site structure
 This home site design uses a vertical section and a combination of one and two column sections. After [creating your communication site](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name), start by [laying out the sections](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) before adding web parts.  
 
-:::image type="content" source="../media/connections/home-site-structure-2.png" alt-text="Home site design" lightbox="../media/connections/home-site-structure-2.png":::    
+:::image type="content" source="../media/connections/home-site-structure-2.png" alt-text="Home site design":::    
 
 ## Build this site 
 Start with a [modern SharePoint communication site](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name). Next, [start adding sections](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899)following the diagram in the site sections summary. Then, add and edit web parts. The guidance for customizing web parts can be applied when you are in edit-mode for each web part. 
 
-:::image type="content" source="../media/connections/home-site-top.png" alt-text="Build Home site top section" lightbox="../media/connections/home-site-top.png":::
+:::image type="content" source="../media/connections/home-site-top.png" alt-text="Build Home site top section":::
 
 
 |Number  |Web part  |Customization guidance  |
@@ -77,7 +77,7 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 |4  | [The Feed for Viva Connections](use-dashboard-web-part-on-home-site.md) | No settings needed. The [Feed content is personalized](faqs-viva-connections-feed.md) for each user and comes from SharePoint News and Yammer communities that they follow.  |
 |5  | [The Dashboard web part](use-feed-web-part-for-viva-connections.md)| Set the **Maximum number of cards to show** to 9  |
 
-:::image type="content" source="../media/connections/home-site-middle.png" alt-text="Build Home site middle section" lightbox="../media/connections/home-site-middle.png":::
+:::image type="content" source="../media/connections/home-site-middle.png" alt-text="Build Home site middle section":::
 
 | Number| Web part|Customization guidance|
 |---|---|---|
@@ -85,7 +85,7 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 | 7 | File viewer web part | No settings guidance |
 | 8 | Events web part | Select the **Filmstrip** layout and toggle **Show event images** to **On** |
 
-:::image type="content" source="../media/connections/home-site-bottom.png" alt-text="Build home site bottom section" lightbox="../media/connections/home-site-bottom.png":::
+:::image type="content" source="../media/connections/home-site-bottom.png" alt-text="Build home site bottom section":::
 
 
 | Number |  Web part       |  Customization guidance |
