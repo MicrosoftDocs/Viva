@@ -7,6 +7,9 @@
           href: overview-viva-learning.md
         - name: Set up Viva Learning
           href: set-up-viva-learning.md
+          items:
+            - name: Enable or disable Viva Learning content in Microsoft Search
+              href: enable-disable-search.md 
         - name: Supported languages
           href: viva-learning-supported-languages.md
         - name: Terms and conditions
