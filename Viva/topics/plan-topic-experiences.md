@@ -107,7 +107,7 @@ When setting up topic viewers, you can choose from:
 - **Only selected people or security groups**
 - **No one**
 
-We recommend **Everyone in my organization**, but if you're doing a pilot you may want to choose only selected people or security groups. You can also choose **No one** if you want to set up Topics, but not allow people to see topics yet. (Knowledge managers will still have access to allow them view the topics and help with the decision to make Topics broadly available.)
+We recommend **Everyone in my organization**, but if you're doing a pilot you may want to choose only selected people or security groups. You can also choose **No one** if you want to set up Topics, but not allow people to see topics yet. (Knowledge managers will still have access to allow them to view the topics and help with the decision to make Topics broadly available.)
 
 ## Knowledge rules
 
