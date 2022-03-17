@@ -48,6 +48,7 @@ For the next three cards, you can take a quick action while remaining on the Hom
 
 * [Stay connected](viva-insights-stay-connected.md) &ndash; Follow up on an action shown in **Stay connected**, such as to book a 1:1 with a specific person.
 * [Protect time](viva-insights-protect-time.md) &ndash; Take action on what's shown in **Protect time**, such as to book focus time for tomorrow.
+* [Inspiration library](inspiration.md) &ndash; See inspirational articles within specific themes, such as wellbeing, culture, impact, and resilience.
 * [Microsoft To Do](#microsoft-to-do) &ndash; Take action on what's shown in your **To Do** list, such as to book a meeting.
 
 ## Up-next card
