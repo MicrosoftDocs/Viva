@@ -17,6 +17,9 @@ audience: Analyst
 
 # Opportunities scan
 
+>[!IMPORTANT]
+>This feature will no longer be available starting in April 2022.
+
 An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is collaboration overload, excessive time worked after work hours, or something else.
 
 Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Microsoft 365 data.
