@@ -66,3 +66,13 @@ You'll need to complete the configuration in your Microsoft 365 admin center.
 
 >[!NOTE]
 >Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
+
+## Learner record sync
+
+Check the **Enable Learner Record Sync** checkbox to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization will then be able to see their assigned and completed courses from your LMS within Viva Learning.  
+
+By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced. Viva Learning fetches the following fields from the LMS:
+
+- FirstName
+- LastName
+- Username

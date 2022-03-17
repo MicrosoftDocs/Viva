@@ -6,8 +6,12 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
-manager: scott.ruble
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+manager: helayne
 audience: Admin
 
 ---
@@ -95,7 +99,7 @@ Select and complete one of the following scenarios:
 
 #### Default on
 
-In this scenario, all surfaces of Viva Insights are turned on by default for all users. They will receive the welcome email and the weekly email digest and they will have access to the Viva Insights dashboard, the Insights add-in, and Outlook inline suggestions.
+In this scenario, all surfaces of Viva Insights are turned on by default for all users. They will receive the welcome email and subsequent Viva digest emails and have access to the Viva Insights in Teams app, the Dashboard, the Viva Insights Outlook add-in, and inline suggestions in Outlook.
 
 ##### Confirm the configuration
 
@@ -103,12 +107,12 @@ In this scenario, all surfaces of Viva Insights are turned on by default for all
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal). Make sure you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**. 
 2. In the left pane, expand **Settings** and then select **Org settings**.
-3. On the **Service** tab, select **Microsoft Viva Insights (MyAnalytics)**. This opens a page on which you can configure access to Viva Insights elements. It should show that all Viva Insights elements are enabled. 
+3. On the **Service** tab, select **Microsoft Viva Insights (MyAnalytics)**. This opens a page on which you can configure access to Viva Insights elements. It should show that all Viva Insights elements are enabled.
 4. If any element is not enabled, select it to enable it and then select **Save changes**.
  
 #### Default off
 
-In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive the email digest but they can access the dashboard (at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/)), where they can opt in to each surface individually.
+In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive Viva digest emails but they can access the dashboard (at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/)), where they can opt in to each surface individually.
 
 ##### Set Viva Insights off by default
 
@@ -117,16 +121,16 @@ In this scenario, Viva Insights is off by default but users can turn it on for t
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal). Make sure you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**:
 
     ![New admin center.](../../images/mya/setup/the-new-admin-center.png)
- 
+
 2. In the left pane, expand **Settings** and then select **Org settings**.
 3. On the **Service** tab, select **Microsoft Viva Insights** (including MyAnalytics). This opens a page to configure access to Viva Insights elements.
 4. Deselect **Dashboard**, **Digest**, and **Viva Insights Outlook add-in** to keep all users in your organization opted out of all Viva Insights features.
 
 After these settings are complete, users can open the dashboard and [turn on Viva Insights features by themselves](../use/opt-out-of-mya.md).
 
-#### Mixed deployment 
+#### Mixed deployment
 
-In this scenario, some users are opted in and some users are opted out of all Viva Insights surfaces. Those who are opted-in receive the weekly email digest, can open the Viva Insights dashboard, and see the Outlook Insights add-in. Those who start out as opted out see the default “off” page shown here, on which they can use the Feature settings pane to opt in to any of the Viva Insights surfaces.
+In this scenario, some users are opted in and some users are opted out of all Viva Insights surfaces. Those who are opted-in receive the digest emails, can open Viva Insights in Teams and the dashboard, and see the Viva Insights add-in in Outlook. Those who start out as opted out see the default “off” page shown here, where they can use Settings to opt in to any of the Viva Insights surfaces.
 
 ##### Set up mixed deployment
 
@@ -135,7 +139,7 @@ In this scenario, some users are opted in and some users are opted out of all Vi
 1. Turn off Viva Insights on all surfaces for all users. To do this, follow the steps in [Set Viva Insights off by default](#set-viva-insights-off-by-default).
 2. Use the following steps to change access to Viva Insights for multiple users. Do this by running a PowerShell script that iterates through the users, changing the value one user at a time. (Also see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).)
 3. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field of the users you want to configure. This will become your input .csv file. For example:
-   
+
     ```
     UserPrincipalName
     ClaudeL@contoso.onmicrosoft.com
@@ -143,9 +147,9 @@ In this scenario, some users are opted in and some users are opted out of all Vi
     ShawnM@contoso.onmicrosoft.com
     ```
 
-4.	Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user.
-Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see Set-UserAnalyticsConfig / Parameters. 
-    
+4. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user.
+Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see Set-UserAnalyticsConfig / Parameters.
+
     ```powershell
     $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
     $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv>"
@@ -162,7 +166,7 @@ Note: The output.csv file will contain the results of running this PowerShell sc
     }
     ```
 
-5.	Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
+5. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
 
 This PowerShell script does the following:
 
@@ -178,11 +182,11 @@ While Viva Insights is not available to these users, their data contributes to t
 
 ##### To set up optional opt-in
 
-This procedure is identical to [Set up mixed deployment](#set-up-mixed-deployment) with one important difference: Users are opted out to start with. In this procedure, the Microsoft 365 admin creates a .csv file that lists users who will start out as opted out but can choose to opt themselves in. 
+This procedure is identical to [Set up mixed deployment](#set-up-mixed-deployment) with one important difference: Users are opted out to start with. In this procedure, the Microsoft 365 admin creates a .csv file that lists users who will start out as opted out but can choose to opt themselves in.
 
 **Role** - Microsoft 365 admin
 
-1. Follow steps 1 - 5 in [Set up mixed deployment](#set-up-mixed-deployment) with this exception: For step 4, use this PowerShell command: 
+1. Follow steps 1 - 5 in [Set up mixed deployment](#set-up-mixed-deployment) and for step 4, use the following PowerShell command instead:
 
     ```powershell
     $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
@@ -199,16 +203,16 @@ This procedure is identical to [Set up mixed deployment](#set-up-mixed-deploymen
     Get-UserAnalyticsConfig –Identity $upn | Export-Csv $outFileName 
     }
     ```
-    
+
    This PowerShell script does the following:
-   
+
    * Displays the user principal name for each user.
    * Sets the specified privacy mode for each user.
    * Creates a .csv file with all the users that were processed and shows their status. 
-   
+
    After you complete these steps, users can later use the dashboard to [opt themselves in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) if they so choose.
 
-2.	To ensure that particular users are not able to opt themselves into Viva Insights, remove the Viva Insights Service plan from those users.  
+2. To ensure that particular users are not able to opt themselves into Viva Insights, remove the Viva Insights Service plan from those users.  
 
 ## Run a pilot rollout
 
@@ -304,11 +308,12 @@ If users have questions about using Viva Insights, point them to the published [
 
 * See these descriptions of the Viva Insights surfaces:
 
-  * [Viva Insights in Microsoft Teams](../teams/viva-insights-home.md)
+  * [Viva Insights app in Teams](../teams/viva-insights-home.md)
+  * [Viva Insights Home page](./../use/home-web.md)
   * [Personal dashboard](./../use/dashboard-2.md)
   * [Viva Insights Outlook add-in](./../use/add-in.md)
   * [Briefing emails](../Briefing/be-overview.md)
-  * [Digests](./../use/email-digests-3.md)
+  * [Digest emails](./../use/email-digests-3.md)
   * [Inline suggestions in Outlook](./../use/mya-notifications.md)
 
 <!--#### Training videos for Viva Insights

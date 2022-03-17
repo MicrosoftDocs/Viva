@@ -9,6 +9,8 @@
           href: topic-experiences-discovery-curation.md           
         - name: Microsoft Viva Topics roles 
           href: topic-experiences-roles.md 
+        - name: Supported languages
+          href: topics-language-support.md 
         - name: Get your environment ready 
           href: topic-experiences-get-ready.md           
 
@@ -29,6 +31,8 @@
           href: topic-experiences-user-permissions.md
         - name: Change the topic center name
           href: topic-experiences-administration.md
+        - name: Add the Topics app to Teams
+          href: add-topics-app.md
        
     - name: Work with topics
       items:

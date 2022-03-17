@@ -13,7 +13,7 @@ ms.subservice: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-advanced
-manager: scott.ruble
+manager: helayne
 audience: Admin
 
 ---

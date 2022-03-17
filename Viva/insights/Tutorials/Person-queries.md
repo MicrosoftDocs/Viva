@@ -35,7 +35,7 @@ Each query returns one row per person, per period.
 
 ![Query results row.](../images/wpa/tutorials/query-results-row.png)
 
-The file will include any standard or customized metrics you specify. The IsActive column in the output file is True if the employee sent at least one email or one instant message during the specified time period for the query.
+The file will include any standard or customized metrics you specify. The IsActive column in the output file is a Boolean value of "TRUE" or "FALSE." Active employees send at least one email or instant message during the unit of time—day, week, or month—defined by the query’s *Group by* setting.
 
 ![Query results metrics.](../images/wpa/tutorials/query-results-metrics.png)
 
@@ -105,7 +105,7 @@ The output of person queries automatically contains information that pertains to
 
 ## Select filters
 
-You can select which measured employees you want to include in your query results. For **Employees**, select if you want active, inactive, or all employees included in the query. Active employees are those who sent at least one email or instant message during the selected time period (the aggregated period set for the query). 
+ You can select which measured employees you want to include in your query results. For **Employees**, select whether you want Active, Inactive, or All employees included in the query. Active employees send at least one email or instant message during the unit of time—day, week, or month—defined by the query’s *Group by* setting.
 
 You can then select other filters to exclude certain rows from the output file based on a person's organizational attributes, such as function type. For example, the following filter will only list people from the Operations and Sales groups.
 
@@ -165,7 +165,8 @@ You can create a person query to investigate if long meetings are a significant 
     > * To make sure you have a line of data for every person and date combination for the metrics, add **Emails sent** as one of your metrics.
     > * After you export the results, replace all null values with zeros to ensure that calculations for averages and other statistics include all person and date combinations.
 
-11. In the **Filters** section, for **Employees**, select if you want **Active only**, **Inactive only**, or **All employees** included in the query. Active employees are those who sent at least one email or instant message during the aggregated time period (date range) set for this query.
+11. In the **Filters** section, for **Employees**, select whether you want Active only, Inactive only, or All employees included in the query. Active employees send at least one email or instant message during the unit of time—day, week, or month—defined by the query’s Group by setting.
+
 12. Select **Add filter**, and then in the menus, select **FunctionType** > **Equals** > **Operations**.
 13. In the **Organizational data** section, you can select what data columns to include in the output (.csv) file. Select **Clear all** to clear all selected columns, and then select which columns you want to include from the list. Use **Select all** to include all columns, which is the default.
 14. Select **Run** at the top right to run the query.

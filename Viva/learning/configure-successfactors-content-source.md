@@ -32,6 +32,21 @@ This article shows you how to configure SAP SuccessFactors as a third-party cont
 1. Obtain the required workflows to edit the PARTNER_EXTRACT configuration, which you can get to by going to **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
 2. Use the PGP tool to generate the PGP key (Public key, Private Key, Private Key Passphrase) of your preferred size. While generating the PGP key, you can select RSA algorithm, which is recommended. GNUPG tool is one of the PGP keys generation tools that you can use.
+To generate private and public PGP key pairs, you can work with your IT admin or follow the guidelines in the [GNU Privacy Guard](https://www.gnupg.org/).
+
+   1. For Windows
+       1. Get GNU Privacy Guard for Windows by going to [Gpg4win](https://www.gpg4win.org/) and selecting **Download**.
+       2. Go to **About Gpg4win** and choose **Documentation** to view the documentation. Download the latest version.
+       3. Follow the installation instructions after downloading the software.
+       4. In the documentation that you downloaded, go to section 7: Creating a certificate.
+       5. Create a new PGP key pair.
+       6. Select **Make a Backup Of Your Key Pair** and save the secret file locally for future reference.
+       7. Open the certificate details of the same certificate and export the public key value.
+   2. For UNIX and Linux systems
+       1. Download [GNU Privacy Guard](https://www.gnupg.org/).
+       2. On the GnuPG website, go to **Documentation**, then choose **Guides**.
+       3. Open the GNU Privacy Handbook.
+       4. Follow the instructions in the section **Generating a new keypair**.
 
 3. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you'll need **Edit System Configuration** workflow permission in SuccessFactors.
 
@@ -39,10 +54,10 @@ This article shows you how to configure SAP SuccessFactors as a third-party cont
         - defaultJob.email=
     
     - Partner1
-        - PartnerID maximum length is 10 characters. This ID can be your LMS tenant ID.
-    partners1.partnerID=
+        - The maximum length of PartnerID is 10 characters. For Microsoft Viva Learning enter the value **MVL**.
+            - partners1.partnerID=
     
-    - EncryptionKey is the PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK
+    - EncryptionKey is the PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK. Make sure to remove any line breaks in the key when you enter this value.
         - partners1.encryptionKey=
     
     - KeyOwner maps to the User-ID of public key
@@ -51,14 +66,31 @@ This article shows you how to configure SAP SuccessFactors as a third-party cont
     - enabled can be "false" or "true". Set it to "true" to enable the partner extract.
         - partners1.enabled=
     
-    [ ![Image of the PARTNER_EXTRACT configuration settings.](../media/learning/sf-focus.png) ](../media/learning/sf-2.png#lightbox)
+    [![Image of the PARTNER_EXTRACT configuration settings.](../media/learning/sf-focus.png)](../media/learning/sf-2.png#lightbox)
 
 Once you've completed these steps in the SuccessFactors portal, you'll need to complete the setup in the Microsoft 365 admin center.
+
+>[!NOTE]
+>Once you've finished the configuration in your SuccessFactors portal, SuccessFactors will generate the initial sync package. This may take up to 7 business days. Once the package is available in your SFTP folder path, Viva Learning will be able to begin communicating with SuccessFactors. If you can't find the package, contact your SuccessFactors support team.
 
 ## Configure in your Microsoft 365 admin center
 
 >[!NOTE]
 >You'll need to have admin permissions in Microsoft 365 to complete these steps.
+
+### Prerequisite for configuration
+
+Make sure that the SuccessFactors package is available in the SFTP folder path.
+
+To obtain the folder path:
+
+1. Navigate to **SF Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
+2. Get the value of the defaultFtp.path property.
+
+>[!NOTE]
+>It may take up to 7 business days after configuration in your SuccessFactors portal for the SuccessFactors package to appear in your folder path. If you're still unable to find the package, contact your SuccessFactors support team.
+
+### Admin center configuration
 
 1. Navigate to your [Microsoft 365 admin center](https://admin.microsoft.com).
 
@@ -104,7 +136,7 @@ Check the **Enable Learner Record Sync** checkbox to enable assignments and cour
 
 By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced.  
 
-### Prerequisite
+### Prerequisite for learner record sync
 
 You'll need to enable inbound user provisioning with SuccessFactors AD. [Learn how](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-cloud-only-tutorial)
 

@@ -36,7 +36,7 @@ When designing a query, Viva Insights uses these factors to calculate the cost o
 
 ![query estimate](../images/wpa/tutorials/query-estimate-1.png)
 
-In the bar above the estimated query cost, it'll show how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
+The bar above the estimated query cost shows how many units remain in the tenant's account. You can continue to run queries as long as this balance is greater than zero units.
 
 The Power BI templates that are currently available in Query designer use one or more predefined queries to use with the provided Power BI template.
 
@@ -165,7 +165,7 @@ If you open an existing, previously run query, and you edit it and run it again,
 No additional units are charged for the following:
 
 * Viva Insights in Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following features: [Plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), and [Explore the stats](../use/explore-intro.md).
+* Your use of the following features: [Plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), and [Explore the stats](../use/explore-intro.md).
 * Your choice of tool, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.

@@ -2,15 +2,18 @@
 title: Briefing languages
 description: List of supported languages for Briefings
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 localization_priority: normal 
 search.appverid:
 - MET150
-ms.prod: Mya
-ms.collection: M365-analytics
-manager: scott.ruble
-audience: Admin
+ms.service: viva 
+ms.subservice: viva-insights 
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+manager: helayne
+audience: user
 ---
 # Briefing languages
 
@@ -18,11 +21,16 @@ If you have an Exchange Online license and your Microsoft 365 is set to one of t
 
 |Supported languages |
 |------- |
-|English (EN)|
-|Italian (IT) |
-|Portuguese (PT) |
-|Spanish (ES) |
-<!--|French (FR) |
-|German (DE) |-->
+|English |
+|Japanese * |
+|German * |
+|Chinese (Simplified) * |
+|Spanish |
+|French * |
+|Portuguese |
+|Italian |
+
+>[!NOTE]
+>The asterisked (*) languages are part of a rolling release with an expected general availability by the end of March 2022.
 
 See [Change your display language and time zone in Microsoft 365 for Business](https://support.microsoft.com/topic/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b) to learn how to change your Microsoft 365 language setting.

@@ -37,15 +37,16 @@ Third-party content sources are not enabled by default. To enable these sources,
 
 |Content provider  |Configuration instructions  |
 |---------|---------|
+|EdCast    |[Configure EdCast as a content source](configure-edcast-content-source.md)    |
 |Go1     |[Configure Go1 as a content source](configure-go1-content-source.md)         |
+|OpenSesame    |[Configure OpenSesame as a content source](configure-opensesame-content-source.md)    |
 |Skillsoft     |[Configure Skillsoft as a content source](configure-skillsoft-content-source.md)         |
 |Udemy   |[Configure Udemy as a content source](configure-udemy-content-source.md)         |
-|EdCast    |[Configure EdCast as a content source](configure-edcast-content-source.md)    |
-|edX    |Follow the steps below to add edX in your Microsoft 365 admin center.    |
 |Coursera    |Follow the steps below to add Coursera in your Microsoft 365 admin center.    |
-|Pluralsight    |Follow the steps below to add Pluralsight in your Microsoft 365 admin center.    |
+|edX    |Follow the steps below to add edX in your Microsoft 365 admin center.    |
 |Infosec    |Follow the steps below to add Infosec in your Microsoft 365 admin center.    |
 |Josh Bersin Academy    |Follow the steps below to add Josh Bersin Academy in your Microsoft 365 admin center.    |
+|Pluralsight    |Follow the steps below to add Pluralsight in your Microsoft 365 admin center.    |
 
 1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable your chosen content provider or learning management system in the panel.
@@ -63,6 +64,7 @@ If you experience any errors in your Microsoft 365 admin center during content i
 |:----------------|:----------|:----------------------|
 |All providers |USR_ERROR_INVALID_RESOURCE_CREDENTIALS |The authentication credentials you provided are Invalid. Make sure you enter the correct credentials. You can contact Microsoft customer support for more details. |
 |All providers |USR_ERROR_ACCESS_DENIED |Access denied by partner. Confirm that the credentials you entered are correct or contact the content provider's support team. |
+|All providers |Changes not saved | Make sure that you've entered the correct configuration details. |
 
 ## Content consumption for end users
 
