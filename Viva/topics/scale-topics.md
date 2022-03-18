@@ -1,7 +1,7 @@
 ---
 title: Manage topics at scale in Microsoft Viva Topics
-ms.author: ruthholls
-author: ruthhollands
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: lauris
 audience: admin

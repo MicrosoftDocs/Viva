@@ -1,7 +1,7 @@
 ---
 title: Learn about topics
-ms.author: ruthholls
-author: ruthhollands
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 audience: enabler, admin
 ms.topic: article
