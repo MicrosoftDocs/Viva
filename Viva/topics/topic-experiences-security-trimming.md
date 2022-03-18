@@ -12,7 +12,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how security is used to view topics in Viva Topics.
+description: Learn how security is used when viewing topics in Viva Topics.
 ---
 
 # Security trimming in Microsoft Viva Topics
@@ -64,6 +64,4 @@ The following table describes what users - topic viewers, contributors, and know
 
 
 
-
-## See also
 
