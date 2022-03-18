@@ -1,7 +1,7 @@
 ---
 title: How to create a new topic in Microsoft Viva Topics
-ms.author: ruthholls
-author: ruthhollands
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
