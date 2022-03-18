@@ -1,7 +1,7 @@
 ---
-title: Create a new topic in Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+title: How to create a new topic in Microsoft Viva Topics
+ms.author: ruthholls
+author: ruthhollands
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -16,7 +16,7 @@ description: Learn how to create a new topic in Microsoft Viva Topics.
 
 ---
 
-# Create a new topic in Microsoft Viva Topics
+# How to create a new topic in Microsoft Viva Topics
 
 In Viva Topics, you can create a new topic if one is not discovered through indexing or if the AI technology did not find enough evidence to establish it as a topic.
 
@@ -113,9 +113,6 @@ You can create a new topic from two locations:
 
 After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item. 
 
-
-
-## See also
 
 
 
