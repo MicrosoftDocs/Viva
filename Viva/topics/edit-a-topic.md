@@ -1,7 +1,7 @@
 ---
 title: Edit an existing topic in Microsoft Viva Topics
-ms.author: ruthholls
-author: ruthhollands
+ms.author: ruthhollamds
+author: ruthholls
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
