@@ -54,4 +54,4 @@ Viva Topics is available to customers worldwide. However, for processing and ind
 English|Spanish (coming soon)|French (coming soon)
 German (coming soon) |
 
-For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support).
+For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva/viva-language-support.md).
