@@ -52,6 +52,9 @@ Knowledge managers help to guide discovered topics through the various topic lif
   When a published topic is removed, the page with the curated details will need to be deleted manually through the Pages library of the topic center.
 
 > [!Note] 
+> A topic, when removed, can take up to 24 hours to stop appearing to users in your organization.
+
+> [!Note] 
 > On the **Manage topics** page, each knowledge manager will only be able to see topics where they have access to the underlying files and pages connected to the topic. This permission trimming will be reflected in the list of topics that appear in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs. The topic counts, however, show the total counts in the organization regardless of permissions.
 
 ## Requirements
