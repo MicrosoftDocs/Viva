@@ -12,7 +12,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn about user roles in Viva Topics.
+description: Learn about the different user roles in Viva Topics.
 ---
 
 # Roles in Microsoft Viva Topics

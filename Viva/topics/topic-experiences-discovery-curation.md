@@ -12,7 +12,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Overview of how topics are discovered in Viva Topics.
+description: Overview of topic discovery and curation in Viva Topics
 ---
 
 # Topic discovery and curation in Microsoft Viva Topics 
