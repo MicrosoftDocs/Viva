@@ -25,9 +25,9 @@ Personal insights in Microsoft Viva Insights help you find opportunities to buil
 * **Personal insights in Viva Insights data is processed and stored in the employee’s Exchange Online mailbox**. Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat and call signals from Skype for Business and from Teams, and—if both you and your organization's IT administrator opt you in—Windows 10 application activity history. Viva Insights stores and processes this data inside each employee’s Exchange Online mailbox.
 * **Personal insights in Viva Insights supports General Data Protection Regulation (GDPR) compliance**. Microsoft has designed Personal insights in Viva Insights to support your organization’s needs to follow [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
 
-## Architecture
+<!--## Architecture
 
-In the following architecture illustration, note the relationship of Personal insights in Viva Insights to Exchange Online. This placement underscores the fact that any personal insights data that you can view in Viva Insights is the same data that's visible in your Exchange mailbox, as described in the following principles about data privacy.
+In the following architecture illustration, note the relationship of Personal insights in Viva Insights to Exchange Online. This placement underscores the fact that any personal insights data that you can view in Viva Insights is the same data that's visible in your Exchange mailbox, as described in the following principles about data privacy.-->
 
 ## Key principles
 
