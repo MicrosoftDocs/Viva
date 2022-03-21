@@ -1,7 +1,7 @@
 ---
 title: Edit an existing topic in Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
@@ -29,7 +29,7 @@ In Viva Topics, you can edit an existing topic. You might need to do this if you
 > [!Note] 
 > While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics. 
 
-## Requirements
+## Requirements to edit a topic
 
 To edit an existing topic, you need to:
 - Have a Viva Topics license.

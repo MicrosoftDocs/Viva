@@ -37,14 +37,16 @@
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
+            - name: EdCast
+              href: configure-edcast-content-source.md
             - name: Go1
               href: configure-go1-content-source.md
+            - name: OpenSesame
+              href: configure-opensesame-content-source.md
             - name: Skillsoft
               href: configure-skillsoft-content-source.md
             - name: Udemy
               href: configure-udemy-content-source.md
-            - name: EdCast
-              href: configure-edcast-content-source.md
         - name: Free courses from LinkedIn Learning
           href: linkedin-learning-free-courses.md
 
