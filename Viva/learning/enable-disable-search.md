@@ -22,7 +22,7 @@ description: Learn how to enable and disable the Learning tab in search results 
 >[!NOTE]
 >You'll need a premium license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning)
 
-Users in your organization can search for learning opportunities from the search bar in SharePoint, Office.com, the Office app, and the **Work** tab in Bing.
+Users in your organization can search for learning opportunities from the search bar in SharePoint, Office.com, the Office app, and the Work tab in Bing.
 
 The **Learning** tab is enabled by default in Microsoft 365 Search in SharePoint, the Work tab Bing, Office.com, and the Office app.  
 
@@ -33,4 +33,6 @@ The **Learning** tab is enabled by default in Microsoft 365 Search in SharePoint
 3. Go to the **Customizations** tab, then choose **Verticals**.
 4. Select the **Learning** vertical checkbox. Then select the **Enable/Disable** button to show or hide the Learning tab in Microsoft 365 search.
 
-It can take up to 6 hours for this change to reflect in the Search apps.
+It can take a few hours for this change to reflect in the Search apps.
+
+[Learn more about Search verticals](/microsoftsearch/manage-verticals#manage-organization-level-verticals)
