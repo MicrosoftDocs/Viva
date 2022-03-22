@@ -1,8 +1,8 @@
 ---
 title: "Create a SharePoint home site for Viva Connections"
 ms.reviewer: 
-ms.author: v-mathavale
-author: v-mathavale
+ms.author: hokavian
+author: Holland-ODSP
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -40,33 +40,19 @@ A home site needs site navigation that is organized well, highlights popular res
 
 ## Summary of web parts
 
-### Image of the home site
-:::image type="content" source="../media/connections/vc-home-site-design.png" alt-text="Home site"::: 
-
-#### Web parts key
-1.	Hero web part
-2.	World clock web part
-3.	Weather web part
-4.	Feed for Viva Connections web part
-5.	Dashboard web part
-6.	Image web part
-7.	File viewer web part
-8.	Events web part
-9.	Quick Links web part
-10.	Quick Links web part
-11.	News web part
-12.	Quick Links web part
-13.	Call to action web part
+|Image of the home site  |Web parts key  |
+|:---------|:---------|
+|:::image type="content" source="../media/connections/vc-home-site-design-60.png" alt-text="Home site" lightbox="../media/connections/vc-home-site-design.png" border="false":::    |<ol><li>Hero web part</li><li>World clock web part</li><li>Weather web part</li><li>Feed for Viva Connections web part</li><li>Dashboard web part</li><li>Image web part</li><li>File viewer web part</li><li>Events web part</li><li>Quick Links web part</li><li>Quick Links web part</li><li>News web part</li><li>Quick Links web part</li><li>Call to action web part</li></ol>|
 
 ## Summary of the site structure
 This home site design uses a vertical section and a combination of one and two column sections. After [creating your communication site](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name), start by [laying out the sections](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) before adding web parts.  
 
-:::image type="content" source="../media/connections/home-site-structure-2.png" alt-text="Home site design":::    
+:::image type="content" source="../media/connections/home-site-structure-2.png" alt-text="Home site design" border="false":::    
 
 ## Build this site 
 Start with a [modern SharePoint communication site](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name). Next, [start adding sections](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899)following the diagram in the site sections summary. Then, add and edit web parts. The guidance for customizing web parts can be applied when you are in edit-mode for each web part. 
 
-:::image type="content" source="../media/connections/home-site-top.png" alt-text="Build Home site top section":::
+:::image type="content" source="../media/connections/home-site-top.png" alt-text="Build Home site top section" border="false":::
 
 
 |Number  |Web part  |Customization guidance  |
@@ -77,7 +63,7 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 |4  | [The Feed for Viva Connections](use-dashboard-web-part-on-home-site.md) | No settings needed. The [Feed content is personalized](faqs-viva-connections-feed.md) for each user and comes from SharePoint News and Yammer communities that they follow.  |
 |5  | [The Dashboard web part](use-feed-web-part-for-viva-connections.md)| Set the **Maximum number of cards to show** to 9  |
 
-:::image type="content" source="../media/connections/home-site-middle.png" alt-text="Build Home site middle section":::
+:::image type="content" source="../media/connections/home-site-middle.png" alt-text="Build Home site middle section" border="false":::
 
 | Number| Web part|Customization guidance|
 |---|---|---|
@@ -85,11 +71,11 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 | 7 | File viewer web part | No settings guidance |
 | 8 | Events web part | Select the **Filmstrip** layout and toggle **Show event images** to **On** |
 
-:::image type="content" source="../media/connections/home-site-bottom.png" alt-text="Build home site bottom section":::
+:::image type="content" source="../media/connections/home-site-bottom.png" alt-text="Build home site bottom section" border="false":::
 
 
 | Number |  Web part       |  Customization guidance |
-|---|---    |---|
+|:---|:---|:---|
 | 9  | Quick Links web part <br>    | Select the **Compact** layout and then toggle **Show image in layout** to **Yes**.|
 | 10 | Quick Links web part    | Select the **List** layout and toggle **Show descriptions** and **Show icons** to **Yes**.|
 | 11 | News web part     | Select the **Side-by-side** layout, set the **Number of news posts to show** to 4. Then toggle **Show number of views**, **Show author**, and **Show publish date** to **On**. |
