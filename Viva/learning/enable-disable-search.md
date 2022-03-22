@@ -1,5 +1,5 @@
 ---
-title: Enable or disable the Learning tab in Microsoft 365 search results
+title: Enable or disable the Learning tab in Bing, Office.com, and SharePoint
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 description: Learn how to enable and disable the Learning tab in search results in Microsoft 365, and understand how to search content in SharePoint, Office apps, and Bing.
 ---
 
-# Enable or disable the Learning tab in Bing, Office.com, SharePoint
+# Enable or disable the Learning tab in Bing, Office.com, and SharePoint
 
 >[!NOTE]
 >You'll need a premium license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning)
@@ -33,4 +33,4 @@ Users in your organization can search for learning opportunities from the search
 
 It can take a few hours for this change to reflect in the Search apps.
 
-[Learn more about Search verticals](https://docs.microsoft.com/microsoftsearch/manage-verticals#manage-organization-level-verticals)
+[Learn more about Search verticals](/microsoftsearch/manage-verticals#manage-organization-level-verticals)
