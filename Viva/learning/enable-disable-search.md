@@ -20,7 +20,7 @@ description: Learn how to enable and disable the Learning tab in search results 
 # Enable or disable the Learning tab in Bing, Office.com, and SharePoint
 
 >[!NOTE]
->You'll need a premium license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning)
+>You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning)
 
 Users in your organization can search for learning opportunities from the search bar in SharePoint, Office.com, the Office app, and the Work tab in Bing. The **Learning** tab is enabled by default in these apps.  
 
