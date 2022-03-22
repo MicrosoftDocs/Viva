@@ -36,6 +36,8 @@ items:
                 href: personal/teams/viva-insights-stay-connected.md
               - name: Protect time
                 href: personal/teams/viva-insights-protect-time.md
+              - name: Inspiration library
+                href: personal/teams/inspiration.md  
               - name: Setup
                 items: 
                   - name: Discover the app
@@ -439,8 +441,6 @@ items:
                             href: tutorials/solutionsv2-participants.md
                           - name: Concepts
                             href: tutorials/solutionsv2-conceptual.md
-                      - name: Opportunities scan
-                        href: Use/solutions-scan.md
                   - name: Notifications 
                     href: use/wpa-notifications.md 
               - name: In Power BI
