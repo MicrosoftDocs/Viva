@@ -4,13 +4,12 @@ metadata:
   description: Get answers to the most frequently asked questions about the Briefing email from Microsoft Viva Insights
   author: madehmer
   ms.author: helayne
-  ms.topic: article
+  ms.topic: faq
   ms.localizationpriority: medium 
+  ms.prod: Mya
   ms.service: viva 
   ms.subservice: viva-insights 
-  ms.collection:
-  - viva-insights-personal
-    
+  ms.collection: viva-insights-personal
 title: Briefing email from Microsoft Viva FAQ
 summary: |
 
