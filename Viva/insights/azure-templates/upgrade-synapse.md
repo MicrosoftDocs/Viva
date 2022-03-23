@@ -45,11 +45,15 @@ Login to the Azure Portal, and launch Azure CloudShell by clicking the link in t
 
 1. To format the File Download SAS URL, open Notepad in Windows and copy and paste the following code:
 
-$sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"
+   ```
+    $sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"
+   ```
 
-You will need to paste the SAS Token provided in part 1 after the word zip, and before the closing quotation.  For example:
+   You will need to paste the SAS Token provided in part 1 after the word zip, and before the closing quotation.  For example:
 
-$sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”
+   ```
+    $sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”
+   ```
 
 1. Set SAS URL in Cloud Shell
 Simply paste the full command with URL and SAS Token from Notepad in the last step and paste in Cloud Shell command line and press enter.
