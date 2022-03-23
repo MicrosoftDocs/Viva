@@ -36,7 +36,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ### Start a wellbeing plan
 
-Enroll your team in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive a weekly digest, in-line suggestions, and actionable insights.
+Enroll your team in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive email digests, in-line suggestions, and actionable insights.
 
 #### Define and share working hours
 

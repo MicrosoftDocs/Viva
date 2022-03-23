@@ -96,7 +96,7 @@ As a qualifying manager, you'll see a top insight with a **Learn more** link to 
 
 ## Briefing and digest emails
 
-As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
+As a team manager or lead, you'll also see additional information and suggestions in your Viva digest email and Briefing emails about your team. For details, see [Viva digest emails](../personal/use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
 
 ## Related topics
 
