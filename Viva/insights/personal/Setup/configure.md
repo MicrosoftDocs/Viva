@@ -3,7 +3,7 @@
 title: Personal insights configuration for Microsoft 365 administrators
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: madehmer
-ms.author: loreenl
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva 
@@ -58,7 +58,7 @@ You can configure access to Viva Insights elements for all users in your organiz
 3. In the left pane, expand **Settings**, and then select **Org settings**.
 4. Under **Services**, select **Viva Insights** (including MyAnalytics) to see settings for the different options.
 5. Select **Dashboard** to keep all Viva Insights users in your organization opted _in_ for access to the dashboard. Deselect **Dashboard** to opt users _out_.
-6. Select **Digests** to keep all Viva Insights users in your organization opted _in_ for access to the [email digests](../../personal/use/email-digests-3.md). Deselect **Digests** to opt users _out_.  
+6. Select **Digests** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digests** to opt users _out_.  
 7. Select **Viva Insights Outlook add-in** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](../use/mya-notifications.md#opt-out-of-inline-suggestions) *on* or *off* through their own **Settings** within the Viva Insights add-in.
 
 >[!Note]
