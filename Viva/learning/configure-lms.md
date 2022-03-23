@@ -24,7 +24,7 @@ A growing set of learning management systems are available through Viva Learning
 Learning management systems are not enabled by default. To enable these sources, you will need to [add them in the Microsoft 365 admin center](content-sources-365-admin-center.md#configure-settings-for-the-learning-content-sources) and follow the specific instructions shown in the following table.
 
 >[!NOTE]
->You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning)
+>You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
 >[!NOTE]
 >It can take 24 to 48 hours for Viva Learning users to see content for the sources you enabled in the admin portal.
