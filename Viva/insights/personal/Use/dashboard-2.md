@@ -3,7 +3,7 @@
 title: MyAnalytics dashboard
 description: Learn about your work patterns in MyAnalytics
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: high 
 ms.collection: 
@@ -59,7 +59,7 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 MyAnalytics gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
 
-![Weekly digest insight.](../../Images/mya/use/digest-insight.png)
+![Digest email insight.](../../Images/mya/use/digest-insight.png)
 
 These insights are also available on your MyAnalytics dashboard home page as well as on the specific outcome pages. Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
 
@@ -108,7 +108,7 @@ Your experience rating and feedback about Viva Insights and MyAnalytics is impor
 5. Select **Save** to save your changes.
 
 >[!NOTE]
->It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digests or inline suggestions.
+>It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digest emails or inline suggestions.
 
 ### If I am opted out, can I opt back in?
 
