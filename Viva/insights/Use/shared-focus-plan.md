@@ -134,6 +134,6 @@ You can choose whether, during focus time, your status changes to "focusing" and
 
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
-### Focus plan monthly digest
+### Focus plan digest
 
-After you enroll in a focus plan, the content of the monthly digest becomes tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside.
+After you enroll in a focus plan, your digest email will be tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside.

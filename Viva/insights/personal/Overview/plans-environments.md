@@ -14,12 +14,12 @@ ms.collection:
 - M365-analytics
 - viva-insights-personal
 manager: helayne
-audience: Admin
+audience: Admin, user
 ---
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Digest emails](../use/email-digests-3.md), [Insights Outlook add-in](../use/add-in.md), and [Inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
 You can use these Viva Insights and MyAnalytics features when your organization subscribes to the following Microsoft 365 or Office 365 plans:
 
@@ -48,8 +48,8 @@ After users get assigned licenses with a Microsoft Viva Insights, MyAnalytics (F
 | ------- | ------------------|
 | [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
 | [Insights Outlook add-in](../use/add-in.md) and [Inline suggestions](../use/mya-notifications.md) | Available about one day after license assignment |
-| The [Dashboard](../use/dashboard-2.md), [Viva Insights Home page](../use/home-web.md), and [Viva Insights in Teams](../teams/viva-teams-app.md) | Available a few days after license assignment |
-| [Digest emails](../use/email-digests-3.md) | Sent the Monday of the first week after the welcome email |
+| The [dashboard](../use/dashboard-2.md), [Viva Insights Home page](../use/home-web.md), and [Viva Insights in Teams](../teams/viva-teams-app.md) | Available a few days after license assignment |
+| [Digest emails](../use/email-digests-3.md) | Sent two to three weeks after the welcome email |
 
 >[!Note]  
 >
