@@ -25,7 +25,7 @@ description: "Create a SharePoint home site for Viva Connections"
 
 Use this guided walkthrough if you're creating a home site so your organization can use Viva Connections. Get guidance on how to create a cohesive experience between the desktop and mobile apps. Before you start, learn more about [planning home site content](home-site-plan.md) and [how to launch a healthy portal](/sharepoint/portal-health).
 
-Don’t have time to create a home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md)
+Don’t have time to create a home site from scratch? Consider using [the Landing site template from the SharePoint look book](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) and then add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and the [Feed web part](use-feed-web-part-for-viva-connections.md).
 
 > [!NOTE]
 > Only SharePoint admins can set sites as a home site.  
@@ -57,30 +57,30 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 
 |Number  |Web part  |Customization guidance  |
 |---------|---------|---------|
-|1    | [Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b90d-8ce3-be5866430645#:~:text=Watch%20this%20video%20to%20see%20how%20it%27s%20done%2C,%28like%20that%20on%20a%20Showcase%20site%29.%20See%20More)| Select **Tiles layout** and then **Four tiles** |
-|2    | [World clock web part](https://support.microsoft.com/en-us/office/use-the-world-clock-web-part-aa2ede87-e331-44f1-a116-a5b8fc67fd04#:~:text=1%20Go%20to%20the%20page%20where%20you%20want,Clock%20web%20part%20for%20SharePoint%20...%20See%20More)| Toggle the **Show days of the week** to **On** |
+|1    | [Hero web part](https://support.microsoft.com/en-us/office/use-the-hero-web-part-d57f449b-19a0-4b0d-8ce3-be5866430645#:~:text=Watch%20this%20video%20to%20see%20how%20it%27s%20done%2C,%28like%20that%20on%20a%20Showcase%20site%29.%20See%20More)| Select **Tiles layout** and then **Four tiles**. |
+|2    | [World clock web part](https://support.microsoft.com/en-us/office/use-the-world-clock-web-part-aa2ede87-e331-44f1-a116-a5b8fc67fd04#:~:text=1%20Go%20to%20the%20page%20where%20you%20want,Clock%20web%20part%20for%20SharePoint%20...%20See%20More)| Toggle the **Show days of the week** to **On**. |
 |3     | [Weather web part](https://support.microsoft.com/en-us/office/show-the-weather-on-your-page-4a86540e-0846-4fc0-bad0-1a82fcd430fc)        |Decide which temperate measurement system makes the most sense for your audience between **Fahrenheit** and **Celsius**.|
 |4  | [The Feed for Viva Connections](use-dashboard-web-part-on-home-site.md) | No settings needed. The [Feed content is personalized](faqs-viva-connections-feed.md) for each user and comes from SharePoint News and Yammer communities that they follow.  |
-|5  | [The Dashboard web part](use-feed-web-part-for-viva-connections.md)| Set the **Maximum number of cards to show** to 9  |
+|5  | [The Dashboard web part](use-feed-web-part-for-viva-connections.md)| Set the **Maximum number of cards to show** to 9.|
 
 :::image type="content" source="../media/connections/home-site-middle.png" alt-text="Build Home site middle section" border="false":::
 
 | Number| Web part|Customization guidance|
 |---|---|---|
-| 6 | Image web part|Toggle **Add text over image** to **On**|
-| 7 | File viewer web part | No settings guidance |
-| 8 | Events web part | Select the **Filmstrip** layout and toggle **Show event images** to **On** |
+| 6 | Image web part|Toggle **Add text over image** to **On**.|
+| 7 | File viewer web part | No settings guidance. |
+| 8 | Events web part | Select the **Filmstrip** layout and toggle **Show event images** to **On**. |
 
 :::image type="content" source="../media/connections/home-site-bottom.png" alt-text="Build home site bottom section" border="false":::
 
 
 | Number |  Web part       |  Customization guidance |
 |:---|:---|:---|
-| 9  | Quick Links web part <br>    | Select the **Compact** layout and then toggle **Show image in layout** to **Yes**.|
+| 9  | Quick Links web part   | Select the **Compact** layout and then toggle **Show image in layout** to **Yes**.|
 | 10 | Quick Links web part    | Select the **List** layout and toggle **Show descriptions** and **Show icons** to **Yes**.|
 | 11 | News web part     | Select the **Side-by-side** layout, set the **Number of news posts to show** to 4. Then toggle **Show number of views**, **Show author**, and **Show publish date** to **On**. |
-|  12 | Quick Links web part     |  Select the **Grid** layout|
-|  13 | Call to action web part     |  No settings guidance |
+|  12 | Quick Links web part     |  Select the **Grid** layout.|
+|  13 | Call to action web part     |  No settings guidance. |
 
 
 ## Customize site details
