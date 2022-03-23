@@ -49,7 +49,7 @@ This home site design uses a vertical section and a combination of one and two c
 
 :::image type="content" source="../media/connections/home-site-structure-2.png" alt-text="Home site design" border="false":::    
 
-## Build this site 
+## Build the site 
 Start with a [modern SharePoint communication site](https://support.microsoft.com/en-us/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb#:~:text=Steps%20to%20create%20a%20communication%20site%3A%201%20Sign,5%20Give%20your%20new%20communication%20site%20a%20name). Next, [start adding sections](https://support.microsoft.com/en-us/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899)following the diagram in the site sections summary. Then, add and edit web parts. The guidance for customizing web parts can be applied when you are in edit-mode for each web part. 
 
 :::image type="content" source="../media/connections/home-site-top.png" alt-text="Build Home site top section" border="false":::
