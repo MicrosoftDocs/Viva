@@ -124,7 +124,7 @@ In this scenario, Viva Insights is off by default but users can turn it on for t
 
 2. In the left pane, expand **Settings** and then select **Org settings**.
 3. On the **Service** tab, select **Microsoft Viva Insights** (including MyAnalytics). This opens a page to configure access to Viva Insights elements.
-4. Deselect **Dashboard**, **Digest**, and **Viva Insights Outlook add-in** to keep all users in your organization opted out of all Viva Insights features.
+4. Clear the selection for **Dashboard**, **Digest**, and **Viva Insights Outlook add-in** to keep all users in your organization opted out of all Viva Insights features.
 
 After these settings are complete, users can open the dashboard and [turn on Viva Insights features by themselves](../use/opt-out-of-mya.md).
 
