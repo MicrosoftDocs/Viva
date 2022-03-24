@@ -232,6 +232,6 @@ Learn how to [set up and deploy Viva Connections for your organization](guide-to
 
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
 
-[Learn how to plan, build, and launch a home site](/viva/connections/home-site-plan)
+[Learn how to plan, build, and launch a home site](home-site-plan.md)
 
 [Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)

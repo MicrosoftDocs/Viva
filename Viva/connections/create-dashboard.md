@@ -160,7 +160,7 @@ You can choose the **Card designer** option to design your own card that include
 1. While in **edit** mode, select **+ Add a card** from the dashboard.
 2. Select **Card designer**.
 
-  ![Adding a Card designer card](../media/connections/card-designer.png)
+  ![Adding a Card designer card](../media/connections/card-designer-card.png)
 
 3. In the **property** pane, select your card options.
 
