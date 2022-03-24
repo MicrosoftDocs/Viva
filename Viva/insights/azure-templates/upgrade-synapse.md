@@ -17,8 +17,6 @@ audience: Admin
 ---
 # Upgrade to Synapse Analytics
 
-_These templates are only available as part of a Microsoft service engagement._
-
 Your current Azure Templates have been using Workplace Analytics data that's been exported and running on Azure Databricks for computations. To improve usability and reduce costs, you can upgrade from Databricks to Azure Synapse Analytics.
 
 ## Prerequisites
@@ -40,27 +38,31 @@ Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview 
 
 ## Download the scripts
 
-1. To format the File Download SAS URL, open Notepad in Windows, and then copy and paste the following:
+1. To format the SAS URL for the script you need to download, open Windows Notepad, and then copy and paste the following:
 
-   ```$sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"```
-
-   And then add the SAS Token after **zip** and before the closing double quotes, as shown in the following example URL:
-
+   ```azure-cli
+   $sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"
    ```
-    $sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”
-   ```
+
+   And then add the SAS Token between **zip?** and **"** (the closing double quotes), as shown in the following example URL:
+
+   ```$sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”```
 
 1. Copy the full SAS URL, including your SAS Token (as described in the previous step), paste it in the Cloud Shell command line, and then press **Enter**.
 1. In the Cloud Shell command line, run the following to download the Scripts .zip file:
 
-   ```Invoke-WebRequest -Uri $sasuri -outfile ./aztScriptsCloudShell.zip```
+   ```azure-cli
+   Invoke-WebRequest -Uri $sasuri -outfile ./aztScriptsCloudShell.zip
+   ```
 
 >[!Note]
 >If successful, you won't see any output. However, if errors do occur, you'll see them as output.
 
 1. Run the following to unzip the Scripts Archive:
 
-   ```Expand-Archive -LiteralPath ./aztScriptsCloudShell.zip -DestinationPath ./ -Force```
+   ```azure-cli
+   Expand-Archive -LiteralPath ./aztScriptsCloudShell.zip -DestinationPath ./ -Force
+   ```
 
 1. Run ```dir``` to list the directories in the current folder, and confirm that the **AztScripts_20211011** directory is listed:
 
@@ -68,13 +70,15 @@ Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview 
 
 1. To set up the Params file, run the following to copy the **template-all-param.txt** file that you just downloaded and rename it to **azt-param.txt**, which you can then edit to use in the script:
 
-   ```Copy-Item ./AztScripts_20211011/template-all-param.txt ./AztScripts_20211011/azt-param.txt```
+   ```azure-cli
+   Copy-Item ./AztScripts_20211011/template-all-param.txt ./AztScripts_20211011/azt-param.txt
+   ```
 
 1. Select the **editor** (**{}**) icon to open the [Cloud Shell editor](https://docs.microsoft.com/azure/cloud-shell/using-cloud-shell-editor#opening-the-editor), and then open the **azt-param.txt** file.
 1. In the left pane, expand the **AztScripts_20211011** file folder, and then locate and open the **azt-param.txt** file.
 1. You'll need to enter the parameters that are specific to your environment, as described in the following section before you can complete the upgrade.
 
-## Required parameters
+## Script parameters
 
 The following describes what you must enter within each section of the **azt-param.txt** file for this upgrade process.
 
@@ -139,29 +143,79 @@ The following is shown in the App Registration UI in Azure for your current Azur
 >[!Note]
 >Please save the **azt-param.txt** file after entering the required parameters described in this section.
 
-## Run the scripts
+## Run the script
 
-After you've entered the correct parameters in the **azt-param.txt** file, you can run the scripts.
+After you've entered the correct parameters in the **azt-param.txt** file, you can run the script.
 
-1. In Cloud Shell, run the following to open the folder: ```cd ./AztScripts_20211011```
-1. Run the following to create the Synapse workspace and the Spark pool cluster: ```./2m-azuresynapseworkspaceandlinkage.ps1```
-1. After the Synapse workspace is created with permissions, a Gen2 storage account is linked to Synapse and a Spark pool cluster.
-1. Run the following to add the packages (Requirements7.txt) to the Spark pool cluster and link to the Blob storage: ```./2m-azuresynapsepackage.ps1```
-1. Run the following to update the existing SQL environment: ```./2m-azuresynapsesql-code.ps1```
-1. Run the following to import the Integration dataset: ```./2m-azuresynapseintegrationdataset.ps1```
-1. After the ONA job successfully completes, it zips it into **ONA_Results_zip**, and then the  **ONA_Results_pipeline** is created.
-1. Run the following to import the Notebooks from the storage account into the Synapse workspace: ```./2m-azuresynapsenotebookcreation-code.ps1```
-1. Run the following to create the Pipelines based on JSON script, and then import them into Synapse workspace: ```./2m-azuresynapsepipelinecreation.ps1```
-The Pipelines are based off the kind of job being completed, such as Organizational Network Analysis or Relationship Intelligence.
-1. Run the following to add the Key Vault Secrets for the Synapse workspace: ```./2m-azuresynapsekeyvault.ps1```
-1. Run the following to add permissions to the Storage account: ```Connect-AzureAD```
-1. Then run the following to add permissions to access the storage account from the Synapse workspace: ```./2m-azuresynapsepermissions.ps1```
+1. In Cloud Shell, run the following to open the folder:
 
->[!Note]
->The console will show “InvalidOperation: Expression after ‘&’” and “InvalidOperation: Cannot index into null array’, which are warnings that you can ignore.
+   ```azure-cli
+   cd ./AztScripts_20211011
+   ```
+
+1. Run the following to create the Synapse workspace with permissions and a Spark pool cluster, which then links a Gen2 storage account to them:
+
+   ```azure-cli
+   ./2m-azuresynapseworkspaceandlinkage.ps1
+   ```
+
+1. Run the following to add the packages (Requirements7.txt) to the Spark pool cluster and link to the Blob storage:
+
+   ```azure-cli
+   ./2m-azuresynapsepackage.ps1
+   ```
+
+1. Run the following to update the existing SQL environment:
+
+   ```azure-cli
+   ./2m-azuresynapsesql-code.ps1
+   ```
+
+1. Run the following to import the Integration dataset: 
+
+   ```azure-cli
+   ./2m-azuresynapseintegrationdataset.ps1
+   ```
+
+1. After the ONA job successfully completes, it zips it into **ONA_Results_zip**, and then the  **ONA_Results_pipeline** is created. Now run the following to import the Notebooks from the storage account into the Synapse workspace:
+
+   ```azure-cli
+   ./2m-azuresynapsenotebookcreation-code.ps1
+   ```
+
+1. Run the following to create the Pipelines based on JSON script, and then import them into Synapse workspace:
+
+   ```azure-cli
+   ./2m-azuresynapsepipelinecreation.ps1
+   ```
+
+1. The Pipelines are based off the kind of job being completed, such as Organizational Network Analysis or Relationship Intelligence. Now run the following to add the Key Vault Secrets for the Synapse workspace:
+
+   ```azure-cli
+   ./2m-azuresynapsekeyvault.ps1
+   ```
+
+1. Run the following to add permissions to the Storage account:
+
+   ```azure-cli
+   Connect-AzureAD
+   ```
+
+1. Then run the following to add permissions to access the storage account from the Synapse workspace:
+
+   ```azure-cli
+   ./2m-azuresynapsepermissions.ps1
+   ```
+
+   >[!Note]
+   >During this step, you can ignore the warnings about “InvalidOperation: Expression after ‘&’” and “InvalidOperation: Cannot index into null array."
 
 ## Deploying the UI and API
 
-Run the following in Cloud Shell, which uses Zip Deploy to install the build for the web app on the server: ```./2e-appservice-code.ps1```
+Run the following in Cloud Shell, which uses Zip Deploy to install the build for the web app on the server:
+
+```azure-cli
+./2e-appservice-code.ps1
+```
 
 After completing this upgrade process, the API will now facilitate calls only to Azure Synapse pipelines, which is consistent with the current Synapse solution.
