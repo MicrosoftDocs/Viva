@@ -105,7 +105,7 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
 
-![Image showing display of cards on Dashboard.](../media/connections/connections-cards-toolbox.png) 
+![Image showing display of cards on Dashboard.](../media/connections/vc-card-toolbox-new.png) 
 
 
 **Current set of available cards:**
@@ -118,6 +118,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 |Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
 |Teams app card     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
 |Third-party cards     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+|Top news card    |    Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
 |Web link    |  Access a site without leaving the Viva Connections app       |
 
 #### Dashboard resources

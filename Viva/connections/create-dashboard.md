@@ -355,4 +355,4 @@ When added, it will automatically be populated with the cards from the existing 
 
 [Step-by-step guide to setting up Viva Connections](guide-to-setting-up-viva-connections.md)
 
-[Learn more about how to plan a Dashboard](plan-viva-connections#step-2-plan-for-viva-connections.md)
+[Learn more about how to plan a Dashboard](plan-viva-connections#step-2-plan-for-viva-connections)
