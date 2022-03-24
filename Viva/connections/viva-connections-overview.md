@@ -105,18 +105,19 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
 
-![Image showing display of cards on Dashboard.](../media/connections/vc-tool-box-2.png) 
+![Image showing display of cards on Dashboard.](../media/connections/connections-cards-toolbox.png) 
 
 
-**The initial set of cards available are:**
+**Current set of available cards:**
 
 |Card Name  |Description  |
 |---------|---------|
-|Web link    |  Access a site without leaving the Viva Connections app       |
-|Card designer    |     Create your own cards and quick views using the adaptive cards framework    |
-|Teams app card     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
-|Tasks     |    Use to open the Teams Tasks app     |
+|Approvals     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
+|Assigned Tasks     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
+|Card designer    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
 |Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
+|Teams app card     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
+|Web link    |  Access a site without leaving the Viva Connections app       |
 
 #### Dashboard resources
 
