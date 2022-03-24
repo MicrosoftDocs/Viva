@@ -42,7 +42,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Add a Shifts card](#add-a-shifts-card)
 - [Add a Teams app card](#add-a-teams-app-card)
 - [Add a Web link card](#add-a-web-link-card)
-- [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
+- [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
@@ -72,13 +72,15 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 
 **Here are the built-in cards available now:**
 
-  - [Web link](#add-a-web-link-card): Add an internal or external link
-
-  - [Assigned tasks](#add-the-assigned-tasks-card): Automatically display information to users about their assigned tasks.
- 
-  - [Teams app](#add-a-teams-app-card): Use an existing Teams app or bot
-
-  - [Design your own using Card designer](#design-your-own-card-with-a-quick-view): Create customizable cards using JSON
+|Card Name  |Description  |
+|---------|---------|
+|[Approvals](#add-the-approvals-card)     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
+|[Assigned Tasks](#add-the-assigned-tasks-card)     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
+|[Card designer](#design-your-own-card-with-a-quick-view)    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
+|Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
+|[Teams app card](#add-a-teams-app-card)     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
+|[Third-party cards](#add-a-third-party-card-or-microsoft-app)     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+|[Web link](#add-a-web-link-card)    |  Access a site without leaving the Viva Connections app       |
 
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
