@@ -55,8 +55,8 @@ Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview 
    Invoke-WebRequest -Uri $sasuri -outfile ./aztScriptsCloudShell.zip
    ```
 
->[!Note]
->If successful, you won't see any output. However, if errors do occur, you'll see them as output.
+   >[!Note]
+   >If successful, you won't see any output. However, if errors do occur, you'll see them as output.
 
 1. Run the following to unzip the Scripts Archive:
 
@@ -133,7 +133,7 @@ The following is shown in the App Registration UI in Azure for your current Azur
 ### Source storage
 
 * **src_storageAccount**: The container that you downloaded in the zip file with a value of **wpaappsprodtest1**.
-* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download install scripts](#download-install-scripts).
+* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download the script](#download-the-script).
 
 ### Linkage account details
 
