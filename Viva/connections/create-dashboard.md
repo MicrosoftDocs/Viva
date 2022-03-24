@@ -43,7 +43,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Add a Teams app card](#add-a-teams-app-card)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app)
-- [Add the Top news cards](#add-a-top-news-card)
+- [Add the Top news cards](#add-the-top-news-card)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
@@ -81,7 +81,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    |[Shifts](#add-a-shifts-card)     | Display information about the next or current shift from the Shifts app in Teams          |
    |[Teams app card](#add-a-teams-app-card)     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
    |[Third-party cards](#add-a-third-party-card-or-microsoft-app)     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-   |[Top news card](#add-a-top-news-card)    |    Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[Top news card](#add-the-top-news-card)    |    Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
    |[Web link](#add-a-web-link-card)    |  Access a site without leaving the Viva Connections app     |
 
  
@@ -372,4 +372,4 @@ When added, it will automatically be populated with the cards from the existing 
 
 [Step-by-step guide to setting up Viva Connections](guide-to-setting-up-viva-connections.md)
 
-[Learn more about how to plan a Dashboard](plan-viva-connections#step-2-plan-for-viva-connections)
+[Learn more about how to plan a Dashboard](plan-viva-connections.md#step-2-plan-for-viva-connections)
