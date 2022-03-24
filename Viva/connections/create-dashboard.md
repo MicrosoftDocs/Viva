@@ -119,10 +119,10 @@ Add a web link card when you want your users to go to an internal or external li
 
 The Approvals card connects to Approvals in Microsoft Teams and is a way to streamline all of your requests and processes with your team or partners. You'll be able to create new approvals, view the ones sent your way, and see all of your previous approvals in one place.
 
-![Adding a approvals card.](../media/connections/approvals-card.png)
+![Adding a approvals card.](../media/connections/approvals-card-1.png)
 
 1. While in edit mode, click **+ Add a card** from the dashboard.
-2. Select **Approvals Tasks** from the Dashboard toolbox.
+2. Select **Approvals** from the Dashboard toolbox.
 
   ![Adding an approvals card in the dashboard.](../media/connections/approvals-edit.png)
 
