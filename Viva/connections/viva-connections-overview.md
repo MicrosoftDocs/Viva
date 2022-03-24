@@ -232,4 +232,4 @@ Learn how to [set up and deploy Viva Connections for your organization](guide-to
 
 [Learn how to plan, build, and launch a home site](/viva/connections/home-site-plan)
 
-[Design a home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
+[Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
