@@ -123,7 +123,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 
 Learn more about [how to create and customize a Dashboard](/viva/connections/create-dashboard)
 
-Discover [card options from third-party providors](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643)
+Discover [card options from third-party providors](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)
 
 
 
@@ -231,3 +231,5 @@ Learn how to [set up and deploy Viva Connections for your organization](guide-to
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
 
 [Learn how to plan, build, and launch a home site](/viva/connections/home-site-plan)
+
+[Design a home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
