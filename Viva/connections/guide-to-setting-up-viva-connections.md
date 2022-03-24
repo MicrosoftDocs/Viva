@@ -47,7 +47,7 @@ While working to prepare your intranet, align with stakeholders to define top sc
 
 
 ### Get started
-1.  **Prepare home site and global navigation design -** To ensure that your navigational design is a success, review best practices on how to design and set up your [SharePoint information architecture](/sharepoint/information-architecture-modern-experience).
+1.  **Prepare home site and global navigation design -** To ensure that your navigational design is a success, review best practices on how to design and set up your [SharePoint information architecture](/sharepoint/information-architecture-modern-experience). Learn more about how to [design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
 2.  **Modernize sites and pages -** Only modern SharePoint sites and pages can be viewed in Microsoft Teams, otherwise they will open in a separate browser window. Learn more about how to [modernize SharePoint sites](/sharepoint/dev/transform/modernize-classic-sites) and [pages](/sharepoint/dev/transform/modernize-userinterface-site-pages). If you are not using modern SharePoint yet, review the [Guide to the modern experience in SharePoint](/sharepoint/guide-to-sharepoint-modern-experience).
 3.  **Consider whether you will need a multilingual experience -** You'll need to start by enabling your home site with a default language. 
 
@@ -69,7 +69,7 @@ A home site is a SharePoint communication site that acts as the front door to yo
 > - Home sites are generally high-traffic sites that should be [optimized for performance](/sharepoint/portal-health)
 
 ### Get started
-1. If your organization does not already have a home site, learn more about [how to plan a home site](home-site-plan.md). 
+1. If your organization does not already have a home site, learn more about [how to plan a home site](home-site-plan.md) and consider using [this home site design.](create-sharepoint-home-site-for-viva-connections.md) 
 2. Then, [set the home site](/sharepoint/home-site) in the SharePoint admin center.
 3. Make sure you [share the home site](https://support.microsoft.com/office/share-a-site-958771a8-d041-4eb8-b51c-afea2eae3658) with everybody in your organization.
 
