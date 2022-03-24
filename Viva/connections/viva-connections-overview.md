@@ -117,6 +117,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 |Card designer    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
 |Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
 |Teams app card     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
+|Third-party cards     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
 |Web link    |  Access a site without leaving the Viva Connections app       |
 
 #### Dashboard resources
