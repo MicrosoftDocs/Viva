@@ -19,9 +19,6 @@ audience: Admin
 
 _These templates are only available as part of a Microsoft service engagement._
 
->[!Important]
->As of February 2022, this product is no longer being supported.
-
 Your current Azure Templates have been using Workplace Analytics data that's been exported and running on Azure Databricks for computations. To improve usability and reduce costs, you can upgrade from Databricks to Azure Synapse Analytics.
 
 ## Prerequisites
@@ -34,155 +31,137 @@ Your current Azure Templates have been using Workplace Analytics data that's bee
 * **Azure Template service names** - Confirm you have the names of the current Azure Template services in the Azure portal, including the storage account, UI or UX app service, API app service, and the key vault names.
 * **Key vault secrets access** – Confirm you can view and modify the Key vault secrets because the scripts must be able to modify some of the key vault secrets. If you don’t have access, the scripts will fail with permission errors.
 
-## Launch Azure CloudShell
+## Open Azure Cloud Shell
 
-Login to the Azure Portal, and launch Azure CloudShell by clicking the link in the top navigation bar shown below
+Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview).
 
 >[!Note]
->If this is your first time running Azure CloudShell, you will need to select the subscription storage before you are allowed to use CloudShell.
+>If this is your first time running Azure Cloud Shell, you will need to select the subscription storage before you are allowed to use Cloud Shell.
 
-## Download Install scripts
+## Download the scripts
 
-1. To format the File Download SAS URL, open Notepad in Windows and copy and paste the following code:
+1. To format the File Download SAS URL, open Notepad in Windows, and then copy and paste the following:
 
-   ```
-    $sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"
-   ```
+   ```$sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"```
 
-   You will need to paste the SAS Token provided in part 1 after the word zip, and before the closing quotation.  For example:
+   And then add the SAS Token after **zip** and before the closing double quotes, as shown in the following example URL:
 
    ```
     $sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”
    ```
 
-1. Set SAS URL in Cloud Shell
-Simply paste the full command with URL and SAS Token from Notepad in the last step and paste in Cloud Shell command line and press enter.
-Download the Scripts ZIP using CloudShell
-Run command:
-Invoke-WebRequest -Uri $sasuri -outfile ./aztScriptsCloudShell.zip
-Note: If successful then no output will display. If there are errors, they will write out to console.
-Unzip Scripts Archive
-Run command:
-Expand-Archive -LiteralPath ./aztScriptsCloudShell.zip -DestinationPath ./ -Force
-Check All Folders are in place
-Run command dir to list directories in the current folder, and you should see the directory AztScripts_20211011 listed if all command executed successfully:
- 
+1. Copy the full SAS URL, including your SAS Token (as described in the previous step), paste it in the Cloud Shell command line, and then press **Enter**.
+1. In the Cloud Shell command line, run the following to download the Scripts .zip file:
 
-Setup and Fill Out Params File
-Copy Template File to Create Params File
-Run the following command:
-Copy-Item ./AztScripts_20211011/template-all-param.txt ./AztScripts_20211011/azt-param.txt
- This will make a copy of the file template-all-param.txt from the files you just downloaded and rename it to azt-param.txt so that you can edit that one for script usage.
-Launch the Editor App to Open azt-params.txt
-Click on the bracket’s icon in the Cloud Shell top bar to launch the editor app:
- 
-This will open a director/file list on the left-hand side of the screen, and you will need to expand the AztScripts_20211011 folder to see the files inside.  Scroll down toward the bottom of the files in AztScripts_20211011 and you should see the params file you want to edit: azt-param.txt. The file list is alphabetical.  Double-click to open the file.
-Filling Out the Params File
-There are several sections and fields you need to populate with your unique information before you can begin the setup.
+   ```Invoke-WebRequest -Uri $sasuri -outfile ./aztScriptsCloudShell.zip```
 
-## Sections
+>[!Note]
+>If successful, you won't see any output. However, if errors do occur, you'll see them as output.
 
-### sql server
+1. Run the following to unzip the Scripts Archive:
 
-* servers_sql_admin: This can be anything – It does not have to be unique. Use “wpaaztsqladm” if you like, or whatever you prefer
-* servers_sql_admin_pwd: This must be 8 to 20 characters in length and include at least one symbol (@#$%&)
+   ```Expand-Archive -LiteralPath ./aztScriptsCloudShell.zip -DestinationPath ./ -Force```
 
-### synapse
+1. Run ```dir``` to list the directories in the current folder, and confirm that the **AztScripts_20211011** directory is listed:
 
-* synapse_workspace: This can be whatever you want it to be – something on brand will likely work best because this name must be globally unique (no one else can use this name for their service).  There are some rules the name must adhere to as well:
-* synapse_adlsgen: This also must be globally unique (no one else can use this name for their service), between 3 and 24 characters containing only lowercase and numbers (no capital letters, special characters, spaces)
+   ![AztScripts directory example.](images/directory-example.png)
 
-### AAD Application registrations
+1. To set up the Params file, run the following to copy the **template-all-param.txt** file that you just downloaded and rename it to **azt-param.txt**, which you can then edit to use in the script:
 
-The next three params will be in the API’s App Registration in Azure for your current AzT setup:
-* aad_api_clientid: This is on the overview page labeled “Application (client) ID”
-* aad_api_clientname: This is also on the overview page in the top left corner (it’s the name of the App Registration)
-* aad_api_clientid_key: This is under “Certificates & Secrets” on the left-hand navigation, and then there will be a listing of valid (and invalid) keys, BUT you will not be able to retrieve the full key, only see the first three characters. The full key is only shown once when it is created, so your Azure Admin should be able to tell you what it is or make you a new one.
+   ```Copy-Item ./AztScripts_20211011/template-all-param.txt ./AztScripts_20211011/azt-param.txt```
 
-The last param in this section will be found on you UI’s App Registration in Azure for your current AzT setup:
-* aad_ui_clientid: This is on the overview page labeled “Application (client) ID”
+1. Select the **editor** (**{}**) icon to open the [Cloud Shell editor](https://docs.microsoft.com/azure/cloud-shell/using-cloud-shell-editor#opening-the-editor), and then open the **azt-param.txt** file.
+1. In the left pane, expand the **AztScripts_20211011** file folder, and then locate and open the **azt-param.txt** file.
+1. You'll need to enter the parameters that are specific to your environment, as described in the following section before you can complete the upgrade.
 
-### dest storage
+## Required parameters
 
-* storageAccounts_name: This is the name of your current storage account for your current installation of AzT (current resource group – should only be one)
+The following describes what you must enter within each section of the **azt-param.txt** file for this upgrade process.
 
-### ux app service
+### SQL Server
 
-* sites_web_name: This is the name of your current app service deployed for the UI (or UX) of your current installation of AzT
+* **servers_sql_admin**: Does not have to be unique. You can use “wpaaztsqladm” or whatever you prefer.
+* **servers_sql_admin_pwd**: Must be 8 to 20 characters in length and include at least one symbol (@#$%&).
 
-### api app service
+### Synapse
 
-* sites_api_name: This is the name of your current app service deployed for the API of your current installation of AzT
+* **synapse_workspace**: Must be globally unique. Something on-brand works best because no one else can use this name for their service. The following shows the rules for the name:
+
+   ![Workspace naming rules image.](images/workspace-name.png)
+
+* **synapse_adlsgen**: Must also be globally unique (no one else can use this name for their service), between 3 and 24 characters with only lowercase letters and numbers (no capital letters, special characters, or spaces).
+
+### AAD application registrations
+
+The following are shown in the API’s App Registration in Azure for your current Azure Template setup:
+
+* **aad_api_clientid**: On the **Overview** page as **Application (client) ID**.
+* **aad_api_clientname**: Also in the top left of the **Overview** page, shown as the name of the **App Registration**.
+* **aad_api_clientid_key**: Within the left navigation, under **Certificates & Secrets**, you'll see a listing of valid (and invalid) keys. However, you can only see the first three characters of the key in this list. The full key is only shown when it is created. You'll need to ask your Azure admin for the full key or ask for a new one.
+
+The following is shown in the App Registration UI in Azure for your current Azure Templates setup"
+
+* **aad_ui_clientid**: Shown on the Overview page as **Application (client) ID**.
+
+### Dest storage
+
+* **storageAccounts_name**: Name of your current storage account for your current installation of Azure Templates (current Resource Group, which you should only have one of).
+
+### UX app service
+
+* **sites_web_name**: Name of your current app service deployed for the UI (or UX) of your current installation of Azure Templates.
+
+### API app service
+
+* **sites_api_name**: Name of your current App service deployed for the API of your current installation of Azure Templates.
 
 ### General
 
-* azure_tenantid: “Tenant ID” from the overview page of your Azure Active Directory service for your current AzT installation
-* azure_subsscriptionid: “Subscription ID” from the overview page of your Resource Group for the current AzT installation
-* resource_group_name: Name of your Resource Group for the current AzT installation
-* azure_region: “Location” from the overview page of your Resource Group for the current AzT installation and remove the spaces and make all lowercase (e.g., “East US” will be entered as “eastus”)
+* **azure_tenantid**: “Tenant ID” from the overview page of your Azure Active Directory service for your current Azure Templates installation.
+* **azure_subsscriptionid**: “Subscription ID” from the overview page of your Resource Group for the current Azure Templates installation.
+* **resource_group_name**: Name of your Resource Group for the current Azure Templates installation.
+* **azure_region**: “Location” from the overview page of your Resource Group for the current Azure Templates installation and remove the spaces and make all lowercase (e.g., “East US” will be entered as “eastus”).
 
+### Keyvault
 
-### keyvault
+* **vaults_kv_name**: Name of your current key vault used by your current installation of Azure Templates.
 
-* vaults_kv_name: This is the name of your current key vault used by your current installation of AzT
+### Source storage
 
-### source storage
+* **src_storageAccount**: The container that you downloaded in the zip file with a value of **wpaappsprodtest1**.
+* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download install scripts](#download-install-scripts).
 
-* src_storageAccount: This is the container you downloaded the zip file from.  The value is: wpaappsprodtest1
-* src_sasToken: This is the token you received in the email with this document that you pasted in the beginning of this walkthrough
+### Linkage account details
 
-### Linkage Account Details
-
-* synapse_linkedServiceName: This can be whatever you want it to be – something on brand will likely be easier to remember
-* synapse_linkedServiceAccntName: This should be the same as what you picked for synapse_linkedServiceName
-
->[!Note]
->Please save the azt-params.txt file after completing the edit.
-
-## Running the Scripts
-Now that you have all the correct information set in your params file, you are ready to run the scripts. First navigate into the folder using the command cd ./AztScripts_20211011 in your CloudShell:
- 
-Create Synapse Workspace and Spark Pool Cluster
-Run command:
-./2m-azuresynapseworkspaceandlinkage.ps1
-This script creates a Synapse workspace with permissions, a Gen2 storage account that will be linked to Synapse, and a spark pool cluster.
-Attaching the Package Requirements for Spark Pool Cluster and links Blob Storage
-Run command:
-./2m-azuresynapsepackage.ps1
-This script adds packages to the spark pool cluster that are required to run the Synapse Pipelines.  This script utilizes the file detailing the packages to install, Requirements7.txt, to set the proper configuration and imports into the Spark Pool.
-Updates the existing sql environment
-Run command:
-./2m-azuresynapsesql-code.ps1
-This script updates the existing SQL server and includes stored procedure changes.
-Importing the Integration Dataset
-Run command:
-./2m-azuresynapseintegrationdataset.ps1
-This script reads files from a successfully completed ONA job and zips them into ONA_Results_zip. The ONA_Results_pipeline kicks in only after an ONA job has completed successfully.
-Importing the Notebooks
-Run command:
-./2m-azuresynapsenotebookcreation-code.ps1
-This script imports the notebooks from the storage account into the Synapse workspace.
-Importing the Pipelines
-Run command:
-./2m-azuresynapsepipelinecreation.ps1
-In this script, pipelines are created based on a JSON script and then imported into Synapse workspace. Pipelines are based off the kind of job being completed – e.g. Organizational Network Analysis or Relationship Intelligence.
-Adding the Key Vault Secrets
-Run command:
-./2m-azuresynapsekeyvault.ps1
-This script adds the key vault secrets for the Synapse workspace.
-Adding Permissions to Storage Account
-Run command:
-Connect-AzureAD
-Then run command:
-./2m-azuresynapsepermissions.ps1
-This script adds permissions to access the storage account from the Synapse Workspace.
+* **synapse_linkedServiceName**: Whatever you prefer, something on-brand that you can remember is best.
+* **synapse_linkedServiceAccntName**: Should be the same as what you named the synapse_linkedServiceName.
 
 >[!Note]
->The console will show “InvalidOperation: Expression after ‘&’” and “InvalidOperation: Connot index into null array’.  These are just warnings and can be ignored.
+>Please save the **azt-params.txt file** file after entering the required parameters described in this section.
 
-Deploying the UI and API
-Run command:
-./2e-appservice-code.ps1
-This script uses Zip Deploy to install the build for the web application on the server.
+## Run the scripts
 
-Now that the transition to Synapse is complete, the API will facilitate calls only to Azure Synapse Pipelines as is consistent with the current Synapse solution.
+After you've entered the correct parameters in the **azt-params.txt file** file, you can run the scripts.
+
+1. In Cloud Shell, run the following to open the folder: ```cd ./AztScripts_20211011```
+1. Run the following to create the Synapse workspace and the Spark pool cluster: ```./2m-azuresynapseworkspaceandlinkage.ps1```
+1. After the Synapse workspace is created with permissions, a Gen2 storage account is linked to Synapse and a Spark pool cluster.
+1. Run the following to add the packages (Requirements7.txt) to the Spark pool cluster and link to the Blob storage: ```./2m-azuresynapsepackage.ps1```
+1. Run the following to update the existing SQL environment: ```./2m-azuresynapsesql-code.ps1```
+1. Run the following to import the Integration dataset: ```./2m-azuresynapseintegrationdataset.ps1```
+1. After the ONA job successfully completes, it zips it into **ONA_Results_zip**, and then the  **ONA_Results_pipeline** is created.
+1. Run the following to import the Notebooks from the storage account into the Synapse workspace: ```./2m-azuresynapsenotebookcreation-code.ps1```
+1. Run the following to create the Pipelines based on JSON script, and then import them into Synapse workspace: ```./2m-azuresynapsepipelinecreation.ps1```
+The Pipelines are based off the kind of job being completed, such as Organizational Network Analysis or Relationship Intelligence.
+1. Run the following to add the Key Vault Secrets for the Synapse workspace: ```./2m-azuresynapsekeyvault.ps1```
+1. Run the following to add permissions to the Storage account: ```Connect-AzureAD```
+1. Then run the following to add permissions to access the storage account from the Synapse workspace: ```./2m-azuresynapsepermissions.ps1```
+
+>[!Note]
+>The console will show “InvalidOperation: Expression after ‘&’” and “InvalidOperation: Cannot index into null array’, which are warnings that you can ignore.
+
+## Deploying the UI and API
+
+Run the following in Cloud Shell, which uses Zip Deploy to install the build for the web app on the server: ```./2e-appservice-code.ps1```
+
+After completing this upgrade process, the API will now facilitate calls only to Azure Synapse pipelines, which is consistent with the current Synapse solution.
