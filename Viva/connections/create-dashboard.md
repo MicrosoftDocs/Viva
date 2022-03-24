@@ -43,6 +43,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Add a Teams app card](#add-a-teams-app-card)
 - [Add a Web link card](#add-a-web-link-card)
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app)
+- [Add the Top news cards](#add-a-top-news-card)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
@@ -80,6 +81,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    |[Shifts](#add-a-shifts-card)     | Display information about the next or current shift from the Shifts app in Teams          |
    |[Teams app card](#add-a-teams-app-card)     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
    |[Third-party cards](#add-a-third-party-card-or-microsoft-app)     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+   |[Top news card](#add-a-top-news-card)    |    Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
    |[Web link](#add-a-web-link-card)    |  Access a site without leaving the Viva Connections app     |
 
  
@@ -281,6 +283,21 @@ A Microsoft app card allows you to create a card that links to Microsoft apps e.
 3. Select your options in the property pane on the right side of the page.
 
 4. When you **Republish**, the card will appear on your dashboard.
+
+
+## Add the Top news card
+Set up the Top news card to surface [boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). News that has been boosted will prominently display in the Top news card.
+
+![Adding a Top news card.](../media/connections/top-news-card.png)
+
+1. While in **edit** mode, select **+ Add a card** from the Dashboard.
+2. Select **Top news** from the web toolbox.
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+   ![Adding a Top news card.](../media/connections/top-news-card.png)
+
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
 
 
 ## Apply audience targeting to cards
