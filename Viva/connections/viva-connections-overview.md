@@ -124,7 +124,7 @@ These cards are available in the Dashboard toolbox when authoring a Dashboard, a
 
 Learn more about [how to create and customize a Dashboard](/viva/connections/create-dashboard)
 
-Discover [card options from third-party providors](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)
+Discover [card options from third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)
 
 
 

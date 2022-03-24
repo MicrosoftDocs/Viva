@@ -70,17 +70,17 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 
 5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile, desktop, and tablet for different audiences.
 
-**Available cards:**
+   **Available cards:**
 
-|Card Name  |Description  |
-|---------|---------|
-|[Approvals](#add-the-approvals-card)     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
-|[Assigned Tasks](#add-the-assigned-tasks-card)     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
-|[Card designer](#design-your-own-card-with-a-quick-view)    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
-|[Shifts](#add-a-shifts-card)     | Display information about the next or current shift from the Shifts app in Teams          |
-|[Teams app card](#add-a-teams-app-card)     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
-|[Third-party cards](#add-a-third-party-card-or-microsoft-app)     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-|[Web link](#add-a-web-link-card)    |  Access a site without leaving the Viva Connections app       |
+   |Card Name  |Description  |
+   |---------|---------|
+   |[Approvals](#add-the-approvals-card)     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
+   |[Assigned Tasks](#add-the-assigned-tasks-card)     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
+   |[Card designer](#design-your-own-card-with-a-quick-view)    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
+   |[Shifts](#add-a-shifts-card)     | Display information about the next or current shift from the Shifts app in Teams          |
+   |[Teams app card](#add-a-teams-app-card)     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
+   |[Third-party cards](#add-a-third-party-card-or-microsoft-app)     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+   |[Web link](#add-a-web-link-card)    |  Access a site without leaving the Viva Connections app     |
 
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
@@ -175,14 +175,14 @@ You can choose the **Card designer** option to design your own card that include
     - **Text and description**: Provides you the option to add your own heading and a description, but without an image option.
 8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
 
->[!NOTE]
->If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
->
+   >[!NOTE]
+   >If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
+
 
 9. Toggle **Enable card action** to **On** if you want the card to either go to a link or show a quick view when the user selects it. 
 
-> [!IMPORTANT]
-> The quick view will need to be set up first (see the Add a quick view section below).
+   > [!IMPORTANT]
+   > The quick view will need to be set up first (see the Add a quick view section below).
 
 10. Set the number of buttons to be displayed under **Number of buttons**. 
     For a medium-sized card, you can show only 1 button. For a large-sized card you can show 1 or 2 buttons.
@@ -354,3 +354,5 @@ When added, it will automatically be populated with the cards from the existing 
 ## More resources
 
 [Step-by-step guide to setting up Viva Connections](guide-to-setting-up-viva-connections.md)
+
+[Learn more about how to plan a Dashboard](plan-viva-connections#step-2-plan-for-viva-connections.md)
