@@ -137,11 +137,11 @@ The following is shown in the App Registration UI in Azure for your current Azur
 * **synapse_linkedServiceAccntName**: Should be the same as what you named the synapse_linkedServiceName.
 
 >[!Note]
->Please save the **azt-params.txt file** file after entering the required parameters described in this section.
+>Please save the **azt-param.txt** file after entering the required parameters described in this section.
 
 ## Run the scripts
 
-After you've entered the correct parameters in the **azt-params.txt file** file, you can run the scripts.
+After you've entered the correct parameters in the **azt-param.txt** file, you can run the scripts.
 
 1. In Cloud Shell, run the following to open the folder: ```cd ./AztScripts_20211011```
 1. Run the following to create the Synapse workspace and the Spark pool cluster: ```./2m-azuresynapseworkspaceandlinkage.ps1```

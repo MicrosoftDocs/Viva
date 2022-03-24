@@ -10,8 +10,6 @@
     href: ./deploy-configure.md
   - name: Data export
     href: ./data-export.md
-  - name: Cancel the service
-    href: ./cancel-service.md
 - name: Using the templates
   expanded: true
   items:
@@ -31,5 +29,7 @@
     href: ./relation-intel.md    
   - name: Workspace Planning
     href: ./space-planning.md
+- name: Cancel the service
+  href: ./cancel-service.md
 - name: Get support
   href: ./support.md
