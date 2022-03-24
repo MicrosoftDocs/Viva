@@ -337,7 +337,9 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 
    3. Search for and select a group. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
 
+
    ![Audience targeting group label.](../media/connections/selecting-groups.png)
+
 
    - Cards that targeted to a specific group will display.
    - When one or more audiences are selected, cards that *do not* have audience targeting applied will also display.
