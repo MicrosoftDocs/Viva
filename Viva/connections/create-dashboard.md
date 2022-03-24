@@ -36,14 +36,16 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 **This article includes:**
 
 - [Create a Dashboard and add cards](#create-a-dashboard-and-add-cards)
-- [Add a Web link card](#add-a-web-link-card)
-- [Add a Teams app card](#add-a-teams-app-card)
+- [Add the Approvals card](#add-the-approvals-card)
+- [Add an Assigned tasks card](#add-the-assigned-tasks-card)
 - [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
 - [Add a Shifts card](#add-a-shifts-card)
+- [Add a Teams app card](#add-a-teams-app-card)
+- [Add a Web link card](#add-a-web-link-card)
 - [Add a 3rd party card](#add-a-third-party-card-or-microsoft-app)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
-- [Put the Dashboard on your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
+- [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
 
 
 ## Create a Dashboard and add cards
@@ -111,6 +113,23 @@ Add a web link card when you want your users to go to an internal or external li
 
 
 
+
+
+## Add the Approvals card
+
+The Approvals card connects to Approvals in Microsoft Teams and is a way to streamline all of your requests and processes with your team or partners. You'll be able to create new approvals, view the ones sent your way, and see all of your previous approvals in one place.
+
+![Adding a approvals card.](../media/connections/approvals-card.png)
+
+1. While in edit mode, click **+ Add a card** from the dashboard.
+2. Select **Approvals Tasks** from the Dashboard toolbox.
+
+  ![Adding an approvals card in the dashboard.](../media/connections/approvals-edit.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
 ## Add the Assigned tasks card
 
 The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the Tasks app in Teams.
@@ -128,29 +147,6 @@ The Assigned tasks card enables automatic display of information to users about 
    ![Choosing card size.](../media/connections/choosing-card-size.png)
 
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
-
-
-## Add a Teams app card
-
-A Teams app card allows you to create a card for an existing Teams app. To add a Teams app card:
-
-1. While in **edit** mode, select **+ Add a card** from the Dashboard.
-2. Select **Teams app** from the web toolbox.
-
-
-   ![Adding a Teams app card.](../media/connections/teamsappicon.png)
-
-
-3. In the **property** pane on the right side of the page, select your options.
-
-   ![Teams app property pane.](../media/connections/teamsapp.png)
-
-4. Select a size for the card from the **Card size** drop-down list.
-5.  Search for the Teams app you want to use, and then select it from the list.
-6.  Set the card-display options:
-    - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
-    - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
-7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 ## Design your own card with a quick view
@@ -216,6 +212,31 @@ The Shifts card shows users information about their next or current shift from t
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
+
+## Add a Teams app card
+
+A Teams app card allows you to create a card for an existing Teams app. To add a Teams app card:
+
+1. While in **edit** mode, select **+ Add a card** from the Dashboard.
+2. Select **Teams app** from the web toolbox.
+
+
+   ![Adding a Teams app card.](../media/connections/teamsappicon.png)
+
+
+3. In the **property** pane on the right side of the page, select your options.
+
+   ![Teams app property pane.](../media/connections/teamsapp.png)
+
+4. Select a size for the card from the **Card size** drop-down list.
+5.  Search for the Teams app you want to use, and then select it from the list.
+6.  Set the card-display options:
+    - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
+    - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
+7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
 
 
 ## Add a third party card or Microsoft app
