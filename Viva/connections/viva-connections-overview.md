@@ -18,7 +18,7 @@ ms.collection:
 - intro-overview 
 search.appverid:
 - SPO160
-- MET150
+- MET150f
 ms.custom: intro-overview
 description: "Learn how to use Viva Connections to engage and unite your organization."
 ---
@@ -42,7 +42,7 @@ Learn more about [Microsoft Viva](https://www.microsoft.com/microsoft-viva).
 > - A home site is a requirement for Viva Connections. Learn more about [how to plan, build, and launch a home site](/viva/connections/home-site-plan).
 
 ## Components to Viva Connections 
-Viva Connections is designed to meet people where they usually get their work done - in Microsoft Teams. Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. All three components will display different between desktop and mobile devices. 
+Viva Connections is designed to meet people where they usually get their work done - in Microsoft Teams. Viva Connections creates an opportunity to push specific content and display popular resources by combining the power of your SharePoint intranet with Microsoft Teams and other Microsoft 365 apps like Yammer and Stream. Viva Connections offers added functionality through three primary components - the Dashboard, the Feed, and Resources. All three components will display different between desktop and mobile devices. 
 
 | Component                  | Description                 |
 | :------------------- | :------------------- |
@@ -105,24 +105,27 @@ In addition, in Viva Connections for Desktop, the experience leverages SharePoin
 
 These cards are available in the Dashboard toolbox when authoring a Dashboard, as shown in the following image:
 
-![Image showing display of cards on Dashboard.](../media/connections/vc-tool-box-2.png) 
+![Image showing display of cards on Dashboard.](../media/connections/vc-card-toolbox-new.png) 
 
 
-**The initial set of cards available are:**
+**Current set of available cards:**
 
 |Card Name  |Description  |
 |---------|---------|
-|Web link    |  Access a site without leaving the Viva Connections app       |
-|Card designer    |     Create your own cards and quick views using the adaptive cards framework    |
-|Teams app card     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
-|Tasks     |    Use to open the Teams Tasks app     |
+|Approvals     |    Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign-off on documents, and approve expense reports     |
+|Assigned Tasks     |    Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
+|Card designer    |     Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)    |
 |Shifts     | Display information about the next or current shift from the Shifts app in Teams          |
+|Teams app card     |    Use to open a Teams personal app or bot specified by the Dashboard author     |
+|Third-party cards     |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+|Top news card    |    Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+|Web link    |  Access a site without leaving the Viva Connections app       |
 
 #### Dashboard resources
 
 Learn more about [how to create and customize a Dashboard](/viva/connections/create-dashboard)
 
-Discover [card options from third-party providors](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/viva-connections-welcomes-new-partners-and-opens-developer/ba-p/2540643)
+Discover [card options from third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)
 
 
 
@@ -229,4 +232,6 @@ Learn how to [set up and deploy Viva Connections for your organization](guide-to
 
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
 
-[Learn how to plan, build, and launch a home site](/viva/connections/home-site-plan)
+[Learn how to plan, build, and launch a home site](home-site-plan.md)
+
+[Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
