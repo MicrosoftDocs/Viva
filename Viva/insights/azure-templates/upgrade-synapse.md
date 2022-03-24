@@ -38,17 +38,17 @@ Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview 
 
 ## Download the scripts
 
-1. To format the SAS URL for the script you need to download, open Windows Notepad, and then copy and paste the following:
+1. To format the **SAS URL** for the download, open Windows Notepad, and then copy and paste the following:
 
    ```azure-cli
    $sasUri = "https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip"
    ```
 
-   And then add the SAS Token between **zip?** and **"** (the closing double quotes), as shown in the following example URL:
+   And then add the **SAS Token** between **zip?** and **"** (the closing double quotes), as shown in the following example URL:
 
-   ```$sasUri = “https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”```
+   ```“https://wpaappsprodtest1.blob.core.windows.net/tmpexternal/AztScripts_20211011.zip?sv=2020-08-04&ss=bfqt&srt=o&sp=rwdlacupitfx&se=2022-02-22T04:16:23Z&st=2022-02-14T20:16:23Z&spr=https&sig=K6fCajAhRpHPm%2FlTdrTdFc0fXfYHLNDKF4zvbBXYAOE%3D%22”```
 
-1. Copy the full SAS URL, including your SAS Token (as described in the previous step), paste it in the Cloud Shell command line, and then press **Enter**.
+1. Copy the full **SAS URL**, including your **SAS Token** (as described in the previous step), paste it in the Cloud Shell command line, and then press **Enter**.
 1. In the Cloud Shell command line, run the following to download the Scripts .zip file:
 
    ```azure-cli
