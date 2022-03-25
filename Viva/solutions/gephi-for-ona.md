@@ -68,39 +68,37 @@ Run a **Group-to-group query** in Workplace Analytics with Viva Insights:
     1. Store data in a table.
     1. Select any cell in the table.
     1. In the command ribbon, select the **Data** tab, then select **From Table/Range**.
-            :::image type="content" source="images/g2g-step-10c-from-table-range.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+            :::image type="content" source="images/g2g-step-10c-from-table-range.png" alt-text="Screenshot of Excel command ribbon, showing Data tab":::
     1. Select the columns you want to unpivot by selecting the first column and holding the Shift key to select the rest.
     1. In the **Transform** tab, select **Unpivot Columns**.
-               :::image type="complex" source="images/g2g-step-10e-unpivot.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
-                   .
-            :::image-end:::
+               :::image type="content" source="images/g2g-step-10e-unpivot.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
     1. Select the **Home** tab, then select **Close & Load**.
     1. Manually remove some of the rows as needed.
 
 Your table should resemble the following image:
-    :::image type="content" source="images/g2g-step-10-example-table.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+    :::image type="content" source="images/g2g-step-10-example-table.png" alt-text="Screenshot an Excel spreadsheet showing Source, Target, and Weight columns populated with data":::
 11.	Save this file to use in the next steps.
 
 ### Create
 
 1. Open Gephi and create a **New Project**.
 2. Select the **Data Laboratory** button and select **Import Spreadsheet**.
-             :::image type="content" source="images/glnm-step 2-import-spreadsheet.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+             :::image type="content" source="images/glnm-step 2-import-spreadsheet.png" alt-text="Screenshot of Gephi interface with Data Laboratory button highlighted and Nodes tab highlighted":::
 3. Navigate to the folder where you saved your Group-to-group query and select the file you created in previous section. This file will serve as the underlying data for your network map.
 4. Select the tab with the cleansed data from the file you prepared and verify that Gephi recognizes this file as an **Edges Table**. If not, select this value from the **Import** as dropdown menu.
-             :::image type="content" source="images/glnm-step-4-edges-table.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+             :::image type="content" source="images/glnm-step-4-edges-table.png" alt-text="Screenshot of Gephi interface with Comma selected uner Separator and Edges table selected under Import as":::
 > [!NOTE]
 > Sometimes, Gephi doesn’t recognize your **Source** and **Target** column due to a problem with the UTF-8 encoding. If you have this problem, try saving the file as a regular .csv.
 
 5. Select **Next** and make sure that Gephi recognizes your **Weight** column as a **Double** data type, then select **Finish**.
-             :::image type="content" source="images/glnm-step-5-weight-double.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+             :::image type="content" source="images/glnm-step-5-weight-double.png" alt-text="Screenshot of Import settings widow with Weight box checked and Double selected in dropdown menu":::
 6. You can likely ignore the errors, especially **Edge weight is 0**. Before selecting **OK**, make sure to choose **Append to existing workspace**.
-             :::image type="content" source="images/glnm-step-6-append.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+             :::image type="content" source="images/glnm-step-6-append.png" alt-text="Screenshot of Gephi interface with two warnings under Issues tab and Append to existing workspace radio button selected":::
 7. To add groupings for coloring, you’ll need to add additional attributes to your nodes. You can add attributes manually (step a.) or by creating a Node file (step b.):
     1. Add manually: Adding attributes through a manual process within Gephi tool is a good option if you have a limited number of rows. When uploading the Edge file, Gephi automatically detects the nodes.
         1. Select the **Nodes** tab and select **Add column** from the bottom of the page.
-                     :::image type="content" source="images/glnm-step-7ai-add-column.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
-                     :::image type="content" source="images/glnm-step-7ai-add-column2.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                     :::image type="content" source="images/glnm-step-7ai-add-column.png" alt-text="Screenshot of Gephi interface with Data Laboratory button and Nodes tab selected":::
+                     :::image type="content" source="images/glnm-step-7ai-add-column2.png" alt-text="Screenshot of Gephi interface with Add column button selected":::
         1. Title your new column and select **Data Type = String**.
         1. A new column will appear in your **Nodes** table. Double-click the first row and add the info that this group falls under. Repeat this action for other attributes you want to add about each group (for example, **GroupSize**). Additionally, you can choose to input custom labels for each node in the Label column.
     1. Prepare a Node file with your desired columns:
@@ -108,9 +106,9 @@ Your table should resemble the following image:
         1. You can then add additional columns like **Label**, **GroupSize**, and **Organization**. These columns can later be used for coloring and sizing of the nodes in the visualization.
 1. Navigate back to the **Overview** tab at the top of the page to see an initial view of your group-level network.
 1. To color your nodes by an attribute, select the palette icon from the **Nodes** tab, select the **Partition** sub-tab, choose colors, then select **Apply**.
-                     :::image type="content" source="images/glnm-step-10-size-nodes.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                     :::image type="content" source="images/glnm-step-10-size-nodes.png" alt-text="Screenshot of Gephi interface Appearance tab with Nodes and Ranking tabs selected":::
 10.	Size your nodes by selecting the circles icon and selecting an attribute.
-                     :::image type="content" source="images/glnm-step-9-color-nodes.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                     :::image type="content" source="images/glnm-step-9-color-nodes.png" alt-text="Screenshot of Gephi interface Appearance tab with Nodes and Partition tabs selected":::
 
 > [!NOTE]
 > You can also color your Edges (Collaboration weights between each node).
@@ -121,7 +119,7 @@ Your table should resemble the following image:
         1. **Expansion** = 50
         1. Other settings in the **Stages** section = 0
         1. **OpenOrd** settings: Keep defaults
-                      :::image type="content" source="images/glnm-step-11aiv-openord.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                      :::image type="content" source="images/glnm-step-11aiv-openord.png" alt-text="Screenshot of Gephi interface Layout tab OpenOrd selected from dropdown menu and Stages and OpenOrd lists expanded":::
     1. Next, select **Force Atlas 2** from the dropdown menu and **Run** after inputting the following settings:
         1. **Scaling** = 500
         1. **Gravity** = 0
@@ -130,11 +128,11 @@ Your table should resemble the following image:
     1. Stop **Force Atlas 2** after the nodes are sufficiently spread out.
     1. Change the **Scaling** parameter to 1.0 (instead of 500 or 1000) and **Run** again until the node movement is significantly slowed down.
     1. Center on the graph using the magnifying glass icon.
-                      :::image type="content" source="images/glnm-step-11e-magnifying-glass.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                      :::image type="content" source="images/glnm-step-11e-magnifying-glass.png" alt-text="Screenshot of Gephi interface with magnifying glass icon highlighted":::
 12.	Once you’ve finished setting up your network visualization, select the **Preview** page to polish your network graph.
-                     :::image type="content" source="images/glnm-step-12-preview.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                     :::image type="content" source="images/glnm-step-12-preview.png" alt-text="Screenshot of Gephi interface with Preview button highlighted":::
 13.	In the **Preview Settings** panel, adjust **Borders**, **Labels**, **Line Thickness**, **Font**, etc., to polish your network. See below for the difference between what we set up in the **Overview** page versus the polishing in the **Preview** page.
-                     :::image type="content" source="images/glnm-step-13-preview.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                     :::image type="content" source="images/glnm-step-13-preview.png" alt-text="Screenshot of less detailed network map and more network map, separated by an arrow":::
 
 ## Person-level network map
 
@@ -213,10 +211,10 @@ Collaboration_hours (or any other metric that you prefer to be used) |Weight
 #### Person query to create a node file
 
 1. Navigate to the Person query page in Workplace Analytics: **Analyze > Query designer > Get started > Person**.
-                     :::image type="content" source="images/plnm-step-1-query.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
-                     :::image type="content" source="images/plnm-step-1-query(2).png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                     :::image type="content" source="images/plnm-step-1-query.png" alt-text="Screenshot of Workplace Analytics Query designer with Get started button highlighted":::
+                     :::image type="content" source="images/plnm-step-1-query(2).png" alt-text="Screenshot of Workplace Analytics Choose a query type menu with Person button selected":::
 
-2.	Set up a query with the following settings:
+2. Set up a query with the following settings:
 
     |Setting |Selection|
     |-------------|---------|
@@ -238,13 +236,13 @@ Collaboration_hours (or any other metric that you prefer to be used) |Weight
 ### Create 
 
 1. Create a new workspace in Gephi by navigating to **Workspace > New**, then selecting the **Data Laboratory** button.
-                     :::image type="content" source="images/plnm-step-1-new-datalab.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+                     :::image type="content" source="images/plnm-step-1-new-datalab.png" alt-text="Screenshot of Gephi interface with Workspace tab hovered over and New highlighted on the dropdown list":::
 2. Select **Import Spreadsheet**, then select the **CleansedInteractions.csv** file that you created via one of the approaches above (Person-to-person query via Group-to-group query or Person query to create a node file). This .csv file is the underlying data for your network map.
 3. Make sure that Gephi recognizes the file as an **Edges** table under **Import as**, then select **Next**.
-                     :::image type="content" source="images/plnm-step-2-edges.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+:::image type="content" source="images/plnm-step-2-edges.png" alt-text="Screenshot of Gephi interface General CSV options window with Comma selected under Separator and Edges table selected under Import as":::
 4. Make sure the **Weight** column is identified as a **Double** data type, then select **Finish**.
 5. Ignore the warnings, then select Append to existing workspace.
-                     :::image type="content" source="images/plnm-step-5-append.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+    :::image type="content" source="images/plnm-step-5-append.png" alt-text="Screenshot of Gephi interface that shows warning and Append to existing workspace radio button selected":::
 6. Select Import Spreadsheet again, then select your CleansedNodeMetrics.csv file. This additional data enables grouping, coloring, and node sizing based on your Org Data.
 
 > [!NOTE]
@@ -259,7 +257,7 @@ Collaboration_hours (or any other metric that you prefer to be used) |Weight
         1. **Expansion** = 50
         1. Other settings in the **Stages** section = 0
         1. **OpenOrd** settings: Keep defaults
-                             :::image type="content" source="images/plnm-step-10aiv-openord.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+        :::image type="content" source="images/plnm-step-10aiv-openord.png" alt-text="Screenshot of Gephi interface Layout tab with OpenOrd selected from the dropdown menu and Stages and OpenOrd lists expanded":::
     1. Next select **Force Atlas 2** and **Run** after inputting the following settings:
         1. **Scaling** = 500
         1. **Gravity** = 0 
@@ -268,7 +266,8 @@ Collaboration_hours (or any other metric that you prefer to be used) |Weight
     1. Stop **Force Atlas 2** after the nodes are sufficiently spread out.
     1. Change the **Scaling** parameter to 1.0 (instead of 500 or 1000) and run again until the node movement is significantly slowed down.
     1. Center on the graph using the magnifying glass icon.
-                     :::image type="content" source="images/plnm-step-10e-magnifying-glass.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+    :::image type="content" source="images/plnm-step-10e-magnifying-glass.png" alt-text="Screenshot of Gephi interface with magnifying glass icon highlighted":::
+
 > [!NOTE]
 > You can also create organic community groupings by selecting the Statistics tab on the right panel and running the Modularity algorithm with default settings.
  
@@ -277,8 +276,11 @@ Collaboration_hours (or any other metric that you prefer to be used) |Weight
     1. Select the **Partition** sub-tab.
     1. In the dropdown menu, choose the **Modularity Class** grouping as your color designation.
     1. Select **Apply**.
-                     :::image type="content" source="images/plnm-step-11d-apply.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+    :::image type="content" source="images/plnm-step-11d-apply.png" alt-text="Screenshot of Gephi interface Appearance tab with Nodes and Partition tabs selected":::
+
 > [!NOTE]
 > You can increase the number of groups that are colored by selecting the **Palette** button at the bottom right of the **Appearance** panel and choosing to generate a new palette with a higher color limit. You can also customize the colors within your palette.
-                     :::image type="content" source="images/plnm-step-11-note.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+
+  :::image type="content" source="images/plnm-step-11-note.png" alt-text="Screenshot of Gephi interface's Generate Palette popup window with Limit number of colors box checked and 8 in the value field":::
+
 12.	Optional: Adjust the bubble sizes using any of the node-level metrics.
