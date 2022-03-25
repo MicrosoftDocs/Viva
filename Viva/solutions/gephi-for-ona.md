@@ -89,7 +89,7 @@ Run a **Group-to-group query** in Workplace Analytics with Viva Insights:
 
 Your table should resemble the following image:
 
-    :::image type="content" source="images/g2g-step-10-example-table.png" alt-text="Screenshot an Excel spreadsheet showing Source, Target, and Weight columns populated with data":::
+:::image type="content" source="images/g2g-step-10-example-table.png" alt-text="Screenshot an Excel spreadsheet showing Source, Target, and Weight columns populated with data":::
 
 11.	Save this file to use in the next steps.
 
@@ -134,7 +134,7 @@ Your table should resemble the following image:
 
 10.	Size your nodes by selecting the circles icon and selecting an attribute.
 
-    :::image type="content" source="images/glnm-step-9-color-nodes.png" alt-text="Screenshot of Gephi interface Appearance tab with Nodes and Partition tabs selected":::
+    :::image type="content" source="images/glnm-step-9-color-nodes.png" alt-text="Screenshot of Gephi interface Appearance tab Nodes and Partition tabs selected":::
 
 > [!NOTE]
 > You can also color your Edges (Collaboration weights between each node).
