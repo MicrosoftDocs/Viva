@@ -100,7 +100,7 @@ The following describes what you must enter within each section of the **azt-par
 The following are shown in the API’s App Registration in Azure for your current Azure Template setup:
 
 * **aad_api_clientid**: On the **Overview** page as **Application (client) ID**.
-* **aad_api_clientname**: Also in the top left of the **Overview** page, shown as the name of the **App Registration**.
+* **aad_api_clientname**: Also, at the top left of the **Overview** page, it's shown as the name of the **App Registration**.
 * **aad_api_clientid_key**: Within the left navigation, under **Certificates & Secrets**, you'll see a listing of valid (and invalid) keys. However, you can only see the first three characters of the key in this list. The full key is only shown when it is created. You'll need to ask your Azure admin for the full key or ask for a new one.
 
 The following is shown in the App Registration UI in Azure for your current Azure Templates setup"
