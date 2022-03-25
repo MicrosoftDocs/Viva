@@ -24,42 +24,39 @@ Organizational network analysis (ONA) is a structured way to analyze how communi
 
 To identify the network boundary:
 
-1. Use hypotheses about how work gets done to inform boundary-setting for analysis (like Division or Business unit).
+1. Think about how work gets done in your organization to inform who to include in the analysis. Maybe you want to analyze the entire network, or maybe you’re interested in interactions within one particular group (like Division or Business unit).
 
 2. Confirm the network population in question is fully licensed with Viva Insights.
-Think about how work gets done in your organization to inform who to include in the analysis. Maybe you want to analyze the entire network, or maybe you’re interested in interactions within one particular group.
 
-Keep in mind that for any employee not included in the network, the information pathways to/from these employees will be excluded. So, if you were to choose people at random, it would result in an inaccurate understanding of the network.
 
-If you choose to analyze HR only, you will get visibility only into collaboration within the HR group. For accurate analysis, ensure your network population is fully licensed.
+Keep in mind that for any employee not included in the network, the information pathways to/from these employees will be excluded. So, if you were to choose people at random, it would result in an inaccurate understanding of the network. If you choose to analyze HR only, you will get visibility only into collaboration within the HR group. For accurate analysis, ensure your network population is fully licensed.
 
 :::image type="complex" source="images/ona-population-segment.png" alt-text="Screenshot of a network diagram":::
    Screenshot that shows a network diagram with dots of various colors. One section on the right-hand side of the diagram is encircled in yellow and labeled, "Population segment included int he analysis".
 :::image-end:::
 
-### ONA datasets
+## ONA datasets
 
 Viva Insights provides the following out-of-the-box ONA queries.
 
-#### Person-level analysis
+### Person-level analysis
 
-##### Network person query
+#### Network person query
 
-Metrics provided: **Influencer** and **Influencer rank**. Metric definitions can be found [here](../insights/use/metric-definitions#network-metrics).
+* **Metrics provided**: **Influencer** and **Influencer rank**
 
-**Influence** is a score of how well connected an employee is in the organization. If an employee is connected to others who are well connected, the employee will benefit from these connections. Employees with a higher **Influence** metric are more likely to connect effectively within or across groups to drive change.
+    * **Influence** is a score of how well connected an employee is in the organization. If an employee is connected to others who are well connected, the employee will benefit from these connections. Employees with a higher **Influence** metric are more likely to connect effectively within or across groups to drive change. Find metric definitions [here](/Viva/insights/Use/Metric-definitions.md#network-metrics).
+* **How to use the query**: Use the **Network person query** to analyze the influence metric in the measured population. Aggregate the metric by attribute—like team, level, or location—to rank, compare, and contrast influencers in the organization.
 
-Use the Network person query to analyze the influence metric in the measured population. Aggregate the metric by attribute—like team, level, or location—to rank, compare, and contrast influencers in the organization.
+#### Network person-to-person query
 
-##### Network person-to-person query
+* **Metrics provided**: **Strong** and **Diverse tie** scores
+    * Network ties are connections between employees with at least two meaningful interactions. **Strong ties** have many connections in common, and **Diverse ties** have fewer connections in common. Groups with many **Diverse ties** can represent teams with high innovative potential. Find metric definitions [here](/Viva/insights/Use/Metric-definitions.md#network-metrics).
+* **How to use the query**: Use the **Network person-to-person query** to analyze **Strong** and **Diverse ties** between individuals or groups in the measured population.
 
-Metrics provided: **Strong** and **Diverse tie** scores. Metric definitions can be found [here](../insights/use/metric-definitions#network-metrics).
+#### Which Viva Insights ONA measure is right for me?
 
-Network ties are connections between employees with at least two meaningful interactions. **Strong ties** have many connections in common, and **Diverse ties** have fewer connections in common. Groups with many **Diverse ties** can represent teams with high innovative potential.
-
-Use the **Network person-to-person query** to analyze **Strong** and **Diverse ties** between individuals or groups in the measured population.
-
-**Which Viva Insights ONA measure is right for me?**
+To help determine whether to use **Influence** index or **Strong/Diverse ties**, consult the following table. Additionally, you can leverage the **Group-to-group** and **Person-to-group** queries to generate a person-level interaction matrix for analysis.
 
 |Influence index   |Strong/Diverse ties  |
 |----------|-----------|
@@ -67,23 +64,21 @@ Use the **Network person-to-person query** to analyze **Strong** and **Diverse t
 |How can we improve communication on strategic initiatives? |Where should we encourage connectivity to foster innovation?   |
 |How can we accelerate improvement plans for the organization?|Are there inefficiencies that suggest opportunity to improve team cohesion?
 
-Additionally, you can leverage the **Group-to-group** and **Person-to-group** queries to generate a person-level interaction matrix for analysis.
+##### Person-to-person query through a Group-to-group query
 
-##### Group-to-group query transformed into person-to-person query
+To analyze and graph the collaboration patterns within your organization at the group-to-group level, through metrics like collaboration hours or meeting counts, you can use a **Group-to-group query**. You can apply open-source ONA tools on this type of data to visualize it, or to perform more in-depth ONA analysis.
 
-Use these queries to analyze and graph the collaboration patterns within your organization at the group-to-group or person-to-person level through metrics like collaboration hours or meeting counts. You can apply open-source ONA tools on this type of data for visualization purposes or for more in-depth ONA analysis.
+This type of analysis is possible at the person-to-person level, too. Workplace Analytics doesn't have a **Person-to-person query** as an out-of-the-box query template; however, you can create a **Person-to-person query** by transforming the **Group-to-group query**. You'll use an assigned identifier for each person to use as the “group.” This is a specialized technique that requires privacy approval.
 
-The **Person-to-person query** is a transformation of the **Group-to-group query**, with an assigned identifier for each person to use as the “group.” This is a specialized technique that requires privacy approval.
+Refer to [Dataset preparation](#dataset-preparation) to learn how to transform **Group-to-group queries** into **Person-to-person queries**.
 
-Refer to [Dataset preparation](#you-can-use-network-person-to-person-query-results-as-a-form-of-person-to-person-interaction-matrix-along-with-open-source-ona-tools-however-please-consider-the-limitations-mentioned-in-the-ona-datasets-section-above) to learn how to transform **Group-to-group queries** into **Person-to-person queries**.
+### Group-level analysis
 
-#### Group-level analysis
-
-##### Group-to-group query
+#### Group-to-group query
 
 Use a **Group-to-group query** to analyze collaboration patterns between teams, understand where groups are investing their collaboration time, and identify silos and bridging organizations.
 
-##### Network person-to-person query
+#### Network person-to-person query
 
 > [!NOTE]
 > In this section, we share detailed information on how the **Network person-to-person query** metrics are generated and filtered.
@@ -91,7 +86,7 @@ Use a **Group-to-group query** to analyze collaboration patterns between teams, 
 > * identifying the correct application and usage of the query metrics, and
 > * correctly interpreting the analysis.
 
-###### Underlying matrix
+##### Underlying matrix
 
 The underlying person-to-person matrix for ONA calculations is defined based on these interactions:
 
@@ -102,33 +97,33 @@ The underlying person-to-person matrix for ONA calculations is defined based on 
 
     Missed calls and voicemails are excluded from calls. The total time of these interactions is allocated equally between each pair of participants.
 
-###### Queries and algorithms
+##### Queries and algorithms
 
-This underlying matrix is then filtered and applied in the various network algorithms to produce the network measures available in query format. This means that any result from the network queries in the analyst tool will not match the underlying person-to-person matrix.
+The underlying matrix is then filtered and applied in the various network algorithms to produce the network measures available in query format. This means that any result from the network queries in the analyst tool will not match the underlying person-to-person matrix.
 
-The **Network person-to-person query** or the **Strong/Diverse ties** algorithm filters the underlying person-to-person matrix to those interactions where two individuals had 10 or more minutes of interaction per month. This algorithm filters out approximately 40% of the connections present in the underlying person-to-person matrix. Additionally, there is no custom control in the analyst tool where an analyst can specify which collaboration signals to include or how much time represents meaningful connections. Finally, analysts should not use the scores in the **Strong/Diverse ties** query output as edge weights between individuals, because those weights do not represent time spent between two individuals or count of interactions. If an analyst were to do that, it would lead to inaccurate results.
+The **Network person-to-person query** or the **Strong/Diverse ties** algorithm filters the underlying person-to-person matrix to those interactions where two individuals had 10 or more minutes of interaction per month. This algorithm filters out approximately 40% of the connections present in the underlying person-to-person matrix. Additionally, there is no custom control in the analyst tool where an analyst can specify which collaboration signals to include or how much time represents meaningful connections. Finally, analysts should not use the scores in the **Strong/Diverse ties** query output as edge weights between individuals, because those weights do not represent time spent between two individuals or count of interactions. Doing so would lead to inaccurate results.
 
 The **Strong ties** algorithm also considers the common network between two people and their interaction with the common network while computing the score. The **Diverse ties** algorithm, meanwhile, considers the non-overlapping network and interactions with the non-overlapping network. So, the results represent a score that’s different from a generic person-to-person interaction. Using **Strong ties** as a proxy or in place of person-to-person interaction as a graph would result in biased results based on what further computation is performed on that result.
 
 Take this example: an analyst uses **Strong ties** as a proxy for person-to-person interaction to compute communities. Their result will have biased communities since the **Strong tie** score computation already biases results towards common networks. Therefore, **Strong/Diverse ties** should be used for analysis of ties and not as a proxy.
 
-Similar logic applies to the **Group-to-group query** transformed into **person-to-person query**. A **Group-to-group** query has its own computation logic, and based on inputs, its result would be different from a generic person-to-person interaction matrix.
+Similar logic applies to a **Group-to-group query** transformed into a **Person-to-person query**. A **Group-to-group** query has its own computation logic, and based on inputs, its result would be different from a generic person-to-person interaction matrix.
 
-#### Dataset preparation
+## Dataset preparation
 
 To run each of the following queries:
 
 * **Network person query**: Follow the steps in [Network person queries](/Viva/insights/Tutorials/ona-person-query.md).
 
-* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](/Viva/insights/Tutorials/ona-person-to-person-query.md)
+* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](/Viva/insights/Tutorials/ona-person-to-person-query.md).
 
 * **Group-to-group query**: Follow the steps in [Group-to-group queries](/Viva/insights/Tutorials/Group-to-group-queries.md). A list of metrics is provided [here](/Viva/insights/Use/Metric-definitions#group-to-group-metrics.md).
 
-* **Person-to-person query** via **Group-to-group query**: Refer to the following section.
+* **Person-to-person query** through a **Group-to-group query**: Refer to the following section.
 
-##### Person-to-person query via Group-to-group query
+### Turning a Group-to-group query into a Person-to-person query
 
-Workplace Analytics doesn't have a Person-to-person query as an out-of-the-box query template. However, you can turn a **Group-to-group query** into a Person-to-person query by following this guidance.
+As mentioned earlier, Workplace Analytics doesn't have a **Person-to-person query** as an out-of-the-box query template. However, you can turn a **Group-to-group query** into a **Person-to-person query** by following this guidance.
 
 **PersonId**, the main person identifier in the Workplace Analytics Organizational data, will be hashed (de-identified) in your reports and not available to be selected as your group **Collaborator** in the **Group-to-group query**. However, if you add an additional person identifier to your HR org file when uploading (that is, you generate a column that has anonymized PersonId for each person), you can use that metric in **Time investors** and **Their collaborators** sections of the **Group-to-group query** to change the group collaboration to a person-level collaboration. In the following image, **zId** is that additional person identifier.
 
@@ -139,9 +134,10 @@ Workplace Analytics doesn't have a Person-to-person query as an out-of-the-box q
    Screenshot that shows the Workplace Analytics Query designer's interface. Under step 2, Time Investors, zID is selected from the dropdown menu beneath the prompt, "How do you want to group the time investors".
 :::image-end:::
 
+
 To create the interaction matrix (or Edge list) for the ONA calculation, open a **Group-to-group query**:
 
-1. Navigate to the **Query designer > Group-to-group query in Workplace Analytics**.
+1. In Workplace Analytics, navigate to the  **Query designer > Group-to-group query**.
 2. Set up a query with your desired data aggregation level and time period.
 3. Select metrics, like **Collaboration hours**, **Email hours**, and **Meeting hours**. Set filters as needed.
 4. Select the **zId** in the **Their collaborators** and **Organizational data** sections of the **Person-to-group query**.
