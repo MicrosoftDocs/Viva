@@ -38,7 +38,7 @@ If you’ve already created the communication site and are ready to specify it a
 - Provide a gateway to other high-traffic portals
 - Connect people with an intranet-wide search experience
 - Showcase targeted news and content
-- Take advantage of the new people engagement tool, Viva Connections 
+- Take advantage of the new people engagement tool, [Viva Connections](create-sharepoint-home-site-for-viva-connections.md) 
 
 |  **Example of a home site:**              | **View in the SharePoint mobile app:**      | 
 | :------------------- | :------------------- |:----------------|
@@ -49,6 +49,8 @@ If you’ve already created the communication site and are ready to specify it a
 ## What is a SharePoint home site?
 
 You only need one home site to take advantage of home site features. Home sites do not replace communication or team sites, but instead provide a landing place for your organization. Think of home sites as an *add-on* to your intranet design. Home sites are SharePoint communication sites that have special capabilities such as being marked as an official source of news in the organization. Consider making your tenant's root site the home site. Next, review key differences between standard SharePoint communication sites and home sites.
+
+Creating a home site so your organization can use Viva Connections? [Consider following this design guidance.](create-sharepoint-home-site-for-viva-connections.md)
 
 
 **Home site features explained:**
@@ -184,3 +186,5 @@ At this time, each organization can have only one home site.
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
 Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book 
+
+[Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
