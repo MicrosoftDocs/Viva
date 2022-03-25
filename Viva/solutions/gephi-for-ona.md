@@ -70,7 +70,7 @@ Run a **Group-to-group query** in Workplace Analytics with Viva Insights:
     1. Filter out groups that you do not wish to show in your analysis (for example, **Other_collaborators**, groups falling below minimum aggregation size, or groups not relevant to your analysis).
     1. Aggregate multiple time periods of data into a single value.
         
-        :::image type="content" source="images/g2g-step-9b-pivot-table-fields.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+        :::image type="content" source="images/g2g-step-9b-pivot-table-fields.png" alt-text="Screenshot of Excel Pivot Table field list with Target under Columns, Source under Rows, and Sum of Collaboration_hours under Values":::
 
 10.	Create a new tab and unpivot (manually or automatically through the following steps) your Pivot Table into a new table with the following three columns: **Source** (from Pivot Table Rows), **Target** (from Pivot Table Columns), and **Weight** (from Pivot Table cell values for each row-column combination)
     1. Store data in a table.
@@ -82,7 +82,7 @@ Run a **Group-to-group query** in Workplace Analytics with Viva Insights:
     1. Select the columns you want to unpivot by selecting the first column and holding the Shift key to select the rest.
     1. In the **Transform** tab, select **Unpivot Columns**.
                
-        :::image type="content" source="images/g2g-step-10e-unpivot.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+        :::image type="content" source="images/g2g-step-10e-unpivot.png" alt-text="Screenshot of Excel's Query editor with Transform and Unpivot Columns highlighted":::
 
     1. Select the **Home** tab, then select **Close & Load**.
     1. Manually remove some of the rows as needed.
@@ -157,7 +157,7 @@ Your table should resemble the following image:
     1. Change the **Scaling** parameter to 1.0 (instead of 500 or 1000) and **Run** again until the node movement is significantly slowed down.
     1. Center on the graph using the magnifying glass icon.
     
-        :::image type="content" source="images/glnm-step-11e-magnifying-glass.png" alt-text="Screenshot of Gephi interface with magnifying glass icon highlighted":::
+        :::image type="content" source="images/plnm-step-10e-magnifying-glass.png" alt-text="Screenshot of Gephi interface with magnifying glass icon highlighted":::
 
 12.	Once you’ve finished setting up your network visualization, select the **Preview** page to polish your network graph.
                     
@@ -319,7 +319,7 @@ Collaboration_hours (or any other metric that you prefer to be used) |Weight
     1. In the dropdown menu, choose the **Modularity Class** grouping as your color designation.
     1. Select **Apply**.
 
-        :::image type="content" source="images/plnm-step-11d-apply.png" alt-text="Screenshot of Gephi interface Appearance tab with Nodes and Partition tabs selected":::
+        :::image type="content" source="images/glnm-step-9-color-nodes.png" alt-text="Screenshot of Gephi interface Appearance tab with Nodes and Partition tabs selected":::
 
 > [!NOTE]
 > You can increase the number of groups that are colored by selecting the **Palette** button at the bottom right of the **Appearance** panel and choosing to generate a new palette with a higher color limit. You can also customize the colors within your palette.
