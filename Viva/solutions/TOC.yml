@@ -14,9 +14,4 @@ items:
       href: automate-exports.md
     - name: Multitenant solution
       href: complex-organization-insights.md
-    - name: Organizational network analysis
-      items: 
-    - name: Organizational Network analysis
-      href: ./organizational-network-analysis.md
-    - name: Organizational network analysis with Gephi
-      href: ./gephi-for-ona.md
+
