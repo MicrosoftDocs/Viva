@@ -31,7 +31,7 @@ To identify the network boundary:
 
 Keep in mind that for any employee not included in the network, the information pathways to/from these employees will be excluded. So, if you were to choose people at random, it would result in an inaccurate understanding of the network. If you choose to analyze HR only, you will get visibility only into collaboration within the HR group. For accurate analysis, ensure your network population is fully licensed.
 
-:::image type="complex" source="images/ona-population-segment.png" alt-text="Screenshot of a network diagram":::
+:::image type="complex" source="../images/ona-population-segment.png" alt-text="Screenshot of a network diagram":::
    Screenshot that shows a network diagram with dots of various colors. One section on the right-hand side of the diagram is encircled in yellow and labeled, "Population segment included int he analysis".
 :::image-end:::
 
@@ -130,7 +130,7 @@ As mentioned earlier, Workplace Analytics doesn't have a **Person-to-person quer
 > [!IMPORTANT]
 > Make sure the additional person identifier (**zId**) is not an employee ID or any identifiable number that would allow the analyst to identify and analyze the interactions at the person level. For privacy reasons, Workplace Analytics de-identifies the **PersonId** by default when the HR org file is uploaded.
 
-:::image type="complex" source="images/ona-zid(1).png" alt-text="Screenshot of Workplace Analytics Query designer step 2":::
+:::image type="complex" source="../images/ona-zid(1).png" alt-text="Screenshot of Workplace Analytics Query designer step 2":::
    Screenshot that shows the Workplace Analytics Query designer's interface. Under step 2, Time Investors, zID is selected from the dropdown menu beneath the prompt, "How do you want to group the time investors".
 :::image-end:::
 
@@ -171,9 +171,9 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
 
 * **Accelerate change**, which you can reach from the **Accelerate change** card on the Home page.
 
-    :::image type="content" source="images/ona-find-accelerate-change.png" alt-text="Screenshot of Workplace Analytics Home page, with nine behavior cards; 'Accelerate change is highlighted'":::
+    :::image type="content" source="../images/ona-find-accelerate-change.png" alt-text="Screenshot of Workplace Analytics Home page, with nine behavior cards; 'Accelerate change is highlighted'":::
 
-    :::image type="complex" source="images/ona-accelerate-change.png" alt-text="Screenshot of Workplace Analytics Accelerate change page":::
+    :::image type="complex" source="../images/ona-accelerate-change.png" alt-text="Screenshot of Workplace Analytics Accelerate change page":::
    Screenshot that shows the Workplace Analytics Accelerate change page. The sub-header reads, "Engage influencers," and the text below reads, "Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently and are not always easy to identify." Beneath the introductory text, on the left side of the image, is a metric in large font that reads, "2% of employees can drive change with 60% of your workforce." Beneath the metric are two hyperlinks: "Supporting evidence" and "How we define the reach of influencers," which includes a tooltip. On the right side of the image, a network diagram is displayed below a header that reads, "Reach of influencers." Diagram and percentage displayed on this page draw data from the Influence metric.
 :::image-end:::
 
@@ -181,9 +181,9 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
 
 * **Accelerate decision making**, which you can reach from the **Improve agility** card on the Home page.
 
-    :::image type="content" source="images/ona-find-accelerate-decision-making.png" alt-text="Screenshot of Workplace Analytics Home page, with nine behavior cards; 'Improve agility' is highlighted":::
+    :::image type="content" source="../images/ona-find-accelerate-decision-making.png" alt-text="Screenshot of Workplace Analytics Home page, with nine behavior cards; 'Improve agility' is highlighted":::
 
-    :::image type="complex" source="images/ona-accelerate-decision-making.png" alt-text="Screenshot of Workplace Analytics Improve agility page":::
+    :::image type="complex" source="../images/ona-accelerate-decision-making.png" alt-text="Screenshot of Workplace Analytics Improve agility page":::
    Screenshot that shows the Accelerate decision making section of the Workplace Analytics Improve agility page. A sub-header reads, "Accelerate decision making," and the text below it reads, "Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making." Beneath the introductory text, on the left side of the image, is a metric in large font that reads, "36% of employees could be empowered to make faster decisions." Beneath the metric are two hyperlinks: "Supporting evidence" and "How we define the reach of influencers," which includes a tooltip. On the right side of the image, a network diagram is displayed below a header that reads, "Employee empowerment." Diagram and percentage displayed on this page draw data from the Influence metric.
 :::image-end:::
 
@@ -193,7 +193,7 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
 
 Through Power BI or any other visualization tool, you can create simple visuals to explain the results of the Network person query—that is, the distribution of influencers and where the top influencers in the company are placed. The following image shows an example Power BI visual.
 
-:::image type="complex" source="images/ona-where-are-the-influencers(1).png" alt-text="Screenshot of four Power BI box-and-whisker charts":::
+:::image type="complex" source="../images/ona-where-are-the-influencers(1).png" alt-text="Screenshot of four Power BI box-and-whisker charts":::
    Screenshot that shows four colorful box charts. The first chart has seven box-and-whisker plots and is titled, "Average of InfluenceRank by leveldesignation and organization." The chart's X axis is by role: "Senior Executive," "Executive," "Director," "Manager," "Senior IC," "Junior IC," and "Support." The chart's Y axis is by number, from "-0.20K" through "1.40K," in increments of 20. The second chart has two box-and-whisker plots and is titled "Average of InfluenceRank by gender and organization." The X axis contains "Male" and "Female"; the chart's Y axis is by number and increases from 0.00K to 1.20K in increments of 20. The third chart has five box-and-whisker plots and is titled, "Average of InfluenceRank by race and organization." The chart's X axis contains "White," "Other," "Hispanic," "Asian," and "Black." The chart's Y axis is by number and increases from 0.00K to 1.20K in increments of 20. The fourth and final chart has four box-and-whisker plots and is titled, "Average of InfluenceRank by region and organization." The chart's X axis contains, "Central," "East," "South," and "West." The chart's Y axis is by number and increases from 0.00K to 1.20K in increments of 20.
 :::image-end:::
 To see a sample analysis of the Network person query result, view the one we created [here](<https://github.com/microsoft/VivaSolutions/tree/main/Sample Solutions/ONA/SampleAnalysis>) in Power BI.
@@ -219,15 +219,15 @@ For an advanced cohort analysis, refer to [FindingCohorts Python script](#findin
 
 Creating bidirectional charts (like doughnut, Sankey, and chord) in visualization tools like Power BI is a good first step to identify connection patterns. The following images show a few sample visuals:
 
-:::image type="complex" source="images/ona-bidirectional-charts(1)(1).png" alt-text="Screenshot of two doughnut charts":::
+:::image type="complex" source="../images/ona-bidirectional-charts(1)(1).png" alt-text="Screenshot of two doughnut charts":::
    Screenshot that shows two doughnut charts made in Power BI. The first chart is titled, "StrongTieScore for All Employees." It has two sections; the first reads "3.58K" with "4.09%" in parentheses and the second reads, "83.37K" with "95.88%" in parentheses. The second chart is titled, "DiverseTieScore for All Employees." It has five sections. In clockwise order, they read: "2.64K" with "3.02%" in parentheses; "26.23K" with "29.98%" in parentheses; "25.23K" with "28.84%" in parentheses; "23.11K" with "26.42%" in parentheses; and "10.16K" with "11.61%" in parentheses.
 :::image-end:::
 
-:::image type="complex" source="images/ona-bidirectional-charts(2)(1).png" alt-text="Screenshot of two Sankey charts":::
+:::image type="complex" source="../images/ona-bidirectional-charts(2)(1).png" alt-text="Screenshot of two Sankey charts":::
    Screenshot that shows two Sankey charts made in Power BI. The first chart is titled, "Average of StrongTieScore by SupervisorIndicator." It has three fields on the left and three fields on the right. The fields on the left are titled, from top to bottom: "Mgr"-plus, "IC," and "Mgr." The fields on the right are titled, from top to bottom: "Mgr," "IC," and "Mgr"-plus. Lines of various thicknesses connect groups on the left to groups on the right. The second chart is also titled, "Average of StrongTieScore by SupervisorIndicator." It has three fields on the left and three fields on the right. The fields on the left are titled, from top to bottom: "IC," "Mgr", and "Mgr"-plus. The fields on the right are titled, from top to bottom: "Mgr"-plus, "IC," and "Mgr." Lines of various thicknesses connect groups on the left to groups on the right. An explanatory box, connected to the first chart's "Mgr"-plus, reads, "TieOrigin_SupervisorIndicator Mgr-plus," TieDestination_SupervisorIndicator IC," and "Average of StrongTieScore 5.344128700133655.".
 :::image-end:::
 
-:::image type="complex" source="images/ona-bidirectional-charts(3).png" alt-text="Screenshot of two chord charts":::
+:::image type="complex" source="../images/ona-bidirectional-charts(3).png" alt-text="Screenshot of two chord charts":::
    Screenshot that shows two chord charts made in Power BI. The first chart is titled, "Average of StrongTieScore by LevelDesignation." It has several sections, which are labeled by role. These roles read, in clockwise order: "Senior Executive," "Senior IC," "Support," "Executive," "Director." There are also numbers within each section; they read, in clockwise order: "0," "0," "1.4," "0," "7.18," "0," "7.82," "6.51," "0," "13.09," "0," "15.34." Beneath the first chart is a score in large font that reads "0.77." The label beneath teh score reads, "Average of StrongTieScore." The second chart is titled, "Average of DiverseTieScore by LevelDesignation." It has several sections, which are labeled by role. These roles read, in clockwise order: "Director," "Support," "Junior IC," "Senior IC," "Manager," and "Senior Executive.  The numbers within each section  read, in clockwise order: "34.63," "0," "52.59," "0," "55.29," "0," "53.75," "0," "67.91," "0," "51.72." Beneath the second chart is a score in large font that reads "9.07" The label beneath the score reads, "Average of DiverseTieScore." Some roles and numbers of each chart may be obscured by an explanatory box in the center of the graph that reads, "Director->Junior IC 5.633232069789529" and "Junior IC->Director 3.9378525449415105.".
 :::image-end:::
 
@@ -237,7 +237,7 @@ You can use **Network person-to-person query** results as a form of person-to-pe
 
 You can use Power BI visualizations—for example, matrix heatmap (shown in the image below) and network visualizations like Network Navigator—to reveal collaboration patterns between groups.
 
-:::image type="complex" source="images/ona-matrix-heatmap.png" alt-text="Screenshot of a matrix heatmap made in a spreadsheet":::
+:::image type="complex" source="../images/ona-matrix-heatmap.png" alt-text="Screenshot of a matrix heatmap made in a spreadsheet":::
    Screenshot that shows a matrix heatmap made in Excel. The matrix shows collaboration patterns between divisions within an organization, expressed in percentages. There are 16 columns containing collaborators and 16 rows containing Time investors, and these rows and columns each share the same titles. The "Biz Dev" row corresponds with the "Biz Dev" column, the "CEO" row corresponds with the "CEO" column, and so forth. Cells containing percentages less than or equal to 1.0 are red; cells containing percentages between 1.1 and presumably 20 are yellow; and cells containing percentages above presumably 20 are green.
 :::image-end:::
 
@@ -255,17 +255,17 @@ wpa R package is an open-source R library of over 180 tools and functions for an
 
 * **Group-to-group queries**: To analyze and visualize Group-to-group queries, use `network_g2g()`.
 
-    :::image type="complex" source="images/ona-wpar-g2g(1).png" alt-text="Screenshot of network diagram representing groups":::
+    :::image type="complex" source="../images/ona-wpar-g2g(1).png" alt-text="Screenshot of network diagram representing groups":::
    Screenshot that shows a network diagram representing the relationship between groups. The diagram is titled, "Group to Group Collaboration" and sub-titled, "Collaboration Across Organizations." 15 groups are represented in the diagram. 13 of these groups form a network web; two are outliers on the left-hand side of the image. A note in the bottom right-hand corner of the image reads, "Displays only collaboration above 10% of node's total collaboration.".
 :::image-end:::
  
 * **Person-to-person queries**: To analyze and visualize person-to-person queries, use `network_p2p()`. This function has the added capability to perform community detection.
 
-    :::image type="complex" source="images/ona-wpar-p2p(1).png" alt-text="Screenshot of person-to-person network diagram color-coded to show communities":::
+    :::image type="complex" source="../images/ona-wpar-p2p(1).png" alt-text="Screenshot of person-to-person network diagram color-coded to show communities":::
    Screenshot that shows a network diagram representing the relationship between people in an organization. The diagram's dots are color-coded to represent communities; there are four communities represented in this image.
 :::image-end:::
 
-    :::image type="complex" source="images/ona-wpar-p2p(2).png" alt-text="Screenshot of a Sankey diagram to the left of a screenshot of a network diagram":::
+    :::image type="complex" source="../images/ona-wpar-p2p(2).png" alt-text="Screenshot of a Sankey diagram to the left of a screenshot of a network diagram":::
    There are two screenshots in this image. The first screenshot shows a Sankey diagram with eight groups; the left groups are labeled alphabetically, "Org A" through "Org H." The right groups are labeled numberically, "1" through "8." Lines of various thicknesses connect the left and right groups. The second screenshot shows a person-to-person network diagram representing the relationship between people in an organization. The diagram's dots are color-coded to represent communities; there are seven communities represented in this image. There is a key at the bottom-center of the screen titled, "cluster," and there are seven dots to its right; each dot is assigned a separate color and a numerical value, 1-7, to its right. The label on the bottom right-hand side of the image reads, "Person to person collaboration with Community Detection based on the Leiden algorithm.".
 :::image-end:::
 
@@ -290,11 +290,11 @@ The Gephi handbook provides instructions on:
 
 A sample template is available [here](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/ONA/Gephi).
 
- :::image type="complex" source="images/ona-gephi-combined.png" alt-text="Two screenshot of network diagrams":::
+ :::image type="complex" source="../images/ona-gephi-combined.png" alt-text="Two screenshot of network diagrams":::
    There are two screenshots in this image. The first screenshot shows a network diagram with five groups in the middle and 10 groups surrounding those middle groups. Middle groups connect to each other; groups on the outside connect only to groups in the middle and not to each other. Groups are labeled in varying font size. Some groups labeled in larger type include "G&A Central," "IT-Corporate," and "Facilities." The second screenshot shows a similar network diagram to the first screenshot, except that connections to and from "G&A Central" are highlighted and other connection lines are faded.  
 :::image-end:::
 
- :::image type="complex" source="images/ona-gephi-interface.png" alt-text="Screenshot of the Gephi interface":::
+ :::image type="complex" source="../images/ona-gephi-interface.png" alt-text="Screenshot of the Gephi interface":::
    Screenshot that shows the Gephi interface. There is a ribbon with commands and tabs. A side panel on the right of the screen shows formatting settings. A side panel on the left of the screen shows other settings and a pie chart. The center of the screen shows a network diagram. The screen's text is not readable.
 :::image-end:::
 
@@ -308,7 +308,7 @@ Then:
 
 1. Download the script from GitHub. To make sure the script can successfully read the input data, modify the script as necessary in **Step 1: read the input file**.
 
-    :::image type="complex" source="images/ona-gephi-python-script.png" alt-text="Screenshot of the Python script's Step 1: read the input file ":::
+    :::image type="complex" source="../images/ona-gephi-python-script.png" alt-text="Screenshot of the Python script's Step 1: read the input file ":::
        Screenshot that shows Step 1: read the input file of the Python script in GitHub. A note beneath the Step 1 header reads, "Modify this cell to read the input data: csv from a local path, Azure blob storage with access key, etc," which is highlighted. In the first code block, the content after ".format" is highlighted.
 :::image-end:::
 
