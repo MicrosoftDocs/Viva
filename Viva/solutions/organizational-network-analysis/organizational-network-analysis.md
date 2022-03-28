@@ -51,7 +51,7 @@ Viva Insights provides the following out-of-the-box ONA queries.
 #### Network person-to-person query
 
 * **Metrics provided**: **Strong** and **Diverse tie** scores
-    * Network ties are connections between employees with at least two meaningful interactions. **Strong ties** have many connections in common, and **Diverse ties** have fewer connections in common. Groups with many **Diverse ties** can represent teams with high innovative potential. Find metric definitions [here](insights/Use/Metric-definitions.md#network-metrics).
+    * Network ties are connections between employees with at least two meaningful interactions. **Strong ties** have many connections in common, and **Diverse ties** have fewer connections in common. Groups with many **Diverse ties** can represent teams with high innovative potential. Find metric definitions [here](insights/use/metric-definitions#network-metrics).
 * **How to use the query**: Use the **Network person-to-person query** to analyze **Strong** and **Diverse ties** between individuals or groups in the measured population.
 
 #### Which Viva Insights ONA measure is right for me?
