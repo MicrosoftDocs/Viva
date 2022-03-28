@@ -45,13 +45,13 @@ Viva Insights provides the following out-of-the-box ONA queries.
 
 * **Metrics provided**: **Influencer** and **Influencer rank**
 
-    * **Influence** is a score of how well connected an employee is in the organization. If an employee is connected to others who are well connected, the employee will benefit from these connections. Employees with a higher **Influence** metric are more likely to connect effectively within or across groups to drive change. Find metric definitions [here](viva/insights/use/Metric-definitions#network-metrics).
+    * **Influence** is a score of how well connected an employee is in the organization. If an employee is connected to others who are well connected, the employee will benefit from these connections. Employees with a higher **Influence** metric are more likely to connect effectively within or across groups to drive change. Find metric definitions [here](/viva/insights/use/metric-definitions#network-metrics).
 * **How to use the query**: Use the **Network person query** to analyze the influence metric in the measured population. Aggregate the metric by attribute—like team, level, or location—to rank, compare, and contrast influencers in the organization.
 
 #### Network person-to-person query
 
 * **Metrics provided**: **Strong** and **Diverse tie** scores
-    * Network ties are connections between employees with at least two meaningful interactions. **Strong ties** have many connections in common, and **Diverse ties** have fewer connections in common. Groups with many **Diverse ties** can represent teams with high innovative potential. Find metric definitions [here](viva/insights/use/Metric-definitions#network-metrics).
+    * Network ties are connections between employees with at least two meaningful interactions. **Strong ties** have many connections in common, and **Diverse ties** have fewer connections in common. Groups with many **Diverse ties** can represent teams with high innovative potential. Find metric definitions [here](/viva/insights/use/metric-definitions#network-metrics).
 * **How to use the query**: Use the **Network person-to-person query** to analyze **Strong** and **Diverse ties** between individuals or groups in the measured population.
 
 #### Which Viva Insights ONA measure is right for me?
