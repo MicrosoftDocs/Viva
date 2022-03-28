@@ -12,8 +12,8 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 
 ---
 
@@ -59,11 +59,11 @@ The Meeting habits section of the Executive dashboard highlights your habits or 
 
   ![Meeting trend view.](../../Images/mya/use/meeting-trends-figma.png)
 
-## Monthly digest email for executives
+## Digest email for executives
 
-If you are an executive, the monthly digest email includes a section that provides a preview of the insights that your Executive dashboard will show. For easy access, this email offers a link to the dashboard. 
+If you are an executive, your Viva digest emails will include a section with a preview of the insights that your Executive dashboard shows. For easy access, this email offers a link to the dashboard.
 
-If you are a person with delegate access, the monthly digest email includes not only your own content, but an additional section for each executive for whom you have delegate access. These executive sections duplicate the insights that the executive sees in their monthly digest email.
+If you are a person with delegate access, the digest email includes not only your own content, but an additional section for each executive for whom you have delegate access. These executive sections duplicate the insights that the executive sees in their digest email.
 
 ## Configure Executive insights
 

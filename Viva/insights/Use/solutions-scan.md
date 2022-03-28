@@ -17,6 +17,9 @@ audience: Analyst
 
 # Opportunities scan
 
+>[!IMPORTANT]
+>This feature will no longer be available starting in April 2022.
+
 An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is collaboration overload, excessive time worked after work hours, or something else.
 
 Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Microsoft 365 data.
@@ -113,7 +116,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
     ![How the plan will help.](../images/wpa/use/how-plan-helps.png)
 
-    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the weekly digest that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
+    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and digest emails that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
 
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 

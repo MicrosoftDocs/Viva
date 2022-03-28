@@ -3,12 +3,12 @@
 title: Workplace Analytics plans for managers
 description: Introduction and summary of Workplace Analytics plans
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.prod: wpa
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: user
 ---
 
 # Workplace Analytics plans for managers
@@ -60,9 +60,9 @@ The [MyAnalytics dashboard](../personal/use/dashboard-2.md) is a constantly avai
 
 ![Participant's dashboard.](../images/wpa/tutorials/dashboard-prog-partic.png)
 
-### Digest
+### Digest emails
 
-All MyAnalytics and Viva Insights users receive a monthly [digest](../personal/use/email-digests-3.md). In addition to its standard content, their digest for participants also includes a section that summarizes their progress in the plan.
+All MyAnalytics and Viva Insights users receive a biweekly [digest emails](../personal/use/email-digests-3.md). In addition to the standard content, the participants digests will also include a section that summarizes their progress in the plan.
 
 ### Inline suggestions
 

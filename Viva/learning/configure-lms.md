@@ -24,7 +24,7 @@ A growing set of learning management systems are available through Viva Learning
 Learning management systems are not enabled by default. To enable these sources, you will need to [add them in the Microsoft 365 admin center](content-sources-365-admin-center.md#configure-settings-for-the-learning-content-sources) and follow the specific instructions shown in the following table.
 
 >[!NOTE]
->You'll need a Premium license to connect learning management systems. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
+>You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
 >[!NOTE]
 >It can take 24 to 48 hours for Viva Learning users to see content for the sources you enabled in the admin portal.
@@ -48,8 +48,11 @@ If you experience any errors in your Microsoft 365 admin center during content i
 |:----------------|:----------|:----------------------|
 |All LMSs |USR_ERROR_INVALID_RESOURCE_CREDENTIALS |The authentication credentials you provided are Invalid. Make sure you enter the correct credentials. You can contact Microsoft customer support for more details. |
 |All LMSs |USR_ERROR_ACCESS_DENIED |Access denied by partner. Confirm that the credentials you entered are correct or contact the content provider's support team. |
-|SuccessFactors |USR_ERROR_SF_PACKAGE_NOT_FOUND |No new content ingested as the required package was not found in the SuccessFactors SFTP server. Make sure that the [SuccessFactors package](configure-successfactors-content-source.md#configure-in-your-successfactors-portal) is available. It may take up to 7 working days to generate this package the first time you sync. If you can't find the package, contact your SuccessFactors support team. |
+|All LMSs |Changes not saved |Confirm that you've entered the correct configuration details. |
+|SuccessFactors |USR_ERROR_SF_INITIAL_PACKAGE_NOT_FOUND |No new content ingested as the required package was not found in the SuccessFactors SFTP server. Make sure that the [SuccessFactors package](configure-successfactors-content-source.md#configure-in-your-successfactors-portal) is available. It may take up to 7 working days to generate this package the first time you sync. If you can't find the package, contact your SuccessFactors support team. |
+|SuccessFactors |USR_ERROR_SF_DELTA_PACKAGE_NOT_FOUND |No new content was ingested as the required package was not found in the SuccessFactors SFTP server. Please ensure that SF package is available in the configured folder path on your SF portal. If you can't find the package, contact your SuccessFactors support team. |  
 |SuccessFactors |USR_ERROR_SFTP_NO_FILES_FOUND |No new content ingested because there were no files present in the SuccessFactors SFTP server.  Make sure that you can find the files in the [SuccessFactors package](configure-successfactors-content-source.md#configure-in-your-successfactors-portal). If you can't find the files, contact your SuccessFactors support team.|
+|SuccessFactors |USR_ERROR_SF_SFTP_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the package size exceeded 2GB. [Contact Microsoft customer support](help-support.md) for more details. |
 |Cornerstone OnDemand |USR_ERROR_INVALID_RESOURCE_CREDENTIALS |The authentication credentials you provided are Invalid. Make sure the credentials are being copied from Microsoft Viva Learning in Cornerstone OnDemand portal. |
 
 ## Content consumption for end users

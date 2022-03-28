@@ -12,17 +12,17 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn about user roles in Viva Topics.
+description: Learn about the different user roles in Viva Topics.
 ---
 
 # Roles in Microsoft Viva Topics
 
 When you use Viva Topics in your Microsoft 365 environment, your users can have the following roles:
 
-- Topic viewer
-- Topic contributor
-- Knowledge manager
-- Knowledge admin
+- [Topic viewer](#topic-viewer)
+- [Topic contributor](#topic-contributor)
+- [Knowledge manager](#knowledge-manager)
+- [Knowledge admin](#knowledge-admin)
 
 ## Topic viewer
 
@@ -33,7 +33,7 @@ For topic highlights and their topic pages to be visible to a topic viewer, the 
 - [Be assigned a Viva Topics license](./set-up-topic-experiences.md#assign-licenses) by their Microsoft 365 admin.
 - Be allowed to have visibility to topics. This task is done by the knowledge admin in the Viva Topics settings page in the Microsoft 365 admin center.
 
-## Topic contributors
+## Topic contributor
 
 Topic contributors are users in your organization that not only have topic viewer permissions, but who also can edit an existing topic or create a new topic. They have an important role in manually “curating” the information in a topic page (both AI or manually provided) to ensure its quality.
 
@@ -46,7 +46,7 @@ To create and edit a topic, the user must:
 - [Be assigned a Viva Topics license](./set-up-topic-experiences.md#assign-licenses) by their Microsoft 365 admin.
 - [Be assigned permissions to create and edit topics](./topic-experiences-user-permissions.md). This task is done by the knowledge admin in the Viva Topics settings page in the Microsoft 365 admin center.
 
-## Knowledge managers
+## Knowledge manager
 
 Knowledge managers are users who manage topics in your organization.  Topic management is done through the **Manage topics** page in the topic center, and it's only visible to knowledge managers.
 
@@ -65,9 +65,16 @@ To manage topics, the user must:
 
 Users who have a good overall knowledge of your business can be good candidates for the knowledge manager role. Such people might not only have the knowledge to know if topics are valid or not, but might also know people within the company who are related to those topics.
 
-## Knowledge admins
+Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to be informed so that they can make sure that the SharePoint site is not crawled for topics, or specific topic names need to be excluded.
+
+## Knowledge admin
 
 Knowledge admins are admins who set up and configure Viva Topics in your Microsoft 365 environment. They also manage the Viva Topics settings after set up has completed. The knowledge admin role requires you to be a Microsoft 365 global or SharePoint admin since setup and management are done in the Microsoft 365 admin center.
+
+> [!NOTE] 
+> Currently, a Microsoft 365 global or SharePoint administrator can serve as a
+knowledge admin.
+
 During setup, knowledge admins can configure Viva Topics to:
 
 - Select which SharePoint sites will be crawled for topics.
@@ -77,4 +84,4 @@ During setup, knowledge admins can configure Viva Topics to:
 - Select which licensed users who can manage topics (knowledge managers).
 - Name the topic center.
 
-Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to be informed so that they can make sure that the SharePoint site is not crawled for topics, or specific topic names need to be excluded.
+

@@ -33,7 +33,7 @@ Help users find important content and resources no matter where they are in Shar
 
 ## The SharePoint app bar experience
 
-The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
+The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details the rest of the content will dynamically display and update personalized content for sites, news, and files.
 
 
 ![Image of the SharePoint app bar tabs.](../media/connections/app-bar-expanded-2.png)
@@ -46,9 +46,8 @@ The SharePoint app bar brings together intranet resources and personalized conte
 > -	The SharePoint app bar cannot be disabled on specific sites. 
 > -	The SharePoint app bar is not available on classic SharePoint sites today, however soon administrators will be able to add it to classic sites manually. 
 > -	The SharePoint app bar may impact current page customizations, specifically those that appear on the left side. 
-> -	Personalized content in the SharePoint app bar is enabled by Microsoft Graph.
 > - The SharePoint app bar will not display in SharePoint for external or guest users outside of your organization.
-> -	When Microsoft Graph is disabled, the news and sites experience will be degraded.
+> - In GCC High and DoD environments users may experience a degraded experience for the My sites panel in the app bar.
 > -	The SharePoint app bar can be temporarily disabled between today and when it becomes available to all customers to give customers more time to prepare for this change. Temporarily disabling the app bar will delay the rollout of this feature in your organization until March 31, 2022.
 > - Global navigation in the SharePoint app bar must be enabled in order for SharePoint resources to display in the [Microsoft Teams app bar for Viva Connections](viva-connections-overview.md).
 
