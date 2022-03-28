@@ -38,7 +38,7 @@
        
     - name: Work with topics
       items:
-        - name: Get started with Viva Topics
+        - name: Learn about topics in Microsoft Viva Topics
           href: get-started-with-viva-topics.md
         - name: Topic center overview
           href: topic-center-overview.md    

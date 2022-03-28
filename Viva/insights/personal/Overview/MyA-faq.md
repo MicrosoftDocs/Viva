@@ -113,7 +113,7 @@ If you plan to go on vacation (or on holiday), create an Outlook calendar event 
 
 Yes. You can change your time zone and your working time in your [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
-### Digests
+### Digest emails
 
 #### Q1. How do the Viva digest emails show up in Outlook?
 
@@ -308,7 +308,7 @@ The dashboard is available to Viva Insights users a few days after getting assig
 
 #### Q4. How do the Viva digest emails show up in Outlook?
 
- The [Digest emails](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by Viva Insights. Digests cannot be managed by email setting transport rules.
+ The [digest emails](../use/email-digests-3.md) are system generated notifications that do not go through the standard email delivery process. They are inserted directly into a user's Outlook inbox by Viva Insights. Digests cannot be managed by email setting transport rules.
 
 #### Q5. I have not received my Skype for Business data. It seems to have gone missing. Where is it?
 

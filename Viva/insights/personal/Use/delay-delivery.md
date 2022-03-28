@@ -2,7 +2,7 @@
 title: Delay delivery plan in MyAnalytics
 description: Learn how to opt in and use Delay delivery in MyAnalytics for suggestions on when to send email during your coworker's working hours
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -26,7 +26,7 @@ When you're composing an email in Outlook, Delay delivery will show you suggesti
 
 The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others.
 
-You might not see the suggestion if you’re composing an email one hour before or after recipients’ or your working hours. Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.
+You might not see the suggestion if you’re composing an email during the hour before or after the recipients’ or your working hours. Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
