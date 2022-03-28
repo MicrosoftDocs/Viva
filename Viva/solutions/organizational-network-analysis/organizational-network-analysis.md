@@ -207,7 +207,7 @@ Here’s a simple way to create a cohort analysis:
 1. Run a **Network person query**.
 2. Select a population of top influencers based on the Influence metric: 
     1. Set a threshold or sort based on the Influence metric.
-    1. Select the top 10% of the whole company population.
+    1. Select the top 10% of the whole company population (or any other percentage you want to address in the analysis).
 3. Flag the selected individuals in step 2 as influencers.
 4. Pivot the data in Excel with various HR attribute combinations using the flag in step 3.
 
@@ -288,7 +288,7 @@ The Gephi handbook provides instructions on:
 * Running Viva Insights queries and transforming the results
 * Configuring Gephi to create a Person-to-person and Group-to-group visualization
 
-The Gephi handbook and a sample template are available here.
+A sample template is available [here](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/ONA/Gephi).
 
  :::image type="complex" source="images/ona-gephi-combined.png" alt-text="Two screenshot of network diagrams":::
    There are two screenshots in this image. The first screenshot shows a network diagram with five groups in the middle and 10 groups surrounding those middle groups. Middle groups connect to each other; groups on the outside connect only to groups in the middle and not to each other. Groups are labeled in varying font size. Some groups labeled in larger type include "G&A Central," "IT-Corporate," and "Facilities." The second screenshot shows a similar network diagram to the first screenshot, except that connections to and from "G&A Central" are highlighted and other connection lines are faded.  

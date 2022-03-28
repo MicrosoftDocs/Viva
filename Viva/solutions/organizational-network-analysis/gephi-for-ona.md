@@ -1,5 +1,5 @@
 ---
-title: Gephi for custom data visualization
+title: Organizational network analysis with Gephi
 description: Explains how to install and use Gephi for custom data visualization from Organizational network analysis 
 author: lilyolason
 ms.author: v-lilyolason
@@ -16,9 +16,9 @@ manager: helayne
 audience: Admin
 ---
 
-# Gephi for custom data visualization
+# Organizational network analysis with Gephi
 
-Gephi is an open-source network analysis software that enables users to create customized network analysis measures and maps. 
+Gephi is an open-source network analysis software that enables users to create customized network analysis measures and maps.
 
 ## Installation
 
@@ -61,7 +61,7 @@ Run a **Group-to-group query** in Workplace Analytics with Viva Insights:
     1. Optional: You might choose to exclude external collaborators (**IsInternal** = **False**) and focus the analysis on those with a Workplace Analytics license (**WPA_License** = **Y**).
     1. Group by the same attribute selected in step 4.
     
-    :::image type="content" source="images/g2g-step-5-their-collaborators.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
+        :::image type="content" source="images/g2g-step-5-their-collaborators.png" alt-text="Screenshot of Group-to-group query setup's Their collaborators section":::
 
 1. Verify your settings and run your analysis.
 1. Once your queries have completed, download the .csv file.
@@ -87,9 +87,9 @@ Run a **Group-to-group query** in Workplace Analytics with Viva Insights:
     1. Select the **Home** tab, then select **Close & Load**.
     1. Manually remove some of the rows as needed.
 
-Your table should resemble the following image:
+    Your table should resemble the following image:
 
-:::image type="content" source="images/g2g-step-10-example-table.png" alt-text="Screenshot an Excel spreadsheet showing Source, Target, and Weight columns populated with data":::
+    :::image type="content" source="images/g2g-step-10-example-table.png" alt-text="Screenshot an Excel spreadsheet showing Source, Target, and Weight columns populated with data":::
 
 11.	Save this file to use in the next steps.
 
@@ -98,7 +98,7 @@ Your table should resemble the following image:
 1. Open Gephi and create a **New Project**.
 2. Select the **Data Laboratory** button and select **Import Spreadsheet**.
              
-:::image type="content" source="images/glnm-step 2-import-spreadsheet.png" alt-text="Screenshot of Gephi interface with Data Laboratory button highlighted and Nodes tab highlighted":::
+    :::image type="content" source="images/glnm-step 2-import-spreadsheet.png" alt-text="Screenshot of Gephi interface with Data Laboratory button highlighted and Nodes tab highlighted":::
 
 3. Navigate to the folder where you saved your Group-to-group query and select the file you created in previous section. This file will serve as the underlying data for your network map.
 4. Select the tab with the cleansed data from the file you prepared and verify that Gephi recognizes this file as an **Edges Table**. If not, select this value from the **Import** as dropdown menu.
@@ -220,7 +220,7 @@ To create the interaction matrix (or Edge list) for the ONA analysis:
 1. Select the metrics like **Collaboration hours**, **Email hours**, **Meeting hours**. Set filters as needed.
 1. Select the zId in the **Their collaborators** and **Organizational data** sections of the **Person-to-group** query.
 1. Run the query and export the results once the run is complete.
-1. Rename these columns as follows:
+1. In the exported file, select the following columns and rename using your preferred naming structure.
 
 |Original column name   |New column name  |
 |----------|-----------|
@@ -229,7 +229,7 @@ To create the interaction matrix (or Edge list) for the ONA analysis:
 Collaboration_hours (or any other metric that you prefer to be used) | Weight
 
 7. Copy the **Source**, **Target**, and **Weight** columns over to a new tab and save this tab as a .csv file named **CleansedInteractions.csv**.
-1. Follow the steps in[Person query to create a node file](#person-query-to-create-a-node-file) to create a node file to go with the interaction table you just created.
+1. Follow the steps in [Person query to create a node file](#person-query-to-create-a-node-file) to create a node file to go with the interaction table you just created.
 
 > [!NOTE]
 > If you want to see the metrics available in the Person-to-group query (like email counts) as part of the interaction table, you can transform the **Person-to-group query** to a **Person-to-person query** using the same process as steps 1-8 above.
