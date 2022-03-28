@@ -56,13 +56,15 @@ Viva Insights provides the following out-of-the-box ONA queries.
 
 #### Which Viva Insights ONA measure is right for me?
 
-To help determine whether to use **Influence** index or **Strong/Diverse ties**, consult the following table. Additionally, you can leverage the **Group-to-group** and **Person-to-group** queries to generate a person-level interaction matrix for analysis.
+To help determine whether to use **Influence** index or **Strong/Diverse ties**, consult the following table. 
 
 |Influence index   |Strong/Diverse ties  |
 |----------|-----------|
 |Are there individuals in the organization with many well-connected connections? Where?  |Where in the organization are employees connected in their group vs connected with others outside their group?       |
 |How can we improve communication on strategic initiatives? |Where should we encourage connectivity to foster innovation?   |
 |How can we accelerate improvement plans for the organization?|Are there inefficiencies that suggest opportunity to improve team cohesion?
+
+Additionally, you can leverage the **Group-to-group** and **Person-to-group** queries to generate a person-level interaction matrix for analysis.
 
 ##### Person-to-person query through a Group-to-group query
 
@@ -76,9 +78,11 @@ Refer to [Dataset preparation](#dataset-preparation) to learn how to transform *
 
 #### Group-to-group query
 
+Find list of metrics and their definitions [here]((/Viva/insights/Use/Metric-definitions.md#group-to-group-metrics))
+
 Use a **Group-to-group query** to analyze collaboration patterns between teams, understand where groups are investing their collaboration time, and identify silos and bridging organizations.
 
-#### Network person-to-person query
+#### Filtering and assumptions applied on interaction data
 
 > [!NOTE]
 > In this section, we share detailed information on how the **Network person-to-person query** metrics are generated and filtered.
@@ -86,7 +90,7 @@ Use a **Group-to-group query** to analyze collaboration patterns between teams, 
 > * identifying the correct application and usage of the query metrics, and
 > * correctly interpreting the analysis.
 
-##### Underlying matrix
+##### Underlying interaction matrix filtering
 
 The underlying person-to-person matrix for ONA calculations is defined based on these interactions:
 
@@ -140,7 +144,7 @@ To create the interaction matrix (or Edge list) for the ONA calculation, open a 
 1. In Workplace Analytics, navigate to the  **Query designer > Group-to-group query**.
 2. Set up a query with your desired data aggregation level and time period.
 3. Select metrics, like **Collaboration hours**, **Email hours**, and **Meeting hours**. Set filters as needed.
-4. Select the **zId** in the **Their collaborators** and **Organizational data** sections of the **Person-to-group query**.
+4. Select the **zId** under **Time investors** and **Their collaborators**.
 5. Run the query and export the results once the run is complete.
 6. In the exported file, select the following columns and rename as indicated in this table:
 
@@ -151,12 +155,12 @@ Collaborators_zId |Target
 Collaboration_hours (or any other metric that you prefer to be used) |Weight/ONAmetric
 
 > [!NOTE]
-> If you want to see the metrics available in the Person-to-group query (like email counts) as part of the interaction table, you can transform the **Person-to-group query** to a **Person-to-person query** using the same process as steps 1-6 above.
+> If you want to see the metrics available in the Person-to-group query (like email counts) as part of the interaction table, you can transform the **Person-to-group query** to a **Person-to-person query** using the same process as steps 1-6 above (in step 4, Select the **zId** in the **Their Collaborators** and **Organizational data** sections of the query).
 > In this case, the selection and renaming of the columns should match the following table:
 
 |Original name|New name|
 |-------------|---------|
-TimeInvestors_zId (zId)|Source
+zId (zId)|Source
 Collaborators_zId |Target
 Collaboration_hours (or any other metric that you prefer to be used) |Weight/ONAmetric
 
@@ -165,7 +169,6 @@ The list of **Person-to-group query metrics** is available [here](/Viva/insights
 ### ONA analysis
 
 #### Network person query
-
 
 Within Workplace Analytics, you can find visualizations of the **Influence** metric in two places:
 
