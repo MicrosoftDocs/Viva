@@ -20,6 +20,16 @@ description: Learn how to get Microsoft Viva Learning and manage it in the Teams
 
 # Set up Microsoft Viva Learning in the Teams admin center
 
+## Prerequisites
+
+You'll need to have Microsoft Teams deployed for your organization in order to use Viva Learning.
+
+## Licensing
+
+Your Microsoft 365 or Office 365 Enterprise subscription includes Viva Learning with basic features. However, you'll need a Viva Learning or Viva Suite license to access premium features. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning?rtc=1).
+
+## Set up Viva Learning
+
 Viva Learning is enabled by default for all Microsoft Teams users in your organization. You can turn off or turn on Viva Learning at the organization level on the **Manage apps** page in the Microsoft Teams admin center. For more information, see [Manage your apps in the Microsoft Teams admin center](/microsoftteams/manage-apps).
 
 To allow or block specific users in your organization from using Viva Learning, make sure Viva Learning is turned on for your organization on the **Manage apps** page in the Microsoft Teams admin center. Then create a custom app permission policy and assign it to those users. For more information, see [Manage app permission policies in Teams](/microsoftteams/teams-app-permission-policies).
