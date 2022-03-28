@@ -113,7 +113,9 @@ Run a **Group-to-group query** in Workplace Analytics with Viva Insights:
     :::image type="content" source="../images/glnm-step-5-weight-double.png" alt-text="Screenshot of Import settings widow with Weight box checked and Double selected in dropdown menu":::
 
 6. You can likely ignore the errors, especially **Edge weight is 0**. Before selecting **OK**, make sure to choose **Append to existing workspace**.
-             :::image type="content" source="../images/glnm-step-6-append.png" alt-text="Screenshot of Gephi interface with two warnings under Issues tab and Append to existing workspace radio button selected":::
+             
+    :::image type="content" source="../images/glnm-step-6-append.png" alt-text="Screenshot of Gephi interface with two warnings under Issues tab and Append to existing workspace radio button selected":::
+
 7. To add groupings for coloring, you’ll need to add additional attributes to your nodes. You can add attributes manually (step a.) or by creating a Node file (step b.):
     1. Add manually: Adding attributes through a manual process within Gephi tool is a good option if you have a limited number of rows. When uploading the Edge file, Gephi automatically detects the nodes.
         1. Select the **Nodes** tab and select **Add column** from the bottom of the page.

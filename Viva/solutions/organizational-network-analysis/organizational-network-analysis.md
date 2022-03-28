@@ -179,7 +179,7 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
    Screenshot that shows the Workplace Analytics Accelerate change page. The sub-header reads, "Engage influencers," and the text below reads, "Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently and are not always easy to identify." Beneath the introductory text, on the left side of the image, is a metric in large font that reads, "2% of employees can drive change with 60% of your workforce." Beneath the metric are two hyperlinks: "Supporting evidence" and "How we define the reach of influencers," which includes a tooltip. On the right side of the image, a network diagram is displayed below a header that reads, "Reach of influencers." Diagram and percentage displayed on this page draw data from the Influence metric.
 :::image-end:::
 
-    Learn more about **Accelerate change** [here](/insights/use/accelerate-change#accelerate-change-with-viva-insights).
+Learn more about **Accelerate change** [here](/viva/insights/use/accelerate-change#accelerate-change-with-viva-insights).
 
 * **Accelerate decision making**, which you can reach from the **Improve agility** card on the Home page.
 
@@ -189,7 +189,7 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
    Screenshot that shows the Accelerate decision making section of the Workplace Analytics Improve agility page. A sub-header reads, "Accelerate decision making," and the text below it reads, "Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making." Beneath the introductory text, on the left side of the image, is a metric in large font that reads, "36% of employees could be empowered to make faster decisions." Beneath the metric are two hyperlinks: "Supporting evidence" and "How we define the reach of influencers," which includes a tooltip. On the right side of the image, a network diagram is displayed below a header that reads, "Employee empowerment." Diagram and percentage displayed on this page draw data from the Influence metric.
 :::image-end:::
 
-Learn more about **Accelerate decision making** [here](/insights/use/improve-agility#accelerate-decision-making).
+Learn more about **Accelerate decision making** [here](/viva/insights/use/improve-agility#accelerate-decision-making).
 
 ##### Where are the influencers?
 
