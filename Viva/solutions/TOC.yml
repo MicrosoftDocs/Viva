@@ -18,7 +18,7 @@ items:
       items: 
       - name: Organizational network analysis
         href: ./organizational-network-analysis/organizational-network-analysis.md
-      - name: Organizational network analysis with Gephi
+      - name: Organizational network analysis - Gephi
         href: ./organizational-network-analysis/gephi-for-ona.md
 
 
