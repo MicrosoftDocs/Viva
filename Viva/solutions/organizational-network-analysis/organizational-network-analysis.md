@@ -119,9 +119,9 @@ To run each of the following queries:
 
 * **Network person query**: Follow the steps in [Network person queries](/viva/insights/tutorials/ona-person-query).
 
-* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](viva/insights/tutorials/ona-person-to-person-query).
+* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query).
 
-* **Group-to-group query**: Follow the steps in [Group-to-group queries](viva/insights/tutorials/group-to-group-queries). A list of metrics is provided [here](/viva/insights/use/metric-definitions#group-to-group-metrics).
+* **Group-to-group query**: Follow the steps in [Group-to-group queries](/viva/insights/tutorials/group-to-group-queries). A list of metrics is provided [here](/viva/insights/use/metric-definitions#group-to-group-metrics).
 
 * **Person-to-person query** through a **Group-to-group query**: Refer to the following section.
 
