@@ -218,7 +218,7 @@ To create the interaction matrix (or Edge list) for the ONA analysis:
 1. Navigate to the **Group-to-group query** page in Workplace Analytics (**Analyze> Query designer > Group-to-group**).
 1. Set up a query with your desired data aggregation level and time period.
 1. Select the metrics like **Collaboration hours**, **Email hours**, **Meeting hours**. Set filters as needed.
-1. Select the zId in the **Their collaborators** and **Organizational data** sections of the **Person-to-group** query.
+1. Select the zId under **Time investors** and **Their collaborators** .
 1. Run the query and export the results once the run is complete.
 1. In the exported file, select the following columns and rename using your preferred naming structure.
 
@@ -232,7 +232,7 @@ Collaboration_hours (or any other metric that you prefer to be used) | Weight
 1. Follow the steps in [Person query to create a node file](#person-query-to-create-a-node-file) to create a node file to go with the interaction table you just created.
 
 > [!NOTE]
-> If you want to see the metrics available in the Person-to-group query (like email counts) as part of the interaction table, you can transform the **Person-to-group query** to a **Person-to-person query** using the same process as steps 1-8 above.
+> If you want to see the metrics available in the Person-to-group query (like email counts) as part of the interaction table, you can transform the **Person-to-group query** to a **Person-to-person query** using the same process as steps 1-8 above (in step 4, Select the **zId** in the **Their Collaborators** and **Organizational data** sections of the query).
 > In this case, the selection and renaming of the columns should match the following table:
 
 |Original name|New name|
