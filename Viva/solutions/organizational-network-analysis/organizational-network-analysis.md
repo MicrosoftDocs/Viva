@@ -78,7 +78,7 @@ Refer to [Dataset preparation](#dataset-preparation) to learn how to transform *
 
 #### Group-to-group query
 
-Find list of metrics and their definitions [here](/Viva/insights/Use/Metric-definitions.md#group-to-group-metrics))
+Find list of metrics and their definitions [here](insights/use/Metric-definitions#group-to-group-metrics)
 
 Use a **Group-to-group query** to analyze collaboration patterns between teams, understand where groups are investing their collaboration time, and identify silos and bridging organizations.
 
@@ -117,11 +117,11 @@ Similar logic applies to a **Group-to-group query** transformed into a **Person-
 
 To run each of the following queries:
 
-* **Network person query**: Follow the steps in [Network person queries](/Viva/insights/Tutorials/ona-person-query.md).
+* **Network person query**: Follow the steps in [Network person queries](/insights/tutorials/ona-person-query).
 
-* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](/Viva/insights/Tutorials/ona-person-to-person-query.md).
+* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](/insights/tutorials/ona-person-to-person-query).
 
-* **Group-to-group query**: Follow the steps in [Group-to-group queries](/Viva/insights/Tutorials/Group-to-group-queries.md). A list of metrics is provided [here](/Viva/insights/Use/Metric-definitions#group-to-group-metrics.md).
+* **Group-to-group query**: Follow the steps in [Group-to-group queries](/insights/tutorials/group-to-group-queries). A list of metrics is provided [here](/insights/use/metric-definitions#group-to-group-metrics).
 
 * **Person-to-person query** through a **Group-to-group query**: Refer to the following section.
 
@@ -137,7 +137,6 @@ As mentioned earlier, Workplace Analytics doesn't have a **Person-to-person quer
 :::image type="complex" source="../images/ona-zid(1).png" alt-text="Screenshot of Workplace Analytics Query designer step 2":::
    Screenshot that shows the Workplace Analytics Query designer's interface. Under step 2, Time Investors, zID is selected from the dropdown menu beneath the prompt, "How do you want to group the time investors".
 :::image-end:::
-
 
 To create the interaction matrix (or Edge list) for the ONA calculation, open a **Group-to-group query**:
 
@@ -164,7 +163,7 @@ zId (zId)|Source
 Collaborators_zId |Target
 Collaboration_hours (or any other metric that you prefer to be used) |Weight/ONAmetric
 
-The list of **Person-to-group query metrics** is available [here](/Viva/insights/Use/Metric-definitions#person-to-group-metrics.md).
+The list of **Person-to-group query metrics** is available [here](/insights/use/metric-definitions#person-to-group-metrics).
 
 ### ONA analysis
 
@@ -180,7 +179,7 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
    Screenshot that shows the Workplace Analytics Accelerate change page. The sub-header reads, "Engage influencers," and the text below reads, "Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently and are not always easy to identify." Beneath the introductory text, on the left side of the image, is a metric in large font that reads, "2% of employees can drive change with 60% of your workforce." Beneath the metric are two hyperlinks: "Supporting evidence" and "How we define the reach of influencers," which includes a tooltip. On the right side of the image, a network diagram is displayed below a header that reads, "Reach of influencers." Diagram and percentage displayed on this page draw data from the Influence metric.
 :::image-end:::
 
-    Learn more about **Accelerate change** [here](/Viva/insights/Use/accelerate-change.md#accelerate-change-with-viva-insights).
+    Learn more about **Accelerate change** [here](/insights/use/accelerate-change#accelerate-change-with-viva-insights).
 
 * **Accelerate decision making**, which you can reach from the **Improve agility** card on the Home page.
 
@@ -190,7 +189,7 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
    Screenshot that shows the Accelerate decision making section of the Workplace Analytics Improve agility page. A sub-header reads, "Accelerate decision making," and the text below it reads, "Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making." Beneath the introductory text, on the left side of the image, is a metric in large font that reads, "36% of employees could be empowered to make faster decisions." Beneath the metric are two hyperlinks: "Supporting evidence" and "How we define the reach of influencers," which includes a tooltip. On the right side of the image, a network diagram is displayed below a header that reads, "Employee empowerment." Diagram and percentage displayed on this page draw data from the Influence metric.
 :::image-end:::
 
-    Learn more about **Accelerate decision making** [here](/Viva/insights/Use/improve-agility.md#accelerate-decision-making).
+    Learn more about **Accelerate decision making** [here](/insights/use/improve-agility#accelerate-decision-making).
 
 ##### Where are the influencers?
 
@@ -313,7 +312,7 @@ Then:
 
     :::image type="complex" source="../images/ona-gephi-python-script.png" alt-text="Screenshot of the Python script's Step 1: read the input file ":::
        Screenshot that shows Step 1: read the input file of the Python script in GitHub. A note beneath the Step 1 header reads, "Modify this cell to read the input data: csv from a local path, Azure blob storage with access key, etc," which is highlighted. In the first code block, the content after ".format" is highlighted.
-:::image-end:::
+    :::image-end:::
 
 1. Configure the parameters in **Step 1: read the input file**.
 1. Complete **Step 2: Add isInfluencer flag**, **Step 3: Training a DecisionTree model**, and **Step 4: DecisionTree text representation**.
