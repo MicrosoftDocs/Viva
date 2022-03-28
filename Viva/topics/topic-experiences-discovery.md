@@ -91,7 +91,11 @@ In the CSV template, enter the following information about the topics you want t
 
 If you use sensitivity labels in your organization, you can exclude SharePoint files that have sensitivity labels from topic discovery. This allows you to prevent these files from being listed as suggested files on a topic. Information in labeled files won't be used for AI-extracted topic descriptions.
 
-This setting excludes content based on file labels but not site labels. Changing this setting may cause people, alternate names, or descriptions extracted from labeled files to be removed from existing topics if they occur uniquely in labeled files. Some already suggested topics may be be removed if they are based only on labeled content.
+This setting excludes content based on file labels but not site labels. 
+
+Changing this setting may cause people, alternate names, or descriptions extracted from labeled files and sites to be removed from existing topics if they occur uniquely in those locations. Some already suggested topics may be be removed if they are based only on labeled content. This process may take up to two weeks once you save the setting.
+
+This setting applies to content that is suggested by Viva Topics and will not remove any content that has been pinned to a topic page. 
 
 You must be a Microsoft 365 global admin to configure this setting.
 
@@ -103,6 +107,8 @@ To exclude resources based on sensitivity labels
 1. Under **Exclude resources based on sensitivity labels**, select the labels for the files you want to exclude.
 1. Select **Save**.
 1. Close the advanced settings panel.
+
+When a label is newly applied to a file, the exclusion will take effect as soon as the change is processed by Viva Topics, usually within a day. When a label is newly applied to a site, the exclusion will take effect within in a few days depending on the amount of files and pages on the site.
 
 ## See also
 
