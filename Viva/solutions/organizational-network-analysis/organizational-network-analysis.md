@@ -31,7 +31,7 @@ To identify the network boundary:
 
 Keep in mind that for any employee not included in the network, the information pathways to/from these employees will be excluded. So, if you were to choose people at random, it would result in an inaccurate understanding of the network. If you choose to analyze HR only, you will get visibility only into collaboration within the HR group. For accurate analysis, ensure your network population is fully licensed.
 
-:::image type="complex" source="../images/ona-population-segment.png" alt-text="Screenshot of a network diagram":::
+:::image type="complex" source="../images/ona-population-segment(2).png" alt-text="Screenshot of a network diagram":::
    Screenshot that shows a network diagram with dots of various colors. One section on the right-hand side of the diagram is encircled in yellow and labeled, "Population segment included int he analysis".
 :::image-end:::
 
@@ -78,7 +78,7 @@ Refer to [Dataset preparation](#dataset-preparation) to learn how to transform *
 
 #### Group-to-group query
 
-Find list of metrics and their definitions [here]((/Viva/insights/Use/Metric-definitions.md#group-to-group-metrics))
+Find list of metrics and their definitions [here](/Viva/insights/Use/Metric-definitions.md#group-to-group-metrics))
 
 Use a **Group-to-group query** to analyze collaboration patterns between teams, understand where groups are investing their collaboration time, and identify silos and bridging organizations.
 
