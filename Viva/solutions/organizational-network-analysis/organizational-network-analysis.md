@@ -78,7 +78,7 @@ Refer to [Dataset preparation](#dataset-preparation) to learn how to transform *
 
 #### Group-to-group query
 
-Find list of metrics and their definitions [here](/insights/use/metric-definitions#group-to-group-metrics)
+Find list of metrics and their definitions [here](/viva/insights/use/metric-definitions#group-to-group-metrics).
 
 Use a **Group-to-group query** to analyze collaboration patterns between teams, understand where groups are investing their collaboration time, and identify silos and bridging organizations.
 
@@ -117,11 +117,11 @@ Similar logic applies to a **Group-to-group query** transformed into a **Person-
 
 To run each of the following queries:
 
-* **Network person query**: Follow the steps in [Network person queries](/insights/tutorials/ona-person-query).
+* **Network person query**: Follow the steps in [Network person queries](/viva/insights/tutorials/ona-person-query).
 
-* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](/insights/tutorials/ona-person-to-person-query).
+* **Network person-to-person query**: Follow the steps in [Network person-to-person queries](/viva/insights/tutorials/ona-person-to-person-query).
 
-* **Group-to-group query**: Follow the steps in [Group-to-group queries](/insights/tutorials/group-to-group-queries). A list of metrics is provided [here](/insights/use/metric-definitions#group-to-group-metrics).
+* **Group-to-group query**: Follow the steps in [Group-to-group queries](/viva/insights/tutorials/group-to-group-queries). A list of metrics is provided [here](/viva/insights/use/metric-definitions#group-to-group-metrics).
 
 * **Person-to-person query** through a **Group-to-group query**: Refer to the following section.
 
@@ -163,7 +163,7 @@ zId (zId)|Source
 Collaborators_zId |Target
 Collaboration_hours (or any other metric that you prefer to be used) |Weight/ONAmetric
 
-The list of **Person-to-group query metrics** is available [here](/insights/use/metric-definitions#person-to-group-metrics).
+The list of **Person-to-group query metrics** is available [here](/viva/insights/use/metric-definitions#person-to-group-metrics).
 
 ### ONA analysis
 
@@ -189,7 +189,7 @@ Within Workplace Analytics, you can find visualizations of the **Influence** met
    Screenshot that shows the Accelerate decision making section of the Workplace Analytics Improve agility page. A sub-header reads, "Accelerate decision making," and the text below it reads, "Agile organizations are transparent and freely share information to avoid miscommunication and enable smart and timely decision making." Beneath the introductory text, on the left side of the image, is a metric in large font that reads, "36% of employees could be empowered to make faster decisions." Beneath the metric are two hyperlinks: "Supporting evidence" and "How we define the reach of influencers," which includes a tooltip. On the right side of the image, a network diagram is displayed below a header that reads, "Employee empowerment." Diagram and percentage displayed on this page draw data from the Influence metric.
 :::image-end:::
 
-    Learn more about **Accelerate decision making** [here](/insights/use/improve-agility#accelerate-decision-making).
+Learn more about **Accelerate decision making** [here](/insights/use/improve-agility#accelerate-decision-making).
 
 ##### Where are the influencers?
 
