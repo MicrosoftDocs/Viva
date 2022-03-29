@@ -133,7 +133,7 @@ The following is shown in the App Registration UI in Azure for your current Azur
 ### Source storage
 
 * **src_storageAccount**: The container that you downloaded in the zip file with a value of **wpaappsprodtest1**.
-* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download the script](#download-the-script).
+* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download the script](#download-the-scripts).
 
 ### Linkage account details
 
