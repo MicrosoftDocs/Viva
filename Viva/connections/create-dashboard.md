@@ -265,7 +265,7 @@ Set up the Top news card to surface [boosted news from SharePoint](https://suppo
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-   ![Adding a Top news card.](../media/connections/top-edit-panel.png)
+   ![Adding a Top news card.](../media/connections/top-news-edit-panel.png)
 
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
