@@ -1,7 +1,7 @@
 ---
 title: Adoption resources for Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: mattw
 audience: admin
@@ -33,4 +33,4 @@ Use these downloadable resources and other information to spark ideas about how 
 |---------|---------|
 |[Adoption blog](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/the-journey-to-viva-topics-adoption-success-intro/ba-p/2976552) |Read about how organizations are using Viva Topics to drive a knowledge-centric culture, including learnings, insights, and best practices. |
 |[Viva Topics FAQ](faq-topics.md) |Find answers to frequently asked questions to help you understand more about Viva Topics.    |
-
+|End user guidance |[Understanding Viva Topics](https://support.microsoft.com/en-us/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332) <br> [Edit an existing topic in Viva Topics](https://support.microsoft.com/en-us/office/edit-an-existing-topic-in-microsoft-viva-topics-6a4c7459-2293-4291-af76-973af65a44ae)  |
