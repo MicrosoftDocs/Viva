@@ -139,11 +139,11 @@ The following is shown in the App Registration UI in Azure for your current Azur
 
 * **synapse_linkedServiceName**: Whatever you prefer, something on-brand that you can remember is best.
 * **synapse_linkedServiceAccntName**: Should be the same as what you named the synapse_linkedServiceName.
-* **synapse_node_size**: This parameter depends on the size of the data to process. The default value is **Medium**.
-* **synapse_executor_size**: This must not exceed the synapse_node_size. The default value is **Small**. For example, an *exception error* will occur if the synapse_node_size value is *Medium* and synapse_executor_size is *Large*.
+* **synapse_node_size**: This parameter depends on the size of the data to process. This must be set to a larger size than the following *synapse_executor_size* parameter or an *exception error* will occur. The default value is **Medium**.
+* **synapse_executor_size**: This must not exceed the synapse_node_size parameter or an *exception error* will occur. The default value is **Small**.
 
 >[!Important]
->Be sure to save the **azt-param.txt** file after entering the required parameters described in this section.
+>Be sure to save the **azt-param.txt** file after entering the required parameters described in this section. If the **synapse_executor_size** is set larger than the **synapse_node_size**, it'll cause an *exception error*.
 
 ## Run the script
 
