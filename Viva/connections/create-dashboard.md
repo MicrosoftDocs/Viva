@@ -47,7 +47,7 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
-
+- [Get more information about how links and Single sing-on works](#how-urls-and-single-sign-on-works)
 
 ## Create a Dashboard and add cards
 
@@ -367,6 +367,25 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page.  
 
 When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to display. [Learn how to use the Dashboard web part](/sharepoint/use-dashboard-web-part-on-home-site).
+
+
+## How URLs and single Sign-on works
+For some cards, you will use links to URLs. Depending on the location of the content, links to URLs may display content in Microsoft Teams or elsewhere and [Single sign-on (SSO)](/azure/active-directory/manage-apps/what-is-single-sign-on) behavior can differ. Get more information about how links to URLs and SSO behave depending on the location of the content you are linking to.
+
+>[!NOTE] 
+> When SSO is not supported, users will be asked to enter their login credentials.
+
+| Content source | Opens URL to… | Supports SSO          |
+| :------------------- | :------------------- |:----------------|
+| SharePoint Link  | SharePoint or Teams      | Yes      |
+| Teams App  | Teams  | No             |
+| Microsoft  Forms   | Device's browser   | Yes    |
+| Yammer       | Yammer or Teams     | Yes   |
+| PowerApps   | Teams      | Yes  |
+| Power Portals  | Teams | Yes  |
+| Stream  | Teams | Yes    |
+| External Links  | Teams | No  |
+
 
 
 
