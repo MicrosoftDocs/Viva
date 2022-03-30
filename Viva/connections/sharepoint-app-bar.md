@@ -1,8 +1,8 @@
 ---
 title: Set up global navigation in the SharePoint app bar
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: matteva
+author: MattEvans-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
@@ -22,7 +22,7 @@ description: "Use the SharePoint app bar to enhance intranet way finding and dis
 
 # Introduction to the SharePoint app bar
 
-Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way finding experience while dynamically displaying personalized sites, news, files, and lists. The app bar can be accessed on the left-hand side anywhere in SharePoint.
+Help users find important content and resources no matter where they are in SharePoint. The SharePoint app bar is designed to improve the global way-finding and creation experiences while dynamically displaying personalized sites, news, files, and lists. The app bar can be accessed on the left-hand side anywhere in SharePoint.
 
 ![Aninimated GIF of the tabs in the SharEPoint app bar.](../media/connections/app-bar-gif.gif)
 
@@ -33,7 +33,7 @@ Help users find important content and resources no matter where they are in Shar
 
 ## The SharePoint app bar experience
 
-The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and [Microsoft Graph](/graph/overview) will do the rest of the work by dynamically displaying and updating personalized content for sites, news, and files.
+The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and the rest of the content will dynamically display and update personalized content for sites, news, and files. Create sites, files, and lists easily from anywhere in SharePoint.
 
 
 ![Image of the SharePoint app bar tabs.](../media/connections/app-bar-expanded-2.png)
