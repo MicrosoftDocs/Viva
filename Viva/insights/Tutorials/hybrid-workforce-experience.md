@@ -21,7 +21,11 @@ audience: Admin
 
 ## Introduction
 
-As leaders figure out their organization’s new working models, the Hybrid workforce experience Power BI dashboard report helps them understand how hybrid work affects employees differently. The report identifies opportunities to improve the experience of employees working mostly onsite and mostly remote, as well as those working onsite some days of the week and remote on others.
+As leaders figure out their organization’s new working models, the Hybrid workforce experience Power BI dashboard report helps them understand how hybrid work affects employees differently. The report identifies opportunities to improve the experience of employees working in the following ways:
+
+* Mostly onsite
+* Mostly remote
+* Onsite some days of the week and remote on others
 
 This report has six sections, which each address different facets of the employee experience that new hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.  
 
@@ -35,11 +39,11 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
     * If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then, download and install the latest version from [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab).
 
 * Have the following uploaded as part of your organizational data:
-     * An attribute identifying the number of days someone works onsite (for example, OnsiteDays)
+     * An attribute identifying the number of days someone works onsite (we recommend **OnsiteDays**)
 
-     * An attribute indicating whether someone is a manager (for example, SupervisorIndicator)
+     * An attribute indicating whether someone is a manager (we recommend **SupervisorIndicator**)
 
-     * An attribute indicating the person’s hire date (for example, HireDate), which is required to be able to load the **New hire onboarding insights**. Without this attribute, the rest of the report will still load, however.
+     * An attribute indicating the person’s hire date (we recommend **HireDate**), which is required to be able to load the **New hire onboarding insights**. Without this attribute, the rest of the report will still load, however.
 
 ## Set up the template
 
@@ -48,7 +52,9 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Hybrid workforce experience**, which takes you to required setup steps.
-
+    :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe.png" alt-text="Screenshot of Other templates window in Workplace Analytics' Query designer; Hybrid workforce experience is highlighted":::
+       Screenshot that shows the "Other templates" window within Workplace Analytics' Query designer. On the left-hand pane, "Query designer" is highlighted beneath "Analyze." Beneath "Other templates," there are nine templates presented as cards. The last template card, "Hybrid workforce experience," is highlighted.  
+    :::image-end:::
     In the second setup step, select **Set up** next to **Hybrid workforce experience** (if repeating this process per step 8 below, select **Strong and diverse ties**).
 3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics (these are required for the template to work).
