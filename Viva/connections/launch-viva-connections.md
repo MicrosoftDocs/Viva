@@ -27,7 +27,7 @@ After [planning](plan-viva-connections.md), [building](build-viva-connections.md
 ## Step 4: Announce Viva Connections
 One final and critical phase is announcing Viva Connections. Communications should be engaging and interactive where possible. Ensure end users can quickly understand how this new tool will improve their jobs and makes getting news and access to important resources easier than before. 
 
-Emphasize that Viva Connections is a customized and personalized experience that is accessed in Microsoft Teams, so it's likely there aren't any brand new tools being introduced.   
+Emphasize that Viva Connections is a customized and personalized experience that is accessed in Microsoft Teams, so it's likely there aren't any brand-new tools being introduced.   
 
 ### Best practices for launching Viva Connections:
 
