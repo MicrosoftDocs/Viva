@@ -39,15 +39,15 @@ Once [certain requirements are met](guide-to-setting-up-viva-connections.md), th
 - [Add the Approvals card](#add-the-approvals-card)
 - [Add an Assigned tasks card](#add-the-assigned-tasks-card)
 - [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view)
-- [Add a Shifts card](#add-a-shifts-card)
 - [Add a Teams app card](#add-a-teams-app-card)
-- [Add a Web link card](#add-a-web-link-card)
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app)
 - [Add the Top news cards](#add-the-top-news-card)
+- [Add a Shifts card](#add-a-shifts-card)
+- [Add a Web link card](#add-a-web-link-card)
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards)
 - [Preview your Dashboard to see how it will display for different audiences and devices](#preview-your-dashboard-to-see-how-it-will-display-for-different-audiences)
 - [Add the Dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections)
-
+- [Get more information about how links and Single sign-on works](#how-urls-and-single-sign-on-works)
 
 ## Create a Dashboard and add cards
 
@@ -87,45 +87,16 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
  
 6. When you're done adding cards and targeting audiences, and you’re satisfied with how the Dashboard looks in preview, select **Publish** at the top-right of your Dashboard to make it available for use on your home site, in Teams, and in Teams mobile app. The view will default to Desktop view after you’ve published the Dashboard.
 
-## Add a Web link card
-
-Add a web link card when you want your users to go to an internal or external link on a web site. To do this task, perform the following steps:
-
-1. While in **edit** mode, select **+ Add a card** from the Dashboard.
-2. Select **Web link** from the web toolbox.
-
-   ![Adding a web link card.](../media/connections/add-web-link-card.png)
-
-
-3. In the property pane on the right side of the page, select your options.
-
-   ![Choosing options.](../media/connections/choosing-options.png)
-
-4. Select a size for the card from the **Card size** drop-down list.
-5. Enter the URL for your link in the **Link** text box. 
-6. Set the card-display options:
-   - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
-   - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
-3. Under **Thumbnail**, select one of the following options:
-   - **Auto-selected**: This option when chosen automatically displays an image at the top of your card that comes from your page.
-   - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
-4. Under **Card icon**, select one of the following options that enable the icon to be displayed on the left side of the card title:
-   - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
-   - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
-    - **Icon**: This option when chosen enables the **Change** button.  You can select this button to choose from a set of stock icons.
-5. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target from the **Audiences to target**. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
-
-
-
 
 
 ## Add the Approvals card
 
 The Approvals card connects to [Approvals in Microsoft Teams](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) and is a way to streamline all of your requests and processes with your team or partners. You'll be able to create new approvals, view the ones sent your way, and see all of your previous approvals in one place.
 
-![Adding a approvals card.](../media/connections/approvals-card-1.png)
-
 1. While in edit mode, click **+ Add a card** from the dashboard.
+
+   ![Adding a approvals card.](../media/connections/approvals-card-1.png)
+
 2. Select **Approvals** from the Dashboard toolbox.
 
       ![Adding an approvals card in the dashboard.](../media/connections/approvals-edit.png)
@@ -201,23 +172,6 @@ Under **Quick view layout and data**, enter JSON template code for your quick vi
 If you want to target your card to specific audiences (that is, only audiences you specify will see the card in the Dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
-## Add a Shifts card
-
-The Shifts card shows users information about their next or current shift from the Shifts app in Teams. They can also clock in and out and track break time when Time clock is enabled in Teams. 
-
->[!NOTE]
-> The ability to use a Shifts card to clock-in and clock-out will become available in January 2022.
-
-1. While in edit mode, select **+ Add a card** from the dashboard.
-2. Select **Shifts** from the Dashboard toolbox.
-
-   ![Adding a Shifts app card](../media/connections/shiftsicon.png)
-
-3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
-
-4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
-
-
 
 ## Add a Teams app card
 
@@ -288,15 +242,62 @@ A Microsoft app card allows you to create a card that links to Microsoft apps e.
 ## Add the Top news card
 Set up the Top news card to surface [boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). News that has been boosted will prominently display in the Top news card.
 
-![Adding a Top news card.](../media/connections/top-news-card.png)
 
 1. While in **edit** mode, select **+ Add a card** from the Dashboard.
 2. Select **Top news** from the web toolbox.
-3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
    ![Adding a Top news card.](../media/connections/top-news-card.png)
 
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+   ![Property panel for the top news card.](../media/connections/top-news-edit-panel.png)
+
 4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
+## Add a Shifts card
+
+The Shifts card shows users information about their next or current shift from the Shifts app in Teams. They can also clock in and out and track break time when Time clock is enabled in Teams. 
+
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+2. Select **Shifts** from the Dashboard toolbox.
+
+   ![Adding a Shifts app card](../media/connections/shiftsicon.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+
+
+## Add a Web link card
+
+Add a web link card when you want your users to go to an internal or external link on a web site. To do this task, perform the following steps:
+
+1. While in **edit** mode, select **+ Add a card** from the Dashboard.
+2. Select **Web link** from the web toolbox.
+
+   ![Adding a web link card.](../media/connections/add-web-link-card.png)
+
+
+3. In the property pane on the right side of the page, select your options.
+
+   ![Choosing options.](../media/connections/choosing-options.png)
+
+4. Select a size for the card from the **Card size** drop-down list.
+5. Enter the URL for your link in the **Link** text box. 
+6. Set the card-display options:
+   - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it is the title that will be displayed on the top of the card.)
+   - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
+3. Under **Thumbnail**, select one of the following options:
+   - **Auto-selected**: This option when chosen automatically displays an image at the top of your card that comes from your page.
+   - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
+4. Under **Card icon**, select one of the following options that enable the icon to be displayed on the left side of the card title:
+   - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
+   - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
+    - **Icon**: This option when chosen enables the **Change** button.  You can select this button to choose from a set of stock icons.
+5. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target from the **Audiences to target**. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 
 
@@ -367,6 +368,25 @@ What you see in *preview mode* approximates how the Dashboard will display for c
 Once a Dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page.  
 
 When added, it will automatically be populated with the cards from the existing Dashboard on your site. You'll be able to set the maximum number of cards you want to display. [Learn how to use the Dashboard web part](/sharepoint/use-dashboard-web-part-on-home-site).
+
+
+## How URLs and single Sign-on works
+For some cards, you will use links to URLs. Depending on the location of the content, links to URLs may display content in Microsoft Teams or elsewhere and [Single sign-on (SSO)](/azure/active-directory/manage-apps/what-is-single-sign-on) behavior can differ. Get more information about how links to URLs and SSO behave depending on the location of the content you are linking to.
+
+>[!NOTE] 
+> When SSO is not supported, users will be asked to enter their login credentials.
+
+| Content source | Opens URL to… | Supports SSO          |
+| :------------------- | :------------------- |:----------------|
+| SharePoint Link  | SharePoint or Teams      | Yes      |
+| Teams App  | Teams  | No             |
+| Microsoft  Forms   | Device's browser   | Yes    |
+| Yammer       | Yammer or Teams     | Yes   |
+| PowerApps   | Teams      | Yes  |
+| Power Portals  | Teams | Yes  |
+| Stream  | Teams | Yes    |
+| External Links  | Teams | No  |
+
 
 
 
