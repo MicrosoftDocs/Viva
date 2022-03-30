@@ -31,9 +31,9 @@ The information in this section is based on the time period that you select. The
 |Measure|Value|
 |:------|:----|
 |Topics visible|The number of topics that are visible to topic viewers in Microsoft 365 locations such as search and SharePoint |
-|Discovered by Viva Topics|The number of topics that have been [discovered by Viva Topics](/topics/topic-experiences-discovery-curation) or have AI-discovered properties.|
+|Discovered by Viva Topics|The number of topics that have been [discovered by Viva Topics](/viva/topics/topic-experiences-discovery-curation) or have AI-discovered properties.|
 |Created by users|The number of topics that have been [manually created](/viva/topics/create-a-topic) and do not have any AI-discovered properties.|
-|Hidden by settings|If you have [configured Viva Topics to not show suggested topics to topic viewers](/topics/topic-experiences-discovery#prevent-topic-viewers-from-seeing-suggested-topics), the number of hidden topics will be reflected here|
+|Hidden by settings|If you have [configured Viva Topics to not show suggested topics to topic viewers](/viva/topics/topic-experiences-discovery#prevent-topic-viewers-from-seeing-suggested-topics), the number of hidden topics will be reflected here|
 |Removed|The number of topics that have been [removed by user feedback and knowledge managers](/viva/topics/manage-topics)|
 
 ## File processing for topic discovery
