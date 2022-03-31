@@ -133,7 +133,7 @@ The following is shown in the App Registration UI in Azure for your current Azur
 ### Source storage
 
 * **src_storageAccount**: The container that you downloaded in the zip file with a value of **wpaappsprodtest1**.
-* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download the script](#download-the-scripts).
+* **src_sasToken**: The token you got from Microsoft in an email in the first step in [Download the scripts](#download-the-scripts).
 
 ### Linkage account details
 
@@ -145,9 +145,9 @@ The following is shown in the App Registration UI in Azure for your current Azur
 >[!Important]
 >Be sure to save the **azt-param.txt** file after entering the required parameters described in this section. If the **synapse_executor_size** is set larger than the **synapse_node_size**, it'll cause an *exception error*.
 
-## Run the script
+## Run the scripts
 
-After you've entered the correct parameters in the **azt-param.txt** file, you can run the script.
+After you've entered the correct parameters in the **azt-param.txt** file, you can run the scripts.
 
 1. In Cloud Shell, run the following to open the folder:
 
