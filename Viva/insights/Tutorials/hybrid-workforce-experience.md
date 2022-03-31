@@ -43,8 +43,7 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 * Have the following uploaded as part of your organizational data:
   * An attribute identifying the number of days someone works onsite (we recommend **OnsiteDays**)
   * An attribute indicating whether someone is a manager (we recommend **SupervisorIndicator**)
-
-     * An attribute indicating the person’s hire date (we recommend **HireDate**), which is required to be able to load the **New hire onboarding insights**. Without this attribute, the rest of the dashboard will still load, however.
+  * An attribute indicating the person’s hire date (we recommend **HireDate**), which is required to be able to load the **New hire onboarding insights**. Without this attribute, the rest of the dashboard will still load, however.
 
 ## Set up the template
 
@@ -65,7 +64,7 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 8. When prompted, select to return to the **Query designer**. Repeat preceding steps 2-7, except this time, select the **Strong and diverse ties** query. Make the same selections that you did for the Hybrid workforce experience. There’s no need to include any organizational attributes in this query.
 9. When prompted, select to go to **Results**. After both queries successfully run, navigate to **Query designer > Results**. Select the download icon for the **Hybrid workforce experience** query results, select **PBI template**, and then select **OK** to download the template.
 
-    :::image type="content" source="../images/wpa/tutorials/hwfe-download-pbi-template.png" alt-text="Screenshot of download icon and pop-up list; the icon and 'PBI template' are highlighted":::
+    :::image type="content" source="../images/wpa/tutorials/hwfe-download-pbi-template(1).png" alt-text="Screenshot of download icon and pop-up list; the icon and 'PBI template' are highlighted":::
 
 1. Open the downloaded **Hybrid workforce experience** template.
 1. If prompted to select a program, select **Power BI**.
