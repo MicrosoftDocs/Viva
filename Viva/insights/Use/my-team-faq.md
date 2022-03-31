@@ -3,7 +3,7 @@
 title: FAQ for manager and team lead insights
 description: FAQ for My team in Microsoft Viva Insights in Teams
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
@@ -14,8 +14,8 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: Admin, user
 
 ---
 
@@ -64,14 +64,11 @@ Group insights in My team are not shown by default. These insights are based on 
 
 Yes. As an individual contributor, you can follow the steps described in the previous question to set up your team. After you set up your team, you’ll see **My team** within Viva Insights in Teams. The team insights will filter to match up to your currently selected team. However, as a team lead, you will not see Group insights.
 
-##### Q8 Why can't I see the My team page?
+##### Q8 When trying to access My team, why am I prompted to reactivate personal data processing?
 
-This can occur if the Viva Insights feature is disabled. My team depends on data from Viva Insights.
+If you see a message about reactivation, you've previously deactivated the setting that allows Viva Insights to generate insights based on your collaboration data from Microsoft 365. To access **My team**, you must reactivate this setting.
 
-1. Go to [insights.viva.office.com](https://insights.viva.office.com).
-2. Select the **Settings** (gear icon), and then select **Settings** in the Settings pane.
-3. Select to turn **On** Microsoft Viva Insights.
-4. Revisit Viva Insights in Teams to see the **My team** page.
+You can always undo this change later in **Settings** for Viva Insights in Teams (under **My team settings**) or in **Settings** at [https://insights.viva.office.com](https://insights.viva.office.com/).
 
 ##### Q9 Can a team lead gain access to the user experience of a manager or a leader?
 
