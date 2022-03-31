@@ -39,7 +39,7 @@ For working hours and after-hours totals, Workplace Analytics uses "time booked 
 
 Workplace Analytics uses a heuristic logic to order which meetings a person likely attended and assigns time accordingly. This logic doesn't specify a “chunk” of time with start and end dates, but assigns time as a single number. This can cause a variation in meeting hours and after hours, in particular for double booked meetings and meetings that span between working hours and after hours on a person's schedule.
 
-For example, if a person's work day ends at 5 PM and that person attends a scheduled meeting from 4:30 to 5:30 PM that is double booked with another meeting by a half hour (duration hours adjusted = 0.5hr), the calculation uses “time booked in the calendar,” which adds 0.5 hour to working hours, 0.5 hour as after-hours work, and adds 0.5 hour to total meeting hours, which would cause a discrepancy when comparing the totals.
+For example, if a person's workday ends at 5 PM and that person attends a scheduled meeting from 4:30 to 5:30 PM that is double booked with another meeting by a half hour (duration hours adjusted = 0.5hr), the calculation uses “time booked in the calendar,” which adds 0.5 hour to working hours, 0.5 hour as after-hours work, and adds 0.5 hour to total meeting hours, which would cause a discrepancy when comparing the totals.
 
 ## Person-to-group query output
 

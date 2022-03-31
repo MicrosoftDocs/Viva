@@ -3,7 +3,7 @@
 title: Focus plan for MyAnalytics
 description: MyAnalytics focus plan
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-personal
@@ -17,7 +17,7 @@ audience: user
 
 # Focus plan
 
-Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
+Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the workday for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
 The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
 
@@ -151,7 +151,7 @@ Although two hours is the maximum length of a focus-time block that can be sched
 
 #### Booking schedule
 
-MyAnalytics books focus time two weeks in advance. For example: when you open your calendar on a Monday, you should see focus time booked every day of the current week and all the way through the Friday of the following week. Each weekend it looks for time blocks in the next week out and books time accordingly. 
+MyAnalytics books focus time two weeks in advance. For example: when you open your calendar on a Monday, you should see focus time booked every day of the current week and all the way through the Friday of the following week. Each weekend it looks for time blocks in the next week out and books time accordingly.
 
 #### How time slots are selected
 
@@ -173,13 +173,13 @@ During focus time, your status in Teams and Skype for Business will automaticall
 
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
-### Weekly digest and insights add-in
+### Digest emails and Viva Insights Outlook add-in
 
-#### Focus plan weekly digest
+#### Focus plan digest
 
-After you enroll in a focus plan, the content of the weekly digest becomes tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside.
+After you enroll in a focus plan, the content in your digest email will be tailored based on your participation in the plan. It might, for example, remind you to schedule focus time for days on which none is set aside.
 
-#### Insights add-in 
+#### Viva Insights add-in
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 

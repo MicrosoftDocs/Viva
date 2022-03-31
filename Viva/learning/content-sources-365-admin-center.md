@@ -85,7 +85,7 @@ To configure settings for learning content sources in Viva Learning, follow thes
 3. On the **Viva Learning** panel, select the learning content sources you want to configure for the organization, and then select **Save**. You can view the date of the last successful sync with your selected sources from the same panel.
 
     > [!NOTE]
-    > You'll need a Premium license to connect external content sources, with the exception of the select free courses from LinkedIn Learning. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
+    > You'll need a Viva Learning or Viva Suite license to connect external content sources, with the exception of the select free courses from LinkedIn Learning. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
     ![Learning panel in the Microsoft 365 admin center showing content sources options.](../media/learning/clcs-panel.png)
 
