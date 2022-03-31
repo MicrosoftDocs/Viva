@@ -29,6 +29,8 @@ As leaders figure out their organization’s new working models, the Hybrid work
 
 This dashboard has six sections, which each address different facets of the employee experience that new hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.  
 
+<iframe title="Hybrid workforce experience - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiZTExZGI0ZDEtNjRjYS00YzRjLWE0OWQtZmFmOWVhZjQ5ZTJmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Prerequisites
 
 Before you can run queries and populate the dashboard in Power BI, make sure you:
@@ -62,7 +64,7 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 7. Select **Run** (located in the upper right) to run the query, which can take between a few minutes and a few hours to complete.
 8. When prompted, select to return to the **Query designer**. Repeat preceding steps 2-7, except this time, select the **Strong and diverse ties** query. Make the same selections that you did for the Hybrid workforce experience. There’s no need to include any organizational attributes in this query.
 9. When prompted, select to go to **Results**. After both queries successfully run, navigate to **Query designer > Results**. Select the download icon for the **Hybrid workforce experience** query results, select **PBI template**, and then select **OK** to download the template.
-1. 
+
     :::image type="content" source="../images/wpa/tutorials/hwfe-download-pbi-template.png" alt-text="Screenshot of download icon and pop-up list; the icon and 'PBI template' are highlighted":::
 
 1. Open the downloaded **Hybrid workforce experience** template.
