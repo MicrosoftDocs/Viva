@@ -34,6 +34,9 @@ To learn more about the AI technology behind Viva Topics, read [Alexandria in Mi
 
 Keep in mind that Viva Topics needs access to the sites and files that your users use every day. Deploying Viva Topics in a test or development environment may not yield useful results.
 
+> [!Note] 
+> Viva Topics does not support [Service encryption with Customer Key](/microsoft-365/compliance/customer-key-overview).
+
 ## Requirements
 
 You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator or SharePoint administrator to access the Microsoft 365 admin center and set up Topics.
