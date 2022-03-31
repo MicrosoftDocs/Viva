@@ -62,7 +62,9 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 7. Select **Run** (located in the upper right) to run the query, which can take between a few minutes and a few hours to complete.
 8. When prompted, select to return to the **Query designer**. Repeat preceding steps 2-7, except this time, select the **Strong and diverse ties** query. Make the same selections that you did for the Hybrid workforce experience. There’s no need to include any organizational attributes in this query.
 9. When prompted, select to go to **Results**. After both queries successfully run, navigate to **Query designer > Results**. Select the download icon for the **Hybrid workforce experience** query results, select **PBI template**, and then select **OK** to download the template.
+1. 
     :::image type="content" source="../images/wpa/tutorials/hwfe-download-pbi-template.png" alt-text="Screenshot of download icon and pop-up list; the icon and 'PBI template' are highlighted":::
+
 1. Open the downloaded **Hybrid workforce experience** template.
 1. If prompted to select a program, select **Power BI**.
 1. When prompted by Power BI:
