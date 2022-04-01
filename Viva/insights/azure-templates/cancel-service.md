@@ -23,4 +23,4 @@ If you are no longer using the templates, you can cancel the service used for th
 
 1. If you might need it in the future, backup any stored data that's in your Azure storage or SQL database to a local storage location.
 1. Identify the **Subscription Name** and **Subscription ID** that you set the Azure Templates up with in the Azure portal.
-1. Follow the steps described in [Cancel your Azure subscription](https://docs.microsoft.com/azure/cost-management-billing/manage/cancel-azure-subscription) to cancel the service.
+1. Follow the steps described in [Cancel your Azure subscription](/azure/cost-management-billing/manage/cancel-azure-subscription) to cancel the service.
