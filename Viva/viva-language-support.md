@@ -22,81 +22,43 @@ description: "Learn about language support in Microsoft Viva"
 The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in Viva Connections, Viva Learning, Viva Topics, and Viva Insights.
 
 
+## Viva Connections
+Viva Connections is available in most major languages used in Microsoft 365. 
 
-## Viva Connections supported languages  
+Broadly, Viva Connections mobile has four components that influence the end user’s overall language experience - the Viva Connections Dashboard, Feed, Resources, and the Teams mobile app.
 
-|&nbsp; |&nbsp;  |&nbsp; |
-|---|---|---|
-Catalan|Hungarian|Romanian
-Chinese (Simplified)|Indonesian|Russian
-Chinese (Traditional)|Italian|Spanish (Spain)
-Czech|Japanese|Swedish
-Danish|Korean|Thai
-Dutch|Polish|Turkish
-English (United States)|Portuguese (Brazil)|Ukrainian
-Finnish|Portuguese (Portugal)| 
-French (France)| | 
-German| | 
-Greek| | 
+See all of the [available languages](/viva/connections/viva-connections-language#available-languages) and learn how to [set up the Viva Connections experience in a specific language](/viva/connections/viva-connections-language).
 
-[Learn how to set up the Viva Connections experience in different languages](/sharepoint/viva-connections-language)
 
-## Viva Learning supported languages
 
-|&nbsp; | &nbsp; | &nbsp; |
-|---|---|---|
-Catalan|Hungarian|Romanian
-Chinese (Simplified)|Indonesian|Russian
-Chinese (Traditional)|Italian|Spanish (Spain)
-Czech|Japanese|Swedish
-Danish|Korean|Thai
-Dutch|Norwegian, Bokmal|Turkish
-English (United States)|Polish|Ukrainian
-Finnish|Portuguese (Brazil)| 
-French (France)|Portuguese (Portugal)| 
-German| | 
-Greek| | 
+## Viva Learning
+Viva Learning adapts to your organization's Microsoft 365 language preferences. This means that you'll have Viva Learning in the same language that you have Microsoft Teams. However, Viva Learning doesn't currently support right-to-left languages.
 
-## Viva Insights supported languages
+Learn more about [language support for Viva Learning](/viva/learning/viva-learning-supported-languages).
+
+
+## Viva Insights 
 
 **Teams app + Personal**
 
-Personal insights in Viva Insights and MyAnalytics are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
+Personal insights in Viva Insights and MyAnalytics are available in most of the [same languages as Microsoft 365](https://support.microsoft.com/en-us/office/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
-Briefing emails are are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
+Briefing emails are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
 
-[Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments#language-support)
+[Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments#language-support).
 
 **Advanced**
 
-| &nbsp; | &nbsp; |&nbsp; |
-|---|---|---|
-Chinese (Simplified)|German|Portuguese (Brazil)
-Chinese (Traditional)|Italian|Russian
-English (United States)|Japanese|Spanish (Spain)
-French (France)|Korean|
 
-[Learn more about language support and guidelines for Advanced insights](/viva/insights/overview/supported-languages)
+[Learn more about language support and guidelines for Advanced insights](/viva/insights/overview/supported-languages).
 
 
 ## Viva Topics supported languages
+**User interface**
 
-|&nbsp;  | &nbsp; |&nbsp; |
-|---|---|---|
-Arabic|Galician|Norwegian, Bokmal
-Azeri|German|Polish
-Basque|Greek|Portuguese (Brazil)
-Bosnian Latin|Hebrew|Portuguese (Portugal)
-Bulgarian|Hindi|Romanian
-Catalan|Hungarian|Russian
-Chinese (Simplified)|Indonesian|Serbian (Latin)
-Chinese (Traditional)|Irish|Slovak
-Croatian|Italian|Slovenian
-Czech|Japanese|Spanish (Spain)
-Danish|Kazakh|Swedish
-Dari|Korean|Thai
-Dutch|Latvian|Turkish
-English (United States)|Lithuanian|Ukrainian
-Estonian|Macedonian|Vietnamese
-Finnish|Malay-Malaysia|Welsh 
-French (France)| | 
+Languages in the Viva Topics user interface are based on your organization's Microsoft 365 language preferences. See all of the [user interface supported languages](/viva/topics/topics-language-support).
+
+**Languages available for processing topics**
+
+Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).
+
