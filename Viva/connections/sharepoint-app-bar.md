@@ -2,7 +2,7 @@
 title: Set up global navigation in the SharePoint app bar
 ms.reviewer: 
 ms.author: matteva
-author: MattEvans-ODSP
+author: MattEEvans-ODSP
 manager: pamgreen
 recommendations: true
 audience: Admin
