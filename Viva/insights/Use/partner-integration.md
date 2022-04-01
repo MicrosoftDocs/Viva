@@ -101,26 +101,30 @@ While identifying users by the Object ID is the preferred path, not every applic
 
 Export directory information along with the analytics data
 
-1.	Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data.
-2.	This will create an additional output file from your pipeline that includes basic information about each user in the customer’s tenant. This can be used to correlate user information between Azure and your application by joining on a common field, such as e-mail address. See the Microsoft Graph Data Connect documentation for details on the User Schema and a Sample of the output.
-3.	<TODO: Add link to sample from MGDC CPX team including AAD User export step>
+1. Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data.
+1. This will create an additional output file from your pipeline that includes basic information about each user in the customer’s tenant. This can be used to correlate user information between Azure and your application by joining on a common field, such as e-mail address. See the Microsoft Graph Data Connect documentation for details on the User Schema and a Sample of the output.
+1. <TODO: Add link to sample from MGDC CPX team including AAD User export step>
 https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger
- 
-Consuming analytics data
+
+## Consuming analytics data
+
 To process analytics data sent to your application, you have the option of using either a “push” or a “pull” model to start processing.
- 
-Push
+
+### Push
+
 In this model, the Azure Data Factory pipeline powering the data movement notifies your application when new data is available. This can be done through several means:
-1.	An Azure Function can be invoked when data in your Blob Storage account changes. See the Azure Function Overview and Blob Storage Trigger Sample to understand how this can be configured.
-2.	The Azure Data Factory pipeline can invoke a Web Activity that makes a REST call to your application’s backend, notifying it that new data is available.
+
+1. An Azure Function can be invoked when data in your Blob Storage account changes. See the Azure Function Overview and Blob Storage Trigger Sample to understand how this can be configured.
+1. The Azure Data Factory pipeline can invoke a Web Activity that makes a REST call to your application’s backend, notifying it that new data is available.
+
 The sample Data Factory Pipeline includes an example of an Azure Function with a Blob Storage Trigger.
- 
-Pull
+
+### Pull
 
 Your application can continuously poll the Blob Storage account for changes using the Blob Storage SDK or REST API. To do this, we recommend that your application maintain a “watermark” of the last processed folder’s timestamp so that failed processing can be retried.
+
 The SDK or REST API can be used to download data from your Blob Storage account to a local destination (or cloud storage outside of Azure).
  
-Use integrated data
+## Use integrated data
+
 Work with your Microsoft Service representative to coordinate who to work with for joint customers that need help with Viva Insights Partner integration pilots.
-
-
