@@ -3,7 +3,9 @@
 - name: Release notes
   href: ./release-notes.md
 - name: Configuration
-  items: 
+  items:
+  - name: Upgrade to Synapse
+    href: ./upgrade-synapse.md
   - name: Deploy and configure
     href: ./deploy-configure.md
   - name: Data export
@@ -27,5 +29,7 @@
     href: ./relation-intel.md    
   - name: Workspace Planning
     href: ./space-planning.md
+- name: Cancel the service
+  href: ./cancel-service.md
 - name: Get support
   href: ./support.md

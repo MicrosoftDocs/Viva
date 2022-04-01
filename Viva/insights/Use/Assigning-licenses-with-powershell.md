@@ -328,7 +328,7 @@ The Add-WpALicense.ps1 script is designed to assign Viva Insights licenses to Mi
 
 3. Start Windows PowerShell and run the following command:
 
-   ``` powershell
+   ```powershell
     C:\Scripts\Add-WpALicense.ps1 -CSV <CSVLocation> -LicenseSku <WpALicenseSKU>    
    ```
 
