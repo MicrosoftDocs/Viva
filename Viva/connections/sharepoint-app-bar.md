@@ -28,7 +28,7 @@ Help users find important content and resources no matter where they are in Shar
 
 **The SharePoint app bar:**
 
-![Image of the SharePoint app bar.](../media/connections/app-bar-close-3.png)
+![Image of the SharePoint app bar.](../media/connections/app-bar-close-4.png)
 
 
 ## The SharePoint app bar experience
@@ -36,7 +36,7 @@ Help users find important content and resources no matter where they are in Shar
 The SharePoint app bar brings together intranet resources and personalized content like sites, news, files, and lists. Enable global navigation to allow users to easily navigate to important intranet resources anywhere in SharePoint. Customize global navigation details and the rest of the content will dynamically display and update personalized content for sites, news, and files. Create sites, files, and lists easily from anywhere in SharePoint.
 
 
-![Image of the SharePoint app bar tabs.](../media/connections/app-bar-expanded-2.png)
+![Image of the SharePoint app bar tabs.](../media/connections/app-bar-expanded-3.png)
 
 
 >[!NOTE]
