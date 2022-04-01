@@ -47,7 +47,7 @@ Having identified potential barriers, you can find solutions. Turn off email ale
 
 ## Manage expectations
 
-Without some upfront conversations about what you are trying to achieve, even well-meaning teammates can sabotage your efforts to reclaim your time. Tell your manager and closest collaborators about the new habits you are trying to develop and why. Use this conversation to manage their expectations. For example, if your goal is to work more efficiently, and you are committed to avoid sending emails after the end of the work day, then your coworkers should know to call you in an emergency but otherwise wait until morning for your responses.
+Without some upfront conversations about what you are trying to achieve, even well-meaning teammates can sabotage your efforts to reclaim your time. Tell your manager and closest collaborators about the new habits you are trying to develop and why. Use this conversation to manage their expectations. For example, if your goal is to work more efficiently, and you are committed to avoid sending emails after the end of the workday, then your coworkers should know to call you in an emergency but otherwise wait until morning for your responses.
 
 Creating boundaries around how you collaborate can feel uncomfortable, especially when you are setting those boundaries with a manager. Many people want their peers and supervisor to see them as team players, willing to do whatever it takes. Remember: setting boundaries on collaboration does not mean you aren’t a team player. Too much collaboration increases stress, lowers productivity, and impedes creativity, and often with little additional benefit. 
 
