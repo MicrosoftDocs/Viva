@@ -31,7 +31,7 @@ Your current Azure Templates have been using Workplace Analytics data that's bee
 
 ## Open Azure Cloud Shell
 
-Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview of Azure Cloud Shell](https://docs.microsoft.com/azure/cloud-shell/overview).
+Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview of Azure Cloud Shell](/azure/cloud-shell/overview).
 
 >[!Note]
 >If this is your first time running Azure Cloud Shell, you will need to select the subscription storage before you are allowed to use Cloud Shell.
@@ -74,7 +74,7 @@ Login to the Azure Portal, and open Azure Cloud Shell as described in [Overview 
    Copy-Item ./AztScripts_20211011/template-all-param.txt ./AztScripts_20211011/azt-param.txt
    ```
 
-1. Select the **editor** (**{}**) icon to open the [Cloud Shell editor](https://docs.microsoft.com/azure/cloud-shell/using-cloud-shell-editor#opening-the-editor), and then open the **azt-param.txt** file.
+1. Select the **editor** (**{}**) icon to open the [Cloud Shell editor](/azure/cloud-shell/using-cloud-shell-editor#opening-the-editor), and then open the **azt-param.txt** file.
 1. In the left pane, expand the **AztScripts_20211011** file folder, and then locate and open the **azt-param.txt** file.
 1. You'll need to enter the parameters that are specific to your environment, as described in the following section before you can complete the upgrade.
 
@@ -173,7 +173,7 @@ After you've entered the correct parameters in the **azt-param.txt** file, you c
    ./2m-azuresynapsesql-code.ps1
    ```
 
-1. Run the following to import the Integration dataset: 
+1. Run the following to import the Integration dataset:
 
    ```azure-cli
    ./2m-azuresynapseintegrationdataset.ps1
