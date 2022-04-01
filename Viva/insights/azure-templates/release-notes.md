@@ -22,6 +22,12 @@ audience: Admin
 
 Azure templates for Workplace Analytics will continue to develop new templates and add new features and enhancements to the current set of templates. This page will be updated with each new release.
 
+## March 2022
+
+To improve usability and reduce costs, you can upgrade your current Workplace Analytics Azure Templates from running on Azure Databricks to Azure Synapse Analytics. See [Upgrade to Synapse Analytics](upgrade-synapse.md) for instructions.
+
+Or if you're no longer using the templates, you can cancel the service used for the Workplace Analytics Azure Templates in the Azure portal. For details, see [Cancel the service](cancel-service.md).
+
 ## October 2021
 
 The following new template features, enhancements, and changes are included in this month's release of the Organizational Network Analysis (ONA) Azure Template
