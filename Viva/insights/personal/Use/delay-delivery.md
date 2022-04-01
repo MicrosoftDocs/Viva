@@ -2,7 +2,7 @@
 title: Delay delivery plan in MyAnalytics
 description: Learn how to opt in and use Delay delivery in MyAnalytics for suggestions on when to send email during your coworker's working hours
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -18,7 +18,22 @@ audience: user
 
 _**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) or [Microsoft Viva Insights service plan](../overview/plans-environments.md)._
 
-When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries that align with the recipients' working hours in their respective time zones. The delay helps minimize disruptions to recipients outside their working hours. Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.
+When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions for the following scenarios:
+
+* When all recipients in the **To** field are outside of their working hours.
+* When a recipient in the **To** field has an [automatic out-of-office reply](https://support.microsoft.com/office/send-automatic-out-of-office-replies-from-outlook-9742f476-5348-4f9f-997f-5e208513bd67) set up in Outlook.
+* When you are outside of your working hours.
+
+The delay helps minimize disruptions to recipients outside their working hours or when they’re away from work. It helps anybody who wants to maintain the flexibility to work when they want without putting the burden of their schedule on others.
+
+You might not see suggestions in the following scenarios:
+
+* When you’re composing an email during the hour before or after the recipients’ or your working hours.
+* When there are more than 15 recipients in the **To** field.
+* When you're sending an email to yourself.
+
+>[!NOTE]
+> Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
