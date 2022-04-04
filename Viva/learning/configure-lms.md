@@ -42,7 +42,11 @@ Learning management systems are not enabled by default. To enable these sources,
 
 ## Content ingestion errors
 
-If you experience any errors in your Microsoft 365 admin center during content ingestion, refer to the table below for next steps. Please note that this is an exhaustive list and may contain more error codes in the future.
+If you experience any errors in your Microsoft 365 admin center during content ingestion, refer to the table below for next steps. This is an exhaustive list and may contain more error codes in the future.
+
+>[!NOTE]
+>The maximum number of active learning items supported in a tenant is 500,000 records.
+The maximum number of total learning items supported in a tenant is 1 million records.
 
 |Learning management system |Error code |Error code description |
 |:----------------|:----------|:----------------------|
