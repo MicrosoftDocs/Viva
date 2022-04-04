@@ -40,6 +40,52 @@ Learning management systems are not enabled by default. To enable these sources,
 >[!NOTE]
 >Available learning management systems are subject to change. Depending on your organization, you may have access to different learning management systems than are listed here.
 
+## Dataflow architecture
+
+<!--daisy this is the new bit EDIT IT-->
+
+The dataflow diagram illustrates the mechanism of ingesting the learning content catalog and learner records e.g., Assignments and Completion status. The learning management system (LMS) is the ultimate source of content and learner records for their customers. Viva Learning extracts the content and learner records from the LMS by the LMS Connector as depicted in the diagram below.
+
+<!--infographic here-->
+
+The step-by-step content ingestion process is explained below.
+
+1. **LMS**: Viva Learning requires two types of data from every LMS.
+    1. **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table]
+    2. **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS [view the table]
+
+### Content catalog
+
+These are the data extracted from the LMS as part of the Content Catalog package.
+
+|Metadata field name |Field details |Priority |Data type |
+|:-------------------|:-------------|:--------|----------|
+|Content provider (LMS) name |Name of the learning management system. This field can be provided separately and appended. |Required |String|
+|Content provider (LMS) logo URL |Name of the learning management system. This field can be provided separately and appended. |Required |String|
+|Content provider ID |Content provider ID | Required |String |
+|Content ID (unique identifier) | Unique identifier for learning content |Required |String |
+|Title of learning content |Title of learning content |Required |String |
+|Content module URL (link to consume content) |URL for learning content. This is the link that users select to consume the content. |Required |String |
+|Content source name |Name of the provider of course content |Optional |String |
+|Content module long description/summary |Description/summary of learning content |Recommended |String |
+|Content source logo URL |Course content provider's logo in jpeg or png format |Optional |String |
+|Content module thumbnail URL |URL to learning content thumbnail image for display purposes |Recommended |String |
+|Content language/locale |Language in which content is available. Metadata should be provided in all available languages. |Recommended. English is the default if this field isn't provided. |String |
+|Content status |Whether the learning object is active or inactive. Inactive returns **0**, while active returns **1**. |Recommended |Bool |
+|Content module duration |Duration of learning content (time-based) |Recommended |Number |
+|Content format |Content format (e.g. article, course, video) |Recommended |String |
+|Content creation date |Date the learning content was created |Recommended |Date Time |
+|Content module last modified date |Date the learning content was last modified |Recommended |Date Time |
+|Content module author/creator/contributor |Author, creator, or contributor of learning content |Recommended |String |
+|Content module length/size |Non time-based length/size of content (e.g. number of pages) |Recommended |Number |
+|Tags and keywords |Keywords, topics, and other tags associated with the learning content |Recommended |String |
+|Difficulty level |Difficulty level of the course (e.g. beginner, advanced, etc.) |Recommended |String |
+|Popularity score |Rating or popularity score of learning content |Recommended |Number (double) |
+|Skills associated |Skills tags associated with the learning content |Recommended |String |
+|IsPremium |Is the content premium |Recommended |Bool |
+|IsPromoted |Is the content promoted. The default value is false (**0**). |Recommended |Bool |
+|Is Searchable |Is the content searchable. The default value is true (**1**). |Recommended |Bool |
+
 ## Content ingestion errors
 
 If you experience any errors in your Microsoft 365 admin center during content ingestion, refer to the table below for next steps. This is an exhaustive list and may contain more error codes in the future.
