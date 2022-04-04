@@ -67,7 +67,11 @@ This article shows you how to configure Cornerstone OnDemand as a third-party le
 
 1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable Cornerstone OnDemand in the panel.
-3. Fill in the configuration details that you retrieved from your Cornerstone Portal.
+3. Fill in the following required configuration details:
+    1. **Display Name**: This is the name of the carousel under which Cornerstone learning content will appear for your organization in Viva Learning. If you don’t enter a name, it will display the name “Cornerstone OnDemand”.
+    2. **Client's Host URL**: This is the Base URL gathered from Cornerstone portal in step 8. If the Base URL is "https://integration-stg.csod.com", then the Client’s Host URL will be "integration-stg.csod.com".
+    3. **Client ID**: This is the Client ID gathered from Cornerstone portal in step 8.
+    4. **Client Secret**: This is the Client Secret gathered from Cornerstone portal in step 8.
 
     >[!NOTE]
     >The display name is the name of the carousel under which Cornerstone learning content will appear for your organization in Viva Learning. If you don't enter a name, it will display the default name "Cornerstone OnDemand".
