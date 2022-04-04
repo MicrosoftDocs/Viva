@@ -27,7 +27,7 @@ As leaders figure out their organization’s new working models, the Hybrid work
 * Mostly remote
 * Onsite some days of the week and remote on others (hybrid)
 
-This dashboard has six sections, which each address different facets of the employee experience that new hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.  
+This dashboard has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.  
 
 <iframe title="Hybrid workforce experience - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiZTExZGI0ZDEtNjRjYS00YzRjLWE0OWQtZmFmOWVhZjQ5ZTJmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
 
@@ -40,10 +40,10 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 * Have installed the latest version of Power BI Desktop
   * If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then, download and install the latest version from [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab).
 
-* Have the following uploaded as part of your organizational data:
+* Have the following attributes uploaded as part of your organizational data:
   * An attribute identifying the number of days someone works onsite (we recommend **OnsiteDays**)
   * An attribute indicating whether someone is a manager (we recommend **SupervisorIndicator**)
-  * An attribute indicating the person’s hire date (we recommend **HireDate**), which is required to be able to load the **New hire onboarding insights**. Without this attribute, the rest of the dashboard will still load, however.
+  * An attribute indicating the person’s hire date (we recommend **HireDate**), which is required to be able to load the **New hire onboarding insights**. Without this attribute, however, the rest of the dashboard will still load.
 
 ## Set up the template
 
@@ -59,9 +59,9 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics (these are required for the template to work).
 5. In **Select filters**, select **Active only** for **Which measured employees do you want to include in your query results**? Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, refer to [Create a Person Query](/viva/insights/Tutorials/person-queries).
-6. In **Organizational data**, add the attribute that specifies someone’s number of onsite work days (for example, **OnsiteDays**), the attribute that indicates whether someone is a manager (for example, **SupervisorIndicator**), and the HireDate. Add any other attributes you want to be able to use in the dashboard. For best performance, stick between five and eight attributes.
+6. In **Organizational data**, add the attribute that specifies someone’s number of onsite work days (for example, **OnsiteDays**), the attribute that indicates whether someone is a manager (for example, **SupervisorIndicator**), and the HireDate. Add any other attributes you want to be able to use in the dashboard. For best performance, select no more than seven attributes.
 7. Select **Run** (located in the upper right) to run the query, which can take between a few minutes and a few hours to complete.
-8. When prompted, select to return to the **Query designer**. Repeat preceding steps 2-7, except this time, select the **Strong and diverse ties** query. Make the same selections that you did for the Hybrid workforce experience. There’s no need to include any organizational attributes in this query.
+8. When prompted, select to return to the **Query designer**. Repeat preceding steps 2-7, except this time, select the **Strong and diverse ties** query. Make the same selections that you did for the Hybrid workforce experience. Skip step 6; there's no need to include any organizational attributes in this Strong and diverse ties query.
 9. When prompted, select to go to **Results**. After both queries successfully run, navigate to **Query designer > Results**. Select the download icon for the **Hybrid workforce experience** query results, select **PBI template**, and then select **OK** to download the template.
 
     :::image type="content" source="../images/wpa/tutorials/hwfe-download-pbi-template(1).png" alt-text="Screenshot of download icon and pop-up list; the icon and 'PBI template' are highlighted":::
@@ -71,7 +71,7 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
 1. When prompted by Power BI:
     1. In the Workplace Analytics **Query designer > Results**, select the link icon for each query, and select to copy the generated OData URL link.
     1. In Power BI, paste each copied link into its respective URL field.
-    1. Map the attribute in your organizational data that specifies someone’s onsite work days (for example, **OnsiteDays**).
+    1. Map the attribute in your organizational data that specifies indicates the number of days someone works onsite (for example, **OnsiteDays**).
     1. Map the attribute that identifies whether someone is a manager (for example, **SupervisorIndicator**).
     1. Map the **HireDate** attribute (if available).
     1. Set the **Minimum group size** for data aggregation within this dashboard's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
