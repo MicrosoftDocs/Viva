@@ -84,8 +84,8 @@ If you started using the Business resilience dashboard in April or May 2020 and 
 >[!Note]
 >This dashboard supports the same languages that Workplace Analytics supports.
 
-1. In Workplace Analytics, select Analyze > Query designer.
-1. In Create > Other templates, select Business resilience see more details and the required setup steps, and then in step 2, select Set up next to Business resilience (or Hourly Collaboration per Step 6).
+1. In Viva Insights, select **Analyst > Analysis**.
+1. Under **Power BI report**, select **Business resilience** see more details and the required setup steps, and then in step 2, select Set up next to Business resilience (or Hourly Collaboration per Step 6).
 1. When prompted for Select filters, select Active only for "Which measured employees do you want to include?" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see Create a person query.
 1. In Organizational data, keep the preselected Organization, LevelDesignation, and TimeZone attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
