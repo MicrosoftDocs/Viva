@@ -50,9 +50,13 @@ The dataflow diagram illustrates the mechanism of ingesting the learning content
 
 The step-by-step content ingestion process is explained below.
 
-1. **LMS**: Viva Learning requires two types of data from every LMS.
-    1. **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table]
-    2. **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS [view the table]
+1. **LMS** <br> Viva Learning requires two types of data from every LMS.
+    1. **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table](#content-catalog)
+    2. **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS. [View the assignment and completion records table](#assignment-and-completion-records)
+
+2. **LMS Connector** <br> The LMS Connector pulls content from the LMS using both API and SFTP mechanisms. The first time you sync, the LMS extractor pulls the full data. Afterwards, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. In case of any error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva learning application and displayed on the Viva Learning app.
+
+3. **Viva Learning** <br> Content details (content provider logo, thumbnail, title, description, etc.) display on the **Home** and **Learning** tabs in Viva Learning. <br> The **My learning** tab shows the user's assigned and completed courses, which are fetched from the LMS.
 
 ### Content catalog
 
@@ -67,17 +71,17 @@ These are the data extracted from the LMS as part of the Content Catalog package
 |Title of learning content |Title of learning content |Required |String |
 |Content module URL (link to consume content) |URL for learning content. This is the link that users select to consume the content. |Required |String |
 |Content source name |Name of the provider of course content |Optional |String |
-|Content module long description/summary |Description/summary of learning content |Recommended |String |
+|Content module long description/summary |Description/summary of learning content |Highly recommended |String |
 |Content source logo URL |Course content provider's logo in jpeg or png format |Optional |String |
-|Content module thumbnail URL |URL to learning content thumbnail image for display purposes |Recommended |String |
-|Content language/locale |Language in which content is available. Metadata should be provided in all available languages. |Recommended. English is the default if this field isn't provided. |String |
-|Content status |Whether the learning object is active or inactive. Inactive returns **0**, while active returns **1**. |Recommended |Bool |
-|Content module duration |Duration of learning content (time-based) |Recommended |Number |
-|Content format |Content format (e.g. article, course, video) |Recommended |String |
-|Content creation date |Date the learning content was created |Recommended |Date Time |
-|Content module last modified date |Date the learning content was last modified |Recommended |Date Time |
-|Content module author/creator/contributor |Author, creator, or contributor of learning content |Recommended |String |
-|Content module length/size |Non time-based length/size of content (e.g. number of pages) |Recommended |Number |
+|Content module thumbnail URL |URL to learning content thumbnail image for display purposes |Highly recommended |String |
+|Content language/locale |Language in which content is available. Metadata should be provided in all available languages. |Highly recommended. English is the default if this field isn't provided. |String |
+|Content status |Whether the learning object is active or inactive. Inactive returns **0**, while active returns **1**. |Highly recommended |Bool |
+|Content module duration |Duration of learning content (time-based) |Highly recommended |Number |
+|Content format |Content format (e.g. article, course, video) |Highly recommended |String |
+|Content creation date |Date the learning content was created |Highly recommended |Date Time |
+|Content module last modified date |Date the learning content was last modified |Highly recommended |Date Time |
+|Content module author/creator/contributor |Author, creator, or contributor of learning content |Highly recommended |String |
+|Content module length/size |Non time-based length/size of content (e.g. number of pages) |Highly recommended |Number |
 |Tags and keywords |Keywords, topics, and other tags associated with the learning content |Recommended |String |
 |Difficulty level |Difficulty level of the course (e.g. beginner, advanced, etc.) |Recommended |String |
 |Popularity score |Rating or popularity score of learning content |Recommended |Number (double) |
@@ -85,6 +89,23 @@ These are the data extracted from the LMS as part of the Content Catalog package
 |IsPremium |Is the content premium |Recommended |Bool |
 |IsPromoted |Is the content promoted. The default value is false (**0**). |Recommended |Bool |
 |Is Searchable |Is the content searchable. The default value is true (**1**). |Recommended |Bool |
+
+### Assignment and completion records
+
+These are the data extracted from the LMS for assignment records and completion status.
+
+|Metadata field name |Field details |Priority |Data type |
+|:-------------------|:-------------|:--------|----------|
+|Assignment ID |Unique identifier for assignment record |Required |String |
+|User ID/Assignee(s) identifier(s) |ID of the user to whom learning object is assigned |Required |String |
+|Assigned learning object ID |ID of the learning object |Required |String |
+|Provider ID |Content provider ID |Required |String |
+|Due date of assignment |Date the assigned course is due for completion |Highly recommended |String |
+|Date of assignment |Date the learning object was assigned |Highly recommended |Date time |
+|Assignment status |Statues of the learning object assignment. Options are **Not started**, **In progress**, and **Completed**. |Highly recommended. The default value is **Not started**. |String |
+|Date of completion |Date the user completed the assignment |Highly recommended |Date time |
+|Assigner ID |Identifier of the user who assigned the learning object |Highly recommended |String |
+|Notes |Notes or comments on the assignment, if any exist |Highly recommended |String |
 
 ## Content ingestion errors
 
