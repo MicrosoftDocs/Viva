@@ -45,7 +45,7 @@ First, you'll need to follow these steps to create an app in your Go1 Portal. Th
 8. Your information will display with the Secret hidden. Select the ellipses (**...**), then select **View Secret** to display the Secret.
 9. Copy the following values:
 
-    - **Client's Host URL:** This is your Go1 Portal URL. It will look like "https://mycompany.mygo1.com".
+    - **Client's Host URL:** This is your Go1 Portal URL. If the Go1 Portal URL is "https://mycompany.mygo1.com", then the Client’s Host URL will be "mycompany.mygo1.com".
     - **Client ID:** You can find your ID in your Go1 Portal under the **Integrations/Developer** menu options.
     - **Secret:** You can find your Secret in your Go1 Portal under the **Integrations/Developer** menu options.
 

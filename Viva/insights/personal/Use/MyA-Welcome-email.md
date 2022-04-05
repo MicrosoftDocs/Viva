@@ -3,7 +3,7 @@
 title: Viva Insights welcome email
 description: Viva Insights users receive a welcome email after licenses are assigned to them 
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal
