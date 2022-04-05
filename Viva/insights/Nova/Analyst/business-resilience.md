@@ -19,7 +19,7 @@ audience: Admin
 
 Populated by Viva Insights data, the Business resilience dashboard provides insights into how the shift to remote work impacts your organization and employees.
 
-This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
+This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point to help leaders understand where they might use tools and processes to support and sustain new ways of working.
 
 The dashboard enables you to visualize and explore the following top-level business questions asked by leaders:
 
@@ -59,7 +59,7 @@ Before you can run the queries and populate the dashboard in Power BI, you'll ne
 
 ## Template update
 
-The Business resilience dashboard is updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the template from your most recently run Business resilience query, then repeat Steps 8-15 in Set up the dashboard. You don't have to run the queries again for template updates.
+The Business resilience dashboard is updated on a frequent cadence to address evolving remote work business questions. To ensure you're using the latest version of the dashboard, download the template from your most recently run Business resilience query, then repeat Steps 8-15 in Set up the dashboard. You don't have to run the queries again for template updates.
 
 <!--- Can we delete this paragraph? --->
 
@@ -77,7 +77,7 @@ If you started using the Business resilience dashboard in April or May 2020 and 
 >[!Important]
 > Where the video shows selecting Last 6 months when running the queries, be sure you select Last 1 year instead. The queries will then have data that includes activity before and during the shift to remote work in March 2020.
 
-<!--- insert demo video here --->
+<!--- insert demo video here. Will there be a new one? Seems like there is a caveat above--->
 
 ## Set up the dashboard
 
