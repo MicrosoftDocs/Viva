@@ -59,7 +59,7 @@ For more details on how to add new data for existing employees, review the docum
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Hybrid workforce experience**, which takes you to required setup steps.
-    :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe.png" alt-text="Screenshot of Other templates window in Workplace Analytics' Query designer; Hybrid workforce experience is highlighted":::
+    :::image type="complex" source="../images/wpa/tutorials/hwfe-select-hwfe-cropped.png" alt-text="Screenshot of Other templates window in Workplace Analytics' Query designer; Hybrid workforce experience is highlighted" lightbox="../images/wpa/tutorials/hwfe-select-hwfe.png":::
        Screenshot that shows the "Other templates" window within Workplace Analytics' Query designer. On the left-hand pane, "Query designer" is highlighted beneath "Analyze." Beneath "Other templates," there are nine templates presented as cards. The last template card, "Hybrid workforce experience," is highlighted.  
     :::image-end:::
     In the second setup step, select **Set up** next to **Hybrid workforce experience** (if repeating this process per step 8 below, select **Strong and diverse ties**).
@@ -78,7 +78,7 @@ For more details on how to add new data for existing employees, review the docum
 1. When prompted by Power BI:
     1. In the Workplace Analytics **Query designer > Results**, select the link icon for each query, and select to copy the generated OData URL link.
     1. In Power BI, paste each copied link into its respective URL field.
-    1. Map the attribute in your organizational data that specifies indicates the number of days someone works onsite (for example, **OnsiteDays**).
+    1. Map the attribute in your organizational data that specifies the number of days someone works onsite (for example, **OnsiteDays**).
     1. Map the attribute that identifies whether someone is a manager (for example, **SupervisorIndicator**).
     1. Map the **HireDate** attribute (if available).
     1. Set the **Minimum group size** for data aggregation within this dashboard's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
@@ -111,7 +111,7 @@ After the **Workforce experience** dashboard is set up and populated with Workpl
 * **Individual contributor** – Select the attribute values that identify employees as individual contributors who do not manage people within your organization.
 * **Manager indicator** – Select the attribute values that identify managers who manage people within your organization, like **Mgr** and **Mgr+**.
 
-    :::image type="complex" source="../images/wpa/tutorials/hwfe-a-couple-of-questions.png" alt-text="Screenshot of pop-up window in Power BI prompting users to assign onsite days to attributes and values to Individual contributors and Managers":::
+    :::image type="complex" source="../images/wpa/tutorials/hwfe-a-couple-of-questions_cropped.png" alt-text="Screenshot of pop-up window in Power BI prompting users to assign onsite days to attributes and values to Individual contributors and Managers":::
        Screenshot that shows a pop-up window in Power BI, titled "A couple of questions to get you started..." There are two sections; the first section is titled, "Select which of your onsite days values best map to the following 'work mode' definitions" and the second section is titled "Select which values identify individual contributors, managers and managers of managers," which is parenthetically defined as "Manager" with a plus icon--"Manager-plus." In the first section, there are three fields, and each contain a dropdown menu to their right: "Mostly onsite," which shows "5" in the dropdown menu, "Hybrid," which shows "1,2,3,4" in the dropdown menu, and "Mostly remote," which shows "0" in the dropdown menu. In the second section, there are two fields, and each also contain a dropdown menu to their right: "Individual contributors," which shows "IC" in the dropdown menu, and "Managers," which shows "Multiple selections" in the dropdown menu.
     :::image-end:::
 
