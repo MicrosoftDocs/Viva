@@ -19,6 +19,8 @@ audience: Admin
 
 # Hybrid workforce experience dashboard
 
+*This experience is available only through private preview*
+
 ## Introduction
 
 As leaders figure out their organization’s new working models, the Hybrid workforce experience Power BI dashboard helps them understand how hybrid work affects employees differently. The dashboard identifies opportunities to improve the experience of employees working in the following ways:
@@ -41,14 +43,19 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
   * If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then, download and install the latest version from [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab).
 
 * Have the following attributes uploaded as part of your organizational data:
-  * An attribute identifying the number of days someone works onsite (we recommend **OnsiteDays**)
+  * An attribute identifying the number of days someone works onsite (we recommend **OnsiteDays**). You might get this data in one of two ways--through a weekly update of onsite days, or by using a monthly update of onsite days to calculate the weekly number.
+    * If an employee’s number of onsite days becomes available on a weekly basis (that is, values are between 0 and 5), make sure to upload this new value in weekly increments—in your data file, include a row with an **EffectiveDate** and **OnsiteDays** value per person per week.
+    * If you’re using an employee’s number of onsite days per month to calculate their average weekly onsite days, make sure to round off the average weekly onsite days numbers to limit the number of possible values uploaded in the dashboard.
   * An attribute indicating whether someone is a manager (we recommend **SupervisorIndicator**)
   * An attribute indicating the person’s hire date (we recommend **HireDate**), which is required to be able to load the **New hire onboarding insights**. Without this attribute, however, the rest of the dashboard will still load.
+
+You can add new attributes to your organizational data in Workplace Analytics at any time.
+For more details on how to add new data for existing employees, review the documentation on [subsequent uploads](/viva/insights/setup/upload-organizational-data2).
 
 ## Set up the template
 
 >[!NOTE]
-> This dashboard is currently only available in English and only works with data generated from the English version of Workplace Analytics. Before completing the following steps, confirm that the browser language contains **en-us** in the app's URL, or change it to read: `https://workplaceanalytics.office.com/en-us/Home`.
+> This dashboard is currently only available in English and only works with data generated from the English version of Workplace Analytics. Before completing the following steps, confirm that the browser language contains **en-us** in the app's URL, or change it to read: https://workplaceanalytics.office.com/en-us/Home.
 
 1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Hybrid workforce experience**, which takes you to required setup steps.
@@ -114,7 +121,7 @@ After this initial prompt, you can then select **Settings** in the upper right o
 * **Select an attribute to group data by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all reportages will show group values by the new attribute.
 * **Select optional report filter** – Select the organizational attribute and values by which you want to filter employees in the dashboard.
 * Exclusions – Use the check boxes to:
-  * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in collaboration).
+  * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in collaboration on Teams and email).
   * Exclude weeks that are likely holiday weeks.
 
 ## Power BI tips, troubleshooting, and FAQs
