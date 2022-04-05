@@ -43,7 +43,7 @@ Before you can run queries and populate the dashboard in Power BI, make sure you
   * If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then, download and install the latest version from [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab).
 
 * Have the following attributes uploaded as part of your organizational data:
-  * An attribute identifying the number of days someone works onsite (we recommend **OnsiteDays**). You might get this data in one of two ways--through a weekly update of onsite days, or by using a monthly update of onsite days to calculate the weekly number.
+  * An attribute identifying the number of days someone works onsite (we recommend **OnsiteDays**). You might get this data in one of two ways—through a weekly update of onsite days, or by using a monthly update of onsite days to calculate the weekly number.
     * If an employee’s number of onsite days becomes available on a weekly basis (that is, values are between 0 and 5), make sure to upload this new value in weekly increments—in your data file, include a row with an **EffectiveDate** and **OnsiteDays** value per person per week.
     * If you’re using an employee’s number of onsite days per month to calculate their average weekly onsite days, make sure to round off the average weekly onsite days numbers to limit the number of possible values uploaded in the dashboard.
   * An attribute indicating whether someone is a manager (we recommend **SupervisorIndicator**)
