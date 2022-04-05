@@ -54,14 +54,14 @@ To find the template for the Business resilience dashboard, go to the Analyst ta
 
 Before you can run the queries and populate the dashboard in Power BI, you'll need to:
 
-* Be assigned the role of Analyst in Workplace Analytics.
-* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version.
-
-Then go to Get Power BI Desktop to download and install the latest version.
+* Be assigned the role of Analyst in Viva Insights.
+* Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to Get Power BI Desktop to download and install the latest version.
 
 ## Template update
 
-The Business resilience dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the template from your most recently run Workplace Analytics Business resilience query, then repeat Steps 8-15 in Set up the dashboard. You don't have to run the queries again for template updates.
+The Business resilience dashboard is updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the template from your most recently run Business resilience query, then repeat Steps 8-15 in Set up the dashboard. You don't have to run the queries again for template updates.
+
+<!--- Can we delete this paragraph? --->
 
 If you started using the Business resilience dashboard in April or May 2020 and you selected to use six months of data for your queries, you need to repeat Steps 1-7 in Set up the dashboard to run new queries that include data for the last one year, which will encompass activity before and during the shift to remote work in March. To continue to use your custom version of the Business resilience dashboard and not update to the latest version of the template, do the following instead of Steps 8-15 in Set up the dashboard:
 
@@ -72,7 +72,7 @@ If you started using the Business resilience dashboard in April or May 2020 and 
 
 ## Dashboard setup video
 
-<!--- Suggest having this section be, "Set up the dashboard" with "Setup video" the first subsection --->
+<!--- Suggest having this section be, "Set up the dashboard" with "Setup video" the first subsection. Is the Important note below still applicable? --->
 
 >[!Important]
 > Where the video shows selecting Last 6 months when running the queries, be sure you select Last 1 year instead. The queries will then have data that includes activity before and during the shift to remote work in March 2020.
@@ -89,8 +89,10 @@ If you started using the Business resilience dashboard in April or May 2020 and 
 1. When prompted for Select filters, select Active only for "Which measured employees do you want to include?" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see Create a person query.
 1. In Organizational data, keep the preselected Organization, LevelDesignation, and TimeZone attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
+<!--- Note still applicable? --->
+
 >[!Important]
-> **LevelDesignation** is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to **LevelDesignation** will not show in the query output or in Power BI reports.
+> **LevelDesignation** is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Viva Insights, charts and data relating to **LevelDesignation** will not show in the query output or in Power BI reports.
 
 5. Select Run to run the query, which might take a few minutes to complete.
 1. When prompted, return to Query designer, and then repeat Steps 2-5 for the Hourly collaboration query, which requires the same selections as for Business resilience.
