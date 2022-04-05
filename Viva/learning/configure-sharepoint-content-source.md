@@ -164,6 +164,14 @@ Knowledge admins can access their organization's Learning App Content Repository
 
 3. Select **Check access** to connect to your organization's centralized library.
 
+### Delete content
+
+1. Select the content you wish to remove from your Learning App Content Repository.
+2. Choose **Delete** on the command bar, or select the ellipses and then select **Delete**.
+
+>[!NOTE]
+> Content you delete from the Learning App Content Repository will take approximately 24 hours to be removed from Viva Learning.
+
 ## Next step
 
 [Add learning management systems for Viva Learning](configure-lms.md) or [Add other content providers for Microsoft Viva Learning](configure-other-content-sources.md).
