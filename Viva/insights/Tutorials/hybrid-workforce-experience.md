@@ -121,7 +121,7 @@ After this initial prompt, you can then select **Settings** in the upper right o
 * **Select an attribute to group data by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all reportages will show group values by the new attribute.
 * **Select optional report filter** – Select the organizational attribute and values by which you want to filter employees in the dashboard.
 * Exclusions – Use the check boxes to:
-  * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in collaboration on Teams and email).
+  * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
   * Exclude weeks that are likely holiday weeks.
 
 ## Power BI tips, troubleshooting, and FAQs
