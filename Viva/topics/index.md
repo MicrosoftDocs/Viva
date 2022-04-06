@@ -46,7 +46,7 @@ The resources in this section help you learn more about what Viva Topics is and 
 |Learn how to get Viva Topics|[Viva Topics product page](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot%3aoverviewtab)|
 |See resources in the Microsoft Tech Community Resource Center|[Viva Topics Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/)|
 |Learn to use Viva Topics|[Viva Topics learning path](/learn/paths/m365-viva-topics/)|
-|Learn what languages are supported in Viva Topics|[Viva Topics supported languages](topics-language-support.md)|
+|Learn which languages are supported in Viva Topics|[Viva Topics supported languages](topics-language-support.md)|
 
 ## Adoption
 
