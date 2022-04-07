@@ -186,7 +186,7 @@ To copy or duplicate multiple objectives, perform the following steps:
 
 1. Select the **Clone** button in the blue bar that appears above the list of objectives. You can then select the options from the dialogue box.
 
-:::image type="content" source="../media/goals/clone-button.png" alt-text="Clone button":::
+   :::image type="content" source="../media/goals/clone-button.png" alt-text="Clone button":::
 
 The cloning process takes place on the back end of our software; so it will take a short time for the system to produce a clone. The bigger the number of objectives chosen to clone, the longer it will take. Be patient and don't make multiple attempts to clone the same objective.
 
