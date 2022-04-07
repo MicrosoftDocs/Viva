@@ -58,7 +58,7 @@ To create an objective that’s tracked by a numeric KPI, perform the following 
 > 
 > For more information about all the progress modes, see [Progress Modes](https://help.ally.io/en/articles/4754259-progress-modes).
 
-:::image type="content" source="../media/goals/select-a-progress-mode.png" alt-text="Select a progress mode":::
+   :::image type="content" source="../media/goals/select-a-progress-mode.png" alt-text="Select a progress mode":::
 
 Say, for example, your Sales team has an objective to **increase ARR from $1M to $2M**. Now the objective is tracked by a KPI metric that's numeric. This objective has key results that're also measured by a numeric KPI.
 

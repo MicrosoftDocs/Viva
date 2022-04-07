@@ -31,7 +31,7 @@ To drag and drop an objective, perform the following steps:
 
 1. Hover your mouse left of the objective name until you see the display of the icon depicted in the following image:
 
-:::image type="content" source="../media/goals/display-of-icon.png" alt-text="Display of icon":::
+   :::image type="content" source="../media/goals/display-of-icon.png" alt-text="Display of icon":::
 
 2. Click and hold your cursor to grab the objective.
 
