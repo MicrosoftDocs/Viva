@@ -29,34 +29,31 @@ Microsoft Viva is the employee experience platform that brings together collabor
 
 This guide will show you ways to help ensure a successful hybrid work environment with Microsoft Viva.
 
-Requirements
+**Key tasks and scenarios**
 
-Needs assessment
+- [Leadership communications  – a live event](/Viva/solutions/viva-leadership-communcations.md)
+- [Employee onboarding and changing roles](/Viva/solutions/viva-onboarding-changing-roles.md)
+- [Front line workers](/Viva/solutions/viva-front-line-workers.md)
+- [Supporting work/life balance](/Viva/solutions/viva-work-life-balance.md)
 
-Plan
+[Requirements](#requirements)
 
-Key tasks and scenarios
+[Needs assessment](#needs-assessment)
 
-- Leadership communications  – a live event
-- Employee Onboarding
-- Front Line Workers
-- Supporting work/life balance
+[Plan](#plan)
 
+[License requirements](#licensing)
 
-License requirements
+[Security](#security)
 
-Setting up and using the Viva Connections Dashboard
+[Roll out Microsoft Viva](#roll-out-microsoft-viva)
 
-Security
-
-Roll out Microsoft Viva
-
-# Requirements
+## Requirements
 - First, it’s a good idea to make sure your infrastructure is optimized for hybrid work by reading [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide).
 - You’ll need to be using **Teams** and **SharePoint** within your organization. The example scenarios in this article also use **Yammer** and **Stream**. 
 - Make sure you have the proper licenses for Microsoft Viva.
 
-# Needs assessment
+## Needs assessment
 
 Every organization is different. Determining the needs for your organization is the first step in planning a successful hybrid work environment. 
 
@@ -69,7 +66,7 @@ Every organization is different. Determining the needs for your organization is 
 - Discover what your employees struggle with and give them the tools and insights they need to focus their time and take time to rest.
 - Consider the culture of your organization and the ways people connect with each other.
 
-# Plan
+## Plan
 According to the results of your needs assessment, your next steps can be:
 - Identify key tasks and scenarios that can be supported by Viva
 - Align stakeholders and business owners around common goals
@@ -78,7 +75,7 @@ According to the results of your needs assessment, your next steps can be:
 - Create an adoption plan and training for end users
 - Consider success metrics and maintenance over time
 
-# Example key tasks and scenarios
+## Example key tasks and scenarios
 Following are examples of key tasks and scenarios that your organization may identify. Select the links to learn how to pull together Viva modules and other services to fulfill these scenarios.
 
 ### Leadership communications
@@ -108,12 +105,12 @@ Supporting work/life balance is essential to the health and well-being of your e
 
 See how to help ensure work/life balance
 
-# Security
+## Security
 Microsoft Viva benefits from the advanced [security](/microsoft-365/security/microsoft-365-zero-trust) and [compliance](/microsoft-365/compliance/compliance-quick-tasks) capabilities that are [built into Microsoft 365 and Office 365](/microsoft-365/security) as well as specific settings and policies of the apps each module interacts with. For example, Viva Connections uses not only Microsoft 365 security and compliance features, but also the security settings in SharePoint, Teams, and other apps that are used with Viva Connections. For more information,  see Overview of security and compliance in Microsoft Viva | Microsoft Docs.
 
 
 
-# Licensing
+## Licensing
 
  | Module | Description | Licensing  
 ---|---|---|
@@ -127,7 +124,7 @@ Microsoft Viva benefits from the advanced [security](/microsoft-365/security/mic
 
 Learn more about [Microsoft Viva licensing](https://www.microsoft.com/en-us/microsoft-viva/pricing) and which Microsoft Viva features are available across Microsoft 365 plans in the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
-# Roll out Microsoft Viva 
+## Roll out Microsoft Viva 
 Let your employees know about Microsoft Viva and the employee experiences available to them, and provide resources on how to use Microsoft Viva.
 
 One way to do this is to create a SharePoint news post which can then be added to your organization home site and also shared and distributed in Teams, Outlook, and Yammer. You can even target specific audiences for the news post. 
@@ -142,3 +139,7 @@ You can find adoption resources such as email templates, how to build Viva champ
 
 Also, check out ways to roll out adoption for each module:
 **Viva Topics** [Get started driving adoption of Microsoft Viva Topics](/viva/topics/topics-adoption-getstarted)
+
+
+
+**Next:** check out the [Leadership communications](/viva/solutions/viva-leadership-communications.md) key scenario.
