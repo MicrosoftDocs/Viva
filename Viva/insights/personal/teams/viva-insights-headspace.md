@@ -23,7 +23,7 @@ Viva Insights has introduced a curated set of guided meditations and Focus music
 
 ## Start a guided meditation
 
-Any time you want, you can start a guided meditation that's been designed for the current time of day:
+Anytime you want, you can start a guided meditation that's been designed for the current time of day:
 
 1. Open the **Home** page of Microsoft Viva Insights:
 
