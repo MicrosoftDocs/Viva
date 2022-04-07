@@ -33,8 +33,8 @@ For example, say you want to view active OKRs across different time periods (Ann
 
 1. Log in to Viva Goals and view and click on individual-level, team-level, or organization-level OKRs from the left panel.
 
-> [!NOTE]
-> Your default view will list "Active Period OKRs"; this view contains the list of all the OKRs for the active time period. "Active time period" is derived based on the time periods that are grouped together as “Active” in the time period picker.
+   > [!NOTE]
+   > Your default view will list "Active Period OKRs"; this view contains the list of all the OKRs for the active time period. "Active time period" is derived based on the time periods that are grouped together as “Active” in the time period picker.
 
    :::image type="content" source="../media/goals/active-period-okrs.png" alt-text="The variouss active period OKRs that are listed":::
 
@@ -51,4 +51,4 @@ You can also save this view as a new view by clicking the **Save View** icon rig
 You can now view the list of all OKRs across multiple time periods.
 
 > [!NOTE]
-> With the introduction of Views in Viva Goals, the time period picker in Viva Goals has been moved as a filter in the filters panel. Learn more about Views in Ally.io [here](https://help.ally.io/en/articles/5319075-views-in-ally-io).
+> With the introduction of Views in Viva Goals, the time period picker in Viva Goals has been moved as a filter in the filters panel. Learn more about Views in Viva Goals [here](https://help.ally.io/en/articles/5319075-views-in-ally-io).

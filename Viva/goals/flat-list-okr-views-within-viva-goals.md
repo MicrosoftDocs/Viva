@@ -18,7 +18,7 @@ search.appverid:
 description: "Learn how to visualize your OKRs as a flat list using the viewing options in Viva Goals"
 ---
 
-# Flat-list OKR views within Ally.io
+# Flat-list OKR views within Viva Goals
 
 > [!IMPORTANT] 
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
