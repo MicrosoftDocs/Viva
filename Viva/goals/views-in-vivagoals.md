@@ -64,7 +64,7 @@ Each view has a list of ‘More Options’ that lets users perform a set of acti
 - Get Info 
 - Print
 
-:::image type="content" source="../media/goals/list-of-actions-on-a-view.gif" alt-text="The list of actions that can be performed on a view":::
+  :::image type="content" source="../media/goals/list-of-actions-on-a-view.gif" alt-text="The list of actions that can be performed on a view":::
 
 ## Preset Views
 
