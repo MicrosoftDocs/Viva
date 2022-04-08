@@ -40,8 +40,6 @@ Being clear on your "why" will help galvanize your employees when you kick off y
 - What does success look like for this program? A year from now, how will you know if you've achieved your goals?
 
 - How will you communicate the program launch to your teams?
-
-  :::image type="content" source="../media/goals/communicating-program-launch.png" alt-text="Communication of program launch":::
   
 ## Determine your OKR calendar and timing
 
