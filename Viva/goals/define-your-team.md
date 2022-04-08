@@ -43,8 +43,6 @@ The entities that are the key OKR (Objective and Key Result) stakeholders are de
 > [!NOTE]
 > In smaller companies, these positions often overlap. For example, the OKR champion is also a senior leader, or the Viva Goal administrator handles technical implementation.
 
-:::image type="content" source="../media/goals/team.png" alt-text="A team":::
-
 ## Other roles
 
 The other roles - determined by the size and structure of a company - are described in the following table:
