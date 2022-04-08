@@ -74,8 +74,6 @@ Modern business moves at breakneck speed, and all industries are being disrupted
 
 OKRs provide a framework to allow companies (large and small) to set goals, stay agile, and ensure employees are on board with the latest strategy through five superpowers that are described in the following image and table:
 
-:::image type="content" source="../media/goals/okr-superpowers.png" alt-text="The superpowers that an OKR uses":::
-
 |Superpower Name  |Description  |
 |---------|---------|
 |Focus     |    Because OKRs focus on just 3-5 goals per quarter, it forces organizations to focus on only the work that matters and to make hard choices to eliminate the tasks that *don't* matter.     |
