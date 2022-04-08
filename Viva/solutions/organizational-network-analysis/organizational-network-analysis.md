@@ -193,11 +193,8 @@ Learn more about **Accelerate decision making** [here](/viva/insights/use/improv
 
 ##### Where are the influencers?
 
-Through Power BI or any other visualization tool, you can create simple visuals to explain the results of the Network person query—that is, the distribution of influencers and where the top influencers in the company are placed. The following image shows an example Power BI visual.
+Through Power BI or any other visualization tool, you can create simple visuals to explain the results of the Network person query—that is, the distribution of influencers and where the top influencers in the company are placed. 
 
-:::image type="complex" source="../images/ona-where-are-the-influencers(1).png" alt-text="Screenshot of four Power BI box-and-whisker charts":::
-   Screenshot that shows four colorful box charts. The first chart has seven box-and-whisker plots and is titled, "Average of InfluenceRank by leveldesignation and organization." The chart's X axis is by role: "Senior Executive," "Executive," "Director," "Manager," "Senior IC," "Junior IC," and "Support." The chart's Y axis is by number, from "-0.20K" through "1.40K," in increments of 20. The second chart has two box-and-whisker plots and is titled "Average of InfluenceRank by gender and organization." The X axis contains "Male" and "Female"; the chart's Y axis is by number and increases from 0.00K to 1.20K in increments of 20. The third chart has five box-and-whisker plots and is titled, "Average of InfluenceRank by race and organization." The chart's X axis contains "White," "Other," "Hispanic," "Asian," and "Black." The chart's Y axis is by number and increases from 0.00K to 1.20K in increments of 20. The fourth and final chart has four box-and-whisker plots and is titled, "Average of InfluenceRank by region and organization." The chart's X axis contains, "Central," "East," "South," and "West." The chart's Y axis is by number and increases from 0.00K to 1.20K in increments of 20.
-:::image-end:::
 To see a sample analysis of the Network person query result, view the one we created [here](<https://github.com/microsoft/VivaSolutions/tree/main/Sample Solutions/ONA/SampleAnalysis>) in Power BI.
 
 ##### Cohort analysis
