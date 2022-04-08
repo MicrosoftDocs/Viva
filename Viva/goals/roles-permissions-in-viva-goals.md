@@ -60,7 +60,7 @@ The permission levels on team OKRs are described in the following tables:
 
 :::image type="content" source="../media/goals/permission-levels-on-team-okrs-2.png" alt-text="Levels of permissions on team OKRs":::
 
-## Objectives and key results
+## Permissions for objectives and key results
 
 Organization administrators and the organization owners in Viva Goals have access to all OKR permissions, for example, creating, editing, and deleting any objectives or check-ins.
 
@@ -138,3 +138,61 @@ The information regarding the activities and the entities who have the privilege
 The other permissions in Viva Goals are described in the following table:
 
 :::image type="content" source="../media/goals/other-permissions.png" alt-text="Other permissions in Viva Goals":::
+
+## Observer account type
+
+Viva Goals supports two kinds of accounts:
+- **Regular Users**: Regular users can access all of Viva Goals' functionality, including creating, updating, and owning OKRs. They can take up additional responsibilities in Viva Goals such as an administrator, team administrator, manager, and so on.
+
+- **Observers**: As opposed to regular users, Observers can't create, edit, or own OKRs. However, they can view all entities and OKRs like regular users.
+
+Using Viva Goals with Observer privileges is described in the following image:
+
+:::image type="content" source="../media/goals/using-viva-goals-as-observer.png" alt-text="Using Viva Goals as an Observer":::
+
+### Privileges of an Observer
+
+An Observer is entitled to the following privileges:
+
+- **Seeing all entities' OKRs**: This privilege enables an Observer to be aware of, and aligned to, organization’s, teams’, and users’ priorities, progress, and updates.
+- **Following entities**: This privilege enables an Observer to receive updates for any entities and stay updated to latest developments.
+- **Liking and commenting**: This privilege enables an Observer to like and comment on OKRs, check-in, and activity feed updates to engage with leadership team.
+
+> [!NOTE]
+> Observers can’t be an OKR owner, administrator, or Team owner/administrator. However, they can be team members, managers, and can have a Manager.
+
+### Enabling Observer feature
+
+To enable the Observer feature for your account, contact Microsoft Support.
+
+### Adding users as an Observer
+
+You can set a default account type for new users from **Admin Dashboard > Setting**. If the value is set to **Observer**, users will take up account type as **Observer** when added through file upload/slack or when they join without invitations (if allowed).
+
+The process of adding a user as an Observer is shown in the following image:
+
+:::image type="content" source="../media/goals/setting-account-type-to-observer.png" alt-text="Setting Account Type for a new user to Observer":::
+
+The users can choose to send invitations to people with Observer privileges.
+
+:::image type="content" source="../media/goals/inviting-people-to-assign-observer-privileges.gif" alt-text="Inviting people to assign privileges of an Observer":::
+
+### Identifying an Observer
+
+If the users have **Observer** tag against their names, they're an Observer. The process of identifying a person with Observer privileges is depicted in the following image:
+
+:::image type="content" source="../media/goals/identifying-an-observer.png" alt-text="Identifying an Observer":::
+
+If you're an administrator, you can also look at user's Account Type from **Admin Dashboard > Users > Account Type column**, as depicted in the following image:
+
+:::image type="content" source="../media/goals/checking-for-observer-setting.png" alt-text="Alternative method of identifying an entity with Observer privileges":::
+
+### Changing account type of users
+
+Administrators can change the Account Type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard > Users Tab > User listing > Three dot Menu**, as shown in image below:
+
+:::image type="content" source="../media/goals/changing-account-type-from-observer-to-regular-vice-versa.gif" alt-text="Changing account type from Observer to Regular and vice versa":::
+
+## Inviting other users as Observers
+
+An Observer can invite others as Observers if the Invite Policy in **Admin > Settings** is set to **Anyone in the organization**.
