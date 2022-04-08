@@ -40,14 +40,33 @@ First, let's start with the basics:
 
 ## What are OKRs?
 
-OKRs stand for Objectives and Key Results, and it's a goal-setting process that allows businesses to solve for the two questions described in the following image:
+OKRs stand for Objectives and Key Results. It's a goal-setting process that allows businesses to solve for the two questions described in the following image:
 
 :::image type="content" source="../media/goals/questions-defining-okr.png" alt-text="Questions that define an OKR":::
 
 **Objectives** are simply what you and your team want to accomplish.
+
+The example of objectives added at organizational and teams levels is depicted in the following image:
+
+:::image type="content" source="../media/goals/objectives-at-organizational-and-team-levels.png" alt-text="Objectives at organizational and teams levels":::
+
 **Key Results** describe how you'll measure your success in accomplishing these goals.
 
-For more information on OKRs, see [What are OKRs](https://help.ally.io/en/articles/2079111-what-are-okrs).
+For best results, teams and individuals should be aligned well in a hierarchy. Key results at one level become objectives of the next level.
+
+:::image type="content" source="../media/goals/sales-objectives.png" alt-text="Sales objectives":::
+
+**Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objective(s) as appropriate.
+
+:::image type="content" source="../media/goals/check-in.gif" alt-text="Illustration of a check-in":::
+
+The keys to success with OKRs are transparency and alignment. Right from the CEO to managers and colleagues, an employee can view anyone’s OKRs in the system. This undisguised transparency fosters openness and removes conflicts and redundancies with work. OKRs are also aligned vertically and horizontally, allowing employees to see how their work connects with the organization's overall strategic goals.
+
+## Are OKRs a good fit for you?
+
+In most cases, the answer is a resounding **Yes**. OKRs are beneficial for any organization that cares about operational excellence, bringing alignment to their goal-setting process. If you're a small team, the tool helps employees work toward the focused goals with agility. If you're a large organization, it's even more important that all teams align with the common goals of the organization.
+
+For more information on the points to be kept in mind while writing OKRs, see [best pratices](https://help.ally.io/en/articles/2094140-writing-okrs-best-practices-to-keep-in-mind).
 
 ## Why have OKRs led to success at so many companies?
 
@@ -68,7 +87,6 @@ OKRs provide a framework to allow companies (large and small) to set goals, stay
 ## How can I ensure OKR success at my company?
 
 You can ensure OKR success in your company by implementing the approaches described in the following table:
-
 
 |Approach Name  |Description  |
 |---------|---------|
