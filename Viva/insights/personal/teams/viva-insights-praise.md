@@ -70,7 +70,7 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
    (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
-2. When the Praise pop-up window opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice:
+2. When the Praise modal opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice:
 
    ![Select new badge.](images/praise-chat-select-new-badge.png)
 
