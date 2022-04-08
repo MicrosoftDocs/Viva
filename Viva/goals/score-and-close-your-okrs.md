@@ -60,6 +60,6 @@ Additional Resources
 
 [Scoring and Closing OKRs](https://help.ally.io/en/articles/1796003-scoring-and-closing-okrs) (Detailed article)
 
-[:::image type="content" source="../media/goals/goals-continue-to-Step-10.png" alt-text="Image of Continue to step 10":::](step10-review-reflect-repeat-OKR-process.md)
+[:::image type="content" source="../media/goals/goals-continue-to-Step-10.png" alt-text="Image of Continue to step 10":::](review-reflect-repeat-okr-process.md)
 
 Or. return to [Quick Start Overview.](https://help.ally.io/en/articles/3483417-start-here-quick-start-overview)
