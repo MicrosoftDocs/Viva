@@ -143,7 +143,7 @@ To delete a team, perform the following steps:
 
 Alternately, you can navigate to the team's OKR page, and archive the team from the options on the top-right corner.
 
-Once a team has been archived, it will be marked as **Archived** under the **Teams** tab within the Admin console, and won't be visible anywhere else, say under **My Teams** or **All Teams** menu items. Any objectives that were owned by this team will remain in the same state; however, no new objectives will be assigned to this team.
+Once a team has been archived, it will be marked as **Archived** under the **Teams** tab within the Admin console, and won't be visible anywhere else. Any objectives that were owned by this team will remain in the same state; however, you will not be able to assign new objectives to this team.
 -
 Archiving a team is an option with a functionality that's not permanent in nature; you can restore an archived team.
 
