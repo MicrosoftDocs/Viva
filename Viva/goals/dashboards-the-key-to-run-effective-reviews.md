@@ -52,6 +52,4 @@ Review Dashboard is available for the company, teams, and individuals. To know m
     For example, Amelia and Maynard are members of the Marketing team. Maynard can clone Amelia's dashboard (cloning within the same entity) to follow the same review template. On the other hand, Amos from the Customer Success team can clone Amelia's dashboard to copy the contents of commonality between the two teams (cloning into a different entity).
 
 
-
-
 For detailed steps on how to set up a dashboard, read the help article on the [know-hows of a Review Dashboard](https://help.ally.io/en/articles/4362767-know-hows-of-review-dashboard). You can now get started with creating separate dashboards for each review meeting.
