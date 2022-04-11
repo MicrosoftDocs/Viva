@@ -101,7 +101,7 @@ While the checking-in process is largely restricted to those entities involved i
 
 :::image type="content" source="../media/goals/check-ins-entities.png" alt-text="Coverage of a check-in's privileges to all entities":::
 
-## Administrative
+## Administrative Privileges
 
 All administrative privileges are restricted to members with an organization administrator or organization owner role, by default.
 
