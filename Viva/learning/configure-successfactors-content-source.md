@@ -114,6 +114,8 @@ To obtain the folder path:
 
     **PGP Private Key**: PGP private key for decryption, which is the entire section between BEGIN PGP PRIVATE KEY BLOCK and END PGP PRIVATE KEY BLOCK. You'll need to copy the key exactly as it's been generated; don't remove new line characters.
 
+    Note that different tools generate keys in different formats. Remove the header if one is present in the block (for example, the version). Copy only the key block, which should be a Base64 string.
+
     **PGP Private Key Passphrase**: You'll need to get this value from your IT admin or the team that provides your PGP key.
 
     **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
