@@ -30,17 +30,17 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
 
 **Step 1:** Navigate to the **Dashboard** tab in the **My OKRs** window.
 
-:::image type="content" source="media/viva-goals-navigate-to-dashboard.png" alt-text="Navigate to Dashboard":::
+:::image type="content" source="../media/goals/viva-goals-navigate-to-dashboard.png" alt-text="Navigate to Dashboard":::
 
 **Step 2:** From the highlighted drop-down menu, select the dashboard you want to clone.
 
-:::image type="content" source="media/viva-goals-choose-dashboard.png" alt-text="Choose Dashboard":::
+:::image type="content" source="../media/goals/viva-goals-choose-dashboard.png" alt-text="Choose Dashboard":::
 
 **Step 3:** Select the three dots icon and select **Clone**.
 
-:::image type="content" source="media/viva-goals-clone-dashboard-1.png" alt-text="Clone Dashboard 1":::
+:::image type="content" source="../media/goals/viva-goals-clone-dashboard-1.png" alt-text="Clone Dashboard 1":::
 
-:::image type="content" source="media/viva-goals-clone-dashboard-2.png" alt-text="Clone Dashboard 2":::
+:::image type="content" source="../media/viva-goals-clone-dashboard-2.png" alt-text="Clone Dashboard 2":::
 
 **Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit widgets and then select **Save**. After cloning, the user will land on the cloned dashboard.
 
@@ -48,15 +48,15 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
 
 **Step 1:** Navigate to the **Dashboard** tab in the **My OKRs** window.
 
-:::image type="content" source="media/viva-goals-navigate-to-dashboard-2.png" alt-text="Navigate to Dashboard 2":::
+:::image type="content" source="../media/goals/viva-goals-navigate-to-dashboard-2.png" alt-text="Navigate to Dashboard 2":::
 
 **Step 2:** From the highlighted drop-down menu, select the dashboard you want to clone.
 
-:::image type="content" source="media/viva-goals-choose-dashboard-2.png" alt-text="Choose Dashboard 2":::
+:::image type="content" source="../media/goals/viva-goals-choose-dashboard-2.png" alt-text="Choose Dashboard 2":::
 
 **Step 3:** Select the three dots icon and select **Clone and Move**.
 
-:::image type="content" source="media/viva-goals-clone-and-move.png" alt-text="Clone and Move":::
+:::image type="content" source="../media/goals/viva-goals-clone-and-move.png" alt-text="Clone and Move":::
 
 **Step 4:** From the popup, select the **Type** drop-down menu to select the entity where the dashboards need to be cloned.
 
@@ -64,21 +64,21 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
 
   - By default, Viva Goals will set your name in the **Select User** drop-down menu. Once selected, click on Save. This action will clone the dashboard for your user.
 
-    :::image type="content" source="media/viva-goals-type-individual-1.png" alt-text="Type Individual 1":::
+    :::image type="content" source="../media/goals/viva-goals-type-individual-1.png" alt-text="Type Individual 1":::
 
-    :::image type="content" source="media/viva-goals-type-individual-2.png" alt-text="Type Individual 2":::
+    :::image type="content" source="../media/goals/viva-goals-type-individual-2.png" alt-text="Type Individual 2":::
 
 - *Type*: **Team**
 
   - Select the team from the **Select Team** drop-down menu where you want the dashboard to be cloned. Once selected, choose **Save**.
 
-    :::image type="content" source="media/viva-goals-select-team.png" alt-text="Select Team":::
+    :::image type="content" source="../media/goals/viva-goals-select-team.png" alt-text="Select Team":::
 
 - *Type*: **Organisation**
 
   - Select **Organization** from the **Type** drop-down menu and select **Save**.
 
-    :::image type="content" source="media/viva-goals-select-organization.png" alt-text="Select Organization":::
+    :::image type="content" source="../media/goals/viva-goals-select-organization.png" alt-text="Select Organization":::
 
 ## How to use Set as Default?
 

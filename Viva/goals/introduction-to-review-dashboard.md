@@ -52,7 +52,7 @@ Anybody who spearheads a review meeting, or presents the overall OKR progress to
 
 4. For Review Dashboards at an individual level, select **My OKRs** from the left pane and select the **Dashboard** tab. To view the dashboard of a user, select **All Users** from the left pane and select a **user** of your choice, then select the **Dashboard** tab.
 
-    :::image type="content" source="media/RD_entity level dashboard.gif" alt-text="Entity Level Dashboard":::
+    :::image type="content" source="../media/goals/RD_entity level dashboard.gif" alt-text="Entity Level Dashboard":::
 
 ### How can I get this dashboard enabled for my organization?
 

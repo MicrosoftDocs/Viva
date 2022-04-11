@@ -46,15 +46,15 @@ Dashboards can be created and shared across every level of the organization. To 
 
 ## Organizational dashboard
 
-:::image type="content" source="media/Share dashboards - org.gif" alt-text="Share Dashboards":::
+:::image type="content" source="../media/goals/Share dashboards - org.gif" alt-text="Share Dashboards":::
 
 ## Team dashboard
 
-:::image type="content" source="media/Share dashboards - team.gif" alt-text="Share Dashboards - Teams":::
+:::image type="content" source="../media/goals/Share dashboards - team.gif" alt-text="Share Dashboards - Teams":::
 
 ## Individual dashboard
 
-:::image type="content" source="media/Share dashboards - user.gif" alt-text="Share  Dashboards - User":::
+:::image type="content" source="../media/goals/Share dashboards - user.gif" alt-text="Share  Dashboards - User":::
 
 ### How do I revoke the access?
 
@@ -66,7 +66,7 @@ Dashboards can be created and shared across every level of the organization. To 
 
 - Against the user, you will find a dropdown menu. Select **Remove** from this menu to revoke the access for the user.
 
-    :::image type="content" source="media/Share dashboards - revoke access.gif" alt-text="Share dashboards":::
+    :::image type="content" source="../media/goals/Share dashboards - revoke access.gif" alt-text="Share dashboards":::
 
 ## Permissions
 
