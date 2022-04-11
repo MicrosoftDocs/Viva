@@ -116,18 +116,23 @@ You can use the organization switcher dropdown to switch between different organ
 ### Frequently asked questions
 
 1. Are there other ways to log in to Viva Goals apart from Azure Active Directory? 
+
 A: Currently, you can log into Viva Goals only using Azure Active Directory.
 
 1. Can anybody in my organization login? 
+
 A: Yes, anybody in your organization which has bought or subscribed to Viva Goals, can login.  
 
 1. Do I need to login using Azure Active Directory every single time I want to access my Viva Goals account? 
+
 A: No. If you have logged into other AAD resources, you will automatically be directed to Viva Goals without needing to login 
 
 1. How can I log out from my Viva Goals account? 
+
 A: You can log out by selecting your profile name at the bottom of the left menu in the Viva Goals app and click on the ‘Log out’ button. 
 
 1. What is an organization in Viva Goals and when should the user create it? 
+
 A: An organization in Viva Goals can mean different things to different users. You can create a single organization with all your employees in it if you have a simple hierarchy of organization-level OKRs, followed by department-level OKRs, and team-level OKRs. But in some cases, such as the following, it will make sense to create separate organizations: 
 
 a) When your Business Unit (BU)/department wants to track a separate set of organization-level OKRs and align all the teams in that BU/ department to those OKRs, you can create a separate organization for your BU/department. 
@@ -137,7 +142,9 @@ b) When your organization wants to maintain your own information boundary and do
 c) When there is a need to administer the roll out and features separately, there could be scenarios when one department/organization within an Enterprise wants to track OKRs in separate ways by turning ON/OFF certain customization, managing different OKR cadences (different time periods), permissions (Transparent vs locked). In these scenarios, it is advisable to create a new organization. 
 
 1. What do the types of organizations — Public and Restricted — mean? When to choose which option while creating an organization? 
+
 A: The type ‘Public’ allows anyone in your company to join your organization without having to get their join request approved. You can use this option for enabling all employees to join your organization in Viva Goals. The type ‘Restricted’ allows you to choose which users get to join your organization. You can use this option when you want to keep a tight-knit group of users to maintain information boundaries and silos. 
 
 1. If a user is a part of multiple organizations, which organization will be the default organization that the user lands on logging in?
+
 A: By default, the user will be added to the one that was assigned first to the user.
