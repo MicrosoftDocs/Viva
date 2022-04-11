@@ -62,7 +62,7 @@ To help determine whether to use **Influence** index or **Strong/Diverse ties**,
 |----------|-----------|
 |Are there individuals in the organization with many well-connected connections? Where?  |Where in the organization are employees connected in their group vs connected with others outside their group?       |
 |How can we improve communication on strategic initiatives? |Where should we encourage connectivity to foster innovation?   |
-|How can we accelerate improvement plans for the organization?|Are there inefficiencies that suggest opportunity to improve team cohesion?
+|How can we accelerate improvement plans for the organization?|Are there inefficiencies that suggest opportunities to improve team cohesion?
 
 Additionally, you can leverage the **Group-to-group** and **Person-to-group** queries to generate a person-level interaction matrix for analysis.
 
