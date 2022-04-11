@@ -40,7 +40,7 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
 
 :::image type="content" source="../media/goals/viva-goals-clone-dashboard-1.png" alt-text="Clone Dashboard 1":::
 
-:::image type="content" source="../media/viva-goals-clone-dashboard-2.png" alt-text="Clone Dashboard 2":::
+:::image type="content" source="../media/goals/viva-goals-clone-dashboard-2.png" alt-text="Clone Dashboard 2":::
 
 **Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit widgets and then select **Save**. After cloning, the user will land on the cloned dashboard.
 
