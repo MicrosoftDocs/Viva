@@ -193,7 +193,11 @@ Learn more about **Accelerate decision making** [here](/viva/insights/use/improv
 
 ##### Where are the influencers?
 
-Through Power BI or any other visualization tool, you can create simple visuals to explain the results of the Network person query—that is, the distribution of influencers and where the top influencers in the company are placed. 
+Through Power BI or any other visualization tool, you can create simple visuals to explain the results of the Network person query—that is, the distribution of influencers and where the top influencers in the company are placed.
+
+:::image type="complex" source="../images/ona-influencerank.png" alt-text="Screenshot of a matrix heatmap made in a spreadsheet":::
+   Screenshot that shows three colorful box-and-whisker charts. The first chart is titled, "Average of InfluenceRank by leveldesignation and organization." The X axis contains job titles Senior Executive, Executive, Director, Manager, Senior IC, Junior IC, and Support. The Y axis ranges from -0.20K to 1.40K, increasing by increments of .20. Box-and-whisker points are composed of various thicknesses and whisker ranges. The second chart is titled, "Average of InfluenceRank by functiontype and organization." The X axis contains different business segments: Marketing, Product Management, HR, G&A, Sales, R&D, and Operations. The Y axis ranges from 0.20K to 1.10K, increasing by increments of .10. Box-and-whisker points are composed of various thicknesses and whisker ranges. The third chart is titled, "Average of InfluenceRank by region and organization." The X axis contains geographical areas: Central, East, South, and West. The Y axis ranges from 0.20K to 1.10K, increasing by increments of .10. Box-and-whisker points are composed of various thicknesses and whisker ranges.
+:::image-end:::
 
 To see a sample analysis of the Network person query result, view the one we created [here](<https://github.com/microsoft/VivaSolutions/tree/main/Sample Solutions/ONA/SampleAnalysis>) in Power BI.
 
