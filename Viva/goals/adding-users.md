@@ -1,5 +1,5 @@
 ---
-title: Add users to Viva Goals
+title: Log in, create, and join organizations in Viva Goals
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -15,152 +15,129 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how to add a user to Viva Goals"
+description: "Learn how to log in, create, and join an organization in Viva Goals"
 ---
 
-# Add users to Viva Goals
+# Log in, create, and join organizations in Viva Goals
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Feeling a little lonely in your Viva Goals workspace? Teammates are crucial to unlocking the full potential of the OKR process!
+Post the purchase of Viva Goals licenses for your organization, you will be able to log into Viva Goals using your Azure Active Directory credentials. 
 
-Once you've established your team/subteam hierarchy in Viva Goals, it's time to start populating those teams with users. With Viva Goals, you have the following ways of adding users as team members:
+To do this, you must be logged into your Azure Active Directory. 
 
-1. Using the **Invite Users** button
-1. Through the Admin Dashboard
-1. Auto-Joining and Bulk Invites
+## How to log into Viva Goals using Azure Active Directory 
 
-> [!NOTE]
-> Only administrators can invite users and create teams.
+1. Head over to the Viva Goals sign-in page  
 
-## Invite Users button (basic invite)
+[screenshot] 
 
-The first, and arguably easiest, way to invite users to your instance of Viva Goals is to use the **Invite Users** button. This button is located in a few places, but is most readily available in the navigation bar on the left side.
+1. Click on the Azure Active Directory credentials to log in. 
 
-:::image type="content" source="../media/goals/invite-users.png" alt-text="Invite Users button":::
+[screenshot]
 
-On selecting the **Invite Users** button, you'll be presented with a dialog box that contains fields described in the following table:
+1. If you’re the organization administrator who is logging in for the first time and has not created an Organization in Viva Goals yet, you will be prompted to create an organization. 
 
+[screenshot]
 
-|Field Name  |Description  |
-|---------|---------|
-|Email Addresses   |     In this field, you can enter the email address of the individual you would like to invite to Viva Goals. You can invite more than one person by separating the email addresses with a semicolon or a space    |
-|Teams (Optional)     | This field is a dropdown list containing a list of all of the teams that have been created for your Viva Goals account. If you want your new user(s) to be added to an existing team, select one team from the dropdown list. For more information on Teams, see [Creating and Editing Teams and Subteams](https://help.ally.io/en/articles/2631919-creating-and-editing-teams-and-sub-teams).        |
-|Manager (Optional)     |   This field is a dropdown list containing a list of all of the users who have been designated as "managers". If you want your new user(s) to fall under an existing manager, select one user from the dropdown list.      |
+1. Otherwise, if you’re a user who is logging in for the first time and have been invited to join your organization via an invite link, you will be taken directly to your organization’s Viva Goals account. 
 
-The fields specified in the preceding table are depicted in the following image:
+[screenshot] 
 
-:::image type="content" source="../media/goals/setting-users-to-send-invitation.png" alt-text="Deciding on the users to send invitation to":::
+1. If you’re a user who is logging in for the first time and is not part of an organization yet, you will be directed to the ‘Join Organizations’ page to select your organization(s) from the list displayed.  
 
-After filling in the desired user information, select **Send Invites** to have an email sent with a link to Viva Goals.
+[screenshot] 
 
-## Admin dashboard
+1. Once you have successfully signed in, you will be taken to your organization. 
 
-You can add users to Viva Goals from the Admin dashboard in the following ways:
+[screenshot]
 
-- [Users Tab (Invite)](#users-tab-invite)
-- [Teams Tab (Invite optional)](#teams-tab-invite-optional)
+## How to create your first organization in Viva Goals 
 
-### Users tab (Invite)
+1. Log in to your Viva Goals account using your Azure Active Directory credentials. 
 
-The first method to add users from the Admin Dashboard is sending the users an email inviting them to your company's instance of Viva Goal. This option is best if you want your user to be notified they've been added to Viva Goal, and be provided with a link that will let them access the site.
+1. You will be prompted to create an organization by clicking the ‘Create Organization’ button. 
 
-To send an invitation through email to users, perform the following steps:
+[screenshot]
 
-1. Navigate to the Admin panel from the left-hand navigation menu.
-1. Select the **Users** tab.
-1. Select **Invite Users** from the upper-right side of the page.
-1. Fill out the available fields.
-1. Select **Send Invites**.
+1. Now, you will need to enter your organization name, a brief description (optional), and select the organization type — Public or Restricted. 
 
-   :::image type="content" source="../media/goals/send-invitation-email.png" alt-text="Sending an invitation email to users":::
+[screenshot]
 
-### Teams tab (Invite optional)
+1. Click on the Create Organization button to create your organization within Viva Goals. 
 
-The second way to add a user from the Admin Dashboard is to add a user directly to an established team.
+Being the organization administrator, you can now add users to your organization by inviting members. 
 
-To add a user directly to an established team, perform the following steps:
+## How to create another organization in Viva Goals 
 
-1. Navigate to the Admin panel from the left-hand navigation menu.
-1. Select the **Teams** tab.
-1. Scroll to the team you would like to add a member to.
-1. Select the **Actions** dropdown list from the right-hand side of the screen select **Manager Members**. A new screen opens up.
-1. Select **Add Members**.
-1. Enter the email address of the user you would like to add.
-1. Check the **Skip Invitation Email** option if you don't want to send an invite link to the user. 
-> [!NOTE]
-> This option might be used if you wish to set up the structure of your teams before rolling out Viva Goals to your business.
+If you are a part of more than one organization and need to create another organization in Viva Goals, you can do so by following these simple steps: 
 
-1. Select **Send Invites**.
+1. Login to your first organization in Viva Goals 
 
-## Auto-joining and bulk invites
+1. In the menu that appears on the left, click on the organization name on the top 
 
-If your company is larger, manually sending invites and organizing people into team groups may be more time consuming than your rollout plan is prepared for. In these instances, we can streamline the user addition process in the following ways:
+[screenshot] 
 
-- [Auto-joining users](#auto-joining-users)
-- [Bulk invites](#bulk-invites)
+1. From the organization-switcher dropdown that appears, select the ‘Create or join new organization’ button. 
 
-### Auto-joining users
+[screenshot]
 
-Auto-join allows users from your work domain to auto-join your Viva Goals organization when they sign up for an account. This option works well for mid-sized teams.
+1. Now, you will be taken to the ‘Join organizations’ page where you must select ‘Create new organization’ and repeat the steps you followed to create your first organization. 
 
-Enable this setting by selecting **Admin > Settings > Signup Mode**.
+[screenshot]
 
-:::image type="content" source="../media/goals/auto-join-users.png" alt-text="Auto-joining users":::
+You can use the organization switcher dropdown to switch between different organizations. 
 
-When you enter more than one domain, separate them with a comma.
+## How to join an organization in Viva Goals 
 
-### Bulk invites
+1. Login to Viva Goals using Azure Active Directory. 
 
-If you have a large team or are trying to add multiple teams and departments, a bulk-invite may be more suitable. Email us at **support@ally.com** with your request.
+1. If you’re logging in for the first time and are not a part of any organization yet, you will be taken to the ‘Join Organizations’ page where you can select your organization. 
 
-## FAQs:
+[screenshot]
 
-### Q: Unable to invite user; it says "This account has been suspended"
+1. If your organization is public, you will see a Join button clicking on which will take you to your organization account. 
 
-**A**: The error **This account has been suspended** occurs when you try to invite deactivated users to your Viva Goals instance. Instead of inviting them fresh, you need to look for the deactivated profiles, activate them, and resend the invites, if necessary.
+[screenshot]
 
-### Q: How do I remove, suspend, or delete a user?
+1. If your organization is restricted, you will see a ‘Request to join’ button clicking on which will enable you to send a join request to your organization administrator for approval. 
 
-**A**: If you need to remove a user from your organization, an administrator can suspend or delete their account by selecting **Admin > Users**. Find the user you wish to remove and select **Actions > Deactivate** or **Actions > Delete**.
+[screenshot]
 
-:::image type="content" source="../media/goals/deactivating-or-deleting-a-user.png" alt-text="Deactivating or deleting a user":::
+1. You can make use of the organization-switcher dropdown to join the multiple organizations that you are a part of. 
 
-**Suspending Vs deleting a user**
+[screenshot]
 
-A suspended user will remain visible in Viva Goals, but won't be able to sign in. They'll remain assigned as an owner of any OKRs they had. They'll not be searchable in **All Users** page, and will be listed as **deactivated** in the **Users** section of the admin tools. You can reactivate a user by selecting **Action > Make Active** which will restore their ability to sign in.
+1. Select ‘Create or join new organization’ and in the ‘Join Organizations’ page that appears, you can select the organization(s) that you wish to join. 
 
-:::image type="content" source="../media/goals/making-active-a-user.png" alt-text="Making active a user":::
+[screenshot]
 
-Deleting a user is an action that can't be undone. Administrators can't delete a user if they're the current owner of any objective. They'll be met with an error message.
+### Frequently asked questions
 
-:::image type="content" source="../media/goals/error-while-trying-to-delete-a-user.png" alt-text="Error message displayed when trying to delete a user":::
+1. Are there other ways to log in to Viva Goals apart from Azure Active Directory? 
+A: Currently, you can log into Viva Goals only using Azure Active Directory.
 
-Deleting a user will delete all of their activities in the system. After a user is deleted, it will appear as though they never existed.
+1. Can anybody in my organization login? 
+A: Yes, anybody in your organization which has bought or subscribed to Viva Goals, can login.  
 
-:::image type="content" source="../media/goals/prompt-to-delete-a-user.png" alt-text="The dialog box prompting confirmation to delete a user":::
+1. Do I need to login using Azure Active Directory every single time I want to access my Viva Goals account? 
+A: No. If you have logged into other AAD resources, you will automatically be directed to Viva Goals without needing to login 
 
-**Removing a team member**
+1. How can I log out from my Viva Goals account? 
+A: You can log out by selecting your profile name at the bottom of the left menu in the Viva Goals app and click on the ‘Log out’ button. 
 
-If you're just trying to remove a user from a team,  perform the following steps:
+1. What is an organization in Viva Goals and when should the user create it? 
+A: An organization in Viva Goals can mean different things to different users. You can create a single organization with all your employees in it if you have a simple hierarchy of organization-level OKRs, followed by department-level OKRs, and team-level OKRs. But in some cases, such as the following, it will make sense to create separate organizations: 
 
-1. Navigate to the team page, select **Actions > Manage Members**.
+a) When your Business Unit (BU)/department wants to track a separate set of organization-level OKRs and align all the teams in that BU/ department to those OKRs, you can create a separate organization for your BU/department. 
 
-   :::image type="content" source="../media/goals/removing-a-team-member-step-1.png" alt-text="First step in the process of removing a team member":::
-    
-2. Select **Actions > Remove**.
-   
-   :::image type="content" source="../media/goals/removing-a-team-member-step-2.png" alt-text="Second step in the process of removing a team member":::
- 
-### Q: How do I grant/remove Admin privileges?
+b) When your organization wants to maintain your own information boundary and does not want other department members to see, you can create a separate organization for yourself or for those departments. 
 
-**A**: An administrator can grant admin privileges to another user by selecting **Admin > Users** and selecting **Make Admin** from the **Actions** dropdown list next to the user’s name. You can remove privileges here too.
+c) When there is a need to administer the roll out and features separately, there could be scenarios when one department/organization within an Enterprise wants to track OKRs in separate ways by turning ON/OFF certain customization, managing different OKR cadences (different time periods), permissions (Transparent vs locked). In these scenarios, it is advisable to create a new organization. 
 
-:::image type="content" source="../media/goals/grant-admin-privileges.png" alt-text="Granting admin privileges":::
+1. What do the types of organizations — Public and Restricted — mean? When to choose which option while creating an organization? 
+A: The type ‘Public’ allows anyone in your company to join your organization without having to get their join request approved. You can use this option for enabling all employees to join your organization in Viva Goals. The type ‘Restricted’ allows you to choose which users get to join your organization. You can use this option when you want to keep a tight-knit group of users to maintain information boundaries and silos. 
 
-### Q: Why is an Org Admin of my organization, not a Dashboard Owner?
-
-**A**: The Dashboard permissions list is locked after the creation of the dashboard.
-
-The new organization administrators can't be added to the Viva Goals instance after the dashboard was visited because the permissions get locked.
+1. If a user is a part of multiple organizations, which organization will be the default organization that the user lands on logging in?
+A: By default, the user will be added to the one that was assigned first to the user.
