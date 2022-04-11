@@ -24,7 +24,9 @@ Your organization has added the custom line of business Viva Connections desktop
 You can check the details of the installed app in the Microsoft Teams admin center:
 
 - Select [**Teams Apps** > **Manage Apps**](https://admin.teams.microsoft.com/policies/manage-apps).
-- Search for the app, and then select it. You should see information that resembles the following screenshot:
+- Search for the app, and then select it.
+
+You should see information that resembles the following screenshot:
 
     :::image type="content" source="media/cant-find-app-in-teams-mobile/custom-lob-app-version.png" alt-text="Screenshot of details for the custom line of business Viva Connections desktop app.":::
 
