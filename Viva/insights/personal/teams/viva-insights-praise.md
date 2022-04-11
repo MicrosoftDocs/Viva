@@ -70,13 +70,15 @@ In Viva Insights, you can always send praise directly from the [**Home** page](#
 
    (If the Praise feature does not appear, follow the steps in [Find the Praise feature](#find-the-praise-feature).)
 
-2. Choose a badge.
+2. When the Praise modal opens, the badge defaults to **Awesome**. If you want to send a different badge with your praise message, select a new choice:
+
+   ![Select new badge.](images/praise-chat-select-new-badge.png)
 
 3. If you’re in a group chat or channel, add the name of the person you want to praise. In a 1:1 chat, the name defaults to the other person in the chat.
 
-4. (Optional) In the **Note** field, add a personalized note.
+4. (Optional) In the **Note** field, add a personalized note of up to 500 characters.
 
-5. Select **Preview**.
+5. (Optional) Select **Preview**.
 
 6. When it's ready to go, select **Send**.
 
@@ -124,8 +126,6 @@ This history includes related praise details, such as the type of badge, who the
 You can also access your personal praise history by selecting **Review your praise history** in the **Praise** section that shows within your Teams channel **Posts**. This link only shows you your own personal history that nobody else can see.
 
 ## Upcoming changes
-
-When sending praise from Teams content pane via the Praise messaging extension, badges will soon default to **Awesome** and **Preview** will soon become optional. 
 
 Starting in February 2022, what's currently available for educational praise badges will change. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
 
