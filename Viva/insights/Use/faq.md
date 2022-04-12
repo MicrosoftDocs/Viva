@@ -124,7 +124,7 @@ A7. No, they are not ignored but they are not measured and their data is not pro
 ##### Q8. Do advanced insights in Viva Insights support user mailboxes in Sweden go-local?
 
 A8. No, not until the June 2022 update is released to your organization. Until then, advanced insights in Viva Insights does not support mailboxes in [Sweden go-local](/microsoft-365/enterprise/o365-data-locations#sweden). To get updated data for advanced insights, you cannot have [licenses assigned](../setup/Assign-licenses-to-population.md) to users with mailboxes in Sweden go-local.
-
+ 
 ## Organizational data
 
 ##### Q1. What causes a failed or an invalid upload?
