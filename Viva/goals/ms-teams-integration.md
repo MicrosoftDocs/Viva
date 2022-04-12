@@ -29,7 +29,7 @@ Our quick and easy integration enables users to add, update, and manage OKRs wit
 
 ## How to pre-install Viva Goals for users within Microsoft Teams?
 
-As an Microsoft Teams administrator, you can now pre-install the Viva Goals app directly from your MS Teams account. To do this, you need to be a tenant admin with access to admin.teams.microsoft.com.
+As a Microsoft Teams administrator, you can now pre-install the Viva Goals app directly from your MS Teams account. To do this, you need to be a tenant admin with access to admin.teams.microsoft.com.
 
 Follow these steps to successfully pre-install Viva Goals:
 
@@ -40,7 +40,7 @@ Follow these steps to successfully pre-install Viva Goals:
 
    :::image type="content" source="../media/goals/preinstall-viva-goals.gif" alt-text="Pre-installing Viva Goals":::
 
-Post this, when a user logs into their MS Teams account, they will find Viva Goals pre-installed within the Apps section.
+Post this, when a user logs into their MS Teams account, they'll find Viva Goals pre-installed within the Apps section.
 
 :::image type="content" source="../media/goals/installation-of-viva-goals.gif" alt-text="Viva Goals being installed":::
 
