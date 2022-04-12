@@ -20,38 +20,47 @@ description: Learn how to build and manage a knowledge base with Viva Topics.
 
 Knowledge Managers play a key role in building a knowledge base that Viva Topics then makes available to employees, in the flow of their work. In this document we review:  
 
-- The importance of knowledge managers
+- [The importance of knowledge managers](topic-experiences-knowledge-managers.md#the-importance-of-knowledge-managers)
+
 - The role of a knowledge manager
+
 - Getting started as a knowledge manager
+
 - Editing and creating topics in Viva Topics
 
-## The importance of Knowledge Managers
+## The importance of knowledge managers
 
-Knowledge Managers have a unique opportunity to scale their impact and demonstrate leadership by showing colleagues and leaders how knowledge can be used for better outcomes, and by helping build a quality knowledge base for their team and department.  
+Knowledge managers have a unique opportunity to scale their impact and demonstrate leadership by showing colleagues and leaders how knowledge can be used for better outcomes, and by helping build a quality knowledge base for their team and department.  
 
 A high-quality knowledge base can help a Knowledge Manager and their team:  
 - Spend less time searching for or recreating information that already exists 
   People spend about an hour a day – or up to seven weeks a year – searching for or recreating information* 
+
 - Work smarter by having access to the right information when it’s needed 
+
 - Make better and faster decisions by easily accessing the organization’s knowledge and expertise  
+
 - Onboard new team members to the organization or to a project 
 
 To help accelerate the creation of an organization’s knowledge base, Viva Topics applies Artificial Intelligence (AI) to identify knowledge and experts from across the organization and categorize them into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have resources related to them that can provide people with knowledge about the topic and help them find more information and experts related to the topic. There can be many different types of topics that may be important to an organization, including projects, products or services, materials or supplies, customers, suppliers, processes, disciplines, functions, and assets.  
 
 The AI not only organizes knowledge into topics, it also automatically creates a suggested topic page for each. To take the knowledge base to the next level, people need to be able to easily add their tacit knowledge, provide unique insights, or generally improve the quality of the topic. Knowledge Managers play a critical role enabling human curation of the knowledge base.  
 
-## Knowledge Manager role
+## Knowledge manager role
 
 The Knowledge Manager’s role is to help curate and improve the quality of an organization’s knowledge base. Knowledge Managers help create and maintain the quality of the organization’s knowledge base by: 
+
 - Managing topics in Viva Topics, including creating, confirming, editing, deleting, or removing topics 
+
 - Identifying high priority topics and engaging subject matter experts to help curate 
+
 - Helping create a culture of knowledge sharing by modelling the behavior and empowering others  
 
-## Getting started as a Knowledge Manager
+## Getting started as a knowledge manager
 
 To help a Knowledge Manager starteed, use the workflow below to effectively assign, prioritize, edit, and create topics.
 
-(IMAGE: WORKFLOW)
+![Diagram showing knowledge manager workflow.](../media/knowledge-management/viva-topics-ai-workflow-km.png) 
 
 ### Assign stage
 
@@ -59,7 +68,7 @@ Each topic will need to be assigned a stage in the topic lifecycle to ensure tha
 
 (IMAGE: TOPIC LIFECYLE)
 
-Knowledge Managers can use the Manage Topics page in the Topic Center to review topics that were suggested by the AI. As an initial step, Knowledge Managers need to classify suggested topics as either Confirmed or Removed.  
+Knowledge managers can use the Manage Topics page in the Topic Center to review topics that were suggested by the AI. As an initial step, Knowledge Managers need to classify suggested topics as either Confirmed or Removed.  
 
 To classify the suggested topic into the correct stage, select the ellipses of the topic and choose the appropriate stage. 
 
