@@ -28,7 +28,7 @@ Microsoft Viva Topics helps people access the right information when they need i
 Viva Topics is an AI-powered solution that empowers people with knowledge and expertise in the apps they use every day. More accessible knowledge and expertise can help people: 
 - Spend less time searching for or recreating information that already exists 
 
- People spend about an hour a day – or up to seven weeks a year – searching for or recreating information* 
+ People spend about an hour a day—or up to seven weeks a year—searching for or recreating information.* 
 
 - Work smarter by having access to the right information when it’s needed 
 - Make better and faster decisions by easily accessing the organization’s knowledge and expertise  
@@ -97,11 +97,11 @@ Check out the Viva Topics scenario catalogue for some additoinal ideas on how or
 
 There are two main ways people can contribute their knowledge and expertise to Viva Topics:
 
-1. Edit and create topics: Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to edit an existing topic and create new topics. It’s also possible to save a topic as a draft if it’s not ready to publish.
+1. **Edit and create topics**: Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to edit an existing topic and create new topics. It’s also possible to save a topic as a draft if it’s not ready to publish.
 
 <Note> Users need topic contributor permissions to be able to edit and create new topics. If people are not able to edit or create topics, reach out to the Knowledge Admin to have the appropriate permissions assigned.  
 
-2. Crowdsource feedback: When users interact with a suggested topic, they might be asked a simple question in the Viva Topics UI. For example: Was this topic relevant to the page? Is this person relevant for the topic? Was this definition accurate? By using the feedback to such questions, Viva Topics improves the accuracy of topics. 
+2. **Crowdsource feedback**: When users interact with a suggested topic, they might be asked a simple question in the Viva Topics UI. For example: Was this topic relevant to the page? Is this person relevant for the topic? Was this definition accurate? By using the feedback to such questions, Viva Topics improves the accuracy of topics. 
 
 (IMAGE: PLANTE BLUE TOPIC CARD)
 
