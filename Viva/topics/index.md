@@ -1,7 +1,7 @@
 ---
 title: Introduction to Microsoft Viva Topics
-ms.author: ruthholls
-author: ruthhollands
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: cjtan
 audience: enabler, admin
