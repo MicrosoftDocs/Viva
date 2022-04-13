@@ -38,7 +38,7 @@ You can use these Viva Insights and MyAnalytics features when your organization 
 
 ### Features with the Viva Insights service plan
 
-[Delay delivery plan](../use/delay-delivery.md) and [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate) are only available with the [Viva Insights service plan](https://www.microsoft.com/microsoft-viva/buy-insights).
+[Delay delivery plan](../use/delay-delivery.md) and [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate) are available with the [Viva Insights service plan](https://www.microsoft.com/microsoft-viva/buy-insights).
 
 ### Features with the MyAnalytics (Full) service plan
 
