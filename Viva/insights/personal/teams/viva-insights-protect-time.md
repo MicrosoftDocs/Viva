@@ -21,7 +21,7 @@ You can use this feature in the Microsoft Viva Insights app in Microsoft Teams t
 * [Start a virtual commute](viva-insights-virtual-commute.md) to end your day.
 
 >[!Note]
->The images on this page represent the latest experience as part of a rolling release with an expected general availability by the end of March 2022.
+>The images on this page represent the latest experience as part of a rolling release with an expected general availability by the end of April 2022.
 
 ![Protect time screenshot.](Images/protect-t3.png)
 
