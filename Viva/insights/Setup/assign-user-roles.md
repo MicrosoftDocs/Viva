@@ -20,7 +20,7 @@ audience: Admin
 People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights. Refer to the following for assigning roles:
 
 * [Assign Viva Insights roles](#assign-viva-insights-roles)
-* [Assign advanced insights roles](#assign-workplace-analytics-roles)
+* [Assign advanced insights roles](#assign-advanced-insights-roles)
 * [Assign roles to groups](#assign-roles-to-groups)
 * [Verify role assignments](#verify-role-assignments)
 * [Role assignment FAQ](#role-assignment-faq)

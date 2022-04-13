@@ -1,12 +1,9 @@
 ---
-# Metadata Sample
-# required metadata
 
 title: Options upon failed validation (first upload)
 description: What you can do after your uploaded data has failed to validate.  
 author: madehmer
 ms.author: helayne
-ms.date: 03/19/2019
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -24,12 +21,12 @@ search.appverid:
 | Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
 
 >[!Note]
->Workplace Analytics does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
+>The app does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
 
 ### Guidelines for correcting errors in data
 
 This section contains help for correcting data in an uploaded source file that is causing validation errors.
 
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
 
 [!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]

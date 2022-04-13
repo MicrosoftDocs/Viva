@@ -1,6 +1,6 @@
 ---
 
-title: Best practices for efficient communication
+title: Best practices about efficient communication
 description: Get best practice recommendations for managers about communication with their teams
 author: madehmer
 ms.author: helayne

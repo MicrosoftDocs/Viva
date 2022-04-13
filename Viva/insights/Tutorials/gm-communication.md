@@ -1,6 +1,6 @@
 ---
 
-title: Best practices for efficient communication
+title: Best practices about efficient communication
 description: Microsoft Viva Insights shares best practices with managers about communication with their teams
 author: madehmer
 ms.author: helayne
@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Best practices for managers for efficient communication
+# Best practices for managers about efficient communication
 
 Different communication tools are suited for different means. While emails are great for recaps, updates, and other informational exchanges, it can slow down or muddle an important message. Choosing the right medium speeds information access and agility.
 

@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Analyst settings
+# Analyst settings for advanced insights
 
 As an analyst of Microsoft Viva Insights, you can use the Analyst settings in the advanced insights app to set up meeting and attendee exclusion rules for data analysis purposes.
 
