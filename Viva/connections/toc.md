@@ -33,7 +33,7 @@
 
 ### [Frequently asked questions about the Feed](faqs-viva-connections-feed.md)
 
-## [Troubleshoot]
+## [Troubleshoot]()
 
 ### [Can't find app in Teams mobile](troubleshoot/cant-find-app-in-teams-mobile.md)
 
