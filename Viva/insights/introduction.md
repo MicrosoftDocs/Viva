@@ -11,16 +11,14 @@ ms.subservice: viva-insights
 search.appverid: 
 - MET150 
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: overview
-manager: scott.ruble
-audience: Admin
+manager: helayne
+audience: Admin, user
 ms.custom: intro-overview
 ---
 
 # Introducing Microsoft Viva Insights
-
-[![Viva announcement](./images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
 
 [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva). Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams.
 
