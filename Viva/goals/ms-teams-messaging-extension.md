@@ -21,7 +21,7 @@ description: "Learn how to keep your conversations focused on the work that matt
 # Microsoft Teams Messaging Extension
 
 > [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 You can surface specific OKRs and Projects within your MS Teams chats to add more context to your conversations. This way you can discuss their progress, proactively identify and resolve blockers, and thereby focus on the work that needs your attention. With the Microsoft Teams messaging extension, you can also make updates to your OKRs without leaving your chat.
 

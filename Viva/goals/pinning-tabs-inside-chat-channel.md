@@ -21,7 +21,7 @@ description: "Learn how to pin a tab inside a chat or channel in Microsoft Teams
 # Pinning a Tab inside a Chat or Channel in Microsoft Teams
 
 > [!IMPORTANT]
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 With the Viva Goals OKR and Microsoft Teams integration, you can't get way more out of your Microsoft Teams app! In this article we will go over how to add the Viva Goals app to your workspace, how to add new objectives, and how to update your progress, without ever leaving MS Teams!
 
