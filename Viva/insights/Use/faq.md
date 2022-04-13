@@ -3,7 +3,7 @@
 title: Advanced insights FAQ
 description: Frequently asked questions about advanced insights for Microsoft Viva Insights in Workplace Analytics
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: reference
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
@@ -121,6 +121,10 @@ A6. This number includes licensed employees who are also present in your organiz
 
 A7. No, they are not ignored but they are not measured and their data is not processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
+##### Q8. Do advanced insights in Viva Insights support user mailboxes in Sweden go-local?
+
+A8. No, not until the June 2022 update is released to your organization. Until then, advanced insights in Viva Insights do not support mailboxes in [Sweden go-local](/microsoft-365/enterprise/o365-data-locations#sweden). To get updated data for advanced insights, you cannot have [licenses assigned](../setup/Assign-licenses-to-population.md) to users with mailboxes in Sweden go-local.
+ 
 ## Organizational data
 
 ##### Q1. What causes a failed or an invalid upload?
