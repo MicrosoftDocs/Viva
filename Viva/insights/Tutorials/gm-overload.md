@@ -1,6 +1,6 @@
 ---
 
-title: Best practices for avoiding email overload with Workplace Analytics
+title: Best practices for avoiding email overload with Viva Insights
 description: Microsoft Viva Insights shares best practices with managers about how to avoid email overload
 author: madehmer
 ms.author: helayne
@@ -65,4 +65,4 @@ When replying to email, reduce the use of reply all and remove participants who 
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)

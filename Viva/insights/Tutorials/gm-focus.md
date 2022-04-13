@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for focus time
-description: Workplace Analytics shares best practices with managers about the importance of scheduled focus time
+description: Viva Insights shares best practices with managers about the importance of scheduled focus time
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -59,4 +59,4 @@ Use a [MyAnalytics Focus plan](../personal/use/focus-plan.md) to automatically b
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)

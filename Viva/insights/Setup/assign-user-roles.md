@@ -17,10 +17,10 @@ audience: Admin
 
 # Assign user roles for Viva Insights
 
-People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights or Workplace Analytics. Refer to the following for assigning roles:
+People can work with Microsoft Viva Insights only after they've been assigned a role. See [Roles in Viva Insights](../use/user-roles.md) for details on what each role can do with Viva Insights. Refer to the following for assigning roles:
 
 * [Assign Viva Insights roles](#assign-viva-insights-roles)
-* [Assign Workplace Analytics roles](#assign-workplace-analytics-roles)
+* [Assign advanced insights roles](#assign-workplace-analytics-roles)
 * [Assign roles to groups](#assign-roles-to-groups)
 * [Verify role assignments](#verify-role-assignments)
 * [Role assignment FAQ](#role-assignment-faq)
@@ -38,11 +38,11 @@ People can work with Microsoft Viva Insights only after they've been assigned a 
 
 Within a few days after being assigned an Insights role, these users will get an email about what product features are available based on their role and service plan.
 
-## Assign Workplace Analytics roles
+## Assign advanced insights roles
 
 **Owner** - Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator)
 
-1. To assign roles for Workplace Analytics, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. To assign roles for advanced insights, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise applications**:
 
    ![Enterprise applications.](../images/wpa/setup/enterprise-apps.png)
@@ -52,7 +52,7 @@ Within a few days after being assigned an Insights role, these users will get an
    ![Application types.](../images/wpa/setup/ent-all-apps-3.png)
 
 4. In the search field, enter **workplace**, and then press **Enter**.
-5. In the search results, select **Workplace Analytics**.  
+5. In the search results, select **Workplace Analytics** for advanced insights.  
 6. In **Workplace Analytics** | **Overview**, under **Getting Started**, select **Assign users and groups**:
 
    ![Overview page.](../images/wpa/setup/wpa-overview.png)  
@@ -90,7 +90,7 @@ Within a few days after being assigned an Insights role, these users will get an
 
 13. After a few seconds, you'll see a message in the upper right about the role assignment. Optionally, you can now assign additional roles, either to the same user or to different users by repeating these steps.
 
-To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments). After people are assigned a Workplace Analytics role, they will not receive an email notification from Workplace Analytics. As their admin, you'll need to notify them of what's available to them based on their role. To learn more about feature access for the different roles, see [Roles in Viva Insights](../use/User-Roles.md).
+To check the current role assignments for a person, see [Verify role assignments](#verify-role-assignments). After people are assigned an advanced insights role, they will not receive an email notification from Viva Insights. As their admin, you'll need to notify them of what's available to them based on their role. To learn more about feature access for the different roles, see [Roles in Viva Insights](../use/User-Roles.md).
 
 If you assigned the Microsoft Viva Insights (WpA transition) license to one or more people, they will also not receive an email notification. So you'll need to notify them as well. For details about this license option, see [Premium access for licenses assigned before July 2021](../personal/teams/viva-teams-app-admin-tasks.md#premium-access-for-licenses-assigned-before-july-2021).
 
@@ -102,12 +102,12 @@ You can also assign roles to groups, which means that you are assigning access p
 
 To assign Viva Insights roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Viva Insights roles](#assign-viva-insights-roles). In that process, when prompted to select a name, select a group name instead, and then assign a role to the selected group. For more details, see [Manage a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/manage-groups).
 
-### Workplace Analytics groups
+### Advanced insights groups
 
 >[!Note]
->You can assign Workplace Analytics roles to Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups).
+>You can assign advanced insights roles to Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups).
 
-To assign roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Workplace Analytics roles](#assign-workplace-analytics-roles). In that process, when prompted to select a name, select a group name instead, and then assign a role to the selected group.
+To assign roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign roles](#assign-advanced-insights-roles). In that process, when prompted to select a name, select a group name instead, and then assign a role to the selected group.
 
    ![Select group.](../images/WpA/Use/select-group-b.png)
 
@@ -115,12 +115,12 @@ To learn more about creating a user group in Azure Active Directory, see [Create
 
 ## Verify role assignments
 
-Do the following to see what roles are assigned for Viva Insights.
+Do the following to see what roles are assigned for Viva Insights:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/home).
 2. Go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861) to see a person or group's assigned roles.
 
-Do the following to see what roles are assigned for Workplace Analytics.  
+Do the following to see what roles are assigned for advanced insights:
 
 1. On the **Workplace Analytics | Users and groups** page, start typing the user or group identifier. As you do so, the list filters accordingly.  
 2. In the **Role assigned** column, you can see the person or group's role assignments.

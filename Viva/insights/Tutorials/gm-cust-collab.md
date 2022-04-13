@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for collaborating with customers
-description: Workplace Analytics shares best practices for customer collaboration
+description: Get best practices for customer collaboration
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -47,4 +47,4 @@ By clearly defining roles and responsibilities within your organization, people 
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)

@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics plans for managers
-description: Introduction and summary of Workplace Analytics plans
+title: Viva Insights plans for managers
+description: Introduction and summary of advanced insights plans
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: conceptual
@@ -11,9 +11,9 @@ manager: helayne
 audience: user
 ---
 
-# Workplace Analytics plans for managers
+# Plans for managers
 
-By combining the capabilities of Workplace Analytics and MyAnalytics, plans can help you transform insights from Workplace Analytics into targeted change plans across your team. The following targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals.
+Plans in advanced insights can help you transform Viva Insights analysis into targeted change plans across your team. The following targeted change plans are available for reducing meeting load, increasing focus time, and maintaining work-life balance, among other goals.
 
 * **Focus** - Help team members get more time to do deep work and reclaim their calendar for work that matters most.
 * **Collaboration** - Help team members reduce the number of excess meetings that the group schedules.
@@ -24,7 +24,7 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans can 
 
 You can do the following with plans:
 
-1. [Launch a plan](#launch-a-plan) for the identified group, who experience the plan through [MyAnalytics](../personal/mya-landing-page.md).
+1. [Launch a plan](#launch-a-plan) for the identified group, who experience the plan through their [personal insights](../personal/mya-landing-page.md).
 2. [Manage and track a plan's progress](#manage-and-track-plans) while it is underway, and the ROI of the plan after it ends.
 
 ## Launch a plan
@@ -50,19 +50,19 @@ In **Plans** > **Track** > **Progress for**, you can select an active or a compl
 
 ## Plan participants' experience
 
-The actual work of change is done by your team through MyAnalytics. The group or team who you are included in a plan have the opportunity to change workplace habits for the better.
+The actual work of change is done by your team through Viva Insights. The group or team who you are included in a plan have the opportunity to change workplace habits for the better.
 
 During a plan, these participants receive or can view the following items.
 
-### MyAnalytics dashboard
+### Dashboard
 
-The [MyAnalytics dashboard](../personal/use/dashboard-2.md) is a constantly available resource for MyAnalytics users. In addition to its standard content, the dashboard also includes a new participant section during a plan. This section contains information such as recommended habits and the participant's progress against the plan goals, similar to the following:
+The [Dashboard](../personal/use/dashboard-2.md) is a constantly available resource for users. In addition to its standard content, the dashboard also includes a new participant section during a plan. This section contains information such as recommended habits and the participant's progress against the plan goals, similar to the following:
 
 ![Participant's dashboard.](../images/wpa/tutorials/dashboard-prog-partic.png)
 
 ### Digest emails
 
-All MyAnalytics and Viva Insights users receive a biweekly [digest emails](../personal/use/email-digests-3.md). In addition to the standard content, the participants digests will also include a section that summarizes their progress in the plan.
+All Viva Insights users receive a biweekly [digest emails](../personal/use/email-digests-3.md). In addition to the standard content, the participants digests will also include a section that summarizes their progress in the plan.
 
 ### Inline suggestions
 

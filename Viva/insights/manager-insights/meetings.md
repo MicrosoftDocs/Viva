@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for meetings
-description: Workplace Analytics shares best practices with managers about planning and running meetings
+description: Get best practices for managers about planning and running meetings
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -41,7 +41,7 @@ The [Stop the meeting madness](https://insights.office.com/collaboration/out-of-
 * Support shortening meetings and inviting fewer people.
 * Encourage employees to use [MyAnalytics meeting insights](../personal/use/collaboration.md#meeting-habits) to understand how they can improve their meeting habits.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
-* Enable [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
+* Enable [Manager insights](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
 * Regularly and openly check in with employees. Frustration, resentment, and even hopelessness are signals that people are falling back into less productive patterns. Changing protocols and behaviors takes time, and sustaining momentum requires consistent attention.
 * Assess and discuss progress around meeting habits and its impact on focus. Small, tangible wins provide something for people to celebrate, and small losses provide opportunities for learning and correction.
 * [Share 6 tips for handling scheduling conflicts](https://www.microsoft.com/microsoft-365/business-insights-ideas/resources/6-tips-handling-scheduling-conflicts).
@@ -85,5 +85,5 @@ Possible roles for meeting:
 
 ## Related topics
 
-* [Workplace Analytics best practices](best-practices.md)
+* [Viva Insights best practices](best-practices.md)
 * [MyAnalytics collaboration](../personal/use/collaboration.md)

@@ -88,7 +88,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Confirming your team  
 
-When you first visit the Leadership page, you are asked to confirm your team members. The initial list of team members you see is derived from Azure Active Directory or from Workplace Analytics*. If you make any changes, they will apply only to your MyAnalytics experience (including the [Insights Outlook add-in](add-in.md)) and will not be synchronized back to Azure AD or to Workplace Analytics*.
+When you first visit the Leadership page, you are asked to confirm your team members. The initial list of team members you see is derived from Azure Active Directory or from the advanced insights app*. If you make any changes, they will apply only to your Viva Insights experience (including the [Insights Outlook add-in](add-in.md)) and will not be synchronized back to Azure AD or to the advanced insights app*.
 
 ![Confirm your team.](../../Images/mya/use/leadership-confirm.png)
 
@@ -99,7 +99,7 @@ If your team list or job function changes, you can select the **Edit team** link
 
 ### To open Configurations
 
-1. Go to 'myanalytics.microsoft.com' to open your personal MyAnalytics dashboard.
+1. Go to 'myanalytics.microsoft.com' to open your personal dashboard.
 2. In the left navigation pane, select **Config settings**.
 
    ![Configurations.](../../Images/mya/use/leadership-config.png)
@@ -111,7 +111,7 @@ If your team list or job function changes, you can select the **Edit team** link
 * **Help team members prioritize tasks.** [Research by Microsoft](https://insights.office.com/workplace-analytics/the-new-manager-11-nurturing-employee-resiliency-during-disruption-and-change/) has shown that people who receive prioritization support from managers are better able to maintain productivity levels without working longer hours.
 
 >[!Note]
->The Workplace Analytics organizational hierarchy is used for a tenant only if **Insights and plans** is turned **On** for that tenant in the [Manager settings](../../use/manager-settings.md) of Workplace Analytics.
+>The organizational hierarchy is used for a tenant only if **Insights and plans** is turned **On** for that tenant in the [Manager settings](../../use/manager-settings.md).
 
 <!-- For now, we cannot use these links, so keeping them safe here: 
 

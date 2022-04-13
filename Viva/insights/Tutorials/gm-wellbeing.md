@@ -41,7 +41,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ### Start a wellbeing plan
 
-Enroll your team in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive a weekly digest, inline suggestions, and actionable insights.
+Enroll your team in a [Viva Insights wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive a weekly digest, inline suggestions, and actionable insights.
 
 #### Define and share working hours
 
@@ -68,4 +68,4 @@ People often feel overloaded because tasks take more time than expected. Focus t
 
 ## Related topics
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)

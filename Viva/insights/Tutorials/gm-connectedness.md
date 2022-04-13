@@ -52,4 +52,4 @@ Build connections through [MyAnalytics network insights](../personal/Use/network
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)
