@@ -64,12 +64,12 @@ To fetch the permalink, here's what you need to do:
 
 5. Paste the **permalink of the Wrike project or the task** you want to associate it with. Select **Preview**. 
 
-    If you are mapping to a Wrike project, Viva Goals will automatically fetch the details of the tasks that are a part of the connected Wrike project — name of the task, progress, assignee, and due date.
+    If you're mapping to a Wrike project, Viva Goals will automatically fetch the details of the tasks that are a part of the connected Wrike project — name of the task, progress, assignee, and due date.
 
     > [!NOTE]
-    > Only the top-level tasks of a project will be displayed here, and the sub-tasks will not be displayed. However, the progress shown for each top level task is based on the percentage of its subtasks that are complete. Intermediate tasks -  ones which have children, do not count towards top-level task progress.
+    > Only the top-level tasks of a project will be displayed here, and the sub-tasks won't be displayed. However, the progress shown for each top level task is based on the percentage of its subtasks that are complete. Intermediate tasks -  ones which have children, don't count towards top-level task progress.
 
-    If you are mapping to a Wrike task within a project, Viva Goals will automatically fetch the details of the subtasks that are a part of the connected Wrike task.
+    If you're mapping to a Wrike task within a project, Viva Goals will automatically fetch the details of the subtasks that are a part of the connected Wrike task.
 
 6. Select **Next > Save**.
 
@@ -116,7 +116,7 @@ There are two options to track the progress of the KPI metric  — **number of c
 
     :::image type="content" source="../media/goals/goals-wrike-custom-fields-numerical-values.png" alt-text="Image of Wrike custom fields numerical values":::
 
-7. In addition, you can choose the target custom field as well. This is useful for scenarios where you are recording both the current value and the target in separate custom fields in the Wrike project.
+7. In addition, you can choose the target custom field as well. This is useful for scenarios where you're recording both the current value and the target in separate custom fields in the Wrike project.
 
 8. Select **Next**. Make sure you set a value for **Starting** for KPI depending on whether the metric has to increase or decrease to hit the target. Then select **Save**.
 
