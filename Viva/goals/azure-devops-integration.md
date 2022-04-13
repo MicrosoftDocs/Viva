@@ -66,7 +66,7 @@ You've successfully linked your objective to a query in Azure DevOps to track th
 
 The colors of the progress bar indicated the status of the objective.
 
-- If the progress is 0 - 25% less than the expected progress at any given point in time, the OKR status is Behind, and the progress bar color will be Orange.
+- If the progress is 0-25% less than the expected progress at any given point in time, the OKR status is Behind, and the progress bar color will be Orange.
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red.
 
 To learn more about Viva Goals’ other integrations, see our [Integrations page](https://help.ally.io/en/collections/30526-integrations).
