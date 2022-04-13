@@ -29,7 +29,7 @@ When you select Additional problem information in the error message, you see the
 
 > AADSTS650057: Invalid resource. The client has requested access to a resource which is not listed in the requested permissions in the client’s application registration.
 
-    :::image type="content" source="media/error-accessing-app-from-teams-desktop/error-accessing-app.png" alt-text="Screenshot of error message with additional information.":::
+:::image type="content" source="media/error-accessing-app-from-teams-desktop/error-accessing-app.png" alt-text="Screenshot of error message with additional information.":::
 
 **Note:** This issue occurs only when you access the Viva Connections app from the Teams desktop client. You will not see this error if you access the Viva Connections app from the Teams web client.
 
