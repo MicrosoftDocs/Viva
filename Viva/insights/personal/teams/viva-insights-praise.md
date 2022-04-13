@@ -103,8 +103,8 @@ Remind yourself to send praise to coworkers. Praise reminders are always recurri
 >[!Note]
 >
 >* You can schedule praise reminders for any day of the week, including days not configured as workdays in your Outlook settings.
->* The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
->* The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
+>* The time you select will apply to every day on which you'll see reminders. You can't set different times for different days of the week.
+>* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 
 You can set praise reminders either on the [**Settings** page](viva-teams-app-settings.md) or on the **Home** page, as described here:
 
