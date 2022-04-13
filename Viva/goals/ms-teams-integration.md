@@ -50,7 +50,7 @@ There are multiple ways to install the Viva Goals Bot in Teams.
 
 The first way to add Viva Goals to Teams is for you to click the ellipse […] button on the navigation bar on the left, search for Viva Goals OKRs and click on the Viva Goals OKRs app from the list of search results.
 
-From the Viva Goals OKRs app detail page, you can click the Add button to add Ally as a bot.
+From the Viva Goals OKRs app detail page, you can click the Add button to add Viva Goals as a bot.
 
 :::image type="content" source="../media/goals/vivagoals-okrs-app-detail-page.png" alt-text="Viva Goals OKRs details page":::
 
@@ -62,7 +62,7 @@ From the Viva Goals OKRs app detail page, click Add.
 
 :::image type="content" source="../media/goals/adding-vivagoals-okr.png" alt-text="Adding Viva Goals OKRs":::
 
-Once Viva Goals OKRs have been added to MS Teams, the bot will guide you on the next steps based on if you already have an account with Ally or not.
+Once Viva Goals OKRs have been added to MS Teams, the bot will guide you on the next steps based on if you already have an account with Viva Goals or not.
 
 ## I Don’t Have an Existing Viva Goals Account
 
@@ -98,5 +98,5 @@ If you have an existing Viva Goals account, you will receive a Welcome message w
 
 ## How to access Viva Goals from Microsoft Teams
 
-You can also access Viva Goals by adding it as a tab in a Microsoft Teams channel. To do so, click on + in the channel title pane to open the ‘Add a tab’ pop-up. Search and select ‘Ally’ and click ‘Add’ in the preview window. Choose the Ally entity (Individual OKR, Team OKR, Organization OKR) you would like to map as a channel tab.
+You can also access Viva Goals by adding it as a tab in a Microsoft Teams channel. To do so, click on + in the channel title pane to open the ‘Add a tab’ pop-up. Search and select ‘Viva Goals’ and click ‘Add’ in the preview window. Choose the Viva Goals entity (Individual OKR, Team OKR, Organization OKR) you would like to map as a channel tab.
 
