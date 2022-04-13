@@ -21,7 +21,7 @@ description: "Learn how to enable and manage your connections and even request a
 # Integrations overview
 
 > [!IMPORTANT] 
-> Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
+> Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Viva Goals features integrations with industry-leading tools and platforms to make your OKR implementation as simple, effective and seamless as possible. Don’t switch away from the tools you love, and don’t waste time switching back and forth: use integrations to automatically update OKRs when your work gets done and foster ongoing feedback around your goals.
 
