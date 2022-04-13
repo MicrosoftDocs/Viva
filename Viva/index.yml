@@ -70,9 +70,7 @@ productDirectory:
         - url: /viva/insights/personal/introduction
           text: Personal insights
         - url: /viva/insights/use/myteam
-          text: Manager insights
-        - url: /viva/insights/use/viva-insights-my-org
-          text: Leader insights
+          text: Manager and leader insights
         - url: /viva/insights/index-orig
           text: Advanced insights
 
