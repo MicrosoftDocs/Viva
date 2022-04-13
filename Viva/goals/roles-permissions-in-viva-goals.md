@@ -161,10 +161,6 @@ An Observer is entitled to the following privileges:
 > [!NOTE]
 > Observers can’t be an OKR owner, administrator, or Team owner/administrator. However, they can be team members, managers, and can have a Manager.
 
-### Enabling Observer feature
-
-To enable the Observer feature for your account, contact Microsoft Support.
-
 ### Adding users as an Observer
 
 You can set a default account type for new users from **Admin Dashboard > Setting**. If the value is set to **Observer**, users will take up account type as **Observer** when added through file upload/slack or when they join without invitations (if allowed).
