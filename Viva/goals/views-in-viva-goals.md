@@ -128,9 +128,6 @@ The default group by option is relative to the applied filters or preset views. 
 
 :::image type="content" source="../media/goals/grouping.gif" alt-text="Grouping the filters":::
 
-> [!NOTE]
-> *Views will be available for all Ally.io customers from June 21, 2021. Please reach out to support@ally.io if you'd like to try this experience first hand*.
-
 ## Flat-list OKR views
 
 The flat-list view for OKRs gives users the ability to view all OKRs of any particular entity (Org/Team/Individual) and the time period in a single flat-list view without having to expand them every time i.e. in case an OKR of the entity (Organization) and time-period  (Q3 2021) has a child belonging to the same entity and time-period, usually the child is aligned, hidden under the parent. With this 'view option' users can flatten the list view and see the children right below the parents.
