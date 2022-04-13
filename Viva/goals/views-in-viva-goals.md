@@ -130,3 +130,45 @@ The default group by option is relative to the applied filters or preset views. 
 
 > [!NOTE]
 > *Views will be available for all Ally.io customers from June 21, 2021. Please reach out to support@ally.io if you'd like to try this experience first hand*.
+
+## Flat-list OKR views
+
+The flat-list view for OKRs gives users the ability to view all OKRs of any particular entity (Org/Team/Individual) and the time period in a single flat-list view without having to expand them every time i.e. in case an OKR of the entity (Organization) and time-period  (Q3 2021) has a child belonging to the same entity and time-period, usually the child is aligned, hidden under the parent. With this 'view option' users can flatten the list view and see the children right below the parents.
+
+### How can users toggle between only parent OKRs and all OKRs?
+
+1. Choose the entity and time period of the OKRs.
+1. Click on the **View Options** dropdown list. Turn on the **Show flat-list view** toggle if you wish to view both parent & child OKRs one below the other.
+
+   :::image type="content" source="../media/goals/flat-list-view.png" alt-text="The flat-list view":::
+1. If the users wish to view only parent OKRs, the toggle needs to be turned off and the children will be hidden under the parent (visible on expanding the row).
+
+## Custom multi-selection of time periods
+
+The multi-select option for the time period filter in OKR views allows you to view all your OKRs across multiple time periods. With this feature, you will have the ability to select and view OKRs across all time periods or multiple active/upcoming/previous time periods and have a single view of your OKRs grouped by each time period.  This is especially useful when you have active OKRs for more than one time period that need to be worked upon or tracked.
+
+For example, say you want to view active OKRs across different time periods (Annual, Q2 2021, and Q3 2021), you can multi-select these time periods and save them as a view.
+
+### How to multi-select time periods in Viva Goals?
+
+1. Log in to Viva Goals and view and click on individual-level, team-level, or organization-level OKRs from the left panel.
+
+   > [!NOTE]
+   > Your default view will list "Active Period OKRs"; this view contains the list of all the OKRs for the active time period. "Active time period" is derived based on the time periods that are grouped together as “Active” in the time period picker.
+
+   :::image type="content" source="../media/goals/active-period-okrs.png" alt-text="The variouss active period OKRs that are listed":::
+
+   :::image type="content" source="../media/goals/active-time-period.png" alt-text="Active time period":::
+
+2. To select multiple other time periods, click the **Filter** option and select all the time periods that apply, and hit **Done**.
+
+   :::image type="content" source="../media/goals/selecting-multiple-time-periods.png" alt-text="Selecting multiple time periods":::
+
+You can also save this view as a new view by clicking the **Save View** icon right next to the view header.
+
+:::image type="content" source="../media/goals/save-view-icon.png" alt-text="The save-view icon":::
+
+You can now view the list of all OKRs across multiple time periods.
+
+> [!NOTE]
+> With the introduction of Views in Viva Goals, the time period picker in Viva Goals has been moved as a filter in the filters panel. Learn more about Views in Viva Goals [here](https://help.ally.io/en/articles/5319075-views-in-ally-io).
