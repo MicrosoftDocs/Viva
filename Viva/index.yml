@@ -73,6 +73,8 @@ productDirectory:
           text: Manager insights
         - url: /viva/insights/use/viva-insights-my-org
           text: Leader insights
+        - url: /viva/insights/index-orig
+          text: Advanced insights
 
     # Card
     - title: Microsoft Viva Connections
