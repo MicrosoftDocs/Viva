@@ -35,7 +35,7 @@ You can now view your Wrike projects and tasks in Viva Goals, and connect the pr
 
 1. From the navigation menu, select **Admin >** select the **Integrations** tab.
 
-2. Against Wrike, you will have an option to **Enable**the integration. If a connection has been made previously or if the integration has been enabled already, you will have the option to **Manage** the enabled integration.
+2. Against Wrike, you'll have an option to **Enable**the integration. If a connection has been made previously or if the integration has been enabled already, you'll have the option to **Manage** the enabled integration.
 
 3. This integration can also be **disabled** from the same section by selecting **Change**, and choosing **Disable integration** from the dropdown.
 
@@ -60,7 +60,7 @@ To fetch the permalink, here's what you need to do:
 
 3. While **creating or editing a project in Viva Goals**, select **Select an option to add tasks to project**. From the drop down menu, select **Wrike**.
 
-4. If you have already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
+4. If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
 5. Paste the **permalink of the Wrike project or the task** you want to associate it with. Select **Preview**. 
 
@@ -75,7 +75,7 @@ To fetch the permalink, here's what you need to do:
 
     :::image type="content" source="../media/goals/goals-wrike-integration.gif" alt-text="Image of Wrike integration save":::
 
-You have successfully linked your project in Viva Goals to a Wrike project or a Wrike task. Viva Goals will now update the progress as tasks and subtasks are completed in Wrike, through hourly syncs. The updates for a project in Viva Goals activity log call out what has changed since the last check-in, tagged with the number of top-level tasks that are added, removed or completed.
+You've successfully linked your project in Viva Goals to a Wrike project or a Wrike task. Viva Goals will now update the progress as tasks and subtasks are completed in Wrike, through hourly syncs. The updates for a project in Viva Goals activity log call out what has changed since the last check-in, tagged with the number of top-level tasks that are added, removed or completed.
 
 ## Integrating Key Results in Viva Goals with Wrike projects and tasks 
 
@@ -87,7 +87,7 @@ If you choose to measure the progress of key results by percent complete, this i
 
 ### Measure progress by KPI metric 
 
-If you choose to measure the progress of key results by a KPI metric, you will determine the target value for this metric, and this implies that the key result progress is measured by the starting value and target value of the KPI metric. 
+If you choose to measure the progress of key results by a KPI metric, you'll determine the target value for this metric, and this implies that the key result progress is measured by the starting value and target value of the KPI metric. 
 
 There are two options to track the progress of the KPI metric  — **number of completed tasks in Wrike, and custom fields in Wrike**.  
 
@@ -95,7 +95,7 @@ There are two options to track the progress of the KPI metric  — **number of c
 
     :::image type="content" source="../media/goals/goals-wrike-projects-integration-dropdown.png" alt-text="Image of Wrike integration dropdown":::
 
-    If you have already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
+    If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared.
 
 2. Choose the method using which you want to measure the progress — KPI (success metric) and provide a metric, starting value, and target value.
 
@@ -122,6 +122,6 @@ There are two options to track the progress of the KPI metric  — **number of c
 
     :::image type="content" source="../media/goals/goals-save-wrike-projects.gif" alt-text="Image of save Wrike project":::
 
-You have successfully linked your key result in Viva Goals to a Wrike project or Wrike task. Viva Goals will now update the key result through hourly syncs. 
+You've successfully linked your key result in Viva Goals to a Wrike project or Wrike task. Viva Goals will now update the key result through hourly syncs. 
 
 Projects in Viva Goals are available across all our pricing plans. If you would like to have Projects enabled for your organization, please have an account admin reach out to support@xxxxxx with your request.    
