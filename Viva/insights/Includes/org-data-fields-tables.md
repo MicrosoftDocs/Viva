@@ -20,7 +20,7 @@ search.appverid:
 ### Field column details
 
 * **Source column** corresponds to each of the fields in the uploaded file.
-* **Workplace Analytics name** is the name of your organization's Workplace Analytics.
+* **Workplace Analytics name** is the name of your organization's Workplace Analytics app.
 
 * **Data type** is the data type of the fields.
 

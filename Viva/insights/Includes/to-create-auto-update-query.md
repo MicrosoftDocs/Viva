@@ -1,7 +1,7 @@
 ---
 
 title: To create an auto-update query
-description: How to create an auto-update query in Viva Insights in Workplace Analytics
+description: How to create an auto-update query in advanced insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,7 +15,7 @@ search.appverid:
 
 **To create an auto-update query**
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**:
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**:
 
    <img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries in Workplace Analytics">
 

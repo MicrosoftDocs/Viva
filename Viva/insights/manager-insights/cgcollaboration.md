@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for collaboration across groups
-description: Workplace Analytics shares best practices with managers about the importance of cross-group collaboration
+description: Get best practice recommendations for managers about the importance of cross-group collaboration
 author: madehmer
 ms.author: helayne
 ms.topic: article

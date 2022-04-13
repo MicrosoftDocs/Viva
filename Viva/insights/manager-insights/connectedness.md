@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for manager connectedness
-description: Workplace Analytics shares best practices with managers about connecting with their teams and employees
+description: Get best practice recommendations for managers about connecting with their teams and employees
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -52,5 +52,5 @@ Build connections through [MyAnalytics network insights](../personal/Use/network
 
 ## Related topics
 
-* [Workplace Analytics best practices](best-practices.md)
+* [Viva Insights best practices](best-practices.md)
 * [Microsoft FastTrack resources](https://www.microsoft.com/fasttrack/resources)
