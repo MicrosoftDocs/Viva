@@ -33,7 +33,9 @@ You might not see suggestions in the following scenarios:
 * When you're sending an email to yourself.
 
 >[!NOTE]
-> Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.
+> Distribution lists and Microsoft 365 or Office 365 groups do *not* count as qualifying recipients for use by the delay-delivery feature.
+>
+> A shared mailbox in the **To** field, however, *does* count as a qualifying recipient. If a user has Full access permissions and can **Send as** or **Send on behalf of** the shared mailbox, that user counts as a qualifying sender.
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 

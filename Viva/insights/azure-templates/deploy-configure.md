@@ -20,7 +20,7 @@ audience: Admin
 _These templates are only available as part of a Microsoft service engagement._
 
 >[!Important]
->As of February 2022, this product is no longer being supported.
+>As of February 2022, this product is no longer supported. If you're not using the templates, see [Cancel the service](cancel-service.md) for how-to steps in the Azure portal.
 
 Before you can use Workplace Analytics Azure Templates for advanced data analysis, you need to do the following:
 
