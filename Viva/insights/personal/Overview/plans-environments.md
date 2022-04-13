@@ -3,7 +3,7 @@
 title: Plans and environments for personal insights
 description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights and in MyAnalytics
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -36,9 +36,13 @@ You can use these Viva Insights and MyAnalytics features when your organization 
 >* To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 >* For more information about the plans that offer these user experiences, see [Microsoft 365 business plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans).
 
+### Features with the Viva Insights service plan
+
+[Delay delivery plan](../use/delay-delivery.md) and [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate) are only available with the [Viva Insights service plan](https://www.microsoft.com/microsoft-viva/buy-insights).
+
 ### Features with the MyAnalytics (Full) service plan
 
-The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature is only available with the MyAnalytics (Full) service plan.
+The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature, [Delay delivery plan](../use/delay-delivery.md), and [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate) are available with the MyAnalytics (Full) service plan.
 
 ## Access to Viva Insights elements
 
