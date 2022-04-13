@@ -23,7 +23,7 @@ description: "Learn how to manage Quarterly OKR Periods and custom periods (mont
 > [!IMPORTANT] 
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals](https://go.microsoft.com/fwlink/?linkid=2189933).
 
-By default, OKR periods are set up quarterly in Microsoft. and they're managed automatically by Viva Goals. For example, when a quarter ends and a new quarter begins, Viva goals will automatically set the current period for everyone in your organization to the new quarter. All users can see the period has changed to the new quarter when the **Active Period OKRs** reflect OKRs from the current active period. 
+Viva goals comes with both annual and quarterly time periods out of the box. Typically organisations operate in the annual cadence and departments/teams operate in the quarterly cadence. Unless the organisation creates a custom time perios to change the default cadence, the current time period is managed automatically by Viva goals. For example, when a quarter ends and a new quarter begins, Viva goals will automatically set the current period for everyone in your organization to the new quarter. All users can see the period has changed to the new quarter when the user has selected all time periods, active time periods or current time period from the time-period picker. 
 
 :::image type="content" source="../media/goals/Goals-active-period-filters-views.png" alt-text="Image of the current active period":::
 
@@ -45,18 +45,12 @@ To manage time periods:
 
 ## FAQs:
 
-### When are the time periods for my next planning year created? 
+1. When are the time periods for my next planning year created? 
 
-The time periods for the next planning year(annual and quarterly) will be automatically created in Viva Goals on the first day of the fourth quarter(Q4) for your current planning year.
+A: The time periods for the next planning year(annual and quarterly) will be automatically created in Viva Goals on the first day of the fourth quarter(Q4) for your current planning year.
 
 If you have already started planning for your next year's OKRs before Q4, you can add the next year time periods from the **Admin > Time Periods dashboard** and start adding your OKRs right away!
 
-### How to set custom time period for OKRs?
+2. Why is my current time period not automatically switching after the last day of the period?
 
-OKR Periods are set to quarters by default in Viva Goals and they're managed automatically by Viva Goals. For example, when a quarter ends and new quarter begins, Viva Goals will automatically set the current period for everyone in your organization to the new quarter. In addition to this, the Viva Goals administrator(s) can manage the OKR Periods. Instead of the default quarterly periods, administrators can make it monthly or any custom time period they want for their organization by adding those OKR periods, and removing the default quarterly periods.
-
-While creating an OKR, you can set the Time Period according to the quarter or time period the corresponding objective belongs to. You can also change this by altering the start and end dates of the period.
-
-Example: If you want to create an annual objective but make it due on October, you can set the end date accordingly.
-
-:::image type="content" source="../media/goals/Goals-Yazz OKRs.gif" alt-text="Image of the Yazz OKRs":::
+A: When the administrator adds custom time periods, auto switching of the current time period no longer happens. Users will have to manually change the current time period every time.
