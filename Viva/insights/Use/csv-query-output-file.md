@@ -20,7 +20,7 @@ After you run a query in the advanced insights app, you'll see the list of query
 
 ![.csv file download.](../images/WpA/Use/qd-results-download.png)
 
-You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use the data in Power BI and other data analysis tools](view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool).
+You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use the data in Power BI and other data analysis tools](view-download-and-export-query-results.md#use-viva-insights-data-in-power-bi-excel-or-other-data-analysis-tool).
 
 ## Person query output
 

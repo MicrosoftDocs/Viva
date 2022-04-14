@@ -1,6 +1,6 @@
 ---
 
-title: Increase customer focus with Viva Insights
+title: Increase customer focus with Advanced insights
 description: Learn how to use Viva Insights data to analyze and increase customer focus
 author: madehmer
 ms.author: helayne
@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Increasing customer focus
+# Increasing customer focus with Viva Insights
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
