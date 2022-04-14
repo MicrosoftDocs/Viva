@@ -18,7 +18,7 @@ description: Learn how to contribute to a topic in Viva Topics
 
 # Share knowledge and expertise in Microsoft Viva Topics
 
-Viva Topics helps organizations make knowledge and expertise accessible to all employees. It’s like Wikipedia for organizations, but artificial intelligence (AI) develops the first draft and subject matter experts edit the information to add their unique knowledge and expertise. Viva Topics then makes the knowledge available to colleagues and leaders at the time of need, and in the flow of their work. In this document we review:  
+[Viva Topics](topic-experiences-overview.md) helps organizations make knowledge and expertise accessible to all employees. It’s like Wikipedia for organizations, but [artificial intelligence (AI) develops the first draft]() and subject matter experts edit the information to add their unique knowledge and expertise. Viva Topics then makes the knowledge available to colleagues and leaders at the time of need, and in the flow of their work. In this document we review:  
 
 - [Showcasing knowledge and expertise with Viva Topics](topic-experiences-topic-contributors.md#showcase-knowledge-and-expertise-with-viva-topics)
 
@@ -62,25 +62,25 @@ Additionally, users will also be able to find topics through Microsoft Search an
 
 There ar emultiple wasy to find relevant topics in the organization to contribute towards:
 
-1. Topic Center: The Topic Center is the center of knowledge for the organization. It highlights the topics to which a user has a connection. There are two types of connections:  
+1. **Topic Center:** The Topic Center is the center of knowledge for the organization. It highlights the topics to which a user has a connection. There are two types of connections:  
 
-Suggested connections - You will see topics listed under We've listed you on these topics. Did we get it right? These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole   
+**Suggested connections** - You will see topics listed under *We've listed you on these topics. Did we get it right?* These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole   
 
 (IMAGE: TOPICS USER IS LISTED ON)
 
-Confirmed connections - These are topics which users are pinned on the topic page or confirmed as a suggested connection to the topic. Topics will move from the suggested to confirmed section when they confirm a suggested connection. 
+**Confirmed connections** - These are topics which users are pinned on the topic page or confirmed as a suggested connection to the topic. Topics will move from the suggested to confirmed section when they confirm a suggested connection. 
 
 (IMAGE: CONFIRMED CONNECTIONS)
 
-2. In the flow of work: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to edit.  
+2. **In the flow of work:** As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
 
 (IMAGE: INFOPEDIA - PROJECT BLUE)
 
-3. Search: If there is a specific topic to edit, the user can search for it using Microsoft Search. If there is no existing topic in the tenant, a new topic can be created. 
+3. **Search:** If there is a specific topic to edit, the user can [search for it using Microsoft Search](search.md). If there is no existing topic in the tenant, a new topic can be created. 
 
 (IMAGE: SATURN TOPIC PAGE)
 
-4. Knowledge manager: People in the organization may have taken on the role of knowledge manager and reached out to colleagues to get help curating specific topics. 
+4. **Knowledge manager:** People in the organization may have taken on the role of knowledge manager and reached out to colleagues to get help curating specific topics. 
 
 Only users who have the Who can create or edit topics permission link can edit or create a topic. If the user is unable to edit or create a topic, they can reach out to the admin to get the required permissions.  
 
@@ -94,10 +94,10 @@ The properties are identified from the files and pages that are part of the evid
 
 It’s possible to improve the quality of topics in an organization by adding the correct alternate names and descriptions, and recommending people, files, pages, and related topics that are relevant for others in the company to learn more about the topic. 
 
-Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to edit an existing topic. If the AI did not discover topics that are important to the organization, they can create new topics in Viva Topics. Users can save a topic as draft if they are not ready to publish it.  
+Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md). If the AI did not discover topics that are important to the organization, they can [create new topics](create-a-topic.md) in Viva Topics. Users can [save a topic as draft](save-topic-as-draft.md) if they are not ready to publish it.  
 
 [!Note]
-While information in a topic that is gathered by AI is security trimmed, the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
+While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
 
 ### Contribution guidance
 
@@ -115,9 +115,9 @@ To make contributions to Viva Topics inclsuiv and helpful, keep the following in
 
 ### Customizing a topic page
 
-To accommodate different scenarios for how an organization may want to use Viva Topics, it’s possible to customize a topic page to include additional types of content – such as text, images, or links - beyond the standard properties of a topic. Web parts can be used on a topic page to bring in these different types of content.  
+To accommodate different scenarios for how an organization may want to use Viva Topics, it’s possible to customize a topic page to include additional types of content – such as text, images, or links - beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
 
-The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The Viva Topics scenario catalogue can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. These are just examples; users can choose what makes the most sense and be creative. 
+The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The [Viva Topics scenario catalogue](DOWNLOAD) can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. These are just examples; users can choose what makes the most sense and be creative. 
 
 ### Product based topic
 
@@ -142,11 +142,11 @@ Enable employees with a common interest in a topic to share knowledge, connect, 
 
 (IMAGE: DIGITAL TRANSFORMATION)
 
-To add web parts to your topic page, select the canvas icon, which you can find below the short topic description. Selecting it will open the SharePoint web part gallery from which you can choose the web parts you want to add to the topic page. 
+[To add web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0#bkmk_addwebpart) to your topic page, select the canvas icon, which you can find below the short topic description. Selecting it will open the SharePoint web part gallery from which you can choose the web parts you want to add to the topic page. 
 
 (IMAGE: SEARCH)
 
-Remember to select Publish or Republish to save your changes. Republish will be the available option if the topic has been published previously. 
+Remember to select **Publish** or **Republish** to save your changes. Republish will be the available option if the topic has been published previously. 
 
 ## Get help from colleagues
 
@@ -160,7 +160,7 @@ Employees who contribute their knowledge:
 
 Help colleagues curate topics effectively by:
 
-- Sharing the specific topic(s) to be edited and how to find other relevant topics to curate  
+- Sharing the specific topic(s) to be edited and [how to find other relevant topics](topic-center-overview.md#home-page) to curate  
 
 - Helping them learn how to edit and create new topics, and how to save a topic as a draft  
 
