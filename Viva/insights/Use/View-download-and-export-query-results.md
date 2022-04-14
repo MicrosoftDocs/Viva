@@ -1,5 +1,5 @@
 ---
-title: View, download, and export query results for Advanced insights
+title: View, download, and export query results with Viva Insights
 description: Describes how to view, download, and export Microsoft Viva Insights query data to Power BI and other data analysis tools
 author: madehmer
 ms.author: helayne

@@ -24,7 +24,7 @@ After you create and run a Person query, you can view its results (in the form o
 * [Customize your data visualization](#customize-your-data-visualization)
 * [Optionally create a plan](#optionally-create-a-plan)
 
-In addition to these capabilities, you can also export results to a data visualization tool, such as [Power BI](../use/view-download-and-export-query-results.md#use-visual-insights-data-in-power-bi-excel-or-other-data-analysis-tool).
+In addition to these capabilities, you can also export results to a data visualization tool, such as [Power BI](../use/view-download-and-export-query-results.md#use-visual-insights-data-in-power-bi-excel-or-other-data-analysis-tool). 
 
 >[!Note]
 >Your query results might indicate groups of employees that could benefit from a targeted [change plan](solutionsv2-intro.md) plan. You can create such a plan by starting with the query results display. For more information, see [Optionally create a plan](#optionally-create-a-plan).
