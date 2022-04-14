@@ -19,9 +19,7 @@ audience: user
 
 # Viva Insights dashboard
 
-[![Viva announcement.](../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
-
-_**Applies to:** Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
+_**Applies to:** Viva Insights elements are available in varying levels to users of different Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
 Thank you for trying Viva Insights. Welcome to your new personalized dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
