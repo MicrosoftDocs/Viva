@@ -20,11 +20,11 @@ description: Learn how the end user can find information and knowledge in Viva T
 
 Microsoft Viva Topics helps people access the right information when they need it so they can be more productive and work smarter. In this document we review:  
 
-- What Viva Topics is and how topics are displayed to users
+- [What Viva Topics is and how topics are displayed to users](topic-experiences-information-endusers.md#what-viva-topics-is-and-how-topics-are-displayed-to-users)
 
-- Different ways to use topics
+- [Different ways to use Viva Topics](topic-experiences-information-endusers.md#different-ways-to-use-viva-topics)
 
-- How to contribute knowledge to Viva Topics
+- [How to contribute knowledge to Viva Topics](topic-experiences-information-endusers.md#how-to-contribute-knowledge-to-viva-topics)
 
 ## What Viva Topics is and how topics are displayed to users
 
