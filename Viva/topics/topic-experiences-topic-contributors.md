@@ -96,7 +96,7 @@ It’s possible to improve the quality of topics in an organization by adding th
 
 Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to edit an existing topic. If the AI did not discover topics that are important to the organization, they can create new topics in Viva Topics. Users can save a topic as draft if they are not ready to publish it.  
 
-<Note> 
+[!Note]
 While information in a topic that is gathered by AI is security trimmed, the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
 
 ### Contribution guidance
