@@ -24,7 +24,7 @@ Microsoft Viva Topics helps people access the right information when they need i
 
 - [Different ways to use Viva Topics](topic-experiences-information-endusers.md#different-ways-to-use-viva-topics)
 
-- [How to contribute knowledge to Viva Topics](topic-experiences-information-endusers.md#how-to-contribute-knowledge-to-viva-topics)
+- [How to contribute knowledge to Viva Topics](topic-experiences-information-endusers.md#contribute-knowledge-and-expertise-to-viva-topics)
 
 ## What Viva Topics is and how topics are displayed to users
 
@@ -103,7 +103,7 @@ People spend a lot of time sharing their knowledge, whether thru email, chat, or
 
 Check out the Viva Topics scenario catalogue for some additoinal ideas on how organizations can use Viva Topics
 
-## Contribute knowledge and expertice to Viva Topics
+## Contribute knowledge and expertise to Viva Topics
 
 There are two main ways people can contribute their knowledge and expertise to Viva Topics:
 
