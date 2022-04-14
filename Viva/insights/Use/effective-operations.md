@@ -1,7 +1,7 @@
 ---
 
-title: Enhance operational effectiveness with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and maximize operational effectiveness in your organization 
+title: Enhance operational effectiveness with Advanced insights
+description: Learn how to use Viva Insights data to analyze and maximize operational effectiveness in your organization 
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -120,4 +120,4 @@ For more best practices and ways to protect the time of yourself and others, see
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions for Advanced insights](metric-definitions.md)

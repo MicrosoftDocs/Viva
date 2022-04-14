@@ -96,7 +96,7 @@ Replaced with actual text and then removed that term: -->
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 
-* **Workplace Analytics name** is the name of this attribute in your organization's advanced insights app data. <!-- VERIFYING THIS NAME WITH PRAMOD. IT MIGHT BE WORKPLACE ANALYTICS ATTRIBUTE -->
+* **Workplace Analytics name** is the name of your organization's advanced insights app. <!-- VERIFYING THIS NAME WITH PRAMOD. IT MIGHT BE WORKPLACE ANALYTICS ATTRIBUTE -->
 
 * **Data type** is the data type of the fields, such as Email or DateTime.
 

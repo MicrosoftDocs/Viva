@@ -1,7 +1,7 @@
 ---
 
-title: Transform meeting culture with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and transform your organization's meeting culture
+title: Transform meeting culture with Viva Insights
+description: Learn how to use Viva Insights data to analyze and transform your organization's meeting culture
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -103,4 +103,4 @@ For more best practices and change strategies, see [Best practices for meetings]
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions for Advanced insights](metric-definitions.md)

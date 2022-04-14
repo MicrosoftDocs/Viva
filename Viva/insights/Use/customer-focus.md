@@ -1,7 +1,7 @@
 ---
 
-title: Increase customer focus with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and increase customer focus
+title: Increase customer focus with Advanced insights
+description: Learn how to use Viva Insights data to analyze and increase customer focus
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Increasing customer focus
+# Increasing customer focus with Viva Insights
 
 Companies that prioritize customer relationships and satisfaction grow revenue faster than competitors. Research shows that companies that prioritize customer relationships and satisfaction grow revenue 2.5 times faster than their competitors.
 
@@ -104,4 +104,4 @@ For more best practices and how to provide managers with go-to contacts list, se
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions for Advanced insights](metric-definitions.md)

@@ -1,5 +1,5 @@
 ---
-title: Develop effective managers with Viva Insights
+title: Develop effective managers with Advanced insights
 description: Learn how to use Microsoft Viva Insights data to analyze and develop effective managers in your organization
 author: madehmer
 ms.author: helayne
@@ -16,7 +16,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Effective managers
+# Effective managers with Viva Insights
 
 Managers have a large impact on employee engagement, development, and performance, and are pivotal for driving organizational change. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
@@ -69,7 +69,7 @@ Long and large meetings are costly and often an inefficient use of attendee time
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Ways to optimize meetings:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
-* Use [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help identify ways to support team behavior.
+* Use [Manager insights within Advanced insights](../manager-insights/introduction.md) to help identify ways to support team behavior.
 
 For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
@@ -111,7 +111,7 @@ When managers empower their employees to make decisions and tackle new challenge
 [How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that "helping your team manage its time well is a critical factor for its success." Ways to increase information sharing:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
-* Use [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to identify ways to support team behavior.
+* Use [Manager insights within Advanced insights](../manager-insights/introduction.md) to identify ways to support team behavior.
 
 For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](../tutorials/gm-meetings.md).
 

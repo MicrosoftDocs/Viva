@@ -69,7 +69,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 8. <a name="step-8"></a>Map the fields as applicable. For details, see [Field column details](#field-column-details).
 
-    1. In **Source column in file**, map the names in the .csv file to the corresponding names in the **Workplace Analytics attributes**.
+    1. In **Source column in file**, map the names in the .csv file to the corresponding names for the Advanced insights attributes.
     2. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
 
       * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
@@ -124,7 +124,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 ### Field column details
 
 * **Source column** corresponds to each of the fields in the uploaded file.
-* **Workplace Analytics name** is the name of your organization's the advanced insights app.
+* Advanced insights app name is the name of your organization's version of the app.
 * **Data type** is the data type of the fields.
 
    >[!Note]

@@ -77,4 +77,4 @@ For more best practices and change strategies, see [Best practices for meetings]
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions for Viva Insights](metric-definitions.md)
