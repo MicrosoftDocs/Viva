@@ -62,7 +62,7 @@ Additionally, users will also be able to find topics through Microsoft Search an
 
 There ar emultiple wasy to find relevant topics in the organization to contribute towards:
 
-1. **Topic Center:** The Topic Center is the center of knowledge for the organization. It highlights the topics to which a user has a connection. There are two types of connections:  
+1. **Topic Center**: The Topic Center is the center of knowledge for the organization. It highlights the topics to which a user has a connection. There are two types of connections:  
 
 **Suggested connections** - You will see topics listed under *We've listed you on these topics. Did we get it right?* These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole   
 
@@ -72,15 +72,15 @@ There ar emultiple wasy to find relevant topics in the organization to contribut
 
 (IMAGE: CONFIRMED CONNECTIONS)
 
-2. **In the flow of work:** As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
+2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
 
 (IMAGE: INFOPEDIA - PROJECT BLUE)
 
-3. **Search:** If there is a specific topic to edit, the user can [search for it using Microsoft Search](search.md). If there is no existing topic in the tenant, a new topic can be created. 
+3. **Search**: If there is a specific topic to edit, the user can [search for it using Microsoft Search](search.md). If there is no existing topic in the tenant, a new topic can be created. 
 
 (IMAGE: SATURN TOPIC PAGE)
 
-4. **Knowledge manager:** People in the organization may have taken on the role of knowledge manager and reached out to colleagues to get help curating specific topics. 
+4. **Knowledge manager**: People in the organization may have taken on the role of knowledge manager and reached out to colleagues to get help curating specific topics. 
 
 Only users who have the Who can create or edit topics permission link can edit or create a topic. If the user is unable to edit or create a topic, they can reach out to the admin to get the required permissions.  
 
