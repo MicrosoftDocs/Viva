@@ -99,7 +99,8 @@ There are several different ways to prioritize which topics to focus efforts on:
 
 Use the Manage Topics page in the Topic center to view and prioritize topics. Knowledge Managers have access to the Manage Topics page where they can review topics.  
 
-<Note> If the Manage Topics page isn’t available to the assigned Knowledge Manager, the Knowledge Admin can get them set up in Viva Topics as a Knowledge Manager.  
+[!Note] 
+If the Manage Topics page isn’t available to the assigned Knowledge Manager, the Knowledge Admin can get them set up in Viva Topics as a Knowledge Manager.  
 
 On the Manage Topics page there is a quality score column and impressions column. The quality score reflects the amount of information that the average user will see for the information on the topic, keeping in mind that each user might see more or less information because of the permissions they might or might not have on the information in a topic. The impressions column displays the number of times a topic has been shown to end users. Sort each column to find the topics with the lowest quality score and highest number of impressions.  
 
@@ -175,7 +176,7 @@ To kick-start topic curation consider running Viva Topics hackathon(s) within a 
 
 There will be topics that the Knowledge Manager has the capability and expertise to curate. This can include topics suggested by the AI or new topics that the AI did not discover. Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to edit an existing topic and create new topics. It’s also possible to save a topic as a draft if it’s not ready to publish. 
 
-<Note> 
+[!Note] 
 While information in a topic that is gathered by AI is security trimmed, the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
 
 
