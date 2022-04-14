@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Power BI Connector base metrics 
-description: Describes the metrics for Workplace Analytics that you can import into Power BI through the Power BI Connector 
+description: Describes the metrics for Viva Insights that you can import into Power BI through the Power BI Connector 
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,9 +17,9 @@ audience: Admin
 
 # Power BI Connector metrics
 
-The following base metrics are imported from Workplace Analytics into Power BI through the Power BI Connector. These base metrics are imported when you only enter a Partition Identifier and not any Query Names or Query Identifiers. For details, see [Connect through the Power BI Connector](View-download-and-export-query-results.md#connect-through-the-power-bi-connector). [Customized](../tutorials/customize-a-metric.md) or calculated metrics that are not available in Workplace Analytics as base metrics, show as **Not applicable** in the Workplace Analytics metric column.
+The following base metrics are imported from Viva Insights into Power BI through the Power BI Connector. These base metrics are imported when you only enter a Partition Identifier and not any Query Names or Query Identifiers. For details, see [Connect through the Power BI Connector](View-download-and-export-query-results.md#connect-through-the-power-bi-connector). [Customized](../tutorials/customize-a-metric.md) or calculated metrics that are not available in Viva Insights as base metrics, show as **Not applicable** in the Viva Insights metric column.
 
-|Power BI Connector metric |Workplace Analytics metric |Definition |Data type |
+|Power BI Connector metric |Viva Insights metric |Definition |Data type |
 |---------|--------------|---------------------|-------|
 |AfterHoursCollaboration |After hours collaboration |Number of hours the person spent in meetings and on email outside of working hours. |Hour |
 |AfterHoursCollaborationCalls |After hours in calls |Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule (as set in Outlook). |Hour |
@@ -44,12 +44,12 @@ The following base metrics are imported from Workplace Analytics into Power BI t
 |DecisionMakingMeetingCount |Not applicable |Number of meetings that the person attended where attendee count less than nine and the duration is less than or equal to one hour. |Count |
 |<a name="direct-manager-define"></a>DirectManagerMeetingHours |Meeting hours with manager |Number of meeting hours where attendees included at least the person and their manager. |Hour |
 |External |Not applicable |Number of hours the person spent in meetings and on email with at least one person outside the company (as defined by the participant’s email domain). |Hour |
-|ExternalCollaborationCost |Calculated by Workplace Analytics |Cost of external collaboration which is calculated as CollaborationHoursExternal multiplied by average Hourly Rate. |USD |
+|ExternalCollaborationCost |Calculated by Viva Insights |Cost of external collaboration which is calculated as CollaborationHoursExternal multiplied by average Hourly Rate. |USD |
 |ExternalNetworkBreadth |Networking outside company |The number of distinct external domains outside the company a person has had at least two meaningful interactions in the last four weeks. |Count |
 |ExternalNetworkSize |External network size |The number of people external to the company with whom the person had at least two meaningful interactions in the last four weeks. |Count |
-|FragmentedTime |Calculated by Workplace Analytics |A person's time after you subtract their meeting hours and their focus hours. |Hour |
-|HourlyRate |Required HR attribute or calculated by Workplace Analytics |The employee’s salary represented as an hourly rate in US dollars. If not available in Workplace Analytics, calculations use $75 USD as the average hourly rate. |String |
-|InferredTeamSize |Calculated by Workplace Analytics |Team size of the person not including themselves. If Individual Contributors equal zero, calculations use the count of both direct and indirect reports for the team size. |String |
+|FragmentedTime |Calculated by Viva Insights |A person's time after you subtract their meeting hours and their focus hours. |Hour |
+|HourlyRate |Required HR attribute or calculated by Viva Insights |The employee’s salary represented as an hourly rate in US dollars. If not available in Viva Insights, calculations use $75 USD as the average hourly rate. |String |
+|InferredTeamSize |Calculated by Viva Insights |Team size of the person not including themselves. If Individual Contributors equal zero, calculations use the count of both direct and indirect reports for the team size. |String |
 |InstantMessagesCountSent |Instant messages sent |Total number of instant messages (IMs) sent by a person through Teams, during and outside of working hours. |Count |
 |InternalNetworkBreadth |Networking outside organization |The number of distinct organizational units within the company that the person had at least two meaningful interactions in the last four weeks. Calculation uses Organization attribute. |Count |
 |InternalNetworkSize |Internal network size |The number of people within the company with whom the person had at least two meaningful interactions in the last four weeks. |Count |
@@ -61,7 +61,7 @@ The following base metrics are imported from Workplace Analytics into Power BI t
 |LongNotLargeMeetingCount |Not applicable |Number of meetings that the person attended with less than nine attendees and a duration of greater than one hour. |Count |
 |LongOrLargeMeetingHours |Not applicable |Number of hours the person spent in meetings with more than nine attendees and a duration of greater than one hour.  |Hour |
 |<a name="low-quality-define"></a>LowQualityMeetingHours |Low-quality meeting hours |Number of meeting hours in which an attendee multitasked, attended a conflicting meeting, or attended a meeting that exhibits redundancy (organizational). |Hour |
-|LowQualityMeetingsCost |Calculated by Workplace Analytics |Cost of low-quality meetings that’s calculated as LowQualityMeetingHours multiplied by Hourly Rate. |USD |
+|LowQualityMeetingsCost |Calculated by Viva Insights |Cost of low-quality meetings that’s calculated as LowQualityMeetingHours multiplied by Hourly Rate. |USD |
 |MailHoursLoadOrganizedAfterHours |Not applicable |Number of email hours the person created for internal recipients by sending emails outside of working hours. |Hour |
 |MailsSentCount |Emails sent |Number of emails the person sent. |Count |
 |ManagerId |Required HR attribute |De-identified ID number for the manager of the person represented in the metric. You can only calculate aggregations, such as counts, of this field. Attempting to return a list of all ManagerIds will result in an error.|String |
@@ -81,8 +81,8 @@ The following base metrics are imported from Workplace Analytics into Power BI t
 |MeetingsHours2To4Hours |Not applicable |Number of hours the person spent in meetings that were two to three hours in length with at least one other person. |Hour |
 |MeetingsHoursLoadOrganizedAfterHours |Not applicable |Number of meeting hours the person created for internal attendees by organizing meetings outside of working hours. |Hour |
 |MeetingsLoadOrganizedAfterHours |Not applicable |Number of internal meetings organized by the person outside of working hours. |Count |
-|MetricDate |Calculated by Workplace Analytics |The week start date for the first day of the week that data is being aggregated for. For example, Sunday. |Date |
-|<a name="date-month-define"></a>MetricDateMonth |Calculated by Workplace Analytics |The metric date for the first day of the month that data is being aggregated for. For example, March 1st. |Date |
+|MetricDate |Calculated by Viva Insights |The week start date for the first day of the week that data is being aggregated for. For example, Sunday. |Date |
+|<a name="date-month-define"></a>MetricDateMonth |Calculated by Viva Insights |The metric date for the first day of the month that data is being aggregated for. For example, March 1st. |Date |
 |<a name="multitasking-define"></a>MultitaskingMeetingHours |Multitasking meeting hours |Number of meeting hours where the person sent two or more emails during a meeting, or two or more emails during a meeting that was less than one hour. |Hour |
 |NonConflictingMeetingHours |Not applicable |Total number of meeting hours minus the number of [ConflictingMeetingHours](#conflicting-define). |Hour |
 |NonDirectManagerMeetingHours |Not applicable |Total number of meeting hours minus the number of [DirectManagerMeetingHours](#direct-manager-define) metric. |Hour |
@@ -112,7 +112,7 @@ The following base metrics are imported from Workplace Analytics into Power BI t
 |<a name="skip-level-define"></a>SkipLevelMeetingHours |Meetings hours with skip level |Number of meeting hours that the person attends where their manager's manager also attends the meeting. |Hour |
 |TimeZone |Required HR attribute  |Time zone in which the employee performs work. |String |
 |TotalFocusHours |Total focus hours |Total number of hours with two or more one-hour blocks of time where the person had no meetings. |Hour |
-|Utilization |Workweek span |The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours each day. If reported for the week, the metric is a sum of the daily values for the week. |Hour |
+|Utilization |Workweek span |The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Viva Insights is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours each day. If reported for the week, the metric is a sum of the daily values for the week. |Hour |
 |WorkingHoursCollaboration |Working hours collaboration hours |Number of hours the person spent in meetings and sending emails during working hours. |Hour |
 |WorkingHoursCollaborationCalls |Working hours in calls |Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. |Hour |
 |WorkingHoursCollaborationEmails |Working hours email hours |Number of hours the person spent sending email during working hours. |Hour |

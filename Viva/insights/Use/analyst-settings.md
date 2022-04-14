@@ -18,10 +18,10 @@ audience: Admin
 
 As an admin for Microsoft Viva Insights, you can use **Analyst settings** to configure the following.
 
-* [System defaults](system-defaults.md) - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Workplace Analytics.
+* [System defaults](system-defaults.md) - Set the system defaults for your organization, including time zone, working days and hours, the average hourly rate, and external domains that require reclassification, which are used for any person whose personal settings are not set up or inaccessible to Viva Insights.
 * [Privacy settings](privacy-settings.md) - Specify what data is excluded from analysis and what data is visible in Query designer and in Explore the stats.
 * [Exclusion rules](../tutorials/exclusions-introduction.md) - Set up default meeting and attendee exclusion rules for data analysis purposes.
 
-**Owner** – Only Viva Insights and Workplace Analytics Admins have full access to Analyst settings. For details about roles, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Only Viva Insights admins have full access to Analyst settings. For details about roles, see [Assign roles](../setup/assign-roles-to-wpa-admins.md).
 
 ![Analyst settings that admins configure](../images/wpa/use/analyst-admin-settings.png)

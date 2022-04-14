@@ -1,7 +1,7 @@
 ---
 
-title: Increase customer focus with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and increase customer focus
+title: Increase customer focus with Viva Insights
+description: Learn how to use Viva Insights data to analyze and increase customer focus
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -104,4 +104,4 @@ For more best practices and how to provide managers with go-to contacts list, se
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions for Advanced insights](metric-definitions.md)

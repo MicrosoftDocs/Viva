@@ -8,16 +8,16 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-ms.author: helayne
+ms.author: v-lilyolason
 author: madehmer
 ms.topic: article
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Viva Insights playbooks
 
-Maximize the power of Microsoft Viva Insights in Workplace Analytics to gain insights into how your organization collaborates and how to improve teamwork across your organization.
+Maximize the power of the advanced insights app with Microsoft Viva Insights to gain insights into how your organization collaborates and how to improve teamwork across your organization.
 
 |&nbsp; |&nbsp; |
 |------|-------|

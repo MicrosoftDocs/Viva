@@ -1,7 +1,7 @@
 ---
 
-title: Enhance organizational resiliency with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and enhance organizational resiliency
+title: Enhance organizational resiliency with Viva Insights
+description: Learn how to use Viva Insights data to analyze and enhance organizational resiliency
 author: madehmer
 ms.author: helayne
 ms.topic: article

@@ -92,7 +92,7 @@ Cultivating autonomy and development are essential for employee engagement. By e
 [How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that the "key to improving individual productivity is to eliminate or delegate unimportant tasks and replace them with value-added ones." Ways to empower employees:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
-* Use [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help identify ways to support team behavior.
+* Use [Manager insights within Advanced insights](../manager-insights/introduction.md) to help identify ways to support team behavior.
 
 For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
