@@ -54,11 +54,11 @@ Topics are displayed to users through:
 
 - [Topics highlighted](topic-experiences-overview.md#sharepoint-highlights) on SharePoint pages
 
-- Topic answers in search results
+- Topic answers in [search results](topic-experiences-overview.md#search-results)
 
-- Search in office applications
+- Search in [office applications](topic-experiences-overview.md#office-application-search)
 
-- Topic Center home page
+- [Topic center](topic-experiences-overview.md#topic-center) home page
 
 ### SharePoint highlights
 
@@ -68,7 +68,7 @@ When a topic is mentioned in content on SharePoint news and pages, the user will
 
 ### Search results
 
-To see a topic answer in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the topic of the results list and show a short set of information related to that topic. 
+To see a [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the topic of the results list and show a short set of information related to that topic. 
 
 (IMAGE: RAINIER SEARCH)
 
@@ -80,7 +80,7 @@ When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel —
 
 ### Topic center
 
-Users can see topics in their organization to which they have a connection to on the Topic Center home page. 
+Users can see topics in their organization to which they have a connection to on the [topic center home page](topic-center-overview.md#home-page). 
 
 (IMAGE: WE'VE LISTED YOU ON THESE TOPICS)
 
@@ -101,18 +101,18 @@ People spend a lot of time sharing their knowledge, whether thru email, chat, or
 
 (IMAGE: HASHTAG IMAGE)
 
-Check out the Viva Topics scenario catalogue for some additoinal ideas on how organizations can use Viva Topics
+Check out the [Viva Topics scenario catalogue]() for some additoinal ideas on how organizations can use Viva Topics
 
 ## Contribute knowledge and expertise to Viva Topics
 
 There are two main ways people can contribute their knowledge and expertise to Viva Topics:
 
-1. **Edit and create topics**: Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to edit an existing topic and create new topics. It’s also possible to save a topic as a draft if it’s not ready to publish.
+1. **Edit and create topics**: Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md) and [create new topics](create-a-topic.md). It’s also possible to [save a topic as a draft](save-topic-as-draft.md) if it’s not ready to publish.
 
 [!Note] 
-Users need topic contributor permissions to be able to edit and create new topics. If people are not able to edit or create topics, reach out to the Knowledge Admin to have the appropriate permissions assigned.  
+Users need topic contributor permissions to be able to edit and create new topics. If people are not able to edit or create topics, reach out to the Knowledge Admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).  
 
-2. **Crowdsource feedback**: When users interact with a suggested topic, they might be asked a simple question in the Viva Topics UI. For example: Was this topic relevant to the page? Is this person relevant for the topic? Was this definition accurate? By using the feedback to such questions, Viva Topics improves the accuracy of topics. 
+2. **Crowdsource feedback**: When users interact with a suggested topic, they might be asked a simple question in the Viva Topics UI. For example: *Was this topic relevant to the page? Is this person relevant for the topic? Was this definition accurate?* By using the feedback to such questions, Viva Topics improves the accuracy of topics. 
 
 (IMAGE: PLANTE BLUE TOPIC CARD)
 
