@@ -118,7 +118,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Group insights
 
-Group insights are only available to qualifying managers who are set up as a manager in Workplace Analytics and meet the minimum-group requirements. For more details, see [Group insights](Group-insights.md).
+Group insights are only available to qualifying managers who are set up as a manager in the advanced insights app and meet the minimum-group requirements. For more details, see [Group insights](Group-insights.md).
 
 ## Plans
 

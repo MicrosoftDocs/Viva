@@ -17,7 +17,7 @@ search.appverid:
 
 1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**:
 
-   <img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries in Workplace Analytics">
+   <img src="../Images/WpA/Tutorials/Queries-page.png" alt="Queries ">
 
 2. Select a query type, such as Person query.
 
@@ -25,7 +25,7 @@ search.appverid:
 
 4. Select a time range of one, three, or six months, or one year:
 
-    <img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a Workplace Analytics query">
+    <img src="../Images/WpA/Tutorials/auto-update-query.png" alt="Setting auto-update for a query">
 
    >[!Note]
    >Auto-update is available only for the predefined time ranges in the Time period drop-down list. If you select **Custom range**, the Auto-update option becomes unavailable.

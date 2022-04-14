@@ -98,4 +98,4 @@ For more best practices and how to identify and utilize influencers, see [Best p
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Advanced insights metric descriptions](metric-definitions.md)
