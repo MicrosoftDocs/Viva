@@ -156,9 +156,9 @@ Groups are defined from this organizational data structure and represented by th
 During validation, Workplace Analytics checks the following about each potential participant:
 
  * <u>Valid address?</u> Is their email address valid? This check helps verify that the person still works for the company. An "invalid" email address means that the email address was formatted incorrectly or that the person is not a measured employee (they have no Workplace Analytics license or their data could not be processed). <!-- RE-ADD THIS AFTER WE PUBLISH THE DOC ON PARTITIONS (FORMERLY SCOPE), or the person is not in the partition that the user is currently working in. -->
- * <u>Have licenses?</u> Do they have a MyAnalytics license and a Workplace Analytics license? To participate in a plan, they must have both.
+ * <u>Have licenses?</u> Do they have a Viva Insights license and a Workplace Analytics license? To participate in a plan, they must have both.
  * <u>In a plan?</u> Are they already enrolled in a plan? A person can be in only one plan at a time.
- * <u>Opted out?</u> Have they opted out of MyAnalytics? If the person has opted out, they cannot participate in plans.
+ * <u>Opted out?</u> Have they opted out of Viva Insights? If the person has opted out, they cannot participate in plans.
 
 After validation, Workplace Analytics reports the results, including the number of qualified participants. The results also show any warnings, which include the numbers of participants who’ve failed any tests.
 

@@ -16,9 +16,6 @@ manager: helayne
 ---
 # Follow up on tasks
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 For **Commitments and follow-ups** in your Briefing, you'll see one or more of the following based on your recent email activity:
 
 * **Commitment** - Something you promised or committed to do for someone else in an email.

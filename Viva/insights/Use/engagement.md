@@ -80,7 +80,7 @@ Long hours and the pressure to always be available can lead to employee burnout.
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
-* Use [MyAnalytics wellbeing data](../personal/Use/wellbeing.md) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
+* Use [personal wellbeing data](../personal/Use/wellbeing.md) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
 * Use [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
@@ -104,7 +104,7 @@ According to the article about [High-performing teams need psychological safety:
 
 Ways to support team cohesion:
 
-* Ask employees to use [MyAnalytics network features](../personal/use/network.md) to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Ask employees to use [personal network insights](../personal/use/network.md) to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 

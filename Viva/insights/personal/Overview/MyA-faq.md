@@ -183,7 +183,7 @@ The dashboard is only available if your organization has a *qualifying plan*. Qu
 
 Your personalized data is only accurately calculated when you have a minimum level of activities with Microsoft 365. Check back on your dashboard in a few days to get a fully personalized experience.
 
-#### Q3. Even though I don't have a MyAnalytics or Viva Insights license, why is the toggle "on" in the dashboard's Feature settings? What will happen if I change it?
+#### Q3. Even though I don't have a Viva Insights license, why is the toggle "on" in the dashboard's Feature settings? What will happen if I change it?
 
 Viva Insights will not be available to you if you don't have a license. However, your data contributes to the email read statistics for other users. For example, when you receive a qualifying email and read it, Viva Insights includes that statistic in the read percentage that's shown to the sender. You can change this and not contribute data by turning the toggle off in the [Feature settings](../overview/privacy-guide-admins.md#opt-in-or-out) on the dashboard.
 
@@ -294,7 +294,7 @@ For details, see [New policies for Windows 10](/windows/client-management/new-po
 
 #### Q1. What browsers can I use with Viva Insights and the Insights Outlook Add-in?
 
-See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the MyAnalytics or Viva Insights dashboard supports.
+See [Browser support in Plans and environments](plans-environments.md#browser-support) for a list of web browsers that the Dashboard or Viva Insights web-based pages support.
 
 As an Outlook Add-in, the Insights Outlook Add-in requires a browser compatible with your system's platform and operating system. For details, see [Browsers used by Office Add-ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins).
 
@@ -321,7 +321,7 @@ The cards that show [email read rates and document open rates](../use/use-the-in
 >[!Note]
 >All Viva Insights features are available to users who have the *MyAnalytics (Full)* or Viva Insights service plan.
 
-#### Q7. Why can't licensed users see one or more of the Viva Insights or MyAnalytics elements?
+#### Q7. Why can't licensed users see one or more personal insights with Viva Insights?
 
 * Check [Access to Viva Insights elements](plans-environments.md#access-to-viva-insights-elements) to see when the elements become available after users are assigned a license with a qualifying service plan.
 * Check if **EWSAllowList** is configured to allow "myanalytics" for users; see [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) for more details:
