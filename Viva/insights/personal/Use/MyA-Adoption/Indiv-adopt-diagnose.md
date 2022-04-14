@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics Individual Adoption --Diagnose 
-description: MyAnalytics Individual Adoption by Kate Nowak --Diagnose issues
+title: Viva Insights Individual Adoption --Diagnose 
+description: Viva Insights Individual Adoption by Kate Nowak --Diagnose issues
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -19,7 +19,7 @@ audience: user
 
 If you are feeling the pain of collaboration overload, but haven’t identified the issue and its cause, start with a diagnosis exercise:
 
-Use a list of questions (qualitative diagnosis) and data from your MyAnalytics dashboard (quantitative diagnosis) to better understand your priorities for managing your collaboration load across a few key categories: focus time, email and meetings, networking, and work-life balance.
+Use a list of questions (qualitative diagnosis) and data from your Viva Insights dashboard (quantitative diagnosis) to better understand your priorities for managing your collaboration load across a few key categories: focus time, email and meetings, networking, and work-life balance.
 
 ## Qualitative diagnosis
 
@@ -67,7 +67,7 @@ After reflecting on those questions, does a single collaboration category stand 
 
 ## Quantitative diagnosis
 
-Look at your MyAnalytics dashboard to use data to validate your collaboration pain point and dig deeper to help uncover root causes. We recommend that you look at the past three weeks to help identify patterns and trends. Here are questions to ask to help you analyze the data:
+Look at your Viva Insights dashboard to use data to validate your collaboration pain point and dig deeper to help uncover root causes. We recommend that you look at the past three weeks to help identify patterns and trends. Here are questions to ask to help you analyze the data:
 
 ### Focus
 
@@ -114,4 +114,4 @@ After you analyze your collaboration issue both qualitatively and quantitatively
 * Reduce my after-hours collaboration to achieve a better work-life balance.
 * Spend more time with the people in my network who are aligned with my top priorities.
 
-After you have your objective, it's time to convert it into a measurable goal using a MyAnalytics metric. See [Set your goal](../MyA-Adoption/Indiv-adopt-set-goals.md).
+After you have your objective, it's time to convert it into a measurable goal using a Viva Insights metric. See [Set your goal](../MyA-Adoption/Indiv-adopt-set-goals.md).

@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics Team Adoption plan
-description: Team Adoption plan for MyAnalytics users
+title: Viva Insights Team Adoption plan
+description: Team Adoption plan for Viva Insights users
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -29,13 +29,13 @@ The ideal program team is comprised of the following members:
 
 ### Executive sponsor
 
-The executive sponsor is an influential senior leader who actively promotes the value of developing healthier collaboration habits. This person is committed to endorsing MyAnalytics and role modeling healthy work habits. The program participants need to be in this person’s organization.  
+The executive sponsor is an influential senior leader who actively promotes the value of developing healthier collaboration habits. This person is committed to endorsing Viva Insights and role modeling healthy work habits. The program participants need to be in this person’s organization.  
 
 The critical responsibilities of the executive sponsor are:
 
 * Participate in defining and communicating the program purpose
 * Remove obstacles in the way of the team’s success
-* Build excitement for MyAnalytics and the change program
+* Build excitement for Viva Insights and the change program
 * Participate in select program activities
 * Serve as a role model for behaviors that you want to promote
 * Encourage managers to participate and support the change
@@ -52,7 +52,7 @@ The critical responsibilities for the program manager are:
 * Lead program communications and regularly reinforce the program purpose
 * Structure the change program and lead activities
 * Lead discussions and idea sharing at check-ins and through collaboration channels
-* Champion the MyAnalytics product and act as an internal product expert
+* Champion the Viva Insights product and act as an internal product expert
 * Collect, manage, and analyze program feedback and data
 * Serve as a role model for behaviors that you want to promote
 
@@ -67,7 +67,7 @@ The critical responsibilities for the change agents are:
 
 * Amplify program communications
 * Build excitement for the program
-* Champion MyAnalytics and act as internal product experts
+* Champion Viva Insights and act as internal product experts
 * Lead select program activities, such as program check-ins
 * Prime discussions and idea sharing through collaboration channels
 * Collect and share program feedback with the program manager
@@ -81,7 +81,7 @@ If you want to select a single subgroup from a larger population, select a team 
 
 The critical responsibilities for the program participants are:
 
-* Learn and actively use MyAnalytics
+* Learn and actively use Viva Insights
 * Attend group meetings – for example, check-ins
 * Participate in group discussions and share ideas
 * Complete all program surveys
@@ -91,7 +91,7 @@ The critical responsibilities for the program participants are:
 * Provide feedback on the program
 * Help hold teammates accountable for change
 
-The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Data sharing](Team-adopt-implement.md#data-sharing)), for the participants who choose to opt in to sharing their MyAnalytics data.
+The program manager can ask program participants to share their personal collaboration data so that it can be aggregated to a team level to track and measure goal attainment. These materials include instructions for sharing and aggregating data (see [Data sharing](Team-adopt-implement.md#data-sharing)), for the participants who choose to opt in to sharing their Viva Insights data.
 
 Program participants should also be allowed to opt-out of the program if they so choose. If someone does want to opt-out, spend time with that person to understand their concerns, and address those concerns if possible. By identifying resistant individuals early in the program, you can manage them (see [Manage resistance](Team-adopt-implement.md#manage-resistance)) so that they don’t jeopardize program success down the road.
 
@@ -106,11 +106,11 @@ The program manager needs to define the following:
 
 ### Program duration and dates
 
-A program duration of 12 weeks typically gives people adequate time to learn how to use MyAnalytics, process new learnings, and experiment with new behaviors. Depending on a team’s needs and where they are in the behavior-change journey, programs might be shorter or longer.
+A program duration of 12 weeks typically gives people adequate time to learn how to use Viva Insights, process new learnings, and experiment with new behaviors. Depending on a team’s needs and where they are in the behavior-change journey, programs might be shorter or longer.
 
 When you select the program’s start and end dates, find a period in which you expect few major disruptions to your team’s calendar. Avoid the holiday season and the summer vacation period since your team is more likely to experience atypical work weeks. Consider your team’s rhythm of business. Avoid running a program during peak workload periods, such as around big or unusual project deadlines.
 
-If MyAnalytics is new for your team, wait at least two weeks after the product launches before starting a change program. This gives MyAnalytics time to process enough data that all of its features might be used, and this gives program participants enough data to establish meaningful baselines for measuring their progress.
+If Viva Insights is new for your team, wait at least two weeks after the product launches before starting a change program. This gives Viva Insights time to process enough data that all of its features might be used, and this gives program participants enough data to establish meaningful baselines for measuring their progress.
 
 ### Program components
 
@@ -141,7 +141,7 @@ The following are examples of program structures and schedules:
 
 ### A supplementary outcome metric (optional)
 
-In addition to the MyAnalytics metrics you will track during the program, you might choose to define a supplementary outcome metric to measure outside of MyAnalytics. This metric could include engagement or productivity measures.
+In addition to the Viva Insights metrics you will track during the program, you might choose to define a supplementary outcome metric to measure outside of Viva Insights. This metric could include engagement or productivity measures.
 
 The purpose of this metric is to help you understand and communicate the effects of the overall program. For example, using customer satisfaction scores as a supplementary metric can help describe the program experience as: “The team reclaimed four hours of focus time each week. By the end of the program, they were receiving higher customer satisfaction scores on average due to lower stress and higher-quality work/product delivered.”
 
@@ -149,7 +149,7 @@ The purpose of this metric is to help you understand and communicate the effects
 
 Establish a control group to measure whether the habit changes that occurred during the program resulted from the program or from other changes in your business. A control group is a group of people similar to your group but who do not participate in the program. If your department has 50 people and you ask only half of the group to actively participate in program activities, you can use the other half of the group as a control group.
 
-To compare changes experienced by the control group to changes experienced by the program team, ask both groups to fill out pre- and post-program surveys. You might also ask them to share MyAnalytics data to be aggregated to the group level, if both groups use MyAnalytics. Comparing the control results with the program metrics can help you gain a clear understanding of the drivers of change, which in turn helps your efforts to sustain new behaviors after the program ends.
+To compare changes experienced by the control group to changes experienced by the program team, ask both groups to fill out pre- and post-program surveys. You might also ask them to share Viva Insights data to be aggregated to the group level, if both groups use Viva Insights. Comparing the control results with the program metrics can help you gain a clear understanding of the drivers of change, which in turn helps your efforts to sustain new behaviors after the program ends.
 
 ## Develop a communications plan
 
@@ -168,7 +168,7 @@ You can use the following example as a template to develop your program-communic
 
 | Program milestone	| Audience | Content | Delivery Mechanism | Communicator | Date |
 | -----	| ----- | ----- | ----- | ----- | ----- |
-| Launch | Program participants | <li>Program introduction<li>MyAnalytics description<li>Program purpose to believe in and expected outcomes<li>High-level overview of program structure<li>Expectations<li>Next steps<li>Program contacts for questions and help | Email | Executive sponsor | Jan. 1 |
+| Launch | Program participants | <li>Program introduction<li>Viva Insights description<li>Program purpose to believe in and expected outcomes<li>High-level overview of program structure<li>Expectations<li>Next steps<li>Program contacts for questions and help | Email | Executive sponsor | Jan. 1 |
 | Milestone 2 |   |   |   |   |   |
 
 ### Program-launch email
@@ -185,7 +185,7 @@ Set your program on the right course with a strong launch email:
 This email can include:
 
 * Program introduction
-* MyAnalytics product overview
+* Viva Insights product overview
 * Program purpose statement (see [Conditions for Program Success](Team-adopt-intro.md#conditions-for-program-success))
 * High-level overview of program structure
   * Start and end dates
@@ -196,12 +196,10 @@ This email can include:
   * Any additional action items
   * Expected first program event, such as the kick-off meeting
 * Preferred method to provide feedback and ask questions throughout the program
-* Links to more information on MyAnalytics and privacy
-  * [MyAnalytics Overview](https://sway.com/K5EOvoLYrGUil5H1?ref=Link)
-  * [Customer Case Study](https://www.youtube.com/watch?v=0Xp0mVE7f-E&feature=youtu.be)
-  * [Privacy Information](../../overview/privacy-guide-users.md)
+* Links to more information on Viva Insights and privacy
+  * [Privacy guide](../../overview/privacy-guide-users.md)
   * [Resources for individual adoption](Indiv-adopt-get-started.md)
-  * Descriptions of [MyAnalytics elements](../mya-elements.md)
+  * Descriptions of [Viva Insights elements](../mya-elements.md)
 
 ## Gain support from other teams
 
@@ -217,7 +215,7 @@ The collaboration channel also serves as a great program-management tool. You ca
 
 ## Create surveys
 
-In addition to the quantitative data that MyAnalytics provides, you can use surveys to collect qualitative data before, during, and after your program. Surveys help diagnose collaboration pain points, identify solutions, and understand the results of your program. Aim to keep your survey as short as possible.
+In addition to the quantitative data that Viva Insights provides, you can use surveys to collect qualitative data before, during, and after your program. Surveys help diagnose collaboration pain points, identify solutions, and understand the results of your program. Aim to keep your survey as short as possible.
 
 For ease of managing the survey, use an application such as Microsoft Forms to distribute the questions and collect results. Consider implementing one or more of the following:
 
@@ -233,7 +231,7 @@ To avoid survey fatigue, bundle the team norms survey with a corresponding [Lear
 
 ### Post-program survey
 
-Use the post-program survey to collect additional information on the results of your program, determine whether your program was successful and what the next steps should be to develop heathier work habits. You can also use the post-program survey to manually collect MyAnalytics data from participants to measure goal attainment. See [Data sharing](Team-adopt-implement.md#data-sharing).
+Use the post-program survey to collect additional information on the results of your program, determine whether your program was successful and what the next steps should be to develop heathier work habits. You can also use the post-program survey to manually collect Viva Insights data from participants to measure goal attainment. See [Data sharing](Team-adopt-implement.md#data-sharing).
 
 ### Goal-setting survey
 
@@ -241,7 +239,7 @@ A survey can be used to help you set your team goals. To learn more about goal s
 
 ## Prepare for launch
 
-To help you make sure you’ve taken all the proper planning steps and are ready to launch your MyAnalytics Team Behavior Change Program, use the following checklist:
+To help you make sure you’ve taken all the proper planning steps and are ready to launch your Team Behavior Change Program, use the following checklist:
 
 ![checkbox 1.](../../../images/mya/use/Team-adopt-plan-checklist-box.PNG) Executive sponsor briefed and on board
 

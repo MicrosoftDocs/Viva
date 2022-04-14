@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Partitions for Viva Insights
-description: Describes how to use and set up partitions in Workplace Analytics for Viva Insights 
+description: Describes how to use and set up partitions for advanced insights 
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -26,7 +26,7 @@ A partition is a data workspace for Microsoft Viva Insights analysis. A partitio
 
 ## Partitions give access to data
 
-A partition defines what data you work with in Workplace Analytics for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](../tutorials/query-designer.md) in Workplace Analytics. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
+A partition defines what data you work with in the advanced insights app for Viva Insights. If you have one of the analyst roles (analyst limited), you work with data in [Explore the stats](../use/explore-intro.md) and [Query designer](../tutorials/query-designer.md) in the advanced insights app. You are also assigned one or more partitions, and your partition determines whose data you work with on those pages.
 
 If you have the program manager role, you have complete access to **Plans** with no limitations.
 
@@ -121,7 +121,7 @@ Viva Insights Administrators create partitions on **Analyst settings**. This tas
 
     ![Select visibility.](../images/wpa/setup/create-partitions-attributes.png)
 
-8. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in Workplace Analytics.
+8. Under **Analysts**, select one or more analysts who will have access to this partition. Only the analysts that you select will be able to perform analyses in the advanced insights app.
 
     ![Select analysts.](../images/wpa/setup/create-partitions-access.png)
 
@@ -185,7 +185,7 @@ Partitions have limits both in number and size:
 >[!Note]
 >
 >* The Global partition does _not_ count toward this total of ten partitions and has no limit of licensed users.
->* If you need more than 10 partitions or more than 10,000 licenses in a partition, you can request these exemptions by contacting [Workplace Analytics Support](../overview/getting-support.md).
+>* If you need more than 10 partitions or more than 10,000 licenses in a partition, you can request these exemptions by contacting [Viva Insights Support](../overview/getting-support.md).
 
 ### Actions that can change partition size
 
@@ -200,7 +200,7 @@ The following scenarios can push the size of a partition beyond the allowed limi
 | You have a partition that contains more than 10,000 users. | You are editing the partition and changing the number of licences. | You can reduce but not increase the number of licenses. |
 
 >[!Note]
->The preceding scenarios assume a limit of 10,000 licensed users. If you are working with a partition that starts with a higher number of licenses (because, for example, you contacted Workplace Analytics Support and requested a higher limit), these restrictions apply to the actual limit of the partition.
+>The preceding scenarios assume a limit of 10,000 licensed users. If you are working with a partition that starts with a higher number of licenses (because, for example, you contacted Viva Insights Support and requested a higher limit), these restrictions apply to the actual limit of the partition.
 
 ## Partitions and organizational data
 

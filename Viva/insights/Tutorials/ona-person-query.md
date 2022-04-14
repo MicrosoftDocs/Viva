@@ -1,7 +1,7 @@
 ---
 
 title: Network person queries 
-description: Describes how to use Network person queries in Workplace Analytics to determine the Influence metric of individuals in your organization
+description: Describes how to use Network person queries in Viva Insights to determine the Influence metric of individuals in your organization
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -20,7 +20,7 @@ search.appverid:
 
 Network person queries help you measure connectivity within an organization. In addition to the two influence metrics ([Influence](../use/metric-definitions.md#influence-define) and [Influence rank](../use/metric-definitions.md#influence-rank-define)), Network person queries also offer the a selection of tie metrics, starting with [Diverse ties](../use/metric-definitions.md#diverse-ties-define) and [Strong ties](../use/metric-definitions.md#strong-ties-define).  
 
-For basic information about these connectivity metrics, see their definitions in [Workplace Analytics Network metrics](../use/metric-definitions.md#network-metrics). For deeper descriptions of the connectivity metrics, see [Network metrics](ona-metrics.md).
+For basic information about these connectivity metrics, see their definitions in [Network metrics](../use/metric-definitions.md#network-metrics). For deeper descriptions of the connectivity metrics, see [Network metrics](ona-metrics.md).
 
 ## Run a query to determine ties and influence
 
@@ -28,7 +28,7 @@ You can use any of connectivity metrics in the Network person query. In the foll
 
 **Role** - Analyst
 
-1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
+1. In the advanced insights app, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Network: Person**.
 3. Select **Enter query name here** and name this query, and then enter a description for it.
 4. For **Group by**, select a time-grouping option: **Monthly** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.

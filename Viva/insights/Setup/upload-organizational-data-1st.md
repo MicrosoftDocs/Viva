@@ -1,7 +1,7 @@
 ---
 
 title: First organizational data upload
-description: Learn how to upload your organizational data through the new Workplace Analytics onboarding experience 
+description: Learn how to upload your organizational data for the first time 
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Upload organizational data (first upload)
 
-Administrators must first upload (import) organizational data before you can analyze insights about your company in Workplace Analytics. Complete the following steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
+Administrators must first upload (import) organizational data before you can analyze insights about your company in the advanced insights app that's available with Microsoft Viva Insights. Complete the following steps after preparing data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
 >Only use the following steps if this is the **first time** you are uploading organizational data. If this is not your first upload, see [Upload organizational data (subsequent uploads)](upload-organizational-data2.md) to update previously uploaded data.
@@ -30,7 +30,7 @@ The task of importing organizational data has three parts:
 2. [Field mapping](#field-mapping)
 3. [Data validation](#data-validation)
 
-After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
+After you prepare the source data, you can upload the .csv file and map fields. After you map fields, the app validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
 ### Video: Upload organizational data
 
@@ -38,7 +38,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 ## File upload
 
-After the initial processing of collaboration data is complete, the next time you open Workplace Analytics, the page automatically updates to let you know it's time to upload your organizational data as a .csv file into Workplace Analytics. Use the following steps to do so.
+After the initial processing of collaboration data is complete, the next time you open the app, the page automatically updates to let you know it's time to upload your organizational data as a .csv file, as follows:
 
 1. In **Upload**, select **Name your upload** and enter a name.
 2. Optionally, select **Add an optional description** and type a description.
@@ -57,7 +57,7 @@ After the initial processing of collaboration data is complete, the next time yo
 
 ## Field Mapping
 
-You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
+You need to map the fields (columns) for the source .csv file to the field names that the app recognizes. You map these fields during the Upload step, as indicated in the progress bar on the **Setup** page:
 
    ![Map data fields option.](../images/wpa/setup/onboarding-1.png)
 
@@ -72,14 +72,14 @@ This page includes tables for System default fields and Custom fields for mappin
 Removed 18 March 2019 per Pramod because it refers to validity threshold.
 Replaced with actual text and then removed that term: -->
 
-System default fields represent attributes that are known by Workplace Analytics and are used in specific calculations beyond grouping and filtering. A system default field can be either required or optional.
+System default fields represent attributes that are known by Viva Insights and are used in specific calculations beyond grouping and filtering. A system default field can be either required or optional.
 
 * **Required fields** are identified in two ways. Their rows have dark shading and show as "Required" under the Source column header. These rows represent data that was found in the uploaded file. For the upload to succeed, you must map the required fields with a column in your .csv file that is the correct data type.
 
    >[!Important]
    >Every required field must have a valid, non-null value in every row. This means that, even if the names of these attributes are not present in the uploaded .csv file, other columns must be present in the .csv file that are mapped to these attributes.
 
-* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that Workplace Analytics suggests for use. You don't need to map these fields if your organization doesn't have data for them.
+* **Optional fields** appear below the required fields in rows that have lighter shading. These rows are commonly encountered system fields that the app suggests for use. You don't need to map these fields if your organization doesn't have data for them.
 
 <!-- Formerly here: 
 [!INCLUDE [Fields tables](../includes/org-data-fields-tables.md)]
@@ -96,7 +96,7 @@ Replaced with actual text and then removed that term: -->
 
 * **Source column** corresponds to each of the fields in the uploaded file.
 
-* **Workplace Analytics name** is the name of this attribute in your organization's Workplace Analytics data. <!-- VERIFYING THIS NAME WITH PRAMOD. IT MIGHT BE WORKPLACE ANALYTICS ATTRIBUTE -->
+* **Workplace Analytics name** is the name of this attribute in your organization's advanced insights app data. <!-- VERIFYING THIS NAME WITH PRAMOD. IT MIGHT BE WORKPLACE ANALYTICS ATTRIBUTE -->
 
 * **Data type** is the data type of the fields, such as Email or DateTime.
 
@@ -119,8 +119,8 @@ After you complete the steps in [File upload](#file-upload), do the following to
 
     ![System fields table.](../images/wpa/setup/field-mapping-1.png)
   
-   1. Determine which of the columns in your .csv file correspond to the second column in the table (Workplace Analytics name).
-   2. In **Source column** (the first column in the table), select the name that corresponds with the applicable Workplace Analytics attribute name.
+   1. Determine which of the columns in your .csv file correspond to the second column in the table.
+   2. In **Source column** (the first column in the table), select the name that corresponds with the applicable attribute name.
    3. Select or enter the applicable values for the other columns, including the **Data type** and **Report options**.
    4. Repeat these steps for all the required system fields.
 
@@ -168,7 +168,7 @@ If validation succeeds, in the **Validation results** section, the page displays
 
 ![Validation succeeded.](../images/wpa/setup/4-orgd-reprocess.png)
 
-After successful validation, Workplace Analytics processes your new data.
+After successful validation, Viva Insights processes your new data.
 
 You can select **Data sources** > **Organizational data** to see the **Upload history** page. You can then select **Successes** to see the workflows that were successfully validated (and uploaded).
 
@@ -191,7 +191,21 @@ Before you address the problem, you can select **Download error log**. This log 
 
 ### Options upon failed validation
 
-[!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation-1st.md)]
+| Nature of errors | Recommended selection | Description |
+| ----- | ----- | ----- |
+| Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to the attributes and then re-attempt validation. You can do this without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file to a particular attribute. |
+| Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
+
+>[!Note]
+>The app does not modify or fill in data that is missing from HR uploads, even for EffectiveDate or TimeZone. The administrator is responsible for correcting such errors or omissions.
+
+### Guidelines for correcting errors in data
+
+This section contains help for correcting data in an uploaded source file that is causing validation errors.
+
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
+
+[!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]
 
 ### Related topics
 

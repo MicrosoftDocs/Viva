@@ -43,7 +43,7 @@ The following is an example of what you'll see in the Protecting personal time r
 
 ![Protecting personal time report.](../Images/WpA/Tutorials/pbi-ppt-report.png)
 
-To populate the dashboard in Power BI, you must set up the **Employee experience** template in Workplace Analytics for Viva Insights. The results will refresh your downloaded Power BI dashboard on a weekly basis.
+To populate the dashboard in Power BI, you must set up the **Employee experience** template in the advanced insights app for Viva Insights. The results will refresh your downloaded Power BI dashboard on a weekly basis.
 <!--
 ## Demonstration
 
@@ -71,7 +71,7 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >You must sign in to Power BI with the same account you use to access Viva Insights.
 
 6. In Power BI Desktop, select **Publish** at the top (ribbon), and then sign in with the same email address you use for Microsoft Viva.
 7. Follow the online instructions to view these reports in your Power BI workspace.

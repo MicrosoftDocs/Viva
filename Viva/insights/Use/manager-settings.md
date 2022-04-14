@@ -34,11 +34,6 @@ The size of the team counts the manager and all the employees who directly or in
 * **Minimum team size** - You can set the minimum size of a team that a manager is allowed to view insights about and start plans for. The minimum size allowed is 10 (including the manager). This section also shows you how many measured managers currently have teams that are equal to or more than the minimum setting.
 * **Insights** - You can select to allow all licensed managers access to aggregated collaboration insights about their teams. Or you can upload a .csv file that lists the email addresses for the managers you want to have access.
 
-<!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS IN JANUARY 2021. 
-  * If you turn **Insights and plans** on, your organizational hierarchy file will also be used to power personal insights for managers in the [Insights add-in](../myanalytics/use/add-in.md), the [MyAnalytics dashboard](../myanalytics/use/dashboard-2.md), and other MyAnalytics surfaces. This file will complement hierarchy information from Azure AD. If a manager in your organization has team members who are listed in both Azure AD and Workplace Analytics, the system will default to using the Workplace Analytics data; otherwise it will use whichever source is available.
-   
-     Personal insights help managers improve their personal impact on and relationships with direct reports, and are powered exclusively by information from the manager's own Outlook mailbox. Learn more about personal insights for people managers in [Assistance for people managers](../myanalytics/overview/privacy-guide.md#assistance-for-people-managers). -->
-
 ## To configure manager settings
 
 Only Viva Insights or Workplace Analytics admins can access **Manager settings**. Also, before managers can access Viva Insights in Teams or in Workplace Analytics, they must be assigned a license and have a team that meets or exceeds the **Minimum team size** setting.

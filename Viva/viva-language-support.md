@@ -41,14 +41,13 @@ Learn more about [language support for Viva Learning](/viva/learning/viva-learni
 
 **Teams app + Personal**
 
-Personal insights in Viva Insights and MyAnalytics are available in most of the [same languages as Microsoft 365](https://support.microsoft.com/en-us/office/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
+Personal insights in Viva Insights are available in most of the [same languages as Microsoft 365](https://support.microsoft.com/office/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
 Briefing emails are not supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
 
 [Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments#language-support).
 
 **Advanced**
-
 
 [Learn more about language support and guidelines for Advanced insights](/viva/insights/overview/supported-languages).
 

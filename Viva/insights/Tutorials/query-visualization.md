@@ -1,6 +1,6 @@
 ---
-title: Visualize person queries
-description: View query results in charts without leaving Workplace Analytics
+title: Visualize person queries with Viva insights
+description: View query results in charts without leaving the advanced insights app with Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -15,9 +15,9 @@ audience: Admin
 ---
 # Visualize person queries
 
-Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don't seem to have enough focus time. To help you in this task, Workplace Analytics offers the [Person query](person-queries.md), which includes a number of standard and custom metrics that can help you perform analyses of this kind.  
+Analysts can be tasked with finding ways to improve teamwork in their organization. For example, you might want to discover teams whose members regularly work longer after hours or who don't seem to have enough focus time. The [Person query](person-queries.md) can help you with this task, which includes a number of standard and custom metrics that can help you perform analyses of this kind.  
 
-After you create and run a Person query, you can view its results (in the form of charts) without leaving Workplace Analytics. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. These steps are described in the following sections.
+After you create and run a Person query, you can view its results (in the form of charts) without leaving the advanced insights app. You can refine your results view by having the charts focus on any of the metrics that you used in the query or on any organizational data attributes that have been uploaded. These steps are described in the following sections.
 
 * [Run a query and view results](#run-a-query-and-view-results)
 * [Save your charts](#save-your-charts)
@@ -33,7 +33,7 @@ In addition to these capabilities, you can also export results to a data visuali
 
 **Role** - Analyst
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
 2. In **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 3. Select **Person query**, and then define and run it. For details, see [Person queries](person-queries.md).
 4. After the results are ready, go to **Query designer** > **Results**.
@@ -77,9 +77,9 @@ In **Interactive Data**, as you [customize visualizations](#customize-your-data-
 
 ## Optionally create a plan  
 
-Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in with **Plans** in Workplace Analytics.
+Queries can serve as a means to identify opportunities for improvement and the groups who would benefit. Query visualization lets you find and save opportunities that you've discovered in the query results. Then, you can act on those opportunities by using them to create a plan in with **Plans** in the advanced insights app.
 
-For more information about plans, see [Workplace Analytics plans](solutionsv2-intro.md).  
+For more information about plans, see [Plans](solutionsv2-intro.md).  
 
 **Role** - Analyst
 
@@ -95,7 +95,7 @@ For more information about plans, see [Workplace Analytics plans](solutionsv2-in
 
 2. After you have a group or groups selected that meet or exceed the minimum group size, select **Submit group**.
 3. In **Set up new plan**, select an appropriate plan type for the group that you designated and select **Start now**.
-4. Select **Validate** to validate the selected group. Workplace Analytics displays warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
+4. Select **Validate** to validate the selected group. You'll see warnings if the email addresses of plan participants are faulty or if participants' licenses are missing. (For more information, see [Validation](solutionsv2-conceptual.md#validation).)
 
    If validation fails, you can return to your query results and select a different group or additional groups, or start over. After any subsequent group selection, you must select **Validate** again. After validation succeeds, go to the next step.
 

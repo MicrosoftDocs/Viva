@@ -57,7 +57,7 @@ Shorter, smaller meetings help promote efficient decision-making.
 
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) suggests: "Always set an agenda out ahead of time—and be clear about the purpose of the meeting." Other ways to reduce meeting size or length:
 
-* When composing a meeting invitation with a duration of one hour, note the [MyAnalytics inline suggestion](../personal/use/mya-notifications.md#shorten-a-meeting) to shorten the meeting by 15 minutes.
+* When composing a meeting invitation with a duration of one hour, note the [inline suggestion](../personal/use/mya-notifications.md#shorten-a-meeting) to shorten the meeting by 15 minutes.
 * When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 
 For more best practices, see [Best practices for meetings](../tutorials/gm-meetings.md).

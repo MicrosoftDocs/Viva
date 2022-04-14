@@ -48,6 +48,6 @@ While this capability is currently unavailable, it is planned for a future relea
 
 Employees might not be eligible for a plan if:
 
-* They do not have Viva Insights or MyAnalytics enabled.
+* They do not have Viva Insights enabled.
 * Are already enrolled in an existing plan.
 * The team does not meet the minimum group size limit.
