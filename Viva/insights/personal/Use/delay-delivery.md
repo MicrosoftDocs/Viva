@@ -1,6 +1,6 @@
 ---
-title: Delay delivery plan in MyAnalytics
-description: Learn how to opt in and use Delay delivery in MyAnalytics for suggestions on when to send email during your coworker's working hours
+title: Delay delivery plan with Viva Insights
+description: Learn how to opt in and use Delay delivery with Viva Insights for suggestions on when to send email during your coworker's working hours
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
@@ -16,7 +16,7 @@ audience: user
 
 # Delay delivery plan
 
-_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) or [Microsoft Viva Insights service plan](../overview/plans-environments.md)._
+_**Applies to**: The Delay delivery plan is available to people who are using Microsoft Viva Insights and are enrolled in an applicable [Viva Insights service plan](../overview/plans-environments.md)._
 
 When you're composing an email in Outlook, Delay delivery will show you suggestions for scheduling email deliveries. You might see suggestions for the following scenarios:
 
@@ -39,7 +39,7 @@ You might not see suggestions in the following scenarios:
 
 With inline suggestions turned on, you can get up to two daily Delay delivery suggestions. To get more than two a day, you need to opt in to the Delay delivery plan.
 
-You can opt in to the Delay delivery plan through MyAnalytics or through the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers. The Delay delivery plan is currently available in the Outlook desktop app for Windows. Be sure you are using Outlook for Windows 2016 version 1808 or later and build 16.0.12016.10000 or later.
+You can opt in to the Delay delivery plan through Viva Insights or through the Insights Outlook add-in to get an unlimited number of inline suggestions for delaying email delivery to your coworkers. The Delay delivery plan is currently available in the Outlook desktop app for Windows. Be sure you are using Outlook for Windows 2016 version 1808 or later and build 16.0.12016.10000 or later.
 
 ## Use Delay delivery
 

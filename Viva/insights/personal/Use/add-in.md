@@ -132,9 +132,9 @@ If you're using Outlook on the Web, you can pin the add-in for easier access.
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon at top right.
 
-    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
+    ![Dashboard settings.](../../Images/mya/use/mya-gear-settings.png)
 
-3. Under MyAnalytics, select **Settings**.
+3. Under **Viva Insights**, select **Settings**.
 4. For **Insights Outlook add-in**, set the control to **Off**.  
 5. Select **Save** to save your changes.
 

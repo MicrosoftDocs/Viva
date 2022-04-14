@@ -68,7 +68,7 @@ All Viva Insights users receive a biweekly [digest emails](../personal/use/email
 
 Inline suggestions in Outlook are brief, data- and AI-driven notifications that appear in Outlook while you are either reading or composing an email or a meeting invitation. Different inline suggestions apply to different situations. For example, if you have outstanding to-do tasks, an inline suggestion might ask whether you want to review them.
 
-Some inline suggestion apply only to participants of an active plan. For example, the Improve wellbeing suggestion applies only to participants in an active Wellbeing plan. The remaining suggestions in the following table are available to all MyAnalytics users in your organization, whether they are participating in an active plan or not.
+Some inline suggestion apply only to participants of an active plan. For example, the Improve wellbeing suggestion applies only to participants in an active Wellbeing plan. The remaining suggestions in the following table are available to all Viva Insights users in your organization, whether they are participating in an active plan or not.
 
 | Inline suggestion | Where it shows up  | What it says | How it helps  |
 | ------ |------ |-------|---------|

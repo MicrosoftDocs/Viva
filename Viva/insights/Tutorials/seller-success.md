@@ -92,9 +92,9 @@ A **prerequisite** is to get a .csv file that lists the employees you want to pa
 
 ### Validation
 
-After you select **Validate**, the app checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Viva Insights license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. (In validation results, you see only the number of users for whom errors were found; no individual users are identified.) 
+After you select **Validate**, the app checks for licenses of potential plan participants. Participants must have an applicable [Microsoft Viva Insights license](../personal/overview/plans-environments.md). If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. Validation results will only show the number of users for whom errors were found; no individual users are identified.
 
-After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/privacy-settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
+After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/privacy-settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan.
 
 <!-- ADD THIS CONTENT AFTER THE TRACK PAGE APPEARS
 Note: After you start the plan, you can end it by selecting the Stop button on the [what page is this? Show how to navigate there and what other actions you can take there] page. -->
@@ -148,7 +148,7 @@ The _Depth of engagement_ card shows the number of distinct people in the accoun
 ![Depth of engagement.](../images/wpa/tutorials/depth-of-engagement-ss.png)
 
 <!-- 
-On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
+On this card, selecting **Explore** opens the **Network** page of the Viva Insights personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 -->
 
 <!-- REMOVE FOR NOW
@@ -158,7 +158,7 @@ Being connected with the right individuals and organizations within the company 
 
 ![Leverage internal networks.](../images/wpa/tutorials/leverage-internal-networks_60.png)
  
-On this card, selecting **Explore** opens the **Network** page of the MyAnalytics personal dashboard, which shows more details about how (with whom) sellers spent their time. 
+On this card, selecting **Explore** opens the **Network** page of the Viva Insights personal dashboard, which shows more details about how (with whom) sellers spent their time. 
 -->
 
 ### Manager interactions

@@ -22,7 +22,7 @@ _This experience is only available through a targeted release at this time._
 >[!Important]
 >As of February 2022, this page is no longer available. To access the same insights, see [Team insights](../../use/team-insights.md).
 
-If you're a people manager, the Leadership page on the [MyAnalytics dashboard](dashboard-2.md) gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement.
+If you're a people manager, the Leadership page on the [Dashboard](dashboard-2.md) gives you insights on your relationships with team members that can help you boost team productivity, wellbeing, and engagement.
 
 ### Who can see this page
 
@@ -30,7 +30,7 @@ You can see this page only if you are using the targeted release and have team m
 
 ### A note on data privacy
 
-All of the information shown on this page is derived from the manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track a given team members' activities. For example: a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened that email. More information is available in the MyAnalytics [Privacy guide for admins](../overview/privacy-guide-admins.md#assistance-for-people-managers).
+All of the information shown on this page is derived from the manager's personal Exchange Online mailbox. Managers do not see any incremental information from team members' mailboxes that would allow them to track a given team members' activities. For example: a manager can use this page to see if they've sent an email to a team member after hours, but they cannot determine whether the team member opened that email. More information is available in the [Privacy guide for admins](../overview/privacy-guide-admins.md#assistance-for-people-managers).
 
 ## Leadership insights
 
@@ -44,7 +44,7 @@ The Leadership page offers the following insights:
 
 As a people manager, it's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their role. One of the simplest coaching tools you have at your disposal is 1:1 time. [Research by Microsoft](https://insights.office.com/productivity/what-great-managers-do-daily/) has shown that people who get consistent 1:1 time with their manager are more engaged and view the manager's leadership more favorably.
 
-MyAnalytics helps you track your 1:1 trends and ensure that you have regular 1:1 time scheduled with each team member:
+Viva Insights helps you track your 1:1 trends and ensure that you have regular 1:1 time scheduled with each team member:
 
 ![Coaching: 1:1 time.](../../Images/mya/use/leadership-one-on-one.png)
 
@@ -58,7 +58,7 @@ If you directly call your team member over Teams or Skype for Business outside o
 
 [Research by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) has shown that when managers work after hours, team members take that as a signal that they need to be 'on' too; in one study, every hour that people managers spent after hours translated to 20 minutes of additional direct report time spent after hours. While some team members may actually prefer to do some of their work outside traditional 9-5 working hours, others may struggle to mentally disconnect and recharge for the next day if they receive a late-night message from their manager.
 
-MyAnalytics helps you understand whether you might be impacting team members outside their typical working hours:
+Viva Insights helps you understand whether you might be impacting team members outside their typical working hours:
 
 ![Wellbeing.](../../Images/mya/use/leadership-quiet-hours.png)
 
@@ -72,7 +72,7 @@ For emails and chats, it is not necessary for the team member to have actually r
 
 Managers are role models when it comes to collaboration habits; team members tend to mimic their manager's behavior. [One study by Microsoft](https://insights.office.com/productivity/multitask-meetings-team-will/) found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings.
 
-MyAnalytics helps you track your habits in meetings with team members:
+Viva Insights helps you track your habits in meetings with team members:
 
 ![Collaboration.](../../Images/mya/use/leadership-team-meetings.png)
 
@@ -99,7 +99,7 @@ If your team list or job function changes, you can select the **Edit team** link
 
 ### To open Configurations
 
-1. Go to 'myanalytics.microsoft.com' to open your personal dashboard.
+1. Open your [personal dashboard](https://myanalytics.microsoft.com/).
 2. In the left navigation pane, select **Config settings**.
 
    ![Configurations.](../../Images/mya/use/leadership-config.png)

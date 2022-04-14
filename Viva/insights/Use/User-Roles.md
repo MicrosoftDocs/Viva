@@ -71,7 +71,7 @@ People who access data with Viva Insights should ideally have previous experienc
 | View personally identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View de-identified, individual-level data: Organizational data (HR fields, such as level or organization) and Microsoft 365 data (metrics about collaboration and relationships) |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)* |
-| Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |
+| Create custom plans to be deployed to groups and can influence the pages that users see in Viva Insights |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |
 
 ### Suggested personas
 

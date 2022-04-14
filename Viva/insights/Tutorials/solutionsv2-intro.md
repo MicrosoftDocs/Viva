@@ -22,7 +22,7 @@ The Viva Insights plans help you transform insights from Viva Insights into targ
 
 1. Use the advanced insights app to identify groups whose workplace effectiveness could be improved. For example, they might be experiencing excessive meeting load, lack of focus time, or lack of work-life balance.
 
-2. Set up 12-week plans for the identified groups. The members of the group experience the plan through the [MyAnalytics dashboard](../personal/use/dashboard-2.md).
+2. Set up 12-week plans for the identified groups. The members of the group experience the plan through the [Dashboard](../personal/use/dashboard-2.md).
 
 3. Measure the progress of the plan while it is underway, and the ROI of the plan after it has finished.
 
@@ -61,7 +61,7 @@ Confirm that your organization meets the following licensing prerequisites:
 * **For plan participants** &ndash; Assign both of the following to members of groups that will take part in change plans:
 
   * A [Viva Insights license](../setup/assign-licenses-to-population.md)
-  * A [MyAnalytics service plan](../personal/overview/plans-environments.md)
+  * A [Viva Insights service plan](../personal/overview/plans-environments.md)
 
 >[!Note]
 >Managers get access to their team's data and plans in Viva Insights as set in [Manager settings](../use/manager-settings.md).

@@ -29,7 +29,7 @@ The following are from [The loyalty economy: Are you undervaluing your customers
 
 ## Best practices
 
-* Use [MyAnalytics Important people list](../personal/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
+* Use your [Important people list](../personal/use/use-the-insights.md#add-important-people) for key external contacts, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
 * Create a shared [Teams channel](/microsoftteams/teams-channels-overview) with key customers for direct, informal chats and prompt responses to urgent requests.
 * Share customer insights broadly within your organization so all employees understand the key customer trends and insights.
 * Encourage employees to maintain diversified internal networks. People with healthy internal networks are often better positioned to quickly respond to customer needs and drive customer satisfaction.

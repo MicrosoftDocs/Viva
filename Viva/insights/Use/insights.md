@@ -51,7 +51,7 @@ Each insight includes **Supporting evidence** that links you to related informat
 
 ## Take action
 
-In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching** > **See your insights**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with MyAnalytics.
+In the **Take action** section for each insight, select **See your insights** to see the most effective actions you can do now to drive change toward better business outcomes in your organization. For example, in **Boost employee engagement** > **Increase frequency of coaching** > **See your insights**, you'll see recommendations, such as scheduling recurring 1:1 meetings and how to enhance manager coaching with Viva Insights.
 
 ![Take action for coaching.](../images/wpa/use/coaching.png)
 

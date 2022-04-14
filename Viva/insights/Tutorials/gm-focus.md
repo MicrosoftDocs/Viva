@@ -29,7 +29,7 @@ Focus hours are uninterrupted stretches of time in your day to get your most imp
 
 ## Best practices
 
-* Use a [MyAnalytics Focus plan](../personal/use/focus-plan.md) to automatically book focus time, and then protect this time by silencing chats and tracking your weekly progress.
+* Use a [personal focus plan](../personal/use/focus-plan.md) to automatically book focus time, and then protect this time by silencing chats and tracking your weekly progress.
 * Create a new team norm to not send chats to team members who have scheduled focus time and use the [Do not disturb status in Microsoft Teams](https://support.microsoft.com/office/change-your-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e).
 * Proactively schedule blocks of time on your calendar to focus, particularly during times when you perform at your peak.
 * Schedule focus time with intention by dedicating the time to specific tasks.
@@ -53,9 +53,9 @@ Select a day, cadence, or time period that your team can block to focus on work,
 
 Reassess the need quarterly for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
 
-#### Try out a MyAnalytics Focus plan
+#### Try out a personal focus plan
 
-Use a [MyAnalytics Focus plan](../personal/use/focus-plan.md) to automatically block focus time on your calendar to ensure that you have enough time to get work done.
+Use a [personal focus plan](../personal/use/focus-plan.md) to automatically block focus time on your calendar to ensure that you have enough time to get work done.
 
 ## Related topic
 

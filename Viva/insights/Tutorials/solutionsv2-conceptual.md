@@ -23,7 +23,7 @@ This section describes concepts whose understanding can help you create and moni
 
 One way to identify a group for an improvement plan is to upload a list of the group’s members in a .csv file. You obtain such a file by creating it in a text editor or in Microsoft Excel or by exporting it from an HR tool or service. This .csv file must contain the email addresses of people in your organization. After you obtain and upload the file, the system uses the email addresses to finalize the list of participants in the plan that you will create. 
 
-Finalizing the participant list means determining whether any proposed participants are ineligible for the plan because they are already enrolled in a plan, their email address is invalid, or they are not using the MyAnalytics dashboard with Viva Insights.  
+Finalizing the participant list means determining whether any proposed participants are ineligible for the plan because they are already enrolled in a plan, their email address is invalid, or they are not using the Dashboard with Viva Insights.  
 
 ### Invalid email addresses
 
@@ -52,7 +52,7 @@ During validation, the advanced insights app checks the following about each pot
  * Is their email address valid? This check helps verify that the person still works for the company. (See [Invalid email addresses](#invalid-email-addresses).)
  * Do they have a Viva Insights license? To participate in a plan, they must have both.
  * Are they already enrolled in a plan? A person can be in only one plan at a time.
- * Have they opted out of Viva Insights or MyAnalytics? If the person has opted out, they cannot participate in plans.
+ * Have they opted out of Viva Insights? If the person has opted out, they cannot participate in plans.
 
 After validation, the app reports the results, including the number of qualified participants. The results also show any warnings, which display the numbers of participants who’ve failed any tests.
 

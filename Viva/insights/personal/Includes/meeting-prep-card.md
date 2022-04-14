@@ -1,5 +1,5 @@
 ---
-title: Meeting preparation card in MyAnalytics
+title: Meeting preparation card in Viva Insights
 description: Describes how the Meeting prep card looks and works 
 author: madehmer
 ms.author: helayne

@@ -1,7 +1,7 @@
 ---
 
-title: Tips for uploading org data
-description: Tips when uploading org data to MyAnalytics. 
+title: Tips for uploading organizational data
+description: Tips when uploading organizational data for personal insights
 author: madehmer
 ms.author: helayne
 ms.topic: article

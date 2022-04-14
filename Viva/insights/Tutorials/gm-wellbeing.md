@@ -29,7 +29,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ## Best practices
 
-* Use [MyAnalytics wellbeing data](../personal/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to recharge and disconnect.
+* Use [personal wellbeing data](../personal/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to recharge and disconnect.
 * Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
@@ -63,7 +63,7 @@ Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#del
 People often feel overloaded because tasks take more time than expected. Focus time is a block of time without meetings to get work done or decompress at the end of the day. Ways to support it:
 
 * Send team communications about the importance of focus time.
-* Use a [MyAnalytics Focus plan](../personal/use/focus-plan.md) to schedule focus time in your calendar, and then decline meetings and ignore email during that time.
+* Use a [personal focus plan](../personal/use/focus-plan.md) to schedule focus time in your calendar, and then decline meetings and ignore email during that time.
 * Share anecdotes around when people have successes by utilizing their focus time.
 
 ## Related topics

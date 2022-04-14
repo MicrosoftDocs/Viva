@@ -1,7 +1,7 @@
 ---
 
 title: Plans and environments for personal insights
-description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights and in MyAnalytics
+description: Supported plans and environment requirements for personal insights in Microsoft Viva Insights
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
@@ -21,7 +21,7 @@ audience: Admin, user
 
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
-You can use these Viva Insights and MyAnalytics features when your organization subscribes to the following Microsoft 365 or Office 365 plans:
+You can use the personal insights features with Viva Insights when your organization subscribes to the following Microsoft 365 or Office 365 plans:
 
 * [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) - Microsoft 365 or Office 365 Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, or Business Premium; or Exchange Online Plan 1 or 2
 
@@ -36,29 +36,34 @@ You can use these Viva Insights and MyAnalytics features when your organization 
 >* To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 >* For more information about the plans that offer these user experiences, see [Microsoft 365 business plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans).
 
-### Features with the Viva Insights service plan
-
-[Delay delivery plan](../use/delay-delivery.md) and [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate) are available with the [Viva Insights service plan](https://www.microsoft.com/microsoft-viva/buy-insights).
-
-### Features with the MyAnalytics (Full) service plan
-
-The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature, [Delay delivery plan](../use/delay-delivery.md), and [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate) are available with the MyAnalytics (Full) service plan.
-
 ## Access to Viva Insights elements
 
-After users get assigned licenses with a Microsoft Viva Insights, MyAnalytics (Full), or Insights by MyAnalytics service plan, they get access to the following within the specified time frames.
+After users get assigned licenses with an applicable service plan, they get access to the following within the specified time frames.
 
 | Element | Approximate time frame |
 | ------- | ------------------|
 | [Welcome email](../use/mya-welcome-email.md) | Sent to existing Microsoft 365 users a few days (up to four weeks) after license assignment; sent to new users approximately four weeks after license assignment |
 | [Insights Outlook add-in](../use/add-in.md) and [Inline suggestions](../use/mya-notifications.md) | Available about one day after license assignment |
-| The [dashboard](../use/dashboard-2.md), [Viva Insights Home page](../use/home-web.md), and [Viva Insights in Teams](../teams/viva-teams-app.md) | Available a few days after license assignment |
+| The [Dashboard](../use/dashboard-2.md), [Viva Insights Home page](../use/home-web.md), and [Viva Insights in Teams](../teams/viva-teams-app.md) | Available a few days after license assignment |
 | [Digest emails](../use/email-digests-3.md) | Sent two to three weeks after the welcome email |
 
 >[!Note]  
 >
->* _Licensed users_ have Viva Insights and MyAnalytics automatically enabled after license assignment.
+>* _Licensed users_ have the personal insights features with Viva Insights automatically enabled after license assignment.
 >* _All users_ in your organization are opted-in, whether or not they have licenses with a Viva Insights service plan. If you want one or more licensed users to be opted _out_ by default, see [Set access for one user](../setup/configure.md#set-access-for-one-user) and [Set access for multiple users](../setup/configure.md#set-access-for-multiple-users).
+
+## Additional features
+
+* With the [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights):
+
+  * [Delay delivery plan](../use/delay-delivery.md)
+  * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
+
+* With the **MyAnalytics (Full) service plan**:
+
+  * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
+  * [Delay delivery plan](../use/delay-delivery.md)
+  * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
 
 ## Environment support
 
@@ -79,7 +84,7 @@ After users get assigned licenses with a Microsoft Viva Insights, MyAnalytics (F
 
 ## Browser support
 
-You can use the following web browsers to view your MyAnalytics dashboard.
+You can use the following web browsers to view all web-based personal insights features.
 
 * Microsoft Edge or Edge Chromium (coming soon)
 * Microsoft Internet Explorer version 10 or 11
@@ -91,7 +96,7 @@ As an Outlook add-in, the Insights Outlook add-in requires a browser compatible 
 
 ## Language support
 
-Personal insights in Viva Insights and MyAnalytics are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
+Personal insights in Viva Insights are available in most of the same languages as Microsoft 365. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
 See [Briefing languages](../briefing/be-languages.md) to see what's supported for Briefing emails and [Advanced insights language support](../../overview/supported-languages.md) for what's supported for advanced insights.
 

@@ -18,7 +18,7 @@ audience: Admin
 
 # Open the Insights Outlook add-in
 
-The Insights Outlook add-in is automatically enabled for all users who have a license with the MyAnalytics service.
+The Insights Outlook add-in is automatically enabled for all users who have a license with an applicable [service plan](../Overview/plans-environments.md).
 
 [!INCLUDE [Open the Outlook add-in](../../Includes/to-open-outlook-add-in.md)]
 
