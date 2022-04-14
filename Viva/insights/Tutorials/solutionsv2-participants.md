@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics plan participants
-description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
+title: Viva Insights plan participants
+description: A brief description of what participants in a Viva Insights plan experience
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -19,14 +19,14 @@ audience: Admin
 
 **Role** - A participant in a plan or a person who is using Viva Insights or MyAnalytics for personal insights
 
-While analysts and program managers can create and manage Workplace Analytics plans as part of Microsoft Viva Insights, the actual work of change is done by people. People who are using Viva Insights or MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
+While analysts and program managers can create and manage Viva Insights plans as part of Microsoft Viva Insights, the actual work of change is done by people. People who are using Viva Insights or MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
 
 All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view what is described in the following sections.
 
 <!-- THIS IS TURNED OFF FOR NOW (MAY 2019)
 ## Welcome email
 
-As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Workplace Analytics. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on.  
+As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Viva Insights. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on.  
 -->
 
 ## Viva Insights

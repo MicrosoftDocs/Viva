@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics plan walkthrough
-description: A walkthrough of the steps required to create a plan in Workplace Analytics
+title: Viva Insights plan walkthrough
+description: A walkthrough of the steps required to create a plan in the advanced insights app
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Plan walkthrough
 
-You can use Plans in Workplace Analytics to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes.
+You can use Plans in the advanced insights app to create improvement plans for employees, with the goal of changing their work habits for the better. You can create a plan, track it while it is in progress, and examine it after it completes.
 
 People in the following roles can work on improvement plans in various ways:
 
@@ -40,7 +40,7 @@ As an Analyst, Limited analyst, or Program manager, follow these steps to create
 
 ## Define the plan
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com). If prompted, sign in with your work account.
 
 2. In **Plans** > **New plan**, you can learn about and select the type of plan you want to create, such as a _Focus plan_, a _Collaboration plan_, a _Wellbeing plan_, or the _Seller success plan_.
 
@@ -49,7 +49,7 @@ As an Analyst, Limited analyst, or Program manager, follow these steps to create
     > [!Note]  
     > On this page, the **Analyze** option is available only to people with the role of analyst or limited analyst.
 
-3. Do you have a group of employees in mind for participation in a plan? If so, select **Start plan** for the plan that you want that group to use, and go to step 5. If you do not already have a group picked out, go to [Find the group through analysis](#find-the-group-through-analysis), which is only available to people with an analyst role in Workplace Analytics.
+3. Do you have a group of employees in mind for participation in a plan? If so, select **Start plan** for the plan that you want that group to use, and go to step 5. If you do not already have a group picked out, go to [Find the group through analysis](#find-the-group-through-analysis), which is only available to people with an analyst role in the advanced insights app.
 
 4. For this example, select **Start plan** for the _Focus plan_. This opens the **Set up new plan** pane for a Focus plan, which shows default values for the plan, such as its name:
 
@@ -146,7 +146,7 @@ If you do not already have a group in mind for a plan, you can analyze the work 
 
 **Role** - Analyst, Limited analyst, or Program manager
 
-After the selected group validates successfully, you'll see insights about the group. They show you how the group’s numbers differ from company averages for the context that you chose. For example, if you chose to create a Focus time plan, Workplace Analytics shows metrics, such as the number of hours in meetings per week, that show why the people in this group could benefit from more focus time. Although these insights are informative, they are not interactive.
+After the selected group validates successfully, you'll see insights about the group. They show you how the group’s numbers differ from company averages for the context that you chose. For example, if you chose to create a Focus time plan, the advanced insights app shows metrics, such as the number of hours in meetings per week, that show why the people in this group could benefit from more focus time. Although these insights are informative, they are not interactive.
 
 1. Select **Plans** > **Manage** to see a list of plans, and then in **Show**, select **Drafts** to view your new plan.
 2. Optionally, select **Edit** next to your new plan to change the **Plan name** to a name more meaningful to you than the suggested value.

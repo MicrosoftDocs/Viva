@@ -1,7 +1,7 @@
 ---
 
-title: Person-to-group queries in Workplace Analytics
-description: Person-to-group queries in Workplace Analytics uncover how an individual invested their time across the rest of the organization and beyond
+title: Person-to-group queries in Query designer
+description: Person-to-group queries uncover how an individual invested their time across the rest of the organization and beyond
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Person-to-group queries
 
-Person-to-group queries in Workplace Analytics help you understand how an individual invests their time across the rest of the organization and beyond. The query results list individuals ("time investors") by their PersonIDs (de-identified), one or more groups that you define in the query ("their collaborators"), and the amount of time that the time investor spends with the groups that you define.
+Person-to-group queries help you understand how an individual invests their time across the rest of the organization and beyond. The query results list individuals ("time investors") by their PersonIDs (de-identified), one or more groups that you define in the query ("their collaborators"), and the amount of time that the time investor spends with the groups that you define.
 
 ![Time investors allocate time to groups.](../Images/WpA/tutorials/p2g-query.png)
 
@@ -30,7 +30,7 @@ An understanding of time allocation helps you create better person-to-group quer
 
 * Time allocation measures how individuals spent their time. For each interaction (a meeting attended or an email sent or received), the total time that a person spent on the interaction is divided among the other groups that participated.
 * A time investor allocates their time among the other participants in the interaction (the collaborators) in proportion to how many people are in the collaborator group for that interaction.
-* A person-to-group query can analyze time allocation only for employees in the population of measured employees, namely those who are licensed for Workplace Analytics. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.
+* A person-to-group query can analyze time allocation only for employees in the population of measured employees, namely those who are licensed for Viva Insights. People who do not have a license for Viva Insights can appear as collaborators, but never as time investors.
 * The time-allocation approach assumes that time investors allocate time only to themselves if no other groups are participating in the meeting or email.
 
 ## Create a person-to-group query
@@ -39,7 +39,7 @@ While setting up a person-to-group query differs from setting up meeting or grou
 
 **To create a person-to-group query**
 
-1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
+1. In **Analyze** > **Query designer**, select **Get started** under **Query**.
 2. Select **Person-to-group**, and then select **Enter query name here** and name the query and enter a description for it.
 3. For **Group by**, select a time-grouping option -- day, week, or month.
 4. Select a date range. The query will analyze only those person-to-group interactions that took place during this date range.

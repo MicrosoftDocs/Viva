@@ -1,7 +1,7 @@
 ---
 
 title: Ways of working assessment dashboard
-description: Use the Ways of working assessment dashboard to visualize predefined query data from Workplace Analytics in Power BI
+description: Use the Ways of working assessment dashboard to visualize predefined query data from Viva Insights in Power BI
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Ways of working assessment
 
-The Ways of working assessment dashboard uses a template that’s populated by Workplace Analytics data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
+The Ways of working assessment dashboard uses a template that’s populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
 
 The different pages in the report help you answer the following related questions:
 
@@ -44,9 +44,9 @@ The different pages in the report help you answer the following related question
 
 Each report includes a **What to examine** and **Why it matters** interpretation that explain how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee experience.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working assessment** and **Standard meeting query** in Workplace Analytics.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working assessment** and **Standard meeting query** in Viva Insights.
 
-After you successfully run these queries, you can download the template from the **Ways of working assessment** query on the **Results** page. After you download the template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you can download the template from the **Ways of working assessment** query on the **Results** page. After you download the template, you can then connect the query data from Viva Insights to the dashboard in Power BI.
 
 >[!Note]
 >The template and dashboard name has been changed from Collaboration assessment to Ways of working assessment.
@@ -63,15 +63,15 @@ To find the template for the Ways of working assessment dashboard, go to the [Qu
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Featured templates**, select **Ways of working assessment** to see the required setup steps, and then in step 2, select **Set up**.
 3. When prompted, confirm the following settings:
 
@@ -88,9 +88,9 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
 
    >[!Important]
-   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in the advanced insights app, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
-6. You must then locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the drop-down menu, contact your Viva Insights admin to confirm whether the field was included in the Organizational HR data file and made available in the query output.
+6. You must then locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up the advanced insights app. If you cannot find the field in the drop-down menu, contact your Viva Insights admin to confirm whether the field was included in the Organizational HR data file and made available in the query output.
 
    >[!Important]
    >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
@@ -128,27 +128,27 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 17. If prompted to select a program, select **Power BI**.
 18. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
-    * In the Workplace Analytics **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    * In **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
     * In Power BI, paste each copied link into its respective field.
-    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
     * In **SupervisorIndicator field**, enter the exact name of the organizational attribute that you selected in **Step 6**, which designates who in the organization is a people manager. If your organization has not uploaded this field in the organization data file, you don’t have to complete this field. However, some visuals and filtering capabilities will be disabled.
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-19. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+19. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 20. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-21. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+21. Select and enter credentials for the organizational account that you use to sign in to Viva Insights, and then select **Save**.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >You must sign in to Power BI with the same account you use to access Viva Insights.
 
 22. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 
-After the Ways of working assessment dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Ways of working assessment dashboard is set up and populated with Viva Insights data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Time period** - This is the time period that you want to analyze.
 * **Exclude specific weeks** – You can select one or more weeks to exclude from analysis, such as those that include company holidays.
@@ -156,7 +156,7 @@ After the Ways of working assessment dashboard is set up and populated with Work
 * **Organizational attribute to filter by** – To filter the measured employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week included in the current time period.
 
 >[!Important]
->The filters selected in **Settings** apply to all but one of the reports. The **Meeting engagement** report is the exception. To focus on a specific organization in that report, you must **customize the metrics** in the [Standard meeting query in Workplace Analytics](meeting-queries.md#add-metrics), as described in **Step 11** of [Set up the dashboard](#set-up-the-dashboard).
+>The filters selected in **Settings** apply to all but one of the reports. The **Meeting engagement** report is the exception. To focus on a specific organization in that report, you must **customize the metrics** in the [Standard meeting query](meeting-queries.md#add-metrics), as described in **Step 11** of [Set up the dashboard](#set-up-the-dashboard).
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
@@ -209,7 +209,7 @@ The dashboard also includes a **Glossary** page that describes all the report me
 
 ### Training opportunity
 
-Learn how to use this template to evaluate collaboration culture and employee experience: [Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard](/en-gb/learn/modules/workplace-analytics-ways-working/)
+Learn how to use this template to evaluate collaboration culture and employee experience: [Analyze collaboration and engagement using the Ways of working assessment dashboard](/en-gb/learn/modules/workplace-analytics-ways-working/)
 
 ## Power BI tips, FAQs, and troubleshooting
 

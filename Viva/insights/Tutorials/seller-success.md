@@ -1,5 +1,5 @@
 ---
-title: Seller success plan in Workplace Analytics 
+title: Seller success plan in Viva Insights 
 description: Describes the seller success plan and how to create one 
 author: madehmer
 ms.author: helayne
@@ -16,7 +16,7 @@ audience: Admin
 
 # Seller success plan
 
-Sales departments are the most profitable for any company, but their effectiveness can be unpredictable because of the variability in how salespeople work. With this in mind, Workplace Analytics offers the seller success plan. Its purpose is to help sales organizations learn more about the behaviors that differentiate their most successful salespeople, and build plans that help salespeople acquire those behaviors.
+Sales departments are the most profitable for any company, but their effectiveness can be unpredictable because of the variability in how salespeople work. With this in mind, Viva Insights offers the seller success plan. Its purpose is to help sales organizations learn more about the behaviors that differentiate their most successful salespeople, and build plans that help salespeople acquire those behaviors.
 
 It's not the purpose of the seller success plan to make sellers more productive simply by giving them more data. Rather, it aims to encourage sellers to reflect on how they use their limited time, and to make decisions that align their use of time with the company’s strategic priorities.
 
@@ -26,7 +26,7 @@ This plan displays insights to help salespeople optimally use their limited time
 
 **Role** - Analyst or Limited analyst
 
-**Prerequisite** - To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data in Workplace Analytics](../setup/crm-data-upload.md).
+**Prerequisite** - To create a seller success plan, you must have CRM data uploaded. For more information, see [CRM data](../setup/crm-data-upload.md).
 
 Complete the following tasks to create and run a seller success plan:
 
@@ -36,7 +36,7 @@ Complete the following tasks to create and run a seller success plan:
 
 ### Create the plan
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 2. Select **Plans**, and then for **Seller success**, select **Start now**.
 
     ![Plans main page.](../images/wpa/tutorials/solutions-main-page-w-highlight.png)
@@ -64,7 +64,7 @@ A **prerequisite** is to get a .csv file that lists the employees you want to pa
 3. Select **Browse**, select a .csv file, and then select **Open**.
 4. After the file has been uploaded, select **Validate**.
 
-    Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
+    The advanced insights app validates each potential participant and reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
 
 5. After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan).
 
@@ -79,7 +79,7 @@ A **prerequisite** is to get a .csv file that lists the employees you want to pa
 
 3. After you select the group(s) of participants, select **Validate**.
   
-    Workplace Analytics validates each potential participant. Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
+    The advanced insights app validates each potential participant and reports whether the group successfully validated, and it also displays any warnings that are generated. For more information, see [Validation](#validation).
 
 4. After the group validates successfully and the number of participants meets or exceeds the minimum group size, you can proceed with the group that you selected. Go to [Start the plan](#start-the-plan).
 
@@ -92,7 +92,7 @@ A **prerequisite** is to get a .csv file that lists the employees you want to pa
 
 ### Validation
 
-After you select **Validate**, Workplace Analytics checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Workplace Analytics license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. (In validation results, you see only the number of users for whom errors were found; no individual users are identified.) 
+After you select **Validate**, the app checks for licenses of potential plan participants. Participants must have both a MyAnalytics license and a Viva Insights license. If the user is missing either license, or has opted out of MyA, an error is generated and displayed for that user. That user is then removed from the list of potential plan participants. (In validation results, you see only the number of users for whom errors were found; no individual users are identified.) 
 
 After the validation checks have run, if the final list of participants has enough people to meet or exceed the [minimum group size](../use/privacy-settings.md#minimum-group-size) set for the organization, you can continue to use this group in creating your plan. 
 
@@ -103,7 +103,7 @@ Note: After you start the plan, you can end it by selecting the Stop button on t
 
 ## Participant experience
 
-**Role** - No particular role is required. The only requirement is that participants have _both_ a Workplace Analytics license and a MyAnalytics license.
+**Role** - No particular role is required. The only requirement is that participants have a Viva Insights license.
 
 After a seller success plan starts, its participants receive a tailored email every month. It starts by summarizing how the salesperson spent their time in internal and external collaboration during the preceding month. The card displays the split between external and internal collaboration for people in similar roles; this information can help sellers compare their collaboration patterns with their peers. These numbers are calculated for all the participants in the plan.
 
@@ -193,7 +193,7 @@ A3. It depends on the particular insight. For example, you can use the _Time wit
 
 **Q4.** This email contains charts that describe my workplace behavior. Where did this data come from?
 
-A4. On a weekly basis, Workplace Analytics receives from Microsoft 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to Workplace Analytics: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). Workplace Analytics then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
+A4. On a weekly basis, the advanced insights app receives from Microsoft 365 a copy of the preceding week's collaboration data about the emails, meetings, calls, and chats that took place. Also, the admins in your organization regularly upload two sets of data to the app: organizational data (descriptive data about employees), and CRM data (for example, customer account information, sales records, and purchasing history). The app then processes these data streams together to uncover the insights that it presents to you in the seller-insights email.
 
 **Q5.** Who else can see this data about me?
 

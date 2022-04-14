@@ -3,7 +3,7 @@
 title: In-depth insights in Power BI
 description: Learn how to use Power BI to deep dive into insights about your organization
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,8 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
-audience: Admin
+manager: helayneaudience: Admin
 
 ---
 
@@ -20,19 +19,17 @@ audience: Admin
 
 **Owner** - Analyst or Analyst limited
 
-As a business decision maker, you can use the Workplace Analytics **Home** page to see your organization's current work conditions and trends. With these insights, you can identify “opportunity groups” (groups that you might want to act on) and do detailed analysis with the drill-down capabilities in Power BI.
+As a business decision maker, you can use Viva Insights to see your organization's current work conditions and trends. With these insights, you can identify “opportunity groups” (groups that you might want to act on) and do detailed analysis with the drill-down capabilities in Power BI.
 
-The Power BI Connector combines Workplace Analytics data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Workplace Analytics. The connector also enforces privacy by preventing those who view the report from seeing data about a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size), which is specified by the Viva Insights admin. This lets you share reports with confidence that individual data is not exposed.
+The Power BI Connector combines Viva Insights data with the visualization capabilities of Power BI. The data you view in Power BI stays up to date because it automatically refreshes with new data from Viva Insights. The connector also enforces privacy by preventing those who view the report from seeing data about a group smaller than the [minimum group size](../use/privacy-settings.md#minimum-group-size), which is specified by the Viva Insights admin. This lets you share reports with confidence that individual data is not exposed.
 
 To set up these visualizations, follow the steps that are described in the following walkthrough. You need not run queries nor select metrics to populate these visualizations. The metrics are predefined and communicated to Power BI through the Power BI Connector. For background information, see [Connect through the Power BI Connector](../use/view-download-and-export-query-results.md#connect-through-the-power-bi-connector).
 
 ## View and publish insights in Power BI
 
-In the following walkthrough, you will perform steps as a business decision maker who has been granted the limited analyst role in Workplace Analytics. Your interest in the employee experience at your company is heightened because you’ve become aware of employee attrition, and you want to find out what could be causing this problem. At the end of this walkthrough, you can view custom Power BI visualizations about this issue and optionally share them with team members.
+In the following walkthrough, you can do the steps as a business decision maker who has been granted the limited analyst role in the advanced insights app. Your interest in the employee experience at your company is heightened because you’ve become aware of employee attrition, and you want to find out what could be causing this problem. At the end of this walkthrough, you can view custom Power BI visualizations about this issue and optionally share them with team members.
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
-
-   ![Home page.](../images/wpa/tutorials/new-home-page.png)
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 
 2. Select the **Boost employee engagement** outcome to see insights about your company.
 
@@ -55,7 +52,7 @@ In the following walkthrough, you will perform steps as a business decision make
   
       ![Copied.](../images/wpa/tutorials/partition-id-copied.png)
 
-6. In Power BI, give the information that’s required to make a connection. In **Connect to Workplace Analytics Data**, paste the partition identifier copied in the previous step:
+6. In Power BI, give the information that’s required to make a connection. When prompted, paste the partition identifier copied in the previous step:
 
    ![Prompt for Partition ID.](../images/wpa/tutorials/partition-id-prompt.png)
 
@@ -119,7 +116,7 @@ After you've identified one or more groups that need help, how can you help them
 
 With the knowledge gained from these visualizations, you can now take action:
 
-* Learn more about current behavior and trends by running [queries](query-basics.md). You can also create a dashboard for yourself by importing data through the Workplace Analytics Query designer (especially [auto-refresh queries](query-auto-refresh.md)) into [Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
+* Learn more about current behavior and trends by running [queries](query-basics.md). You can also create a dashboard for yourself by importing data through the Query designer (especially [auto-refresh queries](query-auto-refresh.md)) into [Power BI](../use/view-download-and-export-query-results.md#get-a-link-for-an-odata-feed-to-use-in-power-bi).
 
 * Help employees help themselves by pointing them to a pertinent [playbook](../personal/use/mya-adoption/adopt-learning-modules.md).
 
