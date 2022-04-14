@@ -3,7 +3,7 @@
 title: Best practices about efficient communication
 description: Get best practice recommendations for managers about communication with their teams
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 

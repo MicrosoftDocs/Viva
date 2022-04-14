@@ -1,8 +1,8 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Open the Insights Outlook add-in
-description: Open Insights Outlook add-in
+title: Open the Viva Insights Outlook add-in
+description: Open the Microsoft Viva Insights Outlook add-in
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -12,13 +12,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helyane
 audience: Admin
 ---
 
-# Open the Insights Outlook add-in
+# Open the Viva Insights Outlook add-in
 
-The Insights Outlook add-in is automatically enabled for all users who have a license with an applicable [service plan](../Overview/plans-environments.md).
+The Viva Insights Outlook add-in is automatically enabled for all users who have a license with an applicable [service plan](../../Overview/plans-environments.md).
 
 [!INCLUDE [Open the Outlook add-in](../../Includes/to-open-outlook-add-in.md)]
 

@@ -1,9 +1,9 @@
 ---
 
-title: Best practices about efficient communication
+title: Best practices for efficient communication
 description: Microsoft Viva Insights shares best practices with managers about communication with their teams
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

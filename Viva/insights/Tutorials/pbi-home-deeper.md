@@ -1,4 +1,3 @@
----
 
 title: In-depth insights in Power BI
 description: Learn how to use Power BI to deep dive into insights about your organization
@@ -11,7 +10,8 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: helayneaudience: Admin
+manager: helayne
+audience: Admin
 
 ---
 
