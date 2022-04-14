@@ -17,8 +17,6 @@ audience: user
 
 # Adopt Viva Insights
 
-[![Viva announcement.](../../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
-
 The following Viva Insights adoption materials can help teams and individuals reduce stress and burnout, increase productivity and creativity, and make work more enjoyable. The following resources guide you through how to recognize problems and address them by building healthy work habits.
 
 * [Individual adoption](Indiv-adopt-get-started.md): This section helps an individual use Viva Insights to the fullest by providing a framework for building healthier habits and sustaining those changes.
