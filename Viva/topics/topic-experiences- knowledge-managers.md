@@ -33,6 +33,7 @@ Knowledge Managers play a key role in building a knowledge base that Viva Topics
 Knowledge managers have a unique opportunity to scale their impact and demonstrate leadership by showing colleagues and leaders how knowledge can be used for better outcomes, and by helping build a quality knowledge base for their team and department.  
 
 A high-quality knowledge base can help a Knowledge Manager and their team:  
+
 - Spend less time searching for or recreating information that already exists 
   People spend about an hour a day – or up to seven weeks a year – searching for or recreating information* 
 
@@ -115,6 +116,7 @@ Prioritization of topics for curation should also factor in demand levels for di
 Once topics are prioritized it’s time to begin the curation process. To prepare curators and maintain quality and consistency across topics, first define standards for what a good topic looks like.  
 
 There are two types of knowledge to include in the knowledge base:  
+
 1. Explicit: Information that can be documented, stored, and shared with others. Viva Topics helps codify explicit knowledge by using AI to discover people and content connected to a topic and then displays them on a topic page. These AI generated topic properties include alternate names and/or acronyms, a short description of the topic, and people who might be knowledgeable about the topic, as well as files, pages, and sites that are related to the topic.  
 
 (IMAGE: AI GENERATED TOPIC PROPERTIES)
@@ -140,21 +142,31 @@ To scale Viva Topics curation in an organization, reach out to colleagues who ha
 (IMAGE: SUGGESTED PEOPLE ON MANAGED TOPICS PAGE)
 
 Once the right people to curate relevant topics are identified, explain how contributing their knowledge will:  
+
 - Broaden their impact by helping colleagues benefit from their contributions 
+
 - Build their brand and get them recognized for the knowledge they have about a topic 
 
 Help colleagues curate topics effectively by:
+
 - Sharing the specific topic(s) they should edit and how to find other relevant topics to curate  
-- Preparing colleagues with the standards the organization define for what a good topic looks like.  
+
+- Preparing colleagues with the standards the organization define for what a good topic looks like
+
 - Helping them learn how to edit and create new topics, and how to save a topic as a draft  
+
 - Encouraging them to ask their colleagues that they think have relevant expertise to also contribute
 
 Users need topic contributor permissions to be able to edit and create new topics. If colleagues are not able to edit or create topics reach out to the admin to have the appropriate permissions assigned.   
 
 Once colleagues have curated topics, recognize their efforts. There are number of ways to provide recognition to topic contributors depending on what Office 365 applications are used within the organization:  
+
 - Praise  colleagues in Viva Insights 
+
 - Praise someone in a Yammer network 
+
 - Send an announcement in Microsoft Teams of the topic contribution made by colleagues 
+
 - Post recognition of top contributors on the Intranet 
 
 To kick-start topic curation consider running Viva Topics hackathon(s) within a team or department. A Viva Topics hackathon is a workshop designed to jumpstart Viva Topics adoption and curation in an organization by creating a fun, collaborative environment for employees to contribute to the shared knowledge base. It doesn’t require coding, all are welcome. To get started, download the free hackathon toolkit that includes invitations, presenter deck and instructions to run the workshop.  
