@@ -20,13 +20,13 @@ description: Learn how to contribute to a topic in Viva Topics
 
 Viva Topics helps organizations make knowledge and expertise accessible to all employees. It’s like Wikipedia for organizations, but artificial intelligence (AI) develops the first draft and subject matter experts edit the information to add their unique knowledge and expertise. Viva Topics then makes the knowledge available to colleagues and leaders at the time of need, and in the flow of their work. In this document we review:  
 
-- Showcasing knowledge and expertise with Viva Topics  
+- [Showcasing knowledge and expertise with Viva Topics](topic-experiences-topic-contributors.md#showcase-knowledge-and-expertise-with-viva-topics)
 
-- Finding relevant topics to contribute towards 
+- [Contributing to relevant topics](topic-experiences-topic-contributors.md#contributing-to-relevant-topics)
 
-- Editing and creating topics in Viva Topics 
+- [Editing and creating topics in Viva Topics](topic-experiences-topic-contributors.md#editing-and-creating-topics-in-viva-topics)
 
-- Getting help from colleagues 
+- [Getting help from colleagues](topic-experiences-topic-contributors.md#get-help-from-colleagues)
 
 ## Showcase knowledge and expertise with Viva Topics
 
@@ -58,7 +58,7 @@ When a user is curious to learn more about a topic, they can select the highligh
 
 Additionally, users will also be able to find topics through Microsoft Search and Microsoft Office. Over time, Topics will be added to more places across Microsoft 365, including Teams, Yammer, and Outlook.  
 
-## Finding relevant topics to contribute towards
+## Contributing to relevant topics
 
 There ar emultiple wasy to find relevant topics in the organization to contribute towards:
 
