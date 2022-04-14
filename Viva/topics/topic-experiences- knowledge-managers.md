@@ -35,7 +35,7 @@ Knowledge managers have a unique opportunity to scale their impact and demonstra
 A high-quality knowledge base can help a Knowledge Manager and their team:  
 
 - Spend less time searching for or recreating information that already exists 
-  People spend about an hour a day – or up to seven weeks a year – searching for or recreating information* 
+  *People spend about an hour a day – or up to seven weeks a year – searching for or recreating information* 
 
 - Work smarter by having access to the right information when it’s needed 
 
@@ -43,7 +43,7 @@ A high-quality knowledge base can help a Knowledge Manager and their team:
 
 - Onboard new team members to the organization or to a project 
 
-To help accelerate the creation of an organization’s knowledge base, Viva Topics applies Artificial Intelligence (AI) to identify knowledge and experts from across the organization and categorize them into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have resources related to them that can provide people with knowledge about the topic and help them find more information and experts related to the topic. There can be many different types of topics that may be important to an organization, including projects, products or services, materials or supplies, customers, suppliers, processes, disciplines, functions, and assets.  
+To help accelerate the creation of an organization’s knowledge base, [Viva Topics applies Artificial Intelligence (AI) to identify knowledge and experts](topic-experiences-discovery-curation.md) from across the organization and categorize them into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have resources related to them that can provide people with knowledge about the topic and help them find more information and experts related to the topic. There can be many different types of topics that may be important to an organization, including projects, products or services, materials or supplies, customers, suppliers, processes, disciplines, functions, and assets.  
 
 The AI not only organizes knowledge into topics, it also automatically creates a suggested topic page for each. To take the knowledge base to the next level, people need to be able to easily add their tacit knowledge, provide unique insights, or generally improve the quality of the topic. Knowledge Managers play a critical role enabling human curation of the knowledge base.  
 
@@ -69,7 +69,7 @@ Each topic will need to be assigned a stage in the topic lifecycle to ensure tha
 
 (IMAGE: TOPIC LIFECYLE)
 
-Knowledge managers can use the Manage Topics page in the Topic Center to review topics that were suggested by the AI. As an initial step, Knowledge Managers need to classify suggested topics as either Confirmed or Removed.  
+Knowledge managers can use the Manage Topics page in the [Topic Center](topic-center-overview.md) to review topics that were suggested by the AI. As an initial step, Knowledge Managers need to classify suggested topics as either Confirmed or Removed.  
 
 To classify the suggested topic into the correct stage, select the ellipses of the topic and choose the appropriate stage. 
 
@@ -77,7 +77,7 @@ To classify the suggested topic into the correct stage, select the ellipses of t
 
 Confirm the topic if it is relevant for the organization. Remove the topic if it is not needed, no longer has any connections, or is not valid.  
 
-To edit the topic, select review and publish to be taken to the topic page, then select the edit button on the top right corner of the topic page. Learn more about how to edit a topic.  
+To edit the topic, select review and publish to be taken to the topic page, then select the edit button on the top right corner of the topic page. Learn more about how to [edit a topic](edit-a-topic.md).  
 
 Topics can also be confirmed or removed based on crowdsourced feedback. When users interact with a suggested topic, they might be asked a simple question in the UI. For example: Was this topic relevant to the page? Topics are automatically confirmed or removed if multiples users vote positively or negatively respectively, using the feedback mechanism on the topic card. There must be a net of two votes received, either positive or negative, for the topic to be confirmed or removed automatically.  For example, if one user voted positive and one user voted negative for a particular topic, two more positive votes would be needed for the topic to be confirmed. 
 
@@ -91,13 +91,13 @@ There are several different ways to prioritize which topics to focus efforts on:
 
 (IMAGE: TOPIC PRIORITIZATION)
 
-- Scenarios: Think about how Viva Topics will be used in the team, department, or business unit, then prioritize topics that are relevant to the scenarios. For example, if a department would get value from organizing knowledge about the products the organization makes, prioritize product related topics for initial curation. There are a variety of scenarios that Viva Topics can be used inside an organization. Check out the Viva Topics scenario catalogue for some ideas and to help determine which related topics to prioritize.  
+- **Scenarios:** Think about how Viva Topics will be used in the team, department, or business unit, then prioritize topics that are relevant to the scenarios. For example, if a department would get value from organizing knowledge about the products the organization makes, prioritize product related topics for initial curation. There are a variety of scenarios that Viva Topics can be used inside an organization. Check out the [Viva Topics scenario catalogue](LINK-TO-CATALOGUE) for some ideas and to help determine which related topics to prioritize.  
 
-- Stakeholders: Who are the key stakeholders to win over on a team or department? Consider the topics that are relevant to these stakeholders based on their business priorities. For example, the VP of Human Resources might have an initiative underway to improve the new hire onboarding process. By prioritizing topics that are important for new hires to be able to onboard successfully, the Knowledge Manager is helping the VP with their project while exposing them to the power of Viva Topics.  
+- **Stakeholders:** Who are the key stakeholders to win over on a team or department? Consider the topics that are relevant to these stakeholders based on their business priorities. For example, the VP of Human Resources might have an initiative underway to improve the new hire onboarding process. By prioritizing topics that are important for new hires to be able to onboard successfully, the Knowledge Manager is helping the VP with their project while exposing them to the power of Viva Topics.  
 
-- Impressions & quality score: Each topic discovered by Viva Topics has its number of impressions counted and is assigned a quality score. These two properties, when considered together, can be a useful way to prioritize topics for curation. Topics with high impressions and a low-quality score would be natural targets for prioritization. These topics are likely interacted with frequently and need human curation to improve their quality.  
+- **Impressions & quality score:** Each topic discovered by Viva Topics has its number of impressions counted and is assigned a quality score. These two properties, when considered together, can be a useful way to prioritize topics for curation. Topics with high impressions and a low-quality score would be natural targets for prioritization. These topics are likely interacted with frequently and need human curation to improve their quality.  
 
-Use the Manage Topics page in the Topic center to view and prioritize topics. Knowledge Managers have access to the Manage Topics page where they can review topics.  
+Use the **Manage Topics** page in the [Topic center](topic-center-overview#home-page.md) to view and prioritize topics. Knowledge Managers have access to the Manage Topics page where they can review topics.  
 
 [!Note] 
 If the Manage Topics page isn’t available to the assigned Knowledge Manager, the Knowledge Admin can get them set up in Viva Topics as a Knowledge Manager.  
@@ -106,7 +106,7 @@ On the Manage Topics page there is a quality score column and impressions column
 
 (IMAGE: TOPIC CENTER)
 
-- Bookmarks and existing knowledge base: Bookmarks are used in Microsoft Search to help people quickly find important sites and tools. They can also help indicate what the organization deems as important and provide consideration for what topics should be prioritized for curation. Each organization may have other, existing knowledge bases that are prime candidates for migrating to Viva Topics. For example, if the organization has invested in knowledge bases or wiki sites, these can provide a list of topics to use for initial curation efforts. If they're particularly large, select the most viewed or edited topics as a starting point. The wiki knowledge will then be more accessible through the applications people use to do their work and suggested elements of the topic will be automatically updated by the AI in Viva Topics.  
+- **Bookmarks and existing knowledge base:** [Bookmarks](manage-bookmarks.md) are used in Microsoft Search to help people quickly find important sites and tools. They can also help indicate what the organization deems as important and provide consideration for what topics should be prioritized for curation. Each organization may have other, existing knowledge bases that are prime candidates for migrating to Viva Topics. For example, if the organization has invested in knowledge bases or wiki sites, these can provide a list of topics to use for initial curation efforts. If they're particularly large, select the most viewed or edited topics as a starting point. The wiki knowledge will then be more accessible through the applications people use to do their work and suggested elements of the topic will be automatically updated by the AI in Viva Topics.  
 
 Prioritization of topics for curation should also factor in demand levels for different types of knowledge in the organization. Make sure the topics being curated are in demand and will be used once published. The sweet spot for finding topics for curation are those that are in high demand and that are currently being addressed in inefficient and non-scalable ways. For example, product experts are often asked random questions from salespeople and often answer the same question repeatedly through hard to scale mediums such as email or chat. In this example, product experts will be highly responsive to Viva Topics to scale their impact, minimize randomization and gain more recognition as an expert in the organization.  
 
@@ -118,21 +118,21 @@ Once topics are prioritized it’s time to begin the curation process. To prepar
 
 There are two types of knowledge to include in the knowledge base:  
 
-1. Explicit: Information that can be documented, stored, and shared with others. Viva Topics helps codify explicit knowledge by using AI to discover people and content connected to a topic and then displays them on a topic page. These AI generated topic properties include alternate names and/or acronyms, a short description of the topic, and people who might be knowledgeable about the topic, as well as files, pages, and sites that are related to the topic.  
+1. **Explicit:** Information that can be documented, stored, and shared with others. Viva Topics helps codify explicit knowledge by using AI to discover people and content connected to a topic and then displays them on a topic page. These AI generated topic properties include alternate names and/or acronyms, a short description of the topic, and people who might be knowledgeable about the topic, as well as files, pages, and sites that are related to the topic.  
 
 (IMAGE: AI GENERATED TOPIC PROPERTIES)
 
 Knowledge Managers should define the minimum requirements for a published topic and communicate these standards to topic contributors. Minimum requirements for topics in the organization could include guidance that all topics contain alternate names, a factual description, and pinned people and resources. Learn more how curators can edit topics to meet minimum requirements for published topics that are established.    
 
-2. Tacit: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to adhoc questions. Yammer, an enterprise social network in Office 365, provides a platform for capturing and sharing the tacit knowledge of experts through its question and best answer feature, conversations, and polling capability to seek opinions on relevant topics.  
+2. **Tacit:** Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to adhoc questions. [Yammer](https://support.microsoft.com/en-us/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Office 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/en-us/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/en-us/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
 
 (IMAGE: YAMMER CONVO)
 
-Use the Yammer conversations web part to bring tacit knowledge into relevant topic pages.
+Use the [Yammer conversations web part](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
 
 (IMAGE: RAINER CONVO)
 
-Specific scenarios of Viva Topics may require unique properties appended to a topics page. For example, product-based topic pages may include brand assets, SKU#, roadmap information, product news, frequently asked questions (FAQ) and product specifications. Web parts can be used on a topic page to bring in different types of content. 
+Specific scenarios of Viva Topics may require unique properties appended to a topics page. For example, product-based topic pages may include brand assets, SKU#, roadmap information, product news, frequently asked questions (FAQ) and product specifications. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in different types of content. 
 
 (IMAGE: CONTOSO MARK 8 - EXAMPLE OF PRODUCT-BASED TOPIC PAGE)
 
@@ -150,34 +150,34 @@ Once the right people to curate relevant topics are identified, explain how cont
 
 Help colleagues curate topics effectively by:
 
-- Sharing the specific topic(s) they should edit and how to find other relevant topics to curate  
+- Sharing the specific topic(s) they should edit and [how to find other relevant topics](topic-center-overview#home-page.md) to curate  
 
 - Preparing colleagues with the standards the organization define for what a good topic looks like
 
-- Helping them learn how to edit and create new topics, and how to save a topic as a draft  
+- Helping them learn how to [edit](edit-a-topic.dm) and [create](create-a-topic.md) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
 
 - Encouraging them to ask their colleagues that they think have relevant expertise to also contribute
 
-Users need topic contributor permissions to be able to edit and create new topics. If colleagues are not able to edit or create topics reach out to the admin to have the appropriate permissions assigned.   
+Users need topic contributor permissions to be able to edit and create new topics. If colleagues are not able to edit or create topics reach out to the admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).   
 
 Once colleagues have curated topics, recognize their efforts. There are number of ways to provide recognition to topic contributors depending on what Office 365 applications are used within the organization:  
 
-- Praise  colleagues in Viva Insights 
+- [Praise](viva-insights-praise.md) colleagues in [Viva Insights](viva-teams-app.md) 
 
-- Praise someone in a Yammer network 
+- [Praise](https://support.microsoft.com/en-us/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) someone in a Yammer network 
 
-- Send an announcement in Microsoft Teams of the topic contribution made by colleagues 
+- [Send an announcement](https://support.microsoft.com/en-us/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992) in Microsoft Teams of the topic contribution made by colleagues 
 
 - Post recognition of top contributors on the Intranet 
 
-To kick-start topic curation consider running Viva Topics hackathon(s) within a team or department. A Viva Topics hackathon is a workshop designed to jumpstart Viva Topics adoption and curation in an organization by creating a fun, collaborative environment for employees to contribute to the shared knowledge base. It doesn’t require coding, all are welcome. To get started, download the free hackathon toolkit that includes invitations, presenter deck and instructions to run the workshop.  
+To kick-start topic curation consider running Viva Topics hackathon(s) within a team or department. A Viva Topics hackathon is a workshop designed to jumpstart Viva Topics adoption and curation in an organization by creating a fun, collaborative environment for employees to contribute to the shared knowledge base. It doesn’t require coding, all are welcome. To get started, download the free [hackathon toolkit](DOWNLOAD) that includes invitations, presenter deck and instructions to run the workshop.  
 
 ## Edit and create topics
 
-There will be topics that the Knowledge Manager has the capability and expertise to curate. This can include topics suggested by the AI or new topics that the AI did not discover. Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to edit an existing topic and create new topics. It’s also possible to save a topic as a draft if it’s not ready to publish. 
+There will be topics that the Knowledge Manager has the capability and expertise to curate. This can include topics suggested by the AI or new topics that the AI did not discover. Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md) and [create new topics](create-a-topic.md). It’s also possible to [save a topic as a draft](save-topic-as-draft.md) if it’s not ready to publish. 
 
 [!Note] 
-While information in a topic that is gathered by AI is security trimmed, the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
+While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
 
 
 
