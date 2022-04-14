@@ -12,26 +12,32 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 localization_priority: Normal
-description: Learn how the end user can find enformation and knowledge in Viva Topics.
+description: Learn how the end user can find information and knowledge in Viva Topics.
 
 ---
 
 # Find information and put knowledge to work with Viva Topics
 
 Microsoft Viva Topics helps people access the right information when they need it so they can be more productive and work smarter. In this document we review:  
+
 - What Viva Topics is and how topics are displayed to users
+
 - Different ways to use topics
+
 - How to contribute knowledge to Viva Topics
 
 ## What Viva Topics is and how topics are displayed to users
 
 Viva Topics is an AI-powered solution that empowers people with knowledge and expertise in the apps they use every day. More accessible knowledge and expertise can help people: 
+
 - Spend less time searching for or recreating information that already exists 
 
  People spend about an hour a day—or up to seven weeks a year—searching for or recreating information.* 
 
 - Work smarter by having access to the right information when it’s needed 
+
 - Make better and faster decisions by easily accessing the organization’s knowledge and expertise  
+
 - Onboard new team members to the organization or to a project 
 
 Viva Topics uses AI to help arrange an organization’s knowledge base into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have properties and resources that can provide knowledge about the topic and help people find more information and experts related to the topic.  
@@ -45,9 +51,13 @@ There can be many different types of topics that may be important to an organiza
 ### How topics are displayed to users
 
 Topics are displayed to users through:
+
 - Topics highlighted on SharePoint pages
+
 - Topic answers in search results
+
 - Search in office applications
+
 - Topic Center home page
 
 ### SharePoint highlights
