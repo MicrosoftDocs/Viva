@@ -52,7 +52,7 @@ There can be many different types of topics that may be important to an organiza
 
 Topics are displayed to users through:
 
-- Topics highlighted on SharePoint pages
+- [Topics highlighted](topic-experiences-overview.md#sharepoint-highlights) on SharePoint pages
 
 - Topic answers in search results
 
