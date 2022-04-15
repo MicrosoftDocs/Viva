@@ -19,21 +19,54 @@ audience: Admin, user
 
 # Personal insights plans and environments
 
-Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
+Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
-You can use the personal insights features with Viva Insights when your organization subscribes to the following Microsoft 365 or Office 365 plans:
+## Prerequisite
 
-* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) - Microsoft 365 or Office 365 Microsoft 365 or Office 365 E1/A1/G1/E3/A3/G3/E5/A5/G5, Microsoft 365 Business Basic, Business Standard, or Business Premium; or Exchange Online Plan 1 or 2
+[Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required.
 
-* **MyAnalytics (Full) and Insights by MyAnalytics** - Microsoft 365 E5 with or without Audio Conferencing, Office 365 Enterprise or Nonprofit E5, or Microsoft 365 or Office 365 G5
+## Microsoft 365 plans
 
-* **MyAnalytics (Full)** - Microsoft 365 A5 for faculty and students or Office 365 A5 for faculty and students
+The following Personal insights service plans are generally available for free with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
 
-* **Insights by MyAnalytics** - Microsoft 365 E3, Microsoft 365 Business, Microsoft 365 A3 for faculty and students, Office 365 E3, Office 365 E1, Office 365 A3 for faculty and students, Office 365 E3 Developer, Office 365 G3, Business Premium, or Business Essentials
+* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) is included with:
 
+  * Microsoft 365 E3, A3, E5, A5, Business Basic, Business Standard, or Business Premium
+  * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
+  * Exchange Online Plan 1 or 2
+
+* **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are included with:
+
+  * Microsoft 365 E5 (with or without Audio Conferencing) or G5
+  * Office 365 Enterprise, G5, or Nonprofit E5
+
+* **MyAnalytics (Full)** service plan is included with:
+
+  * Microsoft 365 A5 for faculty and students
+  * Office 365 A5 for faculty and students
+
+* **Insights by MyAnalytics** service plan is included with:
+
+  * Microsoft 365 E3, Business, or A3 for faculty and students
+  * Office 365 E1, E3, A3 for faculty and students, E3 Developer, G3, Business Premium, or Business Essentials
+
+### Supported Microsoft 365 environments
+
+* Worldwide Multi-tenant
+* Dedicated Multi-tenant
+* Government Community Cloud (GCC)
+
+### Not supported Microsoft 365 environments
+
+* GCC-High
+* DoD
+* Microsoft 365 Germany
+* Microsoft 365 Operated by 21Vianet
+
+<!-- *NOT* REMOVED 21 APRIL 2021! but there are changes to the Germany situation: * Microsoft 365 Germany  -->
 >[!Note]
 >
->* To find out how to determine your own plan and service plan, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
+>* To determine what your plan and service plan are, see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is).
 >* For more information about the plans that offer these user experiences, see [Microsoft 365 business plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans).
 
 ## Access to Viva Insights elements
@@ -65,23 +98,6 @@ After users get assigned licenses with an applicable service plan, they get acce
   * [Delay delivery plan](../use/delay-delivery.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
 
-## Environment support
-
-### Microsoft 365 environments that are supported
-
-* Worldwide Multi-tenant
-* Dedicated Multi-tenant
-* Government Community Cloud (GCC)
-
-### Microsoft 365 environments that are not supported
-
-* GCC-High
-* DoD
-* Microsoft 365 Germany
-* Microsoft 365 Operated by 21Vianet
-
-<!-- *NOT* REMOVED 21 APRIL 2021! but there are changes to the Germany situation: * Microsoft 365 Germany  -->
-
 ## Browser support
 
 You can use the following web browsers to view all web-based personal insights features.
@@ -100,12 +116,11 @@ Personal insights in Viva Insights are available in most of the same languages a
 
 See [Briefing languages](../briefing/be-languages.md) to see what's supported for Briefing emails and [Advanced insights language support](../../overview/supported-languages.md) for what's supported for advanced insights.
 
-## Prerequisites and exclusions
+## Exclusion
 
-* [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required for the MyAnalytics (Full) and Insights by MyAnalytics Outlook service plans.
-* **Licensing exclusion** - Shared mailboxes cannot use and are not supported by MyAnalytics service plans.
+**Licensing exclusion**: Shared mailboxes are not supported.
 
 ## Outlook support and prerequisites
 
-* [Why I don't see the add-in](../use/add-in.md#why-i-do-not-see-the-add-in)
-* [Why I don't see inline suggestions](../use/mya-notifications.md#why-i-do-not-see-inline-suggestions)
+* See [Why I don't see the add-in](../use/add-in.md#why-i-do-not-see-the-add-in) for what's required.
+* See [Why I don't see inline suggestions](../use/mya-notifications.md#why-i-do-not-see-inline-suggestions) for what's required.
