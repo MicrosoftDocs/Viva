@@ -97,7 +97,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 7. You can then select any additional attributes (columns) that you want to include in the reports.
 8. Select **Run** to run the query, which can take a few minutes to complete.
-9. When prompted, select to return to the Query designer and run the **Standard meeting query** to get the meeting metrics for the dashboard.
+9. When prompted, select to return to the Query designer and run the **Ways of working meeting query** to get the meeting metrics for the dashboard.
 10. Select or confirm the following query settings:
 
     * **Name** - Customize or keep the default name
