@@ -83,7 +83,7 @@ When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel —
 
 Users can see topics in their organization to which they have a connection to on the [topic center home page](topic-center-overview.md#home-page). 
 
-(IMAGE: WE'VE LISTED YOU ON THESE TOPICS)
+![Image showing a topic suggestions with an organization.](../media/knowledge-management/suggested-topic-enduser.png) 
 
 ## Different ways to use Viva Topics
 
@@ -100,7 +100,7 @@ Recreating work or a deliverable, when someone else in the organization has alre
 
 People spend a lot of time sharing their knowledge, whether thru email, chat, or other inefficient channels. Sharing the knowledge organized and maintained in Viva Topics is easy. A page author can directly reference a topic on a modern SharePoint site page by using the hashtag symbol. Page authors can invoke the topic picker on a modern SharePoint page by adding a hashtag and then selecting the topic they’d like to include on the page.  
 
-(IMAGE: HASHTAG IMAGE)
+![Image showing referencing a topic by using a hashtag.](../media/knowledge-management/topics-hashtag-reference-enduser.png) 
 
 Check out the [Viva Topics scenario catalogue]() for some additoinal ideas on how organizations can use Viva Topics
 
@@ -115,5 +115,6 @@ Users need topic contributor permissions to be able to edit and create new topic
 
 2. **Crowdsource feedback**: When users interact with a suggested topic, they might be asked a simple question in the Viva Topics UI. For example: *Was this topic relevant to the page? Is this person relevant for the topic? Was this definition accurate?* By using the feedback to such questions, Viva Topics improves the accuracy of topics. 
 
-(IMAGE: PLANTE BLUE TOPIC CARD)
+![Image showing topic card with feedback question.](../media/knowledge-management/topics-hashtag-reference-enduser.png) 
+
 
