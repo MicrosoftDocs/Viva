@@ -31,8 +31,8 @@ The following Personal insights service plans are generally available for free w
 
 * [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) is included with:
 
-  * Microsoft 365 E3/A3/E5/A5/Business Basic/Business Standard/Business Premium
-  * Office 365 E1/E3/A3/E5/A5/G3/G5, GCC
+  * Microsoft 365 E3, A3, E5, A5, Business Basic, Business Standard, or Business Premium
+  * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
   * Exchange Online Plan 1 or 2
 
 * **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are included with:
