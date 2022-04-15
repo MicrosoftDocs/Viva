@@ -136,14 +136,13 @@ Use the [Yammer conversations web part](https://support.microsoft.com/en-us/offi
 
 Specific scenarios of Viva Topics may require unique properties appended to a topics page. For example, product-based topic pages may include brand assets, SKU#, roadmap information, product news, frequently asked questions (FAQ) and product specifications. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in different types of content. 
 
-![Image showing .](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
-(IMAGE: CONTOSO MARK 8 - EXAMPLE OF PRODUCT-BASED TOPIC PAGE)
+![Image showing an example of a product based topic page.](../media/knowledge-management/topic-page-unique-km.png)
 
 ## Get help from colleagues
 
 To scale Viva Topics curation in an organization, reach out to colleagues who have expertise or capability in a knowledge area to help curate relevant topics. This can include teammates that have specific expertise on a topic or set of topics, experts that have been nominated to help or colleagues that have been suggested in Viva Topics as someone who is related to a topic based on the content they have authored or edited frequently.  
 
-(IMAGE: SUGGESTED PEOPLE ON MANAGED TOPICS PAGE)
+![Image showing suggested people column in the topic center.](../media/knowledge-management/topic-center-suggested-people-km.png)
 
 Once the right people to curate relevant topics are identified, explain how contributing their knowledge will:  
 
