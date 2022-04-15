@@ -21,10 +21,6 @@ audience: Admin, user
 
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams](../teams/viva-teams-app.md), the [Viva Insights Home page](../use/home-web.md), the [Dashboard](../use/dashboard-2.md), [Briefing emails](../Briefing/be-overview.md), [Viva digest emails](../use/email-digests-3.md), [Viva Insights Outlook add-in](../use/add-in.md), and [inline suggestions](../use/mya-notifications.md).
 
-## Prerequisite
-
-[Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required.
-
 ## Microsoft 365 plans
 
 The following Personal insights service plans are generally available for free with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
@@ -87,12 +83,12 @@ After users get assigned licenses with an applicable service plan, they get acce
 
 ## Additional features
 
-* With the [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights):
+* The following additional features are included with the [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights):
 
   * [Delay delivery plan](../use/delay-delivery.md)
   * [Track email open rate inline suggestions](../use/mya-notifications.md#track-email-open-rate)
 
-* With the **MyAnalytics (Full) service plan**:
+* The following additional features are included with the **MyAnalytics (Full) service plan**:
 
   * The [Shorten a meeting](../use/mya-notifications.md#shorten-a-meeting) feature
   * [Delay delivery plan](../use/delay-delivery.md)
@@ -116,9 +112,11 @@ Personal insights in Viva Insights are available in most of the same languages a
 
 See [Briefing languages](../briefing/be-languages.md) to see what's supported for Briefing emails and [Advanced insights language support](../../overview/supported-languages.md) for what's supported for advanced insights.
 
-## Exclusion
+## Prerequisite and exclusion
 
-**Licensing exclusion**: Shared mailboxes are not supported.
+* **Prerequisite**: [Microsoft Exchange Online](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description) is required.
+
+* **Licensing exclusion**: Shared mailboxes are not supported.
 
 ## Outlook support and prerequisites
 
