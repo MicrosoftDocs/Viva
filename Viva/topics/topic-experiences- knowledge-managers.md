@@ -61,18 +61,19 @@ The knowledge manager’s role is to help curate and improve the quality of an o
 
 To help a Knowledge Manager starteed, use the workflow below to effectively assign, prioritize, edit, and create topics.
 
-![Diagram showing knowledge manager workflow.](../media/knowledge-management/viva-topics-ai-workflow-km.png) 
+![Diagram showing knowledge manager workflow.](../media/knowledge-management/ai-suggested-topics-workflow-km.png) 
 
 ### Assign stage
 
 Each topic will need to be assigned a stage in the topic lifecycle to ensure that the topic and knowledge stays accurate and relevant over time.  
 
-(IMAGE: TOPIC LIFECYLE)
+![Diagram showing knowledge manager lifecycle stages.](../media/knowledge-management/topics-lifecycle-stages-km.png) 
 
 Knowledge managers can use the Manage Topics page in the [Topic Center](topic-center-overview.md) to review topics that were suggested by the AI. As an initial step, knowledge managers need to classify suggested topics as either Confirmed or Removed.  
 
 To classify the suggested topic into the correct stage, select the ellipses of the topic and choose the appropriate stage. 
 
+![Image showing where to find ellipses in suggested topics.](../media/knowledge-management/topics-ellipses-selection.png)
 (IMAGE: ELLIPSES DEMO)
 
 Confirm the topic if it is relevant for the organization. Remove the topic if it is not needed, no longer has any connections, or is not valid.  
