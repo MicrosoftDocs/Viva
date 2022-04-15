@@ -201,14 +201,6 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
 4. In **Subscriptions**, the available service plans are listed under **Licenses**.
 
-   _For example, the following shows "Insights by MyAnalytics" for "Office 365 E1":_
-
-   ![service plan: Insights by MyAnalytics.](../../images/mya/overview/licenses-plans-service-plans.png)
-
-   _And the following shows "Microsoft MyAnalytics (Full)" for "Microsoft 365 E5":_
-
-   ![service plan: Microsoft MyAnalytics (Full).](../../images/mya/overview/e5-plans-service-plans-446.png)
-
 #### Q5. What languages are supported?
 
 Personal insights are available in most of the same languages as the Microsoft 365 apps you're viewing them through. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec). Also, see [Language support](../overview/plans-environments.md#language-support) for more details about what's supported by Viva Insights.
