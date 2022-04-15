@@ -68,7 +68,7 @@ When a topic is mentioned in content on SharePoint news and pages, the user will
 
 ### Search results
 
-To see a [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the topic of the results list and show a short set of information related to that topic. 
+To see a  [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the topic of the results list and show a short set of information related to that topic. 
 
 ![Image showing a topic answer after search.](../media/knowledge-management/topic-answer-enduser.png) 
 
@@ -81,7 +81,7 @@ When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel —
 
 ### Topic center
 
-Users can see topics in their organization to which they have a connection to on the [topic center home page](topic-center-overview.md#home-page). 
+Users can see topics in their organization to which they have a connection to on the  [topic center home page](topic-center-overview.md#home-page). 
 
 ![Image showing a topic suggestions with an organization.](../media/knowledge-management/suggested-topics-enduser.png) 
 
@@ -102,7 +102,7 @@ People spend a lot of time sharing their knowledge, whether thru email, chat, or
 
 ![Image showing referencing a topic by using a hashtag.](../media/knowledge-management/topics-hashtag-reference-enduser.png) 
 
-Check out the [Viva Topics scenario catalogue]() for some additoinal ideas on how organizations can use Viva Topics
+Check out the [Viva Topics scenario catalogue](DOWNLOADABLE) for some additoinal ideas on how organizations can use Viva Topics
 
 ## Contribute knowledge and expertise to Viva Topics
 
