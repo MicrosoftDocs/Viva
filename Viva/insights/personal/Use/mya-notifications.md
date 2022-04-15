@@ -21,7 +21,7 @@ Inline suggestions can help boost your productivity and that of your team by dis
 >[!Note]
 >Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
-## Why I do not see inline suggestions
+## How to see inline suggestions
 
 Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place on your computer:
 

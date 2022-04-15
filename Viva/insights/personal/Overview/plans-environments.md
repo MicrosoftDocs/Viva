@@ -120,5 +120,5 @@ See [Briefing languages](../briefing/be-languages.md) to see what's supported fo
 
 ## Outlook support and prerequisites
 
-* See [Why I don't see the add-in](../use/add-in.md#why-i-do-not-see-the-add-in) for what's required.
-* See [Why I don't see inline suggestions](../use/mya-notifications.md#why-i-do-not-see-inline-suggestions) for what's required.
+* See [Why I don't see the add-in](../use/add-in.md#how-to-see-the-add-in) for what's required.
+* See [Why I don't see inline suggestions](../use/mya-notifications.md#how-to-see-inline-suggestions) for what's required.
