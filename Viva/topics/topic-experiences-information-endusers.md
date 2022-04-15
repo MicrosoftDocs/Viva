@@ -42,6 +42,7 @@ Viva Topics is an AI-powered solution that empowers people with knowledge and 
 
 Viva Topics uses AI to help arrange an organization’s knowledge base into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have properties and resources that can provide knowledge about the topic and help people find more information and experts related to the topic.  
 
+![Diagram showing properties of a topic card.](../media/knowledge-management/properties-topic-card-enduser.png) 
 (IMAGE:PROPERTIES OR TOPICS)
 
 Viva Topics uses human contributions to make the quality of topics better. Through various curation mechanisms in Viva Topics, people in an organization add their tacit knowledge and feedback on the usefulness of topics.    
