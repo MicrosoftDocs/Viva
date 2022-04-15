@@ -124,18 +124,19 @@ The appropriate web parts to use on a topic page will be based on the scenarios 
 
 Help employees learn about company products with easy access to product details, announcements, roadmaps, and offer a place to ask questions. 
 
-(IMAGE: CONTOSO MARK 8)
+![Image showing product based topic page.](../media/knowledge-management/topics-product-based-topic-page-tc.png)
 
 ### Customer based topic
 
 Help sales executives, account managers, and support reps serve customers in a more effective manner by providing easy access to customer information. 
 
-(IMAGE: BLACKTHORN)
+![Image showing customer based topic page.](../media/knowledge-management/topics-customer-based-topic-tc.png)
 
 ### Asset based topic
 
-Provide employees with one place to go to find comprehensive and up-to-date information related to organizational assets 
+Provide employees with one place to go to find comprehensive and up-to-date information related to organizational assets. 
 
+![Image showing customer based topic page.](../media/knowledge-management/topics-organizational-assets-tc.png-tc.png)
 (IMAGE: GAS PLANT)
 
 ### Knowledge networks
