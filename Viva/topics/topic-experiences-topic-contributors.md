@@ -32,8 +32,8 @@ description: Learn how to contribute to a topic in Viva Topics
 
 We all have unique expertise and insight that are valuable to our peers and making our knowledge accessible to anyone in the organization has always been challenging. Viva Topics makes it easy to share knowledge and make it accessible for colleagues when they need it.  
 
-![Image showing topic card with feedback request.](../media/knowledge-management/topics-hashtag-reference-enduser.png)
-(IMAGES: EASILY EDIT TOPICS, ACCESS POINTS IN THE FLOW OF YOUR WORK)
+![Image showing topic page on infopedia.](../media/knowledge-management/topics-infopedia-topic-page-tc.png)
+![Image showing organization landing page.](../media/knowledge-management/topics-landing-page-tc.png)
 
 By sharing knowledge in Viva Topics, contributors will:
 
@@ -51,11 +51,11 @@ The AI not only organizes knowledge into topics, it also automatically creates a
 
 When the context is appropriate, Viva Topics will suggest topics to be highlighted on all SharePoint modern site pages in a tenant. The topic can also be directly referenced on the SharePoint modern site page by a page author using a hashtag. Page authors can invoke the topic picker on a modern SharePoint page by adding a hashtag and then selecting the topic they’d like to include on the page.  
 
-(IMAGES: HASHTAG TOPIC)
+![Image showing reference topic on SharePoint using a hashtag.](../media/knowledge-management/topics-hashtag-reference-enduser.png)
 
 When a user is curious to learn more about a topic, they can select the highlighted topic to view a Topic summary card that provides a short description. And if they want to learn more, they can select a Topic details link in the summary to open the detailed topic page. Any edits made, along with appearances in the people and suggested files and pages properties of the topic, are properly attributed to the author.  
 
-(IMAGES: SIGNAPORE BUILDIGN UPDATE)
+![Image showing topic summary card.](../media/knowledge-management/topic-summary-card-tc.png)
 
 Additionally, users will also be able to find topics through Microsoft Search and Microsoft Office. Over time, Topics will be added to more places across Microsoft 365, including Teams, Yammer, and Outlook.  
 
@@ -67,19 +67,19 @@ There ar emultiple wasy to find relevant topics in the organization to contribut
 
 **Suggested connections** - You will see topics listed under *We've listed you on these topics. Did we get it right?* These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole   
 
-(IMAGE: TOPICS USER IS LISTED ON)
+![Image showing suggested topics topic cards.](../media/knowledge-management/suggested-topics-enduser.png)
 
 **Confirmed connections** - These are topics which users are pinned on the topic page or confirmed as a suggested connection to the topic. Topics will move from the suggested to confirmed section when they confirm a suggested connection. 
 
-(IMAGE: CONFIRMED CONNECTIONS)
+![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed connections-tc.png) 
 
 2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
 
-(IMAGE: INFOPEDIA - PROJECT BLUE)
+![Image showing editing button within the topic page.](../media/knowledge-management/topic-page-editing-tc.png)
 
 3. **Search**: If there is a specific topic to edit, the user can [search for it using Microsoft Search](search.md). If there is no existing topic in the tenant, a new topic can be created. 
 
-(IMAGE: SATURN TOPIC PAGE)
+![Image showing topic being searched for in the search field in SharePoint with result.](../media/knowledge-management/search-for-topic-tc.png)
 
 4. **Knowledge manager**: People in the organization may have taken on the role of knowledge manager and reached out to colleagues to get help curating specific topics. 
 
@@ -89,7 +89,7 @@ Only users who have the Who can create or edit topics permission link can edit o
 
 Each topic contains a consistent set of AI generated properties that can be edited.  
 
-(IMAGE: PROPERTIES IF TOPICS THAT ARE AI GENERATED)
+![Image showing ai generated topic properties in a topic card.](../media/knowledge-management/ai-generated-topic-properties-km.png)
 
 The properties are identified from the files and pages that are part of the evidence the AI gathered for identifying the topic. Alternate names and acronyms are sourced from these files and pages. The short description is sourced from these files and pages, or from the internet through Wikipedia. The source file, page, or Wikipedia article is referenced alongside the suggested properties. People are suggested based on their active contributions (for example, edits) to the files and pages. A reference to the number of contributions from a particular person provides a hint as to why the person has been identified. Files, pages, and sites are ranked based on whether they are central to the topic, or whether they can give an overview or introduction to the topic. 
 
