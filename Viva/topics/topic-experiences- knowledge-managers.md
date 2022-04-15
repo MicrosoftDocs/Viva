@@ -127,8 +127,7 @@ Knowledge managers should define the minimum requirements for a published topic 
 
 2. **Tacit**: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to adhoc questions. [Yammer](https://support.microsoft.com/en-us/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Office 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/en-us/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/en-us/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
 
-![Image showing.](../media/knowledge-management/ai-generated-topic-properties-km.png)
-(IMAGE: YAMMER CONVO)
+![Image showing a question and tacit knowledge sharing on Yammer.](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
 
 Use the [Yammer conversations web part](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
 
