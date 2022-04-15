@@ -136,17 +136,16 @@ Help sales executives, account managers, and support reps serve customers in a m
 
 Provide employees with one place to go to find comprehensive and up-to-date information related to organizational assets. 
 
-![Image showing customer based topic page.](../media/knowledge-management/topics-organizational-assets-tc.png-tc.png)
-(IMAGE: GAS PLANT)
+![Image showing asset based topic page.](../media/knowledge-management/topics-organizational-assets-tc.png)
 
 ### Knowledge networks
 Enable employees with a common interest in a topic to share knowledge, connect, learn, solve and create together. 
 
-(IMAGE: DIGITAL TRANSFORMATION)
+![Image showing topic page for curated for knowledge networks.](../media/knowledge-management/topics-knowledge-networks-tc.png)
 
 [To add web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0#bkmk_addwebpart) to your topic page, select the canvas icon, which you can find below the short topic description. Selecting it will open the SharePoint web part gallery from which you can choose the web parts you want to add to the topic page. 
 
-(IMAGE: SEARCH)
+![Image showing SharePoint web part gallety.](../media/knowledge-management/topics-canvas-topic-tc.png)
 
 Remember to select **Publish** or **Republish** to save your changes. Republish will be the available option if the topic has been published previously. 
 
