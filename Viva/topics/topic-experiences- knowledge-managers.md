@@ -90,7 +90,7 @@ To build an initial, high quality knowledge base quickly, it’s important to de
 
 There are several different ways to prioritize which topics to focus efforts on:  
 
-(IMAGE: TOPIC PRIORITIZATION)
+![Image showing workflow for prioritizing topic curation.](../media/knowledge-management/topics-focus-efforts-stages-km.png)
 
 - **Scenarios**: Think about how Viva Topics will be used in the team, department, or business unit, then prioritize topics that are relevant to the scenarios. For example, if a department would get value from organizing knowledge about the products the organization makes, prioritize product related topics for initial curation. There are a variety of scenarios that Viva Topics can be used inside an organization. Check out the [Viva Topics scenario catalogue](LINK-TO-CATALOGUE) for some ideas and to help determine which related topics to prioritize.  
 
@@ -105,7 +105,7 @@ If the Manage Topics page isn’t available to the assigned knowledge manager, t
 
 On the Manage Topics page there is a quality score column and impressions column. The quality score reflects the amount of information that the average user will see for the information on the topic, keeping in mind that each user might see more or less information because of the permissions they might or might not have on the information in a topic. The impressions column displays the number of times a topic has been shown to end users. Sort each column to find the topics with the lowest quality score and highest number of impressions.  
 
-(IMAGE: TOPIC CENTER)
+![Image showing the quality score and impressions column in the manage topics page.](../media/knowledge-management/manage-topics-quality-impressions.png)
 
 - **Bookmarks and existing knowledge base**: [Bookmarks](manage-bookmarks.md) are used in Microsoft Search to help people quickly find important sites and tools. They can also help indicate what the organization deems as important and provide consideration for what topics should be prioritized for curation. Each organization may have other, existing knowledge bases that are prime candidates for migrating to Viva Topics. For example, if the organization has invested in knowledge bases or wiki sites, these can provide a list of topics to use for initial curation efforts. If they're particularly large, select the most viewed or edited topics as a starting point. The wiki knowledge will then be more accessible through the applications people use to do their work and suggested elements of the topic will be automatically updated by the AI in Viva Topics.  
 
