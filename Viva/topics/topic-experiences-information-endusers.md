@@ -83,7 +83,7 @@ When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel —
 
 Users can see topics in their organization to which they have a connection to on the [topic center home page](topic-center-overview.md#home-page). 
 
-![Image showing a topic suggestions with an organization.](../media/knowledge-management/suggested-topic-enduser.png) 
+![Image showing a topic suggestions with an organization.](../media/knowledge-management/suggested-topics-enduser.png) 
 
 ## Different ways to use Viva Topics
 
