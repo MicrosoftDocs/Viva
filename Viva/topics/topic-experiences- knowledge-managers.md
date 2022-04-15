@@ -111,7 +111,7 @@ On the Manage Topics page there is a quality score column and impressions column
 
 Prioritization of topics for curation should also factor in demand levels for different types of knowledge in the organization. Make sure the topics being curated are in demand and will be used once published. The sweet spot for finding topics for curation are those that are in high demand and that are currently being addressed in inefficient and non-scalable ways. For example, product experts are often asked random questions from salespeople and often answer the same question repeatedly through hard to scale mediums such as email or chat. In this example, product experts will be highly responsive to Viva Topics to scale their impact, minimize randomization and gain more recognition as an expert in the organization.  
 
-(IMAGE: KNOWLEDGE DEMAND CHART)
+![Image showing knowledge demand and efficiency supply chart.](../media/knowledge-management/topic-knowledge-demand-efficiency-diagram-km.png)
 
 ### Set quality level for topics
 
@@ -121,12 +121,13 @@ There are two types of knowledge to include in the knowledge base:
 
 1. **Explicit**: Information that can be documented, stored, and shared with others. Viva Topics helps codify explicit knowledge by using AI to discover people and content connected to a topic and then displays them on a topic page. These AI generated topic properties include alternate names and/or acronyms, a short description of the topic, and people who might be knowledgeable about the topic, as well as files, pages, and sites that are related to the topic.  
 
-(IMAGE: AI GENERATED TOPIC PROPERTIES)
+![Image showing AI generated topic properties in a topic card.](../media/knowledge-management/ai-generated-topic-properties-km.png)
 
 Knowledge managers should define the minimum requirements for a published topic and communicate these standards to topic contributors. Minimum requirements for topics in the organization could include guidance that all topics contain alternate names, a factual description, and pinned people and resources. Learn more how curators can edit topics to meet minimum requirements for published topics that are established.    
 
 2. **Tacit**: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to adhoc questions. [Yammer](https://support.microsoft.com/en-us/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Office 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/en-us/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/en-us/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
 
+![Image showing.](../media/knowledge-management/ai-generated-topic-properties-km.png)
 (IMAGE: YAMMER CONVO)
 
 Use the [Yammer conversations web part](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
