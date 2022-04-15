@@ -74,7 +74,6 @@ Knowledge managers can use the Manage Topics page in the [Topic Center](topic-ce
 To classify the suggested topic into the correct stage, select the ellipses of the topic and choose the appropriate stage. 
 
 ![Image showing where to find ellipses in suggested topics.](../media/knowledge-management/topics-ellipses-selection.png)
-(IMAGE: ELLIPSES DEMO)
 
 Confirm the topic if it is relevant for the organization. Remove the topic if it is not needed, no longer has any connections, or is not valid.  
 
@@ -82,7 +81,8 @@ To edit the topic, select review and publish to be taken to the topic page, then
 
 Topics can also be confirmed or removed based on crowdsourced feedback. When users interact with a suggested topic, they might be asked a simple question in the UI. For example: Was this topic relevant to the page? Topics are automatically confirmed or removed if multiples users vote positively or negatively respectively, using the feedback mechanism on the topic card. There must be a net of two votes received, either positive or negative, for the topic to be confirmed or removed automatically.  For example, if one user voted positive and one user voted negative for a particular topic, two more positive votes would be needed for the topic to be confirmed. 
 
-(IMAGE: PLANET BLUE TOPIC CARD)
+![Image showing topic card with feedback request.](../media/knowledge-management/topics-hashtag-reference-enduser.png)
+
 
 ### Prioritize topics for curation
 
