@@ -43,7 +43,6 @@ Viva Topics is an AI-powered solution that empowers people with knowledge and 
 Viva Topics uses AI to help arrange an organization’s knowledge base into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have properties and resources that can provide knowledge about the topic and help people find more information and experts related to the topic.  
 
 ![Diagram showing properties of a topic card.](../media/knowledge-management/properties-topic-card-enduser.png) 
-(IMAGE:PROPERTIES OR TOPICS)
 
 Viva Topics uses human contributions to make the quality of topics better. Through various curation mechanisms in Viva Topics, people in an organization add their tacit knowledge and feedback on the usefulness of topics.    
 
@@ -65,19 +64,20 @@ Topics are displayed to users through:
 
 When a topic is mentioned in content on SharePoint news and pages, the user will see it highlighted. They can hover over the highlighted topic and be presented with a topic card. From the topic card, opening the topic details from the title of the summary will give view to the full topic page. The mentioned topic could be identified automatically or could have been referenced directly by the page author. 
 
-(IMAGE:SINGAPORE BUILDING UPDATE)
+![Image showing a topic card.](../media/knowledge-management/topic-card-enduser.png) 
 
 ### Search results
 
 To see a [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the topic of the results list and show a short set of information related to that topic. 
 
-(IMAGE: RAINIER SEARCH)
+![Image showing a topic answer after search.](../media/knowledge-management/topic-answer-enduser.png) 
 
 ### Office application search
 
 When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel — either through the search box or by selecting Search in the context menu — topic answers are displayed in the search results. 
 
-(IMAGES: CONTROSE MARK8)
+![Image showing a topic answer after search in Microsoft Word.](../media/knowledge-management/topic-answer-1-enduser.png) 
+![Image showing the search option for topics in Microsoft Word.](../media/knowledge-management/topic-answer-2-enduser.png)
 
 ### Topic center
 
