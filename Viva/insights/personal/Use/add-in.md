@@ -31,12 +31,12 @@ This Outlook add-in preserves all the data-subject rights afforded by GDPR. The 
 
 Additionally, the add-in begins processing data for insights only after the first time you open it. [Learn more](https://www.microsoft.com/TrustCenter/CloudServices/office365/default.aspx) about how Microsoft protects your privacy.
 
-## Why I do not see the add-in
+## How to see the add-in
 
 Before you can use the Viva Insights Outlook add-in, be sure that the following prerequisites are in place:
 
 * Have a Microsoft Viva Insights user license and let at least 24 hours elapse since you were granted that license.
-* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](/exchange/recipients/create-user-mailboxes?preserve-view=true&view=exchserver-2019#create-user-mailboxes), if necessary.
+* Have a valid mailbox. This cannot be a shared mailbox or even a shared mailbox that was converted into a user mailbox. It must be a user mailbox from the start. We recommended that you [provision a new user mailbox](/exchange/recipients/create-user-mailboxes#create-user-mailboxes), if necessary.
 * Have the following in place:
 
   * Your computer has Microsoft Outlook version 1705 (build 8201.2102) or higher for Windows, or version 15.39.1010 or later for Mac.
@@ -89,7 +89,7 @@ In the new Mac interface, add-ins are not currently available, but you can enabl
 2. In the Outlook **Home** ribbon, open Viva Insights by using the same steps as for [Windows Outlook desktop](#windows-outlook-desktop).
 
 >[!Note]
->If the Viva Insights add-in is not showing up for you, check out the prerequisites that are described in [Why I don't see the add-in](#why-i-do-not-see-the-add-in).
+>If the Viva Insights add-in is not showing up for you, check out the prerequisites that are described in [How to see the add-in](#how-to-see-the-add-in).
 
 ## What you might see
 
