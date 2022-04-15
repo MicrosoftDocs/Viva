@@ -42,7 +42,7 @@ The different pages in the report help you answer the following related question
 14. Are managers balancing oversight with employee empowerment and autonomy?
 15. What managerial behaviors predominate across the company and by organization?
 
-Each report includes a **What to examine** and **Why it matters** interpretation that explain how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee experience.
+Each report includes a **What to examine** and **Why it matters** interpretation that explains how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee experience.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working assessment** and **Standard meeting query** in Viva Insights.
 
@@ -97,7 +97,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 
 7. You can then select any additional attributes (columns) that you want to include in the reports.
 8. Select **Run** to run the query, which can take a few minutes to complete.
-9. When prompted, select to return to the Query designer and run the **Standard meeting query** to get the meeting metrics for the dashboard.
+9. When prompted, select to return to the Query designer and run the **Ways of working meeting query** to get the meeting metrics for the dashboard.
 10. Select or confirm the following query settings:
 
     * **Name** - Customize or keep the default name
