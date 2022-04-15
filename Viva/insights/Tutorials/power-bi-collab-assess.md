@@ -42,7 +42,7 @@ The different pages in the report help you answer the following related question
 14. Are managers balancing oversight with employee empowerment and autonomy?
 15. What managerial behaviors predominate across the company and by organization?
 
-Each report includes a **What to examine** and **Why it matters** interpretation that explain how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee experience.
+Each report includes a **What to examine** and **Why it matters** interpretation that explains how to analyze the data to answer the business questions and how to use best practices to maintain or improve company collaboration patterns and employee experience.
 
 To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working assessment** and **Standard meeting query** in Viva Insights.
 
