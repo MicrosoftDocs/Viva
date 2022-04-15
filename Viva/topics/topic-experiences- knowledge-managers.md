@@ -131,7 +131,7 @@ Knowledge managers should define the minimum requirements for a published topic 
 
 Use the [Yammer conversations web part](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
 
-![Image showing a .](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
+![Image showing a yammer conversation along a topic page.](../media/knowledge-management/topics-yammer-conversation-km.png)
 (IMAGE: RAINER CONVO)
 
 Specific scenarios of Viva Topics may require unique properties appended to a topics page. For example, product-based topic pages may include brand assets, SKU#, roadmap information, product news, frequently asked questions (FAQ) and product specifications. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in different types of content. 
