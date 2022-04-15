@@ -32,6 +32,7 @@ description: Learn how to contribute to a topic in Viva Topics
 
 We all have unique expertise and insight that are valuable to our peers and making our knowledge accessible to anyone in the organization has always been challenging. Viva Topics makes it easy to share knowledge and make it accessible for colleagues when they need it.  
 
+![Image showing topic card with feedback request.](../media/knowledge-management/topics-hashtag-reference-enduser.png)
 (IMAGES: EASILY EDIT TOPICS, ACCESS POINTS IN THE FLOW OF YOUR WORK)
 
 By sharing knowledge in Viva Topics, contributors will:
