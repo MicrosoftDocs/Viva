@@ -87,12 +87,12 @@ A Qualtrics data manager with the necessary credentials must complete the follow
 
 Before using the Viva Insights Query Designer, you must confirm or complete the following prerequisites:
 
-* [Viva Insights in Workplace Analytics is set up](../setup/set-up-workplace-analytics.md) and ready to use.
-* Your analysis population is assigned Viva Insights or Workplace Analytics licenses
-* Have a Viva Insights admin assigned to upload organizational (HR) data (who’s synonymous with a Workplace Analytics admin in the following steps).
-* Have a Viva Insights analyst assigned to create and run analysis with the Query designer (who’s synonymous with a Workplace Analytics analyst in the following steps).
+* [The advanced insights app is set up](../setup/set-up-workplace-analytics.md) and ready to use.
+* Your analysis population is assigned Viva Insights licenses
+* Have a Viva Insights admin assigned to upload organizational (HR) data (who’s synonymous with the _legacy_ Workplace Analytics admin in the following steps).
+* Have a Advanced insights analyst assigned to create and run analysis with the Query designer.
 
-As a Viva Insights admin, do the following to import organizational and survey data from Qualtrics into Viva Insights in Workplace Analytics.
+As a Viva Insights admin, do the following to import organizational and survey data from Qualtrics into the advanced insights app.
 
 1. As the admin, you need to update the Qualtrics .csv export file to include the following organizational and survey attributes. The following graphic shows what this file must include.
 
@@ -106,13 +106,13 @@ As a Viva Insights admin, do the following to import organizational and survey d
 
 2. Save the organizational file as a UTF-8 encoded .csv file.
 3. To upload this organizational file into Viva Insights, follow the steps in [Subsequent uploads](../setup/upload-organizational-data2.md) and in **Step 6** of [File Upload](../setup/upload-organizational-data2.md#file-upload), select **Add new data for existing employees**.
-4. When prompted to map the custom fields in Workplace Analytics, for **Engagement**, **Motivation**, **Wellbeing**, or any other survey attribute, enter the same field names in the **Workplace Analytics attribute** column, and select **Show in report** in the **Report options** column.
+4. When prompted to map the custom fields in the app, for **Engagement**, **Motivation**, **Wellbeing**, or any other survey attribute, enter the same field names in the the app's attribute column, and select **Show in report** in the **Report options** column.
 
 ### Data analysis in Viva Insights
 
-After the upload is successfully processed in Viva Insights within the Workplace Analytics app, a Viva Insights analyst can use the survey score data in [Query designer](../tutorials/query-designer.md) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](../tutorials/power-bi-collab-assess.md).
+After the upload is successfully processed in Viva Insights within the app, a Viva Insights analyst can use the survey score data in [Query designer](../tutorials/query-designer.md) with any of the available queries and Power BI templates. For example, you can include the **Engagement** attribute in [Ways of Working assessment](../tutorials/power-bi-collab-assess.md).
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select a query or template you want to create analysis with.
+1. In [the advanced insights app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select a query or template you want to create analysis with.
 2. When creating the query, be sure to select what Qualtrics survey score data you want to include, such as **Engagement**, **Motivation**, and **Wellbeing**.
 3. You can then use these survey attributes as group-by or filter attributes. As an example, you can include Wellbeing scores in the Ways of working assessment template for Power BI, and then filter the report for **Wellbeing** scores that depict favorable responses to observe how collaboration patterns differ based on their wellbeing scores.
 
@@ -145,15 +145,15 @@ If the organizational data in Viva Insights does not share a unique employee ide
    >[!Note]
    >**EffectiveDate** in this example is the start of the survey period.
 
-3. You then need to upload this organizational file into Viva Insights within Workplace Analytics by following the steps in [Subsequent uploads](../setup/upload-organizational-data2.md) and select **Add new data for existing employees**.
-4. When prompted to map the custom fields in Workplace Analytics, for UniqueIdentifier (Employee ID), enter the same field name in the **Workplace Analytics attribute** column, and select **Show in report** in the **Report options** column.
+3. You then need to upload this organizational file into the advanced insights app by following the steps in [Subsequent uploads](../setup/upload-organizational-data2.md) and select **Add new data for existing employees**.
+4. When prompted to map the custom fields in the app, for UniqueIdentifier (Employee ID), enter the same field name in the app's attribute column, and select **Show in report** in the **Report options** column.
 5. After the upload is successful, notify the analyst that the Qualtrics data is available.
 
 ### Run and download query data in Viva Insights
 
 As the analyst, you can run the prebuilt query survey templates. You can then share this exported query data with Qualtrics for their reporting within Qualtrics Employee Experience.
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
+1. In [the advanced insights app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Person** > **Next** > **Person query for surveys** > **Set up query**.
 3. In the **Select metrics** section of the query, keep all the predefined metrics.
 4. In **Select filters**, select **Active only** for **Which measured employees do you want to include** and then, optionally, you can further filter for the population of interest. For more details about filter and metric options, see [Create a Person Query](../tutorials/person-queries.md).

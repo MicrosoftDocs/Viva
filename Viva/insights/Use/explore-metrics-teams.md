@@ -1,7 +1,7 @@
 ---
 
-title: Explore Teams data in Workplace Analytics
-description: Overview of Teams collaboration data in Workplace Analytics
+title: Explore Teams data in Viva Insights
+description: Overview of Teams collaboration data in the advanced insights app with Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -23,7 +23,7 @@ audience: Admin
 
 ## Access to Teams collaboration
 
-You can open [Teams collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ChatsAndCalls) in Workplace Analytics to view it.
+You can open [Teams collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ChatsAndCalls) in the advanced insights app to view it.
 
 ## Call hours
 
@@ -45,7 +45,7 @@ You can use the **Call hours** and **IM hours** filters in the Charts and in Pag
 
 ## Data sources includes Teams
 
-In **Sources** > **Microsoft 365 data**, you'll see an **Average weekly collaboration hours by type** chart that includes the average weekly Teams call hours and instant messaging hours over time. The "Week of" date on that page shows when the Teams data was last processed in Workplace Analytics.
+In **Sources** > **Microsoft 365 data**, you'll see an **Average weekly collaboration hours by type** chart that includes the average weekly Teams call hours and instant messaging hours over time. The "Week of" date on that page shows when the Teams data was last processed in Viva Insights.
 
 Analysts can use these views to evaluate communication and collaboration trends and patterns for your organization.
 
@@ -77,5 +77,5 @@ The following table provides details about Teams metrics in Person queries.
 * [Page settings](../use/explore-page-settings.md)
 * [Person queries](../tutorials/Person-queries.md)
 * [Meeting queries](../tutorials/Meeting-queries.md)
-* [Workplace Analytics Charts](../use/chart-types.md)
-* [Metric descriptions](../use/metric-definitions.md)
+* [Advanced insights charts](../use/chart-types.md)
+* [Advanced insights metric descriptions](../use/metric-definitions.md)
