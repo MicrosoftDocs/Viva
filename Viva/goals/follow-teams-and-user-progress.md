@@ -26,7 +26,7 @@ description: "Learn how to follow and receive progress updates on relevant OKR a
 
 As your company scales, there can often be many interesting Objectives and Key Results (OKRs) that are created across an organization.
 
-In order to keep track of various goals that are relevant to you, Viva Goals provides a two step process that delivers this information right to your inbox or via Slack.
+In order to keep track of various goals that are relevant to you, Viva Goals provides a two step process that delivers this information right to your inbox.
 
 ## Step 1: Follow
 
@@ -50,7 +50,7 @@ By default, Viva Goals will have you follow:
 
 ## Step 2: Receive Updates
 
-Once you're following one or more organizations, teams, or users, Viva Goals will automatically notify you via Slack or email you a weekly progress update showing Objective activity, what's going well, and what's not going well.
+Once you're following one or more organizations, teams, or users, Viva Goals will automatically notify you via email with you a weekly progress update showing Objective activity, what's going well, and what's not going well.
 
 :::image type="content" source="../media/goals/viva-goals-follow-progress-2.png" alt-text="Follow Progress 2":::
 
