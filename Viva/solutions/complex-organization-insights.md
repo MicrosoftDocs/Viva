@@ -176,6 +176,8 @@ The setup details are available [here](#data-pipeline---automated).
 
 ### Data pipeline - Automated
 
+1. Download the [DataFactory_OData_arm_template.json file](https://github.com/microsoft/VivaSolutions/blob/main/Sample%20Solutions/ComplexOrgs/DataFactory_oData_arm_template.json) from the [Complex Organization sample solution](https://github.com/microsoft/VivaSolutions/tree/main/Sample%20Solutions/ComplexOrgs) in GitHub.
+
 1. Deploy the arm template for data factory creation for MultiTenant by performing the following steps:
 
     1. Launch the Azure portal for the subscription you want to use.
@@ -191,8 +193,6 @@ The setup details are available [here](#data-pipeline---automated).
        :::image type="content" source="images/load-file.png" alt-text="The screen displaying the Load file option":::
        The browser window is displayed.
     1. Navigate to the location that contains the downloaded **DataFactory_OData_arm_template.json** file and select **Open**.
-       >[!NOTE]
-       >You can download the **DataFactory_OData_arm_template.json** file [here](https://vscomporgsa.blob.core.windows.net/files/DataFactory_OData_arm_template.zip?sp=r&st=2021-11-23T16:55:42Z&se=2022-06-01T23:55:42Z&spr=https&sv=2020-08-04&sr=b&sig=hAmyCMD1R4UARcrWTxjK20Yflo9ZQmXWkCeNqtXfqpk%3D).
     1. In the resultant screen, select **Save**.
        :::image type="content" source="images/load-file-2.png" alt-text="Screen on which the file is saved to get uploaded":::
     1. Provide values for the highlighted items.
