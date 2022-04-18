@@ -1,9 +1,9 @@
 ---
 
-title: Workplace Analytics data sources
-description: An overview of Sources in Workplace Analytics 
+title: Data sources for Viva Insights
+description: An overview of data sources for Microsoft Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,19 +11,19 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Data sources
 
-**Data sources** shows high-level views for Viva Insights or Workplace Analytics administrators and data analysts to confirm that your Microsoft 365 and organizational data is ready to use. When you upload and process CRM data in Workplace Analytics, you'll also see a page for your CRM data.
+**Data sources** shows high-level views for Viva Insights admins and data analysts to confirm that your Microsoft 365 and organizational data is ready to use. When you upload and process CRM data in the advanced insights app, you'll also see a page for your CRM data.
 
-* [Microsoft 365 data](office-365-data.md) - Shows the latest Microsoft 365 data that's been processed in Workplace Analytics.
-* [Organizational data](organizational-data.md) - Shows information about your company that you provide to Workplace Analytics through uploads of organizational (HR) data. If you purchased a license for Viva Insights starting October 2021, Viva Insights uses Azure AD data to present data about your organization.
-* [CRM data](crm-data.md) - Shows a high-level view of the latest available CRM data that you uploaded and was successfully processed in Workplace Analytics.
+* [Microsoft 365 data](office-365-data.md) - Shows the latest Microsoft 365 data that's been processed in Viva Insights.
+* [Organizational data](organizational-data.md) - Shows information about your company that you provide to Viva Insights through uploads of organizational (HR) data. If you purchased a license for Viva Insights starting October 2021, Viva Insights uses Azure AD data to present data about your organization.
+* [CRM data](crm-data.md) - Shows a high-level view of the latest available CRM data that you uploaded and was successfully processed in Viva Insights.
 
-**Owners** – Viva Insights or Workplace Analytics Admins, Analysts, and limited Analysts have full access to **Sources**. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owners** – Viva Insights Admins, Analysts, and limited Analysts have full access to **Data sources**. For details on how to assign roles, see [Assign admin roles](../setup/assign-roles-to-wpa-admins.md).
 
 ![Data sources.](../images/WpA/Use/m365data.png)
 
@@ -40,5 +40,5 @@ WE USE THE FOLLOWING ONES IN OTHER PLACES:
 
 ## To view Data sources
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com). If prompted, enter your work credentials.
 2. In the left navigation pane, select **Data sources**.
