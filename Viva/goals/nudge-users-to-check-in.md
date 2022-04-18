@@ -29,7 +29,5 @@ Whenever an Objectives and Key Results (OKR)/Project needs an update and you wan
 The nudge option is available in the progress popover when you select it. It will be visible to the users who aren't the primary check-in owner of the OKR.
 
 In the popup, you can also see how the notifications for that particular user are configured and where they'll be notified. The nudge will go out on Slack if integrated for their account, otherwise, it will fall back to email.
-
-For Slack users, the nudge is received by the Viva Goals Slackbot and looks something like this:
-
-:::image type="content" source="../media/goals/viva-goals-nudge-users-to-check-in-1.png" alt-text="Nudge Users to Check in 1":::
+  
+[nudge email screenshot]
