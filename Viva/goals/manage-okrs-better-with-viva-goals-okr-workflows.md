@@ -1,5 +1,5 @@
 ---
-title: "Manage Objectives and Key Results (OKRs) better with Viva Goals’ OKR workflows"
+title: "Manage OKRs better with Viva Goals’ OKR workflows"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -19,7 +19,7 @@ search.appverid:
 description: "Viva Goals offers the ability to enable a workflow to gain manager approval when setting OKRs."
 ---
 
-# Manage Objectives and Key Results (OKRs) better with Viva Goals’ OKR workflows
+# Manage OKRs better with OKR workflows
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
