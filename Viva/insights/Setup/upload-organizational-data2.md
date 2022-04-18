@@ -1,8 +1,8 @@
 ---
 title: Subsequent uploads of organizational data
-description: Steps for subsequent organizational (HR) data uploads into Workplace Analytics assuming this is not your first data upload
+description: Steps for subsequent organizational (HR) data uploads assuming this is not your first data upload
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced
@@ -10,16 +10,16 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Subsequent uploads
 
-Administrators can use the following steps for a subsequent upload (import) of organizational data into Workplace Analytics. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
+Administrators can use the following steps for a subsequent upload (import) of organizational data into the advanced insights app. Complete the steps after preparing the data as described in [Prepare organizational data](Prepare-organizational-data.md).
 
 >[!Important]
->Only follow these steps if **this is not** the first time you have uploaded organizational data to Workplace Analytics. If **this is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
+>Only follow these steps if **this is not** the first time you have uploaded organizational data. If **this is** the first time, follow the steps in [Upload organizational data (first upload)](upload-organizational-data-1st.md).
 
 ## Import tasks
 
@@ -29,7 +29,7 @@ Importing organizational data requires the following tasks:
 2. [Field mapping](#field-mapping)
 3. [Data validation](#data-validation)
 
-After you prepare the source data, you can upload the .csv file and map fields. After you map fields, Workplace Analytics validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
+After you prepare the source data, you can upload the .csv file and map fields. After you map fields, the advanced insights app validates the data. When the data successfully validates, the overall data-import task is complete. If the data validation is not successful, you can choose from a few options that are described in [Validation fails](#validation-fails).
 
 <!--### Video: Upload organizational data
 
@@ -39,9 +39,9 @@ The following video might not represent your exact upload experience that is bas
 
 ## File upload
 
-Use the following steps to upload (import) your organizational data as a .csv file into Workplace Analytics.
+Use the following steps to upload (import) your organizational data as a .csv file.
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
+1. Open [the app](https://workplaceanalytics.office.com). If prompted, enter your organizational credentials.
 2. Select **Data sources** > **Organizational data**.
 3. Select **Upload** to see your organization's **Upload history**.
 4. Select **New upload**.
@@ -69,7 +69,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 8. <a name="step-8"></a>Map the fields as applicable. For details, see [Field column details](#field-column-details).
 
-    1. In **Source column in file**, map the names in the .csv file to the corresponding names in the **Workplace Analytics attributes**.
+    1. In **Source column in file**, map the names in the .csv file to the corresponding names for the Advanced insights attributes.
     2. Enter values for the other columns in the table as applicable, such as for **Data type** and **Report options**.
 
       * When Adding employees or replacing with new data, you’ll see the following types of fields, which *includes* the validity thresholds:
@@ -100,7 +100,7 @@ Use the following steps to upload (import) your organizational data as a .csv fi
 
 ## Field mapping
 
-You need to map the fields (columns) for the source .csv file to the field names that Workplace Analytics recognizes. You map these in **Organizational data > Upload**.
+You need to map the fields (columns) for the source .csv file to the field names that the app recognizes. You map these in **Organizational data > Upload**.
 
 ![New upload field mapping](../images/wpa/setup/new-upload2.png)
 
@@ -124,7 +124,7 @@ Use the Add new data for existing employees or Edit data for existing employees 
 ### Field column details
 
 * **Source column** corresponds to each of the fields in the uploaded file.
-* **Workplace Analytics name** is the name of your organization's Workplace Analytics.
+* Advanced insights app name is the name of your organization's version of the app.
 * **Data type** is the data type of the fields.
 
    >[!Note]
@@ -143,16 +143,16 @@ Use the Add new data for existing employees or Edit data for existing employees 
 
   * **Show in report** - Lets the actual data value appear in the report just as it was imported in the organizational data file.
   * **Hash in report** - De-identifies sensitive data. If you choose this option, the report will include data that was generated about the import operation, but instead of showing actual values that were taken from the source file, it shows a hashed version of the value – a format that cannot be read.
-  * **Exclude from report** - Prevents the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, Workplace Analytics _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerId. In those cases, you cannot change this value.
+  * **Exclude from report** - Prevents the data value from appearing in the report. You can select this option for any attribute that you consider highly sensitive. However, for data-privacy reasons, the app _automatically_ assigns **Exclude from report** to particular attributes, such as ManagerId. In those cases, you cannot change this value.
 
   >[!Note]
   >The visibility of one or more attributes (columns) might be set to **Show in report** or **Hash in report** for previously uploaded data. If you change this setting to **Exclude from report**, any auto-refresh query that depends on the data in that column will experience a schema violation.
   >
-  >If so, after you finish mapping fields, Workplace Analytics shows a warning message that reads "Your upload has certain issues that may affect the auto-refresh of queries." For more details about this message, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
+  >If so, after you finish mapping fields, you'll see a warning message about "Your upload has certain issues that may affect the auto-refresh of queries." For more details about this message, see [If expected columns are missing or excluded](#if-expected-columns-are-missing-or-excluded).
 
 ### If expected columns are missing or excluded
 
-For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, Workplace Analytics shows a warning message:
+For a query to run successfully, it requires particular attributes (columns) to be present in the organizational data. This is also true for queries for which the [auto-refresh option](../tutorials/query-auto-refresh.md) is turned on. If expected columns are missing, or if visibility settings (which you set by using the **Report options** on the **Mapping** page) exclude expected columns, you'll see a warning message similar to the following:
 
 ![auto-refresh query warning.](../images/wpa/setup/auto-refresh-warning.png)
 
@@ -183,7 +183,7 @@ When this phase completes, the file will either pass or fail validation. Go to t
 
 ## Validation succeeds
 
-If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After a successful validation, Workplace Analytics processes your new data.
+If validation succeeds, the **Upload** page will indicate it and show the size of the upload and that the overall process is complete. After a successful validation, the app processes your new data.
 
 ![Validation succeeded.](../images/wpa/setup/upload6-validated.png)
 
@@ -210,7 +210,23 @@ The information about the errors helps you decide which path to choose next, suc
 
 ### Guidelines for correcting errors in data
 
-[!INCLUDE [Options upon failed validation](../includes/org-data-failed-validation.md)]
+| Nature of errors | Recommended selection | Description |
+| ----- | ----- | ----- |
+| Minor errors, small in number | Select **Edit mapping** | This displays the **Field Mapping** page, on which you can change how you map source-file fields to app attributes, optionally change validation thresholds, and then re-attempt validation. You can do these things without changing and re-uploading the source file. This is best for minor errors such as having mapped the wrong column in the source file or assigned a too-high validation threshold to a particular attribute. |
+| Major errors | Select **Upload file** | This displays the first **File upload** page. Consider this option in the case of major errors in the originally uploaded data. First, edit the source-data file to fix those errors and then re-attempt the upload and validation process with the corrected file.|
+
+There is also an option to select **Abandon**, a button on the top right of the page. Select this to cancel the current upload. You can abandon your upload for any reason, related or unrelated to errors in the upload file.
+
+>[!Note]
+>
+>* The app does not modify or fill in data that is missing from HR uploads, such as for TimeZone. The administrator is responsible for correcting such errors or omissions.
+>* When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
+
+The following can help correct data in an uploaded source file that might be causing the validation errors.
+
+When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). Lowering a threshold does not ignore or skip an invalid value.
+
+[!INCLUDE [Valid values and formats](../includes/org-data-upload-tips.md)]
 
 ### Addition of a new data column
 
@@ -224,7 +240,7 @@ The threshold checks for non-null values, so it depends on the intended use of t
 
 Generally, you should set the Validity threshold to a high value. This is especially important if your analysis will focus on that field.
 
-For example, you might include a SupervisorIndicator attribute. At first, you might think that you're not planning to analyze manager behavior and be  tempted to omit this attribute. However, the organization hierarchy is used implicitly by many Workplace Analytics analyses, such as for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
+For example, you might include a SupervisorIndicator attribute. At first, you might think that you're not planning to analyze manager behavior and be  tempted to omit this attribute. However, the organization hierarchy is used implicitly by the advanced insights analyses, such as for differentiating different work groups, for determining high- and low-quality meetings based on how many levels attend, and more.
 
 #### Set a lower value
 

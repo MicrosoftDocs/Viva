@@ -23,7 +23,7 @@ Each role only gives access to actions, pages, dashboards, and data that corresp
 
 The _Insights Administrator_ and the legacy _Workplace Analytics admin_ are interchangeable. Both have access to the same features and functions and share the same responsibilities and tasks for Viva insights.
 
-The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in the following tables, are only applicable to features available within the Workplace Analytics application for licenses assigned before October 2021. For those who are assigned licenses and the People Manager or Insights Business Leader roles starting in October 2021, can only access their applicable insights within the Viva Insights app in Microsoft Teams.
+The _Analyst (Limited Access)_ and _Program Manager_ roles that are listed in the following tables, are only applicable to features available within the advanced insights app for licenses assigned before October 2021. For those who are assigned licenses and the People Manager or Insights Business Leader roles starting in October 2021, can only access their applicable insights within the Viva Insights app in Microsoft Teams.
 
 ## Role descriptions and access levels
 
@@ -71,7 +71,7 @@ People who access data with Viva Insights should ideally have previous experienc
 | View personally identifiable, individual-level organizational data (including email addresses and HR fields such as level and organization)| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View de-identified, individual-level data: Organizational data (HR fields, such as level or organization) and Microsoft 365 data (metrics about collaboration and relationships) |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View aggregated and de-identified Microsoft 365 data (metrics about collaboration time and relationships) |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> *(team only)* |
-| Create custom plans to be deployed to groups and can influence the pages that users see in MyAnalytics |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |
+| Create custom plans to be deployed to groups and can influence the pages that users see in Viva Insights |&nbsp; | <img src="../Images/WpA/check-mark.png" alt="checkmark"> | <img src="../Images/WpA/check-mark.png" alt="checkmark">| <img src="../Images/WpA/check-mark.png" alt="checkmark"> |<img src="../Images/WpA/check-mark.png" alt="checkmark"> | &nbsp;  |
 
 ### Suggested personas
 

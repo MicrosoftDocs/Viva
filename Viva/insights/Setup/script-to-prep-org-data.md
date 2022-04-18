@@ -1,8 +1,8 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Use a script to prepare organizational data in Workplace Analytics
-description: How to use a script to prepare data from your organization to upload and use in Workplace Analytics 
+title: Use a script to prepare organizational data
+description: How to use a script to prepare data from your organization to upload for Viva Insights 
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -124,8 +124,8 @@ You can use the following parameters with the Generate-WpaOrganizationFile.ps1 s
 |MSOLCredential |pscredential |The credential of a person who can authenticate with the MSOnline service and execute the _Get-MsolUser_ cmdlet.  |
 |AzureADCredential |pscredential |The credential of a person who can authenticate with the Azure AD service and execute read-only cmdlets such as _Get-AzureADUser_.|
 |RequireCredentialPrompt |switch| If your organization's IT requires multifactor authentication, this switch lets you authenticate by prompting you for credentials. It uses the built-in prompts that are provided by the _Connect-AzureAD_ and _Connect-MsolService_ cmdlets.|
-| EffectiveDateOption| string | Used to determine the EffectiveDate.<ul><li>Select the **InitialPull** option if you're generating an organizational data file for the first time for Workplace Analytics.</li><li>Use the **Delta** option if you're creating a later upload of organizational data.</li></ul> |
-|SkipOptionalProperties| switch | As part of information gathering, there are extra properties available via Azure AD and MSOnline that are not required by Workplace Analytics. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
+| EffectiveDateOption| string | Used to determine the EffectiveDate.<ul><li>Select the **InitialPull** option if you're generating an organizational data file for the first time for Viva Insights.</li><li>Use the **Delta** option if you're creating a later upload of organizational data.</li></ul> |
+|SkipOptionalProperties| switch | As part of information gathering, there are extra properties available via Azure AD and MSOnline that are not required by Viva Insights. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
 |InjectThrottling| switch | This switch is used only for debugging. We recommend that you omit this switch because its use hinders performance.|
 
 ## Resulting organizational-data file schema
