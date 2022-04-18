@@ -226,6 +226,7 @@ The setup details are available [here](#data-pipeline---automated).
          1. From the **Select principal** field, search for your ID, and once it is displayed, select it. Your ID is displayed under the **Selected items** pane.
             :::image type="content" source="images/adding-access-policy-add-your-account.png" alt-text="The screen on which you can search for your ID and select it":::
       1. Select **Add**.
+      
          :::image type="content" source="images/selecting-add-in-adding-access-policy.png" alt-text="The screen on which you can add an access policy":::
       1. Select **Save** in the upper-left of the screen.
          :::image type="content" source="images/selecting-save-in-adding-access-policy.png" alt-text="The screen on which save the access policy":::
