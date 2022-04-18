@@ -1,6 +1,6 @@
 ---
 title: Manager insights FAQ
-description: Most commonly asked questions and their answers about My team insights in Viva Insights and Manager insights in Workplace Analytics
+description: Most commonly asked questions and their answers about My team insights in Viva Insights and Manager insights
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -17,9 +17,9 @@ audience: Admin
 
 # FAQ for manager insights
 
-##### Q1 What is Viva Insights and Workplace Analytics?
+##### Q1 What is Viva Insights for managers?
 
-Viva Insights and Workplace Analytics help managers like you identify patterns and habits that impact employee wellbeing and collaboration effectiveness by using data from everyday work that you and your team do in Microsoft 365. Learn more about Workplace Analytics in this [introductory video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true).
+Viva Insights helps managers like you identify patterns and habits that impact employee wellbeing and collaboration effectiveness by using data from everyday work that you and your team do in Microsoft 365.
 
 ##### Q2 Which roles have access to manager insights?
 
@@ -74,7 +74,7 @@ For example, if insights show a significant percentage of time is spent in long 
 
 ##### Q12 What is a plan?
 
-By combining the capabilities of Workplace Analytics and MyAnalytics, plans help you transform insights from Workplace Analytics into targeted change plans across your team. See [Plans](./plans.md) for details.
+Plans help you transform Viva Insights analysis into targeted change plans across your team. See [Plans](./plans.md) for details.
 
 >[!Note]
 >Plans are not available within the Microsoft Viva Insights app.
@@ -83,6 +83,6 @@ By combining the capabilities of Workplace Analytics and MyAnalytics, plans help
 
 Employees might not be eligible for a plan if:
 
-* They do not have MyAnalytics enabled.
+* They do not have Viva Insights enabled.
 * Are already enrolled in an existing plan.
 * The team does not meet the minimum group size limit.

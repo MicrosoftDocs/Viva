@@ -1,8 +1,8 @@
 ---
 title: Manager effectiveness dashboard for Power BI
-description: Use the Manager effectiveness dashboard to visualize predefined data from Workplace Analytics in Power BI
+description: Use the Manager effectiveness dashboard to visualize predefined data from Viva Insights in Power BI
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -10,13 +10,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Manager effectiveness
 
-The Manager effectiveness dashboard for Power BI uses Workplace Analytics data to analyze people manager behaviors in your organization. HR analysts can use this analysis to measure behaviors and trends of people managers across four key themes within your organization, including coach, empower, connect, and model.
+The Manager effectiveness dashboard for Power BI uses Viva Insights data to analyze people manager behaviors in your organization. HR analysts can use this analysis to measure behaviors and trends of people managers across four key themes within your organization, including coach, empower, connect, and model.
 
 Each theme includes insights about manager effectiveness and ways to help maintain or increase preferred leadership behaviors. Key metrics are used to deep dive into each theme, along with a **Why it matters** interpretation and best practices recommended by industry experts.
 
@@ -53,7 +53,7 @@ The dashboard also includes:
 * [**Customize report**](#customize-report) enables you to select what time period and organizational attribute to view the reports by and which employees to include in the reports.
 * **Glossary** that describes the metrics used in the different reports.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in Workplace Analytics. After you successfully run it, you'll see the template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Manager effectiveness** query and the **Influence insights by month** query in the advanced insights app. After you successfully run it, you'll see the template as an available download option for the query. This template is required to create the dashboard in Power BI. After you download the template, you can then connect the query data from the advanced insights app to the dashboard in Power BI.
 
 When the dashboard is populated with your data, you can use it to visualize, explore, and report about your manager's workplace patterns and trends.
 
@@ -69,15 +69,15 @@ To find the template for the Manager effectiveness dashboard for Power BI, go to
 
 Before you can run the query and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Manager effectiveness** to see the required setup steps, and then in step 2, select **Set up** next to **Manager effectiveness** (or select **Influence insights by month**, per **Step 8**).
 3. When prompted, select or confirm the options for **Group by**, **Time period**, and **Meeting exclusions**.
 4. In **Select metrics**, keep the preselected metrics, which are required for the dashboard to work.
@@ -85,7 +85,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 6. In **Organizational data**, you can choose **Select all** to include all available attributes. For best results, select all required attributes that identify managers and their groups, such as **LevelDesignation**, **ManagerId**, **Organization**, and **SupervisorIndicator**.
 
    >[!Important]
-   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in the advanced insights app, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
 7. Select **Run** (at top right) to run the query, which can take a few minutes up to a few hours to complete.
 8. When prompted, select to return to the Query designer, and then repeat **Steps 2-7** and select the **Influence insights by month** query. Make the same selections as for **Manager effectiveness**.
@@ -94,26 +94,26 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 11. If prompted to select a program, select **Power BI**.
 12. When prompted by Power BI:
 
-    1. In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    1. In **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective URL field.
-    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
     4. Select **Load** to import the query results into Power BI. Loading these large files might take a few minutes up to a few hours to complete.
 
-13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+13. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-15. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+15. Select and enter credentials for the organizational account that you use to sign in to Viva Insights, and then select **Save**.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >You must sign in to Power BI with the same account you use to access Viva Insights.
 
 16. Select **Connect** to prepare and load the data, which can take a few minutes to complete. After the data loads, you'll see visualization charts in Power BI about manager effectiveness within your organization.
 
 ## Customize report
 
-After the Manager effectiveness dashboard is set up and populated with Workplace Analytics data in Power BI, you are prompted to select the following attribute values.
+After the Manager effectiveness dashboard is set up and populated with Viva Insights data in Power BI, you are prompted to select the following attribute values.
 
 * **Individual contributor attribute** - Select the attribute values that identify employees as individual contributors who do not manage people within your organization.
 * **Manager indicator attribute** - Select the attribute values that identify managers who manage people within your organization, such as **Mngr** and **Mngr+**.

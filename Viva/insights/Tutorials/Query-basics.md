@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics query overview
-description: Workplace Analytics offers a number of queries for custom data analysis
+title: Query overview
+description: Advanced insights with Viva Insights offers a number of queries for custom data analysis
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,9 +17,7 @@ audience: Admin
 
 # Queries overview
 
-[![Viva announcement.](../images/viva-banner-2.png)](https://www.microsoft.com/microsoft-viva/insights)
-
-The Query designer in Workplace Analytics offers a few different custom query options, including: [Person](#person-query), [Meeting](#meeting-query), [Group-to-group](#group-to-group-query), [Person-to-group](#person-to-group-query), [Peer comparison](#peer-comparison-query), and [Network](#network-queries) queries. Each query type can help you investigate and answer specific business questions. The different query types give you the flexibility to look at data from multiple perspectives and generate powerful insights. You can also combine output from two different queries to gain even more in-depth insights.
+The Query designer offers a few different custom query options, including: [Person](#person-query), [Meeting](#meeting-query), [Group-to-group](#group-to-group-query), [Person-to-group](#person-to-group-query), [Peer comparison](#peer-comparison-query), and [Network](#network-queries) queries. Each query type can help you investigate and answer specific business questions. The different query types give you the flexibility to look at data from multiple perspectives and generate powerful insights. You can also combine output from two different queries to gain even more in-depth insights.
 
 With these queries, you can:
 
@@ -35,7 +33,7 @@ The results of any queries that you've already run remain available to you, even
 
 ## Capacity model
 
-You can subscribe a tenant to using the advanced insights and tools in Workplace Analytics through the Capacity model where the tenant consumes capacity units based on their volume of query usage.
+You can subscribe a tenant to using the the advanced insights app through the Capacity model where the tenant consumes capacity units based on their volume of query usage.
 
 The appearance and behavior of the pages for creating and running queries and of the query results page will depend on whether your tenant is subscribed to the Workplace Analytics SKU or to the Viva Insights SKU.
 
@@ -105,7 +103,7 @@ See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
 
 ### Network queries
 
-You can use Network queries in Workplace Analytics to find out who the best-connected people are in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
+You can use Network queries in the advanced insights app to find out who the best-connected people are in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
 See [Network person queries](ona-person-query.md) and [Network person-to-person queries](ona-person-to-person-query.md) for details.
 
@@ -135,7 +133,7 @@ When you create a new query or edit an existing query, you can select the metric
 
 ## Query templates
 
-Workplace Analytics includes a number of predefined query templates to help you get started with the Query designer. For details, see [Templates](power-bi-intro.md).
+The advanced insights app includes a number of predefined query templates to help you get started with the Query designer. For details, see [Templates](power-bi-intro.md).
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
@@ -144,7 +142,7 @@ Workplace Analytics includes a number of predefined query templates to help you 
 
 ## Videos
 
-The following videos were used to train analysts on how to run queries in Workplace Analytics.
+The following videos were used to train analysts on how to run queries.
 
 >[!Note]
 >These videos were recorded before the new [Query designer](query-designer.md) was available.

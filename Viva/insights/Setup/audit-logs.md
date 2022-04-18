@@ -19,7 +19,7 @@ audience: Admin
 
 The Microsoft 365 audit logs are generated and accessed in the Microsoft 365 portal. As an Exchange admin, you can access these logs to audit or track general user activities and actions, such as to see who accessed, tried to access, or modified data.
 
-These logs include an audit section for Microsoft Viva Insights (formerly Workplace Analytics) activity, which typically includes sensitive data. You can monitor and track your organizational data for all user actions to ensure compliance with your organization's privacy and security policies.
+These logs include an audit section for activity within the advanced insights app that's available with Microsoft Viva Insights, which typically includes sensitive data. You can monitor and track your organizational data for all user actions to ensure compliance with your organization's privacy and security policies.
 
 ### Access requirements
 
@@ -52,7 +52,7 @@ Before you can search the Microsoft 365 audit log, you (or another admin) must f
 3. In the **Start date** section, select a date range. 
    * To use the maximum date range of 90 days, select the current date and time for the start date. Otherwise, an error occurs about the start date being earlier than the end date. 
    * If you turned auditing on in the last 90 days, the date range can't start before auditing was turned on.
-4. To return activities for all users (and service accounts), leave the **Users** field blank. Or you can enter one or more user names (the account email they use to sign in to Workplace Analytics) in the **Users** field to only see those user activities.
+4. To return activities for all users (and service accounts), leave the **Users** field blank. Or you can enter one or more user names (the account email they use to sign in to the advanced insights app) in the **Users** field to only see those user activities.
 
     ![Audit log users.](../Images/WpA/privacy/audit-users.png)
 
@@ -95,7 +95,7 @@ Updated data access setting |Admin updated data access settings
 Activity |Description
 -----|-----------
 User logged in |User logged in to Viva Insights with a valid [user role](../use/user-roles.md)
-User logged out |User selected to log out of Workplace Analytics
+User logged out |User selected to log out of the app
 
 **Query data access (analyst) activities**
 
