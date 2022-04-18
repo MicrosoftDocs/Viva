@@ -1,7 +1,7 @@
 ---
 
-title: Query auto-refresh in Workplace Analytics
-description: Describes the query auto-refresh option in Workplace Analytics
+title: Query auto-refresh in Viva Insights
+description: Describes the query auto-refresh option in Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Query auto-refresh
 
-As an analyst, you can run different kinds of query data in Workplace Analytics, such as person, meeting, group-to-group, person-to-group, and network queries to get a snapshot of workplace behavior.
+As an analyst, you can run different kinds of query data in Viva Insights, such as person, meeting, group-to-group, person-to-group, and network queries to get a snapshot of workplace behavior.
 
 ## One-time snapshot
 
@@ -25,7 +25,7 @@ You can run a query as a one-time event where you set it up, run it one time, an
 
 ## Auto-refresh shows trends over time
 
-Query results, especially when viewed in a data analysis tool, can uncover dynamic patterns because employee workplace behavior evolves over time. To isolate one instance of evolving behavior over time, you can use the applicable query multiple times, on a regular schedule. To do this, you can use the auto-refresh feature for Workplace Analytics data.
+Query results, especially when viewed in a data analysis tool, can uncover dynamic patterns because employee workplace behavior evolves over time. To isolate one instance of evolving behavior over time, you can use the applicable query multiple times, on a regular schedule. To do this, you can use the auto-refresh feature for Viva Insights data.
 
 ## Create a query with the auto-refresh option
 
@@ -38,7 +38,7 @@ Query results, especially when viewed in a data analysis tool, can uncover dynam
 
 Follow these steps only for a query that has already run and for which auto-refresh is currently in effect.
 
-1. In Workplace Analytics, go to **Query designer** > **Results**.
+1. In the advanced insights app, go to **Query designer** > **Results**.
 2. In the query's row, select the **ellipsis**.
 3. In the **More options** menu, select **Turn off auto-refresh**:
 
@@ -48,18 +48,18 @@ Follow these steps only for a query that has already run and for which auto-refr
 
 Follow these steps only for results that have already run and for which auto-refresh is not currently in effect.  
 
-1. In Workplace Analytics, open **Query designer** > **Results**.
+1. In the advanced insights app, open **Query designer** > **Results**.
 2. In the query's row, select the **ellipsis**.
 3. In the **More options** menu, select **Turn on auto-refresh**:
 
    ![Turn on auto-refresh.](../images/wpa/tutorials/auto-refresh-options-off-48.png)
 
-Alternatively, you can renew an auto-refresh query within the [notifications panel](../use/wpa-notifications.md) in Workplace Analytics.
+Alternatively, you can renew an auto-refresh query within the [notifications panel](../use/wpa-notifications.md) in the advanced insights app.
 
 ## Auto-refresh details
 
 * When you create the query, you run it for the first time. As it runs, it uses data from the exact date range that you defined.
-* The query automatically runs again, once for every time period that you selected (such as week or month). Each run coincides with the date on which Workplace Analytics refreshes mail and calendar data from Microsoft Exchange.
+* The query automatically runs again, once for every time period that you selected (such as week or month). Each run coincides with the date on which the advanced insights app refreshes mail and calendar data from Microsoft Exchange.
 * Each time the query runs automatically, its date range advances by one unit of the time period that you selected (such as week or month). That is,both its start date and its end date shift shift to a later date by the same amount of time.  
 
 ### Auto-refresh stop, restart, and expiration
@@ -79,11 +79,11 @@ The **Is Recurring** column in **Query designer** > **Results** shows whether au
 Generally, an organization can have a maximum of 20 auto-refresh queries. If your organization has already reached this limit and you need a new auto-refresh query, you have the following options:
 
 * Delete an existing auto-refresh query or turn auto-refresh off for a query (in **Query designer** > **Results**). Then, create your new auto-refresh query.
-* Contact Workplace Analytics to request additional auto-refresh queries. To do this, follow the instructions for "Workplace Analytics Support" in [Get support](../overview/getting-support.md).
+* Contact Viva Insights to request additional auto-refresh queries. To do this, follow the instructions for "Viva Insights Support" in [Get support](../overview/getting-support.md).
 
 ### System turns off a query's auto-refresh option
 
-Two circumstances can cause Workplace Analytics to turn off the auto-refresh option for a query:
+Two circumstances can cause the advanced insights app to turn off the auto-refresh option for a query:
 
 * [Columns missing from organizational data](#columns-missing-from-organizational-data)
 * [Excluded or hashed columns](#excluded-or-hashed-columns)
@@ -99,23 +99,23 @@ Admins regularly upload files that contain organizational data. In one of the up
 
 If the admin chooses "replace," they can retain the existing data schema or use a new one. Introducing a new data schema can cause a schema mismatch with the original schema. This happens, for example, when the new schema is missing one or more columns that were present in the old schema.
 
-If a query that is set to auto-refresh uses a column that is missing in the new schema, Workplace Analytics turns the auto-refresh option for this query to off.
+If a query that is set to auto-refresh uses a column that is missing in the new schema, the advanced insights app turns the auto-refresh option for this query to off.
 
 #### Excluded or hashed columns
 
 While uploading organizational data, admins can set report options in ways that affect the inclusion and display of data columns. For example, they can set a column to "Exclude from report" (which omits the column) or to "Hash in report" (which masks the true value with a meaningless value).
 
-If a query set to auto-refresh uses a column that becomes excluded or hashed, Workplace Analytics turns the auto-refresh option for this query to off.
+If a query set to auto-refresh uses a column that becomes excluded or hashed, the advanced insights app turns the auto-refresh option for this query to off.
 
 #### Options for admins
 
-If either of these schema-mismatch situations arises, after you finish mapping fields, Workplace Analytics shows a warning message about your "upload has certain issues that might affect execution of the auto refresh queries."
+If either of these schema-mismatch situations arises, after you finish mapping fields, you'll see a warning message about your "upload has certain issues that might affect execution of the auto refresh queries."
 
 If you see this message, go to [If expected columns are missing or excluded](../setup/upload-organizational-data2.md#if-expected-columns-are-missing-or-excluded) for more information.
 
 #### Options for analysts
 
-If either of these schema-mismatch situations arises, Workplace Analytics notifies you in various ways. You can then change the affected auto-refresh queries to run them again or access the most recently completed results.
+If either of these schema-mismatch situations arises, the advanced insights app notifies you in various ways. You can then change the affected auto-refresh queries to run them again or access the most recently completed results.
 
 * In **Results**, a red "stopped" icon shows in the **Status** column when a query has been stopped. A yellow icon shows for non-auto refresh queries that, as a result of the schema changes, also cannot run.
 * In the **Select filters** and **Organizational data** sections of a query-authoring page, the current filters and the output columns that are no longer present are shown:
@@ -149,7 +149,7 @@ In **Results**, you can copy a link to the results and then use them in Power BI
 5. Select **OK**.
 6. Enter your client credentials, and then select **Connect**.
 
-After you do this, Power BI maintains a connection to this query in Workplace Analytics. In the future, to visualize the query's current results, open the Workplace Analytics project in Power BI and select **Refresh**.
+After you do this, Power BI maintains a connection to this query in the advanced insights app. In the future, to visualize the query's current results, open the Viva Insights project in Power BI and select **Refresh**.
 
 ### Related topics
 

@@ -1,6 +1,6 @@
 ---
-title: Explore meetings overview data in Workplace Analytics
-description: Overview of meetings data in Workplace Analytics
+title: Explore meetings overview data in Viva Insights
+description: Overview of meetings data in Advanced insights with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
@@ -22,7 +22,7 @@ audience: Admin
 
 ## Access to Meetings overview
 
-**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) to view it in Workplace Analytics.
+**Meetings overview** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Meetings overview](https://workplaceanalytics.office.com/en-us/Home/Agility/MeetingsOverview) to view it in Viva Insights.
 
 ## Low-quality meeting hours
 
@@ -124,4 +124,4 @@ For example, the following scenarios of conflicting meetings are counted differe
 ## Related topics
 
 * [Page settings](../use/explore-page-settings.md)
-* [Workplace Analytics Charts](../use/chart-types.md)
+* [Advanced insights charts](../use/chart-types.md)

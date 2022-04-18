@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for focused work
-description: Workplace Analytics shares best practices with managers about the importance of scheduled time to focus
+description: Get best practices for managers about the importance of scheduled time to focus
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -55,11 +55,11 @@ Select a day, cadence, or time period that your team can block to focus on work,
 
 Each quarter, reassess the need for recurring meetings that take up the most time. Try cancelling one or two, you can always add them back if they're missed. See [How to finally kill the useless, recurring meeting](https://insights.office.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/) for more about this.
 
-#### Try out a MyAnalytics focus plan
+#### Try out a focus plan
 
-Encourage employees to use [MyAnalytics Focus plan](../personal/use/focus-plan.md) to automatically block focus time on their calendars to ensure that they have enough time to get work done.
+Encourage employees to use a [Focus plan](../personal/use/focus-plan.md) to automatically block focus time on their calendars to ensure that they have enough time to get work done.
 
 ## Related topics
 
-* [Workplace Analytics best practices](best-practices.md)
-* [MyAnalytics focus](../personal/use/focus.md)
+* [Viva Insights best practices](best-practices.md)
+* [Focus](../personal/use/focus.md)

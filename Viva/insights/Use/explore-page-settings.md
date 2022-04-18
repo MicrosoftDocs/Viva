@@ -1,7 +1,7 @@
 ---
 
 title: Explore the stats page settings
-description: Describes the page settings for Explore the stats in Workplace Analytics
+description: Describes the page settings for Explore the stats in Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Settings and filters for Explore the stats
 
-You can select **Settings and filters** to view **Page settings** on the right side of an Explore the stats page in Workplace Analytics. You can use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees.
+You can select **Settings and filters** to view **Page settings** on the right side of an Explore the stats page in Viva Insights. You can use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees.
 
 ![Settings and filters.](../images/wpa/use/settings-and-filters-2.png)
 
@@ -43,7 +43,7 @@ After you change page settings or filters:
 
 ![Chart settings.](../images/wpa/use/chart-settings.png)
 
-The next time you view Explore the stats data in Workplace Analytics, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
+The next time you view Explore the stats data in Viva Insights, it shows the charts with the default page settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
 ## To change the date range
 
@@ -87,7 +87,7 @@ By default, the Explore the stats data is filtered to show active employees only
 
 ## Time investors
 
-This section is only available for applicable Explore the stats, such as External collaboration. Time investors are the people in your company who have been assigned a Workplace Analytics license.
+This section is only available for applicable Explore the stats, such as External collaboration. Time investors are the people in your company who have been assigned a Viva Insights license.
 
 By default, Time investors are grouped by organization, but you can also group them by domain, engagement, or other options. The settings you select in the this section only apply to time investors.
 

@@ -1,7 +1,7 @@
 ---
 
 title: wpa R package
-description: Describes the wpa R package, an open-source package of 100+ functions in the R data-analysis language for use with Workplace Analytics 
+description: Describes the wpa R package, an open-source package of 100+ functions in the R data-analysis language for use with Viva Insights 
 author: madehmer
 ms.author: helayne
 ms.topic: troubleshooting
@@ -17,7 +17,7 @@ audience: Admin
 
 # The wpa R package 
 
-The [_wpa R package_](https://microsoft.github.io/wpa/) is an open-source repository of more than 100 functions that provide low-code pre-built analyses. Analysts can use this package to execute custom analyses that go beyond the insights that [Templates](power-bi-intro.md) and Workplace Analytics [Query designer](query-designer.md) make available. These analyses can help leaders go deeper into the data that Workplace Analytics provides to solve more specific problems.
+The [_wpa R package_](https://microsoft.github.io/wpa/) is an open-source repository of more than 100 functions that provide low-code pre-built analyses. Analysts can use this package to execute custom analyses that go beyond the insights that [Templates](power-bi-intro.md) and Viva Insights [Query designer](query-designer.md) make available. These analyses can help leaders go deeper into the data that Viva Insights provides to solve more specific problems.
 
 >[!Note]
 >R is an open-source statistical programming language and one of the most popular toolkits for data analysis and data science. For users of the R language, a "package" is a unit of sharable code that's organized into libraries.  
@@ -26,7 +26,7 @@ The [_wpa R package_](https://microsoft.github.io/wpa/) is an open-source reposi
 
 This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R or Python. By using the _wpa R package_, an analyst can:
 
-* **Run prebuilt analysis and visualizations** of Workplace Analytics data with the ability to make settings to use organizational data variables and maintain privacy thresholds.
+* **Run prebuilt analysis and visualizations** of Viva Insights data with the ability to make settings to use organizational data variables and maintain privacy thresholds.
 
 * **Obtain outputs in multiple formats.** Analysts can easily export these outputs into any format required, including clipboard (copy & paste), Excel, .csv, and – for plots – .png, .svg, and .pdf.
 
@@ -34,7 +34,7 @@ This R package is intended for use by analysts and data scientists who are inter
 
 * **Generate prebuilt interactive HTML reports**, which includes reports on data validation, subject-line text mining, and key collaboration metrics.
 
-* Make use of **advanced analytics functions**, such as text mining, network analysis, and hierarchical clustering, all designed specifically for Workplace Analytics metrics.  
+* Make use of **advanced analytics functions**, such as text mining, network analysis, and hierarchical clustering, all designed specifically for Viva Insights metrics.  
 
 The following illustration shows the experience of creating a visualization of collaboration hours with the _wpa R package_:
 
