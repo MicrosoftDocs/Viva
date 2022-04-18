@@ -56,6 +56,4 @@ You also can access weighting from the edit page.
 
 :::image type="content" source="../media/goals/add-weights-edit.gif" alt-text="Weighted Objectives 5":::
 
-All subscriptions have the ability to set key result progress to not contribute to its parent. Other weights are a feature of our enterprise subscription.
-  
-If you have an enterprise subscription and would like to have this enabled for your organization, have an account admin reach out to [support@ally.io](mailto:support@ally.io) with the request.
+All subscriptions have the ability to set key result progress to not contribute to its parent.
