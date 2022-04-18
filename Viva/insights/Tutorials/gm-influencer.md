@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for influencers
-description: Workplace Analytics shares best practices with managers about influencers
+description: Viva Insights shares best practices with managers about influencers
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -41,7 +41,7 @@ Influencers are well-connected employees in your organization who help facilitat
 
 #### Identify and use influencer teams
 
-Utilize Workplace Analytics to identify influencer groups or teams and use their network to share ideas, knowledge, and habits. The following are some ways to do so:
+Utilize Viva Insights to identify influencer groups or teams and use their network to share ideas, knowledge, and habits. The following are some ways to do so:
 
 * Use influencer groups to quickly spread information across the organization.
 * Identify projects that highlight the importance of influencers and use them as examples of how influencers can be used to quickly connect disparate teams.
@@ -63,4 +63,4 @@ Leadership programs typically include people on traditional paths. Consider addi
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)
