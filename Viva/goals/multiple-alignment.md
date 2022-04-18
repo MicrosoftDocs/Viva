@@ -62,4 +62,3 @@ Viva Goals now allows enabling both the Multiple Alignment & [Private Objectives
 
 - No Key Result of a Private Objective will be allowed to be Multi-aligned.
 
-If you have an enterprise subscription and would like to have this enabled for your organization, have an account admin reach out to [support@ally.io](mailto:support@ally.io) with the request.
