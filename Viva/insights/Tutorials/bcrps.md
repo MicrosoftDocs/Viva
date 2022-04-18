@@ -22,7 +22,7 @@ Organizations around the world are responding to sudden changes in the way they 
 The Business continuity report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how collaboration for an organization has changed over the last six months.
 
 >[!Note]
->Organizations who have at least 100 active Exchange Online users with active [MyAnalytics licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
+>Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
 
 You are encouraged to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand if employees are:
 
@@ -61,4 +61,4 @@ You can use Microsoft Viva Insights to get more detailed analysis and additional
 
 #### Q4 Who is eligible to see this report?
 
-Organizations who have at least 100 active Exchange Online users with active [Viva Insights (including MyAnalytics) licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
+Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.

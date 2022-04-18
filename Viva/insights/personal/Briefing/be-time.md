@@ -15,9 +15,6 @@ manager: helayne
 ---
 # Plan your week
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you'll see a **What do you want to set aside time for** section in a Briefing email about next week. This helps you plan the week ahead for important activities that improve long term productivity and wellbeing.
 
 Select **Book** next one or more of the following to schedule it for each day during your work week:
@@ -35,7 +32,7 @@ For example, as shown in the following, you’d select **Book** next to **Catch 
 
 ## To enroll in focus time
 
-_**Applies to:** Enrollment in focus plan through the briefing email is currently available only to users who have the MyAnalytics service plan enabled._
+_**Applies to:** Enrollment in focus plan through the briefing email is currently available only to users who have a Viva Insights service plan enabled._
 
 In the **What do you want to set aside time for?** section of the Briefing email, you can easily sign up to have focus time automatically added to your Outlook calendar.
 

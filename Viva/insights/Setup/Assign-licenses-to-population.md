@@ -26,7 +26,7 @@ The Viva Insights sponsor works with the Viva Insights Administrator, Microsoft 
 
 Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
-After you have identified the population in scope, the global admin assigns Viva Insights or Workplace Analytics licenses to users in this population. Note that people can find out if they've been assigned a license; see [Subscription status](#subscription-status).
+After you have identified the population in scope, the global admin assigns Viva Insights licenses to users in this population. Note that people can find out if they've been assigned a license; see [Subscription status](#subscription-status).
 
 The assignment of licenses affects the measured population that is shown in **Data sources**. See [Origin of data counts](../use/office-365-data.md#origin-of-data-counts) for details.
 
@@ -35,7 +35,7 @@ The assignment of licenses affects the measured population that is shown in **Da
 
 ### Subscription status
 
-Microsoft 365 users might want to find out whether their collaboration data is being processed. First, they should know that Viva Insights in Workplace Analytics processes data only for users who've been assigned licenses. Next, they can determine if they have a license with the following steps.
+Microsoft 365 users might want to find out whether their collaboration data is being processed. First, they should know that the advanced insights app with Viva Insights processes data only for users who've been assigned licenses. Next, they can determine if they have a license with the following steps.
 
 #### Confirm an assigned license
 
@@ -73,7 +73,7 @@ If your organization has not fully migrated to Microsoft 365 Exchange Online, yo
 
 ## Appearance of newly licensed users
 
-The data that Viva Insights in Workplace Analytics uses is refreshed once a week, on Sunday. The new data is then processed, which appears one day later, on Monday. This includes the data records for licensed users. Therefore, if you add a user license on a Tuesday, that person will not show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
+The data that the advanced insights app with Viva Insights uses is refreshed once a week, on Sunday. The new data is then processed, which appears one day later, on Monday. This includes the data records for licensed users. Therefore, if you add a user license on a Tuesday, that person will not show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
 
 * The user is represented in the user counts that are shown in [Insights](../use/insights.md) under **My organization's data**.
 * Analysts can use [Query designer](../tutorials/query-designer.md) to get results that include data about this user's activities.

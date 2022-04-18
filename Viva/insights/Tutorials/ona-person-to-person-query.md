@@ -1,7 +1,7 @@
 ---
 
 title: Network person-to-person queries 
-description: Describes how to use Network person-to-person queries in Workplace Analytics to determine the metrics that measure ties between individuals in your organization
+description: Describes how to use Network person-to-person queries in Viva Insights to determine the metrics that measure ties between individuals in your organization
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -23,7 +23,7 @@ You can use the Organizational network analysis (ONA) queries to qualify a netwo
 
 A generic network tie is defined liberally: two people who've shared at least two [meaningful interactions](../use/glossary.md#meaningful-interaction-define) in the last four weeks.
 
-Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Workplace Analytics will classify it as either a **strong tie** or as a **diverse tie**.
+Some network connections represent significantly more close collaboration than the generic minimum of just two meaningful interactions. When a network connection represents significantly more close collaboration time, Viva Insights will classify it as either a **strong tie** or as a **diverse tie**.
 
 The difference between strong ties and diverse ties is determined by how many other network connections the two individuals have in common.
 
@@ -39,7 +39,7 @@ You can use the tie metrics in Network person-to-person queries. In the followin
 
 **Role** - Analyst
 
-1. In Workplace Analytics, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
+1. In the advanced insights app, select **Analyze** > **Query designer**, and then select **Get started** under **Query**.
 2. Select **Network: Person-to-person**.
 3. Select and change **Enter query name here** to a name, and then, optionally, enter a description for the query.
 4. For **Group by**, select a time-grouping option: **Month** or **Aggregated**. If you choose Monthly, the query results will contain one row with data for each month in the time period that you chose. If you choose **Aggregated**, the query results will contain one row for the entire time period that you chose.
@@ -148,7 +148,7 @@ _Query results example: Columns K through O_
 
 ### Derived attributes
 
-The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to Workplace Analytics](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
+The following organizational attribute, GroupId, is used in this query type. Note that this attribute is not among the organization data that [admins upload to the app](../setup/upload-organizational-data-1st.md). Rather, it is derived from the [ManagerId](../setup/prepare-organizational-data.md#managerid-define) attribute, which _is_ in the organizational hierarchy data that admins upload.
 
 Attribute (column header) | Description |
 ---------|----------|
