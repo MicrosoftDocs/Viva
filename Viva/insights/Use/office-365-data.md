@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics Microsoft 365 data
-description: What's available on the Microsoft 365 data sources page in Workplace Analytics 
+title: Viva Insights Microsoft 365 data
+description: What's available on the Microsoft 365 data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -26,10 +26,10 @@ As an admin or an analyst, you can use this page to confirm that your Microsoft 
 
 **Microsoft 365 data** includes the following:
 
-* **Measured employees** - The employees to whom your Viva Insights or Workplace Analytics admin assigned licenses during setup. After license assignments, Workplace Analytics extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Workplace Analytics didn't get data for a person, that person is licensed but not counted as a measured employee in Workplace Analytics. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.
+* **Measured employees** - The employees to whom your Viva Insights admin assigned licenses during setup. After license assignments, the advanced insights app extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. When the data extraction process is successful for these employees, they are included in your measured population. If extraction errors occur and Viva Insights didn't get data for a person, that person is licensed but not counted as a measured employee in Viva Insights. If you are an analyst or limited analyst, this is the population that you can analyze within Viva Insights. The number of measured employees can help determine whether you have good data coverage for analysis.
 
   >[!Note]
-  > Your admin can assign employees Workplace Analytics licenses as a group with Azure Active Directory (Azure AD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through Azure AD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
+  > Your admin can assign employees Viva Insights licenses as a group with Azure Active Directory (Azure AD). If this number seems inaccurate, confirm with your admin that only active employees are assigned licenses through Azure AD. For more details, see [Assign licenses](../setup/assign-licenses-to-population.md).
 
 * **Internal collaborators** - These are unmeasured employees who were included in extractions of Microsoft 365 data with whom the _measured_ employees collaborated. These people are not part of your measured population but are internal to your organization. Internal collaborators can include employees from other groups, vendors, or contractors that are working with your team and are included in the same internal domain as your team, but are not in your measured population.
 
@@ -47,7 +47,7 @@ Hover your cursor over the chart data to get more details and use the chart lege
 
 ## Origin of data counts
 
-In **Sources** > **Microsoft 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who might or might not have Workplace Analytics licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
+In **Sources** > **Microsoft 365 data**, you can see the current count of three categories of data. Most of this data originates with people in your organization, who might or might not have Viva Insights licenses. However, some data originates outside of your organization or comes from mailboxes of other types.
 
 Determining the origins of data also determines how to categorize it, as shown in the following flow chart.
 

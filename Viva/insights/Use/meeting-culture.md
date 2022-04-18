@@ -83,7 +83,7 @@ Emailing and chatting during meetings can lead to different interpretations of d
 
 According to [If you multitask during meetings, your team will, too](https://insights.office.com/productivity/multitask-meetings-team-will/): “Managers that frequently send emails during meetings are, according to our analysis, are 2.2 times more likely to have direct reports who also multi-task in meetings.” Ways to improve meetings:
 
-* Use [MyAnalytics insights to prepare for meetings](../personal/use/use-the-insights.md#prepare-for-your-meetings), which includes information about the meetings, related documents, and reminders to book preparation time.
+* Use [Viva Insights in Outlook to prepare for meetings](../personal/use/use-the-insights.md#prepare-for-your-meetings), which includes information about the meetings, related documents, and reminders to book preparation time.
 * When distracted by a thought to send an email during a meeting, add it quickly to your to-do list instead and move on. This provides satisfaction and can help you regain focus.
 
 For more best practices and change strategies, see [Best practices for meetings](../tutorials/gm-meetings.md).

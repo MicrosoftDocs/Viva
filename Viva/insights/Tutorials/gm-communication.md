@@ -1,9 +1,9 @@
 ---
 
-title: Best practices for efficient communication in Workplace Analytics
+title: Best practices for efficient communication
 description: Microsoft Viva Insights shares best practices with managers about communication with their teams
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 
@@ -15,7 +15,7 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Best practices for managers for efficient communication
+# Best practices for managers about efficient communication
 
 Different communication tools are suited for different means. While emails are great for recaps, updates, and other informational exchanges, it can slow down or muddle an important message. Choosing the right medium speeds information access and agility.
 
@@ -31,7 +31,7 @@ Based on the information presented in the article about [What email, IM, and the
 
 * Showcase the value in utilizing instant messages, such as [Chats in Microsoft Teams](https://support.microsoft.com/office/six-things-to-know-about-chat-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2) for quick questions.
 * Launch a [champions program](/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Microsoft Teams and can guide, teach, and train their peers.
-* Use [Power BI Microsoft Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
+* Use [Power BI Microsoft Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Viva Insights data, including instant messages, meeting, and email metrics.
 * Consider the nature of the conversation based on the subject and type of response needed and identify the appropriate medium for communication.
 * Encourage using instant messages for urgent questions to get what you need faster.
 * When dealing with a sensitive topic, a quick chat on the phone or in person is more ideal than volleying emails back and forth.
@@ -59,4 +59,4 @@ When introducing a new tool, help team members get comfortable and adopt quickly
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)

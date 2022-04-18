@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics Team Adoption -- Reinforce
-description: MyAnalytics Team Adoption by Kate Nowak -- Reinforce section
+title: Viva Insights Team Adoption -- Reinforce
+description: Viva Insights Team Adoption by Kate Nowak -- Reinforce section
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -33,4 +33,4 @@ Linking behaviors to performance reviews and thus to financial incentives is an 
 * Restructure a current highly visible system or process, such as a weekly team meeting or periodic business review, to reflect new team-collaboration norms. 
 * Require managers and executive sponsors to commit to consistently and visibly role-modeling new behaviors.
 * Continue to offer learning opportunities – for example, send articles about healthy work habits and offer specific additional training around meeting facilitation or writing.
-* Share the link to [MyAnalytics Individual adoption](Indiv-adopt-get-started.md) with your team so that they can continue to use MyAnalytics on their own to sustain new habits and to build even more habits.
+* Share the link to [Viva Insights Individual adoption](Indiv-adopt-get-started.md) with your team so that they can continue to use Viva Insights on their own to sustain new habits and to build even more habits.

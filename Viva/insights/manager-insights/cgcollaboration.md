@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for collaboration across groups
-description: Workplace Analytics shares best practices with managers about the importance of cross-group collaboration
+description: Get best practice recommendations for managers about the importance of cross-group collaboration
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -64,6 +64,6 @@ You can coordinate and assign liaison roles to communicate across teams and with
 
 Create a space for people with similar interests to share ideas, knowledge, and resources.
 
-#### Enable MyAnalytics network insights
+#### Enable personal network insights
 
 Empower individuals to take advantage of the metrics and suggestions on how to improve their connections by using [Network insights](../personal/use/network.md).
