@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how to have contextual discussions on OKRs with users by quickly sharing objectives with a note."
 ---
 
-# Share Objectives to Slack and Email
+# Share Objectives to Email
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
@@ -28,15 +28,15 @@ When working on Objectives and Key Results (OKR), there may be several scenarios
 
 1. **Provide visibility to stakeholders:** Share a quick update on the status and progress of my team's objective(s) to keep the everyone up to date.
 
-2. **Share a win**: Share an update on a shipped feature, closed funding, or winning a deal, directly to a public slack channel or to a stakeholder over email.
+2. **Share a win**: Share an update on a shipped feature, closed funding, or winning a deal, directly to a stakeholder over email.
 
-3. **Nudge users**: As a Team owner/ OKR champion if you have an important meeting around the corner and you need an update from one of the OKR owners and want to nudge them by quickly sharing the OKR directly to the user in slack.
+3. **Nudge users**: As a Team owner/ OKR champion if you have an important meeting around the corner and you need an update from one of the OKR owners and want to nudge them by quickly sharing the OKR directly to the user.
 
 ## Share Objectives
 
 1. To share objectives from the OKRs page, select the share icon on the top right corner of the page and select **Share Summary**.
 
-2. Enter emails or slack channels that you want to share the objectives within the **recipients** field. You can also choose to share the update to all the users who are following the OKRs you're sharing by checking the **Include followers ...** checkbox.
+2. Enter emails that you want to share the objectives within the **recipients** field. You can also choose to share the update to all the users who are following the OKRs you're sharing by checking the **Include followers ...** checkbox.
 
 3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives.
 
@@ -45,11 +45,7 @@ When working on Objectives and Key Results (OKR), there may be several scenarios
     > [!NOTE]
     > To send yourself a preview of the message that will be shared, select **Send Preview**.
 
-4. Once you're ready, select **Share** and the objectives will be sent to the intended recipients.
-
-    :::image type="content" source="../media/goals/Quick share 3.gif" alt-text="Share Objectives 2":::
-
-Alternatively, you can share an update directly to any email that looks like the following:
+4. Once you're ready, select **Share** and the objectives will be sent to the intended recipients
 
 :::image type="content" source="../media/goals/viva-goals-share-objectives-image-2.png" alt-text="Share Objectives 3":::
 
@@ -58,5 +54,3 @@ Alternatively, you can share an update directly to any email that looks like the
 You can share any objective by clicking on the **Share** button available on the objective's quick view or the objective detail page.
 
 :::image type="content" source="../media/goals/Share-objectives-gif-2.gif" alt-text="Share Objectives 4":::
-
-The recipient will receive a notification in slack or email depending on whether the recipient user has slack or not.
