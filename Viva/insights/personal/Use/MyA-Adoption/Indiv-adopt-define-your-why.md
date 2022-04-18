@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics Individual Adoption --Define your why
-description: MyAnalytics Individual Adoption by Kate Nowak --Define your why
+title: Viva Insights Individual Adoption --Define your why
+description: Viva Insights Individual Adoption by Kate Nowak --Define your why
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual

@@ -43,7 +43,7 @@ The Executive insights help you reflect on how effectively you spend your time i
 
 In a chart, this section shows the relative amount of time that you spent in meetings of different categories.
 
-   ![MyAnalytics Collaboration Weekly Average.](../../Images/mya/use/percentage-breakdown.png)
+   ![Collaboration Weekly Average.](../../Images/mya/use/percentage-breakdown.png)
 
 In the chart, select a category to find out more.     
 

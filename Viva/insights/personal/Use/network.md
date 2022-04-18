@@ -1,6 +1,6 @@
 ---
-title: MyAnalytics network page
-description: Learn how to use MyAnalytics to improve your work relationships and grow your network
+title: Viva Insights Network page
+description: Learn how to use Viva Insights to improve your work relationships and grow your network
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -14,9 +14,9 @@ manager: helayne
 audience: user
 ---
 
-# Network
+# Personal network insights
 
-The Network page on the [MyAnalytics dashboard](dashboard-2.md) shows how many people you actively connect with in the last month and gives you suggestions on how to improve connections with your most important contacts, such as your manager or your direct reports.
+The Network page on the [Dashboard](dashboard-2.md) shows how many people you actively connect with in the last month and gives you suggestions on how to improve connections with your most important contacts, such as your manager or your direct reports.
 
 It also shows your top collaborators in either a map or list view, enables you to view details about the important people in your network, and suggests people to add to your important list of people and grow your network.
 
@@ -28,16 +28,16 @@ These insights are based on your recent activity at work. Select **View Suggesti
 
 ## Important people
 
-These are people you marked as important in MyAnalytics. MyAnalytics will help you track your communications with these people and help you maintain healthy work relationships with them. MyAnalytics will remind you of unread emails from these people and tasks you need to do for them.
+These are people you marked as important in Viva Insights. Viva Insights will help you track your communications with these people and help you maintain healthy work relationships with them. Viva Insights will remind you of unread emails from these people and tasks you need to do for them.
 
 **To add a person as important**
 
-1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
+1. Open your [Dashboard](https://myanalytics.microsoft.com), and then select **Network**.
 2. If the person is listed in the **Suggested people to add** section, select the star under the name to mark the person as important. If the person is not listed, use the search tool at top right of your important people list to search for the person's name, and then select the star next to the name to the list.
 
 **To remove a person from your important list**
 
-1. Open your [MyAnalytics dashboard](https://myanalytics.microsoft.com), and then select **Network**.
+1. Open your [Dashboard](https://myanalytics.microsoft.com), and then select **Network**.
 2. In the **Important people** section, select **Show all**.  
 3. In the person's card, select the star to remove them from the list.
 
@@ -47,7 +47,7 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 
 * An **active collaborator** is a coworker you collaborated with in the past four weeks, whereas **total collaborators** uses activity over the past year.
 
-* An **important collaborator** is a coworker who you selected as important in MyAnalytics.
+* An **important collaborator** is a coworker who you selected as important in Viva Insights.
 
 * **Total time** is an estimation of the number of hours you spent in meetings, email, chats, and calls with that person in the last four weeks (both during and outside of your working hours).
 
@@ -64,7 +64,3 @@ These are people you marked as important in MyAnalytics. MyAnalytics will help y
 * **Make time for networking**: Making time to foster relationships and grow your network has proven to contribute to professional advancement. A team partner study showed a correlation between successful salespeople and large networks. The top salespeople boasted internal networks that were 33% larger than those who performed below average. In this case, an investment in meaningful coworker relationships translated to higher performance.
 
 * **Spend more time with important collaborators**: Spending more time with the people in your network who align with your top-priority tasks at work can improve team collaboration and increase project success. Consider scheduling just one more weekly, reoccurring meeting with these people.
-
-## Related topics
-
-[MyAnalytics dashboard](../use/dashboard-2.md)
