@@ -32,7 +32,7 @@ Say, for example, a Product Manager links the objective (‘Improve product stab
 The Engineering team resolves to fix 50 UI bugs in a quarter. They create a project for the epic under which all bugs get filed, align the project with an objective, and set the target of their KPI success metric to 50. As the number of bugs filed under the epic is resolved, the progress gets automatically updated in the Viva Goals project and the objective. Every member of the Engineering team can easily get clarity and measure how their work contributed to the objective’s progress. (‘Improve product stability’) 
 
 > [!NOTE]
-> The Jira App - Viva Goals integration works only with Viva Goals projects currently. To enable Projects in Viva Goals, click on the 'OKR Model Configuration' section in the Admin Dashboard and select the 'Enable Projects' checkbox and save.
+> The Jira App - Viva Goals integration works only with Viva Goals projects currently. To enable Projects in Viva Goals, click on the 'OKR Model Configuration' section in the Admin Dashboard and select the 'Enable Projects' checkbox and save. [Learn more about Viva Goals projects](https://help.ally.io/en/articles/4224975-what-are-projects).
 
 ## Pre-requisites to set up the application
 
