@@ -32,7 +32,6 @@ The resources in this section will help you learn more about what Viva Goals is 
 |If you are looking for this information  |Go to this resource  |
 |---------|---------|
 |Learn about OKRs     |[Get to know OKRs](get-to-know-okrs.md)         |
-|What are OKRs     |What are OKRs         |
 |Learn about defining your team     |Define your team         |
 |Learn about your rollout plan     |Determine your rollout plan         |
 |   |         |
