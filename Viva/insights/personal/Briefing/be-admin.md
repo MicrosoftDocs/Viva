@@ -19,9 +19,6 @@ audience: Admin
 
 # Configure Briefing email
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 As the admin, you can configure Briefing email for your organization at the [user](#user-level-configuration) or [tenant level](#tenant-level-configuration). You can set the default state for all users in your tenant as opted in or opted out in the Microsoft 365 admin center, or you can enable or disable the Briefing email for a specific user or multiple users with PowerShell.
 
 ## Prerequisites

@@ -54,7 +54,7 @@ Each meeting card title includes the meeting title, the organizer, the start tim
 
 ## Track email and document open rates
 
-_**Applies to**: This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md)._
+_**Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
 
 Viva Insights can tell you how many people have opened your email and the average time they spent reading that email. In general, it informs you about email that you sent to five or more Microsoft 365 users who are internal to your organization. For more information about which email messages are reported about, see [Reporting details](#reporting-details).
 
@@ -83,7 +83,7 @@ Viva Insights does not report about email messages in the following categories:
 
 #### Open rate
 
-MyAnalytics respects user privacy. For this reason, the Viva Insights add-in does not show information about individual recipients, and when necessary to protect privacy, it reports approximated values only.
+Viva Insights respects user privacy. For this reason, the Viva Insights add-in does not show information about individual recipients, and when necessary to protect privacy, it reports approximated values only.
 
 Within 30 minutes of when you sent qualifying email, the Viva Insights add-in  reports the actual or an approximated open rate, as described here:
 
@@ -127,11 +127,11 @@ Within 30 minutes of when you sent qualifying email, the Viva Insights add-in  r
 
 ## Track email open rates
 
-_**Applies to**: MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [MyAnalytics plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq#q4-how-can-i-find-out-what-my-plan-is.md)_
+_**Applies to**: Viva Insights elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq#q4-how-can-i-find-out-what-my-plan-is.md)_
 
 Emails are the backbone of work communications. Better email communication can improve productivity and information sharing and speed up decision making. This insight gives you feedback on how well your sent emails are received.
 
-**Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. MyAnalytics respects user privacy; this is why:
+**Track email open rates** can tell you how many people have opened your email and the average time they spent reading that email. This information can help you follow up with recipients if needed and/or tailor your communication style to get the job done. Viva Insights respects user privacy; this is why:
 
  * Not all emails are eligible (For more information about eligible sent emails, see [Eligibility Criterion]())
  * Approximated values are reported, and
@@ -246,7 +246,7 @@ This opens a panel that displays insights for each of your suggested follow-up t
 | **Follow up snapshot** | A snippet of text related to the follow-up
 | **Follow up** | Select this to open the relevant email so that you can follow up on the task
 | **Already done** | Select this to mark the follow-up as completed. Follow-ups disappear after two weeks or after you mark them as done.
-| **Not a follow up** | Select this to mark the insight as not a follow-up and remove it from your list. This also helps MyAnalytics improve its detection accuracy.
+| **Not a follow up** | Select this to mark the insight as not a follow-up and remove it from your list. This also helps Viva Insights improve its detection accuracy.
 | **Add to To Do** | Select this to add the task to [Microsoft To Do](https://todo.microsoft.com/tasks/) so that you can catch up later.<br><br> This tool can make your days more manageable and reduce the stress of things falling through the cracks. It can also help effectively prioritize and even delegate work, which can lead to higher productivity.
 
 ## Book time to focus
@@ -270,7 +270,7 @@ This opens a panel that displays all the time available to focus in the coming w
 | **Date/Time** &emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp;| Shows the date and time of the available focus time that you can book. |
 | **+** | Select this to add time to your calendar as focus time. |
 | **Pencil icon** | Say you want to focus on “Sales pitch” for two hours. Select the pencil icon, change the “Focus time” label to “Sales pitch,” and then click (+). This books a two-hour appointment on your calendar with title “Sales pitch.”<br><br>You can set priority contacts in Teams to ensure that you don’t miss important messages during focus time. |
-| **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. MyAnalytics will respect your preferences when it proposes focus time. |
+| **Book all** | This books all available focus time at once, setting you up with protected time throughout the week. <br><br> Use [Set lunch hours](#set-lunch-hours) to set your lunch hour preferences. Viva Insights will respect your preferences when it proposes focus time. |
 
 ## Catch up on email
 
@@ -321,7 +321,7 @@ This opens a panel that displays insights for each document shared with you in t
 
 ## Add important people
 
-You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, MyAnalytics will remind you when you have tasks to do for these important people or unread email from them.
+You might receive emails and tasks from various people but some items might deserve more attention more than others. For example, an outstanding task from your manager or a message from a key customer would likely be of higher priority. Based on your collaboration patterns, **Add important people** can suggest that you mark some of your contacts as important; afterwards, Viva Insights will remind you when you have tasks to do for these important people or unread email from them.
 
 In the **Viva Insights** pane, select **Add important people**:
 
@@ -335,14 +335,14 @@ This opens a panel with suggestions to mark a recommended contact as important:
 
 | Card section | Notes | Recommendations |
 | ------ | ------ | ------ |
-| **Name and icon** | The person whom MyAnalytics recommends to mark as Important
-| **Mark as important** &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;  &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;| Select this to mark the suggested contact as important. MyAnalytics will then help you stay on top of outstanding tasks, unread documents, and email from your important people. | Consider marking your top collaborators and contacts as important so that you are always aware of outstanding items from them. |
+| **Name and icon** | The person whom Viva Insights recommends to mark as Important
+| **Mark as important** &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;  &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;| Select this to mark the suggested contact as important. Viva Insights will then help you stay on top of outstanding tasks, unread documents, and email from your important people. | Consider marking your top collaborators and contacts as important so that you are always aware of outstanding items from them. |
 
 ## Set lunch hours
 
-Struggling to protect time for lunch? Colleagues keep sending meeting invitations during your lunch hours? Not taking a lunch break can leave you feeling more tired and stressed and less focused. Even if you just take 15-20 minutes, this is a proven way to maintain levels of concentration and energy during the day. Use this insight to protect your lunch time and personalize your MyAnalytics insights to take into account your preferred lunch hours.
+Struggling to protect time for lunch? Colleagues keep sending meeting invitations during your lunch hours? Not taking a lunch break can leave you feeling more tired and stressed and less focused. Even if you just take 15-20 minutes, this is a proven way to maintain levels of concentration and energy during the day. Use this insight to protect your lunch time and personalize your Viva Insights to take into account your preferred lunch hours.
 
-You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. This card is shown only for a short while to new users of MyAnalytics. It is not available permanently, but you can always set your lunch hours in **Settings**:
+You can set your lunch hours in either of two ways, in **Settings** or by using the **Set lunch hours** card. This card is shown only for a short while to new users of Viva Insights. It is not available permanently, but you can always set your lunch hours in **Settings**:
 
 #### Set lunch hours in _Settings_
 
@@ -370,7 +370,7 @@ You can set your lunch hours in either of two ways, in **Settings** or by using 
 | ------ | ------ | ------ |
 | **Default Lunch hours** &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;| Your default lunch hours, which you can confirm or change | |
 | **Change** | Select this to reset your lunch-hour times | |
-| **Confirm** | Select this to save your settings. MyAnalytics will then exclude lunch hours when recommending focus blocks or meeting times.  &emsp;&emsp;&emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; | Taking care of your mental and physical wellbeing. Studies show that taking a lunch break allows your mind to rest, recharge and refocus, which can directly improve your productivity for the rest of the day. |
+| **Confirm** | Select this to save your settings. Viva Insights will then exclude lunch hours when recommending focus blocks or meeting times.  &emsp;&emsp;&emsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; | Taking care of your mental and physical wellbeing. Studies show that taking a lunch break allows your mind to rest, recharge and refocus, which can directly improve your productivity for the rest of the day. |
 | **Add a recurring calendar event** &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; | By checking this box, you have the option to add a recurring calendar event to protect this time. | Consider setting a recurring calendar event if your preferred lunch hours frequently conflict with meetings. |
 
 ## Plan your time away
@@ -426,7 +426,7 @@ In the **Viva Insights** pane, select **Plan your time away** to see a checklist
 
 ## Catch up with your team
 
-People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. MyAnalytics brings together all the information managers need to stay caught up and respond quickly to important requests.
+People managers often have hectic schedules, and it can be tough to stay in close contact with each team member. Viva Insights brings together all the information managers need to stay caught up and respond quickly to important requests.
 
 As a manager, you can:
 
@@ -436,12 +436,12 @@ As a manager, you can:
 
 <!-- REMOVING (12/4/2020) FOR NOW. REINSTATE PERHAPS THIS ENTIRE PARAGRAPH IN JANUARY 2021.
 
-This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Viva Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
+This feature is only available for Viva Insights users who have direct reports listed in Azure Active Directory or in Workplace Analytics. (The Workplace Analytics organizational hierarchy is used for a tenant only if **Viva Insights and plans** is turned on in the [Manager settings](../../use/settings.md#manager-settings) of Workplace Analytics.) If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
 -->
 
 <!-- USING THE FOLLOWING COMPLETE PARAGRAPH FOR NOW. REINSTATE THE ENTIRE PRECEDING PARAGRAPH IN 2021.  -->
 
-This feature is only available for MyAnalytics users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
+This feature is only available for Viva Insights users who have direct reports listed in Azure Active Directory. If you are a manager but do not see this feature, contact your Microsoft 365 administrator.
 
 In the **Viva Insights** pane, select **Catch up with your team** to see the team members you need reconnect and actions you can take to do so
 
@@ -449,7 +449,7 @@ In the **Viva Insights** pane, select **Catch up with your team** to see the tea
 
 ### To edit your team list
 
-If your team member list is inaccurate, select **Edit team** to add or remove team members. Any changes you make apply only to your MyAnalytics experience and do not synchronize back to Azure Active Directory.
+If your team member list is inaccurate, select **Edit team** to add or remove team members. Any changes you make apply only to your Viva Insights experience and do not synchronize back to Azure Active Directory.
 
 ## Meeting suggestions
 
@@ -468,5 +468,4 @@ In the **Viva Insights** pane, select the **Meet with &lt;name of contact&gt;** 
 
 ## Related topics
 
-* [Viva Insights Outlook add-in](add-in.md)
-* [MyAnalytics elements](MyA-elements.md)
+[Viva Insights Outlook add-in](add-in.md)
