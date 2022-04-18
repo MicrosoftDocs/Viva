@@ -74,5 +74,3 @@ By default, all objectives will be visible to the entire organization unless con
 > - In case, your organization is looking for the ability to have Public Objectives with Private Key Results, i.e. Private KRs aligned to Public Objectives, specify when requesting for the Private OKRs feature, so we can enable it.
 >
 > Example: If you prefer keeping an objective **Double Quarterly Revenue in Q1-2021** as public but have two or three KRs with the actual Revenue numbers as Private (viewable only by the leadership/sales team) until a point before publishing it org-wide, we now have built the additional capability to support this. In this case, only the users added to the privacy setting of the KRs can see the KR and the actual values of progress on it. The Public objective will only indicate the % progress and other users will not have visibility to the private KR progress.
-
-If you have an enterprise subscription and would like to have the Private OKRs feature enabled for your organization, have an account admin reach out to your CSM or [support@ally.io](mailto:support@ally.io) with the request.
