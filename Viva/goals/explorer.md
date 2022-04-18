@@ -122,66 +122,70 @@ To do this, open a saved view, make all appropriate changes to filters and selec
 Example: I want to create specific views for each of my employees or teams. I've created a view for John with the appropriate filters set and have saved it. I then would edit the filter for **Owner** from John to Jordan and save it as a new view.
 
 The explorer makes navigating and forming and sharing insights a breeze. Go on and get exploring!
+    
+## How is the order of priority set in Explorer?
+    
+You can sort your Objectives and Key Results (OKRs) in order of your priority in Explorer.
+
+:::image type="content" source="../media/goals/viva-goals-sort-okrs-by-priority.png" alt-text="Sort OKRs by priority":::
+
+This refers to the order in which the OKRs are arranged i.e. their order in the Entity (Organization/Team/Individual) OKR view. For example: If you have OKRs arranged in a certain manner on your page and want to see the same priority order in Explorer, you can use this option.  
 
 ### FAQs
 
-#### How do I view all OKRs?
+1. How do I view all OKRs?
 
-Navigate to the explorer and select the **All Objectives** preset view.
+A: Navigate to the explorer and select the **All Objectives** preset view.
 
 :::image type="content" source="../media/goals/viva-goals-all-objectives.png" alt-text="All objectives":::
 
-#### How do I view all projects?
+2. How do I view all projects?
 
-Navigate to the explorer and apply the filter for **Object Type** as **Project** to view all projects.
+A: Navigate to the explorer and apply the filter for **Object Type** as **Project** to view all projects.
 
 :::image type="content" source="../media/goals/viva-goals-object-type-project.png" alt-text="Object type Project":::
 
-#### How do I export my data?
+3. How do I export my data?
 
-Use filters to pull up the data you want, then go to **Actions -> Export**. You'll receive an email with a link to download your OKRs and projects as a csv/excel file. Remember to uncheck **Show only top-level objectives** if you need the KRs too.
+A: Use filters to pull up the data you want, then go to **Actions -> Export**. You'll receive an email with a link to download your OKRs and projects as a csv/excel file. Remember to uncheck **Show only top-level objectives** if you need the KRs too.
 
 :::image type="content" source="../media/goals/viva-goals-actions-export.png" alt-text="Actions Export":::
 
-#### How do I save a view?
+4. How do I save a view?
 
-To save a view for easy access select **Save view** in the upper right. Give it a name and select a visibility option. Once saved, you can quickly access this view again from the objective explorer menu.
+A: To save a view for easy access select **Save view** in the upper right. Give it a name and select a visibility option. Once saved, you can quickly access this view again from the objective explorer menu.
 
 :::image type="content" source="../media/goals/viva-goals-how-to-save-a-view.png" alt-text="How to Save a View":::
 
-#### How do I Rename a view?
-
-To rename a saved view go to **Actions -> Rename view**.
-
 :::image type="content" source="../media/goals/viva-goals-actions-rename-view.png" alt-text="Actions Rename View":::
 
-#### How do I delete a view?
+5. How do I delete a view?
 
-To delete a saved view go to **Actions -> Remove view**.
+A: To delete a saved view go to **Actions -> Remove view**.
 
 :::image type="content" source="../media/goals/viva-goals-actions-remove-view.png" alt-text="Actions Remove View":::
 
-#### Who can access my view?
+6. Who can access my view?
 
-That depends on the availability configuration you chose when saving the view. There are two options:
+A: That depends on the availability configuration you chose when saving the view. There are two options:
 
-1. Private: Only you can access the view
+a. Private: Only you can access the view
 
-2. Public: Everyone in the organization can access the view
+b. Public: Everyone in the organization can access the view
 
 To change this setting, select **Save view**, then change the availability setting and save it again.
 
 :::image type="content" source="../media/goals/viva-goals-save-view-as.png" alt-text="Save View As":::
 
-#### What does exporting tags as a separate field mean?
+7. What does exporting tags as a separate field mean?
 
-If an objective, key result or project has more than one tag, then the field can be exported as separate columns instead of representing them as comma-separated values in the CSV/Excel file.
+A: If an objective, key result or project has more than one tag, then the field can be exported as separate columns instead of representing them as comma-separated values in the CSV/Excel file.
 
 :::image type="content" source="../media/goals/viva-goals-export-cs-okrs-csv.png" alt-text="Export CS OKRs csv":::
 
-#### How do I export my OKRs and projects?
+8. How do I export my OKRs and projects?
 
-You can use explorer to export OKRs and projects. Navigate to the explorer from the main menu. You may use the **All objectives** view if you would like to export all your OKRs or apply any desired filters, like time period or owner.
+A: You can use explorer to export OKRs and projects. Navigate to the explorer from the main menu. You may use the **All objectives** view if you would like to export all your OKRs or apply any desired filters, like time period or owner.
 
 > [!NOTE]
 > By default, the explorer only displays top-level objectives. If you need the KRs/projects, you can either use the flat-list view or choose to include the child key results/child projects while exporting.
@@ -196,9 +200,9 @@ You can use explorer to export OKRs and projects. Navigate to the explorer from 
 
 Once your view is tweaked to your requirements, go to **Actions -> Export** to export it. You'll receive an email with your download shortly. To learn more about the explorer, see [Explorer](https://help.ally.io/en/articles/5845706-explorer).
 
-#### How to filter the OKRs by team in the Explorer?
+9. How to filter the OKRs by team in the Explorer?
 
-You can use the **Type** filter to refine the OKRs by teams or individuals.
+A: You can use the **Type** filter to refine the OKRs by teams or individuals.
 
 :::image type="content" source="../media/goals/viva-goals-type-filter-to-refine-okrs.png" alt-text="Type filter to refine OKRs":::
 
