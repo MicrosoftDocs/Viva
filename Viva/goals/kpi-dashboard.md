@@ -63,5 +63,3 @@ To remove a KPI from the dashboard, you can select the gear on the dashboard its
 ## Rearrange KPIs on the Dashboard
 
 To move a KPI tile to another location on the dashboard, drag and drop it to the new position. The previous KPIs will move up to fill the space in a left to right manner.
-
-If you have an enterprise subscription and would like to have this enabled for your organization, have an account admin reach out to [support@ally.io](mailto:support@ally.io) with the request.
