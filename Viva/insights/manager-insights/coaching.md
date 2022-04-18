@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for coaching
-description: Workplace Analytics shares best practices with managers about coaching their teams
+description: Get best practice recommendations for managers about coaching their teams
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -70,4 +70,4 @@ Meetings where you and your direct report are both attending can signify a lack 
 
 ## Related topic
 
-[Workplace Analytics best practices](best-practices.md)
+[Viva Insights best practices](best-practices.md)

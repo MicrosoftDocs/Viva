@@ -1,15 +1,18 @@
 ---
 
-title: Additional resources for MyAnalytics
-description: Additional resources to help MyAnalytics users get started on reaching their personal work-life balance goals
+title: Additional resources for Personal insights
+description: Additional resources to help you get started on reaching their personal work-life balance goals
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.prod: Mya
-ms.collection: M365-analytics
-manager: scott.ruble
-audience: Admin
+ms.collection: 
+- M365-analytics
+- viva-insights-personal
+ms.service: viva
+ms.subservice: viva-insights
+manager: helayne
+audience: user
 
 ---
 

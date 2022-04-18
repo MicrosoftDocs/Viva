@@ -1,6 +1,6 @@
 ---
-title: MyAnalytics Individual Adoption - Develop new habits
-description: MyAnalytics Individual Adoption by Kate Nowak - Develop new habits section
+title: Viva Insights Individual Adoption - Develop new habits
+description: Viva Insights Individual Adoption by Kate Nowak - Develop new habits section
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -28,6 +28,6 @@ Any number of behaviors can support a goal and turn into a habit. For example, i
 
 We recommend that you start by selecting one or two behaviors to keep things simple and to more easily determine which one works best for you. There are no one-size-fits-all solutions to collaboration problems. Use the following to turn new behaviors into solid habits based on behavioral science.
 
-* [Learning modules for MyAnalytics](adopt-learning-modules.md)
+* [Learning modules for Viva Insights](adopt-learning-modules.md)
 * [Habit-building method](adopt-habit-building.md)
 * [Habit playbooks](adopt-habit-playbooks.md)
