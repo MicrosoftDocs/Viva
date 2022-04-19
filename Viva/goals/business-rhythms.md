@@ -103,7 +103,7 @@ If you keep this regular rhythm, there's no telling how far OKRs can take you.
 
 ## Summary updates
 
-Get summarized OKR progress and status updates for the company, teams or individuals delivered to emails or slack channels.  
+Get summarized OKR progress and status updates for the company, teams or individuals delivered to emails.  
 
 ### Following an entity
 
@@ -111,13 +111,9 @@ To start receiving summary updates, begin by following the company, a team or in
 
 :::image type="content" source="../media/goals/goals-summary-follow.png" alt-text="Image of follow":::
 
-You can also add other users or slack channels as followers to ensure they receive summary updates for the company, team or individual. Select the Followers button and select the **Add** link. 
+You can also add other users as followers to ensure they receive summary updates for the company, team or individual. Select the Followers button and select the **Add** link. 
 
 :::image type="content" source="../media/goals/goals-summary-add-users.png" alt-text="Image of add user":::
-
-Search on users or slack channels and select the **+** sign next to the search result to add them as a follower for the company, team or individual. 
-
-:::image type="content" source="../media/goals/goals-summary-add-users-company.png" alt-text="Image of the add follower for the company, team":::
 
 ### Edit summary update cadence and frequency
 
@@ -147,13 +143,9 @@ You can also unfollow a company, team or individual from the dashboard by toggli
 
 ### Viewing summary update cadences
 
-Summary updates will appear in a slack channel or email based on where it's configured to be sent
+Summary updates will appear in email.
 
 :::image type="content" source="../media/goals/goals-summary-update-cadences.png" alt-text="Image of summary update cadences":::
-
-Here's how a summary update will look in a slack channel.
-
-:::image type="content" source="../media/goals/goals-summary-update-slack channel.png" alt-text="Image of summary update in a slack channel":::
 
 ### How to trigger the summary/follower updates emails manually?
 
@@ -161,7 +153,7 @@ The summary/follower updates emails can also be triggered manually using the Sha
 
 1. From the OKRs page, select the share icon on the top right corner of the page and select **Share Summary**.
 
-2. Enter emails or slack channels that you want to share the objectives with in the recipients field. You can also choose to share the update to all the users who are following the OKRs you're sharing by checking the **Include followers** ... checkbox.
+2. Enter emails addresses that you want to share the objectives with in the recipients field. You can also choose to share the update to all the users who are following the OKRs you're sharing by checking the **Include followers** ... checkbox.
 
 3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives. There, you can select the option **Include objective progress changes in the last xx days** and set the number of days according to your preference.
 
