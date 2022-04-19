@@ -1,5 +1,5 @@
 ---
-title: Cloning, closing, and scoring
+title: Cloning OKRs
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -18,12 +18,10 @@ search.appverid:
 description: "Set up OKRs and rollover unfinished objectives quickly with this handy tool"
 ---
 
-# Cloning, closing, and scoring
+# Cloning objectives 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
-
-## Cloning objectives 
 
 Cloning is a handy tool that can help your OKR process run much more efficiently. First we’ll show you when to use cloning, and then how to do it.
 
