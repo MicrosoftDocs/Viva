@@ -1,7 +1,7 @@
 ---
 
-title: Explore external collaboration data in Workplace Analytics
-description: An overview of external collaboration data available in Workplace Analytics
+title: Explore external collaboration data in Viva Insights
+description: An overview of external collaboration data available in Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -30,14 +30,14 @@ External collaboration has a number of graphs that help you analyze data based o
 
 ## Access to External collaboration
 
-**External collaboration** data is available through **Home** > **Increase customer focus** > **Optimize time with customers** > **See your insights** > **Explore the stats**. Or sign in to [Workplace Analytics](https://workplaceanalytics.office.com), and then open [External collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ExternalCollaboration) to view it.
+**External collaboration** data is available through **Home** > **Increase customer focus** > **Optimize time with customers** > **See your insights** > **Explore the stats**. Or sign in to [the advanced insights app](https://workplaceanalytics.office.com), and then open [External collaboration](https://workplaceanalytics.office.com/en-us/Home/Agility/ExternalCollaboration) to view it.
 
 ## Summary data
 
 External collaboration includes the following summary information.
 
 * **Weekly averages** shows the date range for the data, which is based on the date range set in [Settings and filters](#settings-and-filters).
-* **Measured employees** is the number of people in your company who have been assigned a Workplace Analytics license. Any filters applied in [Settings and filters](#settings-and-filters) do not change this number.
+* **Measured employees** is the number of people in your company who have been assigned a Viva Insights license. Any filters applied in [Settings and filters](#settings-and-filters) do not change this number.
 * **In filter group** is the number of employees who had collaboration activity during the date range and are included in the filter applied in [Settings and filters](#settings-and-filters).
 * **Estimated cost of external collaboration** is the total external collaboration hours multiplied by the average hourly wage, which is based on salary data provided in your organizational data. If salary data is not available, the calculation uses the average hourly default of $75.
 * **Percentage of measured employees with external contacts** is the percentage of your measured employees who had one or more interactions with people outside the company during the set date range.
@@ -97,4 +97,4 @@ In the graph, if the bubble for your group is found at the top right, then your 
 ## Related topics
 
 * [Settings and filters for Explore the stats](../use/explore-page-settings.md)
-* [Charts in Workplace Analytics](../use/chart-types.md)
+* [Advanced insights charts](../use/chart-types.md)

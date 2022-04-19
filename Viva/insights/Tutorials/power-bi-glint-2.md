@@ -1,6 +1,6 @@
 ---
 title: Behavior patterns for Glint dashboard
-description: Use this dashboard to visualize analysis in Power BI that combines Workplace Analytics and Glint data
+description: Use this dashboard to visualize analysis in Power BI that combines Viva Insights and Glint data
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -19,13 +19,13 @@ audience: Admin
 >[!Note]
 >This dashboard currently only supports Glint reports that are in English. For example, if you are a customer with data in Japanese, export the Glint report in English before you upload it to PBI. If you encounter errors even with the report exported in English, delete and then manually type in the column headers in English.
 
-The Behavior patterns for Glint dashboard uses a template to combine sentiment data from Glint with behavioral data from Workplace Analytics. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
+The Behavior patterns for Glint dashboard uses a template to combine sentiment data from Glint with behavioral data from Viva Insights. Leaders get insights into underlying factors that might be contributing to both how their employees feel and how they work. The analysis helps identify opportunities to influence behavior and improve business outcomes.
 
 This analysis uses survey scores and working patterns to identify outlying teams who might need attention. Even for leaders who are already aware of team issues, the dashboard creates high-level visibility enabling them to use research-based and data-driven actions to change or improve workplace behaviors.
 
 The dashboard combines the following data.
 
-|Theme |Representative Glint survey question |Workplace Analytics metrics |
+|Theme |Representative Glint survey question |Viva Insights metrics |
 |------------|------------|------------|
 |Wellbeing |My company takes a genuine interest in their employees' wellbeing. |<ul><li>After hours metrics</li><li>Burnout risk</li><li>Focus hours</li></ul>|
 | Connection | I feel a sense of belonging at my company. | <ul><li>Internal network size</li><li>Small group meeting hours</li></ul>|
@@ -45,7 +45,7 @@ The dashboard includes the following reports.
 * **Clarity** &ndash; Compares prioritization scores for the selected HR attribute to show how manager one-on-one time might be affecting employees’ ability to focus on and prioritize their work. Gives teams easy-to-implement plans that create opportunities for employees to more regularly meet with their managers one-on-one and prioritize their work.
 * **Empowerment** &ndash; Compares empowerment scores for the selected HR attribute to show how manager co-attendance and time in self-organized meetings might affect employee empowerment. Helps leaders understand how meeting behaviors impact autonomy and effectiveness.
 * **Growth** &ndash; Compares growth scores for the selected HR attribute to show how network sizes and time in skip-level collaboration might affect team growth scores. It reveals the impact of network size and leadership interactions on development.
-* **How can I take action to improve employee experience?** &ndash; Summarizes opportunities to improve employee experience by addressing related behaviors for individual, collective, and environmental interventions. After any interventions are started, leaders can use Workplace Analytics data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
+* **How can I take action to improve employee experience?** &ndash; Summarizes opportunities to improve employee experience by addressing related behaviors for individual, collective, and environmental interventions. After any interventions are started, leaders can use Viva Insights data to measure real-time change in collaboration behaviors and track improvement with subsequent Glint survey scores.
 
 ## Demonstration
 
@@ -64,21 +64,21 @@ The following video describes how to set up the dashboard, which might not be ex
 The high-level steps required to populate the dashboard in Power BI:
 
 1. [Get Glint data](#get-the-glint-data) &ndash; In Glint, select the corresponding survey questions and the population to analyze in Power BI, including the HR attributes you want to analyze, such as team and position. Then export a Heat Map report file with this data.
-2. [Get Workplace Analytics data](#get-the-workplace-analytics-data) &ndash; Set up the predefined **Behavior patterns for Glint** template in Workplace Analytics. After the results successfully run, download the template for the Glint query on the **Results** page. This template is required to create the dashboard in Power BI.
-3. [Load both into Power BI](#load-the-data-in-power-bi) &ndash; Connect to and load both the query data from Workplace Analytics and the Heat map from Glint into Power BI.
+2. [Get the Viva Insights data](#get-the-viva-insights-data) &ndash; Set up the predefined **Behavior patterns for Glint** template in the advanced insights app. After the results successfully run, download the template for the Glint query on the **Results** page. This template is required to create the dashboard in Power BI.
+3. [Load both into Power BI](#load-the-data-in-power-bi) &ndash; Connect to and load both the query data from the advanced insights app and the Heat map from Glint into Power BI.
 
 ## Prerequisites
 
-The following is required before you can run the query in Workplace Analytics and populate the dashboard in Power BI.
+The following is required before you can run the query in the advanced insights app and populate the dashboard in Power BI.
 
-* Your company uses Glint with the same measured population that Workplace Analytics has data for:
+* Your company uses Glint with the same measured population that the advanced insights app has data for:
 
   * The population reflected in the Glint Heat Map report is the same as the filtered population in the Behavior patterns for Glint template.
   * You have Glint survey content for the last three to six months that includes questions on one or more of the following themes of employee wellbeing, connection, clarity, empowerment, and growth.
 
-* Be assigned the role of Analyst in Workplace Analytics.
+* Be assigned the role of Analyst in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
-* Have at least one of the following organizational attributes already uploaded and processed in Workplace Analytics.
+* Have at least one of the following organizational attributes already uploaded and processed in the advanced insights app.
 
   * **Level designation** - Each employee's level in the organization.
   * **Organization or team** - Each employee’s team assignment, which reflects the organization or business division they're in.
@@ -93,23 +93,23 @@ The following is required before you can run the query in Workplace Analytics an
 
    ![Glint filter by departments.](../Images/WpA/Tutorials/glint-filter-by.png)
 
-3. Select the grouping attributes that are also used in Workplace Analytics for the report.
+3. Select the grouping attributes that are also used in the advanced insights app for the report.
 
    ![Glint report options.](../Images/WpA/Tutorials/glint-report.png)
 
-4. In **Add section**, select (up to five) other grouping attributes to analyze by, which must also be present in Workplace Analytics.
+4. In **Add section**, select (up to five) other grouping attributes to analyze by, which must also be present in the advanced insights app.
 5. Select **Export to spreadsheet** to download the report.
 
    ![Glint report export.](../Images/WpA/Tutorials/glint-report-export.png)
 
 6. Save the spreadsheet in an accessible location.
 
-## Get the Workplace Analytics data
+## Get the Viva Insights data
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Behavior patterns for Glint** to see the required setup steps, and then in step 2, select **Set up**.
 3. When prompted, select or confirm the following settings:
 
@@ -137,29 +137,29 @@ The following is required before you can run the query in Workplace Analytics an
 2. If prompted to select a program, select **Power BI**.
 3. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
-    * In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon, and then select to copy the generated OData URL link.
-    * In Power BI, paste the copied OData link for **Workplace Analytics query for Glint URL**.
+    * In **Query designer** > **Results**, select the **Link** icon, and then select to copy the generated OData URL link.
+    * In Power BI, paste the copied OData link for the query data.
     * In the **Glint Heat Map report**, copy and paste the Heat Map file path.
-    * In **Minimum group size**, enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Workplace Analytics data.
+    * In **Minimum group size**, enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing advanced insights data.
 
-4. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+4. If you're already signed in to Power BI with your the organizational account for the advanced insights app, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 5. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-6. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+6. Select and enter credentials for the organizational account that you use to sign in to the advanced insights app, and then select **Save**.
 
      >[!Important]
-     >You must sign in to Power BI with the same account that you use to access Workplace Analytics.
+     >You must sign in to Power BI with the same account that you use to access Viva Insights.
 
 7. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 
-After the Behavior patterns dashboard is set up and populated with both the Glint and Workplace Analytics data in Power BI and before viewing data in the dashboard, set the following parameters on the **Settings** and **Theme mapping** pages.
+After the Behavior patterns dashboard is set up and populated with both the Glint and Viva Insights data in Power BI and before viewing data in the dashboard, set the following parameters on the **Settings** and **Theme mapping** pages.
 
 1. **Select the Glint attribute to view the report by** &ndash; In **Settings**, select the primary “group-by” attribute that represents the teams in Glint. To clear an existing mapping, select the **Reset** arrow.
-2. **Select corresponding attributes or values for the Workplace Analytics data** &ndash; For each Glint value, select the matching field value (ideally one to one) that is used in Workplace Analytics data.
+2. **Select corresponding attributes or values for the Viva Insights data** &ndash; For each Glint value, select the matching field value (ideally one to one) that is used in Viva Insights data.
 
    ![Behavior patterns Settings page 1.](../Images/WpA/Tutorials/select-glint-settings.png)
 
