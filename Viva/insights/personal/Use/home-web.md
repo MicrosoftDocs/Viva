@@ -46,7 +46,8 @@ Only you can see your data. The same privacy protections used for your personal 
 
 Your personalized insights are based on the working days, working hours, and time zone that you set in **Config Settings**. Changes to these settings are reflected in next week's data.
 
-You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks. For more details, see [Focus plan](../use/focus-plan.md).
+
+You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks. For more details, see [Focus plan](/viva/insights/personal/use/focus-plan).
 
 ![Config Settings.](../../Images/mya/use/config-settings.png)
 
