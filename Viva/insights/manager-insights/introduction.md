@@ -3,7 +3,7 @@
 title: Introducing Manager insights
 description: About Manager insights in Microsoft Viva Insights in Teams and in the advanced insights app and how to use them to help manage your team
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: viva-insights-manager 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
