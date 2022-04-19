@@ -1,5 +1,5 @@
 ---
-title: "Share Objectives to Slack and Email"
+title: "Share Objectives"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
