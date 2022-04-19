@@ -15,32 +15,11 @@ manager: helayne
 audience: Admin
 ---
 
-# Install and pin the Viva Insights app
+# Discover and pin the Viva Insights app
 
-If the Viva Insights app is pre-installed in Teams by your admin, you won't need to install it. However, if you need to install for yourself, do the steps in in [Install the app](#install-the-app).
-
-After the app is installed, you can discover and pin Viva Insights to your Teams app bar for easy access. To learn how, see [Discover and pin the app](#discover-and-pin-the-app).
-
-## Prerequisites
-
-Before you can use the Viva Insights app, you must have the following:
-
-* Access to Microsoft Teams
-* An Exchange Online account
-
-## Install the app
-
-This section describes how to install the Microsoft Viva Insights app for yourself. If you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](viva-teams-app-admin-tasks.md).  
-
-1. Open Microsoft Teams.
-2. Near the bottom of the left bar in Teams, select **Apps**.
-3. In the search field under **Apps**, type **Microsoft Viva Insights**, and then select it.
-4. Select **Add** to add the Viva Insights app to all available versions of Microsoft Teams, including the Teams desktop app, Teams on the web, and Teams on a mobile device.
+The Viva Insights app is pre-installed in Teams by your admin. After your admin installs it, you can discover and pin Viva Insights to your Teams app for easy access.
 
 After adding the app, you'll have access to all of its features, including [Praise](viva-insights-praise.md), [Protect time](viva-insights-protect-time.md), [Reflect](viva-insights-reflect.md), [Stay connected](viva-insights-stay-connected.md), and [Virtual commute](viva-insights-virtual-commute.md).
-
->[!Note]
->You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
 
 ## Discover and pin the app
 
@@ -68,21 +47,7 @@ Based on the platform you'll use to view your insights in Teams, select and comp
 
 4. Select **Done** to save your changes.
 
-### Install the app
-
-Do the following to install the Microsoft Viva Insights app. However, if you're an admin who will install the Viva Insights app for an organization, see [Admin tasks](viva-teams-app-admin-tasks.md).  
-
-1. Open Microsoft Teams on the web or in a desktop client.
-2. Near the bottom of the left bar in Microsoft Teams, select **Apps**.
-3. In the search field under **Apps**, type **Microsoft Viva Insights**, and then select it.
-4. Select **Add** to add it to all your Microsoft Teams apps, such as the Teams desktop app, Teams on the web, and Teams on a mobile device.
-
-After you've added the Viva Insights app, you have access to all of its features, including [Praise](viva-insights-praise.md), [Protect time](viva-insights-protect-time.md), [Reflect](viva-insights-reflect.md), [Stay connected](viva-insights-stay-connected.md), and [Virtual commute](viva-insights-virtual-commute.md).
-
->[!Note]
->You can also go to [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp) to install Viva Insights.
-
-### Uninstall the app
+## Uninstall the app
 
 This section describes how to uninstall the Microsoft Viva Insights app from Teams.
 
