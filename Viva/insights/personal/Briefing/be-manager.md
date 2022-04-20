@@ -17,9 +17,6 @@ manager: helayne
 
 # Catch up with your team
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 People managers often have hectic schedules, and it can be tough to stay in close contact with your team members. The Briefing can help you maintain a strong relationship with your team and stay caught up and respond quickly to important requests from your team.
 
 Only managers who have team members can see this feature. You can add or edit your team members in [Settings](be-settings.md).

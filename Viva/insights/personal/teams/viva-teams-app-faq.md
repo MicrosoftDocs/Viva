@@ -28,7 +28,7 @@ The following are the most frequently asked questions about personal insights wi
 
 **A2.** The personal insights in the Insights app include only existing information that’s already available in the user’s mailbox. The insights surface content from documents, emails, and meetings to make it easier for the user to find what’s most important for their day ahead. Users cannot see any new information about other users that wasn’t already available in their mailboxes.
 
-##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Insights app?
+##### Q3. Can my manager, administrator, or anyone else at my organization see what’s in my Viva Insights app?
 
 **A3.** No. Personal insights are private and visible to you. Personal information in the Insights app is from your mailbox and stored in your mailbox. Insights just make it easier to find items that might need attention. However, if you give another person, such as an administrative assistant [read and manage mailbox permission](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user#read-email-in-another-users-mailbox), then that person can also see your personal insights within your mailbox.
 
@@ -48,7 +48,7 @@ The following are the most frequently asked questions about personal insights wi
 
 ##### Q5. What data does the Viva Insights app use?
 
-**A5.** Insights uses:
+**A5.** Viva Insights uses:
 
 * Information from email items:
   * Metadata. This includes the email's timestamp, names of sender and recipients, and "read" status.

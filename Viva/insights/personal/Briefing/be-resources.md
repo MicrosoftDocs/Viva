@@ -16,9 +16,6 @@ manager: helayne
 ---
 # Briefing email resources
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 When you're ready to roll out the Briefing email to your organization or to a new group of employees who just joined your organization, it's important that you educate them on how the Briefing email can help them get their work done and plan for the day ahead.
 
 You can use the following to help explain what the Briefing email is, when they will get it, and how to best use it:

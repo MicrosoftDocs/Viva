@@ -21,7 +21,7 @@ Inline suggestions can help boost your productivity and that of your team by dis
 >[!Note]
 >Only you can see your data, see [Privacy FAQ](../overview/mya-faq.md#privacy) for details.
 
-## Why I do not see inline suggestions
+## How to see inline suggestions
 
 Inline suggestions are available in the latest versions of Outlook for the web and Outlook for Windows with Microsoft 365 or Microsoft 365 licenses. To see inline suggestions in Outlook for Windows, be sure that the following is in place on your computer:
 
@@ -70,13 +70,13 @@ You can also provide general feedback on anything by selecting the **smiley face
 
 ## Delay delivery
 
-_**Applies to**: Delay delivery inline suggestions are available to people who are using Microsoft Viva Insights (MyAnalytics) and are enrolled in the [MyAnalytics (Full) service plan](../overview/plans-environments.md) or Insights by MyAnalytics with a [supported plan](../overview/plans-environments.md)._
+_**Applies to**: Delay delivery inline suggestions are available to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
 
-When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. MyAnalytics can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
+When you're composing an email in Outlook, you might see a suggestion to schedule email delivery at a later time. Viva Insights can schedule email delivery that aligns with the working hours of the recipients in their respective time zones. This helps minimize disruptions to recipients outside their working hours. (Distribution lists and Microsoft 365 or Office 365 groups do not count as qualifying recipients for use by the delay-delivery feature.)
 
 This suggestion is available to you if you’re using the Outlook desktop app. Be sure that you have Outlook for Windows 2016 version 1808 or greater and build 16.0.12016.10000 or greater.
 
-When the inline suggestions feature is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in MyAnalytics or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
+When the inline suggestions feature is turned on, you can delay up two email deliveries each day. To get more than two daily delayed deliveries, you can opt in to the **Delay delivery** plan either in Viva Insights or in the Outlook Insights add-in. For details, see [Delay delivery plan](delay-delivery.md).
 
 ![Inline suggestion in email](../../Images/mya/use/delay-delivery.png)
 
@@ -150,7 +150,7 @@ Select **Move your focus block** to open the Insights add-in and display all the
 
 ## Shorten a meeting
 
-_**Applies to**: This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md)._
+_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
 
 When composing a meeting invitation with a duration of one hour, you might see a suggestion to shorten the meeting by 15 minutes to build some buffer time and save attendees time.
 
@@ -162,7 +162,7 @@ Select **Shorten meeting** to decrease the meeting time by 15 minutes. This also
 
 ## Track email open rate
 
-_**Applies to**: This insight is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md) or [Microsoft Viva Insights service plan](../overview/plans-environments.md)._
+_**Applies to**: This insight is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
 
 While reading an email that you've sent, you might see an insight that highlights what percentage of the email's recipients have opened the email.
 
@@ -174,7 +174,7 @@ Select **See more insights** to see how many people have opened or forwarded you
 
 ## Track email
 
-_**Applies to**: This suggestion is currently available only to people who are using MyAnalytics and are enrolled in a [MyAnalytics (Full) service plan](../overview/plans-environments.md) or [Microsoft Viva Insights service plan](../overview/plans-environments.md)._
+_**Applies to**: This suggestion is currently available only to people who are enrolled in an applicable [service plan](../overview/plans-environments.md)._
 
 When composing an email to more than five recipients, you might see a suggestion that reads "Insights can track the email."
 

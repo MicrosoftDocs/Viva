@@ -1,9 +1,9 @@
 ---
 
 title: Introducing Manager insights
-description: About Manager insights in Microsoft Viva Insights in Teams and in Workplace Analytics and how to use them to help manage your team
+description: About Manager insights in Microsoft Viva Insights in Teams and in the advanced insights app and how to use them to help manage your team
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: viva-insights-manager 
@@ -11,17 +11,17 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Manager insights introduction
 
-Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in Microsoft Viva Insights in Teams and in Workplace Analytics.
+Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in Microsoft Viva Insights in Teams and in Advanced insights.
 
-Managers who are assigned licenses starting October 2021, can view their team's [group insights](../use/group-insights.md) in [My team](../use/myteam.md) within the Viva Insights app in Teams. Managers who were assigned licenses in Workplace Analytics prior to October 2021 can see the legacy manager insights in [Workplace Analytics](https://workplaceanalytics.office.com).
+Managers who are assigned licenses can view their team's [group insights](../use/group-insights.md) in [My team](../use/myteam.md) within the Viva Insights app in Teams.
 
-![Manager insights in Workplace Analytics.](./images/manager-insights.png)
+![Manager insights in advanced insights.](./images/manager-insights.png)
 
 ## How do these insights help
 
@@ -37,7 +37,7 @@ You can use these insights as a first step in understanding collaboration norms 
 Each insight includes **Supporting evidence** and **Best practices** that link you to related information, such as [Microsoft Workplace Insights](https://insights.office.com/), which are authored by:
 
 * Industry experts based on research
-* Organizations that have effectively used Workplace Analytics to improve their business outcomes
+* Organizations that have effectively used Viva Insights to improve their business outcomes
 
 Research helps explain why managers have such a large impact on their team's productivity and wellbeing:
 
@@ -60,4 +60,4 @@ The apps use de-identified data from emails, meetings, calls, and chats in Outlo
 
 The apps also use differential privacy to keep personal data private. Differential privacy is a technology that allows researchers and analysts to pull useful information from databases containing personal information while simultaneously protecting individual privacy. This is achieved by introducing slight variations to the data to protect privacy while still maintaining accuracy, so managers have confidence in the observed values.
 
-To learn more about differential privacy, see [Differential Privacy in Workplace Analytics](../privacy/differential-privacy.md) and [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).
+To learn more about differential privacy, see [Differential Privacy](../privacy/differential-privacy.md) and [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf).

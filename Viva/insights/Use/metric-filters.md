@@ -1,6 +1,6 @@
 ---
-title: Workplace Analytics metric filters 
-description: Describes the filters that analysts can use to refine metrics in queries 
+title: Advanced insights metric filters 
+description: Describes the filters that analysts can use to refine metrics in queries in the advanced insights app with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -14,13 +14,12 @@ search.appverid:
 - MET150 
 
 ---
-<!-- Note: I verified the spelling, capitalization, and spacing in the names of these filters on the public demo at https://workplaceanalytics.office.com/en-us/Analyze/Queries/Person on 26 Jan. 2021 -->
 
-# Metric filters
+# Advanced insights metric filters
 
-To customize the results from Workplace Analytics [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)).
+To customize the results from [queries](../tutorials/query-basics.md), you use metrics (see [metric definitions](metric-definitions.md)).
 
-After you select a metric for a query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the new focus that you gave when you applied filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
+After you select a metric for a Viva Insights query, you can narrow the focus of that metric by applying filters. You can also rename the metric to indicate the new focus that you gave when you applied filters; its new name will appear in the query results. See [Apply a metric filter](#apply-a-metric-filter).
 
 ## Call filters
 
@@ -147,7 +146,7 @@ These filters can be used to customize the following Teams channel metrics:
 
 In this example procedure, you apply a filter to a metric in a person query. Specifically, you restrict the _Email sent_ metric to include only email that was sent during a particular time of day. Then, for the population of employees that you specify, the query results will show the number of emails that were sent during the time of day that you selected.
 
-1. In Workplace Analytics, select **Analyze** > **Queries** > **Person**.
+1. In **Analyze** > **Query designer**, select **Get started** under **Query**, and then select the type of query you want to create.
 
 2. Under **Select metrics**, select **Emails sent**:
 
