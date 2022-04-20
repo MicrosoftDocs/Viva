@@ -22,12 +22,9 @@ You can use SharePoint taxonomy terms to help guide artificial intelligence (AI)
 
 ## Permissions required
 
-> [!Note]
-> This feature is available only for users who are licensed for Viva Topics.
-
-To create a topic from terms, you must have the following permissions:
-- Manage topics permission in the Viva Topics admin setup
-- Editing permissions in the term store, including permissions to edit underlying terms 
+To create a topic from terms:
+- Your organization needs to have Viva Topics set up
+- You need to have edit permissions to the desired term sets or tems, i.e., you neeed to be a term store admin in your organization, or be a group manager, or contributor for the specific terms 
 
 
 ## How it works
