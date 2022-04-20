@@ -19,7 +19,7 @@ audience: Admin
 
 The Analyst tab in Viva Insights includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom query and selects the applicable Power BI charts to show results from these queries.
 
-<!--- "Analyst tab in Viva Insights" -- correct terminology? --->
+<!--- "Analyst tab in Viva Insights" -- is this correct terminology? --->
 
 <!--- Leaving out links for now --->
 
