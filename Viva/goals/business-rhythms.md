@@ -162,11 +162,7 @@ The summary/follower updates emails can also be triggered manually using the Sha
     > [!NOTE]
     > To send yourself a preview of the message that will be shared, select **Send Preview**
 
-4. Once you're ready, select **Share** and the objectives will be sent to the intended recipients.
-
-    :::image type="content" source="../media/goals/goals-quick-share.gif" alt-text="Image of Share ":::
-
-Alternatively, you can share an update directly to any email that looks like the following.
+4. Once you're ready, select **Share** and the objectives will be sent to the intended recipients via email that looks like the following.
 
 :::image type="content" source="../media/goals/goals-email-direct.png" alt-text="Image of share an update directly":::
 
