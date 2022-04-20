@@ -37,7 +37,7 @@ Create a Viva Connections Dashboard that can be viewed in multiple languages. St
 2.	At the bottom of the site information pane, select **View all site settings**.
 3.	Under **Site Administration**, select **Language settings**.
 
-     ![Image of multilingual settings turned on.](../media/connections/viva-language-enable.png)
+     ![Image of multilingual settings in the advanced settings panel.](../media/connections/viva-language-enable.png)
 
 4.	Under **Enable pages and news to be translated into multiple languages**, slide the toggle to **On**.
 
