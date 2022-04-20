@@ -35,29 +35,28 @@ The following metrics are available when creating analysis in the Advanced insig
 
 ## Focus
 
-The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries.
-
-|Metric |Description |Tags |Analysis |
-|------|-----------|----------|---------|
-| Available to focus | The number of hours that a person spent sending and reading posts and replies in Teams channels, outside of work hours. |Ways of working assessment  | Focus (Available to focus) |
+|Metric |Description           |Analysis type |Analysis components |
+|------|----------------------|----------|---------|
+| Available to focus | The number of hours that a person spent sending and reading posts and replies in Teams channels, outside of work hours. |Ways of working assessment template | Focus (Available to focus) |
+| Uninterrupted time | Total number of hours where a person has more than or equal to a one-hour block of uninterrupted time to focus on work during their set working hours. It's only counted as uninterrupted time when the person has no collaboration activity, including attending a meeting or an unscheduled Teams call, sending an email, or sending a Teams instant message. | Ways of working assessment, Business resilience, and Wellbeing templates |Focus (Uninterrupted time) |
 
 ## Collaboration activity
 
-|Metric |Description |Tags |Analysis |
+|Metric |Description |Analysis type |Analysis components |
 |------|-----------|----------|---------|
-| Collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). |Ways of working assessment, Business resilience, Manager effectiveness, Hybrid workforce experience, and Wellbeing |Collaboration activity |
+| Collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). |Ways of working assessment, Business resilience, Manager effectiveness, Hybrid workforce experience, and Wellbeing templates |Collaboration activity |
 
 
 ## Meeting types
 
-|Metric |Description |Tags |Analysis |
+|Metric |Description |Analysis type |Analysis components |
 |------|-----------|----------|---------|
-| Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.) |Meeting |Collaboration activity where "Is Conflicting" equals "True" |
+| Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.) |Meeting queries |Collaboration activity where "Is Conflicting" equals "True" |
 
 ## After-hours collaboration
 
-|Metric |Description |Tags |Analysis |
+|Metric |Description |Analysis type |Analysis components |
 |------|-----------|----------|---------|
-|After-hours collaboration hours | The total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. |Ways of working assessment, Business resilience, Manager effectiveness, Hybrid workforce experience, and Wellbeing | "During working hours" equals "False" |
+|After-hours collaboration hours | The total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. |Ways of working assessment, Business resilience, Manager effectiveness, Hybrid workforce experience, and Wellbeing templates | "During working hours" equals "False" |
 
 ## Working hours collaboration
