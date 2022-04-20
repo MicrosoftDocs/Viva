@@ -111,39 +111,6 @@ Apart from being aligned to OKRs, Projects also get their own dashboard in Viva 
 
 :::image type="content" source="../media/goals/Projects Tab.gif" alt-text="Project Creation Projects Tab":::
     
-## Convert a Key Result to a Project, and back
-
-Want to see what your key result would look like as a project?
-
-1. Navigate to the KR that you would like to convert.
-
-2. Select **More Options** followed by **Edit**.
-
-3. At the top of the panel that appears, select the drop-down next to **edit objective** and select **Project**.
-
-Now you've converted your KR to a project!
-
-A project can also be switched to a key result by performing the same actions on a project and selecting the **Objective** option from the drop-down.
-
-> [!NOTE]
-> You will see the option to edit an objective or a key result and convert it into a project and vice versa only when you've chosen the **Objectives and key results can be used interchangeably** option in the OKR Model Configurations section in the Admin Dashboard.
-
-### Supported Conversions
-
-Not all key results can be converted to projects, and vice versa in this way. Here are the types of key results that can be converted to projects:
-
-1. Key results integrated with JIRA or Asana and using percent completed as the measure of progress.
-
-2. Key results that don't have integration or children, and using percent completed as the measure of progress. Progress and status for these will be preserved during the conversion.
-
-Similarly, the types of projects that can be converted to key results are:
-
-1. Projects integrated with JIRA or Asana - these will be converted to key results that measure progress by percent complete.
-
-2. Projects that don't have tasks. Progress and status for these will be preserved during the conversion.
-
-So you can try out your key result as a Project with minimal risk. While it's possible to convert between a key result and a project multiple times, only the last settings from the key result will be remembered.
-    
 ## Project progress and status
 
 Progress in Viva Goals is measured either as percentage complete or a key performance indicator (KPI) metric (for example, 10 out of 15 sales calls made). Projects currently use only the percentage complete method, as measured by tasks completed within the project.
