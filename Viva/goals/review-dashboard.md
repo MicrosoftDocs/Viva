@@ -199,6 +199,8 @@ To create this widget,
 
 - Save, and add the widget.
 
+<!--- Will come post GA -->
+    
 ### Image
 
 - A picture is worth a thousand words! The image widget can be used for embedding images, and GIFs in the context of your OKRs.
@@ -218,6 +220,8 @@ To create this widget,
 - Save, and add the widget.
 
     :::image type="content" source="../media/goals/image widget.gif" alt-text="Viva goals image widget":::
+    
+<!--- End code comment -->
 
 ### Project list
 
