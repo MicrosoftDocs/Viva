@@ -25,6 +25,8 @@
 
 ### [Create a Dashboard](create-dashboard.md)
 
+### [Create a Dashboard in more than one language](create-multilingual-dashboard.md)
+
 ### [Add the Viva Connections app](add-viva-connections-app.md)
 
 ### [Viva Connections for a specific language](viva-connections-language.md)
