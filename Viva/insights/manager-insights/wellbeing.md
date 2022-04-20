@@ -25,7 +25,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ## Best practices
 
-* Use [MyAnalytics wellbeing data](../personal/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
+* Use [Wellbeing data](../personal/Use/wellbeing.md) about after-hours activity and encourage them to disconnect.
 * Use [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
 * Alternate the time of global meetings to become more inclusive and minimize after-hours collaboration.
 * Remind employees that the organization's success is based on a marathon, not a sprint.  
@@ -36,7 +36,7 @@ Based on research presented in the [Why unplugging from work is more work than w
 
 ### Start a wellbeing plan
 
-Enroll your team in a [Workplace Analytics wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive email digests, in-line suggestions, and actionable insights.
+Enroll your team in a [Wellbeing teamwork plan](../tutorials/teamwork-solution.md). Plan participants will receive email digests, in-line suggestions, and actionable insights.
 
 #### Define and share working hours
 
@@ -59,5 +59,5 @@ People often feel overloaded because tasks take more time than we expect. "Slack
 
 ## Related topics
 
-[Workplace Analytics best practices](best-practices.md)
-[MyAnalytics wellbeing](../personal/use/wellbeing.md)
+[Viva Insights best practices](best-practices.md)
+[Wellbeing](../personal/use/wellbeing.md)

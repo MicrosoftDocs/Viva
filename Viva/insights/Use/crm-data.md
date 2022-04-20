@@ -1,9 +1,9 @@
 ---
 
-title: Workplace Analytics CRM data
-description: What is available on the CRM data sources page in Workplace Analytics 
+title: Viva Insights CRM data
+description: What is available on the CRM data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,15 +11,15 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # CRM data
 
-You get a high-level view of the latest available CRM data that you uploaded and successfully processed in Workplace Analytics. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
+You get a high-level view of the latest available CRM data that you uploaded and successfully processed in the advanced insights app. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
-By combining this data in Workplace Analytics, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team.
+By combining this data in the advanced insights app, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team.
 
 ## Join coverage
 
@@ -98,7 +98,7 @@ The **Account details** page includes the following.
 * The **Account collaboration by domain** table lists collaborator domains and the following related  account details:
 
   * **Account name** is the name of the account in the CRM upload.
-  * **Number of collaborators matched by default** is the number of external collaborators within Workplace Analytics who match up with the CRM contact email addresses associated with that CRM account.
+  * **Number of collaborators matched by default** is the number of external collaborators within the advanced insights app who match up with the CRM contact email addresses associated with that CRM account.
   * **Number of collaborators matched by extrapolation + default** is the number of external collaborators who have a high probability of belonging to this account, in addition to the external collaborators matched to this account by default.
   * **Default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in the ‘matched by default’ group.
   * **Extrapolation + default collaboration hours** is the number of collaboration hours that employees invested with external collaborators in both the ‘matched by default’ and ‘matched by extrapolation’ groups.
