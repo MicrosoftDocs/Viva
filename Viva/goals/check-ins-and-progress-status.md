@@ -51,7 +51,7 @@ After you make a check-in, you’ll notice that the statuses and progress of all
 
 One exception is Objectives tracked by custom KPI, Viva Goals can’t know how the progress of the Key Result will impact the aligned Objectives, and hence Viva Goals won't automatically update the progress. It will have to be updated manually with a check-in. 
 
-### Check-ins for single and multiple owners
+## Check-ins for single and multiple owners
 
 If there's just one owner or multiple owners assigned to an OKR and you would want a user within the organization to check-in and update the progress of the OKR, you can use the **check-in responsibility** feature. The check-in owner will be able to check-in on the OKR (manual check-in) and set-up a data link on the OKR (to auto-check-in). This user will receive the check-in reminders. In the case of multiple owners, this will prevent all of the owners from receiving reminders, only the user set as **check-in responsible owner** will receive the reminders.
 
@@ -147,27 +147,6 @@ Once the updates have been scheduled, you'll receive the notification in one of 
 - If the iOS or Android App has been installed, you'll receive a push notification.
 
 - If no integrations have been set up, Viva Goals will send a reminder as an email. 
-
-## Check-ins for single and multiple owners
-
-If there's just one owner or multiple owners assigned to an OKR and you would want a user within the organization to check in and update the progress of the OKR, you can use the ‘check-in responsibility’ feature. The check-in owner will be able to check in on the OKR (manual check-in) and set up a data link on the OKR (to auto-check-in). This user will be receiving the check-in reminders. If there are multiple owners, this will prevent all of the owners from receiving reminders, only the user set as 'check-in responsible owner' will receive the reminders.
-
-### Steps to assign responsibility for check-ins:
-
-- Sign in to Viva Goals and select the **+** button on the top panel to create a new OKR.
-
-- Once you enter the objective/ Key Result and want to share it with another individual, choose owners from the ‘Owner’ option. Here you can assign multiple owners for the OKR.
-
-- Once you assign an owner, select the user who will be responsible for making check-ins from the ‘Who is responsible for making check-ins?’ drop-down.
-
-- Once you make the selection, the user will  start receiving the check-in reminders.
-
-> [!NOTE]
-> By default, the owner (the first owner in the case of multiple owners) is set as the person responsible for check-in and users need not explicitly choose unless necessary.
-
-:::image type="content" source="../media/goals/goals-check-in.gif" alt-text="Image of assign responsibility for check-ins":::
-
-Learn more about [check-ins and the continuous feedback](https://help.ally.io/en/articles/2107055-check-ins-and-feedback) system.
 
 ## Different ways to make check-ins in Viva Goals
 
