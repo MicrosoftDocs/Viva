@@ -237,3 +237,11 @@ The progress when reset to 0 and the objective is postponed to the next time per
 ***KPI***
 
 The progress will be reset to the current value. For instance, you want to publish 10 blogs, and you've published five blogs this quarter. When you postpone this to the next quarter, your starting value will be 5, and not 0.
+
+## FAQ
+
+1. My closed OKRs are completed to 100% and have a score of 1.0, but display the score in orange. Why is that?
+
+A: For aspirational OKRs, we recommend the final scoring ranges to be in orange as the ideal aspirational OKR should be challenging but attainable. A score of 1.0 may indicate a need for more ambitious objectives. With respect to OKRs where you have defined a clear plan of action on achieving them, we recommend using committed OKR's where the final score of green is recommended for a score of 1.0.
+
+All OKRs by default are aspirational in nature. So when you close the OKRs at 100% completion, the system scores it as 1.0 in orange to indicate that the goal could have been higher. Whereas, when you close the OKRs at lower percentage completion(between 70%-90%), it indicates that for an aspirational goal, it is a relatively great completion hence the green score.
