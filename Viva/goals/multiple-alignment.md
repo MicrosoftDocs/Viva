@@ -44,7 +44,7 @@ In this image you can see we've aligned to both **Culture Communication** and **
 
 ## How Multiple Alignment works?
 
-If an objective is aligned to multiples above, the progress roll-up will cascade up as normal, you're simply contributing to both objectives at a higher level. If you mark the objective as **Behind** or **At-Risk**, both parent objectives would contain the same status.
+If an objective is aligned to multiples above, the progress roll-up will cascade up as normal, you're simply contributing to both objectives at a higher level. 
 
 ## When to use Multiple Alignment?
 
