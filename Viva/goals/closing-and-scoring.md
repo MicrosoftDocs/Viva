@@ -75,7 +75,6 @@ The following fields are displayed:
 |**Score**  |    Based on the above inputs, Viva Goals will recommend a score for your OKR, which is a simple calculation of your completed percentage mapped to a score between 0 and 1. You can choose to go with Viva Goals recommended score, or override it with a number of your preference based on the perceived outcome.     |
 |**Continue working on this in another time period?**  |   This is a field where you can decide whether or not you want to move this objective to another time period in order to keep working on it. This will essentially postpone the completion of this OKR until the next quarter. Select Yes or No based on preference.    |
 |**Closing Note**  |   This is a note about the OKRs you're closing. At Viva Goals, we recommend putting your final assessment of the success/failure of the OKR here and any suggestions you might have for including it in future time periods. |  
-|**Closing Note**  |   This is a note about the OKRs you're closing. At Viva Goals, we recommend putting your final assessment of the success/failure of the OKR here and any suggestions you might have for including it in future time periods. |
 
 :::image type="content" source="../media/goals/goals-scoring-OKRs.png" alt-text="Image of scoring OKRs":::
 
