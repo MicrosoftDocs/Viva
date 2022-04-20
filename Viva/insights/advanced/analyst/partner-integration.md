@@ -15,7 +15,7 @@ manager: helayne
 audience: Admin
 ---
 
-# Viva Insights partner integration
+# Viva Insights integration
 
 *This experience is only available through private preview.*
 
