@@ -83,7 +83,7 @@ Review Dashboard is available for the company, teams, and individuals. To know m
 
 ## Types of widgets — purpose and creation
     
-A Dashboard can house multiple panels, and each panel comprises seven types of widgets — Objectives and Key Results (OKR) detail, custom embed, OKR list, text block, key performance indicator (KPI) list, image, and project list. You can customize this dashboard with any number of panels and widgets of your choice, depending on the need – executive business reviews, departmental meetings, tactical review meetings, and likewise.
+A Dashboard can house multiple panels, and each panel comprises seven types of widgets — Objectives and Key Results (OKR) detail, OKR list, text block, key performance indicator (KPI) list, and project list. You can customize this dashboard with any number of panels and widgets of your choice, depending on the need – executive business reviews, departmental meetings, tactical review meetings, and likewise.
 
 There are seven types of widgets, and each panel can have innumerable permutations and combinations of the below-mentioned widgets:
 
@@ -132,35 +132,6 @@ To create this widget,
 
     :::image type="content" source="../media/goals/Objective detail.gif" alt-text="Detail":::
 
-### Custom embed
-
-- Your OKRs could be connected to any third-party tool. More often than not, you find yourself switching back and forth to pull data from these tools during your OKR review meetings.
-
-- Say, you rely on data visualization tools or spreadsheets to track the progress of specific metrics. You can bring them all under a single roof, in the context of OKR progress. You can add anything that’s embeddable — a URL, image, or an HTML to populate data within the Review Dashboard.
-
-- This gives you greater control over customizing the dashboard to incorporate KPIs, trends, projects, and visualizations in a consolidated view that catalyzes laser-focused meetings.
-
-To create this widget,
-
-- From the list of available options, select the custom embed widget, and provide a name for this widget.
-
-- Enter either the URL or HTML, and check for the preview.
-
-- Save and add the widget.
-
-    :::image type="content" source="../media/goals/viva-goals-custom-embed.png" alt-text="Custom embed":::
-
-> [!IMPORTANT]
-> **1. Dashboards Do Not Render Properly in Safari Browser**
->
-> When using embedded URLs within a dashboard, you may be running into issues (errors such as **'refused to connect'**) in the Safari browser. This may be due to Safari's Intelligent Tracking Prevention to block third-party tracking cookies (even though Viva Goals is not a tracking domain). Use a different browser to access Viva Goals Software. If you still face issues with a different browser, check for the privacy settings.
->
-> Read more about Intelligent Tracking Prevention [here](https://webkit.org/blog/7675/intelligent-tracking-prevention/). You can learn more about Safari’s cross-site tracking setting [here.](https://support.apple.com/guide/safari/prevent-cross-site-tracking-sfri40732/mac)  
->
-> **2. No support for RAW HTML**  
->
-> Viva Goals does not support raw HTML embed and currently only accepts a valid full URL. If the format of the input is not a valid URL, you'll see an error message that reads `Enter a valid URL`.
-
 ### Text block
 
 - This is a rich-text editor wherein you can jot down supporting notes and add descriptive comments for the OKRs.
@@ -198,30 +169,6 @@ To create this widget,
 - In addition, you can select to display the objective that's linked with the KPI for better context.
 
 - Save, and add the widget.
-
-<!--- Will come post GA -->
-    
-### Image
-
-- A picture is worth a thousand words! The image widget can be used for embedding images, and GIFs in the context of your OKRs.
-
-- To enhance the presentation of your progress updates, you can leverage the image widget to insert images of any format, save yourself from the hassle of creating complicated tabular columns, or typing lengthy updates.
-
-- You can have control over the size and positioning of the chosen images in the dashboard.
-
-To create this widget,
-
-- From the list of available options, select the image widget, and provide a name for this widget.
-
-- The next step is to add images — you can either drag and drop an image, or upload from your local computer.
-
-- Once you've previewed the image in the popover, determine the image size — stretch to fit the width, or the height.
-
-- Save, and add the widget.
-
-    :::image type="content" source="../media/goals/image widget.gif" alt-text="Viva goals image widget":::
-    
-<!--- End code comment -->
 
 ### Project list
 
