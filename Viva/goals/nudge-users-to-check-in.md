@@ -28,6 +28,6 @@ Whenever an Objectives and Key Results (OKR)/Project needs an update and you wan
 
 The nudge option is available in the progress popover when you select it. It will be visible to the users who aren't the primary check-in owner of the OKR.
 
-In the popup, you can also see how the notifications for that particular user are configured and where they'll be notified. The nudge will go out on Slack if integrated for their account, otherwise, it will fall back to email.
+The nudge will go out on to the user's email.
   
 [nudge email screenshot]
