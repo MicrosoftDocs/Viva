@@ -39,6 +39,7 @@ There are four stages as part of the workflow:
 4. Closed
 
 :::image type="content" source="../media/goals/viva-goals-digital-tones.png" alt-text="Digital Tones":::
+   
 
 Planning and Review are similar and are used to indicate status. For example, an employee might plan out their OKRs, and tell their manager when the OKRs are ready to be looked at. The manager would then set it to the Review stage.
 
@@ -56,8 +57,32 @@ Go to **Admin Tools -> Settings -> OKR Workflow -> Check Approval Workflow -> Sa
 Once this feature is enabled, an additional option becomes available to block changes to OKRs after approval.
 
 :::image type="content" source="../media/goals/viva-goals-enabling-approval-workflow.png" alt-text="Enabling Approval Workflow":::
-
-## Permissions available for the respective workflow stage
+  
+## Changing workflow statuses of an entity's OKR
+  
+1. Once the Approval Workflow feature is enabled, navigate to the entity for which you'd like to change the workflow status.
+  
+  [screenshot]
+  
+2. On the top-right corner of your screen, click the **...** button to view all possible actions for the current entity.
+  
+  [screenshot]
+  
+3. Select **Change Status**.
+  
+  [screenshot]
+  
+4. From the pop-up, click on the status drop-down.
+  
+  [screenshot]
+  
+5. Select the status you'd like to set.
+  
+  [screenshot]
+  
+6. Click **Save**.
+  
+## Permissions available for each workflow stage
 
 :::image type="content" source="../media/goals/viva-goals-permissions-for-respective-workflow-stage.png" alt-text="Permissions for respective workflow stage":::
 
