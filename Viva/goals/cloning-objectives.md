@@ -55,12 +55,15 @@ You can edit the cloned Objective to reflect the leftover portion of the goal in
     
     - Choose to keep the original objective owner, or assign a new one.
     
-    - Choose to clone objective, all key results below the object, and any projects or simply the objective or only the objective an its immediate key results.
+    - Choose to clone:
+    a. Only the objective - Will not clone any children.
+    b. Objective and its immediate children - Will not clone any children that the objective's immediate children might have.
+    c. Objective and all its children - Will clone all children even if an objective's immediate children has children.
 
     :::image type="content" source="../media/goals/goals-clone-objective-choose-option.png" alt-text="Image of choose options from the dialogue box":::
     
     > [!NOTE]
-    > Select keep original objective owner if you do not want to change the owners of the OKR. If you want to change the OKR owner to someone else, you can assign to one your team members.
+    > Select keep original objective owner if you want to retain the original owners for the objectives, key results and the projects in the hierarchy. If you want to change the OKR owner, you can assign to yourself or any of your team members. All the OKRs and Projects in the hierarchy will be assigned to assigned owner.
 
 3. If necessary, edit or tweak the newly cloned Objective, including changing key results or KPIs to reflect the remaining work in the new time period.
 
@@ -78,4 +81,4 @@ You can edit the cloned Objective to reflect the leftover portion of the goal in
     :::image type="content" source="../media/goals/goals-clone-multiple-objectives.png" alt-text="Image of clone multiple objectives":::
 
     > [!NOTE]
-    > The cloning process takes place on the back end of our software, so it will take a short time for the system to produce a clone. The bigger the number of objectives chosen to clone, the longer it will take. Please be patient and do not make multiple attempts to clone the same objective.
+    > The cloning operation happens asynchronously without blocking you from performing other actions in Viva goals. The time to complete will depend on the number of OKRs being cloned. Attempting to clone multiple times during the process will result in the OKRs being cloned as many times
