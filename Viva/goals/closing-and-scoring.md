@@ -52,7 +52,7 @@ Towards the end of each time period, you can save yourself from the hassle of cl
 
 - Start reflecting on your OKRs, and assign a score to the objective if you're closing them. In case you're postponing the OKRs, determine what needs to be cloned, how the progress needs to be cloned while rolling over the unfinished objective. 
 
-- At the bottom of the quick view window, you'll find a checkbox that's ticked to enable the chain check-in experience of all your objectives. Here, you'll find a summary of how many objectives have been closed, or postponed, and how many are yet to be reflected upon. 
+- Optionally if you are looking to close all OKRs in the view, you have the ability to automatically open the next OKR to close by enabling the "Continue with N remaining OKRs" at the bottom of the close objective panel which also shows a progress summary of OKRs that have been closed or postponed and the ones that are pending closure. 
 
 - You can continue closing, or postponing each objective as you see fit, until you reach the last objective. 
 
