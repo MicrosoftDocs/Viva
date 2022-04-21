@@ -38,9 +38,9 @@ There are **two ways of adding Projects in Viva Goals** – you can bring projec
 
 - Provide the project details — title, type (individual, team, or organizational project), the project owner, and the time period.
 
-- Under the **Outcome section**, you'll find two options to break down your project — either into milestones or by adding tasks to your project. For more details on adding Project Milestones, read our [help article](https://help.ally.io/en/articles/5406030-project-milestones-in-ally-io).
+- Under the **Outcome section**, you'll find two options to break down your project — either into milestones or by adding tasks to your project. 
 
-- As for adding tasks to your project, there are two ways in which you can add tasks — either directly in Viva Goals or through an integration. For more information on the project integrations we support, see [Projects](https://help.ally.io/en/articles/4224975-what-are-projects).
+- As for adding tasks to your project, there are two ways in which you can add tasks — either directly in Viva Goals or through an integration.
 
 - You can **add tasks directly** by providing details such as task name, due date and owner.
 
