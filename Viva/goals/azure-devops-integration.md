@@ -48,11 +48,7 @@ Viva Goals allows you to connect with multiple projects. Select New Connection t
 
 Once you've configured the connection, the next step is to start linking OKRs to the Azure DevOps projects.
 
-- For the **Objectives and key results can be used interchangeably** OKR Model: While **creating or editing an OKR**, click on **Connect data source to auto-update progress**. From the drop down menu, select **Azure DevOps**. 
-
-  > [!NOTE]
-  > The option to connect to a data source will appear only for Key Results and not for Objectives if the **Objectives are always aspirational, key results are always measurable** OKR Model is being used.
-
+- The option to connect to a data source will appear only for Key Results and not for Objectives.
 - If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared. 
 - Choose the method using which you want to measure the progress — percent complete or KPI (success metric). If you are choosing KPI, provide a metric, starting value, and target value. 
 - Select a connection, and choose the **Query**. As soon as you choose a query, the **count of matching work items** will be displayed. 
