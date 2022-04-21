@@ -42,21 +42,21 @@ The following metrics are available when creating analysis in the Advanced insig
 
 ## Collaboration activity
 
-|Metric |Description |Analysis type |Analysis components |
-|------|-----------|----------|---------|
+|Metric |Description            |Analysis type |Analysis components |
+|------|----------------------|----------|---------|
 | Collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). |Ways of working assessment, Business resilience, Manager effectiveness, Hybrid workforce experience, and Wellbeing templates |Collaboration activity |
-
 
 ## Meeting types
 
-|Metric |Description |Analysis type |Analysis components |
-|------|-----------|----------|---------|
-| Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.) |Meeting queries |Collaboration activity where "Is Conflicting" equals "True" |
+|Metric |Description           |Analysis type |Analysis components |
+|------|----------------------|----------|---------|
+| Conflicting meeting hours|Number of meeting hours where the person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps. (This number includes all non-declined meeting times, which includes accepted, tentative, or no responses to meeting invitations.) |Meeting queries |Collaboration activity where **Is Conflicting** = **TRUE** |
+| Decision making meeting hours |Meeting hours with a duration of one hour or less and at least three up to eight participants. |Meeting queries and Ways of working assessment template | Collaboration activity where: <br>**Total meeting attendees** > **2** <br> AND **Total meeting attendees** <= **8** <br>AND **Meeting duration (in hours)** <= **1** |
 
 ## After-hours collaboration
 
-|Metric |Description |Analysis type |Analysis components |
-|------|-----------|----------|---------|
-|After-hours collaboration hours | The total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. |Ways of working assessment, Business resilience, Manager effectiveness, Hybrid workforce experience, and Wellbeing templates | "During working hours" equals "False" |
+|Metric |Description             |Analysis type |Analysis components |
+|------|----------------------|----------|---------|
+|After-hours collaboration hours | The total number of channel posts and replies sent on Teams channels by the time investor to one or more people in the collaborator group. |Ways of working assessment, Business resilience, Manager effectiveness, Hybrid workforce experience, and Wellbeing templates | **During working hours** = **FALSE** |
 
 ## Working hours collaboration
