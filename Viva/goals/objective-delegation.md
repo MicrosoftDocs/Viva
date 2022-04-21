@@ -30,41 +30,35 @@ Viva Goals’ Objective Delegation feature allows objective owners to delegate a
 
 Occasionally, when you're using OKRs to collaborate with other people within your organization, you would like to delegate the OKRs to another individual to manage on behalf of the OKR owner. With Viva Goals’ Delegation option, you can assign another individual to manage/work on OKRs that aren't owned by them.
 
-## Delegation Example
-
-If your organization has Objective Delegation enabled, you may come across objectives that look like this.
-
-:::image type="content" source="../media/goals/viva-goals-objective-delegation-1.png" alt-text="Objective Delegation 1":::
-
-In the previous example Reed David is the objective owner but has set Phil S as the delegate to keep it updated.
-
-The delegate will have the same abilities on the objective as the owner with the exception that the delegate won't be able to change the objective's ownership.
-
-As a delegate, a user will also gain a new dashboard view that is specific to delegated objectives.
-
-:::image type="content" source="../media/goals/viva-goals-objective-delegation-2.png" alt-text="Objective Delegation 2":::
-
-When users are listed as a delegate, they'll receive notification to check in as if they were the owner themselves. The original owner may also elect to receive the notification, this is configured on an objective by objective basis.  
-
-## Add a Delegation to an Objective
+## Add a Delegate to an Objective
 
 Users may add a delegate to an objective when creating or editing an objective.
 
-1. Select **Delegated to**
+1. Click the more **More Actions** icon and select **Edit**.
 
-    :::image type="content" source="../media/goals/viva-goals-objective-delegation-3.png" alt-text="Objective Delegation 3":::
+[screenshot]
 
-2. Select the individual who will become the delegate.
+2. From the edit screen, click on the drop down next to **More Options**.
 
-    :::image type="content" source="../media/goals/viva-goals-objective-delegation-4.png" alt-text="Objective Delegation 4":::
+[screenshot]
+    
+3. Click on **Assign a delegate**.
+    
+[screenshot]
+    
+4. From the delegate pop-up, select the **Delegate this to** radio button.
+    
+[screenshot]
+    
+5. Use search field to search for a team member to whom you'd like to delegate.
+    
+[screenshot]    
 
-3. Then select from the options below: Delegate any key results below owned by the objective owner and elect to have the original owner receive notifications.
+6. Then select from the options below: Delegate any key results below owned by the objective owner and select to have the original owner receive notifications.
 
-    :::image type="content" source="../media/goals/viva-goals-objective-delegation-5.png" alt-text="Objective Delegation 5":::
-
-4. The user will then be listed as a delegate and will receive the new dashboard upon saving.
-
-    :::image type="content" source="../media/goals/viva-goals-objective-delegation-6.png" alt-text="Objective Delegation 6":::
+[screenshot]    
+    
+7. Click **Done**.
 
 ## The difference between a delegate and a check-in owner
 
