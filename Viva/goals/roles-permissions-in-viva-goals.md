@@ -163,13 +163,13 @@ An Observer is entitled to the following privileges:
 
 ### Adding users as an Observer
 
-You can set a default account type for new users from **Admin Dashboard > Setting**. If the value is set to **Observer**, users will take up account type as **Observer** when added through file upload/slack or when they join without invitations (if allowed).
-
-The process of adding a user as an Observer is shown in the following image:
+You can set a default account type for new users from **Admin Dashboard > Setting**. 
 
 :::image type="content" source="../media/goals/setting-account-type-to-observer.png" alt-text="Setting Account Type for a new user to Observer":::
 
-The users can choose to send invitations to people with Observer privileges.
+If the value is set to **Observer**, users will take up account type as **Observer** when added through file upload/slack or when they join without invitations (if allowed).
+
+Users will have the option to choose between Observer and Regular privileges when inviting.
 
 :::image type="content" source="../media/goals/inviting-people-to-assign-observer-privileges.gif" alt-text="Inviting people to assign privileges of an Observer":::
 
