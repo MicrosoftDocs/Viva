@@ -23,9 +23,9 @@ Microsoft Viva Insights provides personal insights in the [Viva Insights app in 
 
 ## Microsoft 365 plans
 
-The following Personal insights service plans are generally available for free with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
+The following Personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
 
-* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) is included with:
+* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) requires:
 
   * Microsoft 365 E3, A3, E5, A5, Business Basic, Business Standard, or Business Premium
   * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
