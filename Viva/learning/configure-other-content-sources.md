@@ -60,7 +60,7 @@ Third-party content sources are not enabled by default. To enable these sources,
 
 The dataflow diagram illustrates how Viva Learning ingests third-party content. The third-party provider is the ultimate source of information for content records for their customers. Viva Learning extracts the content from the third-party provider using the connector.
 
-<!-- infographic here-->
+![Flow chart depicting the content ingestion process, which is described in the paragraph below.](../media/learning/3p-dataflow.png)
 
 The step-by-step content ingestion process is described below.
 

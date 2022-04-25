@@ -42,11 +42,9 @@ Learning management systems are not enabled by default. To enable these sources,
 
 ## Dataflow architecture
 
-<!--daisy this is the new bit EDIT IT-->
+The dataflow diagram illustrates how Viva Learning uses the LMS connector to ingest the learning content catalog and learner records (assignments and completion status). The learning management system (LMS) is the ultimate source of content and learner records for their customers. Viva Learning extracts the content and learner records from the LMS by the LMS Connector as depicted in the diagram below.
 
-The dataflow diagram illustrates the mechanism of ingesting the learning content catalog and learner records e.g., Assignments and Completion status. The learning management system (LMS) is the ultimate source of content and learner records for their customers. Viva Learning extracts the content and learner records from the LMS by the LMS Connector as depicted in the diagram below.
-
-<!--infographic here-->
+![Flow chart depicting the content ingestion process, which is explained in the paragraph below.](../media/learning/lms-dataflow.png)
 
 The step-by-step content ingestion process is explained below.
 
@@ -62,50 +60,67 @@ The step-by-step content ingestion process is explained below.
 
 These are the data extracted from the LMS as part of the Content Catalog package.
 
-|Metadata field name |Field details |Priority |Data type |
-|:-------------------|:-------------|:--------|----------|
-|Content provider (LMS) name |Name of the learning management system. This field can be provided separately and appended. |Required |String|
-|Content provider (LMS) logo URL |Name of the learning management system. This field can be provided separately and appended. |Required |String|
-|Content provider ID |Content provider ID | Required |String |
-|Content ID (unique identifier) | Unique identifier for learning content |Required |String |
-|Title of learning content |Title of learning content |Required |String |
-|Content module URL (link to consume content) |URL for learning content. This is the link that users select to consume the content. |Required |String |
-|Content source name |Name of the provider of course content |Optional |String |
-|Content module long description/summary |Description/summary of learning content |Highly recommended |String |
-|Content source logo URL |Course content provider's logo in jpeg or png format |Optional |String |
-|Content module thumbnail URL |URL to learning content thumbnail image for display purposes |Highly recommended |String |
-|Content language/locale |Language in which content is available. Metadata should be provided in all available languages. |Highly recommended. English is the default if this field isn't provided. |String |
-|Content status |Whether the learning object is active or inactive. Inactive returns **0**, while active returns **1**. |Highly recommended |Bool |
-|Content module duration |Duration of learning content (time-based) |Highly recommended |Number |
-|Content format |Content format (e.g. article, course, video) |Highly recommended |String |
-|Content creation date |Date the learning content was created |Highly recommended |Date Time |
-|Content module last modified date |Date the learning content was last modified |Highly recommended |Date Time |
-|Content module author/creator/contributor |Author, creator, or contributor of learning content |Highly recommended |String |
-|Content module length/size |Non time-based length/size of content (e.g. number of pages) |Highly recommended |Number |
-|Tags and keywords |Keywords, topics, and other tags associated with the learning content |Recommended |String |
-|Difficulty level |Difficulty level of the course (e.g. beginner, advanced, etc.) |Recommended |String |
-|Popularity score |Rating or popularity score of learning content |Recommended |Number (double) |
-|Skills associated |Skills tags associated with the learning content |Recommended |String |
-|IsPremium |Is the content premium |Recommended |Bool |
-|IsPromoted |Is the content promoted. The default value is false (**0**). |Recommended |Bool |
-|Is Searchable |Is the content searchable. The default value is true (**1**). |Recommended |Bool |
+|Metadata field name |Field details |Priority |
+|:-------------------|:-------------|:--------|
+|Content provider (LMS) name | LMS's name. This can be provided separately and appended. |Required |
+|Content provider (LMS) logo URL | LMS's name. This can be provided separately and appended. |Required |
+|Title of learning content |Title of learning content |Required |
+|Content module's thumbnail URL |URL to the learning content thumbnail image for display purposes |Required |
+|Content module's URL (deep link to consume content) |URL to learning content. This is the link that the user selects to consume content. |Required |
+|Content module description/summary |Description or summary of learning content |Required |
+|Content language/locale |Language in which content is available. Metadata should be provided in all available languages. |Required |
+|Content module duration |Time duration of learning content |Required |
+|Last modified date of content module/content creation date |Date the learning content was last modified |Required |
+|Content format |Content format, such as article or video |Required |
+|Assigned user role |Role(s) or group(s) that have permissions to the content  |Required for role-based access |
+|Content source name |Name of the course content provider |Recommended |
+|Content source logo URL |Logo of the course content provider |Recommended |
+|Content ID |Unique identifier for learning content |Recommended |
+|Content module author/creator/contributor |Author/creator/contributor of learning content |Recommended |
+|Content module length/size |Size of content, not based on time. For example, this could be the number of pages. |Recommended |
+|Tags and keywords |Keywords, topics, and other tags associated with the learning content |Recommended |
+|Difficulty level |Difficulty level of the course (such as beginner, intermediate, or advanced) |Recommended |
+|Content module thumbnail alt text |Alternative text to support accessible design for images. Text describes images and can be invoked by screen readers for users with assistive technology. |Recommended |
+|Popularity score |Rating or popularity score for learning content |Recommended |
+|Skills associated |Skills tags associated with the learning content |Recommended |
 
-### Assignment and completion records
+### Assignment records
 
-These are the data extracted from the LMS for assignment records and completion status.
+These are the data extracted from the LMS for assignment records.
 
-|Metadata field name |Field details |Priority |Data type |
-|:-------------------|:-------------|:--------|----------|
-|Assignment ID |Unique identifier for assignment record |Required |String |
-|User ID/Assignee(s) identifier(s) |ID of the user to whom learning object is assigned |Required |String |
-|Assigned learning object ID |ID of the learning object |Required |String |
-|Provider ID |Content provider ID |Required |String |
-|Due date of assignment |Date the assigned course is due for completion |Highly recommended |String |
-|Date of assignment |Date the learning object was assigned |Highly recommended |Date time |
-|Assignment status |Statues of the learning object assignment. Options are **Not started**, **In progress**, and **Completed**. |Highly recommended. The default value is **Not started**. |String |
-|Date of completion |Date the user completed the assignment |Highly recommended |Date time |
-|Assigner ID |Identifier of the user who assigned the learning object |Highly recommended |String |
-|Notes |Notes or comments on the assignment, if any exist |Highly recommended |String |
+|Metadata field name |Field details |Priority |
+|:-------------------|:-------------|:--------|
+|Tenant ID | Tenant ID |Required |
+|Configuration ID |LMS configuration ID. This is the equivalent to the learning source ID of the LAS |Required |
+|ID |Object unique key (configid+externalAssignmentId) |Required |
+|Learning object ID |Unique identifier for the assigned learning object |Required |
+|Learner ID |ID of the learner/user to whom the learning object was assigned |Required |
+|External assignment ID |Unique assignment ID on each LMS side |Required |
+|Assignment due date |Date the assigned course is due for completion |Required |
+|Assignment completion status |Current completion status of the assigned learning object. This can be Not started, In progress, or Completed. |Required |
+|Assignment date |Date the learning object was assigned |Required |
+|Assigner ID |ID of the user who assigned the learning object |Recommended |
+|Assignment completion date |Date the assignee completed the learning object |Recommended |
+|Assignment title |Title that an assigner can maintain |Recommended |
+|Notes |Notes or comments on the assignment |Recommended |
+
+### Completion status
+
+These are the data extracted from the LMS for completion status.
+
+|Metadata field name |Field details |Priority |
+|:-------------------|:-------------|:--------|
+|Tenant ID | Tenant ID |Required |
+|Configuration ID |LMS configuration ID. This is the equivalent to the learning source ID of the LAS |Required |
+|ID |Object unique key (configid+externalAssignmentId) |Required |
+|User ID |Unique identifier for the user or employee |Required |
+|Learning object ID |Unique identifier for the assigned learning object |Required |
+|Completion status of learning object |The current completion status of the learning object. This can be either In progress or Completed. |Required |
+|Date of completion |Date the user completed the learning object |Recommended |
+|Start date |Date the user started the learning object |Recommended |
+|Course completion ID |Unique identifier for the course completion record |Recommended |
+|Current time |How far the user has progressed in the course (time)  |Recommended |
+|Current page number |How far the user has progressed in the course (page number) |Recommended |
 
 ## Content ingestion errors
 
