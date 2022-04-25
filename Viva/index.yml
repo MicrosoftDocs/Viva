@@ -65,14 +65,14 @@ productDirectory:
           text: Get started
         - url: /viva/insights/setup/setup-intro
           text: Setup
-        - url: /learn/modules/workplace-analytics-discover/
-          text: Learning path - Discover Microsoft Viva Insights
         - url: /viva/insights/personal/introduction
           text: Personal insights
         - url: /viva/insights/use/myteam
           text: Manager insights
         - url: /viva/insights/use/viva-insights-my-org
           text: Leader insights
+        - url: /viva/insights/index-orig
+          text: Advanced insights
 
     # Card
     - title: Microsoft Viva Connections

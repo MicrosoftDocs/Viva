@@ -1,7 +1,7 @@
 ---
 
-title: Query designer in Workplace Analytics
-description: The Query designer in Workplace Analytics offers predefined Templates and other custom query options for more in-depth data analysis
+title: Query designer in Viva Insights
+description: The Query designer in Viva Insights offers predefined Templates and other custom query options for more in-depth data analysis
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Query designer
 
-The **Query designer** in Workplace Analytics combines templates and queries together into a single view.
+The **Query designer** in the advanced insights app combines templates and queries together into a single view.
 
 * [**Templates**](#templates) &ndash; The templates provide an easy way to bring a predefined set of query metrics into a template, where you can quickly analyze workplace patterns and trends about a specific business challenge.
 * [**Queries**](#queries) &ndash; You can also create your own custom query to create datasets that answer custom business challenges. After creating a dataset, you can analyze the data in a tool of your choice.
@@ -49,7 +49,7 @@ You can also filter the list of templates to help identify which ones answer que
 
 ### Available templates
 
-Workplace Analytics currently includes the following predefined templates.
+The advanced insights app currently includes the following predefined templates.
 
 * [**Ways of working assessment**](./power-bi-collab-assess.md) &ndash; Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization.
 * [**Ways of working tracker**](./power-bi-collab-track.md) &ndash; Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
@@ -57,7 +57,7 @@ Workplace Analytics currently includes the following predefined templates.
 * [**Business continuity**](./power-bi-bc.md) &ndash; Shows example insights into how shifting to remote work affected your business.
 * [**Microsoft Teams insights**](./power-bi-teams.md) &ndash; Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization.
 * [**Manager effectiveness**](./power-bi-manager.md) - Helps leaders measure behaviors and trends of their people managers across four key themes within the organization, including coach, empower, connect, and model.
-* [**Behavior patterns for Glint**](./power-bi-glint-2.md) &ndash; Combines behavioral data from Workplace Analytics and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
+* [**Behavior patterns for Glint**](./power-bi-glint-2.md) &ndash; Combines behavioral data from Viva Insights and sentiment data from Glint to produce insights that help identify opportunities to influence behavior and improve business outcomes.
 * [**Sales business continuity**](./pbi-bc-sales.md) &ndash; Shows insights into how shifting to remote work impacted your sales organization.
 
 For details about how to share a dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting](../tutorials/power-bi-templates.md).
@@ -72,7 +72,7 @@ When available and listed, you can also select from one or more related [query t
 
 ![Query templates available when creating a new query.](../Images/WpA/Tutorials/qd-query-options.png)
 
-You can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in Workplace Analytics. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
+You can download the query data results as .csv files, or depending on the type of data, you can also visualize it directly in the advanced insights app. See [View, download, and export query results](../use/view-download-and-export-query-results.md) for details.
 
 ### Query types
 
@@ -85,7 +85,7 @@ You can download the query data results as .csv files, or depending on the type 
 
 ### Query templates
 
-In addition to the templates, Workplace Analytics also includes the following query templates.
+In addition to the templates, the advanced insights app also includes the following query templates.
 
 * **Domain collaboration** - Analyzes collaboration patterns with external domains.
 * **Standard meeting query** - Analyzes meetings by using the available base meeting query metrics.
@@ -107,7 +107,7 @@ See [Attendee exclusions](attendee-exclusion-rules.md) for details.
 
 ## Data time limit
 
-The historical data that queries and reports use is time limited. You can run queries only on data from the last 27 months. This 27-month period is a _rolling window_. After the first 27 months of [Microsoft 365 data](../use/office-365-data.md) is uploaded and processed in Workplace Analytics, it refreshes each week. This means the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
+The historical data that queries and reports use is time limited. You can run queries only on data from the last 27 months. This 27-month period is a _rolling window_. After the first 27 months of [Microsoft 365 data](../use/office-365-data.md) is uploaded and processed in Viva Insights, it refreshes each week. This means the 27-month extent of data that you can query advances by one week to include the preceding 27 months.
 
 However, historical query results that have already been run remain available, even after the data in the query results passes the 27-month limit.
 
@@ -115,5 +115,5 @@ However, historical query results that have already been run remain available, e
 
 * [Templates](../Tutorials/Power-bi-templates.md)
 * [View, download, and export query results](../use/view-download-and-export-query-results.md)
-* [Workplace Analytics glossary](../Use/Glossary.md)
+* [Glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)

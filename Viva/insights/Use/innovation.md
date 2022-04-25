@@ -1,6 +1,6 @@
 ---
 title: Foster innovation in Viva Insights
-description: Learn how to use Workplace Analytics data to analyze and foster innovation in your organization 
+description: Learn how to use Viva Insights data to analyze and foster innovation in your organization 
 author: madehmer
 ms.author: helayne
 ms.topic: article

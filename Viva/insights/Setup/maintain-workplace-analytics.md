@@ -40,7 +40,7 @@ After you have installed and set up Microsoft Viva Insights, it will require mai
 
 ## Update organizational data
 
-* **Task** - Prepare a .csv file that contains organizational data and upload it to Workplace Analytics.
+* **Task** - Prepare a .csv file that contains organizational data and upload it to the advanced insights app.
 * **Frequency** - Update organizational data as frequently as you like; however, it will be refreshed upon the latest Microsoft 365 collaboration data. Because email, calendar, and Microsoft Teams data is updated weekly, it makes sense to update this data on a similar cadence in Viva Insights.
 
 [Prepare organizational data](prepare-organizational-data.md)
@@ -73,7 +73,7 @@ After you have installed and set up Microsoft Viva Insights, it will require mai
 * **Task** - Create custom meeting exclusion rules to remove meetings from analysis.  
 * **Frequency** - As needed, create these rules to exclude meetings that might skew your data.
 
-[Meeting exclusion rules in Workplace Analytics](../tutorials/meeting-exclusions-intro.md)
+[Meeting exclusion rules.](../tutorials/meeting-exclusions-intro.md)
 
 ## Audit activity
 

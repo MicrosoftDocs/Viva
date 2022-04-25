@@ -127,6 +127,12 @@ The maximum number of total learning items supported in a tenant is 1 million re
 |SuccessFactors |USR_ERROR_SF_UNCOMPRESSED_PACKAGE_SIZE_EXCEEDED | No new content was ingested because the uncompressed package size exceeded 25GB. [Contact Microsoft customer support](help-support.md) |
 |Cornerstone OnDemand |USR_ERROR_INVALID_RESOURCE_CREDENTIALS |The authentication credentials you provided are Invalid. Make sure the credentials are being copied from Microsoft Viva Learning in Cornerstone OnDemand portal. |
 
+Your changes won't be saved if you've entered any fields incorrectly. You can close and reopen the flyout to view and correct any invalid fields.
+
+|Learning management system |Error message |
+|:----------------|:----------------------|
+|All LMSs |Your changes couldn’t be saved. Make sure you’ve entered the correct (field name). |
+
 ## Content consumption for end users
 
 Once you've added a learning management system as a content source from the Microsoft 365 admin center, content from the LMS will flow to the Viva Learning app and will be visible to end users.

@@ -1,9 +1,9 @@
 ---
 
-title: Viva Insights deployment guide
-description: Guide for admins on deploying Microsoft Viva Insights
+title: Personal insights deployment guide
+description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva 
@@ -16,9 +16,9 @@ audience: Admin
 
 ---
 
-# Deploy Viva Insights
+# Deploy personal insights
 
-Microsoft Viva Insights (including MyAnalytics) is an easy-to-deploy, out-of-the-box solution that helps users improve their productivity habits. It is available widely &mdash; to Microsoft 365 users with [these Service plans](../overview/plans-environments.md). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
+Personal insights with Microsoft Viva Insights is an easy-to-deploy, out-of-the-box solution that helps you and your co-workers improve your personal productivity habits. It is available widely &mdash; to Microsoft 365 users with [these Service plans](../overview/plans-environments.md). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
 
 ## What is Viva Insights?
 
@@ -107,12 +107,12 @@ In this scenario, all surfaces of Viva Insights are turned on by default for all
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal). Make sure you are using the new admin center. To do this, if the switch in the upper right of the page reads **Try the new admin center**, select it so that it reads **The new admin center**. 
 2. In the left pane, expand **Settings** and then select **Org settings**.
-3. On the **Service** tab, select **Microsoft Viva Insights (MyAnalytics)**. This opens a page on which you can configure access to Viva Insights elements. It should show that all Viva Insights elements are enabled.
+3. On the **Service** tab, select the option with **Microsoft Viva Insights** in it. This opens a page on which you can configure access to the different personal insights elements. It should show that all Viva Insights elements are enabled.
 4. If any element is not enabled, select it to enable it and then select **Save changes**.
  
 #### Default off
 
-In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive Viva digest emails but they can access the dashboard (at [myanalytics.microsoft.com](https://myanalytics.microsoft.com/)), where they can opt in to each surface individually.
+In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive Viva digest emails but they can access their [Personal insights dashboard](https://myanalytics.microsoft.com/), where they can opt in to each surface individually.
 
 ##### Set Viva Insights off by default
 
@@ -123,7 +123,7 @@ In this scenario, Viva Insights is off by default but users can turn it on for t
     ![New admin center.](../../images/mya/setup/the-new-admin-center.png)
 
 2. In the left pane, expand **Settings** and then select **Org settings**.
-3. On the **Service** tab, select **Microsoft Viva Insights** (including MyAnalytics). This opens a page to configure access to Viva Insights elements.
+3. On the **Service** tab, select **Microsoft Viva Insights**. This opens a page to configure access to Viva Insights elements.
 4. Clear the selection for **Dashboard**, **Digest**, and **Viva Insights Outlook add-in** to keep all users in your organization opted out of all Viva Insights features.
 
 After these settings are complete, users can open the dashboard and [turn on Viva Insights features by themselves](../use/opt-out-of-mya.md).
@@ -233,12 +233,12 @@ Before you start the pilot, have these in place:
 
 We recommend that you follow these steps to conduct the pilot:
 
-1. **Send a welcome email.** <!--(download [template](myanalytics-announcement-2020-template.docx))--> Send an email introducing Viva Insights to all the pilot users and invite them to training.
+1. **Send a welcome email** - <!--(download [template](myanalytics-announcement-2020-template.docx))--> Send an email introducing Viva Insights to all the pilot users and invite them to training.
 2. [Train the pilot participants](#train-pilot-participants) in how to use Viva Insights.
-3. **Assign the service plan.** Before rolling out Viva Insights to the pilot users, ensure that all users have been assigned to a [Viva Insights service plan](../overview/plans-environments.md) in the Microsoft 365 admin center.
-4. **Kickoff.** Begin the pilot. Announce to the pilot participants that the pilot is starting and remind them of its duration and their tasks, as described in the [test plan](#design-a-test-plan). See [Conduct the pilot](#conduct-the-pilot) for more details.
-5. **Consult with stakeholders.** Throughout the pilot, meet with your [project stakeholders](#include-stakeholders) to review user feedback as it arrives and address any technical issues that arise to ensure that the pilot is running smoothly.
-6. **Assess and plan.** Use results from the pilot to plan your next steps. See [Assess the pilot lessons and make a plan](#assess-the-pilot-lessons-and-make-a-plan).
+3. **Assign the service plan** - Before rolling out Viva Insights to the pilot users, ensure that all users have been assigned to a [Viva Insights service plan](../overview/plans-environments.md) in the Microsoft 365 admin center.
+4. **Kick off the pilot** - Begin the pilot. Announce to the pilot participants that the pilot is starting and remind them of its duration and their tasks, as described in the [test plan](#design-a-test-plan). See [Conduct the pilot](#conduct-the-pilot) for more details.
+5. **Consult with stakeholders** - Throughout the pilot, meet with your [project stakeholders](#include-stakeholders) to review user feedback as it arrives and address any technical issues that arise to ensure that the pilot is running smoothly.
+6. **Assess and plan** - Use results from the pilot to plan your next steps. See [Assess the pilot lessons and make a plan](#assess-the-pilot-lessons-and-make-a-plan).
 
 ### Set and measure goals
 

@@ -1,9 +1,9 @@
 ---
 
-title: Improve your work patterns with personal productivity insights in MyAnalytics
+title: Improve your work patterns
 description: How to use Viva Insights to improve your work patterns
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva 
@@ -22,7 +22,7 @@ audience: user
 
 More people than ever feel they lack control over their time at work. Many teams spend 80 to 90 percent of their week sitting in meetings, sending emails, and talking on the phone. But 50 percent of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
 
-Microsoft Viva Insights (formerly known as MyAnalytics) is an extension of your Microsoft 365 client experience that helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Microsoft 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter.
+Microsoft Viva Insights is an extension of your Microsoft 365 client experience that helps you find opportunities to build better habits and get back in control of your time. It uses everyday data from Microsoft 365 to give you insights into how you spend your time. It then provides insights and tips that help you work smarter.
 
 >[!Note]
 >Only you can see your data, see [Privacy FAQ](mya-faq.md#privacy) for details.
