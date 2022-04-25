@@ -25,7 +25,7 @@
 
 ### [Create a Dashboard](create-dashboard.md)
 
-### [use-audience-targeting-in-viva-connections](use-audience-targeting-in-viva-connections.md)
+### [Use audience targeting in viva connections](use-audience-targeting-in-viva-connections.md)
 
 ### [Create a Dashboard in more than one language](create-multilingual-dashboard.md)
 
