@@ -91,7 +91,7 @@ OKRs provide a framework to allow companies large and small to set goals, stay a
 
 You can ensure OKR program success at your company by following the recommended strategies in the Viva Goals Adoption Guide. At a high level, OKR success requires three components: 
 
-|Approach Name  |Description  |
+|Core Component  |Description  |
 |---------|---------|
 |OKR Champions     |      OKR Champions takes initial ownership of the OKR implementation internally and ensure its success on a continual and consistent basis. Typical OKR Champions hold the roles of Chief of Staff, Operations Lead, and team managers, but anyone can be an OKR Champion and enterprise organizations typically require several OKR Champions for a successful rollout.   |
 |Leadership Support     |    The most successful OKR programs have full support from the leadership team and strong executive sponsors. It's critical that senior leaders educate their respective organizations on the value of OKRs, explain why they're being implemented, reflect on their current culture, and identify key stakeholders .     |
