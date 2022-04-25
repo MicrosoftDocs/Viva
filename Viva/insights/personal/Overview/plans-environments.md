@@ -5,7 +5,7 @@ description: Supported plans and environment requirements for personal insights 
 author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
-ms.localizationpriority: medium 
+ms.localizationpriority: high 
 search.appverid:
 - MET150
 ms.service: viva 
@@ -25,23 +25,23 @@ Microsoft Viva Insights provides personal insights in the [Viva Insights app in 
 
 The following Personal insights service plans are generally available with a subscription to the Microsoft 365 plans listed for each. Also see [Supported](#supported-microsoft-365-environments) and [Not supported](#not-supported-microsoft-365-environments) Microsoft 365 environments to confirm your type of environment is supported.
 
-* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) requires:
+* [**Viva Insights service plan**](https://www.microsoft.com/microsoft-viva/buy-insights) are available with:
 
   * Microsoft 365 E3, A3, E5, A5, Business Basic, Business Standard, or Business Premium
   * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
   * Exchange Online Plan 1 or 2
 
-* **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are included with:
+* **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are available with:
 
   * Microsoft 365 E5 (with or without Audio Conferencing) or G5
   * Office 365 Enterprise, G5, or Nonprofit E5
 
-* **MyAnalytics (Full)** service plan is included with:
+* **MyAnalytics (Full)** service plan is available with:
 
   * Microsoft 365 A5 for faculty and students
   * Office 365 A5 for faculty and students
 
-* **Insights by MyAnalytics** service plan is included with:
+* **Insights by MyAnalytics** service plan is available with:
 
   * Microsoft 365 E3, Business, or A3 for faculty and students
   * Office 365 E1, E3, A3 for faculty and students, E3 Developer, G3, Business Premium, or Business Essentials
