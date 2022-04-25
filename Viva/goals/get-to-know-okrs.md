@@ -89,7 +89,7 @@ OKRs provide a framework to allow companies large and small to set goals, stay a
 
 ## How can I ensure OKR program success at my company?
 
-You can ensure OKR program success at your company by following the recommended strategies in the Viva Goals Adoption Guide. At a high level, OKR success requires three components: 
+You can ensure OKR program success at your company by following the recommended strategies in the [Viva Goals Adoption Guide] (https://go.microsoft.com/fwlink/?linkid=2193441). At a high level, OKR success requires three components: 
 
 |Core Component  |Description  |
 |---------|---------|
