@@ -25,28 +25,15 @@ description: "Learn about an OKR, its superpower, and how it's used"
 
 :::image type="content" source="../media/goals/introduction-image.png" alt-text="Introduction image":::
 
-**Hi there!**
+**What are OKRs?**
 
-We're thrilled you're here.
+OKRs (Objectives and Key Results) are a proven goal-setting framework for creating alignment, focus and building a highly productive and engaged work culture to drive your business outcomes.  
 
-As the saying goes, “Start with Why”, so let's start with why you're probably here:
+OKRs align your entire organization to strategy, shifting focus from output—the everyday work of your team—to outcomes, which are the results of that work. This mindset shift keeps your team highly engaged with a clear sense of purpose and understanding of how everyone is contributing to forward momentum. 
 
-- Your organization is ready to embark on a new way of setting and reaching goals.
-- You heard that OKRs are a proven way to achieve amazing results.
+**Objectives** are simply what you and your team want to accomplish. What is your definition of success? 
 
-Whether you’re brand new to OKRs, just getting up to speed, or have been using them for years, it’s important to know how they work.
-
-First, let's start with the basics:
-
-## What are OKRs?
-
-OKRs stand for Objectives and Key Results. It's a goal-setting process that allows businesses to solve for the two questions described in the following image:
-
-:::image type="content" source="../media/goals/questions-defining-okr.png" alt-text="Questions that define an OKR":::
-
-**Objectives** are simply what you and your team want to accomplish.
-
-The example of objectives added at organizational and teams levels is depicted in the following image:
+Objectives added at the organizational and team levels are depicted in the following image:
 
 :::image type="content" source="../media/goals/objectives-at-organizational-and-team-levels.png" alt-text="Objectives at organizational and teams levels":::
 
@@ -56,44 +43,56 @@ For best results, teams and individuals should be aligned well in a hierarchy. K
 
 :::image type="content" source="../media/goals/sales-objectives.png" alt-text="Sales objectives":::
 
+**Projects** are focused efforts that help you achieve your Key Results. 
+
+When delineating projects in Viva Goals...
+
+**Stay realistically optimistic.** Make sure you have the ability (resources and timeline) to execute the projects and key initiatives under your OKRs. That’s what makes an objective realistically optimistic, and not a pipe dream.  
+
+**Ask yourself:** What could get in the way of our projects and key initiatives?  
+
+Incorporating Projects in your OKR program ensures alignment between company-wide OKRs and the work prioritized by every department in your organization.
+
 **Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objective(s) as appropriate.
 
 :::image type="content" source="../media/goals/check-in.gif" alt-text="Illustration of a check-in":::
 
 The keys to success with OKRs are transparency and alignment. Right from the CEO to managers and colleagues, an employee can view anyone’s OKRs in the system. This undisguised transparency fosters openness and removes conflicts and redundancies with work. OKRs are also aligned vertically and horizontally, allowing employees to see how their work connects with the organization's overall strategic goals.
 
-## Are OKRs a good fit for you?
+## What are the benefits of OKRs?
 
-In most cases, the answer is a resounding **Yes**. OKRs are beneficial for any organization that cares about operational excellence, bringing alignment to their goal-setting process. If you're a small team, the tool helps employees work toward the focused goals with agility. If you're a large organization, it's even more important that all teams align with the common goals of the organization.
+Massive global enterprise companies have adopted OKRs, and so have 10-20 person companies. OKRs give companies of any size a strategic advantage for many reasons, and can be adopted by individuals in any role:  
 
-For more information on the points to be kept in mind while writing OKRs, see [best pratices](https://help.ally.io/en/articles/2094140-writing-okrs-best-practices-to-keep-in-mind).
+**OKRs shift focus from output to impact:** By starting with OKRs at the center of business planning, the focus inherently shifts from the outputs your team delivers to the impact they make on the business. In addition to reducing burnout from a lack of clarity around the purpose of that work, this shift in focus helps move the business forward more effectively. 
 
-## Why have OKRs led to success at so many companies?
+**OKRs create cross-functional cooperation to unify direction and improve collaboration.** When each individual, team, and department goal is aligned to the company’s broader strategy, teams  have a lens through which their work, and the impact it’s intended to have, is prioritized.  
 
-Modern business moves at breakneck speed, and all industries are being disrupted through new customer behaviors, aggressive competition, and changing market dynamics.
+**OKRs help organizations navigate rapid change and reduce risk.** This has been a key benefit of OKRs as companies square off against the pressures COVID-19 brought with it.  The OKR framework gives a level of visibility into where efforts are focused, allowing leaders to proactively manage risk, identifying themes and changes in diverse data sets that might have gone unnoticed without a unifying system. This, in turn, helps companies shift focus from activity and output to outcomes, making the right changes at the right time to stay competitive. 
 
-OKRs provide a framework to allow companies (large and small) to set goals, stay agile, and ensure employees are on board with the latest strategy through five superpowers that are described in the following image and table:
+**OKRs create clarity that is documented, measurable, and owned.** With the OKR framework comes accountability that is tracked and measured in the OKR software or document that a company manages the process with. This accountability works two ways; with each individual responsible for their OKRs, and the company leadership responsible for enabling their pursuit.   
+
+**OKRs inspire stretch and foster involvement**. When done well and made the driving force in the company’s strategic rhythm, OKRs can keep every single employee connected to the broader mission and make sure they’re invested in their own contribution to it.  
+
+**OKRs offer clear, contextual communication with continual progress reviews.** The OKR framework doesn’t stop when your goals are written. It's designed to create a business rhythm around the most important outcomes that your company is pursuing. It should influence every interaction and drive a review process that pushes for continuous improvement. 
+
+## What are the OKR Superpowers? 
+
+OKRs provide a framework to allow companies large and small to set goals, stay agile, and ensure employees are on board with the latest strategy through the five superpowers that are described in the following image and table:
 
 |Superpower Name  |Description  |
 |---------|---------|
-|Focus     |    Because OKRs focus on just 3-5 goals per quarter, it forces organizations to focus on only the work that matters and to make hard choices to eliminate the tasks that *don't* matter.     |
-|Alignment     |  Research shows that only 7% of employees understand their company's strategy. OKRs help align company goals from top to bottom so that everyone is rowing in the same direction.       |
-|Tracking     |   OKRs are driven by data. Gone are the days when a manager and employee would set an annual performance goal. Today, agile companies use data to inform action and guide strategic decisions.      |
-|Transparency     |   A core tenant of OKRs is that anyone can view the goals and progress at any level of the company, from CEO to individual contributor, fostering accountability and collaboration.      |
-|Stretch   |    When employees are encouraged to set stretch goals to achieve what mightn't seem possible - and receive support when things fall short - amazing things happen.     |
+|Focus     |    OKRs require the selection of just 3-5 goals per quarter, pushing organizations to focus on only the work that matters and to make hard choices to eliminate tasks that *don't* matter.     |
+|Alignment     |   OKRs help align company goals from top to bottom so that everyone is rowing in the same direction.       |
+|Tracking     |   OKRs are data-driven. Today's most successful companies use data to inform action and guide strategic decisions.      |
+|Transparency     |   A core tenant of OKRs is that employees can view goals and progress at every level, from CEO to individual contributor, fostering accountability and collaboration.      |
+|Stretch   |    When employees are encouraged to set stretch goals to achieve what might not seem possible, and are supported by a growth mindset culture, learning and innovation accelerate.     |
 
-## How can I ensure OKR success at my company?
+## How can I ensure OKR program success at my company?
 
-You can ensure OKR success in your company by implementing the approaches described in the following table:
+You can ensure OKR program success at your company by following the recommended strategies in the Viva Goals Adoption Guide. At a high level, OKR success requires three components: 
 
 |Approach Name  |Description  |
 |---------|---------|
-|OKR champions     |      Quite often, it's the effort of one key person in an organization (it could be you!) who takes initial ownership of a project and ensures its success. It could be a Chief of Staff, Operations Lead, or the most organized person in a given department. We love our OKR Champions and strive to give them all the support they need.   |
-|Leadership support     |    While the energy of the OKR Champion is the key, we’ve found that most successful rollouts also gain support from upper management. Thus, it’s critical that senior leaders educate their organization on the value of OKRs, explain why they're being implemented, reflect on their current culture, and identify key stakeholders .     |
-|Use the right tools     |     We believe OKRs are the best way to set goals, and that Viva Goals is the best tool to manage your OKRs. Why? Unlike spreadsheets or manual processes that quickly become unwieldy, Viva Goals scales with your business and provides transparency across your organization.    |
-
-### Additional resources
-
-- 2-minute introduction to OKRs and Viva Goals ([Video](https://help.ally.io/en/articles/2208258-ally-overview-video))
-- Example OKR ([Visual flowchart](https://help.ally.io/en/articles/2094160-okrs-an-example))
-- Measure What Matters ([Book](https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221))
+|OKR Champions     |      OKR Champions takes initial ownership of the OKR implementation internally and ensure its success on a continual and consistent basis. Typical OKR Champions hold the roles of Chief of Staff, Operations Lead, and team managers, but anyone can be an OKR Champion and enterprise organizations typically require several OKR Champions for a successful rollout.   |
+|Leadership Support     |    The most successful OKR programs have full support from the leadership team and strong executive sponsors. It's critical that senior leaders educate their respective organizations on the value of OKRs, explain why they're being implemented, reflect on their current culture, and identify key stakeholders .     |
+|The Right Tools     |     OKRs are the best way to set goals, and Viva Goals is the best tool to manage your OKRs. Unlike spreadsheets or manual processes that become unwieldy, Viva Goals scales with your business and provides transparency across your organization.    |
