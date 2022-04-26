@@ -25,7 +25,7 @@ description: "Learn how to add Viva Goals to Microsoft Teams to easily view, man
 
 You can use Viva Goals to manage your OKRs directly within Microsoft Teams.
 
-Our quick and easy integration enables users to add, update, and manage OKRs within the context of their daily workflow. You can also access multiple OKR views by pinning a tab inside chats or channels.
+Our quick and easy integration enables users to add, update, and manage OKRs within the context of their daily workflow. You can also reference OKRs on conversations by using our message extensions.
 
 ## How to pre-install Viva Goals for users within Microsoft Teams?
 
@@ -35,38 +35,109 @@ Follow these steps to successfully pre-install Viva Goals:
 
 1. Log in to https://admin.teams.microsoft.com/ with your user id and password.
 1. Click on Setup policies and choose App setup policies.
-1. Choose the policy that is associated with the segment of users you want the Viva Goals bot to be pre-installed for. If you want to pre-install Viva Goals for all users in your tenant, choose the Global(Org-wide-default) option.
+1. Choose the policy that is associated with the segment of users you want the Viva Goals app to be pre-installed for. If you want to pre-install Viva Goals for all users in your tenant, choose the Global(Org-wide-default) option.
 1. Under the installed apps section, click on the ‘Add Apps’ button and Add Viva Goals.
 
    :::image type="content" source="../media/goals/preinstall-viva-goals.gif" alt-text="Pre-installing Viva Goals":::
 
-Post this, when a user logs into their MS Teams account, they'll find Viva Goals pre-installed within the Apps section.
+After completing these steps, when a user logs into their MS Teams account, they'll find Viva Goals pre-installed within the Apps section.
 
 :::image type="content" source="../media/goals/installation-of-viva-goals.gif" alt-text="Viva Goals being installed":::
 
-## How to install the Viva Goals bot if you are not an administrator?
+## How to install the Viva Goals app if you are not an administrator?
 
-There are multiple ways to install the Viva Goals Bot in Teams.
+There are multiple ways to install the Viva Goals app in Teams.
 
-The first way to add Viva Goals to Teams is for you to click the ellipse […] button on the navigation bar on the left, search for Viva Goals OKRs and click on the Viva Goals OKRs app from the list of search results.
+The first way to add Viva Goals to Teams is for you to click the ellipse […] button on the navigation bar on the left, search for Viva Goals and click on the Viva Goals app from the list of search results.
 
-From the Viva Goals OKRs app detail page, you can click the Add button to add Viva Goals as a bot.
+From the Viva Goals app detail page, you can click the Add button to add Viva Goals.
 
 :::image type="content" source="../media/goals/vivagoals-okrs-app-detail-page.png" alt-text="Viva Goals OKRs details page":::
 
-The second way to Add Viva Goals is to visit the Apps store and once there, search for Viva Goals OKRs and Click the Viva Goals OKRs app listing.
+The second way to Add Viva Goals is to visit the Apps store and once there, search for Viva Goals and Click the Viva Goals app listing.
 
 :::image type="content" source="../media/goals/vivagoals-app-listing.png" alt-text="Viva Goals app listing":::
 
-From the Viva Goals OKRs app detail page, click Add.
+From the Viva Goals app detail page, click Add.
 
 :::image type="content" source="../media/goals/adding-vivagoals-okr.png" alt-text="Adding Viva Goals OKRs":::
 
-Once Viva Goals OKRs have been added to MS Teams, the bot will guide you on the next steps based on if you already have an account with Viva Goals or not.
+Once Viva Goals have been added to MS Teams, the app will guide you on the next steps based on if you already have an account with Viva Goals or not.
 
+## Viva Goals Application for Microsoft Teams 
+
+The application is your one stop shop for adding, updating and managing OKRs within Microsoft Teams. 
+
+### Managing your OKRs 
+
+The ‘My OKRs’ tab shows you your current OKRs.  
+
+1. If you are part of multiple Viva Goals organizations, you can view your OKRs for each organization using the ‘organization switcher’ on the top left. 
+
+<insert screenshot> 
+
+2. You can use the time period selector on the top right to view your OKRs for various time periods. 
+   
+   <Insert screenshot> 
+
+3. You can click on any OKR to see details on the right.  
+
+   a. If the item selected is an objective/key result, you will be shown 4 tabs - Overview, Key Results, Projects, and Activity. The overview tab shows the details of the objective/key result such as the title, progress bar, owner, type, time period, last update’s date, tag, description, and alignment. The Key Results and the Projects tabs display the list of key results and projects that are aligned to the objective/key result, respectively. The activity tab lets you view the recent activity.
+      
+      <screenshot of quick view> 
+         
+   b. If the item selected is a project, you will see 3 tabs - Overview, Tasks, and Activity. The Overview and the Activity tabs are similar to that of the OKRs. Under the Tasks tab, you'll be able to add tasks and also view existing tasks, if any. 
+
+4. From here, you can edit the OKR/project details, under the Overview section, such as the time period, owner, OKR type, and also add/edit a tag and a description. 
+
+5. You can also check-in to update the OKR/Project’s progress and status. You can also include a note. 
+         
+### Viewing Organization OKRs 
+         
+To maintain your alignment to top level OKRs, the ‘Organization OKRs’ tab will show you your organization’s top level OKRs. Similar to the My OKRs tab, you can click on these items to view details. You can even edit and check-in on them if you are one of the OKR owners. 
+         
+### Finding OKRs 
+
+On both the ‘My OKRs’ and ‘Organization OKRs’ tabs, you can search for any OKRs on the top right. You can use this to view any team’s OKRs, or search for OKRs by name. This is a powerful way to quickly understand what other teams in your organization are focused on. 
+
+### Adding new objectives 
+         
+Adding a new objective inside Teams is easy. To do this follow the below steps:
+         
+1. On the ‘My OKRs’ page, click + Add Objective. 
+         
+[screenshot]
+         
+2. When the Add Objective page appears, enter your objective, add useful tags and description, choose a flexible measurement option, align the objective to another objective, and adjust owner, delegation and period. 
+         
+[screenshot]
+         
+3. After you populate the objective information, select Save and Close, or Save and Add Key Results. 
+         
+[screenshot]
+         
+### Adding key results 
+
+After adding an objective, and clicking Save and Add Key Result, the Add Key Result window will appear. On this page, you can add your key result, assign tags, add description, choose how you would like to measure success, add scoring guidance, a data integration, choose how to align, adjust owner, delegate and adjust time period. 
+
+Once you have completed this information, you can Save and Close, or choose to Save and Add Another. 
+
+[screenshot]
+
+### Performing OKR check-ins 
+
+To perform an OKR update in Teams: 
+
+1. Select the My OKRs tab. Once here, scroll down to the OKR you wish to update and Click the Check-in button. The process for updating objectives and key results are the same. 
+         
+2. When the New check-in page appears, fill in the current progress and click Check in. 
+
+One you click Check-in, the progress of the objective or key result will adjust to reflect the recent check-in. 
+         
+         
 ## Microsoft Teams Messaging Extension
 
-You can surface specific OKRs and Projects within your MS Teams chats to add more context to your conversations. This way you can discuss their progress, proactively identify and resolve blockers, and thereby focus on the work that needs your attention. With the Microsoft Teams messaging extension, you can also make updates to your OKRs without leaving your chat.
+You can surface specific OKRs and Projects within your MS Teams chats to add more context to your conversations. You can discuss their progress, proactively identify and resolve blockers, and thereby focus on the work that needs your attention. With the Microsoft Teams messaging extension, you can also make updates to your OKRs without leaving your chat.
 
 ## How to access Viva Goals messaging extension within Microsoft Teams
 
@@ -93,7 +164,8 @@ Follow these steps to insert an OKR/project in your textbox:
   
    :::image type="content" source="../media/goals/list-of-recommended-public-okrs.png" alt-text="List of recommended public OKRs":::
 
-1. Type in the OKR(s)/Project(s) you’re looking for or select the ones from the suggestions list. This selection will insert that particular OKR(s)/Project(s) as a card within your text box.
+1. Type in the title of the OKR/Project you’re looking for. As you type, suggestions will appear, and you can pick one. You will then see a card for that OKR/Project within your text box.
+         
 1. Add/remove any text you’d like to share for more context, along with the OKR/project’s progress, and hit **Send**.
 
    :::image type="content" source="../media/goals/add-remove-text.png" alt-text="Adding or removing text that's intended to be shared":::
@@ -109,116 +181,26 @@ To update your OKRs on the fly via Microsoft Teams Messaging Extension, follow t
 
    :::image type="content" source="../media/goals/view-details-option.png" alt-text="The View Details button on the OKR/project card":::
 
-1. **A**: If the card selected is an objective/key result, you will be shown 4 tabs - **Overview**, **Key Results**, **Projects**, and **Activity**. The overview tab shows the details of the objective/kr such as the title, progress bar, owner, type, time period, last update’s date, tag, description, and alignment. The **Key Results** and the **Projects** tabs display the list of key results and projects that are aligned to the objective/key result, respectively. The activity tab lets you view the recent activity.
+**A**: If the card selected is an objective/key result, you will be shown 4 tabs - **Overview**, **Key Results**, **Projects**, and **Activity**. The overview tab shows the details of the objective/key results such as the title, progress bar, owner, type, time period, last update’s date, tag, description, and alignment. The **Key Results** and the **Projects** tabs display the list of key results and projects that are aligned to the objective/key result, respectively. The activity tab lets you view the recent activity.
 
    :::image type="content" source="../media/goals/objective-or-kr-card.png" alt-text="An objective/kr card":::
 
-   **B**: If the card selected is a project, you will see 3 tabs - **Overview**, **Tasks**, and **Activity**. The **Overview** and the **Activity** tabs are similar to that of the OKRs. Under the **Tasks** tab, you'll be able to add tasks and also view existing tasks, if any.
+**B**: If the card selected is a project, you will see 3 tabs - **Overview**, **Tasks**, and **Activity**. The **Overview** and the **Activity** tabs are similar to that of the OKRs. Under the **Tasks** tab, you'll be able to add tasks and also view existing tasks, if any.
 
 1. Edit the OKR/project details, under the **Overview** section, such as the time period, owner, OKR type, and also add/edit a tag and a description.
 1. Check-in to update the OKR/Project’s progress and status. You can also include a note.
-
-## Pinning a Tab inside a Chat or Channel in Microsoft Teams
-
-With the Viva Goals OKR and Microsoft Teams integration, you can't get way more out of your Microsoft Teams app! In this article we will go over how to add the Viva Goals app to your workspace, how to add new objectives, and how to update your progress, without ever leaving MS Teams!
-
-### Pinning a tab to a chart or channel
-
-You can easily pin an OKR dashboard as a tab to any chat or channel in MS Teams. To do this task: 
-
-1. Select the desired chat or channel you would like the tab to appear.
-
-:::image type="content" source="../media/goals/pinning-a-tab.png" alt-text="Pinning a tab":::
-
-2. Click the **+** button in the top navigation to add a tab.
-
-   :::image type="content" source="../media/goals/button-to-add-a-tab.png" alt-text="The button to add a tab":::
-
-3. Select the **Viva Goals OKRs** app from the list of options.
-
-   :::image type="content" source="../media/goals/options-lisiting-vivagoals-okr-app.png" alt-text="The Viva Goals OKRs app":::
-
-4. When the **Viva Goals OKRs** window appears, search for the OKRs you would like to show. (You can add individual, team and company level OKRs as tabs.)
-
-   :::image type="content" source="../media/goals/search-for-okrs-to-be-shown.png" alt-text="Searching for the OKRs you would want to show":::
-
-5. Once you select the OKR type you want to appear, click **Save**.
-   The tab you added will now appear in the top navigation of the channel.
-   
-   :::image type="content" source="../media/goals/display-of-tab-on-top-navigation.png" alt-text="Display of the tab on the top-navigation area":::
-
-   You can now use this tab to view, manage and edit OKRs you own.
-
-### Adding new objectives
-
-Adding a new objective inside Teams is easy. To do this task:
-
-1. Open any OKR view and Click **+ Add Objective**.
-
-   :::image type="content" source="../media/goals/add-objective-plus-icon.png" alt-text="The icon used to add an objective":::
-
-
-2. When the **Add Objective** page appears, enter your objective, add useful tags and description, choose a flexible measurement option, align the objective to another objective, and adjust owner, delegation and period.
-
-   :::image type="content" source="../media/goals/entering-objective-details.png" alt-text="Entering the objective details":::
-
-3. After you populate the objective information, select **Save and Close**, or **Save and Add Key Results**.
-
-   :::image type="content" source="../media/goals/savings-options.png" alt-text="Save and close or save and add key results":::
-
-### Adding key results
-
-After adding an objective, and clicking **Save and Add Key Result**, the **Add Key Result** window will appear. On this page, you can add your key result, assign tags, add description, choose how you would like to measure success, add scoring guidance, a data integration, choose how to align, adjust owner, delegate and adjust time period. 
-
-Once you have completed this information, you can **Save and Close**, or choose to **Save and Add Another**.
-
-:::image type="content" source="../media/goals/adding-and-saving-a-key-result.png" alt-text="Adding and saving a key result":::
-
-### Performing OKR check-ins
-
-To perform an OKR update in Teams:
-
-1. Select the **My OKRs** tab. Once here, scroll down to the OKR you wish to update and Click the **Check-in** button. The process for updating objectives and key results are the same.
-
-:::image type="content" source="../media/goals/performing-okr-check-ins.png" alt-text="Performing an OKR check-in":::
-
-2. When the **New check-in** page appears, fill in the current progress and click **Check in**.
-
-One you click **Check-in**, the progress of the objective or key result will adjust to reflect the recent check-in.
-
-:::image type="content" source="../media/goals/progress-reflecting-recent-check-in.png" alt-text="The progress including the recent check-in":::
 
 ## FAQ
 
 1. I Don’t Have an Existing Viva Goals Account
 
-A: If you don’t have an existing Viva Goals account, you will receive a Get Started message from the Viva Goals bot, prompting you to create an account.
+A: If you don’t have an existing Viva Goals account, you will need to contact your administrator. Note that your organization would have to join the Viva Goals private preview for access.
 
 :::image type="content" source="../media/goals/get-started-with-an-account.png" alt-text="Get started with an account":::
 
-When you click the Get Started link in the above message, you will be redirected to the web version of Viva Goals. Here you will be prompted to create an account. 
-
-To set up an Viva Goals account, enter your Company Email, Name, and Password, then click Sign up with email.
-
-:::image type="content" source="../media/goals/account-creation.png" alt-text="Account creation":::
-
-Next, you will be prompted to enter your Organisation’s Name, Size, and Role before continuing. 
-
-:::image type="content" source="../media/goals/organizational-details.png" alt-text="Organizational details":::
-
-After you have successfully created an account, Viva Goals will prompt you to return to MS Teams and type “Hi Viva Goals” to the Viva Goals Bot. The Viva Goals Bot can be found in the left menu navigation, in the chat section.
-
-:::image type="content" source="../media/goals/display-of-vivagoals-bot.png" alt-text="Display of Viva Goals bot":::
-
-:::image type="content" source="../media/goals/notification-message.png" alt-text="Notification message":::
-
-Once you have returned to MS Teams and typed “Hi Viva Goals”, the bot will send you a Welcome message with details on how to view, manage, and update your OKRs without leaving Teams. There will also be a quick link to access the Viva Goals user guide and login for Viva Goals’ web application.
-
-:::image type="content" source="../media/goals/welcome-message.png" alt-text="Welcome message":::
-
 2. I Have an Existing Viva Goals Account
 
-A: If you have an existing Viva Goals account, you will receive a Welcome message with details on how to view, manage, and update OKRs in Teams. From here, you can begin to view, manage, and share OKRs without leaving Teams.
+A: If you have an existing Viva Goals account, you will automatically be logged in and see your OKRs, if you have already created some
 
 3. If I don't have the permission to view a team's OKRs/Projects in Viva Goals, would I be able to view them on MS Teams when they’re shared with me via the messaging extension?
 
@@ -241,8 +223,3 @@ A: There'll be one common Viva Goals messaging extension on MS Teams for all tea
 A: Currently, a user can search for all the OKRs/Projects which are public and accessible to them.
 
 :::image type="content" source="../media/goals/account-welcome-message.png" alt-text="Account welcome message":::
-
-8. How to access Viva Goals from Microsoft Teams
-
-A: You can also access Viva Goals by adding it as a tab in a Microsoft Teams channel. To do so, click on + in the channel title pane to open the ‘Add a tab’ pop-up. Search and select ‘Viva Goals’ and click ‘Add’ in the preview window. Choose the Viva Goals entity (Individual OKR, Team OKR, Organization OKR) you would like to map as a channel tab.
-
