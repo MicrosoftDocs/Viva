@@ -63,7 +63,7 @@ These are the data extracted from the LMS as part of the Content Catalog package
 |Metadata field name |Field details |Priority |
 |:-------------------|:-------------|:--------|
 |Content provider (LMS) name | LMS's name. This can be provided separately and appended. |Required |
-|Content provider (LMS) logo URL | LMS's name. This can be provided separately and appended. |Required |
+|Content provider (LMS) logo URL | URL to the LMS's logo for display purposes. |Required |
 |Title of learning content |Title of learning content |Required |
 |Content module's thumbnail URL |URL to the learning content thumbnail image for display purposes |Required |
 |Content module's URL (deep link to consume content) |URL to learning content. This is the link that the user selects to consume content. |Required |

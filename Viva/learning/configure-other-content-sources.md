@@ -72,33 +72,29 @@ The step-by-step content ingestion process is described below.
 
 ### Content catalog metadata fields
 
-|Metadata field name |Field details |Priority |Data type |
-|:-------------------|:-------------|:--------|----------|
-|Content provider name |Name of the content provider. This can be provided separately and appended. |Required |String |
-|Content provider logo URL |URL directing to the content provider's logo |Required |String |
-|Content provider ID |Content provider ID |Required |String |
-|Content ID |Unique identifier for learning content |Required |String |
-|Title of learning content |Title of learning content |Required |String |
-|Content module URL |URL that directs to the learning content. This is the link that users select to consume the content. |Required |String |
-|Content source name |Course content provider name |Required |String |
-|Content module long description/summary |Description or summary for learning content |Highly recommended |String |
-|Content source logo URL |Logo of the course content provider in jpeg or png format |Highly recommended |String |
-|Content module thumbnail URL |URL that directs to the learning content thumbnail image for display purposes |Highly recommended |String |
-|Content language/locale |Language in which content is available. Metadata should be provided in all available languages |Highly recommended. English is the default. |String |
-|Content status |Whether the learning object is active or inactive. Inactive returns **0**, while active returns **1**. |Highly recommended |Bool |
-|Content module duration |Duration (time) of learning content |Highly recommended |Number |
-|Content format |Content format (e.g. article, course, video) |Highly recommended |String |
-|Content creation date |Date the learning content was created |Highly recommended |Date time |
-|Content module last modified date |Date the learning content was last modified |Highly recommended |Date time |
-|Content module author/creator/contributor |Author, creator, or contributor of learning content |Highly recommended |String |
-|Content module length/size |Non-time-based length of content (e.g. number of pages) |Highly recommended |Number |
-|Tags and keywords |Keywords, topics, and other tags associated with the content |Recommended |String |
-|Difficulty level |Difficulty level of the course (e.g. beginner, advanced, etc.) |Recommended |String |
-|Popularity score |Rating or popularity score for learning content |Recommended |Number (double) |
-|Skills associated |Skills tags associated with the learning content |Recommended |String |
-|IsPremium |Is the content premium |Recommended |Bool |
-|IsPromoted |Is the content promoted. The default value is false (**0**) |Recommended |Bool |
-|IsSearchable |Is the content searchable. The default value is false (**1**) |Recommended |Bool |
+|Metadata field name |Field details |Priority |
+|:-------------------|:-------------|:--------|
+|Content provider name | Third-party content provider's name. This can be provided separately and appended. |Required |
+|Content provider logo URL | URL to the third-party provider's logo for display purposes. |Required |
+|Content source name |Course content source's name |Required if integrated with provider |
+|Content source logo |Course content source's logo |Required if integrated with provider |
+|Title of learning content |Title of learning content |Required |
+|Content module's thumbnail URL |URL to the learning content thumbnail image for display purposes |Required |
+|Content module's URL (deep link to consume content) |URL to learning content. This is the link that the user selects to consume content. |Required |
+|Content module description/summary |Description or summary of learning content |Required |
+|Content language/locale |Language in which content is available. Metadata should be provided in all available languages. |Required |
+|Content module duration |Time duration of learning content |Required |
+|Last modified date of content module/content creation date |Date the learning content was last modified |Required |
+|Content format |Content format, such as article or video |Required |
+|Assigned user role |Role(s) or group(s) that have permissions to the content  |Required for role-based access |
+|Content ID |Unique identifier for learning content |Recommended |
+|Content module author/creator/contributor |Author/creator/contributor of learning content |Recommended |
+|Content module length/size |Size of content, not based on time. For example, this could be the number of pages. |Recommended |
+|Tags and keywords |Keywords, topics, and other tags associated with the learning content |Recommended |
+|Difficulty level |Difficulty level of the course (such as beginner, intermediate, or advanced) |Recommended |
+|Content module thumbnail alt text |Alternative text to support accessible design for images. Text describes images and can be invoked by screen readers for users with assistive technology. |Recommended |
+|Popularity score |Rating or popularity score for learning content |Recommended |
+|Skills associated |Skills tags associated with the learning content |Recommended |
 
 ## Content ingestion errors
 
