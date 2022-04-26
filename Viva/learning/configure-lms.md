@@ -50,7 +50,7 @@ The step-by-step content ingestion process is explained below.
 
 1. **LMS** <br> Viva Learning requires two types of data from every LMS.
     1. **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table](#content-catalog)
-    2. **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS. [View the assignment and completion records table](#assignment-and-completion-records)
+    2. **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS. [View the assignment table](#assignment-records). [View the completion table](#completion-status).
 
 2. **LMS Connector** <br> The LMS Connector pulls content from the LMS using both API and SFTP mechanisms. The first time you sync, the LMS extractor pulls the full data. Afterwards, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. In case of any error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva learning application and displayed on the Viva Learning app.
 
