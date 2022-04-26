@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics Glossary
-description: This glossary defines concepts and other terms important for working with Workplace Analytics
+title: Advanced insights glossary
+description: This glossary defines concepts and other terms important for working with the advanced insights app for Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: reference
@@ -16,9 +16,9 @@ audience: Admin
 
 ---
 
-# Glossary for Workplace Analytics
+# Glossary for Advanced insights
 
-The following are terms and concepts used in Workplace Analytics. This glossary excludes [query metric definitions](../use/Metric-definitions.md).
+The following are terms and concepts used in the advanced insights app as part of Microsoft Viva Insights. This glossary excludes [query metric definitions](../use/Metric-definitions.md).
 
 |Term|Definition|
 |----|----------|
@@ -53,14 +53,14 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 | <a name="long-meeting-define"></a> Long meeting | A long meeting has a duration of greater than one hour and has fewer than nine attendees. Also see [Long and large meeting](#long-and-large-meeting-define). |
 | <a name="long-and-large-meeting-define"></a> Long and large meeting | A long and large meeting has a duration of more than one hour and has more than eight attendees. Also see [large meeting](#large-meeting-define) and [long meeting](#long-meeting-define).|
 | <a name="meaningful-interaction-define"></a>Meaningful interaction | A meaningful interaction is defined as one of the following types of collaboration: <li>an email</li><li>a meeting</li><li>a call</li><li>three instant messages. These messages could be sent by any of the collaborators in the chat. For example, they could be: (a) three messages sent by one individual to others in Teams, or (b) three distinct messages from distinct senders within the same Teams chat.<p><p>Moreover, every meaningful interaction must have at least two collaborators but at most eight collaborators participating in the interaction.  |
-| <a name="measured-employees-define"></a> Measured employees | The employees to whom your Viva Insights or Workplace Analytics admin assigned licenses during setup. After license assignment, Workplace Analytics extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Workplace Analytics. The number of measured employees can help determine whether you have good data coverage for analysis.|
+| <a name="measured-employees-define"></a> Measured employees | The employees to whom your Viva Insights admin assigned licenses during setup. After license assignment, Viva Insights extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Viva Insights. The number of measured employees can help determine whether you have good data coverage for analysis.|
 | <a name="meeting-define"></a> Meeting | An audio or video communication or in-person meeting that has been scheduled -- that is, it appears on a person's Outlook calendar. A meeting must involve two or more people. Outlook calendar events determine the durations of meetings. |
-|Multitasking|The concept of not staying focused on the task at hand. Defined in Workplace Analytics as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting.|
+|Multitasking|The concept of not staying focused on the task at hand. Defined in Viva Insights as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting.|
 |Multitasking hours |Total number of hours the person spent sending emails or instant messages during a meeting or a Teams call. |
-|Non-declined meeting request|In Workplace Analytics, this is synonymous with *attended*.|
+|Non-declined meeting request|In Viva Insights, this is synonymous with *attended*.|
 |Optional attribute|Optional *organizational data* attributes that describe the people being analyzed. If supplied by the company, you can use these attributes to explore metrics, filter queries, and customize metrics. These can be reserved for future metric calculations. Optional attributes include FunctionType, HireDate, HourlyRate, Layer, and TimeZone.|
 |Organization|A *required attribute* that describes the organizational unit in which the employee resides. The exact value will be determined by the company’s structure, as well as how that structure is captured in within the company’s human resources information system. For example, the organization might also be known as department, function, or defined by a specific manager name in the management hierarchy. |
-|Organizational data |Attributes about people in the organization or people who collaborate with the organization that Workplace Analytics can analyze. Most organizational data is obtained from a company’s human resources (HR) information system. For example, job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, manager, and so on. |
+|Organizational data |Attributes about people in the organization or people who collaborate with the organization that Viva Insights can analyze. Most organizational data is obtained from a company’s human resources (HR) information system. For example, job family, job role, organization, line of business, cost center, location, region, layer, level, number of direct reports, manager, and so on. |
 |Organizational network analysis (ONA) |A quantitative method for modeling and analyzing how communications, information, decisions, and resources flow through an organization. It is used in business management and the social and behavioral sciences. |
 |Organizer|The person who organizes a meeting. This person is also counted as an *attendee*.|
 |People meeting hours|The sum of adjusted meeting hours for each person in the meeting. For example, if a meeting lasts at least one hour with three attendees (and no attendees have overlapping meetings), the people meeting hours for that meeting is three.|
@@ -69,13 +69,13 @@ The following are terms and concepts used in Workplace Analytics. This glossary 
 |Recipient |A person receiving an email (includes people in the to, cc, and bcc lines). |
 |Redundancy (organizational)|Organizational redundancy is present if at least three attendees are from different levels within the same organization. For example, a meeting whose attendees included a General Manager, a Director, and an Independent Contributor from the same organization would be a redundant meeting.|
 |Redundancy (lower level)|An attendee is considered redundant at the lower level if both the attendee's manager and skip-level manager are present in the meeting.|
-|Required attribute|Mandatory organizational data attributes that describe the people being analyzed. Required attributes are used in Workplace Analytics to explore, calculate, and customize metrics and filter query results. Required attributes include PersonId, EffectiveDate, ManagerId, and Organization.|
+|Required attribute|Mandatory organizational data attributes that describe the people being analyzed. Required attributes are used in Viva Insights to explore, calculate, and customize metrics and filter query results. Required attributes include PersonId, EffectiveDate, ManagerId, and Organization.|
 |Sender|The person who sends an email.|
 |Span|The number of direct reports per manager.|
-|Time investor|A *measured employee* who interacts with other collaborators in meetings and with email or instant messages. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Workplace Analytics can appear as collaborators, but never as time investors.|
-|Time zones|Workplace Analytics uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (person query results) are calculated by using the person’s time zone. Meeting metrics (meeting query results) are calculated by using the organizer’s time zone.|
-|Working hours|Hours that represent the typical workweek for the company. The Workplace Analytics default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working days and hours in **Analyst settings** > [System defaults](../use/system-defaults.md).
+|Time investor|A *measured employee* who interacts with other collaborators in meetings and with email or instant messages. Time investors allocate their time with the other participants or *collaborators* in the interaction in proportion to how many people are in the collaborator group for that interaction. People who do not have a license for Viva Insights can appear as collaborators, but never as time investors.|
+|Time zones|Viva Insights uses these [time zones](../use/timezones-for-workplace-analytics.md). Personal metrics (person query results) are calculated by using the person’s time zone. Meeting metrics (meeting query results) are calculated by using the organizer’s time zone.|
+|Working hours|Hours that represent the typical workweek for the company. The Viva Insights default setting is Monday through Friday from 8:00 AM to 5:00 PM for calculations of working hours. This default is only used for users who have not already set up their working days and hours in Outlook. Your admin can change the default working days and hours in **Analyst settings** > [System defaults](../use/system-defaults.md).
 
 ### Related topic
 
-[Metric descriptions for Workplace Analytics](../use/Metric-definitions.md)
+[Metric descriptions for Advanced insights](../use/Metric-definitions.md)

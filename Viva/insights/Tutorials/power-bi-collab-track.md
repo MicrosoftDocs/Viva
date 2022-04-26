@@ -1,7 +1,7 @@
 ---
 
 title: Power BI Ways of working tracker
-description: Use the Ways of working tracker dashboard to visualize predefined collaboration data from Workplace Analytics in Power BI
+description: Use the Ways of working tracker dashboard to visualize predefined collaboration data from Viva Insights in Power BI
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Ways of working tracker
 
-The Power BI Ways of working tracker uses Workplace Analytics data to help you, as an analyst track changes in collaboration over time and helps you target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
+The Power BI Ways of working tracker uses Viva Insights data to help you, as an analyst track changes in collaboration over time and helps you target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
 
 This dashboard helps you track how collaboration is affecting the key performance indicators (KPIs) for employees by answering the following business questions.
 
@@ -29,7 +29,7 @@ This dashboard helps you track how collaboration is affecting the key performanc
 
 The dashboard also includes an **Example interventions** page that has ideas on how to drive positive change with best practices based on industry insights and research. The **Glossary** page describes the metrics used in the different reports.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working tracker** query in Workplace Analytics. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Ways of working tracker** query in the advanced insights app. The query results will refresh your downloaded Power BI dashboard on a weekly basis.
 
 >[!Note]
 >The template and dashboard name has been changed from Collaboration tracker to Ways of working tracker.
@@ -46,15 +46,15 @@ To find the template for the Ways of working tracker dashboard, go to the [Query
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Featured templates**, select **Ways of working tracker** to see the required setup steps, and then in step 2, select **Set up**.
 3. When prompted, select or confirm the following query settings:
 
@@ -71,7 +71,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires. You can then select any additional attributes (columns) that you want to include in the reports.
 
    >[!Important]
-   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in the advanced insights app, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
 6. Select **Run** to run the query, which can take a few minutes to complete.
 7. When prompted, select to go to **Results**. After the query successfully runs, select the **Download** icon for the **Ways of working tracker** query results, select **PBI template**, and then select **OK** to download the template.
@@ -82,26 +82,26 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 9. If prompted to select a program, select **Power BI**.
 10. When prompted by Power BI:
 
-    * In the Workplace Analytics **Query designer** > **Results** page, select the **Link** icon for the Ways of working tracker query, and then select to copy the generated OData URL link.
+    * In **Query designer** > **Results** page, select the **Link** icon for the Ways of working tracker query, and then select to copy the generated OData URL link.
     * In Power BI, paste the copied link into its respective field.
-    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    * Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
     * Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+11. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-13. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+13. Select and enter credentials for the organizational account that you use to sign in to Viva Insights, and then select **Save**.
 
      >[!Important]
-     >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+     >You must sign in to Power BI with the same account you use to access Viva Insights.
 
 14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 
-After the Ways of working tracker dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Ways of working tracker dashboard is set up and populated with Viva Insights data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Earlier time period** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
@@ -143,7 +143,7 @@ The dashboard also includes an **Example interventions** page that has ideas on 
 
 Use this training module:
 
-[Drive organizational change with Microsoft Workplace Analytics and MyAnalytics](/learn/modules/workplace-analytics-business-continuity/)
+[Drive organizational change with Microsoft Viva Insights](/learn/modules/workplace-analytics-business-continuity/)
 
 ... to learn how to do the following:
 

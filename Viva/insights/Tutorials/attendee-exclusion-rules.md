@@ -1,9 +1,9 @@
 ---
 
-title: Attendee exclusion rules in Workplace Analytics 
+title: Attendee exclusion rules 
 description: Attendee exclusion rules -- Introduction and walkthrough   
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,17 +11,17 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Attendee exclusions
 
-As an analyst in Workplace Analytics, you can set attendee exclusion rules that exclude from analysis data about meeting invitees, which are based on responses that the invitees made to meeting invitations.
+As an analyst for the advanced insights app that's available in Microsoft Viva Insights, you can set attendee exclusion rules. The rules can exclude data from analysis about meeting invitees, which are based on responses that the invitees made to meeting invitations.
 
 This enables you to measure work-related calendar collaboration in analysis, such as in [Query designer](query-basics.md). These measurements are most accurate when they include data that reflects genuine collaboration.
 
-For example, the data should not include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. Workplace Analytics lets you exclude these kinds of events so that they don't skew your data.
+For example, the data should not include meetings that schedule personal time, or count an invitee as "present" at a meeting when they weren't actually there. the advanced insights app lets you exclude these kinds of events so that they don't skew your data.
 
 **Owners** – Admins and Analysts have full access to this page and limited Analysts have read-only access. For details, see [Assign roles to admins](../setup/assign-roles-to-wpa-admins.md).
 
@@ -29,7 +29,7 @@ For example, the data should not include meetings that schedule personal time, o
 
 ## Responses to meeting invitations
 
-Creating attendee exclusions lets you effectively redefine meeting attendance in Workplace Analytics analyses. By default, "attending a meeting" means that a person did not decline the meeting invitation.
+Creating attendee exclusions lets you effectively redefine meeting attendance in analyses. By default, "attending a meeting" means that a person did not decline the meeting invitation.
 
 By creating an attendee exclusion, you can change that definition to also include either or both of the invitee actions "tentative" and "no response."
 
@@ -47,7 +47,7 @@ Sometimes, meeting invitees do not respond to meeting invitations. Using the "di
 
 **Owners** - Analysts and limited Analysts
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, enter your work credentials.
 
 2. Select **Analyst settings** to see the exclusions pages.
 3. Select **Attendee exclusion**.
