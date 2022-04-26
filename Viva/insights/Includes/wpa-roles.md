@@ -22,7 +22,7 @@ The following roles must be assigned by a Microsoft 365 admin as described in [A
 
 * **Insights Business Leader**- [Insights Business leaders](/azure/active-directory/roles/permissions-reference#insights-business-leader) can see organizational insights on the [My organization](../use/viva-insights-my-org.md) page within the Viva Insights app in Teams.
 
-* **People Manager** &ndash; People managers are assigned access by the Viva Insights admin. Managers who were assigned licenses for advanced insights before October 2021 can see [Manager insights](../manager-insights/introduction.md) in the advanced insights app only about their team. Managers who are assigned licenses starting in October 2021, can see their team's insights on the [My team](../use/myteam.md) page within the Viva Insights app in Teams.
+* **People Manager** &ndash; People managers are assigned access by the Viva Insights admin. Managers who are assigned licenses can see their team's [group insights](../use/group-insights.md) on the [My team](../use/myteam.md) page within the Viva Insights app in Teams.
 
 * **Analyst** &ndash; Has full access to all service features except **Upload** and some **Analyst settings** that are only available to admins. An Analyst has the most complete access to data, including the ability to launch, manage, and track **Plans** in the advanced insights app.
 

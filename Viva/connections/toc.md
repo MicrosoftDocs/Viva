@@ -25,6 +25,10 @@
 
 ### [Create a Dashboard](create-dashboard.md)
 
+### [Use audience targeting in Viva Connections](use-audience-targeting-in-viva-connections.md)
+
+### [Create a Dashboard in more than one language](create-multilingual-dashboard.md)
+
 ### [Add the Viva Connections app](add-viva-connections-app.md)
 
 ### [Viva Connections for a specific language](viva-connections-language.md)
