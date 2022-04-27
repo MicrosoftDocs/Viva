@@ -155,4 +155,3 @@ Viva Goals pulls in new updates from Jira every 60 minutes. However, you can als
 
 :::image type="content" source="../media/goals/viva-goals-jira-integration-7.png" alt-text="Jira Integration 7":::
 
-To learn more about Viva Goals’ other integrations, see [Integrations page](https://help.ally.io/en/collections/30526-integrations).
