@@ -1,13 +1,13 @@
     - name: Microsoft Viva Topics 
       href: index.md   
 
-    - name: Get started with Microsoft Viva Topics
+    - name: Get started with Viva Topics
       items:    
-        - name: Microsoft Viva Topics overview
+        - name: Viva Topics overview
           href: topic-experiences-overview.md 
-        - name: Microsoft Viva Topics discovery and curation
+        - name: Viva Topics discovery and curation
           href: topic-experiences-discovery-curation.md           
-        - name: Microsoft Viva Topics roles 
+        - name: Viva Topics roles 
           href: topic-experiences-roles.md 
         - name: Supported languages
           href: topics-language-support.md 
