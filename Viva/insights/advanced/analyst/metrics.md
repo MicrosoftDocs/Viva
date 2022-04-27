@@ -44,13 +44,13 @@ The following metrics are available when creating analysis in the Advanced insig
 | | IMs sent during weekend | Number of IMs the person sent on Saturdays or Sundays. | Hour |
 | | Meetings during weekend | Number of meetings the person attended during Saturdays or Sundays. | Count |
 | | Unscheduled calls during weekend | Total number of unscheduled calls a person joined through Teams, during and Saturdays or Sundays. | Count |
-| | Collaboration hours [day] <br>(For example, Collaboration hours Monday) | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting) during the specified <day> (Monday through Sunday). | Hour |
+| | Collaboration hours _xday_ <br>(For example, Collaboration hours Monday) | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting) during the specified _day_ (Monday through Sunday). | Hour |
 | **Collaboration by time of day** |  Urgent email hours | Number of hours the person spent in emails where some level of urgency is involved. Urgency is defined by a set of urgent keywords in email subject lines.
 | | Urgent meeting hours | Number of hours the person spent in meetings where some level of urgency is involved. Urgency is defined by a set of urgent keywords in meeting subject lines.
 | | Emails sent 00 01, Emails sent 01 02 etc till Emails sent 23 24 (24 metrics depicting each hour of the day) | Number of emails the person sent during the defined hour block.
 | | IMs sent 00 01, IMs sent 01 02 etc till IMs sent 23 24 (24 metrics depicting each hour of the day) | Number of IMs the person sent during the defined hour block.
 Meetings 00 01, Meetings 01 02 etc till Meetings 23 24 (24 metrics depicting each hour of the day) | Number of meetings the person attended during the defined hour block.
-Unscheduled calls [XX] <br>(for example, Unscheduled calls 00)  | Number of unscheduled calls that a person joined through Teams with at least one other person during the defined hour block. The metric name includes the hour block of when it occurred, from 00 to 24 (depicting 24 hours in a day), where 00 is the hour between 12AM and 1AM, which would be "Unscheduled calls 00." | Hour |
+Unscheduled calls _x_ <br>(for example, Unscheduled calls 00)  | Number of unscheduled calls that a person joined through Teams with at least one other person during the defined hour block. The metric name includes the hour block of when it occurred, from 00 to 24 (depicting 24 hours in a day), where 00 is the hour between 12AM and 1AM, which would be "Unscheduled calls 00." | Hour |
 | **Collaboration in small groups** | | Number of  | Hour |
 
 | **Collaboration involving manager** | | Number of  | Hour |
