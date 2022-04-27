@@ -78,5 +78,3 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 The Amazon Redshift integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to Amazon Redshift in the Integrations section. Select Amazon Redshift in the integrations section and select Manage. In the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
 
 :::image type="content" source="../media/goals/goals-disabling-amazon-redshift.gif" alt-text="Image of disabling the integration":::
-
-Learn more about other integrations available in Viva Goals [here.](https://help.ally.io/en/collections/30526-integrations)
