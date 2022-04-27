@@ -25,14 +25,6 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 
 [My organization in Teams](../../use/viva-insights-my-org.md) shows what kind of Viva Insights data can be integrated with your partner application data. For details about the metrics used within Viva Insights data, see [Viva Insights metrics](metrics.md).
 
-## Key elements
-
-* [Microsoft Graph Data Connect (MGDC)](https://docs.microsoft.com/graph/data-connect-concept-overview) - Is the platform for exporting Microsoft 365 data and offers scalable and auditable big data to optimize data access.
-* [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/introduction) - 
-Cloud-based ETL, data integration, and workflow service for creating data-driven workflows for orchestrating data movement and transforming data at scale.
-* [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) - Pre-packaged Azure solutions that can be shared and deployed and a [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) that’s an internal catalog of approved managed applications for an organization’s users.
-* [Azure Resource Manager (ARM) Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/) - JSON files that you can use to define the infrastructure and configuration for this integration.
-
 ## Get started
 
 To use this integration, you must join the "Microsoft Graph TAP partner program" to get support for the Azure APIs that are used to access Viva Insights. To join the program, complete [the program form](https://aka.ms/GraphTAPForm) with the following details:
@@ -47,8 +39,36 @@ Before you can access the sample data, you’ll need to set up a test Azure envi
 ### Customer prerequisites
 
 * Have an Azure tenant and an administrator account
-* Set up a tenant consent approver group
+* Have the tenant set up with a Consent Request Approvers group in the Microsoft 365 admin center
 * Enable [Microsoft Graph Data Connect (MGDC)](https://docs.microsoft.com/graph/data-connect-concept-overview) for the tenant
+
+## Data egress flow overview
+
+The following key elements are required for the data egress flow:
+
+* [Microsoft Graph Data Connect (MGDC)](https://docs.microsoft.com/graph/data-connect-concept-overview) - Is the platform for exporting Microsoft 365 data and offers scalable and auditable big data to optimize data access.
+* [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/introduction) - 
+Cloud-based ETL, data integration, and workflow service for creating data-driven workflows for orchestrating data movement and transforming data at scale.
+* [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) - Pre-packaged Azure solutions that can be shared and deployed and a [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) that’s an internal catalog of approved managed applications for an organization’s users.
+* [Azure Resource Manager (ARM) Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/) - JSON files that you can use to define the infrastructure and configuration for this integration.
+
+The following is the data egress flow that's required by you as a Viva Insights partner and your customer for this integration.
+
+1. After [the program form](https://aka.ms/GraphTAPForm), as the partner, you'll get an ARM template from Viva Insights that you need to edit for your specific integration.
+1. You then need to create a [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) source code package, and then upload it to a storage account within your Azure subscription. The source code package must include:
+
+   * The edited ARM template file with details for the Azure Data Factory related resources that controls the data movement.
+   * UI definition file that defines your customer’s UI experience, such as what options or customizations they can make to the app.
+
+1. Your customer then needs to define and deploy the Managed Application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code SAS URI that you share with the customer.
+
+   ![Define the managed application.](./images/image-name.png)
+
+1. The customer approves the consent request to kick-off the data extraction.
+1. The data drops in your partner data store.
+1. Viva Insights generates an encryption key.
+1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as Azure KeyVault, which will be required when installing the Managed application.
+1. You decrypt the customer data with the encryption key. 
 
 ## Move data
 
@@ -59,27 +79,12 @@ This pipeline is intended to be installed by a Managed Application, that you pro
 1. Extracting data from Microsoft 365 to a temporary storage location in the customer’s tenant.
 1. Copying data from the temporary location to a Blob Storage account owned by your application, using a [Shared Access Signature (SAS) key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) that you generate, and is entered when the application is installed by the customer.
 1. (Optional) Notifying your application that new data is available for processing.
+
 You can reference the [sample Managed Application](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) to see an example of the previous steps for moving data.
-
-## Data egress flow
-
-The following are the steps for the data egress flow that are required that you as a Viva Insights partner and your customer need to do for this integration.
-
-1. After [the program form](https://aka.ms/GraphTAPForm), as the partner, you'll get an ARM template from Viva Insights that you need to edit for your specific integration.
-1. You then need to create a [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) source code package, and then upload it to a storage account within your Azure subscription. The source code package must include:
-
-   * The edited ARM template file with details for the Azure Data Factory related resources that controls the data movement.
-   * UI definition file that defines your customer’s UI experience, such as what options or customizations they can make to the app.
-
-1. Your customer then needs to create a Managed Application Definition in their Service catalog from the source code SAS URI that you share with the customer.
-
-
-
-1. 
 
 ## Metadata file
 
-Each data drop includes a **metadata.json** file, with the path of **Metadata/JobMetadata** in the root directory. This is JSON file includes details about the copy activitywith the following schema:
+Each data drop includes a **metadata.json** file, with the path of **Metadata/JobMetadata** in the root directory. This is JSON file includes details about the copy activity with the following schema:
 
 |Field |Description |
 |-------|----------|
@@ -137,7 +142,7 @@ While identifying users by the Object ID is the preferred path, not every applic
 
 The [sample Managed Application](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) includes an example of a pipeline that exports directory information.
 
-## Consuming analytics data
+## Consume analytics data
 
 To process analytics data sent to your application, you have the option of using either a “push” or a “pull” model to start processing.
 
@@ -145,7 +150,7 @@ To process analytics data sent to your application, you have the option of using
 
 In this model, the Azure Data Factory pipeline powering the data movement notifies your application when new data is available. This can be done through several means:
 
-1. An Azure Function can be invoked when data in your Blob Storage account changes. See the [Azure Function Overview](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) and [Blob Storage Trigger Sample](https://docs.microsoft.com/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=in-process%2Cextensionv5&pivots=programming-language-csharp) to understand how this can be configured.
+1. An Azure function can be invoked when data in your Blob Storage account changes. See the [Azure Function Overview](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) and [Blob Storage Trigger Sample](https://docs.microsoft.com/azure/azure-functions/functions-bindings-storage-blob-trigger?tabs=in-process%2Cextensionv5&pivots=programming-language-csharp) to understand how this can be configured.
 1. The Azure Data Factory pipeline can invoke a [Web Activity](https://docs.microsoft.com/azure/data-factory/control-flow-web-activity) that makes a REST call to your application’s backend, notifying it that new data is available.
 
 The sample [Data Factory Pipeline](https://github.com/microsoftgraph/dataconnect-solutions/tree/VIvaInsightsARM/ARMTemplates/genericPipelineWithAzureFunctionTrigger) includes an example of an Azure Function with a Blob Storage Trigger.
