@@ -6,9 +6,17 @@
         - name: Viva Topics overview
           href: topic-experiences-overview.md 
         - name: Viva Topics discovery and curation
-          href: topic-experiences-discovery-curation.md           
-        - name: Viva Topics roles 
-          href: topic-experiences-roles.md 
+          href: topic-experiences-discovery-curation.md
+        - name: Viva Topics roles
+          items:
+            - name: Overview
+              href: topic-experiences-roles.md 
+            - name: Knowledge manager role
+              href: topic-experiences-knowledge-managers.md
+            - name: Topic contributor role
+              href: topic-experiences-topic-contributors.md
+            - name: Topic viewer role
+              href: topic-experiences-information-endusers.md           
         - name: Supported languages
           href: topics-language-support.md 
         - name: Get your environment ready 
