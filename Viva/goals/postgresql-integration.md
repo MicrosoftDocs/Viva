@@ -43,7 +43,7 @@ Admins can enable this integration, and here’s how it can be done:
 
 - Provide the **hostname or IP address** of the database server, the **port number** that the server is listening on. 
 
-- Furnish the **username and password**. Upon authentication, the associated databases will be populated automatically. **Choose your database** from the dropdown menu. 
+- Provide the **username and password**. Upon authentication, the associated databases will be populated automatically. **Choose your database** from the dropdown menu. 
 
     > [!NOTE]
     > It is recommended to create a new user/role with read-only permissions to specific databases that will be connected to the objectives in [Viva Goals](https://ally.io/) for enhanced security.
@@ -80,4 +80,3 @@ The colors of the progress bar indicated the status of the objective.
 
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red. 
 
-To learn more about Viva Goals other integrations, please visit our [Integrations page](https://help.ally.io/en/collections/30526-integrations). 
