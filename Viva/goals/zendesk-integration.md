@@ -67,4 +67,3 @@ Now that the integration is enabled, your team can link a Zendesk metric with an
 
     - If the progress is over 25% less than expected progress at any point in time, the status is At-Risk (red).
 
-    Learn more about Viva Goals’ other integrations [here](http://help.gotoally.com/integrations).
