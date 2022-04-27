@@ -130,4 +130,3 @@ The Viva Goals settings page will contain a set of instructions that will enable
     > [!NOTE]
     > If you're interested to set up the Viva Goals OKRs app for Jira, please drop an email to support@ally.io
     
-Learn more about Viva Goals’ other integrations [here](https://help.ally.io/en/collections/30526-integrations). 
