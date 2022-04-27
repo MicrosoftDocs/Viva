@@ -91,6 +91,3 @@ Admins can also edit an existing monday.com connection, including the integratio
 The monday.com integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to monday.com in the Integrations section and select **Manage**. In the monday.com Configurations page, select the Change dropdown, select Disable and confirm the action. 
 
 :::image type="content" source="../media/goals/goals-delete-monday-integration.gif" alt-text="Image of Disabling the integration":::
-
-
-Learn more about other integrations available in Viva Goals [here.](https://help.ally.io/en/collections/30526-integrations)
