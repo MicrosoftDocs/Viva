@@ -84,4 +84,3 @@ Once you've configured the connection, the next step is to start linking OKRs to
 
 :::image type="content" source="../media/goals/Viva Goals Box Integration 3.gif" alt-text="Box Integration 3":::
 
-To learn more about Viva Goals’ other integrations, visit our [Integrations page](https://help.ally.io/en/collections/30526-integrations).
