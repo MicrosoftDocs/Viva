@@ -1,5 +1,5 @@
 ---
-title: How Knowledge Managers build and manage a knowledge base in Viva Topics
+title: Knowledge managers-Build and manage a knowledge base in Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
