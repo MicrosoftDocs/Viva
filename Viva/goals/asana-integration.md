@@ -83,5 +83,3 @@ The difference between % Completed and KPI is that with the KPI option you can s
 For example, I have a project with 100 tasks that spans the entire year. I may choose to use KPI and set my target at 25 because my OKR period only lasts a quarter.
 
 I would want to track the completion of tasks but only against the target of 25 and not the entire 100 in the project.  
-
-Learn more about Viva Goals’ other integrations [here](http://help.gotoally.com/integrations).
