@@ -62,7 +62,7 @@ The following is the data egress flow that's required by you as a Viva Insights 
 
 1. Your customer then needs to define and deploy the Managed Application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code SAS URI that you share with the customer.
 
-   ![Define the managed application.](./images/image-name.png)
+   ![Define the managed application.](../../images/advanced/define-managed-app.png)
 
 1. The customer approves the consent request to kick-off the data extraction.
 1. The data drops in your partner data store.
