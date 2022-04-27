@@ -40,7 +40,7 @@ An admin can set up the Trello integration on Viva Goals. To do so:
 
 Viva Goals allows you to connect with multiple Trello accounts. Select **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to Trello boards.
 
-### Using Trello Integration
+## Using Trello Integration
 
 Once the setup is complete, users in your organization can link their OKRs to Trello boards.
 
