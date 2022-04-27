@@ -99,6 +99,3 @@ Once the Mode integration is set up, you can measure your OKR progress by connec
 The Mode integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to Mode in the Integrations section and select on Manage. In the Mode Configurations page, select the Change dropdown, select Disable and confirm the action. 
 
 :::image type="content" source="../media/goals/goals-disabling-mode.gif" alt-text="Image of disabling the integration":::
-
-
-Learn more about other integrations available in Viva Goals [ here.](https://help.ally.io/en/collections/30526-integrations)
