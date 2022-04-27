@@ -1,5 +1,5 @@
 ---
-title: Share knowledge and expertise in Microsoft Viva Topics
+title: How Topic Contributors share knowledge and expertise in Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
@@ -12,11 +12,11 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 localization_priority: Normal
-description: Learn how to contribute to a topic in Viva Topics
+description: Learn how to contribute to topics in Viva Topics
 
 ---
 
-# Share knowledge and expertise in Microsoft Viva Topics
+# How Topic Contributors share knowledge and expertise in Viva Topics
 
 [Viva Topics](topic-experiences-overview.md) helps organizations make knowledge and expertise accessible to all employees. It’s like Wikipedia for organizations, but [artificial intelligence (AI) develops the first draft]() and subject matter experts edit the information to add their unique knowledge and expertise. Viva Topics then makes the knowledge available to colleagues and leaders at the time of need, and in the flow of their work. In this document we review:  
 
