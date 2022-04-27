@@ -72,5 +72,3 @@ The following colors of the progress bar indicate the status of the Objective:
 - If the progress is 0-25% less than expected progress at any point in time, the status is Behind (orange).
 
 - If the progress is over 25% less than expected progress at any point in time, the status is At-Risk (red).
-
-Learn more about Viva Goals’ other integrations [here](http://help.gotoally.com/integrations).
