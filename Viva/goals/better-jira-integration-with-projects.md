@@ -1,5 +1,5 @@
 ---
-title: "Better JIRA integration with projects"
+title: "JIRA integration with projects"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
@@ -19,7 +19,7 @@ search.appverid:
 description: "Need to see how your execution in JIRA is helping you achieve your key results? Now you can, using Viva Goals' new Projects feature"
 ---
 
-# Better JIRA integration with projects
+# JIRA integration with projects
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
@@ -31,6 +31,14 @@ While Objectives and Key Results tell you what your goal is and how you will kno
 Projects help you keep track of all the work your organization is executing to achieve your OKRs. Like key results, projects can also be created under objectives and other key results in Viva Goals, depending on which outcome they help to achieve. You can create a project by clicking on **Add project** under the appropriate objective or key result.
 
 :::image type="content" source="../media/goals/adding-projects.gif" alt-text="Adding projects":::
+  
+The following are recommended ways to use Projects:
+
+1. Objective that is tracked by a KPI metric: If a project must be completed to achieve the KPI metric, we recommend creating the project as a child of the Objective. Progress of the project will not roll up to the parent since it is KPI metric based.
+  
+1. Objective with multiple key results: Projects can be siblings to the key result, so you can see the outcomes needed to meet the objective (the key results) as well as the output needed to achieve those outcomes (the projects).
+
+Projects are always placed after all the objectives and key results at each level of the hierarchy.
 
 ## JIRA projects
 
@@ -46,15 +54,6 @@ Viva Goals will periodically check on project progress in JIRA, and update statu
 
 :::image type="content" source="../media/goals/new-check-in.png" alt-text="New check in":::
 
-## How to structure objectives, key results and projects
-
-The following are recommended ways to use Projects:
-
-1. Objective that is tracked by a KPI metric: If a project must be completed to achieve the KPI metric, we recommend creating the project as a child of the Objective. Progress of the project will not roll up to the parent since it is KPI metric based.
-1. Objective with multiple key results: Projects can be siblings to the key result, so you can see the outcomes needed to meet the objective (the key results) as well as the output needed to achieve those outcomes (the projects).
-
-Projects are always placed after all the objectives and key results at each level of the hierarchy.
-
 ## Current limitations with projects
 
 Projects currently have the following limitations:
@@ -66,8 +65,3 @@ Projects currently have the following limitations:
 1. Projects can have a maximum of 200 tasks.
 
 Now you can understand how your teams are executing to meet your OKRs, and dive in to unblock them. In the future, we plan to add other popular project management systems, so that Viva Goals can give you a holistic view of your business.
-
-Projects in Viva Goals are available across all our pricing plans. The JIRA On Premise integration for Projects is only available for Enterprise Customers (JIRA Cloud is available across all plans). If you would like to have this enabled for your organization please have an account admin reach out to support@ally.io with the request.
-
-
-
