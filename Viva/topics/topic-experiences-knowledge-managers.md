@@ -1,5 +1,5 @@
 ---
-title: Knowledge managers-Build and manage a knowledge base in Viva Topics
+title: Knowledge managers—Build and manage a knowledge base in Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
@@ -16,7 +16,7 @@ description: Learn how knowledge managers build and manage a knowledge base with
 
 ---
 
-# Knowledge managers: Build and manage a knowledge base in Viva Topics
+# Knowledge managers: Build and manage a knowledge base in Microsoft Viva Topics
 
 Knowledge managers play a key role in building a knowledge base that Viva Topics then makes available to employees, in the flow of their work. In this document we review:  
 
