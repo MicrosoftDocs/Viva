@@ -45,7 +45,8 @@ The predefined templates available in the Analyst tab require the use of the Pow
 
 The Analyze tab contains templates for the following Power BI dashboards for visually analyzing data in Power BI. Select one to see more details about it and to view an interactive demo.
 
->[!Note] Most of these dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to en-us in the app's URL: https://workplaceanalytics.office.com/en-us/Home/ (Business continuity and Microsoft Teams insights are the exceptions that support the same languages as Workplace Analytics.)
+>[!Note]
+>Most of these dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to 'en-us' in the app's URL: 'https://workplaceanalytics.office.com/en-us/Home/' (Business continuity and Microsoft Teams insights are the exceptions that support the same languages as Workplace Analytics.)
 
 <!--- Need to insert future demos here --->
 

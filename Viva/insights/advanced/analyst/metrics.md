@@ -22,22 +22,22 @@ The following metrics are available when creating analysis in the Advanced insig
 
 |Category | Name | Description           | Data type |
 |---------|------|-----------------------|-----------|
-|**After-hours collaboration** | After hours collaboration hours | Number of hours the person spent outside of working hours in meetings, emails, chats, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
+|**After-hours collaboration** | After hours collaboration hours | Number of hours the person spent outside of working hours in meetings, emails, chats (instant messages or IMs), and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
 | | After hours email hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours.| Hour |
 | | After hours in calls | Number of hours a person spent in scheduled and unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule. | Hour |
 | | After hours in unscheduled calls | Number of hours a person spent in unscheduled calls through Teams, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule. | Hour |
-| | After hours instant messages | Number of hours a person spent in instant messages through Teams, outside of working hours. | Hour |
+| | After hours instant messages | Number of hours a person spent in chats (IMs) through Teams, outside of working hours. | Hour |
 | | After hours meeting hours | Number of hours the person spent in meetings outside of working hours. | Hour |
 | **Collaboration activity** | Collaboration hours | Number of hours the person spent in meetings, emails, IMs, and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
 | | Email hours | Number of hours the person spent sending and receiving emails. | Hour |
 | | Meeting hours | Number of hours the person spent in meetings with at least one other person during and outside of working hours. | Hour |
-| | Instant message hours | Number of hours that a person spent in instant messages (IMs) through Teams with at least one other person, during and outside of working hours. | Hour |
+| | Instant message hours | Number of hours that a person spent in IMs through Teams with at least one other person, during and outside of working hours. | Hour |
 | | Call hours | Number of hours that a person spent in scheduled and unscheduled calls through Teams with at least one other person, during and outside of working hours. | Hour |
 | | Unscheduled call hours | Number of hours that a person spent in unscheduled calls through Teams with at least one other person, during and outside of working hours. | Hour |
-| | Multitasking hours | Number of hours the person spent sending emails or instant messages during a meeting or a Teams call. | Hour |
+| | Multitasking hours | Number of hours the person spent sending emails or IMs during a meeting or a Teams call. | Hour |
 | | Emails sent | Number of emails the person sent. | Count |
 | | Meetings | Number of meetings the person attended. | Count |
-| | Instant messages sent | Total number of instant messages (IMs) sent by a person through Teams, during and outside of working hours. | Count |
+| | Instant messages sent | Total number of IMs (chats) sent by a person through Teams, during and outside of working hours. | Count |
 | | Total calls | Total number of calls a person joined through Teams, including scheduled and unscheduled calls during and outside of working hours. | Count |
 | | Meeting and call hours | Number of hours the person spent in meetings and calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities. | Hour |
 | **Collaboration by day of the week** | Emails sent during weekend | Number of emails the person sent on Saturdays or Sundays. | Hour |
@@ -55,12 +55,12 @@ The following metrics are available when creating analysis in the Advanced insig
 | | Emails sent to small group without manager | Number of emails the person sent where the email is sent to eight or less recipients who are all internal and the person's manager is not a recipient of the email. | Count |
 | | IMs sent to small group without manager | Number of IMs the person sent where the IM is sent to eight or less recipients who are all internal and the person's manager is not a recipient of the IM. | Count |
 | | Internal meeting hours without manager one on one | Number of hours the person spent in meetings with only one other person who is not their manager. | Hour |
-| | Internal meeting hours three to eight attendees | Number of hours the person spent in meetings with at least three up to eight internal collaborators only and no external collaborators. | Hour |
+| | Internal meeting hours 3 to 8 attendees | Number of hours the person spent in meetings with at least three up to eight internal collaborators only and no external collaborators. | Hour |
 | **Collaboration involving manager** | Unscheduled call hours with manager one on one | Number of hours that a person spent in unscheduled calls through Teams involving only the person and their manager. | Hour |
 | | Unscheduled call hours with manager | Number of hours that a person spent in unscheduled calls through Teams where attendees included at least the person and their manager. | Hour |
-| | Collaboration hours with direct reports | Number of hours the person spent in meetings, emails, IMs, and calls where all participants report directly to the person, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
-| | Emails sent to small group with manager | Number of emails the person sent where the email is sent to 8 or less recipients who are all internal and the person's manager is a recipient of the email. | Count |
-| | IMs sent to small group with manager | Number of IMs the person sent where the IM is sent to 8 or less recipients who are all internal and the person's manager is a recipient of the IM. | Count |
+| | Collaboration hours with direct reports | Number of hours the person spent in meetings, emails, IMs, and calls where all participants report directly to the person, after deduplication of time due to overlapping activities (for example, calls during a meeting).| Hour |
+| | Emails sent to small group with manager | Number of emails the person sent where the email is sent to eight or less recipients who are all internal and the person's manager is a recipient of the email. | Count |
+| | IMs sent to small group with manager | Number of IMs the person sent where the IM is sent to eight or less recipients who are all internal and the person's manager is a recipient of the IM. | Count |
 | | Manager coaching hours one on one | Total number of hours the manager spends in one-on-one meetings with all of the manager's direct reports. | Hour |
 | | Meeting hours with manager | Number of meeting hours where the attendees include at least the person and their manager. | Hour |
 | | Meeting hours with manager one on one | Number of meeting hours involving only the person and their manager. | Hour |
