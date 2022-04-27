@@ -1,7 +1,7 @@
 ---
 
 title: Peer analysis 
-description: Describes the peer analysis functionality of Workplace Analytics
+description: Describes the peer analysis functionality in the advanced insights app with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -11,11 +11,11 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
-# Peer analysis
+# Peer analysis in Advanced insights
 
 Peer analyses help you find answers to the question: How do the most effective people&mdash;the best performing people in a company&mdash;collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_, and the people we compare them with&mdash;their peers&mdash;as the _other group_.)
 
@@ -32,7 +32,7 @@ You work towards the first goal through a peer analysis. This procedure consists
 
 ### Roles 
 
-To be able to perform the tasks in this article, you must have either the analyst or the limited analyst role of Workplace Analytics.  
+To be able to perform the tasks in this article, you must have either the analyst or the limited analyst role in the advanced insights app.
 
 ### Privacy notes
 
@@ -42,29 +42,27 @@ The results of analyses are always presented in aggregate form. No individual's 
 
 ## Start an analysis
 
-In this task, you take the first steps to start a peer analysis.
+1. Open [Peer analysis](https://workplaceanalytics.office.com/Analyze/PeerAnalysis). If prompted, enter your work credentials.
+1. **Peer analysis** shows a table of analysis that's been started or completed.
 
-1. Open [Workplace Analytics Peer analysis](https://workplaceanalytics.office.com/Analyze/PeerAnalysis). If prompted, enter your work credentials.
-2. **Peer analysis** shows a table of analysis that's been started or completed.
- 
     ![New analysis.](../images/wpa/use/explore-peer-analysis.png)
 
-4. Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis:
+1. Select **New analysis** to initiate a new analysis. This opens a panel for creating the new analysis:
 
     ![New analysis pane.](../images/wpa/use/step1-new-request.png)
- 
+
     The top of this pane shows the four steps for creating a peer analysis: _Reference group_, _Other group_, _Conditions_, and _Submit_.
 
-5. For **Analysis name**, type a name for this analysis.  
-6. Select a date range for the analysis.
-7. Go to [Identify the reference group](#identify-the-reference-group).
+1. For **Analysis name**, type a name for this analysis.  
+1. Select a date range for the analysis.
+1. Go to [Identify the reference group](#identify-the-reference-group).
 
 ## Identify the reference group
 
-> [!Tip]
-> Before you complete this task, you should know the group of people within your organization that you want to use for the reference group.
+>[!Tip]
+>Before you complete this task, you should know the group of people within your organization that you want to use for the reference group.
 
-As you define this group, keep in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than 1000 members. 
+As you define this group, keep in mind that it has a maximum size. If you upload a .csv file, the group can contain no more than 150 members. If you use filters, the group can contain no more than 1000 members.
 
 1. In the **Reference group** section, identify the members of this group. This is a group of your choosing; its members need not work together on the same team. You can identify them in either of the following ways:
 
@@ -143,7 +141,7 @@ Selecting **View** opens the **Result** page:
 
 This page includes analysis details, such as: the analysis name, date range, name and size of the reference group, and the name and size of the other group.
 
-The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Workplace Analytics selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results that you see are comparisons of raw averages between the reference group and the other group.
+The **Highlights** area displays the results of your analysis. The upper area presents summaries of the top three variant metrics for the groups. (Viva Insights selects these three metrics from among highly correlated metrics that are unique to this type of analysis.) The results that you see are comparisons of raw averages between the reference group and the other group.
 
 In this example, they are _Time with leadership_, _External network size_, and _Percentage of meeting hours with direct manager coattending_.
  
@@ -162,13 +160,13 @@ Follow these steps to upload a file that contains email addresses:
  
     ![Upload .csv file.](../images/wpa/use/upload-csv-file.png)
 
-3. Browse to the file on disk and select **Open**. After the file uploads, Workplace Analytics automatically validates the uploaded data and displays the results:
+3. Browse to the file on disk and select **Open**. After the file uploads, Viva Insights automatically validates the uploaded data and displays the results:
 
     ![Validation results.](../images/wpa/use/validation-results.png)
  
-   In this example, the validation results contain the errors of invalid email addresses and a person who has no Workplace Analytics license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. (To participate, a person needs only a Workplace Analytics [license assigned](../setup/assign-licenses-to-population.md); they do not need a Workplace Analytics [role](../setup/assign-roles-to-wpa-admins.md).)
+   In this example, the validation results contain the errors of invalid email addresses and a person who has no Viva Insights license. You can choose to fix these errors by correcting or deleting the invalid email addresses, or having an admin assign the missing license. To participate, a person needs only a Viva Insights [license assigned](../setup/assign-licenses-to-population.md).
 
-   If validation errors are found, you cannot proceed with the analysis. After you correct the validation errors (or select a group with other participants), you must re-upload the .csv file to cause Workplace Analytics to validate the file again. After your .csv file successfully validates, you can proceed with the analysis.
+   If validation errors are found, you cannot proceed with the analysis. After you correct the validation errors (or select a group with other participants), you must re-upload the .csv file to cause Viva Insights to validate the file again. After your .csv file successfully validates, you can proceed with the analysis.
 
     <!-- REMOVE FOR NOW (PER SANJAY, WHO IS CHECKING ON THIS) Even if errors were found, you can proceed with the analysis if the group size meets or exceeds the minimum group size. In this example, the actual group size (25) exceeds the minimum group size (5), so you can start the analysis with this group. -->
 
@@ -208,14 +206,14 @@ Of course, if performance metrics cannot be or have not been uploaded for your o
 
 When you compare two groups of people, the purpose is to arrive at a meaningful comparison. For example, depending on your organization, it might not make sense to compare IT admins with software engineers. Their roles are different and so are the ways they are rated in performance evaluations and the expectations of how they interact with customers.
 
-Because of differences such as these, making a direct, unrefined comparison of groups of employees might produce results that are not informative. For this reason, Workplace Analytics provides a way to improve the relevance and value of your comparisons: Add filters on the **Conditions** page:
+Because of differences such as these, making a direct, unrefined comparison of groups of employees might produce results that are not informative. For this reason, Viva Insights provides a way to improve the relevance and value of your comparisons: Add filters on the **Conditions** page:
 
 ![Apply conditions.](../images/wpa/use/step3-conditions.png)
 
 Let's say you are looking at employees in the software engineering discipline. You might want to make sure that both the reference group and the other group consist entirely of software engineers. On this page, add a filter to define a condition such as: _Discipline_ _Equals_ _Software engineer_.
 
-Workplace Analytics will then make sure that every user in both of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, it displays an error message:
+Viva Insights will then make sure that every user in both of the groups that you selected in the preceding steps (the example group and the peer group) match this condition. If they do not, it displays an error message:
 
 ![Use filters error message.](../images/wpa/use/conditions-error-msg.png)
 
-For privacy reasons, Workplace Analytics cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  
+For privacy reasons, Viva Insights cannot inform you which user or users do not match the conditions. At this point, you'll need to select **Back** to return to the preceding steps and check the content of your groups, and make the necessary changes to eliminate this error.  

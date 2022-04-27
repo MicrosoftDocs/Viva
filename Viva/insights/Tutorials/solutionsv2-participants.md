@@ -1,9 +1,9 @@
 ---
 
-title: Workplace Analytics plan participants
-description: A brief description of what participants in a Workplace Analytics plan (MyAnalytics users) experience during the plan
+title: Viva Insights plan participants
+description: A brief description of what participants in a Viva Insights plan experience
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,22 +11,22 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Plan participants' experience
 
-**Role** - A participant in a plan or a person who is using Viva Insights or MyAnalytics for personal insights
+**Role** - A participant in a plan or a person who is using Viva Insights for personal insights
 
-While analysts and program managers can create and manage Workplace Analytics plans as part of Microsoft Viva Insights, the actual work of change is done by people. People who are using Viva Insights or MyAnalytics can participate in a plan and use it as an opportunity to change their workplace habits for the better.
+While analysts and program managers can create and manage plans as part of Microsoft Viva Insights, the actual work of change is done by people. People who are using Viva Insights can participate in a plan and use it as an opportunity to change their workplace habits for the better.
 
 All plans are scheduled to start on a Sunday. As soon as the plan starts and through the duration of the plan, its participants will receive or can view what is described in the following sections.
 
 <!-- THIS IS TURNED OFF FOR NOW (MAY 2019)
 ## Welcome email
 
-As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Workplace Analytics. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on.  
+As a program manager schedules a plan, they can choose to let participants receive an automatically generated [welcome email](../Images/WpA/Tutorials/welcome-msg-prog-partic.png) from Viva Insights. This one-time email explains the details of the plan: its sponsor, its duration, and its targets -- the habits that participants are expected to work on.  
 -->
 
 ## Viva Insights
@@ -39,7 +39,7 @@ When people are part of a plan, they'll see a new **Team Plans** in their dashbo
 
 ## Digest
 
-People who use Viva Insights or MyAnalytics get a monthly [digest](../personal/use/email-digests-3.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
+People who use Viva Insights get a monthly [digest](../personal/use/email-digests-3.md) that focuses on a different work pattern each week, including: Focus, Wellbeing, Network, and Collaboration. This weekly digest is _not_ affected by a participant's enrollment in a plan.
 
 ### Teams Plan section
 
@@ -88,7 +88,7 @@ Participants in the Focus plan might see the following inline suggestion:
 
 ### Broadly available inline suggestions
 
-Many other inline suggestions are available to _all_ MyAnalytics participants, whether they are enrolled in a Teamwork plan or not. See [Inline suggestions in Outlook](../personal/use/mya-notifications.md) for details.
+Many other inline suggestions are available to _all_ Viva Insights participants, whether they are enrolled in a Teamwork plan or not. See [Inline suggestions in Outlook](../personal/use/mya-notifications.md) for details.
 
 ## Related topics
 
