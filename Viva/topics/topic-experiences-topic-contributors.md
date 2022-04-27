@@ -61,17 +61,17 @@ Additionally, users will also be able to find topics through Microsoft Search an
 
 ## Contributing to relevant topics
 
-There ar emultiple wasy to find relevant topics in the organization to contribute towards:
+There are multiple easy to find relevant topics in the organization to contribute towards:
 
 1. **Topic Center**: The Topic Center is the center of knowledge for the organization. It highlights the topics to which a user has a connection. There are two types of connections:  
 
-**Suggested connections** - You will see topics listed under *We've listed you on these topics. Did we get it right?* These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole   
+**Suggested connections** - You will see topics listed under *We've listed you on these topics. Did we get it right?* These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole.   
 
 ![Image showing suggested topics topic cards.](../media/knowledge-management/suggested-topics-enduser.png)
 
 **Confirmed connections** - These are topics which users are pinned on the topic page or confirmed as a suggested connection to the topic. Topics will move from the suggested to confirmed section when they confirm a suggested connection. 
 
-![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed connections-tc.png) 
+![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png) 
 
 2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
 
