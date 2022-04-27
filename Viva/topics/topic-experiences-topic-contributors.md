@@ -1,5 +1,5 @@
 ---
-title: How Topic Contributors share knowledge and expertise in Viva Topics
+title: Topic Contributors—Share knowledge and expertise in Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
