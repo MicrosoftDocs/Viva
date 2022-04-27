@@ -110,11 +110,11 @@ There are two main ways people can contribute their knowledge and expertise to V
 
 1. **Edit and create topics**: Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md) and [create new topics](create-a-topic.md). It’s also possible to [save a topic as a draft](save-topic-as-draft.md) if it’s not ready to publish.
 
-> [!Note] 
-> Users need topic contributor permissions to be able to edit and create new topics. If people are not able to edit or create topics, reach out to the Knowledge Admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).  
+   > [!Note] 
+   > Users need topic contributor permissions to be able to edit and create new topics. If people are not able to edit or create topics, reach out to the Knowledge Admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).  
 
 2. **Crowdsource feedback**: When users interact with a suggested topic, they might be asked a simple question in the Viva Topics UI. For example: *Was this topic relevant to the page? Is this person relevant for the topic? Was this definition accurate?* By using the feedback to such questions, Viva Topics improves the accuracy of topics. 
 
-![Image showing topic card with feedback question.](../media/knowledge-management/topics-hashtag-reference-enduser.png) 
+   ![Image showing topic card with feedback question.](../media/knowledge-management/topics-hashtag-reference-enduser.png) 
 
 
