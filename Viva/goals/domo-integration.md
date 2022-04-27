@@ -89,4 +89,3 @@ It’s as easy as that! Now you know how to work smarter by integrating Viva Goa
 >
 > Based on the Domo API limitations, Viva Goals currently integrates with Domo at a DataSet-ID level. We are exploring user-friendly options with the Domo Support team to list cards that can help map easier to Datasets when retrieving KPI values.
   
-Learn more about Viva Goals’ other integrations [here](http://help.gotoally.com/integrations).
