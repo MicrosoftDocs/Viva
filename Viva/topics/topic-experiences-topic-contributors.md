@@ -71,7 +71,7 @@ There are multiple easy to find relevant topics in the organization to contribut
 
 **Confirmed connections** - These are topics which users are pinned on the topic page or confirmed as a suggested connection to the topic. Topics will move from the suggested to confirmed section when they confirm a suggested connection. 
 
-![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png) 
+![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png)  
 
 2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
 
