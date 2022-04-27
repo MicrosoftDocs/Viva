@@ -68,4 +68,3 @@ Now that the integration is enabled, your team can link a Smartsheet cell with a
 
 It’s as simple as that! Now you know how to work smarter with Viva Goals and Smartsheet.
 
-Learn more about Viva Goals’ other integrations [here](http://help.gotoally.com/integrations).
