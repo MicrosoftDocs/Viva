@@ -20,26 +20,26 @@ search.appverid:
 description: "Inviting and removing a user in Viva Goals"
 ---
 
-# Inviting and removing a user in Viva Goals
+# Inviting and removing users in Viva Goals
 
 > [!IMPORTANT] 
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 Onboarding your entire team into Viva Goals is a very simple process that can be done in two ways: 
 
-1. By sending an invitation to the members 
+1. By sending an invitation to team members 
 
-2. Approving member invites sent via the Join Organizations page 
+2. By approving member invites sent via the Join Organizations page 
 
-But before doing that, you must sign into Viva Goals using Azure Active Directory and create an account for your organization.  
+Before either of these steps, you must sign in to Viva Goals using Azure Active Directory and create an account for your organization.  
 
 ## Adding users via invitation after creating an organization 
 
-1. After creating an organization, click on continue. 
+1. After creating an organization, click 'Continue.'
 
 [screenshot] 
 
-2. You will be taken to the invite members page where you can enter the names of the users you would like to add to your organization. 
+2. You will be taken to the Invite Members page, where you can enter the names of the users you would like to add to your organization. 
 
 [screenshot] 
 
@@ -47,31 +47,33 @@ But before doing that, you must sign into Viva Goals using Azure Active Director
 
 [screenshot] 
 
-4. Additionally, if your organization is public, you have the option of sharing with users a link to join your organization. 
+4. If your organization is public, you have the option of sharing a link to join your organization with users. 
 
-Note: Ensure that all the users are provisioned on your organization's Azure Active Directory account. 
+Note: Ensure that all users are provisioned on your organization's Azure Active Directory account. 
 
-## Adding members via invitation from within the app 
+## Adding members via invitation from within Viva Goals
 
 1. You can invite users by clicking on the ‘Invite Users’ button from the menu. 
 
 [screenshot] 
 
-2. If you’re the organization administrator, you can also head to settings, and click on ‘Invite Users’ under the Users tab. 
+2. If you are the organization administrator, you can also head to Settings, and click on ‘Invite Users’ under the Users tab. 
 
 [screenshot] 
 
-3. Apart from this, you can also click on All Users from the menu and select the ‘Invite Users’ button. 
+3. Another way to do this is to click on 'All Users' from the menu and select the ‘Invite Users’ button. 
 
 [screenshot] 
 
 ## Removing a user 
 
-To remove a user from your organization, an Admin can either deactivate or delete their account. This can be done by navigating to **Admin -> Users**. Find the user you wish to remove and select **Actions -> Deactivate** or **Actions-> Delete**. You'll no longer be billed for the user with both actions.
+To remove a user from your organization, an Admin can either deactivate or delete their account. 
 
-### Deactivating vs deleting a user
+This can be done by navigating to **Admin -> Users**. Find the user you wish to remove and select **Actions -> Deactivate** or **Actions-> Delete**. You will no longer be billed for the user with both actions.
 
-A deactivated user will remain visible in Viva Goals, but won't be able to sign in. The user will remain assigned as an owner of any OKRs they had. They won't be searchable in **All Users**, and be listed as deactivated in the **Users** section of the admin tools. 
+### Deactivating vs, deleting a user
+
+A deactivated user will remain visible in Viva Goals, but won't be able to sign in. The user will remain assigned as an owner of any OKRs they had. They won't be searchable in **All Users**, and will be listed as deactivated in the **Users** section of the admin tools. 
 
 :::image type="content" source="../media/goals/Goals-deactivate-user.png" alt-text="Image of deactivate a user.":::
 
@@ -83,7 +85,7 @@ Deleting a user is a permanent action and can't be undone. Deleting a user will 
 
 :::image type="content" source="../media/goals/Goals-delete-user-warning.png" alt-text="Image of the delete a user warning":::
 
-Admins can’t delete users if they’re the current owners of any objective. To delete these users, reassign their OKRs first and then delete the users.
+Admins can’t delete users if they are the current owners of any objective. To delete these users, reassign their OKRs first and then delete the users.
 
 :::image type="content" source="../media/goals/Goals-delete-use-admin-message.png" alt-text="Image of the admins message":::
 
@@ -93,30 +95,30 @@ Admins can’t delete users if they’re the current owners of any objective. To
 
 **Example scenario on when to delete a user**
 
-1. When the organization administrator receives a request from the user to completely delete all data that can be linked back to them as per the GDPR DSR regulations.
+1. When the organization administrator receives a request from the user to completely delete all data that can be linked back to them as per GDPR DSR regulations.
 
 ### Frequently asked questions
 
-1. Can any group in Azure Active Directory be invited to Viva Goals? 
+**1. Can any group in Azure Active Directory be invited to Viva Goals?**
 
-A: Any group in Azure Active Directory, Security Groups, Distribution groups, Office 365 groups can be invited onto Viva Goals 
+Any group in Azure Active Directory, Security Groups, Distribution groups, and Office 365 groups can be invited to Viva Goals. 
 
-2. How many groups can be invited? 
+**2. How many groups can be invited?** 
 
-A: As of now, only one group from Azure Active Directory can be invited to Viva Goals. 
+As of now, only one group from Azure Active Directory can be invited to Viva Goals. 
 
-3. If only one group can be added, how can administrators invite an entire organization to Viva Goals? 
+**3. If only one group can be added, how can administrators invite an entire organization to Viva Goals?**
 
-A: To invite an entire organization, we recommend users to nest all the existing groups or include all the members as part of the single group.  
+To invite an entire organization, we recommend users nest all existing groups or include all members as part of the single group.  
 
-4. Can I invite a group if I'm not a member of the group?
+**4. Can I invite a group if I'm not a member of the group?**
 
-A: Yes, you can invite any group even if you aren't a member.
+Yes, you can invite any group, even if you aren't a member.
 
-5. Will emails be sent to all users who are part of invited group list?
+**5. Will emails be sent to all users who are part of the invited group list?**
 
-A: Yes, all users will receive email communication. However, if the group they're a member of restricts emails by not including Viva Goals as an authorized sender, users will not receive email communications.
+Yes, all users will receive email communication. However, if the group they're a member of restricts emails by not including Viva Goals as an authorized sender, users will not receive email communications.
 
-6. If users are removed/added to the group, will the list automatically sync with the respective organization in Viva Goals?
+**If users are removed or added to the group, will the list automatically sync with the respective organization in Viva Goals?**
 
-A: Yes, the members list in that specific group will automatically get synchronized in the respective organization.
+A: Yes, the Members list in that specific group will automatically sync with the respective organization. 
