@@ -18,7 +18,7 @@ search.appverid:
 description: "Setting up your Viva Goals integration with Jira hosted on premise with trouble shooting tips."
 ---
 
-# Viva Goals - Jira On-Prem Troubleshooting Tips
+# Viva Goals - Jira Troubleshooting Tips
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
@@ -26,9 +26,6 @@ description: "Setting up your Viva Goals integration with Jira hosted on premise
 ## Troubleshooting guidelines for issues in the Viva Goals - Jira (application link) integration
 
 If your Jira instance is hosted on-premise (self-managed), here are a couple of troubleshooting guidelines to refer to while setting up the integration. If you're yet to set up the Viva Goals - Jira (On-Premise) integration, then head on over to this [help article.](https://help.ally.io/en/articles/2285939-jira-integration)
-
-Watch this video to see how the Jira  Application Link setup looks like!
-
 
 #### 1. While creating a Jira connection, I'm seeing  the error message: 'Unauthorized'
 
@@ -99,36 +96,3 @@ This would likely be an issue where Viva Goals isn't able to establish a connect
 #### 6. Why am I not able to select 'Next' in the create connection screen even after entering and setting up the correct information about my Jira instance? 
 
 The **Next** button in the Create connection screen will be enabled only when authentication is done successfully. After entering your Jira credentials, check if you've authenticated the connection and clicked on the **Allow** option in the consent pop-up. Once you're authenticated successfully, the **Next** button will be enabled automatically. 
-
-> [!NOTE]
-> If you think all of the above are properly set up, please reach out to the Viva Goals support team via in-app chat or email us at support@ally.io for more information. 
-
-## Troubleshooting guidelines for issues in the Viva Goals - Jira (Plugin) Integration
-
-#### 1. While creating a Jira connection, I'm seeing the error message: “Service Unavailable”
-
-Here are a few settings to check: 
-
-- **Is the Jira server URL provided valid and accessible?** 
-
-    Check if the Jira server URL you've provided follows this format: http://myjirapp.com/ and is reachable on HTTPS port. 
-
-- **Is the Jira plugin installed successfully?**
-
-    Check if the Jira plugin has been installed correctly. 
-
-- **Are the configuration details you've given correct?**  
-
-    Make sure the UUID and the access token you've provided in Viva Goals are correct. 
-
-#### 2. Why I'm seeing a new user added in the Jira user settings? 
-
-On successful authentication, Viva Goals creates a user within your Jira instance to be able to connect to Jira and update the data from Jira to Viva Goals. 
-
-#### 3. What are the supported versions for the Jira Plugin-based integration? 
-
-The Viva Goals - Jira plugin-based integration will work for Jira versions starting from 7.13.0 to 8.12.3. 
-
-#### 4. Why am I not able to select 'Next' in the create connection screen even after entering and setting up the correct information about my Jira instance? 
-
-The **Next** button in the Create connection screen will be enabled only when authentication is done successfully. After entering your Jira credentials, check if you've authenticated the connection and clicked on the **Allow** option in the consent pop-up. Once you're authenticated successfully, the 'Next' button will be enabled automatically. 
