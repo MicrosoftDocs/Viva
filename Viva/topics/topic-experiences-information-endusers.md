@@ -18,7 +18,7 @@ description: Learn how the user interacts with Viva Topics to find information a
 
 # Topic viewers: Find information and put knowledge to work with Microsoft Viva Topics
 
-Viva Topics helps the end user access the right information when they need it so they can be more productive and work smarter. In this document we review:  
+Viva Topics helps the user access the right information when they need it so they can be more productive and work smarter. In this document we review:  
 
 - [What Viva Topics is and how topics are displayed to users](topic-experiences-information-endusers.md#what-viva-topics-is-and-how-topics-are-displayed-to-users)
 
@@ -28,7 +28,7 @@ Viva Topics helps the end user access the right information when they need it so
 
 ## What Viva Topics is and how topics are displayed to users
 
-Viva Topics is an AI-powered solution that empowers people with knowledge and expertise in the apps they use every day. More accessible knowledge and expertise can help people: 
+Viva Topics is an AI—powered solution that empowers  people with knowledge and expertise in the apps they use every day. More accessible knowledge and expertise can help people: 
 
 - Spend less time searching for or recreating information that already exists 
 
