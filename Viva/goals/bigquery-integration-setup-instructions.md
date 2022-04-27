@@ -75,5 +75,3 @@ Now it's time to assign this role to Viva Goals' service account so that Viva Go
 4. Select **Save** to complete setup.
 
     :::image type="content" source="../media/goals/goals-complete-setup.png" alt-text="Image of complete setup":::
-
-For help on integrating OKRs with BigQuery inside Viva Goals, click [here.](https://help.ally.io/en/articles/4089763-bigquery-integration)
