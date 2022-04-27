@@ -59,7 +59,7 @@ Time without meetings, emails and chats provides employees with the opportunity 
 [How to establish a meeting-free day each week](https://insights.office.com/time-management/how-to-establish-a-meeting-free-day-each-week/) explains the "goal is uninterrupted focus" time to work "on projects that require focus and high-level thinking..." Ways to support focus time:
 
 * Follow a team norm to not send chats to team members who have scheduled focus time or have the focusing status showing in Microsoft Teams.
-* Use a [MyAnalytics Focus plan](/viva/insights/personal/use/focus-plan) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
+* Use a [personal focus plan](/viva/insights/personal/use/focus-plan) to automatically book focus time, protect this time by silencing chats, and track weekly progress.
 
 For more best practices and ways to establish a 'no meeting' period, see [Best practices for focus time](/viva/insights/tutorials/gm-focus).
 

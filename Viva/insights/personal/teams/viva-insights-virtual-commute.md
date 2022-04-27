@@ -46,7 +46,10 @@ The first time you open **Protect time**, you are prompted to schedule your virt
 
 You can use this prompt to select the days and time of day that you want to see the virtual-commute reminder, and then select **Set reminder**.
 
-[!INCLUDE [Virtual commute notes](includes/virtual-commute-details.md)]
+>[!Note]
+>* You can schedule virtual-commute reminders for any day of the week, including days not configured as workdays in your Outlook settings.
+>* The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
+>* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 
 If you need to adjust these settings at any time, you can do so on the **Settings** page. For more information, see [Settings > Virtual commute](viva-teams-app-settings.md).
 

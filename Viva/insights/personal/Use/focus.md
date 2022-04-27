@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics Focus page
-description: Learn how to use MyAnalytics to improve your focus time at work
+title: Viva Insights Focus page
+description: Learn how to use Viva Insights to improve your focus time at work
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,9 +17,9 @@ audience: user
 
 # Focus
 
-The Focus page on the [MyAnalytics dashboard](dashboard-2.md) shows weekly averages for the time you have available to focus and time spent collaborating with others in your network.
+The Focus page on your personal insights [Dashboard](dashboard-2.md) shows weekly averages for the time you have available to focus and time spent collaborating with others in your network.
 
-![Focus page in MyAnalytics.](../../Images/mya/use/focus.png)
+![Focus page.](../../Images/mya/use/focus.png)
 
 ## Productivity insights
 
@@ -37,7 +37,7 @@ For example: If your working hours are set as 9 am to 5 pm daily (8 working hour
 
 ## Focus plan
 
-The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. When you enroll in this plan MyAnalytics automatically schedules up to two hours of focus time for you every day. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md).
+The _focus plan_ in Viva Insights helps you set aside regular focus time for your top-priority work. When you enroll in this plan Viva Insights automatically schedules up to two hours of focus time for you every day. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [Focus plan](focus-plan.md).
 
 ## Focus tips
 
@@ -51,7 +51,3 @@ The _focus plan_ in MyAnalytics helps you set aside regular focus time for your 
 * **Group your meetings together on your calendar**: If your calendar is fragmented with meetings, try grouping meetings on your calendar so you have longer free blocks available to focus.
 
 * **Evaluate and shorten your meetings**: Meetings are essential for many jobs, but they sometimes last longer than needed. An easy starting point for reducing your meeting load is to review your recurring meetings and make sure they're a good use of time each week. Also consider dividing up meetings with coworkers and sharing notes afterwards if you’re not all needed in the room at the same time.
-
-## Related topic
-
-[MyAnalytics dashboard](../use/dashboard-2.md)
