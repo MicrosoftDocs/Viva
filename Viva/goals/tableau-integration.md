@@ -82,4 +82,3 @@ We're building more awesome use cases that will help you achieve amazing results
 > [!NOTE]
 > Based on the Tableau REST API limitations, Viva Goals currently has visibility of only the published Workbooks & Views. If any worksheets already part of a workbook are hidden, then they will not show up on the Views. Ensure to un-hide all the worksheets from where your team would like to integrate KPIs before publishing the Tableau dashboards.
   
-Learn more about Viva Goals’ other integrations, [here](http://help.gotoally.com/integrations).
