@@ -90,4 +90,3 @@ Once the setup is complete, users in your organization can link their OKRs to Tr
 
     - If the progress is over 25% less than the expected progress at any point in time, the status is At-Risk (red).
 
-    To learn more about Viva Goals’ other integrations, [see](http://help.gotoally.com/integrations).
