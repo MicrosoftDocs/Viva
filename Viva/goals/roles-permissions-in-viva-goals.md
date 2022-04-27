@@ -208,6 +208,6 @@ Administrators can change the user type from **Observer** to **Regular** and fro
 
 :::image type="content" source="../media/goals/changing-account-type-from-observer-to-regular-vice-versa.gif" alt-text="Changing account type from Observer to Regular and vice versa":::
 
-## Inviting other users as Observers
+### Inviting other users as Observers
 
 An Observer can invite others as Observers if the Invite Policy in **Admin > Settings** is set to **Anyone in the organization**.
