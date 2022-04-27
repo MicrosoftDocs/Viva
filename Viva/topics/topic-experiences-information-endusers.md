@@ -28,7 +28,7 @@ Viva Topics helps the user access the right information when they need it so the
 
 ## What Viva Topics is and how topics are displayed to users
 
-Viva Topics is an AI—powered solution that empowers  people with knowledge and expertise in the apps they use every day. More accessible knowledge and expertise can help people: 
+Viva Topics is an AI—powered solution that empowers people with knowledge and expertise in the apps they use every day. More accessible knowledge and expertise can help people: 
 
 - Spend less time searching for or recreating information that already exists 
 
@@ -62,32 +62,32 @@ Topics are displayed to users through:
 
 ### SharePoint highlights
 
-When a topic is mentioned in content on SharePoint news and pages, the user will see it highlighted. They can hover over the highlighted topic and be presented with a topic card. From the topic card, opening the topic details from the title of the summary will give view to the full topic page. The mentioned topic could be identified automatically or could have been referenced directly by the page author. 
+When a topic is mentioned in content on SharePoint news and pages, the user will see it highlighted. They can hover over the highlighted topic and a topic card appears. In the topic card, opening the topic details from the title of the summary will give view to the full topic page. The mentioned topic could be identified automatically or could have been referenced directly by the page author. 
 
 ![Image showing a topic card.](../media/knowledge-management/topic-card-enduser.png) 
 
 ### Search results
 
-To see a  [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the topic of the results list and show a short set of information related to that topic. 
+To see a  [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the top of the results list and show a short set of information related to that topic. 
 
 ![Image showing a topic answer after search.](../media/knowledge-management/topic-answer-enduser.png) 
 
 ### Office application search
 
-When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel — either through the **search** box or by selecting Search in the context menu — topic answers are displayed in the search results. 
+When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel—either through the **search** box or by selecting Search in the context menu—topic answers are displayed in the search results. 
 
 ![Image showing a topic answer after search in Microsoft Word.](../media/knowledge-management/topic-answer-1-enduser.png) 
 ![Image showing the search option for topics in Microsoft Word.](../media/knowledge-management/topic-answer-2-enduser.png)
 
 ### Topic center
 
-Users can see topics in their organization to which they have a connection to on the  [topic center home page](topic-center-overview.md#home-page). 
+Users can see topics in their organization to which they have a connection to in the  [topic center home page](topic-center-overview.md#home-page). 
 
 ![Image showing a topic suggestions with an organization.](../media/knowledge-management/suggested-topics-enduser.png) 
 
 ## Different ways to use Viva Topics
 
-Finding knowledge or expertise in an organization is often quite difficult. Viva Topics changes this by making knowledge and expertise more accessible. The following are a few of the different ways that Viva Topics can help people be more productive:   
+Finding knowledge or expertise in an organization is often quite difficult. Viva Topics changes this by making knowledge and expertise more accessible. There's different ways in which Viva Topics can help people be more productive.
 
 ### Learn more about an important topic
 We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with, or subjects we need more information about. Typically, we stop what we are doing to spend precious time searching for more information. We often don’t know who to ask or where to find more information. Viva Topics uses AI to highlight topics in the apps people already use every day. When a user is curious to learn more about a topic, they can select the highlighted topic to view a **Topic Summary** card that provides a short description. And if they want to learn more, they can select a **Topic Details** link in the summary to open the detailed topic page. 
