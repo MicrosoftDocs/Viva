@@ -24,7 +24,6 @@
 
     - name: Setup and administration
       items:
-
         - name: Topics security
           href: topic-experiences-security-privacy.md
         - name: Plan for Topics
