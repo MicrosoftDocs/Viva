@@ -44,18 +44,6 @@ Admins can enable this integration by performing the following steps:
 
 - This integration can also be **disabled** from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable the integration.
 
-## Prerequisites for self-managed Jira setup (on-premise)
-
-If your Jira instance is hosted on-premise (self-managed), your IT/Jira administrator should:
-
-1. Set up an application link inside Jira as **[described here](https://help.ally.io/en/articles/2997829-jira-integration-setting-up-an-application-link)**.
-
-    > [!NOTE]
-    > The Jira connection for users will fail if the application link is not configured on your Jira instance.
-
-2. You'll have to permit the IP addresses 54.243.192.208, 3.225.237.0, 107.20.38.17, and 23.21.1.160 if your Jira installation restricts access by IP address.
-
-If you're facing issues with any of the previous steps, refer to the [Viva Goals - Jira integration Troubleshooting Guide](https://help.ally.io/en/articles/5071339-ally-io-jira-on-prem-troubleshooting-tips).
 
 ## How to configure the Jira connection?
 
@@ -65,16 +53,7 @@ If you're facing issues with any of the previous steps, refer to the [Viva Goals
 
 - Add the **Server URL** of your Jira account.
 
-- Select whether your Jira instance is self-managed (on-premise) or hosted on the cloud. If you aren't sure of the type of your instance, check with your IT/Jira administrator.
-
-- For self-managed instances, select **Sign in with Jira** and follow the instructions in the popup to complete authentication.
-
-    > [!NOTE]
-    > If your Jira instance is behind a reverse proxy and if you need to pass the authentication header key and value, select **Advanced options** above the **Sign in with Jira** button to send the key/value as part of the header.
-
-    :::image type="content" source="../media/goals/viva-goals-jira-integration-1.png" alt-text="Jira Integration 1":::
-
-- For cloud instances, enter the email address and the Application Programming Interface (API) token associated with your Jira account. The instructions for generating an API token for your Jira cloud account are **[described here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)**.
+- For Jira instances on the cloud, enter the email address and the Application Programming Interface (API) token associated with your Jira account. The instructions for generating an API token for your Jira cloud account are **[described here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)**.
 
     :::image type="content" source="../media/goals/viva-goals-jira-integration-2.png" alt-text="Jira Integration 2":::
 
