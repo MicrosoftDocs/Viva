@@ -1,5 +1,5 @@
 ---
-title: Navigating Viva Topics and an end user
+title: Topic viewers - Find information and put knowledge to work with Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
@@ -12,11 +12,11 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 localization_priority: Normal
-description: Learn how the end user interacts with Viva Topics to find information and build knowledge.
+description: Learn how the user interacts with Viva Topics to find information and build knowledge.
 
 ---
 
-# Navigating Viva Topics as an end user
+# Topic viewers: Find information and put knowledge to work with Viva Topics
 
 Microsoft Viva Topics helps the end user access the right information when they need it so they can be more productive and work smarter. In this document we review:  
 
