@@ -74,7 +74,7 @@ To see a  [topic answer](search.md#topic-answer) in search results when search
 
 ### Office application search
 
-When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel — either through the search box or by selecting Search in the context menu — topic answers are displayed in the search results. 
+When using Search in Office apps such as Word, PowerPoint, Outlook, or Excel — either through the **search** box or by selecting Search in the context menu — topic answers are displayed in the search results. 
 
 ![Image showing a topic answer after search in Microsoft Word.](../media/knowledge-management/topic-answer-1-enduser.png) 
 ![Image showing the search option for topics in Microsoft Word.](../media/knowledge-management/topic-answer-2-enduser.png)
@@ -90,7 +90,7 @@ Users can see topics in their organization to which they have a connection to on
 Finding knowledge or expertise in an organization is often quite difficult. Viva Topics changes this by making knowledge and expertise more accessible. The following are a few of the different ways that Viva Topics can help people be more productive:   
 
 ### Learn more about an important topic
-We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with, or subjects we need more information about. Typically, we stop what we are doing to spend precious time searching for more information. We often don’t know who to ask or where to find more information. Viva Topics uses AI to highlight topics in the apps people already use every day. When a user is curious to learn more about a topic, they can select the highlighted topic to view a Topic Summary card that provides a short description. And if they want to learn more, they can select a Topic Details link in the summary to open the detailed topic page. 
+We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with, or subjects we need more information about. Typically, we stop what we are doing to spend precious time searching for more information. We often don’t know who to ask or where to find more information. Viva Topics uses AI to highlight topics in the apps people already use every day. When a user is curious to learn more about a topic, they can select the highlighted topic to view a **Topic Summary** card that provides a short description. And if they want to learn more, they can select a **Topic Details** link in the summary to open the detailed topic page. 
 
 ### Reuse language or information
 
