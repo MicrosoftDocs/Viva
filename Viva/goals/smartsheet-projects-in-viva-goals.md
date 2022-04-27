@@ -153,5 +153,3 @@ Viva Goals supports a [Smartsheet integration](https://help.ally.io/en/articles/
 The Projects Smartsheet integration, however, lets you see the individual tasks and their completion state for a Smartsheet, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last check-in - which tasks were completed, were any tasks added or removed. You can also directly jump to the row in Smartsheet from the task in Viva Goals.
 
 :::image type="content" source="../media/goals/Update progress from Smartsheet.gif" alt-text="Smartsheet Projects 7":::
-
-Projects in Viva Goals are available across all our pricing plans. If you would like to have Projects enabled for your organization, have an account admin reach out to [support@ally.io](mailto:support@ally.io) with your request.
