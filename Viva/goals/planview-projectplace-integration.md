@@ -88,5 +88,3 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 The integration may also be disabled at any time from the 'Change' dropdown in the Projectplace integration view.
 
 :::image type="content" source="../media/goals/goals-planview-projectplace-disabling-the-integration.png" alt-text="Image of disabling the integration"::: 
-
-Learn more about Viva Goals’ other integrations [here.](https://help.ally.io/en/collections/30526-integrations)
