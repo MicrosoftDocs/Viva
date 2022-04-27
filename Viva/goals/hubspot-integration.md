@@ -118,5 +118,3 @@ Now that the integration is enabled, your team can link a Hubspot metric with an
 The Hubspot integration may also be disabled by an Admin at any time. To disable the integration as an Admin, go to Hubspot in the **Integrations** section and select **Manage**. In the **Hubspot Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
 
 :::image type="content" source="../media/goals/disabling-hubspot-ally.gif" alt-text="Hubspot Integration 3":::
-
-Learn more about Viva Goals’ other integrations [here](http://help.gotoally.com/integrations).
