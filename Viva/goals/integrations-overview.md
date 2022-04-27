@@ -66,8 +66,3 @@ To disable an integration, click on **Manage**, then select **Disable integratio
 
 :::image type="content" source="../media/goals/disabling-an-integration.gif" alt-text="Disabling an integration":::
 
-Don’t see an integration with your favorite tool? Feel free to suggest one [here](https://survey.survicate.com/db6bcc9a4a44459f/?_svbep=P3A9aW50ZXJjb20mdWlkPSZmaXJzdF9uYW1lPSZsYXN0X25hbWU9JmVtYWlsPQ==).
-
-
-
-
