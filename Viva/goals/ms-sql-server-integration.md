@@ -90,4 +90,3 @@ The MS SQL Server may also be disabled by an Admin at any time. To disable the i
 
 :::image type="content" source="../media/goals/goals-delete-ms-sql-conn.gif" alt-text="Image of disabling the integration"::: 
 
-Learn more about other integrations available in Viva Goals [here.](https://help.ally.io/en/collections/30526-integrations)
