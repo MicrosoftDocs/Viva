@@ -139,7 +139,7 @@ The other permissions in Viva Goals are described in the following table:
 
 :::image type="content" source="../media/goals/other-permissions.png" alt-text="Other permissions in Viva Goals":::
 
-## Observer account type
+## Observer user type
 
 Viva Goals supports two kinds of accounts:
 - **Regular Users**: Regular users can access all of Viva Goals' functionality, including creating, updating, and owning OKRs. They can take up additional responsibilities in Viva Goals such as an administrator, team administrator, manager, and so on.
@@ -163,7 +163,7 @@ An Observer is entitled to the following privileges:
 
 ### Adding users as an Observer
 
-You can set a default account type for new users from **Admin Dashboard > Setting**. 
+You can set a default user type for new users from **Admin Dashboard > Setting**. 
 
 :::image type="content" source="../media/goals/setting-account-type-to-observer.png" alt-text="Setting Account Type for a new user to Observer":::
 
@@ -179,13 +179,13 @@ If the users have **Observer** tag against their names, they're an Observer. The
 
 :::image type="content" source="../media/goals/identifying-an-observer.png" alt-text="Identifying an Observer":::
 
-If you're an administrator, you can also look at user's Account Type from **Admin Dashboard > Users > Account Type column**, as depicted in the following image:
+If you're an administrator, you can also look at user type from **Admin Dashboard > Users > User Type column**, as depicted in the following image:
 
 :::image type="content" source="../media/goals/checking-for-observer-setting.png" alt-text="Alternative method of identifying an entity with Observer privileges":::
 
 ### Changing account type of users
 
-Administrators can change the Account Type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard > Users Tab > User listing > Three dot Menu**, as shown in image below:
+Administrators can change the user type from **Observer** to **Regular** and from **Regular** to **Observer** through **Admin Dashboard > Users Tab > User listing > Three dot Menu**, as shown in image below:
 
 :::image type="content" source="../media/goals/changing-account-type-from-observer-to-regular-vice-versa.gif" alt-text="Changing account type from Observer to Regular and vice versa":::
 
