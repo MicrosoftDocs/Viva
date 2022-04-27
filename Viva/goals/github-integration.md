@@ -84,4 +84,3 @@ The following colors of the progress bar indicate the status of the objective:
 
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red.
 
-To learn more about Viva Goals’ other integrations, visit our [Integrations page](https://help.ally.io/en/collections/30526-integrations).
