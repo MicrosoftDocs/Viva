@@ -91,7 +91,7 @@ The status of projects will be updated automatically depending on the story poin
 
     :::image type="content" source="../media/goals/goals-jirasp-projects.gif" alt-text="Image of track progress of projects by story points ":::
 
-Best practice
+### Best practice
 
 For Jira issues that don't have an estimation, the average of story points of the remaining issues in the specified JQL will be assigned automatically. As best practice, Viva Goals sets the default value of story points for non-estimated Jira issues to the average value, and this will help in measuring the progress in a meaningful way than just using 0 as the default value. 
 
