@@ -23,36 +23,31 @@ description: "Learn about the various roles and permissions in Viva Goals"
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## Types of roles
+## Role types in Viva Goals
 
-In the context of OKRs (Objectives and Key Results), a ‘creator’ is someone who has created an objective. An ‘owner’ is someone to whom the objective was assigned.
+In Viva Goals, a creator is a user who has created an objective. An owner is a user who has been assigned an objective. 
 
-For example, if a Sales team member, say Steve, wants to suggest an objective to a marketing team peer, say Martha, Steve could add the objective and assign it to Martha. Martha in this case is the owner of the Objective, and Steve is the creator.
+For example, if a Sales team member wants to suggest an objective to a Marketing team member, the Sales team member (creator) can add the objective and assign it the Marketing team member (owner). 
 
 Viva Goals supports the following roles within an organization:
 
 |Role  |Description  |
 |---------|---------|
-|Members/Regular Users     |    The members/regular users (the default role for everyone) can set up and manage their individual OKRs, and view all OKRs (of the organization's, and of the other teams' and their colleagues').     |
-|Observers     |   Observers, as opposed to regular users, can't create; edit; or own OKRs. However, they can view all entities and OKRs like the regular users.      |
-|Managers     |    Managers are members who own their OKRs and their reportees' OKRs.     |
+|Members    |    Members (the default role for everyone) can set up and manage their individual OKRs, and view all OKRs within the organization.     |
+|Observers     |   Observers, as opposed to members, can't create, edit, or own OKRs. They can view all OKRs like members.      |
+|Managers     |    Managers are members who own their OKRs and the OKRs of those who report to them.     |
 |Team Owners     |    Team owners are members who own their team members' OKRs.     |
 |Team Admins     |   Team administrators are members who can manage team members.      |
 |Organization Admins     |   Organizational administrators are members who manage the setup of the organization and can manage users and teams. An organization can have more than one organization administrator.      |
-|Organization Owner  |    Organizational owners are usually the persons who head the organization. They can manage members, teams, set up, and billing for the account. By default, they own the organization-level OKRs, but organizational objectives can be owned by other members also.     |
+|Organization Owner  |    Organizational owners manage members, teams, set up, and billing for the account. By default, they own organization-level OKRs, but organizational objectives can be owned by other members also.     |
 
-The member/regular users are entitled to the following types of permissions:
-
-- [Permission levels on individual OKRs](#permission-levels-on-individual-okrs)
-- [Permission levels on team OKRs](#permission-levels-on-team-okrs)
-
-### Permission levels on individual OKRs
+## Permission levels on individual OKRs
 
 The permission levels on individual OKRs are described in the following table:
 
 :::image type="content" source="../media/goals/permission-levels-on-individual-okrs.png" alt-text="Permission levels on individual OKRs":::
 
-### Permission levels on team OKRs
+## Permission levels on team OKRs
 
 The permission levels on team OKRs are described in the following tables:
 
