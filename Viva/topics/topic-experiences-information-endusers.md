@@ -1,5 +1,5 @@
 ---
-title: Topic viewers - Find information and put knowledge to work with Microsoft Viva Topics
+title: Topic viewers—Find information and put knowledge to work with Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
