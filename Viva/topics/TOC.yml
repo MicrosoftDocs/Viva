@@ -11,11 +11,11 @@
           items:
             - name: Overview
               href: topic-experiences-roles.md 
-            - name: Knowledge manager role
+            - name: Knowledge manager
               href: topic-experiences-knowledge-managers.md
-            - name: Topic contributor role
+            - name: Topic contributor
               href: topic-experiences-topic-contributors.md
-            - name: Topic viewer role
+            - name: Topic viewer
               href: topic-experiences-information-endusers.md           
         - name: Supported languages
           href: topics-language-support.md 
@@ -45,7 +45,7 @@
        
     - name: Work with topics
       items:
-        - name: Learn about topics in Microsoft Viva Topics
+        - name: Learn about topics in Viva Topics
           href: get-started-with-viva-topics.md
         - name: Topic center overview
           href: topic-center-overview.md    
@@ -63,6 +63,8 @@
           href: search.md             
         - name: Security trimming 
           href: topic-experiences-security-trimming.md 
+        - name: Restrict access to topics 
+          href: restrict-access-to-topics.md 
         - name: Manage topics at scale 
           href: scale-topics.md             
 
