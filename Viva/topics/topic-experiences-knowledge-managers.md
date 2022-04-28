@@ -35,7 +35,7 @@ Knowledge managers have a unique opportunity to scale their impact and demonstra
 A high-quality knowledge base can help a Knowledge Manager and their team:  
 
 - Spend less time searching for or recreating information that already exists 
-  *People spend about an hour a day – or up to seven weeks a year – searching for or recreating information* 
+  People spend about an hour a day – or up to seven weeks a year – searching for or recreating information 
 
 - Work smarter by having access to the right information when it’s needed 
 
