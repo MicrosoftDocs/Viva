@@ -40,7 +40,7 @@ Viva Topics is an AI—powered solution that empowers people with knowledge and 
 
 - Onboard new team members to the organization or to a project 
 
-Viva Topics uses AI to help arrange an organization’s knowledge base into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have properties and resources that can provide knowledge about the topic and help people find more information and experts related to the topic.  
+Viva Topics uses AI to help arrange an organization’s knowledge base into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have properties and resources that can provide knowledge about the specific topic and help people find more information and experts related to the topic.  
 
 ![Diagram showing properties of a topic card.](../media/knowledge-management/properties-topic-card-enduser.png) 
 
@@ -68,7 +68,7 @@ When a topic is mentioned in content on SharePoint news and pages, the user will
 
 ### Search results
 
-To see a  [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after changing the search scope to include the full organization. The topic answer will appear at the top of the results list and show a short set of information related to that topic. 
+To see a  [topic answer](search.md#topic-answer) in search results when searching from the SharePoint start page, search on Office.com, or search from a SharePoint site after updating the search scope to include the full organization. The topic answer will appear at the top of the results list and show a short set of information related to that topic. 
 
 ![Image showing a topic answer after search.](../media/knowledge-management/topic-answer-enduser.png) 
 
@@ -87,22 +87,22 @@ Users can see topics in their organization to which they have a connection to in
 
 ## Different ways to use Viva Topics
 
-Finding knowledge or expertise in an organization is often quite difficult. Viva Topics changes this by making knowledge and expertise more accessible. There's different ways in which Viva Topics can help people be more productive.
+Finding knowledge or expertise in an organization can be difficult. Viva Topics makes knowledge and expertise more accessible. There's different ways in which Viva Topics can help people be more productive.
 
 ### Learn more about an important topic
-We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with, or subjects we need more information about. Typically, we stop what we are doing to spend precious time searching for more information. We often don’t know who to ask or where to find more information. Viva Topics uses AI to highlight topics in the apps people already use every day. When a user is curious to learn more about a topic, they can select the highlighted topic to view a **Topic Summary** card that provides a short description. And if they want to learn more, they can select a **Topic Details** link in the summary to open the detailed topic page. 
+We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with, or subjects we need more information on. Typically, we stop what we are doing to spend precious time searching for more information. We often don’t know who to ask or where to find more information. Viva Topics uses AI to highlight topics in the apps people already use every day. When a user is curious to learn more about a topic, they can select the highlighted topic to view a **Topic Summary** card that provides a short description. And if they want to learn more, they can select a **Topic Details** link in the summary to open the detailed topic page. 
 
 ### Reuse language or information
 
-Recreating work or a deliverable, when someone else in the organization has already created something reusable, can be frustrating. Redundant work often occurs in an organization because people are not aware of similar work that has been done by someone else, or due to difficulties finding information or expertise. There are many examples where redundant work in an organization can occur, including proposals, sales presentations, project deliverables, training content, plans, and specifications. Viva Topics makes it easy for people to find existing knowledge and content in the organization and reuse it for their work. 
+Recreating work or a deliverable, when someone else in the organization has already created something reusable, can be frustrating. Redundant work often occurs in an organization when people aren't aware of similar work done by someone else, or due to difficulties finding information or expertise. There are many examples where redundant work in an organization can occur, including proposals, sales presentations, project deliverables, training content, plans, and specifications. Viva Topics makes it easy for people to find existing knowledge and content in the organization and reuse it for their work. 
 
 ### Share knowledge
 
-People spend a lot of time sharing their knowledge, whether thru email, chat, or other inefficient channels. Sharing the knowledge organized and maintained in Viva Topics is easy. A page author can directly reference a topic on a modern SharePoint site page by using the hashtag symbol. Page authors can invoke the topic picker on a modern SharePoint page by adding a hashtag and then selecting the topic they’d like to include on the page.  
+People spend a lot of time sharing their knowledge, whether through email, chat, or other inefficient channels. Sharing the knowledge organized and maintained in Viva Topics is easy. A page author can directly reference a topic on a modern SharePoint site page by using the hashtag symbol. Page authors can invoke the topic picker on a modern SharePoint page by adding a hashtag and then selecting the topic they’d like to include on the page.  
 
 ![Image showing referencing a topic by using a hashtag.](../media/knowledge-management/topics-hashtag-reference-enduser.png) 
 
-Check out the [Viva Topics scenario catalogue](DOWNLOADABLE) for some additional ideas on how organizations can use Viva Topics
+Check out the [Viva Topics scenario catalogue](DOWNLOADABLE) for more ideas on how organizations can use Viva Topics
 
 ## Contribute knowledge and expertise to Viva Topics
 
