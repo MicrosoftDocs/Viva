@@ -1,7 +1,7 @@
 ---
 title: Restrict access to topics in Microsoft Viva Topics
-author: ruthhollands
-ms.author: ruthholls
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
