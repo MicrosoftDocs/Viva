@@ -52,11 +52,11 @@ The following is the data egress flow that's required by you as a Viva Insights 
    * The edited ARM template file with details for the [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/introduction) that's related to the resources that control the data movement.
    * UI definition file that defines your customer’s UI experience, such as what options or customizations they can make to the app.
 
-1. Your customer then needs to define and deploy the Managed Application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code with a [Shared Access Signature (SAS) key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) URI that you share with the customer.
+1. Your customer then needs to define and deploy the Managed Application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code with a [Shared Access Signature (SAS) key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) URI that you share with the customer. For details, see [Customer onboarding](#customer-onboarding).
 
    ![Define the managed application.](../../images/advanced/define-managed-app.png)
 
-1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store.
+1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store. For more details, see [Move data](#move-data).
 1. Viva Insights then generates an encryption key.
 1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure KeyVault](https://docs.microsoft.com/azure/key-vault/), which is required when installing the Managed application.
 1. As the partner, you then can decrypt the customer data with the encryption key.
@@ -73,7 +73,7 @@ This pipeline is intended to be installed by a Managed Application, that you pro
 
 You can reference the [sample Managed Application](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) to see an example of the previous steps for moving data.
 
-## Metadata file
+### Metadata file
 
 Each data drop includes a **metadata.json** file, with the path of **Metadata/JobMetadata** in the root directory. This is JSON file includes details about the copy activity with the following schema:
 
