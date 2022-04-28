@@ -18,7 +18,7 @@ description: Learn how the user interacts with Viva Topics to find information a
 
 # Topic viewers: Find information and put knowledge to work with Microsoft Viva Topics
 
-Viva Topics helps the user access the right information when they need it so they can be more productive and work smarter. In this document we review:  
+Viva Topics helps topic viewers access the right information when they need it so they can be more productive and work smarter. In this document we review:  
 
 - [What Viva Topics is and how topics are displayed to users](topic-experiences-information-endusers.md#what-viva-topics-is-and-how-topics-are-displayed-to-users)
 
@@ -46,7 +46,7 @@ Viva Topics uses AI to help arrange an organization’s knowledge base into shar
 
 Viva Topics uses human contributions to make the quality of topics better. Through various curation mechanisms in Viva Topics, people in an organization add their tacit knowledge and feedback on the usefulness of topics.    
 
-There can be many different types of topics that may be important to an organization including projects, products or services, materials or supplies, customers, suppliers, processes, areas of study, disciplines, functions, and assets.  
+There can be many different types of important topics to an organization including projects, products or services, materials or supplies, customers, suppliers, processes, areas of study, disciplines, functions, and assets.  
 
 ### How topics are displayed to users
 
@@ -90,7 +90,7 @@ Users can see topics in their organization to which they have a connection to in
 Finding knowledge or expertise in an organization can be difficult. Viva Topics makes knowledge and expertise more accessible. There's different ways in which Viva Topics can help people be more productive.
 
 ### Learn more about an important topic
-We've all experienced reading through documents and site pages where we encounter terms we are unfamiliar with, or subjects we need more information on. Typically, we stop what we are doing to spend precious time searching for more information. We often don’t know who to ask or where to find more information. Viva Topics uses AI to highlight topics in the apps people already use every day. When a user is curious to learn more about a topic, they can select the highlighted topic to view a **Topic Summary** card that provides a short description. And if they want to learn more, they can select a **Topic Details** link in the summary to open the detailed topic page. 
+We've all experienced reading through documents and site pages where we encounter terms we're unfamiliar with, or subjects we need more information on. Typically, we stop what we are doing to spend precious time searching for more information. We often don’t know who to ask or where to find more information. Viva Topics uses AI to highlight topics in the apps people already use every day. When a user is curious to learn more about a topic, they can select the highlighted topic to view a **Topic Summary** card that provides a short description. And if they want to learn more, they can select a **Topic Details** link in the summary to open the detailed topic page. 
 
 ### Reuse language or information
 
