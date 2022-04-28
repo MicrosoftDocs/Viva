@@ -27,19 +27,17 @@ On logging into your Viva Goals account, you will be able to view and access all
 
 ## What are the various views available in Viva Goals? 
 
-There are 4 views that are available in Viva Goals: 
+There are 5 views that are available in Viva Goals: 
 
 1. List view - The list view is the default view in your OKRs page that shows you all your OKRs and projects and related information such as the title, type, owner, time period, and progress.  This view enables you to not only create and browse OKRs for a team or user but also review and run OKR deep dives for a specific team. 
 
 2. Expand view - The expand view is a time saving view option under the list view which when enabled expands all the top-level objectives listed in the OKRs page, at once, to display one level of children. 
 
-      a. Flat-list view  
+3. Detailed View - All information pertaining to OKRs and projects can be found in the detailed view, including the minutiae such as the last updates, OKR/project link, comments, and activity. 
 
-      b. Detailed View 
+4. Quick View - The quick view is a pop-up that appears in the OKRs page whenever you click on an OKR/project. Instant updates to your OKRs and projects can be made by taking advantage of the options available in this view. 
 
-3. Quick View - The quick view is a pop-up that appears in the OKRs page whenever you click on an OKR/project. Instant updates to your OKRs and projects can be made by taking advantage of the options available in this view. 
-
-4. Chart view - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
+5. Chart view - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
 
 ## Various options available for an Objective
 
