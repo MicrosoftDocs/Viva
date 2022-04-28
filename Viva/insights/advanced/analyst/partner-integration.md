@@ -38,36 +38,27 @@ Before you can access the sample data, you’ll need to set up a test Azure envi
 
 ### Customer prerequisites
 
-* Have an Azure tenant and an administrator account
-* Have the tenant set up with a Consent Request Approvers group in the Microsoft 365 admin center
-* Enable [Microsoft Graph Data Connect (MGDC)](https://docs.microsoft.com/graph/data-connect-concept-overview) for the tenant
+* Have an [Azure tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) and an administrator account set up
+* Have the tenant set up with a [Consent Request Approvers group](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-admin-consent-workflow) in the Microsoft 365 admin center
+* Enable [Microsoft Graph Data Connect (MGDC)](https://docs.microsoft.com/graph/data-connect-concept-overview) for the tenant, which is the platform you'll use to export the Microsoft 365 data
 
 ## Data egress flow overview
 
-The following key elements are required for the data egress flow:
+The following is the data egress flow that's required by you as a Viva Insights partner and your customer for this integration. These steps include the previously described prerequisites for both you and your customer.
 
-* [Microsoft Graph Data Connect (MGDC)](https://docs.microsoft.com/graph/data-connect-concept-overview) - Is the platform for exporting Microsoft 365 data and offers scalable and auditable big data to optimize data access.
-* [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/introduction) - 
-Cloud-based ETL, data integration, and workflow service for creating data-driven workflows for orchestrating data movement and transforming data at scale.
-* [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) - Pre-packaged Azure solutions that can be shared and deployed and a [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) that’s an internal catalog of approved managed applications for an organization’s users.
-* [Azure Resource Manager (ARM) Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/) - JSON files that you can use to define the infrastructure and configuration for this integration.
-
-The following is the data egress flow that's required by you as a Viva Insights partner and your customer for this integration.
-
-1. After [the program form](https://aka.ms/GraphTAPForm), as the partner, you'll get an ARM template from Viva Insights that you need to edit for your specific integration.
+1. As a partner, after you complete the [the program form](https://aka.ms/GraphTAPForm), you'll get an [Azure Resource Manager (ARM) Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/) from Viva Insights that you need to edit for your specific integration. The ARM template consists of JSON files that you need to define the infrastructure and configuration for this integration.
 1. You then need to create a [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) source code package, and then upload it to a storage account within your Azure subscription. The source code package must include:
 
-   * The edited ARM template file with details for the Azure Data Factory related resources that controls the data movement.
+   * The edited ARM template file with details for the [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/introduction) that's related to the resources that control the data movement.
    * UI definition file that defines your customer’s UI experience, such as what options or customizations they can make to the app.
 
-1. Your customer then needs to define and deploy the Managed Application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code SAS URI that you share with the customer.
+1. Your customer then needs to define and deploy the Managed Application in their [Service Catalog](https://azure.microsoft.com/services/managed-applications/#overview) from the source code with a [Shared Access Signature (SAS) key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) URI that you share with the customer.
 
    ![Define the managed application.](../../images/advanced/define-managed-app.png)
 
-1. The customer approves the consent request to kick-off the data extraction.
-1. The data drops in your partner data store.
-1. Viva Insights generates an encryption key.
-1. The customer then provisions a client secret for the application that’s stored in a secure location, such as Azure KeyVault, which will be required when installing the Managed application.
+1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store.
+1. Viva Insights then generates an encryption key.
+1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as Azure KeyVault, which will be required when installing the Managed application.
 1. You decrypt the customer data with the encryption key.
 
 ## Move data
@@ -77,7 +68,7 @@ With this integration, behavioral analytics data is moved between Azure and your
 This pipeline is intended to be installed by a Managed Application, that you provide, in your customer’s Azure tenant. The pipeline is responsible for the following tasks:
 
 1. Extracting data from Microsoft 365 to a temporary storage location in the customer’s tenant.
-1. Copying data from the temporary location to a Blob Storage account owned by your application, using a [Shared Access Signature (SAS) key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) that you generate, and is entered when the application is installed by the customer.
+1. Copying data from the temporary location to a Blob Storage account owned by your application, using an [SAS key](https://docs.microsoft.com/azure/storage/common/storage-sas-overview) that you generate, and is entered when the application is installed by the customer.
 1. (Optional) Notifying your application that new data is available for processing.
 
 You can reference the [sample Managed Application](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) to see an example of the previous steps for moving data.
