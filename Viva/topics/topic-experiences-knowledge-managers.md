@@ -98,9 +98,9 @@ There are several different ways to prioritize which topics to focus efforts on:
 - **Impressions & quality score**: Each topic discovered by Viva Topics has its number of impressions counted and is assigned a quality score. These two properties, when considered together, can be a useful way to prioritize topics for curation. Topics with high impressions and a low-quality score would be natural targets for prioritization. These topics are likely interacted with frequently and need human curation to improve their quality.  
 
 Use the **Manage Topics** page in the [Topic center](topic-center-overview#home-page.md) to view and prioritize topics. Knowledge managers have access to the **Manage Topics** page where they can review topics.  
-
-[!Note] 
-If the **Manage Topics** page isn’t available to the assigned knowledge manager, the knowledge administrator can get them set up in Viva Topics as a knowledge manager.  
+ 
+> [!Note] 
+> If the **Manage Topics** page isn’t available to the assigned knowledge manager, the knowledge administrator can get them set up in Viva Topics as a knowledge manager.  
 
 On the **Manage Topics** page, there's a quality score column and impressions column. The **quality score** reflects the amount of information that the average user will see for the information on the topic, keeping in mind that each user might see more or less information because of the permissions they might or might not have on the information in a topic. The **impressions** column displays the number of times a topic has been shown to end users. Sort each column to find the topics with the lowest quality score and highest number of impressions.  
 
