@@ -1,6 +1,6 @@
 ---
 title: Advanced insights with Viva Insights
-description: Learn about what's available in advanced insights with Microsoft Viva Insights
+description: Learn about what's available in the Advanced insights app that's part of the Microsoft Viva Insights suite
 ms.localizationpriority: medium 
 ms.collection: 
 - m365initiative-viva-insights 
