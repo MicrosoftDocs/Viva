@@ -30,7 +30,7 @@ description: Learn how to contribute to topics in Viva Topics
 
 ## Showcase knowledge and expertise with Viva Topics
 
-We all have unique expertise and insight that are valuable to our peers and making our knowledge accessible to anyone in the organization has always been challenging. Viva Topics makes it easy to share knowledge and make it accessible for colleagues when they need it.  
+We all have unique expertise and insight valuable to our peers. Making our knowledge accessible to everyone in the organization has always been challenging. Viva Topics makes it easy to share knowledge and make it accessible for colleagues when they need it.  
 
 ![Image showing topic page on infopedia.](../media/knowledge-management/topics-infopedia-topic-page-tc.png)
 ![Image showing organization landing page.](../media/knowledge-management/topics-landing-page-tc.png)
@@ -43,9 +43,9 @@ By sharing knowledge in Viva Topics, contributors will:
 
 - Make new connections and lend expertise to colleagues who share similar interests  
 
-Sharing knowledge can help peers within the organization spend less time searching for or recreating information and give time back to innovate more, learn more effectively, make better decisions, and improve how new team members get onboarded.  
+Sharing knowledge can help peers within the organization spend less time searching for, or recreating information, and give time back to innovate more, learn more effectively, make better decisions, and improve how new team members get onboarded.  
 
-Viva Topics uses AI to help organize an organization’s knowledge into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have resources related to them that can provide knowledge about the topic and help people find more information and experts related to the topic. There can be many different types of topics that may be important to an organization, including projects, products or services, materials or supplies, customers, suppliers, processes, disciplines, functions, and assets.  
+Viva Topics uses AI to help organize an organization’s knowledge into shared topics. A topic is a phrase or term that has a specific meaning to the organization. Topics have resources related to them that can provide knowledge about the topic and help people find more information and experts related to the topic. There can be many different types of important topics to an organization, including projects, products or services, materials or supplies, customers, suppliers, processes, disciplines, functions, and assets.  
 
 The AI not only organizes knowledge into topics, it also automatically creates a suggested topic page for each. To take the knowledge base to the next level, people can easily add their tacit knowledge, provide unique insights, or generally improve the quality of the topic.  
 
@@ -77,7 +77,7 @@ There are multiple easy to find relevant topics in the organization to contribut
 
 ![Image showing editing button within the topic page.](../media/knowledge-management/topic-page-editing-tc.png)
 
-3. **Search**: If there is a specific topic to edit, the user can [search for it using Microsoft Search](search.md). If there is no existing topic in the tenant, a new topic can be created. 
+3. **Search**: If there's a specific topic to edit, the user can [search for it using Microsoft Search](search.md). If there's no existing topic in the tenant, a new topic can be created. 
 
 ![Image showing topic being searched for in the search field in SharePoint with result.](../media/knowledge-management/search-for-topic-tc.png)
 
@@ -91,18 +91,18 @@ Each topic contains a consistent set of AI generated properties that can be edit
 
 ![Image showing ai generated topic properties in a topic card.](../media/knowledge-management/ai-generated-topic-properties-km.png)
 
-The properties are identified from the files and pages that are part of the evidence the AI gathered for identifying the topic. Alternate names and acronyms are sourced from these files and pages. The short description is sourced from these files and pages, or from the internet through Wikipedia. The source file, page, or Wikipedia article is referenced alongside the suggested properties. People are suggested based on their active contributions (for example, edits) to the files and pages. A reference to the number of contributions from a particular person provides a hint as to why the person has been identified. Files, pages, and sites are ranked based on whether they are central to the topic, or whether they can give an overview or introduction to the topic. 
+The properties are identified from the files and pages that are part of the evidence the AI gathered for identifying the topic. Alternate names and acronyms are sourced from these files and pages. The short description is sourced from these files and pages, or from the internet through Wikipedia. The source file, page, or Wikipedia article is referenced alongside the suggested properties. People are suggested based on their active contributions (for example, edits) to the files and pages. A reference to the number of contributions from a particular person provides a hint as to why the person has been identified. Files, pages, and sites are ranked based on whether they're central to the topic, or whether they can give an overview or introduction to the topic. 
 
-It’s possible to improve the quality of topics in an organization by adding the correct alternate names and descriptions, and recommending people, files, pages, and related topics that are relevant for others in the company to learn more about the topic. 
+It’s possible to improve the quality of topics in an organization by adding the correct alternate names and descriptions, recommending people, files, pages, and related topics relevant for others in the company to learn more about the topic. 
 
-Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md). If the AI did not discover topics that are important to the organization, they can [create new topics](create-a-topic.md) in Viva Topics. Users can [save a topic as draft](save-topic-as-draft.md) if they are not ready to publish it.  
+Editing or creating a topic is like editing or publishing a SharePoint page. Learn how to [edit an existing topic](edit-a-topic.md). If the AI didn't discover topics that are important to the organization, they can [create new topics](create-a-topic.md) in Viva Topics. Users can [save a topic as draft](save-topic-as-draft.md) if they aren't ready to publish it.  
 
 > [!Note] 
 > While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information manually added when editing an existing topic is visible to all users who have permissions to view topics. 
 
 ### Contribution guidance
 
-To make contributions to Viva Topics inclsuiv and helpful, keep the following in mind: 
+To make contributions to Viva Topics inclusive and helpful, keep in mind: 
 
 - Contributions should avoid acronyms or other “insider” terms 
 
@@ -112,13 +112,13 @@ To make contributions to Viva Topics inclsuiv and helpful, keep the following in
 
 - Contributions should be accurate, relevant, reliable, and reusable 
 
-- Contributions should not contain confidential information that is NOT intended for broad distribution 
+- Contributions shouldn't contain confidential information that is NOT intended for broad distribution 
 
 ### Customize a topic page
 
-To accommodate different scenarios for how an organization may want to use Viva Topics, it’s possible to customize a topic page to include additional types of content – such as text, images, or links - beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
+To accommodate different scenarios for how an organization may want to use Viva Topics, it’s possible to customize a topic page to include more types of content – such as text, images, or links - beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
 
-The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The [Viva Topics scenario catalogue](https://aka.ms/TopicsScenarios) can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. These are just examples; users can choose what makes the most sense and be creative. 
+The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The [Viva Topics scenario catalog](https://aka.ms/TopicsScenarios) can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. These are just examples; users can choose what makes the most sense and be creative. 
 
 ### Product based topic
 
@@ -151,7 +151,7 @@ Remember to select **Publish** or **Republish** to save your changes. 
 
 ## Get help from colleagues
 
-Most topics have multiple subject matter experts in an organization. To help improve the quality of the topics being curated, multiple employees should be consulted for help. If other employees who have experience, expertise, or passion about a certain topic are available, reach out and ask for their contributions.  
+Most topics have multiple subject matter experts in an organization. To help improve the quality of the topics being curated, multiple employees should be consulted for help. If other employees who have experience, expertise, or passion about certain available topics, reach out and ask for their contributions.  
 
 Employees who contribute their knowledge:  
 
