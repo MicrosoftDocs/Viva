@@ -1,7 +1,7 @@
 ---
 title: Use SharePoint taxonomy terms to create topics in Microsoft Viva Topics
-author: ruthholls
 ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: anfra; cjtan
 audience: admin
