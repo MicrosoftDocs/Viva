@@ -73,7 +73,7 @@ There are multiple easy to find relevant topics in the organization to contribut
 
 ![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png)  
 
-2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. There may be a prompt to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
+2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. Certain prompts can can appear to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
 
 ![Image showing editing button within the topic page.](../media/knowledge-management/topic-page-editing-tc.png)
 
@@ -81,7 +81,7 @@ There are multiple easy to find relevant topics in the organization to contribut
 
 ![Image showing topic being searched for in the search field in SharePoint with result.](../media/knowledge-management/search-for-topic-tc.png)
 
-4. **Knowledge manager**: People in the organization may have taken on the role of knowledge manager and reached out to colleagues to get help curating specific topics. 
+4. **Knowledge manager**: People in the organization can take on the role of knowledge manager and reach out to colleagues to get help curating specific topics. 
 
 Only users who have the **Who can create or edit topics permission** link can edit or create a topic. If the user is unable to edit or create a topic, they can reach out to the admin to get the required permissions.  
 
@@ -116,7 +116,7 @@ To make contributions to Viva Topics inclusive and helpful, keep in mind:
 
 ### Customize a topic page
 
-To accommodate different scenarios for how an organization may want to use Viva Topics, it’s possible to customize a topic page to include more types of content – such as text, images, or links - beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
+To accommodate different scenarios for how an organization wants to use Viva Topics, it’s possible to customize a topic page to include more types of content – such as text, images, or links - beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
 
 The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The [Viva Topics scenario catalog](https://aka.ms/TopicsScenarios) can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. These are just examples; users can choose what makes the most sense and be creative. 
 
