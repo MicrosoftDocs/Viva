@@ -1,9 +1,9 @@
 ---
 
-title: Business continuity report
-description: Use the Business continuity report that's within the Productivity Score report to analyze organizational collaboration data
+title: Business resilience report in the Productivity Score report
+description: Use the Business resilience report that's within the Productivity Score report to analyze organizational collaboration data
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,15 +11,15 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
-# Business continuity report
+# Business resilience report
 
-Organizations around the world are responding to sudden changes in the way they work. Microsoft wants to help you understand the business impact and what your organization can do to help navigate the shift to remote work.
+As the need to accommodate remote workers continues, employees and their organizations face challenges in making suitable adjustments. This report offers insights for successfully maintaining organizational flexibility and resilience.
 
-The Business continuity report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how collaboration for an organization has changed over the last six months.
+The Business resilience report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how collaboration for an organization and how it's changed over time.
 
 >[!Note]
 >Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
@@ -31,7 +31,7 @@ You are encouraged to share this report with business leaders in your organizati
 * Able to effectively meet and share ideas and information remotely.
 * Maintaining their community connections.
 
-![Business continuity report v3.](../Images/WpA/Tutorials/bcrps-3.png)
+![Business resilience report.](../Images/WpA/Tutorials/bus-res-psr.png)
 
 In the report, when it says the **last 90 days**, it’s referring to the time period of the last 90 days from when the day the report was updated. Also, where it says **90 days ago**, it’s referring to the time period starting from 180 days ago to 91 days from when the day the report was updated.
 
@@ -57,7 +57,7 @@ Yes, you are encouraged to share this report with business leaders in your organ
 
 #### Q3 How can I get more detailed analysis for my organization?
 
-You can use Microsoft Viva Insights to get more detailed analysis and additional insights about your company. Contact your account team or go to [Viva Insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics) to learn more.
+You can use Microsoft Viva Insights to get more detailed analysis and additional insights about your company. Contact your account team or go to [Viva Insights](https://www.microsoft.com/microsoft-viva/insights) to learn more.
 
 #### Q4 Who is eligible to see this report?
 

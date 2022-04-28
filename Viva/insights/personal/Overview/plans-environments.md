@@ -31,17 +31,17 @@ The following Personal insights service plans are generally available with a sub
   * Office 365 E1, E3, A3, E5, A5, G3, G5, or GCC
   * Exchange Online Plan 1 or 2
 
-* **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are available with:
+* **MyAnalytics (Full)** and **Insights by MyAnalytics** service plans are included with:
 
   * Microsoft 365 E5 (with or without Audio Conferencing) or G5
   * Office 365 Enterprise, G5, or Nonprofit E5
 
-* **MyAnalytics (Full)** service plan is available with:
+* **MyAnalytics (Full)** service plan is included with:
 
   * Microsoft 365 A5 for faculty and students
   * Office 365 A5 for faculty and students
 
-* **Insights by MyAnalytics** service plan is available with:
+* **Insights by MyAnalytics** service plan is included with:
 
   * Microsoft 365 E3, Business, or A3 for faculty and students
   * Office 365 E1, E3, A3 for faculty and students, E3 Developer, G3, Business Premium, or Business Essentials
