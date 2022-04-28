@@ -40,3 +40,13 @@ There are 4 views that are available in Viva Goals:
 3. Quick View - The quick view is a pop-up that appears in the OKRs page whenever you click on an OKR/project. Instant updates to your OKRs and projects can be made by taking advantage of the options available in this view. 
 
 4. Chart view - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
+
+## Various options available for an Objective
+
+1. Add a key result - Create a key result of the type of organization/team/individual.
+
+2. Add a project - Create a project of the type of organization/team/individual.
+
+3. Edit - Make changes to existing OKRs and projects using this option.
+
+4. Check-in - Make a progress & status update to an OKR/project using this option. 
