@@ -33,7 +33,7 @@ You are encouraged to share this report with business leaders in your organizati
 * Able to effectively meet and share ideas and information remotely.
 * Maintaining their community connections.
 
-![Business resilience example report.](../Images/WpA/Tutorials/bus-res-ps.png)
+![Business resilience example report.](../Images/WpA/Tutorials/bus-res-ex.png)
 
 In the report, when it says the **last 90 days**, it’s referring to the time period of the last 90 days from when the day the report was updated. Also, where it says **90 days ago**, it’s referring to the time period starting from 180 days ago to 91 days from when the day the report was updated.
 
