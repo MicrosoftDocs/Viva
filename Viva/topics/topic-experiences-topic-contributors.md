@@ -65,25 +65,25 @@ There are multiple easy to find relevant topics in the organization to contribut
 
 1. **Topic Center**: The Topic Center is the center of knowledge for the organization. It highlights the topics to which a user has a connection. There are two types of connections:  
 
-**Suggested connections** - You will see topics listed under ***We've listed you on these topics. Did we get it right?*** These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole.   
+    **Suggested connections** - You will see topics listed under ***We've listed you on these topics. Did we get it right?*** These are topics in which a user’s connection to the topic has been suggested through AI based on contributions made to related files or sites. The user is asked to confirm whether they should stay listed as a related person for the topic. By responding to the confirmation request, the user is making Viva Topics better for themselves and the organization as a whole.   
 
-![Image showing suggested topics topic cards.](../media/knowledge-management/suggested-topics-enduser.png)
+    ![Image showing suggested topics topic cards.](../media/knowledge-management/suggested-topics-enduser.png)
 
-**Confirmed connections** - These are topics which users are pinned on the topic page or confirmed as a suggested connection to the topic. Topics will move from the suggested to confirmed section when they confirm a suggested connection. 
+    **Confirmed connections** - These are topics which users are pinned on the topic page or confirmed as a suggested connection to the topic. Topics will move from the suggested to confirmed section when they confirm a suggested connection. 
 
-![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png)  
+    ![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png)  
 
 2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. Certain prompts can can appear to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.d#editing-and-creating-topics-in-viva-topics).  
 
-![Image showing editing button within the topic page.](../media/knowledge-management/topic-page-editing-tc.png)
+    ![Image showing editing button within the topic page.](../media/knowledge-management/topic-page-editing-tc.png)
 
 3. **Search**: If there's a specific topic to edit, the user can [search for it using Microsoft Search](search.md). If there's no existing topic in the tenant, a new topic can be created. 
 
-![Image showing topic being searched for in the search field in SharePoint with result.](../media/knowledge-management/search-for-topic-tc.png)
+    ![Image showing topic being searched for in the search field in SharePoint with result.](../media/knowledge-management/search-for-topic-tc.png)
 
 4. **Knowledge manager**: People in the organization can take on the role of knowledge manager and reach out to colleagues to get help curating specific topics. 
 
-Only users who have the **Who can create or edit topics permission** link can edit or create a topic. If the user is unable to edit or create a topic, they can reach out to the admin to get the required permissions.  
+    Only users who have the **Who can create or edit topics permission** link can edit or create a topic. If the user is unable to edit or create a topic, they can reach out to the admin to get the required permissions.  
 
 ## Edit and create topics in Viva Topics
 
@@ -118,7 +118,7 @@ To make contributions to Viva Topics inclusive and helpful, keep in mind:
 
 To accommodate different scenarios for how an organization wants to use Viva Topics, it’s possible to customize a topic page to include more types of content – such as text, images, or links - beyond the standard properties of a topic. [Web parts](https://support.microsoft.com/en-us/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in these different types of content.  
 
-The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The [Viva Topics scenario catalog](https://aka.ms/TopicsScenarios) can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. These are just examples; users can choose what makes the most sense and be creative. 
+The appropriate web parts to use on a topic page will be based on the scenarios identified for Viva Topics. The [Viva Topics scenario catalog](https://aka.ms/TopicsScenarios) can be referenced for some ideas. To help users think about different ways to make a topic page relevant to a scenario, consider sharing these sample scenarios and associated web parts that have been used on a topic page. Some examples include: users can choose what makes the most sense and be creative. 
 
 ### Product based topic
 
