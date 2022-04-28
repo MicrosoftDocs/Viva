@@ -24,9 +24,9 @@ Knowledge managers play a key role in building a knowledge base that Viva Topics
 
 - [The role of a knowledge manager](topic-experiences-knowledge-managers.md#the-role-of-a-knowledge-manager)
 
-- [Getting started as a knowledge manager](topic-experiences-knowledge-managers.md#getting-started-as-a-knowledge-manager)
+- [Getting started as a knowledge manager](topic-experiences-knowledge-managers.md#get-started-as-a-knowledge-manager)
 
-- [Editing and creating topics in Viva Topics](topic-experiences-knowledge-managers.md#editing-and-creating-topics-in-viva-topics)
+- [Editing and creating topics in Viva Topics](topic-experiences-knowledge-managers.md#edit-and-create-topics-in-viva-topics)
 
 ## The importance of knowledge managers
 
@@ -97,7 +97,7 @@ There are several different ways to prioritize which topics to focus efforts on:
 
 - **Impressions & quality score**: Each topic discovered by Viva Topics has its number of impressions counted and is assigned a quality score. These two properties, when considered together, can be a useful way to prioritize topics for curation. Topics with high impressions and a low-quality score would be natural targets for prioritization. These topics are likely interacted with frequently and need human curation to improve their quality.  
 
-Use the **Manage Topics** page in the [Topic center](topic-center-overview#home-page.md) to view and prioritize topics. Knowledge managers have access to the **Manage Topics** page where they can review topics.  
+Use the **Manage Topics** page in the [Topic center](topic-center-overview.md) to view and prioritize topics. Knowledge managers have access to the **Manage Topics** page where they can review topics.  
  
 > [!Note] 
 > If the **Manage Topics** page isn’t available to the assigned knowledge manager, the knowledge administrator can get them set up in Viva Topics as a knowledge manager.  
@@ -106,7 +106,7 @@ On the **Manage Topics** page, there's a quality score column and impressions co
 
 ![Image showing the quality score and impressions column in the manage topics page.](../media/knowledge-management/manage-topics-quality-impressions.png)
 
-- **Bookmarks and existing knowledge base**: [Bookmarks](manage-bookmarks.md) are used in Microsoft Search to help people quickly find important sites and tools. They can also help indicate what the organization deems as important and provide consideration for what topics should be prioritized for curation. Organizations can have other, existing knowledge bases that are prime candidates for migrating to Viva Topics. For example, if the organization has invested in knowledge bases or wiki sites, these can provide a list of topics to use for initial curation efforts. If they're large, select the most viewed or edited topics as a starting point. The wiki knowledge will then be more accessible through the applications people use to do their work and suggested elements of the topic will be automatically updated by the AI in Viva Topics.  
+- **Bookmarks and existing knowledge base**: [Bookmarks](https://docs.microsoft.com/en-us/microsoftsearch/manage-bookmarks) are used in Microsoft Search to help people quickly find important sites and tools. They can also help indicate what the organization deems as important and provide consideration for what topics should be prioritized for curation. Organizations can have other, existing knowledge bases that are prime candidates for migrating to Viva Topics. For example, if the organization has invested in knowledge bases or wiki sites, these can provide a list of topics to use for initial curation efforts. If they're large, select the most viewed or edited topics as a starting point. The wiki knowledge will then be more accessible through the applications people use to do their work and suggested elements of the topic will be automatically updated by the AI in Viva Topics.  
 
 Prioritization of topics for curation should also factor in demand levels for different types of knowledge in the organization. Make sure the topics being curated are in demand and will be used once published. Find topics for curation that are in high demand and that are currently being addressed in inefficient and non-scalable ways. For example, product experts are often asked random questions from salespeople and often answer the same question repeatedly through hard to scale mediums such as email or chat. In this example, product experts will be highly responsive to Viva Topics to scale their impact, minimize randomization and gain more recognition as an expert in the organization.  
 
@@ -150,7 +150,7 @@ Once the right people to curate relevant topics are identified, explain how cont
 
 Help colleagues curate topics effectively by:
 
-- Sharing the specific topic(s) they should edit and [how to find other relevant topics](topic-center-overview#home-page.md) to curate  
+- Sharing the specific topic(s) they should edit and [how to find other relevant topics](topic-center-overview.md) to curate  
 
 - Preparing colleagues with the standards the organization define for what a good topic looks like
 
@@ -162,7 +162,7 @@ Users need topic contributor permissions to be able to edit and create new topic
 
 Once colleagues have curated topics, **recognize** their efforts. There are ways to provide recognition to topic contributors depending on what Office 365 applications are used within the organization:  
 
-- [Praise](viva-insights-praise.md) colleagues in [Viva Insights](viva-teams-app.md) 
+- [Praise](https://docs.microsoft.com/en-us/viva/insights/personal/teams/viva-insights-praise) colleagues in [Viva Insights](https://docs.microsoft.com/en-us/viva/insights/personal/teams/viva-teams-app) 
 
 - [Praise](https://support.microsoft.com/en-us/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) someone in a Yammer network 
 
