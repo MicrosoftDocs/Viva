@@ -56,7 +56,7 @@ The knowledge manager’s role is to help curate and improve the quality of an o
 
 - Helping create a culture of knowledge sharing by modeling the behavior and empowering others  
 
-## Getting started as a knowledge manager
+## Get started as a knowledge manager
 
 To help a knowledge manager started, use the workflow below to effectively assign, prioritize, edit, and create topics.
 
