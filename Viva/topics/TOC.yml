@@ -63,6 +63,8 @@
           href: search.md             
         - name: Security trimming 
           href: topic-experiences-security-trimming.md 
+        - name: Restrict access to topics 
+          href: restrict-access-to-topics.md 
         - name: Manage topics at scale 
           href: scale-topics.md             
 
