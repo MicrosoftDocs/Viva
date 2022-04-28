@@ -75,6 +75,10 @@ Objective/Parent objective
 
 7. View options - From this drop-down, you can select to show more info, expand all OKRs by default, show OKRs in a flat view, and compare to a time period.
 
+The expand view is a time saving view option under the list view which when enabled expands all the top-level objectives listed in the OKRs page, at once, to display one level of children. 
+
+The flat-list view, another view option under the list view, removes the hierarchical structure found in the default view in the OKRs page and displays them all as a flat list. That is, in this view, the parent and child OKRs are all on the same level and are listed one after another without any nesting. 
+
 8. Bulk Check-in - Make check-ins on multiple OKRs that were not updated since the last check-in reminder in a guided workflow.
 
 ## Actions on an OKR or a project in the list view
