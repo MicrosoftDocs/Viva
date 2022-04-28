@@ -58,8 +58,8 @@ The following is the data egress flow that's required by you as a Viva Insights 
 
 1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store.
 1. Viva Insights then generates an encryption key.
-1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as Azure KeyVault, which will be required when installing the Managed application.
-1. You decrypt the customer data with the encryption key.
+1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure KeyVault](https://docs.microsoft.com/azure/key-vault/), which is required when installing the Managed application.
+1. As the partner, you then can decrypt the customer data with the encryption key.
 
 ## Move data
 
