@@ -17,10 +17,8 @@ audience: Admin
 
 # Templates in Viva Insights
 
-The Analyst tab in Viva Insights includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom query and selects the applicable Power BI charts to show results from these queries.
-
-<!--- "Analyst tab in Viva Insights" -- is this correct terminology? --->
-
+The Analyst pages in Viva Insights includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom query and selects the applicable Power BI charts to show results from these queries.
+<!--- "Analyst pages in Viva Insights" -- is this correct terminology? MD: How about pages for now? MS Style guide's preferences is try not to label UX unless it's necessary for navigation. this is not a tab,  Analyst is a left navigation section with multiple navigation options underneath it; a tab is typically used to separate two or more pages within a left navigation named page, we can discuss more when you're ready--->
 <!--- Leaving out links for now --->
 
 ## Requirements for analysts
