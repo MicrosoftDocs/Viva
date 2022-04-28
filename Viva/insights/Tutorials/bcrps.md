@@ -19,21 +19,21 @@ audience: Admin
 
 As the need to accommodate remote workers continues, employees and their organizations face challenges in making suitable adjustments. This report offers insights for successfully maintaining organizational flexibility and resilience.
 
-The Business resilience report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about how collaboration for an organization and how it's changed over time.
+The Business resilience report is available within the Productivity Score report in the Microsoft 365 admin center. It analyzes [Microsoft Graph](/graph) data to provide high-level insights about your organization collaborates and how it's changed over time.
 
 ![Business resilience option within Productivity Score.](../Images/WpA/Tutorials/bus-res-psr.png)
 
 >[!Note]
 >Organizations who have at least 100 active Exchange Online users with active [Viva Insights licenses](../personal/overview/plans-environments.md) can see this report when they register for the Productivity Score.
 
-You are encouraged to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand the following about their employees:
+We encourage you to share this report with business leaders in your organization. You can add business leaders to the Report Reader role for access to this and other Productivity Score Insights. This report helps business leaders understand how employees are:
 
 * Adapting to the shift to remote work.
 * Able to maintain work-life balance.
 * Able to effectively meet and share ideas and information remotely.
 * Maintaining their community connections.
 
-![Business resilience example report.](../Images/WpA/Tutorials/bus-res-ps.png)
+![Business resilience example report.](../Images/WpA/Tutorials/bus-res-ex.png)
 
 In the report, when it says the **last 90 days**, it’s referring to the time period of the last 90 days from when the day the report was updated. Also, where it says **90 days ago**, it’s referring to the time period starting from 180 days ago to 91 days from when the day the report was updated.
 
