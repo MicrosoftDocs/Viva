@@ -102,7 +102,7 @@ People spend a lot of time sharing their knowledge, whether through email, chat,
 
 ![Image showing referencing a topic by using a hashtag.](../media/knowledge-management/topics-hashtag-reference-enduser.png) 
 
-Check out the [Viva Topics scenario catalogue](DOWNLOADABLE) for more ideas on how organizations can use Viva Topics
+Check out the [Viva Topics scenario catalogue](https://aka.ms/TopicsScenarios) for more ideas on how organizations can use Viva Topics
 
 ## Contribute knowledge and expertise to Viva Topics
 
