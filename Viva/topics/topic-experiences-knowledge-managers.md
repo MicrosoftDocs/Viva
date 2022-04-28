@@ -32,7 +32,7 @@ Knowledge managers play a key role in building a knowledge base that Viva Topics
 
 Knowledge managers have a unique opportunity to scale their impact and demonstrate leadership by showing colleagues and leaders how knowledge can be used for better outcomes, and by helping build a quality knowledge base for their team and department.  
 
-A high-quality knowledge base can help a Knowledge Manager and their team:  
+A high-quality knowledge base can help a knowledge manager and their team:  
 
 - Spend less time searching for or recreating information that already exists 
 
@@ -100,7 +100,7 @@ There are several different ways to prioritize which topics to focus efforts on:
 Use the **Manage Topics** page in the [Topic center](topic-center-overview#home-page.md) to view and prioritize topics. Knowledge managers have access to the **Manage Topics** page where they can review topics.  
 
 [!Note] 
-If the **Manage Topics** page isn’t available to the assigned knowledge manager, the knowledge admin can get them set up in Viva Topics as a knowledge manager.  
+If the **Manage Topics** page isn’t available to the assigned knowledge manager, the knowledge administrator can get them set up in Viva Topics as a knowledge manager.  
 
 On the **Manage Topics** page, there's a quality score column and impressions column. The **quality score** reflects the amount of information that the average user will see for the information on the topic, keeping in mind that each user might see more or less information because of the permissions they might or might not have on the information in a topic. The **impressions** column displays the number of times a topic has been shown to end users. Sort each column to find the topics with the lowest quality score and highest number of impressions.  
 
@@ -158,7 +158,7 @@ Help colleagues curate topics effectively by:
 
 - Encouraging them to ask their colleagues that they think have relevant expertise to also contribute
 
-Users need topic contributor permissions to be able to edit and create new topics. If colleagues aren't able to edit or create topics, reach out to the admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).   
+Users need topic contributor permissions to be able to edit and create new topics. If colleagues aren't able to edit or create topics, reach out to the administrator to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).   
 
 Once colleagues have curated topics, **recognize** their efforts. There are ways to provide recognition to topic contributors depending on what Office 365 applications are used within the organization:  
 
