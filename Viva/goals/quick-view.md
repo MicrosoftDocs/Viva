@@ -23,9 +23,9 @@ description: "Learn about the quick view in Viva Goals."
 > [!IMPORTANT] 
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-The quick view is a pop-up that appears in the OKRs page whenever you click on an OKR/project. Instant updates to your OKRs and projects can be made by taking advantage of the options available in this view. 
+The quick view is a panel that appears on the right side of a page when you click on the title of an OKR or a project. This view provides an overview of the progress, details, alignment, children and activity for an OKR or a Project.
 
-This is the most-used view as it contains all the information pertaining to OKRs and projects that the user would need to access, which is almost all the information you would find in the detailed view. Take advantage of this view to instantly create, view, and update OKRs and projects on the fly.  
+The quick view it provides all the information pertaining to an OKR or a project that the user would need to access and helps independently navigate into the key results and projects for an objective without losing the context on the page you are on.  
 
 ## How to use the options within the Quick view  
 
