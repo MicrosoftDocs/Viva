@@ -27,7 +27,7 @@ This integration enables you to export and combine Microsoft Viva Insights colla
 
 ## Get started
 
-To use this integration, you must join the "Microsoft Graph TAP partner program" to get support for the Azure APIs that are used to access Viva Insights. To join the program, complete [the program form](https://aka.ms/GraphTAPForm) with the following details:
+To use this integration as a partner, you must join the "Microsoft Graph TAP partner program" to get support for the Azure APIs that are used to access Viva Insights. To join the program, complete [the program form](https://aka.ms/GraphTAPForm) with the following details:
 
 * For **Microsoft Graph workload**, select **Data Connect**.
 * In **Justification for TAP entry**, enter what partner data that you want to integrate with Viva Insights data through a Microsoft Graph API.
@@ -46,7 +46,7 @@ Before you can access the sample data, you’ll need to set up a test Azure envi
 
 The following is the data egress flow that's required by you as a Viva Insights partner and your customer for this integration. These steps include the previously described prerequisites for both you and your customer.
 
-1. As a partner, after you complete the [the program form](https://aka.ms/GraphTAPForm), you'll get an [Azure Resource Manager (ARM) Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/) from Viva Insights that you need to edit for your specific integration. The ARM template consists of JSON files that you need to define the infrastructure and configuration for this integration.
+1. As a partner, after you complete [the program form](https://aka.ms/GraphTAPForm), you'll get an [Azure Resource Manager (ARM) Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/) from Viva Insights that you need to edit for your specific integration. The ARM template consists of JSON files that you need to define the infrastructure and configuration for this integration.
 1. You then need to create a [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/overview) source code package, and then upload it to a storage account within your Azure subscription. The source code package must include:
 
    * The edited ARM template file with details for the [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/introduction) that's related to the resources that control the data movement.
@@ -57,9 +57,9 @@ The following is the data egress flow that's required by you as a Viva Insights 
    ![Define the managed application.](../../images/advanced/define-managed-app.png)
 
 1. The customer approves the consent request to kick-off the data extraction, and then the data drops in your partner data store. For more details, see [Move data](#move-data).
-1. Viva Insights then generates an encryption key.
+1. Viva Insights then generates an encryption key. See [Encryption and compression](#encryption-and-compression) for details.
 1. The customer then needs to provision a client secret for the application that’s stored in a secure location, such as an [Azure KeyVault](https://docs.microsoft.com/azure/key-vault/), which is required when installing the Managed application.
-1. As the partner, you then can decrypt the customer data with the encryption key.
+1. As the partner, you then can decrypt the customer data with the encryption key. See [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) for details and next steps after that to push and pull data for this integration.
 
 ## Move data
 
