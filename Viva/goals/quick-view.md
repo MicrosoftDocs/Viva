@@ -80,3 +80,7 @@ b. Clicking the ‘check-in’ button and entering your progress.
 Alternatively, you can also do all the above by selecting ‘...’ and clicking on the appropriate options. 
 
 [screenshot] 
+
+If you'd like to view all the information pertaining to an OKR and a project such as the progress, details, alignment, children and activity, you can access them from a full paged detailed view. You can get to the detail view by clicking on the link to "open in full view" from the list/ quick view or from an objective link inside a notification.
+
+[screenshot] 
