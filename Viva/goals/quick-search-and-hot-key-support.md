@@ -19,22 +19,22 @@ search.appverid:
 description: "Learn how to perform key actions with keyboard strokes, and the ability to search."
 ---
 
-# Quick Search and Hot Key Support
+# Quick Search and Hot Key Actions
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
 ## Quick Search
 
-Search for users, teams, objectives, projects and bring key actions in Viva Goals together in a seamless experience. With Quick Search, users can access commands in Viva Goals faster, with no more than two clicks.
+Search for users, teams, objectives, and projects, and bring key actions in Viva Goals together in a seamless experience. With Quick Search, users can access commands in Viva Goals faster, with no more than two clicks.
 
-With quick search, a user can:
+With Quick Search, a user can:
 
 1. Make a check-in
 
 2. Create an objective
 
-3. Search for users, teams, objectives, projects
+3. Search for users, teams, objectives, and projects
 
 ## Hot Key Support
 
