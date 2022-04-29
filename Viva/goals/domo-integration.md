@@ -83,9 +83,3 @@ Viva Goals displays the final KPI value for your reference before saving the dat
 :::image type="content" source="../media/goals/viva-goals-domo-integration-7.png" alt-text="Domo Integration 7":::
 
 It’s as easy as that! Now you know how to work smarter by integrating Viva Goals with Domo.
-
-> [!NOTE]
-> The Viva Goals - Domo Integration is currently in its BETA phase. We are building more awesome use cases that will help you achieve amazing results.
->
-> Based on the Domo API limitations, Viva Goals currently integrates with Domo at a DataSet-ID level. We are exploring user-friendly options with the Domo Support team to list cards that can help map easier to Datasets when retrieving KPI values.
-  
