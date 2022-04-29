@@ -93,24 +93,6 @@ The following colors of the progress bar indicate the status of the objective:
 
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red.
 
-## How to set up the GitLab on-premise integration
-
-To set up the GitLab on-prem integration, perform the following steps:
-
-- Sign in to your GitLab account and select the **Applications** tab within **User Settings**.
-
-- Enter the application name followed by the redirect URL - [https://app.ally.io/members/auth/gitlab/callback](https://app.ally.io/members/auth/gitlab/callback).
-
-- Check the **API checkbox** within **Scopes**.
-
-- Select **Save Application** to generate the **Application ID** and the **Secret**.
-
-- Once these are generated, have an account admin reach out to [support@ally.io](mailto:support@ally.io) or your CSM with the request to set up the integration. Mention the Application ID and the Secret when you send in your request.
-
-    :::image type="content" source="../media/goals/viva-goals-gitlab-integration-4.gif" alt-text="GitLb Integration 4":::
-
-To learn more about Viva Goals’ other integrations, visit our [Integrations page](https://help.ally.io/en/collections/30526-integrations).
-
 ## How to disable the integration
 
 The GitLab integration may also be disabled by an Admin at any time. To disable the integration as an Admin, go to **GitLab** in the **Integrations** section and select **Manage**. In the **GitLab Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
