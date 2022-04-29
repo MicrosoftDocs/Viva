@@ -19,75 +19,66 @@ search.appverid:
 description: "Learn about Review Dashboard and how you can customize it to streamline review meetings."
 ---
 
-# Review Dashboard
+# Review Dashboards
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## Dashboards for every review rhythm
+## Review Dashboards for every business review rhythm
 
-Reviews happen across every level of the organization, and oftentimes, you find yourself spearheading, presenting, or participating in different review meetings. For instance, Quarterly Business Reviews, Monthly Departmental Deep Dives, Monthly Town Hall, Weekly Team Meeting, and likewise. It becomes cumbersome to populate data for each of these reviews, and create presentations from the ground up.
+Business reviews happen across every level of the organization. Examples include quarterly business reviews, departmental deep dives, town halls and all-hands, team meetings, and board meetings. It becomes cumbersome to populate data for each of these reviews, and create presentations from the ground up.
 
-Instead of building a dashboard from scratch, you can use Review Dashboard to create a presentation-ready dashboard in no time, and present real-time data on Objectives and Key Results (OKR) progress during review meetings. With the ability to create multiple dashboards, you can save yourself from the hassle of creating or editing presentations for each review meeting, and can streamline all your review rhythms by using dashboards as the single source of truth to present live data on OKR progress always.
+Instead of building a dashboard from scratch, you can use the Viva Goals Review Dashboard to create a presentation-ready dashboard in no time, and present real-time data on Objectives and Key Results (OKR) progress during review meetings. 
+    
+With the ability to create multiple dashboards, you can save yourself from creating or editing presentations for each meeting, and use dashboards as the single source of truth to present live data on OKR progress. 
 
-So, if you're someone who spends a significant amount of time creating presentations before every review meeting, or keeps switching back and forth during a meeting to present real-time data, Review Dashboard will alleviate the challenges in running multiple OKR review meetings.
+If you spend a significant amount of time creating presentations before every review meeting, or often switch back and forth during meetings to present real-time data, Review Dashboard can help. 
     
 ## What is a Review Dashboard?
 
-Review dashboard is a customizable, presentation-ready dashboard that populates real-time data on Objectives and Key Results (OKR) progress, thereby eliminating the need to create a presentation from the ground up, every time before a review meeting.
+The Review Dashboard is a customizable, presentation-ready dashboard that populates real-time data on Objectives and Key Results (OKR) progress, thereby eliminating the need to create a presentation from the ground up, every time before a review meeting.
 
 You could be using several tools to track metrics that are closely correlated to the OKR progress within Viva Goals. Instead of juggling tools to present real-time data during reviews, Review Dashboard enables you to bring key performance indicator (KPIs), visualizations, projects, trends, and contextual information on OKR status under a single roof. This will foster a laser-focused review meeting.
 
-### Who can benefit from the Review Dashboard?
+## Who can benefit from the Review Dashboard?
 
-Anybody who spearheads a review meeting, or presents the overall OKR progress to the leadership team, can reap the benefit of our Review Dashboard. For instance,
+Anybody who leads a review meeting or presents the overall OKR progress to the leadership team can reap the benefit of our Review Dashboard. Key use cases include: 
 
-- The **executive team** can periodically facilitate effective strategic reviews with the department heads to review the OKR status at every level of the organization.
+- The **executive team** can periodically facilitate effective strategic reviews with department heads to review OKR status at every level of the organization.
 
-- The **department heads** can preside over the tactical review meetings with team managers, and present the department's OKR status to the leadership team during business reviews.
+- The **department heads** can preside over tactical review meetings with team managers, and present the department's OKR status to the leadership team during business reviews.
 
-- **Team managers** can use the dashboard to take a quick glance at the OKR progress of each team member, instead of fetching this data manually and creating a presentation from scratch.
+- **Team managers** can use the dashboard to take a quick glance at OKR progress, instead of fetching this data manually and creating a presentation from scratch.
 
-- **Individuals** can tailor make this dashboard while having one-on-ones with their respective managers to talk through the accomplishments, priorities, and blockers using real-time data.
+- **Individuals** can tailor this dashboard while having one-on-ones with their respective managers to talk through the accomplishments, priorities, and blockers using real-time data.
 
-### Accessing dashboard
+## How to access the Review Dashboard
 
-1. Every entity has its own dashboard — an organization, a team, and an individual.
+Every organization, team, and individual has their own Review Dashboard. 
 
-2. To view the company-level Review Dashboard, select your **organization’s OKRs** tab from the left pane and select the **Dashboard** tab.
+1. To view the company-level Review Dashboard, select your **organization’s OKRs** tab from the left pane and select the **Dashboard** tab.
 
-3. To view a team-level Review Dashboard, select **All Teams** from the left pane and select a **team** of your choice, then select the **Dashboard** tab.
+2. To view a team-level Review Dashboard, select **All Teams** from the left pane and select a **team** of your choice, then select the **Dashboard** tab.
 
-4. For Review Dashboards at an individual level, select **My OKRs** from the left pane and select the **Dashboard** tab. To view the dashboard of a user, select **All Users** from the left pane and select a **user** of your choice, then select the **Dashboard** tab.
+3. For Review Dashboards at an individual level, select **My OKRs** from the left pane and select the **Dashboard** tab. To view the dashboard of a user, select **All Users** from the left pane and select a **user** of your choice, then select the **Dashboard** tab.
 
     :::image type="content" source="../media/goals/RD_entity level dashboard.gif" alt-text="Entity Level Dashboard":::
 
-## Setting up the Review Dashboard
+## How to set up the Review Dashboard
 
-Review Dashboard is available for the company, teams, and individuals. To know more about the basics of a Review Dashboard, read our help article on [Introduction to Review Dashboards](https://help.ally.io/en/articles/4362674-introduction-to-review-dashboard).
+**1. Navigate to the OKR page of the company, team, or individual.** Select the **Dashboards** tab.
 
-- Navigate to the OKR page of the company, team, or individual, and select the **Dashboards** tab.
+**2. Open the dropdown list with the name 'Dashboard'.** Click **New Dashboard**. You will be provided with the options to create multiple widgets for this dashboard.  
 
-- You'll find a dropdown list with the name 'Dashboard'. Select the dropdown list to find a button to create a **New Dashboard**. You'll be provided with the options to create multiple widgets for this dashboard.  
+**3. Start adding panels and widgets to the dashboard.** A Review Dashboard can house multiple panels, and each panel comprises seven types of widgets — Objectives and Key Results (OKR) detail, OKR list, text block, key performance indicator (KPI) list, and project list. You can customize this dashboard with any number of panels and widgets of your choice, depending on the need.
 
-    > [!NOTE]
-    > If you've already created a dashboard for this entity, you'll find that here. If not, you'll find the default widgets of the dashboard that you can build on.
+**4. To edit the dashboard, select the three-dot icon in the right-end corner (next to the Present button).** You can make the following edits to the dashboard: rename the dashboard, clone the dashboard, and set a default dashboard.
 
-- Start adding panels and widgets to the dashboard.
+5. You can clone a dashboard. By cloning, you'll be able to copy the content and template for you to get started with dashboards in no time. 
 
-- To edit the dashboard, select the three-dot icon towards the right-end corner (next to the Present button). You can make the following edits to the dashboard – rename the dashboard, clone the dashboard, and set a default dashboard.
+## Available widgets for the Review Dashboard 
 
-- You can clone a dashboard, and by cloning, you'll be able to copy the content and template for you to get started with dashboards in no time. You can clone dashboards from one entity to the other, or within the same entity as well.  
-
-    For example, Amelia and Maynard are members of the Marketing team. Maynard can clone Amelia's dashboard (cloning within the same entity) to follow the same review template. On the other hand, Amos from the Customer Success team can clone Amelia's dashboard to copy the contents of commonality between the two teams (cloning into a different entity).
-
-## Types of widgets — purpose and creation
-    
-A Dashboard can house multiple panels, and each panel comprises seven types of widgets — Objectives and Key Results (OKR) detail, OKR list, text block, key performance indicator (KPI) list, and project list. You can customize this dashboard with any number of panels and widgets of your choice, depending on the need – executive business reviews, departmental meetings, tactical review meetings, and likewise.
-
-There are seven types of widgets, and each panel can have innumerable permutations and combinations of the below-mentioned widgets:
-
-### OKR list
+### 1. OKR list
 
 - This widget comes handy when you want to briefly summarize the progress made since the last review cycle.
 
@@ -112,7 +103,7 @@ To create this widget,
 
     :::image type="content" source="../media/goals/Objective list.gif" alt-text="Objective":::
 
-### OKR detail
+### 2. OKR detail
 
 - You can choose any particular objective to take the center stage, and dive deep into the progress of each key result.
 
@@ -132,7 +123,7 @@ To create this widget,
 
     :::image type="content" source="../media/goals/Objective detail.gif" alt-text="Detail":::
 
-### Text block
+### 3. Text block
 
 - This is a rich-text editor wherein you can jot down supporting notes and add descriptive comments for the OKRs.
 
@@ -150,7 +141,7 @@ To create this widget,
 
     :::image type="content" source="../media/goals/Text block.gif" alt-text="Viva goals text block":::
 
-### KPI list
+### 4. KPI list
 
 - The KPI widget will let you highlight the key metrics, and review the progress of these metrics over time.
 
@@ -164,13 +155,13 @@ To create this widget,
 
 - The next step is to start adding KPIs to this widget. You can add KPIs either automatically based on the rules you define, or manually by handpicking them. Further, you can filter these key metrics based on the time period, and the entity it belongs to.
 
-- Select how you want to view the KPIs – either in grid view or the list view.
+- Select how you want to view the KPIs, either in grid view or the list view.
 
 - In addition, you can select to display the objective that's linked with the KPI for better context.
 
 - Save, and add the widget.
 
-### Project list
+### 5. Project list
 
 - Projects are initiatives teams and users execute to achieve key results. When you connect these projects to the overarching goals, employees see the big picture on how their work is driving progression toward company goals.
 
@@ -188,25 +179,23 @@ To create this widget,
 
     :::image type="content" source="../media/goals/Projects list widget.gif" alt-text="Viva goals projects list widget":::
 
-## Customize Review Dashboard
+## How to customize your Review Dashboard
    
-After landing on the Review Dashboard page, the first step is to select the review period. Depending on your review cadence, select a period. Here’s what the review period signifies — the large bar shows the progress of the objective as on the end date of the review period, and this is compared to where it was on the start date of the review period that is indicated by the small bar.
+After landing on the Review Dashboard page, the first step is to select the review period. 
 
 :::image type="content" source="../media/goals/viva-goals-overview-of-team-okrs.png" alt-text="Overview of team OKRs":::
 
-To gain expertise on what a Review Dashboard comprises, see [components of a Review Dashboard](https://help.ally.io/en/articles/4362733-components-of-a-review-dashboard).
+### Add panels to the dashboard
 
-## Add panels to the dashboard
-
-- The default panel comprises of the objective list widget. Towards the tail end of the dashboard, you’ll have a provision to **add more panels** to the dashboard.
+- The default panel includes the objective list widget. Towards the tail-end of the dashboard, you will have the option to **add more panels** to the Review Dashboard.
 
 - As you create a panel, provide a name for the panel. For greater flexibility over building the dashboard to cater to your requirement, you can move a panel up or down.
 
-- Towards the right-end of the panel, select the More Actions icon to edit, or delete the panel.
+- On the right of the panel, select the More Actions icon to edit, or delete the panel.
 
     :::image type="content" source="../media/goals/Add panels.gif" alt-text="Add the panels":::
 
-## Add widgets to a panel
+### Add widgets to a panel
 
 - Create a new panel, and start adding widgets to the panel from the list of widgets available.
 
@@ -220,17 +209,15 @@ To gain expertise on what a Review Dashboard comprises, see [components of a Rev
 
     :::image type="content" source="../media/goals/edit widgets.gif" alt-text="Edit the widgets":::
 
-## Presenting the dashboard
+## How to present the Review Dashboard
 
-On the **top-right corner** of the dashboard, you'll find the **Present** button. Review Dashboard is a presentation-ready dashboard wherein each panel becomes a standalone slide of the presentation. This helps you in presenting real-time data on the Objectives and Key Results (OKR) progress, without juggling tools during a review meeting, which eliminates the need to export data outside Viva Goals.
+On the **top-right corner** of the dashboard, you'll find the **Present** button. Review Dashboard is a presentation-ready dashboard. Each panel becomes a standalone slide of the presentation. This helps you in presenting real-time data on OKR progress, without juggling tools during a review meeting.
 
 :::image type="content" source="../media/goals/RD_presentation mode (1).gif" alt-text="Review dashboard presentation":::
     
-## How to Clone and Move Dashboards
+## How to clone and move Review Dashboards
     
 As a team owner or team admin, often a need arises to clone a dashboard to retain the same structure across the entire organisation. One can achieve this in Viva Goals by making use of the **Clone**, **Clone and Move** and **Set as Default** functionalities on Dashboards which aid users in performing the cloning operations.
-
-## How to Clone a dashboard
 
 **Step 1:** Navigate to the **Dashboard** tab in the **My OKRs** window.
 
@@ -247,48 +234,10 @@ As a team owner or team admin, often a need arises to clone a dashboard to retai
 :::image type="content" source="../media/goals/viva-goals-clone-dashboard-2.png" alt-text="Clone Dashboard 2":::
 
 **Step 4:** By default, the name of the cloned dashboard will be "**Copy of \<dashboard name\>**". You can edit the name to easily identify the cloned dashboard, edit widgets and then select **Save**. After cloning, the user will land on the cloned dashboard.
-
-## How to Clone and Move a dashboard
-
-**Step 1:** Navigate to the **Dashboard** tab in the **My OKRs** window.
-
-:::image type="content" source="../media/goals/viva-goals-navigate-to-dashboard-2.png" alt-text="Navigate to Dashboard 2":::
-
-**Step 2:** From the highlighted drop-down menu, select the dashboard you want to clone.
-
-:::image type="content" source="../media/goals/viva-goals-choose-dashboard-2.png" alt-text="Choose Dashboard 2":::
-
-**Step 3:** Select the three dots icon and select **Clone and Move**.
-
-:::image type="content" source="../media/goals/viva-goals-clone-and-move.png" alt-text="Clone and Move":::
-
-**Step 4:** From the popup, select the **Type** drop-down menu to select the entity where the dashboards need to be cloned.
-
-- *Type*: **Individual**
-
-  - By default, Viva Goals will set your name in the **Select User** drop-down menu. Once selected, click on Save. This action will clone the dashboard for your user.
-
-    :::image type="content" source="../media/goals/viva-goals-type-individual-1.png" alt-text="Type Individual 1":::
-
-    :::image type="content" source="../media/goals/viva-goals-type-individual-2.png" alt-text="Type Individual 2":::
-
-- *Type*: **Team**
-
-  - Select the team from the **Select Team** drop-down menu where you want the dashboard to be cloned. Once selected, choose **Save**.
-
-    :::image type="content" source="../media/goals/viva-goals-select-team.png" alt-text="Select Team":::
-
-- *Type*: **Organisation**
-
-  - Select **Organization** from the **Type** drop-down menu and select **Save**.
-
-    :::image type="content" source="../media/goals/viva-goals-select-organization.png" alt-text="Select Organization":::
     
-## Share Dashboards
+## How to share Review Dashboards
     
-Dashboards can be created and shared across every level of the organization. To stay current on what’s happening in the company, and to foster transparency across teams, you can **share a dashboard across the entities – organization, team, and the user-level ones**.  
-
-### How to share a dashboard?
+Dashboards can be created and shared across every level of the organization. To stay current on what is happening in the company, and to foster transparency across teams, you can **share a dashboard across the the organization, team, and all individuals. 
 
 - Navigate to the **Dashboards** page of your desired entity.
 
@@ -306,19 +255,7 @@ Dashboards can be created and shared across every level of the organization. To 
 
 - Use the search box to start adding users, and against each user, you can determine the access level for the specified user.
 
-### Organizational dashboard
-
-:::image type="content" source="../media/goals/Share dashboards - org.gif" alt-text="Share Dashboards":::
-
-### Team dashboard
-
-:::image type="content" source="../media/goals/Share dashboards - team.gif" alt-text="Share Dashboards - Teams":::
-
-### Individual dashboard
-
-:::image type="content" source="../media/goals/Share dashboards - user.gif" alt-text="Share  Dashboards - User":::
-
-### Revoking share access
+## How to revoke share access for Review Dashboards
 
 - Navigate to the **Dashboards** page of your desired entity.
 
@@ -330,9 +267,9 @@ Dashboards can be created and shared across every level of the organization. To 
 
     :::image type="content" source="../media/goals/Share dashboards - revoke access.gif" alt-text="Share dashboards":::
 
-### Permissions
+## Permissions for Review Dashboards 
 
-The applicable permissions can be categorized for two types of dashboards — default and user-created ones. Default dashboards is provided by Viva Goals across every level of the organization, while the user-created dashboards are created and maintained by the users for an organization, team, or an individual.  
+The applicable permissions can be categorized for two types of dashboards — default and user-created ones. Default dashboards are provided by Viva Goals across every level of the organization, while user-created dashboards are created and maintained by individual users for an organization, team, or individual.  
   
 | Permissions | Organization dashboard | Team dashboard | Individual dashboard |
 |---------|---------|---------|---------|
@@ -342,25 +279,23 @@ The applicable permissions can be categorized for two types of dashboards — de
 > [!NOTE]
 > Within a private dashboard, if you make check-ins on public Objectives and Key Results (OKRs), these check-in updates will still be visible to everyone in the organization from the OKR activity feed, owing to the fact that these are public OKRs.
 
-## Frequently Asked Questions
+## Frequently asked questions about Review Dashboards
 
-1 Why am I not allowed to perform 'Clone' or 'Clone and Move'?
+**1 Why am I not allowed to perform 'Clone' or 'Clone and Move'?**
 
-A: Team members are not allowed to perform clone and move. These options will only be available if the user's role is Organization Admin, Organization Owner, Team Admin, Team Owner or the Dashboard Owner.
+Team members are not allowed to perform clone and move. These options will only be available if the user's role is Organization Admin, Organization Owner, Team Admin, Team Owner or the Dashboard Owner.
 
-2. Why is the 'Key Updates' widget empty in the cloned dashboard?
+**2. Why is the 'Key Updates' widget empty in the cloned dashboard?**
 
-A: Key Updates will not be copied during clone.
+Key Updates will not be copied during clone.
 
-3. Why is 'Clone and Move' not visible to me?
+**3. Why is 'Clone and Move' not visible to me?**
 
-A: Clone and Move will not be available for Private dashboards. However, the Clone functionality can still be used.
+Clone and Move will not be available for Private dashboards. However, the Clone functionality can still be used.
 
-4. Who can update the Key Updates on review dashboards?
+**4. Who can update the Key Updates on Review Dashboards?**
 
-A: Dashboards can be created and shared across every level of the organization. Let's take a look at better collaboration opportunities available with the review dashboards.
-
-The key updates section in the review dashboards can be edited by people other than the owner, depending on the OKRs that have been selected.
+The Key Updates section can be edited by people other than the owner, depending on the OKRs that have been selected.
 
 **For Objective List widget key updates,** all users who own the OKRs included in the objective list or any user who has edit access to the dashboard can modify or add a new key update.  
     
