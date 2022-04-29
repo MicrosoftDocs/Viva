@@ -19,16 +19,12 @@ search.appverid:
 description: "Viva Goals offers the ability to enable a workflow to gain manager approval when setting OKRs."
 ---
 
-# Manage OKRs better with OKR workflows
+# Approval workflows 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals offers the ability to enable a workflow to gain manager approval when setting OKRs.
-
-The approval workflow provides the managers of every entity level (org/team/individual) the ability to regulate how OKRs can be managed by the respective organization, team, and individuals in the organization.
-
-There are four stages as part of the workflow:
+The approval workflow in Viva Goals gives managers the ability to regulate OKR worflows in their organization. There are four stages in the OKR approval workflow:
 
 1. Planning
 
@@ -40,17 +36,13 @@ There are four stages as part of the workflow:
 
 :::image type="content" source="../media/goals/viva-goals-digital-tones.png" alt-text="Digital Tones":::
    
+Planning and Review are similar and are used to indicate status. For example, an employee might plan out their OKRs, and tell their manager when their OKRs are ready to be looked at. The manager would then set it to the Review stage.
 
-Planning and Review are similar and are used to indicate status. For example, an employee might plan out their OKRs, and tell their manager when the OKRs are ready to be looked at. The manager would then set it to the Review stage.
-
-They would then have a discussion to finalize things before the manager moves things to the Approved stage.
+They would then have a discussion to finalize OKRs before the manager moves the OKR to the Approved stage.
 
 At that point, the OKRs are **locked** and can't be changed by the employee. In order for a manager (also called the approver) to make changes, they need to go back and change the status back to review.
 
-> [!NOTE]
-> The OKR approval is done at the entity level. In other words, the status can be changed for an OKR period, and when viewing an OKR by type (Organization, Team, or Individual). The status cannot be changed when looking at specific OKRs themselves.
-
-## Enabling the Approval Workflow
+## How to enable the approval workflow
 
 Go to **Admin Tools -> Settings -> OKR Workflow -> Check Approval Workflow -> Save**.
 
@@ -58,7 +50,7 @@ Once this feature is enabled, an additional option becomes available to block ch
 
 :::image type="content" source="../media/goals/viva-goals-enabling-approval-workflow.png" alt-text="Enabling Approval Workflow":::
   
-## Changing workflow statuses of an entity's OKR
+## How to change workflow statuses for an OKR 
   
 1. Once the Approval Workflow feature is enabled, navigate to the entity for which you'd like to change the workflow status.
   
