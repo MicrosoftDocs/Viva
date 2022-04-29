@@ -62,7 +62,7 @@ The following metrics are available when creating analysis in the Advanced insig
 | | Emails sent to small group with manager | Number of emails the person sent to an internal group of eight or less people, including the sender and the sender's manager in the recipient group. | Count |
 | | IMs sent to small group with manager | Number of IMs the person sent to an internal group of eight or less people, including the sender and the sender's manager in the recipient group. | Count |
 | | Manager coaching hours one on one | Total number of hours the manager spends in one-on-one meetings with all of the manager's direct reports. | Hour |
-| | Meeting hours with manager | Number of meeting hours where the attendees include at least the person and their manager. | Hour |
+| | Meeting hours with manager | Number of meeting hours where attendees included the person, their manager, and one or more other people (not one-on-one meetings). | Hour |
 | | Meeting hours with manager one on one | Number of meeting hours involving only the person and their manager. | Hour |
 | | Meeting hours with skip level | Number of meeting hours the person attends where their manager's manager also attends the meeting. | Hour |
 | | Meetings with manager | Number of meetings where attendees include at least the person and their manager. | Count |
