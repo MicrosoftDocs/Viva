@@ -27,15 +27,13 @@ On logging into your Viva Goals account, you will be able to view and access all
 
 ## What are the various views available in Viva Goals? 
 
-There are 5 views that are available in Viva Goals: 
+There are 3 views that are available in Viva Goals: 
 
 1. [List view](#link-to-list-view-article) - The list view is the default view in Viva goals that enables creating, reviewing and tracking progress for a hierarchical list of OKRs and projects of an organisation, team or user across one or more time periods with all the related information such as title, type, owner, time period, status, progress and alignment.
 
 2. [Quick View](#link-to-quick-view-article) - A panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of the progress, details, alignment, children and activity for an OKR or a Project.
 
-3. [Detailed View](#link-to-detailed-view-article) - All the information pertaining to an OKR and a project such as the progress, details, alignment, children and activity can be accessed in a full paged detailed view. You can get to the detail view by clicking on the link to "open in full view" from the list/ quick view or from an objective link inside a notification.
-
-4. [Chart view](#link-to-chart-view-article) - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
+3. [Chart view](#link-to-chart-view-article) - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
 
 ## Various options available for an Objective
 
