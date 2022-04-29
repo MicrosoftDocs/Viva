@@ -25,59 +25,73 @@ description: "Learn about the quick view in Viva Goals."
 
 The quick view is a panel that appears on the right side of a page when you click on the title of an OKR or a project. This view provides an overview of the progress, details, alignment, children and activity for an OKR or a Project.
 
-The quick view it provides all the information pertaining to an OKR or a project that the user would need to access and helps independently navigate into the key results and projects for an objective without losing the context on the page you are on.  
+It provides all the information pertaining to an OKR or a project that the user would need to access and helps independently navigate into the key results and projects for an objective without losing the context on the page you are on.  
 
 ## How to use the options within the Quick view  
 
-To open quick view, click on the objective/key result/project that you want to update. 
+When you open the quick view you'll see it has 5 tabs:
 
-[screenshot]  
+1. Overview
 
-In this view, clicking on the title, owner, type, time period, description, and tag will enable you to make updates to them.  
+1. Key Results
 
-[screenshot] 
+1. Projects
 
-3. If you wish to add a key result/child objective/project, and there are 
+1. Child Objectives
 
-a. No existing KRs/child objectives/projects, click on ‘Add’ under each of the sections, respectively, to create new ones.  
+1. Activity
 
-[screenshot] 
+Let's look at how each of these tabs help you with all the information you require about an OKR.
 
-b. Existing KRs/child objectives/projects, click ‘Add a key result’ button to create a KR. 
+### Overview
 
-[screenshot] 
+The Overview tabs gives you a quick snapshot of the most important information you'll need. This includes:
 
-c. Existing child objectives, click ‘Add a child objective’ button to create a child objective. 
+1. Progress of the OKR - Progress shows the actual progress you've made on the current objective, the expected progress, and your OKR's progress status. You can make progress updates in two ways: dragging the progress scroll bar to input your updates or by clicking the ‘check-in’ button and entering your progress. 
 
-[screenshot] 
+2. Manage Contributions - By clicking on the ‘Manage contributions’ button, you will be able to control how much contribution each child makes to the progress of the current objective. 
 
-d. Existing projects, click ‘Add a project’ button to create a project. 
+3. Last Check-in Note - This shows you what the most recent check-in was about to add extra context to your Progress chart. If you don't see any check-in notes, it might be a good idea to add one.
 
-[screenshot] 
+4. Owner - Shows the owner of the objective.
 
-4. You can make progress updates in two ways: 
+5. Type - Shows the type of the current objective's entity. You can change the type from here to either Organization, Team, or Individual.
 
-a. Dragging the progress scroll bar to input your updates. 
+6. Time period - Displays the time period the current objective belongs to. 
 
-[screenshot] 
+7. Last Updated - Shows when the current objective was last updated.
 
-b. Clicking the ‘check-in’ button and entering your progress. 
+8. Add a description - Clicking on this allows you to add a quick blurb on what the objective is about to provide others with more context.
 
-[screenshot] 
-
-5. By Clicking on the ‘Manage contributions’ button, you will be able to control how much contribution each child makes to the parent’s progress. 
+9. Alignment - This shows you how the current objective or project is aligned to its parent entity. For example, if you're viewing a objective's quick view, you'll see how it's aligned to a parent objective, if any. If you wish to edit the alignment of one entity with another, click on ‘Edit’ button. 
 
 [screenshot] 
 
-6. If you wish to edit the alignment of the one entity with another, click on ‘Edit’ under Alignment section. 
+### Key Results
+
+The Key Results section of the quick view shows you all the key results that have been created for the current objective. You'll also see how much progress was made towards this key result, which team owns it, and the owner of the key result. If you haven't created any key results, you can use the **Add** button to create one.
 
 [screenshot] 
 
-7. Add comments to your OKRs and projects using the ‘Comment’ button to provide context regarding progress to your teammates. 
+### Projects
+
+Similar to the key results, projects section shows you all the projects that ladder up to the current objective. You'll also see how much progress has been made on the project. If you haven't created any projects, you can use the **Add** button to create one.
 
 [screenshot] 
 
-Alternatively, you can also do all the above by selecting ‘...’ and clicking on the appropriate options. 
+### Child Objectives
+
+All objectives can have a child objective aligned to them. You can view and navigate to the child objective from this section. If you haven't created any child objective, you can use the **Add** button to create one.
+
+[screenshot] 
+
+### Activity
+
+The activity section is great if you want to quickly catch up on all the things that has happened up until now that led to the current status of the OKR.
+
+[screenshot] 
+
+Alternatively, you can also do all the above by selecting ‘...’ from the list view and clicking on the appropriate options. 
 
 [screenshot] 
 
