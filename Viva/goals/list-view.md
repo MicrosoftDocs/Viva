@@ -81,6 +81,16 @@ The flat-list view, another view option under the list view, removes the hierarc
 
 8. Bulk Check-in - Make check-ins on multiple OKRs that were not updated since the last check-in reminder in a guided workflow.
 
+9. Group By - The grouping option lets you streamline your OKR and Project view even further. You can group your OKR or Project list by the following categories:
+
+a. Time period
+
+b. Entity
+
+c. Owner
+
+d. Status
+
 ## Actions on an OKR or a project in the list view
 
 1. Click on the ‘>’ expand icon next to  an objective to view all the key results, child objectives, and projects under it.  
@@ -106,3 +116,5 @@ The flat-list view, another view option under the list view, removes the hierarc
 6. Select the more options ‘...’ icon on the list view row to perform additional actions like close, postpone, edit alignment etc... on an OKR or a project.
 
 [screenshot] 
+
+
