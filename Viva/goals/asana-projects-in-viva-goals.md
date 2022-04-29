@@ -74,4 +74,3 @@ Viva Goals will periodically check on project progress in Asana, and update stat
 
 Now you can understand how your teams are executing to meet your OKRs, and dive in to unblock them. In the future, we plan to add other popular project management systems, so that Viva Goals can give you a holistic view of your business.
 
-Projects in Viva Goals are available across all our pricing plans. If you would like to have Projects enabled for your organization, please have an account admin reach out to [support@ally.io](mailto:support@ally.io) with your request.
