@@ -19,14 +19,12 @@ search.appverid:
 description: "Learn how to follow and receive progress updates on relevant OKR articles."
 ---
 
-# Follow Teams and User Progress
+# Follow Organizations, Teams and Users 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-As your company scales, there can often be many interesting Objectives and Key Results (OKRs) that are created across an organization.
-
-In order to keep track of various goals that are relevant to you, Viva Goals provides a two step process that delivers this information right to your inbox.
+In order to keep track of OKRs that are relevant to you, Viva Goals provides a two-step process that delivers this information right to your inbox.
 
 ## Step 1: Follow
 
@@ -67,5 +65,3 @@ To view or unfollow your organizations, teams, or users:
     :::image type="content" source="../media/goals/viva-goals-follow-progress-3.png" alt-text="Follow Progress 3":::
 
 This will let you adjust which organizations, teams, and users that you receive updates from.
-
-By following appropriate teams and receiving progress updates, you'll be poised to react in an agile manner to relevant OKR articles and achieve success.
