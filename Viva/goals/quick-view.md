@@ -27,7 +27,7 @@ The quick view is a panel that appears on the right side of a page when you clic
 
 It provides all the information pertaining to an OKR or a project that the user would need to access and helps independently navigate into the key results and projects for an objective without losing the context on the page you are on.  
 
-## How to use the options within the Quick view  
+## Available actions
 
 When you open the quick view you'll see it has 5 tabs:
 
