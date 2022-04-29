@@ -1,9 +1,9 @@
 ---
-title: Chart View in Viva Goals
+title: "Chart View"
 ms.reviewer: 
 ms.author: vsreenivasan
 author: ms-vikashkoushik
-manager: 
+manager: <TBD>
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -12,44 +12,30 @@ ms.service: viva
 ms.subservice: viva-goals
 localization_priority: Priority
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
 search.appverid:
 - MET150
-description: "Learn about the chart views in Viva Goals."
+
+description: "Learn how Chart View feature is a powerful visualization tool for your OKRs."
 ---
 
-# Chart View in Viva Goals
+# Chart View
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
+Viva Goals’ Chart View feature is a powerful tool that provides an easy-to-consume visualization of objectives and the alignment between them. The Chart View lets you see how different teams and the organization’s Objectives and Key Results (OKRs) are structured in a glance:
 
-[screenshot] 
+:::image type="content" source="../media/goals/viva-goals-chart-view-1.png" alt-text="Chart View 1":::
 
-The Chart view is extremely helpful during big meetings such as Town Halls where you would be required to quickly present the OKRs & projects along with their alignment and an overview of their progress. 
+A stacked card indicates that the objective has key results - you can select a stacked card to see the key results and navigate further down the hierarchy. Watch organization-level key results turn into department-level objectives, while department-level key results cascade into team-level objectives and so on.
 
-## How to use the Chart view 
+:::image type="content" source="../media/goals/Stacked Chart.gif" alt-text="Chart View  Stacked Chart":::
 
-To switch to chart view from the default view: 
+To view the objective in more detail, select the **See Details** option.
 
-1. Select the ‘View chart’ button on the OKRs page under the ‘View options’ dropdown. 
+:::image type="content" source="../media/goals/viva-goals-chart-view-3.png" alt-text="Chart View 3":::
 
-[screenshot] 
+To enable chart view for the organization’s OKRs or for a team or an individual, select the **View chart** option from the **View Options** drop-down:
 
-2. Alternatively, you can access the chart view from within the detailed view. 
-
-[screenshot] 
-
-3. Now, the tree-like chart consisting of all the OKRs and projects will appear. 
-
-[screenshot] 
-
-4. Select an objective, key result, or project to expand the nesting a level deeper. 
-
-5. Click on the ‘Back’ button to return to the previous nesting level. 
-
-6. Select the close button ‘x’ to exit the chart view. 
-
-[screenshot] 
-
+[screenshot]
