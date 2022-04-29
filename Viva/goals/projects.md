@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how to track your projects and tasks directly in Viva Goals."
 ---
 
-# Projects in Viva Goals
+# Projects
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
@@ -28,9 +28,9 @@ Projects help you keep track of all the work your organization is executing to a
 
 There are **two ways of adding Projects in Viva Goals** – you can bring projects to Viva Goals through an integration with the project management tool you use, or you can create a project with a task list directly in Viva Goals.
 
-## How to add Projects directly in Viva Goals?
+## How to add Projects directly in Viva Goals
 
-- From the list view of your OKRs, you'll find an option to **Add Project** underneath the corresponding objective or key result.
+- From the list view of your OKRs, you will find an option to **Add Project** underneath the corresponding objective or key result.
 
 - Alternately, you can add projects from the **Projects tab** where your entire list of projects will be populated.
 
@@ -70,25 +70,19 @@ Native projects can be seen on the OKR and Projects tabs for your entity showing
 
 :::image type="content" source="../media/goals/viva-goals-native-projects-progress.png" alt-text="Native Projects Progress":::
     
-## Clone Projects
+## How to clone Projects
     
-Cloning projects is a quicker way of creating new projects while retaining the existing settings, and tasks pertaining to the cloned project. In addition, towards the end of a stipulated time period (for instance, end of a quarter), you might not have been able to make desired progress on a few projects, and might not have been able to get started on a few of them. You can carry unfinished projects in Viva Goals to the subsequent time period by simply cloning them. This is an efficacious method to roll over unfinished projects than editing the time period.
+Cloning projects is a quicker way of creating new projects while retaining the existing settings, and tasks pertaining to the cloned project. Towards the end of a stipulated time period (for instance, end of a quarter), you might not have been able to make desired progress on a few projects, and might not have been able to get started on a few of them. You can carry unfinished projects in Viva Goals to the subsequent time period by simply cloning them. This is an efficacious method to roll over unfinished projects than editing the time period.
 
-In this article, we'll show you when to clone projects, and how to do it.
+### When to clone Projects
 
-### When to clone Projects?
+Cloning projects makes sense for you when: 
 
-Here’s when cloning might come in handy:
+1. You need to set new projects for the current time period quickly
 
-1. A quicker way to set new Projects for the current time period
+2. You need to carry over unfinished projects to a new time period
 
-2. An easier way to carry over unfinished Projects to a new time period
-
-Say, you’ve spent the better part of your planning phase carefully creating Projects, delegating ownership, and adding due dates, that aligns with the Objectives and Key Results (OKRs). Within a team, most of them will have similar Projects based on the functionality — for instance, the Product Marketing Team will have projects that are similar, but support different features because the rollout plan for a feature release will remain the same. Instead of creating Projects all over again, you can clone the projects, make some quick edits, and hit the ground running. The ability to clone projects makes it simple to get set up quickly, while still allowing the flexibility for personalization.
-
-While you’re scoring and closing OKRs, you stumble upon unfinished projects, which you would like to continue working on, and so you decide to roll them over to the subsequent time period — for instance, you have an objective to increase brand awareness by publishing 10 blogs. Owing to various reasons, you’re unable to publish 10, and end up getting five blogs out the door. You can clone this project to the next quarter, and continue to work on the remaining five blogs to accomplish your target. By cloning a project, you’re saving the progress in your current time period, and resetting the progress for the next time period. This is way more effective than editing the time period of projects.
-
-### How to clone Projects?
+### How to clone Projects
 
 1. Against a specific project, select **More actions** icon, and select **Clone**.
 
@@ -105,13 +99,13 @@ While you’re scoring and closing OKRs, you stumble upon unfinished projects, w
     > [!NOTE]
     > Unaligned OKRs will be displayed only in the Projects dashboard, and not in the current time period view. Unless you align the project to an objective, you will not be able to see the Project in the current time period view.
     
-## Projects Dashboard
+## How to access your Projects Dashboard
 
-Apart from being aligned to OKRs, Projects also get their own dashboard in Viva Goals, so that you can monitor your execution. The dashboard is available at the individual, team and organization levels.
+In addition to being aligned to OKRs, projects also get their own dashboard in Viva Goals, so that you can monitor your execution. The dashboard is available at the individual, team and organization levels.
 
 :::image type="content" source="../media/goals/Projects Tab.gif" alt-text="Project Creation Projects Tab":::
     
-## Project progress and status
+## How to understand Project progress and status
 
 Progress in Viva Goals is measured either as percentage complete or a key performance indicator (KPI) metric (for example, 10 out of 15 sales calls made). Projects currently use only the percentage complete method, as measured by tasks completed within the project.
 
@@ -123,7 +117,7 @@ Viva Goals compared the progress of an item with its expected progress and compu
 
 **Project owners can do manual check-ins to provide the progress values (or) connect to a data integration to automatically update progress.**
 
-You can choose to have a project without any tasks in Viva Goals and just check in manually to update the project progress.
+You can choose to have a project without any tasks in Viva Goals and check in manually to update the project progress.
 
 :::image type="content" source="../media/goals/No Task list.gif" alt-text="Project Progress No Task list":::
 
@@ -137,58 +131,26 @@ If you would like to see the individual tasks in your project, you can create a 
 
 - **[Wrike Projects](https://help.ally.io/en/articles/4510436-wrike-projects-in-ally-io)**
     
-## Best practices when thinking about Projects
-    
-A common mistake when writing Objectives and Key Results (OKRs) is to provide an execution plan instead of signing up for business outcomes. Let's take an example; Imagine a fictional organization that is developing a video gaming platform. They might have aspirations of taking over the North American video gaming market. But their OKRs might look like this:
+## How to structure objectives, key results, and Projects in Viva Goals
 
-**Objective:** Become the best gaming platform in North America.
-
-- **Key Result:** Ship new version of gaming platform
-
-- **Key Result:** Deliver social gaming features
-
-While the organization can certainly achieve these key results, there's no guarantee accomplishing them will result in the objective being achieved. They are, at best, steps along the way to achieve your key results. In many cases, these steps are necessary before the key results can be achieved, and need to be monitored as much as the key results are.
-
-In Viva Goals, we call these undertakings Projects - they're the outputs delivered by your organization's execution, whereas the key results are **outcomes**. Projects connect the strategic to the tactical by helping you keep track of your execution and making sure there are no bottlenecks. Ideally, project progress must *not* roll up to the objective, so you can stay focused on achieving the actual outcomes - the key results.
-
-Coming back to our fictional organization, here's the same OKR written with projects in the picture:
-
-**Objective:** Become the best gaming platform in North America.
-
-- **Key Result:** Achieve 150M Monthly Active Users
-
-- **Key Result:** Exceed 90% User Retention
-
-- **Project:** Ship new version of gaming platform
-
-- **Project:** Deliver social gaming features
-
-- **Project:** Deliver high speed gaming backbone network
-
-You can see that the projects aren't results themselves, but the work the company needs to do in order to get to the key results, or maximize their chances of achieving them. By showing key results and projects in a single view like this, an organization can have a conversation both about its strategy and the execution needed to get the strategic results.
-    
-### Structuring Objectives, Key Results, and Projects
-
-The recommended structure is to have an Objective, with the Key Results and Projects under it. This way, you can see the outcomes needed to meet the objective (the key results) and the output needed to achieve those outcomes (the projects). Projects are always placed after all the objectives and key results at each level of the hierarchy. For example:
+The recommended structure for OKRs and projects in Viva Goals is to have key results and projects under the objective. This way, you can see the outcomes needed to meet the outcomes (the key results) and the output needed to achieve those outcomes (the projects). Projects are always placed after all the objectives and key results at each level of the hierarchy. 
 
 :::image type="content" source="../media/goals/viva-goals-structure-objectives-key-results-projects.png" alt-text="Structure Objectives, Key Results, and Projects":::
 
-### FAQs
+## How to manually order the tasks of a Project
 
-1. How to manually order the tasks of a Project?
-
-A: Users can sort the Tasks by *Name*, *Assignee* or *Due Date*.
+Users can sort the tasks by *Name*, *Assignee* or *Due Date*.
 
 Select either **Name**, **Assignee** or **Due Date** columns to expand the sort options.
 
 > [!NOTE]
 > This is possible only in the Full View of the Project that contains Tasks.
 
-2. Can I add a Due Date for a Task that is later than the end date of the Project?
+## How to add a due date for a task within a Project
 
-A: We can add Tasks to a Project that are due even after the Project Time Period.
+You can add a due date to a task within a project, even if the task is due after the project time period ends. 
 
-For example, if the Project has been created for Q4 2021 (October 2021 to December 2021), the user will be able to add a task with a Due Date of January 2022.
+For example, if the project has been created for Q4 2021 (October 2021 to December 2021), the user will be able to add a task with a due date of January 2022.
 
 :::image type="content" source="../media/goals/viva-goals-due-date-for-task.png" alt-text="Due date for task":::
 
@@ -197,18 +159,16 @@ For example, if the Project has been created for Q4 2021 (October 2021 to Decemb
 > 
 > :::image type="content" source="../media/goals/viva-goals-due-date-after-project-end-date.png" alt-text="Due date is after project end date":::
 
-3. Where can I find my tasks in Viva Goals?
+## How to find tasks in Viva Goals
 
-A: The tasks are created for the Projects in Viva Goals and you'll find them listed under the Projects section.
+You will find tasks listed under the Projects section.
 
-4. Is my key result really a project?
+## The difference between Key Results and Projects
 
-A: Most key results that aren't KPI metric based are probably projects. The main questions to ask are:
+Most key results that aren't KPI metric-based are projects. The main questions to ask are:
 
-- Is this key result really an outcome for the business, or is it an output on the way to an outcome?
+- Is this key result really an outcome for the business, or is it an output (something you do) on the way to an outcome (the result)?
 
 - Can I follow the parent objective with **as measured by** and complete it with this key result in a convincing manner?
 
 One good indicator that a key result may really be a project is if it's percentage-completion based and doesn't have any children. Another indicator is if the language is delivery-oriented, look for words like **Ship ...**, **Deliver ...**, **Implement...**.
-
-If you want to try out your key result as a project or vice-versa, Viva Goals offers an easy way to do so without losing your updates to the key result or project.
