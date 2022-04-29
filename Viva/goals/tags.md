@@ -24,7 +24,9 @@ description: "Learn how to add tags to OKRs & Projects to simplify navigation an
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-You can tag your Objectives and Key Results (OKRs) and projects in Viva Goals to group similar OKRs/projects under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs/projects and generate targeted reports - in this article, we'll cover how to add tags, search by tag and use the explorer to make reports with the Tags filter.
+You can tag your OKRs and projects in Viva Goals to group similar OKRs and projects under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs and projects and generate targeted reports.
+    
+In this article, we will cover how to add tags, search by tag and use the explorer to make reports with the Tags filter.
 
 ## Add a Tag
 
@@ -34,7 +36,7 @@ You can tag your Objectives and Key Results (OKRs) and projects in Viva Goals to
 
 3. You can select **x** to remove the tag at any time.
 
-In this example, we're tagging OKRs related to **Customer Obsession**, the responsibilities for which are distributed across teams and individuals - it becomes strategically valuable to group these related OKRs together.
+In this example, we're tagging OKRs related to **Customer Obsession**, the responsibilities for which are distributed across teams and individuals. It becomes strategically valuable to group these related OKRs together.
 
 :::image type="content" source="../media/goals/viva-goals-add-a-tag.png" alt-text="Add a tag":::
 
