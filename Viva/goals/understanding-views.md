@@ -47,7 +47,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 [screenshot highlighting an objective bubbling up to parent objective] 
 
-### How to understand the hierarchical structure in the list view 
+### Understanding list view hierarchy
 
 **There are three levels of hierarchy in an organization:**
 
@@ -57,7 +57,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 - Individual OKRs & projects  
 
-**The typical hierarchical structure in Viva Goals is as follows:**
+**The typical hierarchical structure in Viva Goals is:**
 
 `Image for Katie
 
