@@ -28,7 +28,7 @@ Viva Goals can integrate with Google BigQuery to automatically update your OKRs.
 
 ## Setting up BigQuery integration
 
-Viva Goals uses a [service account with OAuth 2.0](https://developers.google.com/identity/protocols/oauth2/service-account) to call into the Google BigQuery APIs. For the BigQuery integration to work, you need to add Viva Goals' service account (ally-bigquery-integration@okrcentral-production.iam.gserviceaccount.com) to your BigQuery project and provide the required access & permissions. Read on for step by step instructions.
+Viva Goals uses a [service account with OAuth 2.0](https://developers.google.com/identity/protocols/oauth2/service-account) to call into the Google BigQuery APIs. For the BigQuery integration to work, you need to add Viva Goals' service account (ally-bigquery@ally-346417.iam.gserviceaccount.com) to your BigQuery project and provide the required access & permissions. Read on for step by step instructions.
 
 ## Create a IAM role for BigQuery 
 
@@ -70,7 +70,7 @@ Now it's time to assign this role to Viva Goals' service account so that Viva Go
 
 3. In the Add screen add the Viva Goals' service account email (mentioned below) into the members field.
 
-    - ally-bigquery-integration@okrcentral-production.iam.gserviceaccount.com
+    -  ally-bigquery@ally-346417.iam.gserviceaccount.com
 
 4. Select **Save** to complete setup.
 
