@@ -59,7 +59,7 @@ Objective/Parent objective
 
    -> Project`
   
-## Various options available in the List view 
+## Available actions
 
 1. Time periods - Time periods are the OKR operating periods or cycles. Every OKR or Project is always tagged to a particular time period and has a start & end date. Time periods are key to help you navigate and find OKRs & Projects for an organization, team or a user.
 
@@ -73,25 +73,21 @@ Objective/Parent objective
 
 6. Multi-select - Use the checkbox on the list view row to select more than one OKR or a Project to perform bulk edit, move and clone actions.
 
-7. View options - From this drop-down, you can select to show more info, expand all OKRs by default, show OKRs in a flat view, and compare to a time period.
-
-The expand view is a time saving view option under the list view which when enabled expands all the top-level objectives listed in the OKRs page, at once, to display one level of children. 
-
-The flat-list view, another view option under the list view, removes the hierarchical structure found in the default view in the OKRs page and displays them all as a flat list. That is, in this view, the parent and child OKRs are all on the same level and are listed one after another without any nesting. 
+7. View options - From this drop-down, you can select to show more info, expand all OKRs by default, show OKRs in a flat view, and compare to a time period. The expand view is a time saving view option under the list view which when enabled expands all the top-level objectives listed in the OKRs page, at once, to display one level of children. The flat-list view, another view option under the list view, removes the hierarchical structure found in the default view in the OKRs page and displays them all as a flat list. That is, in this view, the parent and child OKRs are all on the same level and are listed one after another without any nesting. 
 
 8. Bulk Check-in - Make check-ins on multiple OKRs that were not updated since the last check-in reminder in a guided workflow.
 
 9. Group By - The grouping option lets you streamline your OKR and Project view even further. You can group your OKR or Project list by the following categories:
 
-a. Time period
+   a. Time period
 
-b. Entity
+   b. Entity
 
-c. Owner
+   c. Owner
 
-d. Status
+   d. Status
 
-## Actions on an OKR or a project in the list view
+## OKR or project actions
 
 1. Click on the ‘>’ expand icon next to  an objective to view all the key results, child objectives, and projects under it.  
 
