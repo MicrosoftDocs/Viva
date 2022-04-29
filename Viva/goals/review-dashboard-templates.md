@@ -24,20 +24,18 @@ description: "Learn about templates that you can use as an inspiration while cre
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Reviews happen across multiple levels in an organization and Dashboards in Viva Goals help you run these review meetings effectively.
+Business reviews happen across multiple levels in an organization. Review Dashboards in Viva Goals help you run these review meetings effectively.
 
-Several customers have used Review Dashboards to effortlessly create a presentation-ready dashboard and present updated and real-time data during their Objectives and Key Results (OKR) meetings.
-
-In this article, we’re going to share with you some templates that you can use as an inspiration while creating your next Dashboard.
+Read on to learn about the templates that you can leverage when creating your next Review Dashboard.
 
 ## Quarterly business review template
 
 ### Audience
 
-The quarterly business review is often run by Department heads and team managers.
+The quarterly business review is typically run by department heads and team managers.
 
 > [!NOTE]
-> The quarterly business reviews can also be run by the C-suite executives for a company wide review meeting.
+> The quarterly business reviews can also be run by the executive leaders for a company-wide OKR review meeting.
 
 ### Purpose
 
@@ -106,11 +104,11 @@ It’s good practice to focus on leading and lagging indicators, progress on goa
 The monthly business review is often run by Department heads and team managers.
 
 > [!NOTE]
-> The monthly business reviews can also be run by the C-suite executives for a company wide review meeting.
+> The monthly business reviews can also be run by executive leaders for a company-wide review meeting.
 
-### Purpose of monthly business review
+### Purpose 
 
-The purpose of the monthly business review meeting is to check-in on the progress everyone is making and see how teams can course-correct if needed to achieve their goals.
+The purpose of the monthly business review meeting is to check-in on progress and see how teams can course-correct if needed to achieve their goals.
 
 It’s good practice to focus on leading and lagging indicators, progress on goals, and the performance of individual teams within the department.
 
@@ -150,15 +148,15 @@ It’s good practice to focus on leading and lagging indicators, progress on goa
 
 :::image type="content" source="../media/goals/viva-goals-key-metrics.png" alt-text="Key Metrics":::
 
-## Weekly Department Meeting Template
+## Weekly department meeting template
 
 ### Audience for weekly business review
 
-The weekly business review can be run by department heads, team managers, and level-2 managers (for example, managers who run different regions for sales or different line of products in product).
+The weekly business review is typically run by department head and team managers. 
 
-### Purpose of weekly business review
+### Purpose 
 
-The purpose of the weekly business review meeting is to focus on leading indicators, get to the “why” of hot issues, keep a tab on the goals and KPI metrics, track project initiatives closely, and understand priorities for upcoming week.
+The purpose of the weekly business review meeting is to focus on leading indicators, get to the “why” of hot issues, keep a tab on OKRs and KPI metrics, track project initiatives closely, and understand priorities for the upcoming week.
 
 ### Preview for the full template
 
@@ -193,8 +191,8 @@ The purpose of the weekly business review meeting is to focus on leading indicat
 
 | Widget Type | Widget Name | Usage | Benefit |
 |---------|---------|---------|---------|
-| Project List | Project Initiatives | Lets everyone periodically review Projects in the context of OKRs and gain greater visibility into work that’s driving the progress of your OKRs. | Bringing focus on Projects into your weekly review meeting ensures your team works on the right projects that drive results. |
+| Project List | Project Initiatives | Lets everyone periodically review Projects in the context of OKRs and gain greater visibility into work that’s driving the progress of OKRs. | Bringing focus on Projects into your weekly review meeting ensures your team works on the right projects that drive results. |
 
 :::image type="content" source="../media/goals/viva-goals-project-initiatives.png" alt-text="Project initiatives":::
 
-What we showed are some example templates that you can set up and customize to meet your company's needs. For detailed steps on how to set up a dashboard, see [know-how of a Review Dashboard](https://help.ally.io/en/articles/4362767-know-hows-of-review-dashboard). You can now get started with creating separate dashboards for each review meeting.
+For detailed steps on how to set up Review Dashboards, visit our Review Dashboards article.
