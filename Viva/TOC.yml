@@ -9,10 +9,10 @@ items:
     - name: Getting started with Microsoft Viva 
       href: getting-started-with-microsoft-viva.md
       items:
-    - name: Plan for all Viva modules  
-      href: plan-for-all-viva-modules.md 
-    - name: Learn how to combine modules   
-      href: learn-how-to-combine-modules.md    
+      - name: Plan for all Viva modules  
+        href: plan-for-all-viva-modules.md 
+      - name: Learn how to combine modules   
+        href: learn-how-to-combine-modules.md    
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
     - name: Microsoft Viva admin roles and tasks
