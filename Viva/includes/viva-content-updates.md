@@ -20,6 +20,19 @@
 | 4/28/2022 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | modified |
 | 4/28/2022 | [Business resilience report in the Productivity Score report](/viva/insights/tutorials/bcrps) | modified |
 | 4/28/2022 | [Restrict access to topics in Microsoft Viva Topics](/viva/topics/restrict-access-to-topics) | modified |
+| 4/25/2022 | [Use audience targeting in Viva Connections to personalize the experience](/viva/connections/use-audience-targeting-in-viva-connections) | added |
+| 4/25/2022 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
+| 4/26/2022 | [Add learning management systems for Microsoft Viva Learning](/viva/learning/configure-lms) | modified |
+| 4/26/2022 | [Add other content providers for Microsoft Viva Learning](/viva/learning/configure-other-content-sources) | modified |
+| 4/27/2022 | [Business resilience report in the Productivity Score report](/viva/insights/tutorials/bcrps) | modified |
+| 4/28/2022 | ExampleGroupQuery | removed |
+| 4/28/2022 | ExampleMeetingHASHQuery | removed |
+| 4/28/2022 | ExampleMeetingQuery | removed |
+| 4/28/2022 | ExamplePersonQuery | removed |
+| 4/28/2022 | [Praise with Viva Insights](/viva/insights/personal/teams/viva-insights-praise) | modified |
+| 4/28/2022 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | modified |
+| 4/28/2022 | [Business resilience report in the Productivity Score report](/viva/insights/tutorials/bcrps) | modified |
+| 4/28/2022 | [Restrict access to topics in Microsoft Viva Topics](/viva/topics/restrict-access-to-topics) | modified |
 
 
 ## Week of April 18, 2022
