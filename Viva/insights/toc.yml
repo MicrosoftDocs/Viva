@@ -451,7 +451,7 @@ items:
             items:
               - name: Download a query report in UTF-8 format
                 href: tutorials/Download-UTF8-query-report.md
-              - name: Workplace Analytics 500 error
+              - name: Advanced insights 500 error
                 href: tutorials/Wpa-tool-500-error.md
               - name: Meeting exclusion rules - large meeting limitation
                 href: tutorials/meeting-exclusion-250.md                      

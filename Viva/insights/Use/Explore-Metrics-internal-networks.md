@@ -1,9 +1,9 @@
 ---
 
-title: Explore internal network metrics in Workplace Analytics
-description: An overview of the internal network collaboration data available in Workplace Analytics
+title: Explore internal network metrics in Viva Insights
+description: An overview of the internal network collaboration data available in advanced insights with Microsoft Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
@@ -23,7 +23,7 @@ audience: Admin
 
 ## Access to Internal networks
 
-**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks) to view it in Workplace Analytics.
+**Internal networks** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Internal networks](https://workplaceanalytics.office.com/en-us/Home/ChangeManagement/InternalNetworks) to view it in Advanced insights.
 
 ## Network size and network breadth
 
@@ -74,4 +74,4 @@ Network breadth can indicate:
 ## Related topics
 
 * [Page settings](../use/explore-page-settings.md)
-* [Workplace Analytics charts](../use/chart-types.md)
+* [Advanced insights charts](../use/chart-types.md)

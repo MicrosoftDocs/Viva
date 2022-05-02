@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
-title: Integrate Slack data
+title: Integrate Slack data with Viva Insights
 description: Learn how to join Viva Insights query data with collaboration data from a third-party tool
 author: lilyolason
 ms.author: v-lilyolason
@@ -17,7 +16,7 @@ manager: helayne
 audience: Admin
 ---
 
-# Integrate Slack data
+# Integrate Slack data with Viva Insights
 
 You can join Viva Insights query data with collaboration data from a third-party tool. In this article, we use Slack as an example of an end-to-end pipeline for Viva Insights data and a third-party data set. For additional instructions on how to use Viva Insights, refer to the [Viva Insights training resources](/learn/browse/?products=m365%2Cviva-insights&expanded=viva).
   
