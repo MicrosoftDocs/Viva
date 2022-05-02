@@ -28,7 +28,7 @@ As an admin user of Viva Goals, you'll have the ability to work on behalf of oth
 This article describes:
 
 - [How to use Work on Behalf](#how-to-use-work-on-behalf-feature)
-- [When to use Work on Behalf](#when-to-use-work-on-behalf-feature)
+- [When to use the Work on Behalf](#when-to-use-the-work-on-behalf-feature)
 
 ## How to use Work on Behalf feature
 
