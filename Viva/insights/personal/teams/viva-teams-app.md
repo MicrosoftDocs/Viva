@@ -43,12 +43,12 @@ The insights for individuals that this app presents are completely personal and 
 The personal insights and actions in the Viva Insights app are based on your Exchange Online mailbox data, such as email and calendar data. The insights are derived from data that is already available to you in your Exchange Online mailbox. For example, if you want to determine what commitments you made to others, you could manually review each email in your mailbox. The Insights app simply saves you from this tedious process.
 
 >[!Note]
->To get access to the Viva Insights app, you must have an Exchange Online license.
+>To get access to the Viva Insights app, you must have an Exchange Online license and access to Teams.
 
 ## Related topics
 
 * [Viva Insights Home](viva-insights-home.md)
 * [Privacy guide](viva-teams-app-privacy.md)
-* [Install the Viva Insights app](viva-teams-app-install.md)
+* [Discover and pin the Viva Insights app](viva-teams-app-install.md)
 * [FAQ](viva-teams-app-faq.md)
 * [Admin tasks](viva-teams-app-admin-tasks.md)

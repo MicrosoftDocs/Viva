@@ -1,7 +1,7 @@
 ---
 
-title: Boost employee engagement with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and improve employee engagement
+title: Boost employee engagement with Viva Insights
+description: Learn how to use Viva Insights data to analyze and improve employee engagement
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -92,7 +92,7 @@ Pressure to "always be on" and long hours can lead to employee burnout. The amou
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
 
-* Use [MyAnalytics wellbeing data](../personal/Use/wellbeing.md) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
+* Use [personal wellbeing data](../personal/Use/wellbeing.md) to learn about after-hours work habits and encourage your team to take time to disconnect and recharge.
 * Use [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 
 For more best practices and how to define and share working hours, see [Best practices for wellbeing](../tutorials/gm-wellbeing.md).
@@ -104,7 +104,7 @@ Cultivating autonomy and development are essential for employee engagement. By e
 [How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that the "key to improving individual productivity is to eliminate or delegate unimportant tasks and replace them with value-added ones." Ways to empower employees:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
-* Use [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help identify ways to support team behavior.
+* Use [Manager insights in the advanced insights app](../manager-insights/introduction.md) to help identify ways to support team behavior.
 
 For more best practices and how to set team meeting rules and policy, see [Best practices for meetings](../tutorials/gm-meetings.md).
 
@@ -116,7 +116,7 @@ According to this article about [High-performing teams need psychological safety
 
 Ways to support team cohesion:
 
-* Ask employees to use [MyAnalytics network features](../personal/use/network.md) to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
+* Ask employees to use [personal network features](../personal/use/network.md) to add people to their "important people" list, which enables suggestions to meet and reminders to respond to emails and complete tasks from them.
 * Host informal gatherings, such as virtual opportunities for your team to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities, such as online trivia games.
 * Strengthen connections with a [Teams channel](https://www.microsoft.com/microsoft-365/microsoft-teams/group-chat-software) for group communications and chats.
 
@@ -125,4 +125,4 @@ For more best practices and how to open your network to your teams, see [Best pr
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions for advanced insights](metric-definitions.md)

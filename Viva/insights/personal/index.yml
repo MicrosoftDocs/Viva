@@ -2,7 +2,7 @@
 
 title: Viva Insights documentation # < 60 chars
 summary: Viva Insights provides personal productivity insights about how people spend their time and who they spend it with. # < 160 chars
-brand: workplace-analytics
+brand: m365
 
 metadata:
   title: Viva Insights documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
@@ -14,8 +14,8 @@ metadata:
   - MET150 
   ms.topic: hub-page # Required
   author: madehmer #Required; your GitHub user alias, with correct capitalization.
-  ms.author: helayne #Required; microsoft alias of author; optional team alias.
-  ms.date: 08/25/2021 #Required; mm/dd/yyyy format.
+  ms.author: v-lilyolason #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/14/2022 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
 
 highlightedContent:
@@ -30,12 +30,12 @@ highlightedContent:
     - title: Setup
       itemType: deploy
       url: ./setup/configure.md
-    - title: Adoption
-      itemType: tutorial
-      url: ./use/mya-adoption/adopt-myanalytics.md
-    - title: Using the dashboard
+    - title: Using Viva Insights in Teams
       itemType: how-to-guide
-      url: ./use/dashboard-2.md
+      url: ./teams/viva-teams-app.md
+    - title: Using the Briefing
+      itemType: tutorial
+      url: ./Briefing/be-overview.md
     - title: Frequently asked questions
       itemType: reference
       url: ./overview/mya-faq.md

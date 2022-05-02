@@ -27,7 +27,7 @@ To analyze a business process:
 
 1. [Define a dataset](#define-a-dataset) &ndash; Make sure that you're analyzing only data that is relevant in every aspect, such as organizationally and geographically.
 2. [Define a business process](#define-a-business-process) &ndash; Define the business process that you want to analyze within the dataset that you defined in the preceding step.
-3. [Analyze a business process](#analyze-a-business-process) &ndash; Compose and run a Workplace Analytics query in which you select the business process as a parameter.
+3. [Analyze a business process](#analyze-a-business-process) &ndash; Use the Query designer and select the business process as a parameter.
 
 The following sections describes this analysis.
 
@@ -72,7 +72,7 @@ For example, the following steps define analysis data for meetings of a particul
 
    ![Add an Attendee filter.](../images/wpa/tutorials/attendee.png)
 
-9. For **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights or Workplace Analytics admin has uploaded.)
+9. For **Organizer's**, select **FunctionType**, **Equals**, and **Sales**. (The choices that are available are determined by the [organizational data](../setup/prepare-organizational-data.md) that the Viva Insights admin has uploaded.)
 
     ![Sales as function type.](../images/wpa/tutorials/function-type-sales.png)
 
@@ -97,12 +97,12 @@ To view or delete a dataset, go to **Analyze** > **Business process analysis** >
 
 ## Define a business process
 
-Before you can analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in the **Analyze** area of Workplace Analytics:  
+Before you can analyze a business process within your organization, you need to define it. You define a business process by assembling a list of keywords that are typically found in meeting subject lines associated with that process. This list defines the business-process filter. You select these keywords on the **New business process** page in **Analyze**:  
 
 ![Biz process start page.](../images/wpa/tutorials/start-page.png)
 
 >[!Note]
->Currently, you can use only English keywords in the process of defining a business process. This holds true even if your instance of Workplace Analytics is in a language other than English.
+>Currently, you can use only English keywords in the process of defining a business process. This holds true even if your instance of the app is in a language other than English.
 
 ### Business process steps
 
@@ -119,7 +119,7 @@ To create a business process, you need to do the following:
 
 Do the following to create and name a new business process.
 
-1. In Workplace Analytics, select **Analyze** > **Business process analysis**.
+1. In the app, select **Analyze** > **Business process analysis**.
 
    ![business process list view.](../images/wpa/tutorials/add-biz-process.png)
 
@@ -210,7 +210,7 @@ To view or delete a business process, go to **Analyze** > **Business process ana
 
 ## Analyze a business process
 
-You analyze _real-world_ business processes by running Workplace Analytics meeting or person queries. As you do this, you use a _digital_ "business process" &mdash; the kind that you defined in [Business process steps](#business-process-steps) &mdash; as a filter.
+You analyze _real-world_ business processes by running meeting or person queries through the app's Query designer. As you do this, you use a _digital_ "business process" &mdash; the kind that you defined in [Business process steps](#business-process-steps) &mdash; as a filter.
 
 Design your query and choose its metrics so that filtering by this digital business process focuses the query on the set of collaboration activities (the relevant set of meetings) that you want to analyze.
 
@@ -263,7 +263,7 @@ After the query runs, examine its results as described in [Understand and interp
 
 ## Data privacy
 
-The business-process analysis feature follows the data-privacy standards of Workplace Analytics, which are described in [Privacy settings](../use/privacy-settings.md).
+The business-process analysis feature follows the data-privacy standards of Viva Insights, which are described in [Privacy settings](../use/privacy-settings.md).
 
 To define a business process, you must use meeting subject lines, but access to meeting subject lines is restricted by two of the available data-privacy settings: [Hash subject lines](../use/privacy-settings.md#hash-subject-lines) and [Exclude terms from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines). These settings affect your ability to define a business process as described here:
 
@@ -273,13 +273,13 @@ You can use this setting to control whether to show legible or hashed subject li
 
 ![Hash subject lines.](../images/wpa/tutorials/hash-subject-lines.png)
 
-If your Viva Insights or Workplace Analytics admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
+If your Viva Insights admin has chosen to hash subject lines by setting the **Hash subject lines** option to **Yes**, the subject lines of meetings that are shown in query results become unintelligible.
 
 However, this option also makes subject lines unusable for business-process analysis. So, when this setting is in effect, if you select **Add business process** in the procedure to [Create a new business process](#create-a-new-business-process), you'll see a warning stating that business-process analysis is unavailable. To re-enable it, contact your Viva Insights admin and ask them to set the **Hash subject lines** option to **No**.
 
 ### Exclude terms from subject lines
 
-For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page of Workplace Analytics:
+For data-privacy reasons, you might want to exclude particular meetings from analysis. (For more information, see [Exclude content from subject lines](../use/privacy-settings.md#exclude-terms-from-subject-lines).) You do this by adding words that occur in those meetings' subject lines to the **Exclude terms from subject lines** list on the **Privacy settings** page:
 
 ![Exclude terms from subject lines.](../images/wpa/tutorials/exclude-terms-5.png)
 
@@ -288,14 +288,14 @@ How does the exclusion of terms affect your analysis of business processes? It a
 The exclusion of terms does not work retroactively; that is, exclusions work only on new data. An exclusion takes effect if all of the following hold true:
 
 * You create the dataset after the admin creates the exclusion.
-* You create the dataset after the weekly data refresh is completed. (The collaboration data that Workplace Analytics uses is refreshed once a week, on Sunday. Workplace Analytics then processes the new data, which appears one day later, on Monday.)
+* You create the dataset after the weekly data refresh is completed. (The collaboration data that the app uses is refreshed once a week, on Sunday. The app then processes the new data, which appears one day later, on Monday.)
 * You define the dataset to use new data. That is, as you [define the dataset](#define-a-dataset), for **Time period**, select dates that take place entirely after the exclusion was defined and data was refreshed.
 
 The following example shows how this can unfold:
 
 | Date | Event |
 | ---- | ----- |
-| 1/1/2020 | A customer begins using Workplace Analytics. |
+| 1/1/2020 | A customer begins using the advanced insights app. |
 | 4/1/2020 | An admin excludes the term "merger."
 | 4/8/2020 | The weekly data refresh has taken place. Any new data that arrived during the refresh will respect the exclusion; this means that any datasets based on this data will exclude the word "merger." (Also, any data that will arrive in the future will respect the exclusion.)
 | 4/9/2020 | An analyst defines a dataset, called "DS1," for the period 1/1/2020 – 4/1/2020. This dataset does NOT respect the exclusion, which means that the word "merger" is _not_ excluded.
