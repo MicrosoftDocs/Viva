@@ -29,7 +29,7 @@ Viva Goals can integrate with Snowflake to automatically update your OKRs. For e
 
 An admin can set up the Snowflake integration on Viva Goals. To do so:
 
-1.Navigate to Viva Goals’ integrations page through **Admin > Integrations**.
+1. Navigate to Viva Goals’ integrations page through **Admin > Integrations**.
 
 2. Scroll through the integration options until you locate Snowflake, then select **enable** if this is the first time, or "manage" if an integration has already been established.
 
