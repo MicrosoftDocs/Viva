@@ -53,8 +53,6 @@ Follow the steps below in your google cloud platform console to Create a role.
     - `bigquery.tables.get` 
     
     - `bigquery.tables.getData`
-    
-:::image type="content" source="../media/goals/goals-add-permissions.png" alt-text="Image of add permissions":::
 
 5. Select **Create** to complete the role creation.
 
@@ -66,12 +64,8 @@ Now it's time to assign this role to Viva Goals' service account so that Viva Go
 
 2. Select the **+ Add** button on top of the page. 
 
-    :::image type="content" source="../media/goals/goals-access-to-viva-goals-service-account.png" alt-text="Image of access to Viva Goals' service account":::
-
 3. In the Add screen add the Viva Goals' service account email (mentioned below) into the members field.
 
     -  ally-bigquery@ally-346417.iam.gserviceaccount.com
 
 4. Select **Save** to complete setup.
-
-    :::image type="content" source="../media/goals/goals-complete-setup.png" alt-text="Image of complete setup":::
