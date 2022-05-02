@@ -26,7 +26,7 @@ Only managers whose team meets or exceeds the **Minimum team size** setting can 
 
 The size of the team counts the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. The following are based on the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
 
-* **Measured managers** - Managers who were assigned licenses prior to October 2021 can see manager insights in the advanced insights app. Managers who are assigned licenses starting October 2021, can see their team's insights through [Group insights](group-insights.md) within **My team** in Viva Insights in Teams.
+* **Measured managers** - Managers who are assigned licenses can see their team's insights through [Group insights](group-insights.md) within **My team** in Viva Insights in Teams.
 * **Managers enabled** - Only managers who meet the minimum team size can view their team's insights.
 
 ![Manager settings.](../images/wpa/use/manager-settings.png)
