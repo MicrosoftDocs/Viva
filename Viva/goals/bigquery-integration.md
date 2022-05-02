@@ -44,15 +44,8 @@ Once the setup is complete, users in your organization can link the success of t
 
 1. While creating (or editing) an Objective or Key Result, click on **Connect data source to auto-update progress**.
 1. From the list of integrations, pick BigQuery.
-
-   :::image type="content" source="../media/goals/choosing-bigquery.png" alt-text="Choosing BigQuery":::
-
-
 1. If you already created a BigQuery connection, or an administrator in your organization shared a BigQuery connection with you, that will be automatically selected for you. If there are no connections created or shared already, Ally will prompt you to add a new connection.
 1. Add the BigQuery SQL query that will return a single-valued numeric value. This value will be connected to the OKR's progress or KPI depending on how the OKR is measured.
-
-   :::image type="content" source="../media/goals/bigquery-sql.png" alt-text="BigQuery SQL":::
-
 1. Hit **next** to finish and save your OKR. You should now see a BigQuery icon next to the OKR. The OKR will sync automatically every hour, but you can refresh it manually by clicking on **refresh**.
 
 The colors of the progress bars indicate the status of the objective.
