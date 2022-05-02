@@ -55,10 +55,7 @@ Once you've configured the connection, the next step is to start linking OKRs to
 - The progress will be calculated based on the count of tickets completed under the chosen query (if you've chosen KPI metric to track progress), or will be calculated based on the percentage of tickets closed (if you've chosen percent complete to track progress). 
 - Click **Next > Save**.
 
-:::image type="content" source="../media/goals/connection-to-an-okr.gif" alt-text="Connection to an OKR":::
-
 You've successfully linked your objective to a query in Azure DevOps to track the progress of your work items, and update the status of the corresponding OKR automatically.
-
 
 The colors of the progress bar indicated the status of the objective.
 
