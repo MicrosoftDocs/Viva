@@ -71,8 +71,6 @@ Once you've configured the connection, the next step is to start linking OKRs to
 > [!NOTE]
 > The sync will happen once every hour. If you want to trigger the sync manually, select the Excel Online icon next to the progress bar of the objective, and select the sync icon.
 
-:::image type="content" source="../media/goals/Excel-online-integration.gif" alt-text="Excel Online Integration 1":::
-
 You've successfully linked your objective to a Sheet in Excel Online to track the cell value, and updated the status of the corresponding OKR automatically.
 
 The colors of the progress bar indicate the status of the objective.
