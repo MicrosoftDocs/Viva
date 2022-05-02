@@ -22,9 +22,9 @@ description: Learn how to contribute to topics in Viva Topics
 
 - [Showcasing knowledge and expertise with Viva Topics](topic-experiences-topic-contributors.md#showcase-knowledge-and-expertise-with-viva-topics)
 
-- [Contributing to relevant topics](topic-experiences-topic-contributors.md#contribute-to-relevant-topics)
+- [Contribute to relevant topics](topic-experiences-topic-contributors.md#contribute-to-relevant-topics)
 
-- [Editing and creating topics in Viva Topics](topic-experiences-topic-contributors.md#edit-and-create-topics-in-viva-topics)
+- [Edit and create topics in Viva Topics](topic-experiences-topic-contributors.md#edit-and-create-topics-in-viva-topics)
 
 - [Getting help from colleagues](topic-experiences-topic-contributors.md#get-help-from-colleagues)
 
