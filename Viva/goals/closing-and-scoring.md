@@ -192,7 +192,7 @@ When the objective is postponed to the next time period, you start working on it
 
 Progress will be reset to the current value. For instance, you want to publish 10 blogs, and you've published five blogs this quarter. When you postpone this to the next quarter, your starting value will be 5, not 0.
 
-# How to decide whether to close or postpone an objective 
+## How to decide whether to close or postpone an objective 
 
 ***When the progress is 0***
 
