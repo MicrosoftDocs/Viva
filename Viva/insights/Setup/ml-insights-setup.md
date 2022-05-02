@@ -36,9 +36,9 @@ To view the **My organization** page in the Viva Insights app in Teams, confirm 
 * **Licensed organization** - The members of your organization are assigned licenses for Viva Insights, including yourself as an organizational business leader.
 * **Insights Business Leader role** - Ask your Microsoft 365 admin to assign you the [Insights Business Leader role](/azure/active-directory/roles/permissions-reference#insights-business-leader) in the Microsoft 365 admin center. See [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles) for detailed instructions.
 
-## Install and pin the app
+## Discover and pin the app
 
-To install and pin the Viva Insights app for yourself, see [Install and pin the app](../personal/teams/viva-teams-app-install.md#install-the-app). However, if you're an admin installing the Viva Insights app for an organization, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).
+To discover and pin the Viva Insights app, see [Discover and pin the app](../personal/teams/viva-teams-app-install.md). Your admin install the Viva Insights app for your organization. For details, see [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md).
 
 >[!Note]
 >You can also locate the Viva Insights app at [https://aka.ms/InsightsTeamsApp](https://aka.ms/InsightsTeamsApp).
