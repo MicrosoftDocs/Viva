@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for manager coaching
-description: Workplace Analytics shares manager best practices for coaching employees
+description: Get manager best practices for coaching employees
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -40,7 +40,7 @@ According to [How to make your one-on-ones with employees more productive](https
 * Prepare and remain flexible on discussion points in 1:1s. 1:1s are best with structure but not too much to allow for co-creation. Agree on discussion points at the start and allocate adequate time to the most important topics.
 * Lead by example. People are more engaged if they work for a manager who is working at least as much as they are.
 * Evenly distribute work. Highly utilized employees often work longer hours than their peers, which can lead to disengagement.
-* Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection in Workplace Analytics, an employee must interact with another person at least two times per month in an email or meeting with five or fewer participants.)
+* Maintain large internal networks across the company. Employees with larger networks than their manager are more likely to view leadership unfavorably. (In order to qualify as a connection in Viva Insights, an employee must interact with another person at least two times per month in an email or meeting with five or fewer participants.)
 * Empower employees with ownership of work streams so decisions can be made at the level where immediate action can be taken.
 * Enable and use [Insights](../personal/use/use-the-insights.md#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
 * Promptly decline meetings as soon as possible with a brief explanation of why to reinforce decision-making roles and to role model healthy habits.
@@ -68,7 +68,7 @@ Use the following meeting agenda outline as a guide for creating a series of 1:1
 
 #### Identify and utilize influencer teams
 
-Utilize Workplace Analytics to identify influencer groups or teams and leverage their network to share ideas, knowledge, and habits. The following are some ways to do so:
+Utilize Viva Insights to identify influencer groups or teams and leverage their network to share ideas, knowledge, and habits. The following are some ways to do so:
 
 * Leverage influencer groups to quickly disseminate information across the organization.
 * Identify projects that highlight the importance of influencers and use them as examples of how influencers can be used to quickly connect disparate teams.
@@ -76,4 +76,4 @@ Utilize Workplace Analytics to identify influencer groups or teams and leverage 
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)

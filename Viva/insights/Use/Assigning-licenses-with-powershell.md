@@ -17,7 +17,7 @@ audience: Admin
 
 # Assign licenses with PowerShell
 
-Do the following steps to assign licenses with PowerShell in Azure Active Directory (AD) for users of Microsoft Viva Insights (formerly Workplace Analytics).
+Do the following steps to assign licenses with PowerShell in Azure Active Directory (AD) for users of Microsoft Viva Insights.
 
 ## Installation prerequisites
 
@@ -147,9 +147,9 @@ The Add-WpALicense.ps1 script is designed to assign Viva Insights licenses to Mi
     Date:     February 25th, 2020
     Version:  1.0.4
    .SYNOPSIS
-    This script is designed to add Workplace Analytics licenses to a .csv list of email addresses that correlate to Microsoft 365 identities.
+    This script is designed to add the advanced insights licenses to a .csv list of email addresses that correlate to Microsoft 365 identities.
    .DESCRIPTION
-    Add-WpALicense is designed to assign Workplace Analytics licenses to Microsoft 365 identities based on .csv e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
+    Add-WpALicense is designed to assign licenses to Microsoft 365 identities based on .csv e-mail address input. The e-mail address input will be used to identify the correct Office365 identity based on the UserPrincipalName and ProxyAddresses attributes of the MSOL object and try to assign a license to the identity.
    .PARAMETER CSV
     The .csv input file contains all of the email addresses that are given a license. Use Email as the header and when save the file with the UTF-8 encoded format.
    .PARAMETER LicenseSKU
@@ -164,7 +164,7 @@ The Add-WpALicense.ps1 script is designed to assign Viva Insights licenses to Mi
        [parameter(Mandatory=$true,Position=0,HelpMessage="Please provide a CSV file that has the Email column header.")]
        [ValidateNotNullorEmpty()]
        [string]$CSV,
-       [parameter(Mandatory=$true,Position=1,HelpMessage="Please provide the exact name of the Workplace Analytics MSOL Account SKU license for the applicable tenant.")]
+       [parameter(Mandatory=$true,Position=1,HelpMessage="Please provide the exact name of the the advanced insights app MSOL Account SKU license for the applicable tenant.")]
        [ValidateNotNullorEmpty()]
        [string]$LicenseSKU
        )
@@ -271,7 +271,7 @@ The Add-WpALicense.ps1 script is designed to assign Viva Insights licenses to Mi
         Foreach($user in $users) {
            #An attempt is made to find the user through the UserPrincipalName parameter. If an error occurs, the catch block will try to find the user through a ProxyAddresses attribute regex comparison. An absolute match after the colon of the address in the array is required to increase the accuracy of the find.
            $userIndex = $users.Indexof($user)
-           Write-Progress -Activity "Assigning Workplace Analytics Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
+           Write-Progress -Activity "Assigning Viva Insights Licenses, currently on $($userIndex + 1) of $($users.Count) Currently searching for user $($user.Email)" -PercentComplete ($userIndex / $users.Count * 100) -Id 1
            try {
                $msolUser = Get-MsolUser -UserPrincipalName $user.Email -ErrorAction Stop
             }
