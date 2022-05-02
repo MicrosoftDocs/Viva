@@ -1,7 +1,7 @@
 ---
 
 title: Power BI Microsoft Teams dashboard
-description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined data from Workplace Analytics in Power BI
+description: Use the Power BI Microsoft Teams insights dashboard to visualize predefined data from Viva Insights in Power BI
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Microsoft Teams insights
 
-As employees shift to remote work and to digital only collaboration, Workplace Analytics can help you stay on track and make data-driven decisions that can help your employees do their best work.
+As employees shift to remote work and to digital only collaboration, Viva Insights can help you stay on track and make data-driven decisions that can help your employees do their best work.
 
 The Power BI Microsoft Teams insights dashboard directionally highlights where a shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
@@ -40,7 +40,7 @@ The dashboard also includes a page with **Opportunity areas to get more out of T
 
 The **Glossary** page describes all the report metrics.
 
-To populate the dashboard in Power BI, you must set up **Microsoft Teams insights** and **Influence insights** in Workplace Analytics. The results will refresh your downloaded Power BI dashboard on a weekly basis.
+To populate the dashboard in Power BI, you must set up **Microsoft Teams insights** and **Influence insights** in the advanced insights app. The results will refresh your downloaded Power BI dashboard on a weekly basis.
 
 ## Demonstration
 
@@ -54,16 +54,16 @@ To find the template for the Power BI Teams Insights dashboard, go to the [Query
 
 Before you can run the results and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version.
 Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard supports the [same languages](../overview/supported-languages.md#supported-languages) that Workplace Analytics supports.
+>This dashboard supports the [same languages](../overview/supported-languages.md#supported-languages) that Viva Insights supports.
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Microsoft Teams insights** to see the required setup steps, and then in step 2, select **Set up** next to **Microsoft Teams insights** (or select **Influence insights**, per **Step 7**).
 3. When prompted, select or confirm the following settings:
 
@@ -92,28 +92,28 @@ Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI:
 
-    1. In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon for each result, and select to copy the generated OData URL link.
+    1. In **Query designer** > **Results**, select the **Link** icon for each result, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective URL field.
-    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
     4. Select **Load** to import the results into Power BI. Loading these large files may take some time to complete.
 
     ![Query URLs for Power BI.](../Images/WpA/Tutorials/teams-odata.png)
 
-12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+12. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-14. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+14. Select and enter credentials for the organizational account that you use to sign in to the advanced insights app, and then select **Save**.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >You must sign in to Power BI with the same account you use to access the advanced insights app.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 
-After the Microsoft Teams insights dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Microsoft Teams insights dashboard is set up and populated with Viva Insights data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Date range** - Select the date range that you want to analyze.
 * **Organizational attribute to highlight in this report** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
@@ -133,7 +133,7 @@ For details about how to share the dashboard and other Power BI tips, troublesho
 
 ### Training opportunity
 
-Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard in Workplace Analytics](/learn/modules/workplace-analytics-teams/)
+Learn how to generate useful data using the Teams insights dashboard and analyze Teams adoption trends from populated reports: [Measure Teams collaboration with the Microsoft Teams insights dashboard](/learn/modules/workplace-analytics-teams/)
 
 ## Related topic
 

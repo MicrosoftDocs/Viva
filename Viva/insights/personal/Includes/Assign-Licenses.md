@@ -1,7 +1,7 @@
 ---
 
-title: Assign licenses with the MyAnalytics service plan
-description: Assign licenses with the MyAnalytics service plan
+title: Assign licenses for personal insights
+description: Assign licenses for personal insights with Microsoft Viva Insights
 author: madehmer
 ms.author: v-lilolason
 ms.topic: article
@@ -15,36 +15,21 @@ manager: helayne
 audience: Admin
 ---
 
-<!-- If you don’t want a user to see any statistics from MyAnalytics, you can disable the MyAnalytics service plan for that user. -->
-
 >[!Note]
->Assigning licenses with the MyAnalytics service plan turns it on for those participants. Before you do this, you might notify them in email that MyAnalytics will be available soon. To help you with this notification, use [this email template](MyAnalytics-announcement-template.docx). You can download it, customize it with your company’s information, and then email it to the new MyAnalytics participants. To learn more about adopting MyAnalytics, see [Adopt MyAnalytics](../Use/MyA-Adoption/adopt-myanalytics.md).  
+>Assigning licenses with a Viva Insights service plan turns it on for those participants. Before you do this, you might notify them in email that Viva Insights will be available soon. They'll automatically receive a [Welcome email](..\Use\MyA-Welcome-email.md) from Viva Insights also.
 
-### MyAnalytics elements
+### Personal insights elements
 
-<!-- Updated for Anu and Sourabh Feb 2019: -->
+After you assign a user license with the Viva Insights service plan, the new participant will gain access to the following personal insights elements.  
 
-After you assign a user license with the MyAnalytics service plan, the new participant will gain access to the following MyAnalytics elements.  
-
-<!--  
-> [!Note]
-> The following timeframes pertain to the March 2019 distribution of MyAnalytics features. 
--->
-
- * **MyAnalytics welcome email**
+* **Viva Insights welcome email**
   
-      * Existing users of Microsoft 365 will receive the welcome email a few days (up to four weeks) after their license is granted.
-      * New users will receive the welcome email approximately four weeks after their license is granted.
+  * Existing users of Microsoft 365 will receive the welcome email a few days (up to four weeks) after their license is granted.
+  * New users will receive the welcome email approximately four weeks after their license is granted.
 
-<!--
-    > [!Note]
-    > Users will not receive the welcome email outside of their work week. If a user's set work week is Monday to Friday, and the person's welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more details, see [MyAnalytics welcome email](../Use/MyA-Welcome-email.md).
--->
-
- * **MyAnalytics personal dashboard** - Users can visit their [personal dashboard](../Use/dashboard-2.md) a few days after their license with the service plan is granted.
-
- * **Insights Outlook add-in** - Users can see the [Insights Outlook add-in](../Use/add-in.md) in a day or so after their license with the MyAnalytics service plan is granted.
-
- * **Digest emails** - Users will begin to receive the [Microsoft Viva digest](../Use/email-digests-3.md) within two to three weeks after they receive the welcome email.
-
- * **Inline suggestions** - Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the MyAnalytics service plan is granted.
+<!--> [!Note]
+    > Users will not receive the welcome email outside of their work week. If a user's set work week is Monday to Friday, and the person's welcome email would otherwise arrive on a weekend, its arrival time is delayed to the following Monday. For more details, see [Viva Insights welcome email](../Use/MyA-Welcome-email.md).-->
+* **Personal insights dashboard** - Users can visit their [Dashboard](../Use/dashboard-2.md) a few days after their license with the service plan is granted.
+* **Insights Outlook add-in** - Users can see the [Insights Outlook add-in](../Use/add-in.md) in a day or so after their license with the Viva Insights service plan is granted.
+* **Digest emails** - Users will begin to receive the [Microsoft Viva digest](../Use/email-digests-3.md) within two to three weeks after they receive the welcome email.
+* **Inline suggestions** - Users can see the [inline suggestions](../use/mya-notifications.md) in a day or so after their license with the Viva Insights service plan is granted.
