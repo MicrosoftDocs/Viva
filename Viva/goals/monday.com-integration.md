@@ -41,17 +41,9 @@ Before setting up the integration connection, reach out to your monday.com admin
 
 2. In the integrations section, go to monday.com and then select **Manage**. 
 
-    :::image type="content" source="../media/goals/goals-connect-monday-com-integration.png" alt-text="Image of monday.com":::
-
-
 3. Select **New Connection** and in the pop-up dialog box, sign in to your monday.com account using your credentials to authenticate the connection. 
 
-    :::image type="content" source="../media/goals/goals-add-new-connection.png" alt-text="Image of new connection":::
-
-
 4. Name your connection and then select **Next** to complete the new account setup.
-
-    :::image type="content" source="../media/goals/goals-conn-monday.gif" alt-text="Image of Name your connection":::
 
 ## Editing an existing monday.com connection
 
@@ -61,21 +53,15 @@ Admins can also edit an existing monday.com connection, including the integratio
 
 2. Select the **Edit** icon next to the monday.com connection. In the pop-up dialog box that displays, you can edit the connection’s name or clear the **Share connection with all users** checkbox. 
 
-    :::image type="content" source="../media/goals/goals-edit-conn.gif" alt-text="Image of edit connection":::
-
 ## Using the monday.com integration
 
 1. Once the monday.com integration is set up, you can measure your OKR progress by connecting your new or existing OKRs in Viva Goals with a corresponding board in monday.com
 
 2. Go to the OKR of your choice and in the **Progress** section choose the option **Automatically from a data source**. 
 
-    :::image type="content" source="../media/goals/goals-connect-w-monday.com.png" alt-text="Image of connection progress":::
-
 3. Select monday.com from the list of integrations available and if there are multiple monday.com connections listed, choose a connection you’d like to use or create a new one. 
 
 4. Select the board, group, and assignee you want to connect to and map the status column based on which OKR progress should be tracked. 
-
-    :::image type="content" source="../media/goals/goals-conn-w-monday.png" alt-text="Image of select details":::
 
 5. Select **Next** to finish and save your OKR. You’ll now see the monday.com icon next to the OKR‘s progress indicator, which means Viva Goals will automatically measure the progress based on the item updates in the corresponding board in monday.com. 
 
@@ -89,5 +75,3 @@ Admins can also edit an existing monday.com connection, including the integratio
 ## Disabling the integration
 
 The monday.com integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to monday.com in the Integrations section and select **Manage**. In the monday.com Configurations page, select the Change dropdown, select Disable and confirm the action. 
-
-:::image type="content" source="../media/goals/goals-delete-monday-integration.gif" alt-text="Image of Disabling the integration":::
