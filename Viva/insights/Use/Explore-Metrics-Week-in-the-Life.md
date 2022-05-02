@@ -1,7 +1,7 @@
 ---
 
-title: Week in the life metrics in Workplace Analytics
-description: Overview of the data available for a Week in the life in Workplace Analytics
+title: Week in the life metrics in Viva Insights
+description: Overview of the data available for a Week in the life in Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -23,7 +23,7 @@ audience: Admin
 
 ## Access to Week in the life
 
-You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home/Innovation/WeekintheLife) to view it in Workplace Analytics.
+You can open [Week in the life](https://workplaceanalytics.office.com/en-us/Home/Innovation/WeekintheLife) to view it in Viva Insights.
 
 ## All collaboration hours
 
@@ -39,7 +39,7 @@ Meeting and email hours are the most basic components of collaboration. They hel
 
 Excess incoming email becomes a distraction from work focus and a source of employee stress, particularly if combined with many meetings. Too many hours in meetings reduces the time available to complete individual work tasks, which can lead to longer working hours and employee stress.
 
-Workplace Analytics helps analysts identify high and low collaboration and its causes.  
+Viva Insights helps analysts identify high and low collaboration and its causes.  
 
 ### Common causes of high levels of collaboration
 
@@ -55,7 +55,7 @@ Workplace Analytics helps analysts identify high and low collaboration and its c
 
 ## After-hours collaboration hours
 
-After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Workplace Analytics uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
+After-hours meeting and email hours are the number of hours that a person spent in meetings and sending email outside of business hours. (Viva Insights uses 9 AM to 5 PM, Monday to Friday as the default for business hours.)
 
 ![After-hours collaboration hours.](../images/wpa/use/02-after-hours-collab-hours.png)
 
@@ -113,4 +113,4 @@ Workweek span captures the span of time an employee spends in work-related activ
 ## Related topics
 
 * [Page settings](../use/explore-page-settings.md)
-* [Workplace Analytics Charts](../use/chart-types.md)
+* [Advanced insights charts](../use/chart-types.md)

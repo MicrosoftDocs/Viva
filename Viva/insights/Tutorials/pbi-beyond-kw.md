@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
 title: Beyond knowledge workers dashboard
-description: Use the Beyond knowledge workers reports to visualize predefined data from Workplace Analytics in Power BI
+description: Use the Beyond knowledge workers reports to visualize predefined data from Viva Insights in Power BI
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -19,7 +19,7 @@ audience: Admin
 
 *This experience is only available through private preview at this time.*
 
-The Beyond knowledge worker dashboard uses a Power BI template that is populated by Workplace Analytics data to conduct a broad diagnostic of digital collaboration patterns (Teams chats, Teams calls, emails, and meetings) for frontline workers and those workers with hybrid office or field roles. It is designed to highlight collaboration patterns for different groups and to correlate collaboration behaviors to productivity outcomes.
+The Beyond knowledge worker dashboard uses a Power BI template that is populated by Viva Insights data to conduct a broad diagnostic of digital collaboration patterns (Teams chats, Teams calls, emails, and meetings) for frontline workers and those workers with hybrid office or field roles. It is designed to highlight collaboration patterns for different groups and to correlate collaboration behaviors to productivity outcomes.
 
 The dashboard helps answer the following questions:
 
@@ -31,9 +31,9 @@ The dashboard helps answer the following questions:
 
 You can customize the analysis population, the time period, and the organizational data attributes in the dashboard. Each report includes a **Why this matters**, **Take action**, and **Explore Further** sections that helps answer your business questions and drive positive changes in your organization change.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Beyond knowledge workers** query in Workplace Analytics.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Beyond knowledge workers** query.
 
-After you successfully run these queries, you can download the Power BI template from the **Beyond knowledge workers** query on the **Results** page. After you download the Power BI template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you can download the Power BI template from the **Beyond knowledge workers** query on the **Results** page. After you download the Power BI template, you can then connect the query data to the dashboard in Power BI.
 
 ## Demonstration
 
@@ -45,15 +45,15 @@ The following demo uses sample data that is only representative of this dashboar
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of Analyst in Workplace Analytics.
+* Be assigned the role of Analyst in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: https://workplaceanalytics.office.com/en-us/Home/
+>This dashboard is currently only available in English and will only work with data generated from the English version of Viva Insights. Before running the required query, confirm or change the browser language to **en-us** in the app's URL: https://workplaceanalytics.office.com/en-us/Home/
 
-1. In Workplace Analytics, select **Analyze** > **Queries**.
+1. In the advanced insights app, select **Analyze** > **Query designer**.
 2. Under **Start from preselected filters and metrics**, select **Beyond knowledge workers** to open the predefined query, which contains the required metrics to populate the dashboard.
 3. Select or confirm the following query settings:
 
@@ -76,12 +76,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >[!Important]
    >If you remove the required, preselected organizational data attributes, you might disable one or more Power BI charts.
 
-6. Locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your Viva Insights admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
+6. Locate and select the organizational attribute that identifies people managers in your company (those who have employees who report to them directly or indirectly) as opposed to individual contributors (ICs). Because this field is not a required organizational attribute, your organization might not have included it when setting up the advanced insights app. If you cannot find the field in the menu, contact your Viva Insights admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
 
    >[!Important]
    >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
 
-7. Locate and select the organizational attribute that identifies numerical outcome data (such as, performance ratings, store sales figures, engagement results, safety, or quality scores) to explore relationships between collaboration activity and business outcomes. Because this field is not a required organizational attribute, your organization might not have included it when setting up Workplace Analytics. If you cannot find the field in the menu, contact your admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
+7. Locate and select the organizational attribute that identifies numerical outcome data (such as, performance ratings, store sales figures, engagement results, safety, or quality scores) to explore relationships between collaboration activity and business outcomes. Because this field is not a required organizational attribute, your organization might not have included it when setting up the advanced insights app. If you cannot find the field in the menu, contact your admin to confirm whether the field was included in the Organizational HR data upload and made available for query output.
 
    >[!Important]
    >You can still set up the dashboard without the people manager attribute. However, some of the Power BI charts and filtering capabilities will be disabled.
@@ -93,27 +93,27 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 12. If prompted to select a program, select **Power BI**.
 13. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
-    1. In Workplace Analytics, select **Queries** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    1. In **Query designer** > **Results** page, select the **Link** icon for each query, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective field.
-    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
     4. In **SupervisorIndicator** field, enter the exact name of the organizational attribute that you selected in **Step 6**, which designates who in the organization is a people manager. If your organization has not uploaded this field in the organization data file, you don’t have to complete this field. However, some visuals and filtering capabilities will be disabled.
     5. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-14. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+14. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 15. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select Organizational account, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-16. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+16. Select and enter credentials for the organizational account that you use to sign in to Viva Insights, and then select **Save**.
 
    >[!Important]
-   >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+   >You must sign in to Power BI with the same account you use to access the advanced insights app.
 
 17. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 
-After the Beyond knowledge workers dashboard is set up and populated with Workplace Analytics data in Power BI, you are ready to view the report. Optionally, you can set the following parameters in the **Customize report** pane.
+After the Beyond knowledge workers dashboard is set up and populated with Viva Insights data in Power BI, you are ready to view the report. Optionally, you can set the following parameters in the **Customize report** pane.
 
 * **Time period** - This is the time period that you want to analyze.
 * **Exclude specific weeks** – You can select one or more weeks to exclude from analysis, such as those that include company holidays.
@@ -141,17 +141,17 @@ After you have customized the report, you can use the following flexible feature
 
     ![Productivity settings.](../Images/WpA/Tutorials/pbi-productivity.png)
 
-Your admin must do the following steps to upload (import) organizational data to Workplace Analytics.
+Your admin must do the following steps to upload (import) organizational data to the advanced insights app.
 
-1. Prepare and upload the required organizational data into Workplace Analytics.
-2. Map the fields in Workplace Analytics.
-3. Allow Workplace Analytics to validate the data.
+1. Prepare and upload the required organizational data in the advanced insights app.
+2. Map the fields in the app.
+3. Allow the app to validate the data.
 
 For detailed instructions, see [Subsequent organizational data uploads](../setup/upload-organizational-data2.md).
 
 ## Power BI tips, troubleshooting, and FAQs
 
-For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates in Workplace Analytics](../tutorials/power-bi-templates.md).
+For details about how to share the dashboard and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI templates](../tutorials/power-bi-templates.md).
 
 ## Related topic
 
