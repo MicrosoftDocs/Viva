@@ -36,17 +36,11 @@ A Viva Goals admin can enable the Domo Integration on Viva Goals. To do so:
 
 3. The Integration can also be disabled at any time from the same section.
 
-    :::image type="content" source="../media/goals/viva-goals-domo-integration-1.png" alt-text="Domo Integration 1":::
-
 ## Configuring the Domo Connection
 
 In the **Connections** section, select **New Connection** and in the popup that appears, follow the prompt to configure the Domo connection using a Domo Client ID & Secret. A connection can be shared with all users or made private based on the user's preference. Editing a saved Domo connection is also allowed from the same section at any time.
 
-:::image type="content" source="../media/goals/viva-goals-domo-integration-2.png" alt-text="Domo Integration 2":::
-
 To create a Domo Client ID & Secret, visit [https://developer.domo.com/new-client](https://developer.domo.com/new-client), sign in with your Domo domain & credentials. Enter **Name** and **Description** details and select **Data** as **Application scope**.
-
-:::image type="content" source="../media/goals/viva-goals-domo-integration-3.png" alt-text="Domo Integration 3":::
 
 ## Setting up the Domo Data Link
 
@@ -59,8 +53,6 @@ Once the connection configuration is done, users can **Edit** their Viva Goals O
 
 2. If a Domo Connection isn't configured, Viva Goals also allows the user to configure a connection right there. If already configured, Viva Goals allows the users to proceed with setting up the data link by selecting an available connection.
 
-    :::image type="content" source="../media/goals/viva-goals-domo-integration-4.png" alt-text="Domo Integration 4":::
-
 In the popup that appears, follow the prompts to set up the Domo data link.  
 Select **Connection**, key in **DataSet-ID**, your actual **KPI** from the list of measures/dimensions available on the selected dataset.
 
@@ -68,18 +60,12 @@ Select **Connection**, key in **DataSet-ID**, your actual **KPI** from the list 
 > To obtain the DataSet-ID:</br>
 > Login to your Domo instance and select the Dataset name mentioned under the card.
 
-:::image type="content" source="../media/goals/viva-goals-domo-integration-5.png" alt-text="Domo Integration 5":::
-
 Grab the 36 character DataSet-ID from the URL of the DataSet page.
-
-:::image type="content" source="../media/goals/viva-goals-domo-integration-6.png" alt-text="Domo Integration 6":::
 
 If there are multiple values for the KPI, and you have the Close Rate for all your sales team members as part of the Domo dataset, you can apply a function (sum/average/count) on the set of values. For example, average of Close Rate for the entire sales team.</br>
 or</br>
 Apply any available dataset fields as **Filters**. For example, filter a particular AE Name - Adam's Close Rate.
 
 Viva Goals displays the final KPI value for your reference before saving the data link set-up.
-
-:::image type="content" source="../media/goals/viva-goals-domo-integration-7.png" alt-text="Domo Integration 7":::
 
 It’s as easy as that! Now you know how to work smarter by integrating Viva Goals with Domo.
