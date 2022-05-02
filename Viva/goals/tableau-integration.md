@@ -36,16 +36,12 @@ A Viva Goals admin can enable the Tableau Integration on Viva Goals. To do so:
 
 3. The Integration can also be disabled at any time from the same section.
 
-    :::image type="content" source="../media/goals/viva-goals-tableau-integration-1.png" alt-text="Tableau Integration 1":::
-
 ## Configure the Tableau Connection
 
 In the **Connections** section, select **New Connection** and in the popup that appears, follow the prompt to configure the Tableau connection either using a Personal Access Token (or) the Username & Password method.
 
 > [!NOTE]
 > Personal Access Token should be available from the Tableau 2019.4 release.
-
-:::image type="content" source="../media/goals/viva-goals-tableau-integration-2.png" alt-text="Tableau Integration 2":::
 
 Select the (**i**) information icon to know more about each field in the popup. Links to help articles are provided as required.
 
@@ -72,8 +68,6 @@ Select **Workbook**, **View** (Dashboards or Standalone Worksheets), your actual
 If there are multiple instances for the KPI value, for example, you have the Sales Goal for all your sales team members as part of the Tableau View, you can choose to apply a sum/average/count on the set of values (or) filter out by a particular person or any available filter field.  
 
 Viva Goals displays the selected value for your reference before you save the data link set up.
-
-:::image type="content" source="../media/goals/viva-goals-tableau-integration-3.png" alt-text="Tableau Integration 3":::
 
 It’s as easy as that! Now you know how to work smarter by integrating Viva Goals and Tableau.
 
