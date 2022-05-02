@@ -1,9 +1,9 @@
 ---
 
-title: MyAnalytics Wellbeing page
-description: Learn how to use MyAnalytics to improve your work-life balance
+title: Viva Insights Wellbeing page
+description: Learn how to use Viva Insights to improve your work-life balance
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -15,11 +15,11 @@ manager: helayne
 audience: user
 ---
 
-# Wellbeing
+# Personal wellbeing insights
 
-The Wellbeing page on the [MyAnalytics dashboard](dashboard-2.md) shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
+The **Wellbeing** page on the [Dashboard](dashboard-2.md) shows how well you are disconnecting from work during your time off and suggests ways to reduce stress and burnout.
 
-![MyAnalytics Wellbeing page.](../../Images/mya/use/wellbeing.png)
+![Wellbeing page.](../../Images/mya/use/wellbeing.png)
 
 ## Productivity insights
 
@@ -54,6 +54,3 @@ For example: If your set work schedule is 8 AM to 5 PM, Monday through Friday, a
   * Try to limit meeting overruns.
   * Consider starting a policy of no meetings on Fridays.
 
-## Related topic
-
-[MyAnalytics dashboard](../use/dashboard-2.md)

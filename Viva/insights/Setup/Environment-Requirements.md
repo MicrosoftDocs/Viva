@@ -61,7 +61,7 @@ Contact your Microsoft account team for pricing. If you have questions about lic
 
 For the best experience, use Microsoft Edge or Google Chrome.
 
-Apple Safari and Mozilla Firefox are not preferred browsers for Viva Insights in Workplace Analytics. Internet Explorer is no longer a supported browser.
+Apple Safari and Mozilla Firefox are not preferred browsers for the advanced insights app available with Viva Insights. Internet Explorer is no longer a supported browser.
 
 ## Related topics
 
