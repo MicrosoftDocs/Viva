@@ -31,7 +31,7 @@ The My team insights are based on information managers and team leads already ha
 
 ##### Q2 What data is used in these insights and how is it protected?
 
-My team insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in Workplace Analytics or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
+My team insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
 
 ##### Q3 Can you identify specific team members or see their personal collaboration habits in My team?
 
@@ -64,7 +64,10 @@ Group insights in My team are not shown by default. These insights are based on 
 
 Yes. As an individual contributor, you can follow the steps described in the previous question to set up your team. After you set up your team, you’ll see **My team** within Viva Insights in Teams. The team insights will filter to match up to your currently selected team. However, as a team lead, you will not see Group insights.
 
-##### Q8 When trying to access My team, why am I prompted to reactivate personal data processing?
+##### Q8 While trying to access My team, why am I prompted to allow Viva insights to process my M365 collaboration data?
+
+>[!Note]
+>Viva Insights processes this data as described in the [Privacy Guide](/viva/insights/personal/overview/privacy-guide-users).
 
 If you see a message about reactivation, you've previously deactivated the setting that allows Viva Insights to generate insights based on your collaboration data from Microsoft 365. To access **My team**, you must reactivate this setting.
 

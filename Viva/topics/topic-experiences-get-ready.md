@@ -1,7 +1,7 @@
 ---
 title: Get your environment ready for Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 audience: admin
 ms.topic: article

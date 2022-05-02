@@ -17,7 +17,7 @@ audience: user
 
 # Welcome message
 
-Up to four weeks after your admin assigns licenses with the Microsoft Viva Insights (including MyAnalytics) service, licensed users will receive a Welcome message from Viva Insights in their Outlook inbox.
+Up to four weeks after your admin assigns licenses with the Microsoft Viva Insights service, licensed users will receive a Welcome message from Viva Insights in their Outlook inbox.
 
 These users will not receive the Welcome digest outside of their work week. For example, if necessary, the delivery is delayed to Monday to keep it from being delivered during a weekend.
 

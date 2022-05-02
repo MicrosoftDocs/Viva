@@ -17,9 +17,6 @@ manager: helayne
 
 # Conduct a user pilot
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 If you choose to disable the Briefing email for your organization, you can run a pilot with a subset of users first. Especially for large organizations, a small-scale pilot is a natural first step to validate user readiness, identify and mitigate issues, and help ensure a successful, organization-wide rollout.
 
 To achieve the most realistic results, the pilot should involve a group of actual users, mimic how they regularly communicate and collaborate, and verify both technical and user experiences.  
