@@ -155,29 +155,29 @@ To update your OKRs on the fly via Microsoft Teams Messaging Extension, follow t
 
 1. I Don’t Have an Existing Viva Goals Account
 
-A: If you don’t have an existing Viva Goals account, you will need to contact your administrator. Note that your organization would have to join the Viva Goals private preview for access.
+   A: If you don’t have an existing Viva Goals account, you will need to contact your administrator. Note that your organization would have to join the Viva Goals private preview for access.
 
 2. I Have an Existing Viva Goals Account
 
-A: If you have an existing Viva Goals account, you will automatically be logged in and see your OKRs, if you have already created some
+   A: If you have an existing Viva Goals account, you will automatically be logged in and see your OKRs, if you have already created some
 
 3. If I don't have the permission to view a team's OKRs/Projects in Viva Goals, would I be able to view them on MS Teams when they’re shared with me via the messaging extension?
 
-A: No, you would need to be a member/owner of that team in Viva Goals to view the OKRs/Projects that are shared with you on MS Teams.
+   A: No, you would need to be a member/owner of that team in Viva Goals to view the OKRs/Projects that are shared with you on MS Teams.
 
 4. What does this error message 'Return to the main window to perform this action' mean and why does it appear?
 
-A: When you try to click on ‘View Details’ on an OKR/Project card before sending the message, this error would appear. You can only view the details and make updates to an OKR/Project card after the message has been sent.
+   A: When you try to click on ‘View Details’ on an OKR/Project card before sending the message, this error would appear. You can only view the details and make updates to an OKR/Project card after the message has been sent.
 
 5. Can we add and send multiple cards in one message?
 
-A: Yes. MS Teams allows you to not only share multiple OKRs/Projects cards from Viva Goals but also multiple cards from any app. You can even send multiple OKRs cards from Viva Goals and multiple cards from other apps like Asana, Smartsheet, Jira, etc., all in one message.
+   A: Yes. MS Teams allows you to not only share multiple OKRs/Projects cards from Viva Goals but also multiple cards from any app. You can even send multiple OKRs cards from Viva Goals and multiple cards from other apps like Asana, Smartsheet, Jira, etc., all in one message.
 
 6. Is there a separate MS Teams messaging extension for each team in Viva Goals or a single messaging extension for the entire organization?
 
-A: There'll be one common Viva Goals messaging extension on MS Teams for all teams, channels, and users across the organization.
+   A: There'll be one common Viva Goals messaging extension on MS Teams for all teams, channels, and users across the organization.
 
 7. Would I be able to search and view all OKRs/Projects or only my team's OKRs?
 
-A: Currently, a user can search for all the OKRs/Projects which are public and accessible to them.
+   A: Currently, a user can search for all the OKRs/Projects which are public and accessible to them.
 
