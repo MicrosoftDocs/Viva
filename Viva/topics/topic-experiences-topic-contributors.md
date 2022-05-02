@@ -20,13 +20,13 @@ description: Learn how to contribute to topics in Viva Topics
 
 [Viva Topics](topic-experiences-overview.md) helps organizations make knowledge and expertise accessible to all employees. It’s like Wikipedia for organizations, but [artificial intelligence (AI) develops the first draft](topic-experiences-discovery-curation.md) and subject matter experts edit the information to add their unique knowledge and expertise. Viva Topics then makes the knowledge available to colleagues and leaders at the time of need, and in the flow of their work. In this document we review:  
 
-- [Showcasing knowledge and expertise with Viva Topics](topic-experiences-topic-contributors.md#showcase-knowledge-and-expertise-with-viva-topics)
+- [Showcase knowledge and expertise with Viva Topics](topic-experiences-topic-contributors.md#showcase-knowledge-and-expertise-with-viva-topics)
 
 - [Contribute to relevant topics](topic-experiences-topic-contributors.md#contribute-to-relevant-topics)
 
 - [Edit and create topics in Viva Topics](topic-experiences-topic-contributors.md#edit-and-create-topics-in-viva-topics)
 
-- [Getting help from colleagues](topic-experiences-topic-contributors.md#get-help-from-colleagues)
+- [Get help from colleagues](topic-experiences-topic-contributors.md#get-help-from-colleagues)
 
 ## Showcase knowledge and expertise with Viva Topics
 
