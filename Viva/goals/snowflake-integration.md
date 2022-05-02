@@ -29,8 +29,6 @@ Viva Goals can integrate with Snowflake to automatically update your OKRs. For e
 
 An admin can set up the Snowflake integration on Viva Goals. To do so:
 
-:::image type="content" source="../media/goals/snowflake-conf.gif" alt-text="Snowflake configuration":::
-
 1.Navigate to Viva Goals’ integrations page through **Admin > Integrations**.
 
 2. Scroll through the integration options until you locate Snowflake, then select **enable** if this is the first time, or "manage" if an integration has already been established.
@@ -51,12 +49,8 @@ Once the setup is complete, users in your organization can link the success of t
 1. While creating (or editing) an Objective or Key Result, click on **Connect data source to auto-update progress**.
 1. From the list of integrations, pick Snowflake.
 
-   :::image type="content" source="../media/goals/edit-objective.png" alt-text="Edit objective":::
-
 1. If you already created a Snowflake connection, or an administrator in your organization shared a Snowflake connection with you, that will be automatically selected for you. If there are no connections created or shared already, Viva Goals will prompt you to add a new connection.
 1. Add the Snowflake SQL query that will return a single-valued numeric value. This value will be connected to the OKR's progress or KPI depending on how the OKR is measured.
-
-   :::image type="content" source="../media/goals/connect-to-snowflake.png" alt-text="Connect to Snowflake":::
 
 1. Hit **next** to finish and save your OKR. You should now see a Snowflake icon next to the OKR. The OKR will sync automatically every hour, but you can refresh it manually by clicking on **refresh**.
 
