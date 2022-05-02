@@ -15,7 +15,6 @@ ms.collection:
 - m365initiative-viva-goals
 search.appverid:
 - MET150
-
 description: "Learn how Multiple Alignment allows users to align a single OKR to 2 or more above it in the organization."
 ---
 
@@ -28,7 +27,7 @@ Viva Goals recognizes that the modern workplace is often made up of non-linear o
 
 ## What is Multiple Alignment? 
 
-Viva Goals' Multiple Alignment feature allows users to align a single OKR to two or more above it in the organization.
+the Multiple Alignment feature in Viva Goals allows users to align a single OKR to two or more above it in the organization.
 
 Multiple Aligned objectives are easy to distinguish from the rest, just look for the double arrow icon.
 
@@ -36,17 +35,17 @@ Multiple Aligned objectives are easy to distinguish from the rest, just look for
 
 ## How to use Multiple Alignment
 
-If Multiple Alignment is enabled, you will be able to align in the same manner as single alignment, but you will be able to select multiple objectives.
+If Multiple Alignment is enabled, you'll be able to align in the same manner as single alignment, but you'll be able to select multiple objectives.
 
 :::image type="content" source="../media/goals/viva-goals-multiple-alignment-2.png" alt-text="Multiple Alignment 2":::
 
-In this image you can see the alignment to both **Culture Communication** and **Deliver Project Y by first week of December**.
+In this image, you can see the alignment to both **Culture Communication** and **Deliver Project Y by first week of December**.
 
 If an objective is aligned to multiples above, the progress roll-up will cascade normally—you're simply contributing to both objectives at a higher level. 
 
 ## When to use Multiple Alignment
 
-- If there is an individual objective that contributes to two separate team objectives
+- If there's an individual objective that contributes to two separate team objectives
 
 - To group similar individual objectives that are separately aligned to teams above into a single individual objective, further improving the focus of your personal dashboard
 
