@@ -40,8 +40,6 @@ An admin can set up the Asana integration on Viva Goals. To do so:
 
 3. Select **New Connection** and in the popup that follows, sign in to your Asana account. Next, configure Asana connections that can be used by Viva Goals users to link their OKRs and update progress.
 
-    :::image type="content" source="../media/goals/viva-goals-asana-integration-1.png" alt-text="Asana Integration 1":::
-
 4. Select‘**Next** to finish the setup.
 
 Viva Goals allows you to connect with multiple Asana accounts. Select **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to Asana projects.
@@ -54,21 +52,13 @@ Once the setup is complete, users in your organization can link their OKRs to As
 
 2. From the list of integrations, pick **Asana**.
 
-    :::image type="content" source="../media/goals/viva-goals-asana-integration-2.png" alt-text="Asana Integration 2":::
-
 3. Next, select the **Connection**, if multiple exist, and link a project to the objective. To do so, select the name of the project.
 
 4. To further filter the list of tasks or subtasks, select tasks assigned to a user or pick tasks with a specific status.
 
-    :::image type="content" source="../media/goals/viva-goals-asana-integration-3.png" alt-text="Asana Integration 3":::
-
     In the following example, we're counting the total number of customer executives who have been onboarded based on different segments. We’re tracking the progress by the number of subtasks completed under the main task.
 
-    :::image type="content" source="../media/goals/viva-goals-asana-integration-4.png" alt-text="Asana Integration 4":::
-
 5. Select **Next** to finish and save your OKR. You should now see an Asana icon next to the OKR - now Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh it manually, select **refresh**.
-
-    :::image type="content" source="../media/goals/viva-goals-asana-integration-5.png" alt-text="Asana Integration 5":::
 
 The following colors of the progress bars indicate the status of the Objective:
 
