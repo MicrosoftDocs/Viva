@@ -1,7 +1,7 @@
 ---
 
-title: Enhance organizational resiliency with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and enhance organizational resiliency
+title: Enhance organizational resiliency with Viva Insights
+description: Learn how to use Viva Insights data to analyze and enhance organizational resiliency
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -83,7 +83,7 @@ Rapid shifts in ways of working can blur the line between 'home' and 'work'. One
 
 Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support employee wellbeing:
 
-* Use [MyAnalytics wellbeing](../personal/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
+* Use [personal wellbeing insights](../personal/use/wellbeing.md) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
 * Utilize [Inline suggestions in Outlook](../personal/Use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
 * Use [Teams Together mode](https://www.microsoft.com/microsoft-365/blog/2020/07/08/reimagining-virtual-collaboration-future-work-learning/) for a shared background on video meetings. It cuts down on video meeting fatigue by making them feel more like in-person.
 
@@ -107,7 +107,7 @@ Resilient organizations respond to changing demands and new opportunities by nim
 As explained in [How to finally kill the useless, recurring meeting](https://workplaceinsights.microsoft.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
-* Use [MyAnalytics wellbeing](../personal/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
+* Use [personal wellbeing insights](../personal/use/wellbeing.md) to learn about your after-hours work habits and use [Inline suggestions in Outlook](../personal/use/mya-notifications.md#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.
 * Reduce meeting hours by scheduling shorter meetings (such as only 15 minutes) with focused agendas. Short stand-up meetings are common in high-stakes workplaces to debrief or reflect on an event.
 
 For more best practices and ways to establish 'meeting-free' periods, see [Best practices for meetings](../tutorials/gm-meetings.md).
@@ -130,7 +130,7 @@ Changes in work environments can leave employees feeling isolated from their col
 
 According to the [Rebuilding companies as communities](https://insights.office.com/culture/rebuilding-companies-as-communities/) article, "organizations function best when committed people work in cooperative relationships based on respect." Ways to improve team cohesion:
 
-* In MyAnalytics, add colleagues to your [important people list](../personal/use/use-the-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
+* Add colleagues to your [important people list](../personal/use/use-the-insights.md#add-important-people); also, receive suggestions to meet and reminders to respond to emails and complete tasks from these contacts.
 * Provide teams with virtual opportunities to bond over non-work activities and form new connections. Create agendas with fun conversation prompts and activities such as online games.
 
 For more best practices, see [Best practices for community connectivity](../tutorials/gm-connectivity.md).
@@ -138,4 +138,4 @@ For more best practices, see [Best practices for community connectivity](../tuto
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions](metric-definitions.md)

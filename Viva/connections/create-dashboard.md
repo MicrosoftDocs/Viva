@@ -59,7 +59,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
 
    >[!NOTE]
    > - The Dashboard page opens in mobile view by default.
-   > - You can choose Mobile, Tablet, and Desktop views interchangeably as you’re authoring.
+   > - You can choose Mobile and Desktop views interchangeably as you’re authoring.
    > - Image recommendations for cards in the Dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio in order to prevent stretching in the mobile app.
    > - Image URLS in card properties must be an absolute URL in order for the link to work in the mobile app.
 
@@ -69,7 +69,7 @@ You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissio
    ![Image of adding a dashboard card.](../media/connections/add-a-card.png)
 
 
-5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile, desktop, and tablet for different audiences.
+5. Select the type of card you want to add from the Dashboard card toolbox and then follow the steps below to set up each type of card. As you’re building the Dashboard, you can preview its appearance in mobile and desktop for different audiences.
 
    **Available cards:**
 
@@ -324,7 +324,7 @@ By using audience targeting, you can promote cards to specific groups of people.
 
 ### Preview your dashboard to see how it will display for different audiences
 
-What you see in *preview mode* approximates how the Dashboard will display for certain audiences and devices. When you apply audience targeting to cards, you can preview how different people will view the Dashboard depending on the audience or device - mobile, desktop, and tablet.
+What you see in *preview mode* approximates how the Dashboard will display for certain audiences and devices. When you apply audience targeting to cards, you can preview how different people will view the Dashboard depending on the audience or device.
  
 #### To preview different audiences:
 

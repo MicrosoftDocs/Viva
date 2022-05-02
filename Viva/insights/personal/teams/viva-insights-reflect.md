@@ -46,7 +46,7 @@ Remind yourself to self-reflect in the future.
 >
 >* You can schedule reflection reminders for any day of the week, including days not configured as workdays in your Outlook settings.
 >* The time you select will apply to every day on which you'll see reminders. You cannot set different times for different days of the week.
->* The reminder will not arrive at exactly the scheduled time, but within 15 minutes on either side of it. For example, if your reminder is scheduled for 5:00, the reminder could show up anytime between 4:45 and 5:15.
+>* The reminder might not arrive at exactly the scheduled time, but most reminders appear within five minutes before their scheduled time. For example, if your reminder is scheduled for 5:00, the reminder could appear between 4:55 and 5:00.
 >* Scheduled reflection reminders can expire. If you select a reflection reminder for a previous day or time, you will see a message that the reminder has expired.
 >* You can reflect at any time on the Home page or the virtual commute page. Reflection that you do on those pages is independent of any reminders that you have set for reflection.
 

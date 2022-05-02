@@ -29,6 +29,8 @@ You can configure SharePoint as a learning content source to make your organizat
 
 The knowledge admin (or global administrator) provides a site URL to where the [Learning Service](configure-sharepoint-content-source.md#learning-service) can create an empty centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. Admins are responsible for collecting and curating a list of URLs for folders. These folders should only include content that can be made available in Viva Learning.
 
+![Infographic showing the process of getting content from folders to a SharePoint list into Viva Learning, as described in the paragraph above](../media/learning/sharepoint-dataflow.png)
+
 Viva Learning supports the following document types:
 
 - Word, PowerPoint, Excel, PDF
@@ -47,7 +49,8 @@ If you're using [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-36
 
 Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
 
-Content deletion from your organization's repository is not currently supported.
+>[!NOTE]
+> Only the Microsoft 365 Groups permissions apply. Viva Learning doesn't support user- or SharePoint-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
 
 To remove unintentionally surfaced content, follow these steps:
 
