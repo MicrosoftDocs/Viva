@@ -16,9 +16,6 @@ manager: helayne
 ---
 # Privacy guide for Briefing emails
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 When data is processed for Briefing emails, Microsoft protects employee privacy and fully complies with local regulations, such as the General Data Protection Regulation (GDPR). The Briefing protects privacy in the following ways:
 
 * **Personal and private** - Your Briefing emails are personal and private and are only sent to you directly in your mailbox, which cannot be accessed by anybody else in your organization, including your IT admin or your manager.

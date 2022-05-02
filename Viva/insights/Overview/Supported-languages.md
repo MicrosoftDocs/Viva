@@ -18,15 +18,15 @@ audience: Admin
 
 # Advanced insights language support and guidelines
 
-The user interface in Microsoft Viva Insights in Workplace Analytics is currently available in the languages listed in [Supported languages](#supported-languages).
+The user interface for the advanced insights app in Microsoft Viva Insights is currently available in the languages listed in [Supported languages](#supported-languages).
 
-The Workplace Analytics app automatically uses your language identifier (language and region) setting, as specified in one of the following sources:
+The advanced insights app automatically uses your language identifier (language and region) setting, as specified in one of the following sources:
 
 * Windows
 * Your web browser
 * Location that's set for your Exchange Online mailbox
 
-You can override this setting by replacing the language identifier in the URL. [Supported languages](#supported-languages) lists the languages currently supported for Workplace Analytics.
+You can override this setting by replacing the language identifier in the URL. [Supported languages](#supported-languages) lists the languages currently supported.
 
 For example, replace '/en-us/' with '/ja-jp/' in the following URL to indicate Japanese as the language to view it in: 'https://workplaceanalytics.office.com/ja-jp/'
 
@@ -48,7 +48,7 @@ Korean | ko-kr
 
 ## Use of data other than English
 
-If and when you are able to use Workplace Analytics with _data_ that is in other languages, do the following as a guideline:
+If and when you are able to use the advanced insights app with _data_ that is in other languages, do the following as a guideline:
 
 * Query names and descriptions must be in English, Japanese, or French.
 * Column headers for the organizational data when you [prepare the organizational data](../Setup/Prepare-organizational-data.md) must be in English.
@@ -57,7 +57,7 @@ If and when you are able to use Workplace Analytics with _data_ that is in other
 
 ## Privacy settings
 
-In [Privacy settings](../use/privacy-settings.md), when adding the subject line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
+In [Privacy settings](../use/privacy-settings.md), when adding the subject line terms to exclude from analysis, the advanced insights app might not recognize uncommon compound words, especially those in other languages such as Japanese or Chinese. For best results, use single words, separated by a semicolon.
 
 ![Exclude terms from subject line.](../Images/WpA/Overview/exclude-terms-from-subject-line.png)
 

@@ -1,7 +1,7 @@
 ---
-title: How to interpret query output in Workplace Analytics
-description: Understand and interpret query output is Workplace Analytics
-author: lilyolason
+title: How to interpret query output in Viva Insights
+description: Understand and interpret query output is the advanced insights app with Microsoft Viva Insights
+author: madehmer
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
@@ -16,11 +16,11 @@ audience: Admin
 
 # Understand and interpret query output
 
-After you run a query in Workplace Analytics, you'll see the list of query results in **Query designer** > **Results** with the option to download them as a .csv (comma-separated values) file.
+After you run a query in the advanced insights app, you'll see the list of query results in **Query designer** > **Results** with the option to download them as a .csv (comma-separated values) file.
 
 ![.csv file download.](../images/WpA/Use/qd-results-download.png)
 
-You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use Workplace Analytics data in Power BI and other data analysis tools](view-download-and-export-query-results.md#use-workplace-analytics-data-in-power-bi-excel-or-other-data-analysis-tool).
+You can also select the _Copy link_ button to get a link for an OData feed to directly load query results into Power BI or another data analysis tool, such as Excel. For details, see [Use the data in Power BI and other data analysis tools](view-download-and-export-query-results.md#use-viva-insights-data-in-power-bi-excel-or-other-data-analysis-tool).
 
 ## Person query output
 
@@ -33,11 +33,11 @@ Person query output can include a number of different metrics, including the fol
 
 ### Duration hours adjusted for time booked in the calendar
 
-If you add up a person's email and meeting hours during and outside of their work schedule, do not expect these sums to equal the sums for working hours and after hours. Workplace Analytics calculates these groups of metrics differently.
+If you add up a person's email and meeting hours during and outside of their work schedule, do not expect these sums to equal the sums for working hours and after hours. Viva Insights calculates these groups of metrics differently.
 
-For working hours and after-hours totals, Workplace Analytics uses "time booked on a person's calendar" instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or for times that overlap on the calendar.
+For working hours and after-hours totals, Viva Insights uses "time booked on a person's calendar" instead of “time in meetings.” Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or for times that overlap on the calendar.
 
-Workplace Analytics uses a heuristic logic to order which meetings a person likely attended and assigns time accordingly. This logic doesn't specify a “chunk” of time with start and end dates, but assigns time as a single number. This can cause a variation in meeting hours and after hours, in particular for double booked meetings and meetings that span between working hours and after hours on a person's schedule.
+Viva Insights uses a heuristic logic to order which meetings a person likely attended and assigns time accordingly. This logic doesn't specify a “chunk” of time with start and end dates, but assigns time as a single number. This can cause a variation in meeting hours and after hours, in particular for double booked meetings and meetings that span between working hours and after hours on a person's schedule.
 
 For example, if a person's workday ends at 5 PM and that person attends a scheduled meeting from 4:30 to 5:30 PM that is double booked with another meeting by a half hour (duration hours adjusted = 0.5hr), the calculation uses “time booked in the calendar,” which adds 0.5 hour to working hours, 0.5 hour as after-hours work, and adds 0.5 hour to total meeting hours, which would cause a discrepancy when comparing the totals.
 
@@ -72,7 +72,7 @@ The query output for person-to-group queries consists of general header columns 
 
 | Header column | Description |
 |---|---|
-| **PersonId** | A randomly-generated PersonId value for each time investor. When the company administrator initially uploads employee organization information, employee names are used in rows, but these names become de-identified when Workplace Analytics processes the output. |
+| **PersonId** | A randomly-generated PersonId value for each time investor. When the company administrator initially uploads employee organization information, employee names are used in rows, but these names become de-identified when Viva Insights processes the output. |
 | **IsInternal** | This value is true for all internal company employees and equates to false for all people external to the company. |
 | **FunctionType**<sup>*</sup> | Represents the function that employees perform within the company, for example, Manufacturing, HR, or Finance. |  
 | **Organization**<sup>*</sup> | Represents the name of the organization to which a person belongs. For information on other variable organization-related columns, see [Organizational attribute columns](#organizational-attribute-columns). |
@@ -89,7 +89,7 @@ The query output for person-to-group queries consists of general header columns 
 
 ### Organizational attribute columns
 
-In addition to the standard columns present in the .csv file output of person-to-person queries, the output typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these attributes when Workplace Analytics is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company; however, sample organizational attributes might include items such as, StartDate, tenuremonths, or quotaattainment.
+In addition to the standard columns present in the .csv file output of person-to-person queries, the output typically contains a variable set of header columns that represent the organizational attributes of employees. Admins upload these attributes when the advanced insights app is initially set up. These columns are listed to the right of the Organization column for every person included in the query output. The names of the columns will vary from company to company; however, sample organizational attributes might include items such as, StartDate, tenuremonths, or quotaattainment.
 
 ### Metric columns
 
@@ -97,7 +97,7 @@ The .csv output file for both person-to-group queries and group-to-group queries
 
 ![Table of columns for group-to-group queries.](../images/WpA/Use/select-metrics.png)
 
-For details about person-to-group metrics, see [Workplace Analytics metrics](../use/metric-definitions.md#person-to-group-metrics).
+For details about person-to-group metrics, see [Advanced insights metrics](../use/metric-definitions.md#person-to-group-metrics).
 
 **The IsActive attribute**
 
@@ -198,4 +198,4 @@ The query output for group-to-group queries, like person-to-group queries, also 
 |**Meetings invitee count** | The total number of invitees in all meetings from the time investor and collaborator.
 |**Collaboration hours** | The sum of meeting hours and email hours spent between the time investor and collaborator groups. |  
 
-For a complete list of and more details about group query metrics, see [Workplace Analytics metrics](../use/metric-definitions.md#group-to-group-metrics).
+For a complete list of and more details about group query metrics, see [Advanced insights metrics](../use/metric-definitions.md#group-to-group-metrics).

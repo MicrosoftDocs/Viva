@@ -1,7 +1,7 @@
 ---
 
 title: To create an auto-refresh query
-description: How to create an auto-refresh query with Viva Insights in Workplace Analytics
+description: How to create an auto-refresh query in advanced insights
 author: madehmer
 ms.author: helayne
 ms.topic: include
@@ -20,7 +20,7 @@ search.appverid:
 3. Name the query and add an optional description.
 4. Select a time range, such as one month or one year:
 
-    <img src="../Images/WpA/Tutorials/auto-refresh-query.png" alt="Setting auto-refresh for a Workplace Analytics query">
+    <img src="../Images/WpA/Tutorials/auto-refresh-query.png" alt="Setting auto-refresh for a advanced insights query">
 
    >[!Note]
    >Auto-refresh is available only for the predefined time ranges in the Time period list. If you select **Custom range**, the Auto-refresh option is unavailable.

@@ -19,7 +19,7 @@ audience: Admin
 
 Research shows that happy employees help boost productivity and reduce turnover. As a manager, Microsoft Viva Insights has a **My team** page that shows you insights and suggestions that can help you maintain positive employee experiences, such as evaluating how much time your group is working after hours on email or instant messages, and if your group is getting enough 1:1 time with you and other managers.
 
-The **Group insights** section is available to managers who the Viva Insights admin specifies. Group insights are based all employees that report up to you as the manager, not just your immediate group members or direct reports. The admin uses the organizational data that is uploaded into Viva Insights in Workplace Analytics or that’s presented in Azure AD.
+The **Group insights** section is available to managers who the Viva Insights admin specifies. Group insights are based all employees that report up to you as the manager, not just your immediate group members or direct reports. The admin uses the organizational data that is uploaded into the advanced insights app or that’s presented in Azure AD.
 
 See [Admin tasks](../setup/ml-insights-setup.md) for details about the requirements and ask your admin for access.
 
