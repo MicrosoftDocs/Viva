@@ -23,9 +23,9 @@ description: "Learn about list view in Viva Goals"
 > [!IMPORTANT] 
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-The list view is the default view in Viva goals that enables creating, reviewing and tracking progress for a list of OKRs and projects of an organisation, team or user across one or more time periods with all the related information such as title, type, owner, time period, status, progress and alignment.
+The list view is the default view in Viva goals that enables creating, reviewing and tracking progress for a list of OKRs and projects of an organization, team or user across one or more time periods with all the related information such as title, type, owner, time period, status, progress and alignment.
 
-The OKRs and projects in this view are listed in a hierarchical tree structure with the ability to expand or collapse them. When you expand an objective, you will be able to view all the key results, child objectives, and projects under that objective and child objectives and key results in certain cases can be further expanded to see the OKRs and projects that are cascaded under them.
+The OKRs and projects in this view are listed in a hierarchical tree structure with the ability to expand or collapse them. When you expand an objective, you'll be able to view all the key results, child objectives, and projects under that objective and child objectives and key results in certain cases can be further expanded to see the OKRs and projects that are cascaded under them.
 
 [screenshot with expanded objective] 
 
