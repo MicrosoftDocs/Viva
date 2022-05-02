@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Search to find topics in Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
