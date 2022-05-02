@@ -39,8 +39,6 @@ To hit the ground running with Jira integration in Viva Goals, here's what you n
 
 - This integration can also be **disabled** from the same section by clicking on **Change**, and **choosing Disable integration** from the dropdown.
 
-    :::image type="content" source="../media/goals/goals-enable-jira-integration.gif" alt-text="Image of Jira integration":::
-
 If you need additional help in setting up your connection, read our help article on [Jira integration.](https://help.ally.io/en/articles/2285939-jira-integration)
 
 ## Track progress of key results in Viva Goals by story points 
@@ -73,8 +71,6 @@ The status of key results will be updated automatically depending on the story p
 
 - Select **Next > Save**. 
 
-    :::image type="content" source="../media/goals/goals-jira-sp-kr.gif" alt-text="Image of progress by the KPI metric":::
-
 ## Track progress of projects in Viva Goals by story points 
 
 The status of projects will be updated automatically depending on the story points completed in Jira. 
@@ -88,8 +84,6 @@ The status of projects will be updated automatically depending on the story poin
 - All the tasks associated with the JQL will be listed, along with additional task details—**name, story points, assignee, and due date**. 
 
 - Select **Next > Save**.
-
-    :::image type="content" source="../media/goals/goals-jirasp-projects.gif" alt-text="Image of track progress of projects by story points ":::
 
 ### Best practice
 
