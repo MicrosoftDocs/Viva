@@ -1,7 +1,7 @@
 ---
 
-title: Accelerate change with Workplace Analytics
-description: Learn how to use Workplace Analytics data to analyze and accelerate organizational change
+title: Accelerate change with Viva Insights
+description: Learn how to use Viva Insights data to analyze and accelerate organizational change
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -41,7 +41,7 @@ The visual behavioral insight for **Engage influencers** is **Reach of influence
 You can select **See your insights** to see ways you can accelerate organizational change. Depending on your role, the following are available in addition to the recommendations within Take action.
 
 * **Opportunity groups** - Lists the groups who are most affected and would benefit the most from these recommended best practices or [Plans](../Tutorials/solutionsv2-intro.md), which are based on your organizational data and industry research.
-* **Explore the stats** – Links you to more in-depth data about your organization's [internal networks](explore-metrics-internal-networks.md). To view this data in Workplace Analytics, in **Take action** for **Engage Influencers**, select **See your insights** > **Explore the stats** in **Communicate through influencers** to view **Internal networks**.
+* **Explore the stats** – Links you to more in-depth data about your organization's [internal networks](explore-metrics-internal-networks.md). To view this data in Viva Insights, in **Take action** for **Engage Influencers**, select **See your insights** > **Explore the stats** in **Communicate through influencers** to view **Internal networks**.
 
 * **Explore in Power BI** - Links to [Power BI reports](../tutorials/power-bi-intro.md) for more advanced analysis for one or more of the recommendations.
 * **Plans** - Opens a new [Plan](../Tutorials/solutionsv2-intro.md) you can set up relating to one or more of the recommendations.
@@ -66,7 +66,7 @@ Based on [What email, IM, and the phone are each good for](https://insights.offi
 Some key ways to support Teams adoption:
 
 * Launch a [champions program](/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Teams and can guide, teach, and train their peers.
-* Use [Power BI Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
+* Use [Power BI Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Viva Insights data, including instant messages, meeting, and email metrics.
 * Share [Microsoft Teams free, live, online training classes](/MicrosoftTeams/instructor-led-training-teams-landing-page) with employees to help get them up and running quickly with Teams.
 
 For best practices and how to be a role model for Teams use, see [Best practices for efficient communication](../tutorials/gm-communication.md).
@@ -87,4 +87,4 @@ For more best practices and how to host informal gatherings with Teams, see [Bes
 ## Related topics
 
 * [Business outcomes overview](insights.md)
-* [Metric descriptions for Workplace Analytics](metric-definitions.md)
+* [Metric descriptions for Viva Insights](metric-definitions.md)

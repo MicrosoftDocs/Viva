@@ -1,6 +1,6 @@
 ---
 title: Manager insights rollout
-description: Guidance on how to rollout new Manager insights in Workplace Analytics to your organization's managers
+description: Guidance on how to rollout new Viva Insights for managers to your organization's managers
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -12,18 +12,18 @@ audience: Admin
 
 # Manager insights rollout
 
-When you're ready to roll out manager insights to your organization, do the following to introduce and educate managers on how to use Microsoft Viva Insights and Workplace Analytics to better understand their team collaboration habits and to apply them to better support their teams.
+When you're ready to roll out manager insights to your organization, do the following to introduce and educate managers on how to use Microsoft Viva Insights and advanced insights to better understand their team collaboration habits and to apply them to better support their teams.
 
 >[!Note]
->By late June 2021, the apps will no longer send an automated welcome email to managers who get access to My team in Viva Insights or to Manager insights in Workplace Analytics. To introduce these insights to your managers, use the following sample email as a template for sending your own introductory email.
+>As of July 2021, the apps will no longer send an automated welcome email to managers who get access to My team in Viva Insights or to Manager insights. To introduce these insights to your managers, use the following sample email as a template for sending your own introductory email.
 
-* **Enable for key leaders** - Enable My team in Viva Insights and Manager insights for key leaders, so they can learn about them first hand and understand their value. For those who are new to Workplace Analytics, you can also share this [Introduction to Workplace Analytics video](https://www.microsoft.com/videoplayer/embed/RE4xfQk?autoplay=true).
+* **Enable for key leaders** - Enable My team in Viva Insights and Manager insights for key leaders, so they can learn about them first hand and understand their value.
 
 * **Introduce to managers** - Ask business leaders to introduce these new apps to their managers with this [sample email](https://download.microsoft.com/download/5/e/0/5e07aae0-d8ef-44e3-8ae0-3c448f5b8fe1/email-to-managers.docx). It's important that managers understand how to use these insights to best support their teams. Recruiting managers in teams that already support your organization, such as in IT, Training, Corporate communications, and Support, enables them to learn about them first, and then help others learn how to use them.
 
 * **Set up a communications channel** - Set up a communications channel with your managers to evangelize the apps and answer any questions that they might have. Consider using Teams, Yammer, or an email distribution group. You can discuss strategic priorities for the organization, such as 1:1 coaching, meeting reductions, or Teams adoption.
 
-For comprehensive guidance on how to formally roll out manager insights to your team, see the [Workplace Analytics Manager insights rollout guide](https://download.microsoft.com/download/8/6/5/8654a87d-311a-4203-b702-2555b7a0656a/manager-insights-rollout.pdf).
+For comprehensive guidance on how to formally roll out manager insights to your team, see the [Manager insights rollout guide](https://download.microsoft.com/download/8/6/5/8654a87d-311a-4203-b702-2555b7a0656a/manager-insights-rollout.pdf).
 
 ## Resources
 

@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics Collaboration page
-description: Learn how to use MyAnalytics to improve your collaboration at work
+title: Collaboration page for Viva Insights
+description: Learn how to use Microsoft Viva Insights to improve your collaboration at work
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -18,15 +18,15 @@ audience: user
 
 # Collaboration
 
-The Collaboration page on the [MyAnalytics dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
+The Collaboration page on your personal insights [Dashboard](dashboard-2.md) helps you reflect on how effectively you spend your time in meetings, email, chats, and calls.
 
-  ![MyAnalytics Collaboration page.](../../Images/mya/use/collab.png)
+  ![Collaboration page.](../../Images/mya/use/collab.png)
 
 ## Weekly average
 
 The Weekly average section shows an estimate of how much time you spent in meetings, email, chats, and calls in the past four weeks. It's measured as a percentage of your work week, which is based on activity within your set working hours as configured in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance).
 
-   ![MyAnalytics Collaboration Weekly Average.](../../Images/mya/use/collab-weekly-average.png)
+   ![Collaboration Weekly Average.](../../Images/mya/use/collab-weekly-average.png)
 
 ## Meeting habits
 
@@ -34,11 +34,11 @@ The Meeting habits section highlights what your habits or practices are in meeti
 
 * The **Meeting habits** view shows data about your meeting habits based on the meetings on your calendar over the past four weeks. It helps you understand the number of times each of these meeting types occur out of the total number of meetings you organized or accepted to attend.
 
-    ![MyAnalytics Collaboration Meeting Habits View.](../../Images/mya/use/collab-habits-2.png)
+    ![Collaboration Meeting Habits View.](../../Images/mya/use/collab-habits-2.png)
 
 * The **List View** shows details about all the meetings on your calendar over the past four weeks.
 
-    ![MyAnalytics Collaboration Meeting List View.](../../Images/mya/use/collab-meeting-list.png)
+    ![Collaboration Meeting List View.](../../Images/mya/use/collab-meeting-list.png)
 
    |Icon |Description |
    |---|---|
@@ -56,7 +56,7 @@ For a list of meetings that are excluded from the Meetings list and metrics, see
 
 The Communication habits section shows the total number of chats (instant messages) and emails sent and read during each hour of the day in the past four weeks.
 
-   ![MyAnalytics Communication habits.](../../Images/mya/use/collab-comm-habits.png)
+   ![Communication habits.](../../Images/mya/use/collab-comm-habits.png)
 
 ## Productivity insights
 
@@ -64,7 +64,7 @@ The insights are based on your recent collaboration activity at work. Select **V
 
 ## About the metrics
 
-This section describes the metrics that the Collaboration page shows. It also describes how those metrics are calculated by MyAnalytics.
+This section describes the metrics that the Collaboration page shows. It also describes how those metrics are calculated by Viva Insights.
 
 ### Meetings
 
@@ -101,7 +101,7 @@ The following meeting types are excluded from meeting metrics:
   * Out of Office
 
 > [!Note]
-> MyAnalytics counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, MyAnalytics counts this as only one hour of meeting time.
+> Viva Insights counts double-booked meetings only one time for metric calculations. For example, if you have two meetings scheduled for 10:00 AM to 11:00 AM on the same day, Viva Insights counts this as only one hour of meeting time.
 
 ### Email
 
@@ -116,20 +116,20 @@ Also, the time you spend sending or reading email outside your set work hours (a
 
 ### Chats and calls
 
-MyAnalytics counts your audio calls, video calls, and chats (instant messages) that occur in Teams and in Skype for Business as collaboration activities, which are calculated as follows:
+Viva Insights counts your audio calls, video calls, and chats (instant messages) that occur in Teams and in Skype for Business as collaboration activities, which are calculated as follows:
 
 * Each chat or instant message that *you send* counts the time as 30 seconds.
 * Each chat that *you receive* counts as zero seconds in time because empirically, time spent on sent messages is a good predictor of the total duration of Teams and Skype for Business sessions.
 * Each chat or instant message within a 15-minute window of time is counted as one chat.
-* For each impromptu call, MyAnalytics uses the actual duration of the call. An impromptu or ad hoc call is an unscheduled call that’s not included in your calendar.
+* For each impromptu call, Viva Insights uses the actual duration of the call. An impromptu or ad hoc call is an unscheduled call that’s not included in your calendar.
 * For calls that are scheduled as meetings in your calendar, the time counts as zero seconds because these calls are already being counted as meeting time.
 
   >[!Note]
-  > Chats from Teams channels are excluded from the metrics. Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [MyAnalytics FAQ](../Overview/MyA-faq.md).
+  > Chats from Teams channels are excluded from the metrics. Skype for Business data is usually prompt. However, in rare instances, users can experience delays of two to four days. For more information see [Viva Insights FAQ](../Overview/MyA-faq.md).
 
 ### Documents
 
-MyAnalytics also shows information for OneDrive and SharePoint documents that you have worked on. As a MyAnalytics participant, you'll see the following insights:
+Viva Insights also shows information for OneDrive and SharePoint documents that you have worked on. As a Viva Insights participant, you'll see the following insights:
 
 * The number of cloud documents that you worked on (read, edited, or reviewed).
 * The number of cloud documents that you worked on outside of working hours.
@@ -172,7 +172,3 @@ You might miss out on valuable collaboration time if you're spending too much ti
 * **Schedule meeting during work hours**: For non-urgent meetings, scheduling them during the attendees set work hours is a good practice that respects people’s wellbeing.
 
 * **Avoid multitasking during meetings**: Research shows that merely having your smartphone nearby impairs cognitive capacity on par with the effects of lacking sleep. Consider putting away your phone while in meetings to dedicate full attention to them.
-
-## Related topics
-
-[MyAnalytics dashboard](../use/dashboard-2.md)

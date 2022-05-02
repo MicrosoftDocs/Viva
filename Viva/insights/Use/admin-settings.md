@@ -1,7 +1,7 @@
 ---
 
 title: Leader and manager settings for Viva Insights
-description: Learn about Leader & manager settings that only administrators can configure and edit in Workplace Analytics for Microsoft Viva Insights
+description: Learn about Leader & manager settings that only administrators can configure and edit in the advanced insights app for Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
