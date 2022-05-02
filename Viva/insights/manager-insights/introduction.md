@@ -3,7 +3,7 @@
 title: Introducing Manager insights
 description: About Manager insights in Microsoft Viva Insights in Teams and in the advanced insights app and how to use them to help manage your team
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: viva-insights-manager 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
@@ -19,7 +19,7 @@ audience: Admin
 
 Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in Microsoft Viva Insights in Teams and in Advanced insights.
 
-Managers who are assigned licenses starting October 2021, can view their team's [group insights](../use/group-insights.md) in [My team](../use/myteam.md) within the Viva Insights app in Teams. Managers who were assigned licenses for advanced insights prior to October 2021 can see the legacy manager insights in [the advanced insights app](https://workplaceanalytics.office.com).
+Managers who are assigned licenses can view their team's [group insights](../use/group-insights.md) in [My team](../use/myteam.md) within the Viva Insights app in Teams.
 
 ![Manager insights in advanced insights.](./images/manager-insights.png)
 
