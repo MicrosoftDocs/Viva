@@ -55,8 +55,6 @@ Admins can enable this integration by performing the following steps:
 
 - For Jira instances on the cloud, enter the email address and the Application Programming Interface (API) token associated with your Jira account. The instructions for generating an API token for your Jira cloud account are **[described here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)**.
 
-    :::image type="content" source="../media/goals/viva-goals-jira-integration-2.png" alt-text="Jira Integration 2":::
-
 - Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
 While in most cases one connection is enough, Viva Goals allows you to connect with multiple Jira instances. Select **New connection** to add another instance. You can add names to your connections to differentiate them. These names are displayed to members when they link their OKRs to Jira stories.
@@ -72,14 +70,8 @@ Once you've configured the connection, the next step is to start linking OKRs to
 - Select the method using which you want to measure the progress of the key result—percent complete or KPI (success metric). If you're choosing KPI, provide a metric, starting value, and target value.
 
 - Select a connection, and add a JQL query to match any issues that would relate to the objective or key result. This also means that as more issues in Jira match the query, they keep getting linked to the success of the objective or key result.
-
-    :::image type="content" source="../media/goals/viva-goals-jira-integration-3.gif" alt-text="Jira Integration 3":::
-
+    
     A JQL query can be copied from Jira. Search for issues you want to link to your objective using available filters on Jira. Next, select the **Advanced** option and Jira automatically converts your search to a JQL query. You can copy and paste the query string into your integration with Viva Goals.
-
-    :::image type="content" source="../media/goals/viva-goals-jira-integration-4.png" alt-text="Jira Integration 4":::
-
-    :::image type="content" source="../media/goals/viva-goals-jira-integration-5.png" alt-text="Jira Integration 5":::
 
     The JQL query linked to the objective or key result can be edited at any given point in time. This leads to a recalculation of current progress.
 
@@ -122,8 +114,6 @@ Consider the objective: **Improve the overall quality of the product**. In this 
 
 When an objective or key result is linked to Jira, members can see the Jira icon next to the progress bar indicating there's a connection.
 
-:::image type="content" source="../media/goals/viva-goals-jira-integration-6.png" alt-text="Jira Integration 6":::
-
 The following colors of the progress bar indicate the status of the objective:
 
 - If the progress is 0 - 25% less than the expected progress at any given point in time, the OKR status is Behind, and the progress bar color will be Orange.
@@ -131,6 +121,4 @@ The following colors of the progress bar indicate the status of the objective:
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red.
 
 Viva Goals pulls in new updates from Jira every 60 minutes. However, you can also manually refresh to pull in any new changes.
-
-:::image type="content" source="../media/goals/viva-goals-jira-integration-7.png" alt-text="Jira Integration 7":::
 
