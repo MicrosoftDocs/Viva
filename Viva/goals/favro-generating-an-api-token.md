@@ -26,15 +26,15 @@ description: "Learn how to add a personal API token from the 'Profile & account'
 
 Below are steps that explains how to add a personal API token from the '**Profile & account**' section in Favro.
   
-1. From the top-left corner, click on your account drop-down.
+1. From the top-left corner, select your account drop-down.
   
-2. From the drop-down menu, click **Profile and account**.
+2. From the drop-down menu, select **Profile and account**.
   
-3. On you **Profile and account** page, click on the **API Tokens** tab.
+3. On your **Profile and account** page, select the **API Tokens** tab.
   
-4. Click the **Create new token** button**.
+4. Select the **Create new token** button**.
   
-This will generate an API token for your Favro account that you can use to integrate with Viva Goals.
+This procedure will generate an API token for your Favro account that you can use to integrate with Viva Goals.
 
 :::image type="content" source="../media/goals/viva-goals-favro-1.png" alt-text="Favro 1":::
 
