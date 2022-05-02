@@ -29,8 +29,6 @@ While Objectives and Key Results tell you what your goal is and how you will kno
 ## What are projects
 
 Projects help you keep track of all the work your organization is executing to achieve your OKRs. Like key results, projects can also be created under objectives and other key results in Viva Goals, depending on which outcome they help to achieve. You can create a project by clicking on **Add project** under the appropriate objective or key result.
-
-:::image type="content" source="../media/goals/adding-projects.gif" alt-text="Adding projects":::
   
 The following are recommended ways to use Projects:
 
@@ -44,15 +42,9 @@ Projects are always placed after all the objectives and key results at each leve
 
 Projects in Viva Goals currently support JIRA, the popular project management system. Like the current JIRA integration, you can specify a JQL to retrieve the list of tasks from JIRA that constitute your project.
 
-:::image type="content" source="../media/goals/jira-jql.png" alt-text="JIRA JQL":::
-
 While Viva Goals supports a [JIRA integration](https://help.ally.io/en/articles/2285939-jira-integration) for OKRs, projects let you see the individual tasks and their completion state, helping you understand your execution at a much deeper level. The updates for a project also call out what has changed since the last checkin - which tasks were completed, were any tasks added or removed.
 
-:::image type="content" source="../media/goals/projects-display-information.png" alt-text="The information displayed by a project":::
-
 Viva Goals will periodically check on project progress in JIRA, and update status. Progress and Status is calculated for projects exactly like [key results](https://help.ally.io/en/articles/3065807-how-are-progress-and-status-calculated). Similar to key results, you can also check in on a project, where you can temporarily override the status. However, this will last only as long as Viva Goals does not detect a change in the completion status of the project in JIRA, at which point, it will overwrite your checkin with an automated update.
-
-:::image type="content" source="../media/goals/new-check-in.png" alt-text="New check in":::
 
 ## Current limitations with projects
 
