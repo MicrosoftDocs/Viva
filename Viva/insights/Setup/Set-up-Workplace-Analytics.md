@@ -27,7 +27,7 @@ Although the Microsoft 365 admin and the Viva Insights Administrator do most of 
 
 * **Owner** - The following key personas do the setup steps:
 
-  * **Viva Insights Administrator** (or Workplace Analytics admin) does most of the setup tasks and is the person referred to as "you" in the following steps.
+  * **Viva Insights admin** does most of the setup tasks and is the person referred to as "you" in the following steps.
   * **Microsoft 365 admin** assigns licenses and roles in **Step 2**.  
   * **Viva Insights** processes and validates data in a few of the steps.
 

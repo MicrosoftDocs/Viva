@@ -1,6 +1,6 @@
 ---
-title: Charts in Workplace Analytics
-description: Describes the different chart types and how to use the chart features in Workplace Analytics
+title: Charts in the advanced insights app
+description: Describes the different chart types and how to use the chart features in the advanced insights app with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -14,9 +14,9 @@ manager: scott.ruble
 audience: Admin
 ---
 
-# Charts in Workplace Analytics
+# Advanced insights charts
 
-[Explore the stats](explore-intro.md) data in Workplace Analytics summarizes your organizational data into visual charts. The following describes these charts and information about how to use them:
+[Explore the stats](explore-intro.md) data in the advanced insights app summarizes your organizational data into visual charts. The following describes these charts and information about how to use them:
 
 * [Chart types](#chart-types) describes the primary chart types.
 * [Chart features](#chart-features) helps you get the most out of the charts.
@@ -57,7 +57,7 @@ You could view this relationship between the charts in a pair as a sort of "char
 
 ### Defaults
 
-By default, Workplace Analytics charts show data by employee groups within an organization. Charts show the average metric for each group. Changing the metric changes how the groups are sorted. To learn about changing metrics, see [Sort groups](#sort-groups).
+By default, the advanced insights charts show data by employee groups within an organization. Charts show the average metric for each group. Changing the metric changes how the groups are sorted. To learn about changing metrics, see [Sort groups](#sort-groups).
 
 By default, a column chart (or box plot) shows 30 columns, where each column depicts a group of people. You can [change the number of groups (columns)](#to-change-the-number-of-groups) that a chart shows.
 
@@ -65,7 +65,7 @@ Charts also show the average for all groups, in the reference line. For more inf
 
 ### Minimum group size
 
-The Viva Insights or Workplace Analytics admin can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. (The minimum group size can be raised or lowered, but it cannot be set to a number lower than five.)
+The Viva Insights admin can set a minimum group size threshold, which is required for the group's data to be included in the chart. If the group size is less than the minimum, the group's data is excluded. (The minimum group size can be raised or lowered, but it cannot be set to a number lower than five.)
 
 In the show of a group whose size is smaller than the minimum, you can see the name of the group but not its values. If the size of a group equals zero, the name is also excluded. For more information about setting group size, see [Privacy settings](privacy-settings.md).
 
@@ -175,7 +175,7 @@ In a chart pair, you use the column chart or box plot on the left to change how 
 
    This download contains the chart data exactly as the chart shows it. If you've applied any filters or changed the number of groups to show, those changes are reflected in the data that is downloaded.
 
-   Because the download contains just what you see in the chart, you can use the downloaded .csv data in Excel or in Power BI to reproduce the chart that Workplace Analytics shows.
+   Because the download contains just what you see in the chart, you can use the downloaded .csv data in Excel or in Power BI to reproduce the chart that Viva Insights shows.
 
 >[!Note]
 >Because **Download CSV** gives you only the summarized data shown in the chart, it does not include the query data that was used to generate the chart, so privacy and minimum aggregation rules are adhered to.
@@ -206,7 +206,7 @@ After you change one or more page settings, chart or add one of more filters, yo
 
 ![Chart settings.](../images/wpa/use/chart-settings.png)
 
-The next time you view Explore the stats data in Workplace Analytics, it shows the charts with the default settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
+The next time you view Explore the stats data in Viva Insights, it shows the charts with the default settings and filters. To view the custom chart settings saved from earlier, select the **ellipsis** (**...**) next to **Page settings** > **Load saved settings**.
 
 ### To change the date range
 

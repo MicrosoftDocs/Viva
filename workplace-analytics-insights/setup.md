@@ -1,16 +1,20 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-title: Set up Viva Insights
-description: Steps to set up Microsoft Viva Insights
+title: Set up Advanced insights
+description: Steps to set up Advanced insights with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null
-ms.prod: wpa
-manager: scott.ruble
+ms.collection: viva-insights-advanced 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
+manager: helayne
 audience: Admin
 ---
-# Set up Viva Insights
+# Set up Advanced insights
 
 *This experience is only available through private preview at this time.*
 
@@ -26,7 +30,7 @@ Before people in your organization can view and use Microsoft Viva Insights, you
 
 This new release is currently limited to Microsoft 365 or Office 365 E5 or E3 plan subscribers through their Microsoft service representative.
 
-You can request access and get more information at [Microsoft Viva Insights in Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Viva Insights.
+You can request access and get more information at [Advanced insights with Microsoft Viva Insights](https://www.microsoft.com/microsoft-365/business/workplace-analytics). Select **Contact us** and complete the form to request access and get more information about Viva Insights.
 
 ## Activate promotional codes
 
