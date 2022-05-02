@@ -36,16 +36,7 @@ Viva Goals’ Planview Projectplace integration allows you to link OKRs to your 
 
 2. In the integrations section,  navigate to the **Planview Projectplace** and select **Manage**.
 
-    :::image type="content" source="../media/goals/goals-planview-projectplace.png" alt-text="Image of Planview Projectplace ":::
-
-
 3. Select **New Connection** and in the popup that follows, sign in to your Planview Projectplace account to authenticate the connection. 
-
-    :::image type="content" source="../media/goals/goals-new-connection.png" alt-text="Image of New Connection":::
-
-     
-    :::image type="content" source="../media/goals/goals-connect-planview-projectplace.png" alt-text="Image of connect to preview Projectplace":::
-
 
 4. Name your connection and select **Next** to complete the setup. 
 
@@ -64,27 +55,14 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 
 2. Select **Planview Projectplace** from the list of integrations available. If there are multiple connections listed, choose a connection you’d like to use.
 
-    :::image type="content" source="../media/goals/goals-select-planview-projectplace.png" alt-text="Image of Select Planview Projectplace":::
-
 3. Next, map the OKR to the project, board, assignee, due date, and activity of your choice. 
-
-    :::image type="content" source="../media/goals/goals-map-the-OKR-to-the-project.png" alt-text="Image of map the OKR to the project":::
-
 
 4. Select **Next** to finish and save your OKR. You’ll now see a Planview Projectplace icon next to the OKR ‘s progress indicator, which means Viva Goals will automatically measure the progress based on the number of cards moved to the **Done** list. (‘Completed’ state)
 
-    :::image type="content" source="../media/goals/goals-planview-projectplace-next.png" alt-text="Image of planview projectplace next":::
-
 5. The OKR syncs automatically every hour, but you can refresh it manually by selecting **Sync Now**. 
 
-    :::image type="content" source="../media/goals/goals-planview-projectplace-sync-now.png" alt-text="Image of planview projectplace Sync":::
-
     Say, for example, you have an objective to 'Create an amazing user experience with the revamped product tour'. You can create a corresponding project place board where you've listed out all the action items for the product tour revamp. As you start pushing each action item to the **Done** state, your objective's overall progress gets updated automatically. 
-
-    :::image type="content" source="../media/goals/goals-planviewprojectplace-done.gif" alt-text="Image of planview projectplace done":::
 
 ### Disabling the integration
 
 The integration may also be disabled at any time from the 'Change' dropdown in the Projectplace integration view.
-
-:::image type="content" source="../media/goals/goals-planview-projectplace-disabling-the-integration.png" alt-text="Image of disabling the integration"::: 
