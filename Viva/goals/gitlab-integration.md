@@ -40,21 +40,15 @@ Admins can enable this integration, by performing the following steps:
 
 - Against **GitLab**, you'll have an option to **Enable** the integration. If you have a connection already created, you'll have an option to **Manage** the integration.
 
-    :::image type="content" source="../media/goals/viva-goals-gitlab-integration-1.png" alt-text="GitLab Integration 1":::
-
 ## Connect GitLab to your Viva Goals account - Admins
 
 - After enabling the integration, as an admin, the first step is to configure a GitLab connection from the **GitLab configuration** page.
 
 - Select **New Connection**, and sign in to your GitLab account.
 
-    :::image type="content" source="../media/goals/gitlab-connection-creat.gif" alt-text="GitLab Integration 2":::
-
 - Provide a name for the connection.
 
 - It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
-
-    :::image type="content" source="../media/goals/viva-goals-gitlab-integration-3.png" alt-text="GitLab Integration 3":::
 
 - Viva Goals allows you to connect with multiple projects. Select **New Connection** to fetch data from another project. You can differentiate these connections using names, and the names will be displayed to other users when they link their OKRs with GitLab data.
 
@@ -96,8 +90,6 @@ The following colors of the progress bar indicate the status of the objective:
 ## How to disable the integration
 
 The GitLab integration may also be disabled by an Admin at any time. To disable the integration as an Admin, go to **GitLab** in the **Integrations** section and select **Manage**. In the **GitLab Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
-
-:::image type="content" source="../media/goals/viva-goals-gitlab-integration-5.png" alt-text="GitLb Integration 5":::
 
 > [!NOTE]
 > If a project in Gitlab is closed without even marking all the sub-tasks as **complete**, it will drive a 100% progress on Viva Goals considering the project is completed since it was closed.
