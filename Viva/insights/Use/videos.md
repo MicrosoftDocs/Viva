@@ -2,7 +2,7 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Videos for Viva Insights
-description: Videos about how Microsoft Viva Insights in Workplace Analytics works
+description: Videos about how Microsoft Viva Insights works
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -18,11 +18,7 @@ audience: Admin
 
 # Viva Insights videos
 
-The Microsoft Viva Insights in Workplace Analytics documentation has a number of videos that help explain concepts or describe procedural steps. To find the current videos, refer to the following sections:
-
-## Introduction
-
-* [Navigate Workplace Analytics](../overview/get-started.md#video-navigate-workplace-analytics)
+The Microsoft Viva Insights documentation has a number of videos that help explain concepts or describe procedural steps. To find the current videos, refer to the following sections:
 
 ## Setup
 
