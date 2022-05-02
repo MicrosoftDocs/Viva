@@ -1,6 +1,6 @@
 ---
 title: Query designer templates
-description: Learn about the Query designer templates available in Workplace Analytics that you can use to run a query, export its results, and visualize them in Power BI
+description: Learn about the Query designer templates available in Viva Insights that you can use to run a query, export its results, and visualize them in Power BI
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced 
@@ -16,7 +16,7 @@ audience: Admin
 
 # Templates in Query designer
 
-The Query designer in Workplace Analytics with Viva Insights includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom Workplace Analytics query and selects the applicable Power BI charts to show results from these queries.
+The Query designer in the advanced insights app that's available with Viva Insights includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom Viva Insights query and selects the applicable Power BI charts to show results from these queries.
 
 ## Requirements for analysts
 
@@ -27,7 +27,7 @@ The Query designer in Workplace Analytics with Viva Insights includes a number o
 The Query designer has templates for the following Power BI dashboards for visually analyzing data in Power BI. Select one to see more details about it and to view an interactive demo.
 
 >[!Note]
->Most of these dashboards are currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/> (Business continuity and Microsoft Teams insights are the exceptions that support the same [languages as Workplace Analytics](../overview/supported-languages.md#supported-languages).)
+>Most of these dashboards are currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/> (Business continuity and Microsoft Teams insights are the exceptions that support the same [languages as Viva Insights](../overview/supported-languages.md#supported-languages).)
 
 | &nbsp; | &nbsp; |
 |------|-------|
@@ -39,5 +39,5 @@ The Query designer has templates for the following Power BI dashboards for visua
 |![Business communication icon.](../images/wpa/playbooks/focus-64x64.svg) |[**Business continuity**](./power-bi-bc.md)<br>Shows example insights into how shifting to remote work has impacted business. |
 |![Microsoft Teams insights icon.](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Microsoft Teams insights**](./power-bi-teams.md) <br>Shows how adopting Microsoft Teams can affect collaboration and productivity in your organization. |
 |![Manager effectiveness icon.](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Manager effectiveness**](./power-bi-manager.md) <br>Shows analysis that measures behaviors and trends about people managers across four key themes within your organization, including coaching, empowerment, connection, and modeling. |
-|![Behavior patterns icon.](../images/wpa/playbooks/influencer-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint-2.md) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes. |
+|![Behavior patterns icon.](../images/wpa/playbooks/influencer-32x32.svg) |[**Behavior patterns for Glint**](./power-bi-glint-2.md) <br>Combines behavioral data from Viva Insights and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes. |
 |![Sales business continuity icon.](../images/wpa/playbooks/manage-connectedness-32x32.svg) |[**Sales business continuity**](./pbi-bc-sales.md) <br>Shows insights into how shifting to remote work has impacted your sales organization. |

@@ -56,6 +56,46 @@ Third-party content sources are not enabled by default. To enable these sources,
 >[!NOTE]
 >Available content providers are subject to change. Depending on your organization, you may have access to more content providers than are listed here.
 
+## Dataflow architecture
+
+The dataflow diagram illustrates how Viva Learning ingests third-party content. The third-party provider is the ultimate source of information for content records for their customers. Viva Learning extracts the content from the third-party provider using the connector.
+
+![Flow chart depicting the content ingestion process, which is described in the paragraph below.](../media/learning/3p-dataflow.png)
+
+The step-by-step content ingestion process is described below.
+
+1. **Third-party provider** <br> Viva learning requires content catalog data from every third-party content source. The various fields extracted as part of the Content Catalog package or API from the content source are represented in the table [View the table](#content-catalog-metadata-fields).
+
+2. **Third-party Connector** <br> The third-party Connector pulls content from the content provider using both API and SFTP mechanisms. The first time you sync, the third-party extractor pulls the full data. Afterwards, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. In case of any error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva learning application and displayed on the Viva Learning app.
+
+3. **Viva Learning** <br> Content details (content provider logo, thumbnail, title, description, etc.) display on the **Home** and **Learning** tabs in Viva Learning.
+
+### Content catalog metadata fields
+
+|Metadata field name |Field details |Priority |
+|:-------------------|:-------------|:--------|
+|Content provider name | Third-party content provider's name. This can be provided separately and appended. |Required |
+|Content provider logo URL | URL to the third-party provider's logo for display purposes. |Required |
+|Content source name |Course content source's name |Required if integrated with provider |
+|Content source logo |Course content source's logo |Required if integrated with provider |
+|Title of learning content |Title of learning content |Required |
+|Content module's thumbnail URL |URL to the learning content thumbnail image for display purposes |Required |
+|Content module's URL (deep link to consume content) |URL to learning content. This is the link that the user selects to consume content. |Required |
+|Content module description/summary |Description or summary of learning content |Required |
+|Content language/locale |Language in which content is available. Metadata should be provided in all available languages. |Required |
+|Content module duration |Time duration of learning content |Required |
+|Last modified date of content module/content creation date |Date the learning content was last modified |Required |
+|Content format |Content format, such as article or video |Required |
+|Assigned user role |Role(s) or group(s) that have permissions to the content  |Required for role-based access |
+|Content ID |Unique identifier for learning content |Recommended |
+|Content module author/creator/contributor |Author/creator/contributor of learning content |Recommended |
+|Content module length/size |Size of content, not based on time. For example, this could be the number of pages. |Recommended |
+|Tags and keywords |Keywords, topics, and other tags associated with the learning content |Recommended |
+|Difficulty level |Difficulty level of the course (such as beginner, intermediate, or advanced) |Recommended |
+|Content module thumbnail alt text |Alternative text to support accessible design for images. Text describes images and can be invoked by screen readers for users with assistive technology. |Recommended |
+|Popularity score |Rating or popularity score for learning content |Recommended |
+|Skills associated |Skills tags associated with the learning content |Recommended |
+
 ## Content ingestion errors
 
 If you experience any errors in your Microsoft 365 admin center during content ingestion, refer to the table below for next steps. Please note that this is an exhaustive list and may contain more error codes in the future.

@@ -1,7 +1,7 @@
 ---
 
-title: System defaults for Workplace Analytics
-description: Describes the system default settings in Workplace Analytics that administrators configure and edit for your organization
+title: System defaults for Advanced insights
+description: Describes the system default settings in the advanced insights app for Viva Insights that admins configure and edit for your organization
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -11,13 +11,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # System defaults
 
-In **System defaults**, you can configure the following:
+In **System defaults** for the advanced insights app in Microsoft Viva Insights, you can configure the following:
 
 * [Default time zone](#default-time-zone)
 * [Working days](#to-set-default-working-days)
@@ -25,19 +25,19 @@ In **System defaults**, you can configure the following:
 * [Hourly rate](#hourly-rate)
 * [Reclassify external domains](#reclassify-external-domains)
 
-If you are setting up Workplace Analytics for the first time, follow these steps:
+If you are setting up the advanced insights app for the first time, follow these steps:
 
 1. Examine the default values of these **System defaults** settings. Either accept these default values or change one or more of them.
-2. Expand the **Exclusions** section and look at its settings. (For more information about these settings, see [Privacy settings](privacy-settings.md).)
-3. Optionally, specify data to exclude in one or the **Exclusion** options and, optionally, select to hash subject lines.
-4. Select **Next**. Workplace Analytics now begins to process your organization's collaboration (Microsoft 365) data.
+1. Expand the **Exclusions** section and look at its settings. (For more information about these settings, see [Privacy settings](privacy-settings.md).)
+1. Optionally, specify data to exclude in one or the **Exclusion** options and, optionally, select to hash subject lines.
+1. Select **Next** to process your organization's collaboration (Microsoft 365) data in the app.
 
-If you are _not_ setting up Workplace Analytics, feel free to change these settings whenever it's necessary. Note that after setup of Workplace Analytics is complete, the exclusions settings are made on the **Privacy settings** page, which you can open by selecting the **Privacy** option on the menu at the top of the **System defaults** page.
+If you are _not_ setting up the app, feel free to change these settings whenever it's necessary. Note that after the initial setup is complete, you can updated the exclusions settings on the **Privacy settings** page.
 
-> [!Important]
-> Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
+>[!Important]
+>Changes made to these system defaults are applied soon after the next data refresh of your organizational (HR) data or Microsoft 365 collaboration data. These changes apply to data retroactively and can affect calculations of historical metrics.
 
-**Owner** – Only Viva Insights or Workplace Analytics admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
 ![System defaults.](../images/wpa/use/sys-def-page.png)
 
@@ -45,9 +45,9 @@ If you are _not_ setting up Workplace Analytics, feel free to change these setti
 
 Use this setting to configure the default time zone for your organization. Typically, this is the time zone of the corporate headquarters or the time zone in which most employees reside.
 
-Workplace Analytics first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Workplace Analytics tries to determine it from the [organizational data](organizational-data.md). If time zones have not been uploaded in the organizational data, Workplace Analytics reads the time zone from the setting on this page. If the default time zone was not set on this page, Workplace Analytics uses Pacific Time (US).
+Viva Insights first attempts to read time zones from each user's mailbox. If time zone has not been set up for the mailbox, Viva Insights tries to determine it from the [organizational data](organizational-data.md). If time zones have not been uploaded in the organizational data, Viva Insights reads the time zone from the setting on this page. If the default time zone was not set on this page, Viva Insights uses Pacific Time (US).
 
-Workplace Analytics uses the time zone setting in calculations of collaboration activities, such as emails and meetings. It uses this setting only for Microsoft 365 data that it has yet to process. Changing the time zone setting does not affect data that has already been processed.
+Viva Insights uses the time zone setting in calculations of collaboration activities, such as emails and meetings. It uses this setting only for Microsoft 365 data that it has yet to process. Changing the time zone setting does not affect data that has already been processed.
 
 ### To set the default time zone
 
@@ -56,9 +56,9 @@ Workplace Analytics uses the time zone setting in calculations of collaboration 
 
 ## Working days and working hours
 
-Users can set their own working days in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance). Workplace Analytics attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
+Users can set their own working days in [Outlook settings](https://outlook.office.com/calendar/options/calendar/view/appearance). Viva Insights attempts to read these custom settings from each user’s mailbox first. Failing that, it uses the default settings for employees' working days and hours that you set in **System Defaults**.
 
-Workplace Analytics uses the working days and hours settings in calculations of collaboration activities, such as emails and meetings. It uses these settings only for Microsoft 365 data that it has yet to process. Changing the working days and hours settings does not affect data that has already been processed.
+Viva Insights uses the working days and hours settings in calculations of collaboration activities, such as emails and meetings. It uses these settings only for Microsoft 365 data that it has yet to process. Changing the working days and hours settings does not affect data that has already been processed.
 
 ### To set default working days
 
@@ -70,7 +70,7 @@ Workplace Analytics uses the working days and hours settings in calculations of 
 
 ## Hourly rate
 
-Workplace Analytics uses hourly rate to calculate the cost of low-quality meetings, where a person's hourly rate for the organization is multiplied by number of low-quality meeting hours. Workplace Analytics first tries to get the Hourly rate value from organizational (HR) data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
+Viva Insights uses hourly rate to calculate the cost of low-quality meetings, where a person's hourly rate for the organization is multiplied by number of low-quality meeting hours. Viva Insights first tries to get the Hourly rate value from organizational (HR) data. Failing that, it uses the value of Hourly rate that is set on this page. For more information, see [Meetings overview](../use/explore-metrics-meetings-overview.md#hourly-rate).
 
 ### To set the default hourly rate
 
@@ -96,5 +96,5 @@ After you add a domain and save the change for this setting, it'll change all of
 
 ## Related topics
 
-* [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
+* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
 * [Privacy settings](privacy-settings.md)

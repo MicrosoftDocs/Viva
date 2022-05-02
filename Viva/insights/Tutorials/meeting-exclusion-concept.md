@@ -3,7 +3,7 @@
 title: Meeting exclusion rule concepts
 description: Describes concepts and tools for meeting exclusion rules, including a word cloud and a list of supported languages
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,13 +11,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Meeting exclusion rule concepts and tools
 
-You can use the following screen elements and concepts to create and use meeting exclusion rules in Microsoft Viva Insights in Workplace Analytics. For step-by-step walkthroughs, see [Meeting exclusion rule walkthroughs](meeting-exclusion-rules.md).
+You can use the following screen elements and concepts to create and use meeting exclusion rules in the advanced insights app for Microsoft Viva Insights. For step-by-step walkthroughs, see [Meeting exclusion rule walkthroughs](meeting-exclusion-rules.md).
 
 At each step in the exclusion-creation flow, you'll see a page, such as the following.
 
@@ -39,7 +39,7 @@ This section tracks how many meetings and meeting hours remain in your analysis 
 
 These numbers help you understand the effects of the exclusions that are already in place and the effect of the exclusion created in the current step. This helps you confirm whether to remove these meetings and decide which meetings, if any, that you want to keep in your analysis. 
 
-Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since Workplace Analytics began to use data from Microsoft 365.
+Before you apply any filters, 100% of meeting hours are still available for analysis, as are 100% of the meetings that have been held in the time since the app began to use data from Microsoft 365.
 
   ![Meeting hours summary (before).](../images/wpa/tutorials/09-summary-meetings-hours.png)
 
@@ -97,7 +97,7 @@ To remove a keyword from this exclusion, select the keyword in the word cloud an
 
 ### Keyword search
 
-You might know of a specific word that you want to retain in your analysis (that is, remove from the exclusion). If you cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. This lets you search for phrases that contain one, two, or three words. If the keyword is found, Workplace Analytics shows data in the Phrase table about removing it from the exclusion. To remove it from the exclusion, select **Make an exception**.
+You might know of a specific word that you want to retain in your analysis (that is, remove from the exclusion). If you cannot find that word in the word cloud, search for it in the field marked **Search for a keyword**. This lets you search for phrases that contain one, two, or three words. If the keyword is found, the app shows data in the Phrase table about removing it from the exclusion. To remove it from the exclusion, select **Make an exception**.
 
 #### Remove an exception
 
@@ -109,11 +109,11 @@ You can also remove all of your exceptions to this exclusion at once. To do this
 
 ### Phrase table
 
-Workplace Analytics shows a table named **Phrases that contain the selected keyword**. This table can help you understand the context of meetings that are associated with this subject-line phrase or keyword.
+The app shows a table named **Phrases that contain the selected keyword**. This table can help you understand the context of meetings that are associated with this subject-line phrase or keyword.
 
 ### Example 1: Business
 
-The words "business" or "marketing" in the word cloud represent meetings that you might want to include in your analysis. To help you decide, you can see the effects of removing this keyword (and its meetings) from the exclusion. For example, if you select **business**, Workplace Analytics shows what percentage of meetings have this word in their subject line and the total number of hours for those meetings:
+The words "business" or "marketing" in the word cloud represent meetings that you might want to include in your analysis. To help you decide, you can see the effects of removing this keyword (and its meetings) from the exclusion. For example, if you select **business**, the app shows what percentage of meetings have this word in their subject line and the total number of hours for those meetings:
 
 ![Percentages.](../images/wpa/tutorials/02-word-cloud-business.png)
 
@@ -142,7 +142,7 @@ For a **New exclusion**, the following types of exclusions are available to cr
 
 ## Default meeting-exclusion rule
 
-Workplace Analytics supplies one meeting exclusion rule by default, the _Tenant default meeting exclusion rule_. This rule excludes the following types of meetings from query results, which are not likely relevant workplace meetings:
+The app supplies one meeting exclusion rule by default, the _Tenant default meeting exclusion rule_. This rule excludes the following types of meetings from query results, which are not likely relevant workplace meetings:
 
 * Meetings with only one attendee
 * Meetings equal to or longer than eight hours
@@ -194,14 +194,14 @@ The options for archived rules are **Delete** and **Restore**. **Restore** retur
 
 ## Application of meeting exclusion rules
 
-Workplace Analytics provides a default meeting exclusion rule. You and other analysts can create new rules. Are all these rules available to all analysts? Can you combine your rules with theirs, or with the default rule? This section answers those questions and others.
+The app provides a default meeting exclusion rule. You and other analysts can create new rules. Are all these rules available to all analysts? Can you combine your rules with theirs, or with the default rule? This section answers those questions and others.
 
-Q1. **Scope of meeting exclusion rules** - You create meeting exclusion rules on the Meeting exclusions page, which is reached through the **Analyst settings** page of Workplace Analytics. After you create rules, where can you apply them in Workplace Analytics?
+Q1. **Scope of meeting exclusion rules** - You create meeting exclusion rules on the Meeting exclusions page, which is reached through the **Analyst settings** page. After you create rules, where can you apply them?
 
 Exclusion rules apply in two areas where analysts work most:
 
 * **Explore the stats** - Exclusion rules work for analysts as they inspect data in Explore the stats. For more information, see [Select which rule to use](meeting-exclusion-rules.md#select-which-rule-to-use).
-* **Query designer** - Analysts can also apply exclusion rules when creating, refining, and running queries in Workplace Analytics. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
+* **Query designer** - Analysts can also apply exclusion rules when creating, refining, and running queries. For more information, see [Use rules with queries](meeting-exclusion-rules.md#use-rules-with-queries).
 
 Q2. **Edit existing rules** - Can you change/edit the default meeting-exclusion rule, or rules that you or other analysts have created?
 
