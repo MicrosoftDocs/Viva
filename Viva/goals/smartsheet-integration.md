@@ -36,8 +36,6 @@ Viva Goals’ Smartsheet integration allows you to link Objectives and Key Resul
 
 4. Name your connection and select **Next** to complete setup.
 
-    :::image type="content" source="../media/goals/viva-goals-smartsheet-integration-1.png" alt-text="Smartsheet Integration 1":::
-
     Viva Goals allows you to connect with multiple Smartsheet accounts. Select **New connection** to add another instance and use names to differentiate them. These names are displayed to members when they link their OKRs to Smartsheet cells.
 
     > [!NOTE]
@@ -54,17 +52,9 @@ Now that the integration is enabled, your team can link a Smartsheet cell with a
     > [!NOTE]
     > At this time, you may only track by key performance indicator (KPI), not percentage completed, if you would like to use the Smartsheet integration. Go ahead and add the integration.
 
-    :::image type="content" source="../media/goals/viva-goals-smartsheet-integration-2.png" alt-text="Smartsheet Integration 2":::
-
 2. In the popup box, indicate the cell you would like to link the metric with. Select **view** to preview your sheet. In the following example, we'll locate and use Sales-Region3, row 6.
 
-    :::image type="content" source="../media/goals/viva-goals-smartsheet-integration-3.png" alt-text="Smartsheet Integration 3":::
-
-    :::image type="content" source="../media/goals/viva-goals-smartsheet-integration-4.png" alt-text="Smartsheet Integration 4":::
-
 3. Select **Next** to finish and save your OKR. You should now see an icon next to the OKR. The OKR will sync automatically every hour, but to refresh it manually select **refresh**.
-
-    :::image type="content" source="../media/goals/viva-goals-smartsheet-integration-5.png" alt-text="Smartsheet Integration 5":::
 
 It’s as simple as that! Now you know how to work smarter with Viva Goals and Smartsheet.
 
