@@ -29,11 +29,11 @@ When you log in to your Viva Goals account, you will be able to view and access 
 
 There are 3 views that are available in Viva Goals: 
 
-**1. [List view](#link-to-list-view-article)** - The list view is the default view in Viva goals. This view enables creating, reviewing and tracking progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress and alignment.
+**1. [List view]** - The list view is the default view in Viva goals. This view enables creating, reviewing and tracking progress for OKRs and projects across one or more time periods with information like title, type, owner, time period, status, progress and alignment.
 
-**2. [Quick View](#link-to-quick-view-article)** - Quick view is a a panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives and activity for an OKR or a Project.
+**2. [Quick View]** - Quick view is a a panel that appears on the right side of the OKRs page when you click on the title of an OKR or a project. This view provides an overview of progress, details, alignment, children objectives and activity for an OKR or a Project.
 
-**3. [Chart view](#link-to-chart-view-article)** - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
+**3. [Chart view]** - The chart view in Viva Goals displays all the OKRs and projects in a nested tree-like structure, providing a clear picture of the parent-child hierarchy. This view makes it easy to visually grasp the hierarchical structure of the OKRs and their status in a snapshot. 
 
 ## List view 
 
