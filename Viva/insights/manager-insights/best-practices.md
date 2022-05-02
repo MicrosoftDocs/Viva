@@ -1,6 +1,6 @@
 ---
 layout: LandingPage
-title: Workplace Analytics best practices for managers
+title: Best practices for managers
 description: Learn what more about the best practices for managers that can help you improve how you and your team get work done
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 
@@ -12,7 +12,7 @@ ms.author: helayne
 author: madehmer
 
 ---
-# Workplace Analytics best practices
+# Viva Insights best practices
 
 
 <ul class="panelContent cardsY">

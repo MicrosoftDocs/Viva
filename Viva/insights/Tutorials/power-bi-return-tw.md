@@ -1,7 +1,7 @@
 ---
 
 title: Return to worksites dashboard
-description: Use the Return to worksite dashboard to visualize different seat-allocation options in Power BI based on Workplace Analytics data
+description: Use the Return to worksite dashboard to visualize different seat-allocation options in Power BI based on Viva Insights data
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Return to worksites
 
-The Return to worksites dashboard uses a template that’s populated by Workplace Analytics data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
+The Return to worksites dashboard uses a template that’s populated by Viva Insights data to help you determine how to allocate limited-capacity seats to employees (who work at desks) for each of your organization's worksites.
 
 As worksites begin opening at limited capacity to address safety concerns, employee seats become a limited resource. This dashboard helps you make the most of the limited seats by optimizing for on-site collaboration. The two allocation plans identify teams or a subset of teams who will benefit the most by returning to work because of their high collaboration patterns with others in the same location.
 
@@ -29,7 +29,7 @@ The dashboard includes the following reports to help you allocate worksite seati
 * **Plan 1:  Allocate seats to the teams with the most on-site collaboration** – This allocation plan identifies which teams should return to work based on the selected location and limited-seating capacity. This plan simplifies a leader’s decision by making it an all-or-nothing seat allocation for each team. However, if on-site leadership requires all teams have some worksite presence during a limited-seat capacity opening, then Plan 2 is a better option.
 * **Plan 2:  Allocate seats across teams in proportion to on-site collaboration** – This option provides each team with some presence in a limited-capacity worksite. It allocates each team a proportionate number of seats based on the team’s on-site collaboration patterns and the limited-seat capacity for the selected location. If leadership prefer the all-or-nothing approach, then Plan 1 is a better option.
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined Return to worksites query in Workplace Analytics. After the query successfully runs, you can download the template for the Return to worksites query on the Results page. This template is required to create the dashboard in Power BI. After the template is downloaded, you need to connect the query data from Workplace Analytics to the dashboard in Power BI.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined Return to worksites query in the advanced insights app. After the query successfully runs, you can download the template for the Return to worksites query on the Results page. This template is required to create the dashboard in Power BI. After the template is downloaded, you need to connect the query data from the advanced insights app to the dashboard in Power BI.
 
 After the dashboard populates with data, you can evaluate which of the two seat-allocation plans will work for your organization’s teams.
 
@@ -45,9 +45,9 @@ To find the template for the Return to worksites dashboard, go to the [Query des
 
 Before you can run the setup steps and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of Analyst in Workplace Analytics.
+* Be assigned the role of Analyst in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
-* Have the following organizational attributes already uploaded and processed in Workplace Analytics.
+* Have the following organizational attributes already uploaded and processed in the advanced insights app.
 
   * **Worksite location** - Represents the most recent worksite location (or projected location) for each employee.
   * **Team or Organization** - Each employee’s team assignment that reflects the organizational level at which decisions for seat allocation can be made for each worksite.
@@ -55,9 +55,9 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Return to worksites** to see the required setup steps, and then in step 2, select **Set up** next to **Return to worksites**.
 3. When prompted, select or confirm the following settings:
 
@@ -98,31 +98,31 @@ Before you can run the setup steps and populate the dashboard in Power BI, you m
 13. If prompted to select a program, select **Power BI**.
 14. When prompted by Power BI, enter the following, and then select **Load** to import the query results into Power BI.
 
-    * **Query OData link or file path** - Both options are in the Workplace Analytics **Query designer** > **Results** > **Return to worksites**. Data from the .csv file will load faster than through the OData link, which can take several minutes to several hours to load.
+    * **Query OData link or file path** - Both options are in **Query designer** > **Results** > **Return to worksites**. Data from the .csv file will load faster than through the OData link, which can take several minutes to several hours to load.
 
       * For the link, select the **Link** icon, and then select to copy the generated OData URL link and paste it in.
       * For the file path, select the **Download** icon, and then download the file. After it downloads, copy and paste the file path and file name.
 
-    * **Minimum group size** - Enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Workplace Analytics data.
+    * **Minimum group size** - Enter a number for data aggregation within this report's visualizations that complies with your company's policy for viewing Viva Insights data.
     * **Location organizational attribute** - Enter the case-sensitive name of the organizational attribute you selected in the Return to worksites query that represents the worksite locations.
 
     ![Return to worksites parameters for Power BI.](../Images/WpA/Tutorials/pbi-rtw-odata.png)
 
-15. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+15. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 16. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-17. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+17. Select and enter credentials for the organizational account that you use to sign in to the advanced insights app, and then select **Save**.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >You must sign in to Power BI with the same account you use to access Viva Insights.
 
 18. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 
 ## Dashboard settings
 
-After the Return to worksites dashboard is set up and populated with Workplace Analytics data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Return to worksites dashboard is set up and populated with Viva Insights data in Power BI, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Team attribute** - The primary “group-by” attribute that represents the teams shown in all subsequent reports for making your seat allocation plan. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute.
 * **Filter attribute** – To filter the employee population, you can filter by any selected Organizational attribute, and then filter by any of the values for these attributes. If you filter, the employee count will reflect a reduced number. To clear an existing filter, select **Ctrl** while clicking the **Clear filter arrow** (or with a touchscreen, select the **Clear filter arrow**). This reflects the number of employees in the filtered population for the time period, that's specified on this page.

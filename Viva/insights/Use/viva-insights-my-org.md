@@ -24,7 +24,7 @@ You can view leader insights in **My organization** within the Microsoft Viva In
 
 ![My organization page.](../images/wpa/use/my-org2.png)
 
-While you can also see these outcomes and their related best practices in Viva Insights in Workplace Analytics, it's advantageous to find them in Teams. That's because you're already using Teams for communicating during remote work, namely for meeting, for sharing files, and for sending IMs to employees and other leaders.
+While you can also see these outcomes and their related best practices in the advanced insights app, it's advantageous to find them in Teams. That's because you're already using Teams for communicating during remote work, namely for meeting, for sharing files, and for sending IMs to employees and other leaders.
 
 ## Data privacy
 
@@ -32,7 +32,7 @@ For information about data privacy and GDPR compliance in the Viva Insights app,
 
 ## Admin tasks
 
-For access to **My organization**, your admin must assign you the role of _Analyst (Limited)_ for Viva Insights in Workplace Analytics. Refer your admin to [Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.
+For access to **My organization**, your admin must assign you the role of _Analyst (Limited)_ for the advanced insights app. Refer your admin to [Assign roles](../setup/assign-roles-to-wpa-admins.md) for details.
 
 Ask your admin also needs to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 

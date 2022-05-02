@@ -1,20 +1,23 @@
 ---
-# Metadata Sample
-# required metadata
 
-title: To open the MyAnalytics dashboard
-description: How to open the MyAnalytics dashboard 
+title: To open the dashboard for Viva Insights
+description: How to open the Viva Insights dashboard 
 author: madehmer
-ms.author: helayne
-ms.date: 04/03/2019
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
+manager: helayne
+audience: user
 ---
 
-**To open the MyAnalytics dashboard**
+**To open the dashboard**
 
-* Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com). Your personal MyAnalytics dashboard opens in a web browser.
+* Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com). Your personal  dashboard opens in a web browser.
 
 *In Outlook*
 
@@ -22,11 +25,11 @@ ms.prod: Mya
 
    ![Insights icon.](../../Images/mya/use/insights-icon.png)
 
-2. Select the dashboard icon at the top of the Insights pane in your email inbox. Your personal MyAnalytics dashboard opens in a web browser.
+2. Select the dashboard icon at the top of the Insights pane in your email inbox. Your personal dashboard opens in a web browser.
 
-   ![MyAnalytics dashboard icon.](../../Images/mya/use/mya-db-icon.png)
+   ![dashboard icon.](../../Images/mya/use/mya-db-icon.png)
 
 *In the Outlook Web app*
 
 1. In the Outlook Web App, open an email message.
-2. Select the **Insights** icon at top-right in your email message. Your personal MyAnalytics dashboard opens in a web browser.
+2. Select the **Insights** icon at top-right in your email message. Your personal dashboard opens in a web browser.

@@ -1,7 +1,7 @@
 ---
 
-title: Explore management and coaching data in Workplace Analytics
-description: Overview of the management and coaching data in Workplace Analytics
+title: Explore management and coaching data in Viva Insights
+description: Overview of the management and coaching data in Advanced insights with Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -23,7 +23,7 @@ audience: Admin
 
 ## Access to Management and coaching
 
-**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) to view it in Workplace Analytics.
+**Management and coaching** data is available through the recommendations within **See your insights** in the **Take action** section of a relevant behavior. Or you can open [Management and coaching](https://workplaceanalytics.office.com/en-us/Home/OrganizationalResiliency/ManagementCoaching) to view it in Advanced insights.
 
 ## Time with manager
 
@@ -83,4 +83,4 @@ Depending on roles, it can be important for employees to have time to meet with 
 ## Related topics
 
 * [Page settings](../use/explore-page-settings.md)
-* [Workplace Analytics Charts](../use/chart-types.md)
+* [Advanced insights charts](../use/chart-types.md)
