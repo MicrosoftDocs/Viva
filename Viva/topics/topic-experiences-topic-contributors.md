@@ -163,7 +163,7 @@ Help colleagues curate topics effectively by:
 
 - Sharing the specific topic(s) to be edited and [how to find other relevant topics](topic-center-overview.md#home-page) to curate  
 
-- Helping them learn how to [edit](edit-a-topic.md) and [create](create-a-topic) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
+- Helping them learn how to [edit](edit-a-topic.md) and [create](create-a-topic.md) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
 
 Users need **who can create or edit topics permissions** to be able to edit and create new topics. If colleague are unable to edit or create topics, they can reach out to the admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).   
 
