@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics Organizational data
-description: What's available on the Organizational data sources page in Workplace Analytics 
+title: Viva Insights Organizational data
+description: What's available on the Organizational data sources page in the advanced insights app with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -11,13 +11,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
-# Organizational data
+# Organizational data for Viva Insights
 
-Organizational data is information about your company that your admins provide to Workplace Analytics through [uploads](../setup/upload-organizational-data2.md) of organizational (HR) data or that's presented in Azure Active Directory.
+Organizational data is information about your company that your admins provide to the advanced insights app with Microsoft Viva Insights. The admin either [uploads](../setup/upload-organizational-data2.md) your organizational (HR) data or Viva Insights can use the organizational data that's presented in Azure Active Directory.
 
 As either an admin or an analyst, you can use this page to understand the data quality and completeness of it in the specified week's refresh of Microsoft 365 data.
 

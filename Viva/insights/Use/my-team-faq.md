@@ -31,7 +31,7 @@ The My team insights are based on information managers and team leads already ha
 
 ##### Q2 What data is used in these insights and how is it protected?
 
-My team insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in Workplace Analytics or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
+My team insights use collaboration data from Microsoft 365 and depending on your setup, use organizational data that your admin uploaded in the advanced insights app or that's presented in Azure Active Directory. All of this data is de-identified to maintain personal privacy in Viva Insights. See [Data-protection considerations](../privacy/data-protection-considerations.md) for more details.
 
 ##### Q3 Can you identify specific team members or see their personal collaboration habits in My team?
 

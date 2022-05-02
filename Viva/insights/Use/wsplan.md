@@ -46,7 +46,7 @@ Before you can use the tool, confirm with your IT admin that you can install and
 * **Anaconda** - Use to install and manage the following required versions of Python and Jupyter Notebook. See [Anaconda](https://www.anaconda.com/products/individual#windows) to install it. During the installation, select to **Register Anaconda as your default for Python**.
 * **Python** - Latest available or version 3.3 or later is installed and you have some knowledge on how to use it.
 * **Jupyter Notebook** - This open-source application is installed and you have some knowledge on how to use it because it is required to run the Workspace Collaboration Optimizer.
-* **Workplace Analytics** - Have [the app set up](../setup/set-up-workplace-analytics.md) with an analyst role to create the query data for the interaction file.
+* **Advanced insights with Viva Insights** - Have [the app set up](../setup/set-up-workplace-analytics.md) with an analyst role to create the query data for the interaction file.
 
 ## Input files
 
@@ -54,7 +54,7 @@ You need the following four input files (.csv) to generate a seating plan. These
 
 * [team size.csv](../azure-templates/space-planning.md#create-a-team-size-file) - Defines the number of employees in each team in your organization.
 * [space capacity.csv](../azure-templates/space-planning.md#create-a-space-capacity-file) - Defines the workspaces, which can be a combination of buildings, floors, and zones or neighborhoods, and the maximum seat capacities for each.
-* [interaction.csv](../azure-templates/space-planning.md#create-an-interaction-file) - This is a Workplace Analytics group-to-group query that shows collaboration patterns across the different teams. A Workplace Analytics analyst needs to run the group-to-group query in Workplace Analytics. For detailed steps, see [Create an Interaction file](../azure-templates/space-planning.md#create-an-interaction-file). Make sure the team names used in this file are aligned with the names used in the team_size.csv file.
+* [interaction.csv](../azure-templates/space-planning.md#create-an-interaction-file) - This is a Viva Insights group-to-group query that shows collaboration patterns across the different teams. A Viva Insights analyst needs to run the group-to-group query in Viva Insights. For detailed steps, see [Create an Interaction file](../azure-templates/space-planning.md#create-an-interaction-file). Make sure the team names used in this file are aligned with the names used in the team_size.csv file.
 * [distance.csv](../azure-templates/space-planning.md#create-a-distance-file) – defines the relative distances between the workspaces specified in the space_capacity file. You can either create a distance file yourself based on the estimated walking distance between zones, floors, and buildings, in a unit you specify (such as estimated minutes or meters). For detailed steps, see [Create a Distance file](../azure-templates/space-planning.md#create-a-distance-file). Alternatively, you can use the tool to help create the distance file for you using a coordinate system. For details, see [Create a seating plan](#create-a-seating-plan).
 
 The tool uses the data in these input files to generate a seating plan in table format, where the rows represent the teams, and the columns represent the workspaces where teams are seated.
@@ -132,7 +132,7 @@ Do the following to create a seating plan:
 4. After validation, you'll see a green check mark for each file that passed and a red X for any that failed validation. For a **red X**, you can select **Show details** to troubleshoot why the file failed. After you have fixed any issues, repeat the previous steps to validate the updated files.
 5. After all files are successfully validated, select one of the following input scenarios that the tool should use to aggregate the final output for your interaction file. These scenarios are based on the interactions file query data.
 
-    * **Total collaboration** - Aggregates collaboration data based on the total number of hours the teams spent collaborating over the period of time specified in Workplace Analytics. Use this as the default aggregation option.
+    * **Total collaboration** - Aggregates collaboration data based on the total number of hours the teams spent collaborating over the period of time specified in Viva Insights. Use this as the default aggregation option.
     * **Boost intra-collaboration** - Aggregates collaboration data based on the "boosted" number of collaboration hours spent with two specific teams. You can change the **Boost Multiplier** setting that defines how to apply the boost. The maximum setting is 3, which will multiple the maximum number of collaboration hours by 3. This multiplied value replaces the existing collaboration hours for all the teams. Use this option if _Collaboration within groups_ is low, but you want to keep the teams together as much as possible in your final seating plan.
     * **Latest date** - Aggregates collaboration data based on the most recent week of collaboration activity between teams.
     * **Average collaboration** - Aggregates collaboration data based on the weekly averages of collaboration hours spent between the different teams.
@@ -218,4 +218,4 @@ A4. Check the following, which might be causing the error.
 ## Related topics
 
 * [Workspace Collaboration Optimizer Readme](https://github.com/microsoft/workspace-optimizer/blob/main/README.md)
-* [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
+* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)

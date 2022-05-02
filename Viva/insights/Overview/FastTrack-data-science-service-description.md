@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
-title: Workplace Analytics FastTrack Data Science Service
-description: This topic describes the roles and responsibilities for a Workplace Analytics data science service project. 
+title: FastTrack Data Science Service
+description: This topic describes the roles and responsibilities for a data science service project. 
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -13,16 +13,16 @@ manager: helayne
 audience: Admin
 ---
 
-# Workplace Analytics FastTrack Data Science Service
+# FastTrack Data Science Service
 
 ## Service Overview
 
-* The Workplace Analytics Analysis Service offered under Microsoft 365 FastTrack provides you with assistance on running queries in Workplace Analytics and interpreting the results.
-* The Workplace Analytics Azure Template Service offered under Microsoft 365 FastTrack provides you additional data exports and analytics with customized metrics. It supplements what your users can get on their own using the Workplace Analytics platform. This service is available for customers with active Microsoft 365 services for Workplace Analytics.
+* The Viva Insights Analysis Service offered under Microsoft 365 FastTrack provides you with assistance on running queries in Viva Insights and interpreting the results.
+* The Viva Insights Azure Template Service offered under Microsoft 365 FastTrack provides you additional data exports and analytics with customized metrics. It supplements what your users can get on their own using the Viva Insights platform. This service is available for customers with active Microsoft 365 services for Viva Insights.
 
 ## Policy and steps
 
-* Service requests are defined in collaboration with a Workplace Analytics FastTrack project manager.
+* Service requests are defined in collaboration with a Viva Insights FastTrack project manager.
 * Service requests are fulfilled between 9:00 AM and 5:00 PM Pacific Time. Requests may take multiple days to complete, depending on request complexity.
 * Microsoft might require you to provide appropriate access and permissions to perform data-science service activities.
 
@@ -55,7 +55,7 @@ Microsoft 365 Tenant configuration and access provisioning.
 
 ## Advisory notes
 
-* If the Workplace Analytics Data Science Service that you have requested is for a project on which you are working with a third-party service provider (for example, with a consultant that you have hired), then Microsoft will treat that third-party service provider as acting on your behalf and may share your data with that third-party service provider. Microsoft will not be responsible for that third-party service provider’s handling of your data.
+* If the Viva Insights Data Science Service that you have requested is for a project on which you are working with a third-party service provider (for example, with a consultant that you have hired), then Microsoft will treat that third-party service provider as acting on your behalf and may share your data with that third-party service provider. Microsoft will not be responsible for that third-party service provider’s handling of your data.
 * Except as set forth in an agreement between Microsoft and your organization, data provided through the FastTrack services may be transferred to, stored, and processed anywhere that Microsoft maintains facilities, and the FastTrack services are not designed or intended for data subject to special legal or regulatory requirements.
 * If you provided Microsoft personnel with login credentials to access your online services environment, then Microsoft recommends that you revoke those credentials when the assignment has been completed or terminates.
-* During the term of Microsoft’s provision of the Workplace Analytics Azure Template Service, Microsoft may provide you with access to a web-based tool. Your use of this tool is subject to the Acceptable Use Policy of the Online Services Terms, and you will ensure that your users comply with this policy.
+* During the term of Microsoft’s provision of the Viva Insights Azure Template Service, Microsoft may provide you with access to a web-based tool. Your use of this tool is subject to the Acceptable Use Policy of the Online Services Terms, and you will ensure that your users comply with this policy.
