@@ -53,8 +53,6 @@ Admins can perform the following steps to enable this integration:
 
 - It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time.
 
-    :::image type="content" source="../media/goals/Viva Goals MySQL Integration 1.gif" alt-text="MySQL Integration 1":::
-
 Viva Goals allows you to connect with multiple databases. Select **New Connection** to connect to another database. You can differentiate these connections using names, and the names will be displayed to other users when they link their OKRs with MySQL databases.
 
 ## How to connect the MySQL connection to an OKR?
@@ -72,8 +70,6 @@ Once you've configured the connection, the next step is to start linking OKRs to
 - Validate the query using the query result.
 
 - Go to **Next > Save**. You should be able to see the MySQL icon right next to your OKR. The sync happens once every hour, however, if you would like to initiate the sync manually, select the MySQL icon, and select the refresh icon.
-
-    :::image type="content" source="../media/goals/Viva Goals MySQL Integration 2.gif" alt-text="MySQL Integration 2":::
 
 You've successfully linked your objective to a database in MySQL to update the status of the corresponding OKR automatically based on the data present in the connected database.
 
