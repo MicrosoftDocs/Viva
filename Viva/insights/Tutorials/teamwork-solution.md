@@ -1,7 +1,7 @@
 ---
 
-title: Workplace Analytics Teamwork plans 
-description: Introduction and summary of the Workplace Analytics Teamwork plans
+title: Viva Insights Teamwork plans 
+description: Introduction and summary of the Viva Insights Teamwork plans
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -17,7 +17,7 @@ audience: Admin
 
 # Teamwork plans
 
-The purpose of the Teamwork plans is to create plans that help teams become more productive, use their time effectively, and make the most of their collaboration time. You start by identifying a shared goal that could benefit a team. Put that goal and that team together, and you have an _opportunity_. Workplace Analytics offers the following kinds of opportunities that you can use to create plans.
+The purpose of the Teamwork plans is to create plans that help teams become more productive, use their time effectively, and make the most of their collaboration time. You start by identifying a shared goal that could benefit a team. Put that goal and that team together, and you have an _opportunity_. Viva Insights offers the following kinds of opportunities that you can use to create plans.
 
 * **Focus** - Help participants get more time to do deep work and reclaim their calendar for work that matters most.
 * **Collaboration** - Help participants reduce the number of excess meetings that the group schedules.

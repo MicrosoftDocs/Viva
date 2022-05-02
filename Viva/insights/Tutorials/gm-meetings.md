@@ -46,11 +46,11 @@ According to [If you multitask during meetings, your team will, too](https://ins
 ## Best practices
 
 * Say no to meetings. See [Set team meeting rules and policy](#set-team-meeting-rules-and-policy) for a guide on how to create a policy.
-* Use [MyAnalytics](../personal/use/mya-notifications.md#shorten-a-meeting) to shorten meetings. For example, when you're composing a meeting invitation with a duration of one hour, an inline suggestion will remind you to shorten the meeting by 15 minutes.
-* Use the [MyAnalytics Insights to prepare for meetings](../personal/use/use-the-insights.md#prepare-for-your-meetings). It provides insights about meeting information, related documents, and reminders to book preparation time.
+* Use [Viva Insights in Outlook](../personal/use/mya-notifications.md#shorten-a-meeting) to shorten meetings. For example, when you're composing a meeting invitation with a duration of one hour, an inline suggestion will remind you to shorten the meeting by 15 minutes.
+* Use the [Viva Insights to prepare for meetings](../personal/use/use-the-insights.md#prepare-for-your-meetings). It provides insights about meeting information, related documents, and reminders to book preparation time.
 * Invite fewer people. When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes. Employees can share meeting notes with decisions and action items with managers as an alternative way to keep them informed.
-* Enable [Manager insights in Workplace Analytics](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
+* Enable [Manager insights](../manager-insights/introduction.md) to help managers identify ways to improve team behavior.
 * Regularly and openly check in with employees to discuss challenges and help your team correct its course. Changing behaviors takes time and is often difficult to do. Don't forget to celebrate wins, even small ones.
 * [Share 6 tips for handling scheduling conflicts](https://www.microsoft.com/microsoft-365/business-insights-ideas/resources/6-tips-handling-scheduling-conflicts).
 * Require meeting agendas with clear objectives. Frame agenda topics as questions to focus and prime discussions, and break the agenda into 15-minute segments to hold attention.
@@ -89,4 +89,4 @@ Agendas should clearly state meeting goals and the purpose of each participant's
 
 ## Related topic
 
-[Workplace Analytics best practices](gm-best-practices.md)
+[Viva Insights best practices](gm-best-practices.md)

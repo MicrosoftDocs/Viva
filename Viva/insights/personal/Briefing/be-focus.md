@@ -18,9 +18,6 @@ manager: helayne
 ---
 # Book focus time
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 If you get the [Adaptive email version](be-overview.md#adaptive-or-html-version), you can use this section to schedule focus time for today’s top-priority work. Select **Book** next a suggested time to block it on your calendar as "focusing," which silences notifications for uninterrupted focused work.
 
 This section will also reference and list any already scheduled focus time in today’s calendar.

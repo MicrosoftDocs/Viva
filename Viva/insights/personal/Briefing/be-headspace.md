@@ -18,9 +18,6 @@ audience: user
 
 # Start a guided meditation with Headspace
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 In the Headspace section of the Briefing email, you can launch a guided meditation to start your day grounded and focused.
 
 Before you can use Headspace, you need access to Viva Insights in Microsoft Teams. See [Discover the Viva Insights app](../teams/viva-teams-app-install.md) for details.
