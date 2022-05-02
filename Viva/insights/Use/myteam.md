@@ -29,7 +29,7 @@ When data is processed for Group insights, Microsoft protects employee privacy a
 
 ## Admin tasks
 
-**My team** and its features (as described on this page) are available to managers or team leads who have a Microsoft Viva Insights license with a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**My team** and its features (as described on this page) are available to managers or team leads who have a Microsoft Viva Insights license with an applicable [service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Install, pin, and configure the app
 
@@ -118,7 +118,7 @@ A 'team meeting' is any scheduled meeting on your calendar that includes you and
 
 ## Group insights
 
-Group insights are only available to qualifying managers who are set up as a manager in Workplace Analytics and meet the minimum-group requirements. For more details, see [Group insights](Group-insights.md).
+Group insights are only available to qualifying managers who are set up as a manager in the advanced insights app and meet the minimum-group requirements. For more details, see [Group insights](Group-insights.md).
 
 ## Plans
 

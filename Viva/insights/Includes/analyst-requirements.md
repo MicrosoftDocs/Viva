@@ -18,9 +18,9 @@ search.appverid:
 ## Requirements for analysts
 -->
 
-Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Workplace Analytics 'analyst' role. An Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles in Workplace Analytics, see [User roles](../use/user-roles.md).
+Before analysts can get to work, they must have the proper role. Each analyst must be assigned the Analyst role. An Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles, and can learn more about this task in [Assign roles](../setup/assign-roles-to-wpa-admins.md). For general information about user roles for Viva Insights, see [Roles in Viva Insights](../use/user-roles.md).
 
 **Licensing notes**
 
-* To use analyst features, an employee needs only to have the [analyst role](../use/user-roles.md#role-descriptions-and-access-levels) assigned. They do not need to have been assigned a Workplace Analytics license.
-* The predefined templates available in Query designer require the use of the Power BI desktop. You do not need a license for Power BI desktop; you can download it for free by going to [Getting started with Power BI](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/).
+* To use the analyst features, you must have the [Analyst role](../use/user-roles.md#role-descriptions-and-access-levels) assigned.
+* The predefined templates available in Query designer require the use of the Power BI desktop. You do not need a license for Power BI desktop; you can download it for free at [Getting started with Power BI](https://powerbi.microsoft.com/getting-started-with-power-bi/).
