@@ -39,24 +39,15 @@ Viva Goals' Integration with Amazon Redshift allows you to link your OKRs in Viv
 
 3. In the integrations section, go to Amazon Redshift and then select **Manage**. 
 
-    :::image type="content" source="../media/goals/goals-amazon-redshift-integration.gif" alt-text="Image of integrations section":::
-
-4. Select **New Connection** and in the pop-up dialog box, name your connection, give your Amazon Redshift hostname, port, user, password, the database you'd like to connect to authenticate the connection. 
-
-    :::image type="content" source="../media/goals/goals-amazon-redshift-new-connection.png" alt-text="Image of new connection":::
-
+4. Select **New Connection** and in the pop-up dialog box, name your connection, give your Amazon Redshift hostname, port, user, password, the database you'd like to connect to authenticate the connection.
 
 5. Select **Next** to complete the new connection setup. 
-
-    :::image type="content" source="../media/goals/goals-amazon-redshift-new-connection-complete.png" alt-text="Image of connection set up":::
 
 ## Edit an existing connection
 
 Admins can edit an existing connection’s name and shared state that you’ve created from the Amazon Redshift integration’s view. 
 
 Select the **Edit** icon next to the Amazon Redshift connection.  In the pop-up dialog box that follows, you can edit the connection’s name and other fields and select or clear the **Share connection with all users** checkbox. 
-
-:::image type="content" source="../media/goals/goals-edit-amazon-redshift.gif" alt-text="Image of edit an existing connection":::
 
 ## Using the Amazon Redshift Integration
 
@@ -68,13 +59,9 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 
 3. Select **Next** to finish and save your OKR. You’ll now see the Amazon Redshift icon next to the OKR‘s progress indicator. This means Viva Goals will automatically measure the progress based on the data updates in the report.
 
-    :::image type="content" source="../media/goals/goals-using-amazin-redshift.gif" alt-text="Image of Using the Amazon Redshift Integration ":::
-
 > [!NOTE]
 > Viva Goals will sync data from Amazon Redshift at every one-hour interval. 
 
 ## Disabling the integration
 
 The Amazon Redshift integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to Amazon Redshift in the Integrations section. Select Amazon Redshift in the integrations section and select Manage. In the configurations page, select the **Change dropdown**, select **Disable** and confirm the action.
-
-:::image type="content" source="../media/goals/goals-disabling-amazon-redshift.gif" alt-text="Image of disabling the integration":::
