@@ -1,7 +1,7 @@
 ---
 
-title: FAQs about Workplace Analytics insights for managers
-description: Most frequently asked questions and answers about Workplace Analytics manager insights
+title: FAQs about Viva Insights insights for managers
+description: Most frequently asked questions and answers about Viva Insights manager insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,20 +17,20 @@ audience: Admin
 
 # Manager insights FAQ
 
-##### Q1 Which roles have access to manager insights in Viva Insights and Workplace Analytics?
+##### Q1 Which roles have access to manager insights in Viva Insights and Advanced insights?
 
-Only managers granted access to Workplace Analytics in [Manager settings](../use/manager-settings.md) can see insights about their teams in Viva Insights and Workplace Analytics.
+Only managers granted access to the advanced insights app in [Manager settings](../use/manager-settings.md) can see insights about their teams in Viva Insights in Teams and in the advanced insights app.
 
 ##### Q2 Who is included as a measured employee?
 
-Measured employees include those who are assigned a Workplace Analytics license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into Workplace Analytics by the admin.
+Measured employees include those who are assigned a Viva Insights license and are included in the reporting hierarchy that leads to you as their manager. This hierarchy is based on the latest available HR data uploaded into the advanced insights app by the admin.
 
 ##### Q3 Why is the number of measured employees different from my current number of direct and indirect reports?
 
 The number of measured employees might be different because:
 
-* One or more of the employees on your team are not assigned a Workplace Analytics license.
-* Or the latest available HR data uploaded into Workplace Analytics did not include the latest hierarchy or employee data.
+* One or more of the employees on your team are not assigned a Viva Insights license.
+* Or the latest available HR data uploaded into the advanced insights app did not include the latest hierarchy or employee data.
 
 ##### Q4 Can I configure the time period or thresholds for the insights?
 
@@ -48,6 +48,6 @@ While this capability is currently unavailable, it is planned for a future relea
 
 Employees might not be eligible for a plan if:
 
-* They do not have Viva Insights or MyAnalytics enabled.
+* They do not have Viva Insights enabled.
 * Are already enrolled in an existing plan.
 * The team does not meet the minimum group size limit.

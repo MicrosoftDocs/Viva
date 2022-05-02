@@ -37,10 +37,10 @@ The [How to Make Sure Agile Teams Can Work Together](https://insights.office.com
 ## Best practices
 
 * Create cross-functional [Teams channels](/microsoftteams/teams-channels-overview) that focus on customer needs.
-* Use [MyAnalytics](../personal/use/network.md) to select key internal contacts as important, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
+* Use [personal network insights](../personal/use/network.md) to select key internal contacts as important, which enables immediate notification of email from them, more efficient responses to their requests, and reminders to schedule time to connect with them.
 * Motivate team members to reach across silos. Break down silos and expand networks with cross-functional goals to help improve communications with isolated teams by assigning interdepartmental liaisons to communicate across teams.
-* Map the interdependencies between diﬀerent teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover potential interruptions to connectivity.  
-* Pair newcomers and network inﬂuencers through staﬃng or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.  
+* Map the interdependencies between different teams where central players contribute, to understand and plan for potential risks. Have a back-up plan to cover potential interruptions to connectivity.  
+* Pair newcomers and network influencers through staffing or mentoring. This simple practice triples newcomer connectivity compared to those who do not get this experience.  
 * Set up “communities of practice” or business development initiatives to help share expertise or resources.  
 * Add a cross-group collaboration component to employee performance reviews to incentive and reward broader collaboration.
 
