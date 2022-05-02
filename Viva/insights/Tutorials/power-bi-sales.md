@@ -1,6 +1,6 @@
 ---
 title: Sales effectiveness dashboard for Power BI
-description: Use the Sales effectiveness dashboard to visualize predefined data from Workplace Analytics in Power BI
+description: Use the Sales effectiveness dashboard to visualize predefined data from Viva Insights in Power BI
 author: madehmer
 ms.author: loreenl
 ms.topic: article
@@ -14,7 +14,7 @@ audience: Admin
 
 The Sales effectiveness dashboard for Power BI that’s populated by Microsoft Viva Insights data to help you understand how your sales employees collaborate with external parties and identify opportunities to improve sales effectiveness in your organizations.
 
-Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into Workplace Analytics, see [Upload CRM data](../setup/crm-data-upload.md). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
+Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into the advanced insights app, see [Upload CRM data](../setup/crm-data-upload.md). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
 
 The dashboard includes the following reports.
 
@@ -53,7 +53,7 @@ To find the template for the  Sales effectiveness dashboard for Power BI, go to 
 
 Before you can run the query and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 >[!Note]
@@ -62,9 +62,9 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before completing the setup steps, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics with Viva Insights](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Sales effectiveness** to see the required setup steps, and then in Step 2, select **Set up** for **Sales effectiveness** (or for **CRM collaboration** from **Step 8**).
 
     ![Power BI Sales setup steps](../Images/WpA/tutorials/pbi-sales-setup.png)
@@ -130,7 +130,7 @@ Before you can run the query and populate the dashboard in Power BI, you must:
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-19. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics for Viva Insights, and then select **Save**.
+19. Select and enter credentials for the organizational account that you use to sign in to the advanced insights app for Viva Insights, and then select **Save**.
 
     >[!Important]
     >You must sign in to Power BI with the same account you use to access Viva Insights.

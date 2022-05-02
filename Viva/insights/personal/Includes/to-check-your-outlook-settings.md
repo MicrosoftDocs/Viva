@@ -1,15 +1,18 @@
 ---
-# Metadata Sample
-# required metadata
 
-title: To check your Outlook settings for MyAnalytics
-description: How to check your Outlook settings for MyAnalytics 
+title: To check your Outlook settings for Viva Insights
+description: How to check your Outlook settings for Viva Insights 
 author: madehmer
-ms.author: helayne
-ms.date: 02/21/2019
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
+manager: helayne
+audience: user
 ---
 
 **To check your Outlook settings**
