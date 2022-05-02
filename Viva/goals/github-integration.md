@@ -74,8 +74,6 @@ Once you've configured the connection, the next step is to start linking OKRs to
 
 - Go to **Next** and select **Save**.
 
-    :::image type="content" source="../media/goals/viva-goals-github-integration-1.gif" alt-text="GitHib Integration 1":::
-
 You've successfully linked your objective to a repository in GitHub to track the progress of your issues, and updated the status of the corresponding OKR automatically.
 
 The following colors of the progress bar indicate the status of the objective:
