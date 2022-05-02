@@ -35,9 +35,6 @@ An admin can set up the Snowflake integration on Viva Goals. To do so:
 
 3. Click on **New Connection**. In the popup that follows, enter the connection name, Account URL, Username, Password and the warehouse. The warehouses should populate automatically to choose from if the credentials entered are correct. 
 
-> [!NOTE]
-> It is recommended that you create a new user / role with read only permissions to specific data that will be connected to the Objectives in Viva Goals.
-
 4. Click **Next** to finish the setup.
 
 Viva Goals allows you to connect with multiple Snowflake warehouses. Click **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to Snowflake data.
