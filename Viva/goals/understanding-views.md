@@ -79,7 +79,7 @@ Objective/Parent objective
 
 **2. Summary panel** - View the progress and status of all your OKRs in that time period, along with the expected vs. actual progress comparison.
 
-**3. [KPIs panel]** (#link-to-KPI-Summary-Article] - You can view the KPIs that are used to track your OKRs in this section. 
+**3. [KPIs panel]** - You can view the KPIs that are used to track your OKRs in this section. 
 
 **4. Add objective** - Create an objective of the type of organization/team/individual.
 
@@ -104,7 +104,7 @@ Objective/Parent objective
 
 [screenshot] 
 
-2. Click on the objective to open the [quick view](#link-to-quick-view-article) and make updates to that objective.  
+2. Click on the objective to open the quick view and make updates to that objective.  
 
 [screenshot] 
 
