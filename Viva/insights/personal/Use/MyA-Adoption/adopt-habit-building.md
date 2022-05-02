@@ -1,6 +1,6 @@
 ---
-title: Use MyAnalytics to build good work habits
-description: Building good habits with MyAnalytics
+title: Use Viva Insights to build good work habits
+description: Building good habits with Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -15,7 +15,7 @@ audience: user
 
 # Habit-building method
 
-You can turn a selected behavior into a habit by using MyAnalytics and the habit-building method, which is based on behavioral science.
+You can turn a selected behavior into a habit by using Viva Insights and the habit-building method, which is based on behavioral science.
 
 ![How to make it a habit.](../../../Images/MyA/use/how-to-make-it-a-habit.png)
 

@@ -1,9 +1,9 @@
 ---
 
 title: Advanced insights FAQ
-description: Frequently asked questions about advanced insights for Microsoft Viva Insights in Workplace Analytics
+description: Frequently asked questions about advanced insights for the advanced insights app with Microsoft Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: reference
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced 
@@ -11,13 +11,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Advanced insights FAQ
 
-The most commonly asked questions and answers about advanced insights and analysis tools for Microsoft Viva Insights in Workplace Analytics are grouped into the following sections:
+The most commonly asked questions and answers about the analysis tools for Microsoft Viva Insights in the advanced insights app are grouped into the following sections:
 
 * [Functionality and features](#functionality-and-features)
 
@@ -60,11 +60,11 @@ A1.  Initially 13 months' worth of data is collected and processed for Viva Insi
 
 ##### Q2. Does Viva Insights support a separate data environment that adheres to compliance and regulatory requirements such as those required by the government?
 
-A2. Advanced insights in Workplace Analytics is not available in data cloud environments that Microsoft maintains for government agencies.
+A2. Advanced insights are not available in data cloud environments that Microsoft maintains for government agencies.
 
 ### Language support
 
-##### Q1. Can I use Workplace Analytics in a language other than English?
+##### Q1. Can I use the advanced insights app in a language other than English?
 
 A1. Yes. See [Language support and guidelines](../overview/supported-languages.md).
 
@@ -95,7 +95,7 @@ A1. The main tasks required to enable advanced insights for your organization ar
 * Configure settings
 * Upload organizational data
 
-For details about setup, see [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md).
+For details about setup, see [Set up Advanced insights](../setup/set-up-workplace-analytics.md).
 
 ##### Q2. What if my licensed population works in different time zones or has varying working hours?
 
@@ -121,6 +121,10 @@ A6. This number includes licensed employees who are also present in your organiz
 
 A7. No, they are not ignored but they are not measured and their data is not processed. However, as internal collaborators of measured employees, their collaboration data is used for analysis when measured employees collaborate with them through meetings, email, unscheduled calls, or instant messages. For details, see [Origin of data counts](office-365-data.md#origin-of-data-counts).
 
+##### Q8. Do advanced insights in Viva Insights support user mailboxes in Sweden go-local?
+
+A8. No, not until the June 2022 update is released to your organization. Until then, advanced insights in Viva Insights do not support mailboxes in [Sweden go-local](/microsoft-365/enterprise/o365-data-locations#sweden). To get updated data for advanced insights, you cannot have [licenses assigned](../setup/Assign-licenses-to-population.md) to users with mailboxes in Sweden go-local.
+ 
 ## Organizational data
 
 ##### Q1. What causes a failed or an invalid upload?
@@ -140,15 +144,15 @@ A3. PersonId and EffectiveDate fields must meet 100 percent of the validity thre
 
 ##### Q4. What happens if an employee (who is represented by a PersonID) has more than one manager (represented by ManagerIDs)?
 
-A4. Organizational data allows for the identification of only one single, primary manager. This manager is represented by the ManagerID for that PersonID on a given EffectiveDate. However, note that the Viva Insights or Workplace Analytics admin can use the EffectiveDate field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next.
+A4. Organizational data allows for the identification of only one single, primary manager. This manager is represented by the ManagerID for that PersonID on a given EffectiveDate. However, note that the Viva Insights admin can use the EffectiveDate field in the organizational data to indicate that an employee’s primary manager has changed from one month to the next.
 
 ##### Q5. Who gets the organizational data to upload?
 
-A5. Usually, HR gives this data to the Viva Insights or Workplace Analytics admin, who then [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it.
+A5. Usually, HR gives this data to the Viva Insights admin, who then [prepares](../setup/prepare-organizational-data.md) and [uploads](../setup/upload-organizational-data-1st.md) it.
 
 ##### Q6. Who can access organizational data after it has been uploaded?
 
-A6. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights or Workplace Analytics admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
+A6. For privacy reasons, no one can download the raw data that was uploaded. Viva Insights admins can view metadata about the organizational data on the [Data sources](data-sourcesv2.md) page, but they cannot see how the attribute values map to individual people.
 
 <!-- [NEAR FUTURE FOR THESE NEXT FIVE QUESTIONS, AFTER THE XLSX POSSIBILITY SHIPS]
 
@@ -214,18 +218,18 @@ A6. It depends on the type of mailbox and which permissions are set for the Exch
 
 * A **shared mailbox** (Microsoft 365 group mailbox) typically has a number of group members that share access and permissions for the group mailbox. An example of a shared mailbox is `LeadershipTeam@Contoso.com`. For details, see [Which permissions you should use in shared mailboxes](/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
 
-  * **Send As** permission - When a group member with Send As permission for a shared mailbox sends a message or meeting invitation from the group mailbox, Exchange gives credit to the shared mailbox instead of any single person in the group. Workplace Analytics does not use this action in its calculations.
-  * **Send on Behalf** permission – This permission is not available for shared mailboxes in Exchange Admin Center. However, if it is set with PowerShell (GrantSendonBehalf parameter), the person who sends the message gets credit for it in Workplace Analytics calculations.
+  * **Send As** permission - When a group member with Send As permission for a shared mailbox sends a message or meeting invitation from the group mailbox, Exchange gives credit to the shared mailbox instead of any single person in the group. Viva Insights does not use this action in its calculations.
+  * **Send on Behalf** permission – This permission is not available for shared mailboxes in Exchange Admin Center. However, if it is set with PowerShell (GrantSendonBehalf parameter), the person who sends the message gets credit for it in Viva Insights calculations.
 
 * An **individual mailbox** (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
 
-  * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Workplace Analytics calculations.
-  * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Workplace Analytics calculations.
-  * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the **Send As** permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Workplace Analytics credits the owner of the mailbox in calculations.
+  * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Viva Insights calculations.
+  * **Send on Behalf** permission - The person who sends the message on behalf of the mailbox owner gets the credit in Viva Insights calculations.
+  * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the **Send As** permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Viva Insights credits the owner of the mailbox in calculations.
 
 ##### Q7. Why don't I see data from this week in my analyses?
 
-A7. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. Each Monday, Workplace Analytics processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday. For example, on Monday, November 15th, analysis will include data through the previous Saturday, November 13th.
+A7. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. Each Monday, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday. For example, on Monday, November 15th, analysis will include data through the previous Saturday, November 13th.
 
 ##### Q8. Why don't I see last week's data in my analyses?
 
@@ -237,19 +241,19 @@ A8. I expect my analysis to include last week's collaboration data and I only se
 
 A1. Employee data can change based on the Settings and filters that are selected for **Explore the stats** or **Solutions** data. These settings are not necessarily considered filters but can still cause totals to vary. For details, see [Settings and filters in Explore the stats](explore-page-settings.md).
 
-##### Q2. How does Workplace Analytics estimate the cost of low-quality meetings? Can I customize this estimate?
+##### Q2. How does Viva Insights estimate the cost of low-quality meetings? Can I customize this estimate?
 
 A2. Admins can include optional hourly-rate data in the organizational data upload, which they can then use to calculate the total cost of low-quality meetings for the [Meetings overview](explore-metrics-meetings-overview.md). If this organizational data is provided, cost is calculated as the person's default hourly rate for the organization multiplied by the number of low-quality meeting hours. If no hourly rate is assigned to a meeting participant, a default hourly rate of $75 is used. On the **Settings** page, admins can change the value in the Hourly Rate field from its default value to another hourly rate.
 
 ##### Q3. Why are a group's total meeting hours (included as part of working hours and after-hours work) larger than the group's total meeting hours for the week?
 
-A3. This can occur because of the way Workplace Analytics calculates meeting hours. The meeting-hours total includes adjusted hours for attended meetings, while total working hours and after-hours work include the number of meeting hours (not adjusted) for scheduled meetings.
+A3. This can occur because of the way Viva Insights calculates meeting hours. The meeting-hours total includes adjusted hours for attended meetings, while total working hours and after-hours work include the number of meeting hours (not adjusted) for scheduled meetings.
 
-This discrepancy can occur when meetings overlap. Workplace Analytics doesn't know which meetings were attended, so the meeting hours total will include adjusted hours, which are an estimate of time actually spent in meetings. For example, let's say a group of five employees is double booked for two meetings from 4:30 to 5:30 PM, and the group's workday ends at 5:00 PM. For this scenario, Workplace Analytics adjusts the meeting hours to one hour, since the group cannot attend two meetings at the same time. However, Workplace Analytics doesn't adjust for the two scheduled meetings, which results in it adding five hours to total working hours and five hours to after-hours work. The group can avoid this discrepancy by declining any scheduled meetings that they do not attend.
+This discrepancy can occur when meetings overlap. Viva Insights doesn't know which meetings were attended, so the meeting hours total will include adjusted hours, which are an estimate of time actually spent in meetings. For example, let's say a group of five employees is double booked for two meetings from 4:30 to 5:30 PM, and the group's workday ends at 5:00 PM. For this scenario, Viva Insights adjusts the meeting hours to one hour, since the group cannot attend two meetings at the same time. However, Viva Insights doesn't adjust for the two scheduled meetings, which results in it adding five hours to total working hours and five hours to after-hours work. The group can avoid this discrepancy by declining any scheduled meetings that they do not attend.
 
 ##### Q4. What is the total workday length assumed for calculating focus hours?
 
-A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Workplace Analytics uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Workplace Analytics uses the default time-zone setting that your admin sets in Workplace Analytics for that employee. For more details, see [Time zone setting](system-defaults.md) and [Focus hours and fragmented hours](explore-metrics-week-in-the-life.md#focus-hours-and-fragmented-hours).
+A4. If measured employees or internal collaborators have their time zones defined as part of your organizational data, Viva Insights uses their individual time-zone settings for working hours, focus hours, and other time-related metrics. However, if the organizational data does not define a time zone for an employee, Viva Insights uses the default time-zone setting that your admin sets in Viva Insights for that employee. For more details, see [Time zone setting](system-defaults.md) and [Focus hours and fragmented hours](explore-metrics-week-in-the-life.md#focus-hours-and-fragmented-hours).
 
 ### Query designer
 
@@ -288,9 +292,9 @@ A6. You probably opened the .csv file as is. For Excel to show the data correctl
 
 <!-- Deleting this. A WpA group is not really a thing. 
 
-##### Q3. What is a Workplace Analytics group?
+##### Q3. What is a Viva Insights group?
 
-A3. A Workplace Analytics group is any group of people to be analyzed specific to Workplace Analytics, not to be confused with Office 365 groups or Security groups, these are configured via other steps in the office 365 tenant, Workplace Analytics group is how you refer to any group of individuals that are being analyzed (for example, individuals who have Workplace Analytics licenses).
+A3. A Viva Insights group is any group of people to be analyzed specific to Viva Insights, not to be confused with Office 365 groups or Security groups, these are configured via other steps in the office 365 tenant, Viva Insights group is how you refer to any group of individuals that are being analyzed (for example, individuals who have Viva Insights licenses).
 
 <!-- DELETING BECAUSE JUST A LINK TO DOCS
 ##### Q5. What are low-quality meeting hours?
@@ -309,21 +313,21 @@ Use a [person-to-group query](../tutorials/person-to-group-queries.md) to unders
 
 <!-- THE FOLLOWING QUESTIONS WERE REMOVED AND PUT INTO THE REGULAR DOCS: 
 
-##### Q3. How many people should be Viva Insights or Workplace Analytics admins and/or analysts (and is there a maximum limit of these roles)?
+##### Q3. How many people should be Viva Insights admins and/or analysts (and is there a maximum limit of these roles)?
 
-A3.  This answer depends on the size of your organization and on your requirements for managing organizational data. The number of analysts should be as many as your organization requires to perform data analysis. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details. Workplace Analytics imposes no limit on the number of role assignments.   
+A3.  This answer depends on the size of your organization and on your requirements for managing organizational data. The number of analysts should be as many as your organization requires to perform data analysis. See [Assign Viva Insights roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Viva Insights](user-roles.md) for more details. Viva Insights imposes no limit on the number of role assignments.   
 
-##### Q4. Can our organization's Office 365 admin also be our Viva Insights or Workplace Analytics admin?
+##### Q4. Can our organization's Office 365 admin also be our Viva Insights or Viva Insights admin?
 
-A6. Yes. It's up to your organization to choose who gets assigned which role. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details.
+A6. Yes. It's up to your organization to choose who gets assigned which role. See [Assign Viva Insights roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Viva Insights](user-roles.md) for more details.
 
-##### Q7. Can I assign the Viva Insights or Workplace Analytics admin and analyst roles to the same person?
+##### Q7. Can I assign the Viva Insights or Viva Insights admin and analyst roles to the same person?
 
-A7.  Yes. It's up to your organization to choose who gets assigned which role. Best practice is to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics. See [Assign Workplace Analytics roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Workplace Analytics](user-roles.md) for more details .
+A7.  Yes. It's up to your organization to choose who gets assigned which role. Best practice is to assign the admin and analyst roles to different people to prevent any misuse of or external linking to organizational data with collaboration metrics. See [Assign Viva Insights roles](../setup/assign-roles-to-wpa-admins.md) and [User roles in Viva Insights](user-roles.md) for more details .
 
 ##### Q8. Who should be assigned the role of analyst (limited access)?
 
-A8. The analyst (limited access) role is for an analyst who needs access only to the insights shown in the Workplace Analytics *Explore the stats* data. See [User roles in Workplace Analytics](user-roles.md) and [Explore the stats](explore-intro.md) for more details.
+A8. The analyst (limited access) role is for an analyst who needs access only to the insights shown in the Viva Insights *Explore the stats* data. See [User roles in Viva Insights](user-roles.md) and [Explore the stats](explore-intro.md) for more details.
 
 ##### Q9. After an admin changes configuration and privacy settings, when do the changes take effect in the data?  
 
@@ -331,16 +335,16 @@ A9. Different settings take effect at different times See the following table:
 
 | Setting | Purpose | Effectiveness |
 | ---- | ---- | ---- |
-| Default time zone and working hours | Workplace Analytics uses these settings if personalized Outlook settings are not available in the user's mailbox. | These settings do not affect data that has already been processed. |
+| Default time zone and working hours | Viva Insights uses these settings if personalized Outlook settings are not available in the user's mailbox. | These settings do not affect data that has already been processed. |
 | Minimum group size | Suppress dashboard results for very small groups. | This setting takes effect immediately. |
 | Hide meeting subject lines/Hash subject lines | Do not display subject line text in meeting query results. | This setting takes effect immediately, affecting data that has already been processed. |
 | Processing exclusions | Any activity that involves these criteria will not be processed nor measured. | This setting will only exclude data that is processed after the exclusion has been added; it does not affect data that has already been processed. |
 
 For more details, see [How often to upload](../setup/prepare-organizational-data.md#how-often-to-upload) in [Prepare organizational data](../setup/prepare-organizational-data.md).
 
-##### Q14. Can I assign multiple Workplace Analytics roles to one account?
+##### Q14. Can I assign multiple Viva Insights roles to one account?
 
-A14. Yes. In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Workplace Analytics is performed in the Azure Portal and not in the Office 365 dashboard. See [Assign group-based licenses for Workplace Analytics](./group-based-licensing.md).)
+A14. Yes. In the Azure Portal, you can assign multiple roles to one account but you can assign only one role at a time. In the Azure portal, add the first role, click **Select**, return to the user list, and then select the same account again to choose the next role for that account. (Note that role assignment in Viva Insights is performed in the Azure Portal and not in the Office 365 dashboard. See [Assign group-based licenses for Viva Insights](./group-based-licensing.md).)
 
 ##### Q12. Making privacy settings affects what data?
 
@@ -352,7 +356,7 @@ A18. Analysts can begin to conduct analyses after [privacy settings have been ma
 
 ##### Q19. Can I exclude a single domain or a specific email address from being analyzed?
 
-A19. Yes. You can specify domains or email addresses to exclude by using the Privacy settings in Workplace Analytics. See [Exclude domains or email addresses](privacy-settings.md#exclude-domains-or-email-addresses).
+A19. Yes. You can specify domains or email addresses to exclude by using the Privacy settings in Viva Insights. See [Exclude domains or email addresses](privacy-settings.md#exclude-domains-or-email-addresses).
 
 -->
 
