@@ -49,7 +49,8 @@ If you're using [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-36
 
 Document library folder URLs can be collected from any SharePoint site in the organization. Viva Learning follows all existing content permissions. Therefore, only content for which a user has permission to access is searchable and visible within Viva Learning. Any content within these folders will be searchable, but only content to which the individual employee has permissions can be used.
 
-Content deletion from your organization's repository is not currently supported.
+>[!NOTE]
+> Only the Microsoft 365 Groups permissions apply. Viva Learning doesn't support user- or SharePoint-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
 
 To remove unintentionally surfaced content, follow these steps:
 
