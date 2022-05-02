@@ -61,7 +61,7 @@ Long and large meetings are costly and often considered a waste of time. Shorter
 
 [The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) suggests: "Always set an agenda out ahead of time—and be clear about the purpose of the meeting." Other ways to reduce meeting size or length:
 
-* When composing a meeting invitation with a duration of one hour, note the [MyAnalytics inline suggestion](/viva/insights/personal/use/mya-notifications.md#shorten-a-meeting) to shorten the meeting by 15 minutes.
+* When composing a meeting invitation with a duration of one hour, note the [inline suggestion](/viva/insights/personal/use/mya-notifications.md#shorten-a-meeting) to shorten the meeting by 15 minutes.
 * When preparing the agenda, include the purpose of each participant's attendance. This exercise can reveal unnecessary invitees, including people who are optional or only require meeting notes.
 
 For more best practices, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
@@ -74,7 +74,7 @@ According to [Five ways to empower your team to make decisions](https://insights
 
 * Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
 * Use [Teams channels](/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
-* Use [MyAnalytics insights](/viva/insights/personal/use/use-the-insights) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
+* Use [Viva insights in Outlook](/viva/insights/personal/use/use-the-insights) for calendar management and to increase awareness of conflicting meetings and meetings that inform you of decisions.
 
 For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).
 
@@ -87,7 +87,7 @@ The level of day-to-day collaboration between managers and their employees can i
 [Collaboration overload is a symptom of a deeper organizational problem](https://insights.office.com/collaboration/collaboration-overload-is-a-symptom-of-a-deeper-organizational-problem/) explains that “meetings can become a substitute for effective leadership communication. Rather than taking the time to share the specifics discussed in a meeting with subordinates who did not attend, some leaders opt to invite an army to every meeting.” Ways to improve:
 
 * Empower employees with ownership of work streams so they can quickly make decisions and take action.
-* Use [MyAnalytics insights](/viva/insights/personal/use/use-the-insights#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
+* Use [Viva Insights in Outlook](/viva/insights/personal/use/use-the-insights#prepare-for-your-meetings) to manage your calendar and increase your awareness of conflicting meetings and meetings that keep you informed of decisions.
 * Promptly decline meetings as soon as possible with a brief explanation for why to reinforce decision rights and role model healthy habits.
 
 For more best practices and change strategies, see [Best practices for meetings](/viva/insights/tutorials/gm-meetings).

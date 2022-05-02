@@ -52,7 +52,7 @@ In the following example, if Lynne was an important colleague, you could set up 
 
 If you want to remove the 1:1 meeting target, you can select the **people** icon and select **None**. If you are a manager, Viva Insights will automatically suggest a biweekly 1:1 meeting with your direct report.  
    
-   ![MyAnalytics settings.](Images/1-1-meeting-target-75-80.png)
+   ![Stay connected settings.](Images/1-1-meeting-target-75-80.png)
 
 #### 1:1 meeting suggestions 
 

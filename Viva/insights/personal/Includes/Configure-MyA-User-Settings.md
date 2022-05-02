@@ -1,7 +1,7 @@
 ---
 
-title: Configure MyAnalytics user settings
-description: Configure MyAnalytics settings for new users
+title: Configure Viva Insights user settings
+description: Configure Viva Insights settings for new users
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -12,12 +12,12 @@ manager: scott.ruble
 audience: Admin
 ---
 
-You can configure MyAnalytics (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
+You can configure Viva Insights (change its default behavior) for users in your organization by setting the *PrivacyMode* parameter. For information about the values of PrivacyMode, see [User configuration settings](#user-configuration-settings).
 
 You can set this parameter for one user or for many users:  
 
-* [Set MyAnalytics access for multiple users](#set-myanalytics-access-for-multiple-users)
-* [Set MyAnalytics access for one user](#set-myanalytics-access-for-one-user)
+* [Set Viva Insights access for multiple users](#set-Viva Insights-access-for-multiple-users)
+* [Set Viva Insights access for one user](#set-Viva Insights-access-for-one-user)
 
 ### User configuration settings
 
@@ -29,12 +29,12 @@ Excluded   |<ul><li> Microsoft 365 data is not used for aggregated information s
 
 >[!Note]  
 >
->* _Licensed users_ have MyAnalytics automatically enabled for them after a license is assigned to them.
->* _All users_ in your organization, whether or not they have MyAnalytics licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out."
+>* _Licensed users_ have Viva Insights automatically enabled for them after a license is assigned to them.
+>* _All users_ in your organization, whether or not they have Viva Insights licenses issued to them, are opted-in. If you want a licensed user to be opted _out_ by default, which would give them the choice to opt-in, change the value of the PrivacyMode parameter for that user to "Opt-out."
 
-### Set MyAnalytics access for multiple users
+### Set Viva Insights access for multiple users
 
-You can use PowerShell to change the access to MyAnalytics (the value of PrivacyMode) for multiple users at once. To do this, run a PowerShell script that iterates through the users, changing the value one user at a time. Follow these steps:
+You can use PowerShell to change the access to Viva Insights (the value of PrivacyMode) for multiple users at once. To do this, run a PowerShell script that iterates through the users, changing the value one user at a time. Follow these steps:
 
 1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field and the addresses of the users you want to configure. For example:
 
@@ -70,9 +70,9 @@ This PowerShell command block does the following:
  * Sets the specified privacy mode for each user.
  * Creates a .csv file with all the users that were processed and shows their status.
 
-### Set MyAnalytics access for one user
+### Set Viva Insights access for one user
 
-Configure MyAnalytics access settings for a user with the following PowerShell cmdlet:
+Configure Viva Insights access settings for a user with the following PowerShell cmdlet:
 
 ```powershell
 Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
@@ -81,11 +81,11 @@ Set-UserAnalyticsConfig –Identity <string> [PrivacyMode <string[]>]
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 Identity   |   Yes   | User ID for the current user as stored in Azure Active Directory (AD).   |   -
-PrivacyMode   |   Yes   | <ul><li>__Excluded:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in MyAnalytics, but will still be able to see personalized statistics in their MyAnalytics dashboard and the Insights Outlook add-in.</li><li>__Opt-out:__ MyAnalytics will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in MyAnalytics, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ MyAnalytics will use the current user's data to compute derived statistics for other users. The current user will see statistics in MyAnalytics, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
+PrivacyMode   |   Yes   | <ul><li>__Excluded:__ Viva Insights will not use the current user's data to compute derived statistics for other users. The current user will not be able to change this from the **Feature settings** menu in Viva Insights, but will still be able to see personalized statistics in their Viva Insights dashboard and the Insights Outlook add-in.</li><li>__Opt-out:__ Viva Insights will not use the current user's data to compute derived statistics for other users. The current user will not see statistics in Viva Insights, but can change this from the Feature settings menu and choose to opt-in.</li><li>__Opt-in:__ Viva Insights will use the current user's data to compute derived statistics for other users. The current user will see statistics in Viva Insights, and can change this from the Feature settings menu to opt out.</li></ul>|  Opt-in
   
-### Determine MyAnalytics access for one user
+### Determine Viva Insights access for one user
 
-To determine the MyAnalytics access (the value of PrivacyMode) for one user, use the following cmdlet:
+To determine the Viva Insights access (the value of PrivacyMode) for one user, use the following cmdlet:
 
 ```powershell
 Get-UserAnalyticsConfig –Identity <string>

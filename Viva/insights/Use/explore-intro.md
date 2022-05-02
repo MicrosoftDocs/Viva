@@ -1,7 +1,7 @@
 ---
 
 title: Explore the stats introduction
-description: Describes the analytical Explore the stats data in Workplace Analytics
+description: Describes the analytical Explore the stats data in Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -17,9 +17,9 @@ audience: Admin
 
 # Explore the stats
 
-Explore the stats data in Workplace Analytics gives you a starting point with quick insights about your organization and to identify data you'll want to investigate further.
+Explore the stats data in Viva Insights gives you a starting point with quick insights about your organization and to identify data you'll want to investigate further.
 
-The following are available in Workplace Analytics:
+The following are available in Viva Insights:
 
 * [**Week in the life**](../use/explore-metrics-week-in-the-life.md) summarizes day-to-day collaboration in the organization.
 * [**Meetings overview**](../use/explore-metrics-meetings-overview.md) summarizes meeting norms within your organization.
@@ -32,7 +32,7 @@ The following are available in Workplace Analytics:
 
 You can access Explore the stats data through the recommendations within **See your insights** in the [**Take action**](insights.md#take-action) section of a relevant behavior.
 
-For example, to see **Meetings overview** data in Workplace Analytics:
+For example, to see **Meetings overview** data in Viva Insights:
 
 * Select **Home** > **Improve agility** > **Organize better meetings** > **See your insights** > **Explore the stats** in **Try shorter and smaller meetings**
 
@@ -43,7 +43,7 @@ For example, to see **Meetings overview** data in Workplace Analytics:
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
 <iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>-->
-The user interface and navigation in recent releases of Workplace Analytics are different that what's shown in this video.
+The user interface and navigation in recent releases of Viva Insights are different that what's shown in this video.
 
 <iframe width="580" height="512" src="https://player.vimeo.com/video/434890563" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
