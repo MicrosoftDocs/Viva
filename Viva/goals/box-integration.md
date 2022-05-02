@@ -50,8 +50,6 @@ Admins can perform the following steps to enable this integration:
 
 6. This opens up a pop-up window where you can grant access to Box to integrate with Viva Goals. This access allows Viva Goals to read and download files from your Box account.
 
-    :::image type="content" source="../media/goals/Viva Goals Box Integration 1.gif" alt-text="Box Integration 1":::
-
 ## How to connect a spreadsheet in Box to an OKR?
 
 Once you've configured the connection, the next step is to start linking OKRs to the spreadsheets in Box.
@@ -66,8 +64,6 @@ Once you've configured the connection, the next step is to start linking OKRs to
 
 5. Now can track value by either a **Named Range** or a **Column & Row Number**. This is used to locate your KPI data in the spreadsheet.
 
-    If you're new to Named Ranges, follow our [guide on creating named ranges](https://app.intercom.com/a/apps/f53abf17fc4f106288e3b3cfff8926c4889358fd/articles/articles/4630844/show).
-
 6. It takes up to 15 minutes for your newly created Named range to be displayed in the **Select a named range** dropdown.
 
 7. Once you select the named range, you'll see a preview of the selected value from the sheet so you can double-check from the sheet.
@@ -75,12 +71,3 @@ Once you've configured the connection, the next step is to start linking OKRs to
 8. Select the **Next** button. You'll now see that the objective has been connected to Box.
 
 9. Select **Save** to save the integration.
-
-**Connecting a spreadsheet in Box to an OKR using Named Ranges:**
-
-:::image type="content" source="../media/goals/Viva Goals Box Integration 2.gif" alt-text="Box Integration 2":::
-
-**Connecting a spreadsheet in Box to an OKR using column and row number:**
-
-:::image type="content" source="../media/goals/Viva Goals Box Integration 3.gif" alt-text="Box Integration 3":::
-
