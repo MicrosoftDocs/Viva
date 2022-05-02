@@ -53,19 +53,21 @@ Once the connection configuration is done, users can **Edit** their Viva Goals O
 
 2. If a Domo Connection isn't configured, Viva Goals also allows the user to configure a connection right there. If already configured, Viva Goals allows the users to proceed with setting up the data link by selecting an available connection.
 
-In the popup that appears, follow the prompts to set up the Domo data link.  
-Select **Connection**, key in **DataSet-ID**, your actual **KPI** from the list of measures/dimensions available on the selected dataset.
+3. In the popup that appears, follow the prompts to set up the Domo data link.  
+  
+4. Select **Connection**, key in **DataSet-ID**, your actual **KPI** from the list of measures/dimensions available on the selected dataset.
 
 > [!NOTE]
-> To obtain the DataSet-ID:</br>
-> Login to your Domo instance and select the Dataset name mentioned under the card.
+> To obtain the DataSet-ID: Login to your Domo instance and select the Dataset name mentioned under the card.
 
-Grab the 36 character DataSet-ID from the URL of the DataSet page.
+5. Grab the 36 character DataSet-ID from the URL of the DataSet page.
 
-If there are multiple values for the KPI, and you have the Close Rate for all your sales team members as part of the Domo dataset, you can apply a function (sum/average/count) on the set of values. For example, average of Close Rate for the entire sales team.</br>
-or</br>
+6. If there are multiple values for the KPI, and you have the Close Rate for all your sales team members as part of the Domo dataset, you can apply a function (sum/average/count) on the set of values. For example, average of Close Rate for the entire sales team.
+
+or
+
 Apply any available dataset fields as **Filters**. For example, filter a particular AE Name - Adam's Close Rate.
 
-Viva Goals displays the final KPI value for your reference before saving the data link set-up.
+7. Viva Goals displays the final KPI value for your reference before saving the data link set-up.
 
 It’s as easy as that! Now you know how to work smarter by integrating Viva Goals with Domo.
