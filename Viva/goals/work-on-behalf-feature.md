@@ -18,7 +18,7 @@ search.appverid:
 description: "Learn how and when to use the Work on Behalf feature"
 ---
 
-# Work on Behalf feature
+# Work on behalf of another user 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
@@ -50,7 +50,7 @@ To use Work on Behalf feature, perform the following steps:
 
    :::image type="content" source="../media/goals/stop-work-on-behalf.png" alt-text="The option to stop working on behalf of another user":::
 
-## When to use Work on Behalf feature
+## When to use the Work on Behalf feature
 
 The Work on Behalf feature is great to have when an admin user needs to set up a new Viva Goals user with OKRs before giving that person access to the system.
 
