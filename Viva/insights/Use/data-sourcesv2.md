@@ -20,7 +20,7 @@ audience: Admin
 **Data sources** shows high-level views for Viva Insights admins and data analysts to confirm that your Microsoft 365 and organizational data is ready to use. When you upload and process CRM data in the advanced insights app, you'll also see a page for your CRM data.
 
 * [Microsoft 365 data](office-365-data.md) - Shows the latest Microsoft 365 data that's been processed in Viva Insights.
-* [Organizational data](organizational-data.md) - Shows information about your company that you provide to Viva Insights through uploads of organizational (HR) data. If you purchased a license for Viva Insights starting October 2021, Viva Insights uses Azure AD data to present data about your organization.
+* [Organizational data](organizational-data.md) - Shows information about your company that you provide to Viva Insights through uploads of organizational (HR) data. By default, Viva Insights uses Azure AD data to present data about your organization, unless organizational data is uploaded.
 * [CRM data](crm-data.md) - Shows a high-level view of the latest available CRM data that you uploaded and was successfully processed in Viva Insights.
 
 **Owners** – Viva Insights Admins, Analysts, and limited Analysts have full access to **Data sources**. For details on how to assign roles, see [Assign admin roles](../setup/assign-roles-to-wpa-admins.md).
