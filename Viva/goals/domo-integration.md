@@ -64,9 +64,9 @@ Once the connection configuration is done, users can **Edit** their Viva Goals O
 
 6. If there are multiple values for the KPI, and you have the Close Rate for all your sales team members as part of the Domo dataset, you can apply a function (sum/average/count) on the set of values. For example, average of Close Rate for the entire sales team.
 
-  or
+    or
 
-  Apply any available dataset fields as **Filters**. For example, filter a particular AE Name - Adam's Close Rate.
+    Apply any available dataset fields as **Filters**. For example, filter a particular AE Name - Adam's Close Rate.
 
 7. Viva Goals displays the final KPI value for your reference before saving the data link set-up.
 
