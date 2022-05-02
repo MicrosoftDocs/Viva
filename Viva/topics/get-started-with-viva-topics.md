@@ -1,5 +1,5 @@
 ---
-title: Learn about topics
+title: Learn about topics in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen

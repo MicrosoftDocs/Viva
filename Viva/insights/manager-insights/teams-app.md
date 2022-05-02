@@ -29,7 +29,7 @@ See [Microsoft Viva Insights app](/insights/teams-app) for details on how to ins
 
 ## App comparison
 
-Both the Viva Insights app and the Workplace Analytics app show you outcomes, insights for those outcomes, and the recommended best practices for each insight. However, they differ as follows:
+Both the Viva Insights app and the Advanced insights app show you outcomes, insights for those outcomes, and the recommended best practices for each insight. However, they differ as follows:
 
 * The Viva Insights app shows you best practice recommendations within Teams.
-* The Workplace Analytics app shows best practices that include the option to create a [Plan](./plans.md) for your team.
+* The Advanced insights app shows best practices that include the option to create a [Plan](./plans.md) for your team.

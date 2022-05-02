@@ -1,8 +1,8 @@
 ---
 title: Sales business continuity dashboard
-description: Use the Sales business continuity dashboard to visualize predefined query data from Workplace Analytics in Power BI
+description: Use the Sales business continuity dashboard to visualize predefined query data from Viva Insights in Power BI
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -10,13 +10,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Sales business continuity
 
-You can use the Sales business continuity dashboard uses a Template that’s populated by Workplace Analytics data to gain insights into how your Sales organization and your sellers are being impacted by the shift to remote work.
+You can use the Sales business continuity dashboard uses a Template that’s populated by Viva Insights data to gain insights into how your Sales organization and your sellers are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
@@ -27,9 +27,9 @@ The dashboard enables you to visualize and explore the following top-level busin
 * How are the engagement models with external stakeholders evolving?
 * How have relationships with key customers changed?
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined “Sales business continuity” and “Domain collaboration” queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.
+To populate the dashboard in Power BI, you must set up and successfully run the predefined “Sales business continuity” and “Domain collaboration” queries in the advanced insights app. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.
 
-After you successfully run these queries, you'll see the Template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these queries, you'll see the Template as an available download option for the Business Continuity query. This template is required to create the dashboard in Power BI. After you download the Template, you can then connect the query data from the app to the dashboard in Power BI.
 
 When the Sales business continuity dashboard is populated with data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
@@ -45,15 +45,15 @@ To find the template for the Sales business continuity dashboard, go to the [Que
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of Analyst in Workplace Analytics.
+* Be assigned the role of Analyst for advanced insights.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to Get Power BI Desktop to download and install the latest version.
 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the app. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Sales business continuity** to see the required setup steps, and then in step 2, select **Set up** next to **Sales business continuity** (or **Domain collaboration** per **Step 7**).
 3. When prompted, select or confirm the following query settings:
 
@@ -76,7 +76,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 5. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
    >[!Important]
-   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in query output or in Power BI reports.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in the app, charts and data relating to LevelDesignation will not show in query output or in Power BI reports.
 
 6. Select **Run** to run the query, which might take a few minutes to complete.
 7. When prompted, select to return to the Query designer, and then repeat **Steps 2-6** for the **Domain collaboration** query, which requires the same selections as for Sales business continuity.
@@ -85,24 +85,24 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
 10. If prompted to select a program, select **Power BI**.
 11. When prompted by Power BI, copy and paste the OData links for both queries into their respective fields.
 
-    1. In the Workplace Analytics **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
+    1. In **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective field.
-    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing data.
     4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-12. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+12. If you're already signed in to Power BI with your organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 13. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed**dialog box, select **Organizational account**, and then select **Sign in**. See Troubleshooting for more details.
-14. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+14. Select and enter credentials for the organizational account that you use to sign in to the app, and then select **Save**.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >You must sign in to Power BI with the same account you use to access the advanced insights app.
 
 15. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 16. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../tutorials/query-auto-refresh.md#stop-auto-refresh) option for details.
 
 ## Dashboard settings
 
-After the Sales business continuity dashboard is set up and populated with Workplace Analytics data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
+After the Sales business continuity dashboard is set up and populated with the Viva Insights data, the following guidelines help you set up and use the Power BI visualization charts to analyze your organization's collaboration patterns.
 
 * **Earlier time period** - This is the baseline for your analysis and all changes will be compared with this time period.
 

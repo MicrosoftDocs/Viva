@@ -1,7 +1,7 @@
 ---
 
 title: Best practices for avoiding email overload
-description: Workplace Analytics shares best practices with managers about how to avoid email overload
+description: Get best practice recommendations for managers about how to avoid email overload
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -57,5 +57,5 @@ When replying to email, reduce the use of reply all and remove participants who 
 
 ## Related topics
 
-* [Workplace Analytics best practices](best-practices.md)
-* [MyAnalytics collaboration](../personal/use/collaboration.md)
+* [Viva Insights best practices](best-practices.md)
+* [Collaboration](../personal/use/collaboration.md)

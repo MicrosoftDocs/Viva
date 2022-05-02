@@ -1,5 +1,5 @@
 ---
-title: How to create a new topic in Microsoft Viva Topics
+title: Create a new topic in Microsoft Viva Topics
 ms.author: ruthhollands
 author: ruthholls
 manager: pamgreen
@@ -16,7 +16,7 @@ description: Learn how to create a new topic in Microsoft Viva Topics.
 
 ---
 
-# How to create a new topic in Microsoft Viva Topics
+# Create a new topic in Microsoft Viva Topics
 
 In Viva Topics, you can create a new topic if one is not discovered through indexing or if the AI technology did not find enough evidence to establish it as a topic.
 
@@ -37,17 +37,17 @@ To create a new topic, you need to:
 
 You can create a new topic from two locations:
 
-- Topic center home page: Any licensed user with the **Who can create or edit topics** permission (contributors) can create a new topic from the topic center by selecting the **New** menu and select **Topic page**. 
+- Topic center home page: Any licensed user with the **Who can create or edit topics** permission (contributors) can create a new topic from the topic center by selecting the **New** menu and select **Topic Page**. 
 
     ![New topic from topic center.](../media/knowledge-management/new-topic.png)  
 
-- Manage topics page:  Any licensed user who has **Who can manage topics** permission (knowledge managers) can create a new topic from the Manage topics page in the Topic Center by selecting **New topic page**. 
+- **Manage topics** page: Any licensed user who has **Who can manage topics** permission (knowledge managers) can create a new topic from the **Manage topics** page in the topic center by selecting **New topic page**. 
 
     ![New topic from manage topics.](../media/knowledge-management/new-topic-topic-center.png)  
 
 ### To create a new topic:
 
-1. Select the option to create a new Topic Page from the ribbon on the Manage Topics page.
+1. Select the option to create a new Topic Page from the ribbon on the **Manage topics** page.
 
 2.  In the **Name this topic** section, type the name of the new topic.
 
@@ -111,7 +111,7 @@ You can create a new topic from two locations:
 
 9. Select **Publish** to save your changes. 
 
-After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item. 
+After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Mirosoft 365 permissions to the item. 
 
 
 
