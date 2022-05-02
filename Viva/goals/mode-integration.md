@@ -35,33 +35,19 @@ Viva Goals Mode integration allows you to link your OKRs to reports in Mode for 
 
 1. The first step in setting up the Mode integration is to connect your Mode account to Viva Goals. Navigate to your sidebar and select **Admin** and then select **Integrations**.
 
-    :::image type="content" source="../media/goals/goals-integrations-mode.gif" alt-text="Image of Admin dashboard Integrations":::
-
 2. In the integrations section, go to Mode and then select **Manage**.
 
-    :::image type="content" source="../media/goals/goals-integrations-mode-manage.png" alt-text="Image of Manage"::: 
-
 3. Select **New Connection** and in the pop-up dialog box, sign in to your Mode account using your credentials to authenticate the connection. 
-
-    :::image type="content" source="../media/goals/goals-integrations-new-connection.png" alt-text="Image of new connection":::
 
 ## Get your Mode workspace ID and API token
 
 Workspace ID: To get your Mode Workspace ID, select your **My Work** in the side navigation bar and copy the workspace ID from the URL. For example: if your URL is ```https://app.mode.com/home/vivagoals/search```, vivagoals is the Workspace ID.  
 
-:::image type="content" source="../media/goals/goals-workspace-ID-API-token.png" alt-text="Image of Workspace ID":::
-
 Mode API Token: To create your mode API token, select your profile and select **My Account**. On your account page, navigate to 'API Tokens' under Community. Select **Create token** to create a new mode API token.
-
-:::image type="content" source="../media/goals/goals-create-token.png" alt-text="Image of Mode API Token"::: 
 
 Once you have your Mode workspace ID and API Token, add it to the connection page in Viva Goals. 
 
 Name your connection, add your organization name (this is your Mode Workspace ID), Token (this is your Mode API Token), and then select Next to complete the new account setup. 
-
-:::image type="content" source="../media/goals/goals-create-connection.png" alt-text="Image of name your connection":::
-
-:::image type="content" source="../media/goals/goals-new-setup.png" alt-text="Image of new setup ":::
 
 ## Editing an existing Mode connection
 
@@ -70,8 +56,6 @@ Admins can also edit an existing Mode connection, including the integration’s 
 1. Start in the Integrations section in the Admin Dashboard and select **Mode**. 
 
 2. Select the **Edit** icon next to the Mode connection. In the pop-up dialog box that displays, you can edit the connection’s name, token, organization domain, password and select or clear the Share connection with all users checkbox. 
-
-    :::image type="content" source="../media/goals/goals-edit-mode-connection.gif" alt-text="Image of editing an existing mode connection":::
 
 ## Using the Mode integration
 
@@ -86,16 +70,8 @@ Once the Mode integration is set up, you can measure your OKR progress by connec
     > [!NOTE]
     > Viva Goals will sync data from Mode at every one-hour interval.
 
-    :::image type="content" source="../media/goals/goals-using-mode.gif" alt-text="Image of sync data ":::
-
     You can also configure a scheduler in Mode to make sure Viva Goals syncs the latest data from your Mode Report.  
-
-    :::image type="content" source="../media/goals/goals-create-new-schedule.png" alt-text="Image of create a new schedule":::
-
-    :::image type="content" source="../media/goals/goals-create-schedule.png" alt-text="Image of create schedule":::
 
 ## Disabling the integration
 
-The Mode integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to Mode in the Integrations section and select on Manage. In the Mode Configurations page, select the Change dropdown, select Disable and confirm the action. 
-
-:::image type="content" source="../media/goals/goals-disabling-mode.gif" alt-text="Image of disabling the integration":::
+The Mode integration may also be disabled by an Admin at any time. To disable the integration, as an Admin go to Mode in the Integrations section and select on Manage. In the Mode Configurations page, select the Change dropdown, select Disable and confirm the action.
