@@ -73,7 +73,7 @@ There are multiple easy to find relevant topics in the organization to contribut
 
     ![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png)  
 
-2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. Certain prompts can can appear to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.md#editing-and-creating-topics-in-viva-topics).  
+2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown in a topic card. Certain prompts can can appear to provide feedback on topic cards and the user can then select the topic page and click the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors-.md#edit-and-create-topics-in-viva-topics).  
 
     ![Image showing editing button within the topic page.](../media/knowledge-management/topic-page-editing-tc.png)
 
