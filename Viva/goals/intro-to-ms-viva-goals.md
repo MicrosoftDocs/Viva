@@ -73,7 +73,7 @@ The resources in this section help your users learn how to use and manage Viva G
 
 ## Provide us feedback
 
-Provide feedback about your experience with Viva Goals directly to Microsoft:
+Provide feedback about your experience with Viva Goals. 
 
 |If you are looking for this information  |Go to this resource  |
 |---------|---------|
