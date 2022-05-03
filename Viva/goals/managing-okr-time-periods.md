@@ -35,21 +35,19 @@ As a Viva Goals administrator for your organization, you can manage the OKR time
 
 When you switch to custom time period cadences, Viva Goals will no longer automatically switch the current time period. You will have to manually switch the current period whenever you are ready.
 
-:::image type="content" source="../media/goals/Goals-active-period-filters-views.png" alt-text="Image of the current active period":::
-
 ## How to manage time periods in Viva Goals
 
 1. Navigate to the **Time Periods** section in your admin dashboard. Select and save the month when your planning year starts. It is set to January by default.  
-    
-    :::image type="content" source="../media/goals/Goals-dmindashboard-timeperiods.png" alt-text="Image of the admin dashboard":::
+ 
+![Managing-OKR-Time-Peroids-2@1x](https://user-images.githubusercontent.com/100967547/166561667-6b36ae15-2297-4d47-af83-a561387a6b78.jpg)
     
 2. Use the **Add Time Periods** option to add custom time periods.
 
-    :::image type="content" source="../media/goals/Goals-add-time-periods.png" alt-text="Image of the add time period":::
+![Managing-OKR-Time-Peroids-3@1x](https://user-images.githubusercontent.com/100967547/166561770-0aa3bb3a-c88e-4ecf-9c42-2f08bc3ba0af.jpg)
 
 3. Select **Actions** menu and Set **Custom** time period as **Current Time Period**.
 
-    :::image type="content" source="../media/goals/Goals-custom-time-periods-current.png" alt-text="Image of the current time period":::
+![Managing-OKR-Time-Peroids-4@2x](https://user-images.githubusercontent.com/100967547/166562108-0fe20b4d-b42a-4c5c-919c-a820e984c900.jpg)
 
 ## FAQs
 
