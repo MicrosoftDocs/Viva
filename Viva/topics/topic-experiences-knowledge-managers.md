@@ -20,7 +20,7 @@ description: Learn how knowledge managers build and manage a knowledge base with
 
 Knowledge managers play a key role in building a knowledge base that Viva Topics then makes available to employees, in the flow of their work. In this document we review:  
 
-- [The importance of the knowledge manager role](topic-experiences-knowledge-managers.md#importance-of-the-knowledge-manager)
+- [The importance of the knowledge manager](topic-experiences-knowledge-managers.md#importance-of-the-knowledge-manager)
 
 - [The role of a knowledge manager](topic-experiences-knowledge-managers.md#knowledge-manager-role)
 
