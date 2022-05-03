@@ -2,9 +2,9 @@
 
 ROBOTS: NOINDEX,NOFOLLOW
 title: Videos for Viva Insights
-description: Videos about how Microsoft Viva Insights in Workplace Analytics works
+description: Videos about how the advanced insights app with Microsoft Viva Insights works
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 search.appverid:
@@ -18,13 +18,9 @@ manager: helayne
 audience: Admin
 ---
 
-# Viva Insights videos
+# Advanced insights videos
 
-The Microsoft Viva Insights documentation has a number of videos that can help explain concepts or describe procedural steps. Some of these videos show earlier versions of Workplace Analytics and might not be what you see in your version of the app.
-
-## Introduction
-
-[Navigate Workplace Analytics](../overview/get-started.md#video-navigate-workplace-analytics)
+The Microsoft Viva Insights documentation has a number of videos that can help explain concepts or describe procedural steps. Some of these videos show earlier versions of the app and might not be what you see in your version of the app.
 
 ## Setup
 

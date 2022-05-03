@@ -1,9 +1,9 @@
 ---
 
 title: Business continuity dashboard
-description: Use the Business continuity dashboard to visualize predefined query data from Workplace Analytics in Power BI
+description: Use the Business continuity dashboard to visualize predefined query data from Viva Insights in Power BI
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,13 +11,13 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
 # Business continuity
 
-The Business continuity dashboard uses a Template that’s populated by Workplace Analytics data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
+The Business continuity dashboard uses a Template that’s populated by Viva Insights data to gain insights into how your organization and your employees are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
 
@@ -30,9 +30,9 @@ The dashboard enables you to visualize and explore the following top-level busin
 * How are work patterns evolving?
 * How can remote work effectiveness be improved?
 
-To populate the dashboard in Power BI, you must set up and successfully run the predefined **Business continuity** and **Hourly collaboration** queries in Workplace Analytics. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  
+To populate the dashboard in Power BI, you must set up and successfully run the predefined **Business continuity** and **Hourly collaboration** queries in the advanced insights app. The results of these queries will refresh your downloaded Power BI dashboard on a weekly basis.  
 
-After you successfully run these required queries, you'll see the Template as an available download option for the Business continuity query. This template is required to create the dashboard in Power BI. After you download the Template, you can then connect the query data from Workplace Analytics to the dashboard in Power BI.
+After you successfully run these required queries, you'll see the Template as an available download option for the Business continuity query. This template is required to create the dashboard in Power BI. After you download the Template, you can then connect the query data from the advanced insights app to the dashboard in Power BI.
 
 When the Business continuity dashboard is populated with your data, you can use it to visualize, explore, and report about your organization's workplace patterns and trends.
 
@@ -48,12 +48,12 @@ To find the template for the Business continuity dashboard, go to the [Query des
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md).
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Template update
 
-The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the template from your most recently run Workplace Analytics Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates.
+The Business continuity dashboard is being updated on a frequent cadence to address evolving remote work business questions. To ensure you are using the latest version of the dashboard, download the template from your most recently run the Business continuity query, then repeat **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard). You don't have to run the queries again for template updates.
 
 If you started using the Business continuity dashboard in April or May 2020 and you selected to use six months of data for your queries, you need to repeat **Steps 1-7** in [Set up the dashboard](#set-up-the-dashboard) to run new queries that include data for the last one year, which will encompass activity before and during the shift to remote work in March. To continue to use your custom version of the Business Continuity dashboard and not update to the latest version of the template, do the following instead of **Steps 8-15** in [Set up the dashboard](#set-up-the-dashboard): 
 
@@ -72,9 +72,9 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 ## Set up the dashboard
 
 >[!Note]
->This dashboard supports the [same languages](../overview/supported-languages.md#supported-languages) that Workplace Analytics supports.
+>This dashboard supports the [same languages](../overview/supported-languages.md#supported-languages) that the advanced insights app supports.
 
-1. In [Workplace Analytics](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 2. In **Create** > **Other templates**, select **Business continuity** to see more details and the required setup steps, and then in step 2, select **Set up** next to **Business Continuity** (or **Hourly Collaboration** per **Step 6**).
 
    ![Business continuity template.](../Images/WpA/Tutorials/bc-setup-step2.png)
@@ -86,7 +86,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 4. In **Organizational data**, keep the preselected **Organization**, **LevelDesignation**, and **TimeZone** attributes that the dashboard requires. You can then select any other attributes (columns) to include in the dashboard.
 
    >[!Important]
-   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in Workplace Analytics, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
+   >LevelDesignation is a reserved optional attribute when uploading your organizational data. If this attribute was not uploaded and is unavailable in the advanced insights app, charts and data relating to LevelDesignation will not show in the query output or in Power BI reports.
 
 5. Select **Run** to run the query, which might take a few minutes to complete.
 6. When prompted, return to Query designer, and then repeat  **Steps 2-5** for the **Hourly collaboration** query, which requires the same selections as for Business continuity.
@@ -100,27 +100,27 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 
     1. In **Query designer** > **Results**, select the **Link** icon for each query, and select to copy the generated OData URL link.
     2. In Power BI, paste each copied link into its respective field.
-    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Workplace Analytics data.
+    3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
     4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
     ![Query URLs for Power BI.](../Images/WpA/Tutorials/odata-link-2.png)
 
-11. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
+11. If you're already signed in to Power BI with your Viva Insights organizational account, the dashboard visualizations will populate with your data. You are done and can skip the following steps. If not, proceed to the next step.
 12. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account**, and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
     ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
-13. Select and enter credentials for the organizational account that you use to sign in to Workplace Analytics, and then select **Save**.
+13. Select and enter credentials for the organizational account that you use to sign in to Viva Insights, and then select **Save**.
 
     >[!Important]
-    >You must sign in to Power BI with the same account you use to access Workplace Analytics.
+    >You must sign in to Power BI with the same account you use to access Viva Insights.
 
 14. Select **Connect** to prepare and load the data, which can take a few minutes to complete.
 15. If you have preexisting query results that the dashboard is no longer using, a best practice that reduces processing time is to turn off the auto-refresh or delete the queries that the dashboard is no longer using. See [Stop auto-refresh](../Tutorials/Query-auto-refresh.md#stop-auto-refresh) for details.
 
 ## Dashboard settings
 
-After the Business continuity dashboard is set up and populated with Workplace Analytics data, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
+After the Business continuity dashboard is set up and populated with Viva Insights data, as a first step to viewing data in the dashboard, view and set the following parameters on the **Settings** page.
 
 * **Earlier time frame** - This is the baseline for your analysis and all changes will be compared with this time frame.
 
@@ -155,7 +155,7 @@ The following describes each report with specific nuances to consider for each.
 
 ### Training opportunity
 
-Learn how to set up and interpret the results from the Power BI Business continuity dashboard: [Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Workplace Analytics](/learn/modules/workplace-analytics-business-continuity/)
+Learn how to set up and interpret the results from the Power BI Business continuity dashboard: [Evaluate shifts in work patterns with the Business continuity dashboard in Microsoft Viva Insights](/learn/modules/workplace-analytics-business-continuity/)
 
 ## Power BI tips, troubleshooting, and FAQs
 

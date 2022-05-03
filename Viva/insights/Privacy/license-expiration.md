@@ -17,7 +17,7 @@ audience: Admin
 
 # Data retention policy
 
-How long does Microsoft Viva Insights in Workplace Analytics and in Teams retain the data that's collected? The answer depends on the state of the Viva Insights user licenses:
+How long does Microsoft Viva Insights in the advanced insights app and in Teams retain the data that's collected? The answer depends on the state of the Viva Insights user licenses:
 
 * [Data retention for active tenants](#data-retention-for-active-tenants)
 * [Data retention after a license is removed](#data-retention-after-a-license-is-removed)
@@ -49,7 +49,7 @@ After this period has passed, you will no longer have access to Viva Insights in
 
 #### To download query results
 
-1. Open the cloud-based [Workplace Analytics app](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
+1. Open the cloud-based [advanced insights app](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 2. Select **Analyze** > **Query designer** > **Results**.
 3. In the row for the query results, select **Download** to download the results as a .csv file, which is archived as a .zip file.
 
