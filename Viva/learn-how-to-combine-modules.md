@@ -24,10 +24,10 @@ Microsoft Viva modules can be combined to create powerful employee experiences f
 **Scenarios in this article**:
 
 - Training and onboarding
-- Wellness and work-life balance 
-- Knowledge sharing and management 
+- Wellness and work-life balance
+- Knowledge sharing and management
 
-## Training and onboarding 
+## Training and onboarding
 
 Onboard new employees or volunteers and encourage upskilling with the combination of Viva Learning and Viva Connections. Create a training experience that can be accessed on desktop and mobile devices and can be targeted to specific audiences. Consider adding Viva Topics to help your organization manage internal projects, subject matter experts, and terminology.
 
@@ -38,14 +38,14 @@ Create and store custom training and onboarding content that your employees can 
 1. Get Viva Learning.
 2. Create custom onboarding content such as videos, Word documents, PowerPoint presentations, and more, and store them in a SharePoint site.
 3. [Configure SharePoint as a content source](learning/configure-sharepoint-content-source.md) for Viva Learning to allow users in your organization to access and share your custom content from Viva Learning in Teams.
-4. Managers can [recommend](https://support.microsoft.com/en-us/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) this content to users in your organization.
+4. Managers can [recommend](https://support.microsoft.com/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) this content to users in your organization.
 
 ### Module 2: Viva Connections
 
 Make it easy for your employees to access content in Viva Learning through their dashboard.
 
 1. Get Viva Connections.
-2. [Create a dashboard](connections/create-dashboard.md)so your users can quickly and easily access information and tasks.
+2. [Create a dashboard](connections/create-dashboard.md) so your users can quickly and easily access information and tasks.
 3. Add a Viva Learning [teams app card](connections/create-dashboard.md) to the dashboard.
 4. If you only want your Viva Learning card to show up to users going through the training and onboarding process, you can use [audience targeting](connections/create-dashboard.md).
 
@@ -86,10 +86,10 @@ Create, source, and share content to educate your organization about healthy wor
 1. Get Viva Learning.
 2. Use what you learned from Viva Insights to determine where your workforce has opportunities for learning. For example, your employees might benefit from training, on time management, effective communication, or stress management.
 3. Choose whether you want to [create your own content to host on SharePoint](learning/configure-sharepoint-content-source.md), use a [third-party provider](learning/configure-other-content-sources.md) or [learning management system](learning/configure-lms.md), or use content that’s available by default from Microsoft and LinkedIn Learning.
-4. Managers and leaders can [recommend](https://support.microsoft.com/en-us/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) content to specific users, and users can search for content to empower themselves.
+4. Managers and leaders can [recommend](https://support.microsoft.com/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) content to specific users, and users can search for content to empower themselves.
 5. If you’re using Viva Connections, add a Viva Learning [teams app card](connections/create-dashboard.md) to the dashboard.
 
-## Knowledge sharing and management 
+## Knowledge sharing and management
 
 ### Module 1: Viva Topics
 
@@ -108,9 +108,9 @@ Empower employees to find the information and contacts that they need to do thei
 
 ## Learn more
 
-[Get all Microsoft Viva modules](plan-for-all-viva-modules.md) 
+[Get all Microsoft Viva modules](plan-for-all-viva-modules.md)
 
-[Introduction to Viva Connections](connections/viva-connections-overview.md) 
+[Introduction to Viva Connections](connections/viva-connections-overview.md)
 
 [Introduction to Viva Insights](insights/introduction.md)
 
