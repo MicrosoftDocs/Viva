@@ -71,7 +71,7 @@ The resources in this section help your users learn how to use and manage Viva G
 |Learn how to integrate your other tools|Integrations        |
 |   |         |
 
-## Provide us feedback
+## Provide us with feedback
 
 Provide feedback about your experience with Viva Goals. 
 
