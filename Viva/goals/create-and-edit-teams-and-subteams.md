@@ -108,9 +108,9 @@ You can promote or remove any team member as a team owner or administrator in th
    
 ## How to archive and delete teams
 
-As an Viva goals administrator, we give you support to manage your teams. Sometimes, teams are dissolved or due to an organizational change, they're retired. If so, we give you the following two options in Viva Goals 
-- [Deleting a team](#deleting-a-team)
-- [Archiving a team](#archiving-a-team)
+As an Viva goals administrator, we give you support to manage your teams. Sometimes, teams are dissolved or due to an organizational change, they're retired. If so, we give you the following two options in Viva Goals.
+- [Deleting a team](#how-to-delete-a-team)
+- [Archiving a team](#how-to-archive-a-team)
 
 ### How to delete a team
 
