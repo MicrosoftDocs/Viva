@@ -1,8 +1,8 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Workplace Analytics query overview
-description: Workplace Analytics offers a number of flexible queries for custom data analysis
+title: Query overview
+description: Viva Insights offers a number of flexible queries for custom data analysis
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -20,7 +20,7 @@ audience: Admin
 
 # Queries overview
 
-Workplace Analytics has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
+The advanced insights app has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
 ![Ways to query data.](../Images/WpA/Use/ways-to-query-data.png)
 
@@ -38,7 +38,7 @@ The results of any queries that you've already run remain available to you, even
 
 ## Billing model differences
 
-Tenants subscribe to Workplace Analytics through one of the following billing models:
+Tenants subscribe to the advanced insights app through one of the following billing models:
 
 * **Consumption model** &ndash; The tenant pays Microsoft a fee that is based on the volume of query usage.
 * **Per-user-per-month (PUPM) model** &ndash; The tenant pays Microsoft a monthly fee that is based on the number of licensed users.
@@ -65,7 +65,7 @@ In this model, there is no minimum monthly licensing cost for your organization;
 * The number of base metrics in the query.
 * What base metrics are used, which are arranged into "price tiers"; metrics in higher price tiers consume more units than metrics in lower price tiers. For more information, see [Capacity model details](#capacity-model-details).
 
-As you design a query, Workplace Analytics uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
+As you design a query, the advanced insights app uses these factors to calculate the cost of the query. Within the query editor, you can see the estimated number of units that the query &ndash; in its current state &ndash; would consume. This number is updated as you edit the query:
 
 ![query estimate](../images/wpa/tutorials/query-estimate-1.png)
 
@@ -97,9 +97,9 @@ The terms in this formula are as follows:
 
    | Tier | Metric used in the query | Units |
    | ---- | ------------ | -------------- |
-   | 1    | Most Workplace Analytics metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
-   | 2    | Advanced Workplace Analytics metrics &ndash; specifically, the [Network query metrics](../tutorials/ona-metrics.md) of Workplace Analytics. | 2.25 |
-   | 3    | Workplace Analytics metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
+   | 1    | Most Viva Insights metrics &ndash; for example, collaboration hours, internal network size, low quality meeting hours, and 65 other basic metrics | 1.25 |
+   | 2    | Advanced Viva Insights metrics &ndash; specifically, the [Network query metrics](../tutorials/ona-metrics.md). | 2.25 |
+   | 3    | The Viva Insights metrics with [CRM data](crm-queries.md) &ndash; namely, external-facing metrics that calculate across CRM contacts. If you use CRM attributes to create filter customizations for a metric (for example, the Meeting hours metric where at least one attendee has _AccountName_ = _Contoso_), the metric is in tier 3. If a single metric has more than one customization and at least one of them uses a CRM attribute, the metric is in tier 3. | 6.00 |
 
    >[!Note]
    >If you use metrics at multiple price tiers, a subtotal is calculated for each metric and then all subtotals are added together. For example, if your query uses one metric in each of two price tiers, the total number of units consumed is **A** * **B** * **C** * **D** (for the metric on price tier 1) + **A** * **B** * **C** * **D** (for the metric on price tier 2)
@@ -142,7 +142,7 @@ This opens a panel that describes the current calculation:
 
 ##### Charges for recurring queries
 
-Workplace Analytics uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
+Viva Insights uses this formula to calculate the units that are consumed whenever you run a query except for recurring ([auto-refresh](query-auto-refresh.md)) queries. The first time a recurring query runs, the formula uses the actual number of user-weeks that the query definition specifies. In subsequent runs of the query, the formula automatically uses the additional time period as the query duration. You are not charged for any historical data that has already been analyzed.
 
 Note that the queried population can change between query refresh runs. Take the following example: There are 1,000 licensed employees when you first set up a "last four weeks" auto-refresh query. Before the query runs again, another 2000 employee licenses are approved. The first time that the query refreshes after the initial run, it will include:
 
@@ -174,8 +174,8 @@ The edited query runs again. As it does, it incurs a new cost, in units, calcula
 
 No additional units are charged for the following:
 
-* Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following Workplace Analytics features: [plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), [Explore pages](../use/explore-intro.md).
+* Viva Insights licenses that are assigned. You are charged for query volume, which is independent of licensing.  
+* Your use of the following the advanced insights app features: [plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Explore pages](../use/explore-intro.md).
 * Your choice of a query-results visualization method, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Your use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
@@ -195,7 +195,7 @@ In Query designer results, you'll see additional information if the capacity mod
 -->
 ### View analyst usage
 
-The **Analyst usage** report is available for download in the administrative pages of Workplace Analytics. This report lists the queries that were run during a specified time period, the analysts who submitted them, and other details, including the query cost:
+The **Analyst usage** report is available for download in the administrative pages of the advanced insights app. This report lists the queries that were run during a specified time period, the analysts who submitted them, and other details, including the query cost:
 
 ![Analyst usage report](../images/wpa/tutorials/usage-report-example1.png)
 
@@ -204,7 +204,7 @@ The **Analyst usage** report is available for download in the administrative pag
 
 ### To download the Analyst usage report
 
-1. Sign in to Workplace Analytics as an admin.
+1. Sign in to the advanced insights app as an admin.
 2. Go to the **Analyst usage** page:
 
    ![Download analyst usage report](../images/wpa/tutorials/analyst-usage2.png)
@@ -284,7 +284,7 @@ See [Peer comparison queries](../Tutorials/comparison-query.md) to learn more.
 
 ### Network queries
 
-You can use the Organizational network analysis (ONA) queries in Workplace Analytics to find out who are the best-connected people in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
+You can use the Organizational network analysis (ONA) queries in the advanced insights app to find out who are the best-connected people in your company, division, or group based on collaboration data. After you learn who your influencers are, you can act on the likelihood that these people can effectively connect within or across groups and become efficient drivers of change.
 
 See [ONA person queries](ona-person-query.md) and [ONA person-to-person queries](ona-person-to-person-query.md) for more details.
 
@@ -314,7 +314,7 @@ When you create a new query or edit an existing query, you can select the metric
 
 ## Predefined query templates
 
-Workplace Analytics includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
+The advanced insights app includes the following predefined query templates to help you get started with queries. In addition to these, a number of Power BI templates are also available. For details, see [Power BI templates](power-bi-intro.md).
 
 * **Domain collaboration** analyzes collaboration patterns with external domains.
 * **Standard meeting query** analyzes meetings by using the available base meeting query metrics.
@@ -323,7 +323,7 @@ Workplace Analytics includes the following predefined query templates to help yo
 
 ## Videos
 
-The videos in this section were used in a bootcamp for training analysts in how to run queries in Workplace Analytics.
+The videos in this section were used in a bootcamp for training analysts in how to run queries in the advanced insights app.
 
 ### A week in the life  
 

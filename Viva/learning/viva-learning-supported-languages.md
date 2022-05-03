@@ -1,5 +1,5 @@
 ---
-title: "Viva Learning supported languages"
+title: "Supported languages in Viva Learning"
 ms.reviewer:
 ms.date: 2/17/2022
 ms.author: daisyfeller
@@ -18,9 +18,9 @@ ms.collection:
 ms.localizationpriority: medium
 description: Learn which languages are supported for Viva Learning in Microsoft Teams.
 ---
-# Viva Learning supported languages
+# Support languages in Viva Learning
   
-Viva Learning adapts to your organization's Microsoft 365 language preferences. This means that you'll have Viva Learning in the same language that you have Microsoft Teams. However, Viva Learning doesn't currently support right-to-left languages. Currently, Viva Learning supports the following languages:
+Viva Learning adapts to your organization's Microsoft 365 language preferences. This means that you'll have Viva Learning in the same language that you have Microsoft Teams. However, Viva Learning doesn't currently support right-to-left languages. Currently, Viva Learning supports the following languages.
 
 |&nbsp; | &nbsp; | &nbsp; |
 |---|---|---|

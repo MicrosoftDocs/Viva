@@ -48,15 +48,15 @@ The template for the Wellbeing dashboard is on the Results page in [Query design
 
 Before you can run the queries and populate the dashboard in Power BI, you must:
 
-* Be assigned the role of [Analyst](../use/user-roles.md) in Workplace Analytics.
+* Be assigned the role of [Analyst](../use/user-roles.md) in the advanced insights app.
 * Have the latest version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/p/power-bi-desktop/9ntxr16hnw1t?activetab=pivot:overviewtab) to download and install the latest version.
 
 ## Set up the report
 
 >[!Note]
->This dashboard is currently only available in English and will only work with data generated from the English version of Workplace Analytics. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
+>This dashboard is currently only available in English and will only work with data generated from the English version of the advanced insights app. Before running the required queries, confirm or change the browser language to **en-us** in the app's URL: <https://workplaceanalytics.office.com/en-us/Home/>
 
-1. In [Workplace Analytics with Viva Insights](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
+1. In [the app](https://workplaceanalytics.office.com/), select **Analyze** > **Query designer**.
 
 2. In **Create** > **Other templates**, select **Wellbeing - balance and flexibility** to see the required setup steps, and then in step 2, select **Set up**.
 
@@ -70,8 +70,8 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    * **Auto-refresh** &ndash; Keep this setting disabled by default. Turn it on only if you plan to track indicators on a weekly basis.
    * **Meeting exclusions** &ndash; Select the preferred rule for your tenant
 
-  >[!Important]
-  >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
+   >[!Important]
+   >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize employee wellbeing patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
 4. In **Select filters**, select **Active only** for "**Which measured employees do you want to include?**" Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a person query](./person-queries.md#create-a-person-query).
 
@@ -97,12 +97,12 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
     3. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
     4. Select **Load** to import the query results into Power BI. Loading these large files may take some time to complete.
 
-  ![Query URLs for Power BI.](../Images/WpA/Tutorials/wellbeing-odata.png)
+    ![Query URLs for Power BI.](../Images/WpA/Tutorials/wellbeing-odata.png)
 
-13. If you're already signed in to Power BI with your Workplace Analytics organizational account, the dashboard visualizations will populate with your data: You are done and can skip the following steps. If not, proceed to the next step.
+13. If you're already signed in to Power BI with your the advanced insights app organizational account, the dashboard visualizations will populate with your data: You are done and can skip the following steps. If not, proceed to the next step.
 14. If you're not signed in to Power BI, or if an error occurs when updating the data, sign in to your organizational account again. In the **OData feed** dialog box, select **Organizational account** and then select **Sign in**. See [Troubleshooting](../tutorials/power-bi-templates.md#troubleshooting) for more details.
 
-   ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
+    ![Power BI sign in.](../Images/WpA/Tutorials/pbi-sign-in.png)
 
 15. Select and enter credentials for the organizational account that you use to sign in to Viva Insights, and then select **Save**.
 

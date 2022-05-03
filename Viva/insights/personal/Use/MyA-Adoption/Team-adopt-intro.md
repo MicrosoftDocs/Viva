@@ -1,7 +1,7 @@
 ---
 
-title: MyAnalytics team adoption introduction
-description: MyAnalytics team adoption introduction
+title: Viva Insights team adoption introduction
+description: Viva Insights team adoption introduction
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
@@ -17,13 +17,13 @@ audience: user
 
 # Get started
 
-## The MyAnalytics Team Behavior Change Program
+## The Team Behavior Change Program
 
-The MyAnalytics Team Behavior Change Program uses MyAnalytics and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits.
+The Team Behavior Change Program uses Viva Insights and behavioral science to help teams reduce burnout and increase productivity by improving their collaboration habits.
 
-In this multi-week program, team members who are led by a manager work together to learn how to use MyAnalytics, diagnose problems, set and track goals, and build new habits to change the way the team collaborates.
+In this multi-week program, team members who are led by a manager work together to learn how to use Viva Insights, diagnose problems, set and track goals, and build new habits to change the way the team collaborates.
 
-At its core, the program is a series of MyAnalytics [Learning modules](Adopt-learning-modules.md) that can require as little as 15 minutes per week from team members.
+At its core, the program is a series of Viva Insights [Learning modules](Adopt-learning-modules.md) that can require as little as 15 minutes per week from team members.
 
 The biggest time investment is made upfront by the program manager who is responsible for designing a program that will meet the team’s needs. For example, the program manager might design a short program that encourages teams to experiment with new behaviors, or they might launch a longer, more rigorous program that requires an overarching team goal and weekly check-in meetings. 
 
@@ -81,7 +81,7 @@ Just as important as defining a cohesive team is to ensure that the people on th
 
 <img src="../../../Images/MyA/use/Adopt-teams-1.png" alt="The four program phases">
  
-The MyAnalytics Team Behavior Change Program has four phases: plan, implement, measure, and reinforce.
+The Team Behavior Change Program has four phases: plan, implement, measure, and reinforce.
 
 [Plan](Team-adopt-plan.md): The program manager collaborates with key stakeholders to create the program plan tailored to the needs of the team. Planning activities include building the team, structuring the program, and developing the communications plan.
 
@@ -89,6 +89,6 @@ Key stakeholders are people who’ve been chosen by the program manager to help 
 
 [Implement](Team-adopt-implement.md): The team implements the program, guided by the program manager. Program participants are engaged and supported with regular communications, resources, and check-ins.
 
-[Measure](Team-adopt-measure.md): The program manager collects and analyzes feedback and data from MyAnalytics, surveys, and any additional sources to measure the program results and create the program debrief.
+[Measure](Team-adopt-measure.md): The program manager collects and analyzes feedback and data from Viva Insights, surveys, and any additional sources to measure the program results and create the program debrief.
 
 [Reinforce](Team-adopt-reinforce.md): The executive sponsor and program manager establish appropriate rewards and recognition to encourage sustained change. They also determine next steps for the program.

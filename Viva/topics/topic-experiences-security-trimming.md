@@ -1,7 +1,7 @@
 ---
 title: Security trimming in Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -12,7 +12,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how security is used to view topics in Viva Topics.
+description: Learn how security is used when viewing topics in Viva Topics.
 ---
 
 # Security trimming in Microsoft Viva Topics
@@ -21,7 +21,7 @@ Viva Topics users can't view information in topics that their existing Office 36
 
 ## Why two users might have different views of the same topic
 
-When a topic is created through AI or manual curation, it can contain a description of the topic, alternative names, people associated with the topic, as well as sites, pages, and files related to the topic. When this information is viewed on a topic page, it is possible that two users who are viewing the same topic my not see the same information.
+When a topic is created through AI or manual curation, it can contain a description of the topic, alternative names, people associated with the topic, as well as sites, pages, and files related to the topic. When this information is viewed on a topic page, it is possible that two users who are viewing the same topic might not see the same information.
   
 For example, when User 1 views the Neptune topic page, they might see this view of the topic page.
 
@@ -64,6 +64,4 @@ The following table describes what users - topic viewers, contributors, and know
 
 
 
-
-## See also
 

@@ -79,7 +79,7 @@ To keep from disclosing personal data, Viva Insights de-identifies user data. Se
 
 ## Types of data used in analysis
 
-Before using advanced insights or analysis tools in Workplace Analytics or using Manager and leader insights, you should think about the types of data that you might see and could include in advanced analysis. Specifically, consider whether the inclusion of personal data is necessary to fulfill the purpose of the analysis, or whether other types of data that cannot be used to identify specific individuals could produce results that are as effective and insightful as you would get if you had used personal data.
+Before using the advanced insights app and its analysis tools or using manager and leader insights, you should think about the types of data that you might see and could include in advanced analysis. Specifically, consider whether the inclusion of personal data is necessary to fulfill the purpose of the analysis, or whether other types of data that cannot be used to identify specific individuals could produce results that are as effective and insightful as you would get if you had used personal data.
 
 Your organization might have its own data-classification system, but you might wish to consider the following types of data when you implement Viva Insights:
 
@@ -96,7 +96,7 @@ Consider implementing the following data-privacy recommendations before you begi
 
 ### Develop a clear analysis plan
 
-By using advanced analysis tools in Workplace Analytics, you can process data in many ways, so before you begin, it is important to have a clear purpose about what you want to analyze and why. Determine what specific questions about your organization you want to answer, and then consider how Viva Insights in Workplace Analytics might help you find those answers.
+By using advanced analysis tools in the advanced insights app, you can process data in many ways, so before you begin, it is important to have a clear purpose about what you want to analyze and why. Determine what specific questions about your organization you want to answer, and then consider how Viva Insights might help you find those answers.
 
 Having a clear question and then determining how a data analysis from Viva Insights will answer the question serves the following goals:
 
@@ -106,9 +106,9 @@ Having a clear question and then determining how a data analysis from Viva Insig
 
 ### Determine whether to complete a data protection impact assessment (DPIA)
 
-The degree of privacy risk to employees and other users in your organization is largely within your control. That risk depends primarily on the organizational dataset that you will import into Workplace Analytics and how you will use that data.
+The degree of privacy risk to employees and other users in your organization is largely within your control. That risk depends primarily on the organizational dataset that you will import into the advanced insights app and how you will use that data.
 
-After you have developed an analysis plan but before you begin processing data in Workplace Analytics, determine whether you need to complete a DPIA. If your proposed use of Viva Insights involves processing personal data in a manner that could lead to high risks to the rights of employees and other users in your organization, completing a DPIA might be warranted. If you are unsure whether a DPIA is required, consult your organization’s privacy subject matter experts, such as legal or HR personnel.
+After you have developed an analysis plan but before you begin processing data in the advanced insights app, determine whether you need to complete a DPIA. If your proposed use of Viva Insights involves processing personal data in a manner that could lead to high risks to the rights of employees and other users in your organization, completing a DPIA might be warranted. If you are unsure whether a DPIA is required, consult your organization’s privacy subject matter experts, such as legal or HR personnel.
 
 Higher-risk data includes sensitive demographic data, such as racial or ethnic origin, sex or gender, and trade union membership. Higher-risk uses of Viva Insights include using the service for profiling or to make automated decisions or predictions about employees. (Note that Microsoft designed Viva Insights to help people within organizations _make_ data-driven decisions, not to _automate_ those decisions.)
 
@@ -176,7 +176,7 @@ Under the GDPR, data subjects may have rights to request exclusion from processi
 * **Transparency regarding processing** - See [Metric descriptions](../Use/Metric-definitions.md) for detailed information about the metrics calculated by Viva Insights, and what they mean.  
 
 >[!Note]
->Microsoft 365 users can determine whether they have a Viva Insights or Workplace Analytics license and, consequently, whether their data is being processed. For more information, see [Subscription status](../setup/assign-licenses-to-population.md#subscription-status).
+>Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, see [Subscription status](../setup/assign-licenses-to-population.md#subscription-status).
 
 ## Additional resources
 

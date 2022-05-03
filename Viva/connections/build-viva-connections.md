@@ -35,7 +35,7 @@ You know you're ready to move onto the building phase if you've met the followin
 
 
 ## Step 3: Create your organization's instance of Viva Connections
-Start by creating the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site, and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
+Start by creating the Viva Connections Dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site and linked to cards on the Dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization. 
 
 ## Create a Viva Connections Dashboard
 The Dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks. 
@@ -67,7 +67,7 @@ For a smooth launch, you'll want to make sure information can be easily accessed
 
 
 ## Test and refine the Viva Connections experience
-Before sharing Viva Connections with the rest of your organization, recruit a small group of users to test and refine popular workflows to ensure end-users have a great experience using Viva Connections for the first time. Consider recruiting specific people from difference audiences to complete popular tasks. Make improvements until the experience is ideal for the rest of the organization.
+Before sharing Viva Connections with the rest of your organization, recruit a small group of users to test and refine popular workflows to ensure end-users have a great experience using Viva Connections for the first time. Consider recruiting specific people from different audiences to complete popular tasks. Make improvements until the experience is ideal for the rest of the organization.
 
 **Best practices for testing:**
 - Use the approved web browser for your organization

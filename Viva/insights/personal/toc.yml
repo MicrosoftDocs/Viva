@@ -23,11 +23,13 @@ items:
                 - name: Virtual commute
                   href: teams/viva-insights-virtual-commute.md
                 - name: Headspace
-                  href: teams/viva-insights-headspace.md                        
+                  href: teams/viva-insights-headspace.md                     
             - name: Stay connected
               href: teams/viva-insights-stay-connected.md
             - name: Protect time
               href: teams/viva-insights-protect-time.md
+            - name: Inspiration library
+              href: teams/inspiration.md  
             - name: Setup
               items: 
                 - name: Discover the app
@@ -88,7 +90,7 @@ items:
           href: Use/home-web.md
         - name: Dashboard
           href: Use/dashboard-2.md
-        - name: Digests
+        - name: Digest emails
           href: use/email-digests-3.md
         - name: Focus plan
           href: use/focus-plan.md

@@ -36,6 +36,8 @@ items:
                 href: personal/teams/viva-insights-stay-connected.md
               - name: Protect time
                 href: personal/teams/viva-insights-protect-time.md
+              - name: Inspiration library
+                href: personal/teams/inspiration.md  
               - name: Setup
                 items: 
                   - name: Discover the app
@@ -439,8 +441,6 @@ items:
                             href: tutorials/solutionsv2-participants.md
                           - name: Concepts
                             href: tutorials/solutionsv2-conceptual.md
-                      - name: Opportunities scan
-                        href: Use/solutions-scan.md
                   - name: Notifications 
                     href: use/wpa-notifications.md 
               - name: In Power BI
@@ -451,7 +451,7 @@ items:
             items:
               - name: Download a query report in UTF-8 format
                 href: tutorials/Download-UTF8-query-report.md
-              - name: Workplace Analytics 500 error
+              - name: Advanced insights 500 error
                 href: tutorials/Wpa-tool-500-error.md
               - name: Meeting exclusion rules - large meeting limitation
                 href: tutorials/meeting-exclusion-250.md                      

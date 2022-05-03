@@ -4,13 +4,12 @@ metadata:
   description: Get answers to the most frequently asked questions about the Briefing email from Microsoft Viva Insights
   author: madehmer
   ms.author: helayne
-  ms.topic: article
+  ms.topic: faq
   ms.localizationpriority: medium 
+  ms.prod: Mya
   ms.service: viva 
   ms.subservice: viva-insights 
-  ms.collection:
-  - viva-insights-personal
-    
+  ms.collection: viva-insights-personal
 title: Briefing email from Microsoft Viva FAQ
 summary: |
 
@@ -77,7 +76,7 @@ sections:
 
       - question: Why am I getting so many emails from Microsoft and how can I manage them?  
         answer: |
-          You're getting emails from Microsoft Viva with the purpose of helping you be more productive during your workday. Viva Insights and MyAnalytics lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through weekly digest emails, a dashboard, and an Insights Outlook add-in.  
+          You're getting emails from Microsoft Viva with the purpose of helping you be more productive during your workday. Viva Insights lets you explore your work patterns and learn ways to work smarter by providing you with personal productivity insights through biweekly digest emails, a dashboard, and an Insights Outlook add-in.  
           
           Briefing is optimized to show you the most relevant and actionable information that you need for the day ahead. It provides complementary experiences to help you be your most productive self. You only get Briefing emails at the beginning of your workday if you have actionable tasks or meetings. You can opt out with the **Unsubscribe** link at the end of the email.
           

@@ -32,7 +32,7 @@ When data is processed for team insights, Microsoft protects employee privacy an
 
 ## Admin tasks
 
-**Team insights** are available to teams who have a Microsoft Viva Insights license with a [MyAnalytics (Full) or an Insights by MyAnalytics service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
+**Team insights** are available to teams who have a Microsoft Viva Insights license with an applicable [service plan](../personal/overview/plans-environments.md). Ask your admin about licensing and to install and set up the Viva Insights app in Teams for the organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.
 
 ## Set up your team
 
@@ -96,7 +96,7 @@ As a qualifying manager, you'll see a top insight with a **Learn more** link to 
 
 ## Briefing and digest emails
 
-As a team manager or lead, you'll also see additional information and suggestions in your Viva Insights monthly digest and Briefing emails about your team. For details, see [Viva Insights digest emails](../personal/use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
+As a team manager or lead, you'll also see additional information and suggestions in your Viva digest email and Briefing emails about your team. For details, see [Viva digest emails](../personal/use/email-digests-3.md) and [Catch up with your team](../personal/Briefing/be-manager.md).
 
 ## Related topics
 

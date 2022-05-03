@@ -48,8 +48,6 @@ Your personalized insights are based on the working days, working hours, and tim
 
 You can also select to automatically book focus time or only get reminders to schedule focus time for the next two weeks in **Settings** > **Protect Time**. For more details, see [Focus plan](/myanalytics/use/focus-plan).
 
-![Settings.](../../Images/mya/use/settings.png)
-
 ## Your feedback
 
 Your experience rating and feedback about Viva Insights is important to us. If you think of a new feature or enhancement:

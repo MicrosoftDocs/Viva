@@ -1,7 +1,7 @@
 ---
 
-title: Privacy settings and exclusions for Workplace Analytics
-description: Describes the privacy settings and exclusions in Workplace Analytics that administrators can set up and edit for your organization
+title: Privacy settings and exclusions for Viva Insights
+description: Describes the privacy settings and exclusions in Viva Insights that administrators can set up and edit for your organization
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -17,7 +17,7 @@ audience: Admin
 
 # Privacy settings and exclusions
 
-As the Viva Insights or Workplace Analytics admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](../Tutorials/query-designer.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Workplace Analytics keeps personal data private.
+As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](../Tutorials/query-designer.md) and [Explore the stats](../Use/explore-intro.md). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
 
 You can use privacy settings to:
 
@@ -27,11 +27,11 @@ You can use privacy settings to:
 * [Exclude email addresses](#exclude-domains-or-email-addresses)
 * [Exclude terms from subject lines](#exclude-terms-from-subject-lines)
 
-**Owner** – Only Viva Insights or Workplace Analytics admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
+**Owner** – Viva Insights admins have full access to this page. For details, see [Assign roles to admins and analysts](../setup/assign-roles-to-wpa-admins.md).
 
-Admins configure the privacy settings in **Analyst settings** > **Privacy** when setting up Workplace Analytics.
+Admins configure the privacy settings in **Analyst settings** > **Privacy** when setting up the advanced insights app.
 
-![Privacy settings for advanced insights in Workplace Analytics](../images/wpa/use/privacy-settings.png)
+![Privacy settings for advanced insights](../images/wpa/use/privacy-settings.png)
 
 <!-- VERIFY BOTH OF THE FOLLOWING PARAGRAPHS! -->
 
@@ -46,7 +46,7 @@ If you do change privacy settings, your changes take effect after Microsoft 365 
 
 ## Minimum group size
 
-The minimum-group-size rule protects people from being identified in Workplace Analytics data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
+The minimum-group-size rule protects people from being identified in Viva Insights data, including in [Insights](insights.md), [Explore the stats](../Use/explore-intro.md), and [Plans](../tutorials/solutionsv2-intro.md). If you change this setting, your change takes effect immediately.
 
 The default minimum-group setting is *five*, which is the *minimum allowed value*. You can change this setting according to the privacy requirements of your specific organization.
 
@@ -61,12 +61,12 @@ For example, the columns on the left in the following graphic shows chart data f
 
 Use this setting to control whether to show or hash subject lines in [Meeting query](../tutorials/meeting-queries.md) results, which, by default, are *not* shown.
 
-If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text in unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines. (After you make this setting, it can take up to ten minutes for your change to take effect. After the change does take effect, it affects data that Workplace Analytics has already processed.)
+If you select **Yes** for **Hash subject lines**, they are converted to a hashed value (a system-generated number), so the text in unreadable in any queries. You can still create meeting queries that include subject-line terms, such as for meeting attributes. However, you won't be able to see a list of meetings that show the subject lines. (After you make this setting, it can take up to ten minutes for your change to take effect. After the change does take effect, it affects data that Viva Insights has already processed.)
 
 For example, you could run a query with the subject-line keyword "All-hands." Based on the attributes you include in the query, the results could show data with that subject line, including the number of meetings, the length and size of the meetings, and so on. However, you could not get a specific list of all the meetings with the subject line "All-hands" (a row for each all-hands meeting).
 
 >[!Note]
->Workplace Analytics offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For details, see the descriptions of **Include in report** and **Hash in report** in [Field mapping](../setup/upload-organizational-data2.md#field-mapping).
+>Viva Insights offers a second opportunity to control which HR attributes are included in query output. You can make selections for the "Include in report" and "Hash in report" options in a dropdown menu when you map uploaded HR data. For details, see the descriptions of **Include in report** and **Hash in report** in [Field mapping](../setup/upload-organizational-data2.md#field-mapping).
 
 ## Exclude domains or email addresses
 
@@ -89,7 +89,7 @@ Terms can be any combination of letters, numbers and special characters (such as
 
 ## Exclusion setting considerations
 
-Any domains, email addresses, or terms you exclude will not be included in any of the analysis, so it's important to carefully consider the implications of an exclusion and balance them with your privacy and data-analysis goals. If you exclude a domain or term that frequently appears in the collaboration dataset, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Workplace Analytics. This means that, after you make an exclusion setting, the setting does not affect data that has already been processed.
+Any domains, email addresses, or terms you exclude will not be included in any of the analysis, so it's important to carefully consider the implications of an exclusion and balance them with your privacy and data-analysis goals. If you exclude a domain or term that frequently appears in the collaboration dataset, it could adversely skew your analysis. Exclusion occurs before metadata is processed within Viva Insights. This means that, after you make an exclusion setting, the setting does not affect data that has already been processed.
 
 If you exclude the email address of the CEO (ceo@company.com), all meetings and emails in which the CEO is included are removed from analysis. So for all meetings and emails that include the CEO, the metadata for all other recipients and attendees included in those same emails and meetings is also excluded from analysis.
 
@@ -101,7 +101,7 @@ To exclude all email that contains the keywords "confidential," "ACP," and "priv
 * Must match exact string for subject keywords.
 * Does not match partial words; you must list all partial words as separate terms.
 
- When you add subject-line terms to exclude from analysis, Workplace Analytics might not recognize uncommon compound words, especially those in languages such as Japanese or Chinese. For best results, use single words, separated by semicolons.
+ When you add subject-line terms to exclude from analysis, Viva Insights might not recognize uncommon compound words, especially those in languages such as Japanese or Chinese. For best results, use single words, separated by semicolons.
 
 Term from subject line to exclude | Actual subject line | Excluded
 ---------|----------|---------
@@ -110,7 +110,7 @@ Term from subject line to exclude | Actual subject line | Excluded
  legal;acquisition | Acquisitions are finalized | No - Does not match partial words, and did not exclude acquisitions
  legal;acquisition |Is this a legal acquisition | Yes  - Excluded both legal and acquisition
 
-Learn more about [Workplace Analytics privacy and data access](../privacy/privacy-and-data-access.md).
+Learn more about [Viva Insights privacy and data access](../privacy/privacy-and-data-access.md).
 
 ## To configure privacy settings
 
@@ -135,5 +135,5 @@ Learn more about [Workplace Analytics privacy and data access](../privacy/privac
 
 ## Related topics
 
-* [Set up Workplace Analytics](../setup/set-up-workplace-analytics.md)
+* [Set up Advanced insights](../setup/set-up-workplace-analytics.md)
 * [System defaults](system-defaults.md)

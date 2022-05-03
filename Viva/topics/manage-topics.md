@@ -1,7 +1,7 @@
 ---
 title: Manage topics in the topic center in Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: ergradel
 audience: admin
@@ -50,6 +50,9 @@ Knowledge managers help to guide discovered topics through the various topic lif
    - Multiple users cast negative votes using the feedback mechanism on the topic card. For a topic to be removed, there must be a net of two negative votes received from users. For example, if one user voted negative and one user voted positive for a particular topic, you would still need two more negative votes for the topic to be removed.
 
   When a published topic is removed, the page with the curated details will need to be deleted manually through the Pages library of the topic center.
+
+> [!Note] 
+> A topic, when removed, can take up to 24 hours to stop appearing to users in your organization.
 
 > [!Note] 
 > On the **Manage topics** page, each knowledge manager will only be able to see topics where they have access to the underlying files and pages connected to the topic. This permission trimming will be reflected in the list of topics that appear in the **Suggested**, **Confirmed**, **Published**, and **Removed** tabs. The topic counts, however, show the total counts in the organization regardless of permissions.

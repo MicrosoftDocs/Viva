@@ -1,7 +1,7 @@
 ---
-title: Get started with Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+title: Learn about topics in Microsoft Viva Topics
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 audience: enabler, admin
 ms.topic: article
@@ -15,7 +15,7 @@ ms.localizationpriority:  medium
 description: Learn about new ways to discover and explore information in Microsoft Viva Topics.
 ---
 
-# Get started with Microsoft Viva Topics
+# Learn about topics in Microsoft Viva Topics
 
 How do you find the people and resources important to your work? When you share important files with others, are they able to find them again later, when they need them? Viva Topics provides new ways to discover and explore information from your content in Microsoft 365.  
 

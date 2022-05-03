@@ -1,9 +1,9 @@
 ---
 
-title: MyAnalytics dashboard
-description: Learn about your work patterns in MyAnalytics
+title: Personal insights dashboard
+description: Learn about your work patterns in Microsoft Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: high 
 ms.collection: 
@@ -17,13 +17,11 @@ manager: helayne
 audience: user
 ---
 
-# MyAnalytics dashboard
+# Viva Insights dashboard
 
-[![Viva announcement.](../../images/viva-banner-mya.png)](https://www.microsoft.com/microsoft-viva/insights)
+_**Applies to:** Viva Insights elements are available in varying levels to users of different Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
 
-_**Applies to:** MyAnalytics elements are available in varying levels to users of different Microsoft Office 365 and Microsoft 365 plans. See [Plans and environments](../overview/plans-environments.md) for details. Also see [How do I find my plan?](../overview/mya-faq.md#q4-how-can-i-find-out-what-my-plan-is)_
-
-Thank you for trying Viva Insights and MyAnalytics. Welcome to your new personalized dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
+Thank you for trying Viva Insights. Welcome to your new personalized dashboard that gives you valuable new insights into how to increase focus, achieve work-life balance, and improve your work relationships and team collaboration.
 
 **To open the dashboard**: Go to [myanalytics.microsoft.com](https://myanalytics.microsoft.com)
 
@@ -45,7 +43,7 @@ The Wellbeing section shows how well you are disconnecting from work during your
 For more details and tips, see [Focus](../use/focus.md) and [Wellbeing](../use/wellbeing.md).
 
 >[!Tip]
->The _focus plan_ in MyAnalytics helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [MyAnalytics focus plan](focus-plan.md).  
+>The _focus plan_ in Viva Insights helps you set aside regular focus time for your top-priority work. This plan helps you schedule one to two hours every day to focus, with an option to book that time automatically. During the booked focus time, it silences chats in Teams and in Skype for Business. For more information, see [Focus plan](focus-plan.md).  
 
 ## Network and Collaboration
 
@@ -57,11 +55,11 @@ For more details and tips, see [Network](../use/network.md) and [Collaboration](
 
 ## Productivity insights
 
-MyAnalytics gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
+Viva Insights gives you insights into your work patterns around focus, network, wellbeing, and collaboration over the past four weeks. These insights show observations and trends of your most recent work habits based on your Office 365 data.  
 
-![Weekly digest insight.](../../Images/mya/use/digest-insight.png)
+![Digest email insight.](../../Images/mya/use/digest-insight.png)
 
-These insights are also available on your MyAnalytics dashboard home page as well as on the specific outcome pages. Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
+These insights are also available on your dashboard home page as well as on the specific outcome pages. Select **View Suggestions** to see research-based recommendations on how to improve your work patterns.
 
 ![Productivity insights.](../../Images/mya/use/productivity.png)
 
@@ -91,9 +89,9 @@ As a manager or team lead with a Microsoft Viva Insights license, you can select
 
 ## Your feedback
 
-Your experience rating and feedback about Viva Insights and MyAnalytics is important to us. If you think of a new feature or enhancement:
+Your experience rating and feedback about Viva Insights is important to us. If you think of a new feature or enhancement:
 
-1. Open your [Dashboard](https://myanalytics.microsoft.com).
+1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select **Feedback** on the left pane.
 3. Complete the form, and then select **Submit**.
 
@@ -102,9 +100,9 @@ Your experience rating and feedback about Viva Insights and MyAnalytics is impor
 1. Open your [dashboard](https://myanalytics.microsoft.com).
 2. Select the **Settings** (gear) icon in the top right.
 
-    ![MyAnalytics settings.](../../Images/mya/use/mya-gear-settings.png)
+    ![Viva Insights settings.](../../Images/mya/use/mya-gear-settings.png)
 
-3. Select **Settings**.
+3. Under **Viva Insights**, select **Settings**.
 4. For **Dashboard**, set the control to **Off**.
 
     ![Slider in off position.](../../Images/mya/use/Slider-off.png)
@@ -112,7 +110,7 @@ Your experience rating and feedback about Viva Insights and MyAnalytics is impor
 5. Select **Save** to save your changes.
 
 >[!NOTE]
->It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digests or inline suggestions.
+>It might take up to 24 hours for your saved changes to take effect. See [Opt out](../overview/mya-faq.md#opt-out) for more details on opting out of digest emails or inline suggestions.
 
 ### If I am opted out, can I opt back in?
 

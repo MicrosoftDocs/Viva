@@ -26,10 +26,10 @@ This guide answers key questions on how Viva Insights processes information in a
 ## Summary of key points
 
 * **Personal insights in Viva Insights is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
-Viva Insights provides personal insights to individuals through a personalized dashboard, Briefing and email digests, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information that is shown through these surfaces, unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights cannot be used for automated decision making or for profiling.
+Viva Insights provides personal insights to individuals through a personalized dashboard, Briefing and Viva digest emails, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information that is shown through these surfaces, unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights cannot be used for automated decision making or for profiling.
 
 * **Personal insights in Viva Insights does not give employees access to new personally identifiable information on other coworkers**.
-Viva Insights converts data into personal insights by doing calculations on information that people generate just by going about their work day. Most of the personal insights data that employees see in Viva Insights is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
+Viva Insights converts data into personal insights by doing calculations on information that people generate just by going about their workday. Most of the personal insights data that employees see in Viva Insights is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
 
 * **Personal insights in Viva Insights data is processed and stored in the employee’s Exchange Online mailbox**.
 Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat, and call signals from Skype for Business and from Teams, and&mdash;if both the organization's IT administrator and an individual opt in&mdash;Windows 10 application activity history. Viva Insights stores and processes this personal insights data inside each employee’s Exchange Online mailbox.
@@ -41,7 +41,7 @@ Microsoft has designed Personal insights in Viva Insights to support customers�
 By default, any time a license with the Viva Insights service is assigned to a person, that person is automatically opted in. However, admins can configure Viva Insights to be "default off," so that people can choose for themselves whether to opt in after being assigned a license.
 
 * **Personal insights in Viva Insights reminds people that their data is private and secure**.
-A few days after a license with the Viva Insights service is assigned to a person, that person receives a welcome email that clearly lays out how Viva Insights works, with a reminder that all of their data is private. The other Viva Insights surfaces, such as the digest and Briefing emails, and the personal dashboard, reinforce this message.
+A few days after a license with the Viva Insights service is assigned to a person, that person receives a welcome email that clearly lays out how Viva Insights works, with a reminder that all of their data is private. The other Viva Insights surfaces, such as digest emails and Briefing emails, and the personal dashboard, reinforce this message.
 
 ## How Personal insights in Viva Insights works
 

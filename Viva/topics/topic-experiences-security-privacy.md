@@ -3,7 +3,7 @@ title: Security and privacy in Microsoft Viva Topics
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: nkokoye, cjtan
+ms.reviewer: cjtan
 audience: admin
 ms.topic: article
 ms.collection: m365initiative-viva-topics
@@ -73,6 +73,9 @@ If there are topics that you want to exclude entirely from topic experiences, yo
 - [Exclude topics by name](topic-experiences-discovery.md#exclude-topics-by-name). Topics explicitly excluded will not appear in topic experiences.
 
 - Have knowledge managers remove topics in the topic center.
+
+> [!Note] 
+> A topic, when removed, can take up to 24 hours to stop appearing to users in your organization.
 
 Additionally, we recommend these best practices:
 

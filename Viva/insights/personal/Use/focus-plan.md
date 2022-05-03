@@ -1,9 +1,9 @@
 ---
 
-title: Focus plan for MyAnalytics
-description: MyAnalytics focus plan
+title: Focus plan for Viva Insights
+description: Viva Insights focus plan
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-personal
@@ -17,9 +17,9 @@ audience: user
 
 # Focus plan
 
-Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the work day for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
+Meetings, emails, and chats are necessary to get work done, but they often leave us with little time during the workday for uninterrupted individual work. Some people report spending over 80% of their day collaborating with coworkers, and research has shown that it can take over 20 minutes to refocus after checking just one email.
 
-The focus plan in MyAnalytics helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
+The focus plan in Viva Insights helps you block regular time for your top-priority work by scheduling up to four hours every day to focus. The plan also lets you configure your focus-plan settings to match your needs:
 
 * You can silence or allow chats in Teams and in Skype for Business. 
 * You can mute or unmute team notifications. 
@@ -28,11 +28,11 @@ You can create, configure, or end your focus plan at will. For more information,
 
 ## To create your focus plan
 
-You can create your focus plan in the [MyAnalytics dashboard](#create-focus-plan-in-the-myanalytics-dashboard) or in the [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in):
+You can create your focus plan in the [Dashboard](#create-focus-plan-in-the-dashboard) or in the [Insights Outlook add-in](#create-focus-plan-in-the-insights-outlook-add-in):
 
-### Create focus plan in the MyAnalytics dashboard
+### Create focus plan in the dashboard
 
-When you enroll in the focus plan, you configure how focus time will be booked on your calendar. MyAnalytics books this time based on the preferences that you set:
+When you enroll in the focus plan, you configure how focus time will be booked on your calendar. Viva Insights books this time based on the preferences that you set:
 
 * The number of focus hours per day &mdash; one, two, or four hours.
 * Your preferred time of day &mdash; morning or afternoon.  
@@ -42,7 +42,7 @@ When you enroll in the focus plan, you configure how focus time will be booked o
 
    ![Focus plan - Get started.](../../Images/mya/use/focus-every-day-83.png)
 
-2. Select the number of hours of focus time you would like MyAnalytics to book for you every day, and then select **Next**.
+2. Select the number of hours of focus time you would like Viva Insights to book for you every day, and then select **Next**.
 
    ![Focus plan - Choose hours.](../../Images/mya/use/focus-plan-choose-hours-83.png)
 
@@ -54,7 +54,7 @@ When you enroll in the focus plan, you configure how focus time will be booked o
 
      ![Focus plan - Choose to mute chat notifications.](../../Images/mya/use/focus-plan-choose-mute-105.png)
 
-     MyAnalytics now looks for time in your Outlook calendar to set aside for focusing, based on your preferences. The amount and placement of focus time depends on the time your calendar has open.
+     Viva Insights now looks for time in your Outlook calendar to set aside for focusing, based on your preferences. The amount and placement of focus time depends on the time your calendar has open.
 
      See [Automatic booking of focus time](#automatic-booking-of-focus-time) for details.
 
@@ -91,7 +91,7 @@ Now that your focus plan is underway, you can do the following:
 
 After your plan has started, you can check your progress and make sure that you have focus time booked every day over the upcoming two weeks. If the plan has run for at least few days, it will have numbers to report.
 
-In the MyAnalytics dashboard, select **Focus** on the left to see statistics about your focus time:
+In the dashboard, select **Focus** on the left to see statistics about your focus time:
 
    ![Dashboard report.](../../Images/mya/use/track-progress.png)
   
@@ -105,11 +105,11 @@ For the current week and the following week, this area shows how many days and w
 
 ### Needs focus time
 
-This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have MyAnalytics select and book this time.
+This section shows upcoming days that have no focus time booked but still have open time available. Select **Book now** to have Viva Insights select and book this time.
 
 ### Needs review
 
-During the number of days shown (in the screenshot, three days) MyAnalytics has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web to resolve the issue.
+During the number of days shown (in the screenshot, three days) Viva Insights has either found no time to book or it has found booked focus time that has a meeting conflict. Select **Review** to open your calendar in Outlook on the web to resolve the issue.
 
 >[!Note]
 >If you make changes to your Outlook calendar, they will be reflected on your dashboard within five minutes.
@@ -121,7 +121,7 @@ During the number of days shown (in the screenshot, three days) MyAnalytics has 
 
 ## To leave or change your focus plan
 
-_**Applies to**: The new Focus Plan Settings page (which is described in this section) is currently in preview status. It is in the process of rolling out to all MyAnalytics users._
+_**Applies to**: The new Focus Plan Settings page (which is described in this section) is currently in preview status. It is in the process of rolling out to all Viva Insights users._
 
 You can opt in and opt out of the focus plan as many times as you want. 
 
@@ -135,7 +135,7 @@ You can opt in and opt out of the focus plan as many times as you want.
    
    After you indicate your preferences, select **Save changes**.
    
-   To have MyAnalytics stop helping you book focus time, select **Leave plan**. 
+   To have Viva Insights stop helping you book focus time, select **Leave plan**. 
 
 ## Concepts
 
@@ -143,7 +143,7 @@ The following sections provide information that can help you as you create or mo
 
 ### Automatic booking of focus time
 
-After you set automatic booking as your preference, MyAnalytics starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as a different color and is labeled "Focus time."
+After you set automatic booking as your preference, Viva Insights starts looking for time on your Outlook calendar to set aside as focus time. The scheduled focus time shows in your calendar as a different color and is labeled "Focus time."
 
 Focus time never creates a calendar conflict; that is, focus time will not be booked over any existing calendar event, such as all-day meetings, booked personal time, or appointments.
 
@@ -151,21 +151,21 @@ Although two hours is the maximum length of a focus-time block that can be sched
 
 #### Booking schedule
 
-MyAnalytics books focus time two weeks in advance. For example: when you open your calendar on a Monday, you should see focus time booked every day of the current week and all the way through the Friday of the following week. Each weekend it looks for time blocks in the next week out and books time accordingly. 
+Viva Insights books focus time two weeks in advance. For example: when you open your calendar on a Monday, you should see focus time booked every day of the current week and all the way through the Friday of the following week. Each weekend it looks for time blocks in the next week out and books time accordingly.
 
 #### How time slots are selected
 
-The time it reserves for you depends on the time you have open during the day. MyAnalytics starts its search at the beginning of your workday, as it is defined in your Outlook settings. 
+The time it reserves for you depends on the time you have open during the day. Viva Insights starts its search at the beginning of your workday, as it is defined in your Outlook settings. 
 
-MyAnalytics also respects the **Do not schedule focus time earlier than** setting in the **Plan configuration** dialog box. For example, if you set this to 9:00 AM, MyAnalytics will select no focus-time slots that begin earlier than 9:00 AM.  
+Viva Insights also respects the **Do not schedule focus time earlier than** setting in the **Plan configuration** dialog box. For example, if you set this to 9:00 AM, Viva Insights will select no focus-time slots that begin earlier than 9:00 AM.  
 
-MyAnalytics also prioritizes your preferences for length of focus time slots and part of day (morning or afternoon). For example, if you choose four hours of focus time and choose afternoon, MyAnalytics first scans your calendar to find four-hour open slots in the afternoon. If it finds no four-hour open slots in the afternoon, it continues to scan your calendar to find four-hour open slots in the morning. If only smaller amounts of time are available, it can book focus blocks as short as 30 minutes. 
+Viva Insights also prioritizes your preferences for length of focus time slots and part of day (morning or afternoon). For example, if you choose four hours of focus time and choose afternoon, Viva Insights first scans your calendar to find four-hour open slots in the afternoon. If it finds no four-hour open slots in the afternoon, it continues to scan your calendar to find four-hour open slots in the morning. If only smaller amounts of time are available, it can book focus blocks as short as 30 minutes. 
 
 After it books a block on one day, it then moves on to the next day to find the next suitable block, based on your preferences. (In most cases, it creates only one block of focus time per day.) 
 
 #### Lunchtime
 
-MyAnalytics considers the time from noon to 1:00 PM as time for the midday meal. If you have automatic booking turned on, MyAnalytics tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period.
+Viva Insights considers the time from noon to 1:00 PM as time for the midday meal. If you have automatic booking turned on, Viva Insights tries to book any other time of day first. If it finds no other blocks of time available, it will then book focus time during the lunchtime period.
 
 ### Chats are muted during focus time  
 
@@ -173,13 +173,13 @@ During focus time, your status in Teams and Skype for Business will automaticall
 
 For more information, see [Manage notifications in Teams](https://support.office.com/article/manage-notifications-in-teams-1cc31834-5fe5-412b-8edb-43fecc78413d).
 
-### Weekly digest and insights add-in
+### Digest emails and Viva Insights Outlook add-in
 
-#### Focus plan weekly digest
+#### Focus plan digest
 
-After you enroll in a focus plan, the content of the weekly digest becomes tailored to your participation in the plan. It might, for example, remind you to book focus time for days on which none is set aside.
+After you enroll in a focus plan, the content in your digest email will be tailored based on your participation in the plan. It might, for example, remind you to schedule focus time for days on which none is set aside.
 
-#### Insights add-in 
+#### Viva Insights add-in
 
 You can open the Outlook add-in to check whether any upcoming days are missing focus time. To do so, use this card:
 

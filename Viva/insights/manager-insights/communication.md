@@ -1,9 +1,9 @@
 ---
 
-title: Best practices for efficient communication
-description: Workplace Analytics shares best practices with managers about communication with their teams
+title: Best practices about efficient communication
+description: Get best practice recommendations for managers about communication with their teams
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ---
 
@@ -43,7 +43,7 @@ Based on the information presented in [Don’t just tell employees organizationa
 
 * Showcase the value in utilizing instant messages, such as [Chats in Microsoft Teams](https://support.microsoft.com/office/six-things-to-know-about-chat-in-microsoft-teams-88ed0a06-6b59-43a3-8cf7-40c01f2f92f2) for quick questions.
 * Launch a [champions program](/MicrosoftTeams/teams-adoption-create-champions-program) for employees who are early adopters of Microsoft Teams and can guide, teach, and train their peers.
-* Use [Power BI Microsoft Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through Workplace Analytics data, including instant messages, meeting, and email metrics.
+* Use [Power BI Microsoft Teams insights](../tutorials/power-bi-teams.md) to monitor Teams usage through advanced insights data, including instant messages, meeting, and email metrics.
 * Consider the nature of the conversation based on the subject and type of response needed and identify the appropriate medium for communication.
 * Encourage using instant messages for urgent questions to get what you need faster.
 * When dealing with a sensitive topic, a quick chat on the phone or in person is more ideal than volleying emails back and forth.
@@ -71,6 +71,5 @@ When introducing a new tool, help team members get comfortable and adopt quickly
 
 ## Related topics
 
-* [Workplace Analytics best practices](best-practices.md)
-* [MyAnalytics collaboration](../personal/use/collaboration.md)
-* [Microsoft FastTrack resources](https://www.microsoft.com/fasttrack/resources)
+* [Viva Insights best practices](best-practices.md)
+* [Collaboration](../personal/use/collaboration.md)

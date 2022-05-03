@@ -29,33 +29,47 @@ Broadly, [Viva Connections](viva-connections-overview.md) mobile has four compon
 > [!NOTE]
 > Teams and SharePoint may individually support more languages than the ones below.
 
-1. Catalan
-2. Chinese(Simplified)	
-3. Chinese(Traditional)
-4. Czech	
-5. Danish
-6. Dutch
-7. English	
-8. Finnish
-9. French	
-10. German		
-11. Greek	
-12. Hungarian	
-13. Indonesian	
-14. Italian	
-15. Japanese 
-16. Korean	
-17. Norwegian 
-18. Polish		
-19. Portuguese (Brazil)
-20. Portuguese (Portugal)
-21. Romanian
-22. Russian
-23. Spanish
-24. Swedish
-25. Thai
-26. Turkish
-27. Ukrainian
+
+## Available languages 
+
+:::row:::
+   :::column span="1":::
+      English <br>
+      Japanese <br>
+      German <br>
+      Chinese (Simplified) <br>
+      Spanish <br>
+      French <br>
+      Portuguese (Brazil) <br>
+      Russian <br>
+      Italian <br>
+      
+   :::column-end:::
+   :::column span="":::
+      Chinese (Traditional) <br>
+      Korean <br>
+      Dutch <br>
+      Polish <br>
+      Swedish <br>
+      Turkish <br>
+      Czech <br>
+      Portuguese (Portugal) <br>
+      Thai <br>
+
+   :::column-end:::
+   :::column span="":::
+      Danish <br>
+      Hungarian <br>
+      Finnish <br>
+      Indonesian <br>
+      Greek <br>
+      Romanian <br>
+      Ukrainian <br>
+      Catalan <br>
+      Norwegian Bokmål <br>
+
+   :::column-end:::
+:::row-end:::
 
 Learn how to set up Viva Connections components to display content in another language other than your organization’s default language. The steps below use English as an example, but the steps apply for any one of the 27 languages specified above. 
 

@@ -29,7 +29,7 @@ Before you use the Executive dashboard, you or an assistant should categorize yo
 
 ### Access to the Executive dashboard
 
-Access to the dashboad is based on either of two things: executive status as determined by the organizational hierarchy, or possession of delegate access to an executive's mailbox. 
+Access to the dashboard is based on either of two things: executive status as determined by the organizational hierarchy, or possession of delegate access to an executive's mailbox. 
 
 * **Executives and senior leadership** &ndash; Who is considered an executive and therefore has access to this dashboard? Based on analysis of Azure Active Directory records, an executive is someone who has a reporting structure of least 200 employees and is above at least two levels of managers.
 
@@ -43,7 +43,7 @@ The Executive insights help you reflect on how effectively you spend your time i
 
 In a chart, this section shows the relative amount of time that you spent in meetings of different categories.
 
-   ![MyAnalytics Collaboration Weekly Average.](../../Images/mya/use/percentage-breakdown.png)
+   ![Collaboration Weekly Average.](../../Images/mya/use/percentage-breakdown.png)
 
 In the chart, select a category to find out more.     
 
@@ -59,11 +59,11 @@ The Meeting habits section of the Executive dashboard highlights your habits or 
 
   ![Meeting trend view.](../../Images/mya/use/meeting-trends-figma.png)
 
-## Monthly digest email for executives
+## Digest email for executives
 
-If you are an executive, the monthly digest email includes a section that provides a preview of the insights that your Executive dashboard will show. For easy access, this email offers a link to the dashboard. 
+If you are an executive, your Viva digest emails will include a section with a preview of the insights that your Executive dashboard shows. For easy access, this email offers a link to the dashboard.
 
-If you are a person with delegate access, the monthly digest email includes not only your own content, but an additional section for each executive for whom you have delegate access. These executive sections duplicate the insights that the executive sees in their monthly digest email.
+If you are a person with delegate access, the digest email includes not only your own content, but an additional section for each executive for whom you have delegate access. These executive sections duplicate the insights that the executive sees in their digest email.
 
 ## Configure Executive insights
 
@@ -111,4 +111,4 @@ The following kinds of meetings are excluded from view, by default, in the dashb
  
 ## Related topics
 
-[MyAnalytics dashboard](../use/dashboard-2.md)
+[Dashboard](../use/dashboard-2.md)

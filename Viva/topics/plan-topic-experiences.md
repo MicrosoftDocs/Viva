@@ -34,6 +34,9 @@ To learn more about the AI technology behind Viva Topics, read [Alexandria in Mi
 
 Keep in mind that Viva Topics needs access to the sites and files that your users use every day. Deploying Viva Topics in a test or development environment may not yield useful results.
 
+> [!Note] 
+> Viva Topics does not support [Service encryption with Customer Key](/microsoft-365/compliance/customer-key-overview).
+
 ## Requirements
 
 You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator or SharePoint administrator to access the Microsoft 365 admin center and set up Topics.
@@ -45,7 +48,7 @@ All users who are going to use Topics require a **Topic Experiences** license. A
 
 ## Topic discovery
 
-The topic discovery settings specify which SharePoint sites are used as sources for topics. This includes both classic and modern sites, as well as sites associated with Microsoft Teams and Microsoft 365 Groups. OneDrive sites are not included.
+The topic discovery settings specify which SharePoint sites are used as sources for topics. This includes both classic and modern sites, as well as sites associated with Microsoft Teams and Microsoft 365 Groups. OneDrive sites are not included. Topics crawls all Office files, text files, and the SharePoint site pages themselves in the sites you specify.
 
 You can choose to include all SharePoint sites, a specific list of sites, or no sites. We recommend that you choose all sites so that topic experiences can discover a large number of good topics for your users.
 
@@ -107,7 +110,7 @@ When setting up topic viewers, you can choose from:
 - **Only selected people or security groups**
 - **No one**
 
-We recommend **Everyone in my organization**, but if you're doing a pilot you may want to choose only selected people or security groups. You can also choose **No one** if you want to set up Topics, but not allow people to see topics yet. (Knowledge managers will still have access to allow them view the topics and help with the decision to make Topics broadly available.)
+We recommend **Everyone in my organization**, but if you're doing a pilot you may want to choose only selected people or security groups. You can also choose **No one** if you want to set up Topics, but not allow people to see topics yet. (Knowledge managers will still have access to allow them to view the topics and help with the decision to make Topics broadly available.)
 
 ## Knowledge rules
 

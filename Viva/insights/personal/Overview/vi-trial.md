@@ -34,7 +34,7 @@ After you enroll in the trial, you can experience the following subset of featur
 
 * **Stay connected and engaged with your team**: You'll see a rotating recommendation at the top of your **My team** page that's based on recent activity. It's likely that one of your many responsibilities is coaching team members to help them build the skills they need for their roles. One of the simplest coaching tools that team leads or managers have is regularly scheduled 1:1 time with each team member. Research by Microsoft has shown that people who get consistent 1:1 time with their manager and team members are more engaged. See [1:1 time in My team](../../use/myteam.md#11-time) for more details.
 
-* **Team meeting habits**: You’ll see your current behavior and suggestions on how to improve, such as if you RSVP’d, joined on time, and didn’t multitask during team meetings. When it comes to collaboration habits, you are a role model, and your team members tend to mimic your behaviors. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [How 1:1 time is calculated](../../use/myteam.md#how-11-time-is-calculated) for details.
+* **Team meeting habits**: You’ll see your current behavior and suggestions on how to improve, such as if you RSVP’d, joined on time, and didn’t multitask during team meetings. When it comes to collaboration habits, you are a role model, and your team members tend to mimic your behaviors. Studies found, for example, that managers who multitask in meetings (defined as reading or sending emails during a scheduled meeting) are more than two times as likely to have team members who also multitask in meetings. See [Team meeting habits](../../use/myteam.md#team-meeting-habits) for details.
 
 * **Send praise**: You can use this feature to recognize the contributions of your employees and coworkers. Praise messages show up as notifications in Microsoft Teams. You can have a praise message delivered in a private chat or for wider recognition, in a Teams channel conversation. See [Praise in Viva Insights](../teams/viva-insights-praise.md) for details.
 
@@ -46,7 +46,7 @@ After you enroll in the trial, you can experience the following subset of featur
 
 ### Feature comparison
 
-Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights
+Features | Microsoft 365 (out of the box) | Viva Insights trial | Viva Insights premium value
 -----------|------------|-------|--------
 [Home page](../teams/viva-insights-home.md) | X | X | X
 [My team trial features](#my-team-trial-features)| X | X | X
@@ -61,10 +61,7 @@ Viva Insights is compliance with GDPR requirements. For more details, see the [P
 
 ## Admin tasks
 
-As the Viva Insights admin, you'll need to complete the following steps to give employees access to the trial experience.
-
-* Identify the group of users in your organization who are already using the Viva Insights app in Teams. This experience is intended for managers and team leads, so those groups would be your ideal candidate.
-* To test if the trial experience is discoverable, you can test it with a specific group. To do this, complete the following steps to enable that group access. Then you can ask if they see the banner prompting them to **Get started**, as described in the next section.
+After identifying an eligible group of users in your organization, as the Viva Insights admin, complete the following steps to give them access to this trial experience.
 
 >[!Important]
 >You must do **Step 5** to opt specific users out of this trial, otherwise everyone in the tenant will get this experience.
@@ -103,14 +100,26 @@ As the Viva Insights admin, you'll need to complete the following steps to give 
 After the admin tasks are complete, do the following to start your trial experience.
 
 1. Within your Viva Insights app in Teams, select **Get started** in the banner at the top of the page to support your team's wellbeing and productivity with even more Viva Insights features.
+
+   ![Get started with trial banner on Home page.](../../images/mya/overview/trial-banner.png)
+
 2. When prompted in **You've made a great choice**, select **Get started**.
+
+   ![Get started message.](../../images/mya/overview/trial-message.png)
+
 3. In **Choose your team members**, define your team with at least one other team member (to participate in this trial), and then select **Confirm**.
 
-   ![My team page in Viva Insights in Teams.](../../images/wpa/use/myteam-2.png)
+   ![My team page in Viva Insights in Teams.](../../images/mya/overview/trial-team.png)
+
+4. You can now use the **My team** page.
+
+   ![My team page in Viva Insights in Teams.](../../images/mya/overview/trial-myteam.png)
 
 ## Expiration
 
-During the trial experience, you'll see a prompt at the top of the page within Viva Insights in Teams that shows how many days you can use the trial experience. It'll then count down to show you how many days are left during this trial phase. After the trial ends, you are prompted to contact your admin to request a license for [Viva Insights](https://www.microsoft.com/microsoft-viva/insights/). See [My team](../../use/myteam.md) for more details about advanced team features available with the full [Microsoft Viva Insights suite](https://www.microsoft.com/microsoft-viva/buy-insights).
+During the trial experience, you'll see a prompt at the top of the page within Viva Insights in Teams that shows how many days you can use the trial experience. It'll then count down to show you how many days are left during this trial phase.
+
+Throughout the trial and up to 10 days after the trial ends, you are prompted to contact your admin to request a license for [Viva Insights](https://www.microsoft.com/microsoft-viva/insights/). See [My team](../../use/myteam-explore.md) for more details about advanced team features available with the full [Microsoft Viva Insights suite](https://www.microsoft.com/microsoft-viva/buy-insights).
 
 ## Related topics
 

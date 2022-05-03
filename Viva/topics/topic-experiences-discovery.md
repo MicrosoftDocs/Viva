@@ -66,6 +66,9 @@ You can exclude topics from discovery by uploading a list using a .csv file. If 
 
     ![Screenshot of exclude topics user interface.](../media/km-manage-exclude-topics.png)
 
+> [!Note] 
+> A topic, when excluded, can take up to 24 hours to stop appearing to users in your organization.
+
 ### Working with the .csv template
 
 You can copy the csv template below:

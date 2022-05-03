@@ -1,10 +1,9 @@
 ---
 title: Get started driving adoption of Microsoft Viva Topics
-description: Learn how to drive adoption of Microsoft Viva Topics in your organization.
-ms.author: samanro
-author: samanro
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
-ms.date: 7/20/2020
+ms.date: 
 audience: admin
 ms.topic: article
 ms.custom: Adopt
@@ -14,6 +13,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
+description: Learn how to drive adoption of Microsoft Viva Topics in your organization.
 ---
 
 # Get started driving adoption of Microsoft Viva Topics
@@ -67,7 +67,7 @@ To plan for adoption of Viva Topics, you need to:
     - Start building the community and think about how Viva Topics can be used across your organization by these different groups.
 
 3. Train your organization: Most people will intuitively understand the concept of topics and how topic cards compile relevant information, and understand and see the value. But you might want to create training that is tailored to your own culture and organization, to show how you want Viva Topics to be used. Some training resources:
-    - [Project Cortex Resource Center](https://aka.ms/projectcortex). Includes overviews and feature information, recorded office hour videos and presentations, and information about partners and their offerings.
+    - [Knowledge & Content Services resource center](https://aka.ms/projectcortex). Includes overviews and feature information, recorded office hour videos and presentations, and information about partners and their offerings.
     - Coming soon, training videos and help for end users.
 
 4. [Build a champion network](#build-a-champion-network):

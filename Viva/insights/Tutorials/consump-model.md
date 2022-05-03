@@ -1,7 +1,7 @@
 ---
 
 title: Capacity model for Viva Insights
-description: Learn about the capacity model for using the Query designer in Workplace Analytics for advanced analysis of Viva Insights
+description: Learn about the capacity model for using the Query designer for advanced analysis of Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -164,8 +164,8 @@ If you open an existing, previously run query, and you edit it and run it again,
 
 No additional units are charged for the following:
 
-* Viva Insights in Workplace Analytics licenses that are assigned. You are charged for query volume, which is independent of licensing.  
-* Your use of the following features: [Plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), [Opportunities scan](../use/solutions-scan.md), and [Explore the stats](../use/explore-intro.md).
+* Viva Insights licenses for advanced insights that are assigned. You are charged for query volume, which is independent of licensing.  
+* Your use of the following features: [Plans](solutionsv2-intro.md), [My team in Viva Insights](../use/myteam.md), [My organization in Viva Insights](../use/viva-insights-my-org.md), and [Explore the stats](../use/explore-intro.md).
 * Your choice of tool, such as Excel, PowerPoint, Power BI, or another visualization tool.
 * Use of organizational attributes in queries.
 * The number of analysts who run queries in your organization.
@@ -174,7 +174,7 @@ No additional units are charged for the following:
 
 In **Query designer** > **Results**, you'll see additional information if the capacity model is in use for a tenant:
 
-* **Workplace Analytics SKU** - Analysts in a Workplace Analytics tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
+* **Workplace Analytics SKU** - Analysts in an advanced insights tenant can use the **Query designer** > **Results** page as described in [View, download, and export query results](../use/view-download-and-export-query-results.md).
 
 * **Capacity-model tenants** - For analysts in a capacity-model tenant, the **Results** page shows additional information. On this page, the **Query Cost** column shows the number of units charged to each query. Select the Information tooltip (i) icon to see details about a charge, namely the number of people analyzed, the number of base metrics used, the price tier of each metric, and the analysis period:
 
@@ -182,7 +182,7 @@ In **Query designer** > **Results**, you'll see additional information if the ca
 
 ### View analyst usage
 
-The **Analyst usage** report is available for download in the administrative pages of Workplace Analytics. This report lists the queries that were run during a specified time period, the analysts who submitted them, and other details, including the query cost:
+The **Analyst usage** report is available for download within the app. This report lists the queries that were run during a specified time period, the analysts who submitted them, and other details, including the query cost:
 
 ![Analyst usage report](../images/wpa/tutorials/usage-report-example1.png)
 
@@ -191,7 +191,7 @@ The **Analyst usage** report is available for download in the administrative pag
 
 #### To download the Analyst usage report
 
-1. Sign in to Workplace Analytics as an admin.
+1. Sign in to the advanced insights app as an admin.
 2. Go to the **Analyst usage** page:
 
    ![Download analyst usage report](../images/wpa/tutorials/analyst-usage2.png)
@@ -199,7 +199,7 @@ The **Analyst usage** report is available for download in the administrative pag
 3. Select the time period for which you want information about query usage.
 4. Select **Download**.
 
-## Analysts with Workplace Analytics tenants
+## Analysts with tenants
 
 Analysts of tenants with the Workplace Analytics SKU won't see any query usage or capacity units in Query designer.
 
@@ -208,5 +208,5 @@ Analysts of tenants with the Workplace Analytics SKU won't see any query usage o
 ## Related topics
 
 * [Templates](../Tutorials/Power-bi-templates.md)
-* [Workplace Analytics glossary](../Use/Glossary.md)
+* [Glossary](../Use/Glossary.md)
 * [Metric descriptions](../Use/Metric-definitions.md)

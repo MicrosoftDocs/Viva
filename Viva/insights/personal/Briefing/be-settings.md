@@ -16,9 +16,6 @@ manager: helayne
 ---
 # Settings for the Briefing email
 
->[!Note]
->Your daily Briefing email now comes from Microsoft Viva. See [Daily briefing and MyAnalytics branding updates to reflect Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/daily-briefing-and-myanalytics-branding-updates-to-reflect/ba-p/2681246) for more details.
-
 You can change your personal settings for the Briefing email to set what time of day you receive the Briefing in your mailbox or to unsubscribe from it. These settings override or take precedence over what the admin sets up for your Briefing email. If the Briefing is using an incorrect time zone, use **Change time zone** to change your Outlook time zone setting.
 
 **To update settings**

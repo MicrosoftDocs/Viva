@@ -17,13 +17,11 @@ audience: Admin
 
 # Viva Insights activity
 
-As a Microsoft 365 admin, the Reports dashboard in the admin center shows you an activity overview across the various products used by your organization. You can select **View more** for an app to get more granular insights about the activities specific to that app. Check out the activity reports in the Microsoft 365 admin center.
-
-For example, you can evaluate the adoption of Microsoft Viva Insights by looking at the chart about active users. Additionally, you'll see a link to the deployment guide to further boost adoption in your organization.
+As a Microsoft 365 admin, you can learn about adoption of Viva Insights as well as best practices to further boost adoption in your organization through the Reports dashboard in the Microsoft 365 admin center.
 
 ## View the report
 
-1. In the admin center, go to Reports > [Usage](https://go.microsoft.com/fwlink/p/?linkid=2074756).
+1. In the admin center, go to **Reports** > [**Usage**](https://go.microsoft.com/fwlink/p/?linkid=2074756).
 1. Select **View more** for **Viva Insights activity**.
 
 ## Interpret the report

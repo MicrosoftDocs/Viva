@@ -1,7 +1,7 @@
 ---
 
-title: Opportunities scan in Workplace Analytics
-description: Learn how to scan for opportunities in Workplace Analytics
+title: Opportunities scan in Advanced insights
+description: Learn how to scan for opportunities in Advanced insights with Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -11,23 +11,26 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: scott.ruble
+manager: helayne
 audience: Analyst
 ---
 
 # Opportunities scan
 
-An analyst who uses Workplace Analytics sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is collaboration overload, excessive time worked after work hours, or something else.
+>[!IMPORTANT]
+>This feature will no longer be available starting in April 2022.
 
-Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Workplace Analytics tracks. These metrics are calculated from data that Workplace Analytics extracts, on a regular basis, from available Microsoft 365 data.
+An analyst who uses the advanced insights app with Microsoft Viva Insights sometimes has in mind a goal or problem that they want to solve. For example, they might know of a problem to examine and which pockets of people are suffering from it, whether it is collaboration overload, excessive time worked after work hours, or something else.
 
-Workplace Analytics automatically scans to determine whether any [groups](#what-is-a-group) show unusual numbers in particular metrics. It then points out which groups show unusual activity on those metrics – for example, an excess of low-quality meetings, or a lack of focus time.
+Sometimes opportunities are less obvious. For this, it's possible to take advantage of the many workplace metrics that Viva Insights tracks. These metrics are calculated from data that Viva Insights extracts, on a regular basis, from available Microsoft 365 data.
 
-Then, as an Workplace Analytics user with the analyst, limited analyst, or PM role, you can start a plan to respond to this unusual activity. To do this, you'd use the Opportunities scan feature to create such a plan for the affected group.
+Viva Insights automatically scans to determine whether any [groups](#what-is-a-group) show unusual numbers in particular metrics. It then points out which groups show unusual activity on those metrics – for example, an excess of low-quality meetings, or a lack of focus time.
+
+Then, as an Viva Insights user with the analyst, limited analyst, or PM role, you can start a plan to respond to this unusual activity. To do this, you'd use the Opportunities scan feature to create such a plan for the affected group.
 
 ## Use Opportunities scan to find potential opportunities
 
-Workplace Analytics runs AI-based detection every week as part of the standard weekly data processing. This detection seeks outliers and anomalies in the data – in particular, it scans to determine whether any groups show unusual numbers for the following metrics:
+Viva Insights runs AI-based detection every week as part of the standard weekly data processing. This detection seeks outliers and anomalies in the data – in particular, it scans to determine whether any groups show unusual numbers for the following metrics:
 
  * Focus hours
  * Attendee meeting hours
@@ -38,11 +41,11 @@ Workplace Analytics runs AI-based detection every week as part of the standard w
 
 ### To find an opportunity
 
-Scans are run weekly as part of standard Workplace Analytics processing runs, and newly discovered opportunities are surfaced as soon as they are available. To find one or more newly discovered opportunities, check the **Opportunities** page.
+Scans are run weekly as part of standard Viva Insights processing runs, and newly discovered opportunities are surfaced as soon as they are available. To find one or more newly discovered opportunities, check the **Opportunities** page.
 
 **Role:** analyst, limited analyst, or program manager
 
-1. Open [Workplace Analytics](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
+1. Open [the advanced insights app](https://workplaceanalytics.office.com/). If prompted, sign in with your work account.
 
 2. On the **Plans** page, select **Opportunities**.
 
@@ -51,7 +54,7 @@ Scans are run weekly as part of standard Workplace Analytics processing runs, an
     This page shows the most recent scan results, which are presented as opportunities for one or more groups.
  
     >[!Note]
-    >If Workplace Analytics cannot detect anything in the data that would present an opportunity, you'll see the following message: "No opportunities could be loaded. Please check back later."
+    >If Viva Insights cannot detect anything in the data that would present an opportunity, you'll see the following message: "No opportunities could be loaded. Please check back later."
 
 3. Consider which of the opportunities you would like to pursue. After you've decided to start a plan from an opportunity, go to [Create a plan](#create-a-plan).
 
@@ -67,7 +70,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
     ![Opportunities area.](../images/wpa/use/increase-focus.png)
 
-	For this opportunity, this page briefly describes the purpose of the opportunity (gain time for the work that matters most) and highlights possible benefits by taking advantage of the opportunity. For this example, Workplace Analytics identified five groups in the company that have limited focus hours.
+	For this opportunity, this page briefly describes the purpose of the opportunity (gain time for the work that matters most) and highlights possible benefits by taking advantage of the opportunity. For this example, Viva Insights identified five groups in the company that have limited focus hours.
 
     By taking advantage of this opportunity, the members of the [group](#what-is-a-group) could gain up to an aggregate of 98.4 hours per week of new focus time. (The more focus time, the better.)
 
@@ -91,7 +94,7 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 5. (Optional) Change the settings of the plan. You can edit its name, the start date, and the target. Once you're finished with the settings, select **Validate**. Note that the number of participants cannot be edited. It is determined by the organizational data that your admin has uploaded.
 
-   Workplace Analytics reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation).
+   Viva Insights reports whether the group successfully validated, and it also displays any warnings that are generated. For more information about these warnings and about the options upon a validation failure, see [Validation](#validation).
 
 6. After the group validates successfully, you can now [create a plan](#to-create-the-plan).
 
@@ -99,9 +102,9 @@ In the following example walkthrough, we look at the _Increase focus_ opportunit
 
 **Role:** analyst, limited analyst, or program manager
 
-After the group that you've selected validates successfully, Workplace Analytics displays insights about the group. They show you how the group's numbers differ from company averages for the context that you chose. For example, if you chose to create a _Focus time_ plan, Workplace Analytics displays metrics&mdash;such as the number of hours in meetings per week&mdash;that illustrate why the people in this group could benefit from more focus time. (Although these insights are informative, they are not interactive.)
+After the group that you've selected validates successfully, Advanced insights shows data about the group. They show you how the group's numbers differ from company averages for the context that you chose. For example, if you chose to create a _Focus time_ plan, the app shows metrics, such as the number of hours in meetings per week, that illustrate why the people in this group could benefit from more focus time. Although these insights are informative, they are not interactive.
 
-Workplace Analytics also displays default settings for the plan, which you can edit as follows:
+Advanced insights also shows default settings for the plan, which you can edit as follows:
 
 1. (Optional) Change the **Plan name** to a name more meaningful to you than the suggested value.
 
@@ -113,7 +116,7 @@ Workplace Analytics also displays default settings for the plan, which you can e
 
     ![How the plan will help.](../images/wpa/use/how-plan-helps.png)
 
-    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and the weekly digest that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
+    To see how this plan will appear for participants, select **See preview**. Here, you see examples of the inline suggestions, the personal dashboard, and digest emails that people will experience while participating in the plan. Similar to the insights, these previews are informative but not interactive.
 
     In these previews, you can see a brief description of "habits" that participants will learn about. Following these habits can help them reach their plan’s target. For example, rescheduling meetings that conflict with their focus time is a habit that can help a participant reach a target of increased focus time. Three habits are suggested for each plan type.
 
@@ -135,13 +138,13 @@ You can track plans on the **Manage** page. Use this page to measure progress on
 
 ## Concepts
 
-The following sections provide information that can help you as you use the Opportunities scan feature of Workplace Analytics:  
+The following sections provide information that can help you as you use the Opportunities scan feature in Advanced insights:  
 
 ### What is a group?
 
 You assign plans to groups, but just what constitutes a group? For Opportunities scan, a group is a team of individual contributors who all report to the same manager.
 
-Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Workplace Analytics processes this data, it generates a management hierarchy that represents the entire organizational structure. 
+Managers are represented by the ManagerId attribute that admins upload regularly in organizational (HR) data. ManagerId is one of the five mandatory attributes in the organizational data file. As Viva Insights processes this data, it generates a management hierarchy that represents the entire organizational structure. 
 
 Groups are defined from this organizational data structure and represented by their manager names. Manager names are obtained from Active Directory by using the values that you provided for the ManagerID attribute in the [uploaded organizational data](../setup/upload-organizational-data-1st.md) file. These manager names are then displayed in the **Result** page to represent the groups. 
 
@@ -150,20 +153,20 @@ Groups are defined from this organizational data structure and represented by th
 
 ### Validation
 
-During validation, Workplace Analytics checks the following about each potential participant:
+During validation, Viva Insights checks the following about each potential participant:
 
- * <u>Valid address?</u> Is their email address valid? This check helps verify that the person still works for the company. An "invalid" email address means that the email address was formatted incorrectly or that the person is not a measured employee (they have no Workplace Analytics license or their data could not be processed). <!-- RE-ADD THIS AFTER WE PUBLISH THE DOC ON PARTITIONS (FORMERLY SCOPE), or the person is not in the partition that the user is currently working in. -->
- * <u>Have licenses?</u> Do they have a MyAnalytics license and a Workplace Analytics license? To participate in a plan, they must have both.
+ * <u>Valid address?</u> Is their email address valid? This check helps verify that the person still works for the company. An "invalid" email address means that the email address was formatted incorrectly or that the person is not a measured employee (they have no Viva Insights license or their data could not be processed). <!-- RE-ADD THIS AFTER WE PUBLISH THE DOC ON PARTITIONS (FORMERLY SCOPE), or the person is not in the partition that the user is currently working in. -->
+ * <u>Have licenses?</u> Do they have a Viva Insights license and a Viva Insights license? To participate in a plan, they must have both.
  * <u>In a plan?</u> Are they already enrolled in a plan? A person can be in only one plan at a time.
- * <u>Opted out?</u> Have they opted out of MyAnalytics? If the person has opted out, they cannot participate in plans.
+ * <u>Opted out?</u> Have they opted out of Viva Insights? If the person has opted out, they cannot participate in plans.
 
-After validation, Workplace Analytics reports the results, including the number of qualified participants. The results also show any warnings, which include the numbers of participants who’ve failed any tests.
+After validation, Viva Insights reports the results, including the number of qualified participants. The results also show any warnings, which include the numbers of participants who’ve failed any tests.
 
 ![Validation warnings.](../images/wpa/use/participants-warnings.png)
 
 Three of the possible errors are shown here. If your number of qualified participants (25, in this case) is above the minimum group size, you can move forward with [starting a plan](../tutorials/solutionsv2-task.md#start-the-plan).
 
-If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Workplace Analytics. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
+If the number of qualified participants falls below the minimum group size, you cannot proceed with this group as it is. To move forward, you need to make changes outside of Viva Insights. For example, you could ask an admin to assign licenses to those who are missing them, or you could try a different group.
 
 As for employees who have opted out or are already in a plan, you cannot enroll them in a plan at this time.
 
@@ -175,10 +178,10 @@ In the following trend-line chart, the key to the black line indicates that it s
 
 ![Email hours as percent.](../images/wpa/use/email-hours-as-percent.png)
  
-This statement identifies the source of the data. That is, the data that was used to calculate this line was drawn from the partition (set of data) that is visible to the analyst who sees this page. For example, the person who sees this page might be logged in to Workplace Analytics as an analyst with "HR" partition. That HR partition&mdash;that HR set of data&mdash;is what produced this exact trend line.
+This statement identifies the source of the data. That is, the data that was used to calculate this line was drawn from the partition (set of data) that is visible to the analyst who sees this page. For example, the person who sees this page might be logged in to the advanced insights app as an analyst with "HR" partition. That HR partition&mdash;that HR set of data&mdash;is what produced this exact trend line.
 
 A different analyst with a different partition would see a different trend line because that line would be calculated from different data. 
 
-All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
+All of the opportunities that are presented and all of the data that is presented for each opportunity are drawn from the partition of the analyst who is viewing this page. Scopes are defined by admins; for more information, see [Scope in Advanced insights](https://docs.microsoft.com/Workplace-Analytics/setup/partition-in-wpa). 
 
 -->
