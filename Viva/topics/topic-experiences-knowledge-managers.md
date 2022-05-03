@@ -106,7 +106,7 @@ On the **Manage Topics** page, there's a quality score column and impressions co
 
 ![Image showing the quality score and impressions column in the manage topics page.](../media/knowledge-management/manage-topics-quality-impressions.png)
 
-- **Bookmarks and existing knowledge base**: [Bookmarks](https://docs.microsoft.com/en-us/microsoftsearch/manage-bookmarks) are used in Microsoft Search to help people quickly find important sites and tools. They can also help indicate what the organization deems as important and provide consideration for what topics should be prioritized for curation. Organizations can have other, existing knowledge bases that are prime candidates for migrating to Viva Topics. For example, if the organization has invested in knowledge bases or wiki sites, these can provide a list of topics to use for initial curation efforts. If they're large, select the most viewed or edited topics as a starting point. The wiki knowledge will then be more accessible through the applications people use to do their work and suggested elements of the topic will be automatically updated by the AI in Viva Topics.  
+- **Bookmarks and existing knowledge base**: [Bookmarks](https://docs.microsoft.com/microsoftsearch/manage-bookmarks) are used in Microsoft Search to help people quickly find important sites and tools. They can also help indicate what the organization deems as important and provide consideration for what topics should be prioritized for curation. Organizations can have other, existing knowledge bases that are prime candidates for migrating to Viva Topics. For example, if the organization has invested in knowledge bases or wiki sites, these can provide a list of topics to use for initial curation efforts. If they're large, select the most viewed or edited topics as a starting point. The wiki knowledge will then be more accessible through the applications people use to do their work and suggested elements of the topic will be automatically updated by the AI in Viva Topics.  
 
 Prioritization of topics for curation should also factor in demand levels for different types of knowledge in the organization. Make sure the topics being curated are in demand and will be used once published. Find topics for curation that are in high demand and that are currently being addressed in inefficient and non-scalable ways. For example, product experts are often asked random questions from salespeople and often answer the same question repeatedly through hard to scale mediums such as email or chat. In this example, product experts will be highly responsive to Viva Topics to scale their impact, minimize randomization and gain more recognition as an expert in the organization.  
 
@@ -124,11 +124,11 @@ There are two types of knowledge to include in the knowledge base:
 
    Knowledge managers should define the minimum requirements for a published topic and communicate these standards to topic contributors. Minimum requirements for topics in the organization could include guidance that all topics contain alternate names, a factual description, and pinned people and resources. Learn more how curators can edit topics to meet minimum requirements for published topics that are established.    
 
-2. **Tacit**: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to adhoc questions. [Yammer](https://support.microsoft.com/en-us/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Office 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/en-us/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/en-us/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
+2. **Tacit**: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to adhoc questions. [Yammer](https://support.microsoft.com/en-us/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Office 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/office/use-questions-and-answers-in-a-yammer-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
 
    ![Image showing a question and tacit knowledge sharing on Yammer.](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
 
-   Use the [Yammer conversations web part](https://support.microsoft.com/en-us/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
+   Use the [Yammer conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
 
    ![Image showing a yammer conversation along a topic page.](../media/knowledge-management/topics-yammer-conversation-km.png)
 
@@ -162,11 +162,11 @@ Users need topic contributor permissions to be able to edit and create new topic
 
 Once colleagues have curated topics, **recognize** their efforts. There are ways to provide recognition to topic contributors depending on what Office 365 applications are used within the organization:  
 
-- [Praise](https://docs.microsoft.com/en-us/viva/insights/personal/teams/viva-insights-praise) colleagues in [Viva Insights](https://docs.microsoft.com/en-us/viva/insights/personal/teams/viva-teams-app) 
+- [Praise](https://docs.microsoft.com/viva/insights/personal/teams/viva-insights-praise) colleagues in [Viva Insights](https://docs.microsoft.com/viva/insights/personal/teams/viva-teams-app) 
 
-- [Praise](https://support.microsoft.com/en-us/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) someone in a Yammer network 
+- [Praise](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-yammer-4b30c7e0-f915-4c69-9582-ccbbd09a516b) someone in a Yammer network 
 
-- [Send an announcement](https://support.microsoft.com/en-us/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992) in Microsoft Teams of the topic contribution made by colleagues 
+- [Send an announcement](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992) in Microsoft Teams of the topic contribution made by colleagues 
 
 - Post recognition of top contributors on the Intranet 
 
