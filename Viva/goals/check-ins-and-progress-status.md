@@ -33,7 +33,7 @@ The fact that all check-ins are visible to everyone in the organization maintain
 
 To check-in quickly, go to your list of objectives and move the cursor over the objective or key result you want to update. Select the check-in option.
 
-:::image type="content" source="../media/goals/goals-quick-check-in-option.png" alt-text="Image of quick check-in option":::
+![Check-ins-1@1x](https://user-images.githubusercontent.com/100967547/166574407-a85d7055-5ef4-4913-b16f-57a73a88f955.jpg)
 
 In the check-in sidebar:
 
@@ -43,7 +43,7 @@ In the check-in sidebar:
 
 3. **Flag the overall status**: Is your Objective or KR On Track, Behind, At Risk, or have you Not Started yet? 
 
-      :::image type="content" source="../media/goals/goals-check-in sidebar.png" alt-text="Image of check-in sidebar":::
+![Check-ins-2@1x](https://user-images.githubusercontent.com/100967547/166574451-de0b0c72-4dc2-4d72-ad60-6aa05d021a8c.jpg)
 
 Keep it short and crisp; the OKR process doesn't require long explanations on every check-in.
 
@@ -68,7 +68,7 @@ Once you make the selection, the user will  start receiving the check-in reminde
 
 **Note:** By default, the owner (the first owner if there are multiple owners) is set as the person responsible for check-in.
 
-:::image type="content" source="../media/goals/goals-assign-responsibility-for-check-ins.gif" alt-text="Image of assign responsibility for check-ins":::
+![Check-ins-for-Single-and-Multiple-Owners-1@1x](https://user-images.githubusercontent.com/100967547/166574736-e1acfb88-ba0e-43f4-80ce-5b9c40f297cb.jpg)
 
 ## How to engage with check-ins with likes and comments
 
@@ -76,13 +76,13 @@ OKRs and ongoing feedback make a great team. Leverage Viva Goals’s social feat
 
 To comment on a check-in, go to **Check-in** on the objective page or find it in the feed. Use ‘**@**’ followed by the name of a team member to mention them in a comment. This sends them an email notification, perfect for drawing attention to critical updates or opportunities.
 
-:::image type="content" source="../media/goals/goals-likes-comments-mentions.gif" alt-text="Image of Likes, Comments, and Mentions sections"::: 
+![Likes-Comments-and-Mentions-1@1x](https://user-images.githubusercontent.com/100967547/166574771-551a23b3-3453-4d37-ab19-f1d7f331c21d.jpg)
 
 ## How to edit and delete check-ins 
 
 If you need to change a check-in or remove one made in error, you may find the check-in on the objective page or feed, and select edit or remove to make the necessary changes.
 
-:::image type="content" source="../media/goals/goals-editing-and-deleting-check-ins.png" alt-text="Image of editing and deleting check-ins"::: 
+![Editing-and-Deleting-Check-ins-1@1x](https://user-images.githubusercontent.com/100967547/166574798-571550d6-f599-4d29-bed4-0c70c5098abc.jpg)
 
 ## How to set reminders for check-ins 
 
@@ -114,21 +114,19 @@ Viva Goals sends reminders in three ways:
 
 1. A Chief of Staff is setting a check-in cadence for the People Operations department to receive notifications every month on the first Friday at 9AM PST. The Chief of Staff wants the subteams reporting into her to continue having a cadence of their own (preferably, a weekly cadence). Therefore, she won't cascade this cadence down to the reporting teams, and will let each team set their own check-in rhythm. 
 
-    :::image type="content" source="../media/goals/goals-setting-cadence.png" alt-text="Image for setting cadence":::
+![Setting-a-Check-in-Rhythm-1@1x](https://user-images.githubusercontent.com/100967547/166574848-df4d6c2e-f563-4a09-9b08-d44a90ccd52c.jpg)
 
 2. The Head of Marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9AM PST. The Head of Marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence, but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams, however, the teams can change this schedule at any given point in time. 
 
-    :::image type="content" source="../media/goals/goals-checkin-bi-weekly cadence.png" alt-text="Image of setting cadence bi-weekly":::
+![Setting-a-Check-in-Rhythm-2@1x](https://user-images.githubusercontent.com/100967547/166574869-20441d33-cc07-484f-93f3-da99b7c460f0.jpg)
 
 3. The VP of Sales wants her team to have a weekly check-in cadence, and is setting a rhythm to receive notifications every Wednesday at 9AM PST. She wants all the subteams reporting into her to follow the same cadence, and doesn't want them to have a cadence of their own, to ensure everyone is caught upto speed every week, and is on the same page. Therefore, she'll set a cadence, cascade it cadence down to all her reporting teams, and not let them change this rhythm.
 
-    :::image type="content" source="../media/goals/goals-weekly-check-in-cadence.png" alt-text="Images for weekly check-in cadence":::
+![Setting-a-Check-in-Rhythm-4@1x](https://user-images.githubusercontent.com/100967547/166575051-803c11cd-38f9-4da7-8aa0-0239ddc6b313.jpg)
 
 Team Owners and Team Admins can create a custom cadence for reminders for their departments and teams in **Admin -> Team Settings**. These cadences can differ from the organization-level cadence. 
 
 If teams have to follow the parent team's check-in rhythm, the team owners and/or team admins won't be able to change the schedule.
-
-   :::image type="content" source="../media/goals/goals-checkin-rhythm-team settings.png" alt-text="Image for check-in rhythm":::
 
 ## How to automate check-ins 
 
