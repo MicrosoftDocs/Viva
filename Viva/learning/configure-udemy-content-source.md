@@ -69,7 +69,7 @@ After you've received the required configuration details from Udemy portal by us
 
 3. Fill in the following required configuration details:
 
-    - **Client's Host URL**: This is API endpoint URL gathered from Udemy portal in step 6.
+    - **Client's Host URL**: This is the API endpoint URL gathered from Udemy portal in step 6. If the API endpoint URL is "https://prodtest.udemy.com/api-2.0/", the Client’s Host URL will be "prodtest.udemy.com".
     - **Organization ID**: This is the ACCOUNT_ID gathered from Udemy portal in step 6.
     - **Client ID**: This is the Client ID gathered from Udemy portal in step 4.
     - **Client Secret**: This is the Client Secret gathered from Udemy portal in step 4.

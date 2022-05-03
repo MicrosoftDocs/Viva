@@ -20,7 +20,7 @@ audience: Admin
 _These templates are only available as part of a Microsoft service engagement._
 
 >[!Important]
->As of February 2022, this product is no longer being supported.
+>As of February 2022, this product is no longer supported. If you're not using the templates, see [Cancel the service](cancel-service.md) for how-to steps in the Azure portal.
 
 Workplace Analytics Azure Templates extend and accelerate advanced analysis of your organizational data. These templates are built on and are compliant with secure Azure Services. These templates include automated configuration and connectivity to Power BI and Azure Services.
 

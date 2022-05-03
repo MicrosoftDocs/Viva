@@ -1,12 +1,18 @@
 ---
 
-title: Change your weekly goals in MyAnalytics
-description: How-to steps for editing your goals in MyAnalytics. 
+title: Change your weekly goals 
+description: How-to steps for editing your goals in Viva Insights 
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-ms.prod: Mya
+ms.collection: viva-insights-personal 
+ms.service: viva 
+ms.subservice: viva-insights 
+search.appverid: 
+- MET150 
+manager: helayne
+audience: user
 ---
 
 **To change your weekly goals**

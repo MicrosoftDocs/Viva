@@ -33,7 +33,7 @@ When data is processed for group insights, Microsoft protects employee privacy a
 
 To see **Group insights** in **My team**, confirm the following prerequisites for your team:
 
-* **Manager access** - Ask your admin if [Manager settings](../use/manager-settings.md) are turned **On** and you are not signed in or assigned _any other_ roles for Viva Insights in Workplace Analytics.
+* **Manager access** - Ask your admin if [Manager settings](../use/manager-settings.md) are turned **On** and you are not signed in or assigned _any other_ roles for Advanced insights with Viva Insights.
 * **Licensed team** - The members of your team are assigned Microsoft Viva Insights licenses and are included in the reporting hierarchy that leads to you as their manager.
 * **Minimum team size** - Your team structure meets the minimum group size of 10 or more measured and licensed employees (including you as their manager).
 * **Set up the app** - Ask your admin to install and set up the Viva Insights app in Teams for your organization. See [Admin tasks](../personal/teams/viva-teams-app-admin-tasks.md) for details.

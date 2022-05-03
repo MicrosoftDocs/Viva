@@ -30,4 +30,4 @@ You can confirm that the Viva Insights Outlook add-in is installed by looking in
    >You can see the old Admin center by selecting **Go to old admin center** at the top right corner of the new Admin center.
 
 3. In the Admin center preview, select **Menu** > **Settings**, and then select **Services & add-ins**.
-4. Confirm that **Microsoft Viva Insights** (including MyAnalytics) is listed.
+4. Confirm that **Microsoft Viva Insights** is listed.

@@ -1,6 +1,6 @@
 ---
-title: Workplace Analytics Power BI dashboard demos
-description: See demonstrations of the Power BI dashboards available in Workplace Analytics 
+title: Viva Insights Power BI dashboard demos
+description: See demonstrations of the Power BI dashboards available in Viva Insights 
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva 
@@ -16,7 +16,7 @@ audience: Admin
 
 # Power BI dashboard demos
 
-The following are interactive demonstrations of the Power BI dashboards available for Workplace Analytics. These demos use sample data to show what you can expect to see for your organization with Workplace Analytics Templates.
+The following are interactive demonstrations of the Power BI dashboards available for Viva Insights. These demos use sample data to show what you can expect to see for your organization with templates.
 
 | &nbsp; | &nbsp; |
 |------|-------|
@@ -29,4 +29,4 @@ The following are interactive demonstrations of the Power BI dashboards availabl
 |![Ways of working assessment icon.](../images/wpa/playbooks/cross-group-collab-32x32.svg) |[**Ways of working assessment demo**](./power-bi-collab-assess.md#demonstration) <br>Shows a quick and easy way to see current collaboration behaviors and culture and insights into employee wellbeing and engagement in your organization. |
 |![Ways of working tracker icon.](../images/wpa/playbooks/efficient-communications-32x32.svg) |[**Ways of working tracker demo**](./power-bi-collab-track.md#demonstration) <br>Shows how you can track behavior change and target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness. |
 |![Wellbeing icon.](../images/wpa/playbooks/wellbeing-64x64.svg) |[**Wellbeing demo**](./power-bi-wellbeing.md#demonstration) <br>Shows insights into employee wellbeing across your company and uncovers opportunities to improve focus, work-life balance, flexibility, and a sense of community at work.|
-|![Behavior patterns icon.](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Behavior patterns demo**](./power-bi-glint-2.md#demonstration) <br>Combines behavioral data from Workplace Analytics and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|
+|![Behavior patterns icon.](../images/wpa/playbooks/manager-coaching-32x32.svg) |[**Behavior patterns demo**](./power-bi-glint-2.md#demonstration) <br>Combines behavioral data from Viva Insights and sentiment data from Glint for insights that help identify opportunities to influence behavior and improve business outcomes.|

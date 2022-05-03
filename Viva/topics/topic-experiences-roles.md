@@ -1,7 +1,7 @@
 ---
 title: Roles in Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -61,7 +61,7 @@ Additionally, a knowledge manager can edit existing topics or create new ones.
 To manage topics, the user must:
 
 - [Be assigned a Viva Topics license](./set-up-topic-experiences.md#assign-licenses) by their Microsoft 365 admin.
-- [Be assigned permissions to manage topics](./topic-experiences-user-permissions.md)). This task is done by the knowledge admin in the Viva Topics settings page in the Microsoft 365 admin center.
+- [Be assigned permissions to manage topics](./topic-experiences-user-permissions.md). This task is done by the knowledge admin in the Viva Topics settings page in the Microsoft 365 admin center.
 
 Users who have a good overall knowledge of your business can be good candidates for the knowledge manager role. Such people might not only have the knowledge to know if topics are valid or not, but might also know people within the company who are related to those topics.
 
