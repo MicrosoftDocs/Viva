@@ -38,17 +38,11 @@ To use Work on Behalf feature, perform the following steps:
 
 2. Choose **Action > Work on Behalf**.
 
-   :::image type="content" source="../media/goals/admin-dashboard.png" alt-text="Admin Dashboard page":::
-
    You'll be taken to **My OKRs** menu item for the individual you selected.
 
    For example, any action I take now will be reflected in the system as though Ashley took that action. All activity feeds will reflect accordingly. This scenario is depicted in the following image:
-
-   :::image type="content" source="../media/goals/own-action-reflected-as-action-of-others.png" alt-text="Work on behalf depicted as an example":::
-   
+ 
 3. Select **Stop Work on Behalf** in the yellow banner at the bottom of the screen to navigate back to your admin account.
-
-   :::image type="content" source="../media/goals/stop-work-on-behalf.png" alt-text="The option to stop working on behalf of another user":::
 
 ## When to use the Work on Behalf feature
 
