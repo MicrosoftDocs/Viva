@@ -154,7 +154,7 @@ Help colleagues curate topics effectively by:
 
 - Preparing colleagues with the standards the organization define for what a good topic looks like
 
-- Helping them learn how to [edit](edit-a-topic.dm) and [create](create-a-topic.md) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
+- Helping them learn how to [edit](edit-a-topic.md) and [create](create-a-topic.md) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
 
 - Encouraging them to ask their colleagues that they think have relevant expertise to also contribute
 
