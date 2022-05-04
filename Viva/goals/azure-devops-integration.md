@@ -34,7 +34,7 @@ As an example, if you use Azure DevOps to track the status of issues, and you ha
 Admins can enable this integration by taking the following steps: 
 
 - From the sidebar, click on **Admin** and select the **Integrations** tab. 
-- Under Azure DevOps, you will have the option to **enable** the integration. If a connection has been made previously or if the integration has been enabled already, you'll have the option to **Manage** the enabled integration. 
+- Under Azure DevOps, you can **enable** the integration. If a connection has been made previously or if the integration has been enabled already, you'll have the option to **Manage** the enabled integration. 
 - This integration can also be **disabled** from the same section by clicking on **Change**, and choosing**Disable integration** from the dropdown.
 
 ## How to configure the Azure DevOps connection 
@@ -48,16 +48,16 @@ Viva Goals allows you to connect with multiple projects. Select New Connection t
 
 ## How to connect the Azure DevOps connection to an OKR
 
-Once you have configured the connection, the next step is to start linking OKRs to the Azure DevOps projects.
+Once you've configured the connection, the next step is to start linking OKRs to the Azure DevOps projects.
 
 - The option to connect to a data source will appear only for Key Results and not for Objectives.
 - If you've already created a connection, or if your administrator has shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections created or shared. 
-- Choose the method using which you want to measure the progress — percent complete or KPI (success metric). If you are choosing KPI, provide a metric, starting value, and target value. 
+- Choose the method using which you want to measure the progress—percent complete or KPI (success metric). If you're choosing KPI, provide a metric, starting value, and target value. 
 - Select a connection, and choose the **Query**. As soon as you choose a query, the **count of matching work items** will be displayed. 
 - The progress will be calculated based on the count of tickets completed under the chosen query (if you've chosen KPI metric to track progress), or will be calculated based on the percentage of tickets closed (if you've chosen percent complete to track progress). 
 - Click **Next > Save**.
 
-Now you have successfully linked your objective to a query in Azure DevOps to track the progress of your work items, and update the status of the corresponding OKR automatically.
+Now you've successfully linked your objective to a query in Azure DevOps to track the progress of your work items, and update the status of the corresponding OKR automatically.
 
 The colors of the progress bar indicate the status of the objective.
 
