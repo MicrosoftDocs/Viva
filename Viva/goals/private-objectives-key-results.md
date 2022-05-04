@@ -67,9 +67,9 @@ By default, all objectives will be visible to the entire organization unless con
 
 ## Key considerations for Private Objectives
 
-    - Making an objective **Private** will automatically cascade the same privacy settings to its Key Results.
-    - An Objective cannot be made Private if any of its Key Results are in Multiple Alignment  
-    - The Key Results of a Private Objective cannot be multi-aligned to more than one Private Objective.
-    - Private OKRs cannot be aligned to Public OKRs by default.
-    - If your organization is looking for the ability to have Public Objectives with Private Key Results, we can enable it
+- Making an objective **Private** will automatically cascade the same privacy settings to its Key Results.
+- An Objective cannot be made Private if any of its Key Results are in Multiple Alignment  
+- The Key Results of a Private Objective cannot be multi-aligned to more than one Private Objective.
+- Private OKRs cannot be aligned to Public OKRs by default.
+- If your organization is looking for the ability to have Public Objectives with Private Key Results, we can enable it
 
