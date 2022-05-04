@@ -31,27 +31,15 @@ To log into Viva Goals, you must be logged into your Azure Active Directory.
 
 1. Head over to the Viva Goals sign-in page. 
 
-[screenshot] 
-
 2. Click on the Azure Active Directory credentials to log in. 
-
-[screenshot]
 
 3. If there are no organizations available, then you'll be directed to a "No organizations" page with a prompt to create an organization.
 
-[screenshot]
-
 4. If you're a first time user and have been invited to join your organization via an invite link, you'll be taken directly to your organization’s Viva Goals account. 
-
-[screenshot] 
 
 5. If you’re logging in for the first time and are not part of an organization yet, you'll be directed to the ‘Join Organizations’ page to select your organization(s) from the list displayed.  
 
-[screenshot] 
-
 1. Once you have successfully signed in, you'll be taken to your organization. 
-
-[screenshot]
 
 ## How to create your first organization in Viva Goals 
 
@@ -59,11 +47,7 @@ To log into Viva Goals, you must be logged into your Azure Active Directory.
 
 2. You'll be prompted to create an organization by clicking the ‘Create Organization’ button. 
 
-[screenshot]
-
 3. Enter your organization name, a brief description (optional), and select the organization type: Public or Restricted. 
-
-[screenshot]
 
 4. Click on the Create Organization button to create your organization within Viva Goals. 
 
@@ -75,17 +59,11 @@ If you are a part of more than one organization and need to create another organ
 
 1. Log in to your first organization in Viva Goals 
 
-2. In the menu that appears on the left, click on the organization name on the top.
-
-[screenshot] 
+2. In the menu that appears on the left, click on the organization name on the top. 
 
 3. From the organization-switcher dropdown that appears, select the ‘Create or join new organization’ button. 
 
-[screenshot]
-
 4. On the ‘Join organizations’ page, select ‘Create new organization’ and repeat the steps you followed to create your first organization. 
-
-[screenshot]
 
 You can use the organization switcher dropdown to switch between different organizations. 
 
@@ -95,23 +73,13 @@ You can use the organization switcher dropdown to switch between different organ
 
 2. If you’re logging in for the first time and are not yet a part of any organization, you'll be taken to the ‘Join Organizations’ page where you can select your organization. 
 
-[screenshot]
-
 3. If your organization is public, you will see a Join button. Clicking on this will take you to your organization account. 
-
-[screenshot]
 
 4. If your organization is restricted, you'll see a ‘Request to join’ button. Clicking on this will send a join request to your organization administrator for approval. 
 
-[screenshot]
-
 5. You can make use of the organization-switcher dropdown to join the multiple organizations that you are a part of. 
 
-[screenshot]
-
 6. Select ‘Create or join new organization.' In the ‘Join Organizations’ page that appears, you can select the organization(s) that you wish to join. 
-
-[screenshot]
 
 ### Frequently asked questions
 
