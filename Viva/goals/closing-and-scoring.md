@@ -56,8 +56,6 @@ Towards the end of each time period, you can save yourself from the hassle of cl
 
 - You can continue closing or postponing each objective as you see fit, until you reach the last objective. 
 
-    :::image type="content" source="../media/goals/goals-close-OKRs.gif" alt-text="mage of closing OKR":::
-
 ## How to score OKRs 
 
 Scores in Viva Goals reflect progress towards an objective or key result on a scale of 0-1. The score typically based on the progress of the success metric or key results, but users can also take into account other qualitative factors and manually override the suggested score. At the end of the relevant time period, a score in the range of 0.6 - 0.8 is a healthy place to be. 
@@ -76,19 +74,17 @@ The following fields are displayed:
 |**Continue working on this in another time period?**  |   This is a field where you can decide whether or not you want to move this objective to another time period in order to keep working on it. This will essentially postpone the completion of this OKR until the next quarter. Select Yes or No based on preference.    |
 |**Closing Note**  |   This is a note about the OKRs you're closing. At Viva Goals, we recommend putting your final assessment of the success/failure of the OKR here and any suggestions you might have for including it in future time periods. |  
 
-:::image type="content" source="../media/goals/goals-scoring-OKRs.png" alt-text="Image of scoring OKRs":::
+![Scoring-OKRs-1@1x](https://user-images.githubusercontent.com/100967547/166745349-f9198e2c-dbcb-4da1-a98e-a34ffebb79e0.jpg)
 
 Once all of the fields have been filled out, selecting **Close** will save the update, and the OKR dashboard will update to show your final status, a greyed out OKR, and a number at the end of the row. 
 
-:::image type="content" source="../media/goals/goals-scoring-final-status.png" alt-text="Image of score final status":::
+![Scoring-OKRs-2@1x](https://user-images.githubusercontent.com/100967547/166745516-2c2e0cb8-ae9a-4458-8c62-b7acd9a92f75.jpg)
 
 You may be wondering why a score of 1.0 is orange? After all, you completed 100% of the objective! Well, remember that the ideal OKR should be challenging but attainable. A score of 1.0 may indicate a need for more ambitious objectives. 
 
-:::image type="content" source="../media/goals/goals-score-color-schemes.gif" alt-text="Image of score color schemes":::
-
 Objectives in Viva Goals get scored automatically once all key results under them are scored. The score allocated is obtained by averaging the percentage completion rates of its associated key results. However, sometimes the sum is greater or lesser than the parts. You can change the calculated score.
 
-:::image type="content" source="../media/goals/goals-change-calculated-score.png" alt-text="Image of calculated score":::
+![Scoring-OKRs-3@1x](https://user-images.githubusercontent.com/100967547/166745587-d159714e-66a2-412b-bdb3-76b3069117fd.jpg)
 
 ### When to modify your score
 
@@ -120,23 +116,19 @@ This promotes further transparency and understanding throughout your organizatio
 
 Scoring Guidance can be added to a new or existing objective when adding or editing takes place. Select **Add Scoring Guidance**.
 
-:::image type="content" source="../media/goals/goals-add-scoring-guidance.png" alt-text="Image of adding Scoring Guidance":::
+![Add-Scoring-Guidance-1@1x](https://user-images.githubusercontent.com/100967547/166745629-d47ad809-5813-4aa8-bf96-59b2ad38fe6d.jpg)
 
 Then type out your objectives guide for progress and scoring. Below, we identified milestones included in shipping a new feature and corresponding percentages of completion.
 
-:::image type="content" source="../media/goals/goals-objectives-guide-progress-and-scoring.png" alt-text="Image of objectives guide for progress and scoring ":::
+![Add-Scoring-Guidance-2@1x](https://user-images.githubusercontent.com/100967547/166745648-d9563b4a-3612-4091-9e73-f57d7b04ca38.jpg)
 
 Once you have set scoring guidance for an Objective, you can view it by selecting the information icon next to the name or the time period. 
 
-:::image type="content" source="../media/goals/goals-information-icon.png" alt-text="Image of information icon":::
-
-It's also available in the Objective detail view.
-
-:::image type="content" source="../media/goals/goals-objective-detail-view.png" alt-text="Image of the Objective detail view":::
+![Add-Scoring-Guidance-3@1x](https://user-images.githubusercontent.com/100967547/166745692-4cfa4b3c-be78-4c24-a1ea-f9e4d6673fc5.jpg)
 
 When making Check-ins the Scoring Guidance will be displayed for user reference.
 
-:::image type="content" source="../media/goals/goals-scoring-guidance.png" alt-text="Image of the Scoring Guidance"::: 
+![Add-Scoring-Guidance-4@1x](https://user-images.githubusercontent.com/100967547/166745779-32e20cad-eb6c-4392-bdbb-e65dceeb5215.jpg)
 
 If you have an enterprise subscription and would like to have this enabled for your organization, please have an admin account and reach out to support@xxxxx.com with the request. 
 
@@ -171,18 +163,17 @@ Sometimes, due to unforeseen circumstances, a business may need to pivot and rep
 
 5. Provide the **closing note**, and select **Close** to close this objective, and continue working on it in the next quarter.
 
-    :::image type="content" source="../media/goals/goals-how-to-postpone.gif" alt-text="Image of How to postpone":::
+![How-to-Postpone-OKRs-1@1x](https://user-images.githubusercontent.com/100967547/166745985-576a086b-f0ac-441f-bd80-bfe5644c5fc5.jpg)
+
     - If you want to postpone it, select the **More actions** symbol. You'll be able to find the option to postpone.
     
     - Provide a **reason for postponing**, and select  **Postpone** to finish the process.
 
-    :::image type="content" source="../media/goals/goals-reason-for-postponing.gif" alt-text="Image of Provide a reason for postponing":::
- 
 ### How to measure progress to-date on postponed objectives
 
 There are two methods of measuring progress in Viva Goals: **Percent completed** and **KPI (success metric)**. Progress will be reset by default when an objective is postponed to the following time period. You can choose to preserve the progress you have made prior to postponement. 
 
-:::image type="content" source="../media/goals/goals-postpone-objective.png" alt-text="Image of What happens to my progress when I postpone the objective":::
+![Close-and-Postpone-3@1x](https://user-images.githubusercontent.com/100967547/166746359-6f1386e1-9827-4728-8539-5d3a37093eb3.jpg)
 
 ***Percent completed***
 
@@ -198,10 +189,6 @@ Progress will be reset to the current value. For instance, you want to publish 1
 
 If the current progress is 0, the status will be **Postponed** by default. A progress of 0 potentially means you haven't started working on the objective, or the work you did hasn't moved the needle on the objective.
 
-:::image type="content" source="../media/goals/goals-postpone-progress-0.gif" alt-text="Image of When the progress is 0":::
-
 ***When the progress is anything but 0***
 
 If the current progress is anything greater than 0, the status will be **Closed** by default. This is owing to the fact that there's a substantial amount of progress made, and you might want to close the objective with the progress you're it at that given point in time. However, you also have the option to postpone this objective to chart progress toward the desired goal.
-
-:::image type="content" source="../media/goals/goals-postpone-anything-but-0.gif" alt-text="Image of When the progress is anything but 0":::
