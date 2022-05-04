@@ -64,9 +64,9 @@ By default, all objectives will be visible to the entire organization unless con
     :::image type="content" source="../media/goals/viva-goals-private-objectives-4.png" alt-text="Private Objectives 4":::
 
     The privacy of an objective can be edited or changed at any time by the owner of the objective.
-    
-## Key considerations for Private Objectives 
-    
+
+## Key considerations for Private Objectives
+
     - Making an objective **Private** will automatically cascade the same privacy settings to its Key Results.
     - An Objective cannot be made Private if any of its Key Results are in Multiple Alignment  
     - The Key Results of a Private Objective cannot be multi-aligned to more than one Private Objective.
