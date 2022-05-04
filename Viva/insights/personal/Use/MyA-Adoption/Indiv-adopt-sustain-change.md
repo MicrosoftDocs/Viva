@@ -1,9 +1,9 @@
 ---
 
-title: MyAnalytics Individual Adoption - Sustain change
-description: How to sustain change after collaboration goals are met by using MyAnalytics
+title: Viva Insights Individual Adoption - Sustain change
+description: How to sustain change after collaboration goals are met by using Viva Insights
 author: madehmer
-ms.author: helayne
+ms.author: v-lilyolason
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-personal 
@@ -47,7 +47,7 @@ Having identified potential barriers, you can find solutions. Turn off email ale
 
 ## Manage expectations
 
-Without some upfront conversations about what you are trying to achieve, even well-meaning teammates can sabotage your efforts to reclaim your time. Tell your manager and closest collaborators about the new habits you are trying to develop and why. Use this conversation to manage their expectations. For example, if your goal is to work more efficiently, and you are committed to avoid sending emails after the end of the work day, then your coworkers should know to call you in an emergency but otherwise wait until morning for your responses.
+Without some upfront conversations about what you are trying to achieve, even well-meaning teammates can sabotage your efforts to reclaim your time. Tell your manager and closest collaborators about the new habits you are trying to develop and why. Use this conversation to manage their expectations. For example, if your goal is to work more efficiently, and you are committed to avoid sending emails after the end of the workday, then your coworkers should know to call you in an emergency but otherwise wait until morning for your responses.
 
 Creating boundaries around how you collaborate can feel uncomfortable, especially when you are setting those boundaries with a manager. Many people want their peers and supervisor to see them as team players, willing to do whatever it takes. Remember: setting boundaries on collaboration does not mean you aren’t a team player. Too much collaboration increases stress, lowers productivity, and impedes creativity, and often with little additional benefit. 
 
@@ -59,8 +59,8 @@ Human behaviors are heavily influenced by social norms, which are the values, ac
 
 Professor Sandy Pentland, who directs the MIT Connection Science and Human Dynamics labs, says collective intelligence builds when one person shows enthusiasm, recruits others and the group begins to work together. “Just hearing something said rarely results in change in behavior. They’re just words. When we see people in our peer group play with an idea, our behavior changes.” (_The Culture Code_, by Daniel Coyle<!-- Pg __-->).
 
-Here are some suggestions for how to use MyAnalytics to change habits as a team:
+Here are some suggestions for how to use Viva Insights to change habits as a team:
 
 * Share the [Learning modules](adopt-learning-modules.md) with the full team and carve out time during team meetings to discuss them. These discussions can help you identify habits to experiment with and select new team collaboration norms.
-* Try the [MyAnalytics Team Behavior Change Program](Team-adopt-intro.md).
+* Try the [Viva Insights Team Behavior Change Program](Team-adopt-intro.md).
 * Select a few [Habit playbooks](adopt-habit-playbooks.md) and do them together. Turn it into a friendly competition. For example, schedule a quick team check-in for the end of the month, and hand out prizes to anyone who can show that they spent zero hours multitasking in meetings during that month.

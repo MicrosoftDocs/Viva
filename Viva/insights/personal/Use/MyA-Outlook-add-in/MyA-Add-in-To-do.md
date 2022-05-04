@@ -1,8 +1,8 @@
 ---
 
 ROBOTS: NOINDEX,NOFOLLOW
-title: Task card in MyAnalytics
-description: Describes the purpose of task cards in MyAnalytics  
+title: Task card in Viva Insights
+description: Describes the purpose of task cards in Viva Insights  
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -18,12 +18,12 @@ audience: Admin
 
 # Task card
 
-MyAnalytics can remind you to do tasks that are called out in email messages. In an automatic process, MyAnalytics finds instances in which a task is promised or requested, such as:  
+Viva Insights can remind you to do tasks that are called out in email messages. In an automatic process, Viva Insights finds instances in which a task is promised or requested, such as:  
 
 * An email you sent generates a Task card for you if it contains a statement such as “I will send you the plans.”
 * An email you received generates a Task card for you if it contains a statement such as “Please review the highlighted items.”  
 
-If you have one or more of these automatically generated tasks, a summary card is displayed in the MyAnalytics pane:  
+If you have one or more of these automatically generated tasks, a summary card is displayed in the Viva Insights pane:  
 
 ![Task card.](../../../Images/mya/use/To-do-page-1.PNG)
 

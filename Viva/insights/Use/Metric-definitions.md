@@ -1,12 +1,12 @@
 ---
 
-title: Metric definitions 
+title: Metric definitions for Advanced insights
 description: Describes the metrics for queries that are available in Microsoft Viva Insights, including Person, Meeting, Group-to-group, Person-to-group, and Network query metrics 
 author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-manager: scott.ruble
+manager: helayne
 audience: Admin
 ms.collection: viva-insights-advanced 
 ms.service: viva 
@@ -16,7 +16,7 @@ search.appverid:
 
 ---
 
-# Metric descriptions
+# Advanced insights metric descriptions
 
 To customize [queries](../tutorials/query-basics.md), you can use the metrics that are defined on this page. They are organized by query type:
 
@@ -32,7 +32,7 @@ To customize [queries](../tutorials/query-basics.md), you can use the metrics th
 The metrics in this table are used both in [person queries](../tutorials/person-queries.md) and in [peer-comparison](../tutorials/comparison-query.md) queries.
 
 >[!Note]
->In Microsoft Teams, teamwork and communication happen in channels. Workplace Analytics includes several "channel metrics," which measure aspects of team communication over channels (both public channels and private channels) in Teams. These metrics are defined in the following table. When these metrics first become available in Workplace Analytics in August, 2021, they will reflect a baseline of only 30 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
+>In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several "channel metrics," which measure aspects of team communication over channels (both public channels and private channels) in Teams. These metrics are defined in the following table. When these metrics first become available in the advanced insights app in August, 2021, they will reflect a baseline of only 30 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
 
 <!-- BE SURE TO REMOVE THIS NOTE AT SOME POINT. ASK RADHIKA HOW LONG IT SHOULD BE RETAINED. 13 MONTHS FROM AUGUST 2021? -->
 
@@ -71,7 +71,7 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 |Instant message hours | Number of hours that a person spent in instant messages (IMs) through Teams with at least one other person, during and outside of working hours.| Person| Hours| Yes |
 |Instant messages sent | Total number of instant messages (IMs) sent by a person through Teams, during and outside of working hours. | Person| Count| Yes |
 |Internal network size|   The number of people within the company with whom the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks.  |Person|Count|Yes |
-|  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours |Number of meeting hours in which an attendee was multitasking, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Viva Insights or Workplace Analytics admins can [set the hourly rate](system-defaults.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. **Note**: Calculations for conflicting meeting hours are affected by meeting exclusion rules and adjustments based on the type of meetings that overlap (non-declined work meetings, focus hours, and out-of-office time).|Person|Hour|Yes|
+|  <a name="low-quality-meeting-hours-define"></a> Low-quality meeting hours |Number of meeting hours in which an attendee was multitasking, attended a *conflicting meeting*, or attended a meeting that exhibits *Redundancy (organizational)*. Viva Insights admins can [set the hourly rate](system-defaults.md#hourly-rate) of low-quality meeting time; if this value has not been set, the cost defaults to $75 per person hour. **Note**: Calculations for conflicting meeting hours are affected by meeting exclusion rules and adjustments based on the type of meetings that overlap (non-declined work meetings, focus hours, and out-of-office time).|Person|Hour|Yes|
 |Manager coaching hours 1:1|Total number of hours that a manager spends in one-on-one meetings with *all* of the manager's direct reports. |Person|Hour|Yes|
 |<a name="meeting-hours-define"></a>Meeting hours|Number of hours the person spent in meetings with at least one other person during and outside of working hours.|Person|Hour|Yes|
 |Meeting hours during working hours|Number of hours the person spent in meetings, during working hours, with at least one other person.|Person|Hour|Yes|
@@ -86,8 +86,8 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 | <a name="multitasking-meeting-hours-define"></a>Multitasking meeting hours|Number of meeting hours where the person sent two or more emails per meeting hour. If less than an hour in length, the calculation is two emails or more sent per meeting. New options are available for measuring multitasking volume and frequency that also reflect Teams activity. To measure how frequently meetings or Teams calls are interrupted by emails or instant messages, add the "Included multitasking" filter to the "Meetings" metric or "Calls" metric. To measure the volume of time spent sending emails or instant messages during a meeting or Teams call, check out [Multitasking hours](metric-definitions.md#multitasking-hours-define). |Person|Hour|Yes|
 | Networking outside company|The number of distinct external domains outside the company a person has had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
 | Networking outside organization| The number of distinct organizational units within the company that the person had at least two [meaningful interactions](glossary.md#meaningful-interaction-define) in the last four weeks. |Person|Count|Yes |
-|Open 1 hour block |Number of one-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
-|Open 2 hour blocks |Number of two-hour blocks in the person’s calendar without meetings during the work day.|Person|Count|Yes|
+|Open 1 hour block |Number of one-hour blocks in the person’s calendar without meetings during the workday.|Person|Count|Yes|
+|Open 2 hour blocks |Number of two-hour blocks in the person’s calendar without meetings during the workday.|Person|Count|Yes|
 |Peer average (customer collaboration) | The total amount (in hours) of customer collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
 |Peer average (internal collaboration) | The total amount (in hours) of internal collaboration for all of the participants in the plan divided by the number of participants in the plan. | Person | Hour | No|
 |Redundant meeting hours (lower level) |Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. <br> <br> This metric is _not_ used in calculating *Low-quality meeting hours*. Analysts can use this metric only when creating [Person queries](../tutorials/person-queries.md).|Person | Hour| Yes |
@@ -103,7 +103,7 @@ The metrics in this table are used both in [person queries](../tutorials/person-
 |<a name="working-hours-email-hours-define"></a> Working hours email hours| Number of hours the person spent sending and receiving emails during working hours. |Person|Hour|Yes|
 |Working hours in calls| Total number of hours a person spent time in scheduled and unscheduled calls with Teams, during working hours. | Person| Hour| Yes |
 |Working hours instant messages| Total number of hours a person spent time in instant messages through Teams, during working hours. | Person| Hour| Yes |
-| <a name="workweek-span-define"></a> Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if Workplace Analytics is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
+| <a name="workweek-span-define"></a> Workweek span | The time between the person's first sent email, meeting attended, or Teams call or chat, and the last email, meeting, call, or chat for each day of the work week. The total number of hours are based on the person’s work week that is set in Outlook, which the user can change at any time. If a work week is not defined in Outlook (or if the advanced insights app is unable to access a user's Outlook settings), the totals are based on the default of Monday through Friday, with a minimum of four hours and a maximum of 16 hours per day. If reported for the week, the metric is a sum of the daily values for the week. If reported for the month, the metric is the sum of the daily values for the month. |Person|Hour|No|
 
 ## Peer-comparison metrics
   

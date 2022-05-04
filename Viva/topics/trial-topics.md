@@ -1,7 +1,7 @@
 ---
 title: Run a trial of Microsoft Viva Topics
-ms.author: chucked
-author: chuckedmonson
+ms.author: ruthhollands
+author: ruthholls
 manager: pamgreen
 ms.reviewer: lauris; jaeccles
 ms.date:
