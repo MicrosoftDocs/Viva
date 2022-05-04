@@ -19,12 +19,12 @@ search.appverid:
 description: "Learn how to add a personal API token from the 'Profile & account' section in Favro."
 ---
 
-# Favro - generating an Application Programming Interface (API) Token
+# Favro API token 
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Below are steps that explains how to add a personal API token from the '**Profile & account**' section in Favro.
+Here is how to add a personal API token from the '**Profile & account**' section in Favro.
   
 1. From the top-left corner, select your account drop-down.
   
@@ -34,10 +34,5 @@ Below are steps that explains how to add a personal API token from the '**Profil
   
 4. Select the **Create new token** button**.
   
-This procedure will generate an API token for your Favro account that you can use to integrate with Viva Goals.
-
-:::image type="content" source="../media/goals/viva-goals-favro-1.png" alt-text="Favro 1":::
-
-
-
+This procedure will generate an API token for your Favro account that you can use to integrate with Viva Goals. 
 
