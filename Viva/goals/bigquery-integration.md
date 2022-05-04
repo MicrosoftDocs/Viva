@@ -32,8 +32,8 @@ Take this example: you have data inside your BigQuery warehouse to track the num
 
 An admin can set up the BigQuery integration in Viva Goals. Take the following steps: 
 
-1. Navigate to Ally’s integrations page through **Admin > Integrations**.
-1. Scroll through the integration options until you locate BigQueary, then select **enable** if this is the first time, or **manage** if an integration has already been established.
+1. Navigate to the Viva Goals integrations page through **Admin > Integrations**.
+1. Scroll through the integration options until you locate BigQuery, then select **enable** if this is the first time, or **manage** if an integration has already been established.
 1. Click on **New Connection**. In the popup that follows, enter the connection name and the BigQuery Project ID that holds the data you would like to connect to OKRs.
 1. Viva Goals uses a service account with OAuth 2.0 to call into the Google BigQuery APIs. For the BigQuery integration to work, you need to add Viva Goals' service account to your BigQuery project and provide the required access & permissions. [Please click here for step by step instructions to complete setup](https://help.ally.io/en/articles/4089956-bigquery-integration-setup-instructions).
 1. Click **Next** to finish the setup.
