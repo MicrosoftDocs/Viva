@@ -23,17 +23,15 @@ description: "Keep track of your OKR progress by automating key updates from you
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## Who can use this feature?
-
-All Users and Admins (Admins also have permissions to manage the integration from the admin dashboard)
-
 ## About the MS SQL integration
 
-Viva Goals’ Integration with MS SQL Server allows you to link your OKRs in Viva Goals to a server database in MS SQL and provides automatic, real-time updates on your objectives. For example, if you have an objective to increase visits and the time spent in your app by 60% then you can directly link this objective with the relevant data in MS SQL Server. Whenever there’s a change in the dataset and the database is updated, this data is automatically synced with  Viva Goals every hour and the OKR status updated.
+The Viva Goals integration with MS SQL Server allows you to link your OKRs in Viva Goals to a server database in MS SQL and provides automatic, real-time updates on your objectives. 
 
-## Set up
+For example, if you have an objective to increase visits and the time spent in your app by 60% then you can directly link this objective with the relevant data in MS SQL Server. Whenever there’s a change in the dataset and the database is updated, this data is automatically synced with  Viva Goals every hour and the OKR status updated.
 
-## Connect MS SQLServer to your Viva Goals account
+All users and admins have access to this integration. Admins also have permissions to manage the integration from the admin dashboard.
+
+## How to connect the MS SQLServer to your Viva Goals account
 
 1. The first step in setting up the MS SQL integration is to connect your account to Viva Goals Navigate to your sidebar and select **Admin** and then select **Integrations**.
 
@@ -46,13 +44,13 @@ Viva Goals’ Integration with MS SQL Server allows you to link your OKRs in Viv
 
 4. Then select **Next** to complete the new connection setup. 
 
-## Edit an existing connection
+## How to edit an existing connection
 
 Admins can edit an existing connection’s name and shared state that you’ve created from the MS SQL Server integration’s view. 
 
 Select the **Edit** icon next to the MS SQL connection.  In the pop-up dialog box that follows, you can edit the connection’s name and other fields and **select** or clear the **Share connection with all users** checkboxes.
 
-## Using the MS SQL Server Integration
+## How to use the MS SQL Server integration
 
 Once your integration is set up, you can measure your OKRs progress by connecting your new or existing OKRs with an MS SQL server database.  
 
@@ -64,6 +62,6 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 
 4. Select **Next** to finish and save your OKR. You’ll now see the MS SQL Server icon next to the OKR‘s progress indicator. This means Viva Goals will automatically measure the progress based on the data updates in the report. 
 
-## Disabling the integration
+## How to disable the integration
 
-The MS SQL Server may also be disabled by an Admin at any time. To disable the integration, as an Admin go to MS SQL in the Integrations section. Select MS SQL Server in the integrations section and select **Manage**. In the configurations page, select the Change dropdown, select **Disable and confirm the action**. 
+The MS SQL Server can be disabled by an admin at any time. To disable the integration, go to MS SQL in the Integrations section. Select MS SQL Server in the integrations section and select **Manage**. In the configurations page, select the Change dropdown, select **Disable and confirm the action**. 
