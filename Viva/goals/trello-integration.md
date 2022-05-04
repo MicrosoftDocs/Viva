@@ -19,16 +19,18 @@ search.appverid:
 description: "Learn how to use the Trello integration with your OKRs."
 ---
 
-# Trello Integration
+# Trello integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals can integrate with boards in Trello to automatically update your Objectives and Key Results (OKRs) inside Viva Goals. For example, you're a marketer using a Trello board to keep track of the blog posts you want to publish. You would set an objective to complete some blog posts within the time period. Use the Trello integration to easily keep track of completed posts. Viva Goals will sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
+Viva Goals can integrate with boards in Trello to automatically update your Objectives and Key Results (OKRs) inside Viva Goals. 
+    
+Let's take this example: you are a marketer using a Trello board to keep track of the blog posts you want to publish. Use the Trello integration to easily keep track of completed posts. Viva Goals will sync the values for you and chart your progress toward your OKR, saving time while keeping OKRs current.
 
-## Setting up
+## How to set up the Trello integration
 
-An admin can set up the Trello integration on Viva Goals. To do so:
+An admin can set up the Trello integration on Viva Goals. Take these steps: 
 
 1. Navigate to Viva Goals’ integrations page through **Admin -> Integrations**.
 
@@ -40,7 +42,7 @@ An admin can set up the Trello integration on Viva Goals. To do so:
 
 Viva Goals allows you to connect with multiple Trello accounts. Select **New connection** to add another and differentiate them using names. These names are displayed to members when they link their OKRs to Trello boards.
 
-## Using Trello Integration
+## How to use the Trello Integration
 
 Once the setup is complete, users in your organization can link their OKRs to Trello boards.
 
@@ -62,13 +64,11 @@ Once the setup is complete, users in your organization can link their OKRs to Tr
 
     d. Card with specific completion status.
 
-    For example, if you want to measure the number of blogs completed as a key performance indicator (KPI) inside Viva Goals and if you've all the completed blog post cards in your Trello board in the **Finished** column list in Trello, you can select **Finished** from the list of options in the **Board List** dropdown.
+    For example, if you want to measure the number of blogs completed as a key performance indicator (KPI) inside Viva Goals and if you have completed blog post cards in your Trello board in the **Finished** column, you can select **Finished** from the list of options in the **Board List** dropdown.
 
     If you have the completed blogs marked as labels in Trello instead, you can select the label that you use to mark cards as completed from the **Labels** dropdown. Labels can also be used for filtering specific cards belonging to a category or subcategory.
 
-    You can also filter based on Completion status that will let you filter on cards that have due dates and marked as completed or cards that have due dates and isn't completed. To select all the cards, just choose **Any** which will include cards of any status whether it has a due date or not.
-
-    Viva Goals lets you filter based on more than one criteria that will help you easily get to the list of cards inside Trello based on which you want to measure the objective in Viva Goals.
+    You can also filter based on Completion status. This will let you filter cards that have due dates and those marked as completed or cards that have due dates and aren't completed. To select all cards, choose **Any,** which will include cards of any status whether it has a due date or not.
 
     **% Completed vs KPI**
 
@@ -79,10 +79,3 @@ Once the setup is complete, users in your organization can link their OKRs to Tr
     In the following example, we're counting the number of completed blog posts:
 
 6. Hit next to finish and save your OKR. You should now see a Trello icon next to the OKR - now Viva Goals will automatically count up the finished blog posts. The OKR syncs automatically every hour, but to refresh it manually you can select **refresh**.
-
-    The colors of the progress bars indicate the status of the Objective:
-
-    - If the progress is 0-25% less than the expected progress at any point in time, the status is Behind (orange).
-
-    - If the progress is over 25% less than the expected progress at any point in time, the status is At-Risk (red).
-
