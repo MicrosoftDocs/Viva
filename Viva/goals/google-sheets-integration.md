@@ -19,14 +19,16 @@ search.appverid:
 description: "Learn how to work smarter by integrating Google Sheets with Viva Goals."
 ---
 
-# Google Sheets Integration
+# Google Sheets integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals’ Google Sheets integration allows you to link Objectives and Key Results (OKRs) to Google Sheet cells for real-time updates of your progress. For example, you have a sales sheet used to track revenue. By implementing a Google Sheet integration, you can save yourself the hassle of repeatedly going back and forth between your sheets and Viva Goals to update your progress. Viva Goals will sync the values for you, thus saving time while keeping your OKRs current.
+The Viva Goals Google Sheets integration allows you to link Objectives and Key Results (OKRs) to Google Sheet cells for real-time updates of progress. 
 
-## Set up
+Let's take this example: you have a sales sheet used to track revenue. By implementing a Google Sheet integration, you can save yourself the hassle of repeatedly going back and forth between your Google Sheets and Viva Goals to update your progress. Viva Goals will sync the values for you, thus saving time while keeping your OKRs current.
+
+## How to set up the Google Sheets integration
 
 1. Navigate to Viva Goals’ integrations page from **Admin > Integrations**.
 
@@ -55,6 +57,3 @@ Now that the integration is enabled, your team can link a Google Sheet cell with
 2. In the popup box, you'll indicate the cell you would like to link the metric with. Select **View** to preview your sheet. In the following example, we'll locate and use Sales Sheet - Column E, Row 4 to indicate Susie's February Sales.
 
 3. Select **Next** to finish and save your OKR. You should now see an icon next to the OKR. The OKR will sync automatically every hour, but to refresh it manually select **refresh**.
-
-It’s as simple as that! Now you know how to work smarter with Viva Goals and Google Sheets.
-
