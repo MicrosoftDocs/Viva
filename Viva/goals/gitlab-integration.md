@@ -19,30 +19,30 @@ search.appverid:
 description: "Learn how to integrate your GitLab projects with OKRs in Viva Goals."
 ---
 
-# GitLab Integration
+# GitLab integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## Who can use this feature?
-
-All Users and Admins (Admins also have permissions to manage the integration from the admin dashboard) can use this feature.
-
 ## About the GitLab integration
 
-Viva Goals’ GitLab integration allows you to update your Objectives and Key Results (OKR) progress automatically depending on the progress of issues in your GitLab projects. Let’s say you use GitLab to track your projects, and you have an objective in Viva Goals for resolving 30 issues every quarter. When you link this objective to the corresponding project in GitLab, the status of your OKR will be updated as the issues under the associated project get resolved. You can also track the progress of issues being handled by a specific user for objectives that are user-centric. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
+The Viva Goals GitLab integration allows you to update your Objectives and Key Results (OKR) progress automatically depending on the progress of issues in your GitLab projects. 
+  
+Let's take this example: you use GitLab to track your projects, and you have an objective in Viva Goals for resolving 30 issues every quarter. When you link this objective to the corresponding project in GitLab, the status of your OKR will be updated as the issues under the associated project get resolved. You can also track the progress of issues being handled by a specific user for objectives that are user-centric. Viva Goals will automatically sync the values for you and chart your progress toward the goal, saving time while keeping your OKRs current.
+  
+All Users and admins can use this feature. Admins also have permissions to manage the integration from the admin dashboard. 
 
-## How to enable the GitLab integration?
+## How to enable the GitLab integration
 
-Admins can enable this integration, by performing the following steps:
+Admins can enable this integration by performing the following steps:
 
 - From the sidebar, go to **Admin** and select the **Integrations** tab.
 
 - Against **GitLab**, you'll have an option to **Enable** the integration. If you have a connection already created, you'll have an option to **Manage** the integration.
 
-## Connect GitLab to your Viva Goals account - Admins
+## How to connect GitLab to your Viva Goals account - Admins
 
-- After enabling the integration, as an admin, the first step is to configure a GitLab connection from the **GitLab configuration** page.
+- After enabling the integration as an admin, you need to configure a GitLab connection from the **GitLab configuration** page.
 
 - Select **New Connection**, and sign in to your GitLab account.
 
@@ -70,13 +70,13 @@ Once you've configured the connection, the next step is to start linking OKRs to
 
 - You can also directly search issues by typing in the issue ID or issue title or select them from the dropdown in the **Issues** field. You can also select multiple issues and connect them to the OKR.
 
-## How is progress calculated?
+## How to calculate progress with the GitLab integration
 
-- The progress of your OKR will be computed based on the count of issues (if you have chosen KPI metric to track progress), or if you have chosen percent complete to track progress, the % will be calculated based on the number of issues closed.
+The progress of your OKR will be computed based on the count of issues (if you have chosen KPI metric to track progress), or if you have chosen percent complete to track progress, the % will be calculated based on the number of issues closed.
 
-- If you have subtasks added under each issue, the progress will be calculated based on the status of the subtasks as well.
+If you have subtasks added under each issue, the progress will be calculated based on the status of the subtasks as well.
 
-For example, if you've connected two issues that have two subtasks each to your OKR, once you close subtask 1 in issue 1, the progress will be updated as 25% and on closing subtask 2 in issue 1, your OKR progress will be 50%.
+For example, if you have connected two issues that have two subtasks each to your OKR, once you close subtask 1 in issue 1, the progress will be updated as 25% and on closing subtask 2 in issue 1, your OKR progress will be 50%.
 
 > [!NOTE]
 > If you select percent complete to track progress, the progress will be computed only based on the percentage of issues closed. On the other hand, if you want to keep track of the issues that are open as well, you will have to select a KPI metric to track progress.
@@ -87,11 +87,9 @@ The following colors of the progress bar indicate the status of the objective:
 
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red.
 
-## How to disable the integration
+## How to disable the GitLab integration
 
 The GitLab integration may also be disabled by an Admin at any time. To disable the integration as an Admin, go to **GitLab** in the **Integrations** section and select **Manage**. In the **GitLab Configurations** page, go to the **Change** dropdown, select **Disable** and confirm the action.
 
 > [!NOTE]
-> If a project in Gitlab is closed without even marking all the sub-tasks as **complete**, it will drive a 100% progress on Viva Goals considering the project is completed since it was closed.
->
-> The rationale is that we did not want users to check-off all the sub-tasks in the checklist to ensure Viva Goals tracks the progress as 100%. If it's a 100 item checklist and 50 were completed but they have really completed the project, we did not want to force the user to mandatorily check off all the items in the checklist to achieve that.
+> If a project in Gitlab is closed without marking all sub-tasks as **complete**, it will drive 100% progress In Viva Goals considering the project is completed since it was closed.
