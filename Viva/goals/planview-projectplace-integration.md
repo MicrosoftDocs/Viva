@@ -25,12 +25,14 @@ description: "Sync your project progress in Planview Projectplace with your OKRs
 
 ## About the Planview Projectplace integration 
 
-Viva Goals’ Planview Projectplace integration allows you to link OKRs to your project boards for automatic real-time updates. Say, for instance, you have an objective to create an amazing user experience, you can directly link this objective with the project you’re running in Planview, so whenever you make an update and move a card in your project board, your OKR’s status gets updated automatically. 
+The Viva Goals Planview Projectplace integration allows you to link OKRs to your project boards for automatic real-time updates. 
+
+Let's take this example: you have an objective to create an amazing user experience. You can directly link this objective with the project you are running in Planview, so whenever you make an update and move a card in your project board, your OKR status gets updated automatically. 
 
 
-## Setting up 
+## How to set up a Planview Projectplace integration
 
-### Creating a connection
+### Create a connection
 
 1. Navigate to your sidebar and select on **Admin > Integrations**.
 
@@ -41,13 +43,13 @@ Viva Goals’ Planview Projectplace integration allows you to link OKRs to your 
 4. Name your connection and select **Next** to complete the setup. 
 
 
-### Editing an existing connection
+### Edit an existing connection
 
 You can edit an existing connection’s name and the connection’s shared state that you’ve created from the Projectplace integration’s view. 
 
 Select the **Edit** icon right next to the connection.  In the pop-up that follows, you can make changes to the connection name and enable or disable the **Share connection with all users** checkbox. 
 
-### Using the Planview Projectplace integration 
+## How to use the Planview Projectplace integration 
 
 Once your integration is set up, you can measure your OKRs progress by connecting your new or existing OKRs with a board in Planview Projectplace. 
 
@@ -61,8 +63,6 @@ Once your integration is set up, you can measure your OKRs progress by connectin
 
 5. The OKR syncs automatically every hour, but you can refresh it manually by selecting **Sync Now**. 
 
-    Say, for example, you have an objective to 'Create an amazing user experience with the revamped product tour'. You can create a corresponding project place board where you've listed out all the action items for the product tour revamp. As you start pushing each action item to the **Done** state, your objective's overall progress gets updated automatically. 
+## How to disable the Planview Projectplace integration
 
-### Disabling the integration
-
-The integration may also be disabled at any time from the 'Change' dropdown in the Projectplace integration view.
+The integration may be disabled at any time from the 'Change' dropdown in the Projectplace integration view.
