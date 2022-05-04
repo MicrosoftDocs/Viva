@@ -22,8 +22,6 @@ You can also set reminders to send acclaim on a regular basis to your coworkers 
 >[!Note]
 >The praise app is a messaging extension of Microsoft Teams. For more information, see [Messaging extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions).
 
-<!-- THIS LINK NEEDS TO GO HERE: [Messaging extensions](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) -->
-
 ## Send praise
 
 To send praise, open the praise feature in one of the following ways:
@@ -115,6 +113,9 @@ You can set praise reminders either on the [**Settings** page](viva-teams-app-se
 
 ## Praise history
 
+>[!Note]
+>Praise history is only available for users with an Exchange Online license.
+
 In the **Looking back** section on the **Praise** page, you can see the history for as many as 24 messages that you have either sent or received over the last six months. This history includes any praise sent or received through this page and through the Teams messaging extension.
 
 ![Praise history.](images/praise-history.png)
@@ -123,16 +124,6 @@ This history includes related praise details, such as the type of badge, who the
 
 You can also access your personal praise history by selecting **Review your praise history** in the **Praise** section that shows within your Teams channel **Posts**. This link only shows you your own personal history that nobody else can see.
 
-## Upcoming changes
-
-Starting in February 2022, what's currently available for educational praise badges will change. There are few badges that will no longer be available, such as for Self-awareness and Self-management.
-
-The **Create your own badges** option will also no longer be available as of February 2022.
-
-However, you'll continue to be able to view the history of any praise you sent or received in the past six months with any of these newly unavailable badges or options.
-
 ## Related topics
 
 [Viva Insights introduction](viva-teams-app.md)
-
-<!-- THIS CONTENT WAS ORIGINALLY FROM https://support.microsoft.com/en-us/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e?ui=en-US&amp;rs=en-US&amp;ad=US -->
