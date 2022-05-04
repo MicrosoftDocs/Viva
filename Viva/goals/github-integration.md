@@ -19,16 +19,18 @@ search.appverid:
 description: "Learn how to integrate your GitHub repositories with OKRs in Viva Goals."
 ---
 
-# GitHub Integration
+# GitHub integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-## Introduction to GitHub integration
+## Introduction to the GitHub integration
 
-Viva Goals’ GitHub integration allows you to update your Objectives and Key Results (OKR) progress automatically depending on the progress of issues in your GitHub repositories. For example, if you use GitHub to track the status of issues, and you have an objective in Viva Goals for resolving 30 issues every quarter. When you link this objective to the corresponding repository in GitHub, the status of your OKR will be updated as the issues under the associated repository get resolved. You can also track the progress of issues being handled by a specific user for objectives that are user-centric. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current.
+The Viva Goal GitHub integration allows you to update your Objectives and Key Results (OKR) progress automatically depending on the progress of issues in your GitHub repositories. 
 
-## How to enable the GitHub Integration?
+Let's use this example: you use GitHub to track the status of issues, and you have an objective in Viva Goals for resolving 30 issues every quarter. When you link this objective to the corresponding repository in GitHub, the status of your OKR will be updated as the issues under the associated repository get resolved. You can also track the progress of issues being handled by a specific user for objectives that are user-centric. Viva Goals will automatically sync the values for you and chart your progress toward the goal, saving time while keeping your OKRs current.
+
+## How to enable the GitHub integration
 
 Admins can perform the following steps to enable this integration:
 
@@ -38,7 +40,7 @@ Admins can perform the following steps to enable this integration:
 
 - This integration can also be **disabled** from the same section. Go to **Change** and select **Disable integration** from the dropdown to disable this integration.
 
-## How to configure the GitHub connection?
+## How to configure the GitHub connection
 
 - After enabling the integration, the first step is to configure a GitHub connection.
 
@@ -51,9 +53,9 @@ Admins can perform the following steps to enable this integration:
 > [!NOTE]
 > Viva Goals allows you to connect with multiple repositories. Select **New Connection** to fetch data from another repository. You can differentiate these connections using names, and the names will be displayed to other users when they link their OKRs with GitHub data.
 
-## How to connect the GitHub connection to an OKR?
+## How to connect the GitHub connection to an OKR
 
-Once you've configured the connection, the next step is to start linking OKRs to the GitHub repositories.
+Once you have configured the connection, the next step is to start linking OKRs to the GitHub repositories.
 
 - While **creating or editing an OKR**, select **Connect data source to auto-update progress**. From the drop-down menu, select **GitHub**.
 
@@ -74,11 +76,10 @@ Once you've configured the connection, the next step is to start linking OKRs to
 
 - Go to **Next** and select **Save**.
 
-You've successfully linked your objective to a repository in GitHub to track the progress of your issues, and updated the status of the corresponding OKR automatically.
+You have now successfully linked your objective to a repository in GitHub to track the progress of your issues, and updated the status of the corresponding OKR automatically.
 
 The following colors of the progress bar indicate the status of the objective:
 
 - If the progress is 0 - 25% less than the expected progress at any given point in time, the OKR status is Behind, and the progress bar color will be Orange.
 
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red.
-
