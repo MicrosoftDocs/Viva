@@ -18,24 +18,26 @@ search.appverid:
 description: "Learn how to integrate your PostgreSQL database with OKRs in Viva Goals."
 ---
 
-# Introduction to PostgreSQL integration
+# PostgreSQL integration
 
 > [!IMPORTANT]
 > Viva Goals is currently available only for private preview customers, and only in English. The features described here are subject to change. [Learn more about Viva Goals.](https://go.microsoft.com/fwlink/?linkid=2189933)
 
-Viva Goals’ PostgreSQL integration allows you to update your OKR progress automatically depending on the data fetched from your PostgreSQL database. Let’s say you use PostgreSQL databases to store information  on the number of leads that is garnered from multiple sources, and you have an objective in Viva Goals for increasing the number of qualified leads by 40% every quarter. When you link this objective to the corresponding database in PostgreSQL, the status of your OKR will be updated based on the data in your database. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current. 
+The Viva Goals PostgreSQL integration allows you to update your OKR progress automatically depending on the data fetched from your PostgreSQL database. 
 
-## Enabling the PostgreSQL integration
+Let’s take this example: you use PostgreSQL databases to store information on leads from multiple sources. You also have an objective in Viva Goals for increasing the number of qualified leads by 40% every quarter. When you link this objective to the corresponding database in PostgreSQL, the status of your OKR will be updated based on the data in your database. Viva Goals will automatically sync the values for you and chart your progress toward the goal, thus saving time while keeping your OKRs current. 
+
+## How to enable the PostgreSQL integration
 
 Admins can enable this integration, and here’s how it can be done: 
 
 - From the sidebar, select **Admin >** select the **Integrations** tab. 
 
-- Against **PostgreSQL**, you'll have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you'll have the option to **Manage** the enabled integration. 
+- In **PostgreSQL**, yoU WILL have an option to **Enable** the integration. If a connection has been made previously or if the integration has been enabled, you'll have the option to **Manage** the enabled integration. 
 
 - This integration can also be disabled from the same section by selecting **Change**, and choosing **Disable integration** from the dropdown. 
 
-## Configuring the PostgreSQL connection 
+## How to configure the PostgreSQL connection 
 
 - After enabling the integration, the first step is to configure a PostgreSQL connection. 
 
@@ -45,16 +47,13 @@ Admins can enable this integration, and here’s how it can be done:
 
 - Provide the **username and password**. Upon authentication, the associated databases will be populated automatically. **Choose your database** from the dropdown menu. 
 
-    > [!NOTE]
-    > It is recommended to create a new user/role with read-only permissions to specific databases that will be connected to the objectives in [Viva Goals](https://ally.io/) for enhanced security.
-
-- It's optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time. 
+- It is optional to share this connection with other users in the organization. Select **Next** to get up and running with this integration. You can edit the saved connection at any time. 
 
 Viva Goals allows you to connect with multiple databases. Select **New Connection** to connect to another database. You can differentiate these connections using names, and the names will be displayed to other users when they link their OKRs with PostgreSQL databases. 
 
-## Connecting the PostgreSQL connection to an OKR
+## How to connect the PostgreSQL connection to an OKR
 
-Once you've configured the connection, the next step is to start linking OKRs to the PostgreSQL databases. 
+Once you have configured the connection, the next step is to start linking OKRs to the PostgreSQL databases. 
 
 - While creating or editing an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **PostgreSQL**. 
 
@@ -68,11 +67,10 @@ Once you've configured the connection, the next step is to start linking OKRs to
 
 - Select **Next > Save**. You should be able to see the PostgreSQL icon right next to your OKR. The sync happens once every hour, however, if you would like to initiate the sync manually, select the PostgreSQL icon, and select refresh icon.
 
-You've successfully linked your objective to a database in PostgreSQL to update the status of the corresponding OKR automatically based on the data present in the connected database. 
+You have successfully linked your objective to a database in PostgreSQL to update the status of the corresponding OKR automatically based on the data present in the connected database. 
 
 The colors of the progress bar indicated the status of the objective. 
 
 - If the progress is 0 - 25% less than the expected progress at any given point in time, the OKR status is Behind, and the progress bar color will be Orange. 
 
 - If the progress is over 25% less than the expected progress at any given point in time, the OKR status is At Risk, and the progress bar color will be Red. 
-
